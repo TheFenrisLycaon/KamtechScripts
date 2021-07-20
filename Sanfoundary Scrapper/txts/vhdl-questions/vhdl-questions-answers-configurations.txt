@@ -1,0 +1,77 @@
+1. Configuration is generally associated with ________
+a) Behavioral modeling
+b) Dataflow modeling
+c) Structural modeling
+d) All of the modeling styles
+c
+2. It is necessary to use configuration to bind entity to the architecture in case of structural modeling.
+a) True
+b) False
+b
+3. Among the following cases, when the configurations must be used?
+a) One entity and two architectures
+b) Two entities and one architecture
+c) Two entities and no architecture
+d) One entity and no architecture
+b
+4. Which of the following is correct syntax for defining a configuration?
+a)
+    FOR instantation_label : component_name
+    USE ENTITY library_name.entity_name[(architecture_name)];
+b)
+    FOR instantation_label : component_name
+    USE ENTITY entity_name[(architecture_name)];
+c)
+    FOR component_name : instantiation_label
+    USE ENTITY library_name.entity_name[(architecture_name)];
+d)
+    FOR component_name : instantiation_label
+    USE ENTITY entity_name[(architecture_name)];
+a
+  
+5. Which of the following part is optional in a configuration statement?
+a) Instantiation label
+b) Library name
+c) Entity name
+d) Architecture name
+d
+6. What is the use of default configurations?
+a) To bind the architecture and entity
+b) To configure block statements in architecture
+c) To bind generics with architecture
+d) To bind components with entity
+a
+7. Which of the following is true about configurations?
+a) To use architecture in configurations, it must be first added to some library
+b) A configuration can use more than one architecture for an entity
+c) To use an entity in configurations, it must be first added to some library
+d) A configuration can’t use any architecture for any entity
+c
+8. Apart from the components ________ can also be associated with configurations.
+a) Constants
+b) Generics
+c) Integers
+d) Signals
+b
+9. It is necessary to define entity and configuration in the same library.
+a) True
+b) False
+a
+10. Which of the following is not a part of the configuration statement?
+a) Architecture specification
+b) Instance specification
+c) Binding indication
+d) Library binding
+d
+11. As a VHDL designer, what should you make sure about the design so that it is synthesized correctly?
+a) It must use a configuration when more than one architecture is used
+b) All the component ports and entity ports must be matched
+c) A configuration must be there always
+d) A configuration is used when ports are mismatched
+b
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Type Kind and Range Kind Attributes» Next - VHDL Questions and Answers – Overloading 

@@ -1,0 +1,94 @@
+1. The frequency shift can be achieved by multiplying the band pass signal as given in equation
+ x(t) = \(u_c (t) cos⁡2π F_c t-u_s (t) sin⁡2π F_c t\) by the quadrature carriers cos[2πFct] and sin[2πFct] and lowpass filtering the products to eliminate the signal components of 2Fc.
+a) True
+b) False
+a
+2. What is the final result obtained by substituting Fc=kB-B/2, T= 1/2B and say n = 2m i.e., for even and n=2m-1 for odd in equation x(nT)= \(u_c (nT)cos⁡2πF_c nT-u_s (nT)sin⁡ 2πF_c nT\)?
+a) \((-1)^m u_c (mT_1)-u_s\) 
+b) \(u_s (mT_1-\frac{T_1}{2})(-1)^{m+k+1}\) 
+c) None
+d) \((-1)^m u_c (mT_1)- u_s (mT_1-\frac{T_1}{2})(-1)^{m+k+1}\) 
+d
+\(x(nT)=u_c (nT)cos⁡ 2πF_c nT-u_s (nT)sin⁡2πF_c nT\) → equ1
+=\(u_c (nT)cos⁡\frac{πn(2k-1)}{2}-u_s(nT)sin⁡\frac{πn(2k-1)}{2}\) → equ2
+On substituting the above values in equ1, we get say n=2m, \(x(2mT) ≡ xmT_{(1)} = u_c (mT_1)cos⁡πm(2k-1)=(-1)^m u_c (mT_1)\) 
+where \(T_1=2T=\frac{1}{B}\). For n odd, say n=2m-1 in equ2 then we get the result as follows
+\(u_s (mT_1-\frac{T_1}{2})(-1)^{m+k+1}\) 
+Hence proved.
+3. Which low pass signal component occurs at the rate of B samples per second with even numbered samples of x(t)?
+a) uc-lowpass signal component
+b) us-lowpass signal component
+c) uc & us-lowpass signal component
+d) none of the mentioned
+a
+4. Which low pass signal component occurs at the rate of B samples per second with odd numbered samples of x(t)?
+a) uc – lowpass signal component
+b) us – lowpass signal component
+c) uc & us – lowpass signal component
+d) none of the mentioned
+b
+5. What is the reconstruction formula for the bandpass signal x(t) with samples taken at the rate of 2B samples per second?
+a) \(\sum_{m=-\infty}^{\infty}x(mT)\frac{sin⁡(π/2T) (t-mT)}{(π/2T)(t-mT)} cos⁡2πF_c (t-mT)\) 
+b) \(\sum_{m=-\infty}^{\infty}x(mT)\frac{sin⁡(π/2T) (t+mT)}{(π/2T)(t+mT)} cos⁡2πF_c (t-mT)\) 
+c) \(\sum_{m=-\infty}^{\infty}x(mT)\frac{sin⁡(π/2T) (t-mT)}{(π/2T)(t-mT)} cos⁡2πF_c (t+mT)\) 
+d) \(\sum_{m=-\infty}^{\infty}x(mT)\frac{sin⁡(π/2T) (t+mT)}{(π/2T)(t+mT)} cos⁡2πF_c (t+mT)\) 
+a
+6. What is the new centre frequency for the increased bandwidth signal?
+a) Fc‘= Fc+B/2+B’/2
+b) Fc‘= Fc+B/2-B’/2
+c) Fc‘= Fc-B/2-B’/2
+d) None of the mentioned
+b
+7. According to the sampling theorem for low pass signals with T1=1/B, then what is the expression for uc(t) = ?
+a) \(\sum_{m=-∞}^∞ u_c (mT_1)\frac{sin⁡(\frac{π}{T_1}) (t-mT_1)}{(π/T_1)(t-mT_1)}\) 
+b) \(\sum_{m=-∞}^∞ u_s (mT_1-\frac{T_1}{2}) \frac{sin⁡(\frac{π}{T_1}) (t-mT_1+T_1/2)}{(\frac{π}{T_1})(t-mT_1+\frac{T_1}{2})}\) 
+c) \(\sum_{m=-∞}^∞ u_c (mT_1)\frac{sin⁡(\frac{π}{T_1}) (t+mT_1)}{(\frac{π}{T_1})(t+mT_1)}\) 
+d) \(\sum_{m=-∞}^∞ u_s (mT_1-\frac{T_1}{2}) \frac{sin⁡(\frac{π}{T_1}) (t+mT_1+\frac{T_1}{2})}{(\frac{π}{T_1})(t+mT_1+\frac{T_1}{2})}\) 
+a
+\(u_c (t)=\sum_{m=-∞}^∞ u_c (mT_1)\frac{sin⁡(\frac{π}{T_1}) (t-mT_1)}{(π/T_1)(t-mT_1)}\).
+8. According to the sampling theorem for low pass signals with T1=1/B, then what is the expression for us(t) = ?
+a) \(\sum_{m=-∞}^∞ u_c (mT_1) \frac{sin⁡(\frac{π}{T_1}) (t-mT_1)}{(\frac{π}{T_1})(t-mT_1)}\) 
+b) \(\sum_{m=-∞}^∞ u_s (mT_1-\frac{T_1}{2}) \frac{sin⁡(\frac{π}{T_1}) (t-mT_1+\frac{T_1}{2})}{(π/T_1)(t-mT_1+\frac{T_1}{2})}\) 
+c) \(\sum_{m=-∞}^∞ u_s (mT_1-\frac{T_1}{2}) \frac{sin⁡(\frac{π}{T_1}) (t-mT_1-\frac{T_1}{2})}{(\frac{π}{T_1})(t-mT_1-\frac{T_1}{2})}\) 
+d) \(\sum_{m=-∞}^∞ u_c (mT_1) \frac{sin⁡(\frac{π}{T_1}) (t+mT_1)}{(\frac{π}{T_1})(t+mT_1)}\) 
+b
+\(u_s (t)=\sum_{m=-∞}^∞ u_s (mT_1-T_1/2) \frac{sin⁡(π/T_1) (t-mT_1+T_1/2)}{(π/T_1)(t-mT_1+T_1/2)}\)
+9. What is the expression for low pass signal component uc(t) that can be expressed in terms of samples of the bandpass signal?
+a) \(\sum_{n=-∞}^∞ (-1)^{n+r+1} x(2nT^{‘}-T^{‘}) \frac{sin⁡(π/(2T^{‘})) (t-2nT^{‘}+T^{‘})}{(π/(2T^{‘}))(t-2nT^{‘}+T^{‘})}\) 
+b) \(\sum_{n=-∞}^∞ (-1)^n x(2nT^{‘}) \frac{sin⁡(π/(2T^{‘})) (t-2nT^{‘})}{(π/(2T^{‘}))(t-2nT^{‘})}\) 
+c) All of the mentioned
+d) None of the mentioned
+b
+band pass signal as follows:
+\(u_c (t) = \sum_{n=-∞}^∞ (-1)^n x(2nT^{‘}) \frac{sin⁡(π/(2T^{‘})) (t-2nT^{‘})}{(π/(2T^{‘}))(t-2nT^{‘})}\).
+10. What is the expression for low pass signal component us(t) that can be expressed in terms of samples of the bandpass signal?
+a) \(\sum_{n=-∞}^∞ (-1)^{n+r+1} x(2nT^{‘}-T^{‘}) \frac{sin⁡(π/(2T^{‘})) (t-2nT^{‘}+T^{‘})}{(π/(2T^{‘}))(t-2nT^{‘}+T^{‘})}\) 
+b) \(\sum_{n=-∞}^∞ (-1)^n x(2nT^{‘}) \frac{sin⁡(π/(2T^{‘})) (t-2nT^{‘})}{(π/(2T^{‘}))(t-2nT^{‘})}\) 
+c) All of the mentioned
+d) None of the mentioned
+a
+band pass signal as follows:
+\(u_s (t) = \sum_{n=-∞}^∞ (-1)^{n+r+1} x(2nT^{‘}-T^{‘}) \frac{sin⁡(π/(2T^{‘})) (t-2nT^{‘}+T^{‘})}{(π/(2T^{‘}))(t-2nT^{‘}+T^{‘})}\)
+11. What is the Fourier transform of x(t)?
+a) X (F) = \(\frac{1}{2} [X_l (F-F_c)+X_l^* (F-F_c)]\) 
+b) X (F) = \(\frac{1}{2} [X_l (F-F_c)+X_l^* (F+F_c)]\) 
+c) X (F) = \(\frac{1}{2} [X_l (F+F_c)+X_l^* (F-F_c)]\) 
+d) X (F) = \(\frac{1}{2} [X_l (F-F_c)+X_l^* (-F-F_c)]\) 
+d
+X (F) = \(\int_{-\infty}^∞ x(t)e^{-j2πFt} dt\) 
+=\(\int_{-\infty}^∞ \{Re[x_l (t) e^{j2πF_c t}]\}e^{-j2πFt} dt\) 
+Using the identity, Re(ε)=1/2(ε+ε^*)
+X (F) = \(\int_{-\infty}^∞ [x_l (t) e^{j2πF_c t}+x_l^* (t)e^{-j2πF_c t}] e^{-j2πFt} dt\) 
+=\(\frac{1}{2}[X_l (F-F_c)+X_l^* (-F-F_c)]\).
+12. What is the basic relationship between the spectrum o f the real band pass signal x(t) and the spectrum of the equivalent low pass signal xl(t)?
+a) X (F) = \(\frac{1}{2} [X_l (F-F_c)+X_l^* (F-F_c)]\) 
+b) X (F) = \(\frac{1}{2} [X_l (F-F_c)+X_l^* (F+F_c)]\) 
+c) X (F) = \(\frac{1}{2} [X_l (F+F_c)+X_l^* (F-F_c)]\) 
+d) X (F) = \(\frac{1}{2} [X_l (F-F_c)+X_l^* (-F-F_c)]\) 
+d
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Sample and Hold» Next - Digital Signal Processing Questions and Answers – The Representation of Bandpass Signals 

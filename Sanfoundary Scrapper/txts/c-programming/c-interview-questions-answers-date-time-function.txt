@@ -1,0 +1,128 @@
+1. What will be the output of the following C code, if the system date is 6/23/2017?
+#include<stdio.h>
+#include<time.h>
+int main()
+{
+    struct tm *local;
+    time_t t;
+    t=time(NULL);
+    local=localtime(&t);
+    printf("%d",local->tm_mday);
+    return 0;
+}
+a) 6
+b) 22
+c) 23
+d) error
+c
+2. What will be the output of the following C code, if the system date is 6/24/2017?
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+int main()
+{
+    time_t ct;
+    time(&ct);
+    printf("%s\n",(&ct));
+}
+a) Error
+b) Junk value
+c) 6
+d) June
+b
+3. What is the meaning of the following C code if output is 0?
+#include<stdio.h>
+#include<time.h>
+int main()
+{
+    struct tm *local;
+    time_t t;
+    t=time(NULL);
+    local=localtime(&t);
+    printf("%d",local->tm_isdst);
+    return 0;
+}
+a) DST is in effect
+b) DST status is unknown
+c) DST is not in effect
+d) DST is corresponding with local time
+c
+4. The following C code results in an error. State whether true or false.
+#include<stdio.h>
+#include<time.h>
+int main()
+{
+    struct tm *local;
+    time_t t;
+    t=time(NULL);
+    local=asctime(localtime(&t));
+    printf("%d",local->tm_wday);
+    return 0;
+}
+a) True
+b) False
+b
+5. Which of the following format specifiers is used to specify whether the given time is in AM or PM?
+a) %P
+b) %I
+c) %X
+d) %p
+d
+6. What will be the output of the following C code if the system time is 1:52 PM (Sunday)?
+#include<stdio.h>
+#include<time.h>
+int main()
+{
+    struct tm *ptr;
+    time_t t;
+    char str[100];
+    t = time(NULL);
+    ptr = localtime(&t);
+    strftime(str,100,"%I",ptr);
+    puts(str);
+    return 0;
+}
+a) 13
+b) 01
+c) 1
+d) error
+b
+7. Which of the following format specifiers is used to represent the hours in the 24 hour clock (0-23) format?
+a) %I
+b) %H
+c) %i
+d) %h
+b
+8. What will be the output of the following C code?
+#include <stdio.h>
+#include <time.h>
+int main ()
+{
+	double d;
+	d = difftime (5,17);
+	printf ("%.2f\n", d );
+	return 0;
+}
+a) 12.00
+b) -12.00
+c) Error
+d) 12
+b
+9. The value returned by the library function mktime(), on failure is _________
+a) -1
+b) 0
+c) 1
+d) -2
+a
+10. Which of the following is defined under the header file time.h?
+a) strnct()
+b) fabs()
+c) iscntrl()
+d) null
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Date and Time Function – 2» Next - C Questions and Answers – Implementation-Defined Limits – 1 

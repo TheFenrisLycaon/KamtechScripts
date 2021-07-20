@@ -1,0 +1,63 @@
+1. Choose the compensating network design for non-inverting amplitude
+a
+2. Find the thevenin’s equivalent for resistance and voltage?
+a) 1-iii, 2-ii, 3-1
+b) 1-ii, 2-I, 3-iii
+c) 1-I, 2-ii, 3-iii
+d) 1-ii, 2-iii, 3-i
+b
+3. What is done to compensate the voltage, when V1 > V2?
+a) Move the wiper towards +Vcc
+b) Move the wiper towards –Vee
+c) Keep the wiper at the center of potentiometer
+d) None of the mentioned
+a
+4. Calculate the maximum thevenin equivalent resistance, if a 10kΩ potentiometer is used?
+a) 0.4kΩ
+b) 5 kΩ
+c) 2.5kΩ
+d) 4kΩ
+c
+Given potentiometer, Ra = 10kΩ
+=> Therefore, Rmax = 10kΩ/4 =2.5kΩ.
+5. Find the input offset voltage for the circuit shown
+a) Vio = (Rb*Vmax)/( Rmax+ Rb+ Rc)
+b) Vio = Rmax/( Rmax+ Rb+ Rc)
+c) Vio = (Rc*Vmax)/( Rmax+ Rb+ Rc)
+d) Vio = Vmax/( Rmax+ Rb+ Rc)
+c
+6.  Find the value of Ra and Rb from the circuit shown?
+a) Ra =4.6kΩ ; Rb= 9kΩ
+b) Ra =7.3kΩ ; Rb= 3.4kΩ
+c) Ra =2.5kΩ ; Rb= 5.1kΩ
+d) Ra =4kΩ ; Rb= 10kΩ
+d
+=> Rb = Vmax*(Rc / Rb ) = (10v/10mv)*10Ω (∵ Vio specified on the datasheet is 10mv for LM307 op-amp).
+=> Rb =10000 = 10kΩ.
+Since Rb > Rmax let us choose Rb = 10*Rmax. (Where Rmax = Ra/4).
+∴ Rb = (10*Rb)/4  and Ra = Rb/2.5 = 10kΩ/2.5=4kΩ.
+7. Why does an op-amp without feedback is not used in linear circuit application?
+a) Due to high current gain
+b) Due to high voltage gain
+c) Due to high output signal
+d) All of the mentioned
+b
+8. When the input voltage is reduced to zero in a closed loop configuration the circuit acts as
+a) Inverting amplifier
+b) Non-inverting amplifier
+c) Inverting and non-inverting amplifier
+d) None of the mentioned
+c
+If the non-inverting input terminal is connected to ground, it acts as inverting op-amp and vice versa.
+9.  How the value of output offset voltage is reduced in closed loop op-amp?
+a) By increasing gain
+b) By reducing gain
+c) By decreasing bandwidth
+d) By reducing bandwidth
+b
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Input Offset Voltage – 1» Next - Linear Integrated Circuit Questions and Answers – Input Offset Voltage – 3 

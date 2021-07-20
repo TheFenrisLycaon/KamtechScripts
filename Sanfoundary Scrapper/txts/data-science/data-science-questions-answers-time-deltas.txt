@@ -1,0 +1,63 @@
+1. Which of the following operations are supported on Time Frames?
+a) idxmax
+b) ixmax
+c) ixmin
+d) none of the mentioned
+a
+2. Point out the correct statement.
+a) Timedeltas are differences in times, expressed in difference units
+b) You can construct a Timedelta scalar through various argument
+c) DateOffsets cannot be used in construction
+d) All of the mentioned
+a
+3. Numeric reduction operation for timedelta64[ns] will return _________ objects.
+a) Timeseries
+b) Timeplus
+c) Timedelta
+d) None of the mentioned
+c
+4. Which of the following scalars can be converted to other ‘frequencies’ by as typing to a specific timedelta type?
+a) Timedelta Series
+b) TimedeltaIndex
+c) Timedelta
+d) All of the mentioned
+d
+5. Point out the wrong statement.
+a) min, max, idxmin, idxmax operations are supported on Series
+b) You cannot pass a timedelta to get a particular value
+c) Division by the numpy scalar is true division
+d) None of the mentioned
+b
+6. Which of the following is used to generate an index with time delta?
+a) TimeIndex
+b) TimedeltaIndex
+c) LeadIndex
+d) None of the mentioned
+b
+7. Combination of TimedeltaIndex with DatetimeIndex allow certain combination operations that are NaT preserving.
+a) True
+b) False
+a
+8. Using _________ on categorical data will produce similar output to a Series or DataFrame of type string.
+a) .desc()
+b) .describe()
+c) .rank()
+d) none of the mentioned
+b
+9. Which of the following method can be used to rename categorical data?
+a) Categorical.rename_categories()
+b) Categorical.rename()
+c) Categorical.mv_categories()
+d) None of the mentioned
+a
+10. All values of categorical data are either in categories or np.nan.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Data Science.
+Here’s the list of Best Reference Books in Data Science.
+To practice all areas of Data Science, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Science Questions and Answers – Analysis and Experimental Design» Next - Data Science Questions and Answers – Plotting in Python 

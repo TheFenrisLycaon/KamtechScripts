@@ -1,0 +1,66 @@
+1. A __________ is a special kind of a store procedure that executes in response to certain action on the table like insertion, deletion or updation of data.
+a) Procedures
+b) Triggers
+c) Functions
+d) None of the mentioned
+b
+2. Triggers are supported in
+a) Delete
+b) Update
+c) Views
+d) All of the mentioned
+c
+3. The CREATE TRIGGER statement is used to create the trigger. THE _____ clause specifies the table name on which the trigger is to be attached. The ______ specifies that this is an AFTER INSERT trigger.
+a) for insert, on
+b) On, for insert
+c) For, insert
+d) None of the mentioned
+b
+4. What are the after triggers?
+a) Triggers generated after a particular operation
+b) These triggers run after an insert, update or delete on a table
+c) These triggers run after an insert, views, update or delete on a table
+d) All of the mentioned
+b
+5. The variables in the triggers are declared using
+a) –
+b) @
+c) /
+d) /@
+b
+6. The default extension for an Oracle SQL*Plus file is:
+a) .txt
+b) .pls
+c) .ora
+d) .sql
+d
+7. Which of the following is NOT an Oracle-supported trigger?
+a) BEFORE
+b) DURING
+c) AFTER
+d) INSTEAD OF
+b
+8. What are the different in triggers?
+a) Define, Create
+b) Drop, Comment
+c) Insert, Update, Delete
+d) All of the mentioned
+c
+9. Triggers ________ enabled or disabled
+a) Can be
+b) Cannot be
+c) Ought to be
+d) Always
+a
+10. Which prefixes are available to Oracle triggers?
+a) : new only
+b) : old only
+c) Both :new and : old
+d) Neither :new nor : old
+c
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Functions and Procedures» Next - Database Questions and Answers – Recursive Queries and Aggregation Features 

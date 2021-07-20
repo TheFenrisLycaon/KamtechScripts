@@ -1,0 +1,72 @@
+1. Dates must be specified in the format
+a) mm/dd/yy
+b) yyyy/mm/dd
+c) dd/mm/yy
+d) yy/dd/mm
+b
+2. A ________ on an attribute of a relation is a data structure that allows the database system to find those tuples in the relation that have a specified value for that attribute efficiently, without scanning through all the tuples of the relation.
+a) Index
+b) Reference
+c) Assertion
+d) Timestamp
+a
+3. 
+Create index studentID_index on student(ID);
+Here which one denotes the relation for which index is created?
+a) StudentID_index
+b) ID
+c) StudentID
+d) Student
+d
+4. Which of the following is used to store movie and image files?
+a) Clob
+b) Blob
+c) Binary
+d) Image
+b
+Join Sanfoundry@YouTube
+5. The user defined data type can be created using
+a) Create datatype
+b) Create data
+c) Create definetype
+d) Create type
+d
+6. Values of one type can be converted to another domain using which of the following?
+a) Cast
+b) Drop type
+c) Alter type
+d) Convert
+a
+7.
+CREATE DOMAIN YearlySalary NUMERIC(8,2)
+CONSTRAINT salary VALUE test __________;
+In order to ensure that an instructor’s salary domain allows only values greater than a specified value use:
+a) Value>=30000.00
+b) Not null;
+c) Check(value >= 29000.00);
+d) Check(value)
+c
+8. Which of the following closely resembles Create view?
+a) Create table . . .like
+b) Create table . . . as
+c) With data
+d) Create view as
+b
+9. In contemporary databases, the top level of the hierarchy consists of ______ each of which can contain _____
+a) Catalogs, schemas
+b) Schemas, catalogs
+c) Environment, schemas
+d) Schemas, Environment
+a
+10. Which of the following statements creates a new table temp instructor that has the same schema as an instructor.
+a) create table temp_instructor;
+b) Create table temp_instructor like instructor;
+c) Create Table as temp_instructor;
+d) Create table like temp_instructor;
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Integrity Constraints» Next - Database Questions and Answers – Authorizations 

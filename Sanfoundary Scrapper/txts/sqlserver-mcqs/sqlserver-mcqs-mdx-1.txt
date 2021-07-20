@@ -1,0 +1,92 @@
+1. _______ lets you manage cube context from within an MDX script.
+a) CALCULATE
+b) CALC
+c) SCOPE CALC
+d) None of the mentioned
+a
+2. Point out the correct statement.
+a) Few MDX queries run within a specified cube context
+b) SELECT statement is the most frequently used query in MDX
+c) When formulating a Multidimensional Expressions (MDX) SELECT statement, an application typically examines a cube and divides the set of hierarchies into three subsets
+d) None of the mentioned
+b
+3. ________ causes the server to raise an error when Microsoft SQL Server Analysis Services finds any error in the MDX script.
+a) Ignore
+b) IgnoreNone
+c) IgnoreAll
+d) All of the mentioned
+b
+4. The Backus-Naur Form (BNF) of {*(<comment> | <whitespace> | <newline>)} will be parsed as ______ for backwards compatibility.
+a) {\}
+b) {*}
+c) {+}
+d) {-}
+b
+5. Point out the wrong statement.
+a) The WHERE clause describes the slicer axis in an MDX query
+b) MDX syntax distinguishes sets by surrounding tuples or members with braces
+c) MDX queries can have three query axes in the SELECT statement
+d) None of the mentioned
+c
+6. ___________ creates a calculation that evaluates a Multidimensional Expressions (MDX) expression over a specified set of tuples within a cube.
+a) CREATE CELL CALCULATION
+b) CREATE CELL CALC
+c) CREATE MEMBER CALCULATION
+d) None of the mentioned
+a
+7. The following code is a syntax of which statement?
+CREATE [ SESSION ] [HIDDEN] [ CALCULATED ] MEMBER CURRENTCUBE | Cube_Name.Member_Name 
+   AS MDX_Expression
+      [,Property_Name = Property_Value, ...n]
+......[,SCOPE_ISOLATION = CUBE]
+a) CREATE SESSION
+b) CREATE CUBE
+c) CREATE MEMBER
+d) CREATE MDX
+c
+8. Which of the following is valid syntax for CREATE GLOBAL CUBE?
+a)
+CREATE GLOBAL CUBE [LocalReseller]
+   Storage 'C:\LocalAWReseller1.cub'
+   FROM [Adventure Works]
+   (
+      MEASURE  [Adventure Works].[Reseller Sales Amount],
+      DIMENSION [Adventure Works].[Reseller],
+      DIMENSION [Adventure Works].[DATE]
+   )
+b)
+CREATE GLOBAL CUBE [LocalReseller]
+   FROM [Adventure Works]
+   (
+      MEASURE  [Adventure Works].[Reseller Sales Amount],
+      DIMENSION [Adventure Works].[Reseller],
+      DIMENSION [Adventure Works].[DATE]
+   )
+c)
+CREATE GLOBAL CUBE [LocalReseller]
+   Storage 'C:\LocalAWReseller1.cub'
+   (
+      MEASURE  [Adventure Works].[Reseller Sales Amount],
+      DIMENSION [Adventure Works].[Reseller],
+      DIMENSION [Adventure Works].[DATE]
+   )
+d) All of the mentioned
+a
+9. Which of the following is the MDX Data Definition Statement?
+a) CREATE ACTION
+b) DROP CUBE
+c) CREATE CUBE
+d) None of the mentioned
+a
+10. Valid syntax for REFRESH CUBE statement is ____________
+a) REFRESH CUBECube_Name
+b) REFRESH CUBE Cube_Name
+c) REFRESH CUBE “Cube_Name”
+d) REFRESH CUBE \Cube_Name\
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Analysis Services – 3» Next - SQL Server Questions and Answers – MDX – 2 

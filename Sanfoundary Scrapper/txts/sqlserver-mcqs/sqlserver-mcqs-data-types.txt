@@ -1,0 +1,66 @@
+1. Which of the following is a large object data type?
+a) varchar(max)
+b) varbinary(max)
+c) nvarchar(max)
+d) image
+d
+2. Data types in SQL Server are organized into how many categories?
+a) 6
+b) 8
+c) 9
+d) 10
+a
+3. Exact Numeric data type is ___________
+a) bigint
+b) int
+c) smallmoney
+d) all of the mentioned
+d
+4. ntext data type falls under which category?
+a) Exact numerics
+b) Character strings
+c) Unicode character strings
+d) None of the mentioned
+c
+5. A column of type __________ may contain rows of different data types.
+a) ntext
+b) date
+c) smallmoney
+d) sql_variant
+d
+6. You want to track date and time of the last write access per row?
+a) Add TIMESTAMP column to the table
+b) Add a DATETIME column to the table and assign getdate() as the default value
+c) Add a DATETIME column to the table and write a trigger that sets its value
+d) Add a UNIQUEIDENTIFIER column to the table and use it with SQL Server’s built-in functions
+a
+7._________ is  a spatial data type.
+a) geometry
+b) sql_variant
+c) cursor
+d) all of the mentioned
+b
+8. Which of the following data type is not present in SQL Server?
+a) bit
+b) boolean
+c) hierarchyid
+d) geography
+b
+9. ______________ is monetary data type in SQL Server.
+a) Smallmoney
+b) sql_variant
+c) Cursor
+d) None of the Mentioned
+a
+10. Which of the data type has a storage size of 8 bytes?
+a) timestamp
+b) uniqueidentifier
+c) real
+d) smallmoney
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Management Studio – 2» Next - SQL Server Questions and Answers – Builtin Functions 

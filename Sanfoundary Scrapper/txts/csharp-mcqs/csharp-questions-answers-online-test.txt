@@ -1,0 +1,124 @@
+1. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int i;      Console.WriteLine("enter value of i:");      i = Convert.ToInt32(Console.ReadLine());      if (i < 7)      {          i++;          continue;      }      Console.WriteLine("final value of i:" +i);      Console.ReadLine();  }
+a) 12
+b) 11
+c) Compile time error
+d) 13
+c
+ Output: Compile time error.
+2. What will be the output of the following C# code?
+ static void Main(string[] args) {     int i;     Console.WriteLine("enter value of i:");     i = Convert.ToInt32(Console.ReadLine());     if ( i % 2 == 0)         goto even:     else     {         Console.WriteLine("number is odd:");         Console.ReadLine();     }     even:     Console.WriteLine("number is even:");     Console.ReadLine(); }for i = 4.
+a) number is odd
+b) number is even
+c) Compile time error
+d) none of the mentioned
+c
+3. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int i = 1, j;      do      {          for (j = 1; ; j++)          {              if (j > 2)                  break;              if (i == j)                  continue;              Console.WriteLine(i + " " + j);          }          i++;      } while (i < 3);      Console.ReadLine();  }
+a) 
+1 2 
+2 1
+b) 
+2 1
+1 2
+c) 
+1 3
+2 1
+d) 
+1 1
+2 1
+a
+Output : 1 2
+           2 1
+  
+4. What will be the output of the following C# code?
+   static void Main(string[] args)   {       int i = 10 , j = 0;       label:       i--;       if ( i > 0)       {           Console.WriteLine(i+ " ");           goto label;       }       Console.ReadLine();   }
+a) 1 2 3 4 5 6 7 8 9 10
+b) 10 9 8 7 6 5 4 3 2 1 0
+c) 9 8 7 6 5 4 3 2 1
+d) 10 9 8 7 6 5 4 3 2 1
+c
+OUTPUT :
+9 8 7 6 5 4 3 2 1
+5. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int i = 0, j = 0;      while (i < 2)      {          l1: i--;          while (j < 2)          {              Console.WriteLine("hi\n");              goto l1;          }      }      Console.ReadLine();  }
+a) hi hi hi
+b) hi hi
+c) hi
+d) hi hi hi…..infinite times
+d
+output:
+hi hi hi.....
+6. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int i = 0;      if (i == 0)      {          goto label;      }      label: Console.WriteLine("HI...");      Console.ReadLine();  }
+a) Hi…infinite times
+b) Code runs prints nothing
+c) Hi Hi
+d) Hi…
+d
+ Output :
+Hi
+ 
+7. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int i = 0, j = 0;      l1: while (i < 2)      {            i++;          while (j < 3)          {              Console.WriteLine("loop\n");              goto l1;          }       }      Console.ReadLine();  }
+a) loop is printed infinite times
+b) loop
+c) loop loop
+d) Compile time error
+c
+   Output :
+loop loop.
+ 
+8. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int i= 0,k;      label: Console.WriteLine(i);      if (i == 0)          goto label;      Console.ReadLine();  }
+a) 0 0 0 0
+b) 0 0 0
+c) 0 infinite times
+d) 0
+c
+ Output:
+0 0 0....
+ 
+9. What will be the output of the following C# code?
+   static void Main(string[] args)   {       int i = 0;       int j = 0;       for (i = 0; i < 4; i++)       {           for (j = 0; j < 3; j++)           {               if (i > 1)                   continue;               Console.WriteLine("Hi \n");           }       }       Console.ReadLine();   }
+a) Prints hi 4 times
+b) Prints hi 3 times
+c) Prints hi 6 times
+d) Prints hi infinite times
+c
+ Output :
+            hi
+            hi
+            hi 
+            hi
+            hi
+            hi
+ 
+10. Select the output for the following set of code :
+    static void Main(string[] args)    {        int a = 0;        int i = 0;        int b;        for (i = 0; i < 5; i++)        {             a++;             Console.WriteLine("Hello \n");             continue;        }        Console.ReadLine();    }
+a) print hello 4 times
+b) print hello 3 times
+c) print hello 5 times
+d) print hello infinite times
+c
+  Output :
+             Hello
+             Hello
+             Hello
+             Hello 
+             Hello
+ 
+11. What will be the output of the following C# code?
+    static void Main(string[] args)    {        Console.WriteLine("HI");        continue;        Console.WriteLine("Hello");        Console.ReadLine();    }
+a) Hi Hello
+b) Hi
+c) Hello
+d) Compile time error
+d
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice  all areas of C# for online tests, here is complete set on 1000+ Multiple Choice Questions and Answers on C#. 
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C#  Questions & Answers – Do While Loop Statements» Next - C# Questions & Answers – Fundamentals of Class 

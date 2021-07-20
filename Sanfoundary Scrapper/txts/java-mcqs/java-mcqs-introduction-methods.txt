@@ -1,0 +1,87 @@
+1. What is the return type of a method that does not return any value?
+a) int
+b) float
+c) void
+d) double
+c
+2. What is the process of defining more than one method in a class differentiated by method signature?
+a) Function overriding
+b) Function overloading
+c) Function doubling
+d) None of the mentioned
+b
+3. Which of the following is a method having same name as that of it’s class?
+a) finalize
+b) delete
+c) class
+d) constructor
+d
+4. Which method can be defined only once in a program?
+a) main method
+b) finalize method
+c) static method
+d) private method
+a
+5. Which of this statement is incorrect?
+a) All object of a class are allotted memory for the all the variables defined in the class
+b) If a function is defined public it can be accessed by object of other class by inheritation
+c) main() method must be made public
+d) All object of a class are allotted memory for the methods defined in the class
+d
+6. What will be the output of the following Java program?
+    class box     {        int width;        int height;        int length;        int volume;        void volume(int height, int length, int width)         {             volume = width*height*length;        }     }        class Prameterized_method    {        public static void main(String args[])        {            box obj = new box();            obj.height = 1;            obj.length = 5;            obj.width = 5;            obj.volume(3,2,1);            System.out.println(obj.volume);                }      }
+a) 0
+b) 1
+c) 6
+d) 25
+c
+output:
+$ Prameterized_method.java
+$ Prameterized_method
+6
+7. What will be the output of the following Java program?
+    class equality     {        int x;        int y;        boolean isequal()        {            return(x == y);          }     }        class Output     {        public static void main(String args[])        {            equality obj = new equality();            obj.x = 5;            obj.y = 5;            System.out.println(obj.isequal());        }     }
+a) false
+b) true
+c) 0
+d) 1
+b
+output:
+$ javac Output.java
+$ java Output 
+true
+8. What will be the output of the following Java program?
+    class box     {        int width;        int height;        int length;        int volume;        void volume()         {             volume = width*height*length;        }     }        class Output     {         public static void main(String args[])        {            box obj = new box();            obj.height = 1;            obj.length = 5;            obj.width = 5;            obj.volume();            System.out.println(obj.volume);                }     }
+a) 0
+b) 1
+c) 25
+d) 26
+c
+output:
+$ javac Output.java
+$ java Output
+25
+9. In the following Java code, which call to sum() method is appropriate?
+class Output {         public static int sum(int ...x)        {             return;         }        static void main(String args[])         {                 sum(10);             sum(10,20);             sum(10,20,30);             sum(10,20,30,40);        } }
+a) only sum(10)
+b) only sum(10,20)
+c) only sum(10) & sum(10,20)
+d) all of the mentioned
+d
+10. What will be the output of the following Java program?
+    class area     {        int width;        int length;        int volume;        area()         {           width=5;           length=6;        }        void volume()         {             volume = width*length*height;        }     }        class cons_method     {        public static void main(String args[])        {            area obj = new area();            obj.volume();            System.out.println(obj.volume);                }     }
+a) 0
+b) 1
+c) 30
+d) error
+d
+output:
+$ javac cons_method.java
+$ java cons_method
+error: cannot find symbol height
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Class Fundamentals & Declaring objects» Next - Java Questions & Answers – Constructors & Garbage Collection 

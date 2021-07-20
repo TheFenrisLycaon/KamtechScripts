@@ -1,0 +1,66 @@
+1. Is SPI a full duplex technique?
+a) yes
+b) no
+c) cant be said
+d) depends on the conditions
+a
+2. The concept of SPI is based on __________
+a) two counters
+b) four flip flops
+c) two shift registers
+d) four steady state machines
+c
+3. Writing on the trailing edge of the clock pulse and reading on the leading edge of the clock pulse is done when
+a) CPHA is set
+b) CPHA is reset
+c) CPOL is set
+d) CPOL is reset
+b
+4. When CPOL=1 then,
+a) clock idles high between transfers
+b) clock idles low between transfers
+c) bit idles high between transfers
+d) bit ideals low between transfers
+a
+5. Is CPKH and CPOL the same.
+a) yes
+b) no
+c) cant be said
+d) depends on the conditions
+b
+6. SPI with the USI can be selected by ________
+a) setting the USII2C bit in the register USICTL1
+b) clearing the USII2C bit in the register USICTL1
+c) setting the USIPE5–7 bits in USICTL0
+d) clearing the USIPE5–7 bits in USICTL0
+b
+7. SCLK, SDO, and SDI are found ___________ on F20x3.
+a) P1.0-2
+b) P1.2-4
+c) P1.4-6
+d) P1.5-7
+d
+8. Transmission and reception are made at a time in SPI?
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+a
+9. When the buffer is ________ the low power mode is__________
+a) empty, reset
+b) having one byte, reset
+c) full, reset
+d) empty, two
+c
+10. Falling edge of the SS pin denotes ________
+a) end of the transfer
+b) starts a new transfer
+c) selects a new master
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller for Aptitude test, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MSP430 Microcontroller Questions and Answers – Communication» Next - MSP430 Microcontroller Questions and Answers – I2C 

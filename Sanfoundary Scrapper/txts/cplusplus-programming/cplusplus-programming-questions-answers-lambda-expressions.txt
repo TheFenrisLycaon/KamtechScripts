@@ -1,0 +1,154 @@
+1. What is lambda expression in C++?
+a) A technique of C++ that allows us to write inline functions without a name
+b) A technique of C++ that allows us to write overloaded functions
+c) A technique of C++ that allows us to write functions that are called more than once
+d) A technique of C++ that allows us to write functions without parameters
+a
+2. What is the syntax of defining lambda expression?
+a) [capture clause](parameters) -> return_type { body of the function }
+b) [parameters](capture clause) -> return_type { body of the function }
+c) [parameters:capture clause]() -> return_type { body of the function }
+d) [capture clause:parameters]() -> return_type { body of the function }
+a
+[capture clause](parameters) -> return_type 
+{ 
+	the body of the function 
+}
+3. What is the correct statement about lambda expression?
+a) The return type of lambda expression can be neglected in some cases
+b) The return type of lambda expression must be specified in all cases
+c) Lambda expression should be very large functions
+d) Lambda expression is also available in C
+a
+4. In how many ways we can capture the external variables in the lambda expression?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+5. Which of the following operator is used to capture all the external variable by reference?
+a) &
+b) =
+c) *
+d) &&
+a
+6. Which of the following operator is used to capture all the external variable by value?
+a) &
+b) =
+c) *
+d) &&
+b
+7. Which is the correct syntax of capturing a variable ‘X’ by reference and other variable ‘Y’ by value in lambda expression?
+a) [&X, Y] 
+b) [X, &y] 
+c) [X, Y] 
+d) [&x, &Y] 
+a
+8. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x = 5;
+	auto check = []() -> bool 
+        {
+		if(x == 0)
+			return false;
+		else
+			return true;
+	};
+	cout<<check()<<endl;
+	return 0;
+}
+a) 1
+b) 0
+c) Error
+d) Segmentation fault
+c
+9. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a = 5;
+	auto check = [](int x) 
+        {
+		if(x == 0)
+			return false;
+		else
+			return true;
+	};
+	cout<<check(a)<<endl;
+	return 0;
+}
+a) 0
+b) 1
+c) Error
+d) Segmentation fault
+b
+10. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a = 5;
+	auto check = [=]() 
+        {
+		a = 10;
+	};
+	check();
+	cout<<"Value of a: "<<a<<endl;
+	return 0;
+}
+a) Value of a: 5
+b) Value of a: 10
+c) Error
+d) Segmentation fault
+c
+11. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a = 5;
+	auto check = [&]() 
+        {
+		a = 10;
+	};
+	check();
+	cout<<"Value of a: "<<a<<endl;
+	return 0;
+}
+a) Value of a: 5
+b) Value of a: 10
+c) Error
+d) Segmentation fault
+b
+12. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a = 5;
+	int b = 5;
+	auto check = [&a]() 
+        {
+		a = 10;
+		b = 10;
+	}
+	check();
+	cout<<"Value of a: "<<a<<endl;
+	cout<<"Value of b: "<<b<<endl;
+	return 0;
+}
+a) Value of a: 5
+b) Value of a: 10
+c) Error
+d) Segmentation fault
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – File Handling» Next - C++ Programming Questions and Answers – Command Line Arguments 

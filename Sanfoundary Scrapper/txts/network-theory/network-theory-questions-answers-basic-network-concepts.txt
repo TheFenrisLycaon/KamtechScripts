@@ -1,0 +1,96 @@
+1. Energy per unit charge is ____________
+a) Power
+b) Voltage
+c) Current
+d) Capacitance
+b
+2. A conductor is said to have resistance of one ohm if a potential difference of one volt across its terminals causes a current of X ampere to flow through it. What will be the value of X?
+a) 4
+b) 2
+c) 3
+d) 1
+d
+According to Ohm’s law, V = IR (where V is the potential difference between two points which include a resistance R).
+–> I = V/R = 1V/1Ω = 1A.
+3. Resistance depends on the temperature of the conductor.
+a) True
+b) False
+a
+4. A 25 Ω resistor has a voltage of 150 sin377 t. Find the corresponding power.
+a) 900 sin2 337 t
+b) 90 sin2 337 t
+c) 900 sin2 377 t
+d) 9 sin2 337 t
+c
+i = \(\frac{v}{R} = \frac{150 sin⁡ 377 t}{25}\) = 6 sin 377 t
+p = vi = (150 sin 377 t)(6 sin 377 t) = 900 sin2 377 t.
+5. Unit of inductance is ________
+a) Weber
+b) Henry
+c) Farad
+d) Tesla
+b
+6. Inductance of an inductor is inversely proportional to its ___________
+a) Number of turns
+b) Area of cross section
+c) Absolute permeability
+d) Length
+d
+From the above equation, Inductance of an inductor is inversely proportional to its length.
+7. Energy stored in an inductor is ________
+a) LI
+b) LI2
+c) LI/2
+d) LI2/2
+d
+dE = Vidt = L \(\frac{di}{dt} idt\) = Lidt
+E = \(\int_0^I dE = \int_0^I Lidt = \frac{1}{2} LI^2\).
+8. An inductor of 3mH has a current i = 5(1 – e-5000t). Find the corresponding maximum energy stored.
+a) 37.5 mJ
+b) 375 J
+c) 37.5 kJ
+d) 3.75 mJ
+a
+V = L \(\frac{di}{dt} = 3 × 10^{-3} \frac{d}{dt}[5(1-e^{-5000t})] = 75 e^{-5000t}\) 
+I = i(∞) = 5(1 – e-∞) = 5 A
+E = \(\frac{1}{2}\) LI2 = 0.5 × 3 × 10-3 × 52 = 37.5 mJ.
+9. The capacitance of a capacitor does not depend on the absolute permittivity of the medium between the plates.
+a) True
+b) False
+b
+Where d is the distance between the plates, A is the cross-sectional area of the plates and Ɛ is absolute permittivity of the medium between the plates.
+Hence, the capacitance of a capacitor depends on the absolute permittivity of the medium between the plates.
+10. Which of the following is not the energy stored in a capacitor?
+a) \(\frac{CV^2}{2}\) 
+b) \(\frac{QV}{2}\) 
+c) \(\frac{Q^2}{2C}\) 
+d) \(\frac{QC}{2}\) 
+d
+Since C = Q/V
+E = \(\frac{CV^2}{2} = \frac{QV}{2} = \frac{QC}{2}\).
+11. A voltage is defined by \(
+v(t)=\begin{cases}
+0\\
+2t\\
+4e^{-(t-2)}\\
+\end{cases} \) for \(
+\begin{cases}
+t < 0 \\
+0<t<2s \\
+t>2s \\
+\end{cases} \) respectivelyand is applied to the 10 µF capacitor. Which of the following is incorrect?
+a) i = 0 for t < 0
+b) i = 20µA for 0 < t < 2s
+c) i = 40et-2µA for t > 2s
+d) i = -40et-2µA for t > 2s
+c
+For t < 0,  i = 0
+For 0 < t < 2s, v = 2t;  i = 10 × 10-6 \(\frac{d}{dt}\)(2t) = 20 µA
+For t > 2s, v = 4e-(t-2)
+i = 10 × 10-6 \(\frac{d}{dt}\)[4e-(t-2)] = 10 × 10-6[-4e-(t-2)] = -40e-(t-2)µA.
+Sanfoundry Global Education & Learning Series – Network Theory.
+To practice all areas of Network Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+» Next - Network Theory Questions and Answers – Sources and Some Definitions 

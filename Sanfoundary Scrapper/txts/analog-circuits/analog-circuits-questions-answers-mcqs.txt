@@ -1,0 +1,85 @@
+1. Ignoring early effect, if R1 is the total resistance connected to the base and R2 is the total resistance connected at the collector, what could be the approximate input pole of a simple C.E. stage?
+a) 1 / [R1 * (Cµ(2+gm*R2) + Cπ)] 
+b) 1 / [R1 * (Cµ(1+2*gm*R2) + Cπ)] 
+c) 1 / [R1 * (Cµ(1+gm*R2) + Cπ)] 
+d) 1 / [R1 * (Cµ(1-gm*R2) + Cπ)] 
+c
+2. Ignoring early effect, if R2 is the total resistance at the collector, what could be the approximate output pole of a simple C.E. stage?
+a) 1 / [R2 * (Ccs + Cµ*(1 + 2/gm*R2))] 
+b) 1 / [R2 * (Ccs – Cµ*(1 + 1/gm*R2))] 
+c) 1 / [R2 * (Ccs + Cµ*(1 – 1/gm*R2))] 
+d) 1 / [R2 * (Ccs + Cµ*(1 + 1/gm*R2))] 
+d
+3. If the load resistance of a C.E. stage increases by a factor of 2, what happens to the high frequency response?
+a) The 3 db roll off occurs faster
+b) The 3 db roll off occurs later
+c) The input pole shifts towards origin
+d) The input pole becomes infinite
+a
+4. During high frequency applications of a B.J.T., which of the following three stages do not get affected by Miller’s approximation?
+a) C.E.
+b) C.B.
+c) C.C.
+d) Follower
+b
+5. Ignoring early effect, if C1 is the total capacitance tied to the emitter, what is the input pole of a simple C.B. stage?
+a) 1/gm * C1
+b) 2/gm * C1
+c) gm * C1
+d) gm * 2C1
+a
+Join Sanfoundry@YouTube
+6. Ignoring early effect, if R1 is the total resistance connected to the collector; what is the output pole of a simple C.B. stage?
+a) 1/[R1 * (Ccs + Cµ)] 
+b) 1/[R1* (Ccs + 2*Cµ)] 
+c) 1/[R1 * (2*Ccs + Cµ)] 
+d) 1/[R1 * 2*(Ccs + Cµ)] 
+a
+7. If early effect is included, and R1 is the total resistance connected at the collector. What is the output pole of a simple C.B. stage?
+a) 1/[(R1 || ro) * 2(Ccs + Cµ)] 
+b) 1/[(R1 || ro) * (Ccs + Cµ)] 
+c) 1/[(R1 || ro) * (2*Ccs + Cµ)] 
+d) 1/[(R1 || ro) * 2*(Ccs + 2*Cµ)] 
+b
+8. In a simple follower stage, C2 is a parasitic capacitance arising due to the depletion region between the collector and the substrate. What is the value of C2?
+a) 0
+b) Infinite
+c) Ccs
+d) 2*Ccs
+a
+9. For a cascode stage, with input applied to the C.B. stage, the input capacitance gets multiplied by a factor of ____
+a) 0
+b) 1
+c) 3
+d) 2
+d
+10. If the B.J.T. is used as a follower, which capacitor experiences Miller multiplication?
+a) Cπ
+b) Cµ
+c) Ccs
+d) Cb
+a
+11. If 1/h12 = 10 for a C.E. stage, what is the value of the base to collector capacitance, after Miller multiplication, at the output side?
+a) 1.1Cµ
+b) 1.2Cµ
+c) 2.1Cµ
+d) 2.2Cµ
+a
+12. If 1/h12 = 4, for a C.E. stage- what is the value of the base to collector capacitance, after Miller multiplication, at the input side?
+a) 4Cµ
+b) 5Cµ
+c) 6Cµ
+d) 1.1Cµ
+c
+13. The transconductance of a B.J.T.is 5mS (gm) while a 2KΩ (Rl) load resistance is connected to the C.E. stage. Neglecting the Early effect, what is the Miller multiplication factor for the input side?
+a) 21
+b) 11
+c) 20
+d) 0
+b
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice MCQs on all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Effect of Various Capacitors on Frequency Response – 1» Next - Analog Circuits Questions and Answers – Low Frequency Response and Miller Effect Capacitance 

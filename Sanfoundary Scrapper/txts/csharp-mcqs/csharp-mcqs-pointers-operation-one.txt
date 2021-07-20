@@ -1,0 +1,84 @@
+1. What will be the output of the following C# code snippet?
+ class UnsafeCode {     unsafe static void Main()     {         int m = 10;         int *mptr = &m;         int **ptr = &mptr;         int n = 20;         int *nptr = &n;         int **prt = &nptr;         m = **prt + *nptr;         n = *mptr* **prt;         Console.WriteLine(n + " " + m);         Console.ReadLine();     } }
+a) 20 200
+b) 40 200
+c) 800 40
+d) 40 800
+c
+Output: 800 40
+2. What will be the output of the following C# code snippet?
+ unsafe static void Main() {     int a = 5;     int b = 5;     int c = 5;     int*[] ptr = new int* [3];     ptr[0] = &a;     ptr[1] = &b;     ptr[2] = &c;     for (a = 0; a < 3; a++)     {         c += *ptr[a];         Console.WriteLine(c);     }     Console.ReadLine(); }
+a) 5 10
+b) 10 20
+c) Compile time error
+d) 5 10 20
+d
+Output:5 10 20
+Join [email protected]
+3. What will be the output of the following C# code snippet?
+class UnsafeCode{    unsafe static void Main()    {        int* ptrs = stackalloc int[3];        ptrs[0] = 1;        ptrs[1] = 2;        ptrs[2] = 3;        for (int i = 2; i >= 0; --i)        {            ptrs[i] = ptrs[i]* 3;            ptrs[i] = ptrs[i] + 4;            Console.WriteLine(ptrs[i]);        }        Console.ReadLine();    }}
+a) 20, 10, 7
+b) 13, 10, 7
+c) 6, 9, 3
+d) Compile time error
+b
+Output: 13, 10, 7
+4. Among the given pointers which of the following cannot be incremented?
+a) int
+b) char
+c) float
+d) void
+d
+5. A structure pointer points to __________
+a) first member of structure
+b) first two members of structure
+c) whole structure
+d) only to the last member of structure
+c
+6. What will be the declaration of the variable ptr as the pointer to array of 6 floats?
+a) float *ptr[6] 
+b) float [6]*ptr
+c) float(*ptr)[6] 
+d) float(*ptr)(6).
+c
+7. What will be the output of the following C# code snippet?
+ class UnsafeCode {     unsafe static void Main()     {         char[] arr = { 'A', 'B', 'C', 'D', 'E' };         fixed (char* P = arr)         {             int i;             for (i = 0 ;i < 5 ;i++)             if (*P % 2 == 0)             ++*P;             else             (*P)++;             Console.WriteLine(arr);         }         Console.ReadLine();     } }
+a) ACCEE
+b) FBCDE
+c) BBDDF
+d) BBCEE
+b
+Output:FBCDE
+8. What will be the output of the following C# code snippet?
+class UnsafeCode {     unsafe static void Main()     {          int[] nums = new int[10];         Console.WriteLine("Index pointer like array.");         fixed (int* p = nums)         {             for (int i = 0 ;i <10 ;i++)             p[i] = i;             for (int i = 10 ;i >0 ;i--)             Console.WriteLine("p[{0}]: {1} ", i, p[i]);             Console.ReadLine();         }     } }
+a) p[10] :0, p[9] :9, p[8] :8…..p[1]:1
+b) p[10] : 1, p[9] :2, p[8] :3…..p[1] :0
+c) p[1] : 1, p[2] :2, p[3] :3…..p[10] :0
+d) Compile time error
+a
+Output:Index pointer like array:
+        p[10] :0, p[9] :9, p[8] :8…p[1]:1
+9. What will be the output of the following C# code snippet?
+ class UnsafeCode {     unsafe static void Main()     {         string str = "this is a test";              fixed (char* p = str)            {                for (int i = str.Length-1 ;p[i] != 0 ;i--)                Console.Write(p[i]);            }        Console.ReadLine();    } }
+a) test a is this
+b) compile time error
+c) tset a si siht
+d) run time error
+c
+Output:tset a si siht
+10. What will be the output of the following C# code snippet?
+ class UnsafeCode {     unsafe static void Main()     {         int* p ;         int ch = 13*5;         p = &(ch);         Console.WriteLine(Convert.ToChar(*p));         if (*p == 'A')         Console.WriteLine(Convert.ToBoolean(1));         else         Console.WriteLine(Convert.ToBoolean(0));         Console.ReadLine();     } }
+a) 65 False
+b) 65 1
+c) A True
+d) A 1
+c
+              Convert.ToBoolean(1) = True
+Output: A
+         True
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Unsafe code & Pointers Basics» Next - C# Question & Answers – Pointers Operation – 2 

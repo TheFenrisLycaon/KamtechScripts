@@ -1,0 +1,68 @@
+1. _______ can change the maximum number of cells of a column family.
+a) set
+b) reset
+c) alter
+d) select
+c
+2. Point out the correct statement.
+a) You can add a column family to a table using the method addColumn()
+b) Using alter, you can also create a column family
+c) Using disable-all, you can truncate a column family
+d) None of the mentioned
+a
+3. Which of the following is not a table scope operator?
+a) MEMSTORE_FLUSH
+b) MEMSTORE_FLUSHSIZE
+c) MAX_FILESIZE
+d) All of the mentioned
+a
+4. You can delete a column family from a table using the method _________ of HBAseAdmin class.
+a) delColumn()
+b) removeColumn()
+c) deleteColumn()
+d) all of the mentioned
+c
+5. Point out the wrong statement.
+a) To read data from an HBase table, use the get() method of the HTable class
+b) You can retrieve data from the HBase table using the get() method of the HTable class
+c) While retrieving data, you can get a single row by id, or get a set of rows by a set of row ids, or scan an entire table or a subset of rows
+d) None of the mentioned
+d
+6. __________ class adds HBase configuration files to its object.
+a) Configuration
+b) Collector
+c) Component
+d) None of the mentioned
+a
+Join Sanfoundry@YouTube
+7. The ________ class provides the getValue() method to read the values from its instance.
+a) Get
+b) Result
+c) Put
+d) Value
+b
+8. ________ communicate with the client and handle data-related operations.
+a) Master Server
+b) Region Server
+c) Htable
+d) All of the mentioned
+b
+9. _________ is the main configuration file of HBase.
+a) hbase.xml
+b) hbase-site.xml
+c) hbase-site-conf.xml
+d) none of the mentioned
+b
+10. HBase uses the _______ File System to store its data.
+a) Hive
+b) Imphala
+c) Hadoop
+d) Scala
+c
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all interview questions and answers on Hbase, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Schema Design in HBase» Next - Hadoop Questions and Answers – Introduction to Zookeeper 

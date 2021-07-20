@@ -1,0 +1,94 @@
+1. A loop statement is used where we needs to ________
+a) Select one from many choices
+b) Check a condition
+c) Repeat the statements
+d) Choose one from two cases
+c
+2. Loop is a ________ statement.
+a) Concurrent
+b) Sequential
+c) Assignment
+d) Functional
+b
+3. How many styles of loop statement does the VHDL have?
+a) 2
+b) 3
+c) 4
+d) 5
+a
+4. What is the use of FOR loop?
+a) To repeat the statement finite number of times
+b) To repeat the statement until any condition holds true
+c) To repeat the statements for infinite time
+d) To repeat statements inside until any condition is false
+a
+5. Which of the following is correct syntax for defining FOR LOOP?
+a)
+    label : FOR LOOP loop_specification
+     sequential_statements;
+     ….
+     END LOOP label;
+b)
+    label : FOR loop_specification LOOP
+     sequential_statements;
+     ….
+     END FOR LOOP;
+c)
+    label : FOR LOOP loop_specification
+     sequential_statements;
+     ….
+     END FOR LOOP;
+d)
+    label : FOR loop_specification LOOP
+     sequential_statements;
+     ….
+     END LOOP label;
+d
+  
+6. What is the use of WHILE loop?
+a) To repeat the statement finite number of times
+b) To repeat the statement until any condition holds true
+c) To repeat the statements for infinite time
+d) To repeat statements inside until any condition is false
+b
+7. Which of the following is correct syntax for WHILE LOOP?
+a)
+   label: WHILE LOOP specification IS
+    sequential_statements;
+    END LOOP;
+b)
+    label: WHILE LOOP condition
+    sequential_statements;
+    END LOOP label;
+c)
+    label: WHILE condition LOOP
+    sequential_statements;
+    END LOOP label;
+d)
+   label: WHILE specification LOOP
+    sequential_statements;
+    END LOOP;
+c
+  
+8. What does the next statement in loops do?
+a) Skips the current iteration
+b) Starts the next loop by ending the current
+c) Exits the loop
+d) Skips the next line of the loop
+a
+9. What is the syntax to use the NEXT statement?
+a) NEXT condition loop_label
+b) NEXT loop_label WHEN condition
+c) loop_label NEXT WHEN condition
+d) loop_label NEXT condition
+b
+10. It is not possible to write an infinite loop in VHDL.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Case Statement – 2» Next - VHDL Questions and Answers – LOOP Statement – 2 

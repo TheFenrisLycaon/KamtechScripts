@@ -1,0 +1,71 @@
+1. Which of these interface declares core method that all collections will have?
+a) set
+b) EventListner
+c) Comparator
+d) Collection
+d
+2. Which of these interface handle sequences?
+a) Set
+b) List
+c) Comparator
+d) Collection
+b
+3. Which of this interface must contain a unique element?
+a) Set
+b) List
+c) Array
+d) Collection
+a
+4. Which of these is a Basic interface that all other interface inherits?
+a) Set
+b) Array
+c) List
+d) Collection
+d
+5. Which of these is static variable defined in Collections?
+a) EMPTY_SET
+b) EMPTY_LIST
+c) EMPTY_MAP
+d) All of the mentioned
+d
+Join Sanfoundry@YouTube
+6. What will be the output of the following Java program?
+    import java.util.*;    class Array     {        public static void main(String args[])         {            int array[] = new int [5];            for (int i = 5; i > 0; i--)                array[5 - i] = i;            Arrays.sort(array);            for (int i = 0; i < 5; ++i)            	System.out.print(array[i]);;        }    }
+a) 12345
+b) 54321
+c) 1234
+d) 5432
+a
+Output:
+$ javac Array.java
+$ java Array
+12345
+7. What will be the output of the following Java program?
+    import java.util.*;    class Collection_Algos     {        public static void main(String args[])         {            LinkedList list = new LinkedList();            list.add(new Integer(2));            list.add(new Integer(8));            list.add(new Integer(5));            list.add(new Integer(1));            Iterator i = list.iterator();            Collections.reverse(list);	    Collections.sort(list);            while(i.hasNext())	        System.out.print(i.next() + " ");        }    }
+a) 2 8 5 1
+b) 1 5 8 2
+c) 1 2 5 8
+d) 2 1 8 5
+c
+Output:
+$ javac Collection_Algos.java
+$ java Collection_Algos
+1 2 5 8
+8. What will be the output of the following Java program?
+    import java.util.*;    class Collection_Algos     {        public static void main(String args[])         {            LinkedList list = new LinkedList();            list.add(new Integer(2));            list.add(new Integer(8));            list.add(new Integer(5));            list.add(new Integer(1));            Iterator i = list.iterator();            Collections.reverse(list);	    Collections.shuffle(list);            while(i.hasNext())	        System.out.print(i.next() + " ");        }    }
+a) 2 8 5 1
+b) 1 5 8 2
+c) 1 2 5 8
+d) Any random order
+d
+Output:
+$ javac Collection_Algos.java
+$ java Collection_Algos
+1 5 2 8
+(output will be different on your system)
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.util – Array Class» Next - Java Questions & Answers – Collection Algorithms 

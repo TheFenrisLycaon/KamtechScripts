@@ -1,0 +1,78 @@
+1. Which of the following expression is used to denote spatial domain process?
+a) g(x,y)=T[f(x,y)]
+b) f(x+y)=T[g(x+y)]
+c) g(xy)=T[f(xy)]
+d) g(x-y)=T[f(x-y)]
+a
+2. Which of the following shows three basic types of functions used frequently for image enhancement?
+a) Linear, logarithmic and inverse law
+b) Power law, logarithmic and inverse law
+c) Linear, logarithmic and power law
+d) Linear, exponential and inverse law
+b
+3. Which expression is obtained by performing the negative transformation on the negative of an image with gray levels in the range[0,L-1] ?
+a) s=L+1-r
+b) s=L+1+r
+c) s=L-1-r
+d) s=L-1+r
+c
+4. What is the general form of representation of log transformation?
+a) s=clog10(1/r)
+b) s=clog10(1+r)
+c) s=clog10(1*r)
+d) s=clog10(1-r)
+b
+5. What is the general form of representation of power transformation?
+a) s=crγ
+b) c=srγ
+c) s=rc
+d) s=rcγ
+a
+6. What is the name of process used to correct the power-law response phenomena?
+a) Beta correction
+b) Alpha correction
+c) Gamma correction
+d) Pie correction
+c
+7. Which of the following transformation function requires much information to be specified at the time of input?
+a) Log transformation
+b) Power transformation
+c) Piece-wise transformation
+d) Linear transformation
+c
+8. In contrast stretching, if r1=s1 and r2=s2 then which of the following is true?
+a) The transformation is not a linear function that produces no changes in gray levels
+b) The transformation is a linear function that produces no changes in gray levels
+c) The transformation is a linear function that produces changes in gray levels
+d) The transformation is not a linear function that produces changes in gray levels
+b
+9. In contrast stretching, if r1=r2, s1=0 and s2=L-1 then which of the following is true?
+a) The transformation becomes a thresholding function that creates an octal image
+b) The transformation becomes a override function that creates an octal image
+c) The transformation becomes a thresholding function that creates a binary image
+d) The transformation becomes a thresholding function that do not create an octal image
+c
+10. In contrast stretching, if r1≤r2  and s1≤s2 then which of the following is true?
+a) The transformation function is double valued and exponentially increasing
+b) The transformation function is double valued and monotonically increasing
+c) The transformation function is single valued and exponentially increasing
+d) The transformation function is single valued and monotonically increasing
+d
+11. In which type of slicing, highlighting a specific range of gray levels in an image often is desired?
+a) Gray-level slicing
+b) Bit-plane slicing
+c) Contrast stretching
+d) Byte-level slicing
+a
+12. Which of the following depicts the main functionality of the Bit-plane slicing?
+a) Highlighting a specific range of gray levels in an image
+b) Highlighting the contribution made to total image appearance by specific bits
+c) Highlighting the contribution made to total image appearance by specific byte
+d) Highlighting the contribution made to total image appearance by specific pixels
+b
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions And Answers – Smoothing Spatial Filters» Next - Digital Image Processing Questions And Answers – Sharpening Spatial Filters 

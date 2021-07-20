@@ -1,0 +1,82 @@
+1. Shift registers comprise of which flip-flops?
+a) D flip-flops
+b) SR flip-flops
+c) JK flip-flops
+d) T flip-flops
+a
+2. In serial input serial output register, the data of ______ is accessed by the circuit.
+a) Last flip-flop
+b) First flip-flop
+c) All flip-flops
+d) No flip-flop
+b
+3. In PIPO shift register, parallel data can be taken out by ______
+a) Using the Q output of the first flip-flop
+b) Using the Q output of the last flip-flop
+c) Using the Q output of the second flip-flop
+d) Using the Q output of each flip-flop
+d
+4. Four bits shift register enables shift control signal in how many clock pulses?
+a) Two clock pulses
+b) Three clock pulses
+c) Four clock pulses
+d) Five clock pulses
+c
+5. Time taken by the shift register to transfer the content is called _______
+a) Clock duration
+b) Bit duration
+c) Word duration
+d) Duration
+c
+6. Transfer of one bit of information at a time is called _______
+a) Rotating
+b) Serial transfer
+c) Parallel transfer
+d) Shifting
+b
+7. Clock divider slow down the input clock of the shift register.
+a) True
+b) False
+a
+8. Shift registers are used to delay the data signal.
+a) True
+b) False
+a
+9. In gated D latch, which of the following is the input symbol?
+a) D
+b) Q
+c) EN
+d) CLK
+a
+10.  Which register is used in the following code?
+library ieee;
+use ieee.std_logic_1164.all;
+entity shift_siso is
+port (Clock, Sin : in std_logic;
+Sout : out std_logic);
+end shift_siso;
+architecture behav of shift_siso is
+signal temp: std_logic_vector(7 downto 0);
+begin
+process (Clock)
+begin
+if (Clock'event and Clock='1') then
+for i in 0 to 6 loop
+temp(i+1) <= temp(i);
+end loop;
+temp(0) <= Sin;
+end if ;
+end process;
+Sout <= temp(7);
+end behav;
+a) Serial in serial out
+b) Serial in parallel out
+c) Parallel in parallel out
+d) Parallel in serial out
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Implementing Combinational Circuits with VHDL – 2» Next - VHDL Questions and Answers – Designing Counters with VHDL 

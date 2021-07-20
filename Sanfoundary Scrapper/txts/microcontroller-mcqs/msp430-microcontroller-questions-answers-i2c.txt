@@ -1,0 +1,66 @@
+1. The I2C bus uses which of the following lines?
+a) CLK
+b) MISO
+c) SDA
+d) All of the mentioned
+c
+2. I2C is a faster means of data transfer than SPI?
+a) yes
+b) no
+c) depends on the conditions
+d) cant be said
+b
+3. Each slave has its unique address.
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+a
+4. Pull-up resistors Rp keep the lines at VCC when _____________
+a) all the drivers are active
+b) none of the drivers are active
+c) some the drivers are at sleep
+d) none of the drivers is at sleep
+b
+5. Rising edge on SDA while SCL is high denotes __________
+a) start condition (S)
+b) stop condition (P)
+c) transfer in progress
+d) none of the mentioned
+b
+6. Which of the following is an issue while programming I2C using the software?
+a) open-collector output
+b) open-drain output
+c) totem pole output
+d) all of the mentioned
+b
+7. Which of the following is the slave to be addressed when a device acts as a master?
+a) UCB0I2COA
+b) UCB0I2CSA
+c) UCB0I2CIE
+d) All of the mentioned
+b
+8. Is baud rate selected in I2C?
+a) yes
+b) no
+c) cant be said
+d) depends on the conditions
+a
+9. How is I2C with USI different from I2C with USI_B?
+a) there is only one common pin between the two devices
+b) here in this case no synchronization is important
+c) the outputs of SDA and SCL are open drain
+d) none of the mentioned
+c
+10. UCB0RXIFG is set when ________
+a) complete byte is acknowledged
+b) complete byte is transmitted
+c) complete byte is received
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MSP430 Microcontroller Questions and Answers – SPI» Next - MSP430 Microcontroller Questions and Answers – Asynchronous Serial Communication 

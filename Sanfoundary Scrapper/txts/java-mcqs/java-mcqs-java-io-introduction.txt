@@ -1,0 +1,86 @@
+1. Which of these packages contain classes and interfaces used for input & output operations of a program?
+a) java.util
+b) java.lang
+c) java.io
+d) all of the mentioned
+c
+2. Which of these class is not a member class of java.io package?
+a) String
+b) StringReader
+c) Writer
+d) File
+a
+3. Which of these interface is not a member of java.io package?
+a) DataInput
+b) ObjectInput
+c) ObjectFilter
+d) FileFilter
+c
+4. Which of these class is not related to input and output stream in terms of functioning?
+a) File
+b) Writer
+c) InputStream
+d) Reader
+a
+5. Which of these is specified by a File object?
+a) a file in disk
+b) directory path
+c) directory in disk
+d) none of the mentioned
+c
+6. Which of these is method for testing whether the specified element is a file or a directory?
+a) IsFile()
+b) isFile()
+c) Isfile()
+d) isfile()
+b
+7. What will be the output of the following Java code?
+    import java.io.*;    class files     {        public static void main(String args[])         {            File obj = new File("/java/system");            System.out.print(obj.getName());        }    }
+a) java
+b) system
+c) java/system
+d) /java/system
+b
+Output:
+$ javac files.java
+$ java files
+system
+8. What will be the output of the following Java program? (Note: file is made in c drive.)
+    import java.io.*;    class files     {        public static void main(String args[])         {            File obj = new File("/java/system");            System.out.print(obj.getAbsolutePath());        }    }
+a) java
+b) system
+c) java/system
+d) \java\system
+d
+Output:
+$ javac files.java
+$ java files
+\java\system
+9. What will be the output of the following Java program? (Note: file is made in c drive.)
+    import java.io.*;    class files     {        public static void main(String args[])         {            File obj = new File("/java/system");            System.out.print(obj.canWrite());            System.out.print(" " + obj.canRead());        }    }
+a) true false
+b) false true
+c) true true
+d) false false
+d
+Output:
+$ javac files.java
+$ java files
+false false
+10. What will be the output of the following Java program? (Note: file is made in c drive.)
+    import java.io.*;    class files     {        public static void main(String args[])         {            File obj = new File("/java/system");            System.out.print(obj.getParent());            System.out.print(" " + obj.isFile());        }    }
+a) java true
+b) java false
+c) \java false
+d) \java true
+c
+Output:
+$ javac files.java
+$ java files
+\java false
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.lang – Double & Float Wrappers» Next - Java Questions & Answers – Java.io Byte Streams 

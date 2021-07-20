@@ -1,0 +1,80 @@
+1. Which of the following error is returned for a query for all changes when a parameter that is used to define the query interval is not valid?
+a) An insufficient number of arguments were supplied for the procedure or function cdc.fn_cdc_get_partial_changes_
+b) An insufficient number of arguments were supplied for the procedure or function cdc.fn_cdc_get_all_changes_
+c) An insufficient number of arguments were supplied for the procedure or function cdc.fn_cdc_get_net_changes_
+d) None of the mentioned
+b
+2. Point out the correct statement.
+a) The function cdc.fn_cdc_get_all_changes_<capture_instance> returns all changes that occurred for the specified interval
+b) The update mask that is returned from a query function is a compact representation that identifies few columns that changed in a row of change data
+c) A typical application scenario for querying for change data is to periodically request change data by using a receiver window bounded by timestamp values
+d) None of the mentioned
+a
+3. The commit time of each transaction with an associated entry in a database change table is available in the table __________
+a) cdc.log_time_mapping
+b) cdc.lsn_time_mapping
+c) cdc.lsn_time_audit
+d) all of the mentioned
+b
+4. Which of the code snippet collect the data every 5 minutes?
+a)
+DECLARE @schedule_uid uniqueidentifier;
+SELECT @schedule_uid = (
+SELECT schedule_uid FROM sysschedules_localserver_view
+@days_until_expiration = 5, 
+WHERE name = N'CollectorSchedule_Every_5min')
+b)
+DECLARE @schedule_uid uniqueidentifier;
+SELECT @schedule_uid = (
+SELECT schedule_uid FROM sysschedules_localserver_view
+@days_until_expiration = 30
+WHERE name = N'CollectorSchedule_Every_5min')
+c)
+DECLARE @schedule_uid uniqueidentifier;
+SELECT @schedule_uid = (
+SELECT schedule_uid FROM sysschedules_localserver_view 
+WHERE name = N'CollectorSchedule_Every_5min')
+d) All of the mentioned
+c
+5. Point out the wrong statement.
+a) cdc.lsn_time_mapping applies to SQL Server 2014
+b) Datetime wrappers are owned by the user, and not are created in the default schema of the caller
+c) Change data capture supports up to two capture instances for a single tracked source table
+d) The name of the function to wrap the all changes query is fn_all_changes_ followed by the capture instance name.
+a
+6. Which of the following query returns the average latency for the most recent sessions?
+a) SELECT latency FROM sys.dm_cdc_log_audit_sessions WHERE session_id = 0
+b) SELECT latency FROM sys.dm_cdc_log_scan_ WHERE session_id = 0
+c) SELECT latency FROM sys.dm_cdc_audit_scan_sessions WHERE session_id = 0
+d) SELECT latency FROM sys.dm_cdc_log_scan_sessions WHERE session_id = 0
+d
+7. __________  gives DBAs an option to shut down the server in case of an audit log failure.
+a) Shut down server on partial failure
+b) Shut down server on audit log failure
+c) Shut down server on complete failure
+d) None of the mentioned
+b
+8. Which of the following field in cdc.lsn_time_mapping has varbinary data type?
+a) tran_begin_time
+b) tran_id
+c) start_lsn
+d) all of the mentioned
+b
+9. Which of the following query returns the average throughput for the most recent sessions?
+a) SELECT command_count*duration AS [Throughput] FROM sys.dm_cdc_log_scan_sessions WHERE session_id = 0
+b) SELECT command_count/duration AS [Throughput] FROM sys.dm_cdc_log_scan_sessions WHERE session_id = 0
+c) SELECT command_count/duration AS [Throughput] FROM sys.dm_cdc_log_scan_sesss WHERE session_id = 0
+d) None of the mentioned
+b
+10. sys.fn_cdc_map_time_to_lsn returns ________ value from the start_lsn column in the cdc.lsn_time_mapping system table for the specified time.
+a) LSN
+b) LNS
+c) SLN
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Change Data Capture» Next - SQL Server Questions and Answers – Management Data Warehouse 

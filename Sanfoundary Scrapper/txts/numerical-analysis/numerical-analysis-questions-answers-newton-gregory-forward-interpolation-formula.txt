@@ -1,0 +1,366 @@
+1. Newton- Gregory Forward interpolation formula can be used _____________
+a) only for equally spaced intervals
+b) only for unequally spaced intervals
+c) for both equally and unequally spaced intervals
+d) for unequally intervals
+a
+f(x) = y0 + nΔy0 + n(n-1)Δ2y0/2! + n(n-1)(n-2) Δ3y0 /3! + …..
+This formula is obtained by the Newton’s Divided difference formula by substituting the intervals as h. This is done because we assume the intervals to be constant, that is, equally spaced. 
+2. Find n for the following data if f(0.2) is asked.
+x
+0
+1
+2
+3
+4
+5
+6
+f(x)
+176
+185
+194
+203
+212
+220
+229
+a) 0.4
+b) 0.2
+c) 1
+d) 0.1
+b
+x = x0 + nh.
+Here x0 is 0 as 0 is the first element and h is 1.
+Since in the question it is given that we have to find f(0.2), x= 0.2.
+So, substituting the values in the formula we get,
+0.2 = 0 + n(1) .
+Hence, n= 0.2.
+3. Find n for the following data if f(1.8) is asked.
+x
+0
+0.5
+1
+1.5
+2
+f(x)
+0.3989
+0.3521
+0.2420
+0.1295
+0.0540
+a) 2.4
+b) 3.4
+c) 2.6
+d) 3.6
+d
+Substituting the values in the formula
+x = x0 + nh,
+1.8 = 0 + n(0.5)
+n = 3.6.
+4. Find the polynomial for the following data.
+x
+4
+6
+8
+10
+f(x)
+1
+3
+8
+16
+a) \(\frac{3x^2-22x+36}{8} \) 
+b) 3x2-22x+36
+c) \(\frac{3x^2+22x+36}{2} \) 
+d) \(\frac{3x^2-19x+36}{8} \) 
+a
+x
+y
+Δy
+Δ2y
+Δ3y
+4
+1
+2
+3
+0
+6
+3
+5
+3
+8
+8
+8
+10
+16
+y0 is 1 since it is forward interpolation formula.
+Δy0 = 2
+Δ2y0 = 3
+Δ3y0 = 0
+x = x0 + nh,
+x = 4 + n(2)
+Hence
+n = (x-4)/2
+Substituting these values in the formula,
+f(x) = y0 + nΔy0 + n(n-1)Δ2y0/2! + n(n-1)(n-2) Δ3y0 /3!,
+\(f(x)=1+\frac{(x-4)}{2} 2+\frac{(x-4)}{2} (\frac{x-4}{2}-1)  \frac{3}{2}+0 \) 
+\(=\frac{3x^2-22x+36}{8}.\) 
+5. Using Newton’s Forward formula, find sin(0.1604) from the following table.
+x
+0.160
+0.161
+0.162
+f(x)
+0.1593182066
+0.1603053541
+0.1612923412
+a) 0.169713084
+b) 0.159713084
+c) 0.158713084
+d) 0.168713084
+b
+x0 = 0.160
+x = 0.1604
+h = 0.001
+x = x0 + nh,
+0.1604 = 0.160 + n(0.001)
+n = 0.4
+x
+y
+Δy
+Δ2y
+0.160
+0.1593182066
+9.871475*10-4
+-1.604*10-7
+0.161
+0.1603053541
+9.869871*10-4
+0.162
+0.1612923412
+y0 is  0.1593182066 since it is forward interpolation formula.
+Δy0 = 9.871475*10-4
+Δ2y0 = -1.604*10-7
+ Substituting in the formula,
+f(x) = y0 + nΔy0 + n(n-1)Δ2y0/2! + n(n-1)(n-2) Δ3y0 /3! ,
+f(0.1604) = 0.1593182066+(0.4)(9.871475*10-4)+(0.4)(-0.6)  \(\frac{(-1.604*10^{-7})}{2} \) 
+= 0.159713084.
+6. Find f(5) using Newton’s Forward interpolation formula from the following table.
+x
+0
+2
+4
+6
+8
+f(x)
+4
+26
+58
+112
+466
+a) 71.109375
+b) 61.103975
+c) 70.103957
+d) 71.103957
+a
+x0 = 0
+x = 5
+h = 2
+x = x0 + nh,
+5 = 0 + n(2)
+n = 2.5
+x
+y
+Δy
+Δ2y
+Δ3y
+Δ4y
+0
+4
+22
+10
+12
+266
+2
+26
+32
+22
+278
+4
+58
+54
+300
+6
+112
+354
+8
+466
+y0 is  4 since it is forward interpolation formula.
+Δy0 = 22
+Δ2y0 = 10
+Δ3y0 = 12
+Δ4y0 = 266
+ Substituting in the formula,
+f(x) = y0 + nΔy0 + n(n-1)Δ2y0/2! + n(n-1)(n-2) Δ3y0 /3! +….
+f(5)=4+(2.5)(22)+\(\frac{(2.5)(1.5)(10)}{2}+\frac{(2.5)(1.5)(0.5)(12)}{6}+\frac{(2.5)(1.25)(0.5)(-0.5)(266)}{24} \) 
+f(5) = 71.109375. 
+7. Find f(0.18) from the following table using Newton’s Forward interpolation formula.
+x
+0
+0.1
+0.2
+0.3
+0.4
+f(x)
+1
+1.052
+1.2214
+1.3499
+1.4918
+a) 1.18878784
+b) 1.8878784
+c) 1.9878785
+d) 0.8878784
+a
+x0 = 0
+x = 0.18
+h = 0.1
+x = x0 + nh,
+0.18 = 0 + n(0.1)
+n = 1.8
+x
+y
+Δy
+Δ2y
+Δ3y
+Δ4y
+0
+1
+0.052
+0.1174
+-0.1583
+0.2126
+0.1
+1.052
+0.1694
+-0.0409
+0.0543
+0.2
+1.2214
+0.1285
+0.0134
+0.3
+1.3499
+0.1419
+0.4
+1.4918
+y0 is  1 since it is forward interpolation formula.
+Δy0 = 0.052
+Δ2y0 = 0.1174
+Δ3y0 = -0.1583
+Δ4y0 = 0.2126
+ Substituting in the formula,
+f(x) = y0 + nΔy0 + n(n-1)Δ2y0/2! + n(n-1)(n-2) Δ3y0 /3! +….
+\(f(0.18)=1+(1.8)(0.052)+\frac{(1.8)(0.8)(0.1174)}{2}+\frac{(1.8)(0.8)(-0.2)(-0.1583)}{6}\) 
+\(+\frac{(1.8)(0.8)(-0.2)(-1.2)(0.2126)}{24} \) 
+f(0.18) = 1.18878784. 
+8. Find f(2.75) using Newton’s Forward interpolation formula from the following table.
+x
+1.5
+2
+2.5
+3
+3.5
+4
+y
+3.375
+7
+13.625
+24
+38.875
+59
+a) 1.8296875
+b) 18.296875
+c) 22.296875
+d) 24.296875
+a
+x0 = 1.5
+x = 2.75
+h = 0.5
+x = x0 + nh,
+2.75 = 1.5 + n(0.5)
+n = 2.5
+x
+y
+Δy
+Δ2y
+Δ3y
+Δ4y
+Δ5y
+1.5
+3.375
+3.625
+3
+0.75
+0
+0
+2
+7
+6.625
+3.75
+0.75
+0
+2.5
+13.625
+10.375
+4.5
+0.75
+3
+24
+14.875
+5.25
+3.5
+38.875
+20.125
+4
+59
+y0 is  3.375 since it is forward interpolation formula.
+Δy0 = 3.625
+Δ2y0 = 3
+Δ3y0 = 0.75
+Δ4y0 = 0
+Δ5y0 = 0
+ Substituting in the formula,
+f(x) = y0 + nΔy0 + n(n-1)Δ2y0/2! + n(n-1)(n-2) Δ3y0 /3! +….
+f(2.75)=3.375+(2.5)(3.625)+\(\frac{(2.5)(1.5)(3)}{2}+\frac{(2.5)(1.5)(0.5)(0.75)}{6}\)+0+0
+f(2.75) = 18.296875. 
+9. Find n if x0 = 0.75825, x = 0.759 and h = 0.00005.
+a) 1.5
+b) 15
+c) 2.5
+d) 25
+b
+x0 = 0.75825
+ x = 0.759
+ h = 0.00005
+Substituting in the formula,
+x = x0 + nh,
+0.759 = 0.75825 + n(0.00005)
+Therefore, n = 15. 
+10. Find x if x0 = 0.6, n = 2.6 and h = 0.2.
+a) 12
+b) 1.2
+c) 1.12
+d) 1.22
+c
+x0 = 0.6
+ n = 2.6
+ h = 0.2
+Substituting in the formula,
+x = x0 + nh
+x = 0.6+(0.2)(2.6)
+x = 1.12. 
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Methods, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Matrix Inversion Questions and Answers – Jacobi’s Iteration Method» Next - Numerical Analysis Questions and Answers – Approximation of Functions using Least Square Method 

@@ -1,0 +1,78 @@
+1. In mathematical modeling of a process, which option is not a characteristic of an analytical solution?
+a) Mathematical equations are used to describe a process
+b) Most practical problems cannot be solved
+c) Exact information on the quantities of interest is obtained
+d) Finite element method is used
+d
+2. In mathematical modeling of a process, which option is not a characteristic of a numerical solution method?
+a) It does not give exact information on the quantities of interest
+b) A set of assumptions are made about the process
+c) Applicable to simple problems only
+d) Finite element method is used
+c
+3. In FEM, which option is not correct with respect to the generation of element geometries?
+a) It involves coordinate transformation
+b) It is based on a one-to-many mapping
+c) A point in actual element maps uniquely to master element
+d) Tiny interior angles are avoided
+b
+4. In the generation of element geometries, if dx dy represents an area element in the real element and dεdη represents the corresponding area element in the master element, then what is the expression for Jacobian je?
+a) (dx dy) (dεdη)
+b) \(\frac{dx}{d\epsilon} \frac{dy}{d\eta}\) 
+c) \(\frac{d\epsilon}{dx} \frac{d\eta}{dy}\) 
+d) \(\frac{1}{(dx dy) (d\epsilon d\eta)}\) 
+b
+5. In the generation of element geometries, for what value of je, the element geometries lie within the limits of acceptable distortion?
+a) je>0
+b) je<0
+c) je=0
+d) Any real value of je
+a
+6. Which of the following finite element geometries contains unacceptable vertex angles, in practice?
+a) 1 and 2
+b) 2 and 4
+c) Only 3
+d) 1, 3 and 5
+d
+7. For a finite element mesh to be valid, which option is not true regarding the elements used?
+a) The number of elements used is not exact
+b) Elements can be of different orders
+c) Elements can be of different types
+d) The choice of elements and mesh is problem-independent
+d
+8. A finite element mesh is refined by subdividing existing elements into two or more elements of the same type, what is the name of such a refinement?
+a) h-version mesh refinement
+b) p-version mesh refinement
+c) h, p-version mesh refinement
+d) p, h-version mesh refinement
+a
+9. In local mesh refinement, if very small elements are placed adjacent to very large ones, then the mesh becomes unacceptable.
+a) True
+b) False
+a
+10. In FEM, which option is the most realistic representation of the actual force between deformable bodies?
+a) Point load
+b) Uniformly varying load
+c) Sine distribution
+d) Uniformly distributed load
+c
+11.For the following element, what is the value of a+b such that the Jacobian  J=\(\frac{1}{4}\)[a(1+η)+b(1+ξ)-2(ξ+η)] is positive, where (ξ, η) are natural coordinates?
+a) >2
+b) <2
+c) =2
+d) 0
+a
+J=\(\frac{1}{4}\)[a(1+η)+b(1+ξ)-2(ξ+η)] 
+=\(\frac{1}{4}\)[a(2)+b(2)-2(2)] 
+=\(\frac{1}{4}\)[2(a+b)-4] 
+=\(\frac{1}{2}\)(a+b)-1 
+Given j>0,
+\(\frac{1}{2}\)(a+b)-1>0 
+\(\frac{1}{2}\)(a+b)>1 
+(a+b)>2.
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Library of Elements and Interpolation Functions – 2» Next - Finite Element Method Questions and Answers – Plane Elasticity – Governing Equations 

@@ -1,0 +1,50 @@
+1. Which of these is a read only variable?
+a) error_count
+b) big_tables
+c) autocommit
+d) foreign_key_checks
+a
+2. Which variable when set to 1 would enable foreign key checking for InnoDB tables?
+a) error_count
+b) identity
+c) foreign_key_checks
+d) autocommit
+c
+3. The synonym for last_insert_id session variable is _____________
+a) insert_id
+b) identity
+c) sql_auto_is_null
+d) sql_big_selects
+b
+4. When building from source, the embedded server library is enabled by what?
+a) –with-embedded-server
+b) –with-server-embedded
+c) –with-embedded-library
+d) –with-library-embedded
+a
+5. How many among the following use NULL to indicate failure?
+mysql_init(), mysql_real_connect()
+a) 0
+b) 1
+c) 2
+d) 3
+c
+6. How many among the following does not return a value?
+mysql_close(), mysql_init, mysql_real_connect
+a) 0
+b) 1
+c) 2
+d) 3
+b
+7. What returns a string containing an error message?
+a) mysql_error()
+b) mysql_errno()
+c) mysql_sqlstate()
+d) mysql_close()
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – System Variables» Next - MySQL Questions and Answers – Status Variables 

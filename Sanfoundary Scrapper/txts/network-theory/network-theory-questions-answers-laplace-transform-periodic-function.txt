@@ -1,0 +1,135 @@
+1. For a network having 1 Ω resistor and 1 F capacitor in series, the impedance Z(s) is ____________
+a) \(\frac{s+1}{s}\) 
+b) \(\frac{s+2}{s}\) 
+c) \(\frac{s}{s+1}\) 
+d) \(\frac{s}{s+2}\) 
+a
+Z(s) = resistance + 1/capacitor
+= 1 + \(\frac{1}{s}\) 
+= \(\frac{s+1}{s}\).
+2. A system function  H(s) = \(\frac{25}{s^2+4s+100}\), the resonant frequency in rad/sec and bandwidth in rad/sec is ____________
+a) 5, 10
+b) 5, 4
+c) 10, 4
+d) 10, 10
+c
+So, we can infer that, ωn = (100)0.5
+= 10
+And hence, ωr ≃ 10
+So, resonant frequency = 10 rad/sec
+And Bandwidth = 10 rad/sec.
+3. Given a series RLC circuit. The impedance Z(s) of the circuit will be?
+a) \(\frac{5(s^2+5)}{s^2+s+1}\) 
+b) \(\frac{5(s^2-5)}{s^2-s-1}\) 
+c) \(\frac{s^2-10s-100}{s}\) 
+d) \(\frac{s^2+10s+100}{s}\) 
+d
+ = \(\frac{s^2 LC+RCs+1}{sC}\) 
+This is similar to \(\frac{s^2+10s+100}{s}\).
+4. A system function H(s) = \(\frac{V(s)}{I(s)} = \frac{s}{(s+4)}\). For i(t) = u(t) and value of system is 0 for t<0. Then v(t) is ___________
+a) 1 – e-4t
+b) e-4t
+c) e4t
+d) 1 + e-4t
+b
+= \(\frac{1}{s+4}\) 
+So, v (t) = e-4t.
+5. A system is at rest for t < 0. It is given by \(\frac{dy}{dt}\) + 2y = u(t)sin⁡(2t+A). If steady state is reached at t = 0, then the value of angle A is ___________
+a) 0°
+b) 45°
+c) -45°
+d) ∞
+b
+Or, y(s).s + 2y(s) = \(\frac{ω}{s^2+4}\) 
+Or, s + 2 = 0
+Or, j ω + 2 = 0
+Or, j2 + 2 = 0
+Or, 1 + j = 0
+Or, tan-1(1) = 45°.
+6. The value of 2 [u (t – 1) – u (1 – 2t)] (u ( t + 1) + u (t)) at t = 3 sec is ____________
+a) 0
+b) 4
+c) ∞
+d) 1
+b
+2[u (2) – u (1 – 6)] [u (4) + u (3)] 
+= 2 [1 – 0] [1 + 1] 
+= 4.
+7. Barlett’s Bisection Theorem is applicable to ___________
+a) Unsymmetrical networks
+b) Symmetrical networks
+c) Both unsymmetrical and symmetrical networks
+d) Neither to unsymmetrical nor to symmetrical networks
+b
+So the z parameters of the network are symmetrical as well as reciprocal of each other. Hence Barlett’s Bisection Theorem is applicable to Symmetrical networks.
+8. The values of z11 and z21 for a T circuit having resistances 20 Ω each is _____________
+a) 40, 20
+b) 40, 60
+c) 60, 40
+d) 40, 40
+a
+Thus, z11 = \(\frac{V_1}{I_1}  = \frac{(20+20) I_1}{I_1}\) 
+= 40 Ω
+Now, z21 is the input impedance at port 1.
+So, z21 = \(\frac{V_2}{I_1}\)  = 20 Ω.
+9. The values of z12 and z22 for a T circuit having resistances 20 Ω each is _____________
+a) 40, 20
+b) 40, 60
+c) 20, 40
+d) 40, 40
+c
+Thus, z12 = \(\frac{V_1}{I_2}   = \frac{(20) I_2}{I_2}\) 
+= 20 Ω
+Now, z22 is the input impedance at port 1.
+So, z22 = \(\frac{V_2}{I_2}  = \frac{(20+20) I_2}{I_2}\) = 40 Ω.
+10. If y(t) = 120e10x(t),  then the relation is _________
+a) Dynamic
+b) Static
+c) Memory
+d) Memoryless but not static
+b
+The system represented by the above relation is static because the present output of the system as well as memoryless as its present output does not depend on its past input. It is not a dynamic system since the value of the system increases exponentially.
+11. The z parameters form a matrix of the form ___________
+a) [z11 z12; z21 z22] 
+b) [z11 z12; z22 z21] 
+c) [z12 z11; z21 z22] 
+d) [z11 z22; z12 z21] 
+a
+There are 4 main types of Z-parameters, z11, z12, z21, z22
+They are arranged in the form of a matrix given by [z11 z12; z21 z22].
+12. The Laplace transform of the function e-2tcos(3t) + 5e-2tsin(3t) is ____________
+a) \(\frac{(s+2)-15}{(s+2)^2-9}\) 
+b) \(\frac{(s+2)+15}{(s+2)^2-9}\) 
+c) \(\frac{(s+2)+15}{(s+2)^2+9}\) 
+d) \(\frac{(s+2)-15}{(s+2)^2+9}\) 
+c
+= \(\frac{(s+2)+15}{(s+2)^2+9}\).
+13. The Laplace transform of the function 6e5tcos(2t) – e7t is ______________
+a) \(\frac{6(s-5)}{(s-5)^2+4} – \frac{1}{s-7}\) 
+b) \(\frac{6(s-5)}{(s-5)^2+4} + \frac{1}{s-7}\) 
+c) \(\frac{6(s+5)}{(s+5)^2+4} – \frac{1}{s-7}\) 
+d) \(\frac{6(s+5)}{(s+5)^2+4} + \frac{1}{s-7}\) 
+a
+14. The Laplace transform of the function cosh2(t) is ____________
+a) \(\frac{s^2+2}{s(s^2+4)}\) 
+b) \(\frac{s^2-2}{s(s^2-4)}\) 
+c) \(\frac{s^2-2}{s(s^2+4)}\) 
+d) \(\frac{s^2+2}{s(s^2-4)}\) 
+b
+= L \(\left(\frac{e^{2t}}{4} + \frac{1}{2} + \frac{e^{-2t}}{4}\right)\) 
+= \(\frac{1}{4} \frac{1}{s-2} + \frac{1}{2} \frac{1}{s} + \frac{1}{4} \frac{1}{s+2}\) 
+= \(\frac{s^2-2}{s(s^2-4)}\).
+15. Given a system function H(s) = \(\frac{V(s)}{I(s)} = \frac{(s+4)}{(s+3)^2}\). And i(t) is a unit step, then V(t) in the steady state is ___________
+a) \(\frac{4}{9}\) 
+b) \(\frac{4}{3}\) 
+c) 0
+d) ∞
+a
+At steady state, sV(s) = \(\frac{0+4}{(0+3)^2}\) 
+= \(\frac{4}{9}\).
+Sanfoundry Global Education & Learning Series – Network Theory.
+To practice all areas of Network Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Theory Questions and Answers – Problems Involving Standard Time Functions» Next - Network Theory Questions and Answers – Problems on Initial and Final Value Theorem 

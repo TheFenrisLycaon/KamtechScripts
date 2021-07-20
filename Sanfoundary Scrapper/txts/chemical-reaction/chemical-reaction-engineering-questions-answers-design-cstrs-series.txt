@@ -1,0 +1,65 @@
+1. State true or false.
+It is preferable to use a number of CSTRs in series to achieve a specific conversion than a single CSTR.
+a) True
+b) False
+a
+2. What is the mole balance of a component in a CSTR? (Where F0 is the molar flowrate of reactant entering and F is the exit molar flowrate)
+a) F0 = FX + F
+b) F0 = FX + F0
+c) F0 = F0X + F
+d) F0 = X + F
+c
+3. For ‘i’ CSTRs of variable volume in series, the residence time in the ith reactor is ____
+a) τi = \(\frac{- C_i}{-r_i} \) 
+b) τi = \(\frac{C_{i-1}- C_i}{-r_i} \) 
+c) τi = \(\frac{C_i}{-r_i}  \) 
+d) τi = \(\frac{C_{i-1}}{-r_i} \) 
+b
+v is the volumetric flowrate and V2 is the volume of the 2nd reactor. Rearranging, \(\frac{V_2}{v} = \frac{C_1- C_2}{-r_2}\) , τ2 = \(\frac{C_1- C_2}{-r_2}.\) For ith reactor in series, τi = \(\frac{C_{i-1}- C_i}{-r_i}. \) 
+4. What is the concentration C4 at the end of 4th reactor, for n unequal sized CSTRs in series, where X4 is the conversion in 4th reactor?
+a) C4 = (1 – X4)
+b) C4 = C0X4
+c) C0 = C4 (1 – X4)
+d) C4 = C0(1 – X4)
+d
+5. The plot of rate of the reaction and the reactant concentration for unequal sized CSTRs in series is ____
+a) 
+b) 
+c) 
+d) 
+a
+6. For equal sized CSTRs in series carrying out 1st order reactions of constant density, which of the following is true? (ki is the rate constant in a reactor ‘i’ in series)
+a) k1 ≠ k2 ≠ … ≠ kn, τ1 = τ2 = … = τn
+b) k1 = k2 = … = kn, τ1 = τ2 = … = τn
+c) k1 = k2 = … = kn, τ1 ≠ τ2 ≠ … ≠ τn
+d) k1< k2< …<kn, τ1 = τ2 = … = τn
+b
+7. For very low conversion, the value of Damkohler number is ____
+a) ≤0.1
+b) >10
+c) ≥0.1
+d) = 10
+a
+8. State true or false.
+For different sized CSTRs in series, the best system is the one having a minimum volume for a specific conversion.
+a) True
+b) False
+a
+9. For equal sized CSTRs in series carrying out 1st order reaction, the concentration at the outlet of nth reactor is ____
+a) CN = \(\frac{1}{(1 + τk)^N} \) 
+b) CN = \(\frac{C_0}{(1 + τ)^N} \) 
+c) CN = \(\frac{C_0}{(1 + k)^N} \) 
+d) CN = \(\frac{C_0}{(1 + τk)^N} \) 
+d
+10. If Da is the Damkohler number, for equal sized CSTRs in series carrying out first order reaction, the plot representing conversion and number of CSTRs is ____
+a) 
+b) 
+c) 
+d) 
+b
+Sanfoundry Global Education & Learning Series – Chemical Reaction Engineering.
+To practice all areas of Chemical Reaction Engineering,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Chemical Reaction Engineering Questions and Answers – Stoichiometry – Batch Reactors with Variable Volume» Next - Chemical Reaction Engineering Questions and Answers – Rate Data Collection & Analysis – Method of Half Lives 

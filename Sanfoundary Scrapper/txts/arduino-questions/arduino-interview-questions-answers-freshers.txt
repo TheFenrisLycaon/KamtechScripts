@@ -1,0 +1,65 @@
+1. How many RX-TX pairs of pins are present in the Arduino Mega?
+a) 1
+b) 2
+c) 3
+d) 4
+d
+2. What is the full form of UART?
+a) Universal Asynchronous Receiver/Transmitter
+b) Universal Anti-Rectifying Transmitter
+c) Universal Asynchronous Radio Transmitter
+d) Universal Asynchronous Rectifier Transistor
+a
+3. In Serial Communications, how many sections is a data packet divided into?
+a) 1
+b) 2
+c) 3
+d) 4
+d
+4. Does the UART Architecture require an external clock?
+a) Yes
+b) No
+b
+5. What is the purpose of the following code?
+void setup() {    Seria.begin(9600);}void setup() {    Serial.write(40);}
+a) Send a byte with value 40 through the Serial pins
+b) Send a signal to pin 40 on the Arduino board
+c) Send a hexadecimal number of 40 through the Serial pins
+d) Send a octal number of 40 through the Serial pins
+a
+6. What is the function in Arduino that is capable of reading Strings from a stream and store the acquired value into a String?
+a) Stream.readstring()
+b) Stream.stringread()
+c) Stream.readString()
+d) Stream.readfromstring()
+c
+7. What is the function of the readBytesUntil() function?
+a) Reads only integers from a stream
+b) Reads any characters from a stream
+c) Reads only special characters from a stream
+d) Tokenizes a string from a stream
+b
+8. What is the maximum number of arguments does the find() function accept?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+9. How many parameters does the flush() function accept?
+a) 0
+b) 1
+c) 2
+d) 4
+a
+10. What is the default time limit that is set automatically if no value is passed as the limit to the setTimeout() function?
+a) 100 milliseconds
+b) 1500 milliseconds
+c) 1000 milliseconds
+d) 2432 milliseconds
+c
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Other Libraries» Next - Arduino Questions and Answers – Operators 

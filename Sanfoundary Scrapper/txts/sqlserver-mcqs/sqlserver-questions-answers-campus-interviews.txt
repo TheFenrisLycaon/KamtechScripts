@@ -1,0 +1,85 @@
+1. Which of the following argument is ignored by database engine in COMMIT TRANSACTION?
+a) @tran_name_variable
+b) @tran_name
+c) transaction_name
+d) all of the mentioned
+a
+2. Point out the correct statement.
+a) ROLLBACK TRANSACTION with a savepoint_name or transaction_name rolls back to the beginning of the transaction
+b) A ROLLBACK TRANSACTION statement does  produce any messages to the user
+c) Issuing a COMMIT TRANSACTION when @@TRANCOUNT is 0 results in an error
+d) All of the mentioned
+c
+3. ____________ is the preferred statement for indicating errors in the transaction.
+a) SELECT
+b) PRINT
+c) RAISERROR
+d) All of the mentioned
+c
+4. Which of the following query deletes a job candidate?
+a)
+BEGIN TRANSACTION;
+GO
+DELETE FROM HumanResources.JobCandidate
+    WHERE JobCandidateID = 13;
+GO
+COMMIT TRANSACTION;
+b)
+Join Sanfoundry@YouTube
+BEGIN TRANSACTION;
+GO
+DELETE FROM HumanResources.JobCandidate
+    WHERE JobCandidateID = 13;
+GO
+ROLLBACK TRANSACTION;
+c)
+BEGIN TRANSACTION;
+GO
+DELETE FROM HumanResources.JobCandidate
+    WHERE JobCandidateID = 13;
+GO
+END;
+d) All of the mentioned
+a
+5. Point out the wrong statement.
+a) It is the responsibility of the Transact-SQL programmer to issue COMMIT TRANSACTION only at a point when all data referenced by the transaction is logically correct
+b) The Database Engine increments the transaction count within a statement only when the transaction count is 1 at the start of the statement
+c) You cannot roll back a transaction after a COMMIT TRANSACTION statement is issued
+d) COMMIT transaction requires membership in the public role
+b
+6. A ROLLBACK TRANSACTION statement specifying a savepoint_name releases any locks that are acquired beyond the savepoint, with the exception of __________
+a) escalations
+b) containment
+c) contention
+d) none of the mentioned
+a
+7. What is the fundamental difference between COMMIT and COMMIT WORK?
+a) COMMIT TRANSACTION accepts a user-defined transaction name
+b) COMMIT WORK accepts a user-defined transaction name
+c) COMMIT TRANSACTION accepts a user-defined function
+d) COMMIT WORK accepts a user-defined stored procedure
+a
+8. Implicit transactions are maintained by SQL Server for ___________
+a) SELECT
+b) DDL
+c) DML
+d) All of the mentioned
+d
+9. ROLLBACK WORK always rolls back to the outermost BEGIN TRANSACTION statement for ___________ transactions.
+a) Simple
+b) Nested
+c) Distributed
+d) None of the mentioned
+b
+10. Which of the following condition will ignore the request to enable delayed durability?
+a) DELAYED_DURABILITY = FORCED
+b) DELAYED_DURABILITY = 0
+c) DELAYED_DURABILITY = IGNORED
+d) DELAYED_DURABILITY = NULL
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server for campus interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Transaction – 1» Next - SQL Server Questions and Answers – Locking 

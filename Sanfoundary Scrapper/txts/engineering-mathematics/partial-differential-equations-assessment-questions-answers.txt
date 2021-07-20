@@ -1,0 +1,81 @@
+1. Homogeneous Equations are those in which the dependent variable (and its derivatives) appear in terms with degree exactly one.
+a) True
+b) False
+a
+Homogeneous for which the dependent variable (and its derivatives) appear in terms with degree
+exactly one, and 
+	Non-homogeneous which may contain terms which only depend on the independent variable
+2. Which of the following is false regarding quasilinear equations?
+a) All the terms with highest order derivatives of dependent variables occur linearly
+b) The coefficients of terms with highest order derivatives of dependent variables are functions of only lower order derivatives of the dependent variables
+c) Lower order derivatives can occur in any manner
+d) All the terms with lower order derivatives of dependent variables occur linearly
+d
+3. Which of the following is false regarding Bessel polynomials?
+a) Krall and Fink (1949) defined the Bessel polynomials
+b) The polynomials satisfy the recurrence formula
+c) The solutions of homogeneous equations are closely related to Bessel polynomials
+d) Bessel polynomials are not an orthogonal sequence of polynomials
+d
+\(y_n (x)=∑_{k=0}^n\frac{(n+k)!}{(n-k)!k!} (\frac{x}{2})^k.\) 
+4. Which of the following is not a homogeneous equation?
+a) \(\frac{∂^2 u}{∂t^2}-c^2 \frac{∂^2 u}{∂x^2}=0\) 
+b) \(\frac{∂^2 u}{∂x^2}+\frac{∂^2 u}{∂y^2}=0\) 
+c) \(\frac{∂^2 u}{∂x^2}+(\frac{∂^2 u}{∂x∂y})^2+\frac{∂^2 u}{∂y^2}=x^2+y^2\) 
+d) \(\frac{∂u}{∂t} -T\frac{∂^2 u}{∂x^2}=0\) 
+c
+\(\frac{∂^2 u}{∂x^2}+(\frac{∂^2 u}{∂x∂y})^2+\frac{∂^2 u}{∂y^2}=x^2+y^2\) is not a homogenous equation (since its degree is 2).
+5. What is the general solution of the DE with n linearly independent solutions u1(t), …., un(t) of a nth order linear homogeneous DE?
+a) \(u(t)=u_1 (t)+⋯+c_{n+1} u_n (t)=∑_{k+1}^n=c_{k+1} u_k (t)\) 
+b) \(u(t)=u_1 (t)+⋯+u_n (t)=∑_{k=1}^nu_k(t) \) 
+c) \(u(t)=c_1 u_1 (t)+⋯+c_n u_n (t)=∑_{k=1}^n c_k u_k (t) \) 
+d) \(u(t)=c_0 u_0 (t)+⋯+c_n u_n (t)=∑_{k=0}^∞c_k u_k (t) \) 
+c
+\(u(t)=c_1 u_1 (t)+⋯+c_n u_n (t)=∑_{k=1}^nc_k u_k (t)\) 
+6. What is the degree of the homogeneous partial differential equation, \(\frac{∂^2 u}{∂t^2}-c^2 \frac{∂^2 u}{∂x^2}=0\)?
+a) Second-degree
+b) First-degree
+c) Third-degree
+d) Zero-degree
+b
+7. The solution of an ODE contains arbitrary constants, the solution to a PDE contains arbitrary functions.
+a) True
+b) False
+a
+An ordinary differential equation is a differential equation in which a dependent variable (say ‘y’) is a function of only one independent variable (say ‘x’).
+A partial differential equation is one in which a dependent variable depends on one or more independent variables.
+8. Which of the following is not an example of linear differential equation?
+a) y=mx+c
+b) x+x’=0
+c) x+x2=0
+d) x^”+2x=0
+c
+9. A homogeneous linear differential equation has constant coefficients if it has the form
+\(a_0 y+a_1 y’+a_2 y”+⋯+a_n y^{(n)}=0,\) where a1,…,an  are (real or complex) numbers.
+a) False
+b) True
+b
+10. The symbol used for partial derivatives, ∂, was first used in mathematics by Marquis de Condorcet.
+a) True
+b) False
+a
+11. Which of the following is true with respect to formation of differential equation by elimination of arbitrary constants?
+a) The given equation should be differentiated with respect to independent variable
+b) Elimination of the arbitrary constant by replacing it using derivative
+c) If ‘n’ arbitrary constant is present, the given equation should be differentiated ‘n’ number of times
+d) To eliminate the arbitrary constants, the given equation must be integrated with respect to the dependent variable
+d
+To form a differential equation by elimination of arbitrary constant, the following steps need to be followed:
+Differentiate (1) with respect to x
+	In case of ‘n’ arbitrary constants, the equation should be differentiated ‘n’ number of times
+	Eliminate the arbitrary constant using (1) and the derivatives
+12. In the formation of differential equation by elimination of arbitrary constants, after differentiating the equation with respect to independent variable, the arbitrary constant gets eliminated.
+a) False
+b) True
+a
+Sanfoundry Global Education   &   Learning Series – Fourier Analysis and Partial Differential Equations.
+To practice all areas of Partial Differential Equations Assessment Questions, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Partial Differential Equations Questions and Answers – First Order Non-Linear PDE» Next - Partial Differential Equations Questions and Answers – Non-Homogeneous Linear PDE with Constant Coefficient 

@@ -1,0 +1,66 @@
+1. Which instruction is used to call functions?
+a) MOV
+b) GO
+c) CALL
+d) All of the mentioned
+c
+2. ret instruction is used for _________
+a) determining the end of the program
+b) for returning back from the subroutine to the main program
+c) for transferring data from one place to another
+d) none of the mentioned
+b
+3. According to conventions being followed, R12 to R15 are used for _________
+a) parameter passing
+b) preserved for call
+c) all of the mentioned
+d) none of the mentioned
+a
+4. We can store the temporary results across a call instruction with the help of which of the following registers
+a) R1-R4
+b) R4-R11
+c) R12-R15
+d) All of the mentioned
+b
+5. Can we allocate variables on the stack?
+a) yes
+b) no
+c) cant be said
+d) depends on the conditions
+a
+6. Which registers are reserved for passing the parameters to a subroutine and then returning the final result?
+a) R1-R4
+b) R4-R11
+c) R12-R15
+d) All of the mentioned
+c
+7. What actually is the order of stack frame for a parameter to pass to a subroutine?
+a) parameter passed to a subroutine
+b) return address
+c) saved copies of registers(R4-R11)
+d) all of the mentioned
+d
+8. When any subroutine is called, then the first value of stack will be
+a) value of PC
+b) the return address
+c) none of the mentioned
+d) both are one and the same things
+d
+9. Which of the following instruction/s is/are used to return back to the main program after the subroutine is completed?
+a) ret
+b) reti
+c) ret and reti
+d) none of the mentioned
+c
+10. Is the approach of making subroutines effective or not?
+a) yes
+b) no
+c) cant be said
+d) depends on the conditions
+a
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller for Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MSP430 Microcontroller Questions and Answers – Addressing Modes» Next - MSP430 Microcontroller Questions and Answers – Interrupts 

@@ -1,0 +1,75 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Dell and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Dell interviews on C Programming language. 
+Here is a listing of C programming questions on “Macro Substitution” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        #define max 37;        printf("%d", max);    }
+a) 37
+b) Compile time error
+c) Varies
+d) Depends on compiler
+b
+2. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        #define max 37        printf("%d", max);    }
+a) 37
+b) Run time error
+c) Varies
+d) Depends on compiler
+a
+3. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        #define const int        const max = 32;        printf("%d", max);    }
+a) Run time error
+b) 32
+c) int
+d) const
+b
+4. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        #define max 45        max = 32;        printf("%d", max);    }
+a) 32
+b) 45
+c) Compile time error
+d) Varies
+c
+5. What will be the output of the following C code?
+    #include <stdio.h>    # define max    void m()    {        printf("hi");    }    void main()    {        max;        m();    }
+a) Run time error
+b) hi hi
+c) Nothing
+d) hi
+d
+6. What will be the output of the following C code?
+    #include <stdio.h>    #define A 1 + 2    #define B 3 + 4    int main()    {        int var = A * B;        printf("%d\n", var);    }
+a) 9
+b) 11
+c) 12
+d) 21
+b
+7. Which of the following Macro substitution are accepted in C?
+a)
+   #define A #define
+   A VAR 20
+b)
+   #define A define
+   #A VAR 20
+c)
+   #define #A #define
+   #A VAR 20
+d) None of the mentioned
+d
+8. Comment on the output of the following C code.
+    #include <stdio.h>    #define var 20);    int main()    {        printf("%d\n", var    }
+a) No errors, it will show the output 20
+b) Compile time error, the printf braces aren’t closed
+c) Compile time error, there are no open braces in #define
+d) None of the mentioned
+a
+9. Which of the following properties of #define is not true?
+a) You can use a pointer to #define
+b) #define can be made externally available
+c) They obey scope rules
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Macro Substitution – 1» Next - C Programming Questions and Answers – Conditional Inclusion – 1 

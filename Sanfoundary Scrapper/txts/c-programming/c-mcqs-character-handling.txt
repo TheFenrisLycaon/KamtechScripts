@@ -1,0 +1,74 @@
+1. Which header declares several functions useful for testing and mapping characters?
+a) assert.h
+b) stdio.h
+c) ctype.h
+d) errno.h
+c
+2. The______function tests for any character for which isalpha or isdigit is true.
+a) isxdigit()
+b) isspace()
+c) isalnum()
+d) isupper()
+c
+The isalnum function tests for any character for which isalpha or isdigit is true.
+3. What does the following C code do?
+int iscntrl( int c);
+a) checks if character is upper case
+b) checks if character is lower case
+c) tests for any control character
+d) no function as such
+c
+int iscntrl( int c);
+The iscntrl function tests for any control character.
+4. What do the following C function do?
+int isgraph(int c);
+a) tests for only space character
+b) tests for only digit
+c) tests for only lower case
+d) tests for any printing character
+d
+The isgraph function tests for any printing character except space.
+5. The isdigit function tests for any decimal-digit character.
+a) true
+b) false
+a
+This function checks whether the passed character is a decimal digit.
+6. Which function returns true only for the characters defined as lowercase letters?
+a) islow()
+b) islower()
+c) isalpa()
+d) isalnum()
+b
+The islower function tests for any character that is a lowercase letter.
+7. This function checks whether the passed character is white-space.
+a) ispunct()
+b) isgraph()
+c) isspace()
+d) isalpha()
+c
+8. The standard white-space characters are the following: space (' '), form feed (' \ f '),
+newline (' \n') , horizontal tab (' \tr), and vertlcal tab (' \v') can be tested with function.
+a) ispunct()
+b) isalpha()
+c) isgraph()
+d) isspace()
+d
+9. Which function tests for any character that is an uppercase letter.
+a) iscntrl()
+b) ispunct()
+c) isdigit()
+d) isupper()
+d
+10. The______function tests for any hexadecimal-digit character.
+a) iscntrl()
+b) ispunct()
+c) isgraph()
+d) isxdigit()
+d
+This function tests for any hexadecimal-digit character.
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – String Operations – 4» Next - C Questions and Answers – Character Handling – 2 

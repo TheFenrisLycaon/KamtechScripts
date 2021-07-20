@@ -1,0 +1,54 @@
+1. If end to end connection is done at a network or IP level, and if there are N hosts, then what is the number of keys required?
+a) N(N-1)/2
+b) N
+c) N(N+1)/2
+d) N/2
+a
+2. For 1000 nodes in IP level, how many keys would be required?
+a) 499000
+b) 499500
+c) 500500
+d) 500000
+b
+3. Communication between end systems is encrypted using a key, often known as
+a) temporary key
+b) section key
+c) line key
+d) session key
+d
+4. Session keys are transmitted after being encrypted by
+a) make-shift keys
+b) temporary keys
+c) master keys
+d) section keys
+c
+5. For a network with N nodes, how many master keys are present?
+a) N(N-1)/2
+b) N
+c) N(N+1)/2
+d) N/2
+b
+6. PDU stands for
+a) Protocol data unit
+b) Pre data underscore
+c) Permuted data unity
+d) Protocol data untiy
+a
+7. SSM stands for
+a) Secure Security Module
+b) Session Security Module
+c)  Service Session Module
+d) Session Service Module
+b
+8. Which is the last step in establishing a connection between hosts using the SSM?
+a) Interaction/ Handshaking between the SSM and the KDC
+b) Establishment of the connection
+c) Release of connection request packet
+d) SSM saves the packet and applies to the KDC for connection permission
+c
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Integrity Algorithms Questions and Answers – Whirlpool Algorithm – III» Next - Cryptography Questions and Answers – Symmetric Key Distribution – II 

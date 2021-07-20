@@ -1,0 +1,60 @@
+1. What attempts auto recovery based on the contents of its serial log?
+a) MyISAM
+b) InnoDB
+c) Falcon
+d) TRANSACTION
+c
+2. How many of these can replace ‘level’ in ‘–myisam-recover = level’?
+BACKUP, FORCE, QUICK
+a) 0
+b) 1
+c) 2
+d) 3
+d
+3. Under which option are index changes not flushed until tables close?
+a) –delay-write-key
+b) –delay-key-write
+c) –write-key-delay
+d) –key-write-delay
+b
+4. Which option suppresses output unless there are errors in the table?
+a) –silent
+b) –wild
+c) –suppress
+d) –noout
+a
+Join [email protected]
+5. What is the variable that is a handle to a database object?
+a) $dbh
+b) $sth
+c) $fh
+d) $h
+a
+6. The variable that returns code from operations that return true or false is _____________
+a) $rc
+b) $rv
+c) $rows
+d) $ary
+a
+7. In PHP, how is the first element accessed if $a represents an array with numeric indices?
+a) $a[1] 
+b) $a[0] 
+c) $a.1
+d) $a.0
+b
+8. Arrays can have associative indices in PHP.
+a) True
+b) False
+a
+9. Which operator is used to access property of an object in PHP?
+a) .
+b) *
+c) ->
+d) @
+c
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Performing Database Maintenance with the Server Running» Next - MySQL Questions and Answers – Making Database Backups 

@@ -1,0 +1,62 @@
+1. The option that specifies the data directory location at server startup is ______________
+a) –data
+b) –data_dir
+c) –data-dir
+d) –datadir
+d
+2. The datadir variable value can be seen using ______________
+a) SHOW VARIABLES
+b) DISP VARIABLES
+c) CONNECT VARIABLES
+d) SHOW VARIABLE
+a
+3. Which data directory subdirectory provides the information used to inspect the internal execution of the server at runtime.
+a) mysql
+b) performance_schema
+c) sys
+d) nbdinfo
+b
+4. Which data directory subdirectory corresponds to the nbdinfo database?
+a) mysql
+b) performance_schema
+c) sys
+d) nbdinfo
+b
+5. Encrypted connections can be established using ______________
+a) exec_stmt_ssl
+b) exec_ssl_stmt
+c) exec_stmnt_ssl
+d) exec_ssl_stmnt
+a
+6. What is exec_stmt_ssl written in?
+a) C++
+b) C
+c) Python
+d) Perl
+b
+7. What is the embedded server library containing the MySQL server linkable into applications?
+a) libmysqla
+b) libmysqlb
+c) libmysqlc
+d) libmysqld
+d
+8. What is the embedded server library when building from source enabled by?
+a) –with-embedded-server
+b) –with-server-embedded
+c) –with-embedded-library
+d) –with-library-embedded
+a
+9. Multiple statement execution is not enabled by default.
+a) True
+b) False
+a
+10. An embedded application includes the server side and client side.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Database Maintenance, Backups and Replication» Next - MySQL Questions and Answers – Structure of the Data Directory 

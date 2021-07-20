@@ -1,0 +1,80 @@
+1. What does URL stands for?
+a) Uniform Resource Locator
+b) Uniform Resource Latch
+c) Universal Resource Locator
+d) Universal Resource Latch
+a
+2. Which of these exceptions is thrown by URL class’s constructors?
+a) URLNotFound
+b) URLSourceNotFound
+c) MalformedURLException
+d) URLNotFoundException
+c
+3. Which of these methods is used to know host of an URL?
+a) host()
+b) getHost()
+c) GetHost()
+d) gethost()
+b
+4. Which of these methods is used to know the full URL of an URL object?
+a) fullHost()
+b) getHost()
+c) ExternalForm()
+d) toExternalForm()
+d
+5. Which of these class is used to access actual bits or content information of a URL?
+a) URL
+b) URLDecoder
+c) URLConnection
+d) All of the mentioned
+d
+6. What will be the output of the following Java code?
+    import java.net.*;    class networking     {        public static void main(String[] args) throws MalformedURLException         {            URL obj = new URL("https://www.sanfoundry.com/javamcq");            System.out.print(obj.getProtocol());        }    }
+a) http
+b) https
+c) www
+d) com
+a
+Output:
+$ javac networking.java
+$ java networking 
+http
+7. What will be the output of the following Java program?
+    import java.net.*;    class networking     {        public static void main(String[] args) throws MalformedURLException         {            URL obj = new URL("https://www.sanfoundry.com/javamcq");            System.out.print(obj.getPort());        }    }
+a) 1
+b) 0
+c) -1
+d) garbage value
+c
+Output:
+$ javac networking.java
+$ java networking 
+-1
+8. What will be the output of the following Java program?
+    import java.net.*;    class networking    {        public static void main(String[] args) throws MalformedURLException         {            URL obj = new URL("https://www.sanfoundry.com/javamcq");            System.out.print(obj.getHost());        }    }
+a) sanfoundry
+b) sanfoundry.com
+c) www.sanfoundry.com
+d) https://www.sanfoundry.com/javamcq
+c
+Output:
+$ javac networking.java
+$ java networking 
+www.sanfoundry.com
+9. What will be the output of the following Java program?
+    import java.net.*;    class networking    {        public static void main(String[] args) throws MalformedURLException        {            URL obj = new URL("https://www.sanfoundry.com/javamcq");            System.out.print(obj.toExternalForm());        }    }
+a) sanfoundry
+b) sanfoundry.com
+c) www.sanfoundry.com
+d) https://www.sanfoundry.com/javamcq
+d
+Output:
+$ javac networking.java
+$ java networking 
+https://www.sanfoundry.com/javamcq
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Networking – httpd.java Class» Next - Java Questions & Answers – HttpResponse & URLConnection Class 

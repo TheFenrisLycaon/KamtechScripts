@@ -1,0 +1,170 @@
+1. What is vtable in C++?
+a) Lookup table to resolve function calls in dynamic manners
+b) Lookup table to resolve function calls in static manners
+c) Lookup table to see which are the functions available for calls throughout the program
+d) Lookup table to check how many functions are there int he program
+a
+2. Which classes can have vtable?
+a) Classes having friend functions
+b) Classes having virtual functions
+c) Classes having static functions
+d) All classes have a vtable
+b
+3. What is the full form of vtable?
+a) V type table
+b) Vector table
+c) Virtual table
+d) Virtual-vector table
+c
+4. What is vptr?
+a) A hidden pointer in a class that points to a virtual table of that class
+b) A hidden pointer in a class that points to virtual functions of that class
+c) A hidden pointer in a class that points to virtual members of the class of that class
+d) A pointer in a class that points to other class
+a
+5. What is the full form of vptr?
+a) Vector Pointer
+b) Virtual Pointer
+c) V type Pointer
+d) Virtual-vector Pointer
+a
+Join [email protected]
+6. vptr is _______________
+a) a real pointer
+b) like this pointer of class
+c) passed as a parameter to all functions of class
+d) used to resolve self-references
+a
+7. What will be the output of the following C++ code?
+#include <iostream>
+#include<type_traits>
+using namespace std;
+class Base
+{
+    public:
+};
+int main()
+{
+	Base b;
+	cout<<sizeof(b);
+	return 0;
+}
+a) 16
+b) 4
+c) 8
+d) 1
+d
+8. What will be the output of the following C++ code?
+#include <iostream>
+#include<type_traits>
+using namespace std;
+class Base
+{
+  public:
+    void function1() {};
+    void function2() {};
+};
+int main()
+{
+	Base b;
+	cout<<sizeof(b);
+	return 0;
+}
+a) 16
+b) 4
+c) 1
+d) 8
+c
+9. What will be the output of the following C++ code?
+#include <iostream>
+#include<type_traits>
+using namespace std;
+class Base
+{
+   public:
+    virtual void function1() {};
+    virtual void function2() {};
+};
+int main()
+{
+	Base b;
+	cout<<sizeof(b);
+	return 0;
+}
+a) 1
+b) 4
+c) 8
+d) 16
+c
+10. Given below classes which of the following are the possible row entries in vtable of Base class?
+class Base
+{
+    public:
+    virtual void function1() {};
+    virtual void function2() {};
+};
+class D1: public Base
+{
+    public:
+    virtual void function1() {};
+};
+class D2: public Base
+{
+    public:
+    virtual void function2() {};
+};
+a) Base::function1() and Base::function2()
+b) Base::function1() and D1::function2()
+c) D1::function1() and Base::function2()
+d) D1::function1() and D1::function2() or D2::function1() and D2::function2()
+a
+11. Given below classes which of the following are the possible row entries in vtable of D1 class?
+class Base
+{
+    public:
+    virtual void function1() {};
+    virtual void function2() {};
+};
+class D1: public Base
+{
+    public:
+    virtual void function1() {};
+};
+class D2: public Base
+{
+    public:
+    virtual void function2() {};
+};
+a) Base::function1() and Base::function2()
+b) D1::function1() and Base::function2()
+c) Base::function1() and D1::function2()
+d) D1::function1() and D1::function2()
+b
+12. Given below classes which of the following are the possible row entries in vtable of D2 class?
+class Base
+{
+    public:
+    virtual void function1() {};
+    virtual void function2() {};
+};
+class D1: public Base
+{
+    public:
+    virtual void function1() {};
+};
+class D2: public Base
+{
+    public:
+    virtual void function2() {};
+};
+a) Base::function1() and Base::function2()
+b) D2::function1() and Base::function2()
+c) Base::function1() and D2::function2()
+d) D2::function1() and D2::function2()
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – STL – Heap» Next - C++ Programming Questions and Answers – Generators 

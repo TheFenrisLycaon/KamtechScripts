@@ -1,0 +1,58 @@
+1. On adding the two points P (4,2) and Q (10, 6) in the elliptic curve E11(1,1) we get
+a) (9,3)
+b) (6,4)
+c) (7,5)
+d) (2,8)
+b
+2. If P = (1,4) in the elliptic curve E13(1, 1) , then 4P is
+a) (4, 2)
+b) (7, 0)
+c) (5, 1)
+d) (8, 1)
+d
+3. Multiply the point P=(8, 1) by a constant 3, thus find 3P, in the elliptic curve E13(1, 1)
+a) (10,7)
+b) (12,6)
+c) (11,1)
+d) (9,8)
+a
+Thus we get Q=3P = (10, 7).
+4. Bob selects E67(2, 3) as the elliptic curve over GF(p). He selects e1 = (2, 22) and d = 4.
+Then he calculates e2 = d × e1 .What is the value of e2?
+a) (23,49)
+b) (16,55)
+c) (12,19)
+d) (13,45)
+d
+Join Sanfoundry@YouTube
+5. Bob selects E67(2, 3) as the elliptic curve over GF(p). He selects e1 = (2, 22) and d = 4.
+Then he calculates e2 = d × e1 and the publicly announces the tuple (E, e1, e2). Now, Alice wants to send the plaintext P = (24, 26) to Bob and she selects r = 2. What are C1 and C2?
+a) C1=(35,1) ; C2 =(21,44)
+b) C1=(44,21) ; C2 =(1,35)
+c) C1=(44,21) ; C2 =(44,21)
+d) C1=(21,44); C2 =(35,1)
+a
+C2=P + r × e2  ;  C2= (21, 44).
+6. P = C1 – (d x C2)
+Is this above stated formula true with respect to ECC?
+a) True
+b) False
+b
+7. For the point P (11, 2) defined in the curve E13(1, 1). What is –P?
+a) (12,4)
+b) (10,7)
+c) (11,11)
+d) (11,12)
+c
+8. For the point P (7, 0) defined in the curve E13(1, 1). What is –P?
+a) (7,1)
+b) (8,12)
+c) (8,1)
+d) (7,0)
+d
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography for online quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Asymmetric Ciphers Questions and Answers – Elliptic Curve Arithmetic/Cryptography – I» Next - Data Integrity Algorithms Questions and Answers – Hash Functions and Its Applications 

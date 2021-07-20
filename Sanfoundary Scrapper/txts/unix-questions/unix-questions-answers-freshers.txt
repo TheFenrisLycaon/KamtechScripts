@@ -1,0 +1,73 @@
+1. Quit (:q) command doesn’t work if the buffer is unsaved.
+a) True
+b) False
+a
+2. Which of the following command will be used if we want to abort editing and quit the editor even if the buffer has been changed and not saved?
+a) :q
+b) :b
+c) :q!
+d) :w
+c
+3. In ex-mode, current line is represented by ___
+a) :
+b) $
+c) >
+d) .
+d
+4. In ex-mode, last line is represented by ___
+a) :
+b) $
+c) >
+d) .
+b
+5. ‘:w’ command can be used to write selected lines.
+a) True
+b) False
+a
+: 1,40w file002        //writes  line number 1 - number 40 to another file named file002.
+: 1,$w file002        // writes line number 1 - last line to another file named file002.
+6. Which of the following command will be used to write the 4th line to file named file002?
+a) : 1,40w file002
+b) : 1,$w file002
+c) : 4w file002
+d) : 1,4w file002
+c
+7. Which of the following is not a valid command?
+a) : .,$w file002
+b) :w 1,$ file002
+c) : .w file002
+d) : $w file002
+b
+8. How can we escape to the UNIX shell without quitting vi editor?
+a) using ‘:sh’ command
+b) using ctrl-Z
+c) using ctrl-D
+d) using ‘:sh’ command and using ctrl-Z
+d
+9. To return back to the editor from shell prompt we use _____ command.
+a) fg
+b) exit
+c) back
+d) fg and exit
+d
+10. vi editor stores most of its information in a hidden swap file.
+a) True
+b) False
+a
+11. To recover from a crash, we can use ____ command.
+a) :recover
+b) -r
+c) : x
+d) :recover and -r
+d
+12. The following command will save the contents of the buffer and overwrites the contents of existing file.
+:w!  file003
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix for Freshers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Vi-Ex Mode – 1» Next - Unix  Questions and Answers – Navigation in Vi Editor – 1 

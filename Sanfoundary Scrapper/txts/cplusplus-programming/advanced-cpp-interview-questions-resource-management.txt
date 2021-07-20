@@ -1,0 +1,88 @@
+This section on advanced C++ interview questions focuses on “Resource Management”. One shall practice these advanced C++ questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our advanced C++ questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of advanced C++ interview questions on “Resource Management” along with answers, explanations and/or solutions:
+1. What can go wrong in resource management on c++?
+a) Leakage
+b) Exhaustion
+c) Dangling
+d) Exception
+d
+2. When do we call that resource is leaked?
+a) Arise of compile time error
+b) It cannot be accessed by any standard mean
+c) Arise of runtime error
+d) It can be accessed by any standard mean
+b
+3. What kind of error can arise when there is a problem with memory?
+a) Segmentation fault
+b) Produce an error
+c) Both Segmentation fault & Produce an error
+d) runtime error
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <new>    using namespace std;    int main ()    {        int i, n;        int * p;        i = 2;        p= new (nothrow) int[i];        if (p == 0)            cout << "Error: memory could not be allocated";        else	{            for (n=0; n<i; n++)            {                p[n] = 5;            }            for (n = 0; n < i; n++)                cout << p[n];            delete[] p;         }         return 0;    }
+a) 5
+b) 55
+c) 555
+d) Error: memory could not be allocated
+b
+Output:
+$ g++ res.cpp
+$ a.out
+55
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main(void)    {        const char *one = "Test";        cout << one << endl;        const char *two = one;        cout << two << endl;        return 0;    }
+a) Test
+b) TestTest
+c) Te
+d) TestTe
+b
+Output:
+$ g++ res1.cpp
+$ a.out
+TestTest
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int funcstatic(int)    {        int sum = 0;        sum = sum + 10;        return sum;    }    int main(void)    {        int r = 5, s;        s = funcstatic(r);        cout << s << endl;        return 0;    }
+a) 10
+b) 15
+c) error
+d) 20
+a
+Output:
+$ g++ res2.cpp
+$ a.out
+10
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include<string.h>    using namespace std;    int main()    {        try        {            char *p;            strcpy(p, "How r u");        }        catch(const exception& er)        {        }    }
+a) How r u
+b) segmentation fault
+c) error
+d) runtime error
+b
+Output:
+$ g++ res3.cpp
+$ a.out
+segmentation fault
+8. What is meant by garbage collection?
+a) The form of manual memory management
+b) The form of automatic memory management
+c) Used to replace the variables
+d) Used to delete the variables
+b
+9. What are the operators available in C++ for dynamic allocation and de-allocation of memories?
+a) new
+b) delete
+c) compare
+d) both new & delete
+d
+10. Which is used to solve the memory management problem in c++?
+a) smart pointers
+b) arrays
+c) stack
+d) queue
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Catching Exceptions» Next - C++ Programming Questions and Answers – Exceptions That Are Not Errors 

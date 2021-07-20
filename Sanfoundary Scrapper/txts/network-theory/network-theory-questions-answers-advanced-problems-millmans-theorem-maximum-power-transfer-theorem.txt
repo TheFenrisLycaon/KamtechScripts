@@ -1,0 +1,161 @@
+1. The basic elements of an electric circuit are _____________
+a) R, L and C
+b) Voltage
+c) Current
+d) Voltage as well as current
+a
+2. In the circuit given below, the value of the maximum power transferred through RL is ___________
+a) 0.75 W
+b) 1.5 W
+c) 2.25 W
+d) 1.125 W
+a
+Or, I = 0.1 A
+VOC = 3 × 10 I = 30 I
+Or, VOC = 3 V
+Now, ISC = 10 I = 1 A
+Rth = 3/1 = 3 Ω
+Vth = VOC = 3 V
+RL = 3 Ω
+Pmax = \(\frac{3^2}{4×3}\) = 0.75 W.
+3. The energy stored in the magnetic field at a solenoid 100 cm long and 10 cm diameter wound with 1000 turns of wire carrying an electric current of 10 A, is ___________
+a) 1.49 J
+b) 0.49 J
+c) 0.1 J
+d) 1 J
+b
+= \(\frac{10^6.4π.10^{-7}.\frac{π}{4}.(100 X 10^{-4})}{1}\) 
+= \(\frac{π^2  X 10^{-3}}{1}\) 
+Energy = 0.5 LI2
+= 0.49 J.
+4. The resistance of a strip of copper of rectangular cross section is 2 Ω. A metal of resistivity twice that of a copper is coated on its upper surface to a thickness equal to that of copper strip. The resistance of composite strip will be _________
+a) \(\frac{3}{4}\) Ω
+b) \(\frac{4}{3}\) Ω
+c) \(\frac{3}{2}\) Ω
+d) 6 Ω
+b
+Hence, the resistance of the composite strip = \(\frac{2 X 4}{2 + 4}\) 
+= \(\frac{8}{6} = \frac{4}{3}\) Ω.
+5. In the circuit shown below what is the value of RL for which maximum power is transferred to RL?
+a) 2.4 Ω
+b) \(\frac{8}{3}\) Ω
+c) 4 Ω
+d) 6 Ω
+c
+RL = RTH = \(\frac{V_{OC}}{I_{SC}} \) 
+Due to open-circuit, VOC = 100 V; ISC = I1 + I2
+Applying KVL in lower loop, 100 – 8I1 = 0
+Or, I1 = \(\frac{100}{8} = \frac{25}{2}\) 
+And VX = -4I1 = -4 × \(\frac{25}{2}\) = -50V
+KVL in upper loop, 100 + VX – 4I2 = 0
+I2 = \(\frac{100-50}{4} = \frac{25}{2}\) 
+Hence, ISC = I1 + I2 = \(\frac{25}{2} + \frac{25}{2}\) = 25
+RTH = \(\frac{V_{OC}}{I_{SC}} = \frac{100}{25}\) = 4 Ω
+RL = RTH = 4 Ω.
+Join Sanfoundry@YouTube
+6. A 3 V DC supply with an internal resistance of 2 Ω supplies a passive non-linear resistance characterized by the relation VNL = \(I_{NL}^{2}\). The power dissipated in the resistance is ___________
+a) 1 W
+b) 1.5 W
+c) 2.5 W
+d) 3 W
+a
+∴ I = 1 A; VNL = 1V
+∴ Power dissipated in RNL = 1 × 1 = 1 W.
+7. The two windings of a transformer have an inductor of 2 H each. If mutual inductor between them is also 2 H, then which of the following is correct?
+a) Turns ratio of the transformer is also 2
+b) Transformer is an ideal transformer
+c) It is a perfect transformer
+d) It is a perfect as well as an ideal transformer
+c
+= \(\frac{2}{\sqrt{2 X 2}}\) = 1
+Hence, it is a perfect transformer. 
+8. In the circuit given below, what is the amount of maximum power transfer to R?
+a) 56 W
+b) 76 W
+c) 60 W
+d) 66 W
+d
+Also, \(\frac{V-V_{1Ω}}{10} + \frac{V-20-V_{1Ω}}{2} + \frac{V-V_{OC}}{5}\) = 2
+Or, 0.1 V – 0.1V1Ω + 0.5V – 10 – 0.5V1Ω + 0.2 – 0.2VOC = 2
+Or, 0.8V – 0.6V1Ω = 12 + 0.2VOC
+Or, 0.8 V – 0.2VOC = 12 +3=15 (Putting V1Ω = 5)
+Again, \(\frac{V_{OC}-V}{5}\) + 2 = 5
+Or, 0.2VOC – 0.2V = 3
+Again, RTH = {(10||2) + 1} + 5
+= (\(\frac{20}{12+1}\)) + 5 = 7.67 Ω
+Following the theorem of maximum power transfer, R = RTH = 7.67 Ω
+And PMAX = \(\frac{V_{OC}^2}{4R} = \frac{45^2}{4×7.67}\) = 66 W.
+9. In the circuit given below, the value of RL for which it absorbs maximum power is ___________
+a) \(\frac{400}{3}\) Ω
+b) \(\frac{2}{9}\) kΩ
+c) 350.38 Ω
+d) \(\frac{4}{9}\) kΩ
+c
+Or, I = \(\frac{5}{100}\) = 0.05 A
+VOC = 100 × 3I + 200 × I = 25 V
+V1 = \(\frac{\frac{5}{50}}{\frac{1}{50} + \frac{1}{200} + \frac{1}{100}} \) 
+= \(\frac{0.1}{0.02+0.005+0.01} \) 
+= 2.85 V
+I = \(\frac{2.85}{100}\) = 0.0142 A = 14.2 mA
+ISC = \(\frac{2.85}{100}\) + 3 × 0.0142 = 0.07135 A
+∴ RTH = \(\frac{V_{OC}}{I_{SC}}  = \frac{25}{0.07135}\) = 350.38 Ω.
+10. The form factor of sinusoidal alternating electric current is ___________
+a) 0
+b) 1
+c) 1.11
+d) 1.15
+c
+Now the rms value of alternating electric current = 0.07 × maximum value of alternating current.
+Average value of alternating electric current = 0.637 × maximum value of alternating current.
+∴ Form factor = \(\frac{0.707}{0.637}\) = 1.11.
+11. The average power delivered to the 6 Ω load in the circuit of figure below is ___________
+a) 8 W
+b) 76.68 W
+c) 625 kW
+d) 2.50 kW
+b
+V1 = 5V2
+50 = 400(I1 – 0.04V2) + V1
+Or, V2  = 21.45 V
+∴ PL = \(\frac{V_2^2}{6} \) 
+= \(\frac{21.45^2}{6} \) 
+= \(\frac{460.1025}{6}\) = 76.68 W.
+12. The rms value of the sine wave is 100 A. Its peak value is ____________
+a) 70.7 A
+b) 141.4 A
+c) 150 A
+d) 282.8 A
+b
+So the peak value = rms value of alternating electric current × peak factor of alternating electric current = 100 × 1.414 = 141.4 A.
+13. Potential of earth is – 50 V. If the potential difference between anode and cathode (earthed) is measured as 150 V, actual voltage on anode is __________
+a) 0 V
+b) 100 V
+c) 200 V
+d) 250 V
+c
+So, actual voltage on anode, V = 150 – (- 50)
+= 150 + 50
+= 200 V.
+14. An alternating voltage V = 150 sin(314)t is supplied to a device which offers a resistance of 20 Ω in forward direction of electric current while preventing the flow of electric current in reverse direction. The form factor is ___________
+a) 0.57
+b) 0.318
+c) 1.414
+d) 1.57
+d
+RMS value of the current, Irms = Im / 2 = 7/2 = 3.5 A
+Average value of the current, Iavg = Im / π = 2.228 A
+Form factor = Irms / Iavg = 3.5 / 2.228 = 1.57.
+15. A coil of 300 turns is wound on a non-magnetic core having a mean circumference of 300 mm and a cross sectional area of 300 mm2. The inductor of the coil corresponding to a magnetizing electric current of 3 A will be?
+a) 37.68 μH
+b) 47.68 μH
+c) 113.04 μH
+d) 120.58 μH
+c
+= \(\frac{4π X 10^{-7}  X 300 X 300 X 300 X 10^{-6}}{300 X 10^{-3}}\) 
+= 113.04 μH.
+Sanfoundry Global Education & Learning Series – Network Theory.
+To practice all areas of Network Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Theory Questions and Answers – Advanced Problems on Network Theorems – 2» Next - Network Theory Questions and Answers – Angular Relation of a Sine Wave 

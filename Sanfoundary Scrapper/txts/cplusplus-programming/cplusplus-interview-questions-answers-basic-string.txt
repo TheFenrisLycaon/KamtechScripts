@@ -1,0 +1,96 @@
+This section on C++ interview questions and answers focuses on “Basic String”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Basic String” along with answers, explanations and/or solutions:
+1. Which header file is used to manipulate the string?
+a) iostream
+b) iomanip
+c) string
+d) container
+c
+2. How many maximum number of parameters does a string constructor can take?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+3. Which constant member functions does not modify the string?
+a) bool empty()
+b) assign
+c) append
+d) delete
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    using namespace std;    int main ()    {        string str ("I like to code in C");        unsigned sz = str.size();        str.resize (sz + 2, '+');        str.resize (14);        cout << str << '\n';        return 0;    }
+a) I like to code in c
+b) I like to code
+c) I like to code in c++
+d) I like to codeI like to code
+b
+Output:
+$ g++ basicst.cpp
+$ a.out
+I like to code
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    using namespace std;    int main ()    {        string str ("Steve jobs");        cout << str.capacity() << "\n";        return 0;    }
+a) 9
+b) 10
+c) 11
+d) Not Fix
+d
+Output:
+$ g++ basicst1.cpp
+$ a.out
+10
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    using namespace std;    int main ()    {        string str ("Steve jobs founded the apple");        string str2 ("apple");        unsigned found = str.find(str2);        if (found != string :: npos)            cout << found << '\n';        return 0;    }
+a) apple
+b) 12
+c) 23
+d) Steve jobs founded the
+c
+Output:
+$ g++ basicst2.cpp
+$ a.out
+23
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    using namespace std;    int main ()    {        string str ("Steve jobs");        unsigned long int found = str.find_first_of("aeiou");        while (found != string :: npos)        {            str[found] = '*';            found = str.find_first_of("aeiou", found + 1);        }        cout << str << '\n';        return 0;    }
+a) Steve
+b) jobs
+c) St*v* j*bs
+d) St*v*
+c
+Output:
+$ g++ basicst3.cpp
+$ a.out
+St*v* j*bs
+8. What will be the output of the following C++ code?
+    #include <iostream>      #include <cstring>    #include <string>    using namespace std;    int main ()     {        string str ("Steve jobs");        char * cstr = new char [str.length() + 1];        strcpy (cstr, str.c_str());        char * p = strtok (cstr," ");        while (p != 0)        {            cout << p << '\n';            p = strtok(NULL," ");        }        delete[] cstr;        return 0;    }
+a) Steve jo
+b) Steve jobs
+c) 
+   Steve 
+   jobs
+d) Steve jo
+c
+Output:
+$ g++ basicst4.cpp
+$ a.out
+Steve 
+jobs
+9. What is the difference between unsigned int length() and unsigned int size()?
+a) Returns a different value
+b) They are same
+c) Returns a different value but they are same
+d) Returns a length
+b
+10. How many parameters can a resize method take?
+a) 1
+b) 2
+c) 1 or 2
+d) 2
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – String Characters» Next - C++ Programming Questions and Answers – C Standard Library 

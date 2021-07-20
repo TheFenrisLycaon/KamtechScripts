@@ -1,0 +1,65 @@
+1. To produce a stored function, which statement is used?
+a) PRODUCE FUNCTION
+b) CREATE FUNCTION
+c) PRODUCE PROCEDURE
+d) CREATE PROCEDURE
+b
+2. How many values can be returned from a given stored function?
+a) 0
+b) 1
+c) 2
+d) 3
+b
+3. How many values can be returned from a stored procedure?
+a) 0
+b) 1
+c) 2
+d) 3
+a
+4. Suppose a stored function named PI() is written in the database ‘sampdb’. How would it be called?
+a) PI()
+b) sampdb.PI()
+c) MySQL.PI()
+d) db.PI()
+b
+5. Which privilege must be given to the database to create a stored function or procedure?
+a) CREATE ROUTINE
+b) CREATE METHOD
+c) CREATE FUNCTION
+d) CREATE PROCEDURE
+a
+6. Which variable is set to zero when automatic privilege granting is not needed?
+a) automatic_sp_privileges
+b) automatic_ps_privileges
+c) automatic_pg_privileges
+d) automatic_gp_privileges
+a
+7. Which procedure parameter enables the caller to pass in a value and get back a value?
+a) IN
+b) OUT
+c) INOUT
+d) GETINOUT
+c
+8. The IN, OUT and INOUT keywords do not apply to stored functions.
+a) True
+b) False
+a
+9. For the same input parameters, if the stored function returns the same result, it is called _____________
+a) deterministic
+b) non deterministic
+c) regular
+d) monotonous
+a
+10. What is abc in the following MySQL statement?
+DECLARE abc HANDLER FOR def ghi;
+a) action
+b) condition value
+c) statement
+d) null
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Compound Statements and Statement Delimiters» Next - MySQL Questions and Answers – Triggers 

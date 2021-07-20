@@ -1,0 +1,62 @@
+This section on C questions and puzzles focuses on “C Preprocessor”. One shall practice these questions and puzzles to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These programming puzzles can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C questions and puzzles on “C Preprocessor” along with answers, explanations and/or solutions:
+1. Property which allows to produce different executable for different platforms in C is called?
+a) File inclusion
+b) Selective inclusion
+c) Conditional compilation
+d) Recursive macros
+c
+2. What is #include <stdio.h>?
+a) Preprocessor directive
+b) Inclusion directive
+c) File inclusion directive
+d) None of the mentioned
+a
+3. C preprocessors can have compiler specific features.
+a) True
+b) False
+c) Depends on the standard
+d) Depends on the platform
+a
+4. What will be the output of the following C code?
+Join [email protected]
+#include <stdio.h>#define foo(m, n) m * n = 10int main(){    printf("in main\n");}
+a) In main
+b) Compilation error as lvalue is required for the expression m*n=10
+c) Preprocessor error as lvalue is required for the expression m*n=10
+d) None of the mentioned
+a
+Output:
+$ cc pgm1.c
+$ a.out
+in main
+5. C preprocessor is conceptually the first step during compilation.
+a) True
+b) False
+c) Depends on the compiler
+d) Depends on the standard
+a
+6. Preprocessor feature that supply line numbers and filenames to compiler is called?
+a) Selective inclusion
+b) macro substitution
+c) Concatenation
+d) Line control
+d
+7. #include <somefile.h> are _______ files and #include “somefile.h” ________ files.
+a) Library, Library
+b) Library, user-created header
+c) User-created header, library
+d) They can include all types of file
+d
+8. What is a preprocessor?
+a) That processes its input data to produce output that is used as input to another program
+b) That is nothing but a loader
+c) That links various source files
+d) All of the mentioned
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Automatic Variables – 2» Next - C Programming Questions and Answers – C-Preprocessor – 2 

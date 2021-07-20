@@ -1,0 +1,67 @@
+1. ________ job usually splits the input data-set into independent chunks which are processed by the map tasks in a completely parallel manner.
+a) Tasker
+b) MapReduce
+c) Tasktrack
+d) None of the mentioned
+b
+2. Point out the correct statement.
+a) Another limitation of the Hadoop MapReduce framework is its pull-based scheduling model
+b) The MapReduce framework sorts the outputs of the maps, which are then input to the reduce tasks
+c) The MapReduce framework takes care of scheduling tasks, monitoring them and re-executes the failed tasks
+d) All of the mentioned
+d
+3. Hadoop __________ is a utility which allows users to create and run jobs with any executables.
+a) Streaming
+b) Pipes
+c) Orchestration
+d) All of the mentioned
+a
+4. Hadoop _________ is a SWIG- compatible C++ API to implement MapReduce applications.
+a) Streaming
+b) Pipes
+c) Orchestration
+d) All of the mentioned
+b
+5. Point out the wrong statement.
+a) MapReduce configuration allows the framework to effectively schedule tasks on the nodes where data is already present
+b) Typically the compute nodes and the storage nodes are different
+c) The MapReduce framework consists of a single master JobTracker and one slave TaskTracker per cluster-node
+d) None of the mentioned
+b
+6. The key and value classes have to be _________ by the Mapreduce framework.
+a) collected
+b) serializable
+c) compacted
+d) none of the mentioned
+b
+7. Key classes have to implement the __________ interface to facilitate sorting by the framework.
+a) Writable
+b) Comparable
+c) WritableComparable
+d) None of the mentioned
+c
+8. The ________ option allows applications to add jars to the classpaths of the maps and reduces.
+a) optionname
+b) -libjars
+c) -archives
+d) all of the mentioned
+b
+9. The option ___________ allows to pass comma separated list of archives as arguments.
+a) optionname
+b) -libjars
+c) -archives
+d) none of the mentioned
+c
+10. Users can specify a different symbolic name for files and archives passed through -files and -archives option, using __________
+a) $
+b) @
+c) #
+d) $
+c
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Avro – 2» Next - Hadoop Questions and Answers – Mapreduce Development – 2 

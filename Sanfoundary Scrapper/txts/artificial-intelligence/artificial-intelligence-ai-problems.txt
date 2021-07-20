@@ -1,0 +1,89 @@
+1. The process by which the brain orders actions needed to complete a specific task is referred as ____________
+a) Planning problem
+b) Partial order planning
+c) Total order planning
+d) Both Planning problem & Partial order planning
+d
+2. The famous spare tire problem or Scheduling classes for bunch of students or Air cargo transport are the best example of ____________
+a) Planning problem
+b) Partial Order planning problem
+c) Total order planning
+d) None of the mentioned
+a
+3. To eliminate the inaccuracy problem in planning problem or partial order planning problem we can use ___________________ data structure/s.
+a) Stacks
+b) Queue
+c) BST (Binary Search Tree)
+d) Planning Graphs
+d
+4. Planning graphs consists of ____________
+a) a sequence of levels
+b) a sequence of levels which corresponds to time steps in the plan
+c) a sequence of actions which corresponds to the state of the system
+d) none of the mentioned
+b
+5. Planning graphs works only for prepositional planning problems.
+a) True
+b) False
+a
+6. _____________ algorithms is used to extract the plan directly from the planning graph, rather than using graph to provide heuristic.
+a) BFS/DFS
+b) A*
+c) Graph-Plan
+d) Greedy
+c
+7. Planning problem can be described as a propositional logic.
+a) True
+b) False
+a
+Initial state /\ all possible action descriptions /\ goal. 
+8. What is the other name of each plan resulted in partial order planning?
+a) Polarization
+b) Linearization
+c) Solarization
+d) None of the mentioned
+b
+9. What are the two major aspects which combines AI Planning problem?
+a) Search & Logic
+b) Logic & Knowledge Based Systems
+c) FOL & Logic
+d) Knowledge Based Systems
+a
+10. __________ algorithm translates a planning problem in to prepositional axioms.
+a) GraphPlan
+b) SatPlan
+c) Greedy
+d) None of the mentioned
+b
+11. ____________ planning allows the agent to take advice from the domain designer in the form of decomposition rules.
+a) GraphPlan
+b) Hierarchical task network (HTN)
+c) SatPlan
+d) None of the mentioned
+b
+12. Standard planning algorithms assumes environment to be ___________
+a) Deterministic
+b) Fully observable
+c) Single agent
+d) Stochastic
+a
+13. Conditional Plans allows the agent to sense the world during execution to decide what branch of plan to follow.
+a) True
+b) False
+a
+14. A re-planning agent uses execution monitoring and splices in repairs as needed.
+a) True
+b) False
+a
+15. Incorrect information results in unsatisfied preconditions for actions and plans _____________ detects violations of the preconditions for successful completion of the plan.
+a) Conditional Plan
+b) Conformant Planning
+c) Execution monitoring
+d) Both Conditional Plan & Execution monitoring
+c
+Sanfoundry Global Education & Learning Series – Artificial Intelligence. 
+To practice all areas of Artificial Intelligence (AI) Problems, here is complete set of 1000+ Multiple Choice Questions and Answers on Artificial Intelligence.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Artificial Intelligence Questions & Answers – Graph Planning» Next - Artificial Intelligence Questions and Answers – Uncertain Knowledge and Reasoning 

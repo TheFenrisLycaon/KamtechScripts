@@ -1,0 +1,85 @@
+1. If one or more devices use a common set of wires to communicate with the computer system, the connection is called ______
+a) CPU
+b) Monitor
+c) Wirefull
+d) Bus
+d
+2. A ____  a set of wires and a rigidly defined protocol that specifies a set of messages that can be sent on the wires.
+a) port
+b) node
+c) bus
+d) none of the mentioned
+c
+3. When device A has a cable that plugs into device B, and device B has a cable that plugs into device C and device C plugs into a port on the computer, this arrangement is called a _________
+a) port
+b) daisy chain
+c) bus
+d) cable
+b
+4. The _________ present a uniform device-access interface to the I/O subsystem, much as system calls provide a standard interface between the application and the operating system.
+a) Devices
+b) Buses
+c) Device drivers
+d) I/O systems
+c
+5. A ________ is a collection of electronics that can operate a port, a bus, or a device.
+a) controller
+b) driver
+c) host
+d) bus
+a
+6. An I/O port typically consists of four registers status, control, ________ and ________ registers.
+a) system in, system out
+b) data in, data out
+c) flow in, flow out
+d) input, output
+b
+7. The ______ register is read by the host to get input.
+a) flow in
+b) flow out
+c) data in
+d) data out
+c
+8. The ______ register is written by the host to send output.
+a) status
+b) control
+c) data in
+d) data out
+d
+9. The hardware mechanism that allows a device to notify the CPU is called _______
+a) polling
+b) interrupt
+c) driver
+d) controlling
+b
+10. The CPU hardware has a wire called __________ that the CPU senses after executing every instruction.
+a) interrupt request line
+b) interrupt bus
+c) interrupt receive line
+d) interrupt sense line
+a
+11. The _________ determines the cause of the interrupt, performs the necessary processing and executes a return from the interrupt instruction to return the CPU to the execution state prior to the interrupt.
+a) interrupt request line
+b) device driver
+c) interrupt handler
+d) all of the mentioned
+c
+12. In general the two interrupt request lines are ____________
+a) maskable & non maskable interrupts
+b) blocked & non maskable interrupts
+c) maskable & blocked interrupts
+d) none of the mentioned
+a
+13. The _________ are reserved for events such as unrecoverable memory errors.
+a) non maskable interrupts
+b) blocked interrupts
+c) maskable interrupts
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions and Answers – Memory Management – Segmentation» Next - Operating System Questions & Answers – I/O System – Application I/O Interface – 2 

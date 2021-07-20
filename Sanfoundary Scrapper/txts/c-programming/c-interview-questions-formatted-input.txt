@@ -1,0 +1,59 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Emulex and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Emulex interviews on C Programming language. 
+Here is a listing of C interview questions on “Formatted Input” along with answers, explanations and/or solutions:
+1. Which of the following doesn’t require an & for the input in scanf()?
+a) char name[10];
+b) int name[10];
+c) float name[10];
+d) all of the mentioned
+a
+2. Which of the following is an invalid method for input?
+a) scanf(“%d%d%d”,&a, &b, &c);
+b) scanf(“%d %d %d”, &a, &b, &c);
+c) scanf(“Three values are %d %d %d”,&a,&b,&c);
+d) none of the mentioned
+d
+3. Which of the following represents the function for scanf()?
+a) void scanf(char *format, …)
+b) int scanf(char *format, …)
+c) char scanf(int format, …)
+d) char *scanf(char *format, …)
+b
+4. What does scanf() function return?
+a) Number of successfully matched and assigned input items
+b) Nothing
+c) Number of characters properly printed
+d) Error
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int n;        scanf("%d", n);        printf("%d", n);    }
+a) Prints the number that was entered
+b) Segmentation fault
+c) Nothing
+d) Varies
+c
+6. What will be the output of the following C statement?
+int sscanf(char *string, char *format, arg1, arg2, …)
+a) Scans the string according to the format in format and stores the resulting values through arg1, arg2, etc
+b) The arguments arg1,arg2 etc must be pointers
+c) Scans the string according to the format in format and stores the resulting values through arg1, arg2, etc, those arguments arg1,arg2 etc must be pointers
+d) None of the mentioned
+c
+7. The conversion characters d, i, o, u, and x may be preceded by h in scanf() to indicate?
+a) A pointer to short
+b) A pointer to long
+c) Nothing
+d) Error
+a
+8. What will be the output of the following C code (when 4 and 5 are entered)?
+    #include <stdio.h>    void main()    {        int m, n;        printf("enter a number");        scanf("%d", &n);        scanf("%d", &m);        printf("%d\t%d\n", n, m);    }
+a) Error
+b) 4 junkvalue
+c) Junkvalue 5
+d) 4 5
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Formatted Input – 1» Next - C Programming Questions and Answers – File Access – 1 

@@ -1,0 +1,69 @@
+1. Which among the following is not a UNIX command for regular expressions?
+a) ed
+b) sed
+c) vi
+d) none of the mentioned
+d
+2. What is the significance of $ used in regular expression in UNIX?
+a) Matches the beginning of the line
+b) Matches the end of lines
+c) Matches any single character
+d) None of the mentioned
+b
+3. Generate the regular expression to match blank lines
+a) / */
+b) /bl
+c) /^?/
+d) /^$/
+d
+4. For the given syntax of sed, which among the following is not a correct option?
+General syntax of sed: /pattern/action
+a) / are used as delimiters
+b) pattern refers to a regular expression
+c) pattern refers to the string to be matched
+d) action refers to the command
+c
+Join [email protected]
+5. What does grep do in UNIX?
+a) It is an editor in UNIX
+b) It searches for text patterns
+c) Both (a) and (b)
+d) None of the mentioned
+b
+6. State true or false:
+Statement: A regular expression is a sequence of characters that represent a pattern.
+a) true
+b) false
+a
+7. Which of the following options support the given statement?
+Statement: A regular expression could be a fixed word or describe something like more general.
+a) This flexibility makes Regular expression invaluable.
+b) This flexibility makes the Regular expression unvaluable.
+c) Both (a) and (b)
+d) None of the mentioned
+a
+8. What does the following segment of code does?
+grep -i man heroes.txt
+a) manually opens a file called heroes.txt
+b) manages heroes.txt
+c) search for “man” in the file “heroes.txt”
+d) none of the mentioned
+c
+9. What does “X?” do regular expression operator?
+a) Matches zero or more capital X’s.
+b) Matches no or one occurence of the capital letter X.
+c) Matches one or more capital X’s.
+d) All of the mentioned
+b
+10. Which of the following does not support regular expressions?
+a) sed
+b) awk
+c) emacs
+d) none of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Converting Regular Expressions to Automata» Next - Automata Theory Questions and Answers –  Lexical Analysis 

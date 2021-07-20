@@ -1,0 +1,66 @@
+1. _________ is a free Java tool that calculates the percentage of code accessed by tests.
+a) Cobertura
+b) JUnit
+c) XUnit
+d) Maven
+a
+2. Cobertura is based on ____________
+a) JUnit
+b) XUnit
+c) Maven
+d) Jcoverage
+d
+3. In order to measure test coverage, Cobertura creates __________ of class files specified.
+a) Instrumented copies
+b) Objects
+c) Mocks
+d) Images
+a
+4. While using Cobertura from the command line, which parameter specifies the base directory?
+a) −−datafile
+b) −−destination
+c) −−ignore
+d) −−basedir
+d
+5. ______________ is used to specify the name of the file to use for storing the metadata about the classes.
+a) −−datafile
+b) −−destination
+c) −−ignore
+d) −−basedir
+a
+6. ________ specifies the output directory for the instrumented classes.
+a) −−datafile
+b) −−destination
+c) −−ignore
+d) −−basedir
+b
+7. ___________ specifies a regular expression to filter out certain lines of the source code.
+a) −−datafile
+b) −−destination
+c) −−ignore
+d) −−basedir
+c
+8. ___________ is used to add extra classes and jar files to Cobertura.
+a) −−datafile
+b) −−destination
+c) −−ignore
+d) −−auxClasspath
+d
+9. The default value for the –datafile parameter is ____________
+a) cobertura.ser
+b) cobertura.dat
+c) datafile.ser
+d) cobertura.log
+a
+10. To use cobertura, we need to include __________
+a) cobertura.jar
+b) junit.jar
+c) hamcrest.jar
+d) junitCobertura.jar
+a
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Mocking an HTTP Connection» Next - JUnit Questions and Answers – EasyMock 

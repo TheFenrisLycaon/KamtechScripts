@@ -1,0 +1,87 @@
+1. 
+What are the bits transmitted for the NRZ-L system?
+a) 10001101
+b) 01001110
+c) 10110001
+d) 10001101
+c
+2. 
+What are the bits transmitted for the return to zero system?
+a) 01001
+b) 10110
+c) 10010
+d) 01101
+a
+3. 
+What are the bits transmitted in the differential Manchester coding?
+a) 001101
+b) 101100
+c) 110010
+d) 010011
+d
+4. 
+What are the bits transmitted for the AMI and Pseudoternary System?
+a) 101101
+b) 101100
+c) 010010
+d) none of the mentioned
+c
+AMI has Alternating high levels as logic 1 and neutral level as logic 0.
+5. Five channels, each with a 100-kHz bandwidth, are to be multiplexed together. What is the minimum bandwidth of the link if there is a need for a guard band of 10 kHz between the channels to prevent interference?
+a) 4600 kHz
+b) 500 kHz
+c) 540 kHz
+d) 580 kHz
+c
+6. Find the checksum byte for the fallowing data words: 10110011, 10101011, 01011010, 11010101
+a) 10001101
+b) 01110010
+c) 10110101
+d) 01110010
+a
+Join [email protected]
+7. Generate the CRC codeword for the message x3+1 using the generator polynomial x3+x+1.
+a) 1001101
+b) 1001001
+c) 1001110
+d) 1001111
+c
+x3*M(x) = 1001000.
+On Dividing we get remainder as 110. Therefore, Codeword is 1001110.
+8. Generate the CRC codeword for the data word 1101011011 using generator 10011. Also write both in the polynomial form.
+a) 11010110110011
+b) 11010110110110
+c) 11010110111100
+d) 11010110111110
+d
+9. What is the hamming distance between these 2 codes: 10010010 and 11011001?
+a) 3
+b) 4
+c) 6
+d) 2
+b
+10. What is the hamming code for the data: 1001101?
+a) 10011100101
+b) 11010000101
+c) 10001100101
+d) 11111001011
+a
+11. 10010100101 is the code received. Find the error bit.
+a) 7
+b) 5
+c) 2
+d) 3
+a
+12. The channel capacity is 100Mbps, the frame length is 10000 bits and the arrival rate is 5000 frames/sec. Calculate the mean time delay.
+a) 400 µsec
+b) 20 msec
+c) 2000 µsec
+d) 200 µsec
+d
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Network Security for interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+	
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Networking Questions and Answers – Layers – I» Next - Networking Questions and Answers – Layers – III 

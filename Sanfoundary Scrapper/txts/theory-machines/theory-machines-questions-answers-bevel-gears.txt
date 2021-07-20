@@ -1,0 +1,79 @@
+1. Bevel gears are used to have a gear drive between two intersecting shafts. True or false?
+a) True
+b) False
+a
+2. Bevel gears are equivalent to rolling ________
+a) cubes
+b) cones
+c) spheres
+d) cuboids
+b
+3. Identify the given gear.
+a) Spur
+b) Helical
+c) Worm
+d) Bevel
+d
+rg, rp = pitch radii of gear and pinion respectively.
+4. What is the formula to calculate the pitch angle of gear of a bevel gear using the radius?
+a) yg = tan-1 ((cos θ)/((rg/rp)+sin θ))
+b) yg = tan-1 ((cos θ)/((rp/rg)+sin θ))
+c) yg = tan-1 ((sin θ)/((rp/rg)+cos θ))
+d) yg = tan-1 ((sin θ)/((rg/rp)+cos θ))
+c
+Therefore, yg = tan-1 ((sin θ)/((rp/rg)+cos θ))
+Similarly, tan yp = ((sin θ)/((rg/rp)+cos θ))
+Therefore, yp = tan-1 ((sin θ)/((rg/rp)+cos θ)).
+5. What is the formula to calculate the pitch angle of pinion of a bevel gear using the angular velocity?
+a) yp = tan-1 ((cos θ)/((wg/wp)+sin θ))
+b) yp = tan-1 ((cos θ)/((wp/wg)+sin θ))
+c) yp = tan-1 ((sin θ)/((wg/wp)+cos θ))
+d) yp = tan-1 ((sin θ)/((wp/wg)+cos θ))
+d
+Therefore, yp = tan-1 ((sin θ)/((wp/wg)+cos θ))
+Similarly, tan yg = ((sin θ)/((wg/wp)+cos θ))
+Therefore, yg = tan-1 ((sin θ)/((wg/wp)+cos θ)).
+6. Which of the gears has the highest contact ratio?
+a) Helical
+b) Spur
+c) Bevel
+d) Worm
+c
+7. What is the working depth of the gear and the pinion of the bevel gears?
+a) 2 m, 0.7 m
+b) 0.7 m, 2 m
+c) 3 m, 0.4 m
+d) 0.4 m, 3 m
+a
+8. A pair of bevel gears is mounted on two intersecting shafts who have a shaft angle of 70°. The velocity ratio of the gears is 2. Find the pitch angles.
+a) 42.21°, 27.79°
+b) 48.14°, 21.86°
+c) 39.29°, 30.71°
+d) 46.95°, 23.05°
+b
+tan yg = ((sin θ)/((wg/wp)+cos θ)) = ((sin 70°)/((1/2)+cos 70°)) = 1.16
+yg = 48.14°
+tan yp = ((sin θ)/((wp/wg)+cos θ)) = ((sin 70°)/((2)+cos 70°)) = 0.4
+yp = 21.86°
+We can confirm this by checking that yg + yp = θ = 70°.
+9. A pair of bevel gears is mounted on two intersecting shafts who have a shaft angle of 80°. The gear ratio of the gears is 1/3. Find the pitch angles.
+a) 62.76°, 17.24°
+b) 49.31°, 30.69°
+c) 56.97°, 23.03°
+d) 64.63°, 15.37°
+a
+tan yg = ((sin θ)/((wg/wp)+cos θ)) = ((sin 80°)/((1/3)+cos 80°)) = 1.94
+yg = 62.76°
+tan yp = ((sin θ)/((wp/wg)+cos θ)) = ((sin 80°)/((3)+cos 80°)) = 0.31
+yp = 17.24°
+We can confirm this by checking that yg + yp = θ = 80°.
+10. The gear ratio of bevel gears = tan yg = cot yp. True or false?
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Theory of Machines.
+To practice all areas of Theory of Machines, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Theory of Machines Questions and Answers – Worm Gears 

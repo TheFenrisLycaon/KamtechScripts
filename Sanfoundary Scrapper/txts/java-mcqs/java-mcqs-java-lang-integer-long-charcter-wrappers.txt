@@ -1,0 +1,87 @@
+1. Which of these is a wrapper for data type int?
+a) Integer
+b) Long
+c) Byte
+d) Double
+a
+2. Which of the following methods is a method of wrapper Integer for obtaining hash code for the invoking object?
+a) int hash()
+b) int hashcode()
+c) int hashCode()
+d) Integer hashcode()
+c
+3. Which of these is a super class of wrappers Long, Character & Integer?
+a) Long
+b) Digits
+c) Float
+d) Number
+d
+4. Which of these is a wrapper for simple data type char?
+a) Float
+b) Character
+c) String
+d) Integer
+b
+5. Which of the following is method of wrapper Integer for converting the value of an object into int?
+a) bytevalue()
+b) int intValue();
+c) Bytevalue()
+d) Byte Bytevalue()
+b
+Join Sanfoundry@YouTube
+6. Which of these methods is used to obtain value of invoking object as a long?
+a) long value()
+b) long longValue()
+c) Long longvalue()
+d) Long Longvalue()
+b
+7. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])         {            char a[] = {'a', '5', 'A', ' '};               System.out.print(Character.isDigit(a[0]) + " ");            System.out.print(Character.isWhitespace(a[3]) + " ");            System.out.print(Character.isUpperCase(a[2]));        }    }
+a) true false true
+b) false true true
+c) true true false
+d) false false false
+b
+Output:
+$ javac Output.java
+$ java Output
+false true true
+8. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])         {            Integer i = new Integer(257);              byte x = i.byteValue();            System.out.print(x);        }    }
+a) 0
+b) 1
+c) 256
+d) 257
+b
+Output:
+$ javac Output.java
+$ java Output
+1
+9. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])         {            Integer i = new Integer(257);              float x = i.floatValue();            System.out.print(x);        }    }
+a) 0
+b) 1
+c) 257
+d) 257.0
+d
+Output:
+$ javac Output.java
+$ java Output
+257.0
+10. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])         {            Long i = new Long(256);              System.out.print(i.hashCode());        }    }
+a) 256
+b) 256.0
+c) 256.00
+d) 257.00
+a
+Output:
+$ javac Output.java
+$ java Output
+256
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.lang Introduction» Next - Java Questions & Answers – Java.lang – Void, Process & System Class 

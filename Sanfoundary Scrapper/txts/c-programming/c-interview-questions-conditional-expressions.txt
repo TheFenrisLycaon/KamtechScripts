@@ -1,0 +1,63 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for IBM and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear IBM interviews on C Programming language. 
+Here is a listing of C interview questions on “Conditional Expressions” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int k = 8;        int m = 7;        k < m ? k++ : m = k;        printf("%d", k);    }
+a) 7
+b) 8
+c) Compile time error
+d) Run time error
+c
+2. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int k = 8;        int m = 7;        k < m ? k = k + 1 : m = m + 1;        printf("%d", k);    }
+a) Compile time error
+b) 9
+c) 8
+d) Run time error
+a
+3. What will be the final values of a and c in the following C statement? (Initial values: a = 2, c = 1)
+ c = (c) ? a = 0 : 2;
+a) a = 0, c = 0;
+b) a = 2, c = 2;
+c) a = 2, c = 2;
+d) a = 1, c = 2;
+a
+4. What will be the data type of the following expression? (Initial data type: a = int, var1 =  double, var2 = float)
+expression (a < 50)? var1 : var2;
+a) int
+b) float
+c) double
+d) Cannot be determined
+c
+5. Which expression has to be present in the following?
+exp1 ? exp2 : exp3;
+a) exp1
+b) exp2
+c) exp3
+d) all of the mentioned
+d
+6. What will be the final value of c in the following C code snippet? (Initial values: a = 1, b = 2, c = 1)
+       c += (-c) ? a : b;
+a) Syntax Error
+b) c = 1
+c) c = 2
+d) c = 3
+c
+7. The following C code can be rewritten as _______
+c = (n) ? a : b;
+a)
+    if (!n)c = b;
+    else c = a;
+b)
+    if (n <;= 0)c = b;
+    else c = a;
+c)
+    if (n > 0)c = a;
+    else c = b;
+d) All of the mentioned
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Conditional Expressions – 1» Next - C Programming Questions and Answers – Precedence and Order of Evaluation – 1 

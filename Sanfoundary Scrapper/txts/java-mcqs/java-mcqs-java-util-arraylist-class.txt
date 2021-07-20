@@ -1,0 +1,86 @@
+1. Which of these standard collection classes implements a dynamic array?
+a) AbstractList
+b) LinkedList
+c) ArrayList
+d) AbstractSet
+c
+2. Which of these class can generate an array which can increase and decrease in size automatically?
+a) ArrayList()
+b) DynamicList()
+c) LinkedList()
+d) MallocList()
+a
+3. Which of these method can be used to increase the capacity of ArrayList object manually?
+a) Capacity()
+b) increaseCapacity()
+c) increasecapacity()
+d) ensureCapacity()
+d
+4. Which of these method of ArrayList class is used to obtain present size of an object?
+a) size()
+b) length()
+c) index()
+d) capacity()
+a
+5. Which of these methods can be used to obtain a static array from an ArrayList object?
+a) Array()
+b) covertArray()
+c) toArray()
+d) covertoArray()
+c
+6. Which of these method is used to reduce the capacity of an ArrayList object?
+a) trim()
+b) trimSize()
+c) trimTosize()
+d) trimToSize()
+d
+7. What will be the output of the following Java program?
+    import java.util.*;    class Arraylist     {        public static void main(String args[])         {            ArrayList obj = new ArrayList();            obj.add("A");            obj.add("B");            obj.add("C");            obj.add(1, "D");            System.out.println(obj);        }    }
+a) [A, B, C, D] 
+b) [A, D, B, C] 
+c) [A, D, C] 
+d) [A, B, C] 
+b
+Output:
+$ javac Arraylist.java
+$ java Arraylist
+[A, D, B, C].
+8. What will be the output of the following Java program?
+    import java.util.*;    class Output     {        public static void main(String args[])         {            ArrayList obj = new ArrayList();            obj.add("A");            obj.add(0, "B");            System.out.println(obj.size());        }    }
+a) 0
+b) 1
+c) 2
+d) Any Garbage Value
+c
+Output:
+$ javac Output.java
+$ java Output
+2
+9. What will be the output of the following Java program?
+    import java.util.*;    class Output     {        public static void main(String args[])         {            ArrayList obj = new ArrayList();            obj.add("A");            obj.ensureCapacity(3);            System.out.println(obj.size());        }    }
+a) 1
+b) 2
+c) 3
+d) 4
+a
+Output:
+$ javac Output.java
+$ java Output
+1
+10. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])         {            ArrayList obj = new ArrayList();            obj.add("A");            obj.add("D");            obj.ensureCapacity(3);            obj.trimToSize();            System.out.println(obj.size());         }          }
+a) 1
+b) 2
+c) 3
+d) 4
+b
+Output:
+$ javac Output.java
+$ java Output
+2
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Networking – Datagrams» Next - Java Questions & Answers – Data Structures-HashMap 

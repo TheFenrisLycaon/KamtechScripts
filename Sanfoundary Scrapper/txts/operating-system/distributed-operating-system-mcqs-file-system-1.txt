@@ -1,0 +1,67 @@
+1. What are the different ways in which clients and servers are dispersed across machines?
+a) Servers may not run on dedicated machines
+b) Servers and clients can be on same machines
+c) Distribution cannot be interposed between a OS and the file system
+d) OS cannot be distributed with the file system a part of that distribution
+b
+2. What are not the characteristics of a DFS?
+a) login transparency and access transparency
+b) Files need not contain information about their physical location
+c) No Multiplicity of users
+d) No Multiplicity if files
+c
+3. What are characteristic of a DFS?
+a) Fault tolerance
+b) Scalability
+c) Heterogeneity of the system
+d) Upgradation
+d
+4. What are the different ways file accesses take place?
+a) sequential access
+b) direct access
+c) indexed sequential access
+d) all of the mentioned
+d
+5. Which is not a major component of a file system?
+a) Directory service
+b) Authorization service
+c) Shadow service
+d) System service
+c
+6. What are the different ways mounting of the file system?
+a) boot mounting
+b) auto mounting
+c) explicit mounting
+d) all of the mentioned
+d
+7. What is the advantage of caching in remote file access?
+a) Reduced network traffic by retaining recently accessed disk blocks
+b) Faster network access
+c) Copies of data creates backup automatically
+d) None of the mentioned
+a
+8. What is networked virtual memory?
+a) Caching
+b) Segmentation
+c) RAM disk
+d) None of the mentioned
+a
+9. What are the examples of state information?
+a) opened files and their clients
+b) file descriptors and file handles
+c) current file position pointers
+d) all of the mentioned
+d
+10. Which is not an example of state information?
+a) Mounting information
+b) Description of HDD space
+c) Session keys
+d) Lock status
+b
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions & Answers – Distributed Operating System – Robustness of Distributed Systems» Next - Operating System Questions & Answers – Distributed File System – 2 

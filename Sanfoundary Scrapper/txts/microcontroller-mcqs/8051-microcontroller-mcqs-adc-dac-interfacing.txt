@@ -1,0 +1,66 @@
+1. Why two pins for ground are available in ADC0804?
+a) for controlling the ADCON0 and ADCON1 register of the controller
+b) for controlling the analog and the digital pins of the controller
+c) for both parts of the chip respectively
+d) for isolate analog and digital signal
+d
+2. What is the function of the WR pin?
+a) its active high input used to inform ADC0804 to the end of conversion
+b) its active low input used to inform ADC0804 to the end of conversion
+c) its active low input used to inform ADC0804 to the start of conversion
+d) its active high input used to inform ADC0804 to the start of conversion
+c
+3. State which of the following statements are false?
+a) CLK IN pin used for External Clock Input or Internal Clock with external RC element
+b) INTR pin tells about the end of the conversion
+c) ADC0804 IC is an 8 bit parallel ADC in the family of the ADC0800 series
+d) None of the mentioned
+d
+4. While programming the ADC0808/0809 IC what steps are followed?
+a) select the analog channel, start the conversion, monitor the conversion, display the digital results
+b) select the analog channel, activate the ALE signal (L to H pulse), start the conversion, monitor the conversion, read the digital results
+c) select the analog channel, activate the ALE signal (H to L pulse), start the conversion, monitor the conversion, read the digital results
+d) select the channel, start the conversion, end the conversion
+b
+5. In ADC0808/0809 IC which pin is used to select Step Size?
+a) Vref
+b) Vin
+c) Vref/2 & Vin
+d) None of the mentioned
+a
+6. What is the difference between ADC0804 and MAX1112?
+a) ADC0804 has 8 bits and MAX1112 has 1 bit for data output
+b) ADC0804 is used for adc and dac conversions whereas MAX1112 is used for serial data transmissions
+c) ADC0804 has 32 bits and MAX1112 has 3 bit for data output
+d) None of the mentioned
+a
+7. Which of the following statements are true about DAC0808?
+a) parallel digital data to analog data conversion
+b) it has current as an output
+c) all of the mentioned
+d) none of the mentioned
+a
+8. 8 input DAC has ________
+a) 8 discrete voltage levels
+b) 64 discrete voltage levels
+c) 124 discrete voltage levels
+d) 256 discrete voltage levels
+d
+9. INTR, WR signal is an input/output signal pin?
+a) both are output
+b) both are input
+c) one is input and the other is output
+d) none of the mentioned
+c
+10. What is the function of the SCLK pin in MAX1112?
+a) It is used to bring data in
+b) It is used to bring data out and send in the control byte, one at a time
+c) It is used to get output clock
+d) It is used to get serial output
+b
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - 8051 Microcontroller Questions and Answers – Keyboard Interfacing» Next - 8051 Microcontroller Questions and Answers – Sensor Interfacing 

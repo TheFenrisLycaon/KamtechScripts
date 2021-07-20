@@ -1,0 +1,57 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in Dell and other companies. Anyone looking for Dell placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of C interview questions on “C Preprocessor” along with answers, explanations and/or solutions:
+1. Which of the following are C preprocessors?
+a) #ifdef
+b) #define
+c) #endif
+d) all of the mentioned
+d
+2. #include statement must be written __________
+a) Before main()
+b) Before any scanf/printf
+c) After main()
+d) It can be written anywhere
+b
+3. #pragma exit is primarily used for?
+a) Checking memory leaks after exiting the program
+b) Informing Operating System that program has terminated
+c) Running a function at exiting the program
+d) No such preprocessor exist
+c
+4.  What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int one = 1, two = 2;        #ifdef next        one = 2;        two = 1;        #endif        printf("%d, %d", one, two);    }
+a) 1, 1
+b) 1, 2
+c) 2, 1
+d) 2, 2
+b
+5. The C-preprocessors are specified with _________symbol.
+a) #
+b) $
+c) ” ”
+d) &
+a
+6. What is #include directive?
+a) Tells the preprocessor to grab the text of a file and place it directly into the current file
+b) Statements are not typically placed at the top of a program
+c) All of the mentioned
+d) None of the mentioned
+a
+7. The preprocessor provides the ability for _______________
+a) The inclusion of header files
+b) The inclusion of macro expansions
+c) Conditional compilation and line control
+d) All of the mentioned
+d
+8. If #include is used with file name in angular brackets.
+a) The file is searched for in the standard compiler include paths
+b) The search path is expanded to include the current source directory
+c) The search path will expand
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – C-Preprocessor – 1» Next - C Programming Questions and Answers – File Inclusion – 1 

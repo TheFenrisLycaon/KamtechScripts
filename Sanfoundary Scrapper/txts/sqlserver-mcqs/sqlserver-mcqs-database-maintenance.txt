@@ -1,0 +1,66 @@
+1. The SQL Server Maintenance Solution comprises scripts for running __________ maintenance on all editions of Microsoft SQL Server.
+a) backups
+b) integrity checks
+c) index
+d) all of the mentioned
+d
+2. Point out the correct statement related to database maintenance.
+a) Performing SQL Server Maintenance with Maintenance Window
+b) Performing SQL Server Maintenance with No Maintenance Window
+c) Performing SQL Server Maintenance with Scrip Maintenance Window
+d) None of the mentioned
+b
+3. Which of the following is used to determine the fragmentation for tables and indexes?
+a) DBCC SHOWCONTIG
+b) DBCC CHECKDB
+c) DBCC CHECKCATALOG
+d) None of the mentioned
+a
+4. Which of the following is used to Validate the database objects?
+a) DBCC SHOWCONTIG
+b) DBCC CHECKDB
+c) DBCC CATALOG
+d) None of the mentioned
+b
+5. Point out the wrong statement.
+a) The command DBCC CHECKDB checks the logical and physical integrity of all the objects in the specified database
+b) The command DBCC CHECK checks the logical and physical integrity of all the objects in the specified database
+c) The command CHECKDB checks the logical and physical integrity of all the objects in the specified database
+d) None of the mentioned
+a
+6. Which of the following command defragments clustered and secondary indexes of the specified table?
+a) DBCC SHOWCONTIG
+b) DBCC CHECKDB
+c) DBCC CATALOG
+d) DBCC INDEXDEFRAG
+d
+7. ______________ runs UPDATE STATISTICS against all user-defined tables in the current database.
+a) sp_updatestats
+b) DBCC CHECKDB
+c) DBCC CATALOG
+d) DBCC INDEXDEFRAG
+a
+8. Purpose of DBCC DBREINDEX command is to ____________
+a) Rebuilds one or more indexes for a table in the specified database
+b) Rebuilds only one index for a table in the specified database
+c) Displays fragmentation information for the data and indexes of the specified table
+d) All of the mentioned
+a
+9. What types of database maintenance should be executed?
+a) Update SQL Server’s usage
+b) Validate the database objects and system catalogs are free of corruption
+c) Determine the fragmentation for tables and indexes
+d) All of the mentioned
+d
+10. Create a Database Maintenance Plan that creates a ________ backup within SQL Server.
+a) Partial
+b) Snapshot
+c) Full
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Backup» Next - SQL Server Questions and Answers – SQL Server Agent 

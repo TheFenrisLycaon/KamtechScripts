@@ -1,0 +1,67 @@
+1. The power control register is
+a) used for power saving during idle state
+b) used for eventual power off to 8051 chip
+c) non-bit addressable register
+d) all of the mentioned
+d
+2. The state of signals in idle mode is
+a) ALE is high
+b) PSEN is high
+c) PSEN(active low) is high
+d) ALE and PSEN(active low) are high
+d
+3. To come out of idle mode, the external interrupt that is enabled is
+a) SI(serial)
+b) INT0
+c) INT1
+d) All of the mentioned
+d
+4. The microcontroller enters into power down mode when
+a) SMOD bit of PCON is set
+b) GF1 bit of PCON is set
+c) PD bit of PCON is set
+d) GF2 bit of PCON is set
+c
+5. The clock signal is disabled to all parts of 8051 in
+a) normal mode
+b) idle mode
+c) power down mode
+d) addressing mode
+c
+6. During power down to save battery, the supply voltage can be reduced to a value of
+a) 4 volts
+b) 2 volts
+c) 8 volts
+d) 1 volt
+b
+7. The signal that only pulls the microcontroller(8051) out of the power down mode is
+a) CLEAR
+b) LEAVE
+c) RESET
+d) EXIT
+c
+8. The state of signals in power down mode is
+a)  ALE is high
+b) PSEN is low
+c) ALE and PSEN(active low) are high
+d) ALE and PSEN(active low) are low
+d
+9. In power down mode,
+a) Port pins maintain their logic levels
+b) SFRs maintain their logic levels
+c) Clock signal is disabled
+d) All of the mentioned
+d
+10. The SMOD bit is used to
+a) decrease the baud rate by 2
+b) increase the baud rate by 4
+c) increase the baud rate by 2
+d) triple the baud rate
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Serial Communication Unit 

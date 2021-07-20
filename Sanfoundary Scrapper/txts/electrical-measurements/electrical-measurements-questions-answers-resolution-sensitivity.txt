@@ -1,0 +1,80 @@
+1. Resolution of a DVM is given by ____________
+a) R = 1⁄10n
+b) R = 1
+c) R = 10n
+d) R = n⁄10
+a
+R = 1⁄10n
+where, n is the number of full digits
+            R is the resolution.
+2. What is the resolution for a 3 digit display?
+a) 1 %
+b) 0.1 %
+c) 0.001 %
+d) 10 %
+b
+R = 1⁄10n
+Here, n is 3. Substituting n=3 in the equation for resolution we get,
+R = 1⁄103 = 10-3 = 0.001 = 0.1 %.
+3. Sensitivity is largest change in input.
+a) True
+b) False
+b
+4. Sensitivity of a DVM is given by ______________
+a) S = 1
+b) S = (fs)min
+c) S = (fs)min × R
+d) S = R
+c
+S = (fs)min × R
+where, S is the sensitivity
+            R is the resolution
+            (fs)min is the full scale value on minimum range.
+5. What is the resolution of a 3 digit display on 1 V range?
+a) 1 V
+b) 0.1 V
+c) 0.01 V
+d) 0.001 V
+d
+R = 1⁄10n
+Here, n is 3. Substituting n=3 in the equation for resolution we get,
+R = 1⁄103 = 10-3 = 0.001
+For 1 V range, the resolution is,
+R1V = 1×0.001 = 0.001 V.
+6. How is 11.87 V displayed on a 10 V range for a 4 digit display?
+a) 11.870
+b) 1.1870
+c) 118.7
+d) 0.1187
+a
+R = 1⁄10n
+Here, n is 4. Substituting n=4 in the equation for resolution we get,
+R = 1⁄104 = 10-4 = 0.0001
+Since there are 5 digit places in the resolution, 11.87 which already has four digits is represented as 11.870.
+7. Consider a 3 digit display for a DVM with an accuracy of ± 0.5 % for a reading of ± 1 digit. Compute the error for 5 V reading on a 10 V range.
+a) ± 10 V
+b) ± 0.035 V
+c) ± 0.05 V
+d) ± 1 V
+b
+R = 1⁄10n
+Here, n is 3. Substituting n=3 in the equation for resolution we get,
+R = 1⁄103 = 10-3 = 0.001
+For 10 V range, the resolution is,
+R10V = 10 × 0.001 = 0.01 V
+Consider the reading of 5 V.
+Error = ± 0.5 % of 5 = 0.5⁄100 × 5 = ± 0.025 V
+1 digit error = ± 0.01 V
+ Total error = ±(0.025 V+ 0.01 V)=± 0.035 V.
+8. Clock pulses are controlled ______
+a) automatically
+b) using microcontrollers
+c) using valves
+d) manually
+d
+Sanfoundry Global Education & Learning Series – Electrical Measurements.
+To practice all areas of Electrical Measurements, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Electrical Measurements Questions and Answers – Dual Slope Integrating Type DVM» Next - Electrical Measurements Questions and Answers – Autoranging 

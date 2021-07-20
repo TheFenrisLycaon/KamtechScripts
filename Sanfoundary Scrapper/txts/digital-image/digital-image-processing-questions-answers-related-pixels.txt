@@ -1,0 +1,103 @@
+1. A pixel p at coordinates (x, y) has neighbors whose coordinates are given by:
+(x+1, y), (x-1, y), (x, y+1), (x, y-1)
+This set of pixels is called ____________
+a)	4-neighbors of p
+b)	Diagonal neighbors
+c)	8-neighbors
+d)	None of the mentioned
+a
+2.  A pixel p at coordinates (x, y) has neighbors whose coordinates are given by:
+(x+1, y+1), (x+1, y-1), (x-1, y+1), (x-1, y-1)
+This set of pixels is called ____________
+a)	4-neighbors of p
+b)	Diagonal neighbors
+c)	8-neighbors
+d)	None of the mentioned
+b
+3. What is the set of pixels of 8-neighbors of pixel p at coordinates (x, y)?
+a)	(x+1, y), (x-1, y), (x, y+1), (x, y-1), (x+2, y), (x-2, y), (x, y+2), (x, y-2)
+b)	(x+1, y), (x-1, y), (x, y+1), (x, y-1), (x+1, y+1), (x+1, y-1), (x-1, y+1), (x-1, y-1)
+c)	(x+1, y+1), (x+1, y-1), (x-1, y+1), (x-1, y-1), (x+2, y+2), (x+2, y-2), (x-2, y+2), (x-2, y-2)
+d)	(x+2, y), (x-2, y), (x, y+2), (x, y-2), (x+2, y+2), (x+2, y-2), (x-2, y+2), (x-2, y-2)
+b
+4. Two pixels p and q having gray values from V, the set of gray-level values used to define adjacency, are m-adjacent if:
+a)	q is in N4(p)
+b)	q is in ND(p) and the set N4(p) ∩ N4(q) has no pixels whose values are from V
+c)	Any of the mentioned
+d)	None of the mentioned
+c
+The above conditioned Two pixels p and q are m-adjacent if:
+q is in N4(p), or
+q is in ND(p) and the set N4(p) ∩ N4(q) has no pixels whose values are from V.
+5. Let S, a subset of pixels in an image, is said to be a connected set if:
+a)	If for any pixel p in S, the set of pixels that are connected to it in Sis only one
+b)	If it only has one connected component
+c)	If S is a region
+d)	All of the mentioned
+d
+For any pixel p in S, the set of pixels is called a connected component of S if connected to p in S. The set S is called a connected set if it only has one connected component.
+S, is a region of the image if S is a connected set.
+6. Let R be a subset of pixels in an image. How can we define the contour of R?
+a)	If R is a region, and the set of pixels in R have one or more neighbors that are not in R
+b)	If R is an entire image, then the set of pixels in the first and last rows and columns of R
+c)	All of the mentioned
+d)	None of the mentioned
+c
+The boundary or contour of a region R is the set of pixels in the region that have one or more neighbors that are not in R.
+In case R is an entire image, then its boundary is defined as the set of pixels in the first and last rows and columns of the image.
+7. For pixels p(x, y), q(s, t), and z(v, w), D is a distance function or metric if:
+a)	D(p, q) ≥ 0
+b)	D(p, q) = D(q, p)
+c)	D(p, z) ≤ D(p, q) + D(q, z)
+d)	All of the mentioned
+d
+(i)	D(p, q) ≥ 0, 	(D(p, q) = 0  if p=q),
+(ii)	D(p, q) = D(q, p), and
+(iii)	D(p, z) ≤ D(p, q) + D(q, z).
+8. For pixels p(x, y), q(s, t), the Euclidean distance between p and q is defined as:
+a)	D(p, q) = [(x – s)2 + (y – t)2]1/2
+b)	D(p, q) = |x – s| + |y – t|
+c)	D(p, q) = max (|x – s| + |y – t|)
+d)	None of the mentioned
+a
+D(p, q) = [(x – s)2 + (y – t)2]1/2.
+9. For pixels p(x, y), q(s, t), the city-block distance between p and q is defined as:
+a)	D(p, q) = [(x – s)2 + (y – t)2]1/2
+b)	D(p, q) = |x – s| + |y – t|
+c)	D(p, q) = max (|x – s| + |y – t|)
+d)	None of the mentioned
+b
+D(p, q) = |x – s| + |y – t|.
+10. For pixels p(x, y), q(s, t), the chessboard distance between p and q is defined as:
+a)	D(p, q) = [(x – s)2 + (y – t)2]1/2
+b)	D(p, q) = |x – s| + |y – t|
+c)	D(p, q) = max (|x – s| + |y – t|)
+d)	None of the mentioned
+c
+D(p, q) = max (|x – s| + |y – t|).
+11. The domain that refers to image plane itself and the domain that refers to Fourier transform of an image is/are :
+a)	Spatial domain in both
+b)	Frequency domain in both
+c)	Spatial domain and Frequency domain respectively
+d)	Frequency domain and Spatial domain respectively
+c
+Techniques based on Frequency domain processing are based on modifying the Fourier transform of an image.
+12. What is the technique for a gray-level transformation function called, if the transformation would be to produce an image of higher contrast than the original by darkening the levels below some gray-level m and brightening the levels above m in the original image.
+a)	Contouring
+b)	Contrast stretching
+c)	Mask processing
+d)	 Point processing
+b
+Then the technique, contrast stretching compresses the value of r below m by transformation function into a narrow range of s, towards black and brightens the value of r above m.
+13. For Image Enhancement a general-approach is to use a function of values of f (input image) in a predefined neighborhood of (x, y) to determine the value of g (output image) at (x, y). The techniques that uses such approaches are called ________
+a)	Contouring
+b)	Contrast stretching
+c)	Mask processing
+d)	None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Zooming and Shrinking Digital Images» Next - Digital Image Processing Questions and Answers – Basic Grey Level Transformation 

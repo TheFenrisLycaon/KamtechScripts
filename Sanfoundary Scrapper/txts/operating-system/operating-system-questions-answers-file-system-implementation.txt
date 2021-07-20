@@ -1,0 +1,67 @@
+1. Management of metadata information is done by ____________
+a) file-organisation module
+b) logical file system
+c) basic file system
+d) application programs
+b
+2. A file control block contains the information about ____________
+a) file ownership
+b) file permissions
+c) location of file contents
+d) all of the mentioned
+d
+3. Which table contains the information about each mounted volume?
+a) mount table
+b) system-wide open-file table
+c) per-process open-file table
+d) all of the mentioned
+d
+4. To create a new file application program calls ____________
+a) basic file system
+b) logical file system
+c) file-organisation module
+d) none of the mentioned
+b
+5. What will happens when a process closes the file?
+a) per-process table entry is not removed
+b) system wide entry’s open count is decremented
+c) all of the mentioned
+d) none of the mentioned
+b
+6. What is raw disk?
+a) disk without file system
+b) empty disk
+c) disk lacking logical file system
+d) disk having file system
+a
+7. The data structure used for file directory is called ____________
+a) mount table
+b) hash table
+c) file table
+d) process table
+b
+8. In which type of allocation method each file occupy a set of contiguous block on the disk?
+a) contiguous allocation
+b) dynamic-storage allocation
+c) linked allocation
+d) indexed allocation
+a
+9. If the block of free-space list is free then bit will ____________
+a) 1
+b) 0
+c) any of 0 or 1
+d) none of the mentioned
+a
+10. Which protocol establishes the initial logical connection between a server and a client?
+a) transmission control protocol
+b) user datagram protocol
+c) mount protocol
+d) datagram congestion control protocol
+c
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions & Answers – File System Concepts» Next - Operating System Questions & Answers – File System Interface Access Methods – 1 

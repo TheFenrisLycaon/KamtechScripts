@@ -1,0 +1,81 @@
+1. Which of these classes is not included in java.lang?
+a) Byte
+b) Integer
+c) Array
+d) Class
+c
+2. Which of these is a process of converting a simple data type into a class?
+a) type wrapping
+b) type conversion
+c) type casting
+d) none of the Mentioned
+a
+3. Which of these is a super class of wrappers Double & Integer?
+a) Long
+b) Digits
+c) Float
+d) Number
+d
+4. Which of these is a wrapper for simple data type float?
+a) float
+b) double
+c) Float
+d) Double
+c
+5. Which of the following is a method of wrapper Float for converting the value of an object into byte?
+a) bytevalue()
+b) byte byteValue()
+c) Bytevalue()
+d) Byte Bytevalue()
+b
+6. Which of these methods is used to check for infinitely large and small values?
+a) isInfinite()
+b) isNaN()
+c) Isinfinite()
+d) IsNaN()
+a
+7. Which of the following package stores all the simple data types in java?
+a) lang
+b) java
+c) util
+d) java.packages
+a
+8. What will be the output of the following Java code?
+    class isinfinite_output     {        public static void main(String args[])         {            Double d = new Double(1 / 0.);              boolean x = d.isInfinite();            System.out.print(x);        }    }
+a) 0
+b) 1
+c) true
+d) false
+c
+Output:
+$ javac isinfinite_output.java
+$ java isinfinite_output
+true
+9. What will be the output of the following Java code?
+    class isNaN_output     {        public static void main(String args[])         {            Double d = new Double(1 / 0.);              boolean x = d.isNaN();            System.out.print(x);        }    }
+a) 0
+b) 1
+c) true
+d) false
+d
+Output:
+$ javac isNaN_output.java
+$ java isNaN_output
+false
+10. What will be the output of the following Java code?
+    class binary     {         public static void main(String args[])          {             int num = 17;             System.out.print(Integer.toBinaryString(num));         }    }
+a) 1001
+b) 10011
+c) 11011
+d) 10001
+d
+output:
+$ javac binary.java
+$ java binary 
+10001
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – StringBuffer Methods» Next - Java Questions & Answers – Java.lang – Integer, Long & Character Wrappers 

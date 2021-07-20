@@ -1,0 +1,66 @@
+1. Point out the wrong statement.
+a) You cannot drop a database currently being used
+b) A database cannot be dropped regardless of its state
+c) Any database snapshots on a database must be dropped before the database can be dropped
+d) None of the mentioned
+b
+2. Which of the following database should be backed up regularly?
+a) Adventure Works
+b) Pub
+c) TEMPDB
+d) Master
+d
+3. The DROP DATABASE statement must run in ________ mode.
+a) Autocommit
+b) Commit
+c) Readcommit
+d) None of the mentioned
+a
+4. Features provided by ALTER DATABASE statement do not include ____________
+a) Deletes database
+b) Modifies file
+c) Changes the attributes of a database
+d) Changes the database collation
+a
+5. Point out the correct statement.
+a) Database snapshots cannot be modified
+b) Database snapshots can be modified
+c) A collation name can be specified with the FOR ATTACH or FOR ATTACH_REBUILD_LOG clauses
+d) None of the mentioned
+a
+6. Command used to shrink the size of the database is _____________
+a) DBCC SHRINK
+b) SHRINKDATABASE
+c) DBCC SHRINKDATABASE
+d) DBCC SHRINKDB
+c
+7. Maximum number of filegroups specified for each database is ___________
+a) 32, 667
+b) 32, 777
+c) 32, 766
+d) 32, 767
+d
+8. When does most ALTER DATABASE statements fail?
+a) Database is in the RESTORING state
+b) Database is in the STORING state
+c) Database is in the RESTORE state
+d) None of the mentioned
+a
+9. Which of the following statement modifies view index?
+a) ALTER INDEX
+b) ALTER VIEW INDEX
+c) ALTER INDEX_VIEW
+d) None of the mentioned
+a
+10. Which of the following index options are added by the CREATE INDEX statement?
+a) XML INDEX
+b) INCLUDED (column)
+c) PARTITION SCHEME
+d) ONLINE
+d
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server for quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Data Definition Language – 1» Next - SQL Server Questions and Answers – Data Definition Language – 3 

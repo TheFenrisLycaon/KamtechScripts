@@ -1,0 +1,67 @@
+1. Zookeeper essentially mirrors the _______ functionality exposed in the Linux kernel.
+a) iread
+b) inotify
+c) iwrite
+d) icount
+b
+2. Point out the correct statement.
+a) If we are to deploy Zookeeper in a distributed environment, we have to think about both the availability and scalability of the service
+b) Chubby and Hbase are both much more than a distributed lock service
+c) Given a cluster of Zookeeper servers, many can act as leader
+d) None of the mentioned
+a
+3.  A ___________ server is a machine that keeps a copy of the state of the entire system and persists this information in local log files.
+a) Master
+b) Region
+c) Zookeeper
+d) All of the mentioned
+c
+4. ZooKeeper’s architecture supports high ____________ through redundant services.
+a) flexibility
+b) scalability
+c) availability
+d) interactivity
+c
+5. Point out the wrong statement.
+a) Cluster-wide status centralization service is essential for management and serialization tasks across a large distributed set of servers
+b) Within ZooKeeper, an application can create what is called a znode
+c) The znode can be updated by any node in the cluster, and any node in the cluster can register to be informed of changes to that znode
+d) None of the mentioned
+d
+6. _________ serves distributed Lucene indexes in a grid environment.
+a) Katta
+b) Helprace
+c) Neo4j
+d) 101tec
+a
+7. The Email & Apps team of ___________ uses ZooKeeper to coordinate sharding and responsibility changes in a distributed email client.
+a) Katta
+b) Helprace
+c) Rackspace
+d) None of the mentioned
+c
+8. ZooKeeper is used for configuration, leader election in Cloud edition of ______________
+a) Solr
+b) Solur
+c) Solar101
+d) All of the mentioned
+a
+9. Helprace is using ZooKeeper on a _______ cluster in conjunction with Hadoop and HBase.
+a) 3-node
+b) 4-node
+c) 5-node
+d) 6-node
+a
+10. The ZooKeeper Data Directory contains files which are _________ copy of the znodes stored by a particular serving ensemble.
+a) transient
+b) read only
+c) persistent
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all interview questions and answers on Zookeeper, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Introduction to Zookeeper» Next - Hadoop Questions and Answers – The ZooKeeper Service – 2 

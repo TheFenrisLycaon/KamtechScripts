@@ -1,0 +1,144 @@
+1. What is the syntax for using linked server stored procedure in SQL Server?
+a)
+sp_linkedserver [ @server= ] 'server' [ , [ @srvproduct= ] 'product_name' ] 
+     [ , [ @provider= ] 'provider_name' ]
+     [ , [ @datasrc= ] 'data_source' ] 
+     [ , [ @location= ] 'location' ] 
+     [ , [ @provstr= ] 'provider_string' ] 
+     [ , [ @catalog= ] 'catalog' ]
+b)
+sp_addlinked [ @server= ] 'server' [ , [ @srvproduct= ] 'product_name' ] 
+     [ , [ @provider= ] 'provider_name' ]
+     [ , [ @datasrc= ] 'data_source' ] 
+     [ , [ @location= ] 'location' ] 
+     [ , [ @provstr= ] 'provider_string' ] 
+     [ , [ @catalog= ] 'catalog' ]
+c)
+sp_addlinkedserver [ @server= ] 'server' [ , [ @srvproduct= ] 'product_name' ] 
+     [ , [ @provider= ] 'provider_name' ]
+     [ , [ @datasrc= ] 'data_source' ] 
+     [ , [ @location= ] 'location' ] 
+     [ , [ @provstr= ] 'provider_string' ] 
+     [ , [ @catalog= ] 'catalog' ]
+d)
+sp_addlinkedser [ @server= ] 'server' [ , [ @srvproduct= ] 'product_name' ] 
+     [ , [ @provider= ] 'provider_name' ]
+     [ , [ @datasrc= ] 'data_source' ] 
+     [ , [ @location= ] 'location' ] 
+     [ , [ @provstr= ] 'provider_string' ] 
+     [ , [ @catalog= ] 'catalog' ]
+c
+  
+2. Point out the correct statement.
+a) To access a mirrored database, a connection string must contain the database name
+b) When the linked server is defined against an instance of SQL Server, catalog refers to the default database to which the linked server is mapped
+c) [ @location= ] ‘location’ is the location of the database as interpreted by the OLE DB provider in sp_addlinkedserver
+d) All of the mentioned
+d
+3. sp_addlinkedserver command creates a distributed server entry called _________ in the following code.
+sp_addlinkedserver
+        @server = "Northwinds",
+        @srvproduct = "Access 97",
+        @Provider =
+                "Microsoft.Jet.OLEDB.3.51",
+                @datasrc =
+                "c:\brian\writing\sqlservermag\nov98\nwind.mdb"
+a) Access 97
+b) Microsoft.Jet.OLEDB.3.51
+c) nwind
+d) Northwinds
+d
+4. Which of the following command tells that all local users are logged in as “sa” in the following code?
+EXEC sp_addlinkedsrvlogin
+@rmtsrvname = "Northwinds",
+@useself = "false",
+@locallogin = "sa",
+@rmtuser = "Admin",
+@rmtpassword = NULL
+a) sp_addlinkedsrv
+b) sp_addlinkedserver
+c) sp_addlinkedsrvlogin
+d) none of the mentioned
+c
+5. Point out the wrong statement.
+a) SQL Server cannot use execution strategies that involve using the procedures of the Table provider to evaluate predicates
+b) For a distributed query, the comparison semantics for all character data is defined by the character se
+c) SQL Server can delegate comparisons and ORDER BY operations on character columns to a provide
+d) None of the mentioned
+a
+6. Which of the following function mainly used for bulk load data is referenced in the following code?
+SELECT
+RemoteOrders.*
+FROM
+OpenRowset("Microsoft.Jet.OLEDB.3.51",
+"c:\brian\writing\sqlservermag\nov98\nwind.mdb"; "admin"; ,
+"select * from orders") RemoteOrders
+LEFT JOIN MasterOrders ON
+RemoteOrders.OrderId = MasterOrders.OrderId
+WHERE
+MasterOrders.OrderID = NULL
+a) OpenRowset
+b) Microsoft.Jet.OLEDB
+c) admin
+d) All of the mentioned
+a
+7. Which of the following SQL syntax elements is dictated by the SQL dialect levels?
+a) LIKE support
+b) Parameter marker support
+c) Nested query support
+d) None of the mentioned
+d
+8. Which of the following function will be preferred for faster execution in following code?
+SELECT
+RemoteOrders.*
+FROM
+________(Northwinds, "select * from orders")
+RemoteOrders LEFT JOIN MasterOrders ON
+RemoteOrders.OrderId = MasterOrders.OrderId
+WHERE
+MasterOrders.OrderID = NULL
+a) OpenRow
+b) OpenSQL
+c) OpenQuery
+d) All of the mentioned
+c
+9. Which of the following query combines data from more than one SQL Server instance?
+a)
+ USE SCRATCH
+   GO
+  SELECT TOP 1000 *
+  FROM REMOTE.Scratch.dbo.Table1 T1
+  INNER JOIN REMOTE.Scratch.dbo.Table2 T2
+  ON T1.ID
+  = T2.ID
+b)
+USE SCRATCH
+   GO
+  SELECT *
+  FROM dbo.Table1 T1
+  INNER JOIN REMOTE.Scratch.dbo.Table2 T2
+  ON T1.ID
+  = T2.ID
+  WHERE T1.GUIDSTR < '001'
+c)
+ USE SCRATCH
+   GO
+  SELECT TOP 500 *
+  FROM REMOTE.Scratch.dbo.Table1 T1
+  OUTER JOIN REMOTE.Scratch.dbo.Table2 T2
+  ON T1.ID
+  = T2.ID
+d) None of the mentioned
+b
+10. The easiest way to start is to create a linked server ‘localhost’ by using _____________
+a) sp_addlinkedserv ‘localhost’
+b) sp_addlinkedsrvlogin ‘localhost’
+c) sp_addlinkedserverlogin ‘localhost’
+d) sp_addlinkedserver ‘localhost’
+d
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Bulk Operations» Next - SQL Server Questions and Answers – ADO.NET 

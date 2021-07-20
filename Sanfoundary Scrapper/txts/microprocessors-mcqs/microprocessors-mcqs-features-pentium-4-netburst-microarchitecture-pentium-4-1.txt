@@ -1,0 +1,75 @@
+1. The feature of Pentium 4 is
+a) works based on NetBurst microarchitecture
+b) clock speed ranges from 1.4GHz to 1.7GHz
+c) has hyper-pipelined technology
+d) all of the mentioned
+d
+2. Which of the following is not a module of Pentium 4 architecture?
+a) front end module
+b) execution module
+c) control module
+d) none
+c
+1. Front end module
+2. Out of order execution engine
+3. Execution module
+4. Memory subsystem module.
+3. The front module of Pentium 4 consists of
+a) trace cache
+b) microcode ROM
+c) front end branch predictor
+d) all of the mentioned
+d
+1. IA 32 Instruction decoder
+2. Trace cache
+3. Microcode ROM
+4. Front end branch predictor.
+4. The unit that decodes the instructions concurrently and translate them into micro-operations is
+a) trace cache
+b) instruction decoder
+c) execution module
+d) front end branch predictor
+b
+5. In complex instructions, when the instruction needs to be translated into more than 4 micro-operations, then the decoder transfers the task to
+a) trace cache
+b) front end branch predictor
+c) microcode ROM
+d) none
+c
+6. The unit that does not store the instructions, but the decoded stream of instructions is
+a) trace cache
+b) front end branch predictor
+c) microcode ROM
+d) none
+a
+7. Trace cache can store the micro-ops upto a range of
+a) 6 K decoded micro-ops
+b) 8 K decoded micro-ops
+c) 10 K decoded micro-ops
+d) 12 K decoded micro-ops
+d
+8. The unit that predicts the locations from where the next instruction bytes are fetched is
+a) trace cache
+b) front end branch predictor
+c) execution module
+d) instruction decoder
+b
+9. If complex instructions like interrupt handling, string manipulation appear, then the control from trace cache transfers to
+a) microcode ROM
+b) front end branch predictor
+c) execution module
+d) instruction decoder
+a
+10. After the micro-ops are issued by the microcode ROM, the control goes to
+a) trace cache
+b) front end branch predictor
+c) execution module
+d) instruction decoder
+a
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Pentium – Pro and Pentium-II -2» Next - Microprocessors Questions and Answers – Netburst Microarchitecture For Pentium4 -2,  Instruction Translation Lookaside Buffer (ITLB) and Branch Prediction 

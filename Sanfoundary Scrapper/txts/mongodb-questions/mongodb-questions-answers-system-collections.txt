@@ -1,0 +1,62 @@
+1. MongoDB stores additional instance-local metadata in the _______ database.
+a) Master
+b) Model
+c) Local
+d) All of the mentioned
+c
+2. Point out the correct statement.
+a) You can limit the number of incoming connections using the maxConnections run-time option
+b) mongos instances maintain a connection pool to each shard so that the mongos can reuse connections
+c) You can use the limit command at the system prompt to check system limits
+d) All of the mentioned
+b
+3. In replica sets, each ________ maintains a connection to all other members of the set.
+a) serverInfo
+b) mongod
+c) mongos
+d) none of the mentioned
+b
+4. The ___________ collection stores the user’s authentication credentials as well as any roles assigned to the user.
+a) admin.system.auth
+b) admin.system.users
+c) admin.system.usersauth
+d) all of the mentioned
+b
+Join Sanfoundry@YouTube
+5. Point out the wrong statement.
+a) The “hard” ulimit refers to the maximum number of processes that a user can have active at any time
+b) The “soft” ulimit refers to the minimum number of processes that a user can have active at any time
+c) ulimit will modify both “hard” and “soft” values unless the -H or -S modifiers are specified when modifying limit values
+d) None of the mentioned
+b
+6. The <database>.system.indexes collection lists all the _________ in the database.
+a) serverinfo
+b) indexes
+c) profiling
+d) all of the mentioned
+b
+7. Which of the following The collection holds special JavaScript code for use in server side JavaScript?
+a) <database>.system.jserver
+b) <database>.system.jscript
+c) <database>.system.js
+d) none of the mentioned
+c
+8. Which of the following can store JavaScript functions for reuse?
+a) store.js
+b) system.js
+c) system.store.js
+d) save.js
+b
+9. ______ is used to load all the scripts saved in the system.js collection for the current database.
+a) db.loadServerScripts()
+b) db.loadScripts()
+c) db.loadServerScriptsjs()
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Optimization Strategies – 3» Next - MongoDB Questions and Answers – Database Profiler 

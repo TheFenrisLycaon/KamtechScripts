@@ -1,0 +1,85 @@
+1. Round robin scheduling falls under the category of ____________
+a) Non-preemptive scheduling
+b) Preemptive scheduling
+c) All of the mentioned
+d) None of the mentioned
+b
+2. With round robin scheduling algorithm in a time shared system ____________
+a) using very large time slices converts it into First come First served scheduling algorithm
+b) using very small time slices converts it into First come First served scheduling algorithm
+c) using extremely small time slices increases performance
+d) using very small time slices converts it into Shortest Job First algorithm
+a
+3. The portion of the process scheduler in an operating system that dispatches processes is concerned with ____________
+a) assigning ready processes to CPU
+b) assigning ready processes to waiting queue
+c) assigning running processes to blocked queue
+d) all of the mentioned
+a
+4. Complex scheduling algorithms ____________
+a) are very appropriate for very large computers
+b) use minimal resources
+c) use many resources
+d) all of the mentioned
+a
+5. What is FIFO algorithm?
+a) first executes the job that came in last in the queue
+b) first executes the job that came in first in the queue
+c) first executes the job that needs minimal processor
+d) first executes the job that has maximum processor needs
+b
+6. The strategy of making processes that are logically runnable to be temporarily suspended is called ____________
+a) Non preemptive scheduling
+b) Preemptive scheduling
+c) Shortest job first
+d) First come First served
+b
+7. What is Scheduling?
+a) allowing a job to use the processor
+b) making proper use of processor
+c) all of the mentioned
+d) none of the mentioned
+a
+8. There are 10 different processes running on a workstation. Idle processes are waiting for an input event in the input queue. Busy processes are scheduled with the Round-Robin time sharing method. Which out of the following quantum times is the best value for small response times, if the processes have a short runtime, e.g. less than 10ms?
+a) tQ = 15ms
+b) tQ = 40ms
+c) tQ = 45ms
+d) tQ = 50ms
+a
+9. Orders are processed in the sequence they arrive if _______ rule sequences the jobs.
+a) earliest due date
+b) slack time remaining
+c) first come, first served
+d) critical ratio
+c
+10. Which of the following algorithms tends to minimize the process flow time?
+a) First come First served
+b) Shortest Job First
+c) Earliest Deadline First
+d) Longest Job First
+b
+11. Under multiprogramming, turnaround time for short jobs is usually ________ and that for long jobs is slightly ___________
+a) Lengthened; Shortened
+b) Shortened; Lengthened
+c) Shortened; Shortened
+d) Shortened; Unchanged
+b
+12. Which of the following statements are true? (GATE 2010)
+
+I. Shortest remaining time first scheduling may cause starvation
+II. Preemptive scheduling may cause starvation
+III. Round robin is better than FCFS in terms of response time
+a) I only
+b) I and III only
+c) II and III only
+d) I, II and III
+d
+II) Preemption may cause starvation. If priority based scheduling with preemption is used, then a low priority process may never get CPU.
+III) Round Robin Scheduling improves response time as all processes get CPU after a specified time.
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions and Answers – CPU Scheduling Benefits» Next - Operating System Questions and Answers – CPU Scheduling Algorithms-2 

@@ -1,0 +1,82 @@
+1. Which of these class contains all the methods present in Math class?
+a) SystemMath
+b) StrictMath
+c) Compiler
+d) ClassLoader
+b
+2. Which of these method return a pseudorandom number?
+a) rand()
+b) random()
+c) randomNumber()
+d) randGenerator()
+b
+3. Which of these method returns the remainder of dividend / divisor?
+a) remainder()
+b) getRemainder()
+c) CSIremainder()
+d) IEEEremainder()
+d
+4. Which of these method converts radians to degrees?
+a) toRadian()
+b) toDegree()
+c) convertRadian()
+d) converDegree()
+b
+5. toRadian() and toDegree() methods were added by which version of Java?
+a) Java 1.0
+b) Java 1.5
+c) Java 2.0
+d) Java 3.0
+c
+6. Which of these method returns a smallest whole number greater than or equal to variable X?
+a) double ciel(double X)
+b) double floor(double X)
+c) double max(double X)
+d) double min(double X)
+a
+7. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])         {            double x = 3.14;              int y = (int) Math.toDegrees(x);            System.out.print(y);        }    }
+a) 0
+b) 179
+c) 180
+d) 360
+b
+Output:
+$ javac Output.java
+$ java Output
+179
+8. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])         {            double x = 3.14;              int y = (int) Math.toRadians(x);            System.out.print(y);        }    }
+a) 0
+b) 3
+c) 3.0
+d) 3.1
+a
+Output:
+$ javac Output.java
+$ java Output
+0
+9. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])         {            double x = 102;            double y = 5;            double z = Math.IEEEremainder(x, y);            System.out.print(z);}         }    }
+a) 0
+b) 1
+c) 2
+d) 3
+c
+Output:
+$ javac Output.java
+$ java Output
+2
+10. Will this Java program generate same output is executed again?
+    class Output     {        public static void main(String args[])         {            int y = double z = Math.random();            System.out.print(y);        }    }
+a) Yes
+b) No
+c) Compiler Dependent
+d) Operating System Dependent
+b
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.lang – Boolean Wrapper Advance» Next - Java Questions & Answers – Java.lang – Runtime & ClassLoader Classes 

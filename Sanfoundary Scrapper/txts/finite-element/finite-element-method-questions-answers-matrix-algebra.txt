@@ -1,0 +1,78 @@
+1. What is a matrix?
+a) Group of elements
+b) Array of elements
+c) Group of columns and rows
+d) Array of numbers
+b
+2. Which of the following is a row vector?
+a) \(\left[ \begin{array}{c c r } 0 & 1 & 2 \end{array}\right]\) 
+b) \(\left[ \begin{array}{c c r r}  0\\   1  \\  2\end{array}\right]\) 
+c) \(\left[ \begin{array}{c  r}  0 & 1\\ 1 &  2\end{array}\right]\) 
+d) \(\left[ \begin{array}{c c r r} 0 & 3 & 6 \\  1 & 8 & 4  \\  0 & 5 & 7\end{array}\right]\) 
+a
+ For example
+d=[ 1 2 3 4] is a row vector.
+c = \(\left[ \begin{array}{c c r r}  0\\   1  \\  2\end{array}\right]\) is a column vector.
+3. (A B C)T = _______
+a) (C B A)T
+b) BT CT AT
+c) CT BT AT
+d) AT BT CT
+c
+(A B C)T = CT BT AT.
+4. The derivative of Ax with respect to variable xp is given by __________
+a) \(\frac{d}{dx}\)(A x)=xp
+b) \(\frac{d}{dx}\)(xp)=A x
+c) ∫ A x=xp
+d) ∫xp=Ax
+a
+\(\frac{d}{dx}\) (A x)=xp.
+5. A symmetric matrix is called ____________, if all its Eigen values are strictly positive i.e., greater than zero.
+a) Negative definite
+b) Positive definite
+c) Co- definite
+d) Alternative definite
+b
+6. A A-1=A-1A is a condition for ________
+a) Singular matrix
+b) Nonsingular matrix
+c) Matrix inversion
+d) Ad joint of matrix
+c
+		A A-1 =A-1A= I
+7. A positive definite symmetric matrix A can be decomposed into form A=LLT this decomposition is called ________
+a) Cholesky
+b) Rayleighs
+c) Galerkins
+d) Potential energy
+a
+8. Det(A-λI)=0 is a ________
+a) Characteristic equation
+b) Matrix equation
+c) Inversion of matrix
+d) Cholesky’s equation
+a
+9. \(\left[ \begin{array}{c c c r r r r}
+2 & -1 & 6 & 3 \\ 0 & 14 & 8 & 0  \\  0 & 0 & 5 & 1 \\ 0 & 0 & 0 & 3\end{array}\right]\)  is a _____
+a) Principle diagonal matrix
+b) Upper triangular matrix
+c) Lower triangular matrix
+d) Singular matrix
+b
+10. A=\(\left[ \begin{array}{c c r r}
+3 & 2 & 1 \\  4 & 5 & -8  \\  10 & 0 & 5\end{array}\right]\)Then det (A) =
+a) 120
+b) -80
+c) -175
+d)  0
+c
+a_{11} & a_{12} & a_{13} \\  a_{21} & a_{22}  &  a_{23} \\a_{31} & a_{32} & a_{33} \end{bmatrix}\)
+= a11(a22a33-a32a23)-a12(a21a33-a31a23)+a13(a21a32-a31a22)
+		= 3*((5*5)-(0*-8))-2*((10*-8)-(4*5))+1*((4*0)-(10*5))
+		=-175.
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+» Next - Finite Element Method Questions and Answers – Gaussian Elimination 

@@ -1,0 +1,81 @@
+This section on C++ aptitude questions and answers focuses on “Pointers”. One shall practice these aptitude questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams, aptitude tests and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ aptitude questions on “Pointers” along with answers, explanations and/or solutions:
+1. What does the following statement mean?
+int (*fp)(char*)
+a) pointer to a pointer
+b) pointer to an array of chars
+c) pointer to function taking a char* argument and returns an int
+d) function taking a char* argument and returning a pointer to int
+c
+2. The operator used for dereferencing or indirection is ____
+a) *
+b) &
+c) ->
+d) –>>
+a
+3. Choose the right option.
+string* x, y;
+a) x is a pointer to a string, y is a string
+b) y is a pointer to a string, x is a string
+c) both x and y are pointers to string types
+d) y is a pointer to a string
+a
+4. Which one of the following is not a possible state for a pointer.
+a) hold the address of the specific object
+b) point one past the end of an object
+c) zero
+d) point to a type
+d
+5. Which of the following is illegal?
+a) int *ip;
+b) string s, *sp = 0;
+c) int i; double* dp = &i;
+d) int *pi = 0;
+c
+6. What will happen in the following C++ code snippet?
+   int a = 100, b = 200;   int *p = &a, *q = &b;   p = q;
+a) b is assigned to a
+b) p now points to b
+c) a is assigned to b
+d) q now points to a
+b
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int a = 5, b = 10, c = 15;        int *arr[ ] = {&a, &b, &c};        cout << arr[1];        return 0;    }
+a) 5
+b) 10
+c) 15
+d) it will return some random number
+d
+8. The correct statement for a function that takes pointer to a float, a pointer to a pointer to a char and returns a pointer to a pointer to a integer is ____________
+a) int **fun(float**, char**)
+b) int *fun(float*, char*)
+c) int **fun(float*, char**)
+d) int ***fun(*float, **char)
+c
+9. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        char arr[20];        int i;        for(i = 0; i < 10; i++)            *(arr + i) = 65 + i;        *(arr + i) = '\0';        cout << arr;        return(0);    }
+a) ABCDEFGHIJ
+b) AAAAAAAAAA
+c) JJJJJJJJ
+d) AAAAAAJJJJ
+a
+$ g++ point1.cpp
+$ a.out
+ABCDEFGHIJ
+10. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        char *ptr;        char Str[] = "abcdefg";        ptr = Str;        ptr += 5;        cout << ptr;        return 0;    }
+a) fg
+b) cdef
+c) defg
+d) abcd
+a
+Output:
+$ g++ point.cpp
+$ a.out
+fg
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Declaration» Next - C++ Programming Questions and Answers – Arrays 

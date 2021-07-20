@@ -1,0 +1,69 @@
+1.  In the __________ normal form, a composite attribute is converted to individual attributes.
+a) First
+b) Second
+c) Third
+d) Fourth
+a
+2. A table on the many side of a one to many or many to many relationship must:
+a) Be in Second Normal Form (2NF)
+b) Be in Third Normal Form (3NF)
+c) Have a single attribute key
+d) Have a composite key
+d
+3. Tables in second normal form (2NF):
+a) Eliminate all hidden dependencies
+b) Eliminate the possibility of a insertion anomalies
+c) Have a composite key
+d) Have all non key fields depend on the whole primary key
+a
+4. Which-one ofthe following statements about normal forms is FALSE?
+a) BCNF is stricter than 3 NF
+b) Lossless, dependency -preserving decomposition into 3 NF is always possible
+c) Loss less, dependency – preserving decomposition into BCNF is always possible
+d) Any relation with two attributes is BCNF
+c
+5. Functional Dependencies are the types of constraints that are based on______
+a) Key
+b) Key revisited
+c) Superset key
+d) None of the mentioned
+a
+Join Sanfoundry@YouTube
+6. Which is a bottom-up approach to database design that design by examining the relationship between attributes:
+a) Functional dependency
+b) Database modeling
+c) Normalization
+d) Decomposition
+c
+7. Which forms simplifies and ensures that there are minimal data aggregates and repetitive groups:
+a) 1NF
+b) 2NF
+c) 3NF
+d) All of the mentioned
+c
+8. Which forms has a relation that possesses data about an individual entity:
+a) 2NF
+b) 3NF
+c) 4NF
+d) 5NF
+c
+9.  Which forms are based on the concept of functional dependency:
+a) 1NF
+b) 2NF
+c) 3NF
+d) 4NF
+c
+10. 
+Empdt1(empcode, name, street, city, state, pincode).
+For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, empdt1 is a relation in
+a) 1 NF only
+b) 2 NF and hence also in 1 NF
+c) 3NF and hence also in 2NF and 1NF
+d) BCNF and hence also in 3NF, 2NF and 1NF
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Atomic Domains» Next - Database Questions and Answers – Functional-Dependency Theory 

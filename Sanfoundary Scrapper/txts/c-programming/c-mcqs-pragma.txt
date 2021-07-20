@@ -1,0 +1,85 @@
+1. The preprocessor directive used to give additional information to the compiler, beyond which is conveyed in the language _____________
+a) #include
+b) #define
+c) #pragma
+d) #elif
+c
+2. What will be the output of the following C code, if it is run on a 32 bit platform?
+#include<stdio.h>
+#pragma(1)
+struct test
+{
+    int i;
+    char j;
+};
+main()
+{
+    printf("%d",sizeof(struct test));
+}
+a) Error
+b) 1
+c) 4
+d) 8
+d
+3. In the directive, #pragma pack(n), which of the following is not a valid value of n?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+4. Which of the following attributes is used to specify that the minimum required memory to be used to represent the types?
+a) packed
+b) aligned
+c) unused
+d) deprecated
+a
+5. In the directive #pragma pack(n), if the value of ‘n’ is given to be 5, then what happens?
+a) Error
+b) Warning but no error
+c) Executes the pragma statement
+d) Ignores the pragma statement and executes the program
+d
+6. The correct syntax of the attribute packed is _________
+a) __attribute__((packed));
+b) _attribute(packed);
+c) _attribute_((packed));
+d) __attribute__(packed);
+a
+7. The pragma ___________________ is used to remove an identifier completely from a program.
+a) GNU piston
+b) GCC poison
+c) GNU poison
+d) GCC piston
+b
+8. The function of __attribute__((packed)); can also be performed using _________
+a) #pragma pack(1);
+b) #pragma pack(2);
+c) #pragma pack(4);
+d) #pragma pack(8);
+a
+9. #pragma GCC poison should be followed by a list of identifiers that are _________
+a) even in number
+b) odd in number
+c) valid
+d) invalid
+d
+10. What will be the output of the following C code?
+#include<stdio.h>
+#pragma GCC poison printf
+main()
+{
+    printf("sanfoundry");
+    return 0;
+}
+a) error is thrown
+b) sanfoundry is printed
+c) warning but no error
+d) yrdnoufnas is printed
+a
+When the above program is compiled, it results in an error since #pragma was used to specify that the identifier printf should not be used in the program.
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – DMA Functions, Memory Leak, Dangling Pointers – 2» Next - C Questions and Answers – Stringizers 

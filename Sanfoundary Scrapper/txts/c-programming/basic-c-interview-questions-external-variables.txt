@@ -1,0 +1,63 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Cognizant and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Cognizant interviews on C Programming language. 
+Here is a listing of basic C interview questions on “External Variable” along with answers, explanations and/or solutions:
+1.  What will be the output of the following C code?
+    #include <stdio.h>    double i;    int main()    {       printf("%g\n",i);       return 0;    }
+a) 0
+b) 0.000000
+c) Garbage value
+d) Depends on the compiler
+a
+2. Which part of the program address space is p stored in the following C code?
+    #include <stdio.h>    int *p = NULL;    int main()    {        int i = 0;        p = &i;        return 0;    }
+a) Code/text segment
+b) Data segment
+c) Bss segment
+d) Stack
+b
+3. Which part of the program address space is p stored in the following C code?
+    #include <stdio.h>    int *p;    int main()    {        int i = 0;        p = &i;        return 0;    }
+a) Code/text segment
+b) Data segment
+c) Bss segment
+d) Stack
+c
+4. Can variable i be accessed by functions in another source file?
+    #include <stdio.h>    int i;    int main()    {        printf("%d\n", i);    }
+a) Yes
+b) No
+c) Only if static keyword is used
+d) Depends on the type of the variable
+a
+5. Property of the external variable to be accessed by any source file is called by the C90 standard as __________
+a) external linkage
+b) external scope
+c) global scope
+d) global linkage
+a
+6. What will be the output of the following C code?
+    #include <stdio.h>    int *i;    int main()    {        if (i == NULL)            printf("true\n");        return 0;    }
+a) true
+b) true only if NULL value is 0
+c) Compile time error
+d) Nothing
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    int *i;    int main()    {        if (i == 0)            printf("true\n");        return 0;    }
+a) true
+b) true only if NULL value is 0
+c) Compile time error
+d) Nothing
+b
+8. What will be the output of the following C code?
+    #include <stdio.h>    static int x = 5;    void main()    {        x = 9;        {            int x = 4;        }        printf("%d", x);    }
+a) 9
+b) 4
+c) 5
+d) 0
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – External Variables – 1» Next - C Programming Questions and Answers – Scope of a Variable – 1 

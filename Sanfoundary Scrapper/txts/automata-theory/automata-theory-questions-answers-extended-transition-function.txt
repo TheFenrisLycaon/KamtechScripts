@@ -1,0 +1,72 @@
+1. The number of tuples in an extended Non Deterministic Finite Automaton:
+a) 5
+b) 6
+c) 7
+d) 4
+a
+2. Choose the correct option for the given statement:
+Statement: The DFA shown represents all strings which has 1 at second last position.
+a) Correct
+b) Incorrect, Incomplete DFA
+c) Wrong proposition
+d) May be correct
+c
+3. What is wrong in the given definition?
+Def: ({q0, q1, q2}, {0,1}, δ, q3, {q3})
+a) The definition does not satisfy 5 Tuple definition of NFA
+b) There are no transition definition
+c) Initial and Final states do not belong to the Graph
+d) Initial and final states can’t be same
+c
+4. If δ is the transition function for a given NFA, then we define the δ’ for the DFA accepting the same language would be:
+Note: S is a subset of Q and a is a symbol.
+a) δ’ (S, a) =Upϵs δ (p, a)
+b) δ’ (S, a) =Up≠s δ (p, a)
+c) δ’ (S, a) =Upϵs δ(p)
+d) δ’ (S) =Up≠s δ(p)
+a
+5. What is the relation between DFA and NFA on the basis of computational power?
+a) DFA > NFA
+b) NFA > DFA
+c) Equal
+d) Can’t be said
+c
+6. If a string S is accepted by a finite state automaton, S=s1s2s3……sn where siϵ∑ and there exists a sequence of states r0, r1, r2…… rn such that δ(r(i), si+1) =ri+1 for each 0, 1, …n-1, then r(n) is:
+a) initial state
+b) transition symbol
+c) accepting state
+d) intermediate state
+c
+7. According to the given table, compute the number of transitions with 1 as its symbol but not 0:
+a) 4
+b) 3
+c) 2
+d) 1
+d
+8. From the given table, δ*(q0, 011) =?
+a) {q0}
+b) {q1} U {q0, q1, q2}
+c) {q2, q1}
+d) {q3, q1, q2, q0}
+b
+9. Number of times the state q3 or q2 is being a part of extended 6 transition state is
+a) 6
+b) 5
+c) 4
+d) 7
+a
+10. Predict the missing procedure:
+1.Δ(Q0, ε) ={Q0},
+2.Δ(Q0, 01) = {Q0, Q1}
+3.δ(Q0, 010) =?
+a) {Q0, Q1, Q2}
+b) {Q0, Q1}
+c) {Q0, Q2}
+d) {Q1, Q2}
+c
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Non Deterministic Finite Automata – Introduction» Next - Automata Theory Questions and Answers –  The Language of NFA 

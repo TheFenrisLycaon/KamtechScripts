@@ -1,0 +1,67 @@
+1. Which of the following interface is implemented by Sqoop for recording?
+a) SqoopWrite
+b) SqoopRecord
+c) SqoopRead
+d) None of the mentioned
+b
+2. Point out the correct statement.
+a) Interface FieldMapping is used for mapping of field
+b) Interface FieldMappable is used for mapping of field
+c) Sqoop is nothing but NoSQL to Hadoop
+d) Sqoop internally uses ODBC interface so it should work with any JDBC compatible database
+b
+3. Sqoop is an open source tool written at ________
+a) Cloudera
+b) IBM
+c) Microsoft
+d) All of the mentioned
+c
+4. Sqoop uses _________ to fetch data from RDBMS and stores that on HDFS.
+a) Hive
+b) Map reduce
+c) Imphala
+d) BigTOP
+b
+5. Point out the wrong statement.
+a) Sqoop is used to import complete database
+b) Sqoop is used to import selected columns from a particular table
+c) Sqoop is used to import selected tables
+d) All of the mentioned
+d
+6. _________ allows users to specify the target location inside of Hadoop.
+a) Imphala
+b) Oozie
+c) Sqoop
+d) Hive
+c
+7. Microsoft uses a Sqoop-based connector to help transfer data from _________ databases to Hadoop.
+a) PostreSQL
+b) SQL Server
+c) Oracle
+d) MySQL
+b
+8. __________ provides a Couchbase Server-Hadoop connector by means of Sqoop.
+a) MemCache
+b) Couchbase
+c) Hbase
+d) All of the mentioned
+a
+9. Sqoop direct mode does not support imports of ______ columns.
+a) BLOB
+b) LONGVARBINARY
+c) CLOB
+d) All of the mentioned
+d
+10. Sqoop has been tested with Oracle ______ Express Edition.
+a) 11.2.0
+b) 10.2.0
+c) 12.2.0
+d) 10.3.0
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop for online test, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Introduction to Sqoop» Next - Hadoop Questions and Answers – Sqoop with Hadoop – 2 

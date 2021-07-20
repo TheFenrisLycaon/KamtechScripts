@@ -1,0 +1,66 @@
+1. _______________ contains implementations of the core interfaces that are used to adjust or extend jMock’s basic functionality.
+a) org.jmock
+b) org.jmock.api
+c) org.jmock.lib
+d) org.jmock.integration.junit3
+c
+2. ______________ integrates jMock with JUnit 3.
+a) org.jmock
+b) org.jmock.api
+c) org.jmock.lib
+d) org.jmock.integration.junit3
+d
+3. Which package contains interfaces that define jMock’s Domain Specific Embedded Language?
+a) org.jmock
+b) org.jmock.syntax
+c) org.jmock.lib
+d) org.jmock.integration.junit3
+b
+4. ________________ contains classes to help test concurrent code with jMock.
+a) org.jmock.concurrent
+b) org.jmock.syntax
+c) org.jmock.lib
+d) org.jmock.integration.junit3
+a
+5. ______________ is a class that “blitzes” an object by calling it many times, from multiple threads.
+a) Blitzer
+b) DeterministicExecutor
+c) DeterministicScheduler
+d) Synchroniser
+a
+6. __________ class is an Executor that executes commands on the thread that calls runPendingCommands or runUntilIdle.
+a) Blitzer
+b) DeterministicExecutor
+c) DeterministicScheduler
+d) Synchroniser
+b
+7. ____________ Exception is thrown to report that a DeterministicScheduler has been asked to perform a blocking wait, which is not supported.
+a) UnsupportedSynchronousOperationException
+b) ArrayIndexOutOfBounds
+c) StringIndexoutOfBounds
+d) Arithmetic
+a
+8. ______________ is a ScheduledExecutorService that executes commands on the thread that calls runNextPendingCommand, runUntilIdle or tick.
+a) Blitzer
+b) DeterministicExecutor
+c) DeterministicScheduler
+d) Synchroniser
+a
+9. ___________ is a ThreadingPolicy that makes the Mockery thread-safe and helps tests synchronize with background threads.
+a) Blitzer
+b) DeterministicExecutor
+c) DeterministicScheduler
+d) Synchroniser
+d
+10. ____________ Interface objects executes submitted Runnable tasks.
+a) Executor
+b) Execution
+c) Runner
+d) RunWith
+a
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Putting Ant to The Task» Next - JUnit Questions and Answers – Creating HTML Reports 

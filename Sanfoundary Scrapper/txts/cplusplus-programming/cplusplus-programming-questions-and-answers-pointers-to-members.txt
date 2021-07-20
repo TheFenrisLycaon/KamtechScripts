@@ -1,0 +1,125 @@
+This section on C++ language interview questions and answers focuses on “Pointers to Members”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ language interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ language interview questions on “Pointers to Members” along with answers, explanations and/or solutions:
+1. Which is referred by pointers to member?
+a) Static members of class objects
+b) Non-static members of class objects
+c) Referring to whole class
+d) Dynamic members of class objects
+b
+2. What should be used to point to a static class member?
+a) Smart pointer
+b) Dynamic pointer
+c) Normal pointer
+d) Static pointer
+c
+3. Which operator is used in pointer to member function?
+a) .*
+b) ->*
+c) Both .* & ->*
+d) $*
+c
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class X     {        public:        int a;		void f(int b) 		{			cout<< b << endl;		}    };    int main()     {        int X :: *ptiptr = &X :: a;        void (X :: * ptfptr) (int) = &X :: f;        X xobject;        xobject.*ptiptr = 10;        cout << xobject.*ptiptr << endl;        (xobject.*ptfptr) (20);    }
+a) 
+   10
+   20
+b) 
+   20
+   10
+c) 20
+d) 10
+a
+main function and then for value 20, We are passing the value to class and
+printing it.
+Output:
+$ g++ ptm.cpp
+$ a.out
+10
+20
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Testpm     {        public:        void m_func1()         {             cout << "func1\n";        }        int m_num;    };    void (Testpm :: *pmfn)() = &Testpm :: m_func1;    int Testpm :: *pmd = &Testpm :: m_num;    int main()     {        Testpm ATestpm;        Testpm *pTestpm = new Testpm;        (ATestpm.*pmfn)();        (pTestpm ->* pmfn)();        ATestpm.*pmd = 1;        pTestpm ->* pmd = 2;        cout << ATestpm.*pmd << endl        << pTestpm ->* pmd << endl;    }
+a) func1
+b) 
+   func1
+   func1
+c) 
+   1
+   2
+d) 
+   func1
+   func1
+   1
+   2
+d
+in the class, It is printing the func1 twice and then it is printing the given
+value.
+Output:
+$ g++ ptm1.cpp
+$ a.out
+func1
+func1
+1
+2
+  
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Car    {        public:        int speed;    };    int main()    {        int Car :: *pSpeed = &Car :: speed;        Car c1;        c1.speed = 1;                   cout << c1.speed << endl;        c1.*pSpeed = 2;             cout  << c1.speed << endl;        return 0;    }
+a) 1
+b) 2
+c) Both 1 & 2
+d) 4
+c
+Output:
+$ g++ ptm2.cpp
+$ a.out
+1
+2
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class bowl     {        public:        int apples;        int oranges;    };    int count_fruit(bowl * begin, bowl * end, int bowl :: *fruit)    {        int count = 0;        for (bowl * iterator = begin; iterator != end; ++ iterator)            count += iterator ->* fruit;        return count;    }    int main()    {        bowl bowls[2] = {{ 1, 2 },{ 3, 5 }};        cout << "I have " << count_fruit(bowls, bowls + 2, & bowl :: apples) << " apples\n";        cout << "I have " << count_fruit(bowls, bowls + 2, & bowl :: oranges) << " oranges\n";        return 0;    }
+a) 
+   I have 4 apples
+   I have 7 oranges
+b) 
+   I have 3 apples
+   I have 5 oranges
+c) 
+   I have 1 apples
+   I have 5 oranges
+d) 
+   I have 1 apples
+   I have 7 oranges
+a
+Output:
+$ g++ ptm3.cpp
+$ a.out
+I have 4 apples
+I have 7 oranges
+  
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Foo    {        public:        Foo(int i = 0){ _i = i;}        void f()        {            cout << "Executed"<<endl;        }        private:        int _i;    };    int main()    {        Foo *p = 0;        p -> f();    }
+a) Executed
+b) Error
+c) Runtime error
+d) 10
+a
+Output:
+$ g++ ptm4.cpp
+$ a.out
+Executed
+9. Which is the best design choice for using pointer to member function?
+a) Interface
+b) Class
+c) Structure
+d) Block
+a
+10. What is the operation for .*?
+a) It combines the first operand and the second operand
+b) It separates the first operand and the second operand
+c) It reduces the data size
+d) It combines the first operand and the second operand and terminates third operand
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Run Time Type Information» Next - C++ Programming Questions and Answers – Free Store 

@@ -1,0 +1,48 @@
+1. What is the use of Observable class?
+a) It is used to create global subclasses
+b) It is used to create classes that other part of the program can observe
+c) It is used to create classes that can be accessed by other parts of program
+d) It is used to create methods that can be accessed by other parts of program
+b
+2. Which of these methods is used to notify observer the change in observed object?
+a) update()
+b) notify()
+c) check()
+d) observed()
+a
+3. Which of these methods calls update() method?
+a) notify()
+b) observeObject()
+c) updateObserver()
+d) notifyObserver()
+d
+4. Which of these methods is called when observed object has changed?
+a) setChanged()
+b) update()
+c) notifyObserver()
+d) all of the mentioned
+d
+5. Which of these classes can schedule task for execution in future?
+a) Thread
+b) Timer
+c) System
+d) Observer
+b
+6. Which of these interfaces is implemented by TimerTask class?
+a) Runnable
+b) Thread
+c) Observer
+d) ThreadCount
+a
+7. Which of these package provides the ability to read and write in Zip format?
+a) java.lang
+b) java.io
+c) java.util.zip
+d) java.util.zar
+c
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Locale & Random Classes» Next - Java Questions & Answers – Packages 

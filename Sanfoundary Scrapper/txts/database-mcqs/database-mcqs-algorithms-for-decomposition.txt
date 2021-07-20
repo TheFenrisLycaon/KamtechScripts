@@ -1,0 +1,83 @@
+1. A relation is in ____________ if an attribute of a composite key is dependent on an attribute of other composite key.
+a) 2NF
+b) 3NF
+c) BCNF
+d) 1NF
+b
+2. What are the desirable properties of a decomposition
+a) Partition constraint
+b) Dependency preservation
+c) Redundancy
+d) Security
+b
+3. R (A,B,C,D) is a relation. Which of the following does not have a lossless join dependency preserving BCNF decomposition?
+a) A->B, B->CD
+b) A->B, B->C, C->D
+c) AB->C, C->AD
+d) A->BCD
+d
+4.
+Class (course id, title, dept name, credits, sec id, semester, YEAR, building, room NUMBER, capacity, TIME slot id)
+The SET OF functional dependencies that we require TO hold ON class are:
+course id->title, dept name, credits
+building, room number->capacity
+course id, sec id, semester, year->building, room NUMBER, TIME slot id
+A candidate KEY FOR this schema IS {course id, sec id, semester, YEAR}
+Consider the above conditions. Which of the following relation holds?
+a) Course id-> title, dept name, credits
+b) Title-> dept name, credits
+c) Dept name-> credits
+d) Cannot be determined
+a
+5. The algorithm that takes a set of dependencies and adds one schema at a time, instead of decomposing the initial schema repeatedly is
+a) BCNF algorithm
+b) 2NF algorithm
+c) 3NF synthesis algorithm
+d) 1NF algorithm
+c
+6. The functional dependency can be tested easily on the materialized view, using the constraints ____________.
+a) Primary key
+b) Null
+c) Unique
+d) Both Null and Unique
+d
+7. Which normal form is considered adequate for normal relational database design?
+a) 2NF
+b) 5NF
+c) 4NF
+d) 3NF
+d
+8. Relation R with an associated set of functional dependencies, F, is decomposed into BCNF. The redundancy (arising out of functional dependencies) in the resulting set of relations is
+a) Zero
+b) More than zero but less than that of an equivalent 3NF decomposition
+c) Proportional to the size of F+
+d) Indeterminate
+b
+9. A table has fields F1, F2, F3, F4, and F5, with the following functional dependencies:
+F1->F3
+F2->F4
+(F1,F2)->F5
+in terms of normalization, this table is in
+a) 1NF
+b) 2NF
+c) 3NF
+d) None of the mentioned
+a
+10. Let R(A,B,C,D,E,P,G) be a relational schema in which the following FDs are known to hold:
+AB->CD
+DE->P
+C->E
+P->C
+B->G
+The relation schema R is
+a) in BCNF
+b) in 3NF, but not in BCNF
+c) in 2NF, but not in 3NF
+d) not in 2NF
+d
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Functional-Dependency Theory» Next - Database Questions and Answers – Multivalued Dependencies 

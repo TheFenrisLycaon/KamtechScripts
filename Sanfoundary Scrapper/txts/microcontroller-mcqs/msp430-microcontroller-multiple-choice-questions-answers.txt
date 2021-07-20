@@ -1,0 +1,67 @@
+1. The watchdog counts up and resets the MSP430 when it reaches the limit?
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+a
+2. Which of the following is correct about WDTCTL?
+a) it is a 16 bit register
+b) it is guided against accidental writes that require a password
+c) a reset will occur if a value with an incorrect password is written to WDTCTL
+d) all of the mentioned
+d
+3. WDTNMI is found in the _________
+a) higher byte of WDTCTL
+b) lower byte of WDTCTL
+c) its first four bits
+d) its last four bits
+b
+4. Which of the following bits reads 0 under normal conditions but goes 1 when it wants to initiate some action?
+a) WDTNMI
+b) WDTHOLD
+c) WDTTMSEL
+d) WDTCNTCL
+d
+5. WDTISx bits control the _________
+a) period of the clock
+b) act as “Nonmaskable Interrupts”
+c) stop the watchdog timer
+d) start the watchdog timer
+a
+6. The process of setting the WDTCNTCL bit in WDTCTL is through
+a) petting
+b) feeding
+c) kicking
+d) all of the mentioned
+d
+7. What is the function of this instruction “WDTCTL = WDTPW | WDTCONFIG”, where **#define WDTCONFIG (WDTCNTCL|WDTSSEL)**
+a) it sets the watchdog timer
+b) it configures and clears the watchdog timer
+c) it stops the watchdog timer
+d) it configures and sets the watchdog timer
+b
+8. Is this instruction correct?
+	WDTCTL_bit.WDTCNTCL = 1;
+a) yes
+b) no
+c) cant be said
+d) depends on the conditions
+b
+9. Setting the WDTTMSEL bit of the WDTCTL register makes the watchdog timer act as
+a) interrupt
+b) communication device
+c) converter
+d) interval timer
+d
+10. WDTIFG flag gets cleared if
+a) if is interrupt had occurred
+b) if the interrupt is serviced
+c) if there can be no interrupt
+d) all of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice  all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MSP430 Microcontroller Questions and Answers – Timers» Next - MSP430 Microcontroller Questions and Answers – TIMER1 

@@ -1,0 +1,63 @@
+1. The output current equation for MC1408 digital to analog converter would be
+a) Io= -(Vref/R1)×[(D7/2)+(D6/4)+(D5/8)+(D4/16)+(D3/32)+(D2/64)+(D1/128)+(D0/256)].
+b) Io= (Vref/2R1)×[(D7/2)+(D6/4)+(D5/8)+(D4/16)+(D3/32)+(D2/64)+(D1/128)+(D0/256)].
+c) Io= (Vref/R1)×[(D7/2)+(D6/4)+(D5/8)+(D4/16)+(D3/32)+(D2/64)+(D1/128)+(D0/256)].
+d) Io= -(Vref/2R1)×[(D7/2)+(D6/4)+(D5/8)+(D4/16)+(D3/32)+(D2/64)+(D1/128)+(D0/256)].
+c
+Io= (Vref/R1)×[ (D7/2)+(D6/4)+(D5/8)+(D4/16)+(D3/32)+(D2/64)+(D1/128)+(D0/256)]. 
+2. Determine the maximum value of output current of the DAC in MC1408?
+a) 0.773×(Vref/R1)
+b) 0.448×(Vref/R1)
+c) 0.996×(Vref/R1)
+d) 0.224×(Vref/R1)
+c
+Therefore, Io= (Vref/R1)×(1/2+1/4+1/8+1/16+1/32+1/64+1/128/+1/256)=(0.996)×(Vref/R1). 
+3.  Determine the range or the output voltage?
+a) 0 – 2.51v
+b) 0 – 2.22v
+c) 0 – 3.74v
+d) 0 – 4.93v
+d
+∴ The minimum value of Vo =0v.
+When all the inputs are at logic 1, Io = (Vref/R1) × (1/2+1/4+1/8+1/16+1/32+1/64+1/128/+1/256) = (3/2kΩ) × (0.996) =1.494mA.
+Hence, the maximum value of output voltage is Vo= Io×RF = 1.494×3.3kΩ =4.93v. Thus, the output voltage range is from 0 to 4.93v. 
+4. Calculate the change in the output voltage if the photocell is exposed to light of 0.61lux from a dark condition. Specification: Assume that the op-amp is initially nulled, Minimum dark resistance = 100kΩ and resistance when illuminated (at 0.61lux) = 1.5kΩ.
+a) Vo –> 23v to 50v
+b) Vo –> 0v to 33.11v
+c) Vo –> -1.653v to 8.987v
+d) Vo –> -0.176v to -11.73v
+d
+When photocell is illuminated, its resistance RT =1.5kΩ. Therefore, the maximum output voltage is Vo max = -(Vdc×RF)/ RT = -(3.2v×5.5kΩ)/1.5kΩ =-11.73v.
+Thus, Vo varies from -0.176v to -11.73 as the photocell is exposed to light from a dark condition. 
+5. Which cell can be used instead of a photocell to obtain active transducer in photosensitive devices?
+a) Photovoltaic cell
+b) Photo diode
+c) Photo sensor
+d) All of the mentioned
+a
+6. If the input applied to DAC using current to voltage converter is 10110100, determine the reference voltage (Assume Io= 2mA and R1=1.2kΩ)
+a) 53.1v
+b) 3.41v
+c) 9.21v
+d) 67.34v
+b
+Vref =(Io×R1)/ (1/2+0+1/8+1/16+0+1/64+0+0)=(2mA×1.2kΩ)/0.703 .
+=> Vref = 3.41v. 
+7. The current to voltage converter photosensitive device can be used as
+a) Light intensity meter
+b) Light radiating meter
+c) Light deposition meter
+d) None of the mentioned
+a
+8. For a full wave rectification, in a low voltage ac voltmeter, the meter current can be expressed as
+a) Io = (1.9×Vin)/R1
+b) Io = (3.9×Vin)/R1
+c) Io = (0.9×Vin)/R1
+d) Io = (2.9×Vin)/R1
+c
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Voltage to Current Converter with Floating and Grounded Load – 2» Next - Linear Integrated Circuit Questions and Answers – Very High Input Impedance Circuit 

@@ -1,0 +1,90 @@
+1. Which command is used for printing the current working directory?
+a) HOME
+b) cd
+c) pwd
+d) dir
+c
+$ pwd
+/home/user06/Abdullah
+ 
+2.  Which command is used for changing the current directory?
+a) cd
+b) cp
+c) pwd
+d) rm
+a
+For example: our current directory is /bin/user06 and we want to change our directory to a directory named dir_one which is inside the user06 directory. To do so, type the following:
+$ cd dir_one
+$pwd
+/bin/user06/dir_one
+3. cd command cannot be used without any argument.
+a) True
+b) False
+b
+4. Which command is used for creating directories?
+a) rmdir
+b) mkdir
+c) cd
+d) cp
+b
+Join Sanfoundry@YouTube
+$ mkdir dir_01
+5. We can create multiple directories by single invocation of mkdir command.
+a) True
+b) False
+a
+$ mkdir dir_01  dir_02  dir_03
+6. What does the following command do?
+    $ mkdir dir   dir/dir_01/dir_02
+a) create dir, dir_01 and dir_02
+b) creates dir_02
+c) creates dir only
+d) throws an error
+a
+7. Sometimes we are unable to create a directory because ______________
+a) the directory may already exist in the current directory
+b) there may be an ordinary file by the same name in the current directory
+c) the permissions set for the current directory does not allow the creation
+d) the directory may exist, there may be an ordinary file, the permissions set for the current directory does not allow the creation
+d
+8. Which command is used for removing an empty directory?
+a) mkdir
+b) rmdir
+c) del
+d) remove
+b
+$ rmdir  dir_001
+ 
+9. Multiple directories can be removed using single rmdir command.
+a) True
+b) False
+a
+$  rmdir  dir   dir/dir_01/dir_02
+10. For creating or removing directories, the user must be positioned above the directory or in the parent directory of the directory, on which the operation is to perform.
+a) True
+b) False
+a
+11. If rmdir dir001 fails, what could be the reason(s)?
+a) dir001 doesn’t exist
+b) dir001 is not empty
+c) permissions of dir001 doesn’t allow to remove it
+d) dir001 doesn’t exist, dir001 is not empty and permissions of dir001 doesn’t allow to remove it
+d
+->	 directory doesn’t exists.
+->	 directory is not empty.
+->	 permissions of directory doesn’t allow to remove it. 
+12. pwd and echo $HOME will display the same output.
+a) True
+b) False
+b
+$ echo  $HOME
+/home/user08			    // displays home directory
+$ pwd
+/home/user08/documents/template	   // displays current directory
+ 
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Categories of Files» Next - Unix  Questions and Answers – Absolute and Relative Pathnames 

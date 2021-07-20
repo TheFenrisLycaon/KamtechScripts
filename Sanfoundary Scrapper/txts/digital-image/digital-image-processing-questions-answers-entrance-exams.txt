@@ -1,0 +1,80 @@
+1.	The expression [∂2 f(x,y)/∂x2 +∂2 f(x,y)/∂y2] is considered as _________ where f(x, y) is an input image.
+a)	Laplacian of f(x, y)
+b)	Gradient of f(x, y)
+c)	All of the mentioned
+d)	None of the mentioned
+a
+2.	If the Laplacian in frequency domain is:  where is the Fourier transform operator and F(u, v) is Fourier transformed function of f(x, y), then what is -(u2+ v2) is considered as?
+a)	Laplacian operation
+b)	Filtering operation
+c)	Shift operation
+d)	None of the mentioned
+b
+H(u, v)= -(u2+ v2).
+3.	The Laplacian in frequency domain is simply implemented by using filter __________
+a)	H(u, v)= -(u2– v2)
+b)	H(u, v)= -(1)
+c)	H(u, v)= -(u2+ v2)
+d)	none of the mentioned
+c
+4.	Assuming that the origin of F(u, v), Fourier transformed function of f(x, y) an input image, has been correlated by performing the operation f(x, y)(-1)x+y prior to taking the transform of the image. If F and f are of same size, then what does the given operation is/are supposed to do?
+a)	Resize the transform
+b)	Rotate the transform
+c)	Shifts the center transform
+d)	All of the mentioned
+c
+5.	Assuming that the origin of F(u, v), Fourier transformed function of f(x, y) an input image, has been correlated by performing the operation f(x, y)(-1)x+y prior to taking the transform of the image. If F and f are of same size M*N, where does the point (u, v) =(0,0) shifts?
+a)	(M -1, N -1)
+b)	(M/2, N/2)
+c)	(M+1, N+1)
+d)	(0, 0)
+b
+Join [email protected]
+6.	Assuming that the origin of F(u, v), Fourier transformed function of f(x, y) an input image, has been correlated by performing the operation f(x, y)(-1)x+y prior to taking the transform of the image. If F and f are of same size M*N, then which of the following is an expression for H(u, v), the filter used for implementing Laplacian in frequency domain?
+a)	H(u, v)= -(u2+ v2)
+b)	H(u, v)= -(u2– v2)
+c)	H(u, v)= -[(u – M/2)2+ (v – N/2)2].
+d)	H(u, v)= -[(u – M/2)2– (v – N/2)2].
+c
+7.	Computing the Fourier transform of the Laplacian result in spatial domain is equivalent to multiplying the F(u, v), Fourier transformed function of f(x, y) an input image, and H(u, v), the filter used for implementing Laplacian in frequency domain. This dual relationship is expressed as _________
+a)	Fourier transform pair notation
+b)	Laplacian
+c)	Gradient
+d)	None of the mentioned
+a
+8.	Computing the Fourier transform of the Laplacian result in spatial domain is equivalent to multiplying the F(u, v), Fourier transformed function of f(x, y) an input image of size M*N, and H(u, v), the filter used for implementing Laplacian in frequency domain. This dual relationship is expressed as Fourier transform pair notation given by_____________
+a)	∇2 f(x,y)↔[(u –M/2)2+ (v –N/2)2]F(u,v)
+b)	∇2 f(x,y)↔-[(u+M/2)2– (v+N/2)2]F(u,v)
+c)	∇2 f(x,y)↔-[(u –M/2)2+ (v –N/2)2]F(u,v)
+d)	∇2 f(x,y)↔[(u+M/2)2– (v+N/2)2]F(u,v)
+c
+9.	An enhanced image can be obtained as: g(x,y)=f(x,y)-∇2 f(x,y), where Laplacian is being subtracted from f(x, y) the input image. What does this conclude?
+a)	That the center spike would be negative
+b)	That the immediate neighbors of center spike would be positive.
+c)	All of the mentioned
+d)	None of the mentioned
+c
+10.	An enhanced image can be obtained as: g(x,y)=f(x,y)-∇2 f(x,y), where Laplacian is being subtracted from f(x, y) the input image of size M*Non which an operation f(x, y)(-1)x+yis applied.Unlike enhancing in spatial domain with one single mask, it is possible to perform the same in frequency domain using one filter. Which of the following is/are the required filter(s)?
+a)	H(u, v)= -[1 + u2+ v2].
+b)	H(u, v)= -[(u – M/2)2+ (v– N/2)2].
+c)	H(u, v)= [1 + (u – M/2)2+ (v – N/2)2].
+d)	All of the mentioned
+c
+11.	Why is scaling of Laplacian filtered images necessary?
+a)	Because it contain high positive values
+b)	Because it contain high negative value
+c)	Because it contain both positive and negative values
+d)	None of the mentioned
+c
+12.	Which of the following fact is true for the masks that includes diagonal neighbors than the masks that doesn’t?
+a)	Mask that excludes diagonal neighbors has more sharpness than the masks that doesn’t
+b)	Mask that includes diagonal neighbors has more sharpness than the masks that doesn’t
+c)	Both masks have same sharpness result
+d)	None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing for Entrance exams, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Use of First Order Derivative for Enhancement 

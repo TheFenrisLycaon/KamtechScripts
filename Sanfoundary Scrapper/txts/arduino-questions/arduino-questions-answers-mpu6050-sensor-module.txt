@@ -1,0 +1,66 @@
+1. What is the use of the MPU 6050 Sensor?
+a) Monitors Motion
+b) Monitors air pressure
+c) Monitors objects
+d) Monitors heartbeat
+a
+2. How many pins are present in the MPU6050 Sensor?
+a) 1
+b) 4
+c) 8
+d) 5
+b
+3. What is the use of the AD0 pin?
+a) I2C Slave Address LSB Pin
+b) SPI Master Address MSB Pin
+c) UART Slave Address LSB Pin
+d) UART Master Address LSB Pin
+a
+4. What will happen if we supply a voltage of 25V to the Vcc of the MPU 6050 Sensor?
+a) Damage is caused
+b) Module will shut down
+c) Module will not respond for the time the voltage is applied
+d) Module will function normally
+a
+5. Which of the formulae give us the angular velocity in the MPU 6050 along the X axis?
+a) Angular velocity along the X axis = (Gyroscope X axis raw data/131) °/s
+b) Angular velocity along the X axis = (Gyroscope X axis raw data/132) °/s
+c) Angular velocity along the X axis = (Gyroscope X axis raw data/12) °/s
+d) Angular velocity along the X axis = (Gyroscope X axis raw data/130) °/s
+a
+6. What is the optimum current that is required to operate the MPU 6050 Sensor?
+a) 20 mA
+b) 15 mA
+c) 200 A
+d) 1 A
+b
+7. What kind of sensor is the MPU 6050 Sensor?
+a) Passive
+b) Active
+c) Radio
+d) Pressure based
+b
+8. What is the datatype of the output given by the temperature module on the MPU 6050?
+a) Signed Double
+b) Unsigned Byte
+c) Signed Int
+d) Unsigned Float
+c
+9. What is the formula for calculating the temperature in degrees celsius from the raw data gathered by the temperature module of the MPU 6050?
+a) Temperature in degrees celsius = ((temperature sensor data)/340 + 36.53) °/c
+b) Temperature in degrees celsius = ((temperature sensor data)/340 + 36) °/c
+c) Temperature in degrees celsius = ((temperature sensor data) + 36.53) °/c
+d) Temperature in degrees celsius = ((temperature sensor data)/340 * 36.53) °/c
+a
+10. Which of the formulae give us the acceleration in the MPU 6050 along the X axis?
+a) Acceleration along the X axis = (Accelerometer X axis raw data/16384) g
+b) Acceleration along the X axis = (Accelerometer X axis raw data/1634) g
+c) Acceleration along the X axis = (Accelerometer X axis raw data/1384) g
+d) Acceleration along the X axis = (Accelerometer X axis raw data/1622) g
+a
+Sanfoundry Global Education & Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – GSR Sensor» Next - Arduino Questions and Answers – LDR Sensor 

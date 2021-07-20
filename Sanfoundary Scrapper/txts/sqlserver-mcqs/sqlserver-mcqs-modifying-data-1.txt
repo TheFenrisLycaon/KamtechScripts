@@ -1,0 +1,91 @@
+1. The query given below will give an error. Which one of the following has to be replaced to get the desired output?
+SELECT ID, name FROM 1_Order WHERE instructor=1;
+a) _Order
+b) 2Order
+c) 3Order
+d) Instructor
+a
+2. The following query can be replaced by which one of the following?
+SELECT name, course_id
+FROM instructor, teaches
+WHERE instructor_ID= teaches_ID;
+a)
+SELECT name,course_id 
+FROM teaches,instructor
+WHERE instructor_id=course_id;
+b)
+Join Sanfoundry@YouTube
+SELECT name, course_id 
+FROM instructor NATURAL JOIN teaches;
+c)
+SELECT name ,course_id 
+FROM instructor;
+d)
+SELECT course_id 
+FROM instructor JOIN teaches;
+b
+  
+3. Select * from employee where salary>10000 and dept_id=101;
+Which of the following fields are displayed as output?
+a) Salary, dept_id
+b) Employee
+c) Salary
+d) All the field of employee relation
+d
+4. Which of the following statements contains an error?
+a)
+SELECT * FROM emp 
+WHERE empid = 10003;
+b)
+SELECT empid 
+FROM emp 
+WHERE empid = 10006;
+c) Select empid from emp;
+d)
+SELECT empid 
+WHERE empid = 1009 AND lastname = ‘GELLER’;
+d
+  
+5. Insert into employee _________ (1002,Joey,2000);
+In the given query which of the keyword has to be inserted?
+a) Table
+b) Values
+c) Relation
+d) Field
+b
+6. To delete a database ___________ command is used.
+a) Delete database database_name
+b) Delete database_name
+c) drop database database_name
+d) drop database_name
+c
+7. The ________________ is essentially used to search for patterns in target string.
+a) Like Predicate
+b) Null Predicate
+c) In Predicate
+d) Out Predicate
+a
+8. Which is a duplicate copy of a file program that is stored on a different storage media than the original location?
+a) Concurrency
+b) Deadlock
+c) Backup
+d) Recovery
+c
+9. _______________ joins are SQL server default.
+a) Outer
+b) Inner
+c) Equi
+d) None of the Mentioned
+b
+10. To alter a database ___________ command is used.
+a) ALTER database database_name
+b) ALTER database_name
+c) ALTER database database_name
+d) ALTER database_name
+c
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Subqueries» Next - SQL Server Questions and Answers – Modifying Data – 2 

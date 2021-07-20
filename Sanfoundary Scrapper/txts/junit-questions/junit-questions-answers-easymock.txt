@@ -1,0 +1,66 @@
+1. The Cobertura command to run while reporting is ____________
+a) cobertura-report.bat
+b) cobertura-instrument.bat
+c) cobertura-check.bat
+d) cobertura-merge.bat
+a
+2. The ____________ parameter is used to specify the type of report.
+a) datafile
+b) basedir
+c) encoding
+d) format
+d
+3. ____________ parameter specifies the encoding used to read the source.
+a) datafile
+b) basedir
+c) encoding
+d) format
+c
+4. The source code directories are used to calculate the ____________ of each class.
+a) Data size
+b) Lines of code
+c) Cyclomatic code complexity
+d) Mutant score
+c
+5. The default value of the format parameter is ____________
+a) html
+b) jar
+c) java
+d) dat
+a
+6. The Cobertura command to run while checking coverage is ____________
+a) cobertura-report.bat
+b) cobertura-instrument.bat
+c) cobertura-check.bat
+d) cobertura-merge.bat
+c
+7. “cobertura-check.bat” is run ________ the JUnit tests to show which classes do not have adequate test coverage.
+a) Before
+b) After
+c) Along with
+d) Before and after
+b
+8. The ___________ parameter specifies the minimum acceptable branch coverage rate needed by each class during Cobetura coverage checking.
+a) datafile
+b) branch
+c) line
+d) regex
+b
+9. The ___________ parameter specifies the minimum acceptable line coverage rate needed by each class during Cobetura coverage checking.
+a) datafile
+b) branch
+c) line
+d) regex
+c
+10. The ___________ parameter specifies the minimum acceptable branch coverage rate needed by each package during Cobetura coverage checking.
+a) datafile
+b) packagebranch
+c) line
+d) regex
+b
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Using Mocks as Trojan Horses» Next - JUnit Questions and Answers – JMock 

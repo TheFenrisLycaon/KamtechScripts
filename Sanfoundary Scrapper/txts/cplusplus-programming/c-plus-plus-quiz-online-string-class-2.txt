@@ -1,0 +1,98 @@
+This section on online C++ quiz focuses on “String Class”. One shall practice these online quizzes to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ quiz comes with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of online C++ quiz on “String Class” along with answers, explanations and/or solutions:
+1. How many types of representation are in the string?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+2. What is the header file for the string class?
+a) #include<ios>
+b) #include<str>
+c) #include<string>
+d) #include<stio>
+c
+3. Which is used to return the number of characters in the string?
+a) length
+b) size
+c) both size & length
+d) name
+c
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <cstring>    using namespace std;    int main ()    {        char str1[10] = "Hello";        char str2[10] = "World";        char str3[10];        int  len ;        strcpy( str3, str1);        strcat( str1, str2);        len = strlen(str1);        cout << len << endl;        return 0;    }
+a) 5
+b) 55
+c) 11
+d) 10
+d
+it’s total length. So the length is 10.
+Output:
+$ g++ stri.cpp
+$ a.out
+10
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    using namespace std;    int main ()    {        string str ("microsoft");        string::reverse_iterator r;        for (r = str.rbegin() ; r < str.rend(); r++ )            cout << *r;        return 0;    }
+a) microsoft
+b) micro
+c) tfosorcim
+d) tfos
+c
+Output:
+$ g++ stri1.cpp
+$ a.out
+tfosorcim
+6. What will be the output of the following C++ code?
+   #include <iostream>   #include <string>   using namespace std;   int main ()   {       string str ("nobody does like this");       string key ("nobody");       size_t f;       f = str.rfind(key);       if (f != string::npos)           str.replace (f, key.length(), "everybody");       cout << str << endl;       return 0;   }
+a) nobody does like this
+b) nobody
+c) everybody
+d) everybody does like this
+d
+Output:
+$ g++ stri2.cpp
+$ a.out
+everybody does like this
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    using namespace std;    int main ()    {        string str ("steve jobs is legend");        string::iterator it;        str.erase (str.begin()+ 5, str.end()-7);        cout << str << endl;              return 0;    }
+a) jobs is
+b) steve legend
+c) steve
+d) steve jobs is
+b
+Output:
+$ g++ stri3.cpp
+$ a.out
+steve legend
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    using namespace std;    int main ()    {        string str ("Microsoft");        for (size_t i = 0; i < str.length();)        {            cout << str.at(i-1);        }        return 0;    }
+a) M
+b) Microsoft
+c) Micro
+d) runtime error
+d
+9. What will be the output of the following C++ code?
+   #include <iostream>   #include <string>   using namespace std;   int main ()   {       string str ("Ubuntu");       cout << str.capacity();       cout << str.max_size();       return 0;   }
+a) 61073741820
+b) 51073741820
+c) 6 and max size depends on compiler
+d) 
+15
+9223372036854775807
+d
+Output:
+$ g++ stri5.cpp
+$ a.out
+15
+9223372036854775807
+10. Which method do we use to append more than one character at a time?
+a) append
+b) operator+=
+c) data
+d) both append & operator+=
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Increment and Decrement» Next - C++ Programming Questions and Answers – String – 1 

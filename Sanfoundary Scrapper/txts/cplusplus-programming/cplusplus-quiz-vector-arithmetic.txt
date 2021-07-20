@@ -1,0 +1,66 @@
+This section on C++ quiz focuses on “Vector Arithmetic”. One shall practice these online quizzes to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ quiz comes with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ quiz on “Vector Arithmetic” along with answers, explanations and/or solutions:
+1. Which of the following library is used to do vector arithmetic?
+a) Boost
+b) Time
+c) OpenGL
+d) OpenDL
+a
+2. Which header file is used to manipulate the vector algebra in c++?
+a) math
+b) cmath
+c) vmath
+d) dmath
+c
+3. What type of reference should be used in vector arithmetic?
+a) dynamic
+b) const
+c) both dynamic & const
+d) static
+b
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class vec    {        public:        vec(float f1, float f2)         {            x = f1;            y = f2;        }        vec()        {        }        float x;        float y;    };    vec addvectors(vec v1, vec v2);    int main()     {        vec v1(3, 6);        vec v2(2, -2);        vec v3 = addvectors(v1, v2);        cout << v3.x << ", " << v3.y << endl;    }    vec addvectors(vec v1, vec v2)    {        vec result;        result.x = v1.x + v2.x;        result.y = v1.y + v2.y;        return result;    };
+a) 4, 5
+b) 4, 4
+c) 5, 4
+d) 5, 5
+c
+Output:
+$ g++ vecar.cpp
+$ a.out
+5, 4
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <vector>    using namespace std;    int main ()    {        vector<bool> mask;        mask.push_back(true);        mask.flip();        cout << boolalpha;        for (unsigned i = 0; i < mask.size(); i++)        cout << mask.at(i);        return 0;    }
+a) false
+b) true
+c) false & true
+d) alpha
+a
+Output:
+$ g++ vecar1.cpp
+$ a.out
+false
+6. What will be the type of output of vector cross product?
+a) Scalar
+b) Vector
+c) Both Scalar & Vector
+d) Linear
+b
+7. Which function is used to optimize the space in vector?
+a) at
+b) bool
+c) operator
+d) operand
+b
+8. What is the use of vector arithmetic in c++?
+a) Computer graphics
+b) Computer booting
+c) Both Computer graphics & Computer booting
+d) Computer Networks
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Standard Mathematical Functions» Next - C++ Programming Questions and Answers – Generalized Numeric Algorithms 

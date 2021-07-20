@@ -1,0 +1,73 @@
+1.  What is the nature of storage of anything in MATLAB?
+a) Stored as arrays
+b) Stored as a data structure
+c) Stored as a variable
+d) Depends on nature of the input
+a
+2. What is the nature of the following variable, in MATLAB?
+A=[1 , ‘Poland’, ‘Nail polish’,’Hit’,’Ler’]
+a) String
+b) String-integer
+c) Integer-string
+d) Cannot be determined
+a
+3. What is the starting index of an array in MATLAB?
+a) 1
+b) 0
+c) Depends on the class of array
+d) Unknown
+a
+4. All data types are converted to ____ before mathematical operations.
+a) Single
+b) Double precision
+c) Floating
+d) Unsigned
+b
+5. What is the return type of angles in MATLAB?
+a) Degrees
+b) Radians
+c) Radians & Degrees
+d) Depends on the user
+b
+6. To represent only two digits after the decimal point, the format we use is ______
+a) Long e
+b) Short
+c) Hex
+d) Bank
+d
+7. How do we change the nature of the display of the numerical answer?
+a) Use the format command
+b) Use the class command
+c) MATLAB provides intuitive display
+d) Not possible
+a
+8. Strings are stored in ____ variables.
+a) Character
+b) String
+c) Stack
+d) Array
+a
+9.  What will be the output of the following code?
+ilaplace(1/syms p^2)
+a) t
+b) s
+c) error
+d) ilaplace is not present in MATLAB
+c
+10.  What is the output of the following code?
+format bank
+sym(sqrt(3))
+a) 1.72
+b) 1.73
+c) 3(1/2)
+d) sqrt(3)
+c
+Output	>> format bank
+>> sqrt (3)
+Ans = 1.73.
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Suppressing Output» Next - MATLAB Questions and Answers – Functions and Expressions 

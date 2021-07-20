@@ -1,0 +1,53 @@
+1. From solid mechanics, what is the correct displacement(u) boundary condition for the following plane stress problem of the beam?
+a) uy(a,\(\frac{b}{3}\))=0
+b) uy(a,\(\frac{b}{2}\))=0
+c) ux(a,\(\frac{b}{3}\))≠0
+d) ux(a,\(\frac{b}{2}\))=≠0
+b
+2. From solid mechanics, which traction(t) boundary condition is not correct for the following beam of thickness h?
+a) ty(a,\(\frac{b}{2}\))=0
+b) ty(a,\(\frac{b}{3}\))=0
+c) tx(0, y)=0
+d) ty(0, y)=-hT
+a
+3. In Finite Element Analysis of the beam, which primary variable does not belong to the following mesh?
+a) U9=0
+b) U19=0
+c) U10=0
+d) U20=0
+c
+4. What is the total size of the assembled stiffness matrix of a plane elastic structure such that its finite element mesh has eight nodes and two degrees of freedom at each node?
+a) 16×16
+b) 8×8
+c) 2×2
+d) 4×4
+a
+5. What is the element at the index position 3×3 of the assembled stiffness matrix of the following mesh if  K1=\(\begin{bmatrix}2&1&5&0&0&0\\-1&7&5&0&0&0\\4&5&6&7&8&0\\0&0&3&3&0&0\\0&0&0&1&7&1\\-1&0&1&0&-1&11\end{bmatrix}\) and K2=\(\begin{bmatrix}3&4&5&1&0&0\\1&6&0&3&0&0\\2&0&2&1&0&1\\3&0&-1&9&0&0\\0&7&0&1&7&1\\-1&0&0&0&-1&5\end{bmatrix}\)?
+ a) 9
+b) 11
+c) 13
+d) 4
+a
+=9.
+6. In the Finite Element Method, if two different values of the same degree of freedom are specified at a point, then such point is called as a singular point.
+a) True
+b) False
+a
+7. For time-dependent problems in FEA, which variables must be specified for each component of the displacement field problems?
+a) The initial displacement and velocity
+b) The initial displacement only
+c) The final velocity
+d) The initial displacement and final velocity
+a
+8. What is the magnitude of the force at node 22 if the moment M is replaced by an equivalent distributed force at x=acm?
+a) \(\frac{2M}{b}\) 
+b) Always zero
+c) \(\frac{M}{b}\) 
+d) \(\frac{-M}{b}\) 
+b
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all questions papers on Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Plane Elasticity – Evaluation of Integrals» Next - Finite Element Method Questions and Answers – Governing Equations 

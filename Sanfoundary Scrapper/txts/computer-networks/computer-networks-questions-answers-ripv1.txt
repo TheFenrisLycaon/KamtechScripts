@@ -1,0 +1,66 @@
+1. Which protocol should you select if the network diameter is more than 17 hops?
+a) RIPv1
+b) RIPv2
+c) EIGRP
+d) Both RIPv1 and RIPv2
+a
+2. How often does a RIPv1 router broadcast its routing table by default?
+a) Every 30 seconds
+b) Every 60 seconds
+c) Every 90 seconds
+d) RIPv1 does not broadcast periodically
+a
+3. Which command displays RIP routing updates?
+a) Show IP route
+b) Debug IP rip
+c) Show protocols
+d) Debug IP route
+b
+4. Two connected routers are configured with RIP routing. What will be the result when a router receives a routing update that contains a higher-cost path to a network already in its routing table?
+a) The updated information will be added to the existing routing table Debug IP rip
+b) The update will be ignored and no further action will occur Debug IP route
+c) The updated information will replace the existing routing table entry
+d) The existing routing table entry will be deleted from the routing table and all routers will exchange routing updates to reach convergence
+b
+5. You type debug IP rip on your router console and see that 172.16.10.0 is being advertised to you with a metric of 16. What does this mean?
+a) The route is 16 hops away Debug IP rip
+b) The route has a delay of 16 microseconds Debug IP route
+c) The route is inaccessible
+d) The route is queued at 16 messages a second
+c
+6. Default administrative distance of a static route is ________
+a) 0
+b) 90
+c) 100
+d) 1
+d
+7. Which protocol gives a full route table update every 30 seconds?
+a) IEGRP
+b) RIP
+c) ICMP
+d) IP
+b
+8. _________ is the default administrative distance of RIP.
+a) 0
+b) 90
+c) 120
+d) 130
+c
+9. Which statement is true regarding classless routing protocol?
+a) The use of discontinuous networks is not allowed
+b) Use of variable length subnet masks is permitted
+c) RIPv1 is a classless routing protocol
+d) IGRP supports classes routing within the same autonomous system
+b
+10. Where should we use default routing?
+a) On stub networks- which have only one exit path out of the network
+b) Which have more than one exit path out of the network
+c) Minimum five exit paths out of the network
+d) Maximum five exit paths out of the network
+a
+Sanfoundry Global Education & Learning Series – Computer Networks.
+To practice all areas of Computer Networks, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Networks Questions & Answers – IP Routing» Next - Computer Networks Questions & Answers – RIP v2 

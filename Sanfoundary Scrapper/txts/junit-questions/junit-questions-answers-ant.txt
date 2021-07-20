@@ -1,0 +1,64 @@
+1. Mocks are Trojan horses because they replace real ___________ from the inside, without the calling classes being aware of it.
+a) Methods
+b) Objects
+c) Variables
+d) Classes
+b
+2. When we’re talking about mock objects, a/an _________ is a feature built into the mock that verifies whether the external class calling this mock has the correct behavior.
+a) Expectation
+b) Explanation
+c) Behavior
+d) Amorous
+a
+3. EasyMock instantiates an object based on an interface or class.
+a) True
+b) False
+a
+4. EasyMock relies heavily on the __________import feature of Java.
+a) Dynamic
+b) Static
+c) Class
+d) Object
+b
+5. To use the createMock method of EasyMock we need to import ___________
+a) org.easymock.EasyMock.createMock
+b) org.EasyMock.createMock
+c) org.easymock.createMock
+d) org.createMock
+a
+6. __________ method creates a mock object that implements the given interface, order checking is enabled by default.
+a) createNiceControl
+b) createMockBuilder
+c) createNiceMock
+d) createStrictMock
+d
+7. ___________ is used for the creation of a mock object, with the specification of it being of the requested type, which has implementations of the given interface or extends the given class.
+a) createMock(Class<T> toMock)
+b) createMock(MockType type, Class<T> toMock)
+c) createMock(String name, Class<T>toMock)
+d) createMock(String name, MockType type, Class<T>toMock)
+b
+8. __________________ creates a mock object, of the requested type and name which are passed, which also has implementations of the given interface or extends the given class.
+a) createMock(Class <T> toMock)
+b) createMock(MockType type, Class<T> toMock)
+c) createMock(String name, Class<T> toMock)
+d) createMock(String name, MockType type, Class<T> toMock)
+d
+9. ______________ creates a mock object that implements the given interface with the specification is that order checking is disabled by default.
+a) createMock(Class<T> toMock)
+b) createMock(MockType type, Class<T>toMock)
+c) createMock(String name, Class<T> toMock)
+d) createMock(String name, MockType type, Class<T> toMock)
+c
+10. createMock(String name, Class<T> toMock) throws _________________ exception.
+a) IndexOutOfBounds
+b) IllegalArgumentException
+c) NullPointer
+d) Arithmetic
+b
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Comparing Stubs, Mock Objects and In-container Testing» Next - JUnit Questions and Answers – Ant Targets, Projects, Properties and Tasks 

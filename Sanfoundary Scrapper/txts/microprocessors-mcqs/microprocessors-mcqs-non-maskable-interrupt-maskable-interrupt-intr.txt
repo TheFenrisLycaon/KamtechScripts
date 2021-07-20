@@ -1,0 +1,67 @@
+1. The interrupt for which the processor has the highest priority among all the external interrupts is
+a) keyboard interrupt
+b) TRAP
+c) NMI
+d) INT
+c
+2. The interrupt for which the processor has highest priority among all the internal interrupts is
+a) keyboard interrupt
+b) TRAP
+c) NMI
+d) INT
+b
+3. In case of string instructions, the NMI interrupt will be served only after
+a) initialisation of string
+b) execution of some part of the string
+c) complete string is manipulated
+d) the occurrence of the interrupt
+c
+4. The NMI pin should remain high for atleast
+a) 4 clock cycles
+b) 3 clock cycles
+c) 1 clock cycle
+d) 2 clock cycles
+d
+5. The INTR signal can be masked by resetting the
+a) TRAP flag
+b) INTERRUPT flag
+c) MASK flag
+d) DIRECTION flag
+b
+6. For the INTR signal, to be responded to in the next instruction cycle, it must go ________ in the last clock cycle of the current instruction
+a) high
+b) low
+c) high or low
+d) unchanged
+a
+7. The status of the pending interrupts is checked at
+a) the end of main program
+b) the end of all the interrupts executed
+c) the beginning of every interrupt
+d) the end of each instruction cycle
+d
+8. Once the processor responds to an INTR signal, the IF is automatically
+a) set
+b) reset
+c) high
+d) low
+b
+9. If the pin LOCK (active low based) is low at the trailing edge of the first ALE pulse, then till the start of the next machine cycle, the pin LOCK (active low) is
+a) low
+b) high
+c) low or high
+d) none of the mentioned
+a
+10. With the trailing edge of the LOCK (active low), the INTA (active low) goes low and remains in it for
+a) 0 clock cycle
+b) 1 clock cycle
+c) 2 clock cycles
+d) 3 clock cycles
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Interrupt Cycle of 8086/8088» Next - Microprocessors Questions and Answers – Interrupt Programming, Passing Parameters to Procedures, Handling Programs of Size More Than 64KB 

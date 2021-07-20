@@ -1,0 +1,58 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for HCL and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear HCL interviews on C Programming language. 
+Here is a listing of C interview questions on “Switch Statements” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    const int a = 1,  b = 2;    int main()    {        int x = 1;        switch (x)        {           case a:              printf("yes ");           case b:              printf("no\n");              break;        }    }
+a) yes no
+b) yes
+c) no
+d) Compile time error
+d
+2. What will be the output of the following C code?
+    #include <stdio.h>    #define max(a) a    int main()    {        int x = 1;        switch (x)        {           case max(2):              printf("yes\n");           case max(1):              printf("no\n");              break;        }    }
+a) yes no
+b) yes
+c) no
+d) Compile time error
+c
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        switch (printf("Do"))        {           case 1:              printf("First\n");              break;           case 2:              printf("Second\n");              break;           default:              printf("Default\n");              break;        }    }
+a) Do
+b) DoFirst
+c) DoSecond
+d) DoDefault
+c
+4. Comment on the output of the following C code.
+    #include <stdio.h>    int main()    {        int a = 1;        switch (a)        case 1:            printf("%d", a);        case 2:            printf("%d", a);        case 3:            printf("%d", a);        default:            printf("%d", a);    }
+a) No error, output is 1111
+b) No error, output is 1
+c) Compile time error, no break statements
+d) Compile time error, case label outside switch statement
+d
+5. Which datatype can accept the switch statement?
+a) int
+b) char
+c) long
+d) all of the mentioned
+d
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int a = 1;        switch (a)        {           case a:              printf("Case A ");           default:              printf("Default");        }    }
+a) Output: Case A
+b) Output: Default
+c) Output: Case A Default
+d) Compile time error
+d
+7. What will be the output of the following C code?
+    #include <stdio.h>    switch (ch)    {       case 'a':       case 'A':          printf("true");    }
+a) if (ch == ‘a’ && ch == ‘A’) printf(“true”);
+b) 
+if (ch == 'a')
+if (ch == 'a') printf("true");
+c) if (ch == ‘a’ || ch == ‘A’) printf(“true”);
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Switch Statements – 1» Next - C Programming Questions and Answers – For Loops – 1 

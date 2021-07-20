@@ -1,0 +1,127 @@
+1. What is an abstract class in C++?
+a) Class specifically used as a base class with atleast one virtual functions
+b) Class specifically used as a base class with atleast one pure virtual functions
+c) Class from which any class is derived
+d) Any Class in C++ is an abstract class
+b
+2. What is a pure virtual function in C++?
+a) A virtual function defined in a base class
+b) A virtual function declared in a base class
+c) Any function in a class
+d) A function without definition in a base class
+b
+3. Which is the correct syntax of defining a pure virtual function?
+a) pure virtual return_type func();
+b) virtual return_type func() pure;
+c) virtual return_type func() = 0;
+d) virtual return_type func();
+c
+4. Which is the correct statement about pure virtual functions?
+a) They should be defined inside a base class
+b) Pure keyword should be used to declare a pure virtual function
+c) Pure virtual function is implemented in derived classes
+d) Pure virtual function cannot implemented in derived classes
+c
+5. Pick the correct statement.
+a) Pure virtual functions and virtual functions are the same
+b) Both Pure virtual function and virtual function have an implementation in the base class
+c) Pure virtual function has no implementation in the base class whereas virtual function may have an implementation in the base class
+d) The base class has no pure virtual function
+c
+Join Sanfoundry@YouTube
+6. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	int a;
+    public:
+	virtual void func() = 0;
+};
+ 
+class B: public A
+{
+   public:
+	void func(){
+		cout<<"Class B"<<endl;
+	}	
+};
+ 
+int main(int argc, char const *argv[])
+{
+	B b;
+	b.func();
+	return 0;
+}
+a) Class B
+b) Error
+c) Segmentation fault
+d) No output
+a
+7. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	int a;
+   public:
+	virtual void func() = 0;
+};
+ 
+class B: public A
+{
+   public:
+	void func(){
+		cout<<"Class B"<<endl;
+	}	
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A a;
+	a.func();
+	return 0;
+}
+a) Class B
+b) Error
+c) Segmentation fault
+d) No output
+b
+8. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	int a;
+    public:
+	virtual void func() = 0;
+};
+ 
+class B: public A
+{
+    public:
+	void func(){
+		cout<<"Class B"<<endl;
+	}	
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A *a;
+	a->func();
+	return 0;
+}
+a) Class B
+b) Error
+c) Segmentation fault
+d) No output
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Abstract Classes – 1» Next - C++ Programming Questions and Answers – Design of Class Hierarchies 

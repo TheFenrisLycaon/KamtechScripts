@@ -1,0 +1,93 @@
+1. Which header file is required to use complex class in your program?
+a) <complex>
+b) <math>
+c) <complex_math>
+d) <algorithm>
+a
+2. Which of the following is the correct syntax of declaring a complex number?
+a) complex variable_name<type>;
+b) complex<type> variable_name;
+c) Complex<type> variable_name;
+d) Complex variable_name<type>;
+b
+3. Which function is used to get the real part of the complex number?
+a) img_p()
+b) imag_p()
+c) real()
+d) real_p()
+c
+4. Which function is used to get the imaginary part of the complex number?
+a) real()
+b) imag()
+c) imag_p()
+d) real_p()
+b
+5. What will be the output of the following C++ code?
+#include <iostream>
+#include <complex>
+using namespace std;
+int main()
+{
+	complex <double> cn(3.0, 5.0);
+	cout<<"Complex number is: "<<real(cn)<<" + "<<imag(cn)<<"i"<<endl;
+	return 0;
+}
+a) Complex number is: 3 + 5i
+b) Complex number is: 5 + 3i
+c) Complex number is: 9 + 25i
+d) Complex number is: 3 – 5i
+a
+6. Which function is used to get the absolute of a complex number?
+a) ret()
+b) norm()
+c) mod()
+d) abs()
+d
+7. What will be the output of the following C++ code?
+#include <iostream>
+#include <complex>
+using namespace std;
+int main()
+{
+	complex <double> cn(3.0, 5.0);
+	cout<<"Absolute value is: "<<abs(cn)<<endl;
+	return 0;
+}
+a) Absolute value is: 4
+b) Absolute value is: 5
+c) Absolute value is: 3
+d) Absolute value is: 5.83095
+d
+8. Which function is used to get the argument of a complex number?
+a) abs()
+b) norm()
+c) arg()
+d) argu()
+c
+9. What will be the output of the following C++ code?
+#include <iostream>
+#include <complex>
+using namespace std;
+int main()
+{
+	complex <double> cn(3.0, 5.0);
+	cout<<arg(cn)<<endl;
+	return 0;
+}
+a) 1.03038
+b) 0
+c) Not defined
+d) Error
+a
+10. What is the use of polar function?
+a) Used to construct a complex number from the real and imaginary part
+b) Used to construct a complex number from magnitude and phase angle
+c) Used to construct a complex number from the magnitude and real part
+d) Used to construct a complex number from argument and phase angle
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Tuples – 2» Next - C++ Programming Questions and Answers – Complex Library – 2 

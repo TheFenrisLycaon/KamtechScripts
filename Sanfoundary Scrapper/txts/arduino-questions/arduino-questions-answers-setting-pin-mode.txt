@@ -1,0 +1,72 @@
+1. What type of signal does the analogWrite() method generate when a pin is set to OUTPUT mode?
+a) Digital Signal
+b) Pulse Code Modulated Signal
+c) Pulse amplitude Modulated Signal
+d) Pulse Width Modulated Signal
+d
+2. What is the output of “pin1” if “pin2” is sent “1011” where 1 is 5V and 0 is 0V?
+int pin1 = 12;int pin2 = 11;void setup() {    pinMode(pin1, OUTPUT);    pinMode(pin2, INPUT);    Serial.begin(9600);}void loop() {    if(digitalRead(pin2)==1) {        digitalWrite(pin1,LOW);    }    else if(digitalRead(pin2)==0) {        digitalWrite(pin1,HIGH);    }}
+a) 0100
+b) 1011
+c) 1110
+d) 1111
+a
+3. What are the two modes that the pinMode() method sets for a particular pin?
+a) DIGITAL and ANALOG
+b) INPUT and OUTPUT
+c) TX and RX
+d) READ and WRITE
+b
+4. What are the voltage levels that can be detected if a pin is set to OUTPUT using the pinMode() method and the analogRead() method is used, in the Arduino Uno?
+a) 0 and 5V
+b) 0 to 5.1V
+c) 0 to 5V
+d) 0 to 10V
+c
+5. What will the code given below give as output if a 5V line is connected as input to pin 11?
+int pin_1=11;void setup() {    pinMode(pin_1, INPUT);    Serial.begin(9600);}void loop() {    int reading=analogRead(pin_1);    Serial.println(reading);}
+a) 0
+b) 102
+c) Null
+d) 1023
+d
+6. What is the output at the serial monitor of the code below if pin 11 is given the following signal?
+int pin1=11;void setup() {    pinMode(pin1, INPUT);    Serial.begin(9600);}void loop() {    int ip=analogRead(pin1);    if(ip>0) {        Serial.println(“H”);    }    else {        Serial.println(“O”);    }}
+a) 0H0H0
+b) OHHO
+c) OHHH
+d) HOHOO
+a
+7.  How many errors are present in the code given below?
+int pin1=12;void setup() {    pinmode(pin1, IN);    Serial.begin(9600);}void loop() {    int value=analogRead(pin1);    Serial.println(value+10);}
+a) 1
+b) 2
+c) 3
+d) 4
+b
+8. What is the output of the program given below if a 0V is put across pin 11?
+int pin=11;void setup() {    pinMode(pin, INPUT_PULLUP);    Serial.begin(9600);}void loop() {    int a=digitalRead(pin);    Serial.println(a);}
+a) 1
+b) 0
+c) 0.3
+d) 1.001
+a
+9. What is the difference between the INPUT and INPUT_PULLUP arguments in the pinMode() function?
+a) They are both the same
+b) INPUT supports only analog voltages while INPUT_PULLUP supports only digital voltage readings
+c) INPUT takes the default reading as 0 while INPUT_PULLUP takes default reading as 1023
+d) INPUT takes the default reading as 1023 while INPUT_PULLUP takes the default reading as 0
+c
+10. What is the purpose of the code given below?
+int pin=11;void setup() {    pinMode(pin, INPUT);    Serial.begin(9600);}void loop() {    int a=1023-analogRead(pin);    Serial.println(a);}
+a) To demonstrate the working of the INPUT_PULLUP argument
+b) To emulate the working of the OUTPUT argument
+c) To emulate the analogRead method
+d) To reset all input to 0
+a
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Uploading» Next - Arduino Questions and Answers – The setup() Function 

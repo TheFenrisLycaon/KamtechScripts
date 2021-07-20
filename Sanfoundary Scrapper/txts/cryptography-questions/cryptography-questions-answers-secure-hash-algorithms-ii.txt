@@ -1,0 +1,76 @@
+1. The registers ‘a’ and ‘e’ involve
+a) Permutation and substitution both
+b) Only Permutation
+c) Only substitution
+d) Don’t undergo any operations
+c
+2. In SHA-512, W16 is dependent on
+a) W0,W3,W7,W13
+b) W3,W7,W11,W15
+c) W0,W1,W9,W14
+d) W0,W1,W10,W13
+c
+W_t = sigma^512_1(W_(t-2)) + W_(t-7) + sigma^512_0(W_(t-15)) + W_(t-16).
+3. In SHA-512, W16 is dependent on
+a) W63,W68,W72,W76
+b) W66,W70,W71,W76
+c) W63,W67,W71,W77
+d) W63,W65,W71,W76
+d
+W_t = sigma^512_1(W_(t-2)) + W_(t-7) + sigma^512_0(W_(t-15)) + W_(t-16).
+4. What is the number of operation required to come up with 2 messages having the same message digest in SHA-512?
+a) 2256
+b) 2512
+c) 21024
+d) 2128
+a
+5. The underlying structure of the SHA-3 algorithm is referred to as
+a) Texture construction
+b) Layer construction
+c) Sponge construction
+d) Cement construction
+c
+6. SHA-3 allows variable length input and output.
+a) True
+b) False
+a
+7. Multi-rate padding is denoted by
+a) 10*
+b) 10*1
+c) 10*1*
+d) 0*1
+b
+8. In SHA-3, if the desired output is l bits, then j blocks are produced, such that
+a) (j-1) x r < l <= (j) x r
+b) (j) x r< l <= (j+1) x r
+c) (j-1) x r < l <= (j+1) x r
+d) (j+1) x r < l <= (j+2) x r
+a
+9. In the sponge construction, the value ‘c’ is known as
+a) constant
+b) capacity
+c) construct
+d) closure
+b
+10. The larger the value of ‘r’, the lesser the rate at which message bits are processed by the sponge construction.
+a) True
+b) False
+b
+11. We can trade security for speed by
+a) decreasing ‘c’ and increasing ‘r’
+b) increasing ‘c’ and decreasing ‘r’
+c) decreasing both ‘c’ and ‘r’
+d) increasing both ‘c’ and ‘r’
+b
+12. The default values for Keccak f are
+a) c =1024 and r =576
+b) c =786 and r =832
+c) c =512 and r =1088
+d) c =512 and r =832
+c
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Integrity Algorithms Questions and Answers – Secure Hash Algorithms (SHA) – I» Next - Data Integrity Algorithms Questions and Answers – Secure Hash Algorithms (SHA)  – III 

@@ -1,0 +1,119 @@
+1. What will be the output of the following PHP code?
+<?phpfunction colour(){     $colors = array("red", "green", "blue", "yellow");     foreach ($colors as $value)    {        echo "$value <br>";    }}colour();?>
+a) 
+  red 
+  green 
+  blue 
+  yellow 
+b) 
+  green 
+  blue 
+  yellow 
+  red
+c) 
+  red  
+  blue 
+  yellow
+  green
+d) 
+  red 
+  green  
+  yellow  
+  blue
+a
+  
+2. What will be the output of the following PHP code?
+Join [email protected]
+<?phpfunction addFunction($num1, $num2){    $sum = $num1 + $num2;    return $sum;}$return_value = addFunction(10, 20);echo "Returned value from the function : " .$return_value?>
+a) Returned value from the function : $return_value
+b) Error
+c) Returned value from the function : 30
+d) Returned value from the function :
+c
+3. What will be the output of the following PHP code?
+<?phpfunction time($string){    echo strtr("Towe Pa55", "ow5", $string);}time("ims");?>
+a) Time Pa55
+b) Towe Pa55
+c) Towe Pass
+d) Time Pass
+d
+4. What will be the output of the following PHP code?
+<?phpfunction constant(){    define("GREETING", "Welcome to Narnia");    echo greeting;}?>
+a) Welcome to Narnia
+b) greeting
+c) GREETING
+d) ERROR
+d
+5. What will be the output of the following PHP code?
+<?phpfunction constant(){    define("GREETING", "Welcome to Narnia",true);    echo greeting;}?>
+a) Welcome to Narnia
+b) greeting
+c) GREETING
+d) ERROR
+a
+6. What will be the output of the following PHP code?
+<?phpfunction start($string){    if ($string < 45)        return 20;    else        return 40;}$t = start(90);if ($t < 20){    echo "Have a good day!";}else{    echo "Have a good night!";}?>
+a) Have a good day!
+b) Have a good night!
+c) ERROR
+d) None of the mentioned
+b
+7. What will be the output of the following PHP code?
+<?phpfunction case(){    ECHO "Hello World!<br>";    echo "Hello World!<br>";    EcHo "Hello World!<br>";}case();?>
+a) Hello World!
+b) 
+  Hello World!
+  Hello World!
+c) 
+  Hello World!
+  Hello World!
+  Hello World!
+d) None of the mentioned
+c
+8. What will be the output of the following PHP code?
+<?phpfunction email(){    $email = ’user@yahoo.com’;    $new = strstr($email, ‘@');    echo $new;}email();?>
+a) user
+b) [email protected]
+c) @yahoo.com
+d) yahoo.com
+c
+9. What will be the output of the following PHP code?
+<?phpfunction string(){    echo strstr("Hello world!", 111);}string();?>
+a) o world!
+b) Hello world!
+c) 111
+d) No Output
+a
+10. What will be the output of the following PHP code?
+<?phpfunction CalAll($x,$y){    echo ($x + $y);    echo "<br>";    echo ($x - $y);    echo "<br>";    echo ($x * $y);    echo "<br>";    echo ($x / $y);     echo "<br>";    echo ($x % $y);}$x = 10; $y = 6;CalcAll(); ?>
+a) 
+  4
+  60
+  1.6666666666667
+  4
+  16
+b) 
+  16
+  4
+  60
+  1.6666666666667
+  4
+c) 
+  4
+  16
+  4
+  60
+  1.6666666666667
+d) 
+  1.6666666666667
+  4
+  16
+  4
+  60
+b
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions papers on PHP, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Functions – 5 

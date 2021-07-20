@@ -1,0 +1,73 @@
+1. Which of the given function is used for searching?
+a) lsearch()
+b) bsearch()
+c) csearch()
+d) qsearch()
+b
+2. Which function is called repeatedly by bsearch() to compare search elements against the elements in the array?
+a) mblem()
+b) wctomb()
+c) compar()
+d) labs()
+c
+The comparison function pointed to by compar() is called with two arguments that point to the key object to be searched and to an array element, in that order. The function shall return a < 0, = 0, or > 0 if the key object is considered, respectively, to be less than, to match, or to be greater than the array element.
+3. The _______ function sorts an array of objects.
+a) bsort()
+b) hsort()
+c) ssort()
+d) qsort()
+d
+The qsort() function is used to sort an array of nmemb objects, the initial element of array is pointed to by base. The size of each object in array is specified by size. The contents of the array are sorted into ascending order according to a comparison function pointed to by compar.
+4. Choose the correct statement.
+a) bsearch() returns no value to the function
+b) getenv() returns no value to the function
+c) qsort() returns no value to the function
+d) realloc() returns no value to the function
+c
+5. Which statement is true regarding abs() and labs()?
+a) The abs() function is similar to the labs() function, except that the argument and the returned value each of them have type long int
+b) The abs() function is not similar to the labs() function, except that the argument and the returned value in both functions have type long int
+c) The abs() function is similar to the labs() function, except that the argument and the returned value each have type short int
+d) The abs() function is not similar to the labs() function, except that the argument and the returned value in both function have type short int
+a
+The abs() function is similar to the labs() function, except that the returned value and argument each are of type long int.
+6. The abs() function computes the absolute value __________
+a) a floating number
+b) an integer number
+c) a double number
+d) all of the mentioned
+b
+The abs() function is used to compute the absolute value of an integer i. If the result cannot be represented, the behavior is undefined.
+7. Which function will return the quotient and remainder on division of numerator with denominator?
+a) div()
+b) div_t()
+c) ldiv_t()
+d) labs()
+a
+The div () function is used to compute the quotient and remainder of the division of the numerator num by the denominator den.div_t is the structure which contains a quotient member and a remainder member.
+8. What members do the structure returned by function div() contains?
+a) int quot and int rem
+b) float quot and float rem
+c) double quot and double rem
+d) no members are returned by div()
+a
+ int quot; /* quotient */
+int rem; /* remainder */ 
+9. Which of the given structure is returned by the function ldiv()?
+a) div_t
+b) ldiv_t
+c) div_i
+d) ldiv_i
+b
+10. Select the multibyte character function defined under the header file stdlib.h.
+a) wctomb()
+b) mblen()
+c) mbtowc()
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – General Utilities – 3» Next - C Questions and Answers – General Utilities – 5 

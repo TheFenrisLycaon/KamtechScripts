@@ -1,0 +1,93 @@
+1. Oracle server configuration is dedicated for
+a) One server process – Many user processes
+b) Many server processes – One user process
+c) One server process – One user process
+d) Many server processes – Many user processes
+c
+2. What SYSTEM VARIABLE is used to refer DATABASE TIME ?
+a) $$dbtime$$
+b) $$time$$
+c) $$datetime$$
+d) None of the Mentioned
+a
+3. You notice that the database instance takes a long time to start up after the instance crash. How will you resolve the problem?
+a) Increase the size of the redo log files
+b) Decrease the number of redo log members
+c) Set LOG_CHECKPOINT_TO_ALERT to TRUE
+d) Decrease the value for the FAST_START_MTTR_TARGET initialization parameter
+d
+FAST_START_MTTR_TARGET contains below information.
+Property                  Description
+Parameter type            :Integer
+Default value             :0
+Modifiable                :ALTER SYSTEM
+Range of values           :0 to 3600 seconds
+Basic                     :No
+Real Application Clusters :Multiple instances can have different values, 
+                           and you can change the values at run-time.
+4. Which statement is correct regarding undo management?
+a) The database can have more than one undo tablespaces
+b) The undo data must be purged manually when the transaction is over
+c) The UNDO_TABLESPACE parameter is valid only if the UNDO_MANAGEMENT parameter is set AUTO OFF
+d) Undo management is automatic by default even if the UNDO_MANAGEMENT initialization parameter is set to NULL
+a
+5. Which operations can be performed using the Data Recovery Ad-visor?
+a) Diagnosing data failure
+b) It is a percentage of rows in which the statistics are collected incrementally for partitions
+c) Presenting appropriate repair options
+d) Generating reports for possible causes of failure
+a
+Join [email protected]
+6. A user receives the following error while executing a query:
+		ORA-01555: snapshot too old
+Predict one way to avoid such errors in near future.
+a) Increase the size of redo log files
+b) Increase the size of the undo tablespace
+c) Increase the size of the Database Buffer Cache
+d) Increase the size of the default temporary tablespace
+b
+7. You want to be warned automatically when more than 100 sessions are opened with your database instance.Identify the action that would help you achieve this.
+a) Set the TRACE_ENABLED parameter to TRUE
+b) Set the threshold for the Current Logons Count metric
+c) Set the LOG_CHECKPOINT_TO_ALERT parameter to TRUE
+d) Set the SESSIONS_PER_USER limit in the profiles used by users
+b
+8. While the database instance is up and running, you receive an out-of-memory error due to the under-sizing of the shared pool. You checked the trace file and observed that the following error was always recorded during peak hours:
+ ORA-04031: unable to allocate 4000 bytes of shared memory 
+On investigation, you found that SGA_MAX_SIZE was larger than the sum of the sizes of all System Global Area (SGA) components and you do not have the scope to increase it further. Identify a solution to reduce the probability of getting this error in future.
+a) Set the PRE_PAGE_SGA parameter to TRUE
+b) Set the LOCK_SGA initialization parameter to TRUE
+c) Implement Automatic Shared Memory Management
+d) Set the SGA_TARGET initialization parameter to zero
+c
+9. You created a new user on the database by executing the following command: 
+SQL> CREATE USER user01 IDENTIFIED BY user01 
+DEFAULT TABLESPACE users 
+TEMPORARY TABLESPACE temp; 
+
+Then you granted the following privileges to user01 by executing the following command: 
+
+SQL> GRANT CREATE SESSION, CREATE TABLE TO user01; 
+Which of the following is true in this scenario?
+a) The user can not create tables
+b) The user can create tables
+c) The user cannot query any tables
+d) None of the Mentioned
+b
+10. Examine the following settings for the initialization parameters: 
+MEMORY_MAX_TARGET=0
+MEMORY_TARGET=500M 
+SGA_TARGET=300M 
+PGA_AGGREGATE_TARGET=70M
+Which statement is true about the memory management for the newly started database instance?
+a) MEMORY_TARGET defines the maximum limit for SGA_TARGET
+b) SGA_TARGET and PGA_AGGREGATE_TARGET combined will never grow beyond 500M
+c) The value for MEMORY_MAX_TARGET is the sum of SGA_TARGET and PGA_AGGREGATE_TARGET
+d) SGA_TARGET and PGA_AGGREGATE_TARGET will keep growing till a maximum of 300M and 70M, respectively
+b
+Sanfoundry Global Education & Learning Series – Oracle Database.
+To practice all areas of Oracle Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Oracle Database Questions and Answers – Storing and Guarding the Data» Next - Oracle Database Questions and Answers – Planning Oracle Applications – Approaches, Risks and Standards 

@@ -1,0 +1,85 @@
+1. The value of the 3 resistances when connected in star connection is_________
+a) 2.32ohm,1.22ohm, 4.54ohm
+b) 3.55ohm, 4.33ohm, 5.67ohm
+c) 2.78ohm, 1.67ohm, 0.83ohm
+d) 4.53ohm, 6.66ohm, 1.23ohm
+c
+R1=10*5/(10+5+3) = 2.78 ohm
+R2=10*3/(10+5+3) = 1.67 ohm
+R3=5*3/(10+5+3) = 0.83 ohm.
+2. Which, among the following is the right expression for converting from delta to star?
+a) R1=Ra*Rb/(Ra+Rb+Rc), R2=Rb*Rc/(Ra+Rb+Rc), R3=Rc*Ra/(Ra+Rb+Rc)
+b) R1=Ra/(Ra+Rb+Rc), R2=Rb/(Ra+Rb+Rc), Rc=/(Ra+Rb+Rc)
+c) R1=Ra*Rb*Rc/(Ra+Rb+Rc), R2=Ra*Rb/(Ra+Rb+Rc), R3=Ra/(Ra+Rb+Rc)
+d) R1=Ra*Rb*Rc/(Ra+Rb+Rc), R2=Ra*Rb*Rc/(Ra+Rb+Rc), R3=Ra*Rb*Rc/(Ra+Rb+Rc)
+a
+3. Find the equivalent star network.
+a) 2.3ohm, 2.3ohm, 2.3ohm
+b) 1.2ohm, 1.2ohm, 1.2ohm
+c) 3.3ohm, 3.3ohm, 3.3ohm
+d) 4.5ohm, 4.5ohm, 4.5ohm
+b
+The 3 3.6 ohm resistors are connected in delta. Converting to star:
+R1=R2=R3= 3.6*3.6/(3.6+3.6+3.6)=1.2 ohm.
+4. Star connection is also known as__________
+a) Y-connection
+b) Mesh connection
+c) Either Y-connection or mesh connection
+d) Neither Y-connection nor mesh connection
+a
+5. Rab is the resistance between the terminals A and B, Rbc between B and C and Rca between C and A. These 3 resistors are connected in delta connection. After transforming to star, the resistance at A will be?
+a) Rab*Rac/(Rab+Rbc+Rca)
+b) Rab/(Rab+Rbc+Rca)
+c) Rbc*Rac/(Rab+Rbc+Rca)
+d) Rac/(Rab+Rbc+Rca)
+a
+Hence Rab*Rac/(Rab+Rbc+Rca).
+6. Rab is the resistance between the terminals A and B, Rbc between B and C and Rca between C and A. These 3 resistors are connected in delta connection. After transforming to star, the resistance at B will be?
+a) Rac/(Rab+Rbc+Rca)
+b) Rab/(Rab+Rbc+Rca)
+c) Rbc*Rab/(Rab+Rbc+Rca)
+d) Rab/(Rab+Rbc+Rca)
+c
+Hence Rab*Rbc/(Rab+Rbc+Rca).
+7. Rab is the resistance between the terminals A and B, Rbc between B and C and Rca between C and A. These 3 resistors are connected in delta connection. After transforming to star, the resistance at C will be?
+a) Rac/(Rab+Rbc+Rca)
+b) Rab/(Rab+Rbc+Rca)
+c) Rbc*Rac/(Rab+Rbc+Rca)
+d) Rab/(Rab+Rbc+Rca)
+c
+Hence Rac*Rbc/(Rab+Rbc+Rca).
+8. Find the current in the circuit.
+a) 0.54A
+b) 0.65A
+c) 0.67A
+d) 0.87A
+a
+R1=R2=R3 = 1.67 ohm.
+One of the 1.67 ohm resistors are connected in series with the 2 ohm resistor and another 1.67 ohm resistor is connected in series to the 3 ohm resistor.
+The resulting network has a 1.67 ohm resistor connected in series with the parallel connection of the 3.67 and 4.67 resistors.
+The equivalent resistance is 3.725A.
+I=2/3.725 = 0.54A.
+9. If a 6 ohm, 2ohm and 4ohm resistor is connected in delta, find the equivalent star connection.
+a) 1ohm, 2ohm, 3ohm
+b) 2ohm, 4ohm, 7ohm
+c) 5ohm, 4ohm, 2ohm
+d) 1ohm, 2ohm, 2/3ohm
+d
+R1=2*6/(2+6+4)
+R2=2*4/(2+6+4)
+R3=4*6/(2+6+4).
+10. If a 4ohm, 3ohm and 2ohm resistor is connected in delta, find the equivalent star connection.
+a) 8/9ohm, 4/3ohm, 2/3ohm
+b) 8/9ohm, 4/3ohm, 7/3ohm
+c) 7/9ohm, 4/3ohm, 2/3ohm
+d) 8/9ohm, 5/3ohm, 2/3ohm
+a
+R1=4*3/(2+3+4)
+R2=2*3/(2+3+4)
+R3=2*4/(2+3+4).
+Sanfoundry Global Education & Learning Series – Basic Electrical Engineering.
+To practice all areas of Basic Electrical Engineering, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Basic Electrical Engineering Questions and Answers – Source  Transformations» Next - Basic Electrical Engineering Questions and Answers – Star Delta Transformation 

@@ -1,0 +1,49 @@
+1. A language L from a grammar G = { VN, Σ, P, S} is?
+a) Set of symbols over VN
+b) Set of symbols over Σ
+c) Set of symbols over P
+d) Set of symbols over S
+b
+2. What is the transitional function of a DFA?
+a) Q X Σ→Q
+b) Q X Σ→2Q
+c) Q X Σ→2n
+d) Q X Σ→Qn
+a
+3. What is the transitional function of an NFA?
+a) Q X Σ→Q
+b) Q X Σ→2Q
+c) Q X Σ→2n
+d) Q X Σ→Qn
+b
+Then a nondeterministic finite automaton is a 5-tuple < Q,  , q0,  , A >.
+4. Maximum number of states of a DFA converted from an NFA with nstates is?
+a) n
+b) n2
+c) 2n
+d) None of the mentioned
+c
+5. What are the basic limitations of finite state machine?
+a) It cannot remember arbitrarily large amount of information
+b) In cannot remember state transitions
+c) In cannot remember grammar for a language
+d) It cannot remember language generated from a grammar
+b
+6. The string WWR is not recognized by any FSM because _____________
+a) An FSM cannot remember arbitrarily large amount of information
+b) An FSM cannot fix the midpoint
+c) An FSM cannot match W with WR
+d) An FSM cannot remember first and last inputs
+b
+7. A finite automata recognizes ____________
+a) Any Language
+b) Context Sensitive Language
+c) Context Free Language
+d) Regular Language
+d
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – Relations – 2» Next - Compilers Questions and Answers – Finite Automata – 2 

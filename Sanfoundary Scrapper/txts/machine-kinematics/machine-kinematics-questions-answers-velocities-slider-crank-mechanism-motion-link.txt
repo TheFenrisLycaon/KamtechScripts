@@ -1,0 +1,135 @@
+1. The lengths of the links of a 4- bar linkage with revolute pairs only are p,q,r and s units. Given that p < q < r < s and s+p < q+r which of these links should be the fixed one, for obtaining a ‘double crank’ mechanism?
+a) ink of length p
+b) link of length q
+c) link of length r
+d) link of length s
+a
+Here shortest link is ‘P’.
+2. For a four-bar linkage in toggle position, the value of mechanical advantage is
+a) 0.0
+b) 0.5
+c) 1.0
+d) ∞
+d
+And hence, mechanical advantage = input velocity/output velocity = ∞.
+3. In a slider-crank mechanism, the crank is rotating with an angular velocity of 20 rad/s in counterclockwise direction. At the instant when the crank is perpendicular to the direction of the piston movement, velocity of the piston is 2 m/s. Radius of the crank is
+a) 100 cm
+b) 10 cm
+c) 1 cm
+d) 0.1 cm
+b
+In this case ϴ = 900
+Vp = ωr
+r = Vp/ω = 2/20 = 0.1 m or 10 cm.
+4. In a single link robotic arm the end-effector slides upward along the link with a velocity of 0.5 m/s while the link rotates about revolute joint with an angular speed of 1 rad/sec. When the end-effector is at a distance of 1 m from the joint, the acceleration experienced by the end-effector will be
+a) 1 m/s2
+b) 1.41 m/s2
+c) 1.71 m/2
+d) 2 m/2
+a
+5. For the same crank length and uniform angular velocity of the crank in an offset slider crank mechanism, if the connecting rod length is increased by 1.5 times, the velocity of piston will
+a) remain unchanged
+b) increase 1.5 times
+c) decrease by 1.5 times
+d) increase by 1.5√2 times
+c
+V2 = ωr(sinϴ + sin2ϴ/3n)
+from these two equation, V2 < V1
+V2 will decrease but correct quantification can not be done with available data.
+Among the available options, best answer is (c).
+6. It is planned to construct a four-bar mechanism ABCD with length AB= 60mm, BC = 100mm, CD = 70 mm and fixed link AD = 200 mm. If at least one link is required to have a complete rotation, this mechanism is
+a) of crank-rocker type
+b) of double-crank type
+c) of double rocker type
+d) impossible to construct
+c
+P + Q = 100 + 70 = 170 mm
+From grashoff equality when S + L > P + Q
+So always double rocker.
+7. The number of links in a planer mechanism with revolute joints having 10 instantaneous centres is
+a) 3
+b) 4
+c) 5
+d) 6
+c
+n(n – 1) = 20
+n = 5.
+8. A weston differential pulley block consists of a lower block and upper block. The upper block has two cogged grooves, one of which has a radius of 150 mm and the other a radius of 125 mm. If the efficiency of the machine is 50% calculate the effort required to raise a load of 1.5 kN.
+a) 250 N
+b) 300 N
+c) 350 N
+d) 400 N
+a
+V.R. = 2D/D – d = 2 x 300/300 -250 = 12
+Using the relation, Efficiency = M.A./V.R. x 100
+or, 50 = M.A./12 x 100
+M.A. = 6
+Again, M.A. = W/P
+          6 = 1.5 x 1000/ P
+P = 250 N.
+9. Following are the specifications of a single purchase crab:
+Diameter of load drum, d = 200 mm
+Length of lever, l = 1.2 m
+No. of teeth on pinion, T1 = 10
+No. of teeth on spur wheel, T2 = 100
+Find the velocity ratio of this machine.
+a) 100
+b) 110
+c) 120
+d) 130
+c
+                  = 2 x 120/20 x 100/10 = 120.
+10. On a machine efforts of 100 N and 160 N are required to lift the loads of 3000 N and 9000 N respectively. Find the law of the machine.
+a) P = 1/100W + 60
+b) P = 1/100W + 70
+c) P = 1/100W + 80
+d) P = 1/100W + 90
+c
+where P = effort applied, W = load lifted and m and C being constants.
+when P = 100 N    W = 3000 N
+when P = 160 N    W = 9000 N
+Putting these values in the law of machine.
+100 = 3000m + C                                        …………(i)
+160 = 9000m + C                                        …………(ii)
+Subtracting (i) and (ii), we get
+60 = 6000 m
+or, m = 1/100
+Putting this value in equation (i), we get
+100 = 3000 x 1/100 + C
+C = 70
+Hence, the machine follows the laws
+P = 1/100W +70.
+11. Following are the specifications of a single purchase crab:
+Diameter of load drum, d = 200 mm
+Length of lever, l = 1.2 m
+No. of teeth on pinion, T1 = 10
+No. of teeth on spur wheel, T2 = 100
+On this machine efforts of 100 N and 160 N are required to lift the loads of 3000 N and 9000 N respectively. Find the efficiency at 3000N.
+a) 10 %
+b) 15 %
+c) 20 %
+d) 25 %
+d
+                  = 2 x 120/20 x 100/10 = 120
+M.A. = W/P = 3000/100 = 30
+Efficiency = M.A./V.R. = 30/120 = 0.25 = 25%.
+12. Following are the specifications of a single purchase crab:
+Diameter of load drum, d = 200 mm
+Length of lever, l = 1.2 m
+No. of teeth on pinion, T1 = 10
+No. of teeth on spur wheel, T2 = 100
+On this machine efforts of 100 N and 160 N are required to lift the loads of 3000 N and 9000 N respectively. Find the efficiency at 9000N.
+a) 30 %
+b) 40 %
+c) 46.8 %
+d) 56.8 %
+d
+                  = 2 x 120/20 x 100/10 = 120
+M.A. = W/P = 9000/160 = 900/16
+Efficiency = M.A./V.R. = 900/16 x 120 = 0.468 = 46.8%.
+Sanfoundry Global Education & Learning Series – Machine Kinematics.
+To practice all areas of Machine Kinematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Machine Kinematics Questions and Answers – Velocity of a Point on a Link by Relative Velocity Method» Next - Machine Kinematics Questions and Answers – Forces Acting in a Mechanism 

@@ -1,0 +1,152 @@
+1. The .upcase and .capitalize method are used for capitalizing the whole string.
+a) True
+b) False
+b
+2. What is the use of .capitalize method?
+a) It capitalizes the entire string
+b) It capitalize on the first letter of the string
+c) It capitalize the strings which are in small case
+d) All of the mentioned
+b
+3. What is the role of ! at the end of the capitalize method?
+a) It is the syntax for using capitalize method
+b) It modifies the value stored in the variable
+c) It indicates the termination of string
+d) None of the mentioned
+b
+4. What is the output of the code?
+print "What's your first name?"
+   first_name=gets.chomp
+   a=first_name.capitalize
+   first_name.capitalize!
+   print "What's your last name?"
+   last_name=gets.chomp
+   b=last_name.capitalize
+   last_name.capitalize!
+   puts "My name is #{first_name} #{last_name}"
+a) Amil Jones
+b) What’s your first name? amil
+   What’s your last name? jones
+   My name is Amil Jones
+c) My name is Amil Jones
+d) None of the mentioned
+b
+Output:
+What's your first name? amil
+What's your last name? jones
+My name is Amil Jones
+5. What is the output of the code?
+print "What's your first name?"
+   first_name=gets.chomp
+   a=first_name.capitalize
+   first_name.capitalize!
+   print "What's your last name?"
+   last_name=gets.chomp
+   b=last_name.capitalize
+   last_name.capitalize
+   puts "My name is #{first_name} #{last_name}"
+a) Amil Jones
+b) What’s your first name? amil
+   What’s your last name? jones
+   My name is Amil Jones
+c) What’s your first name? amil
+   What’s your last name? jones
+   My name is Amil jones
+d) None of the mentioned
+b
+Output :
+What's your first name? amil
+What's your last name? jones
+My name is Amil jones
+6. What is the output of the given code?
+print "what's your first name?"
+   first_name=gets.chomp
+   a=first_name.capitalize
+   "first_name.capitalize!".reverse
+   puts"My name is #{first_name}"
+a) amil jones
+b) What’s your first name? amil
+   My name is amil
+c) My name is lima
+d) My name is limA
+b
+Output:
+What's your first name? amil
+My name is amil
+7. What is the output of the given code?
+print "what's your first name?"
+   first_name=gets.chomp
+   a=first_name.capitalize
+   "a".reverse
+   puts"My name is #{a}"
+a) amil jones
+b) What’s your first name? amil
+   My name is Amil
+c) My name is lima
+d) My name is limA
+b
+Output:
+What's your first name? amil
+My name is amil
+8. What is the output of the given code?
+ print "What's your first name?"
+   first_name=gets.chomp
+   a=first_name.capitalize
+   a=a.reverse
+   puts"My name is #{a}"
+a) amil jones
+b) What’s your first name? amil
+   My name is Amil
+c) What’s your first name? amil
+   My name is limA
+d) My name is limA
+b
+Output:
+what's your first name? amil
+My name is limA
+9. What do we mean by expression substitution?
+a) Embedding the value of Ruby expression into a string using #{  }
+b) Substituting string functions
+c) Storing string value
+d) None of the mentioned
+a
+10. What is the output of the given code?
+ x, y, z = 12, 36, 72
+    puts "The value of x is #{ x }."
+    puts "The sum of x and y is #{ x + y }."
+    puts "The average was #{ (x + y + z)/3 }."
+a) 12,48,40
+b) Syntax error
+c) The value of x is 12.
+   The sum of x and y is 48.
+   The average was 40.
+d) None of the mentioned
+c
+Output:
+   The value of x is 12.
+   The sum of x and y is 48.
+   The average was 40.
+11. What does %{Learn ruby language} represents?
+a) “Learn Ruby language”
+b) “%{Learn Ruby language}”
+c) ” Learn Ruby language ”
+d) None of the mentioned
+a
+12. What does %Q{ Learn ruby language } represents?
+a) ” Learn Ruby language ”
+b) “%{ Learn Ruby language }”
+c) ” Learn Ruby language ”
+d) None of the mentioned
+a
+13. What does %x!ls! represents?
+a) Same as back tick command output `ls`
+b) Same as ‘x’
+c) Same as “xls”
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Ruby Programming.
+To practice all areas of Ruby Programming for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ruby Programming Questions and Answers – String Methods» Next - Ruby Programming Questions and Answers – Comments in Ruby 

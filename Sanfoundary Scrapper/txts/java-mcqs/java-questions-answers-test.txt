@@ -1,0 +1,73 @@
+1. What should the return type of method where there is no return value?
+a) Null
+b) Empty collection
+c) Singleton collection
+d) Empty String
+b
+2. What data structure should be used when number of elements is fixed?
+a) Array
+b) Array list
+c) Vector
+d) Set
+a
+3. What causes the program to exit abruptly and hence its usage should be minimalistic?
+a) Try
+b) Finally
+c) Exit
+d) Catch
+c
+4. Which of the following is good coding practice to determine oddity?
+i)
+public boolen abc(int num){	return num % 2 == 1;}
+ii)
+public boolean xyz(int num){	return (num & 1)!= 0; }
+a) i
+b) ii
+c) (i) causes compilation error
+d) (ii) causes compilation error
+b
+5. Which one of the following causes memory leak?
+a) Release database connection when querying is complete
+b) Use Finally block as much as possible
+c) Release instances stored in static tables
+d) Not using Finally block often
+d
+6. Which of the following is a best practice to measure time taken by a process for execution?
+a) System.currentTimeMillis()
+b) System.nanoTime()
+c) System.getCurrentTime()
+d) System.getProcessingTime()
+b
+7. What one of the following is best practice to handle Null Pointer exception?
+i) int noOfStudents = line.listStudents().count;
+ii) int noOfStudents = getCountOfStudents(line);
+    public int getCountOfStudents(List line)    {	if(line != null)        {		if(line.listOfStudents() != null)                {			return line.listOfStudents().size();		}	}	throw new NullPointerException("List is empty");    }
+a) Option (i)
+b) Option (ii)
+c) Compilation Error
+d) Option (ii) gives incorrect result
+b
+8. Which of the below is true about java class structure?
+a) The class name should start with lowercase
+b) The class should have thousands of lines of code
+c) The class should only contain those attribute and functionality  which it should; hence keeping it short
+d) The class attributes and methods should be public
+c
+9. Which of the below is false about java coding?
+a) variable names should be short
+b) variable names should be such that they avoid ambiguity
+c) test case method names should be created as english sentences without spaces
+d) class constants should be used when we want to share data between class methods
+a
+10. Which is better in terms of performance for iterating an array?
+a) for(int i=0; i<100; i++)
+b) for(int i=99; i>=0; i–)
+c) for(int i=100; i<0; i++)
+d) for(int i=99; i>0; i++)
+b
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+To practice  all areas of Java for tests, here is complete set on 1000+ Multiple Choice Questions and Answers on Java.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Liskov’s Principle» Next - Java Questions & Answers – Generics 

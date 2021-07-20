@@ -1,0 +1,64 @@
+This section on C interview questions and answers focuses on “Relational & Logical Operators”. One shall practice these interview questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C Interview questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C interview questions on “Relational & Logical Operators” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int x = 1, y = 0, z = 5;        int a = x && y || z++;        printf("%d", z);    }
+a) 6
+b) 5
+c) 0
+d) Varies
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int x = 1, y = 0, z = 5;        int a = x && y && z++;        printf("%d", z);    }
+a) 6
+b) 5
+c) 0
+d) Varies
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 1, y = 0, z = 3;        x > y ? printf("%d", z) : return z;    }
+a) 3
+b) 1
+c) Compile time error
+d) Run time error
+c
+4. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int x = 1, z = 3;        int y = x << 3;        printf(" %d\n", y);    }
+a) -2147483648
+b) -1
+c) Run time error
+d) 8
+d
+5. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int x = 0, y = 2, z = 3;        int a = x & y | z;        printf("%d", a);    }
+a) 3
+b) 0
+c) 2
+d) Run time error
+a
+6. What will be the final value of j in the following C code?
+    #include <stdio.h>    int main()    {        int i = 0, j = 0;        if (i && (j = i + 10))            //do something            ;    }
+a) 0
+b) 10
+c) Depends on the compiler
+d) Depends on language standard
+a
+7. What will be the final value of j in the following C code?
+    #include <stdio.h>    int main()    {        int i = 10, j = 0;        if (i || (j = i + 10))            //do something            ;    }
+a) 0
+b) 20
+c) Compile time error
+d) Depends on language standard
+a
+8. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 1;        if (i++ && (i == 1))            printf("Yes\n");        else            printf("No\n");    }
+a) Yes
+b) No
+c) Depends on the compiler
+d) Depends on the standard
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Arithmetic Operators – 2» Next - C Programming Questions and Answers – Relational & Logical Operators – 2 

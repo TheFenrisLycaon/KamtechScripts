@@ -1,0 +1,91 @@
+1. What will be the output of the following PHP code?
+<?php$i = 0;for ($i){    print $i;}?>
+a) 0
+b) infinite loop
+c) no output
+d) error
+d
+2. What will be the output of the following PHP code?
+<?php$colors = array("red","green","blue","yellow"); foreach ($colors as $value){    echo "$value <br>";}?>
+a) 
+red 
+  green 
+  blue 
+  yellow
+b) red
+c) no output
+d) error
+a
+3. What will be the output of the following PHP code?
+<?phpfor ($x = 0; $x <= 10; $x++){    echo "The number is: $x <br>";}?>
+a) 
+The number is: 0 
+The number is: 1 
+The number is: 2 
+The number is: 3 
+The number is: 4 
+The number is: 5 
+The number is: 6 
+The number is: 7 
+The number is: 8 
+The number is: 9 
+The number is: 10
+b) The number is: 0
+c) no output
+d) error
+a
+4. What will be the output of the following PHP code?
+<?phpfor ($x = 0; $x <= 10; print ++$x){    print ++$x;}?>
+a) 123456789101112
+b) 12345678910
+c) 1234567891011
+d) infinite loop
+a
+5. What will be the output of the following PHP code?
+<?phpfor ($x = 1; $x < 10;++$x){    print "*\t";}?>
+a) **********
+b) *********
+c) ***********
+d) infinite loop
+b
+6. What will be the output of the following PHP code?
+<?phpfor ($x = -1; $x < 10;--$x){    print $x;}?>
+a) 123456789101112
+b) 12345678910
+c) 1234567891011
+d) infinite loop
+d
+7. What will be the output of the following PHP code?
+<?php$x;for ($x = -3; $x < -5; ++$x){    print ++$x;}?>
+a) -3-4-5
+b) -3-4
+c) infinite loop
+d) no output
+d
+8. What will be the output of the following PHP code?
+<?phpfor ($i++; $i == 1; $i = 2)    print "In for loop ";print "After loop\n"; ?>
+a) In for loop
+b) After for loop
+c) In for loopAfter for loop
+d) Infinite loop
+c
+9. What will be the output of the following PHP code?
+<?phpfor (1; $i == 1; $i = 2)    print "In for loop ";print "After loop\n";?>
+a) In for loop
+b) After for loop
+c) In for loopAfter for loop
+d) Infinite loop
+b
+10. What will be the output of the following PHP code?
+<?phpfor ($i == 2; ++$i == $i; ++$i)    print "In for loop ";print "After loop\n";?>
+a) In for loopIn for loopIn for loopIn for loop……infinitely
+b) After for loopAfter for loopAfter for loop……..infinitely
+c) In for loopAfter for loopIn for loopAfter for loopIn for loopAfter for loop…..infinitely
+d) After for loop
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – While Loops – 2» Next - PHP Coding Questions and Answers – For Loops – 2 

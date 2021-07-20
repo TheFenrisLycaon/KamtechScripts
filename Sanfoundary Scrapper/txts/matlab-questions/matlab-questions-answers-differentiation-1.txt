@@ -1,0 +1,68 @@
+1. Which rule does MATLAB use while differentiating a set of functions?
+a) u-v rule
+b) by parts
+c) no pre-defined rule
+d) not possible
+a
+2. There is no difference between a difference equation and a differential equation.
+a) True
+b) False
+b
+3. For the existence of the nth (n is varying from 1 to until the derivative is becoming 0) derivative of an equation, the equation should have __________
+a) Initial values
+b) At least one independent variable
+c) At least one dependent variable
+d) No such condition
+b
+4. What will be the output of the following code?
+syms x;diff(sin(x)\x2)
+a) (2*x)/sin(x) – (x2*cos(x))/sin(x)2
+b) cos(x)/x2 – (2*sin(x))/x3
+c) x2*cos(x) + 2*x*sin(x)
+d) Error
+a
+5. What is the data type of y?
+y=diff(x2*cos(x) + 2*x*sin(x))
+a) Symbolic
+b) Double
+c) Array
+d) Symbolic Array
+d
+6. The output for diff(p2,q) is _______
+a) 0
+b) 2*p
+c) 2 dp/dq
+d) Error
+a
+Output: 2*p
+7. What does the following code do?
+syms m,y,x,c;
+y=mx+c;
+diff(y)
+a) Calculate m
+b) Calculate slope
+c) Error
+d) Calculate divergence
+c
+8. What is the nature of ode45 solver?
+a) 2nd ordered R-K solver
+b) 4th ordered R-K solver
+c) 1st order R-K solver
+d) Adams solver
+b
+9. Ordinary differential equations having initial values ____________
+a) Can be solved
+b) Cannot be solved
+c) Can be modelled
+d) Has a trivial solution
+c
+10. The current characteristics of RC networks are better analyzed by Laplace than differentiation methods.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Linear Systems» Next - MATLAB Questions and Answers – Differentiation – 2 

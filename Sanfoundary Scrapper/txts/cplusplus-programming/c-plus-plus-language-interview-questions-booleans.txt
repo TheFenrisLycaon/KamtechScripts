@@ -1,0 +1,74 @@
+This section on C++ language interview questions and answers focuses on “Booleans”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ language interview questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ language interview questions on “Booleans” along with answers, explanations and/or solutions:
+1. Is bool a fundamental data type in C++?
+a) Yes
+b) No, it is a typedef of unsigned char
+c) No, it is an enum of {false, true}
+d) No, it is expanded from macros
+a
+2. Find the odd one out.
+a) std::vector<int>
+b) std::vector<short>
+c) std::vector<long>
+d) std::vector<bool>
+d
+3. What is the value of the bool?
+bool is_int(789.54)
+a) True
+b) False
+c) 1
+d) 2
+b
+4. What happens when a null pointer is converted into bool?
+a) an error is flagged
+b) bool value evaluates to true
+c) bool value evaluates to false
+d) the statement is ignored
+c
+5. Which of the following statements are false?
+a) bool can have two values and can be used to express logical expressions
+b) bool cannot be used as the type of the result of the function
+c) bool can be converted into integers implicitly
+d) a bool value can be used in arithmetic expressions
+b
+6. For what values of the expression is an if-statement block not executed?
+a) 0 and all negative values
+b) 0 and -1
+c) 0
+d) 0, all negative values, all positive values except 1
+c
+7. Which of the two operators ++ and — work for the bool data type in C++?
+a) None
+b) ++
+c) —
+d) ++ & —
+b
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int f(int p, int q)    {        if (p > q)            return p;        else            return q;    }    main()    {        int a = 5, b = 10;        int k;        bool x = true;        bool y = f(a, b);        k =((a * b) + (x + y));        cout << k;    }
+a) 55
+b) 62
+c) 52
+d) 75
+c
+9. What is the value of p in the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int p;        bool a = true;        bool b = false;        int x = 10;        int y = 5;        p = ((x | y) + (a + b));        cout << p;        return 0;    }
+a) 0
+b) 16
+c) 12
+d) 2
+b
+10. Evaluate the following.
+   (false && true) || false || true
+a) 0
+b) 1
+c) false
+d) 2
+b
+[( false AND True) OR false OR true]
+This is OR or three values so if any of them will be true then the whole exp will be true and as we have last value as true so the answer of expression will be TRUE. 
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers –  Types» Next - C++ Programming Questions and Answers – Character Types 

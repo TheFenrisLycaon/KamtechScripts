@@ -1,0 +1,90 @@
+1. What will be the output of the following PHP code?
+<?phpdefine("GREETING", "PHP is a scripting language", true);echo GREETING;echo "<br>"echo GREETING;?>
+a) PHP is a scripting language
+b) 
+GREETING
+GREEtING
+c) GREETING
+d) 
+PHP is a scripting language
+PHP is a scripting language
+d
+  
+2. What will be the output of the following PHP code?
+<?phpdefine("GREETING", "PHP is a scripting language");echo $GREETING;?>
+a) $GREETING
+b) no output
+c) PHP is a scripting language
+d) GREETING
+b
+3. What will be the output of the following PHP code?
+<?phpdefine('GREETING_TEST', 'PHP is a scripting language', true);echo GREETING_TESt;$changing_variable = 'test';echo constant('GREETING_' . strtoupper($changing_variable));?>
+a) 
+PHP is a scripting language
+PHP is a scripting language
+b) GREETING_TESt
+c) PHP is a scripting language
+d) 
+PHP is a scripting language
+GREETING_TEST
+a
+  
+4. What will be the output of the following PHP code?
+<?phpclass Constants{    define('MIN_VALUE', '0.0');      define('MAX_VALUE', '1.0');      public static function getMinValue()    {        return self::MIN_VALUE;    }    public static function getMaxValue()    {        return self::MAX_VALUE;    }}echo Constants::getMinValue();echo Constants::getMaxValue();?>
+a) 0.01.0
+b) 01
+c) No output
+d) ERROR
+d
+5. What will be the output of the following PHP code?
+<?phpdefine("__LINE__", "PHP is a scripting language");echo __LINE__;?>
+a) PHP is a scripting language
+b) __LINE__
+c) 2
+d) ERROR
+c
+6. What will be the output of the following PHP code?
+<?phpdefine('IF', 42); echo "IF: ", IF;?>
+a) IF:42
+b) No output
+c) IF:
+d) ERROR
+d
+7. What will be the output of the following PHP code?
+<?phpdefine("NEW_GOOD_NAME_CONSTANT", "I have a value");define("OLD_BAD_NAME_CONSTANT", NEW_GOOD_NAME_CONSTANT); echo NEW_GOOD_NAME_CONSTANT;echo OLD_BAD_NAME_CONSTANT; ?>
+a) I have a value
+b) I have a valueI have a value
+c) ERROR
+d) I have a valueNEW_GOO_NAME_CONSTANTS
+b
+8. What will be the output of the following PHP code?
+<?phpdefine('GOOD_OCTAL', 0700);define('BAD_OCTAL', 0600);print GOOD_OCTAL;print '<br>';print BAD_OCTAL; ?>
+a) 
+448
+384
+b) 
+0700
+0800
+c) ERROR
+d) No output
+a
+9. What will be the output of the following PHP code?
+<?phpdefine("VAR_NAME","test"); ${VAR_NAME} = "value"; echo VAR_NAME;echo ${VAR_NAME}; ?>
+a) test
+b) testtest
+c) testvalue
+d) error, constant value cannot be changed
+c
+10. What will be the output of the following PHP code?
+<?phpclass myObject { }define('myObject::CONSTANT', 'test');echo myObject::CONSTANT; ?>
+a) test
+b) error
+c) myObject::CONSTANT
+d) no output
+b
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 250+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Print» Next - PHP Coding Questions and Answers – Operators – 1 

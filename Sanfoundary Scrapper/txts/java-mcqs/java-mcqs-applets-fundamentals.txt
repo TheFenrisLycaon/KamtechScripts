@@ -1,0 +1,71 @@
+1. Which of these functions is called to display the output of an applet?
+a) display()
+b) paint()
+c) displayApplet()
+d) PrintApplet()
+b
+2. Which of these methods can be used to output a string in an applet?
+a) display()
+b) print()
+c) drawString()
+d) transient()
+c
+3. Which of these methods is a part of Abstract Window Toolkit (AWT)  ?
+a) display()
+b) paint()
+c) drawString()
+d) transient()
+b
+4. Which of these modifiers can be used for a variable so that it can be accessed from any thread or parts of a program?
+a) transient
+b) volatile
+c) global
+d) No modifier is needed
+b
+5. Which of these operators can be used to get run time information about an object?
+a) getInfo
+b) Info
+c) instanceof
+d) getinfoof
+c
+Join Sanfoundry@YouTube
+6. What is the Message is displayed in the applet made by the following Java program?
+    import java.awt.*;    import java.applet.*;    public class myapplet extends Applet    {        public void paint(Graphics g)        {            g.drawString("A Simple Applet", 20, 20);            }    }
+a) A Simple Applet
+b) A Simple Applet 20 20
+c) Compilation Error
+d) Runtime Error
+a
+Output:
+A Simple Applet
+(Output comes in a new java application)
+7. What is the length of the application box made by the following Java program?
+    import java.awt.*;    import java.applet.*;    public class myapplet extends Applet    {        public void paint(Graphics g)        {            g.drawString("A Simple Applet", 20, 20);            }    }
+a) 20
+b) 50
+c) 100
+d) System dependent
+a
+8. What is the length of the application box made the following Java program?
+    import java.awt.*;    import java.applet.*;    public class myapplet extends Applet    {        Graphic g;        g.drawString("A Simple Applet", 20, 20);        }
+a) 20
+b) Default value
+c) Compilation Error
+d) Runtime Error
+c
+9. What will be the output of the following Java program?
+    import java.io.*;    class Chararrayinput    {        public static void main(String[] args)        {	    String obj  = "abcdefgh";            int length = obj.length();            char c[] = new char[length];            obj.getChars(0, length, c, 0);            CharArrayReader input1 = new CharArrayReader(c);            CharArrayReader input2 = new CharArrayReader(c, 1, 4);            int i;            int j;            try            {		while((i = input1.read()) == (j = input2.read()))                {                    System.out.print((char)i);                }       	    }             catch (IOException e)            {                e.printStackTrace();	    }	}    }
+a) abc
+b) abcd
+c) abcde
+d) none of the mentioned
+d
+Output:
+$ javac Chararrayinput.java
+$ java Chararrayinput
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Reading & Writing Files» Next - Java Questions & Answers – Text Formatting 

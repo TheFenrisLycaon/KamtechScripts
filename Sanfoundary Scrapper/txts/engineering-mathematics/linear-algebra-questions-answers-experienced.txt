@@ -1,0 +1,148 @@
+1. Solve the following equations using Gauss Elimination Method and find the value of x and z.
+
+x + y + 2z + 3w = 1
+2x + 3y - 2z + 4w = 2
+2x + 3y + z - w = 0
+3x - 2y + z - 3w = 3
+a) x=1.1 and z=-0.2
+b) x=0.3 and z=-0.2
+c) x=1.1 and z=0.3
+d) x=0.3 and z=-0.6
+a
+\(\begin{bmatrix}1&1&2&3\\2&3&-2&4\\2&3&1&-1\\3&-2&1&-3\end{bmatrix}
+\begin{bmatrix}x\\y\\z\\w\end{bmatrix} = \begin{bmatrix}1\\2\\0\\3\end{bmatrix}\) 
+We now need to convert this matrix into Upper Triangular Matrix by Elementary Row Transformation only.
+R2=R2-R1 and R3=R3-2R1 and R4=R4-3R1
+\(\begin{bmatrix}1&1&2&3\\0&1&-6&-2\\0&1&-3&-7\\0&-5&-5&-12\end{bmatrix}
+\begin{bmatrix}x\\y\\z\\w\end{bmatrix} = \begin{bmatrix}1\\0\\-2\\0\end{bmatrix}\) 
+R3=R3-R2 and R4=R4+5R2
+\(\begin{bmatrix}1&1&2&3\\0&1&-6&-2\\0&0&3&-5\\0&0&-35&-22\end{bmatrix}
+\begin{bmatrix}x\\y\\z\\w\end{bmatrix} = \begin{bmatrix}1\\0\\-2\\0\end{bmatrix}\)  
+From this, we get
+x+y+2z+3w=1 – (1)
+y-6z-2w=0 – (2)
+3z-5w=-2 – (3)
+-35z-22w=0 – (4)
+From equations (3) and (4) we get
+z=-0.2 and w=0.3
+Substituting these values in equation (2)
+y=6(-0.2)+2(0.3)
+y=-0.6
+Substituting these values in equation (3)
+x+(-0.6)+2(-0.2)+3(0.3)=1
+x=1.1
+Thus, the solution of the following equation is
+x=1.1
+y=-0.6
+z=-0.2
+w=0.3.
+2. Solve the following equations using Gauss Elimination Method.
+
+x + 2y + 3z = 4
+2x + 3y + 4z = 5
+3x + 4y + 5z = 6
+a) x=0.5 y=0 and z=1
+b) x=-0.5 y=0 and z=-1.5
+c) x=-0.5 y=0 and z=1.5
+d) x=0.5 y=0 and z=1.5
+c
+\(\begin{bmatrix}1&2&3\\2&3&4\\3&4&5\end{bmatrix}
+\begin{bmatrix}x\\y\\z\end{bmatrix} = \begin{bmatrix}4\\5\\6\end{bmatrix}\) 
+We now need to convert this matrix into Upper Triangular Matrix by Elementary Row Transformation only.
+R2=R2-2R1 and R3=R3-3R1
+\(\begin{bmatrix}1&2&3\\0&-1&-2\\0&-5&-4\end{bmatrix}
+\begin{bmatrix}x\\y\\z\end{bmatrix} = \begin{bmatrix}4\\-3\\-6\end{bmatrix}\) 
+R3=R3-5R2
+\(\begin{bmatrix}1&2&3\\0&-1&-2\\0&0&6\end{bmatrix}
+\begin{bmatrix}x\\y\\z\end{bmatrix} = \begin{bmatrix}4\\-3\\9\end{bmatrix}\) 
+From the above Matrix, we get –
+x+2y+3z=4 -(2)
+-y-2z=-3 -(1)
+6z=9
+Thus, z=1.5
+Substituting in (1)
+y=3-2(1.5)
+y=0
+Substituting in (2)
+x=4-2(0)-3(1.5)
+x=-0.5
+Thus, x=-0.5 y=0 and z=1.5.
+Join Sanfoundry@YouTube
+3. Find the value of z that satisfies all the given equations using Gauss Elimination Method.
+
+12x + 4y + 3z = -1
+3x + 8y + z = 2
+2x + 3y + 4z = 5
+a) z=\(\frac{53}{41}\) 
+b) z=\(\frac{-143}{287}\) 
+c) z=\(\frac{79}{287}\) 
+d) z=\(\frac{-53}{41}\) 
+a
+\(\begin{bmatrix}2&3&4\\3&8&1\\12&4&3\end{bmatrix}
+\begin{bmatrix}x\\y\\z\end{bmatrix} = \begin{bmatrix}5\\2\\-1\end{bmatrix}\) 
+We now need to convert this matrix into Upper Triangular Matrix by Elementary Row Transformation only.
+R2=R2-2R1
+\(\begin{bmatrix}1&5&-3\\3&8&1\\12&4&3\end{bmatrix}
+\begin{bmatrix}x\\y\\z\end{bmatrix} = \begin{bmatrix}-3\\2\\-1\end{bmatrix}\)  
+R2=R2-3R1 and R3=R3-12R1
+\(\begin{bmatrix}1&5&-3\\0&-7&10\\0&-56&39\end{bmatrix}
+\begin{bmatrix}x\\y\\z\end{bmatrix} = \begin{bmatrix}-3\\11\\35\end{bmatrix}\)  
+R3=R3-8R2
+\(\begin{bmatrix}1&5&-3\\0&-7&10\\0&0&-41\end{bmatrix}
+\begin{bmatrix}x\\y\\z\end{bmatrix} = \begin{bmatrix}-3\\11\\-53\end{bmatrix}\) 
+From the above Matrix, we get-
+x+5y-3z=-3-(2)
+-7y+10z=11-(1)
+-41z=-53
+Thus, z=\(\frac{53}{41}\) 
+Substituting in (1)
+y=\(\frac{79}{287}\) 
+Substituting in (2)
+x=\(\frac{-143}{287}\).
+4. Find the value of x and y that satisfy the given sets of equation using Gauss Elimination Method.
+
+2x - 3y + 2z - 2w = 4
+3x + 2y - 3z + 5w = 1
+4x + 5y + 11z + 3w = 3
+5x + 3y + 2z + 7w = - 1
+a) x=0.85 and y=-1.2
+b) x=0.85 and y=0.38
+c) x=0.27 and y=0.38
+d) x=0.27 and y=-1.2
+d
+\(\begin{bmatrix}5&3&2&7\\2&-3&2&-2\\3&2&3&5\\4&5&11&3\end{bmatrix}
+\begin{bmatrix}x\\y\\z\\w\end{bmatrix} = \begin{bmatrix}-1\\4\\1\\3\end{bmatrix}\) 
+We now need to convert this matrix into Upper Triangular Matrix by Elementary Row Transformation only.
+R1=R1-R4
+\(\begin{bmatrix}1&-2&-9&4\\2&-3&2&-2\\3&2&3&5\\4&5&11&3\end{bmatrix}
+\begin{bmatrix}x\\y\\z\\w\end{bmatrix} = \begin{bmatrix}-4\\4\\1\\3\end{bmatrix}\)  
+R2=R2-2R1 and R3=R3-3R1 and R4=R4-4R1
+\(\begin{bmatrix}1&-2&-9&4\\0&1&20&-10\\0&8&30&-7\\0&13&47&-13\end{bmatrix}
+\begin{bmatrix}x\\y\\z\\w\end{bmatrix} = \begin{bmatrix}-4\\12\\13\\19\end{bmatrix}\) 
+R3=R3-8R2 and R4=R4-13R2
+\(\begin{bmatrix}1&-2&-9&4\\0&1&20&-10\\0&0&-130&73\\0&13&-213&117\end{bmatrix}
+\begin{bmatrix}x\\y\\z\\w\end{bmatrix} = \begin{bmatrix}-4\\12\\-83\\-137\end{bmatrix}\) 
+From this, we get
+x-2y-9z+4w=-4 – (1)
+y+20z-10w=12 – (2)
+-130z+73w=-83 – (3)
+-213z-117w=-137 – (4)
+From equations (3) and (4) we get
+z=0.85 and w=0.38
+Substituting these values in equation (2)
+y=12-20(0.85)+10(0.38)
+y=-1.2
+Substituting these values in equation (3)
+x+(-2×(-1.2))-9(0.85)+4(0.38)=-4
+x=0.27
+Thus, the solution of the following equation is
+x=0.27
+y=-1.2
+z=0.85
+w=0.38.
+Sanfoundry Global Education & Learning Series – Linear Algebra.
+To practice all areas of Linear Algebra for Experienced people, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Algebra Questions and Answers – System of Equations and their Consistencies» Next - Linear Algebra Questions and Answers – Curve Fitting 

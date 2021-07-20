@@ -1,0 +1,97 @@
+1. What are the pipelining stages include?
+a) Fetch, Decode, Write
+b) Fetch, Decode, Execute
+c) Fetch, Execute, Write
+d) Fetch, Decode, Execute, Write
+a
+Fetch – instruction is fetched from memory and placed in pipeline
+Decode – instruction is fetched and data-path signals prepared for next cycle
+Execute – instruction from prepared data-path reads from registry bank, shifts operand to ALU and writes generated result to dominant register.
+2. What is pipe lining?
+a) Non linear
+b) Linear
+c) Linear and Non linear
+d) Sometimes both
+b
+3. What are the no of pins that are in the ARM7 processors?
+a) 65 pin with QFP
+b) 45 Pin with QFP
+c) 45 pin with LLC
+d) 65 pin with DIP
+d
+4. Using what the processor wake-up from power-down?
+a) External Interrupts
+b) Internal interrupts
+c) Serial Programming
+d) Program Counter
+a
+5. What is the flash memory for LPC2141?
+a) 34kB
+b) 32kB
+c) 128kB
+d) 256kB
+b
+6. What are the categories in the vectored interrupt controller?
+a) Fast interrupt request
+b) Non vectored interrupt request
+c) Non-vectored IQR
+d) Fast interrupt request, Non vectored interrupt request and Non-vectored IQR
+d
+7. Each peripheral has an interrupt line?
+a) True
+b) False
+a
+8. What is pin connect block?
+a) All pins are having a function without reserved
+b) Some pins are Reserved
+c) Pins have more than one function
+d) Multiplexing of some pins
+c
+9. What is the size of ADC and DAC?
+a) 16 bit
+b) 10 bit
+c) 8 bit
+d) 32 bit
+b
+10. How many processors are used in the Instruction pipelining?
+a) One
+b) Two
+c) Three
+d) Four
+a
+11. Which signal is used for pipelining on bis cycle in ARM710T?
+a) BWAIT
+b) BTRAN
+c) BLOK
+d) BCLK
+b
+12. _______ pin can be used to extend memory access in whole cycle increments.
+a) BTRAN
+b) BLOK
+c) BWAIT
+d) BCLK
+c
+13. How many DC-DC converters interfaces in ARM7100?
+a) 5
+b) 3
+c) 4
+d) 2
+d
+14. The ARM7TDMI-S uses which pipelining?
+a) 2-Stage
+b) 3-Stage
+c) 4-Stage
+d) 5-Stage
+b
+15. The ARM7TDMI-S processor has __________ types of memory cycle.
+a) 5
+b) 3
+c) 4
+d) 2
+c
+Sanfoundry Global Education & Learning Series – IOT.
+To practice basic questions and answers on all areas of IOT, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - IOT Questions and Answers – Microcontroller (ARM 7)» Next - IOT Questions and Answers – Arduino 

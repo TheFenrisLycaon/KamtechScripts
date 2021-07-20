@@ -1,0 +1,66 @@
+1. The __________ interface allows setting expectations for an associated expected invocation.
+a) IMocksControl
+b) IExpectationSetters<T>
+c) IExpectation<T>
+d) Isetters<T>
+b
+2. _____________ function expect the last invocation any times.
+a) andStubReturn(T value)
+b) andThrow(Throwable throwable)
+c) anyTimes()
+d) asStub()
+c
+3. ______________ sets stub behavior for the expected invocation.
+a) andStubReturn(T value)
+b) andThrow(Throwable throwable)
+c) anyTimes()
+d) asStub()
+d
+4. _______________ expect the last invocation between min and max times.
+a) times(int count)
+b) times(int min, int max)
+c) once()
+d) asStub()
+b
+5. ____________ expect the last invocation a specified number of times.
+a) times(int count)
+b) times(int min, int max)
+c) once()
+d) asStub()
+a
+6. _____________ sets a stub object that will be used for the calculation of the answer for the expected invocation.
+a) andAnswer(IAnswer<? extends T>answer)
+b) andDelegateTo(Object delegateTo)
+c) andStubAnswer(IAnswer<? extends T> answer)
+d) andThrow(Throwable throwable)
+c
+7. _______________ sets a stub object implementing the same interface as the mock.
+a) andAnswer(IAnswer<? extends T> answer)
+b) andDelegateTo(Object delegateTo)
+c) andStubAnswer(IAnswer<? extends T> answer)
+d) andStubDelegateTo(Object delegateTo)
+d
+8. _____________ records a call but returns nothing.
+a) andVoid()
+b) times(int min, int max)
+c) once()
+d) asStub()
+a
+9. _____________ expects the last invocation once.
+a) andVoid()
+b) times(int min, int max)
+c) once()
+d) asStub()
+c
+10. _______________ sets a return value that will be returned for the expected invocation.
+a) andReturn(T value)
+b) times(int min, int max)
+c) once()
+d) asStub()
+a
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of JUnit Assessment Questions, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Ant Targets, Projects, Properties and Tasks» Next - JUnit Questions and Answers – Dependency Management with Ivy 

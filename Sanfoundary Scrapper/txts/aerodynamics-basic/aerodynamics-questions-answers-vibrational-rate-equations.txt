@@ -1,0 +1,45 @@
+1. What is the value of transition probability?
+a) 0
+b) More than 1
+c) Less than 1
+d) 1
+c
+2. What does the product of collision frequency and transition probability yield?
+a) Number of transitions per particle per second
+b) Number of collisions per second
+c) Number of collisions per second per particle
+d) Transitions per collision
+a
+3. What is the formula to compute net rate change of the population of the ith level?
+a) \(\frac {dN_i}{dt}\) = Pi + 1, i ZNi + 1 + Pi – 1, i ZNi – 1 – Pi, i + 1 ZNi – Pi, i – 1 ZNi
+b) \(\frac {dN_i}{dt}\) = – Pi + 1, i ZNi + 1 + Pi – 1, i ZNi – 1 + Pi, i + 1 ZNi + Pi, i – 1 ZNi
+c) \(\frac {dN_i}{dt}\) = Pi + 1, i ZNi + 1 – Pi, i + 1 ZNi
+d) \(\frac {dN_i}{dt}\) = + Pi – 1, i ZNi – 1 – Pi, i – 1 ZNi
+a
+\(\frac {dN_i}{dt}\) = Pi + 1, i ZNi + 1 + Pi – 1, i ZNi – 1 – Pi, i + 1 ZNi – Pi, i – 1 ZNi
+Where, Pi + 1, i ZNi + 1 + Pi – 1, i ZNi – 1 is the rate of increase of population in ith level due to the molecules jumping up from i – 1 and down from i + 1 levels.
+Pi, i + 1 ZNi – Pi, i – 1 ZNi is the rate of decrease of population in the ith level due to the molecules jumping from ith level to i + 1 and i – 1 levels.
+4. What is the master equation for vibrational relaxation?
+a) \(\frac {dN_i}{dt}\) = ki + 1, i ZNi + 1 + ki – 1, i ZNi – 1 – ki, i + 1 ZNi – ki, i – 1 ZNi
+b) \(\frac {dN_i}{dt}\) = ki + 1, i Ni + 1 + ki – 1, i Ni – 1 – ki, i + 1Ni – ki, i – 1 Ni
+c) \(\frac {dN_i}{dt}\) = ZNi + 1 + ZNi – 1 – ZNi, i – 1 – ZNi
+d) \(\frac {dN_i}{dt}\) = Pi + 1, i ZNi + 1 + Pi – 1, i ZNi – 1
+b
+\(\frac {dN_i}{dt}\) = ki + 1, i Ni + 1 + ki – 1, i Ni – 1 – ki, i + 1Ni – ki, i – 1 Ni
+5. Which of these is the vibrational rate equation?
+a) \(\frac {de_{vib}}{dt} = \frac {1}{τ}\)(e\(_{vib}^{eq}\) – evib)
+b) τ = \(\frac {1}{k_{1, 0} (1 – e^{- hv/kT} )}\) 
+c) evib = τ(e\(_{vib}^{eq}\) – evib)
+d) \(\frac {de_{vib}}{dt}\) = \(\frac {1}{τ}\)(e\(_{vib}^{eq}\) – evib)
+a
+\(\frac {de_{vib}}{dt} = \frac {1}{τ}\)(e\(_{vib}^{eq}\) – evib)
+6. In case of translation-vibration transfers, there can be an increase or decrease in kinetic energy.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Introduction to Nonequilibrium Systems» Next - Aerodynamics Questions and Answers – Chemical Equilibrium in High Temperature Air 

@@ -1,0 +1,73 @@
+1. The instructions available in the 80386 that are not available in its real address mode is
+a) addressing techniques
+b) instructions for protected address mode
+c) instructions for interrupt handling
+d) all of the mentioned
+b
+2. The unit that is disabled in real address mode is
+a) central processing unit
+b) memory management unit
+c) paging unit
+d) bus control unit
+c
+3. To form a physical memory address, appropriate segment register contents are
+a) shifted by left by 4 positions
+b) added to 16-bit offset address
+c) operated using one of addressing modes
+d) all of the mentioned
+d
+4. The segments in 80386 real mode are
+a) overlapped
+b) non-overlapped
+c) either overlapped or non-overlapped
+d) none of the mentioned
+c
+5. The operation that can be performed on segments in 80386 real mode is
+a) read
+b) write
+c) execute
+d) all of the mentioned
+d
+6. The selectors contain the segment’s
+a) segment limit
+b) base address
+c) access rights byte
+d) all of the mentioned
+d
+7. The linear address is calculated by
+a) effective address + segment base address
+b) effective address – segment base address
+c) effective address + physical address
+d) effective address – physical address
+a
+8. If the paging unit is enabled, then it converts a linear address into
+a) effective address
+b) physical address
+c) segment base address
+d) none of the mentioned
+b
+9. If the paging unit is disabled, then the linear address is used as
+a) effective address
+b) physical address
+c) segment base address
+d) none of the mentioned
+b
+10. The paging unit is enabled only in
+a) virtual mode
+b) addressing mode
+c) protected mode
+d) none of the mentioned
+c
+11. For a single task in protected mode, the 80386 can address the virtual memory of
+a) 32 GB
+b) 64 MB
+c) 32 TB
+d) 64 TB
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Addressing Modes of 80386, Data Types of 80386» Next - Microprocessors Questions and Answers – Segmentation 

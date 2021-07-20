@@ -1,0 +1,74 @@
+1. Calculate the Thevenin resistance across the terminal AB for the following circuit.
+a) 4.34 ohm
+b) 3.67 ohm
+c) 3.43 ohm
+d) 2.32 ohm
+b
+When the 10V source is shorted, we get:
+Rth=(1||2)+3=3.67 ohm.
+2. Calculate Vth for the given circuit.
+a) 5.54V
+b) 3.33V
+c) 6.67V
+d) 3.67V
+c
+3. Calculate the current across the 4 ohm resistor.
+a) 0.86A
+b) 1.23A
+c) 2.22A
+d) 0.67A
+a
+When the 10V source is shorted, we get:
+Rth=(1||2)+3=3.67 ohm.
+Vth is calculated by opening the specified terminal.
+Using voltage divider, Vth= 2*10/(2+1)=6.67V.
+On drawing the Thevenin equivalent circuit, we get Rth, 4 ohm and Vth in series.
+Applying Ohm’s law, I=Vth/(4+Rth) = 0.86A.
+4. The Thevenin voltage is the__________
+a) Open circuit voltage
+b) Short circuit voltage
+c) Open circuit and short circuit voltage
+d) Neither open circuit nor short circuit voltage
+a
+5. Thevenin resistance is found by ________
+a) Shorting all voltage sources
+b) Opening all current sources
+c) Shorting all voltage sources and opening all current sources
+d) Opening all voltage sources and shorting all current sources
+c
+6. Thevenin’s theorem is true for __________
+a) Linear networks
+b) Non-Linear networks
+c) Both linear networks and nonlinear networks
+d) Neither linear networks nor non-linear networks
+a
+7. In Thevenin’s theorem Vth is __________
+a) Sum of two voltage sources
+b) A single voltage source
+c) Infinite voltage sources
+d) 0
+b
+8. Vth is found across the ____________ terminals of the network.
+a) Input
+b) Output
+c) Neither input nor output
+d) Either input or output
+b
+9. Which of the following is also known as the dual of Thevenin’s theorem?
+a) Norton’s theorem
+b) Superposition theorem
+c) Maximum power transfer theorem
+d) Millman’s theorem
+a
+10. Can we use Thevenin’s theorem on a circuit containing a BJT?
+a) Yes
+b) No
+c) Depends on the BJT
+d) Insufficient data provided
+b
+Sanfoundry Global Education & Learning Series – Basic Electrical Engineering.
+To practice all areas of Basic Electrical Engineering, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Basic Electrical Engineering Questions and Answers – Superposition Theorem» Next - Basic Electrical Engineering Questions and Answers – Norton’s Theorem 

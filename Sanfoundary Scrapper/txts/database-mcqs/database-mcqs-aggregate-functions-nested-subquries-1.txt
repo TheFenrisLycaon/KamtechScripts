@@ -1,0 +1,113 @@
+1. Aggregate functions are functions that take a ___________   as input and return a single value.
+a) Collection of values
+b) Single value
+c) Aggregate value
+d) Both Collection of values & Single value
+a
+2.
+SELECT __________
+FROM instructor
+WHERE dept name= ’Comp. Sci.’;
+Which of the following should be used to find the mean of the salary ?
+a) Mean(salary)
+b) Avg(salary)
+c) Sum(salary)
+d) Count(salary)
+b
+3.
+SELECT COUNT (____ ID)
+FROM teaches
+WHERE semester = ’Spring’ AND YEAR = 2010;
+If we do want to eliminate duplicates, we use the keyword ______in the aggregate expression.
+a) Distinct
+b) Count
+c) Avg
+d) Primary key
+a
+4. All aggregate functions except _____ ignore null values in their input collection.
+a) Count(attribute)
+b) Count(*)
+c) Avg
+d) Sum
+b
+5. A Boolean data type that can take values true, false, and________
+a) 1
+b) 0
+c) Null
+d) Unknown
+d
+6. The ____ connective tests for set membership, where the set is a collection of values produced by a select clause. The ____ connective tests for the absence of set membership.
+a) Or, in
+b) Not in, in
+c) In, not in
+d) In, or
+c
+7. Which of the following should be used to find all the courses taught in the Fall 2009 semester but not in the Spring 2010 semester .
+a)
+SELECT DISTINCT course id
+FROM SECTION
+WHERE semester = ’Fall’ AND YEAR= 2009 AND
+course id NOT IN (SELECT course id
+FROM SECTION
+WHERE semester = ’Spring’ AND YEAR= 2010);
+b)
+SELECT DISTINCT course_id
+FROM instructor
+WHERE name NOT IN (’Fall’, ’Spring’);
+c)
+(SELECT course id
+FROM SECTION
+WHERE semester = ’Spring’ AND YEAR= 2010)
+d)
+SELECT COUNT (DISTINCT ID)
+FROM takes
+WHERE (course id, sec id, semester, YEAR) IN (SELECT course id, sec id, semester, YEAR
+FROM teaches
+WHERE teaches.ID= 10101);
+a
+  
+8. The phrase “greater than at least one” is represented in SQL by _____
+a) < all
+b) < some
+c) > all
+d) > some
+d
+9. Which of the following is used to find all courses taught in both the Fall 2009 semester and in the Spring 2010 semester .
+a)
+SELECT course id
+FROM SECTION AS S
+WHERE semester = ’Fall’ AND YEAR= 2009 AND
+EXISTS (SELECT *
+FROM SECTION AS T
+WHERE semester = ’Spring’ AND YEAR= 2010 AND
+S.course id= T.course id);
+b)
+SELECT name
+FROM instructor
+WHERE salary > SOME (SELECT salary
+FROM instructor
+WHERE dept name = ’Biology’);
+c)
+SELECT COUNT (DISTINCT ID)
+FROM takes
+WHERE (course id, sec id, semester, YEAR) IN (SELECT course id, sec id, semester, YEAR
+FROM teaches
+WHERE teaches.ID= 10101);
+d)
+(SELECT course id
+FROM SECTION
+WHERE semester = ’Spring’ AND YEAR= 2010)
+a
+  
+10. We can test for the nonexistence of tuples in a subquery by using the _____ construct.
+a) Not exist
+b) Not exists
+c) Exists
+d) Exist
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Null Values Operations» Next - Database Questions and Answers – Aggregate Functions and Nested Subqueries – 2 

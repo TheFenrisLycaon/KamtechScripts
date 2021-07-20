@@ -1,0 +1,90 @@
+1. Which of these classes is used to define exceptions?
+a) Exception
+b) Throwable
+c) Abstract
+d) System
+a
+2. Which of these methods return description of an exception?
+a) getException()
+b) getMessage()
+c) obtainDescription()
+d) obtainException()
+b
+3. Which of these methods is used to print stack trace?
+a) obtainStackTrace()
+b) printStackTrace()
+c) getStackTrace()
+d) displayStackTrace()
+b
+4. Which of these methods return localized description of an exception?
+a) getLocalizedMessage()
+b) getMessage()
+c) obtainLocalizedMessage()
+d) printLocalizedMessage()
+a
+5. Which of these classes is super class of Exception class?
+a) Throwable
+b) System
+c) RunTime
+d) Class
+a
+6. What will be the output of the following Java code?
+    class Myexception extends Exception     {	int detail;        Myexception(int a)        {            detail = a;	}	public String toString()        {	    return "detail";	}    }    class Output     {        static void compute (int a) throws Myexception         {	     throw new Myexception(a);	 	}	public static void main(String args[])         {            try            {                compute(3);            }           catch(Myexception e)           {               System.out.print("Exception");           }         }    }
+a) 3
+b) Exception
+c) Runtime Error
+d) Compilation Error
+b
+Output:
+$ javac Output.java
+java Output
+Exception
+7. What will be the output of the following Java code?
+    class Myexception extends Exception     {	int detail;        Myexception(int a)         {        detail = a;	}	public String toString()         {	    return "detail";	}    }    class Output     {        static void compute (int a) throws Myexception        {	     throw new Myexception(a);	 	}	public static void main(String args[])         {            try             {                compute(3);            }           catch(DevideByZeroException e)           {               System.out.print("Exception");           }         }    }
+a) 3
+b) Exception
+c) Runtime Error
+d) Compilation Error
+c
+Output:
+$ javac Output.javac
+8. What will be the output of the following Java code?
+    class exception_handling     {        public static void main(String args[])        {            try             {                throw new NullPointerException ("Hello");                System.out.print("A");            }            catch(ArithmeticException e)             {        	System.out.print("B");        	            }        }    }
+a) A
+b) B
+c) Compilation Error
+d) Runtime Error
+d
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+Exception in thread "main" java.lang.NullPointerException: Hello
+9. What will be the output of the following Java code?
+    class Myexception extends Exception     {	int detail;        Myexception(int a)        {        detail = a;	}	public String toString()        {	    return "detail";	}    }    class Output    {        static void compute (int a) throws Myexception        {	     throw new Myexception(a);	 	}	public static void main(String args[])        {            try             {                compute(3);            }           catch(Exception e)           {               System.out.print("Exception");           }         }    }
+a) 3
+b) Exception
+c) Runtime Error
+d) Compilation Error
+b
+Output:
+$ javac Output.javac
+java Output
+Exception
+10. What will be the output of the following Java code?
+    class exception_handling    {        public static void main(String args[])        {            try             {                int a = args.length;                int b = 10 / a;                System.out.print(a);                try                 {                     if (a == 1)                         a = a / a - a;                     if (a == 2)                     {                         int c = {1};                         c[8] = 9;                     }                }                catch (ArrayIndexOutOfBoundException e)                {                    System.out.println("TypeA");                }                catch (ArithmeticException e)                {                    System.out.println("TypeB");                }            }        }    }
+Note : Execution command line : $ java exception_handling one
+a) TypeA
+b) TypeB
+c) Compilation Error
+d) Runtime Error
+c
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+error: 'try' without 'catch', 'finally' or resource declarations
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Try & Catch» Next - Java Questions & Answers – isAlive(), Join() & Thread Synchronization 

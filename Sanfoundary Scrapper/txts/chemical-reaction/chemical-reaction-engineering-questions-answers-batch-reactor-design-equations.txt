@@ -1,0 +1,89 @@
+1. The design equation for Batch reactor in differential form is _______
+a) NA0\(\frac{dXA}{dt}\) = -rA V
+b) \(\frac{dXA}{dt}\) = -rA
+c) \(\frac{dXA}{dt}\) = -rAV
+d) NA0\(\frac{dXA}{dt}\) = -rA
+a
+2. The design equation for Batch reactor in integral form is _____
+a) t = NA0\(\int_0^{XA} \frac{dXA}{-r_A} \) 
+b) t = \(\int_0^{XA} \frac{dXA}{-r_A} \) 
+c) t = NA0\(\int_0^{XA} \frac{dXA}{-r_{AV}} \) 
+d) t = \(\int_0^{XA} \frac{dXA}{-r_{AV}} \) 
+c
+3. The design equation for constant volume batch reactor in terms of partial pressure is (Assuming the gases to be ideal)
+a) –ri = \(\frac{1}{RT}\frac{dpi}{dt} \) 
+b) –ri = \(\frac{V}{RT} \frac{dpi}{dt} \) 
+c) –ri = \(\frac{PV}{RT} \frac{dCi}{dt} \) 
+d) –ri = V \(\frac{dCi}{dt} \) 
+a
+–ri = \(\frac{d(\frac{Ni}{V})}{dt} = \frac{dCi}{dt}\) where C = p/RT. Hence, –ri = \(\frac{1}{RT}\frac{dpi}{dt}. \) 
+4. Most suitable reactor for pharmaceutical industry is ______
+a) MFR
+b) PFR
+c) Batch reactor
+d) PBR
+c
+5. Design equation for varying volume system is ______
+a) t = \(\int_0^{XA} \frac{dXA}{-rA εA} \) 
+b) t = \(\int_0^{XA} \frac{dXA}{CA0} \) 
+c) t = \(\int_0^{XA} \frac{dXA}{NA0} \) 
+d) t = CA0 \(\int_0^{XA} \frac{dXA}{-rA(1+XA εA)} \) 
+d
+Join Sanfoundry@YouTube
+6. Calculate the value of εA of gas for the following isothermal gas phase reaction.
+(Assuming pure A)
+    		A → 4R
+a) 1
+b) 2
+c) 3
+d) 4
+c
+εA = \(\frac{V1-V0}{V0} = \frac{4-1}{1}\) = 3
+where V1 is volume at complete conversion and V0 is volume at no conversion.
+7. For the following reaction, calculate εA, containing 50% A and 50% inerts.
+a) 0.5
+b) 1.5
+c) 2.5
+d) 0.75
+b
+When X=1, A=2 and Inerts=0.5
+εA = \(\frac{2.5-1}{1}\) = 1.5.
+8. Constant volume batch reactors are the widely used industrial batch reactors.
+a) True
+b) False
+a
+9. Determine the rate law for first order reaction 2A → R at constant pressure with 60% A in the initial reaction mixture and reduces by 15% in 4 minutes.
+a) -rA = 0.17 CA
+b) -rA = CA
+c) -rA = 2CA
+d) -rA = 3.6CA
+a
+2A → R
+εA = \(\frac{.7-1}{1}\) = -0.3
+\(\begin{array}{c|c c}
+  & X_A=0 & X_A = 1 \\
+\hline
+ A & 0.6 & 0.3 \\
+ I & 0.4 & 0.4 \\
+\hline
+ & 1 & 0.7 \\
+\end{array}
+\) 
+ΔV = V-Vo
+       = Vo – 0.15 VO – VO = -0.15 VO
+-ln(1-\(\frac{ΔV}{Vo εA}\)) = kt
+=> k = 0.173 min-1.
+10. Determine the order of the reaction from the graph.
+a) 0
+b) 1
+c) 2
+d) 3
+c
+Ln(-rA ) = lnk+ nlnCA
+The slope of the line gives the order of the reaction.
+Sanfoundry Global Education & Learning Series – Chemical Reaction Engineering.
+To practice all areas of Chemical Reaction Engineering,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Chemical Reaction Engineering Questions and Answers – Introduction to Reactor Design» Next - Chemical Reaction Engineering Questions and Answers – Design Equations for Flow Reactors 

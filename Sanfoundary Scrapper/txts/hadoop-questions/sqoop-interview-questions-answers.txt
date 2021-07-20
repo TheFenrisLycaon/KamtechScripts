@@ -1,0 +1,67 @@
+1. _________  tool can list all the available database schemas.
+a) sqoop-list-tables
+b) sqoop-list-databases
+c) sqoop-list-schema
+d) sqoop-list-columns
+b
+2. Point out the correct statement.
+a) The sqoop command-line program is a wrapper which runs the bin/hadoop script shipped with Hadoop
+b) If $HADOOP_HOME is set, Sqoop will use the default installation location for Cloudera’s Distribution for Hadoop
+c) The active Hadoop configuration is loaded from $HADOOP_HOME/conf/, unless the $HADOOP_CONF_DIR environment variable is unset
+d) None of the mentioned
+a
+3. Data can be imported in maximum ______ file formats.
+a) 1
+b) 2
+c) 3
+d) All of the mentioned
+b
+4. ________ text is appropriate for most non-binary data types.
+a) Character
+b) Binary
+c) Delimited
+d) None of the mentioned
+c
+5. Point out the wrong statement.
+a) Avro data files are a compact, efficient binary format that provides interoperability with applications written in other programming languages
+b) By default, data is compressed while importing
+c) Delimited text also readily supports further manipulation by other tools, such as Hive
+d) None of the mentioned
+b
+6. If you set the inline LOB limit to ________ all large objects will be placed in external storage.
+a) 0
+b) 1
+c) 2
+d) 3
+a
+7. ________ does not support the notion of enclosing characters that may include field delimiters in the enclosed string.
+a) Imphala
+b) Oozie
+c) Sqoop
+d) Hive
+d
+8. Sqoop can also import the data into Hive by generating and executing a ____________ statement to define the data’s layout in Hive.
+a) SET TABLE
+b) CREATE TABLE
+c) INSERT TABLE
+d) All of the mentioned
+b
+9. The __________ tool imports a set of tables from an RDBMS to HDFS.
+a) export-all-tables
+b) import-all-tables
+c) import-tables
+d) none of the mentioned
+c
+10. Which of the following argument is not supported by import-all-tables tool?
+a) –class-name
+b) –package-name
+c) –database-name
+d) –table-name
+a
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all interview questions and answers on Sqoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Sqoop with Hadoop – 1» Next - Hadoop Questions and Answers – Introduction to Cassandra 

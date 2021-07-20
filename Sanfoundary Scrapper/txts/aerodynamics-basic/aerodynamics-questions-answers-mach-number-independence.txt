@@ -1,0 +1,66 @@
+1. At which flow regime does aerodynamic quantities such as coefficient of pressure, lift become independent of Mach number?
+a) Subsonic
+b) Supersonic
+c) Transonic
+d) Hypersonic
+d
+2. Which of these equations represents non – dimensionalize continuity equation?
+a) ∂\(\frac {(\overline {ρ} \, \overline {u})}{∂\overline {x}}\) + ∂\(\frac {(\overline {ρ} \, \overline {v})}{∂\overline {y}}\) + ∂\(\frac {(\overline {ρ} \, \overline {w})}{∂\overline {z}}\) = 0
+b) ρ u\(\frac {∂ \overline {u}}{∂\overline {x}}\) + ρ u \(\frac {∂ \overline {v}}{∂\overline {y}}\) + ρ u \(\frac {∂ \overline {w}}{∂\overline {z}}\) = 0
+c) ρ u\(\frac {∂ \overline {u}}{∂\overline {x}}\) + ρ u \(\frac {∂ \overline {v}}{∂\overline {y}}\) + ρ u \(\frac {∂ \overline {w}}{∂\overline {z}}\) = –\(\frac {∂ \overline {p}}{∂\overline {x}}\) 
+d) ρ u\(\frac {∂ \overline {u}}{∂\overline {x}}\) + ρ u \(\frac {∂ \overline {v}}{∂\overline {y}}\) + ρ u \(\frac {∂ \overline {w}}{∂\overline {z}}\) = –\(\frac {∂ \overline {p}}{∂y}\) 
+a
+x = \(\frac {x}{l}\), y = \(\frac {y}{l}\), z = \(\frac {z}{l}\), p = \(\frac {p}{ρ_∞ V_∞^{2}}\), ρ = \(\frac {ρ}{ρ_∞}\) 
+Where, x, y, z are velocity components
+l is characteristic length
+ρ∞ is free stream density
+V∞ is free stream velocity
+The continuity equation is given by
+\(\frac {∂ρ}{∂t}\) + ∂\(\frac {ρu}{∂x}\) + ∂\(\frac {ρv}{∂y}\) + ∂\(\frac {ρw}{∂z}\) = 0
+Since the flow is assumed to be steady, \(\frac {∂ρ}{∂t}\) = 0. Substituting non – dimensional variables in the above equation we get
+∂\(\frac {(\overline {ρ} \, \overline {u})}{∂\overline {x}}\) + ∂\(\frac {(\overline {ρ} \, \overline {v})}{∂\overline {y}}\) + ∂\(\frac {(\overline {ρ} \, \overline {w})}{∂\overline {z}}\) = 0
+3. Which boundary condition applied at the surface to non dimensionlize the governing equations?
+a) V.n = 0
+b) V × n = 0
+c) V.(V × n) = 0
+d) V × (V × n) = 0
+a
+4. Boundary condition V.n = 0 is applied at the surface to non dimensionlize the governing equations when fluid is being transferred.
+a) True
+b) False
+b
+Join [email protected]
+5. For a flow with Mach number 4, P1 = 2.65 × 104 Pa what is the pressure behind the oblique shock wave having shock angle as 30 degrees?
+a) 8.525 × 104 Pa
+b) 11.925 × 104 Pa
+c) 4.502 × 104 Pa
+d) 15.278 × 104 Pa
+b
+The normal component of the Mach number upstream of the shockwave is given by:
+Mn1 = M1sinβ = 4sin⁡(30) = 2
+Using the normal shock table, for Mn1 = 2 we get the relation between the pressure upstream and downstream
+\(\frac {P_2}{P_1}\) = 4.5
+Since P1 = 2.65 × 104, we get P2 = 4.5 × 2.65 × 104 = 11.925 × 104 Pa.
+6. What happens to the pressure behind an oblique shock wave at very high Mach numbers?
+a) p2 = \(\frac {2sin^2 β}{γ + 1}\) 
+b) p2 = \(\frac {γ – 1}{γ + 1}\) 
+c) p2 = 1 – \(\frac {2sin^2 β}{γ + 1}\) 
+d) p2 = \(\frac {2sin 2 β}{γ + 1}\) 
+a
+\(\frac {p_2}{p_∞}\) = 1 + \(\frac {2γ}{γ + 1}\)(M\(_∞^{2}\)sin2β – 1)
+We non dimensionalize this equation as
+\(\frac {p_2}{p_∞} = \frac {\overline {p}_2 (ρ_∞ V_∞^{2})}{p_∞} = \frac {\overline {p}_2 V_∞^{2}}{RT_∞} =\frac {\overline {p}_2 γV_∞^{2}}{a_∞^{2}}\) = p2γM\(_∞^2\) 
+Thus the non dimensionlised pressure behind the oblique shock is
+p2 = \(\frac {1}{γM_∞^{2}} + \frac {2}{γ + 1}\)(sin2β –\(\frac {1}{M_∞^{2}}\))
+For a very high Mach number at hypersonic flow, we apply the limit M∞ → ∞, resulting in
+p2 = \(\frac {2sin^2 β}{γ + 1}\) 
+7. Mach number independence for conical cylinder is achieved at a lower Mach number compared to the sphere.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Hypersonic Flow» Next - Aerodynamics Questions and Answers – Hypersonic Similarity 

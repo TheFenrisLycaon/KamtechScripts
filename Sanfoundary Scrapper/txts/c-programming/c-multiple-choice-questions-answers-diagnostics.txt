@@ -1,0 +1,134 @@
+1. The following message is displayed in stderr.
+Assertion failed: expression, file filenum, line nmn
+a) true
+b) false
+a
+Assertion failed: expression, file filename, line nmn
+This message is displayed on stderr only when the expression in the statement void assert(int expression) is zero.nmn is the line number.
+2. The source filename and line number come from the preprocessor macros ________ and ______
+a) _ _FILE_ _ and _ _LINE_ _
+b) _ _NAME_ _ and _ _NUMBER_ _
+c) _ _FILENAME_ _ and _ _NMN_ _
+d) _ _FILE_ _ and _ _NUM_ _
+a
+_ _FILE_ _ and _ _LINE_ _. Filename and line number are displayed in the error message when the expression of the assert is zero. It is displayed as
+Assertion failed: expression, file filename, line nmn.
+3. The function abort() is defined in which of the following header file?
+a) stdio.h
+b) stdarg.h
+c) stdlib.h
+d) assert.h
+c
+4. Correct code to turn assertions ON at various places throughout a source file is _________
+a) 
+#undef NDEBUG 
+#include  
+b)
+#define NDEBUG 
+#include   
+c) 
+#define NDEBUG 
+#include  
+d) 
+#undef NDEBUG 
+#include  
+a
+#undef NDEBUG 
+#include  
+  
+5. Correct code to turn assertions OFF at various places throughout a source file is _________
+a) 
+#undef NDEBUG 
+#include  
+b)
+#define NDEBUG 
+#include   
+c) 
+#define NDEBUG 
+#include  
+d) 
+#undef NDEBUG 
+#include  
+b
+#define NDEBUG 
+#include   
+  
+6. Which line from the given code is the passive form?
+#undef assert 
+#ifdef NDEBUG 
+#define assert (test) ( (void) 0) 
+#else 
+#define assert (test)  
+#endif
+a) #define assert(test)
+b) #define assert(test) ((void)0)
+c) #ifdef NDEBUG
+d) #undef assert
+b
+7. What will be the output of the following C code?
+#include <assert. h> 
+#include <stdio . h>
+ #include <stdlib.h> 
+void -Assert (char *mesg) 
+{
+   fputs (mesg, stderr); 
+   fputs (" -- assertion failed\n" , stderr); 
+   abort () ; 
+}
+a) prints only assertion message
+b) program is just aborted
+c) prints assertion message and aborts
+d) no action takes place
+c
+8. Which macro can be used to detect and report exceptional conditions?
+a) extern
+b) edom
+c) assert
+d) lbdl_min 1e-37
+c
+9. What will be the output of the following C code?
+#include <assert.h> 
+#include <stdio.h>  
+void main() 
+{ 
+   int n=11; 
+   char str[50]="program";
+   assert(n >= 10); 
+   printf(" output: %d\n", n); 
+   assert(str != NULL); 
+   printf("output: %s\n", str); 
+}
+a) output: 11
+b) error message
+c) 
+output: 11
+output: program
+d) output: program
+c
+10. What will be the output of the following C code?
+#include <assert.h> 
+#include <stdio.h>  
+void main() 
+{ 
+   int n=12; 
+   char str[50]="";
+   assert(n >= 10); 
+   printf(" output: %d\n", n); 
+   assert(str != NULL); 
+   printf("output: %s\n", str); 
+}
+a) 
+   output: 12
+   output: 
+b) output: 12
+c) 
+  output: 12
+  assertion error
+d) error
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Diagnostics – 1» Next - C Questions and Answers – Variable Argument Lists 

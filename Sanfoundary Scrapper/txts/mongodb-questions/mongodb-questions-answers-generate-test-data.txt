@@ -1,0 +1,124 @@
+1. Which of the following  will implicitly create the collection testData?
+a) 
+ 
+while (var i = 1; i <= 25; i++) 
+{
+     db.testData.insert( { x : i } )
+} 
+b) 
+ 
+for (var i = 1; i <= 25; i++) 
+{
+   db.testData.insert( { x : i } )
+} 
+c) 
+ 
+for (var i = 1; i <= 25; i++)
+{
+   db.testData.inserts( { x : i } )
+} 
+d) None of the mentioned
+b
+2. Point out the correct statement.
+a) Collection is a group of MongoDB documents
+b) MongoDB is an open-source document database, and leading NoSQL database
+c) Collections do not enforce a schema
+d) All of the mentioned
+a
+3. Which of the following method returns a cursor?
+a) find
+b) sort
+c) skip
+d) all of the mentioned
+a
+4. Which of the following function is valid for creation of new data inside MongoDB Shell?
+a) 
+
+function insertData(dbName, colName, num) 
+{
+
+  var col = db.getSiblingDB(dbName).getCollection(colName);
+
+  for (i = 0; i < num; i++) 
+  {
+      col.insertData({x:i});
+  }
+
+  print(col.count());
+
+} 
+b) 
+
+function insertData(dbName, colName, num) 
+{
+
+  var col = db.getSiblingDB(dbName).getCollection(colName);
+
+  for (i = 0; i < num; i++) 
+  {
+    col.insert({x:i});
+  }
+
+  print(col.count());
+
+} 
+c) 
+ 
+insertData(dbName, colName, num) 
+{
+
+  var col = db.getSiblingDB(dbName).getCollection(colName);
+
+  for (i = 0; i < num; i++) 
+  {
+    col.insert({x:i});
+  }
+
+  print(col.count());
+
+} 
+d) None of the mentioned
+b
+5. Point out the wrong statement.
+a) Database is a physical container for collections
+b) A single MongoDB server typically has single databases
+c) Collection is the equivalent of an RDBMS table
+d) None of the mentioned
+b
+6. _id is a ________ bytes hexadecimal number which assures the uniqueness of every document.
+a) 13
+b) 16
+c) 12
+d) 10
+c
+7. Which of the following statement will insert 400 documents in to the testData collection?
+a) insertData("test", "testData", 200)
+b) insertData("test", "testData", 400)
+c) insertData("test", "testData", 600)
+d) all of the mentioned
+b
+8. The mongo shell loads and parses the ___________ file on startup.
+a) mongo.js
+b) mongoc.js
+c) mongorc.js
+d) all of the mentioned
+c
+9. To iterate the cursor and return more documents, type _________ in the mongo shell.
+a) cursor
+b) it
+c) next
+d) none of the mentioned
+b
+10. Which of the following key is used to denote uniqueness in the collection?
+a) _id
+b) id
+c) id_
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series - MongoDB.
+Here's the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Getting Started with MongoDB – 2» Next - MongoDB Questions and Answers – CRUD Concepts 

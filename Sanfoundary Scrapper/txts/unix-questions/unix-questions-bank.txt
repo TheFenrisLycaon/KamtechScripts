@@ -1,0 +1,59 @@
+1. Which of the following system call is used for closing a file?
+a) open
+b) lseek
+c) close
+d) write
+c
+int close (int fd) 
+2. close system call returns ____
+a) 0
+b) -1
+c) 1
+d) 0 and -1
+d
+3. ____ system call is used for writing to a file.
+a) read
+b) write
+c) close
+d) seek
+b
+4. write system call returns -1 when ___________
+a) if disk fills up while write is in progress
+b) when file doesn’t exist
+c) if the file size exceeds the system’s limit
+d) if disk fills up while write is in progress and if the file size exceeds
+d
+5. ____ system call is used for positioning the offset pointer.
+a) read
+b) write
+c) open
+d) lseek
+d
+6. Which of the following offset is used with lseek system call to set the offset pointer to the end of the file?
+a) SEEK_SET
+b) SEEK_END
+c) SEEK_CUR
+d) SEEK_CR
+b
+ SEEK_SET    -    offset pointer set to the beginning of file
+ SEEK_END    -    offset pointer set to the end of file
+ SEEK_CUR    -    offset pointer remains at current location
+ 
+7.  Which of the following system call is used for truncating a file?
+a) truncate
+b) ftruncate
+c) trunk
+d) truncate and ftruncate
+d
+8. truncate needs the ___ of the file as an argument but ftruncate works with _______
+a) pathname, file descriptor
+b) file descriptor, pathname
+c) pathname, pathname
+d) file descriptor, file descriptor
+a
+Sanfoundry Global Education & Learning Series – Unix.
+To practice Unix Question Bank, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – System Calls Basics – 1» Next - Unix  Questions and Answers – File handling System Calls – 1 

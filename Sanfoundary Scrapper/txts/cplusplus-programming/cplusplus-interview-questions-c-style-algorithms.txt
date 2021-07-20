@@ -1,0 +1,93 @@
+This section on C++ interview questions and answers focuses on “C Style Algorithms”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “C Style Algorithms” along with answers, explanations and/or solutions:
+1. Pick out the in correct type of function in <algorithm> header file.
+a) Partitions
+b) Sort
+c) Merge
+d) Join
+d
+2. What type of algorithm is not available in creating our own STL style algorithms?
+a) copy_if()
+b) remove_copy_if()
+c) sort
+d) remove_copy()
+a
+3. What is meant by hash tables in C++?
+a) Array data structure
+b) Keyed array data structure
+c) Data structure
+d) Linear probing
+b
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    int main ()      {        int myints[] = {10, 20, 30, 5, 15};        vector<int> v(myints, myints + 5);        make_heap (v.begin(), v.end());        pop_heap (v.begin(), v.end());        v.pop_back();        cout << v.front() << '\n';        return 0;    }
+a) 10
+b) 20
+c) 30
+d) 5
+b
+Output:
+$ g++ style.cpp
+$ a.out
+20
+5. What will be the output of the following C++ code?
+    #include <iostream>     #include <algorithm>    #include <vector>    using namespace std;    int main ()    {        int first[] = {5, 10, 15, 20, 25};        int second[] = {50, 40, 30, 20, 10};        vector<int> v(10);        vector<int> :: iterator it;        sort (first, first + 5);        sort (second, second + 5);        it = set_union (first, first + 5, second, second + 5, v.begin());          v.resize(it-v.begin());        for (it = v.begin(); it != v.end(); ++it)            cout << ' ' << *it;        cout << '\n';        return 0;    }
+a) 5 10 15
+b) 20 25 30
+c) 40 50
+d) 20 25
+d
+Output:
+$ g++ style1.cpp
+$ a.out
+5 10 15 20 25 30 40 50
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    bool myfunction (int i, int j)    {         return (i < j);    }    struct myclass {    bool operator() (int i, int j)    {        return (i < j);    }     } myobject;    int main ()     {        int myints[] = {10, 9, 8};        vector<int> myvector (myints, myints + 3);        sort (myvector.begin(), myvector.begin() + 2);        sort (myvector.begin() + 1, myvector.end(), myfunction);        sort (myvector.begin(), myvector.end(), myobject);        for (vector<int> :: iterator it = myvector.begin(); it != myvector.end(); ++it)            cout << ' ' << *it;        return 0;    }
+a) 8 9 10
+b) 10 8 9
+c) 9 8 10
+d) 10 8 8
+a
+Output:
+$ g++ style2.cpp
+$ a.out
+8 9 10
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    bool myfunction (int i,int j)     {        return (i < j);    }    int main ()     {        int myints[] = {9, 8, 7, 6};        vector<int> myvector (myints, myints + 4);        partial_sort (myvector.begin(), myvector.begin() + 2, myvector.end());        partial_sort (myvector.begin(), myvector.begin() + 2, myvector.end(),        myfunction);        for (vector<int> :: iterator it = myvector.begin(); it != myvector.end(); ++it)            cout << ' ' << *it;        return 0;    }
+a) 6 7 8 9
+b) 9 8 6 7
+c) 6 7 9 8
+d) 9 8 5 7
+c
+Output:
+$ g++ style3.cpp
+$ a.out
+6 7 9 8
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    int main ()     {        int first[] = {5, 10, 15};        int second[] = {50, 40, 30};        vector<int> v(4);        vector<int> :: iterator it;        sort (first, first + 3);        sort (second, second + 3);        it = set_symmetric_difference (first, first + 2, second, second + 2,         v.begin());        v.resize(it - v.begin());        for (it = v.begin(); it != v.end(); ++it)        cout << ' ' << *it;        return 0;    }
+a) 5 10
+b) 30 40
+c) 50 40
+d) 5 10 30 40
+d
+Output:
+$ g++ style4.cpp
+$ a.out
+5 10 30 40
+9. What is the use of includes function in c++?
+a) Compares two ranges of data
+b) Compares two sorted ranges of data
+c) Includes a new element in the range
+d) Includes a new element in the end
+b
+10. How many parameters are required for sort_heap function?
+a) 1
+b) 2
+c) 2 or 3
+d) 3
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Permutations» Next - C++ Programming Questions and Answers – Iterators and Sequences 

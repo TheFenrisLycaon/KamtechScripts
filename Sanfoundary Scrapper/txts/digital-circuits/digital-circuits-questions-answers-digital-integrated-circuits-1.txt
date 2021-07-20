@@ -1,0 +1,66 @@
+1. Which of the following logic families has the highest maximum clock frequency?
+a) S-TTL
+b) AS-TTL
+c) HS-TTL
+d) HCMOS
+b
+2. Why is the fan-out of CMOS gates frequency dependent?
+a) Each CMOS input gate has a specific propagation time and this limits the number of different gates that can be connected to the output of a CMOS gate
+b) When the frequency reaches the critical value the gate will only be capable of delivering 70% of the normal output voltage and consequently the output power will be one-half of normal and this defines the upper operating frequency
+c) The higher number of gates attached to the output the more frequently they will have to be serviced thus reducing the frequency at which each will be serviced with an input signal
+d) The input gates of the FETs are predominantly capacitive and as the signal frequency increases the capacitive loading also increases thereby limiting the number of loads that may be attached to the output of the driving gate
+d
+3. Logic circuits that are designated as buffers, drivers or buffers/drivers are designed to have _______________
+a) A greater current/voltage capability than an ordinary logic circuit
+b) Greater input current/voltage capability than an ordinary logic circuit
+c) A smaller output current/voltage capability than an ordinary logic
+d) Greater the input and output current/voltage capability than an ordinary logic circuit
+a
+4. Which of the following will not normally be found on a data sheet?
+a) Minimum HIGH level output voltage
+b) Maximum LOW level output voltage
+c) Minimum LOW level output voltage
+d) Maximum HIGH level input current
+c
+5. Which of the following logic families has the shortest propagation delay?
+a) S-TTL
+b) AS-TTL
+c) HS-TTL
+d) HCMOS
+b
+6. What is the static charge that can be stored by your body as you walk across a carpet?
+a) 300 volts
+b) 3000 volts
+c) 30000 volts
+d) Over 30000 volts
+d
+7. What must be done to interface TTL to CMOS?
+a) A dropping resistor must be used on the CMOS of 12 V supply to reduce it to 5 V for the TTL
+b) As long as the CMOS supply voltage is 5 V they can be interfaced (however, the fan-out of the TTL is limited to five CMOS gates)
+c) A 5 V zener diode must be placed across the inputs of the TTL gates in order to protect them from the higher output voltages of the CMOS gates
+d) A pull-up resistor must be used between the TTL output-CMOS input node and Vcc; the value of RP will depend on the number of CMOS gates connected to the node
+d
+8. What causes low-power Schottky TTL to use less power than the 74XX series TTL?
+a) The Schottky-clamped transistor
+b) A larger value resistor
+c) The Schottky-clamped MOSFET
+d) A small value resistor
+b
+9. What are the major differences between the 5400 and 7400 series of ICs?
+a) The 5400 series are military grade and require tighter supply voltages and temperatures
+b) The 5400 series are military grade and allow for a wider range of supply voltages and temperatures
+c) The 7400 series are an improvement over the original 5400s
+d) The 7400 series was originally developed by Texas Instruments and the 5400 series was brought out by National Semiconductors after TI’s patents expired as a second supply source
+b
+10. Which of the following statements apply to CMOS devices?
+a) The devices should not be inserted into circuits with the power on
+b) All tools, test equipment and metal workbenches should be tied to earth ground
+c) The devices should be stored and shipped in antistatic tubes or conductive foam
+d) All of the Mentioned
+d
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – Logic Gates and Networks – 2» Next - Digital Circuits Questions and Answers – Digital Integrated Circuits – 2 

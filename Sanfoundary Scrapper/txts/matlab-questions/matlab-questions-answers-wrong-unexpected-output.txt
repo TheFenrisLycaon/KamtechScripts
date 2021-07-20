@@ -1,0 +1,134 @@
+1. What is the output of the following code?
+cos(pi/2)
+a) 0
+b) Close to 0
+c) less than 0
+d) Undefined
+b
+2. What is the output of the following code?
+sprintf(“5%”)
+a) “5”
+b) “5%”
+c) 5
+d) 5%
+a
+3. Why isn’t the answer 10.230?
+>> sprintf("%1.3d", 10.23)
+ ans = 
+       "1.023e+01"
+a) We’ve used %d
+b) We’ve used “”
+c) Character arrays are like this
+d) Undefined answer
+a
+4. How many times will the loop run?
+for i={1:.1:5}
+p=p+1;
+end
+a) 50
+b) Infinite
+c) 0
+d) 1
+d
+5. What is the output of the following code?
+A=[1 2 3 0; 4 5 6 8; 1 2 3 4; 1 3 4 5 ; 4 0 0 0 ];
+length(A)
+a) 5
+b). 4
+c) 5*4
+d) 4*5
+a
+6. What will be the result after we press Return?
+>> input('Ro !')
+Ro ! Ho !
+a) ans= Ho !
+b) Error
+c) No such command named input
+d) Cannot be determined
+b
+7. A student wants to find the following limit
+  but he writes the following code
+limit(1-cos(2*x)/x^2,x,0)
+What will he get?
+a) a2/2!
+b) a2/2
+c) Error
+d) -Inf
+d
+8. How long will ‘Hola !’ get printed?
+>>input(‘Hola !’)
+Hola !
+a) Until a value is given as an input
+b) Until a character is given as an input
+c) Until anything is given as an input
+d) Once
+a
+9. What is the output of the following code?
+syms x
+limit(1/-x,x,-0)
+a) NaN
+b) Inf
+c) 0
+d) Syntactical error
+a
+10. Why did the following happen?
+>> p
+p = 
+    "10"
+>> p+1
+ans = 
+     "101"
+a) p is a character array
+b) p is binary
+c) Error
+d) Cannot be determined
+a
+11. Why di the following happen?
+>> sprintf("   %   ")
+ans = 
+     "  "
+a) Error
+b) % is not recognized
+c) % is an operator
+d) Cannot be determined
+b
+12. What is the output of the following code?
+det([1 2 3; 4 5 6; 7 8 9])
+a) Error
+b). 0
+c) -0
+d) A very small value
+d
+13. What is the output of the following code?
+ >> { 1 2}
+ ans = 
+   1*2 cell array
+     [1]   [2]
+>> ans+{3 4}
+a) { 1 2 3 4}
+b) 
+     { 1 2
+       3 4}
+c) { 4 6}
+d) Error
+d
+14. What is the output of the following code?
+tf2zp({1 2}, {2 1})
+a) 0
+b) Returns the zeros and poles of the transfer function (s+2)/(2s+1)
+c) Syntactical Error
+d) Logical Error
+c
+15. What is the output of the following code?
+syms ‘t’,’p’;
+a) Both t and p are defined as symbolic
+b) Only t gets defined as symbolic
+c) Only p gets defined as symbolic
+d) Nothing happens
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – System Commands – 2» Next - MATLAB Questions and Answers – Syntax Error – 1 

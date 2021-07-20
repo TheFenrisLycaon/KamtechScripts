@@ -1,0 +1,69 @@
+1. Select the right statement.
+a) synchronous signal occurs because of the action that your program takes
+b) synchronous signal occurs because of action outside your program
+c) asynchronous signal occurs because of the action that your program takes
+d) division by zero is asynchronous
+a
+2. What does raise functions declared in signal.h do?
+a) reports a synchronous signal
+b) let’s you specify handling of signals
+c) reports a asynchronous signal
+d) doesn’t let you specify handling of signals
+a
+3. What is the type declared by the header file signal.h?
+a) sig_atomic_t
+b) sig_signal_t
+c) sig_signal_h
+d) sig_stomic_h
+a
+This is of int type and used as a variable in signal handling.
+4. Which among the given header file is used to handle different signals reported during program execution?
+a) stdarg.h
+b) assert.h
+c) signal.h
+d) setjmp.h
+c
+5. Select the macro that abnormally terminates the program.
+a) SIGILL
+b) SIGTERM
+c) SIGABRT
+d) SIGFPE
+c
+6. Which of the following is the correct description of the macro SIGFPE?
+a) erroneous arithmetic operation such as zero divide
+b) invalid access to storage
+c) termination request sent to the program
+d) receipt of the interactive attention signal
+a
+7. _________ gives receipt of an interactive attention signals.
+a) SIGILL
+b) SIGTERM
+c) SIGINT
+d) SIGFPE
+c
+8. The sig argument specifies the signal, which may be any signal except _______ and _________
+a) SIG_DFL, SIG_IGN
+b) SIGKILL, SIGSTOP
+c) SIG_KILL, SIG_STOP
+d) SIGCHLD, SIG_IGN
+b
+9. void (*signal(int sig, void (*func)(int)))(int);If the value of func is SIG_IGN then _________
+a) the signal will be ignored
+b) default handling for that signal will occur
+c) The signal() function will fail to execute
+d) the signal will be ignored
+a
+10. In the c library function void (*signal(int sig, void (*func)(int)))(int), which statement is true with respect to func?
+a) func is a pointer to the function
+b) func is pointer to sig
+c) func is a static variable
+d) func is a pointer that points to all type of data
+a
+void (*signal(int sig, void (*func)(int)))(int). In this ‘func’ is a pointer to the function defined by the programmer or one of the following predefined functions:
+SIG_DFL and SIG_IGN.
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Non-Local Jumps – 2» Next - C Questions and Answers – Standard Definition 

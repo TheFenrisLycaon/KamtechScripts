@@ -1,0 +1,70 @@
+1. In which amplifier the output voltage is equal to the negative sum of all the inputs?
+a) Averaging amplifier
+b) Summing amplifier
+c) Scaling amplifier
+d) All of the mentioned
+b
+2. Determine the expression of output voltage for inverting summing amplifier consisting of four internal resistors? (Assume the value of internal resistors to be equal)
+a) Vo = -(Rf/R )×(Va +Vb+Vc+Vd)
+b) Vo =  (RF/R)×(Va +Vb+Vc+Vd)
+c) Vo =  (R/ RF)×(Va +Vb+Vc+Vd)
+d) None of the mentioned
+a
+Then, the output voltage for inverting amplifier is given as Vo= -(Rf/R)×(Va +Vb+Vc+Vd). 
+3. An inverting amplifier with gain 1 have different input voltage: 1.2v,3.2v and 4.2v. Find the output voltage?
+a) 4.2v
+b) 8.6v
+c) -4.2v
+d) -8.6v
+d
+VO= -(Va+Vb+Vc) =-(1.2+3.2+4.2)= -8.6v. 
+4. In which type of amplifier, the input voltage is amplified by a scaling factor
+a) Summing amplifier
+b) Averaging amplifier
+c) Weighted amplifier
+d) Differential amplifier
+c
+5. An inverting scaling amplifier has three input voltages Va, Vb and Vc. Find it output voltage?
+a) VO= – {[(RF/Ra)×Va] +[(RF/Rb)×Vb]+[(RF/Rc)×Vc]}
+b) VO= – [(RF/Ra)+(RF/Rb)+(RF/Rc)]×[( Va +Vb+Vc)].
+c)  VO = – {[(Ra/RF)×Va] +[(Rb/RF)×Vb]+[(Rc/RF)×Vc]}
+d) None of the mentioned
+a
+=> ∴ RF/Ra ≠ RF/Rb ≠ RF/Rc
+Therefore, output voltage Vo = -{[(RF/Ra) Va] +[(RF/Rb) Vb]+[(RF/Rc) Vc]}. 
+6. An amplifier in which the output voltage is equal to average of input voltage?
+a) Summing amplifier
+b) Weighting amplifier
+c) Scaling amplifier
+d) Averaging amplifier
+d
+7. Find out the gain value  by which each input of the averaging amplifier is amplified ?( Assume there are four inputs)
+a) 0.5
+b) 0.25
+c) 1
+d) 2
+b
+=> RF /R =1/n , where n=number of inputs
+∴ RF /R=1/4 = 0.25 (Four inputs)
+So, each input in the averaging amplifier must be amplified by 0.25. 
+8. 3v, 5v and 7v are the three input voltage applied to the inverting input terminal of averaging amplifier. Determine the output voltage?
+a) -5v
+b) -10v
+c) -15v
+d) -20v
+a
+9. The following circuit represents an inverting scaling amplifier. Compute the value of RoM and VO?
+a) VO = -0.985v ; RoM = 111.11Ω
+b) VO = -2.567v ; RoM = 447.89Ω
+c) VO = -1.569v ; RoM = 212.33Ω
+d) VO = -1.036v ; RoM = 320.56Ω
+d
+= – {[(10kΩ/1kΩ)×3.3mv] + [(10kΩ/1.25kΩ)×5mv] + [(10kΩ/820Ω)×7.9mv]} = -1.036v.
+RoM = [Ra||Rbc||RF]
+= [(Ra×Rb)/(Ra+ Rb)] || [(Rc×RF)/( Rc+ RF)] = [(1kΩ×1.25kΩ)/(1kΩ+1.25kΩ)] || [(820Ω×10kΩ)/(820Ω+10kΩ)] = 555.55||757.85 =[(555.55 ×757.85)/(555.55+757.85)] = 320.56Ω. 
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Peaking Amplifier» Next - Linear Integrated Circuit Questions and Answers – Summing, Scaling & Averaging Amplifier – 2 

@@ -1,0 +1,92 @@
+1. What is the process of defining two or more methods within same class that have same name but different parameters declaration?
+a) method overloading
+b) method overriding
+c) method hiding
+d) none of the mentioned
+a
+2. Which of these can be overloaded?
+a) Methods
+b) Constructors
+c) All of the mentioned
+d) None of the mentioned
+c
+3. Which of these is correct about passing an argument by call-by-value process?
+a) Copy of argument is made into the formal parameter of the subroutine
+b) Reference to original argument is passed to formal parameter of the subroutine
+c) Copy of argument is made into the formal parameter of the subroutine and changes made on parameters of subroutine have effect on original argument
+d) Reference to original argument is passed to formal parameter of the subroutine and changes made on parameters of subroutine have effect on original argument
+a
+4. What is the process of defining a method in terms of itself, that is a method that calls itself?
+a) Polymorphism
+b) Abstraction
+c) Encapsulation
+d) Recursion
+d
+5. What will be the output of the following Java code?
+class San{ public void m1 (int i,float f) {  System.out.println(" int float method"); }  public void m1(float f,int i);  {  System.out.println("float int method");  }   public static void main(String[]args)  {    San s=new San();        s.m1(20,20);  }}
+a) int float method
+b) float int method
+c) compile time error
+d) run time error
+c
+6. What will be the output of the following Java code?
+    class overload     {        int x; 	int y;        void add(int a)         {            x =  a + 1;        }        void add(int a, int b)        {            x =  a + 2;        }            }        class Overload_methods     {        public static void main(String args[])        {            overload obj = new overload();               int a = 0;            obj.add(6);            System.out.println(obj.x);             }   }
+a) 5
+b) 6
+c) 7
+d) 8
+c
+output:
+$ javac Overload_methods.java
+$ java Overload_methods
+7
+7. What will be the output of the following Java code?
+    class overload     {        int x; 	int y;        void add(int a)        {            x =  a + 1;        }        void add(int a , int b)        {            x =  a + 2;        }            }        class Overload_methods     {        public static void main(String args[])        {            overload obj = new overload();               int a = 0;            obj.add(6, 7);            System.out.println(obj.x);             }    }
+a) 6
+b) 7
+c) 8
+d) 9
+c
+output:
+$ javac Overload_methods.java
+$ java Overload_methods
+8
+8. What will be the output of the following Java code?
+   class overload    {        int x; 	double y;        void add(int a , int b)         {            x = a + b;        }        void add(double c , double d)        {            y = c + d;        }        overload()         {            this.x = 0;            this.y = 0;        }            }        class Overload_methods     {        public static void main(String args[])        {            overload obj = new overload();               int a = 2;            double b = 3.2;            obj.add(a, a);            obj.add(b, b);            System.out.println(obj.x + " " + obj.y);             }   }
+a) 6 6
+b) 6.4 6.4
+c) 6.4 6
+d) 4 6.4
+d
+output:
+$ javac Overload_methods.java
+$ java Overload_methods 
+4 6.4
+9. What will be the output of the following Java code?
+    class test     {        int a;        int b;        void meth(int i , int j)         {            i *= 2;            j /= 2;        }              }        class Output     {        public static void main(String args[])        {            test obj = new test();	    int a = 10;            int b = 20;                         obj.meth(a , b);            System.out.println(a + " " + b);                }     }
+a) 10 20
+b) 20 10
+c) 20 40
+d) 40 20
+a
+output:
+$ javac Output.java
+$ java Output
+10 20
+10. What will be the output of the following Java code?
+    class test     {        int a;        int b;        test(int i, int j)         {            a = i;            b = j;        }        void meth(test o)         {            o.a *= 2;            O.b /= 2;        }              }        class Output     {        public static void main(String args[])        {            test obj = new test(10 , 20);            obj.meth(obj);            System.out.println(obj.a + " " + obj.b);                }     }
+a) 10 20
+b) 20 10
+c) 20 40
+d) 40 20
+b
+output:
+$ javac Output.java
+$ java Output
+20 10
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Heap and Garbage Collection» Next - Java Questions & Answers – Access Control – 1 

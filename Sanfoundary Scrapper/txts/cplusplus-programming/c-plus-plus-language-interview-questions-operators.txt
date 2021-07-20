@@ -1,0 +1,100 @@
+This section on C++ language interview questions and answers focuses on “Operators”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ language interview questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ language interview questions on “Operators” along with answers, explanations and/or solutions:
+1. Which operator is having the right to left associativity in the following?
+a) Array subscripting
+b) Function call
+c) Addition and subtraction
+d) Type cast
+d
+2. Which operator is having the highest precedence?
+a) postfix
+b) unary
+c) shift
+d) equality
+a
+3. What is this operator called ?:?
+a) conditional
+b) relational
+c) casting operator
+d) unrelational
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int a;        a = 5 + 3 * 5;        cout << a;        return 0;    }
+a) 35
+b) 20
+c) 25
+d) 30
+b
+Output:
+$ g++ op1.cpp
+$ a.out
+20
+ 
+5. What is the use of dynamic_cast operator?
+a) it converts virtual base class to derived class
+b) it converts the virtual base object to derived objects
+c) it will convert the operator based on precedence
+d) it converts the virtual base object to derived class
+a
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int a = 5, b = 6, c, d;        c = a, b;        d = (a, b);        cout << c << ' ' << d;        return 0;    }
+a) 5  6
+b) 6  5
+c) 6  7
+d) 6  8
+a
+Output:
+$ g++ op3.cpp
+$ a.out
+5    6
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int i, j;        j = 10;        i = (j++, j + 100, 999 + j);        cout << i;        return 0;    }
+a) 1000
+b) 11
+c) 1010
+d) 1001
+c
+Output:
+$ g++ op2.cpp
+$ a.out
+1010
+ 
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main ()    {        int x, y;        x = 5;        y = ++x * ++x;        cout << x << y;        x = 5;        y = x++ * ++x;        cout << x << y;        return 0;    }
+a) 749735
+b) 736749
+c) 367497
+d) 367597
+a
+Output:
+$ g++ op.cpp
+$ a.out
+749735
+9. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int a = 5, b = 6, c;        c = (a > b) ? a : b;        cout << c;        return 0;    }
+a) 6
+b) 5
+c) 4
+d) 7
+a
+Output:
+$ g++ op1.cpp
+$ a.out
+6
+10. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    main()    {        double a = 21.09399;        float b = 10.20;        int c ,d;        c = (int) a;        d = (int) b;        cout << c <<' '<< d;        return 0;    }
+a) 20 10
+b) 10 21
+c) 21 10
+d) 10 20
+c
+Output:
+$ g++ op5.cpp
+$ a.out
+21	10
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Character Classification» Next - C++ Programming Questions and Answers – Statements 

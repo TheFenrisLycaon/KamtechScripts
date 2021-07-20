@@ -1,0 +1,79 @@
+1. Which of the following is not a subset of BRE (basic regular expression) character subset?
+a) *
+b) .*
+c) ^$
+d) ch+
+d
+Symbols    Matches
+*          - matches zero or more occurrences of the previous character.
+.*         - nothing or any number of characters
+^$         - lines containing nothing
+2. Character class is used for matching a group of characters enclosed within a pair of _____
+a) ( )
+b) “ “
+c) [ ]           
+d) { }
+c
+3. The following command will match ‘Agarwal’, ‘agarwal’ and ‘agrawal’.
+$ grep “[aA]g[ar][ar]wal” emp.lst
+a) True
+b) False
+a
+Join [email protected]
+4.  Which of the following symbol is used for matching the immediately preceding character?
+a) *
+b) $
+c) [ ]          
+d) %
+a
+5. Which symbol is used for matching a single character?
+a) *
+b) .
+c) &
+d) %
+b
+6. Which of the following symbols are used for matching a pattern at specified locations?
+a) *
+b) ^
+c) $
+d) ^ and $
+d
+^     - for matching at the beginning of a line
+$     - for matching at the end of line
+7. The following command will match the lines beginning with ‘2’.
+$ grep “^2”  emp.lst
+a) True
+b) False
+a
+2200| chanchal singhal | director | sales | 03/09/98 | 6700
+2456| lalit chaudhary | director | marketing | 04/05/87 | 8200
+2000 | barun sengupta | director | production | 09/09/78 | 7600
+8. Which of the following symbols are a set of  ERE (extended regular expressions)?
+a) +
+b) –
+c) ?
+d) + and –
+d
++     - matches one or more occurrences of the previous character
+?    - matches zero or one occurrence of the previous character
+9. Which option is used when we want to use an ERE with grep command?
+a) -e
+b) -i
+c) -E
+d) -i
+c
+10. Which of the following symbols are used for matching multiple patterns?
+a) |
+b) &
+c) ( and )
+d)  | and ( and )
+c
+$ grep -E ‘gupta|agarwal’  emp.lst
+Similarly to match sen gupta and das gupta use the following command:
+$ grep -E (sen|das)gupta emp.lst.
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – grep command – 1» Next - Unix  Questions and Answers – sed command – 1 

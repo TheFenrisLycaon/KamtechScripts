@@ -1,0 +1,273 @@
+1. Where should we place catch block of the derived class in a try-catch block?
+a) Before the catch block of Base class
+b) After the catch block of Base class
+c) Anywhere in the sequence of catch blocks
+d) After all the catch blocks
+a
+2. What happens when this C++ program is compiled?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+class A
+{
+	int a;
+    public:
+	A(){}
+};
+ 
+class B: public A
+{
+	int b;
+    public:
+	B(){}
+};
+ 
+void func()
+{
+	B b;
+	throw b;
+}
+ 
+int main()
+{
+	try{
+		func();
+	}
+	catch(A a){
+		cout<<"Caught A Class\n";
+	}
+	catch(B b){
+		cout<<"Caught B Class\n";
+	}
+}
+a) The program compiles successfully without any errors or warnings
+b) Compile-time error occurs
+c) The program compiles successfully with warnings
+d) The program gives both errors and warnings
+c
+Output:
+$ g++ check.cpp
+check.cpp: In function ‘int main()’:
+check.cpp:33:2: warning: exception of type ‘B’ will be caught
+  catch(B b){
+  ^~~~~
+check.cpp:30:2: warning:    by earlier handler for ‘A’
+  catch(A a){
+  ^~~~~
+3. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+class A
+{
+	int a;
+    public:
+	A(){}
+};
+ 
+class B: public A
+{
+	int b;
+    public:
+	B(){}
+};
+ 
+void func()
+{
+	B b;
+	throw b;
+}
+ 
+int main()
+{
+	try{
+		func();
+	}
+	catch(A a){
+		cout<<"Caught A Class\n";
+	}
+	catch(B b){
+		cout<<"Caught B Class\n";
+	}
+}
+a) Caught B Class
+b) Caught A Class
+c) Compile-time error
+d) Run-time error
+b
+Output:
+$ ./a.out 
+Caught A Class
+4. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+class A
+{
+	int a;
+   public:
+	A(){}
+};
+ 
+class B: public A
+{
+	int b;
+    public:
+	B(){}
+};
+ 
+void func()
+{
+	B b;
+	throw b;
+}
+ 
+int main()
+{
+	try{
+		func();
+	}
+	catch(B b){
+		cout<<"Caught B Class\n";
+	}
+	catch(A a){
+		cout<<"Caught A Class\n";
+	}
+}
+a) Caught B Class
+b) Caught A Class
+c) Compile-time error
+d) Run-time error
+a
+Output:
+$ ./a.out 
+Caught B Class
+5. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+class A
+{
+	int a;
+    public:
+	A(){}
+};
+class B: public A
+{
+	int b;
+    public:
+	B(){}
+};
+ 
+void func()
+{
+	B b;
+	throw b;
+}
+int main()
+{
+	try{
+		func();
+	}
+	catch(B *b){
+		cout<<"Caught B Class\n";
+	}
+	catch(A a){
+		cout<<"Caught A Class\n";
+	}
+}
+a) Caught B Class
+b) Caught A Class
+c) Compile-time error
+d) Run-time error
+b
+6. What id the syntax for catching any type of exceptions?
+a) catch(Exception e)
+b) catch(…)
+c) catch(Exception ALL)
+d) catch(ALL)
+b
+7. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+class A
+{
+	int a;
+    public:
+	A(){}
+};
+ 
+class B: public A
+{
+	int b;
+    public:
+	B(){}
+};
+ 
+void func1()
+{
+	B b;
+	throw b;
+}
+ 
+void func2()
+{
+	A a;
+	throw a;
+}
+ 
+int main()
+{
+	try{
+		func1();
+	}
+	catch(...){
+		cout<<"Caught All types of exceptions\n";
+	}
+	try{
+		func2();
+	}
+	catch(B b){
+		cout<<"Caught All types of exceptions\n";
+	}
+}
+a) Caught All types of exceptions
+b) 
+Caught All types of exceptions
+Aborted (core dumped)
+c) Error
+d) 
+Caught All types of exceptions
+Caught All types of exceptions
+b
+  
+8. Uncaught exception leads to ______________
+a) termination of program
+b) successful execution of programs
+c) no effect on the program
+d) execution of other functions of the program starts
+a
+9. An uncaught handler returns to _______________
+a) main function
+b) its caller
+c) its callee
+d) waits there for some time
+c
+10. Header file used for exception handling in C++?
+a) <cstdlib>
+b) <string>
+c) <handler>
+d) <exception>
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Exception Handling – 1» Next - C++ Programming Questions and Answers – Exception Handling – 3 

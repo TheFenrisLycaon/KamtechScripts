@@ -1,0 +1,70 @@
+1. Which of the following is used to compress files?
+a) cmp
+b) gzip
+c) gunzip
+d) comm
+b
+$ gzip  file01.txt
+2. Which one of the following extension is provided by gzip to the compressed filename?
+a) .cm
+b) .gz
+c) .zip
+d) .zp
+b
+3. Which option is used with gzip command to check compression ratio for files?
+a) -l
+b) -c
+c) -e
+d) -x
+a
+$ gzip -l abd.txt.gz  file01.txt.gz
+Compressed    Uncompressed        Ratio    	Uncompressed name
+788096        3875302             79.6%    	 abd.txt
+128341        372267              65.5%    	 file01.txt
+916437        4247569             78.9%    	 (totals)
+4. We can provide original filenames without .gz extension while checking compression ratio using gzip  – l?
+a) True
+b) False
+a
+5. Which option is used with gzip command for recursive compression?
+a) -c
+b) -l
+c) -d
+d) -r
+d
+$ gzip  -r  dir_01        		// compress all files  in dir_01
+ 
+6. Which of the following is used for decompressing files?
+a) GZIP
+b) gunzip
+c) uncmp
+d) cmp
+b
+$ gunzip  file_01.txt.gz
+7. We cannot uncompress files using gzip.
+a) True
+b) False
+b
+$ gzip -d file01.txt.gz
+8. We can provide multiple filenames as arguments to gunzip.
+a) True
+b) False
+a
+9. Which of the following is a better agent than gzip?
+a) bzip2
+b) bzip2 and bunzip2
+c) bunzip2
+d) allzip
+b
+10. Which of the following is an archival program?
+a) arch
+b) archive
+c) ar
+d) tar
+d
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Counting File Data: wc Command» Next - Unix  Questions and Answers – Compressing and Archiving Files – 2 

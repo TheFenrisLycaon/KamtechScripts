@@ -1,0 +1,67 @@
+1. From which of these classes, the character based output stream class Stream Writer is derived?
+a) TextWriter
+b) TextReader
+c) Character Stream
+d) All of the mentioned
+a
+2. The advantages of using character stream based file handling are?
+a) they operate directly on unicode characters
+b) they operate directly on bits
+c) they store unicode text
+d) all of the mentioned
+a
+3. Which among the following classes are used to perform the character based file operations?
+a) StreamReader
+b) InputReaderWriter
+c) OutputStream
+d) All of the mentioned
+a
+4. Which of these is a method used to clear all the data present in output buffers?
+a) clear()
+b) flush()
+c) fflush()
+d) close()
+b
+5. Which method of the character stream class returns the numbers of characters successfully read starting at index?
+a) int Read()
+b) int Read(char[] buffer, int index, int count)
+c) int ReadBlock(char[ ] buffer, int index, int count)
+d) none of the mentioned
+c
+6. Which method of character stream class returns the numbers of characters successfully read starting at count?
+a) int Read()
+b) int Read(char[] buffer, int index, int count)
+c) int ReadBlock(char[ ] buffer, int index, int count)
+d) none of the mentioned
+b
+7. Which method among the following returns the integer if no character is available?
+a) int peek()
+b) int read()
+c) string ReadLine()
+d) none of the mentioned
+a
+8. Which of the following is used to perform all input & output operations in C#?
+a) streams
+b) Variables
+c) classes
+d) Methods
+a
+9. Which of the following is a type of stream in C#?
+a) Integer stream
+b) Character stream
+c) Float stream
+d) Long stream
+b
+10. In the given constructor declaration for character based file operation what does ‘path’ and ‘bool specifies?
+ StreamWriter(string path, bool append)
+a) the name of the file to open
+b) specifies the full path of file
+c) if append is true, the file is appended to the end of the existing file
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Byte Stream» Next - C# Questions & Answers – Fundamental of Delegates 

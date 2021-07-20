@@ -1,0 +1,66 @@
+1. Which of the following will increase the Rows/sec calculation in SSIS?
+a) Improve drivers and driver configurations
+b) Start single connections
+c) Use single NIC cards
+d) None of the mentioned
+a
+2. Point out the correct statement.
+a) If the network is your bottleneck, then a potential solution is to use a single NIC card per server
+b) To overcome the limitations of drivers, you can try to start multiple connections to your data source
+c) For 64-bit systems, at design time you may be loading 32-bit drivers; ensure that at run time you are using 32-bit drivers
+d) None of the mentioned
+b
+3. When you execute SQL statements within Integration Services, the following optimization can be made?
+a) If Integration Services and SQL Server run on the different server, use the SQL Server destination instead of the OLE DB destination to improve performance
+b) In SQL Server 2008 Integration Services, there is a new feature of the shared lookup cache
+c) If you cannot use commit size 1, use the highest possible value of commit size to reduce the overhead of multiple-batch writing
+d) All of the mentioned
+b
+4. Which of the following steps should be carried out using data types in SSIS for efficient results?
+a) Make data types as wide as possible so you will allocate more memory for your transformation
+b) Do not perform excessive casting of data types
+c) Do not watch precision issues when using the money, float, and decimal types
+d) None of the mentioned
+b
+5. Point out the wrong statement.
+a) Heap inserts are typically slower than using a clustered index
+b) Use partitions and partition SWITCH command; i.e., load a work table that contains a single partition and SWITCH it into the main table after you build the indexes and put the constraints on
+c) Use the NOLOCK or TABLOCK hints to remove locking overhead
+d) Use a commit size of <5000 to avoid lock escalation when inserting; note that in SQL Server 2008 you can now enable/disable lock escalation at the object level, but use this wisely
+a
+6. Which of the following error message indicates that the package cannot run in SSIS?
+a) DTS_E_CANTINSERTCOLUMNTYPE
+b) DTS_E_CACHELOADEDFROMFILE
+c) DTS_E_CANNOTCONVERTBETWEENUNICODEANDNONUNICODESTRINGCOLUMN
+d) DTS_E_CONNECTIONREQUIREDFORMETADATA
+a
+7. Which of the following is the event logged by the Integration Services?
+a) SQLISService_255
+b) SQLISService_256
+c) SQLISService_155
+d) SQLISService_156
+b
+8. Purpose of SQLISPackage_12546 event in SQLIS package is to _____________
+a) Indicate that a package started
+b) Indicate that a task or other executable in a package has finished its work
+c) Indicate that a warning message was raised in a package
+d) All of the mentioned
+b
+9. A basic package in SSIS includes the following elements?
+a) T-SQL flow elements
+b) Control flow elements
+c) DataSet flow statements
+d) None of the mentioned
+b
+10. Which of the following evaluation operation is provided in SSIS?
+a) A constraint that uses only the execution result of the precedence executable to determine whether the constrained executable runs
+b) An expression that is evaluated to determine whether the constrained executable runs
+c) An expression and a constraint that combines the requirements of execution results of the precedence executable
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice SQL Server question bank, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Integration Services – 1» Next - SQL Server Questions and Answers – Access With Sql Server 

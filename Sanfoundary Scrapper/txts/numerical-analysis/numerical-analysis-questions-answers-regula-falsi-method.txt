@@ -1,0 +1,282 @@
+1. The formula used for solving the equation using Regula Falsi method is x = \(\frac{bf(a)-af(b)}{f(a)-f(b)}\).
+a) True
+b) False
+a
+The slope can be written as
+\(\frac{y-f(a)}{x-a}=\frac{f(a)-f(b)}{a-b}\) 
+let y = f(x) = 0
+\(\frac{-f(a)}{x-a}=\frac{f(a)-f(b)}{a-b} \) 
+Therefore,
+x = \(\frac{bf(a)-af(b)}{f(a)-f(b)}\).
+2. Find the positive root of the equation 3x-cosx-1 using Regula Falsi method and correct upto 4 decimal places.
+a) 0.6701
+b) 0.5071
+c) 0.6071
+d) 0.5701
+c
+f(1) = 1.459697694
+Therefore the root lies between 0 and 1 and
+a = 0; f(a) = -2
+b = 1; f(b) = 1.459697694
+Substituting the values in the formula,
+x = \(\frac{bf(a)-af(b)}{f(a)-f(b)}\),
+we get \(x1 = \frac{-2-0}{-2-1.459697694}\)=0.57808519; f(x1) = -0.103254906
+Therefore, x1 becomes a to find the next point.
+\(X2 =\frac{-0.103254906-(0.57808519)(1.459697694)}{-0.103254906-1.459697694}\)= 0.604952253; f(x2) = -7.67249301*10-3
+Therefore, x2 becomes a to find the next point.
+\(X3 =\frac{(-7.67249301*10^{-3}-(0.604952253)(1.459697694)}{(-7.67249301*10^{-3})-1.459697694}\) = 0.607017853; f(x3) = -2.991836798*10-4
+Therefore, x3 becomes a to find the next point.
+\(X4 =\frac{(-2.991836798*10^{-4})-(0.607017853)(1.459697694)}{(-2.991836798*10^{-4} )-1.459697694}\) =0.607098383; f(x4) = -1.165728726*10-5
+Therefore, x4 becomes a to find the next point.
+\(X5 = \frac{(-1.165728726*10^{-5})-(0.607098383)1.459697694}{(-1.165728726*10^{-5} )-1.459697694}\)=0.60710152; f(x5) = -4.54801046*10-7
+Therefore x5 becomes a to find the next point.
+\(X6 =\frac{(-4.54801046*10^{-7})-(0.60710152)(1.459697694)}{(-4.54801046*10^{-7} )-1.459697694}]\)= 0.607101642
+Therefore,  the positive root corrected to 4 decimal places is 0.6071.
+3. Find the positive root of the equation x3 + 2x2 + 10x – 20 using Regula Falsi method and correct upto 4 decimal places.
+a) 1.3688
+b) 1.3866
+c) 1.4688
+d) 1.6488
+a
+f(2) = 16
+Therefore, root lies between 1 and 2
+a = 1; f(a) = -7
+b = 2; f(b) = 16
+Substituting the values in the formula,
+x = \(\frac{bf(a)-af(b)}{f(a)-f(b)}\),
+we get \(x1 = \frac{2(-7)-16}{-7-16}\)=1.304347826; f(x1) = -1.334757952
+Therefore, x1 becomes a to find the next point.
+\(X2 =\frac{2(-1.334757952)-(1.304347826)16}{-1.334757952-16}\)= 1.357912305; f(x2) = -0.229135731
+Therefore, x2 becomes a to find the next point.
+\(X3 = \frac{2(-0.229135731)-(1.357912305)16}{-0.229135731-16}\)=1.366977805; f(x3) = -0.038591868
+Therefore, x3 becomes a to find the next point.
+\(X4 = \frac{2(-0.038591868)-16(1.366977805)}{-0.038591868-16}\)=1.368500975; f(x4) = -6.478731338*10-3
+Therefore, x4 becomes a to find the next point.
+\(X5 =\frac{2(-6.478731338*10^{-3})-16(1.368500975)}{(-6.478731338*10^{-3})-16}\)= 1.368756579; f(x5) = -1.087052822 * 10-3
+Therefore x5 becomes a to find the next point.
+\(X6 = \frac{2(-1.087052822*10^{-3})-16(1.368756579)}{(-1.087052822*10^{-3})-16}\)=1.368799463; f(x6) = -1.823661977*10-4
+Therefore x6 becomes a to find the next point.
+\(X7 = \frac{2(-1.823661977*10^{-4})-16(1.368799463)}{(-1.823661977*10^{-4})-16}\)=1.368806657; f(x7) = -3.0601008*10-5
+Therefore x7 becomes a to find the next point.
+\(X8 = \frac{2(-3.0601008*10^{-5})-1.368806657(16)}{(-3.0601008*10^{-5})-16}\)=1.368807864.
+Therefore, the positive root corrected to 4 decimal places is 1.3688.
+4. Find the positive root of the equation 3x+sinx-ex using Regula Falsi method and correct upto 4 decimal places.
+a) 0.4604
+b) 0.4306
+c) 0.3604
+d) 0.4304
+c
+f(1) = 1.123189156
+Therefore, root lies between 0 and 1
+a = 0; f(a) = -1
+b = 1; f(b) = 1.123189156
+Substituting the values in the formula,
+x = \(\frac{bf(a)-af(b)}{f(a)-f(b)} \),
+we get \(x1 = \frac{-1}{-1-1.123189156}\)=0.470989594; f(x1) = 0.265158816
+Therefore, x1 becomes b to find the next point.
+\(X2 = \frac{-0.470989594}{-1-0.265158816}\)=0.372277051; f(x2) = 0.029533668
+Therefore, x2 becomes b to find the next point.
+\(X3 = \frac{-0.029533668}{-0.029533668-1}\)=0.361597743; f(x3) = 2.940998193*10-3
+Therefore, x3 becomes b to find the next point.
+\(X4 = \frac{-0.361597743}{-1-(2.940998193*10^{-3})}\)=0.360537403; f(x4) = 2.89448416*10-3
+Therefore, x4 becomes b to find the next point.
+\(X5 =\frac{-0.360537403}{-1-(2.89448416*10^{-3})}\)=0.360433076; f(x5) = 2.84536596 * 10-5
+Therefore x5 becomes b to find the next point.
+\(X6 = \frac{-0.360433076}{-1-(2.84536596*10^{-5})}\)=0.36042282
+Therefore, the positive root corrected to 4 decimal places is 0.3604.
+5. Find the positive root of the equation x-cosx using Regula Falsi method and correct to 4 decimal places.
+a) 0.73908
+b) 0.63908
+c) 0.74980
+d) 0.64908
+a
+f(1) = 0.459697694
+Therefore, root lies between 0 and 1
+a = 0; f(a) = -1
+b = 1; f(b) = 0.459697694
+Substituting the values in the formula,
+x = \(\frac{bf(a)-af(b)}{f(a)-f(b)}\),
+we get \(x1 = \frac{-1}{-1-0.459697694}\)=0.685073357; f(x1) = -0.089299276
+Therefore, x1 becomes a to find the next point.
+\(X2 =\frac{-0.089299276-0.685073357(0.459697694)}{-0.089299276-0.459697694} \)= 0.736298997; f(x2) = -4.66039555*10-3
+Therefore, x2 becomes a to find the next point.
+\(X3 = \frac{-(-4.66039555*10^{-3})-0.736298997(0.459697694)}{(-4.66039555*10^{-3})-0.459697694}\)=0.738945355; f(x3) = -2.339261948*10-4
+Therefore, x3 becomes a to find the next point.
+\(X4 = \frac{(-2.339261948*10^{-4})-0.738945355(0.459697694)}{(-2.339261948*10^{-4})-0.459697694}\)=0.73907813; f(x4) = -1.172028721*10-5
+Therefore, x4 becomes a to find the next point.
+\(X5 = \frac{-(1.172028721*10^{-5})-0.73907813(0.459697694)}{(-1.172028721*10^{-5} )-0.459697694}\)=0.739084782
+Therefore, the positive root corrected to 4 decimal places is 0.73908.
+6. Find the positive root of the equation xex-3 using Regula Falsi method and correct to 4 decimal places.
+a) 1.0498
+b) 1.4089
+c) 2.0489
+d) 2.4089
+a
+f(2) = 11.7781122
+Therefore, root lies between 1 and 2
+a = 1; f(a) = -0.281718171
+b = 2; f(b) = 11.7781122
+Substituting the values in the formula,
+x = \(\frac{bf(a)-af(b)}{f(a)-f(b)}\),
+we get \(x1 = \frac{2(-0.281718171)-11.7781122}{-0.281718171-11.7781122}\)=1.023360044; f(x1) = -0.152471518
+Therefore, x1 becomes a to find the next point.
+\(X2 = \frac{2(-0.152471518)-1.023360044(11.7781122)}{-0.152471518-11.7781122}\)=1.03584141; f(x2) = -0.081541799
+Therefore, x2 becomes a to find the next point.
+\(X3 = \frac{2(-0.081541799)-1.03584141(11.7781122)}{-0.081541799-11.7781122}\)=1.042470543; f(x3) = -0.043329034
+Therefore, x3 becomes a to find the next point.
+\(X4 = \frac{2(-0.043329034)-1.042470543(11.7781122)}{-0.043329034-11.7781122}\)=1.045980168; f(x4) = -0.022944949
+Therefore, x4 becomes a to find the next point.
+\(X5 = \frac{2(-0.022944949)-1.045980168(11.7781122)}{-0.022944949-11.7781122}\)=1.047835063; f(x5) = -0.012128518
+Therefore x5 becomes a to find the next point.
+\(X6 = \frac{2(-0.012128518)-1.047835063(11.7781122)}{-0.012128518-11.7781122}\)=1.048809506; f(x6) = -6.43428458*10-3
+Therefore x6 becomes a to find the next point.
+\(X7 = \frac{2(-6.43428458*10^{-3})-1.048809506(11.7781122)}{-(6.43428458*10^{-3} )-11.7781122}\)=1.04932885; f(x7) = -3.396085929*10-3
+Therefore x7 becomes a to find the next point.
+\(X8 = \frac{2(-3.396085929*10^{-3})-1.04932885(11.7781122)}{(-3.396085929*10^{-3} )-11.7781122}\)= 1.049602886; f(x8) = -1.792004364*10-3
+Therefore x8 becomes a to find the next point.
+\(X9 = \frac{2(-1.792004364*10^{-3})-1.049602886(11.7781122)}{(-1.792004364*10^{-3} )-11.7781122}\)=1.049773434; f(x9)=-7.933671744 * 10-4
+Therefore x9 becomes a to find the next point.
+\(X10 = \frac{2(-7.933671744*10^{-4})-(1.049773434)11.7781122}{(-7.933671744*10^{-4} )-11.7781122}\) = 1.049837436.
+Therefore, the positive root corrected to 4 decimal places is 1.0498.
+7. Find the positive root of the equation 4x = ex using Regula Falsi method and correct to 4 decimal places.
+a) 0.5374
+b) 0.3574
+c) 0.3647
+d) 0.4673
+b
+f(1) = 1.281718172
+Therefore, root lies between 0 and 1
+a = 0; f(a) = -1
+b = 1; f(b) = 1.281718172
+Substituting the values in the formula,
+x = \(\frac{bf(a)-af(b)}{f(a)-f(b)} \),
+we get \(x1 = \frac{-1}{-1-1.281718172}\)=0.43826622; f(x1) = 0.203047383
+Therefore, x1 becomes b to find the next point.
+\(X2 = \frac{0.43826622}{-1-0.203047383} \)= 0.364296723; f(x2) = 0.017685609
+Therefore, x2 becomes b to find the next point.
+\(X3 = \frac{-0.364296723}{-1-0.017685609}\)=0.357965878; f(x3) = 1.446702162*10-3
+Therefore, x3 becomes b to find the next point.
+\(X4 = \frac{-0.357965878}{-1-(1.446702162*10^{-3})}\)=0.357448756; f(x4) = 1.177221*10-4
+Therefore, x4 becomes b to find the next point.
+\(X5 = \frac{-0.357448756}{-1-(1.177221*10^{-4})}\)= 0.357406681
+Therefore, the positive root corrected to 4 decimal places is 0.3574. 
+8. Find the positive root of the equation xlogx = 1.2 using Regula Falsi method and correct to 4 decimal places.
+a) 2.7406
+b) 2.4760
+c) 2.5760
+d) 2.4706
+a
+f(3) = 0.231363764
+Therefore, root lies between 2 and 3
+a = 2; f(a) = -0.597940008
+b = 3; f(b) = 0.231363764
+Substituting the values in the formula,
+x = \(\frac{bf(a)-af(b)}{f(a)-f(b)}\),
+we get \(x1 = \frac{3(-0.597940008)-2(0.231363764)}{-0.597940008-0.231363764}\)=2.721014456; f(x1) = -0.017091075
+Therefore, x1 becomes a to find the next point.
+\(X2 = \frac{3(-0.017091075)-2.721014456(0.231363764)}{-0.017091075-0.231363764}\)=2.740205722; f(x2) = -3.840558354*10-4
+Therefore, x2 becomes a to find the next point.
+\(X3 = \frac{3(-3.840558354*10^{-4})-2.740205722(0.231363764)}{(-3.840558354*10^{-4})-0.231363764)}\)=2.740636257; f(x3) = -8.58117537*10-6
+Therefore, x3 becomes a to find the next point.
+\(X4 = \frac{3(-8.58117537*10^{-6})-(2.740636257)0.231363764}{(-8.58117537*10^{-6})-0.231363764}\)=2.740645876.
+Therefore, the positive root corrected to 4 decimal places is 2.7406.
+9. Find the positive root of the equation e-x = sinx using Regula Falsi method and correct upto 4 decimal places.
+a) 0.5855
+b) 0.6685
+c) 0.5885
+d) 0.6885
+c
+f(1) = -0.473591543
+Therefore, root lies between 0 and 1
+a = 0; f(a) = 1
+b = 1; f(b) = -0.473591543
+Substituting the values in the formula,
+x = \(\frac{bf(a)-af(b)}{f(a)-f(b)}\),
+we get \(x1 = \frac{1}{1+0.473591543}\)=0.954782316; f(x1) = -0.431292064
+Therefore, x1 becomes b to find the next point.
+\(X2 = \frac{0.954782316}{1+0.431292064}\)0.667077209; f(x2) = -0.105486008
+Therefore, x2 becomes b to find the next point.
+\(X3 = \frac{0.667077209}{1+0.105486008}\)= 0.60342438; f(x3) = -0.020529909
+Therefore, x3 becomes b to find the next point.
+\(X4 = \frac{0.60342438}{1+0.020529909}\)=0.591285345; f(x4) = -3.813368755*10-3
+Therefore, x4 becomes b to find the next point.
+\(X5 = \frac{0.591285345}{1+(3.813368755*10^{-3})}\)=0.589039121; f(x5) = -7.021514375*10-4
+Therefore x5 becomes b to find the next point.
+\(X6 = \frac{0.589039121}{1+(7.021514375*10^{-4})}\)=0.588625816; f(x6) = -1.29077269*10-4
+Therefore x6 becomes b to find the next point.
+\(X7 = \frac{0.588625816}{1+(1.29077269*10^{-4})}\)= 0.588549847; f(x7) = -2.372079757*10-5
+Therefore x7 becomes b to find the next point.
+\(X8 = \frac{0.588549847}{1+(2.372079757*10^{-5})}\)=0.588535886.
+Therefore, the positive root corrected to 4 decimal places is 0.5885.
+10. Find the positive root of the equation x3 + 2x2 + 50x + 7 = 0 using Regula Falsi method and correct to 4 decimal places.
+a) 0.14073652
+b) 0.24073652
+c) 0.42076352
+d) doesn’t have any positive root
+d
+11. Find the positive root of the equation x3 – 4x – 9 = 0 using Regula Falsi method and correct to 4 decimal places.
+a) 2.6570
+b) 2.7605
+c) 2.7506
+d) 2.7065
+d
+f(3) = 6
+Therefore, root lies between 2 and 3
+a = 2; f(a) = -9
+b = 3; f(b) = 6
+Substituting the values in the formula,
+\(x = \frac{bf(a)-af(b)}{f(a)-f(b)}\),
+we get \(x1 = \frac{3(-9)-2(6)}{-9-6}\)=2.6; f(x1) = -1.824
+Therefore, x1 becomes a to find the next point.
+\(X2 =\frac{3(-1.824)-2.6(6)}{-1.824-6}\)= 2.693251534; f(x2) = -0.23722651
+Therefore, x2 becomes a to find the next point.
+\(X3 = \frac{3(-0.23722651)-2.693251534(6)}{-0.23722651-6}\)=2.704918397; f(x3) = -0.028912179
+Therefore, x3 becomes a to find the next point.
+\(X4 = \frac{3(-0.028912179)-2.704918397(6)}{-0.028912179-6}\)=2.70633487; f(x4) = -3.495420729*10-3
+Therefore, x4 becomes a to find the next point.
+\(X5 = \frac{3(-3.495420729*10^{-3})-2.70633487(6)}{(-3.495420729*10^{-3})-6}\)=2.706505851; f(x5) = -3.973272762*10-4
+Therefore x5 becomes a to find the next point.
+\(X6 = \frac{3(-3.973272762*10^{-4})-2.706505851(6)}{(-3.973272762*20^{-4})-6}\)=2.706525285.
+Therefore, the positive root corrected to 4 decimal places is 2.7065.
+12. Find the positive root of the equation x3 – 4x + 9 = 0 using Regula Falsi method and correct to 4 decimal places.
+a) 3.706698931
+b) 2.706698931
+c) 3.076698931
+d) no positive roots
+b
+13. Find the positive root of the equation ex = 3x using Regula Falsi method and correct to 4 places.
+a) 0.6190
+b) 0.7091
+c) 0.7901
+d) 0.6910
+a
+f(1) = -0.281718171
+Therefore, root lies between 0 and 1
+a = 0; f(a) = 1
+b = 1; f(b) = -0.281718171
+Substituting the values in the formula,
+x = \(\frac{bf(a)-af(b)}{f(a)-f(b)}\),
+we get \(x1 = \frac{1}{1+0.281718171}\)=0.780202717; f(x1) = -0.158693619
+Therefore, x1 becomes b to find the next point.
+\(X2 = \frac{0.780202717}{1+0.158693619}\)=0.673346865; f(x2) = -0.059251749
+Therefore, x2 becomes b to find the next point.
+\(X3 = \frac{0.673346865}{1+0.059251749}\)=0.635681617; f(x3) = -0.018736045
+Therefore, x3 becomes b to find the next point.
+\(X4 = \frac{0.635691617}{1+0.018736045}\)=0.623990502; f(x4) = -5.610588465*10-3
+Therefore, x4 becomes b to find the next point.
+\(X5 = \frac{0.623990502}{1+(5.610588465*10^{-3})}\)=0.62050908; f(x5) = -1.652615179*10-3
+Therefore x5 becomes b to find the next point.
+\(X6 = \frac{0.62050908}{1+(1.652615179*10^{-3})}\)=0.619485309; f(x6) = -4.844127073*10-4
+Therefore x6 becomes b to find the next point.
+\(X7 = \frac{0.619485309}{1+(4.844127073*10^{-4})}\)= 0.619195367; f(x7) = -1.417874765*10-4
+Therefore x7 becomes b to find the next point.
+\(X8 = \frac{0.619195367}{1+(1.417874765*10^{-4})}\)=0.619097586; f(x8) = -4.14829789*10-5
+Therefre x8 becomes b to find the next point.
+\(X9 = \frac{0.619097586}{1+(4.14828789*10^{-5})}\)=0.619071905
+Therefore, the positive root corrected to 4 decimal places is 0.6190.
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Methods, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Numerical Analysis Questions and Answers – Bisection Method – 2» Next - Numerical Analysis Questions and Answers – Secant Method 

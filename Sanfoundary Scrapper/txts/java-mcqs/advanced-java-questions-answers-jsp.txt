@@ -1,0 +1,62 @@
+1. Which page directive should be used in JSP to generate a PDF page?
+a) contentType
+b) generatePdf
+c) typePDF
+d) contentPDF
+a
+2. Which tag should be used to pass information from JSP to included JSP?
+a) Using <%jsp:page> tag
+b) Using <%jsp:param> tag
+c) Using <%jsp:import> tag
+d) Using <%jsp:useBean> tag
+a
+3. Application is instance of which class?
+a) javax.servlet.Application
+b) javax.servlet.HttpContext
+c) javax.servlet.Context
+d) javax.servlet.ServletContext
+d
+4. _jspService() method of HttpJspPage class should not be overridden.
+a) True
+b) False
+a
+5. Which option is true about session scope?
+a) Objects are accessible only from the page in which they are created
+b) Objects are accessible only from the pages which are in same session
+c) Objects are accessible only from the pages which are processing the same request
+d) Objects are accessible only from the pages which reside in same application
+b
+6. Default value of autoFlush attribute is?
+a) true
+b) false
+a
+7. Which one is the correct order of phases in JSP life cycle?
+a) Initialization, Cleanup, Compilation, Execution
+b) Initialization, Compilation, Cleanup, Execution
+c) Compilation, Initialization, Execution, Cleanup
+d) Cleanup, Compilation, Initialization, Execution
+c
+8. “request” is instance of which one of the following classes?
+a) Request
+b) HttpRequest
+c) HttpServletRequest
+d) ServletRequest
+c
+9. Which is not a directive?
+a) include
+b) page
+c) export
+d) useBean
+c
+10. Which is mandatory in <jsp:useBean /> tag?
+a) id, class
+b) id, type
+c) type, property
+d) type,id
+a
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Advanced Java Questions & Answers – Session Management» Next - Advanced Java Questions & Answers – JSP Elements 

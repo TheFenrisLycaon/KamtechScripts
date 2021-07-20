@@ -1,0 +1,87 @@
+1. Which of these class have only one field ‘TYPE’?
+a) Void
+b) Process
+c) System
+d) Runtime
+a
+2. Which of the following method of Process class can terminate a process?
+a) void kill()
+b) void destroy()
+c) void terminate()
+d) void exit()
+b
+3. Standard output variable ‘out’ is defined in which class?
+a) Void
+b) Process
+c) Runtime
+d) System
+d
+4. Which of these class can encapsulate an entire executing program?
+a) Void
+b) Process
+c) Runtime
+d) System
+b
+5. Which of the following is method of System class is used to find how long a program takes to execute?
+a) currenttime()
+b) currentTime()
+c) currentTimeMillis()
+d) currenttimeMillis()
+c
+Join Sanfoundry@YouTube
+6. Which of these class holds a collection of static methods and variables?
+a) Void
+b) Process
+c) Runtime
+d) System
+d
+7. What will be the output of the following Java code?
+    class Output     {        public static void main(String args[])         {            long start, end;               start = System.currentTimeMillis();            for (int i = 0; i < 10000000; i++);            end = System.currentTimeMillis();            System.out.print(end - start);        }    }
+a) 0
+b) 1
+c) 1000
+d) System Dependent
+d
+Output:
+$ javac Output.java
+$ java Output
+78
+8. What will be the output of the following Java code?
+    class Output     {        public static void main(String args[])         {            byte a[] = { 65, 66, 67, 68, 69, 70 };            byte b[] = { 71, 72, 73, 74, 75, 76 };              System.arraycopy(a , 0, b, 0, a.length);            System.out.print(new String(a) + " " + new String(b));        }    }
+a) ABCDEF ABCDEF
+b) ABCDEF GHIJKL
+c) GHIJKL ABCDEF
+d) GHIJKL GHIJKL
+a
+Output:
+$ javac Output.java
+$ java Output
+ABCDEF ABCDEF
+9. What will be the output of the following Java code?
+    class Output     {        public static void main(String args[])         {            byte a[] = { 65, 66, 67, 68, 69, 70 };            byte b[] = { 71, 72, 73, 74, 75, 76 };              System.arraycopy(a, 2, b, 1, a.length-2);            System.out.print(new String(a) + " " + new String(b));        }    }
+a) ABCDEF GHIJKL
+b) ABCDEF GCDEFL
+c) GHIJKL ABCDEF
+d) GCDEFL GHIJKL
+b
+Output:
+$ javac Output.java
+$ java Output
+ABCDEF GCDEFL
+10. What will be the output of the following Java code?
+    class Output     {        public static void main(String args[])         {            byte a[] = { 65, 66, 67, 68, 69, 70 };            byte b[] = { 71, 72, 73, 74, 75, 76 };              System.arraycopy(a, 1, b, 3, 0);            System.out.print(new String(a) + " " + new String(b));        }    }
+a) ABCDEF GHIJKL
+b) ABCDEF GCDEFL
+c) GHIJKL ABCDEF
+d) GCDEFL GHIJKL
+a
+Output:
+$ javac Output.java
+$ java Output
+ABCDEF GHIJKL
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.lang – Integer, Long & Character Wrappers» Next - Java Questions & Answers – Java.lang – Object & Math Class 

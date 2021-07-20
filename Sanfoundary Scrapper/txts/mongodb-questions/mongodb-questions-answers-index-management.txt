@@ -1,0 +1,67 @@
+1. To modify an existing index, you cannot just re-issue the _________ method with the updated specification of the index.
+a) dropIndex()
+b) modIndex()
+c) createIndex()
+d) none of the mentioned
+c
+2. Point out the wrong statement.
+a) To modify an existing index, you need to drop and recreate the index
+b) Your client library may have a different or additional interface for this operation
+c) To see the status of an indexing process, you can use the db.statusOp() method in the mongo shell
+d) None of the mentioned
+c
+3. If you need to rebuild indexes for a collection you can use the _________ method to rebuild all indexes on a collection in a single operation.
+a) db.collection.Index()
+b) db.collection.reIndex()
+c) db.collection.rebuildIndex()
+d) none of the mentioned
+a
+4. To terminate an ongoing index build, use the __________ method in the mongo shell.
+a) db.currentOp()
+b) db.killOp()
+c) db.removeOp()
+d) all of the mentioned
+b
+5. Point out the correct statement.
+a) After 4.0, you cannot terminate both background index builds and foreground index builds
+b) Before MongoDB 2.1, you could only terminate background index builds
+c) After 2.4, you can terminate both background index builds and foreground index builds
+d) None of the mentioned
+c
+6. In the mongo shell, you can use the ______ method to return a list of the indexes on a collection.
+a) getallIndexes()
+b) getretIndexes()
+c) getIndexes()
+d) none of the mentioned
+c
+7. __________ views partial execution statistics collected during plan selection.
+a) curs.explain()
+b) cursor.explain()
+c) cursr.explain()
+d) all of the mentioned
+b
+8. The __________ operator constrains the results of a geospatial $near or $nearSphere query to the specified distance.
+a) $center
+b) $maxDistance
+c) $minDistance
+d) all of the mentioned
+b
+9. To force MongoDB to use a particular index for a db.collection.________ operation, specify the index with the hint() method.
+a) query()
+b) find()
+c) index()
+d) all of the mentioned
+b
+10. Specify the ______ operator to the hint() method to prevent MongoDB from using any index.
+a) $unique
+b) $natural
+c) $spatial
+d) all of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Index Properties» Next - MongoDB Questions and Answers – Geospatial Index 

@@ -1,0 +1,71 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in Accenture and other companies. Anyone looking for Accenture placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of C questions on “Precedence and Order of Evaluation” along with answers, explanations and/or solutions:
+1. Which of the following are unary operators?
+a) sizeof
+b) –
+c) ++
+d) all of the mentioned
+d
+2. Where in C the order of precedence of operators do not exist?
+a) Within conditional statements, if, else
+b) Within while, do-while
+c) Within a macro definition
+d) None of the mentioned
+d
+3. Associativity of an operator is ___________
+a) Right to Left
+b) Left to Right
+c) Random fashion
+d) Both Right to Left and Left to Right
+d
+4. Which of the following method is accepted for assignment?
+a) 5 = a = b = c = d;
+b) a = b = c = d = 5;
+c) a = b = 5 = c = d;
+d) None of the mentioned
+b
+5. Which of the following is NOT possible with any 2 operators in C?
+a) Different precedence, same associativity
+b) Different precedence, different associativity
+c) Same precedence, different associativity
+d) All of the mentioned
+c
+6. Which of the following is possible with any 2 operators in C?
+a) Same associativity, different precedence
+b) Same associativity, same precedence
+c) Different associativity, different precedence
+d) All of the mentioned
+d
+7. Which of the following operators has the lowest precedence?
+a) !=
+b) &&
+c) ?:
+d) ,
+d
+8. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 3, i = 0;        do {            x = x++;            i++;        } while (i != 3);        printf("%d\n", x);    }
+a) Undefined behaviour
+b) Output will be 3
+c) Output will be 6
+d) Output will be 5
+c
+9. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int a = -1, b = 4, c = 1, d;        d = ++a && ++b || ++c;        printf("%d, %d, %d, %d\n", a, b, c, d);        return 0;    }
+a) 0, 4, 2, 1
+b) 0, 5, 2, 1
+c) -1, 4, 1, 1
+d) 0, 5, 1, 0
+a
+10. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int p = 10, q = 20, r;        if (r = p = 5 || q > 20)            printf("%d", r);        else            printf("No Output\n");    }
+a) 1
+b) 10
+c) 20
+d) No Output
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Precedence and Order of Evaluation – 5» Next - C Programming Questions and Answers – If-then-else Statements – 1 

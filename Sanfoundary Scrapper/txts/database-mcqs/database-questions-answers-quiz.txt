@@ -1,0 +1,79 @@
+1. Any recursive view must be defined as the union of two subqueries: a _______ query that is nonrecursive and a __________ query.
+a) Base, recursive
+b) Recursive, Base
+c) Base, Redundant
+d) View, Base
+a
+2. Ranking of queries is done by which of the following?
+a) Group by
+b) Order by
+c) Having
+d) Both Group by and Order by
+b
+3. In rank() function if one value is shared by two tuples then
+a) The rank order continues as counting numbers
+b) The rank order continues by leaving one rank in the middle
+c) The user specifies the order
+d) The order does not change
+b
+4. The  __________ function that does not create gaps in the ordering.
+a) Intense_rank()
+b) Continue_rank()
+c) Default_rank()
+d) Dense_rank()
+d
+5.
+SELECT ID, GPA
+FROM student grades
+ORDER BY GPA
+____________;
+Inorder to give only 10 rank on the whole we should use
+a) Limit 10
+b) Upto 10
+c) Only 10
+d) Max 10
+a
+6. If there are n tuples in the partition and the rank of the tuple is r, then its ________ is defined as (r −1)/(n−1).
+a) Ntil()
+b) Cum_rank
+c) Percent_rank
+d) rank()
+c
+7. Inorder to simplify the null value confusion in the rank function we can specify
+a) Not Null
+b) Nulls last
+c) Nulls first
+d) Either Nulls last or first
+d
+8. Suppose we are given a view tot credits (year, num credits) giving the total number of credits taken by students in each year. The query that computes averages over the 3 preceding tuples in the specified sort order is
+a)
+SELECT YEAR, avg(num credits)
+OVER (ORDER BY YEAR ROWS 3 preceding)
+AS avg total credits
+FROM tot credits;
+b)
+SELECT YEAR, avg(num credits)
+OVER (ORDER BY YEAR ROWS 3 unbounded preceding)
+AS avg total credits
+FROM tot credits;
+c) All of the mentioned
+d) None of the mentioned
+a
+9. The functions which construct histograms and use buckets for ranking is
+a) Rank()
+b) Newtil()
+c) Ntil()
+d) None of the mentioned
+c
+10. The command ________________ such tables are available only within the transaction executing the query and are dropped when the transaction finishes.
+a) Create table
+b) Create temporary table
+c) Create view
+d) Create label view
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database for Quizzes, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Triggers» Next - Database Questions and Answers – OLAP 

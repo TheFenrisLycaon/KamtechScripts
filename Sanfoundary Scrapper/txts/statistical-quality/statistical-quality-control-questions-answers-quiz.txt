@@ -1,0 +1,98 @@
+1. In the name of the OC curve, OC stands for ________
+a) Operation Characteristic
+b) Operating Characteristic
+c) Operator Characteristic
+d) Operated Characteristic
+b
+2. The general theory of Control charts was first developed by ________
+a) Walter A. Shewhart
+b) Deming
+c) ISO
+d) ASQC
+a
+3. Control charts are the part of _______ step of DMAIC process.
+a) Define
+b) Measure
+c) Act
+d) Control
+d
+4. The size of sample is 5 for a process. If the process standard deviation is 0.15 micron, and the mean of process is 1.5 micron, the standard deviation of the sample average will be _______
+a) 0.0500
+b) 0.1000
+c) 0.6710
+d) 0.0671
+d
+σx=σ/√n
+Putting σ=0.15, n=5, we get, σx=0.0671.
+5. For a process, sample size=5, process standard deviation=0.15, mean=1.5, and the std. deviation of mean is 0.0671. What will be the value of 3σ upper control limit for the construction of control chart?
+a) 1.70
+b) 1.29
+c) 1.92
+d) 0.170
+a
+So, UCL3σ=1.5+3(0.0671)=1.7013.
+6. The correct expression for UCL for construction of a control chart is given by _____
+a) UCL = \(\overline{x} + Z_{\frac{\alpha}{2}} (\sigma_x)\) 
+b) UCL = \(\overline{x} – Z_{\frac{\alpha}{2}} (\sigma)\) 
+c) UCL = \(\overline{x} – Z_{\frac{\alpha}{2}} (\sigma_x)\) 
+d) UCL = \(\overline{x} + Z_{\frac{\alpha}{2}} (\sigma)\) 
+a
+UCL = \(\overline{x} + Z_{\frac{\alpha}{2}} (\sigma_x)\); where \(\overline{x}\) is the mean of process, σx is the std. deviation of mean and \(Z_{\frac{\alpha}{2}}\) is a arbitrary constant.
+7. The general model for the lower control limit for a value of quality characteristic “w” will be _____
+a) LCL = μw + Lσw
+b) LCL = μw – Lσ
+c) LCL = μw – Lσw
+d) LCL = μw + Lσ
+c
+LCL = μw – Lσw;
+Where “L” denotes the distance of control limits from the center line.
+8. The center line of a control chart will be having a value ______
+a) Higher than mean of quality characteristic
+b) Lower than mean of quality characteristic
+c) Equal to mean of quality characteristic
+d) Which is higher than UCL
+c
+9. Which of these is a part of corrective action process associated with a control chart?
+a) OCAP
+b) DMAIC
+c) OC curve
+d) LCL
+a
+10. Which of these can be used to estimate capability of the process?
+a) Control charts
+b) Process mean
+c) Acceptance Sampling
+d) Designed Experiments
+a
+11. Control charts for central tendency and the variability are called _________ control charts.
+a) Variables
+b) Attributes
+c) Acceptance
+d) Rejections
+a
+12. The control charts formed for judgment of conformities and non-conformities are called ______ control charts.
+a) Variables
+b) Attributes
+c) Acceptance
+d) Rejections
+b
+13. Control charts with points around mean and in predicted or fixed manner indicate ________
+a) Stationary variability
+b) Non-stationary variability
+c) Auto correlated variability
+d) Process out of control
+a
+14. Auto correlated stationary process data is dependent on each other.
+a) True
+b) False
+a
+15. Control charts are not effective in defect prevention.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control for Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – SPC Methods and Philosophy – Statistical Basis of the Control Chart – 1» Next - Statistical Quality Control Questions and Answers – SPC Methods and Philosophy – Statistical Basis of the Control Chart – 3 

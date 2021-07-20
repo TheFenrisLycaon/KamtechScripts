@@ -1,0 +1,202 @@
+1. What is the working of the nargin keyword?
+a) Returns the number of inputs to a function as an output of the same function
+b) Gets assigned to a value equal to the number of inputs of a function
+c) Gets assigned to a value equal to the number of inputs+1 of a function
+d) Gets assigned to a value equal to the number of inputs-1 function
+b
+2. What is the working of the varargout command?
+a) Returns a 1*N cellular matrix
+b) Returns a 1*N cell array of outputs
+c) Returns a 1*N cell array of inputs given
+d) Doesn’t exist
+b
+3. What is the working of the nargout command?
+a) Gets assigned to a number which is equal to the number of outputs-1 sought from a subfunction
+b) Gets assigned to a number which is equal to the number of outputs-1 sought from a function
+c) Gets assigned to a number which is equal to the number of outputs sought from a function
+d) Gets assigned to a number which is equal to the number of outputs+1 sought from a function
+c
+4. What is the working of the varargin command?
+a) takes 1*N inputs after the defined inputs in a function
+b) takes N*1 inputs after the defined inputs in a function
+c) takes N*N inputs after the defined inputs in a function
+d) takes 1*1 inputs after the defined inputs in a function
+a
+5. What is the output of the following command?
+function s= average(varargin)
+celldisp(varargin)
+s=sum(varargin)
+end
+p=average(1:3)
+a) Error in sum
+b) Error using varargin in function definition
+c) Error calling the average function
+d) 
+    1 2 3
+     p=6
+a
+  
+6. What is the output of the following command?
+function wish= ful(p,varargin)
+celldisp(p)
+wish=sin(varargin{1})
+end
+p=ful(1:3)
+a) Error in calling the function
+b) Error in celldisp
+c) Error in the function definiton
+d) Error in the wish variable
+b
+p{1}= 1 2 3
+Hence, the error is in using celldisp command, only disp command is to be used.
+7. What is the output of the following command?
+function mad= heart(p,varargin)
+disp(p)
+wish=sin(varargin{0})
+end
+p=heart(1:3,0)
+a) Error in wish command
+b) Error while calling heart command
+c) Error while calling disp command
+d) 
+     1 2 3
+     wish=0
+a
+  
+8. What is the output of the following command?
+function mad= rush(p,varargin)
+disp(p)
+wish=cos(varargin[0])
+end
+p=rush(1:3,pi/2)
+a) Error due to element index
+b) Error due to syntax of varargin
+c) 
+  1 2 3
+  wish=0
+d) Error due to disp()
+b
+9. What is the output of the following code?
+function mad= rush(p,varargin)
+disp(p)
+wish=cos(varargin{1})
+end
+p=rush(1:3,Inf)
+a) Error due to Inf
+b) -1
+c) 
+    p{1}= 1 2 3
+    wish=0
+d) 
+     p{1}= 1 2 3
+     wish=NaN
+d
+  
+10. What is the output of the following code?
+function maha= orchid(polo,varargin)
+disp(polo)
+wish=sum(varargin{1,2})
+end
+p=rush(-1:1,Inf)
+a) Logical error in varargin
+b) Syntactical error in varargin
+c) 
+     p{1}=-1 0 1
+     wish=0
+d) No output
+a
+11. What is the output of the following code?
+function [die,absdif] = BDO(y,x)
+die = y-x;
+if nargout > 1
+    disp('Boo !')
+    absdif = abs(die);
+end
+end
+[p,q]=BDO(Inf,Inf)
+a) 
+     Boo!
+     p=NaN
+     q=NaN
+b) 
+     Boo!
+     p=0
+     q=0
+c) Error
+d) p=NaN
+a
+12. What is the output of the following code?
+function [die,af] = Bod(y,x)
+die = y*x;
+if nargout < 1
+    error('Boo !')
+ else
+   disp(‘Yo !’)
+   af = abs(die);
+end
+end
+[p]=Bod(1,[1 -2])
+a) Error with Boo! displayed
+b) 
+     Yo !
+     p=1
+c) 
+     Yo !
+     p=2
+d) 
+     Yo !
+     p=-2
+d
+  
+13. What is the output of the following code?
+function [die,af] = lola(y,x)
+die = y*x;
+if nargout < 1
+    error('Boo !')
+ else
+   disp(‘Yo !’)
+   af = abs(die);
+end
+end
+p=lola(1,[1 -2])
+a) Error with Boo ! written
+b) 
+     Yo !
+     p=-2
+c) 
+     Boo !
+     p=-1
+d)
+     Boo !
+     p=1
+a
+  
+14. A function  ______________
+a) can be run in the command window by defining it in the window itself
+b) can be run in the command window by defining it in a cpp file
+c) can be run in the command window by defining it in a script file
+d) can be run in the script file by defining it in the command window
+c
+15. What is the output of the following code?
+function c = addem(ap,q)
+p=nargn-1
+switch p
+    case 2
+        c = ap*q;
+    case 1
+        c = sin(q)
+    otherwise
+        c = 0;
+end
+addem(1,2,3,4,5,6,7,8)
+a)  2
+b) Error due to too many inputs
+c) 28
+d) Error due to nargn
+d
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – More about Loops – 2» Next - MATLAB Questions and Answers – Commands for Parsing Input and Output – 2 

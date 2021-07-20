@@ -1,0 +1,99 @@
+This section of our 1000+ Computer Graphics multiple choice questions focuses on Line Attributes.
+1. The basic attributes of a straight line segment are
+a) Type
+b) Width
+c) Color
+d) All of these
+d
+2. A dashed line could be displayed by generating_________.
+a) Inter dash spacing
+b) Very short dashes
+c) Botha a and b
+d) A or B
+a
+3. A dotted line can be displayed by generating
+a) Very short dashes with spacing equal to and greater than dash size
+b) Very long dashes with spacing equal to or greater than dash size
+c) Very short dashes with spacing equal to and greater than dash size
+d) Dots
+c
+4. Which of the following is not a line-type?
+a) Dashed line
+b) Dark line
+c) Dotted line
+d) Only b
+d
+5. In an application program, to set line-type attributes the following statement is used.
+a) SetLinetype(lt)
+b) setLinetype(lt)
+c) SETLINETYPE(lt)
+d) SETLINE()
+b
+6. The algorithm which displays line-type attributes by plotting pixel spans is
+a) Raster line algorithm
+b) Raster scan algorithm
+c) Random line algorithm
+d) Random scan algorithm
+a
+7. Pixel mask means
+a) A string containing only 1;s
+b) A string containing only 0’s
+c) A string containing 1 and 0
+d) A string containing 0 and 0
+c
+8. A heavy line on a video monitor could be displayed as
+a) Adjacent perpendicular lines
+b) Adjacent parallel lines
+c) Both a and b
+d) Neither a nor b
+b
+9. To set the line-width attribute the following command is used.
+a) SETLINEWIDTHSCALEFACTOR (lw)
+b) Setlinewidth()
+c) Setlinewidthscalefacto (lw)
+d) setLineWidthScaleFactor (lw)
+d
+10. The parameter to “setLineWidthScaleFactor (lw) “function specifies?
+a) Standard width
+b) Relative width of the line
+c) Thickness of the line
+d) All of the mentioned
+b
+                    Standard width, if Value=1
+                    Thickness, if value>1.
+11. We can adjust the shape of the line ends to give them a better appearance by using
+a) Line spacing
+b) More dots
+c) Line caps
+d) Round cap
+c
+12. Thick line drawn with
+a) Butt caps
+b) Round caps
+c) Projecting square caps
+d) All of the mentioned
+d
+13. We set the line-color value in PHIGS with the function
+a) setPolylineColorIndex (lc)
+b) setline Color()
+c) SETPOLYLINECOLORINDEX (lc)
+d) Only b
+a
+14. If the angle between 2 connected line segments is very small then ________ can generate a long spike that distorts the appearance of the polyline.
+a) Miter join
+b) Round join
+c) Bevel join
+d) None of the mentioned
+a
+15. A line drawn in the background color is
+a) Visible
+b) Invisible
+c) Visible or Invisible
+d) Only b
+d
+Sanfoundry Global Education & Learning Series – Computer Graphics.
+To practice all areas of Computer Graphics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Graphics Questions & Answers – Line Filling Algorithms» Next - Computer Graphics Questions & Answers – Curve Attributes 

@@ -1,0 +1,73 @@
+1. Which of the following is not a newly added instruction of 80386, that are not present in 80286?
+a) bit scan instructions
+b) bit test instructions
+c) shift double instructions
+d) none of the mentioned
+d
+1. bit scan instructions
+2. bit test instructions
+3. conditional set byte instructions
+4. shift double instructions
+5. control transfer via gates instructions.
+2. The BSF (bit scan forward) instruction scans the operand in the order
+a) from left to right
+b) from right to left
+c) from upper nibble
+d) none of the mentioned
+b
+3. The BSR (bit scan reverse) instruction scans the operand in the order
+a) from left to right
+b) from right to left
+c) from upper nibble
+d) none of the mentioned
+a
+4. If a ‘1’ is encountered when an operand is scanned by BSF, then
+a) zero flag is reset
+b) zero flag is set
+c) VM flag is set
+d) RF flag is reset
+b
+5. If a ‘1’ is not encountered when an operand is scanned by BSR, then
+a) zero flag is reset
+b) zero flag is set
+c) VM flag is reset
+d) RF flag is set
+a
+6. Which of the following is not a bit test instruction?
+a) BTC
+b) BTS
+c) BSF
+d) BTR
+c
+BT (Test a Bit), BTC (Test a Bit and Complement), BTR (Test and Reset a Bit) and BTS (Test and Set a bit).
+7. In case of BT instruction, if the bit position in the destination operand specified by the source operand, is ‘1’, then
+a) zero flag is reset
+b) carry flag is set
+c) VM flag is set
+d) RF flag is reset
+b
+8. Which of the following is not a conditional set byte instruction?
+a) SETNP
+b) SETO
+c) SETNAE
+d) SHRD
+d
+9. The instruction that shifts the specified number of bits in the instruction, from the upper side of the source operand into the lower side of the destination operand is
+a) SHRD
+b) SHLD
+c) SETNS
+d) None of the mentioned
+b
+10. The instruction that shifts 8 LSB bits of ECX into the MSB positions of EAX, one by one starting from LSB of ECX is
+a) SHLD ECX,EAX,8
+b) SHLD EAX,ECX,8
+c) SHRD ECX,EAX,8
+d) SHRD EAX,ECX,8
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Virtual 8086 Mode, The Coprocessor 80387» Next - Microprocessors Questions and Answers – Numeric Coprocessor – 80486DX 

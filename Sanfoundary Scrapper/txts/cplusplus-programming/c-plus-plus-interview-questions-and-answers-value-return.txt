@@ -1,0 +1,77 @@
+This section on C++ interview questions and answers focuses on “Value Return”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Value Return” along with answers, explanations and/or solutions:
+1. How many types of returning values are present in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+2. What will you use if you are not intended to get a return value?
+a) static
+b) const
+c) volatile
+d) void
+d
+3. Where does the return statement returns the execution of the program?
+a) main function
+b) caller function
+c) same function
+d) block function
+b
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int max(int a, int b )    {        return ( a > b ? a : b );    }    int main()    {        int i = 5;        int j = 7;        cout << max(i, j );        return 0;    }
+a) 5
+b) 7
+c) either 5 or 7
+d) 13
+b
+Output:
+$ g++ ret.cpp
+$ a.out
+7
+ 
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    double & WeeklyHours()    {        double h = 46.50;        double &hours = h;        return hours;    }    int main()    {        double hours = WeeklyHours();        cout << "Weekly Hours: " << hours;        return 0;    }
+a) 46.5
+b) 6.50
+c) compile time error
+d) 26.5
+a
+Output:
+$ g++ ret1.cpp
+$ a.out
+46.5
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int mult (int x, int y)    {        int result;        result = 0;        while (y != 0)         {            result = result + x;            y = y - 1;        }        return(result);    }    int main ()    {        int x = 5, y = 5;        cout  << mult(x, y) ;        return(0);    }
+a) 20
+b) 25
+c) 30
+d) 35
+b
+Output:
+$ g++ ret.cpp
+$ a.out
+25
+7. When will we use the function overloading?
+a) same function name but different number of arguments
+b) different function name but same number of arguments
+c) same function name but same number of arguments
+d) different function name but different number of arguments
+a
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int gcd (int a, int b)    {        int temp;        while (b != 0)         {            temp = a % b;            a = b;            b = temp;        }        return(a);    }    int main ()    {        int x = 15, y = 25;        cout << gcd(x, y);        return(0);    }
+a) 15
+b) 25
+c) 375
+d) 5
+d
+Output:
+$ g++ ret5.cpp
+$ a.out
+5
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Argument Passing» Next - C++ Programming Questions and Answers – Overloaded Function Names 

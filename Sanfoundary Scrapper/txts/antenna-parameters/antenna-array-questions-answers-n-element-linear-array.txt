@@ -1,0 +1,83 @@
+1. Which of the following statement is true?
+a) As the number of elements increase in array it becomes more directive
+b) As the number of elements increase in array it becomes less directive
+c) Point to point communication is not possible with more number of array elements
+d) There is no uniform progressive phase shift in linear uniform array
+a
+2. Normalized array factor of N –element linear array is ________
+a) \(\frac{sin(Nᴪ/2)}{Nᴪ/2} \) 
+b) \(\frac{cos(Nᴪ/2)}{Nᴪ/2} \) 
+c) \(N\frac{sin(ᴪ/2)}{ᴪ/2} \) 
+d) \(N\frac{cos(Nᴪ/2)}{Nᴪ/2} \) 
+a
+Normalized array factor is given by \(\frac{sin(Nᴪ/2)}{Nᴪ/2}. \) 
+3. Which of the following expression gives the nulls for the N- element linear array?
+a) \(θ_n=cos^{-1}⁡(\frac{λ}{2πd}[-β±\frac{2πn}{N}])\) 
+b) \(θ_n=sin^{-1}⁡(\frac{λ}{2πd}[-β±\frac{2πn}{N}])\) 
+c) \(θ_n=cos^{-1}⁡(\frac{λ}{2πd}[-β±\frac{πn}{N}])\) 
+d) \(θ_n=cos^{-1}⁡(\frac{λ}{2πd}[β±\frac{2πn}{N}])\) 
+a
+\(\frac{sin(\frac{Nᴪ}{2})}{\frac{Nᴪ}{2}}=0\) 
+⇨ \(sin(\frac{Nᴪ}{2})=0  \) 
+⇨ \(\frac{Nᴪ}{2}=±nπ \) 
+⇨ \(kdcosθ+β=±\frac{2nπ}{N} \) 
+⇨ \(θ_n=cos^{-1}⁡(\frac{λ}{2πd}[-β±\frac{2πn}{N}]).\) 
+4. Maximum value of array factor for N-element linear array occurs at ______
+a) \(θ_m=cos^{-1}⁡(\frac{λ}{2πd}[-β±2πm])\) 
+b) \(θ_m=cos^{-1}⁡(\frac{λ}{2πd}[β±2πm])\) 
+c) \(θ_m=sin^{-1}⁡(\frac{λ}{2πd}[-β±2πm])\) 
+d) \(θ_m=sin^{-1}(\frac{λ}{2πd}[-β±2πm])\) 
+a
+To get maximum denominator is equal to zero.
+⇨	\(sin(\frac{ᴪ}{2})=0  \) 
+⇨ \(\frac{ᴪ}{2}=±nπ \) 
+⇨ kdcosθ+β=±2πm
+⇨ \(θ_m=cos^{-1}⁡(\frac{λ}{2πd}[-β±2πm]).\) 
+5. Find the maximum value of array factor when elements are separated by a λ/4 and phase difference is 0?
+a) θm=cos-1⁡(4m)
+b) θm=sin-1⁡(4πm)
+c) θm=cos-1⁡(4πm)
+d) θm=sin-1(2m)
+a
+\(θ_m=cos^{-1}⁡(\frac{λ}{2πλ/d}[0±2πm]).\) 
+θm=cos-1⁡(4m).
+6. Find the Nulls of the N-element array in which elements are separated by λ/4 and phase difference is 0?
+a) \(θ_n=cos^{-1}⁡(\left[±\frac{4n}{N}\right])\) 
+b) \(θ_n=cos^{-1}⁡(\left[±\frac{2n}{N}\right])\) 
+c) \(θ_n=sin⁡(\left[±\frac{4n}{N}\right])\) 
+d) \(θ_n=sin^{-1}⁡(\left[±\frac{4n}{N}\right])\) 
+a
+⇨	\(θ_n=cos^{-1}⁡(\frac{λ}{2πλ/4} [0±\frac{2πn}{N}])\) 
+⇨ \(θ_n=cos^{-1}⁡([±\frac{4n}{N}])\) 
+7. Find the Nulls of the 8-element array in which elements are separated by λ/4 and phase difference is 0?
+a) \(θ_n=cos^{-1}⁡(\left[±\frac{n}{2}\right])\) 
+b) \(θ_n=cos^{-1}⁡(\left[±\frac{n}{4}\right])\) 
+c) \(θ_n=sin^{-1}⁡(\left[±\frac{n}{2}\right])\) 
+d) \(θ_n=sin^{-1}⁡(\left[±\frac{n}{4}\right])\) 
+a
+⇨	\(θ_n=cos^{-1}⁡(\frac{λ}{2πλ/4}\left[0±\frac{2πn}{N}\right])\) 
+⇨ \(θ_n=cos^{-1}⁡(\left[±\frac{4n}{8}\right])\) 
+⇨ \(θ_n=cos^{-1}⁡(\left[±\frac{n}{2}\right]).\) 
+8. The radiating pattern of single element multiplied by the array factor simply gives the ___________
+a) Pattern multiplication
+b) Normalized array factor
+c) Beamwidth of the array
+d) Field strength of the array
+a
+9. Condition for the half power width of the Array factor is given by ___________
+a) \(\frac{Nᴪ}{2}=±1.391 \) 
+b) \(\frac{Nᴪ}{2}=±3\) 
+c) \(\frac{Nᴪ}{2}=±0.5\) 
+d) \(\frac{Nᴪ}{2}=±1\) 
+a
+10. The maximum of the first minor lobe of array factor occurs at 13.46 dB down the maximum major lobe.
+a) True
+b) False
+a
+⇨ \(AF = \frac{sin(\frac{Nᴪ}{2})}{\frac{Nᴪ}{2}}=0.212= -13.46dB.\) 
+Sanfoundry Global Education & Learning Series – Antennas.
+To practice all areas of Antennas, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antenna Array Questions and Answers – Introduction» Next - Antenna Array Questions and Answers – Factors 

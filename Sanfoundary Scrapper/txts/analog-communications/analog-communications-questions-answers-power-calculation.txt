@@ -1,0 +1,108 @@
+1. If peak voltage of a carrier wave is 10V, what is the peak voltage of modulating signal if modulation index is 50%?
+a) 10V
+b) 20V
+c) 8V
+d) 5V
+d
+where Vm = Peak voltage of modulating signal,
+	Vc = Peak voltage of a carrier wave = 10V,
+Therefore, Vm = 10 X 0.5 = 5V.
+2. Maximum Amplitude of an amplitude modulated 10V and minimum amplitude is 5V. Find its modulation index?
+a) 0.65
+b) 0.9
+c) 0.33
+d) 1
+c
+			Where, Vmax = Maximum Amplitude of an amplitude modulated = 10V
+			             Vmin = Minimum amplitude  of an amplitude modulated = 5V
+Therefore, µ = (10-5)/(10+5) = 0.33. 
+3. 24 channels, each band limited to 3.4 KHz, are to be time division multiplexed. Find the bandwidth required for 128 quantization level?  (Given that sampling frequency is 8 KHz)
+a) 2436 KHz
+b) 1002 KHz
+c) 1536 KHz
+d) 1337 KHz
+c
+m = 128,
+2n = m = 128, n = 7
+But fs = 2fm, where, fs = sampling  frequency
+instead at 2fm  2 x 3.4 kHz   6.8 KHz.
+B.W. = N(n+1)X fs  = [24(7 + 1)] 8 kHz = 1536 KHz.
+4. Sampling frequency of a signal is 6 KHz and is quantized using 7 bit quantizer. Find its bit rate?
+a) 48kbPs
+b) 64kbPs
+c) 16kbPs
+d) 8kbPs
+a
+Bit rate is also known as bitrate or data rate.
+Bit rate, Rb = 1⁄Tb  where  where n = number of bits and fs = Sampling Frequency
+Tb = 1/42, therefore Bit rate = 42 Kbps.
+5. Calculate power in each sideband, if power of carrier wave is 96W and there is 40% modulation in amplitude modulated signal?
+a) 11.84W
+b) 6.84W
+c) 3.84W
+d) 15.84W
+c
+6. For 50% modulation, power in each sideband is ________ of that of carrier.
+a) 10%
+b) 4.32%
+c) 5%
+d) 6.25%
+d
+7. For 100% modulation, total power is ________
+a) 1.5Pc
+b) 2Pc
+c) 3.75Pc
+d) 1.25Pc
+a
+where µ = 1 (for 100% modulation),
+ so Pt = Pc(1 +(12/2)). On solving it we get Pt = 1.5Pc.
+8. If each element of signal occupies 70ms, what will its speed?
+a) 11.23 bauds
+b) 14.28 bauds
+c) 17.39 bauds
+d) 13.33 bauds
+b
+9. Power of carrier wave is 300W and modulation index is 0.75. Find its total power?
+a) 465W
+b) 384W
+c) 323W
+d) 502W
+b
+where Modulation Index (µ) = 0.75,
+So Pt, 
+10. If a wave is modulated by two waves. One of them has modulation index equal to 0.75 and other has 0.2, the total modulation index will be ________
+a) 0.67
+b) 0.58
+c) 0.77
+d) 0.35
+c
+11. Find the power saving for DSB-SC wave with 100% modulation?
+a) 66%
+b) 86%
+c) 50%
+d) 33%
+a
+So Total Power required in DSBSC Modulation = (u2XPc)/2 = Pc/2
+In normal AM, carrier is not suppressed.
+So total power required in AM Modulation = (1+(u2/2))XPc = 3Pc/2
+Therefore, Power saving = ((Pc/2)/(3Pc/2)) x 100% = 66%.
+12. If power transmitted is 45kW, field at a distance of 23km will be ________
+a) 0.02
+b) 0.75
+c) 0.05
+d) 0.03
+c
+13. Find the number of pulses, if the number of level is 128 in PCM?
+a) 3
+b) 6
+c) 4
+d) 7
+d
+Therefore,
+2n = 128, so n = 7.
+Sanfoundry Global Education & Learning Series – Analog Communications.
+To practice all areas of Analog Communications, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Communications Questions and Answers – Methods of Reducing Distortion» Next - Analog Communications Questions and Answers – Spectrum of Multitone Signal 

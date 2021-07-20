@@ -1,0 +1,281 @@
+1. Which of the following constructors are provided by the C++ compiler if not defined in a class?
+a) Default constructor
+b) Assignment constructor
+c) Copy constructor
+d) All of the mentioned
+d
+2. When a copy constructor is called?
+a) When an object of the class is returned by value
+b) When an object of the class is passed by value to a function
+c) When an object is constructed based on another object of the same class
+d) All of the mentioned
+d
+3. What will be the output of the following C++ code?
+#include <iostream>  
+using namespace std;
+class A{
+	A(){
+		cout<<"Constructor called";
+	}
+};
+int main(int argc, char const *argv[])
+{
+	A a;
+	return 0;
+}
+a) Constructor called
+b) Nothing printed
+c) Error
+d) Segmentation fault
+c
+4. What will be the output of the following C++ code?
+#include <iostream>  
+using namespace std;
+class A{
+ 
+public:
+	A(){
+		cout<<"Constructor called";
+	}
+};
+int main(int argc, char const *argv[])
+{
+	A *a;
+	return 0;
+}
+a) Constructor called
+b) Nothing printed
+c) Error
+d) Segmentation fault
+b
+5. What will be the output of the following C++ code?
+#include <iostream>  
+using namespace std;
+class A{
+public:
+	int a;
+};
+int main(int argc, char const *argv[])
+{
+	A a1 = {10};
+	A a2 = a1;
+	cout<<a1.a<<a2.a;
+	return 0;
+}
+a) 1010
+b) 87368746
+c) Error
+d) Segmentation fault
+a
+Output:
+$ ./a.out
+1010
+6. What will be the output of the following C++ code?
+#include <iostream>  
+using namespace std;
+class A{
+public:
+	int a;
+	A(int a){
+		this->a = a;
+	}
+};
+int main(int argc, char const *argv[])
+{
+	A a1, a2(10);
+	cout<<a2.a;
+	return 0;
+}
+a) 10
+b) Compile time error
+c) Run-time error
+d) No output
+b
+7. What will be the output of the following C++ code?
+#include <iostream>  
+using namespace std;
+class A{
+public:
+	int a;
+	A(int a=0){
+		this->a = a;
+	}
+};
+int main(int argc, char const *argv[])
+{
+	A a1, a2(10);
+	cout<<a2.a;
+	return 0;
+}
+a) 010
+b) 100
+c) 001
+d) Error
+a
+8. What will be the output of the following C++ code?
+#include <iostream>  
+using namespace std;
+class A{
+public:
+	int a;
+	A(){
+		cout<<"Constructor called";
+	}
+};
+int main(int argc, char const *argv[])
+{
+	A *a1 = (A*)malloc(sizeof(A));
+	return 0;
+}
+a) Constructor called
+b) Nothing printed
+c) Error
+d) Segmentation fault
+b
+9. What will be the output of the following C++ code?
+#include <iostream>  
+using namespace std;
+class A{
+public:
+	int a;
+	A(){
+		cout<<"Constructor called";
+	}
+} a;
+int main(int argc, char const *argv[])
+{
+	return 0;
+}
+a) Constructor called
+b) Nothing printed
+c) Error
+d) Segmentation fault
+a
+10. What will be the output of the following C++ code?
+#include <iostream>  
+using namespace std;
+class A{
+public:
+	int a;
+	A(){
+		cout<<"Constructor called\n";
+	}
+} a;
+int main(int argc, char const *argv[])
+{
+	cout<<"Main function\n";
+	return 0;
+}
+a) 
+Constructor called
+Main function
+b) 
+Main function
+Constructor called
+c) Error
+d) Segmentation fault
+a
+11. What will be the output of the following C++ code?
+#include <iostream>  
+using namespace std;
+class A{
+	A(){
+		cout<<"A's Constructor called\n";
+	}
+};
+class B
+{
+public:
+	A a;
+	B(){
+		cout<<"B's constructor called\ns";
+	}
+};
+int main(int argc, char const *argv[])
+{
+	B b;
+	return 0;
+}
+a) 
+A's Constructor called
+B's constructor called
+b) 
+B's Constructor called
+A's constructor called
+c) Error
+d) Segmentation fault
+c
+12. What will be the output of the following C++ code?
+#include <iostream>  
+using namespace std;
+class A{
+	A(){
+		cout<<"A's Constructor called\n";
+	}
+	friend class B;
+};
+class B
+{
+public:
+	A a;
+	B(){
+		cout<<"B's constructor called\ns";
+	}
+};
+int main(int argc, char const *argv[])
+{
+	B b;
+	return 0;
+}
+a) 
+A's Constructor called
+B's constructor called
+b) 
+B's Constructor called
+A's constructor called
+c) Error
+d) Segmentation fault
+a
+13. What will be the output of the following C++ code?
+#include <iostream>  
+using namespace std;
+class A{
+	~A(){}
+};
+class B
+{
+public:
+	A a;
+};
+int main(int argc, char const *argv[])
+{
+	B b;
+	return 0;
+}
+a) 
+A's Constructor called
+B's constructor called
+b) 
+B's Constructor called
+A's constructor called
+c) Error
+d) Segmentation fault
+c
+14. How destructor overloading is done?
+a) By changing the number of parameters
+b) By changing the parameters type
+c) By changing both the number of parameters and their type
+d) No chance for destructor overloading
+d
+15. Which of the following is correct?
+a) Destructors can be virtual
+b) There can be more than one destructor in a class
+c) Destructor definition starts with !
+d) Destructor is used to initialize objects
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Constructors and Destructors – 2» Next - C++ Programming Questions and Answers – Derived Classes 

@@ -1,0 +1,67 @@
+1. Which of the following is not an Enterprise Beans type?
+a) Doubleton
+b) Singleton
+c) Stateful
+d) Stateless
+a
+2. Which of the following is not true about Java beans?
+a) Implements java.io.Serializable interface
+b) Extends java.io.Serializable class
+c) Provides no argument constructor
+d) Provides setter and getter methods for its properties
+b
+3. Which file separator should be used by MANIFEST file?
+a) /
+b) \
+c) –
+d) //
+a
+4. Which of the following is correct error when loading JAR file with duplicate name?
+a) java.io.NullPointerException
+b) java.lang.ClassNotFound
+c) java.lang.ClassFormatError
+d) java.lang.DuplicateClassError
+c
+5. Java Beans are extremely secured?
+a) True
+b) False
+b
+6. Which of the following is not a feature of Beans?
+a) Introspection
+b) Events
+c) Persistence
+d) Serialization
+d
+7. What is the attribute of java bean to specify scope of bean to have single instance per Spring IOC?
+a) prototype
+b) singleton
+c) request
+d) session
+b
+8. Which attribute is used to specify initialization method?
+a) init
+b) init-method
+c) initialization
+d) initialization-method
+b
+ <bean id = "helloWorld" class = "com.bean.HelloWorld" init-method = "init" />
+9. Which attribute is used to specify destroy method?
+a) destroy
+b) destroy-method
+c) destruction
+d) destruction-method
+b
+ <bean id = "helloWorld" class = "com.tutorialspoint.HelloWorld" destroy-method = "destroy" />
+10. How to specify autowiring by name?
+a) @Qualifier
+b) @Type
+c) @Constructor
+d) @Name
+a
+	     @Qualifier("student1")	     @Autowired	     Student student1;
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Wildcards» Next - Advanced Java Questions & Answers – JDBC 

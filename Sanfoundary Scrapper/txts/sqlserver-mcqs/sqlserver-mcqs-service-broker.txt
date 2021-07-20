@@ -1,0 +1,67 @@
+1. Service broker was added to SQL Server ___________
+a) 2000
+b) 2005
+c) 2008
+d) 2012
+b
+2. Point out the correct statement.
+a) Loosely coupled applications are supported by the Service broker
+b) Each Service Broker conversation is considered to be a dialog where only participants are involved
+c) Service broker find applications when a single SQL server instance is used
+d) None of the mentioned
+a
+3. There are _________ components of the Service broker in SQL Server.
+a) 2
+b) 3
+c) 4
+d) 5
+b
+4. Which of the following service broker component defines the infrastructure used for exchanging messages between instances?
+a) Conversation
+b) Service definition
+c) Security
+d) All of the mentioned
+a
+5. Point out the wrong statement.
+a) The developers can design applications from independent components known as “services”
+b) The maintenance of the Service Broker is difficult
+c) Maintenance of Service Broker is a part of the routine database
+d) None of the mentioned
+b
+Join Sanfoundry@YouTube
+6. Service Broker also provides security by preventing __________ access from networks and by message encryption.
+a) Authorized
+b) Read
+c) Unauthorized
+d) All of the mentioned
+c
+7. (SSBS) is a new architecture which allows you to write ____________ message based application.
+a) asynchronous
+b) decoupled
+c) distributed
+d) all of the mentioned
+d
+8. Which of the following change was introduced in SQL Server 2012 related to Service Broker?
+a) Less support for Service Broker
+b) Queues do not expose the message enqueued time
+c) Messages can be sent to multiple target services (multicast)
+d) All of the mentioned
+c
+9. Which of the following is a Service Broker Related Dynamic Management View?
+a) sys.dm_broker_activated
+b) sys.dm_broker_activated_tasks
+c) sys.dm_broker_tasks
+d) dm_broker_activated_tasks
+b
+10. Which of the utility is used for reporting the issue in Service Broker?
+a) diagnose
+b) ssiagnose
+c) ssbdiagnose
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – LINQ – 2» Next - SQL Server Questions and Answers – Replication 

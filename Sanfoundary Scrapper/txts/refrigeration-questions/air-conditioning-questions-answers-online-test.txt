@@ -1,0 +1,100 @@
+1. What is the By-pass factor for heating coil, if td1 = 19°C, td2 = 25°C and td3 = 37°C?
+a) 0.75
+b) 0.4
+c) 0.7
+d) 0.1
+c
+BPF = Temperature difference between coil and exit / Temperature difference between coil and entry
+= td3 – td2 / td3 – td1
+= 37 – 25 / 37 – 19
+= 0.70588 = 0.7.
+2. What is the By-pass factor for cooling coil, if td1 = 49°C, td2 = 36°C and td3 = 30°C?
+a) 0.315
+b) 0.31
+c) 0.320
+d) 0.3
+a
+BPF = Temperature difference between exit and coil / Temperature difference between entry and coil
+= td2 – td3 / td1 – td3
+= 36 – 30 / 49 – 30
+= 0.315.
+3. If the value of BPF for one row of the coil is one, then what is the value of BPF for 3872 similar rows?
+a) 3872
+b) 3871
+c) 3873
+d) 1
+d
+So, (1)3872 = 1, for any value of n, the value comes one only.
+4. If the value of BPF for one row of the coil is 0.4, then what is the value of BPF for 12 similar rows?
+a) 0.00000167
+b) 0.0000167
+c) 0.00167
+d) 0.000167
+b
+So, (0.4)12 = 0.0000167.
+5. What is the value of sensible heat given out by the coil, if U = 198 W/m2 K, Ac = 11 m2 and tm = 0°C?
+a) 1
+b) 0
+c) 594594
+d) 543636
+b
+So, Sensible heat = U Ac tm = 198 x 11 x (273 + 0) = 594594.
+6. What is the value of BPF, if U = 1.9 W/m2 K, Ac = 1.1 m2 and ma = 0.97 kg?
+a) 0.14
+b) 0.12
+c) 0.13
+d) 0.15
+b
+7. What is the value of logarithmic mean temperature if td1 = 300 K, td2 = 400 K and BPF = 0.75?
+a) 70°C
+b) 79°C
+c) 85°C
+d) 75°C
+d
+Tm = td2 – td1 / loge [td3 – td1 / td3 – td2] 
+As, BPF for the coil = [td3 – td1 / td3 – td2] 
+Tm = td2 – td1 / loge [BPF] 
+= 400 – 300 / ln (1/0.75) = 100 / 0.287 = 348.43 K = 75.43°C = 75°C.
+8. What is the efficiency of the coil, if BPF = 0.6913?
+a) 1.6913
+b) 0.4467
+c) 0.3087
+d) 1.4467
+c
+9. What is the contact factor for heating coil, if td1 = 11°C, td2 = 32°C and td3 = 47°C?
+a) 0.5833
+b) 0.4833
+c) 0.7833
+d) 0.1833
+a
+BPF = Temperature difference between coil and exit / Temperature difference between coil and entry
+= td3 – td2 / td3 – td1
+= 47 – 32 / 47 – 11
+= 0.4167
+ηH = 1 – BPF = 1 – 0.4167 = 0.5833.
+10. What is the contact factor for cooling coil, if td1 = 44°C, td2 = 26°C and td3 = 19°C?
+a) 0.62
+b) 0.72
+c) 0.78
+d) 0.18
+b
+BPF = Temperature difference between coil and exit / Temperature difference between coil and entry
+= td2 – td3 / td1 – td3
+= 26 – 19 / 44 – 19
+= 0.28
+ηC = 1 – BPF = 1 – 0.28 = 0.72.
+11. For given conditions, td1 = 288 K, td2 = 301 K and td3 = 314 K, the value of by-pass factor and contact factor is equal.
+a) True
+b) False
+a
+So, for given set of values the value of contact factor and by-pass factor is equal.
+12. Higher the value of contact factor, poor is the performance of the coil.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Refrigeration & Air Conditioning.
+To practice  all areas of Air-Conditioning for online tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Air-Conditioning Questions and Answers – Psychrometry – Heating and Cooling Factor – 1» Next - Air-Conditioning Questions and Answers – Psychrometry – Inside and Outside Summer Design Conditions 

@@ -1,0 +1,73 @@
+This section on C++ interview questions and answers focuses on “Integer Types”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Integer Types” along with answers, explanations and/or solutions:
+1. The size_t integer type in C++ is?
+a) Unsigned integer of at least 64 bits
+b) Signed integer of at least 16 bits
+c) Unsigned integer of at least 16 bits
+d) Signed integer of at least 64 bits
+c
+2. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {    	int x = -1;        unsigned int y = 2;         if(x > y)         {        	cout << "x is greater";    	}        else         {    		cout << "y is greater";    	}          }
+a) x is greater
+b) y is greater
+c) implementation defined
+d) arbitrary
+a
+3. Which of these expressions will return true if the input integer v is a power of two?
+a) (v | (v + 1)) == 0;
+b) (~v & (v – 1)) == 0;
+c) (v | (v – 1)) == 0;
+d) (v & (v – 1)) == 0;
+d
+4. What is the value of the following 8-bit integer after all statements are executed?
+int x = 1;x = x << 7;x = x >> 7;
+a) 1
+b) -1
+c) 127
+d) Implementation defined
+d
+5. Which of these expressions will make the rightmost set bit zero in an input integer x?
+a) x = x | (x-1)
+b) x = x & (x-1)
+c) x = x | (x+1)
+d) x = x & (x+2)
+b
+6. Which of these expressions will isolate the rightmost set bit?
+a) x = x & (~x)
+b) x = x ^ (~x)
+c) x = x & (-x)
+d) x = x ^ (-x)
+c
+7. 0946, 786427373824, ‘x’ and 0X2f are _____ _____ ____ and _____ literals respectively.
+a) decimal, character, octal, hexadecimal
+b) octal, hexadecimal, character, decimal
+c) hexadecimal, octal, decimal, character
+d) octal, decimal, character, hexadecimal
+d
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int a = 8;        cout << "ANDing integer 'a' with 'true' :" << a && true;        return 0;    }
+a) ANDing integer ‘a’ with ‘true’ :8
+b) ANDing integer ‘a’ with ‘true’ :0
+c) ANDing integer ‘a’ with ‘true’ :1
+d) ANDing integer ‘a’ with ‘true’ :9
+a
+9. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int i = 3;        int l = i / -2;        int k = i % -2;        cout << l << k;        return 0;    }
+a) compile time error
+b) -1 1
+c) 1 -1
+d) implementation defined
+b
+10. What will be the output of the following C++ function?
+    int main()    {        register int i = 1;        int *ptr = &i;        cout << *ptr;	return 0;    }
+a) 0
+b) 1
+c) Compiler error may be possible
+d) Runtime error may be possible
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Character Types» Next - C++ Programming Questions and Answers – Floating Point Types 

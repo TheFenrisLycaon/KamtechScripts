@@ -1,0 +1,79 @@
+1. A heuristic is a way of trying ___________
+a) To discover something or an idea embedded in a program
+b) To search and measure how far a node in a search tree seems to be from a goal
+c) To compare two nodes in a search tree to see if one is better than another
+d) All of the mentioned
+d
+2. A* algorithm is based on ___________
+a) Breadth-First-Search
+b) Depth-First –Search
+c) Best-First-Search
+d) Hill climbing
+c
+3. The search strategy the uses a problem specific knowledge is known as ___________
+a) Informed Search
+b) Best First Search
+c) Heuristic Search
+d) All of the mentioned
+d
+4. Uninformed search strategies are better than informed search strategies.
+a) True
+b) False
+a
+5. Best-First search is a type of informed search, which uses ________________ to choose the best next node for expansion.
+a) Evaluation function returning lowest evaluation
+b) Evaluation function returning highest evaluation
+c) Evaluation function returning lowest & highest evaluation
+d) None of them is applicable
+a
+Join Sanfoundry@YouTube
+6. Best-First search can be implemented using the following data structure.
+a) Queue
+b) Stack
+c) Priority Queue
+d) Circular Queue
+c
+7. The name “best-first search” is a venerable but inaccurate one. After all, if we could really expand the best node first, it would not be a search at all; it would be a straight march to the goal. All we can do is choose the node that appears to be best according to the evaluation function.
+a) True
+b) False
+a
+8. Heuristic function h(n) is ________
+a) Lowest path cost
+b) Cheapest path from root to goal node
+c) Estimated cost of cheapest path from root to goal node
+d) Average path cost
+c
+9. Greedy search strategy chooses the node for expansion in ___________
+a) Shallowest
+b) Deepest
+c) The one closest to the goal node
+d) Minimum heuristic cost
+c
+10. What is the evaluation function in greedy approach?
+a) Heuristic function
+b) Path cost from start node to current node
+c) Path cost from start node to current node + Heuristic cost
+d) Average of Path cost from start node to current node and Heuristic cost
+a
+11. What is the space complexity of Greedy search?
+a) O(b)
+b) O(bl)
+c) O(m)
+d) O(bm)
+d
+12. What is the evaluation function in A* approach?
+a) Heuristic function
+b) Path cost from start node to current node
+c) Path cost from start node to current node + Heuristic cost
+d) Average of Path cost from start node to current node and Heuristic cost
+c
+13. A* is optimal if h(n) is an admissible heuristic-that is, provided that h(n) never underestimates the cost to reach the goal.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series –  Artificial Intelligence.
+To practice all areas of Artificial Intelligence for Aptitude test, here is complete set of 1000+ Multiple Choice Questions and Answers on Artificial Intelligence.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Artificial Intelligence Questions & Answers – Informed Search Strategy» Next - Artificial Intelligence Questions and Answers – Local Search Problems and Optimization Problems 

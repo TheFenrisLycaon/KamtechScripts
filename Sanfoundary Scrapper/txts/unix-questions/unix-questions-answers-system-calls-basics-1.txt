@@ -1,0 +1,68 @@
+1. A system call is a routine built into the kernel and performs a basic function.
+a) True
+b) False
+a
+2. When we execute a C program, CPU runs in ____ mode.
+a) user
+b) kernel
+c) supervisory
+d) system
+a
+3. In ____ mode, the kernel runs on behalf of the user.
+a) user
+b) kernel
+c) real
+d) all
+b
+4. All UNIX and LINUX systems have one thing in common which is ____
+a) set of system calls
+b) set of commands
+c) set of instructions
+d) set of text editors
+a
+5. The chmod command invokes the ____ system call.
+a) chmod
+b) ch
+c) read
+d) change
+a
+6. For reading input, which of the following system call is used?
+a) write
+b) rd
+c) read
+d) change
+c
+7. Which of the following system call is used for opening or creating a file?
+a) read
+b) write
+c) open
+d) close
+c
+8. There are ___ modes of opening a file.
+a) 4
+b) 3
+c) 2
+d) 1
+b
+9. Which of the following mode is used for opening a file in both reading and writing?
+a) O_RDONLY
+b) O_WRONLY
+c) O_RDWR
+d) O_WDR
+c
+ O_RDONLY    -    opens files for reading
+ O_WRONLY    -    opens file for writing 
+ O_RDWR      -   opens file for reading and writing
+ 
+10. open system call returns the file descriptor as ___
+a) int
+b) float
+c) char
+d) double
+c
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Customizing Vi Editor» Next - Unix  Questions and Answers – System Calls Basics – 2 

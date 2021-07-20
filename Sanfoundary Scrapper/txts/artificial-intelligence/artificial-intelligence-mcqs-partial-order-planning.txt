@@ -1,0 +1,77 @@
+1. The process by which the brain incrementally orders actions needed to complete a specific task is referred as ______________
+a) Planning problem
+b) Partial order planning
+c) Total order planning
+d) Both Planning problem & Partial order planning
+b
+2. To complete any task, the brain needs to plan out the sequence by which to execute the behavior. One way the brain does this is with a partial-order plan.
+a) True
+b) False
+a
+3. In partial order plan.
+A. Relationships between the actions of the behavior are set prior to the actions
+B. Relationships between the actions of the behavior are not set until absolutely necessary
+Choose the correct option.
+a) A is true
+b) B is true
+c) Either A or B can be true depending upon situation
+d) Neither A nor B is true
+a
+4. Partial-order planning exhibits the Principle of Least Commitment, which contributes to the efficiency of this planning system as a whole.
+a) True
+b) False
+a
+5. Following is/are the components of the partial order planning.
+a) Bindings
+b) Goal
+c) Causal Links
+d) All of the mentioned
+d
+Causal Links: Causal links in the algorithm are those that categorically order actions. They are not the specific order (1,2,3) of the actions, rather the general order as in Action 2 must come somewhere after Action 1, but before Action 2.
+Plan Space: The plan space of the algorithm is constrained between its start and finish. The algorithm starts, producing the initial state and finishes when all parts of the goal is been achieved. 
+6. Partial-order planning is the opposite of total-order planning.
+a) True
+b) False
+a
+7. Sussman Anomaly can be easily and efficiently solved by partial order planning.
+a) True
+b) False
+a
+8. Sussman Anomaly illustrates a weakness of interleaved planning algorithm.
+a) True
+b) False
+b
+9. One the main drawback of this type of planning system is that it requires a lot of computational powers at each node.
+a) True
+b) False
+a
+10. What are you predicating by the logic: ۷x: €y: loyalto(x, y).
+a) Everyone is loyal to someone
+b) Everyone is loyal to all
+c) Everyone is not loyal to someone
+d) Everyone is loyal
+a
+11. A plan that describe how to take actions in levels of increasing refinement and specificity is ____________
+a) Problem solving
+b) Planning
+c) Non-hierarchical plan
+d) Hierarchical plan
+d
+12. A constructive approach in which no commitment is made unless it is necessary to do so, is ____________
+a) Least commitment approach
+b) Most commitment approach
+c) Nonlinear planning
+d) Opportunistic planning
+a
+13. Uncertainty arises in the Wumpus world because the agent’s sensors give only ____________
+a) Full & Global information
+b) Partial & Global Information
+c) Partial & local Information
+d) Full & local information
+c
+Sanfoundry Global Education & Learning Series – Artificial Intelligence. 
+To practice all areas of Artificial Intelligence, here is complete set of 1000+ Multiple Choice Questions and Answers on Artificial Intelligence.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Artificial Intelligence Questions & Answers – Unification and Lifting» Next - Artificial Intelligence Questions & Answers – Partial Order Planning – 1 

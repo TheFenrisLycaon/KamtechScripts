@@ -1,0 +1,98 @@
+1. Which of the following defines a chebyshev polynomial of order N, TN(x)?
+a) cos(Ncos-1x) for all x
+b) cosh(Ncosh-1x) for all x
+c) 
+cos(Ncos-1x), |x|<1
+cosh(Ncosh-1x), |x|>1
+d) None of the mentioned
+c
+TN(x) = cos(Ncos-1x), |x|≤1
+cosh(Ncosh-1x), |x|>1.
+2. What is the formula for chebyshev polynomial TN(x) in recursive form?
+a) 2TN-1(x) – TN-2(x)
+b) 2TN-1(x) + TN-2(x)
+c) 2xTN-1(x) + TN-2(x)
+d) 2xTN-1(x) – TN-2(x)
+d
+TN(x) = cos(Ncos-1x), |x|≤1
+cosh(Ncosh-1x), |x|>1
+From the above formula, it is possible to generate chebyshev polynomial using the following recursive formula
+TN(x)= 2xTN-1(x)-TN-2(x), N ≥ 2.
+3. What is the value of chebyshev polynomial of degree 0?
+a) 1
+b) 0
+c) -1
+d) 2
+a
+TN(x) = cos(Ncos-1x), |x|≤1
+cosh(Ncosh-1x), |x|>1
+For a degree 0 chebyshev filter, the polynomial is obtained as
+T0(x)=cos(0)=1.
+4. What is the value of chebyshev polynomial of degree 1?
+a) 1
+b) x
+c) -1
+d) -x
+b
+TN(x) = cos(Ncos-1x), |x|≤1
+cosh(Ncosh-1x), |x|>1
+For a degree 1 chebyshev filter, the polynomial is obtained as
+T0(x)=cos(cos-1x)=x.
+5. What is the value of chebyshev polynomial of degree 3?
+a) 3x3+4x
+b) 3x3-4x
+c) 4x3+3x
+d) 4x3-3x
+d
+TN(x) = cos(Ncos-1x), |x|≤1; TN(x) = cosh(Ncosh-1x), |x|>1
+And the recursive formula for the chebyshev polynomial of order N is given as
+TN(x)=2xTN-1(x)-TN-2(x)
+Thus for a chebyshev filter of order 3, we obtain
+T3(x)=2xT2(x)-T1(x)=2x(2x2-1)-x=4x3-3x.
+6. What is the value of chebyshev polynomial of degree 5?
+a) 16x5+20x3-5x
+b) 16x5+20x3+5x
+c) 16x5-20x3+5x
+d) 16x5-20x3-5x
+c
+TN(x) = cos(Ncos-1x), |x|≤1
+  = cosh(Ncosh-1x), |x|>1
+And the recursive formula for the chebyshev polynomial of order N is given as
+TN(x)= 2xTN-1(x)-TN-2(x)
+Thus for a chebyshev filter of order 5, we obtain
+T5(x)=2xT4(x)-T3(x)=2x(8x4-8x2+1)-(4x3-3x)=16x5-20x3+5x.
+7. For |x|≤1, |TN(x)|≤1, and it oscillates between -1 and +1 a number of times proportional to N.
+a) True
+b) False
+a
+The above is evident from the equation,
+TN(x) = cos(Ncos-1x), |x|≤1.
+8. Chebyshev polynomials of odd orders are _____________
+a) Even functions
+b) Odd functions
+c) Exponential functions
+d) Logarithmic functions
+b
+9. What is the value of TN(0) for even degree N?
+a) -1
+b) +1
+c) 0
+d) ±1
+d
+TN(x) = cos(Ncos-1x), |x|≤1
+cosh(Ncosh-1x), |x|>1
+For x=0, we have TN(0)=cos(Ncos-10)=cos(N.π/2)=±1 for N even.
+10. TN(-x)=(-1)NTN(x).
+a) True
+b) False
+a
+TN(x) = cos(Ncos-1x), |x|≤1
+cosh(Ncosh-1x), |x|>1
+=> TN(-x)= cos(Ncos-1(-x))=cos(N(π-cos-1x))=cos(Nπ-Ncos-1x)=(-1)N cos(Ncos-1x)=(-1)NTN(x)
+Thus we get, TN(-x)=(-1)NTN(x).
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Design of Low Pass Butterworth Filters – 2» Next - Digital Signal Processing Questions and Answers – Chebyshev Filters – 2 

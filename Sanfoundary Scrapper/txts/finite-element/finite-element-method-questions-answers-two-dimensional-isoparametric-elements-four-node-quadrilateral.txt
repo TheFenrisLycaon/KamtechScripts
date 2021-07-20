@@ -1,0 +1,68 @@
+1. In two dimensional isoparametric elements, we can generate element stiffness matrix by using ____
+a) Numerical integration
+b) Differential equations
+c) Partial derivatives
+d) Undefined
+a
+2. The vector q=[q1,q2………q8]T of a four noded quadrilateral denotes ____
+a) Load vector
+b) Transition matrix
+c) Element displacement vector
+d) Constant matrix
+c
+3. For a four noded quadrilateral, we define shape functions on _____
+a) X direction
+b) Y direction
+c) Load vector
+d) Master element
+d
+4. The master element is defined in ______
+a) Co-ordinates
+b) Natural co-ordinates
+c) Universal co-ordinates
+d) Radius
+b
+5. Shape function can be written as _____
+a)  Nt=(1-ξ)(1-η)
+b)  Nt=(1-ξ)
+c)  Nt=(1-η)
+d)  Nt=\(\frac{1}{4}\)(1-ξ)(1-η)
+d
+6.  For a four noded element while implementing a computer program, the compact representation of shape function is ____
+a) Nt=\(\frac{1}{4}\)(1-ξ)(1-η)
+b) Nt=(1-ξ)(1-η)
+c) Nt=\(\frac{1}{4}\)(1+ξξi)(1+ηηi)
+d) Undefined
+c
+7.  For a four noded quadrilateral elements, In uT=[u.v]T the displacement elements can be represented as u=N1q1+N2q3+ N3q5+ N4q7
+v= N1q2+N2q4+ N3q6+ N4q8
+  then the shape function can be represented as _____
+a) \(N=\left[\begin{array}{ |c c c c}q_1  & q_5  \\ q_2 &q_6\\q_3 &q_7\\q_4 & q_8\end{array}\right]\) 
+b) \(N=\begin{bmatrix}q_1 &q_3 &q_5 &q_7 \\   q_2 &q_4&q_6&q_8\end{bmatrix}\) 
+c) \(N=\begin{bmatrix}q_1  \\   q_2\end{bmatrix}\) 
+d) \(N=\begin{bmatrix}N_1 & 0 & N_3 & 0&N_5&0&N_7 & 0 \\  0 & N_2 &0 &N_4&0&N_6&0&N_8\end{bmatrix}\) 
+d
+8. The stiffness matrix from the quadrilateral element can be derived from _____
+a) Uniform energy
+b) Strain energy
+c) Stress
+d) Displacement
+b
+9. For four noded quadrilateral element, the global load vector can be determined by considering the body force term in _____
+a) Kinetic energy
+b) Potential energy
+c) Kinematic energy
+d) Temperature
+b
+10. Shape functions are linear functions along the _____
+a) Surfaces
+b) Edges
+c) Elements
+d) Planes
+b
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Axis Symmetric Problem Modelling and Boundary Conditions» Next - Finite Element Method Questions and Answers – Numerical Integration 

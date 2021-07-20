@@ -1,0 +1,92 @@
+1. Which of these is the method which is executed first before execution of any other thing takes place in a program?
+a) main method
+b) finalize method
+c) static method
+d) private method
+c
+2. What is the process of defining more than one method in a class differentiated by parameters?
+a) Function overriding
+b) Function overloading
+c) Function doubling
+d) None of the mentioned
+b
+3. Which of these can be used to differentiate two or more methods having the same name?
+a) Parameters data type
+b) Number of parameters
+c) Return type of method
+d) All of the mentioned
+d
+4. Which of these data type can be used for a method having a return statement in it?
+a) void
+b) int
+c) float
+d) both int and float
+d
+5. Which of these statement is incorrect?
+a) Two or more methods with same name can be differentiated on the basis of their parameters data type
+b) Two or more method having same name can be differentiated on basis of number of parameters
+c) Any already defined method in java library can be defined again in the program with different data type of parameters
+d) If a method is returning a value the calling statement must have a variable to store that value
+d
+6. What will be the output of the following Java program?
+    class box     {        int width;        int height;        int length;        int volume;        void volume(int height, int length, int width)         {             volume = width * height * length;        }     }        class Prameterized_method{        public static void main(String args[])         {            box obj = new box();            obj.height = 1;            obj.length = 5;            obj.width = 5;            obj.volume(3, 2, 1);            System.out.println(obj.volume);                }     }
+a) 0
+b) 1
+c) 6
+d) 25
+c
+output:
+$ Prameterized_method.java
+$ Prameterized_method
+6
+7. What will be the output of the following Java program?
+    class equality     {        int x;        int y;        boolean isequal()        {            return(x == y);          }     }        class Output     {        public static void main(String args[])         {            equality obj = new equality();            obj.x = 5;            obj.y = 5;            System.out.println(obj.isequal);        }     }
+a) false
+b) true
+c) 0
+d) 1
+b
+output:
+$ javac Output.java
+$ java Output 
+true
+8. What will be the output of the following Java program?
+    class box     {        int width;        int height;        int length;        int volume;        void volume()         {            volume = width * height * length;        }         void volume(int x)         {            volume = x;        }    }        class Output     {         public static void main(String args[])         {            box obj = new box();            obj.height = 1;            obj.length = 5;            obj.width = 5;            obj.volume(5);            System.out.println(obj.volume);                }     }
+a) 0
+b) 5
+c) 25
+d) 26
+b
+output:
+$ javac Output.java
+$ java Output
+5
+9. What will be the output of the following Java program?
+    class Output     {        static void main(String args[])         {                 int x , y = 1;             x = 10;             if(x != 10 && x / 0 == 0)                 System.out.println(y);             else                 System.out.println(++y);        }     }
+a) 1
+b) 2
+c) Runtime Error
+d) Compilation Error
+d
+output:
+$ javac Output.java
+Error: Main method not found in class Output, please define the main method as:
+   public static void main(String[] args)
+10. What will be the output of the following Java program?
+    class area     {        int width;        int length;        int height;        area()         {        width = 5;        length = 6;        height = 1;        }        void volume()         {             volume = width * height * length;        }     }        class cons_method     {        public static void main(String args[])         {            area obj = new area();            obj.volume();            System.out.println(obj.volume);        }     }
+a) 0
+b) 1
+c) 25
+d) 30
+d
+output:
+$ javac cons_method.java
+$ java cons_method
+30
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+ Here’s the list of Best Reference Books in Java Programming Language.
+To practice all areas of Java for Entrance exams, here is complete set on 1000+ Multiple Choice Questions and Answers on Java.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – String Class» Next - Java Questions & Answers – Command Line Arguments – 1 

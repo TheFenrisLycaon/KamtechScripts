@@ -1,0 +1,75 @@
+1. How many methods does the DateTime class have?
+a) 8
+b) 9
+c) 10
+d) 11
+b
+2. How many constants does the DateTime class have?
+a) 8
+b) 9
+c) 10
+d) 11
+d
+3. Which method is simply an object-oriented version of date()?
+a) DateTime::format()
+b) DateTime::modify()
+c) DateTime::setTime()
+d) DateTime::setDate()
+a
+4. Which of the following is the right way to use the DateTime class?
+a) $date = get_Class(DateTime);
+b) $date = class DateTime;
+c) $date = new DateTime();
+d) $date = new class DateTime();
+c
+5. What will be the output of the following PHP code if date is 24/02/2008?
+    <?php    $date = new DateTime();    echo $date->format('l,F,js,Y');    ?>
+a) Sunday, February 24th 2008
+b) Sunday, 02 24 2008
+c) Sunday, 24 02 2008
+d) Sunday, 24th February 2008
+a
+6. Which of the following statements can be used to set the time zone in individual scripts?
+a) date_set_timezone(‘Europe/London’);
+b) date_default_timezone_set(‘Europe/London’);
+c) date_set_default_timezone(‘Europe/London’);
+d) date_default_timezone(‘Europe/London’);
+b
+7. Which of the following DateTimeZone classes are static?
+i)  listAbbreviations()
+ii) getName()
+iii) getOffset()
+iv) listIdentifiers()
+a) Only i)
+b) Only ii)
+c) i)  and iv)
+d) iii)  and iv)
+c
+8. Which of the following DateTimeZone classes are non-static?
+i) _construct()
+ii) getName()
+iii) getOffset()
+iv) getTransitions()
+a) Only i)
+b) Only ii)
+c) i), ii), iii) and iv)
+d) iii) and iv)
+c
+9. Which of the following statements can be used to add two months to the existing date?
+a) $date->modify(‘+2 months’);
+b) $date = modify(‘+2 months’);
+c) $date = modify(‘2+ months’);
+d) $date->modify(‘2+ months’);
+a
+10. Which method enables you to calculate whether daylight saving time is in force at a specific date and time?
+a) getOffset()
+b) getTranitions()
+c) ISODate()
+d) savingTime()
+b
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Date and Timestamp» Next - PHP Questions & Answers – HTML Forms 

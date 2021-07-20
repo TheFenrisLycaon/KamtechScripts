@@ -1,0 +1,67 @@
+1. HCatalog supports reading and writing files in any format for which a ________ can be written.
+a) SerDE
+b) SaerDear
+c) DocSear
+d) All of the mentioned
+a
+2. Point out the correct statement.
+a) HCat provides connectors for MapReduce
+b) Apache HCatalog provides table data access for CDH components such as Pig and MapReduce
+c) HCat makes Hive metadata available to users of other Hadoop tools like Pig, MapReduce and Hive
+d) All of the mentioned
+b
+3. Hive version ___________ is the first release that includes HCatalog.
+a) 0.10.0
+b) 0.11.0
+c) 0.12.0
+d) All of the mentioned
+b
+4. HCatalog is built on top of the Hive metastore and incorporates Hive’s is ____________
+a) DDL
+b) DML
+c) TCL
+d) DCL
+a
+5. Point out the wrong statement.
+a) HCatalog is a table and storage management layer for Hadoop that enables users with different data processing tools
+b) There is Hive-specific interface for HCatalog
+c) Data is defined using HCatalog’s command line interface (CLI)
+d) All of the mentioned
+b
+6. The HCatalog interface for Pig consists of ____________ and HCatStorer, which implement the Pig load and store interfaces respectively.
+a) HCLoader
+b) HCatLoader
+c) HCatLoad
+d) None of the mentioned
+b
+7. _____________ accepts a table to read data from and optionally a selection predicate to indicate which partitions to scan.
+a) HCatOutputFormat
+b) HCatInputFormat
+c) OutputFormat
+d) InputFormat
+b
+8. The HCatalog __________ supports all Hive DDL that does not require MapReduce to execute.
+a) Powershell
+b) CLI
+c) CMD
+d) All of the mentioned
+b
+9. You can write to a single partition by specifying the partition key(s) and value(s) in the ___________ method.
+a) setOutput
+b) setOut
+c) put
+d) get
+a
+10. HCatalog supports the same data types as _________
+a) Pig
+b) Hama
+c) Hive
+d) Oozie
+c
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Hama with Hadoop – 2» Next - Hadoop Questions and Answers – HCatalog with Hadoop – 1 

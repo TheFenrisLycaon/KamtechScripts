@@ -1,0 +1,83 @@
+1. Which is the most optimal scheduling algorithm?
+a) FCFS – First come First served
+b) SJF – Shortest Job First
+c) RR – Round Robin
+d) None of the mentioned
+b
+2. The real difficulty with SJF in short term scheduling is ____________
+a) it is too good an algorithm
+b) knowing the length of the next CPU request
+c) it is too complex to understand
+d) none of the mentioned
+b
+3. The FCFS algorithm is particularly troublesome for ____________
+a) time sharing systems
+b) multiprogramming systems
+c) multiprocessor systems
+d) operating systems
+b
+4. Consider the following set of processes, the length of the CPU burst time given in milliseconds.
+   Process    Burst time
+    P1           6
+    P2           8
+    P3           7
+    P4           3
+Assuming the above process being scheduled with the SJF scheduling algorithm.
+a) The waiting time for process P1 is 3ms
+b) The waiting time for process P1 is 0ms
+c) The waiting time for process P1 is 16ms
+d) The waiting time for process P1 is 9ms
+a
+5. Preemptive Shortest Job First scheduling is sometimes called ____________
+a) Fast SJF scheduling
+b) EDF scheduling – Earliest Deadline First
+c) HRRN scheduling – Highest Response Ratio Next
+d) SRTN scheduling – Shortest Remaining Time Next
+d
+6. An SJF algorithm is simply a priority algorithm where the priority is ____________
+a) the predicted next CPU burst
+b) the inverse of the predicted next CPU burst
+c) the current CPU burst
+d) anything the user wants
+a
+7. Choose one of the disadvantages of the priority scheduling algorithm?
+a) it schedules in a very complex manner
+b) its scheduling takes up a lot of time
+c) it can lead to some low priority process waiting indefinitely for the CPU
+d) none of the mentioned
+c
+8. What is ‘Aging’?
+a) keeping track of cache contents
+b) keeping track of what pages are currently residing in memory
+c) keeping track of how many times a given page is referenced
+d) increasing the priority of jobs to ensure termination in a finite time
+d
+9. A solution to the problem of indefinite blockage of low – priority processes is ____________
+a) Starvation
+b) Wait queue
+c) Ready queue
+d) Aging
+d
+10. Which of the following statements are true? (GATE 2010)
+
+i) Shortest remaining time first scheduling may cause starvation
+ii) Preemptive scheduling may cause starvation
+iii) Round robin is better than FCFS in terms of response time
+a) i only
+b) i and iii only
+c) ii and iii only
+d) i, ii and iii
+d
+11. Which of the following scheduling algorithms gives minimum average waiting time?
+a) FCFS
+b) SJF
+c) Round – robin
+d) Priority
+b
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System for Freshers, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions and Answers – CPU Scheduling Algorithms-1» Next - Operating System Questions and Answers – The Critical Section (CS) Problem and Solutions 

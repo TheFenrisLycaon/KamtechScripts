@@ -1,0 +1,97 @@
+1. Which of the following tool is used for purpose of data auditing for SQL Server only?
+a) ApexSQL
+b) SQL Ninja
+c) SQL Audit
+d) Idera
+a
+2. Point out the correct statement.
+a) The CREATE SERVER AUDIT statement is in a transaction scope
+b) An audit must exist before deleting a server audit specification for it
+c) To insert a server audit, principles require the ALTER ANY SERVER AUDIT or the CONTROL SERVER permission
+d) None of the mentioned
+a
+3. Which of the following object is only available for audit actions in  Create Server Audit Specification?
+a) Audit Action Type
+b) Object Name
+c) Audit Name
+d) All of the mentioned
+b
+4. Selecting the _________ option can allow unaudited activity which could violate your security policies.
+a) Fail
+b) Shut down
+c) Continue
+d) Break
+c
+5. Point out the wrong statement.
+a) Users with the ALTER ROLE permission can create server audit specifications and bind them to any audit
+b) SQL Server audit uses Extended Events to help create an audit
+c) You can have multiple audits per SQL Server instance
+d) You can create one server audit specification per audit
+a
+6. Which of the following code creates a server audit called “HIPPA_Audit” with a binary file as the target and no options?
+a)
+CREATE SERVER AUDIT HIPAA_Audit
+    TO SUBJECT ( FILEPATH ='\\SQLPROD_1\Audit\' );
+b)
+Join Sanfoundry@YouTube
+CREATE SERVER AUDIT HIPAA_Audit
+    TO FILE ( FILEPATH ='\\SQLPROD_1\Audit\' );
+c)
+CREATE AUDIT HIPAA_Audit
+    TO FILE ( FILEPATH ='\\SQLPROD_1\Audit\' );
+d)
+CREATE SERVER AUDIT HIPAA
+    TO FILE ( FILEPATH ='\\SQLPROD_1\Audit\' );
+b
+  
+7. Which of the following code Enables the audit ‘HIPAA_Audit’?
+a)
+ALTER SERVER AUDIT HIPAA_Audit
+WITH (STATE ==1);
+b)
+ALTER SERVER AUDIT HIPAA_Audit
+WITH (STATE = OFF);
+c)
+ALTER SERVER AUDIT HIPAA_Audit
+WITH (STATE = ON);
+d) None of the mentioned
+c
+8. Which of the following code creates database audit specification?
+a)
+CREATE AUDIT SPECIFICATION Audit_Pay_Tables
+FOR SERVER AUDIT Payrole_Security_Audit
+ADD (SELECT , INSERT
+     ON HumanResources.EmployeePayHistory BY dbo ) 
+WITH (STATE = ON) ;
+b)
+CREATE DATABASE AUDIT Audit_Pay_Tables
+FOR SERVER AUDIT Payrole_Security_Audit
+ADD (SELECT , INSERT
+     ON HumanResources.EmployeePayHistory BY dbo ) 
+WITH (STATE = ON) ;
+c)
+CREATE DATABASE AUDIT SPECIFICATION Audit_Pay_Tables
+FOR SERVER AUDIT Payrole_Security_Audit
+ADD (SELECT , INSERT
+     ON HumanResources.EmployeePayHistory BY dbo ) 
+WITH (STATE = ON) ;
+d) All of the mentioned
+c
+9. Which of the following views log from a file that is named \\serverName\Audit\HIPPA_AUDIT.sqlaudit?
+a) SELECT * FROM sys.fn_audit_file (‘\\serverName\Audit\HIPPA_AUDIT.sqlaudit’, default,default);
+b) SELECT * FROM sys.fn_get_audit_file (‘\\serverName\Audit\HIPPA_AUDIT.sqlaudit’, default,default);
+c) SELECT * FROM sys.fn_get_audit(‘\\serverName\Audit\HIPPA_AUDIT.sqlaudit’, default,default);
+d) None of the mentioned
+b
+10. Which of the following statement is used to enable auditing from SQL Server?
+a) auditpol /set /subcategory:”application generated” /success:enable /failure:enable
+b) polaudit /set /subcategory:”application generated” /success:enable /failure:enable
+c) auditpolenable /set /subcategory:”application generated” /success:enable /failure:enable
+d) auditenable /set /subcategory:”application generated” /success:enable /failure:enable
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Row Level Security» Next - SQL Server Questions and Answers – Schema Audit 

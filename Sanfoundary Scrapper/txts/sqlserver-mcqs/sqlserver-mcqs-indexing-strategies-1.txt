@@ -1,0 +1,81 @@
+1. Setting the SORT_IN_TEMPDB option to ON can direct the SQL Server Database Engine to use ________ to store the intermediate sort results.
+a) tempdb
+b) master
+c) msdb
+d) model
+a
+2. Point out the correct statement.
+a) The Database Engine merges the sorted runs of index leaf rows into a single, sorted stream
+b) SQL Server also supports full-text indexes and XML indexes, but those are relevant only for specific data types
+c) The fill-factor value is a percentage from 1 to 50
+d) All of the mentioned
+a
+3. Which of the following rebuilds the IX_Employee_OrganizationLevel_OrganizationNode index with a fill factor of 80 on the HumanResources.Employee table?
+a)
+ALTER INDEX IX_Employee_OrganizationLevel_OrganizationNode ON HumanResources
+REBUILD WITH (FILLFACTOR = 80);
+b)
+CREATE INDEX IX_Employee_OrganizationLevel_OrganizationNode ON HumanResources.Employee
+REBUILD WITH (FILLFACTOR = 80);
+c)
+ALTER INDEX IX_Employee_OrganizationLevel_OrganizationNode ON HumanResources.Employee
+REBUILD WITH (FILLFACTOR = 80);
+d) All of the mentioned
+c
+4. Which of the following guideline is considered during column design?
+a) Keep the length of the index key short for non clustered indexes
+b) An xml data type can only be a key column only in an XML index
+c) Examine column which have composite primary keys
+d) None of the mentioned
+b
+5. Point out the wrong statement.
+a) SQL Server supports only two index types: clustered and non-clustered
+b) Appropriate indexes can make a world of difference in performance
+c) SET option requires ALTER permission on the table or view
+d) None of the mentioned
+a
+6. By default, indexes are stored in the ______ filegroup as the base table on which the index is created.
+a) same
+b) different
+c) may be same or different
+d) none of the mentioned
+a
+7. Specifying the order in which key values are stored in an index is useful when queries referencing the table have _____________
+a) ORDER BY clauses
+b) SORT clauses
+c) WHERE clauses
+d) None of the mentioned
+a
+8. Every table should have a ________ index defined on the column or columns.
+a) CLUSTERED
+b) NON CLUSTERED
+c) FULL TEXT
+d) All of the mentioned
+a
+9. Which of the following option is immediately applied to the index by using the SET clause in the ALTER INDEX statement?
+a) ALLOW_PAGE_LOCKS
+b) ALLOW_COLUMN_LOCKS
+c) STATISTICS_RECOMPUTE
+d) None of the mentioned
+a
+10. Which of the following code snippet demonstrates ALTER statement with STATISTICS_NORECOMPUTE in ONLINE state?
+a)
+ALTER INDEX ALL ON Production.Product
+REBUILD WITH (FILLFACTOR = 100, SORT_IN_TEMPDB = ON,
+              STATISTICS_RECOMPUTE = ON);
+b)
+ALTER INDEX ALL ON Production.Product
+REBUILD WITH (FILLFACTOR = 80, SORT_IN_TEMPDB = ON,
+              STATISTICS_NORECOMPUTE = ON);
+c)
+ALTER INDEX ALL ON Production.Product
+BUILD WITH (FILLFACTOR = 80, SORT_IN_TEMPDB = ON,
+              STATISTICS_NORECOMPUTE = ON);
+d) All of the mentioned
+b
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Query Execution Plan» Next - SQL Server Questions and Answers – Indexing Strategies – 2 

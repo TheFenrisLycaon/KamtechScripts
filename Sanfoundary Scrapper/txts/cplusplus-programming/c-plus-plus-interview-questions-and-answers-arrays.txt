@@ -1,0 +1,86 @@
+This section on C++ interview questions and answers focuses on “Arrays”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Arrays” along with answers, explanations and/or solutions:
+1. Which of the following correctly declares an array?
+a) int array[10];
+b) int array;
+c) array{10};
+d) array array[10];
+a
+2. What is the index number of the last element of an array with 9 elements?
+a) 9
+b) 8
+c) 0
+d) Programmer-defined
+b
+3. What is the correct definition of an array?
+a) An array is a series of elements of the same type in contiguous memory locations
+b) An array is a series of element
+c) An array is a series of elements of the same type placed in non-contiguous memory locations
+d) An array is an element of the different type
+a
+4. Which of the following accesses the seventh element stored in array?
+a) array[6];
+b) array[7];
+c) array(7);
+d) array;
+a
+5. Which of the following gives the memory address of the first element in array?
+a) array[0];
+b) array[1];
+c) array(2);
+d) array;
+d
+Join Sanfoundry@YouTube
+6. What will be the output of the following C++ code?
+    #include <stdio.h>    #include<iostream>    using namespace std;    int array1[] = {1200, 200, 2300, 1230, 1543};    int array2[] = {12, 14, 16, 18, 20};    int temp, result = 0;    int main()    {        for (temp = 0; temp < 5; temp++)         {            result += array1[temp];        }        for (temp = 0; temp < 4; temp++)        {            result += array2[temp];        }        cout << result;        return 0;    }
+a) 6553
+b) 6533
+c) 6522
+d) 12200
+b
+Output:
+$ g++ array.cpp
+$ a.out
+6533
+7. What will be the output of the following C++ code?
+    #include <stdio.h>    #include<iostream>    using namespace std;    int main ()    {        int array[] = {0, 2, 4, 6, 7, 5, 3};        int n, result = 0;        for (n = 0; n < 8; n++)         {            result += array[n];        }        cout << result;        return 0;    }
+a) 25
+b) 26
+c) 27
+d) 21
+c
+8. What will be the output of the following C++ code?
+    #include <stdio.h>    #include<iostream>    using namespace std;    int main()    {        int a = 5, b = 10, c = 15;        int arr[3] = {&a, &b, &c};        cout << *arr[*arr[1] - 8];        return 0;    }
+a) 15
+b) 18
+c) garbage value
+d) compile time error
+d
+cannot convert from ‘int *’ to ‘int’
+This is because &a, &b and &c represent int* whereas the array defined is of int type.
+9. What will be the output of the following C++ code?
+    #include <stdio.h>    #include <iostream>    using namespace std;    int main()    {        char str[5] = "ABC";        cout << str[3];        cout << str;        return 0;    }
+a) ABC
+b) ABCD
+c) AB
+d) AC
+a
+$ g++ array.cpp
+$ a.out
+ABC
+10. What will be the output of the following C++ code?
+    #include <stdio.h>    #include <iostream>    using namespace std;    int main()    {        int array[] = {10, 20, 30};        cout << -2[array];        return 0;    }
+a) -15
+b) -30
+c) compile time error
+d) garbage value
+b
+$ g++ array.cpp
+$ a.out
+-30
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers –  Pointers» Next - C++ Programming Questions and Answers – Pointers into Arrays 

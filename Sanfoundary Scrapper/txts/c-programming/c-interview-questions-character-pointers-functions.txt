@@ -1,0 +1,61 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Netapp and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Netapp interviews on C Programming language. 
+Here is a listing of C interview questions on “Character Pointers and Functions” along with answers, explanations and/or solutions:
+1. Comment on the output of the following C code.
+    #include <stdio.h>    int main()    {        char *str = "This" //Line 1        char *ptr = "Program\n"; //Line 2        str = ptr; //Line 3        printf("%s, %s\n", str, ptr); //Line 4    }
+a) Memory holding “this” is cleared at line 3
+b) Memory holding “this” loses its reference at line 3
+c) You cannot assign pointer like in Line 3
+d) Output will be This, Program
+b
+2. What type of initialization is needed for the segment “ptr[3] = ‘3’;” to work?
+a) char *ptr = “Hello!”;
+b) char ptr[] = “Hello!”;
+c) both char *ptr = “Hello!”; and char ptr[] = “Hello!”;
+d) none of the mentioned
+b
+3. What is the syntax for constant pointer to address (i.e., fixed pointer address)?
+a) const <type> * <name>
+b) <type> * const <name>
+c) <type> const * <name>
+d) none of the mentioned
+b
+4. What will be the output of the following C code?
+    #include <stdio.h>    int add(int a, int b)    {        return a + b;    }    int main()    {        int (*fn_ptr)(int, int);        fn_ptr = add;        printf("The sum of two numbers is: %d", (int)fn_ptr(2, 3));    }
+a) Compile time error, declaration of a function inside main
+b) Compile time error, no definition of function fn_ptr
+c) Compile time error, illegal application of statement fn_ptr = add
+d) No Run time error, output is 5
+d
+5. What is the correct way to declare and assign a function pointer?
+(Assuming the function to be assigned is "int multi(int, int);")
+a) int (*fn_ptr)(int, int) = multi;
+b) int *fn_ptr(int, int) = multi;
+c) int *fn_ptr(int, int) = &multi;
+d) none of the mentioned
+a
+6. Calling a function f with a an array variable a[3] where a is an array, is equivalent to __________
+a) f(a[3])
+b) f(*(a + 3))
+c) f(3[a])
+d) all of the mentioned
+d
+7. What will be the output of the following C code?
+    #include <stdio.h>    void f(char *k)    {        k++;        k[2] = 'm';    }    void main()    {        char s[] = "hello";        f(s);        printf("%c\n", *s);    }
+a) h
+b) e
+c) m
+d) o;
+a
+8. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        char s[] = "hello";        s++;        printf("%c\n", *s);    }
+a) Compile time error
+b) h
+c) e
+d) o
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Character Pointers and Functions – 1» Next - C Programming Questions and Answers – Pointers to Pointers – 1 

@@ -1,0 +1,66 @@
+1. SQL Server backup and restore operations occur within the context of the _______ model of the database.
+a) backup
+b) recovery
+c) restore
+d) none of the mentioned
+b
+2. Point out the correct statement.
+a) Backup models are designed to control transaction log maintenance
+b) Restore models are designed to control transaction log maintenance
+c) Recovery models are designed to control transaction log maintenance
+d) None of the mentioned
+c
+3. How many types of recovery model is provided by SQL Server?
+a) 2
+b) 3
+c) 4
+d) 5
+b
+4. No log backups is a feature of __________ recovery model.
+a) Simple
+b) Full
+c) Bulk-logged
+d) All of the mentioned
+a
+5. Point out the wrong statement.
+a) Managing databases with simple recovery model is much easier
+b) Managing databases with full recovery model is much easier
+c) Managing databases with bulk-logged recovery model is much easier
+d) All of the mentioned
+a
+6. Which of the following feature cannot be used in simple recovery mode?
+a) Media recovery without data loss
+b) Log shipping
+c) Database mirroring
+d) All of the mentioned
+d
+7. Which of the following recovery models requires log backups?
+a) Simple
+b) Full
+c) Bulk
+d) All of the mentioned
+b
+8. How many types of backups you can run when the data is in the “Full” recovery model?
+a) 5
+b) 6
+c) 7
+d) All of the mentioned
+b
+9. The _______ recovery model is a special-purpose model that works in a similar manner to the full recovery model.
+a) Simple
+b) Full
+c) bulk-logged
+d) None of the mentioned
+c
+10. Which of the following statement is used for changing Recovery Model with T-SQL?
+a) ALTER DATABASE
+b) ALTER TABLE
+c) ALTER COLUMN
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Policy Based Management» Next - SQL Server Questions and Answers – Backup 

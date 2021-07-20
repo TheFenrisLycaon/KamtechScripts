@@ -1,0 +1,181 @@
+1. What is the output of the given code?
+age =  5
+case age
+when 0 .. 2
+    puts "baby"
+when 3 .. 6
+    puts "little child"
+when 7 .. 12
+    puts "child"
+when 13 .. 18
+    puts "youth"
+else
+    puts "adult"
+end
+a) baby
+b) adult
+c) little child
+d) youth
+c
+Output:
+little child
+2. The following syntax is used for the ruby case statement.
+case expression
+when expression , expression ... then
+   code ...
+else
+   code 
+end
+a) True
+b) False
+a
+3. What is the output of the given code?
+age =  4
+case age
+puts "baby" when 0 .. 2
+puts "little child" when 3 .. 6
+puts "child" when 7 .. 12
+puts "youth" when 13 .. 18
+puts "adult" else
+end
+a) adult
+b) youth
+c) child
+d) syntax error
+d
+Output:
+syntax error, unexpected tIDENTIFIER, expecting keyword_when
+puts "baby" when 0 .. 2
+ syntax error, unexpected keyword_when, expecting $end
+puts "baby" when 0 .. 2
+4. What is the output of the given code?
+for counter in 1..5
+case counter
+when 0 .. 2
+    puts counter
+    puts "baby"
+when 3 .. 6
+    puts counter
+    puts "little child"
+when 7 .. 12
+    puts counter
+    puts "child"
+else
+    puts counter
+    puts "adult"
+end
+end
+a) adult 1..5
+b) 3..6 littlechild
+c) 1
+baby
+2
+baby
+3
+little child
+4
+little child
+5
+little child
+d) adult
+c
+Output:
+1
+baby
+2
+baby
+3
+little child
+4
+little child
+5
+little child
+5. What is the output of the given code?
+string = gets.chomp
+case string
+when string = "a"
+print "alphabet a"
+when string = "b"
+print "alphabet b"
+when string = "c"
+print "alphabet c"
+else 
+    print "some other alphabet"
+end
+a) alphabet a
+b) b
+   alphabet b
+c) alphabet c
+d) Syntax error
+b
+Output:
+b
+alphabet b
+6. The expression specified by the when clause is evaluated as the left operand. If no when clauses match, case executes the code of the else clause.
+a) True
+b) False
+a
+7. What is the output of the given code?
+length=gets.chomp
+case length.length
+when length=4
+print "length is 4"
+when length=5
+print "length is 5"
+end
+a) ruby
+length is 4
+b) ruby
+length is 5
+c) abc
+length is 4
+d) syntax error
+a
+Output:
+ruby
+length is 4
+8. What is the output of the given code?
+length=gets.chomp
+case length.reverse.length
+when length=4
+print "length is 4"
+when length=5
+print "length is 5"
+end
+a) ruby
+length is 4
+b) ruby
+length is 5
+c) abc
+length is 4
+d) syntax error
+a
+Output:
+ruby
+length is 4
+9. What is the output of the given code?
+l=9
+case l
+print "ruby" when l==9
+print "language" when l==10
+end
+a) l==9
+b) l==10
+c) Syntax error
+d) Ruby
+c
+Output:
+syntax error, unexpected tIDENTIFIER, expecting keyword_when
+print "ruby" when l==9
+ syntax error, unexpected keyword_when, expecting $end
+print "ruby" when l==9
+10. A case statement compares the expression specified by case and that specified by when using the === operator and executes the code of the when clause that matches.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Ruby Programming.
+To practice all areas of Ruby Programming, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ruby Programming Questions and Answers – The Unless Conditional Statement» Next - Ruby Programming Questions and Answers – Comparisons 

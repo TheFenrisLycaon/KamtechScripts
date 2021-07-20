@@ -1,0 +1,102 @@
+1. The default Laplace transform, of functions, computed by MATLAB is __________
+a) Unilateral
+b) Bilateral
+c) Multipolar
+d) Cannot be computed
+a
+2. The laplace transform of step function, u(t), can be calculated by using _____
+a) syms t; laplace(t/t)
+b) laplace(1)
+c) laplace(t/t)
+d) sym t; laplace(t/t)
+a
+3. How many time domain representations of the following signal is possibly stable?
+F(s)=2s+4/(s2+4s+3)…. Where s is the Laplacian frequency
+a) 2 for sigma>-1
+b) 2 for sigma>-3
+c) Only 1 for -3<sigma<-1
+d) 1 for sigma<-1
+c
+4. The Transfer Function of an L.T.I. system is  ___________
+a) the impulse response with 0 initial conditions
+b)  the impulse response with some initial conditions
+c) the ramp response with 0 initial conditions
+d) the step response with 0 initial conditions
+a
+5. What will be the output of the following code?
+syms ‘-t’; laplace(4*(-t))
+a) Syntactical Error
+b) The laplace transform of the time reversed ramp function.
+c) -4/s2
+d) Logical Error
+a
+Join [email protected]
+6. What is the output of the following code?
+(z,p)=tf2zp([1],[1,0])
+a) Error
+b) z=0,p=0
+c) z=0,p=1
+d) z=1,p=0
+a
+7. The final value theorem is applicable if __________
+a) Poles lie on right half of s plane
+b) Poles lie on left half of s plane
+c) Poles lie on the imaginary axis
+d) Zeros lie on left half of s plane
+b
+8. What is the output of the following code?
+laplace[‘t^t’]
+a) A gamma function
+b) Error due to [] 
+c) Error due to ‘’
+d) Cannot be determined
+b
+9. If f(t)=f1(t)+f2(t), the laplace transform of f(t) exists if f1(t) and f2(t) does not have the same R.O.C.
+a) True
+b) False
+b
+10. What is the output of the following code?
+[r,p,k]=residu(z,p);….. Assuming z and p are vectors of unequal length
+a) Returns the transfer function as partial fractions
+b) Returns the transfer function variable
+c) Returns an error
+d) Cannot be determined
+c
+11. What is the output of the following code?
+(r,p,k)=residue(z,p);….. Assuming z and p are vectors of unequal length
+a) Returns the residue and poles for the partial fractions
+b) Returns the zeros and poles
+c) Returns a syntactical error
+d) Cannot be determined
+c
+12. What is the default variable used to represent the laplace transform in the output?
+a) s
+b) z
+c) S
+d) p
+a
+13. A causal system is stable if the pole lies on the right half of the s-plane.
+a) True
+b) False
+b
+14. The laplace transform of the following function.
+f(t)= 3 when t=[0-5] 
+     =  0 otherwise is….. L denotes Laplace Transform
+a) L{3u(t+3)-3u(t-5)}
+b) L{3u[t+5]-u[t-5]}
+c) L(3u(t)-3u(t-5))
+d) L(u[t]-3u[t+5])
+c
+15. What will be the output of the following code?
+ilaplace(‘1/s’)
+a) Error
+b) 1
+c) u(t)
+d) 0
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Spelling Error – 2» Next - MATLAB Questions and Answers – Laplace Transform – 2 

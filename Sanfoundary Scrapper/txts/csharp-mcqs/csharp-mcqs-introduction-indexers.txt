@@ -1,0 +1,124 @@
+1. Choose the correct statement among the followings?
+a) Indexers are location indicators
+b) Indexers are used to access class objects
+c) Indexer is a form of property and works in the same way as a property
+d) All of the mentioned
+d
+2. Choose the keyword which declares the indexer?
+a) base
+b) this
+c) super
+d) extract
+b
+3. Choose the operator/operators which is/are not used to access the [] operator in indexers?
+a) get
+b) set
+c) access
+d) all of the mentioned
+c
+              public double this[int idx]
+              {
+                 get
+                 {
+                   if()
+                  {
+                  }
+                 else
+                 {
+                    return([idx]);
+                 }
+ 
+              }
+                 set
+                 {
+                      array[idx];
+ 
+                 }
+           }
+4. Choose the correct statement among the following?
+a) A property can be a static member whereas an indexer is always an instance member
+b) A get accessor of a property corresponds to a method with no parameters whereas get accessor of an indexer corresponds to a method with the same formal parameters lists as the indexer
+c) It is an error for indexer to declare a local variable with the same name as indexer parameters
+d) All of the mentioned
+d
+5. For a class student consisting of indexer, which among the following declaration of indexers runs the C# code successfully?
+   student a = new student();
+   a[1,2] = 20;
+a)
+   class student
+   {
+       int[,] p = new int[6, 6];
+       public property WriteOnly int this[int i, int j]
+       {
+           set
+           {
+               a[i, j] = value;
+           }
+       }
+   }
+b)
+   class student
+   {
+       int[,] a = new int[6, 6];
+       public int this[int i, int j]
+       {
+           set
+           {
+               a[i, j] = value;
+           }
+       }
+   }
+c)
+   class student
+   {
+       int[,] a = new int[6, 6];
+       public int property WriteOnly
+       {
+           set
+           {
+               a[i, j] = value;
+           }
+       }  
+   }
+d) None of the mentioned
+b
+6. Which among the following are the advantages of using indexers?
+a) To use collection of items at a large scale we make use of indexers as they utilize objects of class that represent the collection as an array
+b) Indexers are also convenient as they can also make use of different types of indexers like int, string etc
+c) An indexer allows an object to be indexed such as an array
+d) All of the mentioned
+d
+7. Choose the correct statement about properties describing the indexers?
+a) No need to use the name of the property while using an indexed property
+b) An indexer property should accept at least one argument
+c) Indexers can be overloaded
+d) All of the mentioned
+d
+8. Choose the correct alternative that utilizes the indexed property such that a group named class has indexed property which stores or retrieves value to/from an array of 5 numbers?
+a) group[3] = 34;
+b) group g = group();
+c) Console.WriteLine(group[3]);
+d) 
+group g = new group();
+Console.WriteLine(g[3]);
+d
+  
+9. Choose the correct option among the following indexers which correctly allows to index in same way as an array?
+a) A class
+b) An interface
+c) A function
+d) A property
+a
+10. What will be the output of the following C# code?
+ class list {     ArrayList array = new ArrayList();     public object this[int index]     {         get         {             if (index < 0 || index >= array.Count)             {                 return null;             }             else             {                 return (array[index]);             }         }         set         {             array[index] = value;         }     }     public int Count     {         get;        set;     }}class Program{    static void Main(string[] args)    {        list list1 = new list();        list1[0] = "123";        list1[1] = " abc ";        list1[2] = "xyz";        for (int i = 0; i<=list1.Count; i++)        Console.WriteLine(list1[i]);        Console.ReadLine();    }}
+a) Compile time error
+b) Run time error
+c) 123, abc, xyz
+d) 0
+b
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Recursion» Next - C# Questions & Answers – Introduction of Properties 

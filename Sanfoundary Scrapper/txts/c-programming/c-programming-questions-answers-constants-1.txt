@@ -1,0 +1,100 @@
+This section on online C test focuses on “Constants”. One shall practice these test questions to improve their C programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our online C test questions come with the detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of online C test questions on “Constants” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        enum {ORANGE = 5, MANGO, BANANA = 4, PEACH};        printf("PEACH = %d\n", PEACH);    }
+a) PEACH = 3
+b) PEACH = 4
+c) PEACH = 5
+d) PEACH = 6
+c
+Output:
+$ cc pgm1.c
+$ a.out
+PEACH = 5
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        printf("C programming %s", "Class by\n%s Sanfoundry", "WOW");    }
+a) 
+
+   C programming Class by
+   WOW Sanfoundry
+b) C programming Class by\n%s Sanfoundry
+c) 
+
+   C programming Class by
+   %s Sanfoundry
+d) Compilation error
+c
+The %s along with the Sanfoundry is not read as a format modifier while new line character prints the new line.
+Output:
+$ cc pgm2.c
+$ a.out
+C programming Class by
+%s Sanfoundry
+3. In the following code snippet, character pointer str holds a reference to the string ___________
+char *str =  "Sanfoundry.com\0" "training classes";
+a) Sanfoundry.com
+b) Sanfoundry.com\0training classes
+c) Sanfoundry.comtraining classes
+d) Invalid declaration
+b
+4. What will be the output of the following C code?
+    #include <stdio.h>    #define a 10    int main()    {        const int a = 5;        printf("a = %d\n", a);    }
+a) a = 5
+b) a = 10
+c) Compilation error
+d) Runtime error
+c
+Output:
+$ cc pgm3.c
+pgm3.c: In function ‘main’:
+pgm3.c:5: error: expected identifier or ‘(’ before numeric constant
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int var = 010;        printf("%d", var);    }
+a) 2
+b) 8
+c) 9
+d) 10
+b
+Output:
+$ cc pgm4.c
+$ a.out
+8
+6. What will be the output of the following C function?
+    #include <stdio.h>    enum birds {SPARROW, PEACOCK, PARROT};    enum animals {TIGER = 8, LION, RABBIT, ZEBRA};    int main()    {        enum birds m = TIGER;        int k;        k = m;        printf("%d\n", k);        return 0;    }
+a) 0
+b) Compile time error
+c) 1
+d) 8
+d
+Output:
+$ cc pgm5.c
+$ a.out
+8
+7. What will be the output of the following C code?
+    #include <stdio.h>    #define MAX 2    enum bird {SPARROW = MAX + 1, PARROT = SPARROW + MAX};    int main()    {        enum bird b = PARROT;        printf("%d\n", b);        return 0;    }
+a) Compilation error
+b) 5
+c) Undefined value
+d) 2
+b
+Output:
+$ cc pgm6.c
+$ a.out
+5
+8. What will be the output of the following C code?
+    #include <stdio.h>    #include <string.h>    int main()    {        char *str = "x";        char c = 'x';        char ary[1];        ary[0] = c;        printf("%d %d", strlen(str), strlen(ary));        return 0;    }
+a) 1 1
+b) 2 1
+c) 2 2
+d) 1 (undefined value)
+d
+Output:
+$ cc pgm7.c
+$ a.out
+1 5
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Data Types and Sizes – 2» Next - C Programming Questions and Answers – Constants – 2 

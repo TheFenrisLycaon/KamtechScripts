@@ -1,0 +1,67 @@
+1. Administrators can implement collection-level access control through user-defined __________
+a) roles
+b) replica sets
+c) shards
+d) none of the mentioned
+a
+2. Point out the correct statement.
+a) A rule consists of actions and the resources upon which the actions are permissible
+b) Document-level access control allows developers to grant users privileges that are scoped to specific record
+c) Each privilege action in a role can be scoped to a different record
+d) None of the mentioned
+b
+3. User can grant any role in the database to any user from any database in the system through _________ action.
+a) grantRole
+b) viewRole
+c) killCursors
+d) unlock
+a
+4. User can remove any role from any user from any database in the system through _________
+a) grantRole
+b) viewRole
+c) killCursors
+d) revokeRole
+d
+5. Point out the wrong statement.
+a) MongoDB uses the combination of the database name and the role name to uniquely define a role
+b) A role consists of privileges that pair resources with not allowed operations
+c) Roles grant users access to MongoDB resources
+d) None of the mentioned
+d
+6. _________ terminates an operation as specified by the operation ID.
+a) db.killOp()
+b) db.kill()
+c) db.remove()
+d) none of the mentioned
+a
+7. Which of the following allows the user to view the information of any user in the given database?
+a) createUser
+b) viewUser
+c) killCursors
+d) all of the mentioned
+b
+8. _________ deletes from a shard the orphaned documents whose shard key values fall into a single continuous range.
+a) listallshards
+b) cleanup
+c) cleanupOrphaned
+d) SelectIndexes
+c
+9. Which of the following flushes user information from in-memory cache?
+a) grantCache
+b) invalidateUserCache
+c) validateUserCache
+d) none of the mentioned
+b
+10. __________ displays the cached query plans for the specified query shape.
+a) CacheListPlans
+b) displayCacheListPlans
+c) planCacheListPlans
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Authorization» Next - MongoDB Questions and Answers – Network Exposure and Security 

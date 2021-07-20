@@ -1,0 +1,63 @@
+This section on C interview questions and answers focuses on “Unions”. One shall practice these interview questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C Interview questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C interview questions on “Unions” along with answers, explanations and/or solutions:
+1. The size of a union is determined by the size of the __________
+a) First member in the union
+b) Last member in the union
+c) Biggest member in the union
+d) Sum of the sizes of all members
+c
+2. Which member of the union will be active after REF LINE in the following C code?
+    #include <stdio.h>    union temp    {        int a;        float b;        char c;    };    union temp s = {1,2.5,’A’}; //REF LINE
+a) a
+b) b
+c) c
+d) Such declaration are illegal
+a
+3. What would be the size of the following union declaration?  (Assuming size of double = 8, size of int = 4, size of char = 1)
+Join Sanfoundry@YouTube
+    #include <stdio.h>    union uTemp    {        double a;        int b[10];        char c;    }u;
+a) 4
+b) 8
+c) 40
+d) 80
+c
+4. What type of data is holded by variable u int in the following C code?
+    #include <stdio.h>    union u_tag    {        int ival;        float fval;        char *sval;    } u;
+a) Will be large enough to hold the largest of the three types;
+b) Will be large enough to hold the smallest of the three types;
+c) Will be large enough to hold the all of the three types;
+d) None of the mentioned
+a
+5. Members of a union are accessed as________________
+a) union-name.member
+b) union-pointer->member
+c) both union-name.member & union-pointer->member
+d) none of the mentioned
+c
+6. In the following C code, we can access the 1st character of the string sval by using  _______
+    #include <stdio.h>    struct    {        char *name;        union        {            char *sval;        } u;    } symtab[10];
+a) *symtab[i].u.sval
+b) symtab[i].u.sval[0].
+c) You cannot have union inside structure
+d) Both *symtab[i].u.sval & symtab[i].u.sval[0].
+d
+7. What will be the output of the following C code (Assuming size of int and float is 4)?
+    #include <stdio.h>    union    {        int ival;        float fval;    } u;    void main()    {        printf("%d", sizeof(u));    }
+a) 16
+b) 8
+c) 4
+d) 32
+c
+8. What will be the output of the following C code?
+    #include <stdio.h>    union stu    {        int ival;        float fval;    };    void main()    {        union stu r;        r.ival = 5;        printf("%d", r.ival);    }
+a) 9
+b) Compile time error
+c) 16
+d) 5
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Typedefs – 2» Next - C Programming Questions and Answers – Unions – 2 

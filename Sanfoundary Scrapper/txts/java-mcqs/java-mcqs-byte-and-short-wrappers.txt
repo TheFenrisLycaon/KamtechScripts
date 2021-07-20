@@ -1,0 +1,63 @@
+1. Which of these methods of Byte wrapper can be used to obtain Byte object from a string?
+a) toString()
+b) getString()
+c) decode()
+d) encode()
+c
+2. Which of the following methods Byte wrapper return the value as a double?
+a) doubleValue()
+b) converDouble()
+c) getDouble()
+d) getDoubleValue()
+a
+3. Which of these is a super class of wrappers Byte and short wrappers?
+a) Long
+b) Digits
+c) Float
+d) Number
+d
+4. Which of these methods is not defined in both Byte and Short wrappers?
+a) intValue()
+b) isInfinite()
+c) toString()
+d) hashCode()
+b
+5. What will be the output of the following Java code?
+    class Output     {        public static void main(String args[])        {            Double i = new Double(257.5);              Double x = i.MAX_VALUE;            System.out.print(x);        }    }
+a) 0
+b) 1.7976931348623157E308
+c) 1.7976931348623157E30
+d) None of the mentioned
+b
+Output:
+$ javac Output.java
+$ java Output
+1.7976931348623157E308
+6. What will be the output of the following Java program?
+    class Output    {        public static void main(String args[])        {            Double i = new Double(257.5);              Double x = i.MIN_VALUE;            System.out.print(x);        }    }
+a) 0
+b) 4.9E-324
+c) 1.7976931348623157E308
+d) None of the mentioned
+b
+Output:
+$ javac Output.java
+$ java Output
+4.9E-324
+7. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])        {	    Double i = new Double(257.578123456789);              float x = i.floatValue();            System.out.print(x);        }    }
+a) 0
+b) 257.0
+c) 257.57812
+d) 257.578123456789
+c
+Output:
+$ javac Output.java
+$ java Output
+257.57812
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.lang – Rounding Functions» Next - Java Questions & Answers – Java.lang – Character Wrapper Advance 

@@ -1,0 +1,41 @@
+1. The Taylor series for f(x)=7x2-6x+1 at x=2 is given by a+b(x-2)+c(x-2)2. Find the value of a+b+c.
+a) -1
+b) 0
+c) 17
+d) 46
+d
+\(f(x)=7x^2-6x+1\) 
+\(f'(x)=14x-6\) 
+\(f”(x)=14\) 
+\(f”'(x)=0\) 
+Thus for n>=3, the derivative of the function is 0.
+As per the Taylor Series,
+\(7x^2-6x+1=\sum_{n=0}^{\infty} \frac{f^n (2)(x-2)^n}{n!}\) 
+\(7x^2-6x+1=f(2)+f'(2)(x-2)+\frac{1}{2} f”(2) (x-2)^2+0\) 
+\(7x^2-6x+1=17+22(x-2)+7(x-2)^2\) 
+Thus, a=17, b=22, c=7
+a+b+c=46
+Thus the answer is 46.
+2. Find the Taylor Series for the function \(f(x)=e^{-6x}\) about x=-4.
+a) \(\sum_{n=0}^{\infty} \frac{(-6)^n}{n!} e^{12} (x+4)^n\) 
+b) \(\sum_{n=0}^{\infty} \frac{(-6)^n}{n!} e^{24} (x-4)^n\) 
+c) \(\sum_{n=0}^{\infty} \frac{(-6)^n}{n!} e^{24} (x+4)^n\) 
+d) \(\sum_{n=0}^{\infty} \frac{(-4)^n}{n!} e^{24} (x+4)^n\) 
+c
+\(f(x)=e^{-6x}\) 
+\(f'(x) = -6e^{-6x}\) 
+\(f”(x) = 36e^{-6x}\) 
+\(f”'(x) = -216e^{-6x}\) 
+\(f””(x) = 1296e^{-6x}\) 
+Thus we take derivative of maximum to the fourth order.
+Thus according to formula of Taylor series about x=-4
+\(e^{-6x}=\sum_{n=0}^{\infty} \frac{f^n (-4)}{n!} (x+4)^n\) 
+\(e^{-6x}=\sum_{n=0}^{\infty} \frac{(-6)^n}{n!} e^{24} (x+4)^n\) 
+Thus the Taylor Series is given by
+\(e^{-6x}=\sum_{n=0}^{\infty} \frac{(-6)^n}{n!} e^{24} (x+4)^n\).
+Sanfoundry Global Education & Learning Series – Complex Analysis.
+To practice all areas of Complex Analysis, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Complex Numbers Question and Answers – DeMoivre’s Theorem» Next - Complex Numbers Questions and Answers – Logarithm of Complex Numbers 

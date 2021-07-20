@@ -1,0 +1,97 @@
+1. Which of the following statement is true?
+a) The process of generating, evaluating, and improving designs of components and interactions together as component and interaction co-design
+b) An interaction realizing a product function or operation may be specified in a sequence diagram that ignores individuals at several removes from the primary individual in the interaction
+c) Designers may need to model product functions and operations at several levels of abstraction in several sequence diagrams
+d) All of the mentioned
+d
+2. What is outside in design?
+a) Interaction design works mainly from the computational goals mandated in requirements specifications, to the realization as interactions between cooperating program units
+b) Many program interactions do not give rise to interesting or complicated program component interactions
+c) All of the mentioned
+d) None of the mentioned
+a
+3. What are the general approaches to solving this problem?
+a) Polling
+b) Notification
+c) All of the mentioned
+d) None of the mentioned
+c
+4. What is the controller?
+a) It is a program component that makes decisions and directs other components
+b) It is a way that decision making is distributed among program components
+c) All of the mentioned
+d) None of the mentioned
+a
+5. Which among the following are broad control styles?
+a) Centralized
+b) Delegated
+c) Dispersed
+d) All of the mentioned
+d
+Join Sanfoundry@YouTube
+6. Which of these is a Delegated control style?
+a) In a program with such a  control style, a few controllers make all significant decisions
+b) A program with such a control style has decision making is distributed through the program
+c) In a program with such a control style, decision making is spread widely throughout the program; it is hard to identify controllers in such programs
+d) None of the mentioned
+b
+7. Which of the following statement is true?
+a) The delegated style corresponds to micro-management in which supervisors make every decision
+b) The centralized style corresponds to the empowered teams model where in supervisors make major strategic decisions but leave it to teams of employees to decide how to implement the larger decisions
+c) The dispersed style corresponds to a leaderless organization, such as occurs when a group of individuals get together for an impromptu activity
+d) All of the mentioned
+c
+8. Which of the following statements are followed in delegated style?
+a) The main advantage of a program with such a control style is that it is easy to and where decisions are being made
+b) If the controllers are not too big and complex, it is easy to understand how decisions are made and to alter the decision-making process
+c) All of the mentioned
+d) None of the mentioned
+d
+9. Which of the following are the dangers faced by centralized style?
+a) The controller can become too large and complex. If only a few components make all the decisions, and there are many decisions to be made, it stands to reason that the controllers will be large and complex units
+b) Controllers may treat other components as data repositories, merely storing and retrieving data in
+c) All of the mentioned
+d) None of the mentioned
+c
+10. Which of the following are the heuristics to avoid bloated controllers?
+a) Avoid interaction designs where most messages originate from a single component
+b) Keep Components small
+c) Make sure operational responsibilities are not all assigned to just a few components
+d) Keep Components small & Make sure operational responsibilities are not all assigned to just a few components
+d
+11. What are the advantages of delegated control?
+a) Controllers are coupled to fewer components, and overall program coupling is decreased
+b) Information is hidden better
+c) It is too hard to understand the low of control
+d) Information is hidden better, Controllers are coupled to fewer components, and overall program coupling is decreased
+d
+12. What are the disadvantages for dispersed control?
+a) It is too hard to understand the low of control
+b) When components are too finely divided, they tend not to be able to do anything on their own
+c) It is difficult to hide information
+d) All of the mentioned
+d
+13. Which among these is the heuristic for dispersed control?
+a) Avoid interactions that require each component to send many messages
+b) Have components delegate as many low-level tasks as possible
+c) All of the mentioned
+d) None of the mentioned
+a
+14. An operation of an object obj should send messages only to which of the following entities?
+a) The object obj;
+b) The attributes of obj;
+c) The arguments of the operation;
+d) All of the mentioned
+d
+15. Which of the following is interaction design heuristic?
+a)  Avoid interaction designs where most messages originate from a single component
+b) Keep components small
+c) Make sure operational responsibilities are not all assigned to just a few components
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Software Architecture and Design.
+To practice all areas of Software Design for Quizzes,  here is complete set of 1000+ Multiple Choice Questions and Answers on Software Design and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Software Design Questions and Answers – UML Sequence Diagrams» Next - Software Design Questions and Answers – UML State Diagrams 

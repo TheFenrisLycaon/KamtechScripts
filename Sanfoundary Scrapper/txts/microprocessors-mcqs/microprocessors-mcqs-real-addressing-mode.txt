@@ -1,0 +1,68 @@
+1. The 80286 CPU acts just like that of 8086 when operated in
+a) real addressing mode
+b) protected virtual address mode
+c) real and protected virtual address modes
+d) none of the mentioned
+a
+2. In real addressing mode, the 80286 addresses a physical memory of
+a) 16 MB
+b) 8 MB
+c) 2 MB
+d) 1 MB
+d
+3. In real addressing mode, the 80286 operates at a speed
+a) faster than that of 8086
+b) half of that of 8086
+c) slower than that of 8086
+d) same as that of 8086
+a
+4. In physical memory, if the segment size limit is exceeded by the instruction or data then
+a) instruction is not executed
+b) exception is generated
+c) saves to next segment automatically
+d) none of the mentioned
+b
+5. The 80286 reserves fixed area of physical memory for
+a) system initialization
+b) interrupt vector table
+c) system initialization and interrupt vector table
+d) none of the mentioned
+c
+Join [email protected]
+6. In the real mode, the memory that is reserved for interrupt vector table is
+a) first 2 KB of memory
+b) first 1 KB of memory
+c) last 2 KB of memory
+d) last 1 KB of memory
+b
+7. In the real mode, the memory that is reserved for system initialization is
+a) from 004FFH to 0FFFFH
+b) from 004FFH to 05FFFH
+c) from FFFF0H to FFFFFH
+d) from FFF00H to FFFFFH
+c
+8. When 80286 is reset, it always starts its execution in
+a) protected virtual addressing mode
+b) real addressing mode
+c) either real or protected virtual address modes
+d) none of the mentioned
+b
+9. The 80286 in real addressing mode performs
+a) initialization of IP
+b) enables interrupts
+c) sets up descriptor table
+d) all of the mentioned
+d
+10. In real address mode, while addressing the physical memory, the 80286 uses the signal
+a) HLDA
+b) BHE (active low)
+c) CAP
+d) HOLD
+b
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Signal Descriptions of 80286» Next - Microprocessors Questions and Answers – Protected Virtual Address Mode (PVAM) -1 

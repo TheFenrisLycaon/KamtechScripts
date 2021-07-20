@@ -1,0 +1,89 @@
+1. Which of the following  string() method are used to compare two strings with each other?
+a) CopyTo()
+b) Copy()
+c) Compare()
+d) CompareTo()
+b
+2. Choose the base class for string() method:
+a) System.Array
+b) System.char
+c) System.String
+d) None of the mentioned
+c
+3. What will be the output of the following C# code?
+ static void Main(string[] args) {     string s1 = " Cshr ";     string s2 = s1.Insert(3 , " a ");     string s3 = s2.Insert(5 , " p ");     for (int i = 0;i < s3.Length; i++)     Console.WriteLine(s3[i]);     Console.ReadLine(); }
+a) Cshar
+b) CsharP
+c) Csharp
+d) Cshrap
+c
+Output:
+Join Sanfoundry@YouTube
+ Csharp
+4. Which of the following statement is correct about a string in C#.NET?
+a) The System.Array class is used to represent a string
+b) A string has a zero-based index
+c) A number cannot be represented in the form of a string
+d) A string is mutable because it can be modified once it has been created
+b
+5. What will be the output of the following C# code?
+ static void Main(string[] args) {     string s1 = "Hello";     string s2 = "hello";     if (s1 == s2)     Console.WriteLine("Equal");     else     Console.WriteLine("Unequal");     if (s1.Equals (s2))     Console.WriteLine("Equal");     else     Console.WriteLine("Unequal");     Console.ReadLine(); }
+a) 
+Equal
+Unequal
+b) 
+Unequal
+Equal
+c) 
+Equal
+Equal
+d) 
+Unequal
+Unequal
+d
+Output:
+        Unequal
+        Unequal
+  
+6. What will be the output of the following C# code?
+static void Main(string[] args){    string s1 = "Hello" + " I " + "Love" + " ComputerScience ";    Console.WriteLine(s1);    Console.ReadLine();}
+a) HelloILoveComputerScience
+b) Hello I Love ComputerScience
+c) Compile time error
+d) Hello
+b
+Output :
+ Hello I Love ComputerScience
+7. Correct way to find if contents of two strings are equal?
+a) if (s1 = s2)
+b) if (s1 != s2)
+c) if (strcmp (s1 ,s2))
+d) if ( s1 is s2)
+c
+8. Which of the following statements are correct?
+a) String is value type
+b) String literals can contain any character literal including escape sequences
+c) The equality operators are defined to compare values of string objects as well as references
+d) All of the mentioned
+b
+9. Which of these operators can be used to concatenate two or more String objects?
+a) +
+b) +=
+c) &
+d) ||
+a
+             string s1 = "Hello"+ " I " + "Love" + " ComputerScience ";
+             Console.WriteLine(s1);
+             Hello I Love ComputerScience.
+10. The Method use to remove white space from a string?
+a) Split()
+b) Substring()
+c) Trim()
+d) TrimStart()
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Array and Initialization» Next - C# Questions & Answers – String Class with Description 

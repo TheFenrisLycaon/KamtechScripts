@@ -1,0 +1,95 @@
+1. What is the need for ‘Conversion of data type’ in C#?
+a) To store a value of one data type into a variable of another data type
+b) To get desired data
+c) To prevent situations of runtime error during change or conversion of data type
+d) None of the mentioned
+c
+2. Types of ‘Data Conversion’ in C#?
+a) Implicit Conversion
+b) Explicit Conversion
+c) Implicit Conversion and Explicit Conversion
+d) None of the mentioned
+b
+3. ‘Implicit Conversion’ follows the order of conversion as per compatibility of data type as:
+a) float < char < int
+b) char < int < float
+c) int < char < float
+d) float < int < char
+b
+4. For the following C# code select the relevant solution for conversion of data type.
+ static void Main(string[] args) {     int num1 = 20000;     int num2 = 50000;     long total;     total = num1 + num2;     Console.WriteLine("Total is : " +total);     Console.ReadLine(); }
+a) Compiler will generate runtime error
+b) Conversion is implicit type, no error generation
+c) Specifying data type for conversion externally will solve the problem
+d) None of the mentioned
+b
+Output: Total is:
+70000.
+5. The subset of ‘int’ data type is __________
+a) long, ulong, ushort
+b) long, ulong, uint
+c) long, float, double
+d) long, float, ushort
+c
+6. Type of Conversion in which compiler is unable to convert the data type implicitly is?
+a) ushort to long
+b) int to uint
+c) ushort to long
+d) byte to decimal
+b
+7. Disadvantages of Explicit Conversion are?
+a) Makes program memory heavier
+b) Results in loss of data
+c) Potentially Unsafe
+d) None of the mentioned
+b
+8. For the given set of C# code, is conversion possible?
+ static void Main(string[] args) {     int a = 76;     char b;     b = (char)a;     Console.WriteLine(b);     Console.ReadLine(); }
+a) Compiler will generate runtime error
+b) Conversion is explicit type
+c) Compiler will urge for conversion from ‘integer’ to ‘character’ data type
+d) None of the mentioned
+b
+ Output :
+ L.
+ 
+9. What will be the output of the following C# code?
+static void Main(string[] args){    float sum;    int i;    sum = 0.0F;    for (i = 1; i <= 10; i++)    {        sum = sum + 1 /(float)i;    }    Console.WriteLine("sum =" +sum);    Console.ReadLine();}
+a) 2.000
+b) 2.910
+c) 2.928
+d) 3.000
+c
+Output :
+ sum = 2.928698.
+ 
+10. Which of the conversions are valid for the following C# code?
+ static void Main(string[] args) {     int a = 22;     long b = 44;     double c = 1.406;     b = a;     c = a;     a = b;     b = c; }
+a) c = a, b = c
+b) a = c, b = a
+c) b = a, c = a
+d) All of the mentioned
+a
+ Output :
+ Error 1: Can not implicitly convert type 'long' to 'int'. An explicit conversion exists (are you missing a cast?).	
+ Error 2: Cannot implicitly convert type 'double' to 'long'. An explicit conversion exists (are you missing a cast?).	
+ 
+ Correct solution :
+
+ static void Main(string[] args)
+ {
+     int a = 22;
+     long b = 44;
+     double c = 1.406;
+     b = a;
+     c = a;
+     a = (int)b;
+     b = (long)c;
+ }
+
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Scope and Lifetime of Variables» Next - C# Questions & Answers – Arithmetic Operators 

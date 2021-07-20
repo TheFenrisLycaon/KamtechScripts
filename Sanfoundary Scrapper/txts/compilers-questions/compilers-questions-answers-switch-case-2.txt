@@ -1,0 +1,100 @@
+1.  How many times will the following loop be executed?
+   ch = 'b';
+while(ch &gt;= 'a' && ch &lt;= 'z')
+a) 0
+b) 25
+c) 26
+d) 1
+b
+2. Consider the following program.
+ switch(input)
+{
+    case '1':
+        printf("One");
+    case '2':
+        printf("Two");
+    case '3':
+        printf(""Three");
+    default:
+        Printf("Default");
+        break;
+}
+What will be printed when input is 2?
+a) Two Three default
+b) Two
+c) Two default
+d) Two Two default
+a
+3. The advantage of ‘switch’ statement over ‘if’ is that it leads to more structured program.
+a) True
+b) False
+a
+4. Consider the following C program. What is the Value of a?
+#include<stdio.h>
+int main()
+{
+    int a=7, b=5;
+    switch(a = a % b)
+    {
+        case 1:
+            a = a - b;
+        case 2:
+            a = a + b;
+        case 3:
+            a = a * b;
+        case 4:
+            a = a / b;
+        default:
+            a = a;
+    }
+return 0;
+}
+a) 7
+b) 5
+c) 9
+d) None of the mentioned
+a
+5. The statement for(;;) is perfectly valid C statement.
+a) True
+b) False
+b
+6. What will be the output of the following Code?
+void main()
+{
+    static a,b;
+    while(a > b++)
+}
+a) a=0 b=0
+b) a=0 b=0
+c) a=1 b=1
+d) none of the mentioned
+a
+7. Number of times the loop will run.
+for(digit = 0;digit &lt; 9; digit++)
+{
+    digit = digit *2;
+    digit--;
+}
+a) Infinite
+b) 9
+c) 0
+d) 4
+a
+8. An if statement may contain compound statements only in the else clause.
+a) True
+b) False
+b
+9. A ‘while’ loop may always be converted to an equivalent ‘for’ loop.
+a) True
+b) False
+a
+10. Default’ case is mandatory in a switch statement.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – Switch Case – 1» Next - Compilers Questions and Answers – Runtime Storage Location – 1 

@@ -1,0 +1,66 @@
+1. The inverter can be produced with how many NAND gates?
+a) 2
+b) 1
+c) 3
+d) 4
+b
+2. One positive pulse with tw = 75 µs is applied to one of the inputs of an exclusive-OR circuit. A second positive pulse with tw = 15 µs is applied to the other input beginning 20 µs after the leading edge of the first pulse. Which statement describes the output’s relation with the inputs?
+a) The exclusive-OR output is a 20 s pulse followed by a 40 s pulse, with a separation of 15 s between the pulses
+b) The exclusive-OR output is a 20 s pulse followed by a 15 s pulse, with a separation of 40 s between the pulses
+c) The exclusive-OR output is a 15 s pulse followed by a 40 s pulse
+d) The exclusive-OR output is a 20 s pulse followed by a 15 s pulse, followed by a 40 s pulse
+d
+3. How many NOT gates are required to implement the Boolean expression: X = AB’C + A’BC?
+a) 2
+b) 3
+c) 4
+d) 5
+a
+4. The carry look ahead adder is based on the principle of looking at the lower order bits of ________ and ________ if a high order carry is generated.
+a) Addend, minuend
+b) Minuend, subtrahend
+c) Addend, minuend
+d) Augend, addend
+d
+5. What are carry generate combinations?
+a) If all the input are same then a carry is generated
+b) If all of the output are independent of the inputs
+c) If all of the input are dependent on the output
+d) If all of the output are dependent on the input
+b
+6. In serial addition, the addition is carried out __________
+a) 3 bit per second
+b) Byte by byte
+c) Bit by bit
+d) All bits at the same time
+c
+7. How many shift registers are used in a 4 bit serial adder?
+a) 4
+b) 3
+c) 2
+d) 5
+c
+8. A D flip-flop is used in a 4-bit serial adder, why?
+a) It is used to invert the input of the full adder
+b) It is used to store the output of the full adder
+c) It is used to store the carry output of the full adder
+d) It is used to store the sum output of the full adder
+c
+9. What is ripple carry adder?
+a) The carry output of the lower order stage is connected to the carry input of the next higher order stage
+b) The carry input of the lower order stage is connected to the carry output of the next higher order stage
+c) The carry output of the higher order stage is connected to the carry input of the next lower order stage
+d) The carry input of the higher order stage is connected to the carry output of the lower order stage
+a
+10. If minuend = 0, subtrahend = 1 and borrow input = 1 in a full subtractor then the borrow output will be __________
+a) 0
+b) 1
+c) Floating
+d) High Impedance
+b
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – 4-Bit Parallel Adder/Subtractor – 2» Next - Digital Circuits Questions and Answers – Fast Adder & Serial Adder – 2 

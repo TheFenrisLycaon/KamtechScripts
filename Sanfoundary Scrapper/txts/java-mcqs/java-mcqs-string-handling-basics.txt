@@ -1,0 +1,75 @@
+1. Which of these class is superclass of String and StringBuffer class?
+a) java.util
+b) java.lang
+c) ArrayList
+d) None of the mentioned
+b
+2. Which of these operators can be used to concatenate two or more String objects?
+a) +
+b) +=
+c) &
+d) ||
+a
+3. Which of this method of class String is used to obtain a length of String object?
+a) get()
+b) Sizeof()
+c) lengthof()
+d) length()
+d
+4. Which of these method of class String is used to extract a single character from a String object?
+a) CHARAT()
+b) chatat()
+c) charAt()
+d) ChatAt()
+c
+5. Which of these constructors is used to create an empty String object?
+a) String()
+b) String(void)
+c) String(0)
+d) None of the mentioned
+a
+6. Which of these is an incorrect statement?
+a) String objects are immutable, they cannot be changed
+b) String object can point to some other reference of String variable
+c) StringBuffer class is used to store string in a buffer for later use
+d) None of the mentioned
+c
+7. What will be the output of the following Java program?
+    class String_demo     {        public static void main(String args[])        {            char chars[] = {'a', 'b', 'c'};            String s = new String(chars);            System.out.println(s);        }   }
+a) a
+b) b
+c) c
+d) abc
+d
+output:
+$ javac String_demo.java
+$ java String_demo 
+abc
+8. What will be the output of the following Java program?
+    class String_demo     {        public static void main(String args[])        {            int ascii[] = { 65, 66, 67, 68};            String s = new String(ascii, 1, 3);            System.out.println(s);        }   }
+a) ABC
+b) BCD
+c) CDA
+d) ABCD
+b
+output:
+$ javac String_demo.java
+$ java String_demo 
+BCD
+9. What will be the output of the following Java program?
+    class String_demo     {        public static void main(String args[])        {            char chars[] = {'a', 'b', 'c'};            String s = new String(chars);            String s1 = "abcd";            int len1 = s1.length();            int len2 = s.length();            System.out.println(len1 + " " + len2);        }   }
+a) 3 0
+b) 0 3
+c) 3 4
+d) 4 3
+d
+output:
+$ javac String_demo.java
+$ java String_demo 
+4 3
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Inheritance – 2» Next - Java Questions & Answers – Character Extraction 

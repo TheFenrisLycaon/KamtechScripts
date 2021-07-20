@@ -1,0 +1,87 @@
+This section on advanced C++ programming questions focuses on “Floating Point Types”. One shall practice these advanced C++ questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our advanced C++ questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of advanced C++ programming questions on “Floating Point Types” along with answers, explanations and/or solutions: 
+1. Which of the following is not one of the sizes of the floating point types?
+a) short float
+b) float
+c) long double
+d) double
+a
+2. Which of the following is a valid floating-point literal?
+a) f287.333
+b) F287.333
+c) 287.e2
+d) 287.3.e2
+c
+3. What is the range of the floating point numbers?
+a) -3.4E+38 to +3.4E+38
+b) -3.4E+38 to +3.4E+34
+c) -3.4E+38 to +3.4E+36
+d) -3.4E+38 to +3.4E+32
+a
+4. Which of three sizes of floating point types should be used when extended precision is required?
+a) float
+b) double
+c) long double
+d) extended float
+c
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        float num1 = 1.1;        double num2 = 1.1;        if (num1 == num2)           cout << "stanford";        else           cout << "harvard";        return 0;    }
+a) harvard
+b) stanford
+c) compile time error
+d) runtime error
+a
+Output:
+$ g++ float3.cpp
+$ a.out
+harvard
+6. What will be the output of the following C++ code?
+    #include <iomanip>    #include <iostream>    using namespace std;    int main()    {        cout << setprecision(17);        double d = 0.1;        cout << d << endl;        return 0;    }
+a) 0.11
+b) 0.10000000000000001
+c) 0.100001
+d) compile time error
+b
+Output:
+$ g++ float2.out
+$ a.out
+0.10000000000000001
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        float i = 123.0f;        cout << i << endl;        return 0;    }
+a) 123.00
+b) 1.23
+c) 123
+d) compile time error
+c
+$ g++ float.cpp
+$ a.out
+123
+8. Which is used to indicate single precision value?
+a) F or f
+b) L or l
+c) Either F or for L or l
+d) Neither F or for L or l
+a
+9. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        float f1 = 0.5;        double f2 = 0.5;        if (f1 == 0.5f)            cout << "equal";        else            cout << "not equal";        return 0;    }
+a) equal
+b) not equal
+c) compile time error
+d) runtime error
+a
+Output:
+$ g++ float.cpp
+$ a.out
+equal
+10. Which is correct with respect to the size of the data types?
+a) char > int < float
+b) int < char > float
+c) char < int < float
+d) char < int < double
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++  Programming Questions and Answers – Integer Types» Next - C++ Programming Questions and Answers – Sizes 

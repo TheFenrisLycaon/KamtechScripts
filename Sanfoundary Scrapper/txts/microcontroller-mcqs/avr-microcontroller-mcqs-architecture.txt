@@ -1,0 +1,71 @@
+1. Is the following instruction correct LDI R3,50?
+a) Yes
+b) No
+c) Cant be said
+d) None of the mentioned
+b
+2. Registers R0-R31 are used for what type of works?
+a) they are used for arithmetic and logic instructions
+b) they are used for data copy
+c) they are used for calculations
+d) none of the mentioned
+a
+3. The largest value that can be loaded in an 8 bit register is?
+a) 11111111H
+b) FH
+c) FFH
+d) 00H
+c
+4. The total space for the data memory available in the AVR based microcontroller is?
+a) FFH
+b) FFFH
+c) FFFFH
+d) FFFFFH
+c
+5. Which of the following instructions affect the flags of the status register?
+a) AND
+b) INC
+c) OR
+d) All of the mentioned
+d
+Join Sanfoundry@YouTube
+6. What is the difference between the two given instructions?
+   LDI R16,0x34 and LDI R16,$34
+a) One copies the hexadecimal value to R16 and the other copies the decimal value to the R16 register
+b) One is for command, other is for data
+c) One is for assignment, other is for operations
+d) Both the commands are the same
+d
+7. Which out of the following is not a directive?
+a) .EQU
+b) .DEVICE
+c) .ORG
+d) .LDI
+d
+8. Is an assembly language a high level language?
+a) Yes
+b) No
+c) Can’t be said
+d) None of the mentioned
+b
+9. A 14-bit program counter can access __________ bytes of memory locations.
+a) 4K
+b) 8K
+c) 16K
+d) 64K
+c
+Calculation:
+214 = 24 x 210
+         = 16K (210 = 1024 or 1K).
+10. When AVR wakes up, then the value of PC becomes?
+a) 00H
+b) 000H
+c) 0000H
+d) 00000H
+d
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - 8051 Microcontroller Questions and Answers – Interfacing with Motors» Next - AVR Microcontroller Questions and Answers – Jump, Loop and Call Instructions 

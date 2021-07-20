@@ -1,0 +1,118 @@
+1. What will be the output of the following C# code?
+ static void Main(string[] args) {     int a = 5;     int s = 0, c = 0;     Mul (a, ref s, ref c);     Console.WriteLine(s + "t " +c);     Console.ReadLine(); } static void Mul (int x, ref int ss, ref int cc) {     ss = x * x;     cc = x * x * x; }
+a) 125 25
+b) 25 125
+c) Compile time error
+d) 0 0
+b
+Output:
+ 25 125
+2. Which of the following statements are correct about functions?
+a) C# allows a function to have arguments with default values
+b) Redefining a method parameter in the method’s body causes an exception
+c) C# allows function to have arguments with default values
+d) Omitting the return type in method definition results into exception
+a
+3. What will be the output of the following C# code?
+static void Main(string[] args){    Mul();    m();    Console.ReadLine();}static void Mul(){    Console.WriteLine("4");}static void m(){    Console.WriteLine("3");    Mul();}
+a) 4 3 3
+b) 4 4 3
+c) 4 3 4
+d) 3 4 4
+c
+Output:
+ 4 3 4
+4. What will be the output of the following C# code?
+ static void Main(string[] args) {     m();     Console.ReadLine(); } static void m() {     Console.WriteLine("HI");     m(); }
+a) HI HI HI
+b) HI
+c) Stack overflow exception
+d) Compile time error
+c
+5. When a function fun() is to receive an int, a single & a double and it is to return a decimal, then the correct way of defining this C# function is?
+a)
+   static fun(int i, single j, double k)
+   {
+       return decimal;
+   }
+b)
+   static decimal fun(int i, single, double k)
+   {
+ 
+   }
+c)
+   decimal fun(int i, single j, double k)
+   {
+ 
+   }
+d)
+   decimal static fun(int i, single j, double k)
+   {
+ 
+   }
+b
+  
+6. What will be the output of the following C# code?
+ static void Main(string[] args) {     int i = 10;     double d = 35.78;     fun(i);     fun(d);     Console.ReadLine(); } static void fun(double d) {     Console.WriteLine(d); }
+a) 
+35.78
+   10
+b) 
+10
+   35.00
+c) 
+10
+   35.78
+d) None of the mentioned
+c
+Output:
+       10
+       35.78
+7. How many values does a function return?
+a) 0
+b) 2
+c) 1
+d) any number of values
+c
+8. What will be the output of the following C# code?
+ static void Main(string[] args) {     int y = 3;     y++;     if (y <= 5)     {          Console.WriteLine("hi");         Main(args);     }     Console.ReadLine(); }
+a) hi hi
+b) hi
+c) Stack overflow exception
+d) None of the mentioned
+c
+Output: hi
+        hi
+         .
+         .
+         .
+        stack overflow exception
+9. Which return statement correctly returns the output?
+a) 
+   public int cube(int x)
+   {
+       return (x + x);
+   }
+b) 
+   public int cube(int x)
+   return (x + x);
+c) 
+   public int cube(int x)
+   {
+       return x + x;
+   }
+d) None of the mentioned
+a
+10. What will be the output of the following C# code?
+ public static void Main(string[] args) {     p();     void p()     {         Console.WriteLine("hi");     } }
+a) Compile time error
+b) hi
+c) hi infinite times
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Reference Variables and Assignment» Next - C# Questions & Answers – Constructors in Class 

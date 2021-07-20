@@ -1,0 +1,87 @@
+1. What is the duration of the unit sample response of a digital filter?
+a) Finite
+b) Infinite
+c) Impulse(very small)
+d) Zero
+b
+2. Which of the following methods are used to convert analog filter into digital filter?
+a) Approximation of Derivatives
+b) Bilinear transformation
+c) Impulse invariance
+d) All of the mentioned
+d
+3. Which of the following is the difference equation of the FIR filter of length M, input x(n) and output y(n)?
+a) y(n)=\(\sum_{k=0}^{M+1} b_k x(n+k)\) 
+b) y(n)=\(\sum_{k=0}^{M+1} b_k x(n-k)\) 
+c) y(n)=\(\sum_{k=0}^{M-1} b_k x(n-k)\) 
+d) None of the mentioned
+c
+y(n)=\(\sum_{k=0}^{M-1} b_k x(n-k)\) 
+where {bk} is the set of filter coefficients.
+4. What is the relation between h(t) and Ha(s)?
+a) Ha(s)=\( \int_{-\infty}^{\infty} h(t)e^{-st} dt\) 
+b) Ha(s)=\(\int_0^{\infty} h(t)e^{st} dt\) 
+c) Ha(s)=\( \int_{-\infty}^{\infty} h(t)e^{st} dt\) 
+d) None of the mentioned
+a
+Ha(s)=\( \int_{-\infty}^{\infty} h(t)e^{-st} dt\).
+5. Which of the following is a representation of system function?
+a) Normal system function
+b) Laplace transform
+c) Rational system function
+d) All of the mentioned
+d
+6. For an analog LTI system to be stable, where should the poles of system function H(s) lie?
+a) Right half of s-plane
+b) Left half of s-plane
+c) On the imaginary axis
+d) At origin
+b
+7. If the conversion technique is to be effective, the jΩ axis in the s-plane should map into the unit circle in the z-plane.
+a) True
+b) False
+a
+8. If the conversion technique is to be effective, then the LHP of s-plane should be mapped into _____________
+a) Outside of unit circle
+b) Unit circle
+c) Inside unit circle
+d) Does not matter
+c
+9. Physically realizable and stable IIR filters cannot have linear phase.
+a) True
+b) False
+a
+10. What is the condition on the system function of a linear phase filter?
+a) H(z)=\(z^{-N} H(z^{-1})\) 
+b) H(z)=\(z^N H(z^{-1})\) 
+c) H(z)=\(±z^N H(z^{-1})\) 
+d) H(z)=\(±z^{-N} H(z^{-1})\) 
+d
+H(z)=\(±z^{-N} H(z^{-1})\) 
+where z(-N) represents a delay of N units of time.
+11. If the filter is in linear phase, then filter would have a mirror-image pole outside the unit circle for every pole inside the unit circle.
+a) True
+b) False
+a
+H(z)=\(±z^{-N} H(z^{-1})\) 
+where z(-N) represents a delay of N units of time. But if this were the case, the filter would have a mirror image pole outside the unit circle for every pole inside the unit circle. Hence the filter would be unstable.
+12. What is the order of operations to be performed in order to realize linear phase IIR filter?
+(i) Passing x(-n) through a digital filter H(z)
+(ii) Time reversing the output of H(z)
+(iii) Time reversal of the input signal x(n)
+(iv) Passing the result through H(z)
+a) (i),(ii),(iii),(iv)
+b) (iii),(i),(ii),(iv)
+c) (ii),(iii),(iv),(i)
+d) (i),(iii),(iv),(ii)
+b
+13. When an application requires a linear phase filter, it should be an FIR filter.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Comparison of Design Methods for Linear Phase FIR Filters» Next - Digital Signal Processing Questions and Answers – IIR Filter Design by Approximation of Derivatives 

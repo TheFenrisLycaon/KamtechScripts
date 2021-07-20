@@ -1,0 +1,67 @@
+1. The 8089 shares the system bus and memory with the host CPU in
+a) tightly coupled configuration
+b) loosely coupled configuration
+c) tightly and loosely coupled configurations
+d) none of the mentioned
+a
+2. The 8089 communicates with the host CPU using bus arbiter and controller in
+a) tightly coupled configuration
+b) loosely coupled configuration
+c) tightly and loosely coupled configurations
+d) none of the mentioned
+b
+3. The number of address lines used by the I/O processor in 8089 is
+a) 20
+b) 12
+c) 16
+d) 8
+c
+4. The IO device that can be interfaced with 8089 is
+a) 16-bit IO
+b) 8-bit IO
+c) 64-bit IO
+d) 16-bit and 8-bit IO
+d
+5. In the 8089 architecture, the address of memory table for channel-2 is calculated by
+a) adding 16 to the contents of CCP
+b) adding 8 to the contents of CCP
+c) adding memory table address of channel-1
+d) none of the mentioned
+b
+6. Which of the following is not a general purpose register of 8089?
+a) GA
+b) BC
+c) CX
+d) MC
+c
+7. The registers that are used as source and destination pointers during DMA operations are
+a) GB, GC
+b) GC, BC
+c) GC, GA
+d) GA, GB
+d
+8. The pin that is used for data transfer control and operation termination signals is
+a) SINTR
+b) EXT
+c) DRQ and EXT
+d) RQ (active low) or GT (active low)
+c
+9. The pin that is used to inform the CPU that the previous operation is completed is
+a) RQ (active low)
+b) GT (active low)
+c) DRQ
+d) SINTR
+d
+10. The current channel status of program status word contains
+a) source and destination address widths
+b) bus load limit
+c) interrupt control and servicing
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Numeric Processor 8087 -2» Next - Microprocessors Questions and Answers – Bus Arbitration and Control 

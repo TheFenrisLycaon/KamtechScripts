@@ -1,0 +1,80 @@
+1. Which of these keywords are used to define an abstract class?
+a) abst
+b) abstract
+c) Abstract
+d) abstract class
+b
+2. Which of these is not abstract?
+a) Thread
+b) AbstractList
+c) List
+d) None of the Mentioned
+a
+3. If a class inheriting an abstract class does not define all of its function then it will be known as?
+a) Abstract
+b) A simple class
+c) Static class
+d) None of the mentioned
+a
+4. Which of these is not a correct statement?
+a) Every class containing abstract method must be declared abstract
+b) Abstract class defines only the structure of the class not its implementation
+c) Abstract class can be initiated by new operator
+d) Abstract class can be inherited
+c
+5. Which of these packages contains abstract keyword?
+a) java.lang
+b) java.util
+c) java.io
+d) java.system
+a
+6. What will be the output of the following Java code?
+    class A     {        public int i;        private int j;    }        class B extends A     {        void display()         {            super.j = super.i + 1;            System.out.println(super.i + " " + super.j);        }    }        class inheritance    {        public static void main(String args[])        {            B obj = new B();            obj.i=1;            obj.j=2;               obj.display();             }   }
+a) 2 2
+b) 3 3
+c) Runtime Error
+d) Compilation Error
+d
+output:
+$ javac inheritance.java
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	The field A.j is not visible
+7. What will be the output of the following Java code?
+    class A     {        public int i;        public int j;        A()        {            i = 1;            j = 2;	}    }        class B extends A     {        int a;	B()         {            super();        }     }        class super_use     {        public static void main(String args[])        {            B obj = new B();            System.out.println(obj.i + " " + obj.j)             }   }
+a) 1 2
+b) 2 1
+c) Runtime Error
+d) Compilation Error
+a
+output:
+$ javac super_use.java
+$ java super_use
+1 2
+8. What will be the output of the following Java code?
+    class A     {        int i;        void display()         {            System.out.println(i);        }    }        class B extends A     {        int j;        void display()         {            System.out.println(j);        }    }        class method_overriding     {        public static void main(String args[])        {            B obj = new B();            obj.i=1;            obj.j=2;               obj.display();             }   }
+a) 0
+b) 1
+c) 2
+d) Compilation Error
+c
+output:
+$ javac method_overriding.java
+$ java method_overriding
+2
+9. What will be the output of the following Java code?
+    class A     {        public int i;        protected int j;    }        class B extends A     {        int j;        void display()         {            super.j = 3;            System.out.println(i + " " + j);        }    }        class Output     {        public static void main(String args[])        {            B obj = new B();            obj.i=1;            obj.j=2;               obj.display();             }   }
+a) 1 2
+b) 2 1
+c) 1 3
+d) 3 1
+a
+output:
+$ javac Output.java
+$ java Output
+1 2
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – The Object Class» Next - Java Questions & Answers – Inheritance – 1 

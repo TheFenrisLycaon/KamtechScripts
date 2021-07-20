@@ -1,0 +1,64 @@
+1. Which of the following function is a wrapper for different lattice plots to visualize the data?
+a) levelplot
+b) featurePlot
+c) plotsample
+d) none of the mentioned
+b
+2. Point out the wrong statement.
+a) In every situation, the data generating mechanism can create predictors that only have a single unique value
+b) Predictors might have only a handful of unique values that occur with very low frequencies
+c) The function findLinearCombos uses the QR decomposition of a matrix to enumerate sets of linear combinations
+d) All of the mentioned
+a
+3. Which of the following function can be used to identify near zero-variance variables?
+a) zeroVar
+b) nearVar
+c) nearZeroVar
+d) all of the mentioned
+c
+4. Which of the following function can be used to flag predictors for removal?
+a) searchCorrelation
+b) findCausation
+c) findCorrelation
+d) none of the mentioned
+c
+5. Point out the correct statement.
+a) findLinearColumns will also return a vector of column positions can be removed to eliminate the linear dependencies
+b) findLinearCombos will return a list that enumerates dependencies
+c) the function findLinearRows can be used to generate a complete set of row variables from one factor
+d) none of the mentioned
+b
+6. Which of the following can be used to impute data sets based only on information in the training set?
+a) postProcess
+b) preProcess
+c) process
+d) all of the mentioned
+b
+Join Sanfoundry@YouTube
+7. The function preProcess estimates the required parameters for each operation.
+a) True
+b) False
+a
+8. Which of the following can also be used to find new variables that are linear combinations of the original set with independent components?
+a) ICA
+b) SCA
+c) PCA
+d) None of the mentioned
+a
+9. Which of the following function is used to generate the class distances?
+a) preprocess.classDist
+b) predict.classDist
+c) predict.classDistance
+d) all of the mentioned
+b
+10. The preProcess class can be used for many operations on predictors.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Data Science.
+Here’s the list of Best Reference Books in Data Science.
+To practice all areas of Data Science, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Science Questions and Answers – caret – 1» Next - Data Science Questions and Answers – caret – 3 

@@ -1,0 +1,100 @@
+1. Which of the following is a frequency domain specification?
+a) 0 ≥ 20 log|H(jΩ)|
+b) 20 log|H(jΩ)| ≥ KP
+c) 20 log|H(jΩ)| ≤ KS
+d) All of the mentioned
+d
+KP ≤ 20 log|H(jΩ)| ≤ 0
+and 20 log|H(jΩ)| ≤ KS.
+2. What is the value of gain at the pass band frequency, i.e., what is the value of KP?
+a) -10 \(log⁡ [1-(\frac{\Omega_P}{\Omega_C})^{2N}]\) 
+b) -10 \(log⁡ [1+(\frac{\Omega_P}{\Omega_C})^{2N}]\) 
+c) 10 \(log⁡ [1-(\frac{\Omega_P}{\Omega_C})^{2N}]\) 
+d) 10 \(log⁡ [1+(\frac{\Omega_P}{\Omega_C})^{2N}]\) 
+b
+We know that
+\(|H(j\Omega)|=\frac{1}{\sqrt{(1+(\frac{\Omega}{\Omega_C})^{2N}}}\) 
+By applying 20log on both sides of above equation, we get
+K = 20 \(log|H(j \Omega)|=-20 [log⁡[1+(\frac{\Omega}{\Omega_C})^{2N}]]^{1/2}\) 
+= -10 \(log⁡[1+(\frac{\Omega}{\Omega_C})^{2N}]\) 
+We know that K= KP at Ω=ΩP
+=> KP=-10 \(log⁡[1+(\frac{\Omega_P}{\Omega_C})^{2N}]\).
+3. What is the value of gain at the stop band frequency, i.e., what is the value of KS?
+a) -10 \(log⁡[1+(\frac{\Omega_S}{\Omega_C})^{2N}]\) 
+b) -10 \(log⁡[1-(\frac{\Omega_S}{\Omega_C})^{2N}]\) 
+c) 10 \(log⁡[1-(\frac{\Omega_S}{\Omega_C})^{2N}]\) 
+d) 10 \(log⁡[1+(\frac{\Omega_S}{\Omega_C})^{2N}]\) 
+a
+K = 20 log|H(jΩ)| 
+We know that
+\(|H(j \Omega)|=\frac{1}{\sqrt{(1+(\frac{\Omega}{\Omega_C})^{2N}}}\) 
+By applying 20log on both sides of above equation, we get
+K = 20 \(log|H(j\Omega)|=-20 [log⁡[1+(\frac{\Omega}{\Omega_C})^{2N}]]^{1/2}\) 
+= -10 \(log⁡[1+(\frac{\Omega}{\Omega_C})^{2N}]\) 
+We know that K= KS at Ω=ΩS
+=> KS=-10 \(log⁡[1+(\frac{\Omega_S}{\Omega_C})^{2N}]\).
+4. Which of the following equation is True?
+a) \([\frac{\Omega_P}{\Omega_C}]^{2N} = 10^{-K_P/10}+1\) 
+b) \([\frac{\Omega_P}{\Omega_C}]^{2N} = 10^{K_P/10}+1\) 
+c) \([\frac{\Omega_P}{\Omega_C}]^{2N} = 10^{-K_P/10}-1\) 
+d) None of the mentioned
+c
+KP=-10 \(log⁡[1+(\frac{\Omega_P}{\Omega_C})^{2N}]\) 
+=>\([\frac{Ω_P}{Ω_C}]^{2N} = 10^{\frac{-K_P}{10}}-1\) 
+5. Which of the following equation is True?
+a) \([\frac{\Omega_S}{\Omega_C} ]^{2N} = 10^{-K_S/10}+1\) 
+b) \([\frac{\Omega_S}{\Omega_C} ]^{2N} = 10^{K_S/10}+1\) 
+c) \([\frac{\Omega_S}{\Omega_C} ]^{2N} = 10^{-K_S/10}-1\) 
+d) None of the mentioned
+b
+KP=-10 \(log⁡[1+(\frac{\Omega_S}{\Omega_C})^{2N}]\) 
+=>\([\frac{Ω_S}{Ω_C}]^{2N} = 10^{\frac{-K_S}{10}}-1\) 
+6. What is the order N of the low pass Butterworth filter in terms of KP and KS?
+a) \(\frac{log⁡[(10^\frac{K_P}{10}-1)/(10^\frac{K_s}{10}-1)]}{2 log⁡(\frac{\Omega_P}{\Omega_S})}\) 
+b) \(\frac{log⁡[(10^\frac{K_P}{10}+1)/(10^\frac{K_s}{10}+1)]}{2 log⁡(\frac{\Omega_P}{\Omega_S})}\) 
+c) \(\frac{log⁡[(10^\frac{-K_P}{10}+1)/(10^\frac{-K_s}{10}+1)]}{2 log⁡(\frac{\Omega_P}{\Omega_S})}\) 
+d) \(\frac{log⁡[(10^\frac{-K_P}{10}-1)/(10^\frac{-K_s}{10}-1)]}{2 log⁡(\frac{\Omega_P}{\Omega_S})}\) 
+d
+We know that, \([\frac{Ω_P}{Ω_C}]^{2N} = 10^{-K_P/10}-1\) and \([\frac{Ω_P}{Ω_C}]^{2N} = 10^{-K_S/10}-1\).
+By dividing the above two equations, we get
+=> \([Ω_P/Ω_S]^{2N} = (10^{-K_S/10}-1)(10^{-K_P/10}-1)\) 
+By taking log in both sides, we get
+=> N=\(\frac{log⁡[(10^\frac{-K_P}{10}-1)/(10^\frac{-K_s}{10}-1)]}{2 log⁡(\frac{\Omega_P}{\Omega_S})}\).
+7. What is the expression for cutoff frequency in terms of pass band gain?
+a) \(\frac{\Omega_P}{(10^{-K_P/10}-1)^{1/2N}}\) 
+b) \(\frac{\Omega_P}{(10^{-K_P/10}+1)^{1/2N}}\) 
+c) \(\frac{\Omega_P}{(10^{K_P/10}-1)^{1/2N}}\) 
+d) None of the mentioned
+a
+\([\frac{Ω_P}{Ω_C}]^{2N} = 10^{-K_P/10}-1\) 
+=> \(Ω_C = \frac{Ω_P}{(10^{-K_P/10}-1)^{1/2N}}\).
+8. What is the expression for cutoff frequency in terms of stop band gain?
+a) \(\frac{\Omega_S}{(10^{-K_S/10}-1)^{1/2N}}\) 
+b) \(\frac{\Omega_S}{(10^{-K_S/10}+1)^{1/2N}}\) 
+c) \(\frac{\Omega_S}{(10^{K_S/10}-1)^{1/2N}}\) 
+d) None of the mentioned
+c
+\([\frac{Ω_S}{Ω_C}]^{2N} = 10^{-K_S/10}-1\) 
+=> \(Ω_C = \frac{Ω_S}{(10^{-K_S/10}-1)^{1/2N}}\).
+9. The cutoff frequency of the low pass Butterworth filter is the arithmetic mean of the two cutoff frequencies as found above.
+a) True
+b) False
+a
+10. What is the lowest order of the Butterworth filter with a pass band gain KP=-1 dB at ΩP=4 rad/sec and stop band attenuation greater than or equal to 20dB at ΩS = 8 rad/sec?
+a) 4
+b) 5
+c) 6
+d) 3
+b
+N=\(\frac{log⁡[(10^{-K_P/10}-1)/(10^{-K_s/10}-1)]}{2 log⁡(\frac{Ω_P}{Ω_S})}\) 
+From the given question,
+KP=-1 dB, ΩP= 4 rad/sec, KS=-20 dB and ΩS= 8 rad/sec
+Upon substituting the values in the above equation, we get
+N=4.289
+Rounding off to the next largest integer, we get N=5.
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – IIR Filter Design by the Bilinear Transformation» Next - Digital Signal Processing Questions and Answers – Design of Low Pass Butterworth Filters – 2 

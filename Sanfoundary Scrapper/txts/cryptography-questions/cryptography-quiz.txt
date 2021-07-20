@@ -1,0 +1,57 @@
+1. In blowfish, the keys are stored in the form of an array ranging from K1, K2 to Ki. What is the value of i?
+a) 12
+b) 16
+c) 8
+d) 14
+d
+K_1,K_2,,,,,,,K_J           1≤J≤14.
+2. To generate the sub-key P1 to P18 we use the hexadecimal equivalent digits of ____________
+a) 0.7864
+b) 0.1415
+c) 0.1542
+d) 0.7535
+b
+3. P17 gets XORed with
+a) K3
+b) K12
+c) K17
+d) K6
+a
+4. P15 gets XORed with
+a) K3
+b) K14
+c) K1
+d) K6
+c
+5. What is the number of iterations required in total to generate all the sub-keys in blowfish?
+a) 512
+b) 521
+c) 256
+d) 128
+b
+6. A single blowfish s-box converts 8-bits to _________ bits.
+a) 32
+b) 44
+c) 56
+d) 64
+a
+7. The 32bit output of s-box 1 is XORed with s-box 2.
+a) True
+b) False
+a
+8. Which of the following statements are true with respect to the blowfish algorithm –
+i) Provided key is large enough, brute-force key search is not practical, especially given the high key schedule cost
+ii) Key dependent S-boxes and sub keys make analysis very difficult
+iii) Changing both halves in each round increases security
+iv) Blowfish has improved avalanche effects
+a) i) ii) and iv)
+b) ii) and iii)
+c) i)
+d) All are true
+d
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography for quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Symmetric Ciphers Questions and Answers – Blowfish Algorithm – I» Next - Symmetric Ciphers Questions and Answers – RC4 and RC5 – I 

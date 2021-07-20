@@ -1,0 +1,79 @@
+1. What will be the output of the following PHP code?
+<?php$x = 5;$y = 10;$z = "$x + $y";echo "$z";?>
+a) 15
+b) 10 + 5
+c) $z
+d) $x + $y
+b
+2. What will be the output of the following PHP code?
+<?php$x = 4;$y = 3;$z = 1;echo "$x = $x + $y + $z";?>
+a) 4 = 4 + 3 + 1
+b) 8
+c) 8 = 4 + 3 +1
+d) Error
+a
+3. What will be the output of the following PHP code?
+Join [email protected]
+<?php$x = 4;$y = 3$z = 1;$z = $z + $x + $y;echo "$z";?>
+a) $z
+b) 15
+c) 8
+d) 1
+c
+4. What will be the output of the following PHP code?
+<?php$x = 3.3;$y = 2;echo $x % $y;?>
+a) 0
+b) 1
+c) 2
+d) Error
+b
+5. What will be the output of the following PHP code?
+<?php$x = 10;$y = 4;$z = 3;echo $x % $y % $z;?>
+a) 0
+b) 1
+c) 2
+d) Error
+c
+6. What will be the output of the following PHP code?
+<?php$x = 10;$y = 4;$z = 3;echo ($x % ($y) + $z);?>
+a) 5
+b) 3
+c) 0
+d) 1
+a
+7. What will be the output of the following PHP code?
+<?php$x = 30;$y = 20;$z = 10;echo $x + $y - $z / ($z - $y);?>
+a) 41
+b) -4
+c) -5
+d) 51
+d
+8. What will be the output of the following PHP code?
+<?php$x = -1;$y = 1;$z = $x * $y + $z;echo $z;?>
+a) Undefined variable z
+b) -1
+c) 
+Undefined variable z
+-1
+d) None of the mentioned
+c
+9. What will be the output of the following PHP code?
+<?php$x = 4;$y = -3;$z = 11;echo 4 + $y * $z / $x;?>
+a) 4.25
+b) 3.25
+c) -3.25
+d) -4.25
+d
+10. What will be the output of the following PHP code?
+<?php$x = 3.5;$y = 2;$z = 2;echo $x / $y / $z;?>
+a) 1.75
+b) 0.875
+c) 3.5
+d) Error
+b
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Syntax – 2» Next - PHP Coding Questions and Answers – Variables – 2 

@@ -1,0 +1,60 @@
+1. Which of the following filter(s) has the response in which the central pixel value is replaced by value defined by ranking the pixel in the image encompassed by filter?
+a)	Order-Statistic filters
+b)	Non-linear spatial filters
+c)	Median filter
+d)	All of the mentioned
+d
+2. Is it true or false that “the original pixel value is included while computing the median using gray-levels in the neighborhood of the original pixel in median filter case”?
+a)	True
+b)	False
+a
+3. Two filters of similar size are used for smoothing image having impulse noise. One is median filter while the other is a linear spatial filter. Which would the blurring effect of both?
+a)	Median filter effects in considerably less blurring than the linear spatial filters
+b)	Median filter effects in considerably more blurring than the linear spatial filters
+c)	Both have the same blurring effect
+d)	All of the mentioned
+a
+4. An image contains noise having appearance as black and white dots superimposed on the image. Which of the following noise(s) has the same appearance?
+a)	Salt-and-pepper noise
+b)	Gaussian noise
+c)	All of the mentioned
+d)	None of the mentioned
+c
+5. While performing the median filtering, suppose a 3*3 neighborhood has value (10, 20, 20, 20, 15, 20, 20, 25, 100), then what is the median value to be given to the pixel under filter?
+a)	15
+b)	20
+c)	100
+d)	25
+b
+6. Which of the following are forced to the median intensity of the neighbors by n*n median filter?
+a)	Isolated cluster of pixels that are light or dark in comparison to their neighbors
+b)	Isolated cluster of pixels whose area is less than one-half the filter area
+c)	All of the mentioned
+d)	None of the mentioned
+c
+If the area of such isolated pixels are < n2/2, that is again the pixel value won’t be a median value and so are eliminated.
+Larger cluster pixels value are more pronounced to be a median value, so are considerably less forced to median intensity.
+7. Which filter(s) used to find the brightest point in the image?
+a)	Median filter
+b)	Max filter
+c)	Mean filter
+d)	All of the mentioned
+b
+8. The median filter also represents which of the following ranked set of numbers?
+a)	100th percentile
+b)	0th percentile
+c)	50th percentile
+d)	None of the mentioned
+c
+9. Which of the following filter represents a 0th percentile set of numbers?
+a)	Max filter
+b)	Mean filter
+c)	Median filter
+d)	None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Smoothing Linear Spatial Filters» Next - Digital Image Processing Questions and Answers – Spatial Filtering 

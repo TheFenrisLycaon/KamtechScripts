@@ -1,0 +1,87 @@
+1. Assert statement is a _____________ statement.
+a) Concurrent and synthesizable
+b) Sequential and synthesizable
+c) Concurrent and Non-synthesizable
+d) Sequential and Non-synthesizable
+d
+2. What is the use of assert statement in VHDL?
+a) To print any string
+b) To check the consistency and generate a message
+c) Cause execution of sequential statements to wait
+d) To check if a condition can stop the execution
+b
+3. What is the correct syntax for using ASSERT statement?
+a) ASSERT condition [REPORT string] [SEVERITY name];
+b) Condition [REPORT string] [SEVERITY name] ASSERT;
+c) Condition [SEVERITY name] [REPORT string] ASSERT;
+d) ASSERT condition [SEVERITY name] [REPORT string];
+a
+4. The assert statement displays a message when the condition is FALSE.
+a) True
+b) False
+a
+5. What is the use of REPORT statement?
+a) To check the consistency
+b) To make the statement wait
+c) To print any string or output the string
+d) To report the failure
+c
+6. How many types of severity levels are there for the ASSERT statement?
+a) 1
+b) 2
+c) 3
+d) 4
+d
+7. Which of the following is the default severity name for ASSERT?
+a) NOTE
+b) WARNING
+c) ERROR
+d) FAILURE
+c
+8. By using which of the following severity level, the simulator can be halted?
+a) NOTE
+b) WARNING
+c) ERROR
+d) FAILURE
+d
+9. What kind of circuit may be described by using the following statement?
+ASSERT NOT (s=’1’ and r = ‘1’) REPORT ‘’INVALID! S and R both can’t be 1” SEVERITY ERROR
+a) Flip flop
+b) Multiplexer
+c) Decoder
+d) Counter
+a
+10. An ASSERT statement can’t be used as a concurrent statement.
+a) True
+b) False
+b
+11. NOTE severity level can be used to __________
+a) Stop the execution
+b) Show the unusual situation
+c) Pass a message from simulation
+d) To give a warning to simulator
+c
+12. Where should one use WARNING severity level?
+a) To stop the execution
+b) To alert the user about unexpected conditions
+c) To pass the message from simulation
+d) To give a warning about wrong conditions
+b
+13. The use of ERROR severity is _________
+a) To alert about unpredictable results
+b) To pass information to the simulator
+c) To Stop the execution
+d) Where the simulation is not feasible
+d
+14. Where should we use FAILURE severity?
+a) To identify a fatal error
+b) To alert the user about simulation where the results are not correct
+c) To ignore the error
+d) To show the failure of simulation
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – LOOP Statement – 2» Next - VHDL Questions and Answers – WAIT Statements – 1 

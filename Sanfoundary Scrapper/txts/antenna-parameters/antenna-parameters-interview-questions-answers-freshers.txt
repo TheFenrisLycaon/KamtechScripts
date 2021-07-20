@@ -1,0 +1,73 @@
+1. What is the radiation resistance of an antenna if it radiates 1kW and current in it is Irms=10A?
+a) 0.1Ω
+b) 1Ω
+c) 10Ω
+d) 100Ω
+c
+⇨	Rrad=\(\frac{P_{rad}}{I_{rms}^2} = \frac{1000}{10×10}=10\Omega\)
+2. What is the radiation resistance of an antenna if input power to it is 1KW and current in it is 10A having a power loss of 200W?
+a) 10Ω
+b) 2Ω
+c) 12Ω
+d) 8Ω
+d
+⇨	Prad=Pin-Ploss=1000-200=800W
+Now, Power radiated Prad=Irms2Rrad
+⇨	Rrad=\(\frac{P_{rad}}{I_{rms}^2} = \frac{800}{10×10}\)=8Ω
+3. What is the radiation resistance of a short dipole of length L?
+a) 20π2 \((\frac{L}{\lambda})^2\) 
+b) 80π2 \((\frac{l}{\lambda})^2\) 
+c) 40π2 \((\frac{l}{\lambda})^2\) 
+d) 160π2 \((\frac{l}{\lambda})^2\) 
+a
+Then short dipole is of length l/2, so the radiation resistance is given by R=80π2\((\frac{L/2}{\lambda})^2=20\pi^2 (\frac{L}{\lambda})^2.\)
+4. If the length of the dipole decreases, then the radiation resistance will________
+a) increase
+b) decrease
+c) depends on current distribution
+d) not change
+b
+5. For a half-wave dipole with length λ/12, what is the antenna efficiency if the Radiation resistance is 2Ω?
+a) 0.73
+b) 0.073
+c) 0.37
+d) 0.78
+a
+Antenna efficiency \(\eta=\frac{R_{rad}}{R_{rad}+R_{loss}}=\frac{5.48}{5.48+2}=0.73\)
+6. Find the radiation resistance of a Hertzian dipole of length 1m and operating at a frequency 1MHz?
+a) 0.08Ω
+b) 8.8mΩ
+c) 8.8Ω
+d) 0.88Ω
+b
+Radiation resistance of a Hertzian dipole is given by \(R=80π^2(\frac{l}{\lambda})^2=80π^2 (\frac{1}{300})^2\)=0.0088Ω
+7. Radiation resistance doesn’t depend on direction of power radiated but depends on the frequency.
+a) True
+b) False
+a
+8. What is the radiation resistance of the antenna radiating at 5kW and having maximum current 2A?
+a) 25kΩ
+b) 2.5kΩ
+c) 0.25kΩ
+d) 2.5Ω
+b
+Power radiated \(P_{rad}=I_{rms}^2 R_{rad}\) 
+⇨	\(R_{rad}=\frac{P_{rad}}{I_{rms}^2} = \frac{5K}{2}=2.5k\Omega\)
+9. Power radiated by half-wave dipole with maximum current amplitude 10A is ______
+a) 3.65kΩ
+b) 3.650Ω
+c) 0.365kΩ
+d) 36.50Ω
+a
+ \(I_{rms}=\frac{I_m}{\sqrt{2}}=\frac{10}{\sqrt{2}}=5\sqrt{2}\) 
+Power radiated Prad=Irms2 Rrad=(5√2)2×73=3650Ω=3.65kΩ
+10. The radiation resistance dissipates same amount of power as it radiated by the antenna.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Antennas.
+To practice all areas of Antenna Parameters for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antenna Parameters Questions and Answers – Effective Aperture» Next - Antenna Parameters Questions and Answers – Antenna Bandwidth 

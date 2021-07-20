@@ -1,0 +1,62 @@
+1. A sequential logic can’t be executed by concurrent statements only.
+a) True
+b) False
+a
+2. Which of the following sequential circuit doesn’t need a clock signal?
+a) Flip flop
+b) Asynchronous counter
+c) Shift register
+d) Latch
+d
+3. The following timing diagram shows ______ flip flop.
+a) T flip-flop
+b) D flip-flop
+c) SR flip-flop
+d) JK flip-flop
+b
+4. The process used for implementation of sequential logic in VHDL is called ______ process.
+a) Sequential process
+b) Combinational process
+c) Clocked process
+d) Unclocked process
+c
+5. Why do we need to define clock signal in the sensitivity list of the process?
+a) To trigger the statement as soon as there is some event on clock
+b) To trigger the clock signal as soon as there is some event on input
+c) To trigger the clock signal as soon as there is some event on output
+d) To trigger the statement as soon as there is some event on input
+a
+6. A user has designed JK flip flop by using the VHDL code. The output is continuously switching between 0 and 1. This condition is known as _______
+a) Switching condition
+b) Master slave condition
+c) Race around condition
+d) Edge triggered condition
+c
+7. Which of the following method is not used to remove the race around condition in a flip flop?
+a) Using level triggered flip flop
+b) Using master slave flip flop
+c) Using edge triggered flip flop
+d) All of the above are used to remove the race around
+a
+8. Which of the following attribute is generally used in implementation of sequential circuits?
+a) ‘STABLE
+b) ‘LENGTH
+c) ‘LAST_EVENT
+d) ‘EVENT
+d
+9. Which of the following line is correct for detecting positive edge of a clock?
+a) IF (clk’EVENT AND clk = ‘0’)
+b) IF (clk’EVENT AND clk = ‘1’)
+c) IF (clk’EVENT OR clk = ‘0’)
+d) IF (clk’EVENT OR clk = ‘1’)
+b
+10. A user doesn’t want to use the IF statement for detecting clock edge. It is possible to do the same by using any other keyword in VHDL.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all written questions on VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Implementing Gates with Different Modelling – 2» Next - VHDL Questions and Answers – Synchronous and Asynchronous Reset 

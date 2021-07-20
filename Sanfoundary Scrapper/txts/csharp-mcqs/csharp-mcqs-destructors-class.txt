@@ -1,0 +1,73 @@
+1. Which operator among the following signifies the destructor operator?
+a) ::
+b) :
+c) ~
+d) &
+c
+2. The method called by clients of a class to explicitly release any resources like network, connection, open files etc. When the object is no longer required?
+a) Finalize()
+b) End()
+c) Dispose()
+d) Close()
+c
+3. Name a method which has the same name as that of class and which is used to destroy objects also called automatically when application is finally on process of being getting terminated.
+a) Constructor
+b) Finalize()
+c) Destructor
+d) End
+c
+4. Which of the following statements are correct?
+a) There is one garbage collector per program running in memory
+b) There is one common garbage collector for all programs
+c) To garbage collect an object set all references to it as null
+d) Both There is one common garbage collector for all programs & To garbage collect an object set all references to it as null
+d
+5. Operator used to free the memory when memory is allocated?
+a) new
+b) free
+c) delete
+d) none of the mentioned
+c
+6. Select wrong statement about destructor in C#?
+a) A class can have one destructor only
+b) Destructors cannot be inherited or overloaded
+c) Destructors can have modifiers or parameters
+d) All of the mentioned
+c
+7. What will be the output of the following C# code?
+  class sample  {      int i;      double k;      public sample (int ii, double kk)      {          i = ii;          k = kk;          double j = (i) + (k);          Console.WriteLine(j);      }      ~sample()      {          double j = i - k;          Console.WriteLine(j);      }  }  class Program  {      static void Main(string[] args)      {          sample s = new sample(8, 2.5);          Console.ReadLine();      }  }
+a) 0  0
+b) 10.5 0
+c) Compile time error
+d) 10.5 5.5
+d
+Output :
+10.5, 5.5
+8. What is the return type of destructor?
+a) int
+b) void
+c) float
+d) none of the mentioned
+d
+9. What will be the output of the following C# code?
+   class box   {       public int volume;       int width;       int height;       int length;       public box ( int w, int h, int l)       {           width = w;           height = h;           length = l;       }      public ~box()      {          volume = width * length * height;       }   }      class Program  {      static void Main(string[] args)      {          box b = new box(4, 5, 9);          Console.WriteLine(b.volume);          Console.ReadLine();      }   }
+a) 0
+b) 180
+c) Compile time error
+d) None of the mentioned
+c
+10. What will be the output of the following C# code?
+  class box  {      public int volume;      int width;      int height;      int length;      public box ( int w, int h, int l)      {          this.width = w;          this.height = h;          this.length = l;      }      ~ box()      {          volume = this.width * this.length * this.height;          console.writeline(volume);      }  }      class Program  {      public  static void Main(string[] args)      {          box b = new box(4, 5, 9);          Console.ReadLine();      }  }
+a) 0
+b) Code executes successfully but prints nothing
+c) Compile time error
+d) 180
+d
+Output:
+180.
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Constructors in Class» Next - C# Questions & Answers – Array and Initialization 

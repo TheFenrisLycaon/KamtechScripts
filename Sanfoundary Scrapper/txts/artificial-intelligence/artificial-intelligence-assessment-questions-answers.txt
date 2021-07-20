@@ -1,0 +1,60 @@
+1. The rule of Universal Instantiation (UI for short) says that we can infer any sentence obtained by substituting a ground term (a term without variables) for the variable.
+a) True
+b) False
+a
+2. The corresponding Existential Instantiation rule: for the existential quantifier is slightly more complicated. For any sentence a, variable v, and constant symbol k that does not appear elsewhere in the knowledge base.
+a) True
+b) False
+a
+3. What among the following could the universal instantiation of ___________
+For all x King(x) ^ Greedy(x) => Evil(x)
+a) King(John) ^ Greedy(John) => Evil(John)
+b) King(y) ^ Greedy(y) => Evil(y)
+c) King(Richard) ^ Greedy(Richard) => Evil(Richard)
+d) All of the mentioned
+d
+4. Lifted inference rules require finding substitutions that make different logical expressions looks identical.
+a) Existential Instantiation
+b) Universal Instantiation
+c) Unification
+d) Modus Ponen
+c
+5. Which of the following is not the style of inference?
+a) Forward Chaining
+b) Backward Chaining
+c) Resolution Refutation
+d) Modus Ponen
+d
+6. In order to utilize generalized Modus Ponens, all sentences in the KB must be in the form of Horn sentences.
+a) True
+b) False
+a
+7. For resolution to apply, all sentences must be in conjunctive normal form, a conjunction of disjunctions of literals.
+a) True
+b) False
+a
+8. What are the two basic types of inferences?
+a) Reduction to propositional logic, Manipulate rules directly
+b) Reduction to propositional logic, Apply modus ponen
+c) Apply modus ponen, Manipulate rules directly
+d) Convert every rule to Horn Clause, Reduction to propositional logic
+a
+9. Which among the following could the Existential instantiation of ∃x Crown(x) ^ OnHead(x, Johnny)?
+a) Crown(John) ^ OnHead(John, Jonny)
+b) Crown(y) ^ OnHead(y, y, x)
+c) Crown(x) ^ OnHead(x, Jonny)
+d) None of the mentioned
+a
+10. Translate the following statement into FOL.
+    “For every a, if a is a PhD student, then a has a master degree”
+a) ∀ a PhD(a) -> Master(a)
+b) ∃ a PhD(a) -> Master(a)
+c) A is true, B is true
+d) A is false, B is false
+a
+Sanfoundry Global Education & Learning Series –  Artificial Intelligence.
+To practice all areas of Artificial Intelligence Assessment Questions, here is complete set of 1000+ Multiple Choice Questions and Answers on Artificial Intelligence.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Artificial Intelligence Questions and Answers – Knowledge and Reasoning» Next - Artificial Intelligence Questions and Answers – Rule Based System – 1 

@@ -1,0 +1,131 @@
+1. What will be the output of the following C code?
+#include<stdio.h>
+#define max 100
+main()
+{
+    #ifdef max
+    printf("hello");
+}
+a) 100
+b) hello
+c) “hello”
+d) error
+d
+2. _______________ is the preprocessor directive which is used to end the scope of #ifdef.
+a) #elif
+b) #ifndef
+c) #endif
+d) #if
+c
+3. What will be the output of the following C code?
+#include<stdio.h>
+void main()
+{
+    #ifndef max
+    printf("hello");
+    #endif
+    printf("hi");
+}
+a) hello
+b) hellohi
+c) error
+d) hi
+b
+4. What will be the output of the following C code?
+#include<stdio.h>
+#define san 557
+main()
+{
+    #ifndef san
+    printf("yes");
+    #endif
+    printf("no");
+}
+a) error
+b) yes
+c) no
+d) yesno
+c
+5.  The preprocessor directive which checks whether a constant expression results in a zero or non-zero value __________
+a) #if
+b) #ifdef
+c) #undef
+d) #ifndef
+a
+6. What will be the output of the following C code?
+#include<stdio.h>
+#define max 100
+void main()
+{
+    #if(max%10)
+    printf("san");
+    #endif
+    printf("foundry");
+}
+a) error
+b) san
+c) foundry
+d) sanfoundry
+d
+7. The preprocessor directive which is used to remove the definition of an identifier which was previously defined with #define?
+a) #ifdef
+b) #undef
+c) #ifndef
+d) #def
+b
+8. What will be the output of the following C code?
+#include<stdio.h>
+#define hello 10
+void main()
+{
+    printf("%d",hello);
+    #undef hello
+    printf("%d",hello);
+}
+a) 10
+b) hello
+c) error
+d) 1010
+c
+9. What will be the output of the following C code?
+#include <stdio.h>
+#define a 2
+main()
+{
+    int r;
+    #define a 5
+    r=a*2;
+    printf("%d",r);
+}
+a) 10
+b) 4
+c) 2
+d) 5
+a
+10. What will be the output of the following C code if the value of ‘p’ is 10 and that of ‘q’ is 15?
+#include<stdio.h>
+int main()
+{
+    int p,q;
+    printf("Enter two numbers\n");
+    scanf("%d",&p);
+    scanf("%d",&q);
+    #if(4<2)
+    printf("%d",p);
+    #elif(2>-1)
+    printf("%d",q);
+    #else
+    printf("bye");
+    #endif
+}
+a) 10
+b) 15
+c) bye
+d) error
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Stringizers» Next - C Questions and Answers – Conditional Preprocessor Directives – 2 

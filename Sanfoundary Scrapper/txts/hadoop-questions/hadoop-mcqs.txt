@@ -1,0 +1,67 @@
+1. Serialization of string columns uses a ________ to form unique column values.
+a) Footer
+b) STRIPES
+c) Dictionary
+d) Index
+c
+2. Point out the correct statement.
+a) The Avro file dump utility analyzes ORC files
+b) Streams are compressed using a codec, which is specified as a table property for all streams in that table
+c) The ODC file dump utility analyzes ORC files
+d) All of the mentioned
+b
+3. _______ is a lossless data compression library that favors speed over compression ratio.
+a) LOZ
+b) LZO
+c) OLZ
+d) All of the mentioned
+a
+4. Which of the following will prefix the query string with parameters?
+a) SET hive.exec.compress.output=false
+b) SET hive.compress.output=false
+c) SET hive.exec.compress.output=true
+d) All of the mentioned
+a
+5. Point out the wrong statement.
+a) TIMESTAMP is Only available starting with Hive 0.10.0
+b) DECIMAL introduced in Hive 0.11.0 with a precision of 38 digits
+c) Hive 0.13.0 introduced user definable precision and scale
+d) All of the mentioned
+b
+6. Integral literals are assumed to be _________ by default.
+a) SMALL INT
+b) INT
+c) BIG INT
+d) TINY INT
+b
+7. Hive uses _____ style escaping within the strings.
+a) C
+b) Java
+c) Python
+d) Scala
+a
+8. Which of the following statement will create a column with varchar datatype?
+a) CREATE TABLE foo (bar CHAR(10))
+b) CREATE TABLE foo (bar VARCHAR(10))
+c) CREATE TABLE foo (bar CHARVARYING(10))
+d) All of the mentioned
+b
+9. _________ will overwrite any existing data in the table or partition.
+a) INSERT WRITE
+b) INSERT OVERWRITE
+c) INSERT INTO
+d) None of the mentioned
+c
+10. Hive does not support literals for ______ types.
+a) Scalar
+b) Complex
+c) INT
+d) CHAR
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Querying Data with HiveQL – 1» Next - Hadoop Questions and Answers – Introduction to HBase 

@@ -1,0 +1,74 @@
+1. Which statement is used to select columns and rows from the table?
+a) SELECT
+b) ALTER
+c) MODIFY
+d) FROM
+a
+2. In the following SQL command “person” stands for?
+   SELECT person_id, fname, lname, Birth_date
+   FROM person;
+a) Table name
+b) Attribute
+c) Multivalued attribute
+d) None of the mentioned
+a
+3. In the following SQL command “*” stands for?
+   SELECT * FROM person;
+a) Retrieve all data from the table
+b) Retrieve data of primary key only
+c) Retrieve NULL data
+d) None of the mentioned
+a
+4. Which Clause is used to select a particular row from the set of row in an existing table?
+a) WHERE
+b) FROM
+c) ALTER
+d) None of the mentioned
+a
+5. In the following SQL command “person_id” can be ____________
+   SELECT person_id, fname,l name, Birth_data FROM person
+   WHERE person_id=1;
+a) Only Primary Key
+b) Primary Key or any other Attribute
+c) Only Attribute but not a primary Key
+d) None of the mentioned
+b
+6. Which Clause is used to sort the stored data in alphabetical order?
+a) ORDER by CLAUSE
+b) MODIFY
+c) ALTER
+d) UPDATE
+a
+7. Which Clause is used to select a particular table in Mysql?
+a) WHERE
+b) SELECT
+c) FROM
+d) ALTER
+c
+8. Which command is used to show all tables that are stored in a database?
+a) SHOWS
+b) SHOW
+c) SHOWES
+d) None of the mentioned
+d
+9. Which among the following is the correct syntax for showing all tables in the database?
+a) SHOWS TABLES
+b) SHOW TABLE
+c) SHOW
+d) SHOWS TABLES;
+d
+10. If attribute “fruit” stores data as “apple, mango, banana” in table person then what will be the output of the following SQL command?
+    SELECT fruit FROM person
+    WHERE person_id=1
+    ORDER BY fruit;
+a) apple, mango, banana
+b) apple, banana, mango
+c) mango, apple, banana
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Populating & Modifying Tables – 1» Next - MySQL Questions and Answers – Populating & Modifying Tables – 3 

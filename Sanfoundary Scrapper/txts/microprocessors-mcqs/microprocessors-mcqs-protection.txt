@@ -1,0 +1,74 @@
+1. The mechanism to provide protection, that is accomplished with the help of read/write privileges is
+a) restricted use of segments
+b) restricted accesses to segments
+c) privileged instructions
+d) privileged operations
+a
+2. The Local descriptor table (LDT) and Global descriptor table (GDT) are present in
+a) privileged instruction check
+b) operation reference check
+c) segment load check
+d) none of the mentioned
+c
+3. The mechanism that is accomplished using descriptor usages limitations and rules of privilege check is
+a) privileged instruction check
+b) operation reference check
+c) segment load check
+d) none of the mentioned
+b
+4. The mechanism that is executed at certain privilege levels, determined by CPL (Current Privilege Level) and I/O privilege level (IOPL) is
+a) restricted use of segments
+b) restricted accesses to segments
+c) privileged instructions or operations
+d) none of the mentioned
+c
+5. If CPL is not of the required privilege level, then the instructions that get affected is
+a) IRET
+b) POPF
+c) IRET and POPF
+d) None of the mentioned
+c
+Join [email protected]
+6. If CPL is greater than zero, then the instruction that remains unaffected is
+a) IRET
+b) POPF
+c) IF
+d) IRET and POPF
+c
+7. The condition, “CPL not equals to zero” satisfies when executing the instruction
+a) LIDT
+b) LGDT
+c) LTR
+d) All of the mentioned
+d
+8. While executing the instruction IN/OUT, the condition of CPL is
+a) CPL = 0
+b) CPL < IOPL
+c) CPL > IOPL
+d) All of the mentioned
+c
+9. The instruction at which the exception is generated, but the processor extension registers contain the address of failing instruction is
+a) LTR
+b) INS
+c) CTS
+d) ESC
+d
+10. The exception that has no error code on a stack is
+a) double exception detected
+b) processor extension segment overrun
+c) invalid task state segment
+d) stack segment overrun
+b
+11. Which of the following is protected mode exception?
+a) double exception detected
+b) invalid task state segment
+c) stack segment overrun
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Privilege» Next - Microprocessors Questions and Answers – Special Operations 

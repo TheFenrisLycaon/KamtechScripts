@@ -1,0 +1,91 @@
+1. A process is an instance of  _______ program.
+a) waiting
+b) executing
+c) terminated
+d) halted
+b
+2. A process is said to be ____ when it starts its execution.
+a) born
+b) die
+c) waiting
+d) terminated
+a
+3. When the process has completed its execution it is called ______
+a) born
+b) terminated
+c) waiting
+d) exit
+d
+4. Programs and process are synonymous.
+a) True
+b) False
+b
+5. Which data structure is used to store information about a process?
+a) process control block (pcb)
+b) array
+c) queue
+d) program control block
+a
+Join Sanfoundry@YouTube
+6. Some attributes of every process are maintained by the kernel in memory in a separate structure called the ______
+a) pcb
+b) task control block
+c) process table
+d) task table
+c
+7. Process table and process control block store same attributes of a process.
+a) True
+b) False
+b
+8. Each process is identified by a unique integer called ______
+a) PID
+b) PPID
+c) TID
+d) PTID
+a
+9. Every process has a parent process.
+a) True
+b) False
+a
+10. The parent id of a child is called ______
+a) PID
+b) PPID
+c) TID
+d) PTID
+b
+11. Which process is immediately set up by the kernel when we log on to a UNIX system?
+a) shell
+b) parent
+c) shell
+d) bash
+a
+12. To know the PID of your current shell, which command will be used?
+a) echo $$
+b) echo $
+c) $SHELL
+d) $PATH
+a
+$ echo $$        
+258        // PID of the current shell
+13. The PID of our login shell doesn’t change.
+a) True
+b) False
+b
+14. What is the PID of the first process that is set up when the system is booted?
+a) 1
+b) 0
+c) any
+d) 2
+b
+15. Which of the following command doesn’t create a process?
+a) pwd
+b) fork
+c) cd
+d) pwd and cd
+d
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Command Substitution and Shell Variables» Next - Unix  Questions and Answers – Process Status:ps Command and Phases of a Process 

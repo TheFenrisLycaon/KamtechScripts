@@ -1,0 +1,66 @@
+1. What is the output of the following code?
+buttord[2,1,3,4]
+a) Error
+b) Returns order of the filer
+c) 1
+d) 0
+a
+2. What is the output of the following code?
+Buttord(1,2,3,4)
+a) 1
+b) Syntactical Error
+c) Frequency Error
+d) Error
+c
+3. The order of the type 1 Chebyshev filter is obtained from the ________
+a) cheb1ord()
+b) chebord()
+c) chebyord()
+d) chebshev()
+a
+4. The cut-off frequency of the type-2 Chebyshev filter is produced by the ________
+a) cheby2ord()
+b) chebyord2()
+c) chebyshevord2()
+d) cheby2order()
+a
+5. The ellipord command is used for _________
+a) FIR Filter design
+b) IIR Filter design
+c) Both IIR and FIR filter design
+d) No such command
+b
+6. The freqz() command returns __________
+a) No such command
+b) A set of frequencies
+c) Frequency Response
+d) Phase plot
+c
+7.  The fftfilt command filters data based on ____________
+a) Convolution
+b) Overlap save method
+c) No such command
+d) Overlap add method
+d
+8. The bilinear transformation is done by the ________
+a) bilin()
+b) bilinear()
+c) no such command
+d) bilineartran()
+b
+9. The bilinear command returns column vectors.
+a) True
+b) False
+b
+10.  In chebwin(L,r), what is the default value of r?
+a) 150 dB
+b) 90 dB
+c) 100 dB
+d) 110 dB
+c
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice MCQs on all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Fourier Analysis and Filtering – 1» Next - MATLAB Questions and Answers – Random Number Generation 

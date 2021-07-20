@@ -1,0 +1,114 @@
+1. What is done in switching regulators to minimize its power dissipation during switching?
+a) Uses external transistor
+b) Uses 1mH choke
+c) Uses external transistor and 1mH choke
+d) None of the mentioned
+c
+2. Fixed voltage regulators and adjustable regulators are often called as
+a) Series dissipative regulators
+b) Shunt dissipative regulators
+c) Stray dissipative regulators
+d) All the mentioned
+a
+3. Linear series regulators are suited for application with
+a) High current
+b) Medium current
+c) Low current
+d) None of the mentioned
+b
+4. A series switching regulators
+a) Improves the efficiency of regulators
+b) Improves the flexibility of switching
+c) Enhance the response of regulators
+d) All of the mentioned
+a
+5. The switching regulators can operate in
+a) Step up
+b) Step down
+c) Polarity inverting
+d) All the mentioned
+d
+6. Find the diagrammatic representation of basic switching regulator?
+a
+1) Voltage source
+2) Switch
+3) Pulse generator
+4) Filters as mentioned in the diagram. 
+7. What are the conditions to be satisfied by a voltage source for using it in switching regulator.
+1. It must supply the required output power and the losses associated with the switching regulator
+2. It must be large enough to supply sufficient dynamic range line and load variations
+3. It must be sufficient high to meet the minimum requirement of the regulator system to be designed
+4. It may be required to store energy for a specified amount of time during power failure especially if the system is designed for a computer power supply.
+a) 1 and 3
+b) 1,2,3 and 4
+c) 2,3 and 4
+d) 1,3 and 4
+b
+8. Which among the following act as a switch in switching regulator?
+a) Rectifiers
+b) Diode
+c) Transistors
+d) Relays
+c
+9. What should be the frequency range of pulse generator?
+a) 250 kHz
+b) 40 kHz
+c) 120 kHz
+d) 20 kHz
+d
+10. Filter used in switching regulator’s are also as called
+a) DC – AC transformers
+b) AC – DC transformers
+c) DC transformer
+d) AC transformer
+c
+11. Which of the following is considered to be the most important components of the switching regulator?
+a) RC or RLC filter
+b) RL or RLC filter
+c) ORC or RL filter
+d) RC, RLC or RL filter
+b
+12. Which is the most commonly used low voltage switching regulators?
+a) Powdered Permalloy toroids
+b) Fermite EI, U and toroid cores
+c) Silicon steel EI butt stacks
+d) None of the mentioned
+c
+13. Find the value of Rsc, L and Co for a µA7840 switching regulator to provide +5 v at 3A, using the following specifications: toff= 24µs, ripple voltage = 400mA and ton=26µs.
+a) Rsc = 55 mΩ , L = 25µH  & Co = 750µF
+b) Rsc = 550 mΩ , L = 25µH  & Co = 75µF
+c) Rsc = 650 mΩ , L = 25µH  & Co = 65µF
+d) Rsc = 720 mΩ , L = 25µH  & Co = 250µF
+a
+∴ Rsc = 0.33ohm/Ipk = 0.33ohm/6   = 0.055ohm.
+=> L= [(Vo +Vp) / I pk]×toff =[(5+1.25) /6 ]× 24×10-6 =25µH.
+=> Co = [Ipk (Ton +Toff)]/[8×Vripple]
+ ∵T = [ton + toff] = 26µs + 24µs = 50µs
+=> Co = [ (6×50µs)]/(8×50mA) = 7.5×10-4 = 750µF. 
+14. Calculate the efficiency of the step down switching regulator given the input voltage Vin= 13.5v and output voltage =6v. Assume the saturating Voltage Vs=1.1v and the forward voltage drop Vd = 1.257v
+a) η = 75%
+b) η = 48.5%
+c) η = 63.9%
+d) η = 80.5%
+d
+=> Efficiency of switching regulator, η = (1.012×0.7955)×100 = 0.8051×100 = 80.5%.
+15. Match the characteristics for various switching regulators.
+Switching regulator 
+ Characteristics
+ 1.	Inverting	
+	    (i) 	[ton / toff ] =  [ Vo + Vd] / [Vin -Vs -Vd]; Rsc = ( 0.33/ Ipk)
+2.	step down      
+       (ii) 	[ton / toff ] =  [ Vo + Vd -Vin] / [Vin-Vs] ; Rsc = ( 0.33/ Ipk)
+3.	step up		
+	    (iii) 	[ton / toff ] =  [ Modulus Vo +Vd] / (Vin-Vs); Rsc = ( 0.33/ Ipk
+a) 1- iii , 2- i , 3- ii
+b) 1- i , 2- ii , 3- iii
+c) 1- iii , 2- ii , 3- i
+d) 1- iii , 2- ii , 3- i
+b
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – IC Voltage Regulator» Next - Linear Integrated Circuit Questions and Answers – Monolithic Phase-Locked Loop 

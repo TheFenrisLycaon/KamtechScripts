@@ -1,0 +1,119 @@
+1. The process statement used in combinational circuits is called ______ process.
+a) Combinational
+b) Clocked
+c) Unclocked
+d) Sequential
+a
+2. Why we need to include all the input signals in the sensitivity list of the process?
+a) To monitor the output continuously
+b) To monitor the input continuously
+c) To make the circuit synthesizable by EDA tools
+d) No special purpose
+b
+3. If only two bit vectors are allowed to use in the VHDL code, then how many number of MUX will be required to implement 4 to 1 MUX?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+4. A package is designed called mux4to1_package, in which a component called mux4to1 is defined, which is a 4 to 1 multiplexer. Now a user wants to design a 16 to 1 MUX by using the same component only, how many times he needs to use the PORT MAP statement?
+a) 2
+b) 3
+c) 4
+d) 5
+d
+5. In designing a 2 to 1 demultiplexer with input d, output y and select line s, which of the following is a correct process statement?
+a) PROCESS(d)
+b) PROCESS(d(0), d(1), s)
+c) PROCESS(d(0), d(1))
+d) PROCESS(d, s, y)
+a
+6. The given code represents a convertor. Which kind of convertor it is?
+ENTITY convert IS
+PORT(b: IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+           x : OUT STD_LOGIC_VECTOR(7 DOWNTO 0));
+END convert;
+ARCHITECTURE convertor OF covert IS
+BEGIN
+PROCESS(b)
+BEGIN
+CASE b IS
+WHEN “0000” => x <= “1111110”;
+WHEN “0001” => x <= “0110000”;
+WHEN “0010” => x <= “1101101”;
+WHEN “0011” => x <= “1111001”;
+WHEN “0100” => x <= “0110011”;
+WHEN “0101” => x <= “1011011”;
+WHEN “0110” => x <= “1011111”;
+WHEN “0111” => x <= “1110000”;
+WHEN “1000” => x <= “1111111”;
+WHEN “1001” => x <= “1110011”;
+WHEN OTHERS => x <= “0000000”;
+END CASE;
+END PROCESS;
+END convertor;
+a) Gray to BCD
+b) 7 segment to BCD
+c) BCD to gray
+d) BCD to 7 segment display
+d
+7. What is the function of the below code?
+ENTITY my_logic IS
+PORT (din : STD_LOGIC_VECTOR(7 DOWNTO 0);
+             Count : STD_LOGIC_VECTOR(3 DOWNTO 0));
+END my_logic;
+ARCHITECTURE behavior OF my_logic IS
+BEGIN
+Count <= “0000”
+PROCESS(din)
+BEGIN
+L1: FOR i IN 0 TO 7 LOOP
+IF(din(i) = ‘1’) THEN
+Count = count+1;
+ELSE
+NEXT L1;
+END LOOP;
+END PROCESS;
+END behavior;
+a) To count number of ones in the given data
+b) To count number of zeroes in the given data
+c) To reverse the order of given data
+d) To perform binary multiplication of two data inputs
+a
+8. What will be the value of count output, if the data din is 11001111?
+ENTITY my_logic IS
+PORT (din : STD_LOGIC_VECTOR(7 DOWNTO 0);
+             Count : STD_LOGIC_VECTOR(3 DOWNTO 0));
+END my_logic;
+ARCHITECTURE behavior OF my_logic IS
+BEGIN
+Count <= “0000”
+PROCESS(din)
+BEGIN
+L1: FOR i IN 0 TO 7 LOOP
+IF(din(i) = ‘1’) THEN
+Count = count+1;
+ELSE
+NEXT L1;
+END LOOP;
+END PROCESS;
+END behavior;
+a) 6
+b) 0110
+c) 2
+d) 0010
+b
+9. In the combinational process, the use of output signal in the sensitivity list is illegal.
+a) True
+b) False
+b
+10. A parity generator is a combinational circuit and is designed by using a combinational process.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice Tough questions and answers on all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Implementing Combinational Circuits with VHDL – 1» Next - VHDL Questions and Answers – Designing Shift Registers with VHDL 

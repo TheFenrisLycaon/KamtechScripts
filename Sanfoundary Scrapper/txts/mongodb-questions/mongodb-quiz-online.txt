@@ -1,0 +1,67 @@
+1. _______ enables the balancer and waits for balancing to start.
+a) sh.waitForBalancer()
+b) sh.startBalancer()
+c) sh.waitForDLock()
+d) all of the mentioned
+b
+2. Point out the correct statement.
+a) sh.deadForDLock() waits for a specified distributed sharded cluster lock
+b) sh.waitForBalancerOff() waits until the balancer stops running
+c) sh.statusserver() reports on the status of a sharded cluster, as db.printShardingStatus()
+d) all of the mentioned
+a
+3. _________ waits for a change in ping state from one of the mongos in the sharded cluster.
+a) sh.waitForBalancer()
+b) sh.startBalancer()
+c) sh.waitForPingChange()
+d) all of the mentioned
+c
+4. _______ forces an update to the cluster metadata cached by a mongos.
+a) config
+b) flushconf
+c) flushRouterConfig
+d) all of the mentioned
+c
+5. Point out the wrong statement.
+a) moveChunks provides the ability to combine chunks on a single shard
+b) setShardVersion is used to set the config server version
+c) shardCollection enables the sharding functionality for a collection, allowing the collection to be sharded
+d) none of the mentioned
+d
+6. Which of the following command that validates index on shard key?
+a) checkShardingIndex
+b) checkSIndex
+c) enableSharding
+d) all of the mentioned
+a
+7. Which of the following command is used to determine split points?
+a) splitVector
+b) medianKey
+c) movePrimary
+d) none of the mentioned
+a
+8. You can only issue listShards against the ________ database.
+a) local
+b) admin
+c) temp
+d) none of the mentioned
+b
+9. _________ is an internal command that supports the sharding functionality.
+a) getBalancerHost()
+b) getShardMap
+c) enableSharding()
+d) all of the mentioned
+b
+10. ________ command verifies that a process is a mongos.
+a) medianKey
+b) isdbgrid
+c) movePrimary
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB for online quizzes, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Sharded Cluster Data Management – 1 

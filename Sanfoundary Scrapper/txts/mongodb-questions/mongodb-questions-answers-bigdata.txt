@@ -1,0 +1,67 @@
+1. MongoDB provides high ____________  with replica sets.
+a) performance
+b) availability
+c) scalability
+d) none of the mentioned
+b
+2. Point out the correct statement.
+a) MongoDB cannot be used as a file system
+b) MongoDB can run over single servers only
+c) Embedded documents and arrays reduce need for joins
+d) None of the mentioned
+c
+3. ___________ replicas maintain a copy of the data on the primary using built-in replication.
+a) Primary
+b) Secondary
+c) Backup
+d) All of the mentioned
+b
+4. MongoDB scales horizontally using _________ for load balancing purpose.
+a) Replication
+b) Partitioning
+c) Sharding
+d) None of the mentioned
+c
+5. Point out the wrong statement.
+a) Each replica set member will act in the role of primary replica only
+b) The primary replica performs all writes and reads by default
+c) Secondaries can also perform read operations, but the data is eventually consistent by default
+d) None of the mentioned
+a
+6. MongoDB can be used as a ____________ taking advantage of load balancing and data replication features over multiple machines for storing files.
+a) AMS
+b) CMS
+c) File system
+d) None of the mentioned
+a
+7. _____________ can be used for batch processing of data and aggregation operations.
+a) Hive
+b) MapReduce
+c) Oozie
+d) None of the mentioned
+b
+8. MongoDB supports fixed-size collections called ____________ collections.
+a) primary
+b) secondary
+c) capped
+d) all of the mentioned
+c
+9. MongoDB uses a ____________ lock that allows concurrent read access to a database but exclusive write access to a single write operation.
+a) readers
+b) readers-writer
+c) writer
+d) none of the mentioned
+b
+10. Which of the following sorting is not supported by MongoDB?
+a) collation
+b) collection
+c) heap
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Introduction to MongoDB» Next - MongoDB Questions and Answers – NoSQL Databases 

@@ -1,0 +1,72 @@
+1. A simple variable, also called as a ________ variable, is one that is unrelated to any other variable in memory.
+a) Changing
+b) Dynamic
+c) Static
+d) Scalar
+d
+2. When you group together related variables, the group is referred to as _________
+a) Array
+b) List
+c) Relation
+d) Variable group
+a
+3. Using array in a program is efficient because ________
+a) It shortens the program.
+b) The program compiles faster
+c) Number of variables are reduced.
+d) Data is accessed faster
+d
+4. Data in an array can be distinguished using _______ number.
+a) Reference
+b) Subscript
+c) Array
+d) ID
+b
+5. If array is of String type all values are _________ by default.
+a) null
+b) Null
+c) 0
+d) Nothing
+d
+6. The act of initializing array is also called as _______
+a) Populating an array
+b) Assigning array
+c) Initializing
+d) Factoring and array
+a
+7. What is the value of len in the following Visual Basic code?
+Dim strCities() As String = {"Bombay", "Chennai", "Ladakh", "Tamil Nadu"}
+Dim len As Integer
+len = strCities.Length()
+a) 4
+b) 0
+c) 3
+d) 5
+a
+8. The _________ methodreturns an integer that representsthe highest subscript in the specified dimension in the array.
+a) Subscript
+b) GetUpperBound
+c) GetSubscript
+d) SubscriptOfArray
+a
+9. What is wrong with the following statement?
+Dim strCities As String = {"Bombay", "Chennai", "Ladakh", "Tamil Nadu"}
+a) static keyword missing
+b) array elements should be initialized using single quotes
+c) array elements should be in square brackets
+d) array name should be strCities()
+d
+10. What is the result of the following statements?
+Dim strCities() As String = {"Bombay", "Chennai", "Ladakh", "Tamil Nadu"}
+strCities(2)=”Kolkata”
+a) Compilation Error
+b) Runtime Error
+c) strCity array is {“Bombay”,  “Ladakh”, “Kolkata”,”Tamil Nadu”}
+d) strCity array is {“Bombay”, “Chennai”,”Kolkata”, “Tamil Nadu”}
+d
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – String Manipulation – Adding a Menu to a Form» Next - Visual Basic Questions and Answers – Arrays – For Each..Next Statement 

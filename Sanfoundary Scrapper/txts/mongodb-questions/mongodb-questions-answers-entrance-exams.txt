@@ -1,0 +1,61 @@
+1. $sum is an accumulator operator available only in the _______ stage.
+a) $group
+b) $sets
+c) $accumulator
+d) None of the mentioned
+a
+2. Point out the wrong statement.
+a) $avg is an accumulator operator available only in the $group stage
+b) $sum accumulator can be used to compute the total amount and count for each group of documents
+c) $avg ignores numeric values
+d) All of the mentioned
+c
+3. Which of the following ignores non numeric values?
+a) $order
+b) $sum
+c) $asc
+d) None of the mentioned
+b
+4. When using $first in a $group stage, the $group stage should follow a _______ stage to have the input documents in a defined order.
+a) $order
+b) $sort
+c) $asc
+d) None of the mentioned
+b
+5. Which of the following returns the value that results from applying an expression to the last document?
+a) $end
+b) $last
+c) $max
+d) All of the mentioned
+b
+6. __________ returns the highest value from the group of values in documents.
+a) $end
+b) $last
+c) $max
+d) $maximum
+c
+7. Which of the following is syntax for calculating minimum value?
+a) { $minimum: <int> }
+b) { $min: <expression>}
+c) { $minimum: <expression> }
+d) None of the mentioned
+b
+8. If all documents for the $min operation have null value for the field or are missing the field, the $min operator returns ____ for the minimum value.
+a) 1
+b) 0
+c) null
+d) none of the mentioned
+c
+9. $addToSet returns an array of all _______ values that results from applying an expression to each document.
+a) unique
+b) non unique
+c) distinct
+d) all of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB for entrance exams, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Pipeline Operators – 1» Next - MongoDB Questions and Answers – SQL to Aggregation Mapping Chart 

@@ -1,0 +1,46 @@
+1. The mean of exponential distribution is given as __________
+a) 1/λ
+b) λ
+c) λ2
+d) 1/λ2
+a
+E(X)=1/λ.
+2. A mobile conversation follows a exponential distribution f (x) = (1/3)e-x/3. What is the probability that the conversation takes more than 5 minutes?
+a) e-5/3
+b) e-15
+c) 5e-15
+d) e-5/3
+a
+\(\frac{1}{3} ∫ (e^{-x/3}dx) = \frac{1}{3}(\frac{- e^{-5/3}}{-1/3}) \) 
+= e-5/3. 
+3. Exponential distribution is bi-variate.
+a) True
+b) False
+b
+It is only defined for non-negative variables.
+4. A random variable X has an exponential distribution with probability distribution function is given by
+f(x)= 3e-3x for x>0 = 0 otherwise
+Find probability that X is not less than 2.
+a) e-3
+b) e-6 – 3
+c) e-6
+d) e-6 – 1
+c
+P(X > 2) = 1 – P(X < 2) = Integrating the function from 0 to 2 we get
+P(X = 1) = 1 – [3(e0 – e-6)/(-3)] 
+= e-6.
+5. Consider a random variable with exponential distribution with λ=1. Compute the probability for P (X>3).
+a) e-3
+b) e-1
+c) e-2
+d) e-4
+a
+P(X > 3) = 1 – P(X < 3)
+= 1 – (1 – e-3)
+= e-3.
+Sanfoundry Global Education & Learning Series – Probability and Statistics.
+To practice all areas of Probability and Statistics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Probability and Statistics Questions and Answers – Normal Distribution» Next - Probability and Statistics Questions and Answers – Gamma Distribution 

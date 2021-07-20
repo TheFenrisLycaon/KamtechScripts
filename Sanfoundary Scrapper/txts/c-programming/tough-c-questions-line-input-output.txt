@@ -1,0 +1,58 @@
+This section on tough C questions focuses on “Line Input & Output”. One shall practice these questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C programming questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of tough C questions on “Line Input & Output” along with answers, explanations and/or solutions:
+1. What is the size of array “line” used in fgets(line, maxline, *fp) function?
+a) maxline – 1
+b) maxline
+c) maxline + 1
+d) Size is dynamic
+b
+2. What will be the output of the following C function when EOF returns?
+   int fputs(char *line, FILE *fp)
+a) ‘�’ character of array line is encountered
+b) ‘n’ character in array line is encountered
+c) ‘t’ character in array line is encountered
+d) When an error occurs
+d
+3. Identify X library function for line input and output in the following C code?
+    #include <stdio.h>    int X(char *s, FILE *iop)    {        int c;        while (c = *s++)        putc(c, iop);        return ferror(iop) ? EOF : 0;    }
+a) getc
+b) putc
+c) fgets
+d) fputs
+d
+4. Which function has a return type as char pointer?
+a) getline
+b) fputs
+c) fgets
+d) all of the mentioned
+c
+5. Which of the following is the right declaration for fgets() inside the library?
+a) int *fgets(char *line, int maxline, FILE *fp);
+b) char *fgets(char *line, int maxline, FILE *fp);
+c) char *fgets(char *line, FILE *fp);
+d) int *fgets(char *line, FILE *fp);
+b
+6. what is the return value of fputs()?
+a) EOF if an error occurs
+b) Non-negative if no error
+c) EOF if an error occurs & Non-negative if no error
+d) None of the mentioned
+c
+7. gets() and puts() operate on ___________
+a) stdin and stdout
+b) files
+c) stderr
+d) nothing
+a
+8. gets() does the following when it reads from stdin.
+a) Deletes the ‘t’
+b) Puts adds it.
+c) Deletes the terminating ‘n’
+d) Nothing
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Line Input & Output – 1» Next - C Programming Questions and Answers – String Operations – 1 

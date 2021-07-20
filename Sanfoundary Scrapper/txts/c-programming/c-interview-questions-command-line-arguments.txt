@@ -1,0 +1,63 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in Huawei and other companies. Anyone looking for Huawei placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of C interview questions on “Command Line Arguments” along with answers, explanations and/or solutions:
+1. A program that has no command line arguments will have argc _________
+a) Zero
+b) Negative
+c) One
+d) Two
+c
+2. What is the index of the last argument in command line arguments?
+a) argc – 2
+b) argc + 1
+c) argc
+d) argc – 1
+d
+3. What will be the output of the following C code (if run with no options or arguments)?
+    #include <stdio.h>    int main(int argc, char *argv[])    {        printf("%d\n", argc);        return 0;    }
+a) 0
+b) 1
+c) Depends on the platform
+d) Depends on the compiler
+b
+Join [email protected]
+4. What will be the output of the following C code (run without any command line arguments)?
+    #include <stdio.h>    int main(int argc, char *argv[])    {        while (argc--)        printf("%s\n", argv[argc]);        return 0;    }
+a) Compile time error
+b) Executablefilename
+c) Segmentation fault
+d) Undefined
+b
+5. What will be the output of the following C code (run without any command line arguments)?
+    #include <stdio.h>    int main(int argc, char *argv[])    {        printf("%s\n", argv[argc]);        return 0;    }
+a) Segmentation fault/code crash
+b) Executable file name
+c) Depends on the platform
+d) Depends on the compiler
+a
+6. What will be the output of the following C code (run without any command line arguments)?
+    #include <stdio.h>    int main(int argc, char *argv[])    {        while (*argv++ != NULL)        printf("%s\n", *argv);        return 0;    }
+a) Segmentation fault/code crash
+b) Executable file name
+c) Depends on the platform
+d) Depends on the compiler
+a
+7. What will be the output of the following C code (run without any command line arguments)?
+    #include <stdio.h>    int main(int argc, char *argv[])    {        while (*argv  !=  NULL)        printf("%s\n", *(argv++));        return 0;    }
+a) Segmentation fault/code crash
+b) Executable file name
+c) Depends on the platform
+d) Depends on the compiler
+b
+8. What will be the output of the following C code (run without any command line arguments)?
+    #include <stdio.h>    int main(int argc, char *argv[])    {        while (argv != NULL)        printf("%s\n",  *(argv++));        return 0;    }
+a) Segmentation fault/code crash
+b) Executable file name
+c) Depends on the platform
+d) Depends on the compiler
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Command Line Arguments – 1» Next - C Programming Questions and Answers – Pointers to Functions – 1 

@@ -1,0 +1,96 @@
+This section on C++ interview questions and answers focuses on “Subscripting”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Subscripting” along with answers, explanations and/or solutions:
+1. subscript operator is used to access which elements?
+a) string
+b) char
+c) array
+d) float
+c
+2. How many arguments will the subscript operator will take for overloading?
+a) 1
+b) 2
+c) 0
+d) as many as possible
+a
+3. Pick out the correct statement.
+a) subscript operator has a higher precedence than the assignment operator
+b) subscript operator has a lower precedence than the assignment operator
+c) subscript operator is used with string elements
+d) subscript operator is used with char elements
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    const int SIZE = 10;    class safe    {        private:        int arr[SIZE];        public:        safe()        {            register int i;            for (i = 0; i < SIZE; i++)            {                arr[i] = i;            }        }        int &operator[](int i)        {            if (i > SIZE)            {                cout << "Index out of bounds" <<endl;                return arr[0];            }            return arr[i];        }    };    int main()    {        safe A;        cout << A[5];        cout  << A[12];        return 0;    }
+a) 
+5Index out of bounds
+ 0
+b) 40
+c) 50
+d) 51
+a
+Output:
+$ g++ sub.cpp
+$ a.out
+5Index out of bounds
+0
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class numbers    {        private:        int m_nValues[10];        public:        int& operator[] (const int nValue);    };    int& numbers::operator[](const int nValue)    {        return m_nValues[nValue];    }    int main()    {        numbers N;        N[5] = 4;        cout <<  N[5];        return 0;    }
+a) 5
+b) 4
+c) 3
+d) 6
+b
+Output:
+$ g++ sub1.cpp
+$ a.out
+4
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    const int limit = 4;    class safearray    {        private:        int arr[limit];        public:        int& operator [](int n)        {            if (n == limit - 1)            {                int temp;                for (int i = 0; i < limit; i++)                {                    if (arr[n + 1] > arr[n])                    {                        temp = arr[n];                        arr[n] = arr[n + 1];                        arr[n + 1] = temp;                    }                     }              }            return arr[n];        }    };    int main()    {        safearray sa1;        for(int j = 0; j < limit; j++)            sa1[j] = j*10;        for(int j = 0; j < limit; j++)        {            int temp = sa1[j];            cout << "Element " << j << " is " << temp;        }        return 0;    }
+a) 0102030
+b) 1020300
+c) 3020100
+d) error
+a
+Output:
+$ g++ sub2.cpp
+$ a.out
+0102030
+7. What will be the output of the following C++ code?
+    #include <iostream>     using namespace std;    class A    {        public:        int x;        A(int n = 0) : x(n) {};        int& operator[](int n)        {             cout << "0" ;             return x;        }        int operator[](int n) const        {             cout << "1" ;             return x;        }     };    void foo(const A& a)    {        int z = a[2];    }    int main()    {        A a(7);        a[3]  = 8;        int z = a[2];        foo(a);        return 0;    }
+a) 110
+b) 111
+c) 011
+d) 001
+d
+Output:
+$ g++ sub3.cpp
+$ a.out
+001
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class sample    {        private:        int* i;        int j;        public:        sample (int j);        ~sample ();        int& operator [] (int n);    };    int& sample::operator [] (int n)    {        return i[n];    }    sample::sample (int j)    {        i = new int [j];        j = j;    }    sample::~sample ()    {        delete [] i;    }    int main ()    {        sample m (5);        m [0] = 25;        m [1] = 20;        m [2] = 15;        m [3] = 10;        m [4] = 5;        for (int n = 0; n < 5; ++ n)        cout << m [n];        return 0;    }
+a) 252015105
+b) 510152025
+c) 51015
+d) 51015210
+a
+Output:
+$ g++ sub4.cpp
+$ a.out
+252015105
+9. What do we need to do to pointer for overloading the subscript operator?
+a) reference pointer
+b) dereference pointer
+c) store it in heap
+d) memory locator
+b
+10. What do we need to use when we have multiple subscripts?
+a) operator()
+b) operator[] 
+c) operator
+d) operator<>
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Essential Operators» Next - C++ Programming Questions and Answers – Function Call 

@@ -1,0 +1,82 @@
+1. What is the frequency of oscillation of wein bridge oscillator?
+a) fo = 1/(2πRC)
+b) fo = 2π/RC
+c) fo = RC/2π
+d) fo = 2πRC
+a
+2. Sustained oscillation in wein bridge oscillator is possible when the value of ß is
+a) 3
+b) 1/3
+c) 1
+d) None of the mentioned
+b
+3. Determine the value of  fo, ß and Rf from the following circuit diagram.
+a) fo = 80Hz, ß = 0.162 and Rf = 7kΩ
+b) fo = 100Hz, ß = 1.62 and Rf = 7kΩ
+c) fo = 60Hz, ß = 0.0162 and Rf = 7kΩ
+d) fo = 120Hz, ß = 16.2 and Rf = 7kΩ
+c
+fo = 1/(2π×√(R1R2C1C2))
+= 1/(2π×√(2.7kΩ×5kΩ×0.1µF×6µF) = 1/(2π×2.85×10-3)
+=> fo = 55.8 = 60Hz.
+The value of ß = (R2C1) / (R1C1 + R2C2 + R2C1)
+= (5kΩ×0.1µF)/(2.7kΩ×0.1µF+5kΩ×6µF+5kΩ×0.1µF)= 0.0162.
+Rf =2 R3
+=> Rf = 2×3.5kΩ=7kΩ. 
+4. What is the problem faced by the wein bridge oscillator?
+a) Output sinewave get clipped
+b) Output sinewave remain constant without growing
+c) Output sinewave keep on decreasing and die out
+d) All of the mentioned
+a
+5. Find the type of oscillator shown in the diagram
+a) Quadrature oscillator
+b) Biphasic oscillator
+c) RC phase shit oscillator
+d) None of the mentioned
+d
+6. Calculate the value of capacitance in wein bridge oscillator, such that fo =1755Hz and R=3.3kΩ.
+a) 2.7µF
+b) 0.91µF
+c) 0.03µF
+d) 0.05µF
+c
+=> C = 0.159/R×fo = 0.159/3.3kΩ×1755Hz
+=> C = 0.027µF = 0.03µF. 
+7. Quadrature oscillators have signals with
+a) Different frequency
+b) Same frequency
+c) Opposite frequency
+d) Parallel frequency
+b
+8. Which of the following component is not used for audio frequency?
+a) RC oscillator
+b) Wein bridge oscillator
+c) LC oscillator
+d) None of the mentioned
+c
+9. Find the signal waveform for Quadrature oscillators?
+a) 
+b) 
+c) 
+d) All of the mentioned
+a
+10. If the resistor and capacitor values are same in Quadrature oscillator. Find its frequency of oscillation for R=50kΩ and C=0.01µF.
+a) 112Hz
+b) 275Hz
+c) 159Hz
+d) 318Hz
+d
+=> fo= 1/(2π×50kΩ×0.01µF)= 318Hz. 
+11. What is the possible method used in Quadrature oscillator to remove distortion from the output waveform?
+a) Replace the resistor at the input of non-inverting type amplifier with a potentiometer
+b) Replace the resistor at the output of non-inverting type amplifier with a potentiometer
+c) Replace the resistor at the input of inverting type amplifier with a potentiometer
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuit for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Basic Principles of Sine Wave Oscillator – 2» Next - Linear Integrated Circuit Questions and Answers – Basic Principles of Sine Wave Oscillator – 4 

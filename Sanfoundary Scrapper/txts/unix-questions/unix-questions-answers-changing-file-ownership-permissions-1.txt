@@ -1,0 +1,78 @@
+1. Which command is used to change the permissions of a file?
+a) chmod
+b) ch
+c) chown
+d) chgrp
+a
+2. chmod command can take multiple filenames as arguments.
+a) True
+b) False
+a
+3.  chmod command can be used in ____ ways.
+a) 3
+b) 2
+c) 5
+d) 0
+b
+4. The expression used with chmod command to change permissions in a relative manner contains ____ components.
+a) 5
+b) 2
+c) 4
+d) 3
+d
+->    User category (user, group, others)
+->    The operation to be performed (assign or remove a permission)
+->    Type of permission (read, write, execute). 
+5. Which of the following characters specify the user and group category?
+a) ‘u’ and ‘g’
+b) ‘g’ and ‘o’
+c) ‘us’ and ‘gr’
+d) ‘u’ and ‘o’
+a
+‘u’ stands for a user,
+‘g’ for ‘group’
+‘o’ for ‘others’. 
+6. Which of the following symbol is used with chmod to assign permission to a file?
+a) –
+b) /
+c) +
+d) *
+c
+‘+’ symbol will assign a permission
+‘-‘ symbol will remove a permission 
+7. To assign execute permission to the user (owner) for a file named file01.txt, which of the following command will be used?
+a)  chmod u+r file01.txt
+b) chmod u+w file01.txt
+c) chmod  u-x file01.txt
+d) chmod u+x file01.txt
+d
+ u    -  for specifying the category of user.
+ +    - for assigning permission.
+ x    - to specify execute permission.
+ 
+8. What does the following command do?
+     $ chmod ugo +w  file01.txt
+a) assign write permission to users, group and others
+b) assign write permission to the user (owner) only
+c) assign write permission to group and others
+d) command not executable
+a
+9. Which character is used to replace ‘ugo’ string in chmod command?
+a) a
+b) v
+c) x
+d) o
+a
+$ chmod a+w  file01		// assign write permission to user, group and others.
+10. To remove write permission from group and others, which one of the following commands will be used?
+a) chmod  go+w file01
+b) chmod  go-w file01
+c) chmod  ug-w file01
+d) chmod a-w file01
+b
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – File Ownership and Permissions» Next - Unix  Questions and Answers – Changing File Ownership and Permissions – 2 

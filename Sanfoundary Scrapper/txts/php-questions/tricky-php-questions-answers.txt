@@ -1,0 +1,95 @@
+1. What will be the output of the following PHP code?
+<?php$cars = array("Volvo", "BMW", "Toyota");echo "I like " . $cars[2] . ", " . $cars[1] . " and " . $cars[0] . ".";?>
+a) I like Volvo, Toyota and BMW
+b) I like Volvo, BMW and Toyota
+c) I like BMW, Volvo and Toyota
+d) I like Toyota, BMW and Volvo
+d
+2. What will be the output of the following PHP code?
+<?php$fname = array("Peter", "Ben", "Joe");$age = array("35", "37", "43");$c = array_combine($age, $fname);print_r($c);?>
+a) Array (Peter Ben Joe)
+b) Array ([Peter] => 35 [Ben] => 37 [Joe] => 43)
+c) Array (35 37 43)
+d) Array ([35] => Peter [37] => Ben [43] => Joe)
+d
+3. What will be the output of the following PHP code?
+Join Sanfoundry@YouTube
+<?php$a=array("A","Cat","Dog","A","Dog");$b=array("A","A","Cat","A","Tiger");$c=array_combine($a,$b);print_r(array_count_values($c));?>
+a) Array ( [A] => 5 [Cat] => 2 [Dog] => 2 [Tiger] => 1 )
+b) Array ( [A] => 2 [Cat] => 2 [Dog] => 1 [Tiger] => 1 )
+c) Array ( [A] => 6 [Cat] => 1 [Dog] => 2 [Tiger] => 1 )
+d) Array ( [A] => 2 [Tiger] => 1 )
+d
+4. What will be the output of the following PHP code?
+<?php$a1 = array("a" => "red", "b" => "green", "c" => "blue", "d" => "yellow");$a2 = array("e" => "red", "f" => "green", "g" => "blue", "h" => "orange");$a3 = array("i" => "orange");$a4 = array_merge($a2, $a3);$result = array_diff($a1, $a4);print_r($result);?>
+a) Array ( [d] => yellow )
+b) Array ( [i] => orange )
+c) Array ( [h] => orange )
+d) Array ( [d] => yellow [h] => orange )
+a
+5. What will be the output of the following PHP code?
+<?php$a1 = array("red", "green");$a2 = array("blue", "yellow");$a3 = array_merge($a1, $a2);$a4 = array("a", "b", "c", "d");$a = array_combine($a4, $a3);print_r($a);?>
+a) Array ( [a] => blue [b] => yellow [c] => red [d] => green )
+b) Array ( [0] => blue [1] => yellow [2] => red [3] => green )
+c) Array ( [0] => red [1] => green [2] => blue [3] => yellow )
+d) Array ( [a] => red [b] => green [c] => blue [d] => yellow )
+d
+6. What will be the output of the following PHP code?
+<?php$a = array("a" => "india", "b" => "brazil", "c" => "china");echo array_shift($a);echo "<br>";array_pop($a);print_r($a);?>
+a) 
+india
+Array ( [b] => Brazil )
+b) 
+india
+Array ( [a] => brazil )
+c) 
+china
+Array ( [a] => india )
+d) 
+china
+Array ( [a] => brazil )
+a
+  
+7. What will be the output of the following PHP code?
+<?php$a1 = array_fill(1, 4, "hello");$b1 = array_fill(5, 1, "php");$a2 = array_merge($a1, $a2);print_r($a2);echo "<br>";print_r($b1);?>
+a) 
+Array ( [1] => hello [4] => hello [5] => php ) 
+Array ( [5] => php )
+b) 
+Array ( [1] => hello [2] => hello [3] => hello [4] => hello ) 
+Array ( [5] => php )
+c) 
+Array ( [1] => hello [2] => hello [3] => hello [4] => hello [5] => php ) 
+Array ( [5] => php )
+d) 
+Array ( [1] => hello [2] => hello [3] => hello [4] => hello ) 
+Array ( [1] => php )
+c
+  
+8. What will be the output of the following PHP code?
+<?php$names = array("Sam", "Bob", "Jack");echo $names[0] . "is the brother of " . $names[1] . " and " . $names[1] . ".";?>
+a) Sam is the brother of Bob and Jack
+b) Samis the brother of Bob and Bob
+c) Sam is the brother of Jack and Bob
+d) Error
+b
+9. What will be the output of the following PHP code?
+<?php$names = array("Sam", "Bob", "Jack");echo $names[0]."is the brother of ".$names[1]." and ".$names[1].".".$brother;?>
+a) Sam is the brother of Bob and Bob) $brother
+b) Sam is the brother of Bob and Bob)
+c) $brother
+d) Error
+d
+10. What will be the output of the following PHP code?
+<?php$place = array("NYC", "LA", "Paris");array_pop($place);$place1 = array("Paris");$place = array_merge($place, $place1);print_r($place);?>
+a) Array ( [0] => LA [1] => Paris [2] => Paris )
+b) Array ( [0] => NYC [1] => LA [2] => Paris)
+c) Array ( [0] => NYC [1] => LA [2] => Paris [3] => Paris )
+d) Array ( [0] => LA [1] => Paris )
+b
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all tricky questions on PHP, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Arrays-1» Next - PHP Coding Questions and Answers – Arrays – 3 

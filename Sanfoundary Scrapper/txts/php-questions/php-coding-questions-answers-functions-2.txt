@@ -1,0 +1,95 @@
+1. What will be the output of the following PHP code?
+<?php    function sum($num1, $num2)    {        $total = $num1 + $num2;        echo "chr($total)";     }    $var1 = "sum";    $var1(5, 44);    ?>
+a) Error
+b) 49
+c) 1
+d) Sum
+c
+2. What will be the output of the following PHP code?
+<?php    function sum($num1, $num2)    {        $total = $num1 + $num2;        echo "cos($total)";     }    sum(5,-5);    ?>
+a) 0
+b) 1
+c) 0.5
+d) -0.5
+b
+3. What will be the output of the following PHP code?
+<?php    function b()    {        echo "b is executed";    }    function a()    {        b();        echo "a is executed";        b();    }    a();  ?>
+a) b is executedb is executedb is executed
+b) b is executeda is executed
+c) a is executed
+d) b is executeda is executedb is executed
+d
+4. What will be the output of the following PHP code?
+<?phpfunction sum($x, $y){    $z = $x + $y;    return $z;}echo "5 + 10 = " . sum(7,13) . "<br>";echo "7 + 13 = " . sum(2,4) . "<br>";echo "2 + 4 = " . sum(5,10);?>
+a) 
+  5 + 10 = 15
+  2 + 4 = 6
+  7 + 13 = 20
+b) 
+  7 + 13 = 20
+  5 + 10 = 15
+  2 + 4 = 6
+c) 
+  5 + 10 = 15
+  7 + 13 = 20
+  2 + 4 = 6
+d) 
+  5 + 10 = 20
+  7 + 13 = 6
+  2 + 4 = 15
+d
+  
+5. What will be the output of the following PHP code?
+<?phpfunction addFive($num){    $num += 5;}function addSix(&$num){    $num += 6;}$orignum = 10;addFive( &$orignum );echo "Original Value is $orignum<br />";addSix( $orignum );echo "Original Value is $orignum<br />";?>
+a) 
+Original Value is 15
+Original Value is 21
+b) 
+Original Value is 15
+Original Value is 21 
+c) 
+Original Value is 15
+Original Value is 15
+d) None Of The mentioned
+b
+6. What will be the output of the following PHP code?
+<?phpfunction addFunction($num1, $num2){    $sum = $num1 + $num2;    return $sum;}$return_value = addFunction(10, 20);echo "Returned value from the function : $return_value"?>
+a) Returned value from the function : $return_value
+b) Error
+c) Returned value from the function : 30
+d) Returned value from the function :
+c
+7. What will be the output of the following PHP code?
+<?phpfunction sayHello(){   echo "HelloWorld<br />";}$function_holder = "sayHello";$function_holder();?>
+a) No Output
+b) Error
+c) sayHello
+d) HelloWorld
+d
+8. What will be the output of the following PHP code?
+<?phpfunction one(){    echo " this works";    function two()    {        echo "this too works";    }}one();two();?>
+a) error
+b) this works
+c) this worksthis too works
+d) this works this too works
+c
+9. What will be the output of the following PHP code?
+<?phpfunction do($myString){    echo strpos($myString, "donkey",0);}do("The donkey looks like a horse.");?>
+a) 4
+b) 5
+c) 2
+d) None of the mentioned
+a
+10. What will be the output of the following PHP code?
+<?phpfunction one(){    define("const","I am awesome!");    echo constant("const");}one();?>
+a) I am awesome!!
+b) const
+c) const, I am awesome!!
+d) “const”,”I am awesome!”
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Functions – 1» Next - PHP Coding Questions and Answers – Functions – 3 

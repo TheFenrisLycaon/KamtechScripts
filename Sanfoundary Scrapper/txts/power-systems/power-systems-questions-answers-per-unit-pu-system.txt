@@ -1,0 +1,129 @@
+1. A power system network is connected as shown in the figure.
+Sd1=15+j5 pu
+Sd2=25+j15 pu
+Zcable = j0.05pu
+|V1|=|V2|=1 pu.
+The torue angle for the system will be  __________
+a) 14.4
+b) 22.1
+c) 16.2
+d) 18.2
+a
+PG1=PD1+PD2=40 pu
+For the equal sharing of load at the station
+PG1=PG2=20pu
+Real power flow from bus 1 to 2
+2. A single phase distributor of 1 km long has resistance and reactance per conductor of 0.1Ω and 0.15 Ωrespectively. If the far end voltage Vb=200V and current is at 100A at 0.8 lag. At the midpoint a current of 100A is tapped at a pf of 0.6 pf with ref to voltage Vm at mid point. The voltage magnitude at M is ________
+a) 218V
+b) 200V
+c) 232V
+d) 220V
+a
+VM= 200+18.027 = 218.027 V. 
+3. A single phase motor is connected to 400V, 50Hz supply. The motor draws a current of 31.7A at a power factor 0.7 lag. The capacitance required in parallel with motor to raise the power factor of 0.9 lag (in micro farads) is __________
+a) 94.62
+b) 282.81
+c) 108.24
+d) 46.87
+a
+Reactive power = VIsinФ=400*31.7*sin(45.57.29) = 9055.3 VAR
+New power factor=cosθ2 = 0.9
+  θ2=cos-1(0.9)
+Q2=8876*tan(25.84) = 4298.855 VAR
+Change in reactive power=9055.3-4298.855 = 4756.4 VAR
+Qc = V2/Xc = V2*2πfC
+C=4756.4/(4002*2π*50) = 94.62μF. 
+4. A single phase motor is connected to 400V, 50Hz supply. The motor draws a current of 31.7A at a power factor 0.7 lag. The additional reactive power (in VAR)  to be supplied by the  capacitor bank will be ___________
+a) 4756
+b) 4873
+c) 4299
+d) 9055.3
+a
+Reactive power = VIsinФ=400*31.7*sin(45.57.29) = 9055.3 VAR
+New power factor=cosθ2 = 0.9
+  θ2=cos-1(0.9)
+Q2=8876*tan(25.84) = 4298.855 VAR
+Change in reactive power=9055.3-4298.855 = 4756.4 VAR.  
+5. A 275 kV TL has following line constants A=0.85ʟ5o, B=200ʟ75o. The active power received if the voltage to be maintained is 275kV will be __________
+a) 117.63
+b) 220
+c) 120
+d) 115.25
+a
+6. A 275 kV TL has following line constants A=0.85ʟ5o, B=200ʟ75o. The active power angle such that the voltage to be maintained at the other end will be 275 kV ____________
+a) 22
+b) 16
+c) 18
+d) 24
+a
+α= 5o , β= 75o
+ 
+7. A power system  has a maximum load of 15 MW. Annual load factor is 50%. The reserve capacity of plant is _____ if the plant capacity factor is 40%.
+a) 3.75 MW
+b) 4.75 MW
+c) 18.75 MW
+d) 5.75 MW
+a
+Plant capacity factor =(Average Load)/(Plant Capacity)=  0.5/0.4
+Plant capacity= (0.5/0.4)*15 = 18.75 MW
+Reserve Capacity = 18.75-15 = 3.75 MW. 
+8. A 100 MVA synchronous generator operates on full load at a frequency of 50 Hz. The load is suddenly reduced to 50 MW. Due to time lag in governor system, the steam valve begins to close after 0.4s. The change in the frequency is ________(H=5 kW-s/KVA).
+a) 1
+b) 0.5
+c) -1.5
+d) 0.8
+a
+ 
+9. A 50 Hz four pole turbo-generator rated 100 MVA, 11 kV has an inertia constant of 8 MJ/MVA. If the mechanical input is suddenly raised to 80 MW for an electrical load of 50MW, then the rotor acceleration is ____________
+a) 337.5
+b) 3.375
+c) 457.5
+d) 4.57
+a
+Accelerating power = Md2δ/dt2
+M=GH/180f = 800/(180*50) = 4/45 MJs/elect. Deg
+ 
+10. A single phase TL has copper conductor of  0.775 cm2 cross section through which 200 kW at UPF at 330 V is to be maintained. If the efficiency of transmission line is 90%, then the minimum length of TL is ___________(in km and take specific resistance to be 1.785 μΩ/cm).
+a) 13.6 km
+b) 14 km
+c) 136 km
+d) 16.4 km
+a
+Ps= 200/0.9=222.22 kW
+Losses=22.22 kW
+Current, I=200000/3300 = 60.60 A
+Line losses=2I2R                      ( for a 2 wire line)
+R=22.22/(2*60.602)=3.02 Ω
+R=ρl/a
+Length, l = (3.025*0.775)/(1.785*10-6) = 13.6 km. 
+11. A three phase transformer has a nameplate rating of 30 MVA, 230Y/69Y kV with a leakage -reactance of 10% and the transformer connection is wye-wye.  Choosing a base of 30MVA and 230 kV on high voltage side, the reactance of transformer in per units is __________
+a) 0.1
+b) 0.3
+c) 0.03
+d) 1.5
+a
+12. A three phase transformer has a nameplate rating of 30 MVA, 230Y/69Y kV with a leakage -reactance of 10% and the transformer connection is wye-wye.  Choosing a base of 30MVA and 230 kV on high voltage side, the high voltage side impedance ____________
+a) 1763.3 Ω
+b) 158.7 Ω
+c) 15.87 Ω
+d) 176.3 Ω
+a
+13. A three phase transformer has a nameplate rating of 30 MVA, 230Y/69Y kV with a leakage -reactance of 10% and the transformer connection is wye-wye.  Choosing a base of 30MVA and 230 kV on high voltage side, the low voltage side impedance is ___________
+a) 158.7 Ω
+b) 176.3 Ω
+c) 1763.3 Ω
+d) 15.87 Ω
+a
+14. A three phase transformer has a nameplate rating of 30 MVA, 230Y/69Y kV with a leakage -reactance of 10% and the transformer connection is wye-wye.  Choosing a base of 30MVA and 230 kV on high voltage side, the transformer reactance referred to the high voltage side will be _________(in ohms).
+a) 176.33 Ω
+b) 17.67 Ω
+c) 158.7 Ω
+d) 15.87 Ω
+a
+X Ω = Xpu*Xb(HV) = 0.1*1763.33 = 176.33 Ω. 
+Sanfoundry Global Education & Learning Series – Power Systems.
+To practice all areas of Power Systems, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Power Systems Questions and Answers – One-Line Diagram and Impedance or Reactance Diagram» Next - Power Systems Questions and Answers – Short Transmission Line – 1 

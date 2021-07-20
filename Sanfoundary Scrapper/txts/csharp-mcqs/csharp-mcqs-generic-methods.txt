@@ -1,0 +1,104 @@
+1. In the following C# code, which of the following statements are perfectly valid?
+public class MyContainer<T> where T: class, IComparable{  /* insert code here */}
+a) Class MyConatiner requires that its type argument must implement Icomparable interface
+b) There are multiple constraints on type argument to MyConatiner class
+c) Compiler will report an error
+d) None of the mentioned
+b
+2. In the following C# code, which statements are perfectly valid?
+public class Csharp{    public void subject<S>(S arg)    {        Console.WriteLine(arg);    }}class Program{    static Void Main(string[] args)    {        Csharp c = new Csharp();        c.subject("hi");        c.subject(20);    }}
+a) Run time exception error
+b) Compile time error
+c) Code runs successfully and prints required output
+d) None of the mentioned
+c
+Output :
+         hi
+         20
+3. Which of the given statements are valid about generics in .NET Framework?
+a) generics are useful in collection classes in .NET framework
+b) generics delegates are not allowed in C#.NET
+c) generics is a not language feature
+d) all of the mentioned
+a
+Join [email protected]
+4. Which statement is valid for the following C# code snippet?
+public class Generic<T>{    public T Field;}class Program{    static void Main(string[] args)    {        Generic<String> g = new Generic<String>();        g.Field = "Hi";        Console.WriteLine(g.Field);    }}
+a) Compile time error
+b) Generic being a keyword cannot be used as a class name
+c) Runtime error
+d) Code runs successfully
+d
+Output :
+Hello
+5. What will be the output of the following C# code?
+ public class Generic<T> {     public T Field; } class Program {     static void Main(string[] args)     {         Generic<int> g2 = new Generic<int>();         Generic<int> g3 = new Generic<int>();         g2.Field = 8;         g3.Field = 4;         if (g2.Field % g3.Field == 0)         {             Console.WriteLine("A");         }         else         Console.WriteLine("Prints nothing:");         Console.ReadLine();     } }
+a) Compile time error
+b) A
+c) Run time error
+d) Code runs successfully but prints nothing
+b
+Output :
+ A
+6. Which of the following is a valid statement about generic procedures in C#.NET are?
+a) All procedures in a Generic class are generic
+b) Generic procedures should take at least one type parameter
+c) Only those procedures labeled as Generic are Generic
+d) None of the mentioned
+b
+7. In the following C# code, which of the following statements are perfectly valid?
+public class MyContainer<T> where T: IComparable{  /* insert code here */}
+a) Class MyConatiner requires that its type argument must implement Icomparable interface
+b) There are multiple constraints on type argument to MyContainer class
+c) Type argument of class MyContainer should be Icomparable
+d) None of the mentioned
+a
+8. Which of the following statements are valid in the following C# code snippet?
+public class Generic<T>{    public T Field;    public void testSub()    {        T i = Field + 1;    }}class Program{    static void Main(string[] args)    {        Generic<int>g = new Generic<int>();        g.testSub();    }}
+a) code runs successfully but prints nothing
+b) code runs successfully and prints 1
+c) program will give run time error
+d) compile time error
+d
+9. Which among the given classes represents System.Collections.Generic namespace?
+a) SortedDictionary
+b) Sorted Array
+c) Stack
+d) All of the mentioned
+a
+10. What will be the output of the following C# code snippet?
+public class Generic<T>{    Stack<T> stk = new Stack<T>();    public void push(T obj)    {        stk.Push(obj);    }    public T pop()    {        T obj = stk.Pop();        return obj;    }}class Program{    static void Main(string[] args)    {        Generic<int> g = new Generic<int>();        g.push("Csharp");        Console.WriteLine(g.pop());        Console.ReadLine();    }}
+a) Compile time error
+b) Csharp
+c) 0
+d) Run time error
+b
+Output :
+Csharp
+11. What will be the output of the following C# code snippet?
+public class Generic<T>{    Stack<T> stk = new Stack<T>();    public void push(T obj)    {        stk.Push(obj);    }    public T pop()    {        T obj = stk.Pop();        return obj;    }}class Program{    static void Main(string[] args)    {        Generic<string> g = new Generic<string>();        g.push(30);        Console.WriteLine(g.pop());        Console.ReadLine();    }}
+a) 0
+b) 30
+c) Runtime Error
+d) Compile time Error
+b
+Output :
+30.
+12. What will be the output of the following C# code snippet?
+public class Generic<T>{    Stack<T> stk = new Stack<T>();    public void push(T obj)    {        stk.Push(obj);    }    public T pop()    {        T obj = stk.Pop();        return obj;    }}class Program{    static void Main(string[] args)    {        Generic<string> g = new Generic<string>();        g.push("C++");        Console.WriteLine(g.pop() + " ");        Generic<int> g1 = new Generic<int>();        g1.push(20);        Console.WriteLine(g1.pop());        Console.ReadLine();    }}
+a) C++
+b) 20
+c) 
+C++
+20
+d) 0
+c
+Output :
+         C++
+         20
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Fundamental of Generics» Next - C# Questions & Answers – Fundamental of LINQ 

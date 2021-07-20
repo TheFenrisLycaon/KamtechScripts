@@ -1,0 +1,217 @@
+1. Which of the following is a valid assignment operator?
+a) +=
+b) -=
+c) *=
+d) All of the mentioned
+d
+2. What does the **= assignment operator do?
+a) Multiplies the value twice
+b) It is used as exponent like 2**3=8
+c) It is the multiplication operator.
+d) None of the mentioned
+b
+3. What is the output of the given code?
+counter = 2
+while counter < 68
+  puts counter
+  counter**=2
+  end
+a) 2 4 16 64
+b) 2 4 16
+c) 2 4 16 256
+d) None of the mentioned
+b
+Output:
+2
+4
+16
+4. What is the output of the given code?
+counter = 1
+while counter < 11
+  puts counter
+  counter+=1
+  end
+a) 1 2 3 4 5
+b) 1…10
+c) 1..10
+d) None of the mentioned
+c
+Output:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+5. Ruby does not support ++ operator, it only supports += operator.
+a) True
+b) False
+a
+6. What is the output of the given code?
+counter = 100
+while counter > 0
+  puts counter
+  counter/=5
+  end
+a) 100 20 4
+b) 100 20 5
+c) 100..5
+d) None of the mentioned
+a
+Output: 
+100
+20
+4
+7. What is the output of the given code?
+counter = 100
+while counter > 0
+  puts counter
+  counter-=25
+  end
+a) 100 75 50 25
+b) 100 25 5
+c) 100..5
+d) None of the mentioned
+a
+Output: 
+100
+75
+50
+25
+8. What is the output of the given code?
+counter = -50
+while counter <0
+  puts counter
+  counter+=10
+  end
+a) 100 75 50 25
+b) -50 -40 -30 -20 -10
+c) 100..5
+d) None of the mentioned
+b
+Output: 
+-50
+-40
+-30
+-20
+-10
+9. The given two expression means the same.
+counter=counter+1 and counter++
+a) True
+b) False
+a
+10. What is the output of the given code?
+a = 22.5
+while a >11.5
+  puts a
+  a-=3.5
+  end
+a) 22.5 19.0 15.5 12.0
+b) 22.5 11.5
+c) 100..5
+d) None of the mentioned
+b
+Output: 
+22.5
+19.0
+15.5
+12.0
+11. What is the output of the given code?
+a = 5
+b=10
+while a <10 && b<20
+  puts a+b
+  a+=2
+  b+=2
+  end
+a) 10 20
+b) 15 19 23
+c) 15 16 17 18 19 20
+d) None of the mentioned
+b
+Output: 
+15 
+19 
+23
+12. What is the output of the given code?
+a = 5
+b=10
+while a <10 && b<20
+  puts a*b
+  a+=2
+  b+=2
+  end
+a) 10 20
+b) 15 19 23
+c) 50 84 126
+d) None of the mentioned
+c
+Output: 
+50
+84
+126
+13.  What is the output of the given code?
+ a= 5
+b=10
+while a <10 && b<20
+  puts a-b
+  a+=2
+  b+=2
+  end
+a) 10 20
+b) 15 19 23
+c) -5 -5 -5
+d) None of the mentioned
+c
+Output: 
+-5
+-5
+-5
+14. What is the output of the given code?
+ a = 5
+b=10
+while a <10 || b<20
+  puts a*b
+  a+=2
+  b+=2
+  end
+a) 10 20
+b) 50 84 126 176 234
+c) -5 -5 -5
+d) None of the mentioned
+b
+Output: 
+50
+84
+126
+176
+234
+15. What is the output of the given code?
+ a = 5
+b=10
+while (a <10 || b<20)&&true
+  puts a*b
+  a+=2
+  b+=2
+  end
+a) 10 20
+b) 50 84 126 176 234
+c) -5 -5 -5
+d) None of the mentioned
+b
+Output: 
+50
+84
+126
+176
+234
+Sanfoundry Global Education & Learning Series – Ruby Programming.
+To practice all areas of Ruby Programming, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ruby Programming Questions and Answers – Operators» Next - Ruby Programming Questions and Answers – While Loop 

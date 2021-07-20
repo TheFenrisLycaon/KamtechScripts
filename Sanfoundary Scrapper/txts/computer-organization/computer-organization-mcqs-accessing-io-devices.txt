@@ -1,0 +1,64 @@
+1. In memory-mapped I/O ____________
+a) The I/O devices and the memory share the same address space
+b) The I/O devices have a separate address space
+c) The memory and I/O devices have an associated address space
+d) A part of the memory is specifically set aside for the I/O operation
+a
+2. The usual BUS structure used to connect the I/O devices is ___________
+a) Star BUS structure
+b) Multiple BUS structure
+c) Single BUS structure
+d) Node to Node BUS structure
+c
+3. In intel’s IA-32 architecture there is a separate 16 bit address space for the I/O devices.
+a) False
+b) True
+b
+4. The advantage of I/O mapped devices to memory mapped is ___________
+a) The former offers faster transfer of data
+b) The devices connected using I/O mapping have a bigger buffer space
+c) The devices have to deal with fewer address lines
+d) No advantage as such
+c
+5. The system is notified of a read or write operation by ___________
+a) Appending an extra bit of the address
+b) Enabling the read or write bits of the devices
+c) Raising an appropriate interrupt signal
+d) Sending a special signal along the BUS
+d
+6. To overcome the lag in the operating speeds of the I/O device and the processor we use ___________
+a) BUffer spaces
+b) Status flags
+c) Interrupt signals
+d) Exceptions
+b
+7. The method of accessing the I/O devices by repeatedly checking the status flags is ___________
+a) Program-controlled I/O
+b) Memory-mapped I/O
+c) I/O mapped
+d) None of the mentioned
+a
+8. The method of synchronising the processor with the I/O device in which the device sends a signal when it is ready is?
+a) Exceptions
+b) Signal handling
+c) Interrupts
+d) DMA
+c
+9. The method which offers higher speeds of I/O transfers is ___________
+a) Interrupts
+b) Memory mapping
+c) Program-controlled I/O
+d) DMA
+d
+10. The process wherein the processor constantly checks the status flags is called as ___________
+a) Polling
+b) Inspection
+c) Reviewing
+d) Echoing
+a
+Sanfoundry Global Education & Learning Series – Computer Organization and Architecture.
+To practice all areas of Computer Organization and Architecture, here is complete set on 1000+ Multiple Choice Questions and Answers on Computer Organization and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Organization Questions and Answers – Parameter Passing and Stack Frame» Next - Computer Organization Questions and Answers – Interrupts – 1 

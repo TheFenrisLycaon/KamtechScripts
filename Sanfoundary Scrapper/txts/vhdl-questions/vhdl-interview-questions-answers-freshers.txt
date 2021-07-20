@@ -1,0 +1,109 @@
+1. SIGNAL x : STD_LOGIC; In this statement x is ______
+a) Variable
+b) Identifier
+c) Name
+d) Literal
+b
+2. What is the use of shift operators?
+a) To shift the data
+b) To shift the identifiers
+c) To shift the operators
+d) To shift the STD_LOGIC_VECTOR
+a
+3. What is the “SLL” operator?
+a) Shift Logic Left
+b) Shift Logically
+c) Shift Left Logical
+d) Shift Left
+c
+4. The correct syntax for any logical shift operator like SLL and SRL is_____
+a) bit_vector_operand <OPERATOR> integer_operand
+b) integer_operand <OPERATOR> bit_vector_operand
+c) std_logic_operand <OPERATOR> integer_operand
+d) integer_operand <OPERATOR> std_logic_operand
+a
+5. Refer to the VHDL code given below, what should be the output of the identifier ‘y’ and ‘z’?
+VARIABLE x : BIT_VECTOR(3 DOWNTO 0) := 1010;
+VARIABLE y : BIT_VECTOR(3 DOWNTO 0) := 0000;
+VARIABLE z : BIT_VECTOR(3 DOWNTO 0) := 0000;
+…
+y := x SRL 2;
+z := x SLL 2;
+…
+a) y = 0100 and z = 0100
+b) y = 0010 and z = 0100
+c) y = 0100 and z = 1000
+d) y = 0010 and z = 1000
+d
+6. In the following VHDL code, the values of y and z are _____
+VARIABLE x : BIT_VECTOR(3 DOWNTO 0) := 1001;
+VARIABLE y : BIT_VECTOR(3 DOWNTO 0) := 0000;
+VARIABLE z : BIT_VECTOR(3 DOWNTO 0) := 0000;
+…
+y := x SRA 2;
+z := y SLA 2;
+…
+a) y = 0000 and z = 0000
+b) y = 1001 and z = 0000
+c) y = 1110 and z = 0111
+d) y = 0111 and z = 1110
+c
+7. SLL operation is equivalent to which of the following operations?
+a) Multiplication by any natural number
+b) Multiplication by 2
+c) Division by 2
+d) Exponential operation
+b
+8. Which of the following is equivalent division by 2 operator?
+a) SRL
+b) SLL
+c) SLA
+d) SRA
+a
+9. In the VHDL code given below, what will be the values of y and z?
+VARIABLE x : BIT_VECTOR(3 DOWNTO 0) := 1001;
+VARIABLE y : BIT_VECTOR(3 DOWNTO 0) := 0000;
+VARIABLE z : BIT_VECTOR(3 DOWNTO 0) := 0000;
+…
+y := x ROR 2;
+z := y ROL 2;
+…
+a) y = 0100 and z = 0000
+b) y = 0000 and z = 0000
+c) y = 0111 and z = 1110
+d) y = 0110 and z = 0110
+d
+10. In a statement containing two or more operators of same precedence, how the expression will be solved?
+a) Left to right
+b) Right to left
+c) Alphabetically
+d) In a random manner
+a
+11. What will be the values of the following variables after MOD operations?
+x = 5 MOD 3;
+y = -5 MOD 3;
+z = 5 MOD -3;
+a) x = 2, y = -2 and z = -2
+b) x = 2, y = 1 and z = -2
+c) x= 2, y = -2 and z = 2
+d) x = 2, y = -2 and z = 1
+b
+12. What will be the values of following variables after REM operations?
+x = 5 REM 3;
+y = -5 REM 3;
+z = 5 REM -3;
+a) x= 2, y = 1 and z = -2
+b) x = 2, y = -2 and z = 1
+c) x = 2, y = -2 and z = 2
+d) x = 2, y = 1 and z = 1
+c
+13. XNOR is a logical operator in VHDL.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Operators – 1» Next - VHDL Questions and Answers – Behavioural Modelling 

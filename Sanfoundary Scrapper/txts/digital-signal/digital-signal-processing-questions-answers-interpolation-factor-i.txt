@@ -1,0 +1,68 @@
+1. Which of the following operation has to be performed to increase the sampling rate by an integer factor I?
+a) Interpolating I+1 new samples
+b) Interpolating I-1 new samples
+c) Extrapolating I+1 new samples
+d) Extrapolating I-1 new samples
+b
+2. In one of the interpolation process, we can preserve the spectral shape of the signal sequence x(n).
+a) True
+b) False
+a
+3. If v(m) denote a sequence with a rate Fy=I.Fx which is obtained from x(n), then which of the following is the correct definition for v(m)?
+a) 
+x(mI), m=0,&pm;I,&pm;2I....
+0, otherwise
+b) 
+x(mI), m=0,&pm;I,&pm;2I....
+x(m/I), otherwise
+c) 
+x(m/I), m=0,&pm;I,&pm;2I....
+0, otherwise
+d) None of the mentioned
+c
+v(m)= x(m/I), m=0,&pm;I,&pm;2I….
+0, otherwise.
+4. If X(z) is the z-transform of x(n), then what is the z-transform of interpolated signal v(m)?
+a) X(zI)
+b) X(z+I)
+c) X(z/I)
+d) X(zI)
+d
+V(z)=\(\sum_{m=-∞}^∞ v(m)z^{-m}\) 
+=\(\sum_{m=-∞}^∞ x(m)z^{-mI}\) 
+= X(z-I)
+5. If x(m) and v(m) are the original and interpolated signals and ωy denotes the frequency variable relative to the new sampling rate, then V(ωy)= X(ωyI).
+a) True
+b) False
+a
+6. What is the relationship between ωx and ωy?
+a) ωy= ωx.I
+b) ωy= ωx/I
+c) ωy= ωx+I
+d) None of the mentioned
+b
+ωy= ωx/I.
+7. The following sampling rate conversion technique is interpolation by a factor I.
+a) True
+b) False
+a
+8. The following sampling rate conversion technique is interpolation by a factor I.
+a) True
+b) False
+b
+9. Which of the following is true about the interpolated signal whose spectrum is V(ωy)?
+a) (I-1)-fold non-periodic
+b) (I-1)-fold periodic repetition
+c) I-fold non periodic
+d) I-fold periodic repetition
+d
+10. C=I is the desired normalization factor.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Frequency Transformations» Next - Digital Signal Processing Questions and Answers – Sampling Rate Conversion by a Rational Factor I/D 

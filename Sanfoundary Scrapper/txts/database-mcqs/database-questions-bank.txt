@@ -1,0 +1,66 @@
+1. The method of access that uses key transformation is called as
+a) Direct
+b) Hash
+c) Random
+d) Sequential
+b
+2. Why do we need concurrency control on B+ trees ?
+a) To remove the unwanted data
+b) To easily add the index elements
+c) To maintain accuracy of index
+d) All of the mentioned
+c
+3. How many techniques are available to control concurrency on B+ trees?
+a) One
+b) Three
+c) Four
+d) None of the mentioned
+d
+4. In crabbing protocol locking
+a) Goes down the tree and back up
+b) Goes up the tree and back down
+c) Goes down the tree and releases
+d) Goes up the tree and releases
+a
+5. The deadlock can be handled by
+a) Removing the nodes that are deadlocked
+b) Restarting the search after releasing the lock
+c) Restarting the search without releasing the lock
+d) Resuming the search
+b
+6. In crabbing protocol, the lock obtained on the root node is in _________ mode.
+a) Shared
+b) Exclusive
+c) Read only
+d) None of the mentioned
+a
+7. If needed to split a node or coalesce it with its siblings, or redistribute key values between siblings, the crabbing protocol locks the parent of the node in ____________ mode.
+a) Shared
+b) Exclusive
+c) Read only
+d) None of the mentioned
+b
+8. In crabbing protocol to inset or delete a key value the leaf node has to be locked in ___________ mode.
+a) Shared
+b) Exclusive
+c) Read only
+d) None of the mentioned
+b
+9. B-link tree requires a pointer to its __________ sibling.
+a) Upper
+b) Lower
+c) Right
+d) Left
+c
+10. Instead of locking index leaf nodes in a two-phase manner, some index concurrency-control schemes use ___________ on individual key values, allowing other key values to be inserted or deleted from the same leaf.
+a) B+ tree locking
+b) Link level locking
+c) Key-value locking
+d) Next value locking
+c
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice Database Question Bank, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Insertion Deletion Predicate Reads» Next - Database Questions and Answers – Failure Classification 

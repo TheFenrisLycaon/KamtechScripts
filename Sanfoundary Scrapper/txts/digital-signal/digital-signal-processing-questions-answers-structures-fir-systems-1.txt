@@ -1,0 +1,112 @@
+1. In general, an FIR system is described by the difference equation y(n)=\(\sum_{k=0}^{M-1}b_k x(n-k)\).
+a) True
+b) False
+a
+2. What is the general system function of an FIR system?
+a) \(\sum_{k=0}^{M-1}b_k x(n-k)\) 
+b) \(\sum_{k=0}^M b_k z^{-k}\) 
+c) \(\sum_{k=0}^{M-1}b_k z^{-k}\) 
+d) None of the mentioned
+c
+=>h(n)=bk=>\(\sum_{k=0}^{M-1}b_k z^{-k}\).
+3. Which of the following is an method for implementing an FIR system?
+a) Direct form
+b) Cascade form
+c) Lattice structure
+d) All of the mentioned
+d
+4. How many memory locations are used for storage of the output point of a sequence of length M in direct form realization?
+a) M+1
+b) M
+c) M-1
+d) None of the mentioned
+c
+We observe that this structure requires M-1 memory locations for storing the M-1 previous inputs.
+5. The direct form realization is often called a transversal or tapped-delay-line filter.
+a) True
+b) False
+a
+6. What is the condition of M, if the structure according to the direct form is as follows?
+a) M even
+b) M odd
+c) All values of M
+d) Doesn’t depend on value of M
+b
+For such a system the number of multiplications is reduced from M to M/2 for M even and to (M-1)/2 for M odd. Thus for the structure given in the question, M is odd.
+7. By combining two pairs of poles to form a fourth order filter section, by what factor we have reduced the number of multiplications?
+a) 25%
+b) 30%
+c) 40%
+d) 50%
+d
+8. The desired frequency response is specified at a set of equally spaced frequencies defined by the equation?
+a) \(\frac{\pi}{2M}\)(k+α)
+b) \(\frac{\pi}{M}\)(k+α)
+c) \(\frac{2\pi}{M}\)(k+α)
+d) None of the mentioned
+c
+k=0,1….(M/2)-1 for M even
+α=0 or 0.5.
+9. The realization of FIR filter by frequency sampling realization can be viewed as cascade of how many filters?
+a) Two
+b) Three
+c) Four
+d) None of the mentioned
+a
+10. What is the system function of all-zero filter or comb filter?
+a) \(\frac{1}{M}(1+z^{-M} e^{j2πα})\) 
+b) \(\frac{1}{M}(1+z^M e^{j2πα})\) 
+c) \(\frac{1}{M}(1-z^M e^{j2πα})\) 
+d) \(\frac{1}{M}(1-z^{-M} e^{j2πα})\) 
+d
+H(z)=\(\frac{1}{M}(1-z^{-M} e^{j2πα})\sum_{k=0}^{M-1}\frac{H(k+α)}{1-e^{j2π(k+α)/M} z^{-1}}\) 
+We view this FIR realization as a cascade of two filters, H(z)=H1(z).H2(z)
+Here H1(z) represents the all-zero filter or comb filter whose system function is given by the equation
+H1(z)=\(\frac{1}{M}(1-z^{-M} e^{j2πα})\).
+11. The zeros of the system function of comb filter are located at ______________
+a) Inside unit circle
+b) On unit circle
+c) Outside unit circle
+d) None of the mentioned
+b
+H1(z)=\(\frac{1}{M}(1-z^{-M} e^{j2πα})\) 
+Its zeros are located at equally spaced points on the unit circle at
+zk=ej2π(k+α)/M k=0,1,2….M-1
+12. What is the system function of the second filter other than comb filter in the realization of FIR filter?
+a) \(\sum_{k=0}^M \frac{H(k+α)}{1-e^{\frac{j2π(k+α)}{M}} z^{-1}}\) 
+b) \(\sum_{k=0}^{M-1} \frac{H(k+α)}{1+e^{\frac{j2π(k+α)}{M}} z^{-1}}\) 
+c) \(\sum_{k=0}^{M-1} \frac{H(k+α)}{1-e^{\frac{j2π(k+α)}{M}} z^{-1}}\) 
+d) None of the mentioned
+c
+H(z)=\(\frac{1}{M}(1-z^{-M} e^{j2πα})\sum_{k=0}^{M-1}\frac{H(k+α)}{1-e^{\frac{j2π(k+α)}{M}}z^{-1}}\) 
+We view this FIR realization as a cascade of two filters, H(z)=H1(z).H2(z)
+Here H1(z) represents the all-zero filter or comb filter, and the system function of the other filter is given by the equation
+H2(z)=\(\sum_{k=0}^{M-1} \frac{H(k+α)}{1-e^{\frac{j2π(k+α)}{M}} z^{-1}}\)
+13. Where does the poles of the system function of the second filter locate?
+a) ej2π(k+α)M
+b) ej2π(k+α)/M
+c) ej2π(k-α)/M
+d) ejπ(k+α)/M
+b
+H2(z)=\(\sum_{k=0}^{M-1} \frac{H(k+α)}{1-e^{\frac{j2π(k+α)}{M}} z^{-1}}\) 
+We obtain the poles of the above system function by equating the denominator of the above equation to zero.
+=>\(1-e^{\frac{j2π(k+α)}{M}} z^{-1}\)=0
+=>z=pk=\(e^{\frac{j2π(k+α)}{M}}\), k=0,1….M-1
+14. When the desired frequency response characteristic of the FIR filter is narrowband, most of the gain parameters {H(k+α)} are zero.
+a) True
+b) False
+a
+15. Which of the following filters have a cascade realization as shown below?
+a) IIR filter
+b) Comb filter
+c) High pass filter
+d) FIR filter
+d
+H(z)=\(\frac{1}{M}(1-z^{-M} e^{j2πα})\sum_{k=0}^{M-1}\frac{H(k+α)}{1-e^{\frac{j2π(k+α)}{M}} z^{-1}}\) 
+The above system function can be represented in the cascade form as shown in the above block diagram.
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Structures for Realization of Discrete Time Systems» Next - Digital Signal Processing Questions and Answers – Structures for FIR Systems – 2 

@@ -1,0 +1,72 @@
+1. Which among the following is the correct syntax for creating table?
+a) CREATE TABLE name;
+b) CREATE name;
+c) CREATE TABLE
+d) All of the mentioned
+a
+2. What is the role of “CONSTRAINS” in defining a table in Mysql?
+a) Declaring primary key
+b) Declaring Foreign Key
+c) Restrictions on columns
+d) All of the mentioned
+d
+3. Which command is used for the table definition in Mysql?
+a) DESC  table_name;
+b) DESC table_name
+c) DESC
+d) None of the mentioned
+a
+4. Which among the following is the correct syntax for defining “Constraint Check” in Mysql?
+a) gender  char(1)  check( gender IN (‘M’, ‘F’)),
+b) gender char (1) check,
+c) gender char (1) check ( gender ),
+d) none of the mentioned
+a
+5. Which data type character merges the “Check Constraint” into a data type definition?
+a) ENUM
+b) ENUM1
+c) ENUM2
+d) None of the mentioned
+a
+6. Which among the following is the correct syntax for defining “ENUM” in Mysql?
+a) gender ENUM (‘M’, ‘F’),
+b) gender ENUM,
+c) gender ENUM ( ),
+d) none of the mentioned
+a
+7. Which among the following are the correct definitions for “NULL” in Mysql?
+a) Absence of value
+b) Unknown
+c) Empty set
+d) All of the mentioned
+d
+8. Find out the logical error in the following MySQL code snippet?
+   CREATE TABLE person
+   ( person_id VARCHAR(20),
+    Name VARCHAR (20),
+    Address VARCHAR (20),
+    Mobile_no  SMALLINT 
+    );
+a) Lesser number of columns
+b) Incorrect definition
+c) Primary key is missing
+d) None of the mentioned
+c
+9. What is the meaning of “REFERENCES” in table definition?
+a) Primary key
+b) NULL
+c) Foreign Key
+d) A ”foreign Key” belong to this particular table
+d
+10. What default value gets stored in columns of the table?
+a) NULL
+b) 0
+c) 1
+d) -1
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Using MySQL Command Line Tool» Next - MySQL Questions and Answers – Populating & Modifying Tables – 1 

@@ -1,0 +1,67 @@
+1. MongoDB indexes use a _______ data structure.
+a) Hash
+b) Map
+c) B-tree
+d) All of the mentioned
+b
+2. Point out the correct statement.
+a) If an appropriate index exists for a query, MongoDB cannot use the index to limit the number of documents it must inspect
+b) Indexes support the efficient execution of queries in MongoDB
+c) The index stores the location of a specific field or set of fields, ordered by the value of the field
+d) None of the mentioned
+b
+3. MongoDB supports the creation of user-defined ascending/descending indexes on a ______ field of a document.
+a) Single
+b) Non Unique
+c) Compound
+d) None of the mentioned
+a
+4. The ______ index is unique and prevents clients from inserting two documents with the same value for the _id field.
+a) _id
+b) $default
+c) _def
+d) None of the mentioned
+a
+5. Point out the wrong statement.
+a) MongoDB can return sorted results by using the ordering in the index
+b) MongoDB defines indexes at the collection level and supports indexes on any field or sub-field of the documents in a MongoDB collection
+c) Fundamentally, indexes in MongoDB is different to indexes in other database systems
+d) None of the mentioned
+c
+6. MongoDB also supports user-defined indexes on multiple fields called ____________
+a) compound
+b) composite
+c) candidate
+d) none of the mentioned
+a
+7. MongoDB uses ______ indexes to index the content stored in arrays.
+a) singlekey
+b) multikey
+c) compkey
+d) none of the mentioned
+b
+8. ___________ indexes use spherical geometry to return results.
+a) 3dsphere
+b) 2dsphere
+c) 1dsphere
+d) none of the mentioned
+b
+9. MongoDB provides a ________ index type that supports searching for string content in a collection.
+a) string
+b) text
+c) char
+d) none of the mentioned
+b
+10. _____ indexes uses planar geometry when returning results.
+a) 2d
+b) 1d
+c) 3d
+d) All of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – SQL to Aggregation Mapping Chart» Next - MongoDB Questions and Answers – Index Types – 1 

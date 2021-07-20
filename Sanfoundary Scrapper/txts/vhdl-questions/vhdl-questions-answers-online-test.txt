@@ -1,0 +1,63 @@
+1. Which of the following statement uses only 1 signal?
+a) WAIT FOR
+b) WAIT UNTIL
+c) WAIT ON
+d) WAIT UNTIL and WAIT FOR
+b
+2. Given that a process has no sensitivity list and has only one WAIT statement which is WAIT FOR statement. How many signals are there to which process is sensitive?
+a) 0
+b) 1
+c) 2
+d) Can’t be determined
+d
+3. WAIT statement provides more flexibility than sensitivity list.
+a) True
+b) False
+a
+4. Which of the following WAIT statement is most useful for implementing a synchronous sequential circuit?
+a) WAIT ON
+b) WAIT FOR
+c) WAIT UNTIL
+d) WAIT TIME
+c
+5. What is the deadlock condition in VHDL?
+a) When WAIT statement keeps on waiting forever
+b) When WAIT UNTIL statement uses more than one signal
+c) When WAIT ON statement has only one signal
+d) When WAIT FOR statement doesn’t have any time clause
+a
+6. In case of sensitivity list the process suspends at the end of the process and in WAIT statement it suspends ____________
+a) At the beginning
+b) At the end
+c) At the beginning of architecture
+d) Where the WAIT statement is encountered
+d
+7. In combinational logic, how many WAIT statements can be used?
+a) 0
+b) 1
+c) 2
+d) 3
+b
+8. Refer to the code given below, which kind of circuit is implemented?
+PROCESS
+BEGIN
+WAIT on a, b;
+z &lt;= a AND b;
+END PROCESS;
+a) Combinational
+b) Synchronous sequential
+c) Asynchronous sequential
+d) State machine
+a
+9. In a procedure is called from a process having a sensitivity list, how many wait statements one can use?
+a) 3
+b) 2
+c) 1
+d) 0
+d
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice  all areas of VHDL for online tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – WAIT Statements – 1» Next - VHDL Questions and Answers – WAIT Statements – 3 

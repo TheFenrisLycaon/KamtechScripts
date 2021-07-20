@@ -1,0 +1,100 @@
+1. The instructions of IA-32 machines are of length up to ______
+a) 4 bytes
+b) 8 bytes
+c) 16 bytes
+d) 12 bytes
+d
+2. The bit present in the op code, indicating which of the operands is the source is called as ________
+a) SRC bit
+b) Indirection bit
+c) Direction bit
+d) FRM bit
+c
+3. The __________ directive is used to allocate 4 bytes of memory.
+a) DD
+b) ALLOC
+c) RESERVE
+d) SPACE
+a
+4. .data directive is used _________
+a) To indicate the ending of the data section
+b) To indicate the beginning of the data section
+c) To declare all the source operands
+d) To Initialize the operands
+b
+5. The instruction used to cause unconditional jump is ________
+a) UJG
+b) JG
+c) JMP
+d) GOTO
+c
+6. __________ instruction is used to check the bit of the condition flags.
+a) TEST
+b) TB
+c) CHECK
+d) BT
+d
+7. REPINS instruction is used to __________
+a) Transfer a block of data serially from an Input device to the processor
+b) Transfer a block of data parallelly from Input device to the processor
+c) Transfer a block of data serially from an Input device to the output device
+d) Transfer a block of data parallelly from Input device to the output device
+b
+8. Which of the following statements regarding Stacks is/are True?
+i) The stack always grows towards higher addresses
+ii) The stack always grows towards lower addresses
+iii) The stack has a fixed size
+iv) The width of the stack is 32 bits
+a) i and iii
+b) i and iv
+c) ii and iv
+d) iii and iv
+c
+9. The instruction used to multiply operands yielding a double integer outcome is _________
+a) MUL
+b) IMUL
+c) DMUL
+d) EMUL
+b
+10. SIMD stands for __________
+a) Single Instruction Multiple Data
+b) Simple Instruction Multiple Decoding
+c) Sequential Instruction Multiple Decoding
+d) System Information Mutable Data
+a
+11. The IA-32 system follows _________ design.
+a) RISC
+b) CISC
+c) SIMD
+d) None of the mentioned
+b
+12. Which architecture is suitable for a wide range of data types?
+a) ARM
+b) 68000
+c) IA-32
+d) ASUS firebird
+c
+13. In case of multimedia extension instructions, the pixels are encoded into a data item of _________
+a) 16 bit
+b) 32 bit
+c) 24 bit
+d) 8 bit
+d
+14. The MMX (Multimedia Extension) operands are stored in __________
+a) General purpose registers
+b) Banked registers
+c) Float point registers
+d) Graphic registers
+c
+15. The division operation in IA-32 is a single operand instruction so it is assumed that ___________
+a) The divisor is stored in the EAX register
+b) The dividend is stored in the EAC register
+c) The divisor is stored in the accumulator
+d) The dividend is stored in the accumulator
+a
+Sanfoundry Global Education & Learning Series – Computer Organization and Architecture.
+To practice  all areas of Computer Organization, here is complete set on 1000+ Multiple Choice Questions and Answers on Computer Organization and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Organization Questions and Answers – Intel IA-32 Pentium Architecture-1 

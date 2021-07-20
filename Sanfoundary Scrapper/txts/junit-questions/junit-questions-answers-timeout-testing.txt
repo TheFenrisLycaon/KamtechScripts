@@ -1,0 +1,66 @@
+1. What is timeout testing?
+a) Testing for exceptions
+b) Testing code execution within time limits
+c) Testing code correctness
+d) Testing code with time functions
+b
+2. The ___________ parameter is used along with the @Test annotation to test for timeouts.
+a) Expected
+b) Timeout
+c) NoLimit
+d) Time
+b
+3. @Test(timeout = 130) implies a time limit of ___________
+a) 130 milliseconds
+b) 130 minutes
+c) 130 seconds
+d) 1.30 minutes
+a
+4. Timeout testing is ____________
+a) Software Dependent
+b) Hardware Dependent
+c) Software and Hardware Dependent
+d) Software and Hardware Independent
+c
+5. What applies the same timeout to every test method of a class?
+a) @Timeout
+b) @Expected
+c) Timeout Rule
+d) Not possible to apply same timeout
+c
+6. A Timeout Rule is initialized by ____________
+a) @Rule public Timeout object = new Timeout()
+b) @Rule  public Timeout object = Timeout.seconds()
+c)  public Timeout object = Timeout.seconds()
+d) public Timeout object = new Timeout()
+b
+7. Where is the Timeout class present?
+a) org.junit.rules.Timeout
+b) org.junit.Timeout
+c) org.Timeout
+d) org.junit.RuleClasses.Timeout
+a
+8. The Timeout Rule implements which interface?
+a) Timeout
+b) Test
+c) TestingTimeout
+d) TestRule
+d
+9. If a timeout which has been specified lapses before the completion of the test, its execution is interrupted with _____________
+a) Interrupt()
+b) Thread.interrupt()
+c) Thread.interruptable()
+d) Threads.interruptable()
+b
+10. What does a specified timeout of 0 imply?
+a) 130 milliseconds
+b) 130 minutes
+c) 130 seconds
+d) Not set
+d
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Testing Exception Handling» Next - JUnit Questions and Answers – Hamcrest Matchers 

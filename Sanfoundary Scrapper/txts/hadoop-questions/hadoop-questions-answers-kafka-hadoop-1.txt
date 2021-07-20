@@ -1,0 +1,67 @@
+1. Kafka is comparable to traditional messaging systems such as _____________
+a) Impala
+b) ActiveMQ
+c) BigTop
+d) Zookeeper
+b
+2. Point out the correct statement.
+a) The original use case for Kafka was to be able to rebuild a user activity tracking pipeline as a set of real-time publish-subscribe feeds
+b) Activity tracking is often very high volume as many activity messages are generated for each user page view
+c) Kafka is often used for operational monitoring data
+d) All of the mentioned
+d
+3. Many people use Kafka as a replacement for a ___________ solution.
+a) log aggregation
+b) compaction
+c) collection
+d) all of the mentioned
+a
+4. _______________ is a style of application design where state changes are logged as a time-ordered sequence of records.
+a) Event sourcing
+b) Commit Log
+c) Stream Processing
+d) None of the mentioned
+a
+5. Point out the wrong statement.
+a) Kafka can serve as a kind of external commit-log for a distributed system
+b) The log helps replicate data between nodes and acts as a re-syncing mechanism for failed nodes to restore their data
+c) Kafka comes with a command-line client that will take input from a file or from standard input and send it out as messages to the Kafka cluster
+d) All of the mentioned
+d
+6. Kafka uses __________ so you need to first start a ZooKeeper server if you don’t already have one.
+a) Impala
+b) ActiveMQ
+c) BigTop
+d) Zookeeper
+d
+7. __________ is the node responsible for all reads and writes for the given partition.
+a) replicas
+b) leader
+c) follower
+d) isr
+b
+8. __________ is the subset of the replicas list that is currently alive and caught up to the leader.
+a) replicas
+b) leader
+c) follower
+d) isr
+d
+9. Kafka uses key-value pairs in the ____________ file format for configuration.
+a) RFC
+b) Avro
+c) Property
+d) None of the mentioned
+c
+10. __________ is the amount of time to keep a log segment before it is deleted.
+a) log.cleaner.enable
+b) log.retention
+c) log.index.enable
+d) log.flush.interval.message
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Storm» Next - Hadoop Questions and Answers – Kafka with Hadoop – 2 

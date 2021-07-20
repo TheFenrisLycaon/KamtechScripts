@@ -1,0 +1,113 @@
+1. At what condition the digital to analog conversion is made?
+a) Va > Vd
+b) Va ≤ Vd
+c) Va ≥ Vd
+d) Va ≠ Vd
+b
+2. 
+If a input at Va is 1010, then find the correct conversion sequence for the given circuit.
+a) 
+ Input signal 
+ SAR output at different stages 
+ comparator output
+1010
+1000
+1
+1100
+0
+1010
+1
+1011
+0
+1010
+b) 
+ Input signal 
+ SAR output at different stages 
+ comparator output
+1010
+0001
+0
+0010
+1
+0011
+0
+1010
+1
+c) 
+ Input signal 
+ SAR output at different stages 
+ comparator output
+1010
+1111
+0
+1011
+0
+1001
+1
+1010
+1
+d) None of the mentioned
+a
+3. The Integrating type converters are used in
+a) Digital meter
+b) Panel meter
+c) Monitoring system
+d) All of the mentioned
+d
+4. In integrating type ADCs, the
+a) Input voltage is proportional to input averaged over the integration period
+b) Output voltage is proportional to input averaged over the integration period
+c) Output voltage is proportional to sum of input voltage
+d) Input voltage is proportional to sum of input voltage
+b
+5. Which type of ADC is chosen for noisy environment?
+a) Successive approximation ADC
+b) Dual slope
+c) Charge balancing ADC
+d) All of the mentioned
+c
+6. How to overcome the drawback of the charge balancing ADC?
+a) By using precision integrator
+b) By using Voltage to frequency converter
+c) By using voltage comparator
+d) By using dual slope converter
+d
+7. Which among the following has long conversion time?
+a) Servo converter
+b) Dual ramp converter
+c) Flash converter
+d) None of the mentioned
+b
+8. In which application dual slop converter are used.
+a) Thermocouple
+b) Digital panel meter
+c) Weighting scale
+d) All of the mentioned
+b
+9. A dual slope has the following specifications:
+16bit counter; Clock rate =4 MHz; Input voltage=12v; Output voltage =-7v and Capacitor=0.47µF.
+If the counters have cycled through 2n counts, determine the value of resistor in the integrator.
+a) 60kΩ
+b) 50kΩ
+c) 120kΩ
+d) 100kΩ
+a
+△(t) =t2-t1 =2ncounts/clock rate =216/4Mhz=16.38ms.
+For integration,
+△Vo=(-1/RC)×V×( t2-t1)
+=> RC = -(12v/-7v) ×16.38ms=28.08ms
+∴ R= 28.08ms =59744 ≅60kΩ. 
+10. A 12 bit dual ramp generation has a maximum output voltage of +12v. Compute the equivalent digital number for the analog signal of +6v.
+a) 1000000000
+b) 10000000000
+c) 1000000000000
+d) 100000000000
+d
+N= 212×(6/12v) = 4096×0.5 =2048.
+Binary equivalent for 2048 => 100000000000. 
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – A to D Converter – 1» Next - Linear Integrated Circuit Questions and Answers – DAC / ADC Specification 

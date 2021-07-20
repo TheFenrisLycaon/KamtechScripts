@@ -1,0 +1,93 @@
+1. Which device is used for diagnostic purposes and for recording?
+a) Low pass filter
+b) Monolithic PLL
+c) Voltage Controlled Oscillator
+d) None of the mentioned
+c
+2. If the output of the Schmitt trigger is given below. Estimate the output at the pin 3 of VCO.
+a
+3. Write the equation for time period of VCO?
+a) (2×Vcc×CT)/i
+b) (Vcc CT)/(2×i)
+c) (Vcc×CT×i)/2
+d) (2×Vcc)/(i×CT)
+b
+4. Determine the value of current flow in VCO, when the NE566 VCO external timing resistor RT =250Ω and the modulating input voltage Vc=3.25V.(Assume Vcc=+5v).
+a) 3mA
+b) 12mA
+c) 7mA
+d) 10mA
+c
+=>i =7mA. 
+5. From the circuit given, find the value of output frequency?
+a) 178.484 Hz
+b) 104.84 Hz
+c) 145.84 Hz
+d) 110.88 Hz
+b
+=> fo=104.84 Hz. 
+6. The output frequency of the VCO can be changed by changing
+a) External tuning resistor
+b) External tuning capacitor
+c) Modulating input voltage
+d) All of the mentioned
+d
+From the equation, it is clear that the fo is inversely proportional to CT & RT and directly proportional to Vc.Therefore, the output frequency can be changed by changing either voltage control, CT or RT. 
+7. Calculate the value of external timing capacitor, if no modulating input signal is applied to VCO. Consider fo=25 kHz and RT=5 kΩ.
+a) 6nF
+b) 100µF
+c) 2nF
+d) 10nF
+c
+=> CT =1/(4×RT×fo) =1/(4×5kΩ×25kHz) = 2×10-9 =2nF. 
+8.  What is the advantage of using filter?
+a) High noise immunity
+b) Reduce the bandwidth of PLL
+c) Provides dynamic range of frequencies
+d) None of the mentioned
+a
+9. Which filter is used in VCO?
+d
+10. Choose the VCO for attaining higher output frequency.
+a) NE566
+b) SE566
+c) MC4024
+d) All of the mentioned
+c
+11. Voltage to frequency conversion factor for VCO is
+a) Kv = △Vc/ △fo
+b) Kv = △fo/△Vc
+c) Kv = △fo × △Vc
+d) Kv = 1/(△fo×△Vc)
+b
+=>  Kv=△fo/△Vc.
+12. Calculate the voltage to frequency conversion factor, where fo=155Hz and Vcc=10V.
+a) 130
+b) 124
+c) 134
+d) 116
+b
+13. Find the equation for change in frequency of VCO?
+a) △fo = (2×△Vc)/(RT×CT×Vcc)
+b) △fo = △Vc/(4×RT×CT×Vcc)
+c) △fo = △Vc/(2×RT×CT×Vcc)
+d) △fo = (4×△Vc)/(RT×CT×Vcc)
+a
+The new frequency f1 =2×[Vcc-Vc]/[RT×CT×Vcc].
+Change in frequency, △fo= fo– f1 = 2×[Vcc-Vc+△Vc]/[RT×CT×Vcc]-{2×[Vcc-Vc]/[ RT×CT×Vcc]
+=> △fo = (2×△Vc)/(RT×CT×Vcc). 
+14. Using the given specifications, determine the voltage to frequency conversion factor.
+a) 8.32
+b) 8.90
+c) 8.51
+d) 8.75
+c
+=>△Vc= (△fo×RT×CT×Vcc)/2 = (4.7µFx10kΩx5x112)/2 = 13.16V.
+Kv= △fo/ △Vc = 112Hz/13.16V
+=>Kv=8.51. 
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Phase Detector / Comparator» Next - Linear Integrated Circuit Questions and Answers – PLL Applications 

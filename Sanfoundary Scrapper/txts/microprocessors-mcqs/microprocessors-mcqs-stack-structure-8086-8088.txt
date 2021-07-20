@@ -1,0 +1,69 @@
+1. The stack pointer register contains
+a) address of the stack segment
+b) pointer address of the stack segment
+c) offset of address of stack segment
+d) data present in the stack segment
+c
+2. The stack segment register contains
+a) address of the stack segment
+b) base address of the stack segment
+c) pointer address of the stack segment
+d) data in the stack segment
+b
+3. PUSH operation
+a) decrements SP
+b) increments SP
+c) decrements SS
+d) increments SS
+a
+4. POP operation
+a) decrements SP
+b) increments SP
+c) decrements SS
+d) increments SS
+b
+5. The register or memory location that is pushed into the stack at the end must be
+a) popped off last
+b) pushed off first
+c) popped off first
+d) pushed off last
+c
+Join [email protected]
+6. In the instruction, ASSUME CS : CODE, DS : DATA, SS : STACK
+   the ASSUME directive directs to the assembler the
+a) address of the stack segment
+b) pointer address of the stack segment
+c) name of the stack segment
+d) name of the stack, code and data segments
+d
+7. When a stack segment is initialised then
+a) SS and SP are initialised
+b) only SS is initialised
+c) only SP is initialised
+d) SS and SP need not be initialised
+a
+8. The number of PUSH instructions and POP instructions in a subroutine must be
+a) PUSH instructions must be greater than POP instructions
+b) POP instructions must be greater than PUSH instructions
+c) Both must be equal
+d) Instructions may be any kind
+c
+9. 8086 does not support
+a) Arithmetic operations
+b) logical operations
+c) BCD operations
+d) Direct BCD packed multiplication
+d
+10. For 8086 microprocessor, the stack segment may have a memory block of a maximum of
+a) 32K bytes
+b) 64K bytes
+c) 16K bytes
+d) NONE
+b
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Stack» Next - Microprocessors Questions and Answers – Interrupts and Interrupt Service Routines 

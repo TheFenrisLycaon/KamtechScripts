@@ -1,0 +1,60 @@
+1. Why Timer_B is not considered as most suitable one for receiving asynchronous signals?
+a) because of the absence of the TBOUTH input pin
+b) because of the presence of the TBOUTH input pin
+c) because of the absence of the SCCI bit
+d) because of the presence of the SCCI bit
+c
+2. There is double buffering in the immediate mode?
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+b
+3. Double buffering protects channel 0.
+a) as it acts as the limit in the Up and up/down modes
+b) it doesn’t actually protect it
+c) as it does not accept the inputs
+d) none of the mentioned
+a
+4. Timer_B has _________
+a) three serial communication ports
+b) seven LCD driver
+c) seven compare/capture channels
+d) three LED driver ports
+c
+5. The capture/compare registers TBCCRn are double-buffered when used for compare events?
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+a
+6. The length of TBR can be programmed to be _________
+a) 8 bits
+b) 12 bits
+c) 16 bits
+d) all of the mentioned
+d
+7. TBOUTH can pin can be used to _________
+a) values are moved from one place to another
+b) the length of the number of bits is selected by this register
+c) it can be used to put all the outputs of the Timer_B register in the high impedance state
+d) it can be used for outputting the input values of the timers
+c
+8. TBCLn provided in each channel is actually _________
+a) a comparator
+b) compare latch
+c) controller
+d) control logic
+b
+9. When TBR counts to zero?
+a) TBCLn is updated from TBCCRn
+b) CLLDx is updated to TBCCTLn
+c) CLLDx is updated to TBCCRn
+d) TBCLn is updated to CLLDx
+a
+ Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice  all areas of Microcontroller for online Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MSP430 Microcontroller Questions and Answers – TIMER_A» Next - MSP430 Microcontroller Questions and Answers – Mixed-Signal Systems: Analog Input and Output 

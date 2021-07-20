@@ -1,0 +1,59 @@
+This section on tricky C interview questions focuses on “Mathematical Functions”. One shall practice these tricky questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C interview questions on “Mathematical Functions” along with answers, explanations and/or solutions:
+1. Which of the following mathematical function requires 2 parameter for successful function call?
+a) fmod();
+b) div();
+c) atan2();
+d) all of the mentioned
+d
+2. Which mathematical function among the following does NOT require int parameters?
+a) div(x, y);
+b) srand(x);
+c) sqrt(x);
+d) all of the mentioned
+c
+3. What will sin(x) returns?
+a) sine of x where x is in radians
+b) sine of x where x is in degree
+c) cosine of x where x is in radians
+d) cosine of x where x is in degree
+a
+4. What will cos(x) return?
+a) sine of x where x is in radians
+b) sine of x where x is in degree
+c) cosine of x where x is in radians
+d) cosine of x where x is in degree
+c
+5. What will be the output of the following C code?
+    #include <stdio.h>    #include <math.h>    void main()    {        int k = pow(2, 3);        printf("%d\n", k);    }
+a) 9
+b) 8
+c) -1
+d) 6
+b
+6. What will be the output of the following C code?
+    #include <stdio.h>    #include <math.h>    void main()    {        int k = fabs(-87);        printf("%d\n", k);    }
+a) -87
+b) 87
+c) 78
+d) error
+b
+7. What will be the output of the following C code?
+    #include <stdio.h>    #include <math.h>    void main()    {        int k = sqrt(-4);        printf("%d\n", k);    }
+a) -2
+b) 2
+c) Compile time error
+d) NaN
+d
+8. Which among the following mathematical function do not have a “double” return-type?
+a) srand(x);
+b) ceil(x);
+c) floor(x);
+d) both ceil(x); and floor(x);
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Mathematical Functions – 1» Next - C Programming Questions and Answers – Random Number Generation – 1 

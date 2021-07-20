@@ -1,0 +1,104 @@
+1. What is a linear system?
+a) A system which follows homogeneity and additivity
+b) A system which follows additivity
+c) A system which follows homogeneity
+d) Almost every system is linear
+a
+Taking a system with which produces y1(t) as output for an input x1(t) and an output y2(t) for an input x2(t),
+HOMOGENITY: For input ax1(t), output should be ay1(t) and for input bx2(t), output should be by2(t).
+ADDITIVITY: For a input of sum of x1(t) and x2(t), output should be the sum of a y1(t) and y2(t), i.e. the sum of individual response
+Finally, if for an input of the sum of ax1(t) and bx2(t), if we get the output as sum of ay1(t) and by2(t) the system is both homogeneous and additive. This is similar to the superposition principle. No the system is linear.
+2. What is the output if the following code?
+if(eig(A)==eig(A’))
+disp(‘True’)
+a) True
+b) No output
+c) False
+d) Error
+d
+3. A student has to find a solution for a system of equations having three variables. He has defined the coefficient matrix as C while the variable matrix as d.  He observes that the system is homogeneous. So, to find the solution, he must first check
+a) Consistency
+b) Homogeneity
+c) Heterogeneity
+d) Linearity
+a
+Join [email protected]
+4. The command to find the eigen vector of a matrix in matrix form is _____________
+a) eig(a,matrix)
+b) eig(a,’matrix’)
+c) eigen(a,matr)
+d) eig(a)
+b
+5. The nature of the eigen matrix displayed in MATLAB is ___________
+a) Unsorted
+b) Sorted
+c) Sorted in Ascending order
+d) Sorted in Descending order
+a
+6. Checking the linearity of a system, the first thing we need to check is whether the system is __________
+a) Homogeneous or not
+b) Consistent or not
+c) Superposition
+d) Depends on the representation of the system
+d
+7. In MATLAB, how can we check linearity of systems represented by transfer function?
+a) Check waveforms after superpostion
+b) Compare rank of matrices
+c) Go for Rouche’s Theorem
+d) Intuition
+a
+8. How can we check in MATLAB if an electrical circuit is linear or not?
+a) Check consistency
+b) Superposition
+c) Superposition via Simulink
+d) Check homogeneity
+c
+9. How can we find the solution of a nonhomogeneous system of equations without dealing with the rank of matrices?
+a) Rouche’s theorem
+b) Cramer’s rule
+c) Gauss’s law
+d) Cannot be done
+b
+10. For a homogeneous system, Cramer’s rule will always yield a trivial solution in MATLAB.
+a) True
+b) False
+a
+11. To apply Cramer’s rule, the condition is _________
+a) Non-homogeneous system of equations
+b) Homogeneous system of equations
+c) Determinant of co-efficient matrix is not equal to 0
+d) No condition
+c
+12. To apply superposition in MATLAB, the condition, one of the condition is ___________
+a) No active element is present except sources
+b) No passive element is present
+c) System should have unilateral elements
+d) Nothing needs to be checked
+a
+13. A second order system with no initial condition is always linear.
+a) True
+b) False
+a
+14. To check the rank of a non-singular square matrix, we have to use ___________
+a) not required
+b) rankm()
+c) rankmatr()
+d) rank()
+d
+15. A student aims to use Cramer’s rule to find a solution for a homogeneous system. But while finding the solution, he observes that he is getting infinity as a solution. The code is
+p=X.\C
+X is the matrix created by replacing a column with constant co-efficients in the equation.
+C is the co-efficient matrix
+P is one of the variables in the system
+Is this a proper justification?
+a) Yes
+b) No
+c) Maybe
+d) It is not possible to find solutions in MATLAB
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Complex Arithmetic» Next - MATLAB Questions and Answers – Differentiation – 1 

@@ -1,0 +1,70 @@
+1. Which one of the following method is invoked when a value is assigned to an undefined property?
+a) __get()
+b) __set()
+c) __isset()
+d) __call()
+b
+2. Which one of the following method is invoked when an undefined method is called by client code?
+a) __get()
+b) __isset()
+c) __unset()
+d) __call()
+d
+3. Which method introduced in PHP 5, is invoked just before an object is a garbage collected?
+a) __collect()
+b) __garbage()
+c) __destruct()
+d) __destructor()
+c
+4. Which one of the following PHP statements is true?
+class CopyMe {}$first = new CopyMe();$second = $first;
+a) In PHP 4: $second and $first are 2 distinct objects
+b) In PHP 5: $second and $first are 2 distinct objects
+c) In PHP 4: $second and $first refer to one object
+d) None of the mentioned
+a
+5. Which keyword must be added before $first variable on the third line of the above question to make $second and $first as distinct objects in PHP 5?
+a) copy
+b) clone
+c) cut
+d) Can’t add any word to make them distinct
+b
+6. What will be the output of the following PHP code? (Before the version PHP 5.2)
+class StringThing {}$st = new StringThing();print $st;
+a) Object Not Found
+b) Object id #1
+c) PHP Catchable fatal error
+d) Cannot initialize object
+b
+7. What will be the output of the following PHP code?
+class Person {    function getName() { return "Bob"; }    function getAge() { return 44; }    function __toString() {        $desc = $this->getName();        $desc .= " (age ".$this->getAge().")";        return $desc;    }}$person = new Person();print $person;
+a) Object Not Found
+b) PHP Catchable fatal error
+c) BOB (age 44)
+d) BOB
+c
+8. __clone() is run on the ___ object.
+a) original
+b) pseudo
+c) external
+d) copied
+d
+9. Which method is invoked when an undefined property is accessed?
+a) __get()
+b) __isset()
+c) __unset()
+d) __undefined()
+a
+10. What will be the output of the following PHP code?
+class Checkout {    final function totalize()     {        // calculate bill    } } class IllegalCheckout extends Checkout {    final function totalize()     {        // change bill calculation    }}
+a) PHP Fatal error: Class IllegalCheckout may not inherit from final class
+b) Value of the bill calculated
+c) PHP Fatal error: Cannot find object
+d) PHP Fatal error: Cannot override final method
+d
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Object Advanced Features – 2» Next - PHP Questions & Answers – Object Tools-1 

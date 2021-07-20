@@ -1,0 +1,93 @@
+1. Which of these class object uses the key to store value?
+a) Dictionary
+b) Map
+c) Hashtable
+d) All of the mentioned
+d
+2. Which of these method is used to insert value and its key?
+a) put()
+b) set()
+c) insertElement()
+d) addElement()
+a
+3. Which of these is the interface of legacy is implemented by Hashtable and Dictionary classes?
+a) Map
+b) Enumeration
+c) HashMap
+d) Hashtable
+a
+4. Which of these is a class which uses String as a key to store the value in object?
+a) Array
+b) ArrayList
+c) Dictionary
+d) Properties
+d
+5. Which of these methods is used to retrieve the elements in properties object at specific location?
+a) get()
+b) Elementat()
+c) ElementAt()
+d) getProperty()
+d
+6. What will be the output of the following Java code?
+    import java.util.*;    class hashtable     {        public static void main(String args[])         {            Hashtable obj = new Hashtable();            obj.put("A", new Integer(3));            obj.put("B", new Integer(2));            obj.put("C", new Integer(8));            System.out.print(obj.contains(new Integer(5)));        }    }
+a) 0
+b) 1
+c) true
+d) false
+d
+Output:
+Join [email protected]
+$ javac hashtable.java
+$ java hashtable
+false
+7. What will be the output of the following Java code?
+    import java.util.*;    class hashtable     {        public static void main(String args[])         {            Hashtable obj = new Hashtable();            obj.put("A", new Integer(3));            obj.put("B", new Integer(2));            obj.put("C", new Integer(8));            obj.clear();            System.out.print(obj.size());        }    }
+a) 0
+b) 1
+c) 2
+d) 3
+a
+Output:
+$ javac hashtable.java
+$ java hashtable
+0
+8. What will be the output of the following Java code?
+    import java.util.*;    class hashtable     {        public static void main(String args[])         {            Hashtable obj = new Hashtable();            obj.put("A", new Integer(3));            obj.put("B", new Integer(2));            obj.put("C", new Integer(8));            obj.remove(new String("A"));            System.out.print(obj);        }    }
+a) {C=8, B=2}
+b) [C=8, B=2] 
+c) {A=3, C=8, B=2}
+d) [A=3, C=8, B=2] 
+a
+Output:
+$ javac hashtable.java
+$ java hashtable
+{C=8, B=2}
+9. What will be the output of the following Java code?
+    import java.util.*;    class hashtable     {        public static void main(String args[])         {            Hashtable obj = new Hashtable();            obj.put("A", new Integer(3));            obj.put("B", new Integer(2));            obj.put("C", new Integer(8));            System.out.print(obj.toString());        }    }
+a) {C=8, B=2}
+b) [C=8, B=2] 
+c) {A=3, C=8, B=2}
+d) [A=3, C=8, B=2] 
+c
+Output:
+$ javac hashtable.java
+$ java hashtable
+{A=3, C=8, B=2}
+10. What will be the output of the following Java code?
+    import java.util.*;    class properties     {        public static void main(String args[])         {            Properties obj = new Properties();            obj.put("AB", new Integer(3));            obj.put("BC", new Integer(2));            obj.put("CD", new Integer(8));            System.out.print(obj.keySet());        }    }
+a) {AB, BC, CD}
+b) [AB, BC, CD] 
+c) [3, 2, 8] 
+d) {3, 2, 8}
+b
+Output:
+$ javac properties.java
+$ java properties
+[AB, BC, CD].
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+ Here’s the list of Best Reference Books in Java Programming Language.
+To practice all areas of Java Problems, here is complete set on 1000+ Multiple Choice Questions and Answers on Java.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.util – Vectors & Stack» Next - Java Questions & Answers – Java.util – BitSet & Date class 

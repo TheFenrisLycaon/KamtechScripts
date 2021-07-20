@@ -1,0 +1,137 @@
+1. Every file system has a directory structure headed by ____
+a) parent
+b) child
+c) root
+d) kernel
+c
+2. Every file is associated with a table which contains all possible information about a file, that table is called as _________
+a) info table
+b) file table
+c) inode
+d) ps table
+c
+3. Which of the following is not a content of inode?
+a) file type
+b) file permission
+c) file size and links
+d) file name
+d
+•    file type
+•    file permissions
+•    an array of pointers that keeps track of all disk blocks used by the file
+•    file size and links
+•    The UID of owner and GID of a group owner
+•    Date and time of:
+o    Last access
+o    Last modification
+o    Last change of inode
+4. Which of the following is not stored in inode?
+a) file name
+b) inode number
+c) file size
+d) file name and inode number
+d
+5. Which option is used with ls command for knowing the inode number of the file?
+a) -l
+b) -i
+c) -a
+d) -o
+b
+$ ls  -il  abd.txt
+9059  -rw-r--r--    1  kumar   metallone   52626  Jan 21  11:54  abd.txt
+ 
+6. Two files can have a same inode number in the same file system.
+a) True
+b) False
+b
+7. When we can access a file with multiple filenames, it is said that the file has multiple _____
+a) names
+b) inode number
+c) links
+d) uid
+c
+8. Which command is used to link a file with multiple filenames?
+a) ln
+b) link
+c) hl
+d) sl
+a
+$ ln original_filename  link_name    
+$ ln  emp.lst  employee        //employee must not exist
+ 
+9. Which option is used with ln command to create a soft link?
+a) -a
+b) -l
+c) -s
+d) -e
+c
+$ ln  -s  original_filename  link_name
+$ ln  -s emp.lst  employee
+ 
+10. A hard-linked file is assigned the same inode number as the original value.
+a) True
+b) False
+a
+11. If we want to link files across the file systems, we have to use only soft links.
+a) True
+b) False
+a
+12.  The default permissions for a regular file are ____ and for directories are ____
+a) 777, 666
+b) 666, 777
+c) 000, 000
+d) 777, 777
+b
+13. We can change the default permission set for files and directories using ______
+a) umask
+b) um
+c) perm
+d) touch
+a
+$ umask
+022
+This is an octal number which is subtracted from the system default to obtain the actual default. Hence it will become 644 for ordinary files and 755 for directories. Now if we create any file or directory, the permissions associated will be 644 and 755 respectively. 
+14. Which command is used to change timestamps associated with a file?
+a) touch
+b) time
+c) umask
+d) ls
+a
+1. time of last file modification
+2. time of last access
+3. time of last inode modification
+These timestamps are changed using the touch command. 
+15. When touch command is used without any options or expression, both times are set to current time and the file is created if it doesn’t exist.
+a) True
+b) False
+a
+$ touch emp.txt
+ 
+16. Which option is used with touch command to change the time of last file modification?
+a) -a
+b) -m
+c) -r
+d) -i
+b
+$ touch -m 02281030  emp.txt ; ls  -l emp.txt
+rw-rw-rw  1  abd  metal  870 Feb  28  10:30  emp.txt
+17. -a option is used with touch command to alter the time of last access.
+a) True
+b) False
+a
+$ touch -a 01261650  emp.txt ; ls  -l emp.txt
+rw-rw-rw  1  abd  metal  870 Jan  26  16:50  emp.txt
+18. When touch command is used without any option but with an expression, which of the following timestamps are changed?
+a) modification time
+b) last access time
+c) last inode modification
+d) modification time and last access time
+d
+$ touch 03161430  emp.txt ; ls -l emp.txt
+rw-rw-rw-  1  kumar  metal  870 Mar 16 14:30  emp.txt
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix Questions and Answers – Shell Offerings» Next - Unix  Questions and Answers – Locating Files: find Command 

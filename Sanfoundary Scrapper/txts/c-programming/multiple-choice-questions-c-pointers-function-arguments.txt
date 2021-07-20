@@ -1,0 +1,71 @@
+This section on C MCQs (multiple choice questions) focuses on “Pointers and Function Arguments”. One shall practice these MCQs to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our multiple choice questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C multiple choice questions on “Pointers and Function Arguments” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void foo(int*);    int main()    {        int i = 10;        foo((&i)++);    }    void foo(int *p)    {        printf("%d\n", *p);    }
+a) 10
+b) Some garbage value
+c) Compile time error
+d) Segmentation fault/code crash
+c
+2. What will be the output of the following C code?
+    #include <stdio.h>    void foo(int*);    int main()    {        int i = 10, *p = &i;        foo(p++);    }    void foo(int *p)    {        printf("%d\n", *p);    }
+a) 10
+b) Some garbage value
+c) Compile time error
+d) Segmentation fault
+a
+3. What will be the output of the following C code?
+Join Sanfoundry@YouTube
+    #include <stdio.h>    void foo(float *);    int main()    {        int i = 10, *p = &i;        foo(&i);    }    void foo(float *p)    {        printf("%f\n", *p);    }
+a) 10.000000
+b) 0.000000
+c) Compile time error
+d) Undefined behaviour
+b
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 97, *p = &i;        foo(&i);        printf("%d ", *p);    }    void foo(int *p)    {        int j = 2;        p = &j;        printf("%d ", *p);    }
+a) 2 97
+b) 2 2
+c) Compile time error
+d) Segmentation fault/code crash
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 97, *p = &i;        foo(&p);        printf("%d ", *p);        return 0;    }    void foo(int **p)    {        int j = 2;        *p = &j;        printf("%d ", **p);    }
+a) 2 2
+b) 2 97
+c) Undefined behaviour
+d) Segmentation fault/code crash
+a
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 11;        int *p = &i;        foo(&p);        printf("%d ", *p);    }    void foo(int *const *p)    {        int j = 10;        *p = &j;        printf("%d ", **p);    }
+a) Compile time error
+b) 10 10
+c) Undefined behaviour
+d) 10 11
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 10;        int *p = &i;        foo(&p);        printf("%d ", *p);        printf("%d ", *p);    }    void foo(int **const p)    {        int j = 11;        *p = &j;        printf("%d ", **p);    }
+a) 11 11 11
+b) 11 11 Undefined-value
+c) Compile time error
+d) Segmentation fault/code-crash
+b
+8. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 10;        int *const p = &i;        foo(&p);        printf("%d\n", *p);    }    void foo(int **p)    {        int j = 11;        *p = &j;        printf("%d\n", **p);    }
+a) 11 11
+b) Undefined behaviour
+c) Compile time error
+d) Segmentation fault/code-crash
+a
+9. Which of the following is the correct syntax to send an array as a parameter to function?
+a) func(&array);
+b) func(#array);
+c) func(*array);
+d) func(array[size]);
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Pointers and Addresses – 2» Next - C Programming Questions and Answers – Pointers and Function Arguments – 2 

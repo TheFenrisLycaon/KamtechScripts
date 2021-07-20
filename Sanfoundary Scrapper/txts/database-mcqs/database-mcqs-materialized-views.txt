@@ -1,0 +1,94 @@
+1. Which normal form is considered adequate for normal relational database design?
+a) 2NF
+b) 5NF
+c) 4NF
+d) 3NF
+d
+2. Consider a schema R(A, B, C, D) and functional dependencies A -> B and C -> D. Then the decomposition of R into R1 (A, B) and R2(C, D) is
+a) dependency preserving and lossless join
+b) lossless join but not dependency preserving
+c) dependency preserving but not lossless join
+d) not dependency preserving and not lossless join
+d
+i) Dependency Preserving Property
+ii) Lossless-Join Property.
+3. Relation R with an associated set of functional dependencies, F, is decomposed into BCNF. The redundancy (arising out of functional dependencies) in the resulting set of relations is
+a) Zero
+b) More than zero but less than that of an equivalent 3NF decomposition
+c) Proportional to the size of F+
+d) Indeterminate
+b
+4. Which one of the following statements about normal forms is FALSE?
+a) BCNF is stricter than 3NF
+b) Lossless, dependency-preserving decomposition into 3NF is always possible
+c) Lossless, dependency-preserving decomposition into BCNF is always possible
+d) Any relation with two attributes is in BCNF
+c
+5. A table has fields F1, F2, F3, F4, and F5, with the following functional dependencies:
+F1->F3
+F2->F4
+(F1,F2)->F5
+in terms of normalization, this table is in
+a) 1NF
+b) 2NF
+c) 3NF
+d) None of the mentioned
+a
+6. Which of the following is TRUE?
+a) Every relation in 2NF is also in BCNF
+b) A relation R is in 3NF if every non-prime attribute of R is fully functionally dependent on every key of R
+c) Every relation in BCNF is also in 3NF
+d) No relation can be in both BCNF and 3NF
+c
+7. Consider the following functional dependencies in a database.
+   Date_of_Birth->Age            Age->Eligibility 
+   Name->Roll_number             Roll_number->Name 
+   Course_number->Course_name    Course_number->Instructor 
+   (Roll_number, Course_number)->Grade
+The relation (Roll_number, Name, Date_of_birth, Age) is
+a) In second normal form but not in third normal form
+b) In third normal form but not in BCNF
+c) In BCNF
+d) None of the mentioned
+d
+Date_of_Birth->Age
+Name->Roll_number
+Roll_number->Name
+Finding the closure set of attributes we get the candidate keys:(Roll_number,Date_of_Birth), and (Name,Date_of_Birth) .
+On selecting any one of the candidate key we can see that the FD Date_of_Birth->Age is a partial dependency. Hence the relation is in 1NF.
+8. The relation schema Student_Performance (name, courseNo, rollNo, grade) has the following FDs:
+name,courseNo->grade
+rollNo,courseNo->grade
+name->rollNo
+rollNo->name
+The highest normal form of this relation scheme is
+a) 2NF
+b) 3NF
+c) BCNF
+d) 4NF
+b
+9. The relation EMPDT1 is defined with attributes empcode(unique), name, street, city, state, and pincode. For any pincode, there is only one city and state. Also, for any given street, city and state, there is just one pincode. In normalization terms EMPDT1 is a relation in
+a) 1NF only
+b) 2NF and hence also in 1NF
+c) 3NF and hence also in 2NF and 1NF
+d) BCNF and hence also in 3NF, 2NF and 1NF
+b
+From the question we get the FDs as below:
+ pincode -> city, state
+ street,city,state -> pincode
+From the FDs we can see that there are transitive dependencies, hence the table is not in 3NF.
+10.  Which one of the following statements is FALSE?
+a) Any relation with two attributes is in BCNF
+b) A relation in which every key has only one attribute is in 2NF
+c) A prime attribute can be transitively dependent on a key in a 3 NF relation
+d) A prime attribute can be transitively dependent on a key in a BCNF relation
+d
+ * X contains A (that is, X -> A is trivial functional dependency), or
+ * X is a superkey, or
+ * A should be prime attribute.
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Estimating Statistics of Expression Results» Next - Database Questions and Answers – Advanced Query Optimization 

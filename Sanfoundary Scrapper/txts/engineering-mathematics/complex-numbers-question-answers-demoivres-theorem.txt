@@ -1,0 +1,53 @@
+1. Find the value of (1+i)100.
+a) 2100 (cos⁡100π+isin100π)
+b) 2100 (cos⁡25π+isin25π)
+c) 250 (cos⁡100π+isin100π)
+d) 250 (cos⁡25π+isin25π)
+d
+1+i=\(\sqrt 2 (\frac{1}{\sqrt 2}+\frac{i}{\sqrt 2})=\sqrt 2 (cos \frac{\pi}{4}+isin \frac{\pi}{4})\) 
+\((1+i)^{100}=(\sqrt 2 \left (cos \frac{\pi}{4}+isin \frac{\pi}{4}\right ))^{100}=2^{50}(\left(cos \frac{\pi}{4}+isin \frac{\pi}{4}\right))^{100}\) 
+By Applying the DeMoivre’s Theorem
+\((1+i)^{100}=2^{50} \left (cos 100\frac{\pi}{4}+isin 100\frac{\pi}{4} \right )\) 
+\((1+i)^{100}=2^{50} (cos⁡25\pi+isin25\pi)\).
+2. Find the value of (1-i)100.
+a) 2100 (cos⁡100π-isin100π)
+b) 2100 (cos⁡25π-isin25π)
+c) 250 (cos⁡25π-isin25π)
+d) 250 (cos⁡100π-isin100π)
+c
+\(1-i=\sqrt 2 (\frac{1}{\sqrt 2}-\frac{i}{\sqrt 2})=\sqrt 2 (cos \frac{\pi}{4}-isin \frac{\pi}{4})\) 
+\((1-i) ^{100}=(\sqrt 2 (cos \frac{\pi}{4}-isin \frac{\pi}{4})) ^{100}=2^{50}((cos \frac{\pi}{4}-isin \frac{\pi}{4})) ^{100}\) 
+By Applying the DeMoivre’s Theorem
+\((1-i)^{100}=2^{50} (cos \frac{100\pi}{4}-isin \frac{100\pi}{4})\) 
+\((1-i)^{100}=2^{50} (cos⁡25\pi-sin25\pi)\).
+3. If \(a=\frac{1}{\sqrt 2}+\frac{i}{\sqrt 2}\), find the value of a5 + conjugate of a5=?
+a) \(cos⁡ \frac{3\pi}{4}\) 
+b) \(2 sin ⁡\frac{5\pi}{4}\) 
+c) \(2 cos \frac{5\pi}{4}\) 
+d) \(cos \frac{5\pi}{4}\) 
+c
+\(a=(\frac{1}{\sqrt 2}+\frac{i}{\sqrt 2})=(cos \frac{\pi}{4}+isin \frac{\pi}{4})\) 
+Conjugate of a = \((\frac{1}{\sqrt 2}-\frac{i}{\sqrt 2})=(cos \frac{\pi}{4}-isin \frac{\pi}{4})\) 
+\(a^5\) + (conj of a)5=\((cos \frac{\pi}{4}+isin \frac{\pi}{4})^5+(cos \frac{\pi}{4}-isin \frac{\pi}{4})^5\) 
+By Applying the DeMoivre’s Theorem
+a5 + (conj of a)5 = \(cos⁡ \frac{5\pi}{4} +isin \frac{5\pi}{4}+cos⁡ \frac{5\pi}{4} -isin \frac{5\pi}{4}\) 
+a5 + (conj of a)5 = \(2 cos ⁡\frac{5\pi}{4}\).
+4. Evaluate \(\frac{(1+\sqrt 3 i) ^{16}}{(\sqrt 3-i) ^{17}}\).
+a) \(\frac{1}{2}×(cos \frac{\pi}{6}+isin \frac{\pi}{6})\) 
+b) \(\frac{1}{3}×(cos \frac{\pi}{6}+isin \frac{\pi}{6})\) 
+c) \(\frac{1}{2}×(cos \frac{\pi}{3}+isin \frac{\pi}{3})\) 
+d) \(\frac{1}{4}×(cos \frac{\pi}{6}+isin \frac{\pi}{6})\) 
+a
+\(1+\sqrt 3 i=2(cos \frac{\pi}{3}+isin \frac{\pi}{3})\) 
+\(\sqrt 3-i=2(cos \frac{\pi}{6}-isin \frac{\pi}{6})\) 
+\(\frac{(1+\sqrt 3 i) ^{16}}{(\sqrt 3-i) {^17}}=\frac{2^{16}(cos \frac{\pi}{3}+isin \frac{\pi}{3}) ^{16}}{2^{17}(cos \frac{\pi}{6}-isin \frac{\pi}{6}) ^{17}}\) 
+By Demoivre’s Theorem
+= \(\frac{1}{2}×(cos \frac{16\pi}{3}+isin \frac{16\pi}{3})(cos \frac{17\pi}{6}+isin \frac{17\pi}{6})\) 
+= \(\frac{1}{2}×(cos(\frac{⁡49\pi}{6})+isin(\frac{49\pi}{6}))\) 
+= \(\frac{1}{2}×(cos\frac{\pi}{6}+isin\frac{\pi}{6})\).
+Sanfoundry Global Education & Learning Series – Complex Analysis.
+To practice all areas of Complex Analysis, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Fourier Analysis Questions and Answers – Linear Difference Equations and Z – Transforms» Next - Complex Numbers Questions and Answers – Expansion of Trigonometric Functions 

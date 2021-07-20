@@ -1,0 +1,72 @@
+1. How the keyword “TYPE” is used?
+a) TYPE datatype_name IS type_from_predefined_datatypes;
+b) TYPE datatype_name IS datatype_range;
+c) TYPE datatype_range IS datatype_name;
+d) USE TYPE datatype_range IS datatype_name;
+b
+2. Which of the following is a wrong declaration for a new data type?
+a) TYPE my_logic IS RANGE 0 to 100;
+b) TYPE my_logic IS (‘0’, ‘1’, ‘2’);
+c) TYPE my_logic IS ARRAY (0 TO 3) OF BIT;
+d) TYPE my_logic IS  <0 TO 20 >
+d
+3. One can’t define an array without any constraints in VHDL.
+a) True
+b) False
+b
+4. A SUBTYPE can be defined as _________
+a) A TYPE under a TYPE (nested)
+b) A type of INTEGER datatype
+c) A TYPE with some constraint
+d) A TYPE without any constraint
+c
+5. Which of the following is the correct syntax for declaring a SUBTYPE?
+a) TYPE type_name IS type_range AND SUBTYPE subtype_name IS subtype_range
+b) SUBTYPE subtype_name IS subtype_range TYPE type_name
+c) SUBTYPE subtype_name TYPE type_name IS subtype_range
+d) SUBTYPE subtype_name IS TYPE subtype_range
+d
+6. Which of the following can’t be the value of x? Refer to the VHDL code given below.
+TYPE color IS (red, green, blue, black, white, gray);
+SUBTYPE primary IS color RANGE red to blue;
+VARIABLE x: primary;
+a) White
+b) Red
+c) Green
+d) Blue
+a
+7. Look at the following declarations:
+TYPE array1 IS ARRAY ( 0 TO 3 ) OF BIT_VECTOR (3 DOWNTO 0 ); 
+TYPE array 2 IS ARRAY ( 0 TO 3 ) OF array1;
+How many total bits can be stored in these arrays?
+a) 16
+b) 9
+c) 64
+d) 27
+c
+8. Refer to the four declarations below, which of the following is not a 2 dimensional array?
+TYPE array1 IS ARRAY ( 3 DOWNTO 0, 1 DOWNTO 0 ) OF STD_LOGIC;
+TYPE array2 IS ARRAY (3 DOWNTO 0 ) OF STD_LOGIC_VECTOR( 3 DOWNTO 0 );
+TYPE array3 IS ARRAY (2 DOWNTO 0 )  OF array2;
+TYPE array4 IS ARRAY ( 0 TO 3, 3 DOWNTO 0 ) OF BIT;
+a) array4
+b) array3
+c) array2
+d) array1
+b
+9. User can define its own integer data type.
+a) True
+b) False
+a
+10. Which of the following is a SUBTYPE of INTEGER?
+a) NATURAL
+b) REAL
+c) CHARACTER
+d) STD_LOGIC
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Data Objects and Types» Next - VHDL Questions and Answers – Data Conversion 

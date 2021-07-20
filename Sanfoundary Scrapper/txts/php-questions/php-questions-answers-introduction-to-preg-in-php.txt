@@ -1,0 +1,70 @@
+1. What will be the output of the following PHP code?
+    <?php    $number = array(0,1,two,three,four,5);    $num = preg_grep("/[0-5]/", $number);    print_r($num);    ?>
+a) Array([0]=>0 [1]=>1 [2]=>two [3]=>three [4]=>four [5]=>5)
+b) Array([2]=>two [3]=>three [4]=>four)
+c) Array([1]=> 1)
+d) Array([0]=>0 [1]=>1 [5]=>5)
+d
+2. What will be the output if we replace the line $num = preg_grep(“/[0-5]/”, $number); with $num = preg_grep(“/[0-5]/”, $number, PREG_GREP_INVERT);?
+a) Array([0]=>0 [1]=>1 [2]=>two [3]=>three [4]=>four [5]=>5)
+b) Array([2]=>two [3]=>three [4]=>four)
+c) Array([1]=> 1)
+d) Array([0]=>0 [5]=>5)
+b
+3. Which one of the following functions are used to search a string?
+a) preg_match
+b) preg_search
+c) preg_find
+d) preg_found
+a
+4. What will be the output of the following PHP code?
+    <?php    $name = "What is your name?";    if (preg_match("/name/"),$name)    echo "My name is Will Pitt ";    else    echo "My name is not Will Pitt ";    if (preg_match("/are/"))    echo "I am great";    else    echo "I am not great";        ?>
+a) My name is Will Pitt I am great
+b) My name is not Will Pitt I am great
+c) My name is Will Pitt I am not great
+d) My name is not Will Pitt I am not great
+c
+5. Which one of the following preg PHP function is used to do a find and replace on a string or an array?
+a) preg_replace()
+b) preg_find()
+c) preg_find_replace()
+d) preg_findre()
+a
+6. What will be the output of the following PHP code?
+    <?php    $str = "Hello! My name is Cameron Fox. Coffee?";    $find = array('/is/','/coffee/');    $replace = array('/was/','/tea/');    echo preg_replace ($find, $replace, $str);    ?>
+a) Hello! My name was Cameron Fox. tea?
+b) Hello! My name is Cameron Fox. tea?
+c) Hello! My name is Cameron Fox. Coffee?
+d) Hello! My name was Cameron Fox. Coffee?
+d
+7. Which one of the following preg PHP functions is used to take a string, and put it in an array?
+a) preg_destroy()
+b) preg_split()
+c) preg_unchain()
+d) preg_divide()
+b
+8. What will be the output of the following PHP code?
+    <?php    $line = "You like dogs. I hate dogs. We should marry.";    $sen = preg_split('/\./', $line);    print_r($sen);    ?>
+a) You like dogs. I hate dogs. We should marry.
+b) Array([0]=>You like dogs. I hate dogs. We should marry.)
+c) Array([0]=>You like dogs. [1]=>I hate dogs. [2]=>We should marry.)
+d) Error
+c
+9. Which one of the following is not a preg PHP function?
+a) preg_match
+b) preg_match_all
+c) preg_matchall
+d) preg_split
+c
+10. Parameter flags was added in which version of PHP?
+a) PHP 4.0
+b) PHP 4.1
+c) PHP 4.2
+d) PHP 4.3
+d
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Website Security using PHP» Next - PHP Questions & Answers – Working with Databases-1 

@@ -1,0 +1,241 @@
+1. What are the references in C++?
+a) An alternative name for already existing variables
+b) A pointer to a variable
+c) A new type of variables
+d) A new type of constant variable
+a
+2. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+ 
+using namespace std;
+ 
+int main(int argc, char const *argv[])
+{
+	int &q = 5;
+	cout<<q;
+	return 0;
+}
+a) 5
+b) Run-time error
+c) Segmentation fault
+d) Compile-time error
+d
+3. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+ 
+using namespace std;
+ 
+int main(int argc, char const *argv[])
+{
+	int &p;
+	int a = 5;
+	&p = a;
+	cout<<p;
+	return 0;
+}
+a) 5
+b) 55
+c) Error
+d) Segmentation fault
+c
+Join [email protected]
+4. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+ 
+using namespace std;
+ 
+int main(int argc, char const *argv[])
+{
+	int a = 5;
+	int &p = a;
+	cout<<p;
+	return 0;
+}
+a) 5
+b) Run-time error
+c) Segmentation fault
+d) Compile-time error
+a
+5. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+ 
+using namespace std;
+ 
+int main(int argc, char const *argv[])
+{
+	int a = 5;
+	int *p = &a;
+	int &q = p;
+	cout<<p;
+	return 0;
+}
+a) 5
+b) Run-time error
+c) Segmentation fault
+d) Compile-time error
+d
+6. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+ 
+using namespace std;
+ 
+int main(int argc, char const *argv[])
+{
+	int a = 5;
+	int *p = &a;
+	int *(&q) = p;
+	cout<<q;
+	return 0;
+}
+a) 5
+b) Address of pointer a
+c) Address of pointer p
+d) Error
+b
+7. What is the difference between references and pointers?
+a) References are an alias for a variable whereas pointer stores the address of a variable
+b) References and pointers are similar
+c) References stores address of variables whereas pointer points to variables
+d) Pointers are an alias for a variable whereas references stores the address of a variable
+a
+8. Pick the correct statement about references in C++.
+a) References stores the address of variables
+b) References and variables both have the same address
+c) References use dereferencing operator(*) to access the value of variable its referencing
+d) References were also available in C
+b
+9. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+ 
+using namespace std;
+ 
+int main(int argc, char const *argv[])
+{
+	int a = 5;
+	int *p = &a;
+	int &q = a;
+	cout<<p<<endl;
+	cout<<q<<endl;
+	return 0;
+}
+a) Address of a followed by 5 in next line
+b) Address of p followed by 5 in next line
+c) Address of a followed by Address of a in next line
+d) Address of p followed by Address of q in next line
+a
+10. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+ 
+using namespace std;
+ 
+int main(int argc, char const *argv[])
+{
+	int a = 5;
+	int *p = &a;
+	int &q = a;
+	cout<<*p<<endl;
+	cout<<*q<<endl;
+	return 0;
+}
+a) Address of a followed by 5 in next line
+b) Address of p followed by 5 in next line
+c) Run time error
+d) Compile time error
+d
+11. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+ 
+using namespace std;
+ 
+int main(int argc, char const *argv[])
+{
+	int a = 5;
+	int &q = a;
+	cout<<&a<<endl;
+	cout<<&q<<endl;
+	return 0;
+}
+a) 
+5
+5
+b) Address of p followed by 5 in next line
+c) 5 followed by Address of a in next line
+d) Address of a followed by Address of a in next line
+d
+12. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+ 
+using namespace std;
+ 
+int main(int argc, char const *argv[])
+{
+	int &q = NULL;
+	cout<<q;
+	return 0;
+}
+a) NULL
+b) 0
+c) Address of NULL
+d) Error
+d
+13. Pick the correct statement about references.
+a) References can be assigned value NULL
+b) References once assigned cannot be changed to refer another variable
+c) Reference should not be initialized when created
+d) Reference is the same as pointers
+b
+14. Which of the following operator is used while declaring references?
+a) *
+b) &
+c) ^
+d) ->
+b
+15. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+ 
+using namespace std;
+ 
+void func(const int &a)
+{
+	int temp = 10;
+	a = temp;
+	cout<<a;
+}
+ 
+int main(int argc, char const *argv[])
+{
+	int a = 5;
+	func(a);
+	return 0;
+}
+a) 5
+b) 10
+c) Error
+d) Segmentation fault
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – References – 1» Next - C++ Programming Questions and Answers – References – 3 

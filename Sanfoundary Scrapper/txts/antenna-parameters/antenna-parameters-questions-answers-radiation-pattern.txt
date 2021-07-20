@@ -1,0 +1,74 @@
+1. Units of radiation intensity is _______
+a) Watts/unit Solid angle
+b) Watts/m2
+c) Watts- m2
+d) Watts
+a
+2. The graphical representation of the radiation properties of the antenna as a function of space coordinates is called Radiation pattern.
+a) True
+b) False
+a
+3. What is the total power radiated in Watts for the power density \(w_r=\frac{4sin\theta}{3r^2}a_r W/m^2\)?
+a) 4π2
+b) 8π2/3
+c) 4π2/3
+d) 2π2/3
+c
+\(=\iint_{\theta = 0}^{\pi} w_r.r^2 sin\theta d\theta d\emptyset\) 
+\(=\iint_{\theta = 0}^π\frac{4sin\theta}{3r^2}r^2sin\theta d\theta d \emptyset\) 
+\(=\iint_{\theta = 0}^π \frac{4}{3}sin^2\theta d\theta d\emptyset=\iint_{\theta=0}^π\frac{4}{3}(\frac{1-cos2\theta}{2})d\theta d\emptyset\) 
+\(=\frac{4}{3}(\frac{1}{2})(π)(2π)=\frac{4}{3}\) π2.
+4. Which of the following pattern varies with square of magnitude of field?
+a) Power Pattern
+b) Electric Field Pattern
+c) Current distribution
+d) Array Factor
+a
+5. The radiation lobe containing the direction of maximum radiation is called as _____
+a) Major lobe
+b) Minor lobe
+c) Side lobe
+d) Back lobe
+a
+6. Fresnel zone is also called as ____
+a) Near Field
+b) Far Field
+c) Electrostatic Field
+d) Reactive Field
+a
+7. If FNBW is 6°, then resolution is ____
+a) 12°
+b) 3°
+c) 2°
+d) 6°
+b
+8. For a center fed short antenna, current distribution is _____ at center and ____ at ends.
+a) Low, high
+b) High, high
+c) Low, low
+d) High, low
+d
+9. Which pattern represents a plot with magnitude of field strength Vs θ  at a constant φ?
+a) E-plane pattern
+b) H-plane pattern
+c) Horizontal pattern
+d) Power pattern
+a
+10. The portion of the near field immediate to the surrounding the antenna is called as _____
+a) Reactive near-field
+b) Radiating near-field
+c) Fraunhofer zone
+d) Far field
+a
+11. The region of the field that angular field distribution is independent of the distance from the antenna is called as _______
+a) Reactive near-field
+b) Radiating near-field
+c) Fresnel zone
+d) Far field
+d
+Sanfoundry Global Education & Learning Series – Antennas.
+To practice all areas of Antennas, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antenna Parameters Questions and Answers – Antenna Characteristics» Next - Antenna Parameters Questions and Answers – Isotropic Radiators 

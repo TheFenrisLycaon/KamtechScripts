@@ -1,0 +1,79 @@
+1. A turing machine that is able to simulate other turing machines:
+a) Nested Turing machines
+b) Universal Turing machine
+c) Counter machine
+d) None of the mentioned
+b
+2. Which of the problems are unsolvable?
+a) Halting problem
+b) Boolean Satisfiability problem
+c) Both (a) and (b)
+d) None of the mentioned
+c
+3. Which of the following a turing machine does not consist of?
+a) input tape
+b) head
+c) state register
+d) none of the mentioned
+d
+4. The value of n if turing machine is defined using n-tuples:
+a) 6
+b) 7
+c) 8
+d) 5
+b
+The 7-tuple definition of turing machine: (Q, S, G, d, q0, B, F)
+where Q= The finite set of states of finite control
+S= The finite set of input symbols
+G= The complete set of tape symbols
+d= The transition function
+q0= The start state, a member of Q, in which the finite control is found initially.
+B= The blank symbol
+F= The set of final or accepting states, a subset of Q.
+5. If  d is not defined on the current state and the current tape symbol, then the machine ______
+a) does not halts
+b) halts
+c) goes into loop forever
+d) none of the mentioned
+b
+6. Statement: Instantaneous descriptions can be designed for a Turing machine.
+State true or false:
+a) true
+b) false
+a
+7. Which of the following are the models equivalent to Turing machine?
+a) Multi tape turing machine
+b) Multi track turing machine
+c) Register machine
+d) All of the mentioned
+d
+8. Which among the following is incorrect for o-machines?
+a) Oracle Turing machines
+b) Can be used to study decision problems
+c) Visualizes Turing machine with a black box which is able to decide cerain decion problems in one operation
+d) None of the mentioned
+d
+9. RASP stands for:
+a) Random access storage program
+b) Random access stored program
+c) Randomly accessed stored program
+d) Random access storage programming
+b
+10. Which of the following is not true about RASP?
+a) Binary search can be performed more quickly using RASP than a turing machine
+b) Stores its program in memory external to its state machines instructions
+c) Has infinite number of distinguishable, unbounded registers
+d) Binary search can be performed less quickly using RASP than a turing machine
+e) More than two options are incorrect
+d
+11. State true or false:
+Statement: RASP is to RAM like UTM is to turing machine.
+a) true
+b) false
+a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers – Turing Machine-Notation and Transition Diagrams» Next - Automata Theory Questions and Answers –  The Language of Turing Machine-2 

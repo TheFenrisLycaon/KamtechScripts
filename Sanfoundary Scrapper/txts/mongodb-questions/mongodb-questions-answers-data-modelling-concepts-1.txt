@@ -1,0 +1,68 @@
+1. ___________ data models allow applications to store related pieces of information in the same database record.
+a) Reference
+b) Embedded
+c) External
+d) None of the mentioned
+b
+2. Point out the correct statement.
+a) With MongoDB, you cannot embed related data in a single structure or document
+b) The key consideration for the structure of your documents is the decision to embed or to use references
+c) Reference schema is generally known as “denormalized” models
+d) None of the mentioned
+b
+3. Embedded data model is used when you have _________ relationships between entities.
+a) contains
+b) isa
+c) inheritance
+d) all of the mentioned
+a
+4. Normalized data models describe relationships using ___________ between documents.
+a) relativeness
+b) references
+c) evaluation
+d) none of the mentioned
+b
+5. Point out the wrong statement.
+a) Embedded data models make it possible to update related data in a single atomic write operation
+b) Embedding related data in documents may lead to situations where documents grow after creation
+c) With the MMAPv1 storage engine, document growth can impact write performance and lead to data fragmentation
+d) All of the mentioned
+d
+6. To interact with embedded documents, use ___________ notation to “reach into” embedded documents.
+a) period
+b) dot
+c) comma
+d) colon
+b
+Join [email protected]
+7. MongoDB using the mmapv1 storage engine has limits on the number of __________
+a) namespaces
+b) collections
+c) documents
+d) none of the mentioned
+a
+8. To get the current number of namespaces in the mongo shell, use ________________
+a) db.system.namespaces.countc()
+b) db.system.namespaces.count(*)
+c) db.system.namespaces.count()
+d) all of the mentioned
+c
+9. The __________ feature of collections expires documents after a period of time.
+a) TEL
+b) TTL
+c) TPL
+d) None of the mentioned
+b
+10. Capped collections provide __________ management of inserted documents in MongoDB.
+a) FIFO
+b) LIFO
+c) LRU
+d) MRU
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Data Modeling Introduction» Next - MongoDB Questions and Answers – Data Modeling Concepts – 2 

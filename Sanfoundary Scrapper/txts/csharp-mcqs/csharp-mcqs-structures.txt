@@ -1,0 +1,113 @@
+1. What will be the correct statement in the following C# code?
+struct book{    private String name;    private int pages;    private Single price;}book b = new book();
+a) New structure can be inherited from struct book
+b) When the program terminates, variable b will get garbage collected
+c) The structure variable ‘b’ will be created on the stack
+d) When the program terminates,  variable b will get garbage collected
+c
+2. What will be the correct statement in the following C# code?
+class trial{    int i;    float d;}struct sample{    private int x;    private Single y;    private trial z;}sample s = new sample();
+a) trial object referred by z is created on the stack
+b) z is created on the heap
+c) Both s and z will be created on the heap
+d) s will be created on the stack
+d
+3. Choose the correct statement among the following which supports the fact that C# does not allow the creation of empty structures?
+a) C#.NET supports creation of abstract user-defined data types using structures
+b) By having empty structures, it would mean that the new data types have no data associated with, which does not make any sense in C#.NET
+c) Basic reason to create structures is the inability to represent real life objects using standard data types offered by the language
+d) All of the mentioned
+d
+4. Choose the correct statement about structures as to why they are defined as value types but not reference types?
+a) Since space required for structure variables is allocated on stack which is a form of memory that is automatically available when a variable to be used is in scope
+b) Structures generally are used to represent user defined data types that consists of small amount of data in them. Hence using stack for declaration of such variables is not a problem
+c) All of the mentioned
+d) None of the mentioned
+c
+5. Choose the wrong statement about structures in C#.NET?
+a) Structures can be declared within a procedure
+b) Structures can implement an interface but they cannot inherit from another structure
+c) Structure members cannot be declared as protected
+d) A structure cannot be empty
+a
+6. The correct way to define a variable of type struct abc in the following C# code?
+ struct abc {      public string name;     protected internal int age;     private Single sal; }
+a) abc e = new abc();
+b) abc();
+c) 
+abc e;
+e = new abc;
+d) abc e = new abc;
+a
+7. Which of the following is the correct way to settle down values into the structure variable ‘e’ defined in the following C# code snippet?
+ struct emp {      public String name;     public int age;     public Single sal; } emp e = new emp();
+a)
+     e.name = "Ankit";     e.age = 24;     e.sal = 200;
+b)
+   With emp e   {     .name = "Ankit";     .age = 24;     .sal = 200;   }
+c)
+   name = "Ankit";   age = 24;   sal = 200;
+d) All of the mentioned
+a
+8. When does a structure variable get destroyed?
+a) When no reference refers to it, it will get garbage collected
+b) Depends on whether it is created using new or without new operator
+c) As variable goes out of the scope
+d) Depends on either we free its memory using free() or delete()
+c
+9. Calculate the number of bytes a structure variable s occupies in the memory if it is defined as follows.
+  class abc  {      int i;      Decimal d;  }  struct sample  {     private int x;     private Single y;     private trial z;  }  sample s = new sample();
+a) 24 bytes
+b) 8 bytes
+c) 16 bytes
+d) 12 bytes
+d
+Output –
+12 bytes
+10. What will be the output of the following C# code?
+{    struct abc    {        public int i;    }      class Program    {        static void Main(string[] args)        {            sample a = new sample();            a.i = 10;            fun(ref a);            Console.WriteLine(a.i);        }        public static voidn fun(ref sample x)        {            x.i = 20;             Console.WriteLine(x.i);        }    }}
+a) 
+   10
+   10
+b) 
+   20
+   10
+c) 
+   10
+   20
+d) 
+   20
+   20
+d
+Output –
+         20
+         20
+11. Select the wrong statements among the following?
+a) A structure can contain properties
+b) A structure can contain constructors
+c) A structure can contain protected data members
+d) A structure can contain constants
+c
+12. Which of the following is the correct result for the given statement in the C#.NET statement given below?
+    p = q
+struct employee{    private int employee id;    private string city;}employee q = new employee();employee p;p = q;
+a) Elements of ‘q’ will be copied into corresponding elements of p
+b) Address stored in q will get copied into p
+c) Address of first element of q will get copied into p
+d) Once assignment is over. q will go out of scope and hence get exited forever
+a
+13. What will be the output of the following C# code?
+ {     struct abc     {         int i;     }     class Program     {         static void Main(string[] args)         {             abc x = new abc();             abc z;             x.i = 10;             z = x;             z.i = 15;             console.Writeline(x.i + "  " + y.i)         }     } }
+a) 10 10
+b) 10 15
+c) 15 10
+d) 15 15
+b
+Output:
+ 10 15
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers –  Polymorphism» Next - C# Questions & Answers – Enumerations 

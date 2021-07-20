@@ -1,0 +1,55 @@
+1. Concurrent access to shared data may result in ____________
+a) data consistency
+b) data insecurity
+c) data inconsistency
+d) none of the mentioned
+c
+2. A situation where several processes access and manipulate the same data concurrently and the outcome of the execution depends on the particular order in which access takes place is called ____________
+a) data consistency
+b) race condition
+c) aging
+d) starvation
+b
+3. The segment of code in which the process may change common variables, update tables, write into files is known as ____________
+a) program
+b) critical section
+c) non – critical section
+d) synchronizing
+b
+4. Which of the following conditions must be satisfied to solve the critical section problem?
+a) Mutual Exclusion
+b) Progress
+c) Bounded Waiting
+d) All of the mentioned
+d
+5. Mutual exclusion implies that ____________
+a) if a process is executing in its critical section, then no other process must be executing in their critical sections
+b) if a process is executing in its critical section, then other processes must be executing in their critical sections
+c) if a process is executing in its critical section, then all the resources of the system must be blocked until it finishes execution
+d) none of the mentioned
+a
+6. Bounded waiting implies that there exists a bound on the number of times a process is allowed to enter its critical section ____________
+a) after a process has made a request to enter its critical section and before the request is granted
+b) when another process is in its critical section
+c) before a process has made a request to enter its critical section
+d) none of the mentioned
+a
+7. A minimum of _____ variable(s) is/are required to be shared between processes to solve the critical section problem.
+a) one
+b) two
+c) three
+d) four
+b
+8. In the bakery algorithm to solve the critical section problem ____________
+a) each process is put into a queue and picked up in an ordered manner
+b) each process receives a number (may or may not be unique) and the one with the lowest number is served next
+c) each process gets a unique number and the one with the highest number is served next
+d) each process gets a unique number and the one with the lowest number is served next
+b
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions and Answers – CPU Scheduling Algorithms-2» Next - Operating System Questions and Answers – Semaphores – 1 

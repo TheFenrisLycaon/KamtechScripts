@@ -1,0 +1,66 @@
+1. In order to reduce the overhead in retrieving the records from the storage space we use
+a) Logs
+b) Log buffer
+c) Medieval space
+d) Lower records
+b
+2. The order of log records in the stable storage ____________ as the order in which they were written to the log buffer.
+a) Must be exactly the same
+b) Can be different
+c) Is opposite
+d) Can be partially same
+a
+3. Before a block of data in main memory can be output to the database, all log records pertaining to data in that block must have been output to stable storage. This is
+a) Read-write logging
+b) Read-ahead logging
+c) Write-ahead logging
+d) None of the mentioned
+c
+4. Writing the buffered log to __________ is sometimes referred to as a log force.
+a) Memory
+b) Backup
+c) Redo memory
+d) Disk
+d
+5. The _______________ policy, allows a transaction to commit even if it has modified some blocks that have not yet been written back to disk.
+a) Force
+b) No-force
+c) Steal
+d) No-steal
+b
+6. ______________ policy allows multiple updates to accumulate on a block before it is output to stable storage, which can reduce the number of output operations greatly for frequently updated blocks.
+a) Force
+b) No-force
+c) Steal
+d) No-steal
+b
+7. The ___________ policy, allows the system to write modified blocks to disk even if the transactions that made those modifications have not all committed.
+a) Force
+b) No-force
+c) Steal
+d) No-steal
+c
+8. Locks on buffer blocks are unrelated to locks used for concurrency-control of transactions, and releasing them in a non-two-phase manner does not have any implications on transaction serializability. This is
+a) Latches
+b) Swap Space
+c) Dirty Block
+d) None of the mentioned
+a
+9. The __________________ contains a list of blocks that have been updated in the database buffer.
+a) Latches
+b) Swap Space
+c) Dirty Block
+d) None of the mentioned
+c
+10. The operating system reserves space on disk for storing virtual-memory pages that are not currently in main memory; this space is called
+a) Latches
+b) Swap Space
+c) Dirty Block
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Recovery» Next - Database Questions and Answers – Failure with Nonvolatile Storage 

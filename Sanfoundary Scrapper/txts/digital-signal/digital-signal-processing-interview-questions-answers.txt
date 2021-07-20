@@ -1,0 +1,128 @@
+1. Which of the following relation is true if the signal x(n) is real?
+a) X*(ω)=X(ω)
+b) X*(ω)=X(-ω)
+c) X*(ω)=-X(ω)
+d) None of the mentioned
+b
+X(ω)=\(\sum_{n=-∞}^∞ x(n)e^{-jωn}\) 
+=> X*(ω)=\([\sum_{n=-∞}^∞ x(n)e^{-jωn}]^*\) 
+Given the signal x(n) is real. Therefore,
+X*(ω)=\(\sum_{n=-∞}^∞ x(n)e^{jωn}\) 
+=> X*(ω)=X(-ω).
+2. For a signal x(n) to exhibit even symmetry, it should satisfy the condition |X(-ω)|=| X(ω)|.
+a) True
+b) False
+a
+X*(ω)=X(-ω)
+If the signal is even symmetric, then the magnitude on both the sides should be equal.
+So, |X*(ω)|=|X(-ω)| => |X(-ω)|=|X(ω)|.
+3. What is the energy density spectrum Sxx(ω) of the signal x(n)=anu(n), |a|<1?
+a) \(\frac{1}{1+2acosω+a^2}\) 
+b) \(\frac{1}{1+2asinω+a^2}\) 
+c) \(\frac{1}{1-2asinω+a^2}\) 
+d) \(\frac{1}{1-2acosω+a^2}\) 
+d
+\(\sum_{n=-∞}^∞|x(n)| = \sum_{n=-∞}^∞ |a|^n = \frac{1}{1-|a|} \lt ∞\) 
+Hence the Fourier transform of x(n) exists and is obtained as
+X(ω) = \(\sum_{n=-∞}^∞ a^n e^{-jωn}=\sum_{n=-∞}^∞ (ae^{-jω})^n\) 
+Since |ae-jω|=|a|<1, use of the geometric summation formula again yields
+X(ω)=\(\frac{1}{1-ae^{-jω}}\) 
+The energy density spectrum is given by
+Sxx(ω)=|X(ω)|2= X(ω).X*(ω)=\(\frac{1}{(1-ae^{-jω})(1-ae^{jω})} = \frac{1}{1-2acosω+a^2}\).
+4. What is the Fourier transform of the signal x(n) which is defined as shown in the graph below?
+a) Ae-j(ω/2)(L)\(\frac{sin⁡(\frac{ωL}{2})}{sin⁡(\frac{ω}{2})}\) 
+b) Aej(ω/2)(L-1)\(\frac{sin⁡(\frac{ωL}{2})}{sin⁡(\frac{ω}{2})}\) 
+c) Ae-j(ω/2)(L-1)\(\frac{sin⁡(\frac{ωL}{2})}{sin⁡(\frac{ω}{2})}\) 
+d) None of the mentioned
+c
+X(ω)=\(\sum_{n=0}^{L-1} Ae^{-jωn}\) 
+=A.\(\frac{1-e^{-jωL}}{1-e^{-jω}}\) 
+=\(Ae^{-j(ω/2)(L-1)}\frac{sin⁡(\frac{ωL}{2})}{sin⁡(\frac{ω}{2})}\) 
+5. Which of the following condition is to be satisfied for the Fourier transform of a sequence to be equal as the Z-transform of the same sequence?
+a) |z|=1
+b) |z|<1
+c) |z|>1
+d) Can never be equal
+a
+Z{x(n)}=\(\sum_{n=-∞}^∞ x(n)z^{-n} and X(ω)=\sum_{n=-∞}^∞ x(n)e^{-jωn}\) 
+Now, represent the ‘z’ in the polar form
+=> z=r.ejω
+=>Z{x(n)}=\(\sum_{n=-∞}^∞ x(n)r^{-n} e^{-jωn}\) 
+Now Z{x(n)}= X(ω) only when r=1=>|z|=1.
+6. The sequence x(n)=\(\frac{sin⁡ ω_c n}{πn}\) does not have both z-transform and Fourier transform.
+a) True
+b) False
+b
+7. If x(n) is a stable sequence so that X(z) converges on to a unit circle, then the complex cepstrum signal is defined as ____________
+a) X(ln X(z))
+b) ln X(z)
+c) X-1(ln X(z))
+d) None of the mentioned
+c
+=> cx(z)= X-1(ln X(z))
+8. If cx(n) is the complex cepstrum sequence obtained from the inverse Fourier transform of ln X(ω), then what is the expression for cθ(n)?
+a) \(\frac{1}{2π} \int_0^π \theta(ω) e^{jωn} dω\) 
+b) \(\frac{1}{2π} \int_{-π}^π \theta(ω) e^{-jωn} dω\) 
+c) \(\frac{1}{2π} \int_0^π \theta(ω) e^{jωn} dω\) 
+d) \(\frac{1}{2π} \int_{-π}^π \theta(ω) e^{jωn} dω\) 
+d
+cx(n)=\(\frac{1}{2π} \int_{-π}^π ln⁡(X(ω))e^{jωn} dω\) 
+If we express X(ω) in terms of its magnitude and phase, say
+X(ω)=|X(ω)|ejθ(ω)
+Then ln X(ω)=ln |X(ω)|+jθ(ω)
+=> cx(n)=\(\frac{1}{2π} \int_{-π}^π[ln|X(ω)|+jθ(ω)]e^{jωn} dω\) => cx(n)=cm(n)+jcθ(n)(say)
+=> cθ(n)=\(\frac{1}{2π} \int_{-π}^πθ(ω) e^{jωn} dω\) 
+9. What is the Fourier transform of the signal x(n)=u(n)?
+a) \(\frac{1}{2sin⁡(ω/2)} e^{j(ω+π)}\) 
+b) \(\frac{1}{2sin⁡(ω/2)} e^{j(ω-π)}\) 
+c) \(\frac{1}{2sin⁡(ω/2)} e^{j(ω+π)/2}\) 
+d) \(\frac{1}{2sin⁡(ω/2)} e^{j(ω-π)/2}\) 
+d
+We know that the z-transform of the given signal is X(z)=\(\frac{1}{1-z^{-1}}\) ROC:|z|>1
+X(z) has a pole p=1 on the unit circle, but converges for |z|>1.
+If we evaluate X(z) on the unit circle except at z=1, we obtain
+X(ω) = \(\frac{e^{jω/2}}{2jsin(ω/2)} = \frac{1}{2sin⁡(ω/2)} e^{j(ω-π)/2}\)
+10. If a power signal has its power density spectrum concentrated about zero frequency, the signal is known as ______________
+a) Low frequency signal
+b) Middle frequency signal
+c) High frequency signal
+d) None of the mentioned
+a
+11. What are the main characteristics of Anti aliasing filter?
+a) Ensures that bandwidth of signal to be sampled is limited to frequency range
+b) To limit the additive noise spectrum and other interference, which corrupts the signal
+c) All of the mentioned
+d) None of the mentioned
+c
+12. In general, a digital system designer has better control of tolerances in a digital signal processing system than an analog system designer who is designing an equivalent analog system.
+a) True
+b) False
+a
+13. The term ‘bandwidth’ represents the quantitative measure of a signal.
+a) True
+b) False
+a
+14. If F1 and F2 are the lower and upper cutoff frequencies of a band pass signal, then what is the condition to be satisfied to call such a band pass signal as narrow band signal?
+a) (F1-F2)>\(\frac{F_1+F_2}{2}\)(factor of 3 or less)
+b) (F1-F2)⋙\(\frac{F_1+F_2}{2}\)(factor of 10 or more)
+c) (F1-F2)<\(\frac{F_1+F_2}{2}\)(factor of 3 or less)
+d) (F1-F2)⋘\(\frac{F_1+F_2}{2}\)(factor of 10 or more)
+d
+15. What is the frequency range(in Hz)  of Electroencephalogram(EEG)?
+a) 10-40
+b) 1000-2000
+c) 0-100
+d) None of the mentioned
+c
+16. Which of the following electromagnetic signals has a frequency range of 30kHz-3MHz?
+a) Radio broadcast
+b) Shortwave radio signal
+c) RADAR
+d) Infrared signal
+a
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Frequency Analysis of Discrete Time Signal – 1» Next - Digital Signal Processing Questions and Answers – Properties of Fourier Transform  for Discrete Time Signals 

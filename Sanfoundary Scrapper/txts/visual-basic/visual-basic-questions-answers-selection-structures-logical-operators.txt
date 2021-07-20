@@ -1,0 +1,88 @@
+1. __________ operator reverses the truth value of the operation.
+a) AND
+b) OR
+c) NOT
+d) NAND
+c
+If NOT str Then
+  The above statement returns true, if the value contained in str is false. Else it returns False.
+2. __________ operator returns true, if all the sub-conditions are true.
+a) AND
+b) OR
+c) NOT
+d) NAND
+a
+If a AND b Then
+  The above statement returns true, if both a and b is true. If any one of a and b is false, it returns false.
+3. __________ operator returns true, if any of the sub-condition is true.
+a) AND
+b) OR
+c) NOT
+d) NAND
+b
+If a OR b Then
+  The above statement evaluates to true, if any one of a or b is true. If both a and b is false it returns false.
+4. And operator checks both the sub-conditions whereas AndAlso operator does __________
+a) Short-circuit evaluation
+b) Short-hand evaluation
+c) Short evaluation
+d) Circuit evaluation
+a
+5. And operator checks both the sub-conditions whereas OrElse operator does __________
+a) Short-circuit evaluation
+b) Short-hand evaluation
+c) Short evaluation
+d) Circuit evaluation
+a
+6. In the below statement when true is returned?
+If str=”USE” Xor strln=”USE” Then
+a) When both the sub-conditions are true
+b) When only one sub-condition is true
+c) When both the sub-conditions are false
+d) It never returns true
+b
+7. Which logical operator does not allow us to combine two or more conditions?
+a) AND
+b) OR
+c) NOT
+d) NAND
+c
+8. What will be in Msg after the following code is evaluated?
+If 5*3>3^2 AndAlso True OrElse False Then
+Msg=”Hi”
+Else
+Msg=”Bye”
+Endif
+a) Hi
+b) Bye
+c) True
+d) False
+a
+9. What will be in Msg after the following code is evaluated?
+If 3>6 AndAlso 7>4 then
+   Msg=”Hi”
+Else
+   Msg=”Bye”
+EndIf
+a) Hi
+b) Bye
+c) True
+d) False
+b
+10. What will be in Msg after the following code is evaluated?
+If 5*3 OrElse 3^2 Then
+   Msg=”Hi”
+Else
+   Msg=”Bye”
+EndIf
+a) Hi
+b) Bye
+c) True
+d) False
+a
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Single-Alternative and Dual-Alternative Selection Structures» Next - Visual Basic Questions and Answers – Strings in Selection Structures 

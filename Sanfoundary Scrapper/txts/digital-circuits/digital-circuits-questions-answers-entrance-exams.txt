@@ -1,0 +1,66 @@
+1. To realise one flip-flop using another flip-flop along with a combinational circuit, known as ____________
+a) PREVIOUS state decoder
+b) NEXT state decoder
+c) MIDDLE state decoder
+d) PRESENT state decoder
+b
+2. For realisation of JK flip-flop from SR flip-flop, the input J and K will be given as ___________
+a) External inputs to S and R
+b) Internal inputs to S and R
+c) External inputs to combinational circuit
+d) Internal inputs to combinational circuit
+a
+3. For realisation of JK flip-flop from SR flip-flop, if J=0 & K=0 then the input is ___________
+a) S=0, R=0
+b) S=0, R=X
+c) S=X, R=0
+d) S=X, R=X
+b
+4. For realisation of JK flip-flop from SR flip-flop, if J=1, K=0 & present state is 0(i.e. Q(n)=0) then excitation input will be ___________
+a) S=0, R=1
+b) S=X, R=0
+c) S=1, R=0
+d) S=1, R=1
+c
+5. For realisation of SR flip-flop from JK flip-flop, the excitation input will be obtained from ___________
+a) S and R
+b) R input
+c) J and K input
+d) D input
+c
+6. For realisation of SR flip-flop from JK flip-flop, if S=1, R=0 & present state is 0 then next state will be ___________
+a) 1
+b) 0
+c) Don’t care
+d) Toggle
+a
+7. For realisation of SR flip-flop from JK flip-flop, if S=1, R=0 & present state is 0 then the excitation input will be ___________
+a) J=1, K=1
+b) J=X, K=1
+c) J=1, K=X
+d) J=0, K=0
+c
+8. The K-map simplification for realisation of SR flip-flop from JK flip-flop is ___________
+a) J=1, K=0
+b) J=R, K=S
+c) J=S, K=R
+d) J=0, K=1
+c
+9. For realisation of D flip-flop from SR flip-flop, the external input is given through ___________
+a) S
+b) R
+c) D
+d) Both S and R
+c
+10. For D flip-flop to JK flip-flop, the characteristics equation is given by ___________
+a) D=JQ(p)’+Q(p)K’
+b) D=JQ(p)’+KQ(p)’
+c) D=JQ(p)+Q(p)K’
+d) D=J’Q(p)+Q(p)K
+a
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Electronic Circuits for entrance exams, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – Master-Slave Flip-Flops» Next - Digital Circuits Questions and Answers – Counters 

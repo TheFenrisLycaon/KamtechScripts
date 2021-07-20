@@ -1,0 +1,64 @@
+1. The instructions in 68000 can deal with operands of three different sizes.
+a) True
+b) False
+a
+2. As the instructions can deal with variable size operands we use ____________ to resolve this.
+a) Delimiter
+b) Size indicator mnemonic
+c) Special assemblers
+d) None of the mentioned
+b
+3. The starting address is denoted using _________ directive.
+a) EQU
+b) ORIGIN
+c) ORG
+d) PLACE
+c
+4. The constant can be declared using ___________ directive.
+a) DATAWORD
+b) PLACE
+c) CONS
+d) DC
+d
+5. To allocate a block of memory we use ___________ directive.
+a) RESERVE
+b) DS
+c) DATAWORD
+d) PLACE
+b
+6. The Branch instruction in 68000 provides how many types of offsets?
+a) 3
+b) 1
+c) 0
+d) 2
+d
+7. The purpose of using DBcc as a branch instruction is __________
+a) It provides two conditions to be satisfied for a branch to occur
+b) It provides a counter to check the number of times the branch as taken place
+c) It is used to check the condition along with the branch condition
+d) None of the mentioned
+d
+8. The 68000 uses ____________ method to access I/O devices buffers.
+a) Memory mapped
+b) I/O mapped
+c) Buffer mapped
+d) None of the mentioned
+a
+9. ____________ instruction is used to set up a frame pointer for the subroutines in 68000.
+a) CREATE
+b) LINK
+c) UNLK
+d) FRAME
+b
+10. The LINK instruction is always followed by ____________ instruction.
+a) MOV
+b) UNLK
+c) ORG
+d) MOVEM
+d
+Sanfoundry Global Education & Learning Series – Computer Organization and Architecture.
+To practice all areas of Computer Organization for Quizzes, here is complete set on 1000+ Multiple Choice Questions and Answers on Computer Organization and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Organization Questions and Answers – Motorola 680X0 Processor Architecture – 1» Next - Computer Organization Questions and Answers – ARM Architecture – 1 

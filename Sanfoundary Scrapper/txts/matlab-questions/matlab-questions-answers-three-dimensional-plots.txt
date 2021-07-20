@@ -1,0 +1,88 @@
+1. How can we group the elements in a 3-d bar graph?
+a) Give ‘grouped’ as style input to bar3() command
+b) Give ‘grouped’ as style input to bar() command
+c) Give ‘group’ as style input to bar3() command
+d) Give ‘group’ as style input to bar() command
+a
+2. What is the size of the z vector in a mesh(x,y,z) if the sizes of x and y vectors are m, n respectively?
+a) [m,n] 
+b) (m,n)
+c) [m,n)
+d) Independent of m and n
+a
+3. What is the purpose of the figure command?
+a) Opens a blank window
+b) Opens a blank window to draw graphs
+c) Opens a window containing axes
+d) Opens a window containing grid and axes
+b
+ 
+4. What is the range of co-ordinates obtained of the following code?
+[x,y]=meshgrid(4)
+a) 1:4 in x and y co-ordinates
+b) 0:4 in x & y co-ordinates
+c) only 4 in x and y co-ordinate
+d) Error
+c
+5. What is the nature of z in surf(x,y,z)?
+a) Integer
+b) Vector
+c) Matrix
+d) String
+c
+6. What is the RGB triplet style for yellow?
+a) [1 1 0] 
+b) [1 0 1] 
+c) [1 0 0] 
+d) [0 1 1] 
+a
+7. What is the range of RGB triplets for the surf command?
+a) [1 0] 
+b) [0 1] 
+c) (0 1)
+d) (0 1] 
+b
+8. What is the short name for black as input to the surf command?
+a) b
+b) bl
+c) k
+d) blk
+c
+9. How do we create horizontal bar graphs in MATLAB?
+a) bar3h()
+b) barh()
+c) bar3()
+d) not possible
+a
+10. The meshc() command takes complex inputs.
+a) True
+b) False
+b
+11. colorbar command gives different color to the bar chart following their ______
+a) height
+b) width
+c) length
+d) independently
+a
+12. The ezsurf command is present in the ___________
+a) Symbolic Math Toolbox
+b) Statistics and Machine Learning Toolbox
+c) Partial Differentiation Equation Toolbox
+d) Neural Network Toolbox
+a
+13. The color density of the bar-chart drawn from the bar3() command is always proportional to the height of the bars.
+a) True
+b) False
+b
+14. A stacked horizontal bar-chart can be made in MATLAB by ___________
+a) Mentioning stacked as input to the bar3() command
+b) Mentioning stacked as input to the bar3h() command
+c) Mentioning stack as input to the bar3[] command
+d) Mentioning stacked as input to the bar3h[] command
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Two-Dimensional Plots – 2» Next - MATLAB Questions and Answers – Customizing and Manipulating Graphics – 1 

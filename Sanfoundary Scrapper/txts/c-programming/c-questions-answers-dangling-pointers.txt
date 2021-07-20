@@ -1,0 +1,118 @@
+1. What will be the output of the following C code if the input entered as first and second number is 5 and 6 respectively?
+#include<stdio.h>
+#include<stdlib.h>
+main()
+{
+    int *p;
+    p=(int*)calloc(3*sizeof(int));
+    printf("Enter first number\n");
+    scanf("%d",p);
+    printf("Enter second number\n");
+    scanf("%d",p+2);
+    printf("%d%d",*p,*(p+2));
+    free(p);
+}
+a) 56
+b) Address of the locations where the two numbers are stored
+c) 57
+d) Error
+d
+2. In the function malloc(), each byte of allocated space is initialized to zero.
+a) True
+b) False
+b
+3. Which of the following functions allocates multiple blocks of memory, each block of the same size?
+a) malloc()
+b) realloc()
+c) calloc()
+d) free()
+c
+4. A condition where in memory is reserved dynamically but not accessible to any of the programs is called _____________
+a) Memory leak
+b) Dangling pointer
+c) Frozen memory
+d) Pointer leak
+a
+5. What will happens if the statement free(a) is removed in the following C code?
+#include<stdio.h>
+#include<stdlib.h>
+main()
+{
+    int *a;
+    a=(int*)malloc(sizeof(int));
+    *a=100;
+    printf("*a%d",*a);
+    free(a);
+    a=(int*)malloc(sizeof(int));
+    *a=200;
+    printf("a%p",a);
+    *a=200;
+    printf("a%d",*a);
+}
+a) Error
+b) Memory leak
+c) Dangling pointer arises
+d) 200 is printed as output
+b
+6. The incorrect statement with respect to dangling pointers is ___________
+a) Pointer pointing to non-existent memory location is called dangling pointer
+b) When a dynamically allocated pointer references the original memory after it has been freed, a dangling pointer arises
+c) If memory leak occurs, it is mandatory that a dangling pointer arises
+d) Dangling pointer may result in segmentation faults and potential security risks
+c
+7. What will be the output of the following C code?
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+    char *p = calloc(100, 1);
+    p = "welcome";
+    printf("%s\n", p);
+}
+a) error
+b) welcome
+c) memory location stored by the pointer
+d) junk value
+b
+8. In the function realloc(), if the new size of the memory block is larger than the old size, then the added memory ___________
+a) is initialized to junk values
+b) is initialized to zero
+c) results in an error
+d) is not initialized
+d
+9. The free() function frees the memory state pointed to by a pointer and returns ___________
+a) the same pointer
+b) the memory address
+c) no value
+d) an integer value
+c
+10. The following C code is an example of __________
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+main()
+{
+    char *p,*q;
+    p=(char*)malloc(3*sizeof(char));
+    q=p;
+    strcpy(p,"hello");
+    printf("p=%s",p);
+    printf("q=%s",q);
+    free(q);
+    q=NULL;
+    gets(p);
+    gets(q);
+    printf("%s",p);
+    printf(“%s”,q);
+}
+a) Memory leak
+b) Dangling pointer
+c) Static memory allocation
+d) Linked list
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Static vs Dynamic Memory Allocation» Next - C Questions and Answers – DMA Functions, Memory Leak, Dangling Pointers – 2 

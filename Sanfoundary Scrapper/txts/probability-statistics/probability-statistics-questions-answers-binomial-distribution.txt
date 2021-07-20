@@ -1,0 +1,70 @@
+1. In a Binomial Distribution, if ‘n’ is the number of trials and ‘p’ is the probability of success, then the mean value is given by ___________
+a) np
+b) n
+c) p
+d) np(1-p)
+a
+Mean (μ)=\(\sum_{x=0}^{n}xp(x)\) 
+For Binomial Distribution P(x)=nCx px q(n-x), substitute in above equation and solve to get
+µ = np.
+2. In a Binomial Distribution, if p, q and n are probability of success, failure and number of trials respectively then variance is given by ___________
+a) np
+b) npq
+c) np2q
+d) npq2
+b
+Variance (V)=\(\sum_{x=0}^n x^2p(x)-\mu^2\) 
+Where µ is the mean, substitute P(x)=nCx  px q(n-x) in the above equation and put µ = np to obtain
+V = npq.
+3. If ‘X’ is a random variable, taking values ‘x’, probability of success and failure being ‘p’ and ‘q’ respectively and ‘n’ trials being conducted, then what is the probability that ‘X’ takes values ‘x’? Use Binomial Distribution
+a) P(X = x) = nCx px qx
+b) P(X = x) = nCx px q(n-x)
+c) P(X = x) = xCn qx p(n-x)
+d) P(x = x) = xCn pn qx
+b
+4. If ‘p’, ‘q’ and ‘n’ are probability pf success, failure and number of trials respectively in a Binomial Distribution, what is its Standard Deviation?
+a) \(\sqrt{np}\) 
+b) \(\sqrt{pq}\) 
+c) (np)2
+d) \(\sqrt{npq}\) 
+d
+Standard Deviation = \(\sqrt{variance} = \sqrt{npq}\).
+Join Sanfoundry@YouTube
+5. In a Binomial Distribution, the mean and variance are equal.
+a) True
+b) False
+b
+Variance = npq
+∴ Mean and Variance are not equal.
+6. It is suitable to use Binomial Distribution only for ___________
+a) Large values of ‘n’
+b) Fractional values of ‘n’
+c) Small values of ‘n’
+d) Any value of ‘n’
+c
+7. For larger values of ‘n’, Binomial Distribution ___________
+a) loses its discreteness
+b) tends to Poisson Distribution
+c) stays as it is
+d) gives oscillatory values
+b
+Where m = np is the mean of Poisson Distribution.
+8. In a Binomial Distribution, if p = q, then P(X = x) is given by?
+a) nCx (0.5)n
+b) nCn (0.5)n
+c) nCx p(n-x)
+d) nCn p(n-x)
+a
+Substituting in P(x)=nCx px q(n-x) we get nCn (0.5)n.
+9. Binomial Distribution is a ___________
+a) Continuous distribution
+b) Discrete distribution
+c) Irregular distribution
+d) Not a Probability distribution
+b
+Sanfoundry Global Education & Learning Series – Probability and Statistics.
+To practice all areas of Probability and Statistics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Probability and Statistics Questions and Answers – Mathematical Expectation» Next - Probability and Statistics Questions and Answers – Hypergeometric Distributions 

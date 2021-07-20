@@ -1,0 +1,59 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in IBM and other companies. Anyone looking for IBM placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of C interview questions on “Relational & Logical Operators” along with answers, explanations and/or solutions:
+1. Are logical operator sequence points?
+a) True
+b) False
+c) Depends on the compiler
+d) Depends on the standard
+a
+2. Do logical operators in the C language are evaluated with the short circuit?
+a) True
+b) False
+c) Depends on the compiler
+d) Depends on the standard
+a
+3. What is the result of logical or relational expression in C?
+a) True or False
+b) 0 or 1
+c) 0 if an expression is false and any positive number if an expression is true
+d) None of the mentioned
+b
+4. What will be the final value of d in the following C code?
+    #include <stdio.h>    int main()    {        int a = 10, b = 5, c = 5;        int d;        d = b + c == a;        printf("%d", d);    }
+a) Syntax error
+b) 1
+c) 5
+d) 10
+b
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int a = 10, b = 5, c = 3;        b != !a;        c = !!a;        printf("%d\t%d", b, c);    }
+a) 5 1
+b) 0 3
+c) 5 3
+d) 1 1
+a
+6. Which among the following is NOT a logical or relational operator?
+a) !=
+b) ==
+c) ||
+d) =
+d
+7. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int a = 10;        if (a == a--)            printf("TRUE 1\t");        a = 10;        if (a == --a)            printf("TRUE 2\t");    }
+a) TRUE 1
+b) TRUE 2
+c) TRUE 1  TRUE 2
+d) Compiler Dependent
+d
+8. Relational operators cannot be used on ____________
+a) structure
+b) long
+c) strings
+d) float
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Relational & Logical Operators – 1» Next - C Programming Questions and Answers – Type Conversions – 1 

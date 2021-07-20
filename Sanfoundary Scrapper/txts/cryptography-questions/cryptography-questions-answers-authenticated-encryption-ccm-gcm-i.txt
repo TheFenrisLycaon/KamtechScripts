@@ -1,0 +1,54 @@
+1. Which Authentication Encryption approach is taken by the SSL/TLS protocol?
+a) Hashing followed by encryption (H→E)
+b) Encryption followed by authentication (E→A)
+c) Authentication followed by encryption (A→E)
+d) Independently encrypt and authenticate (E + A)
+c
+2. Which Authentication Encryption approach is taken by the IPSec protocol?
+a) Authentication followed by encryption (A→E)
+b) Hashing followed by encryption (H→E)
+c) Encryption followed by authentication (E→A)
+d) Independently encrypt and authenticate (E + A)
+c
+3. Which Authentication Encryption approach is taken by the SSH protocol?
+a) Hashing followed by encryption (H→E)
+b) Encryption followed by authentication (E→A)
+c) Authentication followed by encryption (A→E)
+d) Independently encrypt and authenticate (E + A)
+d
+4. Hashing followed by encryption (H→E) is used by which algorithm?
+a) IPSec
+b) SSH
+c) WEP
+d) SSL/TLS
+c
+5. Which of the following terms is not an input to the CCM encryption?
+a) Nonce.
+b) Associated data.
+c) Plaintext message.
+d) Tag.
+d
+6. How many passes through the plaintext does the CCM require to generate the MAC value?
+a) 2
+b) 3
+c) 4
+d) 5
+a
+7. What does the following figure represent?
+a) GCM (Galois Counter MAC)
+b) GCTR ( part of GCM)
+c) GHASH ( hash algorithm of GCM)
+d) None of the mentioned
+c
+8. In GCM, we define S as S = GHASH(A||0v||C||0u||[len(A)]||[len(C)]). What is u defined as?
+a) 64 ceil[len(A)/128] – len(A)
+b) 64 ceil[len(C)/128] – len(C)
+c) 128 ceil[len(A)/128] – len(A)
+d) 128 ceil[len(C)/128] – len(C)
+d
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Integrity Algorithms Questions and Answers – HMAC, DAA and CMAC» Next - Data Integrity Algorithms Questions and Answers – CCM, GCM and Key Wrapping – II 

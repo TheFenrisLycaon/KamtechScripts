@@ -1,0 +1,58 @@
+1. Which of these is an incorrect form of using method max() to obtain a maximum element?
+a) max(Collection c)
+b) max(Collection c, Comparator comp)
+c) max(Comparator comp)
+d) max(List c)
+c
+2. Which of these methods sets every element of a List to a specified object?
+a) set()
+b) fill()
+c) Complete()
+d) add()
+b
+3. Which of these methods can randomize all elements in a list?
+a) rand()
+b) randomize()
+c) shuffle()
+d) ambiguous()
+c
+4. Which of these methods can convert an object into a List?
+a) SetList()
+b) ConvertList()
+c) singletonList()
+d) CopyList()
+c
+5. Which of these is true about unmodifiableCollection() method?
+a) unmodifiableCollection() returns a collection that cannot be modified
+b) unmodifiableCollection() method is available only for List and Set
+c) unmodifiableCollection() is defined in Collection class
+d) none of the mentioned
+b
+6. What will be the output of the following Java program?
+    import java.util.*;    class Collection_Algos     {        public static void main(String args[])         {            LinkedList list = new LinkedList();            list.add(new Integer(2));            list.add(new Integer(8));            list.add(new Integer(5));            list.add(new Integer(1));            Iterator i = list.iterator();	    while(i.hasNext())	        System.out.print(i.next() + " ");        }    }
+a) 2 8 5 1
+b) 1 5 8 2
+c) 2
+d) 2 1 8 5
+a
+Output:
+$ javac Collection_Algos.java
+$ java Collection_Algos
+2 8 5 1
+7. What will be the output of the following Java program?
+    import java.util.*;    class Collection_Algos     {        public static void main(String args[])         {            LinkedList list = new LinkedList();            list.add(new Integer(2));            list.add(new Integer(8));            list.add(new Integer(5));            list.add(new Integer(1));            Iterator i = list.iterator();            Collections.reverse(list);	    while(i.hasNext())	        System.out.print(i.next() + " ");        }    }
+a) 2 8 5 1
+b) 1 5 8 2
+c) 2
+d) 2 1 8 5
+b
+Output:
+$ javac Collection_Algos.java
+$ java Collection_Algos
+1 5 8 2
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Collections Interface» Next - Java Questions & Answers – Exceptional Handling Basics 

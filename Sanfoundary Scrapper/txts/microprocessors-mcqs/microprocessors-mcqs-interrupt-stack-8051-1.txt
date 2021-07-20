@@ -1,0 +1,68 @@
+1. Which of the following is an external interrupt?
+a) INT0(active low)
+b) INT2(active low)
+c) Timer0 interrupt
+d) Timer1 interrupt
+a
+2. The interrupts, INT0(active low) and INT1(active low) are processed internally by flags
+a) IE0 and IE1
+b) IE0 and IF1
+c) IF0 and IE1
+d) IF0 and IF1
+a
+3. The flags IE0 and IE1, are automatically cleared after the control is transferred to respective vector if the interrupt is
+a) level-sensitive
+b) edge-sensitive
+c) in serial port
+d) in parallel port
+b
+4. If the external interrupt sources control the flags IE0 and IE1, then the interrupt programmed is
+a) level-sensitive
+b) edge-sensitive
+c) in serial port
+d) in parallel port
+a
+5. The pulses at T0 or T1 pin are counted in
+a) timer mode
+b) counter mode
+c) idle mode
+d) power down mode
+b
+Join Sanfoundry@YouTube
+6. In timer mode, the oscillator clock is divided by a prescalar
+a) (1/8)
+b) (1/4)
+c) (1/16)
+d) (1/32)
+d
+7. The serial port interrupt is generated if
+a) RI is set
+b) RI and TI are set
+c) Either RI or TI is set
+d) RI and TI are reset
+c
+8. In serial port interrupt, after the control is transferred to the interrupt service routine, the flag that is cleared is
+a) RI
+b) TI
+c) RI and TI
+d) None
+d
+9. The atleast number of machine cycles for which the external interrupts that are programmed level-sensitive should remain high is
+a) 1
+b) 2
+c) 3
+d) 0
+b
+10. If the external interrupts are programmed edge sensitive, then they should remain high for atleast
+a) 0 machine cycle
+b) 2 machine cycles
+c) 1 machine cycle
+d) 3 machine cycles
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Register Set of 8051» Next - Microprocessors Questions and Answers – Interrupt and Stack of 8051 – 2 

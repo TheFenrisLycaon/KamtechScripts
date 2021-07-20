@@ -1,0 +1,68 @@
+1. Before mongod creates an oplog, you can specify its size with the __________ option.
+a) oplogSizeMB
+b) oplogSizeGB
+c) opSizeMB
+d) all of the mentioned
+a
+2. Point out the wrong statement.
+a) The oplog is a special capped collection that keeps a rolling record of all operations that modify the data stored in your databases
+b) MongoDB applies database operations on the primary and then records the operations on the primary’s oplog
+c) The primary members then copy and apply these operations in an asynchronous process
+d) None of the mentioned
+c
+3. The oplog must translate multi-updates into individual operations in order to maintain ____________
+a) availability
+b) idempotency
+c) scalability
+d) secondary
+b
+4. Use _________ from a secondary member and the replication status output to assess the current state of replication.
+a) db.getReplInfo()
+b) db.getReplicationInfo()
+c) rs.printReplicationInfo()
+d) none of the mentioned
+b
+5. Point out the correct statement.
+a) To facilitate replication, all replica set members send heartbeats (pings) to all other members
+b) For proper replication operations, entries in the oplog must be idempotent
+c) Any member can import oplog entries from any other member
+d) All of the mentioned
+b
+6. For a member to sync from another, both members must have the same value for the _________ setting.
+a) buildIndexes
+b) getIndexes
+c) buildpriIndexes
+d) secondary
+a
+Join Sanfoundry@YouTube
+7. Secondaries apply operations from the primary asynchronously to provide __________ consistency.
+a) strict
+b) strong
+c) eventual
+d) none of the mentioned
+c
+8. When ______________ is true, the mongod instance saves all documents migrated from the shard to the moveChunk directory of the storage.dbPath.
+a) sharding.archiveChunks
+b) sharding.archiveMovedChunks
+c) shards.archiveMovedChunks
+d) rs.syncFrom()
+b
+9. Replication _______ is a delay between operation on the primary and the application of that operation from the oplog to the secondary.
+a) lag
+b) delay
+c) latency
+d) none of the mentioned
+a
+10. A delayed member may show as 0 seconds behind the primary when the inactivity period on the primary is greater than the ________ value.
+a) slaveDelayTime
+b) slaveDelay
+c) slaveTime
+d) rs.slave()
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB for online test, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Replication Processes – 1» Next - MongoDB Questions and Answers – Replication Maintenance 

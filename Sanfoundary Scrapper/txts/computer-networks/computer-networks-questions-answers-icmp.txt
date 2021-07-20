@@ -1,0 +1,78 @@
+1. Internet Control Message Protocol (ICMP) has been designed to compensate _________
+a) Error-reporting
+b) Error-correction
+c) Host and management queries
+d) All of the mentioned
+d
+2. Header size of the ICMP message is _________
+a) 8-bytes
+b) 8-bits
+c) 16-bytes
+d) 16-bits
+a
+3. During error reporting, ICMP always reports error messages to ________
+a) Destination
+b) Source
+c) Next router
+d) Previous router
+b
+4. Which of these is not a type of error-reporting message?
+a) Destination unreachable
+b) Source quench
+c) Router error
+d) Time exceeded
+c
+5. ICMP error message will not be generated for a datagram having a special address such as _______
+a) 127.0.0.0
+b) 12.1.2
+c) 11.1
+d) 127
+a
+6. When a router cannot route a datagram or host cannot deliver a datagram, the datagram is discarded and the router or the host sends a ____________ message back to the source host that initiated the datagram.
+a) Destination unreachable
+b) Source quench
+c) Router error
+d) Time exceeded
+a
+7. The source-quench message in ICMP was designed to add a kind of ____________ to the IP.
+a) error control
+b) flow control
+c) router control
+d) switch control
+b
+8. In case of time exceeded error, when the datagram visits a router, the value of time to live field is _________
+a) Remains constant
+b) Decremented by 2
+c) Incremented by 1
+d) Decremented by 1
+d
+9. Two machines can use the timestamp request and timestamp replay messages to determine the ___________ needed for an IP datagram to travel between them.
+a) Half-trip time
+b) Round-trip time
+c) Travel time for the next router
+d) Time to reach the destination/source
+b
+10. During debugging, we can use the ____________ program to find if a host is alive and responding.
+a) traceroute
+b) shell
+c) ping
+d) java
+c
+11. In windows  ____________ can be used to trace the route of the packet from the source to the destination.
+a) traceroute
+b) tracert
+c) ping
+d) locater
+b
+12. In a simple echo-request message, the value of the sum is 01010000 01011100. Then, value of checksum is ___________
+a) 10101111 10100011
+b) 01010000 01011100
+c) 10101111 01011100
+d) 01010000 10100011
+a
+Sanfoundry Global Education & Learning Series – Computer Networks.
+To practice all areas of Computer Networks, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Networks Questions & Answers – P2P Applications» Next - Computer Networks Questions & Answers – Transition from IPV4 to IPV6 

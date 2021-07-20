@@ -1,0 +1,82 @@
+1. A machine in which the least significant byte is stored in the smallest address is __________
+a) Big endian machine
+b) Bi-endian machine
+c) Binary bit machine
+d) Little endian machine
+d
+2. If the output of the following C code is “Big endian”, then what will be the value of *a is?
+#include <stdio.h>
+int main()
+{
+   unsigned int i = 1;
+   char *a = (char*)&i;
+   if (*a)
+       printf("Little endian");
+   else
+       printf("Big endian");
+   getchar();
+   return 0;
+}
+a) -1
+b) 0
+c) 1
+d) 2
+b
+3. It is possible for a processor to support both little and big endian methods.
+a) True
+b) False
+a
+4. The standard byte order for networks is ____________
+a) Bit-Binary
+b) Little endian
+c) Big endian
+d) Bi-endian
+c
+5. Which of the following is not an example of big endian machines?
+a) Power PC
+b) Motorola 68K
+c) SPARC processors
+d) ARM processors
+d
+6. Suppose we transfer a file written on a little endian machine to a big endian machine and there is no transformation from little endian to big endian, then what happens?
+a) The big endian machine throws an error when it receives the file
+b) The big endian machine reads the file in the reverse order
+c) The big endian machine does not read the file
+d) The big endian machine reads the file in the normal order
+b
+7. File formats which have _________ as a basic unit are independent of endianness.
+a) 1 byte
+b) 2 bytes
+c) 3 bytes
+d) 4 bytes
+a
+8. If the code shown below is executed on a little endian machine, then what will be the output of the following C code?
+#include<stdio.h>
+main()
+{
+    int y=1;
+    printf("%d", (*(char*)&y));
+}
+a) 1
+b) 1000
+c) 9999
+d) 0
+a
+9. If the data “ABCD” is to be stored in a little endian machine, it will be stored as _________
+a) ABCD
+b) DCBA
+c) CDAB
+d) BCDA
+b
+10. The sequential order used to interpret a range of bytes in the memory of a computer is known as _________
+a) Ordering
+b) Sequencing
+c) Endianness
+d) Byte prediction
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Inline» Next - C Questions and Answers – Recursion 

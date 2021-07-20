@@ -1,0 +1,189 @@
+1. What is string objects in C++?
+a) Stream of alphabets
+b) A stream of well-defined characters
+c) Stream of characters
+d) A stream of characters terminated by \0
+b
+2. What is Character-Array?
+a) array of alphabets
+b) array of well-defined characters
+c) array of characters
+d) array of characters terminated by \0
+c
+3. Pick the incorrect statement about Character-Array.
+a) Character-Array can be terminated by a null character(‘\0’)
+b) Character-Array has a static size
+c) Character-Array has a dynamic size
+d) Character-Array has a threat of array-decay
+c
+4. Pick the correct statement about string objects in C++.
+a) String objects must be terminated by a null character(‘\0’)
+b) String objects have a static size
+c) String objects have a dynamic size
+d) String objects use extra memory than required.
+c
+5. What will be the output of the following C++ code?
+#include <iostream> 
+#include <string>
+using namespace std; 
+int main(int argc, char const *argv[])
+{
+	string str;
+	cin>>str;
+	cout<<str;
+	return 0;
+}
+a) str
+b) Input provided by the user
+c) Error
+d) Segmentation fault
+b
+6. What will be the output of the following C++ code?
+#include <iostream> 
+#include <string>
+using namespace std; 
+int main(int argc, char const *argv[])
+{
+	char str[] = "Hello World";
+	cout<<str[0];
+	return 0;
+}
+a) H
+b) e
+c) Error
+d) o
+a
+7. What will be the output of the following C++ code?
+#include <iostream> 
+#include <string>
+using namespace std; 
+int main(int argc, char const *argv[])
+{
+	char str[10];
+	cin>>str;
+	cout<<str;
+	return 0;
+}
+a) Compiler-time Error
+b) Run-time Error
+c) Input given by the user
+d) Depends on the length of the string entered by the user
+d
+Output:
+
+length < 10
+
+$ ./a.out 
+Hello
+Hello
+
+length > 10
+$ ./a.out 
+C++Programming
+*** stack smashing detected ***:  terminated
+Aborted (core dumped)
+8. What will be the output of the following C++ code if the string entered by the user is “Hello World”?
+#include <iostream> 
+#include <string>
+using namespace std; 
+int main(int argc, char const *argv[])
+{
+	string str;
+	cin>>str;
+	cout<<str;
+	return 0;
+}
+a) Hello World
+b) Hello
+c) World
+d) Error
+b
+Output:
+
+$ ./a.out 
+Hello World 
+Hello
+9. Which header file is used to include the string object functions in C++?
+a) #include <string.h>
+b) #include <cstring>
+c) #include <string>
+d) #include <string.cpp>
+c
+10. What will be the output of the following C++ code?
+#include <iostream> 
+#include <string>
+using namespace std; 
+int main(int argc, char const *argv[])
+{
+	char s1[6] = "Hello";
+	char s2[6] = "World";
+	char s3[12] = s1 + " " + s2;
+	cout<<s3;
+	return 0;
+}
+a) Hello World
+b) Hello
+c) World
+d) Error
+d
+11. What will be the output of the following C++ code?
+#include <iostream> 
+#include <string>
+using namespace std; 
+int main(int argc, char const *argv[])
+{
+	string s1 = "Hello";
+	string s2 = "World";
+	string s3 = s1 + " " + s2;
+	cout<<s3;
+	return 0;
+}
+a) Hello World
+b) Hello
+c) World
+d) Error
+a
+12. Which of the following is correct way of concatenating two string objects in C++?
+way 1:
+string s1 = "hello";
+string s2 = "world";
+string s3 = s1 + s2;
+ 
+way 2:
+string s1 = "hello";
+string s2 = "world";
+string s3 = s1.append(s2);
+ 
+way 3:
+string s1 = "hello";
+string s2 = "world";
+string s3 = strcat(s1,s2);
+a) 1 and 2
+b) 2 and 3
+c) 1 and 3
+d) 1, 2 and 3
+a
+13. Which of the following is not a modifier function in string class?
+a) operator+=()
+b) operator[]()
+c) push_back()
+d) erase()
+b
+14. Which function is used to get the length of a string object?
+a) str.length()
+b) str.size()
+c) str.max_size()
+d) both size() and length() function
+d
+15. What is the identifier given to string class to declare string objects?
+a) String
+b) string
+c) STRING
+d) Any of the above can be used
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – String Class» Next - C++ Programming Questions and Answers – String – 2 

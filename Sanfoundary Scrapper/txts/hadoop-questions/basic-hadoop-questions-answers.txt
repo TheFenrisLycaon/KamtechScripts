@@ -1,0 +1,67 @@
+1. __________ is a REST API for HCatalog.
+a) WebHCat
+b) WbHCat
+c) InpHCat
+d) None of the mentioned
+a
+2. Point out the correct statement.
+a) There is no guaranteed read consistency when a partition is dropped
+b) Unpartitioned tables effectively have one default partition that must be created at table creation time
+c) Once a partition is created, records cannot be added to it, removed from it, or updated in it
+d) All of the mentioned
+d
+3. With HCatalog _________ does not need to modify the table structure.
+a) Partition
+b) Columns
+c) Robert
+d) All of the mentioned
+c
+4. Sally in data processing uses __________ to cleanse and prepare the data.
+a) Pig
+b) Hive
+c) HCatalog
+d) Impala
+a
+5. Point out the wrong statement.
+a) The original name of WebHCat was Templeton
+b) Robert in client management uses Hive to analyze his clients’ results
+c) With HCatalog, HCatalog cannot send a JMS message that data is available
+d) All of the mentioned
+c
+6. For ___________ partitioning jobs, simply specifying a custom directory is not good enough.
+a) static
+b) semi cluster
+c) dynamic
+d) all of the mentioned
+c
+7. ___________  property allows us to specify a custom dir location pattern for all the writes, and will interpolate each variable.
+a) hcat.dynamic.partitioning.custom.pattern
+b) hcat.append.limit
+c) hcat.pig.storer.external.location
+d) hcatalog.hive.client.cache.expiry.time
+a
+8. HCatalog maintains a cache of _________ to talk to the metastore.
+a) HiveServer
+b) HiveClients
+c) HCatClients
+d) All of the mentioned
+b
+9. On the write side, it is expected that the user pass in valid _________ with data correctly.
+a) HRecords
+b) HCatRecos
+c) HCatRecords
+d) None of the mentioned
+c
+10. A float parameter, defaults to 0.0001f, which means we can deal with 1 error every __________ rows.
+a) 1000
+b) 10000
+c) 1 million rows
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice basic questions on all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Introduction to Hcatalog» Next - Hadoop Questions and Answers – HCatalog with Hadoop – 2 

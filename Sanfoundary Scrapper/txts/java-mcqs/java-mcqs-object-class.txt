@@ -1,0 +1,86 @@
+1. Which of these class is superclass of every class in Java?
+a) String class
+b) Object class
+c) Abstract class
+d) ArrayList class
+b
+2. Which of these method of Object class can clone an object?
+a) Objectcopy()
+b) copy()
+c) Object clone()
+d) clone()
+c
+3. Which of these method of Object class is used to obtain class of an object at run time?
+a) get()
+b) void getclass()
+c) Class getclass()
+d) None of the mentioned
+c
+4. Which of these keywords can be used to prevent inheritance of a class?
+a) super
+b) constant
+c) class
+d) final
+d
+5. Which of these keywords cannot be used for a class which has been declared final?
+a) abstract
+b) extends
+c) abstract and extends
+d) none of the mentioned
+a
+6. Which of these class relies upon its subclasses for complete implementation of its methods?
+a) Object class
+b) abstract class
+c) ArrayList class
+d) None of the mentioned
+b
+7. What will be the output of the following Java program?
+    abstract class A     {        int i;        abstract void display();    }        class B extends A     {        int j;        void display()         {            System.out.println(j);        }    }        class Abstract_demo     {        public static void main(String args[])        {            B obj = new B();            obj.j=2;            obj.display();            }    }
+a) 0
+b) 2
+c) Runtime Error
+d) Compilation Error
+b
+output:
+$ javac Abstract_demo.java
+$ java Abstract_demo 
+2
+8. What will be the output of the following Java program?
+   class A    {	int i;	int j;        A()         {            i = 1;            j = 2;        }   }   class Output    {        public static void main(String args[])        {             A obj1 = new A();             A obj2 = new A();	     System.out.print(obj1.equals(obj2));        }   }
+a) false
+b) true
+c) 1
+d) Compilation Error
+a
+output:
+$ javac Output.java
+$ java Output
+false
+9. What will be the output of the following Java code?
+    class Output     {        public static void main(String args[])        {             Object obj = new Object();	     System.out.print(obj.getclass());        }    }
+a) Object
+b) class Object
+c) class java.lang.Object
+d) Compilation Error
+c
+output:
+$ javac Output.java
+$ java Output
+class java.lang.Object
+10. What will be the output of the following Java code?
+   class A    {        int i;	int j;        A()         {            i = 1;            j = 2;        }   }   class Output    {        public static void main(String args[])        {             A obj1 = new A();	     System.out.print(obj1.toString());        }   }
+a) true
+b) false
+c) String associated with obj1
+d) Compilation Error
+c
+output:
+$ javac Output.java
+$ java Output 
+A@1cd2e5f
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Method overriding» Next - Java Questions & Answers – Inheritance – Abstract Class and Super 

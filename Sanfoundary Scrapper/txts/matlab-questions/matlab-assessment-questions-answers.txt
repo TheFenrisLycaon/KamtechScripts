@@ -1,0 +1,96 @@
+1. What is the output of the following code?
+sprint(‘%i’,91293)
+a) 91293
+b) Syntactical Error
+c) The format specifier does not exist
+d) ‘91293’
+d
+Output: ‘91293’
+2. What is the output of the following code?
+sprintf(‘%E’,912)
+a) 9.120000E+02
+b) 9.120E+02
+c) 9.1200E+02
+d) 9.12000E+02
+a
+Output: 9.120000E+02
+3. What is the output of the following code?
+sprintf(‘%d %d %d’,.1, .2.3)
+a) Error
+b) ‘1.000000e-01 2.000000e-01 3.000000e-01’
+c) 1.000000e-01 2.000000e-01 3.000000e-01
+d) [] 
+a
+4. What is the output of the following code?
+disp({12 })
+a) [12] 
+b) 12
+c) [12  ] 
+d) Error
+a
+5. What is the output of the following code?
+size(‘’)
+a) 0
+b) Error
+c) 0 0
+d) 1 1
+c
+6. What is the output of the following code?
+sprintf('%04.2f',2.9121)
+a) ‘2.91210000000000000000’
+b) ‘2.91’
+c) 2.91
+d) Error
+b
+7. What is the output of the following code?
+sprintf(); disp();
+a) Error due to disp
+b) Error due to sprintf()
+c) Both gives an error
+d) No output is displayed
+b
+8. What is the output of the following code?
+P=disp(234)
+a) Error
+b) P=234
+c) 234
+d) 
+     P=
+        234
+a
+  
+9. How can we influence the disp command with format specifiers?
+a) Not possible
+b) Via the sprintf() command
+c) Use format specifiers as string input
+d) Give format specifiers as input only
+d
+10. What is the output of the following code?
+disp(“12”)
+a) ‘12’
+b) “12”
+c) 12
+d) Error
+c
+11. What is the output of the following code?
+fprintf(“%f”,.123)
+a) .123000
+b) %f
+c) Error
+d) .123
+a
+12. What is the size of ans variable after the following code?
+sprintf('23 23')
+ans=
+      ’23 23’
+a) 14 bytes
+b) 10 bytes
+c) Error
+d) 1*5
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB Assessment Questions, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – User Input and Screen Output – 1» Next - MATLAB Questions and Answers – Evaluation – 1 

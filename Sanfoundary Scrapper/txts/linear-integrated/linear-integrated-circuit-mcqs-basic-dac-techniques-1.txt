@@ -1,0 +1,78 @@
+1. Express the output voltage of digital to analog converter?
+a) Vo =KVFS(d12-1+d22-2+….dn2-n)
+b) Vo =VFS/k(d12-1+d22-2+….dn2-n)
+c) Vo =VFS(d12-1+d22-2+….dn2-n)
+d) Vo =K(d12-1+d22-2+….dn2-n)
+a
+Vo =KVFS(d12-1+d22-2+….dn2-n) where, K -scaling factor, VFS-full scale output voltage. 
+2. Why the switches used in weighted resistor DAC are of single pole double throw (SPDT) type?
+a) To connect the resistance to reference voltage
+b) To connect the resistance to ground
+c) To connect the resistance to either reference voltage or ground
+d) To connect the resistance to output
+c
+3. Determine the output current for an n-bit weighted resistor DAC?
+a) (VR/R )× (do/2 +d1/22 + ……dn/2n)
+b) (VR/R )× (d1/21 +d2/22 + ……dn/2n)
+c) (VR/R )× (d02/2 +d12/22 + ……dn2/2n)
+d) None of the mentioned
+b
+Io= (VR/2R )×(d1) +(VR/22R)× (d2) ….+(VR/2nR )×(dn)
+Io =(VR/R)× (d1/21 +d2/22 + ……dn/2n). 
+4. In a D-A converter with binary weighted resistor, a desired step size can be obtained by
+a) Selecting proper value of VFS
+b) Selecting proper value of R
+c) Selecting proper value of RF
+d) All of the mentioned
+c
+5. Determine the Full scale output in a 8-bit DAC for 0-15v range?
+a) Full scale output=15.1v
+b) Full scale output=15.2v
+c) Full scale output=14.5v
+d) Full scale output=14.94v
+d
+= [15v-(15v/28)] = (15v-0.0586) = 14.94v. 
+6. Pick out the incorrect statement “In a 3 bit weighted resistor DAC”
+a) Although the op-amp is connected in inverting mode, it can also be connected in non-inverting mode
+b) The op-amp simply work as a current to voltage converter
+c) The polarity of the reference voltage is chosen in accordance with the input voltage
+d) None of the mentioned
+c
+7. What is the disadvantage of binary weighted type DAC?
+a) Require wide range of resistors
+b) High operating frequency
+c) High power consumption
+d) Slow switching
+a
+8. The smallest resistor in a 12 bit weighted resistor DAC is 2.5kΩ, what will be the largest resistor value?
+a) 40.96MΩ
+b) 10.24MΩ
+c) 61.44 MΩ
+d) 18.43MΩ
+b
+9. CMOS inverter is used as SPDT switch in resistor DAC and is connected to the op-amp line. Find the output of CMOS, if the input applied is 1
+a) Resistance is connected to ground
+b) Resistance is connected to input line
+c) Resistance is connected to bit line
+d) None of the mentioned
+b
+When Qbar =1, it makes transistor Q1-ON and Q2-OFF. The output of the CMOS inverter is 0v, connecting the resistance R1 to ground. 
+10. How to overcome the limitation of binary weighted resistor type DAC?
+a) Using R-2R ladder type DAC
+b) Multiplying DACs
+c) Using monolithic DAC
+d) Using hybrid DAC
+a
+11. Find output voltage equation for 3 bit DAC converter with R and 2R resistor?
+a) Vo= -RF [(b2/8R) +(b1/4R) +(b0/2R)].
+b) Vo= -RF [(b2/R) +(b1/2R) +(b0/4R)].
+c) Vo= -RF [(b2/2R)+(b1/4R) +(b0/8R)].
+d) Vo= -RF [(b0/4R)+(b1/2R) +(b2/R)].
+c
+Vo=-RF [(b2/2R) +(b1/4R) +(b0/8R)]. 
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – High Speed & Precision Type Comparator» Next - Linear Integrated Circuit Questions and Answers – Basic DAC Techniques – 2 

@@ -1,0 +1,84 @@
+1. In the frequency sampling method for FIR filter design, we specify the desired frequency response Hd(ω) at a set of equally spaced frequencies.
+a) True
+b) False
+a
+2. To reduce side lobes, in which region of the filter the frequency specifications have to be optimized?
+a) Stop band
+b) Pass band
+c) Transition band
+d) None of the mentioned
+c
+3. What is the frequency response of a system with input h(n) and window length of M?
+a) \(\sum_{n=0}^{M-1} h(n)e^{jωn}\) 
+b) \(\sum_{n=0}^{M} h(n)e^{jωn}\) 
+c) \(\sum_{n=0}^M h(n)e^{-jωn}\) 
+d) \(\sum_{n=0}^{M-1} h(n)e^{-jωn}\) 
+d
+H(ω)=\(\sum_{n=0}^{M-1} h(n)e^{-jωn}\)
+4. What is the relation between H(k+α) and h(n)?
+a) H(k+α)=\(\sum_{n=0}^{M+1} h(n)e^{-j2π(k+α)n/M}\); k=0,1,2…M+1
+b) H(k+α)=\(\sum_{n=0}^{M-1} h(n)e^{-j2π(k+α)n/M}\); k=0,1,2…M-1
+c) H(k+α)=\(\sum_{n=0}^M h(n)e^{-j2π(k+α)n/M}\); k=0,1,2…M
+d) None of the mentioned
+b
+ωk=\(\frac{2π}{M}\)(k+α) and H(ω)=\(\sum_{n=0}^{M-1} h(n)e^{-jωn}\) 
+Thus from substituting the first in the second equation, we get
+H(k+α)=\(\sum_{n=0}^{M-1} h(n)e^{-j2π(k+α)n/M}\); k=0,1,2…M-1
+5. Which of the following is the correct expression for h(n) in terms of H(k+α)?
+a) \(\frac{1}{M} \sum_{k=0}^{M-1}H(k+α)e^{j2π(k+α)n/M}\); n=0,1,2…M-1
+b) \(\sum_{k=0}^{M-1}H(k+α)e^{j2π(k+α)n/M}\); n=0,1,2…M-1
+c) \(\frac{1}{M} \sum_{k=0}^{M+1}H(k+α)e^{j2π(k+α)n/M}\); n=0,1,2…M+1
+d) \(\sum_{k=0}^{M+1}H(k+α)e^{j2π(k+α)n/M}\); n=0,1,2…M+1
+a
+H(k+α)=\(\sum_{n=0}^{M-1} h(n)e^{-j2π(k+α)n/M}\); k=0,1,2…M-1
+If we multiply the above equation on both sides by the exponential exp(j2πkm/M), m=0,1,2….M-1 and sum over k=0,1,….M-1, we get the equation
+h(n)=\(\frac{1}{M} \sum_{k=0}^{M-1}H(k+α)e^{j2π(k+α)n/M}\); n=0,1,2…M-1
+6. Which of the following is equal to the value of H(k+α)?
+a) H*(M-k+α)
+b) H*(M+k+α)
+c) H*(M+k-α)
+d) H*(M-k-α)
+d
+H(k+α)= H*(M-k-α).
+7. The linear equations for determining {h(n)} from {H(k+α)} are not simplified.
+a) True
+b) False
+b
+8. The major advantage of designing linear phase FIR filter using frequency sampling method lies in the efficient frequency sampling structure.
+a) True
+b) False
+a
+9. Which of the following is introduced in the frequency sampling realization of the FIR filter?
+a) Poles are more in number on unit circle
+b) Zeros are more in number on the unit circle
+c) Poles and zeros at equally spaced points on the unit circle
+d) None of the mentioned
+c
+10. In a practical implementation of the frequency sampling realization, quantization effects preclude a perfect cancellation of the poles and zeros.
+a) True
+b) False
+a
+11. In the frequency sampling method for FIR filter design, we specify the desired frequency response Hd(ω) at a set of equally spaced frequencies.
+a) True
+b) False
+a
+12. What is the equation for the frequency ωk in the frequency response of an FIR filter?
+a) \(\frac{π}{M}\)(k+α)
+b) \(\frac{4π}{M}\)(k+α)
+c) \(\frac{8π}{M}\)(k+α)
+d) \(\frac{2π}{M}\)(k+α)
+d
+ωk=\(\frac{2π}{M}(k+α)\) 
+where k=0,1,2…M-1/2 and α=0 0r 1/2.
+13. Why is it desirable to optimize frequency response in the transition band of the filter?
+a) Increase side lobe
+b) Reduce side lobe
+c) Increase main lobe
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice multiple choice questions in all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Design of Linear Phase FIR Filters Using Windows – 2» Next - Digital Signal Processing Questions and Answers – Design of Optimum Equi Ripple Linear Phase FIR Filters – 1 

@@ -1,0 +1,67 @@
+1. When a chunk grows beyond the chunk size, MongoDB attempts to split the chunk into smaller chunks, always based on ranges in the _____________
+a) replica set
+b) shard key
+c) tag sets
+d) all of the mentioned
+c
+2. Point out the correct statement.
+a) The shard key determines the distribution of the collection’s documents among the cluster’s shards
+b) The shard key is either an indexed field or an indexed compound field that exists in every document in the collection
+c) Each range, or chunk, defines a non-overlapping range of shard key values
+d) All of the mentioned
+d
+3. The index on the shard key cannot be a _________ index.
+a) single
+b) multkikey
+c) unique
+d) all of the mentioned
+b
+4. Hashed shard keys use a ________ index of a single field as the shard key to partition data across your sharded cluster.
+a) hashed
+b) unique
+c) multkikey
+d) all of the mentioned
+a
+5. Point out the correct statement.
+a) Hashed keys do not work well with fields that increase monotonically like ObjectId values or timestamps
+b) If you shard an empty collection using a hashed shard key, MongoDB will automatically create and migrate chunks so that each shard has two chunks
+c) Hashed keys work well with ObjectId values only
+d) All of the mentioned
+b
+6. You can control how many chunks MongoDB will create with the ___________ parameter.
+a) numChunks
+b) numInitialChunks
+c) numberofchunks
+d) all of the mentioned
+b
+7. MongoDB automatically computes the hashes when resolving queries using ______ indexes.
+a) hashed
+b) unique
+c) muiltkey
+d) all of the mentioned
+c
+8. MongoDB generates _______ values upon document creation to produce a unique identifier for the object.
+a) ObjectId
+b) CompId
+c) DoctId
+d) All of the mentioned
+a
+9. A shard key that increases monotonically will not hinder performance if most of your write operations are ____ operations.
+a) insert()
+b) update()
+c) delete()
+d) all of the mentioned
+b
+10. The mongos provides an interface for applications to interact with sharded clusters that hides the complexity of data ______
+a) partitioning
+b) replication
+c) sharding
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Cluster Architectures» Next - MongoDB Questions and Answers – Sharding Mechanics 

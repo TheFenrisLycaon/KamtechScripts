@@ -1,0 +1,127 @@
+1. The following syntax is correct for if conditional statement.
+ if condition
+    code
+   end
+a) True
+b) False
+a
+2. If expression.
+   The expression can be of which type?
+a) True
+b) Any number
+c) Any string
+d) All of the mentioned
+d
+3. What error does the if condition gives if not terminated with end statement?
+a) Syntax error
+b) Unexpected end
+c) Expecting keyword end
+d) All of the mentioned
+d
+4. What is the output of the following?
+if 1<2
+   print "one is less than two"
+   end
+a) One is less than two
+b) Syntax error
+c) 1<2
+d) None of the mentioned
+a
+Output:
+One is less than two
+5. What is the output of the code?
+ if 11<2
+   print "Eleven is less than two"
+   end
+   print "11 is greater"
+a) 11 is greater
+b) Eleven is less than two
+c) Eleven is less than two 11 is greater
+d) None of the mentioned
+a
+Output:
+11 is greater
+6. What is the output of the given code?
+if 11>2
+   puts "Eleven is greater than two"
+   end
+   print "You'r right"
+a) Eleven is greater than two
+b) You’r right
+c) Eleven is greater than two
+   You’r right
+d) None of the mentioned
+c
+Output:
+Eleven is greater than two
+You'r right
+7. What is the output of the given code?
+if 79>78
+   puts "True".upcase
+   if 9>8
+   puts "True".reverse
+   if 7==7
+   puts "equal".downcase
+   end
+   end
+   end
+a) True
+b) True eurt
+c) TRUE
+   eurT
+   equal
+d) equal
+c
+Output:
+TRUE
+eurT
+equal
+8. What is the output of the given code?
+if 79>78
+   puts "True".upcase
+   if 9>8
+   puts "True".Upcase
+   if 7==7
+   puts "equal".downcase
+   end
+   end
+   end
+a) True
+b) Error
+c) True,error
+d) TRUE
+   Undefined method `Upcase’ for String
+d
+Output:
+TRUE
+Undefined method `Upcase' for String
+9. If statement inside if statement is called Nested if statements.
+a) True
+b) False
+a
+10. What is the output of the given code?
+x=1
+    if x > 2
+    puts "x is greater than 2"
+    elsif x <= 2 and x!=0
+    puts "x is 1"
+    else
+    puts "I can't guess the number"
+    end
+a) x is greater than 2
+b) x is 1
+c) I can’t guess the number
+d) None of the mentioned
+b
+Output:
+x is 1
+11. It’s a good habit to give two spaces between if statement and condition.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Ruby Programming.
+To practice all areas of Ruby Programming, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ruby Programming Questions and Answers – Comments in Ruby» Next - Ruby Programming Questions and Answers – The Else Conditional Statement 

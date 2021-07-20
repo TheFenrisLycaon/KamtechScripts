@@ -1,0 +1,182 @@
+1. For the circuit given below, the value of the z12 parameter is ___________
+a) z12 = 1 Ω
+b) z12 = 4 Ω
+c) z12 = 1.667 Ω
+d) z12 = 2.33 Ω
+a
+I0 =  \(\frac{1}{2} I_1 \) 
+V2 = 2I0 = I1
+z21 = \(\frac{V_2}{I_1}\) = 1Ω
+z22 = \(\frac{V_2}{I_2}\)  = 2 || (4+6) = 1.667Ω
+So, I’0 = \(\frac{2}{2+10}I_2 = \frac{1}{6}I_2 \) 
+V1 = 6I’0 = I2
+z12 = \(\frac{V_1}{I_2}\)  = 1Ω
+Hence, [z] = [4:1; 1:1.667] Ω.
+2.  For the network of figure, z11 is equal to ___________
+a) \(\frac{5}{3}\) Ω
+b) \(\frac{3}{2}\) Ω
+c) 2 Ω
+d) \(\frac{2}{3}\) Ω
+a
+Z11 = 1 + \(\frac{1 X 2}{3}\) 
+= 1 + \(\frac{2}{3}\) 
+= \(\frac{5}{3}\) Ω.
+3. For the circuit given below, the value of z11 parameter is ____________
+a) z11 = 4 + j6 Ω
+b) z11 = j6 Ω
+c) z11 = -j6 Ω
+d) z11 =  -j6 + 4 Ω
+a
+z11 – z12 = 4
+Or, z11 = z12 + 4 = 4 + j6 Ω
+And z22 – z12 = -j10
+Or, z22 = z12 + -j10 = -j4 Ω
+∴ [z] = [4+j6:j6; j6:-j4] Ω.
+4. In a series RLC circuit excited by a voltage 3e-t u (t), the resistance is equal to 1 Ω and capacitance = 2 F. For the circuit, the values of I (0+) and I (∞), are ____________
+a) 0 and 1.5 A
+b) 1.5 A and 3 A
+c) 3 A and 0
+d) 3 A and 1.5 A
+c
+Or, I(t) = 6 e-t – 3 e-0.5t
+Putting, t = 0, we get, I(0) = 3A
+Putting t = ∞, we get, I (∞) = 0.
+5. For the circuit given below, the value of z12 parameter is ____________
+a) Z12 = 20 Ω
+b) Z12 = 25 Ω
+c) Z12 = 30 Ω
+d) z12 = 24 Ω
+a
+V0 = \(\frac{20}{25}\)V1 = 20 I1
+-V0 – 4I2 + V2 = 0
+Or, V2 = V0 + 4I1 = 20I1 + 4I1 = 24 I1
+Or, z21 = \(\frac{V_2}{I_1}\) = 24 Ω
+V2 = (10+20) I2 = 30 I2
+Or, z22 = \(\frac{V_2}{I_1}\) = 30 Ω
+V1 = 20I2
+Or, z12 = \(\frac{V_1}{I_2}\) = 20 Ω
+∴ [z] = [25:20; 24:30] Ω.
+6. For the circuit given below, the value of the z22 parameter is ___________
+a) z22 = 1 Ω
+b) z22 = 4 Ω
+c) z22 = 1.667 Ω
+d) z22 = 2.33 Ω
+c
+I0 =  \(\frac{1}{2} I_1 \) 
+V2 = 2I0 = I1
+z21 = \(\frac{V_2}{I_1}\) = 1Ω
+z22 = \(\frac{V_2}{I_2}\)  = 2 || (4+6) = 1.667Ω
+So, I’0 = \(\frac{2}{2+10}I_2 = \frac{1}{6}I_2 \) 
+V1 = 6I’0 = I2
+z12 = \(\frac{V_1}{I_2}\)  = 1Ω
+Hence, [z] = [4:1; 1:1.667] Ω.
+7. For the circuit given below, the value of z22 parameter is ____________
+a) z22 = 0.0667 Ω
+b) z22 = 2.773 Ω
+c) z22 = 1.667 Ω
+d) z22 = 0.999 Ω
+b
+z11 = 2 + 1 || (2 + \(\frac{3}{4}\)) = 2 + \(\frac{1×\frac{11}{4}}{1+\frac{11}{4}} = 2 + \frac{11}{15}\) = 2.733
+I0 = \(\frac{1}{1+3}\) I’0 = \(\frac{1}{4}\) I’0
+And I’0 = 1 + \(\frac{11}{4}\)  I1 = \(\frac{4}{15}\) I1
+Or, I0 = \(\frac{1}{4} × \frac{4}{5} I_1 = \frac{1}{15} I_1\) 
+Or, V2 = I0 = \(\frac{1}{15} I_1\) 
+z21 = \(\frac{V_2}{I_1} = \frac{1}{15}\) = z12 = 0.0667
+z22 = \(\frac{V_2}{I_2}\)  = 2+1 || (2+1||3) = z11 = 2.733
+∴ [z] = [2.733:0.0667; 0.0667:2.733] Ω.
+8. For the circuit given below, the value of z22 parameter is ____________
+a) z22 = 4 + j6 Ω
+b) z22 = j6 Ω
+c) z22 = -j4 Ω
+d) z22 =  -j6 + 4 Ω
+c
+z11 – z12 = 4
+Or, z11 = z12 + 4 = 4 + j6 Ω
+And z22 – z12 = -j10
+Or, z22 = z12 + -j10 = -j4 Ω
+∴ [z] = [4+j6:j6; j6:-j4] Ω.
+9. For the circuit given below, the value of z22 parameter is ____________
+a) z22 = 1.775 + j5.739 Ω
+b) z22 = 1.775 – j4.26 Ω
+c) z22 = -1.775 – j5.739 Ω
+d) z22 = 1.775 + j4.26 Ω
+c
+z2 = \(\frac{j60}{12+j5}\) 
+z3 = \(\frac{50}{12+j5}\) 
+z12 = z21 = z2 = \(\frac{(-j60)(12-j5)}{144+25}\) = -1.775 – j4.26
+z11 = z1 + z12 = \(\frac{(j120)(12-j5)}{144+25}\) + z12 = 1.775 + j4.26
+z22 = z3 + z21 = \(\frac{(50)(12-j5)}{144+25}\) + z21 = 1.7758 – j5.739
+∴ [z] = [1.775 + j4.26; -1.775 – j4.26; -1.775 – j4.26; 1.775 – j5.739] Ω.
+10. For the circuit given below, the value of z22 parameter is ____________
+a) z22 = 20 Ω
+b) z22 = 25 Ω
+c) z22 = 30 Ω
+d) z22 = 24 Ω
+c
+V0 = \(\frac{20}{25}\)V1 = 20 I1
+-V0 – 4I2 + V2 = 0
+Or, V2 = V0 + 4I1 = 20I1 + 4I1 = 24 I1
+Or, z21 = \(\frac{V_2}{I_1}\) = 24 Ω
+V2 = (10+20) I2 = 30 I2
+Or, z22 = \(\frac{V_2}{I_1}\) = 30 Ω
+V1 = 20I2
+Or, z12 = \(\frac{V_1}{I_2}\) = 20 Ω
+∴ [z] = [25:20; 24:30] Ω.
+11. A capacitor of 220 V, 50 Hz is needed for AC supply. The peak voltage rating of the capacitor is ____________
+a) 220 V
+b) 460 V
+c) 440 V
+d) 230 V
+c
+Peak voltage rating = 2 (rms voltage rating)
+Given that the RMS voltage rating = 220 V
+So, the Peak Voltage Rating = 2 X 220 V
+= 440 V.
+12. In the circuit given below, the value of the hybrid parameter h21 is _________
+a) 10 Ω
+b) 0.5 Ω
+c) 5 Ω
+d) 2.5 Ω
+b
+Therefore short circuiting the terminal Y-Y’, and applying Kirchhoff’s law, we get,
+-5 I2 – (I2 – I1)5 = 0
+Or, -I2 = I2 – I1
+Or, -2I2 = -I1
+∴  \(\frac{I_2}{I_1} = \frac{1}{2}\) 
+ Hence h21 = 0.5 Ω.
+13. If a two port network is passive, then we have, with the usual notation, the relationship as _________
+a) h21 = h12
+b) h12 = -h21 
+c) h11 = h22
+d) h11 h22 – h12 h22 = 1
+d
+I2 = y21 V1 + y22 V2 ………. (2)
+And, V1 = h11 I1 + h12 V2 ………. (3)
+I2 = h21 I1 + h22 V2 ……….. (4)
+Now, (3) and (4) can be rewritten as,
+I1 = \(\frac{V_1}{h_{11}}  – \frac{h_{12} V_2}{h_{11}}\)  ………. (5)
+And I2 = \(\frac{h_21 V_1}{h_11}  + \left(- \frac{h_{21} h_{12}}{h_{11}} + h_{22}\right) V_2\) ………. (6)
+Therefore using the above 6 equations in representing the hybrid parameters in terms of the Y parameters and applying ∆Y = 0, we get,
+h11 h22 – h12 h22 = 1 [hence proved].
+14. In two-port networks the parameter h22 is called _________
+a) Short circuit input impedance
+b) Short circuit current gain
+c) Open circuit reverse voltage gain
+d) Open circuit output admittance
+d
+Since the current in the first loop is 0 when the ratio of the current and voltage in second loop is measured, therefore the parameter h12 is called as Open circuit output admittance.
+15. The short-circuit admittance matrix of a two port network is as follows.
+[0; -0.5; 0.5; 0]
+Then the 2 port network is ____________
+a) Non-reciprocal and passive
+b) Non-reciprocal and active
+c) Reciprocal and passive
+d) Reciprocal and active
+b
+Therefore the network is Non- reciprocal and active.
+Sanfoundry Global Education & Learning Series – Network Theory.
+To practice all areas of Network Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Theory Questions and Answers – Series-Parallel Interconnection of Two Port Network» Next - Network Theory Questions and Answers – Advanced Problems on Two Port Network – 2 

@@ -1,0 +1,67 @@
+1. ___________ generates keys of type LongWritable and values of type Text.
+a) TextOutputFormat
+b) TextInputFormat
+c) OutputInputFormat
+d) None of the mentioned
+b
+2. Point out the correct statement.
+a) The reduce input must have the same types as the map output, although the reduce output types may be different again
+b) The map input key and value types (K1 and V1) are different from the map output types
+c) The partition function operates on the intermediate key
+d) All of the mentioned
+d
+3. In _____________ the default job is similar, but not identical, to the Java equivalent.
+a) Mapreduce
+b) Streaming
+c) Orchestration
+d) All of the mentioned
+b
+4. An input _________ is a chunk of the input that is processed by a single map.
+a) textformat
+b) split
+c) datanode
+d) all of the mentioned
+b
+5. Point out the wrong statement.
+a) If V2 and V3 are the same, you only need to use setOutputValueClass()
+b) The overall effect of Streaming job is to perform a sort of the input
+c) A Streaming application can control the separator that is used when a key-value pair is turned into a series of bytes and sent to the map or reduce process over standard input
+d) None of the mentioned
+d
+6. An ___________ is responsible for creating the input splits, and dividing them into records.
+a) TextOutputFormat
+b) TextInputFormat
+c) OutputInputFormat
+d) InputFormat
+d
+7. ______________ is another implementation of the MapRunnable interface that runs mappers concurrently in a configurable number of threads.
+a) MultithreadedRunner
+b) MultithreadedMap
+c) MultithreadedMapRunner
+d) SinglethreadedMapRunner
+c
+8. Which of the following is the only way of running mappers?
+a) MapReducer
+b) MapRunner
+c) MapRed
+d) All of the mentioned
+b
+9. _________ is the base class for all implementations of InputFormat that use files as their data source.
+a) FileTextFormat
+b) FileInputFormat
+c) FileOutputFormat
+d) None of the mentioned
+b
+10. Which of the following method add a path or paths to the list of inputs?
+a) setInputPaths()
+b) addInputPath()
+c) setInput()
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop for experienced, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – YARN – 2» Next - Hadoop Questions and Answers – Mapreduce Formats 

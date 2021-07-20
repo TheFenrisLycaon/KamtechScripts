@@ -1,0 +1,93 @@
+1. In FEM, what does the simple two-dimensional plate theories account for?
+a) The kinematics of bending deformation of thin bodies without to transverse loads
+b) The kinematics of bending deformation of thin bodies subjected to transverse loads
+c) Thin bodies subjected to transverse loads without bending deformation
+d) Thin plates subjected to transverse loads with bending deformation
+b
+2. In the bending of elastic plates, although the plate problems are similar to the plane stress problems, plates are also subjected to transverse loads that cause bending about axes normal to the plane of the plate.
+a) True
+b) False
+b
+3. Which option is correct about an analog of a plate in simple plate theory used in FEM?
+a) A plate is a one-dimensional analog of a beam
+b) A plate is a two-dimensional analog of a beam
+c) A plate is a three-dimensional analog of a beam
+d) A plate is not analogous to beam
+b
+4. In FEM, which principle is used to derive the governing equations of displacement-based plate theories?
+a) The principle of virtual forces
+b) The principle of virtual work
+c) The principle of virtual displacements
+d) The principle of least energy
+c
+5. In FEM, which theory is an extension of the Euler-Bernoulli beam theory?
+a) Classical Plate Theory
+b) Shear Deformation Theory
+c) Hencky-Mindlin plate theory
+d) Shell theory
+a
+Join Sanfoundry@YouTube
+6. In displacement-based plate theories, which option is not an assumption of Classical Plate Theory (CPT)?
+a) A straight line perpendicular to the plane of the plate is inextensible
+b) A straight line perpendicular to the plane of the plate remains straight
+c) A straight line perpendicular to the plane of the plate remains straight and does not rotate
+d) A straight line perpendicular to the plane of the plate rotates such that it remains perpendicular to the tangent to the deformed surface
+c
+7. Which option specifiesan assumption made in Classical Plate Theory for a plate lying in the plane XY?
+a) εzz=0
+b) εxz≠0
+c) εyz≠0
+d) εxy=0
+a
+8. The following diagram is the mid-plane of an elastic plate. Which option shows the correct moments Mxx and Mxy if the plate is loaded as per the Classical Plate Theory?
+a) 
+b) 
+c)  
+d)  
+b
+9. The following figure shows the mid-plane of an elastic plate. What are the boundary conditions in Classical Plate Theory if the plate is clamped and the displacement along Z is w?
+a) w=0,\(\frac{\partial w}{\partial n}\)=0 
+b) w=0,Vn=0
+c) w=0,\(\frac{\partial w}{\partial n}\)≠0 
+d) w=0,Mnn=0
+a
+10. The following figure shows the mid-plane of an elastic plate. In Classical Plate Theory, what are the boundary conditions ifthe plate is simply supported with deflection w along Z?
+a) w=0,\(\frac{\partial w}{\partial n}=0\) 
+b) w=0,Vn=0
+c) w=0,\(\frac{\partial w}{\partial n}\)≠0 
+d) w=0,Mnn=0
+d
+11. In FEM, what are the primary variables in the Classical Plate Theory of plate deformation (w)?
+a) The transverse deflection w only
+b) The transverse deflection w and the normal derivative of w
+c) The normal derivative of w only
+d) The normal and the time derivative of w
+b
+12.How many termpolynomial is used in the approximation of w for a three noded triangular element with three DOF at each node?
+a) 9-term
+b) 18-term
+c) 6-term
+d) 12-term
+a
+13. In Classical Plate Theory, what is the correct comment for the polynomial w=a1+a2x+a3y+a4xy+a5x2+a6y2+a7(x2y+xy2)+a8x3+a9y3?
+a) It is used in the approximation of deflection for a rectangular element
+b) It is a complete third order polynomial
+c) It’s an incomplete third order polynomial
+d) w varies as a quadratic along any line x=constant
+c
+14. In Classical Plate Theory, because the 4-noded rectangular element is non-conforming, it gives poor results in approximation.
+a) True
+b) False
+b
+15. In Classical Plate Theory, how many triangles assemble to give a conforming triangular element with DOF w, \(\frac{dw}{dy}\) and \(\frac{dw}{dy}\) at each vertex?
+a) 1
+b) 3
+c) 4
+d) 12
+b
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Penalty – Finite Element Model – 2» Next - Finite Element Method Questions and Answers – Shear Deformable Plate Model 

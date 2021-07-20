@@ -1,0 +1,69 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in HP and other companies. Anyone looking for HP placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of online C quiz on “Pointers and Arrays” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int ary[4] = {1, 2, 3, 4};        printf("%d\n", *ary);    }
+a) 1
+b) Compile time error
+c) Some garbage value
+d) Undefined variable
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        const int ary[4] = {1, 2, 3, 4};        int *p;        p = ary + 3;        *p = 5;        printf("%d\n", ary[3]);    }
+a) 4
+b) 5
+c) Compile time error
+d) 3
+b
+Join Sanfoundry@YouTube
+3. What are the different ways to initialize an array with all elements as zero?
+a) int array[5] = {};
+b) int array[5] = {0};
+c)
+   int a = 0,  b = 0,  c = 0;
+   int array[5] = {a, b, c};
+d) All of the mentioned
+d
+4. What are the elements present in the array of the following C code?
+int array[5] = {5};
+a) 5, 5, 5, 5, 5
+b) 5, 0, 0, 0, 0
+c) 5, (garbage), (garbage), (garbage), (garbage)
+d) (garbage), (garbage), (garbage), (garbage), 5
+b
+5. Which of the following declaration is illegal?
+a)
+   int a = 0, b = 1, c = 2;
+   int array[3] = {a, b, c};
+b)
+   int size = 3;
+   int array[size];
+c)
+   int size = 3;
+   int array[size] = {1, 2, 3};
+d) All of the mentioned
+c
+6. An array of similar data types which themselves are a collection of dissimilar data type are ___________
+a) Linked Lists
+b) Trees
+c) Array of Structure
+d) All of the mentioned
+c
+7. Comment on an array of the void data type.
+a) It can store any data-type
+b) It only stores element of similar data type to first element
+c) It acquires the data type with the highest precision in it
+d) You cannot have an array of void data type
+d
+8. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int ary[4] = {1, 2, 3, 4};        int p[4];        p = ary;        printf("%d\n", p[1]);    }
+a) 1
+b) Compile time error
+c) Undefined behaviour
+d) 2
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Pointers and Arrays – 1» Next - C Programming Questions and Answers – Address Arithmetic – 1 

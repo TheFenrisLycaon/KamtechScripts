@@ -1,0 +1,80 @@
+1. The serial communication is
+a) cheaper communication
+b) requires less number of conductors
+c) slow process of communication
+d) all of the mentioned
+d
+2. The serial communication is used for
+a) short distance communication
+b) long distance communication
+c) short and long distance communication
+d) communication for a certain range of distance
+b
+3. The mcs 51 architecture supports
+a) serial transmission and reception
+b) simultaneous transmission and reception
+c) transmission and reception of data using serial communication interface
+d) all of the mentioned
+d
+4. The number of bits transmitted or received per second is defined as
+a) transmission rate
+b) reception rate
+c) transceiver rate
+d) baud rate
+d
+5. The task of converting the byte into serial form and transmitting it bit by bit along with start, stop and parity bits is carried out by
+a) reception unit
+b) serial communication unit
+c) transmission unit
+d) all of the mentioned
+c
+Join Sanfoundry@YouTube
+6. The transmission unit does not require assistance from processor if once a byte for transmission is written to
+a) SCON register
+b) SBUF register
+c) SFR address
+d) Any of the mentioned
+b
+7. The common unit shared by the receiver unit and transmission unit of serial communication unit is
+a) SCON(Serial Port Control) Register
+b) SBUF(Serial Buffer) register
+c) 8-bit serial data interface
+d) All of the mentioned
+d
+8. During serial reception, the buffer that receives serial bits and converts to a byte is
+a) receive buffer 0
+b) receive buffer 1
+c) receive buffer 2
+d) none
+b
+9. If SM0=1, SM1=0, then the transceiver selected is
+a) 8-bit synchronous
+b) 9-bit synchronous
+c) 8-bit asynchronous
+d) 9-bit asynchronous
+d
+10. If the microcontroller is expected to communicate in a multiprocessor system, then the required condition is
+a) SM0 is set
+b) SM1 is set
+c) SM2 is set
+d) REN is set
+c
+11. In mode 2, the baud rate depends only on
+a) SMOD bit
+b) SCON bit
+c) Oscillator clock frequency
+d) SMOD bit and oscillator clock frequency
+d
+12. The mode that offers the most secured parity enabled data communication at lower baud rates is
+a) mode 2
+b) mode 1
+c) mode 0
+d) all of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Interrupt Structure of 8051» Next - Microprocessors Questions and Answers – Power Control Register 

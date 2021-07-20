@@ -1,0 +1,90 @@
+1. What are the small signal FET parameters?
+a) gm and rds
+b) gm and Vgs
+c) Vds and rds
+d) gm
+a
+gm and rds are the small signal FET parameters.
+2. Find the transconductance when applied gate to source voltage is -2V.
+a) 10 Ω-1
+b) 10mΩ-1
+c) 40mΩ-1
+d) 20mΩ-1
+b
+gm = gmo (1 – VGS/VP) = 20 (1-2/4) = 20/2 = 10mΩ-1.
+3. Choose the incorrect statement for JFET(s).
+a) Maximum transconductance occurs at VGS=0
+b) Transconductance decreases linearly with VGS
+c) Transconductance increases linearly with IDS
+d) Transconductance does not depend on VDS
+c
+4. Consider the circuit shown below.
+Find the net output resistance given that gm = 1mΩ-1 and rds = 0.1 MΩ.
+a) 10 kΩ
+b) 9.09 kΩ
+c) 100 kΩ
+d) 110 kΩ
+b
+R = 9.09 kΩ.
+5. For an RC coupled common source JFET amplifier without bypass capacitor, find the voltage gain if gm = 1mΩ-1, source resistance is 2kΩ, drain resistance is 15kΩ and load is 10kΩ.
+a) -2
+b) -2.5
+c) 5
+d) 2
+a
+RL’= 15k|| 10k = 6kΩ
+AV = – 2.
+Join [email protected]
+6. Consider the amplifier below.
+Find the input resistance and voltage gain of the circuit, given gm = 0.5mΩ-1 and rds = 0.2MΩ.
+a) RI = 27.27 kΩ, AV = 5
+b) RI = 44 kΩ, AV = 1
+c) RI = 27.27kΩ, AV = 1
+d) RI = 60kΩ, AV = 100
+c
+Its input resistance, RI = RG = 60k||50k = 27.27 kΩ
+The voltage gain is 1.
+7. Which of these is incorrect for a common gate amplifier?
+a) It is a current  buffer
+b) It has ∞ output resistance
+c) Its input resistance is high
+d) It is used as a high-frequency amplifier
+c
+8. In a high-frequency model of a JFET, which of these capacitances is present?
+A: Gate-to-source capacitance
+B: Gate-to-drain capacitance
+C: Drain-to-source capacitance
+a) A and B
+b) A and C
+c) B and C
+d) A, B and C
+d
+9. Which of these is false for a CS amplifier without a bypass capacitor compared to a CS amplifier with a bypass capacitor?
+a) Voltage gain magnitude decreases
+b) Input resistance remains same
+c) The output resistance decreases
+d) The output is 180° out of phase with respect to the input applied
+c
+RI = RG for both.
+RO = rds with bypass capacitor and rds = rds + (1+μ) RS without a bypass capacitor.
+Output is still 180° out of phase compared to applied input, but the gain decreases.
+10. Which of these has an output which follows input?
+a) CS amplifier with a bypass capacitor
+b) CD amplifier
+c) CG amplifier
+d) CS amplifier without a bypass capacitor
+b
+But since gm(RS||rds)>>1, gain AV≈1, that is, it acts as a voltage follower. It is also called a source follower.
+11. In a CS amplifier, given that rds=0.5MΩ and gm=5mΩ-1, the load is 10kΩ, source resistance is 44 kΩ. Calculate the internal amplification factor for the small signal model.
+a) 2500
+b) 8100
+c) 9800
+d) 7700
+a
+Hence, amplification factor = 2500.
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Biasing of JFET and MOSFET» Next - Analog Circuits Questions and Answers – MOSFET Amplifier with CD Configuration – 1 

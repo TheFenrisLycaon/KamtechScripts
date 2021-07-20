@@ -1,0 +1,56 @@
+1. In neighborhood operations working is being done with the value of image pixel in the neighborhood and the corresponding value of a subimage that has same dimension as neighborhood. The subimage is referred as _________
+a)	Filter
+b)	Mask
+c)	Template
+d)	All of the mentioned
+d
+2. The response for linear spatial filtering is given by the relationship __________
+a)	Sum of filter coefficient’s product and corresponding image pixel under filter mask
+b)	Difference of filter coefficient’s product and corresponding image pixel under filter mask
+c)	Product of filter coefficient’s product and corresponding image pixel under filter mask
+d)	None of the mentioned
+a
+3. In linear spatial filtering, what is the pixel of the image under mask corresponding to the mask coefficient w (1, -1), assuming a 3*3 mask?
+a)	f (x, -y)
+b)	f (x + 1, y)
+c)	f (x, y – 1)
+d)	f (x + 1, y – 1)
+d
+4. Which of the following is/are a nonlinear operation?
+a)	Computation of variance
+b)	Computation of median
+c)	All of the mentioned
+d)	None of the mentioned
+c
+Join Sanfoundry@YouTube
+5. Which of the following is/are used as basic function in nonlinear filter for noise reduction?
+a)	Computation of variance
+b)	Computation of median
+c)	All of the mentioned
+d)	None of the mentioned
+b
+6. In neighborhood operation for spatial filtering if a square mask of size n*n is used it is restricted that the center of mask must be at a distance ≥ (n – 1)/2 pixels from border of image, what happens to the resultant image?
+a)	The resultant image will be of same size as original image
+b)	The resultant image will be a little larger size than original image
+c)	The resultant image will be a little smaller size than original image
+d)	None of the mentioned
+c
+7. Which of the following method is/are used for padding the image?
+a)	Adding rows and column of 0 or other constant gray level
+b)	Simply replicating the rows or columns
+c)	All of the mentioned
+d)	None of the mentioned
+c
+8. In neighborhood operation for spatial filtering using square mask of n*n, which of the following approach is/are used to obtain a perfectly filtered result irrespective of the size?
+a)	By padding the image
+b)	By filtering all the pixels only with the mask section that is fully contained in the image
+c)	By ensuring that center of mask must be at a distance ≥ (n – 1)/2 pixels from border of image
+d)	None of the mentioned
+c
+In the other approach like padding affect the values near the edges that gets more prevalent with mask size increase, while the another approach results in the band of pixels near border that gets processed with partial filter mask. So, not a fully filtered case.
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Smoothing Nonlinear Spatial Filter» Next - Digital Image Processing Questions and Answers – Filtering in Frequency Domain 

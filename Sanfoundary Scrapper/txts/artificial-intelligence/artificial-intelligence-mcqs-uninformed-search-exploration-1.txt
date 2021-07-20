@@ -1,0 +1,99 @@
+1. What is the general term of Blind searching?
+a) Informed Search
+b) Uninformed Search
+c) Informed &  Unformed Search
+d) Heuristic Search
+b
+2. Strategies that know whether one non-goal state is “more promising” than another are called ___________
+a) Informed &  Unformed Search
+b) Unformed Search
+c) Heuristic & Unformed Search
+d) Informed & Heuristic Search
+d
+3. Which of the following is/are Uninformed Search technique/techniques?
+a) Breadth First Search (BFS)
+b) Depth First Search (DFS)
+c) Bidirectional Search
+d) All of the mentioned
+d
+4. Which data structure conveniently used to implement BFS?
+a) Stacks
+b) Queues
+c) Priority Queues
+d) All of the mentioned
+b
+5. Which data structure conveniently used to implement DFS?
+a) Stacks
+b) Queues
+c) Priority Queues
+d) All of the mentioned
+a
+Join Sanfoundry@YouTube
+6. The time and space complexity of BFS is (For time and space complexity problems consider b as branching factor and d as depth of the search tree.)
+a) O(bd+1) and O(bd+1)
+b) O(b2) and O(d2)
+c) O(d2) and O(b2)
+d) O(d2) and O(d2)
+a
+7. Breadth-first search is not optimal when all step costs are equal, because it always expands the shallowest unexpanded node.
+a) True
+b) False
+b
+8. uniform-cost search expands the node n with the __________
+a) Lowest path cost
+b) Heuristic cost
+c) Highest path cost
+d) Average path cost
+a
+9. Depth-first search always expands the ______ node in the current fringe of the search tree.
+a) Shallowest
+b) Child node
+c) Deepest
+d) Minimum cost
+c
+10. Breadth-first search always expands the ______ node in the current fringe of the search tree.
+a) Shallowest
+b) Child node
+c) Deepest
+d) Minimum cost
+a
+11. Optimality of BFS is ___________
+a) When there is less number of nodes
+b) When all step costs are equal
+c) When all step costs are unequal
+d) None of the mentioned
+b
+12. LIFO is ______ where as FIFO is ________
+a) Stack, Queue
+b) Queue, Stack
+c) Priority Queue, Stack
+d) Stack. Priority Queue
+a
+13. When the environment of an agent is partially observable in search space following problem/problems could occur.
+a) Sensorless problems: If the agent has no sensors at all, then (as far as it knows) it could be in one of several possible initial states, and each action might therefore lead to one of several possible successor states
+b) Contingency problems: If the environment is partially observable or if actions are uncertain, then the agent’s percepts provide new information after each action. Each possible percept defines a contingency that must be planned for. A problem is called adversarial if the uncertainty is caused by the actions of another agent
+c) Exploration problems: When the states and actions of the environment are unknown, the agent must act to discover them. Exploration problems can be viewed as an extreme case of contingency problems
+d) All of the mentioned
+d
+14. For general graph, how one can get rid of repeated states?
+a) By maintaining a list of visited vertices
+b) By maintaining a list of traversed edges
+c) By maintaining a list of non-visited vertices
+d) By maintaining a list of non-traversed edges
+a
+15. DFS is ______ efficient and BFS is __________ efficient.
+a) Space, Time
+b) Time, Space
+c) Time, Time
+d) Space, Space
+a
+16. The main idea of Bidirectional search is to reduce the time complexity by searching two way simultaneously from start node and another from goal node.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series –  Artificial Intelligence.
+To practice all areas of Artificial Intelligence, here is complete set of 1000+ Multiple Choice Questions and Answers on Artificial Intelligence.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Artificial Intelligence Questions & Answers – Uninformed Search Strategy» Next - Artificial Intelligence Questions & Answers – Informed Search Strategy 

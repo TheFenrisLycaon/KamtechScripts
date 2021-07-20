@@ -1,0 +1,105 @@
+1. Number of constructors a class can define is?
+a) 1
+b) 2
+c) Any number
+d) None of the mentioned
+c
+2. The correct way of defining constructor of the given class as and when objects of classes are created is:
+   maths s1 = new maths();
+   maths s2 = new maths(5, 5.4f);
+a)
+   public maths(int pp, single tt)
+   {
+       p = pp;
+       t = tt;
+   }
+b) sample s;
+c)
+   public sample()
+   {
+      p = 0;
+      t = 0.0f;
+   }
+  public sample(int pp, single tt)
+  {
+       p = pp;
+       t = tt;
+  }
+d) s = new sample();
+a
+Join Sanfoundry@YouTube
+3. Correct way to define object of sample class in which C# code will work correctly is:
+ class abc {     int i;     float k;     public abc(int ii, float kk)     {           i = ii;         k = kk;     } }
+a) abc s1 = new abc(1);
+b) abc s1 = new abc();
+c) abc s2 = new abc(1.4f);
+d) abc s2 = new abc(1, 1.4f);
+d
+4. Correct statement about constructors in C#.NET is?
+a) Constructors can be overloaded
+b) Constructors are never called explicitly
+c) Constructors have same name as name of the class
+d) All of the mentioned
+d
+5. Which among the following is the correct statement: Constructors are used to?
+a) initialize the objects
+b) construct the data members
+c) initialize the objects & construct the data members
+d) none of the mentioned
+a
+6. Can the method add() be overloaded in the following ways in C#?
+public int add()  {    }
+public float add(){    }
+a) True
+b) False
+b
+7. Which of the following statements is correct about constructors in C#.NET?
+a) A constructor cannot be declared as private
+b) A constructor cannot be overloaded
+c) A constructor can be a static constructor
+d) None of the mentioned
+c
+8. What will be the output of the following C# code?
+ class abc {     public static void a()     {         console.writeline("first method");     }     public void b()     {         a();         console.writeline("second method");     }     public void b(int i)     {         console.writeline(i);         b();     } } class program {     static void main()     {         abc k = new abc();         abc.a();         k.b(20);     } }
+a) 
+   second method
+   20
+   second method
+   first method
+b) 
+   first method
+   20
+   first method
+   second method
+c) 
+   first method
+   20
+d) 
+   second method
+   20
+   first method
+b
+Output :
+        first method
+        20
+        first method
+        second method
+  
+9. What is the return type of constructors?
+a) int
+b) float
+c) void
+d) none of the mentioned
+d
+10. Which method has the same name as that of its class?
+a) delete
+b) class
+c) constructor
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Methods in Class» Next - C# Questions & Answers – Destructors in Class 

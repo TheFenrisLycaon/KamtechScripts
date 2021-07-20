@@ -1,0 +1,63 @@
+1. The expression 12 DIV 5 evaluates to ____________
+a) 2.4
+b) 2
+c) error
+d) 0
+b
+2. If the PIPES_AS_CONCAT is disabled, ‘abc’ || ‘xyz’ results in ____________
+a) 1
+b) 0
+c) error
+d) -1
+b
+3. ‘abc’ || ‘xyz’, when PIPES_AS_CONCAT is enabled, results in ____________
+a) 0
+b) 1
+c) abcxyz
+d) xyzabc
+c
+4. The expression ‘2 BETWEEN 2 AND 5’ results in ____________
+a) True
+b) False
+c) -1
+d) 2
+a
+5. REGEXP takes collation into account.
+a) True
+b) False
+b
+6. The expression ‘HI’ LIKE NULL results in _____________
+a) True
+b) False
+c) NULL
+d) 0
+c
+7. If the operands are non binary strings, LIKE compares them according to their collation.
+a) True
+b) False
+a
+8. The number of strings among the following matched with ‘%all%’ is _____________
+Ball, baller, tall, tallest
+a) 1
+b) 2
+c) 3
+d) 4
+d
+9. Which of the following is the correct order of precedence (high to low)?
+a) !, ^, <<, XOR
+b) ^, !,  <<, XOR
+c) !,  <<, XOR, ^
+d) !, ^, XOR,  <<
+a
+10. 0x61 + 0 results in _____________
+a) 0
+b) ‘a’
+c) 97
+d) arbitrary
+c
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Working with Sequences» Next - MySQL Questions and Answers – Choosing Data Types 

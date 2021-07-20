@@ -1,0 +1,81 @@
+1. How are delivered performance values estimated for a propulsion system?
+a) Static tests or flight tests of full-scale models
+b) Dimensional analysis and similitude of models
+c) A theoretical analysis using the known relations
+d) Using computational simulation
+a
+2. What is another name for the nozzle area ratio?
+a) Nozzle expansion ratio
+b) Nozzle contraction ratio
+c) Nozzle convergence ratio
+d) Nozzle divergence ratio
+a
+3. If isentropic efficiency for expansion in a nozzle having a mass flow rate of 90 kg/s is 0.95, find the exit area. Given the low speed entrance pressure is 250 kPa, temperature is 375 °C and outside atmospheric pressure is 101 kPa. Assume Cp = 1005 J/(kgK) and γ = 1.33.
+a) 0.133 m2
+b) 0.210 m2
+c) 0.295 m2
+d) 0.225 m2
+d
+{2/(γ+1)}γ/γ-1 = (2/2.33)(1.33/0.33) = 0.54
+Here Pe/Po = 0.4. Hence its a C-D nozzle.
+Te = To(Pe/Po)γ-1/γ = 648 x (101/250)0.33/1.33 = 517.5 K
+ve = \(\sqrt{(2C_p(T_t-T_e))} = \sqrt{(2 * 1005 * (648 – 517.5))}\) = 512.16 m/s
+ρe = Pe/RTe = 0.78 kg/m3 (Take Cp = γR/(γ-1) to get approximate value of R)
+Using m = ρeAeve,
+Ae = m/ρeve = 90/(0.78×512.16) = 0.225 m2.
+4. Find the critical pressure ratio for a nozzle flow from a chamber of pressure 300 kPa to the atmospheric pressure of 100 kPa. Assume γ = 1.4.
+a) 0.637
+b) 0.528
+c) 0.981
+d) 0.243
+b
+Using γ=1.4, we have the value equal to (2/2.4)1.4/0.4 = 0.528.
+5. Determine the acoustic speed in chamber conditions if the chamber pressure is 500 kPa, density is 0.8 kg/m3 and γ=1.4.
+a) 900.2 m/s
+b) 879.5 m/s
+c) 935.4 m/s
+d) 1014.2 m/s
+:
+Join [email protected]
+6. A gas tank discharges faster if it is thermally isolated than if it is kept isothermal.
+a) True
+b) False
+b
+7. For a slightly over-expanded supersonic exhaust from a nozzle with exit area of 0.110 m2, flow pressure of 180 kPa and an atmospheric pressure of 100 kPa, determine the approximate distance between the nozzle and the first shock diamond.
+a) 30.2 cm
+b) 25.9 cm
+c) 28.5 cm
+d) 33.6 cm
+d
+Do = \(\sqrt{(4A_e/\pi)} = \sqrt{(4 * 0.110/\pi)}\) = 0.374 m.
+x = 0.67 * 0.374 * \(\sqrt{(180/100)}\) = 0.336 m or 33.6 cm.
+8. If a nozzle has an optimum expansion ratio of 9, determine the nozzle cone exit diameter for a throat diameter of 15 mm.
+a) 30 mm
+b) 135 mm
+c) 45 mm
+d) 90 mm
+c
+So de2/d*2 = 9 (Since A = πd2/4).
+Which means de = d* x 3 = 45 mm.
+9. Determine the rocket thrust coefficient for a total thrust of 20 kN, chamber pressure of 500 kPa and a throat diameter of 10 cm.
+a) 2.39
+b) 6.51
+c) 4.97
+d) 5.09
+d
+A* = πd2/4 = 78.53 cm2.
+∴ CF = 20,000/(500 x 1000 x 78.53 x 10-4)
+= 5.09.
+10. Determine the jet exhaust velocity, if the flow has an exit Mach number of 3 and temperature of 700 K. (Assume γ= 1.4 and Cp = 1005 J/kgK)
+a) 1591 m/s
+b) 2041 m/s
+c) 991 m/s
+d) 781 m/s
+a
+ue = Me\(\sqrt{\gamma RT} = 3 * \sqrt{(1.4 * 287 * 700)}\) = 1591 m/s.
+Sanfoundry Global Education & Learning Series – Rocket Propulsion.
+To practice all areas of Rocket Propulsion, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Rocket Propulsion Questions and Answers – Real Nozzles» Next - Rocket Propulsion Questions and Answers – Nozzle Alignment 

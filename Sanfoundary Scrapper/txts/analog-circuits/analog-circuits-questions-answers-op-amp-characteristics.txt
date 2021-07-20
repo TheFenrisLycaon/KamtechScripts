@@ -1,0 +1,61 @@
+1. Consider the ideal op-amp shown and find the correct output.
+a)  
+b)  
+c)  
+d) 
+b
+2. Consider a practical op-amp where the power supply is VCC = +12V and VEE = -12V. The open loop gain is 106 and open loop bandwidth is 5Hz. What is the maximum positive input before which the output is saturated?
+a) 12 mV
+b) 0.012 mV
+c) 24 mV
+d) 12V
+b
+For positive saturation, the maximum allowable input is 12/106 = 0.012 mV.
+3. Given an op-amp who’s gain is unknown but the output is saturated, which of the following is not possible?
+a) No feedback is being applied
+b) Negative feedback is applied while input is more than –VSat/AOL
+c) Positive feedback is applied
+d) Negative feedback is applied while the input is more than VSat/AOL
+b
+4. The current flowing into one input of the op-amp is 12nA and it is 10 nA in the other. Find the input offset current.
+a) 1nA
+b) 2nA
+c) -2nA
+d) 11nA
+b
+IIO = 2nA.
+Join [email protected]
+5. What is incorrect regarding the output offset voltage of op-amp?
+a) It is the output when the input voltage at both input pins of op-amp is zero
+b) It occurs due to dissimilarities in the internal structure of the op-amp
+c) The output offset voltage does not depend on the supply voltage
+d) The output offset voltage can be in the units of Volts
+c
+6. Given that the PSRR of an op-amp is 120dB. The supply lies between 12V to 15V. Calculate the change in the input offset voltage.
+a) 3μV
+b) ±3μV
+c) ±3×10-12V
+d) -3V
+b
+ΔVIO = ±3/106 = ±3μV.
+7. Consider the circuit shown. The input VI = 10sin2π106t. Calculate the duty cycle of the output.
+a) 0.43
+b) 0.065
+c) 0.36
+d) 0.5
+c
+Let input = VI = 10 sinθ
+The output goes to +VSat whenever the input VI crosses amplitude of 4V.
+Thus 4 = 10sinθ
+Θ = sin-1 0.4 = 0.411 rad = 23.57°
+The duty cycle = [180 – θ – θ]/360 = 180-47.14/360 = 0.36.
+8. An op-amp uses a level shifter internally to prevent the loading effect.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Frequency Filters – 2» Next - Analog Electronic Circuits Questions and Answers – BJT Configuration 

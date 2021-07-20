@@ -1,0 +1,97 @@
+This section on C++ interview questions and answers focuses on “Comments and Indentation”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Comments and Indentation” along with answers, explanations and/or solutions:
+1. How many types of comments are there in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+2. What is a comment in c++?
+a) comments are parts of the source code disregarded by the compiler
+b) comments are executed by the compiler to find the meaning of the comment
+c) comments are executable
+d) comments are executed by the compiler
+a
+3. What type of comments does c++ support?
+a) single line
+b) multiline
+c) single line and multi-line
+d) reusable line
+c
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        /* this is comment*        cout << "hello world";        return 0;    }
+a) hello world
+b) hello
+c) compile time error
+d) hellohello
+c
+5. What is used to write multi line comment in c++?
+a) /* …. */
+b) /$ ….  $/
+c) //
+d) /$ …. */
+a
+6. What is the use of the indentation in c++?
+a) distinguishes between comments and code
+b) r distinguishes between comments and outer data
+c) distinguishes between comments and outer data
+d) r distinguishes between comments and inner data
+a
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    long factorial (long a)    {        if (a > 1)            return (a * factorial (a + 1));        else            return (1);    }    int main ()    {        long num = 3;        cout << num << "! = " << factorial ( num );        return 0;    }
+a) 6
+b) 24
+c) segmentation fault
+d) compile time error
+c
+Output:
+$ g++ arg3.cpp
+$ a.out
+segmentation fault
+ 
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void square (int *x)    {	*x = (*x + 1) * (*x);    }    int main ( )    {	int num = 10;        square(&num);	cout << num;	return 0;    }
+a) 100
+b) compile time error
+c) 144
+d) 110
+d
+Output:
+$ g++ arg2.cpp
+$ a.out
+110
+ 
+9. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int add(int a, int b);    int main()    {        int i = 5, j = 6;        cout << add(i, j) << endl;        return 0;    }    int add(int a, int b )    {        int sum = a + b;        a = 7;        return a + b;    }
+a) 11
+b) 12
+c) 13
+d) compile time error
+c
+Output:
+$ g++ arg1.cpp
+$ a.out
+13
+10. What will happen when we use void in argument passing?
+a) It will not return value to its caller
+b) It will return value to its caller
+c) May or may not depend on the declared return type of the function, the passed arguments are different than the function return type
+d) It will return value
+a
+11. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void Sum(int a, int b, int & c)    {        a = b + c;        b = a + c;        c = a + b;    }    int main()    {        int x = 2, y =3;        Sum(x, y, y);        cout << x << " " << y;        return 0;    }
+a) 2 3
+b) 6 9
+c) 2 15
+d) compile time error
+c
+Output:
+$ g++ arg.cpp
+$ a.out
+2 15
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Statements» Next - C++ Programming Questions and Answers – Function Declarations 

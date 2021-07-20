@@ -1,0 +1,91 @@
+1. Why do we use comments?
+a) For later use to understand the working of the program
+b) It is an efficient way of programming
+c) It makes easy for the third person to understand
+d) All of the mentioned
+d
+2. Which of the following type of comments are valid in ruby?
+a) Single line comments
+b) Multi line comments
+c) Double line comments
+d) All of the mentioned
+d
+3. How to comment multiple lines in ruby?
+a) Using multiline comments
+b) Using single line comments
+c) No option to comment
+d) All of the mentioned
+a
+4. How to comment a single line?
+a) Using #
+b) Using begin and end
+c) Using //
+d) None of the mentioned
+a
+5. This the right way to comment a single line.
+   “Ruby”.length # I’m a single line comment!
+a) True
+b) False
+a
+6. What is the output of the given code?
+   “Ruby”.length #to find the length of given string
+a) 4 to find the length of given string
+b) 4
+c) To find the length of given string
+d) Ruby
+b
+7. The following syntax is used for multiline comment.
+=begin
+    iam in a multi line comment
+   =end
+a) True
+b) False
+a
+8. The following is the correct way to use multiline comment.
+ = begin
+   # comment
+   = end
+a) True
+b) False
+b
+9. Why do we use =begin and =end?
+a) To mark the start and end of multiline comment
+b) To comment multiple lines
+c) To avoid the use of # again and again
+d) All of the mentioned
+d
+10. What is the output of the given code?
+"Ruby Language".length
+       =begin
+       calculate length
+       =end
+a) 13
+b) 13 calculate length
+c) 12
+d) None of the mentioned
+a
+Output:
+13
+11. What is the output of the given code?
+"Ruby Language".length
+       = begin
+       calculate length
+       = end
+a) 13
+b) 12
+c) Error
+d) None of the mentioned
+c
+Output:
+Syntax error, unexpected '=', expecting $end
+= begin
+12. Space between 2+5 or 2 + 5 is valid but =begin and = begin is not valid.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Ruby Programming.
+To practice all areas of Ruby Programming, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ruby Programming Questions and Answers – Formatting String Methods» Next - Ruby Programming Questions and Answers – The If Conditional Statement 

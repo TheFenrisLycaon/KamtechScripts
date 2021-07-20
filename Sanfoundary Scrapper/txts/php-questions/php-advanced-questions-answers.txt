@@ -1,0 +1,81 @@
+1. What will be the output of the following PHP code?
+<?php    $title = "O'malley wins the heavyweight championship!";    echo ucwords($title);?>
+a) O’Malley Wins The Heavyweight Championship!
+b) O’malley Wins The Heavyweight Championship!
+c) O’Malley wins the heavyweight championship!
+d) o’malley wins the heavyweight championship!
+d
+2. What will be the output of the following PHP code?
+<?php    echo str_pad("Salad", 5)." is good.";?>
+a) SaladSaladSaladSaladSalad is good
+b) is good SaladSaladSaladSaladSalad
+c) is good Salad
+d) Salad is good
+d
+3. What will be the output of the following PHP code?
+<?php    $str = "Hello World"    echo wordwrap($str,5,"<br>\n");    ?>
+a) Hello World
+b) 
+Hello
+World
+c) 
+Hell
+o wo
+rld
+d) World
+b
+4. What will be the output of the following PHP code?
+<?php    echo ucwords("i love my country");?>
+a) I love my country
+b) i love my Country
+c) I love my Country
+d) I Love My Country
+d
+5. What will be the output of the following PHP code?
+<?php    echo lcfirst("welcome to India");?>
+a) welcome to India
+b) welcome to india
+c) Welcome to India
+d) Welcome to india
+a
+6. What will be the output of the following PHP code?
+<?php    echo hex2bin("48656c6c6f20576f726c6421");?>
+a) Hello World!
+b) welcome to india
+c) This is PHP!
+d) MCQ questons
+a
+7. What will be the output of the following PHP code?
+<?php     $str = addslashes('What does "yolo" mean?');    echo($str); ?>
+a) What does /”yolo/” mean?
+b) What does \\”yolo\\” mean?
+c) What does \”yolo\” mean?
+d) \What does \”yolo\” mean?\
+c
+8. What will be the output of the following PHP code?
+<?php    $str = "Hello world. It's a beautiful day.";    print_r (explode(" ",$str));?>
+a) Array ( [0] => Hello [0] => world. [0] => It’s [0] => a [0] => beautiful [0] => day. )
+b) Array ( [0] => Hello [1] => world. [2] => It’s [3] => a [4] => beautiful [5] => day. )
+c) Hello world. It’s a beautiful day
+d) Array ( [1] => Hello [2] => world. [3] => It’s [4] => a [5] => beautiful [6] => day. )
+b
+9. What will be the output of the following PHP code?
+<?php    echo strtr("Hilla Warld","ia","eo");?>
+a) Hilla Warld
+b) Hello World
+c) ia
+d) eo
+b
+10. What will be the output of the following PHP code?
+<?php    echo stripos("I love php, I love php too!","PHP");?>
+a) 3
+b) 7
+c) 8
+d) 10
+b
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice advanced questions and answers on all areas of PHP, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Functions – 2» Next - PHP Coding Questions and Answers – Functions – 4 

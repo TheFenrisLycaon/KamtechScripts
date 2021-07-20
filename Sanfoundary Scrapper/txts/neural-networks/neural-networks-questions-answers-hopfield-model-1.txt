@@ -1,0 +1,62 @@
+1. How can states of units be updated in hopfield model?
+a) synchronously
+b) asynchronously
+c) synchronously and asynchronously
+d) none of the mentioned
+c
+2. What is synchronous update in hopfield model?
+a) all units are updated simultaneously
+b) a unit is selected at random and  its new state is computed
+c) a predefined unit is selected and its new state is computed
+d) none of the mentioned
+a
+3. What is asynchronous update in hopfield model?
+a) all units are updated simultaneously
+b) a unit is selected at random and  its new state is computed
+c) a predefined unit is selected and its new state is computed
+d) none of the mentioned
+b
+4. Asynchronous update ensures that the next state is atmost unit hamming distance from current state, is that true?
+a) yes
+b) no
+a
+5. If pattern is to be stored, then what does stable state should have updated value of?
+a) current sate
+b) next state
+c) both current and next state
+d) none of the mentioned
+a
+6. For symmetric weights there exist?
+a) basins of attraction corresponding to energy minimum
+b) false wells
+c) fluctuations in energy landscape
+d) none of he mentioned
+a
+7. If connections are not symmetric then basins of attraction may correspond to?
+a) oscillatory regions
+b) stable regions
+c) chaotic regions
+d) oscillatory or chaotic regions
+d
+8. For analysis of storage capacity what are the conditions imposed on hopfield model?
+a) symmetry of weights
+b) asynchronous update
+c) symmetry of weights and asynchronous update
+d) none of the mentioned
+c
+9. What is gradient descent?
+a) method to find the absolute minimum of a function
+b) method to find the absolute maximum of a function
+c) maximum or minimum, depends on the situation
+d) none of the mentioned
+a
+10. If connections are not symmetric then basins of attraction may correspond to oscillatory or stable regions, is that true?
+a) yes
+b) no
+b
+Sanfoundry Global Education & Learning Series – Neural Networks.
+To practice all areas of Neural Networks, here is complete set on 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Neural Network Questions and Answers – Analysis of Pattern Storage Networks – 2» Next - Neural Network Questions and Answers – Hopfield Model-2 

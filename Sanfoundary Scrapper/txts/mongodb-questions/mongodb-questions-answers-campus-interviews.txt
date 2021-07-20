@@ -1,0 +1,67 @@
+1. Before version _______ capped collections did not have an _id field.
+a) 2.1
+b) 2.4
+c) 3.0
+d) 2.2
+d
+2. Point out the wrong statement.
+a) You can create indexes on fields within embedded documents
+b) Indexes on embedded fields are similar to indexes on embedded documents
+c) Indexes on embedded fields allow you to use a “dot notation,” to introspect into embedded documents
+d) None of the mentioned
+c
+3. For a _____ multikey index, each indexed document can have at most one indexed field whose value is an array.
+a) Hashed
+b) Unique
+c) Multikey
+d) compound
+d
+4. Which of the following indexes cannot be multikey?
+a) Hashed
+b) Unique
+c) Multikey
+d) compound
+a
+5. Point out the wrong statement.
+a) You may not create compound indexes that have hashed index fields
+b) The order of the fields in a compound index is very important
+c) You will receive a warning if you attempt to create a compound index that includes a hashed index
+d) None of the mentioned
+c
+6. To calculate geometry over an Earth-like sphere, store your location data on a spherical surface and use _____ index.
+a) 2dsphere
+b) 2d
+c) geoHaystack
+d) all of the mentioned
+a
+7. ______ indexes can be constructed over arrays that hold both scalar values (e.g. strings, numbers) and nested documents.
+a) Hashed
+b) Unique
+c) Multikey
+d) Compound
+c
+8. The coordinate reference system for GeoJSON uses the _____ datum.
+a) WGS88
+b) WGS84
+c) JGS88
+d) None of the mentioned
+b
+9. Which of the following is used to calculate distances on a Euclidean plane?
+a) 2dsph
+b) 2d
+c) geoHaystack
+d) all of the mentioned
+b
+10. Queries on ________ objects always calculate on a sphere.
+a) GeoBSON
+b) GeoJSON
+c) geoJSONB
+d) All of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB for campus interviews, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Index Types – 1» Next - MongoDB Questions and Answers – Index Types – 3 

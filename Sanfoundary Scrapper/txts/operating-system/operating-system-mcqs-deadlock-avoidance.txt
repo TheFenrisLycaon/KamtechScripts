@@ -1,0 +1,127 @@
+1. Each request requires that the system consider the _____________ to decide whether the current request can be satisfied or must wait to avoid a future possible deadlock.
+a) resources currently available
+b) processes that have previously been in the system
+c) resources currently allocated to each process
+d) future requests and releases of each process
+a
+2. Given a priori information about the ________ number of resources of each type that maybe requested for each process, it is possible to construct an algorithm that ensures that the system will never enter a deadlock state.
+a) minimum
+b) average
+c) maximum
+d) approximate
+c
+3. A deadlock avoidance algorithm dynamically examines the __________ to ensure that a circular wait condition can never exist.
+a) resource allocation state
+b) system storage state
+c) operating system
+d) resources
+a
+4. A state is safe, if ____________
+a) the system does not crash due to deadlock occurrence
+b) the system can allocate resources to each process in some order and still avoid a deadlock
+c) the state keeps the system protected and safe
+d) all of the mentioned
+b
+5. A system is in a safe state only if there exists a ____________
+a) safe allocation
+b) safe resource
+c) safe sequence
+d) all of the mentioned
+c
+6. All unsafe states are ____________
+a) deadlocks
+b) not deadlocks
+c) fatal
+d) none of the mentioned
+b
+7. A system has 12 magnetic tape drives and 3 processes : P0, P1, and P2. Process P0 requires 10 tape drives, P1 requires 4 and P2 requires 9 tape drives.
+Process    
+P0            
+P1                             
+P2                             
+ 
+Maximum needs (process-wise: P0 through P2 top to bottom)    
+10             
+4   
+9
+ 
+Currently allocated (process-wise)
+5
+2
+2
+Which of the following sequence is a safe sequence?
+a) P0, P1, P2
+b) P1, P2, P0
+c) P2, P0, P1
+d) P1, P0, P2
+d
+8. If no cycle exists in the resource allocation graph ____________
+a) then the system will not be in a safe state
+b) then the system will be in a safe state
+c) all of the mentioned
+d) none of the mentioned
+b
+9. The resource allocation graph is not applicable to a resource allocation system ____________
+a) with multiple instances of each resource type
+b) with a single instance of each resource type
+c) single & multiple instances of each resource type
+d) none of the mentioned
+a
+10. The Banker’s algorithm is _____________ than the resource allocation graph algorithm.
+a) less efficient
+b) more efficient
+c) equal
+d) none of the mentioned
+a
+11. The data structures available in the Banker’s algorithm are ____________
+a) Available
+b) Need
+c) Allocation
+d) All of the mentioned
+d
+12. The content of the matrix Need is ____________
+a) Allocation – Available
+b) Max – Available
+c) Max – Allocation
+d) Allocation – Max
+c
+13. A system with 5 processes P0 through P4 and three resource types A, B, C have A with 10 instances, B with 5 instances, and C with 7 instances. At time t0, the following snapshot has been taken:
+Process
+P0               
+P1               
+P2           
+P3           
+P4       
+ 
+Allocation (process-wise : P0 through P4 top TO bottom) 
+A   B   C
+0   1   0
+2   0   0
+3   0   2
+2   1   1
+0   0   2
+ 
+MAX (process-wise: P0 through P4 top TO bottom)
+A   B   C
+7   5   3
+3   2   2
+9   0   2
+2   2   2
+4   3   3
+ 
+Available
+A   B   C
+3   3   2
+The sequence <P1, P3, P4, P2, P0> leads the system to ____________
+a) an unsafe state
+b) a safe state
+c) a protected state
+d) a deadlock
+b
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions and Answers – Deadlock Prevention» Next - Operating System Questions and Answers – Deadlock Detection 

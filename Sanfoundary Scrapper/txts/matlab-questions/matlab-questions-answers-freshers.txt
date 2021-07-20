@@ -1,0 +1,71 @@
+1. What is the output of the following code?
+isvector((49 32));
+a) Error in ()
+b) Error due to absence of comma
+c) Error due to command
+d) Logical 1
+a
+2. What is the output of the following code?
+clipboard('Do re Mi fa','copy')
+a) Error in hierarchy
+b) Copies the input text to the system clipboard
+c) Replaces any text, in the clipboard, with the input text
+d) Syntactical Error
+a
+3. What is the output of the following code?
+commandhistory[]
+a) Error
+b) Shows command history
+c) Shows the previous command used
+d) Prints all the commands used for the current session
+a
+4. What is the output of the following code?
+pd=makedist('Uniform','Lower',3)
+a) Error in giving limits
+b) A uniform distribution with lower limit 3 and upper limit Infinity
+c) Error in syntax
+d) Error due to the command
+a
+5. What is the output of the following code?
+p=input('');
+po
+a) ‘po’ gets assigned to p
+b) Error in the input
+c) Error due to syntax
+d) Cannot be determined
+b
+6. What is the output of the following code?
+p=input[''];
+a) Asks for an input
+b) Error in the input
+c) Error due to syntax
+d) Cannot be determined
+c
+7. What is the output of the following code?
+pd=makedist('Uniform','-Inf',lower,'Inf',upper)
+a) Makes a uniform distribution ranging from -Inf to Inf
+b) Error due to Inf
+c) Error due to syntax
+d) Logical Error
+c
+8. What is the output of the following code?
+sumsqr([1 2; 'NaN' 4])
+a) 21
+b) Error due to NaN
+c) Error due to ‘NaN’
+d) 9
+c
+9. The uniform distribution can range from -infinity to 0 or 0 to Infinity but not from -infinity to infinity.
+a) True
+b) False
+b
+10. If a character input is given to a command which only takes integers, it’ll always give an error.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB for Freshers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Errors in Input – 1» Next - MATLAB Questions and Answers – Variables and Assignments 

@@ -1,0 +1,108 @@
+1. If x(n) and X(k) are an N-point DFT pair, then x(n+N)=x(n).
+a) True
+b) False
+a
+X(k)=\(\sum_{n=0}^{N-1} x(n)e^{-j2πkn/N}\) 
+Now take x(n)=x(n+N)=>X1(k)=\(\sum_{n=0}^{N-1} x(n+N)e^{-j2πkn/N}\) 
+Let n+N=l=>X1(k)=\(\sum_{l=N}^0 x(l)e^{-j2πkl/N}\)=X(k)
+Therefore, we got x(n)=x(n+N)
+2. If x(n) and X(k) are an N-point DFT pair, then X(k+N)=?
+a) X(-k)
+b) -X(k)
+c) X(k)
+d) None of the mentioned
+c
+x(n)=\(\frac{1}{N}\sum_{k=0}^{N-1} x(k)e^{j2πkn/N}\) 
+Let X(k)=X(k+N)
+=>x1(n)=\(\frac{1}{N} \sum_{k=0}^{N-1}X(k+N)e^{j2πkn/N}\)=x(n)
+Therefore, we have X(k)=X(k+N)
+3. If X1(k) and X2(k) are the N-point DFTs of X1(n) and x2(n) respectively, then what is the N-point DFT of x(n)=ax1(n)+bx2(n)?
+a) X1(ak)+X2(bk)
+b) aX1(k)+bX2(k)
+c) eakX1(k)+ebkX2(k)
+d) None of the mentioned
+b
+X(k)=\(\sum_{n=0}^{N-1}x(n)e^{-j2πkn/N}\) 
+Given x(n)=ax1(n)+bx2(n)
+=>X(k)= \(\sum_{n=0}^{N-1}(ax_1(n)+bx_2(n))e^{-j2πkn/N}\) 
+=\(a\sum_{n=0}^{N-1} x_1(n)e^{-j2πkn/N}+b\sum_{n=0}^{N-1}x_2(n)e^{-j2πkn/N}\) 
+=>X(k)=aX1(k)+bX2(k).
+4. If x(n) is a complex valued sequence given by x(n)=xR(n)+jxI(n), then what is the DFT of xR(n)?
+a) \(\sum_{n=0}^N x_R (n) cos⁡\frac{2πkn}{N}+x_I (n) sin⁡\frac{2πkn}{N}\) 
+b) \(\sum_{n=0}^N x_R (n) cos⁡\frac{2πkn}{N}-x_I (n) sin⁡\frac{2πkn}{N}\) 
+c) \(\sum_{n=0}^{N-1} x_R (n) cos⁡\frac{2πkn}{N}-x_I (n) sin⁡\frac{2πkn}{N}\) 
+d) \(\sum_{n=0}^{N-1} x_R (n) cos⁡\frac{2πkn}{N}+x_I (n) sin⁡\frac{2πkn}{N}\) 
+d
+Substitute the above equation in the DFT expression
+Thus we get, XR(k)=\(\sum_{n=0}^{N-1} x_R (n) cos⁡\frac{2πkn}{N}+x_I (n) sin⁡\frac{2πkn}{N}\)
+5. If x(n) is a real sequence and X(k) is its N-point DFT, then which of the following is true?
+a) X(N-k)=X(-k)
+b) X(N-k)=X*(k)
+c) X(-k)=X*(k)
+d) All of the mentioned
+d
+X(k)=\(\sum_{n=0}^{N-1} x(n)e^{-j2πkn/N}\) 
+Now X(N-k)=\(\sum_{n=0}^{N-1} x(n)e^{-j2π(N-k)n/N}\)=X*(k)=X(-k)
+Therefore,
+X(N-k)=X*(k)=X(-k)
+6. If x(n) is real and even, then what is the DFT of x(n)?
+a) \(\sum_{n=0}^{N-1} x(n) sin⁡\frac{2πkn}{N}\) 
+b) \(\sum_{n=0}^{N-1} x(n) cos⁡\frac{2πkn}{N}\) 
+c) -j\(\sum_{n=0}^{N-1} x(n) sin⁡\frac{2πkn}{N}\) 
+d) None of the mentioned
+b
+We know that XI(k)=0. Hence the DFT reduces to
+X(k)=\(\sum_{n=0}^{N-1} x(n) cos⁡\frac{2πkn}{N}\) ;0 ≤ k ≤ N-1
+7. If x(n) is real and odd, then what is the IDFT of the given sequence?
+a) \(j \frac{1}{N} \sum_{k=0}^{N-1} x(k) sin⁡\frac{2πkn}{N}\) 
+b) \(\frac{1}{N} \sum_{k=0}^{N-1} x(k) cos⁡\frac{2πkn}{N}\) 
+c) \(-j \frac{1}{N} \sum_{k=0}^{N-1} x(k) sin⁡\frac{2πkn}{N}\) 
+d) None of the mentioned
+a
+\(x(n)=j \frac{1}{N} \sum_{k=0}^{N-1} x(k) sin⁡\frac{2πkn}{N}\)
+8. If X1(n), x2(n) and x3(m) are three sequences each of length N whose DFTs are given as X1(k), X2(k) and X3(k) respectively and X3(k)=X1(k).X2(k), then what is the expression for x3(m)?
+a) \(\sum_{n=0}^{N-1}x_1 (n) x_2 (m+n)\) 
+b) \(\sum_{n=0}^{N-1}x_1 (n) x_2 (m-n)\) 
+c) \(\sum_{n=0}^{N-1}x_1 (n) x_2 (m-n)_N \) 
+d) \(\sum_{n=0}^{N-1}x_1 (n) x_2 (m+n)_N \) 
+c
+That is x3(m) = \(\sum_{n=0}^{N-1}x_1 (n) x_2 (m-n)_N \).
+9. What is the circular convolution of the sequences X1(n)={2,1,2,1} and x2(n)={1,2,3,4}?
+a) {14,14,16,16}
+b) {16,16,14,14}
+c) {2,3,6,4}
+d) {14,16,14,16}
+d
+x(m)= \(\sum_{n=0}^{N-1}x_1 (n) x_2 (m-n)_N\) 
+For m=0, x2((-n))4={1,4,3,2}
+For m=1, x2((1-n))4={2,1,4,3}
+For m=2, x2((2-n))4={3,2,1,4}
+For m=3, x2((3-n))4={4,3,2,1}
+Now we get x(m)={14,16,14,16}.
+10. What is the circular convolution of the sequences X1(n)={2,1,2,1} and x2(n)={1,2,3,4}, find using the DFT and IDFT concepts?
+a) {16,16,14,14}
+b) {14,16,14,16}
+c) {14,14,16,16}
+d) None of the mentioned
+b
+Given x2(n)={1,2,3,4}=>X2(k)=[10,-2+j2,-2,-2-j2] 
+when we multiply both DFTs we obtain the product
+X(k)=X1(k).X2(k)=[60,0,-4,0] 
+By applying the IDFT to the above sequence, we get
+x(n)={14,16,14,16}.
+11. If X(k) is the N-point DFT of a sequence x(n), then circular time shift property is that N-point DFT of x((n-l))N is X(k)e-j2πkl/N.
+a) True
+b) False
+a
+12. If X(k) is the N-point DFT of a sequence x(n), then what is the DFT of x*(n)?
+a) X(N-k)
+b) X*(k)
+c) X*(N-k)
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Frequency Domain Sampling DFT» Next - Digital Signal Processing Questions and Answers – Linear Filtering Methods Based on DFT 

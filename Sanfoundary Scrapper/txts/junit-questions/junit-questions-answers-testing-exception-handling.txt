@@ -1,0 +1,66 @@
+1. What are exceptions?
+a) Anomalous conditions requiring special processing
+b) Extra methods written to increase functionality
+c) Commented lines describing exceptional cases
+d) Null objects
+a
+2. ________ can be useful in adding additional functionality which applies to every test within a test class.
+a) Copy
+b) Rules
+c) Exceptions
+d) Boundaries
+b
+3. _________ is a programming paradigm which allows the separation of cross cutting concerns, hence, increasing modularity.
+a) Functional Programming
+b) Object Oriented Programming
+c) Aspect Oriented Programming
+d) Data Injections
+c
+4. ________ describes a class of functions which when run modify other functions.
+a) Class
+b) Advice
+c) Modifiers
+d) Changers
+b
+5. AOP forms a basis for __________
+a) Functional Development
+b) Object Oriented Programming
+c) Datafield Development
+d) Aspect Oriented Software Development
+d
+6. Custom JUnit rules can be created using ___________
+a) TestRule Interface
+b) CreateRule Interface
+c) RuleCreate Interface
+d) RuleInitialize Interface
+a
+7. With the ‘expected’ argument, one cannot ___________
+a) Test a method
+b) Test for exception type
+c) Test the value of the message in the exception
+d) Test for specific exception
+c
+8. The _________ rule can be used to test both exception type and message.
+a) Expected
+b) ExpectedException
+c) CatchException
+d) Catch
+b
+9. ExpectedException is found under which package?
+a) org.junit.ExpectedException
+b) org.junit.Test.ExpectedException
+c) org.junit.Rule.ExpectedException
+d) org.junit.rules.ExpectedException
+d
+10. The correct way to initialise an ExpectedException object is __________
+a) public ExpectedException thrown = ExpectedException.none()
+b) @Rule public ExpectedException thrown
+c) @Rule public ExpectedException thrown = ExpectedException.none()
+d) public ExpectedException thrown = ExpectedException.none()
+c
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Testing the Controller Component» Next - JUnit Questions and Answers – Timeout Testing 

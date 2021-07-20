@@ -1,0 +1,101 @@
+1. The if-else structure does not allow ___________
+a) Return statement
+b) End statement
+c) Endif statement
+d) Break statement
+d
+2. What is the output of the following code?
+if((-10 &&00)||(20134 && 900))
+fprintf("%s","True.")
+else
+fprintf("%s","False.")
+end
+a) True
+b) False
+c) Error
+d) Nan
+a
+Output: True 
+3. What is the output of the following code?
+if(1)
+p=9;
+end
+a) p=9
+b) Output is suppressed but p=9
+c) Error
+d) Nan
+b
+4. What is the output of the following code?
+num=2;
+switch num
+case[2 3 4]
+p=9;
+case[1 5 6]
+q=9;
+end
+a) No output
+b) p=9
+c) q=9
+d) Output suppressed but p=9
+a
+5. What will be the output of the following code?
+switch num
+case '2'
+p=2;
+case '2'
+p=4-5;
+end
+a) p=2
+b) Error
+c) No output
+d) p=-1
+c
+6. Before starting a new case, we have to end the previous case using ___________
+a) Break statement
+b) Continue statement
+c) Return statement
+d) No statement
+d
+7. We cannot use a ____ statement in the standalone if-else structure.
+a) break
+b) if-else
+c) return
+d) switch-case
+a
+8. The continue statement can be used in a switch-case structure.
+a) True
+b) False
+b
+9. We cannot use a ____ statement if the if-else structure is not part of a loop.
+a) continue
+b) if-else
+c) clc
+d) plot()
+a
+10. What will be the output of the following code?
+if(cos(Inf)==NaN)
+p=1;
+end
+a) p=1
+b) Output suppressed but p=1
+c) Error
+d) No output
+d
+11. What will be the output of the following code?
+switch num
+case ‘a’
+p=394;
+case ‘b’
+c=0;
+end
+a) Error
+b) No output since we haven’t given num a value yet
+c) p=394
+d) c=0
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice MATLAB Question Bank, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Branching – 1» Next - MATLAB Questions and Answers – Logical Expressions – 1 

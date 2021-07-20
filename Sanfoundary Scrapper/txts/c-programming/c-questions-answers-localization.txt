@@ -1,0 +1,68 @@
+1. Which header file is used to define data formats and currency symbols?
+a) setjmp.h
+b) locale.h
+c) stdarg.h
+d) assert.h
+b
+2. Which among the given macros is defined in the header file locale.h?
+a) SCHAR_MAX
+b) FLT_RADIX 2
+c) EDOM
+d) LC_CTYPE
+d
+3. Which macro sets everything defined under locale. h?
+a) LC_ALL
+b) LC_COLLATE
+c) LC_SET
+d) LC_TIME
+a
+4. Select the function that reads or sets location dependent information.
+a) longjmp()
+b) setlocale()
+c) assert()
+d) toupper()
+b
+The function declaration is as follows:
+char *setlocale(int category, const char loc). 
+Join [email protected]
+5. Select the correct statement.
+a) LC_MONETARY affects the monetary information
+b) LC_MONETARY does not affect the monetary information
+c) LC_ALL does not set everything
+d) LC_CTYPE affects only one character functions
+a
+6. Which macro is used in the setlocale() function?
+a) LC_SET
+b) FLT_RADIX 2
+c) LC_MESSAGES
+d) SHRT_MAX
+c
+7. LC_COLLATE affects strcoll() and strxfrm() functions.
+a) true
+b) false
+a
+8. Which macro affects the strftime() function?
+a) LC_TIME
+b) LC_SEC
+c) LC_MIN
+d) LC_SET
+a
+9. Select the macro that affects the information provided by localeconv function.
+a) LC_ALL
+b) LC_COLLATE
+c) LC_NUMERIC
+d) LC_CTYPE
+c
+10. What is returned by the function localeconv()?
+a) current location value
+b) past location value
+c) pointer to the last location
+d) pointer to the current location
+d
+struct lconv *localeconv(void). 
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Variable Argument Lists» Next - C Questions and Answers – Non-Local Jumps – 1 

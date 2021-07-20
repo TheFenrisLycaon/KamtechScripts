@@ -1,0 +1,73 @@
+1. If the 80386 enters the protected mode from the real address mode, then it returns back to the real mode, by performing the operation of
+a) read
+b) write
+c) terminate
+d) reset
+d
+2. The unit that is needed for virtual mode 80386, only to run the 8086 programs, which require more than 1 Mbyte of memory for memory management functions, is
+a) execution unit
+b) central processing unit
+c) paging unit
+d) segmentation unit
+c
+3. The number of pages that the paging unit allows, in the virtual mode of 80386 is
+a) 64
+b) 128
+c) 256
+d) 512
+c
+4. The privilege level at which the real mode programs are executed is
+a) level 0
+b) level 1
+c) level 2
+d) level 3
+a
+5. The instructions to prepare the processor for protected mode can only be executed at the privilege level
+a) level 0
+b) level 1
+c) level 2
+d) level 3
+a
+6. The instruction that is unable to set or read the VM (Virtual Mode) bit is
+a) PUSHF
+b) IRET
+c) POPF
+d) PUSHF and POPF
+d
+7. If the CKM pin of 80387 is high, then 80387 is operated in
+a) real address mode
+b) protected mode
+c) synchronous mode
+d) asynchronous mode
+c
+8. The unit that handles the data and directs it to either FIFO or instruction decoder depending on the bus control logic directive is
+a) paging unit
+b) central processing unit
+c) segmentation unit
+d) data interface and control unit
+d
+9. The unit that is responsible for carrying out all the floating point calculations, allotted to the coprocessor by 80386, is
+a) Central processing unit
+b) ALU
+c) FPU
+d) None of the mentioned
+c
+10. The sizes of instruction and data pointer registers of 80387 respectively are
+a) 32-bit, 32-bit
+b) 48-bit, 32-bit
+c) 32-bit, 48-bit
+d) 48-bit, 48-bit
+d
+11. To inform 80387 that the CPU wants to communicate with NPS1, the NPS1 line is directly connected to
+a) A31
+b) A30
+c) M/IO
+d) D31
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Paging» Next - Microprocessors Questions and Answers – Enhanced Instruction Set of 80386 

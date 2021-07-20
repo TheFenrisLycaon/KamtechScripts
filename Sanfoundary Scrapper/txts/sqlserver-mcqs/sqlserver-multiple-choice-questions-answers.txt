@@ -1,0 +1,66 @@
+1. Reasons for consideration of the stored procedure can be?
+a) With which tables will you have to work? Does it make sense to create a VIEW first?
+b) How often will this procedure actually be used?
+c) Do you want to view data in the database (SELECT), insert new records (INSERT INTO), or do I want to change an existing record (UPDATE)?
+d) All of the mentioned
+d
+2. Point out the correct statement.
+a) Conditional logic applied to the results of the first SQL statements determines which subsequent SQL statements are executed
+b) A stored procedure is a group of Transact-SQL statements pre compiled into a single execution plan
+c) Stored procedures cannot improve performance
+d) All of the mentioned
+a
+3. __________ takes no parameters and returns all kinds of interesting information.
+a) sp_monitor
+b) sp_on
+c) sp_status
+d) none of the mentioned
+a
+4. Which of the following has support for transaction?
+a) sp_monitor
+b) sp_bindsession
+c) sp_status
+d) all of the mentioned
+b
+5. Point out the wrong statement.
+a) Support for transactions is one of the most important reasons to use database engines such as SQL Server
+b) BASE support
+c) ACID support
+d) All of the mentioned
+b
+6. __________create the removable database.
+a) sp_certify_removable
+b) sp_certify
+c) sp_removable
+d) all of the mentioned
+a
+7. Which of the following stored procedure is used for error messages?
+a) sp_addmessage
+b) sp_dropmessage
+c) sp_altermessage
+d) all of the mentioned
+a
+8. _____________ sets procedure options in SQL Server.
+a) sp_procoption
+b) sp_dropmessage
+c) sp_altermessage
+d) sp_executesql
+a
+9. __________ is used to build the code dynamically and execute it.
+a) sp_addmessage
+b) sp_dropmessage
+c) sp_altermessage
+d) sp_executesql
+d
+10. Stored procedure used to remember the exact number of bytes is _____________
+a) sp_datatype
+b) sp_datatype_info
+c) sp_info
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Stored Procedure – 1» Next - SQL Server Questions and Answers – Built in Stored Procedures 

@@ -1,0 +1,83 @@
+1. Which statement correctly defines Interfaces in C#.NET?
+a) Interfaces cannot be inherited
+b) Interfaces consists of data static in nature and static methods
+c) Interfaces consists of only method declaration
+d) None of the mentioned
+d
+2. Which of the following cannot be used to declare an interface correctly?
+a) Properties
+b) Methods
+c) Structures
+d) Events
+c
+3. A class consists of two interfaces with each interface consisting of three methods. The class had no instance data. Which of the following indicates the correct size of object created from this class?
+a) 12 bytes
+b) 16 bytes
+c) 0 bytes
+d) 24 bytes
+d
+4. Which of the following statements correctly define about the implementation of interface?
+a) The calls to implementation of interface methods are routed through a method table
+b) A class which implements an interface can explicitly implement members of that interface
+c) One interface can be implemented in another interface
+d) None of the mentioned
+a
+5. Select the correct statement among the given statements?
+a) One class could implement only one interface
+b) Properties could be declared inside an interface
+c) Interfaces cannot be inherited
+d) None of the mentioned
+b
+6. Which keyword is used for correct implementation of an interface in C#.NET?
+a) interface
+b) Interface
+c) intf
+d) Intf
+a
+7. Choose the statements which makes interface different from classes?
+a) Unlike classes, interfaces consists of only declaration but not implementation
+b) Interfaces cannot be used directly like classes to create new objects
+c) Interfaces consists of declaration of methods, properties events and type definitions
+d) All of the mentioned
+d
+8. Which of the following is the correct way of implementing an interface addition by class maths?
+a) class maths : addition {}
+b) class maths implements addition {}
+c) class maths imports addition {}
+d) none of the mentioned
+a
+9. Does C#.NET support partial implementation of interfaces?
+a) True
+b) False
+c) Can’t Say
+d) None of the mentioned
+b
+10. Select the correct implementation of the interface which is mentioned below.
+interface a1{    int fun(int i);}
+a)
+ class a {     int fun(int i) as a1.fun     {     } }
+b)
+class a: implements a1{    int fun(int i)    {    }}
+c)
+ class a: a1 {     int a1.fun(int i)     {     } }
+d) None of the mentioned
+c
+11. Which of these can be used to fully abstract a class from its implementation?
+a) Objects
+b) Packages
+c) Interfaces
+d) None of the Mentioned
+c
+12. Access specifiers which can be used for an interface are?
+a) Public
+b) Protected
+c) Private
+d) All of the mentioned
+a
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all features of C# programming language, here is complete set on 1000+ Multiple Choice Questions and Answers on C#
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Abstract Class & Methods» Next - C# Questions & Answers – Interfaces Implementation 

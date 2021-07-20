@@ -1,0 +1,64 @@
+1. The password to the admins account=”administrator”. The total number of states required to make a password-pass system using DFA would be __________
+a) 14 states
+b) 13 states
+c) 12 states
+d) A password pass system cannot be created using DFA
+a
+2. Which of the following is the corresponding Language to the given DFA?
+a) L= {x ϵ {0, 1} * | x ends in 1 and does not contain substring 01}
+b) L= {x ϵ {0,1} * |x ends in 1 and does not contain substring 00}
+c) L= {x ϵ {0,1} |x ends in 1 and does not contain substring 00}
+d) L= {x ϵ {0,1} * |x ends in 1 and does not contain substring 11}
+b
+3. Let ∑= {a, b, …. z} and A = {Hello, World}, B= {Input, Output}, then (A*∩B) U (B*∩A) can be represented as:
+a) {Hello, World, Input, Output, ε}
+b) {Hello, World, ε}
+c) {Input, Output, ε}
+d) {}
+d
+4. Let the given DFA consist of x states. Find x-y such that y is the number of states on minimization of DFA?
+a) 3
+b) 2
+c) 1
+d) 4
+b
+5. For a machine to surpass all the letters of alphabet excluding vowels, how many number of states in DFA would be required?
+a) 3
+b) 2
+c) 22
+d) 27
+a
+6. For the DFA given below compute the following:
+Union of all possible combinations at state 7,8 and 9.
+a) {aba, ac, cc, ca, cb, bc, bab, ca}
+b) {bab, bc, ac, aba, ca, aac, ccb}
+c) {cc, ca, cb, aba, bab, ac}
+d) {aba, ac, cc, ca, cb, bc, bab, caa}
+d
+7. Given L= {Xϵ∑*= {a, b} |x has equal number of a, s and b’s}.
+ Which of the following property satisfy the regularity of the given language?
+a) Regularity is dependent upon the length of the string
+b) Regularity is not dependent upon the length of the string
+c) Can’t be said for a particular string of a language
+d) It may depend on the length of the string
+b
+8. Given:
+L= {xϵ∑= {0,1} |x=0n1n for n>=1}; Can there be a DFA possible for the language?
+a) Yes
+b) No
+b
+9. δ(A,1) = B, δ(A,0) =A
+     Δ (B, (0,1)) =C
+     δ(C,0) = A (Initial state =A)
+String=”011001” is transit at which of the states?
+a) A
+b) C
+c) B
+d) Invalid String
+a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Deterministic Finite Automata-Introduction and Definition» Next - Automata Theory Questions and Answers –  Simpler Notations 

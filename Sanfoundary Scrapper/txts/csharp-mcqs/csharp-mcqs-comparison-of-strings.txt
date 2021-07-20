@@ -1,0 +1,82 @@
+1. Which of these methods of class String is used to compare two String objects for their equality?
+a) equals()
+b) Equals()
+c) isequal()
+d) Isequal()
+a
+2. Which of these methods is used to compare two strings such that after comparison output returns different integer values as (0 for false, 1 for true)?
+a) Equals ()
+b) == operator
+c) Compare()
+d) None of the mentioned
+c
+             1. zero integer (0), if string s1 equal to string s2.
+             2. positive integer(+1), if string s1 greater than s2.
+             3. Negative integer(-1), if string s1 is less than s2.
+3. Which of these methods of class String is used to check whether a substring exists at the beginning of the particular string?
+a) StartsWith()
+b) EndsWith()
+c) Starts()
+d) ends()
+a
+4. Which of these methods returns the string such that some characters which are specified to be removed from the end of strings are removed from string by mentioning the number of characters to be removed?
+a) Trim()
+b) Remove()
+c) TrimEnd()
+d) Split()
+a
+5. What is the value returned by function compareTo() if the invoking string is less than the string compared?
+a) zero
+b) value less than zero
+c) value greater than zero
+d) none of the mentioned
+b
+6. Which of these data type values is returned by equals() method of String class?
+a) char
+b) int
+c) boolean
+d) all of the mentioned
+c
+7. What will be the output of the following C# code?
+ class Program {     static void Main(string[] args)     {          String c = "i love Csharp";         bool a;         a = c.StartsWith("I");         Console.WriteLine(a);         Console.ReadLine();     } }
+a) true
+b) false
+c) 0
+d) 1
+b
+Output:
+false
+8. What will be the output of the following C# code?
+class Program{    static void Main(string[] args)    {         String s1 = "I love You";        String s2 = s1;        Console.WriteLine((s1 == s2) + " " + s1.Equals(s2));        Console.ReadLine();    }}
+a) true true
+b) false false
+c) true false
+d) false true
+a
+since the content of both s1 and s2 are equal in nature.
+Output :
+true true
+9. What will be the output of the following C# code?
+ class Program {     static void Main(string[] args)     {          String []chars = {"z", "x", "y", "z", "y"};         for (int i = 0; i < chars.Length; ++i)         for (int j = i + 1; j < chars.Length; ++j)         if(chars[i].CompareTo(chars[j]) == 0)         Console.WriteLine(chars[j]);         Console.ReadLine();     } }
+a) zx
+b) xy
+c) zy
+d) yz
+c
+Output :
+zy
+10. What will be the output of the following C# code?
+String a = "Csharp";String b = "CSHARP";int c;c = a.CompareTo(b);Console.WriteLine(c);
+a) 0
+b) 1
+c) -2
+d) -1
+d
+Output :
+-1
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – String Class with Description» Next - C# Questions & Answers – Searching and Modifying Strings 

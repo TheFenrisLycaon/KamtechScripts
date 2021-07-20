@@ -1,0 +1,120 @@
+1. Can we save a MATLAB program while in debugging mode?
+a) True
+b) False
+b
+2. To enter a value and change the course of working of a function while it is working, we use the __________
+a) dbstop
+b) db
+c) keyboard
+d) enter
+c
+3. To end the debugging mode, we use the __________
+a) dbquit
+b) dbend
+c) debugend
+d) No such function
+a
+4. Which of the following command would allow us to continue the evaluation of a function in the debugging mode?
+a) dbcont
+b) dbcontinue
+c) continue
+d) debugcont
+a
+5. What is dbstop command?
+a) exits from the debugging mode
+b) pauses for the debugging mode when a condition is reached only
+c) exits the debugging mode at any point in the function
+d) does not exist
+b
+6. The dbstop command, for anonymous functions __________
+a) Pauses, for debugging, after the line which dbstop indicates
+b) Pauses, for debugging, before the line which dbstop indicates
+c) exits from the debugging mode after the line which dbstop indicates
+d) exits from the debugging mode before the line which dbstop indicates
+a
+7. The dbquit command, if placed in an m.file, will __________
+a) never run the debugging mode
+b) exit from the debugging mode
+c) result in an error while running the function
+d) dbquit does not exist
+c
+8. The dbcont command, if placed in an m.file, will __________
+a) not allow the function to be saved
+b) give error when we enter dbcont in debug mode
+c) will give an error during function call
+d) dbcont does not exist
+b
+9. The dbstop command, for functions stored in the system memory, with a line mentioned will __________
+a) pause the evaluation of the function before the mentioned line
+b) exit the evaluation of the function before the mentioned line
+c) pause the evaluation of the function during the mentioned line
+d) pause the evaluation of the function after the mentioned line
+a
+10. The debug commands can be run in
+a) functions
+b) live scripts
+c) command window
+d) nowhere
+c
+11. What are the contents of a after the following events?
+function p=avg(x)
+n = length(x);
+Command Window: 
+>> x=[1 2 3 4 5]
+>> dbstop in avg at 2 if length(x)>4
+>> a=avg(x)
+a) Enters debugging mode
+b) Error in the command window
+c) Error in the function
+d) 5
+a
+12. What are the contents of a after the following events?
+function p=avg(x)
+n = length(x);
+Command Window: 
+>> x=[1 2 3 4 5]
+>> dbstop at 6 if length(x)>4
+>> a=avg(x)
+a) Error in 2nd line of command window due to line no
+b) Error in 2nd line of command window due to line missing function name
+c) 5
+d) Enters the debugging mode
+b
+13. What are the contents of a after the following events?
+Line 1: function p=avg(x)
+Line 2: n = length(x);
+Line 3: n=n+3
+Command Window: 
+>> x=[1 2 3 4 5]
+>> dbstop in avg if length(x)>4
+>> a=avg(x)
+a) 8
+b) Enters debugging mode after execution of the last line
+c) Enters debugging mode at the first line only
+d) Enters debugging mode at the 2nd line
+c
+14. What are the contents of a and b after the following events?
+Line 1: function p=avg(x)
+Line 2: n = length(x);
+Line 3: n=n+3
+Command Window: 
+>> x=[1 2 3 5]
+>> dbstop in avg if length(x)>4
+>> a=avg(x);
+>> x=[1 2 3 4 5];
+>> b=avg(x);
+a) Error in the function
+b) a=4,b=5
+c) Enters debugging mode at b but a=4
+d) Outputs are suppressed
+b
+15. The return command is similar to the dbcont command.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Evaluation – 2» Next - MATLAB Questions and Answers – Modeling – 1 

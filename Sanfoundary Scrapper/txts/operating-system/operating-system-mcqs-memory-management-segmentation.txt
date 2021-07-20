@@ -1,0 +1,79 @@
+1. In segmentation, each address is specified by ____________
+a) a segment number & offset
+b) an offset & value
+c) a value & segment number
+d) a key & value
+a
+2. In paging the user provides only ________ which is partitioned by the hardware into ________ and ______
+a) one address, page number, offset
+b) one offset, page number, address
+c) page number, offset, address
+d) none of the mentioned
+a
+3. Each entry in a segment table has a ____________
+a) segment base
+b) segment peak
+c) segment value
+d) none of the mentioned
+a
+4. The segment base contains the ____________
+a) starting logical address of the process
+b) starting physical address of the segment in memory
+c) segment length
+d) none of the mentioned
+b
+5. The segment limit contains the ____________
+a) starting logical address of the process
+b) starting physical address of the segment in memory
+c) segment length
+d) none of the mentioned
+c
+6. The offset ‘d’ of the logical address must be ____________
+a) greater than segment limit
+b) between 0 and segment limit
+c) between 0 and the segment number
+d) greater than the segment number
+b
+7. If the offset is legal ____________
+a) it is used as a physical memory address itself
+b) it is subtracted from the segment base to produce the physical memory address
+c) it is added to the segment base to produce the physical memory address
+d) none of the mentioned
+a
+8. When the entries in the segment tables of two different processes point to the same physical location ____________
+a) the segments are invalid
+b) the processes get blocked
+c) segments are shared
+d) all of the mentioned
+c
+9. The protection bit is 0/1 based on ____________
+a) write only
+b) read only
+c) read – write
+d) none of the mentioned
+c
+10. If there are 32 segments, each of size 1Kb, then the logical address should have ____________
+a) 13 bits
+b) 14 bits
+c) 15 bits
+d) 16 bits
+a
+11. Consider a computer with 8 Mbytes of main memory and a 128K cache. The cache block size is 4 K. It uses a direct mapping scheme for cache management. How many different main memory blocks can map onto a given physical cache block?
+a) 2048
+b) 256
+c) 64
+d) 8
+c
+12. A multilevel page table is preferred in comparison to a single level page table for translating virtual address to physical address because ____________
+a) it reduces the memory access time to read or write a memory location
+b) it helps to reduce the size of page table needed to implement the virtual address space of a process
+c) it is required by the translation lookaside buffer
+d) it helps to reduce the number of page faults in page replacement algorithms
+b
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions and Answers – Memory Management – Paging – 2» Next - Operating System Questions & Answers – I/O System – Application I/O Interface – 1 

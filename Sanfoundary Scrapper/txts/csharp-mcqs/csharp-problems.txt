@@ -1,0 +1,135 @@
+1. Pointer variable is used to hold the _________ of the variable.
+a) Value
+b) Address
+c) Value and Address
+d) Name of the variable
+b
+2. Which among the given operators is referred to as ‘address of’ operator?
+a) *
+b) ^
+c) &
+d) ~
+c
+              For example,
+                           int* ip;
+                           int num = 10;
+                           ip = &num;
+puts into ip the memory address of the variable num. This address is the location of the variable in the computer’s internal memory.
+3. Choose the correct statement among the given statements?
+a) Use of return statement is necessary in every function
+b) Return statement may not be followed by a parenthesis
+c) A program may contain more than one return statement
+d) Return statement may not return a value
+a
+4. What is the size of a char pointer?
+a) 1 byte
+b) 2 byte
+c) 3 byte
+d) 4 byte
+b
+             class UnsafeCode
+             {
+                 unsafe static void Main()
+                 {
+                  char ch;
+                  Console.WriteLine(sizeof(char));
+                  Console.ReadLine();
+                 }
+            }
+The sizeof() method helps in calculating size of char pointer.
+Join [email protected]
+5. After incrementing a float pointer ptr by 1 it would be incremented by __________
+a) 1 byte
+b) 2 bytes
+c) 3 bytes
+d) 4 bytes
+d
+6. Which of the following job is done by the instruction ++*p for an integer pointer p?
+a) increment value contained at address p
+b) increment address contained in p
+c) Both increment value contained at address p and increment address contained in p
+d) neither increment value contained at address p nor increment address contained in p
+a
+             class UnsafeCode
+             {
+                 unsafe static void Main()
+                 {
+                      int n = 10;
+                      int* p = &n;
+                      Console.WriteLine(*p);
+                 }
+             }
+Output :
+10 +  1 = 11.
+7. What will be the output of the following C# code snippet?
+class UnsafeCode{    unsafe static void Main()    {        int a = 2;        int b = 4;        int *a1 = &a;        int *b1 = &b;        Console.WriteLine(*a1 + *b1);    }}
+a) 6
+b) print garbage value
+c) print -6
+d) print address of b + a
+a
+Output :
+ 4 + 2 = 6
+8. What will be the output of the following C# code segment?
+class UnsafeCode{    unsafe static void Main()    {         int n = 10;         void* p = &n;         Console.WriteLine(*p);         Console.ReadLine();     } }
+a) The program will print 10
+b) Run time error
+c) Compile time error
+d) Output is the address contained in p
+c
+9. Which among the following is referred as an array of pointers?
+a) int *p;
+b) int (*)p;
+c) int p[4];
+d) int*[4] p;
+d
+10. Among the given pointer which of the following cannot be incremented?
+a) int
+b) char
+c) float
+d) void
+d
+11. How many values can be returned from a function simultaneously using pointers?
+a) 1
+b) 2
+c) 3
+d) as many as user wants
+d
+12. Consider an integer pointer . *a.++*a will increment ___________ while *a++ will increment __________
+a) value at a,  address contained in a
+b) value at a,value at a
+c) address contained in a, address contained in a
+d) address contained in a, value at a
+a
+13. What will be the output of the following C# code snippet?
+class UnsafeCode{    unsafe static void Main()    {        int* a;        int a1 = 10;        int b1;        b1 = *&a1;        a = &b1;        {            Console.WriteLine(*a);            Console.ReadLine();        }    }}
+a) program will print garbage value
+b) program will print address of a
+c) program will print value of a1
+d) program will print address of a1
+c
+Output : 10
+14. What will be the output of the following C# code snippet?
+class UnsafeCode{    unsafe static void Main()    {        int n = 10;        int* p = &n;        int** p1 = &p;        int*** p2 = &p1;        Console.WriteLine(*p * **p1 * ***p2);        Console.ReadLine();    }}
+a) compile time error
+b) garbage value is printed
+c) program will print 1000
+d) program will print 100
+c
+Output :1000
+15. What will be the output of the following C# code snippet?
+class UnsafeCode{    unsafe static void Main()    {            int* p;            p = (int*)(65535);            Console.WriteLine((uint)p);            Console.ReadLine();    }}
+a) compile time error
+b) garbage value
+c) program prints value at address 65535
+d) program prints 65535
+d
+Output :
+65535
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all areas of C# Problems, here is complete set on 1000+ Multiple Choice Questions and Answers on C#.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Type Interface» Next - C# Questions & Answers – Pointers Operation – 1 

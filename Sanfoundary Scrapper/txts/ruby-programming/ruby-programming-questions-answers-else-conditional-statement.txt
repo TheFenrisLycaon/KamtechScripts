@@ -1,0 +1,150 @@
+1. What is the use of else statement?
+a) When the if condition is false then the next else condition will get executed
+b) When the if condition is false then the elsif condition will get executed
+c) When the if condition is false and if else condition is true then only it will get executed
+d) None of the mentioned
+c
+2. Is the following syntax correct?
+if conditional 
+   code...
+   elsif conditional 
+   code..
+   else
+   code
+   end
+a) True
+b) False
+a
+3. What is the output of the given code?
+if 1>2
+   puts "false"
+   else
+   puts "True"
+a) False
+b) True
+c) Syntax error
+d) None of the mentioned
+c
+Output:
+Syntax error
+4. What is the output of the code?
+ if 1>2
+   puts "false"
+   end
+   else
+   puts "True"
+   end
+a) False
+b) True
+c) Syntax error
+d) None of the mentioned
+c
+Output:
+Syntax error
+5. What is the output of the code?
+variable=true
+   if variable
+   puts "true"
+   else
+   puts "false"
+   end
+a) False
+b) True
+c) Syntax error
+d) None of the mentioned
+b
+Output:
+True
+6. What is the output of the code?
+ variable="true".reverse
+   if variable
+   puts "true"
+   else
+   puts "false"
+   end
+a) False
+b) True
+c) Syntax error
+d) None of the mentioned
+b
+Output:
+True
+7. What is the output of the code?
+variable=true
+   if !variable
+   puts "true"
+   else
+   puts "false"
+   end
+a) False
+b) True
+c) Syntax error
+d) None of the mentioned
+a
+Output:
+False
+8. What is the output of the code?
+variable="true".length
+   if variable
+   puts "true"
+   else
+   puts "false"
+   end
+a) False
+b) True
+c) Syntax error
+d) 4
+b
+Output:
+True
+9. Which of the following is valid conditional statement?
+a) else
+b) els
+c) if else
+d) None of the mentioned
+a
+10. What is the output of given code?
+ counter=1
+    if counter<=5
+    puts (counter)
+    counter=counter+1
+    else 
+    puts(counter)
+    counter=counter-1
+    end
+a) 1, 2
+b) 1,2,3,4,5
+c) 1 2 1
+d) 1
+   2
+d
+Output:
+1
+2
+11. What is the output of given code?
+#counter=1
+    if counter<=5
+    puts (counter)
+    counter=counter+1
+    else 
+    puts(counter)
+    counter=counter-1
+    end
+a) Undefined local variable counter
+b) 1,2,3,4,5
+c) 1 2 1
+d) 1
+   2
+a
+Output:
+Undefined local variable counter
+12. It is necessary that always if should come with else block?
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Ruby Programming.
+To practice all areas of Ruby Programming, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ruby Programming Questions and Answers – The If Conditional Statement» Next - Ruby Programming Questions and Answers – The Elsif Conditional Statement 

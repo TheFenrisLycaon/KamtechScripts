@@ -1,0 +1,67 @@
+1. What is the use of the Interrupt Service Routine in an Arduino?
+a) To automate functions
+b) To boot up the arduino
+c) To make more memory
+d) To exit any code that is running
+a
+2. What is the use of the digitalPinToInterrupt() function?
+a) To create an Interrupt Object
+b) To delete an Interrupt Object
+c) To map the Arduino Pin to the Interrupt pin
+d) To invoke the Interrupt Service Routine
+c
+3. What is the use of the attachInterrupt() function?
+a) To enable ISR usage
+b) To enable ISR usage, but only on certain Arduino Boards
+c) To decommission ISR usage for a particular Arduino Board
+d) To translate pin numbers
+a
+4. Will the delay() function work inside an interrupt routine?
+a) Yes
+b) No
+b
+5. What is the use of pin change interrupts?
+a) To change pins during interrupts
+b) To use more pins for interrupts
+c) To disable pin usage during interrupts
+d) To enable pin usage during interrupts
+b
+6. When does the Interrupt Handler execute it’s assigned code?
+a) After all the codes executed in the program
+b) Before any code is executed in the program
+c) Blocks the code from getting executed at any time in the program
+d) When the interrupt is in effect
+d
+7. What is the use of the interrupt mode?
+a) Decides which type of transition to trigger on
+b) Decides when to turn off interrupts
+c) Decides which pin to turn off
+d) Decides when to turn off the Arduino Board
+a
+RISING – Triggers interrupt when pin transitions from LOW to HIGH.
+FALLING – Triggers interrupt when pin transitions from HIGH to LOW.
+CHANGE – Triggers interrupt when pin transitions from LOW to HIGH or HIGH to LOW.
+8. What is the use of the detachInterrupt() function?
+a) To turn off interrupt
+b) To turn on interrupt
+c) To disable interrupt functions for the remaining ON time.
+d) To turn off the Arduino
+a
+9. How many pins are available for interrupt functions in the Arduino Zero?
+a) No pins
+b) All pins except pin 4
+c) Only pin 4
+d) Only pin 3
+b
+10. How many pins are available for interrupt functions in the Arduino Uno?
+a) No pins
+b) All pins except pin 2 and 3
+c) Only pin 2
+d) Only pins 2 and 3
+b
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Variable Scope and Qualifiers» Next - Arduino Questions and Answers – PROGMEM Utility 

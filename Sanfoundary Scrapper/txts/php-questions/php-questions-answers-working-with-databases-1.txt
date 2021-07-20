@@ -1,0 +1,73 @@
+1. Which one of the following databases has PHP supported almost since the beginning?
+a) Oracle Database
+b) SQL
+c) SQL+
+d) MySQL
+d
+2. The updated MySQL extension released with PHP 5 is typically referred to as _______________
+a) MySQL
+b) mysql
+c) mysqli
+d) mysqly
+c
+3. Which one of the following lines need to be uncommented or added in the php.ini file so as to enable mysqli extension?
+a) extension=php_mysqli.dll
+b) extension=mysql.dll
+c) extension=php_mysqli.dl
+d) extension=mysqli.dl
+a
+4. In which version of PHP was MySQL Native Driver(also known as mysqlnd) introduced?
+a) PHP 5.0
+b) PHP 5.1
+c) PHP 5.2
+d) PHP 5.3
+d
+5. Which one of the following statements is used to create a table?
+a) CREATE TABLE table_name (column_name column_type);
+b) CREATE table_name (column_type column_name);
+c) CREATE table_name (column_name column_type);
+d) CREATE TABLE table_name (column_type column_name);
+a
+CREATE TABLE student (
+    SID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+6. Which one of the following statements instantiates the mysqli class?
+a) mysqli = new mysqli()
+b) $mysqli = new mysqli()
+c) $mysqli->new.mysqli()
+d) mysqli->new.mysqli()
+b
+7.Which one of the following statements can be used to select the database?
+a) $mysqli=select_db('databasename');
+b) mysqli=select_db('databasename');
+c) mysqli->select_db('databasename');
+d) $mysqli->select_db('databasename');
+d
+8. Which one of the following methods can be used to diagnose and display information about a MySQL connection error?
+a) connect_errno()
+b) connect_error()
+c) mysqli_connect_errno()
+d) mysqli_connect_error()
+c
+9. Which method returns the error code generated from the execution of the last MySQL function?
+a) errno()
+b) errnumber()
+c) errorno()
+d) errornumber()
+a
+10. If there is no error, then what will the error() method return?
+a) TRUE
+b) FALSE
+c) Empty String
+d) 0
+c
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Introduction to Preg in PHP» Next - PHP Questions & Answers – Working with Databases-2 

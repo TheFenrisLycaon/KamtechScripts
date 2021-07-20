@@ -1,0 +1,72 @@
+1. In VHDL it is not possible to use recursive functions.
+a) True
+b) False
+b
+2. Apart from using WAIT statements, which of the following is not possible in functions?
+a) Variable assignment
+b) Return statement
+c) Variable declaration
+d) Signal assignment
+d
+3. Conversion functions are used to _________
+a) Resolve value of a signal with multiple drivers
+b) Convert one data type into another
+c) Convert one data object into another
+d) Resolve value of a constant with multiple drivers
+b
+4. The variables declared inside a function retain their values between two function calls.
+a) True
+b) False
+b
+5. The minimum number of parameters that must be there in a function is ___________
+a) 0
+b) 1
+c) 2
+d) 3
+a
+6. Which of the following is not the legal name of a function?
+a) abc
+b) +
+c) then
+d) my_func
+c
+7. In the following code, which of the lines corresponds to the function call and function definition?
+L1 : ARCHITECTURE adder OF adder IS
+L2 : BEGIN
+L3 : x &lt;= sum ( SIGNAL a : STD_LOGIC; SIGNAL b : STD_LOGIC);
+L4 : END adder;
+L5 : FUNCTION sum ( SIGNAL a : STD_LOGIC; SIGNAL b : STD_LOGIC) RETURN STD_LOGIC IS
+L6 : VARIABLE c : INTEGER;
+L7 : BEGIN
+L8 : c&lt;= a OR b;
+L9 : RETURN c;
+L10 : END sum;
+a) L5, L3
+b) L5, L9
+c) L3, L7
+d) L3, L5
+d
+8. What is the ease provided by using functions?
+a) Easy debugging
+b) Easy reading
+c) Easy calling
+d) Easy implementation
+a
+9. If a function has an operator sign as its name, then what will be the purpose of that function?
+a) Conversion
+b) Overloading
+c) Resolution
+d) Define the data type
+b
+10. What is the alternative for specifying the vector size in the function?
+a) Not using arrays
+b) Defining every single element differently
+c) Defining a subtype
+d) Using bit vector
+c
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL for Campus Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Functions and Subprograms – 2» Next - VHDL Questions and Answers – Procedures – 1 

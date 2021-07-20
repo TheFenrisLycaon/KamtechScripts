@@ -1,0 +1,66 @@
+1. Refer to the function defined below, a and b have respectively following data objects.
+FUNCTION my_func (SIGNAL a : STD_LOGIC_VECTOR; b : STD_LOGIC) RETURN BOOLEAN IS
+…..;
+a) Constant, Constant
+b) Constant, Signal
+c) Signal, Constant
+d) Signal, Signal
+c
+2. What should be the mode of signal a in the following function definition?
+FUNCTION my_func (SIGNAL a : STD_LOGIC_VECTOR) RETURN INTEGER IS
+…..;
+a) IN
+b) OUT
+c) INOUT
+d) BUFFER
+a
+3. Functions are called using ______ no of ________ statement(s).
+a) 1, If
+b) 1, Assignment
+c) 2, If
+d) 2, Assignment
+b
+4. Which of the following type can’t be a parameter of a function?
+a) Signals
+b) Constants
+c) Files
+d) Variables
+d
+5. A component may be declared and instantiated inside a function.
+a) True
+b) False
+b
+6. What is the use of resolution functions?
+a) Return the value of a signal with multiple drivers
+b) Resolve value of a constant with multiple drivers
+c) Convert one data type into another
+d) Convert one data object into another
+a
+7. It is not possible to use multiple driver signals without a resolution function.
+a) True
+b) False
+a
+8. A resolution function is invoked when ________
+a) The signal is assigned multiple values
+b) All the drivers has changed their value for once at least
+c) Any of the driver changes its value
+d) The signal is assigned a second value
+b
+9. How many parameters are there in a resolution function?
+a) 3
+b) 2
+c) 0
+d) 1
+d
+10. What would be the length of array used as a parameter to the resolution function which resolves the value of a signal having 2 drivers?
+a) 1
+b) 2
+c) 3
+d) Infinite
+b
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL for Entrance exams, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Functions and Subprograms – 1» Next - VHDL Questions and Answers – Functions and Subprograms – 3 

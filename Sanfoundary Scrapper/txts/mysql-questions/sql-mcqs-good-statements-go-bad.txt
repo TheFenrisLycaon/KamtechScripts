@@ -1,0 +1,81 @@
+1. Which command is used to remove existing tables or database?
+a) DROP TABLE
+b) DELETE
+c) Either DROP TABLE or DELETE
+d) None of the mentioned
+a
+2. Which command is used to display all the existing tables in a database?
+a) SHOW TABLES
+b) SHOW TABLE
+c) SHOW
+d) None of the mentioned
+a
+3. Is duplicate entry of primary key is allowed in SQL?
+a) Yes
+b) No
+c) Depends
+d) None of the mentioned
+b
+4. Is duplicate entry of other attributes are allowed in SQL?
+a) Yes
+b) No
+c) Depends
+d) None of the mentioned
+a
+5. Which is the correct format to store date in the SQL?
+a) DEC-01-1991
+b) 01-1991-11
+c) 01-DEC-12
+d) 1991-11-01
+d
+6. Which of the following are the valid “database datatypes” in Mysql?
+a) Numerical
+b) Temporal
+c) Text
+d) All of the mentioned
+d
+7. Find the error in the following SQL statement?
+CREATE TABLE person
+( person_id SMALLINT, name VARCHAR, LAST VARCHAR
+  CONSTRAINTS pk_person PRIMARY KEY (person_id));
+  INSERT INTO person
+  VALUES( person_id, name, LAST)
+  (1, ’s’, ’p’);
+  INSERT INTO person
+  ( person_id, name, LAST)
+  VALUES(1,’s’,’p’);
+a) No error
+b) Error, Duplicate value
+c) Any other error
+d) None of the mentioned
+b
+8. Find the error in the following SQL statement?
+  CREATE TABLE person
+  ( person_id SMALLINT, name VARCHAR, LAST VARCHAR, Bith_date DATE
+  CONSTRAINTS pk_person PRIMARY KEY (person_id));
+  INSERT INTO person
+  VALUES( person_id, name, LAST, Birth_date)
+  (1,’s’,’p’, 24-1991-01);
+a) In correct data value
+b) No error
+c) Any other error
+d) None of the mentioned
+a
+9. Which Key is used to link two tables in Mysql?
+a) Primary Key
+b) Foreign Key
+c) Both Primary and Foreign Key
+d) None of the mentioned
+b
+10. Which line of the following statements will produce error?
+a) SELECT * FROM person WHERE person_id=1;
+b) SELECT pname FROM person;
+c) SELECT pname, lname, person_id FROM person;
+d) None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Administrative-Level Optimizations» Next - MySQL Questions and Answers – Query Mechanics 

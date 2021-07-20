@@ -1,0 +1,86 @@
+1. Which among the following can also be included with “SELECT” clause while writing query in Mysql?
+a) Literals
+b) Expressions
+c) User defined functions
+d) All of the mentioned
+d
+2. Is there any error in executing the following MySQL command?
+SELECT emp_id, ‘ACTIVE’,
+       emp_id * 3.145,
+       UPPER (lname)
+       FROM Employee;
+a) Yes
+b) NO
+c) Depends on condition
+d) None of the mentioned
+b
+3. Is there any error in executing the following MySQL command?
+SELECT USER (),
+VERSION (), DATABASE ();
+a) Yes, “FROM” is not used
+b) No
+c) Depends
+d) None of the mentioned
+b
+4. What is the need of “column Aliases” in “SELECT” clause?
+a) To assign a new label to the column in result set
+b) To overwrite the existing column name in result set
+c) To modify the column name while using literals, Expression, built_in functions with “SELECT clause
+d) All of the mentioned
+d
+5. What will be the result of the following MySQL command?
+SELECT emp_id,
+‘ACTIVE’ STATUS,
+emp_id * 3.14 emp_pi,
+UPPER (lname) last_name
+FROM employee;
+a) emp_id, ACTIVE, emp_id * 314, UPPER(lname)
+b) emp_id, Status, emp_pi, last_name
+c) Error
+d) None of the mentioned
+b
+6.  What will be the result of the following MySQL command?
+SELECT emp_id,
+‘ACTIVE’ AS STATUS,
+emp_id * 3.14 AS emp_pi,
+UPPER (lname) AS last_name
+FROM employee;
+a) emp_id, ACTIVE, emp_id * 314, UPPER(lname)
+b) emp_id, Status, emp_pi, last_name
+c) Error
+d) None of the mentioned
+b
+7. Which Keyword is used to remove duplicate rows in the result set?
+a) DISTINCTS
+b) MODIFY
+c) DISTINCT
+d) All of the mentioned
+a
+8. If in Table “account”, a column “cust_id” consists of {1,2,2,3,3,5,6,7,8,8} then what will be the output on executing the following MySQL statement?
+SELECT DISTINICT cust_id
+FROM account;
+a) {1, 2, 2, 3, 3, 5, 6, 7, 8, 8}
+b) {1, 2, 3, 5, 6, 7, 8}
+c) { }
+d) None of the mentioned
+b
+9. If in Table “employee”, a column “emp_id” consists of {1,2,2,3,3,5,6,7,8,8} then what will be the output on executing the following MySQL statement?
+SELECT DISTINICT emp_id
+FROM employee;
+a) {1,2,2,3,3,5,6,7,8,8}
+b) {1,2,3,5,6,7,8}
+c) { }
+d) None of the mentioned
+b
+10. Which among the following is an optional Keyword?
+a) DISTINICTS
+b) ALL
+c) AS
+d) Both AS and ALL
+d
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – The select Clauses – 1» Next - MySQL Questions and Answers – The from Clauses – 1 

@@ -1,0 +1,91 @@
+1. The procedure of fetching the chosen program segments or data from the secondary storage into the physical memory is
+a) mapping
+b) swapping
+c) unswapping
+d) pipelining
+b
+2. The procedure of storing back the partial results on to the secondary storage is called
+a) mapping
+b) swapping
+c) unswapping
+d) pipelining
+c
+3. The ability of 80286 to address the virtual memory per task is
+a) 1MB
+b) 1GB
+c) 1TB
+d) none of the mentioned
+b
+4. The branch instructions are handled by
+a) swapping mechanism
+b) unswapping mechanism
+c) operating system
+d) all of the mentioned
+d
+5. A descriptor contains information of
+a) program segment
+b) page
+c) regarding segment and its access rights
+d) all of the mentioned
+d
+6. The descriptors that are used for subroutines and interrupt service routines are
+a) data segment descriptors
+b) gate descriptors
+c) code segment descriptors
+d) system segment descriptors
+b
+7. A segment with low privilege level is not allowed to access another segment of
+a) low privilege level
+b) high privilege level
+c) low and high privilege level
+d) none of the mentioned
+b
+8. A descriptor is used to carry out
+a) transfer of control
+b) task switching
+c) to store privilege level and segment limit
+d) all of the mentioned
+d
+9. The descriptor that is used for special system data segments and control transfer operations is
+a) data segment descriptors
+b) gate descriptors
+c) code segment descriptors
+d) system segment descriptors
+d
+10. A code segment descriptor contains
+a) 16-bit segment limit
+b) 24-bit segment base address
+c) 8-bit access rights byte
+d) all of the mentioned
+d
+11. In access rights byte, if P (Present)=1, then the segment is mapped into
+a) physical memory
+b) virtual memory
+c) no mapping takes place
+d) none of the mentioned
+a
+12. In access rights byte, to select system segment descriptor, the condition is
+a) S=1
+b) S=0
+c) S not equal to zero
+d) none of the mentioned
+b
+13. If S (segment descriptor)=1, then the descriptor selected is
+a) code segment descriptor
+b) data segment descriptor
+c) stack segment descriptor
+d) all of the mentioned
+d
+14. The memory of limit field is
+a) 2 bits
+b) 4 bits
+c) 8 bits
+d) 16 bits
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Real Addressing Mode» Next - Microprocessors Questions and Answers – Protected Virtual Address Mode (PVAM) -2 

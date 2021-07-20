@@ -1,0 +1,44 @@
+1. According to Newton’s law of cooling “The change of temperature of a body is proportional to the difference between the temperature of a body and that of the surrounding medium”. If t1℃ is the initial temperature of the body and t2℃ is the constant temperature of the medium, T℃ be the temperature of the body at any time t then find the expression for T℃ as a function of t1℃, t2℃ and time t.
+a) T=t1+(t2) e-kt
+b) T=t2+(t1-t2) e-kt
+c) T=t1+(t1-t2) ekt
+d) T=t2+(t1) ekt
+b
+=log (T-t2) = -kt + c –> T-t2 = pe-kt…where p=ec=constant, using initial condition i.e T(0)= t1 we get t1-t2=p substituting back in equation we obtain  T=t2+(t1-t2) e-kt.
+2. A body in air at 25℃ cools from 100℃ to 75℃ in 1 minute. What is the temperature of the body at the end of 3 minutes? (Take log(1.5)=0.4)
+a) 40℃
+b) 47.5℃
+c) 42.5℃
+d) 50℃
+b
+when t=1 –> T(1) = 25 + 75 e-k = 75℃ –> 50/75 = 2/3 = e-k
+–> 3/2=ek taking log k=log(1.5)=0.4.
+to find T when t=3 minute using the value of k we get
+T = 25 + 75e-0.4*3 = 47.5℃……e-1.2=0.3.
+3. A bottle of mineral water at a room temperature of 72℉ is kept in a refrigerator where the temperature is 44℉.After half an hour water cooled to 61℉.What is the temperature of the body in another half an hour?(Take log  \(\frac{28}{17}\) = 0.498, e-0.99=0.37)
+a) 18℉
+b) 9.4℉
+c) 54.4℉
+d) 36.4℉
+c
+At t=half an hour = 30mts T=61℉, finding k using the given values i.e
+61=44+28e-k30 –> \(\frac{17}{28}\) = e-k30 or \(\frac{28}{17}\) = ek30 taking log, log  \(\frac{28}{17}\) = 30k –> k=0.0166
+to find T when t = 30mts + 30mts = 60mts
+T = 44 + 28e-(0.0166)30 = 54.4℉.
+4. The radius of the moon is roughly 2000km. The acceleration of gravity at the surface of the moon is about \(\frac{g}{6}\), where g is the acceleration of gravity at the surface of the earth. What is the velocity of escape for the moon?(Take g=10ms-2)
+a) 2.58 kms-1
+b) 4.58 kms-1
+c) 6.28 kms-1
+d) 12.28 kms-1
+a
+substituting the value of k back we get \(\frac{dv}{dt} = \frac{-gR^2}{r^2} = \frac{dr}{dt}  \frac{dv}{dr} = v \frac{dv}{dr}\) solving DE for v
+we get \(\int v \,dv = \int \frac{-gR^2}{r^2}  dr + c \rightarrow v^2 = \frac{2gR^2}{r} + C\) to find c we use at r=R
+v=ve thus we get \(v_e^2 – \frac{2gR^2}{R} = C\)… where 2c=C=constant substituting value of c we get \(v^2=\frac{2gR^2}{r} + v_e^2 – 2gR\)…..if r>>R \(\frac{2gR^2}{r} = 0\) and particle to get escape from earth v≥0 –> ve2 – 2gR≥0 –> \(v_e=\sqrt{2gR}\) to find ve
+from the moon g becomes \(\frac{g}{6}\), R=2000km=2×106 m, g=10ms-2
+                         therefore \(v_e = \sqrt{2*\frac{10}{6}(2×10^6)} = 2.58kms^{-1}.\).
+ Sanfoundry Global Education & Learning Series – Ordinary Differential Equations.
+To practice all areas of Ordinary Differential Equations, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ordinary Differential Equations Questions and Answers – Law of Natural Growth and Decay» Next - Ordinary Differential Equations Questions and Answers – Simple Electrical Networks Solution 

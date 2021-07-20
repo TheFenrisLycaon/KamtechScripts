@@ -1,0 +1,88 @@
+1. Which of the following is not an assignment operator?
+a) <=
+b) :=
+c) =>
+d) =
+d
+2. A VARIABLE y is declared of STD_LOGIC_VECTOR type of 4 bits, if you want to assign 1001 to y, then what is the write assignment statement?
+a) y <= “1001”
+b) y := “1001”
+c) y <= ‘1’, ‘0’, ‘0’, ‘1’
+d) y => “1001”
+b
+3. Refer to the VHDL code given below, which is the legal assignment statement?
+SIGNAL x: STD_LOGIC;
+SIGNAL y: STD_LOGIC_VECTOR(3 DOWNTO 0);
+a) y <= (1 => ‘1’, OTHERS => ’0’);
+b) y := “0100”;
+c) y => “0100”;
+d) y => x;
+a
+4. Which of the following logical operator has the highest precedence?
+a) NAND
+b) NOR
+c) NOT
+d) EXOR
+c
+5. In the following statements, y and z are equivalent to________
+y <= NOT a AND b;
+z <= NOT (a AND b);
+a) y <= a’+b’ and z <= (a.b)’
+b) y <= (a+b)’ and z <= a’+b’
+c) y <= a’+b and z <= a’+b’
+d) y <= a+b’ and z <= a.b
+c
+6. Which of the following VHDL statement is equivalent to NAND operation, if y, a and b are SIGNALS?
+a) y <= NOT a AND b
+b) y <= NOT a OR NOT b
+c) y <<= NOT a AND NOT b
+d) y <<= NOT (a OR b)
+b
+7. ______ operator is unary as well as binary operator.
+a) –
+b) *
+c) /
+d) **
+a
+8. The operator ‘&’ is called the_____ operator.
+a) Logical AND operator
+b) Bitwise AND operator
+c) Arithmetic addition operator
+d) Concatenation operator
+d
+9. What is the type of result of MOD operator?
+a) Numeric
+b) Integer
+c) Array
+d) Bit
+b
+10. The operators like =, /=, <, >, >= are called _________
+a) Arithmetic operators
+b) Concatenation operators
+c) Logical operators
+d) Relational operators
+d
+11. What is the type of result for comparison operators?
+a) Boolean
+b) Integer
+c) Numeric
+d) Array
+a
+12. ABS operator is used to _________
+a) Shift the operand
+b) Gives absolute value for the operand
+c) Give the result as nearest integer
+d) To synthesize the result
+b
+13. Which of the following is exponentiation operator?
+a) ^
+b) *
+c) /=
+d) **
+d
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Data Conversion» Next - VHDL Questions and Answers – Operators – 2 

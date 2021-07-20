@@ -1,0 +1,110 @@
+1. What is the output of the following code?
+i=0;for i=0:2  
+i=1; end
+a) Output is suppressed
+b) Output shows 1 3 times
+c) Output shows 1 2 times
+d) Error
+a
+2. What is the output of the following code?
+i=0;for j=0:2  
+j=j-1
+end
+a) Infinite loop
+b) -1
+c) Output is suppressed
+d) +1
+b
+3. What is the output of the following code?
+a=0;for j=0:2  
+j=j+1 end
+a) Syntactical Error
+b) 3
+c) 2
+d) Keyword Error
+d
+4. What is the final value of j from the following code?
+for j=(0:3)  
+j=j+1;
+end
+a) Syntactical error
+b) Declaration error
+c) 3
+d) 4
+a
+5. What is the output of the following code?
+for j= 4:2   
+j=j+1 
+end
+a) an empty vector, j
+b) 3
+c) 2
+d) error
+a
+6. What is the output of the following code?
+for i!=1:10 
+p=p+1;
+a) Syntactical Error
+b) Inf
+c) NaN
+d) Logical Error
+d
+7. In nested loops, the break statement exits the ____ loop.
+a) external
+b) last started ongoing
+c) not available in MATLAB
+d) for
+b
+8. In nested loops, the continue statement exits the ____
+a) current iteration
+b) loop
+c) inner
+d) outer
+a
+9. In nested loops, the break statement, if present within a nested if the structure, will exit the _______
+a) Ongoing if structure
+b) Entire loop
+c) Ongoing loop
+d) Entire if structure
+b
+10. In nested loops, the continue statement, if present within an if structure, will exit the ____________
+a) If structure
+b) current iteration
+c) entire loop
+d) Error
+b
+11. In nested loops, the continue statement, if present within a nested if structure, will exit the ____________
+a) If structure
+b) nested if structure
+c) entire loop
+d) present iteration
+b
+12. What is the output of the following code?
+for j= 4:2:2   
+j=j+4 
+end
+a) Error
+b) j=6
+c) Error an empty vector, j
+d) Syntactical error
+c
+13. While running a loop in MATLAB, it does not require indentation.
+a) True
+b) False
+a
+14. The effective working of the continue keyword in the final iteration is same as the effective working of the break keyword.
+a) True
+b) False
+a
+15. The number of iterations run for any loop by MATLAB is always _____________
+a) a positive integer
+b) a negative integer
+c) a number
+d) a decimal number
+c
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Logical Expressions – 2» Next - MATLAB Questions and Answers – More about Loops – 2 

@@ -1,0 +1,84 @@
+1. The expectation of a random variable X (E(X)) can be written as _________
+a) \(\frac{d}{dt} [M_X (t)](t=0) \) 
+b) \(\frac{d}{dx} [M_X (t)](t=0) \) 
+c) \(\frac{d^2}{dt^2}  [M_X (t)](t=0) \) 
+d) \(\frac{d^2}{dx^2}  [M_X (t)](t=0) \) 
+a
+2. If the probability of hitting the target is 0.4, find mean and variance.
+a) 0.4, 0.24
+b) 0.6, 0.24
+c) 0.4, 0.16
+d) 0.6, 0.16
+a
+q = 1-p
+= 1-0.4 = 0.6
+Therefore, mean = p = 0.4 and
+Variance = pq = (0.4) (0.6) = 0.24. 
+3. If the probability that a bomb dropped from a place will strike the target is 60% and if 10 bombs are dropped, find mean and variance?
+a) 0.6, 0.24
+b) 6, 2.4
+c) 0.4, 0.16
+d) 4, 1.6
+b
+Therefore, mean = np = 6
+Variance = npq = (10)(0.6)(0.4)
+= 2.4. 
+4. If P(1) = P(3) in Poisson’s distribution, what is the mean?
+a) \(\sqrt{2} \) 
+b) \(\sqrt{3} \) 
+c) \(\sqrt{6} \) 
+d) \(\sqrt{7} \) 
+c
+Therefore, \(P(3) = \frac{(e^{-λ} λ^3)}{3!} \) 
+and \(P(1) = \frac{(e^{-λ} λ^1)}{1!} \) 
+P(1) = P(2)
+\(λ=\frac{λ^3}{6} \) 
+Therefore, \(λ=\sqrt{6}. \) 
+5. What is the mean and variance for standard normal distribution?
+a) Mean is 0 and variance is 1
+b) Mean is 1 and variance is 0
+c) Mean is 0 and variance is ∞
+d) Mean is ∞ and variance is 0
+a
+6. Find λ in Poisson’s distribution if the probabilities of getting a head in biased coin toss as \(\frac{3}{4} \) and 6 coins are tossed.
+a) 3.5
+b) 4.5
+c) 5.5
+d) 6.6
+b
+λ = np = (6) 3⁄4 = 4.5. 
+7. If P(6) = λP(1) in Poisson’s distribution, what is the mean?(Approximate value)
+a) 4
+b) 6
+c) 5
+d) 7
+c
+λ4 = 6! = 720
+Therefore λ = 5.18 = 5. 
+8. Find f(2) in normal distribution if mean is 0 and variance is 1.
+a) 0.1468
+b) 0.1568
+c) 0.1668
+d) 0.1768
+a
+Variance = 1
+\(f(2) = \frac{1}{(\sqrt{2π})} e^{\frac{-1}{2} \frac{2}{1}}= 0.1468. \) 
+9. Find the mean of tossing 8 coins.
+a) 2
+b) 4
+c) 8
+d) 1
+b
+n = 8
+q = 1⁄2
+Therefore, mean = np = 8 * 1⁄2 = 4. 
+10. Mean and variance of Poisson’s distribution is the same.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Probability and Statistics.
+To practice all areas of Probability and Statistics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Probability and Statistics Questions and Answers – Probability Distributions – 2» Next - Probability and Statistics Questions and Answers – Mathematical Expectation 

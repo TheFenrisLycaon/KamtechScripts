@@ -1,0 +1,332 @@
+1. Conversion of the Plaintext MANIPALINSTITUTE  to a state matrix leads to
+a) 
+M
+A
+N
+I
+P
+A
+L
+I
+N
+S
+T
+I
+T
+U
+T
+E
+b) 
+M
+P
+N
+T
+A
+A
+S
+U
+N
+L
+T
+T
+I
+I
+I
+E
+c) 
+M
+A
+I
+L
+N
+P
+I
+T
+A
+N
+I
+U
+S
+T
+T
+E
+d) 
+E
+U
+T
+L
+T
+I
+I
+L
+T
+N
+P
+A
+S
+A
+N
+M
+b
+M
+A
+N
+I
+P
+A
+L
+I
+N
+S
+T
+I
+T
+U
+T
+E
+The State matrix is Arranged – 
+M
+P
+N
+T
+A
+A
+S
+U
+N
+L
+T
+T
+I
+I
+I
+E
+  
+2. On encrypting MANIPALINSTITUTE with key ADVANCEDENCRYPTI we get the state matrix –
+a)
+FC
+1D
+1B
+0D
+15
+02
+1D
+05
+10
+0F
+17
+00
+20
+0D
+1B
+FC
+Join Sanfoundry@YouTube
+b)
+FC
+1D
+1B
+0D
+15
+02
+1D
+05
+10
+0F
+17
+00
+20
+0D
+1B
+0C
+c)
+OC
+FE
+0B
+0D
+D5
+02
+1D
+05
+18
+09
+17
+00
+08
+0D
+1B
+FC
+d)
+OC
+1E
+0B
+0D
+05
+02
+1D
+05
+18
+09
+17
+00
+08
+0D
+1B
+0C
+d
+  
+3. The multiplicative inverse of 0x95 in AES where m(x)=x8+x4+x3+x+1 is
+a) 0x8F
+b) 0xF8
+c) 0x8A
+d) 0xA8
+c
+4. In AES, to make the s-box, we apply the transformation
+b’_i = b_i XOR b_(i+4) XOR b(i+5) XOR b_(i+6) XOR b_(i+7) XOR c_i
+What is c_i in this transformation?
+a) c_i is the ith bit of byte c with value 0x63
+b) c_i is the ith bit of byte c with value 0x25
+c) c_i is the ith bit of byte c with value 0x8F
+d) c_i is the ith bit of byte c with value 0x8A
+a
+c = 01100011.
+5. The S-box value for byte stored in cell (6,D)
+a) 0x3C
+b) 0x7F
+c) 0xFD
+d) 0x4A
+a
+6. The S-box value for byte stored in cell (B,3)
+a) 0x3C
+b) 0xB3
+c) 0x4F
+d) 0x90
+b
+7. The S-box value for byte stored in cell (3,3)
+a) 0xC3
+b) 0x3C
+c) 0x44
+d) 0x9B
+a
+8. The inverse s-box permutation follows,
+ b’_i = b_(i+2) XOR b(i+5) XOR b_(i+7) XOR d_i
+Here d_i is
+a) d_i is the ith bit of a byte ‘d’ whose hex value is 0x15
+b) d_i is the ith bit of a byte ‘d’ whose hex value is 0x05
+c) d_i is the ith bit of a byte ‘d’ whose hex value is 0x25
+d) d_i is the ith bit of a byte ‘d’ whose hex value is 0x51
+b
+9. The Inverse S-box value for byte stored in cell (3,3)
+a) 0xC3
+b) 0x66
+c) 0x1F
+d) 0x9B
+b
+10. The Inverse S-box value for byte stored in cell (6,3)
+a) 0x00
+b) 0x11
+c) 0x01
+d) 0x04
+a
+11. The Inverse S-box value for byte stored in cell (D,2)
+a) 0x5F
+b) 0x2D
+c) 0x7F
+d) 0x5D
+c
+12. What is the Shifted Row transformation for the matrix bellow?
+FE
+72
+2B
+D7
+6B
+77
+A4
+6B
+AD
+01
+F0
+63
+30
+D7
+AF
+FE
+a) 
+FE
+72
+2B
+D7
+6B
+77
+A4
+6B
+AD
+01
+F0
+63
+30
+D7
+AF
+FE
+b)
+72
+2B
+D7
+FE
+A4
+6B
+6B
+77
+63
+AD
+01
+F0
+30
+D7
+AF
+FE
+c)
+FE
+72
+2B
+D7
+77
+A4
+6B
+6B
+F0
+63
+AD
+01
+FE
+30
+D7
+AF
+d)
+D7
+FE
+72
+2B
+A4
+6B
+6B
+77
+01
+AD
+63
+F0
+30
+D7
+AF
+FE
+c
+-Not shifting the first row of the state array at all.
+-Circularly shifting the second row by one byte to the left.
+-Circularly shifting the third row by two bytes to the left, and
+-Circularly shifting the last row by three bytes to the left.
+  
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice puzzles on all areas of Cryptography, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Symmetric Ciphers Questions and Answers – The AES Algorithm – I» Next - Symmetric Ciphers Questions and Answers – The AES Algorthm – III 

@@ -1,0 +1,71 @@
+1. What is the clock source for the timers?
+a) some external crystal applied to the micro-controller for executing the timer
+b) from the crystal applied to the micro-controller
+c) through the software
+d) through programming
+b
+2. What is the frequency of the clock that is being used as the clock source for the timer?
+a) some externally applied frequency f’
+b) controller’s crystal frequency f
+c) controller’s crystal frequency /12
+d) externally applied frequency/12
+c
+3. What is the function of the TMOD register?
+a) TMOD register is used to set various operation modes of timer/counter
+b) TMOD register is used to load the count of the timer
+c) Is the destination or the final register where the result is obtained after the operation of the timer
+d) Is used to interrupt the timer
+a
+4. What is the maximum delay that can be generated with the crystal frequency of 22MHz?
+a) 2978.9 sec
+b) 0.011 msec
+c) 11.63 sec
+d) 2.97 msec
+d
+5. Auto reload mode is allowed in which mode of the timer?
+a) Mode 0
+b) Mode 1
+c) Mode 2
+d) Mode 3
+c
+6. Find out the roll over value for the timer in Mode 0, Mode 1 and Mode 2?
+a) 00FFH,0FFFH,FFFFH
+b) 1FFFH,0FFFH,FFFFH
+c) 1FFFH,FFFFH,00FFH
+d) 1FFFH,00FFH,FFFFH
+c
+7. What steps are followed when we need to turn on any timer?
+a) load the count, start the timer, keep monitoring it, stop the timer
+b) load the TMOD register, load the count, start the timer, keep monitoring it, stop the timer
+c) load the TMOD register, start the timer, load the count, keep monitoring it, stop the timer
+d) none of the mentioned
+b
+8. If Timer 0 is to be used as a counter, then at what particular pin clock pulse need to be applied?
+a) P3.3
+b) P3.4
+c) P3.5
+d) P3.6
+b
+9. In the instruction “MOV TH1,#-3”, what is the value that is being loaded in the TH1 register?
+a) 0xFCH
+b) 0xFBH
+c) 0xFDH
+d) 0xFEH
+c
+Steps to convert into 2’s complement:
+3 → 0000 0011       	Binary Equivalent of ‘3’
+  →  1111 1100          1’s Complement of decimal ‘-3’
+  →  1111 1101       	2’s Complement of decimal ‘-3’
+      F     D           Hex Equivalent of ‘-3’
+10. TF1, TR1, TF0, TR0 bits are of which register?
+a) TMOD
+b) SCON
+c) TCON
+d) SMOD
+c
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - 8051 Microcontroller Questions and Answers – Arithmetic and Logic Instructions» Next - 8051 Microcontroller Questions and Answers – Serial Port Communication 

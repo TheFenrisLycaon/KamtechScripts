@@ -1,0 +1,74 @@
+1. If ‘n’ denotes the number of clock cycles and ‘T’ denotes period of the clock at which the microprocessor is running, then the duration of execution of loop once can be denoted by
+a) n+T
+b) n-T
+c) n*T
+d) n/T
+c
+2. The number of instructions actually executed by the microprocessor depends on the
+a) stack
+b) loop count
+c) program counter
+d) time duration
+b
+3. In case of subroutines, the actual number of instructions executed by the processor depends on
+a) loop count
+b) length of interrupt service routine
+c) length of procedure
+d) none
+c
+4. The step included in generating delays is
+a) determining exact required delay
+b) selecting instructions for delay loop
+c) finding period of clock frequency
+d) all of the mentioned
+d
+5. The Count, N can be defined as
+a) required delay/duration for execution
+b) duration of execution/required delay
+c) required delay/number of clock cycles
+d) required delay/period of clock frequency
+a
+             Count, N = required delay (Td)/duration for execution of the loop once (n*T).
+6. In the instruction set,
+      MOV CX, BA03H
+WAIT: DEC CX
+      NOP
+      JNZ WAIT
+      RET
+if the zeroth condition is satisfied then, for execution, the JNZ instruction takes
+a) 1 clock cycle
+b) 2 clock cycles
+c) 3 clock cycles
+d) 4 clock cycles
+d
+7. In the instruction set,
+      MOV CX, BA03H
+WAIT: DEC CX
+      NOP
+      JNZ WAIT
+      RET
+if the zeroth condition is not satisfied, then the JNZ instruction takes
+a) 2 clock cycles
+b) 8 clock cycles
+c) 16 clock cycles
+d) 64 clock cycles
+c
+8. The maximum count value of 16-bit count register puts a limitation on
+a) memory usage
+b) storage of address of registers
+c) to generate clock pulse
+d) to generate maximum delay
+d
+9. When large delays are required, then to serve the purpose
+a) one or more count registers can be used
+b) one or more shift registers can be used
+c) one or more pointer registers can be used
+d) one or more index registers can be used
+a
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Macros» Next - Microprocessors Questions and Answers – Semiconductor Memory Interfacing 

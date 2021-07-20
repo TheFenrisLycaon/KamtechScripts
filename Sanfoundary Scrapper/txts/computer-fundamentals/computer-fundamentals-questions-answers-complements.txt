@@ -1,0 +1,78 @@
+1. What is the 1’s complement of 11010?
+a) 11010
+b) 11011
+c) 00110
+d) 00101
+d
+2. 2’s complement is obtained by adding 1 to 1’s complement of a number.
+a) True
+b) False
+a
+1’s complement of the number is 001111. 2’s complement=001111+1=010000.
+3. The 10’s complement of 562 is __________
+a) 4
+b) 3
+c) 7
+d) 8
+b
+Here, 9’s complement=999-562=436.
+Therefore, 10’s complement=436+1=437. 
+4.  The 9’s complement of 6578 is ___________
+a) 1234
+b) 3421
+c) 3124
+d) 3420
+b
+Here, 9999-6578=3421.
+Therefore, the 9’s complement is 3421.
+5. >> operator is used to denote  _________
+a) left shift
+b) right shift
+c) greater than
+d) less than
+b
+E.g. If we say, >>110 by 2-bits, the value obtained will be 001.
+Similarly, << denotes the right shift operator.
+6. The subtraction  using 1’s complement of 110 – 100 will give the result  ___________
+a) -011
+b) 011
+c) 010
+d) -010
+c
+If the carry is generated, it is added to the result (001+1=010).
+If a carry is not generated then it is converted to its 1’s complement form.
+7. The result obtained on subtraction using 2’s complement of 1111-0010 will be  _________
+a) 11101
+b) 11011
+c) 1101
+d) 1011
+c
+Then, if carry is generated, it is discarded and the number is positive.
+Otherwise, 2’s complement of the result is obtained and the answer is negative.
+Here, 1111+1110=1, 1101. Since carry is generated, it is discarded and the answer is positive.
+8. The 1’s complement of 1111111110.101 is _______________
+a) 1.010
+b) 0000000000.010
+c) 1111111110.101
+d) 1.101
+a
+9. 7’s complement of 432 is _________________
+a) 432
+b) 543
+c) 345
+d) 777
+c
+Here, 777-432=345. So, the 7’s complement is 345.
+10. The 16’s complement of 74E will be __________
+a) 8B2
+b) F8B2
+c) 2B8
+d) 8C2
+b
+Here, 16’s complement of 074E will be F8B2.
+Sanfoundry Global Education & Learning Series – Computer Fundamentals.
+To practice all areas of Computer Fundamentals, here is complete set of 1000+ Multiple Choice Questions and Answers.  
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Fundamentals Questions and Answers – Booth’s Algorithm» Next - Computer Fundamentals Questions and Answers – IEEE 32 and 64 bit 

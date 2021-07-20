@@ -1,0 +1,80 @@
+1. Which of these is used as a default specifier for a member of the class if no access specifier is used for it?
+a) private
+b) public
+c) public, within its own class
+d) protected
+a
+2. Which of these is used to access members of class before the object of that class is created?
+a) public
+b) private
+c) static
+d) protected
+c
+3. Which of these base classes are accessible to the derived class members?
+a) static
+b) protected
+c) private
+d) Shared
+b
+4. What is the process by which we can control parts of a program that can access the members of a class?
+a) Polymorphism
+b) Abstraction
+c) Encapsulation
+d) Recursion
+c
+5. What will be the output of the following C# code?
+ class sum    {     public int x;     private int y;     public void math(int a, int b)     {         x = a * 4;         y = b;     } }     class Program {     static void Main(string[] args)     {         sum p = new sum();            p.math(12, 30);         Console.WriteLine(p.x + "  " + p.y);         Console.ReadLine();     } }
+a) 48, 30
+b) 48, 0
+c) 0, 0
+d) Compile time error
+d
+Output :
+Change private y to public y
+6. What will be the output of the following C# code?
+ class sum    {     public int x;     public int y;     public  int add (int a,  int b)     {         x = a + b;         y = x + b;         return 0;     } }     class Program {     static void Main(string[] args)     {         sum obj1 = new sum();         sum obj2 = new sum();            int a = 2;         obj1.add(a,  a + 1);         obj2.add(5,  a);         Console.WriteLine(obj1.x + "  " + obj2.y);              Console.ReadLine();     } }
+a) 6, 9
+b) 5, 9
+c) 9, 10
+d) 3, 2
+b
+So, a = 2,  b = 3.
+x = 2 + 3  = 5.
+y = 5 + 3 = 8.
+Similarly, a = 5,  b = a + 1 = 4.
+y =  5 + 4 = 9.
+Output :
+5, 9
+7. What will be the output of the following C# code?
+ class math {     public int a,b;     public math(int i,  int j)     {         a = i;         b = j;     }     public  void sum(math m)     {         m.a *= 2;         m.b += 2;     } }     class Program {     static void Main(string[] args)     {         math t = new math(20,  10);         t.sum(t);         Console.WriteLine(t.a + "  " + t.b);            Console.ReadLine();     } }
+a) 10, 20
+b) 20, 10
+c) 40, 12
+d) 5, 40
+c
+Output :
+ 40, 12
+8. Accessibility modifier defined in a class are?
+a) public, private, protected
+b) public, internal, protected internal
+c) public, private, internal, protected internal
+d) public, private, protected, internal, protected internal
+d
+9. Choose the statements which are false in nature?
+a) The base class member functions can access public member functions of derived class
+b) An object of a derived class cannot access private member of the base class
+c) Private members of the base class cannot be accessed by derived class member functions or objects of derived class
+d) None of the mentioned
+a
+10. Which of these access specifiers must be used for main() method?
+a) private
+b) public
+c) protected
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Operation on Characters» Next - C# Questions & Answers – Use of Ref and Out Parameters 

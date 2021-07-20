@@ -1,0 +1,73 @@
+1. Which of the following statements are true?
+a) Asynchronous events does not occur at the same time
+b) Asynchronous events are controlled by a clock
+c) Synchronous events does not need a clock to control them
+d) Only asynchronous events need a control clock
+a
+2. A down counter using n-flip-flops count ______________
+a) Downward from a maximum count
+b) Upward from a minimum count
+c) Downward from a minimum to maximum count
+d) Toggles between Up and Down count
+a
+3. UP Counter is ____________
+a) It counts in upward manner
+b) It count in down ward manner
+c) It counts in both the direction
+d) Toggles between Up and Down count
+a
+4. DOWN counter is ____________
+a) It counts in upward manner
+b) It count in downward manner
+c) It counts in both the direction
+d) Toggles between Up and Down count
+b
+5. How many different states does a 3-bit asynchronous down counter have?
+a) 2
+b) 4
+c) 6
+d) 8
+d
+Therefore, in a 3-bit counter, the total number of states = 23 = 8 states.
+6. In a down counter, which flip-flop doesn’t toggle when the inverted output of the preceeding flip-flop goes from HIGH to LOW.
+a) MSB flip-flop
+b) LSB flip-flop
+c) Master slave flip-flop
+d) Latch
+b
+7. In a 3-bit asynchronous down counter, the initial content is ____________
+a) 000
+b) 111
+c) 010
+d) 101
+a
+8. In a 3-bit asynchronous down counter, at the first negative transition of the clock, the counter content becomes ____________
+a) 000
+b) 111
+c) 101
+d) 010
+b
+9. In a 3-bit asynchronous down counter, at the first negative transition of the clock, the counter content becomes ____________
+a) 000
+b) 111
+c) 101
+d) 010
+c
+10. The hexadecimal equivalent of 15,536 is ________
+a) 3CB0
+b) 3C66
+c) 63C0
+d) 6300
+a
+11. In order to check the CLR function of a counter ____________
+a) Apply the active level to the CLR input and check all of the Q outputs to see if they are all in their reset state
+b) Ground the CLR input and check to be sure that all of the Q outputs are LOW
+c) Connect the CLR input to Vcc and check to see if all of the Q outputs are HIGH
+d) Connect the CLR to its correct active level while clocking the counter; check to make sure that all of the Q outputs are toggling
+a
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – Counter ICs» Next - Digital Circuits Questions and Answers – Propagation Delay in Ripple Counter 

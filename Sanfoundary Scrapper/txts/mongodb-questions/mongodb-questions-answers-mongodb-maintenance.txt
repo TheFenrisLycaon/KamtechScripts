@@ -1,0 +1,68 @@
+1. ________ contains a counter of the total number of clients with active operations in progress or queued.
+a) globalLock.active
+b) localLock.activeClients
+c) globalLock.activeClients
+d) all of the mentioned
+c
+2. Point out the correct statement.
+a) In MongoDB 3.0, cursor.explain() returns the indexOnly field to indicate whether the index covered a query
+b) When an index covers a query, MongoDB can both match the query conditions and return the results using only the index keys
+c) For read-heavy applications, deploy sharding and add one or more shards to a sharded cluster to distribute load among mongod instances
+d) All of the mentioned
+b
+3. The ___________ collection stores custom roles that administrators create and assign to users to provide access to specific resources.
+a) admin.system.role
+b) admin.system.roles
+c) admin.system.roleasign
+d) all of the mentioned
+b
+4. The _________ field provides the amount of resident memory in use.
+a) mem.resident
+b) memory.resident
+c) mem.resident
+d) all of the mentioned
+c
+5. Point out the correct statement.
+a) MongoDB distributions are currently available for Mac OS X, Linux, Windows Server 2012, Windows Server 2008 R2 64bit, Windows 7 (64 bit), Windows Vista, and Solaris
+b) The MongoDB distribution for Solaris include support for the WiredTiger storage engine
+c) mongod will not start if dbPath contains data files created by a storage engine
+d) None of the mentioned
+b
+Join Sanfoundry@YouTube
+6. When the TTL thread is active, you will see _______ operations in the output of db.currentOp().
+a) read
+b) update
+c) delete
+d) all of the mentioned
+c
+7. MongoDB stores tag sets in the replica set configuration object, which is the document returned by _____
+a) rs.config()
+b) rs.conf()
+c) rs.confstats()
+d) all of the mentioned
+b
+8. Which of the following represents Shared lock?
+a) R
+b) w
+c) r
+d) W
+a
+9. On Linux, use the ______ command to check if disk I/O is a bottleneck for your database.
+a) stat
+b) iostats
+c) iostat
+d) none of the mentioned
+c
+10. Which of the following document configures the threshold which determines whether a query is “slow” for the purpose of the logging system?
+a) systemLog.verbosity
+b) operationProfiling.mode
+c) operationProfiling.slowOpThresholdMs
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Run-time Database Configuration» Next - MongoDB Questions and Answers – Production MongoDB 

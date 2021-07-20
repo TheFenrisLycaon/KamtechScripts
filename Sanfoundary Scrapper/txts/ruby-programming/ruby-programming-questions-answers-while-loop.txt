@@ -1,0 +1,132 @@
+1. While loop checks the condition and the loop keeps on running till the condition is true, it stops when the condition becomes false.
+a) True
+b) False
+a
+2. What is the output of the given code?
+counter = 1
+while counter < 11
+  puts counter
+  counter = counter + 1
+end
+a) Prints the number from 1 to 10
+b) Prints the number from 1 to 11
+c) Prints the number from 2 to 10
+d) Infinite loop
+a
+Output:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+3. What is the output of the given code?
+counter = true
+while counter !=false
+  puts counter
+end
+a) True
+b) False
+c) Syntax error
+d) Infinite loop
+d
+Join Sanfoundry@YouTube
+Output:
+true
+true
+...Infinite loop
+4. What is the output of the given code?
+i = 0
+while i < 5
+  puts i
+   i=(i+1)**2
+end
+a) 1 2 3 4 5
+b) 0 1 4
+c) 0 1
+d) 1 4
+b
+Output:
+0
+1
+4
+5. What is the output of the given code?
+a=5
+b=15
+while a&&b
+puts a+b
+end
+a) 5..15
+b) 20
+c) Infinite loop
+d) 5 15
+c
+Output:
+20
+20
+....infinite loop
+6. What is the output of the given code?
+a=5
+b=15
+while b>a
+puts a*(b-a)
+while a>b
+  a+=1
+  b-=1
+end
+end
+a) 5..15
+b) 50
+c) Infinite loop
+d) 5 50
+c
+Output:
+50
+50
+....infinite loop
+7. What is the output of the given code?
+i = 3
+while i > 0 do
+  print i
+  i -= 1
+end
+a) 3
+b) 321
+c) Infinite loop
+d) 3 2 1 0
+b
+Output:
+321
+8. What is the output of the given code?
+i = 50
+while i > 25 do
+  print 50/i
+  i -= 1
+end
+a) 50..25
+b) 50..1
+c) Infinite loop
+d) 1111111111111111111111111
+d
+will always be one.
+Output:
+1111111111111111111111111
+9. What is the output of the given code?
+a = 5
+b=10
+while a<b do
+  puts a*b
+  a+=2
+  b-=2
+  end
+a) 5 10
+b) 50 56
+c) Infinite loop
+d) 5 6 7 8 9 10
+b
+50
+56

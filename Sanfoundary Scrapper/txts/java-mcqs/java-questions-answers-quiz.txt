@@ -1,0 +1,64 @@
+1. What requires less resources?
+a) Thread
+b) Process
+c) Thread and Process
+d) Neither Thread nor Process
+a
+2. What does not prevent JVM from terminating?
+a) Process
+b) Daemon Thread
+c) User Thread
+d) JVM Thread
+b
+3. What decides thread priority?
+a) Process
+b) Process scheduler
+c) Thread
+d) Thread scheduler
+d
+4. What is true about time slicing?
+a) Time slicing is OS service that allocates CPU time to available runnable thread
+b) Time slicing is the process to divide the available CPU time to available runnable thread
+c) Time slicing depends on its implementation in OS
+d) Time slicing allocates more resources to thread
+b
+5. Deadlock is a situation when thread is waiting for other thread to release acquired object.
+a) True
+b) False
+a
+6. What should not be done to avoid deadlock?
+a) Avoid using multiple threads
+b) Avoid hold several locks at once
+c) Execute foreign code while holding a lock
+d) Use interruptible locks
+c
+7. What is true about threading?
+a) run() method calls start() method and runs the code
+b) run() method creates new thread
+c) run() method can be called directly without start() method being called
+d) start() method creates new thread and calls code written in run() method
+d
+8. Which of the following is a correct constructor for thread?
+a) Thread(Runnable a, String str)
+b) Thread(int priority)
+c) Thread(Runnable a, int priority)
+d) Thread(Runnable a, ThreadGroup t)
+a
+9. Which of the following stops execution of a thread?
+a) Calling SetPriority() method on a Thread object
+b) Calling notify() method on an object
+c) Calling wait() method on an object
+d) Calling read() method on an InputStream object
+b
+10. Which of the following will ensure the thread will be in running state?
+a) yield()
+b) notify()
+c) wait()
+d) Thread.killThread()
+c
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+To practice all areas of Java for Quizzes, here is complete set on 1000+ Multiple Choice Questions and Answers on Java.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Multithreading Basics» Next - Java Questions & Answers – Creating Threads 

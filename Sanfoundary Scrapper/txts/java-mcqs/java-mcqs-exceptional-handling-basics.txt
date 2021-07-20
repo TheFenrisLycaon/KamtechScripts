@@ -1,0 +1,81 @@
+1. When does Exceptions in Java arises in code sequence?
+a) Run Time
+b) Compilation Time
+c) Can Occur Any Time
+d) None of the mentioned
+a
+2. Which of these keywords is not a part of exception handling?
+a) try
+b) finally
+c) thrown
+d) catch
+c
+3. Which of these keywords must be used to monitor for exceptions?
+a) try
+b) finally
+c) throw
+d) catch
+a
+4. Which of these keywords must be used to handle the exception thrown by try block in some rational manner?
+a) try
+b) finally
+c) throw
+d) catch
+d
+5. Which of these keywords is used to manually throw an exception?
+a) try
+b) finally
+c) throw
+d) catch
+c
+Join Sanfoundry@YouTube
+6. What will be the output of the following Java program?
+    class exception_handling     {        public static void main(String args[])         {            try             {                System.out.print("Hello" + " " + 1 / 0);            }            catch(ArithmeticException e)             {        	System.out.print("World");        	            }        }    }
+a) Hello
+b) World
+c) HelloWorld
+d) Hello World
+b
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+World
+7. What will be the output of the following Java program?
+    class exception_handling     {        public static void main(String args[])         {            try            {                int a, b;                b = 0;                a = 5 / b;                System.out.print("A");            }            catch(ArithmeticException e)             {        	System.out.print("B");        	            }        }    }
+a) A
+b) B
+c) Compilation Error
+d) Runtime Error
+b
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+B
+8. What will be the output of the following Java program?
+    class exception_handling     {        public static void main(String args[])         {            try             {                int a, b;                b = 0;                a = 5 / b;                System.out.print("A");            }            catch(ArithmeticException e)             {        	System.out.print("B");        	            }            finally             {    	        System.out.print("C");            }        }    }
+a) A
+b) B
+c) AC
+d) BC
+d
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+BC
+9. What will be the output of the following Java program?
+    class exception_handling     {        public static void main(String args[])         {            try             {                int i, sum;                sum = 10;                for (i = -1; i < 3 ;++i)                    sum = (sum / i);            }            catch(ArithmeticException e)             {        	System.out.print("0");        	            }             System.out.print(sum);        }    }
+a) 0
+b) 05
+c) Compilation Error
+d) Runtime Error
+c
+Output:
+$ javac exception_handling.java
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	sum cannot be resolved to a variable
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Collection Algorithms» Next - Java Questions & Answers – Exception Handling 

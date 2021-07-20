@@ -1,0 +1,90 @@
+1. Which of the following is the instance of SQL Server that is your production server in log shipping?
+a) secondary database
+b) primary database
+c) secondary server
+d) primary server
+d
+2. Point out the correct statement.
+a) The restore job can be delayed until all users disconnect themselves
+b) Log shipping cannot be combined with other disaster recovery options such as AlwaysOn Availability Groups
+c) SQL Server log shipping has high cost in human
+d) None of the mentioned
+a
+3. In which of the following modes, the database is read-only?
+a) Stand by
+b) Read only
+c) Restore mode
+d) All of the mentioned
+a
+4. Which of the following script can check the database recovery model by querying sys.databases for log shipping?
+a)
+SELECT name, recovery_model_desc FROM sys.databases WHERE name = 'jugal'
+ 
+USE [master]
+GO
+UPDATE DATABASE [jugal] SET RECOVERY FULL WITH NO_WAIT
+GO
+b)
+SELECT name, recovery_model_desc FROM sys.databases WHERE name = 'jugal'
+ 
+USE [master]
+GO
+ALTER DATABASE [jugal] SET RECOVERY FULL WITH NO_WAIT
+GO
+c)
+SELECT name, recovery_model_desc FROM sys.databases WHERE name = 'jugal'
+ 
+USE [master]
+GO
+DROP DATABASE [jugal] SET RECOVERY FULL WITH NO_WAIT
+GO
+d) None of the mentioned
+b
+5. Point out the wrong statement.
+a) The principal database in a mirroring session can also act as the primary database in a log shipping
+b) Log Shipping is comparatively tougher than database mirroring for setup
+c) The database log shipping setup needs to be initiated from the principal server using the SQL Server Management Studio wizard
+d) A given database can be mirrored or log shipped; it can also be simultaneously mirrored and log shipped
+b
+6. Which of the following stored procedure is used to add a primary database on primary server?
+a) sp_add_log_shipping_primary_database
+b) sp_add_primary_database
+c) sp_add_log_shipping
+d) sp_add_log_shipping_primary
+a
+7. Execute sp_add_jobschedule to add a schedule for the backup job on _________ server.
+a) primary
+b) secondary
+c) primary and secondary
+d) none of the mentioned
+a
+8. Which of the following is correct syntax for sp_add_log_shipping_secondary_primary?
+a)
+ sp_add_log_shipping_secondary_primary
+ [ @secondary_server = ] 'primary_server',
+b)
+ sp_add_log_shipping_secondary_primary
+ [ @primary_server = ] 'primary_server',
+c)
+ xp_add_log_shipping_secondary_primary
+ [ @primary_server = ] 'primary_server',
+d) All of the mentioned
+b
+9. Which of the following table stores history detail for log shipping jobs?
+a) log_shipping_monitor_alert
+b) log_shipping_monitor_primary
+c) log_shipping_monitor_history_detail
+d) none of the mentioned
+c
+10. _____________  maps primary databases to secondary databases in log shipping.
+a) sp_change_log_shipping_primary_database
+b) log_shipping_primary_databases
+c) log_shipping_primary_secondaries
+d) sp_help_log_shipping_primary_database
+c
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Database Snapshots» Next - SQL Server Questions and Answers – Database Mirroring 

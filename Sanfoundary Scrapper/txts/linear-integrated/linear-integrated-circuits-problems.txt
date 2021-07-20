@@ -1,0 +1,78 @@
+1. Which type of amplifier has output voltage equal to the average of all input voltages?
+a) Inverting averaging amplifier
+b) Non-inverting averaging amplifier
+c) Non-inverting summing amplifier
+d) Inverting scaling amplifier
+b
+2. Expression for output voltage of non-inverting summing amplifier with five input voltage?
+a)  Vo  = 5×( Va + Vb+ Vc+ Vd+ Ve)
+b)  Vo  = [1+( Rf/R1)]× ( Va + Vb+ Vc+ Vd+ Ve)
+c)  Vo = Va + Vb+ Vc+ Vd+ Ve
+d)  Vo  = ( Va + Vb+ Vc+ Vd+ Ve) /5
+c
+Since there are five input voltages => (1+ ( Rf /  R1 )) =5
+Therefore, Vo  = 5×( Va + Vb+ Vc+ Vd+ Ve) /5
+=> Vo =  (Va + Vb+ Vc+ Vd+ Ve). 
+3. Find the value of V1 in the circuit shown below?
+a)  4v
+b)  2v
+c)  3v
+d)  None of the mentioned
+d
+4. If the gain of a non-inverting averaging amplifier is one, determine the input voltages if the output voltage, if the output voltage is 3v?
+a)  V1  =6v ,V2=3v and V3=2v
+b)  V1  =9v ,V2=5v and V3=-4v
+c)  V1  =8v ,V2=-6v and V3=1v
+d)  V1  =7v ,V2=4v and V3=-3v
+d
+∴ sum of input voltage =3×3=9.
+From the given option, the combination of input voltage 7v, 4v and -3v gives the value 9v. 
+5. In the circuit shown, supply voltage = ±15v, Va= +3v , Vb= -4v , Vc= +5v, R= R1= 1kΩ and RF= 2kΩ.  741 op-amp has A=  2×105 and R1= 10kΩ. Determine the output voltage internal resistance of the circuit?
+a)  Vo ≅3v , RiF=6.67MΩ
+b)  Vo ≅3v , RiF= 7MΩ
+c)  Vo ≅3v , RiF=9.2MΩ
+d)  Vo ≅3v , RiF= 3.5MΩ
+a
+Internal resistance of circuit, RiF =R i [A×R1/ (R1+ RF)] = 100Ω×[(200000×1kΩ)/(1kΩ+2kΩ)]
+=> RiF= 6.67 MΩ. 
+6. Find the type of amplifier that cannot be constructed in differential configuration?
+a)  Summing amplifier
+b)  Scaling amplifier
+c)  Averaging amplifier
+d)  Subtractor
+c
+Join Sanfoundry@YouTube
+7. Calculate the output voltage, when a voltage of 12mv is applied to the non-inverting terminal and 7mv is applied to inverting terminal of a subtractor.
+a) 19mv
+b) 5mv
+c) 1.7mv
+d) 8.4mv
+b
+8. Find the differential amplifier configured as a subtractor from the given circuit.
+d
+The output voltage, Vo= -(R/R)×(Va -Vb)
+ Vo= (Va -Vb). Hence the circuit is called as subtractor. 
+9. How many additional sources are connected to each input terminal to obtain an eight input summing amplifier?
+a) Six
+b) Three
+c) Four
+d) Eight
+b
+10. Calculate the output voltage for the summing amplifier given below, where R=2kΩ and RL =10kΩ.
+a) 4v
+b) 18v
+c) 8v
+d) None of the mentioned
+a
+11. The output voltage of a summing amplifier is equal to (assume sum of input voltage as Vn )
+a) Vn (non-inverting terminal)+ Vn (inverting terminal)
+b) Vn (non-inverting terminal)+ (-Vn (inverting terminal)
+c) -Vn (non-inverting terminal)+ (-Vn (inverting terminal)
+d) -Vn (non-inverting terminal)+ Vn (inverting terminal)
+b
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuit Problems, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Summing, Scaling & Averaging Amplifier – 1» Next - Linear Integrated Circuit Questions and Answers – Instrumentation Amplifier – 1 

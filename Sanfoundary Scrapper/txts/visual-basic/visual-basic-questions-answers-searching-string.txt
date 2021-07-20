@@ -1,0 +1,79 @@
+1. To determine whether a string has specific sequence of characters, use _________________
+a) Contains method
+b) Specific method
+c) Sequence method
+d) Check method
+a
+string.Contains(subString)
+string.IndexOf(subString[, startIndex])
+In each syntax, string can be a String variable, a String named constant, or the Text property of a control. When processing the Contains and IndexOf methods, the computer first makes a temporary copy of the string in memory. It then performs the specified search on the copy only.
+2. The ______________ argument in syntax of Contains method represents the sequence of arguments you are searching.
+a) subString
+b) SearchString
+c) String
+d) Seq
+a
+3. The Contains Method returns ______________ value.
+a) Integer
+b) Void
+c) Boolean
+d) String
+c
+4. The Indexof method returns ________________ value.
+a) Integer
+b) Boolean
+c) Void
+d) String
+a
+5. What output will be returned if the following Visual Basic code is executed?
+strCityState = "Nashville, TN"
+blnIsContained = strCityState.Contains("TN")
+a) True
+b) False
+c) 11
+d) 12
+a
+6. What output will be returned if the following Visual Basic code is executed?
+strCityState = "Nashville, TN"
+intCharIndex = strCityState.IndexOf("TN")
+a) True
+b) False
+c) 11
+d) 12
+c
+7. What output will be returned if the following Visual Basic code is executed?
+strCityState = "Nashville, TN"
+blnIsContained = strCityState.Contains("Tn")
+a) True
+b) False
+c) 11
+d) 12
+c
+8. What output will be returned if the following Visual Basic code is executed?
+strCityState = "Nashville, TN"
+intCharIndex = strCityState.IndexOf("Tn")
+a) True
+b) False
+c) 11
+d) -1
+d
+9. ________________ method is used for accessing any number of characters in a String.
+a) Substring
+b) Contains
+c) IndexOf
+d) CharAt
+a
+string.Substring(startIndex[, numCharsToAccess])
+In the syntax, string can be a String variable, a String named constant, or the Text property of a control. When processing the Substring method, the computer first makes a temporary copy of the string in memory. It then accesses the specified number of characters in the copy only. The startIndex argument in the syntax is the index of the first character you want to access in the string’s copy.
+10. _________________ argument in the Substring syntax specifies number of characters you want to access.
+a) numCharToAccess
+b) CharAccess
+c) numAccess
+d) ToAccess
+a
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Working with String» Next - Visual Basic Questions and Answers – Using Pattern Matching to Compare Strings 

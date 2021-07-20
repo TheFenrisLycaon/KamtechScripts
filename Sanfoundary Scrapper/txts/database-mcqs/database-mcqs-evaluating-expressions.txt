@@ -1,0 +1,67 @@
+1. Pictorial representation of an expression is called
+a) Expression tree
+b) Operator tree
+c) Expression flow
+d) Expression chart
+b
+2. The results of each intermediate operation are created and then are used for evaluation of the next-level operations. This is called
+a) Materialized evaluation
+b) Expression evaluation
+c) Tree evaluation
+d) Tree materialization
+a
+3. ______________ allows the algorithm to execute more quickly by performing CPU activity in parallel with I/O activity.
+a) Buffering
+b) Double buffering
+c) Multiple buffering
+d) Double reading
+a
+4. Pipelines can be executed in
+a) 4
+b) 3
+c) 2
+d) 5
+c
+Join Sanfoundry@YouTube
+5. In a _________ the system makes repeated requests for tuples from the operation at the top of the pipeline.
+a) Demand-driven pipeline
+b) Producer-driven pipeline
+c) Demand pipeline
+d) All of the mentioned
+a
+6. In a _____________ operations do not wait for requests to produce tuples, but instead generate the tuples eagerly.
+a) Demand-driven pipeline
+b) Producer-driven pipeline
+c) Demand pipeline
+d) All of the mentioned
+b
+7. Each operation in a demand-driven pipeline can be implemented as an ____ that provides the following functions: open(), next(), and close().
+a) Demand
+b) Pipeline
+c) Iterator
+d) All of the mentioned
+c
+8. The iterator maintains the __________ of its execution in between calls so that successive next() requests receive successive result tuples.
+a) State
+b) Transition
+c) Rate
+d) Block
+a
+9. Tuples are generated ___________ in producer-driven pipelining, they are generated ________ on demand, in demand-driven pipelining.
+a) Lazily, Eagerly
+b) Eagerly, Lazily
+c) Slowly, Eagerly
+d) Eagerly, Slowly
+b
+10. When two inputs that we desire to pipeline into the join are not already sorted it is the _____________ technique.
+a) Hash join
+b) Buffer join
+c) double-pipelined hash join
+d) double-pipelined join
+d
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Join Operations» Next - Database Questions and Answers – Transformation of Relational Expressions 

@@ -1,0 +1,69 @@
+1. Which of the following regular expression resembles the given diagram?
+a) {a}*{b}*{a,b}
+b) {a,b}*{aba}
+c) {a,b}*{bab}
+d) {a,b}*{a}*{b}*
+b
+2. Construct a turing machine which accepts a string with ‘aba’ as its substring.
+a)
+b)
+c)
+d)
+c
+3. The number of states required to automate the last question i.e. {a,b}*{aba}{a,b}* using finite automata:
+a) 4
+b) 3
+c) 5
+d) 6
+a
+4. The machine accept the string by entering into hA or it can:
+a) explicitly reject x by entering into hR
+b) enter into an infinte loop
+c) Both (a) and (b)
+d) None of the mentioned
+c
+a) enter into accept halting state
+b) enter into reject halting state
+c) goes into loop forever
+5. d(q,X)=(r,Y,D) where D cannot be:
+a) L
+b) R
+c) S
+d) None of the mentioned
+c
+6. Which of the following can accept even palindrome over {a,b}
+a) Push down Automata
+b) Turing machine
+c) NDFA
+d) All of the mentioned
+c
+7. Which of the functions can a turing machine not perform?
+a) Copying a string
+b) Deleting a symbol
+c) Accepting a pal
+d) Inserting a symbol
+d
+8. If T1 and T2 are two turing machines. The composite can be represented using the expression:
+a) T1T2
+b) T1 U T2
+c) T1 X T2
+d) None of the mentioned
+a
+9. The following turing machine acts like:
+a) Copies a string
+b) Delete a symbol
+c) Insert a symbol
+d) None of the mentioned
+b
+10. What does the following transition graph shows:
+a) Copies a symbol
+b) Reverses a string
+c) Accepts a pal
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  The Language of Turing Machine-2» Next - Automata Theory Questions and Answers –  Programming Techniques-Storage and Subroutines 

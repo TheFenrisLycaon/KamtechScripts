@@ -1,0 +1,84 @@
+1. What is the following graph if u(t) denotes step function?
+a) u(t+0)
+b) u(t)-u(t-1000)
+c) u(t-0)
+d) u(t)
+b
+2. What is the following graph if u(t) denotes step function and r(t) denotes ramp function?
+a) r(t)
+b) r(t)-r(t-50)-u(t-50)
+c) r(t)-r(t-50)
+d) r(t)-u(t-50)
+b
+3. What does the following code generate?
+p=ones(1,90);
+t=(0:1:89);
+plot(t,p);
+a) A graph of a unit step function
+b) A graph of a pulse function
+c) A graph of a triangular pulse function
+d) An impulse function
+b
+4. What is the following graph, if del(t) represents the impulse function?
+a) del(t)
+b) del(t-100)
+c) del(t+100)
+d) del(t-50)
+b
+5. The convolution of [1 2 1] and [1 2 1] will have the highest amplitude at t= _________
+a) 3 units
+b) 0 units
+c) 1 unit
+d) 2 units
+d
+6. What is the output of the following code?
+a=[1 2 3];
+b=2;
+a.\b;
+a) .5	1	1.5
+b) 2	1	.67
+c) Error
+d) Cannot be determined
+b
+7. What is the output of the following code?
+a=[1 2 3];
+b=2;
+conv(a,b)
+a) 2 4 6
+b) 1 2 3
+c) 0 0 0
+d) 2 3 1
+a
+8. What is the output of the following code?
+T=0:1:9;
+stem(T);
+a) A ramp function
+b) r[n]-r[n-9]-9u[n-9] 
+c) r[n]-r[n-9] 
+d) Error
+b
+9. What is the output of the following code?
+Y=rectpulse(1,9);
+t=0:1:8;
+plot(t,y);
+a) A rectangular pulse extending from 0 to 8 units in time
+b) A rectangular pulse with increasing amplitude
+c) Error
+d) Cannot be determined
+c
+10. What is the output of the following code?
+Y=rectpulse(1,9);
+p=y’;
+t=0:1:9;
+plot(t,p);
+a) u(t)-u(t-9)
+b) u(t) till 9 units in time
+c) Error
+d) Cannot be determined
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Impulse Response – 2» Next - MATLAB Questions and Answers – Operations on Signals – 2 

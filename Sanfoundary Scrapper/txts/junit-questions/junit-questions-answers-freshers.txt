@@ -1,0 +1,67 @@
+1. What are Parameterised tests used for in JUnit?
+a) Run a test many times with different sets of parameters
+b) Run a test with no parameters
+c) Run a test with only String parameters
+d) Run a test once with fixed set of parameters
+a
+2. A parameterised test class must carry which annotation?
+a) @Test
+b) @ParameterisedClass
+c) @Runwith
+d) @Class
+c
+3. The test class must carry the @RunWith annotation with the ______ class as its argument.
+a) Default
+b) Parameterised
+c) Super
+d) Inherited
+b
+4. What will be the outcome for the following piece of code?
+  //The JUnit files are imported	public class TestClass {		@Test		public void testingMethod() {			String message = “Test”;			assertEquals(3,message.length());		}	}
+a) Compilation Error
+b) Runtime Error
+c) Test Ran with Success
+d) Test Ran with Failure
+d
+5. What does the fail() method do in JUnit?
+a) Throws an assertion error unconditionally
+b) Calls the default constructor
+c) Outputs the message “Fail” to the console
+d) Pauses the test for 1 second
+a
+6. Which annotation must be used to define suite classes?
+a) @RunWith
+b) @SuiteClasses
+c) @Suite
+d) @SuiteClass
+b
+7. When is the tearDown() method called in JUnit?
+a) After all the tests have run
+b) At the beginning of every test case
+c) After each test case has run
+d) At the beginning of the first test case
+c
+8. What does the assertTrue(“message”,A) do?
+a) Asserts that the condition A is true
+b) Asserts that “message” = A
+c) Asserts that A contains “message”
+d) Asserts that the condition A is false
+a
+9. How can a method be made to run before the execution of every test case?
+a) Annotate the method with @Before
+b) Prefix the method name with startfirst
+c) Annotate the method with a @BeforeClass
+d) Such a method cannot be made
+a
+10. Which method from TestCase class returns the name of a Test case?
+a) String testCaseName()
+b) String getTest()
+c) String getTestCaseName()
+d) String getName()
+d
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of JUnit for Freshers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Exploring Core JUnit» Next - JUnit Questions and Answers – JUnit Test Runners 

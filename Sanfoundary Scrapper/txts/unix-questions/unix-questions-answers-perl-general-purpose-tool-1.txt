@@ -1,0 +1,132 @@
+1. Which one of the following is the most powerful filter?
+a) awk
+b) grep
+c) sed
+d) perl
+d
+2. A perl program runs in a special interpretive mode.
+a) True
+b) False
+a
+3. To test whether perl is in your PATH, use ____
+a) perl -e
+b) perl -i
+c) perl -el
+d) perl -ed
+a
+$ perl -e ‘print(“perl is present”) ;’
+4. It is often more convenient to save perl program files with ____ extension.
+a) .gp
+b) .sh
+c) .awk
+d) .pl
+d
+5. ___ function is used for removing the last character from the line.
+a) cut
+b) chop
+c) erase
+d) split
+b
+6. perl variables have no type and no initialization.
+a) True
+b) False
+a
+7. When a string is used for numeral computations, perl converts it into ___
+a) character
+b) floating point number
+c) number
+d) boolean value
+c
+8. If a variable is undefined, its value is ____
+a) 0
+b) 1
+c) NULL
+d) garbage
+a
+9. Which of the following are concatenation operators?
+a) /
+b) .
+c) _
+d) \\
+b
+$ perl  -e  '$x="san" ; $y="foundry" ; print($x . $y);'
+sanfoundry
+10. To repeat a string, perl uses ___ operator.
+a) /
+b) .
+c) x
+d) \\
+c
+$ perl  -e  ‘print “*” x 10 ;’
+**********
+11. Which function is used by perl for displaying the length of a string?
+a) string
+b) len
+c) split
+d) length
+d
+$x= “Abdullah”;
+print length($x);       // prints 8
+12. ___ function returns the first occurrence of a character in a string.
+a) string
+b) index
+c) split
+d) length
+b
+$x= “Abdullah”;
+print index($x,u);     // prints 3
+ 
+13. For extracting a substring, ____ function is used.
+a) string
+b) index
+c) substr
+d) length
+c
+$x= “abcdefghijklm”
+$y= substr( $x, -3,2);   // extracts two characters from the third position on the right side
+print “$y”;             // prints kl
+14. substr function is also used to alter an existing string.
+a) True
+b) False
+a
+$x= “abcdijklm”
+substr($x,4,0)= “efgh” ;    // stuff $x with efgh without replacing any charcaters
+print “$x” ;               //$x is now abcdefghijklm
+ 
+15. Which function is used by perl for reversing a string?
+a) rev
+b) reverse
+c) split
+d) substr
+b
+$x= “abcd” ;
+print reverse($x) ;       / prints dcba
+16. Which function is used for handling substitutions in perl?
+a) tr
+b) s
+c) str
+d) tr and s
+d
+17. Which escape character is used for identifying a word character?
+a) \s
+b) \d
+c) \w
+d) \n
+c
+\s - a whitespace character
+\d - a digit
+\w - a word character
+ 
+18. We can use find command for testing files with perl.
+a) True
+b) False
+a
+$x = “abc.txt” ;
+print “File $x is readable\n” if -r $x ;
+ 
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Various Operations using Awk Command – 3» Next - Unix Questions and Answers – perl – A General Purpose Tool – 2 

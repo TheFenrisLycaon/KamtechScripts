@@ -1,0 +1,124 @@
+1. Which of the following creates a virtual relation for storing the query?
+a) Function
+b) View
+c) Procedure
+d) None of the mentioned
+b
+2. Which of the following is the syntax for views where v is view name?
+a) Create view v as “query name”;
+b) Create “query expression” as view;
+c) Create view v as “query expression”;
+d) Create view “query expression”;
+c
+3.
+SELECT course_id
+FROM physics_fall_2009
+WHERE building= ’Watson’;
+Here the tuples are selected from the view.Which one denotes the view.
+a) Course_id
+b) Watson
+c) Building
+d) physics_fall_2009
+c
+4. Materialised views make sure that
+a) View definition is kept stable
+b) View definition is kept up-to-date
+c) View definition is verified for error
+d) View is deleted after specified time
+b
+5. Updating the value of the view
+a) Will affect the relation from which it is defined
+b) Will not change the view definition
+c) Will not affect the relation from which it is defined
+d) Cannot determine
+a
+6. SQL view is said to be updatable (that is, inserts, updates or deletes can be applied on the view) if which of the following conditions are satisfied by the query defining the view?
+a) The from clause has only one database relation
+b) The query does not have a group by or having clause
+c) The select clause contains only attribute names of the relation and does not have any expressions, aggregates, or distinct specification
+d) All of the mentioned
+d
+7. Which of the following is used at the end of the view to reject the tuples which do not satisfy the condition in where clause?
+a) With
+b) Check
+c) With check
+d) All of the mentioned
+c
+8. Consider the two relations instructor and department
+Instructor:
+ID
+Name
+Dept_name
+Salary
+1001
+Ted
+Finance
+10000
+1002
+Bob
+Music
+20000
+1003
+Ron
+Physics
+50000
+Department:
+Dept_name
+Building
+Budget
+Biology
+Watson
+40000
+Chemistry
+Painter
+30000
+Music
+Taylor
+50000
+Which of the following is used to create view for these relations together?
+a)
+CREATE VIEW instructor_info AS
+SELECT ID, name, building
+FROM instructor, department
+WHERE instructor.dept name= department.dept name;
+b)
+CREATE VIEW instructor_info 
+SELECT ID, name, building
+FROM instructor, department;
+c)
+CREATE VIEW instructor_info AS
+SELECT ID, name, building
+FROM instructor;
+d)
+CREATE VIEW instructor_info AS
+SELECT ID, name, building
+FROM department;
+a
+  
+9. For the view Create view instructor_info as
+                SELECT ID, name, building
+                FROM instructor, department
+                WHERE instructor.dept name= department.dept name;
+If we insert tuple into the view as insert into instructor info values (’69987’, ’White’, ’Taylor’);
+What will be the values of the other attributes in instructor and department relations?
+a) Default value
+b) Null
+c) Error statement
+d) 0
+b
+10.
+CREATE VIEW faculty AS
+    SELECT ID, name, dept name
+    FROM instructor;
+Find the error in this query.
+a) Instructor
+b) Select
+c) View …as
+d) None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Join Expressions» Next - Database Questions and Answers – Transactions 

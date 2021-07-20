@@ -1,0 +1,87 @@
+This section on online C++ quiz focuses on “Design of Class Hierarchies”. One shall practice these online quizzes to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ quiz comes with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of online C++ quiz on “Design of Class Hierarchies” along with answers, explanations and/or solutions:
+1. Which interface determines how your class will be used by another program?
+a) public
+b) private
+c) protected
+d) void
+a
+2. Pick out the correct statement about the override.
+a) Overriding refers to a derived class function that has the same name and signature as a base class virtual function
+b) Overriding has different names
+c) Overriding refers to a derived class
+d) Overriding has different names & it refers to a derived class
+a
+3. How many ways of reusing are there in the class hierarchy?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+4. How many types of class are there in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class BaseClass     {        int i;        public:        void setInt(int n);        int getInt();    };    class DerivedClass : public BaseClass    {        int j;        public:        void setJ(int n);        int mul();    };    void BaseClass::setInt(int n)    {        i = n;    }    int BaseClass::getInt()    {        return i;    }    void DerivedClass::setJ(int n)    {        j = n;    }    int DerivedClass::mul()    {        return j * getInt();    }    int main()    {        DerivedClass ob;        ob.setInt(10);               ob.setJ(4);                  cout << ob.mul();            return 0;    }
+a) 10
+b) 4
+c) 40
+d) 30
+c
+Output:
+$ g++ des.cpp
+$ a.out
+40
+6. Pick out the correct statement about multiple inheritances.
+a) Deriving a class from one direct base class
+b) Deriving a class from more than one direct base class
+c) Deriving a class from more than one direct derived class
+d) Deriving a class from more than one direct derivedbase class
+b
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class BaseClass     {        int x;        public:        void setx(int n)         {            x = n;        }        void showx()         {            cout << x ;        }    };    class DerivedClass : private BaseClass    {        int y;        public:        void setxy(int n, int m)        {            setx(n);                  y = m;        }        void showxy()         {            showx();                   cout << y << '\n';        }    };    int main()    {        DerivedClass ob;        ob.setxy(10, 20);        ob.showxy();        return 0;    }
+a) 10
+b) 20
+c) 1020
+d) 1120
+c
+Output:
+$ g++ des2.cpp
+$ a.out
+1020
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class BaseClass     {        public:        virtual void myFunction()        {            cout << "1";        }    };    class DerivedClass1 : public BaseClass     {        public:        void myFunction()        {            cout << "2";        }    };   class DerivedClass2 : public DerivedClass1     {        public:        void myFunction()        {            cout << "3";        }    };    int main()    {        BaseClass *p;        BaseClass ob;        DerivedClass1 derivedObject1;        DerivedClass2 derivedObject2;        p = &ob;        p -> myFunction();        p = &derivedObject1;        p -> myFunction();        p = &derivedObject2;        p -> myFunction();        return 0;    }
+a) 123
+b) 12
+c) 213
+d) 321
+a
+Output:
+$ g++ des3.cpp
+$ a.out
+123
+9. What does inheritance allow you to do?
+a) create a class
+b) create a hierarchy of classes
+c) access methods
+d) create a method
+b
+10. What is the syntax of inheritance of class?
+a) class name
+b) class name: access specifier
+c) class name: access specifier class name
+d) access specifier class name
+c
+class Class_Name: Access_Specifier Base_Class_Name
+example:
+class A{};
+class B: public A{};
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Abstract Classes – 2» Next - C++ Programming Questions and Answers – Class Hierarchies and Abstract Classes 

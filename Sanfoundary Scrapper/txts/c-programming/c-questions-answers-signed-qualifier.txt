@@ -1,0 +1,90 @@
+1. In a signed integer, the sign is represented by ___________
+a) Least significant bit
+b) Most significant bit
+c) System dependent
+d) The mean of the most significant bit and the least significant bit
+b
+2. Sign qualifiers can be applied to double.
+a) True
+b) False
+b
+3. What will be the output of the following C code?
+#include<stdio.h>
+int main()
+{
+    signed char ch= ‘a’;
+    printf(“%u”,ch);
+    return 0;
+}
+a) -65
+b) 65
+c) -97
+d) 97
+d
+4. What will be the output of the following C code?
+#include<stdio.h>
+main()
+{
+    signed char a[]= “BAT”;
+    printf(“%c”, a[1]);
+    return 0;
+}
+a) -A
+b) BAT
+c) A
+d) 65
+c
+5. What is the default state of an integer in c language?
+a) Signed
+b) Unsigned
+c) System dependent
+d) There is no default state
+a
+6. Suppose we have:  int a=100; (signed by default).
+ If we want to convert this to an unsigned long integer, we can do this by making the following small change:
+a) int a=lu100;
+b) int a= 100ul;
+c) int a=uu100;
+d) int a=100uu;
+b
+7. What is the binary representation of the integer -14?
+a) 11110
+b) 01110
+c) 01100
+d) 11100
+a
+8. Which of the following header files must necessarily be included in your code, if you want to find the minimum value of unsigned short integer?
+a) stdio.h
+b) stdlib.h
+c) limits.h
+d) math.h
+c
+9. What will be the error in the following C code?
+main()
+{
+    long float a=-25.373e22;
+    printf("%lf",a);
+}
+a) Negative number cannot be assigned to float data type
+b) Long and float cannot be used together
+c) Does not result in error
+d) Logical error
+b
+10. What will be the output of the following C code?
+main()
+{
+    unsigned a=10;
+    long unsigned b=5l;
+    printf(“%lu%u”,a,b);
+}
+a) 105
+b) 510
+c) 10
+d) error
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Recursion 

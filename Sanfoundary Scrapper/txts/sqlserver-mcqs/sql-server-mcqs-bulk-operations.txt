@@ -1,0 +1,66 @@
+1. Which of the following operation cannot be performed in bulk?
+a) Copy
+b) Insert
+c) Import
+d) All of the mentioned
+d
+2. Point out the correct statement.
+a) Bulk Copy is mainly used to transfer the data from outside world to SQL Server
+b) Bulk Insert is mainly used to transfer the data from outside world to SQL Server
+c) Bulk Import is mainly to transfer the data from outside world to SYBASE
+d) None of the mentioned
+b
+3. Under the _______ recovery model, all bulk operations are fully logged.
+a) Simple
+b) Partial
+c) Full
+d) All of the mentioned
+c
+4. Which of the following is a bulk import operation?
+a) BULK INSERT
+b) INSERT..SELECT
+c) bcp
+d) All of the mentioned
+d
+5. Point out the wrong statement.
+a) In Bulk-logged recovery model, few transactions are completely logged
+b) The operations that are minimally logged in this recovery model are bulk insert, create index,  “bcp” commands, insertion of text , image column and select into query
+c) Backups under BULK_LOGGED recovery model will include log records and the data pages changed by bulk operations
+d) None of the mentioned
+a
+6. Which of the following utility supports bulk exports and bulk imports data and generates format files?
+a) icp utility
+b) bcp utility
+c) dcp utility
+d) all of the mentioned
+b
+7. ___________ does not allow bulk export operation  in SQL Server.
+a) INSERT … SELECT
+b) DELETE
+c) UPDATE
+d) None of the mentioned
+a
+8. Which of the following performance considerations are regarding bulk operations?
+a) Column locking
+b) Batch switches
+c) Constraint checking of NULL constraints
+d) All of the mentioned
+b
+9. ________  parameter specifies the number of rows in a batch in bulk insert script.
+a) KEEPNULLS
+b) KEEPIDENTITY
+c) FIRE_TRIGGERS
+d) None of the mentioned
+d
+10. Which is the default field terminator for bulk insert in SQL Server?
+a) Comma
+b) Full stop
+c) Parenthesis
+d) Brackets
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – SQL Injection» Next - SQL Server Questions and Answers – Distributed Queries 

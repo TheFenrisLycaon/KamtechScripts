@@ -1,0 +1,63 @@
+1. Which of the following sets the size of the buffer used in ufuncs?
+a) bufsize(size)
+b) setsize(size)
+c) setbufsize(size)
+d) all of the mentioned
+c
+2. Point out the wrong statement.
+a) A universal function is a function that operates on ndarrays in an element-by-element fashion
+b) In Numpy, universal functions are instances of the numpy.ufunction class
+c) Many of the built-in functions are implemented in compiled C code
+d) All of the mentioned
+b
+3. Which of the following attribute should be used while checking for type combination input and output?
+a) .types
+b) .type
+c) .class
+d) all of the mentioned
+a
+4. Which of the following returns an array of ones with the same shape and type as a given array?
+a) all_like
+b) ones_like
+c) one_alike
+d) all of the mentioned
+b
+5. Point out the wrong statement.
+a) Each universal function takes array inputs and produces array outputs
+b) Broadcasting is used throughout NumPy to decide how to handle disparately shaped arrays
+c) The output of the ufunc is necessarily an ndarray, if all input arguments are ndarrays
+d) All of the mentioned
+c
+6. Which of the following set the floating-point error callback function or log object?
+a) setter
+b) settercall
+c) setterstack
+d) all of the mentioned
+b
+7. Some ufuncs can take output arguments.
+a) True
+b) False
+b
+8. ___________ decompose the elements of x into mantissa and twos exponent.
+a) trunc
+b) fmod
+c) frexp
+d) ldexp
+c
+9. Which of the following function take only single value as input?
+a) iscomplex
+b) minimum
+c) fmin
+d) all of the mentioned
+a
+10. The array object returned by __array_prepare__ is passed to the ufunc for computation.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Data Science.
+Here’s the list of Best Reference Books in Data Science.
+To practice all areas of Data Science for online test, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Science Questions and Answers – NumPy – 1 

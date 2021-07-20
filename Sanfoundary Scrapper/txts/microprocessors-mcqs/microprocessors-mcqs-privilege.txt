@@ -1,0 +1,91 @@
+1. By using privilege mechanism the protection from unauthorized accesses is done to
+a) operating system
+b) interrupt handlers
+c) system software
+d) all of the mentioned
+d
+2. The task privilege level at the instant of execution is called
+a) Descriptor privilege level (DPL)
+b) Current privilege level (CPL)
+c) Effective privilege level (EPL)
+d) None of the mentioned
+b
+3. Once the CPL is selected, it can be changed by
+a) hold
+b) transferring control using system descriptors
+c) transferring control using gate descriptors
+d) transferring control using interrupt descriptors
+c
+4. The data segments defined in GDT (global descriptor table) and the LDT (local descriptor table) can be accessed by a task with
+a) privilege level 0
+b) privilege level 1
+c) privilege level 2
+d) privilege level 3
+a
+5. A task with privilege level 0, doesn’t refer to all the lower level privilege descriptors in
+a) GDT (global descriptor table)
+b) LDT (local descriptor table)
+c) IDT (interrupt descriptor table)
+d) None of the mentioned
+b
+6. The selector RPL that uses a less trusted privilege than the current privilege level for further use is known as
+a) Least task privilege level
+b) Descriptor privilege level
+c) Effective privilege level
+d) None of the mentioned
+c
+7. The effective privilege level is
+a) maximum numeric of RPL and CPL
+b) minimum privilege of RPL and CPL
+c) numeric minimum and privilege maximum of RPL and CPL
+d) none of the mentioned
+c
+8. The task requesting an access to a descriptor is allowed to access after checking the
+a) type of descriptor
+b) privilege level
+c) type of descriptor and privilege level
+d) corresponding segment
+c
+9. A CALL instruction can reference only a code segment descriptor with
+a) DPL less privilege than CPL
+b) DPL equal privilege to CPL
+c) DPL greater privilege than CPL
+d) All of the mentioned
+b
+10. The RPL of a selector that referred to the code descriptor must have
+a) less privilege than CPL
+b) greater privilege than CPL
+c) equal privilege than CPL
+d) any privilege regarding CPL
+c
+11. The instruction that refers to only code segment descriptors with DPL equal to or less than the task CPL is
+a) CALL
+b) IRET
+c) ESC
+d) RET and IRET
+d
+12. When a JUMP instruction references a Task State Segment(TSS) descriptor, then DPL must be
+a) equally privileged as CPL
+b) greater or equally privileged than CPL
+c) less or equally privileged than CPL
+d) less privileged than CPL
+c
+13. The data segment access refers to
+a) loading DS
+b) loading ES
+c) loading SS
+d) all of the mentioned
+d
+14. An exception is generated when
+a) privilege test is negative
+b) an improper segment is referenced
+c) referenced segment is not present in physical memory
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Protected Virtual Address Mode (PVAM) -2» Next - Microprocessors Questions and Answers – Protection 

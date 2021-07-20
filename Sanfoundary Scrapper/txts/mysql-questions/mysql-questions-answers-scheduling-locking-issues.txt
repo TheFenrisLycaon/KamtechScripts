@@ -1,0 +1,67 @@
+1. Which of these has higher priority?
+writes, reads
+a) writes
+b) reads
+c) same priority
+d) machine dependent
+a
+2. How many of the following implement the default scheduling property of MySQL?
+MyISAM, MERGE, MEMORY
+a) 0
+b) 1
+c) 2
+d) 3
+d
+3. Which statement issues a lock on tables?
+a) ISSUE LOCK
+b) LOCK ISSUE
+c) LOCK TABLES
+d) ISSUE LOCKS
+c
+4. Reading from a table does not change it.
+a) True
+b) False
+a
+5. To how many of these does the LOW_PRIORITY modifier apply to?
+DELETE, INSERT, LOAD DATA, REPLACE
+a) 1
+b) 2
+c) 3
+d) 4
+d
+6. The number of tables among the following for which HIGH_PRIORITY have an effect are _________________
+MyISAM, MEMORY, MERGE
+a) 0
+b) 1
+c) 2
+d) 3
+d
+7. The number of tables for which DELAYED works is _________________
+MyISAM, MEMORY, ARCHIVE, BLACKHOLE
+a) 1
+b) 2
+c) 3
+d) 4
+d
+8. Find the odd one out in terms of scheduling policies.
+a) MyISAM
+b) InnoDB
+c) MEMORY
+d) MERGE
+b
+9. The use of table level locks is always useful in MyISAM tables.
+a) True
+b) False
+b
+10. Which table is preferred when there are many updates?
+a) MyISAM
+b) InnoDB
+c) MEMORY
+d) MERGE
+b
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Loading Data Efficiently» Next - MySQL Questions and Answers – Administrative-Level Optimizations 

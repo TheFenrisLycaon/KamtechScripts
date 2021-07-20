@@ -1,0 +1,137 @@
+1. Which of the following statement is correct?
+a) Structure in C allows Constructor definition
+b) Structure in C++ allows Constructor definition
+c) Both allow Constructor definition
+d) C allows constructor definition while C++ does not
+b
+2. What happens if the following code is compiled on both C and C++?
+#include<stdio.h>
+struct STRUCT
+{
+private:
+	int a;
+};
+int main()
+{
+	printf("%d\n", (int)sizeof(struct STRUCT));
+	return 0;
+}
+a) The program runs fine and both prints output “HELLO THIS IS STRUCTURE”
+b) The program gives an error in case of C but runs perfectly in case of C++
+c) The program gives an error in case of C++ but runs perfectly in case of C
+d) The program gives an error in case of both C and C++
+b
+3. Which of the following is correct about this pointer in C++?
+a) this pointer is passed as a hidden argument in all the functions of a class
+b) this pointer is passed as a hidden argument in all non-static functions of a class
+c) this pointer is passed as a hidden argument in all static functions of a class
+d) this pointer is passed as a hidden argument in all static variables of a class
+b
+4. Which of the following operator is used with this pointer to access members of a class?
+a) .
+b) !
+c) ->
+d) ~
+c
+5. Why this pointer is used?
+a) To access the members of a class which have the same name as local variables in that scope
+b) To access all the data stored under that class
+c) To access objects of other class
+d) To access objects of other variables
+a
+6. How many types of polymorphism are there?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+7. What is the other name of compile-time polymorphism?
+a) Static polymorphism
+b) Dynamic polymorphism
+c) Executing polymorphism
+d) Non-executing polymorphism
+a
+8. What is the other name of run-time polymorphism?
+a) Static polymorphism
+b) Dynamic polymorphism
+c) Executing polymorphism
+d) Non-executing polymorphism
+b
+9. Which of the following is correct about static polymorphism?
+a) In static polymorphism, the conflict between the function call is resolved during the compile time
+b) In static polymorphism, the conflict between the function call is resolved during the run time
+c) In static polymorphism, the conflict between the function call is never resolved during the execution of a program
+d) In static polymorphism, the conflict between the function call is resolved only if it required
+a
+10. Which of the following is correct about dynamic polymorphism?
+a) In dynamic polymorphism, the conflict between the function call is resolved during the compile time
+b) In dynamic polymorphism, the conflict between the function call is resolved during the run time
+c) In dynamic polymorphism, the conflict between the function call is never resolved during the execution of the program
+d) In dynamic polymorphism, the conflict between the function call is resolved at the beginning of the program
+b
+11. Which of the following operator(s) can be used with pointers?
+i) – only
+ii) +, *
+iii) +, –
+iv) +, -, *
+v) /
+vi) + only
+a) i only
+b) vi only
+c) ii and v
+d) iv
+a
+12. What is std in C++?
+a) std is a standard class in C++
+b) std is a standard namespace in C++
+c) std is a standard header file in C++
+d) std is a standard file reading header in C++
+b
+13. What will be the output of the following C++ code?
+#include <iostream>
+ 
+int main(int argc, char const *argv[])
+{
+	cout<<"Hello World";
+	return 0;
+}
+a) Hello World
+b) Compile-time error
+c) Run-time error
+d) Segmentation fault
+b
+14. Which of the following syntax can be used to use a member of a namespace without including that namespace?
+a) namespace::member
+b) namespace->member
+c) namespace.member
+d) namespace~member
+a
+15. Which of the following C++ code will give error on compilation?
+================code 1=================
+#include <iostream>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	cout<<"Hello World";
+	return 0;
+}
+========================================
+================code 2=================
+#include <iostream>
+int main(int argc, char const *argv[])
+{
+	std::cout<<"Hello World";
+	return 0;
+}
+========================================
+a) Both code 1 and code 2
+b) Code 1 only
+c) Code 2 only
+d) Neither code 1 nor code 2
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – C++ Concepts – 2» Next - C++ Programming Questions and Answers – Static Constant Keyword 

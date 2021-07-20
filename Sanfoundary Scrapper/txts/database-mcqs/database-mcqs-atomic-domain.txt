@@ -1,0 +1,70 @@
+1. A domain is ______ if elements of the domain are considered to be indivisible units.
+a) Atomic
+b) Subatomic
+c) Substructure
+d) Subset
+a
+2. Identify the composite attributes
+a) Salary
+b) Credits
+c) Section_id
+d) None of the mentioned
+d
+3. Consider the relation given below and ind the maximum normal form applicable to them
+i. R(A, B) WITH productions { A --> B }
+ii. R(A, B) WITH productions  { B --> A }
+iii. R(A, B) WITH productions {A —> B, B --> A }
+iv.  R(A, B, C) WITH productions {A -->B, B --> A, AB --> C }
+a) i, ii and iii are in 3NF and iv is in BCNF
+b) i and ii are in BCNF and iii and iv are in 3NF
+c) All are in 3NF
+d) All are in BCNF
+d
+4. Which one is based on multi-valued dependency:
+a) First
+b) Second
+c) Third
+d) Fourth
+d
+5. If a relation is in BCNF, then it is also in
+a) 1 NF
+b) 2 NF
+c) 3 NF
+d) All of the mentioned
+d
+6. If every non-key attribute is functionally dependent primary key, then the relation will be in
+a) First normal form
+b) Second normal form
+c) Third form
+d) Fourth normal form
+b
+7. If an attribute of a composite key is dependent on an attribute of the other composite key, a normalization  called _____ is needed.
+a) DKNF
+b) BCNF
+c) Fourth
+d) Third
+b
+8. The term for information that describes what type of data is available in a database is:
+a) Data dictionary
+b) data repository
+c) Index data
+d) Metadata
+d
+9. A data type that creates unique numbers for key columns in Microsoft Access is:
+a) Autonumber
+b) Boolean
+c) Sequential key
+d) Sequential number
+a
+10. A dependency exist between two columns when
+a) Together they constitute a composite key for the table
+b) Knowing the value in one column determines the value stored in another column
+c) The table is in 3NF
+d) Together they constitute a foreign key
+a
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Querying database part-2 DML» Next - Database Questions & Answers – Normal Forms 

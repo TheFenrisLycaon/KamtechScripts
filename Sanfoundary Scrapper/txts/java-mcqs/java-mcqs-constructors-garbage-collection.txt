@@ -1,0 +1,82 @@
+1. What is the return type of Constructors?
+a) int
+b) float
+c) void
+d) none of the mentioned
+d
+2. Which keyword is used by the method to refer to the object that invoked it?
+a) import
+b) catch
+c) abstract
+d) this
+d
+3. Which of the following is a method having same name as that of its class?
+a) finalize
+b) delete
+c) class
+d) constructor
+d
+4. Which operator is used by Java run time implementations to free the memory of an object when it is no longer needed?
+a) delete
+b) free
+c) new
+d) none of the mentioned
+d
+5. Which function is used to  perform some action when the object is to be destroyed?
+a) finalize()
+b) delete()
+c) main()
+d) none of the mentioned
+a
+6. What will be the output of the following Java code?
+    class box     {        int width;        int height;        int length;        int volume;        box()         {            width = 5;            height = 5;            length = 6;        }        void volume()         {             volume = width*height*length;        }     }        class constructor_output     {        public static void main(String args[])        {            box obj = new box();            obj.volume();            System.out.println(obj.volume);        }   }
+a) 100
+b) 150
+c) 200
+d) 250
+b
+output:
+$ constructor_output.java
+$ constructor_output
+150
+7. What will be the output of the following Java code?
+class San{     San()throws IOException     {      }  }class Foundry extends San{     Foundry()     {      }     public static void main(String[]args)     {      }}
+a) compile time error
+b) run time error
+c) compile and runs fine
+d) unreported exception java.io.IOException in default constructor
+a
+8. What will be the output of the following Java code?
+    class box     {        int width;        int height;        int length;        int volume;        void finalize()         {            volume = width*height*length;            System.out.println(volume);        }        protected void volume()        {            volume = width*height*length;            System.out.println(volume);       }     }        class Output     {         public static void main(String args[])        {            box obj = new box();            obj.width=5;            obj.height=5;            obj.length=6;            obj.volume();        }     }
+a) 150
+b) 200
+c) Run time error
+d) Compilation error
+a
+output:
+$ javac Output.java
+$ java Output
+150
+9. Which of the following statements are incorrect?
+a) default constructor is called at the time of object declaration
+b) constructor can be parameterized
+c) finalize() method is called when a object goes out of scope and is no longer needed
+d) finalize() method must be declared protected
+c
+10. What will be the output of the following Java code?
+    class area     {        int width;        int length;        int area;        void area(int width, int length)         {            this.width = width;            this.length = length;        }     }        class Output     {        public static void main(String args[])        {            area obj = new area();            obj.area(5 , 6);            System.out.println(obj.length + " " + obj.width);                }     }
+a) 0 0
+b) 5 6
+c) 6 5
+d) 5 5
+c
+output:
+$ javac Output.java
+$ java Output
+6 5
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Introduction To Methods» Next - Java Questions & Answers – Constructor 

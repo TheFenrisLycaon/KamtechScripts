@@ -1,0 +1,83 @@
+1. Which of these keywords is used to define packages in Java?
+a) pkg
+b) Pkg
+c) package
+d) Package
+c
+2. Which of these is a mechanism for naming and visibility control of a class and its content?
+a) Object
+b) Packages
+c) Interfaces
+d) None of the Mentioned.
+b
+3. Which of this access specifies can be used for a class so that its members can be accessed by a different class in the same package?
+a) Public
+b) Protected
+c) No Modifier
+d) All of the mentioned
+d
+4. Which of these access specifiers can be used for a class so that its members can be accessed by a different class in the different package?
+a) Public
+b) Protected
+c) Private
+d) No Modifier
+a
+5. Which of the following is the correct way of importing an entire package ‘pkg’?
+a) import pkg.
+b) Import pkg.
+c) import pkg.*
+d) Import pkg.*
+c
+6. Which of the following is an incorrect statement about packages?
+a) Package defines a namespace in which classes are stored
+b) A package can contain other package within it
+c) Java uses file system directories to store packages
+d) A package can be renamed without renaming the directory in which the classes are stored
+d
+7. Which of the following package stores all the standard java classes?
+a) lang
+b) java
+c) util
+d) java.packages
+b
+8. What will be the output of the following Java program?
+    package pkg;    class display     {        int x;        void show()         {            if (x > 1)                System.out.print(x + " ");        }    }    class packages     {        public static void main(String args[])         {            display[] arr=new display[3];            for(int i=0;i<3;i++)                arr[i]=new display();            arr[0].x = 0;                  arr[1].x = 1;            arr[2].x = 2;            for (int i = 0; i < 3; ++i)                arr[i].show();         }    }
+Note : packages.class file is in directory pkg;
+a) 0
+b) 1
+c) 2
+d) 0 1 2
+c
+Output:
+$ javac packages.java
+$ java packages
+2
+9. What will be the output of the following Java program?
+    package pkg;    class output     {        public static void main(String args[])        {             StringBuffer s1 = new StringBuffer("Hello");            s1.setCharAt(1, x);            System.out.println(s1);        }    }
+a) xello
+b) xxxxx
+c) Hxllo
+d) Hexlo
+c
+Output:
+$ javac output.java
+$ java output
+Hxllo
+10. What will be the output of the following Java program?
+    package pkg;    class output     {        public static void main(String args[])        {            StringBuffer s1 = new StringBuffer("Hello World");            s1.insert(6 , "Good ");            System.out.println(s1);        }   }
+Note : Output.class file is not in directory pkg.
+a) HelloGoodWorld
+b) HellGoodoWorld
+c) Compilation error
+d) Runtime error
+d
+output:
+$ javac output.java
+$ java output 
+can not find file output.class
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Observable & Timer Class» Next - Java Questions & Answers – Interfaces – 1 

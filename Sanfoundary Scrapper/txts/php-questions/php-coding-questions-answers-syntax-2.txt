@@ -1,0 +1,80 @@
+1. What will be the output of the following PHP code?
+<?php/*echo "Hello world";*/?>
+a) Hello world
+b) Nothing
+c) Error
+d) 
+/*
+Hello world
+*/
+b
+  
+2. What will be the output of the following PHP code?
+<?php$color = red;echo "$color" . red ;?>
+a) red red
+b) red
+c) error
+d) nothing
+c
+3. What will be the output of the following PHP code?
+<?php$color1 = red;$color2 = green;echo "$color1"."$color2";?>
+a) red green
+b) red
+c) green
+d) error
+d
+4. What will be the output of the following PHP code?
+<?php$color = "red";$color = "green";echo "$color";?>
+a) red
+b) green
+c) red green
+d) error
+b
+5. What will be the output of the following PHP code?
+<?php$color1 = "red";$color2 = "green";echo "$color1" . "$color2";?>
+a) red
+b) green
+c) red green
+d) redgreen
+d
+6. What will be the output of the following PHP code?
+<?php$color1 = "red";$color2 = "green";echo "$color1" + "$color2";?>
+a) redgreen
+b) red green
+c) 0
+d) error
+c
+7. What will be the output of the following PHP code?
+<?php$color1 = "red";$color2 = "red";echo "$color1" + "$color2";?>
+a) redgreen
+b) red green
+c) 0
+d) 1
+c
+8. What will be the output of the following PHP code?
+<?php$color1 = "red";$color2 = "1";echo "$color1" + "$color2";?>
+a) red1
+b) red 1
+c) 0
+d) 1
+d
+9. What will be the output of the following PHP code?
+<?php$color1 = "1";$color2 = "1";echo "$color1" + "$color2";?>
+a) 11
+b) 2
+c) 0
+d) 1
+b
+10. What will be the output of the following PHP code?
+<?php$color1 = "red";$color2 = "1";$color3 = "grey"echo "$color1" + "$color2" . "$color3";?>
+a) 1grey
+b) grey
+c) 0
+d) red1grey
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Syntax – 1» Next - PHP Coding Questions and Answers – Variables – 1 

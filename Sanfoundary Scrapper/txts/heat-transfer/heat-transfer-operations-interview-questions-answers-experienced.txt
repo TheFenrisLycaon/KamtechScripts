@@ -1,0 +1,85 @@
+1. If UD = Overall Dirt Heat Transfer coefficient and Uc = Overall Clean Heat Transfer coefficient, then which of the following relation is correct?
+a) UD > Uc
+b) UD < Uc
+c) UD = Uc
+d) UD >> Uc
+b
+2. Our design dirt factor should be _____ the provided threshold dirt factor.
+a) Less than
+b) More than
+c) Equal to
+d) Much less than
+b
+3. We have a fluid of dirt factor 0.0035 which we want to use in our operation. Then during design considerations, we find that for our design the dirt factor is not applicable, this value of the dirt factor can be ________
+a) 0.00035
+b) 0.0035
+c) 0.0045
+d) 0.0055
+a
+4. We have a fluid of dirt factor 0.00035 which we want to use in our operation. During design calculations we find the dirt factor to be less than that of the fluid, we pass the setup for industrial use.
+a) True
+b) False
+b
+5. If we desire to use a fluid with high pressure operation, we prefer to keep it in the tube side.
+a) True
+b) False
+a
+6. For the calculation of Friction Factor on the Shell side, which one of the following is the correct formula?
+a) F = 0.0035+ \(\frac{0.264}{Re^{0.42}} \) 
+b) F = 0.0027+ \(\frac{0.264}{Re^{0.42}} \) 
+c) F = 0.0035+ \(\frac{0.42}{Re^{0.264}} \) 
+d) F = 0.0027+ \(\frac{0.42}{Re^{0.264}} \) 
+a
+7. Consider we have a 2-4 Shell and Tube Heat Exchanger, with the inner tube of Outer diameter 20mm (thickness 2mm) and shell of inner diameter 100mm. We have two fluids A & B, both of density 990 Kg/m3, we desire to have their flow rates as 15m/s(tube) and 21 m/s(shell) respectively, friction factor of 0.00096 and length of the tube as 1m. What is the value of Frictional Head Loss for the inner tube?
+a) 24.6 m
+b) 27.6 m
+c) 2.76 m
+d) 2.46 m
+c
+8. Consider we have a 2-4 Shell and Tube Heat Exchanger, with the inner tube of Outer diameter 20mm (thickness 2mm) and Shell of inner diameter 100mm. We have two fluids A & B, both of density 990 Kg/m3, we desire to have their flow rates as 15 m/s(tube) and 21 m/s(shell) respectively, friction factor of 0.00096 and 2 tubes of length 0.4 m. What is the value of Pressure drop for the inner tube due to frictional losses?
+a) 10.67KPa
+b) 20KPa
+c) 25KPa
+d) 24KPa
+a
+9. What is the Pressure drop equivalent for 7 tube passes?
+a) 50ρ \(\frac{v^2}{2}\) 
+b) 28ρ \(\frac{v^2}{2}\) 
+c) 20\(\frac{v^2}{2}\) 
+d) 7\(\frac{v^2}{2}\) 
+b
+10. Consider we have a 2-4Shell and Tube Heat Exchanger, with the inner tube of Outer diameter 20mm (thickness 2mm) and shell of inner diameter 100mm. We have two fluids A & B, both of density 990 Kg/m3, we desire to have their flow rates as 15 m/s and 21 m/s respectively, friction factor of 0.00096 and 4 tube of length 0.4 m and 2shell passes. If the maximum pressure drop allowed on shell side is 10atm, is the setup suitable for industrial use?
+a) No, since pressure drop is less than specified
+b) Yes, since pressure drop is less than specified
+c) No, since pressure drop is more than specified
+d) Yes, since pressure drop is more than specified
+c
+11. In the calculation of Reynold’s Number for the Friction factor of the shell, which is the correct formula for equivalent diameter De?
+a) \(\frac{4×(D_{oi}^2 – D_{io}^2)×\frac{π}{4}}{π(D_{io})}\) 
+b) \(\frac{4×(D_{io}^2 – D_{oi}^2)×\frac{π}{4}}{π(D_{io})}\) 
+c) Depends on the pitch
+d) \(\frac{4×(D_{io}^2 – D_{oi}^2)×\frac{π}{4}}{π(D_{io}+D_{oi})}\) 
+c
+12. Consider we have a shell and tube Heat Exchanger, with the inner tube of diameter 30mm (neglect thickness) and shell of diameter 100mm. We have two fluids A & B (both with viscosity 2.5×10-5Pa-s), we desire to have their flow rates as 4 Kg/s(tube) and 5.3 Kg/s(shell) respectively. What is the Friction Factor (F) for this setup for the shell if it has triangular pitch with Pitch = 40mm?
+a) 0.0086
+b) 0.0103
+c) 0.086
+d) 0.00103
+b
+D=\(\frac{4(\frac{0.86}{2}Pt^2-\frac{\frac{π}{2}OD^2}{4})}{\frac{π}{2}OD} = \frac{4(\frac{0.86}{2}40^2-\frac{\frac{1}{2}30^2}{4})}{\frac{1}{2}π30}\) 
+We have Re = GD/µ, where D = 28.43 mm, hence
+Re = 5.3×(28.43)×10-3/(2.5×10-5) = 6027.
+Now the friction factor F can be calculated by F = 0.0035+ \(\frac{0.264}{Re^{0.42}}\)  = 0.0103.
+13. If there are N shell passes in a shell and tube HE, then which one of the following relation is correct foe the pressure drop a shell side?
+a) \((\frac{FL}{D}+4×N)\frac{v^2ρ}{2}\) 
+b) \((\frac{FL}{D}+N)\frac{v^2ρ}{2}\) 
+c) \((\frac{4FL}{D}+N)\frac{v^2ρ}{2}\) 
+d) \((\frac{4FL}{D}+4×N)\frac{v^2ρ}{2}\) 
+a
+ΔP = \((\frac{FL}{D}+4×N)\frac{v^2ρ}{2}\), which is different from that double pipe heat exchanger when it comes to return losses.
+Sanfoundry Global Education & Learning Series – Heat Transfer Operations.
+To practice all areas of Heat Transfer Operations for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Heat Transfer Operations Questions and Answers – Tube Heat Exchangers – Heat Transfer Area, Tube Diameter, Length and Tube Arrangements» Next - Heat Transfer Operations Questions and Answers – Shell and Tube Heat Exchangers – Miscellaneous Questions 

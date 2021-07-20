@@ -1,0 +1,86 @@
+1. Which of the following command is used to get child items in powershell?
+a) Get-Child
+b) Set-Alias
+c) Get-Command
+d) Get-ChildItem
+d
+2. Point out the wrong statement.
+a) Get-Command retrieve basic information about a command
+b) Trace-Command trace an expression or command
+c) Get-Content delete content from a file
+d) None of the mentioned
+c
+3.___________ convert object properties into CSV objects.
+a) ConvertFrom-CSV
+b) Convert-CSV
+c) ConvertFromCSV
+d) All of the mentioned
+a
+4. What will be the output of the following code?
+PS C:\bin> notepad hello.ps1
+a) Text editor with “Hello world” scripted
+b) Text editor with “Hello” scripted
+c) Text editor with no script
+d) All of the mentioned
+c
+5. Point out the wrong statement.
+a) The first PowerShell cmdlet every administrator should learn is Get-Command
+b) Get-Event is used to find events in the PowerShell event queue
+c) Limit-EventLog is used to limit the size of the event log
+d) None of the mentioned
+a
+6. Syntax for viewing the methods and properties we can pipe our output to Get-Member by ______________
+a) Get-Process
+b) Get-Member
+c) Get-Process | Get-Member
+d) All of the mentioned
+c
+7. Unrestricted execution policy can be set up in SQL Server can be done using __________
+a) Set-ExecutionPolicy Unrestricted
+b) Set-Policy Unrestricted
+c) Set-Policy Unrestricted
+d) None of the mentioned
+a
+8. Code for creating an HTML report that lists the name of each service along with its status is __________
+a) Get-Ser | ConvertTo-HTML -Property Name, Status > C:\services.htm
+b) Get-Service | Property Name, Status > C:\services.htm
+c) Get-Service | ConvertTo-HTML -Property Name, Status > C:\services.htm
+d) All of the mentioned
+c
+9. Which of the following code list all the log files in Window?
+a)
+snippet Clear-Host
+$Directory = "C:\Windows\"`
+-ErrorAction SilentlyContinue
+b)
+snippet Clear-Host
+$Files = Get-Childitem $Directory -recurse -Include *.log `
+-ErrorAction SilentlyContinue
+c)
+snippet Clear-Host
+$Directory = "C:\Windows\"
+$Files = Get-Childitem $Directory -recurse -Include *.log `
+-ErrorAction SilentlyContinue
+d) All of the mentioned
+c
+10. Which of the following code snippet will return output as false?
+a)
+PS C:\bin> $myData = "01/28/1969"
+PS C:\bin> $mydata -isdata[string]
+b)
+PS C:\bin> $myData = "01/28/1969"
+PS C:\bin> $mydata -isnot [string]
+c)
+PS C:\bin> $myData = "01/28/1969"
+PS C:\bin> $mydata -NOT [string]
+d)
+PS C:\bin> $myData = "01/28/1969"
+PS C:\bin> $mydata -isString [string]
+b
+  
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Aggregation of Data» Next - SQL Server Questions and Answers – Windowing 

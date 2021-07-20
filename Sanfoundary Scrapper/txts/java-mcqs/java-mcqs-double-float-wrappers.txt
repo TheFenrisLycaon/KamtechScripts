@@ -1,0 +1,81 @@
+1. Which of these is a super class of wrappers Double and Float?
+a) Long
+b) Digits
+c) Float
+d) Number
+d
+2. Which of the following methods return the value as a double?
+a) doubleValue()
+b) converDouble()
+c) getDouble()
+d) getDoubleValue()
+a
+3. Which of these methods can be used to check whether the given value is a number or not?
+a) isNaN()
+b) isNumber()
+c) checkNaN()
+d) checkNumber()
+a
+4. Which of these method of Double wrapper can be used to check whether a given value is infinite or not?
+a) Infinite()
+b) isInfinite()
+c) checkInfinite()
+d) None of the mentioned
+b
+5. Which of these exceptions is thrown by compareTo() method defined in a double wrapper?
+a) IOException
+b) SystemException
+c) CastException
+d) ClassCastException
+d
+Join Sanfoundry@YouTube
+6. What will be the output of the following Java code?
+    class Output     {        public static void main(String args[])        {            Double i = new Double(257.5);              boolean x = i.isNaN();            System.out.print(x);        }    }
+a) true
+b) false
+c) 0
+d) 1
+b
+Output:
+$ javac Output.java
+$ java Output
+false
+7. What will be the output of the following Java code?
+    class Output    {        public static void main(String args[])        {            Double i = new Double(257.578);              int x = i.intValue();            System.out.print(x);        }    }
+a) 0
+b) 1
+c) 256
+d) 257
+d
+Output:
+$ javac Output.java
+$ java Output
+257
+8. What will be the output of the following Java code?
+    class Output    {        public static void main(String args[])        {	    Double i = new Double(257.578123456789);              float x = i.floatValue();            System.out.print(x);        }    }
+a) 0
+b) 257.0
+c) 257.57812
+d) 257.578123456789
+c
+Output:
+$ javac Output.java
+$ java Output
+257.57812
+9. What will be the output of the following Java code?
+    class Output    {        public static void main(String args[])        {            Double y = new Double(257.57812);	    Double i = new Double(257.578123456789);              try            {	        int x = i.compareTo(y);                System.out.print(x);            }            catch(ClassCastException e)            {                System.out.print("Exception");            }	}    }
+a) 0
+b) 1
+c) Exception
+d) None of the mentioned
+b
+Output:
+$ javac Output.java
+$ java Output
+1
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.lang – System Class Advance» Next - Java Questions & Answers – Java.io Introduction 

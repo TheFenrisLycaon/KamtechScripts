@@ -1,0 +1,92 @@
+1.	The technique of Enhancement that has a specified Histogram processed image as result, is called?
+a)	Histogram Linearization
+b)	Histogram Equalization
+c)	Histogram Matching
+d)	None of the mentioned
+c
+And the same is also known as Histogram Matching.
+2.	In Histogram Matching r and z are gray level of input and output image and p stands for PDF, then, what does pz(z) stands for?
+a)	Specific probability density function
+b)	Specified pixel distribution function
+c)	Specific pixel density function
+d)	Specified probability density function
+d
+3.	Inverse transformation plays an important role in which of the following Histogram processing Techniques?
+a)	Histogram Linearization
+b)	Histogram Equalization
+c)	Histogram Matching
+d)	None of the mentioned
+c
+In Histogram Linearization or Equalization s = T(r), r and s are gray level of input and output image and T is the only transformations.
+4.	In Histogram Matching or Specification, z = G-1[T(r)], r and z are gray level of input and output image and T & G are transformations, to confirm the single value and monotonous of G-1  what of the following is/are required?
+a)	G must be strictly monotonic
+b)	G must be strictly decreasing
+c)	All of the mentioned
+d)	None of the mentioned
+a
+5.	Which of the following histogram processing techniques is global?
+a)	Histogram Linearization
+b)	Histogram Specification
+c)	Histogram Matching
+d)	All of the mentioned
+d
+6.	What happens to the output image when global Histogram equalization method is applied on smooth and noisy area of an image?
+a)	The contrast increases little bit with considerable enhancement of noise
+b)	The result would have a fine noise texture
+c)	All of the mentioned
+d)	None of the mentioned
+a
+(a) Original image. (b) Result using global histogram equalization. (c) Result using local histogram equalization using 7*7 neighborhood about each pixel.
+7.	Let us suppose an image containing a quite small square under a large dark square with both having very close gray level values. If an image contains some of this such that the small squares can’t be visualized and some noise blurred enough to reduce its noise content as shown in fig. below, Which of the following method would be preferred for obtaining the small square clear enough?
+ Figure: original image.
+a)	Global histogram equalization
+b)	Local histogram equalization
+c)	All of the mentioned
+d)	None of the mentioned
+b
+But, local histogram enhancement using a 7*7 neighborhood reveals the small square.
+(a) Original image. (b) Result using global histogram equalization. (c) Result using local histogram equalization using 7*7 neighborhood about each pixel.
+8.	In terms of enhancement, what does mean and variance refers to?
+a)	Average contrast and average gray level respectively
+b)	Average gray level and average contrast respectively
+c)	Average gray level in both
+d)	Average contrast in both
+b
+Given by, mean as: m = ∑_(i=0)^(L-1) ri p(ri )	and variance as: σ2(r) = ∑_(i=0)^(L-1) (ri –m)2 p(ri ).
+Where, ri is histogram component of ith value of r, p(ri) is probability occurrence of gray level ri and L is the max gray value allowed.
+9.	For a local enhancement using mean and variance, there is one condition:		ms(x, y) ≤ k0 MG, where, MG is global mean, k0 a constant and ms(x, y) a measure of gray value as light or dark at point (x, y). Then, which fact is true for k0?
+a)	It is a negative constant with values less than -1.0
+b)	It is a positive constant with values less than 1.0
+c)	It is an integer constant with values between -1.0 and 1.0
+d)	None of the mentioned
+b
+10.	For a local enhancement using mean and variance, there is one condition:		σs(x, y) ≤ k2DG, where, MDG is global standard deviation, k2 a positive constant and σs(x, y) a measure of contrast at point (x, y). Then, which fact is true for k2 if its values is less than 1.0?
+a)	Enhancement is being done on light areas
+b)	Enhancement is being done on dark areas
+c)	Enhancement is being done independent of value of k0
+d)	None of the mentioned
+b
+11.	For a local enhancement using mean and variance, there is one condition:		σs(x, y) ≤ k2DG,  where, MDG is global standard deviation, k2 a positive constant and σs(x, y) a measure of contrast at point (x, y). Then, which fact is true for k2 if its values is greater than 1.0?
+a)	Enhancement is being done on light areas
+b)	Enhancement is being done on dark areas
+c)	Enhancement is being done independent of value of k0
+d)	None of the mentioned
+a
+12.	What is standard deviation value for constant area?
+a)	0
+b)	1
+c)	-1
+d)	None of the mentioned
+a
+13.	For a local enhancement using mean and variance, what happens if the lowest value of contrast is not restricted as per the willingness of acceptance of value?
+a)	There wouldn’t be any enhancement
+b)      Enhancement will occur for areas with standard deviation value > 1
+c)	Enhancement of the constant areas will also be the part of procedure
+d)	Enhancement will occur for areas with standard deviation value > 0 and < 1
+c
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice  all areas of Digital Image Processing for online Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Histogram Equalization and Processing» Next - Digital Image Processing Questions and Answers – Enhancement using Logic Operations 

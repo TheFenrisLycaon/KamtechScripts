@@ -1,0 +1,154 @@
+1. Which type of heap is implemented in STL heap?
+a) max heap
+b) min heap
+c) middle heap
+d) close heap
+a
+2. Which function is used to construct heap from given sequence of numbers?
+a) create_heap()
+b) make_heap()
+c) construct_heap()
+d) start_heap()
+b
+3. What is the use of front() function in heap?
+a) Returns the element closest to the median of a sequence
+b) Returns the last element of the heap
+c) Returns the first element of the heap
+d) Returns the element closest to mean of a sequence
+c
+4. Which function is used to insert an element into heap?
+a) push_back()
+b) push_heap()
+c) pop_back()
+d) pop_heap()
+b
+5. Elements in STL heap are removed in ________________________
+a) decreasing order
+b) increasing order
+c) alternate i.e. once max element then min element
+d) input order
+a
+6. Which header file is required to use heap in your program?
+a) <heap>
+b) <algorithm>
+c) <vector>
+d) <map>
+b
+7. Which of the following is correct syntax of making heap from a vector v?
+a) make_heap(v.elements);
+b) make_heap(v);
+c) make_heap(v.end(), v.begin());
+d) make_heap(v.begin(), v.end());
+d
+8. What will be the output of the following C++ code?
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	vector <int> v = {1,5,23,90,15,35};
+	make_heap(v.begin(),v.end());
+	cout<<v.front();
+}
+a) 23
+b) 1
+c) 35
+d) 90
+a
+9. What will be the output of the following C++ code?
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	vector <int> v = {1,5,23,90,15,35};
+	make_heap(v.begin(),v.end());
+	v.push_back(110);
+	push_heap(v.begin(), v.end());
+	cout<<v.front();
+}
+a) 90
+b) 1
+c) 110
+d) 23
+c
+10. What will be the output of the following C++ code?
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	vector <int> v = {1,5,23,90,15,35};
+	make_heap(v.begin(),v.end());
+	v.push_back(110);
+	push_heap(v.begin(), v.end());
+	pop_heap(v.begin(), v.end());
+	v.pop_back();
+	cout<<v.front();
+}
+a) 90
+b) 1
+c) 110
+d) 23
+a
+11. What is the use of sort_heap() function in heap?
+a) To sort the elements in the heap into descending order
+b) To sort the elements in the heap into ascending order
+c) To sort the first half of the heap
+d) To sort the second half of the heap
+b
+12. Which function is used to check whether a given sequence is heap or not?
+a) sort_heap()
+b) is_heap()
+c) is_heap_until()
+d) check_heap()
+b
+13. What is the use of is_heap_until() function?
+a) Returns the iterator of the last element of the sequence always
+b) Returns the iterator to the position from where the sequence is a heap
+c) Returns the iterator of the position till that the sequence is a heap
+d) Returns the iterator of the first element of the sequence
+c
+14. What will be the output of the following C++ code?
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	vector <int> v = {1,5,23,90,15,35};
+	cout<<is_heap(v.begin(), v.end());
+	make_heap(v.begin(), v.end());
+	cout<<is_heap(v.begin(), v.end());
+}
+a) 00
+b) 01
+c) 10
+d) 11
+b
+15. What will be the output of the following C++ code?
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	vector <int> v = {90, 47, 34, 23, 4, 35, 67};
+	auto it = is_heap_until(v.begin(), v.end());
+	for(auto i = v.begin(); i != it; i++)
+		cout<<*i<<" ";
+}
+a) 90 67 47 35 34 23 4
+b) 90 47 34 23 4 35
+c) 90 47 34 23 4 35 67
+d) 90 47 34 23 4
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – STL Container Any – 2» Next - C++ Programming Questions and Answers – vtable and vptr 

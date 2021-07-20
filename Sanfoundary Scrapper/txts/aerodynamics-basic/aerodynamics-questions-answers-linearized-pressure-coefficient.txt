@@ -1,0 +1,81 @@
+1. What is the relation between coefficient of pressure in terms of gamma and Mach number?
+a) Cp = \(\frac {1}{γM_∞^2}\)) (1 – \(\frac {p}{p_∞}\))
+b) Cp = \(\frac {2}{γM_∞^2}\)(\(\frac {p}{p_∞}\)  – 1)
+c) Cp = γM\(_∞^2\)(\(\frac {p}{p_∞}\))
+d) Cp = \(\frac {γM_∞^2}{2} (\frac {p}{p_∞ – 1})\) 
+b
+Coefficient of pressure is given by Cp = \(\frac {p – p_∞}{\frac {1}{2} ρ_∞ V_∞^{2}}\). Where, p∞, ρ∞, V∞ are freestream pressure, density and velocity. We can manipulate the denominator by multiplying and diving it by γp∞. We get,
+\(\frac {1}{2}\)ρ∞\(V_∞^2\) = \(\frac {1}{2}\frac {γp_∞}{γp_∞}\) ρ∞V∞2 = \(\frac {γ}{2}\) p∞  \(\frac {ρ_∞ V_∞^2}{γp_∞}\) 
+Since \(\frac {γp_∞}{ρ_∞}\) = a2 the denominator becomes \(\frac {γ}{2}\)p∞\(\frac {V_∞^2}{a_∞^2} = \frac {γ}{2}\) p∞ M\(_∞^2\) Since M = V/a.
+Therefore the coefficient of pressure in terms of gamma and Mach number is:
+Cp = \(\frac {2}{γM_∞^2}\)(\(\frac {p}{p_∞}\)  – 1)
+2. Which of these is the relation for linearized pressure coefficient for two – dimensional bodies?
+a) Cp = \(\frac {- 2u^{‘}}{V_∞}\) 
+b) Cp = \(\frac {- 2v^{‘}}{V_∞}\) 
+c) Cp = \(\frac {- 2w}{V_∞}\) 
+d) Cp = \(\frac {2u^{‘}}{V_∞}\) 
+a
+Cp = \(\frac {2}{γM_∞^2} \big [ \big (1+ \frac {1}{2C_p T_∞}\)(V\(_∞^2\) – (u‘2 + v‘2 + w‘2))\()^{\frac {γ}{γ – 1}} – 1 \big ] \) 
+The velocity V\(_∞^2\) – (u‘2 + v‘2 + w‘2) is very very small which is equal to  – (2u‘V∞ + u‘2 + v‘2 + w‘2)
+Since the perturbed velocity is very small. On binomial expansion, we arrive at
+Cp = –\(\frac {2u^{‘}}{V_∞}\) + (1 – M\(_∞^2\))\(\frac {u^{‘^{2}}}{V{_∞^{2}}} + \frac {v^{‘^{2}}+w^{‘^{2}}}{V_∞^{2}}\) 
+The values of \(\frac {u^{‘^2}}{V{_∞^2}} , \, \frac {v^{‘^{2}}+w^{‘^{2}}}{V_∞^{2}}\) are second order thus can be neglected. Therefore, linearized coefficient of pressure is given by Cp =  –\(\frac {- 2u^{‘}}{V_∞}\).
+3. Which of these is the relation for linearized pressure coefficient for two – dimensional bodies?
+a) Cp = \(\frac {-2u^{‘}}{V_∞} + \frac {v^{‘{^2}}+w^{‘^2}}{V_∞^{2}}\) 
+b) Cp = \(\frac {-2v^{‘}}{V{_∞^2}} \frac {v^{‘{^2}}+w^{‘^2}}{V_∞^{2}}\) 
+c) Cp = \(\frac {-2w}{V{_∞^2}} \frac {v^{‘{^2}}+w^{‘^2}}{V_∞^{2}}\) 
+d) Cp =  –\(\frac {2u^{‘}}{V_∞}\) + (1 – M\(_∞^2\))\(\frac {u^{‘^{2}}}{V{_∞^{2}}} + \frac {v^{‘^{2}}+w^{‘^{2}}}{V_∞^{2}}\) 
+a
+Cp =  –\(\frac {2u^{‘}}{V_∞}\) + (1 – M\(_∞^2\))\(\frac {u^{‘^{2}}}{V{_∞^{2}}} + \frac {v^{‘^{2}}+w^{‘^{2}}}{V_∞^{2}}\) 
+For two dimensional terms, the second order terms can be neglected. But for three – dimensional the term \(\frac {v^{‘{^2}}+w^{‘^{2}}}{V_∞^{2}}\)  has to be retained since it is not negligible. Apart from that \(\frac {u^{‘^2}}{V_∞^{2}}\)  is neglected because the perturbed velocities have magnitudes that are very less than unity. This results in equation for linearized coefficient of pressure for three – dimensional bodies as Cp = \(\frac {-2u^{‘}}{V_∞} + \frac {v^{‘{^2}}+w^{‘^2}}{V_∞^{2}}\).
+4. What is the coefficient of pressure over an airfoil at supersonic flow at Mach 2 which is inclined to the freestream at 1.4 degrees?
+a) 1.10
+b) 1.92
+c) 1.62
+d) 2.81
+c
+For the supersonic flow, the linearized coefficient of pressure for small inclinations is given by:
+Cp = \(\frac {2θ}{\sqrt {M_∞^2 – 1}}\) 
+Substituting the values, we get
+Cp = \(\frac {2 × 1.4}{\sqrt {4 – 1}}\) = 1.62
+Join Sanfoundry@YouTube
+5. Coefficient of pressure over the forward section of the hump in supersonic flow is negative.
+a) True
+b) False
+b
+Cp = \(\frac {2θ}{\sqrt {M_∞^2 – 1}}\) 
+The angle θ is positive when measured above the freestream horizontal and negative when measured below the freestream horizontal. Due to this reason, the coefficient of pressure in the forward portion of the hump is positive.
+6. How does the coefficient of pressure vary for subsonic flow as the Mach number increases?
+a) Increases
+b) Decreases
+b) Remains same
+d) First increases, then decreases
+a
+Cp ∝ \(\frac {1}{\sqrt {1 – M_∞^2}}\) 
+According to this proportionality, as the Mach number increases, the coefficient of pressure also increases.
+7. How does the coefficient of pressure vary for supersonic flow as the Mach number decreases?
+a) Increases
+b) Decreases
+c) Remains same
+d) First increases, then decreases
+a
+8. What is the coefficient of lift according to the linearized theory over a flat plate kept at an inclination of 3 degrees having a freestream Mach number of 2?
+a) 0.01
+b) 0.12
+c) 0.85
+d) 0.52
+b
+According to the linearized theory, the coefficient of lift over a flat plate is given by:
+cl = \(\frac {4∝}{\sqrt {M_∞^2 – 1}}\) 
+Substituting the values we get
+cl = \(\frac {4 × 0.052}{\sqrt {4 – 1}}\) = 0.12
+9. Linearized pressure distribution for higher deflection angle is inaccurate.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Linearized Velocity Potential Equation» Next - Aerodynamics Questions and Answers – Linearized Subsonic Flow 

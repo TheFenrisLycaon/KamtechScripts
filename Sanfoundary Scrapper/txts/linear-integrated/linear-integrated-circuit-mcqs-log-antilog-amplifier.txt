@@ -1,0 +1,51 @@
+1. Which of the following functions does the antilog computation required to perform continuously with log-amps?
+a) In(x)
+b) log(x)
+c) Sinh(x)
+d) All of the mentioned
+d
+2. Find the circuit that is used to compress the dynamic range of a signal?
+a
+3. Find the output voltage of the log-amplifier
+a) VO = -(kT)×ln(Vi/Vref)
+b) VO = -(kT/q)×ln(Vi/Vref)
+c) VO = -(kT/q)×ln(Vref/Vi)
+d) VO = (kT/q)×ln(Vi/Vref)
+b
+VO =-(kT/q)×ln(Vi / Vref).
+4. How to provide saturation current and temperature compensation in log-amp?
+a) Applying reference voltage alone to two different log-amps
+b) Applying input and reference voltage to same log-amps
+c) Applying input and reference voltage to separate log-amps
+d) None of the mentioned
+c
+5. The input voltage, 6v and reference voltage, 4 v are applied to a log-amp with saturation current and temperature compensation.  Find the output voltage of the log-amp?
+a) 6.314(kT/q)v
+b) 0.597(kT/q)v
+c) 0.405(kT/q)v
+d) 1.214(kT/q)v
+c
+VO = 0.405(kT/q)v. 
+6. Find the  circuit used for compensating dependency of temperature in the output voltage?
+c
+Now the output voltage becomes,VO = [1+ (R2/ RTC)]×[(kT/q)×ln(Vi / Vref)]
+Where, RTC –> temperature sensitive resistance with a positive co-efficient of temperature. 
+7. Determine the output voltage for the given circuit
+a) VO = Vref/(10-k’vi)
+b) VO = Vref+(10-k’vi)
+c) VO = Vref×(10-k’vi)
+d) VO = Vref-(10-k’vi)
+c
+ Where k’ = 0.4343 (q/kt)×[(RTC/ (R2 +RTC)].
+8. Calculate the base voltage of Q2 transistor in the log-amp using two op-amps?
+a) 8.7v
+b) 5.3v
+c) 3.3v
+d) 6.2v
+c
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Very High Input Impedance Circuit» Next - Linear Integrated Circuit Questions and Answers – Multiplier and Divider – 1 

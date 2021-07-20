@@ -1,0 +1,89 @@
+1. A current of – 8 + 6\(\sqrt{2}\) (sin (ωt + 30°)) A is passed through three meters. The respective readings (in ampere) will be?
+a) 8, 6 and 10
+b) 8, 6 and 8
+c) – 8, 10 and 10
+d) -8, 2 and 2
+c
+So, rms = \(\sqrt{8^2 +(\frac{6\sqrt{2}}{\sqrt{2}})^2}\) = 10 A
+Moving iron also reads rms value, so its reading will also be 10 A.
+2. A rectifier type AC voltmeter consists of a series resistance R, an ideal full-wave rectifier bridge and a PMMC instrument. The internal resistance of the instrument is 100 Ω and a full- scale deflection is produced by a DC current of 1 mA. A voltage of 100 V (rms) is applied to the input terminals. The value of R required is?
+a) 63.56 Ω
+b) 89.83 Ω
+c) 89.83 kΩ
+d) 141.3 kΩ
+c
+The deflection with AC is 0.8993 times that with DC for the same value of voltage V
+SAC = 0.8993 SDC
+SDC of a rectifier type instrument is \(\frac{1}{I_{fs}}\) where Ifs is the current required to produce full scale deflection, Ifs = 1 mA; Rm = 100 Ω; SDC = 103 Ω/V
+SAC = 0.8993 × 1000 = 899.3 Ω/V. Resistance of multiplier RS = SAC V – Rm – 2Rd, where Rd is the resistance of diode, for ideal diode Rd = 0
+∴ RS = 899.3 × 100 – 100 = 89.83 kΩ.
+3. A current of [2 + \(\sqrt{2}\) sin (314t + 30) + 2\(\sqrt{2}\) cos (952t +45)] is measured with a thermocouple type, 5A full scale, class 1 meter. The meter reading would lie in the range?
+a) 5 A ± 1 %
+b) (2 + 3\(\sqrt{2}\)) A ± 1%
+c) 3 A ± 1.7 %
+d) 2 A ± 2.5 %
+c
+Thermocouple measure the rms value of current.
+Irms = \([2^2 + (\frac{\sqrt{2}}{\sqrt{2}})^2 + (\frac{2\sqrt{2}}{\sqrt{2}})^2]^{1/2} = \sqrt{9}\) = 3 A ± 1.7%.
+4. A 50 Hz voltage is measured with a moving iron voltmeter and a rectifier type AC voltmeter connected in parallel. If the meter readings are Va and Vb respectively. Then the form factor may be estimated as?
+a) \(\frac{V_a}{V_b}\) 
+b) \(\frac{1.11 V_a}{V_b}\) 
+c) \(\frac{\sqrt{2} V_a}{V_b}\) 
+d) \(\frac{π V_a}{V_b}\) 
+b
+Moving iron instrument will show rms value. Rectifier voltmeter is calibrated to read rms value of the sinusoidal voltage that is, with form factor of 1.11.
+∴ Mean value of the applied voltage = \(\frac{V_b}{1.11}\) 
+∴ Form factor = \(\frac{V_a}{V_b/1.11} = \frac{1.11 V_a}{V_b}\) 
+5. A moving iron ammeter produces a full-scale torque of 240 μN-m with a deflection of 120° at a current of 10 A. the rate of change of self-inductance (μH/rad) of the instrument at full scale is?
+a) 2.0 μH/rad
+b) 4.8 μH/rad
+c) 12.0 μH/rad
+d) 114.6 μH/rad
+b
+\(\frac{1}{2} 10^2 \frac{dL}{dθ}\) = 240 × 10-6
+∴ \(\frac{dL}{dθ}\) = 4.8 μH/rad.
+6. A moving coil of a meter has 250 turns and a length and depth of 40 mm and 30 mm respectively. It is positioned in a uniform radial flux density of 450 mT. The coil carries a current of 160 mA. The torque on the coil is?
+a) 0.0216 N-m
+b) 0.0456 N-m
+c) 0.1448 N-m
+d) 1 N-m
+a
+Torque = 250 × 450 × 10-3 × 40 × 10-3 × 30 × 10-3 × 160 × 10-3 = 200 × 10-6N-m = 0.0216 N-m.
+7. Two 100 μA full-scale PMMC meters are employed to construct a 10 V and a 100 V full-scale voltmeter. These meters will have figure of merit (sensitivities) as?
+a) 10 kΩ/V and 10 kΩ/V
+b) 100 kΩ/V and 10 kΩ/V
+c) 10 kΩ/V and 100 kΩ/V
+d) 10 kΩ/V and 1 kΩ/V
+a
+SV = \( \frac{1}{100 × 10^{-6}}\) = 10 kΩ/V.
+8. A PMMC rated as 100 μA is used in a rectifier type of instrument which uses full wave rectification. What is the sensitivity on sinusoidal AC?
+a) 4.5 kΩ/V
+b) 18 kΩ/V
+c) 10 kΩ/V
+d) 9 kΩ/V
+d
+For full-wave rectification SAC = 0.9 + SDC = 0.9 × 10 = 9kΩ/V.
+9. The discharge of a capacitor through a ballistic galvanometer produces a damped frequency of 0.125 Hz and successive swings of 120, 96 and 76.8 mm. The damping ratio is?
+a) 0.0568
+b) 0.0887
+c) 0.0357
+d) 0.0441
+c
+Now, δ is related to damping ratio K as, K = \(\frac{1}{(1 + (\frac{2π}{δ})^2)^{0.5}}\) 
+K = \(\frac{1}{(1 + (\frac{2π}{0.225})^2)^{0.5}}\) 
+∴ K = 0.0357.
+10. The discharge of a capacitor through a ballistic galvanometer produces a damped frequency of 0.125 Hz and successive swings of 120, 96 and 76.8 mm. The logarithmic decrement is?
+a) 0.225
+b) 0.565
+c) 0.484
+d) 0.7887
+a
+Now, δ is related to damping ratio K as, K = \(\frac{1}{(1 + (\frac{2π}{δ})^2)^{0.5}}\) 
+K = \(\frac{1}{(1 + (\frac{2π}{0.225})^2)^{0.5}}\) 
+∴ K = 0.0357.
+Sanfoundry Global Education & Learning Series – Electrical Measurements.
+To practice all written questions on Electrical Measurements, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Electrical Measurements Questions and Answers – Advanced Problems on Indicating Instruments – 1» Next - Electrical Measurements Questions and Answers – Dynamometer Type Wattmeter 

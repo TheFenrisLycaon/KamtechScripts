@@ -1,0 +1,76 @@
+1. What will be the output of the following PHP code?
+<?phpfor ($i = 0; 0; $i++) {    print"i";}?>
+a) infinite loop
+b) 0
+c) no output
+d) error
+c
+2. What will be the output of the following PHP code?
+<?phpfor ($i = 0; $i < 5; $i++) {    for ($j = $i; $j > 0; $i--)        print $i;}?>
+a) infinite loop
+b) 0 1 2 3 4 5
+c) 0 1 0 1 2 0 1 2 3 0 1 2 3 4 0 1 2 3 4 5 0 1 2 3 4 5
+d) no output
+a
+3. What will be the output of the following PHP code?
+<?phpfor ($i = 0; $i < 5; $i++)  {    for ($j = $i;$j > $i; $i--)        print $i;}?>
+a) infinite loop
+b) 0 1 2 3 4 5
+c) 0 1 0 1 2 0 1 2 3 0 1 2 3 4 0 1 2 3 4 5 0 1 2 3 4 5
+d) no output
+d
+4. What will be the output of the following PHP code?
+<?php$user = array("Ashley", "Bale", "Shrek", "Blank");for ($x = 0; $x < count($user); $x++) {    if ($user[$x] == "Shrek") 	    continue;    printf ($user[$x]); }?>
+a) AshleyBaleBlank
+b) AshleyBale
+c) AshleyBaleShrek
+d) No output
+a
+5. What will be the output of the following PHP code?
+<?php$user = array("Ashley", "Bale", "Shrek", "Blank");    for ($x=0; $x < count($user) - 1; $x++)	    {        if ($user[$x++] == "Shrek") 		    continue;        printf ($user[$x]);     }?>
+a) AshleyBaleBlank
+b) Bale
+c) AshleyShrek
+d) BaleBlank
+a
+6. What will be the output of the following PHP code?
+<?php$user = array("Ashley", "Bale", "Shrek", "Blank");for ($x = 0; $x < count($user); $x) {    if ($user[$x++] == "Shrek") 	    continue;    printf ($user[$x]); }?>
+a) AshleyBaleBlank
+b) BaleShrek
+c) AshleyBlank
+d) Bale
+b
+7. What will be the output of the following PHP code?
+<?phpfor ($i = 0; $i % ++$i; $i++) {    print"i";}?>
+a) error
+b) infinite loop
+c) no output
+d) 0
+b
+8. What will be the output of the following PHP code?
+<?phpfor ($i = 0; $i < 5; $i++) {    for(; $i < 5; $i++)                 print"i";}?>
+a) iiiii
+b) infinite loop
+c) iiiiiiiiiiiiiiiiiiiiiiiii
+d) no output
+a
+9. What will be the output of the following PHP code?
+<?php$a = array("hi", "hello", "bye");foreach ($a as $value) {    if (count($a) == 2)	    print $value;         }?>
+a) hihellobye
+b) infinite loop
+c) hihello
+d) no output
+d
+10. What will be the output of the following PHP code?
+<?php$a = array("hi", "hello", "bye");for (;count($a) < 5;) {    if (count($a) == 3)	    print $a;         }?>
+a) ArrayArrayArrayArrayArrayArray….infinitely
+b) (“hi”,”hello”,”bye”)(“hi”,”hello”,”bye”)(“hi”,”hello”,”bye”)(“hi”,”hello”,”bye”)…infinitely
+c) hihellobyehihellobyehihellobyehihellobyehihellobyehihellobye…..infinitely
+d) no output
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice  all areas of PHP for online Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – For Loops – 2» Next - PHP Coding Questions and Answers – Functions – 1 

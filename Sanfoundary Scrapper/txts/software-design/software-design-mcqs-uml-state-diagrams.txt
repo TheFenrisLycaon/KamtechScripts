@@ -1,0 +1,66 @@
+1. Which of the following statement is true?
+a) A transition is a change from one state to another
+b) Transitions may be spontaneous, but usually some event triggers them
+c) An event is a noteworthy occurrence at a particular time; events have no duration
+d) All of the mentioned
+d
+2. Every finite automaton specification must contain which of the following?
+a) Descriptions of the automaton’s states in a way that allows them to be distinguished, such as by naming each one;
+b) Descriptions of transitions indicating each transition source state, its target state, and the events that trigger it;
+c) Designation of an initial state, the starting place for state transitions
+d) All of the mentioned
+d
+3. What does deterministic and non deterministic automation?
+a) A non-deterministic finite automaton is a finite automaton that has no spontaneous transitions and has a single transition that it must make in response to every event in each of its states
+b) A deterministic finite automaton is one with multiple transitions
+c) All of the mentioned
+d) None of the mentioned
+d
+4. Which of the following determines the state diagram?
+a) The UML notation for specifying finite automata is the state diagram
+b) In state diagrams, states are represented by rounded rectangles
+c) All of the mentioned
+d) None of the mentioned
+c
+5. Which of the following represents the State Diagram?
+a) The finite automaton initial state is designated by a special initial pseudo-state depicted as a large black dot at the tail of an arrow pointing at the initial state
+b) A finite automaton may execute forever or it may halt in a final state
+c) Transitions are represented by solid arrows labeled with one or more transition strings that describe the circumstances under which the transition is triggered and the actions that may ensue
+d) All of the mentioned
+d
+6. Which of the statements state the name compartment?
+a) The first compartment is the name compartment
+b) It contains the state name; State names are optional and may be path names
+c) The name compartment can never be omitted
+d) The first compartment is the name compartment, It contains the state name; State names are optional and may be path names
+d
+7. Which of the following is true?
+a) A state symbol without a nested state compartment represents a complex state
+b) One with a nested state compartment represents a simple state
+c) All of the mentioned
+d) None of the mentioned
+d
+8. Which of the following are composite states?
+a) A sequential composite state
+b) A concurrent composite state
+c) All of the mentioned
+d) None of the mentioned
+c
+9. What is sequential and concurrent composite state means?
+a) A concurrent composite state contains a single state diagram composed of sub-states or inner states and the transitions between them
+b) A sequential composite state contains two or more sequential state diagrams in regions separated by dashed lines called concurrent region boundary lines
+c) All of the mentioned
+d) None of the mentioned
+d
+10. Sequential composite states simplify state models in two ways?
+a) They organize states into hierarchies
+b) They consolidate many transitions
+c) All of the mentioned
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Software Architecture and Design.
+To practice all areas of Software Design and Architecture,  here is complete set of 1000+ Multiple Choice Questions and Answers on Software Design and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Software Design Questions and Answers – Interaction Design Process And Interaction Modelling Heuristics» Next - Software Design Questions and Answers – Advanced UML State diagrams 

@@ -1,0 +1,75 @@
+1. Select the type of multitasking methods that exist:
+a) process based
+b) thread based
+c) only process
+d) both process & thread based
+d
+2. Choose the correct statement about process-based multitasking.
+a) A feature that allows our computer to run two or more programs concurrently
+b) A program that acts as a small unit of code that can be dispatched by the scheduler
+c) Only A program that acts as a small unit of code that can be dispatched by the scheduler
+d) Both A feature that allows our computer to run two or more programs concurrently & A program that acts as a small unit of code that can be dispatched by the scheduler
+d
+3. Choose the statements which indicate the differences between the thread based multitasking and process based multitasking.
+a) Process-based multitasking handles the concurrent execution of programs
+b) Process-based multitasking handles the concurrent execution of pieces of the same program
+c) Thread-based multitasking handles the concurrent execution of programs
+d) Thread-based multitasking deals with the concurrent execution of pieces of the same program
+a
+4. What is the advantage of the multithreading program?
+a) Enables to utilize the idle and executing time present in most programs
+b) Enables to utilize the idle time present in most programs
+c) Both Enables to utilize the idle and executing time present in most programs & Enables to utilize the idle time present in most programs
+d) Only Enables to utilize the idle time present in most programs
+d
+5. Select the two type of threads mentioned in the concept of multithreading:
+a) foreground
+b) background
+c) only foreground
+d) both foreground & background
+d
+6. Number of threads that exists for each of the processes that occurs in the program:
+a) at most 1
+b) atleast 1
+c) only 1
+d) both at most 1 & atleast 1
+d
+7. Choose the namespace which supports multithreading programming?
+a) System.net
+b) System.Linq
+c) System.Threading
+d) All of the mentioned
+c
+8. What does the following C# code snippet specify?
+public Thread(ThreadStart start)
+a) Defines a thread
+b) Declaration of a thread constructor
+c) Only Defines a thread
+d) Only Defines a thread & Declaration of a thread constructor
+d
+          public Thread(ThreadStart start)
+Here, start specifies the method that will be called to begin execution of the thread. In other words, it specifies the thread’s entry point.
+9. Which of these classes is used to make a thread?
+a) String
+b) System
+c) Thread
+d) Runnable
+c
+10. On call of which type of method the new created thread will not start executing?
+a) Begin()
+b) Start()
+c) New()
+d) All of the mentioned
+b
+11. Which of these methods of Thread class is used to Suspend a thread for a period of time?
+a) sleep()
+b) terminate()
+c) suspend()
+d) stop()
+a
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Rounding Functions» Next - C# Questions & Answers – Multithreaded Programming – 2 

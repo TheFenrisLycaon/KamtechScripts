@@ -1,0 +1,102 @@
+1. Which option is used with the tail command for extracting bytes instead of lines?
+a) -f
+b) -n
+c) -c
+d) -a
+c
+$ tail -c   511 foo   // extracts last 511 bytes from foo
+$ tail -c  +512 foo   // extracts everything after skipping the first 511 bytes
+2. To extract specific columns from a file, ____ command is used.
+a) tail
+b) head
+c) pr
+d) cut
+d
+$ cut  -c  6-22,24-32  emp.lst
+3.The expression  cut -c -3 emp.lst will cut columns number _____
+a) 3
+b) 1
+c) 1-3
+d) 0
+c
+$ cut -c -3 emp.lst            // extracts column 1-3
+$ cut -c  10-  emp.lst        // extracts from column number 10 to end of line
+4. ____ option is used with the cut command for cutting fields.
+a) -c
+b) -n
+c) -f
+d) -a
+c
+$ cut  -f   2,3  emp.lst        // cut field number 2 and 3 from emp.lst
+5. What is the default delimiter used by the cut command for cutting fields?
+a) space
+b) tab
+c) double tab
+d) underscore
+b
+6. Which option is used with the cut command for cutting field base on the value of our specified delimiter?
+a) -a
+b) -f
+c) -d
+d) -e
+c
+$ cut  -d “ “ -f 1  emp.lst        // space is the delimiter
+Root
+Kumar
+Sharma
+Project
+7. We have to specify whether we want to cut fields or columns while using cut command.
+a) True
+b) False
+a
+8. The following command will produce an error.
+$ cut -d “|”  -f  1,4  emp.lst
+a) True
+b) False
+b
+9. Which one of the following commands is incorrect?
+a) $ cut -d “|”  -f  1,4  emp.lst
+b) $ cut -c -3 emp.lst
+c) $ tail -c 511 foo
+d) $ tail -c foo
+d
+10. Which command is used for pasting files?
+a) cut
+b) paste
+c) tail
+d) head
+b
+$ paste file01  file02            // contents of both files will be pasted together
+Abd    01    98%
+Mash    03    76%
+Ryan    10    65%
+11. Whatever we have cut using cut command can be pasted back using paste command but vertically.
+a) True
+b) False
+a
+12. paste command uses space as the default field delimiter.
+a) True
+b) False
+b
+13. _____ option is used with paste command if we want to specify our own delimiter.
+a) -d
+b) -c
+c) -a
+d) -e
+a
+$ paste -d “|” file01  file02        // | is used as delimiter
+Abd    |01 |98%
+Mash |03 |76%
+Ryan  |10 |65%
+14. Which option is used with paste command for joining lines?
+a) -s
+b) -c
+c) -a
+d) -e
+a
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix for Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Filtering Commands – 1» Next - Unix  Questions and Answers – Sort Command 

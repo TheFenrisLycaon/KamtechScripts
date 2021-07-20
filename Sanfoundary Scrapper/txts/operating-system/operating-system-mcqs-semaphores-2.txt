@@ -1,0 +1,98 @@
+1. What will happen if a non-recursive mutex is locked more than once?
+a) Starvation
+b) Deadlock
+c) Aging
+d) Signaling
+b
+2. What is a semaphore?
+a) is a binary mutex
+b) must be accessed from only one process
+c) can be accessed from multiple processes
+d) none of the mentioned
+c
+3. What are the two kinds of semaphores?
+a) mutex & counting
+b) binary & counting
+c) counting & decimal
+d) decimal & binary
+b
+4. What is a mutex?
+a) is a binary mutex
+b) must be accessed from only one process
+c) can be accessed from multiple processes
+d) none of the mentioned
+b
+5. At a particular time of computation the value of a counting semaphore is 7.Then 20 P operations and 15 V operations were completed on this semaphore. The resulting value of the semaphore is? (GATE 1987)
+a) 42
+b) 2
+c) 7
+d) 12
+b
+6. A binary semaphore is a semaphore with integer values ____________
+a) 1
+b) -1
+c) 0.8
+d) 0.5
+a
+7. The following pair of processes share a common variable X.
+Process A
+int Y;
+A1: Y = X*2;
+A2: X = Y;   
+ 
+Process B
+int Z;
+B1: Z = X+1;
+B2: X = Z;
+X is set to 5 before either process begins execution. As usual, statements within a process are executed sequentially, but statements in process A may execute in any order with respect to statements in process B.
+How many different values of X are possible after both processes finish executing?
+a) two
+b) three
+c) four
+d) eight
+c
+A1 A2 B1 B2: X = 11
+A1 B1 A2 B2: X = 6
+A1 B1 B2 A2: X = 10
+B1 A1 B2 A2: X = 10
+B1 A1 A2 B2: X = 6
+B1 B2 A1 A2: X = 12.
+8. The program follows to use a shared binary semaphore T.
+Process A  
+int Y;            
+A1: Y = X*2;      
+A2: X = Y;        
+signal(T);        
+ 
+Process B
+int Z;
+B1: wait(T);
+B2: Z = X+1;
+X = Z;
+T is set to 0 before either process begins execution and, as before, X is set to 5.
+Now, how many different values of X are possible after both processes finish executing?
+a) one
+b) two
+c) three
+d) four
+a
+A1 A2 B1 B2: X = 11.
+9. Semaphores are mostly used to implement ____________
+a) System calls
+b) IPC mechanisms
+c) System protection
+d) None of the mentioned
+b
+10. Spinlocks are intended to provide __________ only.
+a) Mutual Exclusion
+b) Bounded Waiting
+c) Aging
+d) Progress
+b
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System for Interviews, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions and Answers – Semaphores – 1» Next - Operating System Questions and Answers – Classic Synchronization Problems 

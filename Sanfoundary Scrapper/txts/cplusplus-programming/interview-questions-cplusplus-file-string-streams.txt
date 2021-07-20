@@ -1,0 +1,93 @@
+This section on C++ interview questions and answers focuses on “File Streams and String Streams”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “File Streams and String Streams” along with answers, explanations and/or solutions:
+1. Which operator is used to insert the data into file?
+a) >>
+b) <<
+c) <
+d) >
+b
+2. Which function is used to position back from the end of file object?
+a) seekg
+b) seekp
+c) both seekg & seekp
+d) seekf
+a
+3. How many objects are used for input and output to a string?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <fstream>    using namespace std;    int main ()     {        int length;        char * buffer;        ifstream is;        is.open ("sample.txt", ios :: binary );        is.seekg (0, ios :: end);        length = is.tellg();        is.seekg (0, ios :: beg);        buffer = new char [length];        is.read (buffer, length);        is.close();        cout.write (buffer, length);        delete[] buffer;        return 0;    }
+a) This is sample
+b) sample
+c) Error
+d) Runtime error
+d
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main ()    {        char first, second;        cout << "Enter a word: ";        first = cin.get();        cin.sync();        second = cin.get();        cout << first << endl;        cout << second << endl;        return 0;    }
+a) first
+b) second
+c) returns first 2 letter or number from the entered word
+d) third
+c
+Output:
+$ g++ stream.cpp
+$ a.out
+Enter a word: steve
+s
+t
+6. What will be the output of the following C++ code?
+    #include<iostream>    #include <fstream>    using namespace std;    int main ()     {        ofstream outfile ("test.txt");        for (int n = 0; n < 100; n++)        {            outfile << n;            outfile.flush();        }        cout << "Done";        outfile.close();        return 0;    }
+a) Done
+b) Error
+c) Runtime error
+d) DoneDoneDone
+a
+Output:
+$ g++ stream1.cpp
+$ a.out
+Done
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main ()    {        int a = 100;        double b = 3.14;        cout << a;        cout << endl;        cout << b << endl << a * b;        endl (cout);        return 0;    }
+a) 100
+b) 3.14
+c) 314
+d) All of the mentioned
+d
+Output:
+$ g++ stream2.cpp
+$ a.out
+100
+3.14
+314
+8. By seeing which operator thus this C++ program stops getting the input?
+    #include <iostream>    #include <fstream>    using namespace std;    int main ()    {        char ch;        streambuf * p;        ofstream os ("test.txt");        pbuf = os.rdbuf();        do {            ch = cin.get();            p -> sputc(ch);        } while (ch != '.');        os.close();        return 0;    }
+a) dot operator
+b) insertion operator
+c) $ symbol
+d) @ symbol
+a
+Output:
+$ g++ stream3.cpp
+$ a.out
+Steve.
+9. Which member function is used to determine whether the stream object is currently associated with a file?
+a) is_open
+b) buf
+c) string
+d) is_out
+a
+10. Which header file is used for reading and writing to a file?
+a) #include<iostream>
+b) #include<fstream>
+c) #include<file>
+d) #include<fe>
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Formatting» Next - C++ Programming Questions and Answers – Buffering 

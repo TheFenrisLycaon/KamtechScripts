@@ -1,0 +1,66 @@
+1. set command by default displays the variables in the current shell.
+a) True
+b) False
+a
+2. Which one of the following keyword is used with the set command to avoid overwrite existing file?
+a) nooverwrite
+b) ignore
+c) clobber
+d) noclobber
+d
+$ set  -o  noclobber        // no more overwriting file with >
+ 
+3. To prevent accident logging out, we can use ____ as a keyword with the set command.
+a) noclobber
+b) log out
+c) ignoreeof
+d) ignore
+c
+$ set  -o  ignoreeof        //no more logging out using ctrl-d
+4. To reverse any setting updated by set command we can use ____ symbol.
+a) –
+b) /
+c) +
+d) $
+c
+$ set +o noclobber.
+5. The ____ acts as a shorthand representation of the home directory.
+a) $
+b) ~
+c) “”
+d) %
+b
+$ cd ~ sharma         //effectively becomes $HOME/sharma
+6. Every shell uses at least one startup script in the user’s home directory, which is executed when the user logs in.
+a) True
+b) False
+a
+.profile (Bourne shell)
+.profile and .kshrc (Korn shell)
+.bash_profile or .bashrc (bash shell)
+7. Which file is executed every time a second shell is called up?
+a) .profile
+b) rc file
+c) .script
+d) env.file
+b
+8. Which of the following are history variables?
+a) HISTISIZE
+b) HISTFILESIZE
+c) HISTORY
+d) HISTISIZE and HISTFILESIZE
+d
+$ HISTSIZE=500                      // bash and Korn
+$ HISTFILESIZE=1000                // bash only -determines the size of disk file
+9. Which one of the following command will search history list for the previous command having the last occurrence of string cvf?
+a) /cvf
+b) /cvf [enter] 
+c) /bkw
+d) !cvf
+a
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix Questions and Answers – Shell Variables – 2» Next - Unix  Questions and Answers – Advanced File Handling Commands 

@@ -1,0 +1,80 @@
+1. The driving point impedance of a one-port reactive network is given by Z(s)=5(s2+4)(s2+25)/s(s2+16). After taking the partial fractions, find the coefficient of 1/s.
+a) 25/4
+b) 50/4
+c) 100/4
+d) 125/4
+d
+By taking the partial fraction expansion of Z(s), we obtain A=5(s2+4)(s2+25)/((s2+16))|s=0
+=(5×4×25)/16=125/4.
+2. The driving point impedance of a one-port reactive network is given by Z(s)=5(s2+4)(s2+25)/s(s2+16). After taking the partial fractions, find the coefficient of (s + j4).
+a) 135/4
+b) 145/4
+c) 155/4
+d) 165/4
+a
+B=5 (s2+4)(s2+25)/s(s-j4)|s=-j4
+                            = 135/8. 
+3. The driving point impedance of a one-port reactive network is given by Z(s)=5(s2+4)(s2+25)/s(s2+16). After taking the partial fractions, what is the value of H from Z (s)?
+a) 3
+b) 4
+c) 5
+d) 6
+c
+So H = 5.
+4. The driving point impedance of a one-port reactive network is given by Z(s)=5(s2+4)(s2+25)/s(s2+16). After taking the partial fractions, what is the value of C0?
+a) 1/125
+b) 4/125
+c) 2/125
+d) 3/125
+b
+And C0=1/P0
+                              = 1/(125/4)=4/125 Farad. 
+5. The driving point impedance of a one-port reactive network is given by Z(s)=5(s2+4)(s2+25)/s(s2+16). After taking the partial fractions, what is the value of L∞?
+a) 2
+b) 3
+c) 4
+d) 5
+d
+                              = 5 H.
+6. The driving point impedance of a one-port reactive network is given by Z(s)=5(s2+4)(s2+25)/s(s2+16). After taking the partial fractions, what is the value of C2?
+a) 4/270
+b) 8/270
+c) 12/270
+d) 16/270
+b
+                              = 8/(2×135)=8/270 F. 
+7. The driving point impedance of a one-port reactive network is given by Z(s)=5(s2+4)(s2+25)/s(s2+16). After taking the partial fractions, what is the value of L2?
+a) 135/60
+b) 135/62
+c) 135/64
+d) 135/66
+c
+                              = (2×135)/(16×8)=135/64 H. 
+8. For performing second Foster form, after splitting the Z (S) in The driving point impedance of a one-port reactive network is given by Z(s)=5(s2+4)(s2+25)/s(s2+16), what is the coefficient of s/((s2+4)) is?
+a) 1/35
+b) 2/35
+c) 3/35
+d) 4/35
+b
+On solving we get the value of A as 2/35.
+So the coefficient of s/((s2+4)) is 2/35. 
+9. For performing second Foster form, after splitting the Z (S) in The driving point impedance of a one-port reactive network is given by Z(s)=5(s2+4)(s2+25)/s(s2+16), what is the coefficient of s/((s2+4)) is?
+a) 4/35
+b) 3/35
+c) 2/35
+d) 1/35
+c
+10. Determine the value of L1 by performing second foster form for Z(s)=5(s2+4)(s2+25)/s(s2+16).
+a) 35/4
+b) 35/3
+c) 35/2
+d) 35
+a
+We know L1 = 1/2P1
+                              = 35/4 H. 
+Sanfoundry Global Education & Learning Series – Network Theory.
+To practice all areas of Network Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Theory Questions and Answers – Frequency Response of Reactive One-Ports» Next - Network Theory Questions and Answers – Synthesis of Reactive One-Ports by Cauer Method 

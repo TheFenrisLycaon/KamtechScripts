@@ -1,0 +1,86 @@
+1. “DJNZ R0, label” is ________ byte instruction.
+a) 2
+b) 3
+c) 1
+d) Can’t be determined
+a
+2. JZ, JNZ, instructions checked content of _______ register.
+a) DPTR
+b) B
+c) A
+d) PSW
+c
+3. Calculate the jump code for again and here if code starts at 0000H
+MOV R1,#0
+MOV A,#0
+MOV R0,#25H
+AGAIN:ADD A,#0ECH
+JNC HERE
+HERE: INC R1
+DJNZ R0,AGAIN 
+MOV R0,A
+END
+a) F3,02
+b) F9,01
+c) E9,01
+d) E3,02
+c
+So here if we start with 0000H
+then source address is 0008H and the destination address is 0004H
+So loop address is 04-0A=E9
+4. When the call instruction is executed the topmost element of stack comes out to be
+a) the address where stack pointer starts
+b) the address next to the call instruction
+c) address of the call instruction
+d) next address of the stack pointer
+b
+5. LCALL instruction takes
+a) 2 bytes
+b) 4 bytes
+c) 3 bytes
+d) 1 byte
+c
+6. Are PUSH and POP instructions are a type of CALL instructions?
+a) yes
+b) no
+c) none of the mentioned
+d) cant be determined
+b
+7. What is the time taken by one machine cycle if crystal frequency is 20MHz?
+a) 1.085 micro seconds
+b) 0.60 micro seconds
+c) 0.75 micro seconds
+d) 1 micro seconds
+b
+8. Find the number of times the following loop will be executed
+MOV R6,#200
+BACK:MOV R5,#100
+HERE:DJNZ R5, HERE
+DJNZ R6,BACK
+END
+a) 100
+b) 200
+c) 20000
+d) 2000
+c
+9. What is the meaning of the instruction MOV A,05H?
+a) data 05H is stored in the accumulator
+b) fifth bit of accumulator is set to one
+c) address 05H is stored in the accumulator
+d) none of the mentioned
+c
+10.  Do the two instructions mean the same?
+1) BACK:  DEC R0            
+          JZ BACK
+2) BACK:  DJNZ RO, BACK
+a) yes
+b) no
+c) cant be determined
+d) yes and the second one is preferred
+b
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - 8051 Microcontroller Questions and Answers – Architecture» Next - 8051 Microcontroller Questions and Answers – I/O Port Programming and Addressing Modes 

@@ -1,0 +1,67 @@
+1. How many voltage levels are present when a pin uses digitalWrite()?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+2. Can the digitalRead() function identify analog voltages?
+a) Yes, it can
+b) No, it cannot
+c) Yes, it can but only 2
+d) Yes, it can but only 4
+c
+3. Can the digitalWrite() function be used from any analog pin?
+a) No, it cannot
+b) Yes, it can, but only on certain Arduino Boards
+c) Yes, it can
+d) Yes, it can, but only through certain pins
+b
+4. How many errors are present in the code given below?
+	int i=10;	void setup() {		pinMode(i,OUTPUT);		digitalwrite(HIGH);	}	void loop() {		//Do Nothing.	}
+a) 1
+b) 2
+c) 3
+d) 4
+b
+5. How many arguments does the digitalRead() function have?
+a) 1
+b) 2
+c) 3
+d) 4
+a
+6. Can the analogRead() function be used as a replacement for the digitalRead() function?
+a) No, it cannot be used
+b) Yes, it can be used but only on certain Arduino Boards
+c) Yes, it can be used
+d) Yes, it can be used but only for certain pins
+c
+7. What is the need for a quantizer in Digital Communications?
+a) Break up a sampled signal to a finite dataset
+b) Sample a pure analog signal
+c) Sample a digital signal
+d) Encode an analog signal
+a
+8. Which of the following is not a Digital Encoding Technique?
+a) NRZ (Non-Return to Zero)
+b) Amplitude Modulation
+c) Manchester
+d) RZ (Return to Zero)
+b
+9. Which of the following is not a method to convert analog signals to digital signals?
+a) Pulse Code Modulation
+b) Pulse Amplitude Modulation
+c) Pulse Width Modulation
+d) Frequency Modulation
+d
+10. What is the numeric base of the math operations performed in binary?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – The loop() Function» Next - Arduino Questions and Answers – Analog Input Output 

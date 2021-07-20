@@ -1,0 +1,92 @@
+Consider the following relational schemas and answer the questions below
+The section relation
+Course_idSec_idSemesterYearBuilding
+BIO-1011Spring2010Painter
+CS-1024Summer2009Packyard
+EE-2013Fall2010Watson
+FIN-3011Spring2011Richard
+The teaches relation
+IdCourse_idSec_idSemesterYear
+1001CS-1011Fall2009
+1002EE-2012Spring2010
+1003FIN-3013Fall2009
+1004BIO-1011Summer2011
+1. Which one of the following can be treated as a primary key in teaches relation?
+a) Id
+b) Semester
+c) Sec_id
+d) Year
+a
+2. The primary key in the section relation is
+a) Course_id
+b) Sec_id
+c) Both Course_id and Sec_id
+d) All the attributes
+c
+3.
+SELECT * FROM teaches WHERE Sec_id = 'CS-101';
+Which of the following Id is selected for the following query?
+a) 1003
+b) 1001
+c) None
+d) Error message appears
+d
+4.
+SELECT Id, Course_id, Building FROM SECTION s AND teaches t WHERE t.year=2009;
+Which of the following Id are displayed?
+a) 1003
+b) 1001
+c) Both 1003 and 1001
+d) Error message appears
+c
+5. The query which selects the Course_id ‘CS-101’ from the section relation is
+a) Select Course_id from section where Building = ‘Richard’;
+b) Select Course_id from section where Year = ‘2009’;
+c) Select Course_id from teaches where Building = ‘Packyard’;
+d) Select Course_id from section where Sec_id = ‘3’;
+b
+6.
+CREATE TABLE SECTION
+(Course_id VARCHAR (8),
+Sec_id VARCHAR (8),
+Semester VARCHAR (6),
+YEAR NUMERIC (4,0),
+Building NUMERIC (15),
+PRIMARY KEY (course id, sec id, semester, YEAR),
+FOREIGN KEY (course id) REFERENCES course);
+Which of the following has an error in the above create table for the relation section
+a) Primary key (course id, sec id, semester, year)
+b) Foreign key (course id) references course
+c) Year numeric (4,0)
+d) Building numeric (15)
+d
+7. The relation with primary key can be created using
+a) Create table instructor (Id, Name)
+b) Create table instructor (Id, Name, primary key(name))
+c) Create table instructor (Id, Name, primary key (Id))
+d) Create table instructor ( Id unique, Name )
+c
+8. How can the values in the relation teaches be deleted?
+a) Drop table teaches;
+b) Delete from teaches;
+c) Purge table teaches;
+d) Delete from teaches where Id =’Null’;
+b
+9. In the above teaches relation ” Select * from teaches where Year = ‘2010’” displays how many rows?
+a) 2
+b) 4
+c) 5
+d) 1
+a
+10. The relation changes can be got back using ________ command
+a) Flashback
+b) Purge
+c) Delete
+d) Getback
+a
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Problems, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Entity-Relationship Diagrams» Next - Database Questions and Answers – Entity-Relationship Design Issues 

@@ -1,0 +1,61 @@
+This section on C MCQs (multiple choice questions) focuses on “Error Handling”. One shall practice these MCQs to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our multiple choice questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C multiple choice questions on “Error Handling” along with answers, explanations and/or solutions:
+1. What is the output of the following C code if there is no error in stream fp?
+    #include <stdio.h>    int main()    {        FILE *fp;        fp = fopen("newfile", "w");        printf("%d\n", ferror(fp));        return 0;    }
+a) Compilation error
+b) 0
+c) 1
+d) Any nonzero value
+b
+2. Within main, return expr statement is equivalent to ________
+a) abort(expr)
+b) exit(expr)
+c) ferror(expr)
+d) none of the mentioned
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        FILE *fp;        char c;        int n = 0;        fp = fopen("newfile1.txt", "r");        while (!feof(fp))        {            c = getc(fp);            putc(c, stdout);        }    }
+a) Compilation error
+b) Prints to the screen content of newfile1.txt completely
+c) Prints to the screen some contents of newfile1.txt
+d) None of the mentioned
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        FILE *fp = stdout;        stderr = fp;        fprintf(stderr, "%s", "hello");    }
+a) Compilation error
+b) hello
+c) Undefined behaviour
+d) Depends on the standard
+b
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        char buf[12];        stderr = stdin;        fscanf(stderr, "%s", buf);        printf("%s\n", buf);    }
+a) Compilation error
+b) Undefined behaviour
+c) Whatever user types
+d) None of the mentioned
+c
+6. stderr is similar to?
+a) stdin
+b) stdout
+c) both stdout and stdin
+d) none of the mentioned
+a
+7. What happens when we use the following C statement?
+fprintf(stderr, "error: could not open filen");
+a) The diagnostic output is directly displayed in the output
+b) The diagnostic output is pipelined to the output file
+c) The line which caused error is compiled again
+d) The program is immediately aborted
+a
+8. Which of the following function can be used to terminate the main function from another function safely?
+a) return(expr);
+b) exit(expr);
+c) abort();
+d) both exit(expr); and abort();
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – File Access – 2» Next - C Programming Questions and Answers – Error Handling – 2 

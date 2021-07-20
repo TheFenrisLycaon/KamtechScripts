@@ -1,0 +1,66 @@
+1. Which of these classes is used to read and write bytes in a file?
+a) FileReader
+b) FileWriter
+c) FileInputStream
+d) InputStreamReader
+c
+2. Which of these data types is returned by every method of OutputStream?
+a) int
+b) float
+c) byte
+d) none of the mentioned
+d
+3. Which of these classes is used for input and output operation when working with bytes?
+a) InputStream
+b) Reader
+c) Writer
+d) All of the mentioned
+a
+4. Which among the following is used for storage of memory aspects?
+a) BufferedStream
+b) FileStream
+c) MemoryStream
+d) None of the mentioned
+c
+5. Which among the following is used for storage of unmanaged memory aspects?
+a) BufferedStream
+b) FileStream
+c) MemoryStream
+d) UnmanagedMemoryStream
+d
+6. Which property among the following represents the current position of the stream?
+a) long Length
+b) long Position
+c) int Length
+d) all of the mentioned
+a
+7. Choose the filemode method which is used to create a new output file with the condition that the file with same name must not exist.
+a) FileMode.CreateNew
+b) FileMode.Create
+c) FileMode.OpenOrCreate
+d) FileMode.Truncate
+a
+8. Choose the filemode method which is used to create a new output file with the condition that the file with same name if exists will destroy the old file:
+a) FileMode.CreateNew
+b) FileMode.Create
+c) FileMode.OpenOrCreate
+d) FileMode.Truncate
+b
+9. Which of these is a method used to clear all the data present in output buffers?
+a) clear()
+b) flush()
+c) fflush()
+d) close()
+b
+10. Which of these is a method used for reading bytes from the file?
+a) clear()
+b) ReadByte()
+c) put()
+d) write()
+b
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Introduction of Stream Classes» Next - C# Questions & Answers – Character Stream 

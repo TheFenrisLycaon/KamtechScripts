@@ -1,0 +1,81 @@
+1. Which of these is incorrect for an operational amplifier?
+a) It has a high voltage gain
+b) It is a direct coupled amplifier
+c) It is only useful for amplifying AC signals
+d) It was originally designed to perform mathematical operations
+c
+2. In the given block diagram of an op-amp. What are A, B, C and D?
+a) A = Dual input and balanced output differential amplifier, B = Dual input and unbalanced output differential amplifier, C = Level shifter, D = Power amplifier
+b) A = Dual input and balanced output differential amplifier, B = Dual input and balanced output differential amplifier, C = Dual input and unbalanced output differential amplifier, D = Normal amplifier
+c) A = Dual input and unbalanced output differential amplifier, B = Dual input and balanced output differential amplifier, C = Voltage regulator, D = Power amplifier
+d) A = Normal amplifier, B = Dual input and unbalanced output differential amplifier, C = Level shifter, D = Dual input and balanced output differential amplifier
+a
+3. In an ideal op-amp, which is not true?
+a) Open loop voltage gain is infinite
+b) Input resistance is infinite
+c) Slew rate is infinite
+d) CMRR is zero
+d
+4. A practical op-amp has a bandwidth of only 10 Hz. Gain is 106, and the required bandwidth is 100 kHz. How much feedback is required?
+a) 0.99% negative feedback
+b) 0.99% positive feedback
+c) 1% negative feedback
+d) 1% positive feedback
+a
+1 + β106 = 10k
+β = 9.999×10-3
+In percentage, feedback β = 0.99% negative feedback.
+5. Given that for an op-amp the gain is 103, the slew rate is 1.5V/μsec. Input is 5×10-3sinωt, calculate maximum frequency to prevent distortion.
+a) 47.7 kHz
+b) 0.3 MHz
+c) 477 Hz
+d) 3 kHz
+a
+A.Vmω =< 1.5 V/μsec
+103.5.10-3.ω = < 1.5×106
+ω=<0.3×106
+Frequency f = 0.0477×106Hz.
+6. Given that CMRR is 100dB. Input common-mode voltage is 12 V. Differential voltage gain is 4000. Calculate output common-mode voltage.
+a) 48V
+b) 0.48V
+c) 20V
+d) 11V
+b
+Log(48000/VOCM) = 5
+48000/VOCM = 105
+VOCM = 0.48V.
+7. The unity gain bandwidth for an op-amp having open loop gain 2×106 is 10 Mhz. Calculate the AC gain of op-amp at an input of 2000 Hz.
+a) 2000
+b) 5000
+c) 10000
+d) 12.5
+b
+fOL = 10M/2×106 = 5Hz
+The AC gain |A| = \(\frac{AOL}{\sqrt{1+(f/5)^2}}\) 
+|A| = 2×106/400 = 5000.
+8. Which of the following option is correct according to the below statements?
+A: Voltage gain of op-amp decreases at high frequencies
+B: Its internal structure uses a capacitor
+a) Both A and B are correct, and B is the correct reason for A
+b) Both A and B are correct, but B is not the correct reason for A
+c) A is correct and B is incorrect
+d) A is incorrect and B is correct
+a
+9. Till what frequency do we get amplification from IC 741?
+a) Unity gain bandwidth
+b) 3-dB frequency
+c) Infinity
+d) UGB + fOL
+a
+10. What is the use of the compensation capacitor in op-amp?
+a) Improves the amplification of op-amp
+b) Decreases the slew rate of op-amp
+c) Increases the bandwidth of op-amp
+d) Op-amp acts as all pass filter
+b
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Different Types of Multivibrators – 2» Next - Analog Circuits Questions and Answers – Frequency Filters – 1 

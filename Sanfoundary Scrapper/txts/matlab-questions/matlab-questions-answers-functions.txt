@@ -1,0 +1,86 @@
+1. What is the name of a primary function?
+a) Name of M-file
+b) Name of Script File
+c) Name of Help file
+d) Name of Private-File
+a
+2. Predominantly, what are the two kinds of errors in MATLAB programs?
+a) Syntax and runtime
+b) Syntax and logic
+c) Logic and runtime
+d) Syntax and algorithmic
+a
+3. Which code would you use to find the value of the function f?
+f(x)=sin(x) + cos (x) + tan (x) at x = π/4
+a) sin(45)+cos(45)+tan(45)
+b) sin(pi/4)+cos(pi/4)+tan(pi/4)
+c) sin(45®)+cos(45®)+sin(45®)
+d) sind(45)+cosd(45)+tand(45)
+d
+4. If the program demands evaluation of multiple, only decimal, values of the same function, what is the better way amongst the following?
+a) Using anonymous functions or inline functions
+b) Using str2func
+c) Using private functions
+d) Using any function
+b
+5. What are persistent variables?
+a) Variables which retain values between calls to the function
+b) Variables which help in calling a function
+c) Variables which deal with functions
+d) Variables global to the function
+a
+6. Variables need to have same name while being passed from the primary function to the sub-function.
+a) True
+b) False
+b
+7. Find the error in below code.
+>>f = inline('t.^4', 't');		g = inline('int(h(t), t)', 't');
+a) There is no function as inline
+b) The error will be in defining g
+c) The error will be in evaluating a numeric value for the function g
+d) Syntactical error in defining g
+d
+8. Which command can be used for single step execution in debugging mode?
+a) dbstep
+b) dbstepin
+c) dbstatus
+d) dbcont
+a
+9. How do we access a global variable in nested functions?
+a) Simply seek the variable from the primary function
+b) Make a copy of the global variables from the primary function
+c) Declare the variable within the function
+d) Declare the variable as global
+d
+10. How does MATLAB help in passing function arguments?
+a) By call by value and call by reference
+b) Only by call by value
+c) Only by call by reference
+d) By call by address
+a
+11. Which line is treated as H1 line?
+a) Comment line succeeding function definition
+b) Comment line preceding function definition
+c) Comment line after function
+d) All lines before and after function definition
+c
+12. Find the error returned by MATLAB:
+syms a x y;	a = xˆ2 + yˆ2;	   subs(a, [x,y], (2,3,4))
+a) There is no subs command in MATLAB
+b) The subs command has syntactical error
+c) The subs command has extra input arguments
+d) The subs command has incorrect arguments
+b
+13. Predict the error, MATLAB will generate, in the following line of code:
+ g = inline(‘3x+5*x’, ‘t’)
+a) No error
+b) Syntactical error
+c) Wrong arguments
+d) Expecting (,{ or [
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Vectors and Matrices – 2» Next - MATLAB Questions and Answers – Graphics 

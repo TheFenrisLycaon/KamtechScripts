@@ -1,0 +1,149 @@
+1. Which of the following is true about packages?
+a) Package is collection of libraries
+b) Library is collection of packages
+c) Package is collection of entities
+d) Entity is collection of packages
+b
+2. A package may consist of _________ design units.
+a) 2
+b) 3
+c) 4
+d) 5
+a
+3. Any item declared in a package declaration section are visible to _______
+a) Every design unit
+b) Package body only
+c) Library containing that package
+d) Design unit that USE the package
+d
+4. What do you call a constant declared in the package declaration, without its initial value specified?
+a) Constant
+b) Package constant
+c) Deferred constant
+d) Undefined constant
+c
+5. Which of the following is the correct syntax to declare a package?
+a)
+     PACKAGE package_name IS
+     declarations;
+     END package_name;
+     PACKAGE BODY package_name IS
+     Functions and procedures descriptions;
+     END package_name;
+b)
+     PACKAGE package_name IS
+     declarations;
+     PACKAGE BODY package_body_name IS
+     Functions and procedures descriptions;
+     END package_name;
+c)
+     PACKAGE package_name IS
+     declarations;
+     END package_name;
+     PACKAGE BODY package_body_name IS
+     Functions and procedures descriptions;
+     END package_name;
+d)
+     PACKAGE package_name IS
+     declarations;
+     PACKAGE BODY package_name IS
+     Functions and procedures descriptions;
+     END package_name;
+a
+  
+6. How to use a package in a VHDL design unit?
+a)
+USE PACKAGE package_name.part;
+b)
+    LIBRARY library_name;
+    USE package_name.part;
+c)
+    LIBRARY library_name;
+    USE library_name.package_name.part;
+d)
+USE library_name.package_name;
+c
+  
+7. It is possible to use hierarchical libraries in VHDL.
+a) True
+b) False
+b
+8. Which of the following package is not synthesizable?
+a)
+     PACKAGE my_pack IS
+     SIGNAL x : IN std_logic;
+     END my_pack;
+b)
+    PACKAGE my_pack IS
+    CONSTANT x : INTEGER := 5;
+     END my_pack;
+c)
+     PACKAGE my_pack IS
+     FUNCTION my_func RETURN BOOLEAN IS;
+     END my_pack;
+     PACKAGE BODY my_pack IS
+     Function description;
+     END my_pack;
+d)
+    PACKAGE my_pack IS
+    TYPE color IS (red, green, blue);
+    END PACKAGE;
+a
+  
+9. Among which of the following, it is necessary to declare a package body?
+a)
+     PACKAGE my_pack IS
+     SIGNAL x : IN std_logic;
+     END my_pack;
+b)
+    PACKAGE my_pack IS
+    CONSTANT x : INTEGER := 5;
+     END my_pack;
+c)
+     PACKAGE my_pack IS
+     FUNCTION my_func RETURN BOOLEAN IS;
+     END my_pack;
+d)
+    PACKAGE my_pack IS
+    TYPE color IS (red, green, blue);
+    END PACKAGE;
+c
+  
+10. It is possible to include another package in a package.
+a) True
+b) False
+a
+11. Which of the following is not a in-built package in VHDL?
+a) STD_LOGIC_1164
+b) TEXTIO
+c) STANDARD
+d) STD
+d
+12. If a user wants to include his/her own package in the body, which library he/she must use?
+a) STD
+b) IEEE
+c) WORK
+d) STD_LOGIC
+c
+13. Packages increases _______ of the code.
+a) Reusability
+b) Readability
+c) Managing
+d) Resolution
+a
+14. It is possible to modify the STD_LOGIC_1164 package of IEEE library.
+a) True
+b) False
+b
+15. Which of the following can’t have multiple assignments or drivers?
+a) STD_LOGIC
+b) INTEGER
+c) STD_ULOGIC
+d) BIT
+c
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Signal vs Variables – 2» Next - VHDL Questions and Answers – Some Predefined Packages 

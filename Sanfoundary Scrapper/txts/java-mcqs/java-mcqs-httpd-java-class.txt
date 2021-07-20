@@ -1,0 +1,60 @@
+1. Which of these methods of httpd class is used to read data from the stream?
+a) getDta()
+b) GetResponse()
+c) getStream()
+d) getRawRequest()
+d
+2. Which of these method of httpd class is used to get report on each hit to HTTP server?
+a) log()
+b) logEntry()
+c) logHttpd()
+d) logResponse()
+b
+3. Which of these methods are used to find a URL from the cache of httpd?
+a) findfromCache()
+b) findFromCache()
+c) serveFromCache()
+d) getFromCache()
+c
+4. Which of these variables stores the number of hits that are successfully served out of cache?
+a) hits
+b) hitstocache
+c) hits_to_cache
+d) hits.to.cache
+d
+5. Which of these method of httpd class is used to write UrlCacheEntry object into local disk?
+a) writeDiskCache()
+b) writetoDisk()
+c) writeCache()
+d) writeDiskEntry()
+a
+6. What will be the output of the following Java program?
+    import java.net.*;    class networking     {        public static void main(String[] args) throws Exception         {            URL obj = new URL("https://www.sanfoundry.com/javamcq");            URLConnection obj1 = obj.openConnection();            int len = obj1.getContentLength();            System.out.print(len);        }    }
+Note: Host URL is having length of content 127.
+a) 126
+b) 127
+c) Compilation Error
+d) Runtime Error
+b
+Output:
+$ javac networking.java
+$ java networking 
+127
+7. Which of these method is used to start a server thread?
+a) run()
+b) start()
+c) runThread()
+d) startThread()
+a
+8. Which of these method is called when http daemon is acting like a normal web server?
+a) Handle()
+b) HandleGet()
+c) handleGet()
+d) Handleget()
+c
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Networking – Server, Sockets & httpd Class» Next - Java Questions & Answers – URL Class 

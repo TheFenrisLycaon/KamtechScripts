@@ -1,0 +1,125 @@
+1. Vectors depend upon brackets while scalars don’t.
+a) True
+b) False
+a
+2. How many errors will MATLAB show if the following code entered?
+A=[1;2;3]; B=[1 2]; C=A.*B;D=C*A;
+a) 2
+b) 1
+c) No error
+d) 4
+b
+3. To see the sub-matrix with aij for 2<=i<=4 and 1<=j<=2 of a matrix a, of order 5*6, which code is used?
+a) a(2;4,1;2)
+b) a(2,4:1,2)
+c) a(2:4,1:2)
+d) a(2,4;1,2)
+c
+4.  Which code shows the use of ellipsis in MATLAB?
+a) 
+
+  A = [1 2 3;...
+      5 6 7]
+b) A = [1;2’3] 
+c) 
+
+   A = [1;2..
+        3;4]
+Join Sanfoundry@YouTube
+d) A = [1:2..:2] 
+a
+
+  A = [1 2 3;...
+      5 6 7]
+It is another form of continuing lines but that form is called carriage return. 
+5. What is the symbol used to evaluate the transpose of a vector?
+a) “ ^ ”
+b) “ * ”
+c) “ ‘ ”
+d) “ ~ ”
+c
+6. What is the advantage of MATLAB over other computing software with matrix dimensions?
+a) No advantage
+b) Real time pre-defined memory allocation
+c) Real time user-defined memory allocation
+d) Matrix operations are easily computed
+c
+7.   Which code will help to concatenate two matrices easily in 2 dimensions?
+
+Matrices:   A = 1 2 	B = 1 2
+	        3 4         3 4
+a) cat(A,B)
+b) cat(2,[1 2;3 4], [1 2; 3 4])
+c) cat(2;[1 2,3 4]; [1 2, 3 4])
+d) cat([1 2;3 4], [1 2; 3 4])
+b
+8.  Which code can be used for changing the dimensions of a matrix as follows?
+
+Input matrix: 1     2     3		Output matrix: 1 4 2 5 3 6
+  	      4     5     6
+a) reshape([1,2,3;4,5,6],1,6)
+b) reshape([1,2,3;4,5,6];1;6)
+c) reshape([1,2,3;4,5,6]:1:6)
+d) reshape([1,2,3;4,5,6],6,1)
+a
+9. What is the function used to multiply a matrix, A, with itself n times?
+a) mtimes(A,n)
+b) ntimes(A,n)
+c) mtimes(n,A)
+d) mtimes(A^n)
+a
+10. Which code is used to solve the system of linear equation: A.(x2)= B?
+
+A = 1	4		B = 1	2
+    1	4		    1	2
+a) sqrt([1 4;1 4]/[1 2;1 2])
+b) Inf
+c) sqrt([1 4,1 4]/[1 2,1 2])
+d) sqrt[(1 4;1 4]/[1 2;1 2)] 
+a
+
+Output:    ans=
+ 	    0.0000 +    Infi      Inf + 0.0000i
+   	    0.0000 +    Infi      Inf + 0.0000i
+11. Which operator set is used for left and right division respectively?
+a) .\ and ./
+b) ./ and .\
+c) Left division and right division is not available in MATLAB
+d) / and \
+a
+12. If A and B are two matrices, such that a./b=b.\a, what is concluded?
+a) Nothing special
+b) A = AT
+c) A = A-1
+d) A = A
+a
+13. If a./b=(b./a)T, what can be concluded about the matrices a and b?
+a) a = bT
+b) a = b-1
+c) a = b’
+d) nothing special
+a
+14. What is the difference between a[] and a{}?
+a) a[] is for empty cell array while a{} is for empty linear array
+b) a[] is for empty linear array while a{} is for empty cell array
+c) No difference
+d) a[] is an empty row vector while a{} is an empty column vector
+b
+15. Choose the function to solve the following problem, symbolically, in the easiest way.
+3x+y=5 and 2x+3y=7
+a) linsolve(x,y) where x and y are the co-efficient and result matrix respectively
+b) solve(x,y) where  x and y are the co-efficient and result matrix respectively
+c) sol(x,y) where x and y are the co-efficient and result matrix respectively
+d) the equations are not solvable
+a
+
+Output: linsolve([3,1;2,3],[5;7]
+ 	ans=
+ 	1.1428571428571428571428571428571
+        1.5714285714285714285714285714286
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Solving Equations» Next - MATLAB Questions and Answers – Vectors and Matrices – 2 

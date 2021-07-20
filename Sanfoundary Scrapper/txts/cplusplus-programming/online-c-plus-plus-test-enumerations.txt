@@ -1,0 +1,84 @@
+This section on online C++ test focuses on “Enumerations”. One shall practice these test questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C online test questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of online C++ test questions on “Enumerations” along with answers, explanations and/or solutions: 
+1. Identify the incorrect option.
+a) enumerators are constants
+b) enumerators are user-defined types
+c) enumerators are same as macros
+d) enumerator values start from 0 by default
+c
+2. In which type do the enumerators are stored by the compiler?
+a) string
+b) integer
+c) float
+d) string & float
+b
+3. To which of these enumerators can be assigned?
+a) integer
+b) negative
+c) enumerator
+d) all of the mentioned
+d
+4. What will happen when defining the enumerated type?
+a) it will not allocate memory
+b) it will allocate memory
+c) it will not allocate memory to its variables
+d) allocate memory to objects
+a
+5. Which variable does equals in size with enum variable?
+a) int variable
+b) float variable
+c) string variable
+d) float & string variable
+a
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    enum  cat     {        temp = 7    };    int main()    {        int age = 14;        age /= temp;        cout << "If you were cat, you would be " << age << endl;        return 0;    }
+a) If you were cat, you would be 5
+b) If you were cat, you would be 2
+c) If you were cat, you would be 7
+d) If you were cat, you would be 9
+b
+$ g++ enum1.cpp
+$ a.out
+If you were cat, you would be 2
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    enum test     {        A = 32, B, C    };    int main()    {        cout << A << B<< C;        return 0;    }
+a) 323334
+b) 323232
+c) 323130
+d) 323134
+a
+Output:
+$ g++ enum2.cpp
+$ a.out
+323334
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    enum colour     {        green, red, blue, white, yellow, pink    };    int main()    {        cout << green<< red<< blue<< white<< yellow<< pink;        return 0;    }
+a) 012345
+b) 123456
+c) compile time error
+d) runtime error
+a
+Output:
+$ g++ enum3.cpp
+$ a.out
+012345
+9. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        enum channel {star, sony, zee};        enum symbol {hash, star};        int i = 0;        for (i = star; i <= zee; i++)         {            printf("%d ", i);        }        return 0;    }
+a) 012
+b) 123
+c) compile time error
+d) runtime error
+c
+10. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int i;        enum month         {            JAN = 1, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC        };        for (i = MAR; i <= NOV; i++)            cout << i;        return 0;    }
+a) 01234567891011
+b) 123456789101112
+c) 34567891011
+d) 123456789
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Void» Next - C++ Programming Questions and Answers – Declaration 

@@ -1,0 +1,67 @@
+1. What is a banded matrix?
+a) Sparse matrix
+b) Rectangular matrix
+c) Unit matrix
+d) Square matrix
+a
+2. Skyline matrix storage is in the form of ______
+a) Banded matrix
+b) Sparse matrix
+c) Singular matrix
+d) Identity matrix
+b
+3. Symmetry and sparsity of the global stiffness matrix can be approached by _____ methods.
+a) One
+b) Three
+c) Two
+d) Four
+c
+4. Which of these was one of the methods for determining assembly of global stiffness matrix?
+a) Galerkin approach
+b) Skyline approach
+c) Rayleigh method
+d) Assembly method
+b
+5. In banded matrix, elements are _____ placed in stiffness matrix.
+a) Singular
+b) Determinant values
+c) Directly
+d) Indirectly
+c
+6. In Skyline matrix, the elements in a stiffness matrix can be placed in _______
+a) Direct values
+b) Determinant values
+c) Load values
+d) Vector form
+d
+7. Formula for maximum span or half band width in banded approach is _____
+a) me=[&vert;i-j&vert;+1] 
+b) \(\frac{y_2-y_1}{l_e}\) 
+c) q‘=lq
+d) me=[2&vert;i-j&vert;+1] 
+d
+me=[2&vert;i-j&vert;+1]
+8. The first step of skyline assembly matrix involves evaluation of ____
+a) Column height
+b) Row height
+c) Matrix height
+d) Undefined
+a
+9. The second step in skyline approach is assembling the element stiffness values into _____
+a) Row vector
+b) Identity vector
+c) Column vector
+d) Determinant vector
+c
+10. The details of a skyline assembly matrix are implemented in a program called ____
+a) Boolean program
+b) Cholesky program
+c) Truss program
+d) Trussky program
+d
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method for Freshers,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Three Dimensional Trusses» Next - Finite Element Method Questions and Answers – Two Dimensional Problems – Finite Element Modelling 

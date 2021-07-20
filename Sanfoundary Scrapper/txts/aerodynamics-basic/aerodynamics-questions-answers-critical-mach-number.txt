@@ -1,0 +1,78 @@
+1. What is a critical Mach number?
+a) Freestream Mach number for which stagnation pressure is obtained
+b) Freestream Mach number for which sonic flow is obtained
+c) Free stream Mach number for which supersonic flow is obtained
+d) Freestream Mach number for which hypersonic flow is obtained
+b
+2. The local Mach number at a point on the airfoil reaches 1 for critical Mach number.
+a) True
+b) False
+a
+3. What is the coefficient of pressure at the minimum pressure point for an airfoil with critical Mach number as 0.6?
+a) 1.53
+b) 1.66
+c) 1.42
+d) 1.15
+b
+The critical Mach number is calculated using the relation
+(Cp)crit = \(\frac {2}{γM_{crit}^{2}} \bigg [ \frac {1 + \frac {1}{2}(γ – 1)M_{crit}^{2}}{1 + \frac {1}{2}(γ – 1)} \bigg ]^{\frac {γ}{γ – 1}}\) – 1
+On substituting the values, we get
+(Cp)crit = \(\frac {2}{1.4×0.6^{2}} \bigg [ \frac {1 + \frac {(1.4 – 1)}{2} 0.6^{2}}{1 + \frac {(1.4 – 1)}{2}} \bigg ]^{\frac {1.4}{1.4 – 1}}\) – 1
+(Cp)crit = 3.97\(\big [ \frac {1.07}{1.20} \big ] \)3.5 – 1 = 1.66
+4. What is the coefficient of pressure at minimum pressure point a function of?
+a) Critical Mach number
+b) Freestream Mach number
+c) Chord/thickness ratio of airfoil
+d) Length of the airfoil
+a
+(Cp)crit = \(\frac {2}{γM_{crit}^{2}} \bigg [ \frac {1 + \frac {1}{2}(γ – 1)M_{crit}^{2}}{1 + \frac {1}{2}(γ – 1)} \bigg ]^{\frac {γ}{γ – 1}}\) – 1
+In this the value of gamma is constant depending on the medium. The only varying quantity is critical Mach number. Thus, the coefficient of pressure at minimum pressure point is a function of only critical Mach number.
+5. Thicker the airfoil, higher is the critical Mach number.
+a) True
+b) False
+b
+Cp = \(\frac {C_{p_0}}{\sqrt {1 – M_∞^{2}}}\) 
+For airfoils which are thin, the flow has less expansion resulting in less magnitude of Cp0. This results in a higher critical Mach number value. On the other hand thick airfoils have higher magnitude of Cp0 because of strong flow expansion. This results in lower critical Mach number.
+6. What is the relation between the drag divergence Mach number and critical Mach number?
+a) Mdrag – divergence = Mcrit
+b) Mdrag – divergence > Mcrit
+c) Mdrag – divergence < Mcrit
+d) Mdrag – divergence × Mcrit = 0
+b
+7. Which of these techniques is employed to delay the critical Mach number?
+a) Increasing the thickness of airfoil
+b) Swept wing
+c) Increase camber
+d) Decrease drag – divergence Mach number
+b
+8. Which equation is used to compute the critical Mach number of the airfoil?
+a) (Cp)crit = \(\frac {2}{γM_{crit}^{2}} \bigg [ \frac {1 + \frac {1}{2}(γ – 1)M_{crit}^{2}}{1 + \frac {1}{2}(γ – 1)} \bigg ]^{\frac {γ}{γ – 1}}\) – 1
+b) (Cp)crit = \(\frac {2}{γM_{crit}^{2}} \bigg [ \frac {1 + \frac {1}{2}(γ – 1)M_{crit}^{2}}{1 + \frac {1}{2}(γ – 1)} \bigg ]^{\frac {γ}{γ + 1}}\) + 1
+c) (Cp)crit = γM\(_{crit}^{2} \bigg [ \frac {1 + \frac {1}{2}(γ – 1)}{1 + \frac {1}{2}(γ – 1)} \bigg ]^{\frac {γ}{γ – 1}}\) – 1
+d) (Cp)crit = γM\(_{crit}^{2} \bigg [ \frac {1 + \frac {1}{2}(γ – 1)}{1 + \frac {1}{2}(γ – 1)M_{crit}^{2}} \bigg ]^{\frac {γ}{γ – 1}}\) – 1
+a
+Cp = \(\frac {2}{γM_∞^{2}} \bigg ( \frac {p}{p_∞}  – 1 \bigg )\) 
+For an isentropic flow, the ratio of pressure at a point to the freestream pressure is given by:
+\(\frac {p}{p_∞}  = \bigg [ \frac {1 + \frac {(γ – 1)}{2} M_∞^{2}}{1 + \frac {(γ – 1)}{2} M^{2}} \bigg ]^{\frac {γ}{γ – 1}} \) 
+Substituting this in the above equation we get
+Cp = \(\frac {2}{γM_∞^{2}} \bigg [ \bigg ( \frac {1 + \frac {(γ – 1)}{2} M_∞^{2}}{1 + \frac {(γ – 1)}{2} M^{2}}\bigg ) ^{\frac {γ}{γ – 1}} – 1 \bigg ] \) 
+At critical Mach number, local Mach number M = 1 and freestream Mach number is equal to the critical Mach number. Substituting these we finally arrive at the relation:
+(Cp)crit = \(\frac {2}{γM_{crit}^{2}} \bigg [ \frac {1 + \frac {1}{2}(γ – 1)M_{crit}^{2}}{1 + \frac {1}{2}(γ – 1)} \bigg ]^{\frac {γ}{γ – 1}}\) – 1
+9. What happens to the flow around the airfoil at upper critical Mach number?
+a) The flow around airfoil becomes subsonic
+b) The flow around airfoil becomes supersonic
+c) The flow around airfoil becomes sonic
+d) The flow around airfoil becomes hypersonic
+b
+10. Which drag is prominent after exceeding the critical Mach number?
+a) Form drag
+b) Wave drag
+c) Pressure drag
+d) Skin – friction drag
+c
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Linearized Supersonic Flow» Next - Aerodynamics Questions and Answers – Physical Aspects of Conical Flow 

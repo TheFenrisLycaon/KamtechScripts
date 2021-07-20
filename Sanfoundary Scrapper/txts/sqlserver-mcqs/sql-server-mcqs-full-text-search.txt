@@ -1,0 +1,66 @@
+1. Full-Text Search in SQL Server lets users and applications run _________ queries.
+a) simple queries
+b) full-text
+c) scalar
+d) none of the mentioned
+b
+2. Point out the correct statement.
+a) The full-text index includes only one character-based column in the table
+b) The full-text index includes more than one character-based columns in the table
+c) The full-text index includes one or more character-based columns in the table
+d) None of the mentioned
+c
+3. Full-text search is an ________ component of the SQL Server Database Engine.
+a) slower
+b) optimal
+c) faster
+d) none of the mentioned
+b
+4. We can create a full-text index on _____________
+a) table
+b) view
+c) indexed view
+d) all of the mentioned
+d
+5. Point out the wrong statement.
+a) To define full-text searches, SQL Server full-text queries use the full-text predicates
+b) Full-text queries perform linguistic searches against text data
+c) Before you can run full-text queries on a table, the database administrator must create a full-text index on the table
+d) Full-text search is applicable to a shorter range of business scenarios
+d
+6. Full text indexing is a great feature that solves a database problem, the searching of _________ columns for specific words and phrases in SQL Server databases.
+a) Textual data
+b) Character data
+c) String
+d) All of the mentioned
+d
+7. Which of the following predicates is used for full text search?
+a) TEXT()
+b) FREETEXT()
+c) TEXT()
+d) All of the mentioned
+b
+8. FREETEXTTABLE is a full text _____________
+a) Predicate
+b) Function
+c) Procedure
+d) All of the mentioned
+b
+9. The CONTAINS and FREETEXT predicates return a _________  value.
+a) TRUE or FALSE
+b) Scalar
+c) One
+d) All of the mentioned
+a
+10. CONTAINS and CONTAINSTABLE look for a _______ match for the phrase.
+a) exact
+b) similar
+c) different
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Xquery» Next - SQL Server Questions and Answers – Data Definition Language – 1 

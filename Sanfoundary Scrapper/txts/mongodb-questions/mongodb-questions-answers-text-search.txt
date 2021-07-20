@@ -1,0 +1,67 @@
+1. When creating a text index on multiple fields, you can specify the individual fields or you can use wildcard specifier ______
+a) ($*)
+b) (**$**)
+c) ($**)
+d) None of the mentioned
+c
+2. Point out the wrong statement.
+a) In order to drop a text index, use the index name
+b) The default language associated with the indexed data determines the rules to parse word roots and ignore stop words
+c) To allow for text search on all fields with string content, use the wildcard specifier ($$$) to index all fields that contain string content
+d) None of the mentioned
+c
+3. The default language for the indexed data is ________
+a) chinese
+b) english
+c) spanish
+d) none of the mentioned
+b
+4. If a collection contains documents or embedded documents that are in different languages, include a field named _______ in the documents.
+a) operator
+b) lang
+c) language
+d) all of the mentioned
+b
+5. Point out the correct statement.
+a) After 2.4, you can terminate both background index builds and foreground index builds
+b) The specified language in the document overrides the default language for the text index
+c) The text index, like other indexes, should not fall within the index name length limit
+d) None of the mentioned
+b
+6. To use a field with a name other than language, include the ________ option when creating the index.
+a) language_over
+b) language_override
+c) langoverride
+d) none of the mentioned
+b
+7. The default name for the index consists of each indexed field name concatenated with _______
+a) _char
+b) _textc
+c) _text
+d) All of the mentioned
+c
+8. To avoid creating an index with a name that exceeds the index name length limit, you can pass the _____ option to the db.collection.createIndex() method.
+a) name
+b) lang
+c) number
+d) all of the mentioned
+a
+9. The default weight is ____ for the indexed fields.
+a) 1
+b) 2
+c) 3
+d) 4
+a
+10. For a ______ index, the weight of an indexed field denotes the significance of the field relative to the other indexed fields in terms of the score.
+a) unique
+b) natural
+c) text
+d) all of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Geospatial Index» Next - MongoDB Questions and Answers – Indexing Strategies 

@@ -1,0 +1,93 @@
+1. What will be the phase shift of feedback circuit in RC phase shift oscillator?
+a) 360o phase shift
+b) 180o phase shift
+c) 90o phase shift
+d) 60o phase shift
+b
+2. How many RC stages are used in the RC phase shift oscillator?
+a) Six
+b) Two
+c) Four
+d) Three
+d
+3. Calculate the frequency of oscillation for RC phase shift oscillator having the value of R and C as 35Ω and 3.7µF respectively.
+a) 1230 Hz
+b) 204 Hz
+c) 502Hz
+d) 673 Hz
+c
+fo=1/(2πRC√6) = 1/(2×3.14×√6×3.7µF×35Ω)
+=>  fo=  1/ 1.9921×10-3 = 502Hz. 
+4. What must be done to ensure that oscillation will not die out in RC phase shift oscillator?
+a) Gain of amplifier is kept greater than 29
+b) Gain of amplifier is kept greater than 1
+c) Gain of amplifier is kept less than 29
+d) Gain of amplifier is kept less than 1
+a
+5. Calculate the feedback voltage from phase shit network.
+a) Vf = ( VoR3S3C3) / (1+ 6SRC+5S2C2R2+S3R3C3)
+b) Vf = ( VoR3S3C3) / (1+ 5SRC+6S2C2R2+S3R3C3)
+c) Vf = ( VoR3S3C3) / (1+ 5SRC+5S2C2R2+S3R3C3)
+d) Vf = ( VoR2S3C3) / (1+ 6SRC+5S2C2R2+S3R3C3)
+b
+=> I1(R+(1/SC))-I2=Vo  -> Equ1
+=> -I1R+ I2(2R+(1/SC))- I3R=0 -> Equ2
+=> 0- I2R+ I3(2R+(1/SC)=6 -> Equ3
+WKT, Vf = I3× 2R,
+Solving Equ 1, 2, and 3 for I3
+=> I3= ( VoR2S3C3)/ (1+ 5SRC+6S2C2R2+S3R3C3)
+=> Vf = I3× 2R
+=( VoR3S3C3) / (1+ 5SRC+6S2C2R2+S3R3C3).
+6. Which type of op-amp is avoided for high frequencies?
+a) LM318
+b) Op-amp 741
+c) LF 351
+d) None of the mentioned
+b
+7. Find out the constant values of α and ß in phase shift oscillator.
+a) α = √6, ß = -1/29
+b) α = 6, ß = -1/29
+c) α = √6, ß = 1/29
+d) α = 6, ß = -1/29
+a
+ß= 1/(1-5 α2)+j α(6- α2)  -> Equ1
+For  Aß=1, ß should be real and the imaginary terms must be zero
+α(6- α2)  =0
+=> α=√6
+Now substituting α2=6 in Equ 1, we get
+ß=-1/29 (Negative sign indicates that the feedback network produces a phase shift of 180o).
+8. A phase shift oscillator is designed to oscillate at 155Hz. Determine the value of Rf. (Take C=0.30µF)
+a) 399Ω
+b) 3.98MΩ
+c) 13.9kΩ
+d) 403kΩ
+d
+=> R= 1/7.153×10-4= 1398=13.9kΩ. 
+9. The value of feedback resistor in phase shift oscillator is 180kΩ. Find its input resistance?
+a) 52kΩ
+b) 151kΩ
+c) 209kΩ
+d) 6.2kΩ
+c
+=> |A|=29 or |Rf / R1|=29
+=> R1|= Rf / 29 = 180kΩ/29= 6.21kΩ, 
+10. Determine the frequency of oscillation (fo) in phase shift oscillator?
+a) fo = √6/ωRC
+b) fo = 0.56/ωRC
+c) fo = 0.065/ωRC
+d) fo = 6/ωRC
+c
+fo = 1/(2π×RC×√6) = 1/15.38×RC
+=> fo = 0.065/RC. 
+11. The condition for zero phase shift in wein bridge oscillator is achieved by
+a) Connecting feedback to non-inverting input terminal of op-amp
+b) Balancing the bridge
+c) Applying parallel combination of RC to the feedback network
+d) All of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Basic Principles of Sine Wave Oscillator – 1» Next - Linear Integrated Circuit Questions and Answers – Basic Principles of Sine Wave Oscillator – 3 

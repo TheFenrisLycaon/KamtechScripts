@@ -1,0 +1,73 @@
+1. The 8255 is a ______ chip.
+a) Input/Output
+b) Analog to Digital
+c) Digital to analog
+d) None of the mentioned
+a
+2. Which pins of a microcontroller are directly connected with 8255?
+a) RD
+b) WR
+c) D0-D7
+d) All of the mentioned
+d
+3. Find the control word for PA= out, PB= in, PCL=out, PCH=out (Mode0)?
+a) 0x02H
+b) 0x82H
+c) 0x83H
+d) 0x03H
+b
+4. Which pins are used to select the ports and the control register?
+a) CS
+b) A1
+c) A0
+d) All of the mentioned
+d
+5. What is the value of the control register when RESET button is set to zero?
+a) 0x00H
+b) 0xFFH
+c) 0x11H
+d) value remains the same
+d
+Join Sanfoundry@YouTube
+6. Why MOVX instruction is being used to access the ports of the 8255?
+a) because 8255 is connecting a microcontroller in memory mapped I/O configuration
+b) because 8255 is used to access the external communication
+c) because 8255 is used to access the data transfer
+d) because 8255 is used to access the interfacing of LCD, motor etc
+a
+7. What is correct about the BSR mode from below?
+a) In BSR mode, only the individual bits of PORT A can be programmed
+b) In BSR mode, only the individual bits of PORT B can be programmed
+c) In BSR mode, only the individual bits of PORT C can be programmed
+d) none of the mentioned
+c
+8. How many pins of the 8255 can be used as the I/O ports?
+a) 8
+b) 16
+c) 24
+d) 32
+c
+9. 8255 is a ____ pin IC.
+a) 16
+b) 8
+c) 40
+d) 60
+c
+10. 8255 has handshaking capability?
+a) yes
+b) no
+c) cant be said
+d) depends on the conditions
+a
+11. The 8255 can be programmed in any of the __________
+a) 2 modes
+b) 3 modes
+c) 4 modes
+d) 5 modes
+c
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - AVR Microcontroller Questions and Answers – Sensor Interfacing» Next - AVR Microcontroller Questions and Answers – Interfacing with RTC 

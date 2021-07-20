@@ -1,0 +1,155 @@
+1. What is the output of the given code?
+for num in 1...5
+  puts num
+end
+a) 1 2 3 4 5
+b) 1 2 3 4
+c) 2 3 4 5
+d) None of the mentioned
+b
+Output:
+1
+2
+3
+4
+2. What does the 1…10 indicate?
+a) Inclusive range
+b) Exclusive range
+c) Both inclusive and exclusive range
+d) None of the mentioned
+b
+3. What is the output of the given code?
+for num in 1..3
+  puts num
+  for i in 1..2
+  puts num*i
+  end
+end
+a) 1 2 3 4 5
+b) 1 1 2 2 2 4 3 3 6
+c) 2 3 4 5
+d) None of the mentioned
+b
+Output:
+1
+1
+2
+2
+2
+4
+3
+3
+6
+4. What is the output of the given code?
+m= 0
+loop do
+    m += 1
+    print m
+    break if m == 10
+end
+a) 12345678910
+b) 1 2 3 4
+c) 2 3 4 5
+d) None of the mentioned
+a
+Output:
+12345678910
+5. What is the output of the given code?
+for num in 1..5
+  puts num*num
+end
+a) 12345678910
+b) 1 2 3 4
+c) 1 4 9 16 25
+d) None of the mentioned
+c
+Output:
+1
+4
+9
+16
+25
+6. What is the output of the given code?
+for num in 1..3
+  puts num*num
+  m= 0
+loop do
+    m += 1
+    puts m
+    break if m == 3
+end
+end
+a) 12345678910
+b) 1 1 2 3 4 1 2 3 9 1 2 3
+c) 1 4 9 16 25
+d) None of the mentioned
+c
+Output:
+1
+1
+2
+3
+4
+1
+2
+3
+9
+1
+2
+3
+7. What is the output of the given code?
+loop do
+    m += 1
+    puts m
+    break if m == 3
+end
+a) Garbage values
+b) 1 1 2 3 4 1 2 3 9 1 2 3
+c) 1 4 9 16 25
+d) None of the mentioned
+a
+Output:
+Garbage values
+8. What is the output of the given code?
+i=1
+for i in 5..10
+puts i^2
+end
+a) 7 4 5 10 11 8
+b) 25 36 49 64 81 100
+c) 1 4 9 16 25
+d) None of the mentioned
+b
+Output:
+25
+36
+49
+64
+81
+100
+9.  What does the 1..10 indicate?
+a) Inclusive range
+b) Exclusive range
+c) Both inclusive and exclusive range
+d) None of the mentioned
+a
+10. What is the output of the given code?
+i=5
+j=10
+for i in 5..10 && j in 5..10
+puts i**j
+end
+a) Syntax error
+b) 25 36 49 64 81 100
+c) 1 4 9 16 25
+d) None of the mentioned
+a
+Output:
+syntax error, unexpected keyword_in, expecting keyword_do_cond or ';' or '\n'
+for i in 5..10 && j in 5..10 syntax error, unexpected keyword_end, expecting $end
+Sanfoundry Global Education & Learning Series – Ruby Programming.
+To practice all areas of Ruby Programming, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ruby Programming Questions and Answers – Until Loop» Next - Ruby Programming Questions and Answers – Arrays 

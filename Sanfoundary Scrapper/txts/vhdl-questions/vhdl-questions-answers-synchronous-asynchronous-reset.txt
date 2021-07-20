@@ -1,0 +1,61 @@
+1. Reset is a signal that is used for the initialization of the hardware.
+a) True
+b) False
+a
+2. How many types of resets are there in hardware design?
+a) One
+b) Two
+c) Three
+d) Four
+b
+3. In synchronous reset, reset is sampled with respect to _______
+a) Enable signal
+b) Data input signal
+c) Clock signal
+d) Output signal
+c
+4. Which of the following is an advantage of a synchronous reset?
+a) It is slow
+b) It requires a clock signal to reset the circuit
+c) It filters the reset signal
+d) It needs a stretched reset
+c
+5. In asynchronous reset, reset is sampled independently of the _______
+a) Enable signal
+b) Data input signal
+c) Clock signal
+d) Output signal
+c
+Join Sanfoundry@YouTube
+6. Synchronous reset is a fast reset.
+a) True
+b) False
+b
+7. Which of the following is NOT an advantage of asynchronous reset?
+a) It is fast
+b) It doesn’t require a clock signal to reset the circuit
+c) Reset gets the highest priority
+d) It may cause metastability
+d
+8. Asynchronous circuit is also called ________ circuit.
+a) Combinational
+b) Self-timed
+c) Clock circuit
+d) Delayed
+b
+9. Designation used by a flip-flop for the reset is ________
+a) PRE
+b) CLR
+c) D
+d) Q
+b
+10. Preset and clear are asynchronous inputs.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Implementing Sequential Circuits with VHDL» Next - VHDL Questions and Answers – Asynchronous Preset and Clear 

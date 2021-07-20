@@ -1,0 +1,98 @@
+This section on tough C++ programming questions focuses on “Argument Passing”. One shall practice these questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ programming questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of tough C++ programming questions on “Argument Passing” along with answers, explanations and/or solutions: 
+1. How many ways of passing a parameter are there in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+2. Which is used to keep the call by reference value as intact?
+a) static
+b) const
+c) absolute
+d) virtual
+b
+3. By default how the value are passed in c++?
+a) call by value
+b) call by reference
+c) call by pointer
+d) call by object
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void copy (int& a, int& b, int& c)    {        a *= 2;        b *= 2;        c *= 2;    }    int main ()    {        int x = 1, y = 3, z = 7;        copy (x, y, z);        cout << "x =" << x << ", y =" << y << ", z =" << z;        return 0;    }
+a) 2 5 10
+b) 2 4 5
+c) 2 6 14
+d) 2 4 9
+c
+Output:
+$ g++ arg6.cpp
+$ a.out
+x = 2,y = 6,z = 14
+5. What will be the new value of x in the following C++ code?
+    #include <iostream>    using namespace std;    void fun(int &x)    {        x = 20;    }    int main()    {         int x = 10;         fun(x);         cout << "New value of x is " << x;         return 0;    }
+a) 10
+b) 20
+c) 15
+d) 36
+b
+Output:
+$ g++ arg5.cpp
+$ a.out
+20
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    long factorial (long a)    {        if (a > 1)            return (a * factorial (a + 1));        else            return (1);    }    int main ()    {        long num = 3;        cout << num << "! = " << factorial ( num );        return 0;    }
+a) 6
+b) 24
+c) segmentation fault
+d) compile time error
+c
+Output:
+$ g++ arg3.cpp
+$ a.out
+segmentation fault
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void square (int *x)    {	*x = (*x + 1) * (*x);    }    int main ( )    {	int num = 10;        square(&num);        cout << num;         return 0;    }
+a) 100
+b) compile time error
+c) 144
+d) 110
+d
+Output:
+$ g++ arg2.cpp
+$ a.out
+110
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int add(int a, int b);    int main()    {        int i = 5, j = 6;        cout << add(i, j) << endl;        return 0;    }    int add(int a, int b )    {        int sum = a + b;        a = 7;        return a + b;    }
+a) 11
+b) 12
+c) 13
+d) compile time error
+c
+Output:
+$ g++ arg1.cpp
+$ a.out
+13
+9. What will happen when we use void in argument passing?
+a) It will not return value to its caller
+b) It will return value to its caller
+c) Maybe or may not be return any value to its caller
+d) It will return value with help of object
+a
+10. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void Sum(int a, int b, int & c)    {        a = b + c;        b = a + c;        c = a + b;    }    int main()    {        int x = 2, y =3;        Sum(x, y, y);        cout << x << " " << y;        return 0;     }
+a) 2 3
+b) 6 9
+c) 2 15
+d) compile time error
+c
+Output:
+$ g++ arg.cpp
+$ a.out
+2 15
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Functions» Next - C++ Programming Questions and Answers – Value Return 

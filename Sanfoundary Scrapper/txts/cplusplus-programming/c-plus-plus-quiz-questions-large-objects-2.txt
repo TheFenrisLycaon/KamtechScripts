@@ -1,0 +1,76 @@
+This section on C++ quiz focuses on “Large Objects”. One shall practice these quizzes to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ quiz comes with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ quiz on “Large Objects” along with answers, explanations and/or solutions:
+1. How to store the large objects in c++ if it extends its allocated memory?
+a) memory heap
+b) stack
+c) queue
+d) stack & queue
+a
+2. When we are using heap operations what do we need to do to save the memory?
+a) rename the objects
+b) delete the objects after processing
+c) both rename & delete the objects
+d) add the objects
+b
+3. Which container in c++ will take large objects?
+a) string
+b) class
+c) vector
+d) string & class
+c
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class sample    {        public:        sample()         {              cout << "X::X()" << endl;         }        sample( sample const & )         {              cout << "X::X( X const & )" << endl;        }        sample& operator=( sample const & )        {             cout << "X::operator=(X const &)" << endl;        }    };    sample f()     {        sample tmp;        return tmp;    }    int main()     {        sample x = f();        return 0;    }
+a) X::operator=(X const &)
+b) X::X( X const & )
+c) X::X()
+d) X::operator
+c
+Output:
+$ g++ large.cpp
+$ a.out
+X::X()
+5. How to stop your program from eating so much ram?
+a) Find a way to work with the data one at a time
+b) Declare it in program memory, instead of on the stack
+c) Use the hard drive, instead of RAM
+d) All of the mentioned
+d
+i) Find a way to work with the data one at a time
+ii) Declare it in program memory, instead of on the stack
+iii) Use the hard drive, instead of RAM
+6. Which option is best to eliminate the memory problem?
+a) use smart pointers
+b) use raw pointers
+c) use virtual destructor
+d) use smart pointers & virtual destructor
+d
+7. What is the size of the heap?
+a) 10MB
+b) 500MB
+c) 1GB
+d) Size of the heap memory is limited by the size of the RAM and the swap memory
+d
+8. How to unlimit the size of the stack?
+a) setrlimit()
+b) unlimit()
+c) both setrlimit() & unlimit()
+d) setflimit()
+a
+9. In Linux, how do the heaps and stacks are managed?
+a) ram
+b) secondary memory
+c) virtual memory
+d) static memory
+c
+10. Which is used to pass the large objects in c++?
+a) pass by value
+b) pass by reference
+c) both pass by value & reference
+d) pass by name
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Friend Function» Next - C++ Programming Questions and Answers – Essential Operators 

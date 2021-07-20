@@ -1,0 +1,57 @@
+This section on C test focuses on “Arithmetic Operators”. One shall practice these test questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C test questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C test questions on “Arithmetic Operators” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = -3;        int k = i % 2;        printf("%d\n", k);    }
+a) Compile time error
+b) -1
+c) 1
+d) Implementation defined
+b
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 3;        int l = i / -2;        int k = i % -2;        printf("%d %d\n", l, k);        return 0;    }
+a) Compile time error
+b) -1 1
+c) 1 -1
+d) Implementation defined
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 5;        i = i / 3;        printf("%d\n", i);        return 0;    }
+a) Implementation defined
+b) 1
+c) 3
+d) Compile time error
+b
+4. What will be the output of the following C code?
+   #include <stdio.h>    int main()    {        int i = -5;        i = i / 3;        printf("%d\n", i);        return 0;    }
+a) Implementation defined
+b) -1
+c) -3
+d) Compile time error
+b
+5. What will be the final value of x in the following C code?
+    #include <stdio.h>    void main()    {        int x = 5 * 9 / 3 + 9;    }
+a) 3.75
+b) Depends on compiler
+c) 24
+d) 3
+c
+6. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int x = 5.3 % 2;        printf("Value of x is %d", x);    }
+a) Value of x is 2.3
+b) Value of x is 1
+c) Value of x is 0.3
+d) Compile time error
+d
+7. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int y = 3;        int x = 5 % 2 * 3 / 2;        printf("Value of x is %d", x);    }
+a) Value of x is 1
+b) Value of x is 2
+c) Value of x is 3
+d) Compile time error
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Declarations – 2» Next - C Programming Questions and Answers – Arithmetic Operators – 2 

@@ -1,0 +1,96 @@
+1. What is an ambiguous condition in a NAND based S’-R’ latch?
+a) S’=0, R’=1
+b) S’=1, R’=0
+c) S’=1, R’=1
+d) S’=0, R’=0
+d
+2. In a NAND based S’-R’ latch, if S’=1 & R’=1 then the state of the latch is ____________
+a) No change
+b) Set
+c) Reset
+d) Forbidden
+a
+3. A NAND based S’-R’ latch can be converted into S-R latch by placing ____________
+a) A D latch at each of its input
+b) An inverter at each of its input
+c) It can never be converted
+d) Both a D latch and an inverter at its input
+d
+4. One major difference between a NAND based S’-R’ latch & a NOR based S-R latch is ____________
+a) The inputs of NOR latch are 0 but 1 for NAND latch
+b) The inputs of NOR latch are 1 but 0 for NAND latch
+c) The output of NAND latch becomes set if S’=0 & R’=1 and vice versa for NOR latch
+d) The output of NOR latch is 1 but 0 for NAND latch
+a
+5. The characteristic equation of S-R latch is ____________
+a) Q(n+1) = (S + Q(n))R’
+b) Q(n+1) = SR + Q(n)R
+c) Q(n+1) = S’R + Q(n)R
+d) Q(n+1) = S’R + Q'(n)R
+a
+6. The difference between a flip-flop & latch is ____________
+a) Both are same
+b) Flip-flop consist of an extra output
+c) Latches has one input but flip-flop has two
+d) Latch has two inputs but flip-flop has one
+c
+7. How many types of flip-flops are?
+a) 2
+b) 3
+c) 4
+d) 5
+c
+8. The S-R flip flop consist of ____________
+a) 4 AND gates
+b) Two additional AND gates
+c) An additional clock input
+d) 3 AND gates
+b
+9. What is one disadvantage of an S-R flip-flop?
+a) It has no Enable input
+b) It has a RACE condition
+c) It has no clock input
+d) Invalid State
+d
+10. One example of the use of an S-R flip-flop is as ____________
+a) Racer
+b) Stable oscillator
+c) Binary storage register
+d) Transition pulse generator
+c
+11. When is a flip-flop said to be transparent?
+a) When the Q output is opposite the input
+b) When the Q output follows the input
+c) When you can see through the IC packaging
+d) When the Q output is complementary of the input
+b
+12. On a positive edge-triggered S-R flip-flop, the outputs reflect the input condition when ________
+a) The clock pulse is LOW
+b) The clock pulse is HIGH
+c) The clock pulse transitions from LOW to HIGH
+d) The clock pulse transitions from HIGH to LOW
+c
+13. What is the hold condition of a flip-flop?
+a) Both S and R inputs activated
+b) No active S or R input
+c) Only S is active
+d) Only R is active
+b
+14. If an active-HIGH S-R latch has a 0 on the S input and a 1 on the R input and then the R input goes to 0, the latch will be ________
+a) SET
+b) RESET
+c) Clear
+d) Invalid
+b
+15. The circuit that is primarily responsible for certain flip-flops to be designated as edge-triggered is the _____________
+a) Edge-detection circuit
+b) NOR latch
+c) NAND latch
+d) Pulse-steering circuit
+a
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Electronic Circuits for online quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – Flip Flops – 1» Next - Digital Circuits Questions and Answers – Flip Flops – 3 

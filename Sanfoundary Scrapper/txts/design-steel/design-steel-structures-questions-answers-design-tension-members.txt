@@ -1,0 +1,88 @@
+1. For the calculation of net area of flat with staggered bolts, the area to be deducted from gross area is :
+a) nd
+b) n’p2t/8g
+c) ndt – n’p2t/4g
+d) nd + n’p2t/4g
+c
+2. What is the net section area of steel plate 40cm wide and 10mm thick with one bolt if diameter of bolt hole is 18mm?
+a) 38.2 cm2
+b) 20 cm2
+c) 240 mm2
+d) 480 mm2
+a
+Net section area = 400×10 – 16×10 = 3820mm2 = 38.2 cm2.
+3. Which section to be considered in the design for the net area of flat?
+a) 1-5-6-3
+b) 2-7-4
+c) 1-5-7-4
+d) 1-5-7-6-3
+d
+4. Calculate the minimum effective net area for the given section (300mm width, 10mm thick) connected to a 10 mm thick gusset plate by 18mm diameter bolts.
+a) 2796mm2
+b) 2681mm2
+c) 2861mm2
+d) 3055mm2
+b
+Effective net area = (B-ndh+n’p2/4g)t = (300 – 3×20 + 1×752/4×50)x10 = 2681.25 mm2.
+5. What is the net area for the plate 100 x 8 mm bolted  with a single bolt of 20mm diameter in case of drilled hole ?
+a) 624 mm2
+b) 756 mm2
+c) 800 mm2
+d) 640 mm2
+d
+Net Area An = Ag – dht = 100 x 8 – 20 x 8 = 640mm2.
+6. Determine the effective net area for angle section ISA 100 x 75 x 12 mm, when 100mm leg is connected to a gusset plate using weld of length 140mm.
+a) 1795 mm2
+b) 1812 mm2
+c) 1956 mm2
+d) 2100 mm2
+c
+Net area of outstanding leg, Ago = (75 – 12/2) x 12 = 828 mm2
+Total net area = 1128 + 828 = 1956 mm2.
+7. Calculate the value of β for the given angle section ISA 150x115x8mm of Fe410 grade of steel connected with gusset plate : Length of weld = 150mm
+a) 0.89
+b) 0.75
+c) 0.5
+d) 1
+a
+β = 1.4 – [0.076 (w/t)(fy/fu)(bs/Lc)]
+   = 1.4 – [ 0.076 x (115/8) x (250/410) x (115/150)] = 0.89 (>0.7) . 
+8. Calculate the tensile strength due to gross section yielding of an angle section 125 x 75 x 10mm of Fe410 grade of steel connected with a gusset plate.
+a) 780 kN
+b) 586.95 kN
+c) 432.27 kN
+d) 225.36 kN
+c
+For ISA 125 x 75 x 10mm : gross area Ag = 1902 mm2
+Tensile strength due to gross section yielding, Tdg = Agfy/γm0 = 1902 x 250 x 10-3 / 1.1 = 432.27 kN.
+9. A single unequal angle 100 x 75 x 10 of Fe410 grade of steel is connected to a 10mm thick gusset plate at the ends with six 16mm diameter bolts with pitch of 40mm to transfer tension. Find the tensile strength due to net section rupture if gusset is connected to 100mm leg.
+a) 526.83 kN
+b) 385.74 kN
+c) 450.98 kN
+d) 416.62 kN
+d
+Anc = (100 – 10/2 – 18) x 10 = 770 mm2, Ag0 = (75 – 10/2) x 10 = 700 mm2
+β = 1.4 – 0.076(w/t)(fy/fu)(bs/Lc)
+   = 1.4 – 0.076 [(75-5)/10] [250/410] [{(75-5)+(100-40)}/{40×5}]
+  = 1.19 > 0.7 and < 1.44[(410/250)(1.1/1.25)] (=2.07)
+Tdn = 0.9fuAnc /γm1 + βAg0fy /γm0
+     = [0.9x410x770/1.25 + 1.19x700x250/1.1] x 10-3 = 416.62 kN.
+10. Determine block shear strength of tension member shown in figure if grade of steel is Fe410.
+a) 309.06 kN
+b) 216.49 kN
+c) 258.49 kN
+d) 326.54 kN
+b
+Avg = ( 1×100 + 50 ) x 8 = 1200 mm2
+Avn = (1×100 + 50 – (2 – 1/2)x20 ) x 8 = 1440 mm2
+Atg = 35 x 8 = 280 mm2
+Atn = (35 – 1/2 x 20) x 8 = 200 mm2
+Tdb1 = (Avgfy/√3 γm0)+(0.9Atnfu/γm1) = [(1200×250/ 1.1x√3) + (0.9x200x410 / 1.25) ] x 10-3 = 216.49 kN
+Tdb2 = (Atgfy/ γm0)+(0.9Avnfu/√3 γm1) = [ (0.9x1440x410 / 1.25x√3) + (280×250/1.1) ] x 10-3 = 309.06 kN
+Block shear strength of tension member is 216.49 kN.
+Sanfoundry Global Education & Learning Series – Design of Steel Structures.
+To practice all areas of Design of Steel Structures, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Design of Steel Structures Questions and Answers – Lug Angles, Splices & Gusset Plates» Next - Design of Steel Structures Questions and Answers – Plastic Theory 

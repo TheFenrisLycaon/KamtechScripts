@@ -1,0 +1,66 @@
+1. Which of the following is not a xml data type method?
+a) query()
+b) value()
+c) nodes()
+d) none of the Mentioned
+d
+2. Which of the following indexes can be created on XML columns?
+a) Primary
+b) Secondary
+c) Full-text
+d) All of the Mentioned
+d
+3. SQL Server lets you define how many types of secondary XML indexes?
+a) 3
+b) 4
+c) 5
+d) 6
+a
+4. What is the purpose of the primary XML index?
+a) Persisted representation of data
+b) Shredded representation of data
+c) Structured representation of data
+d) None of the Mentioned
+d
+5. Statement for dropping XML index is __________
+a) DROP INDEX
+b) DELETE INDEX
+c) REMOVE INDEX
+d) None of the Mentioned
+a
+6. Different xml modes available for xml clauses are __________
+a) RAW
+b) AUTO
+c) PATH
+d) All of the mentioned
+d
+7. Sample applications to illustrate XML functionality in SQL Server are _____________
+a) Implementing XML in SQL Server
+b) XmlOnlineCatalog
+c) XmlSurvey
+d) All of the mentioned
+d
+8. Following content of XML elements are indexed in full text?
+a) Content of the XML value
+b) Non numerical value in content of XML attributes
+c) The content of XML elements.
+d) None of the mentioned
+b
+9. Which of the following function is contained by both full text search and Xquery?
+a) search()
+b) contain()
+c) contains()
+d) query()
+c
+10. Point out the correct statement.
+a) If ALTER INDEX ALL is specified, it applies to both non-XML and XML indexes
+b) The rebuild and set option IGNORE_DUP_KEY is not valid for XML indexes
+c) The option DROP_EXISTING is permitted in the ALTER INDEX statement
+d) The modifications of the primary key constraint in the user table are not automatically propagated to XML indexes
+c
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server for various tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Working With XML Data – 2» Next - SQL Server Questions and Answers – Xquery 

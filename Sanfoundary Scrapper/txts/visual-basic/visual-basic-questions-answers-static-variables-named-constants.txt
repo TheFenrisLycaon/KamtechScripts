@@ -1,0 +1,68 @@
+1. __________ is a variable that remains in memory, and retains its value even after the procedure declaring it ends.
+a) Procedure-level variable
+b) Class-level variable
+c) Static variable
+d) Dynamic variable
+c
+2. Static variable can only be used in the __________ in which it is declared.
+a) Class
+b) Any procedures in the form
+c) Any form
+d) Only the Procedure it is declared in
+d
+3. A __________ cannot change its value while the application is running.
+a) Constant variable
+b) Class variable
+c) Named constant
+d) Static constant
+c
+4. Named constants are used because __________
+a) Because they take up less space in memory
+b) Because they make documentation and code modification easier
+c) Because they can be easily accessed by procedures
+d) Because they are easily declared
+b
+5. What is wrong with the expression “const dblPi As Double = 3.141593”?
+a) Double is written
+b) Name should be DBLPi
+c) “const” starts with a “C”
+d) Value is too large
+c
+6. What is wrong with the expression “static dblPi AsDouble ”?
+a) Double is written
+b) Nothing is wrong
+c) “Static” starts with a “S”
+d) Value is not given
+c
+7. What happens when a procedure containing the following statements ends?
+Dim decSales As Decimal=12.2
+Static decTotal As Decimal=13.5
+a) Both values lose their values
+b) Dim variable loses its value
+c) Static variable loses its value
+d) Both variables retain their values
+b
+8. Using a named constant is advantageous because to change a value in future, change __________
+a) The value in the Const statement
+b) The value of the variable wherever it appears in the program
+c) The value of the variable anywhere in the program
+d) The value of the variable in one of the procedures in the program
+a
+9. Unintentional errors in application by declaring variables can be reduced by __________
+a) Giving them Small names
+b) Declaring them with a small sized data type
+c) Giving them minimum scope possible
+d) Making them class variables
+c
+10. To declare a class-level named constant you declare it as __________
+a) Public
+b) Dynamic
+c) Private
+d) Static
+c
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Scope and Lifetime of a Variable» Next - Visual Basic Questions and Answers – Option Explicit, Option Inner and Option Strict 

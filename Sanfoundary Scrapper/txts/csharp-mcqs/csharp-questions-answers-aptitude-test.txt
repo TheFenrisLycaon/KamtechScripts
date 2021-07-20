@@ -1,0 +1,121 @@
+1. Select the class which is the base class for all arrays in C#?
+a) Array
+b) Text
+c) arrays
+d) Both Array & Text
+a
+2. Select the interfaces implemented by array class.
+a) ICloneable, ICollection
+b) IEnumerable, IStructuralComparable, IStructuralEquatable
+c) ICloneable, ICollection, IList
+d) Only IEnumerable, IStructuralComparable, IStructuralEquatable & ICloneable, ICollection, IList
+d
+3. Choose the correct statement about the IComparer interface in C#?
+a) The IComparer interface is in System.Collections
+b) It defines a method called Compare(), which compares the values of two objects
+c) Both The IComparer interface is in System.Collections & It defines a method called Compare(), which compares the values of two objects
+d) None of the mentioned
+c
+4. Choose the correct statement about the IComparer<T> interface in C#?
+a) The IComparer<T> is in System.Collections.Generic
+b) It defines a generic form of Compare()
+c) Only The IComparer<T> is in System.Collections.Generic
+d) Both The IComparer is in System.Collections.Generic & It defines a generic form of Compare()
+d
+ int Compare(T x, T y). It works the same as its non-generic relative: returning greater than zero if x is greater than
+y, less than zero if x is less than y, and zero if the two values are equal.
+5. What does the following property defined in the array class defines in C#?
+ public bool IsReadOnly { get; }
+a) a property is read only by nature
+b) property is true if the array object is read only and false otherwise
+c) value is false for arrays
+d) all of the mentioned
+d
+6. What does the following property define in C#?
+public static int BinarySearch&lt;T&gt;(T[] array, int index, int length, T value)
+a) Searches a portion of the array specified by array for the value specified by value
+b) The search begins at the index specified by index and is restricted to length elements. Returns the index of the first match
+c) If value is not found, returns a zero value
+d) All of the mentioned
+b
+7. What will be the output of the following C# code snippet?
+ static void Main(string[] args) {     int[] nums = { 5, 4, 6, 3, 14, 9, 8, 17, 1, 24, -1, 0 };     Array.Sort(nums);     int idx = Array.BinarySearch(nums, 14);     if (idx == 9)     {         Console.WriteLine(Convert.ToBoolean(1));     }     else    {        Console.WriteLine(Convert.ToBoolean(0));    }    Console.WriteLine("Index of 14 is " + idx);    Console.ReadLine();}
+a) 
+True
+0
+b) Run time error
+c) 
+True
+9
+d) None of the mentioned
+c
+Output:
+        True
+        9
+8. What will be the output of the following C# code snippet?
+  static void Main(string[] args)  {      string[] strings = {"beta", "alpha", "gamma"};      Console.WriteLine("Array elements: ");      DisplayArray(strings);      Array.Reverse(strings);       Console.WriteLine("Array elements now: ");      DisplayArray(strings);      Console.ReadLine();   }   public static void DisplayArray(Array array)   {       foreach (object o in array)       {           Console.Write("{0} ", o);       }           Console.WriteLine();   }
+a) 
+   Array elements:
+   beta alpha gamma
+   Array elements now:
+   ammag ahpla ateb 
+b) 
+   Array elements:
+   beta alpha gamma
+   Array elements now:
+   gamma beta alpha 
+c) 
+   Array elements:
+   beta alpha gamma
+   Array elements now:
+   gamma alpha beta 
+d) None of the mentioned
+c
+Output:
+        Array elements:
+        beta alpha gamma
+        Array elements now:
+        gamma alpha beta
+9. Which among the following is the wrong way to define and initialize an array of 4 integers?
+a) int[] a = {25, 30, 40, 5}
+b) 
+   int[] a;
+   a = new int[3]
+   a[0] = 25
+   a[1] = 30
+   a[2] = 40
+   a[3] = 5
+c) 
+   int[] a
+   a = new int[4]{25, 30, 40, 5}
+d) 
+   int[] a
+   a = new int[4]
+   a[0] = 25
+   a[1] = 30
+   a[2] = 40
+   a[3] = 5
+b
+  
+10. Which method will be used to copy content from one array to another array?
+a) Copy()
+b) copy()
+c) Both Copy() & copy()
+d) None of the mentioned
+a
+11. What will be the output of the following C# code snippet?
+ static void Main()  {     int[] nums = { 1, 2, 3, 4, 5 };     Console.Write("Original order: ");     foreach(int i in nums)     Console.Write(i + " ");     Array.Reverse(nums);     Console.Write("Reversed order: ");     foreach(int i in nums)     Console.Write(i + " ");     Console.WriteLine(); }
+a) Run time error
+b) 5, 4, 3, 2, 1
+c) Compile time error
+d) None of the mentioned
+b
+Output:
+5, 4, 3, 2, 1
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all areas of C# for Aptitude test, here is complete set on 1000+ Multiple Choice Questions and Answers on C#.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Operation with LINQ» Next - C# Question & Answers – Runtime Type 

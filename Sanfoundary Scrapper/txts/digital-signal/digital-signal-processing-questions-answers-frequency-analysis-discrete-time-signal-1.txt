@@ -1,0 +1,140 @@
+1. What is the Fourier series representation of a signal x(n) whose period is N?
+a) \(\sum_{k=0}^{N+1}c_k e^{j2πkn/N}\) 
+b) \(\sum_{k=0}^{N-1}c_k e^{j2πkn/N}\) 
+c) \(\sum_{k=0}^Nc_k e^{j2πkn/N}\) 
+d) \(\sum_{k=0}^{N-1}c_k e^{-j2πkn/N}\) 
+b
+So, the Fourier series representation of a discrete time signal with period N is given as
+x(n)=\(\sum_{k=0}^{N-1}c_k e^{j2πkn/N}\) 
+where ck is the Fourier series coefficient
+2. What is the expression for Fourier series coefficient ck in terms of the discrete signal x(n)?
+a) \(\frac{1}{N} \sum_{n=0}^{N-1}x(n)e^{j2πkn/N}\) 
+b) \(N\sum_{n=0}^{N-1}x(n)e^{-j2πkn/N}\) 
+c) \(\frac{1}{N} \sum_{n=0}^{N+1}x(n)e^{-j2πkn/N}\) 
+d) \(\frac{1}{N} \sum_{n=0}^{N-1}x(n)e^{-j2πkn/N}\) 
+d
+x(n)=\(\sum_{n=0}^{N-1}c_k e^{j2πkn/N}\) 
+Now multiply both sides by the exponential e-j2πln/N and summing the product from n=0 to n=N-1. Thus,
+\(\sum_{n=0}^{N-1} x(n)e^{-j2πln/N}=\sum_{n=0}^{N-1}\sum_{k=0}^{N-1}c_k e^{j2π(k-l)n/N}\) 
+If we perform summation over n first in the right hand side of above equation, we get
+\(\sum_{n=0}^{N-1} e^{-j2πkn/N}\) = N, for k-l=0,±N,±2N…
+= 0, otherwise
+Therefore, the right hand side reduces to Nck
+So, we obtain ck=\(\frac{1}{N} \sum_{n=0}^{N-1}x(n)e^{-j2πkn/N}\) 
+3. Which of the following represents the phase associated with the frequency component of discrete-time Fourier series(DTFS)?
+a) ej2πkn/N
+b) e-j2πkn/N
+c) ej2πknN
+d) none of the mentioned
+a
+x(n)=\(\sum_{k=0}^{N-1}c_k e^{j2πkn/N}\) 
+In the above equation, ck represents the amplitude and ej2πkn/N represents the phase associated with the frequency component of DTFS.
+4. The Fourier series for the signal x(n)=cos√2πn exists.
+a) True
+b) False
+b
+5. What are the Fourier series coefficients for the signal x(n)=cosπn/3?
+a) c1=c2=c3=c4=0,c1=c5=1/2
+b) c0=c1=c2=c3=c4=c5=0
+c) c0=c1=c2=c3=c4=c5=1/2
+d) none of the mentioned
+a
+Given signal is x(n)=cosπn/3=cos2πn/6=\(\frac{1}{2} e^{j2πn/6}+\frac{1}{2} e^{-j2πn/6}\) 
+We know that -2π/6=2π-2π/6=10π/6=5(2π/6)
+Therefore, x(n)=\(\frac{1}{2} e^{j2πn/6}+\frac{1}{2} e^{j2π(5)n/6}\) 
+Compare the above equation with x(n)=\(\sum_{k=0}^{N-1}c_k e^{j2πkn/N}\) 
+So, we get c1=c2=c3=c4=0 and c1=c5=1/2.
+Join [email protected]
+6. What is the Fourier series representation of a signal x(n) whose period is N?
+a) \(\sum_{k=0}^{\infty}|c_k|^2\) 
+b) \(\sum_{k=-\infty}^{\infty}|c_k|\) 
+c) \(\sum_{k=-\infty}^0|c_k|^2\) 
+d) \(\sum_{k=-\infty}^{\infty}|c_k|^2\) 
+b
+=\(\frac{1}{T_p}\int_{t_0}^{t_0+T_p} x(t).x^* (t) dt\) 
+=\(\frac{1}{T_p}\int_{t_0}^{t_0+T_p}x(t).\sum_{k=-∞}^∞ c_k^* e^{-j2πkF_0 t} dt\) 
+By interchanging the positions of integral and summation and by applying the integration, we get
+=\(\sum_{k=-∞}^∞|c_k |^2\)
+7. What is the average power of the discrete time periodic signal x(n) with period N?
+a) \(\frac{1}{N} \sum_{n=0}^{N}|x(n)|\) 
+b) \(\frac{1}{N} \sum_{n=0}^{N-1}|x(n)|\) 
+c) \(\frac{1}{N} \sum_{n=0}^{N}|x(n)|^2\) 
+d) \(\frac{1}{N} \sum_{n=0}^{N-1}|x(n)|^2 \) 
+d
+The average power of that signal is given as
+Px=\(\frac{1}{N} \sum_{n=0}^{N-1}|x(n)|^2\)
+8. What is the equation for average power of discrete time periodic signal x(n) with period N in terms of Fourier series coefficient ck?
+a) \(\sum_{k=0}^{N-1}|c_k|\) 
+b) \(\sum_{k=0}^{N-1}|c_k|^2\) 
+c) \(\sum_{k=0}^N|c_k|^2\) 
+d) \(\sum_{k=0}^N|c_k|\) 
+b
+=\(\frac{1}{N} \sum_{n=0}^{N-1}x(n).x^*(n)\) 
+=\(\frac{1}{N} \sum_{n=0}^{N-1}x(n) \sum_{k=0}^{N-1}c_k * e^{-j2πkn/N}\) 
+=\(\sum_{k=0}^{N-1}c_k * \frac{1}{N} \sum_{n=0}^{N-1}x(n)e^{-j2πkn/N}\) 
+=\(\sum_{k=0}^{N-1}|c_k |^2\) 
+9. What is the Fourier transform X(ω) of a finite energy discrete time signal x(n)?
+a) \(\sum_{n=-∞}^∞x(n)e^{-jωn}\) 
+b) \(\sum_{n=0}^∞x(n)e^{-jωn}\) 
+c) \(\sum_{n=0}^{N-1}x(n)e^{-jωn}\) 
+d) None of the mentioned
+a
+X(ω)=\(\sum_{n=-∞}^∞x(n)e^{-jωn}\)
+10. What is the period of the Fourier transform X(ω) of the signal x(n)?
+a) π
+b) 1
+c) Non-periodic
+d) 2π
+d
+X(ω)=\(\sum_{n=-∞}^∞x(n)e^{-jωn}\) 
+Now X(ω+2πk)=\(\sum_{n=-∞}^∞ x(n)e^{-j(ω+2πk)n}\) 
+=\(\sum_{n=-∞}^∞ x(n)e^{-jωn}e^{-j2πkn}\) 
+=\(\sum_{n=-∞}^∞ x(n)e^{-jωn}= X(ω)\) 
+So, the Fourier transform of a discrete time finite energy signal is periodic with period 2π.
+11. What is the synthesis equation of the discrete time signal x(n), whose Fourier transform is X(ω)?
+a) \(2π\int_0^2π X(ω) e^jωn dω\) 
+b) \(\frac{1}{π} \int_0^{2π} X(ω) e^jωn dω\) 
+c) \(\frac{1}{2π} \int_0^{2π} X(ω) e^jωn dω\) 
+d) None of the mentioned
+c
+X(ω)=\(\sum_{n=-∞}^∞ x(n)e^{-jωn}\) 
+By calculating the inverse Fourier transform of the above equation, we get
+x(n)=\(\frac{1}{2π} \int_0^{2π} X(ω) e^{jωn} dω\) 
+The above equation is known as synthesis equation or inverse transform equation.
+12. What is the value of discrete time signal x(n) at n=0 whose Fourier transform is represented as below?
+a) ωc.π
+b) -ωc/π
+c) ωc/π
+d) none of the mentioned
+c
+=\(\frac{1}{2\pi} \int_{-ω_c}^{ω_c}1.e^{j\omega n} dω\) 
+At n=0,
+x(n)=x(0)=\(\int_{-ω_c}^{ω_c}1 dω=\frac{1}{2\pi}(2 ω_c)=\frac{ω_c}{\pi_ω}\) 
+Therefore, the value of the signal x(n) at n=0 is ωc/π.
+13. What is the value of discrete time signal x(n) at n≠0 whose Fourier transform is represented as below?
+a) \(\frac{ω_c}{\pi}.\frac{sin ω_c.n}{ω_c.n}\) 
+b) \(\frac{-ω_c}{\pi}.\frac{sin ω_c.n}{ω_c.n}\) 
+c) \(ω_c.\pi \frac{sin ω_c.n}{ω_c.n}\) 
+d) None of the mentioned
+a
+=\(\frac{1}{2\pi} \int_{-ω_c}^{ω_c}1.e^{j\omega n} dω=\frac{sin ω_c.n}{ω_c.n}\)
+=\(\frac{ω_c}{\pi}.\frac{sin ω_c.n}{ω_c.n}\)
+14. The oscillatory behavior of the approximation of XN(ω) to the function X(ω) at a point of discontinuity of  X(ω) is known as Gibbs phenomenon.
+a) True
+b) False
+a
+15. What is the energy of a discrete time signal in terms of X(ω)?
+a) \(2π\int_{-π}^π |X(ω)|^2 dω\) 
+b) \(\frac{1}{2π} \int_{-π}^π |X(ω)|^2 dω\) 
+c) \(\frac{1}{2π} \int_0^π |X(ω)|^2 dω\) 
+d) None of the mentioned
+b
+=\(\sum_{n=-∞}^∞ x(n).x^*(n)\) 
+=\(\sum_{n=-∞}^∞ x(n)\frac{1}{2π} \int_{-π}^π X^*(ω) e^{-jωn} dω\) 
+=\(\frac{1}{2π} \int_{-π}^π|X(ω)|^2 dω\) 
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Frequency Analysis of Continuous Time Signal» Next - Digital Signal Processing Questions and Answers – Frequency Analysis of Discrete Time Signal – 2 

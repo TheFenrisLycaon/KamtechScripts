@@ -1,0 +1,91 @@
+This section on C++ interview questions and answers focuses on “Macros”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Macros” along with answers, explanations and/or solutions:
+1. which keyword is used to define the macros in c++?
+a) macro
+b) define
+c) #define
+d) #macro
+c
+2. Which symbol is used to declare the preprocessor directives?
+a) #
+b) $
+c) *
+d) ^
+a
+3. How many types of macros are there in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+4. What is the mandatory preprocessor directive for c++?
+a) #define <iostream>
+b) #include <iostream>
+c) #undef <iostream>
+d) #macro <iostream>
+b
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    #define MIN(a,b) (((a)<(b)) ? a : b)    int main ()    {        float i, j;        i = 100.1;        j = 100.01;        cout <<"The minimum is " << MIN(i, j) << endl;        return 0;    }
+a) 100.01
+b) 100.1
+c) compile time error
+d) 100
+a
+Output:
+$ g++ mac3.cpp
+$ a.out
+The minimum value is 100.01
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main ()    {        cout << "Value of __LINE__ : " << __LINE__ << endl;        cout << "Value of __FILE__ : " << __FILE__ << endl;        cout << "Value of __DATE__ : " << __DATE__ << endl;        cout << "Value of __TIME__ : " << __TIME__ << endl;        return 0;    }
+a) 5
+b) details about your file
+c) compile time error
+d) runtime error
+b
+Output:
+$ g++ mac2.cpp
+$ a.out
+Value of __LINE__ : 5
+Value of __FILE__ : mac1.cpp
+Value of __DATE__ : Oct 10 2012
+Value of __TIME__ : 22:24:37
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    #define SquareOf(x) x * x    int main()    {        int x;        cout << SquareOf(x + 4);        return 0;    }
+a) 16
+b) 64
+c) compile time error
+d) 75386824
+d
+Output:
+$ g++ mac1.cpp
+$ a.out
+75386824
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    #define PR(id) cout << "The value of " #id " is "<<id    int main()    {        int i = 10;        PR(i);        return 0;    }
+a) 10
+b) 15
+c) 20
+d) 12
+a
+Output:
+$ g++ mac.cpp
+$ a.out
+10
+9. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    #define MAX 10    int main()    {        int num;        num = ++MAX;        cout << num;        return 0;    }
+a) 11
+b) 10
+c) compile time error
+d) 13
+c
+10. What is the other name of the macro?
+a) scripted directive
+b) executed directive
+c) link directive
+d) executed & link directive
+a
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Pointer to Function» Next - C++ Programming Questions and Answers – Modularization and Interfaces 

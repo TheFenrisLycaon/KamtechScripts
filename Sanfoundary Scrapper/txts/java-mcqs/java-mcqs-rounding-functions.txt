@@ -1,0 +1,74 @@
+1. Which of these class provides various types of rounding functions?
+a) Math
+b) Process
+c) System
+d) Object
+a
+2. Which of these methods return a smallest whole number greater than or equal to variable X?
+a) double ceil(double X)
+b) double floor(double X)
+c) double max(double X)
+d) double min(double X)
+a
+3. Which of these method returns a largest whole number less than or equal to variable X?
+a) double ceil(double X)
+b) double floor(double X)
+c) double max(double X)
+d) double min(double X)
+b
+4. Which of function return absolute value of a variable?
+a) abs()
+b) absolute()
+c) absolutevariable()
+d) none of the mentioned
+a
+5. What will be the output of the following Java code?
+    class A     {         int x;         int y;         void display()          {              System.out.print(x + " " + y);         }    }    class Output     {         public static void main(String args[])          {             A obj1 = new A();             A obj2 = new A();             obj1.x = 1;             obj1.y = 2;             obj2 = obj1.clone();             obj1.display();             obj2.display();         }    }
+a) 1 2 0 0
+b) 1 2 1 2
+c) 0 0 0 0
+d) System Dependent
+b
+Output:
+$ javac Output.java
+$ java Output
+1 2 1 2
+6. What will be the output of the following Java code?
+    class Output     {         public static void main(String args[])          {             double x = 3.14;               int y = (int) Math.abs(x);             System.out.print(y);         }    }
+a) 0
+b) 3
+c) 3.0
+d) 3.1
+b
+Output:
+$ javac Output.java
+$ java Output
+3
+7. What will be the output of the following Java code?
+    class Output     {         public static void main(String args[])          {             double x = 3.14;               int y = (int) Math.ceil(x);             System.out.print(y);         }    }
+a) 0
+b) 3
+c) 3.0
+d) 4
+d
+Output:
+$ javac Output.java
+$ java Output
+4
+8. What will be the output of the following Java code?
+    class Output     {         public static void main(String args[])          {             double x = 3.14;               int y = (int) Math.floor(x);             System.out.print(y);         }    }
+a) 0
+b) 3
+c) 3.0
+d) 4
+b
+Output:
+$ javac Output.java
+$ java Output
+3
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java’s Built in Exceptions» Next - Java Questions & Answers – Java.lang – Byte & Short Wrappers 

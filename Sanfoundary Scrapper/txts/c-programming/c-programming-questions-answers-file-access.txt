@@ -1,0 +1,74 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Adaptec and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Adaptec interviews on C Programming language. 
+Here is a listing of C programming questions on “File Access” along with answers, explanations and/or solutions:
+1. Which of the following fopen() statements are illegal?
+a) fp = fopen(“abc.txt”, “r”);
+b) fp = fopen(“/home/user1/abc.txt”, “w”);
+c) fp = fopen(“abc”, “w”);
+d) none of the mentioned
+d
+2. What does the following segment of C code do?
+fprintf(fp, "Copying!");
+a) It writes “Copying!” into the file pointed by fp
+b) It reads “Copying!” from the file and prints on display
+c) It writes as well as reads “Copying!” to and from the file and prints it
+d) None of the mentioned
+a
+3. What is FILE reserved word?
+a) A structure tag declared in stdio.h
+b) One of the basic data types in c
+c) Pointer to the structure defined in stdio.h
+d) It is a type name defined in stdio.h
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        FILE *fp = stdin;        int n;        fprintf(fp, "%d", 45);    }
+a) Compilation error
+b) 45
+c) Nothing
+d) Depends on the standard
+c
+5. What will be the output of the following C code?
+    #include <stdio.h>    #include <stdlib.h>    int main()    {        FILE *fp = stdout;        int n;        fprintf(fp, "%d", 45);    }
+a) Compilation error
+b) 45
+c) Nothing
+d) Depends on the standard
+b
+6. stdout, stdin and stderr are ________
+a) File pointers
+b) File descriptors
+c) Streams
+d) Structure
+a
+7. Which of the following statements about stdout and stderr are true?
+a) Same
+b) Both connected to screen always
+c) Both connected to screen by default
+d) stdout is line buffered but stderr is unbuffered
+c
+8. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        FILE *fp = stdout;        int n;        fprintf(fp, "%d ", 45);        fprintf(stderr, "%d ", 65);        return 0;    }
+a) 45 65
+b) 65 45
+c) 65
+d) Compilation error
+b
+9. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        FILE *fp = stdout;        int n;        fprintf(fp, "%d\n ", 45);        fprintf(stderr, "%d ", 65);        return 0;    }
+a) 45 65
+b) 65 45
+c) 65
+d) Compilation error
+a
+10. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        FILE *fp = stdout;        int n;        fprintf(fp, "%d ", 45);        fflush(stdout);        fprintf(stderr, "%d", 65);        return 0;    }
+a) 45 65
+b) 65 45
+c) 45
+d) Compilation error
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – File Access – 1» Next - C Programming Questions and Answers – Error Handling – 1 

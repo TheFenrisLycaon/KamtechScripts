@@ -1,0 +1,85 @@
+This section on C question bank focuses on “Complicated Declarations”. One shall practice these questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C question bank comes with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C question bank on “Complicated Declarations” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        struct student        {            int no;            char name[20];        };        struct student s;        no = 8;        printf("%d", no);    }
+a) Nothing
+b) Compile time error
+c) Junk
+d) 8
+b
+2. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        int no;        char name[20];    };    void main()    {        struct student s;        s.no = 8;        printf("hello");    }
+a) Run time error
+b) Nothing
+c) hello
+d) Varies
+c
+3. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        int no = 5;        char name[20];    };    void main()    {        struct student s;        s.no = 8;        printf("hello");    }
+a) Nothing
+b) Compile time error
+c) hello
+d) Varies
+b
+4. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        int no;        char name[20];    };    void main()    {        student s;        s.name = "hello";        printf("hello");    }
+a) Nothing
+b) hello
+c) Compile time error
+d) Varies
+c
+5. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        struct student        {            int no;            char name[20];        };        struct student s;        s.no = 8;        printf("%s", s.name);    }
+a) Nothing
+b) Compile time error
+c) Junk
+d) 8
+c
+6. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        int no;        char name[20];    };    struct student s;    void main()    {        s.no = 8;        printf("%s", s.name);    }
+a) Nothing
+b) Compile time error
+c) Junk
+d) 8
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int *((*x)())[2];        x();        printf("after x\n");    }    int *((*x)())[2]    {        int **str;        str = (int*)malloc(sizeof(int)* 2);        return str;    }
+a) Compile time error
+b) Undefined behaviour
+c) After x
+d) None of the mentioned
+a
+8. What will be the output of the following C code?
+    #include <stdio.h>    void (*(f)())(int, float);    void (*(*x)())(int, float) = f;    void ((*y)(int, float));    void foo(int i, float f);    int main()    {        y = x();        y(1, 2);    }    void (*(f)())(int, float)    {        return foo;    }    void foo(int i, float f)    {        printf("%d %f\n", i, f);    }
+a) 1 2.000000
+b) 1 2
+c) Compile time error
+d) Segmentation fault/code crash
+a
+9. What does this declaration say?
+int (*(*y)())[2];
+a) y is pointer to the function which returns pointer to integer array
+b) y is pointer to the function which returns array of pointers
+c) y is function which returns function pointer which in turn returns pointer to integer array
+d) y is function which returns array of integers
+a
+10. What will be the output of the following C code?
+    #include <stdio.h>    void (*(f)())(int, float);    typedef void (*(*x)())(int, float);    void foo(int i, float f);    int main()    {        x = f;        x();    }    void (*(f)())(int, float)    {        return foo;    }    void foo(int i, float f)    {        printf("%d %f\n", i, f);    }
+a) Compile time error
+b) Undefined behaviour
+c) 1 2.000000
+d) Nothing
+a
+11. What will be the output of the following C code?
+    #include <stdio.h>    void (*(f)())(int, float);    typedef void (*(*x)())(int, float);    void foo(int i, float f);    int main()    {        x p = f;        p();    }    void (*(f)())(int, float)    {        return foo;    }    void foo(int i, float f)    {        printf("%d %f\n", i, f);    }
+a) Compile time error
+b) Undefined behaviour
+c) 1 2.000000
+d) Nothing
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Pointers to Functions – 2» Next - C Programming Questions and Answers – Complicated Declarations – 2 

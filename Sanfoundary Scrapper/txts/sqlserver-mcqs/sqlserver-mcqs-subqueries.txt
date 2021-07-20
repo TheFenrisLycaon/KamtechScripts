@@ -1,0 +1,84 @@
+1. Select __________ from instructor where dept name= ’Comp. Sci.’;
+Which of the following should be used to find the mean of the salary?
+a) Mean(salary)
+b) Avg(salary)
+c) Sum(salary)
+d) Count(salary)
+b
+2. The ________ connective tests for set membership, where the set is a collection of values produced by a select clause. The _________ connective tests for the absence of set membership.
+a) Or, in
+b) Not in, in
+c) In, not in
+d) In, or
+c
+3. Select ID, GPA from student grades order by GPA  ____________
+Inorder to give only 10 rank on the whole we should use.
+a) Limit 10
+b) Upto 10
+c) Only 10
+d) Max 10
+a
+4. Suppose we are given a view tot credits (year, num credits) giving the total number of credits taken by students in each year.The query that computes averages over the 3 preceding tuples in the specified sort order is _________
+a)
+SELECT YEAR, avg(num credits)
+OVER (ORDER BY YEAR ROWS 3 preceding) AS avg total credits
+FROM tot credits;
+b)
+SELECT YEAR, avg(num credits)
+OVER (ORDER BY YEAR ROWS 3 unbounded preceding) AS avg total credits
+FROM tot credits;
+c)
+SELECT YEAR, MIN(num credits)
+OVER (ORDER BY YEAR ROWS 3 unbounded preceding) AS avg total credits
+FROM tot credits;
+d)
+SELECT YEAR, SUM(num credits)
+OVER (ORDER BY YEAR ROWS 3 unbounded preceding) AS avg total credits
+FROM tot credits;
+a
+  
+5. Which of the following is not the function of client?
+a) Compile queries
+b) Query optimization
+c) Receive queries
+d) Result formatting and presentation
+b
+6. Which server can join the indexes when only multiple indexes combined can cover the query?
+a) SQL
+b) DBMS
+c) RDBMS
+d) All of the mentioned
+a
+7. Select ________ dept_name from instructor;
+Here which of the following displays the unique values of the column?
+a) All
+b) From
+c) Distinct
+d) Name
+c
+8. Select ID, name, dept name, salary * 1.1 where instructor;
+The query given below will not give an error. Which one of the following has to be replaced to get the desired output?
+a) Salary*1.1
+b) ID
+c) Where
+d) Instructor
+c
+9. Select * from student join takes using (ID);
+The above query is equivalent to ____________
+a) Select * from student inner join takes using (ID);
+b) Select * from student outer join takes using (ID);
+c) Select * from student left outer join takes using (ID);
+d) All of the mentioned
+a
+10. The ______ clause allows us to select only those rows in the result relation of the ____ clause that satisfy a specified predicate.
+a) Where, from
+b) From, select
+c) Select, from
+d) From, where
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Ranking» Next - SQL Server Questions and Answers – Modifying Data – 1 

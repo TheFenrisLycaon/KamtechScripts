@@ -1,0 +1,150 @@
+1. What does modeling type refer to?
+a) Type of ports in entity block of VHDL code
+b) Type of description statements in architecture block of VHDL code
+c) Type of data objects
+d) Type of Signals
+b
+2. Which of the following is not a type of VHDL modeling?
+a) Behavioral modeling
+b) Dataflow modeling
+c) Structural modeling
+d) Component modeling
+d
+3. In behavioral modeling, what do descriptive statements describe?
+a) How the system performs on given input values
+b) How the design is to be implemented
+c) Netlist
+d) Concurrent execution
+a
+4. Which of the following statement is used in structural modeling?
+a) portmap()
+b) process()
+c) if-else
+d) case
+a
+5. What is the basic unit of behavioral description?
+a) Structure
+b) Sequence
+c) Process
+d) Dataflow
+c
+6. Which of the following modeling style follows the sequential processing of instructions?
+a) Dataflow modeling
+b) Behavior modeling
+c) Structural modeling
+d) Component modeling
+b
+7. __________ modeling uses logic gates and basic blocks to describe the functionality of system.
+a) Behavioral
+b) Structural
+c) Dataflow
+d) Component
+c
+8. Structural style use processes.
+a) True
+b) False
+b
+9. Component instantiation is the part of __________ modeling.
+a) Behavior
+b) Component
+c) Dataflow
+d) Structural
+d
+10. Which of the following architecture defines the data flow modeling of ‘and’ gate?
+a)
+ARCHITECTURE and_1 OF and_gate IS
+    begin
+    y <= a AND b;
+    end and_1;
+b)
+ARCHITECTURE dataflow OF and_gate IS
+    Process(a, b, y);
+    begin
+    y <= a AND b;
+    end dataflow;
+c)
+ARCHITECTURE and_1 OF and_gate IS
+    begin
+    IF(a = ‘1’ and b = ‘1’) THEN
+    c <= 1;
+    ELSE c &lt;= ‘0’;
+    end and_1;
+d)
+ARCHITECTURE dataflow OF and_gate IS
+    begin
+    y <= a AND b;
+    end and_1;
+a
+  
+11. Refer to the code given below, which type of modeling is used to describe the system?
+ARCHITECTURE and_1 OF and_gate IS
+begin
+process(a, b, y)
+begin
+IF(a = ‘1’ and b = ‘1’) THEN
+y <= ‘1’;
+ELSE y <=’0’;
+end IF;
+END process;
+END and_1;
+a) Structural
+b) Component
+c) Dataflow
+d) Behavioral
+d
+12. Which logic function is described in the code given below?
+ARCHITECTURE my_func OF my_logic IS
+begin
+process(a, b, y)
+begin
+IF(a = ‘0’ and b = ‘0’) THEN
+y <= ‘0’;
+ELSIF (a = ‘1’ and b= ‘1’) THEN
+y<= ‘0’;
+ELSE y <= ‘1’;
+END if;
+END process;
+END my_func;
+a) AND
+b) EXOR
+c) OR
+d) EXNOR
+b
+13. Which modeling style does the following code represents?
+Architecture my_logic OF logic_func IS
+Component gate_1
+PORT (b1, b2 : IN BIT;
+s : OUT BIT);
+END component;
+Component gate_2 IS
+PORT (b1,b2 : IN BIT;
+C : OUT BIT);
+END component;
+SIGNAL a, b, sum, carry : BIT;
+begin
+EXOR : gate_1 portmap (a, b, sum);
+AND : gate_2 portmap (a,b ,carry);
+END my_logic
+a) Structural
+b) Component
+c) Behavior
+d) Dataflow
+a
+14. Ports are known as _________ to the component.
+a) Structure
+b) Behavior
+c) Function
+d) Interface
+d
+15. What is the use of a function called port map()?
+a) Component declaration
+b) Defining identifiers
+c) Component instantiation
+d) Defining inputs and outputs
+c
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL for Freshers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Structural Modeling – 3» Next - VHDL Questions and Answers – Signal Assignment – 1 

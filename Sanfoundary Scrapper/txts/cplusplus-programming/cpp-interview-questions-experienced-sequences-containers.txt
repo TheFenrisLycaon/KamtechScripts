@@ -1,0 +1,89 @@
+This section on C++ interview questions and answers focuses on “Sequences and Containers”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Sequences and Containers” along with answers, explanations and/or solutions:
+1. What kind of iteration does forward_list provide in C++?
+a) Uni-directional
+b) Bi-directional
+c) Multi-directional
+d) Bi-directional & Multi-directional
+a
+2. What does the size of the vector refers to in c++?
+a) Size of vector
+b) Type of vector
+c) Number of elements
+d) Name of vector
+c
+3. Subsequent elements are moved in terms of _____ when an element in inserted in vector?
+a) Assignment Operator
+b) Copy constructor
+c) Both assignment operator and copy constructor
+d) destructor
+c
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <vector>    using namespace std;    int main ()    {        vector<int> myvector (3);        for (unsigned i = 0; i < myvector.size(); i++)        myvector.at(i) = i;        for (unsigned i = 0; i < myvector.size(); i++)        cout << ' ' << myvector.at(i);        return 0;    }
+a) 1 2 3
+b) 0 1 2
+c) 1 2 3 4
+d) 1 3 5 9
+b
+Output:
+$ g++ seqc.cpp
+$ a.out
+0 1 2
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <vector>    using namespace std;    int main ()    {        vector<int> myvector;        myvector.push_back(78);        myvector.push_back(16);        myvector.front() += myvector.back();        cout << myvector.front() << '\n';        return 0;    }
+a) 78
+b) 16
+c) 94
+d) 86
+c
+Output:
+$ g++ seqc1.cpp
+$ a.out
+94
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <list>    using namespace std;    int main ()    {        list<int> mylist;        list<int> :: iterator it1, it2;        for (int i = 1; i < 10; ++i) mylist.push_back(i * 1);            it1 = it2 = mylist.begin();        advance (it2, 6);        ++it1;        it1 = mylist.erase (it1);        it2 = mylist.erase (it2);        ++it1;        --it2;        mylist.erase (it1, it2);        for (it1 = mylist.begin(); it1 != mylist.end(); ++it1)            cout << ' ' << *it1;        return 0;    }
+a) 1 3 6
+b) 8 9
+c) 1 3 6 8 9
+d) 4 6 8 9
+c
+Output:
+$ g++ seqc2.cpp
+$ a.out
+1 3 6 8 9
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <deque>     using namespace std;    int main ()    {        unsigned int i;        deque<int> mydeque;        deque<int> :: iterator it;        mydeque.push_back ( 100 );        mydeque.push_back ( 200 );        mydeque.push_back ( 300 );        for (it = mydeque.begin(); it != mydeque.end(); ++it)            mydeque.clear();        cout << ' ' << *it;    }
+a) 100
+b) 200
+c) 300
+d) error
+d
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <deque>    using namespace std;    int main ()    {        deque<int> mydeque;        int sum (0);        mydeque.push_back ( 10 );        mydeque.push_back ( 20 );        mydeque.push_back ( 30 );        while (!mydeque.empty())        {            sum += mydeque.back();            mydeque.pop_back();        }        cout << sum << '\n';        return 0;    }
+a) 10
+b) 20
+c) 30
+d) 60
+d
+Output:
+$ g++ seqc3.cpp
+$ a.out
+60
+9. What is the use of adapter in STL in c++?
+a) To provide interface
+b) To manipulate the data
+c) To extract the data
+d) To delete the data
+a
+10. Which is used to iterate over container?
+a) Associated iterator type
+b) Data type of objects
+c) Return type of variables
+d) Name of the variables
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Standard Library Algorithms» Next - C++ Programming Questions and Answers – Function Objects 

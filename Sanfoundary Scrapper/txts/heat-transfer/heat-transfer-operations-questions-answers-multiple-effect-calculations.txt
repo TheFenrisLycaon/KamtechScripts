@@ -1,0 +1,316 @@
+1. Which one of the following is the correct equation for enthalpy balance for the 1st effect in a triple effect evaporator?
+a) FHF+S∇S=EHE+EHP
+b) FHF+S∇S=EHE+PHP
+c) E1 HE+P1 HP=E2 HE+P2 HP
+d) FHF+S∇S=E1 HE+P1 HP
+d
+INLET: Feed F with enthalpy HF and Steam S with latent heat ∇S
+OUTLET: Evaporate E1and Product P1.
+2. Which one of the following is the correct equation for enthalpy balance for the 2nd effect in a triple effect evaporator?
+a) FHF+S∇S=EHE+EHP
+b) FHF+S∇S=EHE+PHP
+c) E1 ∇E1+P1HP1=E2 HE2+P2 HP2
+d) FHF+S∇S=E1 HE+P1HP
+c
+INLET: Feed P1with enthalpy HP1 and Steam E1with latent heat ∇E1
+OUTLET: Evaporate E2 and Product P2
+E1 ∇E1+P1 HP1=E2HE2+P2 HP2.
+3. In a triple effect evaporator, given the enthalpies as and the flow rates calculate the evaporation rate in the 2nd effect.
+Temperature
+Latent heat(m)
+Enthalpy
+117
+527
+654
+106
+538
+640
+90
+545
+631
+57
+568
+619
+Feed rate = 50Kg/hr, Feed conc = 0.3, Product conc = 0.5
+Find the evaporation rate in 2nd effect.
+a) 25.7 kg/hr
+b) 20 kg/hr
+c) 15 kg/hr
+d) 10 kg/hr
+a
+INLET: Feed P1 with enthalpy HP1 and Steam E1 with latent heat ∇E1
+OUTLET: Evaporate E2 and Product P2
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+Hence, P = XFF/Xp = 50×0.3/0.5 = 30Kg/hr, E1 = 50-30 =20kg/hr
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+20×538+30×106 = (E)x631+(30-E)x90
+Hence, the value of E = 25.7kg/hr.
+4. In a triple effect evaporator, given the enthalpies as and the flow rates calculate the product formation rate in the 2nd effect.
+Feed rate = 25000kg/hr at 38℃, Feed conc = 0.10, Product conc = 0.50
+Find the evaporate rate in 3rd effect.
+Temperature
+Latent heat(m)
+Enthalpy
+117
+527
+654
+106
+538
+640
+90
+545
+631
+57
+568
+619
+a) 6630 kg/hr
+b) 7190 kg/hr
+c) 6180 kg/hr
+d) 5000 kg/hr
+b
+INLET: Feed P1 with enthalpy HP1 and Steam E1 with latent heat ∇E1
+OUTLET: Evaporate E2 and Product P2
+FHF+S∇S=EHE+PHP
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+Hence, P = XFF/Xp = 25000×0.1/0.5 = 5000Kg/hr, E = E1 + E2 + E3 = 25000-5000 =20000kg/hr
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+E2 ∇E2+P2 HP2=EHE+PHP
+We have the three equations with the unknowns E1, E2, E3, P1, P2, P = 5000 kg/hr.
+Hence solving the equations using a scientific calculator we get, E3 = 7190 kg/hr.
+5. Which one of the following is the correct equation for enthalpy balance for the final effect in a triple effect evaporator?
+a) E2 ∇E2+P2 HP2=EHE+PHP
+b) FHF+S∇S=EHE+PHP
+c) E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+d) FHF+S∇S=E1 HE+P1 HP
+a
+INLET: Feed P2 with enthalpy HP2 and Steam E2 with latent heat ∇E2
+OUTLET: Evaporate E and Product P
+E2 ∇E2+P2 HP2=EHE+PHP.
+6. If we know the heat transfer coefficients of all the effects and the initial and final temperatures of the vapour, we can estimate the intermediate temperatures of the setup.
+a) True
+b) False
+a
+Hence if the area is same for all effects, U1A ΔT1 = U2AΔT2 = U3AΔT3, here we have 4 variables and three equations, hence anyone can be found out easily if one or more are available.
+7. In a triple effect evaporator, given the enthalpies as and the flow rates calculate the product formation rate in the 2nd effect.
+Feed rate = 25000kg/hr at 38℃, Feed conc = 0.10, Product conc = 0.50
+Find the Area of condenser in 3rd effect.
+U1=2930 Kcal/hr2 K, U2=1220 Kcal/hr2 K, U3=610 Kcal/hr2 K
+Temperature
+Latent heat(m)
+Enthalpy
+117
+527
+654
+106
+538
+640
+90
+545
+631
+57
+568
+619
+a) 164m2
+b) 151m2
+c) 179.5m2
+d) 155m2
+c
+INLET: Feed P1 with enthalpy HP1 and Steam E1 with latent heat ∇E1
+OUTLET: Evaporate E2 and Product P2
+FHF+S∇S=EHE+PHP
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+Hence, P = XFF/Xp = 25000×0.1/0.5 = 5000Kg/hr, E = E1 + E2 + E3 = 25000-5000 =20000kg/hr
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+E2 ∇E2+P2 HP2=EHE+PHP
+We have the three equations with the unknowns E1, E2, E3, P1, P2, P = 5000 kg/hr.
+Hence solving the equations using a scientific calculator we get, E2 = 6630 kg/hr
+A3 = E2 ∇E2/U∆T = 6630×545/610x(90 – 57) = 179.52.
+8. In a triple effect evaporator, given the enthalpies as and the flow rates calculate the product formation rate in the 2nd effect.
+Feed rate = 25000kg/hr at 38℃, Feed conc = 0.10, Product conc = 0.50
+Find the evaporate rate in 2nd effect.
+Temperature
+Latent heat(m)
+Enthalpy
+117
+527
+654
+106
+538
+640
+90
+545
+631
+57
+568
+619
+a) 6630 kg/hr
+b) 7190 kg/hr
+c) 6180 kg/hr
+d) 5000 kg/hr
+a
+INLET: Feed P1 with enthalpy HP1 and Steam E1 with latent heat ∇E1
+OUTLET: Evaporate E2 and Product P2
+FHF+S∇S=EHE+PHP
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+Hence, P = XFF/Xp = 25000×0.1/0.5 = 5000Kg/hr, E = E1 + E2 + E3 = 25000-5000 =20000kg/hr
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+E2 ∇E2+P2 HP2=EHE+PHP
+We have the three equations with the unknowns E1, E2, E3, P1, P2, P = 5000 kg/hr.
+Hence solving the equations using a scientific calculator we get, E2 = 6630 kg/hr.
+9. In a triple effect evaporator, given the enthalpies as and the flow rates
+Feed rate = 25000kg/hr at 38℃, Feed conc = 0.10, Product conc = 0.50
+Find the evaporate rate in 1st effect.
+Temperature
+Latent heat(m)
+Enthalpy
+117
+527
+654
+106
+538
+640
+90
+545
+631
+57
+568
+619
+a) 6630 kg/hr
+b) 7190 kg/hr
+c) 6180 kg/hr
+d) 5000 kg/hr
+c
+INLET: Feed P1 with enthalpy HP1 and Steam E1 with latent heat ∇E1
+OUTLET: Evaporate E2 and Product P2
+FHF+S∇S=EHE+PHP
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+Hence, P = XFF/Xp = 25000×0.1/0.5 = 5000Kg/hr, E = E1 + E2 + E3 = 25000-5000 =20000kg/hr
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+E2 ∇E2+P2 HP2=EHE+PHP
+We have the three equations with the unknowns E1, E2, E3, P1, P2, P= 5000 kg/hr.
+Hence solving the equations using a scientific calculator we get, E1 = 6180 kg/hr.
+10. In a triple effect evaporator, given the enthalpies as and the flow rates calculate the product formation rate in the 2nd effect.
+Feed rate = 25000kg/hr at 38oC, Feed conc = 0.10, Product conc = 0.50
+Find the steam consumption rate.
+Temperature
+Latent heat(m)
+Enthalpy
+117
+527
+654
+106
+538
+640
+90
+545
+631
+57
+568
+619
+a) 6630 kg/hr
+b) 7190 kg/hr
+c) 6180 kg/hr
+d) 9488 kg/hr
+d
+INLET: Feed P1 with enthalpy HP1 and Steam E1 with latent heat ∇E1
+OUTLET: Evaporate E2 and Product P2
+FHF+S∇S=EHE+PHP
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+Hence, P = XFF/Xp = 25000×0.1/0.5 = 5000Kg/hr, E = E1 + E2 + E3 = 25000-5000 =20000kg/hr
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+E2 ∇E2+P2 HP2=EHE+PHP
+We have the three equations with the unknowns E1, E2, E3, P1, P2, P = 5000 kg/hr.
+Hence solving the equations using a scientific calculator we get, S = 9488 kg/hr.
+11. In a triple effect evaporator, given the enthalpies as and the flow rates calculate the product formation rate in the 2nd effect.
+Feed rate = 25000kg/hr at 38℃, Feed conc = 0.10, Product conc = 0.50
+Find the Area of condenser in 1st effect.
+U1=2930 Kcal/hr 2 K, U2=1220 Kcal/hr 2 K, U3=610 Kcal/hr 2 K
+Temperature
+Latent heat(m)
+Enthalpy
+117
+527
+654
+106
+538
+640
+90
+545
+631
+57
+568
+619
+a) 1622
+b) 1512
+c) 1892
+d) 1552
+d
+INLET: Feed P1 with enthalpy HP1 and Steam E1 with latent heat ∇E1
+OUTLET:Evaporate E2 and Product P2
+FHF+S∇S=EHE+PHP
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+Hence, P = XFF/Xp = 25000×0.1/0.5 = 5000Kg/hr, E = E1 + E2 + E3 = 25000-5000 =20000kg/hr
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+E2 ∇E2+P2 HP2=EHE+PHP
+We have the three equations with the unknowns E1, E2, E3, P1, P2, P = 5000 kg/hr.
+Hence solving the equations using a scientific calculator we get, E1 = 6180 kg/hr
+A1 = S∇S/U∆T = 9488×527/2930x(117-106) = 155 2. 
+12. In a triple effect evaporator, given the enthalpies as and the flow rates calculate the product formation rate in the 2nd effect.
+Feed rate = 25000kg/hr at 38oC, Feed conc = 0.10, Product conc = 0.50
+Find the Area of condenser in 2nd effect.
+U1=2930 Kcal/hr 2 K, U2=1220 Kcal/hr 2 K, U3=610 Kcal/hr 2 K
+Temperature
+Latent heat(m)
+Enthalpy
+117
+527
+654
+106
+538
+640
+90
+545
+631
+57
+568
+619
+a) 1702
+b) 1512
+c) 1892
+d) 1552
+a
+INLET: Feed P1 with enthalpy HP1 and Steam E1 with latent heat ∇E1
+OUTLET: Evaporate E2 and Product P2
+FHF+S∇S=EHE+PHP
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+Hence, P = XFF/Xp = 25000×0.1/0.5 = 5000Kg/hr, E = E1 + E2 + E3 = 25000-5000 =20000kg/hr
+E1 ∇E1+P1 HP1=E2 HE2+P2 HP2
+E2 ∇E2+P2 HP2=EHE+PHP
+We have the three equations with the unknowns E1, E2, E3, P1, P2, P= 5000 kg/hr.
+Hence solving the equations using a scientific calculator we get, E1 = 6180 kg/hr
+A2 = E1 ∇E1/U∆T = 6180×538/1220x(106 -90) = 170 2. 
+13. The three areas which we calculate from the steam consumption value, only the ________ one is used in calculation of number of tubes.
+a) Maximum
+b) Minimum
+c) Average
+d) Median
+a
+14. If the three areas obtained from steam calculation are 1512, 1622, and 1892. If the diameter and the length of the tube are 5cm and 150cm respectively, find the number of tubes required in this multiple effect evaporator.
+a) 697
+b) 802
+c) 892
+d) 502
+b
+The area of each tube is = πDo L  hence we have πDo L N=189 or N=189/3.14×0.05×1.5=802. 
+15. If we have the areas calculated for the three effects as 1512, 1622, and 1892. Then the value we consider to manufacture the three effects of this triple effect evaporator is ______________
+a) 1622
+b) 1512
+c) 1892
+d) Their respective values
+c
+Sanfoundry Global Education & Learning Series – Heat Transfer Operations.
+To practice all areas of Heat Transfer Operations, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Heat Transfer Operations Questions and Answers – Evaporators – Effect of Liquid Head and Boiling Point Elevation» Next - Heat Transfer Operations Questions and Answers – Boilers – Boiling and Equipment 

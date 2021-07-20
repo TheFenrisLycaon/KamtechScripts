@@ -1,0 +1,69 @@
+1. Which of the following option can be used to launch Perfmon?
+a) Type “start perfmon” at the command prompt
+b) Go to Start | Programs | Administrative Tools | Performance Monitor
+c) Go to Start | Run | Perfmon
+d) All of the mentioned
+d
+2. Point out the wrong statement.
+a) There are hundreds of Performance Counters
+b) Performance Counters are very important to evaluate
+c) SQL Server provides several tools for monitoring events in SQL Server and for tuning the physical database design
+d) None of the mentioned
+a
+3. Which of the following is one of the most crucial performance counters for monitoring?
+a) Disk Write Bytes/sec
+b) Memory Queue Length
+c) Virtual Memory
+d) All of the mentioned
+a
+4. _________ reports the total processor time with respect to the available capacity of the server.
+a) Disk Read Bytes/sec
+b) Avg.Disk Queue Length
+c) Processor time
+d) Response time
+c
+5. Point out the correct statement.
+a) Slow SELECT queries with high physical reads and low queue lengths demonstrates under performance of Disk read and write
+b) If many simultaneous requests are waiting, investigate the process which is taking less time
+c) SQL Server 2008 R2 Data Collection provides information about SQL Server processes and how these processes affect the current instance of SQL Server
+d) All of the mentioned
+a
+6. Which of the following stored procedure reports snapshot information about current SQL Server user?
+a) sp_lock
+b) sp_who
+c) sp_monitor
+d) sp_user
+b
+7. _____________ displays an estimate of the current amount of disk space used by a table.
+a) sp_lock
+b) sp_who
+c) sp_monitor
+d) sp_spaceused
+d
+8. Which of the following field in the following code is qualified name?
+sp_spaceused [[ @objname = ] 'objname' ] 
+[,[ @updateusage = ] 'updateusage' ]
+a) updateusage
+b) @objname
+c) @updateusage
+d) All of the mentioned
+b
+9. Which of the following determines type or resource to which the lock applies?
+a) sp_lock
+b) sp_who
+c) sp_monitor
+d) sp_spaceused
+a
+10. The Activity Monitor in SQL Server Management Studio graphically displays information about ______________
+a) User activity
+b) Blocked processes
+c) Locks
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+	
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Schema Audit» Next - SQL Server Questions and Answers – Profiling 

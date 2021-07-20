@@ -1,0 +1,135 @@
+1. There are two points P and Q on a planar rigid body. The relative velocity between the two points
+a) should always be along PQ
+b) can be oriented along any direction
+c) should always be perpendicular to PQ
+d) should be along QP when the body undergoes pure translation
+c
+vQP = Relative velocity between P & Q
+               = vP − vQ always perpendicular to PQ.
+2. For a four-bar linkage in toggle position, the value of mechanical advantage is
+a) 0.0
+b) 0.5
+c) 1.0
+d) ∞
+d
+So M.A = ∞.
+3. The number of inversion for a slider crank mechanism is
+a) 6
+b) 5
+c) 4
+d) 3
+c
+4. Match the item in columns I and II
+  Column I                                     Column II
+P. Addendum                                     1. Cam
+Q. Instantaneous centre of velocity             2. Beam
+R. Section modulus                              3. Linkage
+S. Prime circle                                 4. Gear
+a) P-4, Q-2, R-3, S-1
+b) P-4, Q-3, R-2, S-1
+c) P-3, Q-2, R-1, S-4
+d) P-3, Q-4, R-1, S-2
+b
+            P. Addendum                                4. Gear
+            Q. Instantaneous centre of velocity        3. Linkage
+            R. Section modulus                         2. Beam
+            S. Prime circle                            1. Cam
+So correct pairs are, P-4, Q-3, R-2, S-1.
+5. Match the items in columns I and II
+Column I                                        Column II
+P. Higher Kinematic Pair                        1. Grubler’s Equation
+Q. Lower Kinemation Pair                        2. Line contact
+R. Quick Return Mechanism                       3. Euler’s Equation
+S. Mobility of a Linkage                        4. Planar
+                                                5. Shaper
+                                                6. Surface contact
+a) P-2, Q-6, R-4, S-3
+b) P-6, Q-2, R-4, S-1
+c) P-6, Q-2, R-5, S-3
+d) P-2, Q-6, R-5, S-1
+d
+Column I                          Column II
+P. Higher Kinematic Pair            2. Line Contact
+Q. Lower Kinematic Pair             6. Surface Contact
+R. Quick Return Mechanism           5. Shaper
+S. Mobility of a Linkage            1. Grubler’s Equation
+So correct pairs are, P-2, Q-6, R-5, S-1.
+6. In a four-bar linkage, S denotes the shortest link length, L is the longest link length, P and Q are the lengths of other two links. At least one of the three moving links will rotate by 3600 if
+a) S + L < P + Q
+b) S + L > P + Q
+c) S + P < L + Q
+d) S + P > L + Q
+a
+According to Grashof’s law : “For a four bar mechanism, the sum of the shortest and longest link lengths should not be greater than the sum of remaining two link lengths, if there is to be continuous relative motion between the two links
+S + L < P + Q. 
+7. The number of degrees of freedom of a planar linkage with 8 links and 9 simple revolute joints is
+a) 1
+b) 2
+c) 3
+d) 4
+c
+We know that, Degree of freedom,
+n =3(l − 1)−2j = 3(8 − 1)−2 x 9 = 3.
+8. The lengths of the links of a 4-bar linkage with revolute pairs are p,q,r, and s units. given that p<q<r<s. Which of these links should be the fixed one, for obtaining a “double crank” mechanism ?
+a) link of length p
+b) link of length q
+c) link of length r
+d) link of length s
+a
+“Double crank” mechanism occurs, when the shortest link is fixed. From the given pairs p is the shortest link. So, link of length p should be fixed.
+9. When a cylinder is located in a Vee-block, the number of degrees of freedom which are arrested is
+a) 2
+b) 4
+c) 7
+d) 8
+b
+10. The minimum number of links in a single degree-of-freedom planar mechanism with both higher and lower kinematic pairs is
+a) 2
+b) 3
+c) 4
+d) 5
+c
+n = 3(l − 1) − 2j − h
+For single degree of Freedom (n = 1),
+1 = 3(l − 1) − 2j − h
+3l − 2j − 4 − h = 0                   …(i)
+The simplest possible mechanisms of single degree of freedom is four-bar mechanism. For this mechanism j = 4, h = 0
+From equation (i), we have
+3l − 2 x 4 − 4 − 0 = 0
+or, l = 4.
+11. The total number of instantaneous centres for a mechanism consisting of n links are
+a) n/2
+b) n
+c) n – 1/2
+d) n(n – 1)/2
+d
+12. According to Aronhold Kennedy’s theorem, if three bodies move relatively to each other, their instantaneous centres will lie on a
+a) straight line
+b) parabolic curve
+c) ellipse
+d) none of the mentioned
+a
+13. In a mechanism, the fixed instantaneous centres are those centres which
+a) remain in the same place for all configurations of the mechanism
+b) vary with the configuration of the mechanism
+c) moves as the mechanism moves, but joints are of permanent nature
+d) none of the mentioned
+a
+14. The instantaneous centres which vary with the configuration of the mechanism, are called
+a) permanent instantaneous centres
+b) fixed instantaneous centres
+c) neither fixed nor permanent instantaneous centres
+d) none of the mentioned
+c
+15. When a slider moves on a fixed link having curved surface, their instantaneous centre lies
+a) on their point of contact
+b) at the centre of curvature
+c) at the centre of circle
+d) at the pin joint
+b
+Sanfoundry Global Education & Learning Series – Machine Kinematics.
+To practice  all areas of Machine Kinematics for online tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Machine Kinematics Questions and Answers – Double Slider Crank Chain & its Inversions» Next - Machine Kinematics Questions and Answers – Properties of Instantaneous Centre 

@@ -1,0 +1,65 @@
+1. The ______ is a container used to gather tests for the purpose of grouping and invocation.
+a) Result
+b) TestCase
+c) Suite
+d) Test
+c
+2. What happens if the tester does not define a Suite?
+a) The test runner automatically creates a Suite
+b) Compilation Error
+c) Every test fails
+d) Every test passes
+a
+3. The Suite object is a _____ that executes all of the @Test annotated methods in the test class.
+a) Result
+b) FolderConfigurationTest
+c) FileConfigurationTest
+d) Runner
+d
+4. Suite class is the JUnit 4 equivalent of what feature of JUnit 3.8.x?
+a) static Test suite() method
+b) Test suite() method
+c) static void suite() method
+d) void suite() method
+a
+5. For a Suite class, the @RunWith annotation has the value of which class?
+a) org.junit.runners.class
+b) org.junit.Suite.class
+c) org.runners.Suite.class
+d) org.junit.runners.Suite.class
+d
+6. Which annotation is used to list all the classes in a suite?
+a) @RunWith
+b) @SuiteClasses
+c) @Classses
+d) @SuiteClass
+b
+7. If we want to run test files Test1 and Test2 together, the @SuiteClasses annotation will be?
+a) @SuiteClasses(value={Test1.class,Test2.class})
+b) @SuiteClasses(value=All)
+c) @SuiteClasses(Test1, Test2);
+d) @SuiteClasses()
+a
+8. JUnit Suites are independent of the capability of the ______ system.
+a) Run
+b) Class
+c) Test
+d) Build
+d
+9. Will the second and third assert failures be reported?
+	public class TestFile         {		@Test		public void testMethod()                {			assertTrue(false);			assertTrue(false);			assertTrue(false);		}	}
+a) Yes
+b) No
+b
+10. Which attribute is added to the @Test annotation so that the test passes when an expected exception is thrown?
+a) exception
+b) throws
+c) expected
+d) expectedException
+c
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of JUnit for Experienced people, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – JUnit Test Runners» Next - JUnit Questions and Answers – The Controller Component 

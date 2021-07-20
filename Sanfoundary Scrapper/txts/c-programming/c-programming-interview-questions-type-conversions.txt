@@ -1,0 +1,53 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Sasken and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Sasken interviews on C Programming language. 
+Here is a listing of C programming interview questions on “Type Conversions” along with answers, explanations and/or solutions:
+1. function tolower(c) defined in library <ctype.h> works for ___________
+a) Ascii character set
+b) Unicode character set
+c) Ascii and utf-8 but not EBCDIC character set
+d) Any character set
+d
+2. What will be the output of the following C code considering the size of a short int is 2, char is 1 and int is 4 bytes?
+    #include <stdio.h>    int main()    {        short int i = 20;        char c = 97;        printf("%d, %d, %d\n", sizeof(i), sizeof(c), sizeof(c + i));        return 0;    }
+a) 2, 1, 2
+b) 2, 1, 1
+c) 2, 1, 4
+d) 2, 2, 8
+c
+3. Which type of conversion is NOT accepted?
+a) From char to int
+b) From float to char pointer
+c) From negative int to char
+d) From double to char
+b
+Join Sanfoundry@YouTube
+4. What will be the data type of the result of the following operation?
+(float)a * (int)b / (long)c * (double)d
+a) int
+b) long
+c) float
+d) double
+d
+5. Which of the following type-casting have chances for wrap around?
+a) From int to float
+b) From int to char
+c) From char to short
+d) From char to int
+b
+6. Which of the following typecasting is accepted by C?
+a) Widening conversions
+b) Narrowing conversions
+c) Widening & Narrowing conversions
+d) None of the mentioned
+c
+7. When do you need to use type-conversions?
+a) The value to be stored is beyond the max limit
+b) The value to be stored is in a form not supported by that data type
+c) To reduce the memory in use, relevant to the value
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Type Conversions – 1» Next - C Programming Questions and Answers – Increment and Decrement Operators – 1 

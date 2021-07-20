@@ -1,0 +1,101 @@
+1. Which of these is not the assumption for Taylor – Maccoll conical flow?
+a) Cone is placed at the zero angle of attack
+b) Flow properties along a ray of cone are constant
+c) Shock wave is curved
+d) Flow is axisymmetric
+c
+2. Which of these is the correct relation for the entropy across a shock for all the streamlines?
+a) ∇s = 0
+b) ∇ × s = 0
+c) (∇s) × s = 0
+d) (∇ × s).s = 0
+a
+3. Which of these is the continuity equation for an axisymmetric flow?
+a) ρVθcot⁡θ + ρ\(\frac {∂(V_θ)}{∂θ}\) + Vθ\(\frac {∂(ρ)}{∂θ}\) = 0
+b) 2ρVr + ρVθcot⁡θ + ρ\(\frac {∂(V_θ)}{∂θ}\) + Vθ\(\frac {∂(ρ)}{∂θ}\) = 0
+c) 2ρVr + ρVθcot⁡θ = 0
+d) \(\frac {1}{r{^2}} \frac {∂}{∂r}\) (r2ρVr) +  \(\frac {1}{r sinθ} \frac {∂}{∂θ}\)(ρVθsin⁡θ) + \(\frac {1}{r sinθ} \frac {∂(ρV_ϕ)}{∂ϕ}\) = 0
+b
+\(\frac {∂}{∂t}\) + ∇.(ρV) = 0.
+Since the flow is assumbed to be steady, \(\frac {∂}{∂t}\) = 0.
+For spherical coordinated of a cone, the del operator is expanded as
+∇.(ρV) = \(\frac {1}{r{^2}} \frac {∂}{∂r}\)(r2ρVr) +  \(\frac {1}{r sinθ} \frac {∂}{∂θ}\) (ρVθsin⁡θ) + \(\frac {1}{r sinθ} \frac {∂(ρV_ϕ)}{∂ϕ}\) = 0
+Solving the partial derivatives, we get
+\(\frac {1}{r{^2}}\bigg [ \)r2\(\frac {∂}{∂r}\)(ρVr) + ρVr\(\frac {∂(r^2)}{∂r} \bigg ] + \frac {1}{r sinθ} \bigg [ \)ρVθ\(\frac {∂}{∂θ}\)(sin⁡θ ) + sin⁡θ\(\frac {∂(ρV_θ)}{∂θ} \bigg ] + \frac {1}{r sinθ} \frac {∂(ρV_ϕ)}{∂ϕ}\) = 0
+This is equal to
+\(\frac {1}{r{^2}}\bigg [ \)r2\(\frac {∂}{∂r}\)(ρVr) + ρVr(2r)\( \bigg ] + \frac {1}{r sinθ} \bigg [ \)ρVθ(cos⁡θ) + sin⁡θ\(\frac {∂(ρV_θ)}{∂θ} \bigg ] + \frac {1}{r sinθ} \frac {∂(ρV_ϕ)}{∂ϕ}\) = 0
+Since the flow properties are constant along a ray, \(\frac {∂}{∂r}\)(ρVr) = 0 and \( \frac {∂(ρV_ϕ)}{∂ϕ}\) = 0
+The equations becomes \(\frac {1}{r{^2}}\)[ρVr(2r)] + \(\frac {1}{r sinθ} \bigg [ \)ρVθ(cos⁡θ) + sin⁡θ \(\frac {∂(ρV_θ)}{∂θ} \bigg ] \) + 0
+Multiplying the final equation with r: 2ρVr + ρVθcot⁡θ + ρ\(\frac {∂(ρV_θ)}{∂θ}\) + Vθ\(\frac {∂(ρ)}{∂θ}\) = 0
+4. Along the streamline of the conical flow, the total enthalpy stays constant.
+a) True
+b) False
+a
+ρ\(\frac {Dh_0}{Dt} = \frac {∂p}{∂t}\) + p\( \dot {q}\) + ρ(f.V)
+Where \(\frac {Dh_0}{Dt}\) is the total derivative of total enthalpy
+p is the pressure
+\( \dot {q}\) is per rate of heat added/removed
+f.V is body forces
+According to Taylor – Maccoll’s assumptions, the flow is said to be steady (\(\frac {∂}{∂t}\) = 0), adiabatic (\( \dot {q}\) = 0), inviscid and has no external body forces (f.V = 0). Thus, the equation reduces to
+ρ\(\frac {Dh_0}{Dt}\) = 0
+Which on integrating gives us h0 = const.
+5. Conical flow is rotational according to the result obtained from Crocco’s theorem.
+a) True
+b) False
+b
+T∇s = ∇h0 – V × (∇ × V)
+Therefore the vorticity is related to total enthalpy and gradient as (on rearranging the terms):
+V × (∇ × V) = ∇h0 – T∇s
+In a flow having a change in enthalpy or entropy would result in a rotational flow, but since for conical flow, the assumptions result in both change in entropy and enthalpy being zero, we get
+V × (∇ × V) = 0
+Since curl of velocity i.e. vorticity is zero, thus the flow is irrotational.
+6. What is the irrotationally condition for a conical flow?
+a) Vθ = \(\frac {∂(V_r )}{∂θ}\) 
+b) Vϕ = \(\frac {∂(V_r )}{∂ϕ}\) 
+c) Vθ = \(\frac {1}{r} \frac {∂(V_θ )}{∂θ}\) 
+d) Vθ = \(\frac {∂(V_r )}{∂θ}\)Vr
+a
+∇ × V = \(\frac {1}{r^2 sinθ} \begin {vmatrix} e_r & re_θ & (rsinθ) e_ϕ \\
+\frac {∂}{∂r} & \frac {∂}{∂θ} & \frac {∂}{∂ϕ} \\
+V_r & rV_θ & (rsinθ) V_ϕ \\
+\end {vmatrix}\) = 0
+On expanding this we get,
+∇ × V = \(\frac {1}{r^2 sinθ} \bigg [ \)er (\(\frac {∂}{∂θ}\)(rsinθ)Vϕ – \(\frac {∂(rV_θ)}{∂ϕ}\)) – reθ(\(\frac {∂}{∂r}\)(rsinθ)Vϕ – \(\frac {∂(V_r)}{∂ϕ}\)) + (rsinθ)eϕ\( \bigg( \frac {∂(rV_θ)}{∂r} – \frac {∂(V_r)}{∂θ} \bigg )  \bigg ] \) = 0
+For this equation to be valid, the terms inside the bracket are zero. Taking the last bracket term,
+\( \frac {∂(rV_θ)}{∂r} – \frac {∂(V_r)}{∂θ}\) = 0
+Using chain rule to expand this, we get
+r\( \frac {∂(V_θ )}{∂r}\) + Vθ\( \frac {∂(r)}{∂r} – \frac {∂(V_r )}{∂θ}\) = 0
+Based on the conical flow assumptions, \( \frac {∂}{∂r}\) = 0 and \( \frac {∂}{∂ϕ}\) = 0. Applying this the equation reduced to
+\(\frac {∂(V_r )}{∂θ}\) = 0
+Which results in the irrotationally condition for a conical flow as Vθ = \(\frac {∂(V_r )}{∂θ}\).
+7. Conical flow is assumed to be symmetric about which of these axis?
+a) X – axis
+b) Y – axis
+c) Z – axis
+d) No symmetry
+c
+8. What is the flow over right circular cone at zero angle of attack is considered to be?
+a) One – dimensional
+b) Quasi three – dimensional
+c) Three – dimensional
+d) Quasi two – dimensional
+d
+9. How many unknowns are present in the Taylor Maccoll equation?
+a) One
+b) Two
+c) Three
+d) Four
+a
+Vr = f(θ)
+10. The solution proposed by Taylor and Maccoll for supersonic flow over a cone is obtained using which of these techniques?
+a) Analytically
+b) Graphically
+c) Numerically
+d) Simulation
+c
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Physical Aspects of Conical Flow» Next - Aerodynamics Questions and Answers – Physical Aspects of Supersonic Flow over Cones 

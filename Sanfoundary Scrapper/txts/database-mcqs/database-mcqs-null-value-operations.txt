@@ -1,0 +1,78 @@
+1. A _____ indicates an absent value that may exist but be unknown or that may not exist at all.
+a) Empty tuple
+b) New value
+c) Null value
+d) Old value
+c
+2. If the attribute phone number is included in the relation all the values need not be entered into the phone number column. This type of entry is given as
+a) 0
+b) –
+c) Null
+d) Empty space
+c
+3. The predicate in a where clause can involve Boolean operations such as and. The result of true and unknown is_______ false and unknown is _____ while unknown and unknown is _____
+a) Unknown, unknown, false
+b) True, false, unknown
+c) True, unknown, unknown
+d) Unknown, false, unknown
+d
+4.
+ SELECT name
+FROM instructor
+WHERE salary IS NOT NULL;
+Selects
+a) Tuples with null value
+b) Tuples with no null values
+c) Tuples with any salary
+d) All of the mentioned
+b
+5. In an employee table to include the attributes whose value always have some value which of the following constraint must be used?
+a) Null
+b) Not null
+c) Unique
+d) Distinct
+b
+6. Using the ______ clause retains only one copy of such identical tuples.
+a) Null
+b) Unique
+c) Not null
+d) Distinct
+d
+7.
+CREATE TABLE employee (id INTEGER,name VARCHAR(20),salary NOT NULL);
+INSERT INTO employee VALUES (1005,Rach,0);
+INSERT INTO employee VALUES (1007,Ross, );
+INSERT INTO employee VALUES (1002,Joey,335);
+Some of these insert statements will produce an error. Identify the statement.
+a) Insert into employee values (1005,Rach,0);
+b) Insert into employee values (1002,Joey,335);
+c) Insert into employee values (1007,Ross, );
+d) None of the mentioned
+c
+8. The primary key must be
+a) Unique
+b) Not null
+c) Both Unique and Not null
+d) Either Unique or Not null
+c
+9. You attempt to query the database with this command:
+ SELECT nvl (100 / quantity, NONE)
+     FROM inventory;
+Why does this statement cause an error when QUANTITY values are null?
+a) The expression attempts to divide by a null value
+b) The data types in the conversion function are incompatible
+c) The character string none should be enclosed in single quotes (‘ ‘)
+d) A null value used in an expression cannot be converted to an actual value
+a
+10. The result of _____unknown is unknown.
+a) Xor
+b) Or
+c) And
+d) Not
+d
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Set Operations» Next - Database Questions and Answers – Aggregate Functions and Nested Subqueries – 1 

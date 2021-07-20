@@ -1,0 +1,64 @@
+This section on online C test focuses on “Increment and Decrement Operators”. One shall practice these test questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C online test questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of online C test questions on “Increment and Decrement Operators” along with answers, explanations and/or solutions:
+1. What is the difference between the following 2 codes?
+    #include <stdio.h> //Program 1    int main()    {        int d, a = 1, b = 2;        d =  a++ + ++b;        printf("%d %d %d", d, a, b);    }
+    #include <stdio.h> //Program 2    int main()    {        int d, a = 1, b = 2;        d =  a++ +++b;        printf("%d %d %d", d, a, b);    }
+a) No difference as space doesn’t make any difference, values of a, b, d are same in both the case
+b) Space does make a difference, values of a, b, d are different
+c) Program 1 has syntax error, program 2 is not
+d) Program 2 has syntax error, program 1 is not
+d
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int a = 1, b = 1, c;        c = a++ + b;        printf("%d, %d", a, b);    }
+a) a = 1, b = 1
+b) a = 2, b = 1
+c) a = 1, b = 2
+d) a = 2, b = 2
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int a = 1, b = 1, d = 1;        printf("%d, %d, %d", ++a + ++a+a++, a++ + ++b, ++d + d++ + a++);    }
+a) 15, 4, 5
+b) 9, 6, 9
+c) 9, 3, 5
+d) Undefined (Compiler Dependent)
+d
+4. For which of the following, “PI++;” code will fail?
+a) #define PI 3.14
+b) char *PI = “A”;
+c) float PI = 3.14;
+d) none of the Mentioned
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int a = 10, b = 10;        if (a = 5)        b--;        printf("%d, %d", a, b--);    }
+a) a = 10, b = 9
+b) a = 10, b = 8
+c) a = 5, b = 9
+d) a = 5, b = 8
+c
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0;        int j = i++ + i;        printf("%d\n", j);    }
+a) 0
+b) 1
+c) 2
+d) Compile time error
+b
+7. What will be the output of the following C code?
+     #include <stdio.h>    int main()    {        int i = 2;        int j = ++i + i;        printf("%d\n", j);    }
+a) 6
+b) 5
+c) 4
+d) Compile time error
+a
+8. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 2;        int i = i++ + i;        printf("%d\n", i);    }
+a) = operator is not a sequence point
+b) ++ operator may return value with or without side effects
+c) it can be evaluated as (i++)+i or i+(++i)
+d) = operator is a sequence point
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Type Conversions – 2» Next - C Programming Questions and Answers – Increment and Decrement Operators – 2 

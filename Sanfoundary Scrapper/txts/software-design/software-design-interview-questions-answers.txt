@@ -1,0 +1,66 @@
+1. Which of the following are true for prototype pattern?
+a) A clone is a copy of an object
+b) When values stored in an entity (including references) are reproduced in the copy, the copy operation is said to be shallow
+c) In contrast, a copy operation is deep when copies are made of all referenced entities in the original composite, and references to the new entities are placed in the copy
+d) All of the mentioned
+d
+2. Any class using the built-in cloning mechanism is supposed to do which of the following?
+a) Implement the Cloneable interface
+b) Define a concrete public or protected clone() operation
+c) In the clone() operation, obtain a new object by calling super.clone()
+d) All of the mentioned
+d
+3. Which of the following are correct for copy constructor?
+a) A copy constructor is a constructor that takes an instance of its class as an argument and creates a clone of its argument
+b) A copy constructor must be used when a final field must be set in creating the clone because only a constructor can set a final field
+c) All of the mentioned
+d) None of the mentioned
+d
+4. Which of the following pattern has Step up phase as its activity?
+a) Prototype pattern
+b) Reactor Pattern
+c) Command pattern
+d) None of the mentioned
+b
+5. What happen in the operational phase of Reactor pattern?
+a) The Client registers the Reactor with the Target
+b) The Reactor responds to event notifications from the Target
+c) All of the mentioned
+d) None of the mentioned
+c
+6. The reactor patterns provide a good model for event-driven portions of a program for which of the following reasons?
+a) Client and Target Decoupling
+b) Client Decomposition
+c) Operation Encapsulation
+d) All of the mentioned
+d
+7. Which of the following are consequences for command pattern?
+a) Reactor patterns provide event-driven design models
+b) They decouple clients and targets
+c) Encapsulate reactions to event
+d) None of the mentioned
+d
+8. Which among these are advantages for Function Class?
+a) Additional features can be added to the function class, enhancing its capabilities
+b) The function class can include other data and operations the encapsulated operation needs
+c) All of the mentioned
+d) None of the mentioned
+c
+9. Which of the several aspects of the Command pattern may be varied or elaborated to help achieve particular design goals
+a) An invoker may accept registration of more than one command
+b) The invoker may offer operations for un-registering one or more commands
+c) An invoker may offer several kinds of registrations for different kinds of events
+d) All of the mentioned
+d
+10. Which of the following are the consequences for Command pattern?
+a) Event-driven design is facilitated
+b) Making event-handling code easy to find, change, and reuse
+c) The invoker is loosely coupled to both the command and client classes,making them easy to change
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Software Architecture and Design.
+To practice all areas of Software Design for Interviews,  here is complete set of 1000+ Multiple Choice Questions and Answers on Software Design and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Software Design Questions and Answers – The Generator Category, Factory Patterns and Singleton Patterns» Next - Software Architecture Questions and Answers – Architectural Business Cycle 

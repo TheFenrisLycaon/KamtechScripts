@@ -1,0 +1,76 @@
+1. The signal assignment is considered as a ________
+a) Concurrent statement
+b) Sequential statement
+c) Subprogram
+d) Package declaration statement
+a
+2. How can we use an assignment statement as a sequential assignment?
+a) By using keyword WAIT
+b) By using a delay mechanism
+c) By using conditional statements
+d) By using it in any process
+d
+3. The sequential assignment statement is activated, whenever ________
+a) The waveform associated changes its value
+b) The process is terminated
+c) The execution is scheduled
+d) The value of the target is needed
+b
+4. The concurrent assignment statement is activated whenever ______
+a) The execution is scheduled
+b) The value of the target is needed
+c) The waveform associated changes its value
+d) The process is terminated
+c
+5. Which of the following is correct syntax for a signal assignment statement (if {} specifies an optional part)?
+a) target <= {delay_mechanism} waveform;
+b) target <= delay_mechanism waveform;
+c) target <= delay_mechanism {waveform};
+d) target <= {delay_mechanism} {waveform} value;
+a
+6. The conditional assignment statement is a _________ assignment.
+a) Sequential
+b) Concurrent
+c) Selected
+d) None of the above
+b
+7. Sequential assignments are synthesizable.
+a) True
+b) False
+a
+8. Delays are generally ignored in ________ assignments statements.
+a) Concurrent
+b) Conditional
+c) Sequential
+d) Selected
+c
+9. Which of the following can’t be a mode for target operand of assignment statement?
+a) BUFFER
+b) INOUT
+c) OUT
+d) IN
+d
+10. Which of the following is a variable assignment statement?
+a) <=
+b) :=
+c) =>
+d) ==
+b
+11. Which of the following is a keyword used for conditional assignment?
+a) IF
+b) WHEN
+c) FOR
+d) END
+b
+12. For a signal used in sequential assignment, it can have _______ driver(s).
+a) 1
+b) 2
+c) 3
+d) 4
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Types of VHDL Modelling» Next - VHDL Questions and Answers – Signal Assignment – 2 

@@ -1,0 +1,79 @@
+1. The initial program that is run when the computer is powered up is called __________
+a) boot program
+b) bootloader
+c) initializer
+d) bootstrap program
+d
+2. How does the software trigger an interrupt?
+a) Sending signals to CPU through bus
+b) Executing a special operation called system call
+c) Executing a special program called system program
+d) Executing a special program called interrupt trigger program
+b
+3. What is a trap/exception?
+a) hardware generated interrupt caused by an error
+b) software generated interrupt caused by an error
+c) user generated interrupt caused by an error
+d) none of the mentioned
+b
+4. What is an ISR?
+a) Information Service Request
+b) Interrupt Service Request
+c) Interrupt Service Routine
+d) Information Service Routine
+c
+5. What is an interrupt vector?
+a) It is an address that is indexed to an interrupt handler
+b) It is a unique device number that is indexed by an address
+c) It is a unique identity given to an interrupt
+d) None of the mentioned
+a
+6. DMA is used for __________
+a) High speed devices(disks and communications network)
+b) Low speed devices
+c) Utilizing CPU cycles
+d) All of the mentioned
+a
+7. In a memory mapped input/output __________
+a) the CPU uses polling to watch the control bit constantly, looping to see if a device is ready
+b) the CPU writes one data byte to the data register and sets a bit in control register to show that a byte is available
+c) the CPU receives an interrupt when the device is ready for the next byte
+d) the CPU runs a user written code and does accordingly
+b
+8. In a programmed input/output(PIO) __________
+a) the CPU uses polling to watch the control bit constantly, looping to see if a device is ready
+b) the CPU writes one data byte to the data register and sets a bit in control register to show that a byte is available
+c) the CPU receives an interrupt when the device is ready for the next byte
+d) the CPU runs a user written code and does accordingly
+a
+9. In an interrupt driven input/output __________
+a) the CPU uses polling to watch the control bit constantly, looping to see if a device is ready
+b) the CPU writes one data byte to the data register and sets a bit in control register to show that a byte is available
+c) the CPU receives an interrupt when the device is ready for the next byte
+d) the CPU runs a user written code and does accordingly
+c
+10. In the layered approach of Operating Systems __________
+a) Bottom Layer(0) is the User interface
+b) Highest Layer(N) is the User interface
+c) Bottom Layer(N) is the hardware
+d) Highest Layer(N) is the hardware
+b
+11. How does the Hardware trigger an interrupt?
+a) Sending signals to CPU through a system bus
+b) Executing a special program called interrupt program
+c) Executing a special program called system program
+d) Executing a special operation called system call
+a
+12. Which operation is performed by an interrupt handler?
+a) Saving the current state of the system
+b) Loading the interrupt handling code and executing it
+c) Once done handling, bringing back the system to the original state it was before the interrupt occurred
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions and Answers – Remote Procedure Calls» Next - Operating System Questions & Answers – CPU Scheduling 

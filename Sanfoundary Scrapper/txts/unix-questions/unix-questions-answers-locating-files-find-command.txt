@@ -1,0 +1,108 @@
+1. Which command is used for locating files?
+a) search
+b) find
+c) loc
+d) type
+b
+2. The syntax of the find command is ____________
+a) find  path_list  selection_criteria  action
+b) find action path_list  selection_criteria
+c) find  selection_criteria  action  path
+d) find path  action
+a
+$ find  path_list  selection_criteria  action
+ 
+3. Which symbol is used with find command for specifying arguments?
+a) +
+b) –
+c) + and –
+d) |
+c
+$ find .  -name “*.c” -print
+4. What will be the output of the following command?
+$ find /  -name  a.out  -print
+a) all files having filename as a.out
+b) all files in the root directory
+c) undefined output
+d) erroneous
+a
+5. We can use relative pathname in the path list while using find command.
+a) True
+b) False
+a
+$ find .  -name “*.txt” -print        // single quotes can also work
+6. Which one of the following option is used for locating the files by inode number?
+a) -name
+b) -inum
+c) -inode
+d) -ind
+b
+$ find  /  -inum  13857  -print        // display all the files linked (having same inode number)
+ 
+7. Which option is used with find command for specifying the file type?
+a) -perm
+b) -inum
+c) -name
+d) -type
+d
+$ find .  -type d  -print        // display all the directory files in the current directory
+ 
+8. To specify permissions while using find command we have to use _____ option.
+a) -perm
+b) -inum
+c) -name
+d) -type
+a
+$ find $HOME  -perm 666 -type d  -print        // select directories in the home directory having                                                                 666 (in octal) permissions.
+9. Which option is used to find command to search for files based on access time?
+a) -atime
+b) -mtime
+c) -time
+d) -type
+a
+$ find . -atime -2  -print              //display those files which have been last accessed in less than 2 days
+10. Which of the following command will be used to locate those files that have not been modified for more than a year?
+a) find .  -mtime 1
+b) find  . -mtime 1 year -print
+c) find . -mtime  +365 -print
+d) find . -mtime -365 -print
+c
+11. Which of the following operator is used with find command for performing the negate function?
+a) -a
+b) -o
+c) &&
+d) !
+d
+$ find . ! -name “*.c” -print        // select all files but not the C program files.
+12. Which operator is used to specify the AND condition in find command?
+a) !
+b) &&
+c) -A
+d) -a
+d
+$ find . \(-type f  -a -mtime  +2)\  -print            // -a 
+ can also be omitted ( it is automatically implied by  //  default)
+13. -o operator represents the OR condition.
+a) True
+b) False
+a
+14. Which of the following option is used with find command for taking action on selected files?
+a) -exec
+b) -atime
+c) -mtime
+d) -a
+a
+$ find  $HOME  -type  f  -atime +365  -exec rm {} \;
+Above command will remove all ordinary files not accessed for more than a year.
+15. -ok option is used with find command for seeking information before taking the action specified.
+a) True
+b) False
+a
+$ find  $HOME  -type  f  -atime +365  -ok rm {} \;
+Above command will ask for the user confirmation before removing each selected file.
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Advanced File Handling Commands» Next - Unix  Questions and Answers – Filtering Commands – 1 

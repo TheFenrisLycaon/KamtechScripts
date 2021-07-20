@@ -1,0 +1,67 @@
+1. _________________ property allow users to override the expiry time specified.
+a) hcat.desired.partition.num.splits
+b) hcatalog.hive.client.cache.expiry.time
+c) hcatalog.hive.client.cache.disabled
+d) hcat.append.limit
+b
+2. Point out the correct statement.
+a) The HCatLoader and HCatStorer interfaces are used with Pig scripts to read and write data in HCatalog-managed tables
+b) HCatalog is not thread safe
+c) HCatLoader is used with Pig scripts to read data from HCatalog-managed tables.
+d) All of the mentioned
+d
+3. ____________ is used with Pig scripts to write data to HCatalog-managed tables.
+a) HamaStorer
+b) HCatStam
+c) HCatStorer
+d) All of the mentioned
+c
+4. Hive does not have a data type corresponding to the ____________ type in Pig.
+a) decimal
+b) short
+c) biginteger
+d) datetime
+c
+5. Point out the wrong statement.
+a) The Hive metastore lets you create tables without specifying a database
+b) Restrictions apply to the types of columns HCatLoader can read from HCatalog-managed tables
+c) If the table is partitioned, you can indicate which partitions to scan by immediately following the load statement with a partition filter statement
+d) None of the mentioned
+d
+6. _______________ method is used to include a projection schema, to specify the output fields.
+a) OutputSchema
+b) setOut
+c) setOutputSchema
+d) none of the mentioned
+c
+7. The first call on the HCatOutputFormat must be ____________
+a) setOutputSchema
+b) setOutput
+c) setOut
+d) OutputSchema
+b
+8. ___________ is the type supported for storing values in HCatalog tables.
+a) HCatRecord
+b) HCatColumns
+c) HCatValues
+d) All of the mentioned
+a
+9. The output descriptor for the table to be written is created by calling ____________
+a) OutputJobInfo.describe
+b) OutputJobInfo.create
+c) OutputJobInfo.put
+d) None of the mentioned
+b
+10. Which of the following Hive commands is not supported by HCatalog?
+a) ALTER INDEX … REBUILD
+b) CREATE VIEW
+c) SHOW FUNCTIONS
+d) DROP TABLE
+a
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all interview questions and answers on HCatalog, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – HCatalog with Hadoop – 1» Next - Hadoop Questions and Answers – Mahout with Hadoop 

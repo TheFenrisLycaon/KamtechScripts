@@ -1,0 +1,173 @@
+1. The process of defining two or more methods within the same class that have same name but different parameters list?
+a) Method overloading
+b) Method overriding
+c) Encapsulation
+d) None of the mentioned
+a
+2. Which of these can be overloaded?
+a) Constructors
+b) Methods
+c) Both Constructors & Methods
+d) None of the mentioned
+c
+3. What will be the output of the following C# code?
+ class Program {     static void Main(string[] args)     {         Console.WriteLine( vol(10));         Console.WriteLine( vol(2.5f,  5));         Console.WriteLine( vol( 5l,  4,  5));         Console.ReadLine();     }     static int vol(int x)     {         return(x * x * x);     }     static float vol(float r,  int h)     {         return(3.14f * r * r * h);     }     static long vol(long l, int b, int h)     {         return(l * b * h);     } }
+a) 
+   1000
+   0
+   100
+b) 
+   0
+   0
+   100
+c) compile time error
+d) 
+   1000
+   98.125
+   100
+d
+Output:
+        1000
+        98.125
+        100
+  
+4. What will be the output of the following C# code?
+  class overload  {      public int x;      int y;      public int add(int a)      {          x = a + 1;          return x;      }      public int add(int a, int b)      {          x = a + 2;          return x;      }  }      class Program  {      static void Main(string[] args)      {          overload obj = new overload();          overload obj1 = new overload();          int a = 0;          obj.add(6);          obj1.add(6, 2);          Console.WriteLine(obj.x);          Console.WriteLine(obj1.x);          Console.ReadLine();      }  }
+a) 
+   8
+   8
+b) 
+   0
+   2
+c) 
+   8
+   10
+d) 
+   7
+   8
+d
+Output:
+ 7, 8
+  
+5. What will be the output of the following C# code?
+ static void Main(string[] args) {     int i = 5;     int j  = 6;     add(ref i);     add(6);     Console.WriteLine(i);     Console.ReadLine(); } static void add(ref int x) {     x = x * x; } static void add(int x) {     Console.WriteLine(x * x * x); }
+a) Compile time error
+b) 
+   25
+   0
+c) 
+   216
+   0
+d) 
+   216
+   25
+d
+Output:
+         216
+         25
+  
+6. What will be the output of the following C# code?
+ class maths {     public int x;     public double y;     public int add(int a, int b)     {         x = a + b;         return x;     }     public int add(double c, double d)     {         y = c + d;         return (int)y;     }     public maths()     {         this.x = 0;         this.y = 0;     } }    class Program{    static void Main(string[] args)    {        maths obj = new maths();        int a = 4;        double b = 3.5;        obj.add(a, a);        obj.add(b, b);        Console.WriteLine(obj.x + " " + obj.y);        Console.ReadLine();    }}
+a) 4,  3.5
+b) 8,  0
+c) 7.5,  8
+d) 8,  7
+d
+Output:
+8, 7
+7. What will be the output of the following C# code?
+ class maths {     public static void fun1()     {         Console.WriteLine("method 1 :");     }     public void fun2()     {         fun1();         Console.WriteLine("method 2 :");     }     public void fun2(int k)     {         Console.WriteLine(k);         fun2();     } }     class Program {     static void Main(string[] args)     {         maths obj = new maths();         maths.fun1();         obj.fun2(20);         Console.ReadLine();     } }
+a) 
+   method 1:
+   method 2:
+   20
+   method 1:
+b) 
+   method 2:
+   20
+   method 1:
+   method 1:
+c) 
+   method 1:
+   0
+   method 2:
+   method 2:
+d) 
+   method 1:
+   20
+   method 1:
+   method 2:
+d
+Output :
+         method 1:
+         20
+         method 1:
+         method 2:
+8. What is the process of defining a method in terms of itself, that is a method that calls itself?
+a) Polymorphism
+b) Abstraction
+c) Encapsulation
+d) Recursion
+d
+9. What will be the output of the following C# code?
+ class maths {     public int fun1(int k)     {         k = 20;         return k;     }     public Single fun1(float t)     {         t = 3.4f;         return t;     } }   class Program {     static void Main(string[] args)     {         maths obj = new maths();         int i;         i = obj.fun1(30);         Console.WriteLine(i);         Single j;         j = obj.fun1(2.5f);         Console.WriteLine(j);         Console.ReadLine();     } }
+a) 
+   30
+   2.5f
+b) 
+   2.5f
+   30
+c) 
+   20
+   2.5f
+d) 
+   20
+   3.4f
+d
+Output:
+        20
+        3.4f
+  
+10. What will be the output of the following C# code?
+ class maths {     public int fun(int k, int y)     {         return k + y;     }     public int fun1(int t, float z)     {         return (t+(int)z);     } }     class Program {     static void Main(string[] args)     {         maths obj = new maths();         int i;         int b = 90;         int c = 100;         int d = 12;         float l = 14.78f;         i = obj.fun(b, c);         Console.WriteLine(i);         int j = (obj.fun1(d,  l));         Console.WriteLine(j);         Console.ReadLine();     } }
+a) 190,  26.78f
+b) 0,  26.78f
+c) 190,  26
+d) 190,  0
+c
+Output:
+         190
+         26
+11. What will be the output of the following C# code?
+ class maths {     public int fun(int k, int y, int n)     {         Console.WriteLine(k + "  " + y + "  " + n);         return (k);     }     public int fun1(int t,float z)     {         Console.WriteLine(t + "  " + z);         return t;     } }     class Program {     static void Main(string[] args)     {         maths obj = new maths();         int b = 90;         int c = 100;         int d ;         float l;         int i = obj.fun(b, c, 12);         int j = (obj.fun1(12, 14.78f));         Console.ReadLine();     } }
+a) 
+   0, 0, 0
+   12, 14.78
+b) 
+   0, 0, 0
+   0, 0
+c) 
+   90, 100, 12
+   12, 14
+d) 
+   90, 100, 12
+   12, 14.78
+d
+Output:
+        90,  100,  12
+        12,  14.78
+12. What will be the output of the following C# code?
+ class maths {     public int fun(int ii)     {         return(ii > 0 ? ii :ii * -1);     }     public long fun(long ll)     {         return(ll > 0 ? ll :ll * -1);     }     public double fun( double dd)     {         return(dd > 0 ? dd :dd * -1);     } }     class Program {     static void Main(string[] args)     {         maths obj = new maths();         int i = -25;         int j ;         long l = -100000l ;         long m;         double d = -12.34;         double e;         j = obj.fun(i);         m = obj.fun(l);         e = obj.fun(d);         Console.WriteLine(j + "  " + m + "  " + e);         Console.ReadLine();     } }
+a) 1 1 1
+b) 0 0 0
+c) 25 100000 12.34
+d) -25 -100000 -12.34
+c
+Output:
+ 25 100000 12.34
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Inheritance Implementation» Next - C# Questions & Answers – Method Overriding 

@@ -1,0 +1,55 @@
+1. If you create the user administrator before enabling access control, MongoDB disables the ________ exception.
+a) localhost
+b) server
+c) runtime
+d) none of the mentioned
+a
+2. Point out the correct statement.
+a) After you create the user administrator, the localhost exception is no longer available
+b) Enabling access control on a MongoDB instance restricts access to the instance by requiring that users identify themselves when connecting
+c) The mongo shell executes a number of commands at start up
+d) All of the mentioned
+d
+3. If you use the localhost exception when deploying a new MongoDB system, the first user you create must be in the ________ database.
+a) head
+b) local
+c) admin
+d) all of the mentioned
+c
+4. If you need to disable access control for any reason, restart the process with ______ setting.
+a) KeyFile
+b) Authentication
+c) Authorization
+d) All of the mentioned
+a
+5. Point out the wrong statement.
+a) Authentication does not require an authentication mechanism
+b) To enable authentication on a sharded cluster, you must enable authentication individually on each component of the cluster
+c) The content of the key file must be the same on all cluster members
+d) All of the mentioned
+a
+6. The ________ client authentication allows clients to authenticate to servers with certificates rather than with a username and password.
+a) x.209
+b) x.509
+c) x.709
+d) None of the mentioned
+b
+7. enableLocalhostAuthBypass is not available using _________ database command.
+a) setParameter
+b) enableParameter
+c) removeParameter
+d) none of the mentioned
+a
+8. ______________ enables a set of internal commands useful for internal testing operations.
+a) enableTestAll
+b) enableTest
+c) enableTestCommands
+d) all of the mentioned
+c
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Security Checklist» Next - MongoDB Questions and Answers – User and Role Management 

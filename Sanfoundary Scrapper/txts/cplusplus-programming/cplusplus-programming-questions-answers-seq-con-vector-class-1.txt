@@ -1,0 +1,168 @@
+1. What are the vectors?
+a) Arrays with dynamic size
+b) Arrays with different types of elements
+c) Same as array classes
+d) Arrays with static size but use template classes
+a
+2. Pick the correct statement.
+a) Vectors have dynamic size whereas Array classes have a static size
+b) Both vectors and Array classes have a dynamic size
+c) Both vectors and Array classes have a static size
+d) Vectors have static size whereas Array classes have a dynamic size
+a
+3. Pick the incorrect statement.
+a) Vectors have a dynamic size
+b) Vectors are placed in contiguous storage
+c) Insertion in vectors always takes constant time
+d) Vectors insert the element at the end
+c
+4. Which of the following header file is needed to use vectors in your program?
+a) <array>
+b) <vector>
+c) <containers>
+d) <stdio>
+b
+5. Which of the following(s) can be used to access the first element of a vector v?
+a) v.begin()
+b) v.cbegin()
+c) v[0] 
+d) all of the mentioned
+d
+i) v.begin()
+ii) v.cbegin()
+iii) v[0] 
+iv) v.at(0)
+Join [email protected]
+6. Which of the following(s) can be used to access the last element of a vector v?
+a) v.end()
+b) v.cend()
+c) both v.end() and v.cend()
+d) vectors do not have a function to access the last element
+d
+7. What is the difference between begin() and cbegin() in vectors?
+a) both are same
+b) begin() returns iterator to first element and cbegin() returns iterator to last element
+c) begin() returns an iterator to first element whereas cbegin() returns constant iterator to first element
+d) begin() returns returns first element cbegin() returns void
+c
+8. What is the difference between begin() and rbegin()?
+a) both are the same
+b) begin() returns an iterator to the first element and rbegin() returns an iterator to an element kept at the end of the vector
+c) begin() returns an iterator to first element whereas rbegin() returns constant iterator to first element
+d) begin() returns returns first element rbegin() returns void
+b
+9. Which is the following is syntactically correct for vector<int> v?
+a) vector <int> :: const_iterator itr = v.rbegin();
+b) vector <int> :: reverse_iterator itr = v.begin();
+c) vector <int> :: iterator itr = v.begin();
+d) vector <int> :: iterator itr = v.cbegin();
+c
+10. What will be the output of the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v; 
+ 
+    for (int i = 1; i <= 5; i++) 
+        v.push_back(i); 
+ 
+    vector<int> :: const_iterator i;
+   	for (i = v.begin(); i != v.end(); ++i) 
+        cout << *i << " ";
+    cout<<endl;
+ 
+    return 0; 
+}
+a) 1 2 3 4 5
+b) 1 3 5
+c) 1 4 5
+d) Error
+a
+Output:
+$ ./a.out 
+1 2 3 4 5
+11. What will be the output of the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v; 
+ 
+    for (int i = 1; i <= 5; i++) 
+        v.push_back(i); 
+ 
+    vector<int> :: iterator i;
+    i = v.begin();
+    *i = 3;
+   	for (i = v.begin(); i != v.end(); ++i) 
+        cout << *i << " ";
+    cout<<endl;
+ 
+    return 0; 
+}
+a) 1 2 3 4 5
+b) 3 2 3 4 5
+c) 5 4 3 2 1
+d) 3 3 3 3 3
+b
+Output:
+$ ./a.out 
+3 2 3 4 5
+12. What will be the output of the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v; 
+ 
+    for (int i = 1; i <= 5; i++) 
+        v.push_back(i); 
+ 
+    vector<int> :: const_iterator i;
+    i = v.begin();
+    *i = 3;
+   	for (i = v.begin(); i != v.end(); ++i) 
+        cout << *i << " ";
+    cout<<endl;
+ 
+    return 0; 
+}
+a) 1 2 3 4 5
+b) 3 2 3 4 5
+c) Error
+d) Segmentation fault
+c
+13. Which of the following function is used to get the actual number of elements stored in vector?
+a) v.size()
+b) v.capacity()
+c) v.max_size()
+d) v.no_of_elements()
+a
+14. Which function is used to get the total capacity of a vector?
+a) v.size()
+b) v.capacity()
+c) v.max_size()
+d) v.no_of_elements()
+b
+15. How the size of a vector increases once it is full?
+a) Vector increases its capacity one by one
+b) Vector doubles its capacity after it is full
+c) Vector increases its capacity by half of its previous size
+d) Vector increases its capacity by a constant factor
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – seq_con Array Class – 2» Next - C++ Programming Questions and Answers – seq_con Vector Class – 2 

@@ -1,0 +1,74 @@
+1. Which of the following options is correct?
+Statement 1: Initial State of NFA is Initial State of DFA.
+Statement 2: The final state of DFA will be every combination of final state of NFA.
+a) Statement 1 is true and Statement 2 is true
+b) Statement 1 is true and Statement 2 is false
+c) Statement 1 can be true and Statement 2 is true
+d) Statement 1 is false and Statement 2 is also false
+a
+2. Given Language: L= {ab U aba}*
+If X is the minimum number of states for a DFA and Y is the number of states to construct the NFA,
+|X-Y|=?
+a) 2
+b) 3
+c) 4
+d) 1
+a
+3. An automaton that presents output based on previous state or current input:
+a) Acceptor
+b) Classifier
+c) Transducer
+d) None of the mentioned.
+c
+4. If NFA of 6 states excluding the initial state is converted into DFA, maximum possible number of states for the DFA is ?
+a) 64
+b) 32
+c) 128
+d) 127
+c
+5. NFA, in its name has ’non-deterministic’ because of :
+a) The result is undetermined
+b) The choice of path is non-deterministic
+c) The state to be transited next is non-deterministic
+d) All of the mentioned
+b
+Join Sanfoundry@YouTube
+6. Which of the following is correct proposition?
+Statement 1: Non determinism is a generalization of Determinism.
+Statement 2: Every DFA is automatically an NFA
+a) Statement 1 is correct because Statement 2 is correct
+b) Statement 2 is correct because Statement 2 is correct
+c) Statement 2 is false and Statement 1 is false
+d) Statement 1 is false because Statement 2 is false
+b
+7. Given Language L= {xϵ {a, b}*|x contains aba as its substring}
+Find the difference of transitions made in constructing a DFA and an equivalent NFA?
+a) 2
+b) 3
+c) 4
+d) Cannot be determined.
+a
+8. The construction time for DFA from an equivalent NFA (m number of node)is:
+a) O(m2)
+b) O(2m)
+c) O(m)
+d) O(log m)
+b
+9. If n is the length of Input string and m is the number of nodes, the running time of DFA  is x that of NFA.Find x?
+a) 1/m2
+b) 2m
+c) 1/m
+d) log m
+a
+10. Which of the following option is correct?
+a) NFA is slower to process and its representation uses more memory than DFA
+b) DFA is faster to process and its representation uses less memory than NFA
+c) NFA is slower to process and its representation uses less memory than DFA
+d) DFA is slower to process and its representation uses less memory than NFA
+c
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers – Finite Automata» Next - Automata Theory Questions and Answers –  Extended Transition Function 

@@ -1,0 +1,82 @@
+1. Assume 2 columns named as Product and Category how can be both sorted out based on first by category and then by product name?
+a) var sortedProds = _db.Products.Orderby(c => c.Category)
+b) var sortedProds = _db.Products.Orderby(c => c.Category) + ThenBy(n => n.Name)
+c) var sortedProds = _db.Products.Orderby(c => c.Category) . ThenBy(n => n.Name)
+d) all of the mentioned
+c
+2. Choose the wrong statement about the LINQ?
+a) The main concept behind the linq is query
+b) linq makes use of foreach loop to execute the query
+c) It is not required that linq should make use of IEnumerable interface
+d) None of the mentioned
+c
+3. Choose the namespace in which the interface IEnumerable is declared?
+a) System.Collections
+b) System.Collections.Generic
+c) Both System.Collections & System.Collections.Generic
+d) None of the mentioned
+b
+4. Can we use linq to query against a DataTable?
+a) Yes
+b) No
+c) Either Yes or No
+d) None of the mentioned
+b
+                    var results = from myRow in myDataTable.AsEnumerable() 
+                    where myRow.Field<int>("RowNo") == 1 
+                    select myRow;
+5. What will be the output of the following C# code snippet?
+ class Program {     static void Main(string[] args)     {         int[] nums = { 1, -2, 3, 0, -4, 5};         var posNums = from n in nums                       where n >= 0                       select n;        foreach (int i in posNums)         Console.Write(i + " ");        Console.WriteLine();        Console.ReadLine();    }}
+a) 0, 1, -2, -4, 5
+b) 1, 3, 0, 5
+c) 1, 3, 5
+d) Run time error
+b
+Output :
+1, 3, 0, 5
+6. Select the namespace which should be included while making use of LINQ operations?
+a) System.Text
+b) System.Collections.Generic
+c) System.Linq
+d) None of the mentioned
+c
+7. What will be the output of the following C# code snippet?
+ class Program {     static void Main(string[] args)     {         int[] nums = { 1, -2, 3, 0, -4, 5 };         var posNums = from n in nums                       where n % 2 ==0                       select n;            Console.Write("The positive values in nums: ");            foreach (int i in posNums) Console.Write(i + " ");            Console.WriteLine();            Console.ReadLine();        }    }
+a) code run successfully prints nothing
+b) run time error
+c) code run successfully and executes output
+d) compile time error
+c
+8. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        int[] nums = { 1, -2, 3, 0, -4, 5 };        var posNums = from n in nums                       where n > -5 && n < 6                       orderby n descending                       select n;        Console.Write("The positive values in nums: ");        foreach (int i in posNums) Console.Write(i + " ");        Console.WriteLine();        Console.ReadLine();    }}
+a) Prints nothing code runs successfully
+b) Run time error
+c) Arranged in descending order code runs successfully
+d) Compile time error
+c
+Output :
+5, 3, 1, 0, -2, -4
+9. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        int[] nums = { 16,  9, 25};        var posNums = from n in nums                      where n > 0                       select Math.Sqrt(n);         Console.Write("The positive values in nums: ");        foreach (int i in posNums) Console.Write(i + " ");        Console.WriteLine();        Console.ReadLine();    }}
+a) Code runs successfully prints nothing
+b) Code runs successfully prints required output
+c) Run time error
+d) Compile time error
+b
+Output :
+4, 3, 5
+10. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        int[] nums = {1};        var posNums = from n in nums                      wheres n > 0                      select Math.Max(78, 9);        Console.Write("The largest values in nums: ");        foreach (int i in posNums) Console.Write(i + " ");        Console.WriteLine();        Console.ReadLine();    }}
+a) Code runs successfully prints nothing
+b) Run time error
+c) Code runs successfully prints required output
+d) Compile time error
+c
+Output :
+The largest values in nums: 78
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Question & Answers – Generic Methods» Next - C# Questions & Answers – Operation with LINQ 

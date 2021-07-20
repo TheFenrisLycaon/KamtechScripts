@@ -1,0 +1,70 @@
+1. Bitmap indices are a specialized type of index designed for easy querying on ___________
+a) Bit values
+b) Binary digits
+c) Multiple keys
+d) Single keys
+c
+2. A _______ on the attribute A of relation r consists of one bitmap for each value that A can take.
+a) Bitmap index
+b) Bitmap
+c) Index
+d) Array
+a
+3.
+SELECT *
+FROM r
+WHERE gender = ’f’ AND income level = ’L2’;
+In this selection, we fetch the bitmaps for gender value f and the bitmap for income level value L2, and perform an ________ of the two bitmaps.
+a) Union
+b) Addition
+c) Combination
+d) Intersection
+d
+4. To identify the deleted records we use the ______________
+a) Existence bitmap
+b) Current bitmap
+c) Final bitmap
+d) Deleted bitmap
+a
+5. Bitmaps can be used as a compressed storage mechanism at the leaf nodes of ________ for those values that occur very frequently.
+a) B-trees
+b) B+-trees
+c) Bit trees
+d) Both B-trees and B+-trees
+b
+6. Bitmaps can be combined with regular B+-tree indices for relations where a few attribute values are extremely common, and other values also occur, but much less frequently.
+a) Bitmap, B-tree
+b) Bitmap, B+tree
+c) B-tree, Bitmap
+d) B+tree, Bitmap
+b
+7. In a B+-tree index ______ for each value, we would normally maintain a list of all records with that value for the indexed attribute.
+a) Leaf
+b) Node
+c) Root
+d) Link
+a
+8. A tablespace is further broken down into ________
+a) Tablespace
+b) Segments
+c) Extents
+d) Blocks
+b
+9. In ordered indices the file containing the records is sequentially ordered, a ___________ is an index whose search key also defines the sequential order of the file.
+a) Clustered index
+b) Structured index
+c) Unstructured index
+d) Nonclustered index
+a
+10. Indices whose search key specifies an order different from the sequential order of the file are called ___________ indices.
+a) Nonclustered
+b) Secondary
+c) All of the mentioned
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Ordered Indexing and Hashing» Next - Database Questions and Answers – Index Definition in SQL 

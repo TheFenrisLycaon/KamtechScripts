@@ -1,0 +1,115 @@
+1. Which operator is overloaded for a cout object?
+a) >>
+b) <<
+c) <
+d) >
+b
+2. Which of the following cannot be used with the virtual keyword?
+a) Class
+b) Member functions
+c) Constructors
+d) Destructors
+c
+3. Which concept is used to implement late binding?
+a) Virtual functions
+b) Operator functions
+c) Constant functions
+d) Static functions
+a
+4. Which of the following is correct?
+a) C++ allows static type checking
+b) C++ allows dynamic type checking.
+c) C++ allows static member function to be of type const.
+d) C++ allows both static and dynamic type checking
+d
+5. Which of the following supports the concept that reusability is a desirable feature of a language?
+a) It reduces the testing time
+b) It reduces maintenance cost
+c) It decreases the compilation time
+d) It reduced both testing and maintenance time
+d
+6. Which of the following is a static polymorphism mechanism?
+a) Function overloading
+b) Operator overloading
+c) Templates
+d) All of the mentioned
+d
+7. Which of the following is true?
+I) All operators in C++ can be overloaded.
+II) The basic meaning of an operator can be changed.
+a) I only
+b) II only
+c) Both I and II
+d) Neither I nor II
+d
+8. Which of the following is not a type of inheritance?
+a) Multiple
+b) Multilevel
+c) Distributive
+d) Hierarchical
+c
+9. What happens if a class does not have a name?
+a) It will not have a constructor
+b) It will not have a destructor
+c) It is not allowed
+d) It will neither have a constructor or destructor
+b
+#include <iostream>
+using namespace std;
+class
+{
+    public:
+	void func()
+        {
+		cout<<"Hello world";
+	}
+}a;
+int main(int argc, char const *argv[])
+{
+	a.func();
+	return 0;
+}
+10. Which of the following statement is true?
+I) In Procedural programming languages, all function calls are resolved at compile-time
+II) In Object Oriented programming languages, all function calls are resolved at compile-time
+a) I only
+b) II only
+c) Both I and II
+d) Neither I nor II
+a
+11. Which members are inherited but are not accessible in any case?
+a) Private
+b) Public
+c) Protected
+d) Both private and protected
+a
+12. Which of the following is correct?
+a) Friend functions can access public members of a class
+b) Friend functions can access protected members of a class
+c) Friend functions can access private members of a class
+d) All of the mentioned
+d
+13. Which of the following is correct in C++?
+a) Classes cannot have protected data members
+b) Structures can have member functions
+c) Class members are public by default
+d) Structure members are private by default
+b
+14. Which of the following is used to make an abstract class?
+a) By using virtual keyword in front of a class declaration
+b) By using an abstract keyword in front of a class declaration
+c) By declaring a virtual function in a class
+d) By declaring a pure virtual function in a class
+d
+15. Which of the following is correct?
+a) A class is an instance of its objects
+b) An object is an instance of its class
+c) A class is an instance of the data type that the class have
+d) An object is an instance of the data type of the class
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – OOPs Concept – 2» Next - C++ Programming Questions and Answers – OOPs Concept – 4 

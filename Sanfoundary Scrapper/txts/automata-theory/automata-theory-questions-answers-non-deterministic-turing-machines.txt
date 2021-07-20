@@ -1,0 +1,73 @@
+1. X is a simple mathematical model of a computer. X has unrestricted and unlimited memory. X is a FA with R/W head. X can have an infinite tape divided into cells, each cell holding one symbol.
+Name X?
+a) Push Down Automata
+b) Non deterministic Finite Automata
+c) Turing machines
+d) None of the mentioned
+c
+2. Which of the following is/are not an application of turing machine?
+a) Language Recognization
+b) Computers of functions on non negative numbers
+c) Generating devices
+d) None of the mentioned
+d
+3. State true or false:
+Statement: Turing Machine can change symbols on its tape, whereas the FA cannot change symbols on tape.
+a) true
+b) false
+a
+4. Which of the following cannot be a possibility of a TM while it processes an input?
+a) Enters accepting state
+b) Enters non-accepting state
+c) Enters infinite loop and never halts
+d) None of the mentioned
+d
+5. Pick the odd one out.
+a) Subroutines
+b) Multiple tracks
+c) Shifting over
+d) Recursion
+d
+6. Which among the following is not true for 2-way infinte TM?
+a) tape in both directions
+b) Leftmost square not distinguished
+c) Any computation that can be performed by 2-way infinite tape can also be performed by standard TM.
+d) None of the mentioned
+d
+7. Can a turing machine act like a transducer?
+a) yes
+b) no
+a
+8. Which of the following does not exists?
+a) Mutitape TM
+b) Multihead TM
+c) Multidimentional TM
+d) None of the mentioned
+d
+9. Enumerator is a turing machine with __________
+a) an output printer
+b) 5 input tapes
+c) a stack
+d) none of the mentioned
+a
+Note: There is no input to an enumerator. If it doesn’t halt, it may print an infinite set of strings.
+10. For the following language, an enumerator will print:
+L={anbn|n>=0}
+a) anbn
+b) {ab, a2b2, a3b3,  …}
+c) {e, ab, a2b2, a3b3,  …}
+d) None of the mentioned
+b
+11. Complete the following statement:
+Statement : A language is turing recognizable if an only if ___________
+a) an enumerator enumerates it
+b) it is finite
+c) both (a) and (b)
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Equivalence of One-Tape and Multitape TM’s» Next - Automata Theory Questions and Answers –  Multistack Machines, Counter Machines 

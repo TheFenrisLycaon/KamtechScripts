@@ -1,0 +1,68 @@
+1. Which editor is used by the UNIX system to edit files?
+a) vi
+b) notepad
+c) word
+d) notepad++
+a
+2. What does the following command do?
+    $ vi  file001
+a) open file named file001
+b) edit file named file001
+c) delete a file named file001
+d) open file if it exists else creates a new file
+d
+3. Which option is used by vi editor to open a file in read mode only?
+a) -r
+b) -R
+c) -d
+d) -f
+b
+$ vi  -R  file001       // open file in read mode only
+4. How many types of modes are used by vi editor?
+a) 2
+b) 4
+c) 3
+d) 1
+c
+5. What is the default mode of vi editor?
+a) Command mode
+b) Input mode
+c) Ex mode
+d) Insert mode
+a
+6. To insert text into a file, _____ mode is used.
+a) Command mode
+b) Input mode
+c) Ex mode
+d) def mode
+b
+7. ex mode is used for what purpose?
+a) file handling
+b) substitution
+c) file handling and substitution
+d) Inputting text in files
+c
+8. Which one of the following key is used to switch from command mode to input mode?
+a) i
+b) :
+c) esc
+d) ;
+a
+9. ____ key is used for switching to command mode from input mode.
+a) i
+b) A
+c) :
+d) esc
+d
+10. Which of the following key is used to enter in ex-mode?
+a) ESC
+b) i
+c) :
+d) ;
+c
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Changing File Ownership and Permissions – 2» Next - Unix  Questions and Answers – Vi Basics and Modes – 2 

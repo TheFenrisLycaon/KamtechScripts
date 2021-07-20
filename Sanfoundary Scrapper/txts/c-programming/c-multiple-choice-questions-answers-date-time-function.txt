@@ -1,0 +1,136 @@
+1. Which of the following format specifiers is used to represent the name of the time zone?
+a) %A
+b) %B
+c) %H
+d) %Z
+d
+2. What will be the output of the following C code if the system time is 4:27 PM?
+#include<stdio.h>
+#include<time.h>
+int main()
+{
+    struct tm *ptr;
+    time_t t;
+    char str[100];
+    t = time(NULL);
+    ptr = localtime(&t);
+    strftime(str,100,"%H %p %M minutes",ptr);
+    puts(str);
+    return 0;
+}
+a) 16 27 minutes
+b) 4 27 minutes
+c) 16 PM 27 minutes
+d) 4 PM 27 minutes
+c
+3. What will be the output of the following C code if the system date is 8/22/2016?
+#include<stdio.h>
+#include<time.h>
+int main()
+{
+    struct tm *ptr;
+    time_t t;
+    char str[100];
+    t = time(NULL);
+    ptr = localtime(&t);
+    strftime(str,100,"%B",ptr);
+    puts(str);
+    return 0;
+}
+a) 9
+b) August
+c) Aug
+d) Error
+b
+4. What will be the output of the following C code  if the system date is 6/2/2017 (Friday)?
+#include<stdio.h>
+#include<time.h>
+int main()
+{
+    struct tm *ptr;
+    time_t t;
+    char str[100];
+    t = time(NULL);
+    ptr = localtime(&t);
+    strftime(str,100,"%A",ptr);
+    puts(str);
+    return 0;
+}
+a) Error
+b) Fri
+c) Friday
+d) 6
+c
+5. Which of the following library functions is used to read location dependent information?
+a) localtime()
+b) localeconv()
+c) localcon()
+d) local()
+b
+6. Which of the following functions is used to convert the date and time into a calendar format?
+a) difftime()
+b) clock()
+c) mktime()
+d) ctime()
+c
+7. What will be the output of the following C code?
+#include<stdio.h>
+#include<time.h>
+main()
+{
+    struct tm t;
+    time_t tc;
+    t.tm_year=2017-1900;
+    t.tm_mday=25;
+    t.tm_mon=5;
+    t.tm_hour=1;
+    t.tm_min=30;
+    t.tm_sec=0;
+    t.tm_isdst=0;
+    tc=mktime(&t);
+    printf(ctime(&tc));
+}
+a) Sun Jun 25 01:30:00 2017
+b) Sun June 25 1:30 2017
+c) Sun Jun 25 1:30 117
+d) Sun June 25 1:30:00 117
+a
+8. The value of tm_isdst is ____ when DST( Daylight Savings Time) is in effect, ______ when DST is not in effect and ______ when the DST status is unknown.
+a) -1, 1, 0
+b) 1, 0, -1
+c) 0, 1, -1
+d) 1, -1, 0
+b
+9. The library function clock() returns the number of _________ elapsed since the start of the program.
+a) minutes
+b) clock ticks
+c) milli-seconds
+d) micro-seconds
+b
+10. What will be the output of the following C code if the name entered is “TOM” and time taken to enter this name is 2 seconds?
+#include <stdio.h>
+#include <time.h>
+int main ()
+{
+	time_t time1,time2;
+	char get_input [256];
+	double dif_sec;
+	time (&time1);
+	printf ("Please enter the name of your pet: ");
+	gets (get_input);
+	time (&time2);
+	dif_sec = difftime (time2,time1);
+	printf ("%.2f\n", dif_sec );
+	return 0;
+}
+a) Error
+b) 2
+c) 2.0
+d) 2.00
+d
+ Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Date and Time Functions – 1» Next - C Questions and Answers – Date and Time Function – 3 

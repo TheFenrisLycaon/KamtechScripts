@@ -1,0 +1,100 @@
+This section on C++ Programming quiz focuses on “Exceptions”. One shall practice these quizzes to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ quiz comes with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ Programming quiz on “Exceptions” along with answers, explanations and/or solutions: 
+1. To where does the program control transfers when the exception is arisen?
+a) catch
+b) handlers
+c) throw
+d) try
+b
+2. Which keyword is used to check exception in the block of code?
+a) catch
+b) throw
+c) try
+d) handlers
+c
+3. What will happen when the exception is not caught in the program?
+a) error
+b) program will execute
+c) block of that code will not execute
+d) program will execute & displays wrong output
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int age = 0;        try         {            if (age < 0)             {                throw "Positive Number Required";            }            cout << age;        }        catch(const char *Message)        {            cout << "Error: " << Message;        }        return 0;    }
+a) 0
+b) error:Positive Number Required
+c) compile time error
+d) runtime error
+a
+Output:
+$ g++ excep.cpp
+$ a.out
+0
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void PrintSequence(int StopNum)    {        int Num;        Num = 1;        while (true)         {            if (Num >= StopNum)                throw Num;            cout << Num;            Num++;        }    }    int main(void)    {        try         {            PrintSequence(20);        }        catch(int ExNum)        {            cout << "Caught an exception with value: " << ExNum;        }        return 0;    }
+a) compile time error
+b) prints first 19 numbers
+c) prints first 19 numbers and throws exception at 20
+d) prints first 17 numbers
+c
+Output:
+$ g++ excep1.cpp
+$ a.out
+12345678910111213141516171819Caught an exception with value: 20
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    double division(int a, int b)    {        if (b == 0)         {            throw "Division by zero condition!";        }        return (a / b);    }    int main ()    {        int x = 50;        int y = 2;        double z = 0;        try         {            z = division(x, y);            cout << z;        }        catch(const char *msg)         {            cerr << msg;        }        return 0;    }
+a) 25
+b) 20
+c) Division by zero condition!
+d) 35
+a
+Output:
+$ g++ excep2.cpp
+$ a.out
+25
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        char* buff;        try         {            buff = new char[1024];            if (buff == 0)               throw "Memory allocation failure!";            else               cout << sizeof(buff) << "Byte successfully allocated!"<<endl;        }        catch(char *strg)        {            cout<<"Exception raised: "<<strg<<endl;        }        return 0;    }
+a) 4 Bytes allocated successfully
+b) 8 Bytes allocated successfully
+c) Memory allocation failure
+d) Depends on the size of the data type
+d
+Output:
+$ g++ excep3.cpp
+$ a.out
+4 Bytes allocated successfully
+ 
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void Funct();    int main()    {        try         {            Funct();        }        catch(double)         {            cerr << "caught a double type..." << endl;        }        return 0;    }    void Funct()    {        throw 3;    }
+a) caught a double type
+b) compile time error
+c) abnormal program termination
+d) runtime error
+c
+Output:
+$ g++ excep4.cpp
+$ a.out
+terminate called after throwing an instance of 'int'
+Aborted
+9. What will be the output of the following C++ code?
+    #include <iostream>    #include <exception>    using namespace std;    int main()    {        try         {            int * array1 = new int[100000000];            int * array2 = new int[100000000];            int * array3 = new int[100000000];            int * array4 = new int[100000000];            cout << "Allocated successfully";        }        catch(bad_alloc&)         {            cout << "Error allocating the requested memory." << endl;        }        return 0;    }
+a) Allocated successfully
+b) Error allocating the requested memory
+c) Depends on the memory of the computer
+d) Error
+c
+Output:
+$ g++ excep5.cpp
+$ a.out
+Allocated successfully
+10. What will happen when the handler is not found for an exception?
+a) calls the standard library function terminate()
+b) raise an error
+c) executes the remaining block
+d) raise an error and executes the remaining block
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Namespaces – 2» Next - C++ Programming Questions and Answers – Linkage 

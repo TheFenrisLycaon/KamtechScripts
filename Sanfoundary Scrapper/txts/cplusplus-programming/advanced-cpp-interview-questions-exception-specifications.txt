@@ -1,0 +1,96 @@
+This section on advanced C++ interview questions focuses on “Exception Specifications”. One shall practice these advanced C++ questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our advanced C++ questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of advanced C++ interview questions on “Exception Specifications” along with answers, explanations and/or solutions:
+1. What is meant by exception specification?
+a) A function is limited to throwing only a specified list of exceptions
+b) A catch can catch all types of exceptions
+c) A function can throw any type of exceptions
+d) A try can catch all types of exceptions
+a
+2. Identify the correct statement about throw(type).
+a) A function can throw any type of exceptions
+b) A function can throw an exception of certain type only
+c) A function can’t throw any type of exception
+d) A function can catch all types of exceptions
+b
+3. What will happen when a programs throws any other type of exception other than specified?
+a) terminate
+b) arise an error
+c) run
+d) throw
+b
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void empty() throw()     {        cout << "In empty()";    }    void with_type() throw(int)     {        cout << "Will throw an int";        throw(1);    }    int main()     {        try         {            empty();            with_type();        }        catch (int)         {            cout << "Caught an int";        }    }
+a) In empty()
+b) Will throw an int
+c) Caught an int
+d) All of the mentioned
+d
+Output:
+$ g++ exs.cpp
+$ a.out
+In empty()Will throw an intCaught an int
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <exception>    #include <typeinfo>    using namespace std;    class Test1    {            virtual int  Funct()         {        }    };    int main ()    {        try         {            Test1 * var = NULL;            typeid (*var);        }        catch (std::exception& typevar)        {            cout << "Exception: " << typevar.what() << endl;           }        return 0;    }
+a) NULL
+b) Exception:bad_alloc
+c) Exception:std:bad_typeid
+d) Exception:std:bad_type
+c
+Output:
+$ g++ exs1.cpp
+$ a.out
+Exception:std:bad_typeid
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    #include<typeinfo>    using namespace std;    int main( )    {        try        {            string strg1("Test");            string strg2("ing");            strg1.append(strg2, 4, 2);            cout << strg1 << endl;        }        catch (exception &e)        {            cout << "Caught: " << e.what() << endl;            cout << "Type: " << typeid(e).name() << endl;        };        return 0;    }
+a) out of range
+b) bad type_id
+c) bad allocation
+d) bad typ
+a
+Output:
+$ g++ exs2.cpp
+$ a.out
+Caught: basic_string::append
+Type: St12out_of_range
+#include <string>
+7. What will be the output of the following C++ code?
+    #include <typeinfo>    #include <iostream>    using namespace std;    class Myshape    {        public:        virtual void myvirtualfunc() const {}    };    class mytriangle: public Myshape    {        public:        virtual void myvirtualfunc() const        {           };    };    int main()    {        Myshape Myshape_instance;        Myshape &ref_Myshape = Myshape_instance;        try         {            mytriangle &ref_mytriangle = dynamic_cast<mytriangle&>(ref_Myshape);        }        catch (bad_cast)        {            cout << "Can't do the dynamic_cast lor!!!" << endl;            cout << "Caught: bad_cast exception. Myshape is not mytriangle.\n";        }        return 0;    }
+a) Can’t do the dynamic_cast lor!!!
+b) Caught: bad_cast exception. Myshape is not mytriangle.
+c) Can’t able to create the dynamic instance for the triangle, So it is arising an exception
+d) Myshape is not mytriangle
+c
+Output:
+$ g++ exs3.cpp
+$ a.out
+Can't do the dynamic_cast lor!!!
+Caught: bad_cast exception. Myshape is not mytriangle.
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        char* ptr;        unsigned long int Test = sizeof(size_t(0) / 3);        cout << Test << endl;        try        {            ptr = new char[size_t(0) / 3];            delete[ ] ptr;        }        catch (bad_alloc &thebadallocation)        {            cout << thebadallocation.what() << endl;        };        return 0;    }
+a) 4
+b) 2
+c) bad_alloc
+d) depends on compiler
+d
+Output:
+$ g++ exs4.cpp
+$ a.out
+4
+9. What do you mean by “No exception specification”?
+a) It throws nothing
+b) It can throw anything
+c) It can catch anything
+d) It can try anything
+b
+10. Which operations don’t throw anything?
+a) Operations which are reversible
+b) Operations which are irreversible
+c) Operations which are static
+d) Operations which are dynamic
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Exceptions That Are Not Errors» Next - C++ Programming Questions and Answers – Uncaught Exceptions 

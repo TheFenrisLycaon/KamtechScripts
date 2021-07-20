@@ -1,0 +1,84 @@
+1. What is the meaning of the “WHERE” clause in Mysql?
+a) Filtering out unwanted rows from result set
+b) Filtering out unwanted columns from result set
+c) Filtering out unwanted rows and columns from result set
+d) None of the mentioned
+a
+2. What will be the output of the following MySQL command?
+SELECT *
+FROM employee
+WHERE title=’HEAD TELLER’;
+a) All columns and rows belong to table employee
+b) All columns but only those rows which contain ‘HEAD TELLER’ as a “title”
+c) All columns don’t belong to table employee
+d) None of the mentioned
+b
+3. What will be the output of the following MySQL command?
+SELECT *
+FROM employee
+WHERE (title=’HEAD TELLER’) AND (start_date=2013-01-24);
+a) All columns and rows belong to table employee
+b) All columns but only those rows which contain ‘HEAD TELLER’ as a “title” and 2013-01-24 as a “start_date”
+c)  All rows belong to table employee
+d) None of the mentioned
+b
+4. What will be the output of the following MySQL command?
+SELECT *
+FROM employee
+WHERE (title=’HEAD TELLER’) OR (start_date=2013-01-24);
+a) All columns and rows belong to table employee
+b) All columns but only those rows which contain ‘HEAD TELLER’ as a “title” or 2013-01-24 as a “start_date”
+c)  All rows belong to table employee
+d) None of the mentioned
+b
+5. What will be the output of the following MySQL command?
+SELECT *
+FROM employee
+WHERE (title=’HEAD TELLER’) AND (start_date&gt;2013-01-24);
+a) All columns and rows belong to table employee
+b) All columns but only those rows which contain ‘HEAD TELLER’ as a “title” and start_date are greater than 2013-01-24
+c)  All rows belong to table employee
+d) None of the mentioned
+b
+6. What will be the output of the following MySQL command?
+SELECT *
+FROM employee
+WHERE (title=’HEAD TELLER’) OR (start_date&gt;2013-01-24);
+a) All columns and rows belong to table employee
+b) All columns but only those rows which contain ‘HEAD TELLER’ as a “title” OR start_date are greater than 2013-01-24
+c) All rows belong to table employee
+d) None of the mentioned
+b
+7. What will be the output of the following MySQL command?
+SELECT emp_id, fname, lname
+FROM employee
+WHERE title=’HEAD TELLER’;
+a) All columns
+b) Only those columns which are mention with “SELECT” clause
+c)  Columns mention with “SELECT” clause and only those rows which contain ‘HEAD TELLER’ as a “title”
+d) None of the mentioned
+c
+8. What will be the output of the following MySQL command?
+SELECT emp_id, fname, lname
+FROM employee
+WHERE title=’HEAD TELLER’ AND start_date=2008-11-24;
+a) All columns
+b) Only those columns which are mention with “SELECT” clause
+c)  Columns mention with “SELECT” clause and only those rows which contain ‘HEAD TELLER’ as a “title” and start_date as 2008-11-24
+d) None of the mentioned
+c
+9. What will be the output of the following MySQL command?
+SELECT emp_id, fname, lname
+FROM employee
+WHERE title=’HEAD TELLER’ AND start_date&gt;2008-11-23;
+a) All columns
+b) Only those columns which are mention with “SELECT” clause
+c) Columns mention with “SELECT” clause and only those rows which contain ‘HEAD TELLER’ as a “title” and start_date>2008-11-23
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – The from Clauses – 2» Next - MySQL Questions and Answers – The group by & having Clause 

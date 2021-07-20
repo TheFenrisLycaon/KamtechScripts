@@ -1,0 +1,150 @@
+1. Which of the following is true?
+a) Differentiability does not imply continuity
+b) Differentiability implies continuity
+c) Continuity implies differentiability
+d) There is no relation between continuity and differentiable
+b
+2. Which of the following is correct about the function f(x)=&vert;x+5&vert;?
+a) Left and right limits are equal and hence it is differentiable
+b) Left and right limits are not equal and hence it is differentiable
+c) Left and right limits are equal and hence it is not differentiable
+d) Left and right limits are not equal and hence it is not differentiable
+d
+Since the break is at x=-5, we calculate the limit at this point.
+We know that, a function is not differentiable at point x=a, if either \(\lim_{h \to 0}\frac{f(a+h)-f(a)}{h}\)does not exist or is infinity.  We check limits for both the cases of the function.
+Left limit: Here, a=-5.
+\(\lim_{h \to 0}\frac{f(-5+h)-f(-5)}{h}\) 
+\(\lim_{h \to 0}\frac{-(-5+h+5)-(-(-5+5))}{h}\) 
+=-1
+Right limit: Here, a=1.
+\(\lim_{h \to 0}\frac{f(1+h)-f(1)}{h}\) 
+\(\lim_{h \to 0}\frac{(1+h+5)-(1+5)}{h}\) 
+=1
+Since the two limits are not equal, the function is not differentiable.
+3. Which of the following is correct about the function f(x)=&vert;x2+18x+81&vert;?
+a) Left and right limits are equal and hence it is differentiable
+b) Limits are not important to determine differentiability
+c) Left and right limits are equal and hence it is not differentiable
+d) Left and right limits are not equal and hence it is not differentiable
+d
+Since the break is at x=-9, we frame for the function for both the sides of -9.
+f(x)=(x+9)2, if x>-9 and f(x)=(x+9)2, if x≤-9
+We know that, a function is not differentiable at point x=a, if either \(\lim_{h \to 0}\frac{f(a+h)-f(a)}{h}\)does not exist or is infinity.  We check limits for both the cases of the function.
+Left limit: Here, a=-10.
+\(\lim_{h \to 0}\frac{f(-10+h)-f(-10)}{h}\) 
+\(\lim_{h \to 0}\frac{(-10+h+9)^2-(-10+9)^2}{h}\) 
+\(\lim_{h \to 0}\frac{1^2+h^2-2h-1^2}{h}\) 
+=-2
+Right limit: Here, a=10.
+\(\lim_{h \to 0}\frac{f(1+h)-f(1)}{h}\) 
+\(\lim_{h \to 0}\frac{(10+h+9)^2-(10+9)^2}{h}\) 
+\(\lim_{h \to 0}\frac{10^2+h^2+20h-10^2}{h}\) 
+=20
+Since the two limits are not equal, the function is not differentiable.
+4. Which of the following is true about f(z)=z2?
+a) Continuous and differentiable
+b) Continuous but not differentiable
+c) Neither continuous nor differentiable
+d) Differentiable but not continuous
+a
+In general the limits are discussed at origin, if nothing is specified.
+f(x,y)=(x+iy)2
+Left limit: \(\lim_{x \to 0 \\ y \to 0}\)(x+iy)2 
+\(\lim_{y \to 0}\)i2y2
+=0
+Right limit: \(\lim_{y \to 0 \\ x \to 0}\)(x+iy)2
+\(\lim_{x \to 0}\)x2
+=0
+Both the limits are equal, therefore the function is continuous. To check differentiability,
+f’(z)=\(\lim_{\delta z \to 0}\frac{f(z+\delta z)-f(z)}{\delta z}\)should exist.
+\(\lim_{\delta z \to 0}\frac{(z+\delta z)^2-(z)^2}{\delta z}\) 
+\(\lim_{\delta z \to 0}\frac{2z(\delta z)+(\delta z)^2}{\delta z}\) 
+=\(\lim_{\delta z \to 0}\)(2z+(δz))
+=2z
+Since f’(z) exists, the function is differentiable as well.
+5. Which of the following is true about f(z)=z+iz?
+a) Continuous and differentiable
+b) Continuous but not differentiable
+c) Neither continuous nor differentiable
+d) Differentiable but not continuous
+a
+In general the limits are discussed at origin, if nothing is specified.
+f(x, y)=x+iy+ix+i2y
+f(x, y)=(x-y)+i(x+y)
+Left limit: \(\lim_{x \to 0 \\ y \to 0}\)(x-y)+i(x+y)
+\(\lim_{y \to 0}\)-y+iy
+=0
+Right limit: \(\lim_{y \to 0 \\ x \to 0}\)x+iy+ix+i2y 
+ \(\lim_{x \to 0}\)x+ix
+= 0
+Both the limits are equal, therefore the function is continuous. To check differentiability,
+f’(z)=\(\lim_{\delta z \to 0}\frac{f(z+\delta z)-f(z)}{\delta z}\) should exist.
+\(\lim_{\delta z \to 0}\frac{z+\delta z+iz+i\delta z-z+iz}{\delta z}\) 
+\(\lim_{\delta z \to 0}\frac{\delta z+i\delta z}{\delta z}\) 
+=z+i
+Since f’(z) exists, the function is differentiable as well.
+6. Which of the following is true about f(z)=z2+2z?
+a) Continuous and differentiable
+b) Continuous but not differentiable
+c) Neither continuous nor differentiable
+d) Differentiable but not continuous
+a
+In general the limits are discussed at origin, if nothing is specified.
+f(x, y)=(x+iy)2+2(x+iy)
+f(x, y)=x2-y2+2xiy+2x+2iy
+Left limit: \(\lim_{x \to 0 \\ y \to 0}\)x2-y2+2xiy+2x+2iy
+\(\lim_{y \to 0}\)-y2+2iy
+=0
+Right limit: \(\lim_{y \to 0 \\ x \to 0}\)x2-y2+2xiy+2x+2iy
+\(\lim_{x \to 0}\)x2+2x
+=0
+Both the limits are equal, therefore the function is continuous. To check differentiability,
+f’(z)=\(\lim_{\delta z \to 0}\frac{f(z+\delta z)-f(z)}{\delta z}\) should exist.
+\(\lim_{\delta z \to 0}\frac{(z+\delta z)^2+2(z+\delta z)-(z^2+2z)}{\delta z}\) 
+\(\lim_{\delta z \to 0}\frac{z^2+(\delta z)^2+2z(\delta z)+2z+2(\delta z)-z^2-2z}{\delta z}\) 
+=2z+2
+Since f’(z) exists, the function is differentiable as well.
+7. Which of the following is true about f(z)=\(\frac{z+iz}{z^2}\)?
+a) Continuous and differentiable
+b) Continuous but not differentiable
+c) Neither continuous nor differentiable
+d) Differentiable but not continuous
+c
+In general the limits are discussed at origin, if nothing is specified.
+f(x, y)=\(\frac{x+iy+ix+i^2y}{(x+iy)^2}\) 
+f(x, y)=\(\frac{i(x+y)+(x-y)}{(x+iy)^2}\) 
+Left limit: \(\lim_{x \to 0 \\ y \to 0}\frac{i(x+y)+(x-y)}{(x+iy)^2}\) 
+\(\lim_{y \to 0}\frac{i(y)+(-y)}{(iy)^2}\) 
+=does not exist
+Since, the left limit itself does not exist, the function is not continuous. If a function is not continuous, it cannot be differentiable as well.
+8. Which of the following is true about f(z)=\(\frac{z^2+(iz)^2}{z^2}\)?
+a) Continuous and differentiable
+b) Continuous but not differentiable
+c) Neither continuous nor differentiable
+d) Differentiable but not continuous
+a
+In general the limits are discussed at origin, if nothing is specified.
+f(x, y)=\(\frac{(x+iy)^2+(ix+i^2y)^2}{(x+iy)^2}\) 
+f(x, y)=\(\frac{(x+iy)^2+(ix-y)^2}{(x+iy)^2}\) 
+Left limit: \(\lim_{x \to 0 \\ y \to 0}\frac{(x+iy)^2+(ix-y)^2}{(x+iy)^2}\) 
+\(\lim_{y \to 0}\frac{(iy)^2+(-y)^2}{(iy)^2}\) 
+\(\lim_{y \to 0}\frac{-(y)^2+(y)^2}{-(y)^2}\) 
+=\(\frac{-1+1}{-1}\) 
+=0
+Right limit: \(\lim_{y \to 0 \\ x \to 0}\frac{(x+iy)^2+(ix-y)^2}{(x+iy)^2}\) 
+\(\lim_{x \to 0}\frac{(x)^2+(ix)^2}{(x)^2}\) 
+\(\lim_{y \to 0}\frac{(x)^2-(x)^2}{(x)^2}\) 
+=\(\frac{1-1}{1}\) 
+=0
+Both the limits are equal, therefore the function is continuous. To check differentiability,
+f(z)=\(\frac{z^2-z^2}{z^2}\)=0
+f’(z)=\(\lim_{\delta z \to 0}\frac{f(z+\delta z)-f(z)}{\delta z}\)should exist.
+\(\lim_{\delta z \to 0}\frac{0-0}{\delta z}\) 
+=0
+Since f’(z) exists, the function is differentiable as well.
+Sanfoundry Global Education & Learning Series – Complex Analysis.
+To practice all objective questions on Complex Analysis, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Complex Function Theory Questions and Answers – Continuity 

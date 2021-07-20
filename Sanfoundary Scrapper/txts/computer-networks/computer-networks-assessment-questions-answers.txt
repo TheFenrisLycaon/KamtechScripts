@@ -1,0 +1,60 @@
+1. Which methods are commonly used in Server Socket class?
+a) Public Output Stream get Output Stream ()
+b) Public Socket accept ()
+c) Public synchronized void close ()
+d) Public void connect ()
+b
+2. Which constructor of Datagram Socket class is used to create a datagram socket and binds it with the given Port Number?
+a) Datagram Socket(int port)
+b) Datagram Socket(int port, Int Address address)
+c) Datagram Socket()
+d) Datagram Socket(int address)
+b
+3. The client in socket programming must know which information?
+a) IP address of Server
+b) Port number
+c) Both IP address of Server & Port number
+d) Only its own IP address
+c
+4. The URL Connection class can be used to read and write data to the specified resource that is referred by the URL.
+a) True
+b) False
+a
+5. Datagram is basically just a piece of information but there is no guarantee of its content, arrival or arrival time.
+a) True
+b) False
+a
+6. TCP, FTP, Telnet, SMTP, POP etc. are examples of ___________
+a) Socket
+b) IP Address
+c) Protocol
+d) MAC Address
+c
+7. What does the java.net.InetAddress class represent?
+a) Socket
+b) IP Address
+c) Protocol
+d) MAC Address
+b
+8. The flush () method of Print Stream class flushes any un-cleared buffers in the memory.
+a) True
+b) False
+a
+9. Which classes are used for connection-less socket programming?
+a) Datagram Socket
+b) Datagram Packet
+c) Both Datagram Socket & Datagram Packet
+d) Server Socket
+c
+10. In Inet Address class, which method returns the host name of the IP Address?
+a) Public String get Hostname()
+b) Public String getHostAddress()
+c) Public static InetAddress get Localhost()
+d) Public getByName()
+a
+Sanfoundry Global Education & Learning Series – Computer Networks.
+To practice all areas of Computer Networks Assessment Questions, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Networks Questions & Answers – Ports» Next - Computer Networks Questions & Answers – Cookies 

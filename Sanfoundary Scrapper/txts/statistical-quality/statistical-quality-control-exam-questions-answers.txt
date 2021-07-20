@@ -1,0 +1,98 @@
+1. What are the graphical displays of tabular cusum called?
+a) Cusum regular charts
+b) Cusum regulated display
+c) Cusum level display
+d) Cusum status charts
+d
+2. Which of these is a correct statement for cusum status charts?
+a) A plot between Ci+ or Ci– and the sample number
+b) A plot between the Ci+ or Ci– and the sample mean
+c) A plot between the Ci+ or Ci– and the sample variance
+d) A plot between the Ci+ or Ci– and the sample standard deviation
+a
+3. Each vertical bar in cusum status chart represents __________
+a) The value of Ci+ and Ci–
+b) The value of Ci–
+c) The value of Ci+
+d) Neither the value of Ci+ nor Ci–
+a
+4. What is analogous to the control limits as in Shewhart control charts, in the cusum status charts?
+a) The reference value
+b) The allowance value
+c) The value of the decision intervals
+d) The value of Ci+ and Ci–
+c
+5. In the Minitab version of the cusum control charts, which of these is used?
+a) \(C_i^+=max⁡\left\{0,x_i-μ_0+k+C_{i-1}^-\right\}\) 
+b) \(C_i^-=min⁡\left\{0,x_i-μ_0+k+C_{i-1}^-\right\}\) 
+c) \(C_i^-=max⁡\left\{0,x_i-μ_0-k+C_{i-1}^-\right\}\) 
+d) \(C_i^-=min⁡\left\{0,x_i-μ_0-k-C_{i-1}^-\right\}\) 
+b
+\(C_i^-=min⁡\left\{0,x_i-μ_0+k+C_{i-1}^-\right\}\).
+6. Which of these is true for the Minitab version of tabular cusum charts?
+a) \(C_i^-≥0\) 
+b) \(C_i^-≥9\) 
+c) \(C_i^-≤0\) 
+d) \(C_i^-≤5\) 
+d
+7. Which of these steps, is not carried out when the process becomes out-of-control when using the cusum control charts?
+a) Search for an assignable cause
+b) Taking corrective action
+c) Restarting the control chart from zero
+d) Continuing the control chart
+d
+8. Which of these control charts may accurately tell when the assignable cause has occurred?
+a) Cusum control charts
+b) p-charts
+c) c-charts
+d) x bar and s charts
+a
+9. Which of these can be used to calculate the estimate of mean of the process in the case of the tabular cusums when Ci+ > H?
+a) \(\hat{μ}=\left\{μ_0-K+\frac{C_i^+}{N^+}\right\}\) 
+b) \(\hat{μ}=\left\{μ_0+K+\frac{C_i^+}{N^+}\right\}\) 
+c) \(\hat{μ}=\left\{μ_0+K-\frac{C_i^+}{N^+}\right\}\) 
+d) \(\hat{μ}=\left\{μ_0+K+\frac{C_i^-}{N^-}\right\}\) 
+b
+\(\hat{μ}=\left\{μ_0+K+\frac{C_i^+}{N^+}\right\}\) 
+10. Which of these following expressions can be used to calculate the estimate of mean of the process in the case of the tabular cusums when Ci– > H?
+a) \(\hat{μ}=\left\{μ_0+K+\frac{C_i^-}{N^-}\right\}\) 
+b) \(\hat{μ}=\left\{μ_0-K-\frac{C_i^-}{N^-}\right\}\) 
+c) \(\hat{μ}=\left\{μ_0-K+\frac{C_i^-}{N^-}\right\}\) 
+d) \(\hat{μ}=\left\{μ_0+K-\frac{C_i^-}{N^-}\right\}\) 
+b
+\(\hat{μ}=\left\{μ_0-K-\frac{C_i^-}{N^-}\right\}\)
+11. What of these can be used as the decision interval for the tabular cusum charts?
+a) 2σ
+b) 1σ
+c) 5σ
+d) 4σ
+c
+12. What is the expression for the two sided cusum ARL?
+a) \(\frac{1}{ARL}=\frac{1}{2ARL^-}+\frac{1}{2ARL^+}\) 
+b) \(\frac{1}{ARL}=\frac{1}{ARL^-}±\frac{1}{ARL^+}\) 
+c) \(\frac{1}{ARL}=\frac{1}{2ARL^-}-\frac{1}{2ARL^+}\) 
+d) \(\frac{1}{ARL}=\frac{1}{ARL^-}+\frac{1}{ARL^+}\) 
+d
+\(\frac{1}{ARL}=\frac{1}{ARL^-}+\frac{1}{ARL^+}\) 
+It is used to estimate the average time till an out-of-control signal comes from the cusum chart.
+13. Which of these is an expression for Siegmund’s approximation?
+a) \(ARL=\frac{exp⁡(-2∆b)+2∆b-1}{2∆^2}\) 
+b) \(ARL=\frac{exp⁡(-2∆b)+2∆b-1}{2∆}\) 
+c) \(ARL=\frac{exp⁡(-2∆b)-2∆b+1}{2∆^2}\) 
+d) \(ARL=\frac{exp⁡(-2∆b)-2∆b-1}{2∆^2}\) 
+a
+\(ARL=\frac{exp⁡(-2∆b)+2∆b-1}{2∆^2}\)
+14. The value of K and H should be determined according to the ARL required for the corresponding cusum chart.
+a) True
+b) False
+a
+15. The desired ARL is obtained by using the Siegmund’s approximation.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all exam questions on Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Time-Weighted – Cumulative Sum Control Chart – 4» Next - Statistical Quality Control Questions and Answers – Time-Weighted – Cumulative Sum Control Chart – 6 

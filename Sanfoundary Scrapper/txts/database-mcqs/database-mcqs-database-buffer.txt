@@ -1,0 +1,67 @@
+1. The _______ is that part of main memory available for storage of copies of disk blocks.
+a) Buffer
+b) Catalog
+c) Storage
+d) Secondary storage
+a
+2. A major goal of the database system is to minimize the number of block transfers between the disk and memory. This is achieved by
+a) Buffer
+b) Catalog
+c) Storage
+d) Secondary storage
+a
+3. The subsystem responsible for the allocation of buffer space is called the ___________
+a) Buffer
+b) Buffer manager
+c) Storage
+d) Secondary storage
+b
+4. In the buffer where there is no space for another block, the block can be inserted using
+a) Pinned block strategy
+b) Forced output block
+c) Buffer replacement strategy
+d) All of the mentioned
+c
+Join Sanfoundry@YouTube
+5. A block that is not allowed to be written back to disk is said to be ______________
+a) Pinned
+b) Forced
+c) Buffer
+d) All of the mentioned
+a
+6. There are situations in which it is necessary to write back the block to disk, even though the buffer space that it occupies is not needed. This write is called the
+a) Pinned block strategy
+b) Forced output block
+c) Buffer replacement strategy
+d) All of the mentioned
+b
+7. The frequently used buffer replacement strategy is
+a) Most recently used
+b) Least recently used
+c) Longest block
+d) All of the mentioned
+b
+8. In case the buffer manager do not write the blocks properly then the buffer manager uses
+a) Replacement strategy
+b) Forced strategy
+c) Crash recovery system
+d) Both Replacement and Forced strategy
+c
+9. The technique where the blocks which have been used are replaced is called
+a) Replacement strategy
+b) Forced strategy
+c) Crash recovery system
+d) Most recently used
+d
+10. ___________________ frees the space occupied by a block as soon as the final tuple of that block has been processed.
+a) Replacement strategy
+b) Forced strategy
+c) Toss immediate strategy
+d) Most recently used
+c
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Data-Dictionary Storage» Next - Database Questions and Answers – Ordered Indices 

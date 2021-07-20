@@ -1,0 +1,66 @@
+1. A system is in a ______ state if there exists a set of transactions such that every transaction in the set is waiting for another transaction in the set.
+a) Idle
+b) Waiting
+c) Deadlock
+d) Ready
+c
+2. The deadlock state can be changed back to stable state by using _____________ statement.
+a) Commit
+b) Rollback
+c) Savepoint
+d) Deadlock
+b
+3. What are the ways of dealing with deadlock?
+a) Deadlock prevention
+b) Deadlock recovery
+c) Deadlock detection
+d) All of the mentioned
+d
+4. When transaction Ti requests a data item currently held by Tj, Ti is allowed to wait only if it has a timestamp smaller than that of Tj (that is, Ti is older than Tj). Otherwise, Ti is rolled back (dies). This is
+a) Wait-die
+b) Wait-wound
+c) Wound-wait
+d) Wait
+a
+5. When transaction Ti requests a data item currently held by Tj, Ti is allowed to wait only if it has a timestamp larger than that of Tj (that is, Ti is younger than Tj ). Otherwise, Tj is rolled back (Tj is wounded by Ti). This is
+a) Wait-die
+b) Wait-wound
+c) Wound-wait
+d) Wait
+c
+6. The situation where the lock waits only for a specified amount of time for another lock to be released is
+a) Lock timeout
+b) Wait-wound
+c) Timeout
+d) Wait
+a
+7. The deadlock in a set of a transaction can be determined by
+a) Read-only graph
+b) Wait graph
+c) Wait-for graph
+d) All of the mentioned
+a
+8. A deadlock exists in the system if and only if the wait-for graph contains a ___________
+a) Cycle
+b) Direction
+c) Bi-direction
+d) Rotation
+a
+9. Selecting the victim to be rollbacked to the previous state is determined by the minimum cost. The factors determining cost of rollback is
+a) How long the transaction has computed, and how much longer the transaction will compute before it completes its designated task
+b) How many data items the transaction has used
+c) How many more data items the transaction needs for it to complete
+d) All of the mentioned
+d
+10. __________ rollback requires the system to maintain additional information about the state of all the running transactions.
+a) Total
+b) Partial
+c) Time
+d) Commit
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Lock-Based Protocols» Next - Database Questions and Answers – Multiple Granularity 

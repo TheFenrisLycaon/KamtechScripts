@@ -1,0 +1,116 @@
+This section on C++ programming questions and answers focuses on “Derived Classes”. One shall practice these questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ programming questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ programming questions on “Derived Classes” along with answers, explanations and/or solutions:
+1. Where is the derived class is derived from?
+a) derived
+b) base
+c) both derived & base
+d) class
+b
+2. Pick out the correct statement.
+a) A derived class’s constructor cannot explicitly invokes its base class’s constructor
+b) A derived class’s destructor cannot invoke its base class’s destructor
+c) A derived class’s destructor can invoke its base class’s destructor
+d) A derived class’s destructor can invoke its base & derived class’s destructor
+b
+3. Which of the following can derived class inherit?
+a) members
+b) functions
+c) both members & functions
+d) classes
+c
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class A    {        public:        A(int n )        {            cout << n;        }    };    class B: public A    {        public:        B(int n, double d)        : A(n)        {            cout << d;        }        };    class C: public B    {        public:        C(int n, double d, char ch)        : B(n, d)        {            cout <<ch;        }    };    int main()    {        C c(5, 4.3, 'R');        return 0;    }
+a) 54.3R
+b) R4.35
+c) 4.3R5
+d) R2.6
+a
+Output:
+$ g++ der.cpp
+$ a.out
+54.3R
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class BaseClass     {        protected:        int i;        public:        BaseClass(int x)         {            i = x;        }        ~BaseClass()         {        }    };    class DerivedClass: public BaseClass     {        int j;        public:        DerivedClass(int x, int y): BaseClass(y)        {            j = x;        }        ~DerivedClass()         {        }        void show()         {            cout << i << " " << j << endl;        }    };    int main()    {        DerivedClass ob(3, 4);        ob.show();        return 0;    }
+a) 3 4
+b) 4 3
+c) 4
+d) 3
+b
+Output:
+$ g++ der1.cpp
+$ a.out
+4 3
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Base    {        public:        int m;        Base(int n=0)        : m(n)        {            cout << "Base" << endl;        }    };    class Derived: public Base    {        public:        double d;        Derived(double de = 0.0)        : d(de)        {            cout << "Derived" << endl;        }    };    int main()    {        cout << "Instantiating Base" << endl;        Base cBase;        cout << "Instantiating Derived" << endl;        Derived cDerived;        return 0;    }
+a) 
+   Instantiating Base
+   Base
+   Instantiating Derived
+   Base
+   Derived
+b) 
+   Instantiating Base
+   Instantiating Derived
+   Base 
+   Derived
+c) 
+   Instantiating Base
+   Base
+   Instantiating Derived
+   Base
+d) Instantiating Base
+a
+Output:
+$ g++ der2.cpp
+$ a.out
+Instantiating Base
+Base
+Instantiating Derived
+Base
+Derived
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Parent    {        public:        Parent (void)         {                 cout << "Parent()\n";        }        Parent (int i)         {             cout << "Parent("<< i << ")\n";         };        Parent (void)         {             cout << "~Parent()\n";        };     };    class Child1 : public Parent { };    class Child2 : public Parent    {        public:        Child2 (void)         {            cout << "Child2()\n";        }        Child2 (int i) : Parent (i)         {            cout << "Child2(" << i << ")\n";         }        ~Child2 (void)         {            cout << "~Child2()\n";         }    };    int main (void)    {        Child1 a;        Child2 b;        Child2 c(42);        return 0;    }
+a) 
+   Parent()
+   Parent()
+   Child2()
+   Parent(42)
+   Child2(42)
+   ~Child2()
+   ~Parent()
+   ~Child2()
+   ~Parent()
+   ~Parent()
+b) error
+c) runtime error
+d) Parent(42)
+b
+8. What will be the output of the following C++ code?
+    #include<iostream>    using namespace std;    class X     {        int m;        public:        X() : m(10)        {                                                               }        X(int mm): m(mm)        {        }        int getm()        {            return m;        }    };    class Y : public X     {        int n;        public:        Y(int nn) : n(nn) {}                                                        int getn() { return n; }    };    int main()    {        Y yobj( 100 );        cout << yobj.getm() << " " << yobj.getn() << endl;    }
+a) 10 100
+b) 100 10
+c) 10 10
+d) 100 100
+a
+Output:
+$ g++ der5.cpp
+$ a.out
+10 100
+9. Which operator is used to declare the destructor?
+a) #
+b) ~
+c) @
+d) $
+b
+10. Which constructor will initialize the base class data member?
+a) derived class
+b) base class
+c) class
+d) derived & base class
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Constructors and Destructors – 3» Next - C++ Programming Questions and Answers – Abstract Classes – 1 

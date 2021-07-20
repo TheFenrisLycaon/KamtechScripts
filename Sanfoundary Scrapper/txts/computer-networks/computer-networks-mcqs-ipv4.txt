@@ -1,0 +1,60 @@
+1. Which of the following is not applicable for IP?
+a) Error reporting
+b) Handle addressing conventions
+c) Datagram format
+d) Packet handling conventions
+a
+2. Which of the following field in IPv4 datagram is not related to fragmentation?
+a) Flags
+b) Offset
+c) TOS
+d) Identifier
+c
+3. The TTL field has value 10. How many routers (max) can process this datagram?
+a) 11
+b) 5
+c) 10
+d) 1
+c
+4. If the value in protocol field is 17, the transport layer protocol used is _____________
+a) TCP
+b) UDP
+c) ICMP
+d) IGMP
+b
+5. The data field cannot carry which of the following?
+a) TCP segment
+b) UDP segment
+c) ICMP messages
+d) SMTP messages
+c
+6. What should be the flag value to indicate the last fragment?
+a) 0
+b) 1
+c) TTl value
+d) Protocol field value
+a
+7. Which of these is not applicable for IP protocol?
+a) is connectionless
+b) offer reliable service
+c) offer unreliable service
+d) does not offer error reporting
+b
+8. Which of the following demerits does Fragmentation have?
+a) complicates routers
+b) open to DOS attack
+c) overlapping of fragments.
+d) all of the mentioned
+d
+9. Which field helps to check rearrangement of the fragments?
+a) offset
+b) flag
+c) ttl
+d) identifer
+a
+Sanfoundry Global Education & Learning Series – Computer Networks.
+To practice all areas of Computer Networks, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Networks Questions & Answers – World Wide Web» Next - Computer Networks Questions & Answers – IPv4  Addressing 

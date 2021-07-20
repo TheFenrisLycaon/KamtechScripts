@@ -1,0 +1,92 @@
+1. Determine the output voltage for an op-amp with single break frequency.
+a)  VO ={ jXC /[Ro+(iXC)]} × AVid
+b)  VO = = AVid / [1+ j2πfRoC].
+c)  VO = AVid /(Ro+j2πfC)
+d)  VO = Vid / [Ro-(j2πfRoC)].
+b
+VO = {(-jXC) / [(Ro)-(jXC)} ×AVid
+∵ -j=1/j & XC =1/2πfC
+=> VO = {(1/j2ΠfC)/[Ro + (1/ j2πfC)] }  × AVid  = AVid  / [1+ j2πfRoC]. 
+2. Compute the break frequency of an op-amp, if the output resistance=10kΩ and capacitor connected to the output =0.1µF.
+a) 159.2Hz
+b) 6.28Hz
+c) 318.4Hz
+d) 1000Hz
+a
+3. The open loop voltage gain as a function of frequency is defined as
+a) AOL(f) = VO/Vin
+b) AOL(f) = VO/Vid
+c) AOL(f) = VO/Vf
+d) All of the mentioned
+b
+4. Which among the following factor remain fixed for an op-amp?
+a) Open loop voltage gain
+b) Gain of the op-amp
+c) Operating frequency
+d) Break frequency of the op-amp
+d
+5. Find the gain magnitude and phase angle of the op-amp using the specifications:
+f= 50Hz; fo=5Hz ; A=140000.
+a) AOL(f)= 22.92dB , Φ(f) = – 89.99o
+b) AOL(f)= 66dB ,    Φ(f) = – 90o
+c) AOL(f)= 26dB,    Φ(f) = – 89.99o
+d) AOL(f)= 20dB ,    Φ(f) = – 84.29o
+a
+AOL(f) dB= 102.922-80 = 22.92dB.
+Phase angle, φ(f) = -tan-1(f/fo) = -tan-1(50000/5) = -89.99o. 
+6. Consider an op-amp where the inverting input voltage =3.7mv, non-inverting input voltage=6.25mv and open loop voltage gain =142dB. Find the output voltage.
+a) 0.21v
+b) 0.45v
+c) 0.78v
+d) 0.36v
+d
+VO  = AOL(f) × (Vin1-Vin2) = 142 dB×(6.25-3.7) = 142×2.55 = 0.36v. 
+7. Express the open loop gain of the op-amp in complex form?
+a) A/√ [1+(f/fo)2
+b) 20log{A/√[1+(f/fo)2}
+c) A/[1+j(f/fo)].
+d) None of the mentioned
+c
+8. Determine the difference between two AOL(f) at 50Hz and 500Hz frequency? (Consider the op-amp to be 741c)
+a) 40dB
+b) 30dB
+c) 20dB
+d) 10dB
+c
+At f= 50 Hz,
+AOL(f) dB = 20log(200000)- 20log(√(1+(50/5)2) = 106.02-20.04 ≅ 86dB
+At f= 500Hz
+AOL(f) dB =20log(200000)-20log(√(1+(500/5)2) = 106.02-40 ≅ 66dB
+Therefore, the difference between AOL(f)dB = 86-66 = 20dB. 
+9. At what frequency, the phase shift between input &output voltage will be zero?
+a) -40Hz
+b) 0Hz
+c) -22Hz
+D)  20Hz
+b
+At f=0Hz, φ(f) = – tan-1 (f/fo) = -tan-1(0/5) = 0o 
+10. At what frequency AOL(f)=A?
+a) 50Hz
+b) 10Hz
+c) 5Hz
+d) 0Hz
+d
+Then AOL(f) dB= 20log(200000-20log[√1+(0/5)2)] = 106dB. Where A =20,000 ≅ 106dB. 
+11. What happen when the frequency increases?
+a) AOL(f) continues to drop
+b) A increases
+c) fo –> 0Hz
+d) None of the mentioned
+a
+12. What will be the absolute value of phase shift, if the frequency keeps increasing?
+a) Increase towards 45o
+b) Decrease towards 45o
+c) Increase towards 90o
+d) Decrease towards 90o
+c
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Frequency Response of Internally Compensating and Non-Compensating Op-Amp» Next - Linear Integrated Circuit Questions and Answers – Open-Loop Voltage Gain as a Function of Frequency – 2 

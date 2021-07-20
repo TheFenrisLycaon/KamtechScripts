@@ -1,0 +1,46 @@
+Sanfoundry’s 1000+ Interview Questions and Answers on C helps Experienced people preparing for Job Interviews. Experienced IT profession should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in lateral or walk-in interviews. 
+Here is a listing of C interview questions on “String Operations” along with answers, explanations and/or solutions:
+1. What type of return-type used in String operations?
+a) void only
+b) void and (char *) only
+c) void and int only
+d) void, int and (char *) only
+d
+2. String operation such as strcat(s, t), strcmp(s, t), strcpy(s, t) and strlen(s) heavily rely upon.
+a) Presence of NULL character
+b) Presence of new-line character
+c) Presence of any escape sequence
+d) None of the mentioned
+a
+3. Which pre-defined function returns a pointer to the last occurence of a character in a string?
+a) strchr(s, c);
+b) strrchr(s, c);
+c) strlchr(s, c);
+d) strfchr(s, c);
+b
+4. Which of the following function compares 2 strings with case-insensitively?
+a) strcmp(s, t)
+b) strcmpcase(s, t)
+c) strcasecmp(s, t)
+d) strchr(s, t)
+c
+5. What will be the value of var for the following C statement?
+var = strcmp("Hello", "World");
+a) -1
+b) 0
+c) 1
+d) strcmp has void return-type
+a
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        char str[10] = "hello";        char *p = strrchr(str, 'l');        printf("%c\n", *(++p));    }
+a) l
+b) o
+c) e
+d) Compilation error
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – String Operations – 1» Next - C Programming Questions and Answers – Character Class Testing & Conversions – 1 

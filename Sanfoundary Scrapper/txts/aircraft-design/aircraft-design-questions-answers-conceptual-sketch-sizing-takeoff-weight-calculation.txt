@@ -1,0 +1,118 @@
+1. Estimation of take-off weight is an iterative method.
+a) True
+b) False
+a
+2. Which of the following is part of take-off weight estimation?
+a) Lofting
+b) Drafting
+c) Initial guess of take-off gross weight based on mission specifications
+d) Manufacturing part is first step
+c
+3. What is the first step to estimate the gross weight W0?
+a) To find crew and payload weight so initial W0 can be guess
+b) To find proper lofting
+c) Drafting
+d) Directly finding take-off distance
+a
+4. An aircraft with crew and payload of 180kg is flying. If fuel weight fraction is 0.353 and empty weight fraction 0.481 then, what will be the gross weight of aircraft?
+a) 2391kg
+b) 2391lb
+c) 1000kg
+d) 1000lb
+b
+Fuel weight fraction Wf / W0 = 0.353, empty weight fraction We / W0 = 0.481
+Gross weight of aircraft is,
+W0 = Wcrew + Wpayload + Wfuel + Wempty
+By re-arranging,
+W0 = Wcrew + Wpayload / [1 – (Wf / W0) – (We / W0)] 
+= 180 / [1-0.353-0.481] = 1084.33 kg = 2390.96lb 
+5. Initial guess of gross weight will be same for every aircraft.
+a) True
+b) False
+b
+6. Following diagram is showing mission profile with different phases with mission segment fuel fraction as shown. If crew weight is 150kg, payload of 600kg and empty fraction of 0.495. Determine gross weight of the aircraft.
+a) 4430kg
+b) 39810kg
+c) 4431lb
+d) 38910lb
+a
+Fuel weight fraction Wf / W0 = 1.06[1 – Wx/W0],
+Now from fuel fraction method,
+Wx / W0 = multiplication of each phase fraction
+= 0.975*0.98*0.96*0.8*0.96*0.97
+= 0.6833
+Now,
+Wf / W0 = 1.06 * [1 – (Wx / W0)] = 0.3357
+Empty weight fraction We / W0 = 0.481
+Gross weight of aircraft is,
+W0 = Wcrew + Wpayload + Wfuel + Wempty
+By re-arranging,
+W0 = Wcrew + Wpayload / [1 – (Wf/ W0) – (We / W0)] 
+= 150 + 600 / [1-0.3357-0.495] = 4430kg
+7. An aircraft has cruise range of 1500NM and SFC C = 0.5 1/hr. Cruise velocity of jet aircraft is 570ft/s with L/D as 13.2. Aircraft is supposed to do loiter of 2 hrs then what should be the gross weight of aircraft? Given, empty weight fraction of 0.55, crew and payload OF 6500kg with 0.98 as mission segment fuel fraction for climb, take-off and landing.
+a) 37000 kg
+b) 37.8 ton
+c) 37880lb
+d) 3780 kg
+b
+Since, mission profiles are given we need to find mission segment fuel weight fraction for each.
+For take-off, climb and landing it is given as 0.98.
+For cruise,
+Range R 1500 nm= 9114000ft, C =0.5 1/hr. =0.0001389 1/s, L/D =13.2, velocity V=570 ft/s
+Now cruise weight fraction is given by Range formula. For, prop-driven aircraft it is given by,
+Wcruise / W0 = \(e^{\left(-\frac{R*C}{V*\frac{L}{D}}\right)}\) = \(e^{(-\frac{9114000*0.0001389}{570*13.2})}\) = 0.8451
+Loiter: loiter of 2 hour is given hence,
+Endurance E = 2*3600 = 7200 s
+Now, loiter fuel fraction
+Wloiter / W0 = \(e^{\left(-\frac{E*C}{\frac{L}{D}}\right)}\) = \(e^{(-\frac{7200*0.0001389}{13.2})}\) = 0.9270
+Now from fuel fraction method,
+Wx / W0 = multiplication of each phase fraction
+= 0.98*0.98*0.8451*0.9270*0.98
+= 0.7373
+Now,
+Wf / W0 = 1.06 * [1 – (Wx / W0)] = 1.06 * [1-0.7373] = 0.2784
+Empty weight fraction We / W0 = 0.55
+Gross weight of aircraft is,
+W0 = Wcrew + Wpayload + Wfuel + Wempty
+By re-arranging,
+W0 = Wcrew + Wpayload / [1 – (Wf / W0) – (We / W0)] 
+= 6500 / [1-0.2784-0.55] = 37880 kg = 37.8 ton
+8. Total take-off gross weight depends on _____
+a) fuel consumption only
+b) only on aerodynamic efficiency
+c) fuel, crew, payload and empty weight
+d) independent
+c
+9. Which of the following is correct?
+a) Fuel weight fraction is based on mission profile only
+b) Take-off gross weight is sum of all possible weight of aircraft
+c) Empty weight fraction is always 0.55
+d) Crew load is always half of payload
+b
+10. An aircraft has Crew and payload of 180kg. It has empty weight fraction of 0.48 and fuel weight is 0.7 times empty weight. What will be the gross weight of aircraft?
+a) 2157lb
+b) 215kg
+c) 950kg
+d) 1000lb
+a
+Empty weight fraction We / W0 = 0.48
+Fuel weight is 0.7 times empty weight.
+Hence, Wf = 0.7*We
+Hence, Wf / W0 = 0.7*We / W0 = 0.7*0.48 = 0.336
+Gross weight of aircraft is,
+W0 = Wcrew + Wpayload + Wfuel + Wempty
+By re-arranging,
+W0 = Wcrew + Wpayload / [1 – (Wf/ W0) – (We / W0)] 
+= 180 / [1-0.336-0.48] = 978.26kg = 2157.06lb.
+11. Keeping all other factors constant if only range of aircraft is increased then, what will be effect on the gross weight of aircraft?
+a) Gross weight will increase
+b) Will decrease
+c)  Unchanged
+d) Not depended on range
+a
+Sanfoundry Global Education & Learning Series – Aircraft Design.
+To practice all areas of Aircraft Design, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aircraft Design Questions and Answers – Conceptual Sketch Sizing – Fuel-Fraction Estimation-2» Next - Aircraft Design Questions and Answers – Airfoil Selection-1 

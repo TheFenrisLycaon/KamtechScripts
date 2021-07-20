@@ -1,0 +1,67 @@
+1. The ________ settings of replica set members affect the outcomes of elections for primary.
+a) priority
+b) replication
+c) Initiate
+d) all of the mentioned
+a
+2. Point out the correct statement.
+a) The value of the member’s priority setting determines the member’s priority in elections
+b) The default value for the priority field is 3
+c) The value of priority can be any floating point (i.e. decimal) number between 0 and 500
+d) None of the mentioned
+a
+3. To modify priorities, you update the members _________ in the replica configuration object.
+a) array
+b) tag
+c) mdimarray
+d) all of the mentioned
+a
+4. The _________ shell method can force the current primary to step down, which causes an election.
+a) rs.repliconfig()
+b) rs.config()
+c) rs.reconfig()
+d) all of the mentioned
+c
+5. Point out the wrong statement.
+a) Before an election the primary opens all open client connections
+b) To block a member from seeking election as primary, assign it a priority of 0
+c) Hidden members, delayed members, and arbiters all have priority set to 0
+d) All of the mentioned
+a
+6. If the oplog is shorter than the slaveDelay window, the _______ member cannot successfully replicate operations.
+a) hidden
+b) delayed
+c) priority
+d) all of the mentioned
+b
+7. _________ members allow you to add additional members for read distribution beyond the maximum seven voting members.
+a) Voting
+b) Non-voting
+c) Priority
+d) all of the mentioned
+b
+8. Remove the secondary from the replica set by calling  ___________ method.
+a) rs.removeRepli()
+b) rs.remove()
+c) rs.removeset()
+d) isMaster
+b
+9. ______ returns basic help text for replica set functions.
+a) rs.printSlaveReplicationInfo()
+b) rs.printReplication()
+c) rs.help()
+d) all of the mentioned
+c
+10. __________ prints a report of the status of the replica set from the perspective of the secondaries.
+a) rs.printSlaveReplicationInfo()
+b) rs.printReplication()
+c) rs.help()
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Troubleshooting» Next - MongoDB Questions and Answers – Sharding Introduction 

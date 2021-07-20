@@ -1,0 +1,181 @@
+1. What are functors in C++?
+a) Objects of a class which are treated as functions
+b) Objects that are used to call the function of other classes
+c) Functions that are called using pointer objects
+d) Functions that are called only once in a program
+a
+2. Which of the following operators are overloaded for functors?
+a) [] 
+b) ()
+c) <<
+d) >>
+b
+3. What is the correct function prototype of () operator overloading?
+a) return_type operator(arguments)();
+b) return_type operator(arguments);
+c) return_type operator()(arguments);
+d) return_type operator(Class_name)(arguments);
+c
+return_type operator()(arguments){}
+4. Which of the following is correct about Functors?
+a) Functors should not be declared outside the main function
+b) Overloaded operator () function is not a member of the class
+c) Functors should be declared global
+d) Functors have a state
+d
+5. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+class Print
+{
+   public:
+	void operator()(int a){
+		cout<<a<<endl;
+	}
+};
+int main()
+{
+	Print print;
+	print(5);
+	return 0;
+}
+a) 5
+b) Compile-time error
+c) Run-time error
+d) Nothing is printed
+a
+6. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+class Add
+{
+	int x;
+   public:
+	Add(int x){
+		this->x = x;
+	}
+	int operator()(int a){
+		return x+a;
+	}
+};
+int main()
+{
+	Add add_5(5);
+	int a = 5;
+	cout<<add_5(a);
+	return 0;
+}
+a) 5
+b) 10
+c) Error
+d) Segmentation fault
+b
+7. Given the below class, what is the correct syntax of declaring a functor that adds 10 to each of the passed argument?
+class Add
+{
+	int x;
+   public:
+	Add(int x){
+		this->x = x;
+	}
+	int operator()(int a){
+		return x+a;
+	}
+};
+a) Add add_10(10);
+b) Add add_10(10);
+c) Add add_10(10);
+d) Add add_10(5);
+c
+8. What will be the output of the following C++ code?
+#include<iostream>
+#include <string>
+using namespace std;
+template <class T>
+class Print
+{
+   public:
+	int operator()(T a){
+		cout<<a<<endl;
+	}
+};
+int main()
+{
+	Print<string> str;
+	Print<int> integer;
+	int a = 100;
+	string s = "Hello Sanfoundry";
+	str(s);
+	integer(a);
+	return 0;
+}
+a) 
+100
+100
+b) 
+100
+Hello Sanfoundry
+c) 
+Hello Sanfoundry
+Hello Sanfoundry
+d) 
+Hello Sanfoundry
+100
+d
+  
+9. Which of te following is a built-in example of functors in C++?
+a) mltiplication<T> f(a1, a2);
+b) add<T> f(a1, a2);
+c) subtract<T> f(a1, a2);
+d) plus<T> f(a1, a2);
+d
+10. Which of the following header file is required to use in-bulit functors of C++?
+a) <any>
+b) <fucntional>
+c) <functor>
+d) <function>
+b
+11. What are unary functors?
+a) Functors that accepts only one parameter
+b) Functors that accepts two parameters
+c) Functors that accepts more than one parameters
+d) Functors that accepts other than a specific type of parameter
+a
+12. What are binary functors?
+a) Functors that accepts only one parameter
+b) Functors that accepts more than one parameters
+c) Functors that accepts two parameters
+d) Functors that accepts other than a specific type of parameter
+c
+13. How many ways are there to use functors?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+14. Which of the following is a logical unary functor?
+a) logical_or<T> f;
+b) logical_and<T> f;
+c) logical_not<T> f;
+d) negate<T> f;
+c
+15. Which of the following is an arithmetic unary functor?
+a) logical_not<T> f;
+b) logical_and<T> f;
+c) logical_or<T> f;
+d) negate<T> f;
+d
+16. What of the following is the equivalent statement for the functor call,
+x = f(arg1, arg2);
+where f is a functor and arg1 and arg2 are the arguments required by the functors?
+a) f.call(arg1, arg2);
+b) f.operator()(arg1, arg2);
+c) f.operator(arg1, arg2);
+d) f.operator(arg1, arg2)();
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – STL Algorithms» Next - C++ Programming Questions and Answers – String Characters 

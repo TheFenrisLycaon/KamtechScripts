@@ -1,0 +1,61 @@
+1. Which of the following collection do not support the TTL property?
+a) Compound indexes
+b) Primary indexes
+c) Composite indexes
+d) All of the mentioned
+a
+2. Point out the correct statement.
+a) Data expiration is useful for some classes of information, including machine generated event data, logs, and session information
+b) A special TTL index property supports the implementation of TTL collections
+c) TTL collections make it possible to store data in MongoDB and have the mongod automatically remove data after a specified number of seconds or at a specific clock time
+d) All of the mentioned
+d
+3. If the indexed field in a document is not a _____ or an array that holds a date value(s), the document will not expire.
+a) DATE
+b) TIME
+c) DATETIME
+d) All of the mentioned
+a
+4. Point out the correct statement.
+a) TTL indexes expire documents after the specified number of seconds has passed since the indexed field value
+b) TTL indexes are special compound indexes
+c) If a document does not contain the indexed field, the document will expire
+d) None of the mentioned
+a
+5. Secondary members replicate _________ operations from the primary.
+a) Update
+b) Drop
+c) Insert
+d) None of the mentioned
+d
+6. A collection with a TTL index has __________ enabled.
+a) usePowerOf3Sizes
+b) usePowerOf2Sizes
+c) usePowerOf4Sizes
+d) none of the mentioned
+b
+7. Which field does not support TTL indexes?
+a) _identity
+b) _option
+c) _id
+d) None of the mentioned
+c
+8. You cannot use _________ to change the value of expireAfterSeconds of an existing index.
+a) createIndex()
+b) dropIndex()
+c) removeIndex()
+d) none of the mentioned
+a
+9. You cannot create a TTL index on a ________ collection.
+a) Sharded
+b) Capped
+c) Primary
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Capped Collections» Next - MongoDB Questions and Answers – Optimization Strategies – 1 

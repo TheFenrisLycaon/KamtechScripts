@@ -1,0 +1,71 @@
+1. The number of counters that are present in the programmable timer device 8254 is
+a) 1
+b) 2
+c) 3
+d) 4
+c
+2. The operation that can be performed on control word register is
+a) read operation
+b) write operation
+c) read and write operations
+d) none
+b
+3. The mode that is used to interrupt the processor by setting a suitable terminal count is
+a) mode 0
+b) mode 1
+c) mode 2
+d) mode 3
+a
+4. In mode 2, if N is loaded as the count value, then after (N-1) cycles, the output becomes low for
+a) 1 clockcycle
+b) 2 clockcycles
+c) 3 clockcycles
+d) 4 clockcycles
+a
+5. The generation of a square wave is possible in the mode
+a) mode 1
+b) mode 2
+c) mode 3
+d) mode 4
+c
+6. In control word register, if SC1=0 and SC0=1, then the counter selected is
+a) counter 0
+b) counter 1
+c) counter 2
+d) none
+b
+7. In control word format, if RL1=1, RL0=1 then the operation performed is
+a) read/load least significant byte only
+b) read/load most significant byte only
+c) read/load LSB first and then MSB
+d) read/load MSB first and then LSB
+c
+8. If BCD=0, then the operation is
+a) decimal count
+b) hexadecimal count
+c) binary count
+d) octal count
+b
+9. The counter starts counting only if
+a) GATE signal is low
+b) GATE signal is high
+c) CLK signal is low
+d) CLK signal is high
+b
+10. The control word register contents are used for
+a) initializing the operating modes
+b) selection of counters
+c) choosing binary/BCD counters
+d) all of the mentioned
+d
+i) initializing the operating modes (mode 0-mode 4)
+ii) selection of counters (counter0-counter2)
+iii) choosing binary or BCD counters
+iv) loading of the counter registers.
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Interfacing Digital to Analog Converters, Stepper Motor Interfacing and Control of High Power Devices Using 8255» Next - Microprocessors Questions and Answers – Programmable Interrupt Controller 8259A 

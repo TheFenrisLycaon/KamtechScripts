@@ -1,0 +1,93 @@
+1. The ideal low pass filter cannot be realized in practice.
+a) True
+b) False
+a
+2. The following diagram represents the unit sample response of which of the following filters?
+a) Ideal high pass filter
+b) Ideal low pass filter
+c) Ideal high pass filter at ω=π/4
+d) Ideal low pass filter at ω=π/4
+d
+From the given figure, h(0)=0.25=>ω=π/4.
+Thus the given figure represents the unit sample response of an ideal low pass filter at ω=π/4.
+3. If h(n) has finite energy and h(n)=0 for n<0, then which of the following are true?
+a) \(\int_{-π}^π|ln⁡ |H(ω)||dω \gt -\infty\) 
+b) \(\int_{-π}^π|ln⁡ |H(ω)||dω \lt \infty\) 
+c) \(\int_{-π}^π|ln⁡|H(ω)||dω = \infty\) 
+d) None of the mentioned
+b
+\(\int_{-π}^π|ln⁡ |H(ω)||dω \lt \infty\)
+4. If |H(ω)| is square integrable and if the integral \(\int_{-\pi}^\pi |ln⁡|H(ω)||dω\) is finite, then the filter with the frequency response H(ω)=|H(ω)|ejθ(ω) is?
+a) Anti-causal
+b) Constant
+c) Causal
+d) None of the mentioned
+c
+5. The magnitude function |H(ω)| can be zero at some frequencies, but it cannot be zero over any finite band of frequencies.
+a) True
+b) False
+a
+6. If h(n) is causal and h(n)=he(n)+ho(n),then what is the expression for h(n) in terms of only he(n)?
+a) h(n)=2he(n)u(n)+he(0)δ(n), n ≥ 0
+b) h(n)=2he(n)u(n)+he(0)δ(n), n ≥ 1
+c) h(n)=2he(n)u(n)-he(0)δ(n), n ≥ 1
+d) h(n)=2he(n)u(n)-he(0)δ(n), n ≥ 0
+d
+=>he(n)=1/2[h(n)+h(-n)]
+Now, if h(n) is causal, it is possible to recover h(n) from its even part he(n) for 0≤n≤∞ or from its odd component ho(n) for 1≤n≤∞.
+=>h(n)= 2he(n)u(n)-he(0)δ(n), n ≥ 0.
+7. If h(n) is causal and h(n)=he(n)+ho(n),then what is the expression for h(n) in terms of only ho(n)?
+a) h(n)=2ho(n)u(n)+h(0)δ(n), n ≥ 0
+b) h(n)=2ho(n)u(n)+h(0)δ(n), n ≥ 1
+c) h(n)=2ho(n)u(n)-h(0)δ(n), n ≥ 1
+d) h(n)=2ho(n)u(n)-h(0)δ(n), n ≥ 0
+b
+=>he(n)=1/2[h(n)+h(-n)]
+Now, if h(n) is causal, it is possible to recover h(n) from its even part he(n) for 0≤n≤∞ or from its odd component ho(n) for 1≤n≤∞.
+=>h(n)= 2ho(n)u(n)+h(0)δ(n), n ≥ 1
+since ho(n)=0 for n=0, we cannot recover h(0) from ho(n) and hence we must also know h(0).
+8. If h(n) is absolutely summable, i.e., BIBO stable, then the equation for the frequency response H(ω) is given as?
+a) HI(ω)-j HR(ω)
+b) HR(ω)-j HI(ω)
+c) HR(ω)+j HI(ω)
+d) HI(ω)+j HR(ω)
+c
+H(ω)= HR(ω)+j HI(ω)
+where HR(ω) and HI(ω) are the Fourier transforms of he(n) and ho(n) respectively.
+9. HR(ω) and HI(ω) are interdependent and cannot be specified independently when the system is causal.
+a) True
+b) False
+a
+10. What is the Fourier transform of the unit step function U(ω)?
+a) πδ(ω)-0.5-j0.5cot(ω/2)
+b) πδ(ω)-0.5+j0.5cot(ω/2)
+c) πδ(ω)+0.5+j0.5cot(ω/2)
+d) πδ(ω)+0.5-j0.5cot(ω/2)
+d
+U(ω)= πδ(ω)+0.5-j0.5cot(ω/2).
+11. The HI(ω) is uniquely determined from HR(ω) through the integral relationship. This integral is called as Continuous Hilbert transform.
+a) True
+b) False
+b
+12. The magnitude |H(ω)| cannot be constant in any finite range of frequencies and the transition from pass-band to stop-band cannot be infinitely sharp.
+a) True
+b) False
+a
+13. The frequency ωP is called as ______________
+a) Pass band ripple
+b) Stop band ripple
+c) Pass band edge ripple
+d) Stop band edge ripple
+c
+14. Which of the following represents the bandwidth of the filter?
+a) ωP+ ωS
+b) -ωP+ ωS
+c) ωP-ωS
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Round Off Effects in Digital Filters» Next - Digital Signal Processing Questions and Answers – Design of FIR Filters 

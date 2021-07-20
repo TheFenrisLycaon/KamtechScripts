@@ -1,0 +1,69 @@
+1. Cohen-Sutherland clipping is an example of _________________
+a) polygon clipping
+b) text clipping
+c) line clipping
+d) curve clipping
+c
+2. The Cohen-Sutherland algorithm divides the region into _____ number of spaces.
+a) 8
+b) 6
+c) 7
+d) 9
+d
+3. What is the name of the small integer which holds a bit for the result of every plane test?
+a) setcode
+b) outcode
+c) incode
+d) bitcode
+b
+4. An outcode can have ____ bits for two-dimensional clipping and ____ bits for three-dimensional clipping.
+a) 4,6
+b) 6,8
+c) 2,4
+d) 1,3
+a
+5. The centre region of the screen and the window can be represented as________
+a) 0000
+b) 1111
+c) 0110
+d) 1001
+a
+6. The Cohen–Sutherland algorithm can be only be used on a rectangular clip window.
+a) True
+b) False
+a
+7. If both codes are 0000, (bitwise OR of the codes yields 0000) line lies __________________ the window.
+a) completely outside
+b) half inside half outside
+c) completely inside
+d) can’t say anything
+c
+8. The 4-bit code of top-left region of the window is ____________
+a) 1001
+b) 1100
+c) 0101
+d) 1010
+a
+9. The 4-bit code of bottom-right region of the window is ____________
+a) 1001
+b) 0101
+c) 1010
+d) 0110
+d
+10. If the logical AND of the endpoint codes is NOT zero, the line can be trivially accepted.
+a) True
+b) False
+b
+11. The logical ______ of the endpoint codes determines if the line is completely inside the window.
+a) AND
+b) OR
+c) NOT
+d) NOR
+b
+ 
+Sanfoundry Global Education & Learning Series – Computer Graphics.
+To practice all areas of Computer Graphics for Experienced people, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Graphics Questions & Answers – Clipping Operations» Next - Computer Graphics Questions & Answers – Liang-Barsky Line Clipping 

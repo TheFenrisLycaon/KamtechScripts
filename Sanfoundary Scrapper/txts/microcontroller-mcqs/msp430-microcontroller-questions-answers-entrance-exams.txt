@@ -1,0 +1,66 @@
+1. The successive approximation converters have a resolution of _________
+a) 8-10 bits
+b) 10-12 bits
+c) 12-16 bits
+d) 16-32 bits
+b
+2. In SAR based conversions, each bit typically requires one clock cycle (sometimes two) to make a comparison and set up the new voltage.
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+a
+3. The main operations that are basically performed in a SAR ADC are?
+a) logic to control the operation
+b) some way of generating the voltages, for comparison
+c) logic to control the operation and finding some way of generating the voltages for comparison
+d) none of the mentioned
+c
+4. Usually, a capacitor is inserted between an analog input and the ground because
+a) it blocks the analog voltage
+b) it suppresses the noise
+c) it increases the gain
+d) none of the mentioned
+b
+5. ADC10 and ADC12 are _________
+a) The converters
+b) SAR modules available in the MSP430
+c) Sigma delta modules available in the MSP430
+d) Comparator modules available in the MSP430
+b
+6. ADC10 needs external capacitors on its voltage reference.
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+b
+7. ADC10CTL0 and ADC10CTL1 are registers
+a) for controlling SAR module
+b) for controlling the sigma delta module
+c) for controlling the comparator module
+d) all of the mentioned
+a
+8. While conversion is in progress, which of the flag is affected.
+a) ADC10ON
+b) ADC10MEM
+c) ADC10BUSY
+d) ADC10DF
+c
+9. ADC10SHTx bits allow_________cycles of the ADC10CLK.
+a) 4
+b) 8
+c) 16
+d) all of the mentioned
+d
+10. The input to the ADC10 is selected from_______bits of the ADC10CTL1 register?
+a) INCHx
+b) ADC10SC
+c) ADC10ON
+d) ENC
+a
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller for Entrance exams, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MSP430 Microcontroller Questions and Answers – Comparator» Next - MSP430 Microcontroller Questions and Answers – Sigma Delta ADC 

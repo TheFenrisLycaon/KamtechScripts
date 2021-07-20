@@ -1,0 +1,110 @@
+1. A single phase 50 hz, generator supplies an inductive load of 5 MW at a power factor of 0.8 lagging using OHTL over 20 km. The resistance and reactance are 0.39Ω and 3.96 Ω. The voltage at receiving station is maintained at 10 KV. The sending end voltage is 11.68 kV. The voltage regulation will be _______
+a) 16.8 %
+b) 18.8%
+c) 21.75%
+d) 12.8%
+a
+2. A single phase 50 hz, generator supplies an inductive load of 5 MW at a power factor of 0.8 lagging using OHTL over 20 km. The resistance and reactance are 0.39Ω and 3.96 Ω. The voltage at receiving station is maintained at 10 KV. Identify the transmission line and the voltage regulation.
+a) STL, 11.68%
+b) MTL, 11.68
+c) STL, 21.5%
+d) MTL, 14.2%
+a
+Current, I = 5000/(10*0.8)=625 A
+ Vs = |Vr|+|I|*(RcosФr + XsinФr)
+     = 10000+625(0.39*0.8+3.96*0.6)
+       = 11.68kV
+VR = (11.68-10)*100/10 = 16.8 %. 
+3. A single phase 50 hz, generator supplies an inductive load of 5 MW at a power factor of 0.8 lagging using OHTL over 20 km. The resistance and reactance are 0.39Ω and 3.96 Ω. The voltage at receiving station is maintained at 10 KV. The sending end voltage is 11.68 kV. The half the voltage regulation will be _____________
+a) 8.4 %
+b) 16.8 %
+c) 14.2%
+d) 10.5%
+a
+Half the VR = 16.8/2 % = 8.4%. 
+4. A single phase 50 hz, generator supplies an inductive load of 5 MW at a power factor of 0.8 lagging using OHTL over 20 km. The resistance and reactance are 0.39Ω and 3.96 Ω. The voltage at receiving station is maintained at 10 KV. The sending end voltage is 11.68 kV. The new sending end voltage at the half the voltage regulation is _____________
+a) 10.84 kV
+b) 11.84 kV
+c) 8.84 kV
+d) 16.2 kV
+a
+Half the VR = 16.8/2 % = 8.4%
+5. A single phase 50 hz, generator supplies an inductive load of 5 MW at a power factor of 0.8 lagging using OHTL over 20 km. The resistance and reactance are 0.39Ω and 3.96 Ω. The voltage at receiving station is maintained at 10 KV. The sending end voltage is 11.68 kV. If the voltage regulation is reduced to 50%, then the power factor at this operation mode will be _________________
+a) 0.95
+b) 0.92
+c) 0.74
+d) 0.90
+a
+VR = 16.8 %
+Half the VR = 16.8/2 %
+Half the VR = 8.4%
+(10.84-10)*1000 = |I|*( RcosФr + XsinФr )  …(1)
+I = 5000/(cosФr*10)   …(2)
+Solving above eqaution
+Фr = 18.04°
+Cos Фr = 0.9508, lagging. 
+Join [email protected]
+6. A single phase 50 hz, generator supplies an inductive load of 5 MW at a power factor of 0.8 lagging using OHTL over 20 km. The resistance and reactance are 0.39Ω and 3.96 Ω. The voltage at receiving station is maintained at 10 KV. The sending end voltage is 11.68 kV. If the voltage regulation is reduced to 50%, then the power factor angle  at this operation mode will be _____________
+a) 18.04°
+b) 8.04°
+c) 21.06°
+d) 12°
+a
+ VR  = 16.8 %
+Half the VR = 16.8/2 %
+Half the VR = 8.4%
+(10.84-10)*1000 = |I|*(RcosФr + XsinФr)  …(1)
+I = 5000/(cosФr*10)   …(2)
+Solving above equation
+Фr = 18.04°. 
+7. A single phase 50 hz, generator supplies an inductive load of 5 MW at a power factor of 0.8 lagging using OHTL over 20 km. The resistance and reactance are 0.39Ω and 3.96 Ω. The voltage at receiving station is maintained at 10 KV. The sending end voltage is 11.68 kV. If the voltage regulation is reduced to 50%, then the power factor at this operation mode will be ____________
+a) 0.95, lagging
+b) 0.92, leading
+c) 0.95, lagging
+d) 0.90, leading
+a
+VR = 16.8 %
+Half the VR = 16.8/2 %
+Half the VR  = 8.4%
+(10.84-10)*1000 = |I|*(RcosФr + XsinФr)  …(1)
+I = 5000/(cosФr*10)   …(2)
+Solving above equation
+Фr = 18.04°
+Cos Фr = 0.9508, lagging. 
+8. A single phase 50 hz, generator supplies an inductive load of 5 MW at a power factor of 0.8 lagging using OHTL over 20 km. The resistance and reactance are 0.39Ω and 3.96 Ω. The voltage at receiving station is maintained at 10 KV. The sending end voltage is 11.68 kV. If the voltage regulation is reduced to 50%, then the power factor angle  at this operation mode will be ________
+a) 18.04°, lagging
+b) 18.04°, leading
+c) 21.06°, leading
+d) 21.06°, lagging
+a
+VR  = 16.8 %
+Half the VR = 16.8/2 %
+Half the VR = 8.4%
+(10.84-10)*1000 = |I|*(RcosФr + XsinФr)  …(1)
+I = 5000/(cosФr*10)   …(2)
+Solving above equation
+Фr = 18.04°, lagging. 
+9. A single phase 50 hz, generator supplies an inductive load of 5 MW at a power factor of 0.8 lagging using OHTL over 20 km. The resistance and reactance are 0.39Ω and 3.96 Ω. The voltage at receiving station is maintained at 10 KV. The sending end voltage is 11.68 kV. If the voltage regulation is reduced to 50%, then the receiving end current at this operation mode will be _____________
+a) 526 A
+b) 549 A
+c) 521 A
+d) 580 A
+a
+VR = 16.8 %
+Half the VR = 16.8/2 %
+Half the VR = 8.4%
+(10.84-10)*1000 = |I|*(RcosФr + XsinФr)  …(1)
+I = 5000/(cosФr*10)   …(2)
+Solving above equation
+Фr = 18.04°, lagging
+I = 526 A. 
+10. Suppose the transmission line is loaded with its surge impedance, the receiving-end voltage is greater than sending end voltage.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Power Systems.
+To practice all areas of Power Systems for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Power Systems Questions and Answers – Inductance of Composite Conductor Lines – 2» Next - Power Systems Questions and Answers – Parallel Circuit Three Phase Lines 

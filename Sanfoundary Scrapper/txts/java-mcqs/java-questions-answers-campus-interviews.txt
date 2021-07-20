@@ -1,0 +1,76 @@
+1. What does Liskov substitution principle specify?
+a) parent class can be substituted by child class
+b) child class can be substituted by parent class
+c) parent class cannot be substituted by child class
+d) No classes can be replaced by each other
+a
+2. What will be the correct option of the following Java code snippet?
+interface ICust {}class RegularCustomer implements ICust {}class OneTimeCustomer implements ICust {}
+a) ICust can be replaced with RegularCustomer
+b) RegularCustomer can be replaced with OneTimeCustomer
+c) OneTimeCustomer can be replaced with RegularCustomer
+d) We can instantiate objects of ICust
+a
+3. What will be the output of the following Java code snippet?
+public class Shape {	public int area()        {		return 1;	}}public class Square extends Shape {	public int area()        {		return 2;	}}class Main() {   public static void main(String[] args)   {	Shape shape = new Shape();	Square square = new Square();	shape = square;	System.out.println(shape.area());    }}
+a) Compilation failure
+b) Runtime failure
+c) 1
+d) 2
+d
+4. What will be the output of the following Java code snippet?
+public class Shape {	public int area()        {		return 1;	}}public class Rectangle extends Shape {	public int area()        {		return 3;	}}class Main() {   public static void main(String[] args)   {	Shape shape = new Shape();	Rectangle rect = new Rectangle();	shape = rect;	System.out.println(shape.area());   }}
+a) Compilation failure
+b) 3
+c) 1
+d) 2
+b
+5. What will be the output of the following Java code?
+public class Shape {	public int area()        {		return 1;	}}public class Square extends Shape {	public int area()        {		return 2;	}}class Main() {   public static void main(String[] args)   {	Shape shape = new Shape();	Square square = new Square();	square = shape;	System.out.println(square.area());   }}
+a) Compilation failure
+b) 3
+c) 1
+d) 2
+a
+6. What will be the output of the following Java code?
+public class Shape {	public int area()        {		return 1;	}}public class Square extends Shape {	public int area()        {		return 2;	}}public class Rectangle extends Shape {	public int area()        {		return 3;	}}class Main() {   public static void main(String[] args)   {	Shape shape = new Shape();	Square square = new Square();    	Rectangle rect = new Rectangle();	rect = (Rectangle)shape;	System.out.println(square.area());   }}
+a) Compilation failure
+b) 3
+c) Runtime Exception
+d) 2
+c
+7. What will be the output of the following Java code?
+public class Shape {	public int area()        {		return 1;	}}public class Square extends Shape {	public int area()        {		return 2;	}}public class Rectangle extends Shape {	public int area()        {		return 3;	}}class Main() {      public static void main(String[] args)      {	 Shape shape = new Shape();	 Square square = new Square();   	 Rectangle rect = new Rectangle();	 rect = (Rectangle)square;	 System.out.println(square.area());      }}
+a) Compilation failure
+b) 3
+c) Runtime Exception
+d) 2
+a
+interface Shape {	public int area();}public class Square implements Shape {	public int area()        {		return 2;	}}public class Rectangle implements Shape {	public int area()        {		return 3;	}}
+8. What will be the output of the following Java code?
+public class Shape {	public int area()        {		return 1;	}}public class Square extends Shape {	public int area()        {		return 2;	}}public class Rectangle extends Shape {	public int area()        {		return 3;	}}class Main() {       public static void main(String[] args)       {	 Shape shape = new Shape();	 Square square = new Square();   	 Rectangle rect = new Rectangle();	 rect = (Rectangle)square;	 System.out.println(square.area());	}}
+a) Compilation failure
+b) 3
+c) Runtime Exception
+d) 2
+a
+9. What will be the output of the following Java code?
+public class Shape {	public int area()        {		return 1;	}}public class Square extends Shape {	public int area()        {		return 2;	}}public class Rectangle extends Shape {	public int area()        {		return 3;	}}public static void main(String[] args){	 Shape shape = new Square();   	 shape = new Rectangle();	 System.out.println(shape.area());}
+a) Compilation failure
+b) 3
+c) Runtime Exception
+d) 2
+b
+10. What will be the output of the following Java code?
+public class Shape {	public int area()        {		return 1;	}}public class Square extends Shape {	public int area()        {		return 2;	}}public class Rectangle extends Shape {	public int area()        {		return 3;	}}public static void main(String[] args){	 Shape square = new Square();   	 Shape rect = new Rectangle();     	 square = rect;	 System.out.println(square.area());}
+a) Compilation failure
+b) 3
+c) Runtime Exception
+d) 2
+b
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+To practice all areas of Java for Campus Interviews, here is complete set on 1000+ Multiple Choice Questions and Answers on Java.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Hibernate» Next - Java Questions & Answers – Coding best practices 

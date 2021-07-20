@@ -1,0 +1,72 @@
+1. Which of the following is holds true for the Chebyshev polynomial?
+a) Tm(-x) = (-1)m Tm(x)
+b) Tm(-x) = (-1)m Tm-1(1/x)
+c) Tm(x) = (-1)m Tm(1/x)
+d) Tm(-x) = (-1)m Tm-1(x)
+a
+T0(x)=1	            m=0
+T1(x)=x	            m=1
+T2(x)=2x2-1   m=2
+T3(x)=4x3-3x  m=3
+There fore Tm(-x)=(-1)m Tm (x) holds true.
+2. The recurrence relation for the Chebyshev polynomial is __________
+a) Tm(z) = 2zTm-1(z) – Tm-2(z)
+b) Tm (z) = Tm-1(z) – 2zTm-2(z)
+c) Tm(z) = 2zTm(z) – Tm-2(z)
+d) Tm(z) = 2zTm(z) – Tm-1(z)
+a
+Tm(z) = 2zTm-1(z) – Tm-2(z).
+3. The value of Tm(0) for every odd value of m is _____________
+a) 0
+b) 1
+c) -1
+d) m
+a
+T0(x) = 1	m=0
+T1(x) = x	m=1
+T2(x) = 2x2-1	m=2
+T3(x) = 4x3-3x m=3
+For m=odd; Tm(0) = 0
+For m=even; Tm(0) = (-1)m/2
+4. What is the value of Tm (0) when m is an even number?
+a) 0
+b) (-1)m
+c) -1
+d) (-1)m/2
+d
+T0(x) = 1	m=0
+T1(x) = x	m=1
+T2(x) = 2x2-1 m=2
+T3(x) = 4x3-3x m=3
+For m=even; Tm(0) = (-1)m/2
+5. The value of T0(100) is _____
+a) 1
+b) 100
+c) 10000
+d) 200
+a
+T0(x)=1	             m=0
+⇨	T0(100)=1.
+6. The value of Tm(-1)=_______
+a) (-1)m
+b) (-1)m-1
+c) (-1)m/2
+d) (-1)2m
+a
+T0(x) = 1	             m=0
+T1(x) = x	             m=1
+T2(x) = 2x2-1   m=2
+T3(x) = 4x3-3x  m=3
+ThereforeTm(-1)=(-1)m.
+7. The value of Tm(z) in the range between -1 to 1 is ____
+a) -1 to 1
+b) 1
+c) 0
+d) 0 to infinity
+a
+Sanfoundry Global Education & Learning Series – Antennas.
+To practice all areas of Antennas, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antennas Questions and Answers – Adaptive Array – Chebyshev Arrays» Next - Antennas Questions and Answers – Adaptive Array – Chebyshev Polynomials Properties 

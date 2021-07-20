@@ -1,0 +1,93 @@
+1. Which of these methods of Boolean wrapper returns boolean equivalent of an object.
+a) getBool()
+b) booleanValue()
+c) getbooleanValue()
+d) getboolValue()
+b
+2. Which of the following constant are defined in Boolean wrapper?
+a) TRUE
+b) FALSE
+c) TYPE
+d) All of the mentioned
+d
+3. Which of these methods return string equivalent of Boolean object?
+a) getString()
+b) toString()
+c) converString()
+d) getStringObject()
+b
+4. Which of these methods is used to know whether a string contains “true”?
+a) valueOf()
+b) valueOfString()
+c) getString()
+d) none of the mentioned
+a
+5. Which of these class have only one field?
+a) Character
+b) Boolean
+c) Byte
+d) void
+d
+6. What will be the output of the following Java program?
+    class Output    {        public static void main(String args[])        {            String str = "true";            boolean x = Boolean.valueOf(str);            System.out.print(x);        }    }
+a) True
+b) False
+c) Compilation Error
+d) Runtime Error
+a
+Output:
+$ javac Output.java
+$ java Output
+true
+7. What will be the output of the following Java program?
+    class Output    {        public static void main(String args[])        {            String str = "true false true";            boolean x = Boolean.valueOf(str);            System.out.print(x);        }    }
+a) True
+b) False
+c) Compilation Error
+d) Runtime Error
+b
+Output:
+$ javac Output.java
+$ java Output
+false
+8. What will be the output of the following Java program?
+    class Output    {        public static void main(String args[])        {            String str = "TRUE";            boolean x = Boolean.valueOf(str);            System.out.print(x);        }    }
+a) True
+b) False
+c) Compilation Error
+d) Runtime Error
+a
+Output:
+$ javac Output.java
+$ java Output
+true
+9. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])        {	    String str = "true false";            boolean x = Boolean.parseBoolean(str);            System.out.print(x);        }    }
+a) True
+b) False
+c) System Dependent
+d) Compilation Error
+b
+Example: Boolean.parseBoolean(“True”) returns true.
+Example: Boolean.parseBoolean(“yes”) returns false.
+Output:
+$ javac Output.java
+$ java Output
+false
+10. What will be the output of the following Java program?
+    class Output    {        public static void main(String args[])         {	   String x = Boolean.toString(false);        }    }
+a) True
+b) False
+c) System Dependent
+d) Compilation Error
+b
+Output:
+$ javac Output.java
+$ java Output
+false
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.lang – Character Wrapper Advance» Next - Java Questions & Answers – Java.lang – Miscellaneous Math Methods & StrictMath Class 

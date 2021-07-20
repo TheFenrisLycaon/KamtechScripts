@@ -1,0 +1,85 @@
+1. Which of the following is not an addressing mode of 8051?
+a) register instructions
+b) register specific instructions
+c) indexed addressing
+d) none
+d
+1. Direct addressing
+2. Indirect addressing
+3. Register instructions
+4. Register specific(Register Implicit) instructions
+5. Immediate mode
+6. Indexed addressing.
+2. The symbol, ‘addr 16’ represents the 16-bit address which is used by the instructions to specify the
+a) destination address of CALL
+b) source address of JUMP
+c) destination address of call or jump
+d) source address of call or jump
+c
+3. The storage of addresses that can be directly accessed is
+a) external data RAM
+b) internal data ROM
+c) internal data RAM and SFRS
+d) external data ROM and SFRS
+c
+4. The address register for storing the 16-bit addresses can only be
+a) stack pointer
+b) data pointer
+c) instruction register
+d) accumulator
+b
+5. The address register for storing the 8-bit addresses can be
+a) R0 of the selected bank of register
+b) R1 of the selected bank of register
+c) Stack pointer
+d) All of the mentioned
+d
+6. The instruction, ADD A, R7 is an example of
+a) register instructions
+b) register specific instructions
+c) indexed addressing
+d) none
+a
+7. The addressing mode, in which the instructions has no source and destination operands is
+a) register instructions
+b) register specific instructions
+c) direct addressing
+d) indirect addressing
+b
+8. The instruction, RLA performs
+a) rotation of address register to left
+b) rotation of accumulator to left
+c) rotation of address register to right
+d) rotation of accumulator to right
+b
+9. The instruction, ADD A, #100 performs
+a) 100(decimal) is added to contents of address register
+b) 100(decimal) is subtracted from the accumulator
+c) 100(decimal) is added to contents of an accumulator
+d) none
+c
+10. In which of these addressing modes, a constant is specified in the instruction, after the opcode byte?
+a) register instructions
+b) register specific instructions
+c) direct addressing
+d) immediate mode
+d
+11. The only memory which can be accessed using indexed addressing mode is
+a) RAM
+b) ROM
+c) Main memory
+d) Program memory
+d
+12. The data address of look-up table is found by adding the contents of
+a) accumulator with that of program counter
+b) accumulator with that of program counter or data pointer
+c) data register with that of program counter or accumulator
+d) data register with that of program counter or data pointer
+b
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Interrupt and Stack of 8051 – 2» Next - Microprocessors Questions and Answers – 8051 Instruction Set -1 

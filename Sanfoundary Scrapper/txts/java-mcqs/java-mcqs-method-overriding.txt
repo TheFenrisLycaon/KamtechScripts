@@ -1,0 +1,79 @@
+1. Which of this keyword can be used in a subclass to call the constructor of superclass?
+a) super
+b) this
+c) extent
+d) extends
+a
+2. What is the process of defining a method in a subclass having same name & type signature as a method in its superclass?
+a) Method overloading
+b) Method overriding
+c) Method hiding
+d) None of the mentioned
+b
+3. Which of these keywords can be used to prevent Method overriding?
+a) static
+b) constant
+c) protected
+d) final
+d
+4. Which of these is correct way of calling a constructor having no parameters, of superclass A by subclass B?
+a) super(void);
+b) superclass.();
+c) super.A();
+d) super();
+d
+5. At line number 2 in the following code, choose 3 valid data-type attributes/qualifiers among “final, static, native, public, private, abstract, protected”
+public interface Status   {        /* insert qualifier here */ int MY_VALUE = 10;   }
+a) final, native, private
+b) final, static, protected
+c) final, private, abstract
+d) final, static, public
+d
+6. Which of these is supported by method overriding in Java?
+a) Abstraction
+b) Encapsulation
+c) Polymorphism
+d) None of the mentioned
+c
+7. What will be the output of the following Java program?
+ class Alligator  {  public static void main(String[] args)    {   int []x[] = {{1,2}, {3,4,5}, {6,7,8,9}};   int [][]y = x;   System.out.println(y[2][1]);   } }
+a) 2
+b) 3
+c) 7
+d) Compilation Error
+c
+8. What will be the output of the following Java program?
+   final class A     {         int i;    }        class B extends A     {        int j;        System.out.println(j + " " + i);      }        class inheritance     {        public static void main(String args[])        {            B obj = new B();            obj.display();             }   }
+a) 2 2
+b) 3 3
+c) Runtime Error
+d) Compilation Error
+d
+output:
+$ javac inheritance.java
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	i cannot be resolved or is not a field
+9. What will be the output of the following Java program?
+  class Abc  {      public static void main(String[]args)      {          String[] elements = { "for", "tea", "too" };          String first = (elements.length > 0) ? elements[0]: null;      }  }
+a) Compilation error
+b) An exception is thrown at run time
+c) The variable first is set to null
+d) The variable first is set to elements[0] 
+d
+10. What will be the output of the following Java program?
+    class A     {        int i;        public void display()         {            System.out.println(i);        }        }        class B extends A    {        int j;        public void display()         {            System.out.println(j);        }     }        class Dynamic_dispatch    {        public static void main(String args[])        {            B obj2 = new B();            obj2.i = 1;            obj2.j = 2;            A r;            r = obj2;            r.display();             }   }
+a) 1
+b) 2
+c) 3
+d) 4
+b
+output:
+$ javac Dynamic_dispatch.java
+$ java Dynamic_dispatch 
+2
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Recursion» Next - Java Questions & Answers – The Object Class 

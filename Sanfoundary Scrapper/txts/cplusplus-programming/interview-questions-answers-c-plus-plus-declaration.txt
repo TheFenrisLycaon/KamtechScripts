@@ -1,0 +1,96 @@
+This section on C++ interview questions and answers focuses on “Declaration”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Declaration” along with answers, explanations and/or solutions:
+1. Choose the correct option.
+    extern int i;
+    int i;
+a) both 1 and 2 declare i
+b) 1 declares the variable i and 2 defines i
+c) 1 declares and defines i, 2 declares i
+d) 1 declares i,2 declares and defines i
+d
+2. Pick the right option.
+Statement 1: A definition is also a declaration.
+Statement 2: An identifier can be declared just once.
+a) Statement 1 is true, Statement 2 is false
+b) Statement 2 is true, Statement 1 is false
+c) Both are false
+d) Both are true
+b
+3. Which of the given statements are false?
+
+i. extern int func;
+ii. extern int func2(int,int);
+iii. int func2(int,int);
+iv. extern class foo;
+a) iii and iv only
+b) ii and iii only
+c) only iv
+d) ii, iii and iv
+c
+4. Pick the right option.
+Statement 1: Global values are not initialized by the stream.
+Statement 2: Local values are implicitly initialised to 0.
+a) Statement 1 is true, Statement 2 is false
+b) Statement 2 is true, Statement 1 is false
+c) Both are false
+d) Both are true
+c
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int g = 100;    int main()    {        int a;        {            int b;            b = 20;            a = 35;            g = 65;           cout << b << a << g;        }        a = 50;        cout << a << g;        return 0;    }
+a) 2035655065
+b) 2035655035
+c) 2035635065
+d) 2035645065
+a
+Output:
+$ g++ dec1.cpp
+$ a.out
+2035655065 
+6. Can two functions declare variables(non static) with the same name?
+a) No
+b) Yes
+c) Yes, but not a very efficient way to write programs
+d) No, it gives a runtime error
+c
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void addprint()    {        static int s = 1;        s++;        cout << s;    }    int main()    {        addprint();        addprint();        addprint();        return 0;    }
+a) 234
+b) 111
+c) 123
+d) 235
+a
+Output:
+$ g++ dec2.cpp
+$ a.out
+234
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int a = 10;        if (a < 10)         {            for (i = 0; i < 10; i++)               cout << i;        }        else         {            cout << i;        }        return 0;    }
+a) 0123456789
+b) 123456789
+c) 0
+d) error
+d
+9. Identify the incorrect statements.
+    int var = 10;
+    int *ptr = &(var + 1); //statement 1
+    int *ptr2 = &var; //statement 2
+    &&var = 40; //statement 3
+a) Statement 1 and 2 are wrong
+b) Statement 2 and 3 are wrong
+c) Statement 1 and 3 are wrong
+d) Statement 1, 2 and 3 are wrong
+c
+10. Identify the type of variables.
+    typedef char* CHAR;
+    CHAR p,q;
+a) char*
+b) char
+c) CHAR
+d) unknown
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Enumerations» Next - C++ Programming Questions and Answers –  Pointers 

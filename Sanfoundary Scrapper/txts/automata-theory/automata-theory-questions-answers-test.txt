@@ -1,0 +1,91 @@
+1. According to the given transitions, which among the following are the epsilon closures of q1 for the given NFA?
+Δ (q1, ε) = {q2, q3, q4}
+Δ (q4, 1) =q1
+Δ (q1, ε) =q1
+a) q4
+b) q2
+c) q1
+d) q1, q2, q3, q4
+d
+2. State true or false?
+Statement: An NFA can be modified to allow transition without input alphabets, along with one or more transitions on input symbols.
+a) True
+b) False
+a
+3. State true or false?
+Statement: ε (Input) does not appears on Input tape.
+a) True
+b) False
+Answer: a
+4. Statement 1: ε- transition can be called as hidden non-determinism.
+Statement 2: δ (q, ε) = p means from q it can jump to p with a shift in read head.
+Which among the following options is correct?
+a) Statement 1 and 2, both are correct
+b) Statement 1 and 2, both are wrong
+c) Statement 1 is correct while Statement 2 is wrong
+d) Statement 1 is wrong while Statement 2 is correct
+c
+5. ε- closure of q1 in the given transition graph:
+a) {q1}
+b) {q0, q2}
+c) {q1, q2}
+d) {q0, q1, q2}
+c
+6. Predict the total number of final states after removing the ε-moves from the given NFA?
+a) 1
+b) 2
+c) 3
+d) 0
+c
+7. For NFA with ε-moves, which among the following is correct?
+a) Δ: Q X (∑ U {ε}) -> P(Q)
+b) Δ: Q X (∑) -> P(Q)
+c) Δ: Q X (∑*) -> P(Q)
+d) All of the mentioned
+a
+8. Which among the following is false?
+ε-closure of a subset S of Q is:
+a) Every element of S ϵ Q
+b) For any q ϵ ε(S), every element of δ (q, ε) is in ε(S)
+c) No other element is in ε(S)
+d) None of the mentioned
+d
+a) Every element of S ϵ Q
+b) For any q ϵ ε(S), every element of δ (q, ε) is in ε(S)
+c) No other element is in ε(S)
+9. The automaton which allows transformation to a new state without consuming any input symbols:
+a) NFA
+b) DFA
+c) NFA-l
+d) All of the mentioned
+c
+10. e-transitions are
+a) conditional
+b) unconditional
+c) input dependent
+d) none of the mentioned
+b
+11. The __________ of a set of states, P, of an NFA is defined as the set of states reachable from any state in P following e-transitions.
+a) e-closure
+b) e-pack
+c) Q in the tuple
+d) None of the mentioned
+a
+12. The e-NFA  recognizable languages are not closed under :
+a) Union
+b) Negation
+c) Kleene Closure
+d) None of the mentioned
+d
+a) Union
+b) Intersection
+c) Concatenation
+d) Negation
+e) Star
+f) Kleene closure
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice  all areas of Automata Theory for tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Applications of DFA» Next - Automata Theory Questions and Answers –  Uses of Epsilon-Transitions 

@@ -1,0 +1,73 @@
+1. All the regular languages can have one or more of the following descriptions:
+i) DFA ii) NFA iii) e-NFA iv) Regular Expressions
+Which of the following are correct?
+a) i, ii, iv
+b) i, ii, iii
+c) i, iv
+d) i, ii, iii, iv
+d
+2. Which of the technique can be used to prove that a language is non regular?
+a) Ardens theorem
+b) Pumping Lemma
+c) Ogden’s Lemma
+d) None of the mentioned
+b
+3. Which of the following language regular?
+a) {aibi|i>=0}
+b) {aibi|0<i<5}
+c) {aibi|i>=1}
+d) None of the mentioned
+b
+4. Which of the following are non regular?
+a) The set of strings in {a,b}* with an even number of b’s
+b) The set of strings in {a, b, c}* where there is no c anywhere to the left of a
+c) The set of strings in {0, 1}* that encode, in binary, an integer w that is a multiple of 3. Interpret the empty strings e as the number 0.
+d) None of the mentioned
+d
+Join Sanfoundry@YouTube
+5. If L is DFA-regular, L’ is
+a) Non regular
+b) DFA-regular
+c) Non-finite
+d) None of the mentioned
+b
+6. Which of the following options is incorrect?
+a) A language L is regular if and only if ~L has finite number of equivalent classes.
+b) Let L be a regular language. If ~L has k equivalent classes, then any DFA that recognizes L must have atmost k states.
+c) A language L is NFA-regular if and only if it is DFA-regular.
+d) None of the mentioned
+b
+7. Myphill Nerode  does the following:
+a) Minimization of DFA
+b) Tells us exactly when a language is regular
+c) Both (a) and (b)
+d) None of the mentioned
+c
+8. Which of the following are related to tree automaton?
+a) Myphill Nerode Theorem
+b) State machine
+c) Courcelle’s Theorem
+d) All of the mentioned
+d
+9. Given languages:
+i) {anbn|n>=0}
+ii) <div>n</div>n
+iii) {w∈{a,b}∗| #a(w)=#b(w)}, # represents occurrences
+Which of the following is/are non regular?
+a) i, iii
+b) i
+c) iii
+d) i, ii, iii
+d
+10. Finite state machine are not able to recognize Palindromes because:
+a) Finite automata cannot deterministically find the midpoint
+b) Finite automata cannot remember arbitarily large amount of data
+c) Even if the mid point is known, it cannot find whether the second half matches the first
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice  all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Finding Patterns in Text,Algebric Laws and Derivatives» Next - Automata Theory Questions and Answers –  Pumping Lemma for Regular Language 

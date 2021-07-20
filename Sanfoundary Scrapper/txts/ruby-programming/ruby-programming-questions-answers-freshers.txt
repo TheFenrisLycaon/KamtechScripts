@@ -1,0 +1,148 @@
+1. Which of the following is valid conditional statement in Ruby?
+a) elseif
+b) elsif
+c) else if
+d) elseiff
+b
+2. The elsif conditional statement is written with an expression.
+a) True
+b) False
+a
+3. The elsif statement can add many alternatives to if/else statements.
+a) True
+b) False
+a
+4. What is the output of the given code?
+counter=6
+   if counter<=5
+   puts (counter)
+   counter=counter+1
+   puts (counter)
+   elsif counter>5
+   puts (counter)
+   counter=2*counter
+   puts(counter)
+   else 
+   puts(counter)
+   counter=counter-1
+   puts(counter)
+   end
+a) 5
+   10
+b) 6
+   12
+c) Syntax error
+d) None of the mentioned
+b
+Output:
+6
+12
+5. What is output of the given code?
+counter=-3
+   if counter<=5
+   puts (counter)
+   counter=counter+1
+   puts (counter)
+   elsif counter>5
+   puts (counter)
+   counter=2*counter
+   puts(counter)
+   end
+a) -3
+   -2
+b) -3
+   -6
+c) Syntax error
+d) None of the mentioned
+a
+Output:
+-3
+-2
+6. What is the output of the given code?
+ if !true
+   print "False"
+   elsif !true || true
+   print "True"
+   end
+a) True
+b) False
+c) Syntax eroor
+d) None of the mentioned
+a
+Output:
+True
+7. What is the output of the given code?
+variable = false
+   if variable
+   print "false"
+   elsif !variable
+   print "true" 
+   end
+a) False
+b) True
+c) Syntax error
+d) None of the mentioned
+b
+Output:
+True
+8. What is the output of the given code?
+x=7
+   y=9
+   if x==y
+   print "equal"
+   elsif x>y
+   print "greater" 
+   else
+   print "less"
+   end
+a) equal
+b) greater
+c) less
+d) none of the mentioned
+c
+Output:
+less
+9. What is the output of the given code?
+a=true
+   b=false
+   if a && b
+   puts "False"
+   elsif a || b
+   puts "True"
+   else
+   puts "neither true nor false"
+   end
+a) false
+b) true
+c) neither true nor false
+d) none of the mentioned
+b
+Explantion: True or false will always evaluate to true, hence the elsif block is executed.
+Output:
+True
+10. What is the output of the given code?
+a=10
+    b=2
+    if a>b
+    a=a*b
+    puts (a)
+    elsif a<b
+    a=a*a+b
+    puts (a)
+    else
+    a=a-b
+    puts (a)
+    end
+a) 20
+b) 102
+c) -98
+d) None of the mentioned
+a
+Output:
+20
+Sanfoundry Global Education & Learning Series – Ruby Programming.
+To practice all areas of Ruby Programming for Freshers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ruby Programming Questions and Answers – The Else Conditional Statement» Next - Ruby Programming Questions and Answers – The Unless Conditional Statement 

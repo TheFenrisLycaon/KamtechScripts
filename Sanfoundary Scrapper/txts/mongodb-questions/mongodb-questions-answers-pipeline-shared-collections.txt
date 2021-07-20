@@ -1,0 +1,67 @@
+1. Which of the following returns a substring of a string?
+a) $subs
+b) $substring
+c) $substr
+d) None of the mentioned
+c
+2. Point out the correct statement.
+a) $substr ends at a specified index position up to a specified length
+b) $toLower converts a string to lowercase
+c) $gtle returns true if the first value is greater than or equal to the second
+d) All of the mentioned
+b
+3. Which of the following accepts a single argument expression?
+a) $toLow
+b) $toUpper
+c) $toEqual
+d) None of the mentioned
+b
+4. Which of the following performs case-insensitive string comparison?
+a) $strcasecmpequals
+b) $strcasecmp
+c) $strcmp
+d) None of the mentioned
+a
+5. Point out the wrong statement.
+a) { $meta: “textScore” } expression is only meaningful in a pipeline that includes a $match stage with a $text query
+b) The { $meta: “textScore” } expression is the only expression that the $sort stage accepts
+c) $toLower only has a well-defined behavior for strings of ASCII characters
+d) None of the mentioned
+d
+6. _______ is used for access text search metadata.
+a) $text
+b) $metades
+c) $meta
+d) All of the mentioned
+c
+7. Which of the following accepts named parameters?
+a) $reduce
+b) $letnum
+c) $let
+d) None of the mentioned
+d
+8. _______ returns the number of elements in the array.
+a) $number
+b) $size
+c) $div
+d) None of the mentioned
+b
+9. _________ returns a value without parsing.
+a) $string
+b) $literal
+c) $characters
+d) None of the mentioned
+b
+10. db.collection.aggregate() returns a _______ and can return result sets of any size.
+a) replica
+b) cursor
+c) document
+d) $subtract
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Pipeline Limits» Next - MongoDB Questions and Answers – Map-Reduce and Sharded Collections 

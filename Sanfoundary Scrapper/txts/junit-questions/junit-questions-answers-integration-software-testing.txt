@@ -1,0 +1,66 @@
+1 Which Hamcrest core matcher checks if a number is equal to a number of some acceptable error?
+a) closeTo
+b) equals
+c) errorBy
+d) similarTo
+a
+2. assertThat(1.03, is(closeTo(1.0, 0.03))) is ____________
+a) True
+b) False
+c) Null
+d) Error
+a
+3. assertThat(0.03, is(closeTo(1.0, 0.03))) is ___________
+a) True
+b) False
+c) Null
+d) Error
+b
+4. The closeTo function is found under which package?
+a) org.hamcrest.TypeSafeMatcher
+b) org.hamcrest.BaseMatcher
+c) org.hamcrest.number.IsCloseTo
+d) org.hamcrest.number.CloseTo
+c
+5. The isCloseTo class extends which base class?
+a) Matcher
+b) HamcrestCore
+c) TypeMatcher
+d) TypeSafeMatcher
+5
+6. The ___________ method of the TypeSafeMatcher class is made final.
+a) matches
+b) matchesSafely
+c) describeMismatchSafely
+d) No mehtod
+a
+7. The TypeSafeMatcher implements the __________ interface.
+a) Self
+b) Describing
+c) EqulityCheck
+d) SelfDescribing
+d
+8. The ____________ matcher checks if a given key is in a map.
+a) hasEntry
+b) hasValue
+c) hasKey
+d) isKey
+c
+9. To write custom matcher _____________ has to be implemented.
+a) Matcher Interface
+b) Hamcrest Interface
+c) HamcrestMatching Interface
+d) Not possible to implement
+b
+10. ___________ is the base class for all Matcher implementations.
+a) MatcherBase
+b) Base
+c) Matcher
+d) BaseMatcher
+d
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Need for Unit Tests» Next - JUnit Questions and Answers – Functional Software Testing 

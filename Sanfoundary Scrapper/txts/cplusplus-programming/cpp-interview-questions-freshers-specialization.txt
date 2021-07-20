@@ -1,0 +1,101 @@
+This section on C++ interview questions and answers focuses on “Specialization “. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Specialization ” along with answers, explanations and/or solutions:
+1. What is meant by template specialization?
+a) It will have certain data types to be fixed
+b) It will make certain data types to be dynamic
+c) Certain data types are invalid
+d) It will make all data types to be dynamic
+a
+2. Which is similar to template specialization?
+a) template
+b) function overloading
+c) function template overloading
+d) overloading
+c
+3. Which is called on allocating the memory for the array of objects?
+a) destructor
+b) constructor
+c) method
+d) class
+b
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    template <class T>    inline T square(T x)    {        T result;        result = x * x;        return result;    };    template <>    string square<string>(string ss)    {        return (ss+ss);    };    int main()    {        int i = 2, ii;        string ww("A");        ii = square<int>(i);        cout << i << ": " << ii;        cout << square<string>(ww) << ":" << endl;    }
+a) 2: 4AA:
+b) 2:4
+c) AA
+d) 2:4A
+a
+Output:
+$ g++ spec.cpp
+$ a.out
+2: 4AA:
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    template <typename T = float, int count = 3>    T multIt(T x)    {        for(int ii = 0; ii < count; ii++)        {            x = x * x;        }        return x;    };    int main()    {        float xx = 2.1;        cout << xx << ": " << multIt<>(xx) << endl;    }
+a) 2.1
+b) 378.228
+c) 2.1: 378.228
+d) 376
+c
+Output:
+$ g++ -std=c++0x spec1.cpp
+$ a.out
+2.1: 378.228
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    template <class T>    class XYZ    {        public:        void putPri();        static T ipub;        private:        static T ipri;     };    template <class T>    void XYZ<T>::putPri()    {        cout << ipri++ << endl;    }    template <class T> T XYZ<T>::ipub = 1;    template <class T> T XYZ<T>::ipri = 1.2;    int main()    {        XYZ<int> a;        XYZ<float> b;        a.putPri();        cout << a.ipub << endl;        b.putPri();    }
+a) 1
+b) 1.2
+c) 
+   1
+   1.2
+d) 
+   1
+   1
+   1.2
+d
+Output:
+$ g++ spec2.cpp
+$ a.out
+1
+1
+1.2
+  
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    #include <cstring>    using namespace std;    template <class type>    type MyMax(const type Var1, const type Var2)    {        cout << "no specialization";        return Var1 < Var2 ? Var2 : Var1;    }    template <>    const char *MyMax(const char *Var1, const char *Var2)    {        return (strcmp(Var1, Var2)<0) ? Var2 : Var1;    }    int main()    {        string Str1 = "class", Str2 = "template";        const char *Var3 = "class";        const char *Var4 = "template";        const char *q = MyMax(Var3, Var4);        cout << q << endl;        return 0;    }
+a) template
+b) class
+c) no specialization
+d) templateclass
+a
+Output:
+$ g++ spec3.cpp
+$ a.out
+template
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    template<class T = float, int i = 5> class A    {        public:        A();        int value;    };    template<> class A<>     {         public: A();     };    template<> class A<double, 10>    {         public: A();     };    template<class T, int i> A<T, i>::A() : value(i)    {        cout << value;    }    A<>::A()     {        cout << "default";    }    A<double, 10>::A()     {        cout << "10" << endl;    }    int main()     {        A<int, 6> x;        A<> y;        A<double, 10> z;    }
+a) 6
+b) 10
+c) 6default10
+d) 6default
+c
+Output:
+$ g++ spec5.cpp
+$ a.out
+6default10
+9. How many types of specialization are there in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+10. What is another name of full specialization?
+a) explicit specialization
+b) implicit specialization
+c) function overloading template
+d) overloading template
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Template Arguments to Specify Policy Usage» Next - C++ Programming Questions and Answers – Derivation and Templates 

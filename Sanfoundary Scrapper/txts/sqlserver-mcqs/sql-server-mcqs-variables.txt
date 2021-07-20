@@ -1,0 +1,78 @@
+1. Variables was added newly to SQL Server version _____________
+a) 2005
+b) 2008
+c) 2012
+d) 2014
+b
+2. Point out the wrong statement.
+a) All the global variables represent information specific to the server or a current user session
+b) SQL Server provides only three global variables
+c) Global variables represent a special type of variable
+d) None of the mentioned
+b
+3. Which of the following keyword is not associated with initialization of variable?
+a) DECLARE
+b) SET
+c) SELECT
+d) All of the mentioned
+d
+4. Which of the following is a global variable?
+a) @@CPU_BUSY
+b) @@CPU_IO
+c) @@CPU
+d) @@I_BUSY
+a
+5. Point out the right statement.
+a) The server always maintain the values of local variable
+b) Local variable names begin with a @@ prefix
+c) T-SQL restricts the use of variables in ways that aren’t common in other development environments
+d) None of the mentioned
+c
+6. Which of the following global has return type ‘numeric’?
+a) @@ERROR
+b) @@MAX_CONNECTIONS
+c) @@CPU_BUSY
+d) @@IDENTITY
+d
+7. Value of the @techonthenet variable can be changed using the SET statement, as follows __________
+DECLARE @techonthenet VARCHAR(50);
+a) SET @techonthenet = ‘Example showing how to declare variable’;
+b) SELECT @techonthenet = ‘Example showing how to declare variable’;
+c) SET @techonthenet == ‘Example showing how to declare variable’;
+d) None of the mentioned
+a
+8. _________ gives amount of time, in ticks, that SQL Server has been idle since it was last started.
+a) @@ERROR
+b) @@IDLE
+c) @@LANGID
+d) @@LANGUAGE
+b
+9. What will be the output of the following code?
+SELECT @@IO_BUSY*@@TIMETICKS AS 'IO microseconds', 
+   GETDATE() AS 'as of'
+a)
+ IO microseconds AS OF 
+--------------- -----------------------
+590       2009-08-19 22:09:44.013
+b)
+IO microseconds AS OF
+--------------- -----------------------
+5906250         2009-08-19 22:09:44.013
+c)
+ IO microseconds AS OF
+--------------- -----------------------
+59250         2009-08-19 22:09:44.013
+d) None of the mentioned
+b
+10. @@LANGUAGE variable whose return type nvarchar is specified in _____________
+a) sys.name
+b) syslang.name
+c) syslanguages.name
+d) syslanguages.id
+c
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Procedural Flow» Next - SQL Server Questions and Answers – Cursor 

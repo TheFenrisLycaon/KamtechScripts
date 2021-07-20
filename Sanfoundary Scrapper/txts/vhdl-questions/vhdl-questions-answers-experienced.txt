@@ -1,0 +1,86 @@
+1. In which part of the VHDL code, components must be declared?
+a) Library
+b) Entity
+c) Architecture
+d) Configuration
+c
+2. Which of the following function is used to map the component?
+a) COMPONENT INSTANTIATE
+b) PORT MAP
+c) GENERIC MAP
+d) USE
+b
+3. How many ways are there in VHDL to map the components?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+4. What is the property of Positional mapping?
+a) Easier to write
+b) Less error prone
+c) Ports can be left unconnected
+d) Difficult to write
+a
+5. __________ mapping is less error prone.
+a) Port
+b) Positional
+c) Nominal
+d) Generic
+c
+6. A component has 3 ports- two inputs(a and b) and one output(y). Which of the following statement is for the positional mapping of the component?
+a) LABEL : my_component PORT MAP (l, m, n);
+b) LABEL : my_component PORT MAP (y, a);
+c) LABEL : my_component PORT MAP (l => a, m => b, n => y);
+d) LABEL : my_component PORT MAP(a, b, y>= a);
+a
+7. The ports of a component can be left unconnected.
+a) True
+b) False
+a
+8. Which of the following is the right way to leave a port unconnected?
+a) L1 : my_component PORT MAP(a); a <= OPEN;
+b) L1 : my_component PORT MAP(a := OPEN);
+c) L1: my_component PORT MAP(a => OPEN);
+d) L1 : my_component PORT MAP(a); a := OPEN;
+c
+9. It is not necessary that the order of the arguments in PORT MAP is taken as the order in which ports are declared.
+a) True
+b) False
+b
+COMPONENT my_component IS
+PORT (
+a, b, c : IN BIT;
+x, y : OUT BIT);
+END COMPONENT;
+U1: my_component PORT MAP(p, q, r, s, t);
+Here, in the component instantiation statement p, q, r, s and t will corresponds to a, b, c, x and y respectively because of the order used at the time of declaration is inherited in the component instantiation statement. 
+10. How to declare a 2 input OR gate in the structural modeling?
+a)
+    COMPONENT or IS
+     PORT ( a, b : IN BIT;
+                  x, y : OUT BIT);
+    END COMPONENT;
+b)
+     COMPONENT or IS
+     PORT ( a, b : IN BIT;
+                  y : OUT BIT);
+    END COMPONENT;
+c)
+    COMPONENT or_gate IS
+     PORT ( a, b : IN BIT;
+                  x,  y : OUT BIT);
+    END COMPONENT;
+d)
+    COMPONENT or_gate IS
+     PORT ( a, b : IN BIT;
+                  y : OUT BIT);
+    END COMPONENT;
+d
+  
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL for Experienced people, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Structural Modelling – 1» Next - VHDL Questions and Answers – Structural Modeling – 3 

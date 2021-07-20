@@ -1,0 +1,70 @@
+1. Which of the following header declares mathematical functions and macros?
+a) math.h
+b) assert.h
+c) stdmat. h
+d) stdio. h
+a
+2. All the functions in this library take as a parameter and return as the output.
+a) double, int
+b) double, double
+c) int, double
+d) int, int
+b
+3. HUGE_VAL macro is used when the output of the function may not be ___________
+a) floating point numbers
+b) integer number
+c) short int
+d) long int
+a
+4. What error occurs if an input argument is outside the domain over which the mathematical function is deﬁned?
+a) domain error
+b) range error
+c) no error
+d) domain and range error
+a
+5. A range error occurs if the result of the function cannot be represented as a value.
+a) int
+b) short int
+c) double
+d) float
+c
+6. If the result overflows, the function returns the value of the macro HUGE_VAL, carrying the same sign except for the _________ function as the correct value of the function.
+a) sin
+b) cos
+c) cosec
+d) tan
+d
+7. If the result underflow, the function returns zero.
+a) true
+b) false
+a
+8. For the given math function, an error occurs if the arguments are not in the range [-1, +1].
+double acos(double x);
+a) range error
+b) domain error
+c) no error
+d) domain and range error
+b
+9. Which function returns the arc sine in the range [-pi/2, +pi/2] radians?
+a) arcsin()
+b) asin()
+c) sin()
+d) asine()
+b
+10. What will be the output of the following C code?
+double x, deg, rad;
+x = 1.0;
+val = 180.0 / 3.14;
+deg = atan (x) * val;
+printf("The arc tangent of %lf is %lf degrees", x, deg);
+a) The arc tangent of 1.000000 is 45.000000 degrees
+b) The arc tangent of 1.000 is 45.000degrees
+c) The arc tangent of 1 is 45 degrees
+d) The arc tangent of 1.0000is 45.0000degrees
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Error Handling» Next - C Questions and Answers – Mathematical functions – 2 

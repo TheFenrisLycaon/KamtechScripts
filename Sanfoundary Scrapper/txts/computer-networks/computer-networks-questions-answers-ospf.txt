@@ -1,0 +1,69 @@
+1. Open Shortest Path First (OSPF) is also called as _____________
+a) Link state protocol
+b) Error-correction protocol
+c) Routing information protocol
+d) Border gateway protocol
+a
+2. The computation of the shortest path in OSPF is usually done by ____________
+a) Bellman-ford algorithm
+b) Routing information protocol
+c) Dijkstra’s algorithm
+d) Distance vector routing
+c
+3. Which of the following is false with respect to the features of OSPF?
+a) Support for fixed-length subnetting by including the subnet mask in the routing message
+b) More flexible link cost than can range from 1 to 65535
+c) Use of designated router
+d) Distribution of traffic over multiple paths that have equal cost to the destination
+a
+4. In OSPF, which protocol is used to discover neighbour routers automatically?
+a) Link state protocol
+b) Error-correction protocol
+c) Routing information protocol
+d) Hello protocol
+d
+5. Which of the following is not a type of OSPF packet?
+a) Hello
+b) Link-state request
+c) Link-state response
+d) Link-state ACK
+c
+6. What is the correct order of the operations of OSPF?
+i – Hello packets
+ii – Propagation of link-state information and building of routing tables
+iii – Establishing adjacencies and synchronization of database
+a) i-ii-iii
+b) i-iii-ii
+c) iii-ii-i
+d) ii-i-iii
+b
+7. In OSPF header, which field is used to detect errors in the packet?
+a) Type
+b) Area ID
+c) Authentication type
+d) Checksum
+d
+8. In OSPF database descriptor packet, if there are more database descriptor packets in the flow, ‘M’ field is set to ____________
+a) 1
+b) 0
+c) more
+d) -1
+a
+9. In OSPF database descriptor packet, which field is used to indicate that the router is master?
+a) M
+b) MS
+c) I
+d) Options
+b
+10. In OSPF database descriptor packet, which field is used to detect a missing packet?
+a) LSA header
+b) MS
+c) Database descriptor sequence number
+d) Options
+c
+Sanfoundry Global Education & Learning Series – Computer Networks.
+To practice all areas of Computer Networks, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Networks Questions & Answers – Security In The Internet» Next - Computer Networks Questions & Answers – OSPF Configuration 

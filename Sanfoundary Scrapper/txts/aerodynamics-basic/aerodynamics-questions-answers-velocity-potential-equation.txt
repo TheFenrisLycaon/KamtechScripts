@@ -1,0 +1,63 @@
+1. For an irrotational flow having velocity potential ϕ = 2x + 3z2 – 4y2 + 8x2, the flow field satisfies continuity equation.
+a) True
+b) False
+b
+The velocity components u and v are calculated as follows:
+u = –\(\frac {∂ϕ}{∂x} = -\frac {∂}{∂x}\)(2x + 3y – 4y2 + 8x2) = -2 – 16x
+v = –\(\frac {∂ϕ}{∂y} = -\frac {∂}{∂y}\)(2x + 3y – 4y2 + 8x2) = -3 + 8y
+The continuity equation is given by:
+\(\frac {∂u}{∂x} + \frac {∂v}{∂y}\) = 0
+Substituting the values of u and v,
+\(\frac {∂}{∂x}\)(-2 – 16x) + \(\frac {∂}{∂y}\)(-3 + 8y) = -16 + 8 = -8
+Since this is not equal to zero, hence continuity equation is not satisfied.
+2. For an irrotational flow, what is the relation for the velocity potential?
+a) V = ∇ × ϕ
+b) V = ∇ϕ
+c) V = -∇ × V
+d) V = (∇ × V)ϕ
+b
+∇ × (∇ϕ) = 0
+Thus, the velocity potential is describing as the scalar function ∇ϕ.
+3. Which of these equations is satisfied by the velocity potential equation?
+a) Laplace equation
+b) Fano’s equation
+c) Bernoulli’s equation
+d) Rayleigh equation
+a
+u = –\(\frac {∂ϕ}{∂x}\), v = –\(\frac {∂ϕ}{∂y}\), w = –\(\frac {∂ϕ}{∂z}\) 
+The continuity equation for three – dimensional flow is given by:
+\(\frac {∂u}{∂x} + \frac {∂v}{∂y} + \frac {∂w}{∂z}\) = 0
+Substituting the velocity components in the continuity equation, we get
+\(\frac {∂}{∂x} \big ( – \frac {∂ϕ}{∂x} \big ) + \frac {∂}{∂y} \big ( – \frac {∂ϕ}{∂x} \big ) + \frac {∂}{∂z} \big ( – \frac {∂ϕ}{∂x} \big )\) = 0
+\(\frac {∂^2 ϕ}{∂x} + \frac {∂^2 ϕ}{∂y} + \frac {∂^2 ϕ}{∂z}\) = 0
+The above final equation is known as Laplace equation, thus velocity potential satisfies the Laplace equation.
+4. If the velocity potential is given by ϕ = +2x2 – 4xy2 + \( \frac {8x^2}{y}\), then what is the value of velocity component in x – direction at point (2,1)?
+a) 30 m/s
+b) 15 m/s
+c) 36 m/s
+d) 24 m/s
+c
+Velocity component in x – direction is given by u = –\( \frac {∂ϕ}{∂x}\) 
+u = –\( \frac {∂}{∂x} \big ( \)2x2 – 4xy2 + \( \frac {8x^2}{y} \big ) \) = 4x – 4y2 + \( \frac {16x}{y}\) 
+For calculating the velocity component at point (2,1), we substitute these points in the above equation
+u = 4(2) – 4(1)2 + \( \frac {16(2)}{(1)}\) = 8 – 4 + 32 = 36 m/s
+5. What is the nature of the flow having a velocity potential?
+a) Rotational
+b) Irrotational
+c) Inviscid
+d) Viscous
+b
+6. If the Laplace equation is satisfied by the velocity potential, then the fluid flows.
+a) True
+b) False
+a
+Thus, the condition for the fluid to flow is:
+\(\frac {∂^2 ϕ}{∂x} + \frac {∂^2 ϕ}{∂y} + \frac {∂^2 ϕ}{∂z}\) = 0
+Or
+∇2ϕ = 0
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Irrotational Flow» Next - Aerodynamics Questions and Answers – Linearized Velocity Potential Equation 

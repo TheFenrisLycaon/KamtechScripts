@@ -1,0 +1,67 @@
+1. Pig operates in mainly how many nodes?
+a) Two
+b) Three
+c) Four
+d) Five
+a
+2. Point out the correct statement.
+a) You can run Pig in either mode using the “pig” command
+b) You can run Pig in batch mode using the Grunt shell
+c) You can run Pig in interactive mode using the FS shell
+d) None of the mentioned
+a
+3. You can run Pig in batch mode using __________
+a) Pig shell command
+b) Pig scripts
+c) Pig options
+d) All of the mentioned
+b
+4. Pig Latin statements are generally organized in one of the following ways?
+a) A LOAD statement to read data from the file system
+b) A series of “transformation” statements to process the data
+c) A DUMP statement to view results or a STORE statement to save the results
+d) All of the mentioned
+d
+5. Point out the wrong statement.
+a) To run Pig in local mode, you need access to a single machine
+b) The DISPLAY operator will display the results to your terminal screen
+c) To run Pig in mapreduce mode, you need access to a Hadoop cluster and HDFS installation
+d) All of the mentioned
+b
+6. Which of the following function is used to read data in PIG?
+a) WRITE
+b) READ
+c) LOAD
+d) None of the mentioned
+c
+7. You can run Pig in interactive mode using the ______ shell.
+a) Grunt
+b) FS
+c) HDFS
+d) None of the mentioned
+a
+8. Which of the following is the default mode?
+a) Mapreduce
+b) Tez
+c) Local
+d) All of the mentioned
+a
+9. Which of the following will run pig in local mode?
+a) $ pig -x local …
+b) $ pig -x tez_local …
+c) $ pig …
+d) None of the mentioned
+a
+10.$ pig -x tez_local … will enable ________ mode in Pig.
+a) Mapreduce
+b) Tez
+c) Local
+d) None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Pig, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – HDFS Maintenance» Next - Hadoop Questions and Answers – Pig Latin 

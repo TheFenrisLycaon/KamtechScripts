@@ -1,0 +1,126 @@
+1. If P(B⁄A) = p(b), then P(A ∩ B) = ____________
+a) p(b)
+b) p(a)
+c) p(b).p(a)
+d) p(a) + p(b)
+c
+Therefore, P(A ∩ B) = p(a).p(b).
+2. Two unbiased coins are tossed. What is the probability of getting at most one head?
+a) 1⁄2
+b) 1⁄3
+c) 1⁄6
+d) 3⁄4
+d
+Favorable outcomes = (TT, HT, TH)
+At most one head refers to maximum one head,
+Therefore, probability = 3⁄4.
+3. If A and B are two events such that p(a) > 0 and p(b) is not a sure event, then P(A/B) = ?
+a) 1 – P(A /B)
+b) \(P\frac{(\bar{A})}{(\bar{B})}\) 
+c) Not Defined
+d) \(\frac{1-P(A \cup B)}{P(\bar{B}}\) 
+d
+\(P(\bar{A}/\bar{B})=\frac{\bar{A}\cap\bar{B}}{P(\bar{B})}\) 
+Using De Morgan’s Law
+=\(\frac{P(\bar{A \cup B})}{(\bar{B}}\) 
+=\(\frac{1-P(A \cup B)}{P(\bar{B}}\)
+4. If A and B are two events, then the probability of exactly one of them occurs is given by ____________
+a) P(A ∩ B) + P(A ∩ B)
+b) P(A) + P(B) – 2P(A) P(B)
+c) P(A) + P(B) – 2P(A) P(B)
+d) P(A) + P(B) – P(A ∩ B)
+a
+(A ∩ B) ∪ (A ∩ B)
+Hence the required probability is
+P(P(A ∩ B) ∪ (A ∩ B)) = (A ∩ B) + P(A ∩ B).
+5. The probability that at least one of the events M and N occur is 0.6. If M and N have probability of occurring together as 0.2, then P(M) + P(N) is?
+a) 0.4
+b) 1.2
+c) 0.8
+d) Indeterminate
+b
+P(M ∪ N) + P(M ∩ N) = P(M) + P(N)
+2 – (P(M ∪ N) + P(M ∩ N)) = 2 – (P(M) + P(N))
+= (1 – P(M)) + (1 – P(N))
+2 – (0.6 + 0.2) = P(M) + P(N)
+P(M) + P(N) = 2 – 0.8
+= 1.2
+6. A jar contains ‘y’ blue colored balls and ‘x’ red colored balls. Two balls are pulled from the jar without replacing. What is the probability that the first ball Is blue and second one is red?
+a) \(\frac{xy-y}{x^2+y^2+2xy-(x+y)}\) 
+b) \(\frac{xy}{x^2+y^2+2xy-(x+y)}\) 
+c) \(\frac{y^2-y}{x^2+y^2+2xy-(x+y)}\) 
+a) \(\frac{xy-y}{x^2+y^2+2xy-(x-y)}\) 
+b
+Number of Red balls = x
+Total number of balls = x + y
+Probability of Blue ball first = y / x + y
+No. of balls remaining after removing one = x + y – 1
+Probability of pulling secondball as Red=\(\frac{x}{x+y-1}\) 
+Required porbability=\(\frac{y}{(x+y)}\frac{x}{(x+y-1)}=\frac{xy}{x^2+y^2+2xy-(x+y)}\)
+7. A survey determines that in a locality, 33% go to work by Bike, 42% go by Car, and 12% use both. The probability that a random person selected uses neither of them is?
+a) 0.29
+b) 0.37
+c) 0.61
+d) 0.75
+b
+P(B ∩ C) = 0.12
+P(B ∩ C) = ?
+P(B ∩ C) = 1 – P(B ∪ C)
+= 1 – p(b) – P(c) + P(B ∩ C)
+= 1 – 0.22 – 0.42 + 0.12
+= 0.37.
+8. A coin is biased so that its chances of landing Head is 2⁄3. If the coin is flipped 3 times, the probability that the first 2 flips are heads and the 3rd flip is a tail is?
+a) 4⁄27
+b) 8⁄27
+c) 4⁄9
+d) 2⁄9
+a
+9. Husband and wife apply for two vacant spots in a company. If the probability of wife getting selected and husband getting selected are 3/7 and 2/3 respectively, what is the probability that neither of them will be selected?
+a) 2⁄7
+b) 5⁄7
+c) 4⁄21
+d) 17⁄21
+c
+W be the event of wife getting selected
+Then, the event of neither of them getting selected is = (H ∩ W)
+P (H ∩ W) = P (H) x P (W)
+= (1 – P (H)) x (1 – P (W))
+= (1 – 2⁄3) x (1 – 3⁄7)
+= 4⁄21.
+10. For two events A and B, if P (B) = 0.5 and P (A ∪ B) = 0.5, then P (A|B) = ?
+a) 0.5
+b) 0
+c) 0.25
+d) 1
+d
+P (A│B) = P(A ∩ B)/P(B)
+= P((A ∪ B)/P(B))
+= (1 – P(A ∪ B)) /P(B)
+= (1 – 0.5)/0.5
+= 1.
+11. A fair coin is tossed thrice, what is the probability of getting all 3 same outcomes?
+a) 3⁄4
+b) 1⁄4
+c) 1⁄2
+d) 1⁄6
+b
+All 3 same outcomes mean either all head or all tail
+Total outcomes = 8
+Favourable outcomes = {HHH, TTT} = 2
+∴ required probability = 2⁄8 = 1⁄4.
+12. A bag contains 5 red and 3 yellow balls. Two balls are picked at random. What is the probability that both are of the same colour?
+a) \(\frac{C_2^5}{C_2^8}+\frac{C_2^3}{C_2^8}\) 
+b) \(\frac{C_2^5 * C_2^3}{C_2^8}\) 
+c) \(\frac{C_1^5 * C_1^3}{C_2^8}\) 
+d) 0.5
+a
+No.of ways in which 2 balls can be picked = 8C2
+Probability of picking both balls as red = 5C2 /8C2
+Probability of picking both balls as yellow = 3C2 /8C2
+∴ required probability \(\frac{C_2^5}{C_2^8}+\frac{C_2^3}{C_2^8}\).
+Sanfoundry Global Education & Learning Series – Probability and Statistics.
+to practice all areas of Probability and Statistics Assessment Questions, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Probability and Statistics Questions and Answers – Set Theory of Probability – 1» Next - Probability and Statistics Questions and Answers – Theorem of Total Probability 

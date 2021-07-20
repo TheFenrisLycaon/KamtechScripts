@@ -1,0 +1,97 @@
+1. Find the value of the currents I1, I2 and I3 flowing clockwise in the first, second and third mesh respectively.
+a) 1.54A, -0.189A, -1.195A
+b) 2.34A, -3.53A, -2.23A
+c) 4.33A, 0.55A, 6.02A
+d) -1.18A, -1.17A, -1.16A
+a
+-3I1+2I2-5=0
+2I1-9I2+4I3=0
+4I2-9I3-10=0
+Solving the equations, we get I1= 1.54A, I2=-0.189 and I3= -1.195A.
+2. Find the value of the currents I1 and I2 flowing clockwise in the first and second mesh respectively.
+a) 0.96A, 1.73A
+b) 0.96A, -1.73A
+c) -0.96A, 1.73A
+d) -0.96A, -1.73A
+b
+5I1-3I2=10
+-3I1+7I2=-15
+Solving the equations simultaneously, we get I1=0.96A and I2=-1.73A.
+3. Find the value of V if the current in the 3 ohm resistor=0.
+a) 3.5V
+b) 6.5V
+c) 7.5V
+d) 8.5V
+c
+3I1+0I2+0V=5
+-2I1-4I2+0V=0
+0I1+9I2+V=0
+Solving these equations simultaneously and taking the value of I2=0, we get V=7.5V.
+4. Find the value of V1 if the current through the 1 ohm resistor=0A.
+a) 83.33V
+b) 78.89V
+c) 87.87V
+d) 33.33V
+a
+15I1-5I2=V1
+-5I1+10I2=0
+3I2=10
+Solving these equations simultaneously we get V1= 83.33V.
+5. Calculate the mesh currents I1 and I2 flowing in the first and second meshes respectively.
+a) 1.75A, 1.25A
+b) 0.5A, 2.5A
+c) 2.3A, 0.3A
+d) 3.2A, 6.5A
+a
+Let I1 and I2 be the currents in loops in clockwise direction. The two mesh equations are:
+I2-I1=3
+-5I1-3I2=5
+Solving these equations simultaneously, we get I1 = -1.75A and I2 = 1.25A.
+Since no specific direction given so currents in loop 1 and loop 2 are 1.75A and 1.25A respectively.
+6. I1 is the current flowing in the first mesh. I2 is the current flowing in the second mesh and I3 is the current flowing in the top mesh. If all three currents are flowing in the clockwise direction, find the value of I1, I2 and I3.
+a) 7.67A, 10.67A, 2A
+b) 10.67A, 7.67A, 2A
+c) 7.67A, 8.67A, 2A
+d) 3.67A, 6.67A, 2A
+a
+I3=2A
+I2-I1=3
+-2I1-I2=-26
+Solving these equations simultaneously we get:
+I1=7.67A, I2=10.67A and I3=2A.
+7. Calculate the mesh currents.
+a) 7A, 6A, 6.22A
+b) 2A, 1A, 0.57A
+c) 3A, 4A, 5.88A
+d) 6A, 7A, 8.99A
+b
+I1-I3=-3
+4I1-14I2+11I3=10
+4I1-28I2+10I3=0
+Solving these equations simultaneously, we get the three currents as
+I1=-1A, I2=0.57A, I3=2A
+So currents are 2A, 1A, 0.57A.
+8. Mesh analysis employs the method of ___________
+a) KVL
+b) KCL
+c) Both KVL and KCL
+d) Neither KVL nor KCL
+a
+9. Mesh analysis is generally used to determine _________
+a) Voltage
+b) Current
+c) Resistance
+d) Power
+b
+10. Mesh analysis can be used for __________
+a) Planar circuits
+b) Non-planar circuits
+c) Both planar and non-planar circuits
+d) Neither planar nor non-planar circuits
+a
+Sanfoundry Global Education & Learning Series – Basic Electrical Engineering.
+To practice all areas of Basic Electrical Engineering, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Basic Electrical Engineering Questions and Answers – Kirchhoff’s Laws and Network Solutions» Next - Basic Electrical Engineering Questions and Answers – Nodal Analysis 

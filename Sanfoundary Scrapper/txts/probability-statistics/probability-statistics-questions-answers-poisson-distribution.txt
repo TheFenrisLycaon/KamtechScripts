@@ -1,0 +1,85 @@
+1. In a Poisson Distribution, if ‘n’ is the number of trials and ‘p’ is the probability of success, then the mean value is given by?
+a) m = np
+b) m = (np)2
+c) m = np(1-p)
+d) m = p
+a
+Mean(μ)=\(\sum_{x=0}^n xp(x)\) 
+For Poisson Distribution P(x)=\(\frac{e^{-m}m^x}{x!}\) substitute in above equation and solve to get µ = m = np.
+2. If ‘m’ is the mean of a Poisson Distribution, then variance is given by ___________
+a) m2
+b) m1⁄2
+c) m
+d) m⁄2
+c
+Variance (v) = \(\sum_{x=0}^n x^2p(x)-\mu^2\)  
+Where µ is the mean, substitute P(x)=\(\frac{e^{-m}m^x}{x!}\), in the above equation and put µ = m to obtain
+V = m.
+3. The p.d.f of Poisson Distribution is given by ___________
+a) \(\frac{e^{-m}m^x}{x!}\) 
+b) \(\frac{e^{-m}x!}{m^x}\) 
+c) \(\frac{x!}{m^xe^{-m}}\) 
+d) \(\frac{e^m m^x}{x!}\) 
+a
+Even though if you are interested to know the derivation in detail, you can refer to any of the books or source on internet that speaks of this matter.
+4. If ‘m’ is the mean of a Poisson Distribution, the standard deviation is given by ___________
+a) \(\sqrt{m}\) 
+b) m2
+c) m
+d) m⁄2
+a
+Standard Deviation = \(\sqrt{variance} = \sqrt{m}\) 
+5. In a Poisson Distribution, the mean and variance are equal.
+a) True
+b) False
+a
+Variance = m
+∴ Mean = Variance.
+6. In a Poisson Distribution, if mean (m) = e, then P(x) is given by ___________
+a) \(\frac{e^{(x-m)}}{x!}\) 
+b) \(\frac{e^{(m-x)}}{x!}\) 
+c) \(\frac{x!}{e^{(m-x)}}\) 
+d) \(\frac{x!}{e^{(x-m)}}\) 
+b
+Put m = e, and get correct solution.
+7. Poisson distribution is applied for ___________
+a) Continuous Random Variable
+b) Discrete Random Variable
+c) Irregular Random Variable
+d) Uncertain Random Variable
+b
+8. If ‘m’ is the mean of Poisson Distribution, the P(0) is given by ___________
+a) e-m
+b) em
+c) e
+d) m-e
+a
+Put x = 0, to obtain e-m.
+9. In a Poisson distribution, the mean and standard deviation are equal.
+a) True
+b) False
+b
+Mean = m
+Standard Deivation = m1⁄2
+∴ Mean and Standard deviation are not equal.
+10. For a Poisson Distribution, if mean(m) = 1, then P(1) is?
+a) 1/e
+b) e
+c) e/2
+d) Indeterminate
+a
+Put m = x = 1, (given) to obtain 1/e.
+11. The recurrence relation between P(x) and P(x +1) in a Poisson distribution is given by ___________
+a) P(x+1) – m P(x) = 0
+b) m P(x+1) – P(x) = 0
+c) (x+1) P(x+1) – m P(x) = 0
+d) (x+1) P(x) – x P(x+1) = 0
+c
+p(x+1) = e-1 mx+1 /(x + 1)!
+Divide P(x+1) by P(x) and rearrange to obtain (x+1) P(x+1) – m P(x) = 0. 
+Sanfoundry Global Education & Learning Series – Probability and Statistics.
+To practice all areas of Probability and Statistics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Probability and Statistics Questions and Answers – Hypergeometric Distributions» Next - Probability and Statistics Questions and Answers – Normal Distribution 

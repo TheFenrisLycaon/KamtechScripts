@@ -1,0 +1,148 @@
+1. What will be the output of the following C# code?
+ static void Main(string[] args) {     int i, j;     for (i = 1; i <= 3; i++)     {         j = 1;         while (i % j == 2)         {             j++;         }         Console.WriteLine(i + " " + j);     }     Console.ReadLine(); }
+a) 11 21 31
+b) 1 12 13 1
+c) 11 21 31
+d) 1 1 2 1 3 1
+c
+Output:
+ 11 21 31.
+2. What will be the output of the following C# code?
+ static void Main(string[] args) {     float s = 0.1f;     while (s <= 0.5f)     {         ++s;         Console.WriteLine(s);     }     Console.ReadLine(); }
+a) 0.1
+b) 1.1
+c) 0.1 0.2 0.3 0.4 0.5
+d) No output
+b
+Output:
+ 1.1
+3. What will be the output of the following C# code?
+ static void Main(string[] args) {     int i;     i = 0;     while (i++ < 5)     {         Console.WriteLine(i);     }     Console.WriteLine("\n");     i = 0;     while ( ++i < 5)    {        Console.WriteLine(i);    }    Console.ReadLine();}
+a) 
+1 2 3 4
+1 2 3 4 5
+b) 
+1 2 3
+1 2 3 4 
+c) 
+1 2 3 4 5
+1 2 3 4
+d) 
+1 2 3 4 5
+1 2 3 4 5
+c
+Output:
+        1 2 3 4 5
+        1 2 3 4
+  
+4. What will be the output of the following C# code?
+ static void Main(string[] args) {     int x = 0;       while (x < 20)     {         while (x < 10)         {             if (x % 2 == 0)             {                 Console.WriteLine(x);             }             x++;         }     }     Console.ReadLine(); }
+a) 
+1 2 3 4 5 6 7 8 9 10
+11 12 13 14 15 16 17 18 19 20
+b) 0 2 4 6 8 10 12 14 16 18 20
+c) 0 2 4 6 8
+d) 0 2 4 6 8 10
+c
+Output:
+0 2 4 6 8
+5. What will be the output of the following C# code?
+ static void Main(string[] args) {     int x;     x = Convert.ToInt32(Console.ReadLine());     int c = 1;     while (c <= x)     {         if (c % 2 == 0)         {             Console.WriteLine("Execute While " + c + "\t" + "time");         }         c++;     }     Console.ReadLine(); }for x = 8.
+a) 
+   Execute while 1 time
+   Execute while 3 time
+   Execute while 5 time
+   Execute while 7 time
+b) 
+   Execute while 2 time
+   Execute while 4 time
+   Execute while 6 time
+   Execute while 8 time
+c) 
+   Execute while 1 time
+   Execute while 2 time
+   Execute while 3 time
+   Execute while 4 time
+   Execute while 5 time
+   Execute while 6 time
+   Execute while 7 time
+d) 
+   Execute while 2 time
+   Execute while 3 time
+   Execute while 4 time
+   Execute while 5 time
+b
+OUTPUT:
+        Execute while 2 time.
+        Execute while 4 time.
+        Execute while 6 time.
+        Execute while 8 time.
+6. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int n, r;      n = Convert.ToInt32(Console.ReadLine());      while (n > 0)      {          r = n % 10;          n = n / 10;          Console.WriteLine(+r);      }      Console.ReadLine();  } for n = 5432.
+a) 3245
+b) 2354
+c) 2345
+d) 5423
+c
+Output:
+2345.
+7. Correct syntax for while statement is:
+a)
+    while    {        }(condition);
+b)
+    while(condition)    {       };
+c)
+    while(condition)    {       }
+d)
+    while(condition);    {       }
+c
+  
+8. What will be the output of the following C# code?
+  static void Main(string[] args)  {      float i = 1.0f,  j = 0.05f;      while (i  < 2.0f  &&  j  <= 2.0f)      {          Console.WriteLine(i++ - ++j);      }      Console.ReadLine();  }
+a) 0.05f
+b) 1.50f
+c) -0.04999995f
+d) 1.50f
+c
+Output:
+-0.04999995f
+9. What will be the output of the following C# code?
+ static void Main(string[] args) {     int i = 0;     while (i <= 50)     {         if (i % 10 == 0)         continue;         else         break;         i += 10;         Console.WriteLine(i % 10);    }}
+a) code prints output as 0 0 0 0 0
+b) code prints output as 10 20 30 40 50
+c) infinite loop but doesn’t print anything
+d) Code generate error
+c
+10. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int i = 1, j = 1;      while (++i <= 10)      {          j++;      }      Console.WriteLine(i+ "  " +j);      Console.ReadLine();  }
+a) 12 11
+b) 10 11
+c) 11 10
+d) 11 12
+c
+Output:
+11 10.
+11. What will be the output of the following C# code?
+   static void Main(string[] args)   {       int i = 1;       while (i <= 1)       {           if ('A' < 'a')           {               Console.WriteLine("Hello...");           }           else           {              Console.WriteLine("Hi...");           }              i++;       }       Console.ReadLine();   }
+a) Hi…
+b) Hello….
+c) Hi…infinite times
+d) Hello infinite times
+b
+Output:
+Hello.
+12. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int i = 0;      while (i++ != 0) ;      Console.WriteLine(i);      Console.ReadLine();  }
+a) -127 to +127
+b) 0 to 127
+c) 1
+d) Infinite loop condition
+c
+Output:
+ 1.
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – For Loop Statements» Next - C#  Questions & Answers – Do While Loop Statements 

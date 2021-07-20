@@ -1,0 +1,67 @@
+1._________  operator is used to review the schema of a relation.
+a) DUMP
+b) DESCRIBE
+c) STORE
+d) EXPLAIN
+b
+2. Point out the correct statement.
+a) During the testing phase of your implementation, you can use LOAD to display results to your terminal screen
+b) You can view outer relations as well as relations defined in a nested FOREACH statement
+c) Hadoop properties are interpreted by Pig
+d) None of the mentioned
+b
+3. Which of the following operator is used to view the map reduce execution plans?
+a) DUMP
+b) DESCRIBE
+c) STORE
+d) EXPLAIN
+d
+4. ___________ operator is used to view the step-by-step execution of a series of statements.
+a) ILLUSTRATE
+b) DESCRIBE
+c) STORE
+d) EXPLAIN
+a
+5. Point out the wrong statement.
+a) ILLUSTRATE operator is used to review how data is transformed through a sequence of Pig Latin statements
+b) ILLUSTRATE is based on an example generator
+c) Several new private classes make it harder for external tools such as Oozie to integrate with Pig statistics
+d) None of the mentioned
+c
+6. __________ is a framework for collecting and storing script-level statistics for Pig Latin.
+a) Pig Stats
+b) PStatistics
+c) Pig Statistics
+d) None of the mentioned
+c
+7. The ________ class mimics the behavior of the Main class but gives users a statistics object back.
+a) PigRun
+b) PigRunner
+c) RunnerPig
+d) None of the mentioned
+b
+8. ___________ is a simple xUnit framework that enables you to easily test your Pig scripts.
+a) PigUnit
+b) PigXUnit
+c) PigUnitX
+d) All of the mentioned
+b
+9. Which of the following will compile the Pigunit?
+a) $pig_trunk ant pigunit-jar
+b) $pig_tr ant pigunit-jar
+c) $pig_ ant pigunit-jar
+d) None of the mentioned
+a
+10. PigUnit runs in Pig’s _______ mode by default.
+a) local
+b) tez
+c) mapreduce
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Introduction to Pig» Next - Hadoop Questions and Answers – User-defined Functions in Pig 

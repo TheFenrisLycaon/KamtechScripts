@@ -1,0 +1,80 @@
+1. What is the meaning of “Range Conditions”?
+a) Expression is equal to Expression
+b) Expression is not equal to Expression
+c) Expression fall under certain range
+d) None of the mentioned
+c
+2. Which among the following data types can be used with “Range Condition”?
+a) Numeric data type
+b) Temporal data type
+c) String data type
+d) Both Numeric and Temporal data type
+d
+3. The following MySQL statement belongs to which “Condition Types”?
+SELECT emp_id, fname, lname
+FROM account
+WHERE start_date<’2007-10-08’;
+a) Equality conditions
+b) Inequality condition
+c) Range condition
+d) None of the mentioned
+c
+4. What will be the output of the following MySQL statement?
+SELECT *
+FROM employee
+WHERE start_date BETWEEN ‘2007-01-01’ AND ‘2008-01-01’;
+a) All employees details between 2007 and 2008
+b) All employees details before 2008
+c) All employees details from 2007 to 2008
+d) None of the mentioned
+a
+5. Fill the blanks with suitable options?
+BETWEEN ______ AND ______
+a) Upper and lower limit
+b) Lower and upper limit
+c) Upper and upper limit
+d) None of the mentioned
+b
+6. What will be the output of the following MySQL statement?
+SELECT *
+FROM employee
+WHERE start_date>=’2007-01-01’ AND
+        Start_date<=’2005-01-01’
+a) All employees between 2007 and 2005
+b) All employees from 2007 to 2005
+c) Empty set
+d) None of the mentioned
+d
+7. What will be the output of the following MySQL statement?
+SELECT customer_id, product_id, avail_balance
+FROM account
+WHERE avail_balance BETWEEN 3000 AND 5000.
+a) Only those details will be shown whose as available balance form 3000 to 5000
+b) Only those details will be shown whose available balance is more than 3000
+c) Only those details will be shown whose available balance is less than 5000
+d) None of the mentioned
+a
+8. Which among the following operators is/are belongs to “Inequality conditions”?
+a) <>
+b) !=
+c) =
+d) Both <> and !=
+d
+9. Which among the following operators is/are belongs to “Equality conditions”?
+a) <>
+b) !=
+c) =
+d) >/<
+c
+10. Which among the following operators is/are belongs to “Range conditions”?
+a) <>
+b) !=
+c) =
+d) >/<
+d
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Condition Types – 1» Next - MySQL Questions and Answers – Condition Types – 3 

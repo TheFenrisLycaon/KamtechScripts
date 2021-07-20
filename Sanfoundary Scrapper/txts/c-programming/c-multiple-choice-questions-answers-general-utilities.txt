@@ -1,0 +1,74 @@
+1. What will be the output of the following C code?
+char word[20 ] = "1.234555 WELCOME"; 
+char *w; double dis; 
+dis= strtod(word, &w); 
+printf("The number is %lf\n", dis); 
+printf("String  is |%s|", w);
+a) The number is 1.234555 String  is |WELCOME|
+b) The number is 1.2345550 String  is |WELCOME|
+c) The number is 1.234555 String  is |1.234555 WELCOME|
+d) Errror
+a
+2. Which statement is correct work reference to endptr?
+double strtod(const char *nptr, char **endptr);
+a) A pointer to the starting string is stored in the object pointed to by endptr, provided that endptr is a null pointer
+b) A pointer to the ﬁnal string is stored in the object pointed to by endptr, provided that endptr is not a null pointer
+c)  A pointer to the final string is stored in the object pointed to by endptr, provided that endptr is a null pointer
+d)  A pointer to the starting string is stored in the object pointed to by endptr, provided that endptr is not a null pointer
+b
+3.  Which of the following functions decomposes the input string into three pans: an initial, possibly empty, sequence of white-space characters?
+a) strtod()
+b) atof()
+c) atol()
+d) strtol()
+d
+4. The______function is used to convert the initial portion of the string pointed to by, to unsigned long int representation.
+a) strtod()
+b) atol()
+c) strtoul()
+d) strtol()
+c
+5. Which of the following is the correct syntax of the function strtoul()?
+a) unsigned long int strtoul(const char *n, char **ptr, int base)
+b) unsigned long int strtoul(const char *n, char **ptr)
+c) unsigned long int strtoul(const char *n)
+d) int strtoul(const char *n)
+a
+6. Select the right statement with reference to malloc() and calloc().
+a) malloc() does not set the memory to zero whereas calloc() sets allocated memory to zero
+b) malloc() sets the memory to zero whereas calloc() does not set allocated memory to zero
+c) malloc() sets the memory to zero whereas calloc() sets allocated memory to zero
+d) malloc() does not set the memory to zero whereas calloc() does not set allocated memory to zero
+a
+7. The calloc() function allocates space for an array of n objects, each of whose size is defined by size. Space is initialized to all bits zero.
+a) true
+b) false
+a
+This function is used to allocate the requested memory and returns a pointer to it.
+8. Is this right explanation to the given code?
+void *calloc(size_t n, size_t size) 
+#n -- This is the number of elements to be allocated.
+#size -- This is the size of elements.
+a) true
+b) false
+a
+9. Which among the given function does not return a value?
+a) strtoul()
+b) strtol()
+c) rand()
+d) srand()
+d
+The srand() function uses argument as a seed for a new sequence of pseudo-random numbers to be returned by subsequent calls to rand(). The srand() function returns no value.
+10. Which function returns a pseudo-random integer?
+a) srand()
+b) rand()
+c) malloc()
+d) alloc()
+b
+The rand() function is used to compute a sequence of pseudo-random integers in the range 0 to RAND-MAX. The rand function returns a pseudo-random integer.
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – General Utilities – 1» Next - C Questions and Answers – General Utilities – 3 

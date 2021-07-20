@@ -1,0 +1,47 @@
+1. Which of the following a method proposed to design array with any side lobes?
+a) Dolph-Chebyshev
+b) Binomial array
+c) Taylor
+d) Broad-side Array
+a
+2. Dolph pattern uses which of the following polynomial approximation?
+a) Chebyshev
+b) Binomial
+c) Pascal’s
+d) Taylor
+a
+3. What should be the side lobe level to make Dolph Chebyshev to binomial array?
+a) -∞ dB
+b) 0 dB
+c) 1 dB
+d) 10dB
+a
+So side lobes a =0
+Side lobe level = major lobe level / minor lobe max =0
+In dB = 20 log (1/a) = -∞ dB.
+4. Which of the following represents the chebyshev recursive formula?
+a) Tm(z) = 2zTm-1(z) – Tm-2(z)
+b) Tm(z) = zTm-1(z) – 2Tm-2(z)
+c) Tm(z) = 2Tm-1(z) – zTm-2(z)
+d) Tm(z) = Tm-1(z) – 2zTm-2(z)
+a
+Tm(z) = 2zTm-1(z) – Tm-2(z).
+5. What is the HPBW of the Dolph Chebyshev array if the broadening factor is 2 and HPBW of uniform array is 30°?
+a) 30°
+b) 60°
+c) 90°
+d) 120°
+b
+=2×30°=60°.
+6. In Chebyshev array which of the following is approximated to the Chebyshev polynomial?
+a) Array factor
+b) HPBW
+c) Side lobe level
+d) Range equation
+a
+Sanfoundry Global Education & Learning Series – Antennas.
+To practice all areas of Antennas, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antennas Questions and Answers – Adaptive Array – Chebyshev Polynomials Properties» Next - Antennas Questions and Answers – Binomial Array 

@@ -1,0 +1,76 @@
+1. What is the return value of strxfrm()?
+a) length of the transformed string, not including the terminating null-character
+b) length of the transformed string, including the terminating null-character
+c) display the transformed string, not including the terminating null character
+d) display the transformed string, not including the terminating null-character
+a
+2. Is there any function declared as strstr()?
+a) true
+b) false
+a
+char *strstr(const char *s1, const char *s2)
+3.  The C library function _________ breaks string s1 into a series of tokens using the delimiter s2.
+a) char *strtok(char *s1,const char *s2);
+b) char  *strtok(char *s2,const char *s1);
+c) char *strstr(char *s1,const char *s2);
+d) char *strstr(char *s2,const char *s1);
+a
+4. The______function returns a pointer to the first character of a token.
+a) strstr()
+b) strcpy()
+c) strspn()
+d) strtok()
+d
+5. which of the following function returns a pointer to the located string or a null pointer if string is not found.
+a) strtok()
+b) strstr()
+c) strspn()
+d) strrchr()
+b
+6. Which of the given function is used to return a pointer to the located character?
+a) strrchr()
+b) strxfrm()
+c) memchar()
+d) strchar()
+d
+7. The strpbrk() function is used to return a pointer to the character, or a null pointer if no character from s2 occurs in s1.
+a) true
+b) false
+a
+The first occurrence in the string s1 of any character from the string s2 is done by strpbrk().
+8. What will be the output of the following C code?
+const char str1[] = "abcdef";
+const char str2[] = "fgha";
+char *mat;
+mat= strpbrk(str1, str2);
+if(mat)
+printf("First matching character: %c\n", *mat);
+else
+printf("Character not found");
+a) g
+b) a
+c) h
+d) f
+d
+9. What will be the output of the following C code?
+char str1[] = "Helloworld ";
+char str2[] = "Hello";
+len = strspn(str1, str2);
+printf("Length of initial segment matching %d\n", len );
+a) 6
+b) 5
+c) 4
+d) no match
+b
+10. The______ function returns the number of characters that are present before  the terminating null character.
+a) strlength()
+b) strlen()
+c) strlent()
+d) strchr()
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – String Operations – 2» Next - C Questions and Answers – String Operations – 4 

@@ -1,0 +1,92 @@
+1. Which of these is not a bitwise operator?
+a) &
+b) &=
+c) |=
+d) <=
+d
+2. Which operator is used to invert all the digits in a binary representation of a number?
+a) ~
+b) <<<
+c) >>>
+d) ^
+a
+3. On applying Left shift operator, <<, on integer bits are lost one they are shifted past which position bit?
+a) 1
+b) 32
+c) 33
+d) 31
+d
+4. Which right shift operator preserves the sign of the value?
+a) <<
+b) >>
+c) <<=
+d) >>=
+b
+5. Which of these statements are incorrect?
+a) The left shift operator, <<, shifts all of the bits in a value to the left specified number of times
+b) The right shift operator, >>, shifts all of the bits in a value to the right specified number of times
+c) The left shift operator can be used as an alternative to multiplying by 2
+d) The right shift operator automatically fills the higher order bits with 0
+d
+Join Sanfoundry@YouTube
+6. What will be the output of the following Java program?
+    class bitwise_operator     {        public static void main(String args[])        {            int var1 = 42;            int var2 = ~var1;            System.out.print(var1 + " " + var2);     	        }     }
+a) 42 42
+b) 43 43
+c) 42 -43
+d) 42 43
+c
+output:
+$ javac bitwise_operator.java
+$ java bitwise_operator
+42 -43
+7. What will be the output of the following Java program?
+    class bitwise_operator     {        public static void main(String args[])         {                 int a = 3;             int b = 6; 	     int c = a | b;             int d = a & b;                          System.out.println(c + " "  + d);        }     }
+a) 7 2
+b) 7 7
+c) 7 5
+d) 5 2
+a
+output:
+$ javac bitwise_operator.java
+$ java bitwise_operator
+7 2
+8. What will be the output of the following Java program?
+    class leftshift_operator     {        public static void main(String args[])         {                     byte x = 64;             int i;             byte y;              i = x << 2;             y = (byte) (x << 2)             System.out.print(i + " " + y);        }     }
+a) 0 64
+b) 64 0
+c) 0 256
+d) 256 0
+d
+output:
+$ javac leftshift_operator.java
+$ java leftshift_operator
+256 0
+9. What will be the output of the following Java program?
+    class rightshift_operator     {        public static void main(String args[])         {                 int x;              x = 10;             x = x >> 1;             System.out.println(x);        }     }
+a) 10
+b) 5
+c) 2
+d) 20
+b
+output:
+$ javac rightshift_operator.java
+$ java rightshift_operator
+5
+10. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])         {                 int a = 1;             int b = 2;             int c = 3;             a |= 4;             b >>= 1;             c <<= 1;             a ^= c;             System.out.println(a + " " + b + " " + c);        }     }
+a) 3 1 6
+b) 2 2 3
+c) 2 3 4
+d) 3 3 6
+a
+output:
+$ javac Output.java
+$ java Output
+3 1 6
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Arithmetic Operators» Next - Java Questions & Answers – Relational Operators and Boolean Logic Operators 

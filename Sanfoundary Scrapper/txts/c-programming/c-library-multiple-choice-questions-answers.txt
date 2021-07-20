@@ -1,0 +1,127 @@
+1. What will the code display on compiling?
+void funccall() 
+{ 
+   printf("this is funccall\n"); 
+}  
+void main () 
+{   
+    atexit(funccall); 
+    printf("program starts\n");  
+    printf("program ends\n");  
+}
+a) 
+   program starts
+   this is funccall
+   program ends
+b) 
+   this is funccall
+   program starts
+   program ends
+c) 
+   program starts
+   program ends
+   this is funccall
+d) error
+c
+2. What will be the output of the following C code?
+int main () 
+{ 
+   printf("starting of program\n"); 
+   printf("program exits\n"); 
+   exit(0);  
+   printf("program ends\n");  
+   return(0); 
+}
+a) 
+   starting of program
+   program exits
+   program ends
+b) 
+   starting of program
+   program exits
+c) 
+   starting of program
+   program ends
+d) error
+b
+3. What will the following C code do on compilation?
+void main () 
+{
+   char com[50];  
+   strcpy( com, "dir" ); 
+   system(com); 
+}
+a) error
+b) lists down all the files and directories in the current directory under windows machine
+c) terminates the calling process immediately
+d) calls specified function and terminates it at the end of the program
+b
+4. What will be the output of the following C code?
+void main() 
+{ 
+   div_t  res;  
+   res = div(34, 4); 
+   printf("quotient part = %d\n", res.quot); 
+   printf("remainder part = %d\n", res.rem); 
+}
+a) 
+    quotient part=0
+    remainder part=4
+b) 
+    quotient part=8
+    remainder part=2
+c) 
+    quotient part=4
+    remainder part=0
+d) 
+    quotient part=2
+    remainder part=8
+b
+int quot;
+in rem;
+  
+5. Initial seed is ________ for the function srand(unsigned int seed).
+a) 0
+b) 1
+c) 00
+d) 01
+b
+This function returns a new sequence of pseudo-random numbers using the specified seed.Initial seed is 1.
+6. Which statement is true with respect to RAND_MAX?
+a) specifies value for status argument to exit indicating failure
+b) specifies value for status argument to exit indicating success
+c) specifies maximum value returned by rand()
+d) specifies maximum value returned by srand()
+c
+rand() function returns a pseudo-random number in the range 0 to RAND_MAX.
+7. Which of the given function differs from the statement’errno is not neccessarily set on conversion error’?
+a) atof()
+b) atoi()
+c) atol()
+d) strtod()
+d
+8. void free(void *p) performs which of the following functions?
+a) returns pointer to allocated space for existing contents of p
+b) de-allocates space to which p points
+c) to abnormally terminate the program
+d) no such function defined in stdlib.h
+b
+This function de-allocates space to which p points(if p is not NULL).
+9. Which of the given option is declared under the header file stdlib.h?
+a) SEEK_CUR
+b) SEEK_END
+c) CLOCKS_PER_SEC
+d) EXIT_SUCCESS
+d
+EXIT_SUCCESS specifies value for status argument to exit indicating success.
+10. MB_CUR_MAX is not defined in stdlib.h.
+a) true
+b) false
+b
+MB_CUR_MAX expands into a positive integer expression.It is the maximum number of bytes in a multibyte character present in the current locale.
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – General Utilities – 5» Next - C Questions and Answers – Diagnostics – 1 

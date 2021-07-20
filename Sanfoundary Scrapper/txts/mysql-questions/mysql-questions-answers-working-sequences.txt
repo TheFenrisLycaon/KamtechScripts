@@ -1,0 +1,62 @@
+1. Which column attribute provides unique numbers for identification?
+a) AUTO_INCREMENT
+b) UNSIGNED
+c) IDENTIFY
+d) DESCRIBE
+a
+2. There can be only one column per table with the AUTO_INCREMENT attribute.
+a) True
+b) False
+a
+3. The AUTO_INCREMENT sequences normally begin at __________
+a) 0
+b) 1
+c) -1
+d) 2
+b
+4. The value of recently generated sequence number can be obtained by ____________
+a) LAST_INSERT_ID()
+b) LATEST_INSERT_ID()
+c) INITIAL_INSERT_ID()
+d) INSERT_ID()
+a
+5. When no AUTO_INCREMENT value has been generated during the current connection, LAST_INSERT_ID() returns ____________
+a) -1
+b) 0
+c) 1
+d) 2
+b
+6. The ‘LAST_INSERT_ID()’ is tied only to the ‘AUTO_INCREMENT’ values generated during the current connection to the server.
+a) True
+b) False
+a
+7. Suppose the last row has the AUTO_INCREMENT column value 32. Suppose a new row is added by setting AUTO_INCREMENT value equal to 100. The next row added will have value _____________
+a) 32
+b) 33
+c) 100
+d) 101
+d
+8. The number of rows in the table is 10. Suppose all rows are deleted. The new row starts with sequence number _____________
+a) 11
+b) 1
+c) 100
+d) 101
+b
+9. In a MyISAM table, if the maximum value of an AUTO_INCREMENT increment column is 12 and that row is deleted, the next value generated is _____________
+a) 12
+b) 13
+c) 1
+d) 14
+b
+10. In MyISAM tables, when a table is emptied with the TRUNCATE TABLE, the counter begins at _____________
+a) 0
+b) 1
+c) -1
+d) arbitrary
+b
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – How MySQL Handles Invalid Data Values» Next - MySQL Questions and Answers – Expression Evaluation and Type Conversion 

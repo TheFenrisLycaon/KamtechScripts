@@ -1,0 +1,99 @@
+1. Determine the early voltage, if the output resistance is 2.5×2kΩ and input current is 2mA
+a) 9.8v
+b) 5.6v
+c) 7.8v
+d) 10v
+d
+⇒ VA = Ro×Iref =2.5×2kΩ×2mA =10v.
+2. In practical application of current mirror, early voltage is assumed to be
+a) Infinite
+b) Zero
+c) Unity
+d) None of the mentioned
+a
+3. A widlar current source is used
+a) to get low value of current
+b) to get high value of CMRR
+c) to get low voltage of gain
+d) to get high value of Output
+a
+4.  What will be the value of emitter resistance in widlar current source for output current 10mA, having Iref=2.7A
+a) 67/(1+1/β)Ω
+b) 13/(1+1/β)Ω
+c) 14/(1+1/β)Ω
+d) 1.36/(1+1/β)Ω
+c
+⇒ RE= 0.025/(1+1/β)10mA × ln(12.7A/10mA) = 14/(1+1/β)Ω.
+5. A current repeater having identical transistor has collector current,  IC1 =0.39mA. Find IC2,IC4&  IC6
+a) 0.39mA, 0.39mA, 0.78mA
+b) 0.78mA, 0.39mA, 0.39mA
+c) 0.39mA, 0.78mA, 0.39mA
+d) None of the mentioned
+d
+6. If the reference and collector current are 0.539mA and 0.49mA respectively, how many transistors are used in current repeater circuit? (Assume β =150)
+a) 11
+b) 14
+c) 10
+d) 8
+b
+⇒ 0.49mA= 0.539mA×150/(150+1+N)
+⇒ N=14.
+7. For the current repeater shown in the circuit, determine IC4 value, Where β = 75.
+a) 0.035mA
+b) 0.028mA
+c) 0.04mA
+d) 0.052mA
+a
+⇒ Iref=IC+4×IB
+                  =IC(1+1/β)
+∴ IC= Iref×(1+1/β)
+               =Iref×(1+1/β) = 0.366mA×(1+1/75) =0.347mA
+⇒ IC1=IC2=IC3=0.347mA
+To determine IC4,
+RE=VT/(1+1/β)×IC4×ln(C3/IC4)
+⇒ 1.62kΩ =  25mv/(1+1/75)×IC4×ln(0.347mA/IC4)
+⇒ IC4=0.035mA (find using trial and error method).
+8.  The requirements for a good current source is the one in which, (Take Output current – IO and Output resistance – rO )
+a) IO independent upon current gain  and should be low
+b) rO should be very high
+c) IO in the circuit should be low
+d) IO independent upon current gain  and rO should be very high
+d
+9. Which current source exhibits a very high output resistance?
+a) Simple current mirror
+b) Wilson current mirror
+c) Widlar current mirror
+d) All of the mentioned
+b
+10. What will be the overall gain in Darlington circuit, if the individual transistor gain is 200?
+a) 10000
+b) 40000
+c) 8000
+d) 1000
+b
+⇒ β=200×200=40000
+11. To increase the input resistance in differential amplifier, replace the transistor by
+a) Current mirror
+b) Current repeater
+c) Darlington pair
+d) All of the mentioned
+c
+12. What is the drawback in using Darlington pair in differential amplifier?
+a) Large current gain
+b) Output current in milli ampere
+c) Gain is proportional to load resistor
+d) High offset voltage
+d
+13. Determine the amount of shift happens in level shifter?
+a) Vcc + 0.7v
+b) Vcc – 0.7v
+c) -0.7v
+d) +0.7v
+c
+VO – Vi = -VBE = -0.7v.
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuit for Freshers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Operational Amplifier Internal Circuit – 2» Next - Linear Integrated Circuit Questions and Answers – Operational Amplifier Internal Circuit – 4 

@@ -1,0 +1,60 @@
+1. What is the objective of perceptron learning?
+a) class identification
+b) weight adjustment
+c) adjust weight along with class identification
+d) none of the mentioned
+c
+2. On what factor the number of outputs depends?
+a) distinct inputs
+b) distinct classes
+c) both on distinct classes & inputs
+d) none of the mentioned
+b
+3. In perceptron learning, what happens when input vector is correctly classified?
+a) small adjustments in weight is done
+b) large adjustments in weight is done
+c) no adjustments in weight is done
+d) weight adjustments doesn’t depend on classification of input vector
+c
+4. When two classes can be separated by a separate line, they are known as?
+a) linearly separable
+b) linearly inseparable classes
+c) may be separable or inseparable, it depends on system
+d) none of the mentioned
+a
+5. If two classes are linearly inseparable, can perceptron convergence theorem be applied?
+a) yes
+b) no
+b
+6. Two classes are said to be inseparable when?
+a) there may exist straight lines that doesn’t touch each other
+b) there may exist straight lines that can touch each other
+c) there is only one straight line that separates them
+d) all of the mentioned
+c
+7. Is it necessary to set initial weights in prceptron convergence theorem to zero?
+a) yes
+b) no
+b
+8. The perceptron convergence theorem is applicable for what kind of data?
+a) binary
+b) bipolar
+c) both binary and bipolar
+d) none of the mentioned
+c
+9. w(m + 1) = w(m) + n(b(m) – s(m)) a(m), where b(m) is desired output, s(m) is actual output, a(m) is input vector and ‘w’ denotes weight, can this model be used for perceptron learning?
+a) yes
+b) no
+a
+10. If e(m) denotes error for correction of weight then what is formula for error in perceptron learning model: w(m + 1) = w(m) + n(b(m) – s(m)) a(m), where b(m) is desired output, s(m) is actual output, a(m) is input vector and ‘w’ denotes weight
+a) e(m) = n(b(m) – s(m)) a(m)
+b) e(m) = n(b(m) – s(m))
+c) e(m) = (b(m) – s(m))
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Neural Networks.
+To practice all areas of Neural Networks, here is complete set on 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Neural Network Questions and Answers – Determination of Weights» Next - Neural Networks Question and Answers – Pattern Classification – 2 

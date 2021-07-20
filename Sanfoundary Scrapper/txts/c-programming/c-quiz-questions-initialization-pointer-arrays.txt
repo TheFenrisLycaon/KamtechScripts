@@ -1,0 +1,65 @@
+This section on C quiz focuses on “Initialization of Pointer Arrays”. One shall practice these quizzes to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C quiz comes with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C quiz on “Initialization of Pointer Arrays” along with answers, explanations and/or solutions:
+1. Which of the following is the correct syntax to declare a 3 dimensional array using pointers?
+a) char *a[][];
+b) char **a[];
+c) char ***a;
+d) all of the mentioned
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        char *a = {"p", "r", "o", "g", "r", "a", "m"};        printf("%s", a);    }
+a) Output will be program
+b) Output will be p
+c) No output
+d) Compile-time error
+b
+3. An array of strings can be initialized by _________
+a) char *a[] = {“Hello”, “World”};
+b) char *a[] = {“Hello”, “Worlds”};
+c) 
+char *b = "Hello";
+char *c = "World";
+char *a[] = {b, c};
+d) all of the mentioned
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        char *a[10] = {"hi", "hello", "how"};        int i = 0;        for (i = 0;i < 10; i++)        printf("%s", *(a[i]));    }
+a) segmentation fault
+b) hi hello how followed by 7 null values
+c) 10 null values
+d) depends on compiler
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        char *a[10] = {"hi", "hello", "how"};        int i = 0, j = 0;        a[0] = "hey";        for (i = 0;i < 10; i++)        printf("%s\n", a[i]);    }
+a) hi hello how Segmentation fault
+b) hi hello how followed by 7 null values
+c) hey hello how Segmentation fault
+d) depends on compiler
+c
+6. What will be the output of the following C code on a 32-bit system?
+    #include <stdio.h>    void main()    {        char *a[10] = {"hi", "hello", "how"};        printf("%d\n", sizeof(a));    }
+a) 10
+b) 13
+c) Run time error
+d) 40
+d
+7. What will be the output of the following C code on a 32-bit system?
+    #include <stdio.h>    void main()    {        char *a[10] = {"hi", "hello", "how"};        printf("%d\n", sizeof(a[1]));    }
+a) 6
+b) 4
+c) 5
+d) 3
+b
+8. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        char *a[10] = {"hi", "hello", "how"};        int i = 0;        for (i = 0;i < 10; i++)        printf("%s", a[i]);    }
+a) hi hello how Segmentation fault
+b) hi hello how null
+c) hey hello how Segmentation fault
+d) hi hello how followed by 7 nulls
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Multidimensional Arrays – 2» Next - C Programming Questions and Answers – Initialization of Pointer Arrays – 2 

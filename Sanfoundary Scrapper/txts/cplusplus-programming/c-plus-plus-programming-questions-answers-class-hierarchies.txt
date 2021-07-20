@@ -1,0 +1,77 @@
+This section on C++ programming questions and answers focuses on “Class Hierarchies and Abstract Classes”. One shall practice these questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ programming questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ programming questions on “Class Hierarchies and Abstract Classes” along with answers, explanations and/or solutions:
+1. How many kinds of classes are there in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+2. What is meant by polymorphism?
+a) class having many forms
+b) class having only single form
+c) class having two forms
+d) class having four forms
+a
+3. How many types of inheritance are there in c++?
+a) 2
+b) 3
+c) 4
+d) 5
+d
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class stu    {        protected:        int rno;        public:        void get_no(int a)        {            rno = a;        }        void put_no(void)        {        }    };    class test:public stu    {        protected:        float part1,part2;        public:        void get_mark(float x, float y)        {            part1 = x;            part2 = y;        }        void put_marks()        {        }    };    class sports    {        protected:        float score;        public:        void getscore(float s)        {            score = s;        }        void putscore(void)        {        }    };    class result: public test, public sports    {        float total;        public:        void display(void);    };    void result::display(void)    {        total = part1 + part2 + score;        put_no();        put_marks();        putscore();        cout << "Total Score=" << total << "\n";    }    int main()    {        result stu;        stu.get_no(123);        stu.get_mark(27.5, 33.0);        stu.getscore(6.0);        stu.display();        return 0;    }
+a) 66.5
+b) 64.5
+c) 62.5
+d) 60.5
+a
+Output:
+$ g++ class.cpp
+$ a.out
+Total Score=66.5
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class poly    {        protected:        int width, height;        public:        void set_values(int a, int b)        {            width = a; height = b;        }    };    class Coutput    {        public:        void output(int i);    };    void Coutput::output(int i)    {        cout << i;    }    class rect:public poly, public Coutput    {        public:        int area()        {            return(width * height);        }    };    class tri:public poly, public Coutput    {        public:        int area()        {            return(width * height / 2);        }    };    int main()    {        rect rect;        tri trgl;        rect.set_values(3, 4);        trgl.set_values(4, 5);        rect.output(rect.area());        trgl.output(trgl.area());        return 0;    }
+a) 1212
+b) 1210
+c) 1010
+d) 1250
+b
+$ g++ class1.cpp
+$ a.out
+1210
+6. What is meant by container ship?
+a) class contains objects of other class types as its members
+b) class contains objects of other class types as its objects
+c) class contains objects of other class types as its members 7 also objects
+d) class contains objects of other class types as its members 9 also objects
+a
+7. How many types of the constructor are there in C++?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+8. How many constructors can present in a class?
+a) 1
+b) 2
+c) 3
+d) multiple
+d
+9. What should be the name of the constructor?
+a) same as the object
+b) same as the member
+c) same as the class
+d) same as the function
+c
+10. What does derived class does not inherit from the base class?
+a) constructor and destructor
+b) friends
+c) operator = () members
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Design of Class Hierarchies» Next - C++ Programming Questions and Answers – Simple String Template 

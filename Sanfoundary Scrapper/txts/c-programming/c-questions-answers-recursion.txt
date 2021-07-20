@@ -1,0 +1,158 @@
+1. What will be the output of the following C code?
+#include<stdio.h>
+main()
+{
+    int n;
+    n=f1(4);
+    printf("%d",n);
+}
+f1(int x)
+{
+    int b;
+    if(x==1)
+        return 1;
+    else
+        b=x*f1(x-1);
+        return b;
+}
+a) 24
+b) 4
+c) 12
+d) 10
+a
+2. The data structure used to implement recursive function calls _____________
+a) Array
+b) Linked list
+c) Binary tree
+d) Stack
+d
+3. The principle of stack is __________
+a) First in first out
+b) First in last out
+c) Last in first out
+d) Last in last out
+c
+4. In the absence of a exit condition in a recursive function, the following error is given __________
+a) Compile time error
+b) Run time error
+c) Logical error
+d) No error
+b
+5. What will be the output of the following C code?
+#include<stdio.h>
+main()
+{
+    int n,i;
+    n=f(6);
+    printf("%d",n);
+}
+f(int x)
+{
+    if(x==2)
+            return 2;
+    else
+    {
+        printf("+");
+        f(x-1);
+    }
+}
+a) ++++2
+b) +++++2
+c) +++++
+d) 2
+a
+When x=6: ‘+’ is printed.
+When x=5: ‘+’ is printed.
+When x=4: ‘+’ is printed.
+When x=3: ‘+’ is printed.
+When x=2: 2 is printed.
+Hence the output is: ++++2.
+6. How many times is ‘a’ printed when the following C code is executed?
+#include<stdio.h>
+main()
+{
+    int a;
+    a=f1(10);
+    printf("%d",a);
+}
+f1(int b)
+{
+    if(b==0)
+        return 0;
+    else
+    {
+        printf("a");
+        f1(b--);
+    }
+}
+a) 9 times
+b) 10 times
+c) 0 times
+d) Infinite number of times
+d
+7. What will be the output of the following C code?
+#include<stdio.h>
+main()
+{
+    int n=10;
+    int f(int n);
+    printf("%d",f(n));
+}
+int f(int n)
+{
+    if(n>0)
+        return(n+f(n-2));
+}
+a) 10
+b) 80
+c) 30
+d) Error
+c
+Therefore, the above code will be evaluated as: 10+8+6+4+2, which is equal to 30.
+8. What will be the output of the following C code?
+#include<stdio.h>
+int main()
+{
+    printf("Hello");
+    main();
+    return 0;
+}
+a) Hello is printed once
+b) Hello infinite number of times
+c) Hello is not printed at all
+d) 0 is returned
+b
+9. What will be the output of the following C code if the input given to the code shown below is “sanfoundry”?
+#include<stdio.h>
+#define NL '\n'
+main()
+{
+    void f(void);
+    printf("enter the word\n");
+    f();
+}
+void f(void)
+{
+    char c;
+    if((c=getchar())!=NL)
+{
+f();
+    printf("%c",c);
+}
+return;
+}
+a) sanfoundry
+b) infinite loop
+c) yrdnuofnas
+d) fnasyrdnuo
+c
+10. Iteration requires more system memory than recursion.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Endianness» Next - C Questions and Answers – Signed Qualifier 

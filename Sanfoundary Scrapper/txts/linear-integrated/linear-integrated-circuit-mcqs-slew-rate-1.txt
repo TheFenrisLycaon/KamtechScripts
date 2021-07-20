@@ -1,0 +1,70 @@
+1. Slew rate is defined as the rate of change of
+a) Output voltage with respect to time
+b) Input voltage with respect to time
+c) Both output input voltage with respect to time
+d)  None of the mentioned
+a
+2. How the slew rate is represented?
+a) 1V/ms
+b) 1V/s
+c) 1V/µs
+d) 1mv/S
+c
+3. The natural semiconductor LH0063C has a slew rate of
+a) 1400V/µs
+b) 6000V/µs
+c) 500V/µs
+d) None of the mentioned
+b
+4. Rise time is specified for
+a) Large signal
+b) Medium signal
+c) Small signal
+d) All of the mentioned
+c
+5. Op-amps with wide bandwidth will have
+a) Increase in output
+b) Higher slew rate
+c) Low response time
+d) None of the mentioned
+b
+6. Which factor is responsible for causing slew rate?
+a) Internal capacitor
+b) External resistor
+c) None of the mentioned
+d) Both internal and external capacitor
+d
+7. Find the value of capacitor, if the rate of change of voltage across the capacitor is 0.78V/µs and current= 12µA.
+a) 5µF
+b) 2µF
+c) 10µF
+d) 15µF
+d
+=> C= I/ (dVc/ dt)  = 12µA/0.78V/µs = 15.38 ≅15µF. 
+8. Find the slew rate of op-amp from the output waveform given below?
+a) 3.4V/µs
+b) 10V/µs
+c) 20.66V/µs
+d) 16V/µs
+c
+SR = 3.1-(-3.1v)/ (0.6/2)µs  =6.3/0.3 = 20.66Vµs. 
+9. For the circuit shown below, calculate the rate of change of output signal
+a) Vm ωcosωt
+b) Vm cosωt
+c) Vm cosωt/ωt
+d) Vm cosωt/ω
+a
+=> Vo= Vmsinωt
+=>∴  the rate of change of the output voltage = dVo /dt= d(Vmsinωt)/ dt = Vm ωcosωt. 
+10. At what condition, the output of op-amp will be free of distortion?
+a) Slew rate > 2πfVm /106 V/µs
+b) Slew rate > 2πfVm /106 V/µs
+c) Slew rate ≥ 2πfVm /106 V/µs
+d) Slew rate = 2πfVm /106 V/µs
+b
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Closed-Loop Frequency Response and Circuit Stability» Next - Linear Integrated Circuit Questions and Answers – Slew Rate – 2 

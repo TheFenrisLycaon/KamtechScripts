@@ -1,0 +1,70 @@
+1. Which of the following filter we use in least square design methods?
+a) All zero
+b) All pole
+c) Pole-zero
+d) Any of the mentioned
+b
+2. Which of the following are cascaded in this method?
+a) Hd(z), H(z)
+b) 1/Hd(z), 1/H(z)
+c) 1/Hd(z), H(z)
+d) Hd(z), 1/H(z)
+d
+3. If δ(n) is the input, then what is the ideal output of yd(n)?
+a) δ(n)
+b) 0
+c) u(n)
+d) None of the mentioned
+a
+4. What should be the value of y(n) at n=0?
+a) 0
+b) -1
+c) 1
+d) None of the mentioned
+c
+5. The error between the desired output and actual output is represented by y(n).
+a) True
+b) False
+a
+6. Which of the following parameters are selected to minimize the sum of squares of the error sequence?
+a) {bk}
+b) {ak}
+c) {bk} & {ak}
+d) None of the mentioned
+b
+7. By integrating the error equation with respect to the parameters {ak}, we obtain set of linear equations.
+a) True
+b) False
+b
+8. Which of the following operation is done on the sequence in least square design method?
+a) Convolution
+b) DFT
+c) Circular convolution
+d) Correlation
+d
+9. The least squares method can also be used in a pole-zero approximation for Hd(z).
+a) True
+b) False
+a
+10. In which of the following condition we can use the desired response hd(n)?
+a) n < M
+b) n=M
+c) n > M
+d) none of the mentioned
+c
+11. Which of the following parameters are used to determine zeros of the filter?
+a) {bk}
+b) {ak}
+c) {bk} & {ak}
+d) None of the mentioned
+a
+12. The foregoing approach for determining the poles and zeros of H(z) is sometimes called Prony’s method.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Pade Approximation Method» Next - Digital Signal Processing Questions and Answers – FIR Least Squares Inverse Filters 

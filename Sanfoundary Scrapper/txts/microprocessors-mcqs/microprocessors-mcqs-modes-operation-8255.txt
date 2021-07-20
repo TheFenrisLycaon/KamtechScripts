@@ -1,0 +1,67 @@
+1. In the I/O mode, the 8255 ports work as
+a) reset pins
+b) set pins
+c) programmable I/O ports
+d) only output ports
+c
+2. In BSR mode, only port C can be used to
+a) set individual ports
+b) reset individual ports
+c) set and reset individual ports
+d) programmable I/O ports
+c
+3. The feature of mode 0 is
+a) any port can be used as input or output
+b) output ports are latched
+c) maximum of 4 ports are available
+d) all of the mentioned
+d
+4. The strobed input/output mode is another name of
+a) mode 0
+b) mode 1
+c) mode 2
+d) none
+b
+5. If the value of the pin STB (Strobe Input) falls to low level, then
+a) input port is loaded into input latches
+b) input port is loaded into output latches
+c) output port is loaded into input latches
+d) output port is loaded into output latches
+a
+6. The signal, SLCT in the direction of signal flow, OUT, indicates the selection of
+a) Control word register
+b) CPU
+c) Printer
+d) Ports
+c
+7. The pulse width of the signal INIT at the receiving terminal must be more than
+a) 10 microseconds
+b) 20 microseconds
+c) 40 microseconds
+d) 50 microseconds
+d
+8. The level of the signal ERROR(active low) becomes ‘low’ when the printer is in
+a) Paper end state
+b) Offline state
+c) Error state
+d) All of the mentioned
+d
+9. The signals that are provided to maintain proper data flow and synchronization between the data transmitter and receiver are
+a) handshaking signals
+b) control signals
+c) input signals
+d) none
+a
+10. The feature of mode 2 of 8255 is
+a) single 8-bit port is available
+b) both inputs and outputs are latched
+c) port C is used for generating handshake signals
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – PIO 8255 (Programmable Input – Output Port)» Next - Microprocessors Questions and Answers – Interfacing Analog to Digital Data Converters 

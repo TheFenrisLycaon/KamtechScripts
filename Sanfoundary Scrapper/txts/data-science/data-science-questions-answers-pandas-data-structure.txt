@@ -1,0 +1,63 @@
+1. Which of the following thing can be data in Pandas?
+a) a python dict
+b) an ndarray
+c) a scalar value
+d) all of the mentioned
+d
+2. Point out the correct statement.
+a) If data is a list, if index is passed the values in data corresponding to the labels in the index will be pulled out
+b) NaN is the standard missing data marker used in pandas
+c) Series acts very similarly to a array
+d) None of the mentioned
+b
+3. The result of an operation between unaligned Series will have the ________ of the indexes involved.
+a) intersection
+b) union
+c) total
+d) all of the mentioned
+b
+4. Which of the following input can be accepted by DataFrame?
+a) Structured ndarray
+b) Series
+c) DataFrame
+d) All of the mentioned
+d
+5. Point out the wrong statement.
+a) A DataFrame is like a fixed-size dict in that you can get and set values by index label
+b) Series can be be passed into most NumPy methods expecting an ndarray
+c) A key difference between Series and ndarray is that operations between Series automatically align the data based on label
+d) None of the mentioned
+a
+6. Which of the following takes a dict of dicts or a dict of array-like sequences and returns a DataFrame?
+a) DataFrame.from_items
+b) DataFrame.from_records
+c) DataFrame.from_dict
+d) All of the mentioned
+a
+7. Series is a one-dimensional labeled array capable of holding any data type.
+a) True
+b) False
+a
+8. Which of the following works analogously to the form of the dict constructor?
+a) DataFrame.from_items
+b) DataFrame.from_records
+c) DataFrame.from_dict
+d) All of the mentioned
+a
+9. Which of the following operation works with the same syntax as the analogous dict operations?
+a) Getting columns
+b) Setting columns
+c) Deleting columns
+d) All of the mentioned
+d
+10. If data is an ndarray, index must be the same length as data.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Data Science.
+Here’s the list of Best Reference Books in Data Science.
+To practice all areas of Data Science, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Science Questions and Answers – Computational tools» Next - Data Science Questions and Answers – Pandas – 1 

@@ -1,0 +1,107 @@
+1. What are command line arguments?
+a) Arguments passed to main() function
+b) Arguments passed to any function
+c) Arguments passed to class functions
+d) Arguments passed to structure functions
+a
+2. To use command line arguments in C++, how many parameters are passed to the main function?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+3. What is the signature of math in function using command line arguments?
+a) int main(int argc, char const *argv[]);
+b) int main(int argc, char const **argv);
+c) int main(int argc, char **argv);
+d) all of the mentioned
+d
+4. What does the first parameter of the main function represent?
+a) Number of command line arguments
+b) List of command line arguments
+c) Dictionary of command line arguments
+d) Stack of command line arguments
+a
+5. What does the second parameter of the main function represent?
+a) Number of command line arguments
+b) List of command line arguments
+c) Dictionary of command line arguments
+d) Stack of command line arguments
+b
+6. Which of the following is correct about the first parameter of the main function?
+a) First argument is of int type
+b) Stores the count of command line arguments
+c) First argument is non-negative
+d) All of the mentioned
+d
+7. Which of the following is correct about the second parameter of the main function?
+a) Second parameter is an array of character pointers
+b) First string of the list is the name of the program’s output fle
+c) The string in the list are separated by space in the terminal
+d) All of the mentioned
+d
+8. Which of the following gives the name of the program if the second parameter to the main fucntion is char **argv?
+a) argv[3] 
+b) argv[1] 
+c) argv[0] 
+d) argv[2] 
+c
+9. What will be the output of the following C++ code if the following arguments are executed on terminal?
+================program.cpp================
+#include <iostream>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	for(int i=0;i<argc;i++)
+		cout<<argv[i]<<"\n";
+}
+=======================================
+================commands===============
+$ g++ program.cpp -o output
+$ ./output Hello World
+=======================================
+a) 
+./output
+Hello
+World
+b) 
+Hello
+World
+c) 
+program.cpp
+Hello
+d) 
+program.cpp
+Hello
+World
+a
+  
+10. Which character is used to separate different arguments?
+a) #
+b) $
+c) space
+d) |
+c
+./output This is a single parameter
+then they will interpreted as 5 command line arguments as shown : [“./output”, “This”, “is”, “single”, “parameter”].
+11. Which is the correct way of handling arguments with spaces?
+a) Use single quotes
+b) Either single or double quotes
+c) Use double quotes
+d) There is no way of handling arguments with space
+b
+12. Which of the following is correct to interpret Hello World as a single argument?
+
+1) $ ./output 'Hello World'
+2) $ ./output Hello World
+a) Only 1
+b) Only 2
+c) Both 1 and 2
+d) Neither 1 nor 2
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Lambda Expressions 

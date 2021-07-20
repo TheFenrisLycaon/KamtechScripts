@@ -1,0 +1,77 @@
+1. Choose the wrong statement about the properties used in C#.NET?
+a) Each property consists of accessor as get and set
+b) A property cannot be either read or write only
+c) Properties can be used to store and retrieve values to and from the data members of a class
+d) Properties are like actual methods which work like data members
+a
+2. Choose the statements which makes use of essential properties rather than making data member public in C#.NET?
+a) Properties have their own access levels like private, public, protected etc. which allows it to have better control about managing read and write properties
+b) Properties give us control about what values may be assigned to a member variable of a class they represent
+c) Properties consist of set accessor inside which we can validate the value before assigning it to the data variable
+d) All of the mentioned
+d
+3. Where the properties can be declared?
+a) Class
+b) Struct
+c) Interface
+d) All of the mentioned
+d
+4. Select the modifiers which can be used with the properties?
+a) Private
+b) Public
+c) Protected Internal
+d) All of the mentioned
+d
+5. Choose the correct statements about write-only properties in C#.NET?
+a) Properties which can only be set
+b) Properties once set and hence values cannot be read back in nature
+c) Useful for usage in classes which store sensitive information like password of a user
+d) All of the mentioned
+d
+6. Consider a class maths and we had a property called a sum.b is a reference to a maths object and we want the statement b.sum = 10 to fail. Which of the following is the correct solution to ensure this functionality?
+a) Declare sum property with both get and set accessors
+b) Declare sum property with only get accessor
+c) Declare sum property with get, set and normal accessors
+d) None of the mentioned
+c
+7. Consider a class maths and we had a property called as sum.b which is the reference to a maths object and we want the statement Console.WriteLine(b.sum)to fail. Which among the following is the correct solution to ensure this functionality?
+a) Declares sum property with only get accessor
+b) Declares sum property with only set accessor
+c) Declares sum property with both set and get accessor
+d) Declares sum property with both set, get and normal accessor
+b
+8. Consider a class maths and we had a property called as sum.b is a reference to a maths object and we want the code below to work. Which is the correct solution to ensure this functionality?
+b.maths = 10;
+Console.WriteLine(b.maths);
+a) Declare maths property with get and set accessors
+b) Declare maths property with only get accessors
+c) Declare maths property with only set accessors
+d) Declare maths property with only get, set and normal accessors
+a
+9. If math class had add property with get and set accessors, then which of the following statements will work correctly?
+a)  math.add = 20;
+b)
+    math m =  new math();
+    m.add = 10;
+c) Console.WriteLine(math.add);
+d) None of the mentioned
+b
+10. If the math class had add property with get accessors then which of the following statements will work correctly?
+a) 
+   math m = new math();
+   m.add = 10;
+b) 
+   math m = new math();
+   m.add = m.add + 20;
+c) 
+   math m = new math();
+   int i;
+   i = m.add;
+d) math.add = 20;
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Introduction of Indexers» Next - C# Questions & Answers – Properties and its Applications 

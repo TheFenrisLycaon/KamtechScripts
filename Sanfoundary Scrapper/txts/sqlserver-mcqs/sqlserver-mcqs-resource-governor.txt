@@ -1,0 +1,66 @@
+1. Resource Governor is a feature that enables you to specify limits on the amount of ____________
+a) CPU
+b) Physical IO
+c) Memory
+d) None of the mentioned
+d
+2. Point out the correct statement.
+a) You can set IO thresholds on the internal resource pool
+b) There is workload monitoring or workload management between SQL Server instances
+c) A resource group represents the physical resources of the server
+d) Resource management is limited to the SQL Server Database Engine
+d
+3. You cannot use the ____________ statement to enable Resource Governor when in a user transaction.
+a) ALTER RESOURCE GOVERNOR
+b) ALTER GOVERNOR
+c) ALTER RESOURCE
+d) All of the mentioned
+a
+4. Enabling the Resource Governor requires _________ permission.
+a) CONTROL SERVER
+b) CONTROL
+c) SERVER
+d) SELECT
+a
+5. Point out the wrong statement.
+a) Two workload groups (internal and default) are created and mapped to their corresponding resource pools when SQL Server is installed
+b) A resource group serves as a container for session requests that have similar classification criteria
+c) Resource Governor also supports user-defined workload groups
+d) Resource Governor does not impose any controls on a dedicated administrator connection (DAC)
+b
+6. Which of the following query enables the Resource Governor?
+a) ALTER RESOURCE GOVERNOR CONFIGURE;
+b) ALTER RESOURCE RECONFIGURE;
+c) ALTER RESOURCE GOVERNOR RECONFIGURE;
+d) None of the mentioned
+c
+7. Which of the following query disables the resource governor?
+a) ALTER RESOURCE GOVERNOR ENABLE CONFIGURE;
+b) ALTER  GOVERNOR DISABLE;
+c) ALTER RESOURCE GOVERNOR DISABLE;
+d) None of the mentioned
+c
+8. ____________  is a hard cap limit on the CPU bandwidth for all requests in the resource pool.
+a) MIN_CPU_PERCENT
+b) CAP_CPU_PERCENT
+c) MAX_CPU_PERCENT
+d) MAX_MEMORY_PERCENT
+b
+9. ___________ lets you affinitize a resource pool to one or more schedulers or NUMA nodes for greater isolation of CPU resources.
+a) MAX_IOPS_PER_VOLUME
+b) AFFINITY
+c) MAX_CPU_PERCENT
+d) MAX_MEMORY_PERCENT
+b
+10. Which of the following formula is used for calculating the effective MAX %?
+a) 100 – sum(MIN %)
+b) min(X,Y)
+c) max(X,Y)
+d) Effective MAX % – MIN %
+b
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Partitioning» Next - SQL Server Questions and Answers – Business Intelligence 

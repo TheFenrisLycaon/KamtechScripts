@@ -1,0 +1,80 @@
+1. What is the full form of SQL?
+a) Structured Query Language
+b) Structured Query List
+c) Simple Query Language
+d) None of the Mentioned
+a
+2. Which is the subset of SQL commands used to manipulate Oracle Database structures, including tables?
+a) Data Definition Language(DDL)
+b) Data Manipulation Language(DML)
+c) DDL and DML
+d) None of the Mentioned
+a
+3. In SQL, which command is used to SELECT only one copy of each set of duplicable rows
+a) SELECT DISTINCT
+b) SELECT UNIQUE
+c) SELECT DIFFERENT
+d) All of the Mentioned
+a
+4. A command that lets you change one or more fields in a record is
+a) Insert
+b) Modify
+c) Look-up
+d) All of the Mentioned
+b
+5. Which of the SQL statements is correct?
+a) SELECT Username AND Password FROM Users
+b) SELECT Username, Password FROM Users
+c) SELECT Username, Password WHERE Username = ‘user1’
+d) None of the Mentioned
+b
+SELECT column_name1, column_name2 FROM table_name WHERE condition So, only SELECT Username, Password FROM Users follows the above syntax.
+6. The SQL statement
+   SELECT SUBSTR(‘123456789’, INSTR(‘abcabcabc’, ‘b’), 4) FROM DUAL;
+a) 6789
+b) 2345
+c) 1234
+d) 456789
+b
+7. Table Employee has 10 records. It has a non-NULL SALARY column which is also UNIQUE.
+The SQL statement
+SELECT COUNT(*) FROM Employee WHERE  SALARY > ANY (SELECT SALARY FROM EMPLOYEE);
+prints
+a) 10
+b) 9
+c) 5
+d) 0
+b
+8. Find the temperature in increasing order of all cities
+a) SELECT city FROM weather ORDER BY temperature;
+b) SELECT city, temperature FROM weather;
+c) SELECT city, temperature FROM weather ORDER BY temperature;
+d) SELECT city, temperature FROM weather ORDER BY city;
+c
+SELECT column_name, aggregate_function(column_name)
+	FROM table_name
+	WHERE column_name operator value
+	GROUP BY column_name
+	HAVING aggregate_function(column_name) operator value
+	ORDER BY ; 
+So base on [SELECT city, temperature FROM weather ORDER BY temperature;] this  will be the correct answer.
+9. Which of the following is illegal?
+a) SELECT SYSDATE – SYSDATE FROM DUAL;
+b) SELECT SYSDATE – (SYSDATE – 2) FROM DUAL;
+c) SELECT SYSDATE – (SYSDATE + 2) FROM DUAL;
+d) None of the Mentioned
+d
+SELECT SYSDATE – (SYSDATE + 2) FROM DUAL; outputs -2.
+10. Let the statement : SELECT column1 FROM myTable; return 10 rows.
+    The statement : SELECT ALL column1 FROM myTable; will return
+a) less than 10 rows
+b) more than 10 rows
+c) exactly 10 rows
+d) none of the Mentioned
+c
+Sanfoundry Global Education & Learning Series – Oracle Database.
+To practice all areas of Oracle Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Oracle Database Questions and Answers – Attribute, Tuple and Entity» Next - Oracle SQL Questions and Answers – DDL Command 

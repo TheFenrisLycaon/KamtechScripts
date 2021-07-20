@@ -1,0 +1,68 @@
+1. For a determinant containing 4 elements a1 b1 a2 b2,  what will the elements of the leading diagonal?
+a) a1 b1
+b) a1 b2
+c) a2 b1
+d) a2 b2
+b
+2. For a determinant \(\begin{vmatrix}a&b&c\\d&e&f\\g&h&i\end{vmatrix}\), the cofactor of h will be equal to which of the following?
+a) (-1)3+2 \(\begin{vmatrix}a&c\\d&f\end{vmatrix}\) 
+b) (-1)3+2 \(\begin{vmatrix}d&f\\g&i\end{vmatrix}\) 
+c) (-1)3+2 \(\begin{vmatrix}a&c\\g&i\end{vmatrix}\) 
+d) (-1)3+2 \(\begin{vmatrix}b&c\\e&f\end{vmatrix}\) 
+a
+3. What is the value of the determinant \(\begin{pmatrix}2&5&1\\7&4&5\\1&2&3\end{pmatrix}\)?
+a) -56
+b) -96
+c) -66
+d) -85
+c
+= 2(12-10) – 5(21-5) + 1(14-4)
+= -66.
+4. A determinant vanishes if one of the entire row or column consists of all zero elements?
+a) True
+b) False
+b
+5. If each element of a line consists of m terms, the determinant can be expressed as the sum of ______ determinants.
+a) m-1
+b) m
+c) m+1
+d) m2
+b
+6. Consider the set P of all determinants of order 3 with entries 0 or 1 only. Let Q the subset of P consisting of all determinants with value 1.
+Let R be the subset of P consisting of all determinants with value – 1. Then, which of the following is true?
+a) R is empty
+b) Q has as many elements as R
+c) P = Q ∪ R
+d) Q has twice as many elements as R
+b
+Similarly, we found that the number of determinants with value 1 are like \(\begin{bmatrix}1&0&1\\1&1&0\\0&1&0\end{bmatrix}\) are equal to the number of determinants with value -1 \(\begin{bmatrix}1&1&1\\1&0&0\\0&0&1\end{bmatrix}\).
+7. A matrix B and _____ will have the same determinant.
+a) Its transpose
+b) Its inverse
+c) Its echelon matrix
+d) Its adjoint
+a
+8. Which of the following are true?
+a) If we multiply a row in a matrix A by a real number r, |A| changes in r.|A|
+b) If we multiply a column and a row in A, both by a real number r, |A| changes in r.|A|
+c) If we swap two columns in A, |A| does not change sign
+d) If we divide a matrix with a scalar, division occurs only in a single row or column
+a
+9. If A and B are two square matrices, then |A.B| is same as which of the following?
+a) |A|.|B|
+b) |B|.|A|
+c) |B-A|
+d) |A-B|
+a
+10.  For a matrix A having |A| = 0, which of the following are true?
+a) A-1 exists
+b) A-1 does not exists
+c) A is non-singular
+d) A-1 exists with |A-1|= 0
+b
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Methods, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Numerical Analysis Questions and Answers – Newton Raphson Method – 2» Next - Simultaneous Algebraic Equations Questions and Answers – Introduction to Matrices 

@@ -1,0 +1,79 @@
+1. If EA(active low) signal =1, then the execution starts from
+a) internal EPROM
+b) flash RAM
+c) internal EPROM or flash RAM
+d) none
+c
+2. The pin that is grounded for interfacing external EPROM is
+a) EA(active low)
+b) PSEN(active low)
+c) OE(active low)
+d) All of the mentioned
+a
+3. The step that is involved in the procedure of memory interfacing with 8051 is
+a) data bus is connected to data lines of memory chips
+b) PSEN(active low) is connected to OE(active low) of EPROM chips
+c) writing address map of memory chip in bit form
+d) all of the mentioned
+d
+4. The device that is used for deriving chip select signals is
+a) Logic gates
+b) Multiplexers
+c) PLAs and EPROMs
+d) All of the mentioned
+d
+5. For deriving chip selects of isolated memory or IO devices, the gates that are traditionally used are
+a) NOR and NAND
+b) NAND and NOT
+c) NOT and NOR
+d) AND, OR and NOT
+b
+6. The current that is required for a LED for an appropriate glow is
+a) 6-8 mA
+b) 4-6 mA
+c) 8-10 mA
+d) 10-12 mA
+c
+7. The maximum current that can be sinked totally by all the ports of 8051 is
+a) 61 mA
+b) 81 mA
+c) 91 mA
+d) 71 mA
+d
+8. The number of LEDs that can be connected to a port of 8051, if all are expected to glow simultaneously is
+a) 6
+b) 8
+c) 10
+d) 12
+b
+9. Which is true in interfacing 7 segment code display?
+a) transmitted by second port
+b) display is selected by third port
+c) display is selected by second port
+d) none of the mentioned
+c
+10. After the display is selected by second port, then the digit (LED) glows for a duration of
+a) 5 msec
+b) 10 msec
+c) 2 msec
+d) 6 msec
+a
+11. The number of scans of the complete 8-digit display that can be carried out in one second is
+a) 15
+b) 25
+c) 35
+d) 55
+b
+12. To convert its current output into a voltage, the DAC 0808 is connected with
+a) Transistor(BJT) externally
+b) FET externally
+c) OPAMP externally
+d) OPAMP internally
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors for Campus Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Interfacing With 8051 Ports -1» Next - Microprocessors Questions and Answers – Interrupt Structure of 8051 

@@ -1,0 +1,104 @@
+This section on C++ interview questions and answers focuses on “Standard Library Design”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Standard Library Design” along with answers, explanations and/or solutions:
+1. Pick out the wrong header file about strings.
+a) <string>
+b) <regex>
+c) <ios>
+d) <reg>
+c
+2. Which is best for coding the standard library for c++?
+a) no trailing underscores on names
+b) complex objects are returned by value
+c) have a member-swap()
+d) all of the mentioned
+d
+-> No trailing underscores on names
+-> Complex objects are returned by value
+-> It should have a member-swap().
+3. What is meant by vector in the container library contains?
+a) It is a sequence container that encapsulates dynamic size arrays
+b) It is a sequence container that encapsulates static size arrays
+c) It manages the memory
+d) It manages the length and size
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <vector>    using namespace std;    int main()    {        vector<int> v;        v.assign( 10, 42 );        for (int i = 0; i < v.size(); i++)         {            cout << v[i] << " ";        }    }
+a) 42
+b) 42 42
+c) 424
+d) 42 for 10 times
+d
+Output:
+$ g++ std.cpp
+$ a.out
+42 42 42 42 42 42 42 42 42 42
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <list>    #include <queue>    using namespace std;    int main()    {        queue<char> q;        q.push('a');        q.push('b');        q.push('c');        cout << q.front();        q.pop();        cout << q.front();        q.pop();        cout << q.front();        q.pop();    }
+a) ab
+b) abc
+c) a
+d) error
+b
+Output:
+$ g++ std1.cpp
+$ a.out
+abc
+6. What will be the output of the following C++ code?
+    #include <list>    #include <string>    #include <iostream>    using namespace std ;    typedef list<string> LISTSTR;     int main()    {        LISTSTR :: iterator i;        LISTSTR test;        test.insert(test.end(), "one");        test.insert(test.end(), "two");        LISTSTR test2(test);        LISTSTR test3(3, "three");        LISTSTR test4(++test3.begin(),        test3.end());        cout << "test:";        for (i =  test.begin(); i != test.end(); ++i)            cout << " " << *i << endl;        cout << "test:";        for (i =  test2.begin(); i != test2.end(); ++i)            cout << " " << *i << endl;        cout << "test:";        for (i =  test3.begin(); i != test3.end(); ++i)            cout << " " << *i << endl;        cout << "test:";        for (i =  test4.begin(); i != test4.end(); ++i)            cout << " " << *i << endl;    }
+a) test
+b) test one
+c) test two
+d) 
+ test: one
+ two
+test: one
+ two
+test: three
+ three
+ three
+test: three
+ three
+d
+Output:
+$ g++ std3.cpp
+$ a.out
+test: one
+ two
+test: one
+ two
+test: three
+ three
+ three
+test: three
+ three
+  
+7. Pick out the wrong header file.
+a) <algorithm>
+b) <containers>
+c) <iterators>
+d) <process>
+d
+8. What is meant by standard c++ library?
+a) It is the collection of class definitions for standard data structures and a collection of algorithms
+b) It is a header file
+c) Collection of algorithms
+d) Step by step process
+a
+9. Pick out parameter for rehash method in unordered_set in c++?
+a) count
+b) size
+c) hash
+d) type
+a
+10. What is the use of <exception> header
+a) Contains the standard exception files
+b) Contains the standard library files
+c) It is used to arise an exception in the program
+d) Reduce the memory size
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Free Store» Next - C++ Programming Questions and Answers – Container Design 

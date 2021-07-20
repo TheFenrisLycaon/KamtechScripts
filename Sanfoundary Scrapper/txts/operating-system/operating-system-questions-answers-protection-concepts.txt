@@ -1,0 +1,67 @@
+1. Which principle states that programs, users and even the systems be given just enough privileges to perform their task?
+a) principle of operating system
+b) principle of least privilege
+c) principle of process scheduling
+d) none of the mentioned
+b
+2. _______ is an approach to restricting system access to authorized users.
+a) Role-based access control
+b) Process-based access control
+c) Job-based access control
+d) None of the mentioned
+a
+3. For system protection, a process should access _____________
+a) all the resources
+b) only those resources for which it has authorization
+c) few resources but authorization is not required
+d) all of the mentioned
+b
+4. The protection domain of a process contains _____________
+a) object name
+b) rights-set
+c) both object name and rights-set
+d) none of the mentioned
+c
+5. If the set of resources available to the process is fixed throughout the process’s lifetime then its domain is _____________
+a) static
+b) dynamic
+c) neither static nor dynamic
+d) none of the mentioned
+a
+6. Access matrix model for user authentication contains _____________
+a) a list of objects
+b) a list of domains
+c) a function which returns an object’s type
+d) all of the mentioned
+d
+7. Global table implementation of the matrix table contains _____________
+a) domain
+b) object
+c) right-set
+d) all of the mentioned
+d
+8. For a domain _______ is a list of objects together with the operation allowed on these objects.
+a) capability list
+b) access list
+c) both capability and access list
+d) none of the mentioned
+a
+9. Which one of the following is capability based protection system?
+a) hydra
+b) cambridge CAP system
+c) both hydra and cambridge CAP system
+d) none of the mentioned
+c
+10. In UNIX, domain switch is accomplished via _____________
+a) file system
+b) user
+c) superuser
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions & Answers – Protection – Access Matrix» Next - Operating System Questions & Answers – Security 

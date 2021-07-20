@@ -1,0 +1,69 @@
+This section on online C++ test focuses on “Constants”. One shall practice these test questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our online C++ test questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of online C++ test questions on “Constants” along with answers, explanations and/or solutions: 
+1. The constants are also called as _____________
+a) const
+b) preprocessor
+c) literals
+d) variables
+c
+2. What are the parts of the literal constants?
+a) integer numerals
+b) floating-point numerals
+c) strings and boolean values
+d) all of the mentioned
+d
+3. How are the constants declared?
+a) const keyword
+b) #define preprocessor
+c) both const keyword and #define preprocessor
+d) $define
+c
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int  const  p = 5;        cout << ++p;        return 0;    }
+a) 5
+b) 6
+c) Error
+d) 8
+c
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    #define PI 3.14159    int main ()    {        float r = 2;        float circle;        circle = 2 * PI * r;        cout << circle;        return 0;    }
+a) 12.5664
+b) 13.5664
+c) 10
+d) 15
+a
+Output:
+$ g++ cons.cpp
+$ a.out
+12.5664
+6. Which of the following statement is not true about preprocessor directives?
+a) These are lines read and processed by the preprocessor
+b) They do not produce any code by themselves
+c) These must be written on their own line
+d) They end with a semicolon
+d
+7. Regarding the following statement which of the statements is true?
+const int a = 100;
+a) Declares a variable a with 100 as its initial value
+b) Declares a construction a with 100 as its initial value
+c) Declares a constant a whose value will be 100
+d) Constructs an integer type variable with an as identifier and 100 as the value
+c
+8. The difference between x and ‘x’ is?
+a) The first one refers to a variable whose identifier is x and the second one refers to the character constant x
+b) The first one is a character constant x and the second one is the string literal x
+c) Both are same
+d) Both are string literal
+a
+9. How to declare a wide character in the string literal?
+a) L prefix
+b) l prefix
+c) W prefix
+d) Z prefix
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Pointers into Arrays» Next - C++ Programming Questions and Answers – References – 1 

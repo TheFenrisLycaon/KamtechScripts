@@ -1,0 +1,99 @@
+AB  = BC = CD = 20m
+All moment options are given in KN/m and all rotations in rad.
+EI is constant.
+1. How many deflection unknowns will be there in this case for which we would need equations?
+a) 0
+b) 1
+c) 2
+d) 3
+a
+2. How many unknowns will be left finally which are non-zero?
+a) 0
+b) 1
+c) 2
+d) 3
+c
+3. How many total slope deflection equations will be written in this question?
+a) 8
+b) 6
+c) 4
+d) 3
+b
+4. What will be the FEMAB ?
+a) 80
+b) -80
+c) 0
+d) 160
+c
+5. Which of the following set of points should be chosen to generate extra equations?
+a) A and B
+b) B and C
+c) C and D
+d) D and A
+b
+6. What will be one of the extra condition, which we will get if we conserve moment near joint B?
+a) mBA + mCA = 0
+b) mBA + mCB = 0
+c) mBA + mBC = 0
+d) mAB + mBC = 0
+c
+7. What will be one of the extra condition, which we will get if we conserve moment near joint C?
+a) mBA + mCA = 0
+b) mBA + mCB = 0
+c) mBA + mBC = 0
+d) mCD + mCB = 0
+D
+8. What will be the value of rotation at point B?
+a) 22.2/EI
+b) -22.2/EI
+c) 0
+d) 100/EI
+a
+9. What will be the value of rotation at point C?
+a) 22.2/EI
+b) -22.2/EI
+c) 0
+d) 100/EI
+b
+10. What will be the value of mAB?
+a) 22.2
+b) 44.4
+c) -44.4
+d) -22.2
+a
+11. What will be the value of mBA?
+a) 22.2
+b) 44.4
+c) -44.4
+d) -22.2
+b
+12. What will be the value of mBC?
+a) 22.2
+b) 44.4
+c) -44.4
+d) -22.2
+c
+13. What will be the value of mCB?
+a) 22.2
+b) 44.4
+c) -44.4
+d) -22.2
+b
+14. What will be the value of mCD?
+a) 22.2
+b) 44.4
+c) -44.4
+d) -22.2
+c
+15. What will be the value of mDC?
+a) 22.2
+b) 44.4
+c) -44.4
+d) -22.2
+b
+Sanfoundry Global Education & Learning Series – Structural Analysis.
+To practice basic questions and answers on all areas of Structural Analysis, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Structural Analysis Questions and Answers – Analysis of Frames : No Sidesway-III» Next - Structural Analysis Questions and Answers – Analysis of Frames : Sidesway-I 

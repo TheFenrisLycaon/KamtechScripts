@@ -1,0 +1,92 @@
+1. Why are generics used?
+a) Generics make code more fast
+b) Generics make code more optimised and readable
+c) Generics add stability to your code by making more of your bugs detectable at compile time
+d) Generics add stability to your code by making more of your bugs detectable at run time
+c
+2. Which of these type parameters is used for generic methods to return and accept any type of object?
+a) K
+b) N
+c) T
+d) V
+c
+3. Which of these is an correct way of defining generic method?
+a) name(T1, T2, …, Tn) { /* … */ }
+b) public name { /* … */ }
+c) class name[T1, T2, …, Tn] { /* … */ }
+d) name{T1, T2, …, Tn} { /* … */ }
+b
+4. What will be the output of the following C# code snippet?
+public class Generic<T>{    Stack<T> stk = new Stack<T>();    public void push(T obj)    {        stk.Push(obj);    }    public T pop()    {        T obj = stk.Pop();        return obj;    }}class Program{    static void Main(string[] args)    {        Generic<int> g = new Generic<int>();        g.push("Csharp");        Console.WriteLine(g.pop());        Console.ReadLine();    }}
+a) Compile time error
+b) Csharp
+c) 0
+d) Run time error
+b
+Output :
+Csharp
+5. What will be the output of the following C# code snippet?
+public class Generic<T>{    Stack<T> stk = new Stack<T>();    public void push(T obj)    {        stk.Push(obj);    }    public T pop()    {        T obj = stk.Pop();        return obj;    }}class Program{    static void Main(string[] args)    {        Generic<string> g = new Generic<string>();        g.push(30);        Console.WriteLine(g.pop());        Console.ReadLine();    }}
+a) 0
+b) 30
+c) Runtime Error
+d) Compile time Error
+b
+Output : 30
+6. What does the following C# code block define?
+ class Gen<T> {                    T ob;                  }
+a) Generics class declaration
+b) Declaration of variable
+c) A simple class declaration
+d) Both Generics class declaration & Declaration of variable
+d
+7. What will be the output of the following C# code snippet?
+public class Generic<T>{    Stack<T> stk = new Stack<T>();    public void push(T obj)    {        stk.Push(obj);    }    public T pop()    {        T obj = stk.Pop();        return obj;    }}class Program{    static void Main(string[] args)    {        Generic<string> g = new Generic<string>();        g.push("C++");        Console.WriteLine(g.pop() + " ");        Generic<int> g1 = new Generic<int>();        g1.push(20);        Console.WriteLine(g1.pop());        Console.ReadLine();    }}
+a) C++
+b) 20
+c) 
+C++
+20
+d) 0
+c
+Output :
+         C++
+         20
+8. Select the type argument of open constructed type?
+a) Gen<int>
+b) Gen<T>
+c) Gen<>
+d) None of the mentioned
+c
+9. Choose the correct way to call subroutine fun() of the sample class?
+class a{    public void x(int p, double k)    {        Console.WriteLine("k : csharp!");    }}
+a)
+   delegate void del(int i);
+   x s = new x();
+   del d = new del(ref s.x);
+   d(8, 2.2f);
+b)
+   delegate void del(int p,  double k);
+   del d;
+   x s = new x();
+   d = new del(ref s.x);
+   d(8, 2.2f);
+c)
+   x s = new x();
+   delegate void d = new del(ref x);
+   d(8, 2.2f);
+d) all of the mentioned
+b
+10. What does the following C# code set defines?
+ public Gen(T o) {                     ob = o;                  }
+a) Generics class decleration
+b) Decleration of variable
+c) Generic constructor decleration
+d) All of the mentioned
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Network Errors Handling» Next - C# Questions & Answers – Unsafe code & Pointers Basics 

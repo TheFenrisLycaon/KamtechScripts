@@ -1,0 +1,67 @@
+1. Which of the following members should be hidden?
+a) Delayed
+b) Hidden
+c) Primary
+d) All of the mentioned
+a
+2. Point out the wrong statement.
+a) Clients will not distribute reads with the appropriate read preference to hidden members
+b) Hidden members cannot vote in replica set elections
+c) If you stop a voting hidden member, ensure that the set has an active majority or the primary will step down
+d) None of the mentioned
+b
+3. __________ operations cannot guarantee that the data files do not change.
+a) db.lockl()
+b) db.synclock()
+c) db.fsyncUnlock()
+d) secondary
+c
+4. _______ may block reads, including those necessary to verify authentication.
+a) db.lockall()
+b) db.fsyncLock()
+c) db,lockreads()
+d) none of the mentioned
+b
+5. Point out the correct statement.
+a) In MongoDB, clients cannot see the results of writes before they are made durable
+b) Users may configure read preference on a per-connection basis to prefer that the read operations return results from the secondary members
+c) Clients cannot read data which may be subsequently rolled back
+d) None of the mentioned
+b
+6. ________ unlocks a mongod instance to allow writes and reverses the operation of a db.fsyncLock() operation.
+a) db.fsyncUnlock()
+b) db.fsynclock()
+c) db.syncUnlock()
+d) secondary
+a
+7. Delayed members are a ________ or a running “historical” snapshot of the data set.
+a) “rolling backup”
+b) “roll backup”
+c) “rolling commit”
+d) none of the mentioned
+a
+8. Delayed members apply operations from the _______ on a delay.
+a) oplog
+b) log
+c) mlog
+d) none of the mentioned
+a
+9. In sharded clusters, delayed members have limited utility when the __________ is enabled.
+a) Balancer
+b) Collector
+c) Emitter
+d) None of the mentioned
+a
+10. A delayed member has its priority equal to 0 and hidden equal to ___________
+a) 0
+b) flase
+c) true
+d) all of the mentioned
+c
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Read and Write Semantics» Next - MongoDB Questions and Answers – Replication Processes – 1 

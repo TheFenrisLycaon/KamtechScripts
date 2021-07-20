@@ -1,0 +1,66 @@
+1. Which of the following is an extended event task?
+a) create an Extended Events session
+b) alter an Extended Events session
+c) find out what events are available in the registered packages
+d) all of the mentioned
+d
+2. Point out the correct statement.
+a) The SQL Server Extended Events engine is a collection of services and objects
+b) Buffers are attached to sessions to handle buffering and dispatch, and causality tracking
+c) Policy tracking provides the ability to track work across multiple tasks
+d) None of the mentioned
+a
+3. SQL Server Extended Events Packages consist of _____________
+a) Events
+b) Predicates
+c) Types
+d) All of the mentioned
+d
+4. Which of the DDL statement creates a session object that contains the metadata?
+a) CREATE EVENT SESSION
+b) CREATE SESSION
+c) CREATE EVENT SESSION METADATA
+d) None of the mentioned
+a
+5. Point out the wrong statement.
+a) Actions and predicates are bound to events on a per-session basis
+b) Extended Event sessions have implied boundaries in that the configuration of one session does change the configuration of another session
+c) The mapping between package objects and sessions is many to many
+d) None of the mentioned
+b
+6. _________ can be applied to the metadata or to an active session and the metadata.
+a) DROP EVENT SESSION
+b) ALTER EVENT SESSION,STATE=STOP
+c) ALTER EVENT SESSION,STATE=START
+d) All of the mentioned
+d
+7. Which of the following catalog view is used for SQL Server Extended Events?
+a) sys.server_sessions
+b) sys.server_event_sess
+c) sys.server_event_session_actions
+d) all of the mentioned
+c
+8. _________ returns a row for each customizable column that was explicitly set on events and targets.
+a) sys.server_event_session_targets
+b) sys.server_event_session_fields
+c) Returns a row for each event in an event session
+d) All of the mentioned
+b
+9. Which of the following pair of views has one to many relationship?
+a) sys.server_event_session_actions.event_session_id, sys.sys.server_event_sessions.event
+b) sys.server_event_session_actions, sys.sys.server_event_sessions.event_session_id
+c) sys.server_event_session_actions.event_session_id,sys.sys.server_event_sessions.event _session_id
+d) none of the mentioned
+c
+10. Which of the following format output events in an Event Tracing for Windows?
+a) event_file
+b) ring_buffer
+c) histogram
+d) etw_classic_sync_target
+d
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Wait States» Next - SQL Server Questions and Answers – Change Tracking 

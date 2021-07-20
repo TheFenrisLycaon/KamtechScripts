@@ -1,0 +1,97 @@
+1. What is true regarding ‘Fence’?
+a) Its a method to confine users to one side of a boundary
+b) It can protect Operating system from one user
+c) It cannot protect users from each other
+d) All of the mentioned
+d
+2. What is not true regarding ‘Fence’?
+a) It is implemented via hardware register
+b) It doesn’t protect users from each other
+c) It good to protect OS from abusive users
+d) Its implementation is unrestricted and can take any amount of space in Operating system.
+d
+3. What is correct regarding ‘relocation’ w.r.t protecting memory?
+a) It is a process of taking a program as if it began at address 0
+b) It is a process of taking a program as if it began at address 0A
+c) Fence cannot be used within relocation process
+d) All of the mentioned
+a
+4. How can fence and relocation be used together?
+a) To each program address, the contents of fence register are added
+b) To contents of fence register is subtracted from actual address of program
+c) To each program address, the contents of fence register are not added
+d) None of the mentioned
+a
+5. What is the basic need in protecting memory in multi-user environment?
+a) We need two registers one ‘start’ and other ‘end’
+b) We need a variable register
+c) A fence register has to be used known as base register.
+d) None of the mentioned
+c
+6. What is the role of base/bound registers?
+a) They give starting address to a program
+b) Program’s addresses are neatly confined to space between the base and the bound registers
+c) They provide encrypted environment
+d) This technique doesn’t protects a program’s address from modification by another user
+b
+7. What is all-or-nothing situation for sharing in memory?
+a) Program makes all its data available to be accessed
+b) It prohibits access to some
+c) It creates rules who can access program memory
+d) It separates program memory and data memory
+a
+8. How is disadvantage of all-or-nothing approach overcome?
+a) Base/Bound
+b) Relocation technique
+c) Fence method
+d) Tagged architecture
+d
+9. What is true regarding tagged architecture?
+a) Every word of machine memory has one or more extra bits
+b) Extra bits are used to do padding
+c) Extra bits are not used to identify rights to that word
+d) It is very compatible to code upgrades
+a
+10. What is best solution to have effect of unbounded number if base/bound registers?
+a) Tagged architecture
+b) Segmentation
+c) Fence method
+d) None of the mentioned
+b
+11. What is a major feature of segmentation?
+a) Program is divided in data memory and program memory
+b) Program is executed in segments
+c) Program is divided into pieces having different access rights
+d) It has effect of an unbounded architecture
+c
+12. What is the correct way the segmentation program address is stored?
+a) name, offset
+b) start, stop
+c) access, rights
+d) offset, rights
+a
+13. What is the main objective of protection?
+a) Ensure all objects are protected individually
+b) Objects have different priority and thus different levels of protection
+c) Ensure that each object is accessed correctly and only by allowed processes
+d) None of the mentioned
+c
+14. What is the principle of least privilege?
+a) Less privileges provide difficulty in executing admin tasks
+b) Users can get temporary high privilege access
+c) Users should be given just enough privileges to perform their tasks
+d) None of the mentioned
+c
+15. What is the need of protection?
+a) Prevent mischievous violation
+b) Prevent and intentional
+c) Ensure that each program component uses resources allotted to it only
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions & Answers – Security» Next - Operating System Questions & Answers – Protection – Revocation of Access Rights 

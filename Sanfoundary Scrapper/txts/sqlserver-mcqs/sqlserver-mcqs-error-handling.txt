@@ -1,0 +1,66 @@
+1. Which of the following blocks are used for error handling in SQL Server?
+a) TRY…CATCH
+b) TRY…FINAL
+c) TRY…END
+d) CATCH…TRY
+a
+2. Point out the correct statement.
+a) While executing some DML Statement like INSERT, DELETE, UPDATE we can handle the error for checking proper output
+b) If transaction fails, then we need to commit – This can be done by error handling
+c) If transaction succeeds, then we need to rollback – This can be done by error handling
+d) None of the mentioned
+a
+3. Which of the following statements can be checked for Errors?
+a) CREATE
+b) DROP
+c) DELETE
+d) INSERT
+d
+4. Purpose of TRY…CATCH block in SQL Server is ___________
+a) Error handling
+b) Stored Procedure handling
+c) Message handling
+d) None of the mentioned
+a
+5. Point out the wrong statement.
+a)  If an error occurs in the TRY block, control is not passed to another group of statements that is enclosed in a CATCH block
+b) If an error occurs in the TRY block, control is passed to another group of statements that is enclosed in a CATCH block
+c)  If an error does not occur in the TRY block, control is passed to another group of statements that is enclosed in a CATCH block
+d) None of the mentioned
+b
+6. Which of the following benefit does Exception handling with the TRY and CATCH blocks provide?
+a) Exceptions provide a mechanism to signal errors directly rather than using some side effects
+b) Exceptions can be seen by the programmer and checked during the compilation process
+c) Exceptions provide a clean way to check for errors without cluttering code
+d) All of the mentioned
+d
+7. Exception handling is possible in SQL Server using _____________
+a) THROW
+b) FINAL
+c) FINALLY
+d) All of the mentioned
+a
+8. Which of the following is an Error function used within CATCH block?
+a) ERROR_STATE()
+b) ERROR_STATUS()
+c) ERROR_MSG()
+d) All of the mentioned
+a
+9. ERROR_SEVERITY() returns the ________level of the error.
+a) State number
+b) Full text
+c) Severity
+d) None of the mentioned
+c
+10. Which of the following is a global variable for error handling?
+a) @@ERRORS
+b) @@ERROR
+c) @@ERR
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Cursor» Next - SQL Server Questions and Answers – Stored Procedure – 1 

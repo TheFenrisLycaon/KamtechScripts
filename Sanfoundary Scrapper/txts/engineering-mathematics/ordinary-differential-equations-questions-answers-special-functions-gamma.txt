@@ -1,0 +1,140 @@
+1. Which of the following is true?
+a) Γ(n+1) = nΓ(n) for any real number
+b) Γ(n) = nΓ(n+1) for any real number
+c) Γ(n+1) = nΓ(n) for n>1
+d) Γ(n) = nΓ(n+1) for n>1
+c
+2. Γ(n+1) = n! can be used when ____________
+a) n is any integer
+b) n is a positive integer
+c) n is a negative integer
+d) n is any real number
+b
+= \( \mid e^{-x} x^{n} \mid_{0}^{\infty} + n \int_{0}^{\infty} x^{n-1} e^{-x}dx \) 
+= \( n \Gamma(n) \).
+3. Which of the following is not a definition of Gamma function?
+a) \(\Gamma(n) = n!\) 
+b) \(\Gamma(n) = \int_{0}^{\infty} x^{n-1} e^{-x}dx\) 
+c) \(\Gamma(n+1) = n\Gamma(n)\) 
+d) \(\Gamma(n) = \int_{0}^{1} log \left({1 \atop y}\right)^{n-1}\) 
+a
+4. Gamma function is said to be as Euler’s integral of second kind.
+a) True
+b) False
+a
+5. What is the value of \(\Gamma\left(\frac{1}{2}\right)\)?
+a) \(\sqrt{\pi}\) 
+b) \(\left(\frac{\sqrt{\pi}}{\sqrt{2}}\right)\) 
+c) \(\left(\frac{\sqrt{\pi}}{2}\right)\) 
+d) \(\frac{\pi}{2}\) 
+a
+= \(\int_{0}^{\infty} e^{-y^2} dy\) 
+= \(\int_{0}^{\infty} e^{-x^2} dx\) 
+= \(\Gamma\left(\frac{1}{2}\right)^2 = \int_{0}^{\frac{\pi}{2}} \int_{0}^{\infty} e^{-r^2} rdrd\theta\) 
+= \(4 * \frac{\pi}{2} * \frac{1}{2}\) 
+= \(\pi\) 
+= \(\Gamma\left(\frac{1}{2}\right) = \sqrt{\pi}\).
+6. Is the given statement true or false?
+\(\displaystyle\beta(m, n) = \frac{\Gamma(m).\Gamma(n)}{\Gamma(m+n)}\) 
+a) True
+b) False
+a
+\(\Gamma(m).\Gamma(n) = \int_{0}^{\infty} x^{m-1} e^{-x}dx \int_{0}^{\infty} y^{n-1} e^{-y}dy\).
+= \( \int_{0}^{\infty} \int_{0}^{\infty} x^{m-1} y^{n-1} e^{-x} e^{-y} dxdy \)
+Now, we do a change of variables where x= uv and y= u(1-v) which implies u varies from 0 to ∞ and v varies from 0 to 1. Jacobian of this gives –u. 
+\( \Gamma(m).\Gamma(n) = \int_{0}^{1} \int_{0}^{\infty} e^{-u} u^{m-1} v^{m-1} u^{n-1} (1-v)^{n-1} ududv\).
+= \( \Gamma(m + n).\beta(m, n) \)
+Therefore, \(\displaystyle\beta(m, n) = \frac{\Gamma(m).\Gamma(n)}{\Gamma(m+n)}\).
+7. What is the value of \(\Gamma(5.5)\)?
+a) \(\displaystyle\frac{11*9*7*5*3*1*\sqrt{\pi}}{32} \) 
+b) \(\displaystyle\frac{9*7*5*3*1*\sqrt{\pi}}{32} \) 
+c) \(\displaystyle\frac{9*7*5*3*1*\sqrt{\pi}}{64} \) 
+d) \(\displaystyle\frac{11*9*7*5*3*1*\sqrt{\pi}}{64}\) 
+b
+= \(\frac{9}{2} * \frac{7}{2} * \frac{5}{2} * \frac{3}{2} * \Gamma\left(\frac{3}{2}\right)\)
+= \(\frac{9}{2} * \frac{7}{2} * \frac{5}{2} * \frac{3}{2} * \frac{1}{2} * \Gamma\left(\frac{1}{2}\right)\)
+= \(\displaystyle\frac{9*7*5*3*1*\sqrt{\pi}}{32}\).
+8. What is the value of \(\int_0^∞ e^{-x^2}  dx\)?
+a) \( \sqrt{\pi} \) 
+b) \(\frac{\sqrt{\pi}}{\sqrt{2}} \) 
+c) \(\frac{\sqrt{\pi}}{2} \) 
+d) \(\frac{\pi}{2} \) 
+c
+\(2xdx = dy\) 
+= \(\int_0^∞ x^{\frac{-1}{2}}  e^{-x} dx \) 
+This is of the form of Gamma function. Here, \(n-1 = \frac{-1}{2} \). Therefore \(n = \frac{1}{2}.\) 
+Therefore, \(\Gamma(\frac{\frac{1}{2}}{2}) = \frac{\sqrt\pi}{2}.\)
+9. What is the value of the integral \(\int_0^{π⁄2}\sqrt{tan(θ) } \, dθ\)? 
+a) \(\frac{\Gamma(\frac{3}{4})^2}{\sqrt{\pi}} \) 
+b) \(\frac{\Gamma(\frac{1}{4})^2}{\sqrt{\pi}} \) 
+c) \(\frac{\Gamma(\frac{3}{4})^2}{\pi} \) 
+d) \(\frac{\Gamma(\frac{1}{4})^2}{\pi} \) 
+a
+= \(\int_0^{π⁄2}\sqrt{(sin(θ)cos(θ)} \, dθ \) 
+= \(\frac{1}{2} * \beta(\frac{3}{4}, \frac{3}{4}) \) 
+= \(\frac{\frac{1}{2} *  \Gamma(\frac{3}{4}) *  \Gamma(\frac{3}{4}) }{\Gamma(\frac{3}{2}) }\) 
+= \(\frac{\Gamma(\frac{3}{4})^2}{\sqrt\pi} \). 
+10. What is the value of \(\int_0^1 \frac{x^2}{\sqrt{(1-x^4 )}} \)?
+a) \(\frac{2\sqrt{\pi} \Gamma(\frac{5}{4})}{Γ(\frac{1}{4})} \) 
+b) \(\frac{2\pi\Gamma(\frac{3}{4})}{\Gamma(\frac{1}{4})} \) 
+c) \(\frac{2\sqrt{\pi} \Gamma(\frac{3}{4})}{\Gamma(\frac{1}{4})} \) 
+d) \(\frac{2\sqrt{\pi} \Gamma(\frac{3}{4})}{\Gamma(\frac{5}{4})} \) 
+c
+\(2xdx = cos(θ)dθ\) 
+= \(\int_0^{π⁄2}\frac{sin(θ)}{cos(θ)}   \frac{cos(θ)}{2\sqrt{sin(θ)}}  dθ \) 
+= \(\frac{1}{2} * \beta( \frac{3}{4} , \frac{1}{2}) \) 
+= \(\frac{\frac{1}{2} *  \Gamma(\frac{3}{4}) *  \Gamma(\frac{1}{2}) }{\Gamma(\frac{5}{4})} \) 
+= \(\frac{2\sqrt{\pi} \Gamma(\frac{3}{4})}{\Gamma(\frac{1}{4})} \).
+11. What is the value of \(\int_0^1 log(y)^8 dy\)?
+a) 5!
+b) 6!
+c) 7!
+d) 8!
+d
+Here, the integral is \( \int_0^1 log (y)^8 dy\) which can also be written as \( \int_0^1- log(y)^8 dy \) which is actually \(\int_0^1 log \left(1 \atop y\right)^{9-1} = \Gamma(9) = 8!.\)
+12. What is the value of \( \Gamma(\frac{9}{4})\)?
+a) \(\frac{5}{4} * \frac{1}{4} * \Gamma(\frac{1}{4}) \) 
+b) \(\frac{9}{4} * \frac{5}{4} * \frac{1}{4} * \Gamma(\frac{1}{4}) \) 
+c) \(\frac{5}{4} * \frac{1}{4} * \Gamma(\frac{5}{4}) \) 
+d) \(\frac{1}{4} * \Gamma(\frac{1}{4}) \) 
+a
+13. \(\Gamma(m) * \Gamma(1-m) = \frac{\pi}{sin(m\pi)}\). Check if the statement is True or False?
+a) True
+b) False
+a
+\(\beta(m, n) = \frac{\Gamma(m).\Gamma(n)}{\Gamma(m+n)} \) 
+Let \(n = 1 – m \) 
+\(\frac{\Gamma(m).\Gamma(1-m)}{\Gamma(1)} \) 
+= \(\beta(m, 1-m)\) 
+= \(\int_0^∞ \frac{x^{m-1}}{(1+x)} dx \) 
+= \( \frac{\pi}{sin(mπ)} \) ( by method of residues).
+14. What is the value of \(\int_0^∞ \frac{1}{(1+x^4 )} dx\)?
+a) \(\frac{\sqrt{2} \pi}{4} \) 
+b) \(\frac{\sqrt{3} \pi}{6} \) 
+c) \(\frac{\sqrt{2} \pi}{6} \) 
+d) \(\frac{\sqrt{3} \pi}{4} \) 
+a
+\(2xdx = (sec(θ))^2dθ \) 
+= \(\frac{1}{2} * \int_0^∞ \frac{1}{\sqrt{sin(θ)cos(θ)}} dθ \) 
+= \(\frac{1}{4} * \beta(\frac{1}{4}, \frac{3}{4}) \) 
+= \(\frac{1}{4} * \frac{\Gamma(1⁄4).\Gamma(3⁄4)}{\Gamma(1)} \) 
+= \(\frac{1}{4} * \frac{\pi}{sin(π/4)} \) 
+= \(\frac{\sqrt{2} \pi}{4}.\)
+15. What is the value of the integral \(\int_0^∞ \frac{1}{c^x}  dx\)?
+a) \(\frac{1}{logc} \) 
+b) \(\frac{2}{logc} \) 
+c) \(\frac{\pi}{logc} \) 
+d) \(\frac{1}{2logc} \) 
+a
+= \(\int_0^∞ e^{-xlogc}  dx \) 
+Substitute \(xlogc = t \) 
+\(logc \,dx = dt \) 
+\(= \int_0^∞ e^{-t}   \frac{dt}{logc} \) 
+\(= \frac{1}{logc} * \int_0^∞ e^{-t}  dt \) 
+\(=\frac{1}{logc}. \)
+Sanfoundry Global Education & Learning Series – Ordinary Differential Equations.
+To practice all areas of Ordinary Differential Equations, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ordinary Differential Equations Questions and Answers – Harmonic Motion and Mass – Spring System» Next - Ordinary Differential Equations Questions and Answers – Special Functions – 2 (Beta) 

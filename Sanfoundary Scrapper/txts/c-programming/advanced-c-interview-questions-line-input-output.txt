@@ -1,0 +1,66 @@
+This section on advanced C interview questions focuses on “Line Input & Output”. One shall practice these advanced C questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our advanced C questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of advanced C interview questions on “Line Input & Output” along with answers, explanations and/or solutions:
+1. The syntax of fgets is char *fgets(char *line, int maxline, FILE *fp). Which is true for fgets?
+a) Returns line on success
+b) On end of file or error it returns NULL
+c) Nothing
+d) Both returns line on success & On end of file or error it returns NULL
+d
+2. fputs() function writes a string to a file that only ends with a newline.
+a) True
+b) False
+c) Depends on the standard
+d) Depends on the compiler
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    #include <string.h>    int main()    {        char line[3];        fgets(line, 3, stdin);        printf("%d\n", strlen(line));        return 0;    }
+a) 3
+b) 1
+c) Any length since line did not end with null character
+d) Depends on the standard
+b
+Join Sanfoundry@YouTube
+4. What will be the output of the following C code?
+    #include <stdio.h>    #include <string.h>    int main()    {        char line[3];        FILE *fp;        fp = fopen("newfile.txt", "r");        while (fgets(line, 3, fp))        fputs(line, stdout);        return 0;    }
+a) Compilation error
+b) Infinite loop
+c) Segmentation fault
+d) No.of lines present in file newfile
+c
+5. What will be the output of the following C code if 2 characters is typed by the user?
+    #include <stdio.h>    #include <string.h>    int main()    {        char line[3];        fgets(line, 3, stdin);        printf("%d\n", line[2]);        return 0;    }
+a) Compilation error
+b) Undefined behaviour
+c) 0
+d) 10(ascii value of newline character)
+c
+6. fputs() adds newline character.
+a) True
+b) False
+c) Depends on the standard
+d) Undefined behaviour
+b
+7. puts() function adds newline character.
+a) True
+b) False
+c) Depends on the standard
+d) Undefined behaviour
+a
+8. gets() function checks overflow run.
+a) True
+b) False
+c) Depends on the standard
+d) Undefined behaviour
+b
+9. puts() does the following when it writes to stdout.
+a) Deletes everything
+b) Adds ‘t’ to the line written
+c) Deletes the terminating ‘n’
+d) Adds ‘n’ to the line written
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Error Handling – 2» Next - C Programming Questions and Answers – Line Input & Output – 2 

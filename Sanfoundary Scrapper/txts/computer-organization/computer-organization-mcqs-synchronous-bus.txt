@@ -1,0 +1,64 @@
+1. The primary function of the BUS is __________
+a) To connect the various devices to the cpu
+b) To provide a path for communication between the processor and other devices
+c) To facilitate data transfer between various devices
+d) All of the mentioned
+a
+2. The classification of BUSes into synchronous and asynchronous is based on __________
+a) The devices connected to them
+b) The type of data transfer
+c) The Timing of data transfers
+d) None of the mentioned
+c
+3. The device which starts data transfer is called __________
+a) Master
+b) Transactor
+c) Distributor
+d) Initiator
+d
+4. The device which interacts with the initiator is __________
+a) Slave
+b) Master
+c) Responder
+d) Friend
+a
+5. In synchronous BUS, the devices get the timing signals from __________
+a) Timing generator in the device
+b) A common clock line
+c) Timing signals are not used at all
+d) None of the mentioned
+b
+6. The delays caused in the switching of the timing signals is due to __________
+a) Memory access time
+b) WMFC
+c) Propagation delay
+d) Processor delay
+c
+7. The time for which the data is to be on the BUS is affected by __________
+a) Propagation delay of the circuit
+b) Setup time of the device
+c) Memory access time
+d) Propagation delay of the circuit & Setup time of the device
+d
+8. The Master strobes the slave at the end of each clock cycle in Synchronous BUS.
+a) True
+b) False
+a
+9. Which is fed into the BUS first by the initiator?
+a) Data
+b) Address
+c) Commands or controls
+d) Address, Commands or controls
+d
+10. _____________ signal is used as an acknowledgement signal by the slave in Multiple cycle transfers.
+a) Ack signal
+b) Slave ready signal
+c) Master ready signal
+d) Slave received signal
+b
+Sanfoundry Global Education & Learning Series – Computer Organization and Architecture.
+To practice all areas of Computer Organization and Architecture, here is complete set on 1000+ Multiple Choice Questions and Answers on Computer Organization and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Organization Questions and Answers – Bus Arbitration» Next - Computer Organization Questions and Answers – Asynchronous BUS 

@@ -1,0 +1,81 @@
+1. Publishing messages is handled through ________ Class.
+a) Client()
+b) Server()
+c) Publish()
+d) Batch()
+a
+2. client() class provides ________ to create topics.
+a) Software
+b) Classes
+c) Methods
+d) Batch
+c
+3. ________ method publishes messages to pub/sub.
+a) Client()
+b) Publish()
+c) Server()
+d) Batch()
+b
+4. How many arguments are accepted by publish()?
+a) 5 arguments
+b) 3 arguments
+c) 1 argument
+d) 2 arguments
+d
+5. Does publish() method accepts arbitrary arguments.
+a) True
+b) False
+a
+Join Sanfoundry@YouTube
+6. The topic in the publish method is in which form?
+a) Binomial form
+b) Canonical form
+c) Nominal form
+d) Message form
+b
+7. The message in pub/sub is an opaque blob of ________
+a) Bits
+b) Bytes
+c) Word
+d) Nibble
+b
+8. ________ error will show if we try to send text string instead of bytes.
+a) TypeError
+b) Error
+c) Linker error
+d) Compiler error
+a
+9. What do we call string in python 2?
+a) Str
+b) Unicode
+c) Strs
+d) Unicades
+b
+10. When you publish a message ________ is automatically created?
+a) Client
+b) Server
+c) Batch
+d) Server
+c
+11. When the batch is created, it begins a countdown that publishes the batch once sufficient time has elapsed.
+a) True
+b) False
+a
+12. What is the time elapsed after a batch is created?
+a) 0.5 seconds
+b) 0.05 seconds
+c) 1.5 seconds
+d) 1 second
+b
+13. Every call to publish() will return a class that conforms to the __________ interface.
+a) Batch
+b) Client
+c) Server
+d) Future
+d
+Sanfoundry Global Education & Learning Series – IOT.
+To practice all areas of IOT for Entrance exams, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - IOT Questions and Answers – Publishing Messages with Commands» Next - IOT Questions and Answers – Cloud – Powerful Smart Mobile Devices 

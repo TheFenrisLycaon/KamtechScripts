@@ -1,0 +1,122 @@
+1. When a selection structure’s true part or false part contains another selection structure, the inner selection structured is referred to as __________
+a) Implicit selection structure
+b) Inner selection structure
+c) Outer selection structure
+d) Nested selection structure
+d
+2. Most common error that occur in selection structure is __________
+a) Logical error
+b) Syntactical error
+c) Segmentation fault
+d) Compiler error
+a
+3. __________ refers to the process of checking your algorithm while seated at your desk.
+a) Disk-checking
+b) Desk-checking
+c) Drive-checking
+d) Paper-checking
+a
+4. What will be the content of num, after the code execution; if before code execution num has value 90?
+If num<=100
+    num=num*2;
+ElseIf num>500
+   Num=num*3;
+Endif
+a) 0
+b) 90
+c) 180
+d) 270
+c
+5. What will be the content of num, after code execution; if before code execution num has value 1000?
+If num<=100
+    num=num*2;
+ElseIf num>500
+   Num=num*3;
+Endif
+a) 0
+b) 1000
+c) 3000
+d) 2000
+c
+6. What will be the content of num, after code execution; if before code execution num has value 200?
+If num<=100
+    num=num*2;
+ElseIf num>500
+   Num=num*3;
+Endif
+a) 0
+b) 200
+c) 400
+d) 600
+b
+7. What will be the content of Text after the code is executed with id=2?
+If id==1 Then
+    Text=”Janet”;
+Elseif id==2 OrElse id==3 Then
+   Text=”Mark”
+ElseIF id==4 Then
+    Text=”Jerry”
+Else
+  Text=”Sue “;
+EndIf
+a) Janet
+b) Mark
+c) Jerry
+d) Sue
+b
+8. What will be the content of Text after the code is executed with id=4?
+If id==1 Then
+    Text=”Janet”;
+Elseif id==2 OrElse id==3 Then
+   Text=”Mark”
+ElseIF id==4 Then
+    Text=”Jerry”
+Else
+  Text=”Sue “;
+EndIf
+a) Janet
+b) Mark
+c) Jerry
+d) Sue
+c
+9. What will be the content of Text after the code is executed with id=8?
+If id==1 Then
+    Text=”Janet”;
+Elseif id==2 OrElse id==3 Then
+   Text=”Mark”
+ElseIF id==4 Then
+    Text=”Jerry”
+Else
+  Text=”Sue “;
+EndIf
+a) Janet
+b) Mark
+c) Jerry
+d) Sue
+d
+10. A nested selection structure can be contained in ____________________ of another selected structure.
+a) Only in the truth part
+b) Only in the false part
+c) Either in truth or in false part
+d) Both in truth and in false part
+d
+If(condition)
+{
+   If(condition)
+      Statement;
+Else
+    Statement;
+}
+Else
+{
+  If(Condition)
+    Statement;
+Else
+    Statement;
+}
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Strings in Selection Structures» Next - Visual Basic Questions and Answers – Multiple Alternative Selection Structures 

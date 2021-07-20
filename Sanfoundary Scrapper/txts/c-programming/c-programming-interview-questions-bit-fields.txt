@@ -1,0 +1,91 @@
+This section on C programming interview questions and answers focuses on “Bit-fields”. One shall practice these interview questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C programming interview questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C programming interview questions on “Bit-fields” along with answers, explanations and/or solutions:
+1. What is the correct syntax to initialize bit-fields in an structure?
+a)
+    struct temp
+    {
+        unsigned int a : 1;
+    }s;
+b)
+    struct temp
+    {
+        unsigned int a = 1;
+    }s;
+c)
+    struct temp
+    {
+        unsigned float a : 1;
+    }s;
+d) None of the mentioned
+a
+Join [email protected]
+2. Which of the following data types are accepted while declaring bit-fields?
+a) char
+b) float
+c) double
+d) none of the mentioned
+a
+3. Which of the following reduces the size of a structure?
+a) union
+b) bit-fields
+c) malloc
+d) none of the mentioned
+b
+4. For what minimum value of x in a 32-bit Linux OS would make the size of s equal to 8 bytes?
+    struct temp    {        int a : 13;        int b : 8;        int c : x;    }s;
+a) 4
+b) 8
+c) 12
+d) 32
+c
+5. Calculate the % of memory saved when bit-fields are used for the following C structure as compared to with-out use of bit-fields for the same structure? (Assuming size of int = 4)
+    struct temp    {        int a : 1;        int b : 2;        int c : 4;        int d : 4;    }s;
+a) 25%
+b) 33.3%
+c) 50%
+d) 75%
+d
+6. In the following declaration of bit-fields,  the constant-expression specifies __________
+    struct-declarator:
+    declarator
+    type-specifier declarator opt : constant-expression
+a) The width of the field in bits
+b) Nothing
+c) The width of the field in bytes
+d) Error
+a
+7. In the following declaration of bit-fields, the constant-expression must be __________
+    struct-declarator:
+    declarator
+    type-specifier declarator opt : constant-expression
+a) Any type
+b) Nothing
+c) Integer value
+d) Nonnegative integer value
+d
+8. Which of the following is not allowed?
+a) Arrays of bit fields
+b) Pointers to bit fields
+c) Functions returning bit fields
+d) None of the mentioned
+d
+9. Bit fields can only be declared as part of a structure.
+a) false
+b) true
+c) Nothing
+d) Varies
+b
+10. What is the order for the following C declarations?
+    short a : 17;
+    int long y : 33;
+a) Legal, legal
+b) Legal, illegal
+c) Illegal, illegal
+d) Illegal, legal
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Unions – 2» Next - C Programming Questions and Answers – Bit-fields – 2 

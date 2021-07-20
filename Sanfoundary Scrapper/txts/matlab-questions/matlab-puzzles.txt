@@ -1,0 +1,64 @@
+1. The unit delay operator can be thought of in the z-domain as ___________
+a) Multiplication by z-1
+b) Multiplication by z
+c) Multiplication by z-2
+d) Multiplication by z2
+a
+2. The convolution of a signal in time domain can be viewed as __________
+a) Multiplication in z-domain
+b) Squaring in z-domain
+c) Doubling the signal in z-domain
+d) Convolution in z-domain
+a
+3. The impulse response of a discrete time system is the inverse Z-transform of the transfer function of the system in z-domain.
+a) True
+b) False
+a
+4. What will be seen in the scope if the step time is 1 second in the following Simulink Model?
+a) A unit step signal delayed by 2 units in time
+b) u[n-3] 
+c) A ramp function
+d) An impulse function
+b
+5. What will be seen in the scope if the step time is 0 seconds in the following Simulink Model?
+a) A unit step signal delayed by 2 units in time
+b) u[n-3] 
+c) A ramp function
+d) An impulse function
+a
+Join [email protected]
+6. What will be seen in the Scope if the step time is 0 seconds in the following Simulink Model and the limit of x axis is n=10?
+a) A delayed ramp function
+b) r[n-1] 
+c) r[n-2] 
+d) Error
+b
+7. How much does the delay change, if the step time is taken as two units in time, in r(t-m), in scope 1 and 3?
+a) 1 and 3
+b) 2 and 3
+c) 3 and 1
+d) Error
+a
+8. This is the output of scope1.
+What is the transfer function1?
+a) z/(z-1)2
+b) z2/(z-1)2
+c) A parabola
+d) A impulse function
+a
+9.  The Discrete Transfer Fcn1 is using a ramp function.
+a) True
+b) False
+a
+10.  What will be seen in the scope?
+a) A ramp function
+b) A step function
+c) A parabola
+d) A hyperbola
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all Puzzles on MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Z Transform – 1 

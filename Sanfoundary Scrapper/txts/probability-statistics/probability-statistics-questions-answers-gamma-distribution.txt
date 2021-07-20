@@ -1,0 +1,59 @@
+1. The mean and the variance for gamma distribution are __________
+a) E(X) = 1/λ, Var(X) = α/λ2
+b) E(X) = α/λ, Var(X) = 1/λ2
+c) E(X) = α/λ, Var(X) = α/λ2
+d) E(X) = αλ, Var(X) = αλ2
+c
+E(X) = α/λ, Var(X) = 1/λ2.
+2. Putting α=1 in Gamma distribution results in _______
+a) Exponential Distribution
+b) Normal Distribution
+c) Poisson Distribution
+d) Binomial Distribution
+a
+= 0 otherwise
+If we let α=1, we obtain
+f(x) = λe−λx  for x > 0
+= 0 otherwise.
+Hence we obtain Exponential Distribution.
+3. Sum of n independent Exponential random variables (λ) results in __________
+a) Uniform random variable
+b) Binomial random variable
+c) Gamma random variable
+d) Normal random variable
+c
+Hence Exponential (λ1) + Exponential (λ2) + Exponential (λ3)….. n times = Gamma(n,λ). 
+4. Find the value of Γ(5/2).
+a) 5/4 . π1/2
+b) 7/4 . π1/2
+c) 1/4 . π1/2
+d) 3/4 . π1/2
+d
+Γ(α+1) = αΓ(α)
+\(Γ(\frac{5}{2}) = \frac{3}{2} ⋅ Γ(\frac{3}{2}) \) 
+\(= \frac{3}{2} ⋅ \frac{1}{2} .  Γ(\frac{1}{2}) \) 
+\(= \frac{3}{2} ⋅ \frac{1}{2}  ⋅ π^{1/2} \)    By property of Gamma function \(Γ(\frac{1}{2}) = π^{1/2} \) 
+\(= \frac{3}{4} . π^{1/2}. \) 
+Join Sanfoundry@YouTube
+5. Gamma function is defined as Γ(α) = 0∫∞ xα−1 e−x dx.
+a) True
+b) False
+a
+6. Gamma distribution is Multi-variate distribution.
+a) True
+b) False
+b
+7. Which of the following graph represents gamma distribution?
+a) 
+b) 
+c) 
+d) 
+a
+f(x) = λα xα−1 e−λx / Γ(α)  for  x > 0.
+Hence it is an exponentially decreasing function. 
+Sanfoundry Global Education & Learning Series – Probability and Statistics.
+To practice all areas of Probability and Statistics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Probability and Statistics Questions and Answers – Exponential Distribution» Next - Probability and Statistics Questions and Answers – Weibull Distribution 

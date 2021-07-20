@@ -1,0 +1,79 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in Microsoft and other companies. Anyone looking for Microsoft placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of basic C questions on “Break and Continue” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int i = 0;        if (i == 0)        {            printf("Hello");            continue;        }    }
+a) Hello is printed infinite times
+b) Hello
+c) Varies
+d) Compile time error
+d
+2. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int i = 0;        if (i == 0)        {            printf("Hello");            break;        }    }
+a) Hello is printed infinite times
+b) Hello
+c) Varies
+d) Compile time error
+d
+3. What will be the output of the following C code?
+     #include <stdio.h>    int main()    {        int i = 0;        do        {            i++;            if (i == 2)                continue;                printf("In while loop ");        } while (i < 2);        printf("%d\n", i);    }
+a) In while loop 2
+b) In while loop in while loop 3
+c) In while loop 3
+d) Infinite loop
+a
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0, j = 0;        for (i; i < 2; i++){            for (j = 0; j < 3; j++)            {                printf("1\n");                break;            }            printf("2\n");        }        printf("after loop\n");    }
+a)
+   1
+   2
+   after loop
+b)
+   1
+   after loop
+c)
+   1
+   2
+   1
+   2
+  after loop
+d)
+   1
+   1
+   2
+   after loop
+c
+  
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0;        while (i < 2)        {            if (i == 1)                break;                i++;                if (i == 1)                    continue;                    printf("In while loop\n");        }        printf("After loop\n");    }
+a) 
+
+   In while loop
+   After loop
+b) After loop
+c) 
+
+   In while loop
+   In while loop
+   After loop
+d) In while loop
+b
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0;        char c = 'a';        while (i < 2)        {            i++;            switch (c)             {               case 'a':                   printf("%c ", c);                   break;                   break;            }        }        printf("after loop\n");    }
+a) a after loop
+b) a a after loop
+c) after loop
+d) error
+b
+7. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        printf("before continue ");        continue;        printf("after continue\n");    }
+a) Before continue after continue
+b) Before continue
+c) After continue
+d) Compile time error
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Break and Continue – 1» Next - C Programming Questions and Answers – Goto & Labels – 1 

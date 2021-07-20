@@ -1,0 +1,61 @@
+1. A scheduling algorithm can use either ___________ priority or ________ priority.
+a) static, still
+b) static, dynamic
+c) live, dead
+d) none of the mentioned
+b
+2. The priority of a process will ______________ if the scheduler assigns it a static priority.
+a) change
+b) remain unchanged
+c) depends on the operating system
+d) none of the mentioned
+b
+3. As disks have relatively low transfer rates and relatively high latency rates, disk schedulers must reduce latency times to ___________
+a) ensure high bandwidth
+b) ensure low bandwidth
+c) make sure data is transferred
+d) reduce data transfer speeds
+a
+4. Servicing requests strictly according to deadline using EDF may result in ___________
+a) lower seek times
+b) lower bandwidth
+c) higher seek time
+d) higher bandwidth
+c
+5. The hybrid algorithm that combines EDF with SCAN algorithm is known as ___________
+a) EDS
+b) SDF
+c) SCAN-EDF
+d) None of the mentioned
+c
+6. If several requests have different deadlines that are relatively close together, then using the SCAN – EDF algorithm ___________
+a) the SCAN ordering will service the requests in that batch
+b) the EDF ordering will service the requests in that batch
+c) the FCFS ordering will service the requests in that batch
+d) none of the mentioned
+a
+7. Multimedia systems require _________ scheduling to ensure critical tasks will be serviced within timing deadlines.
+a) soft real time
+b) hard real time
+c) normal
+d) none of the mentioned
+b
+8. The EDF scheduler uses ________ to order requests according to their deadlines.
+a) stack
+b) disks
+c) queue
+d) none of the mentioned
+c
+9. In SCAN – EDF, requests with the same deadlines are ordered according to ___________
+a) SCAN policy
+b) EDF policy
+c) FCFS policy
+d) FIFO policy
+a
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions & Answers – Multimedia System – Compression – 3» Next - Operating System Questions & Answers – Multimedia System – Network Management 

@@ -1,0 +1,80 @@
+1. Select the objects of the class TextWriter which is/are not used to perform the write operations to the console?
+a) Write()
+b) WriteLine()
+c) WriteError()
+d) All of the mentioned
+c
+2. What will be the output of the following C# code snippet?
+ static void Main(string[] args) {     Console.Write("c");     Console.Write("sharp" );     Console.ReadLine(); }
+a) sharp
+b) 
+c
+sharp
+c) c
+d) sharp  c
+b
+Output :
+        c
+        sharp
+3. Choose the correct statement about the WriteLine()?
+a) Can display one or more value to the screen
+b) Adds a newline character at the end of the each new output
+c) Allows to output data in as many different formats
+d) All of the mentioned
+d
+4. What will be the output of the following C# code snippet?
+ static void Main(string[] args) {     String a ="i love iostream";     Console.WriteLine(a.IndexOf('i') + " " + a.IndexOf('e') + " " + a.LastIndexOf('i') + " " + a.LastIndexOf('e'));     Console.ReadLine(); }
+a) 0 6 7 8
+b) 0 5 7 9
+c) 5 9 0 7
+d) 0 5 7 12
+d
+Output :
+0 5 7 12
+5. What will be the output of the following C# code snippet?
+ static void Main(string[] args) {     StringBuilder sb = new StringBuilder("hello world");     sb.Insert(6, "good");     Console.WriteLine(sb);     Console.ReadLine(); }
+a) hello 6world
+b) hello good world
+c) hello goodworld
+d) hello good world
+c
+6. What will be the output of the following C# code snippet?
+ static void Main(string[] args) {     string h = "i lovelife";     string h1 = new string(h.Reverse().ToArray());     Console.WriteLine(h1);     Console.ReadLine(); }
+a) efil evoli
+b) lifelove i
+c) efilevol i
+d) efil evol i
+c
+Output :
+efilevol i
+7. Which of the following statement is correct?
+a) reverse() method reverses some characters
+b) reverseall() method reverses all characters
+c) replace() method replaces all instances of  a character with new character
+d) replace() method replaces first occurrence of a character in invoking string with another character
+c
+8. Which of these classes is used to create an object whose character sequence is mutable?
+a) String()
+b) StringBuilder()
+c) String() & StringBuilder()
+d) None of the mentioned
+b
+9. Select the namespace/namespaces which consists of methods like Length(), Indexer(), Append() for manipulating the strings.
+a) System.Class
+b) System.Array
+c) System.Text
+d) None of the mentioned
+c
+10. Select the method used to write single byte to a file?
+a) Write()
+b) Wrteline()
+c) WriteByte()
+d) All of the mentioned
+c
+   void WriteByte(byte value)
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Reading Console Input Operations» Next - C# Questions & Answers – Introduction of Stream Classes 

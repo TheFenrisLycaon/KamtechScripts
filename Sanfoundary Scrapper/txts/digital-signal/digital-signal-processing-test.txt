@@ -1,0 +1,117 @@
+1. What is the cutoff frequency of the Butterworth filter with a pass band gain KP=-1 dB at ΩP=4 rad/sec and stop band attenuation greater than or equal to 20dB at ΩS=8 rad/sec?
+a) 3.5787 rad/sec
+b) 1.069 rad/sec
+c) 6 rad/sec
+d) 4.5787 rad/sec
+d
+ΩC = \(\frac{\Omega_P}{(10^{-K_P/10}-1)^{1/2N}}\) 
+We know that KP=-1 dB, ΩP=4 rad/sec and N=5
+Upon substituting the values in the above equation, we get
+ΩC=4.5787 rad/sec.
+2. What is the system function of the Butterworth filter with specifications as pass band gain KP=-1 dB at ΩP=4 rad/sec and stop band attenuation greater than or equal to 20dB at ΩS=8 rad/sec?
+a) \(\frac{1}{s^5+14.82s^4+109.8s^3+502.6s^2+1422.3s+2012.4}\) 
+b) \(\frac{1}{s^5+14.82s^4+109.8s^3+502.6s^2+1422.3s+1}\) 
+c) \(\frac{2012.4}{s^5+14.82s^4+109.8s^3+502.6s^2+1422.3s+2012.4}\) 
+d) None of the mentioned
+c
+KP=-1 dB, ΩP=4 rad/sec, KS=-20 dB and ΩS=8 rad/sec
+We find out order as N=5 and ΩC=4.5787 rad/sec
+We know that for a 5th order normalized low pass Butterworth filter, system equation is given as
+H5(s)=\(\frac{1}{(s+1)(s^2+0.618s+1)(s^2+1.618s+1)}\) 
+The specified low pass filter is obtained by applying low pass-to-low pass transformation on the normalized low pass filter.
+That is, Ha(s)=H5(s)|s→s/Ωc
+=H5(s)|s→s/4.5787
+upon calculating, we get
+Ha(s)=\({2012.4}{s^5+14.82s^4+109.8s^3+502.6s^2+1422.3s+2012.4}\) 
+3. If H(s)=\(\frac{1}{s^2+s+1}\) represent the transfer function of a low pass filter (not Butterworth) with a pass band of 1 rad/sec, then what is the system function of a low pass filter with a pass band 10 rad/sec?
+a) \(\frac{100}{s^2+10s+100}\) 
+b) \(\frac{s^2}{s^2+s+1}\) 
+c) \(\frac{s^2}{s^2+10s+100}\) 
+d) None of the mentioned
+a
+s→s/Ωu
+Hence the required low pass filter is
+Ha(s)=H(s)|s→s/10
+=\(\frac{100}{s^2+10s+100}\).
+4. If H(s)=\(\frac{1}{s^2+s+1}\) represent the transfer function of a low pass filter (not Butterworth) with a pass band of 1 rad/sec, then what is the system function of a high pass filter with a cutoff frequency of 1rad/sec?
+a) \(\frac{100}{s^2+10s+100}\) 
+b) \(\frac{s^2}{s^2+s+1}\) 
+c) \(\frac{s^2}{s^2+10s+100}\) 
+d) None of the mentioned
+b
+s→Ωu/s
+Hence the required high pass filter is
+Ha(s)= H(s)|s→1/s
+=\(\frac{s^2}{s^2+s+1}\)
+5. If H(s)=\(\frac{1}{s^2+s+1}\) represent the transfer function of a low pass filter (not Butterworth) with a pass band of 1 rad/sec, then what is the system function of a high pass filter with a cutoff frequency of 10 rad/sec?
+a) \(\frac{100}{s^2+10s+100}\) 
+b) \(\frac{s^2}{s^2+s+1}\) 
+c) \(\frac{s^2}{s^2+10s+100}\) 
+d) None of the mentioned
+c
+s→Ωu/s
+Hence the required low pass filter is
+Ha(s)=H(s)|s→10/s
+=\(\frac{s^2}{s^2+10s+100}\)
+6. If H(s)=\(\frac{1}{s^2+s+1}\) represent the transfer function of a low pass filter (not Butterworth) with a pass band of 1 rad/sec, then what is the system function of a band pass filter with a pass band of 10 rad/sec and a center frequency of 100 rad/sec?
+a) \(\frac{s^2}{s^4+10s^3+20100s^2+10^5 s+1}\) 
+b) \(\frac{100s^2}{s^4+10s^3+20100s^2+10^5 s+1}\) 
+c) \(\frac{s^2}{s^4+10s^3+20100s^2+10^5 s+10^8}\) 
+d) \(\frac{100s^2}{s^4+10s^3+20100s^2+10^5 s+10^8}\) 
+d
+\(s\rightarrow\frac{s^2+\Omega_u \Omega_l}{s(\Omega_u-\Omega_l)}\) 
+Thus the required band pass filter has a transform function as
+Ha(s)=\(\frac{100s^2}{s^4+10s^3+20100s^2+10^5 s+10^8}\).
+7. If H(s)=\(\frac{1}{s^2+s+1}\) represent the transfer function of a low pass filter (not Butterworth) with a pass band of 1 rad/sec, then what is the system function of a stop band filter with a stop band of 2 rad/sec and a center frequency of 10 rad/sec?
+a) \(\frac{(s^2+100)^2}{s^4+2s^3+204s^2+200s+10^4}\) 
+b) \(\frac{(s^2+10)^2}{s^4+2s^3+204s^2+200s+10^4}\) 
+c) \(\frac{(s^2+10)^2}{s^4+2s^3+400s^2+200s+10^4}\) 
+d) None of the mentioned
+a
+\(s\rightarrow\frac{s(Ω_u-Ω_l)}{s^2+Ω_u Ω_l}\) 
+Hence the required band stop filter is
+Ha(s)=\(\frac{(s^2+100)^2}{s^4+2s^3+204s^2+200s+10^4}\) 
+8. What is the stop band frequency of the normalized low pass Butterworth filter used to design a analog band pass filter with -3.0103dB upper and lower cutoff frequency of 50Hz and 20KHz and a stop band attenuation 20dB at 20Hz and 45KHz?
+a) 2 rad/sec
+b) 2.25 Hz
+c) 2.25 rad/sec
+d) 2 Hz
+c
+Ω1=2π*20=125.663 rad/sec
+Ω2=2π*45*103=2.827*105 rad/sec
+Ωu=2π*20*103=1.257*105 rad/sec
+Ωl=2π*50=314.159 rad/sec
+We know that
+A=\(\frac{-Ω_1^2+Ω_u Ω_l}{Ω_1 (Ω_u-Ω_l)}\) and B=\(\frac{Ω_2^2-Ω_u Ω_l}{Ω_2 (Ω_u-Ω_l)}\) 
+=> A=2.51 and B=2.25
+Hence ΩS=Min{|A|,|B|}=>ΩS=2.25 rad/sec.
+9. What is the order of the normalized low pass Butterworth filter used to design a analog band pass filter with -3.0103dB upper and lower cutoff frequency of 50Hz and 20KHz and a stop band attenuation 20dB at 20Hz and 45KHz?
+a) 2
+b) 3
+c) 4
+d) 5
+b
+Ω1=2π*20=125.663 rad/sec
+Ω2=2π*45*103=2.827*105 rad/sec
+Ωu=2π*20*103=1.257*105 rad/sec
+Ωl=2π*50=314.159 rad/sec
+We know that
+A=\(\frac{-Ω_1^2+Ω_u Ω_l}{Ω_1 (Ω_u-Ω_l)}\) and B=\(\frac{Ω_2^2-Ω_u Ω_l}{Ω_2 (Ω_u-Ω_l)}\) 
+=> A=2.51 and B=2.25
+Hence ΩS=Min{|A|,|B|}=> ΩS=2.25 rad/sec.
+The order N of the normalized low pass Butterworth filter is computed as follows
+N=\(\frac{log⁡[(10^{-K_P/10}-1)(10^{-K_s/10}-1)]}{2 log⁡(\frac{1}{Ω_S})}\)=2.83
+Rounding off to the next large integer, we get, N=3.
+10. Which of the following condition is true?
+a) N ≤ \(\frac{log⁡(\frac{1}{k})}{log⁡(\frac{1}{d})}\) 
+b) N ≤ \(\frac{log⁡(k)}{log⁡(d)}\) 
+c) N ≤ \(\frac{log⁡(d)}{log⁡(k)}\) 
+d) N ≤ \(\frac{log⁡(\frac{1}{d})}{log⁡(\frac{1}{k})}\) 
+d
+N ≤ \(\frac{log⁡(\frac{1}{d})}{log⁡(\frac{1}{k})}\)  
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing for various tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Design of Low Pass Butterworth Filters – 1» Next - Digital Signal Processing Questions and Answers – Chebyshev Filters – 1 

@@ -1,0 +1,73 @@
+1. Find the range of frequency between which the circuit act as integrator?
+a) [1/(2πRFCF)]– (2πR1CF)
+b) (2πRFCF) – [1/(2πR1CF)].
+c) [1/(2πRFCF)]- [1/(2πR1CF)].
+d) None of the mentioned
+c
+For a practical integrator, the gain limiting frequency is fa= 1/(2πRF CF). After fa, the gain decreases at a rate 20db/decade and reaches 0db. The frequency at which gain is 0db is fb= 1/(2π RF×CF). So, the circuit act as integrator between fa and fb.
+2. What will be the output voltage waveform for the circuit, R1×CF=1s and input is a step voltage. Assume that the op-amp is initially nulled.
+a) Triangular function
+b) Unit step function
+c) Ramp function
+d) Square function
+c
+Vo = (1/R×CF)×t∫0 Vindt+C =-(1/1) × 0.4∫01.2 dt
+=> Vo =-[0.1∫01.2 dt + 0.2∫0.11.2 dt + 0.3∫0.21.2 dt + 0.4∫0.31.2 dt ] = -(1.2+1.2+1.2+1.2) = -4.8v
+Therefore, the output voltage waveform is a ramp function. 
+3. Find R1 and RF in the lossy integrator so that the peak gain and the gain down from its peak is 40db to 6db. Assume ω=20,000 rad/s and capacitance = 0.47µF.
+a) R1 = 10.6Ω, RF = 106Ω
+b) R1 = 21.2Ω, RF = 212.6Ω
+c) R1 = 42.4Ω, RF = 424Ω
+d) R1 = 29.8Ω, RF = 298Ω
+b
+=> A(db) = 20log{(RF/R1)/√[1+(ωRFCF)]2}
+=> 40db = 20log×[(RF/R1)/√1
+=> R1 = RF/20.
+At ω=20000rad/s, the gain is down by 6db from its peak of 20db and thus is 14db. The gain at 14db => 14db= 20log ×{[ (RF/ RF/20)] / [√(1+(200000×0.47×10-6×RF)2]}
+=> 20log[1+(9.4×10-3×RF)2] = 20-14
+=> RF = √3/9.4×10-3 = 212.26Ω and R1 = 212.26Ω/10 = 21.2Ω. 
+4. Why a resistor is shunted across the feedback capacitor in the practical integrator?
+a) To reduce operating frequency
+b) To enhance low frequency gain
+c) To enhance error voltage
+d) To reduce error voltage
+d
+5. Find the application in which integrator is used?
+a) All of the mentioned
+b) Analog Computers
+c) FM Detectors
+d) AM detectors
+b
+6. At what condition the input signal of the integrator is integrated properly
+a) T = RFCF
+b) T ≤ RFCF
+c) T ≥ RFCF
+d) T ≠ RFCF
+c
+7. Find the output waveform for an input of 5kHz.
+a
+The input is constant amplitude of 2v from 0 to 0.1ms and from 0.1ms to 0.2ms. The output for each of these half periods will be ramp. Thus, the expected output is triangular wave. 
+8. What happens if the input frequency is kept lower than the frequency at which the gain is zero?
+a) Circuit act like a perfect integrator
+b) Circuit act like an inverting amplifier
+c) Circuit act like a voltage follower
+d) Circuit act like a differentiator
+b
+9. Match the correct frequency range for integration. (Where f –> Input frequency and fa –> Lower frequency limit of integration)
+ 1.f << fa 
+ i. Results in 50% accuracy in integration    
+ 2.f = fa 
+ ii. Results in 99% accuracy in integration  
+ 3.f = 10fa 
+ iii. No integration results 
+a) 1-iii, 2-i, 3-ii
+b) 1-i, 2-ii, 3-iii
+c) 1-ii, 2-iii, 1-i
+d) 1-iii, 2-ii, 3-i
+a
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Integrator – 1» Next - Linear Integrated Circuit Questions and Answers – Differentiator 

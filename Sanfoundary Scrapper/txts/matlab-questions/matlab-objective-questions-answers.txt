@@ -1,0 +1,97 @@
+1. The steady state error of the system with a forward path transfer function G(s)=13(s-1)/(s-1) and with a parabolic input is _______
+a) Infinite
+b) 0
+c) -Infinite
+d) Undefined
+a
+2. For a step response of the system 1/s2+1, the maximum overshoot is __________
+a) 1
+b) 0
+c) Infinite
+d) 2
+d
+3. What is the gain of the system derived from the following code?
+tf[1,100]
+a) 1/100
+b) s/100
+c) 1/100s
+d) Error
+d
+4. What is the output of the following code?
+step(impulse(1,[1 0]))
+a) A ramp function
+b) A parabolic function
+c) A step function
+d) Error
+d
+5. What is the output of the following code?
+r.DampingRatio = 0;
+overshoot = getOvershoot(r);
+a) 100
+b) 0
+c) 1
+d) Error
+d
+6. Which of the following command gives the step response characteristics of a control system?
+a) stepinf()
+b) stepinfo()
+c) stepinfo[] 
+d) step()
+b
+7. Which of the following command generates the impulse response of a system which has more zeros than poles?
+a) impulse()
+b) impulse[] 
+c) impulse{}
+d) No such command
+d
+8. Which of the following command generates the transfer function of a system?
+a) tf()
+b) tf[] 
+c) tf{}
+d) No such command
+a
+9. What is the output of the following code?
+step([1],[1 0 0])
+a) A parabola
+b) A ramp function
+c) A step function
+d) An impulse function
+a
+10. The time constant of a system is ________
+a) equal to the damping constant
+b) inverse of the damping constant
+c) twice the damping constant
+d) half of the damping constant
+b
+11. If the natural frequency of a system increases, the rise time ________
+a) Increases
+b) Decreases
+c) Doubles
+d) Halves
+b
+12. The settling time is a measure of _________
+a) The speed of reaching stead state
+b) The speed of reaching maximum overshoot
+c) The speed of reaching second overshoot
+d) Nothing
+a
+13. If the poles of a system transfer function are equal and imaginary, the system is ________
+a) Undamped
+b) Critically damped
+c) Overdamped
+d) Negatively damped
+a
+14. For negative damping, the system is unstable.
+a) True
+b) False
+a
+15. An undamped system is stable.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all objective questions on MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Time Response of Control Systems – 1» Next - MATLAB Questions and Answers – Impulse Response – 1 

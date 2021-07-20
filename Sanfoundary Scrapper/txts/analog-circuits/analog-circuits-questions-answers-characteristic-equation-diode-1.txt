@@ -1,0 +1,111 @@
+1. Calculate the forward bias current of a Si diode when forward bias voltage of 0.4V is applied, the reverse saturation current is 1.17×10-9A and the thermal voltage is 25.2mV.
+a) 9.156mA
+b) 8.23mA
+c) 1.256mA
+d) 5.689mA
+a
+I=I0×(e(V/ηVT)-1)  where I0 = reverse saturation current
+			          η = ideality factor
+			          VT = thermal voltage
+			          V = applied voltage
+Since in this question ideality factor is not mentioned it can be taken as one.
+I0 = 1.17 x 10-9A, VT = 0.0252V, η = 1, V = 0.4V
+Therefore, I = 1.17×10-9xe0.4/0.025 -1 = 9.156mA.
+2. Calculate the thermal voltage when the temperature is 25°C.
+a) 0V
+b) 0V
+c) 0.026V
+d) 0.25V
+b
+Where k is the boltzman constant and q is the charge of electron. This can be reduced to
+			VT = TK/11600
+Therefore, VT = 298.15/11600 = 0.0257V.
+3. Calculate the reverse saturation current of a diode if the current at 0.2V forward bias is 0.1mA at a temperature of 25°C and the ideality factor is 1.5.
+a) 5.5x 10-9 A
+b) 5.5x 10-8 A
+c) 5.5x 10-7 A
+d) 5.6x 10-10 A
+c
+I=I0×(e(V/ηVT) – 1)  where I0 = reverse saturation current
+			          η = ideality factor
+			          VT = thermal voltage
+			          V = applied voltage
+Here, I = 0.1mA, η = 1.5, V = 0.2V, VT = TK/11600
+Therefore, VT at T = 25+273=298 is 298/11600 = 0.0256V.
+Therefore, reverse saturation current
+IO=0.00055mA = 5.5×10-7A.
+4. Find the applied voltage on a forward biased diode if the current is 1mA and reverse saturation current is 10-10. Temperature is 25°C and takes ideality factor as 1.5.
+a) 0.658V
+b) 0.726V
+c) 0.526V
+d) 0.618V
+d
+I=I0×(e(V/ηVT)-1)  where I0 = reverse saturation current
+			          η = ideality factor
+			          VT = thermal voltage
+			          V = applied voltage
+VT at T = 25+273=298 is 298/11600 = 0.0256V, η = 1.5, I = 1mA, I0 = 10-10A
+5. Find the temperature at which a diode current is 2mA for a diode which has reverse saturation current of 10-9 A. The ideality factor is 1.4 and the applied voltage is 0.6V forward bias.
+a) 69.65°C
+b) 52.26°C
+c) 25.23°C
+d) 70.23°C
+a
+I=I0×(e(V/ηVT)-1)  where I0 = reverse saturation current
+			          η = ideality factor
+			          VT = thermal voltage
+			          V = applied voltage
+I0 = 10-9A, η = 1.4, V = 0.6V, I = 2mA
+We know thermal voltage VT = TK/11600. Therefore, TK = VTx11600 = 0x11600 = 342.65K = 69.65°C.
+6. Consider a silicon diode with η=1.2. Find the change in voltage if the current changes from 0.1mA to 10mA.
+a) 0.154V
+b) 0.143V
+c) 0.123V
+d) 0.165V
+b
+I=I0×(e(V/ηVT)-1)  where I0 = reverse saturation current
+			          η = ideality factor
+			          VT = thermal voltage
+			          V = applied voltage
+η = 1.2, I2 = 10mA, I1 = 0.1mA and take VT = 0.026V
+7. If current of a diode changes from 1mA to 10mA what will be the change in voltage across the diode. The ideality factor of diode is 1.2.
+a) 0.718V
+b) 7.18V
+c) 0.0718V
+d) 0.00728V
+c
+.
+8. What will be the ratio of final current to initial current of a diode if the voltage of a diode changes from 0.7V to 872.5mV. Take ideality factor as 1.5.
+a) 90.26
+b) 52.36
+c) 80.23
+d) 83.35
+d
+9. What will be the current I in the circuit diagram below. Take terminal voltage of diode as 0.7V and I0as 10-12A.
+a) 2.4mA
+b) 0.9mA
+c) 1mA
+d) 4mA
+a
+3V = VD + IR1
+This method of assumption contains small error but it is the simplest method.
+Let VD be 0.7V. Now the current I = (3-0.7)/1k = 2.3mA. Now the diode voltage for 2.3mA
+VD = VT ln⁡(I/I0) = 0.026 x ln((2.3×10(-3))/10(-12)) = 0.5864V.
+Now the current becomes (3-0.5864)/1000 = 2.41mA.
+10. Find current I through the circuit using characteristic equation of diode. The terminal voltage of each diode is 0.6V. Reverse saturation current is 10-12A.
+a) 0.84mA
+b) 1.84mA
+c) 2.35mA
+d) 3.01mA
+b
+3V = 2VD + IR1
+This method of assumption contains small error but it is the simplest method.
+Let VD be 0.6V. Now the current I = (3-1.2)/1k = 1.8mA.
+The VD = VT ln((I/IO)+1) = 0.58V
+Hence current is (3-(2×0.58))/1k = 1.84mA.
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Voltage-Ampere Characteristics of Diode – 2» Next - Analog Circuits Questions and Answers – Characteristic Equation of Diode-2 

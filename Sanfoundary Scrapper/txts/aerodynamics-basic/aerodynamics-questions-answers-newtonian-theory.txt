@@ -1,0 +1,104 @@
+1. What is the use of Newtonian theory?
+a) Get pressure distribution over hypersonic body
+b) Get pressure distribution over supersonic body
+c) Get coefficient of drag over hypersonic body
+d) Get coefficient of lift over hypersonic body
+a
+2. What are the limiting conditions for Newtonian theory?
+a) M∞ → ∞
+b) γ → ∞
+c) M∞ → ∞, γ → 1
+d) M∞ → 1, γ → ∞
+c
+3. Newtonian theory is more accurate for two – dimensional bodies than three – dimensional bodies.
+a) True
+b) False
+b
+4. Which of these equations is Newton’s sine – squared law?
+a) Cp = 2sin2 θ
+b) Cp = sin2 θ
+c) Cp = \( \frac {sin^2 θ}{2}\) 
+d) Cp = \( \frac {sin^2 θ}{4}\) 
+a
+Cp = 2sin2 θ
+5. What is the density behind the shock in hypersonic flow?
+a) Zero
+b) Infinite
+c) \( \frac {γ + 1}{γ – 1}\) 
+d) \( \frac {γ – 1}{γ + 1}\) 
+b
+\( \frac {ρ_2}{ρ_∞} = \frac {(γ + 1)M_∞^2 sin^2 β}{(γ – 1) M_∞^2 sin^2 β + 2}\) 
+Applying the limit M∞ → 1
+\( \frac {ρ_2}{ρ_∞} = \frac {γ + 1}{γ – 1}\) 
+Applying the limit γ → 1
+\( \frac {ρ_2}{ρ_∞}\) → ∞
+Thus, the density behind the shock wave in a hypersonic flow is infinitely large.
+6. For which angle θ (between tangential pressure and freestream) does maximum coefficient of pressure exist for a blunt body?
+a) θ = 0
+b) θ = π
+c) θ = π/2
+d) θ = 2π
+c
+Cp = 2sin2 θ
+For sin π/2, which is the stagnation point, we get maximum value of coefficient of pressure.
+7. What is the value of Cp at stagnation point for a hypersonic body?
+a) 0
+b) 1
+c) 2
+d) Infinite
+c
+8. What is modified Newtonian pressure law?
+a) Cp = Cp max sin2 θ
+b) Cp = Cp max sin θ
+c) Cp = Cp max cos2 θ
+d) Cp = Cp max cos θ
+a
+9. For which of these conditions was Newtonian law devised?
+a) Force on a flat plate in hypersonic flow
+b) Force on inclined plane in moving fluid
+c) Force on curved airfoil in moving fluid
+d) Force on flat plate in subsonic flow
+b
+10. The fluid flow in Newtonian theory is modelled as which of the following?
+a) Stream of particles in rectilinear motion
+b) Wave
+c) Stream of particles in conic section
+d) Particles moving in a random direction
+a
+11. In which direction does the streamline move downstream the shockwave in a hypersonic flow over a wedge?
+a) Straight line
+b) Parallel to the surface
+c) No fixed direction
+d) Perpendicular to the surface
+b
+12. What is the coefficient of pressure over the surface which is in shadow (no impact from the flow present)?
+a) Zero
+b) 1
+c) 2
+d) Infinite
+a
+For example for a flat plate that is kept at 90 degrees to the incoming freestream flow, the frontal region feels the impact, whereas the back surface is in shadow and the coefficient of pressure in this region is thus zero.
+13. What the coefficient of lift for an inviscid flow is over a flat plate as obtained from Newtonian theory?
+a) cd = 2sin3α
+b) cd = 2sin2α
+c) cd = 2sin2αcosα
+d) cd = sin2αcosα
+c
+cpl = 2sin2α
+Coefficient of pressure on the upper surface is:
+cpu = 0
+It is zero because the backward side of the flat plate does not experience the impact from the flow and is in shadow.
+The normal force coefficient formula is:
+cn = \(\frac {N}{q_∞ S}\) 
+Where, S is the area of the flat plate = (c)(1).
+Integrating the coefficient of pressure on both the upper and lower surfaces yields the normal force coefficient:
+cn = \(\frac {1}{c} \int _0^c\) (cpl – cpu)dx = \(\frac {1}{c} \int _0^c\)(2sin2 α – 0)dx = \(\frac {1}{c}\)(2sin2 α)c
+cn = 2sin2 α
+Coefficient of lift is:
+cl = cncosα = 2sin2αcosα
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Supersonic Nozzle Design» Next - Aerodynamics Questions and Answers – Hypersonics and Computational Fluid Dynamics 

@@ -1,0 +1,55 @@
+1.	“For very large value of A, a high boost filtered image is approximately equal to the original image”. State whether the statement is true or false?
+a)	True
+b)	False
+a
+2.	Subtracting Laplacian from an image is proportional to which of the following?
+a)	Unsharp masking
+b)	Box filter
+c)	Median filter
+d)	None of the mentioned
+a
+f(x,y)- ∇2 f(x,y) = f(x, y) – [f(x + 1, y) + f(x – 1, y) + f(x, y + 1) + f(x, y – 1) – 4f(x, y)]
+That on calculation gives 5[1.2 f(x, y) – f ̅(x, y)] ≈ 5[f(x, y) – f(x, y)]
+Where f(x, y) – f(x, y) is the unsharp masking definition.
+3.	A First derivative in image processing is implemented using which of the following given operator(s)?
+a)	Magnitude of Gradient vector
+b)	The Laplacian
+c)	All of the mentioned
+d)	None of the mentioned
+a
+4.	If for an image function f(x, y), the magnitude of gradient vector is given by: mag(∇f)=[G2x+G2y] (1/2), then which of the following fact is correct?
+a)	The component of Gradient vector are linear operator and also the magnitude of the vector
+b)	The component of Gradient vector are linear operator, but the magnitude are not
+c)	The component of Gradient vector are nonlinear operator and also the magnitude of the vector
+d)	The component of Gradient vector are nonlinear operator, but the magnitude are not
+b
+5.	What is the sum of the coefficient of the mask defined using gradient?
+a)	1
+b)	-1
+c)	0
+d)	None of the mentioned
+c
+6.	Gradient is used in which of the following area(s)?
+a)	To aid humans in detection of defects
+b)	As a preprocessing step for automated inspections
+c)	All of the mentioned
+d)	None of the mentioned
+c
+7.	Gradient have some important features. Which of the following is/are some of them?
+a)	Enhancing small discontinuities in an otherwise flat gray field
+b)	Enhancing prominent edges
+c)	All of the mentioned
+d)	None of the mentioned
+c
+8.	An image has significant edge details. Which of the following fact(s) is/are true for the gradient image and the Laplacian image of the same?
+a)	The gradient image is brighter than the Laplacian image
+b)	The gradient image is brighter than the Laplacian image
+c)	Both the gradient image and the Laplacian image has equal values
+d)	None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice Digital Image Processing Question Bank, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Use of Second Order Derivative for Enhancement» Next - Digital Image Processing Questions and Answers – Laplacian in Frequency Domain 

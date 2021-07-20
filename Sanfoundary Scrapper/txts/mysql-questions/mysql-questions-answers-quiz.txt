@@ -1,0 +1,63 @@
+1. Which program converts binary log files to statements in text form?
+a) mysqldump
+b) mysqllog
+c) mysqlbin
+d) mysqlbinlog
+d
+2. The ‘mysqlbackup’ command to perform a restore operation is _____________
+a) copy-back-and-apply-log
+b) apply-log-and-copy-back
+c) copy-log-and-apply-back
+d) apply-back-and-copy-log
+a
+3. The myisamchk variable that represents the size of buffer used to hold index blocks is _____________
+a) key_buffer_size
+b) read_buffer_size
+c) sort_buffer_size
+d) write_buffer_size
+a
+4. Where does MySQL Enterprise Backup record details of each backup?
+a) history_backup
+b) backup_history
+c) backlog_history
+d) history_backlog
+b
+5. The MySQL server is not configurable.
+a) True
+b) False
+b
+6. Multiple MySQL servers can be run on the same machine.
+a) True
+b) False
+b
+7. What is the log in which data changes received from a replication master server are written?
+a) error log
+b) general query log
+c) binary log
+d) relay log
+d
+8. The metadata log is _______________
+a) error log
+b) ddl log
+c) binary log
+d) relay log
+b
+9. What is the default size of ‘max_binlog_cache_size’ system variable?
+a) 1 GB
+b) 2 GB
+c) 4 GB
+d) 8 GB
+c
+10. The higher priority is ______________
+writes, reads
+a) writes
+b) reads
+c) same priority
+d) machine dependent
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL for Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Checking and Repairing Database Tables» Next - MySQL Questions and Answers – Setting Up Replication Servers 

@@ -1,0 +1,67 @@
+1. Which of the following is a metapackage for enterprise?
+a) mongodb-enterprise
+b) mongodb-enterprise-server
+c) mongodb-enterprise-mongos
+d) none of the mentioned
+a
+2. Point out the correct statement.
+a) MongoDB provides packages of the officially supported MongoDB Enterprise builds in it’s own repository
+b) mongodb-enterprise-tool package contains the mongo shell
+c) mongodb-enterprise-shell package contains the mongo tools
+d) All of the mentioned
+a
+3. ______ package contains the mongod daemon and associated configuration and init scripts.
+a) mongodb-enterprise
+b) mongodb-enterprise-server
+c) mongodb-enterprise-mongos
+d) none of the mentioned
+b
+4. Which of the following is not a part of mongodb-enterprise-tools?
+a) mongodump
+b) mongotop
+c) mongodown
+d) none of the mentioned
+c
+5. Point out the wrong statement.
+a) As of version 2.0.0, there are no control scripts for mongos
+b) The mongodb-enterprise package includes various control scripts, including the init script /etc/rc.d/init.d/mongod
+c) You must configure SELinux to allow MongoDB to start on Red Hat Linux-based systems
+d) None of the mentioned
+a
+6. MongoDB only provides Enterprise packages for Ubuntu ________ LTS.
+a) 13.04
+b) 12.10
+c) 12.04
+d) 13.10
+c
+7. Which of the following is the Ubuntu package management tool?
+a) wapt
+b) dpkg
+c) capt
+d) wat
+b
+8. Command to install the latest stable version of MongoDB Enterprise in Ubuntu is ______________
+a) sudo apt-get install mongodb
+b) sudo apt-get install mongodb-enterprise
+c) sudo apt-get install mongodb-ent
+d) all of the mentioned
+b
+9. mongod process is stopped by issuing which of the following command?
+a) sudo service mongod start
+b) sudo service mongod stop
+c) sudo service mongod restart
+d) none of the mentioned
+b
+10. ____________ package contains the mongo shell.
+a) mongodb-enterprise
+b) mongodb-enterprise-server
+c) mongodb-enterprise-shell
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Installation – 2» Next - MongoDB Questions and Answers – MongoDB Enterprise – 2 

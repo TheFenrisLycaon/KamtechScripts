@@ -1,0 +1,77 @@
+1. In FEM, which theory is an extension of the Timoshenko beam theory?
+a) Classical Plate Theory
+b) Hencky-Mindlin plate theory
+c) Kirchhoff plate theory
+d) Shell theory
+b
+2. In displacement-based plate theories, if a linear theory based on infinitesimal strains and orthotropic material properties is used, then the in-plane displacements are coupled with the transverse deflection.
+a) True
+b) False
+b
+3. In FEM, what are the primary variables in the Shear Deformation Theory of plate deformation (w)?
+a) The transverse deflection w only
+b) The transverse deflection w and the normal derivative of w
+c) The transverse deflection w and the angles of rotation of the transverse normal about in-plane axes
+d) The angles of rotation of the transverse normal about in-plane axes only
+c
+4. Which equation correctly describes Hamilton’s principle used in FEM?
+a) 0=\(\int_{t_1}^{t_2}\)[δK-(δU+δV)]dt
+b) 0=\(\int_{t_1}^{t_2}\)t[δK-(δU+δV)]dt
+c) 0=\(\int_{t_1}^{t_2}\)[δK+(δU+δV)]dt
+d) 0=\(\int_{t_1}^{t_2}\)t[-δK+(δU+δV)]dt
+a
+5. In displacement-based plate theories, which option is correct about Shear Deformation Theory (SDT)?
+a) It is also called Kirchhoff plate theory
+b) It is an extension of Euler-Bernoulli beam theory from one dimension to two dimensions
+c) It does not involve Timoshenko beam theory
+d) It is often known as Hencky-Mindlin plate theory
+d
+Join [email protected]
+6. In displacement-based plate theories, which assumption of Classical Plate Theory is relaxed in Shear Deformation Theory?
+a) A straight-line perpendicular to the plane of the plate is inextensible
+b) A straight line perpendicular to the plane of the plate remains straight
+c) A straight line perpendicular to the plane of the plate rotates such that it remains perpendicular to the tangent to the deformed surface
+d) A straight line perpendicular to the plane of the plate rotates
+c
+7. Which option specifies an assumption made in Shear Deformation Theory for a plate lying in the plane XY?
+a) εzz≠0
+b) εxz=0
+c) εyz≠0
+d) εxy=0
+c
+8. In SDT, what are the boundary conditions for a plate that is clamped if &fcy; represents the rotation of the transverse normal about an in-plane axis and w is the transverse deflection?
+a) w=0,\(\frac{\partial w}{\partial n}\)=0
+b) w=0,&fcy;=0
+c) w=0,\(\frac{\partial w}{\partial n}\)≠0 
+d) w=0, Mnn=0
+b
+9. In SDT, what are the boundary conditions for a plate that is simply supported if &fcy; represents the rotation of the transverse normal about an in-plane axis and w is the transverse deflection?
+a) w=0,\(\frac{\partial w}{\partial n}\)=0
+b) w=0,&fcy;=0
+c) w=0,\(\frac{\partial w}{\partial n}\)≠0 
+d) w=0, Mnn=0
+d
+10. In FEM, which option is correct for a linear plate theory based on infinitesimal strains and orthotropic material properties?
+a) The plane elasticity equations govern the transverse deflections
+b) The transverse deflections are coupled with in-plane displacements
+c) The in-plane displacements are zero in the absence of in-plane forces
+d) The transverse deflections are zero in the absence of in-plane forces
+c
+11. In the Shear Deformation plate theory, when does the transverse shear strains in the element equations present computational difficulties?
+a) If the plate is thick
+b) If the side to thickness ratio of the plate is large
+c) If the side to thickness ratio of the plate is small
+d) If higher-order finite elements are used
+b
+12. In the Shear Deformation plate theory, what characteristic contributes to shear locking?
+a) Transverse shear strains in thick plates present computational difficulties
+b) Transverse shear strains in thin plates present computational efficiency
+c) For thick plates, the element stiffness matrix yields erroneous results for the generalized displacements
+d) For thin plates, the element stiffness matrix becomes stiff and yields erroneous results
+d
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Classical Plate Model 

@@ -1,0 +1,101 @@
+1. _________________ are mathematical problems defined as a set of objects whose state must satisfy a number of constraints or limitations.
+a) Constraints Satisfaction Problems
+b) Uninformed Search Problems
+c) Local Search Problems
+d) All of the mentioned
+a
+2. Which of the Following problems can be modeled as CSP?
+a) 8-Puzzle problem
+b) 8-Queen problem
+c) Map coloring problem
+d) All of the mentioned
+d
+3. What among the following constitutes to the incremental formulation of CSP?
+a) Path cost
+b) Goal cost
+c) Successor function
+d) All of the mentioned
+d
+Successor function: A value can be assigned to any unassigned variable, provided it does not conflict with previously assigned variables.
+Goal test: The current assignment is complete.
+Path cost: A constant cost (e.g., 1) for every step.
+4. The term ___________ is used for a depth-first search that chooses values for one variable at a time and returns when a variable has no legal values left to assign.
+a) Forward search
+b) Backtrack search
+c) Hill algorithm
+d) Reverse-Down-Hill search
+b
+5. To overcome the need to backtrack in constraint satisfaction problem can be eliminated by ____________
+a) Forward Searching
+b) Constraint Propagation
+c) Backtrack after a forward search
+d) Omitting the constraints and focusing only on goals
+a
+6. The BACKTRACKING-SEARCH algorithm in Figure 5.3 has a very simple policy for what to do when a branch of the search fails: back up to the preceding variable and try a different value for it. This is called chronological-backtracking. It is also possible to go all the way to set of variable that caused failure.
+a) True
+b) False
+a
+7. Consider a problem of preparing a schedule for a class of student. What type of problem is this?
+a) Search Problem
+b) Backtrack Problem
+c) CSP
+d) Planning Problem
+c
+8. Constraint satisfaction problems on finite domains are typically solved using a form of ___________
+a) Search Algorithms
+b) Heuristic Search Algorithms
+c) Greedy Search Algorithms
+d) All of the mentioned
+d
+9. Solving a constraint satisfaction problem on a finite domain is an/a ___________ problem with respect to the domain size.
+a) P complete
+b) NP complete
+c) NP hard
+d) Domain dependent
+b
+10.  ____________ is/are useful when the original formulation of a problem is altered in some way, typically because the set of constraints to consider evolves because of the environment.
+a) Static CSPs
+b) Dynamic CSPs
+c) Flexible CSPs
+d) None of the mentioned
+b
+11. Flexible CSPs relax on _______
+a) Constraints
+b) Current State
+c) Initial State
+d) Goal State
+a
+12. Language/Languages used for programming Constraint Programming includes ____________
+a) Prolog
+b) C#
+c) C
+d) Fortrun
+a
+13. Backtracking is based on ____________
+a) Last in first out
+b) First in first out
+c) Recursion
+d) Both Last in first out & Recursion
+d
+14. Constraint Propagation technique actually modifies the CSP problem.
+a) True
+b) False
+a
+15. When do we call the states are safely explored?
+a) A goal state is unreachable from any state
+b) A goal state is denied access
+c) A goal state is reachable from every state
+d) None of the mentioned
+c
+16. Which of the following algorithm is generally used CSP search algorithm?
+a) Breadth-first search algorithm
+b) Depth-first search algorithm
+c) Hill-climbing search algorithm
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series –  Artificial Intelligence.
+To practice basic questions and answers on all areas of Artificial Intelligence, here is complete set of 1000+ Multiple Choice Questions and Answers on Artificial Intelligence.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Artificial Intelligence Questions and Answers – Local Search Problems and Optimization Problems» Next - Artificial Intelligence Questions and Answers – Game Theory 

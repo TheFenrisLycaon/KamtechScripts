@@ -1,0 +1,86 @@
+1. Which of these keywords are used to implement synchronization?
+a) synchronize
+b) syn
+c) synch
+d) synchronized
+d
+2. Which of this method is used to avoid polling in Java?
+a) wait()
+b) notify()
+c) notifyAll()
+d) all of the mentioned
+d
+3. Which of these method is used to tell the calling thread to give up a monitor and go to sleep until some other thread enters the same monitor?
+a) wait()
+b) notify()
+c) notifyAll()
+d) sleep()
+a
+4. Which of these method wakes up the first thread that called wait()?
+a) wake()
+b) notify()
+c) start()
+d) notifyAll()
+b
+5. Which of these method wakes up all the threads?
+a) wakeAll()
+b) notify()
+c) start()
+d) notifyAll()
+d
+6. What is synchronization in reference to a thread?
+a) It’s a process of handling situations when two or more threads need access to a shared resource
+b) It’s a process by which many thread are able to access same shared resource simultaneously
+c) It’s a process by which a method is able to access many different threads simultaneously
+d) It’s a method that allow too many threads to access any information the require
+a
+7. What will be the output of the following Java program?
+    class newthread extends Thread    {	Thread t;	String name;	newthread(String threadname)        {	    name = threadname;	    t = new Thread(this,name);	    t.start();	}	public void run()        {        }     }    class multithreaded_programing    {        public static void main(String args[])        {	    newthread obj1 = 	 new newthread("one");	    newthread obj2 =	 new newthread("two");            try            {                obj1.t.wait();	                System.out.print(obj1.t.isAlive());            }            catch(Exception e)            {	    System.out.print("Main thread interrupted");            }        }    }
+a) true
+b) false
+c) Main thread interrupted
+d) None of the mentioned
+c
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+Main thread interrupted
+8. What will be the output of the following Java program?
+    class newthread extends Thread    {	Thread t;	String name;	newthread(String threadname)        {	    name = threadname;	    t = new Thread(this,name);	    t.start();	}	public void run()        {        }     }    class multithreaded_programing    {        public static void main(String args[])        {	    newthread obj1 = 	 new newthread("one");	    newthread obj2 =	 new newthread("two");            try            {                Thread.sleep(1000);	                System.out.print(obj1.t.isAlive());            }            catch(InterruptedException e)            {	    System.out.print("Main thread interrupted");            }        }    }
+a) true
+b) false
+c) Main thread interrupted
+d) None of the mentioned
+b
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+false
+9. What will be the output of the following Java program?
+    class newthread extends Thread    {	Thread t;	String name;	newthread(String threadname)        {	    name = threadname;	    t = new Thread(this,name);	    t.start();	}	public void run()        {        }     }    class multithreaded_programing    {        public static void main(String args[])        {	    newthread obj1 = 	 new newthread("one");	    newthread obj2 =	 new newthread("two");            try            {                 System.out.print(obj1.t.equals(obj2.t));            }            catch(Exception e)            {	    System.out.print("Main thread interrupted");            }        }    }
+a) true
+b) false
+c) Main thread interrupted
+d) None of the mentioned
+b
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+false
+10. What will be the output of the following Java program?
+    class newthread extends Thread    {	Thread t;	newthread()        {	    t1 = new Thread(this,"Thread_1");	    t2 = new Thread(this,"Thread_2");	    t1.start();	    t2.start();	}	public void run()        {	    t2.setPriority(Thread.MAX_PRIORITY);		    System.out.print(t1.equals(t2));        }        }    class multithreaded_programing    {        public static void main(String args[])        {            new newthread();                }    }
+a) true
+b) false
+c) truetrue
+d) falsefalse
+d
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+falsefalse
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Multithreading» Next - Java Questions & Answers – Input & Output Basics 

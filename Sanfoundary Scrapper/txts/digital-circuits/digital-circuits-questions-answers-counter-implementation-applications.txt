@@ -1,0 +1,73 @@
+1. A ripple counter’s speed is limited by the propagation delay of ____________
+a) Each flip-flop
+b) All flip-flops and gates
+c) The flip-flops only with gates
+d) Only circuit gates
+a
+2. A 5-bit asynchronous binary counter is made up of five flip-flops, each with a 12 ns propagation delay. The total propagation delay (tp(tot)) is ________
+a) 12 ms
+b) 24 ns
+c) 48 ns
+d) 60 ns
+d
+3. A 4-bit ripple counter consists of flip-flops, which each have a propagation delay from clock to Q output of 15 ns. For the counter to recycle from 1111 to 0000, it takes a total of ________
+a) 15 ns
+b) 30 ns
+c) 45 ns
+d) 60 ns
+d
+4. A ripple counter’s speed is limited by the propagation delay of __________
+a) Each flip-flop
+b) All flip-flops and gates
+c) The flip-flops only with gates
+d) Only circuit gates
+a
+5. What is the maximum delay that can occur if four flip-flops are connected as a ripple counter and each flip-flop has propagation delays of tPHL = 22 ns and tPLH = 15 ns?
+a) 15 ns
+b) 22 ns
+c) 60 ns
+d) 88 ns
+d
+Join Sanfoundry@YouTube
+6. The main drawback of a ripple counter is that __________
+a) It has a cumulative settling time
+b) It has a distributive settling time
+c) It has a productive settling time
+d) It has an associative settling time
+a
+7. A 4 bit modulo-16 ripple counter uses JK flip-flops. If the propagation delay of each flip-flop is 50 nsec, the maximum clock frequency that can be used is equal to __________
+a) 20 MHz
+b) 10 MHz
+c) 5 MHz
+d) 4 MHz
+c
+8. As the number of flip flops are increased, the total propagation delay of __________
+a) Ripple counter increases but that of synchronous counter remains the same
+b) Both ripple and synchronous counters increase
+c) Both ripple and synchronous counters remain the same
+d) Ripple counter remains the same but that of synchronous counter increases
+a
+9. A reliable method for eliminating decoder spikes is the technique called ________
+a) Strobing
+b) Feeding
+c) Wagging
+d) Waving
+a
+10. A glitch that appears on the decoded output of a ripple counter is often difficult to see on an oscilloscope because of __________
+a) It is a random event
+b) It occurs less frequently than the normal decoded output
+c) It is very fast
+d) All of the Mentioned
+d
+11. Assume a 4-bit ripple counter has a failure in the second flip-flop such that it “locks up”. The third and fourth stages will __________
+a) Continue to count with correct outputs
+b) Continue to count but have incorrect outputs
+c) Stop counting
+d) Turn into molten silicon
+c
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – Propagation Delay in Ripple Counter» Next - Digital Circuits Questions and Answers – Up Down Counter 

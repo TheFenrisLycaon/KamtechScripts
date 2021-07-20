@@ -1,0 +1,64 @@
+1. What is the surface boundary condition for a thin airfoil at a subsonic flow? (Where shape of the airfoil is represented as y = f(x))
+a) \(\frac {∂ϕ}{∂x}\) = V∞ \(\frac {df}{dx}\) 
+b) \(\frac {∂ϕ}{∂y} = \frac {df}{dy}\) 
+c) \(\frac {∂ϕ}{∂x}\) = – V\(_∞^2 \frac {df}{dx}\) 
+d) \(\frac {∂ϕ}{∂x} = \frac {dV_∞}{dx}\) 
+a
+\(\frac {df}{dx} = \frac {v^{‘}}{V_∞ + u^{‘}}\) = tanθ
+Since it is a thin airfoil, the perturbation vector u‘ is very small in comparison to the freestream velocity V∞, resulting in \(\frac {df}{dx} = \frac {v^{‘}}{V_∞}\) = θ (Where tanθ ~ θ for small angles). Expressing the perturbation v‘ in terms of velocity potential we get
+v‘ = \(\frac {∂ϕ}{∂x}\) 
+Substituting this in the above equation:
+\(\frac {df}{dx} = \frac {\frac {∂ϕ}{∂x}}{V_∞}\) = θ
+\(\frac {∂ϕ}{∂x}\) = V∞ \(\frac {df}{dx}\) 
+2. Which of these is the linearized perturbation velocity potential equation over a thin airfoil in a subsonic compressible flow?
+a) β2(ϕxx + ϕyy) = 0
+b) ϕxx + ϕyy = 0
+c) β2ϕxx + ϕyy = 0
+d) β2ϕxx + ϕxy = 0
+c
+β2ϕxx + ϕyy = 0
+In this equation the perturbations are assumed to be small with the value of β = \(\sqrt {1 – M_∞^{2}} \).
+3. Which of the equations governs the linearized incompressible flow over an airfoil at subsonic velocity using transformed coordinate system?
+a) Laplace’s equation
+b) Euler’s equation
+c) Navier – Stokes equation
+d) Cauchy’s equation
+a
+ϕξξ + ϕηη = 0
+This is the Laplace equation representing the incompressible flow in a linearized form.
+4. The shape of the airfoil in both (x, y) and transformed (ξ, η) space are different.
+a) True
+b) False
+b
+5. What does the Prandtl – Glauert rule relate?
+a) Shape of airfoil in transformed spaces
+b) Incompressible flow to the compressible flow for same airfoil
+c) Coefficient of lift to coefficient of pressure
+d) Coefficient of drag to coefficient of pressure
+b
+Cp = \(\frac {C_{p0}}{\sqrt {1 – M_∞^{2}}}\), Cl = \(\frac {C_{l0}}{\sqrt {1 – M_∞^{2}}}\), Cd = \(\frac {C_{d0}}{\sqrt {1 – M_∞^{2}}}\) 
+This equation relates the pressure/lift/drag coefficient in incompressible flow Cp0 to the pressure/lift/drag coefficient in compressible flow (Cp) for a two – dimensional airfoil with the same profile.
+6. Linearized theory is applicable for transonic regions as well.
+a) True
+b) False
+b
+Cl = \(\frac {C_{l0}}{\sqrt {1 – M_∞^{2}}}\), Cd = \(\frac {C_{d0}}{\sqrt {1 – M_∞^{2}}}\) 
+7. For a subsonic flow, how does the coefficient of pressure vary with increasing Mach number?
+a) Increases
+b) Decreases
+c) Remains same
+d) First increases, then decreases
+a
+Cp ∝ \(\frac {1}{\sqrt {1 – M_∞^{2}}}\) 
+8. Up to which Mach number is Prandtl – Glauert rule applicable for subsonic flow?
+a) 1
+b) 0.5
+c) 0.8
+d) 0.65
+c
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Linearized Pressure Coefficient» Next - Aerodynamics Questions and Answers – Linearized Supersonic Flow 

@@ -1,0 +1,67 @@
+1. The ________ References pattern stores each tree node in a document; in addition to the tree node, the document stores the id of the node’s parent.
+a) Child
+b) Parent
+c) Root
+d) None of the mentioned
+b
+2. Point out the correct statement.
+a) The query to retrieve the parent of a node is fast and straightforward
+b) The query to retrieve the parent of a node is slow and straightforward
+c) The query to retrieve the parent of a node is slow and complex
+d) All of the mentioned
+a
+3. The ________ Links pattern provides a simple solution to tree storage but requires multiple queries to retrieve subtrees.
+a) Child
+b) Parent
+c) Root
+d) All of the mentioned
+b
+4. The _________ References pattern stores each tree node in array the id(s) of the node’s children.
+a) Child
+b) Parent
+c) Root
+d) None of the mentioned
+a
+5. Point out the wrong statement.
+a) You cannot query for a node in the children field to find its parent node only
+b) You can query for a node in the children field to find its parent node as well as its siblings
+c) You can query for a node in the children field to find its siblings only
+d) None of the mentioned
+b
+6. Which of the following pattern may provide a suitable solution for storing graphs?
+a) Child
+b) Parent
+c) Root
+d) None of the mentioned
+a
+7. Which of the following pattern is more straightforward to use?
+a) Materialized Paths
+b) Array of Ancestors
+c) Nested Sets
+d) None of the mentioned
+b
+8. The Array of Ancestors pattern is slightly slower than the ________________ pattern.
+a) Materialized Paths
+b) Array of Ancestors
+c) Nested Sets
+d) None of the mentioned
+a
+9. The ____________ pattern identifies each node in the tree as stops in a round-trip traversal of the tree.
+a) Materialized Paths
+b) Array of Ancestors
+c) Nested Sets
+d) None of the mentioned
+c
+10. ____________ pattern requires additional steps of working with strings and regular expressions.
+a) Materialized Paths
+b) Array of Ancestors
+c) Nested Sets
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Data Model Examples and Patterns» Next - MongoDB Questions and Answers – Model Data for Atomic operations 

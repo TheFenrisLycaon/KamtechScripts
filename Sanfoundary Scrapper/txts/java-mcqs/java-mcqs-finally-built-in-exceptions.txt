@@ -1,0 +1,76 @@
+1. Which of these clause will be executed even if no exceptions are found?
+a) throws
+b) finally
+c) throw
+d) catch
+b
+2. A single try block must be followed by which of these?
+a) finally
+b) catch
+c) finally & catch
+d) none of the mentioned
+c
+3. Which of these exceptions handles the divide by zero error?
+a) ArithmeticException
+b) MathException
+c) IllegalAccessException
+d) IllegarException
+a
+4. Which of these exceptions will occur if we try to access the index of an array beyond its length?
+a) ArithmeticException
+b) ArrayException
+c) ArrayIndexException
+d) ArrayIndexOutOfBoundsException
+d
+5. What will be the output of the following Java code?
+    class exception_handling     {        public static void main(String args[])         {            try             {                int a = args.length;                int b = 10 / a;                System.out.print(a);            }            catch (ArithmeticException e)             {                    System.out.println("1");            }        }    }
+Note : Execution command line : $ java exception_handling
+a) 0
+b) 1
+c) Compilation Error
+d) Runtime Error
+b
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+1
+6. What will be the output of the following Java code?
+    class exception_handling     {        public static void main(String args[])         {            try             {                throw new NullPointerException ("Hello");            }            catch(ArithmeticException e)            {        	System.out.print("B");        	            }        }    }
+a) A
+b) B
+c) Compilation Error
+d) Runtime Error
+d
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+Exception in thread "main" java.lang.NullPointerException: Hello
+7. What will be the output of the following Java code?
+class exception_handling         {            public static void main(String args[])            {                try                 {                    int a = 1;                    int b = 10 / a;                    try                     {                         if (a == 1)                             a = a / a - a;                         if (a == 2)                          {                             int c[] = {1};                             c[8] = 9;                         }                    }                    finally                     {                        System.out.print("A");                    }                }                catch (Exception e)                 {                        System.out.println("B");                }            }        }
+a) A
+b) B
+c) AB
+d) BA
+a
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+A
+8. What will be the output of the following Java code?
+    class exception_handling     {        public static void main(String args[])         {            try             {                int a = args.length;                int b = 10 / a;                System.out.print(a);                try                 {                     if (a == 1)                         a = a / a - a;                     if (a == 2)                      {                         int []c = {1};                         c[8] = 9;                     }                }                catch (ArrayIndexOutOfBoundException e)                 {                    System.out.println("TypeA");                }            catch (ArithmeticException e)             {                    System.out.println("TypeB");            }        }    }
+Note: Execution command line: $ java exception_handling one two
+a) TypeA
+b) TypeB
+c) Compilation Error
+d) Runtime Error
+c
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+Main.java:9: error: 'try' without 'catch', 'finally' or resource declarations
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Throw, Throws & Nested Try» Next - Java Questions & Answers – Try & Catch 

@@ -1,0 +1,103 @@
+1. Which option is not correct about the three-noded triangular plane stress (linear) element used in FEM?
+a) It has six degrees of freedom
+b) It belongs to both the isoparametric and superparametric element families
+c) It can be improved by the addition of internal degrees of freedom
+d) Delaunay triangulation can be used for its mesh generation
+c
+2. In FEM, which option is used to develop the Higher-order triangular elements (i.e. triangular elements with interpolation functions of higher degree) systematically?
+a) Pascal’s triangle
+b) Galerkin method
+c) Jacobi method
+d) Delaunaytriangulation
+a
+3. In FEM, What is the number of displacement polynomials necessary for finding displacements in a linear triangular element?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+4. Concerning triangular elements in FEM, which option is not correct about the mathematical formula of Pascal’s triangle?
+a) It contains the terms in two coordinates only
+b) The position of the terms can be viewed as the nodes of a triangular element
+c) The position of the first and last terms of a row is at the vertices of a triangular element
+d) A triangular element of order 2 corresponds to the second row
+d
+5. Which option is not correct about the four-noded rectangular plane stress element used in FEM?
+a) It has eight degrees of freedom
+b) Shape functions N1, N2, N3 and N4 are bilinear functions of x and y
+c) The displacement field is continuous across elements
+d) Its Delaunay triangulation is unique
+d
+Join Sanfoundry@YouTube
+6. In FEM, if x, y represents Cartesian coordinates, then the following triangular array of binomial coefficients forms Pascal’s triangle.
+\(\begin{matrix}
+& & & 1 & & &\\
+& & x & & y & & \\
+& x^2 & & xy & & y^2 & \\
+x^3 & & x^2y & & xy^2 & & y^3 \\
+\end{matrix}
+\)  
+a) True
+b) False
+a
+7. In the FEM element library, what is the other name of a higher-order element?
+a) Complex element
+b) Simplex element
+c) Linear element
+d) Nonlinear element
+a
+8. In FEM, if x, y represents Cartesian coordinates, then which term of Pascal’s triangle corresponds to the position of the interior node of the following element?
+a) 1
+b) xy
+c) x2y
+d) xy2
+b
+9. In the FEM element library, an eight noded quadrilateral element belongs to which family?
+a) Serendipity
+b) Linear
+c) Simplex
+d) Quadratic
+a
+10. In FEM, which option is not correct about the Lagrange family of triangular elements?
+a) The nodes are uniformly spaced
+b) Pascal’s triangle can be viewed as a triangular element
+c) Dependent variables and their derivatives are continuous at inter-element boundaries
+d) 2nddegree polynomial corresponds to 6 noded triangle
+c
+11. What is the displacement function for one-dimensional, two noded linear elements in terms of its shape functions N1 and N2?
+a) N1u1+N2u2
+b) N1u2+N2u1
+c) N1u1-N2u2
+d) N1u2-N2u1
+a
+12. For the following element, what is the value of the distance variable s at the 1st row?
+a) 1
+b) 2
+c) 0.5
+d) 0
+c
+s=\(\frac{p}{3-1}\) 
+=\(\frac{p}{2}\) 
+At first row, p=1
+s=\(\frac{1}{2}\) 
+=0.5.
+13. For the following element, if s is the distance variable as shown, then its value at the 2nd row is \(\frac{1}{3}\).
+a) True
+b) False
+b
+s=\(\frac{p}{4-1}\) 
+=\(\frac{p}{3}\) 
+At second row, p=2
+s=\(\frac{2}{3}\).
+14. In the FEM element library, what is the correct name for a six noded triangular element?
+a) Linear strain triangular element
+b) Constant strain triangular element
+c) Variable strain triangular element
+d) Higher-order triangular element
+a
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Eigen Value and Time Dependent Problems – 2» Next - Finite Element Method Questions and Answers – Library of Elements and Interpolation Functions – 2 

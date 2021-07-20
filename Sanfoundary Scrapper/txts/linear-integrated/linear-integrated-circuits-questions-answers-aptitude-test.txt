@@ -1,0 +1,89 @@
+1. Which of these statements is false?
+a) The open loop gain AOL(f) dB is approximately constant from 0Hz to fo
+b) When input signal frequency and f is equal to break frequency fo, the gain frequency is called -3dB frequency
+c) The open loop gain AOL(f) dB is approximately constant upto break frequency fo, but there after it increase 20dB each time there is a tenfold increase in frequency.
+d) At unity gain crossover frequency, the open loop gain AOL(f) dB is zero
+c
+2. What is the maximum phase shift that can occur in an op-amp with single capacitor?
+a) 180o
+b) 60o
+c) 270o
+d) 90o
+d
+3. How can the gain roll off represented in dB/octave?
+a) 12 dB/octave
+b) 6 dB/octave
+c) 10 dB/octave
+d) 8 dB/octave
+b
+4. Select the correct magnitude and phase for the frequency range.
+ List-I 
+ List-II
+ 1. f<1 
+i. Gain is 3dB down from the value of AOL in dB  
+ 2. f=f1 
+ ii. Gain roll off at the rate of 20 dB/decade  
+ 3. f>>f1
+ iii. Magnitude of the gain is 20logxAOL in dB 
+a) 1-iii, 2-i, 3-ii
+b) 1-I, 2-ii, 3-iii
+c) 1-iii, 2-ii, 3-i
+d) 1-ii, 2-iii, 3-i
+a
+5. The specific frequency at which AOL (dB) is called
+a) Gain bandwidth product
+b) Closed loop bandwidth
+c) Small signal bandwidth
+d) All of the mentioned
+d
+6. Find out the expression for open loop gain magnitude with three break frequency?
+a) A/[1+ j(f/fo1)]x[1+ j(f/fo2)]x[1+ j(f/fo3)].
+b) A/[1+ j(f/fo)]3
+c) A/A/[1+ j(f/fo1)]+ [1+ j(f/fo2)]+ [1+ j(f/fo3)].
+d)  All of the mentioned
+c
+7. Find out the frequencies that are avoided in frequency response plot?
+a) None of the mentioned
+b) Single break frequency
+c) Upper break frequency
+d) Lower break frequency
+c
+8. In a phase response curve of MC1556, the phase shift is -162.5o about 4MHz. If the approximate value of first break frequency is 5.5Hz. Determine the approximate value of the second break frequency?
+a) 945.89MHz
+b) 945.89kHz
+c) 945.89GHz
+d) 945.89Hz
+b
+=>  -162.5o = – tan-1(3MHz/5.5) –  tan-1(3MHz/fo2)
+=>  tan-1(3MHz/fo2) = +162.5o-89.99o
+=> 3MHz/fo2= tan(72.50o)
+=> fo2 = 3MHz/tan(72.50o)=945.89kHz. 
+9. Consider a practical op-amp having two break frequency due to a number of RC pole pairs. Determine the gain equation using the given specifications:
+A ≅ 102.92dB; fo1 =6Hz ; fo2 =2.34MHz .
+a) 140000/[1+ j(f/6)]x[1+ j(f/2.34)].
+b) 140000/[1+ j(f/6)]x[1+ j(f/234)].
+c) 140000/[1+ j(f/6)]x[1+ j(f/23400)].
+d) 140000/[1+ j(f/6)]x[1+ j(f/2340000)].
+d
+=> A = 105.146 =139958.73 ≅ 140000.
+The gain equation with two break frequency value is given as
+ AOL(f) = A/[1+ j(f/fo1)]x[1+ j(f/fo2)] =140000/[1+ j(f/6)]x[1+ j(f/2.34)]. 
+10. What is the voltage transfer function of op-amp in s-domain.
+a) S×A/(s+ωo)
+b) A/(s+ωo)
+c) (A×ωo)/(s+ωo)
+d) None of the mentioned
+c
+11. Calculate the unity gain bandwidth of an op-amp. Given, A≅ 0.2×106 & fo =5Hz?
+a) 106
+b) 108
+c) 10-5
+d) 10-10
+a
+=> =fo×A = 0.2×106 × 5  = 106. 
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuit for Aptitude test, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Open-Loop Voltage Gain as a Function of Frequency – 1» Next - Linear Integrated Circuit Questions and Answers – Closed-Loop Frequency Response and Circuit Stability 

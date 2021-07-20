@@ -1,0 +1,71 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in MIndtree and other companies. Anyone looking for Mindtree placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of C interview questions on “Conditional Inclusion” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    #define SYSTEM 20    int main()    {        int a = 20;        #if SYSTEM == a        printf("HELLO ");        #endif        #if SYSTEM == 20        printf("WORLD\n");        #endif    }
+a) HELLO
+b) WORLD
+c) HELLO WORLD
+d) No Output
+b
+2. What will be the output of the following C code?
+    #include <stdio.h>    #define Cprog    int main()    {        int a = 2;        #ifdef Cprog        a = 1;        printf("%d", Cprog);    }
+a) No output on execution
+b) Output as 1
+c) Output as 2
+d) Compile time error
+d
+Join [email protected]
+3. The “else if” in conditional inclusion is written by?
+a) #else if
+b) #elseif
+c) #elsif
+d) #elif
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    #define COLD    int main()    {        #ifdef COLD        printf("COLD\t");        #undef COLD        #endif        #ifdef COLD        printf("HOT\t");        #endif    }
+a) HOT
+b) COLD
+c) COLD HOT
+d) No Output
+b
+5. Which of the following sequences are unaccepted in C language?
+a)
+   #if
+   #else
+   #endif
+b)
+   #if
+   #elif
+   #endif
+c)
+   #if
+   #if
+   #endif
+d)
+   #if
+   #undef
+   #endif
+c
+  
+6. In a conditional inclusion, if the condition that comes after the if is true, then what will happen during compilation?
+a) Then the code up to the following #else or #elif or #endif is compiled
+b) Then the code up to the following #endif is compiled even if #else or #elif is present
+c) Then the code up to the following #eliif is compiled
+d) None of the mentioned
+a
+7. Conditional inclusion can be used for ___________
+a) Preventing multiple declarations of a variable
+b) Check for existence of a variable and doing something if it exists
+c) Preventing multiple declarations of same function
+d) All of the mentioned
+d
+8. The #elif directive cannot appear after the preprocessor #else directive.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Macro Substitution – 2» Next - C Programming Questions and Answers – Conditional Inclusion – 2 

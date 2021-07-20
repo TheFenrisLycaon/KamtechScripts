@@ -1,0 +1,56 @@
+This section on C interview questions and answers focuses on “Random Number Generation”. One shall practice these interview questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C Interview questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C interview questions on “Random Number Generation” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    #include <stdlib.h>    int main()    {        printf("%d\n", rand() % 1000);        return 0;    }
+a) Compile time error
+b) An integer between 0-1000
+c) An integer between 0-999 including 0 and 999
+d) An integer between 0-1000 including 1000
+c
+2. What will be the output of the following C code?
+    #include <stdio.h>    #include <stdlib.h>    int main()    {        srand(9000);        printf("%d\n", rand());        return 0;    }
+a) Compile time error
+b) An integer in the range 0 to RAND_MAX
+c) A double in the range 0 to 1
+d) A float in the range 0 to 1
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        printf("%d\n", srand(9000));        return 0;    }
+a) Compile time error
+b) An integer in the range 0 to 9000
+c) A float in the range 0 to 1
+d) A double in the range 0 to 9000
+a
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        srand(time(NULL));        printf("%d\n", rand());        return 0;    }
+a) Compile time error
+b) An integer in the range 0 to RAND_MAX
+c) A double in the range 0 to 1
+d) A float in the range 0 to 1
+b
+5. In the below C program, every time program is run different numbers are generated.
+    #include <stdio.h>    #include <stdlib.h>    int main()    {        printf("%d\n", rand());        return 0;    }
+a) True
+b) False
+c) Depends on the platform
+d) Depends on the compiler
+b
+6. In the following C program, every time program is run different numbers are generated.
+    #include <stdio.h>    int main()    {        srand(time(NULL));        printf("%d\n", rand());        return 0;    }
+a) True
+b) False
+c) Depends on the platform
+d) Depends on the compiler
+a
+7. Which of these is a correct way to generate numbers between 0 to 1(inclusive) randomly?
+a) rand() / RAND_MAX
+b) rand() % 2
+c) rand(0, 1)
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Random Number Generation – 1» Next - C Questions and Answers – printf – 1 

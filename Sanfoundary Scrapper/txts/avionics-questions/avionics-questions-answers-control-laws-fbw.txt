@@ -1,0 +1,97 @@
+1. What are control laws?
+a) Algorithms relating pilots stick and control surface
+b) Laws that govern aerodynamics forces
+c) Laws that govern flight motion
+d) Laws used to predict range and endurance
+a
+2. What is θi in pitch rate command law?
+a) Tailplane demand angle
+b) Pilot input angle
+c) Gain in loop
+d) Pitch rate gearing
+b
+ ηD = K(θi − Gqq)
+ where ηD is the tailplane demand angle; θi is the pilot’s input command; q is the pitch rate; K is the forward loop gain, and Gq is the pitch rate gearing.
+3. What is false true with respect to K in the pitch rate command law?
+a) Value of K is infinite
+b) Value of K is constant with height and altitude
+c) Value of K changes with height and altitude
+d) Value of k is constant with altitude and airspeed
+d
+4. Derivative of a control system provides _________
+a) Low steady state error
+b) Gain proportional to error
+c) Reduced overshoot
+d) Infinite gain
+c
+compensate for the lags in the system, for instance, actuator response, and hence improve the loop stability. This increases the damping of the aircraft response and reduces the overshoot to a minimum when responding to an input or disturbance. 
+5. Integral of a control system provides __________
+a) Low steady state error
+b) Gain proportional to error
+c) Reduced overshoot
+d) infinite gain
+a
+Join Sanfoundry@YouTube
+6. Phase advance control is also known as __________
+a) Proportional error controller
+b) Derivative error controller
+c) Integral error controller
+d) One plus derivative error controller
+d
+The control term is filtered to limit the increase in gain at high frequencies and smooth the differentiation process which amplifies any noise present in the error signal.
+7. What is the MTBF of a solid state rate gyro?
+a) 1,000 to 5,000 hrs
+b) 5,000 to 10,000 hrs
+c) 10,000 to 50,000 hrs
+d) 50,000 to 100,000 hrs
+d
+8. What are the shortcomings of using an angle of incidence indicator for feedback sensor?
+a) Damage from bird strikes and local airflow disturbance
+b) Damage from ice formation and local airflow disturbance
+c) Ground and impact damage from landing
+d) Works only in subsonic ranges
+a
+9. What is the angle of incidence limiting?
+a) Warning indication to the pilot during high angles of incidence
+b) The minimum angle of attack that can be measured
+c) Keeping angle of incidence under safety limits whilst maneuvering
+d) Reducing the error that occurs in an angle of incidence indicator
+c
+10. The aircraft is a rigid body.
+a) True
+b) False
+b
+11.  FCS sensors which sense aircraft motion also sense the structural deflections.
+a) True
+b) False
+a
+12. What happens to the phase lag in an actuator as the frequency is increased?
+a) Increases
+b) Decreases
+c) Constant
+d) Cannot be determined
+a
+13. What can occur when the control valve travel limits are reached under conditions of large amplitude demands?
+a) Stall
+b) Structural damage
+c) Rate limiting
+d) Rate delimiting
+c
+14. What is PIO?
+a) Pitot indicator
+b) Pilot induced oscillations
+c) Pressure indicator observed
+d) Primary Input/Output
+b
+15. Flight control systems comes under the category of _______
+a) SISO
+b) SIMO
+c) MIMO
+d) MISO
+c
+Sanfoundry Global Education & Learning Series – Avionics.
+To practice all areas of Avionics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Avionics Questions and Answers – Fly-By-Wire Technology – 2» Next - Avionics Questions and Answers – Redundancy and Failure Survival in FBW 

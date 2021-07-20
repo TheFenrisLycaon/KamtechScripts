@@ -1,0 +1,67 @@
+1. ________ includes a ﬂexible and powerful toolkit for displaying monitoring and analyzing results.
+a) Imphala
+b) Chukwa
+c) BigTop
+d) Oozie
+b
+2. Point out the correct statement.
+a) Log processing was one of the original purposes of MapReduce
+b) Chukwa is a Hadoop subproject devoted to bridging that gap between logs processing and Hadoop ecosystem
+c) HICC stands for Hadoop Infrastructure Care Center
+d) None of the mentioned
+b
+3. The items stored on _______ are organized in a hierarchy of widget category.
+a) HICE
+b) HICC
+c) HIEC
+d) All of the mentioned
+b
+4. HICC, the Chukwa visualization interface, requires HBase version _____________
+a) 0.90.5+.
+b) 0.10.4+.
+c) 0.90.4+.
+d) None of the mentioned
+c
+5. Point out the wrong statement.
+a) Using Hadoop for MapReduce processing of logs is easy
+b) Chukwa should work on any POSIX platform
+c) Chukwa is a system for large-scale reliable log collection and processing with Hadoop
+d) All of the mentioned
+a
+6. __________ are the Chukwa processes that actually produce data.
+a) Collectors
+b) Agents
+c) HBase Table
+d) HCatalog
+b
+7. Chukwa ___________ are responsible for accepting incoming data from Agents, and storing the data.
+a) HBase Table
+b) Agents
+c) Collectors
+d) None of the mentioned
+c
+8. For enabling streaming data to _________ chukwa collector writer class can be configured in chukwa-collector-conf.xml.
+a) HCatalog
+b) HBase
+c) Hive
+d) All of the mentioned
+b
+9. By default, collector’s listen on port _________
+a) 8008
+b) 8070
+c) 8080
+d) None of the mentioned
+c
+10. _________ class allows other programs to get incoming chunks fed to them over a socket by the collector.
+a) PipelineStageWriter
+b) PipelineWriter
+c) SocketTeeWriter
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Hadoop Incubators – 3» Next - Hadoop Questions and Answers – Chuckwa with Hadoop – 2 

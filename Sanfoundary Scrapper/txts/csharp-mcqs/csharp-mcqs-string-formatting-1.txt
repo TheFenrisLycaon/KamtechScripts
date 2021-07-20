@@ -1,0 +1,106 @@
+1. What will be the output of the following C# code snippet?
+ static void Main(string[] args) {     string s1 = "olleH";     string s2 = "olleh";     if (s1 == s2)     Console.WriteLine("Equal");     else     Console.WriteLine("Unequal");     if (s1.Equals(s2))     Console.WriteLine("Equal");     else     Console.WriteLine("Unequal");     Console.ReadLine(); }
+a) 
+   Equal
+   Unequal
+b) 
+   Unequal
+   Equal
+c) 
+   Equal
+   Equal
+d) 
+   Unequal
+   Unequal
+d
+Output :
+Unequal
+Unequal
+  
+2. What will be the output of the following C# code snippet?
+static void Main(string[] args){    string s1 = " Ixg";    string s2 = s1.Insert(3,"i");    string s3 = s2.Insert(5, "o");    for (int i = 0; i < s3.Length; i++)    Console.WriteLine(s3[i]);    Console.ReadLine();}
+a) Ixgo
+b) Ixig
+c) Ixigo
+d) Ixg
+c
+Output:
+Ixigo
+3. What will be the output of the following C# code snippet?
+ class Program {     static void Main(string[] args)     {         char []chars = {'a', 'b', 'c'};         String s = new String(chars);         Console.WriteLine(s);         Console.ReadLine();     } }
+a) a
+b) b
+c) c
+d) abc
+d
+Output :
+abc
+4. What will be the output of given code snippet?
+ class Program {     static void Main(string[] args)     {         char []chars = {'a', 'b', 'c'};         String s = new String(chars);         String s1 = "abcd";         int len1 = s1.Length;         int len2 = s.Length;         Console.WriteLine(len1 + " " + len2);         Console.ReadLine();     } }
+a) 4 0
+b) 3 0
+c) 3 4
+d) 4 3
+d
+Output :
+4 3
+5. What will be the output of the following C# code snippet?
+ class A {     int i;     int j;     public A()     {         i = 1;         j = 2;     } } class Program {     static void Main(string[] args)     {         A obj1 = new A();	 Console.WriteLine(obj1.ToString());         Console.ReadLine();     } }
+a) True
+b) False
+c) String associated with obj1
+d) Compile time error
+c
+Output :
+ConsoleApplication19.A
+6. Which of these constructors is used to create an empty String object?
+a) String()
+b) String(void)
+c) String(0)
+d) None of the mentioned
+a
+7.  Which of these method of class String is used to obtain length of String object?
+a) get()
+b) Sizeof()
+c) Lengthof()
+d) Length()
+d
+8. Choose the base class for string() method.
+a) System.Array
+b) System.char
+c) System.String
+d) None of the mentioned
+c
+9. What will be the output of the following C# code snippet?
+ class Program {     static void Main(string[] args)     {         String c = "Hello i love Csharp";         Boolean var;	 var = c.StartsWith("hello");         Console.WriteLine(var);         Console.ReadLine();     } }
+a) True
+b) False
+c) 1
+d) Run time error
+b
+10. What is the value returned by the function CompareTo() if the invoking string is less than the string compared?
+a) zero
+b) value less than zero
+c) value greater than zero
+d) none of the mentioned
+b
+11. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        String s1 = "Hello i love Csharp";        StringBuilder s2 = new  StringBuilder(s1);        Console.WriteLine(s1.Equals(s2));        Console.ReadLine();    }}
+a) True
+b) False
+c) 0
+d) Compile time error
+b
+Output: False
+12. Which of these methods of class String is used to check whether a given string starts with a particular substring or not?
+a) StartsWith()
+b) EndsWith()
+c) Starts()
+d) Ends()
+a
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Introduction of String Formatting» Next - C# Questions & Answers – String Formatting – 2 

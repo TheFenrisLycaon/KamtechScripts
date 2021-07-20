@@ -1,0 +1,66 @@
+1. How many ways of returning data is present in SQL Server 2000?
+a) 3
+b) 4
+c) 5
+d) 6
+b
+2. Point out the correct statement.
+a) Stored procedures assist in achieving consistent implementation of logic across applications
+b) A stored procedure is a group of Transact-SQL statements compiled into a single execution plan
+c) Stored procedures can also improve performance
+d) All of the mentioned
+d
+3. Data return using output parameter is ____________
+a) Return codes, which are always an integer value
+b) A global cursor that can be referenced outside the stored procedure
+c) A single cursor that can be referenced inside the stored procedure
+d) None of the mentioned
+d
+4. Which of the following is a system procedure?
+a) sp_changeowner
+b) sp_owner
+c) sp_change
+d) all of the mentioned
+a
+5. Point out the wrong statement.
+a) sp_depends provide the details of all database objects that depend on the specific database object
+b) sp_helpdb provides the text of a stored procedure reside in Sql Server
+c) Extended procedures provide an interface to external programs for various maintenance activities
+d) All of the mentioned
+b
+6. __________ provides details on any database object.
+a) sp_changeowner
+b) sp_owner
+c) sp_change
+d) none of the mentioned
+d
+7. Which of the following is an extended procedure?
+a) xp_change
+b) sp_owner
+c) sp_change
+d) xp_logininfo
+d
+8. _____________ procedure cannot be created in Resource database.
+a) System
+b) User defined
+c) Extended
+d) All of the mentioned
+b
+9. Nesting level of stored procedure is applicable for ____________
+a) Triggers
+b) Views
+c) Functions
+d) All of the mentioned
+d
+10. Nesting level of a stored procedure’s execution is stored in the _________ function.
+a) @@NEST
+b) @@NESTLEVEL
+c) @@LEVEL
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Error Handling» Next - SQL Server Questions and Answers – Stored Procedure – 2 

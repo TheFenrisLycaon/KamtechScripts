@@ -1,0 +1,106 @@
+1. What is the output of the following code?
+ztrans(1,z)
+a) 1/z-1
+b) 1/z+1
+c) z/(z-1)
+d) z/(z+1)
+c
+Output: z/(z-1)
+2. What is the output of the following code?
+syms n;ztrans(2^n,z)
+a) z/(z-2)
+b) z/(z+2)
+c) z/(2-z)
+d) z/(2+z)
+a
+Output: z/(z-2)
+3. What is the output of the following code?
+ztrans('[1 0 1 0 1]',z)
+a) [ z/(z – 1), 0, z/(z – 1), 0, z/(z – 1)] 
+b) [ z/(z + 1), 0, z/(z – 1), 0, z/(z – 1)] 
+c) [ z/(z – 1), 0, z/(z – 1), 0, z/(z -+1)] 
+d) [ z/(z + 1), 0, z/(z – 1), 0, z/(z + 1)] 
+a
+Output: [ z/(z – 1), 0, z/(z – 1), 0, z/(z – 1)]
+4. What is the output of the following code?
+>>syms s;
+>> ztrans('n',s)
+a) s/(s-1)2
+b) ns/(s-1)2
+c) s/(ns-1)2
+d) Error
+a
+Output: s/(s-1)2
+5. What is the output of the following code?
+>> ztrans('n',s)
+a) s/(s-1)2
+b) ns/(s-1)2
+c) Error
+d) s/(s+1)2
+c
+6. What is the output of the following code?
+ztrans([1,2,3 4*z],z)
+a) [ z/(z – 1), (2*z)/(z – 1), (3*z)/(z – 1), (4*z)/(z – 1)2] 
+b) [ z/(z + 1), (2*z)/(z + 1), (3*z)/(z + 1), (4*z)/(z – 1)2] 
+c) [ z/(z – 1), (2*z)/(z – 1), (3*z)/(z – 1), (4*z)/(z + 1)2] 
+d) [ z/(z – 1), (2*z)/(z – 1), (3*z)/(z – 1) (4*z)/(z – 1)2] 
+a
+Output: [ z/(z – 1), (2*z)/(z – 1), (3*z)/(z – 1), (4*z)/(z – 1)2]
+7. The R.O.C. of impulse function is _________
+a) The entire z-plane
+b) Interior to the unit circle |z|=1
+c) Exterior to the unit circle |z|=1
+d) Between the unit circle |z|=1 and |z|=∞
+a
+8. What is the output of the following code?
+ztrans(exp(2*n),z)
+a) z/(z – exp(2))
+b) z/(z – exp(-2))
+c) z/(z + exp(-2))
+d) z/(z + exp(2))
+a
+Output: z/(z – exp(2))
+9. The bilateral Z-transform ranges from ____________
+a) -∞ to ∞
+b) 0 to ∞
+c) -∞ to 0
+d) Does not exist
+a
+10. The R.O.C. of a unit step function is __________
+a) |z|>|1|
+b) Entire z plane except z=0
+c) Entire z plane except z=∞
+d) Does not exist
+a
+11. What is the relationship b/n laplace transform and z-transform of a function?
+a) Impulse invariant transformation
+b) z=e-sT
+c) s=jw
+d) s=σ
+a
+12. If σ<0, the point in the z plane lies __ of the circle |z|=1.
+a) Interior
+b) Exterior
+c) On the circumference
+d) Nowhere near
+a
+13. What is the T in the relation z=esT?
+a) Sampling Period
+b) Time Period
+c) Normal Period
+d) Average Period
+a
+14. The Z-transform is only for discrete signals.
+a) True
+b) False
+a
+15. The Z-transform doesn’t follow the linearity principle.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Convolution – 2» Next - MATLAB Questions and Answers – Z Transform – 2 

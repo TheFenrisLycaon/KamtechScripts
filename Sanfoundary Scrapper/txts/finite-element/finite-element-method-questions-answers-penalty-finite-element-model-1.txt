@@ -1,0 +1,77 @@
+1. Which type of problem can be obtained by reformulating a problem with differential constraints by using the penalty method?
+a) A problem with no constraints
+b) A problem with variable constraints
+c) A problem with fixed constraints
+d) A problem with structural constraints
+a
+2. In the interest of the simple formulation of viscous flows, which case does not involve time derivative terms?
+a) Static case
+b) Transient case
+c) Unsteady case
+d) Non-periodic
+a
+3. In the penalty formulation of the fluid flow model, if the velocity field (vx, vy ) satisfies the continuity equation, then the weight functions (w1, w2) also satisfy the continuity equation.
+a) True
+b) False
+b
+4. In the weak forms of the fluid flow model, as the weight functions (w1, w2) are virtual variations of the velocity components(vx, vy ),respectively, which relation is satisfied by the weight functions?
+a) \(\frac{\partial w1}{\partial x}+\frac{\partial w2}{\partial y}\)=0
+b) \(\frac{\partial w2}{\partial x}+\frac{\partial w1}{\partial y}\)=0
+c) \(\frac{\partial w1}{\partial x}-\frac{\partial w2}{\partial y}\)=0
+d) \(\frac{\partial w2}{\partial x}-\frac{\partial w1}{\partial y}\)=0
+a
+5. In finite element modeling, which formulation introduces constraints on variables and satisfies them in an approximate sense?
+a) Velocity-pressure formulation
+b) Penalty formulation
+c) Mixed formulation
+d) Lagrange multiplier formulation
+b
+6. In the formulation of the finite element model, which option is the complete restated form of the weak forms of viscous fluids flow equations?
+a) Only Bt(w,v)+Bv(w,v)-B̅p(w,P)=l(w)
+b) Bt(w,v)+Bv(w,v)-B̅p(w,P)=l(w) and –Bp(w3, v)=0
+c) Only –Bp(w3, v)=0
+d) Bt(w,v)+Bv(w,v)-B̅p(w,P)=0
+b
+7. In the following variational problem of finding velocity components and pressure, which bilinear form includes time-derivative terms?
+Bt(w,v)+Bv(w,v)-B̅p(w,P)=l(w); –Bp(w3, v)=0
+a) Bt(w,v)
+b) Bv(w,v)
+c) B̅p(w,P)
+d) Bp(w3,v)
+a
+8. In the weak forms of the fluid flow model, since the weight functions are linearly dependent on each other, the sum of the three weak forms is the same as the three individual equations.
+a) True
+b) False
+b
+9. Which option is not correct concerning the bilinear term B(v,w) in the variational problem of the viscous fluid flow equation?
+a) It is symmetric
+b) It contains the viscosity matrix
+c) Bv(w,v)= Bv(v,w)
+d) It is bilinear in both w and v
+d
+10. In the variational problem of fluid flow, what is the correct matrix form of C in the bilinear form Bv(w,v)=∫Ωe(Dw)TC(Dv)dx?
+a) \(\begin{pmatrix}2&0&0\\0&2&0\\0&0&1\end{pmatrix}\) 
+b) μ\(\begin{pmatrix}2&0&0\\0&1&0\\0&0&2\end{pmatrix}\) 
+c) μ\(\begin{pmatrix}2&0&0\\0&2&0\\0&0&1\end{pmatrix}\) 
+d) μ\(\begin{pmatrix}1&0&0\\0&2&0\\0&0&2\end{pmatrix}\) 
+c
+11. For the given weight functions [2x 3y] and applied pressure of 3pa, what is the value of K if B̅p(w,P)=∫ΩeKdx denotes the bilinear term in the variational problem of fluid flow?
+a) 5
+b) 10
+c) 15
+d) 20
+c
+We have D1=\(\begin{bmatrix}\frac{\partial}{\partial x}\\\frac{\partial}{\partial y}\end{bmatrix}\) and w=\(\begin{bmatrix}2x\\3y\end{bmatrix}\) 
+\(D_1^T w=\begin{bmatrix}\frac{\partial}{\partial x}&\frac{\partial}{\partial y}\end{bmatrix}\begin{bmatrix}2x\\3y\end{bmatrix}\) 
+= \(\frac{\partial (3y)}{\partial y}+\frac{\partial (2x)}{\partial x}\) 
+=2+3
+=5.
+K=(D1T w)Tp
+=5*3
+=15.
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Velocity – Pressure Finite Element Model» Next - Finite Element Method Questions and Answers – Penalty – Finite Element Model – 2 

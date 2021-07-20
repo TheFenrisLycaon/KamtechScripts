@@ -1,0 +1,105 @@
+1. The multiplicative Inverse of 550 mod 1769 is –
+a) 434
+b) 224
+c) 550
+d) Does not exist
+a
+2. It is desirable to revoke a certificate before it expires because –
+a) the user is no longer certified by this CA
+b) the CA’s certificate is assumed to be compromised
+c) the user’s private key is assumed to be compromised
+d) all of the mentioned
+d
+3. Suppose that A has obtained a certificate from certification authority X1 and B has obtained certificate authority from CA X2. A can use a chain of certificates to obtain B’s public key. In notation of X.509, the correct order of this chain is represented as –
+a) X2 X1 X1 B
+b) X1 X1 X2 A
+c) X1 X2 X2 B
+d) X1 X2 X2 A
+c
+4. Certificate extensions fall into 3 categories. Which one of the following is not a Certificate extensions category?
+a)  Subject and Issuer attributes
+b) Key and Policy information
+c) Certification path constraints
+d) All of the above are Certificate extensions categories
+d
+5. A total of seven messages are required in the Public-Key distribution scenario. However, the initial five messages need to be used only infrequently because both A and B can save the other’s public key for future – a technique known as ____________
+a) time stamping
+b) polling
+c) caching
+d) squeezing
+c
+Join [email protected]
+6. Which of the following slows the cryptographic algorithm –
+1) Increase in Number of rounds
+2) Decrease in Block size
+3) Decrease in Key Size
+4) Increase in Sub key Generation
+a) 1 and 3
+b) 2 and 3
+c) 3 and 4
+d) 2 and 4
+b
+7. Which of the following statements are true.
+i) In the CBC mode, the plaintext block is XORed with previous ciphertext block before encryption.
+ii) The CTR mode does not require an Initialization Vector
+iii) The last block in the CBC mode uses an Initialization Vector
+iv) In CBC mode repetitions in plaintext do not show up in ciphertext
+a) iii)
+b) ii) and iv)
+c) All the Statements are true
+d) i) ii) and iv)
+d
+8. What is the number of possible 3 x 3 affine cipher transformations ?
+a) 168
+b) 840
+c) 1024
+d) 1344
+d
+(Total number [email protected] possibilities for A)}=k=7×6×4=168
+(Number of [email protected] block cipher transformation)}=k×t=8×168 =1344.
+9. The blowfish algorithm’s key expansion converts a key of at most 448 bits into several subkey arrays totaling ___ bytes.
+a) 4096
+b) 4608
+c) 4168
+d) 4864
+c
+10. For the group Sn of all permutations of n distinct symbols, what is the number of elements in Sn?
+a) n
+b) n-1
+c) 2n
+d) n!
+d
+11. Which of the following statements are true with respect to the blowfish algorithm?
+i) Provided key is large enough, brute-force key search is not practical, especially given the high key schedule cost
+ii) Key dependent S-boxes and sub keys make analysis very difficult
+iii) Changing both halves in each round increases security
+iv) Blowfish has improved avalanche effects
+a) i) ii) and iv)
+b) ii) and iii)
+c) i)
+d) All are true
+d
+12. Which one of the following modes of operation in DES is used for operating short data?
+a) Cipher Feedback Mode (CFB)
+b) Cipher Block chaining (CBC)
+c) Electronic code book (ECB)
+d) Output Feedback Modes (OFB)
+c
+13. Which of the following is the correct encryption statement representation for the XTS-AES mode?
+a) E(K1,P) XOR T
+b) E(K2,T) XOR P
+c) E(K1,T XOR P) XOR P
+d) E(K1,P XOR T) XOR T
+d
+14. The last two blocks of the XTS-AES mode are
+a) padded as 10*
+b) encrypted/ decrypted using ciphertext-stealing
+c) padded as 10*1
+d) padded and then swapped after encryption/ decryption
+b
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Cryptography Questions and Answers – Overview – I» Next - Cryptography Questions and Answers – Overview – III 

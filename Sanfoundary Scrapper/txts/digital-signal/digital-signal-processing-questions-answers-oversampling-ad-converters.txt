@@ -1,0 +1,96 @@
+1. For a given number of bits, the power of quantization noise is proportional to the variance of the signal to be quantized.
+a) True
+b) False
+a
+2. What is the variance of the difference between two successive signal samples, d(n) = x(n) – x(n-1)?
+a) \(σ_d^2=2σ_x^2 [1+γ_{xx} (1)]\) 
+b) \(σ_d^2=2σ_x^2 [1-γ_{xx} (1)]\) 
+c) \(σ_d^2=4σ_x^2 [1-γ_{xx} (1)]\) 
+d) \(σ_d^2=3σ_x^2 [1-γ_{xx} (1)]\) 
+b
+= \(E [x^2 (n)]-2E{x(n)x(n-1)}+E[x^2 (n-1)]\) 
+= \(2σ_x^2 [1+γ_{xx} (1)]\).
+3. What is the variance of the difference between two successive signal samples, d(n) = x(n)–ax(n-1)?
+a) \(σ_d^2=2σ_x^2 [1-a^2]\) 
+b) \(σ_d^2=σ_x^2 [1+a^2]\) 
+c) \(σ_d^2=σ_x^2 [1-a^2]\) 
+d) \(σ_d^2=2σ_x^2 [1+a^2]\) 
+c
+4. If the difference d(n) = x(n)–ax(n-1), then what is the optimum choice for a = ?
+a) \({γ_{xx} (1)}{σ_x^2}\) 
+b) \({γ_{xx} (0)}{σ_x^2}\) 
+c) \({γ_{xx} (0)}{σ_d^2}\) 
+d) \({γ_{xx} (1)}{σ_d^2}\) 
+a
+5. What is the quantity ax(n-1) is called?
+a) Second-order predictor of x(n)
+b) Zero-order predictor of x(n)
+c) First-order predictor of x(n)
+d) Third-order predictor of x(n)
+c
+6. The differential predictive signal quantizer system is known as?
+a) DCPM
+b) DMPC
+c) DPCM
+d) None of the mentioned
+c
+7. What is the expansion of DPCM?
+a) Differential Pulse Code Modulation
+b) Differential Plus Code Modulation
+c) Different Pulse Code Modulation
+d) None of the mentioned
+a
+8. What are the main uses of DPCM?
+a) Speech Decoding and Transmission over mobiles
+b) Speech Encoding and Transmission over mobiles
+c) Speech Decoding and Transmission over telephone channels
+d) Speech Encoding and Transmission over telephone channels
+d
+9. To reduce the dynamic range of the difference signal d(n) = x(n) – \(\hat{x}(n)\), thus a predictor of order p has the form?
+a) \(\hat{x}(n)=\sum_{k=1}^pa_k x(n+k)\) 
+b) \(\hat{x}(n)=\sum_{k=1}^pa_k x(n-k)\) 
+c) \(\hat{x}(n)=\sum_{k=0}^pa_k x(n+k)\) 
+d) \(\hat{x}(n)=\sum_{k=0}^pa_k x(n-k)\) 
+b
+10. The simplest form of differential predictive quantization is called?
+a) AM
+b) BM
+c) DM
+d) None of the mentioned
+c
+11. What is the abbreviation of DM?
+a) Diameter Modulation
+b) Distance Modulation
+c) Delta Modulation
+d) None of the mentioned
+c
+12. In DM, the quantizer is a simple ________ bit and  ______ level quantizer.
+a) 2-bit, one-level
+b) 1-bit, two-level
+c) 2-bit, two level
+d) 1-bit, one level
+b
+13. In DM, What is the order of predictor is used?
+a) Zero-order predictor
+b) Second-order predictor
+c) First-order predictor
+d) Third-order predictor
+c
+14. In the equation xq(n)=axq(n-1)+dq(n), if a = 1 then integrator is called?
+a) Leaky integrator
+b) Ideal integrator
+c) Ideal accumulator
+d) Both Ideal integrator & accumulator
+d
+15. In the equation xq(n)=axq(n-1)+dq(n), if a < 1 then integrator is called?
+a) Leaky integrator
+b) Ideal integrator
+c) Ideal accumulator
+d) Both Ideal integrator & accumulator
+a
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Decimation by a Factor D» Next - Digital Signal Processing Questions and Answers – Sample and Hold 

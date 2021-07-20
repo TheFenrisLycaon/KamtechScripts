@@ -1,0 +1,82 @@
+1. Which of these class is a superclass of all other classes?
+a) Math
+b) Process
+c) System
+d) Object
+d
+2. Which of these method of Object class can generate duplicate copy of the object on which it is called?
+a) clone()
+b) copy()
+c) duplicate()
+d) dito()
+a
+3. What is the value of double consonant ‘E’ defined in Math class?
+a) approximately 3
+b) approximately 3.14
+c) approximately 2.72
+d) approximately 0
+c
+4. Which of these method is a rounding function of Math class?
+a) max()
+b) min()
+c) abs()
+d) all of the mentioned
+d
+5. Which of these class contains only floating point functions?
+a) Math
+b) Process
+c) System
+d) Object
+a
+6. Which of these class encapsulate the runtime state of an object or an interface?
+a) Class
+b) Object
+c) Runtime
+d) System
+a
+7. What is the value of “d” in the following Java code snippet?
+   double d = Math.round ( 2.5 + Math.random() );
+a) 2
+b) 3
+c) 4
+d) 2.5
+b
+8. What will be the output of the following Java program?
+    class Output     {         public static void main(String args[])          {             int x = 3.14;               int y = (int) Math.abs(x);             System.out.print(y);         }    }
+a) 0
+b) 3
+c) 3.0
+d) 3.1
+b
+Output:
+$ javac Output.java
+$ java Output
+3
+9. What will be the output of the following Java program?
+    class Output     {         public static void main(String args[])         {            double x = 3.1;              double y = 4.5;            double z = Math.max( x, y );            System.out.print(z);        }    }
+a) true
+b) flase
+c) 3.1
+d) 4.5
+d
+Output:
+$ javac Output.java
+$ java Output
+4.5
+10. What will be the output of the following Java program?
+    class Output     {         public static void main(String args[])         {            double x = 2.0;              double y = 3.0;            double z = Math.pow( x, y );            System.out.print(z);        }    }
+a) 2.0
+b) 4.0
+c) 8.0
+d) 9.0
+c
+Output:
+$ javac Output.java
+$ java Output
+8.0
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.lang – Void, Process & System Class» Next - Java Questions & Answers – Java.lang – System Class Advance 

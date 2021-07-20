@@ -1,0 +1,65 @@
+1. What is the maximum collations a character set can have?
+a) 0
+b) 1
+c) 2
+d) more than 1
+d
+2. Unicode support is provided in MySQL.
+a) True
+b) False
+a
+3. Which clause can be used to sort string values according to a specific collation?
+a) SORT
+b) GROUP
+c) FILTER
+d) COLLATE
+d
+4. Which MySQL statement is used to find out which character sets are available?
+a) SHOW CHARACTER SET
+b) SHOW COLLATION
+c) SHOW CHARACTER SETS
+d) SHOW COLLATIONS
+a
+5. Which collations does this MySQL statement list?
+	SHOW COLLATION LIKE 'utf8%'
+a) names beginning with utf8
+b) names ending with utf8
+c) names containing utf8% anywhere
+d) names ending in utf8%
+a
+6. Which statement is used to show the server’s current character set and collation settings?
+a) SHOW CONSTANTS
+b) SHOW CONSTRAINTS
+c) SHOW VARIABLES
+d) DISP VARIABLES
+c
+7. What does UTF stand for int utf8?
+a) Universal Transformation Format
+b) Unicode Transformation Format
+c) Universal Transformation Formula
+d) Unicode Transformation Formula
+b
+8. Prior to MySQL 6.0, utf8 was ___________
+a) 3 bytes
+b) 4 bytes
+c) 8 bytes
+d) 9 bytes
+a
+9. Post MySQL 6.0, utf8 was ___________
+a) 3 bytes
+b) 4 bytes
+c) 5 bytes
+d) 6 bytes
+b
+10. What is generally used as a synonym for CHARACTER SET?
+a) CSET
+b) CHSET
+c) CHARSET
+d) CHCSET
+c
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Case Sensitivity in SQL Statements» Next - MySQL Questions and Answers – Selecting, Creating, Dropping and Altering Databases 

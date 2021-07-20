@@ -1,0 +1,90 @@
+This section on C++ questions and puzzles focuses on “Pointer to Function”. One shall practice these questions and puzzles to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These programming puzzles can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ questions and puzzles on “Pointer to Function” along with answers, explanations and/or solutions: 
+1. To which does the function pointer point to?
+a) variable
+b) constants
+c) function
+d) absolute variables
+c
+2. What will we not do with function pointers?
+a) allocation of memory
+b) deallocation of memory
+c) both allocation & deallocation of memory
+d) finds memory status
+c
+3. What is the default calling convention for a compiler in c++?
+a) __cdecl
+b) __stdcall
+c) __pascal
+d) __fastcall
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int add(int first, int second)    {        return first + second + 15;    }    int operation(int first, int second, int (*functocall)(int, int))    {        return (*functocall)(first, second);    }    int main()    {        int  a;        int  (*plus)(int, int) = add;        a = operation(15, 10, plus);        cout << a;        return 0;    }
+a) 25
+b) 35
+c) 40
+d) 45
+c
+Output:
+$ g++ pfu2.cpp
+$ a.out
+40
+ 
+Join [email protected]
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void func(int x)    {        cout << x ;    }    int main()    {        void (*n)(int);        n = &func;        (*n)( 2 );        n( 2 );        return 0;    }
+a) 2
+b) 20
+c) 21
+d) 22
+d
+Output:
+$ g++ pfu.cpp
+$ a.out
+22
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int n(char, int);    int (*p) (char, int) = n;    int main()    {        (*p)('d', 9);        p(10, 9);        return 0;    }    int n(char c, int i)    {        cout << c <<  i;        return 0;    }
+a) 
+d9
+9
+b) d9d9
+c) d9
+d) compile time error
+a
+Output:
+$ g++ pfu1.cpp
+$ a.out
+d9
+9
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int func (int a, int b)    {        cout << a;        cout << b;        return 0;    }    int main(void)    {        int(*ptr)(char, int);        ptr = func;        func(2, 3);        ptr(2, 3);        return 0;    }
+a) 2323
+b) 232
+c) 23
+d) compile time error
+d
+8. What is the mandatory part to present in function pointers?
+a) &
+b) return values
+c) data types
+d) $
+c
+9. which of the following can be passed in function pointers?
+a) variables
+b) data types
+c) functions
+d) objects
+c
+10. What is the meaning of the following declaration?
+int(*ptr[5])();
+a) ptr is pointer to function
+b) ptr is array of pointer to function
+c) ptr is pointer to such function which return type is array
+d) ptr is pointer to array of function
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Unspecified Number of Arguments» Next - C++ Programming Questions and Answers – Macros 

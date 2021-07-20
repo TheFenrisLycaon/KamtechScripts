@@ -1,0 +1,131 @@
+1. Which exception is thrown if the typecasting is not done properly?
+a) bad_type_cast
+b) bad_any_cast
+c) type_mismatched
+d) bad_cast_mismatched
+b
+2. What is the use of emplace() function?
+a) Used to change the object any container is holding
+b) Used to add more item to the any list
+c) Used to empty any container value
+d) Used to check the type of any variable
+a
+3. What will be the output of the following C++ code?
+#include<iostream>
+#include<any>
+using namespace std;
+int main()
+{
+	float val = 5.5;
+	any var(val);
+	cout<<var<<endl;
+	char c = 'a';
+	var.emplace<char>(c);
+	cout<<var<<endl;
+	return 0;
+}
+a) 5.5
+b) a
+c) 
+5.5
+a
+d) Error
+c
+4. What is the use of type() function in any container?
+a) Used to destroys the contained object in any variable
+b) Used to change the object any container is holding
+c) Used to return the type information about the any container
+d) Used to check whether a container is empty or not
+c
+5. What will be the output of the following C++ code?
+#include<iostream>
+#include<any>
+using namespace std;
+int main()
+{
+	float val = 5.5;
+	any var(val);
+	cout<<var.type().name()<<endl;
+	return 0;
+}
+a) f
+b) d
+c) Pkc
+d) u
+a
+6. What is the use of has_value() function in any container?
+a) Used to destroys the contained object in any variable
+b) Used to change the object any container is holding
+c) Used to return the type information about the any container
+d) Used to check whether any container is empty or not
+d
+7. What will be the output of the following C++ code?
+#include<iostream>
+#include<any>
+using namespace std;
+int main()
+{
+	float val = 5.5;
+	any var(val);
+	if(var.has_value())
+        {
+            cout<<"Var is not Empty\n";
+        }
+        else
+        {
+            cout<<"Var is Empty\n";
+        }
+	return 0;
+}
+a) Var is Empty
+b) Var is not Empty
+c) Error
+d) Segmentation fault
+b
+8. What is the use of reset() function?
+a) Used to destroys the contained object in any variable
+b) Used to change the object any container is holding
+c) Used to empty any container value
+d) Used to check the type of any variable
+a
+9. What will be the output of the following C++ code?
+#include<iostream>
+#include<any>
+using namespace std;
+int main()
+{
+	float val = 5.5;
+	any var(val);
+    cout<<any_cast<float>(var)<<endl;
+	var.reset();
+	if(!var.has_value())
+        {
+		cout<<"var is empty\n";
+	}
+	else{
+		cout<<"var is not empty\n";	
+	}
+	return 0;
+}
+a) var is empty
+b) 
+5.5
+var is not empty
+c) 5.5
+d) 
+5.5
+var is empty
+d
+  
+10. In how many ways we can handle errors in any class?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – STL Container Any – 1» Next - C++ Programming Questions and Answers – STL – Heap 

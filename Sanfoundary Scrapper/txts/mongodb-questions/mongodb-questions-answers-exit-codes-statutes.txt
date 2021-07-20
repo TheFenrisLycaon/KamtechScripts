@@ -1,0 +1,67 @@
+1. Which of the following code is used for the successful exit of task?
+a) 0
+b) 1
+c) 2
+d) 3
+a
+2. Point out the correct statement.
+a) 2 is returned by mongod if there is a mismatch between hostnames specified on the command line and in the local.sources collection
+b) When an index covers a query, MongoDB can both match the query conditions and return the results using only the index keys
+c) Both 2 and 4 are returned by mongod if there is a mismatch between hostnames specified on the command line and in the local.sources collection
+d) All of the mentioned
+a
+3. Instance exits cleanly are represented by ___ exit code.
+a) 4
+b) 1
+c) 2
+d) 3
+a
+4. Which of the following code is returned by mongod if a moveChunk operation fails to confirm a commit?
+a) 5
+b) 6
+c) 7
+d) 3
+a
+5. Point out the correct statement.
+a) Exit code 10 is for abnormal exit
+b) 4 is returned when the version of the database is different from the version supported by the mongod (or mongod.exe) instance
+c) The server socket is on port 27017 by default
+d) None of the mentioned
+b
+6. Which of the following code represents exit cleanly following a large clock skew (32768 milliseconds) event?
+a) 45
+b) 20
+c) 47
+d) 100
+c
+7. 49 code is returned by mongod from _________ Service control Manager.
+a) Linux
+b) Windows
+c) Ubuntu
+d) All of the mentioned
+a
+8. Which of the following code is returned when a MongoDB application cannot open a file?
+a) 45
+b) 20
+c) 47
+d) 100
+a
+9. Identify the message returned by MongoDB applications for Windows due to failures installing?
+a) Message: ERROR: wsastartup failed <reason>
+b) Message: NT Service Error
+c) Message: wsastartup failed <reason>
+d) None of the mentioned
+b
+10. Which of the following document represents uncaught exception?
+a) 45
+b) 49
+c) 47
+d) 100
+d
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Database Profiler» Next - MongoDB Questions and Answers – Authentication 

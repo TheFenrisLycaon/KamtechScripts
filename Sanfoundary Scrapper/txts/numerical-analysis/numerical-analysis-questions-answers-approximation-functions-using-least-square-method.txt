@@ -1,0 +1,378 @@
+1. Fit the straight line to the following data.
+x
+1
+2
+3
+4
+5
+y
+1
+2
+3
+4
+5
+a) y=x
+b) y=x+1
+c) y=2x
+d) y=2x+1
+a
+Σy = aΣx + nb
+and
+Σxy = aΣx2 + bΣx
+Now, 
+x
+y
+x2
+xy
+1
+1
+1
+1
+2
+2
+4
+4
+3
+3
+9
+9
+4
+4
+16
+16
+5
+5
+25
+25
+Σx = 15
+Σy =  15
+Σx2 = 55
+Σxy = 55
+Substituting in the equations,
+15 = 15a + 4b and 55 = 55a + 15b
+Solving these two equatons, we get a=1 and b=0,
+Therefore the required straight line equation is y=x.
+2. Fit the straight line to the following data.
+x
+0
+5
+10
+15
+20
+y
+7
+11
+16
+20
+26
+a) y = 0.94x + 6.6
+b) y = 6.6x + 0.94
+c) y = 0.04x + 5.6
+d) y = 5.6x + 0.04
+a
+x
+y
+x2
+xy
+0
+7
+0
+0
+5
+11
+25
+55
+10
+16
+100
+160
+15
+20
+225
+300
+20
+26
+400
+520
+Σx = 50
+Σy = 26
+Σx2 = 750
+Σxy = 1035
+Join [email protected]
+The normal equation are:
+Σy = aΣx + nb
+and
+Σxy = aΣx2 + bΣx.
+Substituting the values, we get,
+80 = 50a + 5b
+1035 = 750 a + 50 b
+Solving them, we get a = 0.94 and b = 6.6.
+Therefore the straight line equation is y=0.94x + 6.6.
+3. Fit the straight line curve to the following data.
+x
+75
+80
+93
+65
+87
+71
+98
+68
+84
+77
+y
+82
+78
+86
+72
+91
+80
+95
+72
+89
+74
+a) y = 0.9288x + 7.78155
+b) y = 7.78155x + 0.9288
+c) y = 0.8288x + 6.78155
+d) y = 6.78155x + 0.8288
+a
+x
+y
+x2
+xy
+75
+82
+5625
+6150
+80
+78
+6400
+6240
+93
+86
+8349
+7998
+65
+72
+4225
+4680
+87
+91
+7569
+7917
+71
+80
+5041
+5680
+98
+95
+9605
+9310
+68
+72
+4624
+4896
+84
+89
+7056
+7476
+77
+74
+5929
+5698
+798
+819
+64422
+66045
+The normal equation are:
+Σy = aΣx + nb
+and
+Σxy = aΣx2 + bΣx.
+Substituting the values, we get,
+819 = 798a + 10b
+66045 = 64422a + 798b
+Solving, we get
+a = 0.9288 and b = 7.78155
+Therefore, the straight line equation is :
+y = 0.9288x + 7.78155. 
+4. Fit a second degree parabola to the following data.
+x
+1
+2
+3
+4
+5
+6
+7
+8
+9
+y
+2
+6
+7
+8
+10
+11
+11
+10
+9
+a) y = -0.2673x2 + 3.5232x – 0.9286
+b) y = 0.2673x2 + 3.5232x – 0.9286
+c) y = 0.2673x2 + 3.5232x + 0.9286
+d) y = -0.2673x2 + 3.5232x + 0.9286
+a
+x
+y
+x2
+x3
+x4
+xy
+x2y
+1
+2
+1
+1
+1
+2
+2
+2
+6
+4
+8
+16
+12
+24
+3
+7
+9
+27
+81
+21
+63
+4
+8
+16
+64
+256
+32
+128
+5
+10
+25
+125
+625
+50
+250
+6
+11
+36
+216
+1296
+66
+396
+7
+11
+49
+343
+2401
+77
+539
+8
+10
+64
+512
+4096
+80
+640
+9
+9
+81
+729
+6561
+81
+729
+45
+74
+285
+2025
+15333
+421
+2771
+The normal equations are:
+Σy = aΣx2 + bΣx + nc
+Σxy = aΣx3 + bΣx2 +cΣx
+Σx2y = aΣx4 + bΣx3 + cΣx2
+Substituting the values, we get
+74 = 285a + 45b + 9c
+421 = 2025 a + 285 b + 45 c
+2771 = 15333a + 2025 b + 285 c
+Solving them, we get the second order equation which is,
+y = -0.2673x2 + 3.5232x – 0.9286. 
+5. The normal equations for a straight line y = ax + b are:
+a) Σy = aΣx + nb and  Σxy = aΣx2 + bΣx
+b) Σxy = aΣx + nb and  Σy = aΣx2 + bΣx
+c) Σy = aΣx + nb and  Σxy = aΣx2 + bΣxy
+d) Σy = aΣx + nb and  Σx2y = aΣx2 + bΣx
+a
+E = Σdi2 = Σ(yi – (axi+b))2
+Here \(\frac{∂E}{∂a}\)=0 and \(\frac{∂E}{∂b}\)=0
+Solving these two equations, we get the normal equations as
+Σy = aΣx + nb and  Σxy = aΣx2 + bΣx.
+6.The normal equations for a second degree parabola y = ax2 + bx + c are Σy = aΣx2 + bΣx + nc, Σxy = aΣx3 + bΣx2 + cΣx and Σx2y = aΣx4 + bΣx3 + cΣx2.. Is it true or false?
+a) True
+b) False
+a
+y = ax2 + bx +c.
+Let the sum of residues be E.
+E = Σdi2 = Σ(yi – (axi2 + bxi +c))2.
+Here \(\frac{∂E}{∂a}\)= 0, \(\frac{∂E}{∂b}\)= 0 and \(\frac{∂E}{∂c}\)= 0.
+Solving these three equations, we get the normal equations as
+Σy = aΣx2 + bΣx + nc, Σxy = aΣx3 + bΣx2 + cΣx and Σx2y = aΣx4 + bΣx3 +cΣx2.
+7. If the equation y = aebx can be written in linear form Y=A + BX, what are Y, X, A, B?
+a) Y = logy, A = loga, B=b and X=x
+b) Y = y, A = a, B=b and X=x
+c) Y = y, A = a, B=logb and X=logx
+d) Y = logy, A = a, B=logb and X=x
+a
+y = aebx.
+Taking log to the base e on both sides,
+we get logy = loga + bx.
+Which can be replaced as Y=A+BX,
+where Y = logy, A = loga, B = b and X = x.
+8. If the equation y=abx can be written in linear form Y=A+BX, what are Y, X, A, B?
+a) Y=logy, X=x, A=loga and B=logb
+b) Y=y, A=a, B=b and X=x
+c) Y=y, A=a, B=logb and X=logx
+d) Y=logy, A=a, B=logb and X=x
+a
+Taking log on bothe the sides, we get,
+logy = loga + x logb.
+This can be written in the format of Y=A+BX
+where
+Y = logy, X = x, A = loga and B = logb.
+9. If the equation y=axb can be written in the linear form Y=A+BX, what are Y, X, A, B?
+a) Y=logy, A=loga, B=b and X=logx
+b) Y=y, A=a, B=b and X=x
+c) Y=y, A=a, B=logb and X=logx
+d) Y=logy, A=a, B=logb and X=x
+a
+Taking log on bothe the sides, we get,
+logy = loga + blogx.
+This can be written as Y=A+BX,
+where
+Y=logy, A=loga, B=b and X=logx.
+10. The parameter E which we use for least square method is called as ____________
+a) Sum of residues
+b) Residues
+c) Error
+d) Sum of errors
+a
+E = Σdi2 = Σ(yi – f(xi))2.
+Where the term inside the summation is called as residues and the sum is said to be a sum of residues.
+Therefore, E is said to be the sum of residues.
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Methods, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Numerical Analysis Questions and Answers – Newton-Gregory Forward Interpolation Formula 

@@ -1,0 +1,66 @@
+1. Which of the following is incorrect?
+a) A Layered-style program is divided into an array of modules or layers
+b) Each layer provides services to the layer “below” and makes use of services provided by the layer “above”
+c) All of the mentioned
+d) None of the mentioned
+b
+2. Which of the following is correct?
+a) The dynamic structure of the Layered style is to partition software units into modular layers
+b) The static structure of the Layered style is nothing more than a constraint on interactions between layers
+c) All of the mentioned
+d) None of the mentioned
+d
+3. What is Relaxed Layered Style?
+a) Each layer can be constrained to use only the layer directly below it
+b) Sometimes this constraint is relaxed slightly to allow each layer to use all the layers below it
+c) All of the mentioned
+d) None of the mentioned
+b
+4. Which of the following is correct?
+a) Module A uses Module B if a correct version of B must be present for A to execute correctly
+b) Module A calls (or invokes ) module B if  B triggers execution of A
+c) All of the mentioned
+d) None of the mentioned
+a
+5. Which of the following is true with respect to layered architecture?
+a) Each layer is allowed to depend on the layer above it being present and correct
+b) A layer may call other layers above and below it, as long as it uses them
+c) All of the mentioned
+d) None of the mentioned
+d
+6. What is Onion diagram illustrates?
+a) It  illustrates the connection between the layers in communications protocols, such as the International Standards Organization Open Systems Interconnection (ISO OSI) model,or the layers in user interface and windowing systems, such as the X  Window System
+b) It often illustrates operating system layers, with the kernel at the core
+c) All of the mentioned
+d) None of the mentioned
+d
+7. In particular, layers have which of the following characteristics?
+a) Layers are by definition highly cohesive, thus satisfying the Principle of Cohesion
+b) Layers doesn’t support information hiding
+c) Layers are constrained to use only above layers
+d) All of the mentioned
+a
+8. Which of the following is incorrect?
+a) Layered architectures are highly changeable, so this pattern can be used when changeability is an important quality attribute
+b) Layered-style programs are easy to modify because changes can be made to a layer independently of the rest of the program
+c) All of the mentioned
+d) None of the mentioned
+d
+9. What are the drawbacks for Layers?
+a) It is often necessary to pass data through many layers, which can slow performance significantly
+b) Layers support information hiding
+c) Multi-layered programs can be hard to debug because operations tend to be implemented through a series of calls across layers
+d) None of the mentioned
+c
+10. Which of the following is correct?
+a) Layers are not strongly coupled to the layers above them
+b) Each layer is strongly coupled only to the layer immediately below it
+c) Overall Layered-style architectures are loosely coupled
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Software Architecture and Design.
+To practice all areas of Software Design and Architecture,  here is complete set of 1000+ Multiple Choice Questions and Answers on Software Design and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Software Design Questions and Answers – Patterns in Software Design» Next - Software Design Questions and Answers – Collection Iterator Pattern 

@@ -1,0 +1,70 @@
+1. Which is the subset of SQL commands used to manipulate Oracle Database structures, including tables?
+a) Data Definition Language(DDL)
+b) Data Manipulation Language(DML)
+c) DML and DDL
+d) None of the Mentioned
+a
+2. Which of the following is/are the DDL statements?
+A) Create
+B) Drop
+C) Alter
+D) All of the Mentioned
+d
+3. In SQL, which command(s) is(are) used to change a table’s storage characteristics?
+a) ALTER TABLE
+b) MODIFY TABLE
+c) CHANGE TABLE
+d) All of the Mentioned
+a
+ALTER TABLE “table_name” ADD “column_name” datatype
+OR
+ALTER TABLE “table_name” DROP COLUMN “column_name”.
+4. In SQL, which of the following is not a data definition language commands?
+a) RENAME
+b) REVOKE
+c) GRANT
+d) UPDATE
+a
+5. ________clause is an additional filter that is applied to the result.
+a) Select
+b) Group-by
+c) Having
+d) Order by
+c
+Join Sanfoundry@YouTube
+6. ___________ defines rules regarding the values allowed in columns and is the standard mechanism for enforcing database integrity.
+a) Column
+b) Constraint
+c) Index
+d) Trigger
+b
+7. SQL has how many main commands for DDL:
+a) 1
+b) 2
+c) 3
+d) 4
+c
+8. Which command  defines its columns, integrity constraint in create table:
+a) Create command
+b) Drop table command
+c) Alter table command
+d) All of the Mentioned
+a
+9. Which command is used for removing a table and all its data from the database:
+a) Create command
+b) Drop table command
+c) Alter table command
+d) All of the Mentioned
+b
+10. Which command allows the removal of all rows from a table but flushes a table more efficiently since no rollback information is retained:
+a) TRUNCATE command
+b) Create command
+c) Drop table command
+d) Alter table command
+a
+Sanfoundry Global Education & Learning Series – Oracle Database.
+To practice all areas of Oracle Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Oracle SQL Questions and Answers –  Structured Query Language» Next - Oracle SQL Questions and Answers – DML Command 

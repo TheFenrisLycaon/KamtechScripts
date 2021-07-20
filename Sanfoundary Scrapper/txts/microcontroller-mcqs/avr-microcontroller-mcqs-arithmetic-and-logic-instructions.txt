@@ -1,0 +1,66 @@
+1. In AVR microcontrollers, ADD instruction affects the status of which of the following bits of a status register?
+a) Z
+b) C
+c) N
+d) All of the mentioned
+d
+2. ADC instruction is used for?
+a) addition of two 16 bit numbers
+b) analog to digital conversion
+c) automatic digital control
+d) none of the mentioned
+a
+3. AVR supports which of the following mentioned subtraction instructions?
+a) SUB
+b) SBC
+c) SUBI
+d) All of the mentioned
+d
+4. What steps are involved when we subtract two numbers present at two different locations?
+a) take the two’s complement of the subtrahend
+b) add it to the minuend
+c) invert the carry
+d) all of the mentioned
+d
+5. In executing subtraction based instructions, state the role of the C flag?
+a) if C=1, the result is negative
+b) if C=1, the result is positive
+c) none of the mentioned
+d) all of the mentioned
+a
+6. Which of the following is correct about the MUL instruction?
+a) it is a byte-by-byte multiplication instruction
+b) the product is stored in two registers R1 and R0
+c) all of the mentioned
+d) none of the mentioned
+c
+7. In AVR, when is the V flag set?
+a) there is a carry from D7 bit
+b) there is a carry from D6 to D7 bit
+c) when carry is generated only from D6 to D7 or carry is generated only from D7
+d) none of the mentioned
+c
+8. To set the bits of a register R1 to 1, we must OR the contents of the register with?
+a) 00H
+b) 11H
+c) FFH
+d) 0FH
+c
+9. CP instruction alters the value of the register?
+a) true
+b) false
+c) none of the mentioned
+d) can’t be said
+b
+10. What is right about the ROR instruction?
+a) it rotates the contents of the register left to right
+b) it rotates the contents of the register from right to left
+c) it rotates the contents of the register from left to right through carry
+d) it rotates the contents of the register from right to left through carry
+c
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - AVR Microcontroller Questions and Answers – I/O Port Programming and Addressing Modes» Next - AVR Microcontroller Questions and Answers – Timer Programming 

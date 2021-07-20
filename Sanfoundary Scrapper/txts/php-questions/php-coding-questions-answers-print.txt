@@ -1,0 +1,78 @@
+1. What will be the output of the following PHP code?
+<?phpprint "echo hello world";?>
+a) echo hello world
+b) hello world
+c) nothing
+d) error
+a
+2. What will be the output of the following PHP code?
+<?php$one = 1;print($one);print $one;?>
+a) 01
+b) 11
+c) 10
+d) Error
+b
+3. What will be the output of the following PHP code?
+<?php$cars = array("Volvo", "BMW", "Toyota");print $cars[2];?>
+a) Volvo
+b) BMW
+c) Toyota
+d) Error
+c
+4. What will be the output of the following PHP code?
+<?php$one = "one";$two = "two";print($one$two);?>
+a) onetwo
+b) one
+c) nothing
+d) error
+d
+5. What will be the output of the following PHP code?
+<?php$one = "one";$two = "two";print($one,$two);?>
+a) onetwo
+b) one, two
+c) one
+d) error
+d
+6. What will be the output of the following PHP code?
+<?php$one = "one";$two = "two";print("$one$two");?>
+a) onetwo
+b) $one$two
+c) one
+d) error
+a
+7. What will be the output of the following PHP code?
+<?php$one = "one";$two = "two";print($one==$two);?>
+a) true
+b) false
+c) nothing
+d) error
+c
+8. What will be the output of the following PHP code?
+<?php$one = "one";$two = "one";print($one == $two);?>
+a) true
+b) false
+c) 1
+d) error
+c
+9. What will be the output of the following PHP code?
+<?phpprint "Hello world!<br>";print "I'm about to learn PHP!";?>
+a) Hello world! I’m about to learn PHP!
+b) Hello world! I’m about to learn PHP!
+c) 
+Hello world!
+I'm about to learn PHP!
+d) Error
+c
+10. What will be the output of the following PHP code?
+<?phpprint("this"."was"."a"."bad"."idea");?>
+a) thiswasabadidea
+b) this was a bad idea
+c) nothing
+d) error
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Echo» Next - PHP Coding Questions and Answers – Constants 

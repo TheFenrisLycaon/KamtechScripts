@@ -1,0 +1,87 @@
+1. If only the first derivatives of ux and uy appear in the weak forms, then their interpolation must be at least bilinear.
+a) True
+b) False
+a
+2. In FEM, if two independent variables are components of the same vector, then they can be approximated by two different types of interpolations.
+a) True
+b) False
+b
+3. What can one conclude about the displacement components ux and uy in the finite element model of the plane elasticity equations?
+a) They are primary variables and must be carried as primary nodal degrees of freedom
+b) They are secondary variables and must be carried as primary nodal degrees of freedom
+c) They are primary variables and must be carried as secondary nodal degrees of freedom
+d) They are secondary variables and must be carried as secondary nodal degrees of freedom
+b
+(i) ux and uy are the primary variables, which must be carried as the primary nodal degrees of freedom.
+(ii) only first derivatives of ux and uywith respect to x and y, respectively, appear.
+4. Which interpolation functions must be used for the primary variables in weak forms of plane elasticity equations?
+a) Hermite family interpolation function
+b) Lagrange family interpolation function
+c) Hierarchical interpolation function
+d) Quadratic interpolation function
+b
+5. What are the simplest elements that fit for the finite element model of the plane elasticity equations?
+a) Linear triangular and quadratic quadrilateral elements
+b) Quadratic triangular and linear quadrilateral elements
+c) Linear triangular and linear quadrilateral elements
+d) Quadratic triangular and quadratic quadrilateral elements
+c
+6. What is the correct statement regarding the shape function S of a linear triangular element?
+a) The first derivatives of S and hence, all the strains are element-wise constant
+b) The first derivatives of S are linear, but the strains are element-wise constant
+c) The first derivatives of S and hence the strains are linear functions
+d) The first derivatives of S are element-wise constant, but the strains are linear
+a
+7. What is the other name of a linear triangular element for plane elasticity problems?
+a) Constant-strain triangle
+b) Linear-strain triangle
+c) Quadratic-strain triangle
+d) Variable-strain triangle
+a
+8. What is the function on   \(\frac{\partial s}{\partial n}\) if S (n, e) denotes the shape function of a linear quadrilateral element?
+a) Linear in e and constant in n
+b) Constant in e and Linear in n
+c) Linear in both e and n
+d) Constant in both e and n
+a
+9. For a linear triangular element, what is the order of matrix B in the strain-displacement relation ε=BD, where D denotes the displacement matrix?
+a) 6×3
+b) 3×6
+c) 3×8
+d) 8×3
+b
+Order of B is 3×2*3
+=3×6.
+10. For a linear quadrilateral element, what is the order of matrix B in the strain-displacement relation ε=BD, where D denotes the displacement matrix?
+a) 6×3
+b) 3×6
+c) 3×8
+d) 8×3
+c
+Order of B is 3×2*4
+=3×8.
+11. Which option is not correct with respect to the orders of the matrices in the following finite element model of plane elastic equations?
+Me\(\ddot{\Delta}^e\)+KeΔe=Fe+Qe
+a) Mass matrix M has order 2n x 2n
+b) Stiffness matrix K has order 2n x n
+c) The element load vector F has order 2n x 1
+d) The vector of internal forces Q has order 2n x 1
+b
+12. Which form of a periodic solution is sought for the natural vibration study of plane elastic bodies?
+a) {Δ}={Δ0}eiωt
+b) {Δ}={Δ0}e-iω
+c) {Δ}={Δ0}e-iωt
+d) {Δ}={Δ0}e-iω/t
+c
+13. Which option is correct for the first derivative of the shape function S in the study of plane elasticity problems?
+a) It is element-wise constant for triangular element whereas not a constant for quadrilateral element
+b) It is element-wise constant for both the triangular element as well as a quadrilateral element
+c) It is not a constant for triangular element whereas element-wise constant for quadrilateral element
+d) It is a combination of a linear function and constant for both the triangular element and a quadrilateral element
+a
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Plane Elasticity – Weak Formulations» Next - Finite Element Method Questions and Answers – Plane Elasticity – Evaluation of Integrals 

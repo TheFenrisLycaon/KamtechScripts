@@ -1,0 +1,114 @@
+SQL data definition for part of the university database.
+CREATE TABLE department
+(dept_name VARCHAR (20),
+building VARCHAR (15),
+budget NUMBER,
+PRIMARY KEY (dept_name));
+ 
+CREATE TABLE course
+(course_id VARCHAR (7),
+title VARCHAR (50),
+dept_name VARCHAR (20),
+credits NUMERIC (2,0),
+PRIMARY KEY (course_id),
+FOREIGN KEY (dept_name) __________ department);
+ 
+CREATE TABLE instructor
+(ID VARCHAR (5),
+name VARCHAR (20) NOT NULL,
+dept_name VARCHAR (20),
+salary NUMERIC (8,2),
+FOREIGN KEY (dept_name) _______ department);
+ 
+CREATE TABLE SECTION
+(course_id VARCHAR (8),
+sec_id VARCHAR (8),
+semester VARCHAR (6),
+YEAR NUMERIC (4,0),
+building VARCHAR (15),
+room_number VARCHAR (7),
+time_slot id VARCHAR (4),
+PRIMARY KEY (course_id, sec_id, semester, YEAR),
+FOREIGN KEY (_______) ______ course);
+ 
+CREATE TABLE teaches
+(ID VARCHAR (5),
+course_id VARCHAR (8),
+sec_id VARCHAR (8),
+semester VARCHAR (6),
+YEAR NUMERIC (4,0),
+PRIMARY KEY (ID, course_id, sec_id, semester, YEAR),
+FOREIGN KEY (course_id, sec_id, semester, YEAR) REFERENCES SECTION,
+FOREIGN KEY (ID) _______ instructor);
+Answer questions based on the above commands 
+1. Which is the main relation which is used in the university database which is referenced by all other relation of the university?
+a) Teaches
+b) Course
+c) Department
+d) Section
+c
+2. The department relation has the an entry budget whose type has to be replaced by
+a) Varchar (20)
+b) Varchar2 (20)
+c) Numeric (12,2)
+d) Numeric
+c
+Join Sanfoundry@YouTube
+3. In the course relation, the title field should throw an error in case of any missing title. The command to be added in title is
+a) Unique
+b) Not null
+c) 0
+d) Null
+b
+4. In the above DDL command the foreign key entries are got by using the keyword
+a) References
+b) Key reference
+c) Relating
+d) None of the mentioned
+a
+5. Identify the error in the section relation
+a) No error
+b) Year numeric (4,0)
+c) Building varchar (15)
+d) Sec_id varchar (8)
+a
+6. The following entry is given in to the instructor relation .
+(100202,Drake,Biology,30000)
+Identify the output of the query given
+a) Row(s) inserted
+b) Error in ID of insert
+c) Error in Name of insert
+d) Error in Salary of the insert
+b
+7. Which of the following can be used as a primary key entry of the instructor relation.
+a) DEPT_NAME
+b) NAME
+c) ID
+d) All of the mentioned
+c
+8. In the section relation which of the following is used as a foreign key?
+a) Course_id
+b) Course_id,sec_id
+c) Room_number
+d) Course_id,sec_id,room_number
+a
+9. In order to include an attribute Name to the teaches relation which of the following command is used?
+a) Alter table teaches include Name;
+b) Alter table teaches add Name;
+c) Alter table teaches add Name varchar;
+d) Alter table teaches add Name varchar(20);
+d
+alter table r add AD;
+where r is the name of an existing relation, A is the name of the attribute to be added, and D is the type of the added attribute.
+10. To replace the relation section with some other relation the initial step to be carried out is
+a) Delete section;
+b) Drop section;
+c) Delete from section;
+d) Replace section new_table ;
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Extended E-R Features» Next - Database Questions and Answers – Querying database part-2 DML 

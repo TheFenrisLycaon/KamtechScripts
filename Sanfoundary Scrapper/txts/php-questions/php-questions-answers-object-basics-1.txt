@@ -1,0 +1,70 @@
+1. Which one of the following is not a valid class name?
+a) ShopProduct
+b) Shopproduct
+c) Shopproduct1
+d) 1shopproduct
+d
+2. Fill in the blank with the best option. An Object is a/an ________ of a class.
+a) type
+b) prototype
+c) instance
+d) object
+c
+3. There are two objects-
+   $product1 = new Shop();
+   $product2 = new Shop();
+Which one of the following statements is right about them?
+a) $product1 and $product2 are same objects of the same type generated from a single class
+b) $product1 and $product2 are different objects of the same type generated from a single class
+c) $product1 and $product2 are same objects of the different type generated from a single class
+d) $product1 and $product2 are different objects of the different type generated from a single class
+b
+4. Which version of PHP introduced the visibility keywords i.e public, private, and protected?
+a) PHP 4
+b) PHP 5
+c) PHP 5.1
+d) PHP 5.3
+b
+5. Which characters is used to access property variables on an object-by-object basis?
+a) ::
+b) =
+c) ->
+d) .
+c
+6. Code that uses a class, function, or method is often described as the ____________
+a) client code
+b) user code
+c) object code
+d) class code
+a
+7. Which keyword precedes a method name?
+a) method
+b) function
+c) public
+d) protected
+b
+8. If you omit the visibility keyword in your method declaration, by default the method will be declared as ____________
+a) public
+b) private
+c) protected
+d) friendly
+a
+9. Which function is used to determine whether the variable’s value is either TRUE or FALSE?
+a) boolean()
+b) is_boolean()
+c) bool()
+d) is_bool()
+d
+10. What will be the output of the following PHP code?
+<?php    class ShopProductWriter    {        public function write( $shopProduct )        {            $str = "{$shopProduct->title}: " .$shopProduct->getProducer() ." ({$shopProduct->price})\n";            print $str;        }    }    $product1 = new ShopProduct( "My Antonia", "Willa", "Cather", 5.99 );    $writer = new ShopProductWriter();    $writer->write( $product1 );?>
+a) Error
+b) Cather: Willa My Antonia (5.99)
+c) Willa: Cather My Antonia (5.99)
+d) My Antonia: Willa Cather (5.99)
+d
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Working with Databases-2» Next - PHP Questions & Answers – Object Basics-2 

@@ -1,0 +1,67 @@
+1. Life cycle of typical cursor involves ______ steps in SQL Server.
+a) 2
+b) 3
+c) 4
+d) 5
+d
+2. Point out the correct statement.
+a) A Cursor is opened and populated by executing the SQL statement defined by the cursor
+b) After data manipulation, we should close the cursor explicitly
+c) A cursor is declared by defining the SQL statement that returns a result set
+d) All of the mentioned
+d
+3. How many type of cursor is present in SQL Server?
+a) 3
+b) 4
+c) 5
+d) 6
+b
+4. Various alternatives to cursor in SQL Server are ___________
+a) FOR
+b) IF..ELSE
+c) WHILE
+d) All of the mentioned
+c
+5. Point out the wrong statement.
+a) We should use cursor in all cases
+b) A static cursor can move forward and backward direction
+c) A forward only cursor is the fastest cursor
+d) All of the mentioned
+a
+Join Sanfoundry@YouTube
+6. A dynamic cursor in SQL Server allows you to see __________ data.
+a) Updated
+b) Inserted
+c) Deleted
+d) All of the mentioned
+d
+7. Which of the cursors further have their subtypes?
+a) Static Cursors
+b) Dynamic Cursors
+c) Keyset Driven Cursors
+d) None of the mentioned
+d
+8. Which of the following FORWARD ONLY Cursor is populated at the time of creation?
+a) KEYSET
+b) FORWARD_ONLY STATIC
+c) FAST_FORWARD
+d) All of the mentioned
+b
+9. ____________ cursor is sensitive to any changes to the data source.
+a) Static Cursors
+b) Dynamic Cursors
+c) Keyset Driven Cursors
+d) None of the mentioned
+c
+10. SQL Server static cursors are always ___________
+a) Read-only
+b) Write-only
+c) Read, Write
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Variables» Next - SQL Server Questions and Answers – Error Handling 

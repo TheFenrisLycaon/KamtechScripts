@@ -1,0 +1,72 @@
+1. The test pattern generator which uses a shift register along with LFSR is of __________ bits.
+a) N
+b) M
+c) N+M
+d) N*M
+c
+2. The N+M bit test pattern generator has __________ different patterns produced.
+a) 2(N+M)
+b) 2N+M
+c) 2NM
+d) 2M+N
+b
+3. Which property can prevent high fault coverage?
+a) fault limit
+b) clock fault
+c) linear interloading
+d) linear dependencies
+d
+4. __________ are used along with flip-flops to build accumulators.
+a) adders
+b) multipliers
+c) buffers
+d) AND gates
+a
+5. What is the desirable constant value to be used with the initial values?
+a) 0
+b) 1
+c) N
+d) M
+b
+6. Which can be used to check the working of accumulator?
+a) adder
+b) shifter
+c) multiplier
+d) counter
+d
+7. Test patterns produced by ________ have both high and least toggle rates.
+a) random pattern generator
+b) counters
+c) LFSR
+d) CA
+b
+8. Which method does not have carry out?
+a) LFSR
+b) CA
+c) Counters
+d) Random sequence generator
+c
+9. Which method is easiest to test?
+a) LFSR
+b) Counter
+c) CA
+d) Weighted LFSR
+a
+10. Which requires more number of cycles for 100% fault coverage?
+a) internal feedback LFSR
+b) external feedback LFSR
+c) weighted LFSR
+d) ca
+b
+11. The detectability profile can be determined using
+a) D algorithm
+b) Cellular automata
+c) LFSR
+d) Random testing
+a
+Sanfoundry Global Education & Learning Series – VLSI.
+To practice all areas of VLSI, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VLSI Questions and Answers – Pseudo-Random Test Patterns-2» Next - VLSI Questions and Answers – Automatic Test Pattern Generation 

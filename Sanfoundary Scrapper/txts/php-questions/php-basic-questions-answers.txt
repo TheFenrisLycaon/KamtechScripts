@@ -1,0 +1,76 @@
+1. What will be the output of the following PHP code?
+<?php$a = "$winner";$b = "/$looser";echo $a,$b;?>
+a) $winner/$looser
+b) /$looser
+c) /
+d) $looser
+c
+2. What will be the output of the following PHP code?
+<?php$a = "$winner";$b = "\$looser";echo $a, $b;?>
+a) $winner\$looser
+b) \$looser
+c) \
+d) $looser
+d
+3. What will be the output of the following PHP code?
+<?php$a = "$winner";$b = "\\$looser";echo $a, $b;?>
+a) $winner\\$looser
+b) \\$looser
+c) \
+d) $looser
+c
+4. What will be the output of the following PHP code?
+<?php$x = 5;$y = 10;function fun(){    $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];} fun();echo $y;?>
+a) 5
+b) 10
+c) 15
+d) Error
+c
+5. What will be the output of the following PHP code?
+<?php$x = 5;$y = 10;function fun(){    $y = $GLOBALS['x'] + $GLOBALS['y'];} fun();echo $y;?>
+a) 5
+b) 10
+c) 15
+d) Error
+b
+6. What will be the output of the following PHP code?
+<?phpfunction fun(){    $x = 0;    echo $x;    $x++;}fun();fun();fun();?>
+a) 012
+b) 123
+c) 000
+d) 111
+c
+7. What will be the output of the following PHP code?
+<?phpfunction fun(){    static $x = 0;    echo $x;    $x++;}fun();fun();fun();?>
+a) 012
+b) 123
+c) 111
+d) Error
+a
+8. What will be the output of the following PHP code?
+<?phpstatic $x = 0;function fun(){    echo $x;    $x++;}fun();fun();fun();?>
+a) 012
+b) 123
+c) Nothing
+d) Error
+c
+9. What will be the output of the following PHP code?
+<?php$x=0;function fun(){    echo $GLOBALS['x'];    $GLOBALS['x']++;}fun();fun();fun();?>
+a) 000
+b) 012
+c) 123
+d) Error
+b
+10. What will be the output of the following PHP code?
+<?php$x = 0;function fun(){    echo $GLOBALS['x'];    $x++;}fun();fun();fun();?>
+a) 000
+b) 012
+c) Nothing
+d) Error
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice basic questions and answers on all areas of PHP, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Variables – 3» Next - PHP Coding Questions and Answers – Echo 

@@ -1,0 +1,100 @@
+1. What should be the minimum value of PCR Cp for a six-sigma company?
+a) 2.0
+b) 1.0
+c) 3.0
+d) 1.3
+a
+2. What should be the position of the process mean for the calculation of the PCR Cp?
+a) Near to the USL
+b) Near to LSL
+c) Centered between LSL and USL
+d) Cp Does not take this into account
+d
+3. What is the function of Cp?
+a) To measure the value of process mean
+b) To measure the value of the process standard deviation
+c) To measure the USL and LSL of the quality characteristic
+d) To measure the spread of the specifications relative to the six sigma spread
+d
+4. Which one of the processes performs the best?
+a) The one which operates near the USL
+b) The one which operates near the LSL
+c) The one which operates at the midpoint of the interval between the specifications
+d) The one which operates outside the specifications
+c
+5. 4 processes have same value of Cp and the USL and LSL values equal to 62 and 38 respectively. Which one of those performs the best?
+a) Centered at 50
+b) Centered at 44
+c) Centered at 54
+d) Centered at 63
+a
+midpoint=\(\frac{USL+LSL}{2}\)
+6. If Cp=Cpk which of these is true?
+a) Process is centered at the LSL of the specifications
+b) Process is centered at the USL of the specifications
+c) Process is centered at the midpoint of the specification
+d) Process is centered at the outside the specification limits
+c
+7. Which of these gives the best performance of the process?
+a) Cp = Cpk
+b) Cp – Cpk = Cpk
+c) Cp > Cpk
+d) Cp < Cpk
+a
+8. Which of these is correct?
+a) Cpk=min⁡(Cpu, Cp)
+b) Cpk=min⁡(Cpu, Cpl)
+c) Cpk=max⁡(Cpu, Cp)
+d) Cpk=max⁡(Cp, Cpl)
+b
+Cpk=min⁡(Cpu, Cpl)
+9. Which of these is a correct definition for the Cpk?
+a) Cpk is the one sided PCR for the specification limit nearest to the standard deviation of the process
+b) Cpk is the one sided PCR for the specification limit farest to the standard deviation of the process
+c) Cpk is the one sided PCR for the specification limit farest to the average of the process
+d) Cpk is the one sided PCR for the specification limit nearest to the average of the process
+a
+10. If Cp>Cpk what conclusion can be carried out about the process?
+a) The process has its operation at the midpoint of the interval between the specifications
+b) The process operates off-center
+c) The process performance is the best possible for that Cp
+d) The process can’t perform any better for same Cp
+b
+11. For a process, the upper specification limit and lower specification limits are 62 and 38 respectively. If the process has its mean equal to 53, and its standard deviation 2, what is the value of Cpk for this process?
+a) 1.7
+b) 2.5
+c) 1.0
+d) 1.5
+d
+Cpk=min⁡(Cpu, Cpl)
+Calculating the values of Cpu  and Cpl, we get Cpu=1.5 and Cpl=2.5. So we get Cpk=1.5.
+12. If  Cp=2.0,Cpu=1.5,Cpl=2.5 what will be the value of Cpk?
+a) 2.5
+b) 2.0
+c) 1.5
+d) 0
+c
+Cpk=min⁡(Cpu, Cpl)
+Here Cpu=1.5(minimum), so Cpk=1.5.
+13. If Cpk=1.0 and Cp=2.0, what will be the actual fallout for the process in ppm?
+a) 200
+b) 2700
+c) 1
+d) 1350
+d
+14. Cpk measures the maximum of the two, Cpu  and Cpl.
+a) True
+b) False
+b
+Cpk=min⁡(Cpu, Cpl)
+We consider that the value of Cpk will be equal to the one lower than the other between Cpk  and Cpl.
+15. For the calculation of Cpk the quality characteristic should have a lognormal distribution.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control Assessment Questions, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Process Capability Ratios – 2» Next - Statistical Quality Control Questions and Answers – Process Capability Ratios – 4 

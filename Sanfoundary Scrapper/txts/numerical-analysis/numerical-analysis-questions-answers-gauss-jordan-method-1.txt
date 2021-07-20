@@ -1,0 +1,427 @@
+1. Solve the equations using Gauss Jordan method.
+
+x + 2y + 6z = 22
+3x + 4y + z = 26
+6x - y - z = 19
+a) x = 4, y = 3, z = 2
+b) x = 4, y = 3, z = 2
+c) x = 4, y = 3, z = 2
+d) x = 4, y = 3, z = 2
+a
+\(\begin{bmatrix}
+1 & 2 & 6\\
+3 & 4 & 1\\
+6 & -1 & -1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+22\\
+26\\
+19\\
+\end{bmatrix} \) 
+By R2-3R1 and R3-6R1
+\(\begin{bmatrix}
+1 & 2 & 6\\
+0 & -2 & -17\\
+0 & -13 & 37\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+22\\
+-40\\
+-113\\
+\end{bmatrix} \) 
+-2R3 and -13R2 
+\(\begin{bmatrix}
+1 & 2 & 6\\
+0 & 26 & 221\\
+0 & 26 & 74\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+22\\
+520\\
+226\\
+\end{bmatrix} \) 
+R3-R2 and R2/13, R3/(-147)
+\(\begin{bmatrix}
+1 & 2 & 6\\
+0 & 2 & 17\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+22\\
+40\\
+2\\
+\end{bmatrix} \) 
+R1-R2 and R1+11R3, R2-117R3
+\(\begin{bmatrix}
+1 & 0 & 0\\
+0 & 2 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+4\\
+6\\
+2\\
+\end{bmatrix} \) 
+(1/2)R2
+\(\begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+4\\
+3\\
+2\\
+\end{bmatrix} \) 
+Hence x = 4, y = 3, z = 2. 
+2. Solve the equations using Gauss Jordan method.
+
+x + 2y + 6z = 44
+3x + 4y + z = 52
+6x - y - z = 38
+a) x = 8, y = 6, z = 4
+b) x = 8, y = 4, z = 6
+c) x = 4, y = 8, z = 6
+d) x = 8, y = 6, z = 2
+a
+\(\begin{bmatrix}
+1 & 2 & 6\\
+3 & 4 & 1\\
+6 & -1 & -1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+44\\
+52\\
+38\\
+\end{bmatrix} \) 
+By R2-3R1 and R3-6R1
+-2R3 and -13R2
+R3-R2 and R2/13, R3/(-147)
+R1-R2 and R1+11R3, R2-117R3
+(1/2)R2
+\(\begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+8\\
+6\\
+4\\
+\end{bmatrix} \) 
+Hence x = 8, y = 6, z = 4.
+3. Solve the equations using Gauss Jordan method.
+
+x+y+z=9
+2x-3y+4z=13
+3x+4y+5z=40
+a) x=1, y=3, z=4
+b) x=1, y=3, z=5
+c) x=1, y=3, z=7
+d) x=1, y=3, z=2
+b
+\(\begin{bmatrix}
+1 & 1 & 1\\
+2 & -3 & 4\\
+3 & 4 & 5\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+9\\
+13\\
+40\\
+\end{bmatrix} \) 
+By R2-2R1 and R3-3R1
+\(\begin{bmatrix}
+1 & 2 & 6\\
+0 & -5 & 2\\
+0 & 1 & 2\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+9\\
+-5\\
+13\\
+\end{bmatrix} \) 
+5R3 and -R2 
+\(\begin{bmatrix}
+1 & 1 & 1\\
+0 & 5 & -2\\
+0 & 5 & 10\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+9\\
+5\\
+65\\
+\end{bmatrix} \) 
+R3-R2 and R2+(1/6) R3, (1/12)R3
+\(\begin{bmatrix}
+1 & 1 & 1\\
+0 & 5 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+9\\
+15\\
+5\\
+\end{bmatrix} \) 
+(1/2)R2
+	
+\(\begin{bmatrix}
+1 & 1 & 1\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+9\\
+3\\
+5\\
+\end{bmatrix} \) 
+R1-R2-R3
+\(\begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+1\\
+3\\
+5\\
+\end{bmatrix} \) 
+Hence x =1, y=3, z=5. 
+4. Solve the equations using Gauss Jordan method.
+
+2x-3y+z=-1
+x+4y+5z=25
+3x-4y+z=2
+a) x=1, y=3, z=4
+b) x=1, y=3, z=5
+c) x=1, y=3, z=7
+d) x=1, y=3, z=2
+b
+\(\begin{bmatrix}
+1 & 4 & 5\\
+2 & -3 & 1\\
+3 & -4 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+25\\
+-1\\
+2\\
+\end{bmatrix} \) 
+By R2-2R1 and R3-3R1
+\(\begin{bmatrix}
+1 & 4 & 5\\
+0 & -11 & -9\\
+0 & -16 & -14\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+25\\
+-51\\
+-73\\
+\end{bmatrix} \) 
+-R3 and -R2, 16R2 and 11R1
+\(\begin{bmatrix}
+1 & 4 & 5\\
+0 & 176 & 144\\
+0 & 176 & 154\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+25\\
+816\\
+803\\
+\end{bmatrix} \) 
+R3-R2 and (1/16)R2
+\(\begin{bmatrix}
+1 & 4 & 5\\
+0 & 11 & 9\\
+0 & 0 & 10\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+25\\
+51\\
+-13\\
+\end{bmatrix} \) 
+R2-(9/10)R3 and R1-(1/2)R3 
+\(\begin{bmatrix}
+1 & 4 & 0\\
+0 & 11 & 0\\
+0 & 0 & 10\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+63/2\\
+627/10\\
+-13\\
+\end{bmatrix} \) 
+R1-(4/11)R2, (1/11)R1 and (1/10)R3
+\(\begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+8.7\\
+5.7\\
+-1.3\\
+\end{bmatrix} \) 
+Hence x = 8.7, y = 5.7, z = -1.3. 
+5. In Gauss Jordan method which of the following transformations are allowed?
+a) Diagonal transformation
+b) Column transformation
+c) Row transformation
+d) Square transformation
+c
+6. The augmented matrix in Gauss Jordan method is reduced to ______________
+a) Row Echelon form
+b) Column Echelon form
+c) Matrix Echelon form
+d) Augmented form
+a
+7. Solve the equations using Gauss Jordan method.
+
+x+2y+6z = 12
+3x+4y+z = 24
+6x-y-z = 36
+a) x = 48/7, y = 8/7, z = 4/7
+b) x = 4/7, y = 48/7, z = 4/7
+c) x = 44/7, y = 8/7, z = 4/7
+d) x = 4/7, y = 8/7, z = 44/7
+c
+ \(\begin{bmatrix}
+1 & 2 & 6\\
+3 & 4 & 1\\
+6 & -1 & -1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+12\\
+24\\
+36\\
+\end{bmatrix} \) 
+By R2-3R1 and R3-6R1
+-2R3 and -13R2
+R3-R2 and R2/13, R3/(-147)
+R1-R2 and R1+11R3, R2-117R3
+(1/2)R2
+\(\begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+5\\
+9\\
+2\\
+\end{bmatrix} \) 
+Hence x=5, y=9, z=2. 
+8. Solve the equations using Gauss Jordan method.
+
+x + 2y + 6z = 15
+3x + 4y + z = 16
+6x - y - z = 20
+a) x=3.735, y=0.795, z=1.612
+b) x=3.735, y=3.735, z=1.612
+c) x=3.735, y=1.612, z=3.735
+d) x=1.612, y=0.795, z=3.735
+a
+\(\begin{bmatrix}
+1 & 2 & 6\\
+3 & 4 & 1\\
+6 & -1 & -1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+15\\
+16\\
+20\\
+\end{bmatrix} \) 
+By R2-3R1 and R3-6R1
+-2R3 and -13R2
+R3-R2 and R2/13, R3/(-147)
+R1-R2 and R1+11R3, R2-117R3
+ (1/2)R2 
+\(\begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+3.735\\
+0.795\\
+1.612\\
+\end{bmatrix} \) 
+Hence x=3.735, y=0.795, z=1.612.
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Methods, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Matrix Inversion Questions and Answers – Gauss Elimination Method – 2» Next - Numerical Analysis Questions and Answers – Gauss Jordan Method – 2 

@@ -1,0 +1,94 @@
+This section on C++ interview questions and answers focuses on “Run Time Type Information”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Run Time Type Information” along with answers, explanations and/or solutions:
+1. What is the Run-Time Type Information?
+a) Information about an object’s data type at runtime
+b) Information about the variables
+c) Information about the given block
+d) Information about the functions
+a
+2. Which operators are part of RTTI?
+a) dynamic_cast()
+b) typeid
+c) both dynamic_cast<> & typeid
+d) dynamic_cast[] 
+c
+3. To which type of class, We can apply RTTI?
+a) Encapsulation
+b) Polymorphic
+c) Derived
+d) Static
+b
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <exception>    using namespace std;    class base { virtual void dummy() {} };    class derived: public base { int a; };    int main ()     {        try         {            base * pba = new derived;            base * pbb = new base;            derived * pd;            pd = dynamic_cast<derived*>(pba);            if (pd == 0)                 cout << "Null pointer on first type-cast" << endl;            pd = dynamic_cast<derived*>(pbb);            if (pd == 0)                 cout << "Null pointer on second type-cast" << endl;        }         catch (exception& e)         {            cout << "Exception: " << e.what();        }        return 0;    }
+a) Null pointer on first type-cast
+b) Null pointer on second type-cast
+c) Exception
+d) Null pointer on third type-cast
+b
+Output:
+$ g++ rtti.cpp
+$ a.out
+Null pointer on second type-cast
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <typeinfo>    using namespace std;    int main ()     {        int * a;        int b;        a = 0; b = 0;        if (typeid(a) != typeid(b))        {            cout << typeid(a).name();            cout << typeid(b).name();        }        return 0;    }
+a) Pi
+b) i
+c) Both pi & i
+d) f
+c
+Output:
+$ g++ rtti1.cpp
+$ a.out
+Pii
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <typeinfo>    #include <exception>    using namespace std;    class base     {         virtual void f(){}     };    class derived : public base {};    int main ()     {        try         {            base* a = new base;            base* b = new derived;            cout << typeid(*a).name() << '\t';            cout << typeid(*b).name();        }         catch (exception& e)         {             cout << "Exception: " << e.what() << endl;         }        return 0;    }
+a) base*
+b) derived*
+c) 4base and 7derived
+d) Exception:derived
+c
+Output:
+$ g++ rtti2.cpp
+$ a.out
+4base    7derived
+7. What will be the output of the following C++ code?
+    #include <typeinfo>    #include <iostream>    using namespace std;    class A    {        public:        virtual ~A();    };    int main()     {        A* a = NULL;        try         {            cout << typeid(*a).name() << endl;         }        catch (bad_typeid)        {            cout << "Object is NULL" << endl;        }    }
+a) int
+b) float
+c) double
+d) object is NULL
+d
+Output:
+$ g++ rtti3.cpp
+$ a.out
+object is NULL
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    struct A     {        virtual void f()          {             cout << "Class A" << endl;         }    };    struct B : A     {        virtual void f()         {             cout << "Class B" << endl;        }    };    struct C : A     {        virtual void f()         {            cout << "Class C" << endl;         }    };    void f(A* arg)     {        B* bp = dynamic_cast<B*>(arg);        C* cp = dynamic_cast<C*>(arg);        if (bp)            bp -> f();        else if (cp)            cp -> f();        else            arg -> f();      };    int main()     {        A aobj;        C cobj;        A* ap = &cobj;        A* ap2 = &aobj;        f(ap);        f(ap2);    }
+a) Class C
+b) Class A
+c) Both Class C & A
+d) Class D
+c
+Output:
+$ g++ rtti4.cpp
+$ a.out
+Class C
+Class A
+9. What is meant by type_info?
+a) Used to hold the type information returned by the typeid operator
+b) Used to hold the type information returned by the dynamic_cast
+c) Used to hold the type information returned by the static_cast
+d) Used to hold the type information returned by the static_id
+a
+10. At which time does the static_cast can be applied?
+a) Compile-time construct
+b) Runtime construct
+c) Both Compile-time & Runtime construct
+d) Runtime deconstruct
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Access Control» Next - C++ Programming Questions and Answers – Pointers to Members 

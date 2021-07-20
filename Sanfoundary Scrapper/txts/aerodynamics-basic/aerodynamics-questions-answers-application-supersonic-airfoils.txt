@@ -1,0 +1,87 @@
+1. Which of these equations is used for computing the lift and wave drag over a supersonic airfoil?
+a) Cp=\(\frac {2θ}{\sqrt {M_∞^2-1}}\) 
+b) Cp=\(\frac {2θ}{\sqrt {M_∞^2+1}}\) 
+c) Cp=\(\frac {\sqrt {M_∞^2-1}}{θ}\) 
+d) Cp=\(\frac {\sqrt {M_∞^2+1}}{θ}\) 
+a
+Where, θ is the angle made by surface relative to the horizontal. This value is very small
+M∞ is the free stream mach number.
+This formula is applicable for slender 2-dimensional body and can be used to for estimating the value of both lift and wave drag for supersonic airfoils.
+2. What is the value of Cp at the forward surface in a biconvex airfoil?
+a) Zero
+b) Positive
+c) Negative
+d) Infinite
+b
+3. The Cp value for supersonic airfoil surface which is inclined away from the freestream is positive.
+a) True
+b) False
+a
+4. Which of these graphs represent the variation of Cp over a biconvex airfoil?
+a)
+b)
+c)
+d)
+a
+5. According to lineralized theory, what is the formula for coefficient of lift over the a flat plate in a supersonic flow?
+a) cl=\(\frac {4α}{\sqrt {M_∞^2-1}}\) 
+b) cl=\(\frac {4α^2}{\sqrt {M_∞^2-1}}\) 
+c) cl=\(\frac {4α}{\sqrt {M_∞^2+1}}\) 
+d) cl=\(\frac {4α^2}{\sqrt {M_∞^2+1}}\) 
+a
+cp,l=\(\frac {2α}{\sqrt {M_∞^2-1}}\) 
+cp,u=\(\frac {-2α}{M_∞^2-1}\) 
+The upper surface is inclined away from the free stream thus it has a negative value.
+The normal and axial forces are computed as follows:
+cn=\(\frac {1}{c} \int _0^c\) (cp,l-cp,u)dx=\(\frac {1}{c} \int _0^c \big ( \frac {2α}{\sqrt {M_∞^2-1}}-\frac {-2α}{\sqrt {M_∞^2-1}} \big ) \)dx
+cn=\(\frac {4α}{\sqrt {M_∞^2-1}}\) 
+Similarly,
+ca=\(\frac {1}{c} \int _{LE}^{TE}\)(cp,u-cp,l)dy=0
+The value above is zero because for a thin plate of negligible thickness, dy=0.
+Substituting the normal and axial forces in coefficient of lift formula:
+cl=cncosα-casin∝=cn-ca∝
+This is because the value of ∝ is very very small resulting in cosα~1,sinα~α.
+cl=\(\frac {4α}{\sqrt {M_∞^2-1}}\) 
+6. Wave drag coefficient as derived from linearized theory is independent of the airfoil shape and thickness.
+a) True
+b) False
+b
+cd=\(\frac {4(α^2+g_c^2+g_t^2)}{\sqrt {M_∞^2-1}}\) 
+7. What is the lift coefficient over a flat plate at an angle of attack of 3 degrees in a supersonic flow at Mach 4?
+a) 0.0512
+b) 0.0541
+c) 0.0628
+d) 0.0714
+b
+The lift coeeficient formula according to the linearized theory is :
+cl=\(\frac {4α}{\sqrt {M_∞^2-1}}\) 
+Substituting the values:
+cl=\(\frac {4 × 0.05236}{\sqrt {4^2-1}}\)=0.0541
+8. For supersonic flow, which differential equation is obtained for the linearized perturbation potential equation?
+a) Elliptic partial differential equation
+b) Hyperbolic differential equation
+c) Parabolic differential equation
+d) Linear differential equation
+b
+1-M\(_∞^2=\frac {∂^2 \hat {ϕ}}{∂x^2}+\frac {∂^2 \hat {ϕ}}{∂y^2}\)=0
+Where, \(\hat {ϕ}\) is ther perturbation potential
+M∞ is the free stream Mach number
+In case of supersonic flow, 1-M\(_∞^2\) < 0 since Mach number is greater than 1. For this case the equation becomes hyperbolic differential equation which is of the type \( \frac {∂^2 u}{∂x^2}+\frac {∂^2 u}{∂y^2}\).
+9. What happens to the coefficient of pressure in a supersonic flow for an increase in Mach number?
+a) Increases
+b) Decreases
+c) Remains unaffected
+d) First increases then decreases
+b
+10. What is the source of wave drag exerted on the supersonic airfoil?
+a) Shock waves
+b) Skin friction
+c) Viscous boundary layer
+d) Trailing vortex
+a
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – The Supercritical Airfoil» Next - Aerodynamics Questions and Answers – Supersonic Nozzle Design 

@@ -1,0 +1,80 @@
+1. If the most significant bit of relative address byte is 1, then the short jump instruction is
+a) forward jump
+b) back jump
+c) either forward or back jump
+d) none
+b
+2. The first byte of an absolute jump instruction consists of
+a) 3 LSBs of opcode and 5 MSBs of 11-bit address
+b) 5 MSBs of opcode and 3 LSBs of 11-bit address
+c) 6 MSBs of opcode and 1 LSB of 11-bit address
+d) 5 LSBs of opcode and 3 MSBs of 11-bit address
+d
+3. The third byte of the long jump instruction is
+a) opcode
+b) 5 LSBs of opcode
+c) higher byte of jump location or subroutine
+d) lower byte of jump location or subroutine
+c
+4. The absolute jump instruction is intended mainly for a jump within a memory space of
+a) 2 bytes
+b) 2 Kbytes
+c) 2 Mbytes
+d) none
+b
+5. The LJMP instruction is very useful in programming in the external code memory space of
+a) 32 MB
+b) 64 MB
+c) 32 KB
+d) 64 KB
+d
+Join Sanfoundry@YouTube
+6. Which of the following is not an unconditional control transfer instruction?
+a) JMP
+b) RET
+c) JNC
+d) CALL
+c
+7. The conditional control transfer instructions use
+a) status flags
+b) bits of bit addressable RAM
+c) SFRs termed bit
+d) all of the mentioned
+d
+8. Which of the following is not a conditional control transfer instruction?
+a) JC
+b) JBC
+c) JNC
+d) NONE
+d
+9. The mnemonic used to perform a subtraction of source with an 8-bit data and jumps to specified relative address if subtraction is non-zero is
+a) DJNZ
+b) CJNE
+c) JZ
+d) JNC
+b
+10. The mnemonic, JNB is used to jump to the specified relative address only if
+a) specified bit=1
+b) specified bit=0
+c) specified bit is non-recursive
+d) none
+a
+11. The type of operand that is not allowed to use in boolean instructions of 8051 is
+a) direct register operands
+b) indirect register operands
+c) immediate bit
+d) none
+c
+12. In boolean instructions, the flag that is the only allowed destination operand for two operand instructions is
+a) overflow flag
+b) underflow flag
+c) auxiliary flag
+d) carry flag
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors for Aptitude test, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – 8051 Instruction Set -1» Next - Microprocessors Questions and Answers – Interfacing With 8051 Ports -1 

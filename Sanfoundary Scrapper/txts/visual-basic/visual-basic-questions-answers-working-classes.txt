@@ -1,0 +1,76 @@
+1. _______ can be used instead of a Structure statement.
+a) Class
+b) Struct
+c) StructDef
+d) Sdef
+a
+2. It is disadvantageous to use public variables in classes because ___________
+a) Its values cannot be initialized
+b) It results in compilation error
+c) It cannot be accessed by other variables
+d) It cannot control its values
+d
+3. _______ variables of a class are not visible to applications that use the instance of that class.
+a) Public
+b) Private
+c) Default
+d) Static
+b
+4. You create a Public property using a _______ procedure.
+a) SetProp
+b) Property
+c) Access
+d) SetAccess
+b
+5. The ________ keyword indicates that the property’s value can be retrieved (read) by an application.
+a) Access
+b) Get
+c) Read
+d) ReadOnly
+d
+6. The ________ keyword indicates that an application can set the property’s value, but it cannot retrieve the value.
+a) Receive
+b) Write
+c) WriteOnly
+d) ReceiveOnly
+c
+7. The code contained in the ______ allows an application to retrieve the contents of the Private variable associated with the property.
+a) Set Block
+b) Retrieve
+c) Get Block
+d) Getter Block
+c
+8. The code contained in the ______ allows an application to retrieve the contents of the Private variable associated with the property.
+a) Set Block
+b) Retrieve
+c) Get Block
+d) Getter Block
+a
+9. Is there an error in the below code?
+Private _intSide As Integer
+Public Property Side As Integer
+_intSide=_intSide+2
+End Property
+a) No error
+b) Runtime Error
+c) Syntax error
+d) Compilation Error
+d
+10. Is there an error in the below code?
+Private _dblBonus As Double
+Public ReadOnly Property Bonus As Double
+Set(ByVal value As Decimal)
+_dblBonus = value
+End Set
+End Property
+a) No error
+b) Runtime Error
+c) Compilation Error
+d) Syntax error
+c
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Creating a Class» Next - Visual Basic Questions and Answers – Web Applications 

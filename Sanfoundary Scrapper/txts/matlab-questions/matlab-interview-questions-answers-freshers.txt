@@ -1,0 +1,102 @@
+1. What is the output of the following code?
+
+A=[1 2 3..
+        ];
+a) The output is suppressed
+b) A row vector
+c) A row vector concatenated with a null matrix
+d) Error
+d
+2. What is the output of the following code?
+
+A=[1 2 a..;
+         ];
+a) Error due to a
+b) Error due to A
+c) Error due to [];
+d) Error due to ;
+a
+3. What is the output of the following code?
+
+A=[1 2 ‘a’;…
+          ];
+Join Sanfoundry@YouTube
+a) Error due to ‘a’
+b) Error due to ‘…’
+c) Error due to [] 
+d) ‘a’
+d
+Output: ‘a’
+4. What is the output of the following code?
+
+A=[1 2 ‘a’;…
+  ‘f’ ‘q’ ‘w’];
+a) A 2*3 character array
+b) A 3*2 character matrix
+c) A 3*2 character vector
+d) A 2*3 character vector
+b
+5. What is the output of the following code?
+
+A=[1 2 ‘a’;…
+   ‘f’ ‘q’ ‘w’;…
+   ]];
+a) Syntax Error
+b) A 2*3 character matrix
+c) The concatenation of 2 vectors, vertically, with size 3
+d) Cannot be determined
+a
+6. What is the output of the following code? 
+
+A=[1 2 ‘a’…;
+   ‘a’ ‘b’ ‘c’;…
+           ];
+a) Error in syntax
+b) A 3*2 matrix of characters
+c) Error due to 1 and 2
+d) Error due to a
+a
+7. What is the output of the following code?
+A=[1 2 ‘a’….;
+‘a’ ‘b’ ‘c’;…
+           ];
+a) A 1*6 matrix
+b) A 6*1 matrix
+c) Error in the code
+d) Error in ellipsis
+a
+8. What is the output of the following code?
+clear ALL 
+a) Clears the workspace
+b) Clears the matrices
+c) Clears the vectors
+d) Clears ALL
+d
+9. All matrices are vectors but all vectors are not matrices in MATLAB.
+a) True
+b) False
+a
+10. What is the output of the following code?
+ismatrix([]);
+a) logical 1
+b) logical 0
+c) logical -1
+d) Error
+a
+11. What is the output of the following code?
+isvector([]);
+a) 1
+b) 0
+c) Syntactical error
+d) Logical error
+b
+12. If the dimensions of vectors don’t match, the plot command will always give an error.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Vectors and Matrices – 1» Next - MATLAB Questions and Answers – Functions 

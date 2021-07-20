@@ -1,0 +1,72 @@
+1. If we down-sample a signal x(n), then the resulting signal will be an aliased version of x(n).
+a) True
+b) False
+a
+2. What is the folding frequency for the aliased version of x(n) with sampling rate F?
+a) F/D
+b) F/4D
+c) F/2
+d) F/2D
+d
+3. To what value should the bandwidth of x(n) has to be reduced in order to avoid aliasing?
+a) F/D
+b) F/2D
+c) F/4D
+d) None of the mentioned
+b
+4. Which process has a block diagram as shown in the figure below?
+a) Sampling rate conversion
+b) Interpolation
+c) Decimation
+d) None of the mentioned
+c
+5. Which of the following is true about the filtering operation on x(n)?
+a) Linear
+b) Time variant
+c) None of the mentioned
+d) Linear and time invariant
+d
+6. If x(n) produces y(m), then x(n-n0) does imply y(n-n0) for any value of n0.
+a) True
+b) False
+b
+7. The linear filtering operation followed by down sampling on x(n) is not time invariant.
+a) True
+b) False
+a
+8. Which of the following gives the equation for y(m)?
+a) v(mD)
+b) p(mD)
+c) v(mD).p(mD)
+d) none of the mentioned
+c
+y(m)= \(\bar{v}(mD)\)= v(mD).p(mD).
+9. We need not relate the spectrum of y(m) to spectrum of x(n) to obtain frequency response characteristic of y(m).
+a) True
+b) False
+b
+10. The sequence \(\bar{v}(n)\) can be obtained by multiplying v(n) with a signal p(n) of period D.
+a) True
+b) False
+a
+11. If HD(ω) is the frequency response of the low pass filter, then for what value of ω, HD(ω)=1?
+a) |ω| = π/D
+b) |ω| ≥ π/D
+c) |ω| ≤ π/D
+d) None of the mentioned
+c
+HD(ω)=1, |ω| ≤ π/D
+=0, otherwise.
+12. The filter eliminates the spectrum of X(ω) in the range π/D < ω < π.
+a) True
+b) False
+a
+HD(ω)=1, |ω| ≤ π/D
+=0, otherwise
+Thus the filter eliminates the spectrum of X(ω) in the range π/D < ω < π.
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Multirate Digital Signal Processing» Next - Digital Signal Processing Questions and Answers – Oversampling A/D Converters 

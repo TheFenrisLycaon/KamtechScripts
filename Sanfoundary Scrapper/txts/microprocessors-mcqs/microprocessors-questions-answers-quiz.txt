@@ -1,0 +1,73 @@
+1. In ‘Rotate source, count’ instructions, if the CF is equal to MSB of operand (source) then
+a) TF is cleared
+b) OF is cleared
+c) TF is set
+d) OF is set
+b
+2. The instruction that affects the flags is
+a) IMUL
+b) INSW
+c) INSB
+d) POP*A
+a
+3. A general protection exception is generated, if the value of
+a) CPL is equal to that of IOPL
+b) CPL is less than that of IOPL
+c) CPL is greater than that of IOPL
+d) None of the mentioned
+c
+4. While executing the instruction, OUTSW, the SI is incremented by
+a) 1
+b) 2
+c) 3
+d) 4
+b
+5. The instruction that is used to exit the procedure is
+a) QUIT
+b) STOP
+c) LEAVE
+d) EXIT
+c
+6. The instruction that determines the number of bytes, to be copied into the new stack frame, from the previous stack is
+a) ENTER
+b) BOUND
+c) CLTS
+d) LEAVE
+a
+7. The instruction that is used to check whether a signed array offset is within the limit, defined for it by the starting and ending index is
+a) ENTER
+b) BOUND
+c) CLTS
+d) LEAVE
+b
+8. The CLTS (Clear Task Switch Flag) instruction records every execution of WAIT and ESC and is trapped if the flag(s)
+a) PE (Protection Enable) and TS (task switch) flags are set
+b) Emulate Processor extension flag is set
+c) MP flag and task switched flag is set
+d) PE and MP flag is set
+c
+9. The instruction that determines whether the segment pointed to, by a 16-bit register, can be accessed from the current privilege level is
+a) RPL
+b) CPL
+c) ARPL
+d) VERR
+d
+10. The instruction that loads 6 bytes from a memory block, pointed to by the effective address of the operand, into global descriptor table register is
+a) LLDT
+b) SGDT
+c) LGDT
+d) None of the mentioned
+c
+11. In LGDT instruction, while loading 6 bytes, the first word is loaded into the field of
+a) LIMIT field
+b) BASE field
+c) Either LIMIT or BASE field
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors for Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Instruction Set Features -1» Next - Microprocessors Questions and Answers – 80287 Math Coprocessor -1 

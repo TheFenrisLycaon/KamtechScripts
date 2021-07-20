@@ -1,0 +1,135 @@
+1. Find \(lt_{x\rightarrow -2}\frac{sin(\frac{1+(\frac{(x+2)^2(x^2+1)}{x^3+3})}{x+2})}{(x+2)}\) 
+a) ∞
+b) 0
+c) 2
+d) -∞
+c
+\(=lt_{x\rightarrow -2}\frac{ln(1+\frac{(x+2)^2(x^2+1)}{x^3+3})}{x+2}\) 
+\(=lt_{x\rightarrow -2}(\frac{1}{x+2})\times(\frac{(x+2)^2(x^2+1)}{(x^3+3)}-\frac{(x+2)^3(x^3+1)^2}{2.(x^3+3)^2}+…\infty)\) 
+\(=lt_{x\rightarrow -2}\times(\frac{(x+2)^2(x^2+1)}{(x^3+3)}-\frac{(x+2)^3(x^3+1)^2}{2.(x^3+3)^2}+…\infty)\) 
+We hence the form for the totle limit as
+\(lt_{x\rightarrow a}\frac{sin(f(x))}{g(x)}\)=1
+Where f(x)→0 : g(x)→0 as x→a
+This is true for the above problem
+Thus, we can deduce the limit as
+ = 1
+Hence, 2 is the right answer.
+2. Find \(lt_{x\rightarrow 0}\frac{(3e^x-2e^{2x}-e^{3x})}{(e^x+e^{2x}-2e^{3x})}\) 
+a) 3⁄2
+b) 0
+c) 4⁄3
+d) –4⁄3
+c
+Applying L hospitals rule we have
+\(=lt_{x\rightarrow 0}\frac{3e^x-4e^{2x}-3e^{3x}}{e^x+2e^{2x}-6e^{3x}}\) 
+\(=\frac{3-4-3}{1+2-6}\) 
+\(=\frac{4}{3}\) 
+3. Find relation between a and b such that the following limit is got after a single application of L hospitals Rule \(lt_{x\rightarrow 0}\frac{ae^x+be^{2x}}{be^x+ae^{2x}}\) 
+a) b⁄a = 2
+b) a⁄b = 2
+c) a = b
+d) a = -b
+d
+ae0 + be0 = 0 = a + b (numerator → zero)
+be0 + ae0 = 0 = a + b (denominator → zero)
+Thus the relation between  (a, b) and  is
+a + b = 0
+OR
+ a = -b.
+4. Find \(lt_{x\rightarrow 0}\frac{2cos(2x)+3cos(5x)-5cos(19x)}{cos(4x)-cos(3x)}\) 
+a) -76
+b) -6
+c) -7
+d) 0
+a
+Applying L hospitals rule we have
+\(=lt_{x\rightarrow 0}\frac{4cos(2x)+15cos(5x)-95cos(19x)}{4cos(4x)-3cos(3x)}\) 
+\(\frac{4+15-95}{4-3}\) = -76.
+5. Find how many rounds of differentiation are required to have finite limit for \(lt_{x\rightarrow 0}\frac{cos(ax)+cos(bx)-2cos(cx)}{cos(ax)+2cos(bx)-3cos(cx)}\) given that  a ≠ b ≠ c
+a) 3
+b) 0
+c) 2
+d) 4
+c
+\(=lt_{x\rightarrow 0}\frac{a.cos(ax)+b.cos(bx)-2c.cos(cx)}{a.cos(ax)+2b.cos(bx)-3c.cos(cx)}=lt_{x\rightarrow 0}\frac{a+b-2c}{a+2b-3c}\) 
+Assume now that
+a + b + 2c = 0 and a + 2b – 3c = 0
+We must have
+a = c = b but given a ≠ c ≠ b
+ Thus, our assumption is false and a finite limit exists after first round of differentiation.
+Hence, 2 is the right answer.
+6. Find \(lt_{p\rightarrow\infty}\frac{p^5.p!}{5.6…(5+p)}\) 
+a) 4!
+b) 5!
+c) 0
+d) ∞
+a
+\(=lt_{p\rightarrow\infty}\frac{4!.p^5.p!}{(p+5)!}\) 
+\(=lt_{p\rightarrow\infty}\frac{4!.p^5}{(p+5)(p+4)(p+3)(p+2)(p+1)}\) 
+\(=lt_{p\rightarrow\infty}(4!)\times\frac{p^5}{(p+5)(p+4)(p+3)(p+2)(p+1)}=4!\times(1)\) 
+= 4!
+7. Find \(=lt_{x\rightarrow 0}\frac{sin(x)}{tan(x)}\) 
+a) 0
+b) 1
+c) ∞
+d) 2
+b
+\(=\frac{lt_{x\rightarrow 0}\frac{sin(x)}{x}}{lt_{x\rightarrow 0}\frac{tan(x)}{x}}\) 
+=1/1=1
+8. Find \(lt_{x\rightarrow 1012345}(\frac{[sinh(x)]^2-[cosh(x)]^2}{[sinh(x)]^2+[cosh(x)]^2})\) 
+a) 1⁄cosh(1012345)
+b) 90987
+c) 1012345
+d) ∞
+a
+\(=lt_{x\rightarrow 1012345}\frac{1}{\frac{(e^{2x}+e^{-2x})}{2}}=\frac{1}{cosh(1012345)}\) 
+9. Let  f on (f(x)) denote the composition of  f(x) with itself n number of times then the value of   ltn → ∞  f on (sin(x)) =
+a) -1
+b) 2
+c) ∞
+d) 0
+d
+10. Find \(lt_{x\rightarrow 0}\frac{sin(x^2)}{x}\) 
+a) ∞
+b) -1
+c) 0
+d) 22
+c
+\(=lt_{x\rightarrow 0}(\frac{1}{x})\times(\frac{x^2}{1!}-\frac{x^6}{3!}+..\infty)\) 
+\(=lt_{x\rightarrow 0}\times(\frac{x}{1!}-\frac{x^5}{3!}+..\infty)\) 
+=0
+11. Find \(lt_{x\rightarrow -33}\frac{ln(x^3+68x^2+1222x+2179)-ln(x+1)}{(x^2+66x+1089)}\) 
+a) -33
+b) 1⁄2
+c) 0
+d) 31⁄32
+d
+\(=lt_{x\rightarrow -33}(\frac{1}{(x+33)^2})\times(\frac{(x+33)^2(x+2)}{(x+1)}-\frac{(x+33)^4(x+2)^2}{2(x+1)^2}….\infty)\) 
+\(=lt_{x\rightarrow -33}(\frac{(x+2)}{(x+1)}-\frac{(x+33)^2(x+2)^2}{2(x+1)^2}….\infty)\) 
+\(=lt_{x\rightarrow -33}(\frac{(x+2)}{(x+1)})=\frac{(-33+2)}{(-33+1)}\) 
+12. Find \(lt_{p\rightarrow\infty}\frac{p^{\frac{1}{2}}.p!}{\frac{1}{2}.\frac{3}{2}…(p+\frac{1}{2})}\) 
+a)  √π
+b) ∞
+c) √π⁄2
+d) 0
+c
+\(\tau(x)=lt_{p\rightarrow\infty}\frac{p^x.p!}{x.(x+1)…(x+p)}\) 
+Where τ(x) is the Gamma function Using formula
+\(\tau(x) \times \tau(1-x)=\frac{\pi.x}{sin(\pi.x)}\) 
+put x=1/2 to get
+\((\tau(\frac{1}{2}))^2=\frac{\pi}{2.sin(\frac{\pi}{2})}=\frac{\pi}{2}\) 
+\(\tau(\frac{1}{2})=\sqrt{\frac{\pi}{2}}\)
+13. Find \(lt_{n\rightarrow\infty}(1+\frac{1}{n})^n\) 
+a) e
+b) e – 1
+c) 0
+d) ∞
+a
+\(lt_{n\rightarrow\infty}\frac{n}{n}\) = 1
+= e
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Indeterminate Forms – 1» Next - Engineering Mathematics Questions and Answers – Indeterminate Forms – 3 

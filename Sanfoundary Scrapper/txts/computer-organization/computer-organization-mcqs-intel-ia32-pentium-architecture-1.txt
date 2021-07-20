@@ -1,0 +1,91 @@
+1. The address space of the IA-32 is __________
+a) 216
+b) 232
+c) 264
+d) 28
+b
+2. The addressing method used in IA-32 is ____________
+a) Little Endian
+b) Big Endian
+c) X-Little Endian
+d) Both Little and Big Endian
+a
+3. The floating point numbers are stored in general purpose register in IA-32.
+a) True
+b) False
+b
+4. The Floating point registers of IA-32 can operate on operands up to ___________
+a) 128 bit
+b) 256 bit
+c) 80 bit
+d) 64 bit
+d
+5. The size of the floating registers can be extended upto _________
+a) 128 bit
+b) 256 bit
+c) 80 bit
+d) 64 bit
+c
+Join [email protected]
+6. The IA-32 architecture associates different parts of memory called __________ with different usages.
+a) Frames
+b) Pages
+c) Tables
+d) Segments
+d
+7. The PC is incorporated with the help of general purpose registers.
+a) True
+b) False
+b
+8. IOPL stands for ________
+a) Input/Output Privilege level
+b) Input Output Process Link
+c) Internal Output Process Link
+d) Internal Offset Privilege Level
+a
+9. In IA-32 architecture along with the general flags, the other conditional flags provided are ___________
+a) IOPL
+b) IF
+c) TF
+d) All of the mentioned
+d
+10. The register used to serve as PC is called as ___________
+a) Indirection register
+b) Instruction pointer
+c) R-32
+d) None of the mentioned
+b
+11. The IA-32 processor can switch between 16 bit operation and 32 bit operation with the help of instruction prefix bit.
+a) True
+b) False
+a
+12. The Bit extension of the register is denoted with the help of __________ symbol.
+a) $
+b) `
+c) E
+d) ~
+c
+13. The instruction, ADD R1, R2, R3 is decoded as ___________
+a) R1<-[R1]+[R2]+[R3] 
+b) R3<-[R1]+[R2] 
+c) R3<-[R1]+[R2]+[R3] 
+d) R1<-[R2]+[R3] 
+d
+14. The instruction JG loop does ______
+a) jumps to the memory location loop if the result of the most recent arithmetic op is even
+b) jumps to the memory location loop if the result of the most recent arithmetic op is greater than 0
+c) jumps to the memory location loop if the test condition is satisfied with the value of loop
+d) none of the mentioned
+b
+15. The LEA mnemonic is used to __________
+a) Load the effective address of an instruction
+b) Load the values of operands onto an accumulator
+c) Declare the values as global constants
+d) Store the outcome of the operation at a memory location
+a
+Sanfoundry Global Education & Learning Series – Computer Organization and Architecture.
+To practice all areas of Computer Organization and Architecture, here is complete set on 1000+ Multiple Choice Questions and Answers on Computer Organization and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Organization Questions and Answers – ARM Architecture – 2» Next - Computer Organization Questions and Answers – Intel IA-32 Pentium Architecture-2 

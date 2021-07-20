@@ -1,0 +1,80 @@
+1. Which of the following is the difference equation of the FIR filter of length M, input x(n) and output y(n)?
+a) y(n)=\(\sum_{k=0}^{M+1} b_k x(n+k)\) 
+b) y(n)=\(\sum_{k=0}^{M+1} b_k x(n-k)\) 
+c) y(n)=\(\sum_{k=0}^{M-1} b_k x(n-k)\) 
+d) None of the mentioned
+c
+y(n)=\(\sum_{k=0}^{M-1} b_k x(n-k)\) 
+where {bk} is the set of filter coefficients.
+2. The lower and upper limits on the convolution sum reflect the causality and finite duration characteristics of the filter.
+a) True
+b) False
+a
+3. Which of the following condition should the unit sample response of a FIR filter satisfy to have a linear phase?
+a) h(M-1-n) n=0,1,2…M-1
+b) &pm;h(M-1-n) n=0,1,2…M-1
+c) -h(M-1-n) n=0,1,2…M-1
+d) None of the mentioned
+b
+h(n)= &pm;h(M-1-n) n=0,1,2…M-1.
+4. If H(z) is the z-transform of the impulse response of an FIR filter, then which of the following relation is true?
+a) zM+1.H(z-1)=&pm;H(z)
+b) z-(M+1).H(z-1)=&pm;H(z)
+c) z(M-1).H(z-1)=&pm;H(z)
+d) z-(M-1).H(z-1)=&pm;H(z)
+d
+When we incorporate the symmetric and anti-symmetric conditions of the second equation into the first equation and by substituting z-1 for z, and multiply both sides of the resulting equation by z-(M-1) we get z-(M-1).H(z-1)=&pm;H(z)
+5. The roots of the polynomial H(z) are identical to the roots of the polynomial H(z-1).
+a) True
+b) False
+a
+6. The roots of the equation H(z) must occur in ________________
+a) Identical
+b) Zero
+c) Reciprocal pairs
+d) Conjugate pairs
+c
+7. If the unit sample response h(n) of the filter is real, complex valued roots need not occur in complex conjugate pairs.
+a) True
+b) False
+b
+8. What is the value of h(M-1/2) if the unit sample response is anti-symmetric?
+a) 0
+b) 1
+c) -1
+d) None of the mentioned
+a
+9. What is the number of filter coefficients that specify the frequency response for h(n) symmetric?
+a) (M-1)/2 when M is odd and M/2 when M is even
+b) (M-1)/2 when M is even and M/2 when M is odd
+c) (M+1)/2 when M is even and M/2 when M is odd
+d) (M+1)/2 when M is odd and M/2 when M is even
+d
+10. What is the number of filter coefficients that specify the frequency response for h(n) anti-symmetric?
+a) (M-1)/2 when M is even and M/2 when M is odd
+b) (M-1)/2 when M is odd and M/2 when M is even
+c) (M+1)/2 when M is even and M/2 when M is odd
+d) (M+1)/2 when M is odd and M/2 when M is even
+b
+11. Which of the following is not suitable either as low pass or a high pass filter?
+a) h(n) symmetric and M odd
+b) h(n) symmetric and M even
+c) h(n) anti-symmetric and M odd
+d) h(n) anti-symmetric and M even
+c
+12. The anti-symmetric condition with M even is not used in the design of which of the following linear-phase FIR filter?
+a) Low pass
+b) High pass
+c) Band pass
+d) Bans stop
+a
+13. The anti-symmetric condition is not used in the design of low pass linear phase FIR filter.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – General Considerations for Design of Digital Filters» Next - Digital Signal Processing Questions and Answers – Design of Linear Phase FIR Filters Using Windows – 1 

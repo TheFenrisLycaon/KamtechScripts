@@ -1,0 +1,81 @@
+1. What will be the x – component of velocity for a slender body which is immersed in uniform flow having perturbations?
+a) Vx = V∞ + u‘
+b) Vx = V∞ + v‘
+c) Vx = V∞ + w‘
+d) Vx = V∞
+a
+Vx = V∞ + u‘
+Vy = v‘
+Vz = w‘
+2. What is the velocity potential for a slender body in uniform flow with perturbations?
+a) Φ(x, y, z) = V∞ x + ϕ(x, y, z)
+b) Φ(x, y, z) = V∞ z + ϕ(x, y, z)
+c) Φ(x, y, z) = V∞ y + ϕ(x, y, z)
+d) ∇Φ = u‘i + v‘j + (V∞ + w‘)k
+a
+Perturbation velocity potential is related to the perturbations in x, y, z components as follows:
+\(\frac {∂ϕ}{∂x}\) = u‘, \(\frac {∂ϕ}{∂y}\) = v‘, \(\frac {∂ϕ}{∂z}\) = w‘
+Substituting this in the equation V = ∇Φ = (V∞ + u‘)i + v‘j + w‘k we get,
+Φ(x, y, z) = V∞ x + ϕ(x, y, z)
+3. In which equation is total velocity and it double derivative substituted to obtain the perturbation velocity potential equation?
+a) Momentum equation
+b) Velocity potential equation
+c) Perturbation equation
+d) Enthalpy equation
+b
+(1 – \(\frac {Φ_x^2}{a^2}\)) Φxx + (1 – \(\frac {Φ_y^2}{a^2}\)) Φyy + (1 – \(\frac {Φ_z^2}{a^2}\)) Φzz – (\(\frac {2Φ_x Φ_y}{a^2}\)) Φxy – (\(\frac {2Φ_x Φ_z}{a^2}\)) Φxz – (\(\frac {2Φ_y Φ_z}{a^2}\)) Φyz
+The total velocity potential is related to the perturbation velocity potential by:
+Φx = V∞ + Φx, Φy = ϕy, Φz = ϕz
+And its double derivative is given by
+Φxx = ϕxx, Φyy = ϕyy, Φzz = ϕzz
+Substituting these values in the velocity potential equation and multiplying it with a2 we get
+(a2 – (V∞ + ϕx)2)ϕxx + (a2 – ϕy2) ϕyy + (a2 – ϕz2) ϕzz – (2(V∞ + ϕx)ϕy)ϕxy – (2(V∞ + ϕx)ϕz)ϕxz – (2ϕyϕz) ϕyz
+The above equation is known as the perturbation velocity potential equation which is a non linear equation.
+4. Linearized perturbation velocity potential equation is applicable for transonic flow.
+a) True
+b) False
+b
+5. Which of these assumptions are not made while obtaining the linearized perturbation velocity potential equation?
+a) Small perturbations are there
+b) Transonic flow is excluded
+c) Hypersonic flow is excluded
+d) Subsonic flow is excluded
+d
+6. Linearized velocity potential equation is applicable to hypersonic flow.
+a) True
+b) False
+b
+7. Which of these assumptions is invalid for the linearized velocity potential equation?
+a) \(\frac {u^{‘}}{V_∞}\) << 1
+b) \(\frac {v^{‘}}{V_∞}\) << 1
+c) \(\frac {w^{‘}}{V_∞}\) >> 1
+d) \(\frac {w^{‘}}{V_∞}\) << 1
+c
+(a2 – (V∞ + ϕx)2) ϕxx + (a2 – ϕy2) ϕyy + (a2 – ϕz2) ϕzz – (2(V∞ + ϕx) ϕy) ϕxy – (2(V∞ + ϕx) ϕz) ϕxz – (2ϕy ϕz) ϕyz
+This relation is non – linear in nature and in order to reduce to the linear form, an assumption is made i.e. the perturbations in uniform flow is very small. This results in u‘, v‘, w‘ << V∞.
+8. Which of these is linearized velocity potential equation?
+a) (1 – M\(_∞^2\))ϕxx + ϕyy + ϕzz = 0
+b) ϕxx + (1 – M\(_∞^2\))ϕyy + ϕzz = 0
+c) ϕxx + ϕyy + (1 – M\(_∞^2\))ϕzz = 0
+d) (1 – M\(_∞^2\))[ϕxx + ϕyy + ϕzz] = 0
+a
+(1 – M\(_∞^2\))ϕxx + ϕyy + ϕzz = 0
+Where, ϕxx = \(\frac {∂^2 ϕ}{∂x^2}\), ϕyy = \(\frac {∂^2 ϕ}{∂y^2}\), ϕzz = \(\frac {∂^2 ϕ}{∂z^2}\) 
+9. Which equation is satisfied when the Mach number approaches to zero in linearized velocity potential equation?
+a) Laplace equation
+b) Momentum equation
+c) Energy equation
+d) Euler’s equation
+a
+10. What happens to the linearized velocity potential equation for flow over high thickness – chord ratio?
+a) Becomes zero
+b) Becomes 1
+c) Is invalid
+d) Becomes infinity
+c
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – The Velocity Potential Equation» Next - Aerodynamics Questions and Answers – Linearized Pressure Coefficient 

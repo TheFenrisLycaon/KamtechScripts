@@ -1,0 +1,64 @@
+1. Which of the following is not a class of java.util.regex?
+a) Pattern class
+b) matcher class
+c) PatternSyntaxException
+d) Regex class
+d
+2. What is the significance of Matcher class for regular expression in java?
+a) interpretes pattern in the string
+b) Performs match in the string
+c) interpreted both pattern and performs match operations in the string
+d) None of the mentioned.
+c
+3. Object of which class is used to compile regular expression?
+a) Pattern class
+b) Matcher class
+c) PatternSyntaxException
+d) None of the mentioned
+a
+4. Which capturing group can represent the entire expression?
+a) group *
+b) group 0
+c) group * or group 0
+d) None of the mentioned
+b
+5. groupCount reports a total number of Capturing groups.
+a) True
+b) False
+a
+6. Which of the following matches nonword character using regular expression in java?
+a) \w
+b) \W
+c) \s
+d) \S
+b
+7. Which of the following matches end of the string using regular expression in java?
+a) \z
+b) \\
+c) \*
+d) \Z
+a
+8. What does public int end(int group) return?
+a) offset from last character of the subsequent group
+b) offset from first character of the subsequent group
+c) offset from last character matched
+d) offset from first character matched
+a
+9. what does public String replaceAll(string replace) do?
+a) Replace all characters that matches pattern with a replacement string
+b) Replace first subsequence that matches pattern with a replacement string
+c) Replace all other than first subsequence of that matches pattern with a replacement string
+d) Replace every subsequence of the input sequence that matches pattern with a replacement string
+d
+10. What does public int start() return?
+a) returns start index of the input string
+b) returns start index of the current match
+c) returns start index of the previous match
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Text Formatting» Next - Java Questions & Answers – Event Handling Basics 

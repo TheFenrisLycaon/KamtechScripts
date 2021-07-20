@@ -1,0 +1,102 @@
+1. The largest standard deviation of the sample mean from the target, not leading to an immediate out-of-control signal, is called _______________ of a control chart.
+a) ARL
+b) UCL
+c) Signal resolution
+d) Signal resistance
+d
+2. For a Shewhart control chart, what is the value of SR?
+a) Zα/2
+b) 2
+c) L
+d) 2L
+c
+SR(x)=L
+Where L is the multiplier used to obtain the control limits.
+3. Which of these is a having a constant SR?
+a) A x chart
+b) A Cusum chart
+c) An EWMA chart
+d) Every control chart
+a
+4. Which of these is not having a constant SR value?
+a) c-chart
+b) R-chart
+c) p-chart
+d) EWMA chart
+d
+5. What is the value of SR for an EWMA chart?
+a) SR(EWMA)=\(\frac{L\sqrt{\frac{λ}{2-λ}}+(λ-1)w}{λ}\) 
+b) SR(EWMA)=\(\frac{L\sqrt{\frac{λ}{2-λ}}-(1-λ)w}{λ}\) 
+c) SR(EWMA)=\(\frac{L\sqrt{\frac{λ}{2-λ}}-(λ-1)w}{λ}\) 
+d) SR(EWMA)=\(\frac{L\sqrt{\frac{λ}{2-λ}}+(1-λ)w}{λ}\) 
+b
+SR(EWMA)=\(\frac{L\sqrt{\frac{λ}{2-λ}}-(1-λ)w}{λ}\)
+6. What is the value of the term “w” called in the SR value of a EWMA chart?
+a) First EWMA value
+b) Last EWMA value
+c) Value of EWMA statistic
+d) Weight average
+c
+SR(EWMA)=\(\frac{L\sqrt{\frac{λ}{2-λ}}-(1-λ)w}{λ}\) 
+Here, w is called the value of EWMA statistic.
+7. Which of these is the maximum value of the SR averaged over all values of EWMA statistic?
+a) \(SR_{max} (EWMA)=L \frac{(2-λ)}{λ}\) 
+b) \(SR_{max}(EWMA)=L\sqrt{\frac{(2-λ)}{λ}}\) 
+c) \(SR_{max} (EWMA)=L+\sqrt{\frac{(2-λ)}{λ}}\) 
+d) \(SR_{max} (EWMA)=L-\sqrt{\frac{(2-λ)}{λ}}\) 
+b
+\(SR_{max}(EWMA)=L\sqrt{\frac{(2-λ)}{λ}}\)
+8. Small values of λ gives ______ values of the SR (EWMA).
+a) Larger
+b) Lower
+c) Equal
+d) Both, larger and smaller
+a
+SR(EWMA)=\(\frac{L\sqrt{\frac{λ}{2-λ}}-(1-λ)w}{λ}\) 
+We get the inference that, SR(EWMA)∝1/λ, so SR(EWMA) will be larger for smaller values of λ.
+9. Which of these methods can be used to counteract the signal resistance in case of small values of λ with EWMA charts?
+a) To use a cusum chart paralleled
+b) To use a Shewhart control chart paralleled
+c) To just wait for EWMA chart to be plotted till 50 observations
+d) To increase the value of process mean target
+b
+10. Who were the first persons to recommend the use of Shewhart control charts with the EWMA charts with low values of λ?
+a) Woodall and Mahmoud
+b) Woodall and Roberts
+c) Roberts and Mahmoud
+d) Roberts and Crowder
+a
+11. Which of these is not an advantage of using a Shewhart control chart with the EWMA chart?
+a) Detection of larger process shifts
+b) ARL adjustment
+c) Counteraction to the high signal resistance value
+d) No defects
+d
+12. Which of these is not an advantage of low value of λ in the case of EWMA charts?
+a) Good ARL performance
+b) Insensitivity to the normality of the data
+c) Good ability to detect the larger process shifts
+d) Easy detection of small process shifts
+d
+13. In the case of Shewhart charts, if the data is not according to the normal distribution, the actual in-control ARL (ARL0) will be ____________ the expected value.
+a) Considerably higher than
+b) Considerably lower than
+c) Equal to
+d) Almost equal to
+b
+14. The signal resistance value depends on the value chosen for λ.
+a) True
+b) False
+a
+SR(EWMA)=\(\frac{L\sqrt{\frac{λ}{2-λ}}-(1-λ)w}{λ}\) 
+Here the value of L and w are constants. So the value of SR (EWMA) depends only on the value of the λ.
+15. The EWMA charts are recommended for phase II applications as it is totally a nonparametric procedure.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice Tricky questions and answers on all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Time-Weighted – EWMA Control Chart – 2» Next - Statistical Quality Control Questions and Answers – Time-Weighted – EWMA Control Chart – 4 

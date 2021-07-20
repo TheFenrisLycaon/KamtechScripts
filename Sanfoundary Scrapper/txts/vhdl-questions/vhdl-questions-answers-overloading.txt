@@ -1,0 +1,84 @@
+1. What is the meaning of overloading?
+a) To use single function many times
+b) To use same object for different subprograms
+c) To use same name for different objects
+d) To use single function many time with single call
+c
+2. Overloading a subprogram allows subprogram to ________
+a) Operate on objects of different types
+b) Operate on objects of same name
+c) Operate on objects of different name
+d) Operate on objects of same types
+a
+3. Using overloaded subprograms and operators increase readability of code.
+a) True
+b) False
+a
+4. What is the necessary condition to overload parameters type of a subprogram?
+a) The base type of two parameters must be same
+b) The parameters must have a different name
+c) The parameters can’t be of integer type
+d) The base type of two parameters must differ
+d
+5. By overloading + operator, it is possible to _________
+a) Use binary addition
+b) Use arithmetic addition
+c) Use it as subtract operator
+d) Use it as ternary operator
+a
+6. Which of the following is true about the overloading of ‘+’ and ‘-‘ operators?
+a) They can be defined as binary operators only
+b) They can be defined as unary operators only
+c) They can be defined as ternary operators only
+d) They can be defined as either binary or unary operators
+d
+7. Apart from subprogram and operator overloading, which of the following can be overloaded in VHDL?
+a) Attributes
+b) Types
+c) IF statement
+d) CASE statement
+b
+8. Which of the following function definition will return an error?
+SUBTYPE log4 IS BIT_VECTOR (0 TO 3)
+SUBTYPE log8 IS BIT_VECTOR (0 TO 7)
+FUNCTION abc (a : log4) RETURN INTEGER;
+FUNCTION abc (a : log8) RETURN INTEGER;
+a) Only first call
+b) Only second call
+c) Both first and second call
+d) No error
+b
+9. A user wants to perform a different operation on an array type and the function can be overloaded but the parameter is of same base type. How to do the same by using a single function?
+a) By using conditional statement with ‘LENGTH attribute
+b) By using loop statement with ‘LENGTH attribute
+c) By using unconstrained array in parameters
+d) It can’t be done by using single function
+a
+IF(parameter’LENGTH =n) THEN 
+do_this;
+ELSE do_this
+ 
+10. In the two functions defined below, which would generate an error?
+FUNCTION abc ( a, b: std_logic) RETURNS BOOLEAN;
+FUNCTION abc( a, b, c: std_logic) RETURNS BOOLEAN;
+a) Only function 1
+b) Only function 2
+c) Both functions 1 and 2
+d) No error
+d
+11. It is possible to define a new operator ++ in VHDL.
+a) True
+b) False
+b
+12. What is the correct syntax to define a function which overloads any operator, say + operator for bit_vector type?
+a) FUNCTION + (L : bit_vector, R : bit_vector) RETURN bit_vector IS
+b) FUNCTION ‘+’ (L : bit_vector, R : bit_vector) RETURN bit_vector IS
+c) FUNCTION “+” (L : bit_vector, R : bit_vector) RETURN bit_vector IS
+d) FUNCTION (+) (L : bit_vector, R : bit_vector) RETURN bit_vector IS
+c
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Configurations» Next - VHDL Questions and Answers – Aliases and Qualified Expressions 

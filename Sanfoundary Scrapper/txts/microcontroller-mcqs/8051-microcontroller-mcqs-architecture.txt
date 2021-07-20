@@ -1,0 +1,68 @@
+1. 8051 microcontrollers are manufactured by which of the following companies?
+a) Atmel
+b) Philips
+c) Intel
+d) All of the mentioned
+d
+2. AT89C2051 has RAM of:
+a) 128 bytes
+b) 256 bytes
+c) 64 bytes
+d) 512 bytes
+a
+3. 8051 series has how many 16 bit registers?
+a) 2
+b) 3
+c) 1
+d) 0
+a
+4. When 8051 wakes up then 0x00 is loaded to which register?
+a) PSW
+b) SP
+c) PC
+d) None of the mentioned
+c
+5. When the microcontroller executes some arithmetic operations, then the flag bits of which register are affected?
+a) PSW
+b) SP
+c) DPTR
+d) PC
+a
+6. How are the status of the carry, auxiliary carry and parity flag affected if the write instruction
+MOV A,#9C
+ADD A,#64H
+a) CY=0,AC=0,P=0
+b) CY=1,AC=1,P=0
+c) CY=0,AC=1,P=0
+d) CY=1,AC=1,P=1
+b
+7. How are the bits of the register PSW affected if we select Bank2 of 8051?
+a) PSW.5=0 and PSW.4=1
+b) PSW.2=0 and PSW.3=1
+c) PSW.3=1 and PSW.4=1
+d) PSW.3=0 and PSW.4=1
+d
+8. If we push data onto the stack then the stack pointer
+a) increases with every push
+b) decreases with every push
+c) increases & decreases with every push
+d) none of the mentioned
+a
+9. On power up, the 8051 uses which RAM locations for register R0- R7
+a) 00-2F
+b) 00-07
+c) 00-7F
+d) 00-0F
+b
+10. How many bytes of bit addressable memory is present in 8051 based microcontrollers?
+a) 8 bytes
+b) 32 bytes
+c) 16 bytes
+d) 128 bytes
+c
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microcontroller Questions and Answers – Von Neumann and Harward Architectures» Next - 8051 Microcontroller Questions and Answers – Jump, Loop and Call Instructions 

@@ -1,0 +1,106 @@
+1. What of these can be used as a reasonable model for measurement system capability studies? Here y,x and ε denote the observed measurement, true measurement, and the measurement error respectively.
+a) y=x-2ε
+b) y=x+ε
+c) y=x-ε
+d) y=x+2ε
+b
+y=x+ε
+2. The variance of the total observed measurement is expressed by __________
+a) \(\sigma_{Total}^2=\sigma_P^2-\sigma_{Gauge}^2\) 
+b) \(\sigma_{Total}^2=\sigma_P+\sigma_{Gauge}^2\) 
+c) \(\sigma_{Total}^2=\sigma_P^2+\sigma_{Gauge}\) 
+d) \(\sigma_{Total}^2=\sigma_P^2+\sigma_{Gauge}^2\) 
+d
+\(\sigma_{Total}^2=\sigma_P^2+\sigma_{Gauge}^2\)
+3. The P/T ratio stands for ___________
+a) Probability to tolerance ratio
+b) Precision to time ratio
+c) Probability to total ratio
+d) Precision to tolerance ratio
+d
+4. What is the value of the P/T ratio?
+a) \(\frac{P}{T}=\frac{1.5k\hat{σ_p}}{USL-LSL}\) 
+b) \(\frac{P}{T}=\frac{k\hat{σ}_{gauge}}{USL-LSL}\) 
+c) \(\frac{P}{T}=\frac{2k\hat{σ_p}}{USL+LSL}\) 
+d) \(\frac{P}{T}=\frac{k\hat{σ}_{gauge}}{USL+LSL}\) 
+b
+\(\frac{P}{T}=\frac{k\hat{σ}_{gauge}}{USL-LSL}\)
+5. If the number of standard deviations between the usual natural tolerance limits of a normal distribution, what is the value used for k in the P/T ratio?
+a) 5.15
+b) 8
+c) 6
+d) 5.60
+c
+Join Sanfoundry@YouTube
+6. For a process, which has, USL and LSL equal to 60, and 5 respectively, and the value of \(\hat{σ}_{gauge}\) = 0.887, what will be the value of P/T ratio when k=6?
+a) 0.087
+b) 0.077
+c) 0.067
+d) 0.097
+d
+\(\frac{P}{T}=\frac{k\hat{σ}_{gauge}}{USL-LSL}\) 
+Putting the values in the question, we get P/T=0.097.
+7. Which of these indicate an adequate measurement system?
+a) \(\frac{P}{T}≤0.1\) 
+b) \(\frac{P}{T}≤0.5\) 
+c) \(\frac{P}{T}≥0.1\) 
+d) \(\frac{P}{T}=0.3\) 
+a
+8. The options are the P/T ratios for different measurement systems. Which of these shows an adequate measurement system?
+a) 0.21
+b) 0.13
+c) 0.18
+d) 0.06
+d
+9. The cause of calling a measurement system adequate because it has P/T ratio lesser than 0.1, is ____________
+a) A measurement device should be calibrated in units one-tenth large as the accuracy required in final measurement
+b) A measurement device should be calibrated in units one-third large as the accuracy required in final measurement
+c) A measurement device should be calibrated in units one-fourth large as the accuracy required in final measurement
+d) A measurement device should be calibrated in units three-tenth large as the accuracy required in final measurement
+a
+10. Which of these can be used as the estimate of standard deviation of total variability which is including both product variability, and the gauge variability?
+a) The sample mean
+b) The sample variance
+c) The sample standard deviation
+d) No of defects in the sample
+b
+11. If the sample variance of a process is, 10.05, and the gauge capability standard deviation is estimated to be 0.79. What will be the value of the estimate of the standard deviation of the product variability?
+a) 9.26
+b) 3.04
+c) 2.03
+d) 8.91
+b
+\(\sigma_{Total}^2=\sigma_P^2+\sigma_{Gauge}^2\) 
+If the estimates are to be used, the same equation can be written for the corresponding estimate values. Putting the values as mentioned, we get, \(\hat{\sigma}_p^2\)=3.04.
+12. Which of these show a correct expression for the ρp?
+a) \(ρ_p=\frac{\sigma_p^2}{2σ_{Gauge}^2}\) 
+b) \(ρ_p=\frac{\sigma_{gauge}^2}{σ_{Total}^2}\) 
+c) \(ρ_p=\frac{\sigma_P^2}{σ_{Gauge}^2}\) 
+d) \(ρ_p=\frac{\sigma_{gauge}^2}{2σ_{total}^2}\) 
+c
+\(ρ_p=\frac{\sigma_P^2}{σ_{Gauge}^2}\)
+ 
+13. The gauge capability ratio ρM is expressed as ____________
+a) \(ρ_p=\frac{\sigma_p^2}{2σ_{Gauge}^2}\) 
+b) \(ρ_p=\frac{\sigma_{gauge}^2}{σ_{Total}^2}\) 
+c) \(ρ_p=\frac{\sigma_P^2}{σ_{Gauge}^2}\) 
+d) \(ρ_p=\frac{\sigma_{gauge}^2}{2σ_{total}^2}\) 
+b
+\(ρ_p=\frac{\sigma_{gauge}^2}{σ_{Total}^2}\)
+14. The general rule, that is used to define a measurement system adequate by using P/T ratio equal to or less than 0.1, can be used without caution.
+a) True
+b) False
+b
+15. ρP=1-ρM.
+a) True
+b) False
+a
+\(ρ_p=\frac{\sigma_{gauge}^2}{σ_{Total}^2}; ρ_p=\frac{\sigma_P^2}{σ_{Gauge}^2}; σ_{Total}^2=σ_P^2+σ_{Gauge}^2\) 
+Combining all three equations, we get,
+ρP=1-ρM.
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice basic questions and answers on all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Gauge and Measurement System Capability Studies – 1» Next - Statistical Quality Control Questions and Answers – Gauge and Measurement System Capability Studies – 3 

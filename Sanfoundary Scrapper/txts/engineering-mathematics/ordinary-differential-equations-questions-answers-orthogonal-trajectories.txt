@@ -1,0 +1,58 @@
+1. Find the orthogonal trajectories of the family of parabolas y2=4ax.
+a) 2x2+y2=k
+b) 2y2+x2=k
+c) x2-2y2=k
+d) 2x2-y2=k
+a
+\(2xy \frac{dy}{dx} -y = 0\)…..DE of the family of curve y2=4ax replacing \(\frac{dy}{dx}\)  by \(-\frac{dx}{dy}\) 
+since \(\frac{dy}{dx}\)  is the slope of the tangent to the curve –> \(-\frac{dx}{dy}\) is the slope of orthogonal line we get \(2x(-\frac{dx}{dy}) – y = 0 \, or\, 2x \,dx + y \,dy = 0 \rightarrow \int2x \,dx + \int y \,dy = c \rightarrow x^2 + \frac{y^2}{2} = c.\)
+or 2x2+y2=k is the required orthogonal trajectory.
+2. Find the orthogonal trajectories of the family of curves \(\frac{x^2}{a^2} + \frac{y^2}{b^2+k} = 1\) where k is the parameter.
+a)  x2-y2-3a2  log⁡x-k = 0
+b)  x2+2y2–\(\frac{a^2}{2}\)  log⁡x-k = 0
+c)  x2+y2-2a2  log⁡x-k = 0
+d)  2x2-y2–\(\frac{a^2}{3}\)  log⁡x-k = 0
+c
+ i.e \(\frac{x^2}{a^2} = \frac{-yy’}{b^2+k} …..(2) \,from\, (1)\, \frac{x^2}{a^2} – 1 = \frac{-y^2}{b^2+k} \rightarrow \frac{x^2-a^2}{a^2} = \frac{-y^2}{b^2+k}\)…..(3) divide (2)&(3)
+we get \(\frac{x}{x^2-a^2} = \frac{yy’}{y^2} \rightarrow \frac{x}{x^2-a^2} = \frac{y’}{y}\)  now \(y’=\frac{dy}{dx}\) is replaced by \(-\frac{dx}{dy} \,i.e\, \frac{x}{x^2-a^2} = \frac{1}{y}(-\frac{dx}{dy})\)
+separating the variable we get  \(y \,dy = -\frac{(x^2-a^2)}{x} dx\) integrating this equation
+\(\int y \,dy = \int-x \,dx + \int a^2 \frac{1}{x} \,dx + c \rightarrow \frac{y^2}{2} = \frac{-x^2}{2} + a^2  log⁡ \,x + c\) 
+–> x2+y2-2a2 log⁡x – 2c=0 or x2+y2-2a2 log⁡x-k=0 where k=2c is the  required orthogonal trajectory.
+3. The Orthogonal DE for family of  parabola y2=4a(x+a) is same as _______(where DE stands for Differential equation)
+a) DE of parabola y2=4a(x+a)
+b) DE of parabola y2=4ax
+c) DE of parabola x2=4ay
+d) DE of parabola x2=4a(y+a)
+a
+ substituting the ‘a’ in given equation i.e : \(y^2 = 2yy’(x + \frac{yy’}{2}), y=2xy’+yy’^2\)…(1)
+replacing y’ by \(\frac{-1}{y’} \,i.e\, y=2x\frac{-1}{y’} + y(\frac{-1}{y’})^2\) or on solving yy’2+2xy’=y…(2)
+comparing (2) & (1) we observe that DE of the orthogonal family is same as the DE of the given family of curves thus the family of parabola is self orthogonal.
+4. Find the orthogonal trajectories of the family r=a(1+sin θ).
+a) r=k(sin θ)
+b) r2=k(cos θ)2
+c) r=k(1-cos θ)
+d) r=k(1-sin θ)
+d
+w.r.t θ we have, \( \frac{1}{r} \frac{dr}{dθ} = \frac{cos⁡θ}{1+sin⁡θ}\) since given equation is polar slope of tangent is given by \( \frac{1}{r} \frac{dr}{dθ}\) and  perpendicular line has a slope of  \(-r\frac{dθ}{dr} \, replacing\,  \frac{1}{r}  \frac{dr}{dθ} \,by\, -r\frac{dθ}{dr}\) 
+we have \(-r\frac{dθ}{dr} = \frac{cos⁡θ}{1+sin⁡θ}\) …..separating the variables and integrating it
+\(\int \frac{dr}{r} + \int \frac{1+sin⁡θ}{cos⁡θ} \,dθ = c \rightarrow log r + \int sec⁡θ \,dθ + \int tan⁡θ \, dθ  = c\) 
+log r + log(sec⁡θ + tan⁡θ) + log(sec⁡θ) = c = log k
+\(\rightarrow log(r(sec⁡θ + tan⁡θ) (sec⁡θ)) = log k \rightarrow r\left(\frac{1}{cos⁡θ} + \frac{sin⁡θ}{cos⁡θ}\right)  \frac{1}{cos⁡θ} = k\) 
+\(\frac{r(1+sin⁡θ)}{cos^2 θ} = \frac{r(1+sin⁡θ)}{1-sin^2 θ} \rightarrow r = k(1-sin θ)\) is the required orthogonal trajectory.
+5. Which among the following is true for the curve rn = a sin⁡nθ?
+a) Given family of curve is Self orthogonal
+b) Orthogonal trajectory is rn=k cos⁡nθ  where k is an constant
+c) Orthogonal trajectory is rn=k cosec⁡nθ  where k is an constant
+d) Orthogonal trajectory is rn=k sin⁡nθ  where k is an constant
+b
+\( \frac{n}{r}  \frac{dr}{dθ} = \frac{n cos⁡nθ}{sin⁡nθ}  \,or\, \frac{1}{r}  \frac{dr}{dθ} = \frac{cos⁡nθ}{sin⁡nθ} = cot \,nθ\) 
+replacing \(\frac{1}{r}  \frac{dr}{dθ} \,by\, -r\frac{dθ}{dr} \,we\,\, get\, -r\frac{dθ}{dr} = cot \,nθ\) 
+separating the variables and integrating \(\int \frac{dr}{r} \int tan⁡\,nθ \,dθ = c \) 
+\( \rightarrow log \,r + \frac{log⁡(sec⁡nθ)}{n} = c\) or n log r + log⁡(sec nθ) = nc = log⁡k
+log(rn sec⁡nθ) = log k –> rn  sec⁡ nθ=k or rn=k cos⁡nθ ..(2) is the required orthogonal trajectory since (1)&(2) are not same the given family of curve is not self orthogonal.
+ Sanfoundry Global Education & Learning Series – Ordinary Differential Equations.
+To practice all areas of Ordinary Differential Equations, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ordinary Differential Equations Questions and Answers – Geometrical Applications» Next - Ordinary Differential Equations Questions and Answers – Law of Natural Growth and Decay 

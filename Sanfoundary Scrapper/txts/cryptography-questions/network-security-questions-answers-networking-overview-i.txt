@@ -1,0 +1,108 @@
+1. Number of Blocks in class C are –
+a) 27
+b) 28
+c) 214
+d) 29
+a
+2. A router receives a packet with the destination address 132.7.21.84. Find the network address of the packet.
+a) 1.32.7
+b) 132.7
+c) 13.27
+d) 21.84
+b
+Network address 	132.7
+Host address 	21.84
+3. If the first address is First address = 18.14.12.0/22. What is the last address?
+a) 18.14.15.128/22
+b) 18.14.15.64/22
+c) 18.14.15.32/22
+d) 18.14.15.255/22
+d
+The Last Address = 18.14.15.255/22.
+4. Nsub = n + log2(N/Nsub) is used to find the suffix length.
+a) True
+b) False
+b
+5. Convert the following binary notation to hexadecimal notation –
+10000000 00001011 00000011 00011111
+a) 0x 80 0B 03 1E
+b) 0x 81 0B 04 1E
+c) 0x 80 0C 03 1F
+d) 0x 80 0B 03 1F
+d
+6. The first address in a range of addresses is 14.11.45.96. If the number of addresses in the range is 32, what is the last address?
+a) 14.11.44.64
+b) 14.11.44.128
+c) 14.12.44.128
+d) 14.11.45.127
+d
+7. In an IP packet, the value of HLEN is 516 and the value of the total length field is 002816.What is the efficiency of this datagram?
+a) 80%
+b) 50%
+c) 66%
+d) 75%
+b
+Total number of bytes in the header = 5 x 4 = 20 bytes.
+Total length = 0028_16 = 40 bytes.
+Data carried by the packet = (40 – 20) = 20 bytes.
+Efficiency = payload length / total length = 20/40= 50%.
+8. A packet has arrived in which the offset value is 100, the value of HLEN is 5 and the value of the total length field is 100. What is the number of the last byte
+a) 880
+b) 879
+c) 881
+d) 801
+b
+Total data bytes = total length – header length = 80 bytes in this datagram.
+Last byte is therefore 879.
+9. Assume we need to download text documents at the rate of 100 pages per second. What is the required bit rate of the channel?
+a) 1.846 Mbps
+b) 1.536 Mbps
+c) 2.4 Mbps
+d) None of the Mentioned
+b
+Each line has 80 char.
+Each char required 8 bits
+100 x 24 x 80 x 8 = 1,536,000=1536 Mbps.
+10. Generate the CRC codeword for the data word 1101011011 using generator 10011. Also write both in the polynomial form.
+a) 11010110110011
+b) 11010110110110
+c) 11010110111100
+d) 11010110111110
+d
+11. A slotted ALOHA network transmits 200-bit frames using a shared channel with a 200-kbps bandwidth. Find the throughput if the system (all stations together) produces 1000 frames per second.
+a) 92 frames
+b) 368 frames
+c) 276 frames
+d) 151 frames
+b
+Throughput = 1000 ×   0.0368 = 368 frames.
+12. After performing bit stuffing on the following stream : 01101111111111111110010, the output is-
+a) 01101111101111101111100010
+b) 01101111111111111110010111
+c) 10010000000000000000001101
+d) 01101111111111111111110010
+a
+13. A device that helps prevent congestion and data collisions –
+a) Switch
+b) Hub
+c) Gateway
+d) Proxy Server
+a
+14. Which one of these does not lie in the Link Layer of the TCP/IP Model?
+a) DSL
+b) IP
+c) SONET
+d) 802.11
+b
+15. How many layers are present in the TCP/IP Reference model?
+a) 6
+b) 7
+c) 5
+d) 4
+d
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Security Questions and Answers – IEEE 802.11i WLAN Security – III» Next - Network Security Questions and Answers – Overview – II 

@@ -1,0 +1,70 @@
+1. The value of y’/x’ in terms of the angle 0 is given by _____________
+a) tanθ
+b) secθ
+c) cotθ
+d) cosecθ
+a
+2. The Newton Raphson method is also called as ____________
+a) Tangent method
+b) Secant method
+c) Chord method
+d) Diameter method
+a
+3. The equation f(x) is given as x2-4=0. Considering the initial approximation at x=6 then the value of x1 is given as ____________
+a) 10/3
+b) 4/3
+c) 7/3
+d) 13/3
+a
+x(1)=x(0)+\(\frac{f(x(0))}{f’x(x(0))}\).
+Hence x0=6 (initial guess), f(x0)=32 and f’(x0)=12.
+Substituting the values in the equation we get x1= 10/3.
+4. For decreasing the number of iterations in Newton Raphson method:
+a) The value of f’(x) must be increased
+b) The value of f’’(x) must be decreased
+c) The value of f’(x) must be decreased
+d) The value of f’’(x) must be increased
+a
+x(1)=x(0)+\(\frac{f(x(0))}{f’x(x(0))}\).
+Hence if f’(x) decreases the value of next iteration approaches the initial one. This decreases the number of iterations in finding out next iterative value.
+5. In Newton Raphson method f’(x) for a given point is given by the formula ____________
+a) y/x’
+b) y’/x
+c) y/x
+d) y’/x’
+d
+6. If f(x) = x2-117 = 0 then the iterative formula for Newton Raphson Method is given by ____________
+a) x(n+1)=0.25 [x(n)+\(\frac{166}{x(n)}\)] 
+b) x(n+1)=0.5 [x(n)+\(\frac{166}{x(n)}\)] 
+c) x(n+1)=0.5 [x(n)-\(\frac{166}{x(n)}\)] 
+d) x(n+1)=0.25 [x(n)-\(\frac{166}{x(n)}\)] 
+b
+Where N=117. Hence x(n+1)=0.5 [x(n)+\(\frac{117}{x(n)}\)]. 
+7. The points where the Newton Raphson method fails are called?
+a) floating
+b) continuous
+c) non-stationary
+d) stationary
+d
+8. The convergence of which of the following method depends on initial assumed value?
+a) False position
+b) Gauss Seidel method
+c) Newton Raphson method
+d) Euler method
+c
+x(1)=x(0)+\(\frac{f(x(0))}{f’x(x(0))}\). Hence it depends on the initial value x0.
+9. The equation f(x) is given as x3+4x+1=0. Considering the initial approximation at x=1 then the value of x1 is given as _______________
+a) 1.67
+b) 1.87
+c) 1.86
+d) 1.85
+c
+x(1)=x(0)+\(\frac{f(x(0))}{f’x(x(0))}\) 
+Hence x0=1 (initial guess), f(x0)=6 and f’(x0)= 7.
+Substituting the values in the equation we get x1=1.857 which is 1.86 rounded to 2 decimal places.
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Analysis, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Numerical Analysis Questions and Answers – Newton Raphson Method – 1» Next - Simultaneous Algebraic Equations Questions and Answers – Introduction to Determinants 

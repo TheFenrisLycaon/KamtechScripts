@@ -1,0 +1,106 @@
+1. What functions are a static variable visible to?
+a) Only Static Functions
+b) All Types of Functions
+c) Only Functions with a return type
+d) Only Non Static Functions
+a
+2. If a program has 4 functions then will all of them be able to access the data held by a global variable?
+a) Yes
+b) No
+a
+3. From which memory does the compiler revert to if a variable is declared volatile?
+a) RAM
+b) Storage Register
+c) ROM
+d) EEPROM
+a
+4. What would be the output of the program?
+int pin=11;
+void setup() {
+    pinMode(pin,OUTPUT);
+    int a=0;
+    Serial.begin(9600);
+}
+void loop() {
+    digitalWrite(pin,HIGH);
+    Serial.println(a);
+}
+a) 0
+b) null
+c) error
+d) 1
+b
+5. Which line in the code snippet is wrong?
+void setup() {
+    int a = 0;
+    const int b = 1;
+    b=a;
+}
+a) 2
+b) 3
+c) 4
+d) 1
+c
+6. What would be the wrong line in this program?
+void setup() {
+    int i;
+    for(i=0;i<10;i++) {
+        int a=10;
+        a=9;
+        break;
+    }
+    Serial.begin(9600);
+    Serial.println(a);
+}
+a) 1
+b) 3
+c) 7
+d) 9
+c
+7. Which of the sizes of data given below require us to shut off all interrupts while inputting them into a volatile variable?
+a) 1 bit
+b) 2 bit
+c) 2 bytes
+d) 0.5 bytes
+c
+8. What is the output of the code below?
+#include<stdio.h> 
+int function() 
+{ 
+    static int c = 0; 
+    c++; 
+    return c; 
+} 
+int main() 
+{ 
+    printf("%d  ", function()); 
+    printf("%d ",  function()); 
+    return 0; 
+}
+a) 1 2
+b) 1 1
+c) null
+d) 1 3
+a
+9. In which line is there an error in the code snippet given below?
+int x=10;
+const int b;
+x=b;
+b=x;
+a) 1
+b) 2
+c) 3
+d) 4
+d
+10. How many times can a variable declared ‘const’ be fed a value in any program?
+a) 1
+b) 26
+c) 30
+d) 0
+a
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Type Conversions» Next - Arduino Questions and Answers – Interrupt Service Routine 

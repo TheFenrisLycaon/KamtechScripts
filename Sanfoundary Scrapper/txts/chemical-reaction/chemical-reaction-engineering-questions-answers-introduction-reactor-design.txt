@@ -1,0 +1,54 @@
+1. Which of the following is NOT a part of reactor design?
+a) Size of the reactor
+b) Type of the reactor
+c) Flow rates of the reactant and product streams
+d) Method of operation
+c
+2. Choose the correct option.
+a) Batch reactors are used in laboratories for calorimetric titrations
+b) The steady state flow reactor is the most widely used because it needs little supporting equipment
+c) Batch reactors are ideal for fast reactions
+d) In the steel industry, semi batch reactors are used for large open hearth furnaces
+d
+3. For any type of reactor, the material balance equation is valid.
+[Rate of reactant flowing into element of volume] = [Rate of reactant flowing out of element of volume] + [Rate of reactant loss due to chemical reaction within the volume element] + [Rate of accumulation of reactant in the volume element] 
+Which of the following is false?
+a) Two terms disappear in case of a batch reactor
+b) Only three terms are non-trivial when we analyze a semi batch reactor
+c) One term becomes zero for a steady-state flow reactor
+d) There is no flow of reactants in a batch reactor
+b
+4. Consider the liquid reaction 3A + 2B → 4C
+What could be the outlet composition if CAo = 100 mol/L in a batch reactor and the feed is an equimolar mixture of A and B? Assume that 5 mol of C was already present in the reactor initially.
+a) XA = 0.2, CB = 86.66, Cc = 31.66
+b) XA = 0.4, CB = 76.66, Cc = 58.33
+c) XA = 0.6, CB = 60, Cc = 80
+d) XA = 0.8, CB = 43.33, Cc = 106.66
+a
+CB = CAo*(1 – 2*XA/3)
+Cc = CAo*(5/100 + 4*XA/3)
+5. Consider the gas reaction A + B → 3C
+Which of the following cannot be the outlet composition if FAo = 100 mol/s in a flow reactor with vo = 10 L/s and the feed is an equimolar mixture of A and B? Take the initial conditions as 1 atm, 273K and outlet condition as 2 atm, 300K.
+a) XA = 0.2, CB = 13.23, Cc = 5.45
+b) XA = 0.4, CB = 9.1, Cc = 18.2
+c) XA = 0.6, CB = 5.6, Cc = 25.19
+d) XA = 0.8, CB = 2.6, Cc = 31.19
+a
+CB = [FAo*(1 – XA)/(1 + 0.5*XA)]*[273/150*vo] 
+Cc = [FAo*(3*XA)/(1 + 0.5*XA)]*[273/150*vo] 
+6. Percy prepares vegetable curry (liquid) in a pressure cooker. If the raw potatoes are P, the raw tomatoes are T, the raw onions are O, and the cooked meal is M, then 2P + T + O → 3M may represent the cooking process. Sometime during the process, Manu opens the lid and checks the curry to find that the potatoes are half-cooked (take XP = 0.5). Volume of the cooker is 5L and CPo = CTo = COo = 1.5. What can you say about the composition in the cooker at the instant of time when the lid is opened, if initial temperature was 310K?
+a) XT = 0.35
+b) CO = 1.125
+c) T = 380K
+d) CM = 2.5
+b
+XT = CAo*b*XA/(a*CBo)
+CO = CAo*(1-0.5*XA)
+CM = CAo*(3*XA)
+It is a liquid reaction so change in volume can be ignored. Thus we cannot say anything about the temperature based on the given information.
+Sanfoundry Global Education & Learning Series – Chemical Reaction Engineering.
+To practice all areas of Chemical Reaction Engineering,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Chemical Reaction Engineering Questions and Answers – Kinetics of Homogeneous Reactions – Ideal Reactor Types» Next - Chemical Reaction Engineering Questions and Answers – Batch Reactor Design Equations 

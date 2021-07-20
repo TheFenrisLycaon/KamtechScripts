@@ -1,0 +1,103 @@
+1. The array factor of 8 – isotropic elements of broadside array is given by ____
+a) \(\frac{sin(2kdcosθ)}{2kdcosθ} \) 
+b) \(\frac{sin(4kdcosθ)}{4kdcosθ} \) 
+c) \(\frac{sin(2kdcosθ)}{kdcosθ} \) 
+d) \(\frac{cos(2kdcosθ)}{2kdcosθ} \) 
+b
+And ᴪ=kdcosθ+β
+Since its given broad side arrayβ=0,
+ᴪ=kdcosθ+β=kdcosθ
+\(\frac{Nᴪ}{2}=4kdcosθ\) 
+\(AF=\frac{sin(Nᴪ/2)}{N \frac{ᴪ}{2}}=\frac{sin(4kdcosθ)}{4kdcosθ} \) 
+2. An 8-isotropic element broadside array separated by a λ/2 distance has nulls occurring at ____
+a) \(cos^{-1} (±\frac{n}{4})\) 
+b) \(cos^{-1} (±\frac{n}{2})\) 
+c) \(sin^{-1} (±\frac{n}{2})\) 
+d) \(sin^{-1} (±\frac{n}{4})\) 
+a
+\(θ_n=cos^{-1}⁡(\frac{λ}{2πd}[-β±\frac{2πn}{N}])=cos^{-1}⁡(\frac{λ}{2πd} [±\frac{2πn}{N}])\) 
+⇨	\(θ_n=cos^{-1}⁡(\frac{λ}{2π(λ/2)} [±\frac{2πn}{N}])=cos^{-1} (±\frac{2n}{8})=cos^{-1} (±\frac{n}{4}) \)  
+3. An 8-isotropic element broadside array separated by a λ/4 distance has nulls occurring at ____
+a) cos-1(±n)
+b) \(cos^{-1} (±\frac{n}{2})\) 
+c) \(sin^{-1} (±\frac{n}{2})\) 
+d) \(sin^{-1} (±n)\) 
+b
+\(θ_n=cos^{-1}⁡(\frac{λ}{2πd}\left[-β±\frac{2πn}{N}\right])=cos^{-1}⁡(\frac{λ}{2πd} [±\frac{2πn}{N}])\) 
+⇨	\(θ_n=cos^{-1}⁡(\frac{λ}{2π(λ/4)}) [±\frac{2πn}{N}])=cos^{-1} (±\frac{4n}{8})=cos^{-1} (±\frac{n}{2})  [n=1,2,3 \,and\, n≠N,2N…]\) 
+4. The array factor of 8- isotropic elements of broadside array separated by a λ/4 is given by ____
+a) sinc(cosθ)
+b) cos(sinθ)
+c) sin(sinθ)
+d) sinc(2cosθ)
+d
+\(AF=\frac{sin(Nᴪ/2)}{N \frac{ᴪ}{2}}\) 
+And ᴪ=kdcosθ+β
+Since its given broad side array β=0,
+ᴪ=kdcosθ+β=kdcosθ
+\(\frac{Nᴪ}{2}=4kdcosθ=4(\frac{2π}{λ})(\frac{λ}{4})cosθ=2πcosθ\) 
+\(AF=\frac{sin(Nᴪ/2)}{N \frac{ᴪ}{2}}=\frac{sin(2πcosθ)}{2πcosθ}=sinc(2cosθ).\) 
+5. The array factor of 8 – isotropic elements of broadside array separated by a λ/2 is given by ____
+a) sinc(4cosθ)
+b) sin(2πcosθ)
+c) sinc(4πsinθ)
+d) sin(2sinθ)
+a
+And ᴪ=kdcosθ+β
+Since its given broad side array β=0,
+ᴪ=kdcosθ+β=kdcosθ
+\(\frac{Nᴪ}{2}=4kdcosθ=4(\frac{2π}{λ})(\frac{λ}{2})cosθ=4πcosθ \) 
+\(AF=\frac{sin(Nᴪ/2)}{N \frac{ᴪ}{2}}=\frac{sin(4πcosθ)}{4πcosθ}=sinc(4cosθ).\) 
+6. What is the direction of first null of broadside 8-element isotropic antenna having a separation of λ/2?
+a) 60°
+b) 75.5°
+c) 37.5°
+d) 57.5°
+b
+\(θ_n=cos^{-1}⁡(\frac{λ}{2πd} [-β±\frac{2πn}{N}])=cos^{-1}⁡(\frac{λ}{2πd} [±\frac{2πn}{N}])\) 
+⇨	\(θ_n=cos^{-1}⁡(\frac{λ}{2π(λ/2)} [±\frac{2πn}{N}])=cos^{-1} (±\frac{2n}{8})=cos^{-1} (±\frac{n}{4}) \) 
+⇨	\(n=1 (first \,null) cos^{-1} (±\frac{n}{4})=cos^{-1} (±\frac{1}{4})=75.5°. \) 
+7. What is the direction of first null of broadside 8-element isotropic antenna having a separation of \frac{λ}{4}?
+a) 0
+b) 60
+c) 30
+d) 120
+b
+ \(θ_n=cos^{-1}⁡(\frac{λ}{2πd} [-β±\frac{2πn}{N}])=cos^{-1}⁡(\frac{λ}{2πd} [±\frac{2πn}{N}])\) 
+\(θ_n=cos^{-1}⁡(\frac{λ}{2π(\frac{λ}{4})}\left[±\frac{2πn}{N}\right])=cos^{-1} (±\frac{4n}{8})=cos^{-1} (±\frac{n}{2})=cos^{-1} (±1/2)=60\) 
+8. The necessary condition for maximum of the first side lobe of n element array is ______
+a) \(\frac{Nᴪ}{2}=±\frac{5π}{2}\) 
+b) \(\frac{Nᴪ}{2}=±\frac{3π}{2}\) 
+c) \(\frac{Nᴪ}{2}=±\frac{π}{2}\) 
+d) \(\frac{Nᴪ}{2}=±\frac{4π}{2}\) 
+b
+⇨	\(sin(\frac{Nᴪ}{2})=±1\) 
+⇨	\(\frac{Nᴪ}{2}=±\frac{2s+1}{2} π \) 
+⇨	\(\frac{Nᴪ}{2}=±\frac{3π}{2}\) [s=1 for first minor lobe].
+9. The direction of the first minor lobe of 8 element isotropic broadside array separated by λ/2 is ___
+a) 41.4°
+b) 76.6°
+c) 67.7°
+d) 90°
+b
+\(θ_s=cos^{-1} (\frac{λ}{2πd} \left[-β±\frac{(2s+1)}{N} π\right])\) 
+⇨	\(θ_s=cos^{-1} (\frac{λ}{2π(λ/2)} [±\frac{3}{8}π]) \)    (s=1 for 1st minor lobe)
+⇨	\(θ_s=cos^{-1} (±\frac{3}{8})=67.7°\) 
+10. An 8-isotropic element end-fire array separated by a λ/4 distance has first null occurring at ____
+a) 60
+b) 30
+c) 90
+d) 150
+a
+Since its given broad side array \(β=±kd=±\frac{2πd}{λ}=±\frac{π}{2},\) 
+\(θ_n=cos^{-1}⁡(\frac{2}{π} [∓\frac{π}{2}±\frac{2πn}{8}])\) 
+\(=cos^{-1}⁡([∓1±\frac{n}{2}])\) 
+First null at n=1; \(θ_n= =cos^{-1}⁡([1±\frac{1}{2}]) (considering \,β=-\frac{π}{2}) \) 
+\(θ_n =cos^{-1} (\frac{1}{2})\,or \,cos^{-1} (3/2) \) 
+\(θ_n =cos^{-1} (\frac{1}{2})=60.\) 
+ Sanfoundry Global Education & Learning Series – Antennas. 
+To practice all exam questions on Antenna Array,  here is complete set of 1000+ Multiple Choice Questions and Answers .
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antenna Array Questions and Answers – Radiation Pattern for 4-Isotropic Elements» Next - Antenna Array Questions and Answers – Broadside Array 

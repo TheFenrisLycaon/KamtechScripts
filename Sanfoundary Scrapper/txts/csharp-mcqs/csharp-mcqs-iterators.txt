@@ -1,0 +1,89 @@
+1. What is an iterator?
+a) a method
+b) an operator
+c) accessor
+d) all of the mentioned
+d
+2. What will be the output of the following C# code snippet?
+ class MyClass {     char[] chrs = { 'A', 'B', 'C', 'D' };     public System.Collections.IEnumerator GetEnumerator()     {         foreach (char ch in chrs)         yield return ch;     } } class Program {     static void Main(string[] args)     {         MyClass mc = new MyClass();         foreach (char ch in mc)         Console.Write(ch + " ");         Console.WriteLine();         Console.ReadLine();     } }
+a) Run time error
+b) Compile time error
+c) Code runs successfully prints nothing
+d) Code runs successfully prints A, B, C, D
+d
+Output:
+ A, B, C, D
+3. Choose the correct statements for the following C# code?
+ public System.Collections.IEnumerator GetEnumerator() {     foreach (char ch in chrs)     yield return ch; }
+a) Definition of iterator for MyClass
+b) Implements the GetEnumerator() method defined by IEnumerable
+c) The yield return statement returns the next object in the collection, which in this case is the next character in chrs
+d) All of the mentioned
+d
+4. What does the yield return statement specify in the following C# code snippet?
+a) A B C D E F G H I J K L M N O P Q R S T U V
+b) Run time error
+c) U T S R Q P O N M L K J I H G F E D C B A
+d) Compile successfully prints nothing
+c
+Output:
+ U T S R Q P O N M L K J I H G F E D C B A
+6. What will be the following C# code snippet specify?
+class MyClass{    char chrs = 'A' ;    public IEnumerator GetEnumerator()    {        for (int i = 20; i >=0; --i)        if (i == 10) yield break;        yield return (char)((chrs + i));    }}class Program{    static void Main(string[] args)    {        MyClass mc = new MyClass();        foreach (char ch in mc)        Console.Write(ch + " ");        Console.WriteLine();        Console.ReadLine();    }}
+a) Code run successfully prints nothing
+b) A B C D E F G H I J K L M N O P Q R S T U V
+c) U T S R Q P O N M L
+d) Compile time error
+c
+Output:
+ U T S R Q P O N M L
+7. What will be the output of the following C# code snippet?
+ class MyClass {     int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};     public IEnumerator GetEnumerator()     {         for (int i = 0; i < 20; i++)         {             if (a[i] % 2 == 0)             yield return (int)(a[i]);         }     } } class Program {     static void Main(string[] args)     {         MyClass mc = new MyClass();         foreach (int i in mc)         Console.Write(i + " ");         Console.WriteLine();         Console.ReadLine();     } }
+a) prints nothing code run successfully
+b) run time error
+c) code runs successfully prints even number between 1 to 20
+d) compile time error
+c
+Output:
+2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+8. What will be the output of the following C# code snippet?
+ class MyClass {     char ch = 'A';     public IEnumerable MyItr(int end)     {         for (int i = 0 ;i < end ;i++)         yield return (char)(ch + i);     }     public IEnumerable MyItr(int begin, int end)     {         for (int i = begin ;i < end ;i++)         yield return (char)(ch + i);     } } class Program {     static void Main(string[] args)     {         MyClass mc = new MyClass();         Console.WriteLine("Iterate the first 7 letters:");         foreach (char ch in mc.MyItr(7))         Console.Write(ch + " ");         Console.WriteLine("n");         Console.WriteLine("Iterate letters from F to L:");         foreach (char ch in mc.MyItr(7, 12))         Console.Write(ch + " ");         Console.WriteLine();         Console.ReadLine();     } }
+a) 
+   Iterate the first 7 letters:
+   A B C D E F G 
+   Iterate letters from F to L:
+   G H I J K L
+b) 
+   Iterate the first 7 letters:
+   A B C D E F G 
+   Iterate letters from F to L:
+   H I J K L
+c) Run time error
+d) Compile time error
+b
+Output:
+        Iterate the first 7 letters:
+         A B C D E F G 
+        Iterate letters from F to L:
+        H I J K L
+9. What will be the output of the following C# code snippet?
+class MyClass{    char ch = 'A';    int e = 4;    int k = 9;    int z = 6;    public IEnumerator GetEnumerator()    {        for (int i = 0; i < 26; i++)        {            if (i == e*k /z) yield break;             yield return (int)(ch + i);        }    }}class Program{    static void Main(string[] args)    {        MyClass mc = new MyClass();        foreach(int ch in mc)        Console.Write(ch + " ");        Console.WriteLine();        Console.ReadLine();    }}
+a) Compile time error
+b) Run time error
+c) 65 66 67 68 69 70
+d) Code run successfully prints nothing
+c
+Output:
+ 65 66 67 68 69 70
+10. What are the advantages of the named iterator?
+a) They allow  to pass arguments to the iterator that control what elements are obtained
+b) This form of iterators can be overloaded
+c) Both They allow  to pass arguments to the iterator that control what elements are obtained & This form of iterators can be overloaded
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+To practice all featur es of C# programming language, here is complete set on 1000+ Multiple Choice Questions and Answers on C#.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Multithreaded Programming – 2» Next - C# Questions & Answers – Fundamentals of Namespaces 

@@ -1,0 +1,100 @@
+1. Which of the following expressions correctly represents the relationship between cross-sectional area of a nozzle, fluid velocity and specific volume?
+a) \(\frac{dA}{A}+\frac{dC}{C}=\frac{dv}{v} \) 
+b) \(\frac{dA}{A}-\frac{dC}{C}=\frac{dv}{v} \) 
+c) \(\frac{dA}{A}+\frac{dC}{C}+\frac{dv}{v}\) = 0
+d) \(\frac{dA}{A}+\frac{dv}{v}=\frac{dC}{C} \) 
+a
+\(\frac{dA}{A}+\frac{dC}{C}=\frac{dv}{v} \) 
+The nature of change (positive or negative) in any two parameters in the equation above predicts the nature of change in the third parameter.
+2. Which of the following expressions is correct? (P – fluid pressure, M- Mach number, A – cross-sectional area of nozzle/diffuser)
+a) \(\frac{dA}{A}=\frac{1}{γ}\frac{dP}{P}\big\{\frac{M^2}{1-M^2} \big\} \) 
+b) \(\frac{dA}{A}=\frac{1}{γ}\frac{dP}{P}\big\{\frac{M^2-1}{M^2}\big\} \) 
+c) \(\frac{dA}{A}=\frac{1}{γ}\frac{dP}{P}\big\{\frac{1-M^2}{M^2} \big\} \) 
+d) \(\frac{1}{γ}\frac{dA}{A}=\frac{dP}{P}\big\{\frac{1-M^2}{M^2} \big\} \) 
+c
+\(\frac{dA}{A}=\frac{1}{γ}  \frac{dP}{P}\big\{\frac{1-M^2}{M^2} \big\} \) 
+or
+\(\frac{dA}{A}=  \frac{1}{γ}  \frac{dP}{P}{\frac{Cs^2}{C^2 -1}} \) 
+where, Cs – sonic velocity
+		C – fluid velocity
+3. What is Mach number?
+a) It is the ratio of sonic velocity of a fluid at N.T.P. to the local sonic velocity of the same fluid
+b) It is the ratio of fluid velocity to sonic velocity of the same fluid at N.T.P.
+c) It is the ratio of local sonic velocity to fluid velocity
+d) It is the ratio of fluid velocity to local sonic velocity
+d
+4. In case of accelerated flow, when the pressure decreases along the flow direction and Mach number is less than one, it corresponds to _____
+a) Convergent part of a nozzle
+b) Divergent part of a nozzle
+c) Throat of a nozzle
+d) Convergent part of a diffuser
+a
+\(\frac{dA}{A} = \frac{1}{γ}  \frac{dP}{P} \big\{\frac{1-M^2}{M^2} \big\} \) 
+L.H.S should also be negative. This implies that \(\frac{dA}{A}\) should be negative, which corresponds to convergent part of the nozzle.
+5. Which of the following statements regarding the Mach number is TRUE, when the fluid reaches the throat of a nozzle?
+a) It becomes unity
+b) It is less than one
+c) It is greater than one
+d) Mach number is not defined at throat of a nozzle
+a
+\(\frac{dA}{A}=\frac{1}{γ}  \frac{dP}{P} \big\{\frac{1-M^2}{M^2} \big\} \) 
+It is evident that the R.H.S. should also be zero. This implies that the Mach number must be one. The fluid velocity attains the value of local sonic velocity at the throat.
+6. Which of the following conditions corresponds to divergent part of a nozzle?
+a) M < 1 and \(\frac{dP}{P}\) > 0
+b) M < 1 and \(\frac{dP}{P}\) < 0
+c) M > 1 and \(\frac{dP}{P}\) < 0
+d) M > 1 and \(\frac{dP}{P}\) > 0
+c
+\(\frac{dA}{A}=\frac{1}{γ}\frac{dP}{P} \big\{\frac{1-M^2}{M^2} \big\} \) 
+For a nozzle \(\frac{dP}{P}\)<0, and for divergent part, \(\frac{dA}{A}\)>0. For the above equation to hold M > 1.
+Therefore, M > 1 and \(\frac{dP}{P}\) < 0 is the correct answer.
+7. A decelerated flow, having fluid velocity greater than the local sonic velocity corresponds to _____
+a) Convergent part of a nozzle
+b) Divergent part of a nozzle
+c) Convergent part of a diffuser
+d) Divergent part of a diffuser
+c
+ \(\frac{dA}{A}=\frac{1}{γ}\frac{dP}{P} \big\{\frac{1-M^2}{M^2} \big\} \) 
+8. Which of the following conditions correspond to divergent type diffuser?
+a) M < 1 and \(\frac{dA}{A}\)>0
+b) M < 1 and \(\frac{dA}{A}\)>0
+c) M < 1 and \(\frac{dA}{A}\)<0
+d) M > 1 and \(\frac{dA}{A}\)<0
+a
+\(\frac{dA}{A}=\frac{1}{γ}\frac{dP}{P} \big\{\frac{1-M^2}{M^2} \big\} \) 
+For the divergent part, \frac{dA}{A}>0. For the above equation to hold under the listed conditions, the Mach number must be less than one. Hence, M < 1 and \(\frac{dA}{A}\)>0 is the correct answer.
+9. The purpose of a steam injector is to force water into the boiler under pressure.
+a) True
+b) False
+a
+10. Air at 18 bar and 100°C enters a convergent nozzle. Assume the flow to be isentropic and calculate the sonic velocity. Take adiabatic index equal to 1.4.
+a) 353.40 m/s
+b) 321.56 m/s
+c) 360.87 m/s
+d) 400.32 m/s
+a
+Critical pressure, P* = P\((\frac{2}{γ+1})^\frac{γ}{γ-1}\) = 18\((\frac{2}{1.4+1})^\frac{1.4}{1.4-1}\) = 9.51 bar
+T1 = T\((\frac{P*}{P})^\frac{γ-1}{γ}\) = (373)\((\frac{9.51}{18})^\frac{1.4-1}{1.4}\) = 310.83 K
+Sonic velocity, Cs = \(\sqrt{γR(T_1)} = \sqrt{1.4*287*310.83}\) = 353.40 m/s.
+11. Air enters a frictionless adiabatic horizontal nozzle at 12 bar and 167°C with inlet velocity 50 m/s and leaves at 3 bar. Take adiabatic index equal to 1.4 and cp = 1.005 kJ/kg-K.
+a) 654.78 m/s
+b) 321.75 m/s
+c) 552.45 m/s
+d) 456.87 m/s
+c
+We know that, T2 = T1 \((\frac{P_2}{P_1})^\frac{γ-1}{γ}\) = 440 \((\frac{3}{13})^\frac{1.4-1}{1.4}\) = 289.40 K
+Applying the energy equation at inlet and outlet of the nozzle, we get
+m[h1+\(\frac{c_1^2}{2}\)+Z1*g]+Q=m[h2+\(\frac{c_2^2}{2}\)+Z2*g]+W
+	Q = 0, W = 0, Z1 = Z2
+h1+\(\frac{c_1^2}{2}\)=h2+\(\frac{c_2^2}{2}\) 
+		c22=2(h1-h2)+c12
+		C2 = \(\sqrt{2(h_1-h_2)+c_1^2} \) 
+		C2 = \(\sqrt{2c_p(T_1-T_2)+c_1^2} \) 
+		C2 = \(\sqrt{2*1.005*10^3 (440-289.40)+50^2} \) 
+		C2 = 552.45 m/s.
+Sanfoundry Global Education & Learning Series – Thermal Engineering
+To practice all areas of Thermal Engineering for Interviews,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Thermal Engineering Questions and Answers – Steam Nozzles – Super Saturated Flow and Wilson’s Line» Next - Thermal Engineering Questions and Answers – Classification of Steam Turbines 

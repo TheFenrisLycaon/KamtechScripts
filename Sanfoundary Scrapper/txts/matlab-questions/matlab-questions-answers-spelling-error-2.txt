@@ -1,0 +1,67 @@
+1. What is the output of the following code?
+plot([0:1:4],one(1,5))
+a) A pulse function from 0 to 4 units in time
+b) A step function
+c) A ramp function
+d) Error
+d
+2. What is the error when MATLAB finds an unknown command or function?
+a) Undefined function
+b) Undefined function or variable ‘command name’
+c) Undefined variable or function
+d) Undefined function or variable ‘command name’
+b
+3. What is the output of the following code?
+stem([0:1:1],zero(1,2))
+a) An empty graph extending from 0 to 1 unit in x axis and 0 to 2 in the y axis
+b) An empty graph extending from 0 to 1 unit in y axis and 0 to 2 in the x axis
+c) Syntactical Error
+d) Error in zero command
+d
+4. What is the output of the following code?
+sine(pi/2)
+a) Error due to pi
+b) Error due to sine
+c) 1
+d) Cannot be determined
+b
+5. A user defined function can be used by neglecting case sensitivity.
+a) True
+b) False
+b
+6. What is the output of the following code?
+decon([6 12 18],[ 1 2 3])
+a) 6
+b) 0
+c) Cannot be determined
+d) Error
+d
+7. What is the output of the following code?
+syms t;
+ipulse([1],[1 0])
+a) A step function
+b) A ramp function
+c) Logical error
+d) Spelling error
+d
+8. What is the output of the following code?
+syms t; 
+stip([1],[1 0 0])
+a) A step function
+b) A ramp function
+c) Logical error
+d) Spelling error
+d
+9. What is the output of the following code?
+laplacet(t^2);
+a) Error in the input
+b) Error in the command
+c) 2/s^3
+d) Cannot be determined
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Spelling Error – 1» Next - MATLAB Questions and Answers – Laplace Transform – 1 

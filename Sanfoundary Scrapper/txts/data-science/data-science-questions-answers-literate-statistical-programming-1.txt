@@ -1,0 +1,63 @@
+1. What is the role of processing code in the research pipeline?
+a) Transforms the analytical results into figures and tables
+b) Transforms the analytic data into measured data
+c) Transforms the measured data into analytic data
+d) All of the mentioned
+c
+2. Which of the following is a goal of literate statistical programming?
+a) Combine explanatory text and data analysis code in a single document
+b) Ensure that data analysis documents are always exported in JPEG format
+c) Require those data analysis summaries are always written in R
+d) None of the mentioned
+a
+3. What does it mean to weave a literate statistical program?
+a) Convert a program from S to python
+b) Convert the program into a human readable document
+c) Convert a program to decompress it
+d) All of the mentioned
+b
+4. Which of the following is required to implement a literate programming system?
+a) A programming language like Perl
+b) A programming language like Java
+c) A programming language like R
+d) All of the mentioned
+c
+5. What is one way in which the knitr system differs from Sweave?
+a) knitr allows for the use of markdown instead of LaTeX
+b) knitr is written in python instead of R
+c) knitr lacks features like caching of code chunks
+d) none of the mentioned
+a
+6. Which of the following is useful way to put text, code, data, output all in one document?
+a) Literate statistical programming
+b) Object oriented programming
+c) Descriptive programming
+d) All of the mentioned
+a
+7. Some chunks have to be re-computed every time you re-knit the file.
+a) True
+b) False
+b
+8. Which of the following tool can be used for integrating text and code in one document?
+a) knitr
+b) ggplot2
+c) NumPy
+d) None of the mentioned
+a
+9. Which of the following should be set on chunk by chunk basis to store results of computation?
+a) cache=TRUE
+b) cache=FALSE
+c) caching=TRUE
+d) none of the mentioned
+a
+10. Dependencies are checked explicitly in caching caveats.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Data Science.
+Here’s the list of Best Reference Books in Data Science.
+To practice all areas of Data Science, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Science Questions and Answers – knitr» Next - Data Science Questions and Answers – Literate Statistical Programming – 2 

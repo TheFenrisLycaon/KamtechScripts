@@ -1,0 +1,71 @@
+1.Given Language: L= {xϵ∑= {a, b} |x has a substring ‘aa’ in the production}. Which of the corresponding representation notate the same?
+a)
+b)
+c)
+d)
+a
+2.Let u=’1101’, v=’0001’, then uv=11010001 and vu= 00011101.Using the given information what is the identity element for the string?
+a) u-1
+b) v-1
+c) u-1v-1
+d) ε
+d
+3.Which of the following substring will the following notation result?
+a) 0101011
+b) 0101010
+c) 010100
+d) 100001
+c
+4.Predict the following step in the given bunch of steps which accepts a strings which is of even length and has a prefix=’01’
+δ (q0, ε) =q0 < δ(q0,0) =δ (δ (q0, ε),0) =δ(q0,0) =q1 < _______________
+a) δ (q0, 011) =δ (δ (q0,1), 1) =δ (q2, 1) =q3
+b) δ (q0, 01) =δ (δ (q0, 0), 1) = δ (q1, 1) =q2
+c) δ (q0, 011) =δ (δ (q01, 1), 1) =δ (q2, 0) =q3
+d) δ (q0, 0111) =δ (δ (q0, 011), 0) = δ (q3, 1) =q2
+b
+5. Fill the missing blank in the given Transition Table:
+Language L= {xϵ∑= {0,1} |x accepts all the binary strings not divisible by 3}
+a) Q0
+b) Q1
+c) Q2
+d) No Transition
+1
+6.Which among the following is the missing transition in the given DFA?
+L= {xϵ∑= {a, b} | x starts with a and ends with b}
+a) δ (q0, a) =q0
+b) δ (F, a) =q1
+c) δ (F, a) =D
+d) δ (q1, a) =D
+b
+7.The complement of a language will only be defined when and only when the __________ over the language is defined.
+a) String
+b) Word
+c) Alphabet
+d) Grammar
+c
+8.Which among the following is not notated as infinite language?
+a) Palindrome
+b) Reverse
+c) Factorial
+d) L={ab}*
+l
+9.Which among the following states would be notated as the final state/acceptance state?
+L= {xϵ∑= {a, b} | length of x is 2}
+a) q1
+b) q2
+c) q1, q2
+d) q3
+b
+10.Which of the following are the final states in the given DFA according to the Language given.?
+L= {xϵ∑= {a, b} |length of x is at most 2}
+a) q0, q1
+b) q0, q2
+c) q1, q2
+d) q0, q1, q2
+d
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  DFA Processing Strings» Next - Automata Theory Questions and Answers –  The Language of DFA 

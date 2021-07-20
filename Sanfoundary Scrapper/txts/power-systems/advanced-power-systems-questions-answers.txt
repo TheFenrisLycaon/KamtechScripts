@@ -1,0 +1,72 @@
+1. A protection system engineer is planning to provide the complete protection, he can achieve this by ___________
+a) three phase fault relays and two earth fault relays
+b) two phase fault relays and three earth fault relays
+c) a two phase fault relays and three earth fault relays
+d) a two phase fault relays and two earth fault relays
+a
+2. The given figure shows protection system scheme for one phase of generator. A high resistance fault occurs near the neutral end with the current distribution as marked. The slope of the relay is 10% and pick-up current of 0.15A.
+The CT ratio is 500/5.
+Will the relay operate under given circumstances?
+a) True
+b) False
+b
+                       IRS = (i1+i2)/2
+Relay will operate only if iR > k(i1+i2)/2+i0
+I1 = 435/(500/5)
+I2 = 400/(500/5)
+Ir = i1-i2 = 4.35-4.0 = 0.35 A
+i1+i2 = 4.175 A
+k(i1+i2)/2+i0 = 0.1*4.175 + 0.15 = 0.5675 > 0.35
+Therefore, the relay will operate. 
+3. We need the biasing of differential relay biased to avoid mal operation when used for  transformer protection due to ____________
+a) mismatch of CT
+b) saturation of
+c) difference in connection of both sides of CT
+d) current setting mismatch
+a
+4.If the specified fault setting for a winding is mentioned as 20%, then what can be inferred about it?
+a) If a terminal fault has its current limited to the full load rating, then 20% of winding from neutral end will be unprotected
+b) If a terminal fault has its current limited to the full load rating, then 80% of winding from neutral end will carry current
+c) If a terminal fault has its voltage limited to the full load rating, then 20% of winding from neutral end will be unprotected
+d) Any of the mentioned
+a
+5. The typical characteristic of the relay during loss of excitation is ____________
+a)
+b)
+c)
+d)
+a
+6. The standard system fault characteristic of the relay is _____________
+a)
+b)
+c)
+d)
+a
+7. A longitudinal differential protection on stator can detect inter-turn on the stator.
+a) True
+b) False
+b
+8. Bias is used in the relay protection to _______________
+a) provide balanced sharing of current
+b) reduce current level
+c) deivert the current
+d) none of the mentioned
+a
+9. Unbalancing of an alternator may occur due to ____________
+a) single phase fault
+b) unbalanced loading
+c) line breaking
+d) all of the mentioned
+d
+10. For the given earth fault for solidly earthed CT, the fault current as a percentage of the full load current is given as _______________
+a)
+b)
+c)
+d)
+a
+Sanfoundry Global Education & Learning Series – Power Systems.
+To practice advanced questions and answers on all areas of Power Systems, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Power Systems Questions and Answers – Switchgear and Protection – 1» Next - Power Systems Questions and Answers – Switchgear and Protection – 3 

@@ -1,0 +1,100 @@
+1. If a system is said to be invertible, then?
+a) One-to-one correspondence between its input and output signals
+b) One-to-many correspondence between its input and output signals
+c) Many-to-one correspondence between its input and output signals
+d) None of the mentioned
+a
+2. If h(n) is the impulse response of an LTI system T and h1(n) is the impulse response of the inverse system T-1, then which of the following is true?
+a) [h(n)*h1(n)].x(n)=x(n)
+b) [h(n).h1(n)].x(n)=x(n)
+c) [h(n)*h1(n)]*x(n)=x(n)
+d) [h(n).h1(n)]*x(n)=x(n)
+c
+3. What is the inverse of the system with impulse response h(n)=(1/2)nu(n)?
+a) δ(n)+1/2 δ(n-1)
+b) δ(n)-1/2 δ(n-1)
+c) δ(n)-1/2 δ(n+1)
+d) δ(n)+1/2 δ(n+1)
+b
+The system function corresponding to h(n) is
+H(z)=\(\frac{1}{1-\frac{1}{2} z^{-1}}\) ROC:|z|>1/2
+This system is both stable and causal. Since H(z) is all pole system, its inverse is FIR and is given by the system function
+HI(z)=\(1-\frac{1}{2} z^{-1}\) 
+Hence its impulse response is δ(n)-1/2 δ(n-1).
+4. What is the inverse of the system with impulse response h(n)=δ(n)-1/2δ(n-1)?
+a) (1/2)nu(n)
+b) -(1/2)nu(-n-1)
+c) (1/2)nu(n) & -(1/2)nu(-n-1)
+d) None of the mentioned
+c
+The inverse of the system has a system function as H(z)=\(\frac{1}{1-\frac{1}{2} z^{-1}}\) 
+Thus it has a zero at origin and a pole at z=1/2.So, two possible cases are |z|>1/2 and |z|<1/2
+So, h(n)= (1/2)nu(n) for causal and stable(|z|>1/2)
+and h(n)= -(1/2)nu(-n-1) for anti causal and unstable for |z|<1/2.
+5. What is the causal inverse of the FIR system with impulse response h(n)=δ(n)-aδ(n-1)?
+a) δ(n)-aδ(n-1)
+b) δ(n)+aδ(n-1)
+c) a-n
+d) an
+d
+Since h(0)=1, h(1)=-a and h(n)=0 for n≥a, we have
+hI(0)=1/h(0)=1.
+and
+hI(n)=-ahI(n-1) for n≥1
+Consequently, hI(1)=a, hI(2)=a2,….hI(n)=an
+Which corresponds to a causal IIR system as expected.
+6. If the frequency response of an FIR system is given as H(z)=6+z-1-z-2, then the system is ___________
+a) Minimum phase
+b) Maximum phase
+c) Mixed phase
+d) None of the mentioned
+a
+By factoring the system function we find the zeros for the system.
+The zeros of the given system are at z=-1/2, 1/3
+So, the system is minimum phase. 
+7. If the frequency response of an FIR system is given as H(z)=1-z-1-6z-2, then the system is ___________
+a) Minimum phase
+b) Maximum phase
+c) Mixed phase
+d) None of the mentioned
+b
+By factoring the system function we find the zeros for the system.
+The zeros of the given system are at z=-2,3
+So, the system is maximum phase.
+8. If the frequency response of an FIR system is given as H(z)=1-5/2z-1-3/2z-2, then the system is ___________
+a) Minimum phase
+b) Maximum phase
+c) Mixed phase
+d) None of the mentioned
+c
+By factoring the system function we find the zeros for the system.
+The zeros of the given system are at z=-1/2, 3
+So, the system is mixed phase.
+9. An IIR system with system function H(z)=\(\frac{B(z)}{A(z)}\) is called a minimum phase if ___________
+a) All poles and zeros are inside the unit circle
+b) All zeros are outside the unit circle
+c) All poles are outside the unit circle
+d) All poles and zeros are outside the unit circle
+a
+then both the poles and zeros of the system should fall inside the unit circle.
+10. An IIR system with system function H(z)=\(\frac{B(z)}{A(z)}\) is called a mixed phase if ___________
+a) All poles and zeros are inside the unit circle
+b) All zeros are outside the unit circle
+c) All poles are outside the unit circle
+d) Some, but not all of the zeros are outside the unit circle
+d
+11. A causal system produces the output sequence y(n)={1,0.7} when excited by the input sequence x(n)={1,-0.7,0.1}, then what is the impulse response of the system function?
+a) [3(0.5)n+4(0.2)n]u(n)
+b) [4(0.5)n-3(0.2)n]u(n)
+c) [4(0.5)n+3(0.2)n]u(n)
+d) None of the mentioned
+b
+H(z)=\(\frac{Y(z)}{X(z)} = \frac{1+0.7z^{-1}}{1-0.7z^{-1}+0.1z^{-2}} = \frac{1+0.7z^{-1}}{(1-0.2z^{-1})(1-0.5z^{-1})}\) 
+Upon applying partial fractions and applying the inverse z-transform, we get
+[4(0.5)n-3(0.2)n]u(n).
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – LTI System as Frequency Selective Filters» Next - Digital Signal Processing Questions and Answers – Frequency Domain Sampling DFT 

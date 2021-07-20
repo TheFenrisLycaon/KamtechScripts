@@ -1,0 +1,244 @@
+1. The final velocity obtained after passing the steam through a nozzle is less than the calculated one. Which of the following is NOT a valid reason for the same?
+a) Friction between steam and nozzle surface
+b) Steam not being superheated
+c) Shock loses
+d) Internal friction of steam
+b
+2. Which of the following is NOT an effect of frictional loses in a convergent-divergent nozzle?
+a) Enthalpy drop is increased
+b) The expansion is not isentropic
+c) The final dryness fraction of the steam is increased
+d) The specific volume of steam is increased
+a
+3. Presence of friction in a convergent-divergent nozzle, decreases the final velocity of the steam and increases the dryness fraction of the steam.
+a) True
+b) False
+a
+4. Determine the velocity coefficient if the efficiency of a convergent-divergent steam nozzle is 92%. The inlet velocity of steam is negligible.
+a) 0.959
+b) 0.120
+c) 0.465
+d) 0.542
+a
+When inlet velocity is negligible, the velocity coefficient is the square root of the nozzle efficiency.
+Velocity coefficient = \(\sqrt{η} = \sqrt{0.92}\) = 0.959.
+5. Dry and saturated steam at 12 bar expands through a convergent-divergent nozzle having 90% efficiency to 2 bar. Determine the actual exit velocity of the steam. Neglect the initial velocity of steam.
+a) 451.20 m/s
+b) 754.62 m/s
+c) 650.32 m/s
+d) 856.96 m/s
+b
+At 12 bar, from steam tables
+h1 = hg1 = 2782.7 kJ/kg, s1 = sg1 = 6.519 kJ/kg-K
+At 2 bar, from steam tables
+hf2 = 504.7 kJ/kg, hfg2 = 2201.6 kJ/kg
+sf2 = 1.530 kJ/kg-K, sfg2 = 5.597 kJ/kg-K
+s1 = s2
+s1 = sf2 + x2(sfg2)
+6.519 = 1.530 + x2(5.597)
+x2 = 0.891
+h2 = hf2 + x2(hfg2)
+= 504.7 +0.891(2201.6)
+= 2466.32 kJ/kg
+C2 = 44.72\(\sqrt{η(h_1-h_2)}\) 
+C2 = 44.72\(\sqrt{0.90(2782.7-2466.32)}\) 
+C2 = 754.62 m/s.
+Join Sanfoundry@YouTube
+6. Initial velocity of the steam entering a convergent-divergent steam nozzle is 60 m/s. Steam expands from 15 bar and 250°C to 1 bar. Determine the exit velocity of steam if nozzle has an efficiency of 95%.
+a) 973.08 m/s
+b) 654.32 m/s
+c) 785.45 m/s
+d) 900.75 m/s
+a
+At 15 bar and 200°C, from steam tables
+h1 = 2923.5 kJ/kg, s1 = 6.710 kJ/kg-K
+At 1 bar, from steam tables
+hf2 = 417.5 kJ/kg, hfg2 = 2257.9 kJ/kg
+sf2 = 1.303 kJ/kg-K, sfg2 = 6.057 kJ/kg-K
+s1 = s2
+s1 = sf2 + x2(sfg2)
+6.70 = 1.303 + x2(6.057)
+x2 = 0.89
+h2 = hf2 + x2(hfg2)
+= 417.5 + 0.89(2257.9)
+= 2427.03 kJ/kg
+C2 = \(\sqrt{2*1000*η(h_1-h_2)+C_1^2} \) 
+C2 = \(\sqrt{2*1000*0.95(2923.5-2427.03)+60^2} \) 
+C2 = 973.08 m/s.
+7. Dry and saturated steam enters a convergent-divergent steam nozzle at 11 bar and leaves at 3 bar. Determine the nozzle efficiency if the actual enthalpy drop is 200 kJ/kg.
+a) 78.56%
+b) 96.36%
+c) 90.35%
+d) 85.27%
+d
+Actual enthalpy drop = 200 kJ/kg
+At 11 bar, from steam tables
+h1 = hg = 2779.7 kJ/kg
+s1 = sg = 6.550 kJ/kg-K
+At 3 bar, from steam tables
+hf2 = 561.5 kJ/kg, hfg2 = 2163.2 kJ/kg
+sf2 = 1.672 kJ/kg-K, sfg2 = 5.319 kJ/kg-K
+s1 = s2
+s1 = sf2 + x2(sfg2)
+6.550 = 1.672 + x2(5.319)
+x2 = 0.917
+h2 = hf2 + x2(hfg2)
+= 561.5 + 0.917(2163.2)
+= 2545.15 kJ/kg
+Isentropic enthalpy drop = h1 – h2 = 2779.7 – 2545.15 = 234.55 kJ/kg
+Nozzle efficiency, η = \(\frac{Actual \, enthalpy \, drop}{Isentropic \, enthalpy \, drop} = \frac{200}{234.55} \)= 0.8527 or 85.27%.
+8. Dry and saturated steam at 10 bar enters a convergent-divergent nozzle and leaves at 1 bar. If 8% of heat drop is lost in friction find the percentage decrease in final velocity. Neglect initial velocity.
+a) 5.65%
+b) 3.87%
+c) 2.14%
+d) 4.08%
+d
+At 10 bar, from steam tables
+h1 = hg = 2776.2 kJ/kg
+s1 = 6.583 kJ/kg-K
+At 1 bar, from steam tables
+hf2 = 417.5 kJ/kg, hfg2 = 2257.9 kJ/kg
+sf2 = 1.303 kJ/kg-K, sfg2 = 6.057 kJ/kg-K
+s1 = s2
+s1 = sf2 + x2(sfg2)
+6.583 = 1.303 + x2(6.057)
+x2 = 0.872
+h2 = hf2 + x2(hfg2)
+h2 = 417.5 + 0.872(2257.9)
+h2 = 2386.39 kJ/kg
+Isentropic Enthalpy drop, hd = h1 – h2 = 2776.2 – 2386.39 = 389.81 kJ/kg
+C2 = 44.72\(\sqrt{h_d}\) = 44.72\(\sqrt{389.81}\) = 882.93 m/s
+C2’ = 44.72\(\sqrt{η(h_d)}\) = 44.72\(\sqrt{0.92(389.81)}\) = 846.88 m/s
+% decrease in exit velocity = \(\frac{C_2-C_2′}{C_2}\) *100 = \(\frac{882.93- 846.88}{882.93}*100\) = 4.08%.
+9. Steam at 10 bar superheated to 200°C enters a convergent-divergent steam nozzles and leaves at 2 bar. Determine the dryness fraction of the steam discharged if the nozzle efficiency is 93%.
+a) 0.931
+b) 0.865
+c) 0.758
+d) 0.963
+a
+At 10 bar and 200°C, from steam tables
+h1 = 2826.8 kJ/kg
+s1 = 6.692 kJ/kg-K
+At 2 bar, from steam tables
+hf2 = 504.7 kJ/kg, hfg2 = 2201.6 kJ/kg
+sf2 = 1.530 kJ/kg-K, sfg2 = 5.597 kJ/kg-K
+s1 = s2
+s1 = sf2 + x2(sfg2)
+6.692 = 1.530 + x2(5.597)
+x2 = 0.922
+h2 = hf2 + x2(hfg2)
+h2 = 504.7 + 0.922(2201.6)
+h2 = 2534.58 kJ/kg
+We know that,
+η=\(\frac{h_1-h_2′}{h_1-h_2}\) 
+Substituting the values
+0.93=\(\frac{2826.8-h_2”}{2826.8-2534.58}\) 
+h2’ = 2555.04 kJ/kg
+But, h2’ = hf2 + x2(hfg2)
+2555.04 = 504.7 + x2’ (2201.6)
+x2’ = 0.931.
+10. Find the mass flow rate if dry and saturated steam at 12 bar pressure is discharged at 2 bar by a convergent-divergent nozzle. The nozzle efficiency and exit area of the nozzle are 95% and 0.00256 m2.
+a) 1.5 kg/s
+b) 2.5 kg/s
+c) 3.0 kg/s
+d) 4.0 kg/s
+b
+	At 12 bar, from steam tables
+	h1 = hg1 = 2782.7 kJ/kg, s1 = sg1 = 6.519 kJ/kg-K
+	At 2 bar, from steam tables
+	hf2 = 504.7 kJ/kg, hfg2 = 2201.6 kJ/kg
+	sf2 = 1.530 kJ/kg-K, sfg2 = 5.597 kJ/kg-K
+	vg2 = 0.88540 m3/kg
+	s1 = s2
+	s1 = sf2 + x2(sfg2)
+	6.519 = 1.530 + x2(5.597)
+	x2 = 0.891
+	h2 = hf2 + x2(hfg2)
+	     = 504.7 +0.891(2201.6)
+	     = 2466.32 kJ/kg
+	C2 = 44.72\(\sqrt{η(h_1-h_2)}\) 
+	C2 = 44.72\(\sqrt{0.95(2782.7-2466.32)}\) 
+	C2 = 775.30 m/s
+	We know that,
+	η=\(\frac{h_1-h_2′}{h_1-h_2}\) 
+	Substituting the values
+			0.95=\(\frac{2782.7-h_2”}{2782.7-2466.32} \) 
+	h2’ = 2482.14 kJ/kg
+But, h2’ = hf2 + x2(hfg2)
+		2482.14 = 504.7 + x2’ (2201.6)
+		x2’ = 0.898
+Mass flow rate, m = \(\frac{A_2*C_2}{x_2’*v_2g} = \frac{0.00256*775.30}{0.898*0.88540}\) = 2.5 kg/s.
+11. Nozzle efficiency is the ratio of isentropic enthalpy drop to actual enthalpy drop, between the same pressures.
+a) True
+b) False
+b
+Mathematically,
+η=\(\frac{Actual \, Enthalpy \, drop}{Isentropic \, Enthapy \, drop} = \frac{h_d’}{h_d}\) 
+12. A convergent-divergent steam nozzle is supplied with steam at 15 bar. It discharges the steam at 1 bar. Determine the exit velocity if the velocity coefficient of the given nozzle is 0.95.
+a) 785.42 m/s
+b) 654.32 m/s
+c) 908.90 m/s
+d) 854.65 m/s
+c
+        At 15 bar, from steam tables
+	h1 = 2789.9 kJ/kg, s1 = 6.441 kJ/kg-K
+	At 1 bar, from steam tables
+	hf2 = 417.5 kJ/kg, hfg2 = 2257.9 kJ/kg
+	sf2 = 1.303 kJ/kg-K, sfg2 = 6.057 kJ/kg-K
+	s1 = s2
+	s1 = sf2 + x2(sfg2)
+	6.441= 1.303 + x2(6.057)
+	x2 = 0.848
+	h2 = hf2 + x2(hfg2)
+	     = 417.5 + 0.848(2257.9)
+	     = 2332.2 kJ/kg
+	C2  = 44.72\(\sqrt{(h_1-h_2)}\) = 44.72\(\sqrt{(2789.9-2332.2)}\) = 956.74 m/s
+	The actual exit velocity, C2’ = Velocity coefficient * C2
+			C2’ = 0.95 * 956.74
+			C2’ = 908.90 m/s.
+13. Steam at 14 bar and 250°C enters a convergent-divergent steam nozzle and is discharged at 2 bar. Determine the nozzle efficiency if the velocity coefficient is 0.95. Neglect the initial velocity of steam.
+a) 95.65%
+b) 90.25%
+c) 99.65%
+d) 85.32%
+b
+Using this relation,
+Nozzle efficiency = (Velocity coefficient)2
+ = 0.952
+ = 0.9025 or 90.25%.
+14. Choose the most appropriate statement regarding velocity coefficient.
+a) It can be zero
+b) It can be greater than one
+c) It should strictly lie between zero and one
+d) It is square of nozzle efficiency
+c
+Mathematically,
+Velocity Coeffiecint=\(\frac{Actual \, Exit \, Velocity}{Exit \,Velocity(Considering \, flow \, to \, be \, isentropic)} = \frac{C_2′}{C_2} \)  
+Since the actual exit velocity can never be equal to the exit velocity considering flow to be isentropic, velocity coefficient lies strictly between zero and one.
+15. Dry and saturated steam at 11 bar pressure enters a convergent-divergent nozzle and is discharged at 2 bar. Determine the actual enthalpy drop if he efficiency of the nozzle is 96%.
+a) 254.56 kJ/kg
+b) 321.32 kJ/kg
+c) 288.14 kJ/kg
+d) 245.63 kJ/kg
+c
+At 11 bar, from steam tables
+h1 = hg = kJ/kg
+s1 = sg = 6.550 kJ/kg-K
+At 2 bar, from steam tables
+hf2 = 504.7 kJ/kg, hfg2 = 2201.6 kJ/kg
+sf2 = 1.530 kJ/kg-K, sfg2 = 5.597 kJ/kg-K
+s1 = s2
+s1 = sf2 + x2(sfg2)
+6.550 = 1.530 + x2(5.597)
+x2 = 0.897
+h2 = hf2 + x2(hfg2)
+h2 = 504.7 + 0.897(2201.6)
+h2 = kJ/kg
+Enthalpy drop, hd = h1 – h2 = 2779.7 – 2479.54 = 300.16 kJ/kg
+Actual enthalpy drop, hd’ = ηhd = 0.96 * 300.15 = 288.14 kJ/kg.
+Sanfoundry Global Education & Learning Series – Thermal Engineering
+To practice all areas of Thermal Engineering,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Thermal Engineering Questions and Answers – Steam Flow Through Nozzles» Next - Thermal Engineering Questions and Answers – Steam Nozzles – Super Saturated Flow and Wilson’s Line 

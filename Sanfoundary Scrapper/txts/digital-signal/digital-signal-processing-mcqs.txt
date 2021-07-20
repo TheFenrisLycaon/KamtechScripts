@@ -1,0 +1,63 @@
+1. What is the peak side lobe (in dB) for a rectangular window?
+a) -13
+b) -27
+c) -32
+d) -58
+a
+2. What is the peak side lobe (in dB) for a Hanning window?
+a) -13
+b) -27
+c) -32
+d) -58
+c
+3. How does the frequency of oscillations in the pass band of a low pass filter varies with the value of M?
+a) Decrease with increase in M
+b) Increase with increase in M
+c) Remains constant with increase in M
+d) None of the mentioned
+b
+4. The oscillatory behavior near the band edge of the low pass filter is known as Gibbs phenomenon.
+a) True
+b) False
+a
+5. Which of the following window is used in the design of a low pass filter to have a frequency response as shown in the figure?
+a) Hamming window
+b) Hanning window
+c) Kaiser window
+d) Blackman window
+d
+6. Which of the following window is used in the design of a low pass filter to have a frequency response as shown in the figure?
+a) Hamming window
+b) Hanning window
+c) Kaiser window
+d) Blackman window
+c
+7. What is the approximate transition width of main lobe of a Blackman window?
+a) 4π/M
+b) 8π/M
+c) 12π/M
+d) 2π/M
+c
+8. Which of the following windows has a time domain sequence h(n)=\(\frac{1}{2}(1-cos⁡\frac{2πn}{M-1})\)?
+a) Bartlett window
+b) Blackman window
+c) Hamming window
+d) Hanning window
+d
+h(n)=\(\frac{1}{2}(1-cos⁡\frac{2πn}{M-1})\), 0≤n≤M-1
+9. If the value of M increases then the main lobe in the frequency response of the rectangular window becomes broader.
+a) True
+b) False
+b
+10. The large side lobes of W(ω) results in which of the following undesirable effects?
+a) Circling effects
+b) Broadening effects
+c) Ringing effects
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Design of Linear Phase FIR Filters Using Windows – 1» Next - Digital Signal Processing Questions and Answers – Design of Linear Phase FIR Filters by Frequency Sampling Method 

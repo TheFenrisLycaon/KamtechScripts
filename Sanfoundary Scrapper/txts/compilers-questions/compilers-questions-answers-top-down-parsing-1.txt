@@ -1,0 +1,90 @@
+1. Which of the following derivations does a top-down parser use while parsing an input string?
+a) Leftmost derivation
+b) Leftmost derivation  in reverse
+c) Rightmost derivation
+d) Rightmost derivation in reverse
+a
+2. The process of assigning load addresses to the various parts of the program and adjusting the code and data in the program to reflect the assigned addresses is called?
+a) Assembly
+b) Parsing
+c) Relocation
+d) Symbol resolute
+c
+3. Which of the following statements is false?
+a) Left as well as right most derivations can be in Unambiguous grammar
+b) An LL (1) parser is a top-down parser
+c) LALR is more powerful than SLR
+d) Ambiguous grammar can’t be LR (k)
+a
+4. Which of the following grammar rules violate the requirements of an operator grammar? 
+
+(i) P -> QR
+(ii) P -> QsR
+(iii) P -> ε
+(iV) P -> QtRr
+a) (i) only
+b) (i) and (iii) only
+c) (ii) and (iii) only
+d) (iii) and (iv) only
+b
+ Consider the grammar with the following translation rules and E as the start symbol.
+A -> A1 #B {A.value = A1.value * B.value}
+| B {A.value = B.value}
+B-> B1 & F {B.value = B1.value + C.value}
+|C {B.value= C.value }
+C -> num {C.value = num.value}.
+5. Compute E.value for the root of the parse tree for the expression:2 # 3 & 5 # 6 &4.
+a) 200
+b) 180
+c) 160
+d) 40
+c
+6. Given the following expression grammar:
+
+E -> E * F | F+E | F
+F -> F-F | id
+which of the following is true?
+a) * has higher precedence than +
+b) – has higher precedence than *
+c) + and — have same precedence
+d) + has higher precedence than *
+b
+In the given grammar MINUS has higher precedence than ASTERIX.
+7. Consider a program P that consists of two source modules M1(contains reference to a function defined in M2) and M2 contained in two different files.
+a) Edit time
+b) Compile time
+c) Link time
+d) Load time
+c
+Kinds of object codes:
+i. Defined symbols, which allow it to be called by other modules,
+ii. Undefined symbols, which call the other modules where these symbols are defined, and
+iii. Symbols which are used internally within  object file for relocation.
+8. Which of the following suffices to convert an arbitrary CFG to an LL(1) grammar?
+a) Removing left recursion only
+b) Factoring the grammar alone
+c) Factoring & left recursion removal
+d) None of the mentioned
+d
+9. Assume that the SLR parser for a grammar G has n1 states and the LALR parser for G has n2 states.
+a) n1 is necessarily less than n2
+b) n1 is necessarily equal to n2
+c) n1 is necessarily greater than n2
+d) none of the mentioned
+b
+10. Match the following.
+P. Regular expression        1. Syntax analysis
+Q. Pushdown automata         2. Code generation
+R. Dataflow analysis         3. Lexical analysis
+S. Register allocation       4. Code optimization
+a) P-4. Q-1, R-2, S-3
+b) P-3, Q-1, R-4, S-2
+c) P-3, Q-4, R-1, S-2
+d) P-2, Q-1, R-4, S-3
+b
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – Right Left Linear Grammar – 2» Next - Compilers Questions and Answers – Top-Down Parsing – 2 

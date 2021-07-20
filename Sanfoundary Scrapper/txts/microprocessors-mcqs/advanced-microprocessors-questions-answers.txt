@@ -1,0 +1,97 @@
+1. Which of the following is a type of system segment descriptor?
+a) system descriptor
+b) gate descriptor
+c) system descriptor and gate descriptor
+d) none of the mentioned
+c
+2. Which of the following is a type of gate descriptor?
+a) call gate
+b) task gate
+c) interrupt gate
+d) all of the mentioned
+d
+3. The gate descriptor contains the information of
+a) destination of control transfer
+b) stack manipulations
+c) privilege level
+d) all of the mentioned
+d
+4. The gate that is used to alter the privilege levels is
+a) call gate
+b) task gate
+c) interrupt gate
+d) trap gate
+a
+5. The gate that is used to specify a corresponding service routine is
+a) call gate and trap gate
+b) task gate and interrupt gate
+c) interrupt gate and trap gate
+d) task gate and trap gate
+c
+6. The gate that is used to switch from one task to another is
+a) trap gate
+b) task gate
+c) task gate and trap gate
+d) none of the mentioned
+b
+7. The gate that uses word count field is
+a) trap gate
+b) task gate
+c) interrupt gate
+d) call gate
+d
+8. The memory that maintains the most frequently required data for execution, in a high speed memory is called
+a) virtual memory
+b) physical memory
+c) cache memory
+d) ROM (read only memory)
+c
+9. The selector field consists of
+a) requested privilege level (RPL)
+b) table indicator
+c) index
+d) all of the mentioned
+d
+10. If table indicator, TI=0, then the descriptor table selected is
+a) local descriptor table
+b) global descriptor table
+c) local and global descriptor table
+d) none of the mentioned
+b
+11. The instruction that is executed at privilege level zero (0) is
+a) LDT
+b) LGDT and LLDT
+c) GDT
+d) None of the mentioned
+b
+12. The instruction that loads a selector which refers to a local descriptor table, containing the base address and limit for LDT is
+a) LGT
+b) GDT
+c) LGDT
+d) LLDT
+d
+13. The descriptor that is used to store task gates, interrupt gates and trap gates is
+a) system descriptor table
+b) gate descriptor table
+c) interrupt descriptor table
+d) none of the mentioned
+c
+14. The number of interrupt descriptors that the interrupt descriptor table (IDT) handles is
+a) 16
+b) 64
+c) 128
+d) 256
+d
+15. The number of bytes required for an interrupt in an IDT is
+a) 2
+b) 4
+c) 6
+d) 8
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice advanced questions and answers on all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Protected Virtual Address Mode (PVAM) -1» Next - Microprocessors Questions and Answers – Privilege 

@@ -1,0 +1,68 @@
+1. _______ runs a database command against the admin database of a mongos instance.
+a) sh._checkFullName()
+b) sh._adminCommand()
+c) sh.getBalancerLockDetails()
+d) all of the mentioned
+b
+2. Point out the correct statement.
+a) The unique constraint on indexes ensures that only one document can have a value for a field in a collection
+b) MongoDB support creating new unique indexes in sharded collections
+c) If you use a compound shard key, you cannot enforce uniqueness on the combination of component keys in the shard key
+d) All of the mentioned
+a
+3. ________ tests to see if the mongo shell is connected to a mongos instance.
+a) sh._checkMongos()
+b) sh.addShard()
+c) sh._lastMigration()
+d) all of the mentioned
+a
+4. _______ reports on the active balancer lock, if it exists.
+a) sh._checkFullName()
+b) sh._adminCommand()
+c) sh.getBalancerLockDetails()
+d) all of the mentioned
+c
+5. Point out the wrong statement.
+a) The best way to ensure a field has unique values is to generate universally unique identifiers (UUID,) such as MongoDB’s ‘ObjectId values
+b) Most deployments will not need to shard the files collection
+c) The files collection is typically small, and only contains metadata
+d) None of the mentioned
+d
+6. _________ reports on the last chunk migration.
+a) sh._checkMongos()
+b) sh.addShard()
+c) sh._lastMigration()
+d) all of the mentioned
+c
+Join Sanfoundry@YouTube
+7. _________ removes an association between a range shard keys and a shard tag.
+a) sh.removeTagRange()
+b) sh._checkMongos()
+c) sh.disableBalancing()
+d) none of the mentioned
+a
+8. _________ disable balancing on a single collection in a sharded database.
+a) sh.removeTagRange()
+b) sh._checkMongos()
+c) sh.disableBalancing()
+d) none of the mentioned
+c
+9. _______ activates the sharded collection balancer process if previously disabled using sh.disableBalancing().
+a) sh.getBalancerHost()
+b) sh.enableBalancing()
+c) sh.enableSharding()
+d) all of the mentioned
+a
+10. ________ returns a boolean to report if the balancer is currently enabled.
+a) sh.getBalancerHost()
+b) sh.enableBalancing()
+c) sh.getBalancerState()
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Troubleshooting Sharded Cluster» Next - MongoDB Questions and Answers – Sharded Cluster Data Management – 2 

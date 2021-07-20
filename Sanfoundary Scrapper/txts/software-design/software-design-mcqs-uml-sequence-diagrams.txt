@@ -1,0 +1,84 @@
+1. What is the Interaction diagram?
+a) Interaction diagrams are the UML notations for dynamic modeling of collaborations
+b) Interaction diagrams are a central focus of engineering design
+c) All of the mentioned
+d) None of the mentioned
+c
+2. What are the different interaction diagram notations does UML have?
+a) A sequence diagram
+b) A communication diagram
+c) An interaction overview diagram
+d) All of the mentioned
+d
+3. What is a sequence diagram?
+a) A diagram that shows interacting individuals along the top of the diagram and messages passed among them arranged in temporal order down the page
+b) A diagram that shows messages superimposed on a diagram depicting collaborating individuals and the links among them
+c) A diagram that shows the change of an individual’s state over time
+d) All of the mentioned
+a
+4. Which of the following is true about Sequence frames?
+a) A sequence diagram has a frame consisting of a rectangle with a pentagon in its upper left-hand corner
+b) The pentagon is its name compartment; the interaction is represented inside the rectangle
+c) The string in the name compartment has the form sd interaction Identifier where interaction Identifier is either a simple name or an operation specification with the same format as in a class diagram
+d) All of the mentioned
+d
+5. What is a lifeline?
+a) It is a frame consisting of a rectangle with a pentagon in its upper left-hand corner
+b) It is a rectangle containing an identifier with a dashed line extending below the rectangle
+c) It is a name compartment; the interaction is represented inside the rectangle
+d) None of the mentioned
+b
+6. What does a message mean?
+a) It Passes all communications from one object to another and are represented by message arrows in sequence diagrams
+b) The message goes from the sending object’s lifeline to the receiving object’s lifeline
+c) It is a rectangle containing an identifier with a dashed line extending below the rectangle
+d) All of the mentioned
+a
+7. What are the three different types of message arrows?
+a) Synchronous, asynchronous, asynchronous with instance creation
+b) Self, Multiplied, instance generator
+c) Synchronous, Asynchronous, synchronous with instance creation
+d) None of the mentioned
+c
+8. Which of these are true with respect to the message arrows?
+a) The synchronous message arrow is used when a sending individual continues execution after sending the message
+b) The asynchronous message arrow is used when a sending individual suspends execution after sending the message
+c) The dashed arrow is used either to show the return of control from a synchronous message or to create a new entity
+d) All of the mentioned
+c
+9. When is the operation executing, suspended and active?
+a) An operation is executing when some process is actually running its code
+b) An operation is suspended when it sends a synchronous message and it is waiting for the message to return
+c) An operation is active when it is either executing or suspended
+d) All of the mentioned
+d
+10. What is the interaction fragments?
+a) A fragment which is a  rectangular frame with a pentagonal operation compartment in the upper left-hand corner
+b) A fragment which has a marked part of an interaction specification
+c) The regions resulting from these divisions will not hold the interaction fragment operations
+d) All of the mentioned
+d
+11. Which of the following is true for optional fragments?
+a) An optional fragment is a portion of an interaction that may be done
+b) The fragment operator name is opt
+c) Optional fragments have only a single operand, which must contain a guard
+d) All of the mentioned
+d
+12. What is break fragment?
+a) An fragment which has one or more guarded operands whose guards are mutually exclusive—that is, at most one of them can be true at any time
+b) A fragment which has a single operand that is performed instead of the remainder of the enclosing fragment or diagram if the operand guard is true
+c) A fragment which has a single operand that may or may not have a guard
+d) None of the mentioned
+b
+13. What are the heuristics which the sequencing diagram follows?
+a) Put pairs of lifelines that interact heavily next to one another
+b) Position lifelines to make message arrows as short as possible
+c) Position lifelines to make message arrows go from left to right
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Software Architecture and Design.
+To practice all areas of Software Design and Architecture,  here is complete set of 1000+ Multiple Choice Questions and Answers on Software Design and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Software Design Questions and Answers – Static Modelling Heuristics» Next - Software Design Questions and Answers – Interaction Design Process And Interaction Modelling Heuristics 

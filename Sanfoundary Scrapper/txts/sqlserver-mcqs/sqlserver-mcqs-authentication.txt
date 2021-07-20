@@ -1,0 +1,78 @@
+1. Which of the following code is used to enable the sa login?
+a)
+ALTER LOGIN sa ENABLE ;
+GO
+ALTER LOGIN sa WITH PASSWORD = '<enterStrongPasswordHere>' ;
+GO
+b)
+ALTER LOGIN sa DISABLE ;
+GO
+ALTER LOGIN sa WITH PASSWORD = '<enterStrongPasswordHere>' ;
+GO
+c)
+ALTER LOGIN sa ENABLE ;
+GO
+ALTER LOGIN san WITH PASSWORD = '<enterStrongPasswordHere>' ;
+GO
+d) None of the mentioned
+a
+2. Point out the correct statement.
+a) SQL Server 2008 offers three authentication mode options
+b) Microsoft’s best practice recommendation is that you use Windows authentication mode whenever possible
+c) If you use mixed authentication mode, you should enable the DBA’s Windows account
+d) None of the mentioned
+b
+3. Which of the following feature prefers SQL Server authentication mode over windows authentication?
+a) Backward compatibility
+b) Forward compatibility
+c) Security
+d) All of the mentioned
+a
+4. Windows Authentication Mode is not available when an instance of SQL Server is running on ____________
+a) Windows 98
+b) Windows 7
+c) Windows 95
+d) All of the mentioned
+a
+5. Point out the wrong statement.
+a) Windows authentication mode dramatically reduces the chances of error or oversight
+b) Account administration details in windows mode is stored in passive directory
+c) The sa account is a well-known SQL Server account and it is often targeted by malicious users
+d) All of the mentioned
+b
+6. Which of the following authentication modes is more secure?
+a) SQL Server Authentication
+b) Windows Authentication
+c) Mixed Mode
+d) All of the mentioned
+b
+7. By using Windows Authentication, Windows groups can be created at the _________ level.
+a) Login
+b) Domain
+c) User
+d) None of the mentioned
+b
+8. ________ optional password policies are available for SQL Server logins.
+a) 2
+b) 3
+c) 5
+d) All of the mentioned
+b
+9. Which of the following is the biggest disadvantage of SQL Server Authentication mode?
+a) SQL Server Authentication cannot use Kerberos security protocol
+b) Allows SQL Server to support Web-based applications where users create their own identities
+c) Allows SQL Server to support older applications and applications provided by third parties that require SQL Server Authentication
+d) None of the mentioned
+a
+10. The Windows password policies enforced for SQL Server logins depends upon _____________________ API.
+a) NetValidate
+b) NetValidatePasswordPolicy
+c) NetValidatePolicy
+d) ValidatePasswordPolicy
+b
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Clustering» Next - SQL Server Questions and Answers – Securables 

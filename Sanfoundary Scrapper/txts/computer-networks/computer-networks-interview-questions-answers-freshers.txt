@@ -1,0 +1,66 @@
+1. The receiver of the data controls the amount of data that are to be sent by the sender is referred to as ___________
+a) Flow control
+b) Error control
+c) Congestion control
+d) Error detection
+a
+2. Size of TCP segment header ranges between ___________
+a) 16 and 32 bytes
+b) 16 and 32 bits
+c) 20 and 60 bytes
+d) 20 and 60 bits
+c
+3. Connection establishment in TCP is done by which mechanism?
+a) Flow control
+b) Three-Way Handshaking
+c) Forwarding
+d) Synchronization
+b
+4. The server program tells its TCP that it is ready to accept a connection. This process is called ___________
+a) Active open
+b) Active close
+c) Passive close
+d) Passive open
+d
+5. A client that wishes to connect to an open server tells its TCP that it needs to be connected to that particular server. The process is called ___________
+a) Active open
+b) Active close
+c) Passive close
+d) Passive open
+a
+6. In Three-Way Handshaking process, the situation where both the TCP’s issue an active open is ___________
+a) Mutual open
+b) Mutual Close
+c) Simultaneous open
+d) Simultaneous close
+c
+7. A malicious attacker sends a large number of SYNC segments to a server, pretending that each of them is coming from a different client by faking the source IP address in the datagram. Which type of attack is being performed in this situation?
+a) SYNC flooding attack
+b) Active attack
+c) Passive attack
+d) Denial-of-service attack
+a
+8. SYNC flooding attack belongs to a type of security attack known as ___________
+a) SYNC flooding attack
+b) Active attack
+c) Passive attack
+d) Denial-of-service attack
+d
+9. The sizes of source and destination port address in TCP header are ___________ respectively.
+a) 16-bits and 32-bits
+b) 16-bits and 16-bits
+c) 32-bits and 16-bits
+d) 32-bits and 32-bits
+b
+10. What allows TCP to detect lost segments and in turn recover from that loss?
+a) Sequence number
+b) Acknowledgment number
+c) Checksum
+d) Both Sequence & Acknowledgment number
+b
+Sanfoundry Global Education & Learning Series – Computer Networks.
+To practice all areas of Computer Networks for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Networks Questions & Answers – TCP-1» Next - Computer Networks Questions & Answers – UDP 

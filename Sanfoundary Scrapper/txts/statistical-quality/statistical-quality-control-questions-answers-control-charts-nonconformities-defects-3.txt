@@ -1,0 +1,105 @@
+1. If there is variable sample size to be used with the u-chart or average number of nonconformity per unit chart, which of these methods, is used?
+a) DMAIC
+b) Designing of Experiments
+c) Acceptance sampling
+d) Standardized control chart
+d
+2. The method of average sample size is used when there is _____
+a) Variable sample size
+b) Constant sample size
+c) Sample size=1
+d) Sample Size=10
+a
+3. In the average sample size approach to design u-chart with variable sample size, which of these is used to calculate the average sample size?
+a) \(\bar{n}=\frac{\sum_{i=0}^m n_i}{m}\) 
+b) \(\bar{n}=\frac{\sum_{i=1}^m u_i}{2m}\) 
+c) \(\bar{n}=\frac{\sum_{i=1}^m n_i}{m}\) 
+d) \(\bar{n}=\frac{\sum_{i=1}^n u_i}{m}\) 
+c
+\(\bar{n}=\frac{\sum_{i=1}^m n_i}{m}\)
+4. In a demerit system for defects, how many classes are defined for defects to be classified?
+a) 3
+b) 4
+c) 5
+d) 8
+b
+5. Serious defects are put into which class according to the Demerit system for attribute data?
+a) Class C
+b) Class D
+c) Class A
+d) Class B
+d
+6. The Class A defects are ____________
+a) Moderate
+b) Minor
+c) Serious
+d) Very Serious
+d
+7. The minor defects are put into class ____________ of the demerit system.
+a) A
+b) B
+c) C
+d) D
+a
+8. The minor finish, appearance, or quality of work defects are generally classified in _____ of the demerit system.
+a) Class A
+b) Class D
+c) Class C
+d) Class B
+b
+9. Moderate defects are classified into which class of demerit system?
+a) Class B
+b) Class C
+c) Class D
+d) Class A
+a
+10. The number of demerits in a system having ciA,ciB,ciC,and ciD  defects in classes A, B, C, and D respectively is expressed by ______ It is assumed that the probability of each defect varies according to a Poisson distribution.
+a) di = 100ciD + 50ciB + 10ciC + ciA
+b) di = 100ciA + 50ciB + 10ciC + ciD
+c) di = 100ciB + 50ciA + 10ciC + ciD
+d) di = 100ciA + 50ciC + 10ciB + ciD
+b
+di = 100ciA + 50ciB + 10ciC + ciD.
+11. If there are 8, 12, 11, 3, 6 demerits in sample number 1, 2, 3, 4, and 5 respectively, what will be the demerits per units for the mentioned output?
+a) 8
+b) 11
+c) 3
+d) 5
+a
+\(u_i=\frac{D}{n}\) 
+Where D=\(\sum_{i=1}^n d_i\) = 40 and n=5. We get ui=8
+12. The upper control limit for the demerits per unit chart is given by _____
+a) UCL = \(\bar{u}-3\widehat{σ_u}\) 
+b) UCL = \(\bar{u}+3\widehat{σ_u}\) 
+c) UCL = \(\bar{u}+\widehat{σ_u}\) 
+d) UCL = \(\bar{u}-\widehat{σ_u}\) 
+b
+UCL = \(\bar{u}+3\widehat{σ_u}\) 
+Where \(\bar{u}=100\overline{u_A}+50\overline{u_B}+10\overline{u_C}+\overline{u_D}\)
+13. What is the value of the center line of the demerits per unit?
+a) \(\bar{u}+3\sqrt{\bar{u}}\) 
+b) \(\bar{u}\) 
+c) \(\bar{u}+\frac{1}{2}\sqrt{\bar{u}}\) 
+d) \(\bar{u}-3\sqrt{\bar{u}}\) 
+b
+CL = u
+14. A serious defect is defined as the defect which makes the unit totally unfit for use.
+a) True
+b) False
+b
+15. For construction of the control charts for nonconformities, the inspection unit must be same for each sample.
+a) True
+b) False
+a
+16. The defects which affect the proper working of the unit in the service arena, are called ____________
+a) Appearance Defects
+b) Functional Defects
+c) Specification Defects
+d) Aspect defects
+b
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Attribute Charts – Control Charts for Nonconformities (Defects) – 2» Next - Statistical Quality Control Questions and Answers – Attribute Charts – Choice between Attributes and Variable Control Charts – 1 

@@ -1,0 +1,79 @@
+1. Specify the voltage gain of non-inverting amplifier with feedback amplifier with and without feedback?
+a) A= Vo/Vid,  AF = Vf/Vo
+b) A= Vf/Vid,  AF=  Vo/Vf
+c) A= Vo/Vid,  AF=  Voin
+d) A= Vf/Vid,   AF =  Vf/Vin
+c
+2. If the feedback voltage and the output voltage are given as 10v and 4v. Find the gain of the feedback circuit in voltage-series feedback amplifier?
+a) 2.5v
+b) 40v
+c) 3v
+d) 6.2v
+a
+3. How is the difference voltage calculated in closed loop non-inverting amplifier?
+a) Vid= Vo – Vf
+b) Vid=  Vin – Vf
+c) Vid=  Vo – Vin
+d) Vid=  Vf – Vin
+b
+4. Why the feedback circuit is said to be negative for voltage series feedback amplifier?
+a) Feedback voltage is 180o out of phase with respect to input voltage
+b) Input voltage is 180o out of phase with respect to feedback voltage
+c) Feedback voltage is in same phase with respect to input voltage
+d) Input voltage is in same phase with respect to feedback voltage
+a
+5. Determine the closed loop voltage gain from the given circuit. (Where gain of op-amp= 105).
+a) 1090.9
+b) 9821.43
+c) 9166.66
+d) 10000
+b
+=> AF = 9821.43.
+6. Express closed loop voltage gain (AF) in terms of open loop gain (A) and feedback circuit gain (B)?
+a) AF = A/AB
+b) AF = 1+ (A/AB)
+c) AF = A/(1+AB)
+d) AF = AB/(1+A)
+c
+7. Which factor determines the gain of the voltage series feedback amplifier?
+a) Open loop voltage gain
+b) Feedback voltage
+c) Ratio of two resistors
+d) Gain of feedback circuit
+c
+8. For the feedback circuit of voltage series feedback amplifier, find the feedback voltage for the specifications: R1=1kΩ, RF = 10kΩ and Vo= 25v.
+a) 12.5v
+b) 22v
+c) 0.9v
+d) 2.3v
+d
+The feedback voltage, Vf = (R1*Vo)/(R1+RF) = (1kΩ*25v)/(1kΩ+10kΩ) = 2.272v ≅ 2.3v.
+9. What must be the value of external components used in voltage series feedback amplifier?
+a) Less than 1MΩ
+b) Less than 10MΩ
+c) Less than 100MΩ
+d) Less than 0.1MΩ
+a
+10. Find the block diagram representation of non-inverting amplifier with feedback?
+a
+11. Define the input resistance with feedback for voltage series feedback amplifier?
+a) RIF = (1-AB)
+b) RIF = (AB-1)
+c) RIF = (1+AB)
+d) None of the mentioned
+c
+12. When the non-inverting input terminal of an op-amp is equal to that of the inverting input terminal (ideally)
+a) a–>∞
+b) Vid ≅ 0
+c) AF = 1+( RF / R1)
+d) All of the mentioned
+d
+=> Vid≅0 (∵Vin1= Vin2)
+The open loop voltage gain, A= Vo/ Vid = Vo/0 = ∞ and
+the closed loop voltage gain, AF= Vo/ Vin = 1+ (RF/ R1).
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Block Diagram Representation of Feedback Configurations» Next - Linear Integrated Circuit Questions and Answers – Voltage Series Feedback Amplifier – 2 

@@ -1,0 +1,89 @@
+1. For searching a character, ___ and ___ are used.
+a) f, t
+b) n, w
+c) e, d
+d) k, n
+a
+2. For moving the cursor forward to the first occurrence of a character, __ is used.
+a) d
+b) t
+c) f
+d) n
+c
+fch                // moves the cursor forward to the first occurrence of ch
+3.  t command positions the cursor a single character before the occurrence.
+a) True
+b) False
+a
+4. __ and __ commands works in a reverse manner as f and t.
+a) F, T
+b) tf, ft
+c) z, x
+d) ff, tt
+a
+Join [email protected]
+5. For repeating the character search , and ; are used.
+a) True
+b) False
+a
+6. For customizing vi, which of the following command is used?
+a) set
+b) map
+c) abbr
+d) set, map, abbr
+d
+7. vi environment is determined by variable settings. These variables are controlled by ____ command.
+a) :set
+b) :abbr
+c) :map
+d) autowrite
+a
+8. For automatic indentation, ____ is used with : set command.
+a) autowrite
+b) autoindent
+c) automode
+d) showmode
+b
+:set  autoindent
+ 
+9. Which of the following is used with :set to customize vi to ignore case in pattern searches?
+a) nomatch
+b) ignorecase
+c) nocase
+d) nomagic
+b
+:set  ignorecase        // case-insensitive search
+10. To change the default tab stop spaces in vi, ___ can be used with :set.
+a) nomagic
+b) tabstop=n
+c) tab
+d) tabchange
+b
+11. Which command is used for mapping keys of a keyboard?
+a) set
+b) map
+c) abbr
+d) autowrite
+b
+12. /* and f* are same.
+a) True
+b) False
+b
+13. For compiling a C program without leaving the editor, which command will be used?
+a) cc %
+b) :! Cc
+c) :!cc %
+d) :!c
+c
+14. Which of the following statement is not true?
+a) f and t commands are used for searching a character
+b) y and yy are same
+c) vi has 26 named buffers
+d) :e# is used for toggling between files
+b
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix Questions and Answers – Handling Multiple Files and Buffers» Next - Unix  Questions and Answers – System Calls Basics – 1 

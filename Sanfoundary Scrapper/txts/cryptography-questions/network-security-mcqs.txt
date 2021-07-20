@@ -1,0 +1,101 @@
+1. Number of phases in the handshaking protocol?
+a) 2
+b) 3
+c) 4
+d) 5
+c
+Phase 1 : Establishing security capabilities
+Phase 2 : Server Authentication and Key Exchange
+Phase 3 : Client Authentication and Key Exchange
+Phase 4 : Finish/ End.
+2. In the SSL record protocol operation pad_2 is –
+a) is the byte 0x36 repeated 40 times for MD5
+b) is the byte 0x5C repeated 48 times for MD5
+c) is the byte 0x5C repeated 48 times for SHA-1
+d) is the byte 0x36 repeated 48 times for MD5
+b
+3.In the SSL record protocol operation pad_1 is –
+a) is the byte 0x36 repeated 40 times for MD5
+b) is the byte 0x5C repeated 40 times for MD5
+c) is the byte 0x5C repeated 48 times for SHA-1
+d) is the byte 0x36 repeated 48 times for MD5
+d
+4. In the Handshake protocol action,  which is the last step of the Phase 2 : Server Authentication and Key Exchange?
+a) server_done
+b) server_key_exchange
+c) certificate_request
+d) crtificate_verify
+a
+5. Which is the key exchange algorithm used in CipherSuite parameter?
+a) RSA
+b) Fixed Diffie-Hellman
+c) Ephemeral Diffie-Hellman
+d) Any of the mentioned
+d
+i) RSA
+ii) Fixed Diffie-Hellman
+iii) Ephemeral Diffie-Hellman
+iv) Anonymous Diffie-Hellman
+v) Fortezza.
+6.The certificate message is required for any agreed-on key exchange method except _______________
+a) Ephemeral Diffie-Hellman
+b) Anonymous Diffie-Hellman
+c) Fixed Diffie-Hellman
+d) RSA
+b
+7. In the Phase 2 of the Handshake Protocol Action, the step server_key_exchange is not needed for which of the following cipher systems?
+a) Fortezza
+b) Anonymous Diffie-Hellman
+c) Fixed Diffie-Hellman
+d) RSA
+c
+8. The DSS signature uses which hash algorithm?
+a) MD5
+b) SHA-2
+c) SHA-1
+d) Does not use hash algorithm
+c
+9. The RSA signature uses which hash algorithm?
+a) MD5
+b) SHA-1
+c) MD5 and SHA-1
+d) None of the mentioned.
+c
+10. What is the size of the RSA signature hash after the MD5 and SHA-1 processing?
+a) 42 bytes
+b) 32 bytes
+c) 36 bytes
+d) 48 bytes
+c
+11. The certificate_request massage includes two parameters, one of which is-
+a) certificate_extension
+b) certificate_creation
+c) certificate_exchange
+d) certificate_type
+d
+12. The client_key_exchange message uses a pre master key of size –
+a) 48 bytes
+b) 56 bytes
+c) 64 bytes
+d) 32 bytes
+a
+13. The certificate_verify message involves the process defined by the pseudo-code (in terms of MD5) –
+CertificateVerify.signature.md5_hash = MD5(master_secret || pad_2 || MD5(handshake_messages || master_secret || pad_1).
+Is there any error? If so, what is it?
+a) Yes. pad_1 and pad_2 should be interchanged
+b) Yes. pad’s should be present towards the end
+c) Yes. master_key should not be used, the pre_master key should be used
+d) No Error
+d
+14. In the handshake protocol which is the message type first sent between client and server ?
+a) server_hello
+b) client_hello
+c) hello_request
+d) certificate_request
+b
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Security Questions and Answers – Secure Socket Layer – I» Next - Network Security Questions and Answers – Transport Layer Security and HTTPS 

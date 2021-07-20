@@ -1,0 +1,96 @@
+1. How are the arbitrary signal represented, that are applied to the input of transistor? (Assume common mode signal and differential mode signal to be VCM & VDM respectively).
+a) Sum of VCM & VDM
+b) Difference of VCM & VDM
+c) Sum and Difference of VCM & VDM
+d) None of the mentioned
+c
+2. How the differential mode gain is expressed using ‘h’ parameter for a single ended output?
+a) – hfeRC/hie
+b) 1/2×(hfeRC)/hie
+c) – 1/2×hfeRC
+d) None of the mentioned
+b
+3. Find Common Mode Rejection Ration, given gm =16MΩ-1, RE=25kΩ
+a) 58 db
+b) 40 db
+c) 63 db
+d) 89 db
+a
+⇒ CMRR = 1+(2×16MΩ-1×25kΩ)
+        = 801 = 20log⁡801 = 58.07 db. 
+4. In differential amplifier the input are given as  V1=30sin⁡Π(50t)+10sin⁡Π(25t)  , V2=30sin⁡Π(50t)-10 sin⁡Π(25t), β0 =200,RE =1kΩ and RC = 15kΩ. Find the output voltages V01, V02 & gm=4MΩ-1
+a) V01=-60[10 sin⁡Π(25t) ]-6.637[30sin⁡Π(50t) ], V02=60[10 sin⁡Π(25t) ]-6.637[30sin⁡Π(50t) ].
+b) V01=-6.637[10 sin⁡Π(25t) ]-60[30sin⁡Π(50t) ], V02=6.637[10 sin⁡Π(25t) ]-60[30sin⁡Π(50t) ].
+c) V01=-60[30 sin⁡Π(50t) ]-6.637[10sin⁡Π(25t) ], V02=60[30 sin⁡Π(50t) ]-6.637[10sin⁡Π(25t) ].
+d) V01=-6.637[30 sin⁡Π(50t) ]-60[10sin⁡Π(25t) ], V02=6.637[30 sin⁡Π(50t) ]-60[10sin⁡Π(25t) ].
+a
+⇒ ADM = -4MΩ-1×15kΩ = 60
+⇒ rΠ=β0/gm =200/4MΩ-1 =50kΩ
+Common mode gain, ACM=-βo×RC/rΠ+(βO+1)×RE
+⇒ ACM =-200×15kΩ/50kΩ+2(1+200)×1kΩ=-6.637
+Common mode signal, VCM=(V1+V2)/2= 30sin⁡Π(50t)
+Differential mode signal, VDM=(V1-V2)/2= 10 sin⁡Π(25t)
+Output voltages are given as
+⇒ V01=ADM)× VDM)+ ACM× VCM
+                 = -60[10 sin⁡Π(25t)]-6.637[30sin⁡Π(50t)],
+⇒ V02=-ADM× VDM+ ACM× VCM
+                = 60[10 sin⁡Π(25t)]-6.637[30sin⁡Π(50t)]. 
+5. If the value of Common Mode Rejection Ratio and Common Mode Gain are 40db and -0.12 respectively, then determine the value of differential mode gain
+a) 0.036
+b) -1.2
+c) 4.8
+d) 12
+d
+⇒ CMRR =(∣ADM∣/ ∣ACM∣)
+⇒ ∣ADM∣ =100×0.12 = 12. 
+6. To increase the value of CMRR, which circuit is used to replace the emitter resistance Re in differential amplifier?
+a) Constant current bias
+b) Resistor in parallel with Re
+c) Resistor in series with Re
+d) Diode in parallel with Re
+a
+7. What is the purpose of diode in differential amplifier with constant current circuit?
+a) Total current independent on temperature
+b) Diode is dependent of temperature
+c) Transistor is depend on temperature
+d) None of the mentioned
+a
+8. How to improve CMRR value
+a) Increase common mode gain
+b) Decrease common mode gain
+c) Increase Differential mode gain
+d) Decrease differential mode gain
+b
+9. Define total current (IQ) equation in differential amplifier with constant current bias current
+a) IQ=1/R3×(VEE/R1+R2)
+b) IQ =(VEE×R2)/(R1+R2)
+c) IQ=1/R3×(VEE×R2/R1+R2)
+d) IQ)=R3×(VEE/R1+R2)
+c
+10. Constant current source in differential amplifier is also called as
+a) Current Mirror
+b) Current Source
+c) Current Repeaters
+d) All of the mentioned
+a
+11. When will be the mirror effect valid
+a) β≫1
+b) β=1
+c) β<1
+d) β≠1
+a
+12. Calculate the value of reference current and input resistor for current mirror with IC=1.2μA & VCC=12v. Assume β=50.
+a) 1.248mA, 9kΩ
+b) 1.248mA, 9.6kΩ
+c) 1.248mA, 9.2kΩ
+d) 1.2mA, 9.6kΩ
+a
+⇒ Iref=(β+2)/β×IC= (50+2)/50× 1.2μA = 1.248mA
+⇒ Iref=(VCC-VBE)/R1
+⇒ R1=(12v-07v)/1.248mA = 9.05kΩ. 
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Operational Amplifier Internal Circuit – 1» Next - Linear Integrated Circuit Questions and Answers – Operational Amplifier Internal Circuit – 3 

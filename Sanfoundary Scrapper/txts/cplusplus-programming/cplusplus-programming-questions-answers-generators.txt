@@ -1,0 +1,96 @@
+1. What are the Generators in C++?
+a) An object that generates uniformly distributed numbers
+b) An object that generates a number from a given sequence
+c) An object that generates the smallest number from a given range
+d) An object that generates unique numbers
+a
+2. What are Distributions in C++?
+a) Objects that converts a sequence into a sequence having an ascending order
+b) Objects that converts a sequence into a sequence having specific random variable distribution
+c) Objects that converts a sequence into a sequence having a descending order
+d) Objects that converts a sequence into a sequence having only the smallest, largest and median
+b
+3. Which header file is used for generating random numbers?
+a) <gen_dist>
+b) <distribution>
+c) <generator>
+d) <random>
+d
+4. What is Pseudo-random number engines?
+a) Uses user input for random number generation
+b) Uses an algorithm that does not require any initial seed to generate random numbers
+c) Uses initial seed based algorithm to generate random numbers
+d) Random number generates depends on the program
+c
+5. How many Pseudo-random number engines are there?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+6. What is linear_congruential_engine?
+a) Pseudo-random number engine that generates random unsigned integers in the range [0, 2w-1] for some w using Mersenne Twister algorithm
+b) Pseudo-random number engine that generates random unsigned integers
+c) Pseudo-random number engine that generates random unsigned integers in the range [0, 2w-1] for some w using lagged Fibonacci generator
+d) Pseudo-random number engine that generates random signed integers in the range [0, 2w-1] for some w using Mersenne Twister algorithm
+b
+7. What are different operations are used in Pseudo-random number engines?
+a) operator()
+b) min()
+c) max()
+d) all of the mentioned
+d
+8. What is mersenne_twister_engine?
+a) Pseudo-random number engine that generates random unsigned integers
+b) Pseudo-random number engine that generates random unsigned integers in the range [0, 2w-1] for some w using Mersenne Twister algorithm
+c) Pseudo-random number engine that generates random unsigned integers in the range [0, 2w-1] for some w using lagged Fibonacci generator
+d) Pseudo-random number engine that generates random signed integers in the range [0, 2w-1] for some w using Mersenne Twister algorithm
+b
+9. What is subtract_with_carry_engine?
+a) Pseudo-random number engine that generates random unsigned integers
+b) Pseudo-random number engine that generates random unsigned integers in the range [0, 2w-1] for some w using Mersenne Twister algorithm
+c) Pseudo-random number engine that generates random unsigned integers in the range [0, 2w-1] for some w using lagged Fibonacci generator
+d) Pseudo-random number engine that generates random signed integers in the range [0, 2w-1] for some w using Mersenne Twister algorithm
+c
+10. What is a Random number generator?
+a) A generator that generates deterministic random numbers
+b) A generator that generates both non-deterministic random numbers and deterministic random numbers
+c) A generator that generates non-deterministic random numbers
+d) A generator that generates a simple random number
+c
+11. What is random_device?
+a) A pseudo-random number generator
+b) Time-dependent random number generator
+c) Simple random number generator
+d) A true random number generator
+d
+12. Which algorithm is used in subtract_with_carry_engine?
+a) Mersenne Twister algorithm
+b) Lagged fibonacci generator algorithm
+c) Either the Mersenne Twister algorithm or Lagged fibonacci generator algorithm
+d) Fibonacci generator
+b
+13. What is the default random engine?
+a) Random number engine that generates pseudo-random numbers
+b) Mersenne Twister 19937 generator generating 32-bit true random number
+c) Random number engine that generates true random numbers
+d) Mersenne Twister 19937 generator generating 32-bit pseudo random number
+a
+14. What are Engine Adaptors?
+a) Class template that adopts a pseudo-random number generator engine
+b) Class template that adopts a pseudo-random number generator engine to produce numbers with a given numbers of bits
+c) Random number engine that generates pseudo-random numbers
+d) Mersenne Twister 19937 generator generating 32-bit true random number
+b
+15. How many Engine Adaptors are there in C++?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – vtable and vptr» Next - C++ Programming Questions and Answers – Array Type Manipulation 

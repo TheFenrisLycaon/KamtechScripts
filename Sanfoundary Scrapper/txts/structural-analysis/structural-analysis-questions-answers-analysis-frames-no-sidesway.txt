@@ -1,0 +1,98 @@
+AB = 12m, BC= 8m
+Assume EI to be constant throughout. All moment options are given in N-m and all force options are given in N.
+FEM represent fixed end moments.
+1. This beam is a sway frame.
+State whether this statement is true or false.
+a) true
+b) false
+b
+2. If value of EI in right frame member was twice that of the left one then this frame will be a sway one.
+State whether this statement is true or false.
+a) true
+b) false
+a
+3. What will be the value of FEMBC?
+a) 80
+b) -80
+c) -160
+d) 160
+b
+4. What will be the value of FEMCB?
+a) 80
+b) -80
+c) -160
+d) 160
+a
+Join [email protected]
+5. What will be the value of rotation at point A?
+a) 137.1/EI
+b) -137.1/EI
+c) 0
+d) 100/EI
+c
+6. What will be the value of rotation at point D?
+a) 137.1/EI
+b) -137.1/EI
+c) 0
+d) 100/EI
+c
+7. How many deflection unknowns will be there in this case for which we would need equations?
+a) 0
+b) 1
+c) 2
+d) 3
+a
+8. How many unknowns will be left finally which are non-zero?
+a) 0
+b) 1
+c) 2
+d) 3
+c
+9. How many total slope deflection equations will be written in this question?
+a) 8
+b) 6
+c) 4
+d) 3
+b
+10. What will be the FEMAB ?
+a) 80
+b) -80
+c) 0
+d) 160
+c
+11. Which of the following set of points should be chosen to generate extra equations?
+a) A and B
+b) B and C
+c) C and D
+d) D and A
+b
+12. What will be one of the extra condition, which we will get if we conserve moment near joint B?
+a) mBA + mCA = 0
+b) mBA + mCB = 0
+c) mBA + mBC = 0
+d) mAB + mBC = 0
+c
+13. What will be one of the extra condition, which we will get if we conserve moment near joint C?
+a) mBA + mCA = 0
+b) mBA + mCB = 0
+c) mBA + mBC = 0
+d) mCD + mCB = 0
+D
+14. What will be the value of rotation at point B?
+a) 137.1/EI
+b) -137.1/EI
+c) 0
+d) 100/EI
+a
+15. What will be the value of rotation at point C?
+a) 137.1/EI
+b) -137.1/EI
+c) 0
+d) 100/EI
+b
+Sanfoundry Global Education & Learning Series – Structural Analysis.
+To practice all areas of Structural Analysis, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Structural Analysis Questions and Answers – Analysis of Beams-5» Next - Structural Analysis Questions and Answers – Analysis of Frames : No Sidesway-II 

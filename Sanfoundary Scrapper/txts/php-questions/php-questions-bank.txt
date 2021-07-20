@@ -1,0 +1,93 @@
+1. What will be the output of the following PHP code?
+<?php$x = 10;$y = 20;if ($x > $y + $y != 3)    print "hi" ;else    print "how are u";?>
+a) how are u
+b) hi
+c) error
+d) no output
+b
+2. What will be the output of the following PHP code?
+<?php$x = 10;$y = 20;if ($x > $y && 1||1)    print "hi" ;else    print "how are u";?>
+a) how are u
+b) hi
+c) error
+d) no output
+b
+3. What will be the output of the following PHP code?
+<?php$x = 10;$y = 20;if ($x > $y && 1||1)    print "hi" ;else    print "how are u";?>
+a) how are u
+b) hi
+c) error
+d) no output
+b
+4. What will be the output of the following PHP code?
+<?phpif (-100)    print "hi" ;else    print "how are u";?>
+a) how are u
+b) hi
+c) error
+d) no output
+b
+5. What will be the output of the following PHP code?
+<?phpif (0.1)    print "hi" ;else    print "how are u";?>
+a) how are u
+b) hi
+c) error
+d) no output
+b
+6. What will be the output of the following PHP code?
+<?phpif (0.0)    print "hi" ;else    print "how are u";?>
+a) how are u
+b) hi
+c) error
+d) no output
+a
+7. What will be the output of the following PHP code?
+<?phpif (print "0")    print "hi" ;else    print "how are u";?>
+a) 0how are u
+b) 0hi
+c) hi
+d) how are u
+b
+8. What will be the output of the following PHP code?
+<?php$x = 1;if ($x == 2)    print "hi" ;else if($x = 2)    print $x;else    print "how are u";?>
+a) error
+b) 2
+c) hi
+d) how are u
+b
+9. What will be the output of the following PHP code?
+<?php$x = 1;if ($x = $x&0)    print $x ;else    print "how are u";?>
+a) 0
+b) 1
+c) error
+d) how are u
+d
+10. What will be the output of the following PHP code?
+<?php$x = 1;if ($x = $x&0)    print $x ;else    print "how are u";?>
+a) 0
+b) 1
+c) error
+d) how are u
+d
+11. What will be the output of the following PHP code?
+<?php$x = 1;if ($x = $x&0)    print $x;else    break;?>
+a) 0
+b) 1
+c) error
+d) no output
+c
+12. What will be the output of the following PHP code?
+<?php$a = 100;if ($a > 10)    printf("M.S. Dhoni");else if ($a > 20)    printf("M.E.K Hussey");else if($a > 30)    printf("A.B. de villiers");?>
+a) M.S.Dhoni
+b) M.E.K.Hussey
+c) 
+M.S.Dhoni
+M.E.K.Hussey
+A.B.de villiers
+d) No output
+a
+ Sanfoundry Global Education & Learning Series – PHP Programming. 
+To practice PHP Question Bank,   here is complete set of 250 +  Multiple Choice Questions and Answers on PHP  .
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – If – Else – If – 1» Next - PHP Coding Questions and Answers – If-Else-If – 3 

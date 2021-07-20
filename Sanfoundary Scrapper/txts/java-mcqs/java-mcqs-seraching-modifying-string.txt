@@ -1,0 +1,94 @@
+1. Which of this method of class String is used to extract a substring from a String object?
+a) substring()
+b) Substring()
+c) SubString()
+d) None of the mentioned
+a
+2. What will s2 contain after following lines of Java code?
+ String s1 = "one";
+String s2 = s1.concat("two")
+a) one
+b) two
+c) onetwo
+d) twoone
+c
+3. Which of these method of class String is used to remove leading and trailing whitespaces?
+a) startsWith()
+b) trim()
+c) Trim()
+d) doTrim()
+b
+4. What is the value returned by function compareTo() if the invoking string is greater than the string compared?
+a) zero
+b) value less than zero
+c) value greater than zero
+d) none of the mentioned
+c
+ if (s1 == s2) then 0, if(s1 &gt; s2) &gt; 0, if (s1 &lt; s2) then &lt; 0.
+5. Which of the following statement is correct?
+a) replace() method replaces all occurrences of one character in invoking string with another character
+b) replace() method replaces only first occurrences of a character in invoking string with another character
+c) replace() method replaces all the characters in invoking string with another character
+d) replace() replace() method replaces last occurrence of a character in invoking string with another character
+a
+6. What will be the output of the following Java program?
+    class output     {        public static void main(String args[])        {            String c = "  Hello World  ";           String s = c.trim();           System.out.println("\""+s+"\"");        }    }
+a) “”Hello World””
+b) “”Hello World”
+c) “Hello World”
+d) Hello world
+c
+Output:
+$ javac output.java
+$ java output
+"Hello World"
+7. What will be the output of the following Java program?
+    class output     {        public static void main(String args[])        {            String s1 = "one";           String s2 = s1 + " two";           System.out.println(s2);        }    }
+a) one
+b) two
+c) one two
+d) compilation error
+c
+Output:
+$ javac output.java
+$ java output
+one two
+8. What will be the output of the following Java program?
+    class output     {        public static void main(String args[])        {            String s1 = "Hello";           String s2 = s1.replace('l','w');           System.out.println(s2);        }    }
+a) hello
+b) helwo
+c) hewlo
+d) hewwo
+d
+Output:
+$ javac output.java
+$ java output
+hewwo
+9. What will be the output of the following Java program?
+    class output     {        public static void main(String args[])        {           String s1 = "Hello World";           String s2 = s1.substring(0 , 4);           System.out.println(s2);        }   }
+a) Hell
+b) Hello
+c) Worl
+d) World
+a
+output:
+$ javac output.java
+$ java output 
+Hell
+10. What will be the output of the following Java program?
+    class output     {        public static void main(String args[])        {             String s = "Hello World";             int i = s.indexOf('o');             int j = s.lastIndexOf('l');             System.out.print(i + " " + j);         }   }
+a) 4 8
+b) 5 9
+c) 4 9
+d) 5 8
+c
+output:
+$ javac output.java
+$ java output  
+4 9
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – String Comparison» Next - Java Questions & Answers – StringBuffer Class 

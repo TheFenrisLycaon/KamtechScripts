@@ -1,0 +1,94 @@
+1. In the following circuit, what is the voltage at the source of the M1?
+a) Vin * Rs / (Rs + 1/gm)
+b) Vin * Rs / (Rs + gm)
+c) Vin * Rs / (Rs – 1/gm)
+d) Vin * Rs / (Rs + 2/gm)
+a
+2. What is the input impedance of the following CG stage?
+a) 1/gm
+b) 2* Rs || 1/gm
+c) Rs || 1/gm
+d) Rs || 2/gm
+c
+3. If Channel Length modulation is neglected, what is the voltage gain from the source to the drain for the CG stage shown below?
+a) gm * Rd * {2Rs / (Rs + 1/gm)}
+b) gm * Rd * {Rs / (Rs + 2/gm)}
+c) gm * Rd * {2Rs / (Rs – 1/gm)}
+d) gm * Rd * {Rs / (Rs + 1/gm)}
+d
+4. What is the input impedance for the following circuit?
+a) ro
+b) 1/gm
+c) Rd || ro
+d) Infinite
+b
+5. If channel length modulation is neglected, what is the voltage gain for the following circuit from source to drain?
+a) gm * Rd
+b) gm * ro
+c) gm * (ro || Rd)
+d) -gm * Rd
+a
+6. If channel length modulation is present, what is the output impedance of the following circuit?
+a) Rd
+b) Rd || ro
+c) ro
+d) 0
+b
+7. If channel length modulation is neglected, what is the voltage gain for the following CG stage?
+a) Rd/(1/gm – Rs)
+b) Rd/(3/gm + Rs)
+c) Rd/(1/gm + Rs)
+d) Rd/(2/gm + Rs)
+c
+8. If channel length modulation is present. what is the overall output impedance of the following CG stage?
+a) Rd || {Rs*(1+gm * ro) + ro}
+b) Rd || {Rs*(1+gm * ro) + 2ro}
+c) Rd || {Rs*(1+gm * ro) – ro}
+d) Rd || {Rs*(2+gm * ro) + ro}
+a
+9. The current gain of a simple CG stage is approximate ____________
+a) Infinity
+b) unity
+c) twice
+d) 0
+b
+10. The voltage gain of a simple CG stage is greater than that of a follower.
+a) True
+b) False
+a
+11. If channel length modulation is neglected, what is the voltage gain of the following circuit?
+a) – {gm1 * Rd * gm2 * Rd1}
+b) gm1 * Rd * gm2 * 2Rd1
+c) – {gm1 * Rd * 2gm2 * Rd1}
+d) gm1 * 2Rd * gm2 * Rd1
+a
+12. If channel length modulation is present, what is the voltage gain of the following circuit?
+a) gm1 * (Rd || ro1) * gm2 * Rd1
+b) – {gm1 * Rd * gm2 * 2(Rd1 || ro2)}
+c) – {gm1 * (Rd || ro1) * gm2 * (Rd1 || ro2)}
+d) gm1 * 2Rd * gm2 * Rd1
+c
+13. If channel length modulation is neglected, what is the voltage gain for the following circuit?
+a) – {gm1 * Rd * Rd / (1/gm2 + Rs)}
+b) – (gm1 * 2Rd * Rd / Rs)
+c) – {gm1 * Rd * Rd / (1/gm2 + Rs)}
+d) – {gm1 * Rd * Rd / (1/gm2 + 2Rs)}
+a
+14. If channel length modulation is neglected, what is the overall voltage gain of the following circuit?
+a) – {gm1 * (Rd || 1/gm2) * (Rd1/ (1/gm2 + Rd))}
+b) – {gm1 * (Rd || 1/gm2) * gm2 * 2Rd1}
+c) – {gm1 * Rd * gm2 * Rd1}
+d) – {gm1 * 1/gm2 * gm2 * Rd1}
+a
+15. If channel length modulation is neglected, what is the voltage gain of the following circuit?
+a) gm2/gm1
+b) – {gm2 * Rd * gm1 * R1}
+c) Rd/gm2
+d) 0
+a
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – MOSFET Amplifier with CS Configuration – 2» Next - Analog Circuits Questions and Answers – MOSFET Amplifier with CG Configuration – 2 

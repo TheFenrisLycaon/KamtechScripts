@@ -1,0 +1,69 @@
+1. Hive uses _________ for logging.
+a) logj4
+b) log4l
+c) log4i
+d) log4j
+d
+2. Point out the correct statement.
+a) list FILE[S] <filepath>*  executes a Hive query and prints results to standard output
+b) <query string> executes a Hive query and prints results to standard output
+c) <query> executes a Hive query and prints results to standard output
+d) All of the mentioned
+b
+3. What does the hive.rrot.logger specified in the following statement?
+ $HIVE_HOME/bin/hive --hiveconf hive.root.logger=INFO,console 
+a) Log level
+b) Log modes
+c) Log source
+d) All of the mentioned
+a
+4. HiveServer2 introduced in Hive 0.11 has a new CLI called __________
+a) BeeLine
+b) SqlLine
+c) HiveLine
+d) CLilLine
+a
+5. Point out the wrong statement.
+a) There are four namespaces for variables in Hive
+b) Custom variables can be created in a separate namespace with the define
+c) Custom variables can also be created in a separate namespace with hivevar
+d) None of the mentioned
+a
+6. HCatalog is installed with Hive, starting with Hive release is ___________
+a) 0.10.0
+b) 0.9.0
+c) 0.11.0
+d) 0.12.0
+c
+7. hiveconf variables are set as normal by using the following statement?
+a) set -v x=myvalue
+b) set x=myvalue
+c) reset x=myvalue
+d) none of the mentioned
+d
+8. Variable Substitution is disabled by using ___________
+a) set hive.variable.substitute=false;
+b) set hive.variable.substitutevalues=false;
+c) set hive.variable.substitute=true;
+d) all of the mentioned
+a
+9. _______ supports a new command shell Beeline that works with HiveServer2.
+a) HiveServer2
+b) HiveServer3
+c) HiveServer4
+d) None of the mentioned
+a
+10. In ______ mode HiveServer2 only accepts valid Thrift calls.
+a) Remote
+b) HTTP
+c) Embedded
+d) Interactive
+a
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hive, here is complete set of 1000+ Multiple Choice Questions and Answers.
+	
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Introduction to Hive» Next - Hadoop Questions and Answers – HiveQL – 2 

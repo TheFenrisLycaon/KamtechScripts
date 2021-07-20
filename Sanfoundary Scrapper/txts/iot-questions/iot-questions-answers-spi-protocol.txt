@@ -1,0 +1,95 @@
+1. Secure digital card application uses which protocol?
+a) UART
+b) SPI
+c) I2C
+d) USART
+b
+2. SPI device communicates in _________
+a) Simplex
+b) Half duplex
+c) Full duplex
+d) Both half and full duplex
+c
+3. Do SPI have/has a single master?
+a) True
+b) False
+a
+4. SPI is described as Asynchronous serial interface.
+a) True
+b) False
+b
+5. How many logic signals are there in SPI?
+a) 5 signals
+b) 6 signals
+c) 4 signals
+d) 7 signals
+a
+	SCLK: Serial clock(output from master)
+	MOSI: Master Output Input, Master Out Slave In(data output from master)
+	MISO: Master Input Slave Output, or master In Slave Out( data output from master)
+	SDIO: Serial Data I/O(bidirectional I/O)
+	SS: Slave Select(often active low, output from master).
+6. SPI uses how many lines?
+a) 4 lines
+b) 1 line
+c) 3 lines
+d) 2 lines
+d
+7. MOSI means __________
+a) Line for master to send data to the slave
+b) Line for the slave to send data to the master
+c) Line for the clock signal
+d) Line for the master to select which slave to send data to
+a
+8. MISO means _________
+a) Line for master to send data to the slave
+b) Line for the slave to send data to the master
+c) Line for the clock signal
+d) Line for the master to select which slave to send data to
+b
+9. Which of the following is an advantage of SPI?
+a) No start and stop bits
+b) Use 4 wires
+c) Allows for single master
+d) Error checking is not present
+a
+10. Which of the following is the disadvantage in SPI?
+a) Full duplex communication
+b) Push pull drivers
+c) Unidirectional signals
+d) More pins
+d
+11. Which of the following is the type of SPI controller?
+a) Queued SPI
+b) Microwire
+c) Microwire/plus
+d) Quad SPI
+a
+12. __________ is a predecessor of SPI.
+a) Queued SPI
+b) Microwire
+c) Microwire/plus
+d) Quad SPI
+b
+13. Which has a half duplex communication?
+a) Queued SPI
+b) Microwire
+c) Microwire/plus
+d) Quad SPI
+b
+14. Do SPI have internal flash?
+a) True
+b) False
+a
+15. SMBUS stands for ___________
+a) Serial Memory Bus
+b) Serial Management Bus
+c) System Management Bus
+d) System Memory Bus
+c
+Sanfoundry Global Education & Learning Series – IOT.
+To practice all areas of IOT, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - IOT Questions and Answers – I2C Protocol» Next - IOT Questions and Answers – CoAP Protocol 

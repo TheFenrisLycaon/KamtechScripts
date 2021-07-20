@@ -1,0 +1,109 @@
+1.  Which command is used for displaying contents of a file?
+a) cp
+b) rm
+c) cat
+d) mkdir
+c
+$ cat abd.txt
+HELLO WORLD
+ 
+2.  Apart from displaying file contents, cat command is also used for _____ files.
+a) displaying
+b) deleting
+c) copying
+d) creating
+d
+$ cat  >  abd.txt
+Now the prompt vanishes. cat command now waits for the input to be entered by the user. After the input is entered, the user hits the ctrl-D button which marks the end of the file and thus the file and the contents entered by the user are saved.
+3. Multiple arguments as filenames can be specified in cat command.
+a) True
+b) False
+a
+$ cat   file1   file2
+Above command shows the contents of the second file immediately after the contents of the first file without any header information i.e. it concatenates the contents of two files on the terminal.
+4. Which symbol is used with cat command for creating files?
+a) >
+b) <
+c) *
+d) /
+a
+$ cat  > file_01
+UNIX is a powerful operating system        // input entered by the user
+[CTRL-D]
+5. If we create a file using cat command with the same filename which already exists in the current directory then,
+a) existing file is deleted
+b) new file will be created separately
+c) existing file will be overwritten
+d) an error will be produced
+c
+6.  Which symbol is used to append an existing file?
+a) >
+b) <
+c) >>
+d) $
+c
+$ cat  >> file01
+7. Which option is used with cat command for displaying non-printable characters?
+a) -v
+b) -n
+c) -x
+d) -a
+a
+8. Which option is used with the cat command for displaying file with line numbers?
+a) -n
+b) -v
+c) -a
+d) -x
+a
+9. Which of the following cannot be performed by cat command?
+a) displaying files
+b) creating files
+c) appending files
+d) deleting files
+d
+10. What does cat file01  file01  file01 display?
+a) error
+b) blank terminal
+c) contents of file01 three times successively
+d) contents of file01 single time
+c
+11. Which files will be displayed by the following command:
+     cat  *file*
+a) all files in the directory
+b) all files with filename containing ‘file’
+c) no files will be displayed
+d) a single file
+b
+12. Which command is used to create empty files?
+a) cp
+b) cat
+c) touch
+d) create
+d
+The only argument required to be specified with touch command is the filename of the file to be created.
+$ touch file01
+13. Which option is used with touch command which forces the command not to create file, if it does not exists.
+a) -h
+b) -c
+c) -t
+d) -f
+b
+$ touch -c newfile001
+ 
+14. Which one of the following commands is incorrect?
+a) cat  file01
+b) cat > file01
+c) cat >> file1
+d) cat  -a file01
+d
+ cat  file01		// display contents of file01
+ cat > file01		// create a new file named 'file01'
+ cat >> file1		// append to the file named 'file01'
+ cat  -a file01		// invalid command
+ 
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Listing Directory Contents: Is Command» Next - Unix  Questions and Answers – Copying a File: cp Command 

@@ -1,0 +1,101 @@
+1. Which of these methods of class String is used to extract a substring from a String object?
+a) substring()
+b) Substring()
+c) SubString()
+d) None of the mentioned
+b
+2. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        String s1 = "one";        String s2 = string.Concat(s1 + " " + "two");        Console.WriteLine(s2);        Console.ReadLine();    }}
+a) one
+b) two
+c) one two
+d) two one
+c
+Output:
+one two
+3. Which of these methods of class String is used to remove leading and trailing whitespaces?
+a) startsWith()
+b) TrimEnd()
+c) Trim()
+d) TrimStart()
+c
+4. What will be the output of the following C# code snippet?
+Join [email protected]
+class Program{    static void Main(string[] args)    {        String c = "  Hello World  ";        String s = c.Trim();        Console.WriteLine("""+s+""");        Console.ReadLine();    }}
+a) ” Hello World ”
+b) “HelloWorld”
+c) “Hello World”
+d) “Hello”
+c
+Output:
+"Hello World"
+5. What will be the output of the following C# code snippet?
+ class Program {     static void Main(string[] args)     {         String s1 = "CSHARP";         String s2 = s1.Replace('H','L');         Console.WriteLine(s2);         Console.ReadLine();     } }
+a) CSHAP
+b) CSHP
+c) CSHALP
+d) CSHP
+c
+Output:
+CSHALP
+6. What will be the output of the following C# code snippet?
+ class Program {     static void Main(string[] args)     {         String s1 = "Hello World";         String s2 = s1.Substring(0, 4);         Console.WriteLine(s2);         Console.ReadLine();     } }
+a) Hello
+b) Hell
+c) H
+d) Hello World
+b
+Output:
+Hell
+7. What will be the output of the following C# code snippet?
+ class Program {     static void Main(string[] args)     {         String s = "Hello World";         int i = s.IndexOf('o');         int j = s.LastIndexOf('l');         Console.WriteLine(i + " " + j);         Console.ReadLine();     } }
+a) 9 5
+b) 4 9
+c) 9 0
+d) 9 4
+b
+Output:
+4 9
+8. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {         String c = "i love Csharp";        bool a;        a = c.StartsWith("I");        Console.WriteLine(a);        Console.ReadLine();    }}
+a) true
+b) false
+c) 0
+d) 1
+b
+Output:
+false
+9. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {         String []chars = {"z", "x", "y", "z", "y"};        for (int i = 0; i < chars.Length; ++i)        for (int j = i + 1; j < chars.Length; ++j)        if(chars[i].CompareTo(chars[j]) == 0)        Console.WriteLine(chars[j]);        Console.ReadLine();    }}
+a) zx
+b) xy
+c) zy
+d) yz
+c
+Output:
+zy
+10. What will be the output of the following C# code snippet?
+ static void main(String args[]) {     char chars[] = {'a', 'b', 'c'};     String s = new String(chars);     Console.WriteLine(s); }
+a) a
+b) b
+c) ab
+d) abc
+d
+Output:
+abc
+11. What will be the output of the following C# code snippet?
+ static void Main(string[] args) {     string s = " i love you";     Console.WriteLine(s.IndexOf('l') + "  " + s.lastIndexOf('o') + "  " + s.IndexOf('e'));     Console.ReadLine(); }
+a) 3 5 7
+b) 4 5 6
+c) 3 9 6
+d) 2 4 6
+c
+Output:
+3, 9, 6
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all areas of C# for Interviews, here is complete set on 1000+ Multiple Choice Questions and Answers on C#.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – String Formatting – 1 

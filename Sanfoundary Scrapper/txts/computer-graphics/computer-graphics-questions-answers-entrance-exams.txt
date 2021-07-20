@@ -1,0 +1,63 @@
+1. Sutherland-Hodgeman clipping is an example of_________________ algorithm.
+a) line clipping
+b) polygon clipping
+c) text clipping
+d) curve clipping
+b
+2. How many polygons are used in this method?
+a) 4
+b) 3
+c) 2
+d) 1
+c
+3. Only vertices from the subject polygon that are on the _______________ are selected.
+a) lower half
+b) boundary
+c) opaque side
+d) visible side
+d
+4. The process is repeated iteratively for each clip polygon side, using the output list from one stage as the input list for the next.
+a) True
+b) False
+a
+5. We can correctly clip a polygon by processing the polygon boundary as a whole against each ___________
+a) side wall
+b) top edge
+c) window edge
+d) bottom edge
+c
+Join Sanfoundry@YouTube
+6. How many edges of the clipping are/is present in 2D?
+a) 1
+b) 2
+c) 3
+d) 4
+d
+7. If we used Left->Right->Up->Bottom, the final output will be the vertex list outputted by the ___________ edge.
+a) left edge
+b)right edge
+c) top edge
+d) bottom edge
+d
+8. If the subject polygon is concave at vertices outside the clipping polygon, the new polygon may have coincident edges.
+a) True
+b) False
+a
+9. In a convex polygon, each of the interior angles is less than ____degrees.
+a) 90
+b) 180
+c) 360
+d) 45
+b
+10. One of the drawbacks of Sutherland- Hodgeman algorithm is that it can’t produce ____________ areas.
+a) connected
+b) multiple
+c) discrete
+d) circular
+a
+Sanfoundry Global Education & Learning Series – Computer Graphics.
+To practice all areas of Computer Graphics for Entrance exams, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Graphics Questions & Answers – Line Clipping Using Non Rectangular Clip Windows» Next - Computer Graphics Questions & Answers – Anti Aliasing 

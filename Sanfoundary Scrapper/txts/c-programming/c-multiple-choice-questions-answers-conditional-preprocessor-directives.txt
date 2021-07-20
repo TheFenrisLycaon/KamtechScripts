@@ -1,0 +1,157 @@
+1. What will be the output of the following C code?
+#include<stdio.h>
+#define san 10
+main()
+{
+    #ifdef san
+    #define san 20
+    #endif
+    printf("%d",san);
+}
+a) 10
+b) 20
+c) Error
+d) 1020
+b
+2. What will be the output of the following C code?
+#include<stdio.h>
+#define hello 
+main()
+{
+    #ifdef hello
+    #define hi 4
+    #else
+    #define hi 5
+    #endif
+    printf("%d",hi);
+ 
+}
+a) 4
+b) 5
+c) 45
+d) error
+a
+3. The purpose of the preprocessor directive #error is that ____________
+a) It rectifies any error present in the code
+b) It rectifies only the first error which occurs in the code
+c) It causes the preprocessor to report a fatal error
+d) It causes the preprocessor to ignore an error
+c
+Join [email protected]
+4. What will be the output of the following C code?
+#include<stdio.h>
+#define max 20
+main()
+{
+    #ifndef max
+    #define min 10
+    #else
+    #define min 30
+    #endif
+    printf("%d",min);
+}
+a) 10
+b) 20
+c) 30
+d) error
+c
+5. What will be the output of the following C code?
+#include<stdio.h>
+#define hello 10
+main()
+{
+    #ifdef hello
+    #undef hello
+    #define hello 100
+    #else
+    #define hello 200
+    #endif
+    printf("%d",hello);
+}
+a) Error
+b) 10
+c) 100
+d) 200
+c
+6. What will be the output of the following C code?
+#include<stdio.h>
+#define sf 10
+main()
+{
+    if(sf==100)
+        printf("good");
+    else
+    {
+        printf("bad");
+        sf=100;
+    }
+    printf("%d",sf);
+}
+a) 100
+b) bad
+c) 10
+d) error
+d
+7. What will be the output of the following C code?
+#include<stdio.h>
+void f()
+{
+    #define sf 100
+    printf("%d",sf);
+}
+int main()
+{
+    #define sf 99;
+    f();
+    printf("%d",sf);
+}
+a) error
+b) 100
+c) 99
+d) 10099
+a
+8. What will be the output of the following C code?
+#include<stdio.h>
+#define INDIA 1
+#define US 2
+#define CC US
+main()
+{
+    #if CC==INDIA
+    printf("Rupee");
+    #elif CC==US
+    printf("Dollar");
+    #else
+    printf("Euro");
+    #endif 
+}
+a) Euro
+b) Rupee
+c) Dollar
+d) Error
+c
+9. What will be the output of the following C code?
+#define sqr(x) x*x
+main()
+{
+    int a1;
+    a1=25/sqr(5);
+    printf("%d",a1);
+}
+a) 25
+b) 1
+c) 5
+d) error
+a
+10. Which of the following is not a preprocessor directive?
+a) #error
+b) #pragma
+c) #if
+d) #ifelse
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Conditional Preprocessor Directives – 1» Next - C Questions and Answers – Token Concatenation 

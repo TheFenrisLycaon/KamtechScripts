@@ -1,0 +1,65 @@
+1. Which factor affect the input offset voltage, bias current and input offset current in an op-amp
+a) Change in temperature
+b) Change in supply voltage
+c) Change in time
+d) All of the mentioned
+d
+2. Thermal voltage drift is defined as
+a) △Vio/△T
+b) △VF/△T
+c) △Iio/△T
+d) △IB/△T
+a
+3. A completely compensated inverting amplifier is nulled at room temperature 25oC, determine the temperature at which the total output offset voltage will be zero?
+a) 50oC
+b) 25oC
+c) 75oC
+d) 125oC
+b
+4. How the effect of voltage and current drift on the performance of an amplifier is determined?
+a) △VooT/△T = {[1-RF/R1)]×(△Vio/△T)} + RF×(△Iio/△t)
+b) △VooT/△T = {(-RF/R1)×(△Vio/△T)} + RF×(△Iio/△t)
+c) △VooT/△T = {[1+(RF/R1)]×(△Vio/△T)} + RF×(△Iio/△t)
+d) None of the mentioned
+c
+△VooT/△T = {[1+(RF/R1)]×(△Vio/△T)} + RF×(△Iio/△t). 
+5. The error voltage in a compensating inverting amplifier is obtained by
+a) Multiplying △T to total output offset voltage
+b) Multiplying △T to input offset voltage
+c) Multiplying △T to input offset current
+d) All of the mentioned
+a
+Ev =( △VooT/△T)×△T = [1+(RF/R1)]×(△Vio/△T)×△T + RF×(△Iio/△T)×△T. 
+6. A 7.5kΩ internal resistor and a 12kΩ feedback resistor are connected to an inverting amplifier. Find the error voltage, if the output voltage is 3.99mv for an input of 1.33mv.
+a) ±0.6v
+b) ±0.6mv
+c) ± 60mv
+d) ±6mv
+d
+=> Ev= ± Vo+(RF/R1)×Vin = 3.99mv+(12kΩ/7.5kΩ)×1.33mv = ±6.118 ≅ ±6mv. 
+7. Consider the amplifier is nulled at 27oC. Calculate the output voltage , if the input voltage is 6.21mv dc at 50oC. Assume LM307 op-amp with specification: △Vio/△T=30µV/oC ; △Iio/△T = 300pA/oC; VS =±15v.
+a) +0.53v or -0.68v
+b) +0.52v or -0.78v
+c) +0.54v or -0.90v
+d) +0.51v or -0.86v
+d
+=> Error voltage, Ev =[1+(RF/R1)]×(△Vio/△T)×△T + RF×(△Iio/△T)×△T = [1+(100kΩ/1kΩ)]×(30µv/1oC)× 23oC + 100kΩ×(300pA/1oC)× 23oC = 0.06969+ 6.9×10-9
+=> Ev= 0.0704 = 70.4mv.
+For an input voltage of 6.21mv dc, the output voltage,
+Vo=-(RF/R1)×Vin±Ev = -(100kΩ/1kΩ)×6.21mv±70.4mv = +0.69v or -0.55v. 
+8.
+The error voltage for the above circuit is 0.93v. Compute the output voltage?
+a) +15v to +17v
+b) +17v or -15v
+c) -17v or +15v
+d) None of the mentioned
+b
+Vo=[1+(RF/R1+R2)]×Vin±Ev
+= [1+(50kΩ/3kΩ+10kΩ)]×3.3±0.93v = 15.99±0.93
+=> Vo = +16.92v or -15.06v ≅ +17v or -15v. 
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Input Offset Current and Total Output Offset Voltage» Next - Linear Integrated Circuit Questions and Answers – Effect of Variation in Power Supply Voltage on Offset Voltage 

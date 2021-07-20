@@ -1,0 +1,64 @@
+1. How does applet and servlet communicate?
+a) HTTP
+b) HTTPS
+c) FTP
+d) HTTP Tunneling
+d
+2. In CGI, process starts with each request and will initiate OS level process.
+a) True
+b) False
+a
+3. Which class provides system independent server side implementation?
+a) Socket
+b) ServerSocket
+c) Server
+d) ServerReader
+b
+4. What happens if ServerSocket is not able to listen on the specified port?
+a) The system exits gracefully with appropriate message
+b) The system will wait till port is free
+c) IOException is thrown when opening the socket
+d) PortOccupiedException is thrown
+c
+5. What does bind() method of ServerSocket offer?
+a) binds the serversocket to a specific address (IP Address and port)
+b) binds the server and client browser
+c) binds the server socket to the JVM
+d) binds the port to the JVM
+a
+6. Which of the below are common network protocols?
+a) TCP
+b) UDP
+c) TCP and UDP
+d) CNP
+c
+7. Which class represents an Internet Protocol address?
+a) InetAddress
+b) Address
+c) IP Address
+d) TCP Address
+a
+8. What does local IP address start with?
+a) 10.X.X.X
+b) 172.X.X.X
+c) 192.168.X.X
+d) 10.X.X.X, 172.X.X.X, or 192.168.X.X
+d
+9. What happens if IP Address of host cannot be determined?
+a) The system exit with no message
+b) UnknownHostException is thrown
+c) IOException is thrown
+d) Temporary IP Address is assigned
+b
+10. What is the java method for ping?
+a) hostReachable()
+b) ping()
+c) isReachable()
+d) portBusy()
+c
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Advanced Java Questions & Answers – Web application» Next - Advanced Java Questions & Answers – Servlet 

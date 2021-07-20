@@ -1,0 +1,114 @@
+1. Which one of the following command is used for searching for a pattern in one or more file(s)?
+a) cd
+b) cp
+c) paste
+d) grep
+d
+2. Which one of the following is the correct syntax for grep command?
+a) grep options filename(s)
+b) grep options pattern
+c) grep pattern filename
+d) grep options pattern filename(s)
+d
+grep  options  pattern  filename(s)
+ 
+3. Which one of the following command will be used for searching “director” in emp.lst?
+a) grep  “director”
+b) grep -v “director”  emp.lst
+c) grep  -director emp.lst
+d) grep  “director” emp.lst
+d
+4. When the pattern is not found in a file, grep command silently returns the prompt.
+a) True
+b) False
+a
+$ grep “executive” emp.lst    
+$ _                        // executive not found
+ 
+5. grep command can be used for searching a pattern in more than one file.
+a) True
+b) False
+a
+$ grep  “director” emp1.lst  emp2.lst
+emp1.lst:1006| chanchal singhal | director | sales | 03/09/98 | 6700
+emp2.lst:6521| lalit chaudhary | director | marketing | 04/05/87 | 8200
+emp1.lst:4358 | barun sengupta | director | production | 09/09/78 | 7600
+ 
+6. If there are special characters in a pattern, then we’ve to enclose them in ______
+a) single quotes
+b) double quotes
+c) without any quotes
+d) all quotes
+b
+7. Which option is used with grep command for ignoring the case in pattern searching?
+a) -a
+b) -v
+c) -i
+d) -e
+c
+$ grep  -i  ‘agarwal’  emp.lst
+3564| sudhir Agarwal | executive |personal | 06/07/47 |7500
+8. Which option is used with grep command for deleting lines?
+a) -v
+b) -e
+c) -a
+d) -i
+a
+9. Which option is used for displaying the line numbers containing the pattern along with lines?
+a) -v
+b) -i
+c) -e
+d) -n
+d
+$ grep  ‘director’ emp1.lst 
+3:1006| chanchal singhal | director | sales | 03/09/98 | 6700
+5:6521| lalit chaudhary | director | marketing | 04/05/87 | 8200
+9:4358 | barun sengupta | director | production | 09/09/78 | 7600
+ 
+10. ______ option counts the number of lines containing the pattern?
+a) -c
+b) -i
+c) -e
+d) -n
+a
+$ grep  -c  ‘director’  emp.lst
+4                // 4 lines contain the pattern ‘director’
+11. Which option displays only the filename containing the pattern?
+a) -i
+b) -n
+c) -e
+d) -l
+d
+$ grep  -l  ‘director’ *.lst
+Design.lst
+Emp.lst
+Emp1.lst
+ 
+12. _____ option is used when we need to match multiple patterns in a single invocation of grep command?
+a) -a
+b) -e
+c) -n
+d) -i
+b
+$ grep  -e “agarwal”  -e “aggarwal”  -e “ agrawal”  emp.lst
+13. For taking patterns from a file, -f option is specified with grep command.
+a) True
+b) False
+a
+$ grep -f  pattern.lst  emp.lst        // pattern.lst contains 3 different patterns
+14. POSIX identifies regular expressions as belonging to ____ categories.
+a) 3
+b) 2
+c) 4
+d) 5
+b
+15. grep command supports both extended and regular expressions.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Unique and tr Command» Next - Unix  Questions and Answers – grep command – 2 

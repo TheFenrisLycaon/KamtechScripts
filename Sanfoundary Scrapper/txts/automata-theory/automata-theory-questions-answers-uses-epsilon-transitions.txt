@@ -1,0 +1,52 @@
+1. The automaton which allows transformation to a new state without consuming any input symbols:
+a) NFA
+b) DFA
+c) NFA-l
+d) All of the mentioned
+c
+2. e-transitions are
+a) conditional
+b) unconditional
+c) input dependent
+d) none of the mentioned
+b
+3. The __________ of a set of states, P, of an NFA is defined as the set of states reachable from any state in P following e-transitions.
+a) e-closure
+b) e-pack
+c) Q in the tuple
+d) None of the mentioned
+a
+4. The e-NFA  recognizable languages are not closed under :
+a) Union
+b) Negation
+c) Kleene Closure
+d) None of the mentioned
+:
+a) Union
+b) Intersection
+c) Concatenation
+d) Negation
+e) Star
+f) Kleene closure
+5. Is the language preserved in all the steps while eliminating epsilon transitions from a NFA?
+a) yes
+b) no
+a
+6. An e-NFA is ___________ in representation.
+a) Quadruple
+b) Quintuple
+c) Triple
+d) None of the mentioned
+b
+Note: e is never a member of S.
+7. State true or false:
+Statement: Both NFA and e-NFA recognize exactly the same languages.
+a) true
+b) false
+a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Finite Automata with Epsilon Transition» Next - Automata Theory Questions and Answers –  Epsilon Closures 

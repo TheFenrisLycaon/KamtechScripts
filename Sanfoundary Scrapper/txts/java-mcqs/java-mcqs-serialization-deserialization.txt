@@ -1,0 +1,88 @@
+1. Which of these is a process of extracting/removing the state of an object from a stream?
+a) Serialization
+b) Externalization
+c) File Filtering
+d) Deserialization
+d
+2. Which of these process occur automatically by java run time system?
+a) Serialization
+b) Memory allocation
+c) Deserialization
+d) All of the mentioned
+d
+3. Which of these interface extends DataInput interface?
+a) Serializable
+b) Externalization
+c) ObjectOutput
+d) ObjectInput
+d
+4. Which of these is a method of ObjectInput interface used to deserialize an object from a stream?
+a) int read()
+b) void close()
+c) Object readObject()
+d) Object WriteObject()
+c
+5. Which of these class extend InputStream class?
+a) ObjectStream
+b) ObjectInputStream
+c) ObjectOutput
+d) ObjectInput
+b
+Join Sanfoundry@YouTube
+6. What will be the output of the following Java code?
+    import java.io.*;    class streams     {        public static void main(String[] args)        {            try             {	        FileOutputStream fos = new FileOutputStream("serial");	        ObjectOutputStream oos = new ObjectOutputStream(fos);	        oos.writeInt(5);	        oos.flush();	        oos.close();	    }	    catch(Exception e)            {	        System.out.println("Serialization" + e);                System.exit(0);            }	    try            {	        int z;	        FileInputStream fis = new FileInputStream("serial");	        ObjectInputStream ois = new ObjectInputStream(fis);	        z = ois.readInt();	        ois.close();	        System.out.println(x);		    		    }	    catch (Exception e)             {                System.out.print("deserialization");	        System.exit(0);	    }        }    }
+a) 5
+b) void
+c) serialization
+d) deserialization
+a
+Output:
+$ javac streams.java
+$ java streams
+5
+7. What will be the output of the following Java code?
+    import java.io.*;    class serialization    {        public static void main(String[] args)        {            try            {	        Myclass object1 = new Myclass("Hello", -7, 2.1e10);	        FileOutputStream fos = new FileOutputStream("serial");	        ObjectOutputStream oos = new ObjectOutputStream(fos);	        oos.writeObject(object1);	        oos.flush();	        oos.close();	    }	    catch(Exception e)            {	        System.out.println("Serialization" + e);                System.exit(0);            }	    try            {	        int x;	        FileInputStream fis = new FileInputStream("serial");	        ObjectInputStream ois = new ObjectInputStream(fis);	        x = ois.readInt();	        ois.close();	        System.out.println(x);		    		    }	    catch (Exception e)            {                System.out.print("deserialization");	        System.exit(0);	    }        }    }    class Myclass implements Serializable    {	String s;	int i;	double d;	Myclass(String s, int i, double d)        {	    this.d = d;	    this.i = i;	    this.s = s;	}    }
+a) -7
+b) Hello
+c) 2.1E10
+d) deserialization
+d
+Output:
+$ javac serialization.java
+$ java serialization
+deserialization
+8. What will be the output of the following Java program?
+    import java.io.*;    class streams    {        public static void main(String[] args)        {            try            {	        FileOutputStream fos = new FileOutputStream("serial");	        ObjectOutputStream oos = new ObjectOutputStream(fos);	        oos.writeFloat(3.5);	        oos.flush();	        oos.close();	    }	    catch(Exception e)            {	        System.out.println("Serialization" + e);                System.exit(0);            }	    try            {	        FileInputStream fis = new FileInputStream("serial");	        ObjectInputStream ois = new ObjectInputStream(fis);	        ois.close();	        System.out.println(ois.available());		    		    }	    catch (Exception e)            {                System.out.print("deserialization");	        System.exit(0);	    }        }    }
+a) 1
+b) 2
+c) 3
+d) 0
+d
+Output:
+$ javac streams.java
+$ java streams
+0
+9. What will be the output of the following Java program?
+    import java.io.*;    class streams    {        public static void main(String[] args)        {            try            {	        FileOutputStream fos = new FileOutputStream("serial");	        ObjectOutputStream oos = new ObjectOutputStream(fos);	        oos.writeFloat(3.5);	        oos.flush();	        oos.close();	    }	    catch(Exception e)            {	        System.out.println("Serialization" + e);                System.exit(0);            }	    try            {	        FileInputStream fis = new FileInputStream("serial");	        ObjectInputStream ois = new ObjectInputStream(fis);	        System.out.println(ois.available());		    		    }	    catch (Exception e)             {                System.out.print("deserialization");	        System.exit(0);	    }        }    }
+a) 1
+b) 2
+c) 3
+d) 4
+d
+Output:
+$ javac streams.java
+$ java streams
+4
+10. What will be the output of the following Java program?
+import java.io.FileOutputStream;  public class FileOutputStreamExample{      public static void main(String args[])    {               try           {                 FileOutputStream fout=new FileOutputStream("D:\\sanfoundry.txt");                 String s="Welcome to Sanfoundry.";                 byte b[]=s.getBytes();//converting string into byte array                 fout.write(b);                 fout.close();                 System.out.println("Success");                }  catch(Exception e){System.out.println(e);}          }    }
+a) “Success” to the output and “Welcome to Sanfoundry” to the file
+b) only “Welcome to Sanfoundry” to the file
+c) compile time error
+d) No Output
+a
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Serialization – 2» Next - Java Questions & Answers – Networking Basics 

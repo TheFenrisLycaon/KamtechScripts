@@ -1,0 +1,89 @@
+1. Functions and subprograms are both same.
+a) True
+b) False
+b
+2. A function is a ________ code.
+a) Concurrent
+b) Sequential
+c) Concurrent as well as sequential
+d) Process oriented
+b
+3. Which of the following sequential statement can’t be used in a function?
+a) WAIT
+b) IF
+c) CASE
+d) LOOP
+a
+4. What is the correct syntax for declaration of a function?
+a)
+     FUNCTION function_name (parameter_list) RETURN return_type IS
+     declaration_part;
+     BEGIN
+     sequential_statements;
+     END FUNCTION;
+b)
+     FUNCTION function_name (parameter_list) RETURN return_type IS
+     BEGIN 
+     declaration_part;
+     sequential_statements;
+     RETURN expression;
+     END FUNCTION;
+c)
+    FUNCTION function_name (parameter_list) RETURN return_type IS
+     BEGIN
+     declaration_part;
+     sequential_statements;
+     RETURN expression;
+     END function_name;
+d)
+     FUNCTION function_name (parameter_list) RETURN return_type IS
+     declaration_part;
+     BEGIN
+     sequential_statements;
+     RETURN expression;
+     END function_name;
+d
+  
+5. The function is called from the ________
+a) Function itself
+b) Library
+c) Main code
+d) Package
+c
+6. The parameters used at the time of function call are called _________
+a) Formal parameters
+b) Actual parameters
+c) Real parameters
+d) Complex parameters
+b
+7. Functions are always invoked as a(n) _________
+a) Constant
+b) Variable
+c) Signal
+d) Expression
+d
+8. How many return arguments can be there in the function?
+a) 1
+b) 2
+c) 3
+d) 4
+a
+9. Which of the following can’t be the parameter of function?
+SIGNAL a, b : IN STD_LOGIC
+VARIABLE c : INTEGER
+CONSTANT d : INTEGER
+a) a
+b) b
+c) c
+d) d
+c
+10. A function call can be a concurrent as well as a sequential statement.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Some Predefined Packages» Next - VHDL Questions and Answers – Functions and Subprograms – 2 

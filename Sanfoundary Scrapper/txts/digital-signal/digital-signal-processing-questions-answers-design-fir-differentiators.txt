@@ -1,0 +1,100 @@
+1. How is the frequency response of an ideal differentiator related to the frequency?
+a) Inversely proportional
+b) Linearly proportional
+c) Quadratic
+d) None of the mentioned
+b
+2. Which of the following is the frequency response of an ideal differentiator, Hd(ω)?
+a) -jω ; -π ≤ ω ≤ π
+b) -jω ; 0 ≤ ω ≤ π
+c) jω ; 0 ≤ ω ≤ π
+d) jω ; -π ≤ ω ≤ π
+d
+Hd(ω)= jω ; -π ≤ ω ≤ π.
+3. What is the unit sample response corresponding to Hd(ω)?
+a) \(\frac{cos⁡πn}{n}\) 
+b) \(\frac{sin⁡πn}{n}\) 
+c) n.sin πn
+d) n.cos⁡ πn
+a
+Hd(ω)= jω ; -π ≤ ω ≤ π
+Thus, we get the unit sample response corresponding to the ideal differentiator is given as
+h(n)=\(\frac{cos⁡πn}{n}\).
+4. The ideal differentiator ahs which of the following unit sample response?
+a) Symmetric
+b) Anti-symmetric
+c) Cannot be explained
+d) None of the mentioned
+b
+h(n)=\(\frac{cos⁡πn}{n}\) 
+So, we can state that the unit sample response of an ideal differentiator is anti-symmetric because cos⁡πn is also an anti-symmetric function.
+5. If hd(n) is the unit sample response of an ideal differentiator, then what is the value of hd(0)?
+a) 1
+b) -1
+c) 0
+d) 0.5
+c
+=>hd(0)=0.
+Join [email protected]
+6. In this section, we confine our attention to FIR designs in which h(n)=-h(M-1-n).
+a) True
+b) False
+a
+7. Which of the following is the condition that an differentiator should satisfy?
+a) Infinite response at zero frequency
+b) Finite response at zero frequency
+c) Negative response at zero frequency
+d) Zero response at zero frequency
+d
+8. Full band differentiators can be achieved with an FIR filters having odd number of coefficients.
+a) True
+b) False
+b
+9. If fp is the bandwidth of the differentiator, then the desired frequency characteristic should be linear in the range of _____________
+a) 0 ≤ ω ≤ 2π
+b) 0 ≤ ω ≤ 2fp
+c) 0 ≤ ω ≤ 2πfp
+d) None of the mentioned
+c
+10. What is the desired response of the differentiator in the frequency range 2πfp ≤ ω ≤ π?
+a) Left unconstrained
+b) Constrained to be zero
+c) Left unconstrained or Constrained to be zero
+d) None of the mentioned
+c
+11. What is the weighting function used in the design of FIR differentiators based on the chebyshev approximation criterion?
+a) 1/ω
+b) ω
+c) 1+ω
+d) 1-ω
+a
+W(ω)=1/ω
+in order that the relative ripple in the pass band be a constant.
+12. The absolute error between the desired response ω and the approximation Hr(ω) decreases as ω varies from 0 to 2πfp.
+a) True
+b) False
+b
+W(ω)=1/ω
+in order that the relative ripple in the pass band be a constant. Thus, the absolute error between the desired response ω and the approximation Hr(ω) increases as ω varies from 0 to 2πfp.
+13. Which of the following is the important parameter in a differentiator?
+a) Length
+b) Bandwidth
+c) Peak relative error
+d) All of the mentioned
+d
+14. In this section, we confine our attention to FIR designs in which h(n)=h(M-1-n).
+a) True
+b) False
+b
+15. What is the maximum value of fp with which good designs are obtained for M odd?
+a) 0.25
+b) 0.45
+c) 0.5
+d) 0.75
+b
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Design of Optimum Equi Ripple Linear Phase FIR Filters – 2» Next - Digital Signal Processing Questions and Answers – Design of Hilbert Transformers 

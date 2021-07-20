@@ -1,0 +1,64 @@
+1. If the inverse of transconductance is .5KS-1, what should be the value of Rc so that the overall voltage gain is 8?
+a) About 3K
+b) .4K
+c) About 4K
+d) Such a gain is not possible
+c
+2. What is the input impedance of the following circuit, if channel length modulation is present?
+a) gm || 1/ro
+b) gm * ro
+c) gm || 2/ro
+d) gm
+a
+3. The C.G. stage can be regarded as a current buffer.
+a) True
+b) False
+a
+4. If M1 suffers from channel length modulation but M2 doesn’t, what is the voltage gain?
+a) gm1 * Rd || 1/gm2 * gm2 * Rd2
+b) gm1 * Rd || 1/gm2 * gm2 * 2Rd2
+c) gm1 * Rd || 12/gm2 * gm2 * Rd2 
+d) gm1 * Rd * gm2 * Rd2
+a
+5. If M2 suffers from channel length modulation but M1 doesn’t, what is the voltage gain?
+a) 2gm1 * Rd || 1/gm2 * gm2 * Rd2
+b) 2gm1 * Rd || 1/gm2 * gm2 * 2Rd2
+c) gm1 * Rd || 12/gm2 * gm2 * Rd2
+d) gm1 * Rd || 1/gm2 || ro2 * gm2 * Rd2
+d
+6. If channel length modulation is present, what is the total impedance at node X?
+a) Rd || ro1 || 1/gm2
+b) Rd || ro1 || 1/gm2 || ro2
+c) Rd || 2ro1 || 1/gm2 || ro2 
+d) Rd || ro1 || 2/gm2 || ro2
+b
+7. For an ideal current source, what is the voltage gain of the following circuit?
+a) gm1 * rd1 * gm2 * 2Rd2
+b) – gm1 * rd1 * gm2 * Rd2
+c) 2gm1 * rd1 * gm2 * Rd2
+d) – gm1 * rd1 * gm2 * Rd2
+d
+8. How can we reduce the number of MOSFET’s in the following circuit?
+a) Scale the aspect ratio
+b) Increase the transconductance
+c) Increase the Power supply
+d) Not possible
+a
+9. What is the relation between Vb and Vin in the following circuit?
+a) Vb > Vin by Vth
+b) Vb = Vin
+c) Vb < Vin by Vth
+d) No relation
+a
+10. What is the total output impedance at node x?
+a) R1 || ro1 || 2 * ro2 || ro2 || 2*ro4  … || ron
+b) R1 || 2 * ( ro1 || ro2 … || ron)
+c) R1 || ro1 || ro2 … || ron
+d) R1 + (ro1 || ro2 … || ron)
+c
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits Assessment Questions, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – MOSFET Amplifier with CG Configuration – 1» Next - Analog Circuits Questions and Answers – Different Types of Multivibrators – 1 

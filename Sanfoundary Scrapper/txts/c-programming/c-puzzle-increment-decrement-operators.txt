@@ -1,0 +1,57 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in Capgemini and other companies. Anyone looking for Capgemini placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of C questions and puzzles on “Increment and Decrement Operators” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0;        int x = i++, y = ++i;        printf("%d % d\n", x, y);        return 0;    }
+a) 0, 2
+b) 0, 1
+c) 1, 2
+d) Undefined
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 10;        int *p = &i;        printf("%d\n", *p++);    }
+a) 10
+b) 11
+c) Garbage value
+d) Address of i
+a
+3. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int x = 97;        int y = sizeof(x++);        printf("X is %d", x);    }
+a) X is 97
+b) X is 98
+c) X is 99
+d) Run time error
+a
+4. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int x = 4, y, z;        y = --x;        z = x--;        printf("%d%d%d", x,  y, z);    }
+a) 3 2 3
+b) 2 3 3
+c) 3 2 2
+d) 2 3 4
+b
+5. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int x = 4;        int *p = &x;        int *k = p++;        int r = p - k;        printf("%d", r);    }
+a) 4
+b) 8
+c) 1
+d) Run time error
+c
+6. What will be the output of the following C code?
+ #include <stdio.h>    void main()    {        int a = 5, b = -7, c = 0, d;        d = ++a && ++b || ++c;        printf("\n%d%d%d%d", a,  b, c, d);    }
+a) 6 -6 0 0
+b) 6 -5 0 1
+c) -6 -6 0 1
+d) 6 -6 0 1
+d
+7. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int a = -5;        int k = (a++, ++a);        printf("%d\n", k);    }
+a) -4
+b) -5
+c) 4
+d) -3
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Increment and Decrement Operators – 1» Next - C Programming Questions and Answers – Bitwise Operators – 1 

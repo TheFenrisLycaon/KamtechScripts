@@ -1,0 +1,99 @@
+This section on C++ interview questions and answers focuses on “Simple String Template”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Simple String Template” along with answers, explanations and/or solutions:
+1. What is a template?
+a) A template is a formula for creating a generic class
+b) A template is used to manipulate the class
+c) A template is used for creating the attributes
+d) A template is used to delete the class
+a
+2. Pick out the correct statement about string template.
+a) It is used to replace a string
+b) It is used to replace a string with another string at runtime
+c) It is used to delete a string
+d) It is used to create a string
+b
+3. How to declare a template?
+a) tem
+b) temp
+c) template<>
+d) temp()
+c
+An example for calculating max of two ints, floats, doubles, or any other number type where T indicates the type of the parameters passes.
+template <typename T>
+T max(T a, T b){
+    return a > b? a : b;
+}
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    template <class T>    inline T square(T x)    {        T result;        result = x * x;        return result;    };    template <>    string square<string>(string ss)    {        return (ss+ss);    };    int main()         {        int i = 4, ii;        string ww("A");        ii = square<int>(i);        cout << i << ii;        cout << square<string>(ww) << endl;    }
+a) 416AA
+b) 164AA
+c) AA416
+d) AA41A
+a
+Output:
+Join Sanfoundry@YouTube
+$ g++ tem.cpp
+$ a.out
+416AA
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    template <typename T, typename U>    void squareAndPrint(T x, U y)    {        cout << x << x * x << endl;        cout << y << " " << y * y << endl;    };    int main()    {        int ii = 2;        float jj = 2.1;        squareAndPrint<int, float>(ii, jj);    }
+a) 
+   23
+   2.1 4.41
+b) 
+   24
+   2.1 4.41
+c) 
+   24
+   2.1 3.41
+d) 2.1 3.41
+b
+Output:
+$ g++ tem1.cpp
+$ a.out
+24
+2.1 4.41
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    using namespace std;    template<typename T>    void print_mydata(T output)    {        cout << output << endl;    }    int main()    {        double d = 5.5;        string s("Hello World");        print_mydata( d );        print_mydata( s );        return 0;    }
+a) 
+   5.5
+   Hello World
+b) 5.5
+c) Hello World
+d) Hello
+a
+Output:
+$ g++ tem2.cpp
+$ a.out
+5.5
+Hello World
+7. How many types of templates are there in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+8. Which are done by compiler for templates?
+a) type-safe
+b) portability
+c) code elimination
+d) prototype
+a
+9. What may be the name of the parameter that the template should take?
+a) same as template
+b) same as class
+c) same as function
+d) same as member
+a
+10. How many parameters are legal for non-type template?
+a) 1
+b) 2
+c) 3
+d) 4
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Class Hierarchies and Abstract Classes» Next - C++ Programming Questions and Answers – Function Templates – 1 

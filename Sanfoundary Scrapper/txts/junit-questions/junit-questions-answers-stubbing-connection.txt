@@ -1,0 +1,68 @@
+1. A combination of function coverage and branch coverage is sometimes also called _______________
+a) Function coverage
+b) Statement coverage
+c) Decision coverage
+d) Condition coverage
+c
+2. ____________ criterion requires that every point of entry and exit in the program has been invoked at least once.
+a) Function coverage
+b) Statement coverage
+c) Decision coverage
+d) Condition coverage
+c
+3. For the following code
+if (a or b) and c then
+The condition/decision criteria will be satisfied by:
+a) a=true, b=true, c=true and  a=false, b=false, c=false
+b) a=false, b=true, c=true
+c) a=true, b=false, c=true
+d) a=true, b=true, c=false
+a
+4. _____________ criterion extends the decision criteria with specifications that each condition has to affect the decision outcome independently.
+a) Redundant Condition/decision coverage
+b) Transferred Condition/decision coverage
+c) Modified Condition/decision coverage
+d) Lossless Condition/decision coverage
+c
+5. ________________ criterion requires that inside each decision, all combinations of conditions are tested.
+a) Redundant Condition/decision coverage
+b) Multiple condition coverage
+c) Modified Condition/decision coverage
+d) Lossless Condition/decision coverage
+b
+6. ____________ requires that in a method taking parameters, all the common values for such parameters be considered.
+a) Redundant Condition/decision coverage
+b) Multiple condition coverage
+c) Modified Condition/decision coverage
+d) Parameter Value Coverage
+d
+7. ______________ applications are often required to show that testing achieves 100% of some form of code coverage.
+a) Non safe
+b) Safety Critical
+c) Critical
+d) Lossless
+b
+8. PVC stands for _____________
+a) Parameter Value Condition
+b) Parameterised Values Check
+c) Parameter Value Coverage
+d) Path Value Check
+c
+9. ______________ is a method of achieving complete branch coverage without achieving complete path coverage.
+a) Basis Path Testing
+b) Loss Testing
+c) Universal Testing
+d) Random Testing
+a
+10. ________________ criteria checks whether each state in a finite-state machine been reached and explored.
+a) Path coverage
+b) Loop coverage
+c) Entry/exit coverage
+d) State coverage
+d
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Stubbing a Web Server’s Resources» Next - JUnit Questions and Answers – Mock Objects 

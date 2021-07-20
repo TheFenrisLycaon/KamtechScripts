@@ -1,0 +1,72 @@
+1.  void free(void *ptr) deallocates the memory previously allocated by a call to _______  ________  or _________
+a) malloc,getenv,abort
+b) calloc,malloc,exit
+c) calloc,malloc,realloc
+d) exit,getenv,abort
+c
+2. The ________ function returns no value.
+a) malloc()
+b) realloc()
+c) free()
+d) calloc()
+c
+3.  What is returned by the function if the space cannot be allocated by the function malloc(), realloc() and calloc()?
+a) value
+b) error
+c) null pointer
+d) no value
+c
+4. What is the function of the void *realloc(void *str, size-t size);?
+a) allocates space for an array of str objects, each of whose size is size
+b) allocates space for an object whose size is specified by size and whose value is indeterminate
+c) changes the size of the object pointed to by str to the size specified by size
+d) causes the space pointed to by str to be deallocated, that is, made available for further allocation
+c
+The realloc() function is used to change the size of the object which is pointed to by str to the size specified by size.
+5. Which among the  given function causes abnormal program termination ?
+a) exit()
+b) abort()
+c) atexit()
+d) getenv()
+b
+The abort() function causes abnormal program termination to occur, and comes out directly from that place.
+6. Which of the given statement is true with respect to the function atexit()?
+a) The atexit() function cannot return to its caller
+b) The atexit() function  is used to return zero if the registration succeeds, nonzero if it fails
+c) The atexit() function returns no value
+d) The atexit() function causes abnormal program termination to occur
+b
+The atexit() function is used to register the function pointed to by func, to be called without arguments at normal program termination.
+7. The behavior is undefined if more than one call to the exit function is executed by a program.
+a) true
+b) false
+a
+8. Which function searches an environmenr list that are provided by the host environment?
+a) getenv()
+b) system()
+c) srand()
+d) rand()
+a
+9. The system() function passes the string pointed to by string to the host environment to be executed by a command processor in an implementation-defined manner.
+int system(const char *string);
+a) true
+b) false
+a
+10. What will be the output of the following C code?
+int main(void)
+{
+    int rc;
+    rc = system("time");
+    exit(0);
+}
+a) produces error
+b) no value is returned
+c) returns the time
+d) nothing can be said
+c
+ Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – General Utilities – 2» Next - C Questions and Answers – General Utilities – 4 

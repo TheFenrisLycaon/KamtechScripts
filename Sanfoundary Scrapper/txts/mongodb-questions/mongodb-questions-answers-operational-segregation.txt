@@ -1,0 +1,67 @@
+1. MongoDB supports tagging a range of _______ key values to associate that range with a shard or group of shards.
+a) primary
+b) secondary
+c) shard
+d) all of the mentioned
+c
+2. Point out the correct statement.
+a) Shard key range tags are distinct from replica set member tags
+b) Balancer does not obey tagged range associations
+c) Hash-based sharding only supports tag-aware sharding on an entire collection
+d) All of the mentioned
+c
+3. The _______ migrates chunks of documents in a sharded collection to the shards associated with a tag.
+a) balancer
+b) compounder
+c) fixer
+d) all of the mentioned
+a
+4. MongoDB stores tag sets in the replica set configuration object, which is the document returned by ____________
+a) rs.config()
+b) rs.conf()
+c) rs.confstats()
+d) all of the mentioned
+b
+5. Point out the wrong statement.
+a) Read preferences consider the value of a tag when selecting a member to read from
+b) Shard ranges are always exclusive of the lower value and inclusive of the upper boundary
+c) Write concerns do not use the value of a tag to select a member except to consider whether or not the value is unique
+d) None of the mentioned
+c
+6. By default, an application directs its ______ operations to the primary member in a replica set.
+a) read
+b) write
+c) read and write
+d) none of the mentioned
+a
+7. Which of the following should not be used to provide extra capacity for reads?
+a) primary
+b) primaryPreferred
+c) secondary
+d) none of the mentioned
+c
+8. Read preference modes are also available to clients connecting to a sharded cluster through ______________
+a) MMS
+b) mongos
+c) mongod
+d) none of the mentioned
+b
+9. All read preference modes except _______ may return stale data.
+a) primary
+b) primaryPreferred
+c) secondary
+d) none of the mentioned
+a
+10. Which of the following preference does not affect the visibility of data?
+a) read
+b) write
+c) read and write
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Data Management» Next - MongoDB Questions and Answers – Capped Collections 

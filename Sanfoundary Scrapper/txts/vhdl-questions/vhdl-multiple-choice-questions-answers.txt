@@ -1,0 +1,92 @@
+1. The correct syntax for using EXIT in a loop is ___________
+a) EXIT loop_label WHEN condition;
+b) EXIT WHEN condition loop_label;
+c) loop_label WHEN condition EXIT
+d) EXIT WHEN loop_label condition
+a
+2. FOR loop uses a loop index, the type of loop index is _________
+a) STD_LOGIC_VECTOR
+b) BIT_VECTOR
+c) INTEGER
+d) REAL
+c
+3. Where do we declare the loop index of a FOR LOOP?
+a) Entity
+b) Architecture
+c) Library
+d) It doesn’t have to be declared
+d
+4. A FOR loop is inside a WHILE loop. Inside the FOR loop, the EXIT statement is used in such a way that after 4 iterations, it will execute. After the execution of EXIT statement, the control will be passed ________
+a) Outside the FOR loop
+b) Outside the WHILE loop
+c) At the next iteration of WHILE loop
+d) At the next iteration of FOR loop
+a
+5. A for loop is initiated as given below, in total how many iterations will be there for the FOR loop?
+FOR i IN 0 TO 5 LOOP
+a) 3
+b) 4
+c) 5
+d) 6
+d
+6. All types of FOR loops are synthesizable.
+a) True
+b) False
+b
+7. What is the use of EXIT statement in a loop?
+a) For skipping one execution
+b) For repeating one statement in the loop
+c) For ending the condition and creating infinite loop
+d) For ending the loop
+d
+8. On what side of the assignment statement, one can use a loop index?
+a) Left
+b) Right
+c) Left or Right
+d) Loop index can’t be used in an assignment
+b
+9. A WHILE loop is more flexible than FOR loop.
+a) True
+b) False
+a
+10. The FOR loop is not synthesizable if it contains ______ statement.
+a) WHEN
+b) THEN
+c) WAIT
+d) IF
+c
+11. Which logic circuit is described in the following code?
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+ 
+ENTITY system IS
+GENERIC (l : INTEGER := 3);
+PORT ( a, b : IN STD_LOGIC_VECTOR ( l DOWNTO 0);
+              c     : IN STD_LOGIC;
+              x     : OUT STD_LOGIC_VECTOR (l DOWNTO 0)
+              y     : OUT STD_LOGIC);
+END system;
+ARCHITECTURE design OF system IS
+BEGIN
+PROCESS (a, b, c)
+VARIABLE z : STD_LOGIC_VECTOR ( l DOWNTO 0);
+BEGIN
+z(0) := c;
+FOR I IN 0 TO l LOOP
+x(i) &lt; = a(i) XOR b(i) XOR z(i);
+z(i+1) &lt;= (a(i) AND b(i)) OR (a(i) AND z(i)) OR (b(i) AND z(i));
+END LOOP;
+y <= z(l);
+END PROCESS;
+END design;
+a) 4-bit full subtractor
+b) 4-bit half subtractor
+c) 4-bit half adder
+d) 4-bit full adder
+d
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice  all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – LOOP Statement – 1» Next - VHDL Questions and Answers – Assert Statement 

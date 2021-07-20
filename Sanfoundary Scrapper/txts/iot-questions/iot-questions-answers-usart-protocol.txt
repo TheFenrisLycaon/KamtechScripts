@@ -1,0 +1,93 @@
+1. What is the protocol used by USART?
+a) RS232
+b) RS232C
+c) RS485
+d) RS422
+b
+2. USART provides a synchronous mode that is not in UART?
+a) True
+b) False
+a
+3. Which of the following needs a clock?
+a) Only Asynchronous
+b) Only synchronous
+c) Both synchronous and Asynchronous
+d) Sometimes Synchronous
+b
+4. During receiving operation what does URXD have?
+a) Positive edge
+b) Negative edge
+c) Level edge
+d) Either raising or falling edge
+a
+5. What is the timing of X?
+a) 1/32 to 1/64 times of BRCKL
+b) 1/42 to 1/63 times of BRCKL
+c) 1/32 to 1/63 times of BRCKL
+d) 1/32 to 1/56 times of BRCKL
+c
+Join Sanfoundry@YouTube
+6. The secondary implementation uses a fixed second clock divided which is divided by ______________
+a) 4
+b) 8
+c) 32
+d) 16
+d
+7. The USART module supports ________ multiprocessor communication modes when the asynchronous mode is used.
+a) one
+b) two
+c) three
+d) five
+b
+8. How many asynchronous multiprocessor protocols are present?
+a) 4
+b) 3
+c) 2
+d) 5
+c
+9. Which bit in control register defines the address bit or idle line multiprocessor protocol mode?
+a) MM
+b) URXWIE
+c) URXIE
+d) RXWake
+a
+10. In idle line multiprocessor mode, a precise idle period can be generated to create efficient address character identifiers.
+a) True
+b) False
+a
+11. In synchronous operation characters must be provided on time if not ______ error occurs.
+a) Overrun error
+b) Underrun error
+c) Framing error
+d) Parity error
+b
+12. HDLC stands for ___________
+a) High level Data Link Control
+b) High level Data Level Control
+c) High level Data Link Coordinator
+d) High level Data Link Commutator
+a
+13. SDLC stands for ___________
+a) Synchronous Data Link Control
+b) Synchronous Data Level Control
+c) Synchronous Data Level Coordinator
+d) Synchronous Data Link Coordinator
+a
+14. STR stands for___________
+a) Synchronous Transmit Rate
+b) Synchronous Target Rate
+c) Synchronous Target Receive
+d) Synchronous Transmit Receive
+d
+15. BSC stands for ____________
+a) Binary Service Communication
+b) Bandwidth Synchronous Communication
+c) Binary Synchronous Communication
+d) Bandwidth Service Communication
+c
+Sanfoundry Global Education & Learning Series – IOT.
+To practice all areas of IOT, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - IOT Questions and Answers – UART Protocol» Next - IOT Questions and Answers – I2C Protocol 

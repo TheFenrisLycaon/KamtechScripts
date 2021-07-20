@@ -1,0 +1,66 @@
+1. What is a view?
+a) A view is a special stored procedure executed when certain event occurs
+b) A view is a virtual table which results of executing a pre-compiled query
+c) A view is a database diagram
+d) None of the Mentioned
+b
+2. Which of the following is not a limitation of view?
+a) ORDER BY Does Not Work
+b) Index Created on View Used Often
+c) Cross Database Queries Not Allowed in Indexed View
+d) Adding Column is Expensive by Joining Table Outside View
+b
+3. Which of the following statement is true?
+a) Views could be looked as an additional layer on the table which enables us to protect intricate or sensitive data based upon our needs
+b) Views are virtual tables that are compiled at run time
+c) Creating views can improve query response time
+d) All of the Mentioned
+d
+4. SQL Server has mainly how many types of views?
+a) one
+b) two
+c) three
+d) four
+b
+5. Dynamic Management View is a type of ___________
+a) System Defined Views
+b) User Defined View
+c) Simple View
+d) Complex View
+a
+6. Syntax for creating views is __________
+a) CREATE VIEW AS SELECT
+b) CREATE VIEW AS UPDATE
+c) DROP VIEW AS SELECT
+d) CREATE VIEW AS UPDATE
+a
+7. You can delete a view with ___________ command.
+a) DROP VIEW
+b) DELETE VIEW
+c) REMOVE VIEW
+d) TRUNCATE VIEW
+a
+8. What is SCHEMABINDING a VIEW?
+a) Schema binding binds your views to the dependent physical columns of the accessed tables specified in the contents of the view
+b) These are stored only in the Master database
+c) These types of view are defined by users on a specified schema
+d) These are used to show database self describing information
+b
+9. Which of the following is not a SQL Server INFORMATION_SCHEMA view?
+a) INFORMATION_SCHEMA.CONSTRAINT_TABLE_USAGE
+b) INFORMATION_SCHEMA.DOMAIN_CONSTRAINTS
+c) INFORMATION_SCHEMA.KEY_COLUMN_USAGE
+d) sys.dm_exec_connections
+d
+10. ___________ is  stored only in the Master database.
+a) Database-scoped Dynamic Management View
+b) Complex View
+c) Catalog View
+d) None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Joins» Next - SQL Server Questions and Answers – Aggregation of Data 

@@ -1,0 +1,100 @@
+1. Find the TRUE statement?
+
+I.  There exist parsing algorithms for some programming languages which has O(3) complexity.
+II.  A programming language which allows recursion can be implemented with static storage allocation.
+III. No L-attributed definition can be evaluated in The framework of bottom-up parsing.
+IV. Code improving transformations can be performed at both intermediate code level and source Language.
+a) I and II
+b) I and IV
+c) III and IV
+d) I III and IV
+b
+2. Which of the following describes a handle (as applicable to LR-parsing) appropriately?
+a) Position where  next reduce or  shift  operation will occur
+b) The next step has use of Non-terminal for reduction
+c) Used for reduction in a coming-up  step along with a position in the sentential form where the next shift or reduce operation will occur
+d) Used in the next step for reduction along with a position in the sentential form where the right hand side of the production may be found
+d
+3. Which one of the following is a top-down parser?
+a) Recursive descent parser
+b) Operator precedence parser
+c) An LR(k) parser
+d) An LALR(k) parser
+a
+ Consider the following two statements:
+P: Every regular grammar is LL(1)
+Q: Regular is LR(1) grammar.
+4. Which of the following is TRUE?
+a) Both P and Q are true
+b) P is true and Q is false
+c) P is false and Q is true
+d) Both P and Q are false
+c
+S → aA/a
+A → aA/ε
+In above grammar, string ‘a’ has two leftmost
+derivations.
+   S → aA
+  S → a
+      S->a (using A->ε).
+5. Consider the grammar defined by the following production rules:
+    S --> T * P 
+    T --> U | T * U
+    P --> Q + P | Q
+    Q --> Id
+    U --> Id
+Which one of the following is TRUE?
+a) + is left associative, while ∗ is right associative
+b) + is right associative, while ∗ is left associative
+c) Both + and ∗ are right associative
+d) Both + and ∗ are left associative
+b
+Second productions latter part shows left recursion and is left associative.
+6. The grammar A → AA | (A) | e is not suitable for predictive-parsing because the grammar is?
+a) Ambiguous
+b) Left recursive
+c) Right recursive
+d) An operator grammar
+b
+A ::= A a
+    | b  is the left recursive language. 
+7. Consider the grammar.
+
+E → E + n | E × n | n 
+For a sentence n + n × n, the handles in the right-sentential form of the reduction are __________
+a) n, E + n and E + n × n
+b) n, E + n and E + n × n
+c) n, n + n and n + n × n
+d) n, E + n and E × n
+d
+  → E + E * n   {Applying E → E * n }
+  → E + n * n   {Applying E → n }
+  → n + n * n   {Applying E → n }.
+8. Which grammar rules violate the requirements of an operator grammar?
+1.  P → Q R                    
+2.  P → Q s R
+3.  P → ε       
+4.  P → Q t R r
+a) 1 only
+b) 1 and 3 only
+c) 2 and 3 only
+d) 3 and 4 only
+b
+9. Which of the following suffices to convert an arbitrary CFG to an LL(1) grammar?
+a) Removing left Recursive alone
+b) Factoring the grammar alone
+c) Along with removing left recursion we also perform the factoring of the grammar
+d) None of the mentioned
+d
+10. In a bottom-up evaluation of a syntax directed definition its inherited attributes can do which of the following?
+a) Always evaluated
+b) Can be  evaluated  if the definition is L attributed
+c) Can be  evaluated  if the definition has synthesized attributes
+d) Never be evaluated
+b
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – Top-Down Parsing – 1» Next - Compilers Questions and Answers – Predictive Top-Down Parsing 

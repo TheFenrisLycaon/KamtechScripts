@@ -1,0 +1,61 @@
+1. The __________ of a replica set affects the outcome of failover situations.
+a) deployment
+b) architecture
+c) structure
+d) all of the mentioned
+a
+2. Point out the wrong statement.
+a) Administrators must apply or discard rollback data manually
+b) Network partitions could not prevent the set from being able to form a majority
+c) Replica sets remove “rollback” data when needed without intervention
+d) None of the mentioned
+b
+3. A rollback reverts _______ operations on a former primary when the member rejoins the replica set after a failover.
+a) read
+b) write
+c) view
+d) secondary
+b
+4. A priority __ member is a secondary that cannot become primary.
+a) 0
+b) 1
+c) 2
+d) None of the mentioned
+a
+5. Point out the correct statement.
+a) Elections does not occur when the primary becomes unavailable and the replica set members autonomously select a new primary
+b) A priority 1 member maintains a copy of the data set, accepts read operations, and votes in elections
+c) In a two-member replica set, in one data center hosts the primary and a secondary.
+d) None of the mentioned
+a
+6. A second data center hosts one priority 0 member that cannot become ___________
+a) primary
+b) write
+c) view
+d) Secondary
+a
+7. A ______ member maintains a copy of the primary’s data set but is invisible to client applications.
+a) primary
+b) delayed
+c) hidden
+d) none of the mentioned
+c
+8. The db.________ method does not display hidden members.
+a) isPrima ry()
+b) isMaster()
+c) Master()
+d) none of the mentioned
+b
+9. In a sharded cluster _______ do not interact with hidden members.
+a) mongod
+b) mongos
+c) mongostore
+d) all of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Replica Set High Availability» Next - MongoDB Questions and Answers – Master Slave Replication 

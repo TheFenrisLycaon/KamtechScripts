@@ -1,0 +1,62 @@
+1. How will one escape from printing graphs of variables, whose value gets changed for the program?
+a) Use the clear all command at the beginning
+b) Use the close all command at the beginning
+c) Use the clc command
+d) Cannot be escaped
+a
+2. A loop is used to avoid repetitive writing of the same function in the code.
+a) True
+b) False
+a
+3.  How will you return to execution from debugging mode?
+a) Use the dbcont command
+b) Use the return command
+c) Use the dbcont & return command
+d) Use the keyboard command
+c
+4.  The plotting of 3d plots and 2d plots requires separate windows. But the user has entered the hold on command. What is to be done?
+a) Use the pause command
+b) Use the hold off command
+c) Use the close command
+d) Nothing can be done
+a
+5. What will be the output of the following code?
+T=-5:1:5; y=sin(T); plot(T,y)
+a) No output
+b) A perfect sine curve
+c) A broken sine curve
+d) Cannot be determined
+c
+Output:   
+6.  How would you expect to see exponential inter-relation in a logarithmic scale?
+a) A straight line
+b) A curved line
+c) Depends on the exponent
+d) Depends on the log scale
+a
+7. There will be a problem in computing the logarithm of a negative number.
+a) True
+b) False
+b
+8. Global variables must be mentioned _____ an M-file.
+a) at the top in
+b) anywhere in
+c) out of the
+d) there is nothing called global variables
+a
+9. To stop execution, press _____
+a) Ctrl+C
+b) Use pause command
+c) Use end command
+d) Use keyboard command
+a
+10. The function definition is shown when we use the look for the command.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Presenting Results» Next - MATLAB Questions and Answers – Suppressing Output 

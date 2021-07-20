@@ -1,0 +1,74 @@
+1. Which version of PHP was added with Exception handling?
+a) PHP 4
+b) PHP 5
+c) PHP 5.3
+d) PHP 6
+b
+2. How many methods are available for the exception class?
+a) 5
+b) 6
+c) 7
+d) 8
+c
+3. Which version added the method getPrevious()?
+a) PHP 4
+b) PHP 5
+c) PHP 5.1
+d) PHP 5.3
+d
+4. Which of the following statements invoke the exception class?
+a) throws new Exception();
+b) throw new Exception();
+c) new Exception();
+d) new throws Exception();
+b
+5. Which one of the following is the right description for the method getMessage()?
+a) Returns the message if it is passed to the constructor
+b) Returns the message if it is passed to the class
+c) Returns the message if it is passed to the file
+d) Returns the message if it is passed to the object
+a
+6. You can extend the exception base class, but you cannot override any of the preceding methods because the are declared as__________
+a) protected
+b) final
+c) static
+d) private
+b
+7. What does SPL stand for?
+a) Standard PHP Library
+b) Source PHP Library
+c) Standard PHP List
+d) Source PHP List
+a
+8. How many predefined exceptions does SPL provide access to?
+a) 13
+b) 14
+c) 15
+d) 16
+a
+9. Which of the following is/are an exception?
+i) BadFunctionCallException
+ii) BadMethodCallException
+iii) LogicException
+iv) DomainException
+a) Only ii)
+b) Only iii)
+c) i), ii), iii) and iv)
+d) Only iv)
+c
+10. Which of the following is/are an exception?
+i) OutOfBoundException
+ii) OutOfRangeException
+iii) OverflowException
+iv) UnderflowException
+a) i)
+b) i) and iii)
+c) i) and ii)
+d) i), ii), iii) and iv)
+d
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Error Handling» Next - PHP Questions & Answers – PHP Filter 

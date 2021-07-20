@@ -1,0 +1,121 @@
+1. Find the ciphertext for the message {100110101011011} using superincreasing sequence { 1, 3, 5, 11, 35 } and private keys a = 5 and m=37.
+a) C = ( 33, 47, 65 )
+b) C = ( 65, 33, 47 )
+c) C = ( 47, 33, 65 )
+d) C = ( 47, 65, 33 )
+c
+a = 5		and m = 37
+Public key generation:
+{wi} = avi mod m
+wi = {5, 15, 25, 18, 27}
+Break the message into k-bit tuple i.e. 5-bit tuple
+10011   01010 11011
+Encoding of M as follows:
+ M		Ci
+10011		47
+01010		33
+11011		65
+Ciphertext sent will be: C = (47, 33, and 65).
+2. Suppose that plaintext message units are single letters in the usual 26-letter alphabet with A-Z corresponding to 0-25. You receive the sequence of ciphertext message units 14, 25, 89. The public key is the sequence {57, 14, 3, 24, 8} and the secret key is b = 23, m = 61.
+Decipher the message. The Plain text is
+a) TIN
+b) INT
+c) KIN
+d) INK
+b
+Wi = {57, 14, 3, 24, 8}
+b = 23    and m = 61
+a = b-1 mod m
+61 = 2 x23 + 15
+23 = 1x 15 + 8		Therefore 1= 8 x 23 – 3 x 61
+15 = 1x 8 + 7			b-1 = 23-1= 8
+8 = 1x 7 + 1			a = 8
+v_i=a^(-1) w_i mod m
+=bw_i  mod m
+v_i={ 30, 17, 8, 3, 1}
+Cipher text	V = bC mod m	Plaintext
+14	 23 x 14 mod 61 = 17 	01000 = 8 = I
+25	 23 x 25 mod 61 = 26 	01101 = 13 = N
+89	 23 x 89 mod 61 = 34	10011 = 19 = T.
+3. RSA is also a stream cipher like Merkel-Hellman.
+a) True
+b) False
+a
+4. In the RSA algorithm, we select 2 random large values ‘p’ and ‘q’. Which of the following is the property of ‘p’ and ‘q’?
+a) p and q should be divisible by Ф(n)
+b) p and q should be co-prime
+c) p and q should be prime
+d) p/q should give no remainder
+c
+5. In RSA, Ф(n) = _______ in terms of p and q.
+a) (p)/(q)
+b) (p)(q)
+c) (p-1)(q-1)
+d) (p+1)(q+1)
+c
+6. In RSA, we select a value ‘e’ such that it lies between 0 and Ф(n) and it is relatively prime to Ф(n).
+a) True
+b) False
+b
+7. For p = 11 and q = 19 and choose e=17. Apply RSA algorithm where message=5 and find the cipher text.
+a) C=80
+b) C=92
+c) C=56
+d) C=23
+a
+8. For p = 11 and q = 19 and choose d=17. Apply RSA algorithm where Cipher message=80 and thus find the plain text.
+a) 54
+b) 43
+c) 5
+d) 24
+c
+                            C=Me mod n ;  C=517 mod 209 ; C = 80 mod 209.
+9. USENET falls under which category of public key sharing?
+a) Public announcement
+b) Publicly available directory
+c) Public-key authority
+d) Public-key certificates
+a
+Perform encryption on the following PT using RSA and find the CT.
+10. p = 3; q = 11; M = 5
+a) 28
+b) 26
+c) 18
+d) 12
+b
+11. p = 5; q = 11; M = 9
+a) 43
+b) 14
+c) 26
+d) 37
+b
+12. p = 7; q = 11; M = 8
+a) 19
+b) 57
+c) 76
+d) 59
+b
+13. p = 11; q = 13; M = 7
+a) 84
+b) 124
+c) 106
+d) 76
+c
+14. p = 17; q = 31; M = 2
+a) 254
+b) 423
+c) 128
+d) 523
+c
+15. n = 35; e = 5; C = 10. What is the plaintext (use RSA) ?
+a) 3
+b) 7
+c) 8
+d) 5
+d
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography for online test, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Asymmetric Ciphers Questions and Answers – Knapsack/ Merkle – Hellman/ RSA Cryptosystem – I» Next - Asymmetric Ciphers Questions and Answers – Elliptic Curve Arithmetic/Cryptography – I 

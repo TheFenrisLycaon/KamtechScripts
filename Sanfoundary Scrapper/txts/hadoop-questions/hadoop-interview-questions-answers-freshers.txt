@@ -1,0 +1,67 @@
+1. __________ storage is a solution to decouple growing storage capacity from compute capacity.
+a) DataNode
+b) Archival
+c) Policy
+d) None of the mentioned
+b
+2. Point out the correct statement.
+a) When there is enough space, block replicas are stored according to the storage type list
+b) One_SSD is used for storing all replicas in SSD
+c) Hot policy is useful only for single replica blocks
+d) All of the mentioned
+a
+3. ___________ is added for supporting writing single replica files in memory.
+a) ROM_DISK
+b) ARCHIVE
+c) RAM_DISK
+d) All of the mentioned
+c
+4. Which of the following has high storage density?
+a) ROM_DISK
+b) ARCHIVE
+c) RAM_DISK
+d) All of the mentioned
+b
+5. Point out the wrong statement.
+a) A Storage policy consists of the Policy ID
+b) The storage policy can be specified using the “dfsadmin -setStoragePolicy” command
+c) dfs.storage.policy.enabled is used for enabling/disabling the storage policy feature
+d) None of the mentioned
+d
+6. Which of the following storage policy is used for both storage and compute?
+a) Hot
+b) Cold
+c) Warm
+d) All_SSD
+a
+7. Which of the following is only for storage with limited compute?
+a) Hot
+b) Cold
+c) Warm
+d) All_SSD
+b
+8. When a block is warm, some of its replicas are stored in DISK and the remaining replicas are stored in _________
+a) ROM_DISK
+b) ARCHIVE
+c) RAM_DISK
+d) All of the mentioned
+b
+9. ____________ is used for storing one of the replicas in SSD.
+a) Hot
+b) Lazy_Persist
+c) One_SSD
+d) All_SSD
+c
+10. ___________ is used for writing blocks with single replica in memory.
+a) Hot
+b) Lazy_Persist
+c) One_SSD
+d) All_SSD
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop for interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Security» Next - Hadoop Questions and Answers – MapReduce Job – 2 

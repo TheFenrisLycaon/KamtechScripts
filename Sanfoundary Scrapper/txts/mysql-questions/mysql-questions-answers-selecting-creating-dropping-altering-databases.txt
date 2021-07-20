@@ -1,0 +1,62 @@
+1. Which statement is used to select a default database?
+a) USE
+b) CREATE
+c) DROP
+d) SCHEMA
+a
+2. Which keyword is the synonym for DATABASE?
+a) TABLE
+b) OBJECT
+c) DB
+d) SCHEMA
+d
+3. It is not required to have an access privilege for a database before selecting it with ‘USE’.
+a) True
+b) False
+b
+4. Which keyword is used to create a database?
+a) CREATE
+b) SET
+c) SETUP
+d) LINK
+a
+5. The file created by the server to store the database attributes is __________
+a) db.otp
+b) dp.zip
+c) db.opt
+d) db.cls
+c
+6. To create a database only if it doesn’t already exist, which clause is used?
+a) IF EXISTS
+b) IF NOT EXISTS
+c) CREATE EXISTS
+d) EXISTS IF
+b
+7. If COLLATE is given without CHARACTER SET, the first part of the collation name gives the character set.
+a) True
+b) False
+a
+8. MySQL stores the database character set and collation attributes in the file _________
+a) dp.opt
+b) db.opt
+c) db.sv
+d) db.zip
+b
+9. Which statement is used to see the definition for an existing database?
+a) SHOW CREATE DATABASE
+b) SHOW DATABASE
+c) SHOW CREATE
+d) SHOW CREATE DATABASE TABLE
+a
+10. Which statement makes changes to the database’s global attributes?
+a) CHANGE
+b) ALTER
+c) ALTERNATE
+d) UPDATE
+b
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Character Set Support» Next - MySQL Questions and Answers – Creating, Dropping, Indexing and Altering Tables 

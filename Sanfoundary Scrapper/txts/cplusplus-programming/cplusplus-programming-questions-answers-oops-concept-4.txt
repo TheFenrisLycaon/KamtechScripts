@@ -1,0 +1,214 @@
+1. Which of the following is correct about new and malloc?
+a) Both are available in C
+b) Pointer object initialization of a class with both new and malloc calls the constructor of that class
+c) Pointer object initialization of a class using new involves constructor call whereas using malloc does not involve constructor call
+d) Pointer object initialization of a class using malloc involves constructor call whereas using new does not involve constructor call
+c
+2. What is virtual inheritance?
+a) C++ technique to avoid multiple copies of the base class into children/derived class
+b) C++ technique to avoid multiple inheritances of classes
+c) C++ technique to enhance multiple inheritance
+d) C++ technique to ensure that a private member of the base class can be accessed somehow
+a
+3. What is the difference between delete and delete[] in C++?
+a) delete is used to delete normal objects whereas delete[] is used to pointer objects
+b) delete is a keyword whereas delete[] is an identifier
+c) delete is used to delete single object whereas delete[] is used to multiple(array/pointer of) objects
+d) delete is syntactically correct but delete[] is wrong and hence will give an error if used in any case
+c
+4. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std;
+class A{
+public:
+	A(){
+		cout<<"Constructor called\n";
+	   }
+	~A(){
+		cout<<"Destructor called\n";
+	    }
+};
+int main(int argc, char const *argv[])
+{
+	A *a = new A[5];
+	delete a;
+	return 0;
+}
+a) “Constructor called” five times and then “Destructor called” five times
+b) “Constructor called” five times and then “Destructor called” once
+c) Error
+d) Segmentation fault
+d
+5. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std;
+class A{
+public:
+	A(){
+		cout<<"Constructor called\n";
+	   }
+	~A(){
+		cout<<"Destructor called\n";
+	    } 
+};
+int main(int argc, char const *argv[])
+{
+	A *a = new A[5];
+	delete[] a;
+	return 0;
+}
+a) “Constructor called” five times and then “Destructor called” five times
+b) “Constructor called” five times and then “Destructor called” once
+c) Error
+d) Segmentation fault
+a
+6. What will be the output of the following C++ code?
+#include<iostream> 
+using namespace std; 
+class Base { 
+public: 
+	Base()	 
+	{ cout<<"Constructing Base \n"; } 
+	~Base() 
+	{ cout<<"Destructing Base \n"; }	 
+}; 
+class Derived: public Base { 
+public: 
+	Derived()	 
+	{ cout<<"Constructing Derived \n"; } 
+	~Derived() 
+	{ cout<<"Destructing Derived \n"; } 
+}; 
+ 
+int main(void) 
+{ 
+	Derived *d = new Derived(); 
+	Base *b = d; 
+	delete b; 
+	return 0; 
+}
+a) 
+Constructing Base 
+Constructing Derived 
+Destructing Base
+b) 
+Constructing Base 
+Constructing Derived 
+Destructing Derived
+Destructing Base
+c) 
+Constructing Base 
+Constructing Derived 
+Destructing Base
+Destructing Derived
+d) 
+Constructing Derived 
+Constructing Base 
+Destructing Base
+Destructing Derived
+a
+  
+7. What will be the output of the following C++ code?
+#include<iostream> 
+using namespace std; 
+class Base { 
+public: 
+	Base()	 
+	{ cout<<"Constructing Base \n"; } 
+	virtual~Base() 
+	{ cout<<"Destructing Base \n"; }	 
+}; 
+class Derived: public Base { 
+public: 
+	Derived()	 
+	{ cout<<"Constructing Derived \n"; } 
+	~Derived() 
+	{ cout<<"Destructing Derived \n"; } 
+}; 
+ 
+int main(void) 
+{ 
+	Derived *d = new Derived(); 
+	Base *b = d; 
+	delete b; 
+	return 0; 
+}
+a) 
+Constructing Base 
+Constructing Derived 
+Destructing Base
+b) 
+Constructing Base 
+Constructing Derived 
+Destructing Derived
+Destructing Base
+c) 
+Constructing Base 
+Constructing Derived 
+Destructing Base
+Destructing Derived
+d) 
+Constructing Derived 
+Constructing Base 
+Destructing Base
+Destructing Derived
+b
+  
+8. What is the correct syntax of declaring array of pointers of integers of size 10 in C++?
+a) int arr = new int[10];
+b) int **arr = new int*[10];
+c) int *arr = new int[10];
+d) int *arr = new int*[10];
+b
+9. Which of the following is correct about new and malloc?
+i) new is an operator whereas malloc is a function
+ii) new calls constructor malloc does not
+iii) new returns required pointer whereas malloc returns void pointer and needs to be typecast
+a) i and ii
+b) ii and iii
+c) i and iii
+d) i, ii and iii
+d
+10. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std;
+ 
+class A 
+{
+   int a;
+   A() { a = 5;}
+};
+ 
+int main()
+{
+    A *obj = new A;
+    cout << obj->a;
+}
+a) 5
+b) Garbage value
+c) Compile-time error
+d) Run-time error
+c
+11. What happens if the following C++ statement is compiled and executed?
+int *ptr = NULL;
+delete ptr;
+a) The program compiled successfully but throws an error during run-time
+b) The program gives a compile-time error
+c) The program is not semantically correct
+d) The program is compiled and executed successfully
+d
+12. What happens if a pointer is deleted twice in a program as shown in the following C++ statements?
+int *ptr = new int;
+delete ptr;
+delete ptr;
+a) Undefined behaviour
+b) Syntactically incorrect
+c) Semantically incorrect
+d) The program runs perfectly
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – OOPs Concept – 3» Next - C++ Programming Questions and Answers – C++ vs C 

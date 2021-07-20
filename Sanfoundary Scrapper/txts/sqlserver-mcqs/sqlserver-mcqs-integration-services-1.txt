@@ -1,0 +1,66 @@
+1. SSMS provides different options to develop your SSIS package starting with ___________ wizard.
+a) Import and Export
+b) Copy and Import
+c) Export and BulkInsert
+d) None of the mentioned
+a
+2. Point out the wrong statement.
+a) Prior to SSIS, Data Transformation Services (DTS) in SQL Server 2000 performs the tasks with fewer features
+b) SSIS is used to perform operations like loading the data based on the need, performing different transformations on the data like doing calculations
+c) Business Intelligence Development Studio (BIDS) is a tool which can be used to develop only SSIS packages
+d) All of the mentioned
+c
+3. Which of the following is the best practice related to SSIS?
+a) Plan for capacity by understanding resource utilization
+b) SSIS is an in-memory pipeline, so ensure that all transformations occur in memory
+c) Baseline source system extract speed
+d) All of the mentioned
+a
+4. If SSIS is not able to drive close to 100% CPU load, this may be indicative of ____________
+a) Software Contention
+b) Application contention
+c) Processor contention
+d) None of the mentioned
+b
+5. Point out the wrong statement.
+a) SSIS moves data as fast as your network is able to handle it
+b) It is important to understand your network topology and ensure that the path between your source and target have both low latency and high throughput
+c) Integration Services can be tuned beyond the speed of your source
+d) All of the mentioned
+c
+6. The key counters for Integration Services and SQL Server are _______________
+a) Process Bytes
+b) Public Bytes
+c) Private Set
+d) All of the mentioned
+a
+7. _________ represents to total memory pressure on the system in SSIS.
+a) Page sec
+b) Page Reads
+c) Memory reads
+d) All of the mentioned
+d
+8. The following Network perfom counters can help you tune your topology?
+a) Total Bandwidth
+b) Current Bandwidth
+c) Bandwidth bound
+d) All of the mentioned
+b
+9. What do you understand by design limitation in SSIS package?
+a) Making use of parallelism
+b) Not making use of parallelism
+c) Package uses few single-threaded tasks
+d) None of the mentioned
+b
+10. ___________ represents how many network transfers per second are occurring.
+a) Network Bytes
+b) Network Transfers
+c) Memory reads
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Replication» Next - SQL Server Questions and Answers – Integration Services – 2 

@@ -1,0 +1,86 @@
+1. The memory function is limited to _________
+a) MS systems
+b) Linux Systems
+c) No system
+d) Does not exist
+a
+2. What is p in the following code?
+p=memory
+a) A Structure of arrays
+b) An array of structures
+c) A stack
+d) An array
+a
+i.  MaxPossibleArrayBytes
+ii. MemAvailableAllArrays
+iii.MemUsedMATLAB
+And these are stored into p. So p is a structure of arrays.
+3. When will the following be shown?
+Limited by System Memory (physical + swap file) available.
+a) In windows 64bit
+b) In windows 32bit
+c) In windows 64bit when mapping to a memory block is limited
+d) In windows 32bit when mapping to a memory block is limited
+c
+4. The memory used by MATLAB, shown in the output of the memory command, is ________
+a) The total system memory allotted to MATLAB
+b) The total physical memory allotted to MATLAB
+c) The total space for only mathematical operations in MATLAB
+d) The temporary storage allotted to MATLAB
+a
+5. What is the physical memory?
+>>q.PhysicalMemory
+ans = 
+struct with fields:
+        Available: 3.2158e+09
+               Total: 8.5027e+09
+a) RAM
+b) Hard disk memory
+c) ROM
+d) Error
+a
+6. Which of the following changes with time?
+>>q.PhysicalMemory
+ans = 
+struct with fields:
+        Available: 3.2158e+09
+               Total: 8.5027e+09
+a) Available Memory
+b) Physical Memory
+c) Available & Physical Memory
+d) One at a time
+a
+7. Which of the following contains the system memory?
+[p,q]=memory
+a) p
+b) q
+c) It’s not returned
+d) Error
+b
+8. Which of the following contains the Physical Memory of the system only?
+[p,q]=memory
+a) p
+b) q
+c) It’s not returned
+d) Syntactical error
+b
+9. Which of the following contains the memory used by MATLAB?
+[p,q]=memory
+a) p
+b) q
+c) It’s not returned
+d) Error
+a
+10. Which of the following contains the memory for the maximum possible array that can be made in MATLAB?
+[p,q]=memory
+a) q
+b) p
+c) It’s not returned
+d) Error
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Toolbox Distribution – 2» Next - MATLAB Questions and Answers – Performance and Memory – 2 

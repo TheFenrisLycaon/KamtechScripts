@@ -1,0 +1,67 @@
+This section of our 1000+ Computer Graphics multiple choice questions focuses on Bundled Attributes.
+1. The function which references a single attribute that specifies how a primitive is to be displayed with that attribute setting is called
+a) Individual attribute
+b) Unbundled attribute
+c) Bundled attribute
+d) A or B
+d
+2. A particular set of attribute values for a primitive on each output device is chosen by specifying appropriate table index is known as?
+a) Individual attribute
+b) Unbundled attribute
+c) Bundled attribute
+d) A or B
+c
+3. A table for which, a primitive defines groups of attribute values to be used when displaying that primitive on a particular output device is called
+a) Bundle table
+b) Index table
+c) Both a and b
+d) None of these
+a
+4. The choice between a bundled attribute or an unbundled attribute is made by
+a) Setting switch
+b) Setting bundle table
+c) Index table
+d) Only a
+d
+5. Entries in the bundle table for line attributes are set using the function
+a) Setlineattributes ()
+b) setPolylineRepresentation (ws, li, lt, lc)
+c) setPolylineRepresentation()
+d) only a
+b
+6. A poly-line that is assigned a table index value of 3 would be displayed using
+a) Dashed line
+b) Dotted line
+c) Same index
+d) All of the mentioned
+a
+7. Table entries for bundled area-fill attributes are set using the function
+a) setInteriorRepresentation (ws, fi, fs, pi, fc)
+b) SetInteriorRepresentation ()
+c) Only b
+d) Both a and b
+a
+8. The choice between a bundled attribute or an unbundled attribute is made by switch called?
+a) Aspect flag
+b) Aspect ratio
+c) Aspect source flag
+d) Aspect destination flag
+c
+9. We can check the attribute values by
+a) Stating the name of the attribute in the inquiry function
+b) Setting attribute values
+c) Only a
+d) Neither a nor b
+c
+10. A particular text index value is chosen with the function
+a) setTextIndex()
+b) settextindex(ti)
+c) SetTextIndex(ti)
+d) setTextIndex(ti)
+d
+Sanfoundry Global Education & Learning Series – Computer Graphics.
+To practice all areas of Computer Graphics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Graphics Questions & Answers – Area Fill Attributes» Next - Computer Graphics Questions & Answers – Character Attributes 

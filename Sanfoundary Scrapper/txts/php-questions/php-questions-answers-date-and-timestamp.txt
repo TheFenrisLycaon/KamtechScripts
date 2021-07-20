@@ -1,0 +1,69 @@
+1. What will be the output of the following PHP code?
+    <?php    echo (checkdate(4,31,2010) ? 'Valid' : 'Invalid');    ?>
+a) TRUE
+b) FALSE
+c) Valid
+d) Invalid
+d
+2. The date() function returns ___ representation of the current date and/or time.
+a) Integer
+b) String
+c) Boolean
+d) Float
+b
+3. Which one of the following format parameter can be used to identify timezone?
+a) T
+b) N
+c) E
+d) I
+c
+4. If the format is F then which one of the following will be returned?
+a) Complete text representation of month
+b) Day of month, with leading zero
+c) Daylight saving time
+d) Day of month, without zeros
+a
+5. What will be the output of the following code? (If say date is 22/06/2013.)
+    <?php    echo "Today is ".date("F d, Y");    ?>
+a) Today is 22 June, 2013
+b) Today is 22-06-2013
+c) Today is 06-22-2013
+d) Today is June 22, 2013
+d
+6. Which one of the following function is useful for producing a timestamp based on a given date and time?
+a) time()
+b) mktime()
+c) mrtime()
+d) mtime()
+b
+7. Which function displays the web page’s most recent modification date?
+a) lastmod()
+b) getlastmod()
+c) last_mod()
+d) get_last_mod()
+b
+8. What will be the output of the following PHP code? (If say date is 22/06/2013.)
+    <?php    printf( date("t") );    ?>
+a) 30
+b) 22
+c) JUNE
+d) 2013
+a
+9. Suppose you want to calculate the date 45 days from the present date which one of the following statement will you use?
+a) totime(“+45”)
+b) totime(“+45 days”)
+c) strtotime(“+45 days”)
+d) strtotime(“-45 days”)
+c
+10. To create an object and set the date to JUNE 22, 2013, which one of the following statement should be executed?
+a) $date = Date(“22 JUNE 2013”)
+b) $date = new Date(“JUNE 22 2013”)
+c) $date = DateTime(“22 JUNE 2013”)
+d) $date = new DateTime(“22 JUNE 2013”)
+d
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – File System and PHP» Next - PHP Questions & Answers – Working with Dates 

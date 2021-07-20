@@ -1,0 +1,73 @@
+1. What does URL stand for?
+a) Uniform Resource Locator
+b) Uniform Resource Latch
+c) Universal Resource Locator
+d) Universal Resource Latch
+a
+2. Which of these exceptions is thrown by the URL class’s constructors?
+a) URLNotFound
+b) URLSourceNotFound
+c) MalformedURLException
+d) URLNotFoundException
+c
+3. What does the following form define?
+  Protocol://HostName/FilePath?Query
+a) Protocol specifies the protocol being used, such as HTTP
+b) HostName identifies a specific server, such as mhprofessional.com or www.google.com
+c) FilePath specifies the path to a specific file
+d) All of the mentioned
+d
+4. Which of these classes is used to encapsulate IP address and DNS?
+a) DatagramPacket
+b) URL
+c) InetAddress
+d) ContentHandler
+c
+5. Which of these is a standard for communicating multimedia content over email?
+a) http
+b) https
+c) Mime
+d) httpd
+c
+6. What does the following method specify?
+   public static WebRequest Create(string requestUriString)
+a) Creates a WebRequest object for the URI specified by the string passed by requestUriString
+b) The object returned will implement the protocol specified by the prefix of the URI
+c) The object will be an instance of the class that inherits WebRequest
+d) All of the mentioned
+d
+implement the protocol specified by the prefix of the URI. Thus, the object will be an instance of a class that inherits WebRequest. A NotSupportedException is thrown if the requested protocol is not available. A UriFormatException is thrown if the URI format is invalid.
+7. What will be the output of the following C# code?
+  class Program  {      static void Main(string[] args)      {          int ch;          HttpWebRequest req = (HttpWebRequest) WebRequest.Create("http://www.McGraw-Hill.com");          HttpWebResponse resp = (HttpWebResponse) req.GetResponse();          Stream istrm = resp.GetResponseStream();          for (int i = 1 ;  ;i++)          {              ch = istrm.ReadByte();              if (ch == -1)               break;              Console.Write((char)ch);              if ((i % 400) == 0)              {                  Console.Write("\nPress Enter.");                  Console.ReadLine();              }          }          resp.Close();      }  }
+a) html
+b) text
+c) html/text
+d) text/html
+d
+8. What will be the output of the following C# code?
+ class Program {     static void Main(string[] args)      {         Uri obj = new Uri("https://www.sanfoundry.com/csharpmcq");         Console.WriteLine(obj.AbsoluteUri);         Console.ReadLine();     } }
+a) sanfoundry
+b) sanfoundry.com
+c) www.sanfoundry.com
+d) https://www.sanfoundry.com/csharpmcq
+d
+Output:
+ https://www.sanfoundry.com/csharpmcq
+9. Which of these data members of HttpResponse class is used to store the response from a http server?
+a) status
+b) address
+c) statusResponse
+d) statusCode
+d
+10. Which of these classes is used to access actual bits or content information of a URL?
+a) URL
+b) URLDecoder
+c) URLConnection
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Fundamental of Networking» Next - C# Questions & Answers – Network Errors Handling 

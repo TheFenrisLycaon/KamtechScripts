@@ -1,0 +1,110 @@
+1. The actual available thrust used in performance calculations is termed as __________
+a) installed net propulsive force
+b) lift to drag ratio
+c) installed weight to reference area
+d) gross lift and weight
+a
+2. Fudge factor is used to obtain ______________
+a) manufacturer’s uninstalled engine thrust
+b) thrust loading and wing loading
+c) lofting
+d) lift to drag ratio
+a
+3. What do you mean by installed engine thrust?
+a) Actual thrust produced by an engine when installed
+b) Actual thrust when not installed
+c) Lifting property
+d) Installed wing lift
+a
+4. Following diagram represents __________
+a) installed thrust methodology
+b) uninstalled lift
+c) lift to drag ratio determination
+d) aerodynamic efficiency methodology
+a
+5. The installed net propulsive force is defined as _________
+a) installed engine thrust minus the drag due to inlet, nozzle and throttle dependent trim drag
+b) uninstalled thrust plus drag due to inlet and nozzle
+c) installed lift by drag
+d) installer wing loading
+a
+6. A manufacturer’s uninstalled engine is required to operate at 1.8M. Find the reference pressure recovery based on military standard.
+a) 94.45%
+b) 12.56%
+c) 45.97%
+d) 100%
+a
+Reference pressure recovery = 1 – 0.075(M – 1)1.35
+= 1 – 0.075(1.8 – 1)1.35 = 0.9445 = 94.45%.
+7. Following diagram represents _________
+a) inlet pressure recovery concept
+b) lift curve
+c) inlet geometry
+d) drag polar
+a
+8. A subsonic flight has actual inlet pressure recovery of 0.975. Estimate the thrust loss by this subsonic engine.
+a) 3.37%
+b) 56%
+c) 2.5%
+d) 11.22%
+a
+Thrust loss can be approximated as follows,
+% Thrust loss = C*(reference pressure recovery – actual inlet pressure recovery)*100
+Since, C is not given we will consider it as 1.35. 1.35 is a typical value of C for subsonic aircraft.
+Hence,
+% Thrust loss = 1.35*(1-.975)*100 = 3.37%.
+9. Engine manufacturer has provided the reference value of inlet pressure recovery as 0.94. If actual pressure recovery is found to be 0.91 then, find the thrust loss. Consider C of 1.25.
+a) 0.0375
+b) 0.123
+c) 0.0865
+d) 0.568
+a
+Now, thrust loss = C*(p-p1)
+= 1.25*(0.94-0.91) = 0.0375.
+10. A supersonic aircraft is designed to operate at 2.0M if thrust loss is required to be less than 2% then determine the reference value of inlet pressure recovery. Given ram recovery Correction factor C is 1.2.
+a) 95%
+b) 99
+c) 102
+d) 70
+a
+= 0.02/1.2 + 0.93
+= 0.016+0.93 = 0.95 = 0.95*100% = 95%.
+11. An engine has mass flow of 16 unit and bleed mass flow of 0.32 unit. Find the thrust loss due to the bleed air.
+a) 4%
+b) 6.98%
+c) 100.78%
+d) 21%
+a
+% Thrust loss = C*(bleed mass flow/engine mass flow)*100
+= 2*(0.32/16)*100 = 4%.
+12. If manufacturer’s thrust loss requirement is 3% and engine has mass flow of 20 unit then, determine how much bleed mass flow can be used?
+a) 0.3 unit
+b) 0.4 unit
+c) 0.8 unit
+d) 0.9835 unit
+a
+Bleed mass flow = Thrust loss*Engine mass flow / C = 0.03*20/2 = 0.3 unit.
+13. Which of the following is correct?
+a) Drag due to air spilled before entering into the inlet is called additive drag
+b) Lift is always equal to drag
+c) Thrust loading is same as wing loading
+d) Drag and lift are always unity
+a
+14. Following diagram represents __________
+a) typical inlet drag trends
+b) reynolds number
+c) drag polar
+d) lift coefficient curve
+a
+15. Nozzle drag varies with _________
+a) position of nozzle, flight conditions, etc
+b) only nozzle flight conduit
+c) only with nozzle type
+d) only with nozzle pressure at combustion chamber
+a
+Sanfoundry Global Education & Learning Series – Aircraft Design.
+To practice all areas of Aircraft Design, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aircraft Design Questions and Answers – Propulsion – Jet-Engine Thrust Considerations and Turbojet Installed Thrust» Next - Aircraft Design Questions and Answers – Propulsion – Piston-Engine and Turboprop Performance 

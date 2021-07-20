@@ -1,0 +1,67 @@
+1. What options did ALTER DATABASE statement add?
+a) DATABASE SNAPSHOT syntax
+b) ATTACH_REBUILD_LOG clause
+c) DB_CHAINING option
+d) READ_COMMITTED_SNAPSHOT
+d
+2. Which of the following item is provided by CREATE DATABASE statement?
+a) Service Broker options
+b) ALLOW_SNAPSHOT_ISOLATION
+c) DB_CHAINING
+d) Database mirroring
+a
+3. Which of the following statement removes database including its related components?
+a) DROP DATABASE
+b) DELETE DATABASE
+c) REMOVE DATABASE
+d) None of the mentioned
+a
+4. Which of the following database cannot be dropped?
+a) TEMPDB
+b) Master
+c) MSDB
+d) All of the mentioned
+d
+5. Point out the correct statement.
+a) When a database is dropped, the master database should be backed up
+b) You can drop a database currently being used
+c) Dropping a database snapshot does not delete the database snapshot from an instance of SQL Server
+d) None of the mentioned
+a
+6. Which is the minimal permission that a user must have to drop the database?
+a) READ
+b) WRITE
+c) VIEW
+d) CONTROL
+d
+Join [email protected]
+7. Which of the following statement removes sales and suppliers database?
+a) DROP DATABASE Sales, NewSales
+b) DROP DATABASE Sales, suppliers
+c) DROP DATABASE Sales and suppliers
+d) DROP DATABASE Sales-suppliers
+b
+8. Which of the following statement is used to create database snapshot?
+a) CREATE DATABASE
+b) CREATE SNAPSHOT
+c) CREATE SNAPDB
+d) None of the mentioned
+a
+9. Syntax for dropping a database snapshot named “Sushant” would be ____________
+a) DROP DATABASE Sushant
+b) DROP DATABASE SNAP Sushant
+c) DROP SNAPSHOT Sushant
+d) None of the mentioned
+a
+10. View used used for displaying current status of database is ___________
+a) system.databases
+b) current.databases
+c) sys.databases
+d) status.databases
+c
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Full Text Search» Next - SQL Server Questions and Answers – Data Definition Language – 2 

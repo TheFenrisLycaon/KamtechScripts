@@ -1,0 +1,68 @@
+1. For which of these storage engines are configuration options always built?
+a) Falcon
+b) FEDERATED
+c) InnoDB
+d) MyISAM
+d
+2. The storage engine for which the runtime options are always enabled is ______________
+a) Falcon
+b) FEDERATED
+c) InnoDB
+d) MEMORY
+d
+3. The most important configurable resource for MyISAM is ______________
+a) key cache
+b) memory cache
+c) time cache
+d) speed cache
+a
+4. Which system variable enables mysqld to keep more tables open simultaneously?
+a) table_cache
+b) max_connect
+c) delayed_queue_size
+d) max_allowed_packet
+a
+5. xyz in the following MySQL statement is __________
+CREATE VIEW xyz AS SELECT a, b FROM t;
+a) table
+b) column
+c) view
+d) database
+c
+6. abc in the following MySQL statement is ____________
+CREATE VIEW xyz (abc) AS SELECT a FROM t;
+a) row name
+b) column name
+c) view
+d) database
+b
+7. How can a view refer to multiple tables?
+a) UNION
+b) JOIN
+c) GROUP
+d) SELECT
+b
+8. What is the mantissa in -1.58E5?
+a) -1.58
+b) 1.58
+c) E
+d) 5
+a
+9. What is the precision of BIGINT?
+a) 32
+b) 64
+c) 128
+d) 16
+b
+10. How many digits is the DECIMAL used for expressions containing only exact values with fractional part?
+a) 32
+b) 64
+c) 65
+d) 16
+c
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Tuning the Server» Next - MySQL Questions and Answers – Enabling or Disabling LOCAL Capability for LOAD DATA 

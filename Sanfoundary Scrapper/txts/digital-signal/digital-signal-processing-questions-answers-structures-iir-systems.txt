@@ -1,0 +1,73 @@
+1. If M and N are the orders of numerator and denominator of rational system function respectively, then how many multiplications are required in direct form-I realization of that IIR filter?
+a) M+N-1
+b) M+N
+c) M+N+1
+d) M+N+2
+c
+2. If M and N are the orders of numerator and denominator of rational system function respectively, then how many additions are required in direct form-I realization of that IIR filter?
+a) M+N-1
+b) M+N
+c) M+N+1
+d) M+N+2
+b
+3. If M and N are the orders of numerator and denominator of rational system function respectively, then how many memory locations are required in direct form-I realization of that IIR filter?
+a) M+N+1
+b) M+N
+c) M+N-1
+d) M+N-2
+a
+4. In direct form-I realization, all-pole system is placed before the all-zero system.
+a) True
+b) False
+b
+5. If M and N are the orders of numerator and denominator of rational system function respectively, then how many memory locations are required in direct form-II realization of that IIR filter?
+a) M+N+1
+b) M+N
+c) Min [M,N] 
+d) Max [M,N] 
+d
+6. The basic elements of a flow graph are branches and nodes.
+a) True
+b) False
+a
+7. Which of the following is true for the given signal flow graph?
+a) Two pole system
+b) Two zero system
+c) Two pole and two zero system
+d) None of the mentioned
+c
+Thus from the above structure, the system has two zeros and two poles.
+8. What are the nodes that replace the adders in the signal flow graphs?
+a) Source node
+b) Sink node
+c) Branch node
+d) Summing node
+d
+9. The output signal of a system is extracted at a sink node.
+a) True
+b) False
+a
+10. If we reverse the directions of all branch transmittances and interchange the input and output in the flow graph, then the resulting structure is called as ______________
+a) Direct form-I
+b) Transposed form
+c) Direct form-II
+d) None of the mentioned
+b
+11. What does the structure given below represents?
+a) Direct form-I
+b) Regular Direct form-II
+c) Transposed direct form-II
+d) None of the mentioned
+c
+12. The structure shown below is known as ____________
+a) Parallel form structure
+b) Cascade structure
+c) Direct form
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Structures for FIR Systems – 2» Next - Digital Signal Processing Questions and Answers – State-Space System Analysis and Structures 

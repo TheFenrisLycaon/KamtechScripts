@@ -1,0 +1,66 @@
+1. If the elements in two arrays are related by their subscripts, the arrays are called as ________________ arrays.
+a) associated
+b) coupled
+c) matching
+d) parallel
+d
+2. The strStates and strCapitals arrays are parallel arrays. If Illinois is stored in the second element in the strStates array, where is its capital (Springfield) stored?
+a) strCapitals(1)
+b) strCapitals(2)
+c) strCapitals(0)
+d) strCapitals(3)
+a
+3. A _______________ resembles a table.
+a) One-dimensional array
+b) Two-dimensional array
+c) Three-dimensional array
+d) N-dimensional array
+b
+4. We can determine number of elements in two-dimensional array by _________________
+a) Multiplying number of rows and number of columns
+b) Adding number of rows and number of columns
+c) Multiplying number of rows and number of rows
+d) Adding number of columns and number of columns
+a
+5. The _____________ in a two-dimensional array specifies the elements row and column position.
+a) Superscript
+b) Subscript
+c) Row number
+d) Column number
+b
+6. Each element in a two-dimensional array is identified by a unique combination of _______________
+a) One subscript
+b) Two subscripts
+c) Three subscripts
+d) Zero subscript
+b
+7. The subscripts are _________ than the row and column in which the element is located.
+a) One number less
+b) One number more
+c) Two number less
+d) Two number more
+a
+8. To traverse two dimensional array you require ________________ loops.
+a) One
+b) Two
+c) Three
+d) Zero
+b
+9. Which of the following declares a two-dimensional array that has three rows and four columns?
+a) Dim decNums(2, 3) As Decimal
+b) Dim decNums(3, 4) As Decimal
+c) Dim decNums(3, 2) As Decimal
+d) Dim decNums(4, 3) As Decimal
+b
+10. The intSales array is declared as follows: Dim intSales(,) As Integer = {{1000, 1200, 900, 500, 2000}, {350, 600, 700, 800, 100}}. The intSales(1, 3) = intSales(1, 3) + 10 statement will _______________
+a) replace the 900 amount with 910
+b) replace the 500 amount with 510
+c) replace the 700 amount with 710
+d) replace the 800 amount with 810
+d
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Sorting a One-Dimensional Array» Next - Visual Basic Questions and Answers – Declaring and Using a Structure Variable 

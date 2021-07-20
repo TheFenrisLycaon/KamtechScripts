@@ -1,0 +1,70 @@
+1. A deterministic finite automation (DFA)D with alphabet ∑ = {a,b} is given below. Which of the following is a valid minimal DFA which accepts the same language as D?
+a) 
+b) 
+c) 
+d)
+a
+2. The lexical analysis for a modern language such as Java needs the power of which one of the following machine models in a necessary and sufficient sense?
+a) Finite state automata
+b) Deterministic pushdown automata
+c) Non-deterministic pushdown automata
+d) Turing machine
+a
+the keyword if is given by if.
+Integers are given by [+-]? [0-9]+.
+3. Is empty string a valid input in Ndfa.
+a) True
+b) False
+a
+4. What is the complement of the language accepted by the NFA shown below? Assume ∑ = {a} and ε is the empty string.
+a) Φ
+b) ε
+c) a
+d) {a, ε}
+b
+5. Given the language L = {ab, aa, baa}, whih of the following strings are in L*?
+i) abaabaaabaa
+ii) aaaabaaaa
+iii) baaaaabaaaab
+iv) baaaaabaa
+a) i, ii and iii
+b) ii, iii and iv
+c) i, ii and iv
+d) i, iii and iv
+c
+i) “abaabaaabaa” can be partitioned as a combination of strings in set {ab, aa, baa}. The partitions are “ab aa baa ab aa”
+ii) “aaaabaaaa” can be partitioned as a combination of strings in set {ab, aa, baa}. The partitions are “aa ab aa aa”
+iii) “baaaaabaaaab” cannot be partitioned as a combination of strings in set {ab, aa, baa}
+iv) “baaaaabaa” can be partitioned as a combination of strings in set {ab, aa, baa}. The partitions are “baa aa ab aa”.
+6. Consider the set of strings on {0,1} in which, every substring of 3 symbols has at most two zeros. Complete the  partially completed DFA that accepts this language is shown below.
+The missing arcs in the DFA are
+a) 
+b) 
+c) 
+d) 
+d
+7. Which of the following problems occur?
+i) Does a given program ever produce an output?
+ii) If L is a CFL, then is L’ is also context-free?
+iii) L’ is regular only if L is regular?
+iv) If L is a recursive language, then, L’ is also recursive?
+a) i, ii, iii, iv
+b) i, ii
+c) ii, iii, iv
+d) iii, iv
+d
+….ii) Context Free Languages are not closed under intersection and complement.
+….iii) Complement of Regular languages is also regular.
+….iv) Recursive Languages is closed under complement.
+8. The definition of a language L with alphabet {a} is given as following. L = { ank | k > 0, and n is a positive integer constant} What is the minimum number of states needed in a DFA to recognize L?
+a) k+1
+b) n+1
+c) 2n+1
+d) 2k+1
+b
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – Transformation from NFA to DFA – 1» Next - Compilers Questions and Answers – The NFA with epsilon – Moves – 1 

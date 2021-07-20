@@ -1,0 +1,61 @@
+1. __________ precision multiplies the monetary value by a power of 10.
+a) Exact
+b) Accurate
+c) Ambiguity
+d) None of the mentioned
+a
+2. Point out the correct statement.
+a) Applications that handle monetary data often require capturing fractional units of currency
+b) Applications that handle time data often require capturing fractional units of currency
+c)  Applications that handle temporal and spatial data often require capturing fractional units of currency
+d) All of the mentioned
+a
+3. Which of the following precision uses two values for the field?
+a) Exact
+b) Accurate
+c) Ambiguity
+d) None of the mentioned
+c
+4. MongoDB stores times in _____ by default, and will convert any local time representations into this form.
+a) UTC
+b) GMT
+c) IST
+d) None of the mentioned
+a
+5. Point out the wrong statement.
+a) If you need to query the database for exact, mathematically valid matches, use Exact Precision
+b) If you regularly need to perform server-side arithmetic on monetary data, the exact precision model may be appropriate
+c) If you need to query the database for exact, mathematically valid matches, use Ambiguity Precision
+d) None of the mentioned
+c
+6. Which of the following is used to handle arbitrary or unforeseen number of precision?
+a) Exact
+b) Accurate
+c) Ambiguity
+d) None of the mentioned
+c
+7. Use of the approximation field for the query and sort operations requires that applications perform _______ side post-processing.
+a) client
+b) server
+c) application
+d) none of the mentioned
+a
+8. The ______ factor is a constant and known property of the currency.
+a) rank
+b) scale
+c) high
+d) none of the mentioned
+b
+9. In one field, exact monetary value is encoded as a _________ data type.
+a) numeric
+b) character
+c) non numeric
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Model Data for Atomic operations» Next - MongoDB Questions and Answers – GridFS 

@@ -1,0 +1,123 @@
+1. Which of the following is true in the case of Butterworth filters?
+a) Smooth pass band
+b) Wide transition band
+c) Not so smooth stop band
+d) All of the mentioned
+d
+2. What is the magnitude frequency response of a Butterworth filter of order N and cutoff frequency ΩC?
+a) \(\frac{1}{\sqrt{1+(\frac{Ω}{Ω_C})^{2N}}}\) 
+b) \(1+(\frac{Ω}{Ω_C})^{2N}\) 
+c) \(\sqrt{1+(\frac{Ω}{Ω_C})^{2N}}\) 
+d) None of the mentioned
+a
+|H(jΩ)|=\(\frac{1}{\sqrt{1+(\frac{Ω}{Ω_C})^{2N}}}\) 
+where N is the order of the filter and ΩC is defined as the cutoff frequency.
+3. What is the factor to be multiplied to the dc gain of the filter to obtain filter magnitude at cutoff frequency?
+a) 1
+b) √2
+c) 1/√2
+d) 1/2
+c
+We know that the filter magnitude is given by the equation
+|H(jΩ)|=\(\frac{1}{\sqrt{1+(\frac{Ω}{Ω_C})^{2N}}}\) 
+At Ω=ΩC, |H(jΩC)|=1/√2=1/√2(|H(jΩ)|)
+Thus the filter magnitude at the cutoff frequency is 1/√2 times the dc gain.
+4. What is the value of magnitude frequency response of a Butterworth low pass filter at Ω=0?
+a) 0
+b) 1
+c) 1/√2
+d) None of the mentioned
+b
+|H(jΩ)|=\(\frac{1}{\sqrt{1+(\frac{Ω}{Ω_C})^{2N}}}\) 
+At Ω=0 => |H(jΩ)|=1 for all N.
+5. As the value of the frequency Ω tends to ∞, then |H(jΩ)| tends to ____________
+a) 0
+b) 1
+c) ∞
+d) None of the mentioned
+a
+|H(jΩ)|=\(\frac{1}{\sqrt{1+(\frac{Ω}{Ω_C})^{2N}}}\) 
+In the above equation, if Ω→∞ then |H(jΩ)|→0.
+6. |H(jΩ)| is a monotonically increasing function of frequency.
+a) True
+b) False
+b
+7. What is the magnitude squared response of the normalized low pass Butterworth filter?
+a) \(\frac{1}{1+Ω^{-2N}}\) 
+b) 1+Ω-2N
+c) 1+Ω2N
+d) \(\frac{1}{1+Ω^{2N}}\) 
+d
+|H(jΩ)|=\(\frac{1}{\sqrt{1+(\frac{Ω}{Ω_C})^{2N}}}\) 
+For a normalized filter, ΩC =1
+=> |H(jΩ)|=\(\frac{1}{\sqrt{1+(Ω)^{2N}}}\) => |H(jΩ)|2=\(\frac{1}{1+Ω^{2N}}\) 
+Thus the magnitude squared response of the normalized low pass Butterworth filter of order N is given by the equation,
+|H(jΩ)|2=\(\frac{1}{1+Ω^{2N}}\).
+8. What is the transfer function of magnitude squared frequency response of the normalized low pass Butterworth filter?
+a) \(\frac{1}{1+(s/j)^{2N}}\) 
+b) \(1+(\frac{s}{j})^{-2N}\) 
+c) \(1+(\frac{s}{j})^{2N}\) 
+d) \(\frac{1}{1+(s/j)^{-2N}}\) 
+a
+H(jΩ)|2=\(\frac{1}{1+Ω^{2N}}\) => HN(jΩ).HN(-jΩ)=\(\frac{1}{1+Ω^{2N}}\) 
+Replacing jΩ by ‘s’ and hence Ω by s/j in the above equation, we get
+HN(s).HN(-s)=\(\frac{1}{1+(\frac{s}{j})^{2N}}\) which is called the transfer function.
+9. Where does the poles of the transfer function of normalized low pass Butterworth filter exists?
+a) Inside unit circle
+b) Outside unit circle
+c) On unit circle
+d) None of the mentioned
+c
+HN(s).HN(-s)=\(\frac{1}{1+(\frac{s}{j})^{2N}}\) 
+The poles of the above equation is obtained by equating the denominator to zero.
+=> \(1+(\frac{s}{j})^{2N}\)=0
+=> s=(-1)1/2N.j
+=> sk=\(e^{jπ(\frac{2k+1}{2N})} e^{jπ/2}\), k=0,1,2…2N-1
+The poles are therefore on a circle with radius unity.
+10. What is the general formula that represent the phase of the poles of transfer function of normalized low pass Butterworth filter of order N?
+a) \(\frac{π}{N} k+\frac{π}{2N}\) k=0,1,2…N-1
+b) \(\frac{π}{N} k+\frac{π}{2N}+\frac{π}{2}\) k=0,1,2…2N-1
+c) \(\frac{π}{N} k+\frac{π}{2N}+\frac{π}{2}\) k=0,1,2…N-1
+d) \(\frac{π}{N} k+\frac{π}{2N}\) k=0,1,2…2N-1
+d
+HN(s).HN(-s)=\(\frac{1}{1+(\frac{s}{j})^{2N}}\) 
+The poles of the above equation is obtained by equating the denominator to zero.
+=> \(1+(\frac{s}{j})^{2N}\)=0
+=> s=(-1)1/2N.j
+=> sk=\(e^{jπ(\frac{2k+1}{2N})} e^{jπ/2}\), k=0,1,2…2N-1
+The poles are therefore on a circle with radius unity and are placed at angles,
+θk=\(\frac{π}{N} k+\frac{π}{2N}\) k=0,1,2…2N-1
+11. What is the Butterworth polynomial of order 3?
+a) (s2+s+1)(s-1)
+b) (s2-s+1)(s-1)
+c) (s2-s+1)(s+1)
+d) (s2+s+1)(s+1)
+d
+Therefore, for N=3 Butterworth polynomial is given as B3(s)=(s-s0) (s-s1) (s-s2)
+We know that, sk=\(e^{jπ(\frac{2k+1}{2N})} e^{jπ/2}\) 
+=> s0=(-1/2)+j(√3/2), s1= -1, s2=(-1/2)-j(√3/2)
+=> B3(s)= (s2+s+1)(s+1).
+12. What is the Butterworth polynomial of order 1?
+a) s-1
+b) s+1
+c) s
+d) none of the mentioned
+b
+Therefore, for N=1 Butterworth polynomial is given as B3(s)=(s-s0).
+We know that, sk=\(e^{jπ(\frac{2k+1}{2N})} e^{jπ/2}\) 
+=> s0=-1
+=> B1(s)=s-(-1)=s+1.
+13. What is the transfer function of Butterworth low pass filter of order 2?
+a) \(\frac{1}{s^2+\sqrt{2} s+1}\) 
+b) \(\frac{1}{s^2-\sqrt{2} s+1}\) 
+c) \(s^2-\sqrt{2} s+1\) 
+d) \(s^2+\sqrt{2} s+1\) 
+a
+B2(s)=s2+√2 s+1
+Thus the transfer function is given as \(\frac{1}{s^2+\sqrt{2} s+1}\).
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Specifications and Classification of Analog Filters» Next - Digital Signal Processing Questions and Answers – Frequency Transformations 

@@ -1,0 +1,89 @@
+1. Which of these is long data type literal?
+a) 0x99fffL
+b) ABCDEFG
+c) 0x99fffa
+d) 99671246
+a
+2. Which of these can be returned by the operator &?
+a) Integer
+b) Boolean
+c) Character
+d) Integer or Boolean
+d
+3. Literals in java must be appended by which of these?
+a) L
+b) l
+c) D
+d) L and I
+d
+4. Literal can be of which of these data types?
+a) integer
+b) float
+c) boolean
+d) all of the mentioned
+d
+5. Which of these can not be used for a variable name in Java?
+a) identifier
+b) keyword
+c) identifier & keyword
+d) none of the mentioned
+b
+6. What will be the output of the following Java program?
+    class evaluate     {        public static void main(String args[])         {            int a[] = {1,2,3,4,5};	    int d[] = a;	    int sum = 0;	    for (int j = 0; j < 3; ++j)                sum += (a[j] * d[j + 1]) + (a[j + 1] * d[j]);	    System.out.println(sum);        }     }
+a) 38
+b) 39
+c) 40
+d) 41
+c
+output:
+$ javac evaluate.java
+$ java evaluate
+40
+7. What will be the output of the following Java program?
+    class array_output     {        public static void main(String args[])         {       	    int array_variable [] = new int[10];	    for (int i = 0; i < 10; ++i) {                array_variable[i] = i/2;                array_variable[i]++;                System.out.print(array_variable[i] + " ");                i++;            }         }     }
+a) 0 2 4 6 8
+b) 1 2 3 4 5
+c) 0 1 2 3 4 5 6 7 8 9
+d) 1 2 3 4 5 6 7 8 9 10
+b
+output:
+$ javac array_output.java
+$ java array_output
+1 2 3 4 5
+8. What will be the output of the following Java program?
+    class variable_scope     {        public static void main(String args[])         {            int x;            x = 5;            {	        int y = 6;	        System.out.print(x + " " + y);            }            System.out.println(x + " " + y);        }     }
+a) 5 6 5 6
+b) 5 6 5
+c) Runtime error
+d) Compilation error
+d
+output:
+$ javac variable_scope.java
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: y cannot be resolved to a variable
+9. Which of these is an incorrect string literal?
+a) “Hello World”
+b) “Hello\nWorld”
+c) “\”Hello World\””
+d) 
+
+"Hello
+world"
+d
+  
+10. What will be the output of the following Java program?
+    class dynamic_initialization     {        public static void main(String args[])         {            double a, b;            a = 3.0;            b = 4.0;	    double c = Math.sqrt(a * a + b * b);	    System.out.println(c);        }     }
+a) 5.0
+b) 25.0
+c) 7.0
+d) Compilation Error
+a
+output:
+$ javac dynamic_initialization.java
+$ java dynamic_initialization
+5.0
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Data Type-Date, TimeZone» Next - Java Questions & Answers – Type Conversions, Promotions and Castings 

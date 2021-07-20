@@ -1,0 +1,62 @@
+1. ________ submits a value-returning task for execution and returns a Future representing the pending results of the task.
+a) submit(Callable<T> task)
+b) awaitTermination
+c) submit(Runnable task, T result)
+d) invokeAll()
+a
+2. ____________ submits a Runnable task for execution and returns a Future representing that task.
+a) submit(Callable<T> task)
+b) awaitTermination
+c) submit(Runnable task, T result)
+d) invokeAll()
+c
+3. _____________ returns true if all tasks have completed following shut down.
+a) submit(Callable<T> task)
+b) isTerminated
+c) submit(Runnable task, T result)
+d) invokeAll()
+b
+4. _____________ returns true if this executor has been shut down.
+a) isShutdown
+b) isTerminated
+c) submit(Runnable task, T result)
+d) invokeAll()
+a
+5. _______________ is used for the execution of the given tasks, returning a list of Futures holding their status and results after completion.
+a) isShutdown
+b) isTerminated
+c) invokeAll(Collection<? extends Callable<T>> tasks)
+d) invokeAll(Collection<? extends Callable<T>> tasks, long timeout, TimeUnit unit)
+c
+6. ______________ executes the given tasks, returning the result of one that has completed successfully.
+a) isShutdown
+b) invokeAny(Collection<? extends Callable<T>> tasks)
+c) invokeAll(Collection<? extends Callable<T>> tasks)
+d) invokeAll(Collection<? extends Callable<T>> tasks, long timeout, TimeUnit unit)
+b
+7. _____________ exception is thrown while invokeAll() is interrupted while waiting.
+a) InterruptedException
+b) NullPointerException
+c) RejectedExecutionException
+d) ArrayIndexOutOfBoundsException
+a
+8. NullPointerException is thrown if tasks or any of its elements are null.
+a) True
+b) False
+a
+9. InterruptedException is thrown  if any task cannot be scheduled for execution.
+a) True
+b) False
+b
+10. ________________ initiates an orderly shutdown in which previously submitted tasks are executed.
+a) Shutdown
+b) invokeAny(Collection<? extends Callable<T>> tasks)
+c) invokeAll(Collection<? extends Callable<T>> tasks)
+d) invokeAll(Collection<? extends Callable<T>> tasks, long timeout, TimeUnit unit)
+a
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Creating HTML Reports» Next - JUnit Questions and Answers – Maven Introduction 

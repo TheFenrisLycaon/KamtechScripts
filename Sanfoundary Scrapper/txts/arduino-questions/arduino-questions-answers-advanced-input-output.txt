@@ -1,0 +1,69 @@
+1. What is the maximum number of arguments that the pulseIn() function accepts?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+2. What is the purpose of the following code?
+int pin1=10;void setup() {    pinMode(pin1,OUTPUT);    Serial.begin(9600);}void loop() {    Serial.println(pulseInLong(pin1,HIGH));}
+a) To count the number of pulses
+b) To count the voltage fluctuations in pin1
+c) To count the duration of a single pulse
+d) To count the total number of pulses supplied
+c
+3. What is the purpose of the tone() function?
+a) To generate a sine wave
+b) To generate a cosine wave
+c) To generate a stable voltage level
+d) To generate a square wave
+d
+Join [email protected]
+4. What is the use of the MSBFIRST argument in the shiftIn() function?
+a) To denote the least significant bit
+b) To denote the maximum number of Bits
+c) To denote the most significant bit
+d) To denote the minimum number of bits
+c
+5. What is the output of the code given below?
+int pin1=10;void setup() {    pinMode(pin1,OUTPUT);    Serial.begin(9600);}void loop() {    tone(pin1,400);}
+a) Finite Square Wave
+b) Infinite Sine Wave
+c) Infinite Square Wave
+d) Infinite Cosine Wave
+c
+6. Can the tone() and noTone() functions be used for digital communications?
+a) No, they cannot be used
+b) Yes, they can be used but only on certain Arduino Boards
+c) Yes, they can be used for all digital pins and Arduino Boards
+d) Yes, they can be used but only for certain pins
+c
+7. How many tone() functions can be invoked to run simultaneously on an Arduino Board?
+a) As many pins are present
+b) Infinite number
+c) Only one
+d) Depending on the number of timers present
+c
+8. How many arguments does the shiftOut() function require?
+a) 1
+b) 2
+c) 3
+d) 4
+d
+9. What is the return type for the shiftOut() function?
+a) double
+b) null
+c) long
+d) int
+b
+10. What is the return type of the pulseIn() function?
+a) null
+b) signed byte
+c) unsigned long
+d) unsigned int
+c
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Analog Input Output» Next - Arduino Questions and Answers – Standard Libraries 

@@ -1,0 +1,100 @@
+1. Suppose A->xBz and B->y, then the simplified grammar would be:
+a) A->xyz
+b) A->xBz|xyz
+c) A->xBz|B|y
+d) none of the mentioned
+a
+We get A->xBz|xyz and now, as B has no production, we eliminate the terms which hold the variable B, thus the answer remain A->xyz.
+2. Given Grammar: S->A, A->aA, A->e, B->bA
+Which among the following productions are Useless productions?
+a) S->A
+b) A->aA
+c) A->e
+d) B->bA
+d
+3. Given:
+S->…->xAy->…->w
+if ____________, then A is useful, else useless symbol.
+a) A is a non terminal
+b) A is a terminal
+c) w Î L
+d) w Ë L
+c
+4. Given:
+S->aSb
+S->e
+S-> A
+A->aA
+B->C
+C->D
+The ratio of number of useless variables to number of useless production is:
+a) 1
+b) 3/4
+c) 2/3
+d) 0
+a
+5. Given grammar G:
+S->aS|A|C
+A->a
+B->aa
+C->aCb
+Find the set of variables thet can produce strings only with the set of terminals.
+a) {C}
+b) {A,B}
+c) {A,B,S}
+d) None of the mentioned
+c
+             Second step: Modify the set with variables that produce the elements of above
+                          generated set.
+The rest variables are termed as useless.
+6. Given grammar:
+S->aS|A
+A->a
+B->aa
+Find the number of variables reachable from the Starting Variable?
+a) 0
+b) 1
+c) 2
+d) None of the mentioned
+b
+7. Inorder to simplify a context free grammar, we can skip the following operation:
+a) Removal of null production
+b) Removal of useless symbols
+c) Removal of unit productions
+d) None of the mentioned
+d
+8.  Given a Grammar G:
+S->aA
+A->a
+A->B
+B->A
+B->bb
+Which among the following will be the simplified grammar?
+a) S->aA|aB, A->a, B->bb
+b) S->aA|aB, A->B, B->bb
+c) S->aA|aB, A->a, B->A
+d) None of the emntioned
+a
+                     Step 2: Remove B->B
+                     Step 3: Substitute B->A
+                     Step 4: Remove Repeated productions
+9. Simplify the given grammar:
+A-> a| aaA| abBc
+B-> abba| b
+a) A-> a| aaA| ababbAc| abbc
+b) A-> a| aaA| ababbAc| abbc, B-> abba|b
+c) A-> a| aaA| abbc, B->abba
+d) None of the mentioned
+a
+10. In context to the process of removing useless symbols, which of the following is correct?
+a) We remove the Nullable variables
+b) We eliminate the unit productions
+c) We eliminate products which yield no terminals
+d) All of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory Assessment Questions, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  DPDA and Ambiguous Grammars» Next - Automata Theory Questions and Answers –  Eliminating Epsilon Productions 

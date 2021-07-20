@@ -1,0 +1,80 @@
+1. Which statement below best describes a Karnaugh map?
+a) It is simply a rearranged truth table
+b) The Karnaugh map eliminates the need for using NAND and NOR gates
+c) Variable complements can be eliminated by using Karnaugh maps
+d) A Karnaugh map can be used to replace Boolean rules
+a
+2. Which of the examples below expresses the commutative law of multiplication?
+a) A + B = B + A
+b) A • B = B + A
+c) A • (B • C) = (A • B) • C
+d) A • B = B • A
+d
+The commutative law of addition is (A + B) = (B + A).
+3. The Boolean expression Y = (AB)’ is logically equivalent to what single gate?
+a) NAND
+b) NOR
+c) AND
+d) OR
+a
+4. The observation that a bubbled input OR gate is interchangeable with a bubbled output AND gate is referred to as __________________
+a) A Karnaugh map
+b) DeMorgan’s second theorem
+c) The commutative law of addition
+d) The associative law of multiplication
+b
+~(P.Q) <=> (~P)+(~Q).
+5. The systematic reduction of logic circuits is accomplished by _______________
+a) Symbolic reduction
+b) TTL logic
+c) Using Boolean algebra
+d) Using a truth table
+c
+6. Each “1” entry in a K-map square represents _______________
+a) A HIGH for each input truth table condition that produces a HIGH output
+b) A HIGH output on the truth table for all LOW input combinations
+c) A LOW output for all possible HIGH input conditions
+d) A DON’T CARE condition for all possible input truth table combinations
+a
+7. Each “0” entry in a K-map square represents _______________
+a) A HIGH for each input truth table condition that produces a HIGH output
+b) A HIGH output on the truth table for all LOW input combinations
+c) A LOW output for all possible HIGH input conditions
+d) A DON’T CARE condition for all possible input truth table combinations
+a
+8. Which of the following statements accurately represents the two BEST methods of logic circuit simplification?
+a) Actual circuit trial and error evaluation and waveform analysis
+b) Karnaugh mapping and circuit waveform analysis
+c) Boolean algebra and Karnaugh mapping
+d) Boolean algebra and actual circuit trial and error evaluation
+c
+9. Looping on a K-map always results in the elimination of __________
+a) Variables within the loop that appear only in their complemented form
+b) Variables that remain unchanged within the loop
+c) Variables within the loop that appear in both complemented and uncomplemented form
+d) Variables within the loop that appear only in their uncomplemented form
+c
+10. Which of the following expressions is in the sum-of-products form?
+a) (A + B)(C + D)
+b) (A * B)(C * D)
+c) A* B *(CD)
+d) A * B + C * D
+d
+11. Which of the following is an important feature of the sum-of-products form of expressions?
+a) All logic circuits are reduced to nothing more than simple AND and OR operations
+b) The delay times are greatly reduced over other forms
+c) No signal must pass through more than two gates, not including inverters
+d) The maximum number of gates that any signal must pass through is reduced by a factor of two
+a
+12. Which of the following expressions is in the product-of-sums form?
+a) (A + B)(C + D)
+b) (AB)(CD)
+c) AB(CD)
+d) AB + CD
+a
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – Procedure for the Design of Combinational Circuits» Next - Digital Circuits Questions and Answers – Controlled Inverter 

@@ -1,0 +1,98 @@
+1. If the pressure drop for an operation is more than the pressure assigned to the equipment, then the equipment is perfect to be used for that operation.
+a) True
+b) False
+b
+2. Consider we have a Double Pipe Heat Exchanger, with the inner tube of diameter 20mm (neglect thickness) and outer tube of diameter 30mm. We have two fluids A & B (both with viscosity 2.5×10-5Pa-s), we desire to have their flow rates as 15Kg/s and 21Kg/s respectively. What is the Friction Factor (F) for this setup for the inner pipe?
+a) 0.0086
+b) 0.086
+c) 0.0068
+d) 0.068
+a
+Now the friction factor F can be calculated by F = 0.0035+\(\frac{0.264}{Re^{0.042}}\)  = 0.0086.
+3. Which of the following has the maximum Pressure Drop for a Heat Exchanger?
+a) Counter-flow
+b) Parallel Flow
+c) Hairpins arrangement
+d) Split Flow
+c
+4. How many times do we calculate pressure drop for a double pipe heat exchanger?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+5. Consider we have a Double Pipe Heat Exchanger, with the inner tube of Outer diameter 20mm (thickness 2mm) and outer tube of inner diameter 30mm. We have two fluids A & B, we desire to have their flow rates as 15 m/s and 21 m/s respectively, friction factor of 0.0096 and length of the tube as 1metre. What is the value of hfs for the inner tube?
+a) 27.6m
+b) 15m
+c) 21.12m
+d) 22m
+a
+6. In the calculation of Friction Factor on the annulus/tube side for heat transferred, which is the correct formula for Friction Factor?
+a) F = 0.0035+ \(\frac{0.264}{Re^{0.42}}\) 
+b) F = 0.0027+ \(\frac{0.264}{Re^{0.42}}\) 
+c) F = 0.0035+ \(\frac{0.42}{Re^{0.264}}\) 
+d) F = 0.0027+ \(\frac{0.42}{Re^{0.264}}\) 
+a
+7. Consider we have a Double Pipe Heat Exchanger, with the inner tube of Outer diameter 20mm(thickness 2mm) and outer tube of inner diameter 30mm. We have two fluids A & B, both of density 990 Kg/m3, we desire to have their flow rates as 15m/s and 21 m/s respectively, friction factor of 0.00096 and length of the tube as 1metre. What is the value of Pressure drop for the inner tube?
+a) 25 KPa
+b) 20 KPa
+c) 27 KPa
+d) 35 KPa
+c
+8. For calculating the pressure drop in a double pipe heat exchanger,
+(i) We calculate Reynolds number
+(ii) We calculate the length of the tube required
+(iii) We calculate heat transfer coefficient for both sides
+(iv) We calculate the Friction factor for both sides
+a) (ii)(iii)
+b) (i)(ii)(iv)
+c) (i)(ii)
+d) (i)(ii)(iii)
+b
+i. Reynold’s number for all sides.
+ii. Friction Factors.
+iii. Pressure Drop. By the formula = hfs×density×g, where hfs = \(\frac{4FL}{D} \frac{v^2}{2g}\).
+9. When we calculate the pressure drop ΔP =  \(\frac{XFL}{D} \frac{v^2}{2g}\)×ϸ, what is the value X?
+a) 2
+b) 4
+c) 5
+d) 8
+b
+10. Consider we have a Double Pipe Heat Exchanger, with the inner tube of Outer diameter 20mm (thickness 2mm) and outer tube of inner diameter 30mm. We have two fluids A & B, both of density 990 Kg/m3, we desire to have their flow rates as 15m/s and 21m/s respectively, friction factor of 0.00096 and 5 hairpins of length 0.4 metre. What is the value of Pressure drop for the inner tube?
+a) 6atm
+b) 2atm
+c) 5atm
+d) 4atm
+a
+11. What is the Pressure drop equivalent for 7 Hairpins?
+a) 5ρ \(\frac{v^2}{2}\) 
+b) 7ρ \(\frac{v^2}{2}\) 
+c) 5\(\frac{v^2}{2}\) 
+d) 7\(\frac{v^2}{2}\) 
+b
+12. Consider we have a Double Pipe Heat Exchanger, with the inner tube of Outer diameter 20mm (thickness 2mm) and outer tube of inner diameter 30mm. We have two fluids A & B, both of density 990 Kg/m3, we desire to have their flow rates as 15m/s and 21m/s respectively, friction factor of 0.0096 and 5 hairpins of length 0.4 metre. If the maximum pressure drop allowed is 10psi, is the setup suitable for industrial use?
+a) No, since pressure drop is less than specified
+b) Yes, since pressure drop is less than specified
+c) No, since pressure drop is more than specified
+d) Yes, since pressure drop is more than specified
+c
+13. In the calculation of Reynold’s Number for the Friction factor of the annulus tube, which is the correct formula for equivalent diameter De?
+a) \(\frac{4×(D_{oi}^2 – D_{io}^2)×\frac{π}{4}}{π(D_{io})}\) 
+b) \(\frac{4×(D_{io}^2 – D_{oi}^2)×\frac{π}{4}}{π(D_{io})}\) 
+c) \(\frac{4×(D_{oi}^2 – D_{io}^2)×\frac{π}{4}}{π(D_{io}+D_{oi})}\) 
+d) \(\frac{4×(D_{io}^2 – D_{oi}^2)×\frac{π}{4}}{π(D_{io}+D_{oi})}\) 
+c
+14. Consider we have a Double Pipe Heat Exchanger, with the inner tube of diameter 20mm (neglect thickness) and outer tube of diameter 30mm. We have two fluids A & B (both with viscosity 2.5×10-5Pa-s), we desire to have their flow rates as 15 Kg/s and 21 Kg/s respectively. What is the Friction Factor (F) for this setup for the annulus pipe?
+a) 0.0086
+b) 0.0103
+c) 0.086
+d) 0.00103
+b
+Re = 15×(30 – 20)×10-3/(2.5×10-5) = 6000.
+Now the friction factor F can be calculated by F = \(0.0035+\frac{0.264}{Re^{0.42}}\) = 0.0103.
+Sanfoundry Global Education & Learning Series – Heat Transfer Operations.
+To practice all areas of Heat Transfer Operations, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Heat Transfer Operations Questions and Answers – Double Pipe Heat Exchangers – Heat Transfer Coefficients Calculations» Next - Heat Transfer Operations Questions and Answers – Shell and Tube Heat Exchangers – Construction and Operation 

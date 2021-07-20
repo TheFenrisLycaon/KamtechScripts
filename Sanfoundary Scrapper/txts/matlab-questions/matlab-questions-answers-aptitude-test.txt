@@ -1,0 +1,113 @@
+1. The working of the varargin command is dependent on the nargin command implicitly.
+a) True
+b) False
+b
+2. The nargout command is dependent on the number of outputs sought.
+a) True
+b) False
+a
+3. What is the output of the following command?
+function eclairs= honey(p,q)
+narginchk(2,5)
+disp(‘Yo, G!’)
+c=q+p;
+end
+honey(1)
+a) Syntactical Error
+b) Yo, G!
+c) input error
+d) 2 3 4 5
+c
+4. What is the output of the following command?
+function p= marie(p,q)
+narginchk[2,3]
+disp(‘Yo, G!’)
+a=p+q
+end
+marie(1)
+a) Syntactical Error in narginchk
+b) 
+    Yo, G!
+     a=1
+Join [email protected]
+c) Input error in narginchk
+d) 2 3 4 5…Inf
+a
+Yo, G!
+ a=1
+5. What is the output of the following command?
+function ca= ola(p,q)
+narginchk(0,1)
+disp(‘Stick!’)
+o=p-q;
+end
+ola(1,2)
+a) o=-1
+b) o=1
+c) Error in inputs
+d) Syntactical error while calling function
+c
+6. What is the output of the following command?
+function pu= hu(p,varargin)
+narginchk(0,1)
+disp(‘Stick!’)
+o=sin(varargin{1});
+end
+ola(1,p/2)
+a) Error due to line 2
+b) Error due to line 5
+c) Error due to syntax
+d) 
+     Stick!
+     o=1
+a
+  
+7. The narginchk command can limit the size of which cellular array?
+a) fun
+b) rand(2)
+c) eye(3)
+d) varargin
+d
+8.  The nargoutchk command limits the length of which cellular array?
+a) varargout
+b) i(2)
+c) random(69)
+d) laplace(s)
+a
+9. The following operation results in?
+narginchk(2,Inf)
+a) Error due to Inf
+b) Limits the length of nargin from 2 to Inf
+c) Logical Error
+d) Limits the length of varargin from 1 to Inf
+d
+10. The following operation result in
+Function p= ol(q,varargin)
+narginchk(45,Inf)
+a) Error due to Inf
+b) The range of the varargin array becomes (44,Inf)
+c) The range of the varargin array becomes (45,Inf)
+d) The range of the varargin array becomes [45,Inf] 
+b
+11. The following operation results in
+Function p= ol(q,varargin)
+narginchk(45,NaN)
+end
+a) Error due to NaN
+b) Syntactical error
+c) Logical Error
+d) Nothing happens
+d
+12. What is the minimum number of arguments after the following operation occurs in any function?
+narginchk(-2,0)
+a) 0
+b) 1
+c) -2
+d) Error
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB for Aptitude test, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Commands for Parsing Input and Output – 1» Next - MATLAB Questions and Answers – User Input and Screen Output – 1 

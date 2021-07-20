@@ -1,0 +1,76 @@
+1. Which of these class contains the methods print() & println()?
+a) System
+b) System.out
+c) BUfferedOutputStream
+d) PrintStream
+d
+2. Which of these methods can be used to writing console output?
+a) print()
+b) println()
+c) write()
+d) all of the mentioned
+d
+3. Which of these classes are used by character streams output operations?
+a) InputStream
+b) Writer
+c) ReadStream
+d) InputOutputStream
+b
+4. Which of these class is used to read from a file?
+a) InputStream
+b) BufferedInputStream
+c) FileInputStream
+d) BufferedFileInputStream
+c
+5. What will be the output of the following Java program?
+Join [email protected]
+    class output    {        public static void main(String args[])        {            String a="hello i love java";            System.out.println(indexof('i')+" "+indexof('o')+" "+lastIndexof('i')+" "+lastIndexof('o') ));        }    }
+a) 6 4 6 9
+b) 5 4 5 9
+c) 7 8 8 9
+d) 4 3 6 9
+a
+the character pointed by c in the given array.
+Output:
+$ javac output.java
+$ java output
+6 4 6 9
+6. What will be the output of the following Java program?
+    class output    {        public static void main(String args[])        {            char c[]={'a','1','b',' ','A','0'];            for (int i = 0; i < 5; ++i)            {	        if(Character.isDigit(c[i]))                    System.out.println(c[i]" is a digit");                if(Character.isWhitespace(c[i]))                   System.out.println(c[i]" is a Whitespace character");                if(Character.isUpperCase(c[i]))                   System.out.println(c[i]" is an Upper case Letter");                if(Character.isUpperCase(c[i]))                   System.out.println(c[i]" is a lower case Letter");                i = i + 3;            }        }    }
+a) 
+   a is a lower case Letter
+     is White space character
+b) 
+   b is a lower case Letter
+     is White space characte
+c) 
+   a is a lower case Letter
+   A is a upper case Letter
+d) 
+   a is a lower case Letter
+   0 is a digit
+a
+they are used to find weather the given character is of specified type or not. They return true or false i:e Boolean variable.
+Output:
+$ javac output.java
+$ java output  
+a is a lower case Letter
+  is White space character
+  
+7. What will be the output of the following Java program?
+    class output    {        public static void main(String args[])        {            StringBuffer s1 = new StringBuffer("Hello");           StringBuffer s2 = s1.reverse();           System.out.println(s2);        }    }
+a) Hello
+b) olleH
+c) HelloolleH
+d) olleHHello
+b
+Output:
+$ javac output.java
+$ java output
+olleH
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Reading Console Input» Next - Java Questions & Answers – Reading & Writing Files 

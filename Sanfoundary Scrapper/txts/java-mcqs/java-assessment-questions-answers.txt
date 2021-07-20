@@ -1,0 +1,87 @@
+1. Which of this method can be used to make the main thread to be executed last among all the threads?
+a) stop()
+b) sleep()
+c) join()
+d) call()
+b
+2. Which of this method is used to find out that a thread is still running or not?
+a) run()
+b) Alive()
+c) isAlive()
+d) checkRun()
+c
+3. What is the default value of priority variable MIN_PRIORITY AND MAX_PRIORITY?
+a) 0 & 256
+b) 0 & 1
+c) 1 & 10
+d) 1 & 256
+c
+4. Which of these method waits for the thread to terminate?
+a) sleep()
+b) isAlive()
+c) join()
+d) stop()
+c
+5. Which of these method is used to explicitly set the priority of a thread?
+a) set()
+b) make()
+c) setPriority()
+d) makePriority()
+c
+Join Sanfoundry@YouTube
+6. What is synchronization in reference to a thread?
+a) It’s a process of handling situations when two or more threads need access to a shared resource
+b) It’s a process by which many thread are able to access same shared resource simultaneously
+c) It’s a process by which a method is able to access many different threads simultaneously
+d) It’s a method that allow too many threads to access any information require
+a
+7. What will be the output of the following Java code?
+    class newthread extends Thread     {	newthread()        {	    super("My Thread");	    start();	}	public void run()        {	    System.out.println(this);	}    }    class multithreaded_programing    {        public static void main(String args[])        {            new newthread();                }    }
+a) My Thread
+b) Thread[My Thread,5,main] 
+c) Compilation Error
+d) Runtime Error
+b
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+Thread[My Thread,5,main].
+8. What will be the output of the following Java code?
+    class newthread extends Thread     {	Thread t;	newthread()        {	    t = new Thread(this,"My Thread");	    t.start();	}	public void run()        {            try            {                t.join()   	        System.out.println(t.getName());            }            catch(Exception e)            {            System.out.print("Exception");            }	}    }    class multithreaded_programing    {        public static void main(String args[])        {            new newthread();                }    }
+a) My Thread
+b) Thread[My Thread,5,main] 
+c) Exception
+d) Runtime Error
+d
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+9. What will be the output of the following Java code?
+    class newthread extends Thread    {	Thread t;	newthread()        {	    t = new Thread(this,"New Thread");	    t.start();	}	public void run()        {	   System.out.println(t.isAlive());	}    }    class multithreaded_programing    {        public static void main(String args[])        {            new newthread();                }    }
+a) 0
+b) 1
+c) true
+d) false
+c
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+true
+10. What will be the output of the following Java code?
+    class newthread extends Thread    {	Thread t1,t2;	newthread()        {	    t1 = new Thread(this,"Thread_1");	    t2 = new Thread(this,"Thread_2");	    t1.start();	    t2.start();	}	public void run()        {	    t2.setPriority(Thread.MAX_PRIORITY);		    System.out.print(t1.equals(t2));        }        }    class multithreaded_programing    {        public static void main(String args[])        {            new newthread();                }    }
+a) true
+b) false
+c) truetrue
+d) falsefalse
+d
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+falsefalse
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+ Here’s the list of Best Reference Books in Java Programming Language.
+To practice all areas of Java Assessment Questions, here is complete set on 1000+ Multiple Choice Questions and Answers on Java.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Creating Exceptions» Next - Java Questions & Answers – Implementing Runnable interface for Threads 

@@ -1,0 +1,153 @@
+1. Find the value of ∫tan-1⁡(x)dx.
+a) sec-1 (x) – 1⁄2 ln⁡(1 + x2)
+b) xtan-1 (x) – 1⁄2 ln⁡(1 + x2)
+c) xsec-1 (x) – 1⁄2 ln⁡(1 + x2)
+d) tan-1 (x) – 1⁄2 ln⁡(1 + x2)
+b
+Given, ∫tan-1⁡(x)dx
+Putting, x = tan(y),
+We get, dy = sec2(y)dy,
+∫ysec2(y)dy
+By integration by parts,
+ytan(y) – log⁡(sec⁡(y)) = xtan-1 (x) – 1⁄2 ln⁡(1 + x2).
+2. Integration of (Sin(x) + Cos(x))ex is?
+a) ex Cos(x)
+b) ex Sin(x)
+c) ex Tan(x)
+d) ex (Sin(x) + Cos(x))
+b
+Let f(x) = ex Sin(x)
+∫ex Sin(x)dx = ex Sin(x) – ∫ex Cos(x)dx
+∫ex Sin(x)dx + ∫ex Cos(x)dx = ∫ex [Cos(x) + Sin(x)]dx = ex Sin(x).
+3. Find the value of ∫x3 Sin(x)dx.
+a) x3 Cos(x) + 3x2 Sin(x) + 6xCos(x) – 6Sin(x)
+b) – x3 Cos(x) + 3x2 Sin(x) – 6Sin(x)
+c) – x3 Cos(x) – 3x2 Sin(x) + 6xCos(x) – 6Sin(x)
+d) – x3 Cos(x) + 3x2 Sin(x) + 6xCos(x) – 6Sin(x)
+d
+Let f(x) = x3 Sin(x)
+∫x3 Sin(x)dx = – x3 Cos(x) + 3∫x2 Cos(x)dx
+∫x2 Cos(x)dx = x2 Sin(x) – 2∫xSin(x)dx
+∫xSin(x)dx = – xCos(x) + ∫Cos(x)dx = – xCos(x) + Sin(x)
+=> ∫x3 Sin(x)dx = – x3 Cos(x) + 3[x2 Sin(x) – 2[ – xCos(x) + Sin(x)]] 
+=> ∫x3 Sin(x)dx = – x3 Cos(x) + 3x2 Sin(x) + 6xCos(x) – 6Sin(x).
+4. Value of ∫uv dx,where u and v are function of x.
+a) \(\sum_{i=1}^n(-1)^i u_i v^{i+1}\) 
+b) \(\sum_{i=0}^nu_i v^{i+1}\) 
+c) \(\sum_{i=0}^n(-1)^i u_i v^{i+1}\) 
+d) \(\sum_{i=0}^n(-1)^i u_i v^{n-i}\) 
+c
+Given, f(x)=\(\int uvdx=\sum_{i=0}^n (-1)^i u_i v^{i+1}\)
+5. Find the value of ∫x7 Cos(x) dx.
+a) x7 Sin(x) + 7x6 Cos(x) + 42x5 Sin(x) + 210x4 Cos(x) + 840x3 Sin(x) + 2520x2 Cos(x) + 5040xSin(x) + 5040Cos(x)
+b) x7 Sin(x) – 7x6 Cos(x) + 42x5 Sin(x) – 210x4 Cos(x) + 840x3 Sin(x) – 2520x2 Cos(x) + 5040xSin(x) – 5040Cos(x)
+c) x7 Sin(x) + 7x6 Cos(x) + 42x5 Sin(x) + 210x4 Cos(x) + 840x3 Sin(x) + 2520x2 Cos(x) + 5040xSin(x) + 5040Cos(x)
+d) x7 Sin(x) + 7x6 Cos(x) + 42x5 Sin(x) + 210x4 Cos(x) + 840x3 Sin(x) + 2520x2 Cos(x) + 5040xSin(x) + 10080Cos(x)
+a
+By, f(x)=\(\int uvdx=\sum_{i=0}^n (-1)^i u_i v^{i+1}\) 
+Let, u = x7 and v = Cos(x),
+∫x7 Cos(x) dx = x7 Sin(x) + 7x6 Cos(x) + 42x5 Sin(x) + 210x4 Cos(x) + 840x3 Sin(x) + 2520x2 Cos(x) + 5040xSin(x) + 5040Cos(x)
+Join Sanfoundry@YouTube
+6. Find the value of ∫x3 ex e2x e3x….enx dx.
+a) \(\frac{2}{n(n+1)} e^{\frac{n(n+1)}{2}x} \left [x^3+3x^2 [\frac{2}{n(n+1)}]^1+6x[\frac{2}{n(n+1)}]^2  +6[\frac{2}{n(n+1)}]^3\right ]\) 
+b) \(\frac{2}{n(n+1)} e^{\frac{n(n+1)}{2}x} \left [x^3+3x^2 [\frac{2}{n(n+1)}]^1+6x[\frac{2}{n(n+1)}]^2  +6[\frac{2}{n(n+1)}]^3\right ]\) 
+c)\(\frac{2}{n(n+1)} e^{\frac{n(n+1)}{2}x} \left [x^3+3x^2 [\frac{2}{n(n+1)}]^1+6x[\frac{2}{n(n+1)}]^2  +6[\frac{2}{n(n+1)}]^3\right ]\) 
+d)\(\frac{2}{n(n+1)} e^{\frac{n(n+1)}{2}x} \left [x^3+3x^2 [\frac{2}{n(n+1)}]^1+6x[\frac{2}{n(n+1)}]^2  +6[\frac{2}{n(n+1)}]^3\right ]\) 
+a
+By, f(x)=\(\int uvdx=\sum_{i=0}^n (-1)^i u_i v^{i+1}\) 
+Let, u = x3 and v=ex e2x e3x…..enx=ex(1+2+3+…n)=\(e^{\frac{n(n+1)x}{2}}\),
+\(\int x^3 e^x e^2x e^3x……..e^nx dx\) 
+\(=x^3 \frac{2}{n(n+1)} e^{\frac{n(n+1)}{2}x}+3x^2 [\frac{2}{n(n+1)}]^2 e^{\frac{n(n+1)}{2}x}\) \(+6x[\frac{2}{n(n+1)}]^3 e^{\frac{n(n+1)}{2}x}+6[\frac{2}{n(n+1)}]^4  e^{\frac{n(n+1)}{2}x}\) 
+=\(\frac{2}{n(n+1)} e^{\frac{n(n+1)}{2}x} \left [x^3+3x^2 [\frac{2}{n(n+1)}]^1+6x[\frac{2}{n(n+1)}]^2+6[\frac{2}{n(n+1)}]^3\right]\)  
+7. Find the area of a function f(x) = x2 + xCos(x) from x = 0 to a, where, a>0.
+a) a2⁄2 + aSin(a) + Cos(a) – 1
+b) a3⁄3 + aSin(a) + Cos(a)
+c) a3⁄3 + aSin(a) + Cos(a) – 1
+d) a3⁄3 + Cos(a) + Sin(a) – 1
+c
+Hence, F(x) = ∫x2 + xCos(x) dx = x3⁄3 + xSin(x) + Cos(x)
+Hence, area inside f(x) is,
+F(a) – F(0) = a3⁄3 + aSin(a) + Cos(a) – 1.
+8. Find the area ln(x)⁄x from x = x = aeb to a.
+a) b2⁄2
+b) b⁄2
+c) b
+d) 1
+a
+Let, F(x)=\(\int \frac{ln⁡(x)}{x} dx\) 
+Let, z=ln⁡(x)=>dz=dx/x
+=F(x)=∫ zdz=\(\frac{z^2}{2}=\frac{ln^2⁡(x)}{2}\) 
+Area inside curve from 4a to a is,
+\(F(ae^b)-F(a)=\frac{ln^2⁡(ae^b )}{2}-\frac{ln^2⁡(a)}{2}=\frac{ln^2⁡(\frac{ae^b}{a})}{2}=\frac{ln^2⁡(e^b)}{2}=\frac{b}{2}\)
+9. Find the area inside a function f(t) = \( \frac{t}{(t+3)(t+2)} dt\) from t = -1 to 0.
+a) 4 ln⁡(3) – 5ln⁡(2)
+b) 3 ln⁡(3)
+c)3 ln⁡(3) – 4ln⁡(2)
+d) 3 ln⁡(3) – 5 ln⁡(2)
+d
+Now, F(t)=\(\int \frac{t}{(t+3)(t+2)} dt\) 
+F(t)=\(\int \frac{t}{(t+3)(t+2)} dt\) 
+=\(\int [\frac{3}{t+3}-\frac{2}{t+2}]dx\) 
+=\(\int [\frac{3}{t+3}]dx-\int [\frac{2}{t+2}]dx\) 
+=3 ln⁡(t+3)-2ln⁡(t+2)
+Now area inside a function is,  F(0) – F(-1),
+hence, F(0)-F(-1)=3 ln⁡(3)-2 ln⁡(2)-3 ln⁡(2)+2 ln⁡(1)=3 ln⁡(3)-5ln⁡(2)
+10. Find the area inside integral f(x)=\(\frac{sec^4⁡(x)}{\sqrt{tan⁡(x)}}\) from x = 0 to π.
+a) π
+b) 0
+c) 1
+d) 2
+b
+Given,F(x)=\(\int \frac{sec^4⁡ (x)}{\sqrt{tan⁡(x)}} dx\) 
+F(x)=\(\int \frac{sec^2⁡ (x) sec^2⁡ (x)}{\sqrt{tan⁡(x)}} dx\) 
+=\(\int \frac{1+t^2}{\sqrt{t}} dt\) 
+=\(\int [\frac{1}{\sqrt{t}}+t^{3/2}]dt\) 
+=\(2\sqrt{t}+\frac{2}{5} t^{5/2}\) 
+F(x)=\(\frac{2}{5} \sqrt{tan⁡(x)} [5+tan^2⁡(x)]\) 
+Now area inside a function f(x) from x=0 to π, is
+F(π)-F(0)=0-0=0
+11. Find the area inside function \(\frac{(2x^3+5x^2-4)}{x^2}\) from x = 1 to a.
+a) a2⁄2 + 5a – 4ln(a)
+b) a2⁄2 + 5a – 4ln(a) – 11⁄2
+c) a2⁄2 + 4ln(a) – 11⁄2
+d) a2⁄2 + 5a – 11⁄2
+b
+Given,
+f(x) = \(\frac{(2x^3+5x^2-4)}{x^2}\),
+Integrating it we get, F(x) = x2⁄2 + 5x – 4ln⁡(x)
+Hence, area under, x = 1 to a, is
+F(a) – F(1)=a2⁄2 + 5a – 4ln(a) – 1/2 – 5=a2⁄2 + 5a – 4ln(a) – 11⁄2
+12. Find the value of ∫(x4 – 5x2 – 6x)4 4x3 – 10x – 6 dx.
+a) \(\frac{(x^4-5x^2-6x)^4}{4}\) 
+b) \(\frac{(x^4-5x^2-6x)^5}{5}\) 
+c) \(\frac{(4x^3-10x-6)^5}{5}\) 
+d) \(\frac{(4x^3-10x-6)^4}{4}\) 
+b
+Given, \(\int (x^4-5x^2-6x)^4 4x^3-10x-6 dx\) 
+putting, \(x^4-5x^2-6x=z\), we get, \(dz=4x^3-10x-6 dx\) 
+\(\int z^4 dz=\frac{z^5}{5}=\frac{(x^4-5x^2-6x)^5}{5}\)
+13. Temperature of a rod is increased by moving x distance from origin and is given by equation T(x) = x2 + 2x, where x is the distance and T(x) is change of temperature w.r.t distance. If, at x = 0, temperature is 40 C, find temperature at x=10.
+a) 473 C
+b) 472 C
+c) 474 C
+d) 475 C
+a
+T = ∫T(x) dx = ∫x2 + 2x dx = x3⁄3 + x2 + C
+At x=0 given T = 40 C
+C = T(x = 0) = 40 C
+At x= 10,
+T(x = 10) = 1000⁄3 + 100 + 43 = 473 C.
+14. Find the value of \(\int \frac{1}{16x^2+16x+10}dx\).
+a) 1⁄8 sin-1(x + 1⁄2)
+b) 1⁄8 tan-1(x + 1⁄2)
+c) 1⁄8 sec-1(x + 1⁄2)
+d) 1⁄4 cos-1(x + 1⁄2)
+b
+Given, \(\int \frac{1}{16x^2+16x+10}dx=\frac{1}{2}\int \frac{1}{4x^2+4x+5}dx\) 
+=\(\int \frac{1}{8(x^2+x+\frac{5}{4}+\frac{1}{4}+\frac{1}{4})}dx=\int \frac{1}{8[(x+\frac{1}{2})^2+1^2]}dx=\frac{1}{8}tan^{-1}(x+\frac{1}{2})\)
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Improper Integrals – 1» Next - Engineering Mathematics Questions and Answers – Double Integrals 

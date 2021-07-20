@@ -1,0 +1,74 @@
+1. ______________ requires that only the first and second conditions of the RIP model are satisfied.
+a) Weak mutation testing
+b) Strong mutation testing
+c) Weak test data
+d) Strong test data
+a
+2. Weak mutation is closely related to ____________ methods.
+a) Code Conduct
+b) Code Coverage
+c) Mutation Coverage
+d) Mutation Redundancy
+b
+3. ________________ is a measure used to describe the degree to which the source code of a program is executed when a particular test suite runs.
+a) Code Conduct
+b) Code Coverage
+c) Mutation Coverage
+d) Mutation Redundancy
+b
+4. _______________ is usually defined as a rule or requirement, which test suite needs to satisfy.
+a) Code Conduct
+b) Code Coverage
+c) Coverage Criteria
+d) Mutation Redundancy
+c
+5. For the statement if( a || b) , which is not a mutant?
+a) if(a && b)
+b) if(a & b)
+c) if( a | b)
+d) if( a || b)
+d
+6. Mutants which result in programs which are behaviourally equivalent to the original one are called ________________-
+a) Statement coverage
+b) Condition coverage
+c) Equivalent Mutants
+d) Dead Mutants
+c
+7. For the following function,
+int example (int x, int y){    int z = 0;    if ((x>0) && (y>0))    {        z = x;    }    return z;}
+Which function call ensure statement coverage for this function?
+a) example(0,0)
+b) example(1,0)
+c) example(0,1)
+d) example(1,1)
+d
+8. For the following function,
+int example (int x, int y){    int z = 0;    if ((x>0) && (y>0))    {        z = x;    }    return z;}
+Which function call ensure function coverage for this function?
+a) ex(1,2)
+b) example(3,4)
+c) example1(1,2)
+d) etra(2,3)
+b
+9. For the following function,
+int example (int x, int y){    int z = 0;    if ((x>0) && (y>0))    {        z = x;    }    return z;}
+Which function call ensure branch coverage for this function?
+a) example(1,1)
+b) example(0,1)
+c) example(1,1) and example(0,1)
+d) example(1,1) and example(1,1)
+c
+10. For the following function,
+int example (int x, int y){    int z = 0;    if ((x>0) && (y>0))    {        z = x;    }    return z;}
+Which function call ensures condition coverage for this function?
+a) example(1,1)
+b) example(0,1)
+c) example(1,1) and example(0,1)
+d) example(1,0) and example(0,1)
+d
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice  all areas of JUnit for Online Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Jetty as an Embedded Server» Next - JUnit Questions and Answers – Stubbing the Connection 

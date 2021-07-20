@@ -1,0 +1,66 @@
+1. When we add two numbers the destination address must always be.
+a) some immediate data
+b) any register
+c) accumulator
+d) memory
+c
+2. DAA command adds 6 to the nibble if:
+a) CY and AC are necessarily 1
+b) either CY or AC is 1
+c) no relation with CY or AC
+d) CY is 1
+b
+3. If SUBB A,R4 is executed, then actually what operation is being applied?
+a) R4+A
+b) R4-A
+c) A-R4
+d) R4+A
+c
+4. A valid division instruction always makes:
+a) CY=0,AC=1
+b) CY=1,AC=1
+c) CY=0,AC=0
+d) no relation with AC and CY
+c
+5. In 8 bit signed number operations, OV flag is set to 1 if:
+a) a carry is generated from D7 bit
+b) a carry is generated from D3 bit
+c) a carry is generated from D7 or D3 bit
+d) a carry is generated from D7 or D6 bit
+d
+6. In unsigned number addition, the status of which bit is important?
+a) OV
+b) CY
+c) AC
+d) PSW
+b
+7. Which instructions have no effect on the flags of PSW?
+a) ANL
+b) ORL
+c) XRL
+d) All of the mentioned
+d
+8. ANL instruction is used _______
+a) to AND the contents of the two registers
+b) to mask the status of the bits
+c) all of the mentioned
+d) none of the mentioned
+c
+9. CJNE instruction makes _______
+a) the pointer to jump if the values of the destination and the source address are equal
+b) sets CY=1, if the contents of the destination register are greater then that of the source register
+c) sets CY=0, if the contents of the destination register are smaller then that of the source register
+d) none of the mentioned
+d
+10. XRL, ORL, ANL commands have _______
+a) accumulator as the destination address and any register, memory or any immediate data as the source address
+b) accumulator as the destination address and any immediate data as the source address
+c) any register as the destination address and accumulator, memory or any immediate data as the source address
+d) any register as the destination address and any immediate data as the source address
+a
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - 8051 Microcontroller Questions and Answers – I/O Port Programming and Addressing Modes» Next - 8051 Microcontroller Questions and Answers – Timer Programming 

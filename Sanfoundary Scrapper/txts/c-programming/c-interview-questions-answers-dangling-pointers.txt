@@ -1,0 +1,119 @@
+1. What will be the output of the following C code if it is executed on a 32 bit processor?
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int *p;
+    p = (int *)malloc(20);
+    printf("%d\n", sizeof(p));
+    free(p);
+    return 0;
+}
+a) 2
+b) 4
+c) 8
+d) Junk value
+b
+2. The number of arguments taken as input which allocating memory dynamically using malloc() is ___________
+a) 0
+b) 1
+c) 2
+d) 3
+b
+(int*)malloc(3*sizeof(int)
+It is clear from the above example that malloc() takes only one argument as input, that is the number of bytes to be allocated.
+3. Suppose we have a one dimensional array, named ‘x’, which contains 10 integers.  Which of the following is the correct way to allocate memory dynamically to the array  ‘x’ using malloc()?
+a) x=(int*)malloc(10);
+b) x=(int*)malloc(10,sizeof(int));
+c) x=malloc(int 10,sizeof(int));
+d) x=(int*)malloc(10*sizeof(int));
+d
+4. What will be the error (if any) in the following C code?
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+int main()
+{
+    char *p;
+    *p = (char)calloc(10);
+    strcpy(p, "HELLO");
+    printf("%s", p);
+    free(p);
+    return 0;
+}
+a) No error
+b) Error in the statement: strcpy(p,”HELLO”);
+c) Error in the statement: *p=(char)calloc(10);
+d) Error in the statement: free(p);
+c
+5. If malloc() and calloc() are not type casted, the default return type is ___________
+a) void*
+b) void**
+c) int*
+d) char*
+a
+6. Pick out the correct statement with respect to the heap.
+a) Local variables are stored on the heap
+b) Static variables are stored on the heap
+c) Heap is the data structure which is used to implement recursive function calls
+d) Everything on the heap is anonymous
+a
+7. What will be the output of the following C code? (Given that the size of array is 4 and new size of array is 5)
+#include<stdio.h>
+#include<stdlib.h>
+main()
+{
+    int *p,i,a,b;
+    printf("Enter size of array");
+    scanf("%d",&a);
+    p=(int*)malloc(a*sizeof(int));
+    for(i=0;i<a;i++)
+    printf("%d\n",i);
+    printf("Enter new size of array");
+    scanf("%d",&b);
+    realloc(p,b);
+    for(i=0;i<b;i++)
+    printf("%d\n",i);
+    free(p);
+}
+a) 
+
+   1234
+   12345
+b) Error
+c) 
+
+   0123
+   01234
+d) 
+
+   0123
+   12345
+c
+0123
+01234
+  
+8. When the pointer is NULL, then the function realloc is equivalent to the function ___________
+a) malloc
+b) calloc
+c) free
+d) alloc
+a
+9. Garbage collector frees the programmer from worrying about ___________
+a) Dangling pointers
+b) Creating new objects
+c) Memory leak
+d) Segmentation errors
+c
+10. If the space in memory allocated by malloc is not sufficient, then an allocation fails and returns ___________
+a) NULL pointer
+b) Zero
+c) Garbage value
+d) The number of bytes available
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – DMA Functions, Memory Leak, Dangling Pointers – 1» Next - C Questions and Answers – Pragma 

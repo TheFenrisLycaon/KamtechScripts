@@ -1,0 +1,82 @@
+1. Wildcards are special characters which are used to replace or represent one or more characters.
+a) True
+b) False
+a
+2. Which of the following is not a wild-card?
+a) *
+b) ?
+c) $
+d) %
+c
+‘*’     // matches any number of characters
+‘?’    // matches a single character
+3. What does the following command do?
+$ echo *
+a) error
+b) undefined behavior
+c) displays “*”
+d) lists all filenames in the current directory
+d
+4. Which command would be most suitable to remove the following files?
+dirx  diry  dirz  dirzw
+a) rm dir?
+b) rm dirx  diry  dirz  dirzw
+c) rm *
+d) rm dir*
+a
+5. Which of the following files will not be deleted using “rm chap??” ?
+a) chap01
+b) chap02
+c) chaptd
+d) chactd
+d
+6. Which of the following command will list all the hidden filenames in our directory having at least three characters after the dot (.)?
+a) ls
+b) ls -a
+c) ls  .???*
+d) ls *
+c
+$ ls  .???*
+.bash_pro    .chap01        .netspak    .profile        //list of hidden files
+7.  * and ? cannot match ____
+a) /
+b) $
+c) .
+d) / and .
+d
+8.  rm  chap0[1234] will delete all of the following files.
+   chap01  chap02  chap03  chap04
+a) True
+b) False
+a
+9.  Which of the following files will not be listed using the following command?
+ls chap0[1-4]
+a) chap02
+b) chap05
+c) chap01
+d) chap04
+b
+10. Which of the following symbol is used for negating the character class?
+a) .
+b) *
+c) !
+d) %
+c
+*.[!tx]        //matches all filenames with single character extension but not .t or .x 
+[!a-zA-Z]*    // matches all filenames that don’t begin with a alphabetic character.
+11. Which of the following shell doesn’t support ! symbol for negating the character class?
+a) bash
+b) bash
+c) POSIX
+d) C
+d
+12. The command cd * will work.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Shell Basics» Next - Unix  Questions and Answers – Pattern Matching, Escaping and Quoting – 2 

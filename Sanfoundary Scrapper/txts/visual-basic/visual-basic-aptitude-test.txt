@@ -1,0 +1,72 @@
+1. The _______________ operator allows you to use pattern matching characters to determine whether one String is equal to another String.
+a) Like
+b) Pattern
+c) Match
+d) StringMatch
+a
+string Like pattern
+In the syntax, string can be a String variable, a String named constant, or the Text property of a control. Pattern is a String expression containing one or more of the pattern-matching characters.
+2. The ___________ in a pattern represents one character only.
+a) ?
+b) *
+c) #
+d) **
+a
+3. The _____________ in a pattern represents zero or more characters.
+a) ?
+b) *
+c) #
+d) **
+b
+4. The _____________ in a pattern represents a single digit.
+a) ?
+b) *
+c) #
+d) **
+c
+5. The Like operator returns _______________ value.
+a) Integer
+b) Boolean
+c) String
+d) Float
+b
+6. Which of the following expressions evaluates to True when the strPart variable contains the string “123X45”?
+a) strPart Like “999[A-Z]99”
+b) strPart Like “######”
+c) strPart Like “###[A-Z]##”
+d) strPart Like “##??##”
+c
+7. In the following code, the while loop will execute if strId would have been _______________
+Do While strId Like "###*"
+a) 123ABC
+b) Fgh2
+c) Xzya
+d) Xyza
+a
+8. In the following code, the body of If will execute if txtState.Text contains?
+If txtState.Text Like "K*" Then
+a) K
+b) K123
+c) K4
+d) 4K
+a
+9. In the following code, the body of If will execute if strFirst contains?
+If strFirst.ToUpper Like "B?LL" Then
+a) Bill
+b) Lii
+c) LL1
+d) 123
+a
+10. In the following code, the body of If will execute if strFirst contains?
+If strFirst.ToUpper Like "T[OI]M" Then
+a) TIM
+b) TM
+c) IM
+d) OM
+a
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic for Aptitude test,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Searching a String» Next - Visual Basic Questions and Answers – String Manipulation – Adding a Menu to a Form 

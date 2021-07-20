@@ -1,0 +1,69 @@
+1. If the signal to be analyzed is an analog signal, we would pass it through an anti-aliasing filter with B as the bandwidth of the filtered signal and then the signal is sampled at a rate __________
+a) Fs ≤ 2B
+b) Fs ≤ B
+c) Fs ≥ 2B
+d) Fs = 2B
+c
+2. What is the highest frequency that is contained in the sampled signal?
+a) 2Fs
+b) Fs/2
+c) Fs
+d) None of the mentioned
+b
+3. The finite observation interval for the signal places a limit on the frequency resolution.
+a) True
+b) False
+a
+4. If {x(n)} is the signal to be analyzed, limiting the duration of the sequence to L samples, in the interval 0≤ n≤ L-1, is equivalent to multiplying {x(n)} by?
+a) Kaiser window
+b) Hamming window
+c) Hanning window
+d) Rectangular window
+d
+w(n)=1, 0≤ n≤ L-1
+=0, otherwise
+Thus, we can limit the duration of the signal x(n) to L samples by multiplying it with a rectangular window of length L.
+5. What is the Fourier transform of rectangular window of length L?
+a) \(\frac{sin⁡(\frac{ωL}{2})}{sin⁡(\frac{ω}{2})} e^{jω(L+1)/2}\) 
+b) \(\frac{sin⁡(\frac{ωL}{2})}{sin⁡(\frac{ω}{2})} e^{jω(L-1)/2}\) 
+c) \(\frac{sin⁡(\frac{ωL}{2})}{sin⁡(\frac{ω}{2})} e^{-jω(L-1)/2}\) 
+d) None of the mentioned
+c
+w(n)=1, 0≤ n≤ L-1
+=0, otherwise
+We know that the Fourier transform of a signal x(n) is given as
+X(ω)=\(\sum_{n=-∞}^∞ x(n)e^{-jωn}\) 
+=>W(ω)=\(\sum_{n=0}^{L-1} e^{-jωn}=\frac{sin⁡(\frac{ωL}{2})}{sin⁡(\frac{ω}{2})} e^{-jω(L-1)/2}\)
+6. If x(n)=cosω0n and W(ω) is the Fourier transform of the rectangular signal w(n), then what is the Fourier transform of the signal x(n).w(n)?
+a) 1/2[W(ω-ω0)- W(ω+ω0)] 
+b) 1/2[W(ω-ω0)+ W(ω+ω0)] 
+c) [W(ω-ω0)+ W(ω+ω0)] 
+d) [W(ω-ω0)- W(ω+ω0)] 
+b
+Fourier transform of x(n).w(n)=  1/2[W(ω-ω0)+ W(ω+ω0)]
+7. The characteristic of windowing the signal called “Leakage” is the power that is leaked out into the entire frequency range.
+a) True
+b) False
+a
+8. Which of the following is the advantage of Hanning window over rectangular window?
+a) More side lobes
+b) Less side lobes
+c) More width of main lobe
+d) None of the mentioned
+b
+9. Which of the following is the disadvantage of Hanning window over rectangular window?
+a) More side lobes
+b) Less side lobes
+c) More width of main lobe
+d) None of the mentioned
+c
+10. The condition with less number of samples L should be avoided.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Linear Filtering Methods Based on DFT» Next - Digital Signal Processing Questions and Answers – Efficient Computation of DFT FFT Algorithms – 1 

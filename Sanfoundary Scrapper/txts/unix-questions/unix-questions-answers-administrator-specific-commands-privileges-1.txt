@@ -1,0 +1,111 @@
+1. The system administrator is also known as _____
+a) master user
+b) superuser
+c) root user
+d) master and super user
+d
+2. Which of the following functionalities is carried by the root user?
+a) managing disk space
+b) performing backup
+c) changing attributes of a file
+d) managing disk space, performing backup, changing attributes of a file
+d
+3. What is the login name of system administrator?
+a) root
+b) su
+c) master
+d) admin
+a
+4. What is the prompt for system administrator?
+a) $
+b) %
+c) #
+d) &
+c
+5. When we log in as root user we are placed in ____
+a) /bin
+b) /root
+c) /system
+d) /admin
+b
+6. The PATH for superuser doesn’t include current directory.
+a) True
+b) False
+a
+7. Which command is used for acquiring superuser status?
+a) pu
+b) su
+c) admn
+d) super
+b
+$ su
+Password: *****        //root’s password
+#pwd
+/home/abd             //prompt changes ( super user mode)
+8. Which of the following is used for creating user’s environment?
+a) su
+b) su –
+c) -su
+d) su – –
+b
+$ su - abd
+Above command will execute abd’s .profile and creates a temporary abd’s environment. 
+9. User’s environment mode created using su – is terminated using ____
+a) ctrl-v
+b) ctrl-q
+c) ctrl-d
+d) ctrl-f
+c
+10. Which command is used by the system administrator to set the date of the system?
+a) dt
+b) su
+c) date
+d) chdt
+c
+# date 08122134
+Sun Aug  12 21:34:00 IST 2018
+11. ____ command allows superuser to communicate with users.
+a) comm
+b) cron
+c) date
+d) wall
+d
+# wall
+Kindly everyone shut down the system before leaving the lab.
+[ctrl-d]
+All the users currently logged in will receive this message on their terminal.
+ 
+12. ____ command is used for setting limits on file size.
+a) limit
+b) flimit
+c) ulimit
+d) flim
+c
+# ulimit  209788        // measured in 512-byte locks
+13. The access to the use of at and batch is restricted and controlled by ___ and ____
+a) at.allow, batch.allow
+b) at.allow, at.deny
+c) at.allow , batch.deny
+d) batch. deny, batch.allow
+b
+14. If both at.allow and at.deny are not present, only the system administrator can access at and batch command.
+a) True
+b) False
+a
+15. ____ command is used by the superuser for changing root’s password.
+a) pd
+b) password
+c) pswd
+d) pwd
+c
+# pswd
+/* diagnostic messages displayed */
+New-password : ******
+Re-enter password: ******
+Password Changed
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Shell Programming using Various Commands – 2» Next - Unix  Questions and Answers – Administrator Specific Commands and Privileges – 2 

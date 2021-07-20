@@ -1,0 +1,66 @@
+1. How many ways of auditing the schema is available in SQL Server?
+a) 2
+b) 3
+c) 4
+d) 5
+a
+2. Point out the correct statement.
+a) You can use Source control to audit schema changes
+b) The SQL Server Audit feature enables you to audit column level groups of events and individual events
+c) Audit level actions encompass data manipulation languages (DML) and data definition language (DDL) operations
+d) None of the mentioned
+a
+3. Which of the following event is not intrinsically audited?
+a) ALTER DATABASE AUDIT SPECIFICATION
+b) CREATE SERVER AUDIT SPECIFICATION
+c) DROP SERVER AUDIT SPECIFICATION
+d) All of the mentioned
+d
+4. Which of the following is server-level audit action group?
+a) BACK_RESTORE_GROUP
+b) BACKUP_RESTORE_GROUP
+c) DB_LOGOUT_GROUP
+d) None of the mentioned
+b
+5. Point out the wrong statement.
+a) When the query processor parameterize the query, the parameter can appear in the audit event log instead of the column values of the query
+b) To access the triggering event we can use the EventData function in our DDL trigger
+c) AUDIT_DATABASE_CHANGE_GROUP event is raised whenever CREATE DATABASE AUDIT is issued
+d) None of the mentioned
+c
+6. AUDIT_CHANGE_GROUP event is raised whenever any audit is _____________
+a) Created
+b) Modified
+c) Delete
+d) All of the mentioned
+d
+7. __________ could potentially lead to large audit records.
+a) DATABASE_OBJECT_ACCESS_GROUP
+b) DATABASE_MIRRORING_LOGIN_GROUP
+c) DATABASE_OBJECT_OWNERSHIP_CHANGE_GROUP
+d) DATABASE_OBJECT_PERMISSION_CHANGE_GROUP
+a
+8. You can use the handy event name of __________ to make sure your trigger covers all DDL events.
+a) DDL_DATABASE_EVENTS
+b) DDL_DATABASE_LEVEL_EVENTS
+c) DDL_DATABASE_LEVEL
+d) All of the mentioned
+b
+9. DDL Trigger can capture the information about the EVENT that fired it by using __________ function.
+a) EVENTDATA()
+b) EVENT()
+c) EVENTS()
+d) None of the mentioned
+a
+10. Which of the following database level event si raised whenever a REFERENCES permission is checked.
+a) EXECUTE
+b) REFERENCES
+c) UPDATE
+d) SELECT
+b
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Data Audit» Next - SQL Server Questions and Answers – Performance Monitoring 

@@ -1,0 +1,62 @@
+1. ___________ selects geometries that intersect with a GeoJSON geometry.
+a) $near
+b) $nearsphere
+c) $geoIntersect
+d) None of the mentioned
+c
+2. Point out the wrong statement.
+a) If $near or $nearSphere query specifies the center point as a GeoJSON point, specify the distance as a non-negative number in meters
+b) If $nearSphere query specifies the center point as legacy coordinate pair, specify the distance as a non-negative number in radians
+c) $near can only use the 2dsphere index if the query specifies the center point as a GeoJSON point
+d) None of the mentioned
+d
+3. _______ returns geospatial objects in proximity to a point.
+a) $near
+b) $nearsphere
+c) $geoIntersect
+d) None of the mentioned
+a
+4. _________ specifies a geometry in GeoJSON format to geospatial query operators.
+a) $sphere
+b) $geoin
+c) $geometry
+d) All of the mentioned
+c
+5. Point out the correct statement.
+a) Both 2dsphere and 2d geospatial indexes support $geoWithin
+b) $geoWithin does not require a geospatial index
+c) The $geoWithin operator does not return sorted results
+d) None of the mentioned
+b
+Join Sanfoundry@YouTube
+6. _________ returns geospatial objects in proximity to a point on a sphere. Requires a geospatial index.
+a) $near
+b) $nearsphere
+c) $geoIntersect
+d) None of the mentioned
+b
+7. __________ specifies a minimum distance to limit the results of $near and $nearSphere queries.
+a) $center
+b) $maxDistance
+c) $minDistance
+d) All of the mentioned
+c
+8. The _________ operator specifies a circle for a $geoWithin query.
+a) $within
+b) $gwithin
+c) $center
+d) All of the mentioned
+c
+9. ________ index must exist on a field holding coordinates before using any of the geospatial query operators.
+a) Unique
+b) Geospatial
+c) Temporal
+d) All of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Index Management» Next - MongoDB Questions and Answers – Text Search 

@@ -1,0 +1,112 @@
+1. Which of the following is the right way of representation of equation that contains only the positive frequencies in a given x(t) signal?
+a) X+(F)=4V(F)X(F)
+b) X+(F)=V(F)X(F)
+c) X+(F)=2V(F)X(F)
+d) X+(F)=8V(F)X(F)
+c
+Where X+(F) is a Fourier transform of x(t) and V(F) is unit step function.
+2. What is the equivalent time –domain expression of X+(F)=2V(F)X(F)?
+a) F(+1)[2V(F)]*F(+1)[X(F)] 
+b) F(-1)[4V(F)]*F(-1)[X(F)] 
+c) F(-1)[V(F)]*F(-1)[X(F)] 
+d) F(-1)[2V(F)]*F(-1)[X(F)] 
+d
+\(x_+ (t)=\int_{-∞}^∞ X_+ (F)e^{j2πFt} dF\) 
+=\(F^{-1} [2V(F)]*F^{-1} [X(F)]\) 
+3. In time-domain expression, \(x_+ (t)=F^{-1} [2V(F)]*F^{-1} [X(F)]\). The signal x+(t) is known as
+a) Systematic signal
+b) Analytic signal
+c) Pre-envelope of x(t)
+d) Both Analytic signal & Pre-envelope of x(t)
+d
+4. In equation \(x_+ (t)=F^{-1} [2V(F)]*F^{-1} [X(F)]\), if \(F^{-1} [2V(F)]=δ(t)+j/πt\) and \(F^{-1} [X(F)]\) = x(t). Then the value of ẋ(t) is?
+a) \(\frac{1}{π} \int_{-\infty}^\infty \frac{x(t)}{t+τ} dτ\) 
+b) \(\frac{1}{π} \int_{-\infty}^\infty \frac{x(t)}{t-τ} dτ\) 
+c) \(\frac{1}{π} \int_{-\infty}^\infty \frac{2x(t)}{t-τ} dτ\) 
+d) \(\frac{1}{π} \int_{-\infty}^\infty \frac{4x(t)}{t-τ} dτ\) 
+b
+\(x_+ (t)=x(t)+[j/πt]*x(t)\) 
+\(ẋ(t)=[j/πt]*x(t)\) 
+=\(\frac{1}{π} \int_{-\infty}^\infty \frac{x(t)}{t-τ} dτ\)
+Hence proved.
+5. If the signal ẋ(t) can be viewed as the output of the filter with impulse response h(t) = 1/πt, -∞ < t < ∞ when excited by the input signal x(t) then such a filter is called as __________
+a) Analytic transformer
+b) Hilbert transformer
+c) Both Analytic & Hilbert transformer
+d) None of the mentioned
+b
+ -∞ < t < ∞ when excited by the input signal x(t) then such a filter is called as Hilbert transformer.
+6. What is the frequency response of a Hilbert transform H(F)=?
+a) \(\begin{cases}&-j  (F>0) \\ & 0  (F=0)\\ & j  (F<0)\end{cases}\) 
+b) \(\left\{\begin{matrix}-j & (F<0)\\0 & (F=0) \\j & (F>0)\end{matrix}\right. \) 
+c) \(\left\{\begin{matrix}-j & (F>0)\\0 &(F=0) \\j & (F<0)\end{matrix}\right. \) 
+d) \(\left\{\begin{matrix}j&(F>0)\\0 & (F=0)\\j & (F<0)\end{matrix}\right. \) 
+a
+=\(\frac{1}{π} \int_{-∞}^∞ 1/t e^{-2πFt} dt\) 
+=\(\left\{\begin{matrix}-j& (F>0)\\0&(F=0) \\ j& (F<0)\end{matrix}\right.\) 
+We Observe that │H (F)│=1 and the phase response &odot;(F) = -1/2π for F > 0 and &odot;(F) = 1/2π for F < 0.
+7. What is the equivalent lowpass representation obtained by performing a frequency translation of X+(F) to Xl(F)= ?
+a) X+(F+Fc)
+b) X+(F-Fc)
+c) X+(F*Fc)
+d) X+(Fc-F)
+a
+8. What is the equivalent time domain relation of xl(t) i.e., lowpass signal?
+a) \(x_l (t)=[x(t)+j ẋ(t)]e^{-j2πF_c t}\) 
+b) x(t)+j ẋ(t) = \(x_l (t) e^{j2πF_c t}\) 
+c) \(x_l (t)=[x(t)+j ẋ(t)]e^{-j2πF_c t}\) & x(t)+j ẋ(t) = \(x_l (t) e^{j2πF_c t}\) 
+d) None of the mentioned
+c
+=\([x(t)+j ẋ(t)] e^{-j2πF_c t}\) 
+Or equivalently, x(t)+j ẋ(t) =\(x_l (t) e^{j2πF_c t}\).
+9. If we substitute the equation \(x_l (t)= u_c (t)+j u_s (t)\) in equation x (t) + j ẋ (t) = xl(t) ej2πFct and equate real and imaginary parts on side, then what are the relations that we obtain?
+a) x(t)=\(u_c (t) \,cos⁡2π \,F_c \,t+u_s (t) \,sin⁡2π \,F_c \,t\); ẋ(t)=\(u_s (t) \,cos⁡2π \,F_c \,t-u_c \,(t) \,sin⁡2π \,F_c \,t\) 
+b) x(t)=\(u_c (t) \,cos⁡2π \,F_c \,t-u_s (t) \,sin⁡2π \,F_c \,t\); ẋ(t)=\(u_s (t) \,cos⁡2π \,F_c t+u_c (t) \,sin⁡2π \,F_c \,t\) 
+c) x(t)=\(u_c (t) \,cos⁡2π \,F_c t+u_s (t) \,sin⁡2π \,F_c \,t\); ẋ(t)=\(u_s (t) \,cos⁡2π \,F_c t+u_c (t) \,sin⁡2π \,F_c \,t\) 
+d) x(t)=\(u_c (t) \,cos⁡2π \,F_c \,t-u_s (t) \,sin⁡2π \,F_c \,t\); ẋ(t)=\(u_s (t) \,cos⁡2π \,F_c \,t-u_c (t) \,sin⁡2π \,F_c \,t\) 
+b
+10. In the relation, x(t) = \(u_c (t) cos⁡2π \,F_c \,t-u_s (t)  sin⁡2π \,F_c \,t\) the low frequency components uc and us are called _____________ of the bandpass signal x(t).
+a) Quadratic components
+b) Quadrature components
+c) Triplet components
+d) None of the mentioned
+b
+11. What is the other way of representation of bandpass signal x(t)?
+a) x(t) = Re\([x_l (t) e^{j2πF_c t}]\) 
+b) x(t) = Re\([x_l (t) e^{jπF_c t}]\) 
+c) x(t) = Re\([x_l (t) e^{j4πF_c t}]\) 
+d) x(t) = Re\([x_l (t) e^{j0πF_c t}]\) 
+a
+12. In the equation x(t) = Re\([x_l (t) e^{j2πF_c t}]\), What is the lowpass signal xl (t) is usually called the ___ of the real signal x(t).
+a) Mediature envelope
+b) Complex envelope
+c) Equivalent envelope
+d) All of the mentioned
+b
+13. If a possible representation of a band pass signal is obtained by expressing xl (t) as \(x_l (t)=a(t)e^{jθ(t})\) then what are the equations of a(t) and θ(t)?
+a) a(t) = \(\sqrt{u_c^2 (t)+u_s^2 (t)}\) and θ(t)=\(tan^{-1}\frac{u_s (t)}{u_c (t)}\) 
+b) a(t) = \(\sqrt{u_c^2 (t)-u_s^2 (t)}\) and θ(t)=\(tan^{-1}\frac{u_s (t)}{u_c (t)}\) 
+c) a(t) = \(\sqrt{u_c^2 (t)+u_s^2 (t)}\) and θ(t)=\(tan^{-1}\frac{u_c (t)}{u_s (t)}\) 
+d) a(t) = \(\sqrt{u_s^2 (t)-u_c^2 (t)}\) and θ(t)=\(tan^{-1}⁡\frac{u_s (t)}{u_c (t)}\) 
+a
+14. What is the possible representation of x(t) if xl(t)=a(t)e(jθ(t))?
+a) x(t) = a(t) cos[2πFct – θ(t)] 
+b) x(t) = a(t) cos[2πFct + θ(t)] 
+c) x(t) = a(t) sin[2πFct + θ(t)] 
+d) x(t) = a(t) sin[2πFct – θ(t)] 
+b
+= Re\([a(t) e^{j[2πF_c t + θ(t)]}]\) 
+= \(a(t) \,cos⁡ [2πF_c t+θ(t)]\) 
+Hence proved.
+15. In the equation x(t) = a(t)cos[2πFct+θ(t)], Which of the following relations between a(t) and x(t), θ(t) and x(t) are true?
+a) a(t), θ(t) are called the Phases of x(t)
+b) a(t) is the Phase of x(t), θ(t) is called the Envelope of x(t)
+c) a(t) is the Envelope of x(t), θ(t) is called the Phase of x(t)
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Sampling of Band Pass Signals» Next - Digital Signal Processing Questions and Answers – Quantization and Coding 

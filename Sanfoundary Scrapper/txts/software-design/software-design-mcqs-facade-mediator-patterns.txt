@@ -1,0 +1,68 @@
+1. Which of the following is true for facade pattern?
+a) The Façade pattern is a broker pattern that eases interaction between a client and a sub-system of suppliers
+by providing a simpler interface to the sub-system
+b) Sub-systems may contain many classes with complex interfaces and relationships, but often clients only need basic services that can be supplied through a simple interface
+c) The broker class, called a façade, provides basic, simplified services to clients by taking upon itself the job of dealing with a complex sub-system
+d) All of the mentioned
+d
+2. Which of the following belongs to iterator pattern?
+a) They delegate activities to other portions of the sub-system to which they provide an interface
+b) The details of such delegations depend on the sub-system in question
+c) The behavior follows the general outline of a broker pattern interaction
+d) None of the mentioned
+d
+3. Which of the following i correct?
+a) The Mediator pattern provides a means of increasing coupling
+b) In the Mediator pattern, interacts with one another, collaborating objects and with a special mediator class
+c) The objects are coupled only to the mediator, which contains all the code for coordinating the collaboration
+d) All of the mentioned
+c
+4. Which of the pattern all the classes coupling is reduced?
+a) Iterator
+b) Facade
+c) Mediator
+d) Proxy
+c
+Join Sanfoundry@YouTube
+5. Which of the following is for Facade Pattern?
+a) Interaction is begun by one of the collaborators or a client object outside the collaboration
+b) The object directs the collaboration, with all communication going between it and the colleagues in the interaction
+c) All of the mentioned
+d) None of the mentioned
+d
+6. Which of the following is a type of broker pattern?
+a) Mediator
+b) Facade
+c) None of the mentioned
+d) All of the mentioned
+d
+7. Which of the following does not follow the sequence of the mediator pattern?
+a) As in any broker pattern, the Mediator receives a request for service at last
+b) It then controls an interaction with the collaborating colleagues to supply the service
+c) If one collaborator needs help from another, it notifies the Mediator object, which obtains the needed service from another collaborator
+d) None of the mentioned
+a
+8. The Mediator pattern has which of the following advantages?
+a) It decouples collaborators, making them more changeable and reusable
+b) It centralizes control of an interaction in the mediator class, making it easier to change, thus increasing modifiability
+c) It simplifies the collaborators, making them easier to understand, and hence to change
+d) All of the mentioned
+d
+9. Which are the drawback for mediator pattern?
+a) It may also increase collaborator cohesion
+b) Forcing collaborator interaction through the mediator may compromise performance
+c) All of the mentioned
+d) None of the mentioned
+b
+10. Which of the following is consequence of mediator class?
+a) They makes a sub-system easier for clients to use
+b) Lowers the coupling between the client and the sub-system
+c) Increase re-usability by adapting a sub-system’s interface to client needs
+d) It encapsulates an interaction, making the interaction easier to change
+d
+Sanfoundry Global Education & Learning Series – Software Architecture and Design.
+To practice all areas of Software Design and Architecture,  here is complete set of 1000+ Multiple Choice Questions and Answers on Software Design and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Software Design Questions and Answers – Mid-Level Design Pattern Categories and Broker Pattern» Next - Software Design Questions and Answers – The Adapter Patterns and Proxy Pattern 

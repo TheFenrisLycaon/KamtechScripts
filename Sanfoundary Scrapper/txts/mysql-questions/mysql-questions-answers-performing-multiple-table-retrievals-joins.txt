@@ -1,0 +1,62 @@
+1. SELECT select_list FROM table_list WHERE row_constraint GROUP BY grouping_columns; Which of these is not optional?
+a) select_list
+b) table_list
+c) row_constraint
+d) grouping_columns
+a
+2. In inner join, result is produced by matching rows in one table with rows in another table.
+a) True
+b) False
+a
+3. The join where all possible row combinations are produced is called _________
+a) INNER JOIN
+b) OUTER
+c) NATURAL
+d) CARTESIAN
+d
+4. The clause that filters JOIN results is called _________
+a) WHERE
+b) SORT
+c) GROUP
+d) GROUP BY
+a
+5. CROSS JOIN and JOIN are similar to __________
+a) INNER JOIN
+b) NATURAL JOIN
+c) OUTER JOIN
+d) CARTESIAN JOIN
+a
+6. The comma operator can also be used to join tables.
+a) True
+b) False
+a
+7. The left and right joins are also known as __________
+a) INNER JOIN
+b) NATURAL JOIN
+c) OUTER JOIN
+d) CARTESIAN JOIN
+c
+8. What is joining a table to itself called?
+a) COMPLETE
+b) SELF
+c) OBSOLETE
+d) CROSS
+b
+9. In which join all the rows from the left table appear in the output irrespective of the content of the other table?
+a) RIGHT JOIN
+b) LEFT JOIN
+c) INNER JOIN
+d) OUTER JOIN
+b
+10. The join in which all the rows from the right table appear in the output irrespective of the content of the other table is ___________
+a) CARTESIAN JOIN
+b) CROSS JOIN
+c) INNER JOIN
+d) RIGHT JOIN
+d
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Obtaining Database Metadata» Next - MySQL Questions and Answers – Performing Multiple – Table Retrievals with Subqueries 

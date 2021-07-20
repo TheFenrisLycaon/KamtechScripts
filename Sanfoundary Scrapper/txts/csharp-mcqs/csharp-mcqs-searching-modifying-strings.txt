@@ -1,0 +1,106 @@
+1. Which of these methods of class String is used to separate a substring from a String object?
+a) substring()
+b) Substring()
+c) SubString()
+d) None of the mentioned
+b
+2. What will be the output of the following C# code?
+ static void Main(string[] args) {     String a = "Ilove";     String b = "CSHARP";     b = string.Concat(a, '  ', b);     Console.WriteLine(b);     Console.ReadLine(); }
+a) IloveCSHARP
+b) I loveCSHARP
+c) Ilove
+d) Ilove CSHARP
+d
+Output :
+Ilove CSHARP
+3. Which of these methods of class are used to remove the leading and backward whitespaces?
+a) startsWith()
+b) trim()
+c) Trim()
+d) doTrim()
+c
+4. What will be the output of the following C# code?
+  static void Main(string[] args)  {      String a = "Ilove";      String b = "CSHARP";      b = string.Concat(a,' ',b);      string d = b.TrimStart('I', 'l', 'o', 'H');      Console.WriteLine(d);      Console.ReadLine();  }
+a) Ilove CSHARP
+b) love CSHARP
+c) ve CSHARP
+d) ve CSARP
+c
+Output :
+ ve CSHARP
+5. What will be the output of the following C# code?
+ static void Main(string[] args) {     String c = "  Hello Computer ";     String a = c.Trim();     Console.WriteLine("\"" + s + "\""); }
+a) ” Hello Computer ”
+b) “HelloComputer”
+c) “Hello Computer”
+d) Hello Computer
+c
+Output :
+ "Hello Computer"
+6. What will be the output of the following C# code?
+ static void Main(string[] args) {     String c = "Hello";     String a = c + "Bye";     Console.WriteLine(a);     Console.ReadLine(); }
+a) “Hello Bye”
+b) “HelloBye”
+c) Hello Bye
+d) HelloBye
+d
+Output :
+ HelloBye
+7. What will be the output of the following C# code?
+static void Main(string[] args){    String c = "Hello";    String a ;    a = c.Replace('l', 'w');    Console.WriteLine(a);    Console.ReadLine();}
+a) Helloll
+b) Hewlo
+c) Helwo
+d) Hewwo
+d
+Output :
+Hewwo
+8. Which of the following statements is correct?
+a) replace() replace() method replaces last occurrence of a character in invoking strings with another character
+b) replace() method replaces only first occurrence of a character in invoking strings with another character
+c) replace() method replaces all occurrences of one character in invoking strings with another character
+d) none of the mentioned
+c
+9. What will be the output of the following C# code snippet?
+  static void Main(string[] args)  {      String c = "Hello i love you";      String a ;      a = c.Substring(12, 3);      Console.WriteLine(a);      Console.ReadLine();  }
+a) ove
+b) you
+c) yo
+d) love you
+c
+Output :
+yo
+10. Which among the following is the correct way to find out the index of second ‘s’ in the string “She sold her beauty in one night to someone else”?
+a)
+   String a = "She sold her beauty in one night to someone else";
+   int i;
+   i = a.SecondIndexOf("s");
+b)
+   String a = "She sold her beauty in one night to someone else";
+   int i, j;
+   i = a.FirstIndexOf("s");
+   j = a.IndexOf("s", i + 1);
+c)
+   String a = "She sold her beauty in one night to someone else";
+   int i, j;
+   i = a.IndexOf("s");
+   j = a.IndexOf("s", i + 1);
+d) None of the mentioned
+c
+       static void Main(string[] args)
+        {
+            String c = "She sold her beauty in one night to someone else";
+            int i,j;
+ 
+            i = c.IndexOf("s");
+            j = c.IndexOf("s", i + 1);
+            Console.WriteLine(i + " " + j);
+           Console.ReadLine();
+        }
+Output : 4, 36
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Comparison of Strings» Next - C# Questions & Answers – Operation on Characters 

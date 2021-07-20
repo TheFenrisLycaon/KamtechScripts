@@ -1,0 +1,141 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     1. What value does the variable b have after ALL of the code executes?
+int a;
+int b;
+a=1;
+b=a++;
+a) 1
+b) 2
+c) 3
+d) unknown/undefined
+a
+2. What value does the variable a have after ALL of the code above executes?
+int a;
+int b;
+a=1;
+b=a++;
+a) 1
+b) 2
+c) 3
+d) unknown/undefined
+b
+3. What value does the variable z have after ALL of the code above executes?
+int x;
+int y;
+int z;
+x=3;
+y=4;
+z = ++x * y++;
+a) 9
+b) 12
+c) 16
+d) 20
+c
+Hence the answer will be 16.
+Join Sanfoundry@YouTube
+4. What value does the variable x have after ALL of the code above executes?
+int x;
+int y;
+int z;
+x=3;
+y=4;
+z = ++x * y++;
+a) 2
+b) 3
+c) 4
+d) unknown/undefined
+c
+5. What value does the variable y have after ALL of the code above executes?
+int x;
+int y;
+int z;
+x=3;
+y=4;
+z = ++x * y++;
+a) 4
+b) 5
+c) 6
+d) unknown/undefined
+b
+6. What will be the output of the following program?
+#include<stdio.h>
+int main()
+{
+    int i = 10;
+    printf("%d", ++(-i));
+    return 0;
+}
+a) 11
+b) 10
+c) -9
+d) None of the mentioned
+d
+7. What will be output of the following C code?
+#‎include‬ <stdio.h>
+int main()
+{
+    int x=4, y, z;
+    y = --x;
+    z = x--;
+    printf("%d, %d, %d\n", x, y, z);
+    return 0;
+}
+a) 4,3,3
+b) 3,3,3
+c) 2,3,3
+d) 4,4,3
+c
+ x has decremented and become 2.
+8. What will be output of the following C code?
+#include <stdio.h>
+main()
+{
+    int a=1, b=3;
+    b= a++ + a++ + a++ + a++ + a++;
+    printf("a=%d \n b=%d",a,b); 
+}
+a) a = 6, b = 15
+b) a = 1, b = 3
+c) a = 1, b = 15
+d) a = 2, b = 4
+a
+B=15
+But finally a=6.
+9. What will be output of the following C code?
+#include <stdio.h>
+main()
+{
+    int a=9, b=9;
+    a=b++;
+    b=a++;
+    b=++b; 
+    printf("%d %d",a,b);
+}
+a) 9,9
+b) 10,10
+c) 9,10
+d) 10,9
+b
+B=9
+B=10
+10. What will be output of the following C code?
+#include <stdio.h>
+main()
+{  
+     int a,b;
+     b = 10;
+     a = ++b + ++b;
+     printf("%d%d",a,b);
+}
+a) 24,12
+b) 23,12
+c) 23,10
+d) 24,10
+b
+So a=23
+B=12.
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – SDT Schemes to Specify Translation of various Programming Language Construct – 2» Next - Compilers Questions and Answers – Implementation of Increment and Decrement – 2 

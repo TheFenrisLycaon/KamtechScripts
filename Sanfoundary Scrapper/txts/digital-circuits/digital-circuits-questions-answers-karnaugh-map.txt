@@ -1,0 +1,92 @@
+1. A Karnaugh map (K-map) is an abstract form of ____________ diagram organized as a matrix of squares.
+a) Venn Diagram
+b) Cycle Diagram
+c) Block diagram
+d) Triangular Diagram
+a
+2. There are ______ cells in a 4-variable K-map.
+a) 12
+b) 16
+c) 18
+d) 8
+b
+3. The K-map based Boolean reduction is based on the following Unifying Theorem: A + A’ = 1.
+a) Impact
+b) Non Impact
+c) Force
+d) Complementarity
+b
+4. Each product term of a group, w’.x.y’ and w.y, represents the ____________ in that group.
+a) Input
+b) POS
+c) Sum-of-Minterms
+d) Sum of Maxterms
+c
+5. The prime implicant which has at least one element that is not present in any other implicant is known as ___________
+a) Essential Prime Implicant
+b) Implicant
+c) Complement
+d) Prime Complement
+a
+6. Product-of-Sums expressions can be implemented using ___________
+a) 2-level OR-AND logic circuits
+b) 2-level NOR logic circuits
+c) 2-level XOR logic circuits
+d) Both 2-level OR-AND and NOR logic circuits
+d
+7. Each group of adjacent Minterms (group size in powers of twos) corresponds to a possible product term of the given ___________
+a) Function
+b) Value
+c) Set
+d) Word
+a
+8. Don’t care conditions can be used for simplifying Boolean expressions in ___________
+a) Registers
+b) Terms
+c) K-maps
+d) Latches
+c
+9. It should be kept in mind that don’t care terms should be used along with the terms that are present in ___________
+a) Minterms
+b) Expressions
+c) K-Map
+d) Latches
+a
+10. Using the transformation method you can realize any POS realization of OR-AND with only.
+a) XOR
+b) NAND
+c) AND
+d) NOR
+d
+11. There are many situations in logic design in which simplification of logic expression is possible in terms of XOR and _________________ operations.
+a) X-NOR
+b) XOR
+c) NOR
+d) NAND
+a
+Expression of XOR : AB’ + A’B
+Expression of XNOR : AB + A’B’
+12. These logic gates are widely used in _______________ design and therefore are available in IC form.
+a) Sampling
+b) Digital
+c) Analog
+d) Systems
+b
+13. In case of XOR/XNOR simplification we have to look for the following _______________
+a) Diagonal Adjacencies
+b) Offset Adjacencies
+c) Straight Adjacencies
+d) Both diagonal and offset adjencies
+d
+14. Entries known as _______________ mapping.
+a) Diagonal
+b) Straight
+c) K
+d) Boolean
+a
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – Sum of Products and Products of Sum» Next - Digital Circuits Questions and Answers – Quine McCluskey or Tabular Method of Minimization of Logic Functions 

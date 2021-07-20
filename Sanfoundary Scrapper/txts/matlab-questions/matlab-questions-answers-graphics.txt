@@ -1,0 +1,75 @@
+1. What are the functions to see the graph of a continuous and a discrete function?
+a) plot() & stem()
+b) cont() & disc()
+c) plot() & disc()
+d) cont() & stem()
+a
+2. Find the error in the following code.
+x=-10:1:10; y=-10:2:10; plot(x,y)
+a) Plot is not available in MATLAB
+b) Syntax of plot is wrong
+c) Length of x and y should be same
+d) No error
+c
+3. What is the output in the following code?
+x=-10:1:10; y=-10:1:10;axis(‘off’); plot(x,y)
+a) Error
+b) A graph will be shown without axes
+c) A graph will be shown with axes
+d) 2 graphs will be shown- one with axes and with no axes
+c
+4. If we want to plot matrix arguments, which of the following gets plotted?
+a) Column wise inter-relation of two arguments
+b) Row wise inter-relation of two arguments
+c) Diagonally inter-relation of two arguments
+d) The arguments are incomprehensible
+a
+So, if x=[x1 x2 x3];y=[y1 y2 y3]; plot(x,y)- MATLAB will generate a plot between (x1,y1),(x2,y2) and so on.
+5. To bring the scale of each axis to logarithmically spaced, the student entered ‘semilogx()’. What really happened?
+a) The plot will appear with both axis now logarithmically spaced
+b) semilogx() is an invalid function
+c) The plot will appear with x axis logarithmically spaced
+d) Error
+c
+6.  What kind of a plot is this?
+a) Polar plot
+b) Cartesian plot
+c) Complex plot
+d) Not a MATLAB plotting
+a
+7. After trying to plot a pie-chart, the student finds that the function he used is rose(). What is the nature of data used by the student if an output graph is generated?
+a) Angles in radians
+b) Linear bivariate
+c) Logarithmic
+d) This is not possible in MATLAB
+b
+8. To place a text on the plot using a mouse, the command used is _________
+a) gtext
+b) text
+c) title()
+d) atext
+a
+9. What is the condition on x in bar(x,y)?
+a) No condition as such
+b) Should change linearly
+c) Should increase of decrease monotonously
+d) Incomprehensible
+c
+10. If we put bar(x,y,1.2), we will get _____ bars.
+a) Uniform
+b) Damped
+c) Overlapping
+d) No
+c
+11. A student has to plot a graph of f(x)=t and g(y)=t in the same graph, with t as a parameter. The function he uses is ____
+a) plot3(x,y,t)
+b) plot(x,y,t)
+c) disp
+d) stem(x,y)
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Functions» Next - MATLAB Questions and Answers – Statistics 

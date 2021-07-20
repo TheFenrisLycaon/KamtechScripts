@@ -1,0 +1,111 @@
+1. Aircraft fuel weight does not include reserved fuel fraction.
+a) True
+b) False
+b
+2. Total fuel weight of aircraft is ______
+a) mission fuel only
+b) sum of mission fuel, reserve fuel and trapped fuel
+c) sum of trapped and mission fuel
+d) reserved fuel only
+b
+3. Choose the correct statement based on fuel weight.
+a) Fuel required is solely based on mission profile
+b) Fuel weight is independent of SFC of engine
+c) The required amount of the fuel for mission depends on aerodynamics, SFC, mission itself etc
+d) Fuel requirement is not affected by any factors
+c
+4. Is it mandatory for Aircraft to carry reserved fuel?
+a) Yes
+b) No
+c) Depends upon the type of aircraft
+d) Depends upon manufacture
+a
+5. The typical method for determining fuel weight used is called as _____
+a) fuel-fraction method
+b) fuel-invert method
+c) fuel interpolation
+d) fuel fraction mining
+a
+6. What is the working principle of ‘fuel-fraction’ method?
+a) Division of mission profile into number of phases and finding individual phase fuel fraction
+b) Division of mission profile into 3 phases only
+c) Calculating fuel fraction for each stage
+d) Assuming any value for fuel fraction
+a
+7. In A/C, we provide reserve fuel for _____
+a) loiter maneuver
+b) weight reduction
+c) to increase weight
+d) there is no provision for it
+a
+8. According to FAA, general aviation aircraft requires reserved fuel in terms of _____
+a) additional cruise fuel of half hour
+b) additional climb fuel
+c) no provision is mentioned in FAA
+d) additional taxi-way fuel of three hours
+a
+9. Determine the corrections or otherwise of the following Assertion [A] and reason [R]:
+Assertion [A]: Total fuel volume of aircraft is divided into mission or used fuel, reserve fuel and trapped fuel.
+Reason[R]: Depending on type of aircraft, fuel fraction for each category will be different.
+a) Both [A] and [R] are true and [R] is the correct reason for [A] 
+b) Both [A] and [R] are true but [R] is not the correct reason for [A] 
+c) [A] is true but [R] is false
+d) [A] is false but [R] is true
+b
+10. An airliner with take-off gross weight of 2100kg is cruising with fuel weight fraction of 0.280. Then, what will be the weight of fuel (Wf)?
+a) 588kg
+b) 588lb
+c) 90kg
+d) 28lb
+a
+Aircraft take-off gross weight W0 = 2100kg,
+Fuel weight fraction = Wf/W0 = 0.28
+Hence, fuel weight Wf = (Wf/W0) * W0 = 0.28*2100 = 588kg.
+11. A prop-driven aircraft having fuel weight of 650kg. Now, aircraft is taxing on runway, after which it has fuel fraction of 0.975. Determine fuel used during taxing of aircraft, if W0 = 5000kg.
+a) 225kg
+b) 125kg
+c) 221kg
+d) 125.65lb
+b
+Aircraft take-off gross weight W0 = 5000kg,
+Fuel weight fraction after taxi = Wtaxi/W0 = 0.975
+Here, there is no provision of reserved fuel is mentioned. So, we are neglecting reserve fuel fraction.
+Now, from fuel fraction method,
+Used fuel weight fraction is Wf /W0 = 1 – (Wtaxi/W0)
+= 1 – 0.975 = 0.025
+Hence, fuel used during taxing mission = Wf = W0 * 0.025 = 125kg.
+12. A jet transport aircraft has fuel storage of 1200kg. It has completed taxi phase and preparing for take-off. At the end of the taxing, it has fuel fraction of 0.98. Determine how much fuel is available after taxing. Given take-off gross weight is 9000kg.
+a) 1020kg
+b) 180kg
+c) 1800kg
+d) 2240lb
+a
+Aircraft take-off gross weight W0 = 9000kg, Fuel storage = 1200kg
+Fuel weight fraction after taxi = Wtaxi/W0 = 0.98
+Here, there is no provision of reserved fuel is mentioned so, we are neglecting reserve fuel fraction.
+Now, from fuel fraction method,
+Used fuel weight fraction is Wf / W0 = 1 – (Wtaxi/W0)
+= 1 – 0.98 = 0.02
+Hence, fuel used during taxing mission = Wf = W0 * 0.02 = 180kg.
+Now, remaining fuel weight = fuel storage – fuel used during taxi
+= 1200 – 180 = 1020kg.
+13. Determine the corrections or otherwise of the following assertion [A] and reason [R]:
+Assertion [A]: Fuel consumption is more for low level, high speed flight mission.
+Reason[R]: At low altitude, the aerodynamic efficiency decreases drastically which affects the engine efficiency and range as well. To maintain cruise flight more fuel consumption is required.
+a) Both [A] and [R] are true and [R] is the correct reason for [A] 
+b) Both [A] and [R] are true but [R] is not the correct reason for [A] 
+c) [A] is true but [R] is false
+d) [A] is false but [R] is true
+a
+14. Mission leg fuel fraction is defined by _____
+a) weight at end of the phase to that of at the begin
+b) weight at end of the phase to that of at the begin
+c) weight of phase at the begin
+d) weight at end of the phase
+a
+Sanfoundry Global Education & Learning Series – Aircraft Design.
+To practice all areas of Aircraft Design, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aircraft Design Questions and Answers – Conceptual Sketch Sizing – Empty-Weight Estimation» Next - Aircraft Design Questions and Answers – Conceptual Sketch Sizing – Fuel-Fraction Estimation-2 

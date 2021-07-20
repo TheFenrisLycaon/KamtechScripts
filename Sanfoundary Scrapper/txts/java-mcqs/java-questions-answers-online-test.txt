@@ -1,0 +1,86 @@
+1. Which of the interface contains all the methods used for handling thread related operations in Java?
+a) Runnable interface
+b) Math interface
+c) System interface
+d) ThreadHandling interface
+a
+2. Which of these class is used to make a thread?
+a) String
+b) System
+c) Thread
+d) Runnable
+c
+3. Which of this interface is implemented by Thread class?
+a) Runnable
+b) Connections
+c) Set
+d) MapConnections
+a
+4. Which of these methods of a Thread class is used to suspend a thread for a period of time?
+a) sleep()
+b) terminate()
+c) suspend()
+d) stop()
+a
+5. What will be the output of the following Java program?
+    class newthread implements Runnable     {	Thread t1,t2;        newthread()         {            t1 = new Thread(this,"Thread_1");            t2 = new Thread(this,"Thread_2");            t1.start();            t2.start();	}	public void run()         {            t2.setPriority(Thread.MAX_PRIORITY);		    System.out.print(t1.equals(t2));        }        }    class multithreaded_programing     {        public static void main(String args[])         {            new newthread();                }    }
+a) true
+b) false
+c) truetrue
+d) falsefalse
+d
+Output:
+Join [email protected]
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+falsefalse
+6. What will be the output of the following Java program?
+    class newthread implements Runnable     {	Thread t;        newthread()         {            t = new Thread(this,"New Thread");            t.start();	}	public void run()        {            t.setPriority(Thread.MAX_PRIORITY);	            System.out.println(t);	}    }    class multithreaded_programing     {        public static void main(String args[])         {            new newthread();                }    }
+a) Thread[New Thread,0,main] 
+b) Thread[New Thread,1,main] 
+c) Thread[New Thread,5,main] 
+d) Thread[New Thread,10,main] 
+d
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+Thread[New Thread,10,main]
+7. What will be the output of the following Java program?
+    class newthread implements Runnable     {	Thread t;        newthread()         {            t = new Thread(this,"My Thread");            t.start();	}    }    class multithreaded_programing     {        public static void main(String args[])         {            new newthread();                }    }
+a) My Thread
+b) Thread[My Thread,5,main] 
+c) Compilation Error
+d) Runtime Error
+c
+Output:
+$ javac multithreaded_programing.java
+The type newthread must implement the inherited abstract method Runnable.run()
+8. What will be the output of the following Java program?
+    class newthread implements Runnable     {	Thread t;        newthread()         {            t = new Thread(this,"My Thread");            t.start();	}	public void run()         {	    System.out.println(t.getName());	}    }    class multithreaded_programing     {        public static void main(String args[])         {            new newthread();                }    }
+a) My Thread
+b) Thread[My Thread,5,main] 
+c) Compilation Error
+d) Runtime Error
+a
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+My Thread
+9. What will be the output of the following Java program?
+    class newthread implements Runnable     {	Thread t;        newthread()         {            t = new Thread(this,"My Thread");            t.start();	}	public void run()         {	    System.out.println(t);	}    }    class multithreaded_programing     {        public static void main(String args[])         {            new newthread();                }    }
+a) My Thread
+b) Thread[My Thread,5,main] 
+c) Compilation Error
+d) Runtime Error
+b
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+Thread[My Thread,5,main]
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+ Here’s the list of Best Reference Books in Java Programming Language.
+To practice  all areas of Java for online tests, here is complete set on 1000+ Multiple Choice Questions and Answers on Java.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.lang –  Class» Next - Java Questions & Answers – Environment Properties 

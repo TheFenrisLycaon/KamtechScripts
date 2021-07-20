@@ -1,0 +1,96 @@
+1. Which of the following are considered as Mid Level design patterns?
+a) Iterator Pattern
+b) Collection Pattern
+c) All of the mentioned
+d) None of the mentioned
+c
+2. Which of the following can be included as the collection?
+a) A Set
+b) List
+c) Array
+d) All of the mentioned
+d
+3. What does collection iteration means?
+a) It is iteration over the collection
+b) Traversal and access of each element in a collection
+c) All of the mentioned
+d) None of the mentioned
+c
+4. Which among these are the iteration control facilities?
+a) Initialize
+b) Information Hiding
+c) Multiple iterations
+d) All of the mentioned
+a
+5. Which of these are necessary requirements for Iteration mechanism?
+a) Initialize
+b) Completion Test
+c) Information Hiding
+d) Access Current
+c
+6. Which of these prepare iteration mechanism for next traversal?
+a) initialize
+b) Information Hiding
+c) Advance current Test
+d) Flexibility
+a
+7. Which of the possibilities for where an iteration mechanism resides?
+a) Programming Language
+b) Collection
+c) Iterator
+d) All of the mentioned
+d
+8. Interface control mechanism can work in which of these ways?
+a) Internal
+b) External
+c) Peripheral
+d) Internal & External
+d
+9. An iteration mechanism which provides collection element as directed by the client?
+a) Internal
+b) External
+c) Collection
+d) None of the mentioned
+a
+10. Which of the following is true about built-in internal iteration control mechanism?
+a) The client must process for each collection iteration and give it to the iteration mechanism
+b) The iteration mechanism then traverses the collection applies the processing package
+c) Lack of flexibility is the biggest drawback
+d) All of the mentioned
+d
+11. Which of the following is true about built-in external iteration control mechanism?
+a) The collection might provide with the following operations to control iterations- reset,get next,has More
+b) Reset initializes the iteration
+c) Get Next obtains the current value and the advance to the next element
+d) All of the mentioned
+d
+12. Placing the iteration mechanism in iterators separate from collection must satisfy which of the following?
+a) Multiple Simultaneous Iterations
+b) Collection Interface Simplicity
+c) All of the mentioned
+d) None of the mentioned
+c
+13. Which of the following is not correct regarding Multiple simultaneous iterations?
+a) Each iterator can be responsible for managing one traversal of its associated collection independently of all other iterators
+b) Clients can then use several iterators at once to traversal the iterations in various ways simultaneously
+c) The iteration control interface is in iterator and not the collection
+d) None of the mentioned
+c
+14. Which of the following is correct about Collection interface simplicity?
+a) Each iterator can be responsible for managing one traversal of its associated collection independently of all other iterators
+b) Clients can then use several iterators at once to traversal the iterations in various ways simultaneously
+c) The iteration control interface is in iterator and not the collection
+d) None of the mentioned
+c
+15. An iteration mechanism is able to tolerate changes to its associated collection only when collection meets which of the following?
+a) Fault Tolerance
+b) Iteration Termination
+c) Complete Traversal
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Software Architecture and Design.
+To practice all areas of Software Design and Architecture,  here is complete set of 1000+ Multiple Choice Questions and Answers on Software Design and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Software Design Questions and Answers – Layered Architectures» Next - Software Design Questions and Answers – Mid-Level Design Pattern Categories and Broker Pattern 

@@ -1,0 +1,67 @@
+1. The mongo program can evaluate JavaScript expressions using the command line ________ option.
+a) –opt
+b) –js
+c) –eval
+d) None of the mentioned
+c
+2. Point out the correct statement.
+a) The mongostat diagnostic tool, when running with the –mode need to be able to reach all components of a cluster
+b) All shards in a cluster need to be able to communicate with all other shards to facilitate chunk and balancing operations
+c) Authorization does not control or affect access to this interface
+d) None of the mentioned
+b
+3. If a .mongorc.js file exists, the mongo shell will evaluate a __________ file before starting.
+a) .mongorc.js
+b) .mongo.js
+c) .mongorc.jscript
+d) all of the mentioned
+a
+4. On _________ mongo.exe reads the .mongorc.js file from %HOME%.mongorc.js.
+a) Windows
+b) Linux
+c) Mac
+d) Solaris
+a
+5. Point out the wrong statement.
+a) REST does provide administrative access, and its accessibility represents a vulnerability in a secure environment
+b) REST API does provide any support for insert, update, or remove operations
+c) The net.http.RESTInterfaceEnabled configuration makes the http status interface, which is read-only by default, fully interactive
+d) None of the mentioned
+b
+6. The HTTP interface is always available on the port numbered _________ greater than the primary mongod port.
+a) 1000
+b) 2000
+c) 3000
+d) None of the mentioned
+a
+7. The _______ API to MongoDB provides additional information and write access on top of the HTTP status interface.
+a) Web
+b) REST
+c) RestFul
+d) All of the mentioned
+b
+8. ________ instances provide query routing for sharded clusters.
+a) mongod
+b) mongos
+c) netstats
+d) selectindexes
+b
+9. Config servers, host the _______ database that stores metadata for sharded clusters.
+a) head
+b) master
+c) config
+d) none of the mentioned
+c
+10. Config servers listen for connections on port __________
+a) 27011
+b) 27019
+c) 27107
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Network Exposure and Security» Next - MongoDB Questions and Answers – Auditing 

@@ -1,0 +1,91 @@
+1. What does the total number of pixels in the region defines?
+a) Perimeter
+b) Area
+c) Intensity
+d) Brightness
+b
+2. What is the unit of compactness of a region?
+a) Meter
+b) Meter2
+c) No units
+d) Meter-1
+c
+3. For which of the following regions, compactness is minimal?
+a) Rectangle
+b) Square
+c) Irregular
+d) Disk
+d
+4. Compactness is insensitive to orientation.
+a) True
+b) False
+a
+5. Which of the following measures are not used to describe a region?
+a) Mean and median of grey values
+b) Minimum and maximum of grey values
+c) Number of pixels alone
+d) Number of pixels above and below mean
+c
+6. We cannot use normalized area as one of the region descriptor.
+a) True
+b) False
+b
+7. What is the study of properties of a figure that are unaffected by any deformation?
+a) Topology
+b) Geography
+c) Statistics
+d) Deformation
+a
+8. On which of the following operation of an image, the topology of the region changes?
+a)  Stretching
+b) Rotation
+c) Folding
+d) Change in distance measure
+c
+9. Topological properties don’t depend on the distance measures.
+a) True
+b) False
+a
+10. What is the Euler number of the image shown below?
+a) 0
+b) 1
+c) 2
+d) -1
+d
+11. What is the Euler number of a region with polygonal network containing V,Q and F as the number of vertices, edges and faces respectively?
+a) V+Q+F
+b) V-Q+F
+c) V+Q-F
+d) V-Q-F
+b
+		V-Q+F=C-H
+Where C,H represents the number of connected components and number of holes in the region respectively. So, the Euler number E is given by V-Q+F.
+12. What is the Euler number of the region shown in the figure below?
+a) 1
+b) -2
+c) -1
+d) 2
+b
+E=V-Q+F=7-11+2=-2.
+13. The texture of the region provides measure of which of the following properties?
+a) Smoothness alone
+b) Coarseness alone
+c) Regularity alone
+d) Smoothness, coarseness and regularity
+d
+14. Structural techniques deal with the arrangement of image primitives.
+a) True
+b) False
+a
+15. Which of the following techniques is based on the Fourier transform?
+a) Structural
+b) Spectral
+c) Statistical
+d) Topological
+b
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice MCQs on all areas of Digital Image Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions And Answers – Color Models» Next - Digital Image Processing Questions And Answers – Boundary Descriptors 

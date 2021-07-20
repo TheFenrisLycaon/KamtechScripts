@@ -1,0 +1,73 @@
+1. What is a recirculating register?
+a) Serial out connected to serial in
+b) All Q outputs connected together
+c) A register that can be used over again
+d) Parallel out connected to Parallel in
+a
+2. When is it important to use a three-state buffer?
+a) When two or more outputs are connected to the same input
+b) When all outputs are normally HIGH
+c) When all outputs are normally LOW
+d) When two or more outputs are connected to two or more inputs
+a
+3. A bidirectional 4-bit shift register is storing the nibble 1110. Its input is LOW. The nibble 0111 is waiting to be entered on the serial data-input line. After two clock pulses, the shift register is storing ________
+a) 1110
+b) 0111
+c) 1000
+d) 1001
+d
+
+Stored nibble | waiting nibble
+         0111 | 1110, Initially  
+          111 | 1100, 1st pulse
+           11 | 1001, 2nd pulse.
+4. In a parallel in/parallel out shift register, D0 = 1, D1 = 1, D2 = 1, and D3 = 0. After three clock pulses, the data outputs are ________
+a) 1110
+b) 0001
+c) 1100
+d) 1000
+b
+5. The group of bits 10110111 is serially shifted (right-most bit first) into an 8-bit parallel output shift register with an initial state 11110000. After two clock pulses, the register contains ______________
+a) 10111000
+b) 10110111
+c) 11110000
+d) 11111100
+d
+6. By adding recirculating lines to a 4-bit parallel-in serial-out shift register, it becomes a ________ ________ and ________ out register.
+a) Parallel-in, serial, parallel
+b) Serial-in, parallel, serial
+c) Series-parallel-in, series, parallel
+d) Bidirectional in, parallel, series
+a
+7. What type of register would have a complete binary number shifted in one bit at a time and have all the stored bits shifted out one at a time?
+a) Parallel-in Parallel-out
+b) Parallel-in Serial-out
+c) Serial-in Serial-out
+d) Serial-in Parallel-out
+c
+8. In a 4-bit Johnson counter sequence, there are a total of how many states or bit patterns?
+a) 1
+b) 3
+c) 4
+d) 8
+d
+		           Total Number of Used states = 2N = 2*4 = 8
+		            Total Number of Unused states = 16 – 8 = 8.
+9. If a 10-bit ring counter has an initial state 1101000000, what is the state after the second clock pulse?
+a) 1101000000
+b) 0011010000
+c) 1100000000
+d) 0000000000
+b
+10. How much storage capacity does each stage in a shift register represent?
+a) One bit
+b) Two bits
+c) Four bits
+d) Eight bits
+a
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – Universal Shift Registers» Next - Digital Circuits Questions and Answers – Ring Counter 

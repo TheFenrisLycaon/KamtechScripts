@@ -1,0 +1,79 @@
+1. Find the ID, name, dept name, salary for instructors whose salary is greater than $80,000 .
+a) {t | t ε instructor ∧ t[salary] > 80000}
+b) Э t ∈ r (Q(t))
+c) {t | Э s ε instructor (t[ID] = s[ID]∧ s[salary] > 80000)}
+d) None of the mentioned
+a
+2. A query in the tuple relational calculus is expressed as:
+a) {t | P() | t}
+b) {P(t) | t }
+c) {t | P(t)}
+d) All of the mentioned
+c
+3.
+{t | Э s ε instructor (t[name] = s[name]
+∧ Э u ε department (u[dept name] = s[dept name]
+∧ u[building] = “Watson”))}
+Which of the following best describes the query?
+a) Finds the names of all instructors whose department is in the Watson building
+b) Finds the names of all department is in the Watson building
+c) Finds the name of the dapartment whose instructor and building is Watson
+d) Returns the building name of all the departments
+a
+4. Which of the following symbol is used in the place of except?
+a) ^
+b) V
+c) ¬
+d) ~
+c
+5. “Find all students who have taken all courses offered in the Biology department.” The expressions that matches this sentence is :
+a) Э t ε r (Q(t))
+b) ∀ t ε r (Q(t))
+c) ¬ t ε r (Q(t))
+d) ~ t ε r (Q(t))
+b
+6. Which of the following is the comparison operator in tuple relational calculus
+a) ⇒
+b)   =
+c) ε
+d) All of the mentioned
+b
+7. An expression in the domain relational calculus is of the form
+a) {P(x1, x2, . . . , xn) | < x1, x2, . . . , xn >  }
+b) {x1, x2, . . . , xn |  < x1, x2, . . . , xn >  }
+c) { x1, x2, . . . , xn  | x1, x2, . . . , xn}
+d) {< x1, x2, . . . , xn > | P(x1, x2, . . . , xn)}
+d
+8. Find the names of all instructors in the Physics department together with the course id of all courses they teach:
+a) 
+{< c > | Э s (< c, a, s, y, b, r, t >ε section
+∧s = “Fall” ∧ y = “2009”
+∨Эu (< c, a, s, y, b, r, t >ε section
+∧s = “Spring” ∧ y = “2010”
+b) 
+{< n, c > | Э i, a (< i, c, a, s, y > ε teaches
+∧ Э d, s (< i, n, d, s > ε instructor ∧ d = “Physics”))}
+c) 
+{< n > | Э i, d, s (< i, n, d, s > ε instructor ∧ s > 80000)}
+d) 
+{< i, n, d, s > | < i, n, d, s > ε instructor ∧ s > 80000}
+b
+  
+9. In domain relaional calculus “there exist” can be expressed as
+a) (P1(x))
+b) (P1(x)) Э x
+c) V x (P1(x))
+d) Э x (P1(x))
+d
+10. A set of possible data values is called
+a) Attribute
+b) Degree
+c) Tuple
+d) Domain
+d
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice  all areas of Database for tests, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Relational Algebra» Next - Database Questions and Answers – The Entity-Relationship Model 

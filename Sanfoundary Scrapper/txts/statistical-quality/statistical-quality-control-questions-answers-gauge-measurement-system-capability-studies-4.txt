@@ -1,0 +1,70 @@
+1. What is reproducibility?
+a) Variability due to different operators using the gauge or different time periods, or environments
+b) Variability due to error in process
+c) Variability reflecting the basic inherent precision of the gauge itself
+d) Variability reflecting the basic inherent precision of the process
+a
+2. What is repeatability?
+a) Variability due to different operators using the gauge or different time periods, or environments
+b) Variability due to error in process
+c) Variability reflecting the basic inherent precision of the gauge itself
+d) Variability reflecting the basic inherent precision of the process
+c
+3. What can we write the variance in measurement error or gauge in the terms of variance in repeatability, and variance of reproducibility?
+a) \(\sigma_{gauge}^2=\sigma_{repeatability}^2-\sigma_{reproducibility}^2\) 
+b) \(\sigma_{gauge}^2=\sigma_{repeatability}^2+\sigma_{reproducibility}^2\) 
+c) \(\sigma_{gauge}^2=\sigma_{repeatability}+\sigma_{reproducibility}^2\) 
+d) \(\sigma_{gauge}^2=\sigma_{repeatability}-\sigma_{reproducibility}^2\) 
+b
+\(\sigma_{gauge}^2=\sigma_{repeatability}^2+\sigma_{reproducibility}^2\). 
+4. Which of these is called an R & R study?
+a) Experiment used to measure components of \(\sigma_{gauge}^2\) 
+b) Experiment used to measure components of \(\sigma_{Total}^2\) 
+c) Experiment used to measure components of \(\sigma_{P}^2\) 
+d) Experiment used to measure components of \(\sigma_{repeatability}^2\) 
+a
+5. What is the other name of random effects model analysis of variance?
+a) ANOVA
+b) RENOVA
+c) FNOVA
+d) MENOVA
+a
+Join [email protected]
+6. If the value of the variance of the product variability increases, what will be the effect on the variance of the gauge?
+a) Increase
+b) Decrease
+c) No change
+d) Can’t be predicted (no dependency over each other)
+d
+7. If the variance of the total observed measurement is constant and the gauge capability ratio ρ_M is increased, what will be change in the gauge measurement variance?
+a) Increase
+b) Decrease
+c) No change
+d) Can’t be predicted (no dependency over each other)
+a
+\(ρ_M=\left(\frac{\sigma_{gauge}^2}{\sigma_{Total}^2}\right)\) 
+So if the variance of the total observed measurement is kept constant with the gauge capability ratio ρM increasing, the variance of gauge measurement will be increased.
+8. If the variance of product variability is increased while keeping the total observed measurement variance constant, what will be effect on the gauge capability ratio ρP?
+a) Increase
+b) Decrease
+c) No change
+d) Can’t be predicted (no dependency over each other)
+a
+ρP∝ σp2
+So, the gauge capability ratio ρP will increase with increase with increase in the variance in product variability σp2.
+9. If the value of product variance is increased with the variance of the total observed measurement kept constant, the value of the gauge capability ratio ρM increases.
+a) True
+b) False
+b
+\(\sigma_{Total}^2 = \sigma_{gauge}^2 + \sigma_P^2; ρ_M=\frac{\sigma_{gauge}^2}{\sigma_{Total}^2}\) 
+Putting the equations together, we get to know that the value of ρM increases with decrease in the product variance.
+10. A DR of value 5.89 indicates an adequate measurement system.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Gauge and Measurement System Capability Studies – 3» Next - Statistical Quality Control Questions and Answers – Time-Weighted – Cumulative Sum Control Chart – 1 

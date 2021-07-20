@@ -1,0 +1,67 @@
+1. The enabled setting for mongod and mongos instances disables the __________ status page.
+a) home
+b) primary
+c) secondary
+d) none of the mentioned
+a
+2. Point out the correct statement.
+a) The status interface is write-only by default
+b) Default port for the status page is 28117
+c) Authentication does not control or affect access to this interface
+d) None of the mentioned
+c
+3. The net.http.RESTInterfaceEnabled setting for mongod enables a fully interactive administrative __________ interface, which is disabled by default.
+a) Restful
+b) Rest
+c) WebService
+d) All of the mentioned
+b
+4. The ________ setting for mongod and mongos instances limits the network interfaces on which MongoDB programs will listen for incoming connections.
+a) bindIpmongo
+b) bind
+c) bindIp
+d) revokeip
+c
+5. Point out the wrong statement.
+a) Changing the port does not meaningfully reduce risk or limit exposure
+b) You can use the mongod –bind_ip and mongos –bind_ip option on the command line at run time to limit the network accessibility of a MongoDB program
+c) The net.http.RESTInterfaceEnabled configuration makes the http status interface, which is read-only by default, fully interactive
+d) None of the mentioned
+d
+6. The ________ setting for mongod and mongos instances changes the main port on which the mongod or mongos instance listens for connections.
+a) portp
+b) port
+c) portIP
+d) none of the mentioned
+b
+7. On Linux systems, the ________ interface provides access to the underlying netfilter firewall.
+a) ssip
+b) iptables
+c) dns
+d) all of the mentioned
+b
+8. On Windows systems _________ command line interface provides access to the underlying Windows Firewall.
+a) netsh
+b) netstat
+c) netln
+d) SelectIndexes
+a
+9. MongoDB users who use VPNs use ________ rather than IPSEC VPNs for performance issues.
+a) TTS
+b) SSL
+c) LTS
+d) None of the mentioned
+b
+10. By default, the policy in ___________ Firewall allows all outbound connections and blocks all incoming connections.
+a) Windows
+b) Linux
+c) Mac
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Collection-Level Access Control» Next - MongoDB Questions and Answers – Security and MongoDB API Interfaces 

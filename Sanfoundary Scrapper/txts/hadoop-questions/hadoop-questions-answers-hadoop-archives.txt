@@ -1,0 +1,83 @@
+1. _________ is the name of the archive you would like to create.
+a) archive
+b) archiveName
+c) name
+d) none of the mentioned
+b
+2. Point out the correct statement.
+a) A Hadoop archive maps to a file system directory
+b) Hadoop archives are special format archives
+c) A Hadoop archive always has a *.har extension
+d) All of the mentioned
+d
+3. Using Hadoop Archives in __________ is as easy as specifying a different input filesystem than the default file system.
+a) Hive
+b) Pig
+c) MapReduce
+d) All of the mentioned
+c
+4. The __________ guarantees that excess resources taken from a queue will be restored to it within N minutes of its need for them.
+a) capacitor
+b) scheduler
+c) datanode
+d) none of the mentioned
+b
+5. Point out the wrong statement.
+a) The Hadoop archive exposes itself as a file system layer
+b) Hadoop archives are immutable
+c) Archive rename, deletes and creates return an error
+d) None of the mentioned
+d
+6. _________ is a pluggable Map/Reduce scheduler for Hadoop which provides a way to share large clusters.
+a) Flow Scheduler
+b) Data Scheduler
+c) Capacity Scheduler
+d) None of the mentioned
+c
+Join Sanfoundry@YouTube
+7. Which of the following parameter describes destination directory which would contain the archive?
+a) -archiveName <name>
+b) <source>
+c) <destination>
+d) none of the mentioned
+c
+8. _________ identifies filesystem path names which work as usual with regular expressions.
+a) -archiveName <name>
+b) <source>
+c) <destination>
+d) none of the mentioned
+d
+9.  __________ is the parent argument used to specify the relative path to which the files should be archived to
+a) -archiveName <name>
+b) -p <parent_path>
+c) <destination>
+d) <source>
+b
+10. Which of the following is a valid syntax for hadoop archive?
+a)
+ hadooparchive [ Generic Options ] archive
+    -archiveName <name>
+    [-p <parent>]
+    <source>
+    <destination>
+b)
+ hadooparch [ Generic Options ] archive
+    -archiveName <name>
+    [-p <parent>]
+    <source>
+    <destination>
+c)
+ hadoop [ Generic Options ] archive
+    -archiveName <name>
+    [-p <parent>]
+    <source>
+    <destination>
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Data Flow» Next - Hadoop Questions and Answers – Hadoop I/O 

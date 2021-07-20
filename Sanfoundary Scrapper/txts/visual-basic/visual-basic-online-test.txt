@@ -1,0 +1,94 @@
+1. String comparison in Visual basic is case-sensitive.
+a) True
+b) False
+a
+2. __________ is used to converting a string to uppercase.
+a) toUpper
+b) toLower
+c) toUpperCase
+d) toLowerCase
+a
+3. The __________ operator reverses the value of the condition.
+a) AND
+b) OR
+c) NOT
+d) NAND
+c
+4. If the txtPrice control contains the value 75, what value will the variable=Decimal.TryParse (txtPrice.Text,decPrice) method return?
+a) False
+b) True
+c) 75
+d) 75.00
+b
+5. If the txtPrice control contains the value 75, what value will the Decimal.TryParse (txtPrice.Text,decPrice) method return?
+a) False
+b) True
+c) 75
+d) 75.00
+d
+Join Sanfoundry@YouTube
+6. What will be the output of the following Visual Basic code, If the intnumber variable is 90?
+If intnumber<=100 Then
+   Intnumber=intnumber*2;
+Else
+   Intnumber=intnumber*3;
+EndIf
+a) 156
+b) 234
+c) 180
+d) 270
+c
+7. What will be the output of the following Visual Basic code, If the intnumber variable is 110?
+If intnumber<=100 Then
+   Intnumber=intnumber*2;
+Else
+   Intnumber=intnumber*3;
+EndIf
+a) 156
+b) 270
+c) 180
+d) 330
+d
+8. Which is used to check both the conditions in a given if statement?
+a) OrElse
+b) AndAlso
+c) NOT
+d) OR
+b
+If str<>”p” AndAlso str<>”P” Then
+   Var=”Pass”
+Else
+   Var=”Fail”
+EndIf
+In the above example if both the condition is True then if part is executed otherwise, else part is executed, i.e. if both the condition that is str is not equal to “p” and str is not equal to “P” then only if part is executed, otherwise else part is executed.
+9. Which is used to check one among both the conditions in a given if statement?
+a) OrElse
+b) AndAlso
+c) NOT
+d) OR
+a
+If str<>”p” OrElse str<>”P” Then
+   Var=”Pass”
+Else
+   Var=”Fail”
+EndIf
+In the above example if any one of the condition is True then if part is executed otherwise, else part is executed, i.e. if any one of the condition that is either str is not equal to “p” or str is not equal to “P” then only if part is executed, otherwise else part is executed.
+10. In the following Visual Basic code, what will be in msg, if str contains “ik”?
+Dim str as String
+Dim  msg as String
+If str.toUpper=”IK” 
+   msg=”Hi”
+Else
+   msg=”Bye”
+EndIf
+a) Hi
+b) Bye
+c) Compiler Error
+d) Logical Error
+a
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic for online tests,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Selection Structures – Logical Operators» Next - Visual Basic Questions and Answers – Nested Selection Structures 

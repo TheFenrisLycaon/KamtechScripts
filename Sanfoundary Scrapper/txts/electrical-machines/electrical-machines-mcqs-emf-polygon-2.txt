@@ -1,0 +1,80 @@
+1. The winding’s for a 3-phase alternator are:
+
+(i) 36 slots, 4 poles, span 1 to 8 
+(ii) 72 slots, 6 poles, span 1 to 10
+(iii) 96 slots, 4 poles, span 1 to 21
+The winding’s having pitch factor of more than 0.97 are __________
+a) (i) and (ii) only
+b) (ii) and (iii) only
+c) (i) and (iii) only
+d) (i),(ii) and (iii)
+c
+(i) Slots per pole = 36/4=9, for a coil span of 8 slots, the coil is short pitched by 1 slot and the chording angle is ε=γ = 20° ⇒ Kp=cos10°=0.985
+(ii) Slots per pole = 72/6=12, for a coil span of 10 slots, the coil is short pitched by 2 slots and the chording angle is ε=2γ and γ=180/12 ⇒ ε = 30° ⇒  Kp=cos15°=0.9659
+(iii)  Slots per pole = 96/4=24, for a coil span of 21 slots, the coil is short pitched by 3 slots and the chording angle is ε=3γ and γ=180/24 ⇒ ε = 24.5° ⇒  Kp=cos12.25°=0.97723. 
+2. In 48 slot, 4-pole,3 phase alternator, the coil-span is 10. Its distribution and pitch factors are respectively ____________
+a) 0.9717,0.966
+b) 0.9822, 0.9814
+c) 0.9577, 0.9814
+d) 0.9577, 0.966
+d
+We know, Kd=(sin(qγ/2))/qsin(γ/2), here q=48/4∗3 = 4 ⇒ Kd=0.957662. 
+3. A 3-phase, 4-pole alternator has 48 stator slots carrying a 3-phase distributed winding. Each coil of the winding is short chorded by one slot pitch. The winding factor is given by ______________
+a) (cos7.5)/16
+b) (cot7.5)/8
+c) 1/(8sin7.5)
+d) (cot7.5)/16
+b
+coil of the winding is short chorded by one slot pitch ⇒ ε=γ=15°, Kw=Kp∗Kd = cos7.5(sin(4∗15/2))/(4∗sin(15/2)) = (cot7.5)/8. 
+4. The chording angle for eliminating 5th harmonic should be ____________
+a) 30°
+b) 34°
+c) 36°
+d) 35°
+c
+5. Which of the following statements are true?
+
+(i) breadth factor for third harmonic kd3 is more than that for fundamental kd1
+(ii) kd3 < kd1
+(iii) kd3 may be less or more than kd1 depending upon the number of slots and poles
+(iv) coil-span factor for third harmonic kp3>kp1 (coil span factor for fundamental)
+(v) kp3 < kp1
+(vi) kp3 may be less or more than kp1 depending upon the number of slots and poles
+a) (ii), (v)
+b) (i), (iv)
+c) (iii), (vi)
+d) (i), (iii), (iv), (vi)
+a
+6. A 6-pole alternator with 36 slots carries a 2-phase distributed winding. Each coil is short pitched by one slot. The winding factor is given by _____________
+a) cot15°/3√2
+b) cot15°/4
+c) cot15°/2√2
+d) cot15°/4
+a
+ Kw=Kp∗Kd=cot15°/3√2. 
+7. For eliminating nth harmonic from the EMF generated in the phase of a 3-phase alternator, the chording angle should be ______________
+a) n∗full pitch
+b) (1/n)∗full pitch
+c) (2/n)∗full pitch
+d) (3/n)∗full pitch
+a
+8. Which among the given harmonics are called belt harmonics?
+a) 5, 7, 11, 13
+b) 3, 6, 9, 12
+c) 5, 6, 11, 12
+d) 7, 11, 13, 15
+a
+9. Machine A has 60° phase spread and machine B has 120° phase spread. Both the machines have uniformly distributed winding. The ratio of distribution factors of machine A to machine B is ____________
+a) 0.866
+b) 1.1
+c) 1.55
+d) 1.155
+c
+kdB=(sinσ/2)/σ/2, σ=120° ⇒ kdB=0.827
+thus, kdA/kdB=1.155. 
+Sanfoundry Global Education & Learning Series – Electrical Machines.
+To practice all areas of Electrical Machines, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Electrical Machines Questions and Answers – EMF Polygon – 1» Next - Electrical Machines Questions and Answers – Production of Torque in Non-Salient Pole Machines 

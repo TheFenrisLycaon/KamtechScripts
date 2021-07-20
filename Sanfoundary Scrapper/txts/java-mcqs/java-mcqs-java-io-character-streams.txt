@@ -1,0 +1,69 @@
+1. Which of these stream contains the classes which can work on character stream?
+a) InputStream
+b) OutputStream
+c) Character Stream
+d) All of the mentioned
+c
+2. Which of these class is used to read characters in a file?
+a) FileReader
+b) FileWriter
+c) FileInputStream
+d) InputStreamReader
+a
+3. Which of these method of FileReader class is used to read characters from a file?
+a) read()
+b) scanf()
+c) get()
+d) getInteger()
+a
+4. Which of these class can be used to implement the input stream that uses a character array as the source?
+a) BufferedReader
+b) FileReader
+c) CharArrayReader
+d) FileArrayReader
+c
+5. Which of these classes can return more than one character to be returned to input stream?
+a) BufferedReader
+b) Bufferedwriter
+c) PushbachReader
+d) CharArrayReader
+c
+Join Sanfoundry@YouTube
+6. What will be the output of the following Java program?
+    import java.io.*;    class Chararrayinput     {        public static void main(String[] args)         {	    String obj  = "abcdef";            int length = obj.length();            char c[] = new char[length];            obj.getChars(0,length,c,0);            CharArrayReader input1 = new CharArrayReader(c);            CharArrayReader input2 = new CharArrayReader(c, 0, 3);            int i;            try             {		while ((i = input1.read()) != -1)                 {                    System.out.print((char)i);                }       	    }             catch (IOException e)             {	        // TODO Auto-generated catch block                e.printStackTrace();	    }	}    }
+a) abc
+b) abcd
+c) abcde
+d) abcdef
+d
+Output:
+$ javac Chararrayinput.java
+$ java Chararrayinput
+abcdef
+7. What will be the output of the following Java program?
+    import java.io.*;    class Chararrayinput     {        public static void main(String[] args)         {	    String obj  = "abcdef";            int length = obj.length();            char c[] = new char[length];            obj.getChars(0, length, c, 0);            CharArrayReader input1 = new CharArrayReader(c);            CharArrayReader input2 = new CharArrayReader(c, 0, 3);            int i;            try             {		while ((i = input2.read()) != -1)                 {                    System.out.print((char)i);                }       	    }             catch (IOException e)             {	        // TODO Auto-generated catch block                e.printStackTrace();	    }	}    }
+a) abc
+b) abcd
+c) abcde
+d) abcdef
+a
+Output:
+$ javac Chararrayinput.java
+$ java Chararrayinput
+abc
+8. What will be the output of the following Java program?
+    import java.io.*;    class Chararrayinput     {        public static void main(String[] args)         {	    String obj  = "abcdefgh";            int length = obj.length();            char c[] = new char[length];            obj.getChars(0, length, c, 0);            CharArrayReader input1 = new CharArrayReader(c);            CharArrayReader input2 = new CharArrayReader(c, 1, 4);            int i;            int j;            try             {		while ((i = input1.read()) == (j = input2.read()))                 {                    System.out.print((char)i);                }       	    }             catch (IOException e)             {	        // TODO Auto-generated catch block                e.printStackTrace();	    }	}    }
+a) abc
+b) abcd
+c) abcde
+d) none of the mentioned
+d
+Output:
+$ javac Chararrayinput.java
+$ java Chararrayinput
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.io Byte Streams» Next - Java Questions & Answers – Memory Management 

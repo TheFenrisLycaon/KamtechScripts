@@ -1,0 +1,66 @@
+1. While solving a differential equation, MATLAB will show us the ___________
+a) General Solution
+b) Particular Solution
+c) Complementary function
+d) Depends on the equation
+b
+2. An example of a function whose derivative (any order) with respect to x is never 0, in MATLAB, is _______
+a) sin(x)
+b) xn
+c) ex
+d) does not exist
+d
+3.  The method of differentiation in MATLAB is pertinent for getting __________
+a) Higher order differential equations
+b) Lower order differential equations
+c) Any order differential equation
+d) A certain ordered differential equation, within a range
+d
+4. The output of the following code will be _____________
+syms t; dsolve(D(y,t)==2*t)
+a) Error
+b) t2
+c) t
+d) t2+C
+a
+5. What is the co-efficient of the output of the code?
+diff(x90,39)
+a) 0
+b) 90!/39!
+c) 90!/50!
+d) Error
+c
+6. What is the error in the following code?
+diff(‘x87+86’,23)
+a) No error
+b) Arguments as strings
+c) 23 is not given within a pair of inverted commas
+d) There is no command as diff
+b
+7. The ode 23 solver is for higher accuracy.
+a) True
+b) False
+b
+8. The ode45 takes the function as ___________
+a) Simple input argument
+b) String argument
+c) Input argument
+d) Function argument
+b
+9. What is the output of the following code?
+syms y; dsolve('y*diff(y)+5=x*exp(3)','y')
+a) Error
+b) C + (x*(x*exp(3) – 10))/2
+c) Cannot be determined
+d) 0
+a
+10. There are 7 ODE solvers in MATLAB.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB for Experienced people, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Differentiation – 1» Next - MATLAB Questions and Answers – Integration – 1 

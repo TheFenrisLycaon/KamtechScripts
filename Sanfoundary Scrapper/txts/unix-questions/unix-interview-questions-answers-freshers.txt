@@ -1,0 +1,85 @@
+1. Which of the following key options is used with tar to create an archive?
+a) -c
+b) -x
+c) -t
+d) -f  archive name
+a
+  -c    creates an archive
+  -x    extract files from an archive
+  -t     display files in an archive
+  -f  arch   -- specifies the archive arch.
+2. To create an archive named abc.tar consisting of two files,  file01 and file02, which of the following command will be used?
+a) tar -cvf  abc.tar  file01  file02
+b) tar -cvf  file01  file02  abc.tar
+c) tar -cv  abc.tar  file01  file02
+d) tar -c  abc.tar  file01  file02
+b
+3.  Which command will be used for extracting files from an archive named abc.tar?
+a) tar -xvf   abc.tar
+b) tar -cvf   abc.tar
+c) tar  -tvf    abc.tar
+d) tar  -t       abc.tar
+a
+4. Which of the following command is used for viewing the attributes of contents of an archive?
+a) tar -tvf   abc.tar
+b) tar -cvf   abc.tar
+c) tar  -xvf    abc.tar
+d) tar  -t       abc.tar
+a
+$ tar  -tvf  abc.tar
+5. Which option is used by tar to append files to the end of an archive?
+a) -t
+b) -c
+c) -x
+d) -r
+d
+$ tar  -rvf  file03  file04  abc.tar       // file03 and file04 will be added to abc.tar
+ 
+6.  Which command is used for compressing and archiving files together?
+a) gzip and tar
+b) gzip
+c) bzip2
+d) zip
+d
+7. For using zip command, the first argument should be a compressed filename.
+a) True
+b) False
+a
+$ zip  abc.zip  file01  file02
+8. For recursive compression, zip uses -r option.
+a) True
+b) False
+a
+9. Which command is used for unzipping files which are compressed using zip command?
+a) gunzip
+b) gzip
+c) unzip
+d) guzip
+c
+$ unzip  abc.zip
+10. If the uncompressed file already exists on disk, unzip asks for the user confirmation whether to replace the existing file or not.
+a) True
+b) False
+a
+$ unzip  archive.zip
+Archive: archive.zip
+     Inflating:  file01.html
+     Inflating:  diruser_guide.txt
+Replace file01.html?			//  Because file01.html already exists on disk, unzip asks the 					//  user whether to overwrite it or not.
+11. Which option is used with unzip command to view the contents of a compressed archive?
+a) -v
+b) -t
+c) -c
+d) -x
+a
+$ unzip -v  abc.zip
+12. zip and unzip can perform each and every function that is performed by gzip, gunzip and tar.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Compressing and Archiving Files – 1» Next - Unix  Questions and Answers – Listing File and Directory Attributes 

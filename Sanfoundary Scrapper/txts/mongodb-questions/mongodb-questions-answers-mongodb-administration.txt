@@ -1,0 +1,68 @@
+1. To get a correct snapshot of a running mongod process, you must have _________ enabled.
+a) journaling
+b) replication
+c) MMS
+d) all of the mentioned
+a
+2. Point out the correct statement.
+a) Journal must reside on the same logical volume as the other MongoDB data files
+b) To get a consistent snapshot of a sharded system, you must disable the balancer
+c) Backups produced by copying the underlying data do not support point in time recovery
+d) All of the mentioned
+d
+3. The _______ tool reads data from a MongoDB database and creates high fidelity BSON files.
+a) mdump
+b) mongodump
+c) mongod
+d) all of the mentioned
+b
+4. If your storage system does not support snapshots, you can copy the files directly using ____________
+a) cp
+b) copy
+c) snap
+d) none of the mentioned
+a
+5. Point out the wrong statement.
+a) MongoDB Cloud Manager Backup offers point in time recovery of MongoDB replica sets
+b) MongoDB Cloud Manager continually backs up MongoDB replica sets
+c) MMS achieves point in time recovery by storing oplog data
+d) None of the mentioned
+c
+6. The _________ tool can populate a MongoDB database with the data from these BSON files.
+a) mongostore
+b) mongorestore
+c) mongod
+d) none of the mentioned
+b
+Join Sanfoundry@YouTube
+7. mongodump and mongorestore can operate against a running _______ process.
+a) mongostore
+b) mongorestore
+c) mongod
+d) none of the mentioned
+c
+8. For replica sets, mongodump also supports a point in time feature with the ________ option.
+a) –oplog
+b) –log
+c) –op
+d) None of the mentioned
+a
+9. If applications modify data while mongodump is creating a backup _________ will compete for resources with those applications.
+a) mongostore
+b) mongorestore
+c) mongod
+d) mongodump
+d
+10. The MongoDB ______ supports the backing up and restoring of MongoDB deployments.
+a) Cloud Manager
+b) MMS
+c) MonitorMMS
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – MongoDB documents – 2» Next - MongoDB Questions and Answers – Operational Strategies 

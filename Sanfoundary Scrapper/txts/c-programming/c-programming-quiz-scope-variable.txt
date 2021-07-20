@@ -1,0 +1,62 @@
+This section on C programming quiz focuses on “Scope of a Variable”. One shall practice these quizzes to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C quiz comes with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C programming quiz on “Scope of a Variable” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int i;    int main()    {        extern int i;        if (i == 0)            printf("scope rules\n");    }
+a) scope rules
+b) Compile time error due to multiple declaration
+c) Compile time error due to not defining type in statement extern i
+d) Nothing will be printed as value of i is not zero because i is an automatic variable
+a
+2. What will be the output of the following C code (without linking the source file in which ary1 is defined)?
+    #include <stdio.h>    int main()    {        extern ary1[];        printf("scope rules\n");    }
+a) scope rules
+b) Linking error due to undefined reference
+c) Compile time error because size of array is not provided
+d) Compile time error because datatype of array is not provided
+a
+3. What will be the output of the following C code (after linking to source file having definition of ary1)?
+    #include <stdio.h>    int main()    {        extern ary1[];        printf("%d\n", ary1[0]);    }
+a) Value of ary1[0];
+b) Compile time error due to multiple definition
+c) Compile time error because size of array is not provided
+d) Compile time error because datatype of array is not provided
+d
+4. What is the scope of an external variable?
+a) Whole source file in which it is defined
+b) From the point of declaration to the end of the file in which it is defined
+c) Any source file in a program
+d) From the point of declaration to the end of the file being compiled
+d
+5. What is the scope of a function?
+a) Whole source file in which it is defined
+b) From the point of declaration to the end of the file in which it is defined
+c) Any source file in a program
+d) From the point of declaration to the end of the file being compiled
+d
+6. Comment on the output of the following C code.
+    #include <stdio.h>    int main()    {        int i;        for (i = 0;i < 5; i++)        int a = i;        printf("%d", a);    }
+a) a is out of scope when printf is called
+b) Redeclaration of a in same scope throws error
+c) Syntax error in declaration of a
+d) No errors, program will show the output 5
+c
+7. Which variable has the longest scope in the following C code?
+    #include <stdio.h>    int b;    int main()    {        int c;        return 0;    }    int a;
+a) a
+b) b
+c) c
+d) Both a and b
+b
+8. Comment on the following 2 C programs.
+    #include <stdio.h> //Program 1    int main()    {        int a;        int b;        int c;    }    #include <stdio.h> //Program 2    int main()    {        int a;        {            int b;        }        {            int c;        }    }
+a) Both are same
+b) Scope of c is till the end of the main function in Program 2
+c) In Program 1, variables a, b and c can be used anywhere in the main function whereas in Program 2, variables b and c can be used only inside their respective blocks
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – External Variables – 2» Next - C Programming Questions and Answers – Scope of a Variable – 2 

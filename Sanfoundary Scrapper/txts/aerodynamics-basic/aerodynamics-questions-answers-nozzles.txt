@@ -1,0 +1,90 @@
+1. For a flow in a duct, what is Mach number a function of?
+a) Local duct area to sonic throat area
+b) Sonic throat area to local duct area
+c) Local duct area to convergent duct area
+d) Local duct area to divergent duct area
+a
+M = f(A/A*)
+2. In the area – Mach relation A < A* or A ≥ A*.
+a) True
+b) False
+b
+3. The area – Mach number relation yields how many solution(s) for a given Mach number?
+a) 1
+b) 2
+c) 3
+d) 0
+b
+4. What happens in case of a choked flow?
+a) When flow becomes supersonic at the throat
+b) When flow is sonic and mass flow remains constant at the throat despite reducing exit pressure
+c) When the exit pressure is reduced to a point where the flow becomes subsonic at throat
+d) Normal shock is created at the inlet of the nozzle
+b
+5. For a nozzle with the following data \(\frac {A_e}{A_t}\) = 1.616, P01 = 1 atm, Pe = 0.947 atm, what is the the Mach number at the throat of the nozzle?
+a) 0.25
+b) 0.50
+c) 0.75
+d) 0.58
+b
+P01 = P0e = 1atm
+\(\frac {P_{0e}}{P_e} = \frac {1}{0.947}\) = 1.056
+From the isentropic table:
+For \(\frac {P_{0e}}{P_e}\) = 1.056, we get Mach number as Me = 0.28
+For Me = 0.28, \(\frac {A_e}{A^*}\) = 2.166 (From the gas table)
+\(\frac {A_t}{A^*} = \frac {\frac {A_t}{A_e }}{\frac {A^*}{A_e }} = \frac {2.166}{1.616}\) = 1.34
+For \(\frac {A_t}{A^*}\) = 1.34, we get Mt = 0.5
+6. If the given conditions for a nozzle are P01 = 1 atm, Pe = 0.3143 atm, then what is the ratio of exit area to throat area?
+a) 1.15
+b) 1.5
+c) 1.25
+d) 1.115
+d
+To calculate – \(\frac {A_e}{A^*}\) 
+Stagnation pressures remain same P01 = P0e
+\(\frac {P_{0e}}{P_e} = \frac {1}{0.3143}\) = 3.182
+For \(\frac {P_{0e}}{P_e}\) = 3.182 we get Me = 1.4 (Using gas table)
+For Me = 1.4, we get \(\frac {A_e}{A^*}\) = 1.115 (Using gas table)
+7. Which of this conditions is necessary to achieve flow in a nozzle?
+a) \(\frac {P_e}{P_0}\) < 1
+b) \(\frac {P_e}{P_0}\) > 1
+c) \(\frac {P_e}{P_0}\) = 1
+d) \(\frac {P_e}{P_0}\) = 0
+a
+Thus the condition to achieve an accelerated flow inside a nozzle is: \(\frac {P_e}{P_0}\) < 1
+8. What is the exit Mach number if the convergent nozzle is choked?
+a) 0
+b) 1
+c) 0.5
+d) 1.5
+b
+9. In case of the formation of shock in the divergent section of a C – D nozzle, the flow remains isentropic.
+a) True
+b) False
+b
+10. What happens to the mass flow rate if the reservoir pressure is doubled?
+a) Doubled
+b) Remains same
+c) Becomes half
+d) Becomes one – fourth
+a
+\(\dot {m} ∝ \frac {p_0 A^*}{\sqrt {T_0}} \) 
+Thus, when the resrvoic pressure is doubled, the mass flow rate through the nozzle also doubles as it is directly proportional to it.
+11. Which of these conditions result in underexpanded nozzle?
+a) Pe = Pa
+b) Pe > Pa
+c) Pe < Pa
+d) Pe << Pa
+b
+12. In which of these conditions there’s no formation of shock wave inside a convergent – divergent nozzle?
+a) Overexpanded
+b) Underexpanded
+c) Fully expanded
+d) Fully underexpanded
+c
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Area-Velocity Relation» Next - Aerodynamics Questions and Answers – Quasi-One-Dimensional Flow Diffusers 

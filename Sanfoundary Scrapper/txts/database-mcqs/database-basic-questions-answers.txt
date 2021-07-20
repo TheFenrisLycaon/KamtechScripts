@@ -1,0 +1,66 @@
+1. Which of the following is not a property of transactions?
+a) Atomicity
+b) Concurrency
+c) Isolation
+d) Durability
+d
+2. SNAPSHOT is used for (DBA)
+a) Synonym
+b) Tablespace
+c) System server
+d) Dynamic data replication
+d
+3. Isolation of the transactions is ensured by
+a) Transaction management
+b) Application programmer
+c) Concurrency control
+d) Recovery management
+c
+4. Constraint checking can be disabled in existing _______________ and _____________ constraints so that any data you modify or add to the table is not checked against the constraint.
+a) CHECK, FOREIGN KEY
+b) DELETE, FOREIGN KEY
+c) CHECK, PRIMARY KEY
+d) PRIMARY KEY, FOREIGN KEY
+a
+5. Problems occurs if we don’t implement a proper locking strategy
+a) Dirty reads
+b) Phantom reads
+c) Lost updates
+d) Unrepeatable reads
+d
+6. Which of the following fixed database roles can add or remove user IDs?
+a) db_accessadmin
+b) db_securityadmin
+c) db_setupadmin
+d) db_sysadmin
+a
+7. By default sql server has ___________ isolation level
+a) READ COMMITTED
+b) READ UNCOMMITTED
+c) SERIALIZABLE
+d) REPEATABLE READ
+a
+8. Which of the following statements is/are not true for SQL profiler?
+a) Enables you to monitor events
+b) Check if rows are being inserted properly
+c) Check the performance of a stored procedure
+d) ALL of the mentioned
+c
+9. Which of the following is the original purpose of SQL?
+a) To specify the syntax and semantics of SQL data definition language
+b) To specify the syntax and semantics of SQL manipulation language
+c) To define the data structures
+d) All of the mentioned
+d
+10. SQL can be used to:
+a) Create database structures only
+b) Query database data only
+c) Modify database data only
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice basic questions and answers on all areas of Database, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Implementation of Isolation Levels» Next - Database Questions and Answers – Lock-Based Protocols 

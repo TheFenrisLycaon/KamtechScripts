@@ -1,0 +1,92 @@
+1. The problems which deal with the analysis of electronic circuits consisting of invariant elements depend on __________
+a) The solution of simultaneous algebraic equations
+b) Solution of transcendental equations
+c) Interpolation problems
+d) Finite difference method
+a
+2. Which of the methods is direct method for solving simultaneous algebraic equations?
+a) Jacobi’s method
+b) Relaxation method
+c) Cramer’s rule
+d) Gauss seidel method
+c
+3. How many types of methods are there to solve simultaneous algebraic equations?
+a) 2
+b) 3
+c) 4
+d) 5
+a
+4. Direct methods are preferred over iterative methods as they provide solution faster.
+a) True
+b) False
+b
+5. Which of the following method generally converges the solution?
+a) Hit and trial method
+b) Approximation method
+c) Iterative method
+d) Direct method
+c
+6. What are the advantages of direct methods for solving the simultaneous algebraic equations?
+a) Rounding of errors get propagated
+b) Quite time consuming
+c) Requires more recording of data
+d) Yield a solution after a finite number of steps for any non-singular set of equations
+d
+7. How many types of instabilities occur while solving a linear system of equations?
+a) 2
+b) 3
+c) 4
+d) 5
+a
+8. What is induced instability?
+a) Instability due to reduction in problem
+b) Instability due to number of computations
+c) Instability due to errors in programming
+d) Instability due to incorrect choice of method for solving equations
+d
+9. What is inherent instability?
+a) Instability due to convergence of solution
+b) Instability due to ill conditioned set of equations
+c) Instability due to propagation of rounding of errors
+d) Instability due to incorrect choice of method of solution
+b
+10. When the linear system is called ill conditioned?
+a) If small changes in the coefficients of equations result in large changes in the values of the unknowns
+b) If reduction is done in the problem
+c) If the programming of linear system is expensive
+d) If small changes in the coefficients of equations result in small changes in the values of the unknowns
+a
+11. If approximate solution of the set of equations, 2x+2y-z = 6, x+y+2z = 8 and -x+3y+2z = 4, is given by x = 2.8 y = 1 and z = 1.8. Then, what is the exact solution?
+a) x = 3 , y = 1 , z =2
+b) x = 1 , y = 2 , z =2
+c) x = 2 , y = 3 , z = 1
+d) x = 1 , y = 3 , z = 2
+a
+2(2.8) + 2(1) – 1.8 = 5.8 …………..(i)
+2.8 + 1 + 2(1.8) = 7.4 ……………..(ii)
+-2.8 +3(1) + 2(1.8) = 3.8 …………..(iii)
+Subtracting each equation (i), (ii), (iii) from the corresponding given equations we obtain
+2xe + 2ye – ze = 0.2 …………….(iv)
+Xe + ye +2ze = 0.6 ………………(v)
+-xe + 3ye + 2ze = 0.2 ……………(vi)
+Where xe = x – 2.8, ye = y – 1, ze = z = 1.8.
+Solving the equations (iv), (v), (vi), we get xe = 0.2, ye = 0, ze = 0.2.
+This gives the better solution x = 3, y = 1, z = 2, which incidentally is the exact solution.
+12. 1.01x + 2y and x + 2y = 2 is well conditioned set of linear equations.
+a) True
+b) False
+b
+Now consider the system x + 2.01y = 2.04 and x + 2y = 2 which has the solution x = -6 and y = 4.
+Hence the system is ill conditioned.
+13. How can we avoid instability?
+a) Reformulation of problem suitably
+b) Making small changes in the coefficients of equations
+c) Choosing the method involving higher computations
+d) Rounding off the errors
+a
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Methods for Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Simultaneous Algebraic Equations Questions and Answers – Introduction to Matrices» Next - Algebraic Equations Questions and Answers – Solution of Linear Simultaneous equation using Iterative Methods 

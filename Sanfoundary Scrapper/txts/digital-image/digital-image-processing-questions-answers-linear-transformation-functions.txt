@@ -1,0 +1,77 @@
+1. Which gray-level transformation increase the dynamic range of gray-level in the image?
+a)	Power-law transformations
+b)	Negative transformations
+c)	Contrast stretching
+d)	None of the mentioned
+c
+2. When is the contrast stretching transformation a linear function, for r and s as gray-value of image before and after processing respectively?
+a)	r1 = s1 and r2 = s2
+b)	r1 = r2, s1 = 0 and s2 = L – 1, L is the max gray value allowed
+c)	r1 = 1 and r2 = 0
+d)	None of the mentioned
+a
+3. When is the contrast stretching transformation a thresholding function, for r and s as gray-value of image before and after processing respectively?
+a)	r1 = s1 and r2 = s2
+b)	r1 = r2, s1 = 0 and s2 = L – 1, L is the max gray value allowed
+c)	r1 = 1 and r2 = 0
+d)	None of the mentioned
+b
+4. What condition prevents the intensity artifacts to be created while processing with contrast stretching, if r and s are gray-values of image before and after processing respectively?
+a)	r1 = s1 and r2 = s2
+b)	r1 = r2, s1 = 0 and s2 = L – 1, L is the max gray value allowed
+c)	r1 = 1 and r2 = 0
+d)	r1 ≤ r2 and s1 ≤ s2
+d
+5. A contrast stretching result been obtained by setting (r1, s1) = (rmin, 0) and (r2, s2) = (rmax, L – 1), where, r and s are gray-values of image before and after processing respectively, L is the max gray value allowed and rmax and rmin are maximum and minimum gray-values in image respectively. What should we term the transformation function if r1 = r2 = m, some mean gray-value.
+a)	Linear function
+b)	Thresholding function
+c)	Intermediate function
+d)	None of the mentioned
+b
+6. A specific range of gray-levels highlighting is the basic idea of __________
+a)	Contrast stretching
+b)	Bit –plane slicing
+c)	Thresholding
+d)	Gray-level slicing
+d
+Second approach is to brighten the pixels gray-value of interest and preserve the background.
+I.e. in both highlighting of a specific range of gray-level is been done.
+7. What is/are the approach(s) of the gray-level slicing?
+a)	To give all gray level of a specific range high value and a low value to all other gray levels
+b)	To brighten the pixels gray-value of interest and preserve the background
+c)	All of the mentioned
+d)	None of the mentioned
+c
+One approach is to give all gray level of a specific range high value and a low value to all other gray levels.
+Second approach is to brighten the pixels gray-value of interest and preserve the background.
+8. Which of the following transform produces a binary image after processing?
+a)	Contrast stretching
+b)	Gray-level slicing
+c)	All of the mentioned
+d)	None of the mentioned
+c
+One of the transformation in Contrast stretching darkens the value of r (input image gray-level) below m (some predefined gray-value) and brightens the value of r above m, giving a binary image as result.
+9. Specific bit contribution in the image highlighting is the basic idea of __________
+a)	Contrast stretching
+b)	Bit –plane slicing
+c)	Thresholding
+d)	Gray-level slicing
+b
+10. In bit-plane slicing if an image is represented by 8 bits and is composed of eight 1-bit plane, with plane 0 showing least significant bit and plane 7 showing most significant bit. Then, which plane(s) contain the majority of visually significant data.
+a)	Plane 4, 5, 6, 7
+b)	Plane 0, 1, 2, 3
+c)	Plane 0
+d)	Plane 2, 3, 4, 5
+a
+11. Which of the following helps to obtain the number of bits to be used to quantize each pixel.
+a)	Gray-level slicing
+b)	Contrast stretching
+c)	Contouring
+d)	Bit-plane slicing
+d
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Fuzzy Techniques – Transformations and Filtering» Next - Digital Image Processing Questions and Answers – Gaussain Lowpass and Sharpening Frequency Domain Filters 

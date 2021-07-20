@@ -1,0 +1,85 @@
+1. A CR network is one which consists of _________
+a) A capacitor and resistor connected in parallel
+b) A capacitor and resistor connected in series
+c) A network consisting of a capacitor only
+d) A network consisting of a resistor only
+b
+2. At DC, capacitor acts as _________
+a) Open circuit
+b) Short circuit
+c) Resistor
+d) Inductor
+a
+For DC, f=0 so, XC becomes infinite. Hence for dc, the capacitor acts as an open circuit.
+3. In an RC series circuit, when the switch is closed and the circuit is complete, what is the response?
+a) Response does not vary with time
+b) Decays with time
+c) Increases with time
+d) First increases, then decrease
+b
+4. If the switch is closed at t=0, what is the current in the circuit?
+a) 0A
+b) 10A
+c) 20A
+d) Infinity
+b
+I=V/R = 100/10 = 10A.
+5. Calculate the voltage across the capacitor at t=0.
+a) 0V
+b) 10V
+c) 20V
+d) Infinity
+a
+6. Calculate di(0)/dt if the switch is closed at t=0.
+a) -9.9A/s
+b) -10A/s
+c) 0A/s
+d) -0.1A/s
+d
+i=i0e-t/RC = (100/10)e-t/100
+i=10 e-t/100
+di/dt = -(10/100) e-t/100
+di(0)/dt=-0.1A/s.
+7. Calculate d2i(0)/dt2 from the given circuit.
+a) 10-6A/s2
+b) 10-3A/s2
+c) 106A/s2
+d) 103A/s2
+b
+100+10i(0)+1/10*integral(i(0)dt)=0
+Differentiating once, we get:
+10di(0)/dt+1/10*i.
+Differentiating once again, we get:
+10d2i(0)/dt2+10di(0)/dt=0.
+Substituting the values of di/dt from the previous explanation, we get d2i(0)/dt2=10-3A/s2.
+8. The current equation for the given circuit is?
+a) i=10e(-0.01)t A
+b) i=10e(0.01)t A
+c) i=10e(-0.001)t A
+d) i=100e(-0.01)t A
+a
+100+10i(0)+1/10*integral(i(0)dt)=0
+On applying Laplace transform to this equation, we get:
+100/s=I(s)/10s+10I(s)
+Solving the equation, we get:
+i=10e(-0.01)t A.
+9. The expression for the current in an RC circuit is?
+a) i=(V/R)et/RC
+b) i=(V/R)e-t/RC
+c) i=(V/R)(1-e-t/RC)
+d) i=(V/R) (1-et/RC)
+b
+i=i0e-t/RC = (100/10)e-t/100
+i=10 e-t/100.
+10. What is the voltage in the resistor as soon as the switch is closed at t=0.
+a) 0V
+b) Infinity
+c) 220V
+d) Insufficient information provided
+c
+Sanfoundry Global Education & Learning Series – Basic Electrical Engineering.
+To practice all areas of Basic Electrical Engineering, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Basic Electrical Engineering Questions and Answers – Discharge of a Capacitor Through a Resistor» Next - Basic Electrical Engineering Questions and Answers –  Energy Stored in a Charged Capacitor 

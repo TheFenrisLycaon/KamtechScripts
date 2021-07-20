@@ -1,0 +1,98 @@
+1. Arrays in Java are implemented as?
+a) class
+b) object
+c) variable
+d) none of the mentioned
+b
+2. Which of these keywords is used to prevent content of a variable from being modified?
+a) final
+b) last
+c) constant
+d) static
+a
+3. Which of these cannot be declared static?
+a) class
+b) object
+c) variable
+d) method
+b
+4. Which of the following statements are incorrect?
+a) static methods can call other static methods only
+b) static methods must only access static data
+c) static methods can not refer to this or super in any way
+d) when object of class is declared, each object contains its own copy of static variables
+d
+5. Which of the following statements are incorrect?
+a) Variables declared as final occupy memory
+b) final variable must be initialized at the time of declaration
+c) Arrays in java are implemented as an object
+d) All arrays contain an attribute-length which contains the number of elements stored in the array
+a
+6. Which of these methods must be made static?
+a) main()
+b) delete()
+c) run()
+d) finalize()
+a
+7. What will be the output of the following Java program?
+    class access    {        public int x; 	static int y;        void cal(int a, int b)        {            x +=  a ;            y +=  b;        }            }        class static_specifier     {        public static void main(String args[])        {            access obj1 = new access();            access obj2 = new access();               obj1.x = 0;            obj1.y = 0;            obj1.cal(1, 2);            obj2.x = 0;            obj2.cal(2, 3);            System.out.println(obj1.x + " " + obj2.y);             }   }
+a) 1 2
+b) 2 3
+c) 3 2
+d) 1 5
+d
+output:
+$ javac static_specifier.java
+$ java static_specifier
+1 5
+8. What will be the output of the following Java program?
+    class access    {       static int x;       void increment()       {           x++;       }        }       class static_use     {        public static void main(String args[])        {            access obj1 = new access();            access obj2 = new access();            obj1.x = 0;               obj1.increment();            obj2.increment();            System.out.println(obj1.x + " " + obj2.x);         }   }
+a) 1 2
+b) 1 1
+c) 2 2
+d) Compilation Error
+c
+output:
+$ javac static_use.java
+$ java static_use 
+2 2
+9. What will be the output of the following Java program?
+    class static_out     {        static int x; 	static int y;        void add(int a , int b)        {            x = a + b;            y = x + b;        }    }        class static_use     {        public static void main(String args[])        {            static_out obj1 = new static_out();            static_out obj2 = new static_out();               int a = 2;            obj1.add(a, a + 1);            obj2.add(5, a);            System.out.println(obj1.x + " " + obj2.y);             }   }
+a) 7 7
+b) 6 6
+c) 7 9
+d) 9 7
+c
+output:
+$ javac static_use.java
+$ java static_use
+7 9
+10. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])        {            int arr[] = {1, 2, 3, 4, 5};            for ( int i = 0; i < arr.length - 2; ++i)                System.out.println(arr[i] + " ");        }     }
+a) 1 2
+b) 1 2 3
+c) 1 2 3 4
+d) 1 2 3 4 5
+b
+output:
+$ javac Output.java
+$ java Output
+1 2 3
+11. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])        {            int a1[] = new int[10];            int a2[] = {1, 2, 3, 4, 5};            System.out.println(a1.length + " " + a2.length);        }     }
+a) 10 5
+b) 5 10
+c) 0 10
+d) 0 5
+a
+output:
+$ javac Output.java
+$ java Output
+10 5
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+ Here’s the list of Best Reference Books in Java Programming Language.
+To practice Java Question Bank, here is complete set on 1000+ Multiple Choice Questions and Answers on Java.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Access Control – 2» Next - Java Questions & Answers – String Class 

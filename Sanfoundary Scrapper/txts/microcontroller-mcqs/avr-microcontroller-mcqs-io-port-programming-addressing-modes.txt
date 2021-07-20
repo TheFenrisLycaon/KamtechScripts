@@ -1,0 +1,66 @@
+1. In AVR, which registers are there for the I/O programming of ports?
+a) PORT
+b) PIN
+c) DDR
+d) All of the mentioned
+d
+2. The data will not go from the port registers to the pin unless:
+a) DDR register of that port is set to 0
+b) PORT register of that port is set to 1
+c) DDR register of that port is set to 1
+d) PORT register of that port is set to 0
+c
+3. On reset DDR registers of all ports are set to:
+a) 0
+b) 1
+c) None of the mentioned
+d) 0 & 1
+a
+4. Which of the following statements are correct?
+a) PIN register of a port is used to bring data into CPU from pins
+b) PORT register is used to send data out to pins
+c) DDR register is used to control the direction of a port
+d) All of the mentioned
+d
+5. In the AVR family, all I/O ports have 8 pins?
+a) true
+b) false
+c) none of the mentioned
+d) can’t be determined
+b
+6. Which of the following is not a single bit instruction in AVR?
+a) SBI
+b) PORT
+c) CBI
+d) All of the mentioned
+b
+7. Which of the following is correct about the SBIS instruction?
+a) it is used to monitor status of bit in I/O register
+b) it is a byte oriented instruction
+c) It is a 4 byte instruction
+d) all of the mentioned
+a
+8. Instruction CBI PORTB,1 means
+a) clearing the PORTB register
+b) clearing the first bit of the PORTB register
+c) setting the PORTB register
+d) setting the first bit of the PORTB register
+b
+9. Which of the following instruction can be used to toggle a bit of the PORT?
+a) SBI
+b) CBI
+c) SBI & CBI
+d) None of the mentioned
+c
+10. What is the main function of the SBIC instruction?
+a) it is used to clear a particular bit of a port
+b) it is used to jump unconditionally
+c) it is used to skip the instruction if a particular bit of a port is zero
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - AVR Microcontroller Questions and Answers – Jump, Loop and Call Instructions» Next - AVR Microcontroller Questions and Answers – Arithmetic and Logic Instructions 

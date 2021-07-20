@@ -1,0 +1,67 @@
+1. A _________ grants initial permissions, and subsequently a user may or may not be given the permission to grant/revoke permissions.
+a) keyspace
+b) superuser
+c) sudouser
+d) none of the mentioned
+b
+2. Point out the correct statement.
+a) Cassandra accommodates expensive, consumer SSDs extremely well
+b) Cassandra re-writes or re-reads existing data, and never overwrites the rows in place
+c) Cassandra uses a storage structure similar to a Log-Structured Merge Tree
+d) None of the mentioned
+c
+3. __________ is one of many possible IAuthorizer implementations and the one that stores permissions in the system_auth.permissions table to support all authorization-related CQL statements.
+a) CassandraAuth
+b) CassandraAuthorizer
+c) CassAuthorizer
+d) All of the mentioned
+b
+4. Cassandra creates a ___________ for each table, which allows you to symlink a table to a chosen physical drive or data volume.
+a) directory
+b) subdirectory
+c) domain
+d) path
+b
+5. Point out the wrong statement.
+a) Cassandra provides fine-grained control of table storage on disk, writing tables to disk using separate table directories within each keyspace directory
+b) The hinted handoff feature and Cassandra conformance and conformance to the ACID
+c) Client utilities and application programming interfaces (APIs) for developing applications for data storage and retrieval are available
+d) None of the mentioned
+b
+6. When ___________ contents exceed a configurable threshold, the memtable data, which includes indexes, is put in a queue to be flushed to disk.
+a) subtable
+b) memtable
+c) intable
+d) memorytable
+b
+7. Data in the commit log is purged after its corresponding data in the memtable is flushed to an _________
+a) SSHables
+b) SSTable
+c) Memtables
+d) None of the mentioned
+b
+8. For each SSTable, Cassandra creates _________ index.
+a) memory
+b) partition
+c) in memory
+d) all of the mentioned
+b
+9. Cassandra marks data to be deleted using _________
+a) tombstone
+b) combstone
+c) tenstone
+d) none of the mentioned
+a
+10. Tombstones exist for a configured time period defined by the _______ value set on the table.
+a) gc_grace_minutes
+b) gc_grace_time
+c) gc_grace_seconds
+d) gc_grace_hours
+c
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop for online quiz, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Introduction to Cassandra» Next - Hadoop Questions and Answers – Cassandra with Hadoop – 2 

@@ -1,0 +1,67 @@
+1. MongoDB uses _________ to support deployments with very large data sets and high throughput operations.
+a) sharding
+b) replication
+c) replica sets
+d) all of the mentioned
+a
+2. Point out the correct statement.
+a) High query rates can exhaust the CPU capacity of the server
+b) Database systems with small data sets and high throughput applications can challenge the capacity of a single server
+c) Smaller data sets exceed the storage capacity of a single machine
+d) All of the mentioned
+a
+3. How many types of sharding exist in MongoDB?
+a) 1
+b) 2
+c) 3
+d) All of the mentioned
+b
+4. _______ scaling adds more CPU and storage resources to increase capacity.
+a) Horizontal
+b) Vertical
+c) Partition
+d) All of the mentioned
+b
+5. Point out the wrong statement.
+a) Scaling by adding capacity do not have limitations.
+b) cloud-based providers may only allow users to provision smaller instances
+c) There is a practical maximum capability for vertical scaling
+d) All of the mentioned
+a
+6. _______ divides the data set and distributes the data over multiple servers, or shards.
+a) Vertical
+b) Sharding
+c) Partition
+d) All of the mentioned
+b
+7. MongoDB supports sharding through the configuration of a sharded ______
+a) shapes
+b) clusters
+c) sets
+d) all of the mentioned
+b
+8. How many components are present in sharded cluster?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+9. To provide high availability and data consistency, in a production sharded cluster, each shard is a ___________
+a) replica set
+b) cluster
+c) partition
+d) all of the mentioned
+a
+10. _________ interface with client applications and direct operations to the appropriate shard or shards.
+a) Query Parsers
+b) Query Routers
+c) Query Executors
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Member Configuration» Next - MongoDB Questions and Answers – Sharding Concepts 

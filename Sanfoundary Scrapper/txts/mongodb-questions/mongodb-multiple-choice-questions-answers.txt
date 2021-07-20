@@ -1,0 +1,67 @@
+1. The architecture of a replica set affects the set’s _________ and capability.
+a) scalability
+b) capacity
+c) performance
+d) all of the mentioned
+b
+2. Point out the wrong statement.
+a) Even number of members ensures that the replica set is always able to elect a primary
+b) Arbiters do not store a copy of the data and require fewer resources
+c) You may run an arbiter on an application server or other shared process
+d) None of the mentioned
+a
+3. The standard replica set deployment for production system is a ___-member replica set.
+a) two
+b) three
+c) four
+d) five
+b
+4. _________ for a replica set is the number of members that can become unavailable and still leave enough members in the set to elect a primary.
+a) Fault tolerance
+b) Reliability
+c) Security
+d) None of the mentioned
+a
+5. Point out the correct statement.
+a) Removing a member to the replica set does not always increase the fault tolerance
+b) The secondary is the only member in the replica set that receives write operations
+c) Fault tolerance is an effect of replica set size, but the relationship is not direct
+d) None of the mentioned
+c
+6. Without a primary, a replica set cannot accept ________ operations.
+a) read
+b) write
+c) read write
+d) all of the mentioned
+b
+7. _________ member is used to support dedicated functions, such as backup or reporting.
+a) Hidden
+b) Primary
+c) ViewState
+d) None of the mentioned
+a
+8. To protect your data if your main data center fails, keep at least _______ member in an alternate data center.
+a) one
+b) two
+c) three
+d) none of the mentioned
+a
+9. What should be the priority of member to prevent them from becoming primary?
+a) 0
+b) 1
+c) 2
+d) 3
+a
+10. _________ sets also allow the routing of read operations to specific machines.
+a) Field
+b) Read
+c) Tag
+d) All of the mentioned
+c
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Replica Set Members» Next - MongoDB Questions and Answers – Replica Set High Availability 

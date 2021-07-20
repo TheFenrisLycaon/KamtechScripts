@@ -1,0 +1,86 @@
+1. A ____________ loop is a loop whose processing is controlled by a counter.
+a) Counter-controlled
+b) Entry-controlled
+c) Exit-controlled
+d) Accumulator-controlled
+a
+2. ____________________ is a counter-controlled loop.
+a) For..next loop
+b) Do..while loop
+c) While loop
+d) If statement
+a
+3. How many times will the MessageBox.Show method in the following code be processed?
+For intCount As Integer = 4 To 11 Step 2
+    MessageBox.Show("Hello")
+Next intCount
+a) 3
+b) 4
+c) 5
+d) 8
+b
+4. What value is stored in the intCount variable when the loop ends?
+For intCount As Integer = 4 To 11 Step 2
+MessageBox.Show("Hello")
+Next intCount
+a) 10
+b) 11
+c) 12
+d) 13
+c
+5. How many times will the MessageBox.Show method in the following code be processed?
+For count As Integer = 5 to 9 Step 5
+MessageBox.Show(“Hi”)
+Next count
+a) 0
+b) 1
+c) 2
+d) 4
+b
+6. What value is stored in the count variable when the loop ends?
+For count As Integer = 5 to 9 Step 5
+MessageBox.Show(“Hi”)
+Next count
+a) 10
+b) 9
+c) 8
+d) 7
+a
+7. ____________ is the process of adding a number to the value stored in a value.
+a) Counting
+b) Updating
+c) Accumulating
+d) Decrementing
+b
+accumulator variable. It is also called incrementing. We increment the value in the loop. In the for loop statement, we can increment the variable as required.
+8. _______________ in flowchart is used to represent a for clause.
+a) Circle
+b) Rectangle
+c) Parallelogram
+d) Hexagon
+d
+the hexagon, you record the counter variable’s name and its startValue, stepValue, and endValue.
+9. How many times will the MessageBox.Show method in the following code be processed?
+For intNum As Integer = 5 To 1 Step -1
+MessageBox.Show(“Hi”)
+Next intNum
+a) 6
+b) 5
+c) 4
+d) 7
+b
+10. What value is stored in the intNum variable when the loop ends?
+For intNum As Integer = 5 To 1 Step -1
+MessageBox.Show(“Hi”)
+Next intNum
+a) 0
+b) 1
+c) 2
+d) 3
+a
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Repetition Structure – Counters and Accumulators» Next - Visual Basic Questions and Answers – Repetition Structure – Refresh and Sleep Methods, Including List Box in an Interface 

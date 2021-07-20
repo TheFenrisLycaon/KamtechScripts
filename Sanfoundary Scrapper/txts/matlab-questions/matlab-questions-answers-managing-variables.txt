@@ -1,0 +1,107 @@
+1. What will be the output when the following code is written in MATLAB?
+ u=sin(10);v=pi;whos
+a) u and v are double with 8 bytes
+b) u and v are symbolic objects
+c) error
+d) u and v are double arrays
+a
+
+Output: Name      Size            Bytes         Class     Attributes
+         u        1x1               8           double              
+         v        1x1               8           double   
+ 
+2. What is the disadvantage of the whos function in MATLAB?
+a) It does not show the values of the variable
+b) It does not show the size of the variable
+c) It does not show the class of the variable
+d) It does not show the name of the variable
+a
+3. What will be the output of the following code?
+A=100; if(A>99) clear A; end
+a) A never gets stored in MATLAB
+b) A is first stored and then removed from workspace
+c) Error
+d) A is retained in the workspace
+b
+4. What is the replacement for the whos function?
+a) Workspace window
+b) Command window
+c) Current folder window
+d) Remembering all the variables used
+a
+5. What does the Workspace show?
+a) Attributes of variables, functions from command window
+b) Attributes of variables, script files from command window
+c) Attributes of variables, script files, functions from command window
+d) Attributes of variables from command window
+c
+6.  What is the output of the following code?
+ a=10; b=10; c=’pi’; whos
+a) The output will show all double variables
+b) The output will show a and b as double and c as symbolic object
+c) The output will show a and b as symbolic object and c as char
+d) The output will show a and b as double variables and c as char variables
+d
+Output: 
+
+Name     Size            Bytes    Class     Attributes
+  a       1x1              8      double              
+  b       1x1              8  	  double              
+  c       1x2              4      char   
+ 
+7. From the following desktop view of workspace, choose the correct code.
+a) a=10;b=’pi’;syms c; d=[1,2;0;4];
+b) a=10;b=’pi’;syms c; d=[1,2;0,4];
+c) a=10;b=pi;syms (c); d=[1,2;0,4];
+d) a=10;b=’pi’;syms c; d=[1,2;0,4];
+a
+a=10;b=’pi’;syms c; d=[1,2;0;4];
+8.  What is the size of double and symbolic variables holding integer constants?
+a) 8 bytes and 16 bytes
+b) 16 bytes and 112 bytes
+c) 32 bytes and 26 bytes
+d) 23 bytes and 112 bytes
+a
+9.  Choose the correct option as an inference from the following workspace view.
+a) ‘ans’, ‘p’ and ‘ap’ are double variables
+b) ‘ans’ and ‘p’ are double variables while ‘c’ is a character variable
+c) ‘ap’ is symbolic object, ‘c’ is a double variable
+d) ‘c’ is a symbolic character
+b
+10. What is the difference between who and whos command?
+a) The former shows the names of the variables being used while the latter shows the details of the variables in the ongoing program
+b) The latter shows the the names of the variables being used while the former shows the details of the variables in the ongoing program
+c) No difference at all
+d) There is no such function as who and whos
+a
+11. What is the conclusion from the following code?
+ >>whos
+ Name     Size         Bytes    Class     Attributes
+ ans      1x1            8      double              
+ ap       1x1          112  	sym              
+ c        1x2            4      char
+ p        1x1            8      double
+a) The function ‘whos’ doesn’t show the values of the variables being used
+b) The value of each variable is 0
+c) The function ‘who’ is more effective than ‘whos’
+d) Nothing can be concluded
+a
+12.  What are Max and Min in the Workspace shown below?
+a) They show the maximum and minimum value of the variable
+b) The show the maximum and minimum length of the variable
+c) They show the maximum and minimum value present in an array
+d) They show the median and mode of the variable
+c
+13.  How would you express a pi as a character and an integer? Choose the correct code.
+a) a=pi;b=’pi’;
+b) a=22/7; b=pi;
+c) a=3.1415; b=22/7;
+d) a=3.1429;b=’pi’;
+a
+A character variable is stored by declaring the character value within a pair of single inverted commas. An integer variable is stored by simply declaring the variable with the integer value. pi is stored in MATLAB as an integer value itself of 3.1416.
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Algebra» Next - MATLAB Questions and Answers – Errors in Input – 1 

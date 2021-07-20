@@ -1,0 +1,90 @@
+1. Which of these is necessary condition for automatic type conversion in Java?
+a) The destination type is smaller than source type
+b) The destination type is larger than source type
+c) The destination type can be larger or smaller than source type
+d) None of the mentioned
+b
+2. What is the prototype of the default constructor of this Java class?
+    public class prototype { }
+a) prototype( )
+b) prototype(void)
+c) public prototype(void)
+d) public prototype( )
+d
+3. What will be the error in the following Java code?
+    byte b = 50;
+    b = b * 50;
+a) b cannot contain value 100, limited by its range
+b) * operator has converted b * 50 into int, which can not be converted to byte without casting
+c) b cannot contain value 50
+d) No error in this code
+b
+Join Sanfoundry@YouTube
+4. If an expression contains double, int, float, long, then the whole expression will be promoted into which of these data types?
+a) long
+b) int
+c) double
+d) float
+c
+5. What is Truncation is Java?
+a) Floating-point value assigned to an integer type
+b) Integer value assigned to floating type
+c) Floating-point value assigned to an Floating type
+d) Integer value assigned to floating type
+a
+6. What will be the output of the following Java code?
+    class char_increment     {        public static void main(String args[])         {            char c1 = 'D';            char c2 = 84;            c2++;            c1++;            System.out.println(c1 + " "  + c2);        }     }
+a) E U
+b) U E
+c) V E
+d) U F
+a
+output:
+$ javac char_increment.java
+$ java char_increment
+E U
+7. What will be the output of the following Java code?
+    class conversion     {        public static void main(String args[])         {            double a = 295.04;            int  b = 300;            byte c = (byte) a;            byte d = (byte) b;            System.out.println(c + " "  + d);        }     }
+a) 38 43
+b) 39 44
+c) 295 300
+d) 295.04 300
+b
+output:
+$ javac conversion.java
+$ java conversion
+39 44
+8. What will be the output of the following Java code?
+    class A     {        final public int calculate(int a, int b) { return 1; }     }     class B extends A     {         public int calculate(int a, int b) { return 2; }     }      public class output      {        public static void main(String args[])         {             B object = new B();             System.out.print("b is " + b.calculate(0, 1));          }     }
+a) b is : 2
+b) b is : 1
+c) Compilation Error
+d) An exception is thrown at runtime
+c
+9. What will be the output of the following Java program, if we run as “java main_arguments 1 2 3”?
+    class main_arguments     {        public static void main(String [] args)         {            String [][] argument = new String[2][2];            int x;            argument[0] = args;            x = argument[0].length;            for (int y = 0; y < x; y++)                 System.out.print(" " + argument[0][y]);                      }    }
+a) 1 1
+b) 1 0
+c) 1 0 3
+d) 1 2 3
+d
+Output:
+$ javac main_arguments.java
+$ java main_arguments
+1 2 3
+10. What will be the output of the following Java program?
+    class c     {            public void main( String[] args )         {              System.out.println( "Hello" + args[0] );         }     }
+a) Hello c
+b) Hello
+c) Hello world
+d) Runtime Error
+d
+Output:
+$ javac c.java
+Exception in thread "main" java.lang.NoSuchMethodError: main
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Literals & Variables» Next - Java Questions & Answers – Arrays 

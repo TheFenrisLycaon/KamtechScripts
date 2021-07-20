@@ -1,0 +1,85 @@
+This section on C++ questions and puzzles focuses on “Class Hierarchies Introduction”. One shall practice these questions and puzzles to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These programming puzzles can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ questions and puzzles on “Class Hierarchies Introduction” along with answers, explanations and/or solutions:
+1. What will happen when introduce the interface of classes in a run-time polymorphic hierarchy?
+a) Separation of interface from implementation
+b) Merging of interface from implementation
+c) Separation of interface from debugging
+d) Merging of interface from debugging
+a
+2. Which classes are called as mixin?
+a) Represent a secondary design
+b) Classes express functionality which represents responsibilities
+c) Standard logging stream
+d) Represent a priary design
+b
+3. What is the use of clog?
+a) Standard logging stream
+b) Error stream
+c) Input stream
+d) output stream
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <sstream>    using namespace std;    int main()    {        stringstream mys(ios :: in | ios :: out);        std :: string dat("The double value is : 74.79 .");        mys.str(dat);        mys.seekg(-7, ios :: end);        double val;        mys >> val;        val = val*val;        mys.seekp(-7,ios::end);        mys << val;        std :: string new_val = mys.str();        cout << new_val;        return 0;    }
+a) 5593.54
+b) Error
+c) Runtime error
+d) 5463.54
+a
+Output:
+Join [email protected]
+$ g++ class.cpp
+$ a.out
+The double value is : 5593.54 .
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Base    {        public:            Base(){}            ~Base(){}            protected:            private:     };    class Derived:public Base    {        public:            Derived(){}            Derived(){}            private:            protected:    };    int main()    {        cout << "The program exceuted" << endl;    }
+a) The program executed
+b) Error
+c) Runtime error
+d) program exceuted
+b
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class MyException    {        public:        MyException(int value) : mValue(value)        {        }        int mValue;    };    class MyDerivedException : public MyException    {        public:            MyDerivedException(int value, int anotherValue) : MyException(value),    mAnotherValue(anotherValue)            {            }            int mValue;            int mAnotherValue;    };    void doSomething()    {        throw MyDerivedException(10,20);    }    int main()    {        try        {            doSomething();        }        catch (MyDerivedException &exception)        {            cout << "\nCaught Derived Class Exception\n";        }        catch (MyException &exception)        {            cout << "\nCaught Base Class Exception\n";        }        return 0;    }
+a) Caught Base Class Exception
+b) Caught Derived Class Exception
+c) Caught Base & Derived Class Exception
+d) Caught Base Class
+b
+Output:
+$ g++ class1.cpp
+$ a.out
+Caught Derived Class Exception
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    using namespace std;    int main()     {        string s = "a long string";        s.insert(s.size() / 2, " * ");        cout << s << endl;        return 0;    }
+a) a long* string
+b) a long st*ring
+c) Depends on compiler
+d) a long string*
+c
+Output:
+$ g++ class2.cpp
+$ a.out
+a long* string
+8. How many types of guarantees are there in exception class can have?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+9. Which operator is used to create the user-defined streams in c++?
+a) >>
+b) <<
+c) &
+d) Both >> & <<
+d
+10. What does the cerr represent?
+a) Standard error stream
+b) Standard logging stream
+c) Input stream
+d) Output stream
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Standard Exceptions» Next - C++ Programming Questions and Answers – Multiple Inheritance 

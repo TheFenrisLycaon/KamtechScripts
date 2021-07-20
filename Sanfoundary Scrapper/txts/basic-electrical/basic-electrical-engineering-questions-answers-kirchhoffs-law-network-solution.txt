@@ -1,0 +1,84 @@
+1. In an AC circuit, resistance 50 Ω, inductance 0.3 H and capacitance 15 μF is connected to an AC voltage source 25 V, 50 Hz. Determine the inductive reactance in the circuit.
+a) 36 ohm
+b) 95 ohm
+c) 125 ohm
+d) 140 ohm
+b
+XL=2π(50)(0.3) = 94.25 ohm.
+2. In an AC circuit, resistance 50 Ω, inductance 0.3 H and capacitance 15 μF is connected to an AC voltage source 25 V, 50 Hz. Determine the capacitive reactance in the circuit.
+a) 316 ohm
+b) 195 ohm
+c) 124 ohm
+d) 212 ohm
+d
+XC=1/(2π*50*15*10-6) =  212.21 ohm.
+3. In an AC circuit, resistance 50 Ω, inductance 0.3 H and capacitance 15 μF is connected to an AC voltage source 25 V, 50 Hz. Determine the impedance in the circuit.
+a) 110 ohm
+b) 100 ohm
+c) 125 ohm
+d) 140 ohm
+c
+XL=2π(50)(0.3)= 94.25 ohm .
+XC=1/(2π*50*15*10-6) =  212.21 ohm.
+Z2=502+(212.21-94.25)2=15625
+Z = 125 ohm.
+4. In an AC circuit, resistance 50 Ω, inductance 0.3 H and capacitance 15 μF is connected to an AC voltage source 25 V, 50 Hz. Determine the current in the circuit.
+a) 0.01 A
+b) 0.2 A
+c) 0.02 A
+d) 0.002 A
+b
+XL=2π(50)(0.3)= 94.25 ohm .
+XC=1/(2π*50*15*10-6) =  212.21 ohm.
+Z2=502+(212.21-94.25)2=15625
+Z = 125 ohm.
+Current in the circuit i=V/Z=25/125=0.2 A.
+5. Find the value of the source current from the following circuit.
+a) 2.54A
+b) 6.67A
+c) 3.35A
+d) 7.65A
+a
+V2 =I3R=(3+j0)(8+j0)=(24+j0)V
+I2=V2/Xc=(j1.5) A
+I1 =I2 +I3 =(0+j1.5)+(3+j0)=(3+j1.5)A
+I1=(32+1.52)1/2= 3.35A.
+6.  Find the value of the source voltage from the following circuit.
+a) 49.2V
+b) 34.6V
+c) 65.2V
+d) 25.6V
+a
+V2 =I3R=(3+j0)(8+j0)=(24+j0)V
+I2=V2/Xc=(0 + j1.5) A
+I1 =I2 +I3 =(0+j1.5)+(3+j0)=(3+j1.5)A
+I1=(32+1.52)1/2= 3.35A.
+V1 =I1(R+jXL) =(15+j30)V
+E=V1 +V2 =(39+j30)V
+E=(392+302)1/2= 49.2V.
+7. In an AC circuit, resistance 50 Ω, inductance 0.3 H and capacitance 15 μF is connected to an AC voltage source 25 V, 50 Hz. Determine the phase difference between current and voltage.
+a) 670
+b) 540
+c) 470
+d) 770
+a
+XL=2π(50)(0.3) = 94.25 ohm.
+XC=1/(2π*50*15*10-6) =  212.21 ohm.
+tanϕ = |(XL-XC)|/R = (212.21-94.25)/50 = 2.3592
+ϕ=670.
+8. What value of direct current must flow through a resistor to produce the same heating power as an alternating current with a peak value of 3.5 A?
+a) 1.5 A
+b) 2.5 A
+c) 3.5 A
+d) 4.5 A
+b
+IDC2R = IRMS2R
+IDC=IRMS
+IRMS=I0/√2 = 3.5/√2 = 2.5 A.
+IDC=2.5 A.
+Sanfoundry Global Education & Learning Series – Basic Electrical Engineering.
+To practice all areas of Basic Electrical Engineering, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Basic Electrical Engineering Questions and Answers – Alternating Current in an RLC Circuit» Next - Basic Electrical Engineering Questions and Answers – Frequency Variation in a Series RLC Circuit 

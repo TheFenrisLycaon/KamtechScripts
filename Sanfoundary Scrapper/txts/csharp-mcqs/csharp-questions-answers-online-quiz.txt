@@ -1,0 +1,96 @@
+1. What is the String in C# meant for?
+a) Variable
+b) Character Array
+c) Object
+d) Class
+c
+2. What does the term ‘immutable’ means in term of string objects?
+a) We can modify characters included in the string
+b) We cannot modify characters contained in the string
+c) We cannot perform various operation of comparison, inserting, appending etc
+d) None of the mentioned
+b
+3. To perform comparison operation on strings supported operations are ____________
+a) Compare()
+b) Equals()
+c) Assignment ‘==’ operator
+d) All of the mentioned
+d
+4. What will be the output of the following C# code?
+ static void Main(string[] args) {     string s1 = "Hello I Love Csharp ";     Console.WriteLine(Convert.ToChar( (s1.IndexOf('I') - s1.IndexOf('l')) * s1.IndexOf('p'));     Console.ReadLine(); }
+a) I
+b) Hello I
+c) Love
+d) H
+d
+Output : H
+5. Correct way to convert a string to uppercase using string class method()?
+a) Upper()
+b) ToUpper()
+c) Object.ToUpper()
+d) None of the mentioned
+c
+             Console.WriteLine(s1.ToUpper());
+             Output: HELLO I LOVE CSHARP.
+6. What will be the output of the following C# code?
+ static void Main(string[] args) {     String obj = "hello";     String obj1 = "world";        String obj2 = obj;     Console.WriteLine (obj.Equals(obj2) + "  " + obj2.CompareTo(obj) );     Console.ReadLine(); }
+a) True True
+b) False False
+c) True 0
+d) False 1
+c
+Output :
+True 0
+7. What will be the output of the following C# code?
+ static void Main(string[] args) {     String obj = "hello";     String obj1 = "world";        String obj2 = obj;     Console.WriteLine(obj + "  " + obj1);     string s = obj + "  " + obj1;     Console.WriteLine(s.Length);     Console.ReadLine(); }
+a) 
+hello world
+10
+b) 
+hello world
+6
+c) 
+hello world
+11
+d) 
+hello world
+5
+c
+Output:
+        hello world
+        11
+  
+8. What will be the output of the following C# code?
+ static void Main(string[] args) {     String obj = "hello";     String obj1 = "world";        String obj2 = obj;     string s = obj+" "+obj1;     Console.WriteLine(s.IndexOf('r'));     Console.ReadLine(); }
+a) 7
+b) 8
+c) 9
+d) 10
+b
+Output:
+8
+9. What will be the output of the following C# code?
+ static void Main(string[] args) {     String obj = "hello";     String obj1 = "world";        String obj2 = obj;     string s = obj + "  " + obj1;     Console.WriteLine(s.Substring(6 ,5));     Console.ReadLine(); }
+a) hello
+b) orld
+c) world
+d) o world
+c
+Output:
+world
+10. What will be the output of the following C# code?
+ static void Main(string[] args) {     String obj = "hello";     String obj1 = "worn";        String obj2 = obj;     Console.WriteLine(obj + "  " + (obj1.Replace('w' ,'c')));     Console.ReadLine(); }
+a) hello hello
+b) hello worn
+c) hello corn
+d) hello
+c
+Output:
+hello corn
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice  all areas of C# for online Quizzes, here is complete set on 1000+ Multiple Choice Questions and Answers on C#. 
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Basic Operation on Strings» Next - C# Questions & Answers – Comparison of Strings 

@@ -1,0 +1,91 @@
+1. What is the reverse transmission factor?
+a) Ratio of output by input signal
+b) Ratio of feedback by input signal
+c) Ration of feedback by output signal
+d) Ratio of input by feedback signal
+c
+XF ∝ XO
+XF = βXO, where β is the feedback factor or reverse transmission factor.
+2. Return ratio for a circuit is 220. What is the amount of feedback, correct up to 2 decimal places?
+a) 2.34 dB
+b) – 46.84 dB
+c) – 46.88 dB
+d) 46.88 dB
+c
+Amount of feedback is AF/A = 1 + Aβ
+In decibels, amount of feedback = -20log10(1+Aβ) = -20log10(221) = -46.88 decibels.
+3. Consider the given diagram. Loop gain is 19. Consider closed loop gain is 50. Find the output without any feedback when input is 5.
+a) 1000
+b) 500
+c) 5000
+d) 50000
+c
+AF = A/(1+Aβ) = 50
+A = 20*50 = 1000
+Output is thus 5000.
+4. Consider an open loop circuit with lower cutoff frequency 5kHz and upper cutoff frequency 20kHz. If negative feedback is applied to the same, choose correct option stating the new cutoff frequencies.
+a) Lower cutoff = 5kHz, Upper cutoff = 20kHz
+b) Lower cutoff = 2kHz, Upper cutoff = 18kHz
+c) Lower cutoff = 2kHz, Upper cutoff = 25kHz
+d) Lower cutoff = 10kHz, Upper cutoff = 25kHz
+c
+fHF = fH(1+Aβ)
+fLF = fL/(1+Aβ)
+Total bandwidth is thus increased.
+5. Find the relative change in gain with negative feedback given that return ratio is 24, and feedback factor is 3, when the change in open loop gain is 2.
+a) 1
+b) 1.6
+c) 0.1
+d) 0.01
+d
+Aβ = 24
+A = 8
+Relative change in gain = dAF/AF = dA/A(1+Aβ)
+dAF/AF = 2/8*25 = 0.01.
+6. Relative change of gain of feedback amplifier is 0.05. Also, loop gain is 9. Find desensitivity?
+a) 50
+b) 10
+c) 20
+d) 1/9
+b
+Loop gain Aβ = 9
+1+Aβ = 10
+Desensitivity = 1/S = 1+Aβ = 10.
+7. Circuit P has desensitivity 20, circuit Q has sensitivity 0.1 and circuit R has desensitivity 40. Which of the following is more stable in gain?
+a) Circuit P
+b) Circuit Q
+c) Circuit R
+d) All circuits are equally stable in gain
+c
+For circuit Q, desensitivity = 1/S = 10
+Circuit R has higher desensitivity, hence most stable.
+8. Consider the open loop response. An unknown feedback is applied. Choose the correct output of the new system from the following.
+a) Output response of Increased frequency distortion
+b) Output response of Decreased frequency distortion
+c) Output response of Decreased frequency distortion
+d) Output response of No change in frequency distortion.
+b
+9. Consider the total harmonic distortion of a closed loop system is 5%.  Distortion without feedback is 10%. Calculate the sensitivity of closed loop system.
+a) 0.5
+b) 0.2
+c) 0.6
+d) 0.1
+a
+1 + Aβ = DH/DHF = 10/5 = 2
+Sensitivity = \(\frac{1}{2}\) = 0.5.
+10. For the system shown gain with feedback is 200. Find feedback factor.
+a) 0.41
+b) 5
+c) 0.0041
+d) It can be any real number
+c
+A = A1 x A2 = 1200
+Thus 1 + Aβ = 1200/200 = 6
+Aβ = 5
+β = 5/A = 0.0041.
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Feedback Connection Types» Next - Analog Circuits Questions and Answers – Features of Power Amplifier 

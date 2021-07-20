@@ -1,0 +1,96 @@
+1. Noise Margin is:
+a) Amount of noise the logic circuit can withstand
+b) Difference between VOH and VIH
+c) Difference between VIL and VOL
+d) All of the Mentioned
+d
+2. The VIL is found from transfer characteristic of inverter by:
+a) The point where the straight line at VOH ends
+b) The slope of the transition at a point at which the slope is equal to -1
+c) The midpoint of the transition line
+d) All of the mentioned
+b
+3. The VIH is found from transfer characteristic of inverter by:
+a) The point where straight line at VOH ends
+b) The slope of the transition at a point at which the slope is equal to -1
+c) The midpoint of the transition line
+d) All of the mentioned
+b
+4. The relation between threshold voltage and Noise Margin is:
+a) Vth = sqrt(Noise Margin)
+b) Vth = NMH – NML
+c) Vth = (NMH+NML)/2
+d) None of the metioned
+d
+5. The Lower Noise Margin is given by:
+a) VOL – VIL
+b) VIL – VOL
+c) VIL ~ VOL(Difference between VIL and VOL, depends on which one is greater)
+d) All of the Mentioned
+b
+6. The Higher Noise Margin is given by:
+a) VOH – VIH
+b) VIH – VOH
+c) VIH ~ VOH(Difference between VIH and VOH, depends on which one is greater)
+d) All of the mentioned
+a
+7. The Uncertain or transition region is between:
+a) VIH and VOH
+b) VIL and VOL
+c) VIH and VIL
+d) VOH and VOL
+c
+8. The noise immunity ____________ with noise margin.
+a) Decreases
+b) Increases
+c) Constant
+d) None of the Mentioned
+b
+9. If VIL of the 2nd gate is higher than VOL of the 1st gate, then logic output 0 from the 1st gate is considered as:
+a) Logic input 1
+b) Uncertain
+c) Logic input 0
+d) None of the mentioned
+c
+10. If VIL of the 2nd gate is lower than VOL of the 1st gate, then logic output 0 from the 1st gate is considered as:
+a) Logic input 1
+b) Uncertain
+c) Logic input 0
+d) None of the mentioned
+b
+11. Input Voltage between VIL and VOL is considered as:
+a) Logic Input 1
+b) Logic Input 0
+c) Uncertain
+d) None of the mentioned
+b
+12. If VIH of the 2nd gate is higher than VOH of the 1st gate, then logic output 0 from the 1st gate is considered as:
+a) Logic input 1
+b) Uncertain
+c) Logic input 0
+d) None of the mentioned
+b
+13. Determine the Noise Margin for 5V TTL inverter gate:
+a) NMH = 0.4V and NML =0.4V
+b) NMH = 2.4V and NML = 0.4V
+c) NMH = 2V and NML = 0.8V
+d) NMH = 1.5V and NML = 0.4V
+a
+14. Determine the Noise Margin for 5V CMOS inverter gate:
+a) NMH = 1V and NML = 1V
+b) NMH = 3.7V and NML = 0.2V
+c) NMH = 0.9V and NML = 1V
+d) NMH = 0.2V and NML = 0.5V
+c
+15. Noise margin of CMOS is:
+a) Better than TTL and ECL
+b) Less than TTL and ECL
+c) Equal to TTL and ECL
+d) None of the Mentioned
+a
+Sanfoundry Global Education & Learning Series – VLSI.
+To practice all areas of VLSI, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VLSI Questions and Answers – MOS Transistor Threshold Voltage» Next - VLSI Questions and Answers – Noise in MOS Device 

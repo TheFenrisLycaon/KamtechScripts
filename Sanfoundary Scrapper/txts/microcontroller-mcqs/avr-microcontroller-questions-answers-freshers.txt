@@ -1,0 +1,67 @@
+1. Which of the following is correct about the word resolution in ADC DAC converters in AVR’s?
+a) it is the smallest change that can be described by an ADC
+b) it is equal to Vref/2n (where n represents the number of bits)
+c) it is 0.076mV or 76uV for n=16 and Vref=5V
+d) all of the mentioned
+d
+2. In an ADC, we can calculate the output voltage from the formula
+a) Step size / Vin
+b) Step size * Vin
+c) Vin / step size
+d) Vref / step size
+c
+3. ADC0848 is a ____________ bit converter?
+a) 16
+b) 4
+c) 8
+d) 48
+c
+4. Which of the following factors can affect the step size calculation?
+a) number of bits
+b) input current
+c) output current
+d) all of the mentioned
+a
+5. MAX1112 is a _________ type of ADC converter?
+a) parallel
+b) 12 bit
+c) serial
+d) all of the mentioned
+c
+Join [email protected]ouTube
+6. Why do we connect a capacitor between the Vref and the Gnd pin?
+a) to remove the leakage
+b) to ensure more current at that place
+c) to make more Vref
+d) to make Vref stable and also to increase the precision of the ADC
+d
+7. Which of the following are the registers that are used for controlling the ADC conversion in the AVR?
+a) ADCSRA
+b) ADMUX
+c) SPIOR
+d) All of the mentioned
+d
+8. What is the internal Vref of an Atmega32 series?
+a) 5V
+b) 3.3V
+c) 2.56V
+d) all of the mentioned
+c
+9. The output of a DAC0808 is in the form of ____________
+a) electrical pulse
+b) current
+c) voltage
+d) all of the mentioned
+b
+10. In a DAC the input is ______ and the output is ______
+a) analog, digital
+b) current, voltage
+c) digital, analog
+d) analog, current
+c
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller for Freshers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - AVR Microcontroller Questions and Answers – Keyboard Interfacing» Next - AVR Microcontroller Questions and Answers – Sensor Interfacing 

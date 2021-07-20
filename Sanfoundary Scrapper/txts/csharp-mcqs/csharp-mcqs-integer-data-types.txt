@@ -1,0 +1,106 @@
+1. How many Bytes are stored by ‘Long’ Data type in C# .net?
+a) 8
+b) 4
+c) 2
+d) 1
+a
+2. Choose “.NET class” name from which data type “UInt” is derived?
+a) System.Int16
+b) System.UInt32
+c) System.UInt64
+d) System.UInt16
+b
+              i) System.Int16 = short.
+              ii) System.UInt32 = UInt.
+              iii) System.UInt64 = ULong.
+              iv) System.UInt16 = UShort.
+3. Correct Declaration of Values to variables ‘a’ and ‘b’?
+a) int a = 32, b = 40.6;
+b) int a = 42; b = 40;
+c) int a = 32; int b = 40;
+d) int a = b = 42;
+c
+ii) Missing declaration type of ‘b’.
+iii) correctly declared data types ‘a’ and ‘b’.
+iv) ‘b’ can’t be assigned values before declaration.
+4. What will be the error in the following C# code?
+ Static Void Main(String[] args) {     const int m = 100;     int n = 10;     const int k = n / 5 * 100 * n ;     Console.WriteLine(m * k);     Console.ReadLine(); }
+a) ‘k’ should not be declared constant
+b) Expression assigned to ‘k’ should be constant in nature
+c) Expression (m * k) is invalid
+d) ‘m ‘ is declared  in invalid format
+b
+Output:
+Error 1 - The expression being assigned to 'k' must be constant.
+5. Arrange the following data type in order of increasing magnitude sbyte, short, long, int.
+a) long < short < int < sbyte
+b) sbyte < short < int < long
+c) short < sbyte < int < long
+d) short < int < sbyte < long
+b
+6. Which data type should be more preferred for storing a simple number like 35 to improve execution speed of a program?
+a) sbyte
+b) short
+c) int
+d) long
+a
+7. Which Conversion function  of ‘Convert.TOInt32()’ and ‘Int32.Parse()’ is efficient?
+
+i) Int32.Parse() is only used for strings and throws argument exception for null string
+ii) Convert.Int32() used for data types and returns directly '0' for null string
+a) ii
+b) Both i, ii
+c) i
+d) None of the mentioned
+a
+8. Correct way to assign values to variable ‘c’ when int a=12, float b=3.5, int c;
+a) c = a + b;
+b) c = a + int(float(b));
+c) c = a + convert.ToInt32(b);
+d) c = int(a + b);
+c
+9. What will be Correct Set of C# Code for given data ‘a’ and ‘b’ to print output for ‘c’ as 74?
+a)
+   int a = 12;   float b = 6.2f;   int c;   c = a / b + a * b;   Console.WriteLine(c);
+b)
+   int a = 12;   float b = 6.2f;   int c;   c = a / convert.ToInt32(b) + a * b;   Console.WriteLine(c);
+c)
+   int a = 12;   float b = 6.2f;   int c;   c = a / convert.ToInt32(b) + a * convert.ToInt32(b);   Console.WriteLine(c);
+d)
+    int a = 12;    float b = 6.2f;    int c;    c = convert.ToInt32(a / b + a * b);    Console.WriteLine(c);
+c
+Output :
+ 74
+  
+10. Does the output remain same or different for both cases?
+i)
+  char l ='k';  float b = 19.0f;  int c;  c = (l / convert.ToInt32(b));  Console.Writeline(c);
+ii)
+   char l ='k';   float b = 19.0f;   int c;   c = Convert.ToInt32(l / b);   console.writeline(c);
+a) Yes
+b) No
+b
+Output –
+         1) 5.
+         2) 6.
+11. Default Type of number without decimal is?
+a) Long Int
+b) Unsigned Long
+c) Int
+d) Unsigned Int
+c
+12. What will be the output of the following C# code?
+ static void Main(string[] args) {     float a = 10.553f;     long b = 12L;     int  c;     c = Convert.ToInt32(a + b);     Console.WriteLine(c); }
+a) 23.453
+b) 22
+c) 23
+d) 22.453
+c
+Output :
+23
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+» Next - C# Questions & Answers – Floating and Decimal Data Types 

@@ -1,0 +1,79 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for EMC and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear EMC interviews on C Programming language. 
+Here is a listing of C multiple choice questions on “Complicated Declarations” along with answers, explanations and/or solutions:
+1. Read the following expression?
+void (*ptr)(int);
+a) ptr is pointer to int that converts its type to void
+b) ptr is pointer to function passing int returning void
+c) ptr is pointer to void that converts its type to int
+d) ptr is pointer to function passing void returning int
+b
+2. Which of the following expression is true for the following C statement?
+ptr is array with 3 elements of pointer to function returning pointer of int
+a) int **ptr[3]();
+b) int *(*ptr[3])();
+c) int (*(*ptr[3])());
+d) None of the mentioned
+b
+3. What makes the following declaration denote?
+int **ptr;
+a) ptr is a function pointer that returns pointer to int type
+b) ptr is a pointer to an int pointer
+c) ptr is a pointer to pointer to type int
+d) none of the mentioned
+b
+4. What makes the following declaration denote?
+char *str[5];
+a) str is an array of 5 element pointer to type char
+b) str is a pointer to an array of 5 elements
+c) str is a function pointer of 5 elements returning char
+d) none of the mentioned
+a
+5. Comment on the following declaration.
+    int (*ptr)(); // i)
+    char *ptr[]; // ii)
+a) Both i) and ii) and cannot exist due to same name
+b) i) is legal, ii) is illegal
+c) i) is illegal, ii) is legal
+d) Both i) and ii) will work legal and flawlessly
+d
+6. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        int no;        char name[20];    }    void main()    {        struct student s;        s.no = 8;        printf("hello");    }
+a) Compile time error
+b) Nothing
+c) hello
+d) Varies
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        int no = 5;        char name[20];    };    void main()    {        struct student s;        s.no = 8;        printf("hello");    }
+a) Nothing
+b) Compile time error
+c) hello
+d) Varies
+b
+8. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        int no;        char name[20];    };    void main()    {        student s;        s.no = 8;        printf("hello");    }
+a) Nothing
+b) hello
+c) Compile time error
+d) Varies
+c
+9. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        struct student        {            int no;            char name[20];        };        struct student s;        s.no = 8;        printf("%d", s.no);    }
+a) Nothing
+b) Compile time error
+c) Junk
+d) 8
+d
+10. Is the below declaration legal?
+int* ((*x)())[2];
+a) True
+b) False
+c) Undefined behaviour
+d) Depends on the standard
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Complicated Declarations – 1» Next - C Programming Questions and Answers – Basics of Structures – 1 

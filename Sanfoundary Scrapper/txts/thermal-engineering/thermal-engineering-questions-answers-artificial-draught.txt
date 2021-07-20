@@ -1,0 +1,165 @@
+1. Mechanical draught is used in locomotives and small installations.
+a) True
+b) False
+b
+2. In case of Induced draught, where is the fan/blower installed?
+a) Near the base of chimney
+b) At the top of the chimney
+c) At the grate
+d) At the base of the boiler
+a
+3. Where is fan/blower located in case of forced draught?
+a) Near the base of chimney
+b) At the top of the chimney
+c) At the grate
+d) At the base of the boiler
+d
+4. Which of the following statement is TRUE about balanced draught?
+a) No fan/blower is installed
+b) A fan/blower is installed in the middle of the chimney
+c) One fan/blower is installed at the base of the boiler and one near the base of the chimney
+d) Two fans/blowers are installed both at the base of the boiler
+c
+5. Which of the following statements is FALSE regarding artificial draught?
+a) There is no need of water cooled bearing in forced draught fan
+b) Fan size and power required by a forced draught fan are 1/5 to ½ of that required for an induced draught fan
+c) Tendency for air leak into the boiler furnace is less in Induced draught fan as compared to forced draught fan
+d) In forced draught the fan/blower is installed near the base of the boiler
+c
+6. Calculate power of motor required to drive a forced draught fan which maintains a draught of 45 mm of water the temperatures of flue gases leaving the boiler and air inside the boiler house are 300°C and 25°C respectively. It is given that the air supplied for complete combustion of 1 kg of fuel is 20 kg. 1800 kg of coal is burnt per hour. The efficiency of the fan is 80%. (Take Volume of air at N.T.P as 0.7734 m3)
+a) 9.56 kW
+b) 4.66 kW
+c) 5.65 kW
+d) 6.32 kW
+b
+h = 45 mm of water, Tg = 300°C or 573 K, Ta = 25°C or 298 K, ma = 20 kg of air/kg of fuel
+M = 1800 kg coal/hour, V0 = 0.7734 m3, η = 0.8
+Power required to drive a forced draught fan is given by
+P = 0.998*10-8\((\frac{h(V_o )(m_a )M(T_a)}{η}) \) 
+Substituting the values,
+P = 0.998*10-8\((\frac{45(0.7734)(20)1800(298)}{0.8}) \) 
+P = 4.66 kW.
+7. A motor rated 5 kW runs a forced draught fan. It maintains a constant draught of 50 mm of water. Mass of air supplied per kg of fuel is 18 kg. Determine the efficiency of the fan is the ambient temperature is 27°C and 1500 kg of coal is consumed per hour respectively. (Take V0 = 0.7734 m3)
+a) 63%
+b) 78%
+c) 84%
+d) 59%
+a
+P = 5kW, h = 50 mm of water, ma = 18 kg air/kg fuel, Ta = 27°C or 300 K, M = 1500 kg coal/hr
+V0 = 0.7734 m3
+We know that,
+P = 0.998*10-8\((\frac{h(V_o)(m_a)M(T_a)}{η}) \) 
+Substituting the values,
+5 = 0.998*10-8\((\frac{50(0.7734)(18)1500(303)}{η}) \) 
+Solving for η, we get
+η = 0.63 or 63%.
+8. A motor which runs an induced draught fan, maintains a constant draught of 55 mm of water. The efficiency of the fan is 91%. The ambient temperature is 30°C and the temperature of the flue gases leaving the boiler is 330°C. The coal consumption rate is 1850 kg/hr.  The volume of air at N.T.P. should be taken as 0.7734 m3. Find the power of the motor if 20 kg of air is required for complete combustion of 1 kg of fuel.
+a) 4.65 kW
+b) 7.69 kW
+c) 12.65 kW
+d) 10.41 kW
+d
+h = 55 mm of water, η = 0.91, Ta = 30°C or 303 K, Tg = 330°C or 603 K, M = 1850 kg/hr
+V0 = 0.7734, ma = 20 kg air/kg fuel
+Power of an induced draught fan is given be –
+P = 0.998*10-8\((\frac{h(V_o)(m_a)M(T_g)}{η}) \) 
+Substituting the respective values
+P = 0.998*10-8\((\frac{55(0.7734)(20)1850(603)}{0.91})\) 
+P = 10.41 kW.
+9. Determine the ratio of power required to run a forced draught fan to power required to run an induced draught fan, considering same efficiency and same draught. The ambient temperature and temperature of flue gases leaving the boiler are 28°C and 300°C respectively. The coal consumption rate and mass of air supplied for complete combustion of fuel are also same.
+a) 0.52
+b) 0.23
+c) 0.65
+d) 0.78
+a
+Ta = 28°C or 301 K, Tg = 300°C or 573 K
+According to the given conditions,
+\(\frac{Power \, required \, by \, a \, Forced \, draught \, fan}{Power \, required by \, an \, induced \, draught \, fan} =  \frac{T_a}{T_g} \)  
+Therefore,
+\(\frac{Power \, required \, by \, a \, Forced \, draught \, fan}{Power \, required by \, an \, induced \, draught \, fan} =   \frac{301}{573} \)  
+\(\frac{Power \, required \, by \, a \, Forced \, draught \, fan}{Power \, required by \, an \, induced \, draught \, fan}\) = 0.52
+10. The temperature of the flue gases leaving the boiler is 330°C and the ambient temperature is 27°C. Find the power required by an induced draught fan if the power required by a forced draught fan under the same circumstances (same efficiency) is 3.6 kW.
+a) 7.24 kW
+b) 8.54 kW
+c) 5.78 kW
+d) 4.27 kW
+a
+Let power required by an Induced draught fan be Pi and Forced draught fan be Pf.
+Ta = 27°C or 300 K, Tg = 330°C or 603K, Pf = 3.6 kW
+According to the given conditions,
+\(\frac{Pf}{Pi}=\frac{T_a}{T_g} \) 
+or
+Pi = \(\frac{T_g}{T_a}*Pf \) 
+Substituting the values
+Pi = \(\frac{603}{300}*3.6 \) 
+Pi = 7.24 kW.
+11. Which of the following is FALSE about steam jet draught?
+a) Low grade fuel can also be used
+b) Requires low maintenance
+c) Steam jet draught is a type of artificial draught
+d) In case of forced steam jet draught, the jet is directed into smoke box
+d
+12. A motor of power 8.7 kW is used to run an induced draught fan which maintains a draught of 50 mm of water. 19 kg of air is supplied for complete combustion of 1 kg of fuel. The temperature of hot gases 325°C. The efficiency of the fan is 85%. Determine the coal consumption rate. (Take V0 = 0.7734 m3)
+a) 1523 kg/hr
+b) 1465 kg/hr
+c) 1686 kg/hr
+d) 1785 kg/hr
+c
+P = 8.7 kW, h = 50 mm of water, ma = 19 kg of air/kg of fuel, Tg = 325°C or 598 K, V0 = 0.7734 m3
+η = 0.85
+We know that,
+P = 0.998*10-8\((\frac{h(V_o)(m_a)M(T_g)}{η}) \) 
+Substituting the values
+8.7 = 0.998*10-8\((\frac{50(0.7734)(19)M(598)}{0.85})\) 
+Solving for “M”, we get
+M = 1686.47 kg/hr ≈ 1686 kg/hr.
+13. A motor of power 4 kW is used to drive a forced draught fan. The draught obtained is 45 mm of water. The temperature of the flue gases leaving the boiler is 300°C. The mass of air supplied per kg of fuel is 15 kg. The volume of air at N.T.P. is 0.7734 m3. The coal consumption rate is 1960 kg/hr. Calculate the ambient temperature if the efficiency of the fan is 78%.
+a) 25°C
+b) 32°C
+c) 27°C
+d) 30°C
+b
+P = 4kW, h = 45 mm of water, Tg = 300°C or 573 K, ma = 15 kg of air/kg of fuel, V0 = 0.7734 m3
+M = 1960 kg/hr,  η = 0.78, Ta = ?
+For forced draught fan,
+P = 0.998*10-8\((\frac{h(V_o)(m_a)M(T_a)}{η}) \) 
+Substituting the respective values
+4 = 0.998*10-8\((\frac{45(0.7734)(15)1960(Ta)}{0.78})\) 
+Solving for Ta, we get
+Ta = 305.53 K ≈ 305 K or 32°C
+14. Calculate the draught in mm of water using the following data.
+Power of the motor = 5 kW
+Efficiency of the motor = 75%
+Volume of the air at N.T.P. = 0.7734 m3
+Mass of air supplied per kg of fuel = 18 kg
+Coal consumption rate = 1800 kg/hr
+Ambient temperature = 25°C
+Temperature of the gases leaving the boiler = 330°C
+The motor drives a forced draught fan.
+a) 50.31 mm of water
+b) 45.32 mm of water
+c) 41.32 mm of water
+d) 17.65 mm of water
+a
+P = 5kW, V0 = 0.7734 m3, η = 0.75, ma = 18 kg of air/ kg of fuel, M = 1800 kg/hr
+Ta = 25°C or 298 K, Tg = 330°C or 603 K
+For a forced draught fan
+P = 0.998*10-8\((\frac{h(V_o)(m_a)M(T_a)}{η}) \) 
+Substituting the values
+5 = 0.998*10-8\((\frac{h(0.7734)(18)1800(298)}{0.75}) \) 
+Solving for “h”, we get
+h = 50.31 mm of water.
+15. Assuming same efficiency for the same draught and neglecting leakage, power required by induced draught fan is greater than power required by forced draught fan.
+a) True
+b) False
+a
+According to the given condition
+\(\frac{Power \, required \, by \, an \, induced \, draught \, fan}{Power \, required \, by \, a \, Forced \,  draught \, fan} = \frac{T_g}{T_a} \)  
+Since Tg > Ta
+Power requirement of an Induced draught fan > Power required by forced draught fan
+Sanfoundry Global Education & Learning Series – Thermal Engineering
+To practice all areas of Thermal Engineering,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Thermal Engineering Questions and Answers – Natural Draught» Next - Thermal Engineering Questions and Answers – Evaporative Capacity and Equivalent Evaporation 

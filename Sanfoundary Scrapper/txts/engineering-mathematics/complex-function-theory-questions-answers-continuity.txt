@@ -1,0 +1,113 @@
+1. The function f(x, y)=\(\frac{x^2(2xy-3x)+9y}{3x-2y}\) is which of the following?
+a) Discontinuous at origin
+b) Discontinuous at (1, 1)
+c) Continuous at origin
+d) Discontinuous at (2, 2)
+a
+Case 1: \(\lim_{x \to 0 \\ y \to 0}\frac{x^2(2xy-3x)+9y}{3x-2y}\) 
+\(\lim_{y \to 0}\frac{9y}{-2y}\) 
+=\(\frac{-9}{2}\) 
+Case 2: \(\lim_{y \to 0 \\ x \to 0}\frac{x^2(2xy-3x)+9y}{3x-2y}\) 
+\(\lim_{x \to 0}\frac{-3x^3}{3x}\) 
+=0
+Since, both the limits are not equal, the function is not continuous at origin.
+2. The function f(x, y)=\(\frac{2xy-3x}{3x-2y}\) is continuous at (1, 1).
+a) True
+b) False
+b
+\(\lim_{y \to 1}\frac{2y-3}{3-2y}\)=\(\frac{-1}{1}\)=-1 
+Case 2: \(\lim_{y \to 1 \\ x \to 1}\frac{2xy-3x}{3x-2y}\) 
+\(\lim_{x \to 1}\frac{2x-3x}{3x-2}\)=\(\frac{-1}{1}\)=-1 
+Case 3: \(\lim_{y \to mx \\ x \to 0}\frac{2xy-3x}{3x-2y}\) 
+\(\lim_{x \to 0}\frac{2mx^2-3x}{3x-2mx}\)=\(\frac{-3}{3-2m}\) 
+Since the cases are not same, f(x, y) is discontinuous at x=1.
+3. f(x, y)=\(\frac{3xy+3y+3x}{5x+5y}\) continuous at origin.
+a) True
+b) False
+b
+\(\lim_{y \to 0}\frac{3y}{5y}\)=\(\frac{3}{5}\) 
+Case 2: \(\lim_{y \to 0 \\ x \to 0}\frac{3xy+3y+3x}{5x+5y}\) 
+\(\lim_{x \to 0}\frac{3x}{5x}\)=\(\frac{3}{5}\) 
+Case 3: Along a linear path, \(\lim_{y \to mx \\ x \to 0}\frac{3xy+3y+3x}{5x+5y}\) 
+\(\lim_{x \to 0}\frac{3mx^2+3mx+3x}{5x}\)=\(\frac{3(m+1)}{5}\) 
+Since, the cases are not equal, f(x, y) is discontinuous at x=0.
+4. If f(x)=\(\frac{x+3}{x^2-5x+6}\)  and g(x)=\(\frac{x-3}{x^2-6x+8}\), then which of the following is correct?
+a) f(x) is continuous at x=2 and g(x) is continuous at x=2
+b) f(x) is discontinuous at x=3 and g(x) is discontinuous at x=2
+c) f(x) is continuous at x=4 and g(x) is discontinuous at x=4
+d) f(x) is discontinuous at x=3 and g(x) is continuous at x=2
+b
+(x2-5x+6)=(x-2)(x-3)
+Since the denominator becomes 0 at x=2 and x=3, f(x) is discontinuous at x=2 and x=3.
+The denominator of g(x) is (x2-6x+8). When we factorize this, we get,
+(x2-6x+8)=x2-2x-4x+8
+(x2-6x+8)=(x-2)(x-4)
+Since the denominator becomes 0 at x=2 and x=4, f(x) is discontinuous at x=2 and x=4.
+5. If f(x)=\(\frac{x+3}{x^2-5x}\)and g(x)=\(\frac{x-3}{x^2-6x}\), then which of the following is correct?
+a) f(x) is continuous at x=1 and g(x) is continuous at x=0
+b) f(x) is discontinuous at x=6 and g(x) is discontinuous at x=5
+c) f(x) is continuous at x=5 and g(x) is discontinuous at x=0
+d) f(x) is discontinuous at x=5 and g(x) is continuous at x=5
+b
+ (x2-5x)=x(x-5)
+Since the denominator becomes 0 at x=0 and x=5, f(x) is discontinuous at x=0 and x=5.
+The denominator of g(x) is (x2-6x). When we factorize this, we get,
+(x2-6x+8)=x(x-6)
+Since the denominator becomes 0 at x=0 and x=6, f(x) is discontinuous at x=0 and x=6.
+6. The function f(x)=\(\frac{1}{x^3-3x^2-10x+24}\)is continuous at which of the following?
+a) 1
+b) 2
+c) 3
+d) 4
+a
+At x = 1, we get f(1)=\(\frac{1}{12}\) which is continuous.
+7. The function f(x)=\(\frac{e^{-x}}{x(x-5)(x+2)}\) is continuous at which of the following?
+a) 0
+b) 2
+c) 5
+d) The function is continuous at all points
+b
+At x=2, we get f(2)=\(\frac{-1}{24}\) which is continuous.
+8. Which of the following is true about f(x)=tanx?
+a) Continuous at x=\(\frac{\pi}{2}\) 
+b) Continuous at x=\(-\frac{3\pi}{2}\) 
+c) Continuous at x=0 
+d) Continuous at x=\(\frac{3\pi}{2}\) 
+c
+cosx=0 when x=\(\frac{\pm (n+1)\pi}{2}\) which are points of discontinuity for the function, f(x)=tanx.
+9. Which of the following is true about f(x)=sinx+cosx?
+a) Continuous everywhere
+b) Continuous at x=\(\frac{\pm n\pi}{2}\), where n is any integer
+c) Continuous at x=\(\frac{\pm (n+1)\pi}{2}\), where n is any integer
+d) Continuous at x=0
+a
+10. Which of the following is false if both f(x) and g(x) are continuous?
+a) f(x)+g(x) is continuous
+b) f(x)-g(x)is continuous
+c) f(x)*g(x)is continuous
+d) \(\frac{f(x)}{g(x)}\) is continuous
+d
+11. Which of the following is discontinuous at x=9?
+a) \(\frac{x^2-81}{x-9}\) 
+b) \(\frac{x^3-20x^2+117x-162}{x-9}\) 
+c) \(\frac{x^2-11x+18}{x(x-9)}\) 
+d) \(\frac{x^2-13x-90}{x-9}\) 
+d
+ \(\frac{x^3-20x^2+117x-162}{x-9}\)=\(\frac{(x-9)^2(x-2)}{(x-9)}\)=(x-9)(x-2) which is continuous at x = 9.
+\(\frac{x^2-11x+18}{x(x-9)}\)=\(\frac{(x-2)(x-9)}{x(x-9)}\)=\(\frac{(x-2)}{x}\) which is continuous at x = 9.
+\(\frac{x^2-13x-90}{x-9}\)=\(\frac{(x-18)(x+5)}{x-9}\) which is discontinuous at x = 9, since the denominator becomes 0.
+12. Which of the following functions are continuous at x=11?
+a) \(\frac{1}{x^2+x-132}\) 
+b) \(\frac{1}{x^3-7x^2-40x-44}\) 
+c) \(\frac{1}{x^2-2x-143}\) 
+d) \(\frac{x-11}{x^3-23x^2+143x-121}\) 
+c
+\(\frac{1}{x^3-7x^2-40x-44}\)=\(\frac{1}{(x-11)(x+2)^2}\)is discontinuous at x=11 since the denominator becomes 0.
+\(\frac{x-11}{x^3-23x^2+143x-121}\)=\(\frac{(x-11)}{(x-11)^2(x-1)}\)=\(\frac{1}{(x-11)(x-1)}\)is discontinuous at x=11 since the denominator becomes 0.
+\(\frac{1}{x^2-2x-143}\)is continuous at x=11.
+Sanfoundry Global Education & Learning Series – Complex Analysis.
+To practice all areas of Complex Analysis, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Complex Analysis Questions and Answers – Functions of a Complex Variable» Next - Complex Function Theory Questions and Answers – Differentiability 

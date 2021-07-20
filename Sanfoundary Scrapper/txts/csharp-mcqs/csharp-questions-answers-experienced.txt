@@ -1,0 +1,96 @@
+1. The method in which large or variable number of arguments are handled is known as ________________
+a) Value parameters
+b) Output parameters
+c) Parameter arrays
+d) None of the mentioned
+c
+2. The modifiers used to define an array of parameters or list of arguments is __________
+a) ref
+b) out
+c) param
+d) var
+c
+3. What will be the output of the following C# code?
+ static void Main(string[] args) {     object[] a = {" 1 ", 4.0f, " harsh "};     fun(a);     Console.ReadLine(); } static void fun(params object[] b) {     for (int i = 0; i < b.Length - 1; i++)         Console.WriteLine(b[i] + " "); }
+a) 1 4.0 harsh
+b) 1 4
+c) 1 4 hars
+d) 1 4 harsh
+d
+Output :
+ 1 4 harsh
+4. Which of the following statements are correct?
+a) C SHARP allows a function to have arguments with default values
+b) C SHARP allows a function to have variable number of arguments
+c) Params are used to specify the syntax for a function having arguments
+d) Omitting the return value type in method definition results into an exception
+b
+5. What will be the output of the following C# code?
+static void Main(string[] args){    int [] a = {1, 2, 3, 4, 5};    fun(a);    Console.ReadLine();}static void fun(params int[] b ){    int[] k = { 3, 4, 7, 8,'\0' };    for (int i = 0; i < b.Length; i++)    {        b[i] = b[i] + k[i] ;        Console.WriteLine( b[i] + " ");    }}
+a) Compile time error
+b)  3, 4, 7, 8, 5
+c)  3, 4, 7, 8, 5, 1, 2, 3, 4, 5
+d)  4, 6, 10, 12, 5
+d
+Output :
+4, 6, 10, 12, 5
+6. What will be the output of the following C# code?
+ static void Main(string[] args) {     int [] a = {1, 2, 3, 4, 5};     fun(a);     Console.ReadLine(); } static void fun(params int[] b ) {     for (int i = 0; i < b.Length; i++)     {         b[i] = b[i] * 5 ;         Console.WriteLine(b[i] + "");     } }
+a) 1, 2, 3, 4, 5
+b) 5, 10, 15, 20, 25
+c) 5, 25, 125, 625, 3125
+d) 6, 12, 18, 24, 30
+b
+Output :
+ 5, 10, 15, 20, 25
+7. What will be the output of the following C# code?
+ static void Main(string[] args) {     int[] a = { 2, 21, 34, 46, 85, 88, 90};     fun(a);     Console.WriteLine(a + " ");     Console.ReadLine(); } static void fun(params int [] b ) {     int [] c = { 1, 2, 3, 4, 5, 6, 7};     int i ;     for (i = 0 ;i < b.Length ;i++)     if (b[i] % 2 == 0)     {         c[i] = b[i];     }     Console.WriteLine("even numbers are:");     for (i = 0 ;i <= b.Length ;i++)     {         Console.WriteLine(c[i]);     } }
+a) Compile time error
+b) 2, 21, 34, 4, 6, 46, 88, 90
+c) 2, 4, 34, 46, 6, 88, 90
+d) 2, 34, 46, 88, 90
+d
+8. Select the correct declaration of the defining array of parameters.
+a) 
+   void func(int[] x) 
+   {
+    
+   }
+b) 
+   void func(int x)
+   {
+
+   }
+c) 
+   void func(param int[])
+   {
+   
+   } 
+d) 
+   void fun(param int[] x)
+   {
+  
+   }
+d
+  
+9. What will be the output of the following C# code?
+ static void Main(string[] args) {     int[] x = { 80, 82, 65, 72, 83, 67 };     fun(x);     Console.ReadLine(); } static void fun(params int [] b ) {     int i;     for (i = 5; i >=0 ; i--)     {         Console.WriteLine(Convert.ToChar(b[i]));     } }
+a) 67 83 72 65 82 80
+b) P R A H S C
+c) C S H A R P
+d) 80 82 65 72 83 67
+c
+10. What will be the output of the following C# code?
+ static void Main(string[] args) {     int[] x = {65, 66, 67, 68, 69, 70};     fun(x);     Console.ReadLine(); } static void fun(params int[] b ) {     int i;     for (i = 5; i > 0 ; i--)     {         b[i] = b[i] + 32;         Console.WriteLine(Convert.ToChar(b[i]));     } }
+a) A, B, C, D, E, F
+b) F, E, D, C, B, A
+c) f, e, d, c, b
+d) b, c, d, e, f
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all areas of C# for Experienced people, here is complete set on 1000+ Multiple Choice Questions and Answers on C#. 
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Use of Ref and Out Parameters» Next - C# Questions & Answers –  Polymorphism 

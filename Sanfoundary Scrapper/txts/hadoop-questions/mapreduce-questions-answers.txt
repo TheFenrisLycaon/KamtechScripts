@@ -1,0 +1,74 @@
+1. A ________ node acts as the Slave and is responsible for executing a Task assigned to it by the JobTracker.
+a) MapReduce
+b) Mapper
+c) TaskTracker
+d) JobTracker
+c
+2. Point out the correct statement.
+a) MapReduce tries to place the data and the compute as close as possible
+b) Map Task in MapReduce is performed using the Mapper() function
+c) Reduce Task in MapReduce is performed using the Map() function
+d) All of the mentioned
+a
+3. ___________ part of the MapReduce is responsible for processing one or more chunks of data and producing the output results.
+a) Maptask
+b) Mapper
+c) Task execution
+d) All of the mentioned
+a
+4. _________ function is responsible for consolidating the results produced by each of the Map() functions/tasks.
+a) Reduce
+b) Map
+c) Reducer
+d) All of the mentioned
+a
+5. Point out the wrong statement.
+a) A MapReduce job usually splits the input data-set into independent chunks which are processed by the map tasks in a completely parallel manner
+b) The MapReduce framework operates exclusively on <key, value> pairs
+c) Applications typically implement the Mapper and Reducer interfaces to provide the map and reduce methods
+d) None of the mentioned
+d
+6. Although the Hadoop framework is implemented in Java, MapReduce applications need not be written in ____________
+a) Java
+b) C
+c) C#
+d) None of the mentioned
+a
+7. ________ is a utility which allows users to create and run jobs with any executables as the mapper and/or the reducer.
+a) Hadoop Strdata
+b) Hadoop Streaming
+c) Hadoop Stream
+d) None of the mentioned
+b
+8. __________ maps input key/value pairs to a set of intermediate key/value pairs.
+a) Mapper
+b) Reducer
+c) Both Mapper and Reducer
+d) None of the mentioned
+a
+9. The number of maps is usually driven by the total size of ____________
+a) inputs
+b) outputs
+c) tasks
+d) None of the mentioned
+a
+10. _________ is the default Partitioner for partitioning key space.
+a) HashPar
+b) Partitioner
+c) HashPartitioner
+d) None of the mentioned
+c
+11. Running a ___________ program involves running mapping tasks on many or all of the nodes in our cluster.
+a) MapReduce
+b) Map
+c) Reducer
+d) All of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of MapReduce, here is complete set of 1000+ Multiple Choice Questions and Answers.
+	
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Hadoop Ecosystem» Next - Hadoop Questions and Answers – Analyzing Data with Hadoop 

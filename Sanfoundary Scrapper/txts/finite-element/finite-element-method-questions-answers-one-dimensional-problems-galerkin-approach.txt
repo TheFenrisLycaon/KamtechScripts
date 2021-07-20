@@ -1,0 +1,66 @@
+1. Galerkin technique is also called as _____________
+a) Variational functional approach
+b) Direct approach
+c) Weighted residual technique
+d) Variational technique
+c
+2. In the equation, \(\int_{L} \sigma^T  \epsilon(\phi)Adx -\int_{L} \phi^T f Adx -\int_{L}\phi^Tdx – \sum_{i}\phi_i P_i=0\) First term represents _______
+a) External virtual work
+b) Virtual work
+c) Internal virtual work
+d) Total virtual work
+c
+3. Considering element connectivity, for example  for element ψ=[ψ1, ψ2]n for element n, then the variational form is ______________
+a) ψT(KQ–F)=0
+b) ψ(KQ-F)=0
+c) ψ(KQ)=F
+d) ψ(F)=0
+a
+4. Write the element stiffness matrix for a beam element.
+a) K=\(\frac{2EI}{l}\) 
+b) K=\(\frac{2EI}{l}\begin{bmatrix}2 & 1 \\  1  &  2 \end{bmatrix}\) 
+c) K=\(\frac{2E}{l}\begin{bmatrix}2 \\  1  \end{bmatrix}\) 
+d) K=\(\frac{2E}{l}\begin{bmatrix}1 & 1 \\  1  &  1 \end{bmatrix}\) 
+b
+5. Element connectivities are used for _____
+a) Traction force
+b) Assembling
+c) Stiffness matrix
+d) Virtual work
+b
+6. Virtual displacement field is _____________
+a) K=\(\frac{EA}{l}\) 
+b) F=ma
+c) f(x)=y
+d) &fcy;=&fcy;(x)
+d
+7. Virtual strain is ____________
+a) ε(&fcy;)=\(\frac{dx}{d\phi}\) 
+b) ε(&fcy;)=\(\frac{d\phi}{dx}\) 
+c) ε(&fcy;)=\(\frac{dx}{d\varepsilon}\) 
+d) &fcy;(ε)=\(\frac{d\varepsilon}{d\phi}\) 
+b
+8. To solve a galerkin method of approach equation must be in  ___________
+a) Equation
+b) Vector equation
+c) Matrix equation
+d) Differential equation
+d
+9. By the Galerkin approach equation can be written as __________
+a) {P}-{K}{Δ}=0
+b) {K}-{P}{Δ}=0
+c) {Δ}-{p}{K}=0
+d) Undefined
+a
+10. In basic equation Lu=f, L is a ____________
+a) Matrix function
+b) Differential operator
+c) Degrees of freedom
+d) No. of elements
+b
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – One Dimensional Problems – Potential Energy Approach» Next - Finite Element Method Questions and Answers – One Dimensional Problems – Assembly of the Global Stiffness Matrix and Load Vector 

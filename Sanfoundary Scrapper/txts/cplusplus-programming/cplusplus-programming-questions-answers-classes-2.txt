@@ -1,0 +1,237 @@
+1. Which category of data type a class belongs to?
+a) Fundamental data type
+b) Derived data type
+c) User defined derived data type
+d) Atomic data type
+c
+2. Which operator a pointer object of a class uses to access its data members and member functions?
+a) .
+b) ->
+c) :
+d) ::
+b
+3. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	int a;
+ 
+   public:
+	int assign(int i) const {
+		a = i;
+	}
+	int return_value() const {
+		return a;
+	}
+};
+int main(int argc, char const *argv[])
+{
+	A obj;
+	obj.assign(5);
+	cout<<obj.return_value();
+}
+a) 5
+b) 10
+c) Error
+d) Segmentation fault
+c
+4. What is the correct syntax of accessing a static member of a Class?
+---------------------------
+Example class:
+class A
+{
+	public:
+		static int value;
+}
+---------------------------
+a) A.value
+b) A::value
+c) A->value
+d) A^value
+b
+5. How the objects are self-referenced in a member function of that class.
+a) Using a special keyword object
+b) Using this pointer
+c) Using * with the name of that object
+d) By passing self as a parameter in the member function
+b
+6. What does a mutable member of a class mean?
+a) A member that can never be changed
+b) A member that can be updated only if it not a member of constant object
+c) A member that can be updated even if it a member of constant object
+d) A member that is global throughout the class
+c
+7. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+ 
+class A
+{
+	mutable int a;
+ 
+        public:
+	int assign(int i) const {
+		a = i;
+	}
+	int return_value() const {
+		return a;
+	}
+ 
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A obj;
+	obj.assign(5);
+	cout<<obj.return_value();
+}
+a) 5
+b) Error
+c) Segmentation fault
+d) Undefined value
+a
+8. Pick the incorrect statement about inline functions in C++?
+a) They reduce function call overheads
+b) These functions are inserted/substituted at the point of call
+c) Saves overhead of a return call from a function
+d) They are generally very large and complicated function
+d
+9. Inline functions are avoided when ____________________________
+a) function contains static variables
+b) function have recursive calls
+c) function have loops
+d) all of the mentioned
+d
+10. Pick the correct statement.
+a) Macros and inline functions are same thing
+b) Macros looks like function calls but they are actually not
+c) Inline functions looks like function but they are not
+d) Inline function are always large
+b
+11. What will be the output of the following C++ code?
+#include <iostream> 
+using namespace std; 
+class S 
+{ 
+	int m; 
+   public: 
+	#define MAC(S::m)
+};
+ 
+int main(int argc, char const *argv[])
+{
+	cout<<"Hello World";
+	return 0;
+}
+a) Hello World
+b) Error
+c) Segmentation Fault
+d) Blank Space
+b
+12. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+ 
+class A
+{
+	static int a;
+ 
+   public:
+	void change(int i){
+		a = i;
+	}
+	void value_of_a(){
+		cout<<a;
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A a1 = A();
+	a1.change(5);
+	a1.value_of_a();
+	return 0;
+}
+a) 5
+b) Garbage value
+c) Error
+d) Segmentation fault
+c
+13. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	static int a;
+    public:
+	void change(int i){
+		a = i;
+	}
+	void value_of_a(){
+		cout<<a;
+	}
+};
+ 
+int A::a = 5;
+ 
+int main(int argc, char const *argv[])
+{
+	A a1 = A();
+	A a2 = A();
+	A a3 = A();
+	a1.change(10);
+	a1.value_of_a();
+	a2.value_of_a();
+	a3.value_of_a();
+	return 0;
+}
+a) 1055
+b) 555
+c) 101010
+d) 51010
+c
+14. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	int a = 5;
+    public:
+	void change(int i){
+		a = i;
+	}
+	static void value_of_a(){
+		cout<<a;
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A a1 = A();
+	a1.change(10);
+	a1.value_of_a();
+	return 0;
+}
+a) 10
+b) Error
+c) Segmentation Fault
+d) 5
+b
+15. Which functions of a class are called inline functions?
+a) All the functions containing declared inside the class
+b) All functions defined inside or with the inline keyword
+c) All the functions accessing static members of the class
+d) All the functions that are defined outside the class
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Classes – 1» Next - C++ Programming Questions and Answers – User Defined Types 

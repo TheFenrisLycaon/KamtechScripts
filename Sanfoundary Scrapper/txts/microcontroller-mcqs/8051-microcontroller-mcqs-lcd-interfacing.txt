@@ -1,0 +1,67 @@
+1. How many rows and columns are present in a 16*2 alphanumeric LCD?
+a) rows=2, columns=32
+b) rows=16, columns=2
+c) rows=16, columns=16
+d) rows=2, columns=16
+d
+2. How many data lines are there in a 16*2 alphanumeric LCD?
+a) 16
+b) 8
+c) 1
+d) 0
+b
+3. Which pin of the LCD is used for adjusting its contrast?
+a) pin no 1
+b) pin no 2
+c) pin no 3
+d) pin no 4
+c
+4. For writing commands on an LCD, RS bit is
+a) set
+b) reset
+c) set & reset
+d) none of the mentioned
+b
+5. Which command of an LCD is used to shift the entire display to the right?
+a) 0x1C
+b) 0x18
+c) 0x05
+d) 0x07
+a
+Join Sanfoundry@YouTube
+6. Which command is used to select the 2 lines and 5*7 matrix of an LCD?
+a) 0x01
+b) 0x06
+c) 0x0e
+d) 0x38
+d
+7. Which of the following step/s is/are correct for sending data to an LCD?
+a) set the R/W bit
+b) set the E bit
+c) set the RS bit
+d) all of the mentioned
+d
+8. Which of the following step/s is/are correct to perform reading operation from an LCD?
+a) low to high pulse at E pin
+b) R/W pin is set high
+c) low to high pulse at E pin & R/W pin is set high
+d) none of the mentioned
+c
+9. Which instruction is used to select the first row first column of an LCD?
+a) 0x08
+b) 0x0c
+c) 0x80
+d) 0xc0
+c
+10. The RS pin is _________ for an LCD.
+a) input
+b) output
+c) input & output
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - 8051 Microcontroller Questions and Answers – Interrupt Programming» Next - 8051 Microcontroller Questions and Answers – Keyboard Interfacing 

@@ -1,0 +1,90 @@
+1. Choose the symbol which begins a preprocessor directive in C#.NET?
+a) #
+b) **
+c) *
+d) &
+a
+ #define, #elif, #else etc.
+2. What is meant by preprocessor directive in C#.NET?
+a) a form of command which are interpreted by the compiler
+b) a form of macros like in c and c++ not exactly same to them, separately designed for C#.NET
+c) always begins with a ‘#’ character occupies separate line of source of code
+d) all of the mentioned
+d
+3. What is meant by preprocessor directive #define?
+a) defines a character sequence
+b) helps in determining existence and non existence of a symbol
+c) can be used to create function like macros as in C/C++
+d) all of the mentioned
+a
+4. Select the defined preprocessor in C#.NET?
+a) #define
+b) #elif
+c) #else
+d) All of the mentioned
+d
+5. What does preprocessor directive #if and #endif explains?
+a) Enables compilation of sequence of code on condition basis
+b) Express results into true or false on evaluation of condition
+c) If expression following #if is true then code that is between #if and #endif is compiled otherwise skipped
+d) All of the mentioned
+d
+6. What will be the output of the following C# code snippet?
+Join [email protected]
+ #define pi  using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks;  namespace ConsoleApplication13{    class Program    {           static void Main(string[] args)        {            #if (!pi)             Console.WriteLine("i");            #else             Console.WriteLine("pi not define");            #endif            Console.WriteLine("ok");            Console.ReadLine();       }   }}
+a) 
+i
+pi not define
+b) 
+pi not define
+ok
+c) 
+i
+ok
+d) ok
+b
+Output:  pi not define
+         ok
+7. What will be the output of the following C# code snippet?
+#define DEBUG #define MYTESTusing System;using System.Collections.Generic;using System.Linq;using System.Text;using System.Threading.Tasks; namespace ConsoleApplication13{    class Program    {           static void Main(string[] args)        {            #if (DEBUG && !MYTEST)            Console.WriteLine("DEBUG is defined");            #elif (!DEBUG && MYTEST)            Console.WriteLine("MYTEST is defined");            #elif (DEBUG && MYTEST)            Console.WriteLine("DEBUG and MYTEST are defined");            #else            Console.WriteLine("DEBUG and MYTEST are not defined");            #endif            Console.ReadLine();        }    }}
+a) 
+DEBUG is defined
+MYTEST is defined
+b) 
+MYTEST is defined
+DEBUG and MYTEST are defined
+c) 
+DEBUG and MYTEST are not defined
+MYTEST is defined
+d) DEBUG and MYTEST are defined
+d
+8. What will be the output of the following C# code snippet?
+#define DEBUG #undef DEBUGusing System;using System.Collections.Generic;using System.Linq;using System.Text;using System.Threading.Tasks; namespace ConsoleApplication13{    class Program    {           static void Main(string[] args)        {            #if (DEBUG)            Console.WriteLine("DEBUG is defined");            #elif (!DEBUG && MYTEST)            Console.WriteLine("MYTEST is defined");            #elif (DEBUG && MYTEST)            Console.WriteLine("DEBUG and MYTEST are defined");            #else            Console.WriteLine("DEBUG and MYTEST are not defined");            #endif            Console.ReadLine();       }   }}
+a) 
+DEBUG is defined
+DEBUG and MYTEST are not defined
+b) DEBUG and MYTEST are not defined
+c) 
+MYTEST is defined
+DEBUG and MYTEST are not defined
+d) DEBUG is defined
+b
+Output: DEBUG and MYTEST are not defined
+9. Which preprocessor directive among the following forces the compiler to stop the compilation?
+a) #warning
+b) #endregion
+c) #undef
+d) #error
+d
+10. Which among the following is not a preprocessor directive?
+a) #ifdef
+b) #pragma
+c) #Or
+d) #undef
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Fundamentals of Namespaces» Next - C# Questions & Answers – Method with Parameters 

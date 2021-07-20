@@ -1,0 +1,92 @@
+1. What is the main task of a problem-solving agent?
+a) Solve the given problem and reach to goal
+b) To find out which sequence of action will get it to the goal state
+c) All of the mentioned
+d) None of the mentioned
+c
+2. What is state space?
+a) The whole problem
+b) Your Definition to a problem
+c) Problem you design
+d) Representing your problem with variable and parameter
+d
+3. The problem-solving agent with several immediate options of unknown value can decide what to do by just examining different possible sequences of actions that lead to states of known value, and then choosing the best sequence. This process of looking for such a sequence is called Search.
+a) True
+b) False
+a
+4. A search algorithm takes _________ as an input and returns ________ as an output.
+a) Input, output
+b) Problem, solution
+c) Solution, problem
+d) Parameters, sequence of actions
+b
+5. A problem in a search space is defined by one of these state.
+a) Initial state
+b) Last state
+c) Intermediate state
+d) All of the mentioned
+a
+6. The Set of actions for a problem in a state space is formulated by a ___________
+a) Intermediate states
+b) Initial state
+c) Successor function, which takes current action and returns next immediate state
+d) None of the mentioned
+c
+7. A solution to a problem is a path from the initial state to a goal state. Solution quality is measured by the path cost function, and an optimal solution has the highest path cost among all solutions.
+a) True
+b) False
+a
+8. The process of removing detail from a given state representation is called ______
+a) Extraction
+b) Abstraction
+c) Information Retrieval
+d) Mining of data
+b
+9. A problem solving approach works well for ______________
+a) 8-Puzzle problem
+b) 8-queen problem
+c) Finding a optimal path from a given source to a destination
+d) Mars Hover (Robot Navigation)
+d
+10. The _______ is a touring problem in which each city must be visited exactly once. The aim is to find the shortest tour.
+a) Finding shortest path between a source and a destination
+b) Travelling Salesman problem
+c) Map coloring problem
+d) Depth first search traversal on a given map represented as a graph
+b
+11. Web Crawler is a/an ____________
+a) Intelligent goal-based agent
+b) Problem-solving agent
+c) Simple reflex agent
+d) Model based agent
+a
+12. What is the major component/components for measuring the performance of problem solving?
+a) Completeness
+b) Optimality
+c) Time and Space complexity
+d) All of the mentioned
+d
+13. A production rule consists of ____________
+a) A set of Rule
+b) A sequence of steps
+c) Set of Rule & sequence of steps
+d) Arbitrary representation to problem
+c
+14. Which search method takes less memory?
+a) Depth-First Search
+b) Breadth-First search
+c) Linear Search
+d) Optimal search
+a
+15. Which is the best way to go for Game playing problem?
+a) Linear approach
+b) Heuristic approach (Some knowledge is stored)
+c) Random approach
+d) An Optimal approach
+b
+Sanfoundry Global Education & Learning Series –  Artificial Intelligence.
+To practice all areas of Artificial Intelligence, here is complete set of 1000+ Multiple Choice Questions and Answers on Artificial Intelligence.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Artificial Intelligence Questions & Answers – Environments» Next - Artificial Intelligence Questions & Answers – Uninformed Search Strategy 

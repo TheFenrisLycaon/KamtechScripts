@@ -1,0 +1,66 @@
+1. User defined function in SQL Server can return ____________
+a) Scalar value
+b) Set of values
+c) Result set
+d) All of the mentioned
+d
+2. Point out the wrong statement.
+a) You can create the function once, store it in the database
+b) CLR functions offer significant performance advantage over Transact-SQL functions for computational task
+c) Function is a database object in Sql Server
+d) None of the mentioned
+d
+3. Function cannot be used for __________ statement.
+a) Create
+b) Drop
+c) Select
+d) Insert
+d
+4. The benefit of using user-defined functions in SQL Server are ____________
+a) They allow modular programming
+b) They can increase network traffic
+c) They allow slower execution
+d) All of the mentioned
+a
+5. Point out the wrong statement.
+a) Transact-SQL user-defined functions in queries can only be executed on a multiple thread
+b) User-defined scalar functions return a single data value of the type defined in the RETURNS clause
+c) User-defined table-valued functions return a table data type
+d) All of the mentioned
+a
+6. Syntax for creation of user defined function is ____________
+a) CREATE FUNCTIONS
+b) CREATE FUNCTION
+c) CREATE FUNC
+d) All of the mentioned
+b
+7. How many types of user defined function is provided by SQL Server?
+a) 2
+b) 3
+c) 4
+d) 5
+b
+8. Which of the following is not a User defined function?
+a) Max()
+b) Scalar Function
+c) Inline Table-Valued Function
+d) Multi-Statement Table-Valued Function
+a
+9. Which of the following does not return a table variable?
+a) System-defined function
+b) Scalar Function
+c) Inline Table-Valued Function
+d) Multi-Statement Table-Valued Function
+b
+10. User defined scalar function can return only __________ data type values.
+a) Numerical
+b) String
+c) Float
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Built in Stored Procedures» Next - SQL Server Questions and Answers – User Defined Functions – 2 

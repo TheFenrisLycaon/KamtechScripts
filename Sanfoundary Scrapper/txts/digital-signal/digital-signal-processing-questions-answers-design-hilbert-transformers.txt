@@ -1,0 +1,96 @@
+1. What kind of filter is an ideal Hilbert transformer?
+a) Low pass
+b) High pass
+c) Band pass
+d) All pass
+d
+2. How much phase shift does an Hilbert transformer impart on the input?
+a) 45°
+b) 90°
+c) 135°
+d) 180°
+b
+3. Which of the following is the frequency response of the ideal Hilbert transform?
+a) 
+
+-j ;0 ≤ ω ≤ π
+j ;-π ≤ ω ≤ 0
+b)  
+j ;0 ≤ ω ≤ π
+-j ;-π ≤ ω ≤ 0
+c) -j ;-π ≤ ω ≤ π
+d) None of the mentioned
+a
+H(ω) = -j ;0 ≤ ω ≤ π
+H(ω) = j ;-π ≤ ω ≤ 0
+Join Sanfoundry@YouTube
+4. In which of the following fields, Hilbert transformers are frequently used?
+a) Generation of SSB signals
+b) Radar signal processing
+c) Speech signal processing
+d) All of the mentioned
+d
+5. The unit sample response of an ideal Hilbert transform is
+h(n)=\(\frac{2}{\pi} \frac{(sin(\frac{πn}{2}))^{2}}{n}\); n≠0
+h(n)=0; n=0
+a) True
+b) False
+a
+H(ω)= -j ;0 < ω < π
+j ;-π < ω < 0
+Thus the unit sample response of an ideal Hilbert transform is obtained as
+h(n)=\(\frac{2}{\pi} \frac{(sin(\frac{πn}{2}))^{2}}{n}\); n≠0
+h(n)=0; n=0
+6. The unit sample response of Hilbert transform is infinite in duration and causal.
+a) True
+b) False
+b
+h(n)=\(\frac{2}{\pi} \frac{(sin(\frac{πn}{2}))^{2}}{n}\); n≠0
+h(n)=0; n=0
+it sample response of an ideal Hilbert transform is infinite in duration and non-causal.
+7. The unit sample response of Hilbert transform is _______________
+a) Zero
+b) Symmetric
+c) Anti-symmetric
+d) None of the mentioned
+c
+h(n)=\(\frac{2}{\pi} \frac{(sin(\frac{πn}{2}))^{2}}{n}\); n≠0
+h(n)=0; n=0
+Thus from the above equation, we can tell that h(n)=-h(-n). Thus the unit sample response of Hilbert transform is anti-symmetric in nature.
+8. In this section, we confine our attention on the design of FIR Hilbert transformers with h(n)=-h(M-1-n).
+a) True
+b) False
+a
+9. Which of the following is true regarding the frequency response of Hilbert transform?
+a) Complex
+b) Purely imaginary
+c) Purely real
+d) Zero
+b
+10. It is impossible to design an all-pass digital Hilbert transformer.
+a) True
+b) False
+a
+11. If fl and fu are the cutoff frequencies, then what is the desired real valued frequency response of a Hilbert transform filter in the frequency range 2π fl < ω < 2πfu?
+a) -1
+b) -0.5
+c) 0
+d) 1
+d
+H(ω)=1; 2π fl < ω < 2πfu
+where fl and fu are the cutoff frequencies.
+12. What is the value of unit sample response of an ideal Hilbert transform for ‘n’ even?
+a) -1
+b) 1
+c) 0
+d) None of the mentioned
+c
+h(n)=\(\frac{2}{\pi} \frac{(sin(\frac{πn}{2}))^{2}}{n}\); n≠0
+h(n)=0; n=0
+From the above equation, it is clear that h(n) becomes zero for even values of ‘n’.
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Design of FIR Differentiators» Next - Digital Signal Processing Questions and Answers – Comparison of Design Methods for Linear Phase FIR Filters 

@@ -1,0 +1,142 @@
+1. 
+Create function dept count(dept_name varchar(20))
+begin
+declare d count integer;
+select count(*) into d count
+from instructor
+where instructor.dept_name= dept_name
+return d count;
+end
+Find the error in the the above statement.
+a) Return type missing
+b) Dept_name is mismatched
+c) Reference relation is not mentioned
+d) All of the mentioned
+a
+2. For the function created in Question 1, which of the following is a proper select statement ?
+a)
+SELECT dept name, budget
+FROM instructor
+WHERE dept COUNT() > 12;
+b)
+SELECT dept name, budget
+FROM instructor
+WHERE dept COUNT(dept name) > 12;
+c)
+Join Sanfoundry@YouTube
+SELECT dept name, budget
+WHERE dept COUNT(dept name) > 12;
+d)
+SELECT dept name, budget
+FROM instructor
+WHERE dept COUNT(budget) > 12;
+b
+  
+3. Which of the following is used to input the entry and give the result in a variable in a procedure?
+a) Put and get
+b) Get and put
+c) Out and In
+d) In and out
+d
+4. 
+Create procedure dept_count proc(in dept name varchar(20),
+out d count integer)
+begin
+select count(*) into d count
+from instructor
+where instructor.dept name= dept count proc.dept name
+end
+Which of the following is used to call the procedure given above ?
+a) 
+Declare d_count integer;
+b) 
+
+   Declare d_count integer;
+   call dept_count proc(’Physics’, d_count);
+c) 
+
+   Declare d_count integer;
+   call dept_count proc(’Physics’);
+d) 
+
+   Declare d_count; 
+   call dept_count proc(’Physics’, d_count);
+b
+  
+5. The format for compound statement is
+a) Begin ……. end
+b) Begin atomic……. end
+c) Begin ……. repeat
+d) Both Begin ……. end and Begin atomic……. end
+d
+6.
+Repeat
+sequence of statements;
+__________________
+end repeat
+Fill in the correct option :
+a) While Condition
+b) Until variable
+c) Until boolean expression
+d) Until 0
+c
+7. Which of the following is the correct format for if statement?
+a) 
+If boolean expression
+then statement or compound statement
+elseif boolean expression
+then statement or compound statement
+else statement or compound statement
+end if
+b) 
+If boolean expression
+then statement or compound statement
+elsif boolean expression
+then statement or compound statement
+else statement or compound statement
+end if
+c) 
+If boolean expression
+then statement or compound statement
+elif boolean expression
+then statement or compound statement
+else statement or compound statement
+end if
+d) 
+If boolean expression
+then statement or compound statement
+else 
+ statement or compound statement
+else statement or compound statement
+end if
+a
+  
+8. A stored procedure in SQL is a___________
+a) Block of functions
+b) Group of Transact-SQL statements compiled into a single execution plan.
+c) Group of distinct SQL statements.
+d) None of the mentioned
+b
+9. Temporary stored procedures are stored in _________ database.
+a) Master
+b) Model
+c) User specific
+d) Tempdb
+d
+10. Declare out of classroom seats condition
+DECLARE exit handler FOR OUT OF classroom seats
+BEGIN
+SEQUENCE OF statements
+END
+The above statements are used for
+a) Calling procedures
+b) Handling Exception
+c) Handling procedures
+d) All of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Access SQL From a Programming Language» Next - Database Questions and Answers – Triggers 

@@ -1,0 +1,105 @@
+1. What is the default increment value in a for-loop?
+a) 0
+b) 1
+c) An increment value is necessary
+d) 0/1
+b
+2. What is the output of the following code?
+for i=1:4
+for j=1:4
+a=5;a=a+5;
+end
+end
+a) No output will be shown
+b) a=10;
+c) a=80
+d) Error in the code
+b
+3. What is the output of the following code?
+for i=1:5
+for j=1:6
+a(i,j)=input();
+end
+end
+a) No output
+b) Error
+c) Asks user to input a 5*6 matrix
+d) Asks and displays a 5*6 matrix
+b
+syntax: a(i,j)=input(‘’) 	OR	a(i,j)=input(‘Enter value coloumn-wise:’)
+We can choose to place a semi-colon at the end, then the matrix won’t be displayed after every input.
+4.  What is the size of i after the following code is run in MATLAB?
+for i=5:1
+i=i-2;
+end
+a) No output
+b) 0*0
+c) i=-1
+d) Error
+b
+5. A break statement will leave the outer loop.
+a) True
+b) False
+b
+6. How many times will the following loop run?
+for i=1:5
+if(i<3) break
+a) No output due to some error
+b) 1 times
+c) 0 times
+d) 3 times
+c
+7. What is the nature of the following code?
+j=0;i=1;
+while(j>5)
+for i=1:8
+j=j+i;
+end
+end
+a) j=0 & i=1
+b) j=1 & i=0
+c) i=8 & j=36
+d) Error
+a
+Output: No output will be shown since we have placed a semi-colon after j=j+i. But the workspace will store i & j as 1 & 0 respectively.
+8. A for-loop can have multiple index values.
+a)	True
+b)	False
+a
+9. There can be multiple decision variables for while loop.
+a)	True
+b)	False
+a
+10. What will be the output for the following code?
+k=0;i=0;
+ while(k<1 && i<1)
+k=k+1;
+i=i+1;i=i-k;
+end
+a) i=0,k=1
+b) i=0,k=0
+c) i=1,k=0
+d) i=1,k=1
+a
+11. How do we break from an infinite loop without keeping a break statement within the loop?
+a) Press Ctrl+C
+b) Press Ctrl+Z
+c) Loop won’t be terminated
+d) Press Ctrl+X
+a
+12. What will the following code do?
+j=0;i=5;
+while(j<0)
+j=j-1; i=i+5;j=i;
+end
+a) Nothing
+b) j=0 & i=5
+c) Error
+d) Cannot be determined
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – M-Files» Next - MATLAB Questions and Answers – Presenting Results 

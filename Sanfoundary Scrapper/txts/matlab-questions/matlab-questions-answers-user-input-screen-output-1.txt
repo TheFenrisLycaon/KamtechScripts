@@ -1,0 +1,149 @@
+1. What is the output of the following code?
+error(“Lola !”);
+a) Output is suppressed
+b) Syntactical error
+c) No such function exists
+d) It displays Lola !
+b
+2. What is the output of the following code?
+error(‘Dan !’);
+a) No output, it gets suppressed
+b) The word Dan ! is displayed
+c) No such function
+d) Syntactical Error
+b
+Output: Dan !
+3. What is the output of the following code?
+error(‘ No !!!!’)
+a) No !!!!
+b) No !!!!
+c) Logical Error
+d) Symbolic error
+b
+Output: No !!!!
+4. What is the output of the following code?
+error(‘Lola ! \n Dan !’);
+a) Output is suppressed
+b) Symbolic error in \n
+c) 
+    Lola ! 
+    Dan !
+d) Lola ! \n Dan !
+d
+Output: Lola ! \n Dan !
+5. What is the output of the following code?
+MException('Lola!', '%d * %d= Why?', Inf,Inf)
+a) Error due to identifier
+b) Error due to Inf
+c)
+    MException with properties:
+    identifier: 'Lola!’
+    message: 'Inf * Inf= Why?'
+    cause: {}
+    stack: [0×1 struct]
+d) No such command
+b
+6. What is the output of the following code?
+MException('MATLAB:test', '%d * %d= Why?', Inf,Inf)
+a)
+    MException with properties:
+    identifier: ‘MATLAB:test’
+    message: 'Inf * Inf= Why?'
+    cause: {}
+    stack: [0×1 struct]
+b)
+    MException with properties:
+    identifier: “MATLAB:test”
+    message: 'Inf * Inf= Why?'
+    cause: []
+    stack: [0×1 struct]
+c)
+    MException with properties:
+    identifier: ''MATLAB:test’
+    message: '%d * %d= Why?'
+    cause: {}
+    stack: [0×1 struct]
+d) Error
+a
+Output:
+    MException with properties:
+    identifier: ‘MATLAB:test’
+    message: 'Inf * Inf= Why?'
+    cause: {}
+    stack: [0×1 struct]
+7. What is the output of the following code?
+disp(‘%d’,Inf);
+a) Inf
+b) No such command
+c) Error due to too many arguments
+d) Syntactical error
+c
+8. What is the output of the following code?
+sprintf(‘%d’,5)
+a) 5
+b) ‘5’
+c) Syntactical error
+d) Logical error
+b
+9. What is the output of the following code?
+warning(‘Pikapi !’)
+a) Warning: ‘Pikapi !’
+b) Warning: Pikapi !
+c) Warning: ‘Pikapi !’
+d) Warning: Pikapi !
+d
+Output: Warning: Pikapi !
+10. What is the output of the following code?
+warning('off')
+warning('Pikapi !')
+a) No output
+b) Warning: Pikapi !
+c) 
+    Warning: Off
+    Warning: Pikapi !
+d) Syntactical error
+a
+11. What is the output of the following code?
+disp(‘ ‘,lola!’ 2’)
+a) ‘lola!’ 2
+b) ‘ ‘lola!’ 2’
+c) ‘lola! 2’
+d) Error due to multiple arguments
+d
+12. How many arguments are given to the above command?
+disp(‘ ‘lola!’ 2’)
+a) Cannot be defined
+b) 2
+c) 1
+d) 0
+c
+13. What is the output of the following command?
+sscanf(‘.1 .2 .3’,%d)
+a) [] 
+b) 
+ 
+    .1
+    .2
+    .3
+c) 
+ 
+    1
+    2
+    3
+d) Error
+a
+14. The default exponential order for %e and %E is same.
+a) True
+b) False
+a
+15. The disp() command cannot print anything but inputs given within string arguments.
+a) True
+b) False
+b
+ 
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Commands for Parsing Input and Output – 2» Next - MATLAB Questions and Answers – User Input and Screen Output – 2 

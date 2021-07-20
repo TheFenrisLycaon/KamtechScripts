@@ -1,0 +1,106 @@
+1. Which of these is a correct expression for the one sided upper cusum?
+a) \(C_i^+=min⁡[0,x_i-(μ_0+K)+C_{i-1}^+]\) 
+b) \(C_i^+=max⁡[0,x_i-(μ_0+K)+C_{i-1}^+]\) 
+c) \(C_i^+=min⁡[0,(μ_0-K)-x_i+C_{i-1}^+ ]\) 
+d) \(C_i^+=max⁡[0,(μ_0-K)-x_i+C_{i-1}^+]\) 
+b
+\(C_i^+=max⁡[0,x_i-(μ_0+K)+C_{i-1}^+]\)
+2. What is the value of one sided lower cusum?
+a) \(C_i^-=min⁡[0,x_i-(μ_0+K)+C_{i-1}^-]\) 
+b) \(C_i^-=max⁡[0,x_i-(μ_0+K)+C_{i-1}^-]\) 
+c) \(C_i^-=min⁡[0,(μ_0-K)-x_i+C_{i-1}^-]\) 
+d) \(C_i^-=max⁡[0,(μ_0-K)-x_i+C_{i-1}^-]\) 
+d
+\(C_i^-=max⁡[0,(μ_0-K)-x_i+C_{i-1}^-]\)
+3. What is K called in the expressions of the one-sided Cusums?
+a) Regarded value
+b) Related value
+c) Resultant value
+d) Reference value
+d
+4. Which of these is another name of the reference value?
+a) Regarding value
+b) Stoppage value
+c) Stack value
+d) Assignable value
+c
+5. The value of the reference value is chosen ____________
+a) 3/4 ways between mean and the out-of-control mean towards the mean
+b) 1/2 ways between mean and the out-of-control mean
+c) 3/4 ways between mean and the out-of-control mean towards the out-of-control mean
+d) 1/4 ways between mean and the out-of-control mean towards the mean
+b
+6. What is the value δ is called, when used in the expression of K?
+a) The shift of mean in standard deviation units
+b) The shift of variance in standard deviation units
+c) The shift of standard deviation in mean units
+d) The shift of mean in variance units
+a
+K=\(\frac{\delta\sigma}{2}\) 
+Here this value δ is called the shift of mean in standard deviation units.
+7. What is the value of μ1(out-of-control mean) in the terms of the actual target mean μ0, and the shift?
+a) μ1=μ0+δσ
+b) μ1=μ0+2δσ
+c) μ1=μ0+\(\frac{δ}{2}\)σ
+d) μ1=μ0-δσ
+a
+μ1=μ0+δσ.
+8. What is the value of K in the terms of out-of-control mean and the target mean?
+a) \(K=\frac{|μ_0-μ_1|}{2}\) 
+b) \(K=\frac{|μ_1-μ_0|}{2}\) 
+c) \(K=\frac{|μ_1-μ_0|}{4}\) 
+d) \(K=3\frac{|μ_1-μ_0|}{4}\) 
+b
+\(K=\frac{|μ_1-μ_0|}{2}\)
+9. What is the starting value of one-sided upper cusum?
+a) 1
+b) 6
+c) 5
+d) 0
+d
+\(C_i^+=max⁡[0,x_i-(μ_0+K)+C_{i-1}^+]\) 
+The starting value of this would be C0+ which is always taken as 0.
+10. What is the starting value of the one-sided lower cusum?
+a) 1.5
+b) -1.5
+c) 0
+d) .3
+c
+\(C_i^-=max⁡[0,(μ_0-K)-x_i+C_{i-1}^-]\) 
+This value is called the starting value of lower one-sided cusum when the value of i=0. The value of C0–=0.
+11. If the value of the quantity ”\((μ_0-K)-x_i+C_{i-1}^-\)” becomes negative, what will be the value of the value Ci–?
+a) Negative
+b) Positive
+c) Zero
+d) Can be both, ±1
+c
+\(C_i^-=max⁡[0,(μ_0-K)-x_i+C_{i-1}^-]\) 
+So, as the value of quantity \((μ_0-K)-x_i+C_{i-1}^-\) becomes negative, it becomes lesser than 0. So we take the maximum value between zero and it, i.e. Ci–=0
+12. Which of these is always correct?
+a) \(C_i^-≥0 \) 
+b) \(C_i^-≤0\) 
+c) \(C_i^->1.323\) 
+d) \(C_i^-<-1.323\) 
+a
+13. After the value of Ci– increasing than the value of _____ the process is said to be out-of-control.
+a) Control interval
+b) Decision interval
+c) Distribution interval
+d) Calculation interval
+b
+14. If the value of μ0 > μ1, K will have a negative value.
+a) True
+b) False
+b
+\(K=\frac{|μ_1-μ_0|}{2}\) 
+So even if μ0 > μ1, K will have its value greater than 0.
+15. The generally used value of K is the only value, which substantially impact the performance of the cusum.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Time-Weighted – Cumulative Sum Control Chart – 3» Next - Statistical Quality Control Questions and Answers – Time-Weighted – Cumulative Sum Control Chart – 5 

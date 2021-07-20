@@ -1,0 +1,67 @@
+1. When solved by the method of Differentiation for the given integral i.e \(\int_0^∞ \frac{x^{2}-1}{log⁡x} dx\) the result obtained is given by _______
+a) log⁡4
+b) log⁡3
+c) 2log⁡3
+d) log⁡8
+b
+Such that α=2 & thus \(f (α) = \int_0^∞ \frac{x^{α}-1}{log⁡x} dx\) 
+\(f’(α) = \int_0^1\frac{∂}{∂α} \left(\frac{x^{α}-1}{log⁡x}\right)dx\) …..Leibnitz rule
+\( =\int_0^1\frac{x^α.log⁡x}{log⁡x} dx\) 
+\( = \int_0^1 x^α  dx = [\frac{x^{α+1}}{α+1}]_0^1 = \frac{1}{α+1}\) 
+We have \(f’(α) = \frac{1}{α+1}\) 
+Thus \(f (α) = \int\frac{1}{α+1}dα+c\) 
+f (α) = log(α+1)+c
+or f (α) = log(α+1) …… neglecting constant since the function is assumed
+thus f (2) = log(2+1) = log(3). 
+2. Which among the following correctly defines Leibnitz rule of a function given by \( f (α) = \int_a^b (x,α)dx\) where a & b are constants?
+a) \(f’(α) = \frac{∂}{∂α}\int_a^b f (x,α) dx\) 
+b) \(f’(α) = \frac{d}{dα} \int_a^b f (α) dx\) 
+c) \(f’(α) = \int_a^b \frac{∂}{∂α} f (x,α) dx\) 
+d) \(f’(α) = \int_a^b \frac{d}{dα} f (x,α) dx\) 
+c
+3. Which among the following correctly defines Leibnitz rule of a function given by
+ \( f (α) = \int_a^b (x,α)dx\) where a & b are functions of  α?
+a) \(f’(α) = \int_a^b \frac{∂}{∂α} f(x,α) dx\) 
+b) \(f’(α) = \frac{d}{dα} \int_a^b f(x,α) dx\) 
+c) \(f’(α) = \int_a^b \frac{∂}{∂α} f (x,α) dx + f(b, α) \frac{da}{dα} – f(a, α) \frac{db}{dα}\) 
+d) \(f’(α) = \int_a^b \frac{∂}{∂α} f (x,α) dx + f(b, α) \frac{db}{dα} – f(a, α) \frac{da}{dα}\) 
+d
+\(\frac{da}{dα} \& \frac{da}{dα} = 0\)  which reduces the equation d into a
+4. Given \(f (a) = \int_a^{a^2} \frac{sin⁡ax}{x} dx \) what is the value of f’(a)?
+a) \(\frac{sin⁡3a}{a}\) 
+b) \(\frac{3 sin⁡ a^3 – 2 sin a^2}{a}\) 
+c) \(\frac{3 sin a^2 – 4 sin a}{a}\) 
+d) \(\frac{3 sin a^3 – 3 sin^2 a}{6a}\) 
+b
+\( f’ (α) = \int_p^q \frac{∂}{∂α} f (x,α) dx + f (q, α) \frac{dq}{dα} – f (p, α) \frac{dp}{dα} …..(1)\) 
+\(f (x,a) = \frac{sin⁡ax}{x}, p=a, q=a^2\) & further obtaining
+\(f(q,a) = f(a^2,a) = \frac{sin⁡ a^3}{a^2}, \frac{dq}{da} = 2a\) 
+\(f(p,a) = f(a,a) = \frac{sin⁡ a^2}{a}, \frac{dp}{da} = 1\) 
+substituting all these values in (1) we get
+\(f’(a) = \int_a^{a^2} \frac{∂}{∂α} (\frac{sin⁡ax}{x})dx + \frac{sin⁡ a^3}{a^2}.2a – \frac{sin⁡ a^2}{a}.1\) 
+\(\int_a^{a^2} \frac{1}{x} (cos(ax))(x)+ \frac{2 sin a^3 – sin^2 a}{a}\) 
+\([\frac{sin⁡ax}{x}]_a^{a^2} + \frac{2 sin a^3 – sin^2 a}{a} = \frac{sin⁡ a^3}{a} – \frac{sin⁡ a^2}{a} + \frac{2 sin a^3 – sin^2 a}{a}\) 
+thus \(f’(a) = \frac{3 sin⁡ a^3 – 2 sin a^2}{a}.\)
+5. When solved by the method of Differentiation for the given integral i.e. \(\int_0^1 \frac{x^2-1}{log_2⁡x}  dx \) the result obtained is given by _________
+a) log⁡5
+b) 3 log 3
+c) log 4
+d) 2 log 3
+a
+Here during integration changing \(log_2⁡x = \frac{log⁡x}{log⁡2}\)  and substituting we get (1) since  logarithm to base ‘e’ can be easily integratable.
+To solve this problem let us assume the given function is dependent on α
+  Such that α=2 & thus \(f (α) =  log⁡2 \int_0^∞ \frac{x^{α}-1}{log⁡x} dx\) 
+\(f’(α) = log⁡2 \int_0^1\frac{∂}{∂α} \left(\frac{x^{α}-1}{log⁡x}\right)dx\) …..Leibniz rule
+ \( = log⁡2 \int_0^1\frac{x^α.log⁡x}{log⁡x}  dx\) 
+\( = log⁡2 \int_0^1 x^α  dx = [\frac{x^{α+1}}{α+1}]_0^1 = \frac{1}{α+1}\) 
+We have \(f’(α) = log⁡2.\frac{1}{α+1}\) 
+Thus \(f (α) = log⁡2\int\frac{1}{α+1}dα+c\) 
+f (α) = log⁡2 .log(α+1)+c
+or f (α) = log(α+1+2) neglecting constant since the function is  assumed
+thus f (2) = log(2+3) = log(5). 
+Sanfoundry Global Education & Learning Series – Differential and Integral Calculus.
+To practice all areas of Differential and Integral Calculus, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Differential and Integral Calculus Questions and Answers – Jacobians» Next - Differential and Integral Calculus Questions and Answers – Taylor’s Theorem Two Variables 

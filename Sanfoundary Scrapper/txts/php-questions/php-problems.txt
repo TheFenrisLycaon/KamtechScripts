@@ -1,0 +1,76 @@
+1. What will be the output of the following PHP code?
+<?php$x;echo "$x";?>
+a) 0
+b) 1
+c) Nothing
+d) Error
+c
+2. What will be the output of the following PHP code?
+<?php$x = 5;{    $x = 10;    echo "$x";}echo "$x";?>
+a) 1010
+b) 105
+c) 510
+d) error
+a
+3. What will be the output of the following PHP code?
+<?php$x = 5;{    echo "$x";}?>
+a) 0
+b) 5
+c) Nothing
+d) Error
+b
+4. What will be the output of the following PHP code?
+<?php$x = 5;function fun(){    echo "$x";}fun();?>
+a) 0
+b) 5
+c) Nothing
+d) Error
+c
+5. What will be the output of the following PHP code?
+<?php$x = 5;function fun(){    $x = 10;    echo "$x";}fun();echo "$x";?>
+a) 0
+b) 105
+c) 510
+d) Error
+b
+6. What will be the output of the following PHP code?
+<?php$x = 4;$y = 3;function fun($x = 3, $y = 4){    $z = $x+$y/$y+$x;    echo "$z";} echo $x;echo $y;echo $z; fun($x, $y);?>
+a) 43
+b) 943
+c) 349
+d) 439
+d
+7. What will be the output of the following PHP code?
+<?php$x = 4;$y = 3;function fun($x, $y){    $z = $x + $y / $y + $x;    echo "$z";}echo $x;echo $y;echo $z; fun(3, 4);?>
+a) 437
+b) 439
+c) 349
+d) 347
+a
+8. What will be the output of the following PHP code?
+<?phpfunction fun($x,$y){    $x = 4;    $y = 3;    $z = $x + $y / $y + $x;    echo "$z";}fun(3, 4); ?>
+a) 7
+b) 9
+c) 0
+d) Error
+b
+9. What will be the output of the following PHP code?
+<?php$x = 3, 4, 5, 6;echo "$x";?>
+a) 3
+b) 4
+c) 6
+d) Error
+d
+10. What will be the output of the following PHP code?
+<?php$a = 10;$b = 4;$c = fun(10,4);function fun($a,$b){    $b = 3;    return $a - $b + $b - $a; }echo $a;echo $b;echo $c;?>
+a) 104
+b) 410
+c) 1400
+d) 4100
+c
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all areas of PHP Problems, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Variables – 2» Next - PHP Coding Questions and Answers – Variables – 4 

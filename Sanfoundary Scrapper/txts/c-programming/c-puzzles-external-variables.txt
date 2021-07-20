@@ -1,0 +1,70 @@
+This section on C questions and puzzles focuses on “External Variables”. One shall practice these questions and puzzles to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These programming puzzles can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C questions and puzzles on “External Variables” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        m();        printf("%d", x);    }    int x;    void m()    {        x = 4;    }
+a) 4
+b) Compile time error
+c) 0
+d) Undefined
+b
+2. What will be the output of the following C code?
+    #include <stdio.h>    int x;    void main()    {        printf("%d", x);    }
+a) Junk value
+b) Run time error
+c) 0
+d) Undefined
+c
+Join Sanfoundry@YouTube
+3. What will be the output of the following C code?
+    #include <stdio.h>    int x = 5;    void main()    {        int x = 3;        printf("%d", x);        {            x = 4;        }        printf("%d", x);    }
+a) Run time error
+b) 3 3
+c) 3 5
+d) 3 4
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    int x = 5;    void main()    {        int x = 3;        printf("%d", x);        {            int x = 4;        }        printf("%d", x);    }
+a) 3 3
+b) 3 4
+c) 3 5
+d) Run time error
+a
+5. Functions in C are always _________
+a) Internal
+b) External
+c) Both Internal and External
+d) External and Internal are not valid terms for functions
+b
+6. Global variables are ____________
+a) Internal
+b) External
+c) Both Internal and External
+d) None of the mentioned
+b
+7. Which of the following is an external variable in the following C code?
+    #include <stdio.h>    int func (int a)    {        int b;        return b;    }    int main()    {        int c;        func (c);    }    int d;
+a) a
+b) b
+c) c
+d) d
+d
+8. What will be the output of the following C code?
+     #include <stdio.h>    int main()    {        printf("%d", d++);    }    int d = 10;
+a) 9
+b) 10
+c) 11
+d) Compile time error
+d
+9. What will be the output of the following C code?
+    #include <stdio.h>    double var = 8;    int main()    {        int var = 5;        printf("%d", var);    }
+a) 5
+b) 8
+c) Compile time error due to wrong format identifier for double
+d) Compile time error due to redeclaration of variable with same name
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Functions Returning Non-integers – 2» Next - C Programming Questions and Answers – External Variables – 2 

@@ -1,0 +1,77 @@
+1. What is the difference between syms ‘x’ and sym ‘x’?
+a) there is no difference, they are the same functions
+b) they are equivalent
+c) syms ‘x’  makes the declaration long lasting while sym ‘x’ makes the declaration short lasting
+d) syms ‘x’ makes the symbol short lasting while sym ‘x’ makes the declaration long lasting
+c
+2. What is the nature of the arrangement of the coefficients to store the following expression in MATLAB?
+y= 3x5 + x2 + 6
+a) y=[3,0,0,1,0,6] 
+b) y=[3,1,6] 
+c) y=[3;0;0;1;0;6] 
+d) y=[6,0,1,0,0,3] 
+a
+3. In the function vpa(‘981’,10), why do we put 981 within inverted commas?
+a) We can choose to not put the value within a pair of single inverted comma
+b) We do it so that we don’t get an approximated value
+c) We do it to get the exact value as MATLAB computes exact values, of numerical expressions, when declared within a string
+d) We do it to get a floating-point approximated value, approximated to 14 digits
+c
+4. How would you simplify log(x20) – log(x13) – log(x7)  in MATLAB? (Assume x is defined as a string variable)
+a) simplify(log(x20)-log(x13)–log(x7));
+b) log(x20) – log(x13) – log(x7)
+c) simplify(log(x20)-log(x13)–log(x7),’IgnoreAnalyticConstraints’,true)
+d) simplify(log(x20)-log(x13)–log(x7))
+c
+Join Sanfoundry@YouTube
+5. What happens if we don’t assign a variable to an expression which evaluates a numerical value?
+a) MATLAB shows error
+b) Nothing happens
+c) The evaluated values are assigned to a variable ans automatically
+d) Depends on the numerical value
+c
+6. MATLAB sees a ________ ordered variable as a vector of dimension n*1.
+a) nth, (n+2)th
+b) nth, (n+3)th
+c) (n-1)th, nth
+d) nth, (n-1)th
+c
+7. What will be the output for the below block of code?
+	P=[1 3 2]; r=roots(P);
+a) r=[-2,-2] 
+b) r=[-2 -1] 
+c) There is an error in the code
+d) 
+
+   r = -2
+       -1
+d
+Output: 
+
+   r = -2
+       -1
+  
+8. Name the functions used, for multiplication and division of two polynomials in MATLAB.
+a) conv() and deconv()
+b) mult() and div()
+c) conv() and div()
+d) mult and div
+a
+9. How can the formulation of polynomial be done from its roots?
+a) poly(r), r is a row vector, containing the roots of the polynomial
+b) poly([roots as a coloumn vector])
+c) poly([roots as a row vector])
+d) poly([roots in descending order as a coloumn vector])
+b
+10. The function to evaluate the value of a polynomial,l for a constant value of the independent variable(say a)  in the polynomial is ______
+a) poly(p,a), p is a row vector
+b) polyder(p)
+c) polyint(p)
+d) polyval(c,a), c is a row vector
+d
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Arithmetic – 2» Next - MATLAB Questions and Answers – Managing Variables 

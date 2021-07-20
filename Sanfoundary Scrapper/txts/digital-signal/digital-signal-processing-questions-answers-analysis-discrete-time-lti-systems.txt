@@ -1,0 +1,104 @@
+1. Resolve the sequence  into a sum of weighted impulse sequences.
+a) 2δ(n)+4δ(n-1)+3δ(n-3)
+b) 2δ(n+1)+4δ(n)+3δ(n-2)
+c) 2δ(n)+4δ(n-1)+3δ(n-2)
+d) None of the mentioned
+b
+x(-1)=2=2δ(n+1)
+x(0)=4=4δ(n)
+x(2)=3=3δ(n-2)
+Therefore, x(n)= 2δ(n+1)+4δ(n)+3δ(n-2).
+2. The formula y(n)=\(\sum_{k=-\infty}^{\infty}x(k)h(n-k)\) that gives the response y(n) of the LTI system as the function of the input signal x(n) and the unit sample response h(n) is known as ______________
+a) Convolution sum
+b) Convolution product
+c) Convolution Difference
+d) None of the mentioned
+a
+3. What is the order of the four operations that are needed to be done on h(k) in order to convolute x(k) and h(k)?
+Step-1:Folding
+Step-2:Multiplication with x(k)
+Step-3:Shifting
+Step-4:Summation
+a) 1-2-3-4
+b) 1-2-4-3
+c) 2-1-3-4
+d) 1-3-2-4
+d
+4. The impulse response of a LTI system is h(n)={1,1,1}. What is the response of the signal to the input x(n)={1,2,3}?
+a) {1,3,6,3,1}
+b) {1,2,3,2,1}
+c) {1,3,6,5,3}
+d) {1,1,1,0,0}
+c
+From the formula of convolution we get,
+y(0)=x(0)h(0)=1.1=1
+y(1)=x(0)h(1)+x(1)h(0)=1.1+2.1=3
+y(2)=x(0)h(2)+x(1)h(1)+x(2)h(0)=1.1+2.1+3.1=6
+y(3)=x(1)h(2)+x(2)h(1)=2.1+3.1=5
+y(4)=x(2)h(2)=3.1=3
+Therefore, y(n)=x(n)*h(n)={1,3,6,5,3}.
+5. Determine the output y(n) of a LTI system with impulse response h(n)=anu(n), |a|<1with the input sequence x(n)=u(n).
+a) \(\frac{1-a^{n+1}}{1-a}\) 
+b) \(\frac{1-a^{n-1}}{1-a}\) 
+c) \(\frac{1+a^{n+1}}{1+a}\) 
+d) None of the mentioned
+a
+y(0)=x(0)h(0)=1
+y(1)=h(0)x(1)+h(1)x(0)=1.1+a.1=1+a
+y(2)=h(0)x(2)+h(1)x(1)+h(2)x(0)=1.1+a.1+a2.1=1+a+a2
+Similarly, y(n)=1+a+a2+….an=\(\frac{1-a^{n+1}}{1-a}\).
+6. x(n)*(h1(n)*h2(n))=(x(n)*h1(n))*h2(n).
+a) True
+b) False
+a
+7. Determine the impulse response for the cascade of two LTI systems having impulse responses h1(n)=\((\frac{1}{2})^2\) u(n) and h2(n)=\((\frac{1}{4})^2\) u(n).
+a) \((\frac{1}{2})^n[2-(\frac{1}{2})^n]\), n<0
+b) \((\frac{1}{2})^n[2-(\frac{1}{2})^n]\), n>0
+c) \((\frac{1}{2})^n[2+(\frac{1}{2})^n]\), n<0
+d) \((\frac{1}{2})^n[2+(\frac{1}{2})^n]\), n>0
+b
+so, h(k)=h1(n)*h2(n)=\(\sum_{k=-\infty}^{\infty} h_1 (k)h_2 (n-k)\) 
+For k<0, h1(n)= h2(n)=0 since the unit step function is defined only on the right hand side.
+Therefore, h(k)=\((\frac{1}{2})^k (\frac{1}{4})^{n-k}\) 
+=>h(n)=\(\sum_{k=0}^n (\frac{1}{2})^k (\frac{1}{4})^{n-k}\) 
+=\((\frac{1}{4})^n \sum_{k=0}^n(2)^k\) 
+=\((\frac{1}{4})^n.(2^{n+1}-1)\) 
+=\((\frac{1}{2})^n[2-(\frac{1}{2})^n], n>0\) 
+8. x(n)*[h1(n)+h2(n)]=x(n)*h1(n)+x(n)*h2(n).
+a) True
+b) False
+a
+9. An LTI system is said to be causal if and only if?
+a) Impulse response is non-zero for positive values of n
+b) Impulse response is zero for positive values of n
+c) Impulse response is non-zero for negative values of n
+d) Impulse response is zero for negative values of n
+d
+y(n)=\(\sum_{k=-{\infty}}^{\infty}h(k)x(n_0-k)\) 
+We split the summation into two intervals.
+=>y(n)=\(\sum_{k=-{\infty}}^{-1}h(k)x(n_0-k)+\sum_{k=0}^{\infty}h(k)x(n_0-k)\) 
+=(h(0)x(n0)+h(1)x(n0-1)+h(2)x(n0-2)+….)+(h(-1)x(n0+1)+h(-2)x(n0+2)+…)
+As per the definition of the causality, the output should depend only on the present and past values of the input. So, the coefficients of the terms x(n0+1), x(n0+2)…. should be equal to zero.
+that is, h(n)=0 for n<0 . 
+10. x(n)*δ(n-n0)=?
+a) x(n+n0)
+b) x(n-n0)
+c) x(-n-n0)
+d) x(-n+n0)
+b
+=x(k)|k=n-n0
+=x(n-n0)
+11. Is the system with impulse response h(n)=2nu(n-1) stable.
+a) True
+b) False
+b
+=\(\sum_{n=-{\infty}}^{\infty}2^n u(n-1)\) 
+=\(\sum_{n=-{\infty}}^{\infty}2^n\) 
+=2+4+8+…=∞
+So, the system is not stable.
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Discrete Time Systems Described by Difference Equations» Next - Digital Signal Processing Questions and Answers – Discrete Time Signals 

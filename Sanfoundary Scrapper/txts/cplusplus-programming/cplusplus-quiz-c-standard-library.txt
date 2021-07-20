@@ -1,0 +1,93 @@
+This section on C++ quiz focuses on “C Standard Library”. One shall practice these online quizzes to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ quiz comes with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ quiz on “C Standard Library” along with answers, explanations and/or solutions:
+1. Where are standard C libraries defined in C++?
+a) Container
+b) std namespace
+c) list
+d) iterators
+b
+2. Which of the following have their changes in their declaration related to constness of parameter?
+a) strchr
+b) string
+c) memory
+d) strcybrk
+a
+3. How many elements does a floating point number is composed of?
+a) 1
+b) 2
+c) 3
+d) 4
+d
+4. What will be the output of the following C++ code?
+    #include <stdio.h>        #include <stdlib.h>    int main ()    {        char s[] = "365.24 29.53";        char* p;        double d1, d2;        d1 = strtod (s, &p);        d2 = strtod (p, NULL);        printf ("%.2f\n", d1/d2);        return 0;    }
+a) 12
+b) 12.37
+c) 13
+d) 15
+b
+Output:
+$ g++ cinc.cpp
+$ a.out
+12.37
+5. What will be the output of the following C++ code?
+    #include <stdio.h>    #include <stdlib.h>    int compareints (const void * a, const void * b)    {        return ( *(int*)a - *(int*)b );    }    int values[] = { 50, 20, 60, 40, 10, 30 };    int main ()    {        int * p;        int key = 40;        qsort(values, 6, sizeof (int), compareints);        p = (int*) bsearch (&key, values, 6, sizeof (int), compareints);        if (p != NULL)        printf ("%d\n",*p);        return 0;    }
+a) 10
+b) 20
+c) 40
+d) 30
+c
+Output:
+$ g++ cinc1.cpp
+$ a.out
+40
+6. What will be the output of the following C++ code?
+    #include <stdio.h>        #include <stdlib.h>       int main ()    {        int n, m;        n = abs(23);        m = abs(-11);        printf ("%d", n);        printf ("%d", m);        return 0;    }
+a) 23-11
+b) 1123
+c) 2311
+d) 4325
+c
+Output:
+$ g++ cinc2.cpp
+$ a.out
+2311
+7. What will be the output of the following C++ code?
+    #include <stdio.h>    #include <math.h>    int main ()    {        printf ("The value of -3.1416 is %lf\n", fabs (-3.1416));        return 0;    }
+a) 3.1416
+b) -3.1416
+c) -3.141600
+d) 3.141600
+d
+Output:
+$ g++ cinc3.cpp
+$ a.out
+3.141600
+8. What will be the output of the following C++ code?
+    #include <stdio.h>    #include <stdlib.h>    int main ()    {        div_t divresult;         divresult = div (38, 5);        printf ("%d\n", divresult.rem);        return 0;    }
+a) 7
+b) 3
+c) 4
+d) 9
+b
+Output:
+$ g++ cinc4.cpp
+$ a.out
+3
+9. How does the limits.h header file can be represented in C++?
+a) limits
+b) limit
+c) climits
+d) dlimits
+c
+10. Pick out the correct syntax of the header file that can be used with C++.
+a) #include <float>
+b) #include <float.h>
+c) Both #include <float> & #include <float.h>
+d) #include <flot.h>
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Basic String» Next - C++ Programming Questions and Answers – Output Stream 

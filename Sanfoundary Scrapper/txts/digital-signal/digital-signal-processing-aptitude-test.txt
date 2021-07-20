@@ -1,0 +1,107 @@
+1. Low pass Butterworth filters are also called as _____________
+a) All-zero filter
+b) All-pole filter
+c) Pole-zero filter
+d) None of the mentioned
+b
+2. What is the equation for magnitude square response of a low pass Butterworth filter?
+a) \(\frac{1}{\sqrt{1+(\frac{Ω}{Ω_C})^{2N}}}\) 
+b) \(1+(\frac{Ω}{Ω_C})^{2N}\) 
+c) \(\sqrt{1+(\frac{Ω}{Ω_C})^{2N}}\) 
+d) None of the mentioned
+a
+|H(jΩ)| = \(\frac{1}{\sqrt{1+(\frac{Ω}{Ω_C})^{2N}}}\) 
+where N is the order of the filter and ΩC is defined as the cutoff frequency.
+3. What is the transfer function of magnitude squared frequency response of the normalized low pass Butterworth filter?
+a) \(\frac{1}{1+(s/j)^{-2N}}\) 
+b) \(1+(\frac{s}{j})^{-2N}\) 
+c) \(1+(\frac{s}{j})^{2N}\) 
+d) \(\frac{1}{1+(\frac{s}{j})^{2N}}\) 
+d
+|H(jΩ)|2=\(\frac{1}{1+Ω^{2N}}\) => HN(jΩ).HN(-jΩ)=\(\frac{1}{1+Ω^{2N}}\) 
+Replacing jΩ by ‘s’ and hence Ω by s/j in the above equation, we get
+HN(s).HN(-s)=\(\frac{1}{1+(\frac{s}{j})^{2N}}\) which is called the transfer function.
+4. Which of the following is the band edge value of |H(Ω)|2?
+a) (1+ε2)
+b) (1-ε2)
+c) 1/(1+ε2)
+d) 1/(1-ε2)
+c
+5. The magnitude square response shown in the below figure is for which of the following given filters?
+a) Butterworth
+b) Chebyshev
+c) Elliptical
+d) None of the mentioned
+a
+6. What is the order of a low pass Butterworth filter that has a -3dB bandwidth of 500Hz and an attenuation of 40dB at 1000Hz?
+a) 4
+b) 5
+c) 6
+d) 7
+d
+For an attenuation of 40dB, δ2=0.01. We know that
+N=\(\frac{log⁡[(\frac{1}{δ_2^2})-1]}{2log⁡[\frac{Ω_s}{Ω_s}]}\) 
+Thus by substituting the corresponding values in the above equation, we get N=6.64
+To meet the desired specifications, we select N=7.
+7. Which of the following is true about type-1 chebyshev filter?
+a) Equi-ripple behavior in pass band
+b) Monotonic characteristic in stop band
+c) Equi-ripple behavior in pass band & Monotonic characteristic in stop band
+d) None of the mentioned
+c
+8. Type-2 chebyshev filters consists of ______________
+a) Only poles
+b) Both poles and zeros
+c) Only zeros
+d) Cannot be determined
+b
+9. Which of the following is false about the type-2 chebyshev filters?
+a) Monotonic behavior in the pass band
+b) Equi-ripple behavior in the stop band
+c) Zero behavior
+d) Monotonic behavior in the stop band
+d
+10. The zeros of type-2 class of chebyshev filters lies on ___________
+a) Imaginary axis
+b) Real axis
+c) Zero
+d) Cannot be determined
+a
+11. Which of the following defines a chebyshev polynomial of order N, TN(x)?
+a) cos(Ncos-1x) for all x
+b) cosh(Ncosh-1x) for all x
+c) 
+cos(Ncos-1x), |x|≤1
+cosh(Ncosh-1x), |x|>1
+d) None of the mentioned
+c
+TN(x) = cos(Ncos-1x), |x|≤1
+cosh(Ncosh-1x), |x|>1
+12. The frequency response shown in the figure below belongs to which of the following filters?
+a) Type-1 chebyshev
+b) Type-2 chebyshev
+c) Butterworth
+d) Elliptical
+b
+13. What is the order of the type-2 chebyshev filter whose magnitude square response is as shown in the following figure?
+a) 2
+b) 4
+c) 6
+d) 3
+d
+14. Which of the following is true about the magnitude square response of an elliptical filter?
+a) Equi-ripple in pass band
+b) Equi-ripple in stop band
+c) Equi-ripple in pass band and stop band
+d) None of the mentioned
+c
+15. Bessel filters exhibit a linear phase response over the pass band of the filter.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing for aptitude tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Matched Z Transformation» Next - Digital Signal Processing Questions and Answers – Frequency Transformations in the Analog Domain 

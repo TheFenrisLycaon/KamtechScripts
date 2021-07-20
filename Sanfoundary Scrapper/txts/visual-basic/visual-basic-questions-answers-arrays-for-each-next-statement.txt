@@ -1,0 +1,140 @@
+1. Which of the following declares a five-element one-dimensional array?
+a) Dim dblAmounts(4) As Double
+b) Dim dblAmounts(5) As Double
+c) Dim dblAmounts(4) As Double = {3.55, 6.70, 8, 4, 2.34}
+d) Dim dblAmounts() As Double={3.55, 6.70, 8, 4, 2.34,1.45}
+d
+2. The intSales array is declared as follows: Dim intSales() As Integer = {10000, 12000, 900, 500, 20000}. The statement intSales(3) = intSales(3) + 10 will .
+a) replace the 500 amount with 10
+b) replace the 500 amount with 510
+c) replace the 900 amount with 10
+d) replace the 900 amount with 910
+b
+3. The strItems array is declared as follows: Dim strItems(20) As String. The intSub variable keeps track of the array subscripts and is initialized to 0. Which of the following Do clauses will process the loop instructions for each element in the array?
+a)
+Do While intSub > 20
+b)
+Do While intSub < 20
+c)
+Do While intSub >= 20
+d)
+ Do While intSub <= 20
+b
+  
+4. The intSales array is declared as follows: Dim intSales() As Integer = {10000, 12000, 900, 500, 20000}. Which of the following If clauses determines whether the intSub variable contains a valid subscript for the array?
+a)
+If intSales(intSub) >= 0 AndAlso intSales(intSub) < 4 Then
+b)
+If intSales(intSub) >= 0 AndAlso intSales(intSub) <= 4 Then
+c)
+If intSub >= 0 AndAlso intSub < 4 Then
+d)
+If intSub >= 0 AndAlso intSub <= 4 Then
+b
+  
+5. The intNums array is declared as follows: Dim intNums() As Integer = {10, 5, 7, 2}. Which of the following blocks of code correctly calculates the average value stored in the array? The intTotal, intSub, and dblAvg variables contain the number 0 before the loops are processed.
+a)
+Do While intSub < 4
+intNums(intSub) = intTotal + intTotal
+intSub = intSub + 1
+Loop
+dblAvg = intTotal / intSub
+b)
+Do While intSub < 4
+intTotal = intTotal + intNums(intSub)
+intSub = intSub + 1
+Loop
+dblAvg = intTotal / intSub
+c)
+Do While intSub < 4
+intTotal = intTotal + intNums(intSub)
+intSub = intSub + 1
+Loop
+dblAvg = intTotal / intSub − 1
+d)
+Do While intSub < 4
+intTotal = intTotal + intNums(intSub)
+intSub = intSub + 1
+Loop
+dblAvg = intTotal / (intSub − 1)
+b
+Do While intSub < 4
+intTotal = intTotal + intNums(intSub)
+intSub = intSub + 1
+Loop
+dblAvg = intTotal / intSub
+where, we calculate the sum in intTotal and average in dblAvg, where average is sum/no.of elements.
+  
+6. The intSales array is declared as follows: Dim intSales() As Integer = {10000, 12000, 900, 500, 20000}. Which of the following loops will correctly add 100 to each array element? The intSub variable contains the number 0 before the loops are processed.
+a)
+Do While intSub <= 4
+intSub = intSub + 100
+Loop
+b)
+Do While intSub <= 4
+intSales = intSales + 100
+Loop
+c)
+Do While intSub < 5
+intSales(intSub) =intSales(intSub) + 100
+Loop
+d)
+Do While intSub <6
+intSales(intSub) = intSales(intSub) + 100
+Loop
+c
+  
+7. What will be assigned to the dblAvg variable after the code has been executed?
+Do While intSub < 4
+intNums(intSub) = intTotal + intTotal
+intSub = intSub + 1
+Loop
+dblAvg = intTotal / intSub
+Dim intNums() As Integer = {10, 5, 7, 2}. The intTotal, intSub, and dblAvg variables contain the number 0 before the loops are processed.
+a) 0
+b) 5
+c) 6
+d) 8
+a
+8. What will be assigned to the dblAvg variable after the code has been executed?
+Do While intSub < 4
+intTotal = intTotal + intNums(intSub)
+intSub = intSub + 1
+Loop
+dblAvg = intTotal / intSub
+Dim intNums() As Integer = {10, 5, 7, 2}. The intTotal, intSub, and dblAvg variables contain the number 0 before the loops are processed.
+a) 0
+b) 5
+c) 6
+d) 8
+c
+9. What will be assigned to the dblAvg variable after the code has been executed?
+Do While intSub < 4
+intTotal = intTotal + intNums(intSub)
+intSub = intSub + 1
+Loop
+dblAvg = intTotal / intSub – 1
+Dim intNums() As Integer = {10, 5, 7, 2}. The intTotal, intSub, and dblAvg variables contain the number 0 before the loops are processed.
+a) 0
+b) 5
+c) 6
+d) 8
+b
+10. What will be assigned to the dblAvg variable after the code has been executed?
+Do While intSub < 4
+intTotal = intTotal + intNums(intSub)
+intSub = intSub + 1
+Loop
+dblAvg = intTotal / (intSub − 1)
+Dim intNums() As Integer = {10, 5, 7, 2}. The intTotal, intSub, and dblAvg variables contain the number 0 before the loops are processed.
+a) 0
+b) 5
+c) 6
+d) 8
+d
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – One-Dimensional Array» Next - Visual Basic Questions and Answers – Sorting a One-Dimensional Array 

@@ -1,0 +1,101 @@
+1.  Which of the following symbols are used for searching a pattern in vi?
+a) /
+b) ?
+c) %
+d) / and ?
+d
+2. ____ searches for a first instance of a pattern in forwarding direction.
+a) /
+b) %
+c) &
+d) ?
+a
+/print  [Enter]        // searches forward
+3.  ____ searches for a first instance of a pattern in the backward direction.
+a) /
+b) %
+c) &
+d) ?
+d
+?print  [Enter]        // searches backward
+4. Which command is used for repeating the search in the same direction?
+a) n
+b) N
+c) nn
+d) NN
+a
+5. Which command is used to reverse the direction of repeating the search?
+a) n
+b) N
+c) nn
+d) NN
+b
+6. Substitution command is an ex-mode command.
+a) True
+b) False
+a
+7. Which of the following symbol is used for substitution command?
+a) n
+b) N
+c) s
+d) S
+c
+8. Which of the following is a correct syntax for performing substitution on a file?
+a) :address/source_pattern/target_pattern/flag
+b) :address/target_pattern source_pattern/flag
+c) :address/flag
+d) :address
+a
+:address/source_pattern/target_pattern/flag
+For example, if we want to perform substitution on line number 1 to 50, source pattern is ‘directory’ and target pattern is ‘member’ then,
+:1,$s/directory/member/g
+9. We cannot leave the flag field empty while performing the substitution.
+a) True
+b) False
+b
+:1,$s/directory/member
+Then substitution will only be carried out for the first occurrence in each addressed line.    
+10. The target pattern is optional.
+a) True
+b) False
+a
+:1,$s/directory/ /g        // every instance of ‘directory’ will be deleted from each line.
+11. Which of the following commands can be used to replace ‘professor’ with ‘director’ throughout the whole file?
+a) 1,$s/professor/director/g
+b) %s/professor/director/g
+c) 1,$s/professor/director
+d) 1,$s/professor/director/g and %s/professor/director/g
+d
+12. Which of the following flag will be used for interactive substitution?
+a) g
+b) G
+c) gc
+d) cg
+c
+13. Which one of the following commands will be used to delete all the instances of string ‘manager’ in file003?
+a) 1,$s/manager/ /g
+b) %s/manager/director/g
+c) 1,$s/professor/director
+d) %s/manager/ /
+a
+14. Which one of the following command is invalid?
+a) /printf
+b) ?scanf
+c) :%/abd/mash/wc
+d) :1,%/file01/file02/g
+d
+/printf - searches for string “printf”
+?scanf  	- searches for string “scanf”
+:%/abd/mash/wc - replaces the string ‘abd’ to ‘mas
+h’ using confirmatory flag
+:1,%/file01/file02/g - invalid command
+15. Search and replace operations can also use regular expressions for matching multiple patterns.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Editing Text in Vi Editor – 2» Next - Unix  Questions and Answers – Shell Basics 

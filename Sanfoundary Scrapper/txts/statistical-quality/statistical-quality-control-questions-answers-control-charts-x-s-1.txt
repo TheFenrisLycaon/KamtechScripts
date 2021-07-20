@@ -1,0 +1,110 @@
+1. What is the estimator of standard deviation in the x bar and R charts?
+a) Mean of one sample
+b) Mean of whole process
+c) Range
+d) Process capability ratio
+c
+2. What does “s” denote in x bar and s charts?
+a) Sample
+b) Sample standard deviation
+c) Process standard deviation
+d) Statistics
+b
+3. What is an unbiased estimator of unknown variance of a probability distribution?
+a) Sample mean
+b) Sample standard deviation
+c) Sample variance
+d) Sample range
+c
+4. What is the standard formula of sample variance?
+a) \(\frac{\sum_{i=1}^n (x_i-\bar{x})^{1/2}}{n-1}\) 
+b) \(\frac{\sum_{i=1}^n (x_i-\bar{x})^{2}}{n-1}\) 
+c) \([\frac{\sum_{i=1}^n (x_i-\bar{x})^{2}}{n-1}]^{1/2}\) 
+d) \(\frac{\sum_{i=1}^n (x_i-\bar{x})^{2}}{n}\) 
+a
+s2 = \(\frac{\sum_{i=1}^n (x_i-\bar{x})^{1/2}}{n-1}\).
+5. Which of these formulas gives the exact equation for the UCL of s chart with a std. value for σ given?
+a) B6 σ
+b) B5 σ
+c) c4 σ
+d) c3 σ
+a
+UCL=B6 σ.
+Join [email protected]
+6. The center line of the s chart with a standard value for σ given, denotes the value of _____
+a) B6 σ
+b) c4 σ
+c) B5 σ
+d) c5 σ
+b
+CL=B6 σ
+7. If the sample standard deviations for a process are 1.567, 1.429, 1.323, 1.525, 1.989, 1.457, what will be the mean standard deviation?
+a) 1.548
+b) 1.858
+c) 1.327
+d) 1.967
+a
+\(\bar{s} = \frac{1}{m} \sum_{i=1}^m s_i\) 
+Where si denotes the standard deviation of ith sample. Calculating the mean using the above formaula gives, s=1.548.  
+8. What is the value of B5 in the terms of c4?
+a) \(c_4-3\sqrt{(1-c_4^2)}\) 
+b) \(c_4+3\sqrt{(1+c_4^2)}\) 
+c) \(c_4+3\sqrt{(1-c_4^2)}\) 
+d) \(c_4-3\sqrt{(1+c_4^2)}\) 
+a
+B5 = \(c_4-3\sqrt{(1-c_4^2)}\)
+ 
+9. The center line of the s chart denotes ____
+a) Standard deviation of the process
+b) Mean of m number of standard deviations, where m is the number of samples
+c) c4 s
+d) B5 s
+b
+10. What is the value of LCL for the s chart when the standard value for σ is not given?
+a) B5 s
+b) B4 s
+c) B6 s
+d) B3 s
+d
+11. What is the value of B3 in the terms of c4?
+a) \(c_4-3\sqrt{(1-c_4^2)}\) 
+b) \(c_4+3\sqrt{(1+c_4^2)}\) 
+c) \(1-\frac{3}{c_4} \sqrt{(1-c_4^2)}\) 
+d) \(1-\frac{c_4}{3\sqrt{(1-c_4^2)}}\) 
+c
+B3 = \(1-\frac{3}{c_4} \sqrt{(1-c_4^2)}\)
+12. What is the formula for UCL for x bar chart when s is known?
+a) \(UCL = \bar{\bar{x}} + A_3 \bar{s}\) 
+b) \(UCL = \bar{\bar{x}} – A_2 \bar{s}\) 
+c) \(UCL = \bar{\bar{x}} – A_3 \bar{s}\) 
+d) \(UCL = \bar{\bar{x}} + A_2 \bar{s}\) 
+a
+\(UCL = \bar{\bar{x}} + A_3 \bar{s}\)
+13. For mean of all sample standard deviations=0.0094 and the sample size= 5, what will be the estimate of process standard deviation?
+a) 100
+b) 0.01
+c) 0.0094
+d) 94
+b
+\(\hat{\sigma} = \frac{\bar{s}}{c_4} \) 
+Here for sample size=5, c4=0.94, and s = 0.0094, we get σ = 0.01.
+14. Process standard deviation is the mean of all sample standard deviations.
+a) True
+b) False
+b
+15. X bar and R charts are highly favorable when the sample size is high.
+a) True
+b) False
+b
+16. Which of this is a situation when x bar and s charts should be utilized instead of x bar and R charts?
+a) When sample size is constant
+b) When sample standard deviation is less than 1
+c) When sample range is more than 1
+d) When sample size is variable
+d
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Variable Charts – Control Charts for x̅ and R – 4» Next - Statistical Quality Control Questions and Answers – Variable Charts – Control Charts for x̅ and S – 2 

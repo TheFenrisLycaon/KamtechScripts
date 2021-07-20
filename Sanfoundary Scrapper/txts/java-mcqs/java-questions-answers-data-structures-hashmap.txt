@@ -1,0 +1,66 @@
+1. Map implements collection interface?
+a) True
+b) False
+b
+2. Which of the below does not implement Map interface?
+a) HashMap
+b) Hashtable
+c) EnumMap
+d) Vector
+d
+3. What is the premise of equality for IdentityHashMap?
+a) Reference equality
+b) Name equality
+c) Hashcode equality
+d) Length equality
+a
+4. What happens if we put a key object in a HashMap which exists?
+a) The new object replaces the older object
+b) The new object is discarded
+c) The old object is removed from the map
+d) It throws an exception as the key already exists in the map
+a
+5. While finding the correct location for saving key value pair, how many times the key is hashed?
+a) 1
+b) 2
+c) 3
+d) unlimited till bucket is found
+b
+Join Sanfoundry@YouTube
+6. Is hashmap an ordered collection.
+a) True
+b) False
+b
+7. If two threads access the same hashmap at the same time, what would happen?
+a) ConcurrentModificationException
+b) NullPointerException
+c) ClassNotFoundException
+d) RuntimeException
+a
+8. How to externally synchronize hashmap?
+a) HashMap.synchronize(HashMap a);
+b) 
+HashMap a = new HashMap();
+a.synchronize();
+c) Collections.synchronizedMap(new HashMap<String, String>());
+d) Collections.synchronize(new HashMap<String, String>());
+c
+9. What will be the output of the following Java code snippet?
+public class Demo{  public static void main(String[] args)  {		Map<Integer, Object> sampleMap = new TreeMap<Integer, Object>();		sampleMap.put(1, null); 		sampleMap.put(5, null); 		sampleMap.put(3, null); 		sampleMap.put(2, null); 		sampleMap.put(4, null);         System.out.println(sampleMap);   }}
+a) {1=null, 2=null, 3=null, 4=null, 5=null}
+b) {5=null}
+c) Exception is thrown
+d) {1=null, 5=null, 3=null, 2=null, 4=null}
+a
+10. If large number of items are stored in hash bucket, what happens to the internal structure?
+a) The bucket will switch from LinkedList to BalancedTree
+b) The bucket will increase its size by a factor of load size defined
+c) The LinkedList will be replaced by another hashmap
+d) Any further addition throws Overflow exception
+a
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.util – ArrayList Class» Next - Java Questions & Answers – Data Structures-List 

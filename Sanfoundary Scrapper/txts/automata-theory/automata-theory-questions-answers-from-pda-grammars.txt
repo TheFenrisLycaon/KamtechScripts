@@ -1,0 +1,68 @@
+1. The instantaneous PDA is has the following elements
+a) State
+b) Unconsumed input
+c) Stack content
+d) All of the mentioned
+d
+(q,w,s)
+where q is the state, w is the unconsumed input and s is the stack content.
+2. The moves in the PDA is technically termed as:
+a) Turnstile
+b) Shifter
+c) Router
+d) None of the mentioned
+a
+3. Which of the following option resembles the given PDA?
+a) {0n1n|n>=0}
+b) {0n12n|n>=0}
+c) {02n1n|n>=0}
+d) None of the mentioned
+a
+4. Which of the following correctly resembles the given state diagram?
+a) {wwr|w=(a+b)*}
+b) ε is called the initial stack symbol
+c) Both (a) and (b)
+d) None of the mentioned
+a
+5. Which of the following assertion is false?
+a) If L is a language accepted by PDA1 by final state, there exist a PDA2 that accepts L by empty stack i.e. L=L(PDA1)=L(PDA2)
+b) If L is a CFL then there exists a push down automata P accepting CF; ; by empty stack i.e. L=M(P)
+c) Let L is a language accepted by PDA1 then there exist a CFG X such that L(X)=M(P)
+d) All of the mentioned
+d
+All the assertions mentioned are theorems or corollary.
+6. A push down automata  can represented using:
+a) Transition graph
+b) Transition table
+c) ID
+d) All of the mentioned
+d
+7. State true or false:
+Statement: Every context free grammar can be transformed into an equvalent non deterministic push down automata.
+a) true
+b) false
+a
+8. Which of the following statement is false?
+a) For non deterministic PDA, equivalence is undecidable
+b) For deterministic PDA, equivalence is decidable
+c) For deterministic PDA, equivalence is undecidable.
+d) None of the mentioned
+c
+9. Which of the following are the actions that operates on stack top?
+a) Pushing
+b) Popping
+c) Replacing
+d) All of the mentioned
+d
+10. A push down automata is said to be _________ if it has atmost one transition around all configurations.
+a) Finite
+b) Non regular
+c) Non-deterministic
+d) Deterministic
+d
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  From Grammars to Push Down Automata» Next - Automata Theory Questions and Answers –  Deterministic PDA 

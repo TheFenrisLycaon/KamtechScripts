@@ -1,0 +1,91 @@
+1. Find the input and output resistance for the circuit shown.
+Specification for 741 op-amp : A=400000 ; Ri = 33MΩ; Ro = 60Ω;
+RF = 11kΩ; R1 = 2kΩ; Supply voltage = ± 15v; Maximum output voltage swing = ± 13v.
+a) RIF = 66MΩ, ROF = 30Ω
+b) RIF = 30MΩ, ROF = 6kΩ
+c) RIF = 15kΩ, ROF = 50MΩ
+d) None of the mentioned
+a
+B= 1/ AF = 1/6.5 = 0.154;
+Input resistance of RIF = R1(1+AB) = 33MΩ[1+(6.5*0.154) ]= 66MΩ;
+Output resistance of ROF = Ro/(1+AB) = 60/[1+(6.5*0.154) ]= 29.98 ≅30Ω.
+2. The output resistance of the op-amp with feedback is
+a) Same as that of the output resistance without feedback
+b) Greater than that of the output resistance without feedback
+c) Smaller than that of the output resistance without feedback
+d) None of the mentioned
+c
+3. Find the output current in the voltage series feedback amplifier.
+a) io ={ [Vo+(A*Vid)]/Ro}
+b) io ={ [Vo-(A*Vid)]/Ro}
+c) io =(Vo/Ro)*A
+d) io =[A*(Vo-Vid)]/Ro
+b
+4.  Find the unity gain bandwidth for voltage series feedback amplifier?
+a) UBG = Afo
+b) UBG = AfF
+c) UBG = Afo fF
+d) UBG = AFfo
+a
+5. The bandwidth of a non-inverting amplifier with feedback is equal to
+a) fo(AB)
+b) fo(AB-1)
+c) fo(1+AB)
+d) fo(1-AB)
+c
+6. How are the saturation voltage specified on the manufacture’s datasheet?
+a) Negative voltage
+b) Output voltage swing
+c) Supply voltage
+d) None of the mentioned
+b
+7. What is the formula for total output offset voltage with feedback?
+a) VooT = ± Vo/(1+AB)
+b) VooT = ± Vsat*(1+AB)
+c) VooT = ± Vsat/(1+AB)
+d) VooT = ± Vo*(1+AB)
+c
+8. Which of the following has the same characteristic as that of non-inverting amplifier with feedback?
+a) Perfect feedback amplifier
+b) Voltage follower
+c) Perfect voltage amplifier
+d) All of the mentioned
+c
+From the analysis of the characteristic of non-inverting amplifier with feedback, it is clear that it exhibits the characteristics of a perfect voltage amplifier.
+9. What is the gain of voltage follower?
+a) Gain > ∞
+b) Gain –>1
+c) Gain <1
+d) Gain –>∞
+b
+10. Which is preferred to attain higher input resistance and the output amplitude equal to input?
+a) Voltage follower
+b) Voltage series feedback amplifier
+c) Voltage shunt feedback amplifier
+d) Inverter
+a
+11. Find the input and output voltage in voltage follower circuit?
+a) Vin=2v and Vout = 3v
+b) Vin=10v and Vout = 11v
+c) Vin=9v and Vout = 9v
+d) Vin=4v and Vout = 7v
+c
+12. Voltage follower is also called as
+a) None of the mentioned
+b) Non-inverting amplifier
+c) Inverting amplifier
+d) Normal buffer
+b
+13. Find the bandwidth and total output offset voltage of a voltage follower? The following are the specifications for the op-amp 741: A=200000, fo =5hz and supply voltage =±15v.
+a) fF = 1000hz, VooT = ± 7.5µv.
+b) fF = 100khz, VooT = ± 7.5µv.
+c) fF = 10khz, VooT = ±7.5µv.
+d) fF = 1000khz, VooT = ± 7.5µv.
+d
+Total output offset voltage, VooT=  ±Vsat/A= ±15/200000 =± 7.5µv.
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice  all areas of Linear Integrated Circuit for online Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Voltage Series Feedback Amplifier – 1» Next - Linear Integrated Circuit Questions and Answers – Voltage Shunt Feedback Amplifier 

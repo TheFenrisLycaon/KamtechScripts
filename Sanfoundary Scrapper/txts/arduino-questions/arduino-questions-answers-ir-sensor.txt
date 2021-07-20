@@ -1,0 +1,114 @@
+1. What is the use of the IR Sensor?
+a) Object Detection
+b) Humidity Detection
+c) Image Processing
+d) GPS
+a
+2. How many pins are present in the IR Sensor?
+a) 1
+b) 3
+c) 2
+d) 4
+b
+3. What mode should we put the Arduino pin to, for object detection to work with the IR Sensor?
+a) Analog
+b) Digital
+c) PCM
+d) TDM
+b
+4. What will happen if we supply a voltage of 25V to the Vcc of the IR sensor?
+a) Damage is caused
+b) Sensor will work fine
+c) Sensor will not respond for the time the voltage is applied
+d) Sensor will function normally
+a
+5. If 1 means an object is detected and 0 meaning no object is detected, then considering the sensor is stationary, what can be said about the movement of the object if the output by the sensor is 1010101?
+a) Object is stationary
+b) Object is oscillating side by side
+c) Object is continuously moving away
+d) Object is continuously moving closer
+b
+6. What will the output of the code be if the object is continuously moving away from the sensor?
+int op = 7;
+int isObstacle = HIGH;
+void setup() {
+    pinMode(op, INPUT);
+    Serial.begin(9600);
+} 
+void loop() { 
+    isObstacle = digitalRead(op);
+    if (isObstacle == LOW) { 
+        Serial.println("1+"); 
+    } 
+    else {
+        Serial.print("clear+"); 
+    } 
+    delay(200);
+}
+a) clear+clear+1+1
+b) 1+1+clear+clear
+c) clear+clear+clear+clear
+d) 1+1+clear+1
+b
+7. What will the output of the code be if the object is continuously moving towards the sensor?
+int op = 6;
+int isObstacle = HIGH;
+void setup() {
+    pinMode(op, INPUT);
+    Serial.begin(9600);
+} 
+void loop() { 
+    isObstacle = digitalRead(op);
+    if (isObstacle == LOW) { 
+        Serial.println("1+"); 
+    } 
+    else {
+        Serial.print("clear+"); 
+    } 
+    delay(200);
+}
+a) clear+clear+1+1
+b) 1+1+clear+clear
+c) clear+clear+clear+clear
+d) 1+1+clear+1
+a
+8. If 1 means an object is detected and 0 meaning no object is detected, then considering the sensor is stationary, what can be said about the movement of the object if the output by the sensor is 111000?
+a) Object is stationary
+b) Object is oscillating side by side
+c) Object is continuously moving away
+d) Object is continuously moving closer
+c
+9. What will the output of the code be if the relative velocity between the object and the sensor is 0, and it is within the range of the sensor for the entire time both are moving?
+int op = 6;
+int isObstacle = HIGH;
+void setup() {
+    pinMode(op, INPUT);
+    Serial.begin(9600);
+} 
+void loop() { 
+    isObstacle = digitalRead(op);
+    if (isObstacle == LOW) { 
+        Serial.println("1+"); 
+    } 
+    else {
+        Serial.print("clear+"); 
+    } 
+    delay(200);
+}
+a) clear+clear+1+1
+b) 1+1+clear+clear
+c) clear+clear+clear+clear
+d) 1+1+1+1
+d
+10. What kind of waves does the IR Sensor work on?
+a) Infrared
+b) Indigo
+c) Ultrasonic
+d) Infrasonic
+a
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Finding Out Program Outputs» Next - Arduino Questions and Answers – Ultrasonic Sensor 

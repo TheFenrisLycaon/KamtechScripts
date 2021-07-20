@@ -1,0 +1,103 @@
+1. The display of possible outcomes of an event with their corresponding probabilities is called ____________
+a) Probability Plot
+b) Contingency table
+c) Bayesian Table
+d) Frequency Plot
+a
+2. Which one of these is not one of the conditions for the binomial distribution?
+a) Only two outcomes must be there for an event
+b) Independent trials must be there
+c) Trials must be more than 4
+d) The probability of failure must be constant
+c
+3. For mean=7 and standard deviation=2, what will be probability that a variable, which follows normal distribution, will have a value less than or equal to 10?
+a) 0.93319
+b) 0.94520
+c) 0.96409
+d) 0.91924
+a
+So, P[x≤10]=P[z≤\(\frac{10-7}{2}\)]= P[z≤1.5]=φ[1.5]=0.93319.
+4. The variance of lognormal distribution is given by ____
+a) σ2 = e2θ+w (\(e^{w^{2}}\)-1)
+b) σ2 = e2θ+w2 (ew-1)
+c) σ2 = e2θ+w2 (\(e^{w^{2}}\)-1)
+d) σ2 = e2θ+w2 (\(e^{w^{2}}\)-2)
+c
+σ2= e2θ+w2 (ew2-1).
+5. The relationship between the mean and variance of the exponential distribution is expressed by _____
+a) μ = λσ2
+b) μ = σ2/λ
+c) σ2=λ2 μ
+d) σ2=μ/λ2
+a
+So, for an exponential distribution,  μ = λσ2.
+6. (1-e-λa) is the cumulative ______ distribution.
+a) Gamma
+b) Normal
+c) Lognormal
+d) Exponential
+d
+F(a)=(1-e-λa).
+7. The exponential distribution is used in reliability engineering as a model of the time to failure of a system. The parameter λ is called _____ in this application.
+a) Failure rate
+b) MTF
+c) Hazard rate
+d) MTBF
+a
+8. The mean of the exponential distribution used in reliability engineering is used as mean time to failure.
+a) True
+b) False
+a
+9. The mean of the gamma distribution is given by _________
+a) μ=1/λ
+b) μ=r/λ
+c) μ=r2/λ
+d) μ=1/r
+b
+μ=r/λ
+Where r and λ are the shape parameter and the scale parameter, respectively.
+10. Exponential distribution is a special case of gamma distribution.
+a) True
+b) False
+a
+11. The relationship between the mean and the standard deviation of the gamma distribution is given as _____
+a) \(\frac{\mu}{\sigma} = \sqrt{r}\) 
+b) \(\frac{\mu}{\sigma} = r\) 
+c) \(\frac{\mu}{\sigma} = r^2\) 
+d) \(\frac{\mu}{\sigma} = \sqrt[3]{r}\) 
+a
+\(\frac{\mu}{\sigma} = \sqrt{r}\).
+12. If the shape parameter of the gamma distribution is twice the scale parameter, what will be the value of the mean of the distribution?
+a) 1.5
+b) 2
+c) 4
+d) 1
+b
+μ=2λ⁄λ=2.
+13. For an exponential distribution, what is the probability that the value of the exponential random variable with parameter λ=3.2; will be having a value higher than 0.2353?
+a) 0.5290
+b) 0.4710
+c) 0.2213
+d) 0.3452
+b
+14. Which of these will not be distributed on a discrete distribution?
+a) The number of houses in a colony
+b) The number of bedrooms in a house
+c) The number of scratches on a car hood
+d) The diameter of a car tire
+d
+15. For a variable distributed log-normally with θ=6, ω=1.2; what is the probability that the variable exceeds a value of 500?
+a) 0.4290
+b) 0.5710
+c) 0.4990
+d) 0.4937
+a
+P[x > a]=1-P[x≤a]=1-P[z≤\(\frac{ln⁡(a)-θ}{ω}\)] 
+Putting the values of θ and ω we get,
+P[x>500]=0.4290.
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice  all areas of Statistical Quality Control for tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Modeling Process Quality -Continuous Distributions – 1» Next - Statistical Quality Control Questions and Answers – SPC Methods and Philosophy – Statistical Basis of the Control Chart – 1 

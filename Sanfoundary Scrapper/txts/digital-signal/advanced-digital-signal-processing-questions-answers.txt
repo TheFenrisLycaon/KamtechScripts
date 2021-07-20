@@ -1,0 +1,65 @@
+1. When the frequency band is selected we can specify the sampling rate and the characteristics of the pre filter, which is also called as __________ filter.
+a) Analog filter
+b) Anti aliasing filter
+c) Analog & Anti aliasing filter
+d) None of the mentioned
+b
+2. What are the main characteristics of Anti aliasing filter?
+a) Ensures that bandwidth of signal to be sampled is limited to frequency range
+b) To limit the additive noise spectrum and other interference, which corrupts the signal
+c) All of the mentioned
+d) None of the mentioned
+c
+3. In general, a digital system designer has better control of tolerances in a digital signal processing system than an analog system designer who is designing an equivalent analog system.
+a) True
+b) False
+a
+4. The selection of the sampling rate Fs=1/T, where T is the sampling interval, not only determines the highest frequency (Fs/2) that is preserved in the analog signal but also serves as a scale factor that influences the design specifications for digital filters.
+a) True
+b) False
+a
+5. What is the configuration of system for digital processing of an analog signal?
+a) Analog signal|| Pre-filter -> D/A Converter -> Digital Processor -> A/D Converter -> Post-filter
+b) Analog signal|| Pre-filter -> A/D Converter -> Digital Processor -> D/A Converter -> Post-filter
+c) Analog signal|| Post-filter -> D/A Converter -> Digital Processor -> A/D Converter -> Pre-filter
+d) None of the mentioned
+b
+Analog signal|| Pre-filter -> A/D Converter -> Digital Processor -> D/A Converter -> Post-filter
+6. In DM, further the two integrators at encode are replaced by one integrator placed before comparator, and then such system is called?
+a) System-delta modulation
+b) Sigma-delta modulation
+c) Source-delta modulation
+d) None of the mentioned
+b
+7. What is the system function of the integrator that is modeled by the discrete time system?
+a) H(z)=\(\frac{z^{-1}}{1-z^{-1}}\) 
+b) H(z)=\(\frac{z^{-1}}{1+z^{-1}}\) 
+c) H(z)=\(\frac{z^{z^1}}{1-z^1}\) 
+d) H(z)=\(\frac{z^{z^1}}{1+z^1}\) 
+a
+H(z)=\(\frac{z^{-1}}{1-z^{-1}}\)
+8. What is the z-transform of sequence {dq(n)} i.e., Dq(z)= ?
+a) \(H_s (z)X(z)- H_n (z)E(z)\) 
+b) \(H_s (z)X(z)+ H_n (z)E(z)\) 
+c) \(H_s (n)X(z)+ H_n (n)E(z)\) 
+d) \(H_n (z)X(z)- H_s (z)E(z)\) 
+b
+= \(H_s (z)X(z)+H_n (z)E(z)\).
+9.The performance of the SDM system is determined by the noise system function Hn(z), which has a magnitude of?
+a) \(|H_n (z)|=2 |sin⁡ \frac{πF}{F_s}|\) 
+b) \(|H_n (z)|=4 |sin⁡ \frac{πF}{F_s}|\) 
+c) \(|H_n (z)|=3 |sin⁡ \frac{πF}{F_s}|\) 
+d) \(|H_n (z)|= |sin⁡ \frac{πF}{F_s}|\) 
+a
+10. The in-band quantization noise variance is given as?
+a) \(\sigma_n^2=\int_{-B}^B |H_n (F)|^3 S_e (F)dF\) 
+b) \(\sigma_n^2=\int_{-B}^B |H_n (F)|^2 S_e (F)dF\) 
+c) \(\sigma_n^2=\int_{-B}^B |H_n (F)|^1 S_e (F)dF\) 
+d) None
+b
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice advanced questions on all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Representation of Numbers – 2» Next - Digital Signal Processing Questions and Answers – Analysis of Quantization Errors 

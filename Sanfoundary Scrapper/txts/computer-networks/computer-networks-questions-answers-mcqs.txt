@@ -1,0 +1,80 @@
+1. A network administrator is connecting hosts A and B directly through their Ethernet interfaces, as shown in the illustration. Ping attempts between the hosts are unsuccessful. What can be done to provide connectivity between the hosts?
+i. A crossover cable should be used in place of the straight-through cable.
+ii. A rollover cable should be used in place of the straight-through cable.
+iii. The subnet masks should be set to 255.255.255.192.
+iv. A default gateway needs to be set on each host.
+v. The subnet masks should be set to 255.255.255.0.
+a) i only
+b) ii only
+c) iii and iv only
+d) i and v only
+d
+2. Your router has the following IP address on Ethernet0: 172.16.2.1/23. Which of the following can be valid host IDs on the LAN interface attached to the router?
+i. 172.16.1.100
+ii. 172.16.1.198
+iii. 172.16.2.255
+iv. 172.16.3.0
+a) i only
+b) ii and iii only
+c) iii and iv only
+d) ii only
+c
+3. Which two statements describe the IP address 10.16.3.65/23?
+i. The subnet address is 10.16.3.0 255.255.254.0.
+ii. The lowest host address in the subnet is 10.16.2.1 255.255.254.0.
+iii. The last valid host address in the subnet is 10.16.2.254 255.255.254.0.
+iv. The broadcast address of the subnet is 10.16.3.255 255.255.254.0.
+Join [email protected]
+a) i and iii
+b) ii and iv
+c) i, ii and iv
+d) ii, iii and iv
+b
+4. What is the maximum number of IP addresses that can be assigned to hosts on a local subnet that uses the 255.255.255.224 subnet mask?
+a) 14
+b) 15
+c) 16
+d) 30
+d
+5. You need to subnet a network into 5 subnets, each with at least 16 hosts. Which classful subnet mask would you use?
+a) 255.255.255.192
+b) 255.255.255.224
+c) 255.255.255.240
+d) 255.255.255.248
+b
+6. You have a network that needs 29 subnets while maximizing the number of host addresses available on each subnet. How many bits must you borrow from the host field to provide the correct subnet mask?
+a) 2
+b) 3
+c) 4
+d) 5
+d
+7. If an Ethernet port on a router were assigned an IP address of 172.16.112.1/25, what would be the valid subnet address of this host?
+a) 172.16.112.0
+b) 172.16.0.0
+c) 172.16.96.0
+d) 172.16.255.0
+a
+8. You have an interface on a router with the IP address of 192.168.192.10/29. Including the router interface, how many hosts can have IP addresses on the LAN attached to the router interface?
+a) 6
+b) 8
+c) 30
+d) 32
+a
+9. What is the subnet id of a host with an IP address 172.16.66.0/21?
+a) 172.16.36.0
+b) 172.16.48.0
+c) 172.16.64.0
+d) 172.16.0.0
+c
+10. The network address of 172.16.0.0/19 provides how many subnets and hosts?
+a) 7 subnets, 30 hosts each
+b) 8 subnets, 8,190 hosts each
+c) 8 subnets, 2,046 hosts each
+d) 7 subnets, 2,046 hosts each
+b
+Sanfoundry Global Education & Learning Series – Computer Networks.
+To practice MCQs on all areas of Computer Networks, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Networks Questions & Answers – Analyzing Subnet Masks» Next - Computer Networks Questions & Answers – IP Routing 

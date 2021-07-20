@@ -1,0 +1,66 @@
+1. _______ is currency used to store transactions on which measures to be converted are based in SSAS.
+a) Local currency
+b) Pivot currency
+c) Global currency
+d) None of the mentioned
+a
+2. Point out the correct statement.
+a) The Type property of the dimension is set to Reporting Currency
+b) The Type property of one attribute for the dimension is set to CurrencyName in Latin
+c) The values of Type attribute must be used in all columns that should contain a currency identifier
+d) All of the mentioned
+a
+3. For _________ currency conversions, the pivot currency and reporting currency are the same.
+a) one-to-one
+b) many-to-one
+c) many-many
+d) all of the mentioned
+b
+4. You can use the __________  Wizard to specify which measures from the rate measure group are used to convert values.
+a) BI
+b) ETL
+c) MIS
+d) OBIEE
+a
+5. Point out the wrong statement.
+a) Transactions are stored in the fact table in local currencies for many-to-many conversion
+b) Transactions are stored in the fact table in the pivot currency for one-to-many conversion
+c) If you choose a many-to-many or one-to-many conversion type for your currency conversion, you need to specify the reporting currencies
+d) None of the mentioned
+b
+6. The Business Intelligence Wizard supports ______ different types of currency conversion.
+a) 3
+b) 4
+c) 5
+d) 6
+a
+7. If you select the __________ conversion type, a reporting currency dimension is also created.
+a) one-to-one
+b) many-to-one
+c) many-many
+d) all of the mentioned
+b
+8. Which of the following Sort order sorts and compares data in Analysis Services based on the bit patterns defined for each character?
+a) BIN2 (_BIN2)1
+b) Binary (_BIN)1
+c) Case-sensitive (_CS)
+d) Case-insensitive
+b
+9. ____________  distinguishes between a single-byte character and the same character when represented as a double-byte character.
+a) Accent-insensitive (_AI)
+b) Kana-sensitive (_KS)
+c) Accent-sensitive (_AS)
+d) Width-sensitive (_WS)
+d
+10. Which of the following property enables Analysis Services to use a faster algorithm for string hashing and comparison?
+a) EnableFast1033Local
+b) EnableFast1036Locale
+c) EnableFast1033Locale
+d) EnableQuick1033Locale
+c
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice problems on all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Analysis Services – 2» Next - SQL Server Questions and Answers – MDX – 1 

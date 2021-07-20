@@ -1,0 +1,71 @@
+1. Which of the following keyword is used to overload user defined types by defining static member functions?
+a) op
+b) opoverload
+c) operator
+d) operatoroverload
+c
+2. Which of the following statements are correct in nature?
+a) The conditional logical operators cannot be overloaded
+b) The array indexing operator can be overloaded
+c) A public or nested public preference type does not overload the equality operator
+d) None of the mentioned
+a
+3. Arrange the following overloaded operators in increasing order of precedence?
+ %, <<, &, /, +
+a) ‘%’ < ‘<<‘ < ‘+’ < ‘-‘ < ‘&’ < ‘/’
+b) ‘<<‘ < ‘&’ < ‘%’ < ‘-‘ < ‘/’ < ‘+’
+c) ‘&’ < ‘-‘ <‘%’ < ‘<<‘ < ‘/’ < ‘+’
+d) ‘/’ < ‘-‘ < ‘%’ < ‘+’ < ‘<<‘ < ‘&’
+b
+4. Operators that can be overloaded are?
+a) ||
+b) ‘+=’
+c) +
+d) [] 
+c
+5. Which statements are correct about operator overloading?
+a) Mathematical or physical modeling where we use classes to represent objects such as vectors, matrices, complex-numbers etc
+b) Graphical programs where coordinate related objects are used to represent positions on the screen
+c) Financial programs where a class represents an amount of money
+d) All of the mentioned
+d
+6. Correct way to define operator method or to perform operator overloading is?
+a)
+   public static op(arglist)   {    }
+b)
+   public static retval op(arglist)   {    }
+c)
+   public static retval operator op(arglist)   {    }
+d) All of the mentioned
+c
+7. Correct method to define + operator is?
+a) public sample operator +(int a, int b)
+b) public abstract operator +(int a, int b)
+c) public static sample operator  +(int a, int b)
+d) public abstract sample operator +(int a, int b)
+c
+8. Choose the correct statement among the below mentioned statements.
+a) Forgetting to declare an operator method as public
+b) Forgetting to declare an operator method as static
+c) Forgetting to return a bool type value while overloading a relational operator
+d) All of the mentioned
+d
+9. What is the vector in operator overloading?
+a) class
+b) method()
+c) data type
+d) none of the mentioned
+c
+10. Choose the wrong statement from the given set of statements?
+a) All operators in C#.NET cannot be overloaded
+b) We can use the new modifier to modify a nested type if the nested type is hiding another type
+c) Operator overloading permits the use of symbols to represent computations for a type
+d) In case of operator overloading all parameters must be of different type than the class or struct that declares the operators
+d
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice  all areas of C# for tests, here is complete set on 1000+ Multiple Choice Questions and Answers on C#.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Interfaces Implementation» Next - C# Questions & Answers – Recursion 

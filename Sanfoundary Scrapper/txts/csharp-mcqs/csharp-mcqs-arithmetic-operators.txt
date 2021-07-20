@@ -1,0 +1,191 @@
+1. What will be the output of the following C# code?
+ static void Main(string[] args) {     float a = 16.4f;     int b = 12;     float c;     c =  a * ( b + a) / (a - b) ;     Console.WriteLine("result is :" +c);     Console.ReadLine(); }
+a) 106
+b) 104.789
+c) 105.8546
+d) 103.45
+c
+Output:
+ result is : 105.8546.
+2. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int a, b, c, x;      a = 90;      b = 15;      c = 3;      x = a - b / 3 + c * 2 - 1;      Console.WriteLine(x);      Console.ReadLine();  }
+a) 92
+b) 89
+c) 90
+d) 88
+c
+First pass :
+       step 1 : x = 90 - 15 / 3 + 3 * 2 - 1 (15 / 3 evaluated)
+       step 2 : x = 90 - 5 + 3 * 2 - 1
+       step 3 : x = 90 - 5 + 3 * 2 -1 (3 * 2 is evaluated)
+       step 4 : x = 90 - 5 + 6 - 1
+ Second pass :
+       step 5 : x = 85 + 6 - 1 (90 - 5 is evaluated)
+       step 6 : x = 91 - 1(85 + 6 is evaluated)
+       step 7 : x = 90(91 - 1 is evaluated)
+Output : 90.
+3. What will be the output of the following C# code?
+Join Sanfoundry@YouTube
+  static void Main(string[] args)  {      int a, b, c, x;      a = 80;      b = 15;      c = 2;      x = a - b / (3 * c) * ( a + c);      Console.WriteLine(x);      Console.ReadLine();  }
+a) 78
+b) -84
+c) 80
+d) 98
+b
+  First pass:
+      Step 1: 80 - 15/(3*2)*(80 + 2)
+      Step 2: 80 - 15/6*82 ((3 * 2) evaluated first and (80 + 2) evaluated later)
+  Second pass:
+      Step 3: 80 - 2*82
+      Step 4: 80 - 164.
+  Third pass:
+     Step 5 : -84. (80 - 164 is evaluated)
+Output : -84 .
+4. Correct order of priorities are:
+a) ‘/’ > ‘%’  > ‘*’  > ‘+’
+b) ‘/’  > ‘*’  > ‘%’  > ‘+’
+c) ‘*’  > ‘/’  > ‘%’  > ‘+’
+d) ‘%’  > ‘*’  > ‘/’  > ‘+’
+c
+5. What will be the output of the following C# code?
+    int i, j = 1, k;    for (i = 0; i < 3; i++)    {        k = j++ - ++j;        Console.Write(k + " ");    }
+a) -4 -3 -2
+b) -6 -4 -1
+c) -2 -2 -2
+d) -4 -4 -4
+c
+ Here i = 0, j = 1.
+                     k = 1 - 3 ( j++ = 2 and ++j = 3)
+                     k = -2.
+                     i = 1 , j = 3.
+                     k = 3 - 5 ( j++ = 4 and ++j = 5)
+                     k = -2.
+                     i = 2 , j = 5.
+                     k = 5 - 7 (j++ = 6  and ++j = 7)
+                     k = -2.
+Output : -2 , -2 , -2.
+6. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int b= 11;      int c = 7;      int r = 5;      int e = 2;      int l;      int v = 109;      int k;      int z,t,p;      z = b * c;      t = b * b;      p = b * r * 2;      l = (b * c) + (r * e) + 10;      k = v - 8;      Console.WriteLine(Convert.ToString(Convert.ToChar(z)) + " " + Convert.ToString(Convert.ToChar(t)) + Convert.ToString(Convert.ToChar(p)) +   Convert.ToString(Convert.ToChar(l)) + Convert.ToString(Convert.ToChar(v)) + Convert.ToString(Convert.ToChar(k)));                      Console.ReadLine();  }
+a) My Name
+b) My nAme
+c) My name
+d) Myname
+c
+ Step 1 : b * c is evaluated first inside first parentheses.
+ Step 2 : r * e is evaluated second on right side of first addition symbol.
+ Step 3 : After evaluating both parentheses 10 is added to value of both.
+Output : My name.
+7. What will be the output of the following C# code?
+ static void Main(string[] args) {     int n = 5;     int x = 4;     int z, c, k;     for (c = 1; c <= n; c++)     {         for (k = 1; k <= c; k++)     {         z = 3 * x * x + 2 * x + 4 / x + 8;         Console.Write(Convert.ToString(Convert.ToChar(z)));     }         Console.WriteLine("\n");     }     Console.ReadLine(); }
+a) 
+A
+AA
+AAA
+AAAA
+b) 
+A
+AB
+ABC
+ABCD
+c) 
+A
+AA
+AAA
+AAAA
+AAAAA
+d) 
+A
+BC
+DEF
+DEFG
+c
+                           Row 1: A
+                           Row 2: AA 
+                                  -
+                                  -
+                           Row 5: AAAAA
+ Output : A
+          AA
+          AAA
+          AAAA
+          AAAAA
+ 
+  
+8. What will be the output of the following C# code?
+ static void Main(string[] args) {     int n = 5;     int x = 4;     int z, c, k;     z = 3 * x * x + 2 * x + 4 / x + 8;     for (c = 1; c <= n; c++)     {         for (k = 1; k <= c; k++)         {             Console.Write(Convert.ToString(Convert.ToChar(z)));             z++;         }         Console.WriteLine("\n");     }     Console.ReadLine(); }
+a) 
+A
+AA
+AAA
+AAAA
+AAAAA
+b) 
+A
+AB
+ABC
+ABCD
+ABCDE
+c) 
+A
+BC
+DEF
+GHIJ
+KLMNO
+d) 
+A
+AB
+BC
+BCD
+BCDE
+c
+ Step 1: c = 1, n = 5
+         k = 1, k <= 1. (as c = 1)
+         z = 65 converted to ‘A’ as ascii value of ‘A’ is 65.
+         z++ increment for next loop condition by ‘1’as 66.
+         Row 1: A
+ Step 2: c = 2, n = 5
+         k = 2, k <= 2. (as c = 2)
+         z = 66 from step 1 converted value of 66 is ‘B’. Since, k < =2
+         loop will again loop to second value after 66 which is 67 as z is
+         incremented from 66 to +1 as ’67’. So, converting ascii value of 67 to character as ‘C’.
+         Row 2: B C
+Similarly,
+ Step 3:
+         Row 3: D E F
+ Step 4:
+        Row 4: G H I J
+ Step 5:
+        Row 5: K L M N O.
+Output:  A
+         BC
+         DEF
+         GHIJ
+         KLMNO
+9. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int a , b;      int c = 10;      int d = 12;      int e = 5;      int f = 6;      a = c * (d + e) / f + d;      Console.WriteLine(a);      b = c * ( d + e / f + d);      Console.WriteLine(b);      if (a < b)      {          Console.WriteLine(" parentheses changes values");      }      else if (a > b)      {          Counterintelligence("they have same value");      }      Console.ReadLine();  }
+a) They have same value
+b) Parentheses changes values
+c) Since both have equal values, no conclusion
+d) None of the mentioned
+b
+a = 10 * 17/6 + 12.
+a = 40.
+Solving for expression 'b' expression inside parentheses (d + e /f + d) 
+are evaluated as (12 + 5/6 + 12)
+b = 10 *(12 + 5/6 + 12).
+b = 240.
+Output : 40
+         240
+         parentheses changes values.
+10. The correct way of incrementing the operators are:
+a) ++ a ++
+b) b ++ 1
+c) c += 1
+d) d =+ 1
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers –Type Conversion in Expressions» Next - C# Questions & Answers – Relational and Logical Operators 

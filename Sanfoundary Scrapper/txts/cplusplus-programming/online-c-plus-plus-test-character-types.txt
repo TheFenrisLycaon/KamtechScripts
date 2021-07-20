@@ -1,0 +1,73 @@
+This section on online C++ test focuses on “Character Types”. One shall practice these test questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our online C++ test questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of online C++ test questions on “Character Types” along with answers, explanations and/or solutions:
+1. How many characters are specified in the ASCII scheme?
+a) 64
+b) 128
+c) 256
+d) 24
+b
+2. Given the variables p, q are of char type and r, s, t are of int type. Select the right statement?
+    1. t = (r * s) / (r + s);
+    2. t = (p * q) / (r + s);
+a) 1 is true but 2 is false
+b) 1 is false and 2 is true
+c) both 1 and 2 are true
+d) both 1 and 2 are false
+c
+3. Which of the following belongs to the set of character types?
+a) char
+b) wchar_t
+c) only a
+d) both wchar_t and char
+d
+4. What will be the output of the following C++ code?
+Join Sanfoundry@YouTube
+    #include <iostream>    using namespace std;    int main()    {        char c = 74;        cout << c;        return 0;    }
+a) A
+b) N
+c) J
+d) I
+c
+5. How do we represent a wide character of the form wchar_t?
+a) L’a’
+b) l’a’
+c) L[a] 
+d) la
+a
+6. What will be the output of the following C++ code?
+    #include <stdio.h>    int main()    {        char a = '\012';         printf("%d", a);        return 0;    }
+a) Compiler error
+b) 12
+c) 10
+d) Empty
+c
+7. In C++, what is the sign of character data type by default?
+a) Signed
+b) Unsigned
+c) Implementation dependent
+d) Unsigned Implementation
+c
+8. Is the size of character literals different in C and C++?
+a) Implementation defined
+b) Can’t say
+c) Yes, they are different
+d) No, they are not different
+c
+9. Suppose in a hypothetical machine, the size of char is 32 bits. What would sizeof(char) return?
+a) 4
+b) 1
+c) Implementation dependent
+d) Machine dependent
+b
+10. What constant defined in <climits> header returns the number of bits in a char?
+a) CHAR_SIZE
+b) SIZE_CHAR
+c) BIT_CHAR
+d) CHAR_BIT
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Booleans» Next - C++  Programming Questions and Answers – Integer Types 

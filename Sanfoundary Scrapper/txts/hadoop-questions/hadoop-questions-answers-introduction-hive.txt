@@ -1,0 +1,52 @@
+1. Which of the following command sets the value of a particular configuration variable (key)?
+a) set -v
+b) set <key>=<value>
+c) set
+d) reset
+b
+2. Point out the correct statement.
+a) Hive Commands are non-SQL statement such as setting a property or adding a resource
+b) Set -v prints a list of configuration variables that are overridden by the user or Hive
+c) Set sets a list of variables that are overridden by the user or Hive
+d) None of the mentioned
+a
+3. Which of the following operator executes a shell command from the Hive shell?
+a) |
+b) !
+c) ^
+d) +
+b
+4. Which of the following will remove the resource(s) from the distributed cache?
+a) delete FILE[S] <filepath>*
+b) delete JAR[S] <filepath>*
+c) delete ARCHIVE[S] <filepath>*
+d) all of the mentioned
+d
+5. Point out the wrong statement.
+a) source FILE <filepath> executes a script file inside the CLI
+b) bfs <bfs command> executes a dfs command from the Hive shell
+c) hive is Query language similar to SQL
+d) none of the mentioned
+b
+6. _________ is a shell utility which can be used to run Hive queries in either interactive or batch mode.
+a) $HIVE/bin/hive
+b) $HIVE_HOME/hive
+c) $HIVE_HOME/bin/hive
+d) All of the mentioned
+c
+7. Which of the following is a command line option?
+a) -d,–define <key=value>
+b) -e,–define <key=value>
+c) -f,–define <key=value>
+d) None of the mentioned
+a
+8. Which is the additional command line option is available in Hive 0.10.0?
+a) –database <dbname>
+b) –db <dbname>
+c) –dbase Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Pig in Practice» Next - Hadoop Questions and Answers – HiveQL – 1 

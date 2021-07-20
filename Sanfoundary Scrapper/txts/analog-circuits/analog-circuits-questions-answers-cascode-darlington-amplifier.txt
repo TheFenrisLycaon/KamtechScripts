@@ -1,0 +1,87 @@
+1. Which of these are incorrect about Darlington amplifier?
+a) It has a high input resistance
+b) The output resistance is low
+c) It has a unity voltage gain
+d) It is a current buffer
+d
+2. Consider the circuit shown below where hfe=50.
+Calculate the input resistance of the network.
+a) 255 kΩ
+b) 13 MΩ
+c) 5 MΩ
+d) 250 kΩ
+b
+RE1 = (1+hfe)5k = 255kΩ
+Net input resistance, RI = (1+hfe)RE1=(1+hfe)25k = 13005k = 13MΩ.
+3. Given the following circuit.
+It is given that hfe=55, hie=1kΩ, hoe=25μΩ-1. Calculate the net current gain and the voltage gain of the network.
+a) AI=192.6, Av=220
+b) AI=1, AV=220
+c) AI=192.6, AV=1
+d) AI=192.6, AV=55
+c
+AI = [1+hfe/1+hoehfeRE]x[1+hfe].
+AI = 51×51/(1+25x50x10x10-3) = 192.6.
+4. In a Darlington pair, the overall β=15000.β1=100. Calculate the collector current for Q2 given base current for Q1 is 20 μA.
+a) 300 mA
+b) 298 mA
+c) 2 mA
+d) 200mA
+b
+IC = β.IB = 15000 x 20μ = 300 mA
+IC1 = β1.IB = 100.20μ = 2mA
+IC2 = 300 – 2 = 298mA.
+5. Darlington amplifier is an emitter follower.
+a) True
+b) False
+a
+transistor. It also provides a large β as per requirements.
+6. What is the need for bootstrap biasing?
+a) To prevent a decrease in the gain of network
+b) To prevent an increase in the input resistance due to the biasing network
+c) To prevent a decrease in the input resistance due to the presence of multiple BJT amplifiers
+d) To prevent a decrease in the input resistance due to the biasing network
+b
+7. Consider a Darlington amplifier. In the self bias network, the biasing resistances are 220kΩ and 400 kΩ. What can be the correct value of input resistance if hfe = 50 and emitter resistance = 10kΩ.
+a) 141 kΩ
+b) 15 MΩ
+c) 20 MΩ
+d) 200 kΩ
+a
+RI = (1+hfe)2RE = 26MΩ
+RI’ = 26M||142k = 141.22 K.
+8. What is a cascade amplifier?
+a) A cascade of two CE amplifiers
+b) A cascade of two CB amplifiers
+c) A cascade of CE and CB amplifiers
+d) A cascade of CB and CC amplifiers
+c
+It is used as a wide-band amplifier.
+9. Consider the figure shown.
+Given that gm1 = 30mΩ-1 and gm2 = 50mΩ-1, α1 = 1.1, α2 = 1.5 what is the transconductance of the entire network?
+a) 80 mΩ-1
+b) 75 mΩ-1
+c) 33 mΩ-1
+d) 55 mΩ-1
+d
+gm = α1gm2
+gm = 1.1 gm2 = 55mΩ-1.
+10. Find the transconductance of the network given below, provided that gm1 = 30mΩ-1. VT = 25mV, VBias > 4V.
+a) 30mΩ-1
+b) 10mΩ-1
+c) 1mΩ-1
+d) 20mΩ-1
+a
+11. In the given circuit, hfe = 50 and hie = 1000Ω, find overall input and output resistance.
+a) RI=956Ω, RO=1.6 kΩ
+b) RI=956 kΩ, RO=2 kΩ
+c) RI=956 Ω, RO=2 kΩ
+d) RI=900Ω, RO=10 kΩ
+c
+Input resistance = hie||50k||40k = 0.956 kΩ.
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Cascaded Amplifier» Next - Analog Circuits Questions and Answers – Feedback Connection Types 

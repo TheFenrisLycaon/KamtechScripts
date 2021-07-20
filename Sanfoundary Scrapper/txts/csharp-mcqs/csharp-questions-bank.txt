@@ -1,0 +1,105 @@
+1. What will be the output of the following C# code?
+ class Program {     static void Main(string[] args)     {         int i = 5;         int j;         method1(ref i);         method2(out j);         Console.writeline(i + "  " + j);     }     static void method1(ref int x)     {          x = x + x;     }     static void method2(out int x)     {         x = 6;         x = x * x;     } }
+a) 36, 10
+b) 10, 36
+c) 0, 0
+d) 36, 0
+b
+Output :
+10, 36
+2. Statements about ‘ref’  keyword used in C#.NET are?
+a) The ref keyword causes arguments to be passed by reference
+b) While using ‘ref’ keyword any changes made to the parameter in the method will be reflected in the variable when control is passed back to the calling method
+c) Ref usage eliminates overhead of copying large data items
+d) All of the mentioned
+d
+3. What will be the output of the following C# code?
+ static void main(string[] args) {     int n = 1;     method(n);     console.Writeline(n);     method1(ref n);     console.Writeline(n); } static void method(int num) {     num += 20;     console.writeline(num); } static void method1(ref int num) {     num += 20;     console.writeline(num); }
+a) 
+   1
+   1
+   1
+   1
+b) 
+   21
+    1
+   21 
+   21
+c) 
+   11
+   21
+   21
+   11
+d) 
+   21
+    1
+   21
+   21
+d
+Output :
+21 1 21 21
+4. Which method does following C# code explains?
+ static void Main(string[] args) {     int a = 10, b = 20;     method(ref a,  ref b);     console.writeline(a + "  " + b); } static void swap(ref int i,  ref int j) {       int t;     t = i;     i = j;     j = t; }
+a) Call by reference
+b) Call by value
+c) Output parameter
+d) parameter arrays
+a
+5. What will be the output of the following C# code?
+ static void main(string[] args) {     int []arr = new int[]{ 1, 2, 3, 4, 5};     fun (ref arr);     for (int i = 0; i < arr.Length ; i++)     Console.WriteLine( arr[i] + "  "); } static void fun(ref int[]a) {     a = new int[6];     a[3] = 32;     a[1] = 24; }
+a) 0, 0, 32, 0, 0, 0
+b) 0, 24, 0, 32, 0, 0
+c) 24, 0, 32, 0, 0, 0
+d) 0, 0, 32, 0, 0, 0
+b
+Output :
+ 0 24 0 32 0 0
+6. What will be the output of the following C# code?
+ static void main(string[] args) {     int i;     int res = fun (out i);     console.writeline(res);     console.readline(); } static int fun(out int i) {     int s = 1;     i = 7;     for (int j = 1; j <= i; j++ )     s = s * j;     return s; }
+a) 4490
+b) 5040
+c) 5400
+d) 3500
+b
+Output:
+5040
+7. What will be the output of the following C# code?
+ static void Main(string[] args) {     int a = 5;     int b = 0, c = 0;     method (a,  ref b, ref c);     Console.WriteLine(b + "  " + c);     Console.ReadLine(); } static int method(int x, int p, ref int k) {     p = x + x * x;     k = x * x + p;     return 0; }
+a) 30, 55
+b) 55, 30
+c) Compile time error
+d) 0, 0
+c
+8. Keyword used to define call by reference parameter in C# .NET?
+a) &
+b) out
+c) ref
+d) &&
+c
+9. Select the correct match of parameter declaration.
+ static Void main(string[] args) {     int a = 5;     int b = 6;     float c = 7.2f;     math (ref a, ref b, ref c);     Console.WriteLine(a + "  " + b + "  " + c); } static int math(/*add parameter declaration */) {     a += b;     b *= (int)c;     c += a * b;     return 0; }
+a) ref int a,  int b,  ref float c
+b) ref int a,  ref float c,  ref int b
+c) ref int a,  ref int b,  float c
+d) ref int a,  ref int b,  ref float c
+d
+              {
+                int a = 5;
+                int b = 6;
+                float c = 7.2f;
+                math(ref a,  ref b,  ref c);
+                console.writeLine(a + ” ” + b + ” ” + c);
+              }
+10. Which statement is/are correct?
+a) An argument passed to a ref parameter need not be initialized first
+b) Variables passed as out arguments need to be initialized prior to being passed
+c) To use a ref parameter, only the calling method must explicitly use the ref keyword
+d) None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice C# Question Bank, here is complete set on 1000+ Multiple Choice Questions and Answers on C#. 
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Public & Private Access Modifier» Next - C# Questions & Answers – Use of Variable Number of Arguments 

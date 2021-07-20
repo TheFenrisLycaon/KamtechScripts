@@ -1,0 +1,116 @@
+1. What is the problem with IF statement?
+a) Overlapping of conditions
+b) No default value
+c) The condition can be Boolean only
+d) Restriction on number of ELSE statement
+a
+2. In which of the following statements, all the branches are equal in priority?
+a) IF
+b) CASE
+c) WAIT
+d) LOOP
+b
+3. In case any of the conditions is not covered by ‘cases’ in the case statement, which of the following keyword can be used to cover all those conditions?
+a) ELSE
+b) ELSIF
+c) REMAINING
+d) OTHERS
+d
+4. CASE is a sequential statement, which is similar to _________ concurrent statement.
+a) Concurrent assignment
+b) PORT MAP
+c) WHEN
+d) THEN
+c
+5. Which of the following is correct syntax for CASE statement?
+a)
+    CASE expression IS
+     WHEN choice_1 &lt;=
+     Sequential_statements;
+     WHEN choice_2 &lt;=
+     Sequential_statements;
+     ….
+    WHEN OTHERS &lt;=
+    Sequential_statements;
+    END CASE;
+b)
+    CASE expression IS
+     WHEN choice_1 =&gt;
+     Sequential_statements;
+     WHEN choice_2 =&gt;
+     Sequential_statements;
+     ….
+    WHEN OTHERS =&gt;
+    Sequential_statements;
+    END CASE;
+c)
+    CASE expression IS
+     IF choice_1 &lt;=
+     Sequential_statements;
+     ELSIF choice_2 &lt;=
+     Sequential_statements;
+     ….
+    ELSIF OTHERS &lt;=
+    Sequential_statements;
+    END CASE;
+d)
+    CASE expression IS
+     IF choice_1 =&gt;
+     Sequential_statements;
+     ELSIF choice_2 =&gt;
+     Sequential_statements;
+     ….
+    ELSIF OTHERS =&gt;
+    Sequential_statements;
+    END CASE;
+b
+  
+6. The expression used in a keyword must be of a Boolean type.
+a) True
+b) False
+b
+7. What will be the value of Z in the following code?
+ENTITY case_1 IS
+Port (a, b, c, y : IN INTEGER range 0 TO 31
+           z              : OUT INTEGER range 0 TO 31)
+ARCHITECTURE example OF case_1 IS
+BEGIN
+y &lt;= 2;
+a &lt;= 4;
+b &lt;= 5;
+c &lt;=6;
+PROCESS(a, b, c, y)
+BEGIN
+CASE y+1 IS
+WHEN 1 =&gt;
+z &lt;= a;
+WHEN 2 =&gt;
+z &lt;= b;
+WHEN 3 =&gt;
+z &lt;= c;
+WHEN OTHERS =&gt;
+Z &lt;= 0;
+END CASE;
+END PROCESS;
+END example;
+a) 2
+b) 4
+c) 5
+d) 6
+d
+8. What should be the type of choices in the CASE statement?
+a) Boolean
+b) Integer
+c) Same as expression
+d) No restriction on the type
+c
+9. It is possible to use a range in the choice part of the CASE statement.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – IF Statement» Next - VHDL Questions and Answers – Case Statement – 2 

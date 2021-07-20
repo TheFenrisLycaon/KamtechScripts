@@ -1,0 +1,167 @@
+1. What is the Size of ‘Char’ datatype?
+a) 8 bit
+b) 12 bit
+c) 16 bit
+d) 20 bit
+c
+2. What will be the output of the following C# code?
+ static void Main(string[] args) {     char c = 'g';     string s = c.ToString();     string s1 = "I am a human being" + c;     Console.WriteLine(s1);     Console.ReadLine(); }
+a) I am a human bein c
+b) I am a human being
+c) I am a human being c
+d) I am a human bein
+b
+Output:
+I am a human being.
+3. Given is the code of days(example:”MTWTFSS”) which I need to split and hence create a list of days of week in strings( example:”Monday”, “Tuesday”, “Wednesday”, “Thursday”, “Friday”, “Saturday”, “Sunday”). A set of code is given for this purpose but there is the error occurring in that set of code related to the conversion of char to strings. Hence, Select a C# code to solve the given error.
+static void Main(string[] args){    var days = "MTWTFSS";    var daysArray = days.ToCharArray().Cast<string>().ToArray();    for (var i = 0; i < daysArray.Length; i++)    {        switch (daysArray[i])        {        case "M":            daysArray[i] = "Monday";            break;        case "T":            daysArray[i] = "Tuesday";            break;        case "W":            daysArray[i] = "Wednesday";            break;        case "R":            daysArray[i] = "Thursday";            break;        case "F":            daysArray[i] = "Friday";            break;        case "S":            daysArray[i] = "Saturday";            break;        case "U":            daysArray[i] = "Sunday";            break;        }    }    daysArray[daysArray.Length - 1] = "and " + daysArray[daysArray.Length - 1];    Console.WriteLine(string.Join(", ", daysArray));}
+a) var daysArray = new List<String>();
+b) var daysArray = days.Select(c =>dayMapping[c]).ToArray();
+c) var daysArray = days.ToCharArray().Select(c =>c.Tostring()).ToArray();
+d) var daysArray = days.Select<String>();
+c
+4. What will be the output of the following C# code?
+static void Main(string[] args){    {         var dayCode = "MTWFS";        var daysArray = new List<string>();        var list = new Dictionary<string, string>        { {"M", "Monday"}, {"T", "Tuesday"}, {"W", "Wednesday"},          {"R", "Thursday"}, {"F", "Friday"}, {"S", "Saturday"},          {"U", "Sunday"}        };       for (int i = 0,max = dayCode.Length; i < max; i++)       {           var tmp = dayCode[i].ToString();           if (list.ContainsKey(tmp))           {               daysArray.Add(list[tmp]);            }       }       Console.WriteLine(string.Join("\n ", daysArray));  }
+a) Monday, Tuesday, Wednesday, Friday, Saturday, Sunday
+b) 
+Monday
+Tuesday
+Wednesday
+Friday
+Sunday
+c) 
+Monday
+Tuesday
+Wednesday
+Friday
+Saturday
+d) Monday,   Tuesday, Wednesday, Friday, Saturday
+c
+Output:
+        Monday
+        Tuesday
+        Wednesday
+        Friday
+        Saturday
+5. Select the correct differences between char and varchar data types?
+i. varchar is non unicode and char is unicode character data type
+ii. char is ‘n’ bytes whereas varchar is actual length in bytes of data entered in terms of storage size
+iii. varchar is variable in length and char is the fixed length string
+iv. For varchar, if a string is less than the maximum length then it is stored in verbatim without any extra characters while for char if a string is less than the set length it is padded with extra characters to equalize its length to given length
+a) i, iii, iv
+b) ii, iii, iv
+c) i, ii, iv
+d) iii, iv
+d
+6. Which is the String method used to compare two strings with each other?
+a) Compare To()
+b) Compare()
+c) Copy()
+d) ConCat()
+b
+7. What will be the output of the following C# code?
+static void Main(string[] args){    string s1 = "Delhi";    string s2;    s2 = s1.Insert (6, "Jaipur");    Console.WriteLine(s2);}
+a) DelhJaipuri
+b) Delhi Jaipur
+c) Delhi
+d) DelhiJaipur
+d
+Output :
+DelhiJaipur
+8. For two strings s1 and s2 to be equal, which is the correct way to find if the contents of two strings are equal?
+a) if(s1 = s2)
+b) 
+int c;
+c = s1.CompareTo(s2);
+c) if (s1 is s2)
+d) if(strcmp(s1, s2))
+b
+9. What will be the output of the following C# string? (Enter a String : BOMBAY).
+static void Main(string[] args){    string Str,  Revstr = " ";     int Length;    Console.Write("Enter A String : ");    Str = Console.ReadLine();    Length = Str.Length - 1;    while (Length >= 0)    {        Revstr = Revstr + Str[Length];        Length --;    }    Console.WriteLine("Reverse  String  Is  {0}",  Revstr);    Console.ReadLine();}
+a) BOMBA
+b) YABMOB
+c) BOMAYB
+d) YABMO
+b
+Output:
+YABMOB
+10. Select the appropriate set of C# code for conversion of string to hexa form.
+ static void Main(string[] args) {     string teststring = "MIKA@?&";     string hex = ConvertstringToHex(teststring, system.Text.Encoding.Unicode);     Console.WriteLine(hex); }
+a)
+static string ConvertstringToHex(string input, system.Text.Encoding encoding){    string Bytes = encoding.GetBytes(input);    string Builder sbBytes = new Builder sbBytes();    for each (byte 'b' in StringBytes)    {        sBytes.AppendFormat("{0:x2}", b);    }    return sbBytes.Tostring();}
+b)
+static string ConvertstringToHex(string input, system.Text.Encoding encoding){    char[]string Bytes = encoding.GetBytes(input);    string Builder sbBytes = new Builder sbBytes(StringBytes.Length*2);    for each (byte 'b' in StringBytes)    {        sBytes.AppendFormat("{0:X2}", b);    }    return sbBytes.Tostring();}
+c)
+public static string ConvertStringToHex(String input,                                         System.Text.Encoding encoding){    {       Byte[] stringBytes = encoding.GetBytes(input);       StringBuilder sbBytes = new StringBuilder(stringBytes.Length * 2);       foreach (byte b in stringBytes)       {           sbBytes.AppendFormat("{0:X2}",  b);       }   Console.WriteLine(sbBytes.ToString());//sbBytes.ToString());   return sbBytes.ToString();    }}
+d) None of the mentioned
+c
+Output:
+public static string ConvertStringToHex(String input, 
+                                        System.Text.Encoding encoding)
+{
+ {
+   Byte[] stringBytes = encoding.GetBytes(input);
+   StringBuilder sbBytes = new StringBuilder(stringBytes.Length * 2);
+   foreach (byte b in stringBytes)
+  {
+   sbBytes.AppendFormat("{0:X2}",  b);
+ }
+Console.WriteLine(sbBytes.ToString());//sbBytes.ToString());
+return sbBytes.ToString();
+}
+11. Which of the following C# code is used for conversion of hex to string form?
+static void Main(string[] args){    string testString = "MIKA@?&^";    string normal = ConvertHexToString (hex,  System.Text.Encoding.Unicode);    Console.WriteLine(normal);    Console.ReadLine();}
+a)
+public static string ConvertHexToString(String hexInput,                                          System.Text.Encoding encoding){    char[] numberChars = hexInput.Length;    byte[] bytes = new byte[numberChars / 2];    for (int i = 0; i < numberChars; i += 2)    {        bytes[i / 2] = Convert.ToByte(hexInput.Substring(i,  0),  16);    }    return encoding.GetString(bytes);}
+b)
+public static string ConvertHexToString(String hexInput,                                          System.Text.Encoding encoding){    int numberChars = hexInput.Length;    byte[] bytes = new byte[numberChars / 2];    for (int i = 0; i < numberChars; i += 2)    {        bytes[i / 2] = Convert.ToByte(hexInput.Substring(i,  2),  16);    }    return encoding.GetString(bytes);}
+c)
+public static string ConvertHexToString(String hexInput,                                          System.Text.Encoding encoding){    string numberChars = hexInput.Length;    byte[] bytes = new byte[numberChars];    for (int i = 0; i &lt; numberChars; i += 2)    {        bytes[i / 2] = Convert.ToByte(hexInput.Substring(i,  2),  16);    }    return encoding.GetString(bytes);}
+d) None of the mentioned
+b
+Output:
+public static string ConvertHexToString(String hexInput,  
+                                        System.Text.Encoding encoding)
+{
+    int numberChars = hexInput.Length;
+    byte[] bytes = new byte[numberChars / 2];
+    for (int i = 0; i &lt; numberChars; i += 2)
+    {
+        bytes[i / 2] = Convert.ToByte(hexInput.Substring(i,  2),  16);
+    }
+    return encoding.GetString(bytes);
+}
+12. What will be the output of the following C# code?
+   string s1 = " I AM BEST ";   string s2;   s2 = s1.substring (5, 4);   Console.WriteLine (s2);
+a) AM BEST
+b) I AM BES
+c) BEST
+d) I AM
+c
+Output:
+ BEST
+13. Correct statement about strings are?
+a) a string is created on the stack
+b) a string is primitive in nature
+c) a string created on heap
+d) created of string on a stack or on a heap depends on the length of the string
+c
+14. Verbatim string literal is better used for?
+a) Convenience and better readability of strings when string text consist of backlash characters
+b) Used to initialize multi-line strings
+c) To embed a quotation mark by using double quotation marks inside a verbatim string
+d) All of the mentioned
+d
+15. Why strings are of reference type in C#.NET?
+a) To create string on stack
+b) To reduce the size of string
+c) To overcome problem of stackoverflow
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all features of C# programming language,  here is complete set on 1000+ Multiple Choice Questions and Answers on C#. 
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Floating and Decimal Data Types» Next - C# Questions & Answers – Initialization of Variables 

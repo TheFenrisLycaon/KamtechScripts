@@ -1,0 +1,105 @@
+This section on C++ questions and puzzles focuses on “Namespaces”. One shall practice these questions and puzzles to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These programming puzzles can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ questions and puzzles on “Namespaces” along with answers, explanations and/or solutions: 
+1. Which operator is used to signify the namespace?
+a) conditional operator
+b) ternary operator
+c) scope operator
+d) bitwise operator
+c
+General syntax:
+namespace X{ int  a;}
+cout<<X::a; 
+2. Identify the correct statement.
+a) Namespace is used to group class, objects and functions
+b) Namespace is used to mark the beginning of the program
+c) A namespace is used to separate the class, objects
+d) Namespace is used to mark the beginning & end of the program
+a
+3. What is the use of Namespace?
+a) To encapsulate the data
+b) To structure a program into logical units
+c) Encapsulate the data & structure a program into logical units
+d) It is used to mark the beginning of the program
+b
+4. What is the general syntax for accessing the namespace variable?
+a) namespace::operator
+b) namespace,operator
+c) namespace#operator
+d) namespace$operator
+a
+namespace :: variable;
+General syntax:
+namespace X{ int  a;}
+cout<<X::a; 
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    namespace first    {        int var = 5;    }    namespace second    {        double var = 3.1416;    }    int main ()    {        int a;        a = first::var + second::var;        cout << a;        return 0;   }
+a) 8.31416
+b) 8
+c) 9
+d) compile time error
+b
+Output:
+$ g++ name.cpp
+$ a.out
+8
+ 
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    namespace first    {        int x = 5;        int y = 10;    }    namespace second    {        double x = 3.1416;        double y = 2.7183;    }    int main ()    {        using first::x;        using second::y;        bool a, b;        a = x > y;        b = first::y < second::x;        cout << a << b;        return 0;    }
+a) 11
+b) 01
+c) 00
+d) 10
+d
+Output:
+$ g++ name1.cpp
+$ a.out
+10
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    namespace Box1    {        int a = 4;    }    namespace Box2    {        int a = 13;    }    int main ()    {        int a = 16;        Box1::a;        Box2::a;        cout << a;        return 0;    }
+a) 4
+b) 13
+c) 16
+d) compile time error
+c
+Output:
+$ g++ name2.cpp
+$ a.out
+16
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    namespace space    {        int x = 10;    }    namespace space    {        int y = 15;    }    int main(int argc, char * argv[])    {        space::x = space::y =5;        cout << space::x << space::y;    }
+a) 1015
+b) 1510
+c) 55
+d) compile time error
+c
+Output:
+$ g++ name4.cpp
+$ a.out
+55
+ 
+9. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    namespace extra    {        int i;    }    void i()    {        using namespace extra;        int i;        i = 9;        cout << i;    }    int main()    {        enum  letter { i, j};        class i { letter j; };        ::i();        return 0;    }
+a) 9
+b) 10
+c) compile time error
+d) 11
+a
+10. Which keyword is used to access the variable in the namespace?
+a) using
+b) dynamic
+c) const
+d) static
+a
+eg.
+namespace A{ int a = 5;}
+namespace B{ int a = 10;}
+using namespace A;
+cout<<a;  // will print value of a from namespace A.
+using namespace B;
+cout<<a;  // will print value of a from namespace B. 
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Modularization and Interfaces» Next - C++ Programming Questions and Answers – Namespaces – 2 

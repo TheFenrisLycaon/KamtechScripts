@@ -1,0 +1,78 @@
+1. What is the output of the following code?
+T=-9:0:9;
+STEM(T);
+a) Error
+b) Plots a ramp function from 0 to 9 units in time
+c) Plots a discrete function
+d) Logical Error
+a
+2. What is the output of the following code?
+N=Input[‘’];
+a) Ask for an input from the user
+b) Asks for an input from the user which has to be kind of number
+c) Input command does not exist
+d) Syntactical Error
+c
+3. Given below is a part of a very big program. What is the output?
+A=[1 2 3];
+mean(a);
+a) Error
+b) 2
+c) Cannot be determined
+d) The mean of a
+c
+4. A student is trying to plot multiple plots in the same window. But the following code doesn’t allow him to do that. What is the error?
+t=0:1:9;
+stem(t);
+hld;
+stem(t^2);
+a) Error in t^2
+b) Error in hld
+c) No error
+d) Error in stem(t)
+b
+5. What is the output of the following code?
+Recpulse(1,9)
+a) A column vector of 1’s of length 9
+b) A column vector of 1’s of length 10
+c) A row vector of 1’s of length 9
+d) Error
+d
+6. What is the output of the following code?
+tripulse(3)
+a) Error
+b) 0
+c) 1
+d) 2
+a
+7. What is the output of the following code?
+Mean([1 2 3 4])
+a) Error due to the Mean command
+b) 2.5
+c) 2 and 3
+d) Syntactical Error
+a
+8. What is the output of the following code?
+lengths([1 2 3])
+a) 3
+b) 1*3
+c) Error due to lengths command
+d) Cannot be determined
+c
+9. What is the output of the following code?
+sten([0:1:4],2*ones(1,5)]
+a) A discrete step function
+b) A discrete pulse function from 0 to 4 units in time
+c) A ramp function
+d) Error
+d
+10. There are a few commands, in MATLAB, which can be used by ignoring the cases.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Syntax Error – 2» Next - MATLAB Questions and Answers – Spelling Error – 2 

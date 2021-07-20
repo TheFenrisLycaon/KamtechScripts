@@ -1,0 +1,129 @@
+1. Suppose the following eigenvalue equation represents a bar problem, then the value of the parameters a and c0 should be EA and ρA, respectively.
+\(-\frac{d}{dx}(a\frac{dU}{dx})\)=λc0 U
+a) True
+b) False
+a
+2. A plane wall of length L units and Cross-section area A units was initially maintained at a temperature of T units. It is subjected to an ambient temperature of T∞ units at one surface. If the heat transfer coefficient at the surface of the wall is assumed to be h units, then what is the temperature gradient developed at the surface?
+a)(T∞-T)\(\frac{h}{k}\) 
+b)(T∞-T)\(\frac{1}{L} \) 
+c) T∞-T
+d) T-T∞
+a
+kATx = hA(T-T∞)
+Tx=(T∞-T)\(\frac{h}{k}\).
+3. A plane wall of thermal conductivity of 45\(\frac{W}{mK}\) was initially maintained at a temperature of 35°C. It is subjected to an ambient temperature of 45°C at one surface. If the heat transfer coefficient at the surface of the wall is 9\(\frac{W}{m^2K}\), then what is the temperature gradient developed at the surface?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+45Tx = 9(35-45)
+Tx = \(\frac{9}{-45}\) (35-45)
+=\(\frac{1}{-5}\) (-10)
+=2.
+4. A plane wall was maintained initially at a temperature of T units. It is subjected to an ambient temperature of T∞ units at one surface. If the heat transfer coefficient at the surfaces of the wall is assumed to be infinite, then what is the new temperature at the wall?
+a) T
+b) T∞
+c) T∞-T
+d) T-T∞
+b
+kATx = hA(X – T∞)
+\(\frac{-kT_x}{h}\) = X – T∞
+Given h = ∞
+\(\frac{-kT_x}{\infty}\) = X – T∞
+0 = X – T∞
+X = T∞.
+5. A plane wall was maintained initially at a temperature of 35°C. It is subjected to an ambient temperature of 45°C at one surface. If the heat transfer coefficient at the surfaces of the wall is assumed to be infinite, then what is the new temperature at the wall surface?
+a) 35°C
+b) 45°C
+c) 40°C
+d) 50°C
+b
+kATx=hA(X-T∞)
+\(\frac{-kT_x}{h}\)=X-T∞
+Given h = ∞
+\(\frac{-kT_x}{\infty}\)=X-T∞
+0=X-T∞
+X=T∞, given T∞=45°C
+X=45°C.
+6. In thermodynamics, the following equation represents a diffusion process. If k is thermal conductivity, p is density, and c is the specific heat at constant pressure, then what is α?
+\(\frac{\partial^2 T}{\partial x^2} = \frac{1}{\alpha}  \frac{\partial T}{\partial t}\) 
+a) \(\frac{k}{pc}\) 
+b) \(\frac{pc}{k}\) 
+c) \(\frac{c}{kp}\) 
+d) \(\frac{c}{k}\) 
+a
+7. The governing equation of an unsteady one-dimensional heat transfer problem is given below. It has a solution u(x,t) = U(x)exp(λt). What is λ appropriately called?
+\(\frac{-\partial}{\partial x} (a \frac{\partial u}{\partial x}) + b \frac{\partial u}{\partial t}\) + cu = 0    for 0<x<L
+a) Natural frequency
+b) Eigenvalue
+c) Thermal diffusivity
+d) Thermal flux
+b
+8. The unsteady natural axial oscillations of a bar are periodic, and they are determined by assuming a solution u(x, t) = U(x) e-iwt. Which option is not correct about the solution equation?
+a) w denotes the natural frequency
+b) w2 denotes eigenvalue
+c) U(x) denotes mode shape
+d) u(x, t) denotes transverse displacements
+d
+9. In matrix algebra, which option is not correct about an eigenvalue problem of the type Ax = Lx?
+a) It has a discrete solution
+b) It has solution only if A non-singular
+c) x is called eigenvector
+d) L is called eigenvalue
+b
+10. The dynamic equation of motion of a structure contains M, C and K as mass, damping and stiffness matrices of the structure, respectively. If F is an external load vector, then which option is correct about the equation?
+a) M\(\ddot{x}\) + K\(\dot{x}\) + Cx = F
+b) M\(\ddot{x}\) is time-dependent
+c) All the forces are time-independent
+d) The equation is of 3rd order
+b
+11. In matrix algebra, a matrix K equals \(\begin{pmatrix} 1&0&0 \\ 0&1&0 \\ 0&0&3 \end{pmatrix}\). What is the value of a, if K7 = \(\begin{pmatrix} c&0&0\\ 0&b&0 \\ 0&0&a \end{pmatrix}\)?
+a) 2187
+b) 729
+c) 6561
+d) 57
+a
+a=37
+a=2187.
+12. In matrix algebra, what is the eigenvalue of the matrix \(\begin{pmatrix} 1&1&1 \\ 1&1&1 \\ 1&1&1 \end{pmatrix}\)?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+Let the given matrix be denoted by K then K-LI = \(\begin{pmatrix} 1&1&1 \\ 1&1&1 \\ 1&1&1 \end{pmatrix} – L \begin{pmatrix}1&0&0 \\ 0&1&0 \\0&0&1 \end{pmatrix}\) 
+= \(\begin{pmatrix} 1-L&1&1 \\ 1&1-L&1 \\ 1&1&1-L \end{pmatrix}\) 
+|K-LI| = \(\begin{vmatrix} 1-L&1&1 \\ 1&1-L&1 \\ 1&1&1-L \end{vmatrix}\) 
+= (1-L)((1-L)2-1)-1(-L)+1(L)
+= (1-L)(L2-2L) + 2L
+= -L3 + 3L2
+= -L2 (L-3).
+Given -L2 (L-3) = 0
+On simplification L = 0, 0 and 3.
+13. In matrix algebra, what is the value of a-b if the eigenvector of \(\begin{pmatrix}1&1&1 \\ 1&1&1 \\ 1&1&1 \end{pmatrix}\)  corresponding to eigenvalue three is \(\begin{pmatrix}a \\ b \\ a \end{pmatrix}\)?
+a) 0
+b) 1
+c) 2
+d) 3
+a
+a=b=1
+a-b=0.
+14. From the Euler-Bernoulli beam theory of natural vibrations, using cubic Hermite polynomials approximation, what is the 1st element of the stiffness matrix?
+a) \(\frac{12EI}{h^3}\) 
+b) \(\frac{12EA}{h^3}\) 
+c) \(\frac{12EA}{h}\) 
+d) \(\frac{12AI}{h^3}\) 
+a
+15. From the Timoshenko beam theory of natural vibrations, using cubic Hermite polynomials approximation, what is the 1st element of the mass matrix?
+a) \(\frac{\rho A}{3}\) 
+b) \(\frac{\rho A}{6}\) 
+c) 0
+d) \(\frac{\rho I}{3}\) 
+a
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method for Entrance exams,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Eigen Value and Time Dependent Problems – 1» Next - Finite Element Method Questions and Answers – Library of Elements and Interpolation Functions – 1 

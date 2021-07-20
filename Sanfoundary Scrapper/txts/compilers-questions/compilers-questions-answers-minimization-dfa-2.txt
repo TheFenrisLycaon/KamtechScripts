@@ -1,0 +1,73 @@
+1. The language accepted by this DFA is?
+a) b*ab*ab*ab*
+b) (a+b)*
+c) b*a(a+b)*
+d) b*ab*ab*
+c
+2. The minimum state automation equivalent to the below FSA has the following number of states?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+ Following is equivalent FSA with 2 states.
+3. Which one of the following is TRUE?
+a) The language L={a^n b^n |n>0 } is regular
+b) The language L={a^n  |n is prime } is regular
+c) The language L={w|w has 3k+1 b’s for some k } is regular
+d) None of the mentioned
+c
+4. 
+a) q0, q1,q2
+b) q0,q1
+c) q0,q1,q2,q3
+d) q3
+a
+5. Which of the regular expressions given below represent the following DFA?
+I) 0*1(1+00*1)*
+II) 0*1*1+11*0*1
+III) (0+1)*1
+a) I and II only
+b) I and III only
+c) II and III only
+d) I II III
+b
+II) 0*1*1+11*0*1
+III) (0+1)*1 
+(I) and  (III) represent DFA.
+(II) doesn’t represent  the DFA since it  accepts strings like 11011,
+    but the regular expression doesn’t accept. 
+6. Let L1 = {w ∈ {0,1}∗ | w has at least as many occurrences of (110)’s as (011)’s}.
+Let L2 = { ∈ {0,1}∗ | w has at least as many occurrences of (000)’s as (111)’s}.
+Which one of the following is TRUE?
+a) L1 is regular but not L2
+b) L2 is regular
+c) L1 and L2 are regular
+d) Neither of them are regular
+A
+7. The length of the shortest string NOT in the language (over Σ = {a, b}) of the following regular expression is _____________
+a*b*(ba)*a*
+a) 2
+b) 3
+c) 4
+d) 5
+B
+8. Consider the machine M:  The language recognized by M is :
+a) {w ∈ {a, b}* / every a in w is followed by ex¬actly two b’s}
+b) {w ∈ {a, b}* every a in w is followed by at least two b’}
+c) {w ∈ {a, b}* w contains the substring ‘abb’}
+d) {w ∈ {a, b}* w does not contain ‘aa’ as a substring}
+b
+9. Consider the following deterministic finite state automaton M.
+S denotes the set of seven bit in which the 1st ,4th and last bits are 1. The number of strings that are accepted by M is
+a) 1
+b) 5
+c) 7
+d) 8
+c
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – Minimization of DFA – 1» Next - Compilers Questions and Answers – Obtaining the regular Expression from the Finite automata – 1 

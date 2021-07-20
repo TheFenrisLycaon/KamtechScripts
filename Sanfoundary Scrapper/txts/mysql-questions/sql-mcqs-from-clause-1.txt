@@ -1,0 +1,71 @@
+1. How can we define the clause “FROM” in Mysql?
+a) It defines the tables used by a query
+b) It defines the linking of tables in Mysql
+c) It defines the tables used by a query & linking of tables in Mysql
+d) None of the mentioned
+c
+2. Which of the following table exist in Mysql?
+a) Permanent Tables
+b) Virtual tables
+c) Temporary tables
+d) All of the mentioned
+d
+3. “CREATE TABLE …” command is used to create which type of table in Mysql?
+a) Permanent Tables
+b) Virtual tables
+c) Temporary tables
+d) All of the mentioned
+a
+4. “CREATE VIEW …” command is used to create which type of table in Mysql?
+a) Permanent Tables
+b) Virtual tables
+c) Temporary tables
+d) All of the mentioned
+b
+5. What is the meaning of “Temporary Tables” in Mysql?
+a) Rows returned by sub query
+b) Permanent tables
+c) Virtual tables
+d) All of the mentioned
+a
+6. “SELECT” clause cannot be used without which clause in Mysql?
+a) FROM
+b) WHERE
+c) ORDER BY
+d) All of the mentioned
+a
+7. Which of the following statements is/are correct with respect to “VIEW”?
+a) “VIEW”  is a query that stored in the data dictionary
+b) There is no data associated with “VIEW”
+c) “VIEW” creates virtual tables in Database
+d) All of the mentioned
+d
+8. Find the missing clause from the following SQL statement?
+CREATE VIEW person_1 AS
+SELECT fname, lname, person_id
+_________person;
+a) FROM
+b) WHERE
+c) SELECT
+d) None of the mentioned
+a
+9. In the following MySQL query, “person_1” belongs to which category of table in MySQL?
+CREATE VIEW person_1 AS
+SELECT fname, lname, person_id FROM person;
+a) Permanent Tables
+b) Virtual tables
+c) Temporary tables
+d) None of the mentioned
+b
+10. Which command is used to create “Temporary tables” in MySQL?
+a) CREATE TABLE;
+b) CREATE VIEW
+c) Both CREATE TABLE; and CREATE VIEW
+d) None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – The select Clauses – 2» Next - MySQL Questions and Answers – The from Clauses – 2 

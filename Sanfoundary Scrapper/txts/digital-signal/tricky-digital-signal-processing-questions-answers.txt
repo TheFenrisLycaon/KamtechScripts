@@ -1,0 +1,76 @@
+1. In IIR Filter design by the Bilinear Transformation, the Bilinear Transformation is a mapping from
+a) Z-plane to S-plane
+b) S-plane to Z-plane
+c) S-plane to J-plane
+d) J-plane to Z-plane
+b
+S=\(\frac{2}{T}(\frac{1-z^{-1}}{1+z^{-1}})\) it is clear that transformation occurs from s-plane to z-plane
+2. In Bilinear Transformation, aliasing of frequency components is been avoided.
+a) True
+b) False
+a
+3. Is IIR Filter design by Bilinear Transformation is the advanced technique when compared to other design techniques?
+a) True
+b) False
+a
+4. The approximation of the integral in y(t) = \(\int_{t_0}^t y'(τ)dt+y(t_0)\) by the Trapezoidal formula at t = nT and t0=nT-T yields equation?
+a) y(nT) = \(\frac{T}{2} [y^{‘} (nT)+y^{‘} (T-nT)]+y(nT-T)\) 
+b) y(nT) = \(\frac{T}{2} [y^{‘} (nT)+y^{‘} (nT-T)]+y(nT-T)\) 
+c) y(nT) = \(\frac{T}{2} [y^{‘} (nT)+y^{‘} (T-nT)]+y(T-nT)\) 
+d) y(nT) = \(\frac{T}{2} [y^{‘} (nT)+y^{‘} (nT-T)]+y(T-nT)\) 
+b
+y(t) = \(\int_{t_0}^t y^{‘} (τ)dt+y(t_0)\) at t=nT and t0=nT-T we get equation,
+y(nT) = \(\frac{T}{2} [y^{‘} (nT)+y^{‘} (nT-T)]+y(nT-T)\).
+5. We use y{‘}(nT)=-ay(nT)+bx(nT) to substitute for the derivative in y(nT) = \(\frac{T}{2} [y^{‘} (nT)+y^{‘} (nT-T)]+y(nT-T)\) and thus obtain a difference equation for the equivalent discrete-time system. With y(n) = y(nT) and x(n) = x(nT), we obtain the result as of the following?
+a) \((1+\frac{aT}{2})Y(z)-(1-\frac{aT}{2})y(n-1)=\frac{bT}{2} [x(n)+x(n-1)]\) 
+b) \((1+\frac{aT}{n})Y(z)-(1-\frac{aT}{n})y(n-1)=\frac{bT}{n} [x(n)+x(n-1)]\) 
+c) \((1+\frac{aT}{2})Y(z)+(1-\frac{aT}{2})y(n-1)=\frac{bT}{2} (x(n)-x(n-1))\) 
+d) \((1+\frac{aT}{2})Y(z)+(1-\frac{aT}{2})y(n-1)=\frac{bT}{2} (x(n)+x(n+1))\) 
+a
+6. The z-transform of below difference equation is?
+\((1+\frac{aT}{2})Y(z)-(1-\frac{aT}{2})y(n-1)=\frac{bT}{2} [x(n)+ x(n-1)]\) 
+a) \((1+\frac{aT}{2})Y(z)-(1-\frac{aT}{2}) z^{-1} Y(z)=\frac{bT}{2} (1+z^{-1})X(z)\) 
+b) \((1+\frac{aT}{n})Y(z)-(1-\frac{aT}{2}) z^{-1} Y(z)=\frac{bT}{n} (1+z^{-1})X(z)\) 
+c) \((1+\frac{aT}{2})Y(z)+(1-\frac{aT}{n}) z^{-1} Y(z)=\frac{bT}{2} (1+z^{-1})X(z)\) 
+d) \((1+\frac{aT}{2})Y(z)-(1+\frac{aT}{2}) z^{-1} Y(z)=\frac{bT}{2} (1+z^{-1})X(z)\) 
+a
+7. What is the system function of the equivalent digital filter? H(z) = Y(z)/X(z) = ?
+a) \(\frac{(\frac{bT}{2})(1+z^{-1})}{1+\frac{aT}{2}-(1-\frac{aT}{2}) z^{-1}}\) 
+b) \(\frac{(\frac{bT}{2})(1-z^{-1})}{1+\frac{aT}{2}-(1+\frac{aT}{2}) z^{-1}}\) 
+c) \(\frac{b}{\frac{2}{T}(\frac{1-z^{-1}}{1+z^{-1}}+a)}\) 
+d) \(\frac{(\frac{bT}{2})(1-z^{-1})}{1+\frac{aT}{2}-(1+\frac{aT}{2}) z^{-1}}\) & \(\frac{b}{\frac{2}{T}(\frac{1-z^{-1}}{1+z^{-1}}+a)}\) 
+d
+Hence, we got an equivalent system function
+where, s = \(\frac{2}{T}(\frac{1-z^{-1}}{1+z^{-1}})\).
+8. In the Bilinear Transformation mapping, which of the following are correct?
+a) All points in the LHP of s are mapped inside the unit circle in the z-plane
+b) All points in the RHP of s are mapped outside the unit circle in the z-plane
+c) All points in the LHP & RHP of s are mapped inside & outside the unit circle in the z-plane
+d) None of the mentioned
+c
+9. In Nth order differential equation, the characteristics of bilinear transformation, let z=rejw,s=o+jΩ Then for s = \(\frac{2}{T}(\frac{1-z^{-1}}{1+z^{-1}})\), the values of Ω, ℴ are
+a) ℴ = \(\frac{2}{T}(\frac{r^2-1}{1+r^2+2rcosω})\), Ω = \(\frac{2}{T}(\frac{2rsinω}{1+r^2+2rcosω})\) 
+b) Ω = \(\frac{2}{T}(\frac{r^2-1}{1+r^2+2rcosω})\), ℴ = \(\frac{2}{T}(\frac{2rsinω}{1+r^2+2rcosω})\) 
+c) Ω=0, ℴ=0
+d) None
+a
+= \(\frac{2}{T}(\frac{re^jw-1}{re^jw+1})\) 
+= \(\frac{2}{T}(\frac{r^2-1}{1+r^2+2rcosω}+j \frac{2rsinω}{1+r^2+2rcosω})(s = ℴ+jΩ)\) 
+10. In equation ℴ = \(\frac{2}{T}(\frac{r^2-1}{1+r^2+2rcosω})\) if r < 1 then ℴ < 0 and then mapping from s-plane to z-plane occurs in which of the following order?
+a) LHP in s-plane maps into the inside of the unit circle in the z-plane
+b) RHP in s-plane maps into the outside of the unit circle in the z-plane
+c) All of the mentioned
+d) None of the mentioned
+a
+11. In equation ℴ = \(\frac{2}{T}(\frac{r^2-1}{1+r^2+2rcosω})\), if r > 1 then ℴ > 0 and then mapping from s-plane to z-plane occurs in which of the following order?
+a) LHP in s-plane maps into the inside of the unit circle in the z-plane
+b) RHP in s-plane maps into the outside of the unit circle in the z-plane
+c) All of the mentioned
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice tricky questions on all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Analysis of Quantization Errors» Next - Digital Signal Processing Questions and Answers – Design of Low Pass Butterworth Filters – 1 

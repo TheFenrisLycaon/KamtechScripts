@@ -1,0 +1,67 @@
+1. What is the unit of delay in the code given below?
+void setup() {    Serial.begin(9600);}void loop() {    digitalWrite(10,HIGH);    delay(1000);    digitalWrite(10,LOW);    delay(1000);}
+a) Milliseconds
+b) Microseconds
+c) Seconds
+d) Minutes
+a
+2. What is the return type of the micros() function?
+a) Signed Long
+b) Signed Int
+c) Unsigned Long
+d) Unsigned Int
+c
+3. What is the return type of the millis() function?
+a) Signed Long
+b) Unsigned Long
+c) Signed Float
+d) Unsigned Int
+b
+4. What is the return type of the delayMicroseconds() function?
+a) Unsigned Int
+b) Signed Int
+c) Unsigned Long
+d) Signed Long
+a
+5. What is the time period of the output signal of the program given below?
+int pin=10;void setup() {    Serial.begin(9600);    pinMode(pin,OUTPUT);}void loop() {    digitalWrite(pin,HIGH);    delay(10);    digitalWrite(pin,LOW);    delay(10);}
+a) 20 Microseconds
+b) 100 Milliseconds
+c) 10 Milliseconds
+d) 0.02 Seconds
+d
+6. What is the purpose of the program given below?
+int ledState = LOW;int ledPin = 13;unsigned long previousMillis = 0;const long interval = 1000;           void setup() {    pinMode(ledPin, OUTPUT);}void loop() {    unsigned long currentMillis = millis();    if (currentMillis - previousMillis >= interval) {        previousMillis = currentMillis;        if (ledState == LOW) {            ledState = HIGH;        } else {            ledState = LOW;        }        digitalWrite(ledPin, ledState);    }}
+a) To create a delay in blink without using the delay() function
+b) To create a delay in blink with the delay() function
+c) To find the up-time
+d) To find the down-time
+a
+7. What is the resolution of the micros() function on the Arduino Nano?
+a) 2 Microseconds
+b) 3 Microseconds
+c) 4 Microseconds
+d) 5 Microseconds
+c
+8. What is the overflow point of the millis() function?
+a) 10 day
+b) 30 days
+c) 50 days
+d) 70 days
+c
+9. What is the resolution of the micros() function on the Arduino LilyPad?
+a) 2 Microseconds
+b) 4 Microseconds
+c) 6 Microseconds
+d) 8 Microseconds
+d
+10. Can the Arduino read sensor data from a pin while the delay() function is in effect?
+a) Yes
+b) No
+b
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Looping» Next - Arduino Questions and Answers – Datatypes 

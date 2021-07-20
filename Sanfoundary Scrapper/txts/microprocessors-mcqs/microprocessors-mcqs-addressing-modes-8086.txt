@@ -1,0 +1,68 @@
+1. The instruction, MOV AX, 0005H belongs to the address mode
+a) register
+b) direct
+c) immediate
+d) register relative
+c
+2. The instruction, MOV AX, 1234H is an example of
+a) register addressing mode
+b) direct addressing mode
+c) immediate addressing mode
+d) based indexed addressing mode
+c
+3. The instruction, MOV AX, [2500H] is an example of
+a) immediate addressing mode
+b) direct addressing mode
+c) indirect addressing mode
+d) register addressing mode
+b
+4. If the data is present in a register and it is referred using the particular register, then it is
+a) direct addressing mode
+b) register addressing mode
+c) indexed addressing mode
+d) immediate addressing mode
+b
+5. The instruction, MOV AX,[BX] is an example of
+a) direct addressing mode
+b) register addressing mode
+c) register relative addressing mode
+d) register indirect addressing mode
+d
+6. If the offset of the operand is stored in one of the index registers, then it is
+a) based indexed addressing mode
+b) relative based indexed addressing mode
+c) indexed addressing mode
+d) none of the mentioned
+c
+7. The addressing mode that is used in unconditional branch instructions is
+a) intrasegment direct addressing mode
+b) intrasegment indirect addressing mode
+c) intrasegment direct and indirect addressing mode
+d) intersegment direct addressing mode
+b
+8. If the location to which the control is to be transferred lies in a different segment other than the current one, then the mode is called
+a) intrasegment mode
+b) intersegment direct mode
+c) intersegment indirect mode
+d) intersegment direct and indirect mode
+d
+9. The instruction, JMP 5000H:2000H;
+    is an example of
+a) intrasegment direct mode
+b) intrasegment indirect mode
+c) intersegment direct mode
+d) intersegment indirect mode
+c
+10. The contents of a base register are added to the contents of index register in
+a) indexed addressing mode
+b) based indexed addressing mode
+c) relative based indexed addressing mode
+d) based indexed and relative based indexed addressing mode
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Machine Language Instruction Formats» Next - Microprocessors Questions and Answers – Instruction Set of 8086/8088 – 1 

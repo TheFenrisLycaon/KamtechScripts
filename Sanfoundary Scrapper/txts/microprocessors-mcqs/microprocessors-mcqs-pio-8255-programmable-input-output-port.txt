@@ -1,0 +1,68 @@
+1. Programmable peripheral input-output port is another name for
+a) serial input-output port
+b) parallel input-output port
+c) serial input port
+d) parallel output port
+b
+2. Port C of 8255 can function independently as
+a) input port
+b) output port
+c) either input or output ports
+d) both input and output ports
+c
+3. All the functions of the ports of 8255 are achieved by programming the bits of an internal register called
+a) data bus control
+b) read logic control
+c) control word register
+d) none of the mentioned
+c
+4. The data bus buffer is controlled by
+a) control word register
+b) read/write control logic
+c) data bus
+d) none of the mentioned
+b
+5. The input provided by the microprocessor to the read/write control logic is
+a) RESET
+b) A1
+c) WR(ACTIVE LOW)
+d) All of the mentioned
+d
+Join Sanfoundry@YouTube
+6. The device that receives or transmits data upon the execution of input or output instructions by the microprocessor is
+a) control word register
+b) read/write control logic
+c) 3-state bidirectional buffer
+d) none of the mentioned
+c
+7. The port that is used for the generation of handshake lines in mode 1 or mode 2 is
+a) port A
+b) port B
+c) port C Lower
+d) port C Upper
+d
+8. If A1=0, A0=1 then the input read cycle is performed from
+a) port A to data bus
+b) port B to data bus
+c) port C to data bus
+d) CWR to data bus
+b
+9. The function, ‘data bus tristated’ is performed when
+a) CS(active low) = 1
+b) CS(active low) = 0
+c) CS(active low) = 0, RD(active low) = 1, WR(active low) = 1
+d) CS(active low) = 1 OR CS(active low) = 0, RD(active low) = 1, WR(active low) = 1
+d
+10. The pin that clears the control word register of 8255 when enabled is
+a) CLEAR
+b) SET
+c) RESET
+d) CLK
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Interfacing I/O Ports» Next - Microprocessors Questions and Answers – Modes of Operation of 8255 

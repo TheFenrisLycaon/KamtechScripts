@@ -1,0 +1,106 @@
+1. Which of the field must be 1 using an authenticator in the following code?
+EncryptByKey ( key_GUID , { 'cleartext' | @cleartext }
+    [, { add_authenticator | @add_authenticator }
+     , { authenticator | @authenticator } ] )
+a) @add_authenticator
+b) @cleartext
+c) key_GUID
+d) None of the mentioned
+a
+2. Point out the wrong statement.
+a) EncryptByKey uses a symmetric key
+b) EncryptByKey returns NULL if the key is not open
+c) You can use encryption in SQL Server for connections, data, and stored procedures
+d) All of the mentioned
+a
+3. Which of the following script creates master key?
+a)
+CREATE MASTER KEY
+BY PASSWORD='MyStrongPassword';
+b)
+CREATE MASTER KEY ENCRYPTION
+BY PASSWORD='MyStrongPassword';
+c)
+CREATE MASTER ENCRYPTION
+BY PASSWORD='MyStrongPassword';
+d) All of the mentioned
+b
+4. Which of the statement is used to create a new certificate with a valid subject in SQL Server?
+a)
+CREATE CERTI MySQLCert
+WITH SUBJECT='MyDatabase DEK';
+b)
+CREATE CERTIFICATE MySQLCert
+WITH SUBJECT='MyDatabase DEK';
+c)
+CREATE CERTIFICATE MySQLCert
+WITH SUBJ='MyDatabase DEK';
+d) None of the mentioned
+b
+5. Point out the wrong statement.
+a) Encryption should be considered for all data or connections
+b) Any use of encryption should also include a maintenance strategy for passwords, keys, and certificates
+c) TDE is essentially an enterprise-oriented feature and is available only in the following editions of SQL Server
+d) None of the mentioned
+a
+6. Like data compression, TDE database encryption is performed at the ______ level.
+a) Page
+b) Domain
+c) Column
+d) Row
+a
+7. Which of the following is valid code to backup a certificate?
+a)
+USE Master
+GO
+BACKUP CERTIFICATE MySQLCert
+TO FILE = 'C:\temp\MySQLCert'
+WITH PRIVATE KEY (file='C:\temp\MySQLCertKey',
+ENCRYPTION BY PASSWORD='MyStrongPassword2')
+b)
+USE Master
+GO
+BACK CERTIFICATE MySQLCert
+TO FILE = 'C:\temp\MySQLCert'
+WITH PRIVATE KEY (file='C:\temp\MySQLCertKey',
+ENCRYPTION BY PASSWORD='MyStrongPassword2')
+c)
+USE Master
+GO
+BACKUP CERTIFICATE MySQLCert
+TO FILE = 'C:\temp\MySQLCert'
+WITH PUBLIC KEY (file='C:\temp\MySQLCertKey',
+ENCRYPTION BY PASSWORD='MyStrongPassword2')
+d)
+USE Master
+GO
+BACKUP CERTIFICATE MySQLCert
+TO SUBJECT = 'C:\temp\MySQLCert'
+WITH PRIVATE KEY (file='C:\temp\MySQLCertKey',
+ENCRYPTION BY PASSWORD='MyStrongPassword2')
+a
+  
+8. Which of the following catalog view is used to monitor TDE?
+a) sys.certificates
+b) sys.certificate
+c) DMVs
+d) All of the mentioned
+a
+9. ___________ encryption was introduced in SQL Server 2005 and is available in all editions of SQL Server.
+a) Column-level Encryption
+b) Transparent Data Encryption
+c) BitLocker
+d) None of the mentioned
+a
+10. Which of the following functions decrypts data by using a symmetric key?
+a) DECRYPTBYSYMKEY
+b) DECRYPTBYKEYAUTOASYMKEY
+c) DECRYPTBYASYMKEY
+d) DECRYPTBYKEYAUTOCERT
+b
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Securables» Next - SQL Server Questions and Answers – Row Level Security 

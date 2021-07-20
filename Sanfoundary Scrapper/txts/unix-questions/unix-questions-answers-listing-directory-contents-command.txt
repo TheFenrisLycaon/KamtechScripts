@@ -1,0 +1,133 @@
+1. Which command is used for listing files in a directory?
+a) ps
+b) list
+c) ls
+d) wc
+c
+$ ls
+001.sh        
+FILE2       
+abc.txt
+dir08
+2. Which option is used with ls command for long listing of files with seven attributes?
+a) -a
+b) -l
+c) -x
+d) -i
+b
+->	File type and permissions
+->	Links
+->	Ownership
+->	Group ownership
+->	File size
+->	Last modification time
+->	Filename
+$ ls   -l
+drwxr-xr-x     5 abd      users   4096   Aug 12  08:30 go
+drwx------      3 mash    users   4096   Nov 28  10:49 irc
+drwxr-xr-x    2 ryan      users   32768  July 25   09:15 logs
+drwxr-xr-x    8 anki      users   4096    Oct  2   17:13 src
+ 
+3. Which option is used with ls to display attributes of the directory ?
+a) -a
+b) -ld
+c) -d
+d) -o
+c
+$ ls  -ld 
+drwxr-xr-x     5 george   users   4096  Sep 25  08:30 go
+drwx------      3 george   users   4096  Sep 27  10:49 irc
+drwxr-xr-x    2 george   users   32768 Oct  4   09:15 logs
+drwxr-xr-x    8 george   users   4096   Oct  2   17:13 src
+ 
+4. -a option is used with ls command for what purpose?
+a) for showing hidden files
+b) for showing executables
+c) for showing directories
+d) for multi columnar output
+a
+$ ls  -ax
+./	. ./	calendar
+.file	.rhost	abc_001
+5. Which option is used with ls command to produce multi columnar output?
+a) -x
+b) -F
+c) -a
+d) -v
+a
+$ ls  -x
+File1        file2       abc.txt
+Dir08       res.c       txt05
+Dep.lst   emp.sh    udisk
+ 
+6. What is the collating sequence of ls command for listing files?
+a) Numerals  >  Uppercase   > Lowercase
+b) Numerals   >  Lowercase   > Uppercase
+c) Lowercase   >  Uppercase   > Numerals
+d) Uppercase   > Numerals   > Lowercase
+a
+$ ls 
+001_dir                 //numeral first
+09_abc            
+ABD.txt                //uppercase
+prog.sh		      //lowercase
+7.  How can we identify executables and directories from the output of ls command?
+a) using -F option
+b) using  -x option
+c) using -a option
+d) using -i option
+a
+$ ls  -Fx
+008abc.txt       TOX.sh*     calendar*
+Dept.lst           helpdir/     progs/
+8.  $ ls  -R outputs all files and subdirectories in a recursive manner.
+a) True
+b) False
+a
+9.  -r option is same as -R option in ls command.
+a) True
+b) False
+b
+10. What does the -S option do in ls command?
+a) sorts according to modification time
+b) sorts according to last access time
+c) sorts according to file size
+d) sorts according to inode number
+c
+drwxr-xr-x     5 abd      users    78988  Aug 12  08:30 go
+drwx------      3 mash    users   56899   Nov 28  10:49 irc
+drwxr-xr-x    2 ryan      users   32768  July 25   09:15 logs
+drwxr-xr-x    8 anki      users    4096    Oct  2   17:13 src
+11. ls -s prints the allocated file size in blocks.
+a) True
+b) False
+a
+12.  -u option sorts the files according to ____
+a) last modification time
+b) last access time
+c) ASCII collating sequence
+d) file size
+b
+13.  -t option sorts the files according to ____
+a) last modification time
+b) last access time
+c) ASCII collating sequence
+d) file size
+a
+14. The output of ls dir* is ___
+a) all files in the current directory
+b) all files in the directory having a filename starting with dir
+c) no filename is displayed
+d) erroneous
+b
+$ ls  dir*
+dir01
+dir02 
+dir00.txt
+ 
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Absolute and Relative Pathnames» Next - Unix  Questions and Answers – Displaying and Creating Files: cat Command 

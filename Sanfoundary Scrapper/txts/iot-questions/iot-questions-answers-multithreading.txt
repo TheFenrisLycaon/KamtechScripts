@@ -1,0 +1,94 @@
+1. _______ makes it possible for two or more activities to execute in parallel on a single processor.
+a) Multithreading
+b) Threading
+c) SingleThreading
+d) Both Multithreading and SingleThreading
+a
+2. In ______ an object of type Thread in the namespace System.Threading represents and controls one thread.
+a) . PY
+b) .SAP
+c) .NET
+d) .EXE
+c
+3. The method will be executed once the thread’s ______ method is called.
+a) EventBegin
+b) EventStart
+c) Begin
+d) Start
+d
+4. Command to make thread sleep?
+a) Thread.Sleep
+b) Thread_Sleep
+c) ThreadSleep
+d) Thread_sleep
+a
+5. An instance of class Buffer provides a threadsafe way of communication between ________
+a) Actors
+b) Objects
+c) Locking
+d) Buffer
+b
+6. _______ method puts zero into the buffer.
+a) HandlePut(object o)
+b) HandletGet(object o)
+c) HandletGet()
+d) HandletPut()
+a
+7. HandlePut(object o) performs what?
+a) Fixing values
+b) Locking
+c) Changing values
+d) Unlocking
+d
+8. In HandlePut(object o), o represents?
+a) Null
+b) Zero
+c) Empty
+d) Origin
+a
+9. What is HandleGet() method function?
+a) Current buffer state, with changing
+b) Current buffer state, without changing
+c) Previous buffer state, with changing
+d) Previous buffer state, without changing
+b
+10. What is the result for HandleGet()?
+a) Null
+b) Zero
+c) Empty
+d) Origin
+a
+11. Multithreading is a mechanism for splitting up a program into several parallel activities called _________
+a) Methods
+b) Objects
+c) Classes
+d) Threads
+c
+12. Each thread is a single stream of execution.
+a) False
+b) True
+a
+13. Multithreading on a single processor is possible with the help of _________
+a) Threader
+b) Scheduler
+c) Method
+d) Divider
+b
+14. Scheduler switch threads in ________
+a) Multilevel queue scheduling
+b) Priority Scheduling
+c) Round robin fashion
+d) Multilevel feedback queue scheduling
+c
+15. What is the switching speed?
+a) 60 times per second
+b) 50 times per second
+c) 55 times per second
+d) 66 times per second
+b
+Sanfoundry Global Education & Learning Series – IOT.
+To practice all areas of IOT, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - IOT Questions and Answers – Handling Sensor Request» Next - IOT Questions and Answers – Designing for Emerging Technology 

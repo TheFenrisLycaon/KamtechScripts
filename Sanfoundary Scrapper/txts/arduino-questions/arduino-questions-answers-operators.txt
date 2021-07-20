@@ -1,0 +1,72 @@
+1. What is the output of the following program if ‘a’ and ‘b’ are both supplied with 5V?
+int a=9;int b=10;void setup() {    Serial.begin(9600);    pinMode(a,INPUT);    pinMode(b,INPUT);}void loop() {    int x=digitalRead(a);    int y=digitalRead(b);    if(a!=b){        Serial.println(“Not Equal”);    }    else {        Serial.println(“Equal”);    }}
+a) Equal
+b) Not Equal
+c) Runtime Error
+d) Compilation Error
+a
+2. What is the difference between ternary operators and unary operators?
+a) Ternary Operators work with 1 operand while unary operators work with 3 operands
+b) Ternary Operators work with 3 operands while unary operators work with 1 operand
+c) Ternary Operators work with 2 operands while unary operators work with 3 operands
+d) Ternary Operators work with 4 operands while unary operators work with 1 operand
+b
+Eg:-
+int a=10, b=20, c;c=(a<b)?a:b;
+The above code will make c=10 since ‘a’ is lesser than ‘b’.
+a++;
+The above code will increment the value of ‘a’ by 1.
+3. What will be the output of the following code?
+void setup() {    Serial.begin(9600);}void loop() {    int a=92;    int b=101;    int c=a&b;    Serial.println(c);}
+a) 100
+b) 69
+c) 68
+d) 40
+c
+4. What is the output of the following code?
+void setup() {    Serial.begin(9600);}void loop() {    int *pointer;    int val=100;    pointer=&val;    Serial.println(*pointer);}
+a) 100
+b) 2e444ad233
+c) cc10091a2
+d) a99102123
+a
+5. What is the name of the | operator?
+a) Logical OR
+b) Bitwise OR
+c) Logical AND
+d) Bitwise AND
+b
+6. What is the name of the ~ operator?
+a) Bitwise NOT
+b) Logical NOT
+c) Bitwise SHIFT
+d) Pointer Address
+a
+7. What is the name of the ^ operator?
+a) Bitwise XNOR
+b) Bitwise NAND
+c) Bitwise XOR
+d) Bitwise AND
+c
+8. What is the purpose of the << operator?
+a) Bitwise AND
+b) Bitwise Right Shift
+c) Bitwise Left Shift
+d) Bitwise OR
+c
+9. Is there a difference between the = and the == operators?
+a) Yes
+b) No
+a
+10. How many operands does the >= operator require?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+Sanfoundry Global Education & Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Serial and Stream Communications» Next - Arduino Questions and Answers – Control Structures 

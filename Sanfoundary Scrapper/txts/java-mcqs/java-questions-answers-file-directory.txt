@@ -1,0 +1,66 @@
+1. Which method is used to create a directory with fileattributes?
+a) Path.create()
+b) Path.createDirectory()
+c) Files.createDirectory(path, fileAttributes)
+d) Files.create(fileAttributes)
+c
+2. Which method can be used to check fileAccessiblity?
+a) isReadable(path)
+b) isWritable(path)
+c) isExecutable(path)
+d) isReadable(path), isWritable(path), and isExecutable(path)
+d
+3. How can we delete all files in a directory?
+a) Files.delete(path)
+b) Files.deleteDir()
+c) Directory.delete()
+d) Directory.delete(path)
+a
+4. How to copy the file from one location to other?
+a) Files.copy(source, target)
+b) Path.copy(source, target)
+c) source.copy(target)
+d) Files.createCopy(target)
+a
+5. How can we get the size of specified file?
+a) capacity(path)
+b) size(path)
+c) length(path)
+d) Path.size()
+b
+6. How to read entire file in one line using java 8?
+a) Files.readAllLines()
+b) Files.read()
+c) Files.readFile()
+d) Files.lines()
+a
+7. How can we create a symbolic link to file?
+a) createLink()
+b) createSymLink()
+c) createSymbolicLink()
+d) createTempLink()
+c
+8. How can we filter lines based on content?
+a) lines.filter()
+b) filter(lines)
+c) lines.contains(filter)
+d) lines.select()
+a
+9. Which jar provides FileUtils which contains methods for file operations?
+a) file
+b) apache commons
+c) file commons
+d) dir
+b
+10. Which feature of java 7 allows to not explicitly close IO resource?
+a) try catch finally
+b) IOException
+c) AutoCloseable
+d) Streams
+c
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java 8 Features» Next - Java Questions & Answers – Hibernate 

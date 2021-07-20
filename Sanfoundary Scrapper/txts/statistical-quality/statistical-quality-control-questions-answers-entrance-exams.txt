@@ -1,0 +1,103 @@
+1. Which of these gives a correct equation for the general model for Shewhart control chart for a “w” quality characteristic statistic?
+a) UCL = μw + Lσw
+b) UCL = μw – Lσw
+c) LCL = μw + Lσw
+d) LCL = μw + σw
+a
+UCL = μw + Lσw.
+2. The value of L=3 in the genera model of control limits for a Shewhart control chart, explains ____________
+a) There are 3 sigma limits taken
+b) There are 3 quality characteristics
+c) There are 6 quality characteristics
+d) There are 6 sigma limits taken
+a
+3. When the Lower control limits for a p chart are less than zero, what is done?
+a) The value LCL<0 is utilized in control chart
+b) There is a certain constant C added to both UCL and LCL, i.e. UCLnew=UCLold+ C and LCLnew=LCLold+C
+c) There is certain constant value added to LCL only, i.e. LCLnew=LCLold+C
+d) LCL=0 is taken and assumed that control chart only has the upper control limit
+d
+4. LCL for any p chart when the standard values are given are ________
+a) LCL=\(p+\sqrt[3]{\frac{p(1-p)}{n}}\) 
+b) LCL=\(p+3 \sqrt{\frac{p(1-p)}{n}}\) 
+c) LCL=\(p-3\sqrt[3]{\frac{p(1-p)}{n}}\) 
+d) LCL=\(p-\sqrt{\frac{p(1-p)}{n}}\) 
+d
+LCL=\(p-\sqrt{\frac{p(1-p)}{n}}\)
+5. The UCL for any p chart, when the standard values are not given, for 3 sigma limits, is written as ____
+a) UCL=\(\bar{p}+\sqrt[3]{\frac{\bar{p}(1+\bar{p})}{n}}\) 
+b) UCL=\(\bar{p} – \sqrt{\frac{\bar{p}(1-\bar{p})}{n}}\) 
+c) UCL=\(\bar{p}+\sqrt[3]{\frac{\bar{p}(1-\bar{p})}{n}}\) 
+d) UCL=\(\bar{p}-\sqrt[3]{\frac{\bar{p}(1-\bar{p})}{n}}\) 
+c
+UCL=\(\bar{p}+\sqrt[3]{\frac{\bar{p}(1-\bar{p})}{n}}\) 
+when the standard values are not given.
+6. What is done when there is a sample plotted out of control limits for a p-chart?
+a) The sample is investigated for an assignable cause and then the sample data is eliminated to develop a new p-chart
+b) The sample is only investigated for an assignable cause
+c) The sample is not investigated at all (It is assumed that there was no assignable cause present)
+d) All the samples are investigated
+a
+7. Even if the process is in control according to p-chart and the fraction nonconforming is too high, it states that _________
+a) The process is not stable
+b) The process is stable but there are no operator controllable problems
+c) The process is stable but there are some operator controllable problems
+d) The process is out of control
+b
+8. If the fraction nonconforming for 7 samples are 0.11,0.24,0.21,0.14,0.24,0.21,0.17, what is the value for the center line for a p-chart?
+a) 0.19
+b) 0.21
+c) 0.12
+d) 0.13
+a
+\(CL=\bar{p}=\frac{\sum_{i=0}^n p_i}{n}\) 
+This gives, CL=0.19 for the above question.
+9. If the sample size for a p-chart is 50 and the value for the center line of the chart is 0.2313, what will be the value of the LCL of the chart?
+a) 0.4108
+b) 0.0524
+c) 0.0762
+d) 0.0389
+b
+LCL=\(p-\sqrt{\frac{p(1-p)}{n}}\) 
+When we put the value of CL=p=0.2313, we get LCL=0.0524.
+10. The control limits for p-chart found from the use of estimated unknown fraction non conforming, are regarded as __________
+a) Final limits
+b) Concluded limits
+c) Trial limits
+d) Absolute limits
+c
+11. Which of these is not one of the parameters which need to be specified for fraction nonconforming control charts?
+a) Sample Size
+b) Frequency of sampling
+c) Width of control limits
+d) Units to be produced
+d
+12. If δ is the magnitude of the process shift, n must specify __________
+a) \(\delta=nL\sqrt{\frac{pn(1-p)}{n}}\) 
+b) \(\delta=nL\sqrt{\frac{p(n-p)}{n}}\) 
+c) \(\delta=L\sqrt{\frac{p(1-p)}{n}}\) 
+d) \(\delta=L\sqrt{\frac{np(1-np)}{n}}\) 
+c
+\(\delta=L\sqrt{\frac{p(1-p)}{n}}\) 
+for a process to be in control.
+13. Which of these is true?
+a) \(n=(\frac{L}{\delta})^2 p(1-p)\) 
+b) \(n=(\frac{L}{\delta})^2 p(1-np)\) 
+c) \(n=(\frac{L}{\delta})^2 (1-p)\) 
+d) \(n=(\frac{L}{\delta})^2 p(1+p)\) 
+a
+\(n=(\frac{L}{\delta})^2 p(1-p)\)
+14. In the p-chart, even if only one point is out of control, we should conclude that the process is out-of-control.
+a) True
+b) False
+b
+15. Non-defective term has the same meaning as Nonconforming.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control for Entrance exams, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Attribute Charts – Control Charts for Fraction Nonconforming – 1» Next - Statistical Quality Control Questions and Answers – Attribute Charts – Control Charts for Fraction Nonconforming – 3 

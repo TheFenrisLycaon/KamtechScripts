@@ -1,0 +1,63 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Honeywell and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Honeywell interviews on C Programming language. 
+Here is a listing of C programming questions on “Pointers to Functions” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int mul(int a, int b, int c)    {        return a * b * c;    }    void main()    {        int *function_pointer;        function_pointer = mul;        printf("The product of three numbers is:%d",        function_pointer(2, 3, 4));    }
+a) The product of three numbers is:24
+b) Compile time error
+c) Nothing
+d) Varies
+b
+2. What will be the output of the following C code?
+    #include <stdio.h>    int sub(int a, int b, int c)    {        return a - b - c;    }    void main()    {        int (*function_pointer)(int, int, int);        function_pointer = &sub;        printf("The difference of three numbers is:%d",        (*function_pointer)(2, 3, 4));    }
+a) The difference of three numbers is:1
+b) Run time error
+c) The difference of three numbers is:-5
+d) Varies
+c
+3. One of the uses for function pointers in C is __________
+a) Nothing
+b) There are no function pointers in c
+c) To invoke a function
+d) To call a function defined at run-time
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    void f(int);    void (*foo)() = f;    int main(int argc, char *argv[])    {        foo(10);        return 0;    }    void f(int i)    {        printf("%d\n", i);    }
+a) Compile time error
+b) 10
+c) Undefined behaviour
+d) None of the mentioned
+b
+5. What will be the output of the following C code?
+    #include <stdio.h>    void f(int);    void (*foo)(void) = f;    int main(int argc, char *argv[])    {        foo(10);        return 0;    }    void f(int i)    {        printf("%d\n", i);    }
+a) Compile time error
+b) 10
+c) Undefined behaviour
+d) None of the mentioned
+a
+6. What will be the output of the following C code?
+    #include <stdio.h>    void f(int);    void (*foo)(float) = f;    int main()    {        foo(10);    }    void f(int i)    {        printf("%d\n", i);    }
+a) Compile time error
+b) 10
+c) 10.000000
+d) Undefined behaviour
+d
+7. What will be the output of the following C code?
+    #include <stdio.h>    void f(int (*x)(int));    int myfoo(int i);    int (*foo)(int) = myfoo;    int main()    {        f(foo(10));    }    void f(int (*i)(int))    {        i(11);    }    int myfoo(int i)    {        printf("%d\n", i);        return i;    }
+a) Compile time error
+b) Undefined behaviour
+c) 10 11
+d) 10 Segmentation fault
+d
+8. What will be the output of the following C code?
+    #include <stdio.h>    void f(int (*x)(int));    int myfoo(int);    int (*foo)() = myfoo;    int main()    {        f(foo);    }    void f(int(*i)(int ))    {        i(11);    }    int myfoo(int i)    {        printf("%d\n", i);        return i;    }
+a) 10 11
+b) 11
+c) 10
+d) Undefined behaviour
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Pointers to Functions – 1» Next - C Programming Questions and Answers – Complicated Declarations – 1 

@@ -1,0 +1,129 @@
+1. Filter’s are a category of commands that take the advantage of shell redirection feature.
+a) True
+b) False
+a
+2. Which command is used for preparing a file for printing?
+a) cd
+b) cat
+c) print
+d) pr
+d
+$ pr  dept.lst
+May  06  10:38  1998  dept.lst  Page 1
+01:accounts:6213
+02:admin:5423
+03:marketing:6521
+04:personnel:2365
+ 
+.....blank lines.......
+3. pr command adds ____ lines of margin at the top and bottom.
+a) 5
+b) 4
+c) 2
+d) 1
+a
+4. Which option is used with pr command for printing multi-columnar output?
+a) -p
+b) -k
+c) -d
+d) -pr
+b
+$ dept.lst | pr -3
+May  06  10:38  1998  dept.lst  Page 1
+ 
+1    5    9
+2    6    10
+3    7    11
+4    8    12
+ 
+5. Which option is used with pr command to suppress the header and footers?
+a) -p
+b) -k
+c) -t
+d) -n
+c
+$ dept.lst | pr -t  -5        // no headers and footers; multi-columnar output
+1    5    9
+2    6    10
+3    7    11
+4    8    12
+ 
+6.  Which option is used with pr command to display output along with line numbers?
+a) -d
+b) -n
+c) -o n
+d) -t
+b
+-d    double spaces input
+-n    numbers lines, helps in debugging code
+-o n    offsets lines by n spaces, increases left margin of the page
+$ pr  -t  -n  -d  -o  10  dept.lst
+    1    01:accounts:6213
+    2    02:admin:5423
+    3    03:marketing:6521
+    4    04:personnel:2365
+ 
+7. -h option is used with pr command to add a header of our choice.
+a) True
+b) False
+a
+$ pr  -h “Department List”  dept.lst
+ 
+8. ___ operator is used with pr command to start printing from a specific page.
+a) –
+b) #
+c) +
+d) &
+c
+$ pr +5  dept.lst
+9. Which command is used for displaying the beginning of a file?
+a) pr
+b) head
+c) begin
+d) lp
+b
+$ head emp.lst
+10. By default, how many lines are displayed using the head command?
+a) 5
+b) 10
+c) 4
+d) 20
+b
+11. Which option is used with the head command to specify line count to display?
+a) -a
+b) -h
+c) -n
+d) -o
+c
+$ head -n  3 emp.lst            // displays first 3 lines of emp.lst
+ 
+12. ___ command is used for displaying the end of the file.
+a) head
+b) tail
+c) lp
+d) pr
+b
+13. We can also use -n option with tail command.
+a) True
+b) False
+a
+$ tail  -n  3  emp.lst            // displays last three lines
+14. Which symbol is used with the tail command to print the file from the selected line?
+a) +
+b) –
+c) %%
+d) ^
+a
+$ tail +11 emp.lst        // start printing from 11th line onwards
+15. Which of the following command is incorrect?
+a) pr dept.lst
+b) head -n 5 emp.lst
+c) tail -o  +5 emp.lst
+d) tail -3 emp.lst
+c
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Locating Files: find Command» Next - Unix  Questions and Answers – Filtering Commands – 2 

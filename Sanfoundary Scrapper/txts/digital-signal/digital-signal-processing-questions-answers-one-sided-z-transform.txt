@@ -1,0 +1,94 @@
+1. The z-transform of a signal x(n) whose definition is given by \(X(z)=\sum_{n=0}^{\infty} x(n)z^{-n}\) is known as _____________
+a) Unilateral z-transform
+b) Bilateral z-transform
+c) Rational z-transform
+d) None of the mentioned
+a
+2. For what kind of signals one sided z-transform is unique?
+a) All signals
+b) Anti-causal signal
+c) Causal signal
+d) None of the mentioned
+c
+3. What is the one sided z-transform X+(z) of the signal x(n)={1,2,5,7,0,1}?
+a) z2+2z+5+7z-1+z-3
+b) 5+7z+z3
+c) z-2+2z-1+5+7z+z3
+d) 5+7z-1+z-3
+d
+4. What is the one sided z-transform of x(n)=δ(n-k)?
+a) z-k
+b) zk
+c) 0
+d) 1
+a
+So, from the definition of one sided z-transform X+(z)=z-k.
+5. What is the one sided z-transform of x(n)=δ(n+k)?
+a) z-k
+b) 0
+c) zk
+d) 1
+b
+6. If X+(z) is the one sided z-transform of x(n), then what is the one sided z-transform of x(n-k)?
+a) z-k X+(z)
+b) zk X+(z-1)
+c) z-k \([X^+(z)+\sum_{n=1}^k x(-n)z^n]\); k>0
+d) z-k \([X^+(z)+\sum_{n=0}^k x(-n)z^n]\); k>0
+c
+Z+{x(n-k)}=\(z^{-k}[\sum_{l=-k}^{-1} x(l) z^{-l}+\sum_{l=0}^{\infty} x(l)z^{-l}]\) 
+=\(z^{-k}[\sum_{l=-1}^{-k} x(l) z^{-l}+X^+ (z)]\) 
+By changing the index from l to n= -l, we obtain
+Z+{x(n-k)}=\(z^{-k}[X^+(z)+\sum_{n=1}^k x(-n)z^n]\) ;k>0
+7. If x(n)=an, then what is one sided z-transform of x(n-2)?
+a) \(\frac{z^{-2}}{1-az^{-1}} + a^{-1}z^{-1} + a^{-2}\) 
+b) \(\frac{z^{-2}}{1-az^{-1}} – a^{-1}z^{-1} + a^{-2}\) 
+c) \(\frac{z^{-2}}{1-az^{-1}} + a^{-1}z^{-1} – a^{-2}\) 
+d) \(\frac{z^{-2}}{1+az^{-1}} + a^{-1}z^{-1} + a^{-2}\) 
+a
+Given x(n)=an=>X+(z)=\(\frac{1}{1-az^{-1}}\) 
+We will apply the shifting property for k=2. Indeed we have
+Z+{x(n-2)}=z-2[X+(z)+x(-1)z+x(-2)z2] 
+=z-2 X+(z)+x(-1)z-1+x(-2)
+Since x(-1)=a-1 and x(-2)=a-2, we obtain
+X1+(z)=\(\frac{z^{-2}}{1-az^{-1}}\) + a-1z-1 + a-2
+8. If x(n)=an, then what is one sided z-transform of x(n+2)?
+a) \(\frac{z^{-2}}{1-az^{-1}}\) + a-1z-1 + a-2
+b) \(\frac{z^{-2}}{1-az^{-1}}\) – a-1z-1 + a-2
+c) \(\frac{z^2}{1-az^{-1}}\) + a z + z2
+d) \(\frac{z^2}{1+az^{-1}}\) – z2 – az
+d
+Z+{x(n+2)}=z2 X+(z)-x(0)z2-x(1)z
+=>X1+(z)=\(\frac{z^2}{1+az^{-1}}\) – z2 – az.
+9. If X+(z) is the one sided z-transform of the signal x(n), then \(\lim_{n \rightarrow \infty} x(n)=\lim_{z\rightarrow 1}(z-1) X^+(z)\) is called Final value theorem.
+a) True
+b) False
+a
+10. The impulse response of a relaxed LTI system is h(n)=anu(n), |a|<1. What is the value of the step response of the system as n→∞?
+a) \(\frac{1}{1+a}\) 
+b) \(\frac{1}{1-a}\) 
+c) \(\frac{a}{1+a}\) 
+d) \(\frac{a}{1-a}\) 
+b
+On applying z-transform on both sides, we get
+Y(z)=\(\frac{1}{1-az^{-1}} \frac{1}{1-z^{-1}}=\frac{z^2}{(z-1)(z-a)}\) ROC |z|>|a|
+Now
+(z-1)Y(z)=\(\frac{z^2}{(z-a)}\) ROC |z|>|a|
+Since |a|<1 the ROC of (z-1)Y(z) includes the unit circle. Consequently by applying the final value theorem
+\(\lim_{n\rightarrow\infty}y(n)=\lim_{z\rightarrow 1}⁡ \frac{z^2}{z-a}=\frac{1}{1-a}\)
+11. What is the step response of the system y(n)=ay(n-1)+x(n) -1<a<1, when the initial condition is y(-1)=1?
+a) \(\frac{1}{1-a}\)(1+an+2)u(n)
+b) \(\frac{1}{1+a}\)(1+an+2)u(n)
+c) \(\frac{1}{1-a}\)(1-an+2)u(n)
+d) \(\frac{1}{1+a}\)(1-an+2)u(n)
+c
+Y+(Z)=a[z-1Y+(z)+y(-1)]+X+(z)
+Upon substitution for y(-1) and X+(z) and solving for Y+(z), we obtain the result
+Y+(z)=\(\frac{a}{1-az^{-1}} + \frac{1}{(1-az^{-1})(1-z^{-1})}\) 
+By performing the partial fraction expansion and inverse transforming the result, we have
+y(n)=\(\frac{1}{(1-a)}(1-a^{n+2})u(n)\).
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Inversion of Z Transform» Next - Digital Signal Processing Questions and Answers – Analysis of LTI System in Z Domain 

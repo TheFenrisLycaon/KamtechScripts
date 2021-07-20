@@ -1,0 +1,83 @@
+1. Which of the following defines the rectangular window function of length M-1?
+a) 
+
+w(n)=1, n=0,1,2...M-1
+    =0, else where
+b) 
+
+w(n)=1, n=0,1,2...M-1
+    =-1, else where
+c) 
+
+w(n)=0, n=0,1,2...M-1
+    =1, else where
+d) None of the mentioned
+a
+w(n)=1, n=0,1,2…M-1
+=0, else where.
+2. The multiplication of the window function w(n) with h(n) is equivalent to the multiplication of H(w) and W(w).
+a) True
+b) False
+b
+3. What is the Fourier transform of the rectangular window of length M-1?
+a) \(e^{jω(M-1)/2} \frac{sin⁡(\frac{ωM}{2})}{sin⁡(\frac{ω}{2})}\) 
+b) \(e^{jω(M+1)/2} \frac{sin⁡(\frac{ωM}{2})}{sin⁡(\frac{ω}{2})}\) 
+c) \(e^{-jω(M+1)/2} \frac{sin⁡(\frac{ωM}{2})}{sin⁡(\frac{ω}{2})}\) 
+d) \(e^{-jω(M-1)/2} \frac{sin⁡(\frac{ωM}{2})}{sin⁡(\frac{ω}{2})}\) 
+d
+W(ω)=\(\sum_{n=0}^{M-1} w(n) e^{-jωn}\) 
+For a rectangular window, w(n)=1 for n=0,1,2….M-1
+Thus we get
+W(ω)=\(\sum_{n=0}^{M-1} w(n) e^{-jωn}=e^{-jω(M-1)/2} \frac{sin⁡(\frac{ωM}{2})}{sin⁡(\frac{ω}{2})}\)
+4. What is the magnitude response |W(ω)| of a rectangular window function?
+a) \(\frac{|sin(ωM/2)|}{|sin(ω/2)|}\) 
+b) \(\frac{|sin(ω/2)|}{|sin(ωM/2)|}\) 
+c) \(\frac{|cos(ωM/2)|}{|sin(ω/2)|}\) 
+d) None of the mentioned
+a
+W(ω)=\(\sum_{n=0}^{M-1} w(n) e^{-jωn}=e^{-jω(M-1)/2} \frac{sin⁡(\frac{ωM}{2})}{sin⁡(\frac{ω}{2})}\) 
+Thus the window function has a magnitude response
+|W(ω)|=\(\frac{|sin(ωM/2)|}{|sin(ω/2)|}\)
+5. What is the width of the main lobe of the frequency response of a rectangular window of length M-1?
+a) π/M
+b) 2π/M
+c) 4π/M
+d) 8π/M
+c
+6. The width of each side lobes decreases with an increase in M.
+a) True
+b) False
+a
+7. With an increase in the value of M, the height of each side lobe ____________
+a) Do not vary
+b) Does not depend on value of M
+c) Decreases
+d) Increases
+d
+8. As M is increased, W(ω) becomes wider and the smoothening produced by the W(ω) is increased.
+a) True
+b) False
+b
+9. Which of the following windows has a time domain sequence h(n)=\(1-\frac{2|n-\frac{M-1}{2}|}{M-1}\)?
+a) Bartlett window
+b) Blackman window
+c) Hanning window
+d) Hamming window
+a
+h(n)=\(1-\frac{2|n-\frac{M-1}{2}|}{M-1}\), 0≤n≤M-1.
+10. The width of each side lobes decreases with an decrease in M.
+a) True
+b) False
+b
+11. What is the approximate transition width of main lobe of a Hamming window?
+a) 4π/M
+b) 8π/M
+c) 12π/M
+d) 2π/M
+b
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Design of FIR Filters» Next - Digital Signal Processing Questions and Answers – Design of Linear Phase FIR Filters Using Windows – 2 

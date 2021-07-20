@@ -1,0 +1,100 @@
+This section on tough C++ programming questions focuses on “Min and Max”. One shall practice these questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ programming questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of tough C++ programming questions on “Min and Max” along with answers, explanations and/or solutions:
+1. Which keyword is used to declare the min and max functions?
+a) iostream
+b) string
+c) algorithm
+d) iterator
+c
+2. What kind of functions are min and max in c++?
+a) Type specific
+b) Variable specific
+c) Type & Variable specific
+d) Iterator
+a
+3. How many parameters are needed for minmax function?
+a) 1
+b) 2
+c) 3
+d) All of the mentioned
+d
+1 parameter: An initializer_list object.
+2 parameters: Values to compare.
+2 parameters: An initializer_list object. and comparison function
+3 parameters: Values to compare. and comparison function
+4. What will be the output of the following C++ code?
+    #include <iostream>       #include <algorithm>      using namespace std;    int main ()     {        cout << "max(1, 2) == " << max(1, 2) << '\n';        cout << "max('a', 'z') == " << max('a', 'z') << '\n';        return 0;    }
+a) 2z
+b) 2a
+c) Error
+d) 2y
+a
+Output:
+$ g++ max.cpp
+$ a.out
+max(1, 2) == 2
+max('a', 'z') == z
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    using namespace std;    bool myfn(int i, int j)     {        return i < j;    }    int main ()     {        int myints[ ] = {3, 7, 2, 5, 6, 4, 9};        cout <<  *min_element(myints, myints + 7, myfn) << '\n';        cout << *max_element(myints, myints + 7, myfn) << '\n';        return 0;    }
+a) 2 9
+b) 2 7
+c) 3 9
+d) 3 5
+a
+of a range.
+Output:
+$ g++ max1.cpp
+$ a.out
+2 
+9
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    int main ()     {        int myints[] = {10, 20, 30, 30, 20, 10, 10, 20};        vector<int> v(myints, myints + 8);        sort (v.begin(), v.end());        vector<int> :: iterator low, up;        low = lower_bound (v.begin(), v.end(), 20);        up = upper_bound (v.begin(), v.end(), 20);        cout << (low - v.begin()) << ' ';        cout << (up - v.begin()) << '\n';        return 0;    }
+a) 3 6
+b) 2 5
+c) 2 6
+d) 2 4
+a
+Output:
+$ g++ max2.cpp
+$ a.out
+3 6
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    using namespace std;    int main ()    {        cout << min(2, 1) << ' ';        cout << min('m','m') << '\n';        return 0;    }
+a) Error
+b) Runtime error
+c) 1 m
+d) 5 m
+c
+Output:
+$ g++ max3.cpp
+$ a.out
+1 m
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    bool mygreater (int i,int j)     {        return (i > j);    }    int main ()     {        int myints[] = {10, 20, 30, 30, 20, 10, 10, 20};        vector<int> v(myints, myints + 8);        pair<vector<int> :: iterator, vector<int> :: iterator> bounds;        sort (v.begin(), v.end());        bounds = equal_range (v.begin(), v.end(), 20);        cout  << (bounds.first - v.begin());        cout << " and " << (bounds.second - v.begin()) << '\n';        return 0;    }
+a) 3 and 6
+b) 2 and 5
+c) 3 and 5
+d) 2 and 4
+a
+Output:
+$ g++ max4.cpp
+$ a.out
+3 and 6
+9. Which function is used to return the minimum element in the range?
+a) min
+b) minimum
+c) min_element
+d) max_element
+c
+10. Which operator is used to compare the values to find min and max?
+a) <
+b) >
+c) <<
+d) >>
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Heaps» Next - C++ Programming Questions and Answers – Permutations 

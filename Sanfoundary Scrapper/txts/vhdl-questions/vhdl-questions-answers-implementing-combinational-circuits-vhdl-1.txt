@@ -1,0 +1,99 @@
+1. Which of the following is a not a characteristics of combinational circuits?
+a) The output of combinational circuit depends on present input
+b) There is no use of clock signal in combinational circuits
+c) The output of combinational circuit depends on previous output
+d) There is no storage element in combinational circuit
+c
+2. Sequential code can’t be used to design combinational circuit.
+a) True
+b) False
+b
+3. Which of the following is not a combinational circuit?
+a) Adder
+b) Code convertor
+c) Multiplexer
+d) Counter
+d
+4. The code given below is a VHDL implementation of  _________
+ARCHITECTURE my_circuit OF my_logic IS
+BEGIN
+WITH ab SELECT
+y <= x0 WHEN “00”;
+         x1 WHEN “01”;
+         x2 WHEN “10”;
+         x3 WHEN “11”;
+END my_circuit;
+a) 4 to 1 MUX
+b) 1 to 4 DEMUX
+c) 8 to 1 MUX
+d) 1 to 8 DEMUX
+a
+5. Which of the following line of the code contains an error?
+L1: ARCHITECTURE mux1 OF mux IS
+L2: BEGIN
+L3: y<= x0 WHEN x = ‘0’ ELSE
+L4:   <= x1 WHEN x = ‘1’;
+L5: END mux1;
+a) L2
+b) L3
+c) L4
+d) No error
+d
+6. In a given combinational circuit, the concurrent statements are used with selected assignments using WHEN and ELSE keyword. What is the other alternative to implement the same?
+a) WITH-SELECT
+b) WITH-SELECT-WHEN
+c) IF-ELSE
+d) CASE
+b
+7. Which of the following entity declares the ports of a 3 by 8 decoder?
+a)
+    ENTITY decoder IS
+     PORT( inp : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+                 Outp: OUT STD_LOGIC_VECTOR(8 DOWNTO 0));
+     END decoder;
+b)
+     ENTITY decoder IS
+     PORT( inp : IN STD_LOGIC_VECTOR(8 DOWNTO 0);
+                 Outp: OUT STD_LOGIC_VECTOR(3 DOWNTO 0));
+     END decoder;
+c)
+     ENTITY decoder IS
+     PORT( inp : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+                 Outp: OUT STD_LOGIC_VECTOR(2 DOWNTO 0));
+     END decoder;
+d)
+     ENTITY decoder IS
+     PORT( inp : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+                 Outp: OUT STD_LOGIC_VECTOR(7 DOWNTO 0));
+     END decoder;
+d
+  
+8. For using a process to implement a combinational circuit, which signals should be in the sensitivity list?
+a) Inputs of the circuit
+b) Outputs of the circuit
+c) Both of the Inputs and Outputs
+d) No signal should be in the sensitivity list
+a
+9. A 4 to 16 decoder can be used as a code converter. What will be the inputs and outputs of the converter respectively?
+a) Binary, Octal
+b) Octal, Binary
+c) Hexadecimal, Binary
+d) Binary, Hexadecimal
+c
+10. Following entity may represent a ________ circuit.
+ENTITY my_circuit IS
+PORT (a, b : IN STD_LOGIV_VECTOR(3 DOWNTO 0);
+              x    : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+              y    : OUT STD_LOGIC);
+END my_circuit;
+a) Half adder
+b) Full adder
+c) Multiplexer
+d) Parallel adder
+d
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Implementing Logic Functions with VHDL – 2» Next - VHDL Questions and Answers – Implementing Combinational Circuits with VHDL – 2 

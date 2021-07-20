@@ -1,0 +1,55 @@
+1. Smoothing filter is used for which of the following work(s)?
+a)	Blurring
+b)	Noise reduction
+c)	All of the mentioned
+d)	None of the mentioned
+c
+2. The response of the smoothing linear spatial filter is/are __________
+a)	Sum of image pixel in the neighborhood filter mask
+b)	Difference of image in the neighborhood filter mask
+c)	Product of pixel in the neighborhood filter mask
+d)	Average of pixels in the neighborhood of filter mask
+d
+3. Which of the following filter(s) results in a value as average of pixels in the neighborhood of filter mask.
+a)	Smoothing linear spatial filter
+b)	Averaging filter
+c)	Lowpass filter
+d)	All of the mentioned
+d
+4. What is/are the resultant image of a smoothing filter?
+a)	Image with high sharp transitions in gray levels
+b)	Image with reduced sharp transitions in gray levels
+c)	All of the mentioned
+d)	None of the mentioned
+b
+5. At which of the following scenarios averaging filters is/are used?
+a)	In the reduction of irrelevant details in an image
+b)	For smoothing of false contours
+c)	For noise reductions
+d)	All of the mentioned
+d
+6.  A spatial averaging filter having all the coefficients equal is termed _________
+a)	A box filter
+b)	A weighted average filter
+c)	A standard average filter
+d)	A median filter
+a
+7. What does using a mask having central coefficient maximum and then the coefficients reducing as a function of increasing distance from origin results?
+a)	It results in increasing blurring in smoothing process
+b)	It results to reduce blurring in smoothing process
+c)	Nothing with blurring occurs as mask coefficient relation has no effect on smoothing process
+d)	None of the mentioned
+a
+8. What is the relation between blurring effect with change in filter size?
+a)	Blurring increases with decrease of the size of filter size
+b)	Blurring decrease with decrease of the size of filter size
+c)	Blurring decrease with increase of the size of filter size
+d)	Blurring increases with increase of the size of filter size
+d
+The blurring gets more pronounced while using filter size 5, 9 and so on.
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing for Aptitude test, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Smoothing Spacial Filters» Next - Digital Image Processing Questions and Answers – Smoothing Nonlinear Spatial Filter 

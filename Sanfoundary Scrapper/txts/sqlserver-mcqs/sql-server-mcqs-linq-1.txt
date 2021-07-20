@@ -1,0 +1,236 @@
+1. Query alternative to the following SQL code in LINQ is ____________
+SELECT TOP 10 UPPER (c1.Name)
+FROM Customer c1
+WHERE
+   c1.Name LIKE 'A%'
+   AND c1.ID NOT IN
+   (
+      SELECT TOP 20 c2.ID
+      FROM Customer c2
+      WHERE c2.Name LIKE 'A%'
+      ORDER BY c2.Name
+   ) 
+ORDER BY c1.Name
+a)
+var query =
+   FROM c IN db.Customers
+   WHERE c.Name.EndsWith ("A")
+   orderby c.Name
+   SELECT c.Name.ToUpper();
+var thirdPage = query.Skip(20).Take(10);
+b)
+var query =
+   FROM c IN db.Customers
+   WHERE c.Name.StartsWith ("65")
+   orderby c.Name
+   SELECT c.Name.ToUpper();
+var thirdPage = query.Skip(20).Take(10);
+c)
+var query =
+   FROM c IN db.Customers
+   WHERE c.Name.StartsWith ("A")
+   orderby c.Name
+   SELECT c.Name.ToUpper();
+var thirdPage = query.Skip(20).Take(10);
+d)
+var query =
+   FROM c IN db.Customers
+   WHERE c.Name.StartsWith ("A")
+   orderby c.Name
+   SELECT c.Name.ToLower();
+var thirdPage = query.Skip(20).Take(10);
+c
+  
+2. Point out the correct statement.
+a) LINQ supports flat outer joins
+b) LINQ’s parameterization is inline, typesafe, and highly readable
+c) LINQ queries are composable
+d) All of the mentioned
+d
+3. LINQ query to retrieve a selection of customers, each with their high-value purchases is _____________
+a)
+FROM c IN db.Customers
+WHERE c.Address.State == "WA"
+SELECT NEW
+{
+   c.Name,
+   c.CustomerNumber,
+   HighValuePurchases = c.Purchases.Where (p => p.Price > 1000)
+}
+b)
+FROM c IN db.Customers
+WHERE c.Address.State = "WA"
+SELECT NEW
+{
+   c.Name,
+   c.CustomerNumber,
+   HighValuePurchases = c.Purchases.Where (p => p.Price > 1000)
+}
+c)
+FROM c IN db.Customers
+WHERE c.Address.State == "WA"
+SELECT NEW
+{
+   c.Name,
+   c.CustomerNumber,
+   HighValuePurchases != c.Purchases.Where (p => p.Price > 1000)
+}
+d) All of the mentioned
+a
+4. LINQ Query to list all purchases of $1000 or greater made by customers who live in Washington.
+a)
+FROM p IN db.Purchases
+WHERE p.Customer.Address.State == "WA" || p.Customer == NULL
+WHERE p.PurchaseItems.Sum (pi => pi.SaleAmount) = 1000
+SELECT p
+b)
+FROM p IN db.Purchases
+WHERE p.Customer.Address.State == "WA" || p.Customer == NULL
+WHERE p.PurchaseItems.Sum (pi => pi.SaleAmount) < 1000
+SELECT p
+c)
+FROM p IN db.Purchases
+WHERE p.Customer.Address.State == "WA" || p.Customer == NULL
+WHERE p.PurchaseItems.Sum (pi => pi.SaleAmount) > 1000
+SELECT p
+d) None of the mentioned
+c
+5. Point out the wrong statement.
+a) Compared to SQL, LINQ is complex, tidier, and lower-level
+b) LINQ supports ad hoc join
+c) Another benefit of LINQ is that you can query across relationships without having to join
+d) None of the mentioned
+a
+6. The following code is used will perform _________ operation in LINQ.
+public bool IsValidUser(string userName, string passWord)
+{
+       DBNameDataContext myDB = NEW DBNameDataContext();
+       List<User> users = myDB.Users.Where(u => u.Username == userName && u.Password==passWord);
+       IF(users.Count>0)
+       {
+             RETURN TRUE;
+       }
+       RETURN FALSE;
+}
+a) update
+b) select
+c) insert
+d) all of the mentioned
+b
+7. Query alternative to the following LINQ code in SQL is ____________
+FROM p IN db.Purchases
+WHERE p.Customer.Address.State == "WA" || p.Customer == NULL
+WHERE p.PurchaseItems.Sum (pi => pi.SaleAmount) > 1000
+SELECT p
+a)
+   SELECT p.*
+FROM Purchase p
+    LEFT OUTER JOIN 
+        Customer c INNER JOIN Address a ON c.AddressID = a.ID
+    ON p.CustomerID = c.ID	
+WHERE
+   (a.State = 'WA' || p.CustomerID IS NULL)
+    AND p.ID IN
+    (
+        SELECT PurchaseID FROM PurchaseItem
+        GROUP BY PurchaseID WHERE SUM (SaleAmount) > 1000
+    )
+b)
+SELECT p.*
+FROM Purchase p
+    LEFT OUTER JOIN 
+        Customer c INNER JOIN Address a ON c.AddressID = a.ID
+    ON p.CustomerID = c.ID	
+WHERE
+   (a.State = 'WA' || p.CustomerID IS NULL)
+    AND p.ID IN
+    (
+        SELECT PurchaseID FROM PurchaseItem
+        GROUP BY PurchaseID HAVING SUM (SaleAmount) > 1000
+    )
+c)
+SELECT p.*
+FROM Purchase p
+    LEFT OUTER JOIN 
+        Customer c INNER JOIN Address a ON c.AddressID = a.ID
+    ON p.CustomerID = c.ID	
+WHERE
+   (a.State = 'WA' || p.CustomerID IS NULL)
+    AND p.ID IN
+    (
+        SELECT PurchaseID FROM PurchaseItem
+        GROUP BY PurchaseID HAVING SUM (SaleAmount) < 1000
+    )
+d) None of the mentioned
+b
+8. Which of the following sample code is used to select data Using LinQ To SQL?
+a)
+ public bool IsValidUser(string userName, string passWord)
+{
+DBNameDataContext myDB = NEW DBNameDataContext();
+RETURN Enumerable.Count(userResults) > 0;
+}
+b)
+ public bool IsValidUser(string userName, string passWord)
+{
+DBNameDataContext myDB = NEW DBNameDataContext();
+var userResults = FROM u IN myDB.Users
+                         WHERE u.Username == userName
+                         && u.Password == passWord
+                         SELECT u;
+RETURN Enumerable.Count(userResults) > 0;
+}
+c)
+ public bool IsValidUser(string userName, string passWord)
+{
+DBNameDataContext myDB = NEW DBNameDataContext();
+var userResults = FROM u IN myDB.Users
+                         WHERE u.Username == userName
+                         && u.Password == passWord
+                         SELECT u;
+RETURN Enumerable.Count(userResults) == 0;
+}
+d) All of the mentioned
+b
+9. Which of the following code snippet would traverse through all result objects ?
+a)
+ foreach(USER USER IN userResults)
+{
+    //checking the RESULT AS LIKE object
+    IF(USER.Role == 'admin')
+     {
+         //do whatever you need
+     }
+}
+b)
+ FOR(USER USER IN userResults)
+{
+    //checking the RESULT AS LIKE object
+    IF(USER.Role == 'admin')
+     {
+         //do whatever you need
+     }
+}
+c)
+ While(USER USER IN userResults)
+{
+    //checking the RESULT AS LIKE object
+    IF(USER.Role == 'admin')
+     {
+         //do whatever you need
+     }
+}
+d) None of the mentioned
+a
+10. LINQ to SQL is considered to be one of Microsoft’s _______ products.
+a) ORM
+b) ODBC
+c) JDBC
+d) SQLLIB
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – ADO.NET» Next - SQL Server Questions and Answers – LINQ – 2 

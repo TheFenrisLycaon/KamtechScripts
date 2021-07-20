@@ -1,0 +1,102 @@
+1. In the FEM element library, what is the correct name for a three noded triangular element?
+a) Linear strain triangular element
+b) Constant strain triangular element
+c) Variable strain triangular element
+d) Higher-order triangular element
+b
+2. If the geometry and other parameters of an element are defined in terms of only one spatial coordinate, then the element is a one-dimensional element?
+a) True
+b) False
+a
+3. In FEM, what is the name of the element specified by a polynomial of order two or more?
+a) Nonlinear element
+b) Higher-order element
+c) Linear element
+d) Master element
+b
+4. In FEM, what is the name of the shape function of an Euler-Bernoulli beam element?
+a) Hermite cubic interpolation function
+b) Lagrange cubic interpolation function
+c) Consistent element functions
+d) Quadratic interpolation functions
+a
+5. In FEM, which option is used to develop the Higher-order rectangular elements (i.e., rectangular elements with interpolation functions of higher degree) systematically?
+a) A rectangular array of binomial coefficients
+b) Galerkin method
+c) Jacobi method
+d) Delaunay triangulation
+a
+6. In FEM, what are the elements in which the same shape functions describe the geometry and field displacement variables?
+a) Iso-parametric
+b) Axi-Symmetric
+c) Super-parametric
+d) Sub-parametric
+a
+7. In the Finite Element Method (FEM), if the geometry is represented by elements of a higher order than those used to approximate the field displacement variables, then it is called super-parametric formulation.
+a) True
+b) False
+a
+8. Which option is not correct about the Lagrange rectangular element used in FEM?
+a) Second-order Lagrange element has nine nodes
+b) Zero-order Lagrange element has one node
+c) First-order Lagrange element has four nodes
+d) Third-order Lagrange element has fifteen nodes
+d
+For p=0,
+n=1.
+For p=1,
+n=22,
+=4.
+For p=2,
+n=32
+=9.
+For p=3,
+n=42
+=16.
+9. Which option is not correct about the Lagrange family of triangular elements used in FEM?
+a) 2nd-degree polynomial corresponds to 6 noded triangle
+b) 0th-degree polynomial corresponds to 1 noded triangle
+c) 1st-degree polynomial corresponds to 3 noded triangle
+d) 3rd-degree polynomial corresponds to 9 noded triangle
+d
+For p=0,
+n=1.
+For p=1,
+n=0.5*3*2,
+=3.
+For p=2,
+n=0.5*3*4
+=6.
+For p=3,
+n=0.5*4*5
+=10.
+10. In FEM, if x, y represents Cartesian coordinates, then which term of Pascal’s triangle corresponds to the position of the interior node of the following element?
+a) 1
+b) xy
+c) x2y
+d) xy2
+b
+11. What is the number of nodes present on the boundary of the Lagrange quadratic rectangular element used in FEM?
+a) 1
+b) 4
+c) 8
+d) 9
+c
+12. Which nodes of the higher-order elements of the Lagrange family do not contribute to the inter-element connectivity?
+a) Interior nodes
+b) All nodes
+c) Corner nodes
+d) Intermediate nodes
+a
+13. What is the reason for an element in the Serendipity family to have a smaller size of stiffness matrix compare to a similar element in the Lagrange family?
+a) Absence of interior nodes
+b) Modified element connectivity
+c) Lesser interpolation functions
+d) Irregular arrangements of nodes
+a
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method for Campus Interviews,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Library of Elements and Interpolation Functions – 1» Next - Finite Element Method Questions and Answers – Modelling Considerations 

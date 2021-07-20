@@ -1,0 +1,149 @@
+1. The expansion of f(x), about x = a is
+a) \(f(a)+\frac{h}{1!} f’ (a)+\frac{h^2}{2!} f” (a)….+\frac{h^n}{n!} f^n (a)\) 
+b) \(f(a)+\frac{h}{1!} f’ (a)+\frac{h^2}{2!} f” (a)….\) 
+c) \(hf(a)+\frac{h^2}{1!} f’ (a)+\frac{h^3}{2!} f” (a)…+\frac{h^n}{n!} f^n (a)\) 
+d) \(hf(a)+\frac{h^2}{1!} f’ (a)+\frac{h^3}{2!} f” (a)…..\) 
+a
+f(a+h) = f(a) + h⁄1! f’ (a) + h2⁄2! f” (a)…….
+2. Find the expansion of ex in terms of x + m, m > 0.
+a) \(e^m [1+(x+m)+\frac{(x+m)^2}{2!}+\frac{(x+m)^3}{3!}+….]\) 
+b) \(e^{-m} [1+(x-m)+\frac{(x-m)^2}{2!}+\frac{(x-m)^3}{3!}+….]\) 
+c) \(e^m [1+(x-m)+\frac{(x-m)^2}{2!}+\frac{(x-m)^3}{3!}+….]\) 
+d) \(e^{-m} [1+(x+m)+\frac{(x+m)^2}{2!}+\frac{(x+m)^3}{3!}+….]\) 
+d
+By taylor theorem, putting a = -m, we get,
+f(a+h) = \(f(a)+\frac{h}{1!} f’ (a)+\frac{h^2}{2!} f” (a)…\) 
+f(h-m) = \(f(-m)+h/1! f'(-m)+\frac{h^2}{2!} f” (-m)….(1)\) 
+now, f(-m) = f’(-m) = f’’(-m)=e-m
+hence,
+f(x)=ex=f(h-m)=\(e^{-m} [1+(x+m)+\frac{(x+m)^2}{2!}+\frac{(x+m)^3}{3!}+….]\) 
+3. Expand ln(x) in the power of (x-m).
+a) ln⁡(m)+\(\frac{h}{m}-\frac{1}{2!} (h/m)^2+\frac{2}{3!} (h/m)^3-……\) 
+b) ln⁡(m)-\(\frac{h}{m}-\frac{1}{2!} (h/m)^2-\frac{2}{3!} (h/m)^3-……\) 
+c) ln⁡(m)-\(\frac{1}{2!} (h/m)^2+\frac{2}{3!} (h/m)^4-……\) 
+d) ln⁡(m)+\(\frac{h}{m}+\frac{2}{3!} (h/m)^3-……\) 
+a
+Let, h = x – m => f(x) = f(h+m) = e(h+m)
+By taylor theorem, putting a = m , we get,
+f(a+h) = \(f(a)+\frac{h}{1!} f’ (a)+\frac{h^2}{2! }f” (a)…\) 
+f(h-m) = \(f(m)+\frac{h}{1!} f’ (m)+\frac{h^2}{2!} f” (m)\)…….(1)
+now,f(m) = ln(m), f’(m)=1/m, f” (m)=-1/m2, f”’ (m)=2/m3,……
+hence,
+f(x)=ln(x)=f(h+m)=\(ln⁡(m)+\frac{h}{m}-\frac{h^2}{2!}\frac{1}{m^2}+\frac{h^3}{3!} \frac{2}{m^3}-……\) 
+f(x)=ln(x)=ln⁡(m)+\(\frac{h}{m}-\frac{1}{2!} (h/m)^2+\frac{2}{3!} (h/m)^3-……\) 
+where, h = x-m
+4. Find the value of √10
+a) 3.1633
+b) 3.1623
+c) 3.1632
+d) 3.1645
+b
+Hence, f’ (x)=\(\frac{1}{2} x^{-1/2}\) 
+f” (x)=\(-\frac{1}{4} x^{-3/2}\) 
+f”’ (x)=\(\frac{3}{8} x^{-5/2}\) 
+Hence,
+f(x+h)=\(\sqrt{x+h}=\sqrt{x}+\frac{h}{2} x^{-1/2}-\frac{h^2}{8} x^{-3/2}+\frac{h^3}{16} x^{-5/2}+…. \) (By Taylor’s expansion)
+Putting,
+h=1, and x=9 we get,
+f(10)=√10=3+1/6-1/216+1/3888+….=3.1623
+5. Expand f(x) = 1⁄x about x = 1.
+a) 1 – (x-1) + (x-1)2 – (x-1)3 + ….
+b) 1 + (x-1) + (x-1)2 + (x-1)3 + ….
+c) 1 + (x-1) – (x-1)2 + (x-1)3 + ….
+d) 1 – (x+1) + (x+1)2 – (x+1)3 + ….
+a
+Let, x – 1 = h
+Hence, x = 1 + h
+Hence, f(x) = f(1 + h) = f(1) + h⁄1! f’ (1) + h2⁄2! f” (1) +h3⁄3! f”’ (1)+…
+Now, f(1) = 1, f'(1) = -1, f”(1) = 2 ,f”'(1) = -6,…….
+Hence, f(1 + h) = 1 – h + h2 – h3+….
+hence, 1 – (x-1) + (x-1)2 – (x-1)3 +….
+6. Find the expansion of f(x) = ex ⁄1+ex, given ∫f(x)dx = ln⁡(2), for x = 0
+a) \(\frac{1}{2}-\frac{x}{4}-\frac{x^3}{48}-…\) 
+b) \(\frac{1}{2}+\frac{x}{4}-\frac{x^3}{48}+….\) 
+c) \(\frac{1}{2}+\frac{x}{4}+\frac{x^3}{48}+….\) 
+d) \(\frac{1}{2}+\frac{x}{4}-\frac{x^3}{48}+….\) 
+b
+Given,f(x)=\(\frac{e^x}{1+e^x}\) 
+Differentiating it we get
+\(f^1 (x)=ln⁡(1+e^x)+C\), now putting x=0 we get,c=0
+Hence,
+\(f^1 (x)=ln⁡(1+e^x)\) 
+Now,\(f^1 (x)=ln⁡(1+e^x)=ln⁡(2)+\frac{x}{2}+\frac{x^2}{8}-\frac{x^4}{192}+..\)(By,Mclaurin’s expansion)
+Hence, Differentiating it we get,
+f(x)=\(\frac{1}{2}+\frac{x}{4}-\frac{x^3}{48}+….\).
+7. Find the value of eπ⁄4√2
+a) 1.74
+b) 1.84
+c) 1.94
+d) 1.64
+a
+Now, the expansion of xSin(x) is \(x^2-\frac{x^3}{3!}+\frac{x^6}{5!}+….\) 
+Hence, \(e^xSin(x)=e^y=1+y+\frac{y^2}{2!}+\frac{y^3}{3!}+….\) 
+Hence,
+\(e^{xSin(x)}=1+(x^2-\frac{x^4}{3!}+\frac{x^6}{6!}+…..)+\frac{(x^2-\frac{x^4}{3!}+\frac{x^6}{6!}+…..)^2}{2!}\) 
+\(+\frac{(x^2-\frac{x^4}{3!}+\frac{x^6}{6!}+…..)^3}{6}+….\) 
+\(e^{xSin(x)}=1+x^2-\frac{x^4}{3!}+\frac{x^6}{5!}+\frac{x^4}{2}-\frac{x^6}{6}+\frac{x^6}{6}+….\) (we neglect all other other terms by considering the options given)
+Hence, \(e^{xSin(x)}=1+x^2+\frac{x^4}{3}+\frac{x^6}{120}+……\) 
+Putting, x = π/4,
+We get,
+f(π/4)=eπ/4 Sin(π/4)=eπ/(4√2)=1+(π/4)2+1/3 (π/4)4+….=1+.6168+.1268=1.74
+8. Find the value of ln(sin(31o)) if ln(2) = 0.69315
+a) -0.653
+b) -0.663
+c) -0.764
+d) -0.662
+b
+Then, f(x) = ln⁡(sin⁡(x)), if h=0
+f’ (x)=cot⁡(x), f” (x)=-cosec2 (x), f”’ (x)=2cosec2 (x)cot⁡(x)
+Hence, by Taylor’s theorem,
+f(x+h)=f(x)+hf'(x)+\(\frac{h^2}{2!}\) f” (x)+\(\frac{h^3}{3!}\) f”’ (x)+⋯..
+Hence, ln⁡(sin⁡(x+h))=ln⁡(sin⁡(x))+h cot⁡(x)-\(\frac{h^2}{2!}\) cosec2 (x)+\(\frac{h^3}{3!}\) (2cosec2 (x)  cot⁡(x))+⋯.
+Now let, x=30o, h=1o;
+ln(sin(31o)) = \(ln(sin(30))+\frac{π}{180} cot⁡(\frac{π}{6})-\frac{1}{2!} (\frac{π}{180})^2 cosec^2 (\frac{π}{6})+⋯\) 
+ln(sin(31o)) = -0.6935+.030231-.000304+0
+ln(sin(31o)) = -0.663
+9. The expansion of f(x,y), is
+a) f(0,0)+\([x \frac{∂f}{∂x}+y \frac{∂f}{∂y}]+\frac{1}{2!} [x^2 \frac{∂^2 f}{∂x^2}-2xy \frac{∂^2 f}{∂x∂y}+y^2 \frac{∂^2 f}{∂y^2}]+….\) 
+b) f(0,0)+\([x \frac{∂f}{∂x}+y \frac{∂f}{∂y}]+\frac{1}{2!} [x^2 \frac{∂^2 f}{∂x^2}+2xy \frac{∂^2 f}{∂x∂y}+y^2 \frac{∂^2 f}{∂y^2}]+…\) 
+c) f(0,0)+\([x \frac{∂f}{∂x}+y \frac{∂f}{∂y}]+\frac{1}{2!} [x^2 \frac{∂^2 f}{∂x^2}-2xy \frac{∂^2 f}{∂x∂y}-y^2 \frac{∂^2 f}{∂y^2}]+…\) 
+d) f(0,0)-\([x \frac{∂f}{∂x}+y \frac{∂f}{∂y}]+\frac{1}{2!} [x^2 \frac{∂^2 f}{∂x^2}+2xy \frac{∂^2 f}{∂x∂y}+y^2 \frac{∂^2 f}{∂y^2}]-…\) 
+b
+f(x,y) = f(0,0)+\([x \frac{∂f}{∂x}+y \frac{∂f}{∂y}]+\frac{1}{2!} [x^2 \frac{∂^2 f}{∂x^2}+2xy \frac{∂^2 f}{∂x∂y}+y^2 \frac{∂^2 f}{∂y^2}]+…\)
+10. The expansion of f(x, y)=ex Sin(y), is
+a) x + xy + ….
+b) y + y2 x + ….
+c) x + x2 y + ….
+d) y + xy + ……..
+d
+Therefore,
+fx (x,y) = ex Sin(y), hence fx (0,0) = 0
+fy (x,y) = ex Cos(y), hence fy (0,0) = 1
+fxx (x,y) = ex Sin(y), hence fxx (0,0) = 0
+fyy (x,y) = -ex Sin(y), hence fyy (0,0) = 0
+fxy (x,y) = ex Cos(y), hence fxy (0,0) = 1
+By taylor expansion,
+f(x,y) = f(0,0)+\([x \frac{∂f}{∂x}+y \frac{∂f}{∂y}]+\frac{1}{2!} [x^2 \frac{∂^2 f}{∂x^2}+2xy \frac{∂^2 f}{∂x∂y}+y^2 \frac{∂^2 f}{∂y^2}]+…\) 
+f(x,y) = 0 + 0 + y + \(\frac{1}{2!}\) [0 + 2xy + 0] +…..
+f(x,y) = y + xy + ……..
+11. The expansion of f(x, y) = ex ln(1 + y), is
+a) f(x,y) = y + xy – y2⁄2 +…….
+b) f(x,y) = y – xy + y2⁄2 -…….
+c) f(x,y) = y + x – y2⁄2 +……..
+d) f(x,y) = x + y – x2⁄2 +……..
+a
+Therefore,
+\(f_x (x,y)=e^x ln(1+y)\), hence fx (0,0) = 0
+\(f_y (x,y)=\frac{e^x}{(1+y)}\), hence fy (0,0) = 1
+\(f_{xx} (x,y)=e^x ln(1+y)\), hence fxx (0,0) = 0
+\(f_{yy} (x,y)=-\frac{e^x}{(1+y)^2}\), hence fyy (0,0) = -1
+\(f_{xy} (x,y)=\frac{e^x}{(1+y)}\), hence fxy (0,0) = 1
+By taylor expansion,
+f(x,y) = f(0,0)+\([x \frac{∂f}{∂x}+y \frac{∂f}{∂y}]+1/2! [x^2 \frac{∂^2 f}{∂x^2}+2xy \frac{∂^2 f}{∂x∂y}+y^2 \frac{∂^2 f}{∂y^2}]+…\) 
+f(x,y) = y + xy – y2⁄2 +…….
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics for Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Taylor Mclaurin Series – 3» Next - Engineering Mathematics Questions and Answers – Indeterminate Forms – 1 

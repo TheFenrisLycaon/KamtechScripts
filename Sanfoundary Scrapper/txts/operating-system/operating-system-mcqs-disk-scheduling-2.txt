@@ -1,0 +1,77 @@
+1. Whenever a process needs I/O to or from a disk it issues a ______________
+a) system call to the CPU
+b) system call to the operating system
+c) a special procedure
+d) all of the mentioned
+b
+2. If a process needs I/O to or from a disk, and if the drive or controller is busy then ____________
+a) the request will be placed in the queue of pending requests for that drive
+b) the request will not be processed and will be ignored completely
+c) the request will be not be placed
+d) none of the mentioned
+a
+3. Consider a disk queue with requests for I/O to blocks on cylinders.
+ 98 183 37 122 14 124 65 67
+Considering FCFS (first cum first served) scheduling, the total number of head movements is, if the disk head is initially at 53 is?
+a) 600
+b) 620
+c) 630
+d) 640
+d
+4. Consider a disk queue with requests for I/O to blocks on cylinders.
+ 98 183 37 122 14 124 65 67
+Considering SSTF (shortest seek time first) scheduling, the total number of head movements is, if the disk head is initially at 53 is?
+a) 224
+b) 236
+c) 245
+d) 240
+b
+5. Random access in magnetic tapes is _________ compared to magnetic disks.
+a) fast
+b) very fast
+c) slow
+d) very slow
+d
+6. Magnetic tape drives can write data at a speed ________ disk drives.
+a) much lesser than
+b) comparable to
+c) much faster than
+d) none of the mentioned
+b
+7. On media that use constant linear velocity (CLV), the _____________ is uniform.
+a) density of bits on the disk
+b) density of bits per sector
+c) the density of bits per track
+d) none of the mentioned
+c
+8. SSTF algorithm, like SJF __________ of some requests.
+a) may cause starvation
+b) will cause starvation
+c) does not cause starvation
+d) causes aging
+a
+9. In the ______ algorithm, the disk arm starts at one end of the disk and moves toward the other end, servicing requests till the other end of the disk. At the other end, the direction is reversed and servicing continues.
+a) LOOK
+b) SCAN
+c) C-SCAN
+d) C-LOOK
+b
+10. In the _______ algorithm, the disk head moves from one end to the other, servicing requests along the way. When the head reaches the other end, it immediately returns to the beginning of the disk without servicing any requests on the return trip.
+a) LOOK
+b) SCAN
+c) C-SCAN
+d) C-LOOK
+c
+11. In the ______ algorithm, the disk arm goes as far as the final request in each direction, then reverses direction immediately without going to the end of the disk.
+a) LOOK
+b) SCAN
+c) C-SCAN
+d) C-LOOK
+a
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice  all areas of Operating System for online Quizzes, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions & Answers – Disk Scheduling – 1» Next - Operating System Questions & Answers – Disk Management 

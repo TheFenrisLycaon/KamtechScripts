@@ -1,0 +1,76 @@
+1. What will be the output of the following PHP code?
+<?phpecho 5 * 9 / 3 + 9;?>
+a) 24
+b) 3.7
+c) 3.85
+d) 0
+a
+2. What will be the output of the following PHP code?
+<?php$var1 = 1 + ++5;echo $var1; ?>
+a) no output
+b) error
+c) 6
+d) 7
+b
+3. What will be the output of the following PHP code?
+<?php$var1 = 0;$var1 = ($var1 + 5)++; echo $var1; ?>
+a) 5
+b) error
+c) 6
+d) 7
+b
+4. What will be the output of the following PHP code?
+<?php$var1 = 0;$var1 = $var1++ + 5; echo $var1; ?>
+a) 5
+b) error
+c) 6
+d) 7
+a
+5. What will be the output of the following PHP code?
+<?php$var1 = 0;$var1 = ++$var1 + 5; echo $var1; ?>
+a) 5
+b) error
+c) 6
+d) 7
+c
+6. What will be the output of the following PHP code?
+<?php$var1 = 0;$var1 = $var1 + 5; echo $var1++; ?>
+a) 5
+b) error
+c) 6
+d) 7
+a
+7. What will be the output of the following PHP code?
+<?php$var1 = 1;echo $var1 = ++$var1 % 2 + ++$var1; ?>
+a) 1
+b) 0
+c) 2
+d) 3
+d
+8. What will be the output of the following PHP code?
+<?php $a = 5;$b = -7;$c =0;  $d = ++$a && ++$b || ++$c; print $d;print $a;?>
+a) 16
+b) 06
+c) 15
+d) 05
+a
+9. What will be the output of the following PHP code?
+<?php$var1 = 3;print $var = ++$var;?>
+a) 1
+b) 0
+c) 2
+d) 3
+a
+10. What will be the output of the following PHP code?
+<?php$var1 = 3;print ++$var++;?>
+a) 3
+b) 4
+c) 5
+d) error
+d
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all areas of PHP for Campus Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Operators – 3» Next - PHP Coding Questions and Answers – Operators – 5 

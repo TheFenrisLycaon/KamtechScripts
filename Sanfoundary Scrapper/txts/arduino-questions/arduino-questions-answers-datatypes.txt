@@ -1,0 +1,71 @@
+1. What is the output of the code given below?
+void setup() {     Serial.begin(9600);}void loop() {    String s=String(13,HEX);    Serial.println(s);}
+a) 13
+b) A
+c) B
+d) D
+d
+2. What is the output of the code given below?
+void setup() {    Serial.begin(9600);}void loop() {    String s=String(13,BIN);    Serial.println(s);}
+a) 13
+b) 1101
+c) 1001
+d) null
+b
+3. How many bits of memory does the bool datatype occupy?
+a) 2
+b) 4
+c) 6
+d) 8
+d
+4. What datatype should one use to represent 2147483610?
+a) Int
+b) Byte
+c) Short
+d) Long
+d
+5. How many bits of memory does the Short datatype take up?
+a) 17
+b) 15
+c) 16
+d) 14
+c
+6. What method does the int datatype use for storing negative numbers?
+a) 1’s Complement
+b) 2’s Complement
+c) 3’s Complement
+d) 4’s Complement
+b
+7. How can you assign the binary number 101 to an integer variable?
+a) Var = B101
+b) Var = 101
+c) Var = bin(101)
+d) Var = Bin(101)
+a
+8. What will the output of the code be?
+void setup() {    Serial.begin(9600);}void loop() {    int n=0x101;    Serial.println(n);}
+a) 200
+b) 101
+c) 119
+d) 257
+d
+9. What is the output of the following program?
+void setup() {    Serial.begin(9600);}void loop() {    String s=String(5.231, 1);    Serial.println(s);}
+a) 5
+b) 5.2
+c) 5.23
+d) 5.231
+b
+10. How many errors are present in the program given below?
+void setup() {    Serial.begin(9600);    pinMode(10,OUTPUT);}void loop() {    word x=1000;}
+a) 0
+b) 1
+c) 2
+d) 3
+a
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Time Functions» Next - Arduino Questions and Answers – Mathematical Functions 

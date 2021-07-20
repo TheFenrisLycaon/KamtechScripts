@@ -1,0 +1,67 @@
+1. Replica set configuration requires that the _______ have a value that is consistent among all members of the set.
+a) replSetName
+b) instance
+c) MMS
+d) all of the mentioned
+a
+2. Point out the correct statement.
+a) Replica set configuration is straightforward
+b) Keyfile must be less than one kilobyte in size
+c) Keyfile may only contain characters in the base64 set and the file must not have group or “world” permissions on UNIX systems
+d) All of the mentioned
+d
+3. Setting _______ enables authentication and specifies a key file for the replica set member use to when authenticating to each other.
+a) mongostat
+b) mongod
+c) keyFile
+d) all of the mentioned
+c
+4. _______ is /srv/mongodb, which specifies where MongoDB will store its data files.
+a) dbPath
+b) dbPathSts
+c) db.Op
+d) none of the mentioned
+a
+5. Point out the correct statement.
+a) Config servers are not replica sets
+b) Sharding requires a number of mongod instances with different configurations
+c) The config servers store the cluster’s metadata, while the cluster distributes data among one or more shard servers
+d) None of the mentioned
+d
+6. _____  bit builds of mongod enable journaling by default.
+a) 8
+b) 16
+c) 32
+d) 64
+d
+7. Which of the following provide acceptable performance levels for multiple mongod instances?
+a) GridFS
+b) SST
+c) MMS
+d) SSD
+d
+8. What is the size of Chunk by default?
+a) 64 MB
+b) 64 GB
+c) 64 KB
+d) 32 MB
+a
+9. Which of the following sets the database profiler level?
+a) systemLog.verbosity
+b) operationProfiling.mode
+c) operationProfiling.slowOpThresholdMs
+d) none of the mentioned
+b
+10. Which of the following document configures the threshold which determines whether a query is “slow” for the purpose of the logging system?
+a) systemLog.verbosity
+b) operationProfiling.mode
+c) operationProfiling.slowOpThresholdMs
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Monitoring for  MongoDB» Next - MongoDB Questions and Answers – MongoDB Maintenance 

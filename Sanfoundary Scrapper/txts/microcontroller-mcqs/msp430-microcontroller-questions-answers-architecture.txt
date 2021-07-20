@@ -1,0 +1,66 @@
+1. In MSP430, the size of the status register is ________
+a) 1 byte
+b) 2 bytes
+c) 1 bit
+d) 2 bit
+b
+2. Which of the following bit/s of the status register that allows the microcontroller to operate in its low power mode?
+a) Z
+b) Reserved
+c) CPU off
+d) N
+c
+3. What is actually done to improve the efficiency of a RISC processor?
+a) instructions are reduced
+b) they have two or more processors inbuilt connected between
+c) they have many instructions that are interrelated to each other
+d) they have one or more registers hard wired to the commonly used values
+d
+4. To improve the efficiency of an MSP430 based microcontroller, for one register
+a) there is only one value for all addressing modes
+b) there are two values for each addressing mode
+c) there are 2 values for four addressing modes
+d) there are 4 values for four addressing modes
+d
+5. Their are_______________ number of emulated instructions found in the MSP430?
+a) 4
+b) 8
+c) 16
+d) 24
+d
+6. .w form is used for operations
+a) that uses bytes
+b) that uses words
+c) that uses both
+d) that uses none
+c
+7. Pre increment addressing is available in MSP430?
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+b
+8. Which out of the following is a correct emulated instruction?
+a) ADC(.B) dst
+b) ADD(.B) src,dst
+c) ADDC(.B) src,dst
+d) AND(.B) src,dst
+a
+9. dadd instruction can act as _____________
+a) valid BCD addition
+b) valid adder with carry
+c) all of the mentioned
+d) none of the mentioned
+a
+10. Which of the following instructions don’t affect the status bits?
+a) bis
+b) bic
+c) bis & bic
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - AVR Microcontroller Questions and Answers – I2C Protocol» Next - MSP430 Microcontroller Questions and Answers – Addressing Modes 

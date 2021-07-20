@@ -1,0 +1,97 @@
+1. In the Two wattmeter method of measuring power in a balanced three-phase circuit, one wattmeter shows zero and the other positive maximum. The load power factor is?
+a) 0
+b) 0.5
+c) 0.866
+d) 1.0
+b
+2. Two watt meters, which are connected to measure the total power on a three-phase system supplying a balanced load, read 10.5 kW and – 2.5 kW respectively. What is the total power?
+a) 13.0 kW
+b) 13.0 kW
+c) 8.0 kW
+d) 8.0 kW
+d
+w2 = -2.5 kW
+w = w1 + w2 = 8 kW
+So, tan ∅ = \(\frac{1.732(w1-w2)}{(w1+w2)}\) = 2.81
+Or, ∅ = 70.43
+So, cos ∅ = 0.334.
+3. Power flowing in 3-phase, 3-wire system is measured by two wattmeter whose readings are 7000 W and -2500 W. if the voltage of the circuit is 400 V, then what will be the value of capacitance introduced in each phase to make one wattmeter reads zero? The frequency is 50 Hz.
+a) 500 μF
+b) 668.6 μF
+c) 1000 μF
+d) 748.5 μF
+b
+∴ Power in each phase = 1500 W
+Voltage of each phase = 231 V
+So, cos∅ = 0.264
+∴ Current in each phase = 24.6 A
+∴ Z of each phase = 9.39 Ω
+∴ R of each phase = 2.48 Ω
+Reactance of each phase = 9.056 Ω
+For one watt-meter to read zero, power factor should be 0.5
+Now, tan∅ = \(\frac{X}{R}\) or, X = 4.29 Ω
+∴ Capacitance reactance required = 9.056 – 4.29 = 4.76 Ω
+∴ Capacitance C = \(\frac{1}{2π × 50 × 4.76}\) F = 668.6 μF.
+4. A single-phase load is connected between R and Y terminals of a 220 V, symmetrical, 3-phase, 4 wire systems with phase sequence RYB. A watt-meter is connected in the system. The watt-meter will read (pf = 0.8 lagging)?
+a) – 795 W
+b) – 168 W
+c) + 597 W
+d) + 795 W
+b
+IRY = \(\frac{220∠30°}{100∠36.86°}\) = 2.2∠-6.68° A
+Power = VBN IRY = cos∅ = \(\frac{220}{(3)^{0.5}}\)  × 2.2 cos (126.86°)
+= -167.6 W ≈ – 168 W.
+5. The two-wattmeter method is used to measure active power. The system is a 3-phase, 3- wire system. Then, the power reading is?
+a) Affected by both negative sequence and zero sequence voltages
+b) Affected by negative sequence voltages but not by zero sequence voltages
+c) Affected by zero sequence voltages but not by negative sequence voltages
+d) Not affected by negative or zero sequence voltages
+d
+6. The ratio of the reading of 2 watt-meters connected to measure power in a balanced 3-phase load is 2: 1 and the load is inductive. The power factor of load is?
+a) 0.866 lag
+b) 0.615 lead
+c) 0.866 lead
+d) 0.625 lag
+a
+Since, \(\frac{W_1}{W_2} = \frac{2}{1}\) 
+So, power factor = cos arc tan (3)0.5 \(\frac{2-1}{2+1}\) 
+= cos 30° = 0.866 lag.
+7. Choose the correct statement regarding two watt-meter method for power measurements in 3-phase circuit.
+a) When power factor is unity, one of the wattmeters reads zero
+b) When the readings of the two watt-meters are equal but opposite sign, the power factor is zero
+c) Power can be measured using two watt-meter method only for star connected 3-phase circuit
+d) When two watt-meters show identical readings, the power factor is 0.5
+b
+P1 = (3)0.5 VIcos (30° – ∅) = (3)0.5 VIcos (30° – 90°) = \(\frac{(3)^{0.5}}{2}\) × VI
+P2 = (3)0.5 VIcos (30° + ∅) = (3)0.5 VIcos (30° + 90°) = \(– \frac{(3)^{0.5}}{2}\) × VI
+∴Total power  P = 0
+So, with zero power factor the readings of the two watt-meters are equal but of opposite sign.
+8. The meter constant of a single-phase, 230 V induction watt-meter is 600 rev/kW-h. The speed of the meter disc for a current of 15 A at 0.8 power factor lagging will be?
+a) 30.3 rpm
+b) 25.02 rpm
+c) 27.6 rpm
+d) 33.1 rpm
+c
+∴ Speed in rpm = \(\frac{1656}{60}\) = 27.6 rpm.
+9. In the measurement of 3-phase power by 2 watt-meter method, if the 2 watt-meter readings are equal, the power factor of the circuit is?
+a) 0.8 lagging
+b) 0.8 leading
+c) Zero
+d) Unity
+d
+W1 = W2 = cos 0° = 1.
+10. The figure shows a three-phase, delta connected load supplied from a 220 V, 50 Hz, 3-phase balanced source. The pressure Coil (PC) and Current Coil (CC) of a watt-meter are connected to the load as shown, with the coil polarities suitably selected to ensure a positive deflection. The watt-meter reading will be?
+a) Zero
+b) 1600 W
+c) 242 W
+d) 400 W
+c
+IBR = ICC = \(\frac{220∠120°}{100°}\) = 2.2∠120°
+VYB = VPC = 220∠-120°
+w = 2.2∠120°× 220∠-120° × cos 240° = 242 W.
+Sanfoundry Global Education & Learning Series – Electrical Measurements.
+To practice all Puzzles on Electrical Measurements, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Electrical Measurements Questions and Answers – Phase Sequence Indicator» Next - Electrical Measurements Questions and Answers – Advanced Miscellaneous Problems on Measurement of Power 

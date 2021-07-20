@@ -1,0 +1,84 @@
+1. After cut-in voltage in piecewise linear model diode act as a ___________
+a) Resistor
+b) Capacitor
+c) Conductor
+d) Insulator
+a
+2. Reverse biased condition of a diode in piecewise linear model is equivalent to __________
+a) Resistor
+b) Capacitor
+c) Conductor
+d) Insulator
+d
+3. Voltage drop produced by a diode in piecewise linear mode is __________
+a) Constant and equal to knee voltage
+b) Varies linearly with voltage after knee voltage
+c) Varies exponentially with voltage after knee voltage
+d) Constant and equal to twice of knee voltage
+b
+4. In the given circuit voltage V = 2V.cut-in voltage of diode is 0.7V. Forward resistance is 10Ω. The current I through the circuit is ____________
+(Assume piecewise linear model for diode)
+a) 0.235mA
+b) 1.29mA
+c) 1.63mA
+d) 2.27mA
+d
+I = (V-VD)/R1+RD
+  = (3-0.7)/1010   = 2.27mA.
+5. In the given circuit input voltage Vin is 3V and V2 is 1V. The resistance R1 is 1.5K. Cut-in voltage of diode is 0.5V. Forward bias resistance is 10Ω. The current I will be __________
+a) 2.03mA
+b) 0.23mA
+c) 1.58mA
+d) 1.33mA
+d
+So current I = V1-V2/R
+	       = 3-1/1.5k = 1.33mA.
+6. In the given circuit input voltage V1 is -3V and V2 is -1V. The resistance R1 is 1K. Cut-in voltage of diode is 0.5V. Forward bias resistance is 10Ω. The approximate current I is _________
+(Use piecewise linear model of diode)
+a) -1mA
+b) -2mA
+c) -0.2mA
+d) -0.1mA
+b
+Since voltage across diode is 1V. current I = -3+1/1k = -2mA.
+7. In the given circuit input voltage V is 2V and VB is 1V. The resistance R1 and R2 is 1K. Cut-in voltage of diode is 0.5V. Forward bias resistance is 10Ω. The current I will be
+(Use piecewise linear model of diode)
+a) 0.29mA
+b) 0.21mA
+c) 0.36mA
+d) 0.15mA
+a
+Current through R1, I1 = 1V/R1 = 1mA.
+Current through R2, I2 = (1-VD)/(R2¬+RD) = (1-0.7)/1010 = 0.297mA.
+8. In the given circuit input voltage V is 3V and VB is 1V. The resistance R1 and R2 is 1K. Cut-in voltage of diode is 0.5V. Forward bias resistance is 10Ω. The current I will be
+(Use piecewise linear model of diode)
+a) 0.96mA
+b) 2.13mA
+c) 1.56mA
+d) 1.23ma
+c
+Let voltage across diode is V0 now voltage across branch is V-V0
+Current I = (2-V0)/R1 + (2-V0-VB)/R2 = (2-V0)/1000+((1-V0))/1000 …………………….(1)
+V0 = VD + IRD = 0.7+10I
+Put this value in eq(1)
+That is, I =  (2-0.7-10I)/1000+((1-0.7-10I))/1000  => 1000I = 1.6 – 20I => 1020 I = 1.6
+That is, I = 1.6/1020 = 1.56mA.
+9. In the given circuit input voltage V is -3V and VB is 1V. The resistance R1 and R2 is 1K. Cut-in voltage of diode is 0.5V. Forward bias resistance is 10Ω. The current I will be
+(Use piecewise linear model of diode)
+a) 1.2mA
+b) 0mA
+c) 0.8mA
+d) 1mA
+b
+10. In the given circuit input voltage Vin is 3V and VB is 1V. The resistance R is 1K. Cut-in voltage of diode is 0.5V. Forward bias resistance is 10Ω. The current I will be? (Use piecewise linear model of diode)
+a) 1V
+b) 3V
+c) 2.3V
+d) 1.3V
+b
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Ideal Diode Model – 2» Next - Analog Circuits Questions and Answers – Piecewise Linear Model of Diode-2 

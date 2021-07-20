@@ -1,0 +1,128 @@
+1. Find the differentiation of x3 + y3 – 3xy + y2 = 0?
+a) \(\frac{(x^2-y)}{x-y^2-2y}\) 
+b) \(\frac{(3x^2-3y)}{3x-3y^2-2y}\) 
+c) \(\frac{(3x^3-3y)}{3x-3y^2-2y}\) 
+d) \(\frac{(3x^2-y)}{3x-3y^2-y}\) 
+b
+differentiation of y3 is 3y2 \(\frac{dy}{dx}\) 
+differentiation of -3xy is [-3y -3x \(\frac{dy}{dx}\)] 
+differentiation of y2 is 2y \(\frac{dy}{dx}\) 
+Hence,
+\(\frac{d(x^3+y^3-3xy+y^2)}{dx}=0\) 
+\(3x^2+3y^2 \frac{dy}{dx}-3y-3x \frac{dy}{dx}+2y \frac{dy}{dx} = 0\) 
+\(\frac{dy}{dx}=\frac{(3x^2-3y)}{3x-3y^2-2y}\)
+2. x3 Sin(y) + Cos(x) y3 = 0, its differentiation is?
+a) \(-\frac{[x^3 Sin(y)-3y^2 Sin(x)]}{[x^2 Cos(y)+y^3 Cos(x)]}\) 
+b) \(-\frac{[3x^2 Sin(y)-y^3 Sin(x)]}{[x^3 Cos(y)+3y^2 Cos(x)]}\) 
+c) \(-\frac{[3x^3 Sin(y)-y^3 Sin(x)]}{[x^3 Cos(y)+3y^3 Cos(x)]}\) 
+d) 0
+b
+\(\frac{d}{dx}[x^3 Sin(y)+Cos(x) y^3]\)= 0
+\(3x^2 Sin(y)+x^3 Cos(y) \frac{dy}{dx}-Sin(x) y^3+3y^2 \frac{dy}{dx} Cos(x)=0\) 
+\(\frac{dy}{dx}=-\frac{[3x^2 Sin(y)-y^3 Sin(x)]}{[x^3 Cos(y)+3y^2 Cos(x)]}\)
+3. Find the differentiation of x4 + y4 = 0.
+a) – x3⁄y4
+b) – x4⁄y3
+c) – x3⁄y3
+d) x3⁄y3
+c
+4x3 + 4y3 dy⁄dx = 0
+dy⁄dx = – x3⁄y3
+dy⁄dx = Sec2 (x)Sec(x) ex + Sec2 (x)Tan(x) ex + ex Tan(x)Sec(x)
+dy⁄dx = Sec2 (x) ex [Sec(x)+Tan(x)] + ex Tan(x)Sec(x)
+4. Find differentiation of xSin(x) + ayCos(x) + Tan(y) = 0.
+a) \(\frac{[ayCos(x)-Sin(x)+Cos(x)]}{[aCos(x)+Sec^2 (y)]}\) 
+b) \(\frac{[ayCos(x)-Sin(x)+xCos(x)]}{[Cos(x)+Sec^2 (y)]}\) 
+c) \(\frac{[ayCos(x)-Sin(x)+xCos(x)]}{[aCos(x)+Sec^2 (y)]}\) 
+d) \(\frac{[ayCos(x)-Cos(x)+xCos(x)]}{[aCos(x)+Sec^2 (y)]}\) 
+c
+Differentiation of above eqn. is
+\(Sin(x) + xCos(x) – ayCos(x) + aCos(x) \frac{dy}{dx} + Sec^2 (y) \frac{dy}{dx}=0\) 
+\(\frac{dy}{dx}=\frac{[ayCos(x)-Sin(x)+xCos(x)]}{[aCos(x)+Sec^2 (y)]}\)
+5. Find the derivative of Tan(x) = Tan(y).
+a) \(\frac{1+x^2}{1+y^2}\) 
+b) \(\frac{1+y}{1+x^2}\) 
+c) \(\frac{1+y^2}{1+x^2}\) 
+d) \(\frac{1+y^2}{1+x}\) 
+c
+Tan(y)=Tan(x)
+\(\frac{1}{1+y^2} \frac{dy}{dx}=\frac{1}{1+x^2}\) 
+\(\frac{dy}{dx}=\frac{1+y^2}{1+x^2}\)
+6. Implicit functions are those functions ____________
+a) Which can be solved for a single variable
+b) Which can not be solved for a single variable
+c) Which can be eliminated to give zero
+d) Which are rational in nature.
+b
+For ex, f(x,y) = x3 +y3-3xy = 0.
+7. Evaluate y44 + 3xy3 + 6x2 y2 – 7y + 8 = 0.
+a) \(\frac{(7-12x^2 y-9xy^4-4y^3)}{(3y^3+12xy^2)}\) 
+b) \(\frac{(7-12x^2 y-9xy^2-4y^3)}{(3y^3+12xy^2)}\) 
+c) \(\frac{(7-12x^2 y-9xy^2-4y^3)}{(3y^4+12xy^2)}\) 
+d) \(\frac{(7-12x^4 y-9xy^2-4y^3)}{(3y^3+12xy^2)}\) 
+b
+Differentiating it we get
+\(4y^3 \frac{dy}{dx}+3[y^3+3xy^2  \frac{dy}{dx}]+6[2xy^2+2x^2 y \frac{dy}{dx}]-7 \frac{dy}{dx}\)=0
+\(\frac{dy}{dx}=\frac{(7-12x^2 y-9xy^2-4y^3 )}{(3y^3+12xy^2)}\)
+8. If Sin(y)=Sin(-1) (y) then?
+a) (1-y2)(1 – Cos2 y) = 1
+b) (1-y2)(1 – Sin2 y) = 1
+c) (1-y2)(1 – Siny)=1
+d) (1-y2)(1 – Cosy)=1
+b
+Differentiating both sides
+\(Cos(y) \frac{dy}{dx}=\frac{1}{\sqrt{1-y^2}} \frac{dy}{dx}\) 
+(1-y2)(1-Sin2 y)=1
+9. If Cos(y)=Cos(-1) (y) then?
+a) (1 – y2)(1 – Cos2 (y))=1
+b) (1 – y2)(1 – Cos(y))=1
+c) (1 – y2)(1 – Sin2 (y))=1
+d) (1 – y2)(1 – Sin(y))=1
+a
+Differentiating both sides
+-Sin(y) = \(-\frac{1}{\sqrt{1-y^2}}\) 
+(1 – y2)(1 – Cos2 (y)) = 1.
+10. If y2 + xy + x2 – 2x = 0 then d2y⁄dx2 =?
+a) \((2y+x) \frac{d^2 y}{dx^2}+(\frac{dy}{dx})^2+2 \frac{dy}{dx}+2=0\) 
+b) \((2y+x) \frac{d^2 y}{dx^2}+2(\frac{dy}{dx})^2+\frac{dy}{dx}+2=0\) 
+c) \((2y+x) \frac{d^2 y}{dx^2}+2(\frac{dy}{dx})^2+2 \frac{dy}{dx}+2=0\) 
+d) \(x \frac{d^2 y}{dx^2}+2(\frac{dy}{dx})^2+2 \frac{dy}{dx}+2=0\) 
+c
+\(y^2+xy+x^2-2x=0\) 
+\(2y \frac{dy}{dx}+x \frac{dy}{dx}+y+2x-2=0\) 
+\(\frac{2yd^2 y}{dx^2}+2(\frac{dy}{dx})^2+x (\frac{d^2 y}{dx^2})+\frac{dy}{dx}+\frac{dy}{dx}+2=0\) 
+\((2y+x) \frac{d^2 y}{dx^2}+2(\frac{dy}{dx})^2+2 \frac{dy}{dx}+2=0\)
+11. If the velocity of car at time t(sec) is directly proportional to the square of its velocity at time (t-1)(sec). Then find the ratio of acceleration at t=10sec to 9sec if proportionality constant is k=10 sec/mt and velocity at t=9sec is 10 mt/sec.
+a) 100
+b) 200
+c) 150
+d) 250
+b
+Given,v(t)=kv2 (t-1)
+Differentiating w.r.t time we get
+dv(t)⁄dt = 2kv(t-1) dv(t – 1)⁄dt
+a(t) = 2*10*10 a(t-1)
+a(t)⁄a(t – 1) = 200.
+12. If z(x,y) = 2Sin(x)+Cos(y)Sin(x) find d2z(xy)⁄dxdy= ?
+a) –Cos(y)Cos(x)
+b) -Sin(y)Sin(x)
+c) –Sin(y)Cos(x)
+d) -Cos(y)Sin(x)
+c
+Hence,
+\(\frac{d^2 z(x,y)}{dxdy}=\frac{d}{dx} \frac{dz(x,y)}{dy}=\frac{d}{dx}[\frac{d}{dy} (2Sin(x)+Cos(y)Sin(x))]\) 
+=\(-\frac{d}{dx}\) Sin(y)Sin(x)= -Sin(y)Cos(x)
+13. If the car is having a displace from point 1 to point 2 in t sec which is given by equation y(x) = x2 + x + 1. Then?
+a) Car is moving with constant acceleration
+b) Car is moving with constant velocity
+c) Neither acceleration nor velocity is constant
+d) Both acceleration and velocity is constant
+a
+Velocity is, v = dy⁄dx = 2x + 1 (not constant)
+Acceleration is a = dy⁄dx = 2 (constant).
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Partial Differentiation Questions and Answers – Total Derivative» Next - Engineering Mathematics Questions and Answers – Partial Differentiation – 1 

@@ -1,0 +1,89 @@
+1. Which of the error probability does the acceptance control chart take into account?
+a) Type I
+b) Type II
+c) Neither of the type I not the type II
+d) Both, type I and type II
+d
+2. How many approaches can be used to develop the acceptance control charts?
+a) 2
+b) 1
+c) 4
+d) 5
+a
+3. What is the UCL of the acceptance control chart when the sample size n, the fraction nonconforming γ are specified?
+a) \(UCL=USL-\left(Z_γ+\frac{Z_β}{\sqrt{n}}\right)\) 
+b) \(UCL=USL+\left(Z_γ-\frac{Z_β}{\sqrt{n}}\right)\) 
+c) \(UCL=USL+\left(Z_γ+\frac{Z_β}{\sqrt{n}}\right)\) 
+d) \(UCL=USL-\left(Z_γ-\frac{Z_β}{\sqrt{n}}\right)\) 
+a
+\(UCL=USL-\left(Z_γ+\frac{Z_β}{\sqrt{n}}\right)\)
+4. What is the value of the LCL of the acceptance control chart when sample size n and the fraction nonconforming for 1-β probability of rejection are specified?
+a) \(LCL=LSL-\left(Z_γ+\frac{Z_β}{\sqrt{n}}\right)\) 
+b) \(LCL=LSL-\left(Z_γ-\frac{Z_β}{\sqrt{n}}\right)\) 
+c) \(LCL=LSL+\left(Z_γ-\frac{Z_β}{\sqrt{n}}\right)\) 
+d) \(LCL=LSL+\left(Z_γ+\frac{Z_β}{\sqrt{n}}\right)\) 
+d
+\(LCL=LSL+\left(Z_γ+\frac{Z_β}{\sqrt{n}}\right)\)
+5. When n, γ, and β are specified, the values of control limits are between ________
+a) μL  And μU
+b) LSL And μU
+c) μL  And USL
+d) μL  And LSL
+a
+\(LCL=LSL+\left(Z_γ+\frac{Z_β}{\sqrt{n}}\right)\); \(UCL=USL-\left(Z_γ+\frac{Z_β}{\sqrt{n}}\right)\) 
+By the above equations, we get the control limit values between μL  and μU.
+6. When the values of n, δ, and α, are specified, the LCL of the acceptance control charts, lie in between ________
+a) μL  And USL
+b) μL  And LSL
+c) USL And μU
+d) LSL And μU
+b
+7. When the values of δ and α are specified instead of the β and γ, what is the position of UCL of the acceptance control charts?
+a) Between USL and μU
+b) Between LSL and μU
+c) Between μL and USL
+d) Between μL and LSL
+a
+8. What is the expression for n which gives desired values of α, β, γ, and δ for any acceptance control chart?
+a) \(n=\left(\frac{Z_α-Z_β}{Z_δ+Z_γ}\right)^2\) 
+b) \(n=\left(\frac{Z_α+Z_β}{Z_δ+Z_γ}\right)^2\) 
+c) \(n=\left(\frac{Z_α-Z_β}{Z_δ-Z_γ}\right)^2\) 
+d) \(n=\left(\frac{Z_α+Z_β}{Z_δ-Z_γ}\right)^2\) 
+b
+\(n=\left(\frac{Z_α+Z_β}{Z_δ+Z_γ}\right)^2\)
+9. if δ= 0.01, α=0.00135, γ=0.05, and β=0.2, what will be the sample size for the desired values of these?
+a) n=38
+b) n=2
+c) n=32
+d) n=45
+c
+\(n=\left(\frac{Z_α+Z_β}{Z_δ+Z_γ}\right)^2\) 
+Putting the required values, we get,
+\(n=\left(\frac{Z_{0.00135}+Z_{0.2}}{Z_{0.01}+Z_{0.05}}\right)^2\)=31.43≅32.
+10. Modified control chart design is not based upon ____________
+a) Type I error probability
+b) Sample size n
+c) Type II error probability
+d) Process fraction nonconforming
+c
+11. 2-sigma limits are recommended for the modified control charts. Which of these is not one of the reasons for this?
+a) The spread must be low
+b) The limits must be greater than the spread
+c) Gives smaller β-risk
+d) Gives higher β-risk
+d
+12. Low type I error probability is obtained when 2-sigma limits are used for modified control chart.
+a) True
+b) False
+b
+13. It is impossible to get desired values of α, β, γ, and δ in the acceptance control charts.
+a) True
+b) False
+b
+\(n=\left(\frac{Z_α+Z_β}{Z_δ+Z_γ}\right)^2\)
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all objective questions on Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Control Charting Techniques – Statistical Process Control for Short Production Runs – 5» Next - Statistical Quality Control Questions and Answers – Control Charting Techniques – Control Charts for Multiple-Stream Processes – 1 

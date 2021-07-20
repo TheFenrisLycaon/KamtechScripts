@@ -1,0 +1,84 @@
+1. Is “GROUP BY” clause is similar to “ORDER BY” clause?
+a) Yes
+b) No
+c) Depends
+d) None of the mentioned
+b
+2. What is the meaning of “ORDER BY” clause in Mysql?
+a) Sorting your result set using column data
+b) Aggregation of fields
+c) Sorting your result set using row data
+d) None of the mentioned
+a
+3. What is the significance of “ORDER BY” in the following MySQL statement?
+SELECT emp_id, fname, lname
+FROM person
+ORDER BY emp_id;
+a) Data of emp_id will be sorted
+b) Data of emp_id will be sorted in descending order
+c) Data of emp_id will be sorted in ascending order
+d) All of the mentioned
+a
+4. What will be the order of sorting in the following MySQL statement?
+SELECT emp_id, emp_name
+FROM person
+ORDER BY emp_id, emp_name;
+a) Sorting {emp_id, emp_name}
+b) Sorting {emp_name, emp_id}
+c) Sorting (emp_id} but not emp_name
+d) None of the mentioned
+a
+5. If  emp_id contain the following set {9, 7, 6, 4, 3, 1, 2}, what will be the output on execution of the following MySQL statement?
+SELECT emp_id
+FROM person
+ORDER BY emp_id;
+a) {1, 2, 3, 4, 6, 7, 9}
+b) {2, 1, 4, 3, 7, 9, 6}
+c) {9, 7, 6, 4, 3, 1, 2}
+d) None of the mentioned
+a
+6. If emp_id contain the following set {1, 2, 3, 4, 1, 1}, what will be the output on execution of the following MySQL statement?
+SELECT emp_id
+FROM person
+ORDER BY emp_id;
+a) {1, 1, 1, 2, 3, 4}
+b) {1, 2, 3, 4, 1, 1}
+c) {1, 1, 2, 3, 4, 1}
+d) None of the mentioned
+a
+7. If emp_id contain the following set {1, 2, 2, 3, 3, 1}, what will be the output on execution of the following MySQL statement?
+SELECT emp_id
+FROM person
+ORDER BY emp_id;
+a) {1, 1, 2, 2, 3, 3}
+b) {1, 2, 3, 3, 2, 1}
+c) {2, 2, 1, 1, 3, 3}
+d) None of the mentioned
+a
+8. If emp_id contain the following set {-1, -2, 2, 3, -3, 1}, what will be the output on execution of the following MySQL statement?
+SELECT emp_id
+FROM person
+ORDER BY emp_id;
+a) {-3, -2, -1, 1, 2, 3}
+b) {-1, 1, -2, 2, -3, 3}
+c) {1, 2, 3, -1, -2, -3}
+d) None of the mentioned
+a
+9. Which keyword is used for sorting the data in descending order in Mysql?
+a) DESC
+b) ASC
+c) ALTER
+d) MODIFY
+a
+10. Which keyword is used for sorting the data in ascending order in Mysql?
+a) DESC
+b) ASC
+c) ALTER
+d) MODIFY
+b
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – The group by & having Clause» Next - MySQL Questions and Answers – The order by Clauses – 2 

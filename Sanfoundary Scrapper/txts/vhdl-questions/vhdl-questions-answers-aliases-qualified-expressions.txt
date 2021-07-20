@@ -1,0 +1,62 @@
+1. What does an alias declaration actually do?
+a) Creates a new object
+b) Doesn’t create a new object
+c) Creates a new signal
+d) Overwrites a file
+b
+2. Which of the following is the correct syntax for declaring an alias?
+a) ALIAS alias_name :  object_name;
+b) ALIAS alias_name ; object_name;
+c) ALIAS alias_name – alias_type object_name;
+d) ALIAS alias_name : alias_type object_name;
+d
+3. For what purpose in the following, one can use alias?
+a) To divide the complex part into smaller slices
+b) To decrease the simulation time
+c) To make use of same memory
+d) To assign different memory locations
+a
+4. Which of the following can’t be aliased?
+a) Signal
+b) Loop variable
+c) Variable
+d) File
+b
+5. An alias of array type can reverse the order of the array.
+a) True
+b) False
+a
+6. In what way the qualified expression differs from a normal expression?
+a) It has a keyword qualified in front of it
+b) Its type is explicitly defined
+c) Its range is defined
+d) It is similar to simple expression but is synthesizable
+b
+7. Which of the following is the correct syntax to define a qualified expression?
+a) (expression)’ type
+b) (expression)” type
+c) type’ (expression)
+d) type” (expression)
+c
+8. Where one should use the qualified expression?
+a) In all overloaded functions
+b) In overloaded functions with different number of parameters
+c) In overloaded functions with different parameter names
+d) In overloaded functions with different parameter types
+d
+9. Which one of the following would be the best use of qualified expression?
+a) Function overloaded with bit and integer types
+b) Function overloaded with bit_vector and std_logic_vector
+c) Function overloaded with bit_vector and std_logic
+d) Function overloaded with std_logic_vector and bit
+b
+10. A qualified expression is synthesizable in VHDL.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Overloading» Next - VHDL Questions and Answers – Generate Statement 

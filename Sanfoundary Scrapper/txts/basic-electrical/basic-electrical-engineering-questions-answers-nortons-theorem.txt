@@ -1,0 +1,82 @@
+1. The Norton current is the_______
+a) Short circuit current
+b) Open circuit current
+c) Open circuit and short circuit current
+d) Neither open circuit nor short circuit current
+a
+2. Norton resistance is found by?
+a) Shorting all voltage sources
+b) Opening all current sources
+c) Shorting all voltage sources and opening all current sources
+d) Opening all voltage sources and shorting all current sources
+c
+3. Norton’s theorem is true for __________
+a) Linear networks
+b) Non-Linear networks
+c) Both linear networks and nonlinear networks
+d) Neither linear networks nor non-linear networks
+a
+4. In Norton’s theorem Isc is__________
+a) Sum of two current sources
+b) A single current source
+c) Infinite current sources
+d) 0
+b
+5. Isc is found across the ____________ terminals of the network.
+a) Input
+b) Output
+c) Neither input nor output
+d) Either input or output
+b
+Join Sanfoundry@YouTube
+6. Can we use Norton’s theorem on a circuit containing a BJT?
+a) Yes
+b) No
+c) Depends on the BJT
+d) Insufficient data provided
+b
+7. Calculate the Norton resistance for the following circuit if 5 ohm is the load resistance.
+a) 10 ohm
+b) 11 ohm
+c) 12 ohm
+d) 13 ohm
+c
+RN=(3||6)+10 = 12 ohm.
+8. Calculate the short circuit current is the 5 ohm resistor is the load resistance.
+a) 0.72A
+b) 0.32A
+c) 0.83A
+d) 0.67A
+a
+If we apply source transformation between the 6 ohm resistor and the 1A source, we get a 6V source in series with a 6 ohm resistor. Now we have two meshes. Let us consider I1 flowing in the first mesh and I2 flowing in the second mesh.
+The mesh equations are:
+9I1-6I2=4
+-6I1+16I2=6
+On solving these equations simultaneously, we get I2=0.72A, which is the short circuit current.
+9. Find the current in the 5 ohm resistance using Norton’s theorem.
+a) 1A
+b) 1.5A
+c) 0.25A
+d) 0.5A
+d
+RN=(3||6)+10 = 12 ohm.
+Since the 5 ohm is the load resistance, we short it and find the resistance through the short.
+If we apply source transformation between the 6 ohm resistor and the 1A source, we get a 6V source in series with a 6 ohm resistor. Now we have two meshes. Let us consider I1 flowing in the first mesh and I2 flowing in the second mesh.
+The mesh equations are:
+9I1-6I2=4
+-6I1+16I2=6
+On solving these equations simultaneously, we get I2=0.72A, which is the short circuit current.
+Connecting the current source in parallel to RN which is in turn connected in parallel to the load resistance=5ohm, we get Norton’s equivalent circuit.
+Using current divider: I = 0.72*12/(12+5) = 0.5 A.
+10. Which of the following is also known as the dual of Norton’s theorem?
+a) Thevenin’s theorem
+b) Superposition theorem
+c) Maximum power transfer theorem
+d) Millman’s theorem
+a
+Sanfoundry Global Education & Learning Series – Basic Electrical Engineering.
+To practice all areas of Basic Electrical Engineering, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Basic Electrical Engineering Questions and Answers – Thevenin’s Theorem» Next - Basic Electrical Engineering Questions and Answers – Source  Transformations 

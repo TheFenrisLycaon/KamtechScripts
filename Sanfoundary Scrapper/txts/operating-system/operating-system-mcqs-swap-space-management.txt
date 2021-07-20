@@ -1,0 +1,64 @@
+1. Virtual memory uses disk space as an extension of _________
+a) secondary storage
+b) main memory
+c) tertiary storage
+d) none of the mentioned
+b
+2. Using swap space significantly _________ system performance.
+a) increases
+b) decreases
+c) maintains
+d) does not affect
+b
+3. Linux __________ the use of multiple swap spaces.
+a) allows
+b) does not allow
+c) may allow
+d) none of the mentioned
+a
+4. A single swap space ______ reside in two places.
+a) can
+b) cannot
+c) must not
+d) none of the mentioned
+a
+Join Sanfoundry@YouTube
+5. If the swap space is simply a large file, within the file system, ____________ used to create it, name it and allocate its space.
+a) special routines must be
+b) normal file system routines can be
+c) normal file system routines cannot be
+d) swap space storage manager is
+b
+6. For swap space created in a separate disk partition where no file system or directory structure is placed, _____________ used to allocate and deallocate the blocks.
+a) special routines must be
+b) normal file system routines can be
+c) normal file system routines cannot be
+d) swap space storage manager is
+d
+7. When a fixed amount of swap space is created during disk partitioning, more swap space can be added only by?
+I) repartitioning of the disk
+II) adding another swap space elsewhere
+a) only I
+b) only II
+c) both I and II
+d) neither I nor II
+c
+8. In UNIX, two per process ________ are used by the kernel to track swap space use.
+a) process tables
+b) swap maps
+c) memory maps
+d) partition maps
+b
+9. It is __________ to reread a page from the file system than to write it to swap space and then to reread it from there.
+a) useless
+b) less efficient
+c) more efficient
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions & Answers – Disk Management» Next - Operating System Questions & Answers – RAID Structure – 1 

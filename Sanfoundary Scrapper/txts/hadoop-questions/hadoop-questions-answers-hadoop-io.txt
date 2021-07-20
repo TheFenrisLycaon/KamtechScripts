@@ -1,0 +1,67 @@
+1. Hadoop I/O Hadoop comes with a set of ________ for data I/O.
+a) methods
+b) commands
+c) classes
+d) none of the mentioned
+d
+2. Point out the correct statement.
+a) The sequence file also can contain a “secondary” key-value list that can be used as file Metadata
+b) SequenceFile formats share a header that contains some information which allows the reader to recognize is format
+c) There’re Key and Value Class Name’s that allow the reader to instantiate those classes, via reflection, for reading
+d) All of the mentioned
+d
+3. Apache Hadoop ___________ provides a persistent data structure for binary key-value pairs.
+a) GetFile
+b) SequenceFile
+c) Putfile
+d) All of the mentioned
+b
+4. How many formats of SequenceFile are present in Hadoop I/O?
+a) 2
+b) 3
+c) 4
+d) 5
+b
+5. Point out the wrong statement.
+a) The data file contains all the key, value records but key N + 1 must be greater than or equal to the key N
+b) Sequence file is a kind of hadoop file based data structure
+c) Map file type is splittable as it contains a sync point after several records
+d) None of the mentioned
+c
+6. Which of the following format is more compression-aggressive?
+a) Partition Compressed
+b) Record Compressed
+c) Block-Compressed
+d) Uncompressed
+c
+7. The __________ is a directory that contains two SequenceFile.
+a) ReduceFile
+b) MapperFile
+c) MapFile
+d) None of the mentioned
+c
+8. The ______ file is populated with the key and a LongWritable that contains the starting byte position of the record.
+a) Array
+b) Index
+c) Immutable
+d) All of the mentioned
+b
+9. The _________ as just the value field append(value) and the key is a LongWritable that contains the record number, count + 1.
+a) SetFile
+b) ArrayFile
+c) BloomMapFile
+d) None of the mentioned
+b
+10. ____________  data file takes is based on avro serialization framework which was primarily created for hadoop.
+a) Oozie
+b) Avro
+c) cTakes
+d) Lucene
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Hadoop Archives» Next - Hadoop Questions and Answers – Compression 

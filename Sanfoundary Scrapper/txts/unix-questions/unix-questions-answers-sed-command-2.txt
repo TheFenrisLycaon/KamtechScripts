@@ -1,0 +1,84 @@
+1. sed can also perform the substitution.
+a) True
+b) False
+a
+2. Which one of the following is the correct syntax for performing substitution using sed?
+a) sed [address]s  /expr1/ expr2
+b) sed [address]s  /expr1 expr2
+c) sed [address]s  /expr1/ expr2/ flags
+d) sed [address]s
+c
+sed [address]s  /expr1/ expr2/ flags
+where address represents the line numbers where we want to perform the substitution.
+expr 1 and expr2 are expressions in which expr1 is replaced with expr2
+flags are used for implementing the global or local replacement policy 
+3. Which one of the following command is used for replacing | with : globally?
+a) sed  ‘s/|/:/’ emp.lst
+b) sed ‘/|/:/’ emp.lst
+c) sed  ‘s/|/:/g’ emp.lst
+d) sed ‘s/
+c
+4. To replace the string ‘director’ in the first five lines of file emp.lst with ‘manager’ we can use _____
+a) sed  ‘s/director/manager/’ emp.lst
+b) sed ‘1-5s/director/manager/’ emp.lst
+c) sed ‘1,5s/director/manager/’ emp.lst
+d) sed ‘15s
+c
+5. Which of the following characters are used with sed as anchoring characters?
+a) $
+b) ^
+c) %
+d) $ and ^
+d
+$ sed ‘s/^/2/’  emp.lst          //add first character with a prefix ‘2’
+$ sed ‘s/$/.00/’ emp.lst        // add the last character with a suffix ‘.00’
+ 
+6. What will be the function of the following command?
+$ sed ‘s/   *|/|/g’  emp.lst
+a) replace * with |
+b) replace / with |
+c) compress multiple spaces
+d) erroneous output
+c
+7. Basic regular expressions are divided into ______ categories.
+a) 1
+b) 3
+c) 2
+d) 5
+b
+8. The interval regular expression uses the character _______
+a) {
+b) }
+c) { and }
+d) ( and )
+c
+$ grep  ‘[0-9]\{10\}’  emp.lst
+Above command selects only those users who have a mobile phone. Here we used IRE to indicate that a numeral can occur 10 times (as phone numbers are of 10 digits).
+9. Which one of the following command will be used for adding two spaces before every line in emp.lst?
+a) sed ‘s/^/    /’ emp.lst
+b) sed ‘s / /    /’emp.lst
+c) sed ‘s /$/   /’emp.lst
+d) sed ‘s/$/
+a
+10. Which shortcut does sed offer to replace the string Linux with Red hat Linux?
+a) { }
+b) ( )
+c) ^^
+d) &
+d
+$ sed ‘s/ Linux/Red Hat &/’ emp.lst
+ 
+11. Which command will be used for selecting lines 3 to 10 from emp.lst?
+a) sed 3,10  emp.lst
+b) sed -n ‘3,10p’ emp.lst
+c) sed -n ‘^,10p’ emp.lst
+d) sed -n, 10p
+b
+  $ sed -n ‘1,$p’ emp.lst
+will select all the lines from the file emp.lst.
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – sed command – 1» Next - Unix  Questions and Answers – Shell Programming using read Command and Command Line Arguments 

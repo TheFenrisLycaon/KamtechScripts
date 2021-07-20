@@ -1,0 +1,67 @@
+1. _________ prevents the current member from seeking election as primary for a period of time.
+a) replSetGetStatus
+b) replSetFreeze
+c) replSetInitiate
+d) all of the mentioned
+b
+2. Point out the wrong statement.
+a) Primary capture data from the primary member to maintain an up to date copy of the sets’ data
+b) For some deployments, implementing a custom replication sync topology may be more effective than the default sync target selection logic
+c) MongoDB provides the ability to specify a host to use as a sync target
+d) None of the mentioned
+d
+3. ________ returns a document that reports on the status of the replica set.
+a) replSetGetStatus
+b) replSetFreeze
+c) replSetInitiate
+d) all of the mentioned
+a
+4. __________ enables or disables a maintenance mode, which puts a secondary node in a RECOVERING state.
+a) replSetReconfig
+b) replSetMaintenance
+c) replSetStepDown
+d) all of the mentioned
+b
+5. Point out the correct statement.
+a) To affect the sync target for the initial sync, run rs.syn() operation before initial sync
+b) If you run rs.syncFrom() during initial sync, MongoDB produces no error messages
+c) replSetSyncFrom and rs.syncFrom() provide a permanent override of default behavior
+d) All of the mentioned
+b
+6. When enabled replSetMaintenance: true, the member enters the ________ state.
+a) REPLICATING
+b) RECOVERING
+c) STALE
+d) All of the mentioned
+b
+7. ________ applies a new configuration to an existing replica set.
+a) replSetReconfig
+b) replSetMaintenance
+c) replSetStepDown
+d) all of the mentioned
+a
+8. Which of the command is for master-slave replication only?
+a) replSetSyncFrom
+b) resync
+c) applyOps
+d) isMaster
+b
+9. _______ is an internal command that applies oplog entries to the current data set.
+a) replSetSyncFrom
+b) resync
+c) applyOps
+d) isMaster
+c
+10. __________ explicitly override the default logic for selecting a member to replicate from.
+a) replSetSyncFrom
+b) resync
+c) applyOps
+d) isMaster
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Replication Maintenance» Next - MongoDB Questions and Answers – Member Configuration 

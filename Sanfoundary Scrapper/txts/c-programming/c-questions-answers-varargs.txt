@@ -1,0 +1,70 @@
+1. How many macros are defined in the header file stdarg.h?
+a) one
+b) two
+c) three
+d) four
+c
+2. The header file stdarg.h defines a variable type ________
+a) va_list
+b) v_list
+c) size_t
+d) var_list
+a
+3. The three macros defined by stdarg.h is _________
+a) start(), arg() and end()
+b) var_start(), var_arg() and var_end()
+c) va_start(), va_arg() and va_end()
+d) v_start(), v_arg() and v_end()
+c
+4. If access to the varying arguments is desired then the called function shall declare ________ having type va_list.
+a) class
+b) object
+c) function
+d) variable
+b
+5. Which  macro retrieves the next argument in the parameter list of the function with type type?
+a) type va_arg(va_list ap, type)
+b) type var_arg(va_list ap, type)
+c) type v_arg(va_list ap, type)
+d) type val_arg(va_list ap, type)
+a
+This macro is used to retrieve the next argument in the parameter list of the function with type type.
+6. The _______ macro shall be invoked before any access to the unnamed arguments.
+a) va_arg
+b) va_end
+c) va_list
+d) va_start
+d
+7. ______ macro must be called before using ______ and ________
+a) va_arg, va_end and va_start
+b) va_start, va_end and va_arg
+c) va_end, va_arg and va_start
+d) v_arg, v_end and v_start
+b
+The macro void va_start(va_list p, last_arg) initializes p variable to be used with the va_arg and va_end macros.
+8. The C library macro type _________ retrieves the next argument in the parameter list of the function with type.
+a) va_end
+b) va_arg
+c) va_start
+d) no macros
+b
+9. What is the role of the given C function?
+void va_end(va_list ap)
+a) allows a function with variable arguments which used the va_start macro to return
+b) retrieves the next argument in the parameter list
+c) initializes ap variable to be used with the va_arg and va_start macros
+d) returns the next additional argument as an expression
+a
+The result is undefined if va_end is not called before returning from the function.
+10. Which header file should be included if a function has to be defined such that it can accept variable number of arguments?
+a) stdlib.h
+b) stdarg.h
+c) assert.h
+d) setjmp.h
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Diagnostics – 2» Next - C Questions and Answers – Localization 

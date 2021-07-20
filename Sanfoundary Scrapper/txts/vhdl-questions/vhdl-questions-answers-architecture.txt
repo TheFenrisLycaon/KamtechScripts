@@ -1,0 +1,104 @@
+1. What does the architecture of an entity define?
+a) External interface
+b) Internal functionality
+c) Ports of the entity
+d) Specifications
+b
+2. Which of the following is the correct syntax for architecture declaration and definition?
+a)
+ARCHITECTURE architecture_type OF entity_name IS
+     Declarations_for_architecture;
+     BEGIN
+     Code;
+     ….
+    END architecture_name;
+b)
+ARCHITECTURE architecture_name OF entity_name IS
+     BEGIN
+     Declarations_for_architecture;
+     Code;
+     ….
+    END architecture_name;
+c)
+ARCHITECTURE architecture_type OF entity_name IS
+     BEGIN
+     Declarations_for_architecture;
+     Code;
+     ….
+    END architecture_type;
+d)
+ARCHITECTURE architecture_name OF entity_name IS
+     Declarations_for_architecture
+     BEGIN
+     Code;
+     ….
+     END architecture_name;
+d
+  
+3. What does the declarative part of architecture contain?
+a) Declaration of another entity
+b) Declaration of libraries and packages
+c) Declaration of local signals, constants or subprograms
+d) Declaration of Architecture type
+c
+4. The statements in between the keyword BEGIN and END are called _______
+a) Concurrent statements
+b) Netlist
+c) Declaration statement
+d) Entity function
+a
+5. Which of the following is the correct architecture for a simple Nand gate?
+a)
+ARCHITECTURE my_arch OF nand_gate IS
+    BEGIN
+    x <= a NAND b;
+    END my_arch;
+b)
+BEGIN
+     ARCHITECTURE my_arch OF nand_gate IS
+    x <= a NAND b;
+    END behavioral;
+c)
+BEGIN
+    ARCHITECTURE behavioral OF nand_gate IS
+    x <= a NAND b;
+    END my_arch;
+d)
+ARCHITECTURE nand OF nand_gate IS
+    BEGIN
+    x <= a NAND b;
+    END nand;
+a
+  
+6. Which of the following can be the name of an architecture?
+a) arch 1
+b) 1arch
+c) arch_1
+d) architecture
+c
+7. An entity can’t be described by more than one architecture.
+a) True
+b) False
+b
+8. Which of the following can’t be declared in the declaration part of the architecture?
+a) Signals
+b) Subprograms
+c) Components
+d) Libraries
+d
+9. It is not possible to declare an entity after declaring its architecture.
+a) True
+b) False
+a
+10. Which of the following statements execute faster?
+a) Sequential statements
+b) Concurrent statements
+c) Declaration statements
+d) Loop statements
+b
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Entity and Its Declaration» Next - VHDL Questions and Answers – Data Objects and Types 

@@ -1,0 +1,91 @@
+1. Which of these methods of Character wrapper can be used to obtain the char value contained in Character object.
+a) get()
+b) getVhar()
+c) charValue()
+d) getCharacter()
+c
+2. Which of the following constant are defined in Character wrapper?
+a) MAX_RADIX
+b) MAX_VALUE
+c) TYPE
+d) All of the mentioned
+d
+3. Which of these is a super class of Character wrapper?
+a) Long
+b) Digits
+c) Float
+d) Number
+d
+4. Which of these methods is used to know whether a given Character object is part of Java’s Identifiers?
+a) isIdentifier()
+b) isJavaIdentifier()
+c) isJavaIdentifierPart()
+d) none of the mentioned
+c
+5. Which of these coding techniques is used by method isDefined()?
+a) Latin
+b) ASCII
+c) ANSI
+d) UNICODE
+d
+6. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])         {            int a = Character.MAX_VALUE;            System.out.print((char)a);        }    }
+a) <
+b) >
+c) ?
+d) $
+c
+Output:
+Join Sanfoundry@YouTube
+$ javac Output.java
+$ java Output
+?
+7. What will be the output of the following Java program?
+    class Output    {        public static void main(String args[])        {            int a = Character.MIN_VALUE;            System.out.print((char)a);        }    }
+a) <
+b) !
+c) @
+d) Space
+d
+Output:
+$ javac Output.java
+$ java Output
+8. What will be the output of the following Java program?
+    class Output     {         public static void main(String args[])         {             char a[] = {'a', '5', 'A', ' '};                System.out.print(Character.isDigit(a[0])+ " ");             System.out.print(Character.isWhitespace(a[3])+ " ");             System.out.print(Character.isUpperCase(a[2]));        }    }
+a) true false true
+b) false true true
+c) true true false
+d) false false false
+b
+Output:
+$ javac Output.java
+$ java Output
+false true true
+9. What will be the output of the following Java program?
+    class Output    {        public static void main(String args[])        {	    char a = (char) 98;            a = Character.toUpperCase(a);            System.out.print(a);        }    }
+a) b
+b) c
+c) B
+d) C
+c
+Output:
+$ javac Output.java
+$ java Output
+B
+10. What will be the output of the following Java program?
+    class Output    {        public static void main(String args[])        {	    char a = '@';            boolean x = Character.isLetter(a);            System.out.print(x);        }    }
+a) true
+b) false
+c) @
+d) B
+b
+Output:
+$ javac Output.java
+$ java Output
+false
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.lang – Byte & Short Wrappers» Next - Java Questions & Answers – Java.lang – Boolean Wrapper Advance 

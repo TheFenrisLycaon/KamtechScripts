@@ -1,0 +1,93 @@
+1. Which library function is used for printing error messages?
+a) strerror
+b) stderror
+c) strer
+d) ptrerror
+a
+2. perror also uses error number to print the error messages.
+a) True
+b) False
+b
+3. What is the significance of errno 13?
+a) not a super user
+b) no such file and directory
+c) permission denied
+d) no space left on device
+b
+4. What is the symbolic constant for errno 2?
+a) EPERM
+b) ENDENT
+c) EIO
+d) EEXIST
+b
+5. Which of the following is not a valid symbolic constant?
+a) EPERM
+b) ENDENT
+c) EIOR
+d) EEXIST
+c
+6. How many data structures does the kernel maintain in memory that contain information about an open file?
+a) 3
+b) 2
+c) 5
+d) 1
+a
+The file descriptor table
+The file table
+The vnode table 
+7. The file descriptor table contains all file descriptors for a process.
+a) True
+b) False
+a
+8. The file table contains _________
+a) mode of opening
+b) status flags
+c) offset pointer, reference count
+d) mode of opening, status flags, offset printer and reference count
+d
+9. The vnode table is also called _____
+a) inode table
+b) file table
+c) vtable
+d) vttable
+a
+10. Which of the following system calls performs the action of cd command?
+a) chdir
+b) fchdir
+c) mkdir
+d) chdir and fchdir
+d
+11. Directories can also be opened, read and written in the same way as regular files.
+a) True
+b) False
+a
+12. For creating and removing directories, which of the following system calls are used?
+a) mkdir
+b) rmdir
+c) chdir
+d) mkdir and rmdir
+d
+13. A super user can use ___ call for creating a directory.
+a) mknod
+b) mkdr
+c) rmdir
+d) chdir
+a
+14. For creating a hard and symbolic link, which system calls are used?
+a) link, unlink
+b) link, symlink
+c) unlink, ulink
+d) hlink, slink
+b
+15. For removing a link, ____ is used.
+a) link
+b) symlink
+c) unlink
+d) delink
+c
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – System Calls Basics – 2» Next - Unix  Questions and Answers – File Handling System Calls – 2 

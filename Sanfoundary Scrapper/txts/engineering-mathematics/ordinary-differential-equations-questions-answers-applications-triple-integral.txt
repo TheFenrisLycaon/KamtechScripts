@@ -1,0 +1,43 @@
+1. Evaluate ∫∫∫ 12y-8x dV  in the region behind y=10-2z and bounded by z=2x, z=5 and x=0.
+a) 1
+b) \(\frac{35}{63}\) 
+c) \(\frac{3125}{16}\) 
+d) \(\frac{3125}{6}\) 
+d
+From the boundary conditions,
+0 < y < 10-2z
+0 < x < \(\frac{z}{2}\) 
+0 < z < 5
+Applying these limits on the Triple Integral as follows
+\(\int\int\int_{0}^{10-2z} 12y-8x dy dx dz\) 
+\(=\int\int_{0}^{\frac{\pi}{2}}6 (10-2z)^2-8x(10-2z) dx dz\) 
+\(=∫_{0}^{5} 14z^3-130z^2+300z dz\) 
+\(=\frac{3125}{6}\) 
+Thus the answer is \(=\frac{3125}{6}\).
+2. Assume a planet having a radius R and its density is expressed as = \(\frac{R+r}{2r}D’\).
+a) \(\frac{5\pi D’R^3}{2}\) 
+b) \(\frac{4\pi D’R^3}{3}\) 
+c) \(\frac{5\pi D’R^3}{3}\) 
+d) \(\frac{5\pi D’R^3}{12}\) 
+c
+Then,
+D=D’
+Where D’ is the surface density of the planet
+As D → ∞, r → 0
+For finding the mass of the planet, we use the triple integration formula
+M=∫∫∫ dV
+Converting into spherical co-ordinates, we get
+M=\(\int\int\int D’r^2 sin\theta \frac{R+r}{2r} dr d\theta d\theta\) 
+Applying the limits
+0 to π
+0 to 2π
+0 to R
+Solving the Triple Integral we get,
+M=\(\frac{5\pi D’R^3}{3}\) 
+Thus, the mass of the planet is \(\frac{5\pi D’R^3}{3}\).
+Sanfoundry Global Education & Learning Series – Ordinary Differential Equations.
+To practice all areas of Ordinary Differential Equations, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Differential and Integral Calculus Questions and Answers – Change of Variables In a Triple Integral» Next - Ordinary Differential Equations Questions and Answers – Basic Definitions 

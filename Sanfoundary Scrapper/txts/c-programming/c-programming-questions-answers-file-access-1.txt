@@ -1,0 +1,63 @@
+This section on C programming interview questions and answers focuses on “File Access”. One shall practice these interview questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C programming interview questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C programming interview questions on “File Access” along with answers, explanations and/or solutions:
+1. What are the first and second arguments of fopen?
+a) A character string containing the name of the file & the second argument is the mode
+b) A character string containing the name of the user & the second argument is the mode
+c) A character string containing file pointer & the second argument is the mode
+d) None of the mentioned
+a
+2. For binary files, a ___ must be appended to the mode string.
+a)  Nothing
+b) “b”
+c) “binary”
+d) “01”
+b
+3. What will fopen will return, if there is any error while opening a file?
+a) Nothing
+b) EOF
+c) NULL
+d) Depends on compiler
+c
+4. What is the return value of getc()?
+a) The next character from the stream is not referred by file pointer
+b) EOF for end of file or error
+c) Nothing
+d) None of the mentioned
+b
+5. When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?
+a) Standard input
+b) Standard output
+c) Standard error
+d) All of the mentioned
+d
+6. In C language, FILE is of which data type?
+a) int
+b) char *
+c) struct
+d) None of the mentioned
+c
+7. What is meant by ‘a’ in the following C operation?
+fp = fopen("Random.txt", "a");
+a) Attach
+b) Append
+c) Apprehend
+d) Add
+b
+8. Which of the following mode argument is used to truncate?
+a) a
+b) f
+c) w
+d) t
+c
+9. Which type of files can’t be opened using fopen()?
+a) .txt
+b) .bin
+c) .c
+d) none of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Formatted Input – 2» Next - C Programming Questions and Answers – File Access – 2 

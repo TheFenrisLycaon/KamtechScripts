@@ -1,0 +1,71 @@
+This section on C questions and puzzles focuses on “Macro Substitution”. One shall practice these questions and puzzles to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These programming puzzles can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C questions and puzzles on “Macro Substitution” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    #define foo(m, n) m ## n    int main()    {        printf("%s\n", foo(k, l));    }
+a) k l
+b) kl
+c) Compile time error
+d) Undefined behaviour
+c
+2. What will be the output of the following C code?
+    #include <stdio.h>    #define foo(m, n) " m ## n "    int main()    {        printf("%s\n", foo(k, l));    }
+a) k l
+b) kl
+c) Compile time error
+d) m ## n
+d
+3. What will be the output of the following C code?
+Join Sanfoundry@YouTube
+    #include <stdio.h>    #define foo(x, y) #x #y    int main()    {        printf("%s\n", foo(k, l));        return 0;    }
+a) kl
+b) k l
+c) xy
+d) Compile time error
+a
+4. What will be the output of the following C code?
+    #include <stdio.h>    #define foo(x, y) x / y + x    int main()    {        int i = -6, j = 3;        printf("%d\n",foo(i + j, 3));        return 0;    }
+a) Divided by zero exception
+b) Compile time error
+c) -8
+d) -4
+c
+5. What will be the output of the following C code?
+    #include <stdio.h>    void f();    int main()    {        #define foo(x, y) x / y + x        f();    }    void f()    {        printf("%d\n", foo(-3, 3));    }
+a) -8
+b) -4
+c) Compile time error
+d) Undefined behaviour
+b
+6. What will be the output of the following C code?
+    #include <stdio.h>    void f();    int main()    {        #define max 10        f();        return 0;    }    void f()    {        printf("%d\n", max * 10);    }
+a) 100
+b) Compile time error since #define cannot be inside functions
+c) Compile time error since max is not visible in f()
+d) Undefined behaviour
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    #define foo(x, y) x / y + x    int main()    {        int i = -6, j = 3;        printf("%d ", foo(i + j, 3));        printf("%d\n", foo(-3, 3));        return 0;    }
+a) -8 -4
+b) -4 divided by zero exception
+c) -4 -4
+d) Divided by zero exception
+a
+8. What will be the output of the following C code?
+ #include <stdio.h>    int foo(int, int);    #define foo(x, y) x / y + x    int main()    {        int i = -6, j = 3;        printf("%d ",foo(i + j, 3));        #undef foo        printf("%d\n",foo(i + j, 3));    }    int foo(int x, int y)    {        return x / y + x;    }
+a) -8 -4
+b) Compile time error
+c) -8 -8
+d) Undefined behaviour
+a
+9. What is the advantage of #define over const?
+a) Data type is flexible
+b) Can have a pointer
+c) Reduction in the size of the program
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – File Inclusion – 2» Next - C Programming Questions and Answers – Macro Substitution – 2 

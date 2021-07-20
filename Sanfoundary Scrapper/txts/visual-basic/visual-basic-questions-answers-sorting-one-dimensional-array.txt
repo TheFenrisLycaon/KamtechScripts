@@ -1,0 +1,82 @@
+1. ________ method is used to sort an array in visual basic.
+a) Array.arrange()
+b) Array.arrayArrange()
+c) Array.Sort()
+d) Array.sortAscending()
+c
+Array.Sort(arrayName)
+2. Arranging data in a specific order is called as ___________
+a) Arranging
+b) Sorting
+c) Organizing
+d) Making
+b
+3. __________________ method is used to reverse the values.
+a) Array.Reverse
+b) Array.Sort Desc
+c) Array.Sort Asc
+d) Array.rev
+a
+Array.Reverse(arrayName)
+4. What will be the output of the following Visual Basic code?
+Dim intScores As Integer = {78, 83, 75, 90}
+Array.Sort(intScores)
+a) 78, 83, 75,90
+b) 75,78, 83,90
+c) 78,75,83,90
+d) 90,83,78,75
+b
+5. What will be the output of the following Visual Basic code?
+Dim intScores As Integer = {78, 83, 75, 90}
+Array.Reverse(intScores)
+a) 78, 83, 75,90
+b) 75,78, 83,90
+c) 78,75,83,90
+d) 90,75,83,78
+d
+6. What will be the output of the following Visual Basic code?
+Dim intScores As Integer = {78, 83, 75, 90}
+Array.Sort(intScores)
+Array.Reverse(intScores)
+a) 78, 83, 75,90
+b) 75,78, 83,90
+c) 78,75,83,90
+d) 90,83,78,75
+d
+7. What is the array of these statements?
+Dim intScores As Integer = {78, 83, 75, 90}
+Array.reverse (intScores)
+a) { 75, 78, 83, 90}
+b) { 78, 75, 90, 83 }
+c) { 90, 83, 78, 75 }
+d) Compilation Error
+d
+Array.Reverse(arrayName)
+8. What is the array of these statements?
+Dim intScores As Integer = {78, 83, 75, 90}
+Array.sort (intScores)
+a) {75, 78, 83, 90}
+b) {78, 75, 90, 83}
+c) {90, 83, 78, 75}
+d) Compilation Error
+d
+Array.Sort(arrayName)
+9. Which of the following statements assigns (to the intElements variable) the number of elements contained in the intNums array?
+a) intElements = Len(intNums)
+b) intElements = Length(intNums)
+c) intElements = intNums.Len
+d) intElements = intNums.Length
+d
+arrayName.Length
+10. Which of the following assigns the string “Rover” to the fifth element in a one-dimensional array named strPetNames?
+a) strPetNames(4) = “Rover”
+b) strPetNames[4] = “Rover”
+c) strPetNames(5) = “Rover”
+d) strPetNames.Items.Add(5) = “Rover”
+a
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Arrays – For Each..Next Statement» Next - Visual Basic Questions and Answers – Parallel & Two-dimensional Arrays 

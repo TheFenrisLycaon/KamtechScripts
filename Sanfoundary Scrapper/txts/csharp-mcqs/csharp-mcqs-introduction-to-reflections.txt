@@ -1,0 +1,72 @@
+1. Which feature enables to obtain information about the use and capabilities of types at runtime?
+a) Runtime type ID
+b) Reflection
+c) Attributes
+d) None of the mentioned
+b
+2. Choose the namespace which consists of classes that are part of .NET Reflection API?
+a) System.Text
+b) System.Name
+c) System.Reflection
+d) None of the mentioned
+c
+eg : using System.Reflection;
+3. Choose the correct statement about System.Type namespace.
+a) Core of the reflection subsystem as it encapsulates a type
+b) Consists of many methods and properties that can be used to obtain information about a type at runtime
+c) Both Core of the reflection subsystem as it encapsulates a type & Consists of many methods and properties that can be used to obtain information about a type at runtime
+d) Only Consists of many methods and properties that can be used to obtain information about a type at runtime
+c
+4. Choose the class from which the namespace ‘System.Type’ is derived?
+a) System.Reflection
+b) System.Reflection.MemberInfo
+c) Both System.Reflection & System.Reflection.MemberInfo
+d) None of the mentioned
+b
+5. What does the following property signify?
+MemberTypes MemberType
+Join [email protected]
+a) Helps in distinguishing kinds of members
+b) Property helps in determining if member is a field, method, property or event
+c) Both Helps in distinguishing kinds of members & Property helps in determining if member is a field, method, property or event
+d) None of the mentioned
+c
+6. The property signifies “Obtains a Module object that represents the module (an executable file) in which the reflected type resides”. Choose the property which specifies the following statement?
+a) Type DeclaringType
+b) int MetadataToken
+c) Module Module
+d) Type ReflectedType
+c
+7. Choose the method defined by MemberInfo.
+a) GetCustomAttributes()
+b) IsDefined()
+c) GetCustomeAttributesData()
+d) All of the mentioned
+d
+8. What does the following declaration specify?
+ MethodInfo[] GetMethods()
+a) Returns an array of MethodInfo objects
+b) Returns a list of the public methods supported by the type by using GetMethods()
+c) Both Returns an array of MethodInfo objects & Returns a list of the public methods supported by the type by using GetMethods()
+d) None of the mentioned
+c
+9. What does the following C# code specify?
+object Invoke(object obj, object[] parameters)
+a) Calling a type using invoke()
+b) Any arguments that need to be passed to the method are specified in the array parameters
+c) The value returned by the invoked method is returned by Invoke()
+d) All of the mentioned
+d
+10. What does the following C# method specify?
+  Type[] GetGenericArguments()
+a) A property defined by MemberInfo
+b) Obtains a list of the type arguments bound to a closed constructed generic type
+c) The list may contain both type arguments and type parameters
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+To practice all featur es of C# programming language, here is complete set on 1000+ Multiple Choice Questions and Answers on C#.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Question & Answers – Runtime Type» Next - C# Questions & Answers – Collection Classes 

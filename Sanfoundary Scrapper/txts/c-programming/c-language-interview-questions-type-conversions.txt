@@ -1,0 +1,63 @@
+This section on C language interview questions and answers focuses on “Type Conversions”. One shall practice these interview questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C language interview questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C language interview questions on “Type Conversions” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        float x = 0.1;        if (x == 0.1)            printf("Sanfoundry");        else            printf("Advanced C Classes");    }
+a) Advanced C Classes
+b) Sanfoundry
+c) Run time error
+d) Compile time error
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        float x = 0.1;        printf("%d, ", x);        printf("%f", x);    }
+a) 0.100000, junk value
+b) Junk value, 0.100000
+c) 0, 0.100000
+d) 0, 0.999999
+b
+3. What will be the output of the following C code? (Initial values: x= 7, y = 8)
+    #include <stdio.h>    void main()    {        float x;        int y;        printf("enter two numbers \n", x);        scanf("%f %f", &x, &y);        printf("%f, %d", x, y);    }
+a) 7.000000, 7
+b) Run time error
+c) 7.000000, junk
+d) Varies
+c
+4. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        double x = 123828749.66;        int y = x;        printf("%d\n", y);        printf("%lf\n", y);    }
+a) 0, 0.0
+b) 123828749, 123828749.66
+c) 12382874, 12382874.0
+d) 123828749, 0.000000
+d
+5. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int x = 97;        char y = x;        printf("%c\n", y);    }
+a) a
+b) b
+c) 97
+d) Run time error
+a
+6. When double is converted to float, then the value is?
+a) Truncated
+b) Rounded
+c) Depends on the compiler
+d) Depends on the standard
+c
+7. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        unsigned int i = 23;        signed char c = -23;        if (i > c)            printf("Yes\n");        else if (i < c)            printf("No\n");    }
+a) Yes
+b) No
+c) Depends on the compiler
+d) Depends on the operating system
+b
+8. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 23;        char c = -23;        if (i < c)            printf("Yes\n");        else            printf("No\n");    }
+a) Yes
+b) No
+c) Depends on the compiler
+d) Depends on the standard
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Relational & Logical Operators – 2» Next - C Programming Questions and Answers – Type Conversions – 2 

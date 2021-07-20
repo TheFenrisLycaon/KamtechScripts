@@ -1,0 +1,71 @@
+This section on C test focuses on “Formatted Input”. One shall practice these test questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C test questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C test questions on “Formatted Input” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int n;        scanf("%d", n);        printf("%d\n", n);        return 0;    }
+a) Compilation error
+b) Undefined behavior
+c) Whatever user types
+d) Depends on the standard
+b
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        char *n;        scanf("%s", n);        return 0;    }
+a) Compilation error
+b) Undefined behavior
+c) Nothing
+d) None of the mentioned
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        char n[] = "hello\nworld!";        char s[13];        sscanf(n, "%s", s);        printf("%s\n", s);        return 0;    }
+a) hellonworld!
+b) 
+hello
+world!
+c) hello
+d) hello world!
+c
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        short int i;        scanf("%hd", &i);        printf("%hd", i);        return 0;    }
+a) Compilation error
+b) Undefined behavior
+c) Whatever user types
+d) None of the mentioned
+c
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        short int i;        scanf("%*d", &i);        printf("%hd", i);        return 0;    }
+a) Compilation error
+b) Somegarbage value
+c) Whatever user types
+d) Depends on the standard
+b
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        short int i;        scanf("%*hd", &i);        printf("%hd", i);        return 0;    }
+a) Compilation error
+b) Somegarbage value
+c) Whatever user types
+d) Depends on the standard
+b
+7. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        short int i;        scanf("%h*d", &i);        printf("%hd", i);        return 0;    }
+a) Compilation error
+b) Undefined behavior
+c) Somegarbage value
+d) Depends on the standard.
+a
+8. Which of the following is NOT a delimiter for an input in scanf?
+a) Enter
+b) Space
+c) Tab
+d) None of the mentioned
+d
+9. If the conversion characters of int d, i, o, u and x are preceded by h, it indicates?
+a) A pointer to int
+b) A pointer to short
+c) A pointer to long
+d) A pointer to char
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Variable Length Argument – 2» Next - C Programming Questions and Answers – Formatted Input – 2 

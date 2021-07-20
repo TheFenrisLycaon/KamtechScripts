@@ -1,0 +1,86 @@
+1. Wiener filter is an FIR least-squares inverse filter.
+a) True
+b) False
+a
+2. If h(n) is the impulse response of an LTI system and hI(n) is the impulse response of the inverse LTI system, then which of the following is true?
+a) h(n).hI(n)=1
+b) h(n).hI(n)=δ(n)
+c) h(n)*hI(n)=1
+d) h(n)*hI(n)=δ(n)
+d
+3. If H(z) is the system function of an LTI system and HI(z) is the system function of the inverse LTI system, then which of the following is true?
+a) H(z)*HI(z)=1
+b) H(z)*HI(z)=δ(n)
+c) H(z).HI(z)=1
+d) H(z).HI(z)=δ(n)
+c
+H(z).HI(z)=1.
+4. It is not desirable to restrict the inverse filter to be FIR.
+a) True
+b) False
+b
+5. Which of the following method is used to restrict the inverse filter to be FIR?
+a) Truncating hI(n)
+b) Expanding hI(n)
+c) Truncating HI(z)
+d) None of the mentioned
+a
+6. What should be the length of the truncated filter?
+a) M
+b) M-1
+c) M+1
+d) Infinite
+c
+7. Which of the following criterion can be used to optimize the M+1 filter coefficients?
+a) Pade approximation method
+b) Least squares error criterion
+c) Least squares error criterion & Pade approximation method
+d) None of the mentioned
+b
+8. Which of the following filters have a block diagram as shown in the figure?
+a) Pade wiener filter
+b) Pade FIR filter
+c) Least squares FIR filter
+d) Least squares wiener filter
+d
+9. The auto correlation of the sequence is required to minimize ε.
+a) True
+b) False
+a
+10. Which of the following are required to minimize the value of ε?
+a) rhh(l)
+b) rdh(l)
+c) d(n)
+d) all of the mentioned
+d
+\(\sum_{k=0}^M b_k r_{hh}(k-l)=r_{dh} (l)\), l=0,1,…M
+and we know that rdh(l) depends on the desired output d(n).
+11. FIR filter that satisfies \(\sum_{k=0}^M b_k r_{hh} (k-l)=r_{dh} (l)\), l=0,1,…M is known as wiener filter.
+a) True
+b) False
+a
+12. What should be the desired response for an optimum wiener filter to be an approximate inverse filter?
+a) u(n)
+b) δ(n)
+c) u(-n)
+d) none of the mentioned
+b
+d(n)=δ(n).
+13. If the set of linear equations from the equation \(\sum_{k=0}^M b_k r_{hh} (k-l)=r_{dh} (l)\), l=0,1,…M are expressed in matrix form, then what is the type of matrix obtained?
+a) Symmetric matrix
+b) Skew symmetric matrix
+c) Toeplitz matrix
+d) Triangular matrix
+c
+14. What is the number of computations proportional to, in Levinson-Durbin algorithm?
+a) M
+b) M2
+c) M3
+d) M1/2
+b
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Least Squares Design Methods» Next - Digital Signal Processing Questions and Answers – Design of IIR Filters in Frequency Domain 

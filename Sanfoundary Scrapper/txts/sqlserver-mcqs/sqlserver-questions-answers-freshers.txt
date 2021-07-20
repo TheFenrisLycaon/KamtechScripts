@@ -1,0 +1,67 @@
+1. What does DML stand for?
+a) Different Mode Level
+b) Data Model Language
+c) Data Mode Lane
+d) Data Manipulation language
+d
+2. With SQL, how do you select all the records from a table named “Persons” where the value of the column “FirstName” ends with an “a”?
+a) SELECT * FROM Persons WHERE FirstName=’a’
+b) SELECT * FROM Persons WHERE FirstName LIKE ‘a%’
+c) SELECT * FROM Persons WHERE FirstName LIKE ‘%a’
+d) SELECT * FROM Persons WHERE FirstName=’%a%’
+c
+3. With SQL, how can you return all the records from a table named “Persons” sorted descending by “FirstName”?
+a) SELECT * FROM Persons SORT BY ‘FirstName’ DESC
+b) SELECT * FROM Persons ORDER FirstName DESC
+c) SELECT * FROM Persons SORT ‘FirstName’ DESC
+d) SELECT * FROM Persons ORDER BY FirstName DESC
+d
+4. With SQL, how can you return the number of not null records in the “Persons” table?
+a) SELECT COUNT() FROM Persons
+b) SELECT COLUMNS() FROM Persons
+c) SELECT COLUMNS(*) FROM Persons
+d) SELECT COUNT(*) FROM Persons
+a
+5. What does the ALTER TABLE clause do?
+a) The SQL ALTER TABLE clause modifies a table definition by altering, adding, or deleting table columns and/or constraints
+b) The SQL ALTER TABLE clause is used to insert data into database table
+c) THE SQL ALTER TABLE deletes data from database table
+d) The SQL ALTER TABLE clause is used to delete a database table
+a
+Join [email protected]
+6. The UPDATE SQL clause can _____________
+a) update only one row at a time
+b) update more than one row at a time
+c) delete more than one row at a time
+d) delete only one row at a time
+b
+7. The UNION SQL clause can be used with _____________
+a) SELECT clause only
+b) DELETE and UPDATE clauses
+c) UPDATE clause only
+d) All of the mentioned
+a
+8. Which SQL statement is used to return only different values?
+a) SELECT DIFFERENT
+b) SELECT UNIQUE
+c) SELECT DISTINCT
+d) SELECT ALL
+c
+9. Which SQL keyword is used to sort the result-set?
+a) ORDER BY
+b) SORT
+c) ORDER
+d) SORT BY
+a
+10. How can you change “Hansen” into “Nilsen” in the “LastName” column in the Persons table?
+a) UPDATE Persons SET LastName=’Hansen’ INTO LastName=’Nilsen’
+b) MODIFY Persons SET LastName=’Nilsen’ WHERE LastName=’Hansen’
+c) MODIFY Persons SET LastName=’Hansen’ INTO LastName=’Nilsen’
+d) UPDATE Persons SET LastName=’Nilsen’ WHERE LastName=’Hansen’
+d
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server for Freshers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Basic SQL – 1» Next - SQL Server Questions and Answers – Basic SQL – 3 

@@ -1,0 +1,84 @@
+1. While changing permissions in an absolute manner, we explicitly set all the nine bits irrespective of the previous permissions of the file.
+a) True
+b) False
+a
+->    Read permission –4 (100 in octal)
+->    Write permission –2(010 in octal)
+->   Execute permission –1(001 in octal)
+For each category, we add up these numbers. For example, if we have to set read and write permission then an octal number will be 110 (4+2).
+2. What are the permission of file01 after executing this command?
+   chmod  777  file01
+a) rwxrwxrwx
+b) rw-rw-rw
+c) r–r–r–
+d) r–r—-
+a
+3. A file named file01 should be readable, writable and executable only by the user(owner). Which one of the following set of command will be used?
+a) chmod 700 file01
+b) chmod 000 file01
+c) chmod  477 file01
+d) chmod  777 file01
+a
+4. A file has a permission set as 000 i.e. — — —. Can the file be deleted?
+a) Yes
+b) No
+a
+5. A file has a permission set as 777 ie rwxrwxrwx but the directory permissions are 400. If the user tries to delete the file, will he be able to do it?
+a) Yes
+b) No
+b
+6. Which command is used to change the ownership of a file?
+a) chmod
+b) change
+c) ch
+d) chown
+d
+1. Change your status to a super user.
+2. # chown mash  file01            // # indicates another shell 
+3. exit
+ 
+7. Which option is used for the recursive functioning of chmod command?
+a) -R
+b) -r
+c) -l
+d) -i
+a
+chmod -R a+w  dir01
+This command will make all files and subdirectories found in the tree walk executable by all users. 
+8. Which command is used to change the group owner of the file?
+a) chown
+b) ch
+c) chgrp
+d) chmod
+c
+9. A user can change the group ownership of a file to another group to which he does not belong.
+a) True
+b) False
+b
+10. Like chmod, chown and chgrp can also use ___ option.
+a) -R
+b) -r
+c) -x
+d) -i
+a
+11. UNIX allows the system administrator to use the only chown to change both owner and group.
+a) True
+b) False
+a
+ 
+chown  abd:grp01  file01.txt     // ownership to abd, group to grp01
+12. Which symbol is used to change permissions for hidden files?
+a) .
+b) &
+c) $
+d) *
+a
+ 
+$ chmod 755  .    // works on hidden files
+ 
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix for Experienced people, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix Questions and Answers – Changing File Ownership and Permissions – 1» Next - Unix Questions and Answers – Vi Basics and Modes – 1 

@@ -1,0 +1,60 @@
+This section on C programming questions and answers focuses on “Structures and Functions”. One shall practice these questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C programming questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C programming questions on “Structures and Functions” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *name;    };    struct student s;    struct student fun(void)    {        s.name = "newton";        printf("%s\n", s.name);        s.name = "alan";        return s;    }    void main()    {        struct student m = fun();        printf("%s\n", m.name);        m.name = "turing";        printf("%s\n", s.name);    }
+a) newton alan alan
+b) alan newton alan
+c) alan alan newton
+d) compile time error
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *name;    };    void main()    {        struct student s, m;        s.name = "st";        m = s;        printf("%s%s", s.name, m.name);    }
+a) Compile time error
+b) Nothing
+c) Junk values
+d) st st
+d
+3. Which of the following return-type cannot be used for a function in C?
+a) char *
+b) struct
+c) void
+d) none of the mentioned
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    struct temp    {        int a;    } s;    void func(struct temp s)    {        s.a = 10;        printf("%d\t", s.a);    }    main()    {        func(s);        printf("%d\t", s.a);    }
+a) 10 (Garbage Value)
+b) 0 10
+c) 10 0
+d) (Garbage Value) 10
+c
+5. Which of the following is not possible under any scenario?
+a) s1 = &s2;
+b) s1 = s2;
+c) (*s1).number = 10;
+d) None of the mentioned
+d
+6. Which of the following operation is illegal in structures?
+a) Typecasting of structure
+b) Pointer to a variable of the same structure
+c) Dynamic allocation of memory for structure
+d) All of the mentioned
+a
+7. Presence of code like “s.t.b = 10” indicates __________
+a) Syntax Error
+b) Structure
+c) double data type
+d) An ordinary variable name
+b
+8. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *name;    };    struct student fun(void)    {        struct student s;        s.name = "alan";        return s;    }    void main()    {        struct student m = fun();        s.name = "turing";        printf("%s", m.name);    }
+a) alan
+b) Turing
+c) Compile time error
+d) Nothing
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Basics of Structures – 2» Next - C Programming Questions and Answers – Structures and Functions – 2 

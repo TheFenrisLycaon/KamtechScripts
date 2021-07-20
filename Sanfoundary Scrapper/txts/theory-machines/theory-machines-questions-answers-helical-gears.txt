@@ -1,0 +1,110 @@
+1. Identify the given gear.
+a) Spur gear
+b) Helical gear
+c) Worm and worm gear
+d) Bevel gear
+b
+2. The angle at which the teeth of the gear are inclined to the axis of a gear is called as __________
+a) pitch angle
+b) normal angle
+c) helix angle
+d) gear angle
+c
+In the diagram above, Ψ is called as helix angle. Depending upon the direction of this angle, the gear can be either left handed or right handed.
+3. The distance between the corresponding points on adjacent teeth measured on the pitch circle is called ______________
+a) helical pitch
+b) normal pitch
+c) gear pitch
+d) circular pitch
+d
+Here, the distance p is called as circular pitch.
+p = πm, where m is the module.
+4. The shortest distance measured along the normal to the helix between corresponding points on the adjacent teeth is called ____________
+a) gear pitch
+b) helical pitch
+c) circular pitch
+d) normal circular pitch
+d
+In the given figure, pn is the normal circular pitch.
+pn = p cos Ψ
+Therefore, mn = m cos Ψ.
+5. Two spiral gears have a normal module of 10 mm and the angle between the skew shaft axes is 50°. The driver has 20 teeth and the helix angle of it is 30°. If the velocity ratio is 1/3 and the driver as well as the follower are both left handed, find the centre distance between the shafts.
+a) 434.72 mm
+b) 452.83 mm
+c) 582.19 mm
+d) 523.39 mm
+a
+VR = 1/3 = T1/T2
+T2 = 3 x T1 = 3 x 20 = 60
+Centre distance = C = (mn/2) ((T1/cos Ψ1) + (T2/cos Ψ2)) = 434.72 mm.
+Join Sanfoundry@YouTube
+6. The centre distance between two meshing gears is 250 mm and the angle between the shafts is 60°. The normal circular pitch is 10 mm and the gear ratio is 2. Ψ1 = 35°. Find the value of number of teeth on both the wheels.
+a) 46,92
+b) 45, 90
+c) 54,108
+d) 62, 124
+a
+Centre distance = C = 250 = (mn/2) ((T1/cos Ψ1) + (T2/cos Ψ2)) = (pn/2π) ((T1/cos Ψ1) + (T2/cos Ψ2)) = 1.59 x (1.22T1 + 2.207T1) = 5.45 T1
+T1 = 250/5.45 = 45.88 ~ 46
+T2 = 2 x T1 = 92.
+7. Find the exact centre distance for the above problem.
+a) 248.992 mm
+b) 250.934 mm
+c) 251.831 mm
+d) 251.029 mm
+b
+We found out that T1  = 46 and T2 = 92.
+Centre distance = (pn/2π) ((T1/cos Ψ1) + (T2/cos Ψ2)) = 250.934 mm.
+8. Find the efficiency in the above problem if the friction angle is 6°.
+a) 89.23 %
+b) 91.02 %
+c) 88.58 %
+d) 85.69 %
+c
+Efficiency = η = (cos (Ψ2+ φ) x cos Ψ1¬)/ (cos (Ψ1 – φ) x cos Ψ2 ¬) = 0.8858 = 88.58 %.
+9. The shaft angle of two helical gears is 60°. The normal module is 6 mm. The larger gear has 50 teeth and the gear ratio is 2. The centre distance is 300 mm. Find the helix angles of the two gears.
+a) Ψ1 = 11.68°, Ψ2 = 48.32°
+b) Ψ1 = 13.02°, Ψ2 = 46.98°
+c) Ψ1 = 10.11°, Ψ2 = 49.89°
+d) Ψ1 = 12.21°, Ψ2 = 47.79°
+d
+C = 300 = (mn/2) ((T1/cos Ψ1) + (T2/cos Ψ2)) = 3((25/cos(60° – Ψ2))+(50/cos Ψ2)
+100 = ((25/cos(60° – Ψ2))+(50/cos Ψ2)
+By trial and error method, we get Ψ2 = 47.79°, Ψ1 = 12.21°.
+10. Find the spiral angles of the two helical gears for maximum efficiency if the shaft angle is 100° and the friction angle is 10°.
+a) 55°,55°
+b) 50°,50°
+c) 55°,45°
+d) 65°,45°
+c
+Ψ2 = 100° – 55° = 45°.
+11. Find the normal circular pitch as well as the normal module if the larger gear has 40 teeth and the gear ratio is 4. The helix angle is 20° and the shaft angle is 50°. Assume the centre distance between the gears to be 200 mm.
+a) 22.12 mm, 7.04 mm
+b) 21.31 mm, 6.78 mm
+c) 20.37 mm, 6.48 mm
+d) 21.98 mm, 6.996 mm
+a
+C = 200 = (mn/2) ((T1/cos Ψ1) + (T2/cos Ψ2))
+400 = mn x (56.83)
+mn = 7.04 mm and thus pn = πmn = 22.12 mm.
+12. The normal circular pitch of two helical gears in a mesh is 7 mm. If the number of teeth on the smaller gear is 22 and the gear ratio is 2, find the pitch diameters of the gears. Ψ1 = 40° and Ψ2 = 25°.
+a) 83.01 mm, 109.93 mm
+b) 63.99 mm, 108.17 mm
+c) 85.34 mm, 96.32 mm
+d) 79.12 mm, 100.13 mm
+b
+d1 = P1T1/π = pnT1/(cos Ψ1 x π) = 63.99 mm
+d2 = P2T2/π = pnT2/(cos Ψ2 x π) = 108.17 mm.
+13. For two gears having shaft angle 90° and friction angle 6°, find the maximum efficiency of the helical gears.
+a) 89.23%
+b) 85.64%
+c) 79.02%
+d) 81.07%
+d
+ηmax = (cos(θ+φ)+1)/ (cos(θ-φ)+1) = 0.8107 = 81.07%.
+Sanfoundry Global Education & Learning Series – Theory of Machines.
+To practice all areas of Theory of Machines, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Theory of Machines Questions and Answers – Minimum Number of Teeth and Interference» Next - Theory of Machines Questions and Answers – Worm Gears 

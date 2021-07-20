@@ -1,0 +1,93 @@
+1. Which command is used for locating repeated and non-repeated lines?
+a) sort
+b) uniq
+c) cut
+d) paste
+b
+2. uniq command requires a sorted file as input.
+a) True
+b) False
+a
+$ sort dept.lst |  uniq  -  uniqlist        // output in uniqlist
+3. Which option is used with uniq command for selecting non-repeated lines?
+a) -i
+b) -c
+c) -u
+d) -a
+c
+$ cut  -d  “|” -f3 emp.lst | sort  |uniq -u   
+ // cut 3rd field from emp.lst, sort it and find unique entries
+4. Which option is used for selecting repeated entries?
+a) -d
+b) -c
+c) -u
+d) -a
+a
+$ cut  -d  “|” -f3 emp.lst | sort  |uniq -d
+d.g.m                    // only single copy of all duplicate entries
+director
+executive
+g.m. 
+manager
+5. ______ option is used for counting frequency of occurrence.
+a) -d
+b) -c
+c) -u
+d) -a
+b
+$ cut  -d  “|” -f3 emp.lst | sort  |uniq -c
+1 d.g.m                    
+2 director
+4 executive
+4 g.m. 
+2 manager
+ 
+6. The output of the following command will be:
+$ uniq  foo1 foo2
+a) erroneous
+b) output stored in foo2
+c) concatenates both files
+d) process foo1 and output is stored in foo2
+d
+7. Which command is used for translating characters?
+a) sort
+b) trans
+c) tr
+d) paste
+c
+$ tr  options  expression1  expression2  standard input
+ 
+8. To replace | with ~, which one of the following commands will be used?
+a) tr ‘|\’  ‘~-‘
+b) tr ‘|\’  ‘~-‘ > emp.lst
+c) tr |  ~ emp.lst
+d) !
+b
+9.
+head -n 3 emp.lst | tr ‘[a-z]’  ‘[A-Z]’
+Above command will change the case of text from lower to upper.
+a) True
+b) False
+a
+10. Which option is used with tr command for deleting characters?
+a) -d
+b) -c
+c) -n
+d) -a
+a
+$ tr  -d  ‘|/’ < emp.lst |head  -n 3        //deletes | and / from the first three lines
+ 
+11. ______ option is used for compressing multiple consecutive characters.
+a) -d
+b) -c
+c) -n
+d) -s
+d
+$ tr  -s  ‘  ‘ < emp.lst | head -n  3
+ 
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Sort Command» Next - Unix  Questions and Answers – grep command – 1 

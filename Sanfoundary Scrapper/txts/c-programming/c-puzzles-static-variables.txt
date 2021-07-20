@@ -1,0 +1,56 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in Oracle and other companies. Anyone looking for Oracle placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of C questions and puzzles on “Static Variables” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        m();        m();    }    void m()    {        static int x = 5;        x++;        printf("%d", x);    }
+a) 6 7
+b) 6 6
+c) 5 5
+d) 5 6
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        static int x;        printf("x is %d", x);    }
+a) 0
+b) 1
+c) Junk value
+d) Run time error
+a
+Join [email protected]
+3. What will be the output of the following C code?
+    #include <stdio.h>    static int x;    void main()    {        int x;        printf("x is %d", x);    }
+a) 0
+b) Junkvalue
+c) Run time error
+d) Nothing
+b
+4. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        static double x;        int x;        printf("x is %d", x);    }
+a) Nothing
+b) 0
+c) Compile time error
+d) Junkvalue
+c
+5. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        static int x;        if (x++ < 2)        main();    }
+a) Infinite calls to main
+b) Run time error
+c) Varies
+d) main is called twice
+d
+6. Which of following is not accepted in C?
+a) static a = 10; //static as
+b) static int func (int); //parameter as static
+c) static static int a; //a static variable prefixed with static
+d) all of the mentioned
+c
+7. Which of the following cannot be static in C?
+a) Variables
+b) Functions
+c) Structures
+d) None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Scope of a Variable – 2» Next - C Programming Questions and Answers – Static Variables – 2 

@@ -1,0 +1,132 @@
+1. Boolean opeartors are also known as logical operators.
+a) True
+b) False
+a
+2. Which of the following is a valid boolean operator?
+a) and(&&)
+b) or(||)
+c) not(!)
+d) All of the mentioned
+d
+3. The boolean operator && only result in true when both the values are true?
+a) True
+b) False
+a
+4. What will the following expression evaluate to?
+   true && false
+a) True
+b) False
+c) Error
+d) None of the mentioned
+b
+5. What will be the output of the given code?
+boolean_1 = 77 < 78 && 77 < 77
+puts boolean_1
+a) True
+b) False
+c) Error
+d) None of the mentioned
+b
+Join [email protected]
+Output:
+False
+6. What will the following expression evaluate to?
+   true || false
+a) True
+b) False
+c) Error
+d) None of the mentioned
+a
+7. What will the following expression evaluate to?
+   (true && false) || (!true)
+a) True
+b) False
+c) Error
+d) None of the mentioned
+b
+8. What will the following expression evaluate to?
+   !true && !false
+a) True
+b) False
+c) Error
+d) None of the mentioned
+b
+9. What will be the output of the given code?
+ boolean_1 = (3 < 4 || false) && (false || true)
+puts boolean_1
+a) True
+b) False
+c) Error
+d) None of the mentioned
+a
+Output:
+True
+10. What will be the output of the given code?
+ boolean_1 = !(3 < 4 || false) && (false || true)
+puts boolean_1
+a) True
+b) False
+c) Error
+d) None of the mentioned
+b
+Output:
+False
+11. What will be the output of the given code?
+ boolean_1 = 2**3 != 3**2 || true
+puts boolean_1
+a) True
+b) False
+c) Error
+d) None of the mentioned
+a
+Output:
+True
+12. What will be the output of the given code?
+ boolean_1 = false || -10 > -9
+puts boolean_1
+a) True
+b) False
+c) Error
+d) None of the mentioned
+a
+Output:
+False
+13. What will be the output of the given code?
+ boolean_1 = !(700 / 10 == 70)
+puts boolean_1
+a) True
+b) False
+c) Error
+d) None of the mentioned
+b
+Output:
+False
+14. What will be the output of the given code?
+ boolean_1 = !true
+puts boolean_1  
+boolean_2 = !true && !true
+puts boolean_2
+a) True True
+b) False False
+c) True False
+d) None of the mentioned
+c
+Output:
+False
+False
+15. What will be the output of the given code?
+ boolean_2 = !true && (!true || 100 != 5**2)
+puts boolean_2
+a) True
+b) False
+c) Error
+d) None of the mentioned
+b
+Output:
+False
+Sanfoundry Global Education & Learning Series – Ruby Programming.
+To practice all areas of Ruby Programming, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ruby Programming Questions and Answers – Comparisons» Next - Ruby Programming Questions and Answers – Assignment Operators 

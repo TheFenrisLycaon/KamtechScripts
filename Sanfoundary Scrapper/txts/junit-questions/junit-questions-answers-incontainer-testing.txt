@@ -1,0 +1,62 @@
+1. When unit testing, it’s important to be able to control as much as possible of the environment in which the tests execute.
+a) True
+b) False
+a
+2. _______________ is a Java HTTP (Web) server and Java Servlet container.
+a) Maven
+b) Ant
+c) Jetty
+d) Zimbra
+c
+3. Jetty was originally called ________________
+a) Eclipse
+b) Maven
+c) Ant
+d) IssueTracker
+d
+4. To create a Jetty server object, we have to import _____________
+a) org.mortbay.jetty.Server;
+b) org.jetty.Server;
+c) org.junit.jetty.Server;
+d) org.junit.Server;
+a
+5. In Jetty, ____________ object processes the HTTP requests.
+a) Server
+b) Context
+c) Root
+d) Handler
+b
+6. To create a Jetty context object, we have to import _____________
+a) org.mortbay.jetty.Context;
+b) org.jetty.Context;
+c) org.mortbay.jetty.servlet.Context;
+d) org.junit.Server;
+c
+7. While creating a server object like- Server obj = new Server(8080), 8080 represents the number of connections.
+a) True
+b) False
+b
+8. The ______________ method sets the document root from which to serve resources.
+a)  setResourceBase
+b)  resourceBase
+c)  setResource
+d)  setBase
+a
+9. A _____________ handler is attached to the root to serve files from the file system.
+a)  SourceHandler
+b)  ResourceHandler
+c) AttachHandler
+d) RootHandler
+b
+10. The ResourceHandler is found in the package ________________
+a) org.mortbay.jetty.handler.ResourceHandler
+b) org.jetty.handler.ResourceHandler
+c) org.mortbay.junit.handler.ResourceHandler
+d) org.junit.jetty.handler.ResourceHandler
+a
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – The Mock Objects Solution» Next - JUnit Questions and Answers – Comparing Stubs, Mock Objects and In-container Testing 

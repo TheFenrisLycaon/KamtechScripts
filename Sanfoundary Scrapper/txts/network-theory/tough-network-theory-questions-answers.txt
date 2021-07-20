@@ -1,0 +1,153 @@
+1. A coil of inductance 10 H, resistance 40 Ω is connected as shown in the figure. The switch S connected with point 1 for a very long time, is moved to point 2 at t=0. If, at t=0+, the voltage across the coil is 120 V, the value of the resistance R is __________
+a) Zero
+b) 20 Ω
+c) 40 Ω
+d) 60 Ω
+a
+120 = 2(R + 40 + 20)
+∴ R = 0.
+2. A coil of inductance 10 H, resistance 40 Ω is connected as shown in figure. The switch S connected with point 1 for a very long time, is moved to point 2 at t=0. For the value of R obtained, the time taken for 95 % of the stored energy dissipated is ________
+a) 0.10 s
+b) 0.15 s
+c) 0.50 s
+d) 1.0 s
+c
+I (t) = Io\(e^{-\frac{R}{T} t}\) 
+∴ I (t) = 0.05 = 2 × \(e^{-\frac{60}{10} t}\) 
+Or, t = 0.61 ≈ 0.5 s.
+3. In the circuit shown below steady state is obtained before the switch closes at t = 0. The switch is closed for 1.5 s and is then opened. At t = 1 s, V (t) will be?
+a) – 3.24 V
+b) 1.97 V
+c) 5.03 V
+d) 13.24 V
+c
+For 0<t≤1.5 s, τ = 4 × 0.05 = 0.2 s
+VOC = 5 V
+V (t) = 5 + (10 – 5)\(e^{\frac{-t}{0.2}}\) = 5 + 5e-5t
+V (1s) = 5.03 V.
+4. The circuit shown below is at steady state before the switch closes at t=0. The switch is closed for 1.5 s and is then opened. At t = 2 s, V (t) will be?
+a) 5.12 V
+b) 6.43 V
+c) 8.57 V
+d) 9.88 V
+c
+For t > 1.5 s, τ = 8 × 0.05 = 0.4
+V (t) = 10+ (5-10)\(e^{\frac{-(t-1.5)}{0.4}}\) = 10 – 5e-2.5(t-1.5)
+For t≥1.5 s, V (2 s) = 8.57 V.
+5. In the circuit given below, the voltage across capacitor when switch is closed at t = ∞ is ____________
+a) 50 V
+b) 20 V
+c) 30 V
+d) 7.5 V
+a
+Voltage across capacitor = voltage across 10 Ω resistance.
+Now, voltage across the 10 Ω resistance = \(\frac{100}{10+10}\) X 10
+= \(\frac{100}{20}\).10
+= 50 V.
+6. In the circuit given below, the current source is 1 A, voltage source is 5 V, R1 = R2 = R3 = 1 Ω, L1 = L2 = L3 = 1 H, C1 = C2 = 1 F. The current through R3 is _________
+a) 1 A
+b) 5 A
+c) 6 A
+d) 8 A
+b
+∴ The current through R3 = \(\frac{5}{1}\) = 5 A.
+7. In the circuit given below, the capacitor is initially having a charge of 10 C.  1 second after the switch is closed, the current in the circuit is ________
+a) 14.7 A
+b) 18.5 A
+c) 40.0 A
+d) 50.0 A
+a
+100 C = RC\(\frac{dq}{dt}\) + q
+Or, \(\int_{q_o}^q \frac{dq}{100C-q} = \frac{1}{RC} \int_0^t \,dt\) 
+100C – q = (100C – qo)e-t/RC
+I = \(\frac{dq}{dt} = \frac{(100C – q_o)}{RC} e^{-1/1}\) 
+∴ e-t/RC = 40e-1 = 14.7 A.
+8. In the circuit given below, the current source is 1 A, voltage source is 5 V, R1 = R2 = R3 = 1 Ω, L1 = L2 = L3 = 1 H, C1 = C2 = 1 F. The current through the voltage source V is _________
+a) 1 A
+b) 3 A
+c) 2 A
+d) 4 A
+d
+∴ The current through the voltage source V = 5 – 1 = 4 A.
+9. In the circuit given below, the voltage across R by mesh analysis is _________
+a) 1.59 V
+b) 1 V
+c) 2.54 V
+d) 1.54 V
+d
+Or, 12 I1 – 2I2 = 5
+In loop 2, -2I1 + (10+2+20+2) I2 + (-2) I3 = 0
+Or, -2I1 + 34 I2 – 2I3 = 0
+In loop 3, 0I1 + – 2I2 + (2+10) I3 = 10
+Or, 0I1 – 2I2 + 12I3 = 10
+Now, the voltage across R is VR = (I2 – I3) R
+Now, I2 = \(\frac{360}{4800} = \frac{3}{40}\) 
+Now, I3 = \(\frac{4060}{4800} = \frac{203}{240}\) A
+Therefore, VR = (I2 – I3) R = \(\Big[\frac{3}{40} – \frac{203}{240}\Big] 2\) = 1.54 V. 
+10. In a dual slop integrating type digital voltmeter, the first integrating is carried out for 10 periods of the supply frequency of 50 Hz. If the reference voltage used is 2 V, the total conversion time for an input of 1 V is _________
+a) 0.01 s
+b) 0.05 s
+c) 0.1 s
+d) 1 s
+c
+\((\frac{t_1}{t_2})\) Vin = Vref
+Where, t1 = first integration time = 10 × \(\frac{1}{50}\) = 0.25
+But Vin = 1 V and Vref = 2 V
+∴ t2 = \(\frac{V_{in} t_1}{V_{ref}}\) = 0.1 s. 
+11. A rectifier type AC voltmeter consists of a series resistance R, an ideal full-wave rectifier bridge and a PMMC instrument. The internal resistance and a full-scale deflection produced by a DC current are 100 Ω and 1 mA respectively. A voltage of 100 V (rms) is applied to the input terminals. The value of R required is _________
+a) 63.56 Ω
+b) 89.83 Ω
+c) 89.83 kΩ
+d) 141.3 kΩ
+c
+The deflection with AC is 0.8993 times that with DC for the same value of voltage V
+SAC = 0.8993 SDC
+SDC of a rectifier type instrument is \(\frac{1}{I_{fs}}\)  where Ifs is the current required to produce full scale deflection, Ifs = 1 mA; Rm = 100 Ω; SDC = 103 Ω/V
+SAC = 0.8993 × 1000 = 899.3 Ω/V. Resistance of multiplier RS = SAC V – Rm – 2Rd, where Rd is the resistance of diode, for ideal diode Rd = 0
+∴ RS = 899.3 × 100 – 100 = 89.83 kΩ.
+12. A 1 μF capacitor is connected across a 50 V battery. The battery is kept closed for a long time. The circuit current and voltage across capacitor is __________
+a) 0.5 A and 0 V
+b) 0 A and 50 V
+c) 20 A and 5 V
+d) 0.05 A and 5 V
+b
+That is when the capacitor is fully charged.
+So, the circuit current and voltage across capacitor are 0 A and 50 V respectively.
+13. In the circuit given below, the switch is closed at t = 0. At t = 0+ the current through C is ___________
+a) 2 A
+b) 3 A
+c) 4 A
+d) 5 A
+d
+When the capacitor is fully charged, it acts as a short circuit.
+The equivalent resistance Req = (10 + 10) Ω
+= 20 Ω
+Given voltage = 100 V
+So, current through C = \(\frac{100}{20}\) A = 5 A.
+14. A digital Multimeter reads 10 V when fed with a triangular wave, which is symmetric about the time-axis. If the input is same, the rms reading meter will read?
+a) \(\frac{20}{\sqrt{3}}\) 
+b) –\(\frac{10}{\sqrt{3}}\) 
+c) –\(\frac{20}{\sqrt{3}}\) 
+d) \(\frac{10}{\sqrt{3}}\) 
+d
+∴ \(\frac{V_m}{3}\) = 10 V or, Vm = 30 V.
+15. A resistance R is measured using the connection shown in the below figure.
+The current measured is 10 A on ranges 100A and the voltage measured is 125 V on 150 V range. The scales of the ammeter and voltmeter are uniform. The total number of scale divisions of the ammeter is 100 and that of the voltmeter is 150. The scale division can be distinguished. The constructional error of the ammeter is ± 0.3% and that of voltmeter±0.4%. The resistance of the ammeter is 0.25 Ω. The value of R is _________
+a) 12.75 Ω
+b) 12.0 Ω
+c) 12.25 Ω
+d) 12.5 Ω
+c
+Percentage error in voltmeter= ±\(\frac{1}{10 ×150}\) × 100 = ± 0.067%
+So, δI = ± 0.3 ± 0.1 = ± 0.4%
+δV = ± 0.4 ± 0.067 = ± 0.467%
+R = \(\frac{V}{I}\) 
+So, error = ± δV ± δI = ± 0.867
+Measured value of resistance = Rm = \(\frac{125}{10}\) = 12.5
+∴ True value = Rm(1-\(\frac{R_a}{R_m}\)) = 12.25 Ω.
+Sanfoundry Global Education & Learning Series – Network Theory.
+To practice tough questions and answers on all areas of Network Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Theory Questions and Answers – Problems on Initial and Final Value Theorem» Next - Network Theory Questions and Answers – Advanced Problems on Application of Laplace Transform – 1 

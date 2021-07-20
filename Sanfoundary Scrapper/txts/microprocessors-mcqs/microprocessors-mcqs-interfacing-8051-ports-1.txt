@@ -1,0 +1,73 @@
+1. Which of the following is not one of the SFR addresses of the ports of 8051?
+a) 80H
+b) 90H
+c) A0H
+d) NONE
+d
+2. Each port line of a port can individually source a current of upto
+a) 0.2 mA
+b) 0.25 mA
+c) 0.5 mA
+d) 0.75 mA
+c
+3. Each port line of a port can individually sink a current of upto
+a) 2 mA
+b) 8 mA
+c) 5 mA
+d) 1 mA
+b
+4. The number of TTL inputs that can be sinked by the port 0 when a logic 0 is sent to a port line as an output port is
+a) 2
+b) 4
+c) 6
+d) 8
+d
+5. The open drain bidirectional (input or output) port with internal pullups is
+a) Port 0
+b) Port 1
+c) Port 2
+d) Port 3
+a
+6. The port that can source or sink 4 LS TTL inputs when being used as an output port on each of its line is
+a) Port 1
+b) Port 2
+c) Port 3
+d) all of the mentioned
+d
+7. The port that will source a current of 500 micro amperes when being used as input ports is
+a) 0.5 mA
+b) 0.25 mA
+c) 250 micro amperes
+d) 500 micro amperes
+d
+8. If the EA(active low) signal is grounded then the execution
+a) directly start from main memory
+b) directly start from 16 bit address in main memory
+c) directly start from 16 bit address in program memory
+d) directly start from RAM
+c
+9. When the port lines of a port are to be used as input lines then the value that must be written to the port address is
+a) F0H
+b) 0FH
+c) FFH
+d) 00H
+c
+10. Port 1 lines are used during programming of
+a) external EPROM and EEPROM
+b) external ROM and RAM
+c) internal ROM and RAM
+d) internal EPROM and EEPROM
+d
+11. The configuration in which each LED receives operating current of 8 mA from power supply while the port lines sink the current on each port line is
+a) common port configuration
+b) common anode configuration
+c) common cathode configuration
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – 8051 Instruction Set -2» Next - Microprocessors Questions and Answers – Interfacing With 8051 Ports -2 

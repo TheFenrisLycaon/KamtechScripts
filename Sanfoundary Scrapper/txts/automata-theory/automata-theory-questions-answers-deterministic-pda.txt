@@ -1,0 +1,69 @@
+1. The transition a Push down automaton makes is additionally dependent upon the:
+a) stack
+b) input tape
+c) terminals
+d) none of the mentioned
+a
+2. A PDA machine configuration (p, w, y) can be correctly represented as:
+a) (current state, unprocessed input, stack content)
+b) (unprocessed input, stack content, current state)
+c) (current state, stack content, unprocessed input)
+d) none of the mentioned
+a
+(p,w,γ) = (current state, unprocessed input, stack content).
+3. |-* is the __________ closure of |-
+a) symmetric and reflexive
+b) transitive and reflexive
+c) symmetric and transitive
+d) none of the mentioned
+b
+4. With reference of a DPDA, which among the following do we perform from the start state with an empty stack?
+a) process the whole string
+b) end in final state
+c) end with an empty stack
+d) all of the mentioned
+d
+Join Sanfoundry@YouTube
+5. A DPDA is a PDA in which:
+a) No state p has two outgoing transitions
+b) More than one state can have two or more outgoing transitions
+c) Atleast one state has more than one transitions
+d) None of the mentioned
+a
+6. State true or false:
+Statement: For every CFL, G, there exists a PDA M such that L(G) = L(M) and vice versa.
+a) true
+b) false
+a
+a) Given a grammar G, construct the PDA and show the equivalence
+b) Given a PDA, construct a grammar and show the equivalence
+7. If the PDA does not stop on an accepting state and the stack is not empty, the string is:
+a) rejected
+b) goes into loop forever
+c) both (a) and (b)
+d) none of the mentioned
+a
+8. A language accepted by Deterministic Push down automata is closed under which of the following?
+a) Complement
+b) Union
+c) Both (a) and (b)
+d) None of the mentioned
+a
+9. Which of the following is a simulator for non deterministic automata?
+a) JFLAP
+b) Gedit
+c) FAUTO
+d) None of the mentioned
+a
+10. Finite-state acceptors for the nested words can be:
+a) nested word automata
+b) push down automata
+c) ndfa
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  From PDA to Grammars» Next - Automata Theory Questions and Answers –  Regular Languages and D-PDA 

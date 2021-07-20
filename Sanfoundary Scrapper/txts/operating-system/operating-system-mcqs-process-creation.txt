@@ -1,0 +1,55 @@
+1. Restricting the child process to a subset of the parent’s resources prevents any process from __________
+a) overloading the system by using a lot of secondary storage
+b) under-loading the system by very less CPU utilization
+c) overloading the system by creating a lot of sub-processes
+d) crashing the system by utilizing multiple resources
+c
+2. A parent process calling _____ system call will be suspended until children processes terminate.
+a) wait
+b) fork
+c) exit
+d) exec
+a
+3. Cascading termination refers to termination of all child processes if the parent process terminates ______
+a) Normally
+b) Abnormally
+c) Normally or abnormally
+d) None of the mentioned
+c
+4. With _____________ only one process can execute at a time; meanwhile all other process are waiting for the processor. With ______________ more than one process can be running simultaneously each on a different processor.
+a) Multiprocessing, Multiprogramming
+b) Multiprogramming, Uniprocessing
+c) Multiprogramming, Multiprocessing
+d) Uniprogramming, Multiprocessing
+d
+5. In UNIX, each process is identified by its __________
+a) Process Control Block
+b) Device Queue
+c) Process Identifier
+d) None of the mentioned
+c
+6. In UNIX, the return value for the fork system call is _____ for the child process and _____ for the parent process.
+a) A Negative integer, Zero
+b) Zero, A Negative integer
+c) Zero, A nonzero integer
+d) A nonzero integer, Zero
+c
+7. The child process can __________
+a) be a duplicate of the parent process
+b) never be a duplicate of the parent process
+c) cannot have another program loaded into it
+d) never have another program loaded into it
+a
+8. The child process completes execution, but the parent keeps executing, then the child process is known as __________
+a) Orphan
+b) Zombie
+c) Body
+d) Dead
+b
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System for Interviews, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions & Answers – Process Synchronization» Next - Operating System Questions and Answers – Inter Process Communication 

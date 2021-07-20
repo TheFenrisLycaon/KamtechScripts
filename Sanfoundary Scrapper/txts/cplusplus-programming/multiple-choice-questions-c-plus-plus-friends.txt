@@ -1,0 +1,93 @@
+This section on C++ MCQs (multiple choice questions) focuses on “Friends”. One shall practice these MCQs to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our multiple choice questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C multiple choice questions on “Friends” along with answers, explanations and/or solutions:
+1. Which rule will not affect the friend function?
+a) private and protected members of a class cannot be accessed from outside
+b) private and protected member can be accessed anywhere
+c) protected member can be accessed anywhere
+d) private member can be accessed anywhere
+a
+2. Which keyword is used to declare the friend function?
+a) firend
+b) friend
+c) classfriend
+d) myfriend
+b
+3. What is the syntax of friend function?
+a) friend class1 Class2;
+b) friend class;
+c) friend class
+d) friend class()
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Box    {        double width;        public:        friend void printWidth( Box box );        void setWidth( double wid );    };    void Box::setWidth( double wid )    {        width = wid;    }    void printWidth( Box box )    {        box.width = box.width * 2;        cout << "Width of box : " << box.width << endl;    }    int main( )    {        Box box;        box.setWidth(10.0);        printWidth( box );        return 0;   }
+a) 40
+b) 5
+c) 10
+d) 20
+d
+Output:
+$ g++ friend.cpp
+$ a.out
+20
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class sample     {        int width, height;        public:        void set_values (int, int);        int area () {return (width * height);}        friend sample duplicate (sample);    };    void sample::set_values (int a, int b)     {        width = a;        height = b;    }    sample duplicate (sample rectparam)    {        sample rectres;        rectres.width = rectparam.width * 2;        rectres.height = rectparam.height * 2;        return (rectres);    }      int main ()      {        sample rect, rectb;        rect.set_values (2, 3);        rectb = duplicate (rect);        cout << rectb.area();        return 0;    }
+a) 20
+b) 16
+c) 24
+d) 18
+c
+Output:
+$ g++ friend1.cpp
+$ a.out
+24
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class sample;    class sample1     {        int width, height;        public:        int area ()        {            return (width * height);}            void convert (sample a);        };    class sample     {        private:        int side;        public:        void set_side (int a)        {             side = a;        }        friend class sample1;    };    void sample1::convert (sample a)     {        width = a.side;        height = a.side;    }    int main ()     {        sample sqr;        sample1 rect;        sqr.set_side(6);        rect.convert(sqr);        cout << rect.area();        return 0;    }
+a) 24
+b) 35
+c) 16
+d) 36
+d
+Output:
+$ g++ friend2.cpp
+$ a.out
+36
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class base    {        int val1, val2;        public:        int get()	{            val1 = 100;            val2 = 300;	}        friend float mean(base ob);    };    float mean(base ob)    {        return float(ob.val1 + ob.val2) / 2;    }    int main()    {        base obj;        obj.get();        cout << mean(obj);        return 0;    }
+a) 200
+b) 150
+c) 100
+d) 300
+a
+Output:
+$ g++ friend3.cpp
+$ a.out
+200
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class sample    {        private:        int a, b;        public:        void test()        {            a = 100;            b = 200;        }        friend int compute(sample e1);    };    int compute(sample e1)    {        return int(e1.a + e1.b) - 5;    }    int main()    {        sample e;        e.test();        cout  << compute(e);        return 0;    }
+a) 100
+b) 200
+c) 300
+d) 295
+d
+Output:
+$ g++ friend4.cpp
+$ a.out
+295
+9. Pick out the correct statement.
+a) A friend function may be a member of another class
+b) A friend function may not be a member of another class
+c) A friend function may or may not be a member of another class
+d) None of the mentioned
+c
+10. Where does keyword ‘friend’ should be placed?
+a) function declaration
+b) function definition
+c) main function
+d) block function
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Conversion Operators» Next - C++ Programming Questions and Answers – Friend Function 

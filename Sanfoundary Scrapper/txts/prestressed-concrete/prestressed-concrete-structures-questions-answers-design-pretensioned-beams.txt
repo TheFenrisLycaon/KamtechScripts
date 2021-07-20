@@ -1,0 +1,78 @@
+1. Design a pretensioned roof pull-in to suit the data Fcu, concrete cube strength = 50n/mm2, effective span = 6m, applied load = 5kn/m, dead load = 1.4, live load = 1.6, β = 0.125, k = 7.5, Dc = 2400, and determine ultimate moment and shear?
+a) 42 and 27.75
+b) 54 and 27.75
+c) 34 and 27.75
+d) 20 and 28
+a
+Fcu, concrete cube strength = 50n/mm2, effective span = 6m, applied load = 5kn/m, dead load = 1.4, live load = 1.6, β = 0.125, k = 7.5, Dc = 2400, fcu = 50n/mm2, wmin = (0.094)(9.25) = 0.86kn/m, mu = (0.125×9.25×62) = 42knm, vu = (0.5×9.25×6) = 27.75kn.
+2. Design cross sectional dimensions of pretensioned roof pull given that b is 0.5d?
+a) 250
+b) 260
+c) 270
+d) 280
+c
+D = (42×106x2/0.10×50)1/3 = 270mm.
+3. Find the approximate thickness of web if b is 0.5d, d is 270mm, d/h ratio is 0.85, h is 315mm, adopt effective depth, d = 275mm overall depth , h is 320mm, width of flange of 160mm and Average thickness of flange is 70mm since sloping flanges are used, increases the flange thickness by 20 percent?
+a) 45mm
+b) 43mm
+c) 41mm
+d) 42mm
+b
+Thickness of flange = (0.2×275) =55mm Approximate thickness of web = (0.85vu/fth) = (0.85×27.75×103/1.7×320) = 43mm.
+4. Find minimum range of stresses if fct is 15n/mm2, fcw is 17, ftw is zero, fu is -1n/mm2, ɳ is 0.8?
+a) 12 and 18n/mm2
+b) 13 and 14n/mm2
+c) 12 and 15n/mm2
+d) 10 and 16n/mm2
+a
+5. Find minimum section modulus given data is mg is 3.86×106, mq is 22.50×106, fbr is given as 12 and the loss ratio is 0.8?
+a) 134×104
+b) 182×104
+c) 123×104
+d) 120×104
+b
+Zb > or equal (mq+(1-ɳ)mg/fbr) > or equal ((22.50×106)+(1-0.8)3.86×106)/12)
+Greater than equal to 182x104mm3.
+6. Find the supporting force if given characteristic strength is -1, moment of gravity is 3.86×106, zt = 230×104?
+a) -2.68n/mm2
+b) -3.45n/mm2
+c) -1.23n/mm2
+d) 13.56n/mm2
+a
+Finf = ((ftw/ɳ+(mq+mg)/ɳzb)) = (0+ (26.36×106/0.8x230x104))
+Fsup = (fu – mg/zt) = (-1 – (3.86×106)/(230×104)) = -2.68n/mm2.
+7. Check for ultimate flexural strength if given Aps is 154mm2, fpu is 1600n/mm2, b is 160mm, fcu is 50n/mm2and diameter is 265mm?
+a) 9.65
+b) 0.116
+c) 3.442
+d) 2.345
+b
+(Apsfpu/bdfcu) = (154×1600/160x265x50) = 0.116.
+8. Find ultimate shear strength (check it for safe against shear failure) if vu is 27.75kn, Loss ratio is 0.8, prestressing force is 182000, area is 31400, breadth is 50 where height is 320, prestressing force is 1.7, fcp = 4.65, ft is 1.7?
+a) Safe
+b) Unsafe
+c) Zero
+d) Collapse
+a
+Vcw = 0.67bh(f12+0.8fcpft)1/2 = (0.67x50x320(1.72+0.8×4.65×1.7)1/2/103) = 33.2kn
+Vcw > Vu hence safe against shear failure.
+9. Check for deflection due to prestressing force if given data is Prestressing force is 182×103 eccentricity of cable is 105, Length of the cable is 1000, elastic modulus of concrete is 34×103, Moment of inertia is 3200×105?
+a) 9.4
+b) 4.5
+c) 6.8
+d) 9.8
+c
+PeL2/8EcI = (182×103x105x62x10002/8x34x103x3200x105) = 6.8mm.
+10. Find the deflection due to self weight given that ϕ = 1.6, Ee = 2.6Ece, elastic modulus of concrete is 34×103, gravity is given as 6, self weight is 0.76, Length of the cable is 1000, elastic modulus of concrete is 34×103 , Moment of inertia is 3200×105?
+a) 1.66mm
+b) 5.3mm
+c) 23.4mm
+d) 1.02mm
+d
+Deflection due to self weight g = (5gL4/384EcI) = (5×0.76×64x10004/384x34x103x3700x105) = 1.02mm.
+Sanfoundry Global Education & Learning Series – Prestressed Concrete Structures.
+To practice all areas of Prestressed Concrete Structures, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Prestressed Concrete Structures Questions and Answers – Estimation of Self Weight of Beams» Next - Prestressed Concrete Structures Questions and Answers – Design of Post Tensioned Beams 

@@ -1,0 +1,64 @@
+1. Which upgrade involves exporting existing data using mysqldump?
+a) inplace
+b) logical
+c) illogical
+d) system
+b
+2. Which upgrade involves shutting down the old MySQL version and replacing the old binaries?
+a) inplace
+b) logical
+c) illogical
+d) system
+a
+3. Slow shutdown can be performed by setting innodb_fast_shutdown to _____________
+a) 0
+b) -1
+c) 1
+d) 2
+a
+4. A procedure that involves REPAIR TABLE with the USE_FRM option must be done before upgrading.
+a) True
+b) False
+a
+5. The command to see the warning messages is ______________
+a) DISPLAY WARNINGS
+b) DISP WARNINGS
+c) DISP WARNING
+d) SHOW WARNINGS
+d
+6. What is the SQL mode to check for divide by zero error?
+a) STRICT_ALL_TABLES
+b) ERROR_FOR_DIVISION_BY_ZERO
+c) ERROR_DIVIDE_BY_ZERO
+d) ERROR_WHEN_DIVIDE_BY_ZERO
+b
+7. The mode used to turn on strict mode and all of the additional restrictions is _____________
+a) STRICT_ALL_TABLES
+b) ERROR_FOR_DIVISION_BY_ZERO
+c) TRADITIONAL
+d) ERROR_WHEN_DIVIDE_BY_ZERO
+c
+8. The number of values returned from a stored procedure can be _______________
+a) 0
+b) 1
+c) 2
+d) 3
+a
+9. How would a stored function named PI() written in the database ‘sampdb’ be called?
+a) PI()
+b) sampdb.PI()
+c) MySQL.PI()
+d) db.PI()
+b
+10. The privilege that must be given to the database to create a stored function or procedure is ____________
+a) CREATE ROUTINE
+b) CREATE METHOD
+c) CREATE FUNCTION
+d) CREATE PROCEDURE
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Running Multiple Servers» Next - MySQL Questions and Answers – Internal Security: Preventing Unauthorized Filesystem Access 

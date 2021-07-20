@@ -1,0 +1,64 @@
+1. Which of the following has the highest memory requirement?
+a) Heap
+b) Stack
+c) JVM
+d) Class
+c
+2. Where is a new object allocated memory?
+a) Young space
+b) Old space
+c) Young or Old space depending on space availability
+d) JVM
+a
+3. Which of the following is a garbage collection technique?
+a) Cleanup model
+b) Mark and sweep model
+c) Space management model
+d) Sweep model
+b
+4. What is -Xms and -Xmx while starting jvm?
+a) Initial; Maximum memory
+b) Maximum; Initial memory
+c) Maximum memory
+d) Initial memory
+a
+5. Which exception is thrown when java is out of memory?
+a) MemoryFullException
+b) MemoryOutOfBoundsException
+c) OutOfMemoryError
+d) MemoryError
+c
+6. How to get prints of shared object memory maps or heap memory maps for a given process?
+a) jmap
+b) memorymap
+c) memorypath
+d) jvmmap
+a
+7. What happens to the thread when garbage collection kicks off?
+a) The thread continues its operation
+b) Garbage collection cannot happen until the thread is running
+c) The thread is paused while garbage collection runs
+d) The thread and garbage collection do not interfere with each other
+c
+8. Which of the below is not a Java Profiler?
+a) JVM
+b) JConsole
+c) JProfiler
+d) Eclipse Profiler
+a
+9. Which of the below is not a memory leak solution?
+a) Code changes
+b) JVM parameter tuning
+c) Process restart
+d) GC parameter tuning
+c
+10. Garbage Collection can be controlled by a program?
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Constructor» Next - Java Questions & Answers – Overloading Methods & Argument Passing 

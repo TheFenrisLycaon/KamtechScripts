@@ -1,0 +1,75 @@
+1. PHP’s numerically indexed array begin with position ___________
+a) 1
+b) 2
+c) 0
+d) -1
+c
+2. Which of the following are correct ways of creating an array?
+i) state[0] = "karnataka";
+ii) $state[] = array("karnataka");
+iii) $state[0] = "karnataka";
+iv)  $state = array("karnataka");
+a) iii) and iv)
+b) ii) and iii)
+c) Only i)
+d) ii), iii) and iv)
+a
+3. What will be the output of the following PHP code?
+Join [email protected]
+    <?php    $states = array("Karnataka" => array    ("population" => "11,35,000", "capital" => "Bangalore"),    "Tamil Nadu" => array( "population" => "17,90,000",    "capital" => "Chennai") );    echo $states["Karnataka"]["population"];    ?>
+a) Karnataka 11,35,000
+b) 11,35,000
+c) population 11,35,000
+d) Karnataka population
+b
+4. Which of the following PHP function will return true if a variable is an array or false if it is not an array?
+a) this_array()
+b) is_array()
+c) do_array()
+d) in_array()
+b
+5. Which in-built function will add a value to the end of an array?
+a) array_unshift()
+b) into_array()
+c) inend_array()
+d) array_push()
+d
+6. What will be the output of the following PHP code?
+    <?php    $state = array ("Karnataka", "Goa", "Tamil Nadu",    "Andhra Pradesh");    echo (array_search ("Tamil Nadu", $state) );    ?>
+a) True
+b) 1
+c) False
+d) 2
+d
+7. What will be the output of the following PHP code?
+    <?php    $fruits = array ("apple", "orange", "banana");    echo (next($fruits));	    echo (next($fruits));    ?>
+a) orangebanana
+b) appleorange
+c) orangeorange
+d) appleapple
+a
+8. Which of the following function is used to get the value of the previous element in an array?
+a) last()
+b) before()
+c) prev()
+d) previous()
+c
+9. What will be the output of the following PHP code?
+    <?php    $fruits = array ("apple", "orange", array ("pear", "mango"),    "banana");    echo (count($fruits, 1));    ?>
+a) 3
+b) 4
+c) 5
+d) 6
+d
+10. Which function returns an array consisting of associative key/value pairs?
+a) count()
+b) array_count()
+c) array_count_values()
+d) count_values()
+c
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – In-Built Functions in PHP» Next - PHP Coding Questions and Answers – Arrays – 2 

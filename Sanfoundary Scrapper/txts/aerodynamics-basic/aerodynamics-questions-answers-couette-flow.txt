@@ -1,0 +1,86 @@
+1. What is an assumption made while considering Couette flow?
+a) Flow is unparallel
+b) No slip condition between two plates
+c) Flow is inviscid
+d) Both the plates are stationary
+b
+2. The two plate in Couette flow are kept at the same temperature.
+a) True
+b) False
+b
+3. Which of these phenomena results in viscous dissipation?
+a) Kinetic energy transformed into internal energy
+b) Acceleration of flow
+c) Temperature gradient
+d) Hot wall and cold wall case
+a
+4. What is a cold wall case?
+a) Heat flowing from fluid to wall
+b) Heat flowing from wall to fluid
+c) Reducing temperature of upper wall
+d) Reducing temperature of lower wall
+a
+5. Which of these laws is used to find the heat flux at a point in the fluid?
+a) Fourier law
+b) Fick’s law
+c) Newton’s law
+d) Kepler’s law
+a
+\(\dot {q}_y\) =  – k\(\frac {∂T}{∂y}\) 
+Where, heat flux is in the y – direction
+Minus sign indicates that the heat flows from high temperature to low temperature and thus \(\dot {q}_y\) is in opposite direction to the temperature gradient.
+6. Couette flow is a constant pressure flow.
+a) True
+b) False
+a
+\(\frac {∂p}{∂y}\) = 0
+From this equation, it is evident that the variation of pressure in y – direction is zero. Hence, pressure in Couette flow is constant.
+7. How does the velocity vary in case of incompressible Couette flow?
+a) Linear
+b) Parabolic
+c) No variation
+d) Hyperbolic
+a
+u = ue (\(\frac {y}{D}\))
+Where, ue is the velocity at y = D that is at the upper plate.
+According to the formula, the flow varies linearly across the flow field.
+8. What happens to the shear stress if the thickness between the two plates is increased in a Couette flow?
+a) Increases
+b) Decreases
+c) Remains same
+d) Becomes infinite
+b
+τ = μ(\(\frac {u_e}{D}\))
+Where, ue is the velocity at y = D that is at the upper plate.
+τ is the shear stress
+D is the thickness of the vicsous shear layer/distance between the two parallel plates
+As peer the formula, then the thickness of the viscous shear layer increases, the shear stress decreases provided the other properties remain the same.
+9. Which of these laws is obeyed by a Newtonian fluid?
+a) Shear stress law
+b) Newtonian law
+c) Incompressible fluid law
+d) Prandtl law
+a
+The shear stress law is given by:
+τ = μ(\(\frac {∂u}{∂y}\))
+This formula helps in obtaining the shear stress at any point in the fluid flow.
+10. Where does the maximum value of the temperature occurs in a Couette flow?
+a) Top plate
+b) Bottom plate
+c) Midpoint between the two plates
+d) No maximum temperature occurs
+c
+T = Tw + \(\frac {Pru_e^2}{2c_p} \big [\frac {y}{D} – \big ( \frac {y}{D} \big )^2 \big ] \) 
+Where, Tw is the temperature at y = 0 that is at the lower plate
+ue is the velocity at y = D that is at the upper plate.
+Pr is Prandtl number
+cp is coefficient of pressure
+D is the distance between the two plates
+According to this, the temperature in Couette flow varies parabolically in y – direction. The maximum temperature occurs at y = D/2 which is the midpoint between the two parallel plates.
+Tmax = Tw + \(\frac {Pru_e^2}{8c_p}\) 
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Hypersonics and Computational Fluid Dynamics» Next - Aerodynamics Questions and Answers – Boundary Layer Properties 

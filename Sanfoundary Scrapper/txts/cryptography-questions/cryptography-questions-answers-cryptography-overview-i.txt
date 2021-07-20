@@ -1,0 +1,150 @@
+1. In the elliptic curve group defined by y2= x3- 17x + 16 over real numbers, what is P + Q if P = (0,-4) and Q = (1, 0)?
+a) (15, -56)
+b) (-23, -43)
+c) (69, 26)
+d) (12, -86)
+a
+Q=(x2, y2)= (1,0)
+From the Addition formulae:
+ λ= (0-(-4)) / (1-0) = 4
+x3= = 16 – 0 – 1 = 15  and
+y3= 4(0 – 15) –(-4) = -56
+Thus R=P + Q = (15, -56).
+2. Bob selects E67(2, 3) as the elliptic curve over GF(p). He selects e1 = (2, 22) and d = 4.
+Then he calculates e2 = d × e1 and the publicly announces the tuple (E, e1, e2). Now, Alice wants to send the plaintext P = (24, 26) to Bob and she selects r = 2. What are C1 and C2?
+a) C1=(35,1) ; C2 =(21,44)
+b) C1=(44,21) ; C2 =(1,35)
+c) C1=(44,21) ; C2 =(44,21)
+d) C1=(21,44); C2 =(35,1)
+a
+C2=P + r × e2  ;  C2= (21, 44).
+3. For the point P (7, 0) defined in the curve E13(1, 1). What is –P?
+a) (7,1)
+b) (8,12)
+c) (8,1)
+d) (7,0)
+d
+4. Consider knapsack that weighs 23 that has been made from the weights of the superincreasing series {1, 2, 4, 9, 20, and 38}. Find the ‘n’.
+a) 011111
+b) 010011
+c) 010111
+d) 010010
+b
+		K=6,	V=23
+Starting from largest number:
+v5 > V	then				ϵ_5=0
+v4 < V	then V = V – v4 = 23 – 20 = 3	ϵ_4=1
+v3 > V	then				 ϵ_3=0
+v2>V	then 				ϵ_2=0
+v1 < V	then V = V – v1= 3 – 2 = 1	ϵ_1=1
+v0 =1	then V = V – v0= 1 – 1 = 0	 ϵ_0=1
+ 		n= ϵ_5 ϵ_4 ϵ_3 ϵ_2 ϵ_1 ϵ_0 = 010011.
+5. The plaintext message consist of single letters with 5-bit numerical equivalents from (00000)2 to (11001)2. The secret deciphering key is the superincreasing 5-tuple (2, 3, 7, 15, 31), m = 61 and a = 17. Find the ciphertext for the message “WHY”.
+a) C= (148, 143, 50)
+b) C= (148, 143, 56)
+c) C= (143, 148, 92)
+d) C= (148, 132,92)
+a
+{wi} = { 17×2 mod 61, 17×3 mod 61, 17×7 mod 61, 17×15 mod 61, 17×31 mod 61}
+{wi} = {34, 51, 58, 11, and 39}
+PlainText  	 In binary   	 Ci
+W- 22		10110		148
+H – 7		00111		143
+Y – 24		11000		50
+So that the ciphertext sent will be C= (148, 143, 50).
+6. Suppose that plaintext message units are single letters in the usual 26-letter alphabet with A-Z corresponding to 0-25. You receive the sequence of ciphertext message units 14, 25, 89. The public key is the sequence {57, 14, 3, 24, 8} and the secret key is b = 23, m = 61.
+Decipher the message. The Plain text is
+a) TIN
+b) INT
+c) KIN
+d) INK
+b
+Wi = {57, 14, 3, 24, 8}
+b = 23    and m = 61
+a = b-1 mod m
+61 = 2 x23 + 15
+23 = 1x 15 + 8		Therefore 1= 8 x 23 – 3 x 61
+15 = 1x 8 + 7			b-1 = 23-1= 8
+8 = 1x 7 + 1			a = 8
+v_i=a(-1) w_i mod m
+=bw_i  mod m
+v_i={ 30, 17, 8, 3, 1}
+Cipher text	V = bC mod m	Plaintext
+14	 23 x 14 mod 61 = 17 	01000 = 8 = I
+25	 23 x 25 mod 61 = 26 	01101 = 13 = N
+89	 23 x 89 mod 61 = 34	10011 = 19 = T.
+7. How many primitive roots does Z<19> have?
+a) 5
+b) 8
+c) 7
+d) 6
+d
+8. Find the order of group G= <Z7*, x>
+a) 6
+b) 4
+c) 3
+d) 5
+a
+G =  = { 1, 2, 3, 4, 5, 6 }
+9. Which among the following values:  17, 20, 38, and 50, does not have primitive roots in the group G = <Zn∗, ×>?
+a) 17
+b) 20
+c) 38
+d) 50
+b
+‘p’ is an odd prime and‘t’ is an integer.
+G = <Z17∗, ×> has primitive roots, 17 is a prime.
+G = <Z20∗, ×> has no primitive roots.
+G = <Z38∗, ×> has primitive roots, 38 = 2 × 19 prime.
+G = <Z50∗, ×> has primitive roots, 50 = 2 × 52 and 5 is a prime.
+10.Find the solution of x2≡3 mod 23
+a) x≡±16 mod 23
+b)  x≡±13 mod 23
+c)  x≡±22 mod 23
+d)  x≡±7 mod 23
+a
+x ≡ ±3(23 + 1)/4 (mod 23) ≡±16   i.e. x = 7 and 16
+11. In Elgamal cryptosystem, given the prime p=31.
+Encrypt the message “HELLO”; use 00 to 25 for encoding. The value of C2 for character ‘L’ is
+a) 12
+b) 07
+c) 20
+d) 27
+d
+P = “L” = 11;  C1 = 37 mod 31 = 17; C2 = 11 x 25 mod 31 = 27; C = (17,27).
+12. In Elgamal cryptosystem, given the prime p=31.
+What is the respective plaintext character for C = (27, 20)?
+a) H
+b) L
+c) O
+d) M
+a
+C = 17, 20); P = 20 X (1710)-1 mod 31 = 07;  “07” = “H”.
+13. For 1000 nodes in IP level, how many keys would be required?
+a) 499000
+b) 499500
+c) 500500
+d) 500000
+b
+14. “Meet in the middle attack” is an attack
+a) where the timing required for the attack via brute force is drastically reduced
+b) where the adversary uses 2 or more machines to decrypt thus trying to reduce the time
+c) where messages are intercepted and then either relayed or substituted with another message
+d) where cryptanalysis takes lesser time than the brute force decryption
+c
+15.  Which systems use a timestamp?
+i) Public-Key Certificates
+ii) Public announcements
+iii) Publicly available directories
+iv) Public-Key authority
+a) i) and ii)
+b) iii) and iv)
+c) i) and iv)
+d) iv) only
+c
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Cryptography Questions and Answers – Public Keys and X.509 Certificates-III» Next - Cryptography Questions and Answers – Overview – II 

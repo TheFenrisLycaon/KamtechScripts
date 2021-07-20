@@ -1,0 +1,73 @@
+1. The external interrupts of 8051 can be enabled by
+a) 4 LSBs of TCON register
+b) Interrupt enable
+c) priority register
+d) all of the mentioned
+d
+2. The bits that control the external interrupts are
+a) ET0 and ET1
+b) ET1 and ET2
+c) EX0 and EX1
+d) EX1 and EX2
+c
+3. EA bit is used to
+a) enable or disable external interrupts
+b) enable or disable internal interrupts
+c) enable or disable all the interrupts
+d) none of the mentioned
+c
+4. The number of priority levels that each interrupt of 8051 have is
+a) 1
+b) 2
+c) 3
+d) 4
+b
+5. The priority level of an interrupt of 8051 for which SI(serial interrupt) interrupt is programmed is
+a) level 0
+b) level 1
+c) level 0 or level 1
+d) none
+b
+6. The interrupt bit that when set works at level 1, and otherwise at level 0 is
+a) PT1
+b) PT0
+c) PX1
+d) All of the mentioned
+d
+7. All the interrupts at level 1 are polled in the second clock cycle of the
+a) forth T state
+b) fifth T state
+c) third T state
+d) none
+b
+8. The minimum duration of the active low interrupt pulse for being sensed without being lost must be
+a) greater than one machine cycle
+b) equal to one machine cycle
+c) greater than 2 machine cycles
+d) equal to 2 machine cycles
+b
+9. If two interrupts, of higher priority and lower priority occur simultaneously, then the service provided is for
+a) interrupt of lower priority
+b) interrupt of higher priority
+c) lower & higher priority interrupts
+d) none of the mentioned
+b
+10. For an interrupt to be guaranteed served it should have duration of
+a) one machine cycle
+b) three machine cycles
+c) two machine cycles
+d) four machine cycles
+c
+11. The service to an interrupt will be delayed if it appears during the execution of
+a) RETI instruction
+b) Instruction that writes to IE register
+c) Instruction that writes to IP register
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Interfacing With 8051 Ports -2» Next - Microprocessors Questions and Answers – Serial Communication Unit 

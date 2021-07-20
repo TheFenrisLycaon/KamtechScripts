@@ -1,0 +1,74 @@
+1. Find the volume of reactor needed for 70% conversion of A to product. Aqueous feed of A and B (200lit/min, 20mmolA/lit, 50mmolB/lit) is fed to MFR. Reaction kinetics is as follows
+A+B → P
+-rA = 200CACB mol/lit-min
+a) 12.5
+b) 3.6
+c) 6.4
+d) 1.5
+c
+CA0*XA = CB0*XB
+XB = \(\frac{20*0.7}{50}\) = 0.28
+\(\frac{τ}{CA0} = \frac{XA}{-rA}\) 
+τ = \(\frac{0.7*20*10^{-3}}{200*10^{-6}[20(1-0.7)*50(1-0.28)])}\) = 0.032 = \(\frac{V}{v0} \) 
+V = 0.032*200 = 6.4 lit.
+2. An existing MFR is to be replaced by the one 4 times larger than it. Find the new conversion if a homogeneous liquid phase reaction with reaction kinetics as follows.
+A → R
+-rA = kCA2 with 30% conversion.
+a) 0.67
+b) 0.45
+c) 0.53
+d) 0.92
+c
+\(\frac{τ}{CA0} = \frac{XA}{-rA} \) 
+\(\frac{V}{CA0 V0} = \frac{0.3}{k[ CA0(1-0.3)]^2} \) 
+\(\frac{V}{CA0 V0}\) = kτCA0 = 0.6122
+When replaced by new reactor
+\(\frac{4τ}{CA0} = \frac{XA}{-rA} \)  
+\(\frac{4Vk}{CA0 V0} = \frac{XA}{(1-XA)^2} \) 
+XA = 0.53.
+3. Replace the existing MFR with a PFR and calculate the new conversion if a homogeneous liquid phase reaction with reaction kinetics as follows.
+A → R
+-rA = kCA2 with 30% conversion
+a) 0.65
+b) 0.43
+c) 0.38
+d) 0.92
+c
+\(\frac{τ}{CA0} = \frac{XA}{-rA} \) 
+\(\frac{V}{CA0 V0} = \frac{0.3}{k[ CA0(1-0.3)]^2} \) 
+\(\frac{Vk}{CA0 V0} \) = kτCA0 = 0.6122
+ When replaced with a new PFR
+\(\frac{τ}{CA0} = \int_0^{XA} \frac{dXA}{-rA} \) 
+For 2nd order on Integration we get,
+kτCA0 = \(\frac{XA}{1-XA}\) = 0.6122
+XA = 0.38.
+4. Find the conversion of a 25 litre PFR if a gaseous feed of pure A (2 mol/lit, 150 mol/min)
+Is decomposed, kinetics are as follows.
+A → 2.5R
+-rA = (15min-1) CA
+a) 0.89
+b) 0.92
+c) 0.45
+d) 0.68
+b
+\(\frac{τ}{CA0} = \frac{V}{FA0}\) 
+τ = (25*2)/150 = 0.33 min
+For a 1st order reaction with variable volume on integration we get
+kτ = (1+εA)ln\((\frac{1}{1-XA})\) – εAXA
+15*0.33 = (1+1.5) ln\((\frac{1}{1-XA})\) – 1.5XA
+XA = 0.92.
+5. For a constant volume system, the size of batch reactor is _______________ PFR.
+a) smaller than
+b) larger than
+c) same as
+d) cannot be compared
+c
+For PFR, \(\frac{τ}{CA0} = \int_0^{XA}\frac{dXA}{-rA} \) 
+For Batch reactor, \(\frac{t}{CA0} = \int_0^{XA}\frac{dXA}{-rA} \) 
+ From the above equations it is clear that theoretically the element of fluid reacts for same length of time in PFR and Batch reactor. But shutdown time as to be considered for actual design.
+Sanfoundry Global Education & Learning Series – Chemical Reaction Engineering.
+To practice all areas of Chemical Reaction Engineering for Quizzes,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Chemical Reaction Engineering Questions and Answers – Conversion and Reactor Sizing – Problems on Ideal Reactors» Next - Chemical Reaction Engineering Questions and Answers – Choosing of Right Reactor Series or Connections (Maximum Profitability) 

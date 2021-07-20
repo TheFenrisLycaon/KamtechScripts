@@ -1,0 +1,86 @@
+1. What is the main function of (A/D) or ADC converter?
+a) Converts Digital to Analog Signal
+b) Converts Analog to Digital signal
+c) All of the mentioned
+d) None of the mentioned
+b
+2. What is the main function of (D/A) or DAC converter?
+a) Converts Digital to Analog Signal
+b) Converts Analog to Digital signal
+c) All of the mentioned
+d) None of the mentioned
+a
+3. The S/H is a digitally controlled analog circuit that tracks the analog input signal during the sample mode and then holds it fixed during the hold mode to the instantaneous value of the signal at the time the system is switched from the sample to the hold mode.
+a) True
+b) False
+a
+4. The time required to complete the conversion of Analog to Digital is ________ the duration of the hold mode of S/H.
+a) Greater than
+b) Equals to
+c) Less than
+d) Greater than or Equals to
+c
+5. In A/D converter, what is the time relation between sampling period T and the duration of the sample mode and the hold mode?
+a) Should be larger than the duration of sample mode and hold mode
+b) Should be smaller than the duration of sample mode and hold mode
+c) Should be equal to the duration of sample mode and hold mode
+d) Should be larger than or equals to the duration of sample mode and hold mode
+a
+6. In the practical A/D converters, what are the distortions and time-related degradations occur during the conversion process?
+a) Jitter errors
+b) Droops
+c) Nonlinear variations in the duration of the sampling aperture
+d) All of the mentioned
+d
+7. In the absence of an S/H, the input signal must change by more than one-half of the quantization step during the conversion, which may be an impractical constraint.
+a) True
+b) False
+b
+8. The noise power σn2 can be reduced by increasing the sampling rate to spread the quantization noise power over a larger frequency band (-Fs/2, Fs/2).
+a) True
+b) False
+a
+9. What is the process of down sampling called?
+a) Decimation
+b) Fornication
+c) Both Decimation & Fornication
+d) None of the mentioned
+a
+10. If the interpolation factor is I = 256, the A/D converter output can be obtained by averaging successive non-overlapping blocks of 128 bits.
+a) True
+b) False
+a
+11. The crosshatched areas gives two types of Quantization error in DM, they are?
+a) Slope-overload distortion
+b) Granular noise
+c) Slope-overload distortion & Granular noise
+d) None of the mentioned
+c
+12. The slope-overload distortion is avoided, if which of the following conditions satisfy?
+a) Min|dx(t)/d(t)| ≤ Δ/T
+b) Max|dx(t)/d(t)| ≤ Δ/T
+c) |dx(t)/d(t)| ≤Δ/T
+d) None of the mentioned
+b
+13. In DM, By increasing Δ, reduces the overload distortion but increases the granular noise, and vice versa.
+a) True
+b) False
+a
+14. Which of the following is the right way to reduce distortion in the DM?
+a) By setting up an integrator in front of DM
+b) By setting up an integrator behind the DM
+c) By setting up an integrator in the middle of DM
+d) None of the mentioned
+a
+15. What are the effects produced by Dm by setting up an integrator at the front of DM?
+a) Simplifies the DM decoder
+b) Increases correlation of the signal into the DM input
+c) Emphasizes the low frequencies of x(t)
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Oversampling A/D Converters» Next - Digital Signal Processing Questions and Answers – Sampling of Band Pass Signals 

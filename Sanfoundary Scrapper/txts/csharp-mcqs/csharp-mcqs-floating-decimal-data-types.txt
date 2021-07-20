@@ -1,0 +1,124 @@
+1. Select a convenient declaration and initialization of a floating point number:
+a) float somevariable = 12.502D
+b) float somevariable = (Double) 12.502D
+c) float somevariable = (float) 12.502D
+d) float somevariable = (Decimal)12.502D
+c
+float somevariable = (float)12.502D;
+ or
+Double somevariable = (Double)12.502D;
+2. Number of digits upto which precision value of float data type is valid?
+a) Upto 6 digit
+b) Upto 8 digit
+c) Upto 9 digit
+d) Upto 7 digit
+d
+3. Valid Size of float data type is?
+a) 10 Bytes
+b) 6  Bytes
+c) 4  Bytes
+d) 8  Bytes
+c
+4. Correct way to define a value 6.28 in a variable ‘pi’ where value cannot be modified?
+a) #define pi 6.28F
+b) pi = 6.28F
+c) const float pi = 6.28F
+d) 
+const float pi
+pi = 6.28F
+c
+5. What will be the correct set of C# code to display the value of given variable ‘c’ as ‘25.302’.
+a)
+   float a = (double) 12.502f;   float b = 12.80f;   float c;   c = (float) a + b;   Console.Writeline(c);   Console.ReadLine();
+b)
+   float a = 12.502D;   float b = 12.80f;   float c;   c = a + b;   Console.WriteLine(c);   Console.ReadLine();
+c)
+   double a = 12.502;   float b = 12.802f;   float c;   c = (float)a + b;   Console.WriteLine(c);   Console.ReadLine();
+d)
+   double a = (float) 12.502f;   float  b = 12.80f;   float  c;   c = a + b;   Console.WriteLine(c);   Console.ReadLine();
+c
+c = (float) a + b.
+  
+6. Minimum and Maximum range of values supported by ‘float’ data type are?
+a) 1.5 * 10-40 to 3.4 * 1038
+b) 1.5 * 10-45 to 3.4 * 1030
+c) 1.5 * 10-45 to 3.4 * 1038
+d) 1.5 * 10-45 to 3.4 * 1037
+c
+7. Select appropriate difference between decimal, float and double data type in C#?
+i) Float and Double are floating binary point types while decimal is a floating decimal point type.
+ii) Precision difference for float is '7' digit for double is '15' to '16' digit and for decimal is '28' to '29' digits.
+iii) Some values which cannot be exactly represented hence for those values float and double are more appropriate.
+a) i
+b) i, iii
+c) i, ii, iii
+d) ii, iii
+c
+8. Why does a float variable stop incrementing  at number ‘16777216’ in the following C# code?
+ float a = 0 ; while (true) {     a++;     if (a > 16777216)     break; }
+a) Sign and Exponent for ‘16777217’ is same as for ‘16777216’
+b) Mantissa is different for ‘16777216’ and ‘16777217’
+c) Sign and Exponent for ‘16777217’ is different from ‘16777216’
+d) None of the mentioned
+b
+sign = 0 (positive number)
+exponent = 24 (stored as 24 + 127 = 151 =  10010111)
+mantissa = . 0
+As 32 bits floating-point representation: 0 10010111 00000000000000000000000
+Therefore: Value = (+ 1) * 2 ^ 24 * (1. 0  + . 0) = 2 ^ 24 = 16777216
+Now let’s look at the number 16777217,  or exactly 224 + 1:
+sign and exponent are the same.
+Mantissa should have to be exactly 2-24 so that (+ 1) * 2 ^ 24 * (1. 0 + 2 ^-24) = 2 ^ 24 + 1 = 16777217 and here lies the  actual problem. The mantissa cannot have the value 2-24 because it only has 23 bits,  so the number 16777217 just cannot be represented with the accuracy of 32-bit floating points numbers.
+9. What will be the output of the following C# code?
+static void Main(string[] args){    int x = 1;    float y = 2. 4f;    short z = 1;    Console. WriteLine((float) x + y * z - (x + = (short) y) );    Console. ReadLine();}
+a) 0.4000004
+b) 0.4000023
+c) 0.0400021
+d) 0.4000001
+d
+Output :
+0.4000001
+ 
+10. A float occupies 4 bytes. If the hexadecimal equivalent of these 4 bytes are A,  B,  C and D, then when this float is stored in  memory in which of the following order do these bytes gets stored?
+a) ABCD
+b) DCBA
+c) 0 * ABCD
+d) Depends on big endian or little endian architecture
+d
+ABCD will be arranged in memory as follows:
+Base Address + 0 Byte 0.
+Base Address + 1 Byte 1.
+Base Address + 2 Byte 2.
+Base Address + 3 Byte 3.
+Intel processors (those used in PC’s) use “Little Endian” byte order.
+“Big Endian” means that the high-order byte of the number is stored in memory at the lowest address,  and the low-order byte at the highest address. The same 4 byte integer would be stored as:
+Base Address + 0 Byte 3.
+Base Address + 1 Byte 2.
+Base Address + 2 Byte 1.
+Base Address + 3 Byte 0.
+11. The Default value of Boolean Data Type is?
+a)  0
+b)  True
+c)  False
+d)  1
+c
+12. What will be the output of the following C# code?
+ public static void Main(string[] args) {     double ZERO = 0;     Console.WriteLine("RESULT OF DIVISION BY ZERO IS :{0}",  (0 / ZERO));     Console.ReadLine(); }
+a) 1
+b) exception argument is thrown
+c) NaN
+d) 0
+c
+13. Which of the following format specifiers is used to print hexadecimal values and return value of output as Octal equivalent in C#?
+a) %hx for small case letters and %HX for capital letters
+b) %x for small case letters and %X for capital letters
+c) No ease of doing it. C# don’t provides specifier like %x or %O to be used with ReadLine() OR WriteLine(). We have to write our own function
+d) %Ox for small case letters and %OX for capital letters
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all features of C# programming language,  here is complete set on 1000+ Multiple Choice Questions and Answers on C#.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Integer Data Types» Next - C# Questions & Answers – Char Types and String Literals 

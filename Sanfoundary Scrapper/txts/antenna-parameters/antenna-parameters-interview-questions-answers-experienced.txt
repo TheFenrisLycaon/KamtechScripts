@@ -1,0 +1,81 @@
+1. If the current input to the antenna is 100mA, then find the average power radiated from the half-wave dipole antenna?
+a) 365mW
+b) 0.356mW
+c) 0.365mW
+d) 356mW
+a
+Radiation resistance of a half-wave dipole is 73Ω.
+Given Im=100mA 	=> 	Pavg=\((\frac{100×10^{-3}}{\sqrt 2})^2×73=365mW.\)
+2. The average radiated power of half-wave dipole is given by ______
+a) \(73I_{rms}^2\) 
+b) \(36.5I_{rms}^2\) 
+c) \(13.25I_{rms}^2\) 
+d) \(146I_{rms}^2\) 
+a
+Average Power radiated from the half-wave dipole \(P_{avg}=I_{rms}^2 R=73I_{rms}^2\) 
+Radiation resistance of a quarter-wave monopole is 36.5Ω.
+3. If the power radiated by a quarter-wave monopole is 100mW then power radiated by a half wave dipole under same current input is _____
+a) 100W
+b) 100mW
+c) 200W
+d) 200mW
+d
+⇨	\(\frac{P_{avg-hlf}}{P_{avg\, mono}} = \frac{R_{hlf}}{R_{mono}} = \frac{73}{36.5}=2\) (under same current)
+⇨	Pavg-hlf = 2Pavg mono = 2*100mW=200mW
+4. Power radiated by a half wave dipole is how many times the power radiated by a quarter wave monopole under same input current to antennas?
+a) 2
+b) 3
+c) 4
+d) 1
+a
+⇨	\(\frac{P_{avg-hlf}}{P_{avg\, mono}} = \frac{R_{hlf}}{R_{mono}} = \frac{73}{36.5}=2\) (under same current)
+5. Find the magnetic field if the electric field radiated by the half-wave dipole is 60mV/m?
+a) 159μA/m
+b) 195μA/m
+c) 159mA/m
+d) 195mA/m
+a
+⇨	120π=60m/H
+⇨	H = 159μA/m
+Join Sanfoundry@YouTube
+6. In which of the following the power is radiated through a complete spherical surface?
+a) Half-wave dipole
+b) Quarter-wave Monopole
+c) Both Half-wave dipole & Quarter-wave Monopole
+d) Neither Half-wave dipole nor Quarter-wave Monopole
+a
+7. Find the power radiated from the half wave dipole at 2km away with magnetic field at point \(\theta=\frac{\pi}{2}\) is 10μA/m ?
+a) 0.576mW
+b) 0.576W
+c) 0.756W
+d) 0.675W
+b
+⇨ 10×10-6=\(\frac{I_m}{2\pi×2×10^3}(\frac{cos⁡(\frac{\pi}{2}cos\frac{\pi}{2})}{sin\frac{\pi}{2}})\) 
+⇨	Im=0.125A
+Now Average power radiated \(P_{avg}=I_{rms}^2 R=(\frac{I_m}{\sqrt 2})^2 R=(\frac{0.125}{\sqrt 2})^2 ×73×=0.576W\)
+8. For the same current, the power radiated by half-wave dipole is four times that of the radiation by quarter wave monopole.
+a) True
+b) False
+b
+9. If the power radiated by a half wave dipole is 100mW then power radiated by a quarter wave monopole under same current input is _____
+a) 50mW
+b) 200mW
+c) 100mW
+d) 50W
+a
+⇨	\(\frac{P_{avg-hlf}}{P_{avg\, mono}} = \frac{R_{hlf}}{R_{mono}} = \frac{73}{36.5}=2\) (under same current)
+\(P_{avg \,mono}=\frac{P_{avg-hlf}}{2}=\frac{100mW}{2}=50mW.\)
+10. If the power radiated by a quarter wave monopole is 100mW, then power radiated by a half wave dipole with doubled current is ______
+a) 800mW
+b) 400mW
+c) 200mW
+d) 100mW
+a
+⇨\(\frac{P_{avg-hlf}}{P_{avg\, mono}}=\frac{4I_{rms}^2 R_{hlf}}{I_{rms}^2 R_{mono}}=4*\frac{73}{36.5}=8\) (under same current)
+Pavg-hlf=8(Pavg mono)=800mW
+Sanfoundry Global Education & Learning Series – Antennas.
+To practice all areas of Antenna Parameters for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antenna Parameters Questions and Answers – Antenna Noise Temperature» Next - Antennas Questions and Answers – Half Power Beam Width 

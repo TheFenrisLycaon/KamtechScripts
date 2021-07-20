@@ -1,0 +1,64 @@
+This section on C programming questions and answers focuses on “Typedefs”. One shall practice these questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C programming questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C programming questions on “Typedefs” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    typedef struct student    {        char *a;    }stu;    void main()    {        struct stu s;        s.a = "hi";        printf("%s", s.a);    }
+a) Compile time error
+b) Varies
+c) hi
+d) h
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    typedef struct student    {        char *a;    }stu;    void main()    {        struct student s;        s.a = "hey";        printf("%s", s.a);    }
+a) Compile time error
+b) Varies
+c) he
+d) hey
+d
+3. What will be the output of the following C code?
+    #include <stdio.h>    typedef int integer;    int main()    {        int i = 10, *ptr;        float f = 20;        integer j = i;        ptr = &j;        printf("%d\n", *ptr);        return 0;    }
+a) Compile time error
+b) Undefined behaviour
+c) Depends on the standard
+d) 10
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    int (*(x()))[2];    typedef int (*(*ptr)())[2] ptrfoo;    int main()    {        ptrfoo ptr1;        ptr1 = x;        ptr1();        return 0;    }    int (*(x()))[2]    {        int (*ary)[2] = malloc(sizeof*ary);        return &ary;    }
+a) Compile time error
+b) Nothing
+c) Undefined behaviour
+d) Depends on the standard
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    int *(*(x()))[2];    typedef int **(*ptrfoo)())[2];    int main()    {        ptrfoo ptr1;        ptr1 = x;        ptr1();        return 0;    }    int *(*(x()))[2]    {        int (*ary)[2] = malloc(sizeof * ary);        return &ary;    }
+a) Compile time error
+b) Nothing
+c) Undefined behaviour
+d) Depends on the standard
+b
+6. What will be the output of the following C code?
+    #include <stdio.h>    typedef struct p    {        int x, y;    };    int main()    {        p k1 = {1, 2};        printf("%d\n", k1.x);    }
+a) Compile time error
+b) 1
+c) 0
+d) Depends on the standard
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    typedef struct p    {        int x, y;    }k = {1, 2};    int main()    {        p k1 = k;        printf("%d\n", k1.x);    }
+a) Compile time error
+b) 1
+c) 0
+d) Depends on the standard
+a
+8. What will be the output of the following C code?
+    #include <stdio.h>    typedef struct p    {        int x, y;    }k;    int main()    {        struct p p = {1, 2};        k k1 = p;        printf("%d\n", k1.x);    }
+a) Compile time error
+b) 1
+c) 0
+d) Depends on the standard
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Table Lookup – 2» Next - C Programming Questions and Answers – Typedefs – 2 

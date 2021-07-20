@@ -1,0 +1,67 @@
+1. Dimension of global stiffness matrix is _______
+a) N X N, where N is no of nodes
+b) M X N, where M is no of rows and N is no of columns
+c) Linear
+d) Eliminated
+a
+2. Each node has only _______
+a) Two degrees of freedom
+b) One degree of freedom
+c) Six degrees of freedom
+d) Three degrees of freedom
+b
+3. Global stiffness K is a______ matrix.
+a) Identity matrix
+b) Upper triangular matrix
+c) Lower triangular matrix
+d) Banded matrix
+d
+4. The dimension of Kbanded   is _____ (Here NBW is half bandwidth)
+a) [N X NBW ] 
+b) [NBW X N] 
+c) [N X N] 
+d) [NBW X NBW] 
+a
+5. In many one-dimensional problems, the banded matrix has only two columns. Here NBW=____
+a) 6
+b) 3
+c) 7
+d) 2
+d
+NBW=max(Difference between dof numbers connecting an element)+1
+6. Stiffness matrix represents a system of  ________
+a) Programming equations
+b) Iterative equations
+c) Linear equations
+d) Program CG SOLVING equations
+c
+7. Stiffness matrix is _____
+a) Non symmetric and square
+b) Symmetric and square
+c) Non symmetric and rectangular
+d) Symmetric and rectangular
+b
+8. In stiffness matrix, all the _____ elements are positive.
+a) Linear
+b) Zigzag
+c) Diagonal
+d) Rectangular
+c
+9. The size of global stiffness matrix will be equal to the total ______ of the structure.
+a) Nodes
+b) Degrees of freedom
+c) Elements
+d) Structure
+b
+10. Element stiffness is obtained with respect to its ___
+a) Degrees of freedom
+b) Nodes
+c) Axes
+d) Elements
+c
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – One Dimensional Problems – Assembly of the Global Stiffness Matrix and Load Vector» Next - Finite Element Method Questions and Answers – Finite Element Equations – Treatment of Boundary Conditions 

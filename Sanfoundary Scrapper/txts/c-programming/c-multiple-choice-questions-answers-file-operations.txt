@@ -1,0 +1,66 @@
+1. what is the function of fputs()?
+a) read a line from a file
+b) read a character from a file
+c) write a character to a file
+d) write a line to a file
+d
+int fputs(const char *str, FILE *stream);
+2. What does the following C code snippet mean?
+char *gets(char *s)
+a) reads the next input line into the array s
+b) writes the line into the array s
+c) reads the next input character into the array s
+d) write a character into the array
+a
+3. Which function will return the current file position for stream?
+a) fgetpos()
+b) fseek()
+c) ftell()
+d) fsetpos()
+c
+4.  Select the right explanation for the following C code snippet.
+int fgetpos(FILE *stream, fpos_t *s)
+a) records the current position in stream in *s
+b) sets the file position for stream in *s
+c) positions stream at the position recorded in *s
+d) reads from stream into the array ptr
+a
+5. Which  functions is declared in <errno. h>?
+a) fseek()
+b) ftell()
+c) ferror()
+d) fsetpos()
+c
+6. setvbuf() and setbuf() function controls buffering for the stream.
+a) true
+b) false
+a
+7. The functions vprintf(), vfprintf(), and vsprintf() are not equivalent to the corresponding printf() functions except  the variable argument list.
+a) true
+b) false
+b
+8. The______function reads atmost one less than the number of characters specified by size from the given stream and it is stored in the string str.
+a) fget()
+b) fgets()
+c) fput()
+d) fputs()
+b
+9. What does the following C code snippet mean?
+int ungetc(int c, FILE *stream)
+a) pushes c back onto a stream
+b) deletes c from the stream
+c) reads frequency of c in stream
+d) no action is taken by the command
+a
+10. Choose the correct difference between getc() and fgetc().
+a) If it is not a macro, it may evaluate stream more than once
+b) if it is amacro, it may not evaluate stream more than once
+c) if it is a macro, it may evaluate stream more than once
+d) no difference between fgetc() and getc()
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – File Operations – 1» Next - C Programming Questions and Answers – Float Datatype – 1 

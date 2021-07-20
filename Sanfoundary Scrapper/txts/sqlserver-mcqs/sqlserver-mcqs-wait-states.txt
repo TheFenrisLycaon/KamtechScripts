@@ -1,0 +1,66 @@
+1. Which of the following requires VIEW SERVER STATE permission on the server?
+a) sys.dm_os_states
+b) sys.dm_os_wait_stats
+c) sys.dm_os_wait_states
+d) none of the mentioned
+b
+2. Point out the correct statement.
+a) 510: CXPACKET indicates parallelism
+b) SQL Server does not always waits for something, a disk io, a place in the processor queue, a lock
+c) Few variations of PAGEIOLATCH waits usually indicate a problem with the disk subsystem
+d) All of the mentioned
+a
+3. How many types of wait occur in SQL Server?
+a) 2
+b) 3
+c) 4
+d) 5
+b
+4. The contents of sys.dm_os_wait_stats can be reset by running which of the following command?
+a) DBCC PERF (‘sys.dm_os_wait_stats’, CLEAR);
+b) DBCC SQLP (‘sys.dm_os_wait_stats’, CLEAR);
+c) DBCC SQLPERF (‘sys.dm_os_wait_stats’, CLEAR);
+d) None of the mentioned
+c
+5. Point out the wrong statement.
+a) LCK_M_XX wait is often a symptom of blocking
+b) PAGELATCH_XX wait occurs when SQL Server is attempting to latch a page in memory
+c) Few variations of PAGEIOLATCH waits usually indicate a problem with the disk subsystem
+d) All of the mentioned
+c
+6. ______ waits occur when a worker requests access to a resource that is not available because the resource is being used by some other worker or is not yet available.
+a) Resource
+b) Queue
+c) Lock
+d) External
+a
+7. Which of the following wait occurs when a task is waiting for I/Os to finish?
+a) ASYNC_NETWORK_IO
+b) AUDIT_LOGINCACHE_LOCK
+c) AUDIT_ON_DEMAND_TARGET_LOCK
+d) AUDIT_XE_SESSION_MGR
+a
+8. When does BROKER_TO_FLUSH wait type event occur?
+a) When the Service Broker queue task handler tries to shut down the task
+b) When the Service Broker transmitter is waiting for work
+c) When the Service Broker lazy flusher flushes the in-memory transmission objects to a work table
+d) All of the mentioned
+c
+9. Which of the following wait type is for internal use only?
+a) ASYNC_NETWORK_IO
+b) AUDIT_LOGINCACHE_LOCK
+c) HADR_DBR_SUBSCRIBER_FILTER_LIST
+d) AUDIT_XE_SESSION_MGR
+c
+10. _____________ wait type applies to SQL Server 2014 only.
+a) LCK_M_U_ABORT_BLOCKERS
+b) HADR_WORK_QUEUE
+c) HADR_XRF_STACK_ACCESS
+d) HADR_WORK_POOL
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Profiling» Next - SQL Server Questions and Answers – Extended Events 

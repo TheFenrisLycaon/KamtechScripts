@@ -1,0 +1,317 @@
+1. Solve the given equations using Gauss Jordan method.
+
+x + 2y + 6z = 66
+3x + 4y + z = 78
+6x - y - z = 57
+a) x=4, y=3, z=2
+b) x=13, y=6, z=9
+c) x=12, y=9, z=6
+d) x=4, y=2, z=3
+c
+\(\begin{bmatrix}
+1 & 2 & 6\\
+3 & 4 & 1\\
+6 & -1 & -1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+66\\
+78\\
+57\\
+\end{bmatrix} \) 
+By R2-3R1 and R3-6R1
+-2R3 and -13R2
+R3-R2 and R2/13, R3/(-147)
+R1-R2 and R1+11R3, R2-117R3
+ (1/2)R2
+\(\begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+12\\
+9\\
+6\\
+\end{bmatrix} \) 
+Hence x=12, y=9, z=6. 
+2. Solve the given equations using Gauss Jordan method.
+
+3x+6y+18z=22
+9x+12y+3z=26
+18x-3y-3z=19
+a) x=1.33, y=1.33, z=0.67
+b) x=1.33, y=0.67, z=0.67
+c) x=1.33, y=1, z=0.67
+d) x=1.33, y=1, z=1
+c
+\(\begin{bmatrix}
+3 & 6 & 18\\
+9 & 12 & 3\\
+18 & -3 & -3\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+22\\
+26\\
+19\\
+\end{bmatrix} \) 
+By R2-3R1 and R3-6R1
+-2R3 and -13R2
+R3-R2 and R2/13, R3/(-147)
+R1-R2 and R1+11R3, R2-117R3
+ (1/2)R2
+\(\begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+1.33\\
+1\\
+0.67\\
+\end{bmatrix} \) 
+Hence x=1.33, y=1, z=0.67. 
+3. Solve the given equations using Gauss Jordan method.
+
+3x+3y+3z=9
+6x-9y+12z=13
+9x+12y+15z=40
+Join Sanfoundry@YouTube
+a) x=0.33, y=1.67, z=1
+b) x=1.67, y=1, z=0.33
+c) x=1, y=0.33, z=1.67
+d) x=0.33, y=1, z=1.67
+d
+\(\begin{bmatrix}
+3 & 3 & 3\\
+6 & -9 & 12\\
+9 & 12 & 15\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+9\\
+13\\
+40\\
+\end{bmatrix} \) 
+By R2-2R1 and R3-3R1
+5R3 and -R2
+R3-R2 and R2+(1/6) R3, (1/12)R3
+(1/2)R2
+R1-R2-R3
+\(\begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+0.33\\
+1\\
+1.67\\
+\end{bmatrix} \) 
+Hence x=0.33, y=1, z=1.67. 
+4. Solve the given equations using Gauss Jordan method.
+
+x + 4y + 5z = 25
+2x - 3y + z = -1
+3x - 4y + z = 2
+a) x=8.7, y=5.7, z=-1.3
+b) x=8.7, y=-1.3, z=5.7
+c) x=-1.3, y=5.7, z=8.7
+d) x=5.7, y=8.7, z=-1.3
+a
+\(\begin{bmatrix}
+1 & 4 & 5\\
+2 & -3 & 1\\
+3 & -4 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+25\\
+-1\\
+2\\
+\end{bmatrix} \) 
+By R2-2R1 and R3-3R1
+\(\begin{bmatrix}
+1 & 4 & 5\\
+0 & -11 & -9\\
+0 & -16 & -14\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+25\\
+-51\\
+-73\\
+\end{bmatrix} \) 
+-R3 and -R2, 16R2 and 11R1
+\(\begin{bmatrix}
+1 & 4 & 5\\
+0 & 176 & 144\\
+0 & 176 & 154\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+25\\
+816\\
+803\\
+\end{bmatrix} \) 
+R3-R2 and (1/16)R2
+\(\begin{bmatrix}
+1 & 4 & 5\\
+0 & 11 & 9\\
+0 & 0 & 10\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+25\\
+51\\
+-13\\
+\end{bmatrix} \) 
+R2-(9/10)R3 and R1-(1/2)R3
+\(\begin{bmatrix}
+1 & 4 & 0\\
+0 & 11 & 0\\
+0 & 0 & 10\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+63/2\\
+627/10\\
+-13\\
+\end{bmatrix} \) 
+R1-(4/11)R2, (1/11)R1 and (1/10)R3
+\(\begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+8.7\\
+5.7\\
+-1.3\\
+\end{bmatrix} \) 
+Hence x=8.7, y=5.7, z=-1.3.
+5. Solve the given equations using Gauss Jordan method.
+
+x+y+z=7.5
+2x+3y+z=15
+3x-2y+2z=4.5
+a) x=3, y=1.5, z=1.5
+b) x=3, y=1.5, z=1.5
+c) x=1.5, y=3, z=1.5
+d) x=1.5, y=3, z=3
+d
+x+y+z=7.5.…………….(i)
+2x+3y+z=15….……….(ii)
+3x-2y+2z=4.5…………(iii)
+To eliminate x, subtract 2 times (i) from (ii) and 3 times (i) from (iii).
+x+y+z=7.5…………….(iv)
+y-z=0………………….(v)
+-5y-z=-18……………(vi)
+To eliminate y, subtract (v) from (iv) and add 5 times (v) to (vi).
+x+2z=7.5…………….(vii)
+y-z=0…………………(viii)
+-6z=-18………………(ix)
+To eliminate z add 1/3 times (ix) to (vii) and subtract 1/6 times (ix) from (viii).
+Hence x=1.5, y=3, z=3.
+6. Which of these methods is named after the mathematician Carl Friedrich Gauss?
+a) Secant method
+b) Newton Raphson method
+c) Runge Kutta method
+d) Gauss Jordan method
+d
+7. Which of the following transformations are allowed in Gauss Jordan method?
+a) Swapping a row
+b) Swapping a column
+c) Swapping two rows
+d) Swapping two columns
+c
+8. The Gauss Jordan method reduces a original matrix into a _____________
+a) Identity matrix
+b) Null matrix
+c) Skew Hermitian matrix
+d) Non-symmetric matrix
+a
+9. Which of the following methods is used for obtaining the inverse of matrix?
+a) Gauss Seidel method
+b) Newton Raphson method
+c) Gauss Jordan method
+d) Secant Method
+c
+10. Solve the given equations using Gauss Jordan method.
+
+2x+y-z=8
+-3x-y+2z=-11
+-2x+y+2z=-3
+a) x=2, y=3, z=-1
+b) x=2, y=-1, z=3
+c) x=2, y=-1, z=4
+d) x=3, y=3, z=-1
+a
+\(\begin{bmatrix}
+2 & 1 & -1\\
+-3 & -1 & 2\\
+-2 & 1 & 2\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+8\\
+-11\\
+-3\\
+\end{bmatrix} \) 
+By,
+R1/2
+3R1+R2 and 2R1+R3
+2R2
+-(1/2)R2+R1 and -2R2+R3
+R3+R2, -R3+R1 and –R3
+\(\begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \) \( \begin{bmatrix}
+x\\
+y\\
+z\\
+\end{bmatrix}\) = \( \begin{bmatrix}
+2\\
+3\\
+-1\\
+\end{bmatrix} \) 
+Hence x=2, y=3, z=-1.
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Analysis for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Numerical Analysis Questions and Answers – Gauss Jordan Method – 1» Next - Matrix Inversion Questions and Answers – Gauss Jordan Method – 3 

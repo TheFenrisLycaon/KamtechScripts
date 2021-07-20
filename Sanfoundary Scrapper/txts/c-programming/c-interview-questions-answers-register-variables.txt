@@ -1,0 +1,61 @@
+This section on C interview questions and answers focuses on “Register Variables”. One shall practice these interview questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C Interview questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C interview questions on “Register Variables” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        register int i = 10;        int *p = &i;        *p = 11;        printf("%d %d\n", i, *p);    }
+a) Depends on whether i is actually stored in machine register
+b) 10 10
+c) 11 11
+d) Compile time error
+d
+2. register keyword mandates compiler to place it in machine register.
+a) True
+b) False
+c) Depends on the standard
+d) None of the mentioned
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        register static int i = 10;        i = 11;        printf("%d\n", i);    }
+a) 10
+b) Compile time error
+c) Undefined behaviour
+d) 11
+b
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        register auto int i = 10;        i = 11;        printf("%d\n", i);    }
+a) 10
+b) Compile time error
+c) Undefined behaviour
+d) 11
+b
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        register const int i = 10;        i = 11;        printf("%d\n", i);    }
+a) 10
+b) Compile time error
+c) Undefined behaviour
+d) 11
+b
+6. Register storage class can be specified to global variables.
+a) True
+b) False
+c) Depends on the compiler
+d) Depends on the standard
+b
+7. Which among the following is wrong for “register int a;”?
+a) Compiler generally ignores the request
+b) You cannot take the address of this variable
+c) Access time to a is critical
+d) None of the mentioned
+d
+8. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        register int x = 5;        m();        printf("x is %d", x);    }    void m()    {        x++;    }
+a) 6
+b) 5
+c) Junk value
+d) Compile time error
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Static Variables – 2» Next - C Programming Questions and Answers – Register Variables – 2 

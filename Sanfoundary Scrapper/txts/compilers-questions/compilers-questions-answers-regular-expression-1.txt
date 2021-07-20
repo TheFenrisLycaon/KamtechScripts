@@ -1,0 +1,43 @@
+1. A regular expression enables a quick test to determine objects and text strings with undependable values.
+a) True
+b) False
+a
+2. RE can be used only for values of type string and number.
+a) True
+b) False
+b
+3. You can use RE, if you expect the value of a property to change in an unpredictable way each time its run.
+a) True
+b) False
+b
+4. All ___________ are automatically treated as regular expressions.
+a) Programmatic description
+b) Window
+c) Win Object
+d) Collection
+a
+5. If a ‘/’ is used before a character that has no special meaning, ‘/’ is ignored.
+a) True
+b) False
+a
+6. The regular expression denotes a language comprising all possible strings of even length over the alphabet (0, 1).
+a) 1 + 0(1+0)*
+b) (0+1) (1+0)*
+c) (1+0)
+d) (00+0111+10)*
+d
+Option (0+1) (1+0)* → It can so happen here that from the former bracket it takes 0 or 1 and takes null from the latter then it forms a string of odd length
+Option (1+0) → It gives either 1 or 0.
+Hence Option (00+0111+10)* is the answer.
+7. The RE gives none or many instances of an x or y is?
+a) (x+y)
+b) (x+y)*
+c) (x* + y)
+d) (xy)*
+b
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – Lexical Analysis – 2» Next - Compilers Questions and Answers – Regular Expression – 2 

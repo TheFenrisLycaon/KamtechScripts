@@ -1,0 +1,99 @@
+1. The effect of round off errors due to the multiplications performed in the DFT with fixed point arithmetic is known as Quantization error.
+a) True
+b) False
+a
+2. What is the model that has been adopt for characterizing round of errors in multiplication?
+a) Multiplicative white noise model
+b) Subtractive white noise model
+c) Additive white noise model
+d) None of the mentioned
+c
+3. How many quantization errors are present in one complex valued multiplication?
+a) One
+b) Two
+c) Three
+d) Four
+d
+4. What is the total number of quantization errors in the computation of single point DFT of a sequence of length N?
+a) 2N
+b) 4N
+c) 8N
+d) 12N
+b
+5. What is the range in which the quantization errors due to rounding off are uniformly distributed as random variables if Δ=2-b?
+a) (0,Δ)
+b) (-Δ,0)
+c) (-Δ/2,Δ/2)
+d) None of the mentioned
+c
+6. The 4N quantization errors are mutually uncorrelated.
+a) True
+b) False
+a
+7. The 4N quantization errors are correlated with the sequence {x(n)}.
+a) True
+b) False
+b
+8. How is the variance of the quantization error related to the size of the DFT?
+a) Equal
+b) Inversely proportional
+c) Square proportional
+d) Proportional
+d
+The variance of the quantization errors from the 4N multiplications is 4N. 2-2b/12=2-2b(N/3).
+Thus the variance of the quantization error is directly proportional to the size of the DFT.
+9. Every fourfold increase in the size N of the DFT requires an additional bit in computational precision to offset the additional quantization errors.
+a) True
+b) False
+a
+10. What is the variance of the output DFT coefficients |X(k)|?
+a) \(\frac{1}{N}\) 
+b) \(\frac{1}{2N}\) 
+c) \(\frac{1}{3N}\) 
+d) \(\frac{1}{4N}\) 
+c
+Now the variance of the output DFT coefficients |X(k)|=N.\(\frac{1}{3N^2} = \frac{1}{3N}\).
+11. What is the signal-to-noise ratio?
+a) σX2.σq2
+b) σX2/σq2
+c) σX2+σq2
+d) σX2-σq2
+b
+12. How many number of bits are required to compute the DFT of a 1024 point sequence with a SNR of 30db?
+a) 15
+b) 10
+c) 5
+d) 20
+a
+10log10(σX22/σq2)=10 log1022b-20
+For an SNR of 30db, we have
+3(2b-20)=30=>b=15 bits.
+Note that 15 bits is the precision for both addition and multiplication.
+13. How many number of butterflies are required per output point in FFT algorithm?
+a) N
+b) N+1
+c) 2N
+d) N-1
+d
+14. What is the value of the variance of quantization error in FFT algorithm, compared to that of direct computation?
+a) Greater
+b) Less
+c) Equal
+d) Cannot be compared
+c
+4(N-1)(Δ2/12)=N(Δ2/3)(approximately)
+Thus, the variance of quantization error due to FFT algorithm is equal to the variance of the quantization error due to direct computation.
+15. How many number of bits are required to compute the FFT of a 1024 point sequence with a SNR of 30db?
+a) 11
+b) 10
+c) 5
+d) 20
+a
+=>3(2b-11)=30
+=>b=21/2=11 bits.
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Linear Filtering Approach to Computation of DFT» Next - Digital Signal Processing Questions and Answers – Structures for Realization of Discrete Time Systems 

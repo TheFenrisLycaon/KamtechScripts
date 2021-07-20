@@ -1,0 +1,66 @@
+1. In order to maintain transactional integrity and database consistency, what technology does a DBMS deploy?
+a) Triggers
+b) Pointers
+c) Locks
+d) Cursors
+c
+2. A lock that allows concurrent transactions to access different rows of the same table is known as a
+a) Database-level lock
+b) Table-level lock
+c) Page-level lock
+d) Row-level lock
+d
+3. Which of the following are introduced to reduce the overheads caused by the log-based recovery?
+a) Checkpoints
+b) Indices
+c) Deadlocks
+d) Locks
+a
+4. Which of the following protocols ensures conflict serializability and safety from deadlocks?
+a) Two-phase locking protocol
+b) Time-stamp ordering protocol
+c) Graph based protocol
+d) None of the mentioned
+b
+5. Which of the following is the block that is not permitted to be written back to the disk?
+a) Dead code
+b) Read only
+c) Pinned
+d) Zapped
+c
+6. If transaction Ti gets an explicit lock on the file Fc in exclusive mode, then it has an ­­­­­­__________ on all the records belonging to that file.
+a) Explicit lock in exclusive mode
+b) Implicit lock in shared mode
+c) Explicit lock in shared mode
+d) Implicit lock in exclusive mode
+d
+7. Which refers to a property of computer to run several operation simultaneously and possible as computers await response of each other
+a) Concurrency
+b) Deadlock
+c) Backup
+d) Recovery
+a
+8. All lock information is managed by a __________ which is responsible for assigning and policing the locks used by the transactions.
+a) Scheduler
+b) DBMS
+c) Lock manager
+d) Locking agent
+c
+9. The ____ lock allows concurrent transactions to access the same row as long as they require the use of different fields within that row.
+a) Table-level
+b) Page-level
+c) Row-level
+d) Field-level
+d
+10. Which of the following is a procedure for acquiring the necessary locks for a transaction where all necessary locks are acquired before any are released?
+a) Record controller
+b) Exclusive lock
+c) Authorization rule
+d) Two phase lock
+d
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Transactions as SQL Statements» Next - Database Questions and Answers – Deadlocks 

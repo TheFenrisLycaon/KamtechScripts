@@ -1,0 +1,74 @@
+This section on C++ interview questions and answers focuses on “References”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “References” along with answers, explanations and/or solutions: 
+1. Which value can we not assign to reference?
+a) integer
+b) floating
+c) unsigned
+d) null
+d
+2. Identify the incorrect statement.
+a) Reference is the alternate name of the object
+b) A reference value once defined can be reassigned
+c) A reference value once defined cannot be reassigned
+d) Reference is the alternate name of the variable
+b
+3. Which reference modifier is used to define the reference variable?
+a) &
+b) $
+c) #
+d) @
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void swap(int &a, int &b);    int main()    {        int a = 5, b = 10;        swap(a, b);        cout << "In main " << a << b;        return 0;    }    void swap(int &a, int &b)    {        int temp;        temp = a;        a = b;        b = temp;        cout << "In swap " << a << b;    }
+a) In swap 105 In main 105
+b) In swap 105 In main 510
+c) In swap 510 In main 105
+d) In swap 510 In main 510
+a
+Output:
+$ g++ ref.cpp
+$ a.out
+In swap 105 In main 105
+5. What does a reference provide?
+a) Alternate name for the class
+b) Alternate name for the variable
+c) Alternate name for the pointer
+d) Alternate name for the object
+b
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int a = 9;        int & aref = a;        a++;        cout << "The value of a is " << aref;        return 0;    }
+a) 9
+b) 10
+c) error
+d) 11
+b
+$ g++ ref1.cpp
+$ a.out
+10
+ 
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void print (char * a)    {        cout << a << endl;    }    int main ()    {        const char * a = "Hello world";        print(const_cast<char *> (a) );        return 0;    }
+a) Hello world
+b) Hello
+c) world
+d) compile time error
+a
+Output:
+$ g++ ref2.cpp
+$ a.out
+Hello world
+ 
+8. Identify the correct sentence regarding inequality between reference and pointer.
+a) we can not create the array of reference
+b) we can create the Array of reference
+c) we can use reference to reference
+d) we can use variable
+a
+int &arr[] = {&a, &b, &c};
+This will give an error. 
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Constants» Next - C++ Programming Questions and Answers – References – 2 

@@ -1,0 +1,93 @@
+This section on C++ language interview questions and answers focuses on “Modifying Sequence Algorithms”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ language interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ language interview questions on “Modifying Sequence Algorithms” along with answers, explanations and/or solutions:
+1. What is the use of middle parameter in the rotate method?
+a) Marks the begining of a sequence
+b) Marks the ending of a sequence
+c) Marks the elements in a sequence
+d) Marks the digits in a sequence
+c
+2. What kind of object is modifying sequence algorithm?
+a) Function template
+b) Class template
+c) Method
+d) Iterator
+a
+3. How the sequence of objects can be accessed?
+a) Iterators
+b) Pointers
+c) Both Iterators & Pointers
+d) Library
+c
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    int main ()     {        vector<int> myvector (5);        fill (myvector.begin(), myvector.begin() + 4, 5);        fill (myvector.begin() + 3,myvector.end() - 2, 8);        for (vector<int> :: iterator it = myvector.begin();            it != myvector.end(); ++it)        cout << ' ' << *it;        return 0;    }
+a) 5 5 5 5 0
+b) 8 8 8 8 0
+c) 5 8 5 8 0
+d) 5 5 5 5 5
+a
+Output:
+$ g++ msa.cpp
+$ a.out
+5 5 5 5 0
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    int main ()    {        int myints[]={ 10, 20, 30, 40, 50 };        vector<int> myvector (4, 99);        iter_swap(myints, myvector.begin());        iter_swap(myints + 3,myvector.begin() + 2);        for (vector<int> :: iterator it = myvector.begin();             it != myvector.end(); ++it)        cout << ' ' << *it;        return 0;    }
+a) 10
+b) 10 40
+c) 10 99 40 99
+d) 99 40 10
+c
+Output:
+$ g++ msa1.cpp
+$ a.out
+10 99 40 99
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    #include <functional>    using namespace std;    int op_increase (int i)    {        return ++i;    }    int main ()    {        vector<int> a;        vector<int> b;        for (int i = 1; i < 4; i++)        a.push_back (i * 10);        b.resize(a.size());        transform (a.begin(), a.end(), b.begin(), op_increase);        transform (a.begin(), a.end(), b.begin(), a.begin(), plus<int>());        for (vector<int> :: iterator it = a.begin(); it != a.end(); ++it)            cout << ' ' << *it;        return 0;    }
+a) 21
+b) 41
+c) 61
+d) 21 41 61
+d
+Output:
+$ g++ msa2.cpp
+$ a.out
+21 41 61
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    using namespace std;    int main ()    {        int myints[] = { 10, 20, 30, 30, 20, 10, 10, 20 };        int* pbegin = myints;        int* pend = myints + sizeof(myints) / sizeof(int);        pend = remove (pbegin, pend, 20);        for (int* p = pbegin; p != pend; ++p)            cout << ' ' << *p;        return 0;    }
+a) 10 20 30
+b) 10 30 30 10 10
+c) 10 20 30 30
+d) 40 20 10 20
+b
+Output:
+$ g++ msa3.cpp
+$ a.out
+10 30 30 10 10
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    int main ()     {        int myints[] = { 10, 20, 30 ,40 };        int * p;        p = find (myints, myints + 4, 30);        --p;        cout << *p << '\n';        return 0;    }
+a) 10
+b) 20
+c) 30
+d) 40
+b
+Output:
+$ g++ msa4.cpp
+$ a.out
+20
+9. How many kind of operation can be applied to transform method in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+10. What operator is used to remove the dupplicates in the range?
+a) )
+b) ^
+c) %
+d) ==
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Non Modifying Sequence Algorithms» Next - C++ Programming Questions and Answers – Stored Sequences 

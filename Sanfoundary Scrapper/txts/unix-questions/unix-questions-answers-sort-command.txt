@@ -1,0 +1,127 @@
+1. ____ command is used for sorting a file on specified fields.
+a) cut
+b) sort
+c) pr
+d) tail
+b
+$ sort emp.lst
+2. By default, sort command reorders lines in ASCII collating sequence.
+a) True
+b) False
+a
+3. Sort command uses ____ as default field delimiter.
+a) tab
+b) single space
+c) double tab
+d) one or more continuous spaces
+d
+4. Which option is used with sort command to specify the field delimiter?
+a) -a
+b) -t
+c) -k
+d) -n
+b
+$ sort -t “|” file01
+1243|Abd    |01 |98%
+2345|Ryan |03 |76%
+2390|Mash  |10 |65%
+ 
+5. Which option is used for sorting a file according to primary key?
+a) -t
+b) -k
+c) -n
+d) -n
+b
+$ sort -t “|” -k 2  file01
+1243|Abd    |01 |98%
+2345|Mash |10 |65%
+2390|Ryan  |03 |76%
+6. The sort order can be reversed using ___ option.
+a) -t
+b) -k
+c) -r
+d) -n
+c
+$ sort -t “|” -k 2r  file01
+2390|Ryan  |03 |76%
+2345|Mash |10 |65% 
+1243|Abd    |01 |98%
+7. We can perform sorting on secondary key also using sort command.
+a) True
+b) False
+a
+$ sort -t “|” -k 3,3  -k 2,2   shortlist
+This command will sort the file according to the second and third field. 3,3 indicates that sorting starts and end on the third field. 
+8. We cannot perform sorting on columns using sort command.
+a) True
+b) False
+b
+$ sort -t “|”  -k  6.1,6.2 shortlist        // sort according to the first two digits of salary.
+// here salary is the 6th field. 
+9. Which option is used when we’ve to sort files containing only numbers?
+a) -n
+b) -a
+c) -d
+d) -u
+a
+$ sort  numfile                // without using -n
+10
+2
+27
+4
+$ sort  -n numfile            // using -n
+2
+4
+10
+27
+10. _____ option is used with sort command for removing repeated lines.
+a) -n
+b) -u
+c) -t
+d) -a
+b
+$ cut -d “|” -f3 emp.lst | sort  -u | tee design.lst
+Above command will cut out the designation field from emp.lst, after that the output will be piped to sort command to find out the unique designations in the file. The output produced will be like:
+Chairman
+d.g.m
+director
+executive
+g.m. 
+manager
+ 
+11. Which option is used by the sort command to redirect the output to a specified file?
+a) -n
+b) -t
+c) -o
+d) -u
+c
+$ sort  -o  sortedlist  -k  3  shortlist        // output stored in sortedlist
+ 
+12. The name of the input and output files cannot be same while using sort command.
+a) True
+b) False
+b
+$ sort  -o  sortedlist  -k  3  shortlist       // output stored in sortedlist
+$ sort  -o shortlist  shortlist               // output stored in the same file
+13. To check whether the file has actually been stored in the default order, we can use ____ option.
+a) -n
+b) -a
+c) -d
+d) -c
+d
+$ sort  -c  shortlist
+_                // file is sorted
+14. Which option is used with sort command to sort multiple files collectively?
+a) -m
+b) -n
+c) -c
+d) -o
+a
+$ sort  -m file01  file02  file03
+ 
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Filtering Commands – 2» Next - Unix  Questions and Answers – Unique and tr Command 

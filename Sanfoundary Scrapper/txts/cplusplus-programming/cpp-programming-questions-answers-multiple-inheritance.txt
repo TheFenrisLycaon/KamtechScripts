@@ -1,0 +1,93 @@
+This section on C++ programming questions and answers focuses on “Multiple Inheritance”. One shall practice these questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ programming questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ programming questions on “Multiple Inheritance” along with answers, explanations and/or solutions:
+1. What is meant by multiple inheritance?
+a) Deriving a base class  from derived class
+b) Deriving a derived class from base class
+c) Deriving a derived class from more than one base class
+d) Deriving a derived base class
+c
+2. Which symbol is used to create multiple inheritances?
+a) Dot
+b) Comma
+c) Dollar
+d) star
+b
+3. Which of the following advantages we lose by using multiple inheritances?
+a) Dynamic binding
+b) Polymorphism
+c) Both Dynamic binding & Polymorphism
+d) Constructor
+c
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class polygon     {        protected:        int width, height;        public:        void set_values (int a, int b)        {             width = a; height = b;}        };        class output1         {            public:                void output (int i);        };    void output1::output (int i)     {        cout << i << endl;    }    class rectangle: public polygon, public output1     {        public:        int area ()        {             return (width * height);         }    };    class triangle: public polygon, public output1     {        public:        int area ()        {            return (width * height / 2);         }    };    int main ()     {        rectangle rect;        triangle trgl;        rect.set_values (4, 5);        trgl.set_values (4, 5);        rect.output (rect.area());        trgl.output (trgl.area());        return 0;    }
+a) 20
+b) 10
+c) 
+   20
+   10
+d) 30
+c
+Output:
+$ g++ mul.cpp
+$ a.out
+20
+10
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Base    {        public:        virtual void print() const = 0;    };    class DerivedOne : public Base    {        public:             void print() const        {            cout << "DerivedOne\n";        }    };    class DerivedTwo : public Base    {        public:        void print() const        {            cout << "DerivedTwo\n";        }         };     class Multiple : public DerivedOne, public DerivedTwo    {        public:        void print() const        {            DerivedTwo :: print();        }     };     int main()    {        int i;        Multiple both;         DerivedOne one;         DerivedTwo two;         Base *array[ 3 ];         array[ 0 ] = &both;         array[ 1 ] = &one;        array[ 2 ] = &two;        array[ i ] -> print();        return 0;    }
+a) DerivedOne
+b) DerivedTwo
+c) Error
+d) DerivedThree
+c
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class student    {        public:        int rno , m1 , m2 ;        void get()        {            rno = 15, m1 = 10, m2 = 10;        }    };    class sports    {        public:        int sm;        void getsm()        {            sm = 10;        }    };    class statement:public student,public sports    {        int tot,avg;        public:        void display()        {            tot = (m1 + m2 + sm);            avg = tot / 3;            cout << tot;            cout << avg;        }    };    int main()    {        statement obj;        obj.get();        obj.getsm();        obj.display();    }
+a) 3100
+b) 3010
+c) 2010
+d) 1010
+b
+Output:
+$ g++ mul1.cpp
+$ a.out
+3010
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    struct a    {        int count;    };    struct b    {        int* value;    };    struct c : public a, public b    {    };    int main()    {        c* p = new c;        p->value = 0;        cout << "Inherited";        return 0;    }
+a) Inherited
+b) Error
+c) Runtime error
+d) inherited
+a
+Output:
+$ g++ mul2.cpp
+$ a.out
+Inherited
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Base1    {        protected:        int SampleDataOne;        public:        Base1()        {            SampleDataOne = 100;        }        ~Base1()        {        }        int SampleFunctOne()        {            return SampleDataOne;        }    };    class Base2    {        protected:        int SampleDataTwo;        public:        Base2()        {            SampleDataTwo = 200;        }        ~Base2()        {        }        int SampleFunctTwo()        {            return SampleDataTwo;        }    };    class Derived1 : public Base1, public Base2    {        int MyData;        public:        Derived1()         {            MyData = 300;        }        ~Derived1()        {        }            int MyFunct()        {            return (MyData + SampleDataOne + SampleDataTwo);        }    };    int main()    {        Base1 SampleObjOne;        Base2 SampleObjTwo;        Derived1 SampleObjThree;        cout << SampleObjThree.Base1 :: SampleFunctOne() << endl;        cout << SampleObjThree.Base2 :: SampleFunctTwo() << endl;        return 0;    }
+a) 100
+b) 200
+c) Both 100 & 200
+d) 150
+c
+Output:
+$ g++ mul4.cpp
+$ a.out
+100
+200
+9. Which design patterns benefit from the multiple inheritances?
+a) Adapter and observer pattern
+b) Code pattern
+c) Glue pattern
+d) Star pattern
+a
+10. What are the things are inherited from the base class?
+a) Constructor and its destructor
+b) Operator=() members
+c) Friends
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Class Hierarchies Introduction» Next - C++ Programming Questions and Answers – Inheritance – 1 

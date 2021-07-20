@@ -1,0 +1,54 @@
+1. What does the function matlab.addons.toolbox.installedToolboxes return?
+a) A structure
+b) A table
+c) A structure of arrays
+d) An array of structure
+c
+2. What is the output of the following code?
+ver Simulink
+a) Shows the version of MATLAB
+b) Shows the version of MATLAB and the Simulink Toolbox
+c) Shows the version of the Simulink Toolbox
+d) Shows the contents of Simulink Toolbox
+b
+3. What is the output of the above code?
+ver Simulink Toolbox
+a) Error
+b) Shows the version of MATLAB
+c) Shows the version of MATLAB and the Simulink Toolbox
+d) Shows the version of the Simulink Toolbox
+a
+4.  A .mltbx toolbox is written in Java.
+a) True
+b) False
+b
+5. A toolbox is same as a function.
+a) True
+b) False
+b
+6. What is the output of the following code?
+matlab.addons.toolbox.uninstallToolbox[]
+a) Error
+b) Uninstalls the toolbox given in the input
+c) Uninstalls all the toolboxes
+d) Uninstalls the function given in the input
+a
+7. What is the output of the following code?
+matlab.addons.Toolbox.uninstalltoolbox()
+a) Uninstalls the toolbox given in the input
+b) Error
+c) Uninstalls all the toolboxes in the system
+d) Uninstalls the function given in the input
+b
+8. What are the contents of the toolbox shown by the matlab.addons.toolbox.installedToolboxes command?
+a) Name, Guid
+b) Name, Version, Guid
+c) Name, package, Guid
+d) Name, package,
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice tough questions and answers on all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Toolbox Distribution – 1» Next - MATLAB Questions and Answers – Performance and Memory – 1 

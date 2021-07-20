@@ -1,0 +1,269 @@
+1. What is Inheritance in C++?
+a) Wrapping of data into a single class
+b) Deriving new classes from existing classes
+c) Overloading of classes
+d) Classes with same names
+b
+2. How many specifiers are used to derive a class?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+3. Which specifier makes all the data members and functions of base class inaccessible by the derived class?
+a) private
+b) protected
+c) public
+d) both private and protected
+a
+4. If a class is derived privately from a base class then ______________________________
+a) no members of the base class is inherited
+b) all members are accessible by the derived class
+c) all the members are inherited by the class but are hidden and cannot be accessible
+d) no derivation of the class gives an error
+c
+5. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	int a, b;
+	float d;
+   public:
+	void change(int i){
+		a = i;
+	}
+	void value_of_a(){
+		cout<<a;
+	}
+};
+ 
+class B: private A
+{
+ 
+};
+ 
+int main(int argc, char const *argv[])
+{
+	B b;
+	cout<<sizeof(B);
+	return 0;
+}
+a) 8
+b) 12
+c) Error
+d) Segmentation fault
+b
+6. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	float d;
+    public:
+	int a;
+	void change(int i){
+		a = i;
+	}
+	void value_of_a(){
+		cout<<a;
+	}
+};
+ 
+class B: public A
+{
+	int a = 15;
+    public:
+	void print(){
+		cout<<a;
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	B b;
+	b.change(10);
+	b.print();
+	b.value_of_a();
+ 
+	return 0;
+}
+a) 1010
+b) 1510
+c) 1515
+d) 5110
+b
+7. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	float d;
+   public:
+	A(){
+		cout<<"Constructor of class A\n";
+	}
+};
+ 
+class B: public A
+{
+	int a = 15;
+    public:
+	B(){
+		cout<<"Constructor of class B\n";
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	B b;
+	return 0;
+}
+a) 
+Constructor of class A
+Constructor of class B
+b) Constructor of class A
+c) Constructor of class B
+d) 
+Constructor of class B
+Constructor of class A
+a
+  
+8. What is a virtual function in C++?
+a) Any member function of a class
+b) All functions that are derived from the base class
+c) All the members that are accessing base class data members
+d) All the functions which are declared in the base class and is re-defined/overridden by the derived class
+d
+9. Which is the correct syntax of declaring a virtual function?
+a) virtual int func();
+b) virtual int func(){};
+c) inline virtual func();
+d) inline virtual func(){};
+a
+10. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A{
+	float d;
+   public:
+	virtual void func(){
+		cout<<"Hello this is class A\n";
+	}
+};
+ 
+class B: public A{
+	int a = 15;
+public:
+	void func(){
+		cout<<"Hello this is class B\n";
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	B b;
+	b.func();
+	return 0;
+}
+a) Hello this is class B
+b) Hello this is class A
+c) Error
+d) Segmentation fault
+a
+11. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	float d;
+     public:
+	virtual void func(){
+		cout<<"Hello this is class A\n";
+	}
+};
+ 
+class B: public A
+{
+	int a = 15;
+   public:
+	void func(){
+		cout<<"Hello this is class B\n";
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A *a;
+	a->func();
+	return 0;
+}
+a) Hello this is class A
+b) Hello this is class B
+c) Error
+d) Segmentation Fault
+d
+12. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	float d;
+   public:
+	virtual void func(){
+		cout<<"Hello this is class A\n";
+	}
+};
+ 
+class B: public A
+{
+	int a = 15;
+   public:
+	void func(){
+		cout<<"Hello this is class B\n";
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A *a = new A();
+	B b;
+	a = &b;
+	a->func();
+	return 0;
+}
+a) Hello this is class A
+b) Hello this is class B
+c) Error
+d) Segmentation Fault
+b
+13. Which statement is incorrect about virtual function.
+a) They are used to achieve runtime polymorphism
+b) They are used to hide objects
+c) Each virtual function declaration starts with the virtual keyword
+d) All of the mentioned
+b
+14. The concept of deciding which function to invoke during runtime is called ______________________
+a) late binding
+b) dynamic linkage
+c) static binding
+d) both late binding and dynamic linkage
+d
+15. What is a pure virtual function?
+a) A virtual function defined inside the base class
+b) A virtual function that has no definition relative to the base class
+c) A virtual function that is defined inside the derived class
+d) Any function that is made virtual
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Multiple Inheritance» Next - C++ Programming Questions and Answers – Inheritance – 2 

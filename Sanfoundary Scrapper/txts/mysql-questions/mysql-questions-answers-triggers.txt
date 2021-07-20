@@ -1,0 +1,66 @@
+1. Triggers enable to enforce data integrity constraints.
+a) True
+b) False
+a
+2. Which statement is used to create a trigger?
+a) CREATE TRIGGER
+b) CREATE TRIGGERS
+c) PRODUCE TRIGGER
+d) PRODUCE TRIGGERS
+a
+3. For which of the following are triggers not supported?
+a) delete
+b) update
+c) insert
+d) views
+d
+4. Which statement is used to remove a trigger?
+a) REMOVE
+b) DELETE
+c) DROP
+d) CLEAR
+c
+5. Before MySQL 5.1.6 which privilege was required to create and drop triggers?
+a) PRIVILEGE
+b) TRIGGER
+c) SUPER
+d) MACRO
+c
+6. The TRIGGER privilege is used for the table to be able to create and drop triggers for it.
+a) True
+b) False
+a
+7. What is abc in the following MySQL statement?
+CREATE TRIGGER abc (...) (...) ON def FOR EACH ROW ghi;
+a) trigger name
+b) table name
+c) trigger statement
+d) update statement
+a
+8. What is def in the following MySQL statement?
+CREATE TRIGGER abc (...) (...) ON def FOR EACH ROW ghi;
+a) trigger name
+b) table name
+c) trigger statement
+d) update statement
+b
+9. What is ghi in the following MySQL statement?
+CREATE TRIGGER abc (...) (...) ON def FOR EACH ROW ghi;
+a) trigger name
+b) table name
+c) trigger statement
+d) update statement
+c
+10. What is def in the following MySQL statement?
+DECLARE abc HANDLER FOR def ghi;
+a) action
+b) condition value
+c) statement
+d) null
+b
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Stored Functions and Procedures» Next - MySQL Questions and Answers – Events 

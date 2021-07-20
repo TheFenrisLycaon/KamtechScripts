@@ -1,0 +1,118 @@
+This section on tough C++ programming questions focuses on “Permutations”. One shall practice these questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ programming questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of tough C++ programming questions on “Permutations” along with answers, explanations and/or solutions:
+1. What is meant by permutation in c++?
+a) To find all the values in the range
+b) To find all the combination of the range
+c) To find all the values & combination in the range
+d) To delete all the values
+b
+2. How the different permutations are ordered in c++?
+a) Compare lexicographically to each other elements
+b) By finding the highest element in the range
+c) By finding the lowest element in the range
+d) By deleting the lowest element in the range
+a
+3. Pick out the correct statement about permutation.
+a) If the function can determine the next higher permutation, Returns false
+b) If the function can determine the next higher permutation, Returns true
+c) If the function can’t determine the next higher permutation, Returns true
+d) If the function can determine the lower higher permutation, Returns true
+b
+4. What will be the output of the following C++ code?
+    #include <string>    #include <iostream>    using namespace std;    void string_permutation( string& orig, string& perm )    {        if (orig.empty())        {            cout<<perm<<endl;            return;        }        for (int i = 0; i < orig.size(); ++i)        {            string orig2 = orig;            orig2.erase(i, 1);            string perm2 = perm;            perm2 += orig.at(i);            string_permutation(orig2, perm2);        }    }    int main()    {        string orig = "ter";        string perm;        string_permutation(orig, perm);        return 0;    }
+a) ter
+b) ert
+c) ret
+d) returns all the combination of ter
+d
+Output:
+$ g++ perm.cpp
+$ a.out
+ter
+tre
+etr
+ert
+rte
+ret
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    using namespace std;    int main ()     {        int myints[] = {1, 2, 3};        sort (myints, myints + 3);        do         {        } while ( next_permutation(myints, myints + 3) );        cout << myints[0] << ' ' << myints[1] << ' ' << myints[2] << '\n';        return 0;    }
+a) 1 2 3
+b) 3 2 1
+c) 2 1 3
+d) 1 3 2
+a
+Output:
+$ g++ perm1.cpp
+$ a.out
+1 2 3
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int array[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};    void swap(int x, int y)    {        int temp = array[x];        array[x] = array[y];        array[y] = temp;        return;    }    void printArray(int size)    {        int i;        for (i = 0; i < size; i++)            cout << array[i] << " ";        cout << endl;        return;    }    void permute(int k, int size)    {        int i;        if (k == 0)            printArray(size);        else        {            for (i = k - 1;i >= 0;i--)            {                swap(i, k - 1);                permute(k - 1, size);                swap(i, k - 1);            }        }        return;    }    int main()    {        permute(3, 3);        return 0;    }
+a) 
+   0 1 2 
+   1 0 2
+b) 
+   0 2 1 
+   2 0 1
+c) 
+   2 1 0 
+   1 2 0
+d) All of the mentioned
+d
+Output:
+$ g++ perm2.cpp
+$ a.out
+0 1 2 
+1 0 2 
+0 2 1 
+2 0 1 
+2 1 0 
+1 2 0
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <vector>    #include <algorithm>    using namespace std;    void Display(const vector<int>& vi)    {        for (size_t i = 0; i < vi.size(); ++i)            cout << vi[i];        cout<<endl;    }    int main()    {        vector<int> vi;        vi.push_back(3);        vi.push_back(5);        sort(vi.begin(), vi.end());        Display(vi);        while(next_permutation(vi.begin(), vi.end()))        Display(vi);        return 0;    }
+a) 3 5
+b) 5 3
+c) 
+5 3
+3 5
+d) 3 3
+c
+Output:
+$ g++ perm3.cpp
+$ a.out
+5 3
+3 5
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <vector>    #include <algorithm>    using namespace std;    void show(const vector<int>& vi)    {        for (size_t i = 0; i < vi.size(); ++i)            cout << vi[i];        cout << endl;    }    int main()    {        vector<int> vi;        vi.push_back(3);        vi.push_back(5);        vi.push_back(5);        sort(vi.begin(), vi.end());        show(vi);        while(next_permutation(vi.begin(), vi.end()))            show(vi);        return 0;    }
+a) 355
+b) 535
+c) 553
+d) 
+355
+535
+553
+d
+Output:
+$ g++ perm4.cpp
+$ a.out
+355
+535
+553
+  
+9. What is the header file for vector permutation?
+a) vector_permutation.h
+b) vector_perm
+c) <algorithm>
+d) vector_permutation
+c
+10. How many parameters are required for next_permutation?
+a) 1
+b) 2
+c) 2 or 3
+d) 3
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Min and Max» Next - C++ Programming Questions and Answers – C Style Algorithms 

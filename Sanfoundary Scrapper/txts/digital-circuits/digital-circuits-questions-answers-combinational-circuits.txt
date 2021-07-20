@@ -1,0 +1,80 @@
+1. Which of the circuits in figure (a to d) is the sum-of-products implementation of figure (e)?
+a) a
+b) b
+c) c
+d) d
+d
+2. Which of the following logic expressions represents the logic diagram shown?
+a) X=AB’+A’B
+b) X=(AB)’+AB
+c) X=(AB)’+A’B’
+d) X=A’B’+AB
+d
+             2nd AND gate’s output is = AB and,
+             OR gate’s output is = (A’B’)+(AB) = AB + A’B’.
+3. The device shown here is most likely a ________
+a) Comparator
+b) Multiplexer
+c) Inverter
+d) Demultiplexer
+d
+4. What type of logic circuit is represented by the figure shown below?
+a) XOR
+b) XNOR
+c) AND
+d) XAND
+b
+5. For a two-input XNOR gate, with the input waveforms as shown below, which output waveform is correct?
+a) d
+b) a
+c) c
+d) b
+a
+i.e., A B O/P
+0 0 1
+0 1 0
+1 0 0
+1 1 1.
+Thus, it will produce 1 when inputs are even number of 1s or all 0s, and produce 0 when input is odd number of 1s.
+6. Which of the following combinations of logic gates can decode binary 1101?
+a) One 4-input AND gate
+b) One 4-input AND gate, one inverter
+c) One 4-input AND gate, one OR gate
+d) One 4-input NAND gate, one inverter
+b
+7. What is the indication of a short to ground in the output of a driving gate?
+a) Only the output of the defective gate is affected
+b) There is a signal loss to all load gates
+c) The node may be stuck in either the HIGH or the LOW state
+d) The affected node will be stuck in the HIGH state
+b
+8. For the device shown here, assume the D input is LOW, both S inputs are LOW and the input is LOW. What is the status of the Y’ outputs?
+a) All are HIGH
+b) All are LOW
+c) All but Y0 are LOW
+d) All but Y0 are HIGH
+d
+I/P S0 S1 O/P
+D = 0 0 0 Y0
+D = 0 0 1 Y1
+D = 0 1 0 Y2
+D = 0 1 1 Y3
+Hence, inputs are S0 and S1 are Low means 0, so output is Y0 and rest all are HIGH.
+9. The carry propagation can be expressed as ________
+a) Cp = AB
+b) Cp = A + B
+c) All but Y0 are LOW
+d) All but Y0 are HIGH
+b
+10. 3 bits full adder contains ________
+a) 3 combinational inputs
+b) 4 combinational inputs
+c) 6 combinational inputs
+d) 8 combinational inputs
+d
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – BCD Adder» Next - Digital Circuits Questions and Answers – Multiplexers (Data Selectors) – 1 

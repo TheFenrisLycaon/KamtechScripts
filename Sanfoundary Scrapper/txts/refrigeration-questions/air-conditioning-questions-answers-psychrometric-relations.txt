@@ -1,0 +1,137 @@
+1. What is the value of humidity ratio if pv = 0.387 bar and pa = 0.997 bar?
+a) 0.482
+b) 0.241
+c) 0.122
+d) 0.622
+b
+W = 0.622 pv / pa
+= 0.622 x 0.387 / 0.997
+= 0.241 kg / kg of dry air.
+2. What is the value of humidity ratio if mv = 1.423 and ma = 3.589?
+a) 0.1
+b) 0.2
+c) 0.4
+d) 0.5
+c
+W = 1.423 / 3.589 = 0.396 ≅ 0.4.
+3. What is the value of relative humidity if mv = 2.901 and ms = 9.056?
+a) 0.300
+b) 0.330
+c) 0.310
+d) 0.320
+d
+∅ = mv / ms = pv / ps = 2.901 / 9.056 = 0.320.
+4. What is the value of relative humidity if pv = 0.468 bar and ps = 0.893 bar?
+a) 52 %
+b) 54 %
+c) 56 %
+d) 190 %
+a
+∅ = mv / ms = pv / ps = 0.468 / 0.893 = 0.524 = 52.4 %.
+5. What is the value of pb if pa = 1.48 bar and pv = 1.52 bar, according to Dalton’s law of partial pressures?
+a) 1 bar
+b) 2 bar
+c) 3 bar
+d) 4 bar
+c
+6. If DBT = 30°C, WBT = 20°C and Barometer reading is 740 mm of Hg. Find out DPT using steam tables.
+a) 5°C
+b) 35°C
+c) 15°C
+d) 25°C
+b
+pb = 740 mm of Hg = 740 x 133.3 / 100000 = 0.98642 bar
+Pressure of water vapor = pv = pw – [(pb – pw) (td – tw) / 1544 – 1.44 tw] 
+= 0.02337 – [(0.98642 – 0.02337) (30 – 20) / 1544 – 1.44 x 20] 
+= 0.01701 bar
+For 0.01701 bar water vapor pressure, dew point temperature is 15°C.
+7. If DBT = 30°C, WBT = 20°C and Barometer reading is 740 mm of Hg. Find out relative humidity using steam tables.
+a) 40 %
+b) 50 %
+c) 30 %
+d) 20 %
+a
+pb = 740 mm of Hg = 740 x 133.3 / 100000 = 0.98642 bar
+Pressure of water vapor = pv = pw – [(pb – pw) (td – tw) / 1544 – 1.44 tw] 
+= 0.02337 – [(0.98642 – 0.02337) (30 – 20) / 1544 – 1.44 x 20] 
+= 0.01701 bar
+Saturation pressure for given DBT is ps = 0.04242 bar
+Relative humidity = pv / ps = 0.01701 / 0.04242 = 0.40 = 40 %.
+8. If DBT = 30°C, WBT = 20°C and Barometer reading is 740 mm of Hg. Find out specific humidity using steam tables.
+a) 10.914 m3 / kg of dry air
+b) 10.914
+c) 10.914 kg / kg of dry air
+d) 10.914 g / kg of dry air
+d
+pb = 740 mm of Hg = 740 x 133.3 / 100000 = 0.98642 bar
+Pressure of water vapor = pv = pw – [(pb – pw) (td – tw) / 1544 – 1.44 tw] 
+= 0.02337 – [(0.98642 – 0.02337) (30 – 20) / 1544 – 1.44 x 20] 
+= 0.01701 bar
+Specific humidity = W = 0.622 pv / pb – pv = 0.622 x 0.01701 / 0.98642 – 0.01701 = 10.914 g / kg of dry air.
+9. If DBT = 30°C, WBT = 20°C and Barometer reading is 740 mm of Hg. Find out degree of saturation using steam tables.
+a) 40 %
+b) 39 %
+c) 38 %
+d) 35 %
+b
+pb = 740 mm of Hg = 740 x 133.3 / 100000 = 0.98642 bar
+Pressure of water vapor = pv = pw – [(pb – pw) (td – tw) / 1544 – 1.44 tw] 
+= 0.02337 – [(0.98642 – 0.02337) (30 – 20) / 1544 – 1.44 x 20] 
+= 0.01701 bar
+Specific humidity = W = 0.622 pv / pb – pv = 0.622 x 0.01701 / 0.98642 – 0.01701 = 10.914 g / kg of dry air
+Saturation pressure for given DBT is ps = 0.04242 bar
+Ws = 0.622 ps / pb – ps = 0.622 x 0.004242 / 0.98642 – 0.04242 = 27.945 g / kg of dry air
+Degree of saturation, μ = W / Ws = 10.914 / 27.945 = 0.39 = 39 %.
+10. If DBT = 30°C, WBT = 20°C and Barometer reading is 740 mm of Hg. Find out vapor density using steam tables.
+a) 0.01216 kg / m3 of dry air
+b) 0.01216 g / m3 of dry air
+c) 0.01216 m3 / m3 of dry air
+d) 0.01216 kg / kg of dry air
+a
+pb = 740 mm of Hg = 740 x 133.3 / 100000 = 0.98642 bar
+Pressure of water vapor = pv = pw – [(pb – pw) (td – tw) / 1544 – 1.44 tw] 
+= 0.02337 – [(0.98642 – 0.02337) (30 – 20) / 1544 – 1.44 x 20] 
+= 0.01701 bar
+Specific humidity = W = 0.622 pv / pb – pv = 0.622 x 0.01701 / 0.98642 – 0.01701 = 10.914 g / kg of dry air
+ρv = W (pb – pv) / Ra Td = 0.010914 (0.98642 – 0.01701) 105 / 287 (273 + 30)
+= 0.01216 kg / m3 of dry air.
+11. What is the humidity ratio in terms of mass?
+a) mv / ma
+b) ma / mv
+c) pv / pa
+d) pa / pv
+a
+12. What is the humidity ratio in terms of pressure?
+a) 0.622 pv / pb
+b) 0.622 pv / pa
+c) 0.622 mv / mb
+d) 0.622 mv / ma
+b
+Ra = 0.287 and Rv = 0.461 kJ/kg K, putting these values in above equation we get,
+W = 0.287 / 0.461 (pv / pa)
+W = 0.622 pv / pa.
+13. Relative humidity is represented as __________
+a) mv / ma
+b) ma / mv
+c) ps / pv
+d) mv / ms
+d
+∅ = mv / ms = pv / ps.
+14. Which of the following is true, according to Dalton’s law of partial pressures?
+a) pb = pa x pv
+b) pb = pa – pv
+c) pb = pa + pv
+d) pa = pb + pv
+c
+15. If the relative humidity is zero, then the humidity ratio is infinity.
+a) False
+b) True
+a
+If, ∅ = mv / ms = pv / ps = 0,
+Then W = 0.  So, the humidity ratio is zero if the relative is zero.
+Sanfoundry Global Education & Learning Series – Refrigeration & Air Conditioning.
+To practice all areas of Refrigeration & Air Conditioning, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Air-Conditioning Questions and Answers – Psychrometric Terms» Next - Air-Conditioning Questions and Answers – Psychrometric Chart 

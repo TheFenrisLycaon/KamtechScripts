@@ -1,0 +1,108 @@
+1. What is the impulse response of a system whose transfer function is that of ramp function delayed by 7 units in time?
+a) r(t-7)
+b) r(t+7)
+c) r(t-3.5)
+d) Cannot be determined
+a
+2. What is the impulse response of a system whose transfer function is that of pulse function?
+a) u(t)+u(t-4)
+b) u(t)-u(t-3)
+c) u(t)-u(t-4)
+d) u(t)-u(t+4)
+c
+3. What is the impulse response till t=16 unit in time of a system whose transfer function is that of the following?
+a) 3⁄4*r(t-4) + 3⁄4*r(t-16)+u(t-16)
+b) 3⁄4*r(t-4) – 3⁄4*r(t+16)-u(t-16)
+c) 3⁄4*r(t-4) – 3⁄4*r(t-16)-u(t-16)
+d) 3⁄4*r(t-4) – 3⁄4*r(t+16)-u(t+16)
+c
+4. What is the impulse response of the system whose transfer function is that of a pulse which generates from the following code?
+plot(0:12,[zeros(1,4),ones(1,5),zeros(1,4)])
+a) u(t-4)+u(t-9)
+b) u(t+4)-u(t-9)
+c) u(t-4)-u(t+9)
+d) u(t-4)-u(t-9)
+d
+5. The following figure shows a set of impulse responses. Identify which system provides the greatest delay.
+a) Blue
+b) Red
+c) Delay
+d) Purple
+d
+6. The following figure shows a set of impulse responses. Identify which system provides the least delay.
+a) Blue
+b) Red
+c) Delay
+d) Purple
+a
+7. Which response has the highest amplitude of step function?
+a) Yellow
+b) Red
+c) Blue
+d) Data inadequate
+a
+8. Which response has the least amplitude in the transfer function?
+a) Yellow
+b) Red
+c) Blue
+d) Data inadequate
+c
+9. The o/p of the following two code snippets are ___
+i.  impulse(1,[ 6 3])
+ii. impulse(1/6,[ 1 .5])
+a) Same graphs
+b) Different grpahs
+c) Amplitude of graph i>ii
+d) Amplitude of graph i<ii
+a
+10. Fill the half-filled code snippet which generates the following curve:
+_______(1,[1 __])
+a) impulse, 0, 0
+b) impulse, 0
+c) impulse, 0 1
+d) impulse, 1, 0
+a
+11. Fill the half-filled code snippet to get the following graph:
+impulse(1,[1 _], ‘red’);
+____;
+ impulse(1,[1 _], ‘blue’);
+impulse(1,[1 _], ‘yellow’);
+impulse(1,[1 _], ‘green’);
+a) 2, hold, 3,4,5
+b) 9, hold, 4,5,2
+c) 5, hold, 4,3,2
+d) Cannot be determined
+a
+12. Choose the correct option after observing the given graph and the code snippet carefully.
+impulse(1,[1 _], ‘red’);
+hold on;
+impulse(1,[1 a], ‘blue’);
+impulse(1,[1 b], ‘yellow’);
+impulse(1,[1 _], ‘green’);
+a) a<b
+b) a>b
+c) a=b
+d) Cannot be determined
+a
+13. How does the pole of the transfer function change?
+a) Goes nearer to the origin for the green curve than the red curve
+b) Goes further from the origin for the red curve than the blue curve
+c) Goes nearer to the origin for the blue curve than the red curve
+d) Goes nearer to the origin for the red curve than the blue curve
+d
+14. Which response would provide a higher stability?
+a) A step signal
+b) A ramp signal
+c) A sinusoidal
+d) 1/(s-1)
+d
+15. The poles of the transfer function of a sinusoidal system can represent the frequency of the impulse response of the sinusoidal system.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Time Response of Control Systems – 2» Next - MATLAB Questions and Answers – Impulse Response – 2 

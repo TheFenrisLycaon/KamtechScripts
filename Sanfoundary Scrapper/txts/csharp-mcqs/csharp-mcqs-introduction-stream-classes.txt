@@ -1,0 +1,68 @@
+1. Select the namespace on which the stream classes are defined?
+a) System.IO
+b) System.Input
+c) System.Output
+d) All of the mentioned
+a
+2. Choose the class on which all stream classes are defined?
+a) System.IO.stream
+b) Sytem.Input.stream
+c) System.Output.stream
+d) All of the mentioned
+a
+3. Choose the stream class method which is used to close the connection?
+a) close()
+b) static close()
+c) void close()
+d) none of the mentioned
+c
+4. The method used to write a single byte to an output stream?
+a) void WriteByte(byte value)
+b) int Write(byte[] buffer ,int offset ,int count)
+c) write()
+d) none of the mentioned
+a
+5. Select the method which writes the contents of the stream to the physical device.
+a) fflush()
+b) void fflush()
+c) void Flush()
+d) flush()
+c
+6. Select the method which returns the number of bytes from the array buffer:
+a) void WriteByte(byte value)
+b) int Write(byte[] buffer, int offset, int count)
+c) write()
+d) none of the mentioned
+b
+7. Name the method which returns integer as -1 when the end of file is encountered.
+a) int read()
+b) int ReadByte()
+c) void readbyte()
+d) none of the mentioned
+b
+8. Select the statements which define the stream.
+a) A stream is an abstraction that produces or consumes information
+b) A stream is linked to a physical device by the I/0 system
+c) C# programs perform I/O through streams
+d) All of the mentioned
+d
+9. Select the action of the method long seek()?
+a) Attempts to readup to count bytes into buffer starting at buffer[offset] 
+b) Writes a single byte to an output stream
+c) Sets the current position in the stream to the specified offset from specified origin and hence returns the new position
+d) None of the mentioned
+c
+long Seek(long offset, SeekOrigin origin)
+Sets the current position in the stream to the specified offset from the specified origin. It returns the new position.
+10. Which among the following attempts to read up to count bytes into buffer starting at buffer[offset], returning the number of bytes successfully read?
+a) int ReadByte()
+b) int Read(byte[] buffer, int offset, int count)
+c) Void WriteByte(byte value)
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Writing Console Output Operations» Next - C# Questions & Answers – Byte Stream 

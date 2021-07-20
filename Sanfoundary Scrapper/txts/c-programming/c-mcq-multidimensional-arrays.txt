@@ -1,0 +1,56 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Symantec and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Symantec interviews on C Programming language. 
+Here is a listing of C multiple choice questions on “Multidimensional Arrays” along with answers, explanations and/or solutions:
+1. What is the correct syntax to send a 3-dimensional array as a parameter? (Assuming declaration int a[5][4][3];)
+a) func(a);
+b) func(&a);
+c) func(*a);
+d) func(**a);
+a
+2. What are the applications of a multidimensional array?
+a) Matrix-Multiplication
+b) Minimum Spanning Tree
+c) Finding connectivity between nodes
+d) All of the mentioned
+d
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int ary[2][3];        foo(ary);    }    void foo(int *ary[])    {        int i = 10, j = 2, k;        ary[0] = &i;        ary[1] = &j;        *ary[0] = 2;        for (k = 0;k < 2; k++)        printf("%d\n", *ary[k]);    }
+a) 2 2
+b) Compile time error
+c) Undefined behaviour
+d) 10 2
+a
+Join [email protected]
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int ary[2][3];        foo(ary);    }    void foo(int (*ary)[3])    {        int i = 10, j = 2, k;        ary[0] = &i;        ary[1] = &j;        for (k = 0;k < 2; k++)        printf("%d\n", *ary[k]);    }
+a) Compile time error
+b) 10 2
+c) Undefined behaviour
+d) segmentation fault/code crash
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        foo(ary);    }    void foo(int **ary)    {        int i = 10, k = 10, j = 2;        int *ary[2];        ary[0] = &i;        ary[1] = &j;        printf("%d\n", ary[0][1]);    }
+a) 10
+b) 2
+c) Compile time error
+d) Undefined behaviour
+d
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int ary[2][3][4], j = 20;        ary[0][0] = &j;        printf("%d\n", *ary[0][0]);    }
+a) Compile time error
+b) 20
+c) Address of j
+d) Undefined behaviour
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int ary[2][3];        ary[][] = {{1, 2, 3}, {4, 5, 6}};        printf("%d\n", ary[1][0]);    }
+a) Compile time error
+b) 4
+c) 1
+d) 2
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Multidimensional Arrays – 1» Next - C Programming Questions and Answers – Initialization of Pointer Arrays – 1 

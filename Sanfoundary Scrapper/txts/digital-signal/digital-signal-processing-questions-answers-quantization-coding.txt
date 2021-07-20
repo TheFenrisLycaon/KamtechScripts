@@ -1,0 +1,75 @@
+1. The basic task of the A/D converter is to convert a discrete set of digital code words into a continuous range of input amplitudes.
+a) True
+b) False
+b
+2. What is the type of quantizer, if a Zero is assigned a quantization level?
+a) Midrise type
+b) Mid tread type
+c) Mistreat type
+d) None of the mentioned
+b
+3. What is the type of quantizer, if a Zero is assigned a decision level?
+a) Midrise type
+b) Mid tread type
+c) Mistreat type
+d) None of the mentioned
+a
+4. What is the term used to describe the range of an A/D converter for bipolar signals?
+a) Full scale
+b) FSR
+c) Full-scale region
+d) FS
+b
+5. What is the term used to describe the range of an A/D converter for uni-polar signals?
+a) Full scale
+b) FSR
+c) Full-scale region
+d) FSS
+a
+6. What is the fixed range of the quantization error eq(n)?
+a) –\(\frac{\Delta}{6}\) < eq(n) ≤ \(\frac{\Delta}{6}\) 
+b) –\(\frac{\Delta}{4}\) < eq(n) ≤ \(\frac{\Delta}{4}\) 
+c) –\(\frac{\Delta}{2}\) < eq(n) ≤ \(\frac{\Delta}{2}\) 
+d) –\(\frac{\Delta}{16}\) < eq(n) ≤ \(\frac{\Delta}{16}\) 
+c
+7. If the dynamic range of the signal is smaller than the range of quantizer, the samples that exceed the quantizer are clipped, resulting in large quantization error.
+a) True
+b) False
+b
+8. What is the relation defined by the operation of quantizer?
+a) xq(n) ≡ Q[x(n)] = \(\hat{x}_k\) 
+b) xq(n) = Q[x(n)] = \(\hat{x}_k\), if x(n) ∈ Ik
+c) xq(k) ≡ Q[x(k)] = \(\hat{x}_k\) 
+d) none of the mentioned
+b
+9. What is the step size or the resolution of an A/D converter?
+a) Δ = (R)/2(b+1)
+b) Δ = (R)/2(b-1)
+c) Δ = (R)/3(b+1)
+d) Δ = (R)/2
+a
+Δ = (R)/2(b+1), where R is the range of the quantizer.
+10. In the practical A/D converters, if the first transition may not occur at exactly + 1/2 LSB, then such kind of error is known as ____________
+a) Scale-factor error
+b) Offset error
+c) Linearity error
+d) All of the mentioned
+b
+11. In the practical A/D converters, if the difference between the values at which the first transition and the last transition occur is not equal to FS – 2LSB, then such error is known as _________
+a) Scale-factor error
+b) Offset error
+c) Linearity error
+d) All of the mentioned
+a
+12. In the practical A/D converters, if the differences between transition values are not all equal or uniformly changing, then such error is known as?
+a) Scale-factor error
+b) Offset error
+c) Linearity error
+d) All of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – The Representation of Bandpass Signals» Next - Digital Signal Processing Questions and Answers – Digital to Analog Conversion Sample and Hold 

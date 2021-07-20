@@ -1,0 +1,96 @@
+1. What kind of model is Flight simulation model?
+a) Structural
+b) Visual
+c) Architectural
+d) None of the mentioned
+a
+2. What does structural model emphasizes on?
+a) Simplicity and similarity of system’s substructures
+b) Decoupling of data
+c) Transparency of design
+d) All of the mentioned
+d
+3. Flight simulations are characterized by which of the following?
+a) Real time performance constraints
+b) Large size and high complexity
+c) Expensive debugging, testing
+d) All of the mentioned
+d
+4. What is the use of simulators?
+a) They are used as prototypes which are modified frequently
+b) They are the part of whole product which highlight products main features
+c) They are used to train users as the actual model may be too expensive
+d) None of the mentioned
+c
+5. What does integrability mean?
+a) The ability to reconcile different portions of the system during integration phase
+b) The ability to integrate the resource to enhance the overall feature
+c) All of the mentioned
+d) None of the mentioned
+c
+6. Which of the following are tenets of structural modelling?
+a) Simplicity and similarity
+b) Separation of computation from decisions
+c) Transparency of design
+d) All of the mentioned
+d
+7. Which of the following are considered as components configurations for air vehicle?
+a) Timeline Synchronizer
+b) Periodic Sequencer
+c) Event Handler
+d) All of the mentioned
+d
+8. Which of the following is role of periodic sequencer?
+a) It is the base scheduling mechanism for all air vehicle model
+b) It is used to orchestrate all a-periodic processing performed by subsystem
+c) It is used to conduct all periodic processing performed by the simulations subsystem
+d) None of the mentioned
+c
+9. Which of the following is role of Event handler?
+a) It is the base scheduling mechanism for all air vehicle model
+b) It is used to orchestrate all a-periodic processing performed by subsystem
+c) It is used to conduct all periodic processing performed by the simulations subsystem
+d) None of the mentioned
+b
+10. Which of the following is role of Timeline Synchronizer?
+a) It is the base scheduling mechanism for all air vehicle model
+b) It is used to orchestrate all a-periodic processing performed by subsystem
+c) It is used to conduct all periodic processing performed by the simulations subsystem
+d) None of the mentioned
+a
+11. What are subset controllers?
+a) Subset controllers are used to interconnect a set of functionality related components
+b) They are used to achieve the simulation of a subsystem as a whole
+c) Mediate control and a-periodic communications
+d) All of the mentioned
+d
+12. Which of the following is necessity for a subsystem controller?
+a) Initialize themselves and each of their components to a set of initial conditions in response to an event
+b) Route requests for malfunctions and the setting of simulations parameters to their components based on knowledge of component capabilities
+c) All of the mentioned
+d) None of the mentioned
+c
+13. Which of the following component provide a simulation algorithm?
+a) Its former state
+b) Some elapsed time interval
+c) All of the mentioned
+d) None of the mentioned
+c
+14. Which of the following includes systems in kinetics group?
+a) Air fume
+b) Propulsion
+c) Landing gear
+d) All of the mentioned
+d
+15. Which of the following are the goals to be achieved?
+a) Performance
+b) Reliability
+c) Modifiability
+d) performance & Modifiability
+d
+Sanfoundry Global Education and Learning Series – Software Architecture.
+To practice  all areas of Software Architecture for tests, here is complete set on 1000+ Multiple Choice Questions and Answers on Software Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Software Architecture Questions and Answers – Building Domain Specific Languages» Next - Software Architecture Questions and Answers – Creating Products and Evolving a Product Line 

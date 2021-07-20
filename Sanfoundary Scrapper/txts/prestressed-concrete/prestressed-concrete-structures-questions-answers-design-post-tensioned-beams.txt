@@ -1,0 +1,74 @@
+1. Calculate ultimate moment and shear of effective span is 30m, live load is 9kn/m, dead load excluding self weight is 2kn/m, load factors for dead load is 1.4 for live load is 1.6 cube strength of concrete fcu is 50n/mm2 cube strength at transfer is fci is 35n/mm2, tensile strength of concrete Ec is 34kn/mm2 loss ratio ɳ is 0.85 and 8mm diameter high tensile strength fpu is 1500n/mm2 are available for use and the modulus of elasticity of high tensile wires is 200kn/mm2?
+a) 340 and 450kn
+b) 240 and 340kn
+c) 140 and 240kn
+d) 100 and 200kn
+a
+Ultimate load excluding the factored selfweight = (1.4×2)+(1.6×9) = 17.2kn/m, Wud = 17.2/1-1.4×0.31 = 30KN/M, Wmin = (0.31×30) = 9.3kn/m, Ultimate moment, Mu = (0.125x30x302) = 3400knm, Ultimate shear, Vu = (0.5x30x30) = 450kn.
+2. Find cross-sectional dimensions thickness of web if hf/d ratio is 0.23 and bw/b ratio is 0.25 and b is 0.5d?
+a) 100mm
+b) 110mm
+c) 120mm
+d) 30mm
+c
+Mu = 0.10fcubd2 d = (3400×106/0.10x50x0.5)1/3 = 1130mm, h = (1130/0.85) = 1300, b = 600mm, hf = (0.2×1130) = 250mm, adopt an effective depth, d = 1150mm, thickness of web, bw = (0.6vu/fth) = (0.6x450x103/1.7×1300) = 120mm.
+3. Calculate working moment if design working load is 19.8kn/m covered over a span of 30m (actual self weight of girder is 8.8kn/m)?
+a) 3000
+b) 2000
+c) 4340
+d) 2230
+d
+Minimum moment Mmin = 990knm, Design working load = 19.8kn/m,
+Working moment Md = (0.125×19.8×302) = 2230knm.
+4. Find the Permissible stresses and range of stresses for class 1 structure fcu = 50n/mm2, fck = 35n/mm2 according to BS: 8110 recommendations for fcu = 50n/mm2 and fci = 35n/mm2,fct = 0.5fci = 17.5n/mm2?
+a) 16.5n/mm2
+b) 12.56n/mm2
+c) 13.56n/mm2
+d) 12.00n/mm2
+a
+5. Find prestressing force if area is 36.75mm2 of eccentricity 580 given finf is 26.5kn/m and zb is 99×106?
+a) 405
+b) 308
+c) 453
+d) 206
+b
+p = (AfinfZb/Zb+Ae) =(367500×26.5x99x106/(99×106)+(367500×580)) = 308x104kn/m2.
+6. Find force in cable using Freyssinet cables 12-8mm diameter and stressed to 1100n/mm2 of eccentricity 50 and the prestressing force is given as 1000n/mm2?
+a) 660kn
+b) 234kn
+c) 300kn
+d) 230kn
+a
+Force in each cable = ((12x50x1100)/1000)) = 660kn.
+7. Find ratio for ultimate flexural strength at the centre – span section given that Aps = 3000mm2, d = 1150mm, fcu = 50n/mm2, bw = 150mm, fpu = 1500n/mm2, b = 600mm, ht = 250mm, design ultimate moment mud = 3400knm?
+a) 9.5
+b) 0.23
+c) 6.7
+d) 3.4
+b
+8. Calculate the slope of cable section at support uncracked in flexure given that eccentricity is 410, length is 30m and stress induced is 1000?
+a) 0.0547
+b) 2.456
+c) 0.0234
+d) 0.0123
+a
+Slope of cable θ = (4e/l) = ((4×410)/(30×1000)) = 0.0547.
+9. Calculate the span section cracked in flexure (M=M0) Fcp = 23.4n/mm2, zb is 99×106 and stress induced is 1000?
+a) 1200kn
+b) 1850kn
+c) 2300kn
+d) 4300kn
+b
+ m0 = (0.8fcpZb) = (0.8 x 23.4 x (99×106/1000)) = 1850knm.
+10. Find resultant maximum long term deflection if ϕ is 2.6, αy is 38.5mm, αg is 46mm, αp is 74.7mm?
+a) 95mm
+b) 35mm
+c) 55mm
+d) 20mm
+a
+Sanfoundry Global Education & Learning Series – Prestressed Concrete Structures.
+To practice all areas of Prestressed Concrete Structures, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Prestressed Concrete Structures Questions and Answers – Design of Pretensioned Beams» Next - Prestressed Concrete Structures Questions and Answers – Design of Partially Prestressed Members 

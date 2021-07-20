@@ -1,0 +1,66 @@
+1. Which directive determines whether PHP scripts on the server can accept file uploads?
+a) file_uploads
+b) file_upload
+c) file_input
+d) file_intake
+a
+2. Which of the following directive determines the maximum amount of time that a PHP script will spend attempting to parse input before registering a fatal error?
+a) max_take_time
+b) max_intake_time
+c) max_input_time
+d) max_parse_time
+c
+3. What is the default value of max_input_time directive?
+a) 30 seconds
+b) 60 seconds
+c) 120 seconds
+d) 1 second
+b
+4. Since which version of PHP was the directive max_file_limit available.
+a) PHP 5.2.1
+b) PHP 5.2.2
+c) PHP 5.2.12
+d) PHP 5.2.21
+c
+5. What is the default value of the directive max_file_limit?
+a) 10 files
+b) 15 files
+c) 20 files
+d) 25 files
+c
+6. Which directive sets a maximum allowable amount of memory in megabytes that a script can allow?
+a) max_size
+b) post_max_size
+c) max_memory_limit
+d) memory_limit
+d
+7. If you want to temporarily store uploaded files in the /tmp/phpuploads/ directory, which one of the following statement will you use?
+a) upload_tmp_dir “/tmp/phpuploads/ directory”
+b) upload_dir “/tmp/phpuploads/ directory”
+c) upload_temp_dir “/tmp/phpuploads/ directory”
+d) upload_temp_director “/tmp/phpuploads/ directory”
+a
+8. Which superglobal stores a variety of information pertinent to a file uploaded to the server via a PHP script?
+a) $_FILE Array
+b) $_FILES Array
+c) $_FILES_UPLOADED Array
+d) $_FILE_UPLOADED Array
+b
+9. How many items are available in the $_FILES array?
+a) 2
+b) 3
+c) 4
+d) 5
+d
+10. Which function is used to determine whether a file was uploaded?
+a) is_file_uploaded()
+b) is_uploaded_file()
+c) file_uploaded(“filename”)
+d) uploaded_file(“filename”)
+b
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – User Authentication» Next - PHP Questions & Answers – Networking with PHP 

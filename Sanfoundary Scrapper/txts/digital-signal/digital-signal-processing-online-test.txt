@@ -1,0 +1,84 @@
+1. Which of the following filter design is used in the formulation of design of optimum equi ripple linear phase FIR filter?
+a) Butterworth approximation
+b) Chebyshev approximation
+c) Hamming approximation
+d) None of the mentioned
+b
+2. If δ2 represents the ripple in the stop band for a chebyshev filter, then which of the following conditions is true?
+a) 1-δ2 ≤ Hr(ω) ≤ 1+δ2;|ω|≤ωs
+b) 1+δ2 ≤ Hr(ω) ≤ 1-δ2;|ω|≥ωs
+c) δ2 ≤ Hr(ω) ≤ δ2;|ω|≤ωs
+d) -δ2 ≤ Hr(ω) ≤ δ2;|ω|≥ωs
+d
+-δ2 ≤ Hr(ω) ≤ δ2;|ω|≥ωs
+3. If the filter has anti-symmetric unit sample response with M even, then what is the value of Q(ω)?
+a) cos(ω/2)
+b) sin(ω/2)
+c) 1
+d) sinω
+b
+h(n)= -h(M-1-n)
+and for M even in this case, Q(ω)=sin(ω/2).
+4. It is convenient to normalize W(ω) to unity in the stop band and set W(ω)=δ2/ δ1 in the pass band.
+a) True
+b) False
+a
+5. Which of the following defines the weighted approximation error?
+a) W(ω)[Hdr(ω)+Hr(ω)] 
+b) W(ω)[Hdr(ω)-Hr(ω)] 
+c) W(ω)[Hr(ω)-Hdr(ω)] 
+d) None of the mentioned
+b
+E(ω)=W(ω)[Hdr(ω)- Hr(ω)].
+6. The error function E(ω) does not alternate in sign between two successive extremal frequencies.
+a) True
+b) False
+b
+7. At most how many extremal frequencies can be there in the error function of ideal low pass filter?
+a) L+1
+b) L+2
+c) L+3
+d) L
+c
+8. The filter designs that contain more than L+2 alternations are called as ______________
+a) Extra ripple filters
+b) Maximal ripple filters
+c) Equi ripple filters
+d) None of the mentioned
+a
+9. If M is the length of the filter, then at how many number of points, the error function is computed?
+a) 2M
+b) 4M
+c) 8M
+d) 16M
+d
+E(ω)=W(ω)[Hdr(ω)-Hr(ω)]
+on a dense set of frequency points. Usually, a number of points equal to 16M, where M is the length of the filter.
+10. If |E(ω)|<δ for some frequencies on the dense set, then a new set of frequencies corresponding to the L+2 largest peaks of |E(ω)| are selected and computation is repeated.
+a) True
+b) False
+b
+11. What is the value of JTYPE in the Parks-McClellan program for a Hilbert transformer?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+12. In Parks-McClellan program, the grid density for interpolating the error function is denoted by which of the following functions?
+a) NFILT
+b) NBANDS
+c) EDGE
+d) LGRID
+d
+13. In Parks-McClellan program, an array of maximum size 10 that specifies the desired frequency response in each band is denoted by?
+a) WTX
+b) FX
+c) EDGE
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing for online test, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Design of Linear Phase FIR Filters by Frequency Sampling Method» Next - Digital Signal Processing Questions and Answers – Design of Optimum Equi Ripple Linear Phase FIR Filters – 2 

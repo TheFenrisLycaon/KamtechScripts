@@ -1,0 +1,70 @@
+1.  A student has created a plot of y(t)=t2. He is need to show another graph of z(t)=t3 in the same plot. But every time he hits the plot() function- MATLAB generates a plot of z(t) vs t but on a different window. What is the error?
+a) It is not possible to plot multiple plots
+b) He is not using the line function
+c) Maybe he is using stem() instead of plot()
+d) He is not using the hold function
+d
+2. Does the plot function take multiple arguments to a plot?
+a) True
+b) False
+c) Sometimes
+d) Only if the functions are in time domain
+a
+3. What happens if we don’t stop the implementation of the hold function?
+a) Nothing happens
+b) MATLAB keeps on generating multiple plots in the same window
+c) Error is generated
+d) Plot function won’t work
+b
+4. Is histogram a kind of multiple plots?
+a) True
+b) False
+c) Cannot be determined
+d) There is no such thing called Histogram
+a
+5. The function to plot vector fields is ___________
+a) quiver()
+b) pie3
+c) ezplot()
+d) contour()
+a
+6. How to introduce a title to describe the subplots generated in MATLAB?
+a) Use a function
+b) Use the title function
+c) Use the legend function
+d) Use uipanel()
+d
+f=figure;
+c=uipanel(‘Parent’,f,’BorderType’,’none’);
+c.Title=’Title Name’;
+c.TitlePosition=’centertop’
+7.  Can we have multiple 3d plots in MATLAB?
+a) Yes
+b) No
+c) Maybe
+d) Cannot be determined
+a
+8. The student receives an error while trying to plot multiple graphs using the hold command. What is there error if there is no a syntactical error?
+a) Cannot be determined
+b) The plot function is not defined with a constant variable range
+c) There is no hold command
+d) There has to be a syntactical error only
+b
+9. What is the difference between hold on and hold all?
+a) no difference
+b) hold all holds every plot while hold on holds a specific plot in the chain of argument
+c) hold all does not exist
+d) hold on is syntactically incorrect
+a
+10. What is the purpose of the line command if the plot command can be used to directly accept the arguments and generate a plot?
+a) Saves complexity
+b) We can refrain from using the hold function
+c) There is no separate, definite purpose
+d) Cannot conclude
+d
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Statistics» Next - MATLAB Questions and Answers – The MATLAB Interface 

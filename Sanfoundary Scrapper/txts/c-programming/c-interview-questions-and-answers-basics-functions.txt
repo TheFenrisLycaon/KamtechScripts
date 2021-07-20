@@ -1,0 +1,64 @@
+This section on C interview questions and answers focuses on “Basics of Functions”. One shall practice these interview questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C Interview questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C interview questions on “Basics of Functions” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        void foo();        printf("1 ");        foo();    }    void foo()    {        printf("2 ");    }
+a) 1 2
+b) Compile time error
+c) 1 2 1 2
+d) Depends on the compiler
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        void foo(), f();        f();    }    void foo()    {        printf("2 ");    }    void f()    {        printf("1 ");        foo();    }
+a) Compile time error as foo is local to main
+b) 1 2
+c) 2 1
+d) Compile time error due to declaration of functions inside main
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        void foo();        void f()        {            foo();        }        f();    }    void foo()    {        printf("2 ");    }
+a) 2 2
+b) 2
+c) Compile time error
+d) Depends on the compiler
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    void foo();    int main()    {        void foo();        foo();        return 0;    }    void foo()    {        printf("2 ");    }
+a) Compile time error
+b) 2
+c) Depends on the compiler
+d) Depends on the standard
+b
+5. What will be the output of the following C code?
+    #include <stdio.h>    void foo();    int main()    {        void foo(int);        foo(1);        return 0;    }    void foo(int i)    {        printf("2 ");    }
+a) 2
+b) Compile time error
+c) Depends on the compiler
+d) Depends on the standard
+a
+6. What will be the output of the following C code?
+    #include <stdio.h>    void foo();    int main()    {        void foo(int);        foo();        return 0;    }    void foo()    {        printf("2 ");    }
+a) 2
+b) Compile time error
+c) Depends on the compiler
+d) Depends on the standard
+b
+7. What will be the output of the following C code?
+    #include <stdio.h>    void m()    {        printf("hi");    }    void main()    {        m();    }
+a) hi
+b) Run time error
+c) Nothing
+d) Varies
+a
+8. What will be the output of the following C code?
+    #include <stdio.h>    void m();    void n()    {        m();    }    void main()    {        void m()        {            printf("hi");        }    }
+a) hi
+b) Compile time error
+c) Nothing
+d) Varies
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Goto & Labels – 2» Next - C Programming Questions and Answers – Basics of Functions – 2 

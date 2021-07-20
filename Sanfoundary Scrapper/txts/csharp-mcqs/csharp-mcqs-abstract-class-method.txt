@@ -1,0 +1,100 @@
+1. A type of class which does not have its own objects but acts as a base class for its subclass is known as?
+a) Static class
+b) Sealed class
+c) Abstract class
+d) None of the mentioned
+c
+2. The modifier used to define a  class which does not have objects of its own but acts as a base class for its subclass is?
+a) Sealed
+b) Static
+c) New
+d) Abstract
+d
+
+abstract class Base
+{
+
+}
+class derived : Base
+{
+}
+Base b1; /*object of Base class which can never be possible */
+Derived d1; /*object of derived class which is possible */
+3. Choose the correct statements among the following:
+a) An abstract method does not have implementation
+b) An abstract method can take either static or virtual modifiers
+c) An abstract method can be declared only in abstract class
+d) All of the mentioned
+d
+4. What will be the output of the following C# code?
+ namespace ConsoleApplication4 {        abstract class A      {         int i;         public  abstract void display();     }         class B: A      {         public  int j;         public override void display()          {             Console.WriteLine(j);         }     }         class Program     {         static void Main(string[] args)         {             B obj = new B();             obj.j = 2;             obj.display();             Console.ReadLine();         }     } }
+a) 0
+b) 2
+c) Compile time error
+d) 1
+b
+Output :2
+5. What will be the output of the following C# code?
+ namespace ConsoleApplication4 {     abstract class A     {         public int i ;         public int j ;         public abstract void display();     }         class B: A         {         public int j = 5;         public override void display()          {             this.j = 3;             Console.WriteLine(i + "  " + j);         }     }         class Program     {         static void Main(string[] args)         {             B obj = new B();             obj.i = 1;             obj.display();                  Console.ReadLine();         }     } }
+a) 1, 5
+b) 0, 5
+c) 1, 0
+d) 1, 3
+d
+Output :
+1, 3
+6. What will be the output of the following C# code?
+namespace ConsoleApplication4{       abstract class A     {        public int i;        public abstract void display();    }        class B: A     {        public  int j;        public int sum;        public override void display()         {            sum = i + j;            Console.WriteLine(+i + "\n" + +j);            Console.WriteLine("sum is:" +sum);        }    }        class Program    {        static void Main(string[] args)        {            A obj = new B();            obj.i = 2;            B obj1 = new B();            obj1.j = 10;            obj.display();            Console.ReadLine();        }    }}
+a) 
+2, 10
+12
+b) 
+0, 10
+10
+c) 
+2, 0
+2
+d) 
+0, 0
+0
+c
+Output :
+         2  0
+         sum is : 2
+  
+7. If a class inheriting an abstract class does not define all of its functions then it is known as?
+a) Abstract
+b) A simple class
+c) Static class
+d) None of the mentioned
+a
+8. Which of the following modifiers is used when an abstract method is redefined by a derived class?
+a) Overloads
+b) Override
+c) Base
+d) Virtual
+b
+9. What will be the output of the following C# code?
+ namespace ConsoleApplication4 {     public abstract class A     {         public int i = 7;         public abstract void display();     }         class B: A      {         public int j;         public override void display()          {             Console.WriteLine(i);             Console.WriteLine(j);         }     }         class Program     {         static void Main(string[] args)         {             B obj = new B();             A obj1 = new B();             obj.j = 1;             obj1.i = 8;             obj.display();             Console.ReadLine();         }     } }
+a) 0, 8
+b) 1, 8
+c) 1, 7
+d) 7, 1
+d
+Output :
+ 7, 1.
+10. What will be the output of the following C# code?
+ namespace ConsoleApplication4 {     class A     {         public int i;         public void display()         {             Console.WriteLine(i);         }     }         class B: A      {         public int j;         public void display()          {             Console.WriteLine(j);         }     }         class Program     {         static void Main(string[] args)         {             B obj = new B();             obj.j = 1;             obj.i = 8;             obj.display();             Console.ReadLine();         }     } }
+a) 8, 1
+b) 8
+c) 1
+d) 1, 8
+c
+Output:
+ 1
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Constructor Overloading» Next - C# Questions & Answers – Interfaces Introduction 

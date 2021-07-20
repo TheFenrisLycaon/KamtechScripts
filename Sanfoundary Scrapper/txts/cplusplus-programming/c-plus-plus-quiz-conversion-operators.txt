@@ -1,0 +1,93 @@
+This section on C++ quiz focuses on “Conversion Operators”. One shall practice these quizzes to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ quiz comes with a detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ quiz on “Conversion Operators” along with answers, explanations and/or solutions:
+1. What is the return type of the conversion operator?
+a) void
+b) int
+c) float
+d) no return type
+d
+2. Why we use the “dynamic_cast” type conversion?
+a) result of the type conversion is a valid
+b) to be used in low memory
+c) result of the type conversion is an invalid
+d) it is used for storage
+a
+3. How many parameters does a conversion operator may take?
+a) 0
+b) 1
+c) 2
+d) as many as possible
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class sample1     {        float i, j;    };    class sample2     {        int x, y;        public:        sample2 (int a, int b)         {             x = a;              y = b;        }        int result()         {              return x + y;         }    };    int main ()     {        sample1 d;        sample2 * padd;        padd = (sample2*) &d;        cout<< padd->result();        return 0;    }
+a) 20
+b) runtime error
+c) random number
+d) runtime error or random number
+d
+Output:
+$ g++ con.cpp
+$ a.out
+14032334
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class sample    {        public:        sample(int i) : m_i(i) { }        public:        int operator()(int i = 0) const         {             return m_i + i;         }        operator int () const           {             return m_i;         }        private:        int m_i;        friend int g(const sample&);    };    int f(char c)    {        return c;    }    int main()    {        sample f(2);        cout << f(2);        return 0;    }
+a) 3
+b) 4
+c) 5
+d) 6
+b
+Output:
+$ g++ con1.cpp
+$ a.out
+4
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <cmath>    using namespace std;    class Complex    {        private:        double real;        double imag;        public:        Complex(double r = 0.0, double i = 0.0) : real(r), imag(i)        {}        double mag()        {              return getMag();        }        operator double ()        {            return getMag();        }        private:        double getMag()        {            return sqrt(real * real + imag * imag);        }    };    int main()    {        Complex com(3.0, 4.0);        cout << com.mag();        cout << com;        return 0    }
+a) 5 5
+b) 4 5
+c) 6 6
+d) 7 5
+a
+Output:
+$ g++ con3.cpp
+$ a.out
+55
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    using namespace std;    class test    {        public:        operator string ()         {              return "Converted";        }    };    int main()    {        test t;        string s = t;        cout << s << endl;        return 0;    }
+a) converted
+b) error
+c) run time error
+d) convertedconverted
+a
+Output:
+$ g++ con4.cpp
+$ a.out
+converted
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        double a = 21.09399;        float b = 10.20;        int c ;        c = (int) a;        cout << c ;        c = (int) b;        cout << c ;        return 0;    }
+a) 2110
+b) 1210
+c) 21
+d) 121
+a
+Output:
+$ g++ con5.cpp
+$ a.out
+2110
+9. How are types therein user-defined conversion?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+10. Pick out the correct syntax of operator conversion.
+a) operator float()const
+b) operator float()
+c) operator const
+d) operator const()
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Complex Number Type» Next - C++ Programming Questions and Answers – Friends 

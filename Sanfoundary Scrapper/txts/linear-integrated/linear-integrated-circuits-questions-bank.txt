@@ -1,0 +1,75 @@
+1. The characteristics of non-inverting amplifier is identical to
+a) Differential Amplifier with one op-amp
+b) Differential Amplifier with two op-amp
+c)  Differential Amplifier with three op-amp
+d) None of the mentioned
+b
+2. How is it possible to vary the voltage from closed loop gain to the open loop gain?
+a) By using differential amplifier with larger gain
+b) By using differential amplifier with small gain
+c) By using differential amplifier with variable gain
+d) By using differential amplifier with differential gain
+c
+3.  A differential amplifier with two op-amps has the following specifications:
+R1=R3=1.5kΩ ; RF=R2=5.7kΩ.  Compute the input resistance for the following circuit.
+a) RIFx = 83GΩ, RIFy = 317GΩ
+b) RIFx = 90GΩ, RIFy = 400GΩ
+c) RIFx = 59GΩ, RIFy = 269GΩ
+d) RIFx = 36GΩ, RIFy = 156GΩ
+a
+=> RIFy = Ri*[1+(A *R2)/( R2+ R3)]
+= RIFy  = 2MΩ*[(1+200000*5.7kΩ)/(5.7kΩ+1.5kΩ)] = 3.166*1011 = 317GΩ.
+Similarly the input resistance of the second stage amplifier is given as RIFx,
+=> RIFx = Ri*[1+(A *R1)/( R1+ RF)]
+= RIFx  = 2MΩ*[(1+200000*1.5kΩ)/(5.7kΩ+1.5kΩ)] = 83GΩ.
+4. Determine the output voltage from the diagram. Where V1=-4.3Vpp and V2 = -5.1Vpp sinewave at 1000hz.
+a) 12  Vpp sinewave at 1000hz
+b) 13.3 Vpp sinewave at 1000hz
+c) 14 Vpp sinewave at 1000hz
+d) 11 Vpp sinewave at 1000hz
+b
+Output voltage , Vo = AD(V1– V2) = 16.62(-4.3Vpp+5.1Vpp) = 13.29 =13.3 Vpp sinewave at 1000hz.
+Join [email protected]
+5. Determine the output resistance of differential amplifier with three op-amp. The op-amp used is  741c, with A=200000 and Ro. The output and difference of input voltages are 44 and 11.
+a) 5.5mΩ
+b) 3.5mΩ
+c) 2.4mΩ
+d) 1.5mΩ
+d
+The output resistance of differential amplifier is given as ROF=Ro/[1+(A/AD)]= 75/[1+(200000/4)] = 1.5mΩ.
+6. Find the input resistance for the given circuit
+a) RIF = Ri*[1+(A*R4+R5)/(2* R4+R5)].
+b) RIF = Ri*[1+(A*R4)/(2* R4+R5)].
+c) RIF = Ri*[1+(A*R4+R5)/(R4+R5)].
+d) None of the mentioned
+a
+From the diagram, B=Vf/Vo = [R4+R5)/(2* R4+R5)].
+Therefore, RIF = Ri*[1+(A*R4+R5)/(2* R4+R5)].
+7. The bandwidth of the differential amplifier increases, if the value of
+a) Open loop voltage gain decreases
+b) Closed loop voltage gain decreases
+c) Differential voltage gain decreases
+d) All of the mentioned
+b
+8. Calculate the bandwidth for the given circuit.(Where the 741 op-amp has gain of 200000).
+a) 560hz
+b) 390khz
+c) 25.6khz
+d) 1.5Mhz
+c
+=> AD = -5*7.8=-39.
+The bandwidth for the circuit is calculated as fF = (A*fo)/AD = (200000*5hz)/39 (For 741 op-amp 5hz is the break frequency)
+=> fF = 25.6khz.
+9. Calculate the output voltage. If Vx=3.9Vpp and Vy = 5.5 Vpp sinewave at 1khz for the following circuit.
+a) 11 Vpp sinewave at 1Khz
+b) -8Vpp Vpp sinewave at 1Khz
+c) -10 Vpp sinewave at 1Khz
+d) 6 Vpp sinewave at 1Khz
+b
+The output voltage, Vo = – AD*(V x– V y) = 5*(3.9-5.5) = -8 Vpp sinewvae at 1Khz.
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice Linear Integrated Circuit Question Bank, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Differential Amplifiers with Multiple Op-Amp – 1» Next - Linear Integrated Circuit Questions and Answers – Input Offset Voltage – 1 

@@ -1,0 +1,68 @@
+1. What will be the output of the following code?
+syms x;limit('(sin(x)/x)',x,Inf,'left')
+a) 0
+b) Nan
+c) Inf
+d) 1
+a
+Output: 0
+2. What will be the output of the following code?
+sym x; limit(ans^2\sin(ans),Inf)
+a) 0
+b) Error
+c) Nan
+d) Cannot be determined
+a
+3. The condition for removal discontinuity is ____________
+a) Left hand limit = right hand limit ≠ function value
+b) Left hand limit ≠ right hand limit = function value
+c) Right hand limit ≠ left hand limit = function value
+d) Left hand limit ≠ right hand limit ≠ function value
+a
+4.  Can we perform infinite series summation in MATLAB?
+a) Yes
+b) No
+c) Cannot be determined
+d) Sometimes
+d
+5. Negative limiting values cannot be applied to logarithmic functions in MATLAB.
+a) True
+b) False
+b
+6. The result of the following code?
+syms x;limit(sin(x)/x,Inf,’right’)
+a) Error due to symbolic argument
+b) Error due to direction of approach of limiting value
+c) 1
+d) 0
+a
+7. To do double limits, we can use __________
+a) limit(limit())
+b) limit( multiple inputs)
+c) cannot be done in MATLAB
+d) lim()
+a
+8. What is the output of the following code?
+syms x y;limit(y*x,1,x,'left','left')
+a) Error
+b) Error due to symbolic argument y
+c) Error due to multiple inputs
+d) y
+c
+9.  What is the output of the following code?
+syms n;limit((1+1/n)^n,Inf,’right’)
+a) Nan
+b) Inf
+c) Error
+d) e(1)
+d
+10. We cannot calculate continuity at infinity in MATLAB.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice  all areas of MATLAB for tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Limits – 1» Next - MATLAB Questions and Answers – Sums and Products – 1 

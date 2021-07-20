@@ -1,0 +1,113 @@
+1. Mean Value Theorem tells about the
+a) Existence of point c in a curve where slope of a tangent to curve is equal to the slope of line joining two points in which curve is continuous and differentiable
+b) Existence of point c in a curve where slope of a tangent to curve is equal to zero
+c) Existence of point c in a curve where curve meets y axis
+d) Existence of point c in a curve where curve meets x axis
+a
+2. If f(a) is euquals to f(b) in Mean Value Theorem, then it becomes
+a) Lebniz Theorem
+b) Rolle’s Theorem
+c) Taylor Series of a function
+d) Leibnit’x Theorem
+b
+f’(c)= [f(b)-f(a)]/(b-a).
+Hence, By putting f(b) = f(a) in the statement of Mean Value Theorem, we get
+f’(c) = [f(b)-f(a)]/(b-a) = 0. Which is a statement of Rolle’s Theorem.
+3. Mean Value theorem is applicable to the
+a) Functions differentiable in closed interval [a, b] and continuous in open interval (a, b)
+b) Functions continuous in closed interval [a, b] only and having same value at point ‘a’ and ‘b’
+c) Functions continuous in closed interval [a, b] and differentiable in open interval (a, b)
+d) Functions differentiable in open interval (a, b) only and having same value at point ‘a’ and ‘b’
+c
+4. Mean Value theorem is also known as
+a) Rolle’s Theorem
+b) Lagrange’s Theorem
+c) Taylor Expansion
+4) Leibnitz’s Theorem
+b
+It is also known as Lagrange’s Theorem.
+5. Find the point c in the curve f(x) = x3 + x2 + x + 1 in the interval [0, 1] where slope of a tangent to a curve is equals to the slope of a line joining (0,1)
+a) 0.64
+b) 0.54
+c) 0.44
+d) 0.34
+b
+f(x) is continuous in given interval [0,1].
+f’(x) = 3x2+2x+1
+Since, value of f’(x) is always finite in interval (0, 1) it is differentiable in interval (0, 1).
+f(0) = 1
+f(1) = 4
+By mean value theorem,
+f’(c) = 3c2 + 2c + 1 = (4-1)/(1-0) = 3
+⇒ c = 0.548,-1.215
+Since c belongs to (0, 1) c = 0.54.
+6. Find the equation of curve whose roots gives the point which lies in the curve f(x) = xSin(x) in the interval [0, π⁄2] where slope of a tangent to a curve is equals to the slope of a line joining (0, π⁄2)
+a) c = -Sec(c) – Tan(c)
+b) c = -Sec(c) – Tan(c)
+c) c = Sec(c) +Tan(c)
+d) c = Sec(c) – Tan(c)
+d
+Since f1(x) = x and f2(x)=Sin(x) both are continuous in interval [0, π⁄2], the curve f(x)=f1(x)f2(x) is also continuous.
+f’(x) = xCos(x) + Sin(x)
+f’(x) always have finite value in interval [0, π⁄2] hence it is differentiable in interval (0, π⁄2).
+f(0) = 0
+f(π⁄2) = π⁄2
+By mean value theorem,
+f’(c) = cCos(c) + Sin(c) = (π⁄2 – 0)/(π⁄2 – 0)=1
+Hence, c = Sec(c) – Tan(c) is the required curve.
+7. Can Mean Value Theorem be applied in the curve
+f(x)=\(\begin{cases}3sin(x)&0<x<\pi/4 \\ sin(x)-cos(x)&\pi/4<x<\pi/2\end{cases}\) 
+a) True
+b) False
+b
+\(\lim_{x\rightarrow π/4-}f(x) = 3Sin(\frac{π}{4}) = 3/\sqrt{2}\) 
+\(\lim_{x\rightarrow π/4+)}f(x) = Sin(π/4)- Cos(π/4) = 0\) 
+Since \(\lim_{x\rightarrowπ/4+} ≠ \lim_{x\rightarrowπ/4-}\) 
+Function f(x) is not continuous hence mean value theorem cannot be applied.
+8. Find point c between [2,9] where, the slope of tangent to the function f(x)=1+\(\sqrt[3]{x-1}\) at point c is equals to the slope of a line joining point (2,f(2)) and (9,f(9)).
+(Providing given function is continuous and differentiable in given interval).
+a) -2.54
+b) 4.56
+c) 4.0
+d) 4.9
+b
+f(2) = 2
+f(9) = 3
+Applying mean value theorem,
+f’(c) = 1/3\(\sqrt[3]{x-1}\)(c-1)2 = [f(9)-f(2)]/(9-2) = 1/7
+c = 1 &pm; (7/3)(3/2)
+c = 4.56,-2.54
+Since c lies in (2,9), c = 4.56.
+9. Find point c between [-1,6] where, the slope of tangent to the function f(x) = x2+3x+2 at point c is equals to the slope of a line joining point (-1,f(-1)) and (6,f(6)).
+(Providing given function is continuous and differentiable in given interval).
+a) 2.5
+b) 0.5
+c) -0.5
+d) -2.5
+a
+f(-1) = 0
+f(6) = 56
+Applying mean value theorem,
+f’(c) = 2c+3 = [f(6)-f(-1)]/[6-(-1)] = 56/7 = 8
+c = 5/2
+c = 2.5.
+10. If f(x) = Sin(x)Cos(x) is continuous and differentiable in interval (0, x) then
+a) 1<\(\frac{Cos(x)Sin(x)}{x}\) <Sin(2x)
+b) 1<\(\frac{Cos(x)Sin(x)}{x}\) <Cos(2x)
+c) 1<\(\frac{Cos(x)Sin(x)}{x}\) <xCos(2x)
+d) 1<\(\frac{Cos(x)Sin(x)}{x}\) <1+Cos(2x)
+b
+Given f(x) is continuous and differentiable in interval (0, x),
+Applying mean value theorem in interval (0, x)
+f’(c) = Cos(2c) = [f(x)-f(0)]/[x-0] = \(\frac{Cos(x)Sin(x)}{x}\) ……………………. (1)
+Now, Given
+0 < c < x
+Multiplying by 2 and taking Cos, We get
+1 < Cos(2c) < Cos(2x)
+1 < \(\frac{Cos(x)Sin(x)}{x}\) < Cos(2x).
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Lagrange’s Mean Value Theorem – 1» Next - Differential Calculus Questions and Answers – Cauchy’s  Mean Value Theorem 

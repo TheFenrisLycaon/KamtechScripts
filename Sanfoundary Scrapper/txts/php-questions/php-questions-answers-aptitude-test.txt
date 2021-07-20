@@ -1,0 +1,76 @@
+1. What will be the output of the following PHP code?
+<?php    function A1($x)    {        switch($x)        {        case 1:             //this statement is the same as if($x == 1)            echo 'Case 1 was executed.';            break;        case 2:             //this statement is the same as if($x == 2)            echo 'Case 2 was executed.';            break;        case 3:             //this statement is the same as if($x == 3)            echo 'Case 3 was executed.';            break;        case 4:             //this statement is the same as if($x == 4)            echo 'Case 4 was executed.';            break;        default:             //this statement is the same as if $x does not equal the other conditions            echo 'Default was executed.';            break;         }    }    A1(9);?>
+a) Case 1 was executed
+b) Case 2 was executed
+c) Default was executed
+d) Case 4 was executed
+d
+2. What will be the output of the following PHP code?
+<?php    function uppercase($string)    {        echo ucwords($string);    }    $wow = "uppercase";    $wow("Time to live king size");?>
+a) TIME TO LIVE KING SIZE
+b) Time to live king size
+c) Uppercase
+d) Time To Live King Size
+d
+3. What will be the output of the following PHP code?
+<?php    function TV($string)    {        echo "my favourite TV show is ".$string;        function b()        {            echo " I am here to spoil this code";        }    }    b();?>
+a) I am here to spoil this code
+b) Error
+c) My favourite TV show isI am here to spoil this code
+d) None of the mentioned
+b
+4. What will be the output of the following PHP code?
+<?php    function TV($string)    {        echo "my favourite TV show is ".$string;        function b()        {            echo " I am here to spoil this code";        }    }    function b()    {        echo " I am here to spoil this code";    }    b();?>
+a) I am here to spoil this code
+b) Error
+c) my favourite TV show isI am here to spoil this code
+d) None of the mentioned
+a
+5. What will be the output of the following PHP code?
+<?php    function TV($string)    {        echo "my favourite TV show is ".$string;        function b()        {            echo " I am here to spoil this code";        }    }    function b()    {        echo " I am here to spoil this code";    }    b();    TV("Sherlock");?>
+a) I am here to spoil this code
+b) Error
+c) My favourite TV show isI am here to spoil this code
+d) None of the mentioned
+b
+6. What will be the output of the following PHP code?
+<?php    function TV($string)    {        echo "my favourite TV show is ".$string;        function b()        {            echo " I am here to spoil this code";        }    }    a("Sherlock");    b();?>
+a) I am here to spoil this code
+b) Error
+c) my favourite TV show is SherlockI am here to spoil this code
+d) None of the mentioned
+c
+7. What will be the output of the following PHP code?
+<?php    function calc($num1, $num2)    {        $total = $num1 * $num2;     }    $result = calc(42, 0);    echo $result;    ?>
+a) Error
+b) 0
+c) 42
+d) 84
+a
+8. What will be the output of the following PHP code?
+<?php    function calc($num1, $num2)    {        $total = $num1 * $num2;        return $total;     }    $result = calc(42, 0);    echo $result;    ?>
+a) Error
+b) 0
+c) 42
+d) 84
+b
+9. What will be the output of the following PHP code?
+<?php    $var = 10;    function one()    {        echo $var;    }    one();?>
+a) Error
+b) 10
+c) No Output
+d) None of the Mentioned
+c
+10. What will be the output of the following PHP code?
+<?php    function mine($m)    {        if ($m < 0)            echo "less than 0";        if ($ >= 0)            echo "Not True";    }    mine(0);?>
+a) Less Than 0
+b) Not True
+c) No Output
+d) None of the Mentioned
+b
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all areas of PHP for Aptitude test, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Functions – 3» Next - PHP Coding Questions and Answers – Functions – 5 

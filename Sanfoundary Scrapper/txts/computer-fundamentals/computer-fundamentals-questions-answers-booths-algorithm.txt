@@ -1,0 +1,71 @@
+1. Which of the following is used for binary multiplication?
+a) Restoring Multiplication
+b) Booth’s Algorithm
+c) Pascal’s Rule
+d) Digit-by-digit multiplication
+b
+2. One extra bit is added on the left of a binary number, in case of Binary Multiplication using Booth’s Algorithm.
+a) True
+b) False
+a
+Let us take an example if we multiply 2  * – 3.
+The first step is to obtain the binary equivalents.
+Hence, 2=10 and -3=01.
+Now after adding the extra bit 2=010 and -3=101.
+We add 0 in case of positive numbers whereas 1 in negative numbers.
+3. The binary number obtained after applying RSC on 11010 will be  ___________
+a) 11101
+b) 10100
+c) 01101
+d) 01000
+c
+4.  The result of  >> of 11001 by 3-bits will be ______________
+a) 01000
+b) 01111
+c) 00011
+d) 11111
+a
+Applying >>(left-shift) by 3-bits on the number 11001 will result in 3 zeroes on the right, i.e., 01000. 
+5. Booth’s Algorithm is applied on _____________
+a) decimal numbers
+b) binary numbers
+c) hexadecimal numbers
+d) octal Numbers
+b
+Although, the values of other number systems can be converted to binary, and then the multiplication could be performed.  
+6. If Booth’s Multiplication is performed on the numbers 22*3, then what is 3 referred to as __________
+a) accumulator
+b) multiplicand
+c) quotient
+d) multiplier
+d
+7. What is the default value of accumulator in booth’s multiplication of two 4-bit binary numbers?
+a) 0
+b) 1
+c) 0000
+d) 00000
+d
+8. What is the value of n in multiplication of 110* 1000?
+a) 2
+b) 3
+c) 4
+d) 0
+c
+9. What will be the value obtained after multiplication of (-2) * (-3) using Booth’s Algorithm?
+a) 6
+b) -6
+c) -2
+d) -3
+a
+10. What does the data transfer instruction STA stand for?
+a) Store Accumulator
+b) Send Accumulator
+c) Send Action
+d) Store Action
+a
+Sanfoundry Global Education & Learning Series – Computer Fundamentals.
+To practice all areas of Computer Fundamentals, here is complete set of 1000+ Multiple Choice Questions and Answers.  
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Fundamentals Questions and Answers – Sign Magnitude» Next - Computer Fundamentals Questions and Answers – Complements 

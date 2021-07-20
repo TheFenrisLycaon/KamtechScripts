@@ -1,0 +1,64 @@
+1. The creation of a stored program is similar to the definition of a _______________
+a) Trigger
+b) Event
+c) View
+d) Table
+c
+2. When the security context enables carefully written stored programs to be set up that provide controlled access to tables for users, it is called __________
+a) good
+b) bad
+c) illegal
+d) fare
+a
+3. When a user creates a stored program that accesses sensitive data but forgets that other people who can invoke the object have the same access, the security context is __________
+a) good
+b) bad
+c) illegal
+d) fare
+b
+4. Triggers and events are invoked automatically by the server.
+a) True
+b) False
+a
+5. A stored procedure is invoked using the statement __________
+a) INVOKE
+b) SEE
+c) CALL
+d) RETURN
+c
+6. What produces result sets?
+a) View
+b) SELECT
+c) Stored function
+d) Trigger
+a
+7. Which privilege is enabled to create of alter a stored function?
+a) SUPER
+b) PRIOR
+c) TOP
+d) SUPERIOR
+a
+8. The locking statements LOCK TABLES and UNLOCK TABLES are not permitted in stored routines.
+a) True
+b) False
+a
+9. How many of the following can be used in stored procedures?
+PREPARE, EXECUTE, DEALLOCATE PREPARE
+a) 0
+b) 1
+c) 2
+d) 3
+d
+10. How many of the following can be used in stored functions?
+PREPARE, EXECUTE, DEALLOCATE PREPARE
+a) 0
+b) 1
+c) 2
+d) 3
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Problems, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Events» Next - MySQL Questions and Answers – Using Indexing 

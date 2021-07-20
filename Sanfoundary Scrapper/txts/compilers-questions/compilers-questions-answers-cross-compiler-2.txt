@@ -1,0 +1,137 @@
+1. If we compile the sam.c file with the command “gcc -o sam sam.c”, then the executable file will be?
+a) a.out
+b) sam
+c) sam.out
+d) None of the mentioned
+b
+2. What will be output of the following code?
+#include<stdio.h>
+int main()
+{
+    printf("%d\t",sizeof(6.5));
+    printf("%d\t",sizeof(90000));
+    printf("%d",sizeof('A'));
+    return 0;
+}
+a) 8 4 2
+b) 8 4 2
+c) 8 4 4
+d) 8 4 3
+c
+double is 8 byte
+long int is 8 byte
+Character constant is 2 byte.
+3. What will be output of the following c code? ( according to GCC compiler)
+#include<stdio.h>
+int main()
+{
+    signed x;
+    unsigned y;
+    x = 10 +- 10u + 10u +- 10;
+    y = x;
+    if(x==y)
+         printf("%d %d",x,y);
+    else if(x!=y)
+         printf("%u  %u",x,y);
+    return 0;
+}
+a) 0 0
+b) 65536  -10
+c) 0 65536
+d) Compilation error
+a
+x = 10 +- 10u + 10u +- 10;
+10: It is signed integer constant.
+10u: It is unsigned integer constant.
+X: It is signed integer variable.
+As we know operators enjoy higher precedence than binary operators. So
+x = 10 + (-10u) + 10u + (-10);
+  = 10 + -10 + 10 + (-10);
+  = 0
+So, Corresponding signed value of unsigned 10u is +10.
+4. What will be output of the following c code?
+#include<stdio.h>
+int main()
+{
+    const int *p;
+    int a=10;
+    p=&a;
+    printf("%d",*p);
+    return 0;
+}
+a) 0
+b) 10
+c) Garbage Value
+d) Any Memory address
+b
+const int *p;
+p can keep address of constant integer.
+5. What will be output of the following c code?
+#include<stdio.h>
+int main()
+{
+    int a= sizeof(signed) +sizeof(unsigned);
+    int b=sizeof(const)+sizeof(volatile);
+    printf("%d",a+++b);
+    return 0;
+}
+a) 10
+b) 9
+c) 8
+d) Error
+c
+Now, a+++b
+= a++ + b
+= 4 + 4  //due to post increment operator.
+=8
+But in Linux gcc compiler size of int is 4 byte so your out will be 16.
+6. Which of the following is integral data type?
+a) void
+b) char
+c) float
+d) double
+b
+Expanation: In c char is integral data type. It stores the ASCII value.
+7. What will be output of the following c code?
+#include<stdio.h>
+int main()
+{
+    volatile int a=11;
+    printf("%d",a);
+    return 0;
+}
+a) 11
+b) Garbage
+c) -2
+d) Cannot Predict
+d
+8. What will be output of the following c code?
+#include<stdio.h>
+const enum Alpha
+{
+      X,
+      Y=5,
+      Z
+}p=10;
+int main()
+{
+    enum Alpha a,b;
+    a= X;
+    b= Z;
+    printf("%d",a+b-p); 
+    return 0; 
+}
+a) -4
+b) -5
+c) 10
+d) 11
+a
+Z = Y + 1 = 5 + 1 = 6
+So, a + b – p
+=0 + 6 -10 = -4.
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – Cross Compiler – 1» Next - Compilers Questions and Answers – Lexical Analysis – 1 

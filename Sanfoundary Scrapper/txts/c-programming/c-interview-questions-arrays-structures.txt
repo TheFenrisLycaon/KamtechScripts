@@ -1,0 +1,64 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Philips and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Philips interviews on C Programming language. 
+Here is a listing of C interview questions on “Arrays of Structures” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    struct point    {        int x;        int y;    };    void foo(struct point*);    int main()    {        struct point p1[]  =  {1, 2, 3, 4};        foo(p1);    }    void foo(struct point p[])    {        printf("%d\n", p[1].x);    }
+a) Compile time error
+b) 3
+c) 2
+d) 1
+b
+2. What will be the output of the following C code?
+    #include <stdio.h>    struct point    {        int x;        int y;    };    void foo(struct point*);    int main()    {        struct point p1[] = {1, 2, 3, 4};        foo(p1);    }    void foo(struct point p[])    {        printf("%d\n", p->x);    }
+a) 1
+b) 2
+c) 3
+d) Compile time error
+a
+3. What will be the output of the following C code?
+    #include <stdio.h>    struct point    {        int x;        int y;    };    void foo(struct point*);    int main()    {        struct point p1[] = {1, 2, 3, 4};        foo(p1);    }    void foo(struct point p[])    {        printf("%d %d\n", p->x, ++p->x);    }
+a) 1 2
+b) 2 2
+c) Compile time error
+d) Undefined behaviour
+b
+4. What will be the output of the following C code?
+    #include <stdio.h>    struct point    {        int x;        int y;    } p[] = {1, 2, 3, 4, 5};    void foo(struct point*);    int main()    {        foo(p);    }    void foo(struct point p[])    {        printf("%d %d\n", p->x, p[2].y);    }
+a) 1 0
+b) Compile time error
+c) 1 somegarbagevalue
+d) Undefined behaviour
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    struct point    {        int x;        int y;    };    void foo(struct point*);    int main()    {        struct point p1[] = {1, 2, 3, 4, 5};        foo(p1);    }    void foo(struct point p[])    {        printf("%d %d\n", p->x, p[3].y);    }
+a) Compile time error
+b) 1 0
+c) 1 somegarbagevalue
+d) None of the mentioned
+c
+6. What will be the output of the following C code?
+    #include <stdio.h>    struct point    {        int x;        int y;    };    void foo(struct point*);    int main()    {        struct point p1[] = {1, 2, 3, 4, 5};        foo(p1);    }    void foo(struct point p[])    {        printf("%d %d\n", p->x, (p + 2).y);    }
+a) Compile time error
+b) 1 0
+c) 1 somegarbagevalue
+d) Undefined behaviour
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    struct point    {        int x;        int y;    };    void foo(struct point*);    int main()    {        struct point p1[] = {1, 2, 3, 4, 5};        foo(p1);    }    void foo(struct point p[])    {        printf("%d %d\n", p->x, (p + 2)->y);    }
+a) Compile time error
+b) 1 0
+c) 1 somegarbagevalue
+d) undefined behaviour
+b
+8. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *c;    };    void main()    {        struct student s[2];        printf("%d", sizeof(s));    }
+a) 2
+b) 4
+c) 16
+d) 8
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Arrays of Structures – 1» Next - C Programming Questions and Answers – Pointer to Structures – 1 

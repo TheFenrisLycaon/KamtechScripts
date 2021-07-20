@@ -1,0 +1,72 @@
+1. In AES, to make the s-box, we apply the transformation –
+b’i = bi XOR b(i+4) XOR b(i+5) XOR b(i+6) XOR b(i+7) XOR ci
+What is ci in this transformation?
+a) ci is the ith bit of byte c with value 0x63
+b) ci is the ith bit of byte c with value 0x25
+c) ci is the ith bit of byte c with value 0x8F
+d) ci is the ith bit of byte c with value 0x8A
+a
+c = 01100011
+2. The inverse s-box permutation follows,
+ b’i = b(i+2) XOR b(i+5) XOR b(i+7) XOR di
+Here di is –
+a) di is the ith bit of a byte ‘d’ whose hex value is 0x15
+b) di is the ith bit of a byte ‘d’ whose hex value is 0x05
+c) di is the ith bit of a byte ‘d’ whose hex value is 0x25
+d) di is the ith bit of a byte ‘d’ whose hex value is 0x51
+b
+3. What is the block size in the Simplified AES algorithm?
+a) 8 bits
+b) 40 bits
+c) 16 bits
+d) 36 bits
+b
+4. Which function can be used in AES multiplication –
+a) m(x)=x7+x4+x3
+b) m(x)=x8+x4+x3+x+1
+c) m(x)=x8+x3+x2+x+1
+d) m(x)=x8+x5+x3+x
+b
+5. In the DES algorithm the Round Input is 32 bits, which is expanded to 48 bits via ______________
+a) Scaling of the existing bits
+b) Duplication of the existing bits
+c) Addition of zeros
+d) Addition of ones
+a
+6. Using Differential Crypt-analysis, the minimum computations required to decipher the DES algorithm is-
+a) 256
+b) 243
+c) 255
+d) 247
+d
+7. Using SDES, the Plaintext for the Ciphertext 00001111, given that the key is 1111111111 is,
+a) 01100111
+b) 00001010
+c) 11111111
+d) 01101101
+c
+8. 12. For p = 11 and q = 17 and choose e=7. Apply RSA algorithm where Cipher message=11 and thus find the plain text.
+a) 88
+b) 122
+c) 143
+d) 111
+a
+C=M^e mod n ;  C=11^23 mod 187 ; C = 88 mod 187.
+9. Reduce the following Big-O notation. O[ ax7 + 3 x3 + sin(x)] =
+a) O[ax7].
+b) O[sin(x)].
+c) O[x7].
+d) O[x7 + x3].
+c
+10. Reduce the following Big-O notation. O[ en + an10] =
+a) O[ an10].
+b) O[ n10 ].
+c) O[ en ].
+d) O[ en+ n10 ].
+c
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice basic questions on all areas of Cryptography , here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Cryptography Questions and Answers – Overview – III» Next - Networking Questions and Answers – Topologies 

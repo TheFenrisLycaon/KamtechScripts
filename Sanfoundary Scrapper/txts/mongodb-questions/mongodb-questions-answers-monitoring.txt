@@ -1,0 +1,56 @@
+1. ___________ captures and returns the counts of database operations by type.
+a) mongostat
+b) mongod
+c) mms
+d) all of the mentioned
+a
+2. Point out the correct statement.
+a) Database commands cannot return statistics regarding the current database state with greater fidelity
+b) Monitoring is a critical component of all database administration
+c) The MongoDB distribution does not include utilities that quickly return statistics about instances’ performance and activity
+d) All of the mentioned
+a
+3. _________ tracks and reports the current read and write activity of a MongoDB instance, and reports these statistics on a per collection basis.
+a) mongostat
+b) mongod
+c) mongotop
+d) all of the mentioned
+c
+4. _______ method is useful tool for identifying the database instance’s in-progress operations.
+a) db.current
+b) db.currentOp
+c) db.Op
+d) none of the mentioned
+b
+5. Point out the correct statement.
+a) MMS offers point in time recovery of MongoDB replica sets
+b) MongoDB provides a web interface that exposes diagnostic and monitoring information in a simple web page
+c) db.Status() outputs an account of the state of a MongoDB instance
+d) None of the mentioned
+b
+6. ___________ returns a general overview of the status of the database, detailing disk usage, memory use, connection, journaling, and index access.
+a) dbStats
+b) db.serverStatus()
+c) db.stats()
+d) none of the mentioned
+b
+7. The ________ reflect the amount of storage used, the quantity of data contained in the database, and object, collection, and index counters.
+a) dbStats
+b) db.serverStatus()
+c) db.statserver()
+d) none of the mentioned
+a
+8. ________ provides statistics that resemble dbStats on the collection level.
+a) dbStats
+b) db.serverStatus()
+c) db.statserver()
+d) collstats
+d
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+	
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – MongoDB Backup» Next - MongoDB Questions and Answers – Run-time Database Configuration 

@@ -1,0 +1,136 @@
+1. In the circuit given below, the resonant frequency is ____________
+a) \(\frac{1}{2π\sqrt{3}}\) Hz
+b) \(\frac{1}{4π\sqrt{3}}\) Hz
+c) \(\frac{1}{4π\sqrt{2}}\) Hz
+d) \(\frac{1}{2π\sqrt{6}}\) Hz
+d
+Here, LEQ = 2 + 2 + 2 × 1 = 6
+So, C = 1 F
+FR = \(\frac{1}{2π\sqrt{6 × 1}} = \frac{1}{2π\sqrt{6}}\) Hz.
+2. A coil is designed for high Q performance at a rated voltage and a specified frequency. If the frequency is made twice the original and the coil is operated at the same rated voltage, then the Q factor will be affected as ____________
+a) Q is halved
+b) Q remains unchanged
+c) Q is doubled
+d) Q increases or decreases but magnitude cannot be measured
+c
+∴ Q2 = \(\frac{2ω_1 L}{R}\) = 2Q1
+∴ Q is doubled.
+3. A coil is designed for high Q performance at a rated voltage and a specified frequency. If the frequency is made twice the original and the coil is operated at the same rated voltage, then the active power P will be affected as ____________
+a) P is halved
+b) P remains unchanged
+c) P is doubled
+d) P decreases 4 times
+d
+For a high current coil, ωL >> R
+I2 = \(\frac{V_1}{2ω_1 L} = \frac{I_1}{2}\) 
+∴ P2 = R (\(\frac{I_1}{2}\))2 = \(\frac{P_1}{4}\) 
+Therefore, P decreases 4 times.
+4. In the figure given below, the time constant of the circuit is ______________
+a) 2RC
+b) 3RC
+c) \(\frac{RC}{2}\) 
+d) \(\frac{2RC}{3}\) 
+d
+Resistance faced by C with the source shorted,
+REQ = \(\frac{R × 2R}{3R} = \frac{2R}{3}\) 
+Time constant of the circuit, τ = REQ × C
+= \(\frac{2R}{3} × C = \frac{2}{3}\) RC.
+5. The effective inductance of the circuit across the terminals A, B is _______________
+a) 9 H
+b) 21 H
+c) 11 H
+d) 6 H
+c
+= L1 + L2 + L3 – 2M12 – 2M13 + 2M23
+= 4 + 5 + 6 – 2(1) – 2(3) + 2(2)
+= 15 + 4 – 2 – 6 = 11 H.
+6. The inductance of a certain moving- iron ammeter is expressed as L = 10 + 3θ – \(\frac{θ^2}{4}\) μH, where θ is the deflection in radian from the zero position. The control spring torque is 25 × 10-6 Nm/rad. If the meter is carrying a current of 5 A, the deflection is ____________
+a) 2.4
+b) 2.0
+c) 1.2
+d) 1.0
+c
+Kθ = \(\frac{1}{2} I^2  \frac{dL}{dθ}\) 
+(25 × 10-6) θ = \(\frac{1}{2} I^2 (3 – \frac{θ}{2}) × 10^{-6}\) 
+∴ 2 θ + \(\frac{θ}{2}\) = 3
+Or, θ = 1.2.
+7. A 50 Hz voltage is measured with a moving iron voltmeter and a rectifier type AC voltmeter connected in parallel. If the meter readings are VA and VB respectively. Then the form factor may be estimated as?
+a) \(\frac{V_A}{V_B}\) 
+b) \(\frac{1.11V_A}{V_B}\) 
+c) \(\frac{\sqrt{2} V_A}{V_B}\) 
+d) \(\frac{πV_A}{V_B}\) 
+b
+Moving iron instrument will show rms value. Rectifier voltmeter is calibrated to read rms value of sinusoidal voltage that is, with form factor of 1.11.
+∴ Mean value of the applied voltage = \(\frac{V_B}{1.11}\) 
+∴ Form factor = \(\frac{V_A}{V_B/1.11} = \frac{1.11V_A}{V_B}\).
+8. A (350 A/7A), 50 Hz current transformer has a primary bar. The secondary has a pure resistance of 1 Ω. It also draws a current of 5 A. The magnetic core requires 350 AT for magnetization. Find the percentage ratio error.
+a) 10.56
+b) -28.57
+c) 11.80
+d) -11.80
+b
+Ip = \(((nI_s^2)^2 + (I_m^2)^2)^{0.5}\) = 490.05
+Or, n = \(\frac{350}{7}\) = 50
+∴ R = \(\frac{I_P}{I_S}  = \frac{490.05}{7}\) = 70
+∴ Percentage ratio error = \(\frac{50-70}{70}\) × 100 = -28.57%.
+9. The CT supplies current to the current coil of a wattmeter power factor meter, energy meter and, an ammeter. These are connected as?
+a) All coils in parallel
+b) All coils in series
+c) Series-parallel connection with two in each arm
+d) Series-parallel connection with one in each arm
+b
+10. A current of [2 + \(\sqrt{2}\)sin (314t + 30) + 2\(\sqrt{2}\)cos (952t +45)] is measured with a thermocouple type, 5A full scale, class 1 meter. The meter reading would lie in the range?
+a) 5 A ± 1 %
+b) (2 + 3\(\sqrt{2}\)) A ± 1%
+c) 3 A ± 1.7 %
+d) 2 A ± 2.5 %
+c
+Thermocouple measure the rms value of current.
+Irms = \(\Big[2^2 + \left(\frac{\sqrt{2}}{\sqrt{2}}\right)^2 + \left(\frac{2\sqrt{2}}{\sqrt{2}}\right)^2\Big]^{1/2} = \sqrt{9}\) = 3 A ± 1.7%.
+11. The average power absorbed by an impedance Z = 30 – j 70 Ω when a voltage V = 120∠0° is applied is _____________
+a) 35
+b) 37.24
+c) 45
+d) 50.25
+b
+I = \(\frac{V}{Z} = \frac{120∠0°}{30-j70}\) 
+= \(\frac{120∠0°}{76.16∠-66.8°}\) 
+= 1.576∠66.8° A
+The average power is, P = 0.5VmImcos (θv – θi)
+= 0.5(120) (1.576) cos (0 – 66.8°)
+= 37.24 W.
+12. A moving iron ammeter produces a full-scale torque of 240 μN-m with a deflection of 120° at a current of 10 A. the rate of change of self-inductance (μH/rad) of the instrument at full scale is?
+a) 2.0 μH/rad
+b) 4.8 μH/rad
+c) 12.0 μH/rad
+d) 114.6 μH/rad
+b
+ \(\frac{1}{2} 10^2 \frac{dL}{dθ}\) = 240 × 10-6
+∴ \(\frac{dL}{dθ}\) = 4.8 μH/rad.
+13. The relation between the Q factor of a coil measured by the Q Meter and the actual Q of the coil is _________
+a) Equal to
+b) Same but somewhat lesser than
+c) Same but somewhat higher than
+d) Not equal to
+b
+14. Consider a circuit consisting of two capacitors C1 and C2. Let R be the resistance and L be the inductance which are connected in series. Let Q1 and Q2 be the quality factor for the two capacitors. While measuring the Q value by the Series Connection method, the value of the Q factor is?
+a) Q = \(\frac{(C_1 – C_2) Q_1 Q_2}{Q_1 C_1-Q_2 C_2}\) 
+b) Q = \(\frac{(C_2 – C_1) Q_1 Q_2}{Q_1 C_1-Q_2 C_2}\) 
+c) Q = \(\frac{(C_1 – C_2) Q_1 Q_2}{Q_2 C_2-Q_1 C_1}\) 
+d) Q = \(\frac{(C_2 – C_1) C_1 C_2}{Q_1 C_1-Q_2 C_2}\) 
+a
+XS = \(\frac{C_1 – C_2}{ωC_1 C_2}\), RS = \(\frac{Q_1 C_1 – Q_2 C_2}{ωC_1 C_2 Q_1 Q_2}\) 
+QX = \(\frac{X_S}{R_S}  = \frac{(C_1 – C_2) Q_1 Q_2}{Q_1 C_1-Q_2 C_2}\).
+15. The meter constant of a single-phase, 230 V induction watt-meter is 600 rev/kW-h. The speed of the meter disc for a current of 15 A at 0.8 power factor lagging will be?
+a) 30.3 rpm
+b) 25.02 rpm
+c) 27.6 rpm
+d) 33.1 rpm
+c
+               ∴ Speed in rpm = \(\frac{1656}{60}\) = 27.6 rpm.
+Sanfoundry Global Education & Learning Series – Network Theory.
+To practice Tricky questions and answers on all areas of Network Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Theory Questions and Answers – Advanced Problems on Magnetically Coupled Circuits – 1» Next - Network Theory Questions and Answers – Polyphase System 

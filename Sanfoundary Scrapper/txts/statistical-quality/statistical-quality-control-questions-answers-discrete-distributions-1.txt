@@ -1,0 +1,97 @@
+1. What will be the variance of the sample following hyper geometric distribution and having 5 items defective in 100 lot items, if 10 samples are taken without replacement?
+a) 0.431818
+b) 0.410023
+c) 0.483838
+d) 0.568898
+a
+\(\sigma^2 = \frac{nD}{N} (1-\frac{D}{n})(\frac{N-n}{N-1})\)
+Putting, N=100, n=10, D=5; we get variance=0.431818.
+2. For a Poisson distribution, parameter λ is having a value of 7. What is the variance for the distribution?
+a) 2.64
+b) 2.78
+c)  7
+d) 14
+c
+3. For 9 Bernoulli trials, what will be the mean of trials when the probability of failure is 0.56?
+a) 5.04
+b) 1.74
+c) 3.96
+d) 2.82
+c
+ p = 1 – 0.56 = 0.44.
+Using this, we get;
+mean= np=9*0.44=3.96.
+4. In sample fraction defective, the   ̂ symbol represents that ______
+a) p ̂  is an estimate of the true value of binomial parameter p
+b) It is the “raised to power” operator
+c) It is having no significance
+d) It is the true value of binomial parameter p
+a
+5. For a Pascal distribution, the probability of occurrence of a event x is given by _____
+a) \(p(x)=\left(x-1 \atop r-1\right) p^x (1-p)^{x-r}\) 
+b) \(p(x)=\left(r-1 \atop x-1\right) p^x (1-p)^{x-r}\) 
+c) \(p(x)=\left(x-1 \atop r-1\right) p^x (1-p)^{1-r}\) 
+d) \(p(x)=\left(x-1 \atop r-1\right) p^x (1-p)^{x-1}\) 
+a
+\(p(x)=\left(x-1 \atop r-1\right) p^x (1-p)^{x-r}\) 
+Where x=r, r+1, r+2… and r≥1 is an integer.
+6. When is Pascal distribution, called negative binomial distribution?
+a) When r>0 but not necessarily an integer
+b) When r<0 but an integer
+c) When r>3 and an integer
+d) When r=0 and an integer
+a
+7. When r=1 in a Pascal distribution, what is this case called?
+a) Negative binomial distribution
+b) Positive binomial distribution
+c) Hyper geometric distribution
+d) Geometric distribution
+d
+8. Lognormal distributions are a part of discrete distributions.
+a) True
+b) False
+b
+9. Which of the expression represents the mean of Pascal distribution?
+a) r/p
+b) np
+c) nD/N
+d) np(1-p)
+a
+μ=r/p
+Where r > 1 and an integer and p is probability of success. 
+10. The equation of variance, i.e. σ2=\(\frac{r(1-p)}{p^2}\) is true for _____
+a) Hyper geometric distribution
+b) Pascal Distribution
+c) Normal distribution
+d) Binomial distribution
+b
+11. Bernoulli trials are a part of _____ probability distribution.
+a) Poisson
+b) Binomial
+c) Hyper geometric
+d) Normal
+b
+12. \( \left(a \atop b\right)\) is expanded as __________
+a) \(\frac{a!}{b!}\) 
+b) \(\frac{a!}{b!(a-b)!}\) 
+c) \(\frac{a!}{b!(b-a)!}\) 
+d) \(\frac{b!}{a!}\) 
+b
+13. For a Pascal distribution; r=3 and the probability of success is 0.7895. What will be the value of “σ”?
+a) 1.0131
+b) 3
+c) 1.0065
+d) 1.7320
+c
+σ2=r(1-p)/p2
+Evaluation of the above equation using the values r=3 and p=0.7895, we get, σ=1.0063.
+14. For evaluation probability of measurement of length of a part being a certain value, discrete probability distributions can be used.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Modeling Process Quality – Describing Variation – 2» Next - Statistical Quality Control Questions and Answers – Modeling Process Quality – Discrete Distributions – 2 

@@ -1,0 +1,96 @@
+1. If channel length modulation is present, what is the voltage gain?
+a) ro1 / {(1/gm1 || ro2) + ro1}
+b) ro2 / (1/gm1 + ro1)
+c) ro2 / (1/gm1 + 3ro2)
+d) ro2 / (2/gm1 + ro2)
+a
+2. If channel length modulation is present, what is the impedance looking into node X?
+a) (1/gm2 || ro2 || 1/gm1)
+b) (1/gm2 || 1/gm1 || ro1)
+c) (1/gm2 || ro2 || 12/gm1 || ro1)
+d) (1/gm2 || ro2 || 1/gm1 || ro1)
+d
+3. If channel length modulation is present in M1 but not in M2, what is the voltage gain at node X?
+a) (1/gm2 || ro2) / {1/gm2 + ( 1/gm1 || ro1)}
+b) (1/gm1 || ro1) / (1/gm2 + ro1)
+c) 1/gm1 / (1/gm2 +  1/gm1)
+d) 1/gm1 / {1/gm2 + (1/gm1 || ro1)}
+a
+4. The follower stage provides _____ input impedance.
+a) low
+b) equal
+c) very high
+d) very low
+c
+5. The output impedance of the follower is _____________
+a) Low
+b) Very low
+c) Depends on it’s transconductance and low
+d) High
+c
+6. The follower stage is mostly used as a ____________
+a) Current source
+b) Buffer stage
+c) Amplifier
+d) Switch
+b
+7. Assume µnCox = 100 µA/V2 and supply current is 5mA, what should be the aspect ratio so that a 50 Ω load can be used to give a voltage gain of .25 in C.D. configuration?
+a) 32.6
+b) 50
+c) 40
+d) 41
+a
+8. If maximum power is transferred to the load R1, the transconductance is .02 and channel length modulation is neglected, what should be the value of the load?
+a) 50 Ω
+b) 32 Ω
+c) 16 Ω
+d) 10 Ω
+a
+9. If g is the transconductance and r is the resistance due to channel length modulation – what is the total voltage gain if only M1 has channel length modulation?
+a) R / ((1/g || r ) + R) * g *R * R / (1/g + R)
+b) R / ((1/g || r ) + R) * g *R * R * g
+c) R / ((1/g || r )) * g *R * R / (1/g + R)
+d) R / ((1/g ) + R) * g *R * R / (1/g + R)
+a
+10. If g is the transconductance and r is the resistance due to channel length modulation – what is the total voltage gain if both M2 and M3 has channel length modulation?
+a) R/ ((1/g || r) + R) * g * (R || r) * R * g
+b) R/ ((1/g + R) * g * (R || r) * R/ ((1/g || r) + R)
+c) R/ ((1/g || r)) * g *R * R/ ((1/g || r) + R)
+d) R/ ((1/g ) + R) * g *R * R *2g
+b
+11. If g is the transconductance and r is the resistance due to channel length modulation – what is the total voltage gain if both M1 and M3 has channel length modulation?
+a) R / ((1/g || r) + R) * g * R * R / ((1/gm || r))
+b) R / ((1/g + 4R) * g * R / ((1/g || r) + 3R)
+c) R / ((1/g || r)) * g *R * R / ((1/g || r) + 2R)
+d) R / ((1/g) * R * R * g * 4g
+a
+12. Neglecting Channel Length Modulation, if the transconductance of the MOSFET increases, the gain of the follower stage will _________
+a) decreases
+b) increases
+c) doesn’t get affected
+d) doubles
+b
+13. Neglecting Channel Length Modulation, if the aspect ratio of the MOSFET increases, the gain of the follower stage will _________
+a) increase
+b) decrease
+c) increases proportionately
+d) doesn’t get affected
+a
+14. Neglecting Channel Length Modulation, if the transconductance increases, the input impedance of a follower stage ___________
+a) Remans the same
+b) Increases
+c) Decreases
+d) Doubles
+a
+15. Neglecting Channel Length Modulation, if the transconductance of a MOSFET increases, the output impedance of the follower stage can _________
+a) increase
+b) decrease
+c) increase linearly
+d) decrease non-linearly
+b
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – JFET Amplifier» Next - Analog Circuits Questions and Answers – MOSFET Amplifier with CD Configuration – 2 

@@ -1,0 +1,96 @@
+1. There are ________ tuples in finite state machine.
+a) 4
+b) 5
+c) 6
+d) unlimited
+b
+2. Transition function maps.
+a) Σ * Q -> Σ
+b) Q * Q -> Σ
+c) Σ * Σ -> Q
+d) Q * Σ -> Q
+d
+3. Number of states require to accept string ends with 10.
+a) 3
+b) 2
+c) 1
+d) can’t be represented.
+a
+4. Extended transition function is .
+a) Q * Σ* -> Q
+b) Q * Σ -> Q
+c) Q* * Σ* -> Σ
+d) Q * Σ -> Σ
+a
+5. δ*(q,ya) is equivalent to .
+a) δ((q,y),a)
+b) δ(δ*(q,y),a)
+c) δ(q,ya)
+d) independent from δ notation
+b
+6. String X is accepted by finite automata if .
+a) δ*(q,x) E A
+b) δ(q,x) E A
+c) δ*(Q0,x) E A
+d) δ(Q0,x) E A
+c
+7. Languages of a automata is
+a) If it is accepted by automata
+b) If it halts
+c) If automata touch final state in its life time
+d) All language are language of automata
+a
+8. Language of finite automata is.
+a) Type 0
+b) Type 1
+c) Type 2
+d) Type 3
+d
+9. Finite automata requires minimum _______ number of stacks.
+a) 1
+b) 0
+c) 2
+d) None of the mentioned
+b
+10. Number of final state require to accept Φ in minimal finite automata.
+a) 1
+b) 2
+c) 3
+d) None of the mentioned
+d
+11. Regular expression for all strings starts with ab and ends with bba is.
+a) aba*b*bba
+b) ab(ab)*bba
+c) ab(a+b)*bba
+d) All of the mentioned
+c
+12. How many DFA’s exits with two states over input alphabet {0,1} ?
+a) 16
+b) 26
+c) 32
+d) 64
+d
+13. The basic limitation of finite automata is that
+a) It can’t remember arbitrary large amount of information.
+b) It sometimes recognize grammar that are not regular.
+c) It sometimes fails to recognize regular grammar.
+d) All of the mentioned
+a
+14. Number of states require to simulate a computer with memory capable of storing ‘3’ words each of length ‘8’.
+a) 3 * 28
+b) 2(3*8)
+c) 2(3+8)
+d) None of the mentioned
+b
+15. FSM with output capability can be used to add two given integer in binary representation. This is
+a) True
+b) False
+c) May be true
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  The Language of DFA» Next - Automata Theory Questions and Answers –  Non Deterministic Finite Automata – Introduction 

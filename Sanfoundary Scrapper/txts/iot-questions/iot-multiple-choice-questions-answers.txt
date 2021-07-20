@@ -1,0 +1,99 @@
+1. _________ allows us to control electronic components
+a) RETful API
+b) RESTful API
+c) HTTP
+d) MQTT
+a
+2. MQTT stands for _____________
+a) MQ Telemetry Things
+b) MQ Transport Telemetry
+c) MQ Transport Things
+d) MQ Telemetry Transport
+d
+3. MQTT is better than HTTP for sending and receiving data.
+a) True
+b) False
+a
+4. MQTT is _________ protocol.
+a) Machine to Machine
+b) Internet of Things
+c) Machine to Machine and Internet of Things
+d)  Machine Things
+c
+5. Which protocol is lightweight?
+a) MQTT
+b) HTTP
+c) CoAP
+d) SPI
+a
+6. PubNub publishes and subscribes _________ in order to send and receive messages.
+a) Network
+b) Account
+c) Portal
+d) Keys
+d
+7. By clicking which key the PubNub will display public, subscribe, and secret keys.
+a) Pane
+b) Demo Keyset
+c) Portal
+d) Network
+b
+8. The messageChannel class declares the _________ class attribute that defines the key string.
+a) command_key
+b) command-key
+c) commandkey
+d) Key_command
+a
+9. _________ method saves the received arguments in three attributes.
+a) __Init
+b) Init__
+c) __Init__
+d) _init_
+c
+10. _________ and _________ saves the publish and subscribe keys that we have generated with the PubNub Admin portal.
+a) public_key and subscribe_key
+b) Public-key and subscribe-key
+c) publickey and subscribekey
+d) Key_public and key_subscribe
+a
+11. _________ specifies the function that will be called when there is a new message received from the channel.
+a) Reconnect
+b) Error
+c) Connect
+d) Callback
+d
+Callback: specifies the function that will be called when there is a new message received from the channel.
+12. _________ specifies the function that will be called on an error event.
+a) Callback
+b) Error
+c) Connect
+d) Reconnect
+b
+Error: specifies the function that will be called on an error event.
+13. _________ Specifies the function that will be called when a successful connection with the PubNub cloud.
+a) Callback
+b) Error
+c) Connect
+d) Reconnect
+c
+Connect: specifies the function that will be called when a successful connection with the PubNub cloud.
+14. _________ specifies the function that will be called when a successful re-connection is completed.
+a) Callback
+b) Error
+c) Connect
+d) Reconnect
+d
+Reconnect: specifies the function that will be called when a successful re-connection is completed with the PubNub cloud.
+15. ___________ specifies the function that will be called when the client disconnects.
+a) Callback
+b) Error
+c) Connect
+d) Disconnect
+d
+Disconnect: specifies the function that will be called when the client disconnects from the PubNub cloud.
+Sanfoundry Global Education & Learning Series – IOT.
+To practice  all areas of IOT, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - IOT Questions and Answers – Building a Web- based Dashboard» Next - IOT Questions and Answers – Publishing Messages with Commands 

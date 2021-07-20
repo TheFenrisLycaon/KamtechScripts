@@ -1,0 +1,67 @@
+1. The registers that store the keyboard and display modes and operations programmed by CPU are
+a) I/O control and data buffers
+b) Control and timing registers
+c) Return buffers
+d) Display address registers
+b
+2. The sensor RAM acts as 8-byte first-in-first-out RAM in
+a) keyboard mode
+b) strobed input mode
+c) keyboard and strobed input mode
+d) scanned sensor matrix mode
+c
+3. The registers that hold the address of the word currently being written by the CPU from the display RAM are
+a) control and timing register
+b) control and timing register and timing control
+c) display RAM
+d) display address registers
+d
+4. When a key is pressed, a debounce logic comes into operation in
+a) scanned keyboard special error mode
+b) scanned keyboard with N-key rollover
+c) scanned keyboard mode with 2 key lockout
+d) sensor matrix mode
+c
+5. The mode that is programmed using “end interrupt/error mode set command” is
+a) scanned keyboard special error mode
+b) scanned keyboard with N-key rollover
+c) scanned keyboard mode with 2 key lockout
+d) sensor matrix mode
+a
+6. When a key is pressed, the debounce circuit waits for 2 keyboard scans and then checks whether the key is still depressed in
+a) scanned keyboard special error mode
+b) scanned keyboard with N-key rollover
+c) scanned keyboard mode with 2 key lockout
+d) sensor matrix mode
+b
+7. The data that is entered from the left side of the display unit is of
+a) left entry mode
+b) right entry mode
+c) left and right entry modes
+d) none
+a
+8. The FIFO status word is used to indicate the error in
+a) keyboard mode
+b) strobed input mode
+c) keyboard and strobed input mode
+d) scanned sensor matrix mode
+c
+9. The flag that increments automatically after each read or write operation to the display RAM is
+a) IF
+b) RF
+c) AI
+d) WF
+c
+10. If any change in sensor value is detected at the end of a sensor matrix scan, then the IRQ line
+a) goes low
+b) goes high
+c) remains unchanged
+d) none
+b
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Programmable Interrupt Controller 8259A» Next - Microprocessors Questions and Answers – Programmable Communication Interface 8251 USART 

@@ -1,0 +1,149 @@
+1. The current wave shape is in the form of a square terminating at t = 4sec. The voltage across the element increases linearly till t = 4 sec and then becomes constant. The element is ____________
+a) Resistance
+b) Inductance
+c) Capacitance
+d) Semi-conductor
+c
+2. An infinite ladder is constructed with 1 Ω and 2 Ω resistor shown below. The current I flowing through the circuit is ___________
+a) 8.18 A
+b) 0 A
+c) 9 A
+d) 10 A
+c
+Or, REQ = 2
+So, I = \(\frac{18}{2}\) A = 9 A.
+3. In the circuit given below, the phase angle of the current I with respect to the voltage V1 is __________
+a) 0°
+b) +45°
+c) -45°
+d) -90°
+d
+I1 = \(\frac{200∠0°}{10.0}\) 
+= 20∠0° = 20
+I2 = \(\frac{200∠0°}{10∠90°}\) 
+= 20∠-90° = -j20
+I = I1 + I2 = 20(1-j) = 20\(\sqrt{2}\)∠45°
+Voltage V1 = 100(1+j)
+= 100\(\sqrt{2}\)∠45°
+∴ Required phase angle = -45° – 45° = -90°.
+4. Consider a circuit having 3 identical Ammeters A1, A2, A3 parallel to one another. The 1st Ammeter is in series with a resistance, the 2nd Ammeter is in series with a capacitor and the circuit is excited by a voltage V.  If A1 and A3 read 5 and 13 A respectively, reading of A2 will be?
+a) 8 A
+b) 13 A
+c) 18 A
+d) 12 A
+d
+A2 = \(\sqrt{13^2 – 5^2}\) 
+Or, A2 = \(\sqrt{169 – 25}\) 
+Or, A2 = \(\sqrt{144}\) 
+Or, A2 = 12 A.
+5. In the circuit given below, the value of V1 is __________
+a) 32.2 V
+b) -25.23 V
+c) 29.25 V
+d) -29.25 V
+b
+Or, 29 VA – 15 VB = 400
+Also, \(\frac{V_B-V_A}{8} + \frac{V_B-120}{8}\) + 6 = 0
+Or, VA = 65.23 V, VB = 99.44 V
+V1 = 40-65.23 = -25.23 V.
+Join Sanfoundry@YouTube
+6. For the three coupled coils shown in figure, KVL equation is ____________
+a) V = (L1 + L2 + L3) \(\frac{di}{dt}\) 
+b) V = (L1 – L2 – L3 – M13) \(\frac{di}{dt}\) 
+c) V = (L1 + L2 + L3 + 2M12 – 2M23 – 2M13) \(\frac{di}{dt}\) 
+d) V = (L1 + L2 + L3 – 2M12 + 2M23 + 2M13) \(\frac{di}{dt}\) 
+c
+So, the KVL equation is given by,
+V = (L1 + L2 + L3 + 2M12 – 2M23 – 2M13) \(\frac{di}{dt}\).
+7. A circuit excited by voltage V has a resistance R which is in series with an inductor and capacitor, which are connected in parallel. The voltage across the resistor at the resonant frequency is ___________
+a) 0
+b) \(\frac{V}{2}\) 
+c) \(\frac{V}{3}\) 
+d) V
+a
+But given that RL = 0
+So, ZDY = \(\frac{L}{0XC}\) = ∞
+Therefore current through circuit, I = \(\frac{V}{∞}\) = 0
+∴ VD = 0.
+8. In the circuit given below, the value of resistance R is _________
+a) 10 Ω
+b) 18 Ω
+c) 24 Ω
+d) 12 Ω
+d
+Or, I = \(\frac{70}{14}\) = 5 A
+Then, VP – VQ = 14I – (15-I).1
+= 70 – 10 = 60 V
+∴ R = \(\frac{60}{10-I} = \frac{60}{5}\) = 12 Ω.
+9. The current flowing through the resistance R in the circuit in the figure has the form 2 cos 4t, where R is ____________
+a) (0.18 + j0.72)
+b) (0.46 + j1.90)
+c) – (0.18 + j1.90)
+d) (0.23 – 0.35 j)
+d
+I1 = \(\frac{2 cos⁡4t}{3}\) 
+= 0.66 cos 4t
+Again, I2 = \(\frac{-j X 4 X 0.75 I_1}{3.92-2.56j}\) 
+= (0.23 – 0.35j) cos 4t
+10. In the circuit given below, the voltage VAB is _________
+a) 6 V
+b) 25 V
+c) 10 V
+d) 40 V
+a
+Then, I = \(\frac{10+50}{15}\) = 4 A
+VOC = 50 – (10×4) =10 V
+And REQ = \(\frac{10×5}{10+5} = \frac{10}{3}\) Ω
+Current I1 = \(\frac{10}{10/3+5} = \frac{6}{5}\) 
+Hence, VAB = \(\frac{6}{5 × 5}\) = 6 V.
+11. In the circuit given below, the magnitudes of VL and VC are twice that of VK. Calculate the inductance of the coil, given that f = 50.50 Hz.
+a) 6.41 mH
+b) 5.30 mH
+c) 3.18 mH
+d) 2.31 mH
+c
+∴ Q = \(\frac{V_L}{V_R}\)  = 2
+But we know, Q = \(\frac{ωL}{R} = \frac{1}{ωCR}\) 
+∴ 2 = \(\frac{2πf × L}{5}\) 
+Or, L = 3.18 mH.
+12. In the circuit given below, the current source is 1 A, voltage source is 5 V, R1 = R2 = R3 = 1 Ω, L1 = L2 = L3 = 1 H, C1 = C2 = 1 F. The current through R3 is _________
+a) 1 A
+b) 5 A
+c) 6 A
+d) 8 A
+b
+∴ The current through R3 = \(\frac{5}{1}\) = 5 A.
+13. In the circuit given below, the capacitor is initially having a charge of 10 C.  1 second after the switch is closed, the current in the circuit is ________
+a) 14.7 A
+b) 18.5 A
+c) 40.0 A
+d) 50.0 A
+a
+100 C = \(RC\frac{dq}{dt}\) + q
+Or, \(\int_{q_o}^q \frac{dq}{100C-q} = \frac{1}{RC} ∫_0^t \,dt\) 
+100C – q = (100C – qo)e-t/RC
+I = \(\frac{dq}{dt} = \frac{(100C – q_o)}{RC} e^{-1/1}\) 
+∴ e-t/RC = 40e-1 = 14.7 A.
+14. A circuit is given in the figure below. The Norton equivalent as viewed from terminals x and x’ is ___________
+a) 6 Ω and 1.333 A
+b) 6 Ω and 0.833 A
+c) 32 Ω and 0.156 A
+d) 32 Ω and 0.25 A
+b
+Vxx’ = VN = \(\frac{\frac{4}{8} + \frac{8}{24}}{\frac{1}{8} + \frac{1}{24}}\) = 5V
+∴ RN = 8 || (16 + 8)
+= \(\frac{8×24}{8+24}\) = 6 Ω
+∴ IN = \(\frac{V_N}{R_N}  = \frac{5}{6}\) = 0.833 A.
+15. In the circuit given below, the current source is 1 A, voltage source is 5 V, R1 = R2 = R3 = 1 Ω, L1 = L2 = L3 = 1 H, C1 = C2 = 1 F. The current through the voltage source V is _________
+a) 1 A
+b) 3 A
+c) 2 A
+d) 4 A
+d
+∴ The current through the voltage source V  = 5 – 1 = 4 A.
+Sanfoundry Global Education & Learning Series – Network Theory.
+To practice all areas of Network Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Theory Questions and Answers – Advanced Problems on Network Theory – 2» Next - Network Theory Questions and Answers – Advanced Problems Involving Complex Circuit Diagram – 2 

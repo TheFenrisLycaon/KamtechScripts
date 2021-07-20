@@ -1,0 +1,92 @@
+1. An OSPF router receives an LSA, the router checks its sequence number, and this number matches the sequence number of the LSA that the receiving router already has. What does the receiving router do with the LSA?
+a) Ignores the LSA
+b) Adds it to the database
+c) Sends newer LSU update to source router
+d) Floods the LSA to the other routers
+a
+2. An OSPF router receives an LSA. The router checks its sequence number and finds that this number is higher than the sequence number it already has. Which two tasks does the router perform with the LSA?
+a) Ignores the LSA
+b) Adds it to the database
+c) Sends newer LSU update to source router
+d) Floods the LSA to the other routers
+b
+3. An OSPF router receives an LSA. The router checks its sequence number and finds that this number is lower than the sequence number it already has. What does the router do with the LSA?
+a) ignores the LSA
+b) adds it to the database
+c) sends newer LSU update to source router
+d) floods the LSA to the other routers
+c
+4. Each LSA has its own age timer. By default, how long does an LSA wait before requiring an update?
+a) 30 seconds
+b) 1 minute
+c) 30 minutes
+d) 1 hour
+c
+5. Distance vector protocols use the concept of split horizon, but link-state routing protocols, such as OSPF, do not.
+a) True
+b) False
+b
+6. The outcome of Dijkstra’s calculation is used to populate the __________
+a) Topology table
+b) Routing table
+c) Neighbor table
+d) Adjacency table
+b
+7. What is the IP protocol number for OSPF packets?
+a) 89
+b) 86
+c) 20
+d) 76
+a
+8. Which packet is NOT an OSPF packet type?
+a) LSU
+b) LSR
+c) DBD
+d) Query
+d
+9. Which multicast address does the OSPF Hello protocol use?
+a) 224.0.0.5
+b) 224.0.0.6
+c) 224.0.0.7
+d) 224.0.0.8
+a
+10. The Hello protocol sends periodic updates to ensure that a neighbor relationship is maintained between adjacent routers.
+a) True
+b) False
+a
+11. DBD packets are involved during which two states?
+a) Exstart and exchange
+b) Loading and Two-way
+c) Init and Full
+d) Down and Loading
+a
+12. At which interval does OSPF refresh LSAs?
+a) 10 seconds
+b) 30 seconds
+c) 30 minutes
+d) 1 hour
+d
+13. Which field is NOT a field within an OSPF packet header?
+a) Packet length
+b) Router ID
+c) Authentication type
+d) Maxage time
+d
+14. Which two commands are required for basic OSPF configuration?
+a) “[Network mask] area [area-id]” and “Router ospf [process-id]”
+b) “[Wildcard-mask] area [area-id]” and “[Network mask] area [area-id]”
+c) Only “Router ospf [process-id]”
+d) “[Wildcard-mask] area [area-id]” and “Router ospf [process-id]”
+d
+15. Which OSPF show command describes a list of OSPF adjacencies?
+a) Show ip ospf interface
+b) Show ip ospf
+c) Show ip route
+d) Show ip ospf neighbor
+d
+Sanfoundry Global Education & Learning Series – Computer Networks.
+To practice  all areas of Computer Networks for online Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Networks Questions & Answers – OSPF» Next - Computer Networks Questions & Answers – Datagram Networks 

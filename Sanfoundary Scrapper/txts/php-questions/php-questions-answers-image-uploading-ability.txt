@@ -1,0 +1,67 @@
+1. Before you can start processing images with PHP, you must first add the ability to upload images to your administrative form on ________
+a) .htaccess
+b) function.inc.php
+c) index.php
+d) admin.php
+d
+2. When you’re uploading files you need to set the enctype of the form to __________
+a) text
+b) text/file
+c) multipart/form-data
+d) multimedia/form-data
+c
+3. To check whether a file was uploaded, you look in the _______ superglobal array.
+a) $_FILES
+b) $_DOCS
+c) $_DOCUMENTS
+d) $_FOLDERS
+a
+4. To make the ImageHandler class portable you should create a separate file for it called __________
+a) imagehandler.inc.php
+b) images.inc.php
+c) handler.inc.php
+d) imghandler.inc.php
+b
+5. DocBlocks are indicated by opening a comment using _________
+a) /*
+b) //*
+c) /**
+d) /*/
+c
+6. To process the file, you need to break the array from $_FILES into individual values. You can do this using the ________ function.
+a) divide()
+b) list()
+c) break()
+d) indi()
+b
+7. Before you try to process the file, you need to make sure that your $err value is equivalent to _________
+a) UPLOAD_ERR_OK
+b) UPLOAD_NO_ERR
+c) UPLOAD_ERR_NO_OK
+d) UPLOAD_ERR
+a
+8. You use the $_SERVER superglobal and your _______ property to create your path to check.
+a) $load_dir
+b) $load
+c) $save
+d) $save_dir
+d
+$path = $_SERVER['DOCUMENT_ROOT'] . $this->save_dir;
+9. Which function do you have to use to check whether the $path you’ve stored exists?
+a) path_dir()
+b) path()
+c) is_dir()
+d) path_dir()
+c
+10. Which one of the following is true about the following line – $obj = new ImageHandler(‘/images/’, array(400, 300));?
+a) This snippet sets the maximum dimensions allowed to 400 pixels wide by 300 pixels high
+b) This snippet sets the minimum dimensions allowed to 300 pixels wide by 400 pixels high
+c) This snippet sets the minimum dimensions allowed to 400 pixels wide by 300 pixels high
+d) This snippet sets the maximum dimensions allowed to 300 pixels wide by 400 pixels high
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Updating and Deleting Entries» Next - PHP Questions & Answers – Object Advanced Features – 1 

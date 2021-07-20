@@ -1,0 +1,131 @@
+1. Let f(x) = ex sin(x2) ⁄ x Then the value of the fifth derivative at x = 0 is given by
+a) 25
+b) 21
+c) 0
+d) 5
+view answerAnswer: b
+sin(x2)=\(\frac{x^2}{1!}-\frac{x^6}{3!}+\frac{x^{10}}{5!}….\infty\) 
+\(\frac{sin(x^2)}{x}=\frac{x}{1!}-\frac{x^5}{3!}+\frac{x^9}{5!}….\infty\) 
+Now applying the Leibniz rule up to the fifth derivative we have
+\(((e^x)(\frac{sin(x^2)}{x})^{(5)} = c_0^5e^x(\frac{x}{1!}-\frac{x^5}{3!}+\frac{x^9}{5!}…\infty)\) 
+\(+c_1^5e^x(\frac{1}{1!}-\frac{5x^4}{3!}+\frac{9x^8}{5!}…\infty)+…..+c_5^5e^x(\frac{5!}{3!}+\frac{(9.8.7.6.5)x^4}{5!}…\infty)\) 
+Now substituting x=0 we get
+\(((e^x)(\frac{sin(x^2)}{x}))^{(5)}=c_1^5(1)+\frac{5!}{3!}\) 
+= 1 + 20 = 21.
+2. Let f(x) = eex assuming all the nth derivatives at x =0 to be 1 the value of the (n + 1)th derivative can be written as
+a) e – 1 + 2n
+b) 0
+c) 1
+d) None
+view answerAnswer: a
+Taking ln(x) on both sides The function has to be written in the form ln(y) = ex
+Now computing the first derivative yields
+ y(1) = y * ex
+Now applying the Leibniz rule up to nth derivative we have
+y(n+1)=\(c_0^ne^xy+c_1^ne^xy^{(1)}+….+c_n^ne^xy^{(n)}\) 
+We know that in the problem it is assumed that [y(1)=y(2)=…=y(n)=1]x=0
+Now, substituting x=0 we get
+y(n+1)=\(c_0^ne+c_1^n+….+c_n^n\) 
+From combinatorial results we know that 2n=\(c_0^ne+c_1^n+….+c_n^n\)
+This gives us
+y(n+1)=\(e+(c_0^ne+c_1^n+….+c_n^n)-c_0^n\) 
+y(n+1)=e-1+2n
+3. Let f(x) = \(\sqrt{sin(x)}\) and let yn denote the nth derivative of f(x) at x = 0 then the value of the expression 12y(5) y(1) + 30 y(4) y(2) + 20 (y(3))2 is given by
+a) 0
+b) 655
+c) 999
+d) 1729
+view answerAnswer: a
+Rewriting the function as y2 = sin(x)
+Now applying Leibniz rule up to the sixth derivative we have
+(y2)(6) = c06 y(6) y + c16 y(5) y(1) + ………+ c66 y(6) y
+(y2)(6) = 2 y(6) y + 12 y(6) y(1) + 30 y(4) y(2) + 20 (y(3))2
+(sin(x))(6) = -sin(x)
+Now substituting x = 0 and observing that y(0) = 0 we have
+sin(0) = 0 = 12 y(6) y(1) + 30 y(4) y(2) + 20 (y(3))2.
+4. The fourth derivative of f(x) = sin(x)sinh(x) ⁄ x at x = 0 is given by
+a) 0
+b) π⁄2
+c) 45
+d) 4
+view answerAnswer: a
+\(\frac{sinh(x)}{x}=\frac{\frac{x}{1!}+\frac{x^3}{3!}+\frac{x^5}{5!}….\infty}{x}\) 
+\(\frac{sinh(x)}{x}=\frac{1}{1!}+\frac{x^2}{3!}+\frac{x^4}{5!}….\infty\) 
+Now pick up the whole function \(((sin(x))(\frac{sinh(x)}{x}))\) and apply Leibniz rule up to the fourth derivative we have
+\(((sin(x))(\frac{sinh(x)}{x}))^{(4)}=c_0^4sin(x)(\frac{1}{1!}+\frac{x^2}{3!}+\frac{x^4}{5!}…..\infty)\) \(-c_1^4cos(x)(\frac{2x}{3!}+\frac{4x^3}{5!}…..\infty)+…..+c_4^4sin(x)(\frac{4!}{5!}+\frac{(7.6.5.4)x^3}{7!}…..\infty)\) 
+Substituting x=0 we have
+\(((sin(x))(\frac{sinh(x)}{x}))^{(4)}\) = 0
+5. The third derivative of f(x) = cos(x)sinh(x) ⁄ x at x = 0 is
+a) 0
+b) π⁄32
+c) (π)2
+d) cos(1)sinh(1)
+view answerAnswer: a
+Rewriting the part sinh(x)⁄x as infinite series we have
+\(\frac{sinh(x)}{x}=\frac{1}{1!}+\frac{x^2}{3!}+\frac{x^4}{5!}….\infty\) 
+Now the function f(x) becomes
+y=\(cos(x)(\frac{1}{1!}+\frac{x^2}{3!}+\frac{x^4}{5!}….\infty)\) 
+Taking the third derivative of the above function using Leibniz rule we have
+y(3)=\(c_0^3sin(x)(\frac{1}{1!}+\frac{x^2}{3!}+\frac{x^4}{5!}….\infty)-c_1^3cos(x)(\frac{2x}{3!}+\frac{4x^3}{5!}….\infty)\) \(-c_2^3sin(x)(\frac{2}{3!}+\frac{12x^2}{5!}….\infty)+c_3^3cos(x)(\frac{24x}{5!}…\infty)\) 
+Now substituting x = 0 we have
+y(3) = 0.
+6. Let f(x) = (x2 + x + 1)sinh(x) the (1097)th derivative at x = 0 is
+a) 1097
+b) 1096
+c) 0
+d) 1202313
+view answerAnswer: d
+sinh(x)=\(x+\frac{x^3}{3!}+\frac{x^5}{5!}…\infty\) 
+f(x)=(x2+x+1)\((x+\frac{x^3}{3!}+\frac{x^5}{5!}….\infty)\) 
+On multiplication we get two series with odd exponents and one series with even exponent. The series with odd exponents are the only ones to contribute to the derivative at x=0
+Hence it is enough to compute the   derivative at   for the following function
+(x2+1)\((x+\frac{x^3}{3!}+\frac{x^5}{5!}….\infty)=\frac{x}{1!}+x^3(\frac{1}{3!}+1)+x^5(\frac{1}{5!}+\frac{1}{3!})….\infty\) 
+Taking the 1097thderivative of this function, we have
+f(1097)(x)=\((1097)!(\frac{1}{(1097)!}+\frac{1}{(1095)!})+(1099\times 1098…4\times 3)x^2(\frac{1}{(1097)!}+\frac{1}{(1097)!})+…\infty\) 
+Substituting x=0 we have
+f(1097)(x)=\((1097)!(\frac{1}{(1097)!}+\frac{1}{(1095)!})\) 
+=(1+1097*1096)=(1+1202312)=1202313
+7. The 7th derivative of f(x) = (x3 + x2 + x + 1) sinh(x) at x = 0 is given by
+a) 43
+b) 7
+c) 0
+d) 34
+view answerAnswer: a
+sinh(x)=\(\frac{x}{1!}+\frac{x^3}{3!}+\frac{x^5}{5!}…\infty\) 
+Now rewriting the function we have
+f(x)=(x3+x2+x+1)\((\frac{x}{1!}+\frac{x^3}{3!}+\frac{x^5}{5!}…\infty)\) 
+For the 7th derivative observe that, only the odd termed powers contribute to the derivative at x=0
+Hence it is enough for us to find seventh derivative for
+(x2+1)\((\frac{x}{1!}+\frac{x^3}{3!}+\frac{x^5}{5!}…\infty)\) 
+\(\frac{x}{1!}+x^3(\frac{1}{3!}+\frac{1}{1!})+x^5(\frac{1}{5!}+\frac{1}{3!})+…\infty\) 
+Taking the 7th derivative of this function we have
+f(7)(x)=\((7!)(\frac{1}{7!}+\frac{1}{5!}) + (9*8…4*3)x^2(\frac{1}{7!}+\frac{1}{9!})\) 
+Now substituting x=0 yields
+f(7)(0)=\((7!)(\frac{1}{5!}+\frac{1}{7!})\)=(1+7*6)=43.
+8. The (1071729)th derivative of f(x) = (x6 + x4 + x2) cosh(x) at x = 0 is given by
+a) 0
+b) 1071
+c) 1729
+d) ∞
+view answerAnswer: a
+cosh(x)=\(\frac{1}{1!}+\frac{x^2}{2!}+\frac{x^4}{4!}…\infty\) 
+Observe again, that the derivative in question is odd, and hence, only the odd powered terms contribute to the derivative at x = 0
+Also note that, there are no odd powered terms and hence we can conclude that
+The (1071729)th derivative must be 0.
+9. The (17291728)th derivative of f(x) = (x2 + 1)tan-1 (x) at x = 0 is
+a) 0
+b) 1729
+c) 1728
+d) ∞
+view answerAnswer: a
+tan-1(x)=\(\frac{x}{1}-\frac{x^3}{3}+\frac{x^5}{5}-…\infty\) 
+Rewrite the function as
+f(x)=(x2+1)\((\frac{x}{1}-\frac{x^3}{3}+\frac{x^5}{5}-…\infty)\) 
+Now observe that the derivative in question is even. Hence, even terms are the only ones to contribute to the derivative at x = 0
+Also note that there are no even powered terms in the function. One can conclude that the (17291728)th derivative at x = 0 is 0.
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics for Freshers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Leibniz Rule – 1» Next - Engineering Mathematics Questions and Answers – Leibniz Rule – 3 

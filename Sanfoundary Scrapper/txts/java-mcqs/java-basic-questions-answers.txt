@@ -1,0 +1,72 @@
+1. Which of these interface abstractes the output of messages from httpd?
+a) LogMessage
+b) LogResponse
+c) Httpdserver
+d) httpdResponse
+a
+2. Which of these class is used to create servers that listen for either local or remote client programs?
+a) httpServer
+b) ServerSockets
+c) MimeHeader
+d) HttpResponse
+b
+3. Which of these is a standard for communicating multimedia content over email?
+a) http
+b) https
+c) Mime
+d) httpd
+c
+4. Which of these methods is used to make raw MIME formatted string?
+a) parse()
+b) toString()
+c) getString()
+d) parseString()
+a
+5. Which of these class is used for operating on request from the client to the server?
+a) http
+b) httpDecoder
+c) httpConnection
+d) httpd
+d
+6. Which of these method of MimeHeader is used to return the string equivalent of the values stores on MimeHeader?
+a) string()
+b) toString()
+c) convertString()
+d) getString()
+b
+7. What will be the output of the following Java program?
+    import java.net.*;    class networking     {        public static void main(String[] args) throws Exception         {            URL obj = new URL("https://www.sanfoundry.com/javamcq");            URLConnection obj1 = obj.openConnection();            System.out.print(obj1.getContentType());        }    }
+Note: Host URL is written in html and simple text.
+a) html
+b) text
+c) html/text
+d) text/html
+d
+Output:
+$ javac networking.java
+$ java networking 
+text/html
+8. Which of these is an instance variable of class httpd?
+a) port
+b) cache
+c) log
+d) All of the mentioned
+d
+9. What will be the output of the following Java program?
+    import java.net.*;    class networking     {        public static void main(String[] args) throws MalformedURLException         {            URL obj = new URL("https://www.sanfoundry.com/javamcq");            System.out.print(obj.toExternalForm());        }    }
+a) sanfoundry
+b) sanfoundry.com
+c) www.sanfoundry.com
+d) https://www.sanfoundry.com/javamcq
+d
+Output:
+$ javac networking.java
+$ java networking 
+https://www.sanfoundry.com/javamcq
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+ Here’s the list of Best Reference Books in Java Programming Language.
+To practice basic questions and answers on all areas of Java, here is complete set on 1000+ Multiple Choice Questions and Answers on Java.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Networking Basics» Next - Java Questions & Answers – Networking – httpd.java Class 

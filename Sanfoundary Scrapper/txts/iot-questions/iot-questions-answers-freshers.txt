@@ -1,0 +1,98 @@
+1. Number of pins in 8051 microcontroller with ________ package.
+a) 40 pin with LLC
+b) 60 Pin with QFP
+c) 40 pin with DIP
+d) 60 pin with QFP
+c
+2. Does an 8051 microcontroller need external oscillator to run?
+a) True
+b) False
+a
+3. We use any other frequency source other than crystal oscillator.
+a) True
+b) False
+a
+4. Reset work is __________
+a) To make program counter zero but values in registers values are made as zero
+b) Program counter is not zero but values in registers values are made as
+Zero
+c) Program counter not zero but values in registers values remain same
+d) To make program counter zero but values in registers values remain same
+d
+5. What is the minimum no of cycles required for reset operation?
+a) 3 cycle
+b) 2 cycles
+c) 1 cycles
+d) 4 cycles
+c
+6. PSEN stands for ________
+a) Program Select Enable
+b) Peripheral Store Enable
+c) Program Store Enable
+d) Peripheral Select Enable
+c
+7. Find the machine cycle for AT89C51 if XTAL = 11.0592MHz.
+a) 90.42us
+b) 361.68us
+c) 1.085us
+d) 150.145us
+b
+          Time = 1/frequency
+          Time(ns) = 1/11.0592MHz
+                 = 90.42ns
+          Machine cycles = 12*90.42
+                       = 1.085us.
+8. What is the operation for mode 0?
+a) 13-bit timer mode, 8-bit timer/counter THx and TLx as 5-bit prescalar
+b) 16-bit timer mode, 16-bit timer/counter THx and TLx are cascaded, no prescalar
+c) 8-bit auto reload mode, 8-bit auto reload time/counter; THx holds a value which is to be reloaded into TLx each time it overflows
+d) Spilt timer mode
+a
+9. What is the operation for mode 1?
+a) 13-bit timer mode, 8-bit timer/counter THx and TLx as 5-bit prescalar
+b) 16-bit timer mode, 16-bit timer/counter THx and TLx are cascaded, no prescalar
+c) 8-bit auto reload mode, 8-bit auto reload time/counter; THx holds a value which is to be reloaded into TLx each time it overflows
+d) Spilt timer mode
+b
+10. Which is the operation for mode 2?
+a) 13-bit timer mode, 8-bit timer/counter THx and TLx as 5-bit prescalar
+b) 16-bit timer mode, 16-bit timer/counter THx and TLx are cascaded, no prescalar
+c) 8-bit auto reload mode, 8-bit auto reload time/counter; THx holds a value which is to be reloaded into TLx each time it overflows
+d) Spilt timer mode
+c
+11. Which is the operation for mode 3?
+a) 13-bit timer mode, 8-bit timer/counter THx and TLx as 5-bit prescalar
+b) 16-bit timer mode, 16-bit timer/counter THx and TLx are cascaded, no prescalar
+c) 8-bit auto reload mode, 8-bit auto reload time/counter; THx holds a value which is to be reloaded into TLx each time it overflows
+d) Spilt timer mode
+d
+12. Function of IE1 in TCON register?
+a) External interrupt 1 Edge flag. Not related to timer operations
+b) External interrupt 1 Edge flag. Not related to timer operations
+c) External interrupt 0 single type control bit
+d) External interrupt 1 to be triggered by a falling edge signal
+a
+13. 8051 controller contains how many registers?
+a) 5
+b) 3
+c) 1
+d) 2
+d
+14. General purpose memory is called as ________
+a) ROM memory
+b) RAM memory
+c) SRAM memory
+d) EPROM memory
+b
+15. Which timer register has both timers in it?
+a) TMOD
+b) TCON
+c) Both TMOD and TCON
+d) Neither TMOD nor TCON
+a
+Sanfoundry Global Education & Learning Series – IOT.
+To practice all areas of IOT for Freshers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - IOT Questions and Answers – Microcontroller (8051)» Next - IOT Questions and Answers – Microcontroller (ARM 7) 

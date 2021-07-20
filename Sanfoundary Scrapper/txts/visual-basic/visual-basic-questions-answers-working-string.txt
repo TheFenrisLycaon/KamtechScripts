@@ -1,0 +1,74 @@
+1. The number of characters contained in a String is stored as Integer in String’s ____________
+a) Substring property
+b) Length property
+c) Reverse property
+d) Index property
+b
+2. _______________ method is used to remove space from beginning and end of a string.
+a) Trim
+b) Remove
+c) Truncate
+d) DeleteSpace
+a
+3. _______________________ method is used to remove specified number of characters located anywhere in the String.
+a) Trim
+b) Remove
+c) Truncate
+d) DeleteSpace
+b
+4. What will contain in txtFirst after the following Visual Basic code is executed?
+strName = "Penny Swanson"
+txtFirst.Text = strName.Remove(5)
+a) Penny
+b) Swanson
+c) Penny S
+d) y Swanson
+a
+5. What will be the value of num after the following Visual Basic code is executed?
+strName=”Veronica Yardley”
+num=strName.Length
+a) 15
+b) 16
+c) 14
+d) 17
+b
+6. _____________________ method allows you to insert anywhere in the string.
+a) Remove
+b) Insert
+c) Import
+d) Delete
+b
+7. What will be in strName after the following code is executed?
+strName=”Joanne Hashen”
+strName=strName.Insert(7,”C.”);
+a) Joanne C. Hashen
+b) JoanneC.hashen
+c) Joanne
+d) C.Hashen
+a
+8. ____________________ and ____________________ methods are used to align characters in a String.
+a) PadLeft, PadRight
+b) Left, Right
+c) LeftAlign, RightAlign
+d) AlignLeft, AlignRight
+a
+string.PadLeft(totalChars[, padCharacter])
+string.PadRight(totalChars[, padCharacter])
+9. If the padCharacter is omitted from the syntax of the padLeft or PadRight, the default is ______________
+a) Space
+b) *
+c) /
+d) ?
+a
+10. The ________________ method pads the string on left, that is, it inserts the padded characters at the beginning of string.
+a) PadLeft
+b) PadRight
+c) PadFront
+d) PadBegin
+a
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Including a ComboBox in an Interface» Next - Visual Basic Questions and Answers – Searching a String 

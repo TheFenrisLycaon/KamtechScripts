@@ -1,0 +1,61 @@
+1. history command displays the log of recently used commands.
+a) True
+b) False
+a
+2. Which command is used by the user to change their login password in UNIX?
+a) man
+b) reset
+c) passwd
+d) cp
+c
+3. Which command handles a character stream by duplicating its input?
+a) tree
+b) tee
+c) tty
+d) ls
+b
+$ who  |  tee  user.txt
+The above command displays the output of who command on the terminal and also saves this output in a file named user.txt.
+Join [email protected]
+4. We can use man command for displaying the documentation of man itself.
+a) True
+b) False
+a
+$ man man	// viewing man pages with man
+ 
+5. When backspace doesn’t work to erase characters, we can use _____
+a) ctrl-f
+b) ctrl-h
+c) ctrl-c
+d) ctrl-u
+b
+6. For interrupting a command, we can use _____
+a) ctrl-f
+b) esc
+c) ctrl-h
+d) ctrl-c
+d
+7. Ctrl-S stops scrolling of screen output and ________
+a) locks terminal
+b) delete a character
+c) locks keyboard
+d) delete a line
+c
+8. Which control unlocks the keyboard?
+a) ctrl-u
+b) ctrl-c
+c) ctrl-z
+d) ctrl-q
+d
+9. Which command is used for killing a line?
+a) ctrl-k
+b) del
+c) esc
+d) ctrl-u
+d
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – General Purpose Commands – 1» Next - Unix  Questions and Answers – Categories of Files 

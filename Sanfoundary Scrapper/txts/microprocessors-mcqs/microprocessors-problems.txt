@@ -1,0 +1,72 @@
+1. The number of CPIs(Clock Per Instruction) for an instruction of RISC processors is
+a) 0
+b) 1
+c) 2
+d) 3
+b
+2. Which of the following is not true about RISC processors?
+a) addressing modes are less
+b) pipelining is key for high speed
+c) microcoding is required
+d) single machine cycle instructions
+c
+3. The RISC processors that support variable length instructions are from
+a) Intel
+b) Motorola
+c) AMD
+d) Intel and Motorola
+d
+4. Which of the following is true about register windowing?
+a) chips expose 32 registers to programmer
+b) puts demands on multiplexers
+c) puts enormous demands on register ports
+d) all of the mentioned
+d
+5. The disadvantage of register windowing is
+a) high speed
+b) puts demands on multiplexers/register ports
+c) consumes less cycles
+d) doesn’t handle overflow/underflow
+d
+6. The register window is used to point the number of physical registers is
+a) infinite
+b) that are currently used
+c) finite
+d) that are unused
+c
+7. Which of the following is not a stage of pipeline of a RISC processor?
+a) read registers and decode the instructions
+b) fetch instructions from registers
+c) write result into a register
+d) access an operand in data memory
+b
+1. Fetch instructions from memory
+2. Read registers and decode the instructions
+3. Execute the instructions or calculate an address
+4. Access an operand in data memory
+5. Write result into a register.
+8. When an instruction depends on the results of the previous instructions then
+a) error occurs
+b) software fault occurs
+c) data dependency occurs
+d) hardware fault occurs
+c
+9. The instructions that instruct the processor to make a decision about the next instruction to be executed are
+a) data dependency instructions
+b) branch instructions
+c) control transfer instructions
+d) none
+b
+10. The reason for which the RISC processor goes to idle state(or stall) is
+a) delay in reading information from memory
+b) poor instruction set design
+c) dependencies between instructions
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors Problems, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Hybrid Architecture -RISC and CISC Convergence, Advantages of RISC, Design Issues of RISC Processors -1» Next - Microprocessors Questions and Answers – Architecture of 8051 

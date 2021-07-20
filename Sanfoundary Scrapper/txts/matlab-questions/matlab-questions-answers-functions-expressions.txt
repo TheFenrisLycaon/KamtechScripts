@@ -1,0 +1,74 @@
+1. How many expressions are there in the following mathematical relation?
+ a=sqrt(log(sqrt(x+y)))
+a) 2
+b) 3
+c) 1
+d) 4
+b
+2. How many functions are there in the following mathematical relation?
+	p=sin(pi*(log(x))
+a) 2
+b) 3
+c) 1
+d) 0
+a
+3. What are the minimum numbers of expressions which will be required to express a mathematical relation?
+a) At least 1
+b) At least 2
+c) At most 1
+d) Depends on the number of variables
+d
+	y=func(x1,x2,x3…xn)
+This contains two expressions only. The function, ‘func’, may contain a set of 10000 statements. But we have simplified the expression to demonstrate a mathematical relation between y and all the other variables of the right-hand side, provided we are sure about the nature of the function ‘func’.
+4. Is it possible to reduce the number of expressions in the following mathematical relation?
+a=sin(pi*log(x))
+a) Yes
+b) No
+c) Maybe
+d) Impossible
+a
+	a=func(x)
+We have 2 expressions now while the previous statement had 4 expressions. Hence, we have reduced the number of expressions.
+5. Is it possible to reduce the number of functions in the following mathematical relation?
+	l=cos(2*pi*sin(n/x))
+a) Yes
+b) No
+c) Maybe
+d) Obviously
+b
+6. The teacher has given the assignment to find the sum of 2 numbers. But the code should not contain the ‘+’ operator. What is to be done?
+a) Use a function
+b) Add the values and print the sum directly
+c) Use an expression
+d) Cannot be done
+a
+7. How many expressions are used to describe a mathematical relation between a, b and c?
+b=9; c=4;
+a=b+c;
+a) 4
+b) 2
+c) 3
+d) 1
+b
+8. A mathematical statement is a combination of functions and variables only.
+a) True
+b) False
+b
+9. What is the command which can be used to see the expressions within a user-defined function in MATLAB?
+a) help
+b) look for
+c) echo on
+d) cannot be seen
+c
+10. What are mathematical expressions?
+a) Any mathematical relation
+b) Any mathematical operation
+c) Any mathematical conversation
+d) Any mathematical function
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Data Classes» Next - MATLAB Questions and Answers – Complex Arithmetic 

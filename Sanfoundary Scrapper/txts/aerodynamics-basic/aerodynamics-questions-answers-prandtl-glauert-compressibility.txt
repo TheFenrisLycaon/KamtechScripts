@@ -1,0 +1,54 @@
+1. Prandtl – Glauert compressibility correction is applied for finding airfoil properties at low speed.
+a) True
+b) False
+b
+2. For which of thee flows is Prandtl – Glauert compressibility correction is effective?
+a) Subsonic flow
+b) Sonic flow
+c) Supersonic flow
+d) Hypersonic flow
+a
+3. Prandtl – Glauert compressibility correction is based on which of the following methods?
+a) Velocity potential equation
+b) Energy equation
+c) Momentum equation
+d) Continuity equation
+a
+(1 – M\(_∞^2\))\(\frac {∂^2 \hat {ϕ}}{∂x^2} + \frac {∂^2 \hat {ϕ}}{∂y^2}\) = 0
+Where, ϕ is the velocity potential. It is a combination of continuity, momentum and energy equation. The above equation is only applicable for thin bodies
+\(\hat {ϕ}\) is perturbation velocity potential which is a non linear equation.
+4. For which of these conditions is Prandtl – Glauert compressibility equation valid?
+a) Thick airfoil, small angle of attack
+b) Thick airfoil, large angle of attack
+c) Thin airfoil, large angle of attack
+d) Thin airfoil, small angle of attack
+d
+5. What is the relation between linearized pressure coefficient for compressible Cp and incompressible flow Cp,0?
+a) Cp = βCp,0
+b) Cp = \(\frac {C_{p.0}}{β}\) 
+c) Cp = \(\frac {β}{C_{p.0}}\) 
+d) Cp = β2Cp,0
+b
+Cp =  –\(\frac {2\hat {u}}{V_∞}\) 
+Where, \(\hat {u} = \frac {∂\hat {ϕ}}{∂x}\) is the velocity perturbation
+Cp =  –\(\frac {2}{V_∞} \frac {∂\hat {ϕ}}{∂x}\) 
+\(\frac {∂\hat {ϕ}}{∂x} =  -\frac {1}{β} \frac {∂\bar {ϕ}}{∂ξ}\) 
+Where, \(\bar {ϕ}\) is the perturbation velocity for incompressible flow
+β = \(\sqrt {1 – M_∞^2}\) 
+Cp =  –\(\frac {2}{V_∞} \frac {1}{β} \frac {∂\bar {ϕ}}{∂ξ} = \frac {C_{p.0}}{β}\) 
+This relation helps in finding out the coefficient of pressure for a compressible flow using the incompressible pressure coefficient value.
+6. If the lift coefficient for an aircraft at low speed is 0.45, then what is the value of the coefficient of drag at Mach number 0.7?
+a) 0.51
+b) 0.49
+c) 0.63
+d) 0.71
+c
+The coefficient of lift for compressible and incompressible flow are related by the following relation:
+cl = \(\frac {c_{l.0}}{β} = \frac {c_{l.0}}{\sqrt {1 – M_∞^2}} = \frac {0.45}{\sqrt {1 – 0.7^2}}\) 
+cl = \(\frac {0.45}{\sqrt {0.51}}\) = 0.63
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Supersonic Wind Tunnels» Next - Aerodynamics Questions and Answers – The Supercritical Airfoil 

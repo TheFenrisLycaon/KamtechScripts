@@ -1,0 +1,71 @@
+1. In the Theta step function, which is a substitution step, each bit value changes. Each bit is dependent on _________ other bits for its new value.
+a) 13
+b) 4
+c) 7
+d) 11
+d
+2. Which step function provides most amount of diffusion for the Keccak iteration step?
+a) Theta
+b) Rho
+c) Pi
+d) Chi
+a
+3. The Pi step function can be written as-
+a) (x, y) × (y, (x + y))
+b) (x, y) × (y, (2x + 3y))
+c) (x, 2y) × (y, (2x + 3y))
+d) (x, 2y) × (y, (x + y))
+b
+4. The CHI step involves which of the following gate operations?
+a) AND and NAND
+b) AND and XOR
+c) XOR and NAND
+d) XOR and XNOR
+b
+5. Which matrix is used in the Rho/ Pi steps?
+a) [(1 2 | 3 4)]t
+b) [(0 2 | 1 4)]t
+c) [(0 1 | 2 3)]t
+d) [(1 3 | 2 4)]t
+c
+6. What are the new co-ordinates for (x, y) in the Rho step for t =3?
+a) (1, 7)
+b) (1, 4)
+c) (3, 2)
+d) none of the mentioned
+d
+[(0 1 | 2 3)]3 + (1 , 0 ) gives the answer.
+7. The Rho function is defined as : a[x, y, z] ← a[x, y, z-g(t)], where g(t) is defined as
+a) (t+1)(t+2)/2
+b) (t+1)(t-2)/2
+c) (t-1)(t-2)/2
+d) (t-1)(t+2)/2
+a
+8. The Chi function is defined as
+a) a[x] ← a[x] XOR ( a[x + 1]XOR 1)  AND a[x+2])
+b) a[x] ← a[x] AND ( a[x + 1]XOR 1)  AND a[x+2])
+c) a[x] ← a[x] AND ( a[x + 1] XOR a[x+2])
+d) a[x] ← a[x] XOR ( a[x + 1]  AND a[x+2])
+a
+9. In SHA-3, the Iota step function has a round constant which only works on the last lane.
+a) True
+b) False
+b
+10. Which is the only step function that provides non-linear mapping?
+a) Theta
+b) Rho
+c) Pi
+d) Chi
+d
+11. How many bit positions are active and can affect L[0, 0] in the Iota step function?
+a) 8
+b) 12
+c) 6
+d) 7
+d
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice Cryptography question bank, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Integrity Algorithms Questions and Answers – Secure Hash Algorithms (SHA)  – III» Next - Data Integrity Algorithms Questions and Answers – Message Authentication Codes (MACs) 

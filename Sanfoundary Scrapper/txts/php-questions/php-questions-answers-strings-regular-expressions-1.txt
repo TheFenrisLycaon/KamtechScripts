@@ -1,0 +1,83 @@
+1. PHP has long supported two regular expression implementations known as _______ and _______
+
+i) Perl
+ii) PEAR
+iii) Pearl
+iv) POSIX
+a) i) and ii)
+b) ii) and iv)
+c) i) and iv)
+d) ii) and iii)
+c
+2. Which one of the following regular expression matches any string containing zero or one p?
+a) p+
+b) p*
+c) P?
+d) p#
+c
+3. [:alpha:] can also be specified as ________
+a) [A-Za-z0-9] 
+b) [A-za-z] 
+c) [A-z] 
+d) [a-z] 
+b
+4. How many functions does PHP offer for searching strings using POSIX style regular expression?
+a) 7
+b) 8
+c) 9
+d) 10
+a
+5. What will be the output of the following PHP code?
+    <?php    $username = "jasoN";    if (ereg("([^a-z])",$username))        echo "Username must be all lowercase!";    else        echo "Username is all lowercase!";    ?>
+a) Error
+b) Username must be all lowercase!
+c) Username is all lowercase!
+d) No Output is returned
+b
+6. POSIX implementation was deprecated in which version of PHP?
+a) PHP 4
+b) PHP 5
+c) PHP 5.2
+d) PHP 5.3
+d
+7. POSIX stands for ____________
+a) Portable Operating System Interface for Unix
+b) Portable Operating System Interface for Linux
+c) Portative Operating System Interface for Unix
+d) Portative Operating System Interface for Linux
+a
+8. What will be the output of the following PHP code?
+    <?php    $text = "this is\tsome text that\nwe might like to parse.";    print_r(split("[\n\t]",$text));    ?>
+a) this is	some text that we might like to parse.
+b) Array ( [0] => some text that [1] => we might like to parse. )
+c) Array ( [0] => this is [1] => some text that [2] => we might like to parse. )
+d) [0] => this is [1] => some text that [2] => we might like to parse.
+d
+9. Which of the following would be a potential match for the Perl-based regular expression /fo{2,4}/?
+
+i) fol
+ii) fool
+iii) fooool
+iv) fooooool
+a) Only i)
+b) ii) and iii)
+c) i), iii) and iv)
+d) i) and iv)
+b
+10. Which among the following is/are not a metacharacter?
+
+i) \a
+ii) \A
+iii) \b
+iv) \B
+a) Only i)
+b) i) and iii)
+c) ii), iii) and iv)
+d) ii) and iv)
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – PHP Filter» Next - PHP Questions & Answers – Strings and Regular Expressions – 2 

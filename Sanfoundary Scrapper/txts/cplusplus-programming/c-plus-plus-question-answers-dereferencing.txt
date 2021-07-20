@@ -1,0 +1,123 @@
+This section on C question bank focuses on “Dereferencing”. One shall practice these questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C question bank comes with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C question bank on “Dereferencing” along with answers, explanations and/or solutions:
+1. Which is used to tell the computer that where a pointer is pointing to?
+a) dereference
+b) reference
+c) heap operations
+d) binary operations
+a
+2. Which is used to do the dereferencing?
+a) pointer without asterix
+b) value without asterix
+c) pointer with asterix
+d) value with asterix
+c
+3. Pick out the correct option.
+a) References automatically dereference without needing an extra character
+b) References automatically dereference with an extra character
+c) Reference will not dereference
+d) Reference automatically dereference with extra space and character
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int a, b;        int* c;        c = &a;        a = 200;        b = 200;        *c = 100;        b = *c;        cout << *c << " " << b;        return 0;    }
+a) 100 200
+b) 100 0
+c) 200 200
+d) 100 100
+d
+Output:
+$ g++ def.cpp
+$ a.out
+100 100
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int x;        int *p;        x = 5;        p = &x;        cout << *p;        return 0;    }
+a) 5
+b) 10
+c) memory address
+d) 15
+a
+Output:
+$ g++ def1.cpp
+$ a.out
+5
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main ()    {        int a;        int * ptr_b;        int ** ptr_c;        a = 1;        ptr_b = &a;        ptr_c = &ptr_b;        cout << a << "\n";        cout << *ptr_b << "\n";        cout << *ptr_c << "\n";        cout << **ptr_c << "\n";        return 0;    }
+a) 
+   1
+   1
+   0xbffc9924
+   1
+b) 
+   1
+   1
+   1
+   0xbffc9924
+c) 
+   1
+   0xbffc9924
+   1
+   &1
+d) 0xbffc9924
+a
+by using the pointer and dereference operator.
+Output:
+$ g++ def2.cpp
+$ a.out
+1
+1
+0xbffc9924
+1
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()     {        int x = 9;        int* p = &x;        cout << sizeof(p);        return 0;    }
+a) 4
+b) 2
+c) Depends on compiler
+d) 8
+c
+Output:
+$ g++ def3.cpp
+$ a.out
+4
+8. What will be the output of the following C++ code?
+    #include  <iostream>    using namespace std;    int main()    {        double arr[] = {5.0, 6.0, 7.0, 8.0};        double *p = (arr+2);        cout << *p << endl;           cout << arr << endl;          cout << *(arr+3) << endl;        cout << *(arr) << endl;          cout << *arr+9 << endl;          return 0;    }
+a) 
+7
+0xbf99fc98
+8
+5
+14
+b) 
+7
+8
+0xbf99fc98
+5
+14
+c) 0xbf99fc98
+d) 14
+a
+Output:
+$ g++ def5.cpp
+$ a.out
+7
+0xbf99fc98
+8
+5
+14
+9. What does the dereference operator will return?
+a) rvalue equivalent to the value at the pointer address
+b) lvalue equivalent to the value at the pointer address
+c) it will return nothing
+d) it will return boolean values
+b
+10. Pick out the correct statement.
+a) the null pointer dereference occurs where a pointer that is expected to be a valid address but instead is equal to null
+b) the null pointer dereference occurs where a pointer that is expected to be a valid address but instead is equal to the memory address
+c) rvalue equivalent to the value at the pointer address
+d) null pointer will not return anything
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Function Call» Next - C++ Programming Questions and Answers – Increment and Decrement 

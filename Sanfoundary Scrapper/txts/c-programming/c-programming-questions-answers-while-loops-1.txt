@@ -1,0 +1,75 @@
+This section on online C test focuses on “While Loops”. One shall practice these test questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our online C test questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of online C test questions on “While Loops” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        while ()            printf("In while loop ");        printf("After loop\n");    }
+a) In while loop after loop
+b) After loop
+c) Compile time error
+d) Infinite loop
+c
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        do            printf("In while loop ");        while (0);            printf("After loop\n");    }
+a) In while loop
+b) 
+
+   In while loop
+   after loop
+c) After loop
+d) Infinite loop
+b
+Join Sanfoundry@YouTube
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0;        do {            i++;            printf("In while loop\n");        } while (i < 3);    }
+a) 
+
+   In while loop
+   In while loop
+   In while loop
+b) 
+
+   In while loop
+   In while loop
+c) Depends on the compiler
+d) Compile time error
+a
+4. How many times i value is checked in the following C code?
+    #include <stdio.h>    int main()    {        int i = 0;        do {            i++;            printf("in while loop\n");        } while (i < 3);    }
+a) 2
+b) 3
+c) 4
+d) 1
+b
+5. How many times i value is checked in the following C code?
+    #include <stdio.h>    int main()    {        int i = 0;        while (i < 3)            i++;        printf("In while loop\n");    }
+a) 2
+b) 3
+c) 4
+d) 1
+c
+6. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int i = 2;        do        {            printf("Hi");        } while (i < 2)    }
+a) Compile time error
+b) Hi Hi
+c) Hi
+d) Varies
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int i = 0;        while (++i)        {            printf("H");        }    }
+a) H
+b) H is printed infinite times
+c) Compile time error
+d) Varies
+b
+8. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int i = 0;        do        {            printf("Hello");        } while (i != 0);    }
+a) Nothing
+b) H is printed infinite times
+c) Hello
+d) Run time error
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – For Loops – 2» Next - C Programming Questions and Answers – While Loops – 2 

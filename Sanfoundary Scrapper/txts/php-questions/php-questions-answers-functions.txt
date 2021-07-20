@@ -1,0 +1,76 @@
+1. How to define a function in PHP?
+a) function {function body}
+b) data type functionName(parameters) {function body}
+c) functionName(parameters) {function body}
+d) function functionName(parameters) {function body}
+d
+2. Type Hinting was introduced in which version of PHP?
+a) PHP 4
+b) PHP 5
+c) PHP 5.3
+d) PHP 6
+b
+3. Which type of function call is used in line 8 in the following PHP code?
+    <?php    function calc($price, $tax)	    {        $total = $price + $tax;    }    $pricetag = 15;    $taxtag = 3;    calc($pricetag, $taxtag);	    ?>
+a) Call By Value
+b) Call By Reference
+c) Default Argument Value
+d) Type Hinting
+a
+4. What will be the output of the following PHP code?
+    <?php    function calc($price, $tax="")    {        $total = $price + ($price * $tax);        echo "$total";     }    calc(42);	    ?>
+a) Error
+b) 0
+c) 42
+d) 84
+c
+5. Which of the following are valid function names?
+i) function()
+ii) €()
+iii) .function()
+iv) $function()
+a) Only i)
+b) Only ii)
+c) i) and  ii)
+d) iii) and iv)
+b
+6. What will be the output of the following PHP code?
+    <?php    function a()    {        function b()        {            echo 'I am b'; 	}        echo 'I am a';    }    a();    a();    ?>
+a) I am a
+b) I am bI am a
+c) Error
+d) I am a Error
+a
+7. What will be the output of the following PHP code?
+    <?php    function a()      {        function b()        {            echo 'I am b'; 	}        echo 'I am a';    }    b();    a();    ?>
+a) I am b
+b) I am bI am a
+c) Error
+d) I am a Error
+c
+8. What will be the output of the following PHP code?
+    <?php    $op2 = "blabla";    function foo($op1)    {        echo $op1;        echo $op2;    }    foo("hello");    ?>
+a) helloblabla
+b) Error
+c) hello
+d) helloblablablabla
+c
+9. A function in PHP which starts with __ (double underscore) is known as __________
+a) Magic Function
+b) Inbuilt Function
+c) Default Function
+d) User Defined Function
+a
+10. What will be the output of the following PHP code?
+    <?php    function foo($msg)    {        echo "$msg";    }    $var1 = "foo";    $var1("will this work");    ?>
+a) Error
+b) $msg
+c) 0
+d) Will this work
+d
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Basics – 3» Next - PHP Questions & Answers – In-Built Functions in PHP 

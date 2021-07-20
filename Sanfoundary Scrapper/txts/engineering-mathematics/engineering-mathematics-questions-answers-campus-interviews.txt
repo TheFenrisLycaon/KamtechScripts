@@ -1,0 +1,99 @@
+1. Transfer function may be defined as ____________
+a) Ratio of out to input
+b) Ratio of laplace transform of output to input
+c) Ratio of laplace transform of output to input with zero initial conditions
+d) None of the mentioned
+c
+2. Poles of any transfer function is define as the roots of equation of denominator of transfer function.
+a) True
+b) False
+a
+3. Zeros of any transfer function is define as the roots of equation of numerator of transfer function.
+a) True
+b) False
+a
+4. Find the poles of transfer function which is defined by input x(t)=5Sin(t)-u(t) and output y(t)=Cos(t)-u(t).
+a) 4.79, 0.208
+b) 5.73, 0.31
+c) 5.89, 0.208
+d) 5.49, 0.308
+a
+Hence, transfer function H(s)=\(\frac{[\frac{s}{s^2+1}-\frac{1}{s}]}{[\frac{5}{s^2+1}-\frac{1}{s}]} =-\frac{1}{\frac{s(s^2+1)}{\frac{(5s-s^2-1)}{s(s^2+1)}}}=\frac{1}{S^2-5S+1}\) 
+Roots of equation s2 – 5s + 1 = 0 is s = 4.79, 0.208.
+5. Find the equation of transfer function which is defined by y(t)-∫0t y(t)dt + d⁄dt x(t) – 5Sin(t) = 0.
+a) \(\frac{s(e^{-as}-1)}{s-1}\) 
+b) \(\frac{(e^{-as}-s)}{s-1}\) 
+c) \(\frac{s(e^{-as}-s)}{s-1}\) 
+d) \(\frac{s(e^{-as}-s^2)}{s-1}\) 
+c
+Given, \(y(t)-∫_0^t y(t)dt+\frac{d}{dt} x(t)-x(t-a)=0\) 
+Taking Laplace, \(Y(s)-\frac{Y(s)}{s}+sX(s)-e^{-as} X(s)=0\) 
+H(s)=Y(s)/X(s) =\(\frac{(e^{-as}-s)}{1-\frac{1}{s}}=\frac{s(e^{-as}-s)}{s-1}\)
+6. Find the poles of transfer function given by system d2⁄dt2 y(t) – d⁄dt y(t) + y(t) – ∫0t x(t)dt = x(t).
+a) 0, 0.7 ± 0.466
+b) 0, 2.5 ± 0.866
+c) 0, 0 .5 ± 0.866
+d) 0, 1.5 ± 0.876
+c
+Given, \(\frac{d^2}{dt^2} y(t)-\frac{d}{dt} y(t)+y(t)-\int_0^t x(t)dt=x(t)\) 
+Now, Taking laplace, we get, \((s^2-s+1)Y(s)=(1+\frac{1}{s})X(s)\) 
+H(s)=\(\frac{s+1}{s(s^2-s+1)}\) 
+Roots of s3-s2+s=0, are 0,.5±0.866
+7. Find the transfer function of a system given by equation d2⁄dt2 y(t-a) + x(t) + 5 d⁄dt y(t) = x(t-a).
+a) (e-as-s)/(1+e-as s2)
+b) (e-as-5s)/(e-as s2)
+c) (e-as-s)/(2+e-as s2)
+d) (e-as-5s)/(1+e-as s2)
+d
+Taking laplace transform, s2 Y(s) e-sa + X(s) + 5sY(s) = e-as X(s)
+Hence, H(s) = Y(s)⁄X(s) =(e-as-5s)/(1+e-as s2).
+8. Any system is said to be stable if and only if ____________
+a) It poles lies at the left of imaginary axis
+b) It zeros lies at the left of imaginary axis
+c) It poles lies at the right of imaginary axis
+d) It zeros lies at the right of imaginary axis
+a
+9. The system given by equation 5 d3⁄dt3 y(t) + 10 d⁄dt y(t) – 5y(t) = x(t) + ∫0t x(t)dt, is?
+a) Stable
+b) Unstable
+c) Has poles 0, 0.455, -0.236±1.567
+d) Has zeros 0, 0.455, -0.226±1.467
+a
+Given, 5 d3⁄dt3 y(t) + 10 d⁄dt y(t) – 5y(t) = x(t) + ∫0t x(t)dt,
+By laplace transform, 5s3 Y(s)+10sY(s)-5Y(s)=X(s)+1/s X(s)
+Hence,
+\(\frac{Y(s)}{X(s)} =\frac{[1+1/s]}{5s^3+10s-5}=\frac{[s+1]}{s(5s^3+10s-5)}\) 
+Poles of \(\frac{Y(s)}{X(s)}\) are, 0 ,0.455,-0.226±1.467
+Hence system is Unstable.
+10. Find the laplace transform of input x(t) if the system given by d3⁄dt3 y(t) – 2 d2⁄dt2 y(t) –d⁄dt y(t) + 2y(t) = x(t), is stable.
+a) s + 1
+b) s – 1
+c) s + 2
+d) s – 2
+b
+Taking laplace transform,
+(s3 – 2s2 – s + 2)Y(s) = X(s)
+H(s) = Y(s)⁄X(s) = 1⁄(s-1)(s+1)(s+2)
+For the system to be stable, X(s) = s – 1.
+11. The system given by equation y(t – 2a) – 3y(t – a) + 2y(t) = x(t – a) is?
+a) Stable
+b) Unstable
+c) Marginally stable
+d) 0
+a
+Taking Laplace transform, e-2as Y(s)-3e-as Y(s)+2Y(s)=e-as X(s),
+Hence, \(H(s)=\frac{e^{-as}}{(1-e^{-as})(2-e^{-as})}\) 
+To find the stability, we should have, \(∫_{-∞}^∞ H(s)ds>0\) 
+Hence, \(\int_{-\infty}^\infty \frac{e^{-as}}{(1-e^{-as})(2-e^{-as})} ds\) 
+Let, \(e^{-as}=z=>-ae^{-as} ds=dz\) 
+\(\frac{1}{a} \int_0^∞ \frac{1}{(1-z)(2-z)} dz=\frac{1}{a} \int_0^∞ \left [\frac{1}{(z-1) }-\frac{1}{z-2} \right ]dz=\frac{1}{a} ln⁡\left [\frac{z-1}{z-2}\right ]\) 
+putting, z=0, \(\frac{1}{a} ln⁡\left [\frac{z-1}{z-2}\right ]=\frac{1}{a} ln⁡(\frac{1}{2})\) 
+putting, z=∞, \(\frac{1}{a} ln⁡\left [\frac{z-1}{z-2}\right ]=\frac{1}{a}  ln⁡[\frac{1-1/z}{1-2/z}]\)=0
+hence, \(\int_{-\infty}^\infty \frac{e^{-as}}{(1-e^{-as})(2-e^{-as})} ds=\frac{1}{a} ln⁡(\frac{1}{2})\)  
+It is stable.
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics for Campus Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Laplace Transform by Properties – 1» Next - Engineering Mathematics Questions and Answers – Laplace Transform by Properties – 3 

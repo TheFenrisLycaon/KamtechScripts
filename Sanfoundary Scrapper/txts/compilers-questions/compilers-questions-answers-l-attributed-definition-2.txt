@@ -1,0 +1,98 @@
+1. The grammar A ->AA |( A)| ε is not suitable for predictive-parsing because the grammar is ___________
+a) Ambiguous
+b) Left-recursive
+c) Right-recursive
+d) An operator-grammar
+a
+2. Consider the grammar. 
+E -> E + n | E # n | n 
+For a sentence n + n, form of the reduction are __________
+a) n, E + n and E + n # n
+b) n , E + n and E + E # n
+c) n , n + n and n + n # n
+d) n , E + n and E # n
+d
+3. S -> (S)| a
+Let the number of states in SLR(1), LR(1) and LALR(1) parsers for the grammar n1 n2 and n3 respectively.
+a) n1 < n2 < n3
+b) n1 = n3 < n2
+c) n1 = n2 = n3
+d) n1 $ n3 $ n2
+b
+4. Consider line 3. Identify the compiler’s response about this line while creating the object-module
+Int main()
+{ int 1,N;
+Fro (I,1 N,1);
+}
+a) No compilation error
+b) Only a lexical error
+c) Only syntactic errors
+d) Both lexical and syntactic errors
+c
+5. Which one of the following is true about the action of yacc for the given grammar?
+a) It detects recursion and eliminates recursion
+b) It detects reduce-reduce conflict and resolves
+c) It detects shift-reduce conflict and resolves the conflict in favor of a shift over a reduce action
+d) It detects shift-reduce conflict and resolves the conflict in favor of a reduce over a shift action
+c
+6. What precedence and associativity properties does the generated parser realize?
+a) Equal precedence and left associativity; expression is evaluated to 7
+b) Equal precedence and right associativity, expression is evaluated to 9
+c) Precedence of ‘x’ is higher than that of ‘+’, and both operators are left associative; expression is evaluated to 7
+d) Precedence of ‘ # ‘ is higher than that of ‘#’, and both operators are left associative; expression is evaluated to 9
+b
+7. Consider the following grammar.
+S > S * E 
+S > E 
+E > F + E 
+E > F 
+F > id
+Consider the following LR(0) items corresponding to the grammar above.
+(i)	S -&gt; S * .E 
+(ii)	 E -&gt; F . + E
+(iii)	 E -&gt; F + .E
+Given the items above, which two of them will appear in the same set in the canonical sets-of-items for the grammar?
+a) (i) and (ii)
+b) (ii) and (iii)
+c) (i) and (iii)
+d) None of the mentioned
+c
+8. Consider the following grammar:
+S > FR 
+R > * S | ε 
+F > id
+In the predictive parser table, M , of the grammar the entries M [ S, id] and M [ R,$] respectively.
+a) {S ” FR} and {R ” ε}
+b) {S ” FR} and {}
+c) {S ” FR} and {R ” * S}
+d) {F ” id} and {R ” ε}
+a
+F -> id R
+R ->) S
+R ->! R ->!
+ So at M [ S, id] = { S ” FR} M [ R,$] = {R “!}
+9. Consider the following translation scheme.
+S > ER 
+R > * E{print{’ * ’);
+R | f 
+E > F + E{print(’ + ’); | F F > (S) | id{print(id.value);}
+Here id is a taken that represents an integer and id. value represents the corresponding integer value. For an input ‘2 * 3 + 4’, this translation scheme prints?
+a) 2 * 3 + 4
+b) 2 * + 3 4
+c) 2 3 * 4 +
+d) 2 3 4 + *
+b
+10. Consider the following C code segment.  
+for if i # i } } }
+ Which one to the following false?
+a) The code contains loop-in variant computation
+b) There is scope of common sub-expression elimination in this code
+c) There is scope strength reduction in this code
+d) There is scope of dead code elimination in this code
+d
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – L-Attributed Definition – 1» Next - Compilers Questions and Answers – Intermediate Code-Generation – 1 

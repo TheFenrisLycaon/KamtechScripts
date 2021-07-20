@@ -1,0 +1,67 @@
+1. nice command is a ______ command in C shell.
+a) internal
+b) external
+c) built-in
+d) directory
+c
+2. Which option can be used explicitly to reduce the priority of any process.
+a) -a
+b) -n
+c) -o
+d) -q
+b
+$ nice  -n  5  wc  -l emp.lst &
+3. Which command is used for premature termination of a process?
+a) signal
+b) nice
+c) kill
+d) nohup
+c
+$ kill 105        // terminates the job having PID 105
+4. Which one of the following command is used for killing the last background job?
+a) kill $
+b) kill $$
+c) kill $!
+d) kill !
+c
+$ sort  -o  emp.lst &        
+467
+$ kill $!             // kills the sort command
+5. By default, kill uses the SIGTERM signal (15) to terminate the process.
+a) True
+b) False
+a
+6. Which signal is used with kill command to terminate the process when they ignore the SIGTERM signal (15)?
+a) SIGTERM (16)
+b) SIGTERM(0)
+c) SIGKILL(9)
+d) -d
+c
+$ kill -9  134
+7. Which option is preferred while killing a process using SIGKILL signal (9)?
+a) -p
+b) -s
+c) -h
+d) -d
+b
+$ kill -s  KILL 184
+ 
+8. Which of the followings command(s) is used to kill the login shell?
+a) kill 0
+b) kill  -9  $$
+c) kill  -s  KILL 0
+d) kill  -9  $$ and kill  -s  KILL 0
+d
+$ kill  -9  $$               // $$ stores the PID of current shell
+$ kill  -s  KILL 0          // kills all processes including the login shell
+ 
+9. Kill -l will list all the signal numbers on our machine.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix for Entrance exams, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Process Handling Commands – 1» Next - Unix Questions and Answers  – Process Management – 1 

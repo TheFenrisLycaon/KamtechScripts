@@ -1,0 +1,62 @@
+1. Determine the time period of a monostable 555 multivibrator.
+a) T = 0.33RC
+b) T = 1.1RC
+c) T = 3RC
+d) T = RC
+b
+2. Find monostable vibrator circuit using 555 timer.
+a
+3. How to overcome mistriggering on the positive pulse edges in the monostable circuit?
+a) Connect a RC network at the input
+b) Connect an integrator at the input
+c) Connect a differentiator at the input
+d) Connect a diode at the input
+c
+The circuit shows the differentiator to be connected between trigger input and the +VCC. 
+4. A monostable multivibrator has R = 120kΩ and the time delay T = 1000ms, calculate the value of C?
+a) 0.9µF
+b) 1.32µF
+c) 7.5µF
+d) 2.49µF
+c
+=> C = T/(1.1R) = 1000ms/(1.1×120kΩ) = 7.57µF. 
+Join Sanfoundry@YouTube
+5. Which among the following can be used to detect the missing heart beat?
+a) Monostable multivibrator
+b) Astable multivibrator
+c) Schmitt trigger
+d) None of the mentioned
+a
+6. A 555 timer in monostable application mode can be used for
+a) Pulse position modulation
+b) Frequency shift keying
+c) Speed control and measurement
+d) Digital phase detector
+c
+7. How can a monostable multivibrator be modified into a linear ramp generator?
+a) Connect a constant current source to trigger input
+b) Connect a constant current source to trigger output
+c) Replace resistor by constant current source
+d) Replace capacitor by constant current source
+c
+8. Determine time period of linear ramp generator using the specifications
+RE = 2.7kΩ, R1 =47kΩ , R2 100kΩ , C= 0.1µF, VCC =5v.
+a) 8ms
+b) 4ms
+c) 2ms
+d) 1ms
+d
+= {(2/3)×5v×[2.7kΩ×(4.7kΩ+ 100kΩ)]×(0.1µF)}/{[(47kΩ)×5v]-[(0.7)×(47kΩ+100kΩ)]}
+=>T= 132.3/132.100 =1.0015×10-3 = 1ms. 
+9. What will be the output, if a modulating input signal and continuous triggering signal are applied to pin5 and pin22 respectively in the following circuit?
+a) Frequency modulated wave form
+b) Pulse width modulated wave form
+c) Both pulse and frequency modulated wave form
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Peak Detector, Sampling & Hold Circuit and Absolute Value Output Circuit» Next - Linear Integrated Circuit Questions and Answers – 555 Timer as an Astable Multivibrator 

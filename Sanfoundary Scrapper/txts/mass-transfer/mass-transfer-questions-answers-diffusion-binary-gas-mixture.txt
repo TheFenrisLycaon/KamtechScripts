@@ -1,0 +1,85 @@
+1. Oxygen diffuses through a stagnant layer of air, 1mm thick, ambient temperature 28°C and 1atm total pressure. The partial pressure of oxygen on two sides of layer is P1=0.9atm and P2=0.1atm respectively. Calculate the value of Molar flux (in mol/m2.s) with respect to an observer moving with molar average velocity. Calculate this value at the end of the path where P2=0.1atm. Use R=8.205*10-5m3atmK-1mol-1.
+a) 2.713
+b) 1.713
+c) 0.1713
+d) 0.01713
+b
+                          Molar flux of oxygen, NA= (DAB*P ln⁡[(P-P2)/(P-P1)])/RTl
+                          Putting all the required values in the above equation.
+                                             NA=1.904 mol/m2.s
+                           Molar average velocity, U= (NA+NB)/C
+                                                                      U=NA/C                        (NB=0)
+                                                                      U=NART/P
+                                                                      U=4.702*10-2m/s
+                                                                      Now, UA=UC/CA
+                                                                                                              UA=U/yA=0.4702 m/s (yA is mole fraction of A at the end)
+                                                      JA=CA(uA-U)
+                                                          =PA*( uA-U)/RT
+                                                          =1.713mol/m2.s.
+2. In order to prepare Lithium nitride, air is passed gently over a reactor. Suppose that Nitrogen diffuse to a length 5cm before getting reacted with Lithium. Nitrogen reacts with lithium quickly so that partial pressure of Nitrogen at that point is 0. Reactor is a cylinder of length 10cm and diameter 2cm. Assume air to be a mixture of Nitrogen and Oxygen only. The temperature is 298K and total pressure 1atm. Diffusivity of N2 in O2 is 2*10-5m2/s. Calculate the Molar flux (mol/m2.s) of N2 at a distance of 2.5cm from the top with respect to an observer moving with twice the mass average velocity a direction towards the liquid surface. (R=8.205*10-5m3atmK-1mol-1). Assume z=0 at the top of the reactor.
+a)  4.242*10-4
+b)  4.242*10-5
+c) 4.242*10-3
+d) 4.242*10-2
+a
+                           Case: Diffusion of A through non-diffusing B
+                           N2 in air= 79%
+                           O2 in air= 21%
+              Molar flux of N2, NA=0.025mol/m2.s
+             Pressure of N2 at the point z=2.5cm=
+(  DAB*P ln⁡[(P-P5)/(P-P0)])/RTl=(DAB*P ln⁡[(P-P5)/(P-P2.5)])/RTl
+P2.5=0.542atm
+Velocity of N2= NART/P2.5=112.78*10-5m/s
+Molar flux of O2-=0
+Velocity of O2=0
+Average molar mass=0.542*28+0.458*32=29.832
+Mass average velocity= (0.542*28*112.78*10-5)/29.832=57.37*10-5m/s
+Required molar flux at the distance of z=5, is
+                                               CA(uA-2V)= NA-2PAV/RT=4.242*10-4mol/m2.s.
+3. A binary liquid mixture is separated by distillation process. The more volatile A vaporizes while less volatile B gets transported in opposite direction. Latent heat of vaporization of A and B is 0.5unit and 1unit respectively. What will be the relation between molar flux of A and B
+a) NA=2NB
+b) 2NA=NB
+c) NA=4NB
+d) 4NA=NB
+a
+4. In an accident a container containing ethanol(s.g 0.789) falls down in a room of dimension 1*1*2(all in m). Ethanol forms a layer of 2mm. Ethanol vaporizes and diffuses through a stagnant film of air of thickness 2.5mm. What will be the time required for the water layer to disappear completely. The diffusivity of ethanol in air is 2.567*10-5 m2/s. the total pressure is 1.013 bar and the pressure of ethanol in bulk air is 0.02244 bar and at the ethanol-air interface is 0.02718bar. The temperature is 25.2°C.
+a) 4.73h
+b) 14.6h
+c) 5.87h
+d) 16.2h
+a
+                NA=DP/RTZ*ln⁡[(P-P1)/(P-P2)]
+                                     NA=(2.567*10-5*1.013)/(0.08317*298.2*2.5*10-3)*ln⁡[(1.013-0.02244)/(1.013-0.02718)] = 2.01*10-6 kmol/m2.s=9.259*10-5kg/m2.s
+                                 Amount of ethanol = 2*10-3*1=0.002m3=1.578kg
+                               Time for evaporation= 1.578/9.259*10-5=17042.87s=4.73h.
+5. In the previous question if the floor has micro pores and water penetrates the floor at a constant rate of 0.1kg/m2h, what will be the time required for the water layer to disappear?
+a) 3.64h
+b) 4.73h
+c) 5.94h
+d) 2.36h
+a
+Time for disappearance= 1.578/0.433=3.64h.
+6. The molar average velocity of the components in a binary mixture in which they are in equimolar counter diffusion is
+a) Equal to mass average velocity
+b) Zero
+c) Always negative
+d) Always positive
+b
+7. A cylinder of sulfur is kept in a large volume of stagnant air for sublimation. How much time will be required for its complete sublimation?
+a) One fourth the time required by sphere of same mass
+b) Half the time required by a cube of same mass
+c) One fourth the time required by a cube of same mass
+d) Infinite
+d
+8. For a gas mixture (A+B) equimolar counterdiffusion takes place. Which among the following statements are correct for molar flux?
+a) If temperature is doubled, the flux will get halved
+b) If diffusion length is halved, the flux will get halved
+c) If temperature is halved, the flux will get halved
+d) If temperature is doubled and length is halved, the flux will become four times
+a
+Sanfoundry Global Education & Learning Series – Mass Transfer.
+To practice all areas of Mass Transfer, here is complete set of 1000+ Multiple Choice Questions and Answers.                      
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Mass Transfer Questions and Answers – Diffusion through Variable Area 

@@ -1,0 +1,117 @@
+1. Amongst multiple elseif and nested if, which would take less runtime?
+a) multiple elseif
+b) nested if
+c) elseif
+d) elseif & nested if
+a
+2. What is the output of the following code?
+if(x~=c)
+p=0;
+end
+a) p=0
+b) Output will be suppressed
+c) Error
+d) Cannot be determined
+c
+3. The end statement is given multiple times in _________
+a) Multiple elseif
+b) Nested if
+c) elseif
+d) if
+b
+4. What will happen if we don’t give an otherwise block to our switch structure?
+a) Error
+b) Infinitely demands a correct variable for case
+c) Returns 0
+d) Moves on to the next block
+d
+5. What is the output of the following code?
+syms x;
+if(x>50)
+fprintf('Error')
+end
+a) Error
+b) Prints Error
+c) Does not print error
+d) Cannot be determined
+a
+6. While developing a switch-case structure, the value for case can be _________
+a) Single only
+b) Multiple
+c) Infinite
+d) 0
+b
+7. What is the output of the following code?
+syms x c; 
+if(x~=c)
+fprintf(‘Error’); 
+end
+a) Error
+b) Error due to x
+c) Error due to c
+d) Error due to x and c
+a
+8. What is the output of the following code?
+sym x c; 
+if(x~=c)
+fprintf('Error');
+end
+a) Error
+b) Error due to x
+c) Error due to c
+d) Output suppressed
+b
+9. Menu-driven architecture should be done by ________
+a) if-else structure
+b) switch-case structure
+c) stack
+d) loop structure
+b
+10. The program to check the highest of n numbers can be done by ________
+a) Sorting
+b) If-else structure
+c) Switch-case structure
+d) Depends on the nature of n
+a
+11. Giving conditions using characters, we give them using ____
+a) ‘’
+b) ””
+c) No special character
+d) [] 
+a
+12. The if structure is a _________
+a) Conditional structure
+b) Logical structure
+c) Nested structure
+d) Biased structure
+a
+13. The switch-case structure is a _________
+a) Conditional structure
+b) Logical structure
+c) Multidimensional structure
+d) Hierarchical structure
+b
+14. What is the output of the following code?
+if()
+p=9;
+end
+a) Error
+b) p=9
+c) Output is suppressed but p=9
+d) 0
+a
+15. What is the output of the following code?
+if(x=99)
+var=92;
+end
+a) Error
+b) var=92
+c) Output is suppressed but var=92
+d) Nan
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Customizing and Manipulating Graphics – 2» Next - MATLAB Questions and Answers – Branching – 2 

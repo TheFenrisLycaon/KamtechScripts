@@ -1,0 +1,85 @@
+1. The partial differential equation of 1-Dimensional heat equation is ___________
+a) ut = c2uxx
+b) ut = puxx
+c) utt = c2uxx
+d) ut = – c2uxx
+a
+2. When using the variable separable method to solve a partial differential equation, then the function can be written as the product of functions depending only on one variable. For example, U(x,t) = X(x)T(t).
+a) True
+b) False
+a
+3. The one dimensional heat equation can be solved using a variable separable method. The constant which appears in the solution should be __________
+a) Positive
+b) Negative
+c) Zero
+d) Can be anything
+b
+4. When solving the 1-Dimensional heat equation for the conduction of heat along the rod without radiation with conditions:
+i) u(x,t) is finite for t tends to infinite
+ii) ux(0,t) = 0 and ux(l,t) = 0
+iii) u(x,t) = x(l-x) for t=0 between x=0 and x=l, which condition is the best to use in the first place?
+a) ux(0,t) = ux(l,t) = 0
+b) u(x,t) = x(l-x) for t=0 between x=0 and x=l.
+c) u(x,t) = x(l-x) for x=0 between t=0 and t=l.
+d) u(0,t) = u(l,t) = 0
+a
+5. Solve the 1-Dimensional heat equation for the conduction of heat along the rod without radiation with conditions:
+i) u(x,t) is finite for t tends to infinite
+ii) ux(0,t) = 0 and ux(l,t) = 0
+iii) u(x,t) = x(l-x) for t=0 between x=0 and x=l.
+a) U(x,t) =\(\frac{l^2}{3}/2 + ∑cos⁡(\frac{nπx}{l}) e^{\frac{-c^2 n^2 π^2 t}{l^2}} \frac{-4l^2}{(2m)^2+π^2} \) 
+b) U(x,t) =\(\frac{l^2}{3} + ∑cos⁡(\frac{nπx}{l}) e^{\frac{-c^2 n^2 π^2 t}{l^2}} \frac{-4l^2}{(2m)^2+π^2} \) 
+c) U(x,t) =\(\frac{l^2}{3} + ∑cos⁡(\frac{nπx}{l}) e^{\frac{-c^2 n^2 π^2 t}{l^2}} \frac{4l^2}{(2m)^2+π^2} \) 
+d) U(x,t) =\(\frac{l^2}{3}/2 + ∑cos⁡(\frac{nπx}{l}) e^{\frac{-c^2 n^2 π^2 t}{l^2}} \frac{4l^2}{(2m)^2+π^2} \) 
+a
+ux = (-cp sinpx + c’p cospx) (c’’  e-p2 c2t)
+Applying the first condition of second condition,
+C’ = 0
+Now applying the second condition of the second condition,
+\(p= \frac{nπ}{l} \) 
+Now we have only one constant left. This can be solved using the third condition.
+U(x,t) =\( \frac{a_0}{2} + ∑cos⁡(\frac{nπx}{l}) a_n e^{\frac{-c^2 n^2 π^2 t}{l^2}} \) 
+\(a_0 = \frac{2}{l} ∫_0^l x(l-x)dx = \frac{l^2}{3} \) 
+\(a_n  = \frac{2}{l} ∫_0^l x(l-x)  cosnx dx = \frac{-4l^2}{(2m)^2+π^2}. \)
+\(U(x,t) = \frac{l^2}{3}/2 + ∑cos⁡(\frac{nπx}{l}) e^{\frac{-c^2 n^2 π^2 t}{l^2}}      \frac{-4l^2}{(2m)^2+π^2}.\) 
+6. A rod of 30cm length has its ends P and Q kept 20°C and 80°C respectively until steady state condition prevail. The temperature at each point end is suddenly reduced to 0°C and kept so. Find the conditions for solving the equation.
+a) u(0,t) = 0 = u(30,t) and u(x,0) = 20 + 60/10 x
+b) ux(0,t) = 0 = ux(30,t) and u(x,0) = 20 + 60/30 x
+c) ut(0,t) = 0 = ut(30,t) and u(x,0) = 20 + 60/10 x
+d) u(0,t) = 0 = u(30,t) and u(x,0) = 20 + 60/30 x
+d
+7. Is it possible to have a solution for 1-Dimensional heat equation which does not converge as time approaches infinity?
+a) Yes
+b) No
+b
+8. Solve the equation ut = uxx with the boundary conditions u(x,0) = 3 sin (nπx) and u(0,t)=0=u(1,t) where 0<x<1 and t>0.
+a) \(3∑_{n=1}^∞ \) e-n2 π2 t  cos⁡(nπx)
+b) \(∑_{n=1}^∞ \) e-n2 π2 t  sin⁡(nπx)
+c) \(3∑_{n=1}^∞ \) e-n2 π2 t  sin⁡(nπx)
+d) \(∑_{n=1}^∞ \) e-n2 π2 t  cos(nπx)
+c
+When x=0, c=0 and when x=1, p=nπ.
+When t=0, 3 sin (nπx) = \(∑_{n=1}^∞ \) bn e-n2 π2 t  sin⁡(nπx)
+Therefore bn =3 for all n
+Hence the solution is \(3∑_{n=1}^∞ \) e-n2 π2 t  sin⁡(nπx). 
+9. If two ends of a bar of length l is insulated then what are the conditions to solve the heat flow equation?
+a) ux(0,t) = 0 = ux(l,t)
+b) ut(0,t) = 0 = ut(l,t)
+c) u(0,t) = 0 = u(l,t)
+d) uxx(0,t) = 0 = uxx(l,t)
+a
+10. The ends A and B of a rod of 20cm length are kept at 30°C and 80°C until steady state prevails. What is the condition u(x,0)?
+a) 20 + 5⁄2 x
+b) 30 + 5⁄2 x
+c) 30 + 2x
+d) 20 + 2x
+b
+The solution to this equation is u=a+bx. Since at x=0, u=30 and at x=20, u=80,
+a = 30 and b = \(\frac{(80-30)}{20} = \frac{5}{2} \) 
+Therefore, u= 30 + \(\frac{5}{2} x\). 
+Sanfoundry Global Education & Learning Series – Fourier Analysis.
+To practice all areas of Fourier Analysis for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Partial Differential Equations Questions and Answers – Method of Separation of Variables» Next - Partial Differential Equations Questions and Answers – Solution of PDE by Variable Separation Method 

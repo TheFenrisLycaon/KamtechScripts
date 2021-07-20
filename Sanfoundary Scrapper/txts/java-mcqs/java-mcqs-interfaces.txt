@@ -1,0 +1,75 @@
+1. Which of these keywords is used to define interfaces in Java?
+a) interface
+b) Interface
+c) intf
+d) Intf
+a
+2. Which of these can be used to fully abstract a class from its implementation?
+a) Objects
+b) Packages
+c) Interfaces
+d) None of the Mentioned
+c
+3. Which of these access specifiers can be used for an interface?
+a) Public
+b) Protected
+c) private
+d) All of the mentioned
+a
+4. Which of these keywords is used by a class to use an interface defined previously?
+a) import
+b) Import
+c) implements
+d) Implements
+c
+5. Which of the following is the correct way of implementing an interface salary by class manager?
+a) class manager extends salary {}
+b) class manager implements salary {}
+c) class manager imports salary {}
+d) none of the mentioned
+b
+6. Which of the following is an incorrect statement about packages?
+a) Interfaces specifies what class must do but not how it does
+b) Interfaces are specified public if they are to be accessed by any code in the program
+c) All variables in interface are implicitly final and static
+d) All variables are static and methods are public if interface is defined pubic
+d
+7. What will be the output of the following Java program?
+    interface calculate    {        void cal(int item);    }    class display implements calculate    {        int x;        public void cal(int item)        {            x = item * item;                    }    }    class interfaces    {        public static void main(String args[])        {            display arr = new display;            arr.x = 0;                  arr.cal(2);            System.out.print(arr.x);        }    }
+a) 0
+b) 2
+c) 4
+d) None of the mentioned
+c
+Output:
+$ javac interfaces.java
+$ java interfaces
+4
+8. What will be the output of the following Java program?
+    interface calculate    {        void cal(int item);    }    class displayA implements calculate    {        int x;        public void cal(int item)        {            x = item * item;                    }    }    class displayB implements calculate    {        int x;        public void cal(int item)        {            x = item / item;                    }    }    class interfaces     {        public static void main(String args[])        {            displayA arr1 = new displayA;            displayB arr2 = new displayB;            arr1.x = 0;            arr2.x = 0;                  arr1.cal(2);            arr2.cal(2);            System.out.print(arr1.x + " " + arr2.x);        }    }
+a) 0 0
+b) 2 2
+c) 4 1
+d) 1 4
+c
+Output:
+$ javac interfaces.java
+$ java interfaces
+4 1
+9. What will be the output of the following Java program?
+interface calculate {            int VAR = 0;            void cal(int item);}        class display implements calculate         {            int x;          public  void cal(int item)          {                if (item<2)                    x = VAR;                else                    x = item * item;                        }        } class interfaces {             public static void main(String args[])             {                display[] arr=new display[3];                for(int i=0;i<3;i++)               arr[i]=new display();               arr[0].cal(0);                   arr[1].cal(1);               arr[2].cal(2);               System.out.print(arr[0].x+" " + arr[1].x + " " + arr[2].x);            }}
+a) 0 1 2
+b) 0 2 4
+c) 0 0 4
+d) 0 1 4
+c
+output:
+$ javac interfaces.java
+$ java interfaces 
+0 0 4
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Packages» Next - Java Questions & Answers – Interfaces – 2 

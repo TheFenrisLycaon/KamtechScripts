@@ -1,0 +1,87 @@
+1. Which of these exceptions is thrown by methods of System class?
+a) IOException
+b) SystemException
+c) SecurityException
+d) InputOutputException
+c
+2. Which of these methods initiates garbage collection?
+a) gc()
+b) garbage()
+c) garbagecollection()
+d) Systemgarbagecollection()
+a
+3. Which of these methods loads the specified dynamic library?
+a) load()
+b) library()
+c) loadlib()
+d) loadlibrary()
+a
+4. Which of these method can set the out stream to OutputStream?
+a) setStream()
+b) setosteam()
+c) setOut()
+d) streamtoOstream()
+c
+5. Which of these values are returns under the case of normal termination of a program?
+a) 0
+b) 1
+c) 2
+d) 3
+a
+6. What will be the output of the following Java program?
+    import java.lang.System;    class Output    {         public static void main(String args[])         {             long start, end;                start = System.currentTimeMillis();             for (int i = 0; i < 10000000; i++);             end = System.currentTimeMillis();             System.out.print(end - start);         }    }
+a) 0
+b) 1
+c) 1000
+d) System Dependent
+d
+Output:
+$ javac Output.java
+$ java Output
+78
+7. What will be the output of the following Java program?
+    import java.lang.System;    class Output     {        public static void main(String args[])        {            byte a[] = { 65, 66, 67, 68, 69, 70 };            byte b[] = { 71, 72, 73, 74, 75, 76 };              System.arraycopy(a, 0, b, 0, a.length);            System.out.print(new String(a) + " " + new String(b));        }    }
+a) ABCDEF ABCDEF
+b) ABCDEF GHIJKL
+c) GHIJKL ABCDEF
+d) GHIJKL GHIJKL
+a
+Output:
+$ javac Output.java
+$ java Output
+ABCDEF ABCDEF
+8. What will be the output of the following Java program?
+    import java.lang.System;    class Output     {        public static void main(String args[])        {            byte a[] = { 65, 66, 67, 68, 69, 70 };            byte b[] = { 71, 72, 73, 74, 75, 76 };              System.arraycopy(a, 0, b, 3, a.length - 3);            System.out.print(new String(a) + " " + new String(b));        }    }
+a) ABCDEF ABCDEF
+b) ABCDEF GHIJKL
+c) ABCDEF GHIABC
+d) GHIJKL GHIJKL
+c
+Output:
+$ javac Output.java
+$ java Output
+ABCDEF GHIABC
+9. What will be the output of the following Java program?
+    import java.lang.System;    class Output    {        public static void main(String args[])        {            byte a[] = { 65, 66, 67, 68, 69, 70 };            byte b[] = { 71, 72, 73, 74, 75, 76 };              System.arraycopy(a, 2, b, 3, a.length - 4);            System.out.print(new String(a) + " " + new String(b));        }    }
+a) ABCDEF ABCDEF
+b) ABCDEF GHIJKL
+c) ABCDEF GHIABC
+d) ABCDEF GHICDL
+d
+Output:
+$ javac Output.java
+$ java Output
+ABCDEF GHICDL
+10. What will be the output of the following Java program?
+    import java.lang.System;    class Output     {        public static void main(String args[])        {            System.exit(5);        }    }
+a) 0
+b) 1
+c) 4
+d) 5
+d
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.lang – Object & Math Class» Next - Java Questions & Answers – Java.lang – Double & Float Wrappers 

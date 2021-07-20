@@ -1,0 +1,67 @@
+1. Amazon EMR also allows you to run multiple versions concurrently, allowing you to control your ___________ version upgrade.
+a) Pig
+b) Windows Server
+c) Hive
+d) Ubuntu
+c
+2. Point out the correct statement.
+a) Amazon Elastic MapReduce (Amazon EMR) provides support for Apache Hive
+b) Pig extends the SQL paradigm by including serialization formats and the ability to invoke mapper and reducer scripts
+c) The Amazon Hive default input format is text
+d) All of the mentioned
+a
+3. The Amazon EMR default input format for Hive is __________
+a) org.apache.hadoop.hive.ql.io.CombineHiveInputFormat
+b) org.apache.hadoop.hive.ql.iont.CombineHiveInputFormat
+c) org.apache.hadoop.hive.ql.io.CombineFormat
+d) All of the mentioned
+a
+4. Hadoop clusters running on Amazon EMR use ______ instances as virtual Linux servers for the master and slave nodes.
+a) EC2
+b) EC3
+c) EC4
+d) None of the mentioned
+a
+5. Point out the wrong statement.
+a) Apache Hive saves Hive log files to /tmp/{user.name}/ in a file named hive.log
+b) Amazon EMR saves Hive logs to /mnt/var/log/apps/
+c) In order to support concurrent versions of Hive, the version of Hive you run determines the log file name
+d) None of the mentioned
+d
+6. Amazon EMR uses Hadoop processing combined with several __________  products.
+a) AWS
+b) ASQ
+c) AMR
+d) AWES
+a
+7. ___________ is an RPC framework that defines a compact binary serialization format used to persist data structures for later analysis.
+a) Pig
+b) Hive
+c) Thrift
+d) None of the mentioned
+b
+8. Impala on Amazon EMR requires _________ running Hadoop 2.x or greater.
+a) AMS
+b) AMI
+c) AWR
+d) All of the mentioned
+b
+9. Impala executes SQL queries using a _________ engine.
+a) MAP
+b) MPP
+c) MPA
+d) None of the mentioned
+b
+10. Amazon EMR clusters can read and process Amazon _________ streams directly.
+a) Kinet
+b) kinematics
+c) Kinesis
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Amazon Elastic Mapreduce, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Hadoop on Microsoft Azure» Next - Hadoop Questions and Answers – Amazon EC2/S3 services 

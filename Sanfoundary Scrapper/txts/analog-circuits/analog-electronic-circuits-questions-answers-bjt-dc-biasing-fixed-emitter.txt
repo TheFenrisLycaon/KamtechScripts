@@ -1,0 +1,114 @@
+1. Which of the following is the correct relationship between base and emitter current of a BJT?
+a) IB = β IE
+b) IB = IE
+c) IB = (β + 1) IE
+d) IE = (β + 1) IB
+d
+Hence, IE = (β + 1) IB.
+2. For best operation of a BJT, which region must the operating point be set at?
+a) Active region
+b) Cutoff region
+c) Saturation region
+d) Reverse active region
+a
+3. From the given circuit, using a silicon transistor, what is the value of IBQ?
+a) 47.08 mA
+b) 47.08 uA
+c) 50 uA
+d) 0 mA
+b
+And IB=12-0.8/240k=0.047 mA
+IBMIN=ICSAT/β=5.09/50=0.1072mA which is greater than above IB.
+Hence transistor is in the active region.
+Thus IC=βIB.
+VBE=0.7V
+IB=12-0.7/240=47.08μA
+4. From the given circuit, using a silicon BJT, what is the value of VCEQ?
+a) 7 V
+b) 0.7 V
+c) 6.83 V
+d) 7.17 V
+c
+And IB=12-0.8/240k=0.047 mA
+IBMIN=ICSAT/β=5.09/50=0.1072mA which is greater than above IB.
+Hence transistor is in the active region.
+Thus IC=βIB.
+VBE=0.7V
+IB=12-0.7/240=47.08μA
+IC=50×47.08=2.354 mA
+VCE=VCC-ICRC=12-2.354*2.2=12-5.178=6.83V.
+5. From the given circuit, using a silicon BJT, what is the value of VBC?
+a) 6.13 V
+b) -6.13 V
+c) 7 V
+d) -7 V
+b
+And IB=12-0.8/240k=0.047 mA
+IBMIN=ICSAT/β=5.09/50=0.1072mA which is greater than above IB.
+Hence transistor is in the active region.
+Thus IC=βIB.
+VBE=0.7V
+IB=12-0.7/240=47.08μA
+IC=50×47.08=2.354 mA
+VCE=VCC-ICRC=12-2.354*2.2=12-5.178=6.83V
+Hence VBC = 0.7-6.83 = -6.13V.
+6. From the given circuit, using silicon BJT, what is the value of the saturation collector current?
+a) 5 mA
+b) 5.36 mA
+c) 5.45 mA
+d) 10.9 mA
+b
+7. In the given circuit, what is the value of IC if the BJT is made of Silicon?
+a) 2.01 mA
+b) 2.01 uA
+c) 10.05 mA
+d) 10.05 uA
+a
+And IB=20-0.8/430k=0.044 mA
+IBMIN=ICSAT/β=5.09/50=0.198mA which is greater than above IB.
+Hence transistor is in the active region.
+Thus IC=βIB.
+VBE=0.7V
+IB=20-0.7/430=44.88μA
+IC=50×44.88=2.24 mA.
+8. In the given circuit, using a silicon BJT, what is the value of VCE?
+a) 20 V
+b) 15.52 V
+c) 14.98 V
+d) 13.97 V
+b
+And IB=20-0.8/430k=0.044 mA
+IBMIN=ICSAT/β=5.09/50=0.198mA which is greater than above IB.
+Hence transistor is in the active region.
+Thus IC=βIB.
+VBE=0.7V
+IB=20-0.7/430=44.88μA
+IC=50×44.88=2.24 mA
+VCE=20-2.24*2=15.52V.
+9. In the given circuit, what is the value of VE when using a silicon BJT?
+a) 2.01 V
+b) 0.28 V
+c) 0 V
+d) 2.28 V
+d
+And IB=20-0.8/430k=0.044 mA
+IBMIN=ICSAT/β=5.09/50=0.198mA which is greater than above IB.
+Hence transistor is in the active region.
+Thus IC=βIB.
+VBE=0.7V
+IB=20-0.7/430=44.88μA
+IC=50×44.88=2.24 mA
+VCE=20-2.24*2=15.52V
+VE=IERE=(1+β)IBRE=51*44.88*1=2.28V.
+10. In the given circuit using a silicon BJT, what is the value of saturation collector current?
+a) 10 mA
+b) 8.77 mA
+c) 6.67 mA
+d) 5 mA
+c
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Electronic Circuits Questions and Answers – Limits of Operation» Next - Analog Circuits Questions and Answers – Voltage Regulators – 1 

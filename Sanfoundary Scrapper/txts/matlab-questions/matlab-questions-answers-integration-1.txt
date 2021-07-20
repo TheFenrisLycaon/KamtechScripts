@@ -1,0 +1,97 @@
+1. The int() function gives the __________
+a) general solution of the ODE
+b) general solution of the function
+c) particular integral of a function
+d) complementary function
+c
+2. What will be the command to find the current through a 1H inductor (no initial current) whose voltage changes by v=t2?
+a) int(‘t2’)
+b) intg(‘t2’)
+c) int(t2)
+d) Cannot be determined
+c
+3. The command quad() cannot do ______ integrals.
+a) Definite
+b) Indefinite
+c) Particular
+d) Any
+b
+4. The code quad(‘x.^2’,-3,2) is same as ___________
+a) quad(‘x.^2’,-2,3)
+b) quad(‘x.^2’,-3,2)
+c) quad(x.^2,3,-2)
+d) quad(‘x^2’,-2,-3)
+a
+5. The capacitor voltage due to a current of i=t4with v(0+)=3 is found from using _________
+a) ODE solver
+b) int() command
+c) quad() command
+d) diff() command
+a
+6. The accuracy of quad() is ___________
+a) very low
+b) low
+c) moderate
+d) high
+b
+7. Double integration of a function can be done by using the _____ command.
+a) int(int(func))
+b) int(‘int(‘func’)’)
+c) quad(int(func))
+d) cannot be done
+a
+8. How will ∫ex⁄x look like, in MATLAB?
+a) Infinite series
+b) expint(x)
+c) ei(x)
+d) Error
+c
+9. The class of the result of an indefinite integration is always _____________
+a) Signed
+b) Double
+c) Array
+d) Symbolic
+d
+10. The quad command cannot do ______________
+a) Low accuracy integration
+b) Definite integration
+c) Any integration
+d) Indefinite integration
+d
+11. The function, as an input to the quad command, is given as _______________
+a) Symbolic argument
+b) String argument
+c) Double argument
+d) Rational argument
+b
+12. The output of int(x^2,1,3) and quad(‘x. ^2,1,3) is ________
+a) Same
+b) Different
+c) Maybe different
+d) Error
+b
+Output:
+For int(x^2,1,3): 26/3
+For quad(‘x. ^2’,1,3) : 8.6667
+13. The command to get more accurate solution for definite integration is ______________
+a) int()
+b) quad()
+c) quadl()
+d) not present in MATLAB
+c
+14. Can we do Vector integration in MATLAB?
+a) Yes
+b) No
+c) In some cases
+d) Only single integral
+a
+15. We cannot find the integrator, made with an OP-amp, response using the quad() command at steady state.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Differentiation – 2» Next - MATLAB Questions and Answers – Integration – 2 

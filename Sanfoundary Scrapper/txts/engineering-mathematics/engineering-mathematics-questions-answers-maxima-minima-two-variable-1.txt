@@ -1,0 +1,82 @@
+1. Consider the f(x, y) = x2 + y2 – a. For what values of a do we have critical points for the function.
+a) independent of a
+b) for any real number except zero
+c) a ∊ (0, +∞)
+d) a ∊ (-1, 1)
+a
+fx = 2x
+and
+fy = 2y
+There is no a here. Thus, independent of a.
+2. The critical point exist for the function f(x, y) = xn + xn-1 y +……+yn at (0,0).
+a) True
+b) False
+b
+f(x, y) = x + y.
+3. f(x, y) = sin(x).cos(y) Which of the following is a critical point?
+a) (Π⁄4, Π⁄4)
+b) (- Π⁄4, Π⁄4)
+c) (0, Π⁄2)
+d) (0, 0)
+c
+fy = – sin(x).sin(y)
+→(x, y) = (0, Π⁄2).
+4. The point (0,0) in the domain of f(x, y) = sin(xy) is a point of ___________
+a) Saddle
+b) Minima
+c) Maxima
+d) Constant
+d
+fyy = -x2.sin(xy)
+fxy = -yx.sin(xy)
+Observe that fxx. fyy – (fxy)2
+Hence, it is a saddle point.
+5. A man travelling onf(x, y) = sin(xy). His shadow passing through the origin in a straight line (sun travels with him overhead).
+What is the slope of the line travelling on which would lead him to the lowest elevation.
+a) There isn’t such a line
+b) 1
+c)-1
+d) 0
+a
+fxx = -y2.sin(xy)
+fyy = -x2.sin(xy)
+fxy = -yx.sin(xy)
+Observe that (0,0) is an inconclusive point
+Hence, he will never reach the lowest elevation(because there isn’t such point.
+6. let s(1) be the set of all critical points of f1(x, y) = g1(x).g2(y) and s(2) be the set of critical points of f2(g1(x), g2(y)) Which of the following is the right relation between s(1) and s(2), given that minimum number of elements in s(1) is 2.
+a) s(1) = s(2)
+b) s(1) ≠ s(2)
+c) s(1) ∩ s(2) ≠ 0
+d) depends on the functions
+b
+dx = f1x g1x (x)
+dy = f1y g1y (y)
+This implies
+g1x = 0
+g1y = 0
+Which are also the set of critical points of f1(x, y)
+Thus we have the relation as s(1) ∩ s(2) ≠ 0.
+7. f(x, y)=\(10y(10y-1)+(\frac{x^3sin(x^2)tan(x^3)}{(x-1)^3})-100y^2\). Find the critical points
+a) (0,0)
+b) (1,1)
+c) (2,22)
+d) None exist
+d
+f(x, y)=\((\frac{x^3sin(x^2)tan(x^3)}{(x-1)^3})-10y\) 
+Differentiating with respect to y we get
+fy = -10
+-10 ≠ 0
+There exist no critical point.
+8. Consider the vertical cone. The minimum value of the function in the region f(x,y) = c is?
+a) constant
+b) 1
+c) 0
+d) -1
+a
+Hence, we have the answer as a constant.
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Differential and Integral Calculus Questions and Answers – Taylor’s Theorem Two Variables» Next - Engineering Mathematics Questions and Answers – Maxima and Minima of Two Variables – 2 

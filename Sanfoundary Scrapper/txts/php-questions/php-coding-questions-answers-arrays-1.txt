@@ -1,0 +1,85 @@
+1. What will be the output of the following PHP code?
+<?php$cars = array("Volvo", "BMW", "Toyota");echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";?>
+a) I like Volvo BMW and Toyota.
+b) I like Volvo, BMW and Toyota)
+c) I like Volvo, BMW and Toyota.
+d) I like. Volvo.,. BMW. and.  Toyota)
+b
+2. What will be the output of the following PHP code?
+<?php$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");print_r(array_change_key_case($age, CASE_UPPER));?>
+a) Array ( [Peter] => 35 [Ben] => 37 [Joe] => 43 )
+b) Array ( [peter] => 35 [ben] => 37 [joe] => 43 )
+c) Array ( [PETER] => 35 [BEN] => 37 [JOE] => 43 )
+d) Array ( [PeTeR] => 35 [BeN] => 37 [Joe] => 43 )
+c
+3. What will be the output of the following PHP code?
+<?php$cars = array("Volvo", "BMW", "Toyota", "Honda", "Mercedes", "Opel");print_r(array_chunk($cars, 2));?>
+a) Array ( [0] => Array ( [1] => Volvo [2] => BMW ) [1] => Array ( [1] => Toyota [2] => Honda ) [2] => Array ( [1] => Mercedes [2] => Opel ) )
+b) Array ( [1] => Array ( [1] => Volvo [2] => BMW ) [2] => Array ( [1] => Toyota [2] => Honda ) [3] => Array ( [1] => Mercedes [2] => Opel ) )
+c) Array ( [0] => Array ( [0] => Volvo [1] => Volvo ) [1] => Array ( [0] => BMW [1] => BMW ) [2] => Array ( [0] => Toyota [1] => Toyota ) )
+d) Array ( [0] => Array ( [0] => Volvo [1] => BMW ) [1] => Array ( [0] => Toyota [1] => Honda ) [2] => Array ( [0] => Mercedes [1] => Opel ) )
+d
+4. What will be the output of the following PHP code?
+<?php$fname = array("Peter", "Ben", "Joe");$age = array("35", "37", "43");$c = array_combine($fname, $age);print_r($c);?>
+a) Array ( Peter Ben Joe )
+b) Array ( [Peter] => 35 [Ben] => 37 [Joe] => 43 )
+c) Array ( 35 37 43 )
+d) Array ( “[Peter] => 35” “[Ben] => 37” “[Joe] => 43” )
+b
+5. What will be the output of the following PHP code?
+<?php$a = array("A", "Cat", "Dog", "A", "Dog");print_r(array_count_values($a));?>
+a) Array ( [A] => 2 [Cat] => 1 [Dog] => 2 )
+b) Array ( [A] => 2 [Cat] => 2 [Dog] => 1 )
+c) Array ( [A] => 1 [Cat] => 1 [Dog] => 2 )
+d) Array ( [A] => 2 [Cat] => 1 [Dog] => 1)
+a
+6. What will be the output of the following PHP code?
+<?php$a1 = array("a"=>"red", "b"=>"green", "c"=>"blue", "d"=>"yellow");$a2 = array("e"=>"red", "f"=>"green", "g"=>"blue");$result = array_diff($a1, $a2);print_r($result);?>
+a) Array ( [d] => yellow )
+b) Array ( [c] => blue )
+c) Array ( [a] => red )
+d) Array ( [e] => yellow )
+a
+7. What will be the output of the following PHP code?
+<?php$a1 = array_fill(3, 4, "blue");$b1 = array_fill(0, 1, "red");print_r($a1);echo "<br>";print_r($b1);?>
+a)
+  Array ( [3] => blue [4] => blue) 
+  Array ( [0] => red )
+b)
+  Array ( [4] => blue [5] => blue [6] => blue) 
+  Array ( [0] => red )
+c)
+  Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) 
+  Array ()
+d)
+  Array ( [3] => blue [4] => blue [5] => blue [6] => blue ) 
+  Array ( [0] => red )
+d
+  
+8. What will be the output of the following PHP code?
+<?php$a1 = array("red", "green");$a2 = array("blue", "yellow");print_r(array_merge($a1, $a2));?>
+a) Array ( [0] => red [1] => green)
+b) Array ( [0] => blue [1] => yellow [2] => red [3] => green )
+c) Array ( [0] => red [1] => green [2] => blue [3] => yellow )
+d) Array ( [0] => blue [1] => yellow )
+c
+9. What will be the output of the following PHP code?
+<?php$a = array("a"=>"red", "b"=>"green", "c"=>"blue");echo array_shift($a);print_r ($a);?>
+a) green
+b) red
+c) redArray( [c] => green [c] => blue )
+d) redArray( [b] => green [c] => blue )
+d
+10. What will be the output of the following PHP code?
+<?php$a = array("red", "green", "blue");array_pop($a);print_r($a);?>
+a) Array ( [0] => red [1] => green )
+b) Array ( [0] => green [1] => blue )
+c) Array ( [0] => red [1] => blue )
+d) Array ( [0] => blue [1] => blue )
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Arrays – 3» Next - PHP Questions & Answers – Arrays – 5 

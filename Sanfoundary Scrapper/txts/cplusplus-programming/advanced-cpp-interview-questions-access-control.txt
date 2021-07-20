@@ -1,0 +1,89 @@
+This section on advanced C++ interview questions focuses on “Access Control”. One shall practice these advanced C++ questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our advanced C++ questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of advanced C++ interview questions on “Access Control” along with answers, explanations and/or solutions:
+1. Which access specifier is used where one wants data members to be accessed by other classes but not from outside objects?
+a) private
+b) protected
+c) public
+d) both protected and public
+b
+2. Which of the following describes the protected access specifier?
+a) The variable is visible only outside inside the block
+b) The variable is visible everywhere
+c) The variable is visible to its block and to it’s derived class
+d) The variable is not visible to its block
+c
+3. To which of the following access specifiers are applicable?
+a) Member data
+b) Functions
+c) Both Member data & Functions
+d) Protected members
+c
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class student    {        public:        int rno , m1 , m2 ;        protected:        void get()        {            rno = 15, m1 = 10, m2 = 10;        }    };    class sports    {        public:        int sm;        void getsm()        {            sm = 10;        }    };    class statement : public student, public sports    {        int tot, avg;        public:        void display()        {            tot = (m1 + m2 + sm);            avg = tot / 3;            cout << tot;            cout << avg;        }        void setObject()        {            get();        }    };    int main()    {        statement obj;        obj.setObject();        obj.getsm();        obj.display();    }
+a) 3010
+b) 1010
+c) 2100
+d) Error
+a
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;     struct A     {        int i;        char j;        float f;        void func();    };    void A :: func() {}    struct B     {        public:        int i;        char j;        float f;        void func();    };    void B :: func() {}    int main()     {        A a; B b;        a.i = b.i = 1;         a.j = b.j = 'c';        a.f = b.f = 3.14159;        a.func();        b.func();        cout << "Allocated";         return 0;    }
+a) Allocated
+b) Error
+c) 3.14159
+d) 1
+a
+Output:
+$ g++ acc.cpp
+$ a.out
+Allocated
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    struct A     {        private:        int i, j, k;        public:        int f();        void g();    };    int A :: f()     {        return i + j + k;    }    void A :: g()     {        i = j = k = 0;    }    class B     {        int i, j, k;        public:        int f();        void g();    };    int B :: f()     {        return i + j + k;     }    void B :: g()     {        i = j = k = 0;    }    int main()     {        A a;        B b;        a.f();         a.g();        b.f();         b.g();        cout << "Identical results would be produced";    }
+a) 50
+b) Identical results would be produced
+c) Error
+d) Runtime error
+b
+Output:
+$ g++ acc1.cpp
+$ a.out
+Identical results would be produced
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Cat    {        public:        int age;        int weight;    };    int main()    {        Cat f;        f.age = 56;        cout << "Gates is " ;        cout << f.age << " years old.\n";    }
+a) Gates is
+b) Gates is 56 years old
+c) Error
+d) Gates is 53 years old
+b
+Output:
+$ g++ acc2.cpp
+$ a.out
+Gates is 56 years old
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    struct X;    struct Y     {        void f(X*);    };    struct X     {        private:        int i;        public:        void initialize();         friend void g(X* , int);        friend void Y :: f(X*);        friend struct Z;        friend void h();    };    void X :: initialize()     {        i = 0;    }    void g(X* x, int i)     {        x -> i = i;    }    void Y :: f(X * x)     {        x -> i = 47;        cout << x->i;    }    struct Z     {        private:        int j;        public:        void initialize();        void g(X* x);    };    void Z::initialize()     {        j = 99;    }    void Z::g(X* x)     {        x -> i += j;    }    void h()     {        X x;        x.i = 100;        cout << x.i;    }    int main()     {        X x;        Z z;        z.g(&x);        cout << "Data accessed";    }
+a) 99
+b) 47
+c) Data accessed
+d) 67
+c
+Output:
+$ g++ acc3.cpp
+$ a.out
+Data accessed
+9. Members of which access specifiers are not inherited?
+a) Public
+b) Protected
+c) Private
+d) None of the mentioned
+d
+10. What is the importance of mutable keyword?
+a) It allows the data member to change within a const member function
+b) It will not allow the data member to change within a const member function
+c) It will copy the values of the variable
+d) It allows the data member to change outside a const member function
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Inheritance – 2» Next - C++ Programming Questions and Answers – Run Time Type Information 

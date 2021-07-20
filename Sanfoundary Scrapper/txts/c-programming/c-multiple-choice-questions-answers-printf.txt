@@ -1,0 +1,80 @@
+1. If by mistake you specify more number of arguments, the excess arguments will ____________
+a) be ignored
+b) produce compile error
+c) produce run-time error
+d) produce logical error
+a
+2. What happens when zero flag is used with left justification?
+a) data is padded with zeros
+b) zero flag is ignored
+c) data is padded with blank spaces
+d) will give error
+b
+3. For floating point numbers, the precision flag specifies the number of decimal places to be printed. When no precision modifier is specified, printf() prints _______
+a) six decimal positions
+b) five decimal positions
+c) four decimal positions
+d) three decimal positions
+a
+4. What will the given code result in printf(“\n you are\”awesome \" ");?
+a) compile error
+b) run-time error
+c) you are "awesome"
+d) you are awesome
+c
+5. What will be the output for the given code printf(“\n The number is %07d”,1212);
+a) The number is 0001212
+b) The number is 1212
+c) The number is 1212
+d) The number is 1212000
+a
+6. What will be the output of the following code?
+char t=’N’;
+printf(“\n %c \n %3c \n %5c”,t,t,t);
+a)               N
+              N
+        N
+b)     N
+                N
+                     N
+c)  N
+          N
+          N
+d)   N   N   N   
+b
+7. Select the right explanation to the given code.
+printf(“%*. *f”, 5,4,5700);
+a) the minimum field width has to be 4, the precision is given to be 5, and the value to be displayed is 5700
+b) the minimum field width is 5, the precision is 4, and the value to be displayed is 5700
+c) compile error
+d) run-time error
+b
+8. What will be the output of the following C code?
+char str[] = &quot;Hello Nancy“;
+printf(“\n %.7s”, str) ;
+a) Hello Nan
+b) Hello
+c) Hello N
+d) Hello Nancy
+c
+9. What will be the output of the following C code?
+char str[] =”Too Good”;
+printf(“\n %7s”,str);
+a) Too Good
+b) Too G
+c) Too Go
+d) Too
+a
+10. What will be the output of the following C code?
+printf(“\n Output: %5d \t %x \t %#x”, 234,234,234);
+a) Output:234EA0xEA
+b) Output:00234 EA 0xEA
+c) Output:    234 EA 0xEA
+d) ERROR
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – printf – 1» Next - C Questions and Answers – scanf – 1 

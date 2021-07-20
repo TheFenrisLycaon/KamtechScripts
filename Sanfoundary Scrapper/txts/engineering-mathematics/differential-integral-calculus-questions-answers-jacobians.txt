@@ -1,0 +1,118 @@
+1. The jacobian of p,q,r  w.r.t  x,y,z  given p=x+y+z, q=y+z, r=z is ________
+a) 0
+b) 1
+c) 2
+d) -1
+b
+\(J = \frac{∂(p,q,r)}{∂(x,y,z)} = \begin{vmatrix}
+\frac{∂p}{∂x} & \frac{∂p}{∂y} &\frac{∂p}{∂z}\\
+\frac{∂q}{∂x} &\frac{∂q}{∂y} &\frac{∂q}{∂z}\\
+\frac{∂r}{∂x} &\frac{∂r}{∂y} &\frac{∂r}{∂z}\\
+\end{vmatrix}\) 
+But p=x+y+z, q=y+z, r=z (taking partial derivative)
+\(J=\begin{vmatrix}
+1&1&1\\
+0&1&1\\
+0&0&1\\
+\end{vmatrix}(\frac{∂p}{∂x}=1, \frac{∂p}{∂y}=1, \frac{∂p}{∂z}=1, \frac{∂q}{∂x}=0, \frac{∂q}{∂y}=1, \frac{∂q}{∂z}=1, \frac{∂r}{∂x}=0, \\
+\frac{∂r}{∂y}=0, \frac{∂r}{∂z}=1)\) 
+On expanding we get
+J = 1(1 – 0) = 1
+Thus j = 1.
+2. Given \(u=\frac{yz}{x}, v=\frac{zx}{y}, w=\frac{xy}{z}\) then the value of \(\frac{∂(u,v,w)}{∂(x,y,z)}\) is ________
+a) 4
+b) -4
+c) 0
+d) 1
+a
+ \(J = \frac{∂(u,v,w)}{∂(x,y,z)} = \begin{vmatrix}
+\frac{∂u}{∂x} & \frac{∂u}{∂y} &\frac{∂u}{∂z}\\
+\frac{∂v}{∂x} &\frac{∂v}{∂y} &\frac{∂v}{∂z}\\
+\frac{∂w}{∂x} &\frac{∂w}{∂y} &\frac{∂w}{∂z}\\
+\end{vmatrix} = \begin{vmatrix}
+\frac{-yz}{x^2} & \frac{z}{x} &\frac{y}{x}\\
+\frac{z}{y} &\frac{-zx}{y^2} &\frac{x}{y}\\
+\frac{y}{z} &\frac{x}{z} &\frac{-xy}{z^2}\\
+\end{vmatrix}\) 
+ \(=\frac{-yz}{x^2}\Big\{(\frac{-zx}{y^2})(\frac{-xy}{y^2}) – (\frac{x}{z})(\frac{x}{y})\Big\} – (\frac{z}{x})\Big\{(\frac{z}{y})(\frac{-xy}{z^2})-(\frac{y}{z})(\frac{x}{y})\Big\} \\
++ \frac{y}{x}\Big\{(\frac{z}{y})(\frac{x}{z})-(\frac{y}{z})(\frac{-zx}{y^2})\Big\}\) 
+\(=\frac{-yz}{x^2} \Big\{\frac{x^2}{yz} – \frac{x^2}{yz}\Big\} – \frac{z}{x}\Big\{\frac{-x}{z} – \frac{x}{z}\Big\} + \frac{y}{x}\Big\{\frac{x}{y} + \frac{x}{y}\Big\} = 0 + 1 + 1 + 1 = 4\) 
+Therefore  \(\frac{∂(u,v,w)}{∂(x,y,z)} = 4.\) 
+3. If u=x+3y2-z3, v=4x2 yz, w=2z2-xy then \(\frac{∂(u,v,w)}{∂(x,y,z)} \) at (1,1,1).
+a) -184
+b) -90
+c) 20
+d) 40
+a
+\(\frac{∂(u,v,w)}{∂(x,y,z)} = \begin{vmatrix}
+\frac{∂u}{∂x} & \frac{∂u}{∂y} &\frac{∂u}{∂z}\\
+\frac{∂v}{∂x} &\frac{∂v}{∂y} &\frac{∂v}{∂z}\\
+\frac{∂w}{∂x} &\frac{∂w}{∂y} &\frac{∂w}{∂z}\\
+\end{vmatrix} = \begin{vmatrix}
+1 & 6y & -3z^2\\
+8xyz &4x^2 z &4x^2 y\\
+-y &-x &4z\\
+\end{vmatrix}\) 
+\(\frac{∂(u,v,w)}{∂(x,y,z)} \,at\, (1,1,1) = \begin{vmatrix}
+1 & 6 & -3\\
+8 &4&4\\
+-1 &-1 &4\\
+\end{vmatrix}\) 
+=1(16+4) – 6(32+4) – 3(-8+4) = -184.
+4. If x=rcos⁡θ, y=rsin⁡θ then the value of \(\frac{∂(x,y)}{∂(r,θ)}\) is ________
+a) 1
+b) 0
+c) r
+d) \(\frac{1}{r}\) 
+c
+\frac{∂x}{∂r} & \frac{∂x}{∂θ}\\
+\frac{∂y}{∂r} & \frac{∂y}{∂θ}\\
+\end{vmatrix}  \,but\, x=rcos⁡θ, y=rsin⁡θ\) 
+Thus \( \begin{vmatrix}
+cos⁡θ & -rsin⁡θ\\
+sin⁡θ & rcos⁡θ\\
+\end{vmatrix} = rcos^2 θ + rsin^2 θ = r.\)
+5. The application of Jacobians is significant in the evaluation of double integral of the form ∬f(x,y) dx dy and triple integral of the form ∭f(x,y,z)dx dy dz  by transformation from one system of coordinate to the other.
+a) True
+b) False
+a
+6. If  u+v=ex  cos⁡y and u-v=ex  sin y the value of \(J(\frac{u,v}{x,y})\) is ________
+a) e2x
+b) \(\frac{e^2x}{2} \) 
+c) \(\frac{-e^2x}{2} \) 
+d) 0
+c
+\frac{∂u}{∂x} & \frac{∂u}{∂y}\\
+\frac{∂v}{∂x} & \frac{∂v}{∂y}\\
+\end{vmatrix}\) 
+But we have to find u and v first using given equation
+u+v=ex  cos ⁡y………(1)
+u-v=ex  sin⁡ y……..(2)
+solving (1)&(2)
+we get u=\(\frac{e^x}{2} \)(cos⁡y+sin⁡y)
+v=\(\frac{e^x}{2} \)(cos⁡y-sin⁡y)
+\(\frac{∂u}{∂x} = \frac{e^x}{2}(cos⁡y+sin⁡y) \) 
+\(\frac{∂v}{∂x} = \frac{e^x}{2}(cos⁡y-sin⁡y) \) 
+\(\frac{∂u}{∂y} = \frac{e^x}{2}(cos⁡y-sin⁡y) \) 
+\(\frac{∂v}{∂y} = \frac{e^x}{2}(-cos⁡y-sin⁡y) \) 
+\(J(\frac{u,v}{x,y}) = \begin{vmatrix}
+\frac{e^x}{2}(cos⁡y+sin⁡y) & \frac{e^x}{2}(cos⁡y-sin⁡y)\\
+\frac{e^x}{2}(cos⁡y-sin⁡y) & \frac{e^x}{2}(-cos⁡y-sin⁡y)\\
+\end{vmatrix}\) 
+\((\frac{e^x}{2})(\frac{e^x}{2})\){-(cos⁡y+sin⁡y)2 -(cos⁡y-sin⁡y)2}…….(expanding & solving by taking cos2 y+sin2 y=1)
+=\(\frac{-e^2x}{2} \).
+7. Which among the following is the definition of Jacobian of u and v w.r.t x and y?
+a) \(J(\frac{x,y}{u,v})\) 
+b) \(J(\frac{u,v}{x,y})\) 
+c) \(\frac{∂(x,y)}{∂(u,v)} \) 
+d) \(\frac{∂(u,x)}{∂(v,y)}	\) 
+b
+\frac{∂u}{∂x} & \frac{∂u}{∂y}\\
+\frac{∂v}{∂x} & \frac{∂v}{∂y}\\
+\end{vmatrix}\) 
+Sanfoundry Global Education & Learning Series – Differential and Integral Calculus.
+To practice all areas of Differential and Integral Calculus, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Errors and Approximations» Next - Differential and Integral Calculus Questions and Answers – Differentiation Under Integral Sign 

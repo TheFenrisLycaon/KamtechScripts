@@ -1,0 +1,79 @@
+1. Which of the following statement is correct?
+    double x, y, z;
+    x = 5.123456;
+    z= modf(x, *y);
+a) y stores integer part of x, z returns fractional part of x
+b) y stores integer part of x, z returns integer part of x
+c) y stores fractional part of x, z returns integer part of x
+d) y stores fractional part of x, z returns fractional part of x
+a
+This function returns the fractional part of x, with the same sign. modf() function breaks the argument value into integer and fraction parts, each of which has the same sign as the argument. It stores the integer part as a double in the object pointed to by y.
+2.  A domain error occurs if x is negative and y is not an integral value for the function pow(double x, double y).
+a) true
+b) false
+a
+3. A function is declared as sqrt(-x) under the header file math.h, what will the function return?
+a) square root of x
+b) complex number
+c) domain error
+d) range error
+c
+The sqrt function computes the nonnegative square root of x. A domain error occurs if the argument is negative.
+Join [email protected]
+4. What will be the output of the following C code?
+    double x=1.2
+    printf("%.1lf", ceil(x));
+a) 1
+b) 2
+c) 1.0
+d) 2.0
+d
+5. What will be the output of the following C code?
+    double x=3,y= - 6;
+    printf("%lf %lf", fabs(x), fabs(y));
+a) 3  6
+b) -3  6
+c) 3.0  6.0
+d) 3.000000  6.000000
+d
+The fabs function computes the absolute value of a floating-point number X.
+6. What will be the output of the following C code?
+double x=1.8;
+printf("%.2lf",floor(x));
+a) 2.0
+b) 2.00
+c) 1.0
+d) 1.00
+d
+The floor function computes the largest integral value not greater than x.
+7. double ______ (double x, double y) computes the floating-point remainder of x/y.
+a) modf
+b) fmod
+c) ceil
+d) floor
+b
+The fmod() function computes the floating-point remainder of x/y.
+8. sqrt(x) function is not faster than the apparent equivalent pow(x,0.5).
+a) true
+b) false
+b
+9. Which of the given C function can be used instead of the apparent identity pointed to by y?
+int x=1; 
+double y= 0.5 * (exp (x) + exp (-x));
+a) cos(x)
+b) cosh(x)
+c) fmod(x)
+d) modf(x)
+b
+10. Which function is used to recombine the fraction and exponent parts of a floating-point value after you have worked on them separately?
+a) frexp()
+b) exp()
+c) modf()
+d) Idexp()
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Mathematical functions – 2» Next - C Questions and Answers – General Utilities – 1 

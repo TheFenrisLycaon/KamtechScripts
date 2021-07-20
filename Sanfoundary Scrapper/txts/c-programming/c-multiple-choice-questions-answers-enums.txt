@@ -1,0 +1,173 @@
+1. What will be the output of the following C code?
+main()
+{
+    enum resut {pass, fail};
+    enum result s1,s2;
+    s1=pass;
+    s2=fail;
+    printf("%d",s1);
+}
+a) error
+b) pass
+c) fail
+d) 0
+a
+2. What will be the output of the following C code?
+#include <stdio.h>
+enum example {a = 1, b, c};
+enum example example1 = 2;
+enum example answer() 
+{
+    return example1;
+}
+ 
+int main()
+{
+   (answer() == a)? printf("yes"): printf("no");
+   return 0;
+}
+a) yes
+b) no
+c) 2
+d) error
+b
+3. What will be the output of the following C code?
+#include<stdio.h>
+#define MAX 4
+enum sanfoundry
+{
+    a,b=3,c
+};
+main()
+{
+    if(MAX!=c)
+        printtf("hello");
+    else
+        printf("welcome");
+}
+a) error
+b) hello
+c) welcome
+d) 2
+c
+4. Arithmetic operations such as addition, subtraction, multiplication and division are allowed on enumerated constants.
+a) True
+b) False
+a
+5.  Point out the error( if any) in the following code.
+#include<stdio.h>
+enum sanfoundry
+{
+    a,b,c
+};
+enum sanfoundry g;
+main()
+{
+    g++;
+    printf("%d",g);
+}
+a) Error in the statement: a,b,c
+b) Error in the statement: enum sanfoundry g;
+c) Error in the statement: g++
+d) No error
+d
+6. What will be the output of the following C code if input given is 2?
+#include<stdio.h>
+enum day
+{
+    a,b,c=5,d,e
+};
+main()
+{
+    printf("Enter the value for a");
+    scanf("%d",a);
+    printf("%d",a);
+}
+a) 2
+b) 0
+c) 3
+d) Error
+d
+7. What will be the output of the following C code if the code is executed on a 32 bit platform?
+#include <stdio.h>
+enum sanfoundry
+ {
+    c = 0,
+    d = 10,
+    h = 20,
+    s = 3
+} a;
+ 
+int main()
+{
+        a = c;
+	printf("Size of enum variable = %d bytes", sizeof(a));
+	return 0;
+}
+a) Error
+b) Size of enum variable = 2 bytes
+c) Size of enum variable = 4 bytes
+d) Size of enum variables = 8 bytes
+c
+8. What will be the output of the following C code?
+#include<stdio.h>
+enum sanfoundry
+{
+    a=1,b,c,d,e
+};
+int main()
+{
+    printf("%d",b*c+e-d);
+}
+a) Error
+b) 7
+c) 2
+d) 4
+b
+9. What will be the output of the following C code?
+#include<stdio.h>
+enum sanfoundry
+{
+    a,b,c=5
+};
+int main()
+{
+    enum sanfoundry s;
+    b=10;
+    printf("%d",b);
+}
+a) Error
+b) 10
+c) 1
+d) 4
+a
+10. What will be the output of the following C code?
+#include<stdio.h>
+enum sanfoundry
+{
+    a=1,b
+};
+enum sanfoundry1
+{
+    c,d
+};
+int main()
+{
+    enum sanfoundry1 s1=c;
+    enum sanfoundry1 s=a;
+    enum sanfoundry s2=d;
+    printf("%d",s);
+    printf("%d",s1);
+    printf("%d",s2);
+}
+a) Error
+b) 011
+c) 110
+d) 101
+d
+ Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Enums – 1» Next - C Questions and Answers – Typedef 

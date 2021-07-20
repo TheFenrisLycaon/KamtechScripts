@@ -1,0 +1,193 @@
+1. Which of the following is the scope resolution operator?
+a) .
+b) *
+c) ::
+d) ~
+c
+2. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+int x = 1;
+int main()
+{
+    int x = 2;
+    {
+        int x = 3;
+        cout << ::x << endl;
+    }
+    return 0;
+}
+a) 1
+b) 2
+c) 3
+d) 123
+a
+3. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+class A
+{
+  ~A(){
+    cout<<"Destructor called\n";
+  }
+};
+int main()
+{
+    A a;
+    return 0;
+}
+a) Destructor called
+b) Nothing will be printed
+c) Error
+d) Segmentation fault
+c
+4. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+class A
+{
+  ~A(){
+     cout<<"Destructor called\n";
+   }
+};
+int main()
+{
+    A *a1 = new A();
+    A *a2 = new A();
+    return 0;
+}
+a) Destructor called
+b) 
+Destructor called
+Destructor called
+c) Error
+d) Nothing is printed
+d
+5. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+int x[100];
+int main()
+{
+    cout << x[99] << endl;
+}
+a) Garbage value
+b) 0
+c) 99
+d) Error
+b
+6. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+int main ()
+{
+   int cin;
+   cin >> cin;
+   cout << "cin: " << cin;
+   return 0;
+}
+a) cin: garbage value
+b) Error
+c) Segmentation fault
+d) Nothing is printed
+a
+7. Which of the following operator has left to right associativity?
+a) Unary operator
+b) Logical not
+c) Array element access
+d) addressof
+c
+8. Which of the following is accessed by a member function of a class?
+a) The object of that class
+b) All members of a class
+c) The public part of a class
+d) The private part of a class
+b
+9. What is the size of a character literal in C and C++?
+a) 4 and 1
+b) 1 and 4
+c) 1 and 1
+d) 4 and 4
+a
+10. What is the size of a character type in C and C++?
+a) 4 and 1
+b) 1 and 4
+c) 1 and 1
+d) 4 and 4
+c
+11. Which of the following is correct?
+a) struct tag is required in both C and C++ while declaring an object of the structure
+b) struct is not required in C but required in C++ while declaring an object of the structure
+c) struct is not required in C++ but required in C while declaring an object of the structure
+d) struct tag is not required in both C and C++ while declaring an object of the structure
+c
+12. Which of the following is correct?
+a) struct cannot have member function in C but it can in C++
+b) struct cannot have member function in C++ but it can in C
+c) struct cannot have member function in both C and C++
+d) struct can have member function in both C and C++
+a
+13. What happens if we run the following code in both C and C++?
+#include<stdio.h>
+struct STRUCT
+{
+  int a;
+  int func()
+  {
+      printf("HELLO THIS IS STRUCTURE\n");
+  }
+};
+int main()
+{
+  struct STRUCT s;
+  s.func();
+  return 0;
+}
+a) The program runs fine and both prints output “HELLO THIS IS STRUCTURE”
+b) The program gives an error in case of C but runs perfectly in case of C++
+c) The program gives an error in case of C++ but runs perfectly in case of C
+d) The program gives an error in case of both C and C++
+b
+14. What happens if we run the following code in both C and C++?
+#include<stdio.h>
+struct STRUCT
+{
+  int a = 5;
+  int func()
+  {
+      printf("%d\n", a);
+  }
+};
+int main()
+{
+  struct STRUCT s;
+  s.func();
+  return 0;
+}
+a) The program runs fine and both prints output “HELLO THIS IS STRUCTURE”
+b) The program gives an error in case of C but runs perfectly in case of C++
+c) The program gives an error in case of C++ but runs perfectly in case of C
+d) The program gives an error in case of both C and C++
+b
+15. What happens if the following program is compiled in both C and C++?
+#include<stdio.h>
+struct STRUCT
+{
+  int static a;
+};
+int main()
+{
+  struct STRUCT s;
+  return 0;
+}
+a) The program runs fine and both prints output “HELLO THIS IS STRUCTURE”
+b) The program gives an error in case of C but runs perfectly in case of C++
+c) The program gives an error in case of C++ but runs perfectly in case of C
+d) The program gives an error in case of both C and C++
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – C++ Concepts – 1» Next - C++ Programming Questions and Answers – C++ Concepts – 3 

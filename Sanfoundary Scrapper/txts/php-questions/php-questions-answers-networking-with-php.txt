@@ -1,0 +1,66 @@
+1. What is the full form of DNS?
+a) Digital Network System
+b) Domain Network System
+c) Digital Name Systmem
+d) Domain Name System
+d
+2. Which one of the following function checks for the existence of DNS records?
+a) checkdns()
+b) checkdnsr()
+c) checkdnsrr()
+d) checkdnsa()
+c
+3. Which one of the following function is used to return an array consisting of various DNS resource records pertinent to a specific domain?
+a) dns_get_record()
+b) dns_record()
+c) dnsrr_get_record()
+d) dnsrr_record()
+a
+4. Which one of the following function is used to retrieve the MX records for the domain specified by hostname?
+a) getmx()
+b) retrieve_mx()
+c) getmxrr()
+d) retrieve_mxrr()
+c
+5. What is the default port number of HTTPs?
+a) 70
+b) 80
+c) 90
+d) 100
+b
+6. Which one of the following function returns the port number of a specified service?
+a) getportname()
+b) getservername()
+c) getserverbyname()
+d) getservbyname()
+d
+7. Which one of the following statements can be used to establish port 80 connection with www.nachi.com?
+a) fsockopen(“www.nachi.com”, 80);
+b) sockopen(80,”www.nachi.com”);
+c) fsockopen(80,”www.nachi.com”);
+d) sockopen(“www.nachi.com”, 80);
+a
+8. Which one of the following function is used to send an email using PHP script?
+a) mail_send()
+b) send_mail()
+c) mailrr()
+d) mail()
+d
+9. How many configuration directives pertinent to PHP’s mail function are available?
+a) 4
+b) 5
+c) 6
+d) 7
+b
+10. Which of the following statements is used to add an attachment to the mail?
+a) $mimemail->attachment(‘attachment.pdf’);
+b) $mimemail=>attachment(‘attachment.pdf’);
+c) $mimemail->addAttachment(‘attachment.pdf’);
+d) $mimemail=>addAttachment(‘attachment.pdf’);
+c
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Uploading Files with PHP» Next - PHP Questions & Answers – Session Handling-1 

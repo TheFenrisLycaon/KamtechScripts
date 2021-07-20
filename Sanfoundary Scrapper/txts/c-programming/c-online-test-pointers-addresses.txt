@@ -1,0 +1,55 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for HP and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear HP interviews on C Programming language. 
+Here is a listing of online C test questions on “Pointers and Addresses” along with answers, explanations and/or solutions:
+1. Which is an indirection operator among the following?
+a) &
+b) *
+c) ->
+d) .
+b
+2. Which of the following does not initialize ptr to null (assuming variable declaration of a as int a=0;)?
+a) int *ptr = &a;
+b) int *ptr = &a – &a;
+c) int *ptr = a – a;
+d) All of the mentioned
+a
+3. What will be the output of the following C code?
+    #include <stdio.h>    int x = 0;    void main()    {        int *ptr = &x;        printf("%p\n", ptr);        x++;        printf("%p\n ", ptr);    }
+a) Same address
+b) Different address
+c) Compile time error
+d) Varies
+a
+4. What will be the output of the following C code?
+    #include <stdio.h>    int x = 0;    void main()    {        int *const ptr = &x;        printf("%p\n", ptr);        ptr++;        printf("%p\n ", ptr);    }
+a) 0 1
+b) Compile time error
+c) 0xbfd605e8 0xbfd605ec
+d) 0xbfd605e8 0xbfd605e8
+b
+5. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int x = 0;        int *ptr = &x;        printf("%p\n", ptr);        ptr++;        printf("%p\n ", ptr);    }
+a) 0xbfd605e8 0xbfd605ec
+b) 0xbfd605e8 0cbfd60520
+c) 0xbfd605e8 0xbfd605e9
+d) Run time error
+a
+6. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int x = 0;        int *ptr = &5;        printf("%p\n", ptr);    }
+a) 5
+b) Address of 5
+c) Nothing
+d) Compile time error
+d
+7. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int x = 0;        int *ptr = &x;        printf("%d\n", *ptr);    }
+a) Address of x
+b) Junk value
+c) 0
+d) Run time error
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Pointers and Addresses – 1» Next - C Programming Questions and Answers – Pointers and Function Arguments – 1 

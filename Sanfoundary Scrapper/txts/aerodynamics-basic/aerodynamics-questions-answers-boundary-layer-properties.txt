@@ -1,0 +1,89 @@
+1. Which of these is not a property of boundary layer?
+a) No – slip condition at the surface
+b) Temperature of fluid at the surface is equal to wall temperature
+c) Flow velocity increases along y – direction
+d) Thermal boundary layer is equal to velocity boundary layer
+d
+The boundary of thermal layer is defined as the layer where the outer edge temperature becomes equal to the freestream temperature. Similarly, at the velocity boundary layer, the outer edge velocity is equal to the freestream velocity.
+2. How is the boundary layer thickness defined? (ue is the outer edge velocity)
+a) u = 0.99ue
+b) u = 0.89ue
+c) u = 0.90ue
+d) u = 0.50ue
+a
+3. What is the thermal boundary layer?
+a) T = 0.90Te
+b) T = 0.89Te
+c) T = 0.99Te
+d) T = 0.97Te
+c
+4. In which case are the velocity and thermal boundary layer equal?
+a) Pr = 0
+b) Pr = 1
+c) Pr > 1
+d) Pr < 1
+b
+5. The displacement thickness is the distance by which, due to the presence of the boundary layer, the flow streamline is displaced.
+a) True
+b) False
+a
+Without the presence of boundary layer, which is the case of inviscid flow, the streamline would be straight and parallel to the flat surface. But due to the presence of boundary layer in real life scenario having viscous flow, the streamline is displaced.
+The formula for the displacement thickness δ* is given by:
+δ* = \(\int _0^{y1}\)(1 – \(\frac {ρu}{ρ_e u_e}\))dy
+6. Which of these relations is applicable for turbulent and laminar boundary layer?
+a) δTturbulent < δTlaminar
+b) δTturbulent = δTlaminar
+c) δturbulent < δlaminar
+d) δturbulent > δlaminar
+d
+7. According to the y – momentum equation, how does the pressure vary inside the boundary layer normal in the direction normal to the surface?
+a) Increases
+b) Decreases
+c) Remains constant
+d) First increases then decreases
+c
+\(\frac {∂p}{∂y}\) = 0
+According to the formula, at any x point in the boundary layer, pressure remains constant in the direction normal to the surface.
+8. When there’s flow over a flat plate, there’s laminar boundary layer at the leading edge followed by turbulent boundary layer.
+a) True
+b) False
+a
+9. When the Reynolds number approaches infinity, what happens to the boundary layer thickness?
+a) Approaches infinity
+b) Approaches zero
+c) Approaches once
+d) Remains same
+b
+10. What is the value of kinetic energy thickness?
+a) δ** = \(\int_0^∞ \frac {u}{U_e}\big [  \)1 – \(\big ( \frac {u}{U_e}\big )^2 \big ] \)dy
+b) δ** = \(\int_0^∞ \frac {u}{U_e} \big [  \)1 – \(\frac {u}{U_e}\big ] \)dy
+c) δ** = \(\int_0^∞ \big [ \)1 – \(\frac {u}{U_e} \big ] \)dy
+d) δ** = \(\int_0^∞ \frac {u}{U_e} \big [ \)1 + \(\frac {u}{U_e}\big ] \)dy
+a
+δ** = \(\int_0^∞ \frac {u}{U_e}\big [  \)1 – \(\big ( \frac {u}{U_e}\big )^2 \big ] \)dy
+Where, u is velocity at some point x on the plate.
+Ue is the freestream velocity.
+11. What is the equation for momentum thickness?
+a) δ* = \(\int_0^∞ \frac {u}{U_e} \big [ \)1 – \(\big ( \frac {u}{U_e} \big )^2 \big ] \)dy
+b) δ* = \(\int_0^∞ \frac {u}{U_e} \big [ \)1 – \(\frac {u}{U_e}\big ] \)dy
+c) δ* = \(\int_0^∞ \big [ \)1 – \(\frac {u}{U_e} \big ] \)dy
+d) δ* = \(\int_0^∞ \frac {u}{U_e} \big [ \)1 + \(\frac {u}{U_e} \big ]\)dy
+b
+It is given by:
+δ* = \(\int_0^∞ \frac {u}{U_e}  \big [ \)1 – \(\frac {u}{U_e} \big ] \)dy
+Where, u is velocity at some point x on the plate
+Ue is the freestream velocity.
+12. What leads to shear stress between the adjacent layers of fluid inside the boundary layer adjacent to the surface?
+a) Aerodynamics drag
+b) Viscosity
+c) Pressure drag
+d) Wave drag
+b
+τ = μ\(\frac {∂u}{∂y}\) 
+Where, \(\frac {∂u}{∂y}\) is the transverse victory gradient.
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Couette Flow» Next - Aerodynamics Questions and Answers – Turbulence Modelling 

@@ -1,0 +1,91 @@
+1. Which of these classes contains only floating point functions?
+a) Math
+b) Process
+c) System
+d) Object
+a
+2. What will be the output of the following C# code snippet?
+ class Program {     static void Main(string[] args)     {         double x = 2.0;           double y = 3.0;         double z = Math.Pow( x, y );         Console.WriteLine(z);         Console.ReadLine();     } }
+a) 2.0
+b) 4.0
+c) 8
+d) 8.0
+c
+Output :
+8
+3. What will be the output of the following C# code snippet?
+ class Program {     static void Main(string[] args)     {         double x = 4.772;         double y = 4.76;         double z = Math.Max(x, y);         Console.WriteLine(z);         Console.ReadLine();     } }
+a) true
+b) false
+c) 4.772
+d) 4.76
+c
+Output :
+Join [email protected]
+4.772
+4. What is the value of double consonant ‘E’ defined in Math class?
+a) approximately 3
+b) approximately 3.14
+c) approximately 2.72
+d) approximately 0
+c
+5. What will be the output of the following C# code snippet?
+ public class A {     public int x;     public int y;     public void display()      {         Console.WriteLine(x + " " + y);     } } class Program {     static void Main(string[] args)     {         A obj1 = new A();         A obj2 = new A();         obj1.x = 1;         obj1.y = 2;         obj2 = obj1;         obj1.display();         obj2.display();     } }
+a) 1 2 0 0
+b) 1 2 1 2
+c) 0 0 0 0
+d) Run time exception
+b
+Output :
+ 1 2 1 2
+6. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        int[] nums = { 1 };        var posNums = from n in nums                      select Math.Pow(4 ,3);        Console.Write("The values in nums: ");        foreach (int i in posNums)         Console.Write(i + " ");        Console.WriteLine();        Console.ReadLine();    }}
+a) Run time error
+b) 64
+c) Compile time error
+d) 81
+b
+Output :
+64
+7. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        float x = 3.14F;        int y = (int)Math.Abs(x);        Console.WriteLine(y);        Console.ReadLine();    }}
+a) Compile time error
+b) 3.14
+c) 3
+d) 4
+c
+Output :
+3
+8. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        int x = 5;        int y = (int)Math.Pow(x,2);        int z = (int)Math.Pow(y, 2);        Console.WriteLine(z);        Console.ReadLine();    }}
+a) 25
+b) 625
+c) Compile time error
+d) Run time error
+b
+Output :
+625
+9. What will be the output of the following C# code snippet?
+ class Program {     static void Main(string[] args)     {         int[] nums = {3 ,1 ,2 ,5 ,4};         var ltAvg = from n in nums                     let x = nums.Average()                     where n < x                     select n;         Console.WriteLine("The average is " + nums.Average());         Console.ReadLine();     } }
+a) Run time error
+b) 3
+c) 5
+d) Compile time error
+b
+Output :
+3
+10. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        int y = (int)Math.Max(4,2);        int z = (int)Math.Pow(y, 2);        Console.WriteLine(z);        Console.ReadLine();    }}
+a) 4
+b) Compile time error
+c) 16
+d) 89
+c
+Output :
+16
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Collection Classes» Next - C# Questions & Answers – Rounding Functions 

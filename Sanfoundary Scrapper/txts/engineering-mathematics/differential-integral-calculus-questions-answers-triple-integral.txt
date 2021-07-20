@@ -1,0 +1,55 @@
+1. The value of \(\int_0^1 \int_0^x \int_0^{x+y} \,xyz \,dz\, dy\, dx\,\) is given by ____
+a) 17/144
+b) 16/72
+c) 17/72
+d) 15/144
+a
+\(\int_{x=0}^1 \int_{y=0}^x xy[\frac{z^2}{2}]_0^{x+y} \,dy \,dx = \int_{x=0}^1 \int_{y=0}^x xy \frac{(x+y)^2}{2} \,dy \,dx\) 
+\(=\frac{1}{2} \int_{x=0}^1 \int_{y=0}^x xy(x^2 + y^2 + 2xy) \,dy \,dx\) 
+\(=\frac{1}{2} \int_{x=0}^1 \int_{y=0}^x(x^3 y + xy^3 + 2x^2 y^2) \,dy \,dx\) 
+\(=\frac{1}{2} \int_{x=0}^1 \Big[x^3  \frac{y^2}{2} + x \frac{y^4}{4} + \frac{2x^2 y^3}{3}\Big]_{y=0}^x dx = \frac{1}{2} \int_{x=0}^1(\frac{x^5}{2} + \frac{x^5}{4} + \frac{2x^5}{3}) \,dx\) 
+\(=\frac{1}{2} \Big[\frac{x^6}{12} + \frac{x^6}{24} + \frac{x^6}{9}\Big]_{x=0}^1=(\frac{1}{12} + \frac{1}{24} + \frac{1}{9})\frac{1}{2} = \frac{17}{144}.\)
+2. The integral value of \(\int_0^a \int_0^x \int_0^{x+y} e^{x+y+z} \,dz \,dy \,dx\) is given by _____
+a) \(=\frac{1}{3}(e^{4a}+6e^{2a}+8e^{a}+3)\) 
+b) \(=\frac{1}{3}(e^{4a}-6e^{2a}+4e^{a}+3)\) 
+c) \(=\frac{1}{8}(e^{4a}-6e^{2a}+8e^{a}-3)\) 
+d) 0
+c
+\(\int_0^a \int_0^x e^{x+y} [e^{z}]_0^{x+y} \,dy \,dx = \int_0^a \int_0^x e^{x+y} (e^{x+y}-1) \,dy \,dx\) 
+\(\int_0^a \int_0^x(e^{2x+2y}-e^{x+y}) \,dy \,dx = \int_0^a {e^{2x} \big[\frac{e^{2y}}{2}\big]_0^x – e^x [e^y]_0^x} \,dx\) 
+\(\int_0^a(\frac{e^{4x}}{2} – \frac{3}{2} e^{2x} + e^x)dx = \big[\frac{e^{4x}}{8} – \frac{3}{4} e^{2x} + e^x \big]_0^a \) 
+\(= (\frac{e^{4a}}{8} – \frac{3}{4} e^{2a} + e^a)-(\frac{1}{8}-\frac{3}{4}+1)\) 
+\(=\frac{1}{8}(e^{4a}-6e^{2a}+8e^{a}-3)\).
+3. The integral value of \(\int_0^{\frac{π}{2}} \int_0^{a sinθ} \int_0^r r \,dr \,dθ \,dz \) is _____
+a) 0.5
+b) 0.25
+c) 1
+d) 0
+d
+\(= \int_{θ=0}^{\frac{π}{2}} \int_{r=0}^{a sinθ} r^2 \,dr \,dθ\) 
+\(\int_{θ=0}^{\frac{π}{2}}\big[\frac{r^3}{3}\big]_0^{sin⁡θ} \,dθ = \int_0^{\frac{π}{2}} \frac{sin^3 θ}{3} \,dθ = \int_0^{\frac{π}{2}} \frac{3 sin⁡θ-sin⁡3θ}{12} \,dθ = \Big[\frac{-3 cos⁡θ + 3 cos⁡3θ}{12}\Big]_0^{\frac{π}{2}}=0\).
+4. The integral value of \(\int_0^1 \int_0^{1-x} \int_0^{1-x-y} \frac{dz dy dx}{(1+x+y+z)^3} \) is given by_____
+a) \(log⁡\sqrt{2} – \frac{7}{16}\) 
+b) \(log⁡\sqrt{4} + \frac{5}{32}\) 
+c) \(log\sqrt{2} – \frac{5}{16}\) 
+d) \(log⁡\sqrt{4} – \frac{6}{32}\) 
+c
+\(\int_0^1 \int_0^{1-x}[\frac{-1}{8} + \frac{1}{(2(1+x+y)^2)}] \,dy \,dx = \int_0^1 \Big[\frac{-y}{8} – \frac{1}{2(1+x+y)}\Big]_{y=0}^{1-x} \,dx\) 
+\(\int_{x=0}^1 \Big[\frac{-(1-x)}{8} – \frac{1}{4} + \frac{1}{2(x+1)}\Big]dx = \int_{x=0}^1 \Big[\frac{-3}{8} + \frac{x}{8} + \frac{1}{2(x+1)}\Big]dx\) 
+\(\Big[\frac{-3x}{8} + \frac{x^2}{16} + \frac{1}{2} log(x+1)\Big]_{x=0}^1 = \frac{3}{8} + \frac{1}{16} + \frac{log⁡2}{2} = log\sqrt{2} – \frac{5}{16}.\)
+5. The integral of \(\int_{-1}^1 \int_0^z \int_{x-z}^{x+z} (x+y+z)\,dy \,dx \,dz\) is given by _______
+a) 0
+b) 1
+c) 0.25
+d) 4
+a
+\( =\int_{z=-1}^1 \int_{x=0}^z \Big\{x((x+z)-(x-z))+\frac{1}{2} [(x+z)^2-(x-z)^2] \\
++z((x+z)-(x- z))\Big\}dx \,dz\) 
+\( =\int_{z=-1}^1 \int_{x=0}^z(2xz+2xz+2z^2)dx \,dz\) 
+\( = \int_{-1}^1\big[z(2x^2)+(2z^2 x)\big]_{x=0}^z \,dz = \int_{z=-1}^1 2z^3+2z^3 dz=\big[z^4\big]_{-1}^1=0.\)
+Sanfoundry Global Education & Learning Series – Differential and Integral Calculus.
+To practice all areas of Differential and Integral Calculus, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Differential and Integral Calculus Questions and Answers – Change of Variables In a Double Integral» Next - Differential and Integral Calculus Questions and Answers – Change of Variables In a Triple Integral 

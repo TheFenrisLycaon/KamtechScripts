@@ -1,0 +1,67 @@
+1. Indexes are typically available in ______ or located sequentially on disk.
+a) RAM
+b) ROM
+c) CMOS
+d) None of the mentioned
+a
+2. Point out the wrong statement.
+a) Query selectivity refers to how well the query predicate excludes or filters out documents in a collection
+b) Query selectivity can determine whether or not queries can use indexes effectively or even use indexes at all
+c) More selective queries match a larger percentage of documents
+d) All of the mentioned
+c
+3. ___________ is used to determine whether a query is a covered query.
+a) explainstats()
+b) explain()
+c) explainall()
+d) all of the mentioned
+b
+4. The ________ message is used to update a document in a collection.
+a) UPDATE
+b) OP_UPDATE
+c) OP_UPDATES
+d) All of the mentioned
+b
+5. Point out the correct statement.
+a) An equality match on the unique _id field is less selective as it can match at most one document
+b) The selectivity of regular expressions depends on the expressions themselves
+c) Less selective queries can use indexes effectively or even at all
+d) All of the mentioned
+b
+6. _____  can modify specific fields of an existing document or documents or replace an existing document entirely, depending on the update parameter.
+a) modify()
+b) update()
+c) find()
+d) none of the mentioned
+b
+7. The update() method uses the _______ command, which uses the default write concern.
+a) find
+b) read
+c) update
+d) modify
+c
+8. _________ is used to view statistics about the query plan for a given query.
+a) db.explain()
+b) cursor.explain()
+c) cursor.explainstats()
+d) all of the mentioned
+b
+9. A ________ query plan has returned a threshold number of matching results.
+a) execution
+b) unordered
+c) ordered
+d) none of the mentioned
+c
+10. A query _______ consists of a combination of query, sort, and projection specifications.
+a) plan
+b) shape
+c) stats
+d) all of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Write operations» Next - MongoDB Questions and Answers – Data Modeling Introduction 

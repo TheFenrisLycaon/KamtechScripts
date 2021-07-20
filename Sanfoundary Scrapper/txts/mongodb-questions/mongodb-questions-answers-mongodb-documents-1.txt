@@ -1,0 +1,57 @@
+1. The __________ JavaScript shell and the MongoDB language drivers translate between BSON and the language-specific document representation.
+a) mongod
+b) mongo
+c) iscript
+d) none of the mentioned
+b
+2. Point out the correct statement.
+a) MongoDB stores chunks on disk in the XML serialization format
+b) MongoDB stores documents on disk in the BSON serialization format
+c) MongoDB stores documents on RAM in the JSON serialization format
+d) All of the mentioned
+a
+3. BSON is a binary representation of ________ documents.
+a) JSON
+b) XML
+c) JScript
+d) All of the mentioned
+a
+4. MongoDB documents are composed of field-and-value pairs and have the following structure?
+a) field1:; value1
+b) field1: value1;
+c) field1: value1
+d) none of the mentioned
+c
+5. Point out the wrong statement.
+a) Some documents created by internal MongoDB processes may have duplicate fields
+b) no MongoDB process will ever add duplicate fields to an existing user document
+c) The maximum BSON document size is 16 megabytes
+d) None of the mentioned
+c
+Join [email protected]
+6. To store documents larger than the maximum size, MongoDB provides the _______ API.
+a) Grid
+b) MMS
+c) GridFS
+d) None of the mentioned
+c
+7. Index keys that are of the _______ type are more efficiently stored in the index.
+a) Materialized Paths
+b) BinData
+c) String
+d) None of the mentioned
+b
+8. MongoDB uses the ________ notation to access the elements of an array and to access the fields of an embedded document.
+a) Dot
+b) Array
+c) Nested Sets
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+	
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – ObjectId» Next - MongoDB Questions and Answers – MongoDB documents – 2 

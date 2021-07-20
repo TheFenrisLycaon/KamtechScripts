@@ -1,0 +1,73 @@
+1. How many languages are over the alphabet R?
+a) countably infinite
+b) countably finite
+c) uncountable finite
+d) uncountable infinite
+d
+2. According to the 5-tuple representation i.e. FA= {Q, ∑, δ, q, F}
+Statement 1: q ϵ Q’; Statement 2: FϵQ
+a) Statement 1 is true, Statement 2 is false
+b) Statement 1 is false, Statement 2 is true
+c) Statement 1 is false, Statement 2 may be true
+d) Statement 1 may be true, Statement 2 is false
+b
+3. δˆ tells us the best:
+a) how the DFA S behaves on a word u
+b) the state is the dumping state
+c) the final state has been reached
+d) Kleene operation is performed on the set
+a
+4. Which of the following option is correct?
+A= {{abc, aaba}. {ε, a, bb}}
+a) abcbb ₵ A
+b) ε₵A
+c) ε may not belong to A
+d) abca ₵ A
+b
+5. For a DFA accepting binary numbers whose decimal equivalent is divisible by 4, what are all the possible remainders?
+a) 0
+b) 0,2
+c) 0,2,4
+d) 0,1,2,3
+d
+6. Which of the following x is accepted by the given DFA (x is a binary string ∑= {0,1})?
+a) divisible by 3
+b) divisible by 2
+c) divisible by 2 and 3
+d) divisible by 3 and 2
+d
+7. Given:
+L1= {xϵ ∑*|x contains even no’s of 0’s}
+L2= {xϵ ∑*|x contains odd no’s of 1’s}
+No of final states in Language L1 U L2?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+8. The maximum number of transition which can be performed over a state in a DFA?
+∑= {a, b, c}
+a) 1
+b) 2
+c) 3
+d) 4
+c
+9. The maximum sum of in degree and out degree over a state in a DFA can be determined as:
+∑= {a, b, c, d}
+a) 4+4
+b) 4+16
+c) 4+0
+d) depends on the Language
+d
+10. The sum of minimum and maximum number of final states for a DFA n states is equal to:
+a) n+1
+b) n
+c) n-1
+d) n+2
+a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Simpler Notations» Next - Automata Theory Questions and Answers – Finite Automata 

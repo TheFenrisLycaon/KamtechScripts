@@ -1,0 +1,117 @@
+1. For y = -x2 + 2x there exist a c in the interval [- 19765, 19767] Such that f'(c) = 0.
+a) True
+b) False
+view answerAnswer: a
+Observe here that on substituting – 19765 and 19767 in the equation we get
+(-19766)2 + 1 and (-19766)2 + 1 respectively.
+ As we are dealing with their squared values they have to be equal
+We have
+f(-19765) = f(19767)
+Polynomial functions are continuous and differentiable over the whole domain and hence by Rolles Theorem we must have a c such that f'(c) = 0 in the interval [-19765, 19767] 
+Hence, the claim is true.
+2. For the function f(x) = \(\frac{sin(x)}{x^2}\) How many points exist in the interval [0, 7π] Such that f'(c) = 0.
+a) 8
+b) 0
+c) 7
+d) 6
+view answerAnswer: d
+Observe that the sine takes the value of zero at integral arguments of π hence at every interval of the form [nπ, (n + 1)π]
+We have f(nπ) = f((n + 1) π)
+The sine and the polynomial combination is continuous and differentiable at every point except x = 0
+Every such interval has a point such that f'(c) = 0
+Hence, by Rolles theorem, in every interval of the form [nπ, (n + 1)π] we must have a point such that f'(c) = 0
+Leaving the interval [0, π] we are left with six such intervals from 0 to 7π.
+3. f(x) = \(\frac{sin(x)}{x}\), How many points exist such that f'(c) = 0 in the interval [0, 18π].
+a) 18
+b) 17
+c) 8
+d) 9
+view answerAnswer: a
+But for \(\frac{sin(x)}{x}\) we have the exceptional value of \(lim_{x \rightarrow 0}\frac{sin(x)}{x}\) reaching one.
+So leaving the first interval [0, π], for every other interval of the form [nπ (n + 1)π] we must have f(nπ) = f((n + 1)π)
+By Rolles theorem we have
+f’ (c) = 0 For every interval of the form [nπ (n + 1)π]
+There are 17 such intervals.
+4. Let f(x) = x + sin(x) Every point on the graph is rotated by 45 degree with respect to the origin along the radius equal to the radius vector at that point. How many c that belong to [0, 11π] exist Such that f'(c) = 0.
+a) 10
+b) 11
+c) 110
+d) 9
+view answerAnswer: b
+In other words the axis for the sine graph is no more on the x axis but is the line y = x.
+When this graph is rotated by 45 degrees which Is equal to the slope of the line y = x we must get the original graph sin(x) again. The number of c in the interval [0, 11π] is then obviously equal to eleven.
+5. A Function f(x) has the property f(a) = f(b) for ∀a,b…∊….I and a + b = 20 then which of the following even degree polynomials could be f(x)?
+a) x4⁄4 – 10x3 + 150x2 – 1000x + 10131729
+b) x2 + 5x + 6
+c) x2 + x + 1
+d) Polynomial functions are inadequate representations
+view answerAnswer: a
+This means that the graph is symmetric about the line x = 10
+This means that the even degree polynomial has a Rolle point(the only Rolle point) at x = 10
+We need to differentiate the functions given in the options and observe which of these has a single(OR repeated root), which is equal to 10.
+The first Option when differentiated yields
+f'(x) = x3 – 30x2 + 300x – 1000
+Equating to zero, we see that x = 10
+satisfies the equation
+(10)3 – 30(10)2 + 300(10) – 1000 = 0.
+6. For some function f(x) we have f(a) = f(b) for ∀a,b…∊….I and a + b = 2 then which of the following even degree polynomials could f(x) be
+a) x2 + 3x +1
+b) 5x2⁄2 – 5x + 101
+c) x2 + 2x + 1
+d) Even degree polynomials of such kind cannot exist
+view answerAnswer: b
+We know that the function is symmetric about the line x = 1
+Thus we must have a Rolle point at 1 for any function that satisfies these conditions.
+Differentiating the given functions in the options we have for a
+2x + 3 = 0
+x = -3⁄2 ≠ 1
+Doing the same for (b) we get
+5x – 5 = 0
+x = 1.
+7. For all second degree polynomials with y = ax2 + bx + k, it is seen that the Rolles’ point is at c = 0. Also the value of k is zero. Then what is the value of b?
+a) 0
+b) 1
+c) -1
+d) 56
+view answerAnswer: a
+y = ax2 + bx
+ Now differentiating the function yields
+y’ = 2ax + b = 0
+Equating it to zero we get the Rolle point which is also zero
+2a(0) + b = 0
+b = 0.
+8. For second degree polynomial it is seen that the roots are equal. Then what is the relation between the Rolles point c and the root x?
+a) c = x
+b) c = x2
+c) They are independent
+d) c = sin(x)
+view answerAnswer: a
+Where a is the repeated root.
+Differentiating it and equating the function to zero we get the Rolles point,
+ f'(x) = 2(x – a) = 0
+ x = a = c.
+9. For any second degree polynomial with two real unequal roots. The relation between Rolles point r1 and the two roots r2 is
+a) They are independent
+b) c = r1 – r2
+c) c = r1 * 1⁄r2
+d) c = \(\frac{r_1 + r_2}{2}\) 
+view answerAnswer: d
+y = (x – a)(x – b)
+Where a ≠ b are the two, unequal, real roots.
+Now differentiation and equating to zero yields
+y = (x – b) + (x -a ) = 0
+Put x = c (because is the Rolles point here)
+(c – a) + (c – b) = 0
+2c – (a + b) = 0
+c = a + b / 2 = \(\frac{r_1 + r_2}{2}\).
+10. If the domain of a function can be broken into infinite number of disjoint subsets such that every subset has a Rolles point then the function cannot be in a polynomial structure.
+a) True
+b) False
+view answerAnswer: b
+Hence, we may conclude that it has infinite distinct roots (with proper choice of polynomial) and hence, the domain can be broken into epsilon (very small) intervals around the roots of the differentiated polynomial to get infinite intervals containing the Rolles point. 
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Leibniz Rule – 3» Next - Engineering Mathematics Questions and Answers – Rolle’s Theorem – 2 

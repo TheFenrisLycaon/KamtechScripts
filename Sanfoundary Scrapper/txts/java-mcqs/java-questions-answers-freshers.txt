@@ -1,0 +1,78 @@
+1. What will be the output of the following Java snippet, if attempted to compile and run this code with command line argument “java abc Rakesh Sharma”?
+public class abc{	int a=2000;        public static void main(String argv[])        {	    System.out.println(argv[1]+" :-Please pay Rs."+a);        }}
+a) Compile time error
+b) Compilation but runtime error
+c) Compilation and output Rakesh :-Please pay Rs.2000
+d) Compilation and output Sharma :-Please pay Rs.2000
+a
+2. What will be the output of the following Java snippet, if attempted to compile and execute?
+class abc{    public static void main(String args[])    {        if(args.length>0)        System.out.println(args.length);    }}
+a) The snippet compiles, runs and prints 0
+b) The snippet compiles, runs and prints 1
+c) The snippet does not compile
+d) The snippet compiles and runs but does not print anything
+d
+Join Sanfoundry@YouTube
+3. What will be the output of the following Java snippet, if compiled and executed with command line argument “java abc 1 2 3”?
+public class abc{   static public void main(String [] xyz)   {       for(int n=1;n<xyz.length; n++)       {          System.out.println(xyz[n]+"");       }   }}
+a) 1 2
+b) 2 3
+c) 1 2 3
+d) Compilation error
+b
+4. What will be the output of the following Java code snippet running with “java demo I write java code”?
+public class demo{   public static void main(String args[])   {        System.out.println(args[0]+""+args[args.length-1]);   }}
+a) The snippet compiles, runs and prints “java demo”
+b) The snippet compiles, runs and prints “java code”
+c) The snippet compiles, runs and prints “demo code”
+d) The snippet compiles, runs and prints “I code”
+d
+5. What will be the output of the following Java snippet, if compiled and executed with command line “hello there”?
+public class abc{    String[] xyz;     public static void main(String argv[])    {        xyz=argv;    }     public void runMethod()    {        System.out.println(argv[1]);    }}
+a) Compile time error
+b) Output would be “hello”
+c) Output would be “there”
+d) Output would be “hello there”
+a
+6. How do we pass command line argument in Eclipse?
+a) Arguments tab
+b) Variable tab
+c) Cannot pass command line argument in eclipse
+d) Environment variable tab
+a
+7. Which class allows parsing of command line arguments?
+a) Args
+b) JCommander
+c) Command Line
+d) Input
+b
+8. Which annotation is used to represent command line input and assigned to correct data type?
+a) @Input
+b) @Variable
+c) @Command Line
+d) @Parameter
+d
+9. What will be the output of the following Java code snippet run as $ java Demo –length 512 –breadth 2 -h 3?
+class Demo {    @Parameter(names={"--length"})    int length;     @Parameter(names={"--breadth"})    int breadth;     @Parameter(names={"--height","-h"})    int height;     public static void main(String args[])     {        Demo demo = new Demo();        new JCommander(demo, args);        demo.run();    }     public void run()     {        System.out.println(length+" "+ breadth+" "+height);    }}
+a) 2 512 3
+b) 2 2 3
+c) 512 2 3
+d) 512 512 3
+c
+10. What is the use of @syntax?
+a) Allows multiple parameters to be passed
+b) Allows one to put all your options into a file and pass this file as a parameter
+c) Allows one to pass only one parameter
+d) Allows one to pass one file containing only one parameter
+b
+/tmp/parameters
+-verbose
+file1
+file2
+$ java Main @/tmp/parameters
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+To practice all areas of Java for Freshers, here is complete set on 1000+ Multiple Choice Questions and Answers on Java.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Command Line Arguments – 1» Next - Java Questions & Answers – Recursion 

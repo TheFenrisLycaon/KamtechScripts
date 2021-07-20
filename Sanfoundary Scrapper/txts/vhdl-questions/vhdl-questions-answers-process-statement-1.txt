@@ -1,0 +1,97 @@
+1. Process is a _______ statement.
+a) Concurrent
+b) Sequential
+c) Delay
+d) Both concurrent and sequential
+a
+2. If there is more than one process in a VHDL code, How they are executed?
+a) One after the other
+b) Concurrently
+c) According to sensitivity list
+d) Sequentially
+b
+3. A process has a declaration part.
+a) True
+b) False
+a
+4. Local variables in a process can be declared __________
+a) Anywhere within the process
+b) After a sequential statement
+c) Before the BEGIN keyword
+d) After the BEGIN keyword
+c
+5. Which of the following is correct syntax for process declaration?
+a)
+     {Label :} PROCESS
+     {process_declaration_part};
+      sensitivity_list;
+     BEGIN
+     sequential_statements;
+     END PROCESS {Label};
+b)
+     PROCESS {sensitivity_list}
+     {process_declaration_part}
+     BEGIN
+     sequential_statements;
+     END PROCESS {Label};
+c)
+     {Label :} PROCESS
+     {process_declaration_part}
+     BEGIN
+     sensitivity_list;
+     sequential_statements;
+     END PROCESS;
+d)
+     {Label :} PROCESS {sensitivity_list}
+     {process_declaration_part}
+     BEGIN
+     sequential_statements;
+     END PROCESS {Label};
+d
+  
+6. Sensitivity list of a process contains __________
+a) Constants
+b) Signals
+c) Variables
+d) Literals
+b
+7. Which of the following statement is used when there are no signals in the sensitive list?
+a) WHEN
+b) IF ELSE
+c) WAIT
+d) CASE
+c
+8. What is the effect of the sensitivity list on the process?
+a) Process executes when any of the signal in sensitivity list changes
+b) Process executes sequentially when sensitivity list is specified
+c) If there is no sensitivity list, then the process will not execute
+d) Helps in simulation
+a
+9. It is mandatory to use a label for any process.
+a) True
+b) False
+b
+10. If no signal in the sensitivity list is changed, then how many times the process will be executed?
+a) 3
+b) 2
+c) 1
+d) 0
+c
+11. Which of the following statements can be seen as sequential equivalent to the selected concurrent assignment?
+a) IF ELSE
+b) WAIT
+c) WHEN
+d) CASE
+d
+12. A __________ can’t be declared inside a process.
+a) Signal
+b) Variable
+c) Constants
+d) Subprograms
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Signal Assignment – 2» Next - VHDL Questions and Answers – Process Statement – 2 

@@ -1,0 +1,140 @@
+1. In a belt drive, the mass of the belt is 10 kg/m and its speed is 6 m/s. The drive transmits 20 KW of power. Determine the initial tension in the belt and the strength of the belt. The co-efficient of friction is 0.25 and wrap angle is 220°.
+a) 4096 N, 5762 N
+b) 3096 N, 4762 N
+c) 2096 N, 3762 N
+d) 1096 N, 2762 N
+a
+\(\frac{T1}{T2}\)=eμθ=\(e^{0.25*220*(\frac{\pi}{180})}\) = 2.611
+T1 = 2.611 T2
+P = (T1-T2)*v
+20*1000 = (T1-T2) * 6
+T1 – T2 = 3333.33
+2.611 T2 – T2 = 3333.33
+T2 = 2069.11 N
+T1 = 5402.44 N
+Initial Tension = \(\frac{T1+T2}{2}+Tc=\frac{5402.44+2069.11}{2}\)+360 = 4095.77 N
+Strength of the belt = total tension on tight side = T1 + Tc = 5762.44 N.
+2. Calculate the power transmitted by the belt and pulley arrangement, if tension on tight side of the belt is 50 kg and tension on slack side is 25 kg. The diameter and speed of driving pulley is 0.95 m and 350 rpm.
+a) 3.97 KW
+b) 4.97 KW
+c) 6.97 KW
+d) 5.97 KW
+d
+V = \(\frac{πDN}{60}=\frac{π*0.95*350}{60}\)=17.41 m/s
+P = (490-147) * 17.41 = 5.97 KW.
+3. A countershaft of engineering workshop is driven by electric motor with the help of canvas belt and pulley arrangement such that the speed of bet is 600 m/min and it transmits 50 KW. Find the difference between tension on either side of the belt.
+a) 5 KN
+b) 8 KN
+c) 9 KN
+d) 2 KN
+a
+50 * 1000 = (T1 – T2) * 10
+T1 – T2 = 5 KN.
+4. Two pulleys are connected by a belt. The sum of the diameters of two pulleys is 90 cm and while the one makes 50 rpm, the other makes 20 rpm. Find the diameter of other pulley.
+a) 63.29 cm
+b) 53.29 cm
+c) 64.29 cm
+d) 54.29 cm
+c
+\(\frac{50}{20} = \frac{D2}{D1} \) 
+D2 = 2.5 D1
+D1 + D2 = 90
+D1 + 2.5 D1 = 90
+D1 = 25.71 cm
+D2 = 64.29 cm.
+5. A V-belt operates at 25 m/s peripheral speed. The mass of the belt per unit length is 0.9 kg/m. The value of centrifugal tension in belt is ______
+a) 592 N
+b) 562.5 N
+c) 973.6 N
+d) 946 N
+b
+Tc = 562.5 N.
+6. Determine the length of cross belt of connecting two pulleys 5 cm apart. The diameter of driving and driven pulleys are 1.25 m and 0.75 m respectively.
+a) 1 m
+b) 150 m
+c) 13.34 m
+d) 20 m
+c
+L=2x+\(\frac{π}{2}\) (D1+D2)+\(\frac{(D1+D2)^2}{4x}\)=2*5+\(\frac{π}{2}\) (1.25+0.75)+\(\frac{(1.25+0.75)^2}{(4*5)} \) 
+L = 13.34 m.
+7. While testing a wheat thresher at recommended throughout 80 Nm torque is recorded at 850 rpm at the main shaft of the threshing cylinder, which is operated by a 200-mm diameter pulley. The overload factor and unit mass of V-belt are 1.2 and 0.9 kg/m respectively. At condition of maximum power transfer the maximum tension in V-belt in N is __________
+a) 813.86
+b) 613.86
+c) 413.86
+d) 213.86
+d
+v=\(\frac{πDN}{60}=\frac{π*0.2*850}{60}\)=8.90 m/s
+Tc = mv2 = 0.9*(8.90)2 = 71.289 N
+Tmax = 3Tc = 3*71.289 N.
+8. A V-belt is used to transmit 5 KW at 17 m/s, the included angle of the belt is 38°, the density of the belt is 1.25 g/cm3, contact angle on smaller pulley is 150°, tension on the belt is adjusted by providing idlers. Find tension at tight and slack side of belt.
+a) 300 N, 5 N
+b) 400 N, 6 N
+c) 500 N, 7 N
+d) 600 N, 8 N
+a
+P = (T1 – T2) * v
+5000 = (T1 – T2) * 17
+(T1 – T2) = 294.117
+\(\frac{T1}{T2}=e^{\frac{μθ}{sinβ}} \) 
+\(\frac{T1}{T2}\) = e^[(0.5*150*(\(\frac{π}{180}\))/(sin⁡19)] 
+\(\frac{T1}{T2}\)=55.73
+T1 = 55.73 T2
+55.73 T2 – T2 = 294.117
+T2 = 5.38 N (slack side)
+T1 = 299.82 N (tight side).
+9. If a driven pulley is made at 350 rpm by a driving pulley of 0.3 m diameter running at 1400 rpm. Determine length of open belt when the pulleys are 4 meters apart.
+a) 10.50 m
+b) 10.40 m
+c) 10.30 m
+d) 10.20 m
+b
+\(\frac{N2}{N1}=\frac{D1}{D2} \) 
+\(\frac{350}{1400}=\frac{0.3}{D2} \) 
+D2=\(\frac{0.3*1400}{350}\) = 1.2 m
+L=2*4+\(\frac{π}{2} (0.3+1.2)+\frac{(0.3-1.2)^2}{4*4} \) 
+L = 10.40 m.
+10. In a single V-belt drive having 30° groove angle, the cross-section area of belt is 350 mm2 and mass density of belt material is 1400 kg/m3. The maximum tension transmitted through the belt in kN is ________
+a) 4.1
+b) 3.1
+c) 2.1
+d) 1.1
+c
+σmax = tension/area
+Tension = σmax * area = 6000*1000*\(\frac{350}{1000000} \) 
+Tension = 2.1 KN.
+11. V-belts are named because of __________
+a) Their shape
+b) Their cross section as V
+c) Their size
+d) Their direction of power transmission
+b
+12. Quarter turn drive implies ________
+a) Cross run
+b) Open run
+c) Run only in one direction
+d) Do not run
+c
+13. In case of V-belt the groove angle in small pullies is about _________
+a) 32°
+b) 42°
+c) 62°
+d) 22°
+a
+14. Speed cones are associated to ________
+a) Pulley
+b) Belt
+c) Piston
+d) Flywheel
+a
+15. Slide rail is associated to ______
+a) Completion of angle stroke
+b) Detonation
+c) Tightening of belt
+d) Power transmission at 90° angle
+a
+Sanfoundry Global Education & Learning Series – Farm Machinery.
+To practice all areas of Farm Machinery,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Farm Machinery Questions and Answers – Strength of Materials» Next - Farm Machinery Questions and Answers – Mechanical Power Transmission – Chain and Sprocket Drive 

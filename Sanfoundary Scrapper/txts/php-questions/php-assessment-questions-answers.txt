@@ -1,0 +1,78 @@
+1. What will be the output of the following PHP code?
+<?php $x = 75;$y = 25; function addition(){    $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];}addition();echo $z;?>
+a) 100
+b) error
+c) 75
+d) 25
+a
+2. What will be the output of the following PHP code?
+<?phpfunction 2myfunc(){    echo "Hello World";}2myfunc();?>
+a) Hello World
+b) No Output
+c) ERROR
+d) None of the mentioned
+c
+3. What will be the output of the following PHP code?
+<?phpfunction _func(){    echo "Hello World";}_func();?>
+a) Hello World
+b) No Output
+c) ERROR
+d) None of the mentioned
+a
+4. What will be the output of the following PHP code?
+<?phpfunction test($int){    if ($int == 1)        echo "This Works";    if ($int == 2)        echo "This Too Seems To Work";}test(1);TEST(2);?>
+a) This Works
+b) This Too Seems To Work
+c) This WorksThis Too Seems To Work
+d) ERROR
+c
+5. What will be the output of the following PHP code?
+<?phpfunction mine($num){    $num = 2 + $num;echo $num;}mine(3);?>
+a) 3
+b) $num
+c) 5
+d) None of the mentioned
+c
+6. What will be the output of the following PHP code?
+<?phpfunction mine($num){    $num = 2 + $num;    echo "$num";}mine(3);?>
+a) 3
+b) $num
+c) 5
+d) None of the mentioned
+b
+7. What will be the output of the following PHP code?
+<?phpfunction one($string){    echo "I am ". $String;}one("Batman");?>
+a) 
+I
+ am Batman
+b) I am
+c) Batman
+d) ERROR
+d
+8. What will be the output of the following PHP code?
+<?php    function string($title);    {        $title = ucwords($title);        echo lcfirst($title);    }    string("you went full retard");?>
+a) You went full retard
+b) You Went Full Retard
+c) YOU WENT FULL RETARD
+d) you Went Full Retard
+d
+9. What will be the output of the following PHP code?
+<?php    function multi($num)    {        if ($num == 3)            echo "I Wonder";        if ($num == 7)            echo "Which One";        if ($num == 8)            echo "Is The";        if ($num == 19)            echo "Correct Answer";    }    $can = stripos("I love php, I love php too!","PHP");    multi($can);?>
+a) I Wonder
+b) Which One
+c) Is The
+d) Correct Answer
+b
+10. What will be the output of the following PHP code?
+<?phpfunction movie($int){    $movies = array("Fight Club", "Kill Bill", "Pulp Fiction");    echo "You Do Not Talk About ". $movie[$integer];}movie(0);?>
+a) You Do Not Talk About Fight Club
+b) You Do Not Talk About Kill Bill
+c) You Do Not Talk About Pulp Fiction
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all areas of PHP Assessment Questions, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Functions – 4» Next - PHP Coding Questions and Answers – Functions – 6 

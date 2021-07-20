@@ -1,0 +1,67 @@
+1. You need to have _________ installed before running ZooKeeper.
+a) Java
+b) C
+c) C++
+d) SQLGUI
+a
+2. Point out the correct statement.
+a) All znodes are ephemeral, which means they are describing a “temporary” state
+b) /hbase/replication/state contains the list of RegionServers in the main cluster
+c) Offline snapshots are coordinated by the Master using ZooKeeper to communicate with the RegionServers using a two-phase-commit-like transaction
+d) None of the mentioned
+a
+3. How many types of special znodes are present in Zookeeper?
+a) 1
+b) 2
+c) 3
+d) All of the mentioned
+b
+4. To register a “watch” on a znode data, you need to use the _______ commands to access the current content or metadata.
+a) stat
+b) put
+c) receive
+d) gets
+a
+5. Point out the wrong statement.
+a) All the znodes are prefixed using the default /hbase location
+b) ZooKeeper provides an interactive shell that allows you to explore the ZooKeeper state
+c) The znodes that you’ll most often see are the ones that coordinate operations like Region Assignment
+d) All of the mentioned
+d
+6. _______ has a design policy of using ZooKeeper only for transient data.
+a) Hive
+b) Imphala
+c) Hbase
+d) Oozie
+c
+7. Zookeeper keep track of the cluster state such as the ______ table location.
+a) DOMAIN
+b) NODE
+c) ROOT
+d) All of the mentioned
+c
+8. The ________ master will register its own address in this znode at startup, making this znode the source of truth for identifying which server is the Master.
+a) active
+b) passive
+c) region
+d) all of the mentioned
+a
+9. ___________ is used to decommission more than one RegionServer at a time by creating sub-znodes.
+a) /hbase/master
+b) /hbase/draining
+c) /hbase/passive
+d) None of the mentioned
+b
+10. The ______ znode is used for synchronizing the changes made to the _acl_ table by the grant/revoke commands.
+a) zcl
+b) acl
+c) scl
+d) bnl
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – The ZooKeeper Service – 1» Next - Hadoop Questions and Answers – Introduction to Sqoop 

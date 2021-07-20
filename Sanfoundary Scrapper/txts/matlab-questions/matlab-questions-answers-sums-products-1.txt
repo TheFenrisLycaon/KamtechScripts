@@ -1,0 +1,102 @@
+1. We can generate the summation of a series, formed with a character, using ________
+a) symsum
+b) sum
+c) symssum
+d) int
+a
+2. If the result of our summation is Infinity, what will MATLAB show?
+a) Infinity
+b) Nan
+c) Inf
+d) Error
+c
+3. What will be the output of the following code?
+sin(symsum(k^2,1,Inf));
+a) Nan
+b) Inf
+c) Error
+d) Output is suppressed
+d
+4. How does MATLAB get the symbolic character in the function, if it is not mentioned in symsum() command?
+a) It cannot
+b) It uses symvar()
+c) It uses symsvar()
+d) It uses symbvar()
+b
+5. The sum() command cannot do ____________
+a) Infinite summation
+b) Numeric summation
+c) Long summation
+d) signed summation
+a
+6. To calculate the sum of only absolute variables in a series, we use _________
+a) sum(abs())
+b) abssum()
+c) sumabs()
+d) abs(sum())
+c
+7. What is the output of the following code?
+sumsqr([1 2; NaN 4])
+a) 21
+b) Nan
+c) Error
+d) Inf
+a
+Output: 21
+8. What is the output of the following code:
+sumsqr([Inf Inf; Inf Inf])
+a) Inf
+b) Nan
+c) 0
+d) Error
+c
+Output: 0
+9. What is the output of the following code?
+sumabs([Inf Inf; Inf Inf])
+a) Inf
+b) 0
+c) Nan
+d) Error
+b
+10. To find the absolute value of the sum of squares of numbers in a series, we use_________
+a) abs(sumsqr())
+b) sumsqr()
+c) sumsqr(abs())
+d) abs(sqrsum())
+a
+11. We can find the mean value of a series (upto n) using _________
+a) meanabs()
+b) mean()
+c) sumabs()
+d) sum()/n
+b
+12. We can find the summation of an A.G.P. series using __________
+a) sum()
+b) symsum()
+c) Depends on the series
+d) Cannot be done
+b
+13. We need to define a function separately to find the factorial of a number.
+a) True
+b) False
+b
+14. The function to evaluate the following series is
+12+22+32+42+52+…832
+a) sqr()
+b) sqrsum()
+c) sumsqr()
+d) sumsqr[] 
+b
+15. What is the output of the following code?
+mean[1:10]
+a) Syntactical Error
+b) 4.5
+c) 5.5
+d) Parse Error
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Limits – 2» Next - MATLAB Questions and Answers – Sums and Products – 2 

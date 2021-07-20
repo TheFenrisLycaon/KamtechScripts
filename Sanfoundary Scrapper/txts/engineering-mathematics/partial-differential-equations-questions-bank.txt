@@ -1,0 +1,70 @@
+1. Who was the first person to develop the heat equation?
+a) Joseph Fourier
+b) Galileo Galilei
+c) Daniel Gabriel Fahrenheit
+d) Robert Boyle
+a
+2. Which of the following is not a field in which heat equation is used?
+a) Probability theory
+b) Histology
+c) Financial Mathematics
+d) Quantum Mechanics
+b
+Probability theory (to study Brownian motion)
+	Financial Mathematics (for solving Black- Scholes PDE)
+	Quantum Mechanics (to determine spread of wave function)
+3. Under ideal assumptions, what is the two-dimensional heat equation?
+a) ut  = c∇2 u = c(uxx  + uyy)
+b) ut  = c2 uxx
+c) ut  = c2 ∇2 u = c2 (uxx  + uyy)
+d) ut  = ∇2 u = (uxx  + uyy)
+c
+We let u (x, y, t) = temperature of plate at position (x, y) and time t.
+For a fixed t, the height of the surface z = u (x, y, t) gives the temperature of the plate at time t and position (x, y).
+Under ideal assumptions (e.g. uniform density, uniform specific heat, perfect insulation, no internal heat sources etc.) one can show that u satisfies the two-dimensional heat equation,
+ut  = c2 ∇2 u = c2 (uxx  + uyy)        for 0 < x < a, 0 < y < b.
+4. In mathematics, an initial condition (also called a seed value), is a value of an evolving variable at some point in time designated as the initial time (t=0).
+a) False
+b) True
+b
+5. What is another name for heat equation?
+a) Induction equation
+b) Condenser equation
+c) Diffusion equation
+d) Solar equation
+c
+Join Sanfoundry@YouTube
+6. Heat Equation is an example of elliptical partial differential equation.
+a) True
+b) False
+b
+7. What is the half-interval method in numerical analysis is also known as?
+a) Newton-Raphson method
+b) Regula Falsi method
+c) Taylor’s method
+d) Bisection method
+d
+8. Which of the following represents the canonical form of a second order parabolic PDE?
+a) \(\frac{∂^2 z}{∂η^2}+⋯=0 \) 
+b) \(\frac{∂^2 z}{∂ζ∂η}+⋯=0\) 
+c) \(\frac{∂^2 z}{∂α^2}+\frac{∂^2 z}{∂β^2}…=0\) 
+d) \(\frac{∂^2 z}{∂ζ^2}+⋯=0\) 
+a
+9. Which of the following is the condition for a second order partial differential equation to be hyperbolic?
+a) b2-ac<0
+b) b2-ac=0
+c) b2-ac>0
+d) b2-ac=<0
+c
+10. What is the order of the partial differential equation,  \(\frac{∂^2 z}{∂x^2}-(\frac{∂z}{∂y})^5+\frac{∂^2 z}{∂x∂y}=0\)?
+a) Order-5
+b) Order-1
+c) Order-4
+d) Order-2
+d
+Sanfoundry Global Education   &   Learning Series – Fourier Analysis and Partial Differential Equations.
+To practice all areas of Fourier Analysis and Partial Differential Equations, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Partial Differential Equations Questions and Answers – Solution of PDE by Variable Separation Method» Next - Partial Differential Equations Questions and Answers – Derivation and Solution of Two-dimensional Wave Equation 

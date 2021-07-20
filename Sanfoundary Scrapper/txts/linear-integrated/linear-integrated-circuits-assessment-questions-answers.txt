@@ -1,0 +1,79 @@
+1. To obtain a faster slew rate the op-amp should have
+a) High current and large compensating capacitor
+b) Small compensating capacitor
+c) High current or small compensating capacitor
+d) Low current or large compensating capacitor
+c
+Therefore the higher current should be given a small compensating capacitor is used internally or outside an op-amp. 
+2. Find the expression for full power response.
+a) fmax(Hz) =(slew rate×106)/(6.28×Vm)
+b) fmax(Hz) =slew rate /(628×106×Vm)
+c) fmax(Hz) =(slew rate×Vm×106)/6.28
+d) fmax(Hz) =(6.28×Vm× 106)/ slew rate
+a
+where fmax is called as full power response. 
+3. Calculate the time taken by the output to swing from +14v to -14v for a 741C op-amp having a slew rate of 0.5V/µs?
+a) 22µs
+b) 42µs
+c) 56µs
+d) 70µs
+c
+=> Time taken = 14-(-14)/ 0.5V/µs = 28v/0.5V/µs = 56µs. 
+4. Consider a square wave having a peak to peak amplitude of 275mv and it is amplified to a peak to peak amplitude of 4v, with rise time of 5.2µs. Calculate the slew rate?
+a) 0.615 v/µs
+b) 0.712 v/µs
+c) 0.325 v/µs
+d) None of the mentioned
+a
+△v= (90%-10%)×4v= (0.9-0.1)×4v =3.2v.
+Therefore, slew rate = 3.2v/5.2µs =0.615v/µs. 
+5. Determine the maximum input signal to be applied to an op-amp to get distortion free output. If the op-amp used is an inverting amplifier with a gain of 50 and maximum output amplitude obtained is 4.2V sine wave?
+a) 159mv
+b) 0.168mv
+c) 207mv
+d) 111mv
+b
+∴ the output voltage = 4.2+4.2 =8.4 V peak to peak.
+Hence for the output to be undistorted sine wave, the maximum input signal should be less than => 8.4/50= 0.168 = 168mVpeak to peak. 
+6. What happens if the frequency or amplitude of the input signal is increased to exceed slew rate of the op-amp?
+a) All of the mentioned
+b) High frequency output
+c) Distorted output
+d) Large amplitude output
+c
+7. Compute the peak output amplitude, when the voltage gain verses frequency curve of 741C is flat upto 25Hz.
+a)  4Vpeak
+b)  9Vpeak
+c)  20Vpeak
+d)  None of the mentioned
+d
+=> Vm = (SR×106)/(2πf )  = (0.5×106)/(2π×25kHz)
+Vm = 3.18Vpeak. 
+8. Calculate the maximum input frequency at which the output will be distorted from the given specifications
+Vo = 30 Vpp ; Slew rate = 0.6v/µs.
+a) 1000Hz
+b) 10kHz
+c) 1kHz
+d) 10kHz
+d
+=> 30v/(0.6v/µs) =50µs. Hence the maximize input frequency fmax at which the output get distorted is fmax = 1/(2×50µs) =10000 =10kHz. 
+9. Match AC parameter of the op-amp in column 1 with the column 2.
+ Column 1
+ Column-2
+1. Bandwidth
+	 i . a large signal phenomenon
+2. Transient response 
+ ii. Rise time is related to bandwidth and overshoots measure stability
+3. Slew rate 
+ iii. Depends on compensating components and closed loop gain 
+a) 1-i 2-iii 3-ii
+b) 1-ii	2-iii 3-i
+c) 1-iii 2-ii 3-i
+d) 1-iii 2-i 3-ii
+c
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuit Assessment Questions, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Slew Rate – 1» Next - Linear Integrated Circuit Questions and Answers – DC and AC Amplifiers 

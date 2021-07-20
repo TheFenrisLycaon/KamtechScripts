@@ -1,0 +1,85 @@
+1. The mean of the f – distribution is equal to ___________
+a)  v2 / (v2 – 2) for v2 > 2
+b)  v2 / (v2 – 2)2 for v2 > 2
+c)  v2 / (v2 – 2)3 for v2 > 2
+d)  v2 / (v2 – 2)-1 for v2 > 2
+a
+2. Variance is equal to [(v1 + v2 – 2)] / [v1 * (v2 – 2)2 * (v2 – 4)] for v2 > 4 for a f-Distribution.
+a) True
+b) False
+b
+3. Which of the following distributions is Continuous?
+a) Binomial Distribution
+b) Hyper-geometric Distribution
+c) F-Distribution
+d) Poisson Distribution
+c
+4. Which of the following distributions is used to compare two variances?
+a) T – Distribution
+b) F – Distribution
+c) Normal Distribution
+d) Poisson Distribution
+b
+5. F-Distribution cannot take negative values.
+a) True
+b) False
+a
+6. Find Variance for an F-Distribution with v1=5 and v2=9.
+a) 1.587
+b) 1.378
+c) 1.578
+d) 1.498
+a
+Var(X) = [2 * \(v_2^2\) * (v1 + v2 – 2)] / [v1 * (v2 – 2)2 * (v2 – 4)] for v2 > 4 where v1 and v2 denote the degrees of freedom of f-Distribution.
+Hence Var(X) = [2 * 92 * (14 – 2)] / [5 * (9 – 2)2 * (9- 4)]  =  1.587. 
+7. The table shows the standard Deviation and Sample Standard Deviation for both men and women. Find the f statistic considering the Men population in numerator.
+Population
+Population Standard Deviation
+Sample Standard Deviation
+Men
+30
+35
+Women
+50
+45
+a) 2.68
+b) 1.34
+c) 1.68
+d) 1.34
+c
+f = [s12/σ12]/[s22/σ22].
+where σ1 is the standard deviation of population 1
+ s1 is the standard deviation of the sample drawn from population 1
+ σ2 is the standard deviation of population 2
+ s1 is the standard deviation of the sample drawn from population 2.
+f = (352/302)/(452/502)
+f = (1225/900)/(2025/2500)
+f = 1.361/0.81 = 1.68. 
+8. Calculate the value of f-statistic having a cumulative probability of 0.95.
+a) 0.55
+b) 0.5
+c) 0.05
+d) 0.05
+d
+If f – statistic =  f α then, cumulative probability = (1 – α)
+Hence, for cumulative probability 0.95
+f – statistic  = (1 – 0.95) = 0.05.
+9. There is only 1 parameter in F-Distribution.
+a) True
+b) False
+b
+10. Find the Expectation for a F- Distribution variable with v1 = 7 and  v2 =  8.
+a) 4/7
+b) 4/6
+c) 4/3
+d) 4/5
+c
+E(X) = v2 / (v2 – 2) for v2 > 2
+Hence, E(X) = 8 / (8-2)
+E(X) = 4/3. 
+Sanfoundry Global Education & Learning Series – Probability and Statistics.
+To practice all areas of Probability and Statistics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Probability and Statistics Questions and Answers – Chi-Squared Distribution» Next - Probability and Statistics Questions and Answers – Testing of Hypothesis 

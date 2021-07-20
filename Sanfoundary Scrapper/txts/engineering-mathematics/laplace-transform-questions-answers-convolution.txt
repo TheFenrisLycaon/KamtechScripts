@@ -1,0 +1,54 @@
+1. Find the \(L^{-1} (\frac{1}{s(s^2+4)})\).
+a) \(\frac{1-sin⁡(t)}{4}\) 
+b) \(\frac{1-cos⁡(t)}{4}\) 
+c) \(\frac{1-sin⁡(2t)}{4}\) 
+d) \(\frac{1-cos⁡(2t)}{4}\) 
+d
+Let p1(s) = \(\frac{1}{s^2+4}\) and p2(s) = \(\frac{1}{s}\)
+\(f_1 (t) = L^{-1} (\frac{1}{s^2+4}) = \frac{sin⁡(2t)}{2}\) 
+\(f_2 (t) = L^{-1} (\frac{1}{s}) = 1\) 
+By Convolution Theorem,
+\(L^{-1} (p_1(s)×p_2(s)) = \int_{0}^{t}f_1(u) f_2(t-u) dt\) 
+\(L^{-1} (\frac{1}{s(s^2+4)}) = \int_{0}^{t}\frac{1}{2} sin⁡(2u) du\) 
+=\(\frac{1-cos⁡(2t)}{4}\) 
+Thus, the answer is \(\frac{1-cos⁡(2t)}{4}\).
+2. Find the \(L^{-1} (\frac{1}{s(s+4)^\frac{1}{2}})\), give the answer in terms of error function.
+a) \(\frac{1}{2} erf⁡(2t)\) 
+b) \(\frac{1}{2} erf⁡(\sqrt{t})\) 
+c) \(\frac{1}{2} erf⁡(2\sqrt{t})\) 
+d) \(\frac{1}{2} erf⁡(4\sqrt{t})\) 
+c
+Let \(p_1(s) = \frac{1}{(s+4)^{\frac{1}{2}}}\) and \(p_2(s) = \frac{1}{s}\) 
+\(f_1 (t) = L^{-1} (\frac{1}{(s+4)^{\frac{1}{2}}}) = \frac{e^{-4t}×\sqrt{t}}{\sqrt\pi}\) 
+\(f_2 (t) = L^{-1} \frac{1}{s} = 1\) 
+By Convolution Theorem,
+\(L^{-1} (p_1(s)×p_2(s)) = \int_{0}^{t}f_1(u) f_2(t-u) dt\) 
+\(L^{-1} (\frac{1}{s(s+4)^{\frac{1}{2}}}) = \int_{0}^{t}\frac{\sqrt{u}}{\sqrt\pi} e^{-4u} \,du\) 
+\(=\frac{1}{\sqrt\pi} \int_{0}^{t}\sqrt{u} e^{-4u} du\) 
+We know that error function is given by –
+\(erf⁡(x)=\frac{2}{\sqrt\pi} \int_{0}^{x}e^{-z^2} dz\) 
+Applying, 4u=z2 And setting the limits of u in terms of z, we get
+\(L^{-1} (\frac{1}{s(s+4)^{\frac{1}{2}}}) = \frac{1}{2} erf⁡(2\sqrt{t})\) 
+Thus, the answer is \(\frac{1}{2} erf⁡(2\sqrt{t})\).
+3. Find the \(L^{-1} \frac{s}{(s^2+4)^2}\).
+a) \(\frac{1}{4} tcos(2t)\) 
+b) \(\frac{1}{4} tsin(t)\) 
+c) \(\frac{1}{4} tsin(2t)\) 
+d) \(\frac{1}{2} tsin(2t)\) 
+c
+Let \(p_1(s) = \frac{1}{s^2+4}\) and \(p_2(s) = \frac{1}{s}\) 
+\(f_1 (t) = L^{-1} (\frac{1}{s^2+4}) = \frac{sin⁡(2t)}{2}\) 
+\(f_2 (t) = L^{-1} (\frac{s}{s^2+4}) = cos⁡(2t)\) 
+By Convolution Theorem,
+\(L^{-1} (p_1(s)×p_2(s)) = \int_{0}^{t} f_1(u) f_2(t-u) dt\) 
+\(L^{-1} \left (\frac{s}{(s^2+4^2)^2}\right )=\int_{0}^{t} sin⁡(2u)×\frac{1}{2}×cos⁡(2(t-u))du\) 
+=\(\frac{1}{4}[tsin(2t)-\frac{cos⁡(2t)}{4}+\frac{cos⁡(2t)}{4}]\) 
+=\(\frac{1}{4} tsin(2t)\) 
+Thus, the correct answer is \(\frac{1}{4} tsin(2t)\) .
+Sanfoundry Global Education & Learning Series – Ordinary Differential Equations.
+Join [email protected]
+To practice all areas of Ordinary Differential Equations, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ordinary Differential Equations Questions and Answers – General Properties of Inverse Laplace Transform» Next - Ordinary Differential Equations Questions and Answers – Solution of DE With Constant Coefficients using the Laplace Transform 

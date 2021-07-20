@@ -1,0 +1,76 @@
+1. Which of the following is a way to build dynamic sql statements?
+a) Writing a query with parameters
+b) Using sp_executesql
+c) Using EXEC
+d) All of the mentioned
+d
+2. Point out the correct statement.
+a) ODBC has the call ExecDirect
+b) Few database systems provide the facilities for running SQL code directly against the database engine
+c) The SQL code is not stored in the source program, but rather it is generated based on user input
+d) None of the mentioned
+c
+3. Dynamic SQL Statements in SQL Server can be easily built using ________________
+a) Cursor
+b) Stored procedure
+c) Function
+d) All of the mentioned
+b
+4. Which of the following is a calling syntax for sp_executesql?
+a) sp_execute <@stmt> [<@param1 data_type>,<@param2 data_type>, …] 
+b) sp_sql <@stmt> [<@param1 data_type>,<@param2 data_type>, …] 
+c) sp_executesql <@stmt> [<@param1 data_type>,<@param2 data_type>, …] 
+d) sp_executesql [<@param1 data_type>,<@param2 data_type>, …] 
+c
+5. Point out the wrong statement.
+a) The @stmt parameter in sp_executesql is a Unicode string containing valid SQL commands
+b) The input type @Type is passed as the first parameter to sp_executesql
+c) We can specify the parameters for both input and output in sp_executesql
+d) None of the mentioned
+b
+6. Below Code is procedure for dynamic SQL using ___________ parameter.
+CREATE PROCEDURE GetArticle 
+               @ArticleID INT 
+        AS 
+        SELECT ArticleTitle, ArticleBody FROM 
+        Articles
+        WHERE ArticleID = @ArticleID GO -
+a) input and output
+b) input
+c) output
+d) all of the mentioned
+b
+7. The Dynamic SQL Queries in a variable are __________ until they are executed.
+a) Compiled
+b) Parsed
+c) Checked for errors
+d) All of the mentioned
+d
+8. The basic syntax for using EXECUTE command is ___________
+a) SP_EXECUTE(@SQLStatement)
+b) EXEC_SQL(@SQLStatement)
+c) EXECUTE(@SQLStatement)
+d) All of the mentioned
+c
+SET @SQLQuery = 'SELECT * FROM tblEmployees
+WHERE EmployeeID = ' + CAST(@EmpID AS NVARCHAR(10))
+EXECUTE(@SQLQuery)
+.
+9. Which of the following is a disadvantage of dynamic SQL?
+a) Stored procedure can not cache the execution plan for this dynamic query
+b) Stored procedure can cache the execution plan for this dynamic query
+c) Flexibility in your code that you can not get with standard SQL
+d) All of the mentioned
+a
+10. Which of the stored procedure used for dynamic SQL is prone to attacks?
+a) xp_executesql
+b) executesql
+c) sp_execute
+d) sp_executesql
+d
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – DDL Triggers» Next - SQL Server Questions and Answers – SQL Injection 

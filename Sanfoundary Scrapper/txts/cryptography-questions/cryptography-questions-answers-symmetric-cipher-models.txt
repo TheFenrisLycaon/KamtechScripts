@@ -1,0 +1,83 @@
+1. In brute force attack, on average half of all possible keys must be tried to achieve success.
+a) True
+b) False
+a
+2. If the sender and receiver use different keys, the system is referred to as conventional cipher system.
+a) True
+b) False
+b
+3. Divide (HAPPY)26 by (SAD)26. We get quotient –
+a) KD
+b) LD
+c) JC
+d) MC
+a
+4. Dividing (11001001) by (100111) gives remainder –
+a) 11
+b) 111
+c) 101
+d) 110
+d
+5. pi in terms of base 26 is
+a) C.DRS
+b) D.SQR
+c) D.DRS
+d) D.DSS
+c
+6. The time required to convert a k-bit integer to its representation in the base 10 in terms of big-O notation is
+a) O(log2 n)
+b) O(log n)
+c) O(log2 2n)
+d) O(2log n)
+a
+We have O(k) divisions, each requiring O(4k) operations (dividing a number with at most k bits 	by the 4 bit number (1010)). But O(4k) is the same as O(k) (constant factors don’t matter in the 	big-0 notation, so we conclude that the total number of bit operations is O(k). O(k) = 0(k2). If we 	want to express this in terms of n rather than k, then since k = O(1og n), we can write
+Time(convert n to decimal) = 0(log2n).
+7. In base 26, multiplication of YES by NO gives –
+a) THWOE
+b) MPAHT
+c) MPJNS
+d) THWAE
+c
+8. Division of  (131B6C3) base 16 by (lA2F) base 16 yeilds –
+a) 1AD
+b) DAD
+c) BAD
+d) 9AD
+d
+9. An encryption scheme is unconditionally secure if the ciphertext generated does not contain enough information to determine uniquely the corresponding plaintext, no matter how much cipher text is available.
+a) True
+b) False
+a
+10. The estimated computations required to crack a password of 6 characters from the 26 letter alphabet is-
+a) 308915776
+b) 11881376
+c) 456976
+d) 8031810176
+a
+11. Reduce the following big-O natations:
+O[ ax7 + 3 x3 + sin(x)] = 
+a) O[ax7].
+b) O[sin(x)].
+c) O[x7].
+d) O[x7 + x3].
+c
+12. Reduce the following big-O natations:
+O[ en + an10] = 
+a) O[ an10 ].
+b) O[ n10 ].
+c) O[ en ].
+d) O[ en + n10 ].
+c
+13. Reduce the following big-O natations:
+O [ n! + n50 ] = 
+a) O [ n! + n50 ].
+b) O [ n! ].
+c) O [ n50].
+d) None of the Mentioned
+b
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+» Next - Symmetric Ciphers Questions and Answers – Substitution and Transposition Techniques – I 

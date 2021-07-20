@@ -1,0 +1,76 @@
+1. The assembler directives which are the hints using some predefined alphabetical strings are given to
+a) processor
+b) memory
+c) assembler
+d) processor & assembler
+c
+2. The directive used to inform the assembler, the names of the logical segments to be assumed for different segments used in the program is
+a) ASSUME
+b) SEGMENT
+c) SHORT
+d) DB
+a
+             SYNTAX: ASSUME segment:segment_name
+                 Eg: ASSUME CS:Code
+                 here CS is the Code segment and code is the name assumed to the segment.
+3. Match the following
+   a) DB          1) used to direct the assembler to reserve only 10-bytes
+   b) DT          2) used to direct the assembler to reserve only 4 words
+   c) DW          3) used to direct the assembler to reserve byte or bytes
+   d) DQ          4) used to direct the assembler to reserve words
+a) a-3, b-2, c-4, d-1
+b) a-2, b-3, c-1, d-4
+c) a-3, b-1, c-2, d-4
+d) a-3, b-1, c-4, d-2
+d
+Join Sanfoundry@YouTube
+4. The directive that marks the end of an assembly language program is
+a) ENDS
+b) END
+c) ENDS & END
+d) None of the mentioned
+b
+5. The directive that marks the end of a logical segment is
+a) ENDS
+b) END
+c) ENDS & END
+d) None of the mentioned
+a
+6. The directive that updates the location counter to the next even address while executing a series of instructions is
+a) EVN
+b) EVEN
+c) EVNE
+d) EQU
+b
+7. The directive that directs the assembler to start the memory allotment for a particular segment/block/code from the declared address is
+a) OFFSET
+b) LABEL
+c) ORG
+d) GROUP
+c
+If the directive is not present, then the location counter is initialized to 0000H.
+8. The directive that marks the starting of the logical segment is
+a) SEG
+b) SEGMENT
+c) SEG & SEGMENT
+d) PROC
+b
+9. The recurrence of the numerical values or constants in a program code is reduced by
+a) ASSUME
+b) LOCAL
+c) LABEL
+d) EQU
+d
+10. The labels or constants that can be used by any module in the program is possible when they are declared as
+a) PUBLIC
+b) LOCAL
+c) GLOBAL
+d) Either PUBLIC or GLOBAL
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Instruction Set of 8086/8088 – 3» Next - Microprocessors Questions and Answers – Do’s and Don’ts While Using Instructions 

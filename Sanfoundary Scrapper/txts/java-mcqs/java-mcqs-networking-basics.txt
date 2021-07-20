@@ -1,0 +1,84 @@
+1. Which of these package contains classes and interfaces for networking?
+a) java.io
+b) java.util
+c) java.net
+d) java.network
+c
+2. Which of these is a protocol for breaking and sending packets to an address across a network?
+a) TCP/IP
+b) DNS
+c) Socket
+d) Proxy Server
+a
+3. How many ports of TCP/IP are reserved for specific protocols?
+a) 10
+b) 1024
+c) 2048
+d) 512
+b
+4. How many bits are in a single IP address?
+a) 8
+b) 16
+c) 32
+d) 64
+c
+5. Which of these is a full form of DNS?
+a) Data Network Service
+b) Data Name Service
+c) Domain Network Service
+d) Domain Name Service
+d
+6. Which of these class is used to encapsulate IP address and DNS?
+a) DatagramPacket
+b) URL
+c) InetAddress
+d) ContentHandler
+c
+7. What will be the output of the following Java program?
+    import java.net.*;    class networking     {        public static void main(String[] args) throws UnknownHostException         {            InetAddress obj1 = InetAddress.getByName("sanfoundry.com");            InetAddress obj2 = InetAddress.getByName("sanfoundry.com");            boolean x = obj1.equals(obj2);             System.out.print(x);        }    }
+a) 0
+b) 1
+c) true
+d) false
+c
+Output:
+$ javac networking.java
+$ java networking 
+true
+8. What will be the output of the following Java program?
+    import java.net.*;    public class networking     {        public static void main(String[] args) throws UnknownHostException         {            InetAddress obj1 = InetAddress.getByName("cisco.com");            InetAddress obj2 = InetAddress.getByName("sanfoundry.com");            boolean x = obj1.equals(obj2);             System.out.print(x);        }    }
+a) 0
+b) 1
+c) true
+d) false
+d
+Output:
+$ javac networking.java
+$ java networking 
+false
+9. What will be the output of the following Java program?
+import java.io.*;  import java.net.*;  public class URLDemo {      public static void main(String[] args)     {          try         {              URL url=new URL("https://www.sanfoundry.com/java-mcq");              System.out.println("Protocol: "+url.getProtocol());              System.out.println("Host Name: "+url.getHost());              System.out.println("Port Number: "+url.getPort());           } catch(Exception e){System.out.println(e);}      }  }
+a) Protocol: http
+b) Host Name: www.sanfoundry.com
+c) Port Number: -1
+d) All of the mentioned
+d
+getUrl() give name domain name
+getPort() Since we have not explicitly set the port, default value that is -1 is printed.
+10. What will be the output of the following Java program?
+    import java.net.*;    class networking     {        public static void main(String[] args) throws UnknownHostException         {            InetAddress obj1 = InetAddress.getByName("cisco.com");            System.out.print(obj1.getHostName());        }    }
+a) cisco
+b) cisco.com
+c) www.cisco.com
+d) none of the mentioned
+b
+Output:
+$ javac networking.java
+$ java networking 
+cisco.com
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Serialization & Deserialization» Next - Java Questions & Answers – Networking – Server, Sockets & httpd Class 

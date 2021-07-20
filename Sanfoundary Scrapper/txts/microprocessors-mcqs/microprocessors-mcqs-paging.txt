@@ -1,0 +1,91 @@
+1. The advantage of pages in paging is
+a) no logical relation with program
+b) no need of entire segment of task in physical memory
+c) reduction of memory requirement for task
+d) all of the mentioned
+d
+2. The size of the pages in the paging scheme is
+a) variable
+b) fixed
+c) both variable and fixed
+d) none
+b
+3. To convert linear addresses into physical addresses, the mechanism that the paging unit uses is
+a) linear conversion mechanism
+b) one level table mechanism
+c) physical conversion mechanism
+d) two level table mechanism
+d
+4. The control register that stores the 32-bit linear address, at which the previous page fault is detected is
+a) CR0
+b) CR1
+c) CR2
+d) CR3
+c
+5. Which of the following is not a component of paging unit?
+a) page directory
+b) page descriptor base register
+c) page table
+d) page
+b
+6. The control register that is used as page directory physical base address register is
+a) CR0
+b) CR1
+c) CR2
+d) CR3
+d
+7. The bits of CR3, that are always zero are
+a) higher 4 bits
+b) lower 8 bits
+c) higher 10 bits
+d) lower 12 bits
+d
+8. Each directory entry in page directory is maximum of
+a) 2 bytes
+b) 4 bytes
+c) 8 bytes
+d) 16 bytes
+b
+9. The size of each page table is of
+a) 2 Kbytes
+b) 2 bytes
+c) 4 Kbytes
+d) 4 bytes
+c
+10. The dirty bit(D) is set, before which operation is carried out
+a) write
+b) read
+c) initialization
+d) none of the mentioned
+a
+11. The bit that is undefined for page directory entries is
+a) P-bit
+b) A-bit
+c) D-bit
+d) All of the mentioned
+c
+12. The bit that is used for providing protection is
+a) User/Supervisor bit
+b) Read bit
+c) Write bit
+d) all of the mentioned
+d
+13. The storage of 32 recently accessed page table entries to optimize the time, is known as
+a) page table
+b) page descriptor base register
+c) page table cache
+d) none of the mentioned
+c
+14. The page table cache is also known as
+a) page table storage
+b) storage buffer
+c) translation look aside buffer
+d) all of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Segmentation» Next - Microprocessors Questions and Answers – Virtual 8086 Mode, The Coprocessor 80387 

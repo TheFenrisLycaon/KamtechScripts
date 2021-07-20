@@ -1,0 +1,102 @@
+1. Find the Z-Transform of \(^nC_p\).
+a) (1-z-1)n
+b) (1+z-1)n
+c) (1-z-1)-n
+d) (1+z-1)-n
+b
+\(Z(^nC_p) = 1+ ^nC_1 z^{-1}+ ^nC_2 z^{-2} + ^nC_3 z^{-3} \)+……… which can be further equated to (1+z-1)n. 
+2. Find the function whose Z – Transform is \(\frac{1}{z} \).
+a) δ(n)
+b) δ(n+1)
+c) U(n)
+d) U(n+1)
+b
+3. Find the function whose Z transform is \(e^{\frac{1}{z}}\).
+a) log(n)
+b) \(\frac{1}{n} \) 
+c) \(\frac{1}{n!} \) 
+d) \(\frac{1}{(n+1)!} \) 
+c
+4. Find the inverse Z- Transform of \((\frac{z}{z-a})^3\).
+a) \(\frac{1}{2} . (n+1) (n-2) a^{n-2} U(n) \) 
+b) \(\frac{1}{2} . (n-1) (n-2) a^{n-3} U(n) \) 
+c) \(\frac{1}{2} . (n-1) (n+2) a^{n-1} U(n) \) 
+d) \(\frac{1}{2} . (n+1) (n+2) a^n U(n) \) 
+d
+5. Find the inverse Z – Transform of \(log \frac{z}{z+1}\).
+a) \(\frac{(-1)^n}{n} \) 
+b) \(\frac{(-1)^{n+1}}{n} \) 
+c) \(\frac{1}{n} \) 
+d) \(\frac{(-1)^n}{n+1} \) 
+a
+6. Find the Z – Transform of sinh ⁡nθ.
+a) \(\frac{sinh⁡θ}{z^2-2z cosh⁡θ+1} \) 
+b) \(\frac{1}{2}  \frac{sinh⁡θ}{z^2-2z cosh⁡θ+1} \) 
+c) \(\frac{z sinh⁡θ)}{z^2-2z cosh⁡θ+1} \) 
+d) \(\frac{z(z-sinh⁡θ)}{z^2-2z cosh⁡θ+1} \) 
+a
+7. Find the value of u3 if \(U(z) = \frac{3z^2+2z+10}{(z-1)^4} \).
+a) 12
+b) 13
+c) 14
+d) 15
+c
+8. Find the Z – Transform of np.
+a) \(-z\frac{d}{dz}(Z(n^{p-1})) \) 
+b) \(z\frac{d}{dz}(Z(n^p)) \) 
+c) \(-z\frac{d}{dz}(Z(n^{p+1})) \) 
+d) \(z\frac{d}{dz}(Z(n^{p+1})) \) 
+a
+9. The Z – Transform of a function is given by \(U(z) = \frac{z^3+6z^2+9z+3}{(z-1)^4}\). Find the Z-Transform of un+2.
+a) \(\frac{10z^3+3z^2+7z^1-1}{(z-1)^4} \) 
+b) \(\frac{10z^4+3z^3+7z^2-z}{(z-1)^4} \) 
+c) \(\frac{10z^4+4z^3+7z^2-2z}{(z-1)^4} \) 
+d) \(\frac{10z^4+3z^3-4z}{(z-1)^4} \) 
+b
+10. Find u2 if \(U(z) = \frac{z^3+6z^2+9z+3}{(z-1)^4}\).
+a) 8
+b) 9
+c) 10
+d) 11
+c
+11. Find the order of the difference equation Δ3yn – Δ2yn – Δyn = 3.
+a) 3
+b) 4
+c) 2
+d) 5
+a
+12. Find the order of the difference equation yn+3 -3 yn+1 – yn-2 = 4.
+a) 3
+b) 4
+c) 5
+d) 6
+c
+13. Find the difference equation of yn = A 3n + B 5n.
+a) yn+2 -16 yn+1 + 15 yn-1 = 0
+b) yn+3 -14 yn+1 + 30 yn = 0
+c) 2 yn+2 -14 yn+1 + 15 yn = 0
+d) 2 yn+2 -16 yn+1 + 30 yn = 0
+d
+\(\begin{bmatrix}
+y_n & 1 & 1\\
+y_{n+1} & 3 & 5\\
+y_{n+2} & 9 & 25\\
+\end{bmatrix} \) = 0. Now, by solving the determinant, we get the required difference equation.
+14. Find the difference equation of y = ax + b.
+a) Δ2y = 0
+b) Δ2y = 1
+c) Δ2y + 3Δy = 2
+d) Δ2y + 4Δy = 5
+a
+15. Solve un+2 + 10 un+1 + 9 un = 2n.
+a) \(u_n = \frac{2^{n+1}}{33}+\frac{(-9)^{n+1}}{88}+\frac{(-1)^{n+1}}{24} \) 
+b) \(u_n = \frac{2^n}{33}+\frac{(-9)^n}{88}+\frac{(-1)^{n-1}}{24} \) 
+c) \(u_n = \frac{2^{n+1}}{11}+\frac{(-9)^{n+1}}{88}+\frac{(-1)^n}{24} \) 
+d) \(u_n = \frac{2^n}{11}+\frac{(-9)^n}{88}+\frac{(-1)^{n-1}}{24} \) 
+b
+Sanfoundry Global Education & Learning Series – Fourier Analysis.
+To practice all areas of Fourier Analysis for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Fourier Analysis Questions and Answers – Fourier Transform and Convolution» Next - Complex Numbers Question and Answers – DeMoivre’s Theorem 

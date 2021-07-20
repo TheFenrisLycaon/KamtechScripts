@@ -1,0 +1,74 @@
+1. Which of the following clauses is used to display information that match a given pattern?
+a) LIKE
+b) WHERE
+c) IS
+d) SAME
+a
+2. What column names are displayed when this SQL command is executed?
+SHOW COLUMNS FROM tbl_name LIKE '%name';
+a) suffixed with ‘name’
+b) prefixed with ‘name’
+c) suffixed with ‘%name’
+d) prefixed with ‘%name’
+a
+3. The special database that always exists after setting up MySQL in a computer is __________
+a) sampdb
+b) mysql
+c) information_schema
+d) readme_db
+c
+4. In the following SQL code, InnoDB is __________
+CREATE TABLE student (
+		name CHAR(30),
+		student_id INT,
+		PRIMARY KEY (student_id)
+	) ENGINE = InnoDB;
+a) database name
+b) table name
+c) reference engine
+d) storage engine
+d
+5. Identify the table name in the following SQL statement.
+	INSERT INTO student VALUES('Kyle','M',NULL);
+a) Student
+b) Values
+c) Kyle
+d) M
+a
+6. What is ‘xyz’ in the following SQL statement?
+	SELECT abc FROM xyz;
+a) row name
+b) column name
+c) table name
+d) database name
+c
+7. Which operator is used to perform integer divisions in MySQL?
+a) /
+b) \
+c) DIV
+d) //
+c
+8. The NULL value also means ___________
+a) value equal to zero
+b) unknown value
+c) negative values
+d) a large value
+b
+9. What does comparing a known value with NULL result into?
+a) zero
+b) a positive value
+c) a negative value
+d) null
+d
+10. Which clause is used to sort query elements?
+a) GROUP
+b) GROUP BY
+c) ORDER
+d) ORDER BY
+d
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Basic Database Terminology» Next - MySQL Questions and Answers – MySQL Setup – 2 

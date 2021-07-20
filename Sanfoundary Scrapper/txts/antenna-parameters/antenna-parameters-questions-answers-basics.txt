@@ -1,0 +1,86 @@
+1. The relation between vector magnetic potential and current density is given by ______
+a) ∇.A=J
+b) ∇×A=H
+c) ∇2 A=-μJ
+d) ∇2 A=∇×H
+c
+Taking curl on both sides, we get ∇×B=∇×(∇×A )  = ( ∇.A)∇-(∇.∇)A
+From Maxwell’s equation, ∇.B=0 =>∇.A=0
+⇨	∇×B= -∇2 A and  B= μH , ∇×H=J
+⇨	∇×μH= -∇2A
+⇨	∇2 A=-μJ.
+2. The induction and radiation fields are equal at a distance of _______
+a) λ/4
+b) λ/6
+c) λ/8
+d) λ/2
+b
+\(\mid \overline{E_θ}\mid_{max⁡Radiation} =\mid \overline{E_θ}\mid_{max⁡Induction} \) 
+\(\frac{I_m dl}{4\pi\epsilon} (\frac{ω}{v^2r})=\frac{I_mdl}{4\pi\epsilon} (\frac{1}{r^2v})\) 
+\(r=\frac{v}{ω}=\frac{\lambda f}{2\pi f}=\frac{\lambda}{6}.\) 
+3. The ratio of radiation intensity in a given direction from antenna to the radiation intensity over all directions is called as ________
+a) Directivity
+b) Radiation power density
+c) Gain of antenna
+d) Array Factor
+a
+ Radiation Intensity is power radiated from an antenna for unit solid angle. \(U_0= w_r.r^2\frac{watts}{steradians}.\) 
+Gain of antenna is ratio of radiation intensity in given direction to the radiation intensity of isotropic radiation. Array factor is a function of geometry of array and the excitation phase.
+4. What is the overall efficiency of a lossless antenna with reflection coefficient 0.15?
+a) 0.997
+b) 0.779
+c) 0.669
+d) 0.977
+d
+Overall efficiency of antenna is given by eo =ecd (1-\(\mid\gamma^2\mid)\)=1×(1-(0.152))=0.977.
+5. The equivalent area when multiplied by the instant power density which leads to free radiation of power at antenna is called as _______
+a) Loss area
+b) Scattering area
+c) Captured area
+d) Effective area
+b
+Captured area= effective area + loss area + scattering area.
+6. Equivalent circuit representation of an antenna is ______
+a) Series R, L, C
+b) Parallel R, L, C
+c) Series R, L parallel to C
+d) Parallel R, C series to L
+a
+7. Radiation resistance of a Hertzian dipole of length λ/8 is ________
+a) 12.33Ω
+b) 8.54Ω
+c) 10.56Ω
+d) 13.22Ω
+a
+R=80π2\((\frac{l}{\lambda})^2=80\pi^2 (\frac{\lambda/8}{\lambda})^2=12.33\Omega\)
+8. Relation between directivity and effective area of transmitting and receiving antenna is ________
+a) Dt At=Dr Ar
+b) Dt Ar=Dr At
+c) At Dt=∈Dr Ar
+d) Dt At=∈Dr Ar
+b
+\(P_r = \frac{P_tD_tA_r}{4\pi R^2} => D_tA_r = \frac{P_r}{P_t}4\pi R^2\) = Dr At
+∴ Dt Ar=Dr At
+9. The axis of back lobe makes an angle of 180° with respect to the beam of an antenna.
+a) True
+b) False
+a
+10.Radiation resistance of a half-wave dipole is ______
+a) 36.56Ω
+b) 18.28Ω
+c) 73.12Ω
+d) 40.24Ω
+c
+11. The radiation efficiency for antenna having radiation resistance 36.15Ω and loss resistance 0.85Ω is given by ________
+a) 0.977
+b) 0.799
+c) 0.997
+d) 0.779
+a
+Radiation efficiency is also known as conductor-dielectric efficiency. It is the ratio of power delivered to the radiation resistance to the power delivered to it when conductor-dielectric losses are present.
+Sanfoundry Global Education & Learning Series – Antennas.
+To practice all areas of Antennas, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+» Next - Antenna Parameters Questions and Answers – Antenna Characteristics 

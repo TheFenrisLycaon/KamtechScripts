@@ -1,0 +1,61 @@
+1. With the WiredTiger storage engine, use of _______ is strongly recommended to avoid performance issues.
+a) XFS
+b) SSD
+c) SST
+d) All of the mentioned
+a
+2. Point out the correct statement.
+a) With the MMAPv1 storage engine, MongoDB preallocates its database files before using them and often creates large files
+b) zlib provides better compression rate but has a higher performance cost
+c) MongoDB includes support for many storage engines
+d) All of the mentioned
+b
+3. MongoDB requires a filesystem that supports ______ on directories.
+a) fsynconce()
+b) fsync()
+c) sync()
+d) all of the mentioned
+b
+4. MongoDB Cloud Manager provides integration with Amazon Web Services (AWS) and lets you deploy new ______ instances directly from MongoDB Cloud Manager.
+a) ECS
+b) EC2
+c) EC3
+d) All of the mentioned
+b
+5. Point out the wrong statement.
+a) When running MongoDB in production on Linux, it is recommended that you use Linux kernel version 2.6.36 or later
+b) The MongoDB distribution for Solaris include support for the WiredTiger storage engine
+c) By default, WiredTiger uses zip compression library
+d) None of the mentioned
+c
+6. WiredTiger can compress collection data using either snappy or zlib compression library.
+a) snappy
+b) zip
+c) lib
+d) Kit
+a
+7. Which of the following is especially important in Sharded Clusters?
+a) NSS
+b) STP
+c) NTP
+d) SSD
+a
+8. The TCP keepalive on the Azure load balancer is ______ seconds by default.
+a) 100
+b) 200
+c) 240
+d) None of the mentioned
+a
+9. _____ is a command-line tool for monitoring network use.
+a) bwm-ng
+b) bwm-g
+c) bwm-n
+d) bwm-ngs
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Production MongoDB» Next - MongoDB Questions and Answers – Operational Segregation 

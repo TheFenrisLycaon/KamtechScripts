@@ -1,0 +1,109 @@
+1. Integration of function is same as the ___________
+a) Joining many small entities to create a large entity
+b) Indefinitely small difference of a function
+c) Multiplication of two function with very small change in value
+d) Point where function neither have maximum value nor minimum value
+a
+2. Integration of (Sin(x) + Cos(x))ex is______________
+a) ex Cos(x)
+b) ex Sin(x)
+c) ex Tan(x)
+d) ex (Sin(x)+Cos(x))
+b
+∫ ex Sin(x)dx = ex Sin(x) – ∫ ex Cos(x)dx
+∫ ex Sin(x)dx + ∫ ex Cos(x)dx = ∫ ex [Cos(x)+Sin(x)]dx = ex Sin(x).
+3. Integration of (Sin(x) – Cos(x))ex is ___________
+a) -ex Cos(x)
+b) ex Cos(x)
+c) -ex Sin(x)
+d) ex Sin(x)
+a
+Let f(x) = ex Sin(x)
+∫ ex Sin(x)dx = -ex Cos(x) + ∫ ex Cos(x)dx
+∫ ex Sin(x)d-∫ ex Cos(x)dx = ∫ ex [Sin(x)-Cos(x)]dx = -ex Cos(x).
+4. Value of ∫ Cos2 (x) Sin2 (x)dx.
+a) \(\frac{1}{8} [x-\frac{Cos(2x)}{2}]\) 
+b) \(\frac{1}{4} [x-\frac{Cos(2x)}{2}]\) 
+c) \(\frac{1}{8} [x-\frac{Sin(2x)}{2}]\) 
+d) \(\frac{1}{4} [x-\frac{Sin(2x)}{2}]\) 
+c
+Given,f(x)=\(\int Cos^2 (x) Sin^2 (x)dx=\frac{1}{4} \int Sin^2 (2x) dx=\frac{1}{4} \int \frac{[1-Cos(2x)]}{2} dx=\frac{1}{8} [x-\frac{Sin(2x)}{2}]\)
+5. If differentiation of any function is zero at any point and constant at other points then it means?
+a) Function is parallel to x-axis at that point
+b) Function is parallel to y-axis at that point
+c) Function is constant
+d) Function is discontinuous at that point
+a
+Function is not a constant function since it has finite value at other points.
+6. If differentiation of any function is infinite at any point and constant at other points then it means ___________
+a) Function is parallel to x-axis at that point
+b) Function is parallel to y-axis at that point
+c) Function is constant
+d) Function is discontinuous at that point
+a
+7. Integration of function y = f(x) from limit x1 < x < x2 , y1 < y < y2, gives ___________
+a) Area of f(x) within x1 < x < x2
+b) Volume of f(x) within x1 < x < x2
+c) Slope of f(x) within x1 < x < x2
+d) Maximum value of f(x) within x1 < x < x2
+a
+8. Find the value of ∫ ln⁡(x)⁄x dx.
+a) 3a2
+b) a2
+c) a
+d) 1
+a
+Given, f(x)=\(\int \frac{ln⁡(x)}{x} dx\) 
+Let, z=ln⁡(x)=>dz=\(\frac{dx}{x}=>f(x)=\int zdz=z^2/2=\frac{ln^2⁡(x)}{2}\)
+9. Find the value of ∫t⁄(t+3)(t+2) dt, is?
+a) 2 ln⁡(t+3)-3 ln⁡(t+2)
+b) 2 ln⁡(t+3)+3 ln⁡(t+2)
+c) 3 ln⁡(t+3)-2 ln⁡(t+2)
+d) 3 ln⁡(t+3)+2ln⁡(t+2)
+c
+Given, et = x => dx = et dt,
+Given, f(x)=\(\int \frac{ln⁡(x)}{x} dx\) 
+Let, z=ln⁡(x)=>dz=\(\frac{dx}{x}=>f(x)=\int zdz=\frac{z^2}{2}=\frac{ln^2⁡(x)}{2}\)
+10. Find the value of ∫ cot3(x) cosec4 (x).
+a) –\([\frac{cot^4⁡(x)}{4}+\frac{cosec^6⁡(x)}{6}]\) 
+b) –\([\frac{cosec^4⁡(x)}{4}+\frac{cosec^6⁡(x)}{6}]\) 
+c) –\([\frac{cot^4⁡(x)}{4}+\frac{cot^6⁡(x)}{6}]\) 
+d) –\([\frac{cosec^4⁡(x)}{4}+\frac{cot^6⁡(x)}{6}]\) 
+c
+Given, \(\int cot^3⁡(x)cosec^4 (x)dx=-\int cot^3⁡(x)cosec^2 (x)dcot(x)\) 
+=-\(\int t^3 (1+t^2)dt=-[\frac{t^4}{4}+\frac{t^6}{6}]=-[\frac{cot^4⁡(x)}{4}+\frac{cot^6⁡(x)}{6}]\)  
+11. Find the value of \(\int \frac{sec^4⁡(x)}{\sqrt{tan⁡(x)}} dx\).
+a) \(\frac{2}{5}\sqrt{tan⁡(x)}[5+sec^2⁡(x)]\) 
+b) \(\frac{2}{5}\sqrt{sec⁡(x)}[5+tan^2⁡(x)]\) 
+c) \(\frac{2}{5}\sqrt{tan⁡(x)}[6+tan^2⁡(x)]\) 
+d) \(\frac{2}{5}\sqrt{tan⁡(x)}[5+tan^2⁡(x)]\) 
+d
+Given, \(\int \frac{sec^4⁡(x)}{\sqrt{tan⁡(x)}} dx\) 
+=\(\int \frac{sec^2⁡(x) sec^2⁡(x)}{\sqrt{tan⁡(x)}} dx\) 
+=\(\int \frac{1+t^2}{\sqrt{t}} dt\) 
+=\(\int [\frac{1}{\sqrt{t}}+t^{3/2}]dt\) 
+=\(2\sqrt{t}+\frac{2}{5} t^{5/2}\) 
+=\(\frac{2}{5}\sqrt{tan⁡(x)}[5+tan^2⁡(x)]\)
+12. Find the value of \(\int \frac{1}{4x^2+4x+5} dx\).
+a) 1⁄8 sin(-1)⁡(x + 1⁄2)
+b)1⁄4 tan(-1)⁡(x + 1⁄2)
+c) 1⁄8 sec(-1)⁡(x + 1⁄2)
+d) 1⁄4 cos(-1)⁡(x + 1⁄2)
+b
+Given, \(\int \frac{1}{4x^2+4x+5} dx\) 
+=\(\int \frac{1}{4 (x^2+x+\frac{5}{4}+\frac{1}{4}+\frac{1}{4})} dx =\int \frac{1}{4[(x+\frac{1}{2})^2+1^2])}dx=\frac{1}{4} tan^{-1}(x+\frac{1}{2})\)
+13. Find the value of \(\int \sqrt{4x^2+4x+5} dx\).
+a) \(2\left [\frac{1}{2} (x+\frac{1}{2}) \sqrt{{(x+\frac{1}{2})^2+1)}}\right ]+ln⁡\left [(x+\frac{1}{2})+\sqrt{(x+\frac{1}{2})^2+1} \right ]\) 
+b) \(2\left [\frac{1}{2} \sqrt{(x+\frac{1}{2})^2+1)}\right ]+\frac{1}{2} ln⁡\left [(x+\frac{1}{2})+\sqrt{(x+\frac{1}{2})^2+1} \right ]\) 
+c) \(2\left [\frac{1}{2} (x+\frac{1}{2}) \sqrt{(x+\frac{1}{2})^2+1)}\right ]+\frac{1}{2} ln⁡\left [(x+\frac{1}{2})+\sqrt{(x+\frac{1}{2})^2+1} \right ]\) 
+d) \(2\left [(x+\frac{1}{2}) \sqrt{{(x+\frac{1}{2})^2+1)}}\right ]+\frac{1}{2} ln⁡\left [(x+\frac{1}{2})+\sqrt{(x+\frac{1}{2})^2+1} \right ]\) 
+c
+Given, \(\int \sqrt{4x^2+4x+5} dx=\int 2\sqrt{(x+\frac{1}{2})^2+1^2} dx\) 
+=\(\int 2\sqrt{t^2+1^2} dt=2\left [\frac{1}{2} t\sqrt{t^2+1}\right ]+\frac{1}{2} ln⁡[t+\sqrt{t^2+1}]\) 
+=\(2\left [\frac{1}{2} (x+\frac{1}{2}) \sqrt{(x+\frac{1}{2})^2+1)} \right ]+\frac{1}{2}  ln⁡\left [(x+\frac{1}{2})+\sqrt{(x+1/2)^2+1}\right ]\)
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Differential and Integral Calculus Questions and Answers – Volume of Solid of Revolution» Next - Engineering Mathematics Questions and Answers – Improper Integrals – 2 

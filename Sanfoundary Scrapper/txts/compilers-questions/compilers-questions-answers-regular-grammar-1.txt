@@ -1,0 +1,69 @@
+1. How many strings of length less than 4 contains the language described by the regular expression (x+y)*y(a+ab)*?
+a) 7
+b) 10
+c) 12
+d) 11
+d
+string of length 1 = 4
+string of length 2 = 3
+string of length 3 = 3.
+2. Which of the following is true?
+a) (01)*0 = 0(10)*
+b) (0+1)*0(0+1)*1(0+1) = (0+1)*01(0+1)*
+c) (0+1)*01(0+1)*+1*0* = (0+1)*
+d) All of the mentioned
+d
+3. A language is regular if and only if?
+a) Accepted by DFA
+b) Accepted by PDA
+c) Accepted by LBA
+d) Accepted by Turing machine
+a
+4. What is Regular grammar?
+a) Context free grammar
+b) Non context free grammar
+c) English grammar
+d) None of the mentioned
+a
+5. Let the class of language accepted by finite state machine be L1 and the class of languages represented by regular expressions be L2 then?
+a) L1<l2
+b) L1>=L2
+c) L1 U L2 = .*
+d) L1=L2
+d
+6. Which of the following is not a regular expression?
+a) [(a+b)*-(aa+bb)]*
+b) [(0+1)-(0b+a1)*(a+b)]*
+c) (01+11+10)*
+d) (1+2+0)*(1+2)*
+b
+7. Regular expression is __________
+a) Type 0 language
+b) Type 1 language
+c) Type 2 language
+d) Type 3 language
+a
+8. Which of the following is true?
+a) All subsets of a regular set are always regular
+b) All finite subsets of non-regular set are always regular
+c) Union of two non regular set of language is not regular
+d) Infinite times union of finite set is always regular
+b
+9. L and ~L are recursive enumerable then L is?
+a) Regular
+b) Context free
+c) Context sensitive
+d) Recursive
+d
+10. Regular expressions are closed under _____________
+a) Union
+b) Intersection
+c) Kleene star
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – Context Free Grammar – 2» Next - Compilers Questions and Answers – Regular Grammar – 2 

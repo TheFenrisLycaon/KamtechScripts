@@ -1,0 +1,116 @@
+1. If the system is initially relaxed at time n=0 and memory equals to zero, then the response of such state is called as ____________
+a) Zero-state response
+b) Zero-input response
+c) Zero-condition response
+d) None of the mentioned
+a
+2. Zero-state response is also known as ____________
+a) Free response
+b) Forced response
+c) Natural response
+d) None of the mentioned
+b
+3. Zero-input response is also known as Natural or Free response.
+a) True
+b) False
+a
+4. The solution obtained by assuming the input x(n) of the system is zero is ____________
+a) General solution
+b) Particular solution
+c) Complete solution
+d) Homogenous solution
+d
+5. What is the homogenous solution of the system described by the first order difference equation y(n)+ay(n-1)=x(n)?
+a) c(a)n(where ‘c’ is a constant)
+b) c(a)-n
+c) c(-a)n
+d) c(-a)-n
+c
+yh(n)=λn
+=>y(n)+ay(n-1)=0
+=>λn+a λn-1=0
+=>λn-1(λ+a)=0
+=>λ=-a
+=>yh(n)=cλn=c(-a)n
+6. What is the zero-input response of the system described by the homogenous second order equation y(n)-3y(n-1)-4y(n-2)=0 if the initial conditions are y(-1)=5 and y(-2)=0?
+a) (-1)n-1 + (4)n-2
+b) (-1)n+1 + (4)n+2
+c) (-1)n+1 + (4)n-2
+d) None of the mentioned
+b
+Let y(n)=λn
+Substituting y(n) in the given equation
+=> λn – 3λn-1 – 4λn-2 = 0
+=> λn-2(λ2 – 3λ – 4) = 0
+the roots of the above equation are λ=-1,4
+Therefore, general form of the solution of the homogenous equation is
+yh(n)=C1 λ1n+C2 λ2n
+=C1(-1)n+C2(4)n—-(2)
+The zero-input response of the system can be calculated from the homogenous solution by evaluating the constants in the above equation, given the initial conditions y(-1) and y(-2).
+From the given equation (1)
+y(0)=3y(-1)+4y(-2)
+y(1)=3y(0)+4y(-1)
+=3[3y(-1)+4y(-2)]+4y(-1)
+=13y(-1)+12y(-2)
+From the equation (2)
+y(0)=C1+C2 and
+y(1)=C1(-1)+C2(4)=-C1+4C2
+By equating these two set of relations, we have
+C1+C2=3y(-1)+4y(-2)=15
+-C1+4C2=13y(-1)+12y(-2)=65
+On solving the above two equations we get C1=-1 and C2=16
+Therefore the zero-input response is Yzi(n) = (-1)n+1 + (4)n+2.
+7. What is the particular solution of the first order difference equation y(n)+ay(n-1)=x(n) where |a|<1, when the input of the system x(n)=u(n)?
+a) \(\frac{1}{1+a}\) u(n)
+b) \(\frac{1}{1-a}\) u(n)
+c) \(\frac{1}{1+a}\) 
+d) \(\frac{1}{1-a}\) 
+a
+yp(n)=Kx(n)=Ku(n) (where K is a scale factor)
+Substitute the above equation in the given equation
+=>Ku(n)+aKu(n-1)=u(n)
+To determine K we must evaluate the above equation for any n>=1, so that no term vanishes.
+=> K+aK=1
+=>K=\(\frac{1}{1+a}\) 
+Therefore the particular solution is yp(n)=\(\frac{1}{1+a}\) u(n).
+8. What is the particular solution of the difference equation y(n)=\(\frac{5}{6}y(n-1)-\frac{1}{6}\)y(n-2)+x(n) when the forcing function x(n)=2n, n≥0 and zero elsewhere?
+a) \(\frac{1}{5}\) 2n
+b) \(\frac{5}{8}\) 2n
+c) \(\frac{8}{5}\) 2n
+d) \(\frac{5}{8}\) 2-n
+c
+yp(n)=Kx(n)=K2nu(n) (where K is a scale factor)
+Upon substituting yp(n) into the difference equation, we obtain
+K2nu(n)=\(\frac{5}{6}\)K2n-1u(n-1)-\(\frac{1}{6}\) K2n-2u(n-2)+2nu(n)
+To determine K we must evaluate the above equation for any n>=2, so that no term vanishes.
+=> 4K=\(\frac{5}{6}\)(2K)-\(\frac{1}{6}\) (K)+4
+=> K=\(\frac{8}{5}\) 
+=> yp(n)=(8/5) 2n.
+9. The total solution of the difference equation is given as _______________
+a) yp(n)-yh(n)
+b) yp(n)+yh(n)
+c) yh(n)-yp(n)
+d) None of the mentioned
+b
+10. What is the impulse response of the system described by the second order difference equation y(n)-3y(n-1)-4y(n-2)=x(n)+2x(n-1)?
+a) [-\(\frac{1}{5}\) (-1)n–\(\frac{6}{5}\) (4)n]u(n)
+b) [\(\frac{1}{5}\) (-1)n–\(\frac{6}{5}\) (4)n]u(n)
+c) [\(\frac{1}{5}\) (-1)n+\(\frac{6}{5}\) (4)n]u(n)
+d) [-\(\frac{1}{5}\) (-1)n+\(\frac{6}{5}\) (4)n]u(n)
+d
+To find the impulse response, x(n)=δ(n)
+now, for n=0 and n=1 we get
+y(0)=1 and
+y(1)=3+2=5
+From equation (1) we get
+y(0)=C1+C2 and
+y(1)=-C1+4C2
+On solving the above two set of equations we get
+C1=-\(\frac{1}{5}\) and C2=\(\frac{6}{5}\) 
+=>h(n)= [-\(\frac{1}{5}\) (-1)n + \(\frac{6}{5}\) (4)n]u(n).
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Implementation of Discrete Time Systems» Next - Digital Signal Processing Questions and Answers – Analysis of Discrete time LTI Systems 

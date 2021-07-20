@@ -1,0 +1,102 @@
+This section on C++ programming questions and answers focuses on “Uncaught Exceptions”. One shall practice these questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ programming questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ programming questions on “Uncaught Exceptions” along with answers, explanations and/or solutions:
+1. What happens if try catch block is not used?
+a) arise an error
+b) program will run
+c) execute continuously
+d) wrong output
+a
+2. Which handler is used to handle all types of exception?
+a) catch handler
+b) catch-all handler
+c) catch-none handler
+d) try-catch handler
+b
+3. Which operator is used as catch-all handler?
+a) ellipses operator
+b) ternary operator
+c) string operator
+d) unary operator
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Base    {        protected:        int a;        public:        Base()         {             a = 34;         }        Base(int i)        {             a = i;         }        virtual ~Base()         {             if (a < 0)  throw a;         }        virtual int getA()        {            if (a < 0)             {                 throw a;            }        }    };    int main()    {        try        {            Base b(-25);            cout << endl << b.getA();        }        catch (int)         {            cout << endl << "Illegal initialization";        }    }
+a) Illegal initialization
+b) Terminate called after throwing an instance of ‘int’
+c) Illegal initialization & terminate called after throwing an instance
+d) initialization
+b
+Output:
+$ g++ uce.cpp
+$ a.out
+terminate called after throwing an instance of 'int'
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <exception>    using namespace std;    void terminator()    {        cout << "terminate" << endl;    }    void (*old_terminate)() = set_terminate(terminator);    class Botch     {        public:        class Fruit {};        void f()         {            cout << "one" << endl;            throw Fruit();        }        ~Botch()         {            throw 'c';         }    };    int main()     {        try         {            Botch b;            b.f();        }         catch(...)         {            cout << "inside catch(...)" << endl;        }    }
+a) one
+b) inside catch
+c) 
+   one 
+   terminate
+d) 
+   one 
+   terminate
+   Aborted
+d
+Output:
+$ g++ uce1.cpp
+$ a.out
+one 
+terminate
+Aborted
+  
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <exception>    #include <cstdlib>    using namespace std;    void myterminate ()     {        cerr << "terminate handler called";        abort();    }    int main (void)     {        set_terminate (myterminate);        throw 0;         return 0;    }
+a) terminate handler called
+b) aborted
+c) both terminate handler & Aborted
+d) runtime error
+c
+Output:
+$ g++ uce2.cpp
+$ a.out
+terminate handler called
+Aborted
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Test1     {     };    class Test2 : public Test1 { };    void Funct();    int main()    {        try        {            Funct();        }        catch (const Test1&)        {            cerr << "Caught a exception" << endl;        }        return 0;    }    void Funct()    {        throw Test2();    }
+a) Caught an exception
+b) NULL
+c) Both Caught an exception & NULL
+d) Caught a exception
+a
+Output:
+$ g++ uce3.cpp
+$ a.out
+Caught a exception
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    #include <cstdlib>    #include <exception>    void Funct()    {        cout << "Funct() was called by terminate()." << endl;        exit(0);    }    int main()    {        try        {            set_terminate(Funct);            throw "Out of memory!";        }        catch(int)        {             cout << "Integer exception raised." << endl;         }        return 0;    }
+a) Integer exception raised
+b) Funct() was called by terminate()
+c) Integer exception not raised
+d) Integer exception raised.
+b
+Output:
+$ g++ uce4.cpp
+$ a.out
+Funct() was called by terminate().
+9. What function will be called when we have an uncaught exception?
+a) catch
+b) throw
+c) terminate
+d) try
+c
+10. What will not be called when the terminate() is raised in the constructor?
+a) main()
+b) class
+c) destructor
+d) constructor
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Exception Specifications» Next - C++ Programming Questions and Answers – Exceptions and Efficiency 

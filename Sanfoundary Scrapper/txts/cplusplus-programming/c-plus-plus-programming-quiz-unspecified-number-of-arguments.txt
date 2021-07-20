@@ -1,0 +1,98 @@
+This section on C++ Programming quiz focuses on “Unspecified Number of Arguments”. One shall practice these quizzes to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ quiz comes with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ Programming quiz on “Unspecified Number of Arguments” along with answers, explanations and/or solutions: 
+1. Which header file is used to pass unknown number of arguments to function?
+a) stdlib.h
+b) string.h
+c) stdarg.h
+d) stdio.h
+c
+2. How can you access the arguments that are manipulated in the function?
+a) va_list
+b) arg_list
+c) both va_list & arg_list
+d) vg_list
+a
+3. What will be the output of the following C++ code?
+    #include <iostream>    #include <stdarg.h>    using namespace std;    float avg( int Count, ... )    {        va_list Numbers;        va_start(Numbers, Count);        int Sum = 0;        for (int i = 0; i < Count; ++i )            Sum += va_arg(Numbers, int);        va_end(Numbers);        return (Sum/Count);    }    int main()    {        float Average = avg(10, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9);        cout << "Average of first 10 whole numbers : " << Average;        return 0;    }
+a) 4
+b) 5
+c) 6
+d) 7
+a
+Output:
+$ g++ uka.cpp
+$ a.out
+Average of first 10 whole numbers 4
+ 
+4. What is the maximum number of arguments or parameters that can be present in one function call?
+a) 64
+b) 256
+c) 255
+d) 16
+b
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <stdarg.h>    using namespace std;    int add (int num, ...)    {        int sum = 0;        va_list args;        va_start (args,num);        for (int i = 0; i < num; i++)         {            int num = va_arg (args,int);            sum += num;        }        va_end (args);        return sum;    }    int main (void)    {        int total = add(8, 1, 2, -1, 4, 12, -2, 9, 7);        cout << "The result is " << total;        return 0;    }
+a) 32
+b) 23
+c) 48
+d) compile time error
+a
+Output:
+$ g++ uka.cpp
+$ a.out
+The result is 32
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <stdarg.h>    using namespace std;    void dumplist(int, ...);    int main()    {        dumplist(2, 4, 8);        dumplist(3, 6, 9, 7);        return 0;    }    void dumplist(int n, ...)    {        va_list p;        int i;        va_start(p, n);        while (n-->0)         {            i = va_arg(p, int);            cout << i;        }        va_end(p);    }
+a) 2436
+b) 48697
+c) 1111111
+d) compile time error
+b
+by comparing using while operator.
+Output:
+$ g++ rka3.cpp
+$ a.out
+48697
+ 
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <stdarg.h>    using namespace std;    int flue(char c,...);    int main()    {        int x, y;        x = flue('A', 1, 2, 3);        y = flue('1', 1.0,1, '1', 1.0f, 1l);        cout << x << y;        return 0;    }    int flue(char c,...)    {        return c;    }
+a) 6549
+b) 4965
+c) 6646
+d) compile time error
+a
+Output:
+$ g++ rka4.cpp
+$ a.out
+6549
+ 
+8. Which of the header file should be added in the following C++ code to properly run the program?
+    #include <iostream>    using namespace std;    int print_all (int num, ...)    {        int sum = 0;        va_list args;        va_start (args,num);        for (int i = 0; i < num; i++)         {            int num = va_arg (args,int);            cout<<num<<" ";        }        va_end (args);        return sum;    }    int main (void)    {        print_all(8, 1, 2, -1, 4, 12, -2, 9, 7);        return 0;    }
+a) stdlib.h
+b) stdarg.h
+c) string.h
+d) stdpar.h
+b
+9. What will be the output of the following C++ code?
+    #include <iostream>    #include <stdarg.h>    using namespace std;    void fun(std::string msg, ...);    int main()    {        fun("IndiaBIX", 1, 4, 7, 11, 0);        return 0;    }    void fun(std::string msg, ...)    {        va_list ptr;        int num;        va_start(ptr, msg);        num = va_arg(ptr, int);        num = va_arg(ptr, int);        cout << num;    }
+a) 6
+b) 5
+c) 8
+d) 4
+d
+Output:
+$ g++ uka6.cpp
+$ a.out
+4
+10. What will initialize the list of arguments in stdarg.h header file?
+a) va_list
+b) va_start
+c) va_arg
+d) vg_arg
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Default Arguments» Next - C++ Programming Questions and Answers – Pointer to Function 

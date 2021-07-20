@@ -1,0 +1,86 @@
+1. The output signal when a signal x(n)=(0,1,2,3) is processed through an ‘Identical’ system is?
+a) (3,2,1,0)
+b) (1,2,3,0)
+c) (0,1,2,3)
+d) None of the mentioned
+c
+2. If a signal x(n) is passed through a system to get an output signal of y(n)=x(n+1), then the signal is said to be ____________
+a) Delayed
+b) Advanced
+c) No operation
+d) None of the mentioned
+d
+3. If the output of the system is \(y(n)=\sum_{k=-\infty}^nx(y)\) with an input of x(n) then the system will work as ___________
+a) Accumulator
+b) Adder
+c) Subtractor
+d) Multiplier
+a
+4. What is the output y(n) when a signal x(n)=n*u(n)is passed through a accumulator system under the conditions that it is initially relaxed?
+a) \(\frac{n^2+n+1}{2}\) 
+b) \(\frac{n(n+1)}{2}\) 
+c) \(\frac{n^2+n+2}{2}\) 
+d) None of the mentioned
+b
+According to the equation of the accumulator,
+y(n)=\(∑_{k=-∞}^n x(n)\) 
+=\(∑_{k=-∞}^{-1} x(n)+∑_{k=0}^n x(n)\) 
+=\(y(-1)+ ∑_{k=0}^n n*u(n)\) 
+=\(0+∑_{k=0}^n n\)(since u(n)=1 in 0 to n)
+=\(\frac{n(n+1)}{2}\) 
+5. The block denoted as follows is known as __________
+a) Delay block
+b) Advance block
+c) Multiplier block
+d) Adder block
+a
+6. The output signal when a signal x(n)=(0,1,2,3) is processed through an ‘Delay’ system is?
+a) (3,2,1,0)
+b) (1,2,3,0)
+c) (0,1,2,3)
+d) None of the mentioned
+b
+7. The system described by the input-output equation y(n)=nx(n)+bx3(n) is a __________
+a) Static system
+b) Dynamic system
+c) Identical system
+d) None of the mentioned
+a
+8. Whether the system described by the input-output equations y(n)=x(n)-x(n-1) a Time-variant system.
+a) True
+b) False
+b
+If the output is delayed by k units then y(n-k)=x(n-k)-x((n-k)-1)
+=>y(n,k)=y(n-k). Hence the system is time-invariant.
+9. The system described by the input-output equations y(n)=x2(n) is a Non-linear system.
+a) True
+b) False
+a
+Let y1(n)=x12(n) and y2(n)=x22(n)
+y3(n)=y1(n)+y2(n)= x12(n)+ x22(n)≠(x1(n)+x2(n))2
+So the system is non-linear.
+10. If the output of the system of the system at any ‘n’ depends only the present or the past values of the inputs then the system is said to be __________
+a) Linear
+b) Non-Linear
+c) Causal
+d) Non-causal
+c
+y(n)=F[x(n),x(n-1),x(n-2),…]
+So, according to the conditions given in the question, the system is a causal system.
+11. The system described by the input-output equations y(n)=x(-n) is a causal system.
+a) True
+b) False
+b
+That is, the output of the system at n=-1 is depending on the future value of the input at n=1. So the system is a non-causal system.
+12. If a system do not have a bounded output for bounded input, then the system is said to be __________
+a) Causal
+b) Non-causal
+c) Stable
+d) Non-stable
+d
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Discrete Time Signals» Next - Digital Signal Processing Questions and Answers – Correlation of Discrete Time Signals 

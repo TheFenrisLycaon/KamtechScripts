@@ -1,0 +1,88 @@
+1. Which of the following should be done in order to convert a continuous-time signal to a discrete-time signal?
+a) Sampling
+b) Differentiating
+c) Integrating
+d) None of the mentioned
+a
+2. The process of converting discrete-time continuous valued signal into discrete-time discrete valued (digital) signal is known as ____________
+a) Sampling
+b) Quantization
+c) Coding
+d) None of the mentioned
+b
+3. The difference between the unquantized x(n) and quantized xq(n) is known as ___________
+a) Quantization coefficient
+b) Quantization ratio
+c) Quantization factor
+d) Quantization error
+d
+4. Which of the following is a digital-to-analog conversion process?
+a) Staircase approximation
+b) Linear interpolation
+c) Quadratic interpolation
+d) All of the mentioned
+d
+5. The relation between analog frequency ‘F’ and digital frequency ‘f’ is?
+a) F=f*T(where T is sampling period)
+b) f=F*T
+c) No relation
+d) None of the mentioned
+b
+6. What is output signal when a signal x(t)=cos(2*pi*40*t) is sampled with a sampling frequency of 20Hz?
+a) cos(pi*n)
+b) cos(2*pi*n)
+c) cos(4*pi*n)
+d) cos(8*pi*n)
+c
+=>f=F/Fs
+=>f=40/20
+=>f=2Hz
+=>x(n)=cos(4*pi*n).
+7. If ‘F’ is the frequency of the analog signal, then what is the minimum sampling rate required to avoid aliasing?
+a) F
+b) 2F
+c) 3F
+d) 4F
+a
+8. What is the nyquist rate of the signal x(t)=3cos(50*pi*t)+10sin(300*pi*t)-cos(100*pi*t)?
+a) 50Hz
+b) 100Hz
+c) 200Hz
+d) 300Hz
+d
+Thus Fmax=150Hz and from the sampling theorem,
+nyquist rate=2*Fmax
+Therefore, Fs=2*150=300Hz.
+9. What is the discrete-time signal obtained after sampling the analog signal x(t)=cos(2000*pi*t)+sin(5000*pi*t) at a sampling rate of 5000 samples/sec?
+a) cos(2.5*pi*n)+sin(pi*n)
+b) cos(0.4*pi*n)+sin(pi*n)
+c) cos(2000*pi*n)+sin(5000*pi*n)
+d) none of the mentioned
+b
+=>f1=F1/Fs and f2=F2/Fs
+=>f1=0.2 and f2=0.5
+=>x(n)=cos(0.4*pi*n)+sin(pi*n).
+10. If the sampling rate Fs satisfies the sampling theorem, then the relation between quantization errors of analog signal(eq(t)) and discrete-time signal(eq(n)) is?
+a) eq(t)=eq(n)
+b) eq(t)<eq(n)
+c) eq(t)>eq(n)
+d) not related
+a
+11. The quality of output signal from A/D converter is measured in terms of ___________
+a) Quantization error
+b) Quantization to signal noise ratio
+c) Signal to quantization noise ratio
+d) Conversion constant
+c
+12. Which bit coder is required to code a signal with 16 levels?
+a) 8 bit
+b) 4 bit
+c) 2 bit
+d) 1 bit
+b
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Correlation of Discrete Time Signals» Next - Digital Signal Processing Questions and Answers – Classification of Signals 

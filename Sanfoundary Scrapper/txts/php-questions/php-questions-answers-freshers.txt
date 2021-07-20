@@ -1,0 +1,84 @@
+1. What will be the output of the following PHP code?
+    <?php    $a = 5;    $b = 5;    echo ($a === $b);    ?>
+a) 5 === 5
+b) Error
+c) 1
+d) False
+c
+2. Which of the below symbols is a newline character?
+a) \r
+b) \n
+c) /n
+d) /r
+b
+3. What will be the output of the following PHP code?
+    <?php    $num = 10;    echo 'What is her age? \n She is $num years old';    ?>
+a) What is her age? \n She is $num years old
+b) 
+What is her age?
+She is $num years old
+c) What is her age? She is 10 years old
+d) 
+What is her age?
+She is 10 years old
+a
+  
+4. Which of the conditional statements is/are supported by PHP?
+i) if statements
+ii) if-else statements
+iii) if-elseif statements
+iv) switch statements
+a) Only i)
+b) i), ii) and iv)
+c) ii), iii) and iv)
+d) i), ii), iii) and iv)
+d
+5. What will be the output of the following PHP code?
+    <?php    $team = "arsenal";    switch ($team) {    case "manu":        echo "I love man u";    case "arsenal":        echo "I love arsenal";    case "manc":        echo "I love manc"; }    ?>
+a) I love arsenal
+b) Error
+c) I love arsenalI love manc
+d) I love arsenalI love mancI love manu
+c
+6. Which of the looping statements is/are supported by PHP?
+i) for loop
+ii) while loop
+iii) do-while loop
+iv) foreach loop
+a) i) and ii)
+b) i), ii) and iii)
+c) i), ii), iii) and iv)
+d) Only iv)
+c
+7. What will be the output of the following PHP code?
+    <?php    $user = array("Ashley", "Bale", "Shrek", "Blank");    for ($x=0; $x < count($user); $x++)	{        if ($user[$x] == "Shrek") continue;            printf ($user[$x]);     }    ?>
+a) AshleyBale
+b) AshleyBaleBlank
+c) ShrekBlank
+d) Shrek
+b
+8. If $a = 12 what will be returned when ($a == 12) ? 5 : 1 is executed?
+a) 12
+b) 1
+c) Error
+d) 5
+d
+9. What will be the value of $a and $b after the function call in the following PHP code?
+    <?php    function doSomething( &$arg ) {        $return = $arg;        $arg += 1;        return $return;	    }    $a = 3;    $b = doSomething( $a );    ?>
+a) a is 3 and b is 4
+b) a is 4 and b is 3
+c) Both are 3
+d) Both are 4
+b
+10. Who is the father of PHP?
+a) Rasmus Lerdorf
+b) Willam Makepiece
+c) Drek Kolkevi
+d) List Barely
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all areas of PHP for Freshers, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Basics – 2» Next - PHP Questions & Answers – Functions 

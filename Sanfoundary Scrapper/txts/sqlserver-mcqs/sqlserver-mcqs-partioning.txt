@@ -1,0 +1,66 @@
+1. SQL Server 2014 supports up to ________ partitions by default.
+a) 20000
+b) 2000
+c) 1000
+d) 15000
+d
+2. Point out the correct statement.
+a) On x86-based systems, creating a table or index with more than 1000 partitions is possible
+b) Compressing large tables or indexes can have manageability and performance benefit
+c) Partitioning slow tables or indexes can have the following manageability and performance benefit
+d) None of the mentioned
+a
+3. __________ is a database object that defines how the rows of a table or index are mapped to a set of partitions based on the values of certain column.
+a) Partition function
+b) Partition scheme
+c) Partition column
+d) All of the mentioned
+a
+4. Designing an nonaligned partitioned index can be useful in the following case?
+a) The base table has not been partitioned
+b) The index key is unique and it does not contain the partitioning column of the table
+c) You want the base table to participate in collocated joins with more tables using different join columns
+d) All of the mentioned
+d
+5. Point out the wrong statement.
+a) Computed columns that participate in a partition function must be explicitly marked PERSISTED
+b) The new, higher limit of 15,000 partitions affects memory, partitioned index operations, DBCC commands, and queries
+c) Partitioning column is the process by which the query optimizer accesses only the relevant partitions to satisfy the filter criteria of the query
+d) All of the mentioned
+c
+6. At least _______ of RAM is recommended if a large number of partitions are in use.
+a) 16 GB
+b) 4 GB
+c) 8 GB
+d) 2 GB
+a
+7. With a larger number of partitions, ______ commands could take longer to execute as the number of partitions increases.
+a) DML
+b) DDL
+c) DBCC
+d) TCL
+c
+8. SQL Server 2008 provides enhanced partitioning information for __________ execution plans.
+a) compile-time
+b) run time
+c) both compile-time and run-time
+d) all of the mentioned
+c
+9. Which of the following partitioned attribute can appear in the following physical and logical operators?
+a) Index Seek
+b) Drop
+c) Alter
+d) None of the mentioned
+a
+10. The query processor uses a __________ execution strategy for queries that select from partitioned objects.
+a) distributed
+b) parallel
+c) lock
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Data Compression» Next - SQL Server Questions and Answers – Resource Governor 

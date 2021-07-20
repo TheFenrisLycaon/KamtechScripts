@@ -1,0 +1,66 @@
+1. If during the execution of an instruction an exception is raised then __________
+a) The instruction is executed and the exception is handled
+b) The instruction is halted and the exception is handled
+c) The processor completes the execution and saves the data and then handle the exception
+d) None of the mentioned
+b
+2. _____ is/are types of exceptions.
+a) Trap
+b) Interrupt
+c) System calls
+d) All of the mentioned
+d
+3. The program used to find out errors is called __________
+a) Debugger
+b) Compiler
+c) Assembler
+d) Scanner
+a
+4. The two facilities provided by the debugger is __________
+a) Trace points
+b) Break points
+c) Compile
+d) Both Trace and Break points
+d
+5. In trace mode of operation is ________
+a) The program is interrupted after each detection
+b) The program will not be stopped and the errors are sorted out after the complete program is scanned
+c) There is no effect on the program, i.e the program is executed without rectification of errors
+d) The program is halted only at specific points
+a
+6. What is the operation in Breakpoint mode?
+a) The program is interrupted after each detection
+b) The program will not be stopped and the errors are sorted out after the complete program is scanned
+c) There is no effect on the program, i.e the program is executed without rectification of errors
+d) The program is halted only at specific points
+d
+7. What are the different modes of operation of a computer?
+a) User and System mode
+b) User and Supervisor mode
+c) Supervisor and Trace mode
+d) Supervisor, User and Trace mode
+b
+8. The instructions which can be run only supervisor mode are?
+a) Non-privileged instructions
+b) System instructions
+c) Privileged instructions
+d) Exception instructions
+c
+9. A privilege exception is raised __________
+a) When a process tries to change the mode of the system
+b) When a process tries to change the priority level of the other processes
+c) When a process tries to access the memory allocated to other users
+d) All of the mentioned
+d
+10. How is a privilege exception dealt with?
+a) The program is halted and the system switches into supervisor mode and restarts the program execution
+b) The Program is stopped and removed from the queue
+c) The system switches the mode and starts the execution of a new process
+d) The system switches mode and runs the debugger
+a
+Sanfoundry Global Education & Learning Series – Computer Organization and Architecture.
+To practice all areas of Computer Organization and Architecture, here is complete set on 1000+ Multiple Choice Questions and Answers on Computer Organization and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Organization Questions and Answers – Interrupts – 2» Next - Computer Organization Questions and Answers – Direct Memory Access 

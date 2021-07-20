@@ -1,0 +1,75 @@
+1. The____condition allows a general predicate over the relations being joined.
+a) On
+b) Using
+c) Set
+d) Where
+a
+2. Which of the join operations do not preserve non matched tuples?
+a) Left outer join
+b) Right outer join
+c) Inner join
+d) Natural join
+c
+3.
+SELECT *
+  FROM student JOIN takes USING (ID);
+The above query is equivalent to
+a)
+   SELECT *
+   FROM student INNER JOIN takes USING (ID);
+b)
+   SELECT *
+   FROM student OUTER JOIN takes USING (ID);
+c)
+   SELECT *
+   FROM student LEFT OUTER JOIN takes USING (ID);
+d) None of the mentioned
+a
+4. What type of join is needed when you wish to include rows that do not have matching values?
+a) Equi-join
+b) Natural join
+c) Outer join
+d) All of the mentioned
+c
+5. How many tables may be included with a join?
+a) One
+b) Two
+c) Three
+d) All of the mentioned
+d
+6.  Which are the join types in join condition:
+a) Cross join
+b) Natural join
+c) Join with USING clause
+d) All of the mentioned
+d
+7. How many join types in join condition:
+a) 2
+b) 3
+c) 4
+d) 5
+d
+8.  Which join refers to join records from the right table that have no matching key in the left table are include in the result set:
+a) Left outer join
+b) Right outer join
+c) Full outer join
+d) Half outer join
+b
+9. The operation which is not considered a basic operation of relational algebra is
+a) Join
+b) Selection
+c) Union
+d) Cross product
+a
+10. In SQL the statement select * from R, S is equivalent to
+a) Select * from R natural join S
+b) Select * from R cross join S
+c) Select * from R union join S
+d) Select * from R inner join S
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Modification of Database» Next - Database Questions and Answers – Views 

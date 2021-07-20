@@ -1,0 +1,80 @@
+1. Snapshot isolation is a particular type of ______________ scheme.
+a) Concurrency-control
+b) Concurrency-allowance
+c) Redirection
+d) Repetition-allowance
+a
+2. Snapshot isolation is used to give
+a) Transaction a snapshot of the database
+b) Database a snapshot of the transaction
+c) Database a snapshot of committed values in the transaction
+d) Transaction a snapshot of the database and Database a snapshot of committed values in the transaction
+d
+3. Lost update problem is
+a) Second update overwrites the first
+b) First update overwrites the second
+c) The updates are lost due to conflicting problem
+d) None of the mentioned
+a
+4. Under first updater wins the system uses a __________ mechanism that applies only to updates.
+a) Close
+b) Read
+c) Locking
+d) Beat
+c
+5. When a transaction Ti attempts to update a data item, it requests a _________ on that data item.
+a) Read lock
+b) Update lock
+c) Write lock
+d) Chain lock
+c
+6. Each of a pair of transactions has read data that is written by the other, but there is no data written by both transactions, is referred to as
+a) Read skew
+b) Update skew
+c) Write lock
+d) None of the mentioned
+d
+7. An application developer can guard against certain snapshot anomalies by appending a ______ clause to the SQL select query.
+a) For update
+b) For read
+c) For write
+d) None of the mentioned
+a
+8. Evaluate the CREATE TABLE statement:
+CREATE TABLE products
+(product_id NUMBER(6) CONSTRAINT prod_id_pk PRIMARY KEY, product_name VARCHAR2(15));
+Which statement is true regarding the PROD_ID_PK constraint?
+a) It would be created only if a unique index is manually created first
+b) It would be created and would use an automatically created unique index
+c) It would be created and would use an automatically created no unique index
+d) It would be created and remains in a disabled state because no index is specified in the command
+b
+9. Evaluate the following CREATE SEQUENCE statement:
+CREATE SEQUENCE seq1
+START WITH 100
+INCREMENT BY 10
+MAXVALUE 200
+CYCLE
+NOCACHE;
+The sequence SEQ1 has generated numbers up to the maximum limit of 200. You issue the following SQL statement:
+SELECT seq1.nextval FROM dual;
+What is displayed by the SELECT statement?
+a) 1
+b) 10
+c) 100
+d) an error
+a
+10. In which scenario would you use the ROLLUP operator for expression or columns within a GROUP BY clause?
+a) To find the groups forming the subtotal in a row
+b) To create group-wise grand totals for the groups specified within a GROUP BY clause
+c) To create a grouping for expressions or columns specified within a GROUP BY clause in one direction, from
+right to left for calculating the subtotals
+d) To create a grouping for expressions or columns specified within a GROUP BY clause in all possible
+directions, which is cross-tabular report for calculating the subtotals
+c
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Multiversion Schemes» Next - Database Questions and Answers – Insertion Deletion Predicate Reads 

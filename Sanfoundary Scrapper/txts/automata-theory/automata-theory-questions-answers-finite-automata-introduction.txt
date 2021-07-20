@@ -1,0 +1,71 @@
+1. Assume the R is a relation on a set A, aRb is partially ordered such that a and b are _____________
+a) reflexive
+b) transitive
+c) symmetric
+d) reflexive and transitive
+d
+2. The non- Kleene Star operation accepts the following string of finite length over set A = {0,1} | where string s contains even number of 0 and 1
+a) 01,0011,010101
+b) 0011,11001100
+c) ε,0011,11001100
+d) ε,0011,11001100
+b
+3. A regular language over an alphabet ∑ is one that cannot be obtained from the basic languages using the operation
+a) Union
+b) Concatenation
+c) Kleene*
+d) All of the mentioned
+d
+4. Statement 1: A Finite automata can be represented graphically; Statement 2: The nodes can be its states;   Statement 3: The edges or arcs can be used for transitions
+Hint: Nodes and Edges are for trees and forests too.
+Which of the following make the correct combination?
+a) Statement 1 is false but Statement 2 and 3 are correct
+b) Statement 1 and 2 are correct while 3 is wrong
+c) None of the mentioned statements are correct
+d) All of the mentioned
+d
+5. The minimum number of states required to recognize an octal number divisible by 3 are/is
+a) 1
+b) 3
+c) 5
+d) 7
+b
+6. Which of the following is a not a part of 5-tuple finite automata?
+a) Input alphabet
+b) Transition function
+c) Initial State
+d) Output Alphabet
+d
+7. If an Infinite language is passed to Machine M, the subsidiary which gives a finite solution to the infinite input tape is ______________
+a) Compiler
+b) Interpreter
+c) Loader and Linkers
+d) None of the mentioned
+a
+8. The number of elements in the set for the Language L={xϵ(∑r) *|length if x is at most 2} and ∑={0,1} is_________
+a) 7
+b) 6
+c) 8
+d) 5
+a
+9. For the following change of state in FA, which of the following codes is an incorrect option?
+a) δ (m, 1) =n
+b) δ (0, n) =m
+c) δ (m,0) =ε
+d) s: accept = false; cin >> char;
+     if char = “0” goto n;
+b
+10. Given: ∑= {a, b}
+L= {xϵ∑*|x is a string combination}
+∑4 represents which among the following?
+a) {aa, ab, ba, bb}
+b) {aaaa, abab, ε, abaa, aabb}
+c) {aaa, aab, aba, bbb}
+d) All of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+» Next - Automata Theory Questions and Answers –  Moore Machine 

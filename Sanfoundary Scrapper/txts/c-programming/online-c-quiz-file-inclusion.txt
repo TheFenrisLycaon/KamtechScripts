@@ -1,0 +1,58 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in Tech Mahindra and other companies. Anyone looking for Tech Mahindra placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of online C quiz on “File Inclusion” along with answers, explanations and/or solutions:
+1. If the file name is enclosed in double quotation marks, then _________
+a) The preprocessor treats it as a user-defined file
+b) The preprocessor treats it as a system-defined file
+c) The preprocessor treats it as a user-defined file & system-defined file
+d) None of the mentioned
+a
+2. If the file name is enclosed in angle brackets, then ___________
+a) The preprocessor treats it as a user-defined file
+b) The preprocessor treats it as a system-defined file
+c) The preprocessor treats it as a user-defined file & system-defined file
+d) None of the mentioned
+b
+3. What will be the output of the following C code snippet?
+    #include (stdio.h)    void main()    {        printf("hello");    }
+a) hello
+b) Nothing
+c) Compile time error
+d) Depends on compiler
+c
+Output:
+$ cc pgm1.c
+pgm1.c:1: error: #include expects “FILENAME” or
+pgm1.c: In function ‘main’:
+pgm1.c:4: warning: incompatible implicit declaration of built-in function ‘printf’ 
+4. The below two lines are equivalent to ________
+    #define C_IO_HEADER <stdio.h>    #include C_IO_HEADER
+a) #include<stdlib.h>
+b) #include”printf”
+c) #include”C_IO_HEADER”
+d) #include<stdio.h>
+d
+5. What will be the output of the following C code?
+    #include <stdio.h>    #include "printf"    void main()    {        printf("hello");    }
+a) hello
+b) Error
+c) Depends on compiler
+d) Varies
+a
+6. Which of the following file extensions are accepted with #include?
+a) .h
+b) .in
+c) .com
+d) All of the mentioned
+d
+7. Which of the following names for files not accepted?
+a) header.h.h
+b) 123header.h
+c) _head_er.h
+d) None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – File Inclusion – 1» Next - C Programming Questions and Answers – Macro Substitution – 1 

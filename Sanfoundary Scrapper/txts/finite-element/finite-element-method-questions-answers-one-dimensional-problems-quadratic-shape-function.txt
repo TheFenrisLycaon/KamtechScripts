@@ -1,0 +1,64 @@
+1. What is a shape function?
+a) Interpolation function
+b) Displacement function
+c) Iterative function
+d) Both interpolation and displacement function
+d
+2. Quadratic shape functions give much more _______
+a) Precision
+b) Accuracy
+c) Both Precision and accuracy
+d) Identity
+b
+3. Strain displacement relation ______
+a) ε=\(\frac{du}{dx}\) 
+b) ε=\(\frac{du}{d\epsilon}\) 
+c) x=\(\frac{d\epsilon}{du}\) 
+d) Cannot be determined
+a
+  ε=\(\frac{du}{dx}\)
+4. The _____ and ______ can vary linearly.
+a) Force and load
+b) Precision and accuracy
+c) Strain and stress
+d) Distance and displacement
+c
+5. By Hooke’s law, stress is ______
+a) σ=Bq
+b) σ=EB
+c) B=σq
+d) σ=EBq
+d
+6. Nodal displacement as _____
+a) u=Nq
+b) N=uq
+c) q=Nu
+d) Program SOLVING
+a
+7. At the condition,  at , N1=1 at ξ=-1 which yields c=\(\frac{-1}{2}\). Then these shape functions are called ____
+a) Computer functions
+b) Programming functions
+c) Galerkin function
+d) Lagrange shape functions
+d
+8. Element body force vector is given by ______
+a) fe=\(\frac{A_el_ef}{2} \int_{-1}^{1}\) NT dξ
+b) fe= \(\frac{A_el_e}{2}\int_{}^{1}\) NT dξ
+c) Conditioning strategies
+d) fe=∫ NT dξ
+a
+fe=\(\frac{A_el_ef}{2} \int_{-1}^{1}\) NT dξ
+9. Element traction force is given by ___
+a) Te=\(\frac{l_e}{2}\int_{-1}^{1}\)NT dξ
+b) Te=\(\frac{l_eT}{2}\int_{-1}^{1}\)NT dξ
+c) Te=\(\frac{l_eT}{2}\int_{-1}^{1}\)NT
+d) Undefined
+b
+Element traction force is given by
+ Te=\(\frac{l_eT}{2}\int_{-1}^{1}\)NT dξ
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.	 
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Finite Element Equations – Treatment of Boundary Conditions» Next - Finite Element Method Questions and Answers – One Dimensional Problems – Temperature Effects 

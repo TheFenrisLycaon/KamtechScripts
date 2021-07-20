@@ -1,0 +1,82 @@
+This section on C++ programming interview questions and answers focuses on “Error Handling Alternatives”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ programming interview questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ programming interview questions on “Error Handling Alternatives” along with answers, explanations and/or solutions:
+1. Which alternative can replace the throw statement?
+a) for
+b) break
+c) return
+d) exit
+c
+2. What are the disadvantages if use return keyword to return error codes?
+a) You have to handle all exceptional cases explicitly
+b) Your code size increases dramatically
+c) The code becomes more difficult to read
+d) All of the mentioned
+d
+3. What is most suitable for returning the logical errors in the program?
+a) Use constructor and destructor
+b) Set a global error indicator
+c) Use break keyword
+d) Use final keyword
+b
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <typeinfo>    using namespace std;    class A     {     };    int main()    {         char c; float x;        if (typeid(c) != typeid(x))        cout << typeid(c).name() << endl;        cout << typeid(A).name();        return 0;    }
+a) 
+c
+1A
+b) x
+c) Both c & x
+d) c
+a
+Output:
+$ g++ eal.cpp
+$ a.out
+c
+1A
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void Division(const double a, const double b);    int main()    {        double op1=0, op2=10;        try         {            Division(op1, op2);        }        catch (const char* Str)        {            cout << "\nBad Operator: " << Str;        }        return 0;    }    void Division(const double a, const double b)    {        double res;        if (b == 0)            throw "Division by zero not allowed";        res = a / b;        cout << res;    }
+a) 0
+b) Bad operator
+c) 10
+d) 15
+a
+Output:
+$ g++ eal.cpp
+$ a.out
+0
+6. What will be the output of the following C++ code?
+    #include <stdexcept>    #include <limits>    #include <iostream>    using namespace std;    void MyFunc(char c)    {        if (c < numeric_limits<char>::max())            return invalid_argument;    }    int main()    {        try        {            MyFunc(256);        }        catch(invalid_argument& e)        {            cerr << e.what() << endl;            return -1;        }        return 0;    }
+a) 256
+b) Invalid argument
+c) Error
+d) 246
+c
+7. What is the use of RAII in c++ programming?
+a) Improve the exception safety
+b) Terminate the program
+c) Exit from the block
+d) Crash the compiler
+a
+8. How many levels are there in exception safety?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+9. Pick out the correct statement for error handling alternatives.
+a) Terminate the program
+b) Use the stack
+c) Exit from the block
+d) Use the queue
+b
+10. What will happen when an exception is not processed?
+a) It will eat up a lot of memory and program size
+b) Terminate the program
+c) Crash the compiler
+d) Displays proper output
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Exception Handling – 3» Next - C++ Programming Questions and Answers – Standard Exceptions 

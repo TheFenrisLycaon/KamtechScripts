@@ -1,0 +1,65 @@
+1. Calculations involving numbers are faster than those involving string.
+a) True
+b) False
+a
+2. To convert an int to string, the function is _________________
+a) INET_ATON()
+b) INET_NTOA()
+c) INET_ITOS()
+d) INET_STOI()
+b
+3. To convert a string to an int, the function is _________________
+a) INET_ATON()
+b) INET_NTOA()
+c) INET_ITOS()
+d) INET_STOI()
+a
+4. To maintain performance of tables having variable length rows, which statement is used?
+a) MAINTAIN TABLE
+b) BALANCE TABLE
+c) ADJUST TABLE
+d) OPTIMIZE TABLE
+d
+5. Which of these columns are faster?
+Variable length, Fixed length
+a) same
+b) variable length
+c) fixed length
+d) indeterminate
+c
+6. Which of these take more space?
+Variable length columns, Fixed length columns
+a) variable length
+b) same
+c) fixed length
+d) indeterminate
+c
+7. To minimize disk I/O, which of these should be chosen?
+CHAR, VARCHAR
+a) CHAR
+b) VARCHAR
+c) CHAR & VARCHAR
+d) Either CHAR or VARCHAR
+b
+8. Avoiding NULL in columns may make queries simpler.
+a) True
+b) False
+a
+9. Which of these can be used to generate hash values?
+a) MS5()
+b) MA5()
+c) MF5()
+d) MD5()
+d
+10. IP numbers can be represented as _________________
+a) both integers and a string
+b) a string  but not integers
+c) integers but not a string
+d) neither a string nor integers
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice basic questions and answers on all areas of MySQL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – MySQL Query Optimizer» Next - MySQL Questions and Answers – Loading Data Efficiently 

@@ -1,0 +1,95 @@
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int a[5] = {1, 2, 3, 4, 5};        int i;        for (i = 0; i < 5; i++)            if ((char)a[i] == '5')                printf("%d\n", a[i]);            else                printf("FAIL\n");    }
+a) The compiler will flag an error
+b) The program will compile and print the output 5
+c) The program will compile and print the ASCII value of 5
+d) The program will compile and print FAIL for 5 times
+d
+Output:
+$ cc pgm1.c
+$ a.out
+FAIL
+FAIL
+FAIL
+FAIL
+FAIL
+2. The format identifier ‘%i’ is also used for _____ data type.
+a) char
+b) int
+c) float
+d) double
+b
+3. Which data type is most suitable for storing a number 65000 in a 32-bit system?
+a) signed short
+b) unsigned short
+c) long
+d) int
+b
+4. Which of the following is a User-defined data type?
+a) typedef int Boolean;
+b) typedef enum {Mon, Tue, Wed, Thu, Fri} Workdays;
+c) struct {char name[10], int age};
+d) all of the mentioned
+d
+Join Sanfoundry@YouTube
+5. What is the size of an int data type?
+a) 4 Bytes
+b) 8 Bytes
+c) Depends on the system/compiler
+d) Cannot be determined
+c
+6. What will be the output of the following C code?
+    #include  <stdio.h>    int main()    {       signed char chr;       chr = 128;       printf("%d\n", chr);       return 0;    }
+a) 128
+b) -128
+c) Depends on the compiler
+d) None of the mentioned
+b
+Output:
+$ cc pgm2.c
+$ a.out
+-128
+7. What will be the output of the following C code?
+    #include  <stdio.h>    int main()    {        char c;        int i = 0;        FILE *file;        file = fopen("test.txt", "w+");        fprintf(file, "%c", 'a');        fprintf(file, "%c", -1);        fprintf(file, "%c", 'b');        fclose(file);        file = fopen("test.txt", "r");        while ((c = fgetc(file)) !=  -1)            printf("%c", c);        return 0;    }
+a) a
+b) Infinite loop
+c) Depends on what fgetc returns
+d) Depends on the compiler
+a
+Output:
+$ cc pgm3.c
+$ a.out
+a
+8. What is short int in C programming?
+a) The basic data type of C
+b) Qualifier
+c) Short is the qualifier and int is the basic data type
+d) All of the mentioned
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Variable Names – 2» Next - C Programming Questions and Answers – Data Types and Sizes – 2 
+Recommended Posts:
+C Programming Examples on Linked List 
+Java Programming Examples on Classes 
+R Programming Questions and Answers 
+C Programming Examples on Mathematical Functions 
+C# Programming Examples on Gaming 
+C# Programming Examples on Strings 
+C# Programming Examples on Matrix 
+C++ Programming Examples on Graph Problems & Algorithms 
+C Programming Examples on Combinatorial Problems & Algorithms 
+C# Programming Examples 
+PLC Programming Examples 
+C++ Programming Examples on STL 
+C Programming Examples 
+Data Structures & Algorithms II – Questions and Answers 
+Data Structure Questions and Answers 
+Data Science Questions and Answers 
+Java Programming Examples on Data-Structures 
+C# Programming Examples on Data Structures 
+C++ Programming Examples on Data-Structures 
+C Programming Examples on Data-Structures 

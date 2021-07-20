@@ -1,0 +1,80 @@
+1. If the desired number of values of the DFT is less than log2N, a direct computation of the desired values is more efficient than FFT algorithm.
+a) True
+b) False
+a
+2. What is the transform that is suitable for evaluating the z-transform of a set of data on a variety of contours in the z-plane?
+a) Goertzel Algorithm
+b) Fast Fourier transform
+c) Chirp-z transform
+d) None of the mentioned
+c
+3. According to Goertzel Algorithm, if the computation of DFT is expressed as a linear filtering operation, then which of the following is true?
+a) yk(n)=\(\sum_{m=0}^N x(m)W_N^{-k(n-m)}\) 
+b) yk(n)=\(\sum_{m=0}^{N+1} x(m)W_N^{-k(n-m)}\) 
+c) yk(n)=\(\sum_{m=0}^{N-1} x(m)W_N^{-k(n+m)}\) 
+d) yk(n)=\(\sum_{m=0}^{N-1} x(m)W_N^{-k(n-m)}\) 
+d
+X(k)=WN-kN\(\sum_{m=0}^{N-1} x(m)W_N^{-km}=\sum_{m=0}^{N-1} x(m)W_N^{-k(N-m)}\) 
+The above equation is in the form of a convolution. Indeed, we can define a sequence yk(n) as
+yk(n)=\(\sum_{m=0}^{N-1} x(m)W_N^{-k(n-m)}\) 
+4. If yk(n) is the convolution of the finite duration input sequence x(n) of length N, then what is the impulse response of the filter?
+a) WN-kn
+b) WN-kn u(n)
+c) WNkn u(n)
+d) None of the mentioned
+b
+The above equation is of the form yk(n)=x(n)*hk(n)
+Thus we obtain, hk(n)= WN-kn u(n).
+5. What is the system function of the filter with impulse response hk(n)?
+a) \(\frac{1}{1-W_N^{-k} z^{-1}}\) 
+b) \(\frac{1}{1+W_N^{-k} z^{-1}}\) 
+c) \(\frac{1}{1-W_N^k z^{-1}}\) 
+d) \(\frac{1}{1+W_N^k z^{-1}}\) 
+a
+On applying z-transform on both sides, we get
+Hk(z)=\(\frac{1}{1-W_N^{-k} z^{-1}}\) 
+6. What is the expression to compute yk(n) recursively?
+a) yk(n)=WN-kyk(n+1)+x(n)
+b) yk(n)=WN-kyk(n-1)+x(n)
+c) yk(n)=WNkyk(n+1)+x(n)
+d) None of the mentioned
+b
+=> yk(n)=WN-kyk(n-1)+x(n).
+7. What is the equation to compute the values of the z-transform of x(n) at a set of points {zk}?
+a) \(\sum_{n=0}^{N-1} x(n) z_k ^n\), k=0,1,2…L-1
+b) \(\sum_{n=0}^{N-1} x(n) z_{-k}^{-n}\), k=0,1,2…L-1
+c) \(\sum_{n=0}^{N-1} x(n) z_k^{-n}\), k=0,1,2…L-1
+d) None of the mentioned
+c
+X(zk)=\(\sum_{n=0}^{N-1} x(n) z_k^{-n}\), k=0,1,2…L-1
+8. If the contour is a circle of radius r and the zk are N equally spaced points, then what is the value of zk?
+a) re-j2πkn/N
+b) rejπkn/N
+c) rej2πkn
+d) rej2πkn/N
+d
+9. How many multiplications are required to calculate X(k) by chirp-z transform if x(n) is of length N?
+a) N-1
+b) N
+c) N+1
+d) None of the mentioned
+c
+10. If the contour on which the z-transform is evaluated is as shown below, then which of the given condition is true?
+a) R0>1
+b) R0<1
+c) R0=1
+d) None of the mentioned
+a
+If R0>1, then the contour which is used to calculate z-transform is as shown below.
+11. How many complex multiplications are need to be performed to calculate chirp z-transform?(M=N+L-1)
+a) log2M
+b) Mlog2M
+c) (M-1)log2M
+d) Mlog2(M-1)
+b
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Applications of FFT Algorithms» Next - Digital Signal Processing Questions and Answers – Quantization Effects in the Computation of DFT 

@@ -1,0 +1,79 @@
+1. Which of these class produce objects with respect to geographical locations?
+a) TimeZone
+b) Locale
+c) Date
+d) SimpleTimeZone
+b
+2. Which of these methods is not a Locale class?
+a) UK
+b) US
+c) INDIA
+d) KOREA
+c
+3. Which of these class can generate pseudorandom numbers?
+a) Locale
+b) Rand
+c) Random
+d) None of the mentioned
+c
+4. Which of these method of Locale class can be used to obtain country of operation?
+a) getCountry()
+b) whichCountry()
+c) DisplayCountry()
+d) getDisplayCountry()
+d
+5. Which of these is a method can generate a boolean output?
+a) retbool()
+b) getBool()
+c) nextBool()
+d) nextBoolean()
+d
+6. What will be the output of the following Java program?
+    import java.util.*;    class LOCALE_CLASS    {        public static void main(String args[])        {            Locale obj = new Locale("INDIA") ;            System.out.print(obj.getCountry());        }    }
+a) India
+b) INDIA
+c) Compilation Error
+d) Nothing is displayed
+d
+Output:
+$ javac LOCALE_CLASS.java
+$ java LOCALE_CLASS
+7. What will be the output of the following Java program?
+    import java.util.*;    class LOCALE_CLASS    {        public static void main(String args[])        {            Locale obj = new Locale("HINDI", "INDIA") ;            System.out.print(obj.getCountry());        }    }
+a) India
+b) INDIA
+c) Compilation Error
+d) Nothing is displayed
+b
+Output:
+$ javac LOCALE_CLASS.java
+$ java LOCALE_CLASS
+INDIA
+8. What will be the output of the following Java program?
+    import java.util.*;    class LOCALE_CLASS    {        public static void main(String args[])        {            Locale obj = new Locale("HINDI") ;            System.out.print(obj.getDisplayLanguage());        }    }
+a) India
+b) INDIA
+c) HINDI
+d) Nothing is displayed
+c
+Output:
+$ javac LOCALE_CLASS.java
+$ java LOCALE_CLASS
+HINDI
+9. What will be the output of the following Java program?
+    import java.util.*;    class LOCALE_CLASS    {        public static void main(String args[])        {            Locale obj = new Locale("HINDI", "INDIA") ;            System.out.print(obj.getDisplayLanguage());        }    }
+a) India
+b) INDIA
+c) HINDI
+d) Nothing is displayed
+c
+Output:
+$ javac LOCALE_CLASS.java
+$ java LOCALE_CLASS
+HINDI
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Random Number» Next - Java Questions & Answers – Observable & Timer Class 

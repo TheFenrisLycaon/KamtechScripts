@@ -1,0 +1,66 @@
+1.In Microsoft SQL Server 2005 Analysis Services (SSAS), a _________ is a language-specific representation of the name of a dimension.
+a) Translation
+b) Dimension translation
+c) Dim translation
+d) None of the mentioned
+b
+2. Point out the correct statement.
+a) The collation and language information for the client computer is stored in the form of a locale identifier (LCID)
+b) SQL Server 2008 Analysis Services also supports translations of cube objects
+c) SQL Server 2000 Analysis Services supports translations of cube objects
+d) None of the mentioned
+a
+3. Members of a _________ dimension can only be moved within the same level.
+a) readback
+b) writeback
+c) readwrite
+d) all of the mentioned
+b
+4. Updates to the ______ attribute in a parent-child hierarchy must not include updates to any other properties or attributes.
+a) child
+b) parent
+c) both child and parent
+d) none of the mentioned
+b
+5. Point out the wrong statement.
+a) The data in a dimension is generally read-write both
+b) Upon connection, the client passes the LCID to the instance of Analysis Services
+c) For a write-enabled cube or partition, updates are stored in a writeback table separate from the cube’s source tables
+d) All of the mentioned
+a
+6. Which of the following is not supported by linked dimensions?
+a) readback
+b) writeback
+c) readwrite
+d) all of the mentioned
+b
+7. The _______ attribute is the attribute in a dimension that identifies the columns in the dimension main table that are used in foreign key relationships to the fact table.
+a) Dim
+b) KEY
+c) PK
+d) None of the mentioned
+b
+8. Which of the following property is set to zero so that all levels are not created?
+a) Aggregatable
+b) IsAggregatable
+c) IsAggregate
+d) All of the mentioned
+b
+9. By default, in a ________ schema, all attributes are directly related to the key attributes.
+a) Relational
+b) Snowflake
+c) Star
+d) None of the mentioned
+c
+10. Parent-child hierarchies are automatically detected by the _________ Wizard.
+a) Dimension
+b) Cube
+c) Dimension and Cube
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server for aptitude tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Analysis Services – 1» Next - SQL Server Questions and Answers – Analysis Services – 3 

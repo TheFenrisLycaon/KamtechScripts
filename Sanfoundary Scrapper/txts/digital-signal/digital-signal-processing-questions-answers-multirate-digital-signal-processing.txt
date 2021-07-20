@@ -1,0 +1,74 @@
+1. There is no requirement to process the various signals at different rates commensurate with the corresponding bandwidths of the signals.
+a) True
+b) False
+b
+2. What is the process of converting a signal from a given rate to a different rate?
+a) Sampling
+b) Normalizing
+c) Sampling rate conversion
+d) None of the mentioned
+c
+3. The systems that employ multiple sampling rates are called multi-rate DSP systems.
+a) True
+b) False
+a
+4. Which of the following methods are used in sampling rate conversion of a digital signal?
+a) D/A convertor and A/D convertor
+b) Performing entirely in digital domain
+c) None of the mentioned
+d) D/A convertor, A/D convertor & Performing entirely in digital domain
+d
+5. Which of the following is the advantage of sampling rate conversion by converting the signal into analog signal?
+a) Less signal distortion
+b) Quantization effects
+c) New sampling rate can be arbitrarily selected
+d) None of the mentioned
+c
+6. Which of the following is the disadvantage of sampling rate conversion by converting the signal into analog signal?
+a) Signal distortion
+b) Quantization effects
+c) New sampling rate can be arbitrarily selected
+d) Signal distortion & Quantization effects
+d
+7. In which of the following, sampling rate conversion are used?
+a) Narrow band filters
+b) Digital filter banks
+c) Quadrature mirror filters
+d) All of the mentioned
+d
+8. Which of the following use quadrature mirror filters?
+a) Sub band coding
+b) Trans-multiplexer
+c) Sub band coding & Trans-multiplexer
+d) None of the mentioned
+c
+9. The sampling rate conversion can be as shown in the figure below.
+a) True
+b) False
+a
+10. If Fx and Fy are the sampling rates of the input and output signals respectively, then what is the value of Fy/Fx?
+a) D/I
+b) I/D
+c) I.D
+d) None of the mentioned
+b
+Fy/Fx = I/D
+where I and D are relatively prime integers.
+11. What is the process of reducing the sampling rate by a factor D?
+a) Sampling rate conversion
+b) Interpolation
+c) Decimation
+d) None of the mentioned
+c
+12. What is the process of increasing the sampling rate by a factor I?
+a) Sampling rate conversion
+b) Interpolation
+c) Decimation
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Sampling Rate Conversion by a Rational Factor I/D» Next - Digital Signal Processing Questions and Answers – Decimation by a Factor D 

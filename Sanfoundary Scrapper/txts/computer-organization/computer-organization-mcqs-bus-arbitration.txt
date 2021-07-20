@@ -1,0 +1,97 @@
+1. To resolve the clash over the access of the system BUS we use ______
+a) Multiple BUS
+b) BUS arbitrator
+c) Priority access
+d) None of the mentioned
+b
+2. The device which is allowed to initiate data transfers on the BUS at any time is called _____
+a) BUS master
+b) Processor
+c) BUS arbitrator
+d) Controller
+a
+3. ______ BUS arbitration approach uses the involvement of the processor.
+a) Centralised arbitration
+b) Distributed arbitration
+c) Random arbitration
+d) All of the mentioned
+a
+4. The circuit used for the request line is a _________
+a) Open-collector
+b) EX-OR circuit
+c) Open-drain
+d) Nand circuit
+c
+5. The Centralised BUS arbitration is similar to ______ interrupt circuit.
+a) Priority
+b) Parallel
+c) Single
+d) Daisy chain
+d
+Join [email protected]
+6. When the processor receives the request from a device, it responds by sending _____
+a) Acknowledge signal
+b) BUS grant signal
+c) Response signal
+d) None of the mentioned
+b
+7. In Centralised Arbitration ______ is/are is the BUS master.
+a) Processor
+b) DMA controller
+c) Device
+d) Both Processor and DMA controller
+d
+8. Once the BUS is granted to a device ___________
+a) It activates the BUS busy line
+b) Performs the required operation
+c) Raises an interrupt
+d) All of the mentioned
+a
+9. The BUS busy line is made of ________
+a) Open-drain circuit
+b) Open-collector circuit
+c) EX-Or circuit
+d) Nor circuit
+b
+10. After the device completes its operation _____ assumes the control of the BUS.
+a) Another device
+b) Processor
+c) Controller
+d) None of the mentioned
+b
+11. The BUS busy line is used __________
+a) To indicate the processor is busy
+b) To indicate that the BUS master is busy
+c) To indicate the BUS is already allocated
+d) None of the mentioned
+c
+12. Distributed arbitration makes use of ______
+a) BUS master
+b) Processor
+c) Arbitrator
+d) 4-bit ID
+d
+13. In Distributed arbitration, the device requesting the BUS ______
+a) Asserts the Start arbitration signal
+b) Sends an interrupt signal
+c) Sends an acknowledge signal
+d) None of the mentioned
+a
+14. How is a device selected in Distributed arbitration?
+a) By NANDing the signals passed on all the 4 lines
+b) By ANDing the signals passed on all the 4 lines
+c) By ORing the signals passed on all the 4 lines
+d) None of the mentioned
+c
+15. If two devices A and B contesting for the BUS have ID’s 5 and 6 respectively, which device gets the BUS based on the Distributed arbitration.
+a) Device A
+b) Device B
+c) Insufficient information
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Computer Organization and Architecture.
+To practice all areas of Computer Organization and Architecture, here is complete set on 1000+ Multiple Choice Questions and Answers on Computer Organization and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Organization Questions and Answers – Direct Memory Access» Next - Computer Organization Questions and Answers – Synchronous BUS 

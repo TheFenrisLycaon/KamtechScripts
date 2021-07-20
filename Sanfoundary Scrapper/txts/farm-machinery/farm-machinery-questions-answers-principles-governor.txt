@@ -1,0 +1,79 @@
+1. The average speed of engine connected to governor is 1500 rpm. If the fluctuation in speed is +-100 rpm, then % governor regulation is ______
+a) 13.33%
+b) 14.56%
+c) 19.01%
+d) 21.23%
+a
+Nmax = 1500+100 = 1600 rpm
+Governor regulation = \(\frac{1600-1400}{1500}=\frac{200}{1500}\)  = 13.33%
+2. Varying the governor setting in an IC engine
+a) Does not vary the maximum power developed in the engine
+b) Varies the maximum torque developed by the engine
+c) Does not vary the governed range of speed in which engine runs
+d) Remains constant
+c
+3. At an engine throttle position of 75% the high idle speed of engine is shifted by 200 rpm towards maximum torque position. If the engine is maintaining a uniform speed of 2475 rps at given load, governor regulation is _____
+a) 9.76%
+b) 7.77%
+c) 12.67%
+d) 1.89%
+b
+Nmin  = 2475 rpm
+Above maximum torque position
+Nmax  = 2475 + 200 = 2675 rpm
+Governor regulation = \(\frac{[2(275-2475)]}{2675+2475}\) = 7.77%
+4. The high idle speed of engine is 2240 rpm. The peak torque of 180 Nm occurs, at 1450 engine rpm. If the lugging ability is 28 Nm. The engine power in KW at governor’s maximum position will be _________ (Governor regulation = 11.5%)
+a) 42.5 KW
+b) 51.49 KW
+c) 23.12 KW
+d) 31.3 KW
+d
+At 180 Nm = N = 1450 rpm
+Lugging = 28 Nm
+So, at 180 – 28 = 152 Nm, let speed be Nmin
+GR = 11.5% = 0.115%
+0.115 = \(\frac{[2(2240-Nmin)]}{2240+Nmin} \) 
+Nmin = 1966.40 rpm
+P = 2πNτ = 2 * π * 1966.40 * 152 = 31.3 KW
+5. Which governor does not achieve ISOCHRONOUS behaviour?
+a) Hartnell
+b) Spring Controlled
+c) Porter and Proell
+d) Watt
+c
+6. Which governor is known as sensitive governor?
+a) Which keep speed fluctuation as small as possible
+b) Which keep speed fluctuation as large as possible
+c) Which doubles the speed fluctuation
+d) Which remains constant
+a
+7. A Proell governor has equal arms of length 300 mm. The upper and lower ends of the arms are pivoted on the axis of the governor. The extension arms of the lower links are each 80 mm long and parallel to the axis when the radii of rotation of the balls are 150 mm and 200 mm. The mass of each ball is 10 kg and the mass of the central load is 100 kg. Determine the range of speed of the governor.
+a) 20 rpm
+b) 30 rpm
+c) 10 rpm
+d) 25 rpm
+c
+sin α = sin β = 150 / 300 = 0.5 or α = β = 30°
+and, MD = FG = 150 mm = 0.15 m
+FM = FD cos β = 300 cos 30° = 260 mm = 0.26 m
+IM   = FM tan α = 0.26 tan 30° = 0.15 m
+BM = BF + FM = 80 + 260 = 340 mm = 0.34 m
+ID = IM + MD = 0.15 + 0.15 = 0.3 m
+FC – m (ω 1)2 * r1 – 10 \([\frac{2πN}{60}]\)2 – 0.0165 (N1)2
+N1 = 170 rpm
+h = PG = (PF)2 – (FG)2 = (300)2 – (200)2 = 224 mm = 0.224 m
+FM = GD = PG = 224 mm = 0.224 m
+BM = BF + FM = 80 + 224 = 304 mm = 0.304 m
+Range of speed = N2-N1 = 10 RPM
+8. Who theoretically analysed James Watt’s design as a mathematical energy balance purpose?
+a) Isaac Newton
+b) Willard Gibbs
+c) Matthew Boulton
+d) James Clark Maxwell
+b
+Sanfoundry Global Education & Learning Series – Farm Machinery.
+To practice all areas of Farm Machinery,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Farm Machinery Questions and Answers – Farm Tractor – Power Tiller» Next - Farm Machinery Questions and Answers – Strength of Materials 

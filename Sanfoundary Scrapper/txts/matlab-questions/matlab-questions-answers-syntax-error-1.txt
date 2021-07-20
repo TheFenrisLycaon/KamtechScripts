@@ -1,0 +1,113 @@
+1. What is the error in the following?
+input(“pop”)
+a) None
+b) “”
+c) Parentheses
+d) No such command
+b
+2. What is the error in the following code?
+for i={1: 10}
+p=a+1
+end
+a) None
+b) {}
+c) The : operator
+d) Cannot be determined
+a
+3. What is the output of the following code?
+limit[1/x,0]
+a) NaN
+b) Inf
+c) Syntactical Error
+d) Logical error
+c
+4. What is the output of the following code?
+length{ 1 2 }
+a)  Error due to space after 2
+b) Error due to {}
+c) Syntactical Error
+d) 2
+c
+5. What is the output of the following code?
+limit((1 + 1/n)^n,n=Inf)
+a) e
+b) exp(1)
+c) Syntactical Error
+d) Cannot be determined
+c
+6. What is the output of the following code?
+A={1 2 3 4}
+sum(A)
+a) Error
+b) 10
+c) { 10 }
+d) Logical Error
+a
+7. What is the output of the following code?
+limit({sin(x)/x},x,Inf,right)
+a) 0
+b) Inf
+c) Syntactical error
+d) Error due to inconsistency in approaching limit
+c
+8. What is the output of the following code?
+mean({1 2 3})
+a) 2
+b) Logical Error
+c) 1
+d) Syntactical Error
+d
+9. What is the output of the following code?
+det({1 2 3; 4 5 6; 7 8 9})
+a) 0
+b) Syntactical Error
+c) A very small value
+d) Cannot be determined
+b
+10. What is the output of the following code?
+(1 2);
+a) A cellular vector of dimension 1*2
+b) A vector of dimension 1*2
+c) A matrix of dimension 1*2
+d) Error
+d
+11. What is the output of the following code?
+p=[1 3 2]; roots[p];
+a) Syntactical Error
+b) Undefined roots
+c) -2,-1
+d) Cannot be determined
+a
+12. What is the output of the following code?
+poly[ 1 2 3]
+a) x + 2x + 3x2
+b) x3 + 2x2 + x
+c) Error
+d) Cannot be determined
+c
+13. What is the output of the following code?
+polyint[{1 2 3}]
+a) Syntactical error due to [] 
+b) Syntactical Error due to {}
+c) Logical Error
+d) [1/2,1,3] 
+b
+14. What is the output of the following command?
+>> x={1 2 3};
+>> t=[1 2 3];
+>> plot(x,t)
+a) plots a ramp function
+b) plots r(t)-r(t-3)
+c) Error due to plot
+d) Error due to x
+d
+15. The input to the polar command is not necessary to be within parentheses.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Wrong or Unexpected Output» Next - MATLAB Questions and Answers – Syntax Error – 2 

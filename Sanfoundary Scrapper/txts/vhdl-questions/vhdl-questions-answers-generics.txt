@@ -1,0 +1,68 @@
+1. In which part of the VHDL code, generics are declared?
+a) Package declaration
+b) Entity
+c) Architecture
+d) Configurations
+b
+2. Which of the following is correct declaration for a generic?
+a) GENERIC (name : type := initial_value);
+b) GENERIC (type : name := initial_value);
+c) GENERIC (name : type <= initial_value);
+d) GENERIC ( ype : name <= initial_value);
+a
+3. What is the main use of the generic parameter?
+a) Defining constant type
+b) Assigning some initial value to constant
+c) Reusability
+d) Using constant type within the entity
+c
+4. More than one generic parameter can be defined in a single entity.
+a) True
+b) False
+a
+5. Which of the following is true about Generics?
+a) Generics can be assigned information as part of simulation run
+b) Generics cannot be assigned information as part of simulation run
+c) Generic passes data to an entity which is not instance specific
+d) Results of simulation can modify the value of generics
+b
+6. A generic can’t be declared in a component declaration.
+a) True
+b) False
+b
+7. In most synthesis tools, only generics of type ________ are supported.
+a) INTEGER
+b) REAL
+c) BIT_VECTOR
+d) STD_LOGIC
+a
+8. GENERIC (n : INTEGER := 8); In this statement, the mode of generic ‘n’ is _______
+a) Integer
+b) Real
+c) Generic
+d) No Mode
+d
+9. Which function is used to map a generic on design?
+a) Port map()
+b) Generic()
+c) Generic map()
+d) Port
+c
+10. Generics in VHDL can be treated as _______
+a) Global variable
+b) Local variable
+c) Variable
+d) Signal
+a
+11. Which of the following can be used as a generic in a complex digital design with many inputs and two outputs?
+a) Number of outputs
+b) Number of inputs
+c) Intermediate signals
+d) No parameter
+b
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Type of Delays in Behavioural Modelling» Next - VHDL Questions and Answers – Block Statement 

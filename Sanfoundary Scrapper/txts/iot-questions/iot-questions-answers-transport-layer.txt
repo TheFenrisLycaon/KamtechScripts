@@ -1,0 +1,98 @@
+1. What are the functions of the transport layer?
+a) Multiplexing/ Demultiplexing
+b) Connection less Services
+c) Connection oriented service
+d) Congestion control
+a
+–>	Multiplexing / DE multiplexing : Normally the transport layer will create distinct network connection for each transport connection required by the session layer.
+–>	Fragmentation and Re assembly: The data accepted by the transport layer from the session layer is split up into smaller units if needed and then passed to the network layer.
+2. Which services are provided by transport layer?
+a) Error control
+b) Connection service
+c) Connection less service
+d) Congestion control
+a
+3. TCP and UDP are called ________
+a) Application protocols
+b) Session protocols
+c) Transport protocols
+d) Network protocols
+c
+4. Security based connection is provided by which layer?
+a) Network layer
+b) Session layer
+c) Application layer
+d) Transport layer
+d
+5. TCP is the standard protocol with std no?
+a) 5
+b) 4
+c) 7
+d) 3
+c
+6. Using which method in transport layer data integrity can be ensured?
+a) Checksum
+b) Repetition codes
+c) Cyclic redundancy checks
+d) Error correcting codes
+a
+7. Buffer overrun can be reduced by using what?
+a) Traffic control
+b) Flow control
+c) Byte orientation
+d) Data integrity
+b
+8. Transport layer can identify the symptoms of overload nodes using _________
+a) Flow control
+b) Traffic control
+c) Byte orientation
+d) Data integrity
+b
+9. Transport layer receives data in the form of __________
+a) Packets
+b) Byte streams
+c) Bits stream
+d) Both packets and Byte stream
+b
+10. Transport layer is which layer in OSI model?
+a) Fourth layer
+b) Third layer
+c) Second layer
+d) Fifth layer
+a
+11. Congestion control can control traffic entry into a telecommunications network, so to avoid _________
+a) Congestive connection
+b) Connection collapse
+c) Congestive collapse
+d) Collapse congestive
+c
+12. FCP stands for _________
+a) Fiber Channel Protocol
+b) Field Channel Protocol
+c) Fast Channel Protocol
+d) Fiber Carrying Protocol
+a
+13. UDP packets are called as _________
+a) Segments
+b) Checksum
+c) Frames
+d) Datagrams
+d
+14. _________ does not provide reliable end to end communication.
+a) TCP
+b) UDP
+c) Both TCP and UDP
+d) Neither TCP nor UDP
+b
+15. ARQ stands for __________
+a) Automatic Repeat Request
+b) Automatic Request Repeat
+c) Application Repeat Request
+d) Application Request Repeat
+a
+Sanfoundry Global Education & Learning Series – IOT.
+To practice all areas of IOT, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - IOT Questions and Answers – Network Layer» Next - IOT Questions and Answers – Application Layer 

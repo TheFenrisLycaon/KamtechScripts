@@ -1,0 +1,112 @@
+1. Choose the correct way to call subroutine fun() of the sample class?
+class a{    public void x(int p, double k)    {        Console.WriteLine("k : csharp!");    }}
+a)
+   delegate void del(int i);
+   x s = new x();
+   del d = new del(ref s.x);
+   d(8, 2.2f);
+b)
+   delegate void del(int p,  double k);
+   del d;
+   x s = new x();
+   d = new del(ref s.x);
+   d(8, 2.2f);
+c)
+   x s = new x();
+   delegate void d = new del(ref x);
+   d(8, 2.2f);
+d) all of the mentioned
+b
+2. Which of the following is the correct way to call the function abc() of the given class in the following C# code?
+class csharp{    public int abc(int a)    {        Console.WriteLine("A:Just do it!");        return 0;    }}
+a)
+   delegate void del(int a);
+   csharp s = new csharp();
+   del d = new del(ref s.abc);
+   d(10);
+b)
+   csharp s = new csharp();
+   delegate void d = new del(ref abc);
+   d(10);
+c)
+   delegate int del(int a);
+   del d;
+   csharp s = new csharp();
+   d = new del(ref s.fun);
+   d(10);
+d) none of the mentioned
+c
+3. Which of the following is the correct way to call the subroutine function abc() of the given class in the following C# code?
+class csharp{    void abc()    {        console.writeline("A:Just do it!");    }}
+a)
+   csharp c = new csharp();
+   delegate void d = new del(ref abc);
+   d();
+b)
+   delegate void del();
+   del d;
+   csharp s = new csharp();
+   d = new del(ref s.abc);
+   d();
+c)
+   csharp s = new csharp();
+   delegate void del = new delegate(ref abc);
+   del();
+d) None of the mentioned
+b
+4. What will be the output of the following C# code snippet?
+{    delegate void A(ref string str);    class sample    {        public static void fun( ref string a)        {            a = a.Substring( 7, a.Length - 7);        }    }    class Program    {        static void Main(string[] args)        {            A str1;            string str = "Test Your C#.net skills";            str1 = sample.fun;            str1(ref str);            Console.WriteLine(str);        }    }}
+a) Test Your
+b) ur C#.NET
+c) ur C#.NET Skills
+d) None of the mentioned
+c
+5. What will be the output of the following C# code snippet?
+{    delegate string F(string str);    class sample    {        public static string fun(string a)        {            return a.Replace(',''-');        }    }    class Program    {        static void Main(string[] args)        {            F str1 = new F(sample.fun);            string str = str1("Test Your c#.NET skills");            Console.WriteLine(str);        }    }}
+a) Test Your
+b) Test-Your-C#.NET-Skills
+c) ur C#.NET Skills
+d) None of the mentioned
+b
+Output:
+Test-Your-C#.NET-Skills
+6. Choose the statements which makes delegate in C#.NET different from a normal class?
+a) Delegates in C#.NET is a base class for all delegates type
+b) Delegates created in C#.NET are further not allowed to derive from the delegate types that are created
+c) Only system and compilers can derive explicitly from the Delegate or MulticasteDelegate class
+d) All of the mentioned
+d
+7. Which of the following are the correct statements about delegates?
+a) Delegates can be used to implement callback notification
+b) Delegates permit execution of a method on a secondary thread in an asynchronous manner
+c) Delegate is a user defined type
+d) All of the mentioned
+d
+8. What will be the output of the following C# code?
+{ delegate string f(string str); class sample {     public static string fun(string a)     {         return a.Replace('k', 'o');     } } class Program {     static void Main(string[] args)     {         f str1 = new f(sample.fun);         string str = str1("Test Ykur C#.NET Skills");         Console.WriteLine(str);         Console.ReadLine();     } }}
+a) Test Ykur C#.NET Skills
+b) Test Ykour C#.NET Skills
+c) Test Your C#.NET Skills
+d) Test ur C#.NET Skills
+c
+Output:
+Test Your C#.NET Skills
+9. Incorrect statements about delegates are?
+a) Delegates are reference types
+b) Delegates are object oriented
+c) Delegates are type safe
+d) Only one method can be called using a delegate
+d
+10. Select the modifiers which control the accessibility of the delegate?
+a) new
+b) protected
+c) public
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice basic questions and answers on all areas of C#, here is complete set on 1000+ Multiple Choice Questions and Answers on C#.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Fundamental of Delegates» Next - C# Questions & Answers – Fundamental of Generics 

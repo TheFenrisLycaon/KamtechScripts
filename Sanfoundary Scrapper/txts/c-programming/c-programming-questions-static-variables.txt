@@ -1,0 +1,59 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in Cisco and other companies. Anyone looking for Cisco placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of C programming questions on “Static Variables” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code if these two files namely test.c and test1.c are linked and run?
+      -------file test.c-------    #include <stdio.h>    #include ""test.h""    int main()    {        i = 10;        printf(""%d "", i);        foo();    }     -----file test1.c------    #include <stdio.h>    #include ""test.h""    int foo()    {        printf(""%d\n"", i);    }     -----file test.h-----    #include <stdio.h>    #include <stdlib.h>    static int i;
+a) 10 0
+b) 0 0
+c) 10 10
+d) Compilation Error
+a
+2. Functions have static qualifier for its declaration by default.
+a) True
+b) False
+c) Depends on the compiler
+d) Depends on the standard
+b
+3. Is initialisation mandatory for local static variables?
+a) Yes
+b) No
+c) Depends on the compiler
+d) Depends on the standard
+b
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        foo();        foo();    }    void foo()    {        int i = 11;        printf("%d ", i);        static int j = 12;        j = j + 1;        printf("%d\n", j);    }
+a) 11 12 11 12
+b) 11 13 11 14
+c) 11 12 11 13
+d) Compile time error
+b
+5. Assignment statements assigning value to local static variables are executed only once.
+a) True
+b) False
+c) Depends on the code
+d) None of the mentioned
+b
+6. What is the format identifier for “static a = 20.5;”?
+a) %s
+b) %d
+c) %f
+d) Illegal declaration due to absence of data type
+b
+7. Which of the following is true for the static variable?
+a) It can be called from another function
+b) It exists even after the function ends
+c) It can be modified in another function by sending it as a parameter
+d) All of the mentioned
+b
+8. What will be the output of the following C code?
+    #include <stdio.h>    void func();    int main()    {        static int b = 20;        func();    }    void func()    {        static int b;        printf("%d", b);    }
+a) Output will be 0
+b) Output will be 20
+c) Output will be a garbage value
+d) Compile time error due to redeclaration of static variable
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Static Variables – 1» Next - C Programming Questions and Answers – Register Variables – 1 

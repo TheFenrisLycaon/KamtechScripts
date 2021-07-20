@@ -1,0 +1,63 @@
+1. Case sensitivity in SQL statements does not vary for different operating systems of the machine on which the server is running.
+a) True
+b) False
+b
+2. What is true about the following SQL statement?
+SELECT * FROM table_1;
+a) invalid
+b) display contents of table_1
+c) improper case being used
+d) display only column names in table_1
+b
+3. The default case sensitivity of database and table names depends on ___________
+a) SQL server
+b) Server SQL mode
+c) Operating system of machine
+d) Does not depend on anything
+c
+4. Which of the following is case sensitive?
+a) Stored function name
+b) Stored procedure name
+c) Trigger name
+d) Event name
+c
+5. Which variable is used to set table alias names as non-case sensitive?
+a) lower_case_table_names
+b) lower_case_all
+c) lower_case_alias
+d) lower_case_aliases
+a
+6. Which case does InnoDB store database names in?
+a) lower
+b) upper
+c) mixed
+d) random
+a
+7. Regardless of whether a database or table name is case sensitive on the system, it must be referred to using the same lettercase throughout a given query.
+a) True
+b) False
+a
+8. Which of the following is case sensitive in MySQL?
+a) Event names
+b) Logfile group names
+c) Column names
+d) Indexes
+b
+9. Which property determines whether a database object is a case sensitive?
+a) COLLATION
+b) ATOMICITY
+c) COLLABORATION
+d) NORMALIZATION
+a
+10. What is AI in terms of database collation?
+a) Accent Insensitive
+b) Augment Insensitive
+c) Articulate Insensitive
+d) Addition Insensitive
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – MySQL Identifier Syntax and Naming Rules» Next - MySQL Questions and Answers – Character Set Support 

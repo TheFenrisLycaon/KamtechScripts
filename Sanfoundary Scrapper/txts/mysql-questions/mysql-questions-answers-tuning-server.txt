@@ -1,0 +1,52 @@
+1. Which mode exists at both global level and session-specific level?
+a) sql_mode
+b) key_buffer_size
+c) server_mode
+d) query_mode
+a
+2. Which system variable determines the number of rows from INSERT DELAYED statements that can be queued per table?
+a) fast_queue_size
+b) general_queue_size
+c) slow_queue_size
+d) delayed_queue_size
+d
+3. The largest value to which the variable ‘max_allowed_packet’ can be set is ______________
+a) 1GB
+b) 2GB
+c) 4GB
+d) 8GB
+a
+4. Increasing the value of which system variable enables mysqld to keep more tables open simultaneously?
+a) table_cache
+b) max_connect
+c) delayed_queue_size
+d) max_allowed_packet
+a
+5. The keyword used with UNION that retains duplicate rows is ___________
+a) ALL
+b) NARROW
+c) STRICT
+d) DISTINCT
+a
+6. The search mode that uses natural language search as a subroutine is ____________
+a) Natural language
+b) Boolean mode
+c) Query expansion
+d) Cross mode
+c
+7. For what can the FULLTEXT indexes be created for?
+a) MyISAM
+b) InnoDB
+c) MEMORY
+d) TRANSITION
+a
+8. A FULLTEXT index can be created for multiple columns.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Maintaining Logs» Next - MySQL Questions and Answers – Storage Engine Configuration 

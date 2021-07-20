@@ -1,0 +1,63 @@
+1. The __________ package contains plugins that make it easier to use jMock with legacy code.
+a) org.jmock.api
+b) org.jmock.lib.action
+c) org.jmock.lib.script
+d) org.jmock.lib.legacy
+d
+2. _____________ class enables to imposterise abstract and concrete classes without calling the constructors of the mocked class.
+a) ClassImposteriser
+b) Imposteriser
+c) ImposterisingClass
+d) Imposter
+a
+3. ________ method reports if the Imposteriser is able to imposterise a given type.
+a) canImposterise(Class<?> type)
+b) Imposterise(Class<?> type)
+c) imposterise(Invokable mockObject, Class<T> mockedType, Class<?>… ancilliaryTypes)
+d) imposter()
+a
+4. ___________ creates an imposter for a given type that forwards Invocations to an Invokable object.
+a) canImposterise(Class<?> type)
+b) Imposterise(Class<?> type)
+c) imposterise(Invokable mockObject, Class<T> mockedType, Class<?>… ancilliaryTypes)
+d) imposter()
+c
+Join [email protected]
+5. The mockObject parameter of imposterise() is the class representing the static type of the imposter.
+a) True
+b) False
+b
+6. The ancilliaryTypes parameter of the imposterise()  function must all be interfaces.
+a) True
+b) False
+a
+7.  The __________ package contains plugins that make it easier to write custom actions by scripting their behaviour with BeanShell.
+a) org.jmock.api
+b) org.jmock.lib.action
+c) org.jmock.lib.script
+d) org.jmock.lib.legacy
+c
+8. ___________ class is an Action that executes a BeanShell script.
+a) ScriptedAction
+b) Scripted
+c) Action
+d) ScriptedActionClass
+a
+9. ______________ method performs an action in response to an invocation.
+a) describeTo(Description description)
+b) invoke(Invocation invocation)
+c) perform(String script)
+d) where(String name, Object value)
+b
+10. The invoke method throws which exception?
+a) ArrayIndexOutOfBounds
+b) StringIndexOutOfBounds
+c) Throwable
+d) NullPointer
+c
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Batching Tests» Next - JUnit Questions and Answers – Setting Up a Maven Project 

@@ -1,0 +1,45 @@
+1. Find the length of the curve given by the equation.
+\(x^{\frac{2}{3}}+y^\frac{2}{3}=a^\frac{2}{3}\) 
+a) \(\frac{3a}{2}\) 
+b) \(\frac{-7a}{2}\) 
+c) \(\frac{-3a}{4}\) 
+d) \(\frac{-3a}{2}\) 
+d
+S=\(\int_{x1}^{x2}\sqrt{1+\frac{dy}{dx}^2}\) 
+\(y^\frac{2}{3}=a^\frac{2}{3}-x^\frac{2}{3}\) 
+Differentiating on both sides
+\(\frac{2}{3} y^{\frac{2}{3}-1}= \frac{-2}{3} x^{\frac{2}{3}-1}\) 
+\(\frac{dy}{dx} = -\frac{y}{x}^{\frac{1}{3}}\) 
+\((\frac{dy}{dx})^2 = (\frac{y}{x})^{\frac{1}{3}}\) 
+\(1+(\frac{dy}{dx})^2=1+(\frac{y}{x})^\frac{2}{3}\) 
+Substituting from the original equation-
+\(1+(\frac{dy}{dx})^2=(\frac{a}{x})\frac{2}{3}\) 
+\(\sqrt{1+\frac{dy^2}{dx}}=(\frac{a}{x})^{\frac{1}{3}}\) 
+\(S=\int_{a}^{0}(\frac{a}{x})^{\frac{1}{3}} dx \) 
+\(s=\frac{-3a}{2}\) 
+Thus, length of the given curve is \(\frac{-3a}{2}\).
+2. Find the length of one arc of the given cycloid.
+
+x=a(θ-sinθ)
+y=a(1+cosθ)
+a) a
+b) 4a
+c) 8a
+d) 2a
+c
+\(s=\int_{\theta1}^{\theta2}\sqrt{(\frac{dx}{d\theta})^2+(\frac{dy}{d\theta})^2}\) 
+\(\frac{dx}{d\theta}=a(1-cos\theta)\) 
+\(\frac{dy}{d\theta}=a(-sin\theta)\) 
+\((\frac{dx}{d\theta})^2+(\frac{dy}{d\theta})^2=a^2(1-cos\theta)^2+a^2 sin^2\theta\) 
+\((\frac{dx}{d\theta})^2+(\frac{dy}{d\theta})^2=4a^2 sin^2\frac{\theta}{2}\) 
+\(s=\int_{0}^{2}\pi\sqrt{4a^2 sin^2\frac{\theta}{2}} d\theta\) 
+On solving the given integral, we get
+s=8a
+Thus length of one arc of the given cycloid is 8a.
+Sanfoundry Global Education & Learning Series – Differential and Integral Calculus.
+Join Sanfoundry@YouTube
+To practice all areas of Differential and Integral Calculus, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Differential and Integral Calculus Questions and Answers – Rectification» Next - Differential and Integral Calculus Questions and Answers – Volume of Solid of Revolution 

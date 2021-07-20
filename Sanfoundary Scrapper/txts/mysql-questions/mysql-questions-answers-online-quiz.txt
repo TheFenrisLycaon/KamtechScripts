@@ -1,0 +1,62 @@
+1. By default, MySQL clips out of range numeric values to the nearest fit value.
+a) True
+b) False
+a
+2. For which type are illegal values converted to the appropriate ‘zero’ value?
+a) Numeric
+b) String
+c) ENUM
+d) TIME
+d
+3. What is the command to see the warning messages?
+a) DISPLAY WARNINGS
+b) DISP WARNINGS
+c) DISP WARNING
+d) SHOW WARNINGS
+d
+4. The SQL mode to check for divide by zero error is ________________
+a) STRICT_ALL_TABLES
+b) ERROR_FOR_DIVISION_BY_ZERO
+c) ERROR_DIVIDE_BY_ZERO
+d) ERROR_WHEN_DIVIDE_BY_ZERO
+b
+5. Which mode is used to turn on strict mode and all of the additional restrictions?
+a) STRICT_ALL_TABLES
+b) ERROR_FOR_DIVISION_BY_ZERO
+c) TRADITIONAL
+d) ERROR_WHEN_DIVIDE_BY_ZERO
+c
+6. Which mode is a shorthand for ‘both strict modes plus a bunch of other restrictions’?
+a) STRICT_ALL_TABLES
+b) STRICT_TRANS_TABLES
+c) TRADITIONAL
+d) ERROR_WHEN_DIVIDE_BY_ZERO
+c
+7. Which mode prevents MySQL to perform full checking of date parts?
+a) ALLOW_DATES_INVALID
+b) ALLOW_INVALID_DATES
+c) PREVENT_DATE_CHECK
+d) STOP_DATES_CHECK
+b
+8. Which keyword suppresses errors?
+a) SUPPRESS
+b) STOP
+c) PREVENT
+d) IGNORE
+d
+9. Which mode prevents entry of the ‘zero’ date value in strict mode?
+a) SUPPRESS
+b) NO_ZERO_DATE
+c) PREVENT
+d) NO_ZERO_IN_DATE
+b
+10. STRICT_ALL_TABLES turns on stricter checking of data values.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice  all areas of MySQL for online Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – MySQL Data Types – 5» Next - MySQL Questions and Answers – Working with Sequences 

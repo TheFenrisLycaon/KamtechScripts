@@ -1,0 +1,85 @@
+1. Class is defined using ______________
+a) Class statement
+b) Object statement
+c) Access specifier statement
+d) Instance statement
+a
+•	Click Project on the menu bar and then click Add Class. The Add New Item dialog box opens with Class selected in the middle column of the dialog box.
+•	Type the name of the class followed by a period and the letters vb in the Name box, and then click the Add button.
+           The syntax of the class statement is as follows:
+Public Class className
+   attributes section
+   behaviors section
+End Class
+2. The convention is to use ________________ case for classname.
+a) Upper
+b) Lower
+c) Pascal
+d) Mixed
+c
+3. Objects are represented by _____________ variables and ______________ properties.
+a) Private, Public
+b) Public, Private
+c) Protected, Public
+d) Protected, Private
+a
+4. The behavior are represented by ______________
+a) Methods
+b) Attributes
+c) Values
+d) Numbers
+a
+5. After defining a class you can instantiate one or more ______________
+a) Objects
+b) Classes
+c) Attributes
+d) Methods
+a
+Syntax – Version 1
+{Dim | Private} variableName As className
+variableName = New className
+Syntax – Version 2
+{Dim | Private} variableName As New className
+In both versions, className is the name of the class, and variableName is the name of a variable that will represent the object.
+6. The computer creates the object when it processes the statement containing ____________ keyword.
+a) Class
+b) Object
+c) New
+d) Private
+c
+Syntax – Version 1
+{Dim | Private} variableName As className
+variableName = New className
+Syntax – Version 2
+{Dim | Private} variableName As New className
+In both versions, className is the name of the class, and variableName is the name of a variable that will represent the object. The difference between both versions relates to when the object is actually created. The computer creates the object only when it processes the statement containing the New keyword.
+7. The class statement groups _______________ item in one unit.
+a) Related
+b) Different
+c) Same access specifier items
+d) Different access specifier items
+a
+8. The name of the class file ends with _____________
+a) .cla
+b) .class
+c) .cla
+d) .vb
+b
+9. A constructor is a _____________
+a) A function procedure
+b) A sub procedure
+c) Either a function procedure or a sub procedure
+d) A property procedure
+c
+10. Which of the following statements is false?
+a) A class can have only one constructor
+b) A class can have multiple constructors
+c) An object created from a class is referred to as instance of the class
+d) An instance of a class is considered an object
+a
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Object Oriented Programming Terminology» Next - Visual Basic Questions and Answers – Working with Classes 

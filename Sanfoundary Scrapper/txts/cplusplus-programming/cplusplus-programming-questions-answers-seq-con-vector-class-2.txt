@@ -1,0 +1,370 @@
+1. What will be the output of the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v; 
+ 
+    for (int i = 1; i <= 5; i++) 
+        v.push_back(i); 
+ 
+    cout<<v.size();
+    cout<<endl<<v.capacity();  
+    return 0; 
+}
+a) 
+5
+5
+b) 
+5
+8
+c) 
+5
+10
+d) 
+8
+8
+b
+Output:
+$ ./a.out 
+5
+8
+  
+2. Which function is used to check whether the vector is empty or not?
+a) empty()
+b) isempty()
+c) haveElements()
+d) none()
+a
+3. What will be the output of the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v; 
+ 
+    for (int i = 1; i <= 5; i++) 
+        v.push_back(i); 
+    v.resize(4);
+	for (auto it = v.begin(); it != v.end(); it++) 
+        cout << *it << " "; 
+    return 0; 
+}
+a) 1 2 3 4 5
+b) 1 2 3 4
+c) 2 3 4 5
+d) error
+b
+Output:
+$ ./a.out 
+1 2 3 4
+4. What will be the output of the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v; 
+    for (int i = 1; i <= 5; i++) 
+        v.push_back(i); 
+    cout<<v.size()<<endl;
+    v.resize(4);
+    cout<<v.size()<<endl;
+    return 0; 
+}
+a) 
+5
+4
+b) 
+5
+5
+c) 
+4
+4
+d) Error
+a
+Output: 
+$ ./a.out 
+5
+4
+5. What will be the output of the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v; 
+    for (int i = 1; i <= 5; i++) 
+        v.push_back(i); 
+    cout<<v.capacity()<<endl;
+    v.resize(4);
+    cout<<v.capacity()<<endl;
+    return 0; 
+}
+a) 
+5
+4
+b) 
+8
+8
+c) 
+5
+8
+d) 
+4
+8
+b
+Output: 
+$ ./a.out 
+8
+8
+  
+6. What will be the output of the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v; 
+    for (int i = 1; i <= 5; i++) 
+        v.push_back(i); 
+    cout<<v.capacity()<<endl;
+    v.shrink_to_fit();
+    cout<<v.capacity()<<endl;
+    return 0; 
+}
+a) 
+5
+8
+b) 
+8
+5
+c) Error
+d) Segmentation fault
+b
+Output:
+$ ./a.out 
+8
+5
+7. What will be the capacity of the vector after 10 is pushed into the vector in the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v; 
+    for (int i = 1; i <= 5; i++) 
+        v.push_back(i); 
+    cout<<v.capacity()<<endl;
+    v.shrink_to_fit();
+    cout<<v.capacity()<<endl;
+    v.push_back(10);
+    return 0; 
+}
+a) 8
+b) 10
+c) 5
+d) 6
+b
+8. What will be the capacity of vector at the end in the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v; 
+    for (int i = 1; i <= 5; i++) 
+        v.push_back(i);
+    v.reserve(50);
+    cout<<v.capacity();
+    return 0; 
+}
+a) 10
+b) 8
+c) 50
+d) 60
+c
+9. What will be the output of the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v; 
+    for (int i = 1; i <= 5; i++) 
+        v.push_back(i);
+    int *pos = v.data();
+    cout<<*(pos + 3);
+    return 0; 
+}
+a) 5
+b) 1
+c) 4
+d) 3
+c
+Output: 
+$ ./a.out 
+4
+10. Which of the following function is used to insert an element at the end of a vector?
+a) push_back()
+b) pop_back()
+c) front()
+d) end()
+a
+11. What will be the output of the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v; 
+    for (int i = 1; i <= 5; i++) 
+        v.push_back(i);
+    cout<<v.capacity()<<endl;
+    v.pop_back();
+    v.pop_back();
+    cout<<v.capacity()<<endl;
+    return 0; 
+}
+a) 
+8
+4
+b) 
+4
+4
+c) 
+8
+8
+d) 
+4
+8
+c
+Output:
+$ ./a.out 
+8
+8
+  
+12. What will be the output of the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v; 
+    for (int i = 1; i <= 5; i++) 
+        v.push_back(i);
+    for(int i=0;i<v.size();i++)
+    	cout<<v[i]<<" ";
+    cout<<endl;
+    v.assign(3, 8);
+    for(int i=0;i<v.size();i++)
+    	cout<<v[i]<<" ";
+    cout<<endl;
+    return 0; 
+}
+a) 
+1 2 3 4 5 
+8 8 8
+b) 
+1 2 3 4 5 
+8 8 8 8 8
+c) 
+1 2 3 4 5 
+8 8 8 4 5
+d) 1 2 3 4 5
+a
+Output:
+$ ./a.out 
+1 2 3 4 5 
+8 8 8
+13. Which function is used to swap two vectors?
+a) swap()
+b) change()
+c) merge()
+d) exchange()
+a
+14. What will be the output of the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v1;
+    vector<char> v2; 
+    for (int i = 1; i <= 5; i++) 
+        v1.push_back(i);
+    for (int i = 6; i <= 10; i++) 
+        v2.push_back(i);
+    v1.swap(v2);
+    for(int i=0;i<v1.size();i++)
+    	cout<<v1[i]<<" ";
+    for(int i=0;i<v2.size();i++)
+    	cout<<v2[i]<<" ";
+    cout<<endl;
+    return 0; 
+}
+a) 1 2 3 4 5 6 7 8 9 10
+b) 6 7 8 9 10 1 2 3 4 5
+c) Error
+d) Segmentation fault
+c
+15. What will be the output of the following C++ code?
+#include <iostream> 
+#include <vector> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    vector<int> v1;
+    vector<int> v2; 
+    for (int i = 1; i <= 5; i++) 
+        v1.push_back(i);
+    for (int i = 6; i <= 10; i++) 
+        v2.push_back(i);
+    v1.swap(v2);
+    for(int i=0;i<v1.size();i++)
+    	cout<<v1[i]<<" ";
+    for(int i=0;i<v2.size();i++)
+    	cout<<v2[i]<<" ";
+    cout<<endl;
+    return 0; 
+}
+a) 1 2 3 4 5 6 7 8 9 10
+b) 6 7 8 9 10 1 2 3 4 5
+c) Error
+d) Segmentation fault
+b
+Output:
+$ ./a.out 
+6 7 8 9 10 1 2 3 4 5
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – seq_con Vector Class – 1» Next - C++ Programming Questions and Answers – seq_con List 

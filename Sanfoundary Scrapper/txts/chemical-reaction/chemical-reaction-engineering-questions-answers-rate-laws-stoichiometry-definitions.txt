@@ -1,0 +1,96 @@
+1. Hydrogenation of oil is an example of ___________ reactor
+a) Homogeneous
+b) Heterogeneous
+c) Autocatalytic
+d) Insufficient data
+b
+2. Arrhenius first suggested the temperature dependence of the rate constant.
+a) True
+b) False
+a
+ k = \(koe^{\frac{-E}{RT}}\) 
+This is known as Arrhenius equation and it gives the relation between temperature and rate constant.
+3. The slope of the line in the graph gives the ___________
+a) Activation energy
+b) Rate constant
+c) Frequency factor
+d) Insufficient data
+a
+ln⁡(k)=ln⁡(ko) – \((\frac{E}{R})\frac{1}{T} \) 
+The slope of the line gives E/R from which Activation energy can be determined.
+4. Arrhenius equation to determine the activation energy.
+a) ln⁡\((\frac{k1}{k2}) = \frac{E}{R} (\frac{1}{T2}-\frac{1}{T1}) \) 
+b) ln⁡\((\frac{k1}{k2}) = \frac{E}{R} (\frac{1}{T2}+\frac{1}{T1}) \) 
+c) ln⁡\((\frac{k1}{k2}) = -\frac{E}{R} (\frac{1}{T2}-\frac{1}{T1}) \) 
+d) ln⁡\((\frac{k1}{k2}) = \frac{E}{R} (\frac{T1}{T2}) \) 
+a
+k1 = ko\(e^{-\frac{E}{RT1}}\) and k2 = ko\(e^{-\frac{E}{RT2}} \) 
+Modifying it gives
+ln⁡(k1) = ln⁡(ko) – \((\frac{E}{R})\frac{1}{T1}\) and ln⁡(k2) = ln⁡(ko) – \((\frac{E}{R})\frac{1}{T2} \) 
+On further simplification we get ln⁡\((\frac{k1}{k2}) = \frac{E}{R} (\frac{1}{T2}-\frac{1}{T1}). \) 
+5. Temperature dependence of rate constant according to transition state theory is ______
+a) k=ko\(e^{-\frac{E}{RT}} \) 
+b) k=\(e^{-\frac{E}{RT}} \) 
+c) k=koT\(e^{-\frac{E}{RT}} \) 
+d) k=ko\(e^{-\frac{1}{RT}} \) 
+c
+6. Value of m to obtain the collision theory relation for temperature dependency of rate constant is ________
+a) 1
+b) 0
+c) -1
+d) 0.5
+d
+If m = 0 → Arrhenius equation
+    m = 1 → transition state theory
+    m = 0.5 → Collision theory.
+7. Calculate the activation energy for the following data using transition state theory.
+T in deg C 
+k
+0
+0.002
+80
+0.08
+a) 30.07 KJ/mol
+b) 50.43 KJ/mol
+c) 34.37 KJ/mol
+d) 82.31 KJ/mol
+c
+k1=koT1\(e^{-\frac{E}{RT1}} \) and  k2=koT2\(e^{-\frac{E}{RT2}} \) 
+Modifying it gives
+ln⁡(k1)=ln⁡(ko)+ln⁡(T1) – \((\frac{E}{R})\frac{1}{T1}\) and ln⁡(k2)=ln⁡(ko)+ln⁡(T2) – \((\frac{E}{R})\frac{1}{T2} \) 
+On further simplification we get  ln⁡\((\frac{k1}{k2})\)=ln⁡\((\frac{T1}{T2}) – \frac{E}{R}(\frac{1}{T1}-\frac{1}{T2}) \) 
+ln⁡\((\frac{0.002}{0.08})\)=ln⁡⁡\((\frac{273}{353})-\frac{E}{8.314}(\frac{1}{273} – \frac{1}{353}) \) 
+E = 34.377 KJ/mol.
+8. The reaction rate of a bimolecular reaction at 300K is 10 times the reaction rate at 150K. Calculate the activation energy using collision theory.
+a) 4928 J/mol
+b) 5164 J/mol
+c) 3281 J/mol
+d) 1296 J/mol
+a
+When we have two values of k and T
+k1=ko\(\sqrt{T1}e^{-\frac{E}{RT1}}\) and  k2=ko\(\sqrt{T2}e^{-\frac{E}{RT2}}\) 
+Modifying it gives
+ln⁡(k1)=ln⁡(ko)+0.5ln⁡(T1) – \((\frac{E}{R})\frac{1}{T1}\) and ln⁡(k2)=ln⁡(ko) – \((\frac{E}{R})\frac{1}{T2} \) 
+On further simplification we get  ln⁡⁡\((\frac{k1}{k2}) = 0.5ln⁡(\frac{T1}{T2}) \frac{E}{R} (\frac{1}{T1}-\frac{1}{T2}) \) 
+ln⁡\((\frac{k1}{10k1})\)=0.5ln⁡\((\frac{150}{300}) – \frac{E}{8.314}(\frac{1}{300} – \frac{1}{150}) \) 
+E = 4928 J/mol.
+9. For the reaction -rA = \(\frac{1670[A][Po]}{6+CA} \frac{kmol}{ml.hr}\) write the units for constants 6 and 1670.
+a) kmol/ml and 1/hr
+b) 1/hr and 1/hr
+c) kmol and kmol
+d) data insufficient
+a
+-rA = \(\frac{1670[\frac{kmol}{ml}][\frac{kmol}{ml}]}{6+\frac{kmol}{ml}} \) 
+The units of constants have to be 1/hr for 1670 and kmol/ml for 6.
+10. Which theory is the basis for Arrhenius equation?
+a) Collision theory
+b) Kinetic theory of gases
+c) Ideal gas law
+d) Charles and Boyles law
+b
+Sanfoundry Global Education & Learning Series – Chemical Reaction Engineering.
+To practice all areas of Chemical Reaction Engineering,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Chemical Reaction Engineering Questions and Answers – Space Time and Space Velocity» Next - Chemical Reaction Engineering Questions and Answers – Reaction Order and Elementary Rate Law 

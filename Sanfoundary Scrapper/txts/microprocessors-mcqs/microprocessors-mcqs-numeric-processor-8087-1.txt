@@ -1,0 +1,85 @@
+1. The unit that executes all the numeric processor instructions in 8087 is
+a) Control unit
+b) ALU
+c) Numeric extension unit
+d) None of the mentioned
+c
+2. The unit that receives and decodes the instructions in 8087 is
+a) Control unit
+b) ALU
+c) Numeric extension unit
+d) None of the mentioned
+a
+3. The control unit functions in
+a) establishing communication between CPU and memory
+b) coordinating the internal coprocessor execution
+c) reads and writes memory operands
+d) all of the mentioned
+d
+4. When the numeric extension unit (NEU) begins its execution, then the signal that is active is
+a) BUSY (active high)
+b) BUSY (active low)
+c) READY (active low)
+d) RESET (active high)
+a
+5. The register that allows the register programmer to select the required processing options is
+a) significant
+b) exponent
+c) control word register
+d) none of the mentioned
+c
+6. Invalid operation is the exception generated due to
+a) stack overflow
+b) stack underflow
+c) indeterminate form as result
+d) all of the mentioned
+d
+7. The exception generated for a too big result to fit in the format is
+a) invalid operation
+b) overflow
+c) denormalized operand
+d) result overflow
+b
+8. If the result is infinity, then the exception generated is
+a) overflow
+b) invalid operation
+c) denormalized operand
+d) zero divide
+d
+9. To operate 8087 in maximum mode, the pin MN/MX (active low) is
+a) connected to Vcc or power supply
+b) connected to ground
+c) left unconnected
+d) none of the mentioned
+b
+10. If the result is rounded according to the rounding control bits, then the exception generated is
+a) denormalized operand
+b) underflow
+c) inexact result
+d) invalid operation
+c
+11. The instruction that stores a copy of top of the stack into the memory, and pops the top of the stack is
+a) FST
+b) FSTP
+c) FIST
+d) FLD
+b
+12. The instruction that multiplies the content of the stack top by 2n is
+a) FMUL
+b) FPREM
+c) FSCAL
+d) FCSH
+c
+13. If the opcode bit is D=1, then the source and destination operands are
+a) incremented
+b) decremented
+c) cleared
+d) interchanged
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Software Aspects of Multimicroprocessor Systems» Next - Microprocessors Questions and Answers – Numeric Processor 8087 -2 

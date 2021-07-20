@@ -1,0 +1,77 @@
+1. The clipboard function cannot work without
+a) Python
+b) C
+c) JAVA
+d) Not present in MATLAB
+c
+2. What is the output of the following code?
+clipboard('copy',poe)
+a) Logical Error
+b) Copies ‘poe’
+c) Copies poe
+d) Syntactical Error
+d
+3. What is the output of the following code?
+clipboard(copy,’poe’)
+a) Error
+b) Copies poe
+c) Copies poe to the MATLAB file
+d) Copies poe to the MATLAB function
+a
+Join [email protected]
+4. What is the output of the following code?
+clipboard[‘copy’,poe]
+a) Error
+b) Copies poe to a mlx file
+c) Copies poe to a mat file
+d) Copies poe to a mltbx file
+a
+5. What is the output of the following code?
+clipboard(‘copy’,’poe’)
+clipboard(‘paste’)
+a) Prints poe
+b) Prints ‘poe’
+c) Prints error
+d) Function not present in MATLAB
+b
+6. What is the output of the following code?
+system(cmd)
+a) Starts Command Prompt
+b) Starts Command Prompt in MATLAB
+c) Starts Command Prompt in a separate window
+d) Error
+d
+7. What is the output of the above code?
+system(‘cmd’)
+a) Error
+b) Starts Command Prompt in MATLAB
+c) Starts Command Prompt in a separate window
+d) Error
+b
+8. What is the output of the following code?
+system('cd')
+a) Shows the current directory
+b) Shows the directory where MATLAB is located
+c) Error
+d) The function doesn’t exist
+b
+9. What is the output of the following code?
+system['cd']
+a) Error
+b) Syntactical error
+c) Logical Error
+d) Opens command prompt
+a
+10. What is the output of the following code?
+system('date')
+a) Shows the date in your system
+b) Shows the actual date
+c) Shows the date when MATLAB was installed
+d) Error
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Performance and Memory – 2» Next - MATLAB Questions and Answers – System Commands – 2 

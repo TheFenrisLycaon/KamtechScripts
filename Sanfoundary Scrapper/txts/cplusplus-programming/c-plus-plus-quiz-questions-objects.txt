@@ -1,0 +1,84 @@
+This section on C++ quiz focuses on “Objects”. One shall practice these quizzes to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ quiz comes with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ quiz on “Objects” along with answers, explanations and/or solutions:
+1. Where does the object is created?
+a) class
+b) constructor
+c) destructor
+d) attributes
+a
+2. How to access the object in the class?
+a) scope resolution operator
+b) ternary operator
+c) direct member access operator
+d) resolution operator
+c
+3. Which of these following members are not accessed by using direct member access operator?
+a) public
+b) private
+c) protected
+d) both private & protected
+d
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Box    {        public :        double length;        double breadth;        double height;    };    int main( )    {        Box Box1;        double volume;        Box1.height = 5;        Box1.length = 6;        Box1.breadth = 7.1;        volume = Box1.height * Box1.length * Box1.breadth;        cout << "Volume of Box1 : " << volume <<endl;        return 0;    }
+a) 210
+b) 213
+c) 215
+d) 217
+b
+Output:
+$ g++ obj1.cpp
+$ a.out
+213
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Rect    {        int x, y;        public:        void set_values (int,int);        int area ()        {            return (x * y);        }    };    void Rect::set_values (int a, int b)     {        x = a;        y = b;    }    int main ()    {        Rect recta, rectb;        recta.set_values (5, 6);        rectb.set_values (7, 6);        cout << "recta area: " << recta.area();        cout << "rectb area: " << rectb.area();        return 0;    }
+a) recta area: 30 rectb area: 42
+b) recta area: 20 rectb area: 34
+c) recta area: 30 rectb area: 21
+d) recta area: 30 rectb area: 33
+a
+6. Pick out the other definition of objects.
+a) member of the class
+b) associate of the class
+c) attribute of the class
+d) instance of the class
+d
+7. How many objects can present in a single class?
+a) 1
+b) 2
+c) 3
+d) as many as possible
+d
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class sample    {        private:        int var;        public:        void input()        {           cout << var;        }        void output()        {           cout << "Variable entered is ";           cout << var << "\n";        }    };    int main()    {        sample object;        object.input();        object.output();        object.var();        return 0;    }
+a) 
+Enter an integer 5
+Variable entered is 5
+b) Runtime error
+c) Error
+d) 
+Enter an integer 7
+Variable entered is 7
+c
+9. Which special character is used to mark the end of class?
+a) ;
+b) :
+c) #
+d) $
+a
+10. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class number    {        int i;        public:        int geti();        void puti(int j);    };    int number::geti()    {        return i;    }    void number::puti(int j)    {        i = j;    }    int main()    {        number s;        s.puti(10);        cout << s.geti( );        return 0;    }
+a) 10
+b) 11
+c) 20
+d) 22
+a
+Output:
+$ g++ obj2.cpp
+$ a.out
+10
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – User Defined Types» Next - C++ Programming Questions and Answers – Operator Functions 

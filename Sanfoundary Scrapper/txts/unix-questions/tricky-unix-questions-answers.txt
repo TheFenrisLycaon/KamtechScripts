@@ -1,0 +1,63 @@
+1. ___ system call behaves in an identical manner to the kill command.
+a) alarm
+b) kill
+c) pause
+d) signal
+b
+2. Which library function uses kill to send any signal to the current process?
+a) getc
+b) raise
+c) catch
+d) try
+b
+3. Which system call is used to set a timer that generates the SIGALARM signal?
+a) pause
+b) alarm
+c) read
+d) signal
+b
+4. If two users execute the same program, the memory requirements are doubled.
+a) True
+b) False
+b
+5. Address space of a process is virtual.
+a) True
+b) False
+a
+Join [email protected]
+6. Which of the following system calls returns one or more file descriptors?
+a) dup, dup2
+b) fcntl
+c) pipe
+d) dup, dup2, fcntl and pipe
+d
+7. The environment variables are available in _____
+a) *environ[ ]          
+b) env[ ]          
+c) env          
+d) pipe          
+a
+8. Which of the following functions are used for obtaining and setting the value of environment variables?
+a) getenv
+b) setenv
+c) env
+d) getenv and setenv
+d
+9. Which of the following action can be taken by a process upon receiving a signal?
+a) ignore the signal
+b) terminate the process
+c) suspend the process
+d) ignore the signal, terminate and suspend the process
+d
+10. What is the default disposition of most signals?
+a) ignore the signal
+b) terminate the process
+c) suspend the process
+d) kill the signal
+b
+Sanfoundry Global Education & Learning Series – Unix.
+To practice tricky questions and answers on all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Process Control System Calls – 1» Next - Unix  Questions and Answers – Performance Components and Tools 

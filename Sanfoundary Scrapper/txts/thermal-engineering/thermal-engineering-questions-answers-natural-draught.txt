@@ -1,0 +1,208 @@
+1. A 25 m high chimney is filled with hot gases of temperature 330°C. The temperature of outside air is 27°C. If 20 kg of air is supplied for complete combustion of 1 kg of fuel, calculate the velocity of hot gases though the chimney.
+a) 21.18 m/s
+b) 25.65 m/s
+c) 18.56 m/s
+d) 15.65 m/s
+a
+we know that,
+Draught in terms of column of hot gases, H1 = H*\(\{(\frac{m_a}{m_a+1})\frac{T_g}{T_a} -1\}\) 
+Substituting the values
+H1 = 25*\(\{(\frac{20}{21})\frac{603}{300}-1\}\) 
+H1 = 22.86 m
+The velocity of hot gases through chimney is given by, V = \(\sqrt{2*g*H_1}\) 
+V = \(\sqrt{(2*9.81*22.86)}\) 
+V = 21.18 m/s.
+Symbols:
+h – Actual draught in terms of column of hot gases
+H1 – Theoretical draught in terms of column of hot gases
+ma – mass of air supplied per kg of fuel
+Ta – absolute temperature of atmosphere
+Tg – average absolute temperature of chimney gases
+H – chimney height.
+2. A chimney has a height 30 m. The ambient temperature and the temperature of hot gases inside the chimney are 27°C and 300°C respectively. Find the velocity of the flue gases passing through the chimney if 50% of the theoretical draught is lost in friction at the grate and passage. It is given that 20 kg of air is required for complete combustion of 1 kg of fuel.
+a) 21.35 m/s
+b) 20.65 m/s
+c) 15.52 m/s
+d) 10.32 m/s
+c
+we know that,
+Draught in terms of column of hot gases, H1 = H*\(\{(\frac{m_a}{m_a+1})\frac{T_g}{T_a} -1\}\) 
+Substituting the values, we get
+H1 = 30*\(\{(\frac{20}{21})\frac{573}{300}-1\}\) 
+H1 = 24.57 m
+Available head, h = 0.5*H1
+h = 0.5 * 24.57
+h = 12.28 m
+Velocity of the flue gases , V = \(\sqrt{2*g*h}\) 
+V = \(\sqrt{2*9.81*12.28}\) 
+V = 15.52 m/s.
+Symbols:
+h – Actual draught in terms of column of hot gases
+H1 – Theoretical draught in terms of column of hot gases
+ma – mass of air supplied per kg of fuel
+Ta – absolute temperature of atmosphere
+Tg – average absolute temperature of chimney gases
+H – chimney height
+g – gravitational acceleration
+3. The velocity of flue gases though chimney is 23 m/s. The chimney height is 35 m. The temperature of the flue gases is 300°C. The flue gases formed per kg of fuel burnt is 23 kg. Find out the ambient temperature.
+a) 30°C
+b) 27°C
+c) 40°C
+d) 37°C
+d
+ma = 22 kg of air/kg of fuel burnt
+we know that,
+Velocity of flue gases though chimney, V = \(\sqrt{2*g*H_1}\) 
+Substituting the values
+23 = \(\sqrt{2*9.81*H_1}\) 
+Solving for H1, we get
+H1 = 26.96 m
+Also,
+H1 = H*\(\{(\frac{m_a}{m_a+1})\frac{T_g}{T_a} -1\}\) 
+Substituting the values
+26.96 = 35*\(\{(\frac{22}{23}) \frac{573}{T_a}-1\}\) 
+Solving for Ta, we get
+Ta = 309.6 K ≈ 310 K or 37°C.
+4. The velocity and temperature of flue gases passing through a chimney are 20 m/s and 330°C. 18 kg of air is supplied for complete combustion of 1 kg of fuel. The ambient temperature is 27°C. Determine the chimney height 40% of the theoretical draught is lost in friction at the grate and passage.
+a) 58.32 m
+b) 37.57 m
+c) 29.65 m
+d) 35.26 m
+b
+we know that,
+V = \(\sqrt{2*g*h}\) 
+Substituting the respective values
+20 = \(\sqrt{2*9.81*h}\) 
+Solving for h, we get
+h = 20.38 m
+Theoretical draught in terms of column of hot gases, H1 = \(\frac{h}{60}\)*100
+H1 = \(\frac{20.38}{60}\)*100
+H1 = 33.97 m
+Also
+H1 = H*\(\{(\frac{m_a}{m_a+1})\frac{T_g}{T_a} -1\}\) 
+Substituting the respective values
+33.97 = H*\(\{(\frac{18}{19})\frac{603}{300}-1\}\) 
+Solving for ‘H’, we get
+H = 37.57 m.
+5. Which of the following expressions represents the correct ratio of absolute temperature of the chimney gases and absolute temperature of outside air when the discharge through the chimney is maximum.
+a) \(\frac{T_g}{T_a} = \frac{m_a+1}{m_a} \) 
+b) \(\frac{T_g}{T_a} = \frac{m_a}{m_a+1} \) 
+c) \(\frac{T_g}{T_a} = 2(\frac{m_a+1}{m_a }) \) 
+d) \(\frac{T_g}{T_a} = 2(\frac{m_a+1}{m_a }) \) 
+c
+At this condition the ratio of absolute temperature of hot gases to absolute temperature of outside air bears a specific value, which is
+\(\frac{T_g}{T_a} = 2(\frac{m_a+1}{m_a }) \) 
+6. What is the ratio of draught in terms of column of hot gases to the chimney height when the discharge though chimney is maximum?
+a) 2.0
+b) 1.5
+c) 1.0
+d) 0.5
+c
+That is, H1 = H
+It is also the maximum value of H1.
+7. The frictional resistance offered to the flow of flue gases by the grate and gas passages result in draught losses.
+a) True
+b) False
+a
+8. The draught produced by the chimney is due to the difference in densities between the column of hot gases inside the chimney and the cold air present outside.
+a) True
+b) False
+a
+9. A chimney of height 25 m is used to provide natural draught. The ambient temperature is 25°C and the temperature of the hot gases inside the chimney is 352°C. If the discharge though the chimney is maximum determine the mass of air supplied per kg of fuel burnt.
+a) 20.55 kg of air/kg of fuel burnt
+b) 18.54 kg of air/kg of fuel burnt
+c) 15.23 kg of air/kg of fuel burnt
+d) 25.21 kg of air/kg of fuel burnt
+a
+It is given that the discharge is maximum, therefore
+\(\frac{T_g}{T_a} =2(\frac{m_a+1}{m_a })  \) 
+Substituting the respective values
+\(\frac{625}{298}=2(\frac{m_a+1}{m_a }) \) 
+Solving for ma, we get
+ma = 20.55 kg of air/kg of fuel burnt.
+10. Determine the temperature of hot gases inside the chimney if the temperature of cold air outside is 27°C and 20 kg of air is required for complete combustion of 1 kg of fuel. It is given that the discharge though the chimney is maximum.
+a) 335°C
+b) 300°C
+c) 318°C
+d) 357°C
+d
+According to the given condition
+\(\frac{T_g}{T_a} = 2(\frac{m_a+1}{m_a }) \) 
+Substituting the respective values
+\(\frac{T_g}{300} = 2(\frac{21}{20}) \) 
+Solving for Tg, we get
+Tg = 630 K or 357°C.
+11. A chimney of height 45 m is full of hot gases at temperature 330°C. If the discharge through the chimney is maximum, determine the draught in terms of column of hot gases. The ambient is 25°C.
+a) 45 m
+b) 35 m
+c) 25 m
+d) 39 m
+a
+Since it is given that the discharge though the chimney is maximum.
+Draught in terms of column of hot gases, H1 = H (Chimney height)
+H1 = 45 m.
+12. A boiler has a chimney of height 45 m. The ambient temperature is 25°C. The temperature of the hot gases inside chimney is 330°C. Calculate the draught in terms of column of water if it is given that discharge through the chimney is maximum.
+a) 40.23 m
+b) 35.45 m
+c) 26.65 m
+d) 24.32 m
+c
+It is given that discharge though the chimney is maximum, therefore
+hw = 176.5 \(\frac{H}{T_a} \) 
+Substituting the values, we get
+hw = 176.5 \(\frac{45}{298} \) 
+hw = 26.65 m.
+Symbols –
+hw – draught in terms of column of water
+Ta – absolute temperature of atmosphere
+Tg – average absolute temperature of chimney gases
+H – chimney height.
+13. The temperature of flue gases was observed to be 350°C with a chimney (natural draught) of 45 m. The same draught was developed using an induced draught fan and the temperature of the flue gases was measured to be 150°C. The mass of air supplied for complete combustion of 1 kg of fuel is 20 kg. The ambient temperature is 30°C. Assuming cp = 1.004 kJ/kg for flue gases calculate the efficiency of chimney.
+a) 0.21%
+b) 0.56%
+c) 1.23%
+d) 0.11%
+a
+Ta = 30°C or 303 K
+Chimney efficiency is given by-
+η = \(\frac{H\big\{(\frac{m_a}{m_a+1})\frac{T_{g1}}{T_a}-1\big\}*g}{cp(T_{g1}-T_{g2})*1000 }*100 \) 
+Substituting the respective values
+η = \(\frac{45\big\{(\frac{20}{21})\frac{623}{303}-1\big\}*9.81}{1.004(623-423)*1000}*100 \) 
+η = 0.21%.
+Symbols –
+ma – mass of air supplied per kg of fuel
+H1 – draught in terms of column of hot gases
+Ta – absolute temperature of atmosphere
+Tg – average absolute temperature of chimney gases
+g – gravitational acceleration
+H – chimney height.
+14. A chimney is used to develop natural draught of 20 mm of water. The ambient temperature is 30°C. Determine the chimney height if the discharge though the chimney is maximum.
+a) 25.36 m
+b) 34.33 m
+c) 45.32 m
+d) 41.32 m
+b
+Since the discharge through the chimney is maximum
+hw = 176.5 \(\frac{H}{T_a} \)  
+Substituting the respective values
+20 = \(176.5\frac{H}{303} \) 
+Solving for H, we get
+H = 34.33 m.
+15. Determine the ambient temperature if the temperature of flue gases inside the chimney is 363°C and the 20 kg of air is supplied for complete combustion of 1 kg of fuel. The discharge though the chimney is maximum.
+a) 27°C
+b) 35°C
+c) 30°C
+d) 25°C
+c
+Since the discharge though the chimney is maximum
+\(\frac{T_g}{T_a} = 2(\frac{m_a+1}{m_a }) \)  
+Substituting the values
+\(\frac{636}{Ta} = 2(\frac{21}{20}) \)  
+Solving for Ta, we get
+Ta = 302.86 K ≈ 303 K or 30°C.
+Sanfoundry Global Education & Learning Series – Thermal Engineering
+To practice all areas of Thermal Engineering,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Thermal Engineering Questions and Answers – Draught – Definition and Classification» Next - Thermal Engineering Questions and Answers – Artificial Draught 

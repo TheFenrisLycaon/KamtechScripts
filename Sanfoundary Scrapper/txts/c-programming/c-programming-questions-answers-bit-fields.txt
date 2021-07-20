@@ -1,0 +1,78 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for LSI and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear LSI interviews on C Programming language. 
+Here is a listing of C programming questions on “Bit-Fields” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        char x : 2;        int y : 2;    };    int main()    {        struct p p;        p.x = 2;        p.y = 1;        p.x = p.x & p.y;        printf("%d\n", p.x);    }
+a) 0
+b) Compile time error
+c) Undefined behaviour
+d) Depends on the standard
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    union u    {        struct p        {            unsigned char x : 2;            unsigned int y : 2;        };        int x;    };    int main()    {        union u u;        u.p.x = 2;        printf("%d\n", u.p.x);    }
+a) Compile time error
+b) Undefined behaviour
+c) Depends on the standard
+d) 2
+a
+3. What will be the output of the following C code?
+    #include <stdio.h>    union u    {        struct        {            unsigned char x : 2;            unsigned int y : 2;        }p;        int x;    };    int main()    {        union u u;        u.p.x = 2;        printf("%d\n", u.p.x);    }
+a) Compile time error
+b) 2
+c) Undefined behaviour
+d) Depends on the standard
+b
+4. What will be the output of the following C code?
+    #include <stdio.h>    union u    {        struct        {            unsigned char x : 2;            unsigned int y : 2;        }p;        int x;    };    int main()    {        union u u.p.x = 2;        printf("%d\n", u.p.x);    }
+a) Compile time error
+b) 2
+c) Depends  on the compiler
+d) Depends on the standard
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    union u    {        struct        {            unsigned char x : 2;            unsigned int y : 2;        }p;        int x;    };    int main()    {        union u u = {2};        printf("%d\n", u.p.x);    }
+a) Compile time error
+b) 2
+c) Depends on the standard
+d) None of the mentioned
+b
+6. What will be the output of the following C code?
+    #include <stdio.h>    union u    {        struct        {            unsigned char x : 2;            unsigned int y : 2;        }p;        int x;    };    int main()    {        union u u.p = {2};        printf("%d\n", u.p.x);    }
+a) Compile time error
+b) 2
+c) Undefined behaviour
+d) None of the mentioned
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        unsigned int x : 2;        unsigned int y : 2;    };    int main()    {        struct p p;        p.x = 3;        p.y = 1;        printf("%d\n", sizeof(p));    }
+a) Compile time error
+b) Depends  on the compiler
+c) 2
+d) 4
+d
+8. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        unsigned int x : 2;        unsigned int y : 2;    };    int main()    {        struct p p;        p.x = 3;        p.y = 4;        printf("%d\n", p.y);    }
+a) 0
+b) 4
+c) Depends on the compiler
+d) 2
+a
+9. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        unsigned int x : 7;        unsigned int y : 2;    };    int main()    {        struct p p;        p.x = 110;        p.y = 2;        printf("%d\n", p.x);    }
+a) Compile time error
+b) 110
+c) Depends on the standard
+d) None of the mentioned
+b
+10. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        unsigned int x : 1;        unsigned int y : 1;    };    int main()    {        struct p p;        p.x = 1;        p.y = 2;        printf("%d\n", p.y);    }
+a) 1
+b) 2
+c) 0
+d) Depends  on the compiler
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Bit-fields – 1» Next - C Programming Questions and Answers – Standard Input & Output – 1 

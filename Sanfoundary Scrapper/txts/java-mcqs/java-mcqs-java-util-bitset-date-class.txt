@@ -1,0 +1,91 @@
+1. Which of these class object has an architecture similar to that of array?
+a) Bitset
+b) Map
+c) Hashtable
+d) All of the mentioned
+a
+2. Which of these method is used to make a bit zero specified by the index?
+a) put()
+b) set()
+c) remove()
+d) clear()
+d
+3. Which of these method is used to calculate number of bits required to hold the BitSet object?
+a) size()
+b) length()
+c) indexes()
+d) numberofBits()
+b
+4. Which of these is a method of class Date which is used to search whether object contains a date before the specified date?
+a) after()
+b) contains()
+c) before()
+d) compareTo()
+c
+5. Which of these methods is used to retrieve elements in BitSet object at specific location?
+a) get()
+b) Elementat()
+c) ElementAt()
+d) getProperty()
+a
+6. What will be the output of the following Java code?
+    import java.util.*;    class Bitset    {        public static void main(String args[])        {            BitSet obj = new BitSet(5);            for (int i = 0; i < 5; ++i)                obj.set(i);            obj.clear(2);            System.out.print(obj);        }    }
+a) {0, 1, 3, 4}
+b) {0, 1, 2, 4}
+c) {0, 1, 2, 3, 4}
+d) {0, 0, 0, 3, 4}
+a
+Output:
+$ javac Bitset.java
+$ java Bitset
+{0, 1, 3, 4}
+7. What will be the output of the following Java code?
+    import java.util.*;    class Bitset     {        public static void main(String args[])        {            BitSet obj = new BitSet(5);            for (int i = 0; i < 5; ++i)                obj.set(i);            obj.clear(2);            System.out.print(obj.length() + " " + obj.size());        }    }
+a) 4 64
+b) 5 64
+c) 5 128
+d) 4 128
+b
+Output:
+$ javac Bitset.java
+$ java Bitset
+5 64
+8. What will be the output of the following Java code?
+    import java.util.*;    class Bitset    {        public static void main(String args[])        {            BitSet obj = new BitSet(5);            for (int i = 0; i < 5; ++i)                obj.set(i);            System.out.print(obj.get(3));        }    }
+a) 2
+b) 3
+c) 4
+d) 5
+a
+Output:
+$ javac Bitset.java
+$ java Bitset
+2
+9. What will be the output of the following Java code?
+    import java.util.*;    class date    {        public static void main(String args[])        {            Date obj = new Date();            System.out.print(obj);        }    }
+a) Prints Present Date
+b) Runtime Error
+c) Any Garbage Value
+d) Prints Present Time & Date
+d
+Output:
+$ javac date.java
+$ java date
+Tue Jun 11 11:29:57 PDT 2013
+10. What will be the output of the following Java code?
+    import java.util.*;    class Bitset    {        public static void main(String args[])        {            BitSet obj1 = new BitSet(5);            BitSet obj2 = new BitSet(10);            for (int i = 0; i < 5; ++i)                obj1.set(i);            for (int i = 3; i < 13; ++i)                obj2.set(i);            obj1.and(obj2);            System.out.print(obj1);        }    }
+a) {0, 1}
+b) {2, 4}
+c) {3, 4}
+d) {3, 4, 5}
+c
+Output:
+$ javac Bitset.java
+$ java Bitset
+{3, 4}
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.util – Dictionary, Hashtable & Properties» Next - Java Questions & Answers – Remote Method Invocation (RMI) 

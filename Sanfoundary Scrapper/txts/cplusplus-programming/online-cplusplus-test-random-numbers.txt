@@ -1,0 +1,93 @@
+This section on online C++ test focuses on “Random Numbers”. One shall practice these test questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our online C++ test questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of online C++ test questions on “Random Numbers” along with answers, explanations and/or solutions:
+1. Which header file is used to create the pseudo random generator?
+a) random
+b) cstdlib
+c) rand
+d) both random and cstdlib
+d
+2. Which is a constant defined in <cstdlib> header file?
+a) RAND_MAX
+b) Rand
+c) Srand
+d) Blitz
+a
+3. How many parameters are available in srand function?
+a) 1
+b) 2
+c) 3
+d) 4
+a
+4. What will be the output of the following C++ code?
+    #include <cstdlib>    #include <iostream>    using namespace std;    int main()    {        int ran = rand();        cout << ran << endl;    }
+a) Any number
+b) 89
+c) 0​ to RAND_MAX
+d) 79
+c
+Output:
+$ g++ rand.cpp
+$ a.out
+574
+5. What will be the output of the following C++ code?
+    #include <cstdlib>    #include <iostream>    using namespace std;    int main()    {        cout << RAND_MAX << endl;    }
+a) 4385234
+b) 12321412
+c) Depends on the compiler
+d) 32564789
+c
+Output:
+$ g++ rand1.cpp
+$ a.out
+2147483647
+6. What will be the output of the following C++ code?
+    #include <stdio.h>    #include <stdlib.h>    #include <time.h>    int main ()    {        srand (time(NULL));        printf ("Random number: %d\n", rand() % 100);        srand (1);        return 0;    }
+a) 12
+b) 23
+c) 33
+d) Any number from 0 to 99
+d
+Output:
+$ g++ rand2.cpp
+$ a.out
+23
+7. What will be the output of the following C++ code?
+    #include <cstdlib>    #include <ctime>    #include <iostream>    using namespace std;    int main()    {        srand((unsigned)time(0));        int ran;        for (int i = 0; i < 2; i++)        {            ran = (rand() % 10) + 1;            cout << ran;        }    }
+a) 2 4
+b) 10 20
+c) Any two number from 1 to 10
+d) 50 6
+c
+Output:
+$ g++ rand3.cpp
+$ a.out
+4 5
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <ctime>    #include <cstdlib>    using namespace std;    int main()    {        srand((unsigned)time(0));        int ran;        int low = 1, high = 10;        int range = (high - low) + 1;        for(int index = 0; index < 1; index++)        {            ran = low + int(range * rand() / (RAND_MAX + 1.0));            cout << ran << endl;        }    }
+a) 1
+b) 2
+c) 3
+d) 4
+a
+Output:
+$ g++ rand4.cpp
+$ a.out
+1
+9. Which operator is used to produce a certain number in a specific range?
+a) $
+b) %
+c) modulo operator
+d) both % and modulo operator
+d
+10. Which can be used to create a random number without duplication?
+a) Character
+b) Time
+c) Both Character & Time
+d) Date
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Generalized Numeric Algorithms» Next - C++ Programming Questions and Answers – File Handling 

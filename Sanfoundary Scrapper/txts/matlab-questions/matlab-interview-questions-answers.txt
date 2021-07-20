@@ -1,0 +1,89 @@
+1. Round each value in a duration array to the nearest number of seconds greater than or equal to that value.
+t = hours(8) + minutes(29:31) + seconds(1.23);
+t.Format = 'hh:mm:ss.SS'
+t = 08:29:01.23   08:30:01.23   08:31:01.23
+Y1 = ceil(t)
+Y2 = ceil(t,'hours')
+a) 
+     Y1 =  08:29:02.00   08:30:02.00   08:31:02.00 
+     Y2 =  09:00:00.00   09:00:00.00   09:00:00.00
+b) 
+     Y1 =  08:29:02.00   08:30:02.00   08:31:02.00 
+     Y2 =  08:29:01.23   08:30:01.23   08:31:01.23
+c) 
+     Y1 =  08:29:01.23   08:30:01.23   08:31:01.23
+     Y2 =  08:29:01.23   08:30:01.23   08:31:01.23
+Join [email protected]
+d) 
+     Y1 =  008:29:01.23   08:30:01.23   08:31:01.23
+     Y2 =  09:00:00.00   09:00:00.00   09:00:00.00
+a
+  
+2.  What would be the output of the following code (in editor window)?
+X = [1.4+2.3i 3.1-2.2i -5.3+10.9i]
+X = 1.4000 + 2.3000i   3.1000 - 2.2000i  -5.3000 +10.9000i
+Y = fix(X)
+a) Y = 1.0000 + 2.0000i   3.0000 – 4.0000i  -5.0000 +10.0000i
+b) Y = 2.0000 + 3.0000i   3.1000 – 2.2000i  -5.3000 +10.9000i
+c) Y = 1.0000 + 2.0000i   3.0000 – 2.0000i  -5.0000 +10.0000i
+d) Y = 2.0000 + 3.0000i   3.1000 – 2.2000i  -5.3000 +10.9000i
+c
+3. Compute 24 modulo 5.
+b = mod(24,5)
+a) b = 3
+b) b =4
+c) b =5
+d) b =6
+b
+4. What would be the output of the following code (in editor window)?
+X = [1 2 3;4 5 6;7 8 9];
+Y = [9 8 7;6 5 4;3 2 1];
+R = rem(X,Y)
+a) 
+   R = 1     2     1
+       4     0     9
+       1     0     0
+b) 
+   R = 1     2     3
+       3     0     2
+       1     0     0
+c)
+   R = 1     2     3
+       4     1     2
+       1     1     0
+d)
+   R = 1     2     3
+       4     0     2
+       1     0     0
+d
+  
+5. If one operand is a scalar and the other is not, then MATLAB applies the scalar to every element of the other operand. This property is known as ______________
+a) operand divergence
+b) scalar expansion
+c) vector expansion
+d) dimension declaration
+b
+6. Matrix operations follow the rules of linear algebra and are not compatible with multidimensional arrays.
+a) true
+b) false
+a
+7. Conversion Function int16 uses_________ range of value?
+a) -27 to 27-1
+b) -215 to 215-1
+c) -231 to 231-1
+d) 0 to 216-1
+b
+8. Largest and smallest values for integer classes is 127 to -128.
+a) True
+b) False
+a
+intmax(‘int8’)
+ans = 127
+intmin(‘int8’)                           –
+ans = 128.
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Arithmetic – 1» Next - MATLAB Questions and Answers – Algebra 

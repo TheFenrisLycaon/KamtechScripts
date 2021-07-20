@@ -1,0 +1,96 @@
+This section on C++ interview questions and answers focuses on “Structures”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Structures” along with answers, explanations and/or solutions:
+1. The data elements in the structure are also known as what?
+a) objects
+b) members
+c) data
+d) objects & data
+b
+2. What will be used when terminating a structure?
+a) :
+b) }
+c) ;
+d) ;;
+c
+3. What will happen when the structure is declared?
+a) it will not allocate any memory
+b) it will allocate the memory
+c) it will be declared and initialized
+d) it will be declared
+a
+4. The declaration of the structure is also called as?
+a) structure creator
+b) structure signifier
+c) structure specifier
+d) structure creator & signifier
+c
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <string.h>    using namespace std;    int main()    {        struct student         {            int num;            char name[25];        };        student stu;        stu.num = 123;        strcpy(stu.name, "John");        cout << stu.num << endl;        cout << stu.name << endl;        return 0;    }
+a) 
+123
+john
+b) 
+john
+john
+c) compile time error
+d) runtime error
+a
+Output:
+$ g++ stu.cpp
+$ a.out
+123
+john
+ 
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    struct Time     {        int hours;        int minutes;        int seconds;    };    int toSeconds(Time now);    int main()    {        Time t;        t.hours = 5;        t.minutes = 30;        t.seconds = 45;        cout << "Total seconds: " << toSeconds(t) << endl;        return 0;    }    int toSeconds(Time now)    {        return 3600 * now.hours + 60 * now.minutes + now.seconds;    }
+a) 19845
+b) 20000
+c) 15000
+d) 19844
+a
+Output:
+$ g++ stu1.cpp
+$ a.out
+Total seconds:19845
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        struct ShoeType         {           string style;           double price;        };         ShoeType shoe1, shoe2;         shoe1.style = "Adidas";         shoe1.price = 9.99;         cout << shoe1.style << " $ "<< shoe1.price;         shoe2 = shoe1;         shoe2.price = shoe2.price / 9;         cout << shoe2.style << " $ "<< shoe2.price;         return 0;    }
+a) Adidas $ 9.99Adidas $ 1.11
+b) Adidas $ 9.99Adidas $ 9.11
+c) Adidas $ 9.99Adidas $ 11.11
+d) Adidas $ 11.11Adidas $ 11.11
+a
+Output:
+$ g++ stu2.cpp
+$ a.out
+Adidas $ 9.99
+Adidas $ 1.11
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    struct sec     {        int a;        char b;    };    int main()    {        struct sec s ={25,50};        struct sec *ps =(struct sec *)&s;        cout << ps->a << ps->b;        return 0;    }
+a) 252
+b) 253
+c) 254
+d) 262
+a
+Output:
+$ g++ stu5.cpp
+$ a.out
+252
+ 
+9. Which of the following is a properly defined structure?
+a) struct {int a;}
+b) struct a_struct {int a;}
+c) struct a_struct int a;
+d) struct a_struct {int a;};
+d
+10. Which of the following accesses a variable in structure *b?
+a) b->var;
+b) b.var;
+c) b-var;
+d) b>var;
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Pointer to Void» Next - C++ Programming Questions and Answers – Character Classification 

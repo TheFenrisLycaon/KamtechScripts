@@ -1,0 +1,75 @@
+1. What is the output of the following code?
+q=0;syms p,q
+a) q=0
+b) 
+   p
+   q=0
+c)  
+    p
+    q
+d) Error
+b
+Output: 
+   p
+   q=0
+2. What is the default variable while evaluating a transfer function?
+a) s
+b) p
+c) z
+d) Any
+a
+3. What is the default variable while evaluating a Laplace transform?
+a) s
+b) t
+c) Any
+d) l
+a
+4. The output of the following code is
+laplace(exp(-3*t),p)
+a) Error due to p
+b) 1/(s+3)
+c) 1/(p+3)
+d) Error due to t
+d
+5. The output of the following code is
+solve(‘w+z=0’)
+a) -z
+b) -w
+c) Error
+d) No such fuction
+a
+6. The default variable in case of solve(‘f(x,y,p,a,l)’) command is __________
+a) x
+b) Variables near to x
+c) Variables away from x
+d) No default variable
+a
+7. What is the default parameter for dsolve() command?
+a) t
+b) No default parameter
+c) Input differentiating variable
+d) Defined input parameter
+c
+8. What is the default parameter for the ztrans() command?
+a) z
+b) w
+c) s
+d) no default parameter
+a
+9. What is the output of the following code?
+syms t; laplace(exp(-3*t),y)
+a) Error
+b) 1/(3+s)
+c) 1/(3+y)
+d) 1/(3+js)
+a
+10. The default variable, to which the result of any computation.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Sums and Products – 2» Next - MATLAB Questions and Answers – Fourier Analysis and Filtering – 1 

@@ -1,0 +1,290 @@
+1. Which of the following relationship uses references to describe documents between connected data?
+a) One-to-One Relationships with Embedded Documents
+b) One-to-Many Relationships with Embedded Documents
+c) One-to-Many Relationships with Document References
+d) None of the mentioned
+b
+2. Point out the correct statement.
+a) One-to-One Relationships with embedded documents presents a data model that uses embedded documents to describe one-to-one relationships between connected data
+b) One-to-One Relationships with document references presents a data model that uses embedded documents to describe one-to-one relationships between connected data
+c) One-to-Many Relationships with embedded documents presents a data model that uses embedded documents to describe one-to-one relationships between connected data
+d) All of the mentioned
+a
+3. If the address data is frequently retrieved with the name information, how will you modify the following schema representing one to one relationship with referencing?
+{
+   _id: "joe",
+   name: "Joe Bookreader"
+}
+
+{
+   patron_id: "joe",
+   street: "123 Fake Street",
+   city: "Faketon",
+   state: "MA",
+   zip: "12345"
+}
+a) 
+
+ {
+   _id: "joe",
+   name: "Joe Bookreader",
+   address: {
+              street: "123 Fake Street",
+              city: "Faketon",
+              state: "MA",
+              zip: "12345"
+            }
+} 
+b) 
+
+ {
+   _id: "joe",
+   name: "Joe Bookreader",
+   address-> {
+              street: "123 Fake Street",
+              city: "Faketon",
+              state: "MA",
+              zip: "12345"
+            }
+} 
+c) 
+
+ {
+   _id: "joe",
+   name: "Joe Bookreader",
+   address:: {
+              street: "123 Fake Street",
+              city: "Faketon",
+              state: "MA",
+              zip: "12345"
+            }
+} 
+d) All of the mentioned
+a
+4. Which of the following is used to avoid the repetition of data in MongoDB schema?
+a) DeReferences
+b) References
+c) Cursor
+d) Collectors
+b
+5. Point out the wrong statement.
+a) Decisions that affect how you model data can affect application performance and database capacity
+b) Collections do enforce document structure
+c) Data in MongoDB has a flexible schema
+d) None of the mentioned
+b
+6. What would be the more optimal schema to embed the address data entities in the patron data for following schema representing one to many relationships?
+
+{
+   _id: "joe",
+   name: "Joe Bookreader"
+}
+
+{
+   patron_id: "joe",
+   street: "123 Fake Street",
+   city: "Faketon",
+   state: "MA",
+   zip: "12345"
+}
+
+{
+   patron_id: "joe",
+   street: "1 Some Other Street",
+   city: "Boston",
+   state: "MA",
+   zip: "12345"
+} 
+a) 
+{
+   _id: "joe",
+   name: "Joe Bookreader",
+   addresses: [
+                {
+                  street: "123 Fake Street",
+                  city: "Faketon",
+                  state: "MA",
+                  zip: "12345"
+                },
+                {
+                  street: "1 Some Other Street",
+                  city: "Boston",
+                  state: "MA",
+                  zip: "12345"
+                }
+              ]
+ } ?
+b) 
+{
+   _id: "joe",
+   name: "Joe Bookreader",
+   addresses: [
+                {
+                  street: "123 Fake Street",
+                  city: "Faketon",
+                  state: "MA",
+                  zip: "12345"
+                },
+                [
+                  street: "1 Some Other Street",
+                  city: "Boston",
+                  state: "MA",
+                  zip: "12345"
+                ]
+              ]
+ } ?
+c) 
+{
+   _id: "joe",
+   name: "Joe Bookreader",
+   addresses: [
+                [
+                  street: "123 Fake Street",
+                  city: "Faketon",
+                  state: "MA",
+                  zip: "12345"
+                ],
+                {
+                  street: "1 Some Other Street",
+                  city: "Boston",
+                  state: "MA",
+                  zip: "12345"
+                }
+              ]
+ } ?
+d) None of the mentioned
+a
+7. How will avoid mutable, growing arrays in the following schema?
+
+{
+   name: "O'Reilly Media",
+   founded: 1980,
+   location: "CA",
+   books: [12346789, 234567890, ...]
+}
+
+{
+    _id: 123456789,
+    title: "MongoDB: The Definitive Guide",
+    author: [ "Kristina Chodorow", "Mike Dirolf" ],
+    published_date: ISODate("2010-09-24"),
+    pages: 216,
+    language: "English"
+}
+
+{
+   _id: 234567890,
+   title: "50 Tips and Tricks for MongoDB Developer",
+   author: "Kristina Chodorow",
+   published_date: ISODate("2011-05-06"),
+   pages: 68,
+   language: "English"
+} 
+a)
+{
+   _id: "oreilly",
+   name: "O'Reilly Media",
+   founded: 1980,
+   location: "CA"
+}
+
+[
+   _id: 123456789,
+   title: "MongoDB: The Definitive Guide",
+   author: [ "Kristina Chodorow", "Mike Dirolf" ],
+   published_date: ISODate("2010-09-24"),
+   pages: 216,
+   language: "English",
+   publisher_id: "oreilly"
+]
+
+{
+   _id: 234567890,
+   title: "50 Tips and Tricks for MongoDB Developer",
+   author: "Kristina Chodorow",
+   published_date: ISODate("2011-05-06"),
+   pages: 68,
+   language: "English",
+   publisher_id: "oreilly"
+}
+b) 
+{
+   _id: "oreilly",
+   name: "O'Reilly Media",
+   founded: 1980,
+   location: "CA"
+}
+
+[
+   _id: 123456789,
+   title: "MongoDB: The Definitive Guide",
+   author: [ "Kristina Chodorow", "Mike Dirolf" ],
+   published_date: ISODate("2010-09-24"),
+   pages: 216,
+   language: "English",
+   publisher_id: "oreilly"
+]
+
+[
+   _id: 234567890,
+   title: "50 Tips and Tricks for MongoDB Developer",
+   author: "Kristina Chodorow",
+   published_date: ISODate("2011-05-06"),
+   pages: 68,
+   language: "English",
+   publisher_id: "oreilly"
+]
+c) 
+{
+   _id: "oreilly",
+   name: "O'Reilly Media",
+   founded: 1980,
+   location: "CA"
+}
+
+{
+   _id: 123456789,
+   title: "MongoDB: The Definitive Guide",
+   author: [ "Kristina Chodorow", "Mike Dirolf" ],
+   published_date: ISODate("2010-09-24"),
+   pages: 216,
+   language: "English",
+   publisher_id: "oreilly"
+}
+
+{
+   _id: 234567890,
+   title: "50 Tips and Tricks for MongoDB Developer",
+   author: "Kristina Chodorow",
+   published_date: ISODate("2011-05-06"),
+   pages: 68,
+   language: "English",
+   publisher_id: "oreilly"
+}
+d) None of the mentioned
+c
+8. __________ define what records to select for read, update, and delete operations.
+a) Query optimizer
+b) Query selector
+c) Update definitions
+d) All of the mentioned
+b
+9. The ___________ JavaScript shell and the MongoDB language drivers translate between BSON and the language-specific document representation.
+a) mongod
+b) mongo
+c) json
+d) none of the mentioned
+b
+10. Which of the following statement is incorrect about documents in MongoDB?
+a) The field names cannot start with the dollar sign ($) character
+b) The field names cannot contain the dot (.) character
+c) The field names cannot contain the null character
+d) None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Data Modeling Concepts – 2» Next - MongoDB Questions and Answers – Model Tree Structures 

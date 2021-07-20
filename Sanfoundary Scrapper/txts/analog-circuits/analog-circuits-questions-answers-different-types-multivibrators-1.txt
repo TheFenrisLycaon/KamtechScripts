@@ -1,0 +1,69 @@
+1. What is a square wave generator?
+a) Flip-flop
+b) Bi-stable multivibrator
+c) Astable multivibrator
+d) Monostable multivibrator
+c
+2. Given the circuit below, find the feedback factor.
+a) 3
+b) 1/3
+c) 4
+d) 1/4
+d
+β = 10k/30k+10k = 1/4.
+3. In an astable multivibrator using an op-amp, the feedback factor is 0.5 and the supply voltage is ±12V. What are the quasi-stable output state and the input to the non-inverting terminal?
+a) Quasi-stable output = ±12V, Input to non inverting terminal = ±12V
+b) Quasi-stable output = ±6V, Input to non inverting terminal = ±12V
+c) Quasi-stable output = ±12V, Input to non inverting terminal = ±6V
+d) Quasi-stable output = ±12V, Input to non inverting terminal = 0V
+c
+Input to non inverting terminal = ±βVSat = ±6V.
+4. What is the duty cycle of the output of an astable multivibrator?
+a) 50%
+b) 100%
+c) 75%
+d) 55%
+a
+5. Given that the feedback factor of an astable multivibrator is 0.3, find the frequency of the output.
+a) 22Hz
+b) 20kHz
+c) 20Hz
+d) 40Hz
+c
+f = 1/TO = 20Hz.
+6. Consider the following circuit and find the time period of the output of the multivibrator.
+a) 0.436 ms
+b) 0.436 seconds
+c) .5 ms
+d) 5.22 seconds
+b
+Thus time period TO = 2RCln3 = 2x20x10x10-3x1.09 = 436ms = 0.436 seconds.
+7. How can the duty cycle be changed for an astable multivibrator?
+a) By adding another capacitor to the circuit
+b) By adding diodes to the circuit
+c) By adding an inductor to the circuit
+d) The duty cycle cannot be changed
+b
+8. Given that the feedback factor is 0.6, find the time period of the circuit below.
+a) 0.331 seconds
+b) 0.303 seconds
+c) 0.276 seconds
+d) 0.606 seconds
+b
+T = 22x10x10-3xln(1.6/0.4) = 22x10x10-3x1.38 = 0.303 seconds.
+9. The monostable multivibrator has one quasi-stable state and one unknown state.
+a) True
+b) False
+b
+10. Which of these is not a type of monostable multivibrator?
+a) Schmitt trigger as a monostable multivibrator
+b) Emitter coupled monostable multivibrator
+c) Using an op-amp
+d) 555 Timer as a monostable multivibrator
+a
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – MOSFET Amplifier with CG Configuration – 2» Next - Analog Circuits Questions and Answers – Different Types of Multivibrators – 2 

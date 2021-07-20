@@ -1,0 +1,75 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in Wipro and other companies. Anyone looking for Wipro placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of C language programming interview questions on “Data Types and Sizes” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        float f1 = 0.1;        if (f1 == 0.1)            printf("equal\n");        else            printf("not equal\n");    }
+a) equal
+b) not equal
+c) output depends on the compiler
+d) error
+b
+Output:
+$ cc pgm4.c
+$ a.out
+not equal
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        float f1 = 0.1;        if (f1 == 0.1f)            printf("equal\n");        else            printf("not equal\n");    }
+a) equal
+b) not equal
+c) output depends on compiler
+d) error
+a
+Output:
+$ cc pgm5.c
+$ a.out
+equal
+3. What will be the output of the following C code on a 32-bit machine?
+    #include <stdio.h>    int main()    {        int x = 10000;        double y = 56;        int *p = &x;        double *q = &y;        printf("p and q are %d and %d", sizeof(p), sizeof(q));        return 0;    }
+a) p and q are 4 and 4
+b) p and q are 4 and 8
+c) compiler error
+d) p and q are 2 and 8
+a
+Output:
+$ cc pgm6.c
+$ a.out
+p and q are 4 and 4
+4. Which is correct with respect to the size of the data types?
+a) char > int > float
+b) int > char > float
+c) char < int < double
+d) double > char > int
+c
+5. What will be the output of the following C code on a 64 bit machine?
+    #include <stdio.h>    union Sti    {        int nu;        char m;    };    int main()    {        union Sti s;        printf("%d", sizeof(s));        return 0;    }
+a) 8
+b) 5
+c) 9
+d) 4
+d
+Output:
+$ cc pgm7.c
+$ a.out
+4
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        float x = 'a';        printf("%f", x);        return 0;    }
+a) a
+b) run time error
+c) a.0000000
+d) 97.000000
+d
+Output:
+$ cc pgm8.c
+$ a.out
+97.000000
+7. Which of the data types has the size that is variable?
+a) int
+b) struct
+c) float
+d) double
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Data Types and Sizes – 1» Next - C Programming Questions and Answers – Constants – 1 

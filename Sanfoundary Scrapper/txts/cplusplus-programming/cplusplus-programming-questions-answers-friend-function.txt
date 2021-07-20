@@ -1,0 +1,271 @@
+1. What is a friend function in C++?
+a) A function which can access all the private, protected and public members of a class
+b) A function which is not allowed to access any member of any class
+c) A function which is allowed to access public and protected members of a class
+d) A function which is allowed to access only public members of a class
+a
+2. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class Box
+{
+	int capacity;
+    public:
+	Box(int cap){
+		capacity = cap;
+	}
+ 
+	friend void show();
+};
+ 
+void show()
+{	
+	Box b(10);
+	cout<<"Value of capacity is: "<<b.capacity<<endl;
+}
+ 
+int main(int argc, char const *argv[])
+{
+	show();
+	return 0;
+}
+a) Value of capacity is: 10
+b) Value of capacity is: 100
+c) Error
+d) Segmentation fault
+a
+3. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class Box
+{
+	int capacity;
+    public:
+	Box(int cap){
+		capacity = cap;
+	}
+	friend void show();
+};
+ 
+void Box::show()
+{	
+	Box b(10);
+	cout<<"Value of capacity is: "<<b.capacity<<endl;
+}
+ 
+int main(int argc, char const *argv[])
+{
+	show();
+	return 0;
+}
+a) Value of capacity is: 10
+b) Value of capacity is: 100
+c) Error
+d) Segmentation fault
+c
+4. How many member functions are there in this C++ class excluding constructors and destructors?
+class Box
+{
+	int capacity;
+   public:
+	void print();
+	friend void show();
+	bool compare();
+	friend bool lost();
+};
+a) 1
+b) 2
+c) 3
+d) 4
+b
+5. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class B
+{
+	int b;
+   public:
+	B(int i){
+		b = i;
+	}
+};
+ 
+class C
+{
+	B b;
+    public:
+	C(int i){
+		b = B(i);
+	}
+	friend void show();
+};
+ 
+void show()
+{
+	C c(10);
+	cout<<"value of b is: "<<c.b.b<<endl;
+}
+ 
+int main(int argc, char const *argv[])
+{
+	show();
+	return 0;
+}
+a) value of b is: 10
+b) value of b is: 12345435
+c) error
+d) segmentation fault
+c
+6. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class B
+{
+	int b;
+     public:
+	B(){}
+	B(int i){
+		b = i;
+	}
+	int show(){
+		return b;
+	}
+};
+ 
+class C
+{
+	B b;
+     public:
+	C(int i){
+		b = B(i);
+	}
+	friend void show();
+};
+ 
+void show()
+{
+	C c(10);
+	cout<<"value of b is: "<<c.b.show()<<endl;
+}
+ 
+int main(int argc, char const *argv[])
+{
+	show();
+	return 0;
+}
+a) value of b is: 10
+b) value of b is: 12345435
+c) error
+d) segmentation fault
+a
+7. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class B
+{
+	int b;
+   public:
+	B(){}
+	B(int i){
+		b = i;
+	}
+	int show(){
+		return b;
+	}
+};
+ 
+class C
+{
+	B b;
+    public:
+	C(int i){
+		b = B(i);
+	}
+	friend void show(){
+ 
+		C c(10);
+		cout<<"value of b is: "<<c.b.show()<<endl;
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	show();
+	return 0;
+}
+a) value of b is: 10
+b) value of b is: 12345435
+c) error
+d) segmentation fault
+c
+8. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class B
+{
+	int b;
+    public:
+	B(){}
+	B(int i){
+		b = i;
+	}
+	int show(){
+		return b;
+	}
+};
+ 
+class C
+{
+	B b;
+    public:
+	C(int i){
+		b = B(i);
+	}
+	friend void show(){
+ 
+		C c(10);
+		cout<<"value of b is: "<<c.b.show()<<endl;
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	C c(1);
+	c.show();
+	return 0;
+}
+a) value of b is: 10
+b) value of b is: 12345435
+c) error
+d) segmentation fault
+c
+9. Pick the correct statement.
+a) Friend functions are in the scope of a class
+b) Friend functions can be called using class objects
+c) Friend functions can be invoked as a normal function
+d) Friend functions can access only protected members not the private members
+c
+10. Which of the following is correct about friend functions?
+a) Friend functions use the dot operator to access members of a class using class objects
+b) Friend functions can be private or public
+c) Friend cannot access the members of the class directly
+d) All of the mentioned
+d
+11. Which keyword is used to represent a friend function?
+a) friend
+b) Friend
+c) friend_func
+d) Friend_func
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Friends» Next - C++ Programming Questions and Answers – Large Objects 

@@ -1,0 +1,64 @@
+1. “Rabin Cryptosystem is a variant of the Elgamal Cryptosystem”
+a) True
+b) False
+b
+2. Using Rabin cryptosystem with p=23 and q=7
+Encrypt P=24 to find ciphertext. The Cipher text is
+a) 42
+b) 93
+c) 74
+d) 12
+b
+Plaintext P = 24
+Ciphertext = C ≡ P2 (mod n)
+                        = 242 mod 161 = 93 mod 161
+Ciphertext transmitted = 93.
+3. Which Cryptographic system uses C1 = (e1r) mod p and C1 = (e2r x P) mod p at the encryption side?
+a) Elgamal
+b) RSA
+c) Rabin
+d) Whirlpool
+a
+4. Sender chooses p = 107, e1 = 2, d = 67, and the random integer is r=45. Find the plaintext to be transmitted if the ciphertext is (28,9).
+a) 45
+b) 76
+c) 66
+d) 13
+c
+5. In Elgamal cryptosystem, given the prime p=31.
+Choose e1= first primitive root of p and d=10, calculate e2.
+a) 24
+b) 36
+c) 25
+d) 62
+c
+6. In Elgamal cryptosystem, given the prime p=31.
+Encrypt the message “HELLO”; use 00 to 25 for encoding. The value of C2 for character ‘L’ is
+a) 12
+b) 07
+c) 20
+d) 27
+d
+P = “L” = 11;  C1 = 37 mod 31 = 17; C2 = 11 x 25 mod 31 = 27; C = (17,27).
+7. In Elgamal cryptosystem, given the prime p=31.
+Encrypt the message “HELLO”; use 00 to 25 for encoding. The value of C2 for character ‘O’ is
+a) 09
+b) 07
+c) 23
+d) 27
+a
+P = “O” = 14;  C1 = 37 mod 31 = 17; C2 = 14 x 25 mod 31 = 09; C = (17,09).
+8. In Elgamal cryptosystem, given the prime p=31.
+What is the respective plaintext character for C = (27, 20)?
+a) H
+b) L
+c) O
+d) M
+a
+C = 17, 20); P = 20 X (1710)-1 mod 31 = 07;  “07” = “H”.
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Asymmetric Ciphers Questions and Answers – Number Theory – V» Next - Asymmetric Ciphers Questions and Answers – Knapsack/ Merkle – Hellman/ RSA Cryptosystem – I 

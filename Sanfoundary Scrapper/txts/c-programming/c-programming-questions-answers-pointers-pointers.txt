@@ -1,0 +1,56 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Mindtree and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Mindtree interviews on C Programming language. 
+Here is a listing of C programming questions on “Pointers to Pointers” along with answers, explanations and/or solutions:
+1. What substitution should be made to //-Ref such that ptr1 points to variable c in the following C code?
+    #include <stdio.h>    int main()    {        int a = 1, b = 2, c = 3;        int *ptr1 = &a;        int **sptr = &ptr1;        //-Ref    }
+a) *sptr = &c;
+b) **sptr = &c;
+c) *ptr1 = &c;
+d) none of the mentioned
+a
+2. Which of the following declaration will result in run-time error?
+a) int **c = &c;
+b) int **c = &*c;
+c) int **c = **c;
+d) none of the mentioned
+d
+3. Comment on the output of the following C code.
+    #include <stdio.h>    int main()    {        int a = 10;        int **c -= &&a;    }
+a) You cannot apply any arithmetic operand to a pointer
+b) We don’t have address of an address operator
+c) We have address of an address operator
+d) None of the mentioned
+b
+4. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int k = 5;        int *p = &k;        int **m  = &p;        printf("%d%d%d\n", k, *p, **m);    }
+a) 5 5 5
+b) 5 5 junk value
+c) 5 junk junk
+d) Compile time error
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int k = 5;        int *p = &k;        int **m  = &p;        printf("%d%d%d\n", k, *p, **p);    }
+a) 5 5 5
+b) 5 5 junk value
+c) 5 junk junk
+d) Compile time error
+d
+6. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int k = 5;        int *p = &k;        int **m  = &p;        **m = 6;        printf("%d\n", k);    }
+a) 5
+b) Run time error
+c) 6
+d) Junk
+c
+7. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int a[3] = {1, 2, 3};        int *p = a;        int *r = &p;        printf("%d", (**r));    }
+a) 1
+b) Compile time error
+c) Address of a
+d) Junk value
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Pointers to Pointers – 1» Next - C Programming Questions and Answers – Multidimensional Arrays – 1 

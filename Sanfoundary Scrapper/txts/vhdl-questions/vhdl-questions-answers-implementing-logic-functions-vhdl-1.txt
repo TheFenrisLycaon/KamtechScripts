@@ -1,0 +1,89 @@
+1. Which of the following represents the correct order?
+a) Given function, optimized function, implementation
+b) Optimized function, implementation, given function
+c) Implementation, optimized function, given function
+d) Given function, implementation, optimized function
+a
+2. Which of the following will reduce the cost of implementation?
+a) Implementing with only one modeling style
+b) Implementing with dataflow modeling
+c) Optimization
+d) Generating Net list first
+c
+3. Which of the following is not a method of optimization of logic function?
+a) Tabular method
+b) By using Boolean laws
+c) K-map
+d) Rectangular method
+d
+4. Which of the following k-map represents the following given function?
+y = AB + AB’C + A’BC
+a) 
+b) 
+c)
+d) 
+d
+5. Which of the following is equivalent to the Boolean expression A + AB?
+a) A
+b) B
+c) AB
+d) A + B
+a
+6. Which of the following assignment statement is not generally used in the implementation of Boolean functions?
+a) Concurrent assignment
+b) Sequential assignment
+c) Conditional assignment
+d) Selected assignment
+b
+7. Which of the following are prime implicants of the following Boolean function?
+Y= AB + BC'D’ + BCD'
+a) A, B, C, D
+b) AB, BC’D’, BCD’
+c) AB, BD’
+d) AB, CD
+b
+8. How many logical operations are required to implement a Boolean function XY + X?
+a) 0
+b) 1
+c) 2
+d) 3
+a
+9. Look the code given below. Which of the following option is implemented by the VHDL code?
+ARCHITECTURE my_func OF my_logic IS
+BEGIN
+y <= a AND (b XNOR c);
+END my_func;
+a) B’C’ + BC
+b) AB’ + A’B
+c) AB’C’
+d) ABC + AB’C’
+d
+10. What is the VHDL code for the logical function AB’C + ABC + BC?
+a)
+   ARCHITECTURE my_logic OF my_logic IS
+    BEGIN
+    y <= (a AND b AND c) AND (b AND c);
+   END ARCHITECTURE;
+b)
+   ARCHITECTURE my_logic OF my_logic IS
+    BEGIN
+    y <= (a AND c) OR (b AND c);
+   END ARCHITECTURE;
+c)
+   ARCHITECTURE my_logic OF my_logic IS
+    BEGIN
+    y <= (a AND c) AND (b OR c);
+   END ARCHITECTURE;
+d)
+   ARCHITECTURE my_logic OF my_logic IS
+    BEGIN
+    y <= (a AND b AND c) OR (b AND c);
+   END ARCHITECTURE;
+b
+  
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Asynchronous Preset and Clear» Next - VHDL Questions and Answers – Implementing Logic Functions with VHDL – 2 

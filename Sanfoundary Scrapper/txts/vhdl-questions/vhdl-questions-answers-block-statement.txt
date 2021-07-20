@@ -1,0 +1,128 @@
+1. What do you mean by a block?
+a) An object of architecture
+b) Interconnection of two or more signals
+c) A part of an entity
+d) A sub module in an architecture body
+d
+2. Which of the following is correct syntax for block definition?
+a)
+    label : BLOCK
+    declarative_part;
+    BEGIN
+    concurrent_statements;
+    end BLOCK label;
+b)
+    label : BLOCK
+    declarative_part;
+    BEGIN
+    concurrent_statements;
+    end label BLOCK;
+c)
+    BLOCK block_name;
+    declarative_part;
+    BEGIN
+    concurrent_statements;
+    end BLOCK block_name;
+d)
+    BLOCK block_name
+    declarative_part;
+    BEGIN
+    sequential_statements;
+    end BLOCK;
+a
+  
+3. What is the scope of variables or signals declared in the block statement?
+a) Global to the design
+b) Local to the architecture
+c) Local to the block itself
+d) Local to the entity of which architecture is defined
+c
+4. Which of the following defines the interface to the block?
+a) Block declaration part
+b) Block header
+c) Block statement part
+d) Generic declaration part
+b
+5. Guarded block has an extra ________ expression.
+a) Conditional
+b) Declarative
+c) Block
+d) Guard
+d
+6. What should be the type of the value of guard expression?
+a) BOOLEAN
+b) INTEGER
+c) REAL
+d) BIT_VECTOR
+a
+7. What is the main purpose of using blocks?
+a) To improve reusability
+b) To improve conditional execution
+c) To improve readability
+d) To improve speed of execution
+c
+8. Guarded blocks are synthesizable.
+a) True
+b) False
+b
+9. Which of the following is better for design partitioning?
+a) Guarded block
+b) Unguarded block
+c) Component instantiation
+d) Component declaration
+c
+10. A block can be nested within another block.
+a) True
+b) False
+a
+11. Which of the following is true about guarded blocks?
+a) Guarded blocks can have only guarded statements
+b) Guarded blocks can have both guarded as well as unguarded statements
+c) Guarded blocks are executed when guarded expression is false
+d) Guarded expression can have BIT type
+b
+12. Which of the following statement is used to describe regular structures?
+a) BLOCK
+b) GENERATE
+c) USE
+d) GUARDED BLOCK
+b
+13. What will be the values of out1 and out2?
+ARCHITECTURE bhv OF example IS
+CONSTANT out1 : BIT;
+CONSTANT out2 : BIT;
+BEGIN
+B1 : BLOCK
+CONSTANT S : BIT := 0;
+BEGIN
+B1-1 : BLOCK
+SIGNAL S : BIT := 1;
+BEGIN
+out1 &lt;= S;
+END BLCOK B1-1;
+out2 &lt;= S;
+END BLOCK B1;
+END bhv;
+a) out1 = 0 and out2 = 0
+b) out1 = 0 and out2 = 1
+c) out1 = 1 and out2 = 0
+d) out1 = 1 and out2 = 1
+c
+14. What is the use of FOR generation?
+a) For describing the exceptional signals
+b) For describing the repeating structures
+c) For describing half adder circuit
+d) For any exceptional cases of structure
+b
+15. Which of the following is the use of IF generation?
+a) To handle repeating pattern of design
+b) To handle exceptional cases of design
+c) To design full adder circuit
+d) To connect input instances with output
+b
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Generics» Next - VHDL Questions and Answers – Structural Modelling – 1 

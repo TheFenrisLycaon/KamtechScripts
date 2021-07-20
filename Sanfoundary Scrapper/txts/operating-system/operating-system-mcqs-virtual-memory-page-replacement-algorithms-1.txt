@@ -1,0 +1,102 @@
+1. Which of the following page replacement algorithms suffers from Belady’s Anomaly?
+a) Optimal replacement
+b) LRU
+c) FIFO
+d) Both optimal replacement and FIFO
+c
+2. A process refers to 5 pages, A, B, C, D, E in the order : A, B, C, D, A, B, E, A, B, C, D, E. If the page replacement algorithm is FIFO, the number of page transfers with an empty internal store of 3 frames is?
+a) 8
+b) 10
+c) 9
+d) 7
+c
+3. In question 2, if the number of page frames is increased to 4, then the number of page transfers ____________
+a) decreases
+b) increases
+c) remains the same
+d) none of the mentioned
+b
+4. A memory page containing a heavily used variable that was initialized very early and is in constant use is removed, then the page replacement algorithm used is ____________
+a) LRU
+b) LFU
+c) FIFO
+d) None of the mentioned
+c
+5. A virtual memory system uses First In First Out (FIFO) page replacement policy and allocates a fixed number of frames to a process. Consider the following statements.
+ P : Increasing the number of page frames allocated to a process sometimes increases the page fault rate
+ Q : Some programs do not exhibit locality of reference
+Which of the following is TRUE?
+a) Both P and Q are true, and Q is the reason for P
+b) Both P and Q are true, but Q is not the reason for P
+c) P is false but Q is true
+d) Both P and Q are false
+c
+6. Users _______ that their processes are running on a paged system.
+a) are aware
+b) are unaware
+c) may unaware
+d) none of the mentioned
+b
+7. If no frames are free, _____ page transfer(s) is/are required.
+a) one
+b) two
+c) three
+d) four
+b
+8. When a page is selected for replacement, and its modify bit is set ____________
+a) the page is clean
+b) the page has been modified since it was read in from the disk
+c) the page is dirty
+d) the page has been modified since it was read in from the disk & page is dirty
+d
+9. The aim of creating page replacement algorithms is to ____________
+a) replace pages faster
+b) increase the page fault rate
+c) decrease the page fault rate
+d) to allocate multiple pages to processes
+c
+10. A FIFO replacement algorithm associates with each page the _______
+a) time it was brought into memory
+b) size of the page in memory
+c) page after and before it
+d) all of the mentioned
+a
+11. What is the Optimal page – replacement algorithm?
+a) Replace the page that has not been used for a long time
+b) Replace the page that has been used for a long time
+c) Replace the page that will not be used for a long time
+d) None of the mentioned
+c
+12. Optimal page – replacement algorithm is difficult to implement, because ____________
+a) it requires a lot of information
+b) it requires future knowledge of the reference string
+c) it is too complex
+d) it is extremely expensive
+b
+13. LRU page – replacement algorithm associates with each page the ______
+a) time it was brought into memory
+b) the time of that page’s last use
+c) page after and before it
+d) all of the mentioned
+b
+14. For 3 page frames, the following is the reference string:
+ 7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1
+How many page faults does the LRU page replacement algorithm produce?
+a) 10
+b) 15
+c) 11
+d) 12
+d
+15. What are the two methods of the LRU page replacement policy that can be implemented in hardware?
+a) Counters
+b) RAM & Registers
+c) Stack & Counters
+d) Registers
+c
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions & Answers – Virtual Memory – Demand Paging» Next - Operating System Questions & Answers – Virtual Memory – Page Replacement Algorithms – 2 

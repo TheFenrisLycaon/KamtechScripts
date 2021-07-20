@@ -1,0 +1,74 @@
+1. Relate the following statement:
+Statement: All sufficiently long words in a regular language can have a middle section of words repeated a number of times to produce a new word which also lies within the same language.
+a) Turing Machine
+b) Pumping Lemma
+c) Arden’s theorem
+d) None of the mentioned
+b
+2. While applying Pumping lemma over a language, we consider a string w that belong to L and fragment it into _________ parts.
+a) 2
+b) 5
+c) 3
+d) 6
+c
+3. If we select a string w such that w∈L, and w=xyz. Which of the following portions cannot be an empty string?
+a) x
+b) y
+c) z
+d) all of the mentioned
+b
+4. Let w= xyz and y refers to the middle portion and |y|>0.What do we call the process of repeating y 0 or more times before checking that they still belong to the language L or not?
+a) Generating
+b) Pumping
+c) Producing
+d) None of the mentioned
+b
+5. There exists a language L. We define a string w such that w∈L and w=xyz and |w| >=n for some constant integer n.What can be the maximum length of the substring xy i.e. |xy|<=?
+a) n
+b) |y|
+c) |x|
+d) none of the mentioned
+a
+6. Fill in the blank in terms of p, where p is the maximum string length in L.
+Statement: Finite languages trivially satisfy the pumping lemma by having n = ______
+a) p*1
+b) p+1
+c) p-1
+d) None of the mentioned
+b
+7. Answer in accordance to the third and last statement in pumping lemma:
+For all _______ xyiz ∈L
+a) i>0
+b) i<0
+c) i<=0
+d) i>=0
+d
+x= uvw
+|uv|<=n
+|v|>0
+for any m>=0, uvmw ∈L.
+8. If d is a final state, which of the following is correct according to the given diagram?
+a) x=p, y=qr, z=s
+b) x=p, z=qrs
+c) x=pr, y=r, z=s
+d) All of the mentioned
+a
+9. Let w be a string and fragmented by three variable x, y, and z as per pumping lemma. What does these variables represent?
+a) string count
+b) string
+c) both (a) and (b)
+d) none of  the mentioned
+a
+10. Which of the following one can relate to the given statement:
+Statement: If n items are put into m containers, with n>m, then atleast one container must contain more than one item.
+a) Pumping lemma
+b) Pigeon Hole principle
+c) Count principle
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Properties-Non Regular Languages» Next - Automata Theory Questions and Answers –  Applications of Pumping Lemma/Pigeonhole principle 

@@ -1,0 +1,99 @@
+1. Which of the following is the basic building block of a design?
+a) Architecture
+b) Entity
+c) Process
+d) Package
+b
+2. A package in VHDL consists of _________
+a) Commonly used architectures
+b) Commonly used tools
+c) Commonly used data types and subroutines
+d) Commonly used syntax and variables
+c
+3. Complete description of the circuit to be designed is given in _________
+a) Architecture
+b) Entity
+c) Library
+d) Configurations
+a
+4. An entity can have more than one architecture.
+a) True
+b) False
+a
+5. What is the use of the Configuration statement?
+a) To configure the components exactly in design
+b) To complete the design process by adding libraries
+c) To add more than one entities into a single architecture
+d) To add some component in any entity architecture pair
+d
+6. In VHDL, Bus is a type of ________
+a) Signal
+b) Constant
+c) Variable
+d) Driver
+a
+7. What is the use of Generics in VHDL?
+a) To turn on and off the drivers
+b) To pass information to the entity
+c) To describe architecture
+d) To divide code into small processes
+b
+8. Driver can be seen as a _______ of the signal.
+a) Part
+b) Type
+c) Final value
+d) Source
+d
+9. Predefined data for an VHDL object is called ________
+a) Generic
+b) Constant
+c) Attribute
+d) Library
+c
+10. A process is the basic unit of execution in VHDL.
+a) True
+b) False
+a
+11. Which of the following describes the structure of VHDL code correctly?
+a) Library Declaration; Entity Declaration; Architecture Declaration; Configurations
+b) Entity Declaration; Configuration; Library Declaration; Architecture Declaration
+c) Configuration; Library Declaration; Entity Declaration; Architecture Declaration
+d) Library Declaration; Configuration; Entity Declaration; Architecture Declaration
+a
+12. Which of the following statement is true?
+a) Package is a collection of Libraries
+b) Library is a collection of Packages
+c) Entity is a collection of Packages
+d) Architecture is a collection of Entities
+b
+13. Which of the following is used at the end of a statement?
+a) ; (Semicolon)
+b) — ( double hyphen)
+c) _ (underscore)
+d) No sign is used at the end of statement
+a
+14. Which of the following is correctly declared library for VHDL code?
+a)
+LIBRARY library_name;
+USE package_name.parts;
+b)
+LIBRARY package_name.parts;
+LIBRARY library_name;
+c)
+USE library_name;
+LIBRARY library_name.package_name.parts
+d)
+LIBRARY library_name;
+USE library_name.package_name.parts
+d
+  
+15. One can’t use more than one library in the VHDL code.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Need of HDLs» Next - VHDL Questions and Answers – Entity and Its Declaration 

@@ -1,0 +1,69 @@
+1. The ring counter is a serial shift register with feedback from the output of the last flip-flop to the input of the first flip-flop.
+a) True
+b) False
+a
+2. Which of the following flip-flop is used by the ring counter?
+a) D flip-flops
+b) SR flip-flops
+c) JK flip-flops
+d) T flip-flops
+a
+3. ‘shift_reg’ is used to initialize the _____________ in the shift register.
+a) LSB
+b) MSB
+c) Register type
+d) Register bits
+b
+(signal shift_reg : STD_LOGIC_VECTOR(7 downto 0) := X”80″;)
+4. How many types of shift operators are there in VHDL?
+a) Three
+b) Four
+c) Five
+d) Six
+d
+5. How many types of the data type are there in the ring counter?
+a) One
+b) Two
+c) Three
+d) More than three
+d
+6. In __________ counter universal clock is not used.
+a) Synchronous counter
+b) Asynchronous counter
+c) Decade counter
+d) Ring counter
+b
+7. Synchronous counter use ________ global clock, unlike asynchronous counter.
+a) One
+b) Two
+c) Three
+d) zero
+a
+8. Asynchronous counters are generally used in circuits with higher frequency, where a large number of bits are involved.
+a) True
+b) False
+b
+9. How many different states does a decade counter count?
+a) Eight
+b) Nine
+c) Ten
+d) Eleven
+c
+10. The number of flip-flops used in a counter is _________ number of states in the counter.
+a) Greater than
+b) Less than
+c) Equal to
+d) Greater than equal to
+d
+11. Two decade counters cascaded together will divide the input frequency by ________
+a) 10
+b) 100
+c) 1000
+d) 10000
+b
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Designing Shift Registers with VHDL» Next - VHDL Questions and Answers – Designing Moore Type FSM with VHDL 

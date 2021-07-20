@@ -1,0 +1,69 @@
+1. What are generic methods?
+a) Generic methods are the methods defined in a generic class
+b) Generic methods are the methods that extend generic class methods
+c) Generic methods are methods that introduce their own type parameters
+d) Generic methods are methods that take void parameters
+c
+2. Which of these type parameters is used for a generic methods to return and accept any type of object?
+a) K
+b) N
+c) T
+d) V
+c
+3. Which of these type parameters is used for a generic methods to return and accept a number?
+a) K
+b) N
+c) T
+d) V
+b
+4. Which of these is an correct way of defining generic method?
+a) <T1, T2, …, Tn> name(T1, T2, …, Tn) { /* … */ }
+b) public <T1, T2, …, Tn> name<T1, T2, …, Tn> { /* … */ }
+c) class <T1, T2, …, Tn> name[T1, T2, …, Tn] { /* … */ }
+d) <T1, T2, …, Tn> name{T1, T2, …, Tn} { /* … */ }
+b
+5. Which of the following allows us to call generic methods as a normal method?
+a) Type Interface
+b) Interface
+c) Inner class
+d) All of the mentioned
+a
+6. What will be the output of the following Java program?
+    import java.util.*;    public class genericstack <E>    {        Stack <E> stk = new Stack <E>();	public void push(E obj)         {            stk.push(obj);	}	public E pop()         {            E obj = stk.pop();	    return obj;	}    }    class Output    {        public static void main(String args[])        {            genericstack <String> gs = new genericstack<String>();            gs.push("Hello");            System.out.println(gs.pop());        }    }
+a) H
+b) Hello
+c) Runtime Error
+d) Compilation Error
+b
+Output:
+$ javac Output.javac
+$ java Output
+Hello
+7. What will be the output of the following Java program?
+    import java.util.*;    public class genericstack <E>    {        Stack <E> stk = new Stack <E>();	public void push(E obj)        {            stk.push(obj);	}        public E pop()        {            E obj = stk.pop();	    return obj;	}    }    class Output    {        public static void main(String args[])        {            genericstack <Integer> gs = new genericstack<Integer>();            gs.push(36);            System.out.println(gs.pop());        }    }
+a) 0
+b) 36
+c) Runtime Error
+d) Compilation Error
+b
+Output:
+$ javac Output.javac
+$ java Output
+36
+8. What will be the output of the following Java program?
+    import java.util.*;    public class genericstack <E>    {        Stack <E> stk = new Stack <E>();        public void push(E obj)        {            stk.push(obj);	}	public E pop()        {            E obj = stk.pop();	    return obj;	}    }    class Output     {        public static void main(String args[])         {            genericstack <String> gs = new genericstack<String>();            gs.push("Hello");            System.out.print(gs.pop() + " ");            genericstack <Integer> gs = new genericstack<Integer>();            gs.push(36);            System.out.println(gs.pop());        }    }
+a) Error
+b) Hello
+c) 36
+d) Hello 36
+d
+Output:
+$ javac Output.javac
+$ java Output
+Hello 36
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Generics» Next - Java Questions & Answers – Restrictions on Generics 

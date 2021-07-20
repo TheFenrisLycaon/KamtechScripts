@@ -1,0 +1,129 @@
+1. Cramer’s Rule fails for ___________
+a) Determinant > 0
+b) Determinant < 0
+c) Determinant = 0
+d) Determinant = non-real
+c
+2. Cramer’s Rule is not suitable for which type of problems?
+a) Small systems with 4 unknowns
+b) Systems with 2 unknowns
+c) Large systems
+d) Systems with 3 unknowns
+c
+3. Apply Cramer’s rule to solve the following equations.
+3x + y + 2z = 3
+2x – 3y –z = -3
+X +2y +z = 4
+a) X = 1, y = 2, z = -1
+b) X = 2, y = 1, z = -1
+c) X = 2, y = -1, z = 1
+d) X = 1, y = -1, z = 2
+a
+∆ = \(\begin{pmatrix}3&1&2\\2&-3&-1\\1&2&1\end{pmatrix}\) = 8
+X = (1/∆)\(\begin{pmatrix}3&1&2\\-3&-3&-1\\4&2&1\end{pmatrix}\) = (1/8)8 = 1
+Y = (1/∆)\(\begin{pmatrix}3&3&2\\2&-3&-1\\1&4&1\end{pmatrix}\) = (1/8)16 = 2
+Z = (1/∆)\(\begin{pmatrix}3&1&3\\2&-3&-3\\1&2&4\end{pmatrix}\) = (1/8)(-8) = -1
+Hence, x = 1, y = 2, z = -1.
+4. Apply Cramer’s rule to solve the following equations.
+x + 3y + 6z = 2
+3x – y + z = 9
+X – 4y + 2z = 7
+a) X = 1, y = 2, z = -1
+b) X = 2, y = – 1, z = -0.5
+c) X = 1, y = 2, z = -0.5
+d) X = 2, y = 2, z = -1
+b
+∆ = \(\begin{pmatrix}1&3&6\\3&-1&4\\1&-4&2\end{pmatrix}\) = -58
+X = (1/∆) = \(\begin{pmatrix}2&3&6\\9&-1&4\\7&-4&2\end{pmatrix}\) = -116/-58 = 2
+Y = (1/∆) = \(\begin{pmatrix}1&2&6\\3&9&4\\1&7&2\end{pmatrix}\) = 58/-58 = -1
+Z = (1/∆) = \(\begin{pmatrix}1&3&2\\3&-1&9\\1&-4&7\end{pmatrix}\) = -29/-58 = 0.5
+Hence, x = 2, y = -1, z = -0.5.
+5. Apply Cramer’s rule to solve the following equations.
+x + y + z = 6.6
+x – y + z = 2.2
+x + 2y + 3z = 15.2
+a) x = 1.5, y = 2.2, z = -0.5
+b) x = 1.5, y = 2.2, z = -0.5
+c) x = 1.2, y = 2, z = 3.2
+d) x =  1.2, y = 2.2, z = -3.2
+c
+∆ = \(\begin{pmatrix}1&1&1\\1&-1&1\\1&2&3\end{pmatrix}\) = -4
+X = (1/∆) = \(\begin{pmatrix}6.6&1&1\\2.2&-1&1\\15.2&2&3\end{pmatrix}\) = -4.8/-4 = 1.2
+Y = (1/∆) = \(\begin{pmatrix}1&6.6&1\\1&2.2&1\\1&15.2&3\end{pmatrix}\)  = -8.8/-4 = 2.2
+Z = (1/∆) = \(\begin{pmatrix}1&1&6.6\\1&-1&2.2\\1&2&15.2\end{pmatrix}\) = -12.8/-4 = 3.2
+Hence, x = 1.2, y = 2.2, z = 3.2.
+6. Apply Cramer’s rule to solve the following equations.
+x + y + z =3
+x + 2y + 3z = 4
+x + 4y + 9z = 1
+a) x = -0.5, y = 6, z = -2.5
+b) x = -0.5, y = 4, z = -2.5
+c) x = 4.5, y = 6, z = 1
+d) x = 4.5, y = 6, z = 2
+a
+∆ = \(\begin{pmatrix}1&1&1\\1&2&3\\1&4&9\end{pmatrix}\) = 2
+X = (1/∆) = \(\begin{pmatrix}3&1&1\\4&2&3\\1&4&9\end{pmatrix}\) = -0.5
+Y = (1/∆) = \(\begin{pmatrix}1&3&1\\1&4&3\\1&1&9\end{pmatrix}\) = 6
+Z = (1/∆) = \(\begin{pmatrix}1&1&3\\1&2&4\\1&4&1\end{pmatrix}\) = -2.5
+Hence, X = -0.5, y = 6, z = -2.5.
+7. Apply Cramer’s rule to solve the following equations.
+2x – y + z = 3
+3x + 2y + 4z = 19
+6x + 7y – z = 17
+a) X = 0.456, y = 1.5442, z = 3.154
+b) X = 0.437, y = 1.5312, z = 3.656
+c) X = 0.356, y =2.547, z = 5.474
+d) X = 0.356, y = 1.722, z = 9.424
+b
+∆ = \(\begin{pmatrix}2&-1&1\\3&4&3\\6&7&1\end{pmatrix}\) = -64
+x = (1/∆) = \(\begin{pmatrix}3&-1&1\\19&4&3\\17&7&1\end{pmatrix}\) = -28/-64 = 0.437
+y = (1/∆) = \(\begin{pmatrix}2&3&1\\3&19&3\\6&17&1\end{pmatrix}\) = -98/-64 = 1.5312
+z = (1/∆) = \(\begin{pmatrix}2&-1&3\\3&4&19\\6&7&17\end{pmatrix}\) = -234/-64 = 3.656
+Hence, X = 0.437, y = 1.5312, z = 3.656.
+8. Apply Cramer’s rule to solve the following equations.
+3x + y + z = 8
+2x – 3y -2z = -5
+7x + 2y – 5z = 0
+a) X = 1, y =4, z = 2.5
+b) X = 4.562, y =4, z = 3.1
+c) X = 0.2179, y =1, z = 2.5
+d) X = 4.2, y =4, z = 3.145
+c
+∆ = \(\begin{pmatrix}3&1&1\\2&-3&-2\\7&2&-5\end{pmatrix}\) = 78
+x = (1/∆) = \(\begin{pmatrix}8&1&1\\-5&-3&-2\\0&2&-5\end{pmatrix}\) = 117/78 = 0.2179
+y = (1/∆) = \(\begin{pmatrix}3&8&1\\2&-5&-2\\7&0&-5\end{pmatrix}\) = 78/78 = 1
+z = (1/∆) = \(\begin{pmatrix}3&1&8\\2&-3&-5\\7&2&5\end{pmatrix}\) = 195/78 = 2.5
+Hence, X = 0.2179, y =1, z = 2.5.
+9. Apply Cramer’s rule to solve the following equations.
+2x + y + z = 10
+3x + 2y + 3z = 18
+X + 4y +9z = 16
+a) X = -9, y = 1, z = 5
+b) X = 7, y = -9, z = 5
+c) X = 7, y = 1, z = 5
+d) X = 9, y = 1, z = 3
+b
+∆ = \(\begin{pmatrix}2&1&1\\3&2&3\\1&4&9\end{pmatrix}\) = -2
+x = (1/∆) = \(\begin{pmatrix}10&1&1\\18&2&3\\16&4&9\end{pmatrix}\) = -14/-2 = 7
+y = (1/∆) = \(\begin{pmatrix}2&10&1\\3&18&3\\1&16&9\end{pmatrix}\) = 18/-2 = -9
+z = (1/∆) = \(\begin{pmatrix}2&1&10\\3&2&18\\1&4&16\end{pmatrix}\) = -10/-2 = 5
+Hence, X = 7, y = -9, z = 5.
+10. Apply Cramer’s rule to solve the following equations.
+2x – y + 3z = 9
+x + y + z = 6
+x – y + z = 2
+a) x =  1, y = 2, z = 3
+b) x =  2, y = 2, z = 3
+c) x =  2, y = 3, z = 7
+d) x =  1, y = 3, z = 8
+a
+x = (1/∆) = \(\begin{pmatrix}9&-1&3\\6&1&1\\2&-1&1\end{pmatrix}\) = -2/-2 = 1
+y = (1/∆) = \(\begin{pmatrix}2&9&3\\1&6&1\\1&2&1\end{pmatrix}\) = -4/-2 = 2
+z = (1/∆) = \(\begin{pmatrix}2&-1&9\\1&1&6\\1&-1&2\end{pmatrix}\) = -6/-2 = 3
+Hence, X = 1, y = 2, z = 3.
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Methods, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Matrix Inversion Questions and Answers – Gauss Seidel Method» Next - Matrix Inversion Questions and Answers – Jacobi’s Iteration Method 

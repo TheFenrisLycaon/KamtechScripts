@@ -1,0 +1,65 @@
+1. The LOCAL capability for LOAD DATA does not need to be enabled explicitly.
+a) True
+b) False
+a
+2. The LOCAL capability for client library is enabled by ______________
+a) –enabled-local-file
+b) –enable-local-infile
+c) –enable-global-file
+d) –enable-local-file
+b
+3. What is the most important configurable resource for MyISAM?
+a) key cache
+b) memory cache
+c) time cache
+d) speed cache
+a
+4. How many options can be used to control LOCAL capability at runtime?
+a) 0
+b) 1
+c) 2
+d) 3
+c
+5. A multiple-table delete cannot apply any join.
+a) True
+b) False
+b
+Join [email protected]
+6. abc in the following MySQL statement is ___________
+DELETE FROM xyz WHERE abc = 5;
+a) column name
+b) table name
+c) row name
+d) database name
+a
+7. ‘x’ in the following MySQL statement is ____________
+DELETE FROM x USING x LEFT JOIN y ON x.col = y.col;
+a) column name
+b) table name
+c) server name
+d) database name
+b
+8. The mode used to turn off the special meaning of backslash and treat it as an ordinary character is _____________
+a) NO_ESCAPES_SLASH
+b) NO_ESCAPES_BACKSLASH
+c) NO_BACKSLASH_ESCAPES
+d) NO_BACKSLASH_ESCAPE
+c
+9. What is x’ffff’ in decimal?
+a) 65534
+b) 66535
+c) 65536
+d) 65537
+c
+10. What are X’61626364′ and X’61626364′?
+a) abcd and 1633837924
+b) abcd and 4297383361
+c) dcba and 1633837924
+d) dcba and 4297383361
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL for Campus Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Storage Engine Configuration» Next - MySQL Questions and Answers – Internationalization and Localization Issues 

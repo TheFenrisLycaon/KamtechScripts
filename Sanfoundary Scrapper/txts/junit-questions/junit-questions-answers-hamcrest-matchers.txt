@@ -1,0 +1,66 @@
+1. ________________ is a library that contains a lot of helpful matcher objects , ported in several languages.
+a) Java
+b) Pygame
+c) AllenWake
+d) Hamcrest
+d
+2. Hamcrest is not a ______________ framework in itself.
+a) Matching
+b) Testing
+c) Asserting
+d) Checking
+b
+3. The package for the assertThat() function is?
+a) org.hamcrest.CoreMatchers.assertThat
+b) org.junit.Assert.assertThat
+c) org.junit.JunitMatchers.assertThat
+d) org.junit.hasItem.assertThat
+b
+4. ______________ Hamcrest matcher can be used to match absolutely everything.
+a) Is
+b) AnyOf
+c) Anything
+d) Not
+c
+5. ______ is used only to improve the readability of the statements.
+a) anything
+b) is
+c) sameInstance
+d) nullValue
+b
+6. Which Hamcrest matcher is just like the && operator?
+a) Is
+b) Anything
+c) sameInstance
+d) allOf
+d
+7. ________ checks to see if any of the contained matchers match.
+a) anyOf
+b) allOf
+c) instanceOf
+d) notNull
+a
+8. ___________ traverses the meaning of the contained matchers.
+a) not
+b) or
+c) allOf
+d) andAll
+a
+9. The instanceOf matcher is equivalent to ________
+a) isCompatibleType
+b) isCompatible
+c) isInstance
+d) isSame
+a
+10. ___________ is used to test object identity.
+a) instanceOf
+b) isCompatibleType
+c) type
+d) sameInstance
+d
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Timeout Testing» Next - JUnit Questions and Answers – Need for Unit Tests 

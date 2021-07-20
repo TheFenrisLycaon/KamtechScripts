@@ -1,0 +1,82 @@
+1. For any cascaded amplifier network, which of these are incorrect?
+a) Cascading increases gain
+b) Overall input resistance is equal to the input resistance of the first amplifier
+c) The overall output resistance is less than the lowest output resistance in all amplifiers used
+d) Loading effect occurs
+c
+2. Consider the circuit.
+Loading effect occurs when ______________
+a) R2 is small
+b) A1 is small
+c) R2 is large
+d) A2 is large
+a
+3. Consider the circuit shown.
+Find internal voltage gain of the network given gm = 50mΩ-1 and β = 100.
+a) 100
+b) -90
+c) 90
+d) 95
+c
+For this, voltage gain is AV = -gmRL’/1+gmRE
+A2 = -50 x 5/1 + 50 x 0.2 = -22.7
+RL1 = 5k||RI2
+RI2 = rπ + (1+β)RE = 100/50m + 101 x 0.2k = 2k + 20.2k = 22.2k
+RL1 = 4.08kΩ
+A1 = -50×4.08/1+ 50×1 = – 4
+Gain = A’ = A1 x A2 = 90.8.
+4. Cascading increases lower cut-off frequencies.
+a) True
+b) False
+a
+For N>=2, \(\sqrt{2^{1/N}}-1\) < 1, thus fL > fL1.
+5. 6 similar amplifiers are cascaded, with lower cut-off frequency 100Hz. Bandwidth is B1=10 kHz. What is the higher cut-off frequency of the cascaded network?
+a) 4000 Hz
+b) 1667 Hz
+c) 3642 Hz
+d) 3000 Hz
+c
+fL = 50/ \(\sqrt{2^{1/6}}-1\) = 142 Hz
+B1 = 10kHz
+B2 = B1 \(\sqrt{2^{1/N}}-1\) = 3.5 Khz
+fH – fL = 3500
+fH = 3642 Hz.
+6. It is provided that the lower cut-off frequency of an individual amplifier is 25Hz, find the net cut-off frequency of a cascaded network of 8 similar amplifiers.
+a) 200 Hz
+b) 83 Hz
+c) 100 Hz
+d) 25 Hz
+b
+fL = \(\frac{f_{L1}}{\sqrt{2^{1/N}}-1} = \frac{25}{\sqrt{2^{1/8}} -1} = \frac{25}{\sqrt{0.0905}}\) 
+fL = 83 Hz.
+7. Given that the higher cut-off frequency of the cascaded network of 6 amplifiers is 2Mhz, find the higher cut-off frequency of one amplifier, if all amplifiers are similar.
+a) 5.7 Mhz
+b) 0.33 Mhz
+c) 12 Mhz
+d) 64 Mhz
+a
+fH = fH1 \(\sqrt{2^{1/N}}-1\) 
+fH1 = 2Mhz/√\(\sqrt{2^{1/6}}-1\) = 5.71 Mhz.
+8. The lower and upper cutoff frequencies of an amplifier are unknown. If originally, individual BW of such an amplifier is B1, and now the bandwidth of the cascaded network of 10 such amplifiers is B2, find B2/B1.
+a) 0.26
+b) 3.84
+c) Insufficient data
+d) 5
+a
+B2/B1 = \(\sqrt{2^{1/N}}-1\) 
+B2/B1 = 0.26.
+9. Provided a cascade multistage amplifier network, their pole frequencies obtained are f1=10Mhz, f2=12Mhz, f3=20Mhz, f4=16Mhz. What is the approximate higher cutoff frequency of the cascaded network?
+a) 3.4 Mhz
+b) 8 Mhz
+c) 5 Mhz
+d) 6 Mhz
+a
+1/fH = 1/f1 + 1/f2 + 1/f3 + 1/f4 and so on for multiple stages.
+1/fH = 0.295833
+fH ≈ 3.4 Mhz.
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – High Frequency Response» Next - Analog Circuits Questions and Answers – Cascade and Darlington Amplifier 

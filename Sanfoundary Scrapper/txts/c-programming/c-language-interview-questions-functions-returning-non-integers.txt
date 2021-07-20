@@ -1,0 +1,74 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Cisco and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Cisco interviews on C Programming language. 
+Here is a listing of C language interview questions on “Functions Returning Non-integers” along with answers, explanations and/or solutions:
+1. What is the return-type of the function sqrt()?
+a) int
+b) float
+c) double
+d) depends on the data type of the parameter
+c
+2. Which of the following function declaration is illegal?
+a)
+   double func();
+   int main(){}
+   double func(){}
+b)
+   double func(){};
+   int main(){}
+c)
+   int main()
+   {
+       double func();
+   }
+   double func(){//statements}
+d) None of the mentioned
+d
+3. What will be the output of the following C code having void return-type function?
+    #include <stdio.h>    void foo()    {        return 1;    }    void main()    {        int x = 0;        x = foo();        printf("%d", x);    }
+a) 1
+b) 0
+c) Runtime error
+d) Compile time error
+d
+4. What will be the data type returned for the following C function?
+    #include <stdio.h>    int func()    {        return (double)(char)5.0;    }
+a) char
+b) int
+c) double
+d) multiple type-casting in return is illegal
+b
+5. What is the problem in the following C declarations?
+   int func(int);
+   double func(int);
+   int func(float);
+a) A function with same name cannot have different signatures
+b) A function with same name cannot have different return types
+c) A function with same name cannot have different number of parameters
+d) All of the mentioned
+d
+6. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int k = m();        printf("%d", k);    }    void m()    {        printf("hello");    }
+a) hello 5
+b) Error
+c) Nothing
+d) Junk value
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    int *m()    {        int *p = 5;        return p;    }    void main()    {        int *k = m();        printf("%d", k);    }
+a) 5
+b) Junk value
+c) 0
+d) Error
+a
+8. What will be the output of the following C code?
+    #include <stdio.h>    int *m();    void main()    {        int *k = m();        printf("hello ");        printf("%d", k[0]);    }    int *m()    {        int a[2] = {5, 8};        return a;    }
+a) hello 5 8
+b) hello 5
+c) hello followed by garbage value
+d) Compilation error
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Basics of Functions – 2» Next - C Programming Questions and Answers – Functions Returning Non-integers – 2 

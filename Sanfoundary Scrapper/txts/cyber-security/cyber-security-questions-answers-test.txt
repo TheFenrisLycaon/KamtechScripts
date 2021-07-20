@@ -1,0 +1,62 @@
+1. Buffer-overflow attack can take place if a machine can execute a code that resides in the data/stack segment.
+a) True
+b) False
+a
+2. Among the two types ____________buffer-overflow is complex to execute and the least common attack that may take place.
+a) memory-based
+b) queue-based
+c) stack-based
+d) heap-based
+d
+3. _____________ buffer overflows, which are more common among attackers.
+a) Memory-based
+b) Queue-based
+c) Stack-based
+d) Heap-based
+c
+4. With the lack of boundary check, the program ends abnormally and leads to ___________ error.
+a) logical
+b) segmentation
+c) compile-time
+d) syntax
+b
+5. In an application that uses heap, the memory for data is allocated ____________
+a) logical
+b) dynamically
+c) statically
+d) at the beginning of the program
+b
+6. In an application that uses stack, the memory for data is allocated ____________
+a) logical
+b) dynamically
+c) statically
+d) at the end of the program
+c
+7. Malicious code can be pushed into the _________ during ______________ attack.
+a) stack, buffer-overflow
+b) queue, buffer-overflow
+c) memory-card, buffer-overflow
+d) external drive, buffer-overflow
+a
+8. Variables that gets created dynamically when a function (such as malloc()) is called is created in the form of _______ data-structure.
+a) array
+b) queue
+c) stack
+d) heap
+d
+9. How many primary ways are there for detecting buffer-overflow?
+a) 6
+b) 3
+c) 2
+d) 5
+c
+10. Testing for buffer-overflow in a system can be done manually and has two possible ways.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Cyber Security.
+To practice  all areas of Cyber Security for tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Cyber Security Questions and Answers – Buffer Overflow – 1» Next - Cyber Security Questions and Answers – Enumerating in Cyber Security 

@@ -1,0 +1,66 @@
+1. The transaction log supports which of the following operations?
+a) Recovery of all incomplete transactions when SQL Server is started
+b) Recovery of individual transactions
+c) Supporting transactional replication
+d) All of the mentioned
+b
+2. Point out the correct statement.
+a) The Database Engine supports two types of checkpoints
+b) Long-running uncommitted transactions decrease recovery time for all types of checkpoints
+c) Log truncation deletes inactive virtual log files from the logical transaction log of a SQL Server database
+d) All of the mentioned
+c
+3. Which of the log_reuse_wait_desc value has log_reuse_wait value 0?
+a) CHECKPOINT
+b) ACTIVE_TRANSACTION
+c) NOTHING
+d) All of the mentioned
+c
+4. ACTIVE_TRANSACTION has log_reuse_wait value is _________
+a) 1
+b) 2
+c) 3
+d) 4
+d
+5. Point out the wrong statement.
+a) For performance reasons, the Database Engine performs modifications to database pages in memory
+b) Log truncation does reduce the size of the physical log file
+c) Log truncation is essential to keep the log from filling
+d) None of the mentioned
+b
+6. ________ logging is not supported for memory-optimized tables.
+a) Full
+b) Minimal
+c) Bulk
+d) None of the mentioned
+b
+7. Index page deallocation during a ________ operation is always fully logged.
+a) DROP INDEX
+b) CREATE INDEX
+c) ALTER INDEX
+d) None of the mentioned
+a
+8. Which of the following checkpoint has ‘recovery interval’ less than zero?
+a) Automatic
+b) Direct
+c) Indirect
+d) All of the mentioned
+a
+9. Internal checkpoint is generated in response to which of the following event?
+a) A database snapshot is deleted, whether explicitly or internally for DBCC CHECK
+b) Bringing a SQL Server failover cluster instance (FCI) offline
+c) Bringing a SQL Server failover cluster instance (FCI) online
+d) None of the mentioned
+b
+10. __________ backups are taken in bulk or full recovery models only.
+a) Log
+b) Active
+c) Passive
+d) Replica
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Blocking» Next - SQL Server Questions and Answers – Data Compression 

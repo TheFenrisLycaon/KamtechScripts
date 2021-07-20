@@ -1,0 +1,72 @@
+1. _____________ can help us detect poor E-R design.
+a) Database Design Process
+b) E-R Design Process
+c) Relational scheme
+d) Functional dependencies
+d
+2. If a multivalued dependency holds and is not implied by the corresponding functional dependency, it usually arises from one of the following sources.
+a) A many-to-many relationship set
+b) A multivalued attribute of an entity set
+c) A one-to-many relationship set
+d) Both A many-to-many relationship set and A multivalued attribute of an entity set
+d
+3. Which of the following has each related entity set has its own schema and there is an additional schema for the relationship set.
+a) A many-to-many relationship set
+b) A multivalued attribute of an entity set
+c) A one-to-many relationship set
+d) All of the mentioned
+a
+4. In which of the following, a separate schema is created consisting of that attribute and the primary key of the entity set.
+a) A many-to-many relationship set
+b) A multivalued attribute of an entity set
+c) A one-to-many relationship set
+d) All of the mentioned
+b
+5. Suppose the user finds the usage of room number and phone number in a relational schema there is confusion.This is reduced by
+a) Unique-role assumption
+b) Unique-key assignment
+c) Role intergral assignment
+d) None of the mentioned
+a
+6. What is the best way to represent the attributes in a large database?
+a) Relational-and
+b) Concatenation
+c) Dot representation
+d) All of the mentioned
+b
+7. Designers use which of the following to tune the performance of systems to support time-critical operations?
+a) Denormalization
+b) Redundant optimization
+c) Optimization
+d) Realization
+a
+8. In the schema (dept name, size) we have relations total inst 2007, total inst 2008. Which dependency have lead to this relation ?
+a) Dept name, year->size
+b) Year->size
+c) Dept name->size
+d) Size->year
+a
+9. Relation dept year(dept name, total inst 2007, total inst 2008, total inst 2009). Here the only functional dependencies are from dept name to the other attributes. This relation is in
+a) Fourth NF
+b) BCNF
+c) Third NF
+d) Second NF
+b
+10. Thus a _______ of course data gives the values of all attributes, such as title and department, of all courses at a particular point in time.
+a) Instance
+b) Snapshot
+c) Both Instance and Snapshot
+d) All of the mentioned
+b
+11. Representations such as the in the dept year relation, with one column for each value of an attribute, are called _______ they are widely used in spreadsheets and reports and in data analysis tools.
+a) Cross-tabs
+b) Snapshot
+c) Both Cross-tabs and Snapshot
+d) All of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Multivalued Dependencies» Next - Database Questions and Answers – Application Programs and User Interfaces 

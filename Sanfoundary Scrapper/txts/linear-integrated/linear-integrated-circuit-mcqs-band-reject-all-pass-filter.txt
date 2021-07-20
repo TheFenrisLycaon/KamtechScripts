@@ -1,0 +1,93 @@
+1. How many types of band elimination filters are present
+a) Three
+b) Two
+c) Four
+d) None of the mentioned
+b
+i) Wide band-reject filter and
+ii) Narrow band-reject filter. 
+2. Find the wide band-reject filter
+b
+3. A narrow band-reject filter is commonly called as
+a) Notch filter
+b) Band step filter
+c) Delay filter
+d) All of the mentioned
+a
+4. Find the expression for notch-out frequency?
+a) fN = 2πRC
+b) fN = 2π/RC
+c) fN = 1/2π×√(R/C)
+d) fN = 1/2πRC
+d
+5. The quality factor of passive twin T-network is increased by using
+a) Inverting amplifier
+b) Non-inverting amplifier
+c) Voltage follower
+d) Differential amplifier
+c
+Join [email protected]
+6. Find out the application in which narrow band-reject filter can be used?
+a) Embedded system
+b) Biomedical instrument
+c) Digital computer
+d) None of the mentioned
+b
+7. Design 120Hzactive notch filter?
+a
+Notch Frequency, fn = 1/2πRC.
+R= 1/(2πfnC)= 1/(2π×120Hz×0.68×10-6) = 1.95kΩ  ≅2kΩ.
+For R/2, parallel of two 2kΩ resistor
+=>R/2 = 2kΩ||2kΩ =(2×2)/(2+2)=1kΩ.
+For C/2 , parallel of two 0.68µF capacitor
+C/2=> 0.68µF + 0.68µF= 1.36µF. 
+8. Find the application of area where all-pass filters are used?
+a) Cathode ray oscilloscope
+b) Television
+c) Telephone wire
+d) None of the mentioned
+c
+9. Determine the output voltage for all the all-pass filter and express it in complex form?
+a) VO =Vin/ [(1-j2πfRC) /(1+ j2πfRC)].
+b) VO =Vin× [(1+j2πfRC) /(1- j2πfRC)].
+c) VO =Vin ×[(1- j2πfRC) /(1+ j2πfRC)].
+d) None of the mentioned
+c
+10. Determine the input frequency for all-pass filter with phase angle as 62o. Consider the value of resistor and capacitor are 3.3kΩ and 4.7µF.
+a) Input frequency= -7.65Hz
+b) Input frequency= -6.77Hz
+c) Input frequency= -3.89Hz
+d) Input frequency= -9.65Hz
+d
+=> f=-tanΦ/4πRC =-tan(62o)/(4π×3.3kΩ×4.7µF)= -1.88/0.1948 =-9.65Hz. 
+11. Determine the angle for given circuit diagram, if the frequency of input signal is 1khz
+a) -45o
+b) -180o
+c) -270o
+d) -90o
+d
+= -2tan-1×(1.0048)=-90o.
+12. The voltage gain magnitude of all-pass filter is
+a) Zero
+b) One
+c) Infinity
+d) None of the mentioned
+b
+13. What happens if the position of R and C are interchanged in the below circuit diagram?
+a) Vin leads VO
+b) Vin lags VO
+c) VO leads Vin
+d) VO leads Vin
+c
+14. Choose the incorrect statement “In wide band-reject filter” .
+a) Low cut-off frequency of low pass filter must be larger than the high cut-off frequency of the high pass filter.
+b) Low cut-off frequency of high pass filter must be equal than the high cut-off frequency of the high pass filter.
+c) Low cut-off frequency of high pass filter must be smaller than the high cut-off frequency of the low pass filter.
+d) None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Band Pass Filter» Next - Linear Integrated Circuit Questions and Answers – Basic Principles of Sine Wave Oscillator – 1 

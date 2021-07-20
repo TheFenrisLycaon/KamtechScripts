@@ -1,0 +1,75 @@
+1. What is Recursion in CSharp defined as?
+a) Recursion is another form of class
+b) Recursion is another process of defining a method that calls other methods repeatedly
+c) Recursion is a process of defining a method that calls itself repeatedly
+d) Recursion is a process of defining a method that calls other methods which in turn calls this method
+c
+2. Which of these will happen if the recursive method does not have a base case?
+a) Infinite loop condition occurrence
+b) System gets hanged
+c) After 10000 executions program will be automatically stopped
+d) None of the mentioned
+a
+3. Which of these is not a correct statement?
+a) A recursive method must have a base case
+b) Recursion always uses stack
+c) Recursion is always managed by C# Runtime environment
+d) Recursive methods are faster that programmer written loop to call the function repeatedly using a stack
+c
+4. What will be the output of the following C# code?
+ class recursion  {     int fact(int n)      {         int result;         if (n == 1)         return 1;         result = fact(n - 1) * n;         return result;     } }  class Program  {     public static void main(String args[])      {         recursion obj = new recursion() ;         Console.WriteLine(obj.fact(4));     } }
+a) 24
+b) 30
+c) 120
+d) 144
+a
+5. What will be the output of the following C# code?
+ class maths  {     int fact(int n)      {         int result;         if (n == 1)         return 1;         result = fact(n - 1) * n;         return result;     } }  class Output  {     static void main(String args[])      {         maths obj = new maths() ;         Console.WriteLine(obj.fact(1));     } }
+a) 2
+b) 10
+c) 1
+d) 0
+c
+Output: 1
+6. What will be the output of the following C# code snippet?
+class maths  {     int fact(int n)      {         int result;         if (n == 1)         return 1;         result = fact(n - 1) * n;         return result;     } }  class Output  {     static void main(String args[])      {         maths obj = new maths() ;         Console.WriteLine(obj.fact(4)*obj.fact(2));     } }
+a) 64
+b) 60
+c) 120
+d) 48
+d
+Output : 48
+7. What will be the output of the following C# code?
+ class maths  {     int fact(int n)      {         int result;         if (n == 1)         return 1;         result = fact(n - 1) * n;         return result;     } }  class Output  {     static void main(String args[])      {         maths obj = new maths() ;         Console.WriteLine(obj.fact(4)*(3));     } }
+a) 64
+b) 60
+c) 72
+d) 84
+c
+Output : 72
+8. Which of these data types is used by the operating system to manage the Recursion in Csharp?
+a) Array
+b) Queue
+c) Tree
+d) Stack
+d
+9. What will be the output of the following C# code snippet?
+ class maths {     public int fact(int n)     {         int result;         result = fact(n - 1) * n;         return result;     } }  class Program {     static void Main(string[] args)     {                     maths obj = new maths();         Console.WriteLine(obj.fact(4));         Console.ReadLine();     } }
+a) 24
+b) 30
+c) Compile time error
+d) Runtime Error
+d
+10. What will be the output of the following C# code snippet?
+ class maths {     public int fact(int n)     {         int result;         if (n == 2)         return 1;         result = fact(n - 1) * n;         return result;     } }  class Program {     static void Main(string[] args)     {                     maths obj = new maths();         Console.WriteLine(obj.fact(4));         Console.ReadLine();     } }
+a) 24
+b) 0
+c) 12
+d) 1
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Introduction of Overloaded Operators» Next - C# Questions & Answers – Introduction of Indexers 

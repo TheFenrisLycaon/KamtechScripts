@@ -1,0 +1,69 @@
+1. What type of signal does the analogWrite() function output?
+a) Pulse Width Modulated Signal
+b) Pulse Code Modulated Signal
+c) Pulse Amplitude Modulated Signal
+d) Frequency Modulated Signal
+a
+2. What is the resolution of analog readings on the Arduino Uno?
+a) 5V/1023
+b) 3.3V/1024
+c) 5V/1024
+d) 3.3V/100
+c
+3. Can the analogRead() function be used from any digital pin?
+a) No, it cannot
+b) Yes, it can, but only on certain Arduino Boards
+c) Yes, it can
+d) Yes, it can, but only through certain pins
+d
+4. What is the output of the program if the input to pin1 is 3.3V on the Arduino Due?
+int pin1=A0;void setup() {    pinMode(pin1,INPUT);    Serial.begin(9600);}void loop() {    if(analogRead(pin1)==1023) {        Serial.println(“Digital HIGH Detected!”);    }    else {        Serial.println(“Digital LOW Detected!”);    }}
+a) Digital HIGH Detected!
+b) Digital LOW Detected!
+c) Runtime Error
+d) Null
+a
+5. How many arguments does the analogRead() function have?
+a) 1
+b) 2
+c) 3
+d) 4
+a
+6. What is the purpose of the code given below?
+int pin1=A1;void setup() {    pinMode(pin1,INPUT);    Serial.begin(9600);}void loop() {    analogReadResolution(10);    int a=analogRead(pin1);    analogReadResolution(8);    int b=analogRead(pin1);    Serial.println(a);    Serial.println(b);}
+a) To demonstrate different resolution settings of the ADC
+b) To demonstrate different resolution settings of the DAC
+c) To convert a digital input to an analog signal
+d) To convert an analog input to a digital signal
+a
+7. What is the use of the analogReference() function?
+a) To change the digital signal reference value
+b) To change the analog signal reference value
+c) To print the analog signal reference voltage
+d) To print the digital signal reference voltage
+b
+8. How many errors are present in the code given below if it is made to run on an Arduino Uno?
+void setup() {    Serial.begin();    analogReference(AR_DEFAULT);}void loop() {    //Do nothing.}
+a) 1
+b) 2
+c) 3
+d) 4
+b
+9. On which of the following Arduino Boards does the analogReadResolution() function not work?
+a) Arduino Zero
+b) Arduino MKR Vidor 4000
+c) Arduino Due
+d) Arduino Uno
+d
+10. What happens to the output if the analogReadResolution() function is invoked with a resolution higher than the board’s ADC can physically handle?
+a) The output is padded with zeros
+b) The output is not obtained as an error is thrown during compile time
+c) The output is not obtained as an error is thrown during run time
+d) The output is padded with ones
+a
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Digital Input Output» Next - Arduino Questions and Answers – Advanced Input Output 

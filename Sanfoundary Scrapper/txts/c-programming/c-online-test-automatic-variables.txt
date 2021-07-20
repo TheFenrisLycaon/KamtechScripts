@@ -1,0 +1,51 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Samsung and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Samsung interviews on C Programming language. 
+Here is a listing of online C test questions on “Automatic Variables” along with answers, explanations and/or solutions:
+1. Automatic variables are  _________
+a) Declared within the scope of a block, usually a function
+b) Declared outside all functions
+c) Declared with the auto keyword
+d) Declared within the keyword extern
+a
+2. What is the scope of an automatic variable?
+a) Exist only within that scope in which it is declared
+b) Cease to exist after the block is exited
+c) Exist only within that scope in which it is declared & exist after the block is exited
+d) All of the mentioned
+c
+3. Automatic variables are allocated memory in ___________
+a) heap
+b) Data segment
+c) Code segment
+d) stack
+d
+4. What will be the x in the following C code?
+    #include <stdio.h>    void main()    {        int x;    }
+a) automatic variable
+b) static variable
+c) register variable
+d) global variable
+a
+5. Automatic variables are initialized to ___________
+a) Zero
+b) Junk value
+c) Nothing
+d) Both Zero & Junk value
+b
+6. Which of the following storage class supports char data type?
+a) register
+b) static
+c) auto
+d) all of the mentioned
+d
+7. A local variable declaration with no storage class specified is by default _________
+a) auto
+b) extern
+c) static
+d) register
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Automatic Variables – 1» Next - C Programming Questions and Answers – C-Preprocessor – 1 

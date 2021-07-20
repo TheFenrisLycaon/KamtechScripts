@@ -1,0 +1,130 @@
+1. Which of the following is not a valid library function?
+a) Puts
+b) Print
+c) Gets
+d) Get
+d
+2. Why is the library function ‘puts’used for?
+a) Prints whatever is given and print it to the screen
+b) Prints whatever is given and insert a new(blank) line
+c) Gets input from the user
+d) None of the mentioned
+b
+3. What is the output of the given code?
+print "Hey"
+   puts "Everyone!"
+   print "We are learning Ruby"
+a) Error
+b) Hey everyone we are learning Ruby
+c) Hey everyone
+d) Hey Everyone
+   We are learning Ruby
+d
+Output:
+Hey Everyone
+We are learning Ruby
+4. We use semicolon or parentheses after every print or puts statement.
+a) True
+b) False
+b
+Join Sanfoundry@YouTube
+5. For getting an input from the user which method is used?
+a) get
+b) gets.chomp
+c) get-s
+d) chomp
+b
+6. What is the output of given code?
+puts "what is your first name?"
+   name=gets.chomp
+   puts "what is your surname?"
+   surname=gets.chomp
+a) Error in compilation
+b) What is your first name?
+   xyz(enter any name)
+   What is your surname?
+   wtu(enter your surname)
+c) Name=xyz
+d) None of the mentioned
+b
+Output:
+  What is your first name?
+  xyz(enter any name)
+  What is your surname?
+  wtu(enter your surname)
+7. Which sequence can be used to substitute the value of any ruby expression in a string?
+a) #(expr)
+b) #{expr}
+c) #expr
+d) None of the mentioned
+b
+8. Why is gets not preferred instead of gets.chomp?
+a) Gets add an extra new line while chomp removes it
+b) Gets remove an extra new line
+c) Chomp erases the value stored in the variable
+d) All of the mentioned
+a
+9. first_name,Last_name=gets.chomp,gets.chomp is the correct way to get the input from the user.
+a) True
+b) False
+a
+10. What is the output of the given code?
+print "What's your address"
+    city,state,pin=gets.chomp,gets.chomp,gets.chomp
+    puts "Iam from #{city} city, #{state} state, pincode: #{pin} "
+a) Error in compilation
+b) Give your address
+c) What’s your address? Chennai
+   Tamilnadu
+   600048
+   Iam from Chennai city, Tamilnadu state, pincode: 600048
+d) None of the mentioned
+c
+Output:
+What's your address? Chennai
+   Tamilnadu
+   600048
+   Iam from Chennai city, Tamilnadu state, pincode: 600048 
+11. What is the output of the the given code?
+ puts "My name is #{Name}"
+a) Error in compilation
+b) Name variable not defined earlier
+c) My name is #{Name}
+d) Undefined Error
+b
+Output:
+Name variable not defined
+12. What is the output of the given code?
+Ans=Ruby
+    puts "#{Ans} is an oop language"
+    puts "It is very efficient langauge"
+    puts "#{expr} is used on rails platform"
+a) Error, no output
+b) Ruby is an oop language
+   It is very efficient langauge
+   undefined local variable
+c) Ruby is an oop language
+   It is very efficient langauge
+   #{expr} is used on rails platform
+d) None of the mentioned
+b
+Output:
+Ruby is an oop language
+It is very efficient langauge
+undefined local variable or method `expr' for #
+13. What is the output of the given code?
+Ans=Ruby
+    puts "#[Ans] is an oop language"
+a) Error, no output
+b) Ruby is an oop language
+c) Warning:already initialized constant Ans
+d) None of the mentioned
+b
+Output:
+(ruby): warning: already initialized constant Ans
+Sanfoundry Global Education & Learning Series – Ruby Programming.
+To practice all areas of Ruby Programming, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ruby Questions and Answers – Data Types and Variables» Next - Ruby Programming Questions and Answers – String Methods 

@@ -1,0 +1,99 @@
+1. Programmers use __________ known as loops.
+a) Repetition structure
+b) Conditional structure
+c) Goto
+d) Unconditional structure
+a
+2. The requirement for repeating the instructions is referred to as the __________
+a) Looping condition
+b) Conditional statement
+c) Iterative statement
+d) Initialization statement
+a
+3. The requirement for not repeating the instructions is referred to as the __________
+a) Loop exit condition
+b) Looping condition
+c) Conditional statement
+d) Iterative statement
+a
+4. In a __________ loop the condition is evaluated before the instructions within the loop are processed.
+a) Posttest
+b) Pretest
+c) Conditional loop
+d) Unconditional loop
+r
+Answer: b
+repeat while balance &lt; 250,000 
+  interest = balance * rate
+  add interest to balance
+  add 1 to number of years 
+end repeat while
+5. In a __________ loop the condition is evaluated before the instructions within the loop are processed.
+a) Posttest
+b) Pretest
+c) Conditional loop
+d) Unconditional loop
+r
+Answer: a
+repeat
+interest = balance * rate
+add interest to balance 
+add 1 to number of years 
+end repeat while balance &lt; 250,000
+ 
+6. The __________ is used to code both pretest and posttest loops.
+a) Do loop statement
+b) For loop statement
+c) While loop statement
+d) If statement
+a
+Pretest:
+Do {While | Until} condition
+loop body instructions, which will be processed either
+  while the condition is true or until the condition becomes true
+Loop
+Posttest:
+Do
+loop body instructions, which will be processed either
+while the condition is true or until the condition becomes true
+Loop {While | Until} condition
+7. The __________ in a Do…Loop statement can contain variables, methods, constants, properties and operators.
+a) Exit statement
+b) Condition
+c) Statement
+d) Iteration statement
+b
+8. How many times will the MessageBox.Show method in the following code be processed?
+intCount =0
+Do While intCount > 3
+MessageBox.Show("Hello")
+intCount = intCount + 1
+Loop
+a) 0
+b) 1
+c) 3
+d) 4
+a
+9. How many times will the MessageBox.Show method in the following code be processed?
+intCount =0;
+Do
+MessageBox.Show("Hello")
+intCount += 1
+Loop While intCount > 3
+a) 0
+b) 1
+c) 3
+d) 4
+b
+10. The instructions in a __________ loop are always processed at least once, whereas the instructions in a __________ loop might not be processed at all.
+a) Posttest, pretest
+b) Pretest, posttest
+c) Pretest, pretest
+d) Posttest, posttest
+a
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Interface Design – Adding a Radio Button & Check Box to the Form» Next - Visual Basic Questions and Answers – Repetition Structure – Counters and Accumulators 

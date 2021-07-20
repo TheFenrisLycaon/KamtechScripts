@@ -1,0 +1,67 @@
+1. Which one of the following statements should be used to disable just the fopen(), and file() functions?
+a) disable_functions = fopen(), file()
+b) disable_functions = fopen, file
+c) functions_disable = fopen(), file()
+d) functions_disable = fopen, file
+b
+2. Which one of the following statements should be used to disable the use of two classes administrator and janitor?
+a) disable_classes = “administrator, janitor”
+b) disable_classes = class administrator, class janitor
+c) disable_classes = class “administrator”, class “janitor”
+d) disable_class = class “administrator”, class “janitor”
+a
+3. What is the default value of max_execution_time directive? This directive specifies how many seconds a script can execute before being terminated.
+a) 10
+b) 20
+c) 30
+d) 40
+c
+4. The memory_limit is only applicable if ________ is enabled when you configure PHP.
+a) –enable-limit
+b) -enable-memory-limit
+c) –enable-memory-limit
+d) -memory-limit
+c
+5. Suppose all web material is located within the directory /home/www. To prevent users from viewing and manipulating files such as /etc/password, which one of the following statements should you use?
+a) open_dir = “/home/www/”
+b) open_dir = /home/www/
+c) open_basedir = /home/www/
+d) open_basedir = “/home/www/”
+d
+Join Sanfoundry@YouTube
+6. Which Apache directive outputs Apache’s server version, server name, port and compile-in modules?
+a) ServerSignature
+b) ServerName
+c) ServerDetails
+d) ServerInfo
+a
+7. Which directive determines which degree of server details is provided if the ServerSignature directive is enabled?
+a) ServerAddons
+b) ServerExtra
+c) ServerTokens
+d) ServerDetails
+c
+8. Which directive should we disable to obscure the fact that PHP is being used on our server?
+a) show_php
+b) expose_php
+c) print_php
+d) info_php
+b
+9. Say I want to change the extension of a PHP file, which of the following statements should I edit to change from .php to .html in the httpd.conf file?
+a) AddType application/x-httpd-php .php
+b) AddType application/x-httpd-php .asp
+c) AddType application/x-httpd-asp .php
+d) AddType application/x-httpd-asp .asp
+a
+10. The developers of PHP deprecated the safe mode feature as of which PHP version.
+a) PHP 5.1.0
+b) PHP 5.2.0
+c) PHP 5.3.0
+d) PHP 5.3.1
+c
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Session Handling-2» Next - PHP Questions & Answers – Introduction to Preg in PHP 

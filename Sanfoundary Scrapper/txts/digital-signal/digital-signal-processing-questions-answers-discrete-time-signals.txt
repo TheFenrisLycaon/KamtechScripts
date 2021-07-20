@@ -1,0 +1,71 @@
+1. If x(n) is a discrete-time signal, then the value of x(n) at non integer value of ‘n’ is?
+a) Zero
+b) Positive
+c) Negative
+d) Not defined
+d
+2. The discrete time function defined as u(n)=n for n≥0;u(n)=0 for n<0 is an _____________
+a) Unit sample signal
+b) Unit step signal
+c) Unit ramp signal
+d) None of the mentioned
+c
+3. The phase function of a discrete time signal x(n)=an, where a=r.ejθ is?
+a) tan(nθ)
+b) nθ
+c) tan-1(nθ)
+d) none of the mentioned
+b
+=>x(n)=rn.(cosnθ+jsinnθ)
+Phase function is tan-1(cosnθ/sinnθ)=tan-1(tan nθ)=nθ. 
+4. The signal given by the equation \(\sum_{n=-{\infty}}^{\infty}|x(n)|^2\) is known as __________
+a) Energy signal
+b) Power signal
+c) Work done signal
+d) None of the mentioned
+a
+5. x(n)*δ(n-k)=?
+a) x(n)
+b) x(k)
+c) x(k)*δ(n-k)
+d) x(k)*δ(k)
+c
+6. A real valued signal x(n) is called as anti-symmetric if ___________
+a) x(n)=x(-n)
+b) x(n)=-x(-n)
+c) x(n)=-x(n)
+d) none of the mentioned
+b
+7. The odd part of a signal x(t) is?
+a) x(t)+x(-t)
+b) x(t)-x(-t)
+c) (1/2)*(x(t)+x(-t))
+d) (1/2)*(x(t)-x(-t))
+d
+=>x(-t)=xe(-t)-xo(-t)
+By subtracting the above two equations, we get
+xo(t)=(1/2)*(x(t)-x(-t)).
+8. Time scaling operation is also known as ___________
+a) Down-sampling
+b) Up-sampling
+c) Sampling
+d) None of the mentioned
+a
+9. What is the condition for a signal x(n)=Brn where r=eαT to be called as an decaying exponential signal?
+a) 0<r<∞
+b) 0<r<1
+c) r>1
+d) r<0
+b
+10. The function given by the equation x(n)=1, for n=0; x(n)=0, for n≠0 is a _____________
+a) Step function
+b) Ramp function
+c) Triangular function
+d) Impulse function
+d
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Analysis of Discrete time LTI Systems» Next - Digital Signal Processing Questions and Answers – Discrete Time Systems 

@@ -1,0 +1,98 @@
+1. What is the full form of E in the EWMA chart?
+a) Exponentially
+b) Experimentally
+c) Exactly
+d) Estimated
+a
+2. What is the full form of EWMA?
+a) Exponentially weighted moving average
+b) Exponentially weighted measured approximate
+c) Exponentially weighted moving approximate
+d) Exponentially weighted measured average
+a
+3. EWMA charts are better than Shewhart control charts in detecting the ___________ shifts.
+a) Large process
+b) Medium process
+c) Small process
+d) Every process
+c
+4. Which of these is not an advantage of EWMA control charts?
+a) Almost equivalent performance to the cusum charts
+b) Easier set up than cusum charts
+c) Easier to operate than cusum charts
+d) Intricacy is a little higher than cusum charts
+d
+5. Who did first introduce the EWMA charts?
+a) Lucas (1990)
+b) Saccucci (1990)
+c) Roberts (1959)
+d) Crowder (1987a, 1989)
+c
+6. What is the correct expression for the EWMA?
+a) zi = λxi + (1-λ) zi-1
+b) zi = λxi – (1-λ) zi-1
+c) zi = λxi + (1-λ) zi+1
+d) zi = λxi + (1+λ) zi-1
+a
+zi = λxi + (1-λ) zi-1.
+7. Which of these is correct for λ in EWMA expression?
+a) 0 > λ
+b) 1 < λ
+c) 1 ≤ λ
+d) 0 < λ ≤ 1
+d
+zi = λxi + (1-λ) zi-1
+Where λ is a constant, and it is having a value, 0 < λ ≤ 1.
+8. What is the starting value of the EWMA?
+a) Zero
+b) Process target mean
+c) Process target variance
+d) Process target standard deviation
+b
+z0 = μ0.
+9. Which of these is another name of EWMA charts?
+a) GMA charts
+b) AMA charts
+c) EMA charts
+d) RMA charts
+a
+10. GMA stands for ___________
+a) Geosum moved average
+b) Geometric Moving average
+c) Geometrically moved average
+d) Geocentric moving average
+b
+11. Which of these is the use of the EWMA charts?
+a) In time series modeling
+b) In Real-time processing
+c) In acceptance sampling
+d) In designing of experiments
+a
+12. Which of these is an ideal chart for individual measurements among these all?
+a) p-chart
+b) Cusum charts
+c) EWMA charts
+d) x bar and R chart
+c
+13. If the observations xi are independent random variables with variance σ2 then according to the EWMA charts, the variance of zi will be ________________
+a) \(\sigma_{zi}^2 = \sigma^2 (\frac{λ}{2-λ})[1+(1+λ)^{2i}]\) 
+b) \(\sigma_{zi}^2 = \sigma^2 (\frac{λ}{2-λ})[1+(1-λ)^{2i}]\) 
+c) \(\sigma_{zi}^2 = \sigma^2 (\frac{λ}{2-λ})[1-(1-λ)^{2i}]\) 
+d) \(\sigma_{zi}^2 = \sigma^2 (\frac{λ}{2+λ})[1-(1-λ)^{2i}]\) 
+c
+\(\sigma_{zi}^2 = \sigma^2 (\frac{λ}{2-λ})[1-(1-λ)^{2i}]\)
+14. The weights of EWMA charts may also increase.
+a) True
+b) False
+b
+15. The starting value of the variable zi is always equal to μ0.
+a) True
+b) False
+b
+z0 = x.
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Time-Weighted – Cumulative Sum Control Chart – 6» Next - Statistical Quality Control Questions and Answers – Time-Weighted – EWMA Control Chart – 2 

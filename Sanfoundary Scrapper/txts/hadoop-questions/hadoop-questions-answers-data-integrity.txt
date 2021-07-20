@@ -1,0 +1,67 @@
+1. The HDFS client software implements __________ checking on the contents of HDFS files.
+a) metastore
+b) parity
+c) checksum
+d) none of the mentioned
+c
+2. Point out the correct statement.
+a) The HDFS architecture is compatible with data rebalancing schemes
+b) Datablocks support storing a copy of data at a particular instant of time
+c) HDFS currently support snapshots
+d) None of the mentioned
+a
+3. The ___________ machine is a single point of failure for an HDFS cluster.
+a) DataNode
+b) NameNode
+c) ActionNode
+d) All of the mentioned
+b
+4. The ____________ and the EditLog are central data structures of HDFS.
+a) DsImage
+b) FsImage
+c) FsImages
+d) All of the mentioned
+b
+5. Point out the wrong statement.
+a) HDFS is designed to support small files only
+b) Any update to either the FsImage or EditLog causes each of the FsImages and EditLogs to get updated synchronously
+c) NameNode can be configured to support maintaining multiple copies of the FsImage and EditLog
+d) None of the mentioned
+a
+6. __________ support storing a copy of data at a particular instant of time.
+a) Data Image
+b) Datanots
+c) Snapshots
+d) All of the mentioned
+c
+7. Automatic restart and ____________ of the NameNode software to another machine is not supported.
+a) failover
+b) end
+c) scalability
+d) all of the mentioned
+a
+8. HDFS, by default, replicates each data block _____ times on different nodes and on at least ____ racks.
+a) 3, 2
+b) 1, 2
+c) 2, 3
+d) All of the mentioned
+a
+9. _________ stores its metadata on multiple disks that typically include a non-local file server.
+a) DataNode
+b) NameNode
+c) ActionNode
+d) None of the mentioned
+b
+10. The HDFS file system is temporarily unavailable whenever the HDFS ________ is down.
+a) DataNode
+b) NameNode
+c) ActionNode
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Compression» Next - Hadoop Questions and Answers – Serialization 

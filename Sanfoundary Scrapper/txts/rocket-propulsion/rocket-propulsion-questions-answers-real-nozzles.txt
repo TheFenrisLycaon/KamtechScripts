@@ -1,0 +1,77 @@
+1. For an asymmetric nozzle section of diameter 12 cm, determine the average value of flow velocity if the velocity distribution is of the form v2 = (2r – 3r2) x 104 m/s, where r denotes the radial location in the cross-section plane.
+a) 1104.4 m/s
+b) 765.4 m/s
+c) 891.4 m/s
+d) 404 m/s
+b
+A2 = πd22/4
+= 0.011 m2
+∫v2rdr = ∫ (2r2 – 3r3)x 104 dr
+= {(2/3)r23 – (3/4)r24} x 104
+r2 = d2/2 = 0.06 m
+so V2av = (2π/0.011) x 1.34
+= 765.4 m/s.
+2. In a boundary layer flow along with the nozzle, why is the layer closest to the wall cooler?
+a) Flow velocity is minimum; Low energy flow leads to less temperature
+b) Heat transfer to the walls
+c) Radial heat propagation from the nozzle axis is a very slow process
+d) Mass flow rate closer to the nozzle axis is maximum
+b
+3. In which of the following cases is the effect of the boundary layer more pronounced?
+a) Longer nozzles with high area ratios
+b) Shorter nozzles with high area ratios
+c) Longer nozzles with low area ratios
+d) Shorter nozzles with low area ratios
+a
+4. What happens to the solid particles in multiphase flow at the nozzle exit when the size of the particles increases?
+a) Lower momentum and lower thermal energy
+b) Higher momentum and lower thermal energy
+c) Lower momentum and higher thermal energy
+d) Higher momentum and higher thermal energy
+c
+5. Which of the following is the correct expression for particle fraction β? Given: Total mass = mT, mass of the particles = mp.
+a) mT/mp + mT
+b) mp/mp + mT
+c) mp/mT
+d) mT/mp
+c
+6. How do the characteristic velocity (c) and the specific impulse (Isp) vary as particle fraction β is increased?
+a) Both Isp and c decreases
+b) Both Isp and c increases
+c) Isp decreases, c increases
+d) Isp increases, c decreases
+a
+7. Which of the following is not correct for transient periods when compared to steady periods of rocket operation?
+a) Lower average thrust
+b) Higher chamber pressure
+c) Lower specific impulse
+d) Higher velocity variations
+b
+8. Which of the following terms denote the ratio of kinetic energy per unit flow of the actual jet leaving the nozzle to that of a hypothetical ideal one with the same working substance, initial state and exit pressure as that of the actual exhaust jet?
+a) Velocity correction factor (ζv)
+b) Discharge correction factor (ζd)
+c) Thrust correlation factor (ζF)
+d) Energy efficiency factor (e)
+d
+9. Determine the velocity correction factor (ζv) if the energy conversion efficiency is 0.94.
+a) 0.97
+b) 0.85
+c) 0.92
+d) 0.99
+a
+So ζv = \(\sqrt{0.94}\) = 0.97 is the final answer.
+10. Find the actual mass flow rate for a discharge correction factor (ζd) of 1.15. For an ideal nozzle of same design and initial state, the following information is given: Volume flow rate (Q) = 0.53 m3/s; static temperature (T) = 590 K; static pressure (P) = 0.15 MPa; R = 287 J/kg/K.
+a) 0.47
+b) 0.88
+c) 0.28
+d) 0.54
+d
+For ideal conditions, ρ = P / RT = 0.15 x 106 / (287 x 590) = 0.886 kg/m3.
+mi = ρAV = ρQ = 0.886 x 0.53 = 0.47 kg/s.
+∴ ma = 1.15 x 0.47 = 0.54 kg/s.
+Sanfoundry Global Education & Learning Series – Rocket Propulsion.
+To practice all areas of Rocket Propulsion, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Rocket Propulsion Questions and Answers – Nozzle Configurations» Next - Rocket Propulsion Questions and Answers – Nozzle Theory – Four Performance Parameters 

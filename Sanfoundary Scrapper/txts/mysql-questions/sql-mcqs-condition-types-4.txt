@@ -1,0 +1,88 @@
+1. What will be the output of the following MySQL statement?
+SELECT emp_id, fname, lname
+FROM employee
+WHERE LEFT (lname, 1) =’T’;
+a) Only those employees are selected whose last name started with ‘T’
+b) Only those employees are selected whose last name started with other than ‘T’
+c) All of the mentioned
+d) None of the mentioned
+a
+2. What will be the output of the following MySQL statement?
+SELECT emp_id, fname, lname
+FROM employee
+WHERE LEFT (lname, 1) =’F’;
+a) Only those employees are selected whose last name started with ‘F’
+b) Only those employees are selected whose last name started with other than ‘F’
+c) All of the mentioned
+d) None of the mentioned
+a
+3. What will be the output of the following MySQL statement?
+Join Sanfoundry@YouTube
+SELECT emp_id, fname, lname
+FROM employee
+WHERE LEFT (fname, 1) =’F’;
+a) Only those employees are selected whose first name started with ‘F’
+b) Only those employees are selected whose first name started with other than ‘F’
+c) All of the mentioned
+d) None of the mentioned
+a
+4. What will be the output of the following MySQL statement?
+SELECT emp_id, fname, lname
+FROM employee
+WHERE LEFT (fname, 1) =’F’ OR LEFT (lname, 1) =’F’;
+a) Only those employees are selected whose first name and last name started with ‘F’
+b) Only those employees are selected whose first name started with ‘F’ but last name can be starts with any other letter
+c) Only those employees are selected whose first name and last name started with any other letter except ‘F’
+d) None of the mentioned
+a
+5. What will be the output of the following MySQL statement?
+SELECT *
+FROM employee
+WHERE lname LIKE ‘_a%e%’;
+a) All employees whose last name start with any letter but second letter should be ‘a’
+b) All employees whose last name start with any letter but contain at least one ‘e’ in his name
+c) All employees whose last name should have letter ‘a’ in second position and at least one ‘e’ in his name
+d) All of the mentioned
+d
+6. What will be the output of the following MySQL statement?
+SELECT *
+FROM employee
+WHERE lname LIKE ‘F%’ OR lname LIKE ‘%T’;
+a) All employees whose last name should started with ‘F’
+b) All employees whose last name end with ‘T’
+c) All employees whose last name should started with ‘F’ and end with ‘T’
+d) None of the mentioned
+c
+7. What will be the output of the following MySQL statement?
+SELECT *
+FROM employee
+WHERE lname LIKE ‘F%’ AND lname LIKE ‘%T’;
+a) All employees whose last name should started with ‘F’ and end with ‘T’
+b) All employees whose last name start with ‘T’ and end with ‘F’
+c) All employees whose last name should started with ‘F’ and end with ‘F’
+d) None of the mentioned
+a
+8. What will be the output of the following MySQL statement?
+SELECT *
+FROM employee
+WHERE lname LIKE %bas% OR fname LIKE %bbs%;
+a) All employees whose last name should contain substring “bas”
+b) All employees whose first name should contain substring “bbs”
+c) All employees whose last name should contain substring “bas” or first name should contain substring “bbs”
+d) None of the mentioned
+c
+9. What will be the output of the following MySQL statement?
+SELECT *
+FROM employee
+WHERE lname LIKE %t%f%n%;
+a) All employees whose last name contain ‘t’ in the second position
+b) All employees whose last name contains ‘f’ in the fourth position
+c) All employees whose last name contains ‘n’ in second last position
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Condition Types – 3» Next - MySQL Questions and Answers – Null: the Four Letter Word 

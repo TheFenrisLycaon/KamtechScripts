@@ -1,0 +1,135 @@
+1. Which of the following script will enable CDC on HumanResources.Shift table?
+a)
+USE AdventureWorks
+GO
+EXEC sys.sp_cdc_enable
+@source_schema = N'HumanResources',
+@source_name   = N'Shift',
+@role_name     = NULL
+GO
+b)
+USE AdventureWorks
+GO
+EXEC sys.sp_cdc_disable_table
+@source_schema = N'HumanResources',
+@source_name   = N'Shift',
+@role_name     = NULL
+GO
+c)
+USE AdventureWorks
+GO
+EXEC sys.sp_cdc_enable_table
+@source_schema = N'HumanResources',
+@source_name   = N'Shift',
+@role_name     = NULL
+GO
+d) All of the mentioned
+c
+2. Point out the correct statement.
+a) To determine if a database is already enabled, query the is_cdc_enabled column in the sys.database catalog view
+b) Change data capture requires exclusive use of the cdc schema and cdc user
+c) If a change data capture enabled database is dropped, change data capture jobs are not removed
+d) All of the mentioned
+b
+3. Which of the following disable database for Change Data Capture?
+a) EXEC sys.sp_cdc_ensable_db
+b) EXEC sys.sp_disable_db
+c) EXEC sys.sp_cdc_disable_db
+d) All of the mentioned
+c
+4. If you do not want to use a gating role, explicitly set the @role_name parameter to ______________
+a) 0
+b) NULL
+c) 1
+d) None of the mentioned
+b
+5. Point out the wrong statement.
+a) By default, all of the columns in the source table are not identified as captured columns
+b) By default, the change table is located in the default filegroup of the database
+c) The purpose of the named role is to control access to the change data
+d) None of the mentioned
+a
+6. Which of the following query determine sessions that had an empty scan?
+a) SELECT * from sys.dm_cdc_log_scan_sessions where empty_scan_count <> 0
+b) SELECT * from sys.dm_cdc_log_scan_sessions where empty_scan_count = 0
+c) SELECT * from sys.dm_cdc_log_scan_sessions where empty_scan_count < 0
+d) SELECT * from sys.dm_cdc_log_scan_sessions where empty_scan_count > 0
+a
+7. Which of the following script enable a table Without Using a Gating Role?
+a)
+USE MyDB
+GO
+EXEC sys.sp_cdc_enable_table
+@source_schema = N'dbo',
+@source_name   = N'MyTable',
+@role_name     = 1,
+@supports_net_changes = 1
+GO
+b)
+USE MyDB
+GO
+EXEC sys.sp_cdc_enable_table
+@source_schema = N'dbo',
+@source_name   = N'MyTable',
+@role_name     = 0,
+@supports_net_changes = 1
+GO
+c)
+USE MyDB
+GO
+EXEC sys.sp_cdc_enable_table
+@source_schema = N'dbo',
+@source_name   = N'MyTable',
+@role_name     = NULL,
+@supports_net_changes = 1
+GO
+d) None of the mentioned
+c
+8. Which of the following script enable a Table for all and Net Changes Queries?
+a)
+\USE MyDB
+GO
+EXEC sys.sp_cdc_enable_table
+@source_schema = N'dbo',
+@source_name   = N'MyTable',
+@role_name     = N'MyRole',
+@supports_net_changes = 1
+GO
+b)
+\USE MyDB
+GO
+EXEC sys.sp_cdc_enable_table
+@source_schema = N'dbo',
+@source_name   = N'MyTable',
+@role_name     = N'MyRole',
+@supports_net_changes = 0
+GO
+c)
+\USE MyDB
+GO
+EXEC sys.sp_cdc_enable_table
+@source_schema = N'dbo',
+@source_name   = N'MyTable',
+@role_name     = N'MyRole',
+@supports_net_changes = NULL
+GO
+d) All of the mentioned
+a
+9. Upper bound on expected throughput of the capture job is calculated using which of the following computation?
+a) (maxtrans * maxscans) / number of seconds between scans
+b) (maxtrans * maxscans) * number of seconds between scans
+c) (maxtrans * maxscans) – number of seconds between scans
+d) None of the mentioned
+a
+10. The cleanup job is initiated by running the parameterless stored procedure is ___________
+a) sp_MScdc_cleanup_job
+b) sp_cdc_cleanup_change_job
+c) sp_cdc_cleanup_change_tables
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Change Tracking» Next - SQL Server Questions and Answers – SQL Audit 

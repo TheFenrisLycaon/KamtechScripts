@@ -1,0 +1,82 @@
+1. What happens to the flow which passes through a curved shock wave?
+a) Creates vorticity downstream
+b) Creates vorticity upstream
+c) Flow passes by undisturbed
+d) Flow moves parallel to the curves shock wave
+a
+2. Which of these equations represent vorticity?
+a) ∇.V
+b) ∇ × V
+c) ∇.V2
+d) (∇.V) × V
+b
+3.  Vorticity is thrice as much as the angular velocity.
+a) True
+b) False
+b
+∇ × V = 2ω
+Where, ω is the angular velocity of the fluid.
+4. What is the value of vorticity for a irrotational flow?
+a) ω
+b) 2ω
+c) Zero
+d) Infinite
+b
+5. Which of these scenarios will lead to formation of vorticity?
+a) Flow behind curved shock wave
+b) Flow over a sharp wedge
+c) Two – dimensional nozzle flow
+d) Flow over a slender body
+a
+Join Sanfoundry@YouTube
+6. The special form of Euler’s equation dp = – ρVdV is applicable for rotational flow.
+a) True
+b) False
+b
+7. According to Euler’s equation, what happens to the velocity of the inviscid flow if the pressure increases?
+a) No change
+b) Increases
+c) Decreases
+d) Becomes zero
+c
+8. Which of these conditions is not met at a point for irrotational flow?
+a) \(\frac {∂w}{∂y} = \frac {∂v}{∂z}\) 
+b) \(\frac {∂w}{∂x} = \frac {∂u}{∂z}\) 
+c) \(\frac {∂v}{∂x} = \frac {∂u}{∂z}\) 
+d) \(\frac {∂v}{∂x} = \frac {∂u}{∂y}\) 
+c
+∇ × V = \(\begin{vmatrix}
+   i & j & k  \\
+   \frac {\partial }{\partial x} & \frac {\partial }{\partial y} & \frac {\partial }{\partial z}  \\
+   u & v & w  \\
+   \end{vmatrix} \) 
+On expanding this we get,
+i(\(\frac {∂w}{∂y} – \frac {∂v}{∂z}\)) – j(\(\frac {∂w}{∂x} – \frac {∂u}{∂z}\)) + k(\(\frac {∂v}{∂x} – \frac {∂u}{∂y}\)) = 0
+For irrotational flow since vorticity = 0, ∇ × V = 0
+\(\frac {∂w}{∂y} = \frac {∂v}{∂z}\) and \(\frac {∂w}{∂x} = \frac {∂u}{∂z}\) and \(\frac {∂v}{∂x} = \frac {∂u}{∂y}\) 
+9. What is the value of angular velocity at a point on the solid surface outside the boundary layer where the velocity becomes equal to free stream velocity?
+a) Infinite
+b) One
+c) Zero
+d) 0.5
+c
+10. According to d’Alember’s paradox, what happens when the flow over a body is irrotational?
+a) Results in infinite drag
+b) Results in zero drag
+c) Results in formation of vortices behind the body
+d) Results in body forces
+b
+11. What is a velocity potential?
+a) ∇ × ϕ
+b) ∇ϕ
+c) – ∇ × V
+d) (∇ × V)ϕ
+b
+∇ × (∇ϕ) = 0
+Thus the velocity potential is described as the scalar function ∇ϕ. It satisfies the Laplace equations as well.
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Finite Waves» Next - Aerodynamics Questions and Answers – The Velocity Potential Equation 

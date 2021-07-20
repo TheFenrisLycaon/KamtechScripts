@@ -1,0 +1,67 @@
+1. A sharded cluster can contain __________ query router to divide the client request load.
+a) 1
+b) 0
+c) more than 1
+d) all of the mentioned
+c
+2. Point out the correct statement.
+a) MongoDB distributes data, or shards, at the collection level
+b) To shard a document, you need to select a shard key
+c) MongoDB divides the shard key values into replica sets
+d) All of the mentioned
+a
+3. ________ servers store the cluster’s metadata.
+a) Local
+b) Config
+c) Master
+d) All of the mentioned
+a
+4. The query router uses __________ to target operations to specific shards.
+a) metadata
+b) cluster
+c) replica
+d) all of the mentioned
+a
+5. Point out the wrong statement.
+a) For hash-based sharding, MongoDB divides the data set into ranges determined by the shard key values to provide hash based partitioning
+b) Cloud-based providers may only allow users to provision smaller instances
+c) For hash based partitioning, MongoDB computes a hash of a field’s value, and then uses these hashes to create chunks
+d) All of the mentioned
+a
+6. Production sharded clusters have exactly ______ config servers.
+a) 1
+b) 2
+c) 3
+d) 4
+c
+7. A _________ key is either an indexed field or an indexed compound field that exists in every document in the collection.
+a) cluster
+b) shard
+c) partition
+d) all of the mentioned
+b
+8. To divide the shard key values into chunks, MongoDB uses _____ based partitioning.
+a) range
+b) b tree
+c) document
+d) isMaster
+a
+9. With hash based partitioning, two documents with _____ shard key values are unlikely to be part of the same chunk.
+a) close
+b) open
+c) partially close
+d) all of the mentioned
+a
+10. _______ based partitioning, by contrast, ensures an even distribution of data at the expense of efficient range queries.
+a) Hash
+b) Range
+c) Table
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Sharding Introduction» Next - MongoDB Questions and Answers – Cluster Architectures 

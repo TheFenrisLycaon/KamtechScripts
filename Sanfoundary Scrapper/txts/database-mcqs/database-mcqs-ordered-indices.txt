@@ -1,0 +1,66 @@
+1. In ordered indices the file containing the records is sequentially ordered, a ___________ is an index whose search key also defines the sequential order of the file.
+a) Clustered index
+b) Structured index
+c) Unstructured index
+d) Nonclustered index
+a
+2. Indices whose search key specifies an order different from the sequential order of the file are called ___________ indices.
+a) Nonclustered
+b) Secondary
+c) All of the mentioned
+d) None of the mentioned
+c
+3. An ____________ consists of a search-key value and pointers to one or more records with that value as their search-key value.
+a) Index entry
+b) Index hash
+c) Index cluster
+d) Index map
+a
+4. In a _______ clustering index, the index record contains the search-key value and a pointer to the first data record with that search-key value and the rest of the records will be in the sequential pointers.
+a) Dense
+b) Sparse
+c) Straight
+d) Continuous
+a
+5. In a __________ index, an index entry appears for only some of the search-key values.
+a) Dense
+b) Sparse
+c) Straight
+d) Continuous
+a
+6. Incase the indices values are larger, index is created for these values of the index. This is called
+a) Pointed index
+b) Sequential index
+c) Multilevel index
+d) Multiple index
+c
+7. A search key containing more than one attribute is referred to as a _________ search key.
+a) Simple
+b) Composite
+c) Compound
+d) Secondary
+b
+8. In B+ tree the node which points to another node is called
+a) Leaf node
+b) External node
+c) Final node
+d) Internal node
+d
+9. Insertion of a large number of entries at a time into an index is referred to as __________ of the index.
+a) Loading
+b) Bulk insertion
+c) Bulk loading
+d) Increase insertion
+c
+10. While inserting the record into the index, if the search-key value does not appear in the index.
+a) The system adds a pointer to the new record in the index entry
+b) The system places the record being inserted after the other records with the same search-key values
+c) The system inserts an index entry with the search-key value in the index at the appropriate position
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Database Buffer» Next - Database Questions and Answers – Hashing techniques 

@@ -1,0 +1,73 @@
+1. If the stack flag is set, and condition code bit C1=1, then the stack is
+a) full
+b) overflown
+c) underflown
+d) empty
+b
+2. If the stack flag is set, and condition code bit C1=0, then the stack is
+a) full
+b) overflown
+c) underflown
+d) empty
+c
+3. The bits that affect the result of arithmetic operations like ADD, SUB, MUL, DIV are
+a) condition code bits
+b) rounding control bits
+c) masking bits
+d) precision control bits
+d
+4. The precision is decided by the
+a) opcode
+b) extended precision format
+c) opcode or extended precision format
+d) none of the mentioned
+c
+5. If Numeric Processor Write (NPWR) active-low input pin is activated, then it enables a data transfer from
+a) memory to processor
+b) 80287 to 80286
+c) 80286 to 80287
+d) 8086 to 80287
+c
+6. If Numeric Processor Read (NPRD) active-low input pin is activated, then it enables a data transfer from
+a) memory to processor
+b) 80287 to 80286
+c) 80286 to 80287
+d) 8086 to 80287
+b
+7. Which of the input line(s) indicate that the CPU is performing an escape operation, and enables 80287 to execute the next instruction?
+a) NPWR (active low) and NPRD (active low)
+b) NPS1 and NPS2 (active low)
+c) NPS1 (active low) and NPS2
+d) CMD0 and CMD1
+c
+8. For which pin of 80286 is the active low pin, BUSY of 80287, connected?
+a) ERROR (active low)
+b) BUSY (active low)
+c) HLDA
+d) TEST (active low)
+d
+9. If Clock Mode (CM) input pin is held low, then the CLK input is divided by
+a) 1
+b) 2
+c) 3
+d) 4
+b
+10. Which of the following pin is not involved in the interface of 80287 with 80286?
+a) PEREQ
+b) ERROR#
+c) RESET
+d) CMD0 and CMD1
+c
+11. The PEACK (active low) when activated, the pin that goes into deactivation is
+a) PEREQ
+b) ERROR#
+c) RESET
+d) CMD0 and CMD1
+a
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice MCQs on all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – 80287 Math Coprocessor -1» Next - Microprocessors Questions and Answers – Salient Features of 80386DX 

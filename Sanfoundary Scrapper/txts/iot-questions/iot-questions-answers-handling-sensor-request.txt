@@ -1,0 +1,90 @@
+1. HelloWeb is an example of ____________ server.
+a) HTTP
+b) MQTP
+c) SMTP
+d) CoAP
+a
+2. ________ will show how to handle GET request to a sensor resources.
+a) Monitor
+b) VoltageMonitor
+c) Voltage
+d) Voltage-Monitor
+c
+3. Can we use any web browser as client.
+a) True
+b) False
+a
+4. An HTTP server manages ____________
+a) Websites
+b) Devices
+c) Resources
+d) Sensors
+c
+5. A resource that contains an actual value is called as ________
+a) Potential variable
+b) Measured variable
+c) Resource variable
+d) Physical variable
+b
+6. When the user turns the potentiometer’s knob, the value is changed.
+a) True
+b) False
+a
+7. A resource with measured variable will reflect ________
+a) Potential phenomenon
+b) Resource phenomenon
+c) Measured phenomenon
+d) Physical phenomenon
+d
+8. What should an URL contain?
+a) ASCII values
+b) Digits
+c) Characters
+d) ASCII values, digits, and characters
+d
+http://192.168.5.100/root/sensor/analog/1.
+9. For reading the current voltage ________ library class is used.
+a) Digital sensor
+b) Analog sensor
+c) Actuator
+d) Potential sensor
+a
+10. Variable voltage Sensor is an instance of Analog Sensor.
+a) True
+b) False
+a
+Variable voltage Sensor is an instance of Analog Sensor, initialized with pinA1.
+11.  Which property makes it possible for the analog sensor object to convert the integer input?
+a) MinValue
+b) MaxValue
+c) Either MinValue or MaxValue
+d) Both MinValue and MaxValue
+d
+12. What is the range of analog input port?
+a) 0 to 3
+b) 0 to 3.3
+c) 0 to 4
+d) 0 to 4.5
+b
+13. ________ is used to provide an object of type MeasuredVariable.
+a) HandleRequest
+b) RequetHandle
+c) Handle_Request
+d) Handle-Request
+a
+14. When a client makes a GET request for /voltage/actual, the request is passed to ________
+a) MeasuredVariable
+b) HandleRequest
+c) Measured Variable’s HandleRequest
+d) HandleRequest’s MeasuredVariable
+c
+15. Delegate properties must be compatible with the delegate types they represent.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – IOT.
+To practice all areas of IOT, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - IOT Questions and Answers – Handling Actuator Request» Next - IOT Questions and Answers – Multithreading 

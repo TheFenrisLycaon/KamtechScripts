@@ -1,0 +1,87 @@
+1. Which of the following operators are used for logical execution?
+a) ||
+b) &&
+c) %%
+d) && and ||
+d
+command1 && command2
+command1 || command2
+ 
+2. When we use &&, the second command is executed only when first succeeds.
+a) True
+b) False
+a
+3. When we use ||, both the commands are executed.
+a) True
+b) False
+b
+4. The syntax for using && is ______________
+a) cmd1 && cmd2
+b) cmd1 cmd2 &&
+c) cmd1 & cmd2&
+d) cmd1
+a
+cmd1 && cmd2
+cmd1 || cmd2
+5. To perform decision depending on the fulfillment of certain criteria, ____ is used.
+a) if
+b) else
+c) for
+d) if and else
+d
+If command is successful
+Then
+    Execute command
+Else
+    Execute command
+Fi
+6.  Every if is closed with a corresponding ____
+a) else
+b) fi
+c) if
+d) else if
+b
+7. To check more than two conditions, ___ is used with if-else statements.
+a) while
+b) for
+c) elif
+d) for
+c
+If command is successful
+Then
+    Execute command
+Elif  command is successful
+    Then
+    Execute command
+Else. . .    
+Fi
+8. The name of the script is stored in which special parameter?
+a) $1
+b) $0
+c) $#
+d) $*
+b
+9. Which of the following is not a special parameter used by the shell?
+a) $$
+b) $*
+c) $?
+d) $-
+d
+        $$ - displays PID of the current shell
+        $* - displays the complete set of positional parameters as a single string
+        $?  - displays exit status of the last command
+10. To know the exit status of a command, we can use ____
+a) $$
+b) $*
+c) $?
+d) $-
+c
+$ grep director.lst  emp.lst  >/dev/null ; echo $?
+1                        // success
+ 
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Shell Programming using read Command and Command Line Arguments» Next - Unix  Questions and Answers – Using test and [ ] to Evaluate Expressions – 1 

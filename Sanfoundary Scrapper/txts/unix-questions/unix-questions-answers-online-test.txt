@@ -1,0 +1,110 @@
+1. The SUID for any file can be set by the administrator using ____
+a) chmod
+b) chmod u+s filename
+c) chmod s filename
+d) chmod us filename
+b
+# chod u+s  filename.
+2. The superuser can set the sticky bit.
+a) True
+b) False
+a
+# chmod  1775  dirone
+# ls  -l  a.txt
+drwxrwxr-t  2     abd     dialin     2048   Apr 23  09:04   Dirone
+3. Which of the following commands are used for the maintenance of user accounts?
+a) useradd
+b) usermod
+c) userdel
+d) useradd, usermod, userdel
+d
+4. _____ command is used for creating a new group.
+a) chgrp
+b) chown
+c) addgrp
+d) groupadd
+d
+groupadd -g 398  OFFICEMANAG
+ 
+5.  For adding a new user to the system, we have to use ____ command.
+a) grpadd
+b) useradd
+c) uadd
+d) adduser
+b
+# useradd  -u  134  -g  OFFICEMANAG  -c  “The RDMS”  -d  /home/group   -s   /bin/bash   -m group
+6. All the user information is stored in _____
+a) etc/passwd
+b) bin/passwd
+c) bin/users/passwd
+d) etc/shadow
+a
+7. Which of the following is not a field stored in /etc/passwd?
+a) username
+b) password
+c) UID, GID
+d) encrypted password
+d
+•    Username
+•    Password
+•    UID
+•    GID
+•    GCOS
+•    HOME directory
+•    Login shell 
+8.  Which command is used by the administrator to modify some parameters of existing users?
+a) userdel
+b) userchange
+c) useradd
+d) usermod
+d
+# usermod  -s  /bin/bash   oracle        //sets bash as the login shell for user oracle
+ 
+9. userdel is used for removing users from the system.
+a) True
+b) False
+a
+# userdel  oracle    // remove user amed oracle from system but doesn’t delete his files
+ 
+10. shutdown command is used by the administrator for shutting down the system.
+a) True
+b) False
+a
+11. Which option is used with shutdown command to override the default waiting time?
+a) -g
+b) -e
+c) -s
+d) -i
+a
+shutdown  -g2            // shut down the machine after 2 minutes
+12. Which one of the following command will shutdown and reboot the system?
+a) shutdown  -g2
+b) shutdown  -g2  i6
+c) shutdown  -g2  -g0
+d) shutdown -y -g0 -i6
+d
+shutdown -y -g0 -i6.
+13. Which command is used for reporting free space on the disk?
+a) fd
+b) df
+c) du
+d) sg
+b
+14. ___ option is used with df command for displaying the total amount of disk space in the file system.
+a) -a
+b) -d
+c) -t
+d) -e
+c
+15.  ___ option is used with df command for displaying the total amount of disk space in the file system in terms of Kilobytes.
+a) -a
+b) -d
+c) -t
+d) -k
+d
+Sanfoundry Global Education & Learning Series – Unix.
+To practice  all areas of Unix for online tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Administrator Specific Commands and Privileges – 1» Next - Unix  Questions and Answers – Administrator Specific Commands and Privileges – 3 

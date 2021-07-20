@@ -1,0 +1,109 @@
+1. Which of the following design strategy can reduce the occurrence of blocking locks?
+a) Use non-clustered indexes on high-usage tables
+b) Use clustered indexes on high-usage tables
+c) Use clustered indexes on less-usage tables
+d) Make sure that CREATE and DROP statements use an existing index
+b
+2. Point out the correct statement.
+a) Avoid less row count SQL statements that can cause a table lock
+b) A blocking lock occurs when one lock causes another process to wait in a holding queue
+c) Lock is a done by database when any connection access a different piece of data concurrently
+d) None of the mentioned
+b
+3. Which of the following scenario give rise to deadlock (There are 2 processes)?
+a)
+P1 & P2 trying TO GET TO 2 resources R1 & R2.
+P1 gets a LOCK ON R2
+AND
+P2 gets a LOCK ON R2
+THEN
+P1 tries TO GET a LOCK ON R2 but can’t because it IS locked BY P2
+AND
+P2 tries TO GET a LOCK ON R1 but can’t because it IS locked BY P1
+b)
+ P1 & P2 trying TO GET TO 2 resources R1 & R2.
+P1 gets a LOCK ON R1
+AND
+P2 gets a LOCK ON R1
+THEN
+P1 tries TO GET a LOCK ON R2 but can’t because it IS locked BY P2
+AND
+P2 tries TO GET a LOCK ON R1 but can’t because it IS locked BY P1
+c)
+Join Sanfoundry@YouTube
+ P1 & P2 trying TO GET TO 2 resources R1 & R2.
+P1 gets a LOCK ON R1
+AND
+P2 gets a LOCK ON R2
+THEN
+P1 tries TO GET a LOCK ON R2 but can’t because it IS locked BY P2
+AND
+P2 tries TO GET a LOCK ON R1 but can’t because it IS locked BY P1
+d) All of the mentioned
+c
+4. Which of the following occurs when two connections need access to same piece of data concurrently and the meanwhile another is blocked because at a particular time, only one connection can have access?
+a) Lock
+b) Block
+c) Deadlock
+d) Exclusive lock
+b
+5. Point out the wrong statement.
+a) SQL Server lock monitor has a performance monitor that periodically checks the locks
+b) A deadlock graph shows us the sessions and resources that were involved in a deadlock
+c) Prior to SQL Server 2008, if a deadlock occurred in SQL Server, we’d have to enable trace flag
+d) None of the mentioned
+a
+6. An XML deadlock graph has ______ main sections.
+a) 2
+b) 3
+c) 4
+d) 5
+a
+7. _____________  section lists all the resources that were involved in the deadlock.
+a) Processes
+b) Resources
+c) WAIT stats
+d) All of the mentioned
+b
+8. ___________ is a deadlock between a statement that is reading and a statement that is performing some form of data modification.
+a) Reader
+b) Writer
+c) Reader-Writer
+d) All of the mentioned
+c
+9. Which of the following query returns object names from partition IDs?
+a)
+SELECT OBJECT_NAME(p.object_id) AS TableName , 
+       i.name AS IndexName 
+FROM sys.partition AS p 
+     INNER JOIN sys.indexes AS i ON p.object_id = i.object_id 
+                                    AND p.index_id = i.index_id 
+WHERE partition_id = 72057594038845440
+b)
+SELECT OBJECT_NAME(p.object_id) AS TableName , 
+       i.name AS IndexName 
+FROM sys.partitions AS p 
+     INNER JOIN sys.indexes AS i ON p.object_id = i.object_id 
+                                    AND p.index_id = i.index_id 
+WHERE partition_id = 72057594038845440
+c)
+SELECT OBJECT_NAME(p.object_id) AS TableName , 
+       i.name AS IndexName 
+FROM sys.partitions AS p 
+     INNER JOIN sys.index AS i ON p.object_id = i.object_id 
+                                    AND p.index_id = i.index_id 
+WHERE partition_id = 72057594038845440
+d) None of the mentioned
+b
+10. Which of the following best practice should be carried out concerning data types?
+a) Avoid using NOLOCK on SQL Server UPDATE and DELETE statements
+b) Capturing SQL Server Deadlock Information in XML Format
+c) Optimistic Locking in SQL Server using the ROWVERSION
+d) Processing Data Queues in SQL Server with READPAST and UPDLOCK
+c
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Locking» Next - SQL Server Questions and Answers – Working With Transaction Log 

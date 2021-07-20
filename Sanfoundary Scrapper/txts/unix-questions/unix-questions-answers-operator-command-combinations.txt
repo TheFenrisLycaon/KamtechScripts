@@ -1,0 +1,102 @@
+1. An operator can’t perform any function without being combined with a command or itself.
+a) True
+b) False
+a
+2. For deleting the line form current cursor to the end of the line, we can use:
+a) $
+b) d$
+c) dd
+d) $d
+a
+d$        //delete entire line fro current cursor location to end of line
+ 
+3. dw will ________
+a) deletes one line
+b) deletes one word
+c) deletes one character
+d) deletes one sentence
+b
+dw            // deletes one word
+3dw           // deletes 3 words
+ 
+4. For yanking text, ___ is used.
+a) d
+b) y
+c) c
+d) G
+b
+5yy            // yanks five lines
+ 
+5. For pasting text, ____ is used.
+a) p or P
+b) d or D
+c) C
+d) x or X
+a
+6. c operator is used for changing the text.
+a) True
+b) False
+a
+c$ or C 
+7. To change entire lines, ____ is used.
+a) cc
+b) CC
+c) dd
+d) c$
+a
+8. Which operator is used in vi to filter text?
+a) %%
+b) &&
+c) $
+d) !
+d
+1. move to the beginning of the text to be acted upon and press !
+2. move to the other end of the text using navigation command like G
+3. Enter the command to act on the text. 
+9. To delete from current cursor upto the first occurrence of }, which of the following will be used?
+a) dd$}
+b) d /
+c) d / }
+d) }
+c
+10. The command df. will _____
+a) deletes entire line
+b) deletes entire paragraph
+c) deletes from current cursor up to first occurrence of
+d) deletes zero lines
+c
+11. To yank from current cursor up to first occurrence of string str  in reverse direction, we can use:
+a) y?str
+b) y!str
+c) yy str
+d) yy ! str
+a
+12. The following command will_________
+!! tr ‘[a-z]’  ‘[A-Z]’
+a) throw an error
+b) undefined behavior
+c) changes the case of the current line from lower to uppercase
+d) changes the case of current line from upper to lowercase
+c
+13. The command c0 will change the text from current cursor to the end of line.
+a) True
+b) False
+b
+14. To sort all lines from current cursor to end of line, ____ can be used.
+a) sort .,$
+b) sort !G
+c) sort !,G
+d) !Gsort
+d
+15. Which of the following is not a valid operator-command combination?
+a) 5dd
+b) yy5
+c) cc
+d) yG
+b
+ Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.     
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix Questions and Answers – perl – A General Purpose Tool – 2» Next - Unix Questions and Answers – Handling Multiple Files and Buffers 

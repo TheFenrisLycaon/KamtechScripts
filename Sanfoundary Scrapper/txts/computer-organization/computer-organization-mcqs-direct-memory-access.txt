@@ -1,0 +1,94 @@
+1. The DMA differs from the interrupt mode by __________
+a) The involvement of the processor for the operation
+b) The method of accessing the I/O devices
+c) The amount of data transfer possible
+d) None of the mentioned
+d
+2. The DMA transfers are performed by a control circuit called as __________
+a) Device interface
+b) DMA controller
+c) Data controller
+d) Overlooker
+b
+3. In DMA transfers, the required signals and addresses are given by the __________
+a) Processor
+b) Device drivers
+c) DMA controllers
+d) The program itself
+c
+4. After the completion of the DMA transfer, the processor is notified by __________
+a) Acknowledge signal
+b) Interrupt signal
+c) WMFC signal
+d) None of the mentioned
+b
+5. The DMA controller has _______ registers.
+a) 4
+b) 2
+c) 3
+d) 1
+c
+6. When the R/W bit of the status register of the DMA controller is set to 1.
+a) Read operation is performed
+b) Write operation is performed
+c) Read & Write operation is performed
+d) None of the mentioned
+a
+7. The controller is connected to the ____
+a) Processor BUS
+b) System BUS
+c) External BUS
+d) None of the mentioned
+b
+8. Can a single DMA controller perform operations on two different disks simultaneously?
+a) True
+b) False
+a
+9. The technique whereby the DMA controller steals the access cycles of the processor to operate is called __________
+a) Fast conning
+b) Memory Con
+c) Cycle stealing
+d) Memory stealing
+c
+10. The technique where the controller is given complete access to main memory is __________
+a) Cycle stealing
+b) Memory stealing
+c) Memory Con
+d) Burst mode
+d
+11. The controller uses _____ to help with the transfers when handling network interfaces.
+a) Input Buffer storage
+b) Signal enhancers
+c) Bridge circuits
+d) All of the mentioned
+a
+12. To overcome the conflict over the possession of the BUS we use ______
+a) Optimizers
+b) BUS arbitrators
+c) Multiple BUS structure
+d) None of the mentioned
+b
+13. The registers of the controller are ______
+a) 64 bits
+b) 24 bits
+c) 32 bits
+d) 16 bits
+c
+14. When the process requests for a DMA transfer?
+a) Then the process is temporarily suspended
+b) The process continues execution
+c) Another process gets executed
+d) process is temporarily suspended & Another process gets executed
+d
+15. The DMA transfer is initiated by _____
+a) Processor
+b) The process being executed
+c) I/O devices
+d) OS
+c
+Sanfoundry Global Education & Learning Series – Computer Organization and Architecture.
+To practice all areas of Computer Organization and Architecture, here is complete set on 1000+ Multiple Choice Questions and Answers on Computer Organization and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Organization Questions and Answers – Exceptions» Next - Computer Organization Questions and Answers – Bus Arbitration 

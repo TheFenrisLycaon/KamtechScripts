@@ -1,0 +1,102 @@
+1. Which of these is a suitable pair of s, r, while using the GCC?
+a) 2, 6
+b) 3, 7
+c) 9, 2
+d) 6, 3
+b
+2. The expected number of trials until r consecutive largest or smallest means come from the same stream, is called _________ of the MSP.
+a) ARL
+b) ARL(1)0
+c) ARL(2)0
+d) Predicted ARL
+c
+3. Who was the first person to find out the one sided in-control ARL for any event of consecutive largest values being obtained from a single process stream?
+a) Bond
+b) Nelson
+c) Robertson
+d) Clarkes
+b
+\(ARL(1)_0=\frac{s^r-1}{s-1}\) 
+4. Who gave the Markov chain approach to compute the ARL(2)0?
+a) Brook and Evans
+b) Mortell
+c) Runger
+d) Nelson
+a
+5. Who was not one of the scientists who used the Markov chain approach to compute the two sided in-control ARL for any GCC of any MSP?
+a) Mortell
+b) Robertson
+c) Runger
+d) Stephenson
+a
+6. Which of these is a lower bound on the ARL(2)0?
+a) \(ARL(2)_0=2\frac{s^r-1}{s-1}\) 
+b) \(ARL(2)_0=\frac{2(r-1)}{s^r-1}\) 
+c) \(ARL(2)_0=\frac{s^r-1}{s-1}\) 
+d) \(ARL(2)_0=\frac{s^r-1}{2(r-1)}\) 
+d
+\(ARL(2)_0=\frac{s^r-1}{2(r-1)}\)
+7. Which of these is one of the drawbacks of GCC?
+a) Each stream does not need to be sampled at a time
+b) There is no information about nonextreme streams at each trial. Thus no past value related EWMA can be constructed
+c) It can’t be used for MSPs
+d) It is very easy to construct
+b
+8. Dependent streams of an MSP are also called ____________
+a) Accuracy streams
+b) Cross Acceptance
+c) Cross-correlated
+d) Uncorrelated
+c
+9. Which of these is the correct model proposed for MSP by Mortell and Runger to accommodate the practical case of the dependent streams?
+a) xtjk = μ – At + ϵtjk
+b) xtjk = μ + At + ϵtjk
+c) xtjk = μ – At – ϵtjk
+d) xtjk = μ + At – ϵtjk
+b
+xtjk = μ + At + ϵtjk
+Here cross-correlated streams have their data related to each other.
+10. What does the term xtjk correspond to in the model proposed by Mortell and Runger?
+a) k Th measurement on the jTh stream at time t
+b) j Th measurement on the kTh stream at time t
+c) t Th measurement on the jTh stream at time k
+d) k Th measurement on the tTh stream at time j
+a
+xtjk = μ + At + ϵtjk
+Here the term xtjk corresponds to k Th measurement on the j Th stream at time t.
+11. The model given by Mortell and Runger represents two types of variability, σa2 accounting for the variance over time ___________ and σ2 accounting for the variation between the streams at specific time t.
+a) Common to all streams
+b) Specific to one stream
+c) Specific to 2 streams
+d) Specific to a group of 3 streams
+a
+12. What is the correct value of cross correlation given by the Mortell and Runger model?
+a) \(ρ=\frac{2σ_a^2}{(σ_a^2+σ^2)}\) 
+b) \(ρ=\frac{4σ_a^2}{(σ_a^2+σ^2)}\) 
+c) \(ρ=\frac{σ_a^2}{(σ_a^2+σ^2)}\) 
+d) \(ρ=\frac{2σ_a^2}{(σ_a^2-σ^2)}\) 
+c
+\(ρ=\frac{σ_a^2}{(σ_a^2+σ^2)}\)
+13. Mortell and Runger proposed monitoring the average at time t of the means across all the streams with _________ control chart to detect an overall assignable cause.
+a) A cusum
+b) A EWMA
+c) A p-chart
+d) An individuals
+d
+14. The Mortell and Runger model did not propose to monitor the range of stream’s means at time t.
+a) True
+b) False
+b
+Rt = max⁡(xtj )-min⁡(xtj).
+15. The proposed control charts on residuals are quite good than the GCC.
+a) True
+b) False
+a
+max⁡(xij )-xi
+This chart is better than the GCC, especially when the variation in the process means over time is greater than the between-stream variability.
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all questions papers on Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Control Charting Techniques – Control Charts for Multiple-Stream Processes – 2» Next - Statistical Quality Control Questions and Answers –  What is Experimental Design – 1 

@@ -1,0 +1,76 @@
+1. SHA-1 produces a hash value of
+a) 256 bits
+b) 160 bits
+c) 180 bits
+d) 128 bits
+b
+2. What is the number of round computation steps in the SHA-256 algorithm?
+a) 80
+b) 76
+c) 64
+d) 70
+c
+3. In SHA-512, the message is divided into blocks of size ___ bits for the hash computation.
+a) 1024
+b) 512
+c) 256
+d) 1248
+a
+4. What is the maximum length of the message (in bits) that can be taken by SHA-512?
+a) 2128
+b) 2256
+c) 264
+d) 2192
+a
+5. The message in SHA-512 is padded so that it’s length is
+a) 832 mod 1024
+b) 768 mod 1024
+c) 960 mod 1024
+d) 896 mod 1024
+d
+6. The big-endian format is one in which
+a) the least significant byte is stored in the low-address byte position
+b) the least significant byte is stored in the high-address byte position
+c) the most significant byte is stored in the high-address byte position
+d) the most significant byte is stored in the low-address byte position
+d
+7. In SHA-512, the registers ‘a’ to ‘h’ are obtained by taking the first 64 bits of the fractional parts of the cube roots of the first 8 prime numbers.
+a) True
+b) False
+b
+8. What is the size of W (in bits) in the SHA-512 processing of a single 1024- bit block?
+a) 64
+b) 128
+c) 512
+d) 256
+a
+9. In the SHA-512 processing of a single 1024- bit block, the round constants are obtained
+a) by taking the first 64 bits of the fractional parts of the cube roots of the first 80 prime numbers
+b) by taking the first 64 bits of the fractional parts of the cube roots of the first 64 prime numbers
+c) by taking the first 64 bits of the fractional parts of the square roots of the first 80 prime numbers
+d) by taking the first 64 bits of the non-fractional parts of the first 80 prime numbers
+a
+10. The output of the N 1024-bit blocks from the Nth stage is
+a) 512 bits
+b) 1024 bits
+c) N x 1024bits
+d) N x 512 bits
+a
+11. What does the figure represent?
+a) Compression function
+b) Message digest generation using SHA
+c) Elementary SHA operation for single round
+d) Processing of a single 1024 bit block
+c
+12. Among the registers ‘a’ to ‘h’ how many involve permutation in each round?
+a) 4
+b) 5
+c) 6
+d) 3
+c
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Integrity Algorithms Questions and Answers – Hash Functions Based on Cipher Block Chaining» Next - Data Integrity Algorithms Questions and Answers – Secure Hash Algorithms (SHA) – II 

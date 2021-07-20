@@ -1,0 +1,184 @@
+1. If A (α, β) = \(\begin{bmatrix}
+cos\alpha & sin\alpha & 0\\
+-sin\alpha & cos\alpha & 0\\
+0 & 0 & e^{\beta}\\
+\end{bmatrix}\) then A(α, β)-1 is equal to?
+a) A (-α, β)
+b) A (-α, -β)
+c) A (α, -β)
+d) A (α, β)
+b
+\(And, adjA = \begin{bmatrix}
+e^{\beta} cos\alpha & e^{\beta} sin\alpha & 0\\
+-e^{\beta} sin\alpha & e^{\beta} cos\alpha & 0\\
+0 & 0 & 1\\
+\end{bmatrix}\) 
+\( ∴  A(α,β)^{-1} = \frac{1}{e^β} \begin{bmatrix}
+e^{\beta} cos\alpha & e^{\beta} sin\alpha & 0\\
+-e^{\beta} sin\alpha & e^{\beta} cos\alpha & 0\\
+0 & 0 & 1\\
+\end{bmatrix}\) 
+\( = A (-α,-β).\) 
+2. If \(A = \begin{bmatrix}
+a+ib & c+id\\
+-c+id & a-ib\\
+\end{bmatrix} and \, a^2+b^2+c^2+d^2=1\) then find A-1.
+a) \(\begin{bmatrix}
+a+ib & -c+id\\
+-a+id & a-ib\\
+\end{bmatrix} \) 
+b) \(\begin{bmatrix}
+a-ib & c-id\\
+-c-id & a+ib\\
+\end{bmatrix} \) 
+c) \(\begin{bmatrix}
+a-ib & -c-id\\
+c-id & a+ib\\
+\end{bmatrix} \) 
+d) \(\begin{bmatrix}
+a+ib & c+id\\
+-c+id & a-ib\\
+\end{bmatrix} \) 
+c
+\(|A| = (a+ib) (a-ib) – (-c+id) (c+id) \) 
+\( = a^2+b^2+c^2+d^2 \) 
+\(s=1 \) 
+Also \(adj (A) = \begin{bmatrix}
+a-ib & -c-id\\
+c-id & a+ib\\
+\end{bmatrix} \) 
+∴ A-1 = \(\frac{1}{|A|} .adj (A) = \frac{1}{1}  \begin{bmatrix}
+a-ib & -c-id\\
+c-id & a+ib\\
+\end{bmatrix} \) 
+\(\begin{bmatrix}
+a-ib & -c-id\\
+c-id & a+ib\\
+\end{bmatrix} \). 
+3. The inverse of a symmetric matrix (if it exists) is?
+a) A symmetric matrix
+b) A skew symmetric matrix
+c) A diagonal matrix
+d) A triangular matrix
+a
+We have AA-1 = A-1A = IN
+(AA-1)’ = (A-1A)’ = (IN)’
+(A-1)’ A’ = A’ (A-1)’ = IN
+(A-1)’ A = A (A-1)’ = IN
+(A-1)’ = A-1 (inverse of a matrix is unique).
+4. Find the rank of the matrix \(\begin{bmatrix}
+4 & 2 & -1 & 2\\
+1 & -1 & 2 & 1\\
+2 & 2 & -2 & 0\\
+\end{bmatrix} \)?
+a) 0
+b) 1
+c) 2
+d) 3
+d
+A = \(\begin{bmatrix}
+4 & 2 & -1 & 2\\
+1 & -1 & 2 & 1\\
+2 & 2 & -2 & 0\\
+\end{bmatrix} \) 
+\( ~ \begin{bmatrix}
+1 & -1 & 2 & 1\\
+4 & 2 & -1 & 2\\
+2 & 2 & -2 & 0\\
+\end{bmatrix} \)R2↔R1
+\( ~ \begin{bmatrix}
+1 & -1 & 2 & 1\\
+0 & 6 & -9 & -2\\
+0 & 4 & -6 & -2\\
+\end{bmatrix}\) R2-4R1, R3-2R1
+\( ~ \begin{bmatrix}
+1 & -1 & 2 & 1\\
+0 & 6 & -9 & -2\\
+0 & 0 & 0 & -4\\
+\end{bmatrix}\) 6R3-4R2
+\(∴ ρ(A)= 3.\) 
+5. Rank of the following matrix is A = \(\begin{bmatrix}
+3 & 2 & -1\\
+4 & 2 & 6\\
+7 & 4 & 5\\
+\end{bmatrix} \) is?
+a) 1
+b) 2
+c) 3
+d) 0
+b
+\(∵ |A| = 0\) 
+\( ~ \begin{bmatrix}
+3 & 2\\
+4 & 2\\
+\end{bmatrix}  ≠0 = -2 \) 
+\(∴ ρ (A) = 2.\) 
+6. If every minor of order ‘r’ of a matrix is zero then ρ (A) =?
+a) >r
+b) =r
+c) ≤r
+d) <r
+d
+A matrix is said to have rank ‘r’ if
+(i) At least one minor of order r is non-zero
+(ii) All minors of order r+1 is zero
+∴ The given matrix (ii) condition seems to be applied
+Hence, rank of matrix ρ (A) = < r.
+7. Find the inverse of the matrix by using Cayley Hamilton Theorem.
+A = \( ~ \begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 1\\
+0 & -2 & 4\\
+\end{bmatrix} \) 
+a) \(\frac{1}{6} \begin{bmatrix}
+1 & 0 & 0\\
+0 & -1 & -1\\
+0 & 2 & -4\\
+\end{bmatrix} \) 
+b) \(\frac{1}{6} \begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 1\\
+0 & 2 & 4\\
+\end{bmatrix} \) 
+c) \(\frac{1}{6} \begin{bmatrix}
+1 & 0 & 0\\
+0 & -1 & -1\\
+0 & -2 & -4\\
+\end{bmatrix} \) 
+d) \(\frac{1}{6} \begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 1\\
+0 & -2 & 4\\
+\end{bmatrix} \) 
+a
+We have λ3 – S1 λ2 + S2 λ – |A| = 0 characteristics equation of matrix A
+Also A satisfies above equation according to theorem.
+∴ A3– S1A2+ S2A – 6 = 0……… (i) Where S1=6, S2=6 & |A|=6 
+∴ A3 – 6A2 + 6A – 6 = 0
+Multiplying equation (i) by A-1
+A-1 (A3) – 6 A-1 (A2) + A-1 (A) – 6 A-1 = 0
+=> A2 – 6A + 6I – 6 A-1 =  \(\frac{1}{6}\)  A-1
+=> A-1 = \(\frac{1}{6} \Bigg\{\begin{bmatrix}
+1 & 0 & 0\\
+0 & -1 & 5\\
+0 & -10 & 14\\
+\end{bmatrix} – \begin{bmatrix}
+6 & 0 & 0\\
+0 & 6 & 6\\
+0 & -12 & -24\\
+\end{bmatrix} + \begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{bmatrix} \Bigg\} \) 
+\(⇨ A^{-1} = \frac{1}{6} \begin{bmatrix}
+1 & 0 & 0\\
+0 & -1 & -1\\
+0 & 2 & -4\\
+\end{bmatrix} \). 
+Sanfoundry Global Education & Learning Series – Linear Algebra.
+To practice all areas of Linear Algebra for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Algebra Questions and Answers – Types and Properties of Matrices» Next - Linear Algebra Questions and Answers – Rank of Matrix in Row Echelon Form 

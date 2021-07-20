@@ -1,0 +1,141 @@
+1. Array of arrays are called multidimensional arrays.
+a) True
+b) False
+a
+2. What is the output of the given code?
+multi_d_array = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
+print multi_d_array
+a) [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]].
+b) [0, 0, 0, 0].
+c) [0, 0, 0, 0][0, 0, 0, 0].
+d) None of the mentioned
+a
+Output:
+[[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+3. What is the output of the given code?
+multi_d_array = [[1,2,3,4],[0,0,0,0]]
+multi_d_array.each { |x| puts "#{x}\n" }
+a) [1, 2, 3, 4].
+   [0, 0, 0, 0].
+   [[1, 2, 3, 4], [0, 0, 0, 0]].
+b) [0, 0, 0, 0].
+c) [0, 0, 0, 0][0, 0, 0, 0].
+d) None of the mentioned
+a
+Output:
+[1, 2, 3, 4]
+[0, 0, 0, 0]
+[[1, 2, 3, 4], [0, 0, 0, 0]]
+4. What is the output of the given code?
+array1 = [[1,2,3,4],[0,0,0,0]]
+array2 = [[1,2,3],[0,0,0,0]]
+if array1==array2
+    print "Equal"
+else
+    print "Not equal"
+end
+a) [[1, 2, 3, 4], [0, 0, 0, 0]].
+b) Equal
+c) Not equal
+d) None of the mentioned
+c
+Output:
+Not equal
+5. What is the output of the given code?
+array1 = [[1,2,3,4],[0,0,0,0]]
+array2 = [[1,2,3,4],[0,0,0,0]]
+if array1==array2
+    print "Equal"
+else
+    print "Not equal"
+end
+a) [[1, 2, 3, 4], [0, 0, 0, 0]].
+b) Equal
+c) Not equal
+d) None of the mentioned
+b
+Output:
+Equal
+6. What is the output of the given code?
+array1 = [[1,2,3,4],[0,0,0,0]]
+array2 = [[1,2,3,4],[0,0,0,0]]
+print array1+array2
+a) [[1, 2, 3, 4], [0, 0, 0, 0]].
+b) [[1, 2, 3, 4], [0, 0, 0, 0], [1, 2, 3, 4], [0, 0, 0, 0]].
+c) [[2,4,6,8],[0,0,0,0]].
+d) None of the mentioned
+b
+Output:
+[[1, 2, 3, 4], [0, 0, 0, 0], [1, 2, 3, 4], [0, 0, 0, 0]]
+7. What is the output of the given code?
+array1 = [[1,2,3,4],[0,0,0,0]]
+array2 = [[1,2,3,4],[0,0,0,0]]
+print array1-array2
+a) [[1, 2, 3, 4], [0, 0, 0, 0]].
+b) [[1, 2, 3, 4], [0, 0, 0, 0], [1, 2, 3, 4], [0, 0, 0, 0]].
+c) [].
+d) None of the mentioned
+c
+Output:
+[]
+8. What is the output of the given code?
+array1 = [[1,2,3,4],[0,0,0,0]]
+array2 = [[1,2,3,4],[0,0,0,0]]
+print array1*array2
+a) [[1, 2, 3, 4], [0, 0, 0, 0]].
+b) [[1, 2, 3, 4], [0, 0, 0, 0], [1, 2, 3, 4], [0, 0, 0, 0]].
+c) [].
+d) Error
+d
+Output:
+can't convert Array into Integer
+9. What is the output of the given code?
+array1 = [[1,2,3,4],[0,0,0,0]]
+array2 = [[1,2,3],[0,0,0]]
+print array1 && array2
+a) [[1, 2, 3], [0, 0, 0]].
+b) [[1, 2, 3, 4], [0, 0, 0, 0], [1, 2, 3, 4], [0, 0, 0, 0]].
+c) [].
+d) Error
+a
+Output:
+[[1, 2, 3], [0, 0, 0]]
+10. What is the output of the given code?
+array1 = [[1,2,3,4,5],[0,0,0,0]]
+array2 = [[1,2,3],[0,0,0]]
+print array1 || array2
+a) [[1, 2, 3], [0, 0, 0]].
+b) [[1, 2, 3, 4, 5], [0, 0, 0, 0]].
+c) [].
+d) Error
+b
+Output:
+[[1, 2, 3, 4, 5], [0, 0, 0, 0]]
+11. What is the output of the given code?
+array1 = [[1,2,3,4,5],[0,0,0,0]]
+array2 = [[1,2,3],[0,0,0]]
+print !array1
+a) [[1, 2, 3], [0, 0, 0]].
+b) [[1, 2, 3, 4, 5], [0, 0, 0, 0]].
+c) False
+d) Error
+b
+Output:
+False
+12. What is the output of the given code?
+a=[["a","b"]]
+b=[["e","a"]]
+print a + b
+a) [[“a”, “b”], [“e”, “a”]].
+b) [[“2a”, “b”], [“e”]].
+c) False
+d) Error
+a
+Output:
+[["a", "b"], ["e", "a"]]
+Sanfoundry Global Education & Learning Series – Ruby Programming.
+To practice all areas of Ruby Programming, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ruby Programming Questions and Answers – Arrays of Non-Numbers» Next - Ruby Programming Questions and Answers – Introduction to Hashes 

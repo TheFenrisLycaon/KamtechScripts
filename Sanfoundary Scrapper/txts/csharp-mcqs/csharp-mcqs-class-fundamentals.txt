@@ -1,0 +1,137 @@
+1. What will be the output of the following C# code?
+ class sample {     public int i;     public int[] arr = new int[10];     public void fun(int i, int val)     {         arr[i] = val;     } } class Program {     static void Main(string[] args)     {         sample s = new sample();         s.i = 10;         sample.fun(1, 5);         s.fun(1, 5);         Console.ReadLine();     } }
+a) sample.fun(1, 5) will not work correctly
+b) s.i = 10 cannot work as i is ‘public’
+c) sample.fun(1, 5) will set value as 5 in arr[1] 
+d) s.fun(1, 5) will work correctly
+a
+                      sample s = new sample();
+                      s.i = 10;
+                      sample.fun(1, 5);
+                      sample.fun(1, 5);
+                      Console.ReadLine();
+2. Which of the following is used to define the member of a class externally?
+a) :
+b) ::
+c) #
+d) none of the mentioned
+b
+3. The operator used to access member function of a class?
+a) :
+b) ::
+c) .
+d) #
+c
+4. What is the most specified using class declaration?
+a) type
+b) scope
+c) type & scope
+d) none of the mentioned
+c
+
+class  class_name 
+{
+       member variables
+         variable1;
+         variable2;
+         variableN;
+         method1(parameter_list) 
+       {
+             method body 
+       }
+         method2(parameter_list) 
+       {
+            method body 
+       }
+         methodN(parameter_list) 
+       {
+            method body 
+       }
+}
+ 
+5. What will be the output of the following C# code?
+  class sample  {      public int i;      public int j;      public void fun(int i, int j)      {          this.i = i;          this.j = j;      }  }  class Program  {      static void Main(string[] args)      {          sample s = new sample();          s.i = 1;          s.j = 2;          s.fun(s.i, s.j);          Console.WriteLine(s.i + " " + s.j);          Console.ReadLine();      }  }
+a) Error while calling s.fun() due to inaccessible level
+b) Error as ‘this’ reference would not be able to call ‘i’ and ‘j’
+c) 1 2
+d) Runs successfully  but prints nothing
+c
+Output:
+1 2
+6. Which of the following statements about objects in “C#” is correct?
+a) Everything you use in C# is an object, including Windows Forms and controls
+b) Objects  have methods and events that allow them to perform actions
+c) All objects created from a class will occupy equal number of bytes in memory
+d) All of the mentioned
+d
+7. “A  mechanism that binds together code and data in manipulates, and keeps both safe from outside interference and misuse. In short it isolates a particular code and data from all other codes and data. A well-defined interface controls access to that particular code and data.”
+a) Abstraction
+b) Polymorphism
+c) Inheritance
+d) Encapsulation
+d
+8. What will be the output of the following C# code?
+  class z  {      public int X;      public int Y;      public  const int c1 = 5;      public  const int c2 = c1 * 25;      public void set(int a, int b)      {          X = a;          Y = b;      }   }  class Program  {      static void Main(string[] args)      {          z s = new z();          s.set(10, 20);          Console.WriteLine(s.X + " " + s.Y);          Console.WriteLine(z.c1 + " " + z.c2);          Console.ReadLine();      }   }
+a) 
+10 20
+5  25
+b) 
+20 10
+25 5
+c) 
+10 20
+5 125
+d) 
+20 10
+125 5
+c
+Output :
+           10 20
+           5  125
+  
+9. Correct way of declaration of object of the following class is?
+ class name
+a) name n = new name();
+b) n = name();
+c) name n = name();
+d) n = new name();
+a
+10. The data members of a class by default are?
+a) protected, public
+b) private, public
+c) private
+d) public
+c
+11. What will be the output of the following C# code?
+  class z  {      public string name1;      public string address;      public void show()      {          Console.WriteLine("{0} is in city{1}", name1, " ", address);      }  }  class Program  {      static void Main(string[] args)      {          z n = new z();          n.name1 = "harsh";          n.address = "new delhi";          n.show();          Console.ReadLine();      }  }
+a) Syntax error
+b) {0} is in city{1} harsh new delhi
+c) harsh is in new delhi
+d) Run successfully prints nothing
+c
+Output :
+harsh is in new delhi
+12. What does the following C# code imply?
+      csharp abc;
+      abc = new charp();
+a) Object creation on class csharp
+b) Create an object of type csharp on heap or on stack depending on the size of object
+c) create a reference c on csharp and an object of type csharp on heap
+d) create an object of type csharp on stack
+c
+13. What will be the output of the following C# code?
+   class test   {       public void print()       {           Console.WriteLine("Csharp:");       }   }   class Program   {       static void Main(string[] args)       {           test t;           t.print();           Console.ReadLine();       }   }
+a) Code runs successfully prints nothing
+b) Code runs and prints “Csharp”
+c) Syntax error as t is unassigned variable which is never used
+d) None of the mentioned
+c
+             test t = new test();
+             t.print();
+             Console.ReadLine();
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Continue, Goto Statements» Next - C# Questions & Answers – Reference Variables and Assignment 

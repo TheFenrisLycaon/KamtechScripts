@@ -1,0 +1,67 @@
+1. To view a role’s information, you must be explicitly granted the role or must have the _________ action on the role’s database.
+a) viewUser
+b) viewRole
+c) grantRole
+d) none of the mentioned
+b
+2. Point out the correct statement.
+a) To provide user administrators, MongoDB has userAdmin and userAdminAnyDatabase roles
+b) A user administrator can grant any privilege in the database and can create new ones
+c) Specifically, a user with the userAdmin role can grant itself any privilege in the database
+d) All of the mentioned
+d
+3. Grant the user the role using the ________ method.
+a) db.grantRole()
+b) db.grantRolesToUser()
+c) db.grantToUser()
+d) all of the mentioned
+b
+4. Which of the following method is used to identify the privileges granted by the roles?
+a) rolesUser
+b) rolesInfo
+c) rolesView
+d) all of the mentioned
+c
+5. Point out the wrong statement.
+a) You must have the createUser action on a database to create a new user on that database
+b) You must have the grantRole action on a role’s database to grant the role to another user
+c) If your MongoDB deployment has no users, you must connect to mongod using the localhost exception
+d) None of the mentioned
+a
+6. ____________ removes a one or more roles from a user on the current database.
+a) db.revokeRolesUser()
+b) db.revokeRoles()
+c) db.revokeRolesFromUser()
+d) none of the mentioned
+c
+7. You must have the __________ action on a database to revoke a role on that database.
+a) revokePrivelege
+b) revokeUser
+c) revokeRole
+d) all of the mentioned
+c
+8. You must have the _________ action on a database to modify the password of any user on that database.
+a) changePassword
+b) changeAnyPassword
+c) removePassword
+d) none of the mentioned
+b
+9. Which of the following can be used to generate unique strings for use in passwords?
+a) openssl
+b) openssd
+c) oppstringpwd
+d) none of the mentioned
+a
+10. The ________ field contains optional custom information about the user.
+a) customDataAll
+b) OptmData
+c) customData
+d) all of the mentioned
+c
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Access Control» Next - MongoDB Questions and Answers – Aggregation 

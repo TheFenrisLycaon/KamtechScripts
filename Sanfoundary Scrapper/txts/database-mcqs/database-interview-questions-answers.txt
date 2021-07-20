@@ -1,0 +1,84 @@
+1.
+SELECT dept_name, ID, avg (salary)
+FROM instructor
+GROUP BY dept_name;
+This statement IS erroneous because
+a) Avg(salary) should not be selected
+b) Dept_id should not be used in group by clause
+c) Misplaced group by clause
+d) Group by clause is not valid in this query
+b
+2. SQL applies predicates in the _______ clause after groups have been formed, so aggregate functions may be used.
+a) Group by
+b) With
+c) Where
+d) Having
+b
+3. Aggregate functions can be used in the select list or the_______clause of a select statement or subquery. They cannot be used in a ______ clause.
+a) Where, having
+b) Having, where
+c) Group by, having
+d) Group by, where
+b
+Join Sanfoundry@YouTube
+4. The ________ keyword is used to access attributes of preceding tables or subqueries in the from clause.
+a) In
+b) Lateral
+c) Having
+d) With
+b
+ Eg : SELECT name, salary, avg salary
+            FROM instructor I1, lateral (SELECT avg(salary) AS avg salary
+            FROM instructor I2
+            WHERE I2.dept name= I1.dept name);
+Without the lateral clause, the subquery cannot access the correlation variable
+I1 from the outer query.  
+5. Which of the following creates a temporary relation for the query on which it is defined?
+a) With
+b) From
+c) Where
+d) Select
+a
+6.
+WITH max_budget (VALUE) AS
+(SELECT MAX(budget)
+FROM department)
+SELECT budget
+FROM department, max_budget
+WHERE department.budget = MAX budget.value;
+In the query given above which one of the following is a temporary relation?
+a) Budget
+b) Department
+c) Value
+d) Max_budget
+d
+7. Subqueries cannot:
+a) Use group by or group functions
+b) Retrieve data from a table different from the one in the outer query
+c) Join tables
+d) Appear in select, update, delete, insert statements.
+c
+8. Which of the following is not an aggregate function?
+a) Avg
+b) Sum
+c) With
+d) Min
+c
+9. The EXISTS keyword will be true if:
+a) Any row in the subquery meets the condition only
+b) All rows in the subquery fail the condition only
+c) Both of these two conditions are met
+d) Neither of these two conditions is met
+a
+10. How can you find rows that do not match some specified condition?
+a) EXISTS
+b) Double use of NOT EXISTS
+c) NOT EXISTS
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database for Interviews, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Aggregate Functions and Nested Subqueries – 1» Next - Database Questions and Answers – Modification of Database 

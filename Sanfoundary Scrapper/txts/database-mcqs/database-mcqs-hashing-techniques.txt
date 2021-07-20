@@ -1,0 +1,66 @@
+1. If h is any hashing function and is used to hash n keys in to a table of size m, where n<=m, the expected number of collisions involving a particular key x is :
+a) Less than 1
+b) Less than n
+c) Less than m
+d) Less than n/2
+a
+2. A technique for direct search is
+a) Binary Search
+b) Linear Search
+c) Tree Search
+d) Hashing
+d
+3. The searching technique that takes O (1) time to find a data is
+a) Linear Search
+b) Binary Search
+c) Hashing
+d) Tree Search
+c
+4. The goal of hashing is to produce a search that takes
+a) O(1) time
+b) O(n2 )time
+c) O(log n ) time
+d) O(n log n ) time
+a
+5. Consider a hash table of size seven, with starting index zero, and a hash function (3x + 4)mod7. Assuming the hash table is initially empty, which of the following is the contents of the table when the sequence 1, 3, 8, 10 is inserted into the table using closed hashing? Note that ‘_’ denotes an empty location in the table.
+a) 8, _, _, _, _, _, 10
+b) 1, 8, 10, _, _, _, 3
+c) 1, _, _, _, _, _,3
+d) 1, 10, 8, _, _, _, 3
+b
+6. A hash table can store a maximum of 10 records, currently there are records in location 1, 3,4,7,8,9,10. The probability of a new record going into location 2, with hash functions resolving collisions by linear probing is
+a) 0.1
+b) 0.6
+c) 0.2
+d) 0.5
+b
+7. Key value pairs is usually seen in
+a) Hash tables
+b) Heaps
+c) Both Hash tables and Heaps
+d) Skip list
+a
+8. What is the best definition of a collision in a hash table?
+a) Two entries are identical except for their keys
+b) Two entries with different data have the exact same key
+c) Two entries with different keys have the same exact hash value
+d) Two entries with the exact same key have different hash values
+a
+9. Which of the following scenarios leads to linear running time for a random search hit in a linear-probing hash table?
+a) All keys hash to same index
+b) All keys hash to different indices
+c) All keys hash to an even-numbered index
+d) All keys hash to different even-numbered indices
+a
+10.  Breadth First Search is used in
+a) Binary trees
+b) Stacks
+c) Graphs
+d) All of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Ordered Indices» Next - Database Questions and Answers – Ordered Indexing and Hashing 

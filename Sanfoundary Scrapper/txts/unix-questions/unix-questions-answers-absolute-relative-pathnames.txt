@@ -1,0 +1,77 @@
+1.  Pathname is a sequence of symbols and directories indicating the location of a file.
+a) True
+b) False
+a
+$ pwd
+/users09/dir01/documents	// pathname indicating our current directory
+2.  What is an absolute pathname?
+a) pathname relative to a parent directory
+b) pathname relative to the root (/)
+c) pathname relative to parent and current directory
+d) pathname relative to the current directory
+b
+3. What is a relative pathname?
+a) pathname relative to parent directory
+b) pathname relative to root (/)
+c) pathname relative to parent and current directory
+d) pathname relative to current directory
+c
+$ pwd
+/user08/kumar/documents/directory001	// absolute pathname
+4. Which of the following cryptic symbols are used in relative pathname?
+a) ( . )
+b) ( . . )
+c) $
+d) ( . ) and ( . . )
+d
+(.)  a single dot represent the current directory.
+( . . ) two dots represent the parent directory.
+5. $ cd  . .  is used to move ___ level up in the file hierarchy.
+a) two
+b) one
+c) three
+d) zero
+b
+$ pwd
+/user08/docs/template	         // current working directory
+$ cd . .		        // one level up
+$ pwd
+/user08/docs
+ 
+6. $ cp file_01  .  copies the file named file_01 in ____ directory
+a) current
+b) parent
+c) root
+d) user
+a
+7.  cd   /bin/user/directory/abc is an example of relative pathname.
+a) True
+b) False
+b
+8. The output of  $HOME is an example of absolute pathname.
+a) True
+b) False
+a
+$ HOME
+/home/users/user_06
+9. The output of the following command is __________
+$ cp  abd/ .user_06
+a) copies .user_06 file in current directory
+b) copies .user_06 file in parent directory of directory named abd
+c) undefined behaviour
+d) erroneous output
+a
+10. For moving two level up in the file hierarchy system using cd command once, we separates ( . . ) by which symbol?
+a) ?
+b) $
+c) *
+d) /
+d
+$ cd . . / . .                       -moves two level up
+ 
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – File Handling Commands: pwd, cd» Next - Unix  Questions and Answers – Listing Directory Contents: Is Command 

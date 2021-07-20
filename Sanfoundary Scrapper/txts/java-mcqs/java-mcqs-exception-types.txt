@@ -1,0 +1,59 @@
+1. Which of these is a super class of all exceptional type classes?
+a) String
+b) RuntimeExceptions
+c) Throwable
+d) Cacheable
+c
+2. Which of these class is related to all the exceptions that can be caught by using catch?
+a) Error
+b) Exception
+c) RuntimeExecption
+d) All of the mentioned
+b
+3. Which of these class is related to all the exceptions that cannot be caught?
+a) Error
+b) Exception
+c) RuntimeExecption
+d) All of the mentioned
+a
+4. Which of these handles the exception when no catch is used?
+a) Default handler
+b) finally
+c) throw handler
+d) Java run time system
+a
+5. What exception thrown by parseInt() method?
+a) ArithmeticException
+b) ClassNotFoundException
+c) NullPointerException
+d) NumberFormatException
+d
+6. What will be the output of the following Java code?
+    class exception_handling     {        public static void main(String args[])         {            try             {                System.out.print("Hello" + " " + 1 / 0);            }            finally             {        	System.out.print("World");        	            }        }    }
+a) Hello
+b) World
+c) Compilation Error
+d) First Exception then World
+d
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+World
+7. What will be the output of the following Java code?
+    class exception_handling     {        public static void main(String args[])         {            try             {                int i, sum;                sum = 10;                for (i = -1; i < 3 ;++i)                 {                    sum = (sum / i);                System.out.print(i);                }            }            catch(ArithmeticException e)             {     	                System.out.print("0");            }        }    }
+a) -1
+b) 0
+c) -10
+d) -101
+c
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+-10
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Exception Handling» Next - Java Questions & Answers – Throw, Throws & Nested Try 

@@ -1,0 +1,82 @@
+1. The principal factor to determine the spatial resolution of an image is _______
+a)	Quantization
+b)	Sampling
+c)	Contrast
+d)	Dynamic range
+b
+2. What causes the effect, imperceptible set of very fine ridge like structures in areas of smooth gray levels?
+a)	Caused by the use of an insufficient number of gray levels in smooth areas of a digital image
+b)	Caused by the use of huge number of gray levels in smooth areas of a digital image
+c)	All of the mentioned
+d)	None of the mentioned
+a
+3. What is the name of the effect caused by the use of an insufficient number of gray levels in smooth areas of a digital image?
+a)	Dynamic range
+b)	Ridging
+c)	Graininess
+d)	False contouring
+d
+4. Using rough rule of thumb, and assuming powers of 2 for convenience, what image size are about the smallest images that can be expected to be reasonably free of objectionable sampling checkerboards and false contouring?
+a)	512*512pixels and 16 gray levels
+b)	256*256pixels and 64 gray levels
+c)	64*64pixels and 16 gray levels
+d)	32*32pixels and 32 gray levels
+b
+Also the effect is quite visible in images displayed using 16 or less uniformly spaced gray levels.
+5. What does a shift up and right in the curves of isopreference curve simply means? Verify in terms of N (number of pixels) and k (L=2k, L is the gray level) values.
+a)	Smaller values for N and k, implies a better picture quality
+b)	Larger values for N and k, implies low picture quality
+c)	Larger values for N and k, implies better picture quality
+d)	Smaller values for N and k, implies low picture quality
+c
+Join Sanfoundry@YouTube
+6. How does the curves behave to the detail in the image in isopreference curve?
+a)	Curves tend to become more vertical as the detail in the image decreases
+b)	Curves tend to become less vertical as the detail in the image increases
+c)	Curves tend to become less vertical as the detail in the image decreases
+d)	Curves tend to become more vertical as the detail in the image increases
+d
+The right side graph shows the same, curve for crowd is nearly vertical.
+ 
+7. For an image with a large amount of detail, if the value of N (number of pixels) is fixed then what is the gray level dependency in the perceived quality of this type of image?
+a)	Totally independent of the number of gray levels used
+b)	Nearly independent of the number of gray levels used
+c)	Highly dependent of the number of gray levels used
+d)	None of the mentioned
+b
+8. What is a band-limited function?
+a)	A function of limited duration whose highest frequency is finite
+b)	A function of limited duration whose highest frequency is infinite
+c)	All of the mentioned
+d)	None of the mentioned
+a
+9. For a band-limited function, which Theorem says that “if the function is sampled at a rate equal to or greater than twice its highest frequency, the original function can be recovered from its samples”?
+a)	Band-limitation theorem
+b)	Aliasing frequency theorem
+c)	Shannon sampling theorem
+d)	None of the mentioned
+c
+10. What is the name of the phenomenon that corrupts the sampled image, and how does it happen?
+a)	Shannon sampling, if the band-limited functions are undersampled
+b)	Shannon sampling, if the band-limited functions are oversampled
+c)	Aliasing, if the band-limited functions are undersampled
+d)	Aliasing, if the band-limited functions are oversampled
+c
+11. How aliasing does corrupts the sampled image?
+a)	By introducing additional frequency components to the sampled function
+b)	By removing some frequency components from the sampled function
+c)	All of the mentioned
+d)	None of the mentioned
+a
+12. How can one reduce the aliasing effect on an image?
+a)	By reducing the high-frequency components of image by blurring the image
+b)	By increasing the high-frequency components of image by blurring the image
+c)	By reducing the high-frequency components of image by clarifying the image
+d)	By increasing the high-frequency components of image by clarifying the image
+a
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice  all areas of Digital Image Processing for online tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions And Answers – Boundary Descriptors» Next - Digital Image Processing Questions and Answers – Zooming and Shrinking Digital Images 

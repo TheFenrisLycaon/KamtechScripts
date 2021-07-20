@@ -1,0 +1,88 @@
+1. FFT algorithm is designed to perform complex operations.
+a) True
+b) False
+a
+2. If x1(n) and x2(n) are two real valued sequences of length N, and let x(n) be a complex valued sequence defined as x(n)=x1(n)+jx2(n), 0≤n≤N-1, then what is the value of x1(n)?
+a) \(\frac{x(n)-x^* (n)}{2}\) 
+b) \(\frac{x(n)+x^* (n)}{2}\) 
+c) \(\frac{x(n)-x^* (n)}{2j}\) 
+d) \(\frac{x(n)+x^* (n)}{2j}\) 
+b
+=>x*(n)= x1(n)-jx2(n)
+Upon adding the above two equations, we get x1(n)=\(\frac{x(n)+x*(n)}{2}\).
+3. If x1(n) and x2(n) are two real valued sequences of length N, and let x(n) be a complex valued sequence defined as x(n)=x1(n)+jx2(n), 0≤ n≤ N-1, then what is the value of x2(n)?
+a) \(\frac{x(n)-x*(n)}{2}\) 
+b) \(\frac{x(n)+x*(n)}{2}\) 
+c) \(\frac{x(n)+x*(n)}{2j}\) 
+d) \(\frac{x(n)-x*(n)}{2j}\) 
+d
+=>x*(n) = x1(n)-jx2(n)
+Upon subtracting the above two equations, we get x2(n)=\(\frac{x(n)-x*(n)}{2j}\).
+4. If X(k) is the DFT of x(n) which is defined as x(n)=x1(n)+jx2(n), 0≤ n≤ N-1, then what is the DFT of x1(n)?
+a) \(\frac{1}{2} [X*(k)+X*(N-k)]\) 
+b) \(\frac{1}{2} [X*(k)-X*(N-k)]\) 
+c) \(\frac{1}{2j} [X*(k)-X*(N-k)]\) 
+d) \(\frac{1}{2j} [X*(k)+X*(N-k)]\) 
+a
+On applying DFT on both sides of the above equation, we get
+X1(k)=\(\frac{1}{2} {DFT[x(n)]+DFT[x*(n)]}\) 
+We know that if X(k) is the DFT of x(n), the DFT[x*(n)]=X*(N-k)
+=>X1(k)=\(\frac{1}{2} [X*(k)+X*(N-k)]\).
+5. If X(k) is the DFT of x(n) which is defined as x(n)=x1(n)+jx2(n), 0≤ n≤ N-1, then what is the DFT of x1(n)?
+a) \(\frac{1}{2} [X*(k)+X*(N-k)]\) 
+b) \(\frac{1}{2} [X*(k)-X*(N-k)]\) 
+c) \(\frac{1}{2j} [X*(k)-X*(N-k)]\) 
+d) \(\frac{1}{2j} [X*(k)+X*(N-k)]\) 
+c
+On applying DFT on both sides of the above equation, we get
+X2(k)=\(\frac{1}{2j} {DFT[x(n)]-DFT[x*(n)]}\) 
+We know that if X(k) is the DFT of x(n), the DFT[x*(n)]=X*(N-k)
+=>X2(k)=\(\frac{1}{2j} [X*(k)-X*(N-k)]\).
+6. If g(n) is a real valued sequence of 2N points and x1(n)=g(2n) and x2(n)=g(2n+1), then what is the value of G(k), k=0,1,2…N-1?
+a) X1(k)-W2kNX2(k)
+b) X1(k)+W2kNX2(k)
+c) X1(k)+W2kX2(k)
+d) X1(k)-W2kX2(k)
+b
+Let x(n)=x1(n)+jx2(n)
+=> X1(k)=\(\frac{1}{2} [X*(k)+X*(N-k)]\) and X2(k)=\(\frac{1}{2j} [X*(k)-X*(N-k)]\) 
+We know that g(n)=x1(n)+x2(n)
+=>G(k)=X1(k)+W2kNX2(k), k=0,1,2…N-1.
+7. If g(n) is a real valued sequence of 2N points and x1(n)=g(2n) and x2(n)=g(2n+1), then what is the value of G(k), k=N,N-1,…2N-1?
+a) X1(k)-W2kX2(k)
+b) X1(k)+W2kNX2(k)
+c) X1(k)+W2kX2(k)
+d) X1(k)-W2kNX2(k)
+d
+Let x(n)=x1(n)+jx2(n)
+=> X1(k)=\(\frac{1}{2} [X*(k)+X*(N-k)]\) and X2(k)=\(\frac{1}{2j} [X*(k)-X*(N-k)]\) 
+We know that g(n)=x1(n)+x2(n)
+=>G(k)=X1(k)-W2kNX2(k), k=N,N-1,…2N-1.
+8. Decimation-in frequency FFT algorithm is used to compute H(k).
+a) True
+b) False
+a
+9. How many complex multiplications are need to be performed for each FFT algorithm?
+a) (N/2)logN
+b) Nlog2N
+c) (N/2)log2N
+d) None of the mentioned
+c
+10. How many complex additions are required to be performed in linear filtering of a sequence using FFT algorithm?
+a) (N/2)logN
+b) 2Nlog2N
+c) (N/2)log2N
+d) Nlog2N
+b
+11. How many complex multiplication are required per output data point?
+a) [(N/2)logN]/L
+b) [Nlog22N]/L
+c) [(N/2)log2N]/L
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Efficient Computation of DFT FFT Algorithms – 2» Next - Digital Signal Processing Questions and Answers – Linear Filtering Approach to Computation of DFT 

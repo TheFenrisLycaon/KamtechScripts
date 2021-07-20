@@ -1,0 +1,77 @@
+1. Which of the following is returned by the function kind attributes?
+a) Value
+b) Function
+c) Signal
+d) Array
+a
+2. You are given with the position number of a value within a type, which attribute will you use to find its value?
+a) ‘POS(value)
+b) ‘VAL(value)
+c) ‘POSITION(value)
+d) ‘VALUE(value)
+b
+3. A value from a type is passed as an argument to the attribute to find its position number. Which attribute it should be?
+a) ‘SUCC(value)
+b) ‘PRED(value)
+c) ‘VAL(value)
+d) ‘POS(value)
+d
+4. What is the function of ‘SUCC(value) attribute?
+a) To return the value next to the value passed in argument of the attribute
+b) To return the value previous to the value passed in argument of the attribute
+c) To return the position of value next to the value passed in argument
+d) To return the position of value next to the value passed in argument
+a
+5. Which of the following describes the function of ‘PRED(value)?
+a) To return the position of value next to the value passed in argument
+b) To return the value next to the value passed in argument of the attribute
+c) To return the value previous to the value passed in the argument
+d) To return the position of value next to the value passed in argument
+c
+6. Which of the following is equivalent to the ‘SUCC(value) attribute?
+a) ‘PRED(value)
+b) ‘LEFTOF(value)
+c) ‘RIGHTOF(value)
+d) ‘LEFT(value)
+c
+7. Which of the following is similar to ‘PRED(value) attribute?
+a) ‘LEFTOF(value)
+b) ‘RIGHTOF(value)
+c) ‘RIGHT(value)
+d) ‘LEFT(value)
+a
+8. What would be the value of x and y in the example given below?
+TYPE color IS (red, yellow, green, blue, purple, orange)
+VARIABLE x,y : color;
+x := color’SUCC(green);
+y := color’VAL(4)
+a) blue, green
+b) blue, blue
+c) 4, blue
+d) blue, 4
+b
+9. What would be the value of x and y?
+TYPE color IS (red, green, blue, yellow, purple, orange, black)
+VARIABLE x : INTEGER;
+VARIABLE y : color;
+x &lt;= color'POS(green);
+y &lt;= color'LEFTOF(green);
+a) red, green
+b) green, red
+c) red, 2
+d) 2, red
+d
+10. Identify the value of variable x from the lines given below.
+SUBTYPE delay_time IS TIME RANGE 10 ns to 50 ns;
+VARIABLE x := delay_time'BASE
+a) ns
+b) time
+c) 10 ns
+d) 50 ns
+b
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Value Kind Attributes» Next - VHDL Questions and Answers – Signal Kind Attributes 

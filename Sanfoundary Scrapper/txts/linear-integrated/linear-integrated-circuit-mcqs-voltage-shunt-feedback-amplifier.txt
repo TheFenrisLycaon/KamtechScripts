@@ -1,0 +1,91 @@
+1. Voltage shunt feedback amplifier forms
+a) A negative feedback
+b) A positive feedback
+c) Both positive and negative
+d) None of the mentioned
+a
+2. The value of feedback resistor and resistor connected in series with the input signal source are equal to 10kΩ and 3.3kΩ. Calculate the closed loop voltage gain?
+a) -6.7
+b) -33
+c) -13.3
+d) -3.33
+d
+3. Write the formula for closed loop voltage gain of inverting amplifier with feedback using open loop voltage gain and gain of feedback circuit.
+a) AF= A/(1+AB)
+b) AF= -A/(1+AB)
+c) AF= -B/(1+AB)
+d) None of the mentioned
+c
+4. Voltage shunt feedback amplifiers are also called as
+a) Non-inverting amplifier with feedback
+b) Non-inverting amplifier without feedback
+c) Inverting amplifier with feedback
+d) Inverting amplifier without feedback
+c
+5. Find the block diagram representation for inverting amplifier with feedback
+b
+6.  The inverting input inverting of the voltage shunt feedback resistor is a commonly named as
+a) Terminal ground
+b) Virtual ground
+c) Virtual input
+d) Resistive input
+b
+7. Compute RIF for an inverting amplifier with feedback, where the value of input resistance of op-amp is 4.7kΩ.
+a) 4.7kΩ
+b) 9.4kΩ
+c) 2.35kΩ
+d) Data given is insufficient
+a
+8. Specification of op-amp 741c is given below:
+A=200000; Ri=2MΩ; Ro=75Ω; Supply voltages= ±15v; output voltage swing =±13v; fo=5hz.
+Compute the value of output resistance, bandwidth and closed loop voltage gain for the circuit shown.
+a) ROF=8.6mΩ , fF= 53005hz and AF=-9.36
+b)  ROF=4.12mΩ , fF= 53005hz and AF=-11.78
+c) ROF=7.1mΩ , fF = 53005hz and AF=-16.95
+d) ROF=1.9mΩ , fF= 53005hz  and AF=-10
+c
+=> ROF= ±75/(1+200000*0.053) = 53005hz.
+Closed loop voltage gain, AF= -(A*K)/(1+AB), Where k= RF/(R1+F) = 6.2kΩ/(330Ω+6.2kΩ) = 0.949
+=> AF = -(200000*0.949)/[1+(200000*0.0535)] = -16.95.
+9. What is the break frequency of the op-amp?
+a) fo = Unity Gain Bandwidth /closed loop voltage gain
+b) fo = Unity Gain Bandwidth / open loop voltage gain
+c) fo = Unity Gain Bandwidth /Gain of feedback circuit
+d) All of the mentioned
+c
+10. The total voltage offset voltage with feedback (VooT) equation for inverting amplifier is
+a) Same as that of non-inverting amplifier
+b) k times the non-inverting amplifier, k-> voltage attenuation factor
+c) Twice the equation of non-inverting amplifier
+d) All of the mentioned
+a
+11. Which among the following is not a special case of voltage shut feedback amplifier?
+a) Voltage follower
+b) Current to voltage connector
+c) Inverter
+d) None of the mentioned
+a
+12. Compute the output voltage for the given circuit
+a) -2.6v
+b) -27.8v
+c) -26.7v
+d) -0.267v
+c
+=> iin = Vin/R1 = 4/ 1.5kΩ =2.67mA.
+The output voltage Vo = -iin*RF = -2.67mA*10kΩ = -26.7v.
+13. At what condition an inverting amplifier works as an inverter
+a) R1 = RF+ RL
+b) RF =( R1*Vin)/RL
+c) R1 = RF
+d) R1 = Vo/(Vin*RL)
+c
+14. Determine the output waveform for the given input signal
+a
+=> iin= Vin/R1 = 3/ 470=6.4mA
+=> Vo=- iin*RF=6.4mA*4.7kΩ = 30 Vpp sinewave at 1khz.
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Voltage Series Feedback Amplifier – 2» Next - Linear Integrated Circuit Questions and Answers – Differential Amplifiers with Multiple Op-Amp – 1 

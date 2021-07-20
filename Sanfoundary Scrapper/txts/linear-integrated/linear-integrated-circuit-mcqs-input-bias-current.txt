@@ -1,0 +1,83 @@
+1. Input bias current is defined as
+a) Average of two input bias current
+b) Summing of two input bias current
+c) Difference of two input bias current
+d) Product of two input bias current
+a
+2. Although the value of input bias current is very small, it causes
+a) Output voltage
+b) Input offset voltage
+c) Output offset voltage
+d) All of the mentioned
+c
+3.  The formula for output offset voltage of an op-amp due to input bias current
+a) VOIB= RF*IB
+b) VOIB= (RF+R1)/IB
+c) VOIB= (1+RF)*IB
+d) VOIB= [1+(RF/R1)]*IB
+a
+4. Find the input bias current for the circuit given below
+a) 10mA
+b) 2mA
+c) 5mA
+d) None of the mentioned
+c
+=> IB =(4mA+6mA)/2 = 5mA.
+5. Mention a step to reduce the output offset voltage caused due to input bias current?
+a) Use small feedback resistor and resistance at the input terminal
+b) Use small feedback resistors
+c) Reduce the value of load resistors
+d) None of the mentioned
+b
+6. Given below is a differential amplifier in which V1=V2. What happens to VOIB at this condition?
+a) VOIB= 0
+b) VOIB= VOIB×10-10
+c) VOIB=  VOIB/2
+d) VOIB= -1
+a
+7. Name the resistor that is connected in the non-inverting terminal of op-amp which is in parallel combination of resistor connected in inverting terminal and feedback resistor.
+a) Random minimizing resistor
+b) Offset minimizing resistor
+c) Offset reducing resistors
+d) Output minimizing resistors
+b
+8. Calculate ROM, if the value of IB1 = IB2 in the given circuit.
+a) 1173.11Ω
+b) 171.31Ω
+c) 1171.43Ω
+d) 1071.43Ω
+d
+=> ROM = (1.2kΩ*10kΩ)/(1.2kΩ+10Ω) = 1071.43Ω.
+9.  Calculate the output voltage for the given circuit using the specification: R1 = 820Ω; ROM=811.882Ω; Vin=10mVpp; VOIB≅0.
+a) 1.025Vpp
+b) 1.8Vpp
+c) 1Vpp
+d) 2Vpp
+c
+=> RF = (ROM* R1)/( R1– ROM) = (812Ω*811.882Ω)/(820Ω-811.882Ω) = 82kΩ.
+∴ Vo = -(RF/ R1)* Vin = -(82kΩ/820Ω)*10mVpp = 1Vpp.
+10. Analyse the given circuit and determine the correct option
+a)  Voo ≥  VIOB
+b) Voo =  VIOB
+c) Voo  >>  VIOB
+d) Voo  <<  VIOB
+c
+The output offset voltage due to input offset voltage is given as Voo =[1+(RF/R1)]*Vio = [1+(4.7kΩ/47Ω)]*6mv = 0.606v.
+The output offset voltage due to input bias current is given as VIOB = RF*IB =4.7kΩ*500nA = 2.35mv.
+=>∴ Voo  >>  VIOB.
+11. The specification for LM101A op-amp is given as IB =75nA. Determine the value of VIOB– V1.
+a) 0.112v
+b) 0.750v
+c) 0.374v
+d) 0.634v
+a
+=> ∵ ROM = (R1*RF)/(R1+ RF) = (15kΩ*150Ω)/(15kΩ+150Ω) =148Ω
+The output offset voltage is given as VIOB = RF*IB
+=> VIOB = 15kΩ*7.5nA = 112.5mv
+=> ∴ VIOB– V1 = 0.112v.
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Input Offset Voltage – 3» Next - Linear Integrated Circuit Questions and Answers – Input Offset Current and Total Output Offset Voltage 

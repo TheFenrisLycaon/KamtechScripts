@@ -1,0 +1,83 @@
+This section on C interview questions and answers focuses on “Declarations”. One shall practice these interview questions to improve their C programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C Interview questions come with the detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C interview questions on “Declarations” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void foo(const int *);    int main()    {        const int i = 10;        printf("%d ", i);        foo(&i);        printf("%d", i);     }    void foo(const int *i)    {        *i = 20;    }
+a) Compile time error
+b) 10 20
+c) Undefined value
+d) 10
+a
+Output:
+$ cc pgm1.c
+pgm1.c: In function ‘foo’:
+pgm1.c:13: error: assignment of read-only location ‘*i’
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        const int i = 10;        int *ptr = &i;        *ptr = 20;        printf("%d\n", i);        return 0;    }
+a) Compile time error
+b) Compile time warning and printf displays 20
+c) Undefined behaviour
+d) 10
+b
+Output:
+$ cc pgm2.c
+pgm2.c: In function ‘main’:
+pgm2.c:5: warning: initialization discards qualifiers from pointer target type
+$ a.out
+20
+Join [email protected]
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        j = 10;        printf("%d\n", j++);        return 0;    }
+a) 10
+b) 11
+c) Compile time error
+d) 0
+c
+Output:
+$ cc pgm3.c
+pgm3.c: In function ‘main’:
+pgm3.c:4: error: ‘j’ undeclared (first use in this function)
+pgm3.c:4: error: (Each undeclared identifier is reported only once
+pgm3.c:4: error: for each function it appears in.)
+4. Will the following C code compile without any error?
+    #include <stdio.h>    int main()    {        for (int k = 0; k < 10; k++);            return 0;    }
+a) Yes
+b) No
+c) Depends on the C standard implemented by compilers
+d) Error
+c
+Output:
+$ cc pgm4.c
+pgm4.c: In function ‘main’:
+pgm4.c:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+pgm4.c:4: note: use option -std=c99 or -std=gnu99 to compile your code
+5. Will the following C code compile without any error?
+    #include <stdio.h>    int main()    {        int k;        {            int k;            for (k = 0; k < 10; k++);        }    }
+a) Yes
+b) No
+c) Depends on the compiler
+d) Depends on the C standard implemented by compilers
+a
+Output:
+$ cc pgm5.c
+6. Which of the following declaration is not supported by C?
+a) String str;
+b) char *str;
+c) float str = 3e2;
+d) Both String str; & float str = 3e2;
+a
+7. Which of the following format identifier can never be used for the variable var?
+    #include <stdio.h>    int main()    {        char *var = "Advanced Training in C by Sanfoundry.com";    }
+a) %f
+b) %d
+c) %c
+d) %s
+a
+%d can still be used to display its ASCII value.
+%s is recommended.
+%f cannot be used for the variable var.
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Constants – 2» Next - C Programming Questions and Answers – Declarations – 2 

@@ -1,0 +1,83 @@
+1. Which software is used to upload the Arduino Sketches to the board?
+a) avrdude
+b) avrgcc
+c) g++
+d) cpython for windows
+a
+2. What is the name for the characters ‘-p’ given in the command below?
+avrdude -p atmega32u4 -c stk500 -e -U flash:w:diag.hex
+a) Compile
+b) Error
+c) Flag
+d) Boolean
+c
+3. What is the use of the dmesg command?
+a) Sending messages to the device connected
+b) Reading messages generated from avrdude
+c) Receiving messages from the gcc compiler
+d) Receiving messages from the particular device
+d
+4. What is USBasp?
+a) It is a compiler for microcontroller code
+b) It is a software for debugging any code preexisting in microcontrollers
+c) It is a programmer for a specific microcontroller family
+d) It is a microcontroller that is produced by Atmel
+c
+5. What are the missing labels in the diagram given below?
+ 
+Pin 1 - A
+Pin 2 - B
+Pin 3 - C
+Pin 4 - D
+Pin 5 - E
+Pin 6 - F
+a) A=MOSI, B=VCC, C=GND, D=RESET, E=SCK, F=MISO
+b) A=VCC, B=MOSI, C=SCK, D=GND, E=MISO, F=RESET
+c) A=SCK, B=MISO, C=RESET, D=GND, E=VCC, F=MOSI
+d) A=MISO, B=MOSI, C=RESET, D=VCC, E=GND, F=SCK
+a
+Pin 1 - MOSI or Master Output Slave Input
+Pin 2 - VCC (5V Input Supply)
+Pin 3 - GND (Common Ground)
+Pin 4 - RESET (Pin that resets the microcontroller manually if something goes wrong.)
+Pin 5 - SCK (Serial Clock Pin)
+Pin 6 - MISO or Master Input Slave Output
+6. What is the use of the MOSI and MISO pins?
+a) To download code from the microcontroller to the computer
+b) To verify the program that the computer uploads to the microcontroller
+c) To erase the SRAM of the microcontroller
+d) To dump or transfer programs from the computer to the microcontroller
+d
+7. Fill in the correct pattern of words for the following statement. (Here, M->Master & S-> Slave)
+During data transfer from ______ to _____ the clock is synchronized according to the _____
+a) MSS
+b) SMM
+c) MSM
+d) SMS
+a
+8. Select the correct name for the SPI master-slave configuration.
+a) Dependent Slave Configuration
+b) Independent Master Configuration
+c) Independent Slave Configuration
+d) Chained Master and Slave Configuration
+c
+The setup is given below…
+9. What is the recipe for compiling Assembly Source Code in the Arduino IDE?
+a) recipe.S.o.pattern
+b) recipe.A.n.pattern
+c) recipe.S.b.pattern
+d) recipe.S.i.pattern
+a
+10. What is the purpose of the code given below?
+uno.upload.tool=avrdude
+a) To set the Board Variant name
+b) To set the upload software name
+c) To erase the upload tool name
+d) To reset the upload tool
+b
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Compilation» Next - Arduino Questions and Answers – Setting Pin Mode 

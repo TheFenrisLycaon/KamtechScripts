@@ -1,0 +1,74 @@
+1. The charging time constant of a circuit consisting of a capacitor is the time taken for the charge in the capacitor to become __________ % of the initial charge.
+a) 33
+b) 63
+c) 37
+d) 36
+b
+When RC=t, we have: Q=Q0(1-e-1) = 0.63*Q0.
+Hence the time constant is the time taken for the charge in a capacitive circuit to become 0.63 times its initial charge.
+2. The discharging time constant of a circuit consisting of a capacitor is the time taken for the charge in the capacitor to become __________ % of the initial charge.
+a) 33
+b) 63
+c) 37
+d) 36
+c
+When RC=t, we have: Q=Q0(1-e-1) = 0.37*Q0.
+Hence the time constant is the time taken for the charge in a capacitive circuit to become 0.37 times its initial charge.
+3. A circuit has a resistance of 2 ohm connected in series with a capacitance of 6F. Calculate the charging time constant.
+a) 3
+b) 1
+c) 12
+d) 8
+c
+4. A circuit has a resistance of 5 ohm connected in series with a capacitance of 10F. Calculate the discharging time constant.
+a) 15
+b) 50
+c) 5
+d) 10
+b
+5. What is the value of current in a discharging capacitive circuit if the initial current is 2A at time t=RC.
+a) 0.74A
+b) 1.26A
+c) 3.67A
+d) 2.89A
+b
+6. What is the value of current in a charging capacitive circuit if the initial current is 2A at time t=RC.
+a) 0.74A
+b) 1.26A
+c) 3.67A
+d) 2.89A
+a
+7. While discharging, what happens to the current in the capacitive circuit?
+a) Decreases linearly
+b) Increases linearly
+c) Decreases exponentially
+d) Increases exponentially
+d
+I=I0(1-e-t/RC). From this equation, we can see that the current is exponentially increasing.
+8. While discharging, what happens to the voltage in the capacitive circuit?
+a) Decreases linearly
+b) Increases linearly
+c) Decreases exponentially
+d) Increases exponentially
+c
+V=V0(e-t/RC). From this equation, we can see that the voltage is exponentially decreasing.
+9. While charging, what happens to the current in the capacitive circuit?
+a) Decreases linearly
+b) Increases linearly
+c) Decreases exponentially
+d) Increases exponentially
+c
+I=I0(e-t/RC). From this equation, we can see that the current is exponentially decreasing.
+10. While charging, what happens to the voltage in the capacitive circuit?
+a) Decreases linearly
+b) Increases linearly
+c) Decreases exponentially
+d) Increases exponentially
+d
+V=V0(1-e-t/RC). From this equation, we can see that the voltage is exponentially increasing.
+Sanfoundry Global Education & Learning Series – Basic Electrical Engineering.
+To practice all areas of Basic Electrical Engineering, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Basic Electrical Engineering Questions and Answers – Charging and Discharging Currents» Next - Basic Electrical Engineering Questions and Answers – Discharge of a Capacitor Through a Resistor 

@@ -1,0 +1,96 @@
+1. A file can be recognized as an ordinary file or directory by ____ symbol.
+a) $
+b) –
+c) *
+d) /
+b
+2. How many types of permissions a file has in UNIX?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+3. Permissions of a file are represented by which of the following characters?
+a) r,w,x
+b) e,w,x
+c) x,w,e
+d) e,x,w
+a
+4. A file named abd.txt has the following set of permissions
+ -rwxrwxrwx
+ All the three operations i.e read, write and execute can be performed on the file by file owner, group owner and others.
+a) True
+b) False
+a
+r w x     r w x     r w x
+The first group has all the three permissions i.e. file is readable, writable and executable by the file owner.
+The second group also has all the three permissions i.e. file is readable, writable and executable by the group owner.
+The third group also has all the three permissions i.e. file is readable, writable and executable by others who are neither a part of the group nor they are an owner of the file.
+Normally this set of permissions is too dangerous!
+5. Which of the following symbol is used to indicate the absence of a permission of a file?
+a) $
+b) &
+c) +
+d) –
+d
+rwx  r--  r--
+6. When we create a file, we are the owner of a file.
+a) True
+b) False
+a
+7. What is group ownership?
+a) group of users who can access the file
+b) group of users who can create the file
+c) group of users who can edit the file
+d) group of users who can delete the file
+a
+In simple words, group ownership defines the group to which the file is accessible. 
+8. A file has permissions as rwx r– —. A user other than the owner cannot edit the file.
+a) True
+b) False
+a
+9. If a file is read protected, we can write to the file.
+a) True
+b) False
+b
+10. The write permission for a directory determines that ____________
+a) we can write to a directory file
+b) we can read the directory file
+c) we can execute the directory file
+d) we can add or remove files to it
+d
+11. If the file is write-protected and the directory has to write permission then we cannot delete the file.
+a) True
+b) False
+b
+12. What is execute permission?
+a) permission to execute the file
+b) permission to delete the file
+c) permission to rename the file
+d) permission to search or navigate through the directory
+d
+cd  users/users06/abd/dir01/file01.txt    // all directories should have execute permission.
+13. Which of the following is default permission set for ordinary files?
+a) rw-rw-rw-
+b) rwxrwxrwx
+c) r–r–r–
+d) rw-rw-rwx
+a
+14. Which of the following is default permission set for directories?
+a) rw-rw-rw-
+b) rwxrwxrwx
+c) r–r–r–
+d) rw-rw-rwx
+b
+15. A file owner does not have a permission to edit the file but the group to which the file owner belong do have the permission to edit it. Can owner edit the file?
+a) Yes
+b) No
+c) Cannot be defined
+d) Error will be encountered
+b
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Listing File and Directory Attributes» Next - Unix Questions and Answers – Changing File Ownership and Permissions – 1 

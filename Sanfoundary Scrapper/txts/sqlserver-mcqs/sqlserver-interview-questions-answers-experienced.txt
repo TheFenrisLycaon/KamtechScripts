@@ -1,0 +1,66 @@
+1. What are Catalog Views for XML?
+a) Schema collections
+b) View Collections
+c) Unstructured data
+d) None of the Mentioned
+a
+2. Which of the following following is used for retrieving XML Schema Collections?
+a) XML_SCHEMA_SPACE
+b) XML_SCHEMA_NAMESPACE
+c) XML_SCHEMA_NAMES
+d) None of the Mentioned
+b
+3. What is index type for XML index entries?
+a) 3
+b) 4
+c) 5
+d) 6
+a
+4. The space use of XML indexes can be found in the table-valued function named?
+a) sys.dm_db_index_physical_stats
+b) sys.dm_db_index_phy_stats
+c) sys.dm_db_index_plan_stats
+d) sys.dm_db_index_table_stats
+a
+5. Contents of sys.xml_schema_collections are _____________
+a) Number of disk pages occupied
+b) Indexing Capabilities
+c) Predefined namespaces
+d) None of the Mentioned
+c
+6. Which of the following statement would import additional schema or schema components into an existing collection object?
+a) IMPORT XML SCHEMA COLLECTION
+b) ALTER XML SCHEMA COLLECTION
+c) UPDATE XML SCHEMA COLLECTION
+d) ADD XML SCHEMA COLLECTION
+b
+7. Which operation cannot be performed on XML schema collection?
+a) DROP
+b) DELETE
+c) CREATE
+d) UPDATE
+b
+8. Can we use untyped XML data type in the following situations?
+a) You have schema for your XML data and you want the server to validate your XML data according to the XML schema
+b) You want to take advantage of storage and query optimizations based on type information
+c) You want to take better advantage of type information during compilation of your queries
+d) You do not have a schema for your XML data
+d
+9. Point out the wrong statement.
+a) Typed XML type and Untyped XML both have XML schema to validate the Data
+b) Typed XML type has advantage of storage and query optimizations where as Untyped XML type does not have this advantage
+c) Typed XML types can be validated at both client side and Server side where as Untyped XML types does not have option to validate on server side as they do not have any schema
+d) None of the mentioned
+a
+10. SQL Server 2008 has made several extensions to the XML Schema support which includes?
+a) Support for lax validation
+b) Added support for list and union types
+c) Improved handling of xs:time
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server for Experienced people attending interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Working With XML Data – 1» Next - SQL Server Questions and Answers – Working With XML Data – 3 

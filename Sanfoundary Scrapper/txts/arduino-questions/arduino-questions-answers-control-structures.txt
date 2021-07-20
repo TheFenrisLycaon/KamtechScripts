@@ -1,0 +1,70 @@
+1. What is the output of the code given below?
+void setup() {    Serial.begin(9600);}void loop() {    int a=10;    int b=12;    int c=13;    if(a>b && a>c) {        Serial.println(a);    }    else if(b>a && b>c) {        Serial.println(b);    }    else if(c>a && c>b) {        Serial.println(c);    }}
+a) 10
+b) 12
+c) 13
+d) null
+c
+2. Which of the following control structures is an exit-controlled loop?
+a) For loop
+b) While loop
+c) Const and Goto
+d) Do-While loop
+d
+3. What is the output of the following code?
+void setup() {    Serial.begin(9600);}void loop() {    int a=1011;    int rev=0,t=a;    while(t!=0) {        rev=rev*10;        rev=rev+t%10;    }    If(n==rev) {        Serial.println(“Palindrome”);    }    else {        Serial.println(“Not a palindrome”);    }}
+a) Null
+b) Palindrome
+c) Not a palindrome
+d) Compilation Error
+c
+4. What is the output of the following code?
+void setup() {    Serial.begin(9600);    int i,n,t1=0,t2=1,nt;    n=4;    for(i=1;i<=n;++i) {        Serial.print(t1);        Serial.print(“ ”);        nt=t1+t2;        t1=t2;        t2=nt;    }}void loop() {    //Do Nothing}
+a) 0 1 1 2
+b) 1 1 2 3
+c) 1 2 3 5
+d) 2 3 5 8
+a
+5. What is the name of the control structure used to stop any loop prematurely and only exit out of the loop, not affecting the running of the rest of the program?
+a) The continue statement
+b) The break statement
+c) The exit statement
+d) The purge statement
+b
+6. Is the code snippet given below wrong?
+if(a=b) {    Serial.print(“Yes”);}
+a) No
+b) Yes
+a
+7. Which one of the control structures is similar to the if-else statement?
+a) Switch-case
+b) For loop
+c) While loop
+d) Continue
+a
+8. What is the output of the code given below if there is a constant 5V supply to pin 10?
+void setup() {    Serial.begin(9600);}void loop() {    int x=0;    do {        x=analogRead(10);        Serial.println(x);    }while(x!=1023);  }
+a) 1023
+b) 1024
+c) null
+d) 1029
+a
+9. What is the output of the code given below if the input is 1101 to pin 10?
+void setup() {    Serial.begin(9600);}void loop() {    if(digitalRead(10)==1) {        Serial.print(“HIGH ”);    }}
+a) HIGH HIGH LOW HIGH
+b) HIGH HIGH HIGH HIGH
+c) HIGH HIGH HIGH
+d) LOW LOW HIGH HGH
+c
+10. Can the break statement be used to abort a program?
+a) Yes
+b) Yes, but only if it is used within the global scope
+c) No
+d) Yes, but only for some Arduino Boards
+c
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Operators» Next - Arduino Questions and Answers – Looping 

@@ -1,0 +1,76 @@
+1. Sequential circuits are represented as
+a) finite state machine
+b) infinite state machine
+c) finite synchronous circuit
+d) infinite asynchronous circuit
+a
+2. Sequential circuit includes
+a) delays
+b) feedback
+c) delays and feedback from input to output
+d) delays and feedback from output to input
+d
+3. Which constitutes the test vectors in sequential circuits?
+a) feedback variables
+b) delay factors
+c) test patterns
+d) all input combinations
+a
+4. Outputs are functions of
+a) present state
+b) previous state
+c) next state
+d) present and next state
+a
+5. Which is the delay elements for clocked system?
+a) AND gates
+b) OR gates
+c) Flip-flops
+d) Multiplexers
+c
+6. Which contributes to the necessary delay element?
+a) flip-flops
+b) circuit propagation elements
+c) negative feedback path
+d) shift registers
+b
+7. In an OR gate, if A and B are two inputs and there is struck at 1 fault in B path, then output will be
+a) A
+b) 0
+c) 1
+d) B’
+c
+8. Iterative test generation method suits for circuits with
+a) no feedback loops
+b) few feedback loops
+c) more feedback loops
+d) negative feedback loops only
+b
+9. Which method is very time consuming?
+a) D-algorithm
+b) iterative test generation
+c) pseudo exhaustive method
+d) test generation pattern
+b
+10. In this technique, a simple fault manifests into multiple N faults.
+a) true
+b) false
+a
+11. In this iterative test generation method, sequential logic is
+a) used in the same pattern
+b) converted to test logic
+c) converted to combinational logic
+d) converted to asynchronous logic
+c
+12. For a NAND gate, struck-at 1 fault in second input line cannot be detected if
+a) Q is 1
+b) Q is 0
+c) Q changes from 1 to 0
+d) Q changes from 0 to 1
+b
+Sanfoundry Global Education & Learning Series – VLSI.
+To practice all areas of VLSI, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VLSI Questions and Answers – Testing Combinational Logic» Next - VLSI Questions and Answers – Guidelines for Testability -1 

@@ -1,0 +1,74 @@
+1. Rate of convergence of the Newton-Raphson method is generally __________
+a) Linear
+b) Quadratic
+c) Super-linear
+d) Cubic
+a
+2. The equation f(x) is given as x3 – x2 + 4x – 4 = 0. Considering the initial approximation at x=2 then the value of next approximation correct upto 2 decimal places is given as __________
+a) 0.67
+b) 1.33
+c) 1.00
+d) 1.50
+b
+x(1)=x(0)+\(\frac{f(x(0))}{f’x(x(0))}.\) 
+Hence x0=2 (initial guess), f(x0)=8 and f’(x0)=12.
+Substituting the values in the equation we get x1=1.33 
+3. The Newton-Raphson method of finding roots of nonlinear equations falls under the category of which of the following methods?
+a) bracketing
+b) open
+c) random
+d) graphical
+b
+4. The Iterative formula for Newton Raphson method is given by __________
+a) x1 = x0-f(x0)/f’(x0)
+b) x0 = x1-f(x0)/f‘(x0)
+c) x0 = x1+f(x0)/f’(x0)
+d) x1 = x0+f(x0)/f‘(x0)
+a
+5. If f(x) = x2 – 153 = 0 then the iterative formula for Newton Raphson Method is given by __________
+a) x(n+1) = 0.5 [x(n)+\(\frac{153}{x(n)}\)] 
+b) x(n+1) = 0.5 [x(n)-\(\frac{153}{x(n)}\)] 
+c) x(n+1) = [x(n)+\(\frac{153}{x(n)}\)] 
+d) x(n+1) = [x(n)-\(\frac{153}{x(n)}\)] 
+a
+Where N=117. Hence x(n+1)=0.5 [x(n)+\(\frac{117}{x(n)}\)].
+Join Sanfoundry@YouTube
+6. In Newton Raphson method if the curve f f(x) is constant then __________
+a) f’’(x)=0
+b) f(x)=0
+c) f’(x)=0
+d) f’(x)=c
+c
+7. For what values of 0 the initial guess will be equal to the next iterative values?
+a) 70 degrees
+b) 90 degrees
+c) 100 degrees
+d) 55 degrees
+b
+8. The equation f(x) is given as x2-4=0. Considering the initial approximation at x=6 then the value of next approximation correct upto 2 decimal places is given as __________
+a) 3.33
+b) 1.33
+c) 2.33
+d) 4.33
+a
+x(1)=x(0)+\(\frac{f(x(0))}{f’x(x(0))}\).
+Hence x0=6 (initial guess), f(x0)=32 and f’(x0)=12.
+Substituting the values in the equation we get x1=3.33.
+9. At which point the iterations in the Newton Raphson method are stopped?
+a) When the consecutive iterative values of x are not equal
+b) When the consecutive iterative values of x differ by 2 decimal places
+c) When the consecutive iterative values of x differ by 3 decimal places
+d) When the consecutive iterative values of x are equal
+d
+10. The Newton Raphson method fails if __________
+a) f’(x0)=0
+b) f’’(x0)=0
+c) f(x0)=0
+d) f’’’(x0)=0
+a
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Methods, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Numerical Analysis Questions and Answers – Secant Method» Next - Numerical Analysis Questions and Answers – Newton Raphson Method – 2 

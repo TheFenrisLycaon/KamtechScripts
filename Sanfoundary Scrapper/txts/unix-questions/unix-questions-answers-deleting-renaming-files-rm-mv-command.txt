@@ -1,0 +1,113 @@
+1. Which command is used for removing/deleting files in UNIX?
+a) rmdir
+b) rm
+c) del
+d) mv
+b
+$ rm  abd.txt
+ 
+2. We can delete multiple files using a single rm command.
+a) True
+b) False
+a
+$ rm  file1  file2  file3
+ 
+3. To delete all files in a directory we use ______________
+a) rmdir *
+b) mv *
+c) rm *
+d) del *
+c
+4. Some files cannot be deleted using rm command because of the permissions associated with it.
+a) True
+b) False
+a
+5. Which option is used with rm command for interactive deletion?
+a) -i
+b) -f
+c) -r
+d) -R
+a
+$ rm  file1  file2  file3
+rm: remove file1 (yes/no)? ?y
+rm: remove file1 (yes/no)? ?n
+rm: remove file1 (yes/no)? [Enter]       // any other response other than y/n leaves the file undeleted
+ 
+6. Which option performs recursive deletion?
+a) -r
+b) -R
+c) *
+d) -r and -R
+d
+7. Which one of the following command can delete a directory which is not empty?
+a) rm  -r
+b) rmdir
+c) rm *
+d) del *
+a
+$ rm  -r *		// deletes all files in the current directory and all its subdirectories
+8. If we wish to delete a remove a file forcefully, we can use ____ option with rm command.
+a) -i
+b) -r
+c) -R
+d) -f
+d
+$ rm  -f  file.txt	// removes file.txt forcefully
+ 
+9. Which command is used for removing file named  -file.txt?
+a) rm -file.txt
+b) rm file.txtrm
+c) rm — -file.txt
+d) rm -f file.txt
+c
+10. Which command is used for renaming files?
+a) rename
+b) mv
+c) cp
+d) move
+b
+$ mv  file1  file2
+11. If the destination file does not exists, then mv command creates it.
+a) True
+b) False
+a
+12. What if the destination file specified in mv command already exists?
+a) it will be deleted
+b) it will not be affected
+c) it will be overwritten
+d) an error will be produced
+c
+13. Apart from renaming files, mv command can also
+a) move a file
+b) move a group of files
+c) rename a directory
+d) move a group of files  and rename a directory
+d
+$ mv  abd.txt  mash.txt  ryan.txt   main_dir
+Above command moves three files to main_dir directory.
+14. The inode number associated with a file is changed after renaming it.
+a) True
+b) False
+b
+15. Which option is used for backing up destination file in mv command?
+a) -b
+b) -f
+c) -v
+d) -i
+a
+16. Which option is used with mv command so that the destination file does not get overwritten?
+a) -n
+b) -f
+c) -b
+d) -i
+a
+17. -f option when used with mv command overwrites existing files without prompting any messages.
+a)  True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Copying a File: cp Command» Next - Unix  Questions and Answers – Comparing Files:comm, cmp and diff Command 

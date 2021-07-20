@@ -1,0 +1,174 @@
+1. Which of the following systems of linear equations has a strictly diagonally dominant coefficient matrix?
+a) 
+3x – y = -4
+2x + 5y = 2
+b) 
+2x + y = 1
+x - 7y = 4
+c) 
+3x + 5y = 2
+x + y = -3
+d) 
+4x = 2y – z - 1
+x + z = -4
+3x – 5y + z = 3
+a
+A = \(\begin{bmatrix}3&-1\\2&5\end{bmatrix}\) 
+is strictly diagonally dominant because |3| > |-1| and |5| > |2|.
+2. Gauss Seidal method is also termed as a method of _______
+a) Successive displacement
+b) Eliminations
+c) False positions
+d) Iterations
+a
+3. Gauss seidal method is similar to which of the following methods?
+a) Iteration method
+b) Newton Raphson method
+c) Jacobi’s method
+d) Regula-Falsi method
+c
+4. What is the main difference between Jacobi’s and Gauss-seidal?
+a) Computations in Jacobi’s can be done in parallel but not in Gauss-seidal
+b) Convergence in Jacobi’s method is faster
+c) Gauss seidal cannot solve the system of linear equations in three variables whereas Jacobi cannot
+d) Deviation from the correct answer is more in gauss seidal
+a
+5. While solving by Gauss Seidal method, which of the following is the first Iterative solution system; x – 2y = 1 and x + 4y = 4?
+a) (1, 0.75)
+b) (0.25,1)
+c) (0,0)
+d) (1,0.65)
+a
+x – 2y = 1
+x + 4y = 4
+For first iteration we put n = 0 in the following equations,
+xn+1 = 1 – 2yn
+yn+1 = (1/4) (4 – xn+1)
+We get,
+x1 = 1 – 2(0) = 1
+y1 = (1/4) (4 – 1) = 0.75.
+6. The Gauss-Seidel method is applicable to strictly diagonally dominant or symmetric________ definite matrices.
+a) Positive
+b) Negative
+c) Zero
+d) Equal
+a
+7. Gauss seidal requires less number of iterations than Jacobi’s method.
+a) True
+b) False
+a
+8. Which of the following method is employed for solving the system of linear equations?
+a) Runge Kutta
+b) Newton Raphson
+c) Gauss Seidal
+d) Simpson’s Rule
+d
+9. What is the limitation of Gauss-seidal method?
+a) It cannot be used for the matrices with non-zero diagonal elements
+b) It is more complex than Jacobi’s method
+c) It doesn’t guarantees convergence for each and every matrix
+d) It is an iterative technique
+c
+10. Solve the following equations by Gauss seidal method.
+10a - 2b - c - d = 3
+- 2a + 10b - c - d = 15
+- a - b + 10c - 2d = 27
+- a - b - 2c = 10d = -9
+a) a = 1, b = 5, c = 7, d = -1
+b) a = 1, b = 2, c = 3, d = 0
+c) a = 2, b = 5, c = 3, d = 5
+d) a = 2, b = 2, c = 8, d = -3
+b
+a = \(\frac{1}{10}\)(3 + 2b + c + d) …………….(i)
+b = \(\frac{1}{10}\)(15 + 2a + c + d) ……………(ii)
+c = \(\frac{1}{10}\)(27 + a + b +d) ……………..(iii)
+d = \(\frac{1}{10}\)(-9 + a + b + 2c) ……………(iv)
+First iteration
+Putting b = 0, c = 0, d = 0 in (i), we get a = 0.3
+Putting a = 0.3, c = 0, d = 0 in (ii), we obtain b = 1.56
+Putting a = 0.3, b = 1.56, d = 0 in (iii), we obtain c = 2.886
+Putting a = 0.3, b = 1.56, c = 2.886 in (iv), we get d = -0.1368
+Second iteration
+Putting b = 1.56, c = 2.886, d = -0.1368 in (i), we obtain a = 0.8869
+Putting a = 0.8869, c = 2.886, d = -0.1368 in (ii), we obtain b = 1.9523
+Putting a = 0.8869, b = 1.9523, d = -0.1368 in (iii), we have c = 2.9566
+Putting a = 0.8869, b = 1.9523, c = 2.9566 in (iv) we get d = -0.0248
+Third iteration
+Putting b = 1.9523, c = 2.9566, d = -0.0248 in (i), we obtain a = 0.986
+Putting a = 0.9836, c = 2.9566, d = -0.0248 in (ii), we obtain b = 1.9899
+Putting a = 0.9836, b = 1.9899, d = -0.0248 i (iii), we get d = 2.9924
+Putting a = 0.9836, b = 1.9899,  c = 2.9924 in (iv), we get d = -0.0042
+Fourth iteration proceeding as above
+a = 0.9968 b = 1.9982, c = 2.9987, d = -0.0008
+Fifth iteration is a = 0.9994, b = 1.9997, c = 2.9997, d = -0.0001
+Sixth iteration is a = 0.9999, b = 1.9999, c = 2.9999, d = -0.0001
+Hence, the solution is a = 1, b = 2, c = 3, d = 0.
+11. Solve the following equation by Gauss Seidal Method up to 2 iterations and find the value of z.
+27x + 6y - z = 85
+6x + 15y + 2z = 72
+x + y + 54z = 110
+a) 1.88
+b) 1.22
+c) 0
+d) 1.92
+d
+x=\(\frac{(85-6y+z)}{27}\) 
+y=\(\frac{(72-6x-2z)}{15}\) 
+y=\(\frac{(110-x-y)}{54}\) 
+1st iteration:
+y=0, z=0
+x=\(\frac{85}{27}\)=3.14
+x=3.14, z=0
+y=\(\frac{72-(6×3.14)-2×(0)}{15}\)=3.54
+x=3.14, y=3.54
+z=\(\frac{110-3.14-3.54}{54}\)=1.91
+2nd iteration:
+z=1.91, y=3.54
+x=\(\frac{85-(6×3.54)+(1.91)}{27}\)=2.43
+z=1.91, x=2.43
+y=\(\frac{72-(6×2.43)-2×(1.91)}{15}\)=3.57
+y=3.57, x=2.43
+z=\(\frac{110-2.43-3.57}{54}\)=1.92
+Thus, after the second iteration
+x=2.43, y=3.57, z=1.92.
+12. Solve the following equation by Gauss Seidal Method up to 3 iterations and find the value of x.
+4x - 3y - z = 40
+x - 6y + 2z = -28
+x - 2y + 12z = -86
+a) x=11.11
+b) x=13.28
+c) x=11.51
+d) x=9.86
+c
+x=\(\frac{(40+3y+z)}{4}\) 
+y=\(\frac{(28+x+2z)}{6}\) 
+z=\(\frac{(-86-x+2y)}{12}\) 
+1st iteration:
+y=0, z=0
+x=\(\frac{40}{4}\)=10
+x=10, z=0
+y=\(\frac{28+(10)+2×(0)}{6}\)=6.33
+x=10, y=6.33
+z=\(\frac{-86-10+(2×6.33)}{12}\)=-6.94
+2nd iteration:
+z=-6.94, y=6.33
+x=\(\frac{40+(3×6.33)+(-6.94)}{4}\)=13.01
+z=-6.94, x=13.01
+y=\(\frac{28+(13.01)+2×(-6.94)}{6}\)=4.52
+y=4.52, x=13.01
+z=\(\frac{-86-13.01+(2×4.52)}{12}\)=-7.49
+3rd iteration:
+z=-7.49, y=4.52
+x=\(\frac{40+(3×4.52)+(-7.49)}{4}\)=11.51
+z=-7.49, x=11.51
+y=\(\frac{28+(11.51)+2×(-7.49)}{6}\)=4.08
+y=4.08, x=11.51
+z=\(\frac{-86-11.51+(2×4.08)}{12}\)=-7.44
+Thus, after the third iteration
+x=11.51, y=4.08, z=-7.44.
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Methods, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Matrix Inversion Questions and Answers – Crout’s Method» Next - Matrix Inversion Questions and Answers – Cramer’s Rule 

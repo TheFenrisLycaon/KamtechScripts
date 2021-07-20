@@ -1,0 +1,90 @@
+1. The stage in which the CPU fetches the instructions from the instruction cache in superscalar organization is
+a) Prefetch stage
+b) D1 (first decode) stage
+c) D2 (second decode) stage
+d) Final stage
+a
+2. The CPU decodes the instructions and generates control words in
+a) Prefetch stage
+b) D1 (first decode) stage
+c) D2 (second decode) stage
+d) Final stage
+b
+3. The fifth stage of pipeline is also known as
+a) read back stage
+b) read forward stage
+c) write back stage
+d) none of the mentioned
+c
+4. In the execution stage the function performed is
+a) CPU accesses data cache
+b) executes arithmetic/logic computations
+c) executes floating point operations in execution unit
+d) all of the mentioned
+d
+5. The stage in which the CPU generates an address for data memory references in this stage is
+a) prefetch stage
+b) D1 (first decode) stage
+c) D2 (second decode) stage
+d) execution stage
+c
+6. The feature of separated caches is
+a) supports the superscalar organization
+b) high bandwidth
+c) low hit ratio
+d) all of the mentioned
+d
+7. In the operand fetch stage, the FPU (Floating Point Unit) fetches the operands from
+a) floating point unit
+b) instruction cache
+c) floating point register file or data cache
+d) floating point register file or instruction cache
+c
+8. The FPU (Floating Point Unit) writes the results to the floating point register file in
+a) X1 execution state
+b) X2 execution state
+c) write back stage
+d) none of the mentioned
+c
+9. The floating point multiplier segment performs floating point multiplication in
+a) single precision
+b) double precision
+c) extended precision
+d) all of the mentioned
+d
+10. The instruction or segment that executes the floating point square root instructions is
+a) floating point square root segment
+b) floating point division and square root segment
+c) floating point divider segment
+d) none of the mentioned
+c
+11. The floating point rounder segment performs rounding off operation at
+a) after write back stage
+b) before write back stage
+c) before arithmetic operations
+d) none of the mentioned
+b
+12. Which of the following is a floating point exception that is generated in case of integer arithmetic?
+a) divide by zero
+b) overflow
+c) denormal operand
+d) all of the mentioned
+d
+1. divide by zero
+2. overflow
+3. denormal operand
+4. underflow
+5. invalid operation.
+13. The mechanism that determines whether a floating point operation will be executed without creating any exception is
+a) Multiple Instruction Issue
+b) Multiple Exception Issue
+c) Safe Instruction Recognition
+d) Safe Exception Recognition
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Features of 80586 (Pentium), Concepts of Computer Architecture, Branch Prediction» Next - Microprocessors Questions and Answers – Enhanced Instruction Set of Pentium, Intel MMX Architecture 

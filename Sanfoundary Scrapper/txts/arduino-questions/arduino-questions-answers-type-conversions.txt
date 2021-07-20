@@ -1,0 +1,90 @@
+1. In C++ what type of operator is a cast operator?
+a) Unary
+b) Binary
+c) Ternary
+d) Quaternary
+a
+void setup() {
+    float f=34.5;
+    int i = static_cast<int>(f);
+}
+The code above results in the variable ‘i’ having a value of 34 stored in it.
+2. What is Type Casting?
+a) Converting a file from one type to another
+b) Creating new arrays
+c) Deleting the variable from memory
+d) Converting a variable from one type to another
+d
+3. Who carries out implicit type casting?
+a) The programmer
+b) The assembler
+c) The compiler
+d) The microcontroller
+c
+4. Who initiates explicit type casting?
+a) The programmer
+b) The compiler
+c) The microcontroller
+d) The assembler
+a
+5. What is the output of the given code?
+void setup() {
+    double x=11.3;
+    int s=(int)x+12;
+    Serial.begin(9600);
+    Serial.print(s);
+}
+void loop() {
+    //Do nothing.
+}
+a) 12.2
+b) 23.3
+c) null
+d) 23
+d
+6. What is the conversion type for reinterpret casting?
+a) Pointer to Variable
+b) Variable to Variable
+c) Pointer to Pointer
+d) Variable to Pointer
+c
+7. What is the output of the following code?
+void print(char *str)
+{
+    Serial.print(x);
+}
+void setup()
+{
+    Serial.begin(9600);
+    const char *x=”Hello”;
+    print(const<char *>(x));
+    return 0;
+}
+a) Hello
+b) H
+c) Ello
+d) null
+a
+8. What is the use of the typeid() function?
+a) To find the datatype of the variable
+b) To find the “const” status of the variable
+c) To find the address of the variable
+d) To find the value of the variable
+a
+9. Given below are 3 lines of code. Select the options given below with respect to the syntactical correctness regarding both C and C++?
+short x = 200;int b = (int) a;int c = int (a);
+a) Lines 1 and 2 are incorrect
+b) Lines 2 and 3 are incorrect
+c) Only line 1 is incorrect
+d) No lines are incorrect
+d
+10. Is there any difference between the usage of the size() and the length() function?
+a) Yes
+b) No
+b
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – String Manipulation» Next - Arduino Questions and Answers – Variable Scope and Qualifiers 

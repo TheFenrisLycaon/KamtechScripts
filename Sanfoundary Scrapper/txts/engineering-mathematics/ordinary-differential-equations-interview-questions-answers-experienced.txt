@@ -1,0 +1,34 @@
+1. The population of the Mysore city of a country was 30 lakhs in the year 2000 and 60 lakhs in the year 2010. What is the estimated population in the year 1990 with the help of the population model?
+a) 18 lakhs
+b) 15 lakhs
+c) 20 lakhs
+d) 12 lakhs
+b
+solving using the variable separable integral form we get \(\int \frac{1}{P} \,dP = \int K \,dt + a\)
+log P=kt+c –> ekt+a = P or P=cekt…where ea is a constant let the year 2000 be the initial reference year –> P(0)=30=cek(0) = c i.e c = 30 & P(10) = cek10
+=30ek10 = 60 –> log 60 = log 30 + 10k –> log 6⁄3 =log 2 = 10k –> k = 0.1*0.693 = 0.0693
+to find P(-10) = cekt = 30*e-0.693=15 lakhs.
+2. Urine culture test is being conducted in the pathology lab from the sample of a patient to prescribe a suitable drug based on bacterial growth. There were 3000 bacteria in the initial sample and it had increased to 3400 in the sample collected after one hour. Based on the exponential growth how long will it take for the bacterial population to reach 10000?
+a) 10 hrs
+b) 8.5 hrs
+c) 9.6 hrs
+d) 3.6 hrs
+c
+B(t)=cekt at t=0 B(0)=ce0=3000……given –> c=3000 and B(1)=3400=cek=3000*ek
+ek=\(\frac{17}{15}\) taking log,   k=log 17 – log 15 = 0.125, to find t when B(t)=10000 i.e
+10000=3000*ekt = 3000*e0.125t –> 3.33=e0.125t –> log 3.33 = 0.125t –> t=9.62 hrs.
+3. Uranium disintegrates at a rate proportional to the amount present at any time instant. If a and b grams of uranium are present at times t’ & t’’ respectively. What is the expression for the half life of uranium?
+a) \(\frac{(t”+t’)log2}{log⁡(\frac{b}{a})} \) 
+b) \(\frac{(t”-2t’)log2}{2log(\frac{a}{b})} \) 
+c) \(\frac{(t”+t’)}{2log(\frac{a}{b})} \) 
+d) \(\frac{(t”-t’)log2}{log⁡(\frac{b}{a})} \) 
+d
+a=ce-kt‘…..(1) and b=ce-kt‘….(2) dividing (1) & (2) we get \(\frac{a}{b}=e^{k(t^{”}-t’)}\)
+taking log on both side \(log(\frac{a}{b})\) = k(t’’-t’)…(3) at t=0 ‘c’ is the initial mass of uranium present in the sample thus at half life  i.e t=T ,P=c/2 P = P=ce-kt becomes \(\frac{c}{2}\) = ce-kT
+log 2=kT substituting the value of k from (3) we get \(T = \frac{(t”-t’)log2}{log⁡(\frac{b}{a})} \) is the equation for half life period.
+ Sanfoundry Global Education & Learning Series – Ordinary Differential Equations.
+To practice all areas of Ordinary Differential Equations for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ordinary Differential Equations Questions and Answers – Orthogonal Trajectories» Next - Ordinary Differential Equations Questions and Answers – Newton’s Law of Cooling and Escape Velocity 

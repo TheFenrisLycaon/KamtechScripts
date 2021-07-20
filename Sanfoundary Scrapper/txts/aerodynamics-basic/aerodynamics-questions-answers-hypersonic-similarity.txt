@@ -1,0 +1,60 @@
+1. Which of these does not result in two or more flows being dynamically similar?
+a) Streamlines are geometrically similar
+b) The shape of the blunt body is same
+c) Length of the body is same
+d) Non dimensional parameters remain same
+c
+2. Why is hypersonic similarity parameter essential?
+a) Supersonic flow over wedges
+b) Hypersonic flow over slender bodies
+c) Hypersonic flow over cone
+d) Hypersonic flow over flat plate
+b
+3. For two bodies with same shape but different scales, which of these parameters must be equal for the flow to be same in hypersonic regime?
+a) Mach number
+b) Product of Mach number and slenderness ratio
+c) Tangential flow velocity
+d) Normal flow velocity
+b
+4. Two bodies holding hypersonic similarity at small angle of attack need the values of γ and M∞τ to be same.
+a) True
+b) False
+b
+5. The ratio \(\frac {C_p}{τ^{2}}\) behind a shock wave is a function of which of these parameters?
+a) Hypersonic similarity parameter K and γ
+b) Angle of attack and wedge angle
+c) Coefficient of lift and wedge angle
+d) Hypersonic similarity parameter and angle of attack
+a
+\(\frac {C_p}{τ^{2}}\) = f(K,γ)
+According to this, \(\frac {C_p}{τ^{2}}\) is a function of only gamma and the hypersonic similarity parameter.
+6. On which of this parameter is the coefficient of lift over a two – dimensional body at hypersonic flow dependent?
+a) γ.\(\frac {α}{τ}\) 
+b) γ, K, M∞
+c) M∞T, \(\frac {α}{τ}\), γ
+d) M∞T, K, γ
+c
+cl = \(\frac {1}{l} \int _0^{l}\)(Cpl – Cpu)dx
+Where, Cpl – Cpu are coefficient of pressure over the upper and lower surface
+l is the length of body
+The above equation in terms of x is
+cl = \(\int _0^{1}\)(Cpl – Cpu)dx
+Diving this equation with the square of slenderness ratio, we get
+\(\frac {c_l}{τ^{2}} = \int _0^{1}\)(Cpl – Cpu)dx = f(M∞T, \(\frac {α}{τ}\), γ)
+Thus, coefficient of lift is a function of M∞T, \(\frac {α}{τ}\) and γ.
+7. Hypersonic similarity is applicable for only irrotational flow.
+a) True
+b) False
+b
+8. For which range of values is the hypersonic similarity rule valid for very slender bodies?
+a) K = 0.5 to infinity
+b) K > 1.5
+c) 0.5 < K < 1.5
+d) 2 < K < 1000
+a
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Mach Number Independence» Next - Aerodynamics Questions and Answers – Microscopic Description of Gases 

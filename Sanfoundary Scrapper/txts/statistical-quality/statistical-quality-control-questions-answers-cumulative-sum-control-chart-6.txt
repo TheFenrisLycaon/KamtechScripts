@@ -1,0 +1,98 @@
+1. What is the standardized value used for xi in the standardized cusum chart?
+a) \(y_i=\frac{x_i-μ_0}{3σ}\) 
+b) \(y_i=\frac{x_i-μ_0}{σ}\) 
+c) \(y_i=\frac{x_i-μ_0}{2σ}\) 
+d) \(y_i=\frac{x_i-μ_0}{6σ}\) 
+b
+\(y_i=\frac{x_i-μ_0}{σ}\)
+2. What is the value of one sided upper cusum of the standardized cusum chart?
+a) \(C_i^+=max⁡\left\{0,y_i-k+C_{i-1}^+\right\}\) 
+b) \(C_i^+=max⁡\left\{0,y_i+k+C_{i-1}^+\right\}\) 
+c) \(C_i^+=min⁡\left\{0,y_i+k+C_{i-1}^+\right\}\) 
+d) \(C_i^+=min\left\{0,y_i-k+C_{i-1}^+\right\}\) 
+a
+\(C_i^+=max⁡\left\{0,y_i-k+C_{i-1}^+\right\}\)
+3. What is the value of the one-sided lower cusum of the standardized cusum chart?
+a) \(C_i^+=max⁡\left\{0,-y_i-k+C_{i-1}^+\right\}\) 
+b) \(C_i^-=max⁡\left\{0,y_i-k+C_{i-1}^-\right\}\) 
+c) \(C_i^-=max⁡\left\{0,-y_i-k+C_{i-1}^-\right\}\) 
+d) \(C_i^+=max⁡\left\{0,-y_i-k+C_{i-1}^-\right\}\) 
+c
+\(C_i^-=max⁡\left\{0,-y_i-k+C_{i-1}^-\right\}\)
+4. Which of these is an advantage of the standardized cusum chart?
+a) There can be same means chosen for different processes
+b) There can be same standard deviations chosen for different processes
+c) The choices of k and h parameters are not scale dependent
+d) No variability at all
+c
+5. Combined Cusum-Shewhart procedure is applied _____________
+a) On-line control
+b) On-line measure
+c) Off-line control
+d) On-line measure
+a
+6. To apply Shewhart-cusum combined procedure, the Shewhart control limits should be applied almost _________ standard deviation from the center.
+a) 2
+b) 1
+c) 1.5
+d) 3.5
+d
+7. What is the full form of FIR feature in the cusum charts?
+a) First initial response
+b) Fast initial response
+c) First initiation response
+d) Free initial response
+b
+8. What is the meaning of the 50% headstart?
+a) The value of C0–  equal to H/2
+b) The value of C0+ equal to H/2
+c) Both the values of C0+ and C0– equal to H/2
+d) Both the values of C0+ and C0– lesser than H/2
+c
+9. What is the standardized variable value for the cusum charts from Hawkins?
+a) \(v_i=\frac{\sqrt{|y_i|}-0.822}{0.349}\) 
+b) \(v_i=\frac{\sqrt{|y_i|}-0.822}{0.500}\) 
+c) \(v_i=\frac{3\sqrt{|y_i|}-0.822}{0.349}\) 
+d) \(v_i=\frac{2\sqrt{|y_i|}-0.822}{0.349}\) 
+a
+\(v_i=\frac{\sqrt{|y_i|}-0.822}{0.349}\)
+10. The standardized variable vi was subjected to vary more with respect to ____________ than process mean.
+a) Sample mean
+b) Sample variance
+c) Process variance
+d) Process standard deviation
+c
+11. The two-sided standardized scale, i.e. standard deviation cusums will have its upper cusum value equal to ___________
+a) \(S_i^+=max⁡⁡\left\{0,v_i-k+S_{i-1}^+\right\}\) 
+b) \(S_i^+=max⁡\left\{0,v_i+k-S_{i-1}^+\right\}\) 
+c) \(S_i^+=max⁡\left\{0,v_i-k-S_{i-1}^-\right\}\) 
+d) \(S_i^+=max⁡\left\{0,v_i-k+S_{i-1}^-\right\}\) 
+a
+\(S_i^+=max⁡⁡\left\{0,v_i-k+S_{i-1}^+\right\}\)
+12. What is the value of lower cusum in the standardized scale cusum chart for process variability?
+a) \(S_i^+=max⁡\left\{0,v_i-k+S_{i-1}^+\right\}\) 
+b) \(S_i^-=max⁡\left\{0,v_i-k+S_{i-1}^+\right\}\) 
+c) \(S_i^-=max⁡\left\{0,-v_i-k+S_{i-1}^-\right\}\) 
+d) \(S_i^+=max⁡\left\{0,-v_i-k+S_{i-1}^+\right\}\) 
+c
+\(S_i^-=max⁡\left\{0,-v_i-k+S_{i-1}^-\right\}\)
+13. The values of Si+ or Si– at the starting are ____ if the FIR feature is not used.
+a) 1
+b) H
+c) H/2
+d) 0
+d
+14. Only two-sided cusums are useful all over the industries.
+a) True
+b) False
+b
+15. Some cusums can have different sensitivity of the lower cusum than the upper cusum.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Time-Weighted – Cumulative Sum Control Chart – 5» Next - Statistical Quality Control Questions and Answers – Time-Weighted – EWMA Control Chart – 1 

@@ -1,0 +1,109 @@
+1. What type of pump can be used for obtaining maximum vacuum in condensers?
+a) Air pump
+b) Centrifugal pump
+c) Steam pump
+d) Gear pump
+a
+2. What instrument is used to measure vacuum in the condensers.
+a) Thermometer
+b) Vacuum gauge
+c) Barometer
+d) Pressure transducer
+b
+3. Which of the following is the correct definition of vacuum efficiency?
+a) It is the ratio of actual vacuum to atmospheric pressure
+b) It is the ratio of atmospheric pressure to actual vacuum
+c) It is the ratio of maximum obtainable vacuum to actual vacuum
+d) It is the ratio of actual vacuum to maximum obtainable vacuum
+d
+Mathematically,
+ηvacuum = \(\frac{Actual \, vacuum}{Maximum \, obtainable \, vacuum} \) 
+4. Which of the following expressions is the correct one for calculating the vacuum efficiency of a condenser?
+a) \(\frac{Actual \, vacuum}{Absolute \, pressure \, of \, steam-Barometer \, Pressure} \) 
+b) \(\frac{Actual \, vacuum}{Barometer \, Pressure-Absolute \, pressure \, of \, steam} \) 
+c) \(\frac{Barometer \, Pressure-Absolute \, pressure \, of \, steam}{Actual \, vacuum} \) 
+d) \(\frac{Absolute \, pressure \, of \, steam-Barometer \, Pressure}{Actual \, vacuum} \) 
+b
+Therefore,
+ηvacuum = \(\frac{Actual \, vacuum}{Maximum \, obtainable \, vacuum} \) 
+but Maximum obtainable vacuum = Barometer pressure – Absolute pressure of steam
+\(\frac{Actual \, vacuum}{Barometer \, Pressure-Absolute \, pressure \, of \, steam} \) 
+5. Which of the following is the correct definition of condenser efficiency?
+a) It is the ratio of the difference between the outlet and the inlet temperatures of cooling water to the difference between the temperature corresponding to the vacuum in the condenser and inlet temperature of cooling water
+b) It is the ratio of the difference between the temperature corresponding to the vacuum in the condenser and inlet temperature of cooling water to the difference between the inlet and outlet temperature of cooling water
+c) It is the ratio of the difference between the atmospheric pressure and the absolute pressure inside the condenser to the difference between the atmospheric pressure and the absolute partial pressure of the steam
+d) It is the ratio of the difference between the actual pressure inside the condenser and the partial pressure of the steam to the atmospheric pressure
+a
+6. Which of the following is the correct expression for calculating condenser efficiency?
+a) \(\frac{Rise \, in \, temperature \, of \, cooling \, water}{Temp. \, corresponding \, to \, vacuum \, in \, the \, condenser-Inlet \, temperature \, of \, cooling \, water} \) 
+b) \(\frac{Rise \, in \, temperature \, of \, cooling \, water}{Inlet \, temperature \, of \, cooling \, water- Temp. \, corresponding \, to \, vacuum \, in \, the \, condenser} \) 
+c) \(\frac{Inlet \, temperature \, of \, cooling \, water-Temp. \, corresponding \, to \, vacuum \, in \, the \, condenser}{Rise \, in \, temperature \, of \, cooling \, water} \) 
+d) \(\frac{Temp. \, corresponding \, to \, vacuum \, in \, the \, condenser-Inlet \, temperature \, of \, cooling \, water}{Rise \, in \, temperature \, of \, cooling \, water} \) 
+a
+ηcondenser = \(\frac{Rise \, in \, temperature \, of \, cooling \, water}{Temp. \,   corresponding \, to \, vacuum \, in \, the \, condenser-Inlet \, temperature \, of \, cooling \,  water}\) 
+It can also be written as
+ηcondenser = \(\frac{Rise \, in \, temperature \, of \, cooling \, water}{Temp.  \, corresponding \, to \, the \, absolute \, pressure \, in \, the \, condenser-Inlet \, temperature \, of \, cooling \, water} \) 
+7. The inlet and outlet temperatures of cooling water to a certain condenser are recorded to be 30°C and 40°C respectively. If the absolute pressure in the condenser is given to be 0.11 bar, determine efficiency.
+a) 45.21%
+b) 75.65%
+c) 95.32%
+d) 56.46%
+d
+	From steam tables corresponding to 0.11 bar
+		ts = 47.71°C
+	Therefore,
+ηcondenser = \(\frac{Rise \, in \, temperature \, of \, cooling \, water}{Temp.  \, corresponding \, to \, the \, absolute \, pressure \, in \, the \, condenser-Inlet \, temperature \, of \, cooling \, water} \) 
+(%)ηcondenser = \(\frac{t_{wo} – t_{wi}}{t_s-t_{wi}}\) x 100
+Substituting the values,
+ηcondenser  = \(\frac{40 – 30}{47.71-30}\) x 100 = 56.46%.
+8. In a condenser, the temperature of steam entering in the condenser is observed to be 30°C. The condenser vacuum is recorded to be 670 mm of Hg. If the barometer reading is 760 mm of Hg, determine the vacuum efficiency.
+a) 92.01%
+b) 84.25%
+c) 31.65%
+d) 67.51%
+a
+ Using steam tables, At 30°C
+		Partial pressure of steam, P = 0.04242 bar = 0.04242/0.001333 mm of Hg
+= 31.82 mm of Hg
+	Now, Maximum obtainable vacuum = 760 – 31.82 = 728.18 mm of Hg
+Vacuum efficiency = ηvacuum = \(\frac{Actual \, vacuum}{Maximum \, obtainable \,  vacuum} \) 
+			= 670 / 728.18
+			= 0.9201 or 92.01%.
+9. The outlet temperature of cooling water to a condenser is observed to be 42°C. Determine the inlet temperature of cooling water if the absolute pressure inside the condenser is 0.1 bar. Take condenser efficiency as 76%.
+a) 12.36°C
+b) 29.87°C
+c) 36.21°C
+d) 40.65°C
+:
+	Using steam tables, corresponding to 0.1 bar
+			ts = 45.83°C
+	We know that,
+ηcondenser = \(\frac{t_{wo} – t_{wi}}{t_s-t_{wi}} \) 
+	Substituting the values,
+0.76=\(\frac{42- t_{wi}}{45.83-t_{wi}}  \) 
+	Solving the equation for twi we get,
+			twi = 29.87°C.
+10. The following data refers to a steam condenser –
+	Inlet temperature of cooling water = 36°C
+	Absolute pressure inside the condenser = 0.12 bar
+	efficiency = 78%
+	Determine the outlet temperature of cooling water.
+a) 42.37°C
+b) 39.12°C
+c) 46.49°C
+d) 35.21°C
+c
+	Using steam tables, corresponding to 0.12 bar
+	ts = 49.45°C
+	We know that,
+	ηcondenser = \(\frac{t_{wo} – t_{wi}}{t_s-t_{wi}} \) 
+	Substituting the values,
+	0.78 = \(\frac{t_{wo} – 36}{49.45-36} \) 
+	Solving for two we get,
+	two = 46.49°C.
+Sanfoundry Global Education & Learning Series – Thermal Engineering
+To practice all areas of Thermal Engineering,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Thermal Engineering Questions and Answers – Steam Condensers – Sources and Effects of Air Leakage» Next - Thermal Engineering Questions and Answers – Steam Condensers – Dalton’s Law of Partial Pressure 

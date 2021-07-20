@@ -1,0 +1,63 @@
+1. The system variable in MySQL server that enables to configure the SQL mode is __________
+a) sql_config
+b) sql_mode
+c) sql_server
+d) sql_enable
+b
+2. Any client in the client/server architecture of MySQL can change how the server behaves in relation to itself without impact on other clients.
+a) True
+b) False
+a
+3. How do the STRICT_ALL_TABLES and STRICT_TRANS_TABLES mode values deal with bad data?
+a) reject them
+b) accept them
+c) change them to the closest legal value and accept
+d) change them to the closest legal value and reject
+a
+4. Which mode tells the server to recognize double quote as an identifier quoting character?
+a) ANSI_DQ
+b) ANSI_QUOTES
+c) ANSI_RECG_QUOTES
+d) ANSI_RECG_DQUOTES
+b
+5. Which mode tells the server to recognize || as the string concatenation operator?
+a) PIPES_AS_CONCAT
+b) ORS_AS_CONCAT
+c) DOUBLE_PIPE_AS_CONCAT
+d) LOGIC_OR_AS_CONCAT
+a
+6. Which of these modes is a composite server mode?
+a) COMPOSITE
+b) COMPOSITE_MODE
+c) COMPOSITE_SERVER
+d) ANSI
+d
+7. MySQL server mode values are case sensitive.
+a) True
+b) False
+b
+8. Which of the following commands sets the SQL mode as TRADITIONAL?
+a) –sqlmode=’TRADITIONAL’
+b) –sql_mode=’TRADITIONAL’
+c) –sql-mode=’TRADITIONAL’
+d) –sql.mode=’TRADITIONAL’
+c
+9. Which statement can be used to specify the sql_mode system variable at runtime?
+a) SPECIFY
+b) SET
+c) ASSIGN
+d) CHANGE
+b
+10. When no modes are enabled, what does this SQL statement return?
+SELECT @@SESSION.sql_mode;
+a) empty value
+b) zero
+c) a negative value
+d) a garbage value
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Interacting with MySQL» Next - MySQL Questions and Answers – MySQL Identifier Syntax and Naming Rules 

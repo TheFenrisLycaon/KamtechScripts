@@ -1,0 +1,79 @@
+1. The selected concurrent statement is equivalent to ________ sequential statement.
+a) If else
+b) Loop
+c) Wait
+d) Case
+d
+2. Those statement which are placed under ________ are concurrent.
+a) Process
+b) Function
+c) Architecture
+d) Procedure
+c
+3. In case of concurrent assignment, order of statements doesn’t matter.
+a) True
+b) False
+a
+4. Which of the following can’t be implemented with concurrent statements only?
+a) Multiplexer
+b) Decoder
+c) Adder
+d) Counter
+d
+5. Variable assignment statement executes in ______ time.
+a) Immediately(zero)
+b) After delay specified
+c) After one clock cycle
+d) After two clock cycles
+a
+6. In the signal assignment statement, which delay is used?
+x <= 1 AFTER 10ns
+a) Transport delay
+b) Inertial delay
+c) Delta delay
+d) Wire delay
+b
+7. Inertial delay in Signal assignment is useful to ___________
+a) Specify wire delay
+b) Accumulate delay
+c) Ignore input glitches
+d) No use
+c
+8. Which of the following statement is a zero delay statement?
+a) y <= x AFTER 10 ns
+b) y <= TRANSPORT x AFTER 10 ns
+c) y <= x
+d) y := x AFTER 10 ns
+d
+9. Which of the following statement can’t be used to assign values in behavioral modeling of OR Gate?
+a) Simple concurrent assignment
+b) Sequential assignment
+c) Conditional concurrent assignment
+d) Selected concurrent assignment
+d
+10. Which of the following is not an assignment statement?
+a) <=
+b) :=
+c) =>
+d) :>
+d
+11. OTHERS keyword is used with which kind of assignment?
+a) Concurrent
+b) Sequential
+c) Selected
+d) Conditional
+c
+12. The following code represents which of the logic gates?
+WITH ab SELECT 
+y <= 1 WHEN “11”;0	WHEN OTHERS;
+a) And gate
+b) Or gate
+c) Not gate
+d) Nand gate
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL for tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Signal Assignment – 1» Next - VHDL Questions and Answers – Process Statement – 1 

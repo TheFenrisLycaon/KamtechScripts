@@ -1,0 +1,152 @@
+1. What are Iterators?
+a) STL component used to point a memory address of a container
+b) STL component used for vectors
+c) STL component used to call functions efficiently
+d) STL component used to define template classes
+a
+2. Which function is used increment the iterator by a particular value?
+a) next()
+b) advance()
+c) prev()
+d) move()
+b
+3. What will be the output of the following C++ code?
+#include<iostream> 
+#include<iterator> 
+#include<vector> 
+using namespace std; 
+int main() 
+{ 
+    vector<int> ar = { 1, 2, 3, 4, 5 }; 
+    vector<int>::iterator ptr = ar.begin(); 
+    advance(ptr, 2);
+    cout << *ptr << endl; 
+    return 0; 
+}
+a) 2
+b) 3
+c) 4
+d) 5
+b
+Output:
+$ ./a.out 
+3
+4. What will be the output of the following C++ code?
+#include<iostream> 
+#include<iterator> 
+#include<vector> 
+using namespace std; 
+int main() 
+{ 
+    vector<int> ar = { 1, 2, 3, 4, 5 }; 
+    vector<int>::iterator ptr = ar.begin(); 
+    ptr = advance(ptr, 2);
+    cout << *ptr << endl; 
+    return 0; 
+}
+a) 3
+b) 4
+c) Error
+d) Segmentation fault
+c
+5. What will be the output of the following C++ code?
+#include<iostream> 
+#include<iterator> 
+#include<vector> 
+using namespace std; 
+int main() 
+{ 
+    vector<int> ar = { 1, 2, 3, 4, 5 }; 
+    vector<int>::iterator ptr = ar.begin(); 
+    ptr = next(ptr, 3);
+    cout << *ptr << endl; 
+    return 0; 
+}
+a) 1
+b) 2
+c) 3
+d) 4
+d
+Output:
+$ ./a.out 
+4
+6. How many types of Iterators are there?
+a) 5
+b) 2
+c) 3
+d) 4
+a
+i) Input Iterators
+ii) Output Iterators
+iii) Forward Iterators
+iv) Bi-directional Iterators
+v) Random-access Iterators.
+7. Pick the correct statement.
+a) Input iterator moves sequentially forward
+b) Input iterator moves sequentially backward
+c) Input iterator moves in both direction
+d) Input iterator moves sequentially downwards
+a
+8. Which of the following is correct about Input Iterators?
+a) Input iterators can be used with all relational operators
+b) Input iterators can work with arithmetic operators
+c) No value can be assigned to the location pointed by Input Iterator
+d) Input iterators can work with sequence operators
+c
+9. Which of the following is correct about Input Iterators?
+a) They cannot be decremented
+b) Cannot be used in multi-pass algorithms
+c) Can only be incremented
+d) All of the mentioned
+d
+10. Which of the following is correct?
+a) Input Iterators are used for assigning
+b) Output Iterators are used for assigning
+c) Both Input and Output Iterators are used for accessing
+d) Both Input and Output Iterators are used for assigning
+b
+11. What type of Iterator i1 is in the following C++ code snipet?
+================ code ================
+vector<int>::iterator i1; 
+for (i1=v1.begin();i1!=v1.end();++i1) 
+	*i1 = 1;
+======================================
+a) Input Iterator
+b) Output Iterator
+c) Both Input and Output Iterator
+d) Neither Input nor Output Iterator
+b
+12. If i1 is Input Iterator and i2 is Output Iterator, then which of the following things are correct?
+i) cout<<*i1;
+ii) i2 can be used with == operator
+iii) *i1 = 1
+iv) i2--
+a) i and ii
+b) i only
+c) i, ii and iv
+d) iii and iv
+b
+13. Which of the following is an advantage of Forward iterator over input and output iterator?
+a) Can be used as both accessing and assigning iterator
+b) Forward iterator can be incremented or decremented
+c) Can be used with relational operators also
+d) Can be used with arithmetic operators also
+a
+14. What are Bi-directional iterators?
+a) Iterator same as Forward Iterator
+b) Forward Iterator that can be used in both directions
+c) Iterator that can only be used to access the sequence from both sides
+d) Iterator that can only be used to assign the sequence from both sides
+b
+15. What are Random-access Iterators?
+a) Iterators that can be used to access elements at an arbitrary offset position
+b) Same as Bi-directional iterator
+c) Input iterator with the additional property of random access
+d) Output iterator with the additional property of random access
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Allocators» Next - C++ Programming Questions and Answers – STL Algorithms 

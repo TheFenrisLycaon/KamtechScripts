@@ -1,0 +1,167 @@
+1. Which of the following is the correct formula for calculating boiler efficiency?
+a) η = \(\frac{(h-h_{f1})}{C} \) 
+b) η = \(\frac{m_a (h-h_{f1})}{C} \) 
+c) η = \(\frac{m_a (h_{f1}-h}{C} \) 
+d) η = \(\frac{m_a (h-h_{f1})}{2257} \) 
+b
+2. Which of the following is a fixed factor on which boiler efficiency depends?
+a) Actual firing rate
+b) Humidity of combustion air
+c) Condition of heat absorbing surfaces
+d) Properties of the fuel burnt
+d
+3. The following listed are some factors on which boiler efficiency depends. Which of the following is a variable factor?
+a) Excess air fluctuations
+b) Rated rate of firing
+c) Boiler design
+d) Heat recovery equipment
+a
+4. Boiler efficiency is the ratio of heat actually absorbed by water during generation of steam to the heat supplied in by the fuel in the same time period.
+a) True
+b) False
+a
+	Mathematically,
+			boiler efficiency = \(\frac{m_a (h-h_{f1})}{C} \) 
+If economizer and superheater are also considered along with boiler, then the efficiency calculated is called overall efficiency.
+5. Which of the following is not a heat recovery equipment?
+a) Economizer
+b) Air preheater
+c) Feed water heater
+d) Steam separator
+d
+6. Following observations were made after the trial of a boiler for 24 hours.
+Mass of coal burnt = 1300 kg
+Mass of steam generated = 14000 kg
+Mean effective pressure of steam = 10 bar
+Temperature of the feed water = 40°C
+Calorific value of coal = 30000 kJ/kg
+Calculate the boiler efficiency if the dryness fraction of the steam generated is 0.95.
+a) 90%
+b) 80%
+c) 70%
+d) 60%
+a
+ma = \(\frac{m_s}{m_f} \) 
+ma = \(\frac{14000}{1300} \) 
+ma = 10.77 kg of steam/kg of fuel
+At 10 bar, from steam tables
+hf = 762.68 kJ/kg, hfg = 2014.44 kJ/kg
+x = 0.95
+h = hf + x(hfg) = 762.68 + 0.95(2014.44) = 2676.4 kJ/kg
+hf1 = 4.18(T-0) = 4.18(40-0) = 167.2 kJ/kg
+Boiler efficiency, η=\(\frac{m_a (h-h_{f1})}{C}=\frac{10.77(2676.4-167.2)}{30000}\) = 0.9 or 90%.
+7. A boiler produces 4000 kg of dry and saturated steam in 6 hours. In the same time the mass of coal consumed is 300 kg of coal. The mean pressure of steam generated is 11 bar. The temperature of the feed water is 35°C. Determine the boiler efficiency if the calorific value of the fuel is 30000 kJ/kg.
+a) 85.64%
+b) 75.65%
+c) 95.65%
+d) 87.78%
+d
+At 11 bar, from steam tables
+hf = 781.1 kJ/kg, hfg = 1998.5 kJ/kg
+h = hf + hfg =781.1 + 1998.5 = 2779.6 kJ/kg
+hf1 = 4.18 (T-0) = 4.18(35-0) = 146.3 kJ/kg
+Boiler efficiency, η=\(\frac{m_s (h-h_{f1}}{mf*C} = \frac{3000(2779.6-146.3)}{300*30000}\) = 0.8778 or 87.78%.
+8. A boiler generates superheated steam having temperature 270°C and pressure 13 bar. The specific heat of the superheated steam 2.1 kJ/kg-K. The temperature of the feed water is 32°C. The evaporative capacity of the boiler is 8 kg of steam per kg of fuel. The calorific value of the coal is 26000 kJ/kg.
+a) 86.65%
+b) 70.32%
+c) 65.87%
+d) 90.80%
+a
+At 13 bar, from steam tables
+hf = 814.7 kJ/kg, hfg = 1970.7 kJ/kg, Ts = 191.6°C
+h = hf + hfg + cp (Tsup – Ts) = 814.7 + 1970.7 + 2.1 (270 – 191.6)
+h = 2950.04
+hf1 = 4.18(T-0) = 4.18(32-0) = 133.76 kJ/kg
+Boiler efficiency, η = \(\frac{m_a (h-h_{f1})}{C} = \frac{8(2950.04-133.76)}{26000}\) = 0.8665 or 86.65%.
+9. A boiler produces steam at the rate of 1500 kg per hour at 12.5 bar. The water fed to the economizer is at a temperature of 35°C and it is raised to a temperature of 110°C before feeding it to the boiler. Coal is fired at a rate of 200 kg per hour. The dryness fraction of the steam generated is 0.87. If 15% of the coal remains unburnt and the calorific value of the coal being fired is 36200 kJ/kg, determine the overall efficiency.
+a) 58%
+b) 65%
+c) 78%
+d) 82%
+a
+Mass of coal actually burnt per hour = 200 \(\frac{85}{100}\) = 170 kg/h
+ma = \(\frac{m_s}{m_f}  = \frac{1500}{170}\) = 8.82 kg of steam/kg of fuel
+At 12.5 bar, from steam tables
+hf = 806.7 kJ/kg, hfg = 1977.4 kJ/kg
+h = hf + x(hfg) = 806.7 + 0.87(1977.4) = 2527.04 kJ/kg
+hf1 = 4.18(T-0) = 4.18(35-0) = 146.3 kJ/kg
+Overall efficiency = \(\)\frac{m_a (h-h_{f1}}{C} = \frac{8.2(2527.04-146.3)}{36200} = 0.58 or 58%.
+10. A boiler having evaporative capacity 8 kg of steam per kg of fuel produces dry and saturated steam at 13 bar pressure. The feed water temperature is 35°C. Determine the calorific value of coal if the efficiency of the boiler is 70%.
+a) 35000 kJ/kg
+b) 29560 kJ/kg
+c) 31000 kJ/kg
+d) 30160 kJ/kg
+d
+At 13 bar, from the steam tables
+hg = 2785.4 kJ/kg
+h = hg = 2785.4 kJ/kg
+hf1 = 4.18(T-0) = 4.18(35-0) = 146.3 kJ/kg
+we know that,
+η = \(\frac{m_a (h-h_{f1})}{C} \) 
+Substituting the values, we get
+0.7 =  \(\frac{8(2785.4-146.3)}{C} \) 
+Solving for ‘C’, we get
+C = 30161.14 kJ/kg ≈ 30160 kJ/kg.
+11. A boiler is fired with fuel having calorific value 30000 kJ/kg. It produces steam at 5 bar. The dryness fraction of the steam generated 0.85. The efficiency of the boiler is 77% and the evaporative e capacity of the boiler is 10 kg of steam per kg of fuel. Determine the temperature of feed water.
+a) 35°C
+b) 29°C
+c) 25°C
+d) 37°C
+b
+At 5 bar, from steam tables
+hf = 640.1 kJ/kg, hfg = 2170.4 kJ/kg
+h = hf + x(hfg) = 640.1 + 0.85(2170.4) = 2431.39 kJ/kg
+we know that,
+η = \(\frac{m_a (h-h_{f1})}{C} \) 
+Substituting the values, we get
+0.77 = \(\frac{10(2431.39-h_{f1})}{30000} \) 
+Solving for hf1, we get
+hf1 = 121.39 kJ/kg
+But, hf1 = 4.18(T-0)
+121.39 = 4.18(T)
+Therefore, T = 29°C.
+12. Determine the evaporative capacity of a boiler in kg of steam per kg of fuel fired if the feed water temperature is 40°C, the efficiency of the boiler is 95%, calorific value of the coal fried is 33000 kJ/kg and the steam generated is dry and saturated at 12 bar pressure.
+a) 10 kg of steam/kg of fuel
+b) 12 kg of steam/kg of fuel
+c) 15 kg of steam/kg of fuel
+d) 15 kg of steam/kg of fuel
+c
+At 12 bar, from steam tables
+hg = 2782.7 kJ/kg
+h = hg = 2782.7 kJ/kg
+hf1 = 4.18(T-0) = 4.18(40-0) = 167.2 kJ/kg
+we know that,
+η = \(\frac{m_a (h-h_{f1})}{C} \) 
+Substituting the values, we get
+0.95 = \(\frac{m_a (2782.7-167.2)}{33000} \) 
+Solving for ma, we get
+ma = 11.98 kg of steam/kg of fuel ≈ 12 kg of steam/kg of fuel.
+13. Determine the enthalpy of 1 kg of steam if the boiler efficiency is 79%, the evaporative capacity of the boiler is 9 kg of steam per kg of fuel fired, the feed water temperature is 40°C and the calorific value of coal is 30000 kJ/kg.
+a) 2500 kJ/kg
+b) 3000 kJ/kg
+c) 2800 kJ/kg
+d) 2200 kJ/kg
+c
+hf1 = 4.18(T-0) = 4.18(40) = 167.2 kJ/kg
+We know that
+η = \(\frac{m_a(h-h_{f1})}{C} \) 
+Substituting the values, we get
+0.79 = \(\frac{9(h-167.2)}{30000} \) 
+Solving for ‘h’, we get
+h = 2800 kJ/kg.
+14. Boiler efficiency doesn’t depend on _____
+a) calorific value of fuel fired
+b) specific heat of steam generated
+c) boiler design
+d) operation time
+d
+15. In a boiler, some part of heat is lost to flue gases.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Thermal Engineering
+To practice all areas of Thermal Engineering,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Thermal Engineering Questions and Answers – Evaporative Capacity and Equivalent Evaporation» Next - Thermal Engineering Questions and Answers – Steam Flow Through Nozzles 

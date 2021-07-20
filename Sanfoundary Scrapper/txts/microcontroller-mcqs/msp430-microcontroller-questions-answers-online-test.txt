@@ -1,0 +1,55 @@
+1. All channels within Timer_A share the same timer block?
+a) yes
+b) no
+c) cant be said
+d) depends on the conditions
+a
+2. Timer_A has _________
+a) RTC module in it
+b) Compare/ capture channel
+c) Communication channel
+d) Converter channel
+b
+3. TACLK and INCLK are _________
+a) internally generated clock pulses
+b) externally fed clock pulses
+c) of no use in Timer_A
+d) very slow
+b
+4. In continuous mode of the counter _________
+a) counter moves from 0000-ffff
+b) counter moves from ffff-0000-ffff
+c) counter moves from 0000-ffff and then again returns to 0
+d) all of the mentioned
+c
+5. TACLR bit in TACTL _________
+a) clear the interrupt flag
+b) clear the status flags
+c) clear the count in TAR
+d) all of the mentioned
+c
+6. TAxCCTLn is a _________
+a) set of 2 bits used for selecting the mode of operation of the timer
+b) a register of 8 bits used for giving the count to the timer
+c) a register of 16 bits used to select the compare/capture channel of the Timer_Ax
+d) a register of 16 bits used to cause the timer interrupt
+c
+7. CCI1B comes from _________
+a) ACLK
+b) CAOUT
+c) SCLK
+d) TACLK
+b
+8. Which of the following parameters are given by the TAxCCRn?
+a) Capture/compare input. The selected input signal can be read by this bit
+b) Synchronized capture/compare input. The selected CCI input signal is latched with the EQUx signal and can be read from this bit
+c) Holds the data for the comparison to the timer value in the Timer_A Register, TAR
+d) None of the mentioned
+c
+Capture mode: The Timer_A Register, TAR, is copied into the TAxCCRn register when capture is performed.
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice  all areas of Microcontroller for online tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MSP430 Microcontroller Questions and Answers – TIMER1» Next - MSP430 Microcontroller Questions and Answers – TIMER_B 

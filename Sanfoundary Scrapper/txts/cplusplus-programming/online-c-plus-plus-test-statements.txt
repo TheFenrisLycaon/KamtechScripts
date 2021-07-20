@@ -1,0 +1,80 @@
+This section on online C++ test focuses on “Statements”. One shall practice these test questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our online C++ test questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of online C++ test questions on “Statements” along with answers, explanations and/or solutions:
+1. How are many sequences of statements present in c++?
+a) 4
+b) 3
+c) 5
+d) 6
+c
+2. The if..else statement can be replaced by which operator?
+a) Bitwise operator
+b) Conditional operator
+c) Multiplicative operator
+d) Addition operator
+b
+3. The switch statement is also called as?
+a) choosing structure
+b) selective structure
+c) certain structure
+d) bitwise structure
+b
+4. The destination statement for the goto label is identified by what label?
+a) $
+b) @
+c) *
+d) :
+d
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main ()    {        int n;        for (n = 5; n > 0; n--)        {            cout << n;            if (n == 3)                break;        }        return 0;    }
+a) 543
+b) 54
+c) 5432
+d) 53
+a
+Output:
+$ g++ stat.cpp
+$ a.out
+543
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int a = 10;        if (a < 15)        {            time:            cout << a;            goto time;        }        break;        return 0;    }
+a) 1010
+b) 10
+c) infinitely print 10
+d) compile time error
+d
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int n = 15;        for ( ; ;)        cout << n;        return 0;    }
+a) error
+b) 15
+c) infinite times of printing n
+d) none of the mentioned
+c
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int i;        for (i = 0; i < 10; i++);        {            cout << i;        }        return 0;    }
+a) 0123456789
+b) 10
+c) 012345678910
+d) compile time error
+b
+Output:
+$ g++ stat2.cpp
+$ a.out
+10
+9. How many types of loops are there in C++?
+a) 4
+b) 2
+c) 3
+d) 1
+a
+10. Which looping process is best used when the number of iterations is known?
+a) for
+b) while
+c) do-while
+d) all looping processes require that the iterations be known
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Operators» Next - C++ Programming Questions and Answers – Comments and Indentation 

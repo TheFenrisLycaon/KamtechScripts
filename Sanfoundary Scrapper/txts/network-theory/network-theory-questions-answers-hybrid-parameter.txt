@@ -1,0 +1,192 @@
+1. For the circuit given below, the value of the hybrid parameter h11 is ___________
+a) 15 Ω
+b) 20 Ω
+c) 30 Ω
+d) 25 Ω
+a
+Therefore short circuiting the terminal Y-Y’, we get,
+ V1 = I1 ((10||10) + 10)
+= I1 \(\left(\left(\frac{10×10}{10+10}\right)+10\right)\) 
+= 15I1
+∴ \(\frac{V_1}{I_1}\) = 15.
+Hence h11 = 15 Ω.
+2. For the circuit given below, the value of the hybrid parameter h21 is ___________
+a) 0.6 Ω
+b) 0.5 Ω
+c) 0.3 Ω
+d) 0.2 Ω
+b
+Therefore short circuiting the terminal Y-Y’, and applying Kirchhoff’s law, we get,
+-10 I2 – (I2 – I1)10 = 0
+Or, -I2 = I2 – I1
+Or, -2I2 = -I1
+∴  \(\frac{I_2}{I_1} = \frac{1}{2}\) 
+ Hence h21 = 0.5 Ω.
+3. For the circuit given below, the value of the hybrid parameter h12 is ___________
+a) 6 Ω
+b) 5 Ω
+c) 1 Ω
+d) 2 Ω
+c
+Therefore short circuiting the terminal X-X’ we get,
+V1 = IA × 10
+IA = \(\frac{I_2}{2}\) 
+V2 = IB × 10
+IB = \(\frac{I_2}{2}\) 
+From the above 4 equations, we get,
+∴ \(\frac{V_1}{V_2} = \frac{I_2×10}{I_2×10}\) = 1
+Hence h12 = 1 Ω.
+4. For the circuit given below, the value of the hybrid parameter h22 is ___________
+a) 0.2 Ω
+b) 0.5 Ω
+c) 0.1 Ω
+d) 0.3 Ω
+a
+Therefore short circuiting the terminal X-X’ we get,
+V1 = IA × 10
+IA = \(\frac{I_2}{2}\) 
+V2 = IB × 10
+IB = \(\frac{I_2}{2}\) 
+From the above 4 equations, we get,
+∴ \(\frac{I_2}{V_2}  = \frac{I_2×2}{I_2×10}\) = 0.2
+Hence h22 = 0.2 Ω.
+5. In the circuit given below, the value of the hybrid parameter h11 is _________
+a) 10 Ω
+b) 7.5 Ω
+c) 5 Ω
+d) 2.5 Ω
+b
+Therefore short circuiting the terminal Y-Y’, we get,
+ V1 = I1 ((5 || 5) + 5)
+= I1 \(\left(\left(\frac{5×5}{5+5}\right)+5\right)\) 
+= 7.5I1
+∴ \(\frac{V_1}{I_1}\) = 7.5
+Hence h11 = 7.5 Ω.
+6. In the circuit given below, the value of the hybrid parameter h21 is _________
+a) 10 Ω
+b) 0.5 Ω
+c) 5 Ω
+d) 2.5 Ω
+b
+Therefore short circuiting the terminal Y-Y’, and applying Kirchhoff’s law, we get,
+-5 I2 – (I2 – I1)5 = 0
+Or, -I2 = I2 – I1
+Or, -2I2 = -I1
+∴  \(\frac{I_2}{I_1} = \frac{1}{2}\) 
+ Hence h21 = 0.5 Ω.
+7. For the circuit given below, the value of the hybrid parameter h12 is ___________
+a) 6 Ω
+b) 5 Ω
+c) 1 Ω
+d) 2 Ω
+c
+Therefore short circuiting the terminal X-X’ we get,
+V1 = IA × 5
+V2 = IA × 5
+From the above equations, we get,
+∴ \(\frac{V_1}{V_2} = \frac{I_A×10}{I_A×10}\) = 1
+Hence h12 = 1 Ω.
+8. For the circuit given below, the value of the hybrid parameter h22 is ___________
+a) 0.2 Ω
+b) 0.5 Ω
+c) 0.1 Ω
+d) 0.3 Ω
+a
+Therefore short circuiting the terminal X-X’ we get,
+V1 = IA × 5
+V2 = IA × 5
+IA = I2
+From the above equations, we get,
+∴ \(\frac{I_2}{V_2} = \frac{I_2}{I_2×5}\) = 0.2
+Hence h22 = 0.2 Ω.
+9. In two-port networks the parameter h11 is called _________
+a) Short circuit input impedance
+b) Short circuit current gain
+c) Open circuit reverse voltage gain
+d) Open circuit output admittance
+a
+Since the second output terminal is short circuited when the ratio of the two voltages is measured, therefore the parameter h11 is called as Short circuit input impedance.
+10. In two-port networks the parameter h21 is called _________
+a) Short circuit input impedance
+b) Short circuit current gain
+c) Open circuit reverse voltage gain
+d) Open circuit output admittance
+b
+Since the second output terminal is short circuited when the ratio of the two currents is measured, therefore the parameter h21 is called Short circuit current gain.
+11. In two-port networks the parameter h12 is called _________
+a) Short circuit input impedance
+b) Short circuit current gain
+c) Open circuit reverse voltage gain
+d) Open circuit output admittance
+c
+Since the current in the first loop is 0 when the ratio of the two voltages is measured, therefore the parameter h12 is called as Open circuit reverse voltage gain.
+12. In two-port networks the parameter h22 is called _________
+a) Short circuit input impedance
+b) Short circuit current gain
+c) Open circuit reverse voltage gain
+d) Open circuit output admittance
+d
+Since the current in the first loop is 0 when the ratio of the current and voltage in the second loop is measured, therefore the parameter h22 is called as Open circuit output admittance.
+13. For a T-network if the Short circuit admittance parameters are given as y11, y21, y12, y22, then y11 in terms of Hybrid parameters can be expressed as ________
+a) y11 = \(\left(- \frac{h_{21} h_{12}}{h_{11}} + h_{22}\right)\) 
+b) y11 = \(\frac{h_{21}}{h_{11}}\) 
+c) y11 = –\(\frac{h_{12}}{h_{11}}\) 
+d) y11 = \(\frac{1}{h_{11}} \) 
+d
+I1 = y11 V1 + y12 V2 ……… (1)
+I2 = y21 V1 + y22 V2 ………. (2)
+And the Hybrid parameters can be expressed in terms of voltages and currents as,
+V1 = h11 I1 + h12 V2 ………. (3)
+I2 = h21 I1 + h22 V2 ……….. (4)
+Now, (3) and (4) can be rewritten as,
+I1 = \(\frac{V_1}{h_{11}}  – \frac{h_{12} V_2}{h_{11}}\)  ………. (5)
+And I2 = \(\frac{h_{21} V_1}{h_{11}}  + \left(- \frac{h_{21} h_{12}}{h_{11}} + h_{22}\right) V_2\) ………. (6)
+∴ Comparing (1), (2) and (5), (6), we get,
+y11 = \(\frac{1}{h_{11}} \) 
+y12 = –\(\frac{h_{12}}{h_{11}}\) 
+y21 = \(\frac{h_{21}}{h_{11}}\) 
+y22 = \(\left(- \frac{h_{21} h_{12}}{h_{11}} + h_{22}\right)\).
+14. For a T-network if the Short circuit admittance parameters are given as y11, y21, y12, y22, then y12 in terms of Hybrid parameters can be expressed as ________
+a) y12 = \(\left(- \frac{h_{21} h_{12}}{h_{11}} + h_{22}\right)\) 
+b) y12 = \(\frac{h_{21}}{h_{11}}\) 
+c) y12 =  –\(\frac{h_{12}}{h_{11}}\) 
+d) y12 = \(\frac{1}{h_{11}} \) 
+c
+I1 = y11 V1 + y12 V2 ……… (1)
+I2 = y21 V1 + y22 V2 ………. (2)
+And the Hybrid parameters can be expressed in terms of voltages and currents as,
+V1 = h11 I1 + h12 V2 ………. (3)
+I2 = h21 I1 + h22 V2 ……….. (4)
+Now, (3) and (4) can be rewritten as,
+I1 = \(\frac{V_1}{h_{11}}  – \frac{h_{12} V_2}{h_{11}}\)  ………. (5)
+And I2 = \(\frac{h_{21} V_1}{h_{11}}  + \left(- \frac{h_{21} h_{12}}{h_{11}} + h_{22}\right) V_2\) ………. (6)
+∴ Comparing (1), (2) and (5), (6), we get,
+y11 = \(\frac{1}{h_{11}} \) 
+y12 = –\(\frac{h_{12}}{h_{11}}\) 
+y21 = \(\frac{h_{21}}{h_{11}}\) 
+y22 = \(\left(- \frac{h_{21} h_{12}}{h_{11}} + h_{22}\right)\).
+15. For a T-network if the Short circuit admittance parameters are given as y11, y21, y12, y22, then y22 in terms of Hybrid parameters can be expressed as ________
+a) y22 = \(\left(- \frac{h_{21} h_{12}}{h_{11}} + h_{22}\right)\) 
+b) y22 = \(\frac{h_{21}}{h_{11}}\) 
+c) y22 = –\(\frac{h_{12}}{h_{11}}\) 
+d) y22 = \(\frac{1}{h_{11}} \) 
+a
+I1 = y11 V1 + y12 V2 ……… (1)
+I2 = y21 V1 + y22 V2 ………. (2)
+And the Hybrid parameters can be expressed in terms of voltages and currents as,
+V1 = h11 I1 + h12 V2 ………. (3)
+I2 = h21 I1 + h22 V2 ……….. (4)
+Now, (3) and (4) can be rewritten as,
+I1 = \(\frac{V_1}{h_{11}}  – \frac{h_{12} V_2}{h_{11}}\)  ………. (5)
+And I2 = \(\frac{h_{21} V_1}{h_{11}}  + \left(- \frac{h_{21} h_{12}}{h_{11}} + h_{22}\right) V_2\) ………. (6)
+∴ Comparing (1), (2) and (5), (6), we get,
+y11 = \(\frac{1}{h_{11}} \) 
+y12 = –\(\frac{h_{12}}{h_{11}}\) 
+y21 = \(\frac{h_{21}}{h_{11}}\) 
+y22 = \(\left(- \frac{h_{21} h_{12}}{h_{11}} + h_{22}\right)\).
+Sanfoundry Global Education & Learning Series – Network Theory.
+To practice all areas of Network Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Theory Questions and Answers – Transmission(ABCD) Parameters» Next - Network Theory Questions and Answers – Inverse Hybrid (g) Parameter 

@@ -1,0 +1,73 @@
+1. Redirection is a process of switching of the standard stream of data.
+a) True
+b) False
+a
+2. How many files are used for representing different standard streams?
+a) 1
+b) 2
+c) 4
+d) 3
+d
+•    Standard Input
+•    Standard output
+•    Standard error
+3. Which stream is connected to the display?
+a) standard input
+b) standard output
+c) standard error
+d) error
+b
+4. Which stream is used for representing error messages?
+a) standard input
+b) standard output
+c) standard error
+d) error
+c
+5. The command wc < sample.txt will count data from the file sample.txt.
+a) True
+b) False
+a
+1. On seeing the <, the shell opens the disk file, sample.txt for reading.
+2. wc performs its execution and displays the output.
+Join [email protected]
+6. Which symbol is used for taking input from standard input?
+a) &
+b) %
+c) –
+d) $
+c
+// first take input from standard input and then foo
+$ cat  -  foo
+ 
+// first take input from foo then from standard input and after that from bar
+$ cat  foo  -  bar
+7. Which of the following symbol(s) can be used to redirect the output to a file or another program?
+a) |
+b) >
+c) >>
+d) |, > and >>
+d
+8. The >> symbol is used to overwrite the existing file if it exists.
+a) True
+b) False
+b
+//Do a word count program on sample.txt and append the output to newfile as shown below.
+$ wc  sample.txt >> newfile
+9. Which file descriptor is used to represent standard error stream?
+a) 0
+b) 1
+c) 2
+d) 3
+c
+10. We can redirect the error message to file named newfile using __________ command.
+a) cat  foo  errorfile
+b) cat  foo >errorfile
+c) cat errorfile>foo
+d) cat foo 2>errorfile
+d
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Pattern Matching, Escaping and Quoting – 2» Next - Unix  Questions and Answers – Redirection and Pipes – 2 

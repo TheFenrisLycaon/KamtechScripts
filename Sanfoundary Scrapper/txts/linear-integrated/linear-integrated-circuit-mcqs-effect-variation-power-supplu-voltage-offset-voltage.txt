@@ -1,0 +1,64 @@
+1. Which factor affects the power supply voltages in amplifier?
+a) Poor regulation and filtering
+b) Resistive network connected to amplifier
+c) Change in temperature
+d) All of the mentioned
+a
+2. Change in the input bias current does not affect?
+a) Input offset voltage
+b) Output offset voltage
+c) Input offset current
+d) Output offset current
+c
+3. A supply voltage rejection ratio of 15µv/v is given for an op-amp. Find its equivalent value in decibels
+a) 74db
+b) 77dB
+c) 76.48dB
+d) 76dB
+c
+= 20log(1/150µV/V) =20log(106/150) =20log(6666.67)= 76.48dB. 
+4. When does the op-amp perform better?
+a) Low value of SVRR in µV/V
+b) High value if SVRR in µV/V
+c) Low value of SVRR in dB
+d) High value of SVRR in dB
+a
+Join [email protected]
+5. Write the equation for change in the output offset voltage?
+a) △Voo = [-RF/R1)]× [△Vio/△V] ×△V
+b) △Voo = [1+(RF/R1)]× [△Vio/△V] ×△V
+c)  △Voo = [1+(RF/R1)]× [△Vio/△V].
+d) None of the mentioned
+b
+ △Voo =[1+(RF/R1)]× [△Vio/△V] × △V
+Where, △V = Change in supply voltage +Vcc & -Vee,
+△Vio/△V = Supply voltage rejection ratio (µV/V) and
+[1+(RF/R1)] = Gain of the differential amplifier. 
+6. A LM307 amplifier has SVRR of 92dB, express it in terms of microvolts per volts?
+a) 65µV/V
+b) 37.98µV/V
+c) 25.12µV/V
+d) 101.4µV/V
+c
+=> log(1/SVRR) = 92/20
+=> 1/SVRR= 104.6
+=> SVRR = 1/104.6 =25.12µV/V. 
+7. Which value remain the same regardless of whether it is  computed from the change in low dc supply or change in +Vcc or  -Vee ?
+a) △V
+b) △Vio
+c) △Voo
+d) None of the mentioned
+d
+8. Consider LM307 is initially nulled. Suppose, the op-amp has poor filter, 20mVrms then ac ripple is measured across the terminals. If Vin=0v, determine the change in output offset voltage caused by the change in supply voltage?
+a) 81µVrms
+b) 8.1µVrms
+c) 0.81µVrms
+d) 810µVrms
+b
+The change in output offset voltage, △Voo =[1+(RF/R1)]× [△Vio/△V] ×△V = [1+(950kΩ/1kΩ)] × (15.85µV/V) × 910mv= 8.1µVrms.
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Thermal Drift» Next - Linear Integrated Circuit Questions and Answers – Noise 

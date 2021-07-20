@@ -1,0 +1,87 @@
+1. Which of the following is true for the RC5 algorithm?
+i) Has variable number of rounds
+ii) Has fixed Key length
+iii) High memory Requirements
+iv) Uses only primitive computational operations commonly found on microprocessors
+a) i) and iv)
+b) i) ii) and iv)
+c) iv)
+d) i) ii) and iii)
+a
+2. What are the allowable values of word size in bit for RC5 algorithm?
+a) 16, 32
+b) 16, 32, 64
+c) 8, 16, 32
+d) 16, 32, 48
+b
+3. The number of rounds in RC5 can range from 0 to _____________
+a) 127
+b) 63
+c) 255
+d) 31
+c
+4. The standard/nominal version of the RC5-w/r/b has parameters w/r/b as
+a) 32/18/16
+b) 16/18/16
+c) 32/12/16
+d) 32/16/18
+c
+	-i.e. 32-bit words, so encrypts 64-bit data blocks
+	-using 12 rounds
+	-with 16 bytes (128-bit) secret key.
+5. The total number of subkeys t used in the RC5 algorithm is given by the formula (r corresponds to number of rounds)
+a) t=2r+4
+b) t=2r
+c) t=2r+2
+d) t=2r-2
+c
+6. RC5 uses 2 magic constants to define their subkeys. These are
+a) Base of natural Logarithm and Golden ratio
+b) Base of natural Logarithm and Pi
+c) Golden Ratio and  Pi
+d) Pi and Golden Ration
+a
+P_w=Odd[(e-2) 2w].
+Q_w=Odd[(φ-1) 2w].
+7. The value of the base of natural logarithms is
+a) e= 2.7073
+b) e= 2.7183
+c) e= 3.7183
+d) e= 1.7273
+b
+8. The value of the golden ratio is
+a) ᶲ =2.618
+b) ᶲ =1.622
+c) ᶲ =1.743
+d) ᶲ =1.618
+d
+9. In RC5, the initialization operations makes use of magic constants defined as follows:
+P_w=Odd[(e-2) 2w].
+Q_w=Odd[(φ-1) 2w].
+What is the hexadecimal value of Pw for word size of 16 bits?
+a) B7DF
+b) B7D4
+c) B7E1
+d) B6E2
+c
+10. In RC5, the initialization operations makes use of magic constants defined as follows:
+P_w=Odd[(e-2) 2w].
+Q_w=Odd[(φ-1) 2w].
+What is the hexadecimal value of Qw for word size of 32 bits?
+a) 9D3779B4
+b) 9D7779F9
+c) 9E36D9B2
+d) 9E3779B9
+d
+11. Calculate the number of subkeys required in RC5 for 18 rounds of computation.
+a) 40
+b) 38
+c) 36
+d) 34
+b
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Symmetric Ciphers Questions and Answers – Blowfish Algorithm – II» Next - Symmetric Ciphers Questions and Answers – RC4 and RC5 – II 

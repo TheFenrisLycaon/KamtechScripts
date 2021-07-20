@@ -1,0 +1,69 @@
+1. Name the exception thrown by read() on failure.
+a) InterruptedException
+b) SystemException
+c) SystemInputException
+d) I/O Exception
+d
+2. Which of these methods are used to read single character from the console?
+a) get()
+b) getline()
+c) read()
+d) readLine()
+c
+3. Which of these method used to read strings from the console?
+a) get()
+b) getline()
+c) read()
+d) readLine()
+d
+4. Which among the following methods are used to write characters to a string?
+a) StreamWriter
+b) StreamReader
+c) StringWriter
+d) None of the mentioned
+c
+5. Which method in Console enables to read individual inputs directly from the keyboard in a non line buffered manner?
+a) Read()
+b) ReadKey()
+c) ReadLine()
+d) All of the mentioned
+b
+Join [email protected]
+6. What is the output returned by Console if ReadLine() stores I/O error?
+a) 1
+b) 0
+c) False
+d) I/O EXCEPTION ERROR
+d
+7. What will be the output for following input from the console as a character?
+ static void Main(string[] args) {     Console.WriteLine("what is your name?");     char s;     s = Convert.ToChar(Console.ReadLine());     Console.WriteLine("how are you: "+s);     Console.Read(); }
+a) Compile time error
+b) Code run successfully prints nothing on console
+c) Code runs successfully prints input on console
+d) Run time error
+d
+8. Name the method/methods used to read byte streams from the file?
+a) ReadByte()
+b) Read
+c) Readkey()
+d) None of the mentioned
+a
+9. Which of these classes are used by Byte streams for input and output operation?
+a) InputStream
+b) InputOutputStream
+c) Reader
+d) All of the mentioned
+b
+10. Which of these method/methods are used to read block or array of bytes from the file?
+a) Read()
+b) ReadByte()
+c) ReadLine()
+d) Readkey()
+a
+              int Read(byte[ ] array, int offset, int count).
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Introduction of Console I/O Operations» Next - C# Questions & Answers – Writing Console Output Operations 

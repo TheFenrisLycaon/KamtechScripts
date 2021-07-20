@@ -1,0 +1,76 @@
+1. The union operation is represented by
+a) ∩
+b) U
+c) –
+d) *
+b
+2. The intersection operator is used to get the _____ tuples.
+a) Different
+b) Common
+c) All
+d) Repeating
+b
+3. The union operation automatically __________ unlike the select clause.
+a) Adds tuples
+b) Eliminates unique tuples
+c) Adds common tuples
+d) Eliminates duplicate
+d
+4. If we want to retain all duplicates, we must write ________ in place of union.
+a) Union all
+b) Union some
+c) Intersect all
+d) Intersect some
+a
+5.
+(SELECT course id
+FROM SECTION
+WHERE semester = ’Fall’ AND YEAR= 2009)
+EXCEPT
+(SELECT course id
+FROM SECTION
+WHERE semester = ’Spring’ AND YEAR= 2010);
+This query displays
+a) Only tuples from second part
+b) Only tuples from the first part which has the tuples from second part
+c) Tuples from both the parts
+d) Tuples from first part which do not have second part
+d
+6. For like predicate which of the following is true.
+i) % matches zero OF more characters.
+ii) _ matches exactly one CHARACTER.
+a) i-only
+b) ii-only
+c) i & ii
+d) None of the mentioned
+a
+7. The number of attributes in relation is called as its
+a) Cardinality
+b) Degree
+c) Tuples
+d) Entity
+b
+8. _____ clause is an additional filter that is applied to the result.
+a) Select
+b) Group-by
+c) Having
+d) Order by
+c
+9. _________ joins are SQL server default
+a) Outer
+b) Inner
+c) Equi
+d) None of the mentioned
+b
+10. The _____________ is essentially used to search for patterns in target string.
+a) Like Predicate
+b) Null Predicate
+c) In Predicate
+d) Out Predicate
+a
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Basic SQL Operations» Next - Database Questions and Answers – Null Values Operations 

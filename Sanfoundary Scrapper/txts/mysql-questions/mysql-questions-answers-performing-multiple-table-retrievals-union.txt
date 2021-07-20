@@ -1,0 +1,64 @@
+1. To combine multiple retrievals, we write several SELECT statements and put the keyword between them. What is the keyword?
+a) COMBINE
+b) CONCAT
+c) JOIN
+d) UNION
+d
+2. What is ‘xyz’ in the following SQL statement?
+SELECT xyz FROM table1 UNION xyz FROM table2;
+a) row name
+b) column name
+c) table name
+d) database name
+b
+3. The following SQL statement is invalid.
+SELECT abc, xyz FROM table1 UNION abc, def FROM table2;
+a) True
+b) False
+b
+4. Which keyword used with UNION does not retain duplicate rows?
+a) ALL
+b) NARROW
+c) STRICT
+d) DISTINCT
+d
+5. Which keyword used with UNION retains duplicate rows?
+a) ALL
+b) NARROW
+c) STRICT
+d) DISTINCT
+a
+6. The UNION ALL has a higher precedence than UNION DISTINCT.
+a) True
+b) False
+b
+7. Which clause is used to sort a UNION result as a whole?
+a) LIMIT
+b) ORDER BY
+c) GROUP BY
+d) SORT
+b
+8. Suppose it is desired that UNION operation should return not more than 3 rows. Which keyword is used for this?
+a) LIMIT
+b) RESTRICT
+c) COUNT
+d) SORT
+a
+9. Which table is used to run a UNION-type query on MyISAM tables?
+a) TRADITIONAL
+b) MERGE
+c) SERVELET
+d) UNITE
+b
+10. SELECT on a MERGE table is like _____________
+a) UNION ALL
+b) UNION
+c) UNION DISTINCT
+d) JOIN
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Performing Multiple – Table Retrievals with Subqueries» Next - MySQL Questions and Answers – Using Views 

@@ -1,0 +1,70 @@
+1. What is known as the set of SQL statements that either executes successfully or none of them have an effect?
+a) joins
+b) transactions
+c) filters
+d) deletions
+b
+2. What is generally done after the transactions are executed successfully?
+a) delete
+b) rollback
+c) commit
+d) update
+c
+3. What is generally done if an error occurs during the transaction?
+a) delete
+b) rollback
+c) commit
+d) update
+b
+4. What does ‘A’ stand for in the ACID property of transactions?
+a) Availability
+b) Accuracy
+c) Adjustability
+d) Atomicity
+d
+5. What does ‘C’ stand for in the ACID property of transactions?
+a) Compound
+b) Concrete
+c) Collision
+d) Consistency
+d
+Join Sanfoundry@YouTube
+5. What is the isolation property of transactions?
+a) statements form a logic unit
+b) database remains consistent
+c) one transaction does not affect the other
+d) transaction effects are recorded permanently
+c
+6. What is the command to disable autocommit and launch a transaction?
+a) INITIATE TRANSACTION
+b) START TRANSACTION
+c) DISABLE AUTOCOMMIT
+d) TRANSACTION
+b
+7. Transactional processing provides strong guarantees about the outcome of operations.
+a) True
+b) False
+a
+8. Transactional processing requires lesser overhead due to CPU cycles and memory.
+a) True
+b) False
+b
+9. What is the durability property of transactions?
+a) statements form a logic unit
+b) database remains consistent
+c) one transaction does not affect the other
+d) transaction effects are recorded permanently
+d
+10. How many storage engines among the following are transaction-safe?
+InnoDB, Falcon, MyISAM, MEMORY
+a) 1
+b) 2
+c) 3
+d) 4
+b
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Multiple – Table Deletes and Updates» Next - MySQL Questions and Answers – Foreign Keys and Referential Integrity 

@@ -1,0 +1,65 @@
+1. ____ system call is used for renaming a file, directory or symbolic link.
+a) renam
+b) rename
+c) ren
+d) change
+b
+2.  S_IFxxx macros are used for checking the file types.
+a) True
+b) False
+a
+3. Which of the following macro returns true if the file type is a directory?
+a) S_ISREG
+b) S_ISDIR
+c) S_ISCHR
+d) S_ISFIFO
+b
+4. For checking a file access rights, ___ system call is used.
+a) acc
+b) access
+c) axs
+d) filert
+b
+5. Which of the following is used with access call for checking the owner’s permissions?
+a) R_OK
+b) W_OK
+c) X_OK
+d) R_OK, W_OK, X_OK
+d
+R_OK    -    read permission OK
+W_OK    -    write permission OK
+X_OK    -     execution permission OK
+F_OK    -    file exists
+ 
+6. chmod and fchmod calls are used for changing file permissions.
+a) True
+b) False
+a
+7. Both the owner and group owner can be changed by ____ call.
+a) chown
+b) chgrp
+c) chuser
+d) ch
+a
+8. For changing the time stamps, _____ system call is invoked.
+a) atime
+b) utime
+c) mtime
+d) ch
+b
+9. System calls and library functions are same.
+a) True
+b) False
+b
+10. Which of the following system call uses file descriptor as an argument?
+a) read
+b) write
+c) close
+d) read, write, close
+d
+Sanfoundry Global Education & Learning Series – Unix.
+To practice basic questions and answers on all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – File handling System Calls – 1» Next - Unix  Questions and Answers – Process Control Basics 

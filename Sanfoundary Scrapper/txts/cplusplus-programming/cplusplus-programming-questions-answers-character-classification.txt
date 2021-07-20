@@ -1,0 +1,176 @@
+1. Which function is used to check whether a character is an alphabet?
+a) isalpha()
+b) isalnum()
+c) isdigit()
+d) isblank()
+a
+2. Which function is used to check whether a character is an alphabet or number?
+a) isalpha()
+b) isalnum()
+c) isdigit()
+d) isblank()
+b
+3. Which function is used to check whether a character is a number?
+a) isalpha()
+b) isalnum()
+c) isdigit()
+d) isblank()
+c
+4. Which function is used to check whether a character is a tab or space?
+a) isalpha()
+b) isalnum()
+c) isdigit()
+d) isblank()
+d
+5. Which function is used to check whether a character is tab or space or whitespace control code(\n,\r,etc.)?
+a) isspace()
+b) isalnum()
+c) iscntrl()
+d) isblank()
+a
+6. Which function is used to check whether a character is tab or a control code?
+a) isspace()
+b) isalnum()
+c) iscntrl()
+d) isblank()
+c
+7. Which function is used to check whether a character is printable on console?
+a) isxdigit()
+b) isprint()
+c) iscntrl()
+d) ispunct()
+b
+8. Which function is used to check whether a character is hexadecimal?
+a) isxdigit()
+b) isprint()
+c) iscntrl()
+d) ispunct()
+a
+9. Which function is used to check whether a character is punctuation mark?
+a) isxdigit()
+b) isprint()
+c) iscntrl()
+d) ispunct()
+d
+10. What will be the output of the following C++ code?
+#include <iostream>
+#include <cctype>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	char arr[12] = "Hello World";
+	for(int i=0;i<12;i++)
+        {
+		cout<<(bool)isalpha(arr[i]);
+	}
+}
+a) 111110111110
+b) 111111111110
+c) 111000111110
+d) 111110000000
+a
+11. What will be the output of the following C++ code?
+#include <iostream>
+#include <cctype>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	char arr[12] = "H3ll0 W0r1d";
+	for(int i=0;i<12;i++)
+        {
+		cout<<(bool)isalpha(arr[i]);
+	}
+	cout<<endl;
+	for(int i=0;i<12;i++)
+        {
+		cout<<(bool)isdigit(arr[i]);
+	}
+}
+a) 
+000000000000
+010010010100
+b) 
+101100100010
+010010010111
+c) 
+111111101010
+010010000000
+d) 
+101100101010
+010010010100
+d
+  
+12. What will be the output of the following C++ code?
+#include <iostream>
+#include <cctype>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	char arr[12] = "H3ll0\tW0r1d";
+	for(int i=0;i<12;i++)
+        {
+		cout<<(bool)isprint(arr[i]);
+	}
+}
+a) 111000111110
+b) 111111111110
+c) 111110111110
+d) 111110000000
+c
+13. What will be the output of the following C++ code?
+#include <iostream>
+#include <cctype>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	char arr[12] = "H3ll0\tW0r1d";
+	for(int i=0;i<12;i++)
+        {
+		cout<<(bool)iscntrl(arr[i]);
+	}
+}
+a) 111111111110
+b) 000001000001
+c) 111000111110
+d) 111110000000
+b
+14. What will be the output of the following C++ code?
+#include <iostream>
+#include <cctype>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	char arr[20] = "\'H3ll0\'";
+	for(int i=0;i<8;i++)
+        {
+		cout<<(bool)ispunct(arr[i]);
+	}
+}
+a) 10000010
+b) 111111111110
+c) 111000111110
+d) 111110000000
+a
+15. What will be the output of the following C++ code?
+#include <iostream>
+#include <cctype>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+	char arr[27] = "abcdefghijklmnopqrstuvwxyz";
+	for(int i=0;i<27;i++)
+        {
+		cout<<(bool)isxdigit(arr[i]);
+	}
+}
+a) 111001100011110000000111100
+b) 101010101010101001010101010
+c) 111111000000000000000000000
+d) 111111111000001111011110111
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Structures» Next - C++ Programming Questions and Answers – Operators 

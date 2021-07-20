@@ -1,0 +1,83 @@
+1. ____ section can be used if we’ve to print something before processing the first line.
+a) end
+b) begin
+c) start
+d) first
+b
+BEGIN 
+{ 
+   action 
+}
+2. ____ section can be used if we’ve to print something after processing the last line.
+a) end
+b) begin
+c) start
+d) first
+b
+END 
+{ 
+    action 
+}
+ 
+3. awk uses ____ for providing comments.
+a) %%
+b) //
+c) #
+d) $$
+c
+BEGIN 
+{
+    printf “\t\t employee data\n\n”
+}              # demonstration of BEGIN section - (this is a comment line)
+4. Which of the following is a built-in variable for awk?
+a) ps
+b) $0
+c) FS
+d) FN
+c
+5. FS defines the field separator.
+a) True
+b) False
+a
+BEGIN { FS= “|” }         // | is the delimiter now
+6. Which built variable is used for defining the field delimiter in the output?
+a) OFS
+b) FS
+c) NF
+d) ES
+a
+BEGIN { OFS= “~” }    // output fields will be separated with a tidle.
+7. The ____ variable stores the name of the file currently being processed.
+a) OFS
+b) FILENAME
+c) NF
+d) ES
+b
+8. Which of the following is not a built-in variable used by awk?
+a) ES
+b) FILENAME
+c) argv
+d) argc
+a
+9. awk supports the use of arrays.
+a) True
+b) False
+a
+10. Which of the following is not true about awk arrays?
+a) they are not expanded automatically
+b) they are initialized to zero or an empty string
+c) index can be a string also
+d) they are not formally defined
+a
+11. Which of the following is an associative array?
+a) a[ ]             
+b) arr[ ]            
+c) envr [ ]            
+d) ENVIRON[ ]            
+d
+Sanfoundry Global Education & Learning Series – Unix.
+To practice  all areas of Unix for online Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Various Operations using Awk Command – 1» Next - Unix  Questions and Answers – Various Operations using Awk Command – 3 

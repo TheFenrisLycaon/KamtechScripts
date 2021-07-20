@@ -1,0 +1,69 @@
+1. Which function is preferable to find the magnitude of a complex number?
+a) abs()
+b) sqrt()
+c) cart2pol()
+d) MATLAB does not support complex arguments
+a
+2. Which is an escape sequence constant?
+a) Esc
+b) /n
+c) \b
+d) nargout
+c
+3. All MATLAB computations are done in
+a) Single Precision
+b) Double Precision
+c) Linear accuracy
+d) Multi-level precision
+b
+4. Which symbol is used to initialise a variable?
+a) =
+b) ->
+c) ==
+d) init
+a
+5. Choose the correct option.
+a) any() shows all the elements in a matrix while all() shows every element of a vector
+b) any() is ‘true’ if elements in a vector is zero
+c) all() is ‘true’ if every element in a vector is non zero
+d) all() is ‘true’ if every element in a vector is 0
+c
+6. What operator helps in the transpose of a matrix?
+a) “ .’ ”
+b) “ ‘ ”
+c) “./ ”
+d) “ .\ ”
+a
+7. What is the difference between the expressions (9*1-8) & (9-1*8)?
+a) Computational difference
+b) Final results are different
+c) No difference
+d) Cannot be determined
+a
+8. What is the output of the expression
+(2*9*Inf)+(9-1*Inf)
+a) Inf
+b) Error
+c) Incomprehensible
+d) NaN
+d
+9.  The expression cos(90) is equal to1 in MATLAB.
+a) True
+b) False
+b
+10. Evaluate the expression:
+a=9/1*5/1;  b=a*a/a*a; c=sind(30)+1/2;  d=1-c; e=a+b*c-d
+a) 2045
+b) 2070
+c) Error since sind() is a wrong function
+d) 0
+b
+a=9*5=45  ;  b=a2/a*a=a*a=a2=2025  ;  c=1/2+1/2=1  ;  d=1-c=0  ;
+e=45+2025*1-0=45+2025-0=2070-0=2070.
+Output: 2070
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Errors in Input – 2» Next - MATLAB Questions and Answers – Solving Equations 

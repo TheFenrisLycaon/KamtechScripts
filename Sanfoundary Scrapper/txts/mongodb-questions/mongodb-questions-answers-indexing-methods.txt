@@ -1,0 +1,61 @@
+1. __________ query calculates distances using flat (planar) geometry.
+a) $center
+b) $centre
+c) $radii
+d) Sort
+a
+2. Point out the wrong statement.
+a) The query scans the index and not the collection
+b) If overall selectivity is high, and if MongoDB must read a number of documents to return results, then some queries may perform faster without indexes
+c) A better strategy, depending on your queries, would be to create a compound index that includes the high-selectivity field and another field
+d) None of the mentioned
+b
+3. _________ defines a circle for a geospatial query that uses spherical geometry.
+a) $center
+b) $centre
+c) $radii
+d) $centersphere
+d
+4. When used with the $box operator, _________ returns documents based on grid coordinates and does not query for GeoJSON shapes.
+a) $geoNear
+b) $geoWithin
+c) $geoRear
+d) All of the mentioned
+b
+5. Point out the correct statement.
+a) Applications can use $center without having a geospatial index
+b) Before 3.0, a geospatial index must exist on a field holding coordinates before using any of the geospatial query operators
+c) To use $centerSphere, specify an array that contains grid coordinates of the circle’s center point
+d) None of the mentioned
+a
+6. Applications can use _________ without having a geospatial index.
+a) $center
+b) $centre
+c) $radii
+d) $centersphere
+d
+7. _________ specifies a polygon for a geospatial $geoWithin query on legacy coordinate pairs.
+a) $rect
+b) $polygon
+c) $poly
+d) All of the mentioned
+b
+8. Only the ______ geospatial index supports the $polygon operator.
+a) 1dsphere
+b) 2d
+c) 3d
+d) None of the mentioned
+b
+9. ________ returns a document only once for a geospatial query even if the document matches the query multiple times.
+a) $uniqueDocs
+b) $unique
+c) $Docs
+d) All of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Indexing Strategies» Next - MongoDB Questions and Answers – Replication in MongoDB 

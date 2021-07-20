@@ -1,0 +1,277 @@
+1. Which of the following is used for generic programming?
+a) Virtual functions
+b) Modules
+c) Templates
+d) Abstract Classes
+c
+2. Which of the following is correct about templates?
+a) It is a type of compile time polymorphism
+b) It allows the programmer to write one code for all data types
+c) Helps in generic programming
+d) All of the mentioned
+d
+3. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std; 
+template <typename T>
+void fun(const T&x)
+{
+    static int count = 0;
+    cout << "x = " << x << " count = " << count;
+    ++count;
+    return;
+}
+ 
+int main()
+{
+    fun<int> (1); 
+    cout << endl;
+    fun<int>(1); 
+    cout << endl;
+    fun<double>(1.1);
+    cout << endl;
+    return 0;
+}
+a) 
+x = 1 count = 0
+x = 1 count = 1
+x = 1.1 count = 0
+b) 
+x = 1 count = 0
+x = 1.0 count = 1.0
+x = 1.1 count = 0
+c) 
+x = 1.0 count = 0.0
+x = 1 count = 1
+x = 1.1 count = 0
+d) 
+x = 1.0 count = 0.0
+x = 1.0 count = 1.0
+x = 1.1 count = 0.0
+a
+  
+4. What will be the output of the following C++ function?
+#include <iostream>
+using namespace std; 
+template <typename T>
+T max(T x, T y)
+{
+    return (x > y)? x : y;
+}
+int main()
+{
+    cout << max(3, 7) << std::endl;
+    cout << max(3.0, 7.0) << std::endl;
+    cout << max(3, 7.0) << std::endl;
+    return 0;
+}
+a) 
+7
+7.0
+7.0
+b) 
+7
+7
+7
+c) 
+7.0 
+7.0
+7.0
+d) Error
+d
+5. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std;
+template <class T>
+class Test
+{
+  private:
+    T val;
+  public:
+    static int count;
+    Test()  {   
+    	count++;   
+    }
+};
+template<class T>
+int Test<T>::count = 0;
+int main()
+{
+    Test<int> a;
+    Test<int> b;
+    Test<double> c;
+    cout << Test<int>::count << endl;
+    cout << Test<double>::count << endl;
+    return 0;
+}
+a) 
+2
+1
+b) 
+1
+2
+c) 
+1
+1
+d) 
+2
+2
+a
+  
+6. What will be the output of the following C++ code?
+#include<iostream>
+#include<stdlib.h>
+using namespace std; 
+template<class T, class U>
+class A  
+{
+    T x;
+    U y;
+};
+ 
+int main()  
+{
+   A<char, char> a;
+   A<int, int> b;
+   cout << sizeof(a) << endl;
+   cout << sizeof(b) << endl;
+   return 0;
+}
+a) 
+2
+8
+b) 
+8
+2
+c) 
+1
+4
+d) 
+4
+1
+a
+  
+7. What will be the output of the following C++ code?
+#include<iostream>
+#include<stdlib.h>
+using namespace std; 
+template<class T, class U, class V=double>
+class A  
+{
+    T x;
+    U y;
+    V z;
+};
+ 
+int main()
+{
+   A<int, int> a;
+   A<double, double> b;
+   cout << sizeof(a) << endl;
+   cout << sizeof(b) << endl;
+   return 0;
+}
+a) 
+16
+24
+b) 
+24
+16
+c) Error
+d) Segmentation fault
+a
+8. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std; 
+template <class T, int max>
+int arrMin(T arr[], int n)
+{
+   int m = max;
+   for (int i = 0; i < n; i++)
+      if (arr[i] < m)
+         m = arr[i];
+ 
+   return m;
+}
+ 
+int main()
+{
+   int arr1[]  = {10, 20, 15, 12};
+   int n1 = sizeof(arr1)/sizeof(arr1[0]);
+ 
+   char arr2[] = {1, 2, 3};
+   int n2 = sizeof(arr2)/sizeof(arr2[0]);
+ 
+   cout << arrMin<int, 10000>(arr1, n1) << endl;
+   cout << arrMin<char, 256>(arr2, n2);
+   return 0;
+}
+a) 
+10
+1
+b) 
+12
+2
+c) 
+10000
+256
+d) Error
+a
+9. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std; 
+template <class T>
+T max (T &a, T &b)
+{
+	cout << "Template Called ";
+    return (a > b)? a : b;
+}
+ 
+template <>
+int max <int> (int &a, int &b)
+{
+    cout << "Called ";
+    return (a > b)? a : b;
+}
+ 
+int main ()
+{
+    int a = 10, b = 20;
+    cout << max <int> (a, b);
+}
+a) Template Called 20
+b) Called 20
+c) Error
+d) Segmentation fault
+b
+10. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std;  
+template<int n> 
+struct funStruct
+{
+    static const int val = 2*funStruct<n-1>::val;
+};
+ 
+template<> 
+struct funStruct<0>
+{
+    static const int val = 1 ;
+};
+ 
+int main()
+{
+    cout << funStruct<10>::val << endl;
+    return 0;
+}
+a) 1
+b) 1024
+c) Error
+d) Segmentation fault
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Standard Template Library» Next - C++ Programming Questions and Answers – Error Handling 

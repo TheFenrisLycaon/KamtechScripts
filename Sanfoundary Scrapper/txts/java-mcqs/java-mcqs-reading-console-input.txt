@@ -1,0 +1,74 @@
+1. Which exception is thrown by read() method?
+a) IOException
+b) InterruptedException
+c) SystemException
+d) SystemInputException
+a
+2. Which of these is used to read a string from the input stream?
+a) get()
+b) getLine()
+c) read()
+d) readLine()
+c
+3. Which of these class is used to read characters and strings in Java from console?
+a) BufferedReader
+b) StringReader
+c) BufferedStreamReader
+d) InputStreamReader
+a
+4. Which of these class is implemented by FilterInputStream class?
+a) InputStream
+b) InputOutputStream
+c) BufferedInputStream
+d) SequenceInputStream
+a
+5. What will be the output of the following Java program if input given is “Hello stop World”?
+    class Input_Output     {        public static void main(String args[]) throws IOException        {	             string str;            BufferedReader obj = new BufferedReader(new InputStreamReader(System.in));            do            {                str = (char) obj.readLine();	        System.out.print(str);            } while(!str.equals("strong"));        }    }
+a) Hello
+b) Hello stop
+c) World
+d) Hello stop World
+d
+Output:
+$ javac Input_Output.java
+$ java Input_Output
+Hello stop World
+6. What will be the output of the following Java program?
+    class output    {        public static void main(String args[])        {              StringBuffer c = new StringBuffer("Hello");             StringBuffer c1 = new StringBuffer(" World");             c.append(c1);             System.out.println(c);        }    }
+a) Hello
+b) World
+c) Helloworld
+d) Hello World
+d
+Output:
+$ javac output.java
+$ java output
+Hello World
+7. What will be the output of the following Java program?
+    class output    {        public static void main(String args[])        {            StringBuffer s1 = new StringBuffer("Hello");           s1.setCharAt(1,x);           System.out.println(s1);        }    }
+a) xello
+b) xxxxx
+c) Hxllo
+d) Hexlo
+c
+Output:
+$ javac output.java
+$ java output
+Hxllo
+8. What will be the output of the following Java program if input given is “abc’def/’egh”?
+    class Input_Output    {        public static void main(String args[]) throws IOException        {	             char c;            BufferedReader obj = new BufferedReader(new InputStreamReader(System.in));            do            {                c = (char) obj.read();	        System.out.print(c);            } while(c != '\'');        }    }
+a) abc’
+b) abcdef/’
+c) abc’def/’egh
+d) abcqfghq
+a
+Output:
+$ javac Input_Output.java
+$ java Input_Output
+abc'
+Sanfoundry Global Education & Learning Series ? Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Input & Output Basics» Next - Java Questions & Answers – Writing Console Output 

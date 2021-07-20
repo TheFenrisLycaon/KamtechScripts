@@ -1,0 +1,80 @@
+1. test command can be used to check which of the following?
+a) Compare two numbers
+b) Compare two strings
+c) Check attributes of a file
+d) All of the mentioned
+d
+•    compares two numbers
+•    compare two strings or a single one for a null value
+•    check a file’s attributes 
+2. Which of the following operators is used with test for comparison of numeric values?
+a) -eq
+b) -ne
+c) -gg
+d) –eq and -ne
+d
+-eq    -    equal to
+-ne    -    not equal to
+ 
+3. We can use comparison operators without a ‘-‘.
+a) True
+b) False
+b
+Join Sanfoundry@YouTube
+4. ___ implies greater than and ____ implies less than.
+a) gt, le
+b) gt, lt
+c) ge,le
+d) ge,lt
+b
+gt implies greater than, lt implies less than, le implies less than or equal to, ge implies greater than or equal to.
+5. Which of the following operator is used as a shorthand for test?
+a) % %             
+b) [ ]             
+c) & &
+d) ( )
+b
+test $x  -eq  $y
+[ $x  -eq  $y ]
+ 
+6. It is essential to use whitespaces when we use [].
+a) True
+b) False
+a
+7. test and [ ] can be used for string comparison.
+a) True
+b) False
+a
+8. Which one of the following option is used for AND operation in test command?
+a) -o
+b) -a
+c) -e
+d) -an
+b
+If [ -n “$fname -a  -n “$lname” ]; then
+. . .
+9. Which one of the following option is used for OR operation in test command?
+a) -o
+b) -a
+c) -e
+d) -an
+a
+If [ -n “$fname -o  -n “$lname” ] ; then
+. . .
+ 
+10. Which one of the following option is used for checking that the string is not null?
+a) -a
+b) -o
+c) -z
+d) -n
+d
+If [ -n “$fname ] ;
+then
+echo “$fname”
+ 
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Logical Operators and Conditional Execution» Next - Unix  Questions and Answers – Using test and [ ] to Evaluate Expressions – 2 

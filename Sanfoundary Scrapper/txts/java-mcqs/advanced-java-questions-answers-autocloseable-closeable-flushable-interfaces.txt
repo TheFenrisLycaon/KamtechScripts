@@ -1,0 +1,66 @@
+1. Autocloseable was introduced in which Java version?
+a) java SE 7
+b) java SE 8
+c) java SE 6
+d) java SE 4
+a
+2. What is the alternative of using finally to close resource?
+a) catch block
+b) autocloseable interface to be implemented
+c) try block
+d) throw Exception
+b
+3. Which of the below is a child interface of Autocloseable?
+a) Closeable
+b) Close
+c) Auto
+d) Cloneable
+a
+4. It is a good practise to not throw which exception in close() method of autocloseable?
+a) IOException
+b) CustomException
+c) InterruptedException
+d) CloseException
+c
+5. What will be the output of the following Java code snippet?
+Join [email protected]
+try (InputStream is = ...) {    // do stuff with is...} catch (IOException e) {    // handle exception}
+a) Runtime Error
+b) IOException
+c) Compilation Error
+d) Runs successfully
+d
+6. What is the difference between AutoCloseable and Closeable?
+a) Closeable is an interface and AutoCloseable is a concrete class
+b) Closeable throws IOException; AutoCloseable throws Exception
+c) Closeable is a concept; AutoCloseable is an implementation
+d) Closeable throws Exception; AutoCloseable throws IOException
+b
+7. What is the use of Flushable interface?
+a) Flushes this stream by writing any buffered output to the underlying stream
+b) Flushes this stream and starts reading again
+c) Flushes this connection and closes it
+d) Flushes this stream and throws FlushException
+a
+8. Which version of java added Flushable interface?
+a) java SE 7
+b) java SE 8
+c) java SE 6
+d) java SE 5
+d
+9. Does close() implicitly flush() the stream.
+a) True
+b) False
+a
+10. AutoCloseable and Flushable are part of which package?
+a) Autocloseable java.lang; Flushable java.io
+b) Autocloseable java.io; Flushable java.lang
+c) Autocloseable and Flushable java.io
+d) Autocloseable and Flushable java.lang
+a
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Advanced Java Questions & Answers – Reflection API» Next - Advanced Java Questions & Answers – Application Lifecycle – Ant, Maven and Jenkins 

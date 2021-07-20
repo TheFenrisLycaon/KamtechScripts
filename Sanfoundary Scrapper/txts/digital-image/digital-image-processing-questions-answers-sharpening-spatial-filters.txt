@@ -1,0 +1,71 @@
+1. Which of the following is the primary objective of sharpening of an image?
+a) Blurring the image
+b) Highlight fine details in the image
+c) Increase the brightness of the image
+d) Decrease the brightness of the image
+b
+2. Image sharpening process is used in electronic printing.
+a) True
+b) False
+a
+3. In spatial domain, which of the following operation is done on the pixels in sharpening the image?
+a) Integration
+b) Average
+c) Median
+d) Differentiation
+d
+4. Image differentiation enhances the edges, discontinuities and deemphasizes the pixels with slow varying gray levels.
+a) True
+b) False
+a
+5. In which of the following cases, we wouldn’t worry about the behaviour of sharpening filter?
+a) Flat segments
+b) Step discontinuities
+c) Ramp discontinuities
+d) Slow varying gray values
+d
+6. Which of the following is the valid response when we apply a first derivative?
+a) Non-zero at flat segments
+b) Zero at the onset of gray level step
+c) Zero in flat segments
+d) Zero along ramps
+c
+7. Which of the following is not a valid response when we apply a second derivative?
+a) Zero response at onset of gray level step
+b) Nonzero response at onset of gray level step
+c) Zero response at flat segments
+d) Nonzero response along the ramps
+b
+8. If f(x,y) is an image function of two variables, then the first order derivative of a one dimensional function, f(x) is:
+a) f(x+1)-f(x)
+b) f(x)-f(x+1)
+c) f(x-1)-f(x+1)
+d) f(x)+f(x-1)
+a
+That is, ∂f/∂x=f(x+1)-f(x).
+9. Isolated point is also called as noise point.
+a) True
+b) False
+a
+10. What is the thickness of the edges produced by first order derivatives when compared to that of second order derivatives?
+a) Finer
+b) Equal
+c) Thicker
+d) Independent
+c
+11. First order derivative can enhance the fine detail in the image compared to that of second order derivative.
+a) True
+b) False
+b
+12. Which of the following derivatives produce a double response at step changes in gray level?
+a) First order derivative
+b) Third order derivative
+c) Second order derivative
+d) First and second order derivatives
+c
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions And Answers – Basic Intensity Transformation Functions» Next - Digital Image Processing Questions and Answers – Sharpening Spatial Filters-2 

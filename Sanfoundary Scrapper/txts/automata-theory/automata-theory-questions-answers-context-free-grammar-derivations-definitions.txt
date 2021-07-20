@@ -1,0 +1,68 @@
+1. The entity which generate Language is termed as:
+a) Automata
+b) Tokens
+c) Grammar
+d) Data
+c
+2.  Production Rule: aAb->agb belongs to which of the following category?
+a)  Regular Language
+b) Context free Language
+c) Context Sensitive Language
+d) Recursively Ennumerable Language
+c
+3. Which of the following statement is false?
+a) Context free language is the subset of context sensitive language
+b) Regular language is the subset of context sensitive language
+c) Recursively ennumerable language is the super set of regular language
+d) Context sensitive language is a subset of context free language
+d
+4. The Grammar can be defined as: G=(V, ∑, p, S)
+In the given definition, what does S represents?
+a) Accepting State
+b) Starting Variable
+c) Sensitive Grammar
+d) None of these
+b
+5. Which among the following cannot be accepted by  a regular grammar?
+a) L is a set of numbers divisible by 2
+b) L is a set of binary complement
+c) L is a set of string with odd number of 0
+d) L is a set of 0n1n
+d
+6. Which of the expression is appropriate?
+For production p: a->b where a∈V and b∈_______
+a) V
+b) S
+c) (V+∑)*
+d) V+ ∑
+c
+7. For S->0S1|e for ∑={0,1}*, which of the following is wrong for the language produced?
+a) Non regular language
+b) 0n1n | n>=0
+c) 0n1n | n>=1
+d) None of the mentioned
+d
+8. The minimum number of productions required to produce a language consisting of palindrome strings over   ∑={a,b} is
+a) 3
+b) 7
+c) 5
+d) 6
+c
+S-> aSa | bSb | e | a | b
+L={e, a, b, aba, abbbaabbba…..}
+9. Which of the following statement is correct?
+a) All Regular grammar are context free but not vice versa
+b) All context free grammar are regular grammar but not vice versa
+c) Regular grammar and context free grammar are the same entity
+d) None of the mentioned
+a
+10. Are ambiguous grammar context free?
+a) Yes
+b) No
+a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Testing Emptiness and Membership» Next - Automata Theory Questions and Answers –  The Language of a Grammar, Inferences and Ambiguity 

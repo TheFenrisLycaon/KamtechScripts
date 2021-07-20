@@ -1,0 +1,92 @@
+1. What is the #include Preprocessor Directive used for?
+a) For getting operating system information
+b) For performing read/write operations
+c) For importing header files or other codes into the existing code
+d) For compiling the written code
+c
+2. Check the validity of the two statements derived from the two lines of code supplied below.
+#include<file.h>
+#include “file.h”
+i. #include<file.h> makes the preprocessor check for file.h only in directories specified by the IDE/Compiler.
+ii. #include “file.h” makes the preprocessor check for file.h in the directory specified within the double quotes.
+iii. Both the lines of code are the same.
+a) Statements i, ii and iii are all false
+b) Only Statement iii is false
+c) Statements ii and iii are true
+d) Only statement i is true
+b
+Join Sanfoundry@YouTube
+3. What is the use of #define?
+a) To define macros
+b) To define pointer variables
+c) To define file names
+d) To create variables
+a
+4. What is the correct execution process of an Arduino code.
+a) Editor->Compiler->Preprocessor
+b) Editor->Preprocessor->Compiler
+c) Preprocessor->Editor->Compiler
+d) Compiler->Preprocessor->Editor
+b
+5. What would the following code output?
+#define X 10;
+void setup(){
+    X=0;
+    Serial.begin(9600);
+    Serial.print(X);
+}
+void loop(){
+    //Do nothing…
+}
+a) Error
+b) 0
+c) 0xa
+d) 0xAB
+a
+6. Give the output of the following code.
+#ifndef MULTIPLY
+#define MULTIPLY(A, B) A * B
+#endif
+void setup() {
+    Serial.begin(9600);
+    int result = MULTIPLY(2, 6);
+    Serial.print(result);
+}
+void loop(){
+    //Do nothing...
+}
+a) Error
+b) 12
+c) 1
+d) 13
+b
+7. What is the way of throwing an error using preprocessing directives to the Arduino Compiler and forcing it to stop compilation?
+a) #stop
+b) #cut
+c) #error
+d) #warning
+c
+8. What character does the preprocessor look out for whilst searching for commands in the code?
+a) x
+b) @
+c) #
+d) !
+c
+9. #warning and #error are two preprocessor directives and the job of #warning is to throw a message to the Arduino IDE. However, which of these preprocessor directives stops the compilation process?
+a) #error
+b) #warning
+c) #include
+d) #define
+a
+10. How many types of macros are there?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Programming – Language Used» Next - Arduino Questions and Answers – Compilation 

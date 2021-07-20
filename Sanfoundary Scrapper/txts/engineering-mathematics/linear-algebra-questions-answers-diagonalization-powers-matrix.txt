@@ -1,0 +1,266 @@
+1. Which of the following is not a necessary condition for a matrix, say A, to be diagonalizable?
+a) A must have n linearly independent eigen vectors
+b) All the eigen values of A must be distinct
+c) A can be an idempotent matrix
+d) A must have n linearly dependent eigen vectors
+d
+2. The geometric multiplicity of λ is its multiplicity as a root of the characteristic polynomial of A, where λ be the eigen value of A.
+a) True
+b) False
+b
+The algebraic multiplicity of λ is its multiplicity as a root of the characteristic polynomial of A.
+The geometric multiplicity of λ is the dimension of the λ-eigenspace.
+3. If A is diagonalizable then, ____________
+a) An = (PDP-1)n = PDnPn
+b) An = (PDP-1)n = PDnP1
+c) An = (PDP-1)n = PDnP-1
+d) An = (PDP-1)n = PDnP
+c
+P-1 AP = D
+A = PDP-1
+An = (PDP-1)n = PDnP-1
+4. The computation of power of a matrix becomes faster if it is diagonalizable.
+a) True
+b) False
+a
+The powers of a diagonalized matrix can be computed easily since the result is nothing but the powers of the diagonal elements obtained by diagonalization.
+Reducing quadratic forms to canonical forms by orthogonal transformations.
+In mechanics, it can be used to find the natural frequency of vibrations.
+5. Find the invertible matrix P, by using diagonalization method for the following matrix.
+A = \(\begin{bmatrix}
+2 & 0 & 0 \\
+1 & 2 & 1\\
+-1 & 0 & 1
+\end{bmatrix} \) 
+a) A = \(\begin{bmatrix}
+-1 & -1 & 0 \\
+1 & 0 & -1\\
+-1 & 1 & 1
+\end{bmatrix} \) 
+b) A = \(\begin{bmatrix}
+0 & -1 & 0 \\
+1 & 0 & -1 \\
+0 & 1 & 1
+\end{bmatrix} \) 
+c) A = \(\begin{bmatrix}
+0 & 0 & 0\\
+1 & 1 & -1\\
+-1 & 0 & 1
+\end{bmatrix} \) 
+d) A = \(\begin{bmatrix}
+1 & 0 & 0\\
+1 & 0 & -1\\
+-1 & 0 & 1
+\end{bmatrix} \) 
+b
+Step 1: Find the eigen values of the given matrix.
+A = \(\begin{bmatrix}
+2 & 0 & 0 \\
+1 & 2 & 1\\
+-1 & 0 & 1
+\end{bmatrix} \) 
+⎸A – λI ⎸ = 0
+\(\begin{vmatrix}
+2-λ & 0 & 0\\
+1 & 2-λ & 1\\
+-1 & 0 & 1-λ
+\end{vmatrix} \) = 0 ……………………… (i)
+(2-λ) ((2- λ) (1- λ)) = 0
+(2- λ)2 (1-λ) = 0
+λ = 2, 2, 1
+Step 2: Compute the eigen vectors
+Consider λ = 2,
+(A – λI) \(\vec{X} = \vec{0} \) 
+\(\begin{bmatrix}
+0 & 0 & 0\\
+1 & 0 & 1 \\
+-1 & 0 & -1
+\end{bmatrix}
+\vec{X} = \vec{0} \quad ^{\underrightarrow{Reducing \,further, \,we get,\,}}
+\begin{bmatrix}0 & 0 & 0 \\
+1 & 0 & 1 \\
+0 & 0 & 0\end{bmatrix}
+\vec{X}=\vec{0}
+\) 
+x2 is the free variable, hence, x2 = s
+Let x1 = -t, x3 = t, since x1+x3 = 0
+\(\vec{X} = s\begin{bmatrix}
+0 \\
+ 1 \\
+ 0
+\end{bmatrix} \)
+ + t\(\begin{bmatrix}
+-1\\
+0\\
+1
+\end{bmatrix} \) 
+\(\vec{X_1} = \begin{bmatrix}
+0\\
+1\\
+0
+\end{bmatrix} \)
+\(\vec{X_2} = \begin{bmatrix}
+-1\\
+0\\
+1\end{bmatrix} \) 
+Consider λ = 1
+(A – λI)\(\vec{X} = \vec{0} \) 
+\(\begin{bmatrix}
+1 & 0 & 0\\
+1 & 1 & 1 \\
+-1 & 0 & 0
+\end{bmatrix}
+\vec{X} = \vec{0} \quad ^{\underrightarrow{Reducing \,further, \,we get,\,}}
+\begin{bmatrix}1 & 0 & 0 \\
+0 & 1 & 1 \\
+0 & 0 & 0\end{bmatrix}
+\vec{X}=\vec{0}
+\) 
+x1 = 0, Let x2 = -s and x3 = s since x2+x3=0
+\(\vec{X}= s\begin{bmatrix}
+0\\
+-1\\
+1
+\end{bmatrix} \)  
+\(\vec{X_3} = \begin{bmatrix}
+0\\
+-1\\
+1
+\end{bmatrix} \)  
+Step 3: Formation of the invertible matrix.
+\(P = [\vec{X_1} \vec{X_2} \vec{X_3}]\)  
+P = \(\begin{bmatrix}
+0 & -1 & 0 \\
+1 & 0 & -1\\
+0 & 1 & 1
+\end{bmatrix} \)  
+6. Determine the algebraic and geometric multiplicity of the following matrix.
+\(\begin{bmatrix}
+2 & 4 & -4 \\
+0 & 4 & 2\\
+-2 & 4 & 4
+\end{bmatrix} \)  
+a) Algebraic multiplicity = 1, Geometric multiplicity = 2
+b) Algebraic multiplicity = 1, Geometric multiplicity = 3
+c) Algebraic multiplicity = 2, Geometric multiplicity = 2
+d) Algebraic multiplicity = 2, Geometric multiplicity = 1
+d
+⎸A – λI ⎸ = 0
+\(\begin{vmatrix}
+1-λ & 0 & 1\\
+3 & 3-λ & 0\\
+0 & 0 & 1-λ
+\end{vmatrix}\)= 0
+(1-λ) ((3-λ) (1-λ)) = 0
+(1-λ)2 (3-λ) = 0
+λ = 1, 1, 3 are the eigen values of the matrix. So, the algebraic multiplicity of λ = 1 is two.
+For λ = 3,
+(A – λI) \(\vec{X} = \vec{0} \) 
+\(\begin{bmatrix}
+-2 & 0 & 1 \\
+3 & 0 & 0 \\
+0 & 0 & -2
+\end{bmatrix}\vec{X} = \vec{0}\quad ^{\underrightarrow{Reducing \,further, \,we \,get,}}
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 0 & 1\\
+0 & 0 & 0
+\end{bmatrix}
+\vec{X} = \vec{0} \) 
+x1 = 0, x3 = 0
+x2 is the free variable, therefore let x2 = s,
+Hence, \(\vec{X_1}= s\begin{bmatrix}0 \\ 1\\ 0\end{bmatrix} ≈ \begin{bmatrix}0 \\ 1 \\0 \end{bmatrix} \) 
+For λ = 1,
+(A – λI) \(\vec{X} = \vec{0} \) 
+\(\begin{bmatrix}
+0 & 0 & 1 \\
+3 & 2 & 0 \\
+0 & 0 & 0
+\end{bmatrix} \vec{X} = \vec{0} \quad ^{\underrightarrow{Reducing \,further, \,we \,get,}}
+\begin{bmatrix}
+1 & 2/3 & 0\\
+0 & 0 & 1\\
+0 & 0 & 0
+\end{bmatrix} \vec{X} = \vec{0} \) 
+x1 + \(\frac{2}{3}\) x2 = 0, x3 = 0
+Let x1 = -2 and x3 = 3,
+\(\vec{X_2} = \begin{bmatrix}-2 \\ 3\\ 0 \end{bmatrix}\) 
+Thus, there corresponds only one eigen vector for the repeated eigen value λ=1. Thus, the geometric multiplicity of λ = 2 is one.
+7. Given P = \( \begin{bmatrix}2 & -1 \\ 5 & 1 \end{bmatrix} \, and\, D = \begin{bmatrix}6 & 0 \\ 0 & -1\end{bmatrix},\) find A3.
+a) \(\begin{bmatrix}
+61 & 62 \\ 156 & 154\end{bmatrix}\) 
+b) \(\begin{bmatrix}
+61 & 62 \\ 155 & 154 \end{bmatrix}\) 
+c) \(\begin{bmatrix}
+61 & 60 \\ 155 & 154 \end{bmatrix}\) 
+d) \(\begin{bmatrix}
+61 & 62\\ 155 & 150\end{bmatrix}\) 
+b
+A = PDP-1
+An = PDnP-1
+Given, P=  \(\begin{bmatrix}
+2 & -1\\
+5 & 1,\end{bmatrix} hence P^{-1} = \frac{1}{7}
+\begin{bmatrix}
+1 & 1\\
+-5 & 2\end{bmatrix}\) 
+Therefore, \(A^3 =  \frac{1}{7}  \begin{bmatrix}
+2 & -1\\
+5 & 1
+\end{bmatrix}
+\begin{bmatrix}
+6 & 0\\
+0 & -1 \end{bmatrix}^3
+ \begin{bmatrix}
+1 & 1\\
+-5 & 2 \end{bmatrix}\)…………………………. since n=3
+\(A^3 =  \frac{1}{7}
+\begin{bmatrix}2 & -1 \\ 5 & 1 \end{bmatrix}
+\begin{bmatrix}216 & 0 \\ 0 & -1 \end{bmatrix}
+\begin{bmatrix}1 & 1 \\ -5 & 2 \end{bmatrix}\) 
+\(A^3 =  \frac{1}{7}
+\begin{bmatrix} 2 & -1 \\ 5 & 1 \end{bmatrix}
+\begin{bmatrix} 216 & 216 \\ 5 & -2  \end{bmatrix}\) 
+\(A^3 =  \frac{1}{7}
+\begin{bmatrix}427 & 434\\ 1085 & 1078 \end{bmatrix}\) 
+\(A^3 = \begin{bmatrix} 61 & 62\\ 155 & 154 \end{bmatrix}\) 
+8. Find the trace of the matrix \(A = \begin{bmatrix}1 & 0 & 6\\
+0 & 5 & 0\\
+0 & 4 & 4 \end{bmatrix}.\) 
+a) 0
+b) 10
+c) 4
+d) 1
+b
+Therefore, trace = 1+5+4 = 9.
+9. The determinant of the matrix whose eigen values are 4, 2, 3 is given by, _______
+a) 9
+b) 24
+c) 5
+d) 3
+b
+Therefore, ∆ = 24.
+10. Which of the following relation is correct?
+a) A = AT
+b) A = -AT
+c) A = A2T
+d) A = AT/2
+a
+\(A = \begin{bmatrix} 1 & 0 \\ 2 & 3 \end{bmatrix}\) 
+⎸A – λI ⎸ = 0
+\( \begin{vmatrix} 1-λ & 0 \\ 2 & 3-λ \end{vmatrix} = 0\) 
+(1-λ) (3-λ) = 0
+3 – λ – 3λ +λ2 = 0
+λ2 – 4λ + 3 = 0
+(λ – 3) (λ – 1) = 0
+λ = 1, 3
+Consider \(A^T = \begin{bmatrix}1 & 2\\ 0 & 3 \end{bmatrix}\) 
+⎸A – λI ⎸ = 0
+\(\begin{bmatrix}1-λ & 2 \\ 0 & 3-λ \end{bmatrix} = 0\) 
+(1-λ) (3-λ) = 0, which is similar to the result obtained for A, hence the eigen values are same.
+Sanfoundry Global Education & Learning Series – Linear Algebra and Vector Calculus.
+To practice all areas of Linear Algebra and Vector Calculus, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Algebra Questions and Answers – Cayley Hamilton Theorem» Next - Linear Algebra Questions and Answers – Real Matrices: Symmetric, Skew-symmetric, Orthogonal Quadratic Form 

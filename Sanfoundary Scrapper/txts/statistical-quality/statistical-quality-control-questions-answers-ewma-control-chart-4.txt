@@ -1,0 +1,114 @@
+1. What is the initial S in EWMS stand for?
+a) Severity error
+b) Signal error
+c) Square error
+d) Simple error
+c
+2. Who were the first people to introduce the EWMA charts to monitor process standard deviation?
+a) McGregor and Harris
+b) Harris and Roberts
+c) Crowder and Roberts
+d) Harris and Roberts
+a
+3. What is the value of EWMS?
+a) \(S_i^2= λ(x_i-μ)^2-(1-λ) S_{i-1}^2\) 
+b) \(S_i^2= λ(x_i-μ)^2-(1+λ) S_{i-1}^2\) 
+c) \(S_i^2= λ(x_i-μ)^2+(1-λ) S_{i-1}^2\) 
+d) \(S_i^2= λ(x_i-μ)^2+(1+λ) S_{i-1}^2\) 
+c
+4. “Si2/σ2” has an approximate __________ distribution.
+a) Normal
+b) Lognormal
+c) Exponential
+d) Chi-square
+d
+5. EWRMS chart plots __________ on the control chart.
+a) Exponentially weighted root moving square error
+b) Exponentially weighted root mean square error
+c) Exponentially weighted root mean signal error
+d) Exponentially weighted root moving signal error
+b
+6. EWRMS charts have the upper limit of ____________
+a) UCL=\(σ_0 \sqrt{\frac{χ_{v,\frac{α}{2}}^2}{v}}\) 
+b) UCL=\(\frac{σ_0}{2} \sqrt{\frac{χ_{v,\frac{α}{2}}^2}{v}}\) 
+c) UCL=\(σ_0 \sqrt{\frac{χ_{v,\frac{α}{2}}^2}{2v}}\) 
+d) UCL=\(\sqrt{\frac{χ_{v,\frac{α}{2}}^2}{v}}\) 
+a
+UCL=\(σ_0 \sqrt{\frac{χ_{v,\frac{α}{2}}^2}{v}}\)
+7. What is the lower limit of the EWRMS chart?
+a) LCL=\(3σ_0 \sqrt{\frac{χ_{v,1-\frac{α}{2}}^2}{v}}\) 
+b) LCL=\(σ_0 \sqrt{\frac{χ_{v,1-\frac{α}{2}}^2}{2v}}\) 
+c) LCL=\(σ_0 \sqrt{\frac{χ_{v,1-\frac{α}{2}}^2}{v}}\) 
+d) LCL=\(\frac{σ_0}{2} \sqrt{\frac{χ_{v,1-\frac{α}{2}}^2}{v}}\) 
+c
+LCL=\(σ_0 \sqrt{\frac{χ_{v,1-\frac{α}{2}}^2}{v}}\)
+8. EWRMS chart is sensitive to _____________
+a) Process mean only
+b) Process standard deviation only
+c) Neither process mean nor standard deviation
+d) Both, process mean and standard deviation
+d
+9. EWMV is ____________
+a) Exponentially weighted mean variability
+b) Exponentially weighted moving variance
+c) Exponentially weighted mean variance
+d) Exponentially weighted moving variability
+b
+10. What is the value of EWMV?
+a) \(S_i^2=λ(x_i-z_i)^2- (1+λ) S_{i-1}^2\) 
+b) \(S_i^2=λ(x_i-z_i)^2± (1-λ) S_{i-1}^2\) 
+c) \(S_i^2=λ(x_i-z_i)^2- (1-λ) S_{i-1}^2\) 
+d) \(S_i^2=λ(x_i-z_i)^2+ (1-λ) S_{i-1}^2\) 
+d
+\(S_i^2=λ(x_i-z_i)^2+ (1-λ) S_{i-1}^2\)
+11. What is the upper limit for the EWMA for Poisson data?
+a) UCL=\(μ_0+A_U \sqrt{\frac{λμ_0}{2-λ}\big\{1-(1-λ)^{2i}\big\}}\) 
+b) UCL=\(μ_0-A_U \sqrt{\frac{λμ_0}{2-λ}\big\{1-(1-λ)^{2i}\big\}}\) 
+c) UCL=\(μ_0-A_L \sqrt{\frac{λμ_0}{2-λ}\big\{1-(1-λ)^{2i}\big\}}\) 
+d) UCL=\(μ_0+A_L \sqrt{\frac{λμ_0}{2-λ}\big\{1-(1-λ)^{2i}\big\}}\) 
+a
+UCL=\(μ_0+A_U \sqrt{\frac{λμ_0}{2-λ}\big\{1-(1-λ)^{2i}\big\}}\)
+12. LCL for EWMA chart for Poisson distribution is written as ____________
+a) LCL=\(μ_0-A_L \sqrt{\frac{λμ_0}{2-λ}\big\{1-(1+λ)^{2i}\big\}}\) 
+b) LCL=\(μ_0+A_L \sqrt{\frac{λμ_0}{2-λ}\big\{1-(1+λ)^{2i}\big\}}\) 
+c) LCL=\(μ_0+A_L \sqrt{\frac{λμ_0}{2-λ}\big\{1-(1-λ)^{2i}\big\}}\) 
+d) LCL=\(μ_0-A_L \sqrt{\frac{λμ_0}{2-λ}\big\{1-(1-λ)^{2i}\big\}}\) 
+d
+LCL=\(μ_0-A_L \sqrt{\frac{λμ_0}{2-λ}\big\{1-(1-λ)^{2i}\big\}}\)
+13. “AL” in the expression of the LCL of EWMA charts for Poisson distribution, is ______
+a) Lower control limit factor
+b) Lower allowance factor
+c) Life Allowance factor
+d) Last Allowance factor
+a
+14. EWMA recursion is different in the case of the EWMA charts for normal data and EWMA charts for Poisson data.
+a) True
+b) False
+b
+15. The Poisson EWMA has considerably better ability to detect assignable causes than Shewhart c-chart.
+a) True
+b) False
+a
+16. Which of these can be used as a forecast of where the process mean will be at the next time period?
+a) p-chart
+b) c-chart
+c) EWMA chart
+d) R-chart
+c
+17. The EWMA chart can be used as a basis for a dynamic process-control algorithm.
+a) True
+b) False
+a
+18. The moving average span w at a time I is defined as ____________
+a) \(M_i=\frac{x_i+x_{i-1}+⋯x_{w+1}}{w}\) 
+b) \(M_i=\frac{x_i+x_{i-1}+⋯x_{w+1}}{i}\) 
+c) \(M_i=\frac{x_i+x_{i-1}+⋯x_{i-w+1}}{w}\) 
+d) \(M_i=\frac{x_i+x_{i-1}+⋯x_{i-w+1}}{i}\) 
+c
+\(M_i=\frac{x_i+x_{i-1}+⋯x_{i-w+1}}{w}\)
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Time-Weighted – EWMA Control Chart – 3» Next - Statistical Quality Control Questions and Answers – Control Charting Techniques – Statistical Process Control for Short Production Runs – 1 

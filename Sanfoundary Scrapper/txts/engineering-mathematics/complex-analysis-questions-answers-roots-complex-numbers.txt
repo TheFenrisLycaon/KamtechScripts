@@ -1,0 +1,114 @@
+1. The nth roots of any number are in ____________
+a) arithmetic progression
+b) geometric progression
+c) harmonic progression
+d) no specific pattern
+b
+2. In the Argand Plane shown below, a,b,c,d are the 4-th roots of 16. Find the area of the closed Polygon having a,b,c,d as its vertices.
+a) 2 sq. units
+b) 4 sq. units
+c) 8 sq. units
+d) 16 sq. units
+c
+3. For k=1,2,…9, if we define zk=cos(3kπ/10)+isin(2kπ/10), then is it true that for each zk, there exists zj satisfying zk× zj=1?
+a) True
+b) False
+a
+⇒\(\overline{z_k}\) is also 10th root of unity. Taking zj as \(\overline{z_k}\), we have zk×zj=1.
+4. For k=1,2,…9, if we define zk=cos(3kπ/10)+isin(2kπ/10), then is it possible that z1×z=zk has no Solution z?
+a) True
+b) False
+b
+For k = 2; z=eiπ/5, therefore a solution always exists.
+5. Find the value of the expression (-1/2+i√3/2)637+(-1/2-i√3/2)337.
+a) -1
+b) 0
+c) 1
+d) i
+a
+Therefore, expression has the value ω637+ω337=ω+ω2=-1.
+6. Let a and b be complex cube roots of unity. If x=7a+2b and y=2a+7b, then evaluate xy.
+a) 9
+b) 39
+c) 45
+d) 53
+d
+Now, xy=(7a+2b)(2a+7b)=(7ω+2ω2)(2ω+7ω2)=14ω2+14ω+53=39 (since, 1+ω+ω2=0).
+7. For integral x,y,z, find the range of &vert;x+yω+zω2&vert; if it is not true that x=y=z.
+a) [1, ∞)
+b) [√3, ∞)
+c) (0, √3)
+d) (0, ∞)
+a
+Now, z=&vert;x+yω+zω2&vert;, hence, z2=&vert;x+yω+zω2&vert;2=(x2+y2+z2-xy-yz-zx)=1/2{(x-y)2+(y-z)2+(z-x)2}
+Now if x=y, then y≠z and x≠z (given that x,y,z are not all equal)⇒(y-z)2≥1, also (z-x)2≥1 and
+(x-y)2=0. Therefore, z2≥½(0+1+1)=1, hence &vert;z&vert;≥1.
+8. Find the value of (1+ω)(1+ω2)(1+ω4)(1+ω8)…to 2n factors.
+a) 1
+b) 2
+c) 3
+d) 4
+a
+                        = (-ω2)(-ω)(1+ω)(1+ω2) …up to 2n factors
+                        = 1×1×1×L up to n factors = 1.
+9. If α,β,ȣ are the roots of equation x3–3x2+3x+7=0 and ω is cube root of unity, then evaluate
+    (α-1)/(β-1)+(β-1)/(ȣ-1)+(ȣ-1)/(α-1).
+a) ω
+b) ω2
+c) 3ω
+d) 3ω2
+d
+⇒ α=-1, β=1-2ω, ȣ=1-2ω2. Therefore, required value=-2/(-2ω)+(-2ω)/(-2ω2)+(-2ω2)/(-2)
+= 1/ω+1/ω+1/ω=3/ω=3ω2.
+10. Find the possible value(s) of Re(i1/2)+&vert;Im(i1/2)&vert;.
+a) -1, 1
+b) 0, √2
+c) 0, 1
+d) 1, √2
+b
+Hence, Re(i1/2)+&vert;Im(i1/2)&vert;=1/√2+1/√2=√2 OR -1/√2+1/√2=0.
+11. Let ω and ω2 be the non-real cube roots of unity and 1/(a+ω)+1/(b+ω)+1/(c+ω)=2ω2 and 1/(a+ω2)+1/(b+ω2)+1/(c+ω2)=2ω, then calculate 1/(a+1)+1/(b+1)+1/(c+1).
+a) 1
+b) 2
+c) 3
+d) 4
+b
+1/(a+ω2)+1/(b+ω2)+1/(c+ω2)=2/ω2⇒ω and ω2 are roots of  1/(a+x)+1/(b+x)+1/(c+x)=2/x.
+⇒[3x2+2(a+b+c)x+bc+ca+ab]/[(a+x)(b+x)(c+x)]=2/x⇒x3+(bc+ca+ab)x-2abc=0.
+Let 3rd root be α (apart from ω and ω2). Then, α+ ω+ ω2=coefficient of x2=0⇒α=1. Hence, 1/(a+1)+1/(b+1)+1/(c+1)=2/1=2.
+12. Find the cube root of 8i lying in the first quadrant of the complex plane.
+a) i-√3
+b) 2i+√3
+c) i+2√3
+d) i+√3
+d
+⇒z/(-2i)=1 or ω or ω2⇒z=-2i or -2iω or -2iω2
+⇒z=-2i or i+√3 or i-√3 out of which i+√3 lies in the first quadrant.
+13. If ω is the complex cube root of unity, then which among the following is a factor of the polynomial x6+ 4x5+3x4+2x3+x+1?
+a) x+ω
+b) x+ω2
+c) (x+ω)(x+ω2)
+d) (x–ω)(x–ω2)
+d
+Since, ω2 is the complex conjugate of ω, therefore ω2 is also a root (roots occur in conjugate pairs). Therefore (x–ω)(x–ω2) is a root. Also, f(-ω)=(-ω)6+4(-ω)5+3(-ω)4+2(-ω)3+(-ω)+1=1-4ω2+3ω-2-ω+1≠0⇒-ω and hence -ω2 are not the roots.
+14. Find ∑r=1(ar+b) ωr-1 if ω is a complex nth root of unity.
+a) n(n+1)a/2
+b) nb/(1-n)
+c) na/(ω-1)
+d) n(n+1)a/(ω-1)
+c
+Let S=1+2ω+3ω2+…+nωn-1⇒Sω= ω+2ω2+…+(n-1)ωn-1+nωn⇒S(1-ω)=1+ω+ ω2+…+ωn-1–nωn=-n
+⇒S=n/(ω-1)⇒E=na/(ω-1).
+15. Which of the following is not equal to (-1)1/3?
+a) -1
+b) (-√3+i)/(2i)
+c) (√3+i)/(2i)
+d) (√3–i)/(2i)
+d
+Therefore, x=-1,- ω,- ω2=-1, (-√3+i)/(2i), (√3+i)/(2i).
+Sanfoundry Global Education & Learning Series – Complex Analysis.
+To practice all areas of Complex Analysis, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Complex Analysis Questions and Answers – Complex Conjugates» Next - Complex Analysis Questions and Answers – Regions in the Complex Plane 

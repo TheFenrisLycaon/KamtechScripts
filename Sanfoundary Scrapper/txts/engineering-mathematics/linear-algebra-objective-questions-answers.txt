@@ -1,0 +1,93 @@
+1. Find the directional derivative of φ = xy2 + yz3 at (1, -1, 1), towards the point (2, 1, -1).
+a) \( \frac{5}{3} \) 
+b) \( \frac{-5}{3} \) 
+c) \( \frac{7}{3} \) 
+d) \( \frac{1}{3} \) 
+a
+\(∇ φ = y^2 \hat{i} + (2xy+z^3)  \hat{j} + 3yz^3\hat{k} ̂\) 
+\([∇ φ]_{(1,-1,1)}  = \hat{i} – \hat{j} – 3\hat{k} ̂\) 
+Now \(a ̅ \) is along the line joining(1,-1,1) and (2,1,-1) 
+\(a ̅ =(2-1) \hat{i} + (1+1) \hat{j} + (-1-1) \hat{k} =  \hat{i} + 2\hat{j} – 2\hat{k} \) 
+\(a ̂ = \frac{(i ̂  +2 j ̂  -2\hat{k})}{\sqrt{(1+4+4)}}  = \frac{1}{3} (i ̂ +2 j ̂ -2\hat{k})\) 
+∴ Directional derivative = \(∇ φ. a ̂ = (i ̂ – j ̂ -3\hat{k}) . \frac{1}{3} (i ̂ +2 j ̂ -2\hat{k})\) 
+\(= \frac{1}{3} (1-2+6) = \frac{5}{3} .\) 
+2. The directional derivative of φ(x,y) at the point A(3,2) towards the point B(2,3). What is \(3\sqrt{2}\) and toward the point (1,0) is \(\sqrt{8}\). What is the directional derivative at the point A towards the point D.
+a) \(\frac{6}{5}\) 
+b) \(\frac{7}{\sqrt{5}} \) 
+c) \(\frac{6}{\sqrt{5}} \) 
+d) \(\frac{7}{5} \) 
+b
+Directional derivative of φ(x,y) toward \(\overrightarrow{AB}  \) is
+\(∇ φ . \widehat{(AB)} = (\hat{i} \frac{∂φ}{∂x}+ \hat{j}\frac{∂φ}{∂y}) .(\frac{- i ̂  + j ̂  }{\sqrt{2}}) = 3\sqrt{2}\) 
+\(– \frac{∂φ}{∂x} + \frac{∂φ}{∂y} = 6       …..(i) \) 
+Directional derivative at A(3,2) towards C(1,0) is
+\(∇ φ . \widehat{(AC)} = (i  ̂ \frac{∂φ}{∂x}+ j ̂ \frac{∂φ}{∂y}) . \frac{-2 i ̂-2j ̂ }{\sqrt{8}} = \sqrt{8} \) 
+\(– 2 \frac{∂φ}{∂x} -2 \frac{∂φ}{∂y} = 8  \,or\, \frac{∂φ}{∂x} + \frac{∂φ}{∂y} = 4   …..(ii) \) 
+From (i) & (ii),  \(∇ φ = -5\hat{i} + \hat{j} \) 
+Hence directional derivative at A(3,2) towards D(2,4) is 
+\(∇ φ . \widehat{AD} = (-5\hat{i} + \hat{j}) . \left(\frac{-5\hat{i} + \hat{j}}{\sqrt{5}}\right) = \frac{7}{\sqrt{5}}.\) 
+3. For the function f = x2y + 2y2x, at the point P(1,3), what is the direction in which the directional derivative is zero?
+a) \(-13\hat{i} – 24\hat{j} \) 
+b) \(13\hat{i} + 24 \hat{j} \) 
+c) \(±13\hat{i} ∓24\hat{j} \) 
+d) \(∓13\hat{i} ± 24\hat{j} \) 
+c
+\(Then ∇ f = \hat{i} \frac{∂f}{∂x} +\hat{j} \frac{∂f}{∂y} = \hat{i} (2xy+2y^2) + \hat{j}(x^2+4xy) \) 
+\(i.e.[∇ f]_{(1,3)} = 24\hat{i} + 13\hat{j} \) 
+\([∇ f]_{(1,3)} . (a_1\hat{i} +a_2\hat{j}) = 0 \) 
+\((a_1\hat{i} +a_2\hat{j}) . (a_1\hat{i} + a_2\hat{j}) = 0 \) 
+\(24a_1 + 13a_2 = 0          ∴ \frac{a1}{13}=\frac{(-a2)}{24} \) 
+∴ Direction are \(\overline{u1} = 13\hat{i} – 24\hat{j}, \overline{u2} = -13\hat{i} + 24\hat{j}. \) 
+4. The unit normal vector n ̂ of the cone of revolution z2 = 4(x2 + y2) at the Point P (1, 0, 2) is?
+a) \([±\frac{2}{\sqrt{5}}, 0, ∓\frac{1}{\sqrt{5}}] \) 
+b) \([\frac{2}{\sqrt{5}}, 0, \frac{1}{\sqrt{5}}] \) 
+c) \([-\frac{2}{\sqrt{5}}, 0, -\frac{1}{\sqrt{5}}] \) 
+d) \([∓\frac{2}{\sqrt{5}}, 0, ±\frac{1}{\sqrt{5}}] \) 
+a
+\(∴ ∇ f = 8x\hat{i} + 8y\hat{j} – 2z\hat{k} \) 
+or \( ∇ f_{(1,0,2)} = 8\hat{i} – 4\hat{k} \) 
+\(\hat{n} =  \frac{(8\hat{i} – 4\hat{k})}{\sqrt{(8)2+(-4)2}} \) 
+\( = \frac{(8\hat{i} – 4\hat{k})}{\sqrt{80}} \) 
+\( = \frac{(8\hat{i} – 4\hat{k})}{\sqrt{(16*5)}}  =  \frac{(2\hat{i}  – \hat{k})}{\sqrt{5}}   \, or  \,  \hat{n} = [\frac{2}{\sqrt{5}}, 0, \frac{-1}{\sqrt{5}}] \) 
+There are two possible unit vectors, if one is along direction then \(\hat{n} \) other will be along – \(\hat{n} \)
+\(∴ \hat{n} = [±\frac{2}{\sqrt{5}}, 0, ∓\frac{1}{\sqrt{5}}]. \) 
+5. For what value of a & b for which the two surfaces ax2 – byz = (a+2)x &  4x2y + z3 = 4 will be orthogonal to each other at the point (1,-1,2).
+a) \(a = 1 \, \& \,  b = \frac{3}{2} \) 
+b) \(a = \frac{-3}{2} \,  \& \,  b = 1 \) 
+c) \(a = \frac{3}{2}  \, \&  \, b = 1 \) 
+d) \(a = \frac{-3}{2}  \, \& \,  b = -1 \) 
+c
+\(∴ ∇ f_1 = [2ax – (a+2)]\hat{i} – (-bz)\hat{j} + (-bz)\hat{k} \) 
+also \( ∇ f_1|_{(1,-1,2)} = (a-2) \hat{i} + b\hat{j} + b\hat{k} \) 
+And \( ∇ f_2 = (8xy) \hat{i} + (4x^2)\hat{j} + (3z^2)\hat{k}, also \, ∇ f_2|_{(1,-1,2)}  = -8\hat{i} + 4\hat{j} + 12\hat{k} \) 
+Now, if the two surfaces cut each other orthogonally at point P(1,-1,2)
+then,
+\(∇ f_1 . ∇ f_2 = 0 \) 
+Or \( [(a-2)\hat{i} + b\hat{j} + b\hat{k}] . (-8\hat{i} + 4\hat{j} + 12\hat{k}) = 0
+= -2a + b = -4 …..(i) \) 
+Also if point P lies on both the curve hence it would also satisfy
+Both the curves, i.e substituting P(1,-1,2) in equation
+\(= ax^2-byz = (a+2) \) 
+\(= a+2b = a+2 ⇨ b=1 \) 
+From eqn (i) \(-2a+1 = -4 => 2a = 3 => a = \frac{3}{2}. \) 
+6. The temperature of a point in space is given by T = x2 + y2 – z. An insect located at a point (1, 1, 2) desire to fly in such a direction such that it will get warm as soon as possible. In what direction it should move?
+a) \(\frac{-2\hat{i}}{3}+\frac{2\hat{j}}{3}+\frac{-\hat{k}}{3} \) 
+b) \(\frac{2\hat{i}}{3}+\frac{-2\hat{j}}{3}+\frac{-\hat{k}}{3} \) 
+c) \(\frac{2\hat{i}}{3}+\frac{2\hat{j}}{3}+\frac{\hat{k}}{3} \) 
+d) \(\frac{2\hat{i}}{3}+\frac{2\hat{j}}{3}+\frac{-\hat{k}}{3} \) 
+d
+Surface in space. 
+ As \(T = x^2+y^2-z \) 
+\(∴ ∇ T = (\frac{∂}{∂x}\hat{i} + \frac{∂}{∂x}\hat{j} + \frac{∂}{∂x}\hat{k})(x^2+y^2-z) \) 
+\( = 2x\hat{i} + 2y\hat{j} – \hat{k} \) 
+Now \( ∇ T |_{(1,1,2)} = 2\hat{i} + 2\hat{j} – \hat{k} \) 
+∴ required direction\( = \frac{∇ T}{|∇ T|} \)
+\(=\frac{2\hat{i} + 2\hat{j} – \hat{k}}{\sqrt{(4+4+1)}} \) 
+\(= \frac{2\hat{i} +2\hat{j} – \hat{k}}{3} \) 
+\(= \frac{2\hat{i}}{3}+\frac{2\hat{j}}{3}+\frac{-\hat{k}}{3}. \) 
+Sanfoundry Global Education & Learning Series – Linear Algebra.
+To practice all objective questions on Linear Algebra, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Eigen Values and Eigen Vectors Questions and Answers – Transformation (Reduction) of Quadratic Form to Canonical Form» Next - Vector Calculus Questions and Answers – Gradient of a Function and Conservative Field 

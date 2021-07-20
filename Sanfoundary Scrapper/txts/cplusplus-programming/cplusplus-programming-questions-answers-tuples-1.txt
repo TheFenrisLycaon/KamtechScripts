@@ -1,0 +1,122 @@
+1. What are the tuples in C++?
+a) Objects that can hold more than one element of different types
+b) Objects that can hold a single element of complex type
+c) Objects that can hold more than one element of the same types
+d) Objects that can hold a single element of fundamental type
+a
+2. Which of the following is correct about tuples?
+a) A tuple can hold more than one element
+b) A tuple can hold elements having different types
+c) Elements of tuples are initialized in order
+d) All of the mentioned
+d
+3. Which header file is required to use tuples in your program?
+a) <stl>
+b) <array>
+c) <slgorithm>
+d) <tuple>
+d
+4. Which of the following is the correct way of declaring a tuple?
+a) tuple tp<type1, type2, type3>;
+b) tuple tp = new tuple<type1, type2, type3>;
+c) tuple <type1, type2, type3> tp;
+d) Tuple <type1, type2, type3> tp;
+c
+5. Which of the following function is used to initialize a tuple?
+a) make()
+b) make_pair()
+c) make_tuple()
+d) make_Tuple()
+c
+Join [email protected]
+6. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <tuple>
+using namespace std;
+int main()
+{
+	tuple <int, char, string> tp = {"Hello", 1, 's'};
+	return 0;
+}
+a) Nothing is printed
+b) Compile-time error
+c) Run-time error
+d) Exception occurs
+b
+7. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <tuple>
+using namespace std;
+int main()
+{
+	tuple <int, char, string> tp;
+	tp = make_tuple(4, '1', "Hello");
+	return 0;
+}
+a) Nothing is printed
+b) Compile-time error
+c) Run-time error
+d) Exception occurs
+a
+8. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <tuple>
+using namespace std;
+int main()
+{
+	tuple <int, char, string> tp;
+	tp = make_tuple("Hello", 4, 'c');
+	return 0;
+}
+a) Nothing is printed
+b) Compile-time error
+c) Run-time error
+d) Exception occurs
+b
+9. What is the use of get() function in tuples?
+a) To access an element of a tuple
+b) To print an element of a tuple
+c) To check whether the element of the tuple is empty
+d) To delete an element
+a
+10. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <tuple>
+using namespace std;
+int main()
+{
+	tuple <int, char, string> tp;
+	tp = make_tuple(4, '1', "Hello");
+	cout<<get<0>(tp)<<endl;
+	cout<<get<1>(tp)<<endl;
+	cout<<get<2>(tp)<<endl;
+	return 0;
+}
+a) 
+1
+Hello
+4
+b) 
+4
+Hello
+1
+c) 
+Hello
+4
+1
+d) 
+4
+1
+Hello
+d
+  
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Array Type Manipulation» Next - C++ Programming Questions and Answers – Tuples – 2 

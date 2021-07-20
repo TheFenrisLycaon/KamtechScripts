@@ -1,0 +1,244 @@
+1. What is the role of a constructor in classes?
+a) To modify the data whenever required
+b) To destroy an object
+c) To initialize the data members of an object when it is created
+d) To call private functions from the outer world
+c
+2. Why constructors are efficient instead of a function init() defined by the user to initialize the data members of an object?
+a) Because user may forget to call init() using that object leading segmentation fault
+b) Because user may call init() more than once which leads to overwriting values
+c) Because user may forget to define init() function
+d) All of the mentioned
+d
+3. What is a copy constructor?
+a) A constructor that allows a user to move data from one object to another
+b) A constructor to initialize an object with the values of another object
+c) A constructor to check the whether to objects are equal or not
+d) A constructor to kill other copies of a given object.
+b
+4. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A{
+	int a;
+public:
+	A(int i){
+		a = i;
+	}
+	void assign(int i){
+		a = i;
+	}
+	int return_value(){
+		return a;
+	}
+};
+int main(int argc, char const *argv[])
+{
+	A obj;
+	obj.assign(5);
+	cout<<obj.return_value();
+}
+a) 5
+b) 55
+c) Error
+d) Segmentation Fault
+c
+5. What will be the output of the following C++ code?
+Join [email protected]
+#include <iostream>
+#include <string>
+using namespace std;
+class A{
+	int a;
+	A(){
+		a = 5;
+	}
+ 
+public:
+	void assign(int i){
+		a = i;
+	}
+	int return_value(){
+		return a;
+	}
+};
+int main(int argc, char const *argv[])
+{
+	A obj;
+	obj.assign(10);
+	cout<<obj.return_value();
+}
+a) 5
+b) 10
+c) Error
+d) Segmentation fault
+c
+6. In the following C++ code how many times the string “A’s constructor called” will be printed?
+#include <iostream>
+#include <string>
+using namespace std;
+class A{
+	int a;
+public:
+	A(){
+		cout<<"A's constructor called";
+	}
+};
+class B{
+	static A a;
+public:
+	B(){
+		cout<<"B's constructor called";
+	}
+	static A get(){
+		return a;
+	}
+};
+A B::a;
+int main(int argc, char const *argv[])
+{
+	B b;
+	A a1 = b.get();
+	A a2 = b.get();
+	A a3 = b.get();
+}
+a) 3
+b) 4
+c) 2
+d) 1
+d
+7. What happens if a user forgets to define a constructor inside a class?
+a) Error occurs
+b) Segmentation fault
+c) Objects are not created properly
+d) Compiler provides a default constructor to avoid faults/errors
+d
+8. How many parameters does a default constructor require?
+a) 1
+b) 2
+c) 0
+d) 3
+c
+9. How constructors are different from other member functions of the class?
+a) Constructor has the same name as the class itself
+b) Constructors do not return anything
+c) Constructors are automatically called when an object is created
+d) All of the mentioned
+d
+10. How many types of constructors are there in C++?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+11. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A{
+	mutable int a;
+public:
+	A(){
+		cout<<"Default constructor called\n";
+	}
+	A(const A& a){
+		cout<<"Copy Constructor called\n";
+	}
+};
+int main(int argc, char const *argv[])
+{
+	A obj;
+	A a1 = obj;
+	A a2(obj);
+}
+a)
+Default constructor called
+Copy Constructor called
+b) 
+Default constructor called
+Copy Constructor called
+Copy Constructor called
+c) 
+Default constructor called
+Default constructor called
+Copy Constructor called
+d) 
+Copy Constructor called
+Default constructor called
+Copy Constructor called
+b
+  
+12. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A{
+	mutable int a;
+public:
+	A(){
+		cout<<"A's default constructor called\n";
+	}
+	A(const A& a){
+		cout<<"A's copy Constructor called\n";
+	}
+};
+class B{
+	A obj;
+public:
+	B(){
+		cout<<"B's Constructor called\n";
+	}
+};
+int main(int argc, char const *argv[])
+{
+	B b1;
+	B b2;
+}
+a)
+B's Constructor called
+B's Constructor called
+b) 
+B's Constructor called
+A's default constructor called
+B's Constructor called
+A's default constructor called
+c)
+A's default constructor called
+B's Constructor called
+A's default constructor called
+B's Constructor called
+d) 
+A's default constructor called
+B's Constructor called
+A's copy Constructor called
+c
+  
+13. What is the role of destructors in Classes?
+a) To modify the data whenever required
+b) To destroy an object when the lifetime of an object ends
+c) To initialize the data members of an object when it is created
+d) To call private functions from the outer world
+b
+14. What is syntax of defining a destructor of class A?
+a) A(){}
+b) ~A(){}
+c) A::A(){}
+d) ~A(){};
+b
+15. When destructors are called?
+a) When a program ends
+b) When a function ends
+c) When a delete operator is used
+d) All of the mentioned
+d
+i) at the end of the program to destroy objects declared in the main() or global scope.
+ii) at the end of a function to destroy objects declared at that function scope.
+iii) when user by himself tries to delete an object using the delete operator.
+iv) at the end of a block to destroy objects declared at that block scope.
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – String – 2» Next - C++ Programming Questions and Answers – Constructors and Destructors – 2 

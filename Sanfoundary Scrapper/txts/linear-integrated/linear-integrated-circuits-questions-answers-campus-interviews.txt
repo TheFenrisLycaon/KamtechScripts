@@ -1,0 +1,63 @@
+1. What happens if R1>>RF in the circuit
+a) Some amount of output offset voltage is present
+b) Some amount of input offset voltage is present
+c) Some amount of gain voltage is present
+d) All of the mentioned
+a
+2. Determine the voltage gain for the circuit.
+a) 1.1
+b) 1.6
+c) 1.2
+d) 2.2
+d
+3. Where does the compensating network connected in an inverting amplifier.
+a) Non-inverting input terminal
+b) Inverting input terminal
+c) Between non-inverting and output terminal
+d) Between inverting and output terminal
+a
+4. Why closed loop differential amplifiers are difficult to null?
+a) Due to compensating network
+b) Due to feedback loop
+c) Due to input offset voltage
+d) None of the mentioned
+a
+5. How to achieve maximum CMRR in the given circuit?
+a) R1 = RF
+b) RF = R3|| RC+ RB and R1= R2
+c) R1= R2 and RF= R3+ RC
+d) None of the mentioned
+c
+6. What is the advantage of compensated differential amplifier?
+a) All of the mentioned
+b) Slightly complex circuit
+c) Does not affect CMRR
+d) Balanced op-amp
+d
+7. The offset voltage in the voltage follower is balanced using
+a) Voltage drop across the load resistor
+b) Voltage drop across feedback resistor
+c) Compensating network connected to inverting input terminal
+d) Compensating network connected to non- inverting input terminal
+b
+8. Find the maximum possible output offset voltage, which is caused by the input offset voltage Vio=15mv?
+a) 0.075v
+b) 0.75v
+c) 0.75v
+d) 7.5v
+a
+Voo=5*15mv = 75mv.
+9. Compute the output voltage for voltage follower with offset voltage compensating network?
+a) 3.6v
+b) 10.8v
+c) 26v
+d) 33v
+b
+Rmax=Ra/4 = 20kΩ/4 = 5kΩ.
+Vo=[1+(39kΩ/(10kΩ+5kΩ))]*3v = 10.8v.
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuit for Campus Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Input Offset Voltage – 2» Next - Linear Integrated Circuit Questions and Answers – Input Bias Current 

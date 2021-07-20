@@ -1,0 +1,66 @@
+1. The header file setjmp.h is used to __________
+a) set location specific information
+b) control low-level calls and returns to and from functions
+c) handle signals reported during a program’s execution
+d) manipulate strings (character arrays)
+b
+2. The void longjmp( jmp-buf env, int val) function causes setjmp() macro to return _______ value; if val is 0.
+a) zero
+b) one
+c) null
+d) no return
+b
+3. Which is the true statement with respect to the function longjmp()?
+a) the function where setjmp() was called has terminated, then the results are undefined
+b) the function where setjmp() was called has terminated, then the results are defined
+c) the function where jmp_buf was called has terminated, then the results are undefined
+d) the function where jmp_buf was called has terminated, then the results are defined
+a
+4. Which of the given statement is not true with respect to void longjmp( jmp-buf env, int val)?
+a) The variable value cannot be zero
+b) env is the object containing information to restore the environment at the jmp_buf’s calling point
+c) This function does not return any value
+d) This function restores the environment saved by the most recent call to setjmp() macro
+b
+5. What is the function of the given longjump(jmp_buf buf, i)?
+a) go back to place buf is pointing to and return i
+b) go back to place buf is pointing to and return 0
+c) uses buf to remember current position and returns 0
+d) uses buf to remember current position and returns i
+a
+6. How many times does the function longjmp() returns?
+a) once
+b) twice
+c) thrice
+d) never
+d
+7. A less common use of setjmp.h is to create syntax similar to ____________
+a) errno
+b) variable arguments
+c) coroutines
+d) retval
+c
+8. What will the following C statement do?
+#include < setjmp.h >
+int setjmp(jmp_buf env);
+a) save the current state of the registers into env
+b) resets the registers to the values saved in env
+c) provides a definition for env structure
+d) accept variable(env) argument lists to be written
+a
+9. What are the contents of the register?
+a) sp, fp only
+b) sp only
+c) fp, pc only
+d) sp, fp, pc
+d
+10. setjmp takes a jmp_buf type and different other type variables as input.
+a) true
+b) false
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Non-Local Jumps – 1» Next - C Questions and Answers – Signal Handling 

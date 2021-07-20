@@ -1,0 +1,62 @@
+1. Which of these is a stored program associated with a schedule?
+a) Trigger
+b) Event
+c) Stored function
+d) Stored procedure
+b
+2. The event scheduler does not run by default.
+a) True
+b) False
+a
+3. Which of the following lines is used to turn on the event scheduler?
+a) event_scheduler = ON
+b) eventscheduler = ON
+c) event_scheduler_ON
+d) events_scheduler_ON
+a
+4. Which statement is used to check the status of the event scheduler at runtime?
+a) SHOW STATUS OF ‘event_scheduler’
+b) SHOW VARIABLES OF ‘event_scheduler’
+c) SHOW STATUS LIKE ‘event_scheduler’
+d) SHOW VARIABLES LIKE ‘event_scheduler’
+d
+5. Which value of event_scheduler enables checking status but not changing it at runtime?
+a) ON
+b) OFF
+c) DISABLED
+d) ENABLED
+c
+6. If the scheduler is stopped, no events run.
+a) True
+b) False
+a
+7. Which log does the event scheduler log to?
+a) error
+b) record
+c) library
+d) update
+a
+8. Which clause specifies periodic execution at fixed intervals?
+a) EVERY
+b) ALL
+c) AT
+d) ALTERNATE
+a
+9. To create or drop events for a database, which privilege should be granted?
+a) CREATE
+b) DROP
+c) PRIVILEGE
+d) EVENT
+d
+10. The default definer of an event is the user who _______________
+a) created the database
+b) created the event
+c) created the table
+d) created the column
+b
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Triggers» Next - MySQL Questions and Answers – Security for Stored Programs and Views 

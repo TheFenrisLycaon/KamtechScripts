@@ -1,0 +1,105 @@
+1. When dealing with multiple devices interrupts, which mechanism is easy to implement?
+a) Polling method
+b) Vectored interrupts
+c) Interrupt nesting
+d) None of the mentioned
+a
+2. The interrupt servicing mechanism in which the requesting device identifies itself to the processor to be serviced is ___________
+a) Polling
+b) Vectored interrupts
+c) Interrupt nesting
+d) Simultaneous requesting
+b
+3. In vectored interrupts, how does the device identify itself to the processor?
+a) By sending its device id
+b) By sending the machine code for the interrupt service routine
+c) By sending the starting address of the service routine
+d) None of the mentioned
+c
+4. The code sent by the device in vectored interrupt is _____ long.
+a) upto 16 bits
+b) upto 32 bits
+c) upto 24 bits
+d) 4-8 bits
+d
+5. The starting address sent by the device in vectored interrupt is called as __________
+a) Location id
+b) Interrupt vector
+c) Service location
+d) Service id
+b
+6. The processor indicates to the devices that it is ready to receive interrupts ________
+a) By enabling the interrupt request line
+b) By enabling the IRQ bits
+c) By activating the interrupt acknowledge line
+d) None of the mentioned
+c
+7. We describe a protocol of input device communication below:
+i) Each device has a distinct address.
+ii) The BUS controller scans each device in a sequence of increasing address value to determine if the entity wishes to communicate
+iii) The device ready to communicate leaves its data in the I/O register
+iv) The data is picked up and the controller moves to the step a
+Identify the form of communication best describes the I/O mode amongst the following.
+a) Programmed mode of data transfer
+b) DMA
+c) Interrupt mode
+d) Polling
+d
+8. Which one of the following is true with regard to a CPU having a single interrupt request line and single interrupt grant line?
+i) Neither vectored nor multiple interrupting devices is possible.
+ii) Vectored interrupts is not possible but multiple interrupting devices is possible.
+iii) Vectored interrupts is possible and multiple interrupting devices is not possible.
+iv) Both vectored and multiple interrupting devices are possible.
+a) iii
+b) i, iv
+c) ii, iii
+d) iii, iv
+a
+9. Which table handle stores the addresses of the interrupt handling sub-routines?
+a) Interrupt-vector table
+b) Vector table
+c) Symbol link table
+d) None of the mentioned
+a
+10. _________ method is used to establish priority by serially connecting all devices that request an interrupt.
+a) Vectored-interrupting
+b) Daisy chain
+c) Priority
+d) Polling
+b
+11. In daisy chaining device 0 will pass the signal only if it has _______
+a) Interrupt request
+b) No interrupt request
+c) Both No interrupt and Interrupt request
+d) None of the mentioned
+b
+12. ______ interrupt method uses register whose bits are set separately by interrupt signal for each device.
+a) Parallel priority interrupt
+b) Serial priority interrupt
+c) Daisy chaining
+d) None of the mentioned
+a
+13. ______________ register is used for the purpose of controlling the status of each interrupt request in parallel priority interrupt.
+a) Mass
+b) Mark
+c) Make
+d) Mask
+d
+14. The added output of the bits of the interrupt register and the mask register is set as an input of ______________
+a) Priority decoder
+b) Priority encoder
+c) Process id encoder
+d) Multiplexer
+b
+15. Interrupts initiated by an instruction is called as _______
+a) Internal
+b) External
+c) Hardware
+d) Software
+b
+Sanfoundry Global Education & Learning Series – Computer Organization and Architecture.
+To practice basic questions and answers on all areas of Computer Organization, here is complete set on 1000+ Multiple Choice Questions and Answers on Computer Organization and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Organization Questions and Answers – Interrupts – 1» Next - Computer Organization Questions and Answers – Exceptions 

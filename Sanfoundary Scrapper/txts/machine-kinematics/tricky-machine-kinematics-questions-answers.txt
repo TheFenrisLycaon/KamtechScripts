@@ -1,0 +1,187 @@
+1. By how much angle in degrees does the velocity leads the displacement in a body undergoing SIMPLE HARMONIC MOTION?
+a) 90
+b) 45
+c) 180
+d) 0
+a
+2. For a body undergoing SIMPLE HARMONIC MOTION, the acceleration is always in the direction of the displacement.
+a) True
+b) False
+b
+3. The maximum displacement of the body under Simple Harmonic Motion from its mean position is known as_______
+a) Amplitude
+b) Frequency
+c) Time period
+d) Range
+a
+4. The piston of an engine moves with SIMPLE HARMONIC MOTION. The crank rotates at a speed of 120 r.p.m. with a stroke of 2 metres. Find the velocity of the piston in m/s, when it is at a distance of 0.75 metre from the centre.
+a) 8.31
+b) 7.33
+c) 8.41
+d) 9.02
+a
+\(v = \omega \sqrt{(A^2-x^2)}\) 
+substituting the values we get
+v = 8.31 m/s.
+5. The piston of an engine moves with SIMPLE HARMONIC MOTION. The crank rotates at a speed of 120 r.p.m. with a stroke of 2 metres. Find the velocity of the piston in m/s2, when it is at a distance of 0.75 metre from the centre.
+a) 118.46
+b) 117.33
+c) 128.41
+d) 119.02
+a
+a=ω2x
+substituting the values we get
+a = 118.46 m/s2
+Join [email protected]
+6. A point moves with SIMPLE HARMONIC MOTION. When this point is 0.75 m away from the mid path, it has a velocity of 11 m/s and when 2 m from the centre of its path its velocity is 3 m/s. Find its angular velocity in rad/s.
+a) 5.7
+b) 7.5
+c) 6.7
+d) 7.6
+a
+v = \(\omega \sqrt{r^2 – x^2}\) 
+Given values:
+when point (x) = 0.75 m, then its velocity (v) = 11 m/s
+when point (x) = 2 m, then its velocity (v) = 3 m/s
+When point is 0.75 m away from the mid path (v) is,
+v = \(\omega \sqrt{r^2 – x^2}\) 
+11 = \(\omega \sqrt{r^2 – (0.75)^2}\) —>Eq(1)
+Similarly, When point is 2 m away from the centre (v) is,
+v = \(\omega \sqrt{r^2 – x^2}\) 
+3 = \(\omega \sqrt{r^2 – 2^2}\) —>Eq(2)
+Solving Eq(1) & Eq(2) we get,
+\(\frac{11}{3} \frac{\omega \sqrt{r^2 – (0.75)^2}}{\omega \sqrt{r^2 – 2^2}} = \frac{\sqrt{r^2 – (0.75)^2}}{\sqrt{r^2 – 2^2}} \) 
+Squaring on both sides, we get
+\(\frac{121}{9} = \frac{r^2 – 0.5625}{r^2 – 4}\) 
+121r2 – 484 = 9r2 – 5.0625
+121r2 – 9r2 = 484 – 5.0625
+112r2 = 478.9375
+r2 = \(\frac{478.9375}{112}\) 
+r2 = 4.27622
+r = 2.07m
+Substituting the value of r in Eq(1) we get,
+11 = \( \omega \sqrt{(2.07)^2 – (0.75)^2}\) 
+11 = \( \omega \sqrt{4.2849 – 0.5625}\) 
+11 = \( \omega \sqrt{3.7224}\) 
+11 = 1.9293 ω
+ω = \(\frac{11}{1.9293}\) = 5.7 rad/s.
+7. A point moves with SIMPLE HARMONIC MOTION. When this point is 0.75 m away from the mid path, it has a velocity of 11 m/s and when 2 m from the centre of its path its velocity is 3 m/s. Find its time period in s.
+a) 1.1
+b) 1.2
+c) 1.3
+d) 1.4
+a
+v = \(\omega \sqrt{r^2 – x^2}\) 
+Given values:
+when point (x) = 0.75 m, then its velocity (v) = 11 m/s
+when point (x) = 2 m, then its velocity (v) = 3 m/s
+When point is 0.75 m away from the mid path (v) is,
+v = \(\omega \sqrt{r^2 – x^2}\) 
+11 = \(\omega \sqrt{r^2 – (0.75)^2}\) —>Eq(1)
+Similarly, When point is 2 m away from the centre (v) is,
+v = \(\omega \sqrt{r^2 – x^2}\) 
+3 = \(\omega \sqrt{r^2 – 2^2}\) —>Eq(2)
+Solving Eq(1) & Eq(2) we get,
+\(\frac{11}{3} \frac{\omega \sqrt{r^2 – (0.75)^2}}{\omega \sqrt{r^2 – 2^2}} = \frac{\sqrt{r^2 – (0.75)^2}}{\sqrt{r^2 – 2^2}} \) 
+Squaring on both sides, we get
+\(\frac{121}{9} = \frac{r^2 – 0.5625}{r^2 – 4}\) 
+121r2 – 484 = 9r2 – 5.0625
+121r2 – 9r2 = 484 – 5.0625
+112r2 = 478.9375
+r2 = \(\frac{478.9375}{112}\) 
+r2 = 4.27622
+r = 2.07m
+Substituting the value of r in Eq(1) we get,
+11 = \( \omega \sqrt{(2.07)^2 – (0.75)^2}\) 
+11 = \( \omega \sqrt{4.2849 – 0.5625}\) 
+11 = \( \omega \sqrt{3.7224}\) 
+11 = 1.9293 ω
+ω = \(\frac{11}{1.9293}\) = 5.7 rad/s.
+We know periodic time is,
+Tp = \(\frac{2 \pi}{\omega} = \frac{2 \pi}{5.7} = \frac{2 \times 3.14}{5.7} = \frac{6.28}{5.7}\) = 1.1 s.
+8. A point moves with SIMPLE HARMONIC MOTION. When this point is 0.75 m away from the mid path, it has a velocity of 11 m/s and when 2 m from the centre of its path its velocity is 3 m/s. Find its maximum acceleration in m/s2.
+a) 61.1
+b) 67.2
+c) 51.3
+d) 41.4
+b
+v = \(\omega \sqrt{r^2 – x^2}\) 
+Given values:
+when point (x) = 0.75 m, then its velocity (v) = 11 m/s
+when point (x) = 2 m, then its velocity (v) = 3 m/s
+When point is 0.75 m away from the mid path (v) is,
+v = \(\omega \sqrt{r^2 – x^2}\) 
+11 = \(\omega \sqrt{r^2 – (0.75)^2}\) —>Eq(1)
+Similarly, When point is 2 m away from the centre (v) is,
+v = \(\omega \sqrt{r^2 – x^2}\) 
+3 = \(\omega \sqrt{r^2 – 2^2}\) —>Eq(2)
+Solving Eq(1) & Eq(2) we get,
+\(\frac{11}{3} \frac{\omega \sqrt{r^2 – (0.75)^2}}{\omega \sqrt{r^2 – 2^2}} = \frac{\sqrt{r^2 – (0.75)^2}}{\sqrt{r^2 – 2^2}} \) 
+Squaring on both sides, we get
+\(\frac{121}{9} = \frac{r^2 – 0.5625}{r^2 – 4}\) 
+121r2 – 484 = 9r2 – 5.0625
+121r2 – 9r2 = 484 – 5.0625
+112r2 = 478.9375
+r2 = \(\frac{478.9375}{112}\) 
+r2 = 4.27622
+r = 2.07m
+Substituting the value of r in Eq(1) we get,
+11 = \( \omega \sqrt{(2.07)^2 – (0.75)^2}\) 
+11 = \( \omega \sqrt{4.2849 – 0.5625}\) 
+11 = \( \omega \sqrt{3.7224}\) 
+11 = 1.9293 ω
+ω = \(\frac{11}{1.9293}\) = 5.7 rad/s.
+Maximum acceleration is
+Amax = ω2r = (5.7)2 × 2.07 = 32.49 × 2.07
+= 67.25 m/s2.
+9. If V is the maximum velocity of a body undergoing SIMPLE HARMONIC MOTION, then what is the average velocity of motion from one extreme to other extreme is?
+a) 2V/π
+b) 4V/π
+c) V/2π
+d) 2V/3π
+a
+V av = 2A/T÷2  = 4A/T
+A/T = V/2π
+Vav = 2V/π
+10. If V is the maximum velocity of a body undergoing SIMPLE HARMONIC MOTION, then what is the average velocity of motion?
+a) 2V/π
+b) 4V/π
+c) V/2π
+d) 2V/3π
+a
+<v> = 4A/T
+ = 2aω/π
+= 2V/π
+11. Which of the following is the correct differential equation of the SIMPLE HARMONIC MOTION?
+a) d2x/dt2 + ω2x = 0
+b) d2x/dt2 – ω2x = 0
+c) d2x/dt + ω2x = 0
+d) d2x/dt – ω2x = 0
+a
+Therefore x =Acosωt
+dx/dt = -Aωsinωt
+d2x/dt2 = -aω2cosωt
+therefore
+d2x/dt2 + ω2x = 0
+12. For a body undergoing Simple Harmonic Motion, the acceleration is maximum at the extreme.
+a) True
+b) False
+a
+13. Which of the following is the solution of the differential equation of the SIMPLE HARMONIC MOTION?
+a) x = Acosωt + B sinωt
+b) x = (A+B)cosωt
+c) x = (A+B)sinωt
+d) x = Atanωt + B sinωt
+a
+d2x/dt2 = -aω2cosωt
+therefore
+d2x/dt2 + ω2x = 0
+is the standard differential equation of Simple Harmonic Motion
+It’s solution is/are:
+x = Acosωt + B sinωt
+Sanfoundry Global Education & Learning Series – Machine Kinematics.
+To practice Tricky questions and answers on all areas of Machine Kinematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Machine Kinematics Questions and Answers – Velocity and Acceleration of a Particle Moving with Simple Harmonic Motion» Next - Machine Kinematics Questions and Answers – Simple Pendulum 

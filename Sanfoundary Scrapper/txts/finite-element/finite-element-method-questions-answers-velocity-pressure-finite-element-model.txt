@@ -1,0 +1,102 @@
+1. In velocity-pressure formulation in FEM, which step is not used in the development of a weak form?
+a) Multiply governing equations with weight functions
+b) Integrating over the element domain
+c) Integrating by parts
+d) Performing coordinate transformation
+d
+2. In the formulation of governing equations, which option does not signify the characteristics of a weight function?
+a) Weight functions are multiplied to governing equations to obtain weak forms
+b) Weight functions are interpreted from the physical setup of the problem
+c) Weight function must denote a non-dimensional quantity
+d) Weight function can be interpreted as a velocity
+c
+3. For a governing equation, what does one conclude from the weak formulation if it does not contain boundary integral involving weight function?
+a) Integration by parts is used
+b) Integration by parts is not used
+c) The weight function is as a primary variable
+d) The weight function is to be made continuous across inter-element boundaries
+b
+4. In FEM, which option is the correct weak form of the following momentum equation?
+ρ\(\frac{\partial v_x}{\partial t}-\frac{\partial \sigma _{xx}}{\partial x}-\frac{\partial \sigma_{xy}}{\partial y}-f_x\)=0
+a)l\(\int_{\Omega_e}[\rho w_1\frac{\partial v_x}{\partial t}+\frac{\partial w_1}{\partial x}\sigma_{xx}+\frac{\partial w_1}{\partial y}\sigma_{xy}-w_1 f_x]\)dxdy+∮┏c w1(σxxnx+σxyny)ds=0
+b) l\(\int_{\Omega_e}[\rho w_1\frac{\partial v_x}{\partial t}+\frac{\partial w_1}{\partial x}\sigma_{xx}+\frac{\partial w_1}{\partial y}\sigma_{xy}-w_1 f_x]\)dxdy=0
+c) l\(\int_{\Omega_e}[\rho w_1\frac{\partial v_x}{\partial t}+\frac{\partial w_1}{\partial x}\sigma_{xx}+\frac{\partial w_1}{\partial y}\sigma_{xy}-w_1 f_x]\)dxdy+∮┏c w1(σxx+σxy)ds=0
+d) l\(\int_{\Omega_e} w_1[\rho\frac{\partial v_x}{\partial t}-\frac{\partial \sigma_{xx}}{\partial x}-\frac{\partial \sigma_{xy}}{\partial y}-f_x]\)dxdy++∮┏c w1(σxxnx+σxyny)ds=0
+a
+5. Using constitutive relations, what is the value of τxxif μ=0.3 and v=4x?
+a) 0.24
+b) 2.4
+c) 0.12
+d) 1.2
+b
+\(\frac{\partial v_x}{\partial x}\) 
+= \(\frac{\partial (4x)}{\partial x}\) 
+=4.
+Thus τxx=2*μ*4.
+Given μ=0.3
+τxx=2*0.3*4
+=2.4.
+6. Using constitutive relations, what is the value of τxyif μ=0.3 and v=4xy-6y?
+a) 0.24x
+b) 2.4x
+c) 0.12x
+d) 1.2x
+d
+\(\frac{\partial v_x}{\partial y}+\frac{\partial v_y}{\partial x}\) 
+=4x+0
+=4x.
+Thus τxy=μ*(4x).
+Given μ=0.3
+τxx=0.3*4x
+=1.2x.
+7. If a governing equation represents volume change in an element, then the weight function in its weak form must be like a force that causes the volume change.
+a) True
+b) False
+a
+8. Which option is not correct concerning the pressure variable, P in the weak form of the momentum and continuity equation?
+a) P is a primary variable
+b) P is a part of the secondary variables
+c) P=constant is the minimum continuity requirement for interpolation
+d) It is discontinuous across inter-element boundaries
+a
+9. Which option is not correct concerning the velocity variables, vx and vy in the weak form of the momentum and continuity equation?
+a) They are primary variables
+b) The minimum continuity requirement for interpolation is that they are linear in x and y
+c) The minimum continuity requirement for interpolation is that they are constant
+d) They are continuous across the inter-element boundary
+c
+10. Which equation is the correct vector form of the finite element model of momentum and continuity equations in the flow domain?
+a) MΔ+K11Δ+K12P=0
+b) MΔ+K11Δ+K22P=F1
+c) MΔ+K22Δ+K12P=F1
+d) MΔ+K11Δ+K12P=F1
+d
+11. For the vector form of the finite element model of momentum and continuity equations MΔ+K11Δ+K12P=0, what is the correct expression for mass matrix M?
+a) M=∫ΩcρψTψdx
+b) M=∫ΩcfψTψdx
+c) M=∫ΩctψTψdx
+d) M=∫ΩcPψTψdx
+a
+12. For the vector form of the finite element model of momentum and continuity equations MΔ+K11Δ+K12P=0 what is the order of matrix F if the order of M is 2n x 2n?
+a) 2n x 1
+b) 1 x 2n
+c) m x 2n
+d) 2n x m
+a
+13. In matrix algebra, if a matrix is positive definite, then all its eigenvalues are greater than zero.
+a) True
+b) False
+a
+14. What is the physical interpretation of the weight function w3 in the following weak form of the continuity equation?
+-∫Ωew3\((\frac{\partial v_x}{\partial x}+\frac{\partial v_y}{\partial y})\)dxdy=0
+a) Hydrostatic pressure
+b) Axial force
+c) Surface traction
+d) Body force
+a
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Governing Equations» Next - Finite Element Method Questions and Answers – Penalty – Finite Element Model – 1 

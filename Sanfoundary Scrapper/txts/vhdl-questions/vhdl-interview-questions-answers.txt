@@ -1,0 +1,96 @@
+1. SIGNED and UNSIGNED data types are defined in which package?
+a) std_logic_1164 package
+b) std_logic package
+c) std_logic_arith package
+d) standard package
+c
+2. What is the correct method to declare a SIGNED type signal ‘x’?
+a) SIGNAL x : IN SIGNED
+b) SIGNAL x : IN SIGNED
+c) SIGNAL x : IN SIGNED (7 DOWNTO 0)
+d) SIGNAL x : IN SIGNED_VECTOR (7 DOWNTO 0)
+c
+3. An UNSIGNED type is always greater than zero.
+a) True
+b) False
+a
+4. What will be the value of x in the following code?
+SIGNAL x : IN UNSIGNED (3 DOWNTO 0 );
+x <= “1101”;
+a)  12
+b) 5
+c) -5
+d) 14
+d
+5. What is the decimal equivalent of x in the following code?
+SIGNAL x : OUT SIGNED (3 DOWNTO 0 );
+x <= “1101”;
+a) -5
+b) 5
+c) -3
+d) -14
+c
+6. Which of the following option is completely legal, given that a and b are two UNSIGNED type signals?
+a) x <= a + b; y <= a – b;
+b) x <= a OR b; y <= a AND b;
+c) x <= a + b; y <= a OR b;
+d) x <= a OR b; y <= a + b;
+a
+7. If a and b are two STD_LOGIC_VECTOR input signals, then legal assignment for a and b is?
+a) x <= a.b
+b) x <= a OR b
+c) x <= a + b
+d) x <= a && b
+b
+8. What do we call the data type used for representing distance, current, voltage, time, etc?
+a) Integer
+b) Real
+c) Physical
+d) Imaginary
+c
+9. What is the meaning of the base unit?
+a) Smallest possible unit of any physical literal
+b) SI unit of any physical literal
+c) CGS unit for any physical literal
+d) Fundamental building block of any design
+a
+10. Which of the following is only predefined physical literal in VHDL?
+a) VOLTAGE
+b) TIME
+c) CURRENT
+d) DISTANCE
+b
+11. SIGNAL a : REAL; which of the following is illegal assignment for a?
+a) a <= 1.8
+b) a <= 1.0 E10
+c) a <= 1.0 E-10
+d) a <=1.0 ns
+d
+12. Multidimensional arrays can be used for the implementation of memories.
+a) True.
+b) False.
+a
+13. RECORD in VHDL is similar to________ in C.
+a) Array
+b) File
+c) Structure
+d) Pointer
+c
+14. What is the difference between SIGNAL and VARIABLE?
+a) The value of SIGNAL never varies whereas VARIABLE can change its value
+b) SIGNAL can be used for input or output whereas VARIABLE acts as intermediate signals
+c) SIGNAL depends upon VARIABLE for various operations
+d) SIGNAL is global and VARIABLE is local to the process in which it is declared
+d
+15. Access types are similar to _________ in traditional programming languages.
+a) Pointers
+b) Arrays
+c) Structures
+d) Files
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Architecture» Next - VHDL Questions and Answers – User defined Data Types 

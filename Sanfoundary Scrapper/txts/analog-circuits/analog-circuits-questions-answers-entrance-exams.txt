@@ -1,0 +1,64 @@
+1. If g is the transconductance, r is the resistance due to channel length modulation and if M2 has channel length modulation but M1 doesn’t, what is the voltage gain at node x?
+a) (1/g || r) / (1/g + (1/g || r))
+b) (1/g || r) / (1/g + (1/g || 2r))
+c) (1/g || r) / (2/g + (1/g || r))
+d) (1/g || r) / (1/g + (2/g || r))
+a
+2. If g is the transconductance, r is the resistance due to channel length modulation and if M2 has channel length modulation but M1 and M3 doesn’t, what is the total resistance at the source of M2?
+a) (1/ g || R) || (1/g || r)
+b) (1/ g) || (1/g || r)
+c) R || (1/g || r)
+d) (1/ g || R) || 1/g
+a
+3. If g is the transconductance, r is the resistance due to channel length modulation and if M2 and M1 has channel length modulation but M3 doesn’t, what is the output resistance at the source of M3?
+a) 1/g || R
+b) 1/g || r + 1/g
+c) 1/g || R + 1/g
+d) 1/g || r + 2/g
+a
+4. If g is the transconductance, r is the resistance due to channel length modulation and if M2 and M1 has channel length modulation but M3 doesn’t, what is the total resistance at the drain of M2?
+a) {(1 + gr)* R + R} || 2R
+b) {(1 + gr)* 3R + 2R} || R
+c) {(1 + gr)* (R || 1/g || r) + (R || 1/g || r)} || R
+d) Infinite
+c
+5. If g is the transconductance, r is the resistance due to channel length modulation and if M2 and M1 has channel length modulation but M3 doesn’t, what is the total voltage gain for only M2?
+a) g * {(1 + gr)* (R || 1/g || r) + (R || 1/g || r)} || R
+b) g * {(1 + gr)* R + R} || 4R
+c) g * {(1 + gr)* R + 3R} || 4R
+d) g * {(1 + 2gr)* R + R} || 4R
+a
+6. If g is the transconductance, r is the resistance due to channel length modulation and if only M3 and M2 has channel length modulation, what is the total voltage gain?
+a) R/ g * {(1 + gr)* R + R} || R * R / {(1/g || r) + R
+b) R/ (1/g) * g * {(1 + gr)* R + R} || R * {(1/g || r) + R
+c) R/ (1/g + R) * g * {(1 + gr)* R + R} || R * R / {(1/g || r) + 3R
+d) {(R || 1/g || r) / (1/g + (R || 1/g || r)} * g * [{(1 + gr)* (R || 1/g || r)  + (R || 1/g || r)} ||R] * R / {(1/g || r) + R
+d
+7. Can the voltage gain of a follower stage be greater than 1?
+a) Yes, by changing the transconductance
+b) No
+c) Yes, by changing the bias current
+d) Yes, by changing the supply rail
+b
+8. Can the voltage gain of a follower stage be equal to 1?
+a) Yes, by increasing the transconductance
+b) No
+c) Yes, by modifying the bias voltage
+d) Yes, by modifying the bias current
+b
+9. The output impedance of follower is less than that of a degenerated CS stage.
+a) True
+b) False
+a
+10. The input impedance of the follower stage is ____________ than that of a CG stage.
+a) greater
+b) lesser
+c) equal
+d) cannot be compared
+a
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits for Entrance exams, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – MOSFET Amplifier with CD Configuration – 1» Next - Analog Circuits Questions and Answers – MOSFET Amplifier with CS Configuration – 1 

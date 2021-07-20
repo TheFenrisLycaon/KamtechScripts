@@ -1,0 +1,66 @@
+1. Comparator_A+ is controlled by which of the following peripheral registers?
+a) CACTL1
+b) CACTL2
+c) CACTL1 & CACTL2
+d) None of the mentioned
+c
+2. CAON bit is used to ___________
+a) start a timer
+b) start an A/D conversion
+c) switch on the comparator module
+d) switch on the bit transmission
+c
+3. P2CA4-P2CA0 bits are used for _______
+a) giving the power supply to the comparator module
+b) for selecting the mode of operation of the comparator
+c) for connecting the non inverting inputs to the CA0-CA2 pins
+d) all of the mentioned
+c
+4. CAREFx bits are used for _______
+a) inputting a positive reference voltage
+b) inputting a negative reference voltage
+c) selecting the internal reference voltage
+d) all of the mentioned
+c
+5. Which of the following bits are not actually associated with the comparator module?
+a) CAREFx
+b) CLLDx
+c) CAON
+d) CAIFG
+b
+6. Flag CAIFG is raised,
+a) at a low level triggered pulse
+b) at a high level triggered pulse
+c) at the falling and rising edge of the pulse
+d) at the falling or rising edge of the pulse
+d
+7. Setting a bit in the Port Disable register CAPD causes the circuits for the usual digital input and output buffers to be disconnected from the appropriate pin.
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+a
+8. Which bit is used for exchanging the two inputs of the comparator and invert its output to compensate?
+a) CAIFG
+b) CASHORT
+c) CAPD
+d) CAEX
+d
+9. Changes in Vcc changes the value of V+?
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+a
+10. The relaxation oscillator circuit helps in _______
+a) calculating the duration single RC transient
+b) setting the reference voltage
+c) setting the clock frequency
+d) calculating the conversion speed
+a
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MSP430 Microcontroller Questions and Answers – Mixed-Signal Systems: Analog Input and Output» Next - MSP430 Microcontroller Questions and Answers – Successive Approximation ADC 

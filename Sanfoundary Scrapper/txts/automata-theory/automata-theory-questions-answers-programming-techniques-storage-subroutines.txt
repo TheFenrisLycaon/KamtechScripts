@@ -1,0 +1,74 @@
+1. A turing machine has ____________ number of states in a CPU.
+a) finite
+b) infinte
+c) May be finite
+d) None of the mentioned
+a
+2. Suppose we have a simple computer with control unit holding a PC with a 32 bit address + Arithmetic unit holding one double length 64 bit Arithmetic Register. The number of states the finite machine will hold:
+a) 2(32*64)
+b) 296
+c) 96
+d) 32
+b
+3. In one move a turing machine will:
+a) Change a state
+b) Write a tape symbol in the cell scanned
+c) Move the tape head left or right
+d) All of the mentioned
+d
+4. State true or false:
+Statement: We can use the finite control of turing machine to hold a finite amount of data.
+a) true
+b) false
+a
+The finite control not only contains state q but also three data, A, B, C. The following technique requires no extension to the Turing Machine model. Shaping states this way allows to describe transitions in more systematic way and often to simplify the strategy of the program.
+5. Statement 1: Multitrack Turing machine.
+Statement 2: Gamma is Cartesian product of a finite number of finite sets.
+Which among the following is the correct option?
+a) Statement 1 is the assertion and Statement 2 is the reason
+b) Statement 1 is the reason and Statement 2 is the assertion
+c) Statement 1 and Statement 2 are independent from each other
+d) None of the mentioned
+a
+6. A multi track turing machine can described as a 6-tuple (Q, X, S, d, q0, F) where X represents:
+a) input alphabet
+b) tape alphabet
+c) shift symbols
+d) none of the mentioned
+b
+Q represents finite set of states,
+X represents the tape alphabet,
+S represents the input alphabet
+d represents the relation on states and the symbols
+q0 represents the initial state
+F represents the set of final states.
+7. Which of the following statements are false?
+a) A multi track turing machine is a special kind of multi tape turing machine
+b) 4-heads move independently along 4-tracks in standard 4-tape turing machine
+c) In a n-track turing machine, n head reads and writes on all the tracks simultaneously.
+d) All of the mentioned
+c
+8. State true or false:
+Statement: Two track turing machine is equivalent to a standard turing machine.
+a) true
+b) false
+a
+9. Which of the following is/are not true for recursively ennumerable language?
+a) partially decidable
+b) Turing acceptable
+c) Turing Recognizable
+d) None of the mentioned
+d
+10. According to Chomsky hierarchy, which of the following is adopted by Recursively Ennumerable language?
+a) Type 0
+b) Type 1
+c) Type 2
+d) Type 3
+r
+Answer: a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers -Turing Machine and Halting» Next - Automata Theory Questions and Answers –  Multitape Turing Machines 

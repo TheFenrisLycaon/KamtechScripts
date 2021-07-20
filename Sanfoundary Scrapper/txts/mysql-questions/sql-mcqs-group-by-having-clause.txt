@@ -1,0 +1,69 @@
+1. What is the meaning of “GROUP BY” clause in Mysql?
+a) Group data by column values
+b) Group data by row values
+c) Group data by column and row values
+d) None of the mentioned
+a
+2. Which clause is similar to “HAVING” clause in Mysql?
+a) SELECT
+b) WHERE
+c) FROM
+d) None of the mentioned
+b
+3. What is the meaning of “HAVING” clause in Mysql?
+a) To filter out the row values
+b) To filter out the column values
+c) To filter out the row and column values
+d) None of the mentioned
+a
+4. “COUNT” keyword belongs to which categories in Mysql?
+a) Aggregate functions
+b) Operators
+c) Clauses
+d) All of the mentioned
+a
+5. Which among the following belongs to an “aggregate function”?
+a) COUNT
+b) UPPER
+c) LOWER
+d) All of the mentioned
+a
+6. Which of the following belongs to an “aggregate function”?
+a) COUNT
+b) SUM/AVG
+c) MIN/MAX
+d) All of the mentioned
+d
+7. Which clause is used with an “aggregate functions”?
+a) GROUP BY
+b) SELECT
+c) WHERE
+d) Both GROUP BY and WHERE
+a
+8. What is the significance of the statement “GROUP BY d.name” in the following MySQL statement?
+SELECT d.name, COUNT (emp_id) emp_no
+FROM department d INNER JOIN Employee e
+ON d.dept_id=e.emp_id
+GROUP BY d.name
+a) Aggregation of the field “name” of both table
+b) Aggregation of the field “name” of table “department”
+c) Sorting of the field “name”
+d) None of the mentioned
+b
+9. What is the significance of the statement “HAVING COUNT (emp_id)>2” in the following MySQL statement?
+SELECT d.name, COUNT (emp_id) emp_no
+FROM department d INNER JOIN Employee e
+ON d.dept_id=e.emp_id
+GROUP BY d.name
+HAVING COUNT (emp_id)&gt;2
+a) Filter out all rows whose total emp_id below 2
+b) Selecting those rows whose total emp_id>2
+c) Filter out all rows whose total emp_id below 2 & Selecting those rows whose total emp_id>2
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – The Where Clauses» Next - MySQL Questions and Answers – The order by Clauses – 1 

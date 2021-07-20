@@ -1,0 +1,97 @@
+1. Which is not the internal circuit of operational amplifier?
+a) Differential amplifier
+b) Level translator
+c) Output driver
+d) Clamper
+d
+2. The purpose of level shifter in Op-amp internal circuit is to
+a) Adjust DC voltage
+b) Increase impedance
+c) Provide high gain
+d) Decrease input resistance
+a
+3. How a symmetrical swing is obtained at the output of Op-amp
+a) Providing amplifier with negative supply voltage
+b) Providing amplifier with positive voltage
+c) Providing amplifier with positive& negative voltage
+d) None of the mentioned
+c
+Therefore, the maximum peak to peak output swing, -5v (-10v) = -15v (Asymmetrical swing).
+So, to get symmetrical swing both positive and negative supply voltage with bias point fixed suitably is required.
+4. What is the purpose of differential amplifier stage in internal circuit of Op-amp?
+a) Low gain to differential mode signal
+b) Cancel difference mode signal
+c) Low gain to common mode signal
+d) Cancel common mode signal
+d
+5. Which of the following is not preferred for input stage of Op-amp?
+a) Dual Input Balanced Output
+b) Differential  Input Single ended Output
+c) Cascaded DC amplifier
+d) Single Input Differential Output
+c
+6. What will be the emitter current in a differential amplifier, where both the transistor are biased and matched? (Assume current to be IQ)
+a) IE = IQ/2
+b) IE = IQ
+c) IE = (IQ)2/2
+d) IE = (IQ)2
+a
+7. From the circuit, determine the output voltage (Assume αF=1)
+a) VO1=3.9v ,  VO2=12v
+b) VO1=12v ,  VO2=3.9v
+c) VO1=12v ,  VO2=0v
+d) VO1=3.9v ,  VO2=-3.9v
+b
+⇒ VO1 = VCC 	VO2= VCC-αF×IQ×RC,
+⇒ VO1 = 12v , VO2=12v-1×3mA×2.7k = 3.9v.
+8.  At what condition differential amplifier function as a switch
+a) 4VT < Vd < -4VT
+b) -2VT ≤ Vd ≤ 2VT
+c) 0 ≤ Vd < -4VT
+d) 0 ≤ Vd ≤ 2VT
+a
+9. For Vd > ±4VT, the function of differential amplifier will be
+a) Switch
+b) Limiter
+c) Automatic gain control
+d) Linear Amplifier
+b
+10. Change in value of common mode input signal in differential pair amplifier make
+a) Change in voltage across collector
+b) Slight change in collector voltage
+c) Collector voltage decreases to zero
+d) None of the mentioned
+a
+11. Find collector current IC2, given input voltages are V1=2.078v & V2=2.06v and total current IQ=2.4mA. (Assume α=1)
+a) 0.8mA
+b) 1.6mA
+c) 0.08mA
+d) 0.16mA
+a
+VT = Volts equivalent of temperature = 25mv,
+	⇒ Vd = V1-V2   =2.078v-2.06v=0.018v    (equ1)
+Substituting equation 1,
+	 ⇒ Vd/VT  = 0.018v/25mv  =   0.72v (equ2)
+Substituting equation 2,
+	⇒ IC2= 1×2.4mA/(1+e0.72)  =  2.4mA/(1+2.05)  = 0.8mA.
+12. A differential amplifier has a transistor with β0= 100, is biased at ICQ = 0.48mA. Determine the value of CMRR and ACM, if RE =7.89kΩ and RC = 5kΩ.
+a) 49.54 db
+b) 49.65 d
+c) 49.77 db
+d) 49.60 db
+b
+⇒ ACM= -(gmRC)/(1+2gmRE)
+(for β0≫1).
+Substituting the values,
+⇒ gm= ICQ/VT =  0.48mA/25mv=19.2×10-3Ω-1
+⇒ ADM= -gm×RC= -19.2×10-3Ω-1×5kΩ= -96
+⇒ ACM= -(gmRC)/(1+2gmRE)= -(19.2×10-3Ω-1×5kΩ) /(1+2×-⇒ 19.2×10-3Ω-1×7.89kΩ)  = -0.3158
+CMRR = -96/-0.3158= 303.976
+    =20log⁡303.976
+    =49.65db
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Differential Amplifier and Circuit Configuration» Next - Linear Integrated Circuit Questions and Answers – Operational Amplifier Internal Circuit – 2 

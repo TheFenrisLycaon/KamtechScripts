@@ -1,0 +1,74 @@
+1. The velocity vector in a fluid is given V=5x4+3y2+2z( in metre/sec). What is the acceleration of it at point (1,3,4) ?
+a) 40 m/s2
+b) 20 m/s2
+c) 60 m/s2
+d) 80 m/s2
+a
+on putting the coordinates, the acceleration obtained is 40 m/s2.
+2. Determine the third velocity component such that continuity equation is satisfied if two components are u=2y2, w=2xyz.
+a) -2xy+x2y+f(y,z)
+b) 4xy-x2y+f(y,z)
+c) -4xy-x2y+f(y,z)
+d) -2xy-x2y+f(y,z)
+c
+Here du/dx=0 and w=2xy.
+On solving by integrating, we get v = -4xy-x2y+f(y,z).
+3. Determine the third velocity component such that continuity equation is satisfied if two components are u=x2+y2+z2, v=xy2 – yz2 + xy
+a) -3xz-2xyz+z2/3+f(y,z)
+b) -3xz+2xyz+z3/3+f(y,z)
+c) -3xz-2xyz+z3/3+f(x,z)
+d) -3xz-2xyz+z3/3+f(y,z)
+d
+Here du/dx=2x and v=2xy-z2
+On solving by integrating, we get w = -3xz-2xyz+z3/3+f(y,z), 
+4. A fluid flow field is given by
+V=x2yi+y2z-(2xyz+yz)k
+Calculate it’s acceleration at the point (1,3,5)
+a) 28i-3j+125k
+b) 28i-3j-125k
+c) 28i+3j+125k
+d) None of the mentioned
+d
+                The continuity equation for incompressible is du/dx+dv/dy+dw/dz = 0.
+                 (here d/dx, d/dy, d/z represent partial derivative)
+The given equation doesn’t satisfy the continuity equation.
+5. A fluid flow field is given by
+V=y2xi+z2x-(2xyz+yz)k
+Calculate it’s acceleration at the point (2,4,4)
+a) 36i-27j+100k
+b) 36i-27j-100k
+c) 28i+27j+100k
+d) 36ne of the mentioned
+d
+                The continuity equation for incompressible is du/dx+dv/dy+dw/dz = 0.
+                 (here d/dx, d/dy, d/z represent partial derivative)
+                 The given equation doesn’t satisfy the continuity equation.
+6. Convective acceleration cannot be found if the fluid flow equation is not satisfying
+the continuity equation but local acceleration can be found.
+a) True
+b) False
+b
+7. Local acceleration has constant value for a steady flow.
+a) True
+b) False
+b
+8. Total acceleration has the same value as convective acceleration in case of unsteady flow.
+a) True
+b) False
+b
+9. Which equation must be perfunctorily satisfied while dealing with fluid flow problems?
+a) Newton’s second law
+b) Newton’s third law
+c) Law of conservation of momentum
+d) Continuity equation
+d
+10. Convective acceleration is defined as the rate of change of velocity due to change of velocity with respect to time.
+a) True
+b) False
+b
+ Sanfoundry Global Education & Learning Series – Fluid Mechanics.
+To practice all areas of Fluid Mechanics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Fluid Mechanics Questions and Answers – Continuity Equation in Two and Three Dimensions» Next - Fluid Mechanics Questions and Answers – Types of Motion and Vortex Flow 

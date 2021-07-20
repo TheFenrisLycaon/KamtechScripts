@@ -1,0 +1,85 @@
+1. Which of the following operation is not carried out by 80286?
+a) task switch operation
+b) halt
+c) processor reset
+d) none of the mentioned
+d
+1. processor reset and initialization
+2. task switch operation
+3. pointer testing instructions
+4. protected mode initialization
+5. how to enter protected mode?
+6. halt.
+2. After completion of the first cycle, the first task is again scheduled for the next cycle. This process is known as
+a) repetition
+b) task switch operation
+c) processor initiation
+d) none of the mentioned
+b
+3. The operation that is provided by the internal architecture, to save the execution state of a task is
+a) processor reset
+b) processor initialization
+c) task switch operation
+d) halt
+c
+4. The instruction that can be used to carry out task switch operation is
+a) software interrupt instruction
+b) exception
+c) external interrupt
+d) all of the mentioned
+d
+5. The IRET instruction gets back the execution state of the previous task, if
+a) NT (nested task flag) = 1
+b) NT (nested task flag) = 0
+c) IF (interrupt flag) = 1
+d) IF (interrupt flag) = 0
+a
+6. The NT flag is set by the task switch operation, that is initiated by
+a) CALL
+b) INT
+c) CALL & INT
+d) None of the mentioned
+c
+7. The 80286 executes LMSW instruction to enter into
+a) real addressing mode
+b) protected mode
+c) real addressing and protected modes
+d) none of the mentioned
+b
+8. The instruction that sets the zero flag, if the segment referred to, by the selector can be read is
+a) VERW
+b) VERR
+c) LSL
+d) LAR
+b
+9. The instruction that sets the zero flag, if the segment referred to by the selector, can be written as
+a) VERW
+b) APRL
+c) LSL
+d) LAR
+a
+10. The instruction that reads the descriptor access rights byte into the register is
+a) VERW
+b) APRL
+c) LSL
+d) LAR
+d
+11. The instruction that reads the segment limit into the register, if privilege rules and descriptor type allow is
+a) VERW
+b) APRL
+c) LSL
+d) LAR
+c
+12. The instruction that adjusts the RPL (Requested Privilege Level) of the selector, to the numeric maximum of current selector RPL value is
+a) LAR
+b) VERR
+c) LSL
+d) APRL
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Protection» Next - Microprocessors Questions and Answers – 80286 Minimum System Configuration,  Interfacing Memory and I/O Devices With 80286 

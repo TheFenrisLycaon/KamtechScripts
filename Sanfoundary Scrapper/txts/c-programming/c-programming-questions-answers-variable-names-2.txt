@@ -1,0 +1,79 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C help anyone preparing for Oracle and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Oracle interviews on C Programming language.
+Here is a listing of C interview questions on “Variable Names” along with answers, explanations and/or solutions:
+1. Which is valid C expression?
+a) int my_num = 100,000;
+b) int my_num = 100000;
+c) int my num = 1000;
+d) int $my_num = 10000;
+b
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        printf("Hello World! %d \n", x);        return 0;    }
+a) Hello World! x;
+b) Hello World! followed by a junk value
+c) Compile time error
+d) Hello World!
+c
+Output:
+$ cc pgm1.c
+pgm1.c: In function ‘main’:
+pgm1.c:4: error: ‘x’ undeclared (first use in this function)
+pgm1.c:4: error: (Each undeclared identifier is reported only once
+pgm1.c:4: error: for each function it appears in.)
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int y = 10000;        int y = 34;        printf("Hello World! %d\n", y);        return 0;    }
+a) Compile time error
+b) Hello World! 34
+c) Hello World! 1000
+d) Hello World! followed by a junk value
+a
+Output:
+$ cc pgm2.c
+pgm2.c: In function ‘main’:
+pgm2.c:5: error: redefinition of ‘y’
+pgm2.c:4: note: previous definition of ‘y’ was here
+4. Which of the following is not a valid variable name declaration?
+a) float PI = 3.14;
+b) double PI = 3.14;
+c) int PI = 3.14;
+d) #define PI 3.14
+d
+5. What will happen if the following C code is executed?
+    #include <stdio.h>    int main()    {        int main = 3;        printf("%d", main);        return 0;    }
+a) It will cause a compile-time error
+b) It will cause a run-time error
+c) It will run without any error and prints 3
+d) It will experience infinite looping
+c
+$ cc pgm3.c
+$ a.out
+3
+6. What is the problem in the following variable declaration?
+float 3Bedroom-Hall-Kitchen?;
+a) The variable name begins with an integer
+b) The special character ‘-‘
+c) The special character ‘?’
+d) All of the mentioned
+d
+7. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int ThisIsVariableName = 12;        int ThisIsVariablename = 14;        printf("%d", ThisIsVariablename);        return 0;    }
+a) The program will print 12
+b) The program will print 14
+c) The program will have a runtime error
+d) The program will cause a compile-time error due to redeclaration
+b
+Output:
+$ cc pgm4.c
+$ a.out
+14
+8. Which of the following cannot be a variable name in C?
+a) volatile
+b) true
+c) friend
+d) export
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Variable Names – 1» Next - C Programming Questions and Answers – Data Types and Sizes – 1 

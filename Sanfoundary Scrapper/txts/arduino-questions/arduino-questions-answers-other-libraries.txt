@@ -1,0 +1,67 @@
+1. What library is to be required for manipulating audio on the Arduino Due?
+a) AudioMan.h
+b) PulseAudio.h
+c) Audio.h
+d) Sound.h
+c
+2. Which of the following Arduino Boards does the USBHost Library work on?
+a) Arduino Nano
+b) Arduino Due
+c) Arduino Uno
+d) Arduino Micro
+b
+3. What is the function of the Scheduler Library?
+a) To allow queueing of functions
+b) To allow for cancelling of functions
+c) To allow for parallel execution of functions
+d) To allow for serial initialization of functions
+c
+4. Which Arduino Board Architectures can the Audio Frequency Meter Library work on?
+a) SAM Architecture
+b) Intel Architecture
+c) SAMD Architecture
+d) ARM Architecture
+c
+5. Which library allows for manipulating the real time clock of an Arduino?
+a) RTC Library
+b) RT Library
+c) Clock Library
+d) Time Library
+a
+6. Which Arduino Board does the SigFox Library work with?
+a) Arduino MKR1000
+b) Arduino MKRFOX1200
+c) Arduino MKRZero
+d) Arduino MKRFOX1230
+b
+7.  What is the use of the code given below?
+#include<Esplora.h>void setup() {    Serial.begin(9600);}void loop() {    int v=Esplora.readSlider();    Serial.println(v);}
+a) Read Potentiometer Value
+b) Read Resistor Value
+c) Read Transistor Voltage Value
+d) Read Power Supply Voltage
+a
+8. What purpose does the Bridge Library serve on the Arduino Yun?
+a) Connecting the Linux processor and the microcontroller onboard the Yun
+b) Disconnecting the Linux processor and the microcontroller onboard the Yun
+c) Making the Linux Processor the master device and the microcontroller, the slave device
+d) Making the Linux Processor the slave device and the microcontroller, the master device
+a
+9. What is the purpose of the MKRNB Library?
+a) Connecting to the internet over GSM
+b) Connecting to the internet over Ethernet
+c) Connecting to the internet over Wi-Fi
+d) Connecting to the internet over LAN
+a
+10. Which of the following boards does the WifiNINA Library work on?
+a) Arduino MKR 1010
+b) Arduino Due
+c) Arduino MKR VIDOR 3000
+d) Arduino Micro
+a
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Standard Libraries» Next - Arduino Questions and Answers – Serial and Stream Communications 

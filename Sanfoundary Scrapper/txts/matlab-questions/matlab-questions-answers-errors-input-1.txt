@@ -1,0 +1,128 @@
+1. What will be the output of the following code?
+A=sim(pi)+cod(pi)
+a) A=-1
+b) Undefined function or variable ‘cod’
+c) Undefined function or variable ‘sim’
+d) Undefined function or variable ‘sim’ and ‘cod’
+c
+2. What is the output of the following code?
+A=[1 2 3]; A^2;
+a) [1 4 9] 
+b) A=  1 4 9
+c) A= [1, 4, 9] 
+d) Inputs must be a scalar or a square matrix
+d
+Output: Inputs must be a scalar and a square matrix.
+               To compute element wise POWER, use POWER (.^) instead.
+3. What is the output of the following code?
+Join [email protected]
+A=[1 1; 1 1]; A^2
+a) 
+A = 2 2
+    2 2
+b) 
+A = 1 1
+    1 1
+c) Error using  ^  To compute element wise POWER, use POWER (.^) instead
+d) No output
+a
+Output: Cursor shifts to the next line, waiting for a new line of code.
+4. What is the output of the following code?
+A=[1 2]; B=[1 4]; c=A*B;
+a) c= [1 8] 
+b) 
+c = 1
+    8
+c) Inner Matrix dimensions must agree
+d) No output since we have closed the line of code with a semicolon
+c
+5. What is the output of the following line of code?
+			t=0:pi/8:4pi;
+a) No output as we’ve closed the line of code with a semi-colon
+b) 
+1      2        3        4        5        6        7       8        9
+0    1.5708   3.1416   4.7124   6.2832   7.8540   9.4248  10.9956  12.5664
+c) Error: Unexpected MATLAB expression
+d) Undefined function or variable ‘pi’
+c
+6. What is the error in the code?
+a=[[1;2];(2,3)]
+a) Third brackets are wrong
+b) The semicolon within the second third brackets
+c) There is no error
+d) Error: Expression or statement is incorrect–possibly unbalanced
+d
+7. What is the output in the following code?
+a=[[1;22],[53;9],[13;2]];
+a) There is no output
+b) Columns are to be introduced by placing semi-columns
+c) Dimensions of matrices being concatenated are not consistent
+d) 
+a = 1    53    13
+   22     9     2
+a
+a = 1    53    13
+   22     9     2
+   There is no error and there will be no output since the dimensions of matrices being concatenated are constant.
+  
+8. What is the difference between the two codes?
+a> P=[91,’pi’];
+b> Q=[91,pi];
+a) Code a initialises P as a character array while code b initialises Q as an integer array
+b) Both P and Q will be integer arrays
+c) Code b initialises P as a character array while code a initialises Q as an integer array
+d) Both P and Q will be character arrays
+a
+Output: 
+For a>   P= [pi
+    b>   Q= 91  3.1416
+9.  What is the output of the following code?
+P=tan90
+a) Inf
+b) P = Inf
+c) P = -1.9952
+d) Undefined function or variable ‘tan90’
+d
+10. What is the output for the following code?
+if(a>b) p=9;
+a) No output
+b) Never will there be an output
+c) a, b, p are not initialized
+d) p=9
+b
+11. What is the output of the following code?
+P=sin[90];
+a) P = 1
+b) P = .8932
+c) P = .99999
+d) Error
+d
+12. What is the output of the following code?
+system(cmd)
+a) Opens command prompt
+b) Opens command prompt in a separate window
+c) Opens command prompt in MATLAB
+d) Error
+d
+13. Why is the output, as shown, ‘poe’?
+>>clipboard(‘paste’, ‘Do re Mi fa’)
+ans =
+      ‘poe’
+a) ‘poe’ was initially in the clipboard
+b) Cannot be determined
+c) Error
+d) The text gets changed
+a
+14. What is the output of the following code?
+clipboard('cut','Do re Mi fa')
+a) Error due to syntax
+b) Error due to command
+c) Error due to cut
+d) Cuts the portion of a text where ‘Do re Mi fa’ is written
+c
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Managing Variables» Next - MATLAB Questions and Answers – Errors in Input – 2 

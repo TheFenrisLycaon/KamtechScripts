@@ -1,0 +1,145 @@
+1. The LU method of factorization was introduced by the mathematician____________
+a) Alan Tango
+b) David Hilbert
+c) G. W. Leibniz
+d) Alex Grothendieck
+a
+2. Which of the following step is not involved in the factorization process?
+a) converting the given system to matrix form
+b) the matrix is decomposed into the product of lower and upper triangular matrix
+c) finding the unknowns using matrix multiplication
+d) elimination of unknowns using back substitution
+d
+3. Errors may occur in performing numerical computation on the computer due to which of the following reasons?
+a) Rounding errors
+b) Power fluctuation
+c) Operator fatigue
+d) Back substitution
+a
+4. What is the other name for factorization method?
+a) Doolittle’s Method
+b) Lin Bairstow Method
+c) Muller’s Method
+d) Decomposition Method
+a
+5. Factorization can be viewed as matrix form of Gauss Elimination method.
+a) True
+b) False
+a
+6. What is the principle of factorization?
+a) There exists no inverse for a singular matrix
+b) Determinant of an identity matrix is one
+c) Every square matrix can be expressed as a product of a lower triangular matrix and upper triangular matrix
+d) Every matrix can be expressed as a sum of a skew symmetric and a symmetric matrix
+c
+7. What is the condition applied in factorization method?
+a) Matrix should not be singular
+b) Back substitution should be done
+c) There must exist a diagonal matrix form of the given matrix
+d) All principal minors of the matrix should be non-singular
+d
+8. During computation of elements of L and U, what order should be followed?
+a) First row of U -> Second row of L -> Second column of U -> Second row of U -> Third row of U
+b) First row of U -> First column of L -> Second row of U -> Second column of L -> Third row of U
+c) First column of U -> First row of L -> Second column of U -> Second row of L -> Third row of U
+d) First row of L -> First column of U -> Second row of L -> Second column of U -> Third column of L
+b
+9. What is the other application of Factorization method?
+a) Finding inverse of a matrix
+b) Solving partial differential equations
+c) Solving ordinary differential equations
+d) Finding Eigen values
+a
+10. Factorization method is superior than which of the following methods?
+a) Gauss Elimination
+b) Gauss Seidal
+c) Jacobi’s Method
+d) Iterative Method
+a
+11. Why factorization method is preferred over other methods?
+a) Less calculations
+b) No need of back substitution
+c) No solving of cofactors
+d) No elimination of unknowns
+a
+12. Apply factorization method for solving the following equations.
+3x + 2y + 7z = 4
+2x + 3y + z = 5
+3x + 4y + z = 7
+a) z = -1/3, y = 8/3, x = 7/8
+b) z = -5/3, y = 4/3, x = 7/8
+c) z = 7/3, y = 8/3, x = 9/8
+d) z = -1/3, y = 1/3, x = 5/8
+a
+Let \(\begin{bmatrix}1&0&0\\a&1&0\\b&c&1\end{bmatrix}\)\(\begin{bmatrix}p&q&r\\0&s&t\\0&0&u\end{bmatrix}\) = \(\begin{bmatrix}3&2&7\\2&3&1\\3&4&1\end{bmatrix}\) 
+p = 3, q = 2, r = 7
+ap = 2, aq + s = 3, ar + t = 1
+bp = 3, bq + cs = 4, br + ct + u = 1
+By solving these equations, we get
+a = 2/3
+b = 1
+s = 5/3
+c = 6/5
+t = -11/3
+u = -8/5
+Thus, A =\(\begin{bmatrix}1&0&0\\2/3&1&0\\1&6/5&1\end{bmatrix}\)\(\begin{bmatrix}3&2&7\\0&5/3&-11/3\\0&0&-8/5\end{bmatrix}\) .
+Writing UX = V, the given system becomes
+\(\begin{bmatrix}1&0&0\\2/3&1&0\\1&6/5&1\end{bmatrix}\)\(\begin{bmatrix}i\\j\\k\end{bmatrix}\) = \(\begin{bmatrix}4\\5\\7\end{bmatrix}\) 
+Solving these equations, we have i = 4
+(2/3)i + j = 5 or j = 7/3
+i + (6/5)j + k = 7 or k = 1/5
+Hence, the original system becomes,
+\(\begin{bmatrix}3&2&7\\0&5/3&-11/3\\0&0&-6/5\end{bmatrix}\)\(\begin{bmatrix}4\\5\\7\end{bmatrix}\) = \(\begin{bmatrix}4\\7/3\\1/5\end{bmatrix}\) 
+3x + 2y + 7z = 4
+(5/3y) – 11/3z = 7/3
+-8/5z = 1/5
+By back substitution, we have
+z = -1/3, y = 8/3, x = 7/8.
+13. Apply factorization method for solving the following equations.
+2x + 3y + z = 9
+x + 2y + 3z = 6
+3x + y + 2z = 8
+a) z = 1/2, y = 1/2, x = 7/2
+b) z = 5/2, y = 1/2, x = 9/2
+c) z = 7/2, y = 3/2, x = 3/2
+d) z = 1/2, y = 5/2, x = 3/2
+a
+Let \(\begin{bmatrix}1&0&0\\a&1&0\\b&c&1\end{bmatrix}\)\(\begin{bmatrix}p&q&r\\0&s&t\\0&0&u\end{bmatrix}\) =  \(\begin{bmatrix}2&3&1\\1&2&3\\3&1&2\end{bmatrix}\) 
+p = 2, q = 3, r = 1
+ap = 1, aq + s = 2, ar + t = 3
+bp = 3, bq + cs = 1, br + ct + u = 2
+By solving these equations, we get
+a = 1/2
+b = 3/2
+s = 1/2
+t = 5/2
+c = -7
+u = 18
+Thus, A = \(\begin{bmatrix}1&0&0\\1/2&1&0\\3/2&-7&1\end{bmatrix}\)\(\begin{bmatrix}2&3&1\\0&1/2&5/2\\0&0&18\end{bmatrix}\)  
+Writing UX = V, the given system of equations become
+\(\begin{bmatrix}1&0&0\\1/2&1&0\\3/2&-7&1\end{bmatrix}\)\(\begin{bmatrix}i\\j\\k\end{bmatrix}\) = \(\begin{bmatrix}9\\6\\8\end{bmatrix}\)  
+i = 9
+(1/2) i + j = 6
+(3/2) i – 7j + k = 8
+By back substitution,
+i = 9, j = 3/2, k = 5
+Hence, the original system becomes
+\(\begin{bmatrix}2&3&1\\0&1/2&5/2\\0&0&18\end{bmatrix}\)   \(\begin{bmatrix}x\\y\\z\end{bmatrix}\) = \(\begin{bmatrix}9\\3/2\\5\end{bmatrix}\)  
+2x + 3y + z = 9
+(1/2) y + (5/2) z = 3/2
+10z = 5
+z = 1/2
+By back substitution,
+z = 1/2, y = 1/2, x = 7/2.
+14. While solving a system of linear equations, which of the following will be the order of the decomposed matrices; L and U?
+a) Order of L = 3X1, Order of U = 1X3
+b) Order of L = 3X2, Order of U = 2X3
+c) Order of L = 3X3, Order of U = 3X3
+d) Order of L = 3X4, Order of U = 4X3
+c
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Methods, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Matrix Inversion Questions and Answers – Gauss Jordan Method – 3» Next - Matrix Inversion Questions and Answers – Crout’s Method 

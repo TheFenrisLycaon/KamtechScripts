@@ -1,0 +1,90 @@
+1. What are strings in C#?
+a) a sequence of characters
+b) array of characters
+c) objects of built-in data type
+d) a reference type
+c
+2. Select the namespace in which string class is built?
+a) System.Text
+b) System.Net
+c) System.IO
+d) None of the mentioned
+a
+3. Select the interfaces defined by the string class?
+a) IComparable
+b) IComparable<string>
+c) ICloneable
+d) All of the mentioned
+d
+4. Choose the constructor type used to build strings from character array.
+a) public String(value)
+b) public String(char[ ] value, int startIndex, int length)
+c) public String(char[ ])
+d) all of the mentioned
+b
+public String(char[ ] value, int startIndex, int length) -The second form uses length characters from value, beginning at the index specified by startIndex.
+5. Select the operators used for checking the equality in strings:
+a) !=
+b) >
+c) <
+d) >=
+a
+Join [email protected]
+6. What does the following C# code set specifies?
+public static int Compare(string strA, string strB)
+a) Comparison is case and culture sensitive
+b) Two strings A and B are compared with each other
+c) Output is : >0 for (A > B), <0 for (A < B) else ‘0’ for(A=B)
+d) All of the mentioned
+d
+7. What will be the output of the following C# code snippet?
+static void Main(string[] args){    string s1 = "Hello" + "c" + "Sharp";    Console.WriteLine(s1);    Console.ReadLine();}
+a) Hello c Sharp
+b) HellocSharp
+c) Compile time error
+d) Hello
+a
+Output :
+Hello c Sharp
+8. Which of these operators can be used to concatenate two or more String objects?
+a) +
+b) +=
+c) &
+d) ||
+a
+Console.WriteLine(s1);
+Output :
+Hello I Love ComputerScience.
+9. What does the following C# code set specify?
+public static int Compare(string strA, int indexA, string strB, int indexB, int length, bool ignoreCase)
+a) Comparison begins at strA[indexA] and strB[indexB] and runs for length of characters
+b) Returns output > 0 for for strA > strB else < 0 for strA < strB else if strA = str B output is 0
+c) Comparison is culture sensitive and if ignore case is true, comparison ignores case differences
+d) All of the mentioned
+d
+10. Which string operation does the below-mentioned method define?
+public static string Concat(string str0, string str1)
+a) method returns a string
+b) string str1 is concatenated to the end of str0
+c) can be used to concatenate any number of strings
+d) all of the mentioned
+d
+public static string Concat(string str0, string str1, string str2). Hence, any number of strings can be concatenated using this method.
+11. Choose the base class for string() method.
+a) System.Array
+b) System.char
+c) System.String
+d) None of the mentioned
+c
+12. Did method use to remove whitespace from the string?
+a) Split()
+b) Substring()
+c) Trim()
+d) TrimStart()
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Accessor controls of class» Next - C# Questions & Answers – String Formatting – 1 

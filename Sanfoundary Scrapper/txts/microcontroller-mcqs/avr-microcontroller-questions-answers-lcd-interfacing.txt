@@ -1,0 +1,67 @@
+1. In AVR, the LCD operates in two main modes, it can be in 8 bit or 4 bit data.
+a) true
+b) false
+c) depends on the situation
+d) can’t be said
+a
+2. What can be the sequence of commands that may be used for initializing an LCD?
+a) 0x06, 0x0e, 0x01
+b) 0x0e, 0x01, 0x80
+c) 0x38, 0x0e, 0x01
+d) all of the mentioned
+c
+3. When the LCD operates in the 4 bit mode, then what more commands are added to it?
+a) 33
+b) 32
+c) 28
+d) all of the mentioned
+d
+4. What is the main function of the LPM instruction used in LCD?
+a) for initializing the LCD in the read mode
+b) for initializing the LCD in the write mode
+c) for sending a long string of characters to the LCD
+d) all of the mentioned
+c
+5. The RS pin acts as an
+a) input pin
+b) output pin
+c) any of the mentioned depending on the conditions
+d) none of the mentioned
+a
+Join Sanfoundry@YouTube
+6. To latch in information at the data pins of the LCD, we send
+a) H-L pulse at the E pin
+b) L-H pulse at the E pin
+c) A constant H pulse at the E pin
+d) A constant L pulse at the E pin
+a
+7. What is the function of the 0x06 command?
+a) to clear the LCD
+b) to blink the cursor
+c) to shift the cursor to the right
+d) for selecting the matrix
+c
+8. What is the address of the second column and the second row of the 2*20 LCD?
+a) 0x80
+b) 0x81
+c) 0xc0
+d) 0xc1
+d
+9. Which of the following commands takes more than 100 microseconds to run?
+a) shift cursor left
+b) shift cursor right
+c) set address location of the DDRAM
+d) clear screen
+d
+10. For selecting the data pins in an LCD, RS pin should be
+a) 1
+b) 0
+c) F
+d) 10
+a
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - AVR Microcontroller Questions and Answers – Serial Port Communication» Next - AVR Microcontroller Questions and Answers – Keyboard Interfacing 

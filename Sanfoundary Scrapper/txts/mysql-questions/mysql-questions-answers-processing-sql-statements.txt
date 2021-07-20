@@ -1,0 +1,67 @@
+1. The general statement-issuing routine is _______________
+a) mysql_real_query()
+b) mysql_query_real()
+c) mysql_image_query()
+d) mysql_query_image()
+a
+2. Which of these is more restrictive?
+mysql_query(), mysql_real_query()
+a) mysql_query()
+b) mysql_real_query()
+c) same
+d) machine dependent
+a
+3. For failure, mysql_query() returns _______________
+a) 0
+b) 1
+c) -1
+d) a non-zero
+d
+4. How many of the following return rows?
+SELECT, SHOW, DESCRIBE
+a) 0
+b) 1
+c) 2
+d) 3
+d
+5. mysql_fetch_row() returns _______________
+a) integer
+b) float
+c) structure
+d) pointer
+d
+6. The columns containing binary value that include null bytes will not print properly using the %s printf() format specifier.
+a) True
+b) False
+a
+7. mysql_store_result() does not return a result set.
+a) True
+b) False
+b
+8. How many of the following take a connection handler as an argument?
+mysql_store_result(), mysql_use_result()
+a) 0
+b) 1
+c) 2
+d) 3
+c
+9. Which of these has a lower memory requirements?
+mysql_use_result(), mysql_store_result()
+a) mysql_use_result()
+b) mysql_store_result()
+c) same
+d) machine dependent
+a
+10. How many of the following is considered as a special character by ‘mysql_real_escape_string()’?
+null byte, single quote, backslash
+a) 0
+b) 1
+c) 2
+d) 3
+d
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Handling Errors and Processing Command Options» Next - MySQL Questions and Answers – Writing Clients That Include SSL Support 

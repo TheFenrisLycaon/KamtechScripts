@@ -1,0 +1,76 @@
+1. What is Interprocess communication?
+a) allows processes to communicate and synchronize their actions when using the same address space
+b) allows processes to communicate and synchronize their actions
+c) allows the processes to only synchronize their actions without communication
+d) none of the mentioned
+b
+There are two models of IPC:
+	→ Shared Memory
+	→ Message Passing
+2. Message passing system allows processes to __________
+a) communicate with each other without sharing the same address space
+b) communicate with one another by resorting to shared data
+c) share data
+d) name the recipient or sender of the message
+a
+3. Which of the following two operations are provided by the IPC facility?
+a) write & delete message
+b) delete & receive message
+c) send & delete message
+d) receive & send message
+d
+4. Messages sent by a process __________
+a) have to be of a fixed size
+b) have to be a variable size
+c) can be fixed or variable sized
+d) none of the mentioned
+c
+5. The link between two processes P and Q to send and receive messages is called __________
+a) communication link
+b) message-passing link
+c) synchronization link
+d) all of the mentioned
+a
+6. Which of the following are TRUE for direct communication?
+a) A communication link can be associated with N number of process(N = max. number of processes supported by system)
+b) A communication link is associated with exactly two processes
+c) Exactly N/2 links exist between each pair of processes(N = max. number of processes supported by system)
+d) Exactly two link exists between each pair of processes
+b
+7. In indirect communication between processes P and Q __________
+a) there is another process R to handle and pass on the messages between P and Q
+b) there is another machine between the two processes to help communication
+c) there is a mailbox to help communication between P and Q
+d) none of the mentioned
+c
+8. In the non blocking send __________
+a) the sending process keeps sending until the message is received
+b) the sending process sends the message and resumes operation
+c) the sending process keeps sending until it receives a message
+d) none of the mentioned
+b
+9. In the Zero capacity queue __________
+a) the queue can store at least one message
+b) the sender blocks until the receiver receives the message
+c) the sender keeps sending and the messages don’t wait in the queue
+d) none of the mentioned
+b
+10. The Zero Capacity queue __________
+a) is referred to as a message system with buffering
+b) is referred to as a message system with no buffering
+c) is referred to as a link
+d) none of the mentioned
+b
+11. Bounded capacity and Unbounded capacity queues are referred to as __________
+a) Programmed buffering
+b) Automatic buffering
+c) User defined buffering
+d) No buffering
+b
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions and Answers – Process Creation» Next - Operating System Questions and Answers – Remote Procedure Calls 

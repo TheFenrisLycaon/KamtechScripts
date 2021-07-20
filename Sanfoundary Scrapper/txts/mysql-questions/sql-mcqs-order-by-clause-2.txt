@@ -1,0 +1,81 @@
+1. Keyword “ASC” and “DESC” cannot be used without which clause in Mysql?
+a) ORDER BY
+b) GROUP BY
+c) SELECT
+d) HAVING
+a
+2. What is the significance of “ORDER BY emp_id DESC” in the following MySQL command?
+SELECT emp_id, fname, lname
+FROM person
+ORDER BY emp_id DESC;
+a) Data of emp_id will be sorted in descending order
+b) Data of emp_id will be sorted in ascending order
+c) Data of emp_id will be sorted in either ascending or descending order
+d) All of the mentioned
+a
+3. What is the significance of “ORDER BY emp_id ASC” in the following MySQL command?
+SELECT emp_id, fname, lname
+FROM person
+ORDER BY emp_id ASC;
+a) Data of emp_id will be sorted in descending order
+b) Data of emp_id will be sorted in ascending order
+c) Data of emp_id will be sorted in either ascending or descending order
+d) All of the mentioned
+b
+4. If emp_id contain the following set {9, 7, 6, 4, 3, 1, 2}, what will be the output on execution of the following MySQL command?
+SELECT emp_id
+FROM person
+ORDER BY emp_id DESC;
+a) {9, 7, 6, 4, 3, 1, 2}
+b) {1, 2, 3, 4, 6, 7, 9}
+c) {2, 1, 3, 4, 6, 7, 9}
+d) None of the mentioned
+a
+5. If emp_id contain the following set {9, 7, 6, 4, 3, 1, 2}, what will be the output on execution of the following MySQL command?
+SELECT emp_id
+FROM person
+ORDER BY emp_id ASC;
+a) {9, 7, 6, 4, 3, 1, 2}
+b) {1, 2, 3, 4, 6, 7, 9}
+c) {2, 1, 3, 4, 6, 7, 9}
+d) None of the mentioned
+b
+6. Find odd one out?
+a) GROUP BY
+b) DESC
+c) ASC
+d) ORDER BY
+a
+7. Is there any error in the following MySQL command?
+SELECT emp_id, title, start_date, fname, fed_id
+FROM person
+ORDER BY RIGHT (fed_id, 3);
+a) Yes
+b) No error
+c) Depends
+d) None of the mentioned
+b
+8. Is there any error in the following MySQL command?
+SELECT emp_id, title, start_date, fname, fed_id
+FROM person
+ORDER BY LEFT (fed_id, 3);
+a) Yes
+b) No error
+c) Depends
+d) None of the mentioned
+b
+9. Is there any error in the following MySQL command?
+SELECT emp_id, title, start_date, fname, fed_id
+FROM person
+ORDER BY 2, 5;
+a) Yes
+b) No
+c) Depends
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – The order by Clauses – 1» Next - MySQL Questions and Answers – Conditional Evaluation 

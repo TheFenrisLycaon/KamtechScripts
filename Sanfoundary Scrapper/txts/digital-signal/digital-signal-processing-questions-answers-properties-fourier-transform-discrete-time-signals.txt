@@ -1,0 +1,144 @@
+1. If x(n)=xR(n)+jxI(n) is a complex sequence whose Fourier transform is given as X(ω)=XR(ω)+jXI(ω), then what is the value of XR(ω)?
+a) \(\sum_{n=0}^∞\)xR (n)cosωn-xI (n)sinωn
+b) \(\sum_{n=0}^∞\)xR (n)cosωn+xI (n)sinωn
+c) \(\sum_{n=-∞}^∞\)xR (n)cosωn+xI (n)sinωn
+d) \(\sum_{n=-∞}^∞\)xR (n)cosωn-xI (n)sinωn
+c
+By substituting e-jω = cosω – jsinω in the above equation and separating the real and imaginary parts we get
+XR(ω)=\(\sum_{n=-∞}^∞\)xR (n)cosωn+xI (n)sinωn
+2. If x(n)=xR(n)+jxI(n) is a complex sequence whose Fourier transform is given as X(ω)=XR(ω)+jXI(ω), then what is the value of xI(n)?
+a) \(\frac{1}{2π} \int_0^{2π}\)[XR(ω) sinωn+ XI(ω) cosωn] dω
+b) \(\int_0^{2π}\)[XR(ω) sinωn+ XI(ω) cosωn] dω
+c) \(\frac{1}{2π} \int_0^{2π}\)[XR(ω) sinωn – XI(ω) cosωn] dω
+d) None of the mentioned
+a
+x(n)=\(\frac{1}{2π} \int_0^{2π}\) X(ω)ejωn dω
+By substituting ejω = cosω + jsinω in the above equation and separating the real and imaginary parts we get
+xI(n)=\(\frac{1}{2π} \int_0^{2π}\)[XR(ω) sinωn+ XI(ω) cosωn] dω
+3. If x(n) is a real sequence, then what is the value of XI(ω)?
+a) \(\sum_{n=-∞}^∞ x(n)sin⁡(ωn)\) 
+b) –\(\sum_{n=-∞}^∞ x(n)sin⁡(ωn)\) 
+c) \(\sum_{n=-∞}^∞ x(n)cos⁡(ωn)\) 
+d) –\(\sum_{n=-∞}^∞ x(n)cos⁡(ωn)\) 
+b
+We know that,
+XI(ω)=\(\sum_{n=-∞}^∞ x_R (n)sinωn-x_I (n)cosωn\) 
+Now substitute xI(n)=0 in the above equation=>xR(n)=x(n)
+=> XI(ω)=-\(\sum_{n=-∞}^∞ x(n)sin⁡(ωn)\).
+4. Which of the following relations are true if x(n) is real?
+a) X(ω)=X(-ω)
+b) X(ω)=-X(-ω)
+c) X*(ω)=X(ω)
+d) X*(ω)=X(-ω)
+d
+XR(ω)=\(\sum_{n=-∞}^∞\) x(n)cosωn=>XR(-ω)= XR(ω)
+XI(ω)=-\(\sum_{n=-∞}^∞\) x(n)sin⁡(ωn)=>XI(-ω)=-XI(ω)
+If we combine the above two equations, we get
+X*(ω)=X(-ω)
+5. If x(n) is a real signal, then x(n)=\(\frac{1}{π}\int_0^π\)[XR(ω) cosωn- XI(ω) sinωn] dω.
+a) True
+b) False
+a
+We know that, xR(n)=x(n)=\(\frac{1}{2π}\int_0^{2π}\)[XR(ω) cosωn- XI(ω) sinωn] dω
+Since both XR(ω) cosωn and XI(ω) sinωn are even, x(n) is also even
+=> x(n)=\(\frac{1}{π} \int_0^π\)[XR(ω) cosωn- XI(ω) sinωn] dω
+Join Sanfoundry@YouTube
+6. If x(n) is a real and odd sequence, then what is the expression for x(n)?
+a) \(\frac{1}{π} \int_0^π\)[XI(ω) sinωn] dω
+b) –\(\frac{1}{π} \int_0^π\)[XI(ω) sinωn] dω
+c) \(\frac{1}{π} \int_0^π\)[XI(ω) cosωn] dω
+d) –\(\frac{1}{π} \int_0^π\)[XI(ω) cosωn] dω
+b
+XR(ω)=0
+XI(ω)=\(-2\sum_{n=1}^∞ x(n) sin⁡ωn\) 
+=>x(n)=-\(\frac{1}{π} \int_0^π\)[XI(ω) sinωn] dω
+7. What is the value of XR(ω) given X(ω)=\(\frac{1}{1-ae^{-jω}}\),|a|<1?
+a) \(\frac{asinω}{1-2acosω+a^2}\) 
+b) \(\frac{1+acosω}{1-2acosω+a^2}\) 
+c) \(\frac{1-acosω}{1-2acosω+a^2}\) 
+d) \(\frac{-asinω}{1-2acosω+a^2}\) 
+c
+By multiplying both the numerator and denominator of the above equation by the complex conjugate of the denominator, we obtain
+X(ω)=\(\frac{1-ae^{jω}}{(1-ae^{-jω})(1-ae^{jω})} = \frac{1-acosω-jasinω}{1-2acosω+a^2}\) 
+This expression can be subdivided into real and imaginary parts, thus we obtain
+XR(ω)=\(\frac{1-acosω}{1-2acosω+a^2}\).
+8. What is the value of XI(ω) given \(\frac{1}{1-ae^{-jω}}\), |a|<1?
+a) \(\frac{asinω}{1-2acosω+a^2}\) 
+b) \(\frac{1+acosω}{1-2acosω+a^2}\) 
+c) \(\frac{1-acosω}{1-2acosω+a^2}\) 
+d) \(\frac{-asinω}{1-2acosω+a^2}\) 
+d
+By multiplying both the numerator and denominator of the above equation by the complex conjugate of the denominator, we obtain
+X(ω)=\(\frac{1-ae^{jω}}{(1-ae^{-jω})(1-ae^{jω})} = \frac{1-acosω-jasinω}{1-2acosω+a^2}\) 
+This expression can be subdivided into real and imaginary parts, thus we obtain
+XI(ω)=\(\frac{-asinω}{1-2acosω+a^2}\).
+9. What is the value of |X(ω)| given X(ω)=1/(1-ae-jω), |a|<1?
+a) \(\frac{1}{\sqrt{1-2acosω+a^2}}\) 
+b) \(\frac{1}{\sqrt{1+2acosω+a^2}}\) 
+c) \(\frac{1}{1-2acosω+a^2}\) 
+d) \(\frac{1}{1+2acosω+a^2}\) 
+a
+XI(ω)=(-asinω)/(1-2acosω+a2) and XR(ω)=(1-acosω)/(1-2acosω+a2)
+We know that |X(ω)|=\(\sqrt{X_R (ω)^2+X_I (ω)^2}\) 
+Thus on calculating, we obtain
+|X(ω)| =  \(\frac{1}{\sqrt{1-2acosω+a^2}}\).
+10. If x(n)=A, -M<n<M,; x(n)=0, elsewhere. Then what is the Fourier transform of the signal?
+a) A\(\frac{sin⁡(M-\frac{1}{2})ω}{sin⁡(\frac{ω}{2})}\) 
+b) A2\(\frac{sin⁡(M+\frac{1}{2})ω}{sin⁡(\frac{ω}{2})}\) 
+c) A\(\frac{sin⁡(M+\frac{1}{2})ω}{sin⁡(\frac{ω}{2})}\) 
+d) \(\frac{sin⁡(M-\frac{1}{2})ω}{sin⁡(\frac{ω}{2})}\) 
+c
+\(X(ω)=X_R(ω)=A(1+2∑_{n=1}^∞ cos⁡ωn)\) 
+On simplifying the above equation, we obtain
+X(ω)=A\(\frac{sin⁡(M+\frac{1}{2})ω}{sin⁡(\frac{ω}{2})}\).
+11. What is the Fourier transform of the signal x(n)=a|n|, |a|<1?
+a) \(\frac{1+a^2}{1-2acosω+a^2}\) 
+b) \(\frac{1-a^2}{1-2acosω+a^2}\) 
+c) \(\frac{2a}{1-2acosω+a^2}\) 
+d) None of the mentioned
+b
+x(n)=x1(n)+x2(n)
+where x1(n)= an, n>0
+=0, elsewhere
+x2(n)=a-n, n<0
+=0, elsewhere
+Now applying Fourier transform for the above two signals, we get
+X1(ω)=\(\frac{1}{1-ae^{-jω}}\) and X2(ω)=\(\frac{ae^{jω}}{1-ae^{jω}}\) 
+Now, X(ω)=X1(ω)+ X2(ω)=\(\frac{1}{1-ae^{-jω}}+\frac{ae^{jω}}{1-ae^{jω}}=\frac{1-a^2}{1-2acosω+a^2}\).
+12. If X(ω) is the Fourier transform of the signal x(n), then what is the Fourier transform of the signal x(n-k)?
+a) ejωk. X(-ω)
+b) ejωk. X(ω)
+c) e-jωk. X(-ω)
+d) e-jωk. X(ω)
+d
+F{x(n)}= X(ω)=\(\sum_{n=-∞}^∞ x(n)e^{-jωn}\) 
+=>F{x(n-k)}=\(\sum_{n=-∞}^∞ x(n-k)e^{-jωn}=e^{-jωk}.\sum_{n=-∞}^∞ x(n-k)e^{-jω(n-k)}\) 
+=>F{x(n-k)}= e-jωk. X(ω)
+13. What is the convolution of the sequences of x1(n)=x2(n)={1,1,1}?
+a) {1,2,3,2,1}
+b) {1,2,3,2,1}
+c) {1,1,1,1,1}
+d) {1,1,1,1,1}
+a
+By calculating the Fourier transform of the above two signals, we get
+X1(ω)= X2(ω)=1+ ejω + e-jω = 1+2cosω
+From the convolution property of Fourier transform we have,
+X(ω)= X1(ω). X2(ω)=(1+2cosω)2=3+4cosω+2cos2ω
+By applying the inverse Fourier transform of the above signal, we get
+x1(n)*x2(n)={1,2,3,2,1}
+14. What is the energy density spectrum of the signal x(n)=anu(n), |a|<1?
+a) \(\frac{1}{1+2acosω+a^2}\) 
+b) \(\frac{1}{1-2acosω+a^2}\) 
+c) \(\frac{1}{1-2acosω-a^2}\) 
+d) \(\frac{1}{1+2acosω-a^2}\) 
+b
+The auto correlation of the above signal is
+rxx(l)=\(\frac{1}{1-a^2}\) a|l|, -∞< l <∞
+According to Wiener-Khintchine Theorem,
+Sxx(ω)=F{rxx(l)}=\([\frac{1}{1-a^2}]\).F{a|l|} = \(\frac{1}{1-2acosω+a^2}\)
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Frequency Analysis of Discrete Time Signal – 2» Next - Digital Signal Processing Questions and Answers – Frequency Domain Characteristics of LTI System 

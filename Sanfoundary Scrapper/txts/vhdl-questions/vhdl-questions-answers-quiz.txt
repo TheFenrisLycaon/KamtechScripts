@@ -1,0 +1,111 @@
+1. It is possible to use sensitivity list and wait statements in the same process.
+a) True
+b) False
+b
+2. The process can be __________ by using WAIT statements.
+a) Suspended
+b) Resumed
+c) Suspended as well as resumed
+d) Cannot be determined
+c
+3. A postponed process runs when ___________
+a) All the other processes have completed
+b) After completion of one particular process
+c) Concurrently with all other processes
+d) First of all processes
+a
+4. Which of the following statement can’t be used inside a process?
+a) WAIT
+b) IF ELSE
+c) Variable declaration
+d) PORT MAP
+d
+5. Which of the following signal cause the process to execute?
+PROCESS (clr)
+BEGIN
+IF (clr = ‘1’) THEN
+y &lt;= ‘0’;
+ELSE
+y &lt;= input;
+END PROCESS;
+a) input
+b) y
+c) clr
+d) x
+c
+6. The value of y is initially 1 and it is changed after one delta cycle to 0. How many delta cycles (starting from the beginning) will be taken to change the initial value of z, refer to the process given below?
+PROCESS (y)
+BEGIN
+x &lt;=y;
+z &lt;= NOT y;
+END PROCESS
+a) 1
+b) 2
+c) 3
+d) 4
+b
+7. A combinational process must have all the _________ signals in its sensitivity list.
+a) Input
+b) Output
+c) Declared
+d) Used
+a
+8. There is no restriction on the number of wait statements inside a process.
+a) True
+b) False
+a
+9. Which of the following circuit can’t be described without using a process statement?
+a) Multiplexer
+b) D flip-flop
+c) Decoder
+d) Comparator
+b
+10. Which of the following signal uses keyword EVENT?
+a) Variables
+b) Output
+c) Input
+d) Clock
+d
+11. Refer to the code given below, what kind of circuit is designed?
+SIGNAL x : IN BIT;
+SIGNAL y : OUT BIT;
+SIGNAL clk : IN BIT;
+PROCESS (clk)
+BEGIN
+IF (clk’EVENT and clk = ‘1’)
+y ;&lt= x;
+END PROCESS
+a) Buffer
+b) Latch
+c) Flip flop
+d) Shift Register
+c
+12. The driver(s) of signal y is _________
+PROCESS ()
+BEGIN
+y &lt;= ‘1’;
+y &lt;= x;
+y &lt;= z;
+END PROCESS;
+a) z
+b) x
+c) x and z
+d) 1
+a
+13. The resolution function is needed to resolve the value of _______
+PROCESS ()
+BEGIN
+y &lt;= x;
+y &lt;= z;
+END PROCESS;
+a) z
+b) y
+c) x
+d) No x, y and z
+d
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL for Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Process Statement – 1» Next - VHDL Questions and Answers – IF Statement 

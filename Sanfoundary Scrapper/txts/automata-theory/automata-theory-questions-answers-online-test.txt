@@ -1,0 +1,71 @@
+1. If L1, L2 are regular and op(L1, L2) is also regular, then L1 and L2 are said to be ____________ under an operation op.
+a) open
+b) closed
+c) decidable
+d) none of the mentioned
+b
+2. Suppose a regular language L is closed under the operation halving, then the result would be:
+a) 1/4 L will be regular
+b) 1/2 L will be regular
+c) 1/8 L will be regular
+d) Al of the mentioned
+d
+3. If L1′ and L2′ are regular languages, then L1.L2 will be
+a) regular
+b) non regular
+c) may be regular
+d) none of the mentioned
+a
+4. If L1 and L2′ are regular languages, L1 ∩ (L2′ U L1′)’ will be
+a) regular
+b) non regular
+c) may be regular
+d) none of the mentioned
+a
+5. If A and B are regular languages, !(A’ U B’) is:
+a) regular
+b) non regular
+c) may be regular
+d) none of the mentioned
+a
+6. Which among the following are the boolean operations that under which regular languages are closed?
+a) Union
+b) Intersection
+c) Complement
+d) All of the mentioned
+d
+a) Regular expression operations
+b) Boolean operations
+c) Homomorphism
+d) Inverse Homomorphism
+7. Suppose a language L1 has 2 states and L2 has 2 states. After using the cross product construction method,	we have a machine M that accepts L1 ∩ L2. The total number of states in M:
+a) 6
+b) 4
+c) 2
+d) 8
+4
+where Q=Q1*Q2 and F=F1*F2
+8. If L is a regular language, then (L’)’ U L will be :
+a) L
+b) L’
+c) f
+d) none of the mentioned
+a
+9. If L is a regular language, then (((L’)r)’)* is:
+a) regular
+b) non regular
+c) may be regular
+d) none of the mentioned
+a
+10. Which among the following is the closure property of a regular language?
+a) Emptiness
+b) Universality
+c) Membership
+d) None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice  all areas of Automata Theory for online tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Applications of Pumping Lemma/Pigeonhole principle» Next - Automata Theory Questions and Answers –  Reversal-Homomorphism and Inverse Homomorphism 

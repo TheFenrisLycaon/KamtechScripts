@@ -1,0 +1,134 @@
+1. Which of the following step is not involved in Gauss Elimination Method?
+a) Elimination of unknowns
+b) Reduction to an upper triangular system
+c) Finding unknowns by back substitution
+d) Evaluation of cofactors
+d
+2. Gauss Elimination Method is well adopted for which of the application?
+a) Computer operations
+b) Network circuit problems
+c) MATLAB operations
+d) Telecommunication operations
+a
+3. What are the coefficients of the equation obtained during the elimination called?
+a) Joints
+b) Pivots
+c) Calculated coefficients
+d) Operative coefficients
+b
+4. How the transformation of coefficient matrix A to upper triangular matrix is done?
+a) Elementary row transformations
+b) Elementary column transformations
+c) Successive multiplication
+d) Successive division
+a
+5. How many types of pivoting are there?
+a) 2
+b) 3
+c) 4
+d) 5
+a
+6. The modified procedure of complete pivoting is called as ____________
+a) Partial
+b) Additional
+c) Reduced
+d) Modified
+a
+7. Apply Gauss Elimination method to solve the following equations.
+x + 4y – z = -5
+x + y – 6z = -12
+3x – y – z = 4
+Join Sanfoundry@YouTube
+a) x = 1.6479, y = -1.1408, z = 2.0845
+b) x = 4.0461, y = -1.1408, z = 3.254
+c) x = 7.2478, y = -2.586, z = 8.265
+d) x = 2.8471, y = 5.5123, z = 2.0845
+a
+x + y – 6z = -12 …………………..(ii)
+3x – y – z = 4 …………………….(iii)
+To eliminate x, operate (ii) – (i) and (iii) – 3(i),
+-3y – 5z = -7 ………………………(iv)
+-13 + 2z = 19 ………………………(v)
+To eliminate y, (v) – (13/3)(iv),
+(71/3) z = (148/3)
+Now by back substitution,
+Z = \(\frac{148}{71}\) = 2.0845
+Y = \(\frac{7}{3} – \frac{5}{3}(\frac{148}{71})\) 
+= \(\frac{-81}{71}\) = -1.1408
+X = -5 -4\((\frac{-81}{71}) + (\frac{148}{71})\) 
+= \(\frac{117}{71}\) = 1.6479
+Hence x = 1.6479, y = -1.1408, z = 2.0845.
+8. Apply Gauss Elimination method to solve the following equations.
+10x – 7y = 3z + 5u = 6
+-6x + 8y – z – 4u = 5
+3x + y + 4z + 11u = 2 
+5x – 9y – 2z + 4u = 7
+a) u = 1, z = -7, y = 4, x = 5
+b) u = 1, z = -7, y = 4, x = 5
+c) u = 1, z = -7, y = 4, x = 5
+d) u = 1, z = -7, y = 4, x = 5
+d
+-6x + 8y – z – 4u = 5 ………………….(ii)
+3x + y + 4z + 11u = 2 ………………….(iii)
+5x – 9y – 2z + 4u = 7 ………………….(iv)
+To eliminate x, operate
+[(ii) – \((\frac{-6}{10})\) (i)], [(iii) – \(\frac{3}{10}\)(i)] and [(iv) – \(\frac{5}{10}\)(i)] 
+3.8y + 0.8z – u = 8.6 ……………………(v)
+3.1y + 3.1z + 9.5u = 0.2 …………………(vi)
+-5.5y – 3.5z + 1.5u = 4 ………………….(vii)
+To eliminate y, operate [(vi) – \(\frac{3.1}{3.8}\)(v)], [(vii) – \(\frac{5.5}{3.8}\)(v)],
+2.447z + 10.31u = -6.815 …………………(viii)
+-2.342z + 0.052u = 16.44 …………………(ix)
+To eliminate z operate [(ix) – \((\frac{-2.342}{2.447})\) (viii)] ,
+9.924u = 9.924
+By back substitution,
+u = 1, z = -7, y = 4, x = 5.
+9. Apply Gauss Elimination method to solve the following equations.
+2x + y + z = 10
+3x + 2y + 3z = 18
+X + 4y + 9z = 16
+a) X = 7, y = -4, z = 5
+b) X = 7, y = -9, z = 5
+c) X = 5, y = 1, z = -8
+d) X = 5, y = 1, z = -3
+b
+2x + y + z = 10 ………………….(i)
+3x + 2y + 3z = 18 ………………..(ii)
+x + 4y + 9z = 16 …………………(iii)
+To eliminate x, operate (i) – 2(iii), (ii) – 3(iii)
+7y + 17z = 22 ……………………(iv)
+5y + 12z = 15 ……………………(v)
+To eliminate y, operate [(iv) – \(\frac{7}{5}\)(v)] 
+0.2z = 1
+By back substitution,
+z = 5
+7y = 22 – 85
+y= -9
+x = 16 + 36 – 45
+x = 7
+Hence, x = 7, y = -9, z = 5.
+10. Apply Gauss Elimination method to solve the following equations.
+2x – y + 3z = 9
+x + y + z = 6
+x – y + z = 2
+a) X = 5, y = 14, z = 5
+b) X = -13, y = 4, z = 15
+c) X = -13, y = 1, z = -8
+d) X = 13, y = 1, z = -8
+b
+x + y + z = 6 ……………………(ii)
+x – y + z = 2 ……………………(iii)
+To eliminate x, operate (ii) – (iii)
+y = 4
+Now, operate (i) – 2(ii),
+-3y + z = 3
+Now by back substitution,
+Z = 15
+X + 4 +15 = 6
+X = -13.
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice  all areas of Numerical Methods, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Numerical Analysis Questions and Answers – Gauss Elimination Method – 1» Next - Numerical Analysis Questions and Answers – Gauss Jordan Method – 1 

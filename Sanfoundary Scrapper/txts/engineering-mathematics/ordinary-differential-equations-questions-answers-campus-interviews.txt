@@ -1,0 +1,216 @@
+1. Find the General Solution of the given differential equation.
+\((8x+7)\frac{dy}{dx}+2y=x\) 
+a) \(c_1(\frac{1}{(8x+7)})^\frac{1}{4}+\frac{(8x+7)}{40}-\frac{5}{16}\) 
+b) \(c_1(\frac{1}{(8x+7)})^\frac{1}{4}+\frac{(8x+7)}{80}-\frac{7}{8}\) 
+c) \(c_1(\frac{1}{(8x+7)})^\frac{1}{4}+\frac{(8x+7)}{40}-\frac{7}{16}\) 
+d) \(c_1(\frac{1}{(8x+7)})^\frac{1}{4}+\frac{(8x+7)}{80}-\frac{7}{16}\) 
+d
+Let log⁡(8x+7)=z
+Then, ez=8x+7
+\((8x+7)\frac{dy}{dx}=8Dy\), where D=\(\frac{d}{dz} \) 
+Substituting this in the equation,
+8Dy+2y=x
+y(8D+2)=x
+Thus the auxiliary equation is  8D+2=0
+Thus, D = \(\frac{-1}{4}\) 
+C.F = \(c_1 e^{\frac{-z}{4}} = c_1(\frac{1}{(8x+7)})^\frac{1}{4}\) 
+P.I = \(\frac{1}{(8D+2)} × x\) 
+= \(\frac{1}{(8D+2)} × (\frac{e^z-7}{8})\) 
+= \(\frac{1}{(8D+2)} × \frac{e^z}{8} – \frac{1}{(8D+2)} × \frac{7}{8} × e^0 \)(Solving by substituting powers of ez)
+= \(\frac{e^z}{80}-\frac{7}{16}\) 
+=\(\frac{(8x+7)}{80}-\frac{7}{16}\) 
+The General solution is C.F+P.I = \(c_1(\frac{1}{(8x+7)})^\frac{1}{4}+\frac{(8x+7)}{80}-\frac{7}{16}.\) 
+2. Find the Continuous Function and Particular Integral for the given differential equation.
+\((2x+3)\frac{dy}{dx}-3y=8x\) 
+a) \(c_1(2x+3)^\frac{5}{2}, -4(2x+3)-4\) 
+b) \(c_1(2x+3)^\frac{3}{2}, -2(2x+3)-4\) 
+c) \(c_1(2x+3)^\frac{3}{2}, -4(2x+3)-4\) 
+d) \(c_1(2x+3)^\frac{3}{2}, -4(2x+3)-4\) 
+c
+Assume log(2x+3)=z
+Then, ez=2x+3
+\((2x+3)\frac{dy}{dx}=2Dy\), where D=\(\frac{d}{dz}\) 
+Substituting this in the equation,
+2Dy-3y=8x
+y(2D-3)=8x
+Thus the auxiliary equation is 2D-3=0
+Thus, D=\(\frac{3}{2}\) 
+C.F=\(c_1 e^\frac{3z}{2} = c_1(2x+3)^\frac{3}{2}\) 
+P.I=\(\frac{1}{(2D-3)}×8x\) 
+=\(\frac{1}{(2D-3)}×8(\frac{e^z-3}{2})\) 
+=\(\frac{1}{(2D-3)}×e^\frac{z}{2}×8-\frac{1}{(2D-3)}×8×\frac{-3}{2}×e^0\) (Solving by substituting powers of ez)
+=-4ez-4
+=-4(2x+3)-4
+Thus, C.F is \(c_1(2x+3)^\frac{3}{2}\) 
+And P.I is -4(2x+3)-4.
+3. Find the C.F of the following Differential Equation.
+\((2x+3)^2 \frac{d^2 y}{dx^2} + (2x+3)\frac{dy}{dx} – 2y = x \) 
+a) \(c_1(2x+3)+ c_2(2x+3)^\frac{-1}{2}\) 
+b) \(c_1(2x+3)+ c_2(2x+3)^\frac{1}{2}\) 
+c) \(c_1(2x+3)+ c_2(2x+3)^\frac{-3}{2}\) 
+d) \(c_1(2x+3)+ c_2(2x+3)^\frac{-1}{2}\) 
+a
+Then, ez=(2x+3)
+(2x+3)\(\frac{dy}{dx}\)=2Dy, Where D is \(\frac{d}{dz}\) 
+\((2x+3)^2 \frac{d^2 y}{dx^2}=2^2 D(D-1)y\) 
+Substituting in the equation given
+4D(D-1)y+2Dy-2y=x
+y(4D(D-1)+2D-2)=x
+y(4D2-2D-2)=x
+Thus, the Auxiliary Equation is  4D2-2D-2
+D=1 or D=\(\frac{-1}{2}\) 
+Thus, the C.F for the given equation is \(c_1e^z + c_2e^\frac{-z}{2}=c_1(2x+3) + c_2(2x+3)^\frac{-1}{2}\).
+4. Find the P.I of the given Differential Equation.
+\((x+1)^2 \frac{d^2 y}{dx^2}+(x+1) \frac{dy}{dx}+y=sin⁡(log⁡(1+x))\) 
+a) -log⁡(x+1)×\(\frac{cos⁡(log⁡(x+1))}{2}\) 
+b) -log⁡(x+1)×\(\frac{sin⁡(log⁡(x+1))}{2}\) 
+c) log⁡(x+1)×\(\frac{cos⁡(log⁡(x+1))}{2}\) 
+d) -log⁡(x+2)×\(\frac{cos⁡(log⁡(x+1))}{2}\) 
+a
+Then, ez=(x+1)
+\((x+1)\frac{dy}{dx}=Dy\), Where D is \(\frac{d}{dz}\) 
+\((x+1)^2 \frac{d^2 y}{dx^2}=D(D-1)y\) 
+Substituting in the equation given
+D(D-1)y+Dy+y = sin⁡(log⁡(1+x))
+y(D(D-1)+D+1) = sin⁡(log⁡(1+x))
+y(D2+1) = sin⁡(log⁡(1+x))
+Thus, the Auxiliary Equation is  D2+1
+P.I = \(\frac{1}{D^2+1}\)×sin⁡(z)
+To find P.I, substitute D2=-(1)2
+Since the denominator becomes zero, multiply the numerator by z and differentiate the denominator.
+P.I = \(\frac{z}{2D}\)×sin⁡(z)
+=\(\frac{-zcos(z)}{2}\) 
+=-log⁡(x+1)×\(\frac{cos⁡(log⁡(x+1))}{2}\).
+5. Solve this Differential Equation to find its General Solution.
+\((x+3)\frac{d^2y}{dx^2}+2 \frac{dy}{dx}+\frac{y}{(x+3)}=4\) 
+a) \(\frac{4x}{3}+2+\frac{1}{(x+3)}×c_1cos⁡(\frac{\sqrt{3}}{2} log⁡(x+3))+c_2sin⁡(\frac{\sqrt{3}}{2} log⁡(x+3))\) 
+b) \(\frac{4x}{3}+4+\frac{1}{(x+3)}×c_1cos⁡(\frac{\sqrt{3}}{2} log⁡(x+3))+c_2sin⁡(\frac{\sqrt{3}}{2} log⁡(x+3))\) 
+c) \(x+4+\frac{1}{(x+3)}×c_1cos⁡(\frac{\sqrt{3}}{2} log⁡(x+3))+c_2sin⁡(\frac{\sqrt{3}}{2} log⁡(x+3))\) 
+d) \(\frac{2x}{3}+4+\frac{1}{(x+3)}×c_1cos⁡(\frac{\sqrt{3}}{2} log⁡(x+3))+c_2sin⁡(\frac{\sqrt{3}}{2} log⁡(x+3))\) 
+b
+We get the equation,
+\((x+3)^2 \frac{d^2 y}{dx^2}+2(x+3) \frac{dy}{dx}+y=4(x+3)\) 
+This equation is in Legendre’s form.
+Assume log⁡(x+3)=z
+Then, ez=(x+3)
+\((x+3)\frac{dy}{dx}=Dy\), Where D is \(\frac{d}{dz}\) 
+\((x+3)^2 \frac{d^2 y}{dx^2}=D(D-1)y\) 
+Substituting in the equation given
+D(D-1)y+2Dy+y=4(x+3)
+y(D(D-1)+2D+1)=4(x+3)
+y(D2+D+1)=4(x+3)
+Thus, the Auxiliary Equation is  D2+D+1=0
+\(D=\frac{-1}{2}+\frac{\sqrt{3}}{2}i \,or\. D=\frac{-1}{2}-\frac{\sqrt{3}}{2}i\) 
+Thus, the C.F for the given equation is \(e^{\frac{-z}{2}} (c_1cos⁡(\frac{\sqrt{3}}{2}z)+c_2sin⁡(\frac{\sqrt{3}}{2}z))\) 
+C.F = \(\frac{1}{(x+3)}× c_1cos⁡(\frac{\sqrt{3}}{2} log⁡(x+3))+c_2sin⁡(\frac{\sqrt{3}}{2} log⁡(x+3))\) 
+P.I = \(\frac{1}{D^2+D+1}×4e^z\) 
+To find P.I, substitute D=1
+P.I = \(\frac{4×e^z}{3}\) 
+= \(\frac{4×(x+3)}{3}\) 
+= \(\frac{4x}{3}+4\) 
+Thus, the general solution is
+ \(\frac{1}{(x+3)}× c_1cos⁡(\frac{\sqrt{3}}{2} log⁡(x+3))+c_2sin⁡(\frac{\sqrt{3}}{2} log⁡(x+3))+\frac{4x}{3}+4\) .
+6. Find the C.F for the following Differential Equation.
+\((3x+2)^3 \frac{d^3y}{dx^3}+2(3x+2)^2 \frac{d^2 y}{dx^2}+(3x+2) \frac{dy}{dx}-y=(3x+2)^2\) 
+a) \(c_1(3x+2)^{0.022}+(3x+2)^{1.15}(c_2 cos⁡(0.22 log⁡(3x+2))+c_3 sin(0.22 log⁡(3x+2)))\) 
+b) \(c_1(3x+2)^{0.022}+(3x+2)^{1.15}(c_2 cos⁡(0.22 log⁡(3x+3))+c_3 sin(0.22 log⁡(3x+2)))\) 
+c) \(c_1(3x+2)^{0.026}+(3x+2)^{1.15}(c_2 cos⁡(0.22 log⁡(3x+2))+c_3 sin(0.22 log⁡(3x+2)))\) 
+d) \(c_1(3x+2)^{0.022}+(3x+2)^{1.15}(c_2 sin⁡(0.22 log⁡(3x+2))+c_3 sin(0.22 log⁡(3x+2)))\) 
+c
+Assume log⁡(3x+2)=z
+Then, ez=(3x+2)
+\((3x+2) \frac{dy}{dx}=3Dy\), Where D is \(\frac{d}{dz}\) 
+\((3x+2)^2 \frac{d^2 y}{dx^2}=3^2 D(D-1)y\) 
+\((3x+2)^3 \frac{d^3 y}{dx^3}=3^3 D(D-1)(D-2)y\) 
+Substituting in the equation given
+27D(D-1)(D-2)y+18D(D-1)y+3Dy-y=(3x+2)2
+y(27(D(D-1)(D-2))+18(D(D-1))+3D-1)=(3x+2)2
+y(27D3-63D2+39D-1)
+Thus the Auxiliary Equation is 27D3-63D2+39D-1=0
+D=0.026 or D=1.15+0.22i or D=1.15-0.22i
+Thus, the C.F of the equation is given by
+C.F=\(c_1e^{0.026z}+e^{1.15z} (c_2cos⁡(0.22z)+c_3sin(0.22z))\) 
+C.F=\( c_1(3x+2)^{0.026}+(3x+2)^{1.15} (c_2cos⁡(0.22 log⁡(3x+2))+c_3sin(0.22 log⁡(3x+2)))\).
+7. Find the solution for the given Higher Order Differential Equation.
+\(2(3x+5)^2 \frac{d^2 y}{dx^2}+(3x+5) \frac{dy}{dx}+y=sin⁡(log⁡(3x+5))\) 
+a) \(c_1(3x+5)^{0.76}+ c_2(3x+5)^{0.073}+\frac{-(15(cos⁡(log⁡(3x+5))+17 sin⁡(log⁡(3x+5)))))}{64}\) 
+b) \(c_1(3x+5)^{0.76}+ c_2(3x+7)^{0.073}+\frac{-(15(cos⁡(log⁡(3x+5))+17 sin⁡(log⁡(3x+5)))))}{64} \) 
+c) \(c_1(3x+5)^{0.76}+ c_2(3x+7)^{0.073}+\frac{-(15(cos⁡(log⁡(3x+5))+17 sin⁡(log⁡(3x+5)))))}{16} \) 
+d) \(c_1(3x+5)^{0.76}+ c_2(3x+5)^{0.073}+\frac{-(15(cos⁡(log⁡(3x+5))+17 sin⁡(log⁡(3x+5)))))}{16} \) 
+a
+Assume log⁡(3x+5)=z
+Then, ez=(3x+5)
+\((3x+5) \frac{dy}{dx}=3Dy\), Where D is \(\frac{d}{dz}\) 
+\((3x+5)^2 \frac{d^2 y}{dx^2}=3^2 D(D-1)y\) 
+Substituting in the equation given
+(2×9)D(D-1)y+3Dy+y= sin⁡(log⁡(1+x))
+y(18(D2-D)+3D+1) = sin⁡(log⁡(1+x))
+y(18D2-15D+1) = sin⁡(log⁡(1+x))
+Thus, the Auxiliary Equation is 18D2-15D+1
+D=0.76 or D=-0.073
+Thus, the C.F for the given equation is
+\(c_1e^{0.76}z+ c_2e^{0.073}z=c_1(3x+5)^{0.76}+ c_2(3x+5)^{0.073}\) 
+P.I = \(\frac{1}{(18D^2-15D+1)}×sin⁡(z)\) 
+To find P.I, substitute D2=-(1)2
+=\(\frac{1}{(-17-15D)}×sin⁡(z)\) 
+Multiplying numerator and Denominator with factor(17-15D)
+=\(\frac{(-15D+17)}{64}×sin⁡(z)\), Using a2-b2=(a+b)(a-b) and substituting D2=-(1)2
+=\((15(-cos⁡(z)-17 sin⁡(z)))/64\) 
+=\(\frac{-(15(cos⁡(log⁡(3x+5))+17 sin⁡(log⁡(3x+5)))))}{64}\) 
+Thus, the general solution is
+\(c_1(3x+5)^{0.76}+ c_2(3x+5)^{0.073}+\frac{-(15(cos⁡(log⁡(3x+5))+17 sin⁡(log⁡(3x+5)))))}{64}\) .
+8. Find the C.F for the given Higher Order Differential Equation.
+\(x^2 \frac{d^2 y}{dx^2}+3(x+2) \frac{dy}{dx}+4(1+x) \frac{d^2 y}{dx^2}+2y=x\) 
+a) \(\frac{1}{(x+1)}×(c_1cos⁡(log⁡(x+2))+c_2sin⁡(log⁡(x+2)))\) 
+b) \(\frac{1}{(x+2)}×(c_1cos⁡(log⁡(x+2))+c_2cos⁡(log⁡(x+2)))\) 
+c) \(\frac{1}{(x+1)}×(c_1cos⁡(log⁡(x+1))+c_2sin⁡(log⁡(x+1)))\) 
+d) \(\frac{1}{(x+2)}×(c_1cos⁡(log⁡(x+2))+c_2sin⁡(log⁡(x+2)))\) 
+d
+\((x+2)^2 \frac{d^2 y}{dx^2}+3(x+2) \frac{dy}{dx}+2y=x\) 
+This is in Legendre’s Form.
+Let, log⁡(x+2)=z
+Then, ez=(x+2)
+\((x+2) \frac{dy}{dx}=Dy\), Where D is \(\frac{d}{dz}\) 
+\((x+2)^2 \frac{d^2 y}{dx^2}=D(D-1)y\) 
+Substituting in the equation given
+D(D-1)y+3Dy+2y=x
+y((D2-D)+3D+2)=x
+y(D2+D+2)=x
+Thus, the Auxiliary Equation is y(D2+D+2)=0
+D=-1+i or D=-1-i
+C.F is
+\(e^{-z}(c_1cos⁡(z)+c_2sin⁡(z))=\frac{1}{(x+2)}×(c_1cos⁡(log⁡(x+2))+c_2sin⁡(log⁡(x+2)))\).
+9. Find the P.I for the given Differential Equation.
+\(16x^2 \frac{d^2 y}{dx^2}+(2x+4) \frac{dy}{dx}+4x(x+4) \frac{d^2 y}{dx^2}+2y=cos⁡(log⁡(2x+4))\) 
+a)  \(\frac{1}{4}×(-sin⁡(log⁡(2x+4))+cos⁡(log⁡(2x+4)))\) 
+b)  \(\frac{1}{4}×(-sin⁡(log⁡(2x+4))-cos⁡(log⁡(2x+4)))\) 
+c)  \(\frac{1}{2}×(-sin⁡(log⁡(2x+4))-cos⁡(log⁡(2x+4)))\) 
+d)  \(\frac{1}{2}×(-sin⁡(log⁡(2x+4))+cos⁡(log⁡(2x+4)))\) 
+b
+The equation becomes-
+\((2x+4)^2 \frac{d^2 y}{dx^2}+(2x+4) \frac{dy}{dx}+2y= cos⁡(log⁡(2x+4))\) 
+This is in Legendre’s Form.
+Let, log⁡(2x+4)=z
+Then, ez=(2x+4)
+\((2x+4) \frac{dy}{dx}=2Dy\), Where D is \(\frac{d}{dz}\) 
+\((2x+4)^2 \frac{d^2 y}{dx^2}=4D(D-1)y\) 
+Substituting in the equation given
+4D(D-1)y+2Dy+2y=cos⁡(log⁡(2x+4))
+y(4(D2-D)+2D+2)=cos⁡(log⁡(2x+4))
+y(4D2-2D+2)=cos⁡(log⁡(2x+4))
+Thus, the Auxiliary Equation is  y(4D2-2D+2)=0
+P.I = \(\frac{1}{4D^2-2D+2}×cos⁡(log⁡(2x+4))\) 
+= \(\frac{1}{4D^2-2D+2}×cos⁡(z)\) 
+In case of cos⁡() function, Substitute D2=-(1)2
+= \(\frac{1}{-2-2D}×cos⁡(z)=\frac{-1}{2}×\frac{1}{(D+1)}×cos⁡(z)\) 
+Multiplying numerator and Denominator with factor(D-1)
+=\(\frac{1}{4}×(D-1)×cos⁡(z)\) 
+=\(\frac{1}{4}×(-sin⁡(z)-cos⁡(z))\) 
+=\(\frac{1}{4}×(-sin⁡(log⁡(2x+4))-cos⁡(log⁡(2x+4)))\) 
+Thus, the P.I for the given equation is =\(\frac{1}{4}×(-sin⁡(log⁡(2x+4))-cos⁡(log⁡(2x+4)))\).
+Sanfoundry Global Education & Learning Series – Ordinary Differential Equations.
+To practice all areas of Ordinary Differential Equations for Campus Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ordinary Differential Equations Questions and Answers – Special Functions – 2 (Beta)» Next - Engineering Mathematics Questions and Answers – Existence and Laplace Transform of Elementary Functions – 1 

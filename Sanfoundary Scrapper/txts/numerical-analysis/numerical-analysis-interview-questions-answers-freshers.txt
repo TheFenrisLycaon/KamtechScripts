@@ -1,0 +1,252 @@
+1. Using Bisection method find the root of 3x2 = 5x+2 in the interval [0,3].
+a) 0.617
+b) 0.527
+c) 0.517
+d) 0.717
+c
+No.
+a
+b
+c
+f(a)*f(c)
+1
+0
+3
+2.25
+Positive
+2
+1.5
+3
+2.25
+Negative
+3
+1.5
+2.25
+1.875
+Positive
+4
+1.875
+2.25
+2.0625
+Negative
+5
+1.875
+2.0625
+1.96875
+Positive
+6
+1.96875
+2.0625
+2.015625
+Negative
+7
+1.96875
+2.015625
+1.9921875
+Positive
+8
+1.9921875
+2.015625
+2.00390625
+Negative
+9
+1.9921875
+2.00390625
+1.99806875
+Positive
+10
+1.998046875
+2.00390625
+2.000976563
+Negative
+The difference between final values is less than 0.01 hence we stop the iterations. So one of the roots of f(x) = 3x2 – 5x-2 = 0 is approximately 2.000976563.
+2. Find the root of xe-x -0.3 = 0 using Bisection Method in the interval [1,5].
+a) 1.68
+b) 1.86
+c) 1.88
+d) 1.66
+b
+No.
+a
+b
+c
+f(a)*f(c)
+1
+1.0
+5.0
+3.0
+(-)
+2
+1.0
+3.0
+2.0
+(-)
+3
+1.0
+2.0
+1.5
+(+)
+4
+1.5
+2.0
+1.75
+(+)
+5
+1.75
+2.0
+1.875
+(-)
+6
+1.75
+1.875
+1.8125
+(-)
+7
+1.75
+1.8125
+1.78125
+(+)
+8
+1.78125
+1.8125
+1.796875
+(-)
+9
+1.78125
+1.796875
+1.7890625
+(-)
+After 9 iterations the difference between the last 2 values is less than 0.01. Thus the approximated value of x is 1.7890625.
+3. If a function is defined at 2 points 3 and 7 as f(3)=8 and f(7)=12, it is sufficient to find the roots through Bisection Method.
+a) True
+b) False
+b
+Join [email protected]
+4. The function on which we use the bisection method is not necessary to be continuous on the interval we choose.
+a) True
+b) False
+b
+5. If it is provided that f(3) = 4 is one of the initial points. What can be the choice of second point for solving by Bisection Method?
+a) -5 such that f(-5) = -26
+b) 0 such that f(0) = 5
+c) -3 such that f(-3) = -2
+d) 13 such that f(13) = 2
+c
+6. What is the percentage decrease in an interval containing root after iteration is applied by Bisection Method?
+a) 20%
+b) 30%
+c) 40%
+d) 50%
+d
+7. Find the approximated value of x till 6 iterations for x3-4x+9=0 using Bisection Method. Take a = -3 and b = -2.
+a) -2.703125
+b) -1.903125
+c) -3.903125
+d) -0.703125
+a
+No.
+a
+b
+c
+f(a)*f(c)
+1
+-3.0
+-2.0
+-2.5
+(-)
+2
+-3.0
+-2.5
+-2.75
+(-)
+3
+-2.75
+-2.5
+-2.625
+(-)
+4
+-2.75
+-2.625
+-2.6875
+(-)
+5
+-2.75
+-2.6875
+-2.71875
+(+)
+6
+-2.71875
+-2.6875
+-2.703125
+(-)
+Hence we stop the iterations after 6. Therefore the approximated value of x is -2.703125.
+8. The algorithm provided to find the roots of the function using Bisection Method is given by ____________
+a) Bolzano’s theorem
+b) Mean Value theorem
+c) Bisection theorem
+d) Secant theorem
+a
+9. A function is defined as f(x) = x3 – x – 11 = 0. Between the interval [2,3] find the root of the function by Bisection Method upto 8 iteration?
+a) 1.7334
+b) 1.7364
+c) 1.7354
+d) 1.7344
+d
+No.
+a
+b
+c
+f(a)*f(c)
+1
+2.0
+3.0
+2.5
+(-)
+2
+2.0
+2.5
+2.25
+(+)
+3
+2.25
+2.5
+2.375
+(+)
+4
+2.375
+2.5
+2.4375
+(-)
+5
+2.375
+2.4375
+2.40625
+(-)
+6
+2.375
+2.40625
+2.390625
+(-)
+7
+2.375
+2.390625
+2.3828125
+(-)
+8
+2.375
+2.3828125
+2.37890625
+(-)
+Thus, with the 9th iteration, we note that the final value. Hence 2.37890625 is our approximation of the root.
+10. The Bisection method has which of the following convergences?
+a) Linear
+b) Quadratic
+c) Cubic
+d) Quaternary
+a
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Analysis for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Numerical Analysis Questions and Answers – Bisection Method – 1» Next - Numerical Analysis Questions and Answers – Regula Falsi Method 

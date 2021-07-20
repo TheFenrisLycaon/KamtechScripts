@@ -1,0 +1,103 @@
+1. If the finite element model shown below represents heat conduction in axisymmetric or plane geometries then which option is not true?
+\(-\frac{\partial}{\partial x}(a_{11}\frac{\partial u}{\partial x}+a_{12}\frac{\partial u}{\partial y})-\frac{\partial}{\partial y}(a_{21}\frac{\partial u}{\partial x}+a_{22}\frac{\partial u}{\partial y})\) +a00u-f=0
+a) u is temperature
+b) a11, a22 are conductivities in x, y directions
+c) f is internal heat generation
+d) a00=1
+d
+2. In steady state heat transfer finite element model [K+H]*{T}={Q}*{P} if convective boundary conditions are neglected then which option is applicable?
+a) K=0
+b) H=0
+c) Q=0
+d) T=0
+b
+3. For a convective boundary, the natural boundary condition is a balance of energy transfer across the boundary due to conduction and/or convection.
+a) True
+b) False
+a
+4. In the below equation for steady-state heat transfer in plane systems, what does β stands for?
+\(k_x\frac{\partial T}{\partial x}n_x+k_y\frac{\partial T}{\partial y}n_y\)+β(T-T∞)=\(\hat{q}\)n
+a) Convective heat transfer coefficient
+b) Thermal expansion
+c) Thermal conductivity
+d) Diffusivity
+a
+5. In a steady state heat conduction problem with a thermal conductivity of 22(W/(m*K)), for a typical element of mesh of linear triangular elements, what is the value of a in stiffness matrix,
+K=a*\(\begin{pmatrix}
+1&-1&0\\-1 & 2 & -1\\0 & -1 & 1\end{pmatrix}\)?
+a) 11
+b) 12
+c) 10
+d) 5.5
+a
+1&-1&0\\-1 & 2 & -1\\0 & -1 & 1\end{pmatrix}\)
+ denotes the element coefficient matrix. Given thermal conductivity (k) is 22 then
+a=k/2
+a=22/2
+=11.
+Join Sanfoundry@YouTube
+6. Heat conduction problem over a rectangular domain is shown in figure. Which nodes have temperature value of zero units?
+a) Only1
+b) Only 7
+c) Only 2 and 3
+d) 1, 2 and 3
+d
+7. If q denotes the amount of heat flow through any boundary then what is the value of q at node7?
+a) Dependent on a,b
+b) =0
+c) >0
+d) <0 
+ 
+8. What is the value of T at node 3 if the length of each element is 1/a units?
+a) 0.5*b
+b) b
+c) 2*b
+d) b*cos(a)
+a
+At node 3, x=2/a units,
+ax=2
+T=bcos\(\frac{\pi2}{6}\) 
+T=bcos\(\frac{\pi}{3}\) 
+=b*0.5.
+9. The velocity field of a fluid flow is denoted by v=2xi+3j. Which option exactly describes the flow?
+a) Ideal
+b) Compressible
+c) Irrational
+d) Inviscid
+b
+ ∇.V=\(\frac{d(2x)}{dx}+\frac{d(3)}{dy}\) 
+=2+0
+=2.
+Thus, the flow is compressible.
+10. For a two dimensional problem, the evaluation of boundary integrals amounts to evaluation of line integrals.
+a) True
+b) False
+a
+11. A river flows along node 1 through node 4, infiltrating an aquifer at constant rate of 5(m3/day*m2). The length of elements is 0.2m. What is the value of global force due to infiltration of the river at node 1?
+a) 0.5
+b) 1.0
+c) 1.5
+d) 2.0
+a
+=0.5*q*h
+Given q=5, h=0.2
+=0.5*5*0.2
+=0.5.
+12. In a Heat Transfer problem, which option is used for interpolation of temperature inside a finite element?
+a) Natural coordinates
+b) Global coordinates
+c) Temperature gradients
+d) Shape functions
+d
+13. Consider a system where a wall of a tank containing a hot liquid at a temperature T0,  with an air stream of temperature T∞ flows on the outside of the tank, maintaining the outside wall temperature of TL. What is the expression for boundary condition of the system?
+a) q=h(TL-T∞)
+b) T=T∞
+c) T=TL
+d) TL-T∞
+a
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Some Comments on Mesh Generation and Imposition of Boundary Conditions» Next - Finite Element Method Questions and Answers – Single Variable Problems – Applications – 2 

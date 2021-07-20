@@ -1,0 +1,68 @@
+1. The syntax of the scanf() is scanf(“control string “, arg1,arg2,arg3,….,argn); the prototype of control string is ____________
+a) [=%[width][modifiers]type=] 
+b) [=%[modifiers][width]type=] 
+c) [=%[width] [modifiers]] 
+d) [width][modifiers] 
+a
+2. What is the use of symbol * in the control string as shown [=%[*][width] [modifiers] type=]?
+a) * is optional and used when the data should be read from the stream but ignored
+b) * is not optional, used to read data from the stream but it is not ignored
+c) * is not optional, it is used to read data stream but ignored
+d) * is optional and used to read data from stream but it is not ignored
+a
+3. What action is carried out by scanf if a user enters any blank spaces, tabs, and newlines?
+a) consider as input
+b) ignores it
+c) produces error
+d) nothing can be said
+b
+4. What error will generate if the read and write parameters are not separated by commas?
+a) run-time error
+b) compile error
+c) logical error
+d) no error
+b
+5. What will be the output of the following C code?
+char str[] =”Good”;
+scanf(“%s”, str);
+a) compile error
+b) run-time error
+c) good
+d) logical error
+c
+6. What will be the output of the following C code?
+scanf(“ %d %d %d”,&amp;n1,&amp;n2);
+a) read data for two
+b) generate error
+c) read data for three
+d) nothing can be said
+b
+7. What form the data must be entered for the given C code?
+scanf(“%d / %d”, &amp;n1,&amp;n2);
+a) 6  9
+b) 6/9
+c) compile error
+d) run-time error
+b
+8. A fatal error will be generated if the format string is ended with a white space character.
+a) true
+b) false
+a
+9. Explain the format string "%5d%s %c"
+a) five characters as a decimal integer, then reads the remaining as a string and then scans the first non-whitespace character
+b) compile error
+c) run-time error
+d) read first five characters as a decimal and ignore the rest
+a
+10. _____ is an optional argument that gives the maximum number of characters to be read.
+a) modifiers
+b) width
+c) precision
+d) length
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – printf – 2» Next - C Questions and Answers – scanf – 2 

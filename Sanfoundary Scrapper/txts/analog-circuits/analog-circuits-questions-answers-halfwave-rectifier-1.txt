@@ -1,0 +1,84 @@
+1. DC average current of a half wave rectifier output is ___________
+(Where Im is the maximum peak current of input)
+a) 2Im/ᴨ
+b) Im/ᴨ
+c) Im/2ᴨ
+d) 1.414Im/ᴨ
+b
+Thus this is calculated by Area of graph of current/Perion.
+IDC=1/2π∫idx between 0 to 2π.
+This is equal to Im/ᴨ.
+2. DC power output of half wave rectifier is equal to ____________
+(Im is the peak current and RL is the load resistance)
+a) (2Im2/ ᴨ2)RL
+b) (Im2/2 ᴨ2)RL
+c) (Im2/ ᴨ2)RL
+d) (4Im2/ ᴨ2)RL
+c
+   = Im/ᴨ x Vm/ᴨ = VmIm/ ᴨ2
+We know Vm = Im RL. Therefore, power = (Im2/ ᴨ2)RL.
+3. Ripple factor of half wave rectifier is _________
+a) 1.414
+b) 1.21
+c) 1.3
+d) 0.48
+b
+in reducing the ripple voltage. It is calculated by taking ratio of RMS AC component of output voltage to DC component of output voltage.
+r = √Irms2 – IDC2/IDC
+For a half wave rectifier, it is 1.21.
+4. If input frequency is 50Hz then ripple frequency of half wave rectifier will be equal to __________
+a) 100Hz
+b) 50Hz
+c) 25Hz
+d) 500Hz
+b
+5. Transformer utilization factor of a half wave rectifier is equal to __________
+a) 0.267
+b) 0.287
+c) 0.297
+d) 0.256
+b
+6. If peak voltage on a half wave rectifier circuit is 5V and diode cut-in voltage is 0.7, then peak inverse voltage on diode will be __________
+a) 3.6V
+b) 4.3V
+c) 5V
+d) 5.7V
+c
+7. Efficiency of half wave rectifier is __________
+a) 50%
+b) 81.2%
+c) 40.6%
+d) 45.3%
+c
+8. In a half wave rectifier, the input sine wave is 200sin100 ᴨt Volts. The average output voltage is __________
+a) 57.456V
+b) 60.548V
+c) 75.235V
+d) 63.661V
+d
+Therefore, Em=200
+Hence output voltage is Em/ᴨ. That is 200/ᴨ = 63.6619V.
+9. In a half wave rectifier, the input sine wave is 200sin200 ᴨt Volts. If load resistance is of 1k then the average DC power output of half wave rectifier is __________
+a) 3.25W
+b) 4.05W
+c) 5.02W
+d) 6.25W
+b
+On comparing Em = 200
+Power = Em2/ ᴨ2RL = 200/ ᴨ2x 1000.
+10. In a half wave rectifier, the input sine wave is 250sin100 ᴨt Volts. The output ripple frequency of rectifier will be __________
+a) 100Hz
+b) 200Hz
+c) 50Hz
+d) 25Hz
+c
+On comparing equation w = 100 ᴨ rad/s
+We know w=2 ᴨ x frequency.
+Therefore, frequency = 50 Hz.
+Ripple frequency and input frequency are the same.
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers –  Load Line Analysis» Next - Analog Circuits Questions and Answers – Fullwave Rectifier 

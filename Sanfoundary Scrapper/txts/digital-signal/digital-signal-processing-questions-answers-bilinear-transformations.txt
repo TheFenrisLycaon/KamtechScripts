@@ -1,0 +1,108 @@
+1. Bilinear Transformation is used for transforming an analog filter to a digital filter.
+a) True
+b) False
+a
+2. Which of the following rule is used in the bilinear transformation?
+a) Simpson’s rule
+b) Backward difference
+c) Forward difference
+d) Trapezoidal rule
+d
+3. Which of the following substitution is done in Bilinear transformations?
+a) s = \(\frac{2}{T}[\frac{1+z^{-1}}{1-z^1}]\) 
+b) s = \(\frac{2}{T}[\frac{1+z^{-1}}{1+}]\) 
+c) s = \(\frac{2}{T}[\frac{1-z^{-1}}{1+z^{-1}}]\) 
+d) None of the mentioned
+c
+s = \(\frac{2}{T}[\frac{1-z^{-1}}{1+z^{-1}}]\).
+4. What is the value of \(\int_{(n-1)T}^{nT} x(t)dt\) according to trapezoidal rule?
+a) \([\frac{x(nT)-x[(n-1)T]}{2}]T\) 
+b) \([\frac{x(nT)+x[(n-1)T]}{2}]T\) 
+c) \([\frac{x(nT)-x[(n+1)T]}{2}]T\) 
+d) \([\frac{x(nT)+x[(n+1)T]}{2}]T\) 
+b
+\(\int_{(n-1)T}^{nT} x(t)dt=[\frac{x(nT)+x[(n-1)T]}{2}]T\)
+5. What is the value of y(n)-y(n-1) in terms of input x(n)?
+a) \([\frac{x(n)+x(n-1)}{2}]T\) 
+b) \([\frac{x(n)-x(n-1)}{2}]T\) 
+c) \([\frac{x(n)-x(n+1)}{2}]T\) 
+d) \([\frac{x(n)+x(n+1)}{2}]T\) 
+a
+dy(t)/dt=x(t)
+On applying integrals both sides, we get
+\(\int_{(n-1)T}^{nT}dy(t)=\int_{(n-1)T}^{nT} x(t)dt\) 
+=> y(nT)-y[(n-1)T]=\(\int_{(n-1)T}^{nT} x(t)dt\) 
+On applying trapezoidal rule on the right hand integral, we get
+y(nT)-y[(n-1)T]=\([\frac{x(nT)+x[(n-1)T]}{2}]T\) 
+Since x(n) and y(n) are approximately equal to x(nT) and y(nT) respectively, the above equation can be written as
+y(n)-y(n-1)=\([\frac{x(n)+x(n-1)}{2}]T\)
+6. What is the expression for system function in z-domain?
+a) \(\frac{2}{T}[\frac{1+z^{-1}}{1-z^1}]\) 
+b) \(\frac{2}{T}[\frac{1+z^{-1}}{1-z^1}]\) 
+c) \(\frac{T}{2}[\frac{1+z^{-1}}{1-z^1}]\) 
+d) \(\frac{T}{2}[\frac{1-z^{-1}}{1+z^{-1}}]\) 
+c
+y(n)-y(n-1)= \([\frac{x(n)+x(n-1)}{2}]T\) 
+Taking z-transform of the above equation gives
+=>Y(z)[1-z-1]=([1+z-1]/2).TX(z)
+=>H(z)=Y(z)/X(z)=\(\frac{T}{2}[\frac{1+z^{-1}}{1-z^1}]\).
+7. In bilinear transformation, the left-half s-plane is mapped to which of the following in the z-domain?
+a) Entirely outside the unit circle |z|=1
+b) Partially outside the unit circle |z|=1
+c) Partially inside the unit circle |z|=1
+d) Entirely inside the unit circle |z|=1
+d
+z=[1+(T/2)s]/[1-(T/2)s].
+Thus unlike the backward difference method, the left-half s-plane is now mapped entirely inside the unit circle, |z|=1, rather than to a part of it.
+8. The equation s = \(\frac{2}{T}[\frac{1-z^{-1}}{1+z^{-1}}]\) is a true frequency-to-frequency transformation.
+a) True
+b) False
+a
+9. If s=σ+jΩ and z=rejω, then what is the condition on σ if r<1?
+a) σ > 0
+b) σ < 0
+c) σ > 1
+d) σ < 1
+b
+s = \(\frac{2}{T}[\frac{1-z^{-1}}{1+z^{-1}}]\) 
+=>σ = \(\frac{2}{T}[\frac{r^2-1}{r^2+1+2rcosω}]\) 
+When r<1 => σ < 0.
+10. If s=σ+jΩ and z=rejω and r=1, then which of the following inference is correct?
+a) LHS of the s-plane is mapped inside the circle, |z|=1
+b) RHS of the s-plane is mapped outside the circle, |z|=1
+c) Imaginary axis in the s-plane is mapped to the circle, |z|=1
+d) None of the mentioned
+c
+s = \(\frac{2}{T}[\frac{1-z^{-1}}{1+z^{-1}}]\) 
+=>σ = \(\frac{2}{T}[\frac{r^2-1}{r^2+1+2rcosω}]\) 
+When r=1 => σ = 0.
+This shows that the imaginary axis in the s-domain is mapped to the circle of unit radius centered at z=0 in the z-domain.
+11. If s=σ+jΩ and z=rejω, then what is the condition on σ if r>1?
+a) σ > 0
+b) σ < 0
+c) σ > 1
+d) σ < 1
+a
+s = \(\frac{2}{T}[\frac{1-z^{-1}}{1+z^{-1}}]\) 
+=>σ = \(\frac{2}{T}[\frac{r^2-1}{r^2+1+2rcosω}]\) 
+When r>1 => σ > 0.
+12. What is the expression for the digital frequency when r=1?
+a) \(\frac{1}{T} tan⁡(\frac{ΩT}{2})\) 
+b) \(\frac{2}{T} tan⁡(\frac{ΩT}{2})\) 
+c) \(\frac{1}{T} tan^{-1}(\frac{ΩT}{2})\) 
+d) \(\frac{2}{T} tan^{-1}⁡(\frac{ΩT}{2})\) 
+d
+Ω = \(\frac{2}{T} [\frac{2 sin⁡ω}{1+1+2 cos⁡ω}]\) 
+=>ω=\(\frac{2}{T} tan^{-1}⁡(\frac{ΩT}{2})\).
+13. What is the kind of relationship between Ω and ω?
+a) Many-to-one
+b) One-to-many
+c) One-to-one
+d) Many-to-many
+c
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Backward Difference Method» Next - Digital Signal Processing Questions and Answers – Quantization of Filter Coefficients 

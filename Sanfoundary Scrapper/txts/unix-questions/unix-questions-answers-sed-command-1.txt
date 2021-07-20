@@ -1,0 +1,87 @@
+1. Which of the following commands is known as stream editor?
+a) sed
+b) grep
+c) grep
+d) tr
+a
+2. What is the correct syntax for using sed?
+a) sed options file(s)
+b) sed options ‘action’
+c) sed options ‘address action’ file(s)
+d) sed ‘action’ file(s)
+c
+sed options ‘address action’ file(s) 
+3. Which one of the following command will be used for quitting after selecting 3 lines from file emp.lst?
+a) sed -n 3 emp.lst
+b) sed -i 1-3 emp.lst
+c) sed ‘3q’ emp.lst
+d) sed -n
+c
+4. Which of the following command is used with sed for outputting as well as printing the selected lines?
+a) q
+b) n
+c) p
+d) i
+c
+5. To suppress the behavior of ‘p’ command of sed, we use ____ option.
+a) -q
+b) -n
+c) -i
+d) -v
+b
+//selects line number 1-3 from emp.lst
+$ sed -n ‘1,3p’  emp.lst
+ 
+6. The command $ sed -n ‘$p’ emp.lst will display the last line.
+a) True
+b) False
+a
+7. Consider the following commands.
+$ sed -n ‘1,2p’ emp.lst
+$ sed -n ‘3,$!p’ emp.lst
+The output of both commands will be the same.
+a) True
+b) False
+a
+8. Which option is used with sed for using multiple instructions?
+a) -f
+b) -n
+c) -e
+d) –f and -e
+d
+$ sed -n -e ‘1,2p’  -e ‘7,9p’ emp.lst
+ 
+9. ____ option is used for taking instructions from a file.
+a) -f
+b) -e
+c) -i
+d) -n
+a
+$ sed -n -f  instruct.txt  emp.lst
+ 
+10. To perform context addressing, we have to enclose the pattern in ____
+a) double quotes
+b) single quotes
+c) /  /
+d) $  $
+c
+11. To select lines containing gupta and agarwal, which command will be used?
+a) sed -n ‘/gupta/,/agarwal/p’  emp.lst
+b) sed -n ‘/gupta/agarwal/p’  emp.lst
+c) sed ‘/gupta | agarwal’p’ emp.lst
+d) sed -n
+a
+12.  To write selected lines, ____ is used with sed.
+a) i
+b) n
+c) w
+d) p
+c
+$ sed -n ‘/director/w emp2.lst’  emp.lst        //saves output to emp2.lst
+ 
+ Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – grep command – 2» Next - Unix  Questions and Answers – sed command – 2 

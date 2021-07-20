@@ -1,0 +1,65 @@
+1. Which class is used to generate random number?
+a) java.lang.Object
+b) java.util.randomNumber
+c) java.util.Random
+d) java.util.Object
+c
+2. Which method is used to generate boolean random values in java?
+a) nextBoolean()
+b) randomBoolean()
+c) previousBoolean()
+d) generateBoolean()
+a
+3. What is the return type of Math.random() method?
+a) Integer
+b) Double
+c) String
+d) Boolean
+b
+4. Random is a final class?
+a) True
+b) False
+b
+5. What is the range of numbers returned by Math.random() method?
+a) -1.0 to 1.0
+b) -1 to 1
+c) 0 to 100
+d) 0.0 to 1.0
+d
+Join Sanfoundry@YouTube
+6. How many bits are used for generating random numbers?
+a) 32
+b) 64
+c) 48
+d) 8
+c
+7. What will be the output of the following Java code snippet?
+int a = random.nextInt(15) + 1;
+a) Random number between 1 to 15, including 1 and 15
+b) Random number between 1 to 15, excluding 15
+c) Random number between 1 to 15, excluding 1
+d) Random number between 1 to 15, excluding 1 and 15
+a
+8. What will be the output of the following Java code snippet?
+int a = random.nextInt(7) + 4;
+a) Random number between 4 to 7, including 4 and 7
+b) Random number between 4 to 7, excluding 4 and 7
+c) Random number between 4 to 10, excluding 4 and 10
+d) Random number between 4 to 10, including 4 and 10
+d
+9. Math.random() guarantees uniqueness?
+a) True
+b) False
+b
+10. What is the signature of Math.random() method?
+a) public static double random()
+b) public void double random()
+c) public static int random()
+d) public void int random()
+a
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Event Listeners Interfaces» Next - Java Questions & Answers – Locale & Random Classes 

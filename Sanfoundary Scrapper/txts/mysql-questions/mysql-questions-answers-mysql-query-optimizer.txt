@@ -1,0 +1,68 @@
+1. To check how MySQL would execute a SELECT query, which statement is used?
+a) TELL
+b) SHOW
+c) DISPLAY
+d) EXPLAIN
+d
+2. To perform analysis of key values by the server, the statement used is __________
+a) ANALYZE KEYS
+b) ANALYZE TABLE
+c) PERFORM ANALYSIS
+d) PERFORM TABLE ANALYSIS
+b
+3. Which statement is used to verify optimizer operation?
+a) ANALYZE
+b) VERIFY
+c) EXPLAIN
+d) SHOW
+c
+4. Which statement is used to force the optimizer to use tables in a particular order?
+a) FORCE INDEX
+b) USE INDEX
+c) IGNORE INDEX
+d) STRAIGHT_JOIN
+d
+5. Which of these comparisons is slowest?
+a) INT/INT
+b) INT/BIGINT
+c) BIGINT/BIGINT
+d) All are of same speed
+b
+6. Which of the following WHERE clauses are faster?
+    1. WHERE col * 3 &lt; 9
+    2. WHERE col &lt; 9 / 3
+a) 1
+b) 2
+c) same speed
+d) dependent on operating system
+b
+7. What are the results of the following SQL commands if col is an integer column?
+        1. SELECT * FROM mytbl WHERE num_col = '4';
+	2. SELECT * FROM mytbl WHERE num_col = 4;
+a) same
+b) different
+c) 1 is an error
+d) 2 is an error
+a
+8. Which system variable tells the optimizer to skip certain plans based on estimates of the number of rows accessed for each table?
+a) optimizer_prune_level
+b) optimizer_search_depth
+c) optimizer_search
+d) optimizer_prune
+a
+9. Which system variable tells how far into the rest of each incomplete plan the optimizer should look to evaluate whether it should be expanded further?
+a) optimizer_prune_level
+b) optimizer_search_depth
+c) optimizer_search
+d) optimizer_prune
+b
+10. The optimizer_prune_level is set by default.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Using Indexing» Next - MySQL Questions and Answers – Choosing Data Types for Efficient Queries 

@@ -1,0 +1,108 @@
+1. Which among the following is the format of unit production?
+a) A->B
+b) A->b
+c) B->Aa
+d) None of the mentioned
+a
+2. Given Grammar G:
+S->aA
+A->a| A
+B->B
+The number of productions to be removed immediately as Unit productions:
+a) 0
+b) 1
+c) 2
+d) 3
+c
+3. Given grammar:
+S->aA
+A->a
+A->B
+B-> A
+B->bb
+Which of the following is the production of B after simplification by removal of unit productions?
+a) A
+b) bb
+c) aA
+d) A| bb
+b
+S->aA| aB
+A->a
+B-> bb
+4. If grammar G is unambiguous, G’ produced after the removal of Unit production will be:
+a) ambiguous
+b) unambiguous
+c) finite
+d) cannot be said
+b
+Join Sanfoundry@YouTube
+5. If C is A-derivable, C->B is a production, and B ¹ A, then B is
+a) nullable
+b) Non-derivable
+c) A-derivable
+d) None of the mentioned
+c
+If A-> B is a production, B is called A- derivable.
+If C is A-derivable, C->B is a production, and B ¹ A, then B is A -derivable.
+No other variables are A-derivable.
+6. A can be A-> derivable if and only if __________
+a) A-> A is actually a production
+b) A->B, B-> A exists
+c) Both (a) and (b)
+d) None of the mentioned
+a
+7. Given Grammar:
+T-> T+R| R
+R-> R*V| V
+V->(T)| u
+When unit productions are deleted we are left with
+T-> T+R| _______|(T)| u
+R->R*V|(T)| u
+V-> (T)| u
+Fill in the blank:
+a) T*V
+b) T+V
+c) R*T
+d) R*V
+d
+T-> T+R| R*V| (T)| u
+R->R*V|(T)| u
+V-> (T)| u
+8. Given grammar G:
+S-> ABA, A->aA|e, B-> bB|e
+Eliminate e and unit productions. State the number of productions the starting variable holds?
+a) 6
+b) 7
+c) 9
+d) 5
+b
+S->ABA| AB| BA| AA| Aa| a| bB| b
+A->aA| a
+B->bB| b
+9. Given grammar G:
+S-> A| B| C
+A-> aAa| B
+B-> bB|bb
+C->aCaa|D
+D->baD|abD|aa
+Eliminate e and unit productions and state the number of variables left?
+a) 5
+b) 4
+c) 3
+d) 2
+5
+ S->aAa| bB|bb aCaa| baD| abD| aa, A->aAa| bB| bb, B->bB| bb, C->aCaa| baD| abD| aa, D-> baD| abD| aa
+10. Which of the following variables in the given grammar is called live variable?
+S->AB
+A->a
+a) S
+b) A
+c) B
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Eliminating Epsilon Productions» Next - Automata Theory Questions and Answers –  Chomsky Normal Form 

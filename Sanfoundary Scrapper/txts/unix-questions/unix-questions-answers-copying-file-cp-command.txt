@@ -1,0 +1,90 @@
+1. What is the function of cp command in UNIX?
+a) list all the available files in the current directory
+b) delete a given file
+c) cp is a command used for copying files and directories
+d) change the directory
+c
+$ cp  file_01  file_02               // copies file_01 to file_02
+ 
+2.  What happens if the destination file specified in cp command does not exist?
+a) file will not be copied
+b) an error will be produced
+c) destination file will be automatically created
+d) none of the mentioned
+c
+3. Which of the following is not an option of cp command?
+a) -z
+b) -i
+c) -R
+d) -u
+a
+4. What is the correct syntax for copying multiple files with a filename starting as ‘file’ into another file named as  ‘directory_one’?
+a) cp -i file  directory_one
+b) cp -R file  directory/directory_one
+c) cp file*  directory_one
+d) none of the mentioned
+c
+5. How can we copy an entire directory under another directory?
+a) using -R option
+b) using -a option
+c) using -u option
+d) none of the mentioned
+a
+6. How can we copy a file into our current directory?
+a) cp file1
+b) cp file1
+c) cp file*
+d) none of the mentioned
+b
+7. What does the following command do?
+cp -u * dir_file
+a) copy all files to directory dir_file
+b) update all files
+c) delete all files
+d) update all files in the current working directory and copy newer ones to directory dir_file
+d
+8. Sometimes it is not possible to copy a file.
+a) True
+b) False
+a
+9. What does -i option do?
+a) interactive copying
+b) recursively copying
+c) updating
+d) none of the mentioned
+a
+$ cp  -i  file_01  fo_02
+cp: overwrites fo_02 (yes/no)?             // asks before overwriting
+10. To copy multiple files, the last destination file should be a directory.
+a) False
+b) True
+b
+11. -n option is used with cp command for what purpose?
+a) existing file should not be overwritten
+b) to update file
+c) interactive copying
+d) recursive copying
+a
+12. Which option is used with cp command for linking files instead of copying?
+a) -v
+b) -l
+c) -f
+d) -x
+b
+13. $ cp  -f  copies forcefully.
+a) True
+b) False
+a
+14. -v option is used with cp command for displaying _____
+a) errors
+b) informative messages
+c) diagnostic messages
+d) file contents
+b
+$ cp -v  file01  file02
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Displaying and Creating Files: cat Command» Next - Unix  Questions and Answers – Deleting and Renaming files: rm and mv Command 

@@ -1,0 +1,152 @@
+1. What will be the output of the following C# code?
+ static void Main(string[] args) {     int i = 1, j = 2, k = 3;     do     {         Console.WriteLine((Convert.ToBoolean(Convert.ToInt32(i++)))          && (Convert.ToBoolean(Convert.ToInt32(++j))));     }while (i <= 3);     Console.ReadLine(); }
+a) 0 0 0
+b) True True True
+c) 1 1 1
+d) False False False
+b
+Output:
+True True True
+2. What will be the output of the following C# code?
+static void Main(string[] args){    float i = 1.0f, j = 0.05f;    do    {        Console.WriteLine(i++ - ++j);    }while (i < 2.0f && j <= 2.0f);    Console.ReadLine();}
+a)  0.05
+b) -0.05
+c)  0.95
+d) -0.04999995
+d
+Output :
+ -0.04999995
+3. What will be the output of the following C# code?
+static void Main(string[] args){    int i = 1, j = 5;    do    {        Console.WriteLine(i = i++ * j);    }while (i <= 10);    Console.ReadLine();}
+a) 5 10 15 20 25 30 35 40 45 50
+b) 5 25
+c) 5 11 16 21 26 31 36 41 46 51
+d) 5 30
+b
+Output:
+5 25.
+4. For the incomplete C# program below, which of the C# code fragment will not result in an infinite loop?
+ static void Main(string[] args) {     int i = 1234 ,j = 0;      /*ADD CODE HERE */     Console.WriteLine(j); }
+a)
+ do
+    {
+        j = j + (i % 10);
+    }while ((i = i / 10)!= 0);
+b)
+do
+    {
+        j = j + (i % 10);
+    }while ((i / 10)!= 0);
+c)
+do
+    {
+        j = j + (i % 10);
+    }while ((i % 10)!= 0);
+d)
+do
+    {
+        j = j + (i % 10);
+    }while ((i/10 == 0)!= 0);
+a
+Output :
+static void Main(string[] args)
+        {
+              int i = 1234,j = 0;
+              do
+              {
+                  j = j +( i % 10);
+ 
+              }while ((i = i / 10)!= 0);
+              Console.WriteLine(j);
+          }
+  
+5. What will be the output of the following C# code?
+ static void Main(string[] args) {     long  x;     x = Convert.ToInt32(Console.ReadLine());     do     {         Console.WriteLine(x % 10);     }while ((x = x / 10) != 0);     Console.ReadLine(); } enter x = 1234.
+a) number of digits present in x
+b) prints ‘1’
+c) prints reverse of x
+d) prints sum of digits of ‘x’
+c
+Output:
+ 4321.
+6. What will be the output of the following C# code?
+ static void Main(string[] args) {     int i, s = 0, a = 1, d;     i = Convert.ToInt32(Console.ReadLine());     do     {         d = i % (2 * 4);         s = s + d * a;     }while ((Convert.ToInt32(i = i / (2 * 4))) != 0       && (Convert.ToBoolean(Convert.ToInt32((a) = (a * 10)))));     Console.WriteLine(s);     Console.ReadLine(); }enter i = 342.
+a) It finds binary equivalent of i
+b) It finds octal equivalent of i
+c) It finds sum of digits of i
+d) It finds reverse of i
+b
+Output :
+         i = 342.
+         s = 526.
+7. What is the correct syntax for do while loop?
+a)
+   do;
+   {
+    statement;
+   }while (condition);
+b)
+   do(condition)
+   {
+     statement;
+   }while;
+c)
+   do
+   {
+     statement;
+   }while (condition)
+d)
+   do
+   {
+        statement;
+   }while (condition);
+d
+Output:
+do
+       {
+          statement;
+        }while (condition);
+  
+8. What will be the output of the following C# code?
+static void Main(string[] args){    int x = 10;    do    {        Console.WriteLine( x++);    }    while(Convert.ToBoolean(5) && Convert.ToBoolean(4) && Convert.ToBoolean(3)     && Convert.ToBoolean(2) && Convert.ToBoolean(1) && Convert.ToBoolean(0));        Console.ReadLine();}
+a) 13
+b) 15
+c) 11
+d) 10
+d
+Output :
+10.
+9. What will be the output of the following C# code?
+static void Main(string[] args){    int x;    for (x = 10; x <= 15; x++)    while (Convert.ToBoolean(Convert.ToInt32(x)))    {        do        {            Console.WriteLine(1);            if (Convert.ToBoolean(x >> 1))            continue;        }while (Convert.ToBoolean(0));        break;    }    Console.ReadLine();}
+a) 0 0 0….infinite times
+b) 1 1 1….infinite times
+c) 1 1 1 1 1 1
+d) System outofflow exception error
+c
+Output :
+1 1 1 1 1 1
+10. What will be the output of the following C# code?
+static void Main(string[] args){    int x = 0;    do    {        x++;        if (x == 5)        {            x++;            continue;            break;        }        Console.WriteLine(x + " ");    }}while (x < 10);
+a) 1 2 3 4 5
+b) 10
+c) 5 6 7 8 9 10
+d) 1 2 3 4 5 6 7 8 9 10
+d
+Output:
+1 2 3 4 5 6 7 8 9 10
+11. What will be the output of the following C# code?
+static void Main(string[] args){    int x;    for (x = 1; x <= 3; x++)    {        int j = 1;        do        {            j++;        }while (x % j == 2);        Console.WriteLine(x + " " + j);    }    Console.ReadLine();}
+a) 1 12 1 3 1
+b) 1 12 13 1
+c) 12 22 32
+d) 11 21 31
+c
+Output :
+ 12 22 32
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all features of C# programming language, here is complete set on 1000+ Multiple Choice Questions and Answers on C#. 
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – While Loop Statements» Next - C# Questions & Answers – Continue, Goto Statements 

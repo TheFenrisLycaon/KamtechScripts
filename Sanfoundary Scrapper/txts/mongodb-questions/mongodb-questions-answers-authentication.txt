@@ -1,0 +1,68 @@
+1. Which of the following method is used for managing user?
+a) db.createUser()
+b) db.User()
+c) db.superuser()
+d) none of the mentioned
+a
+2. Point out the correct statement.
+a) Authentication is the process of verifying the identity of a client
+b) When access control is enabled, MongoDB requires all clients to authenticate themselves first in order to determine the access for the client
+c) Authentication and authorization are closely connected
+d) All of the mentioned
+d
+3. MongoDB stores user information in the _________ collection.
+a) system.allusers
+b) system.users
+c) system.superusers
+d) system.usersnone
+b
+4. Which of the following authentication method is used by default by MongoDB?
+a) SCRAM-SHA-1
+b) LDAP
+c) MONGODB-CR
+d) None of the mentioned
+a
+5. Point out the wrong statement.
+a) Authorization determines the verified user’s access to resources and operations
+b) MongoDB does not support authentication mechanisms
+c) To authenticate a client in MongoDB, you must add a corresponding user to MongoDB
+d) None of the mentioned
+b
+Join Sanfoundry@YouTube
+6. _________ is a challenge-response mechanism that authenticates users through passwords.
+a) SCRAM-SHA-1
+b) LDAP
+c) MONGODB-CR
+d) None of the mentioned
+c
+7. MongoDB supports _________ certificate authentication for use with a secure TLS/SSL connection.
+a) x.590
+b) x.509
+c) x.950
+d) All of the mentioned
+b
+8. MongoDB __________ supports authentication using a Kerberos service.
+a) Standard
+b) Express
+c) Enterprise
+d) None of the mentioned
+c
+9. MongoDB Enterprise supports proxy authentication through ___________
+a) SCRAM-SHA-1
+b) LDAP
+c) MONGODB-CR
+d) None of the mentioned
+b
+10. Every MongoDB mongod and mongos instance (or mongod.exe or mongos.exe on Windows) must have an associated ___________
+a) service replica
+b) service sets
+c) service principal
+d) service principle
+c
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Exit Codes and Statuses» Next - MongoDB Questions and Answers – Authorization 

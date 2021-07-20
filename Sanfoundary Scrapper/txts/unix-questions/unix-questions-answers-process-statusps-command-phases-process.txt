@@ -1,0 +1,107 @@
+1.  Which command shows some attributes of a process?
+a) pid
+b) $$
+c) ps
+d) HOME
+c
+2. Which of the following attribute is not shown by ps command?
+a) PID
+b) PPID
+c) tty
+d) size
+d
+$ ps
+PID    TTY        TIME    CMD
+291    console     0:00     bash        // login shell of this user
+3. Which option is used by ps command to get a detailed listing of process attributes?
+a) -u
+b) -f
+c) -l
+d) -x
+b
+$ ps  -f
+UID    PID    PPID    C    STIME        TTY        TIME    CMD
+Abd    367    291    0    12:35:16    console      0:00     vi create_user.sh
+Ryan    291    1    0    10:24:58     console      0:00    -bash
+4. Which option is used by the system administrator for displaying processes of a user?
+a) -f
+b) -u
+c) -a
+d) -e
+b
+$ ps  -u
+PID    TTY    TIME    CMD
+378?    0:05      Xsession
+339    pts/3    0:00    bash
+460    pts/5    0:00    dtsession
+478    pts/5    0:00    vi
+5. The -a option when used with ps command lists processes of all users but doesn’t display the system processes.
+a) True
+b) False
+a
+PID     TTY      TIME     CMD
+339     pts/3    0:00    bash
+460     pts/5    0:00    dtsession
+478     pts/5    0:00    vi
+1005    pts/1    0:00    ksh
+1058    pts/2    0:00    bash
+6. Which option is used with ps command to list system processes?
+a) -A
+b) -a
+c) -e
+d) –A and -e
+d
+7. What will the output of the following command?
+$ ps  -t  dev/console
+a) processes running on terminal named console
+b) undefined output
+c) erroneous
+d) processes running on the current terminal
+a
+8. There are ___ distinct phases of a process.
+a) 2
+b) 5
+c) 4
+d) 3
+d
+9. A system call is a programmatic way in which the program requests for the service from the kernel of an operating system.
+a) True
+b) False
+a
+10. Which of the following system call is used for creating a new process?
+a) read
+b) fork
+c) wait
+d) new
+b
+11. When fork() is invoked, the child process created gets a new PID.
+a) True
+b) False
+a
+12. What is the value returned by fork system call, when the creation of child process is unsuccessful?
+a) positive integer
+b) negative integer
+c) zero
+d) fractional value
+b
+Positive value: returned to the parent process. The value contains PID of child process which is created.
+Negative value: returned if the creation of child process is unsuccessful.
+Zero: returned to the newly created child process.
+13. Which system call is used to run a new program?
+a) fork
+b) wait
+c) exec
+d) exit
+c
+14. Which system call is used by the parent process to wait for the child process to complete?
+a) wait
+b) exec
+c) fork
+d) exit
+b
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Process Basics» Next - Unix  Questions and Answers – Process Handling Commands – 1 

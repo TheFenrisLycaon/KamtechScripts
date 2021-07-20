@@ -1,0 +1,78 @@
+This section on C interview questions and answers focuses on “Precedence and Order of Evaluation”. One shall practice these interview questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C Interview questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C interview questions on “Precedence and Order of Evaluation” along with answers, explanations and/or solutions:
+1. Which of the following operators has an associativity from Right to Left?
+a) <=
+b) <<
+c) ==
+d) +=
+d
+2. Which operators of the following have same precedence?
+P. "!=", Q. "+=", R. "<<="
+a) P and Q
+b) Q and R
+c) P and R
+d) P, Q and R
+b
+3. Comment on the following statement.
+   n = 1;
+   printf("%d, %dn", 3*n, n++);
+a) Output will be 3, 2
+b) Output will be 3, 1
+c) Output will be 6, 1
+d) Output is compiler dependent
+d
+4. Which of the following option is the correct representation of the following C statement?
+e = a * b + c / d * f;
+a) e = (a * (b +(c /(d * f))));
+b) e = ((a * b) + (c / (d * f)));
+c) e = ((a * b) + ((c / d)* f));
+d) Both e = ((a * b) + (c / (d * f))); and e = ((a * b) + ((c / d)* f));
+d
+5. While swapping 2 numbers what precautions to be taken care?
+    b = (b / a);
+    a = a * b;
+    b = a / b;
+a) Data type should be either of short, int and long
+b) Data type should be either of float and double
+c) All data types are accepted except for (char *)
+d) This code doesn’t swap 2 numbers
+b
+6. What will be the output of the following C code?
+    #include<stdio.h>    int main()    {        int a = 1, b = 2, c = 3, d = 4, e;        e = c + d = b * a;        printf("%d, %d\n", e, d);    }
+a) 7, 4
+b) 7, 2
+c) 5, 2
+d) Syntax error
+d
+7. Which of the following is the correct order of evaluation for the given expression?
+a = w % x / y * z;
+a) % / * =
+b) / * % =
+c) = % * /
+d) * % / =
+a
+8. Which function in the following expression will be called first?
+a = func3(6) - func2(4, 5) / func1(1, 2, 3);
+a) func1();
+b) func2();
+c) func3();
+d) Cannot be predicted
+d
+9. Which of the following operator has the highest precedence in the following?
+a) ()
+b) sizeof
+c) *
+d) +
+a
+10. Which of the following is a ternary operator?
+a) &&
+b) >>=
+c) ?:
+d) ->
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Precedence and Order of Evaluation – 4» Next - C Programming Questions and Answers – Precedence and Order of Evaluation – 6 

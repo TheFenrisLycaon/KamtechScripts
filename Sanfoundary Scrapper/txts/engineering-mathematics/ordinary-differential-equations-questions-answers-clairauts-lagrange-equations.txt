@@ -1,0 +1,63 @@
+1. Singular solution for the Clairaut’s equation \(y = y’x+\frac{a}{y’}\) is given by _______
+a) \(\frac{x^2}{a^2} + \frac{y^2}{a^2} = 1\) 
+b) y2=-4ax
+c) y2=4ax
+d) x2=-2ay
+c
+Given equation is of the form y = px + f(p), whose general solution is y = cx + f(c)
+thus the general solution is \(y = cx + \frac{a}{c}\) …………..(1), to find the value of c
+we differentiate (1) partially w.r.t  ‘c’ i.e \( 0 = x-\frac{a}{c^2} \rightarrow c^2 = \frac{a}{x} \rightarrow c = \sqrt{\frac{a}{x}}\) 
+hence (1) becomes \(y = \sqrt{\frac{a}{x}} x + a \sqrt{\frac{x}{a}} \rightarrow y=2\sqrt{ax}\) 
+y2=4ax is the singular solution.
+2. Obtain the general solution for the equation xp2+px-py+1-y=0  where p=\(\frac{dy}{dx}\).
+a) y=cx+\(\frac{1}{c+1}\) 
+b) x=cy-(c+1)
+c) x=cy-\(\frac{1}{c+1}\) 
+d) y=cx+(c+1)
+a
+xp2+px+1=y(p+1)
+\(y=\frac{xp(p+1)+1}{p+1} \,or\, y=px+\frac{1}{p+1}\)……(1) thus (1) is in the Clairaut’s equation form y=px+f(p),
+                       thus general solution is y=cx+\(\frac{1}{c+1}\).
+3. Find the general solution for the equation (px-py)(py+x)=2p by reducing into Clairaut’s form by using the substitution X=x2, Y=y2  where p=\(\frac{dy}{dx}\).
+a) \(y^2 = x + \frac{c}{c+1}\) 
+b) \(y^2 = cx^2 – \frac{2c}{c+1}\) 
+c) \(x^2 = cy^2 – \frac{1}{2c+1}\) 
+d) \(x^2 = y^2 + \frac{c}{2c+2}\) 
+b
+\(Y=y^2 \rightarrow \frac{dY}{dy} = 2y\) 
+now \(p = \frac{dy}{dx} = \frac{dy}{dY} \frac{dY}{dX} \frac{dX}{dx} \,and\, \,let\, P=\frac{dY}{dx}\) 
+\(p=\frac{1}{2y} * P * 2x \,or\, p=\frac{x}{y} \,P \,i.e\, p=\sqrt{\frac{X}{Y}} P\) 
+now consider (px-py)(py+x)=2p substituting the value of p we get
+\(\left(\sqrt{\frac{X}{Y}} P \sqrt{X} – \sqrt{Y}\right)\left(\sqrt{\frac{X}{Y}} P \sqrt{Y} + \sqrt{X}\right) =  2\sqrt{\frac{X}{Y}} P\) 
+\(\frac{(PX-Y)}{\sqrt{Y}} (P+1)\sqrt{X} = 2\sqrt{\frac{X}{Y}} P \rightarrow (PX-Y)(P+1)=2P \,or\, Y(P)=PX-\frac{2P}{P+1}\) is in the Clairaut’s form
+hence general solution is \(y^2 = cx^2 – \frac{2c}{c+1}\).
+4. Find the general solution of the D.E 2y-4xy’-log y’=0.
+a) \(y(p) = \frac{2c}{p} – 1 + \frac{log⁡p}{2} \) 
+b) \(y(p) = \frac{c}{2p} – 2 + log⁡p\) 
+c) \(x(p) = \frac{-1}{p} + \frac{c}{p^2} \) 
+d) \(x(p) = \frac{1}{2p} + \frac{c}{p^{1/2}} \) 
+a
+i.e 2y=4xp+log p …..(1) differentiating both sides of the equation
+2dy=4xdp+4pdx+\(\frac{dp}{p}\) and dy=pdx
+–> 2pdx=4xdp+4pdx+\(\frac{dp}{p}\) –> -2pdx=4pdx+\(\frac{dp}{p}\) 
+-2p\(\frac{dx}{dp} = 4x + \frac{1}{p} \rightarrow \frac{dx}{dp} + \frac{2}{p} x = \frac{-1}{2p^2}\) (p≠0)…….this is a linear D.E for the function x(p)
+I.F is \(e^{\int \frac{2}{p} \,dp} = e^{log⁡p^2}  = p^2\) and solution is x(p) \(p^2 = \int p^2 *\frac{-1}{2p^2} \,dp + c\) 
+\(x(p) = \frac{-1}{2p} + \frac{c}{p^2}\)  substituting back in (1) we get \(2y=4p\left(\frac{-1}{2p} + \frac{c}{p^2}\right) + log p\) 
+\(y(p) = \frac{2c}{p} – 1 + \frac{log⁡p}{2} \).
+5. Find the general solution of the D.E  y = 2xy’ – 3(y’)2.
+a) \(y(p) = p^{1/2} + \frac{c}{2p}\) 
+b) \(y(p) = p^2 + \frac{2c}{p}\) 
+c) \(x(p) = -cp + \frac{c}{p^2}\) 
+d) \(x(p) = 2p + \frac{2c}{p^2} \) 
+b
+now differentiating we get  dy=2xdp+2pdx-6pdp and dy=pdx
+thus pdx=2xdp+2pdx-6pdp→-pdx=2xdp-6pdp –> \(\frac{dx}{dp} + \frac{2}{p} x – 6=0\)…(2)
+(2) is a linear D.E whose I.F=\(e^{\int \frac{2}{p} \,dp} = p^2\) hence its solution is
+\(p^2 x(p) = \int 6p^2 \,dp + c \rightarrow x(p) = 2p + \frac{c}{p^2}\) ….substituting in (1) we get
+\(y(p) = 2(2p+\frac{c}{p^2})p-3p^2 = p^2 + \frac{2c}{p}.\) 
+ Sanfoundry Global Education & Learning Series – Ordinary Differential Equations.
+To practice all areas of Ordinary Differential Equations, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ordinary Differential Equations Questions and Answers – First Order Nonlinear Differential Equations» Next - Ordinary Differential Equations Questions and Answers – Formation of Ordinary Differential Equations by Elimination of Arbitrary Constants 

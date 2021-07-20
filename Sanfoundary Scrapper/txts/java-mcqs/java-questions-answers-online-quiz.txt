@@ -1,0 +1,88 @@
+1. Which of these standard collection classes implements a linked list data structure?
+a) AbstractList
+b) LinkedList
+c) HashSet
+d) AbstractSet
+b
+2. Which of these classes implements Set interface?
+a) ArrayList
+b) HashSet
+c) LinkedList
+d) DynamicList
+b
+3. Which of these method is used to add an element to the start of a LinkedList object?
+a) add()
+b) first()
+c) AddFirst()
+d) addFirst()
+d
+4. Which of these method of HashSet class is used to add elements to its object?
+a) add()
+b) Add()
+c) addFirst()
+d) insert()
+a
+5. Which of these methods can be used to delete the last element in a LinkedList object?
+a) remove()
+b) delete()
+c) removeLast()
+d) deleteLast()
+c
+Join [email protected]
+6. Which of this method is used to change an element in a LinkedList Object?
+a) change()
+b) set()
+c) redo()
+d) add()
+b
+7. What will be the output of the following Java code snippet?
+    import java.util.*;    class Linkedlist     {        public static void main(String args[])         {            LinkedList obj = new LinkedList();            obj.add("A");            obj.add("B");            obj.add("C");            obj.addFirst("D");            System.out.println(obj);        }    }
+a) [A, B, C] 
+b) [D, B, C] 
+c) [A, B, C, D] 
+d) [D, A, B, C] 
+d
+Output:
+$ javac Linkedlist.java
+$ java Linkedlist
+[D, A, B, C].
+8. What will be the output of the following Java program?
+    import java.util.*;    class Linkedlist     {        public static void main(String args[])         {            LinkedList obj = new LinkedList();            obj.add("A");            obj.add("B");            obj.add("C");            obj.removeFirst();            System.out.println(obj);        }    }
+a) [A, B] 
+b) [B, C] 
+c) [A, B, C, D] 
+d) [A, B, C] 
+b
+Output:
+$ javac Linkedlist.java
+$ java Linkedlist
+[B, C]
+9. What will be the output of the following Java program?
+    import java.util.*;    class Output     {        public static void main(String args[])         {            HashSet obj = new HashSet();            obj.add("A");            obj.add("B");            obj.add("C");            System.out.println(obj + " " + obj.size());        }    }
+a) ABC 3
+b) [A, B, C] 3
+c) ABC 2
+d) [A, B, C] 2
+b
+Output:
+$ javac Output.java
+$ java Output
+[A, B, C] 3
+10. What will be the output of the following Java program?
+    import java.util.*;     class Output     {        public static void main(String args[])         {             TreeSet t = new TreeSet();            t.add("3");            t.add("9");            t.add("1");            t.add("4");            t.add("8");             System.out.println(t);        }    }
+a) [1, 3, 5, 8, 9] 
+b) [3, 4, 1, 8, 9] 
+c) [9, 8, 4, 3, 1] 
+d) [1, 3, 4, 8, 9] 
+d
+Output:
+$ javac Output.java
+$ java Output
+[1, 3, 4, 8, 9].
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+ Here’s the list of Best Reference Books in Java Programming Language.
+To practice  all areas of Java for online Quizzes, here is complete set on 1000+ Multiple Choice Questions and Answers on Java.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Data Structures-Set» Next - Java Questions & Answers – Java.util – Maps 

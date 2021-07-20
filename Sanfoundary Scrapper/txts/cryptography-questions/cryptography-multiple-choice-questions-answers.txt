@@ -1,0 +1,99 @@
+1. RC5 encryption uses Right shift and decryption uses Left shift.
+a) True
+b) False
+b
+2. The below round is the last step in encryption /decryption in RC5.
+a) True
+b) False
+b
+3. The code bellow is the RC5 encryption pseudo code in C language.
+What is the error?
+LE0 = A + S[0];
+RE0 = B + S [1];
+for i = 1 to r    do
+	LEi = ((LEi-1 ⊕ REi-1) >>> REi-1) + S [2xi];
+	REi = ((REi-1 ⊕ LEi) <<< LEi) + S [2xi+1];
+a) The left shift operation (should be right shift)
+b) The right shift operation (should be left shift)
+c) LEi-1  and REi-1 should be LEi and REi
+d) The for loop runs from 1 to r-1 ( not 1 to r)
+b
+Correct code –
+LE0 = A + S[0];
+RE0 = B + S [1];
+for i = 1 to r    do
+	LEi = ((LEi-1 ⊕ REi-1) <<<REi-1) + S [2xi];
+	REi = ((REi-1 ⊕ LEi) <<< LEi) + S [2xi+1];
+Join [email protected]
+4. “RC5 uses the Feistel Structure.”
+a) True
+b) False
+b
+5. Find the error in the Decryption pseudo code for RC5 –
+for  i = 1  to  r    do
+	RDi-1 = ((RDi  – S [2xi+1] >>> LDi ) ⊕ LDi);
+	LDi-1 = ((LDi – S [2xi] >>> RDi-1) ⊕ RDi-1);
+	B= RD0 + S [1];
+	A = LD0 – S [0];
+a) B= RD0 + S [1];
+b) for  i = 1  to  r    do
+c) LDi-1 = ((LDi – S [2xi] >>> RDi-1) ⊕ RDi-1);
+d) A = LD0 – S [0];
+a
+6. Which one of the following is not a RC5 mode of operation?
+a) RC5 block cipher
+b) RC5-Cipher Block Chaining
+c) RC5-Cipher Padding
+d) RC5-CipherText Stealing
+c
+1.	RC5 block cipher
+2.	RC5-CBC
+3.	RC5-CBC-Pad
+4.	RC5-CTS.
+7. Which RC5 mode will have the ciphertext longer than the plaintext by at most the size of a single RC5 block?
+a) RC5 block cipher
+b) RC5-Cipher Block Chaining
+c) RC5-Cipher Block Chaining Pad
+d) RC5-CipherText Stealing
+c
+8. Which RC5 mode of operation is this?
+a) RC5 block cipher
+b) RC5-Cipher Block Chaining
+c) RC5-Cipher Block Chaining Pad
+d) RC5-CipherText Stealing
+d
+9. Which of these is not a characteristic of block ciphers?
+a) Variable key length / block size / number of rounds
+b) Mixed operators, data/key dependent rotation
+c) Key independent S-boxes
+d) More complex key scheduling
+c
+Features seen in modern block ciphers are:
+– Variable key length / block size / number of rounds
+– Mixed operators, data/key dependent rotation
+– Key dependent S-boxes
+– More complex key scheduling
+– Operation of full data in each round
+– Varying non-linear functions.
+10. Which one of the following RC4 algorithm not used in?
+a) SSL
+b) TLS
+c) FTP
+d) WEP
+c
+11. Till when was the RC4 algorithm kept a secret?
+a) 1990
+b) 1992
+c) 1996
+d) 1994
+d
+12. RC4 algorithm uses the concept of Block Cipher System.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Symmetric Ciphers Questions and Answers – RC4 and RC5 – I» Next - Asymmetric Ciphers Questions and Answers – Number Theory – I 

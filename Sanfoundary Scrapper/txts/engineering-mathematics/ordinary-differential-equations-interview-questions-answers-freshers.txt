@@ -1,0 +1,77 @@
+1. Solution of the D.E y’’ – 4y’ + 4y = ex when solved using method of undetermined coefficients is _____
+a) y = (c1 + c2)e2x + 2ex – 1
+b) y = (c1 + c2 x)e2x + 4ex – 4
+c) y = (c1 + c2 x)e2x + ex
+d) y = (c1 + c2 x)ex + 4ex
+c
+A.E is m2 – 4m + 4 = 0 –> (m – 2)2 = 0 –> m = 2,2
+thus yc =   (c1 + c2 x) e2x, ∅(x) =  ex and 1 is not a root of the A.E
+we assume P.I in the form yp =   aex…(1) to find a such that yp’’ – 4yp’ + 4yp = ex….(2)
+yp’ = aex and yp’ = aex now (2) becomes aex – 4aex + 4aex = ex –> a = 1
+substituting the value of a in (1) we get yp = ex
+ thus the solution is y = yc + yp –> y = (c1 + c2 x) e2x +  ex.
+2. Solution of the D.E y’’ + 3y’ + 2y = 12x2 when solved using the method of undetermined coefficients is ________
+a) y = c1 ex +  c2 e2x +  2 –   11x +  x2
+b) y = c1 e – x +  c2 e – 2x +  18 +  21x +  3x2
+c) y = c1 ex +  c2 e – 2x +  11 +  18x +  2x2
+d) y = c1 e – x +  c2 e – 2x +  21 –   18x +  6x2
+d
+A.E is m2 + 3m + 2 = 0 –> (m + 1)(m + 2) = 0 –> m =  – 1, – 2
+yc = c1 e – x +  c2 e – 2x and ∅(x) =  12x2 and 0 is not a root of the A.E,
+we assume P.I in the form yp = a + bx + cx2….(1)to find a,b & c such that
+yp’’ + 3yp’ + 2yp = 12x2….(2), yp‘ = b + 2cx, yp” = 2c now (2) becomes
+2c + 3(b + 2cx) + 2(a + bx + cx2) = 12x2
+(2a + 3b + 2c) + (2b + 6c)x + (2c)x2 = 12x2
+2a + 3b + 2c = 0, 2b + 6c = 0, 2c = 12 –> c = 6, b =  – 18, a = 21 hence (1) becomes
+yp = 21 – 18x + 6x2 thus complete solution is
+y = yc + yp –> c1 e – x +  c2 e – 2x +  21 –   18x +  6x2.
+3. Find the Particular integral solution of the D.E (D2 – 4D + 3)y = 20 cos x by the method of undetermined coefficients.
+a) yp = 4 cos⁡x – 3 sin⁡x
+b) yp = 2 sin⁡x – 4 cos⁡x
+c) yp =  – 3 cos⁡x + 4 sin⁡x
+d) yp = 2 cos⁡x – 4 sin⁡x
+d
+and since A.E has m = 1,3 as roots,∓i are not  roots of A.E.we have to find a and b
+such that yp” – 4yp‘ + 3yp = 20 cos⁡x……(2)
+from (1) we get yp‘ =  – a sin⁡x + b cos⁡x, yp” =  – a cos⁡x – b sin⁡x, (2) becomes
+ – a cos⁡x – b sin⁡x –  4( – a sin⁡x + b cos⁡x) + 3(a cos⁡x + b sin⁡x) = 20 cos x
+(2a – b)cos x + (4a + 2b)sin x = 20 cos x –> 2a – b = 20 and 4a + 2b = 0, by solving we get
+a = 2, b =  – 4 from (1) yp = 2 cos⁡x – 4 sin⁡x   is the particular integral solution.
+4. Using the method of undetermined coefficients find the P.I for the D.E x’’’(t) – x’’(t) = 3et + sin⁡t.
+a) xp = 3et +  \(\frac{t}{2}\)  (cos⁡t – 2 sin⁡t )
+b) xp = 3tet +  \(\frac{1}{2}\)  (cos⁡t + sin⁡t )
+c) xp = 3tet +  \(\frac{t}{3}\) (4cos⁡t + 2sin⁡t )
+d) xp = 3et +  \(\frac{1}{2}\) (cos⁡t – sin⁡t )
+b
+                        m2 (m – 1) = 0 –> m = 0, 0, 1 –> xc (t) = (c1 + c2 t) + c3 et
+∅(t) =  3et + sin⁡t  we assume for P.I in the form xp = atet + b cos⁡t + c sin⁡t …(1)
+since 1 is a root and ∓i are not a roots of the A.E. To find a, b& c such that
+xp’’’(t) –   xp’’(t) = 3et + sin⁡t……(2)
+from (1) we have xp‘ =  a(tet + et) – b sin⁡t + c cos⁡t
+xp” =   a(tet + 2et) – b cos⁡t – c sin⁡t
+xp”’ =  a(tet + 3et) + b sin⁡t – c cos⁡t,now (2) becomes
+atet + 3aet + b sin⁡t – c cos⁡t, –  atet – 2aet + b cos⁡t + c sin⁡t =  3et + sin⁡t
+ aet + (b + c)  sin⁡t + (b – c)  cos⁡t =  3et + sin⁡t
+ – –  > a = 3 and b + c = 1, b – c = 0 –> a = 3 and b = 1/2, c = 1/2
+hence from (1) xp = 3tet + 1/2  (cos⁡t + sin⁡t) is the particular integral solution.
+5. What is the solution of D.E (D2 – 2D)y = ex  sin⁡x when solved using the method of undetermined coefficients?
+a) \( y =   c_1 +  c_2 \,e^{2x} –   \frac{e^x (xsin x + cos⁡x)}{2}\) 
+b) \(y =   c_1 +  c_2 \,e^{2x} –   \frac{e^x sin x}{2}\) 
+c) \(y =   c_1 +  c_2 \,e^{2x} –   \frac{e^x  cos x}{2}\) 
+d) \(y =   c_1 +  c_2 \,e^{2x} –   \frac{e^x  (sin x + x cos⁡x)}{4}\) 
+b
+yc = c1 + c2 e2x and ∅(x) =  ex  sin⁡x. we assume PI in the form
+yp = ex (a cos x + b sin x)….(1) since 1±i are not roots of the A.E.
+we have to find a, b such that yp” – 2yp‘ = ex  sin⁡x…..(2)
+from (1) yp‘ = ex (- a sin x + b cos x) +  ex (a cos x + b sin x)
+yp” = ex (- a sin x + b cos x) +  ex (a cos x + b sin x) +  ex (- a cos x –  b sin x) +  ex (- a sin x + b cos x) = 2ex (- a sin⁡x + b cos⁡x)  hence (2) becomes
+2ex (- a sin⁡x + b cos⁡x) – 2ex (- a sin⁡x + b cos⁡x)
+ – 2ex (a cos⁡x + b sin⁡x) = ex  sin⁡x i.e –  2aex  cos⁡x – 2bex  sin⁡x =   ex  sin⁡x
+–> –  2a = 0, – 2b = 1 –> a = 0, b =  – 1/2 hence (1) becomes \(y_p = \frac{-e^x sin x}{2}\) 
+y = yc + yp = c1 + c2 e2x – \(\frac{e^x sin x}{2}\) .
+ Sanfoundry Global Education & Learning Series – Ordinary Differential Equations.
+To practice all areas of Ordinary Differential Equations for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ordinary Differential Equations Questions and Answers – Simple Electrical Networks Solution» Next - Ordinary Differential Equations Questions and Answers – Harmonic Motion and Mass – Spring System 

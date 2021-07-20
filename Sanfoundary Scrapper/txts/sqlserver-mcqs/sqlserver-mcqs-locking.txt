@@ -1,0 +1,66 @@
+1. Which of the following resource can be locked in SQL Server?
+a) TID
+b) RID
+c) PID
+d) SID
+b
+2. Point out the correct statement.
+a) Deadlocking is same as normal blocking
+b) No other transactions can read or modify data locked with shared lock
+c) A deadlock occurs when there is a cyclic dependency between two or more threads for some set of resources
+d) All of the mentioned
+c
+3. ______________ allow concurrent transactions to read (SELECT) a resource.
+a) Update locks
+b) Shared locks
+c) Exclusive Locks
+d) All of the mentioned
+b
+4. Which is the most restrictive isolation level in transaction?
+a) Repeatable Read
+b) Snapshot
+c) Read Committed
+d) SERIALIZABLE
+d
+5. Point out the wrong statement.
+a) Schema modification (Sch-M) locks are used when a table data definition language operation is being performed
+b) By default, SQL Server transactions times out after a certain time
+c) Disallowing a locking level can affect concurrency adversely
+d) Table-level locking hints can be used when a finer control of the types of locks acquired on an object is required
+b
+6. __________ locks allow processes to bulk copy data concurrently into the same table.
+a) Bulk update
+b) Bulk import
+c) Bulk export
+d) Bulk copy
+a
+7. Which of the following locking hint is similar to NOLOCK?
+a) PAGLOCK
+b) READCOMMITTED
+c) READUNCOMMITTED
+d) SERIALIZABLE
+c
+8. Which of the following mode indicates the intention of the transaction to read all of the resources lower in the hierarchy?
+a) IS
+b) IX
+c) SIX
+d) All of the mentioned
+c
+9. Which of the following lock is incompatible with all lock modes?
+a) Intent exclusive (IX)
+b) Schema stability
+c) Schema modification
+d) Bulk update
+c
+10. Which of the following mode has exclusive range and exclusive resource lock?
+a) RangeX_X
+b) RangeS_U
+c) RangeS_S
+d) RangeI_N
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Transaction – 2» Next - SQL Server Questions and Answers – Blocking 

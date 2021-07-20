@@ -1,0 +1,76 @@
+1. How many functions does PHP offer for searching and modifying strings using Perl-compatible regular expressions.
+a) 7
+b) 8
+c) 9
+d) 10
+b
+2. What will be the output of the following PHP code?
+    <?php    $foods = array("pasta", "steak", "fish", "potatoes");    $food = preg_grep("/^s/", $foods);    print_r($food);    ?>
+a) Array ( [0] => pasta [1] => steak [2] => fish [3] => potatoes )
+b) Array ( [3] => potatoes )
+c) Array ( [1] => steak   )
+d) Array ( [0] => potatoes )
+c
+3. Say we have two compare two strings which of the following function/functions can you use?
+i) strcmp() 
+ii) strcasecmp()
+iii) strspn() 
+iv) strcspn()
+Join [email protected]
+a) i) and ii)
+b) iii) and iv)
+c) only i)
+d) i), ii), iii) and iv)
+d
+4. Which one of the following functions will convert a string to all uppercase?
+a) strtoupper()
+b) uppercase()
+c) str_uppercase()
+d) struppercase()
+a
+5. What will be the output of the following PHP code?
+    <?php    $title = "O'malley wins the heavyweight championship!";    echo ucwords($title);    ?>
+a) O’Malley Wins The Heavyweight Championship!
+b) O’malley Wins The Heavyweight Championship!
+c) O’Malley wins the heavyweight championship!
+d) o’malley wins the heavyweight championship!
+a
+6. What will be the output of the following PHP code?
+    <?php    echo str_pad("Salad", 5)." is good.";    ?>
+a) SaladSaladSaladSaladSalad is good
+b) is good SaladSaladSaladSaladSalad
+c) is good  Salad
+d) Salad  is good
+d
+7. Which one of the following functions can be used to concatenate array elements to form a single delimited string?
+a) explode()
+b) implode()
+c) concat()
+d) concatenate()
+b
+8. Which one of the following functions finds the last occurrence of a string, returning its numerical position?
+a) strlastpos()
+b) strpos()
+c) strlast()
+d) strrpos()
+d
+9. What will be the output of the following PHP code?
+    <?php    $author = "[email protected]";    $author = str_replace("a","@",$author);    echo "Contact the author of this article at $author.";    ?>
+a) Contact the author of this article at [email protected]@mple.com
+b) [email protected] the @uthor of this @rticle @t [email protected]@[email protected]
+c) Contact the author of this article at [email protected]@[email protected]
+d) Error
+c
+10. What will be the output of the following PHP code?
+    <?php    $url = "[email protected]";    echo ltrim(strstr($url, "@"),"@");    ?>
+a) [email protected]
+b) nachiketh
+c) [email protected]
+d) example.com
+d
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all areas of PHP for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Strings and Regular Expressions – 1» Next - PHP Questions & Answers – File System and PHP 

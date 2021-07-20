@@ -1,0 +1,111 @@
+1. What is the old thumb rule to design a propeller?
+a) Keep it as long as possible
+b) Keep it as short as possible
+c) Keep it as short and wide as possible
+d) Keep it as half of diameter always
+a
+2. Which of the following is correct?
+a) (Vtip) static = π*n*d/60 fps
+b) (Vtip) static = n*d feet
+c) (Vtip) static = 2*n*d/360 s
+d) (Vtip) static = d/60 fs
+a
+(Vtip) static = π*n*d/60 fps
+Where, n = rpm based on engine data
+d = diameter
+Units should be observed carefully and equation should be used accordingly.
+3. Helical tip speed is given by ____________
+a) \(\sqrt{Vtip^2+ V^2}\) 
+b) 2*ᴨ*d
+c) CL*d
+d) Drag*Lift
+a
+4. Propeller has diameter of 25 unit. What will be the static tip speed of the propeller? (Given n = 1200rpm.)
+a) 1570.8 unit
+b) 3004.5
+c) 2345.67 unit
+d) 7643.23
+a
+Now, static tip speed V = ᴨ*n*d/60 = ᴨ*1200*25/60 = 1570.8 unit.
+5. If propeller has static tip speed of 600 ft. per second then, find diameter of propeller. Given n = 1250rpm.
+a) 9.167
+b) 19.8976
+c) 23.96
+d) 3.2876
+a
+Now, diameter d = V*60/π*n = 600*60/π*1250 = 9.167 ft.
+6. Which of the following is correct for two blade propeller?
+a) Diameter d = 22*(Hp)0.25
+b) Diameter d = 22*(Hp)0.56
+c) Diameter d = 12.22*(Hp)0.25
+d) Diameter d = 2.2 ft
+a
+Diameter d = 22*(Hp)0.25. Where, Hp is horse power.
+Above equation provides approximate value for 2 bladed propeller diameter.
+7. If a propeller is designed to have 200 Hp then find the appropriate diameter for the propeller. Consider 2 blades.
+a) 82.73 unit
+b) 210
+c) 34.56
+d) 180
+a
+Now, diameter d = 22*(Hp)0.25 = 22*(200)0.25 = 82.73 unit.
+8. Let’s consider we need to design a propeller engine which has 3 blades. What will be the typical value of propeller diameter? Engine is expected to produce 400 Hp of power.
+a) 80.5 unit
+b) 129
+c) 128.94
+d) 129.95
+a
+Now, diameter d = 18*(Hp)0.25 = 18*4000.25 = 80.5 unit.
+9. Which of the following is an example of a cooling system?
+a) Downdraft cooling
+b) Downdraft lofting
+c) Sideway lofting
+d) Sideway circulation
+a
+10. Following diagram represents _____
+a) updraft cooling
+b) downdraft cooling
+c) updraft lifting
+d) downdraft lifting
+a
+11. Which of the following is correct?
+a) Variable pitch propeller is used to improve thrust characteristics
+b) Variable pitch should not be used at all
+c) Always use variable pitch propeller
+d) Variable pitch has no disadvantage
+a
+12. Scaling factor of turboprop engine is 1.2. If, the actual length of an existing turboprop engine is 12 unit then, what will be the length of scaled engine?
+a) 23.68
+b) 56.6
+c) 12
+d) 32
+a
+Now, Length of the scaled engine l = L*SF3.73 = 12*1.23.73 = 23.68 unit.
+13. A turboprop engine is designed to generate bhp of 2500. Estimate the appropriate weight of the engine based on statistical models.
+a) 893.84 lb.
+b) 21kg
+c) 4555lb
+d) 321 slug
+a
+Now, approximate value of weight is given by, W = 1.67*bhp0.803 = 1.67*25000.803 = 893.84 lb.
+14. A turboprop engine is to be scaled from an existing engine. If scale factor is 0.85 then, what will be the value of diameter of our engine? Given actual diameter of selected existing engine is 8.56unit.
+a) 8.4 unit
+b) 23
+c) 0.89
+d) 9.123
+a
+Now, scaled engine diameter d = D*SF0.12 = 8.56* 0.850.12 = 8.4 unit.
+15. Find the ratio of weight to length of the turboprop engine which has bhp of 3000.
+a) 12.60
+b) 60.12
+c) 60.012
+d) 60.1206
+a
+Now, ratio of weight to length is given by,
+W/L = 0.403*(bhp)0.43 = 0.403*30000.43 = 12.60.
+Sanfoundry Global Education & Learning Series – Aircraft Design.
+To practice all areas of Aircraft Design, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aircraft Design Questions and Answers – Propulsion – Jet-Engine Integration-4» Next - Aircraft Design Questions and Answers – Fuel System 

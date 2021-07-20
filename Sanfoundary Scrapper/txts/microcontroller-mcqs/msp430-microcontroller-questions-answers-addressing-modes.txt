@@ -1,0 +1,69 @@
+1. There are _____ number of addressing modes found for the source and _____ number of modes for the destination part.
+a) 4,4
+b) 2,4
+c) 7,4
+d) 2,2
+c
+2. MSP430 describes reti instruction as ___________
+a) Format1 addressing
+b) Format2 addressing
+c) Jump addressing
+d) None of the mentioned
+b
+3. mov.w R3, R4 takes _________
+a) one cycle
+b) two cycles
+c) four cycles
+d) eight cycles
+a
+4. Indexed addressing can be used for _________
+a) source
+b) destination
+c) source & destination
+d) none of the mentioned
+c
+5. What do you understand form this instruction mov.w X(PC), R6
+a) R6 = X+PC
+b) R6 = PC-X
+c) R6 = -X-PC
+d) R6 = -X+PC
+a
+Join Sanfoundry@YouTube
+6. Absolute mode uses which of the following operators?
+a) %
+b) /
+c) $
+d) &
+d
+7. Indirect register mode is used by _________
+a) source register
+b) destination register
+c) source & destination register
+d) none of the mentioned
+a
+8. Indirect mode and the indirect auto increment mode have which common operator in them
+a) +
+b) –
+c) @
+d) &
+c
+9. Are the following two instructions similar?
+MOV @R10,0(R11) and MOV @R10+,0(R11)
+a) yes
+b) no
+c) cant be said
+d) depends on the conditions
+b
+MOV @R10+,0(R11) → Move the contents of the source address (contents of R10) to the destination address (contents of R11). Register R10 is incremented by 1 for a byte operation, or 2 for a word operation after the fetch; it points to the next address without any overhead. This is useful for table processing.
+10. MOV @R10,0(R11)  is a type of ________
+a) Register Mode
+b) Indirect Register Mode
+c) Immediate Mode
+d) Indirect Autoincrement Mode
+b
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MSP430 Microcontroller Questions and Answers –  Architecture» Next - MSP430 Microcontroller Questions and Answers – Functions and Subroutine 

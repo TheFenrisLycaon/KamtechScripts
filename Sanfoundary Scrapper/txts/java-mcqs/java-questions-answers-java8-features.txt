@@ -1,0 +1,68 @@
+1. Which of the following is not introduced with Java 8?
+a) Stream API
+b) Serialization
+c) Spliterator
+d) Lambda Expression
+b
+2. What is the purpose of BooleanSupplier function interface?
+a) represents supplier of Boolean-valued results
+b) returns Boolean-valued result
+c) There is no such function interface
+d) returns null if Boolean is passed as argument
+a
+3. What is the return type of lambda expression?
+a) String
+b) Object
+c) void
+d) Function
+d
+4. Which is the new method introduced in java 8 to iterate over a collection?
+a) for (String i : StringList)
+b) foreach (String i : StringList)
+c) StringList.forEach()
+d) List.for()
+c
+StringList.forEach(new Consumer<Integer>() {	public void accept(Integer t)        {	}});//Traversing with Consumer interface implementationMyConsumer action = new MyConsumer();StringList.forEach(action);	}}
+5. What are the two types of Streams offered by java 8?
+a) sequential and parallel
+b) sequential and random
+c) parallel and random
+d) random and synchronized
+a
+Stream<Integer> sequentialStream = myList.stream();Stream<Integer> parallelStream = myList.parallelStream();
+6. Which feature of java 8 enables us to create a work stealing thread pool using all available processors at its target?
+a) workPool
+b) newWorkStealingPool
+c) threadPool
+d) workThreadPool
+b
+7. What does Files.lines(Path path) do?
+a) It reads all the files at the path specified as a String
+b) It reads all the lines from a file as a Stream
+c) It reads the filenames at the path specified
+d) It counts the number of lines for files at the path specified
+b
+8. What is Optional object used for?
+a) Optional is used for optional runtime argument
+b) Optional is used for optional spring profile
+c) Optional is used to represent null with absent value
+d) Optional means it’s not mandatory for method to return object
+c
+9. What is the substitute of Rhino javascript engine in Java 8?
+a) Nashorn
+b) V8
+c) Inscript
+d) Narcissus
+a
+10. What does SAM stand for in the context of Functional Interface?
+a) Single Ambivalue Method
+b) Single Abstract Method
+c) Simple Active Markup
+d) Simple Abstract Markup
+b
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – JUnits» Next - Java Questions & Answers – File and Directory 

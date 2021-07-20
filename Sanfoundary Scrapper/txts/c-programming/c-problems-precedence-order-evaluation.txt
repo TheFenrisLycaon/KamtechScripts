@@ -1,0 +1,78 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Wipro and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Wipro interviews on C Programming language. 
+Here is a listing of C programming interview questions on “Precedence and Order of Evaluation” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int b = 5 - 4 + 2 * 5;        printf("%d", b);    }
+a) 25
+b) -5
+c) 11
+d) 16
+c
+2. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int b = 5 & 4 & 6;        printf("%d", b);    }
+a) 5
+b) 6
+c) 3
+d) 4
+d
+3. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int b = 5 & 4 | 6;        printf("%d", b);    }
+a) 6
+b) 4
+c) 1
+d) 0
+a
+4. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int b = 5 + 7 * 4 - 9 * (3, 2);        printf("%d", b);    }
+a) 6
+b) 15
+c) 13
+d) 21
+b
+5. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int h = 8;        int b = (h++, h++);        printf("%d%d\n", b, h);    }
+a) 10 10
+b) 10 9
+c) 9 10
+d) 8 10
+c
+6. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int h = 8;        int b = h++ + h++ + h++;        printf("%d\n", h);    }
+a) 9
+b) 10
+c) 12
+d) 11
+d
+7. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int h = 8;        int b = 4 * 6 + 3 * 4 < 3 ? 4 : 3;        printf("%d\n", b);    }
+a) 3
+b) 33
+c) 34
+d) Run time error
+a
+8. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int a = 2 + 3 - 4 + 8 -  5 % 4;        printf("%d\n", a);    }
+a) 0
+b) 8
+c) 11
+d) 9
+b
+9. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        char a = '0';        char b = 'm';        int c = a && b || '1';        printf("%d\n", c);    }
+a) 0
+b) a
+c) 1
+d) m
+c
+10. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        char a = 'A';        char b = 'B';        int c = a + b % 3 - 3 * 2;        printf("%d\n", c);    }
+a) 65
+b) 58
+c) 64
+d) 59
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Precedence and Order of Evaluation – 3» Next - C Programming Questions and Answers – Precedence and Order of Evaluation – 5 

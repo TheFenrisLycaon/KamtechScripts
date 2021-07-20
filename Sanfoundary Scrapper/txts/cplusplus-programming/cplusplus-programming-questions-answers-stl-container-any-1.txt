@@ -1,0 +1,109 @@
+1. What is any in C++?
+a) STL container used to store a single value of any type
+b) Exception class in C++
+c) Fundamental type provided by C++
+d) Template data type
+a
+2. In how many different ways any-container can be constructed?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+3. What is the correct syntax of constructing any using copy initialization?
+a) any variable_name = value;
+b) any variable_name(value);
+c) 
+any variable_name;
+variable_name = value;
+d) any <type>variable_name = value;
+a
+any variable_name = value;
+4. What is the correct syntax of constructing any using parameterized constructor?
+a) any variable_name = value;
+b) any variable_name(value);
+c) 
+any variable_name;
+variable_name = value;
+d) any <type>variable_name = value;
+b
+any variable_name(value);
+5. What is the correct syntax of constructing any using assignment operator?
+a) any variable_name = value;
+b) any variable_name(value);
+c) 
+any variable_name;
+variable_name = value;
+d) any <type>variable_name = value;
+b
+any variable_name;
+variable_name = value;
+6. Which of the following syntax is used to convert any variable to its original type?
+a) any_cast<variable_name>();
+b) any_cast(variable_name);
+c) <original_type>(variable_name);
+d) any_cast<original_type>(variable_name);
+d
+any_cast(variable_name);
+7. Which header file is required to use any container?
+a) <any>
+b) <stl>
+c) <container-any>
+d) <containers>
+a
+8. What will be the output of the following C++ code?
+#include<iostream>
+#include<any>
+using namespace std;
+int main()
+{
+	int a = 5;
+	any var = a;
+	cout<<var<<endl;
+	return 0;
+}
+a) 5
+b) Compile-time error
+c) Run-time error
+d) Nothing is printed
+b
+9. What will be the output of the following C++ code?
+#include<iostream>
+#include<any>
+#include<string>
+using namespace std;
+int main()
+{
+	string s = "Hello World";
+	any var(s);
+	cout<<any_cast<string>(var)<<endl;
+	return 0;
+}
+a) Run-time error
+b) Compile-time error
+c) Hello World
+d) Nothing is printed
+d
+10. What will be the output of the following C++ code?
+#include<iostream>
+#include<any>
+#include<string>
+using namespace std;
+int main()
+{
+	string s = "Hello World";
+	any var(s);
+	cout<<any_cast<char*>(var)<<endl;
+	return 0;
+}
+a) Hello World
+b) Compile-time error
+c) Run-time error
+d) Nothing is printed
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – STL – Pair» Next - C++ Programming Questions and Answers – STL Container Any – 2 

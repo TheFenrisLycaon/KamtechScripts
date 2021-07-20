@@ -1,0 +1,67 @@
+1. ____________ is a distributed real-time computation system for processing large volumes of high-velocity data.
+a) Kafka
+b) Storm
+c) Lucene
+d) BigTop
+b
+2. Point out the correct statement.
+a) A Storm topology consumes streams of data and processes those streams in arbitrarily complex ways
+b) Apache Storm is a free and open source distributed real-time computation system
+c) Storm integrates with the queueing and database technologies you already use
+d) All of the mentioned
+d
+3. Storm integrates with __________ via Apache Slider.
+a) Scheduler
+b) YARN
+c) Compaction
+d) All of the mentioned
+c
+4. For Apache __________ users, Storm utilizes the same ODBC interface.
+a) cTakes
+b) Hive
+c) Pig
+d) Oozie
+b
+5. Point out the wrong statement.
+a) Storm is difficult and can be used with only Java
+b) Storm is fast: a benchmark clocked it at over a million tuples processed per second per node
+c) Storm is scalable, fault-tolerant, guarantees your data will be processed
+d) All of the mentioned
+a
+6. Storm is benchmarked as processing one million _______ byte messages per second per node.
+a) 10
+b) 50
+c) 100
+d) 200
+c
+7. Apache Storm added the open source, stream data processing to _________ Data Platform.
+a) Cloudera
+b) Hortonworks
+c) Local Cloudera
+d) MapR
+b
+8. How many types of nodes are present in Storm cluster?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+9. __________  node distributes code across the cluster.
+a) Zookeeper
+b) Nimbus
+c) Supervisor
+d) None of the mentioned
+b
+10. ____________ communicates with Nimbus through Zookeeper, starts and stops workers according to signals from Nimbus.
+a) Zookeeper
+b) Nimbus
+c) Supervisor
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Impala» Next - Hadoop Questions and Answers – Kafka with Hadoop – 1 

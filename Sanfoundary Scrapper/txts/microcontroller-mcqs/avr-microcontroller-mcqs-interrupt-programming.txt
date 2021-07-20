@@ -1,0 +1,66 @@
+1. On reset, what are the contents of the SREG register?
+a) 00h
+b) ffh
+c) 1fh
+d) 11h
+a
+2. TIMSK register is used for?
+a) knowing the status of the timer count
+b) used for masking the interrupts flags of the Timer0, Timer1 and Timer2
+c) it is used for enabling all the timer interrupts
+d) it is used for resetting the value of the interrupts
+b
+3. Why RETI instruction be the last instruction of ISR?
+a) because it returns with carry
+b) because it returns to the main program with all the flags of the SREG raised
+c) because it returns to the main program where interrupt is generated and set the global interrupt enable bit in SREG
+d) none of the mentioned
+c
+4. In AVR what is the ISR address for an external hardware interrupt?
+a) 0002h
+b) 0004h
+c) 0006h
+d) all of the mentioned
+d
+5. What is the address in the interrupt service routine assigned for the timer0 overflow flag?
+a) 0012h
+b) 000Ah
+c) 0016h
+d) all of the mentioned
+c
+6. Is the same address is assigned for the timer0 and timer1 overflow flag in the interrupt vector table of the interrupts?
+a) true
+b) false
+c) can’t be determined
+d) depends on the situation
+b
+7. External hardware interrupts are assigned to which pins of the atmega32?
+a) PORTD.2
+b) PORTD.3
+c) PORTB.2
+d) All of the mentioned
+d
+8. Which register is responsible for handling all the external hardware interrupts?
+a) TIMSK
+b) GICR
+c) MCUCR
+d) IVCE
+b
+9. By default, INT0-INT2 interrupts are?
+a) edge triggered
+b) level triggered
+c) all of the mentioned
+d) none of the mentioned
+b
+10. What will happen in that condition, if an interrupt occurs while the microcontroller is serving any other interrupt?
+a) both the interrupts will be handled simultaneously
+b) the interrupt which is being done first will be served first
+c) the interrupt that is more priority in the interrupt vector table will be served first
+d) the interrupt having low priority in the interrupt vector table will be served first
+c
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - AVR Microcontroller Questions and Answers – Timer Programming» Next - AVR Microcontroller Questions and Answers – Serial Port Communication 

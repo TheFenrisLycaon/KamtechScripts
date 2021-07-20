@@ -1,0 +1,121 @@
+1. A Delete command operates on ______ relation.
+a) One
+b) Two
+c) Several
+d) Null
+a
+2. 
+Delete from r where P;
+The above command
+a) Deletes a particular tuple from the relation
+b) Deletes the relation
+c) Clears all entries from the relation
+d) All of the mentioned
+a
+3. Which one of the following deletes all the entries but keeps the structure of the relation.
+a) Delete from r where P;
+b) Delete from instructor where dept name= ’Finance’;
+c) Delete from instructor where salary between 13000 and 15000;
+d) Delete from instructor;
+d
+4. Which of the following is used to insert a tuple from another relation?
+a)
+   INSERT INTO course (course id, title, dept name, credits)
+   VALUES (’CS-437’, ’DATABASE Systems’, ’Comp. Sci.’, 4);
+b)
+   INSERT INTO instructor
+   SELECT ID, name, dept name, 18000
+   FROM student
+   WHERE dept name = ’Music’ AND tot cred > 144;
+c)
+INSERT INTO course VALUES (’CS-437’, ’DATABASE Systems’, ’Comp. Sci.’, 4);
+d) Not possible
+b
+5. Which of the following deletes all tuples in the instructor relation for those instructors associated with a department located in the Watson building which is in department relation.
+a)
+   DELETE FROM instructor
+   WHERE dept_name IN 'Watson';
+b)
+   DELETE FROM department 
+   WHERE building='Watson';
+c)
+   DELETE FROM instructor
+   WHERE dept_name IN (SELECT dept name
+                       FROM department
+                       WHERE building = ’Watson’);
+d) None of the mentioned
+c
+6.
+UPDATE instructor
+   _____ salary= salary * 1.05;
+Fill in with correct keyword to update the instructor relation.
+a) Where
+b) Set
+c) In
+d) Select
+b
+7. _________ are useful in SQL update statements, where they can be used in the set clause.
+a) Multiple queries
+b) Sub queries
+c) Update
+d) Scalar subqueries
+d
+8. The problem of ordering the update in multiple updates is avoided using
+a) Set
+b) Where
+c) Case
+d) When
+c
+9. Which of the following is the correct format for case statements.
+a)
+   CASE
+   WHEN pred1 ... result1
+   WHEN pred2 ... result2
+   . . .
+   WHEN predn ... resultn
+   ELSE result0
+   END
+b)
+   CASE
+   WHEN pred1 THEN result1
+   WHEN pred2 THEN result2
+   . . .
+   WHEN predn THEN resultn
+   ELSE result0
+   END
+c)
+   CASE
+   WHEN pred1 THEN result1
+   WHEN pred2 THEN result2
+   . . .
+   WHEN predn THEN resultn
+   ELSE result0
+d) All of the mentioned
+b
+10. Which of the following relation updates all instructors with salary over $100,000 receive a 3 percent raise, whereas all others receive a 5 percent raise.
+a)
+   UPDATE instructor
+   SET salary = salary * 1.03
+   WHERE salary > 100000;
+   UPDATE instructor
+   SET salary = salary * 1.05
+   WHERE salary <= 100000;
+b)
+   UPDATE instructor
+   SET salary = salary * 1.05
+   WHERE salary < (SELECT avg (salary)
+   FROM instructor);
+c)
+   UPDATE instructor
+   SET salary = CASE
+   WHEN salary <= 100000 THEN salary * 1.03
+   ELSE salary * 1.05
+   END
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Aggregate Functions and Nested Subqueries – 2» Next - Database Questions and Answers – Join Expressions 

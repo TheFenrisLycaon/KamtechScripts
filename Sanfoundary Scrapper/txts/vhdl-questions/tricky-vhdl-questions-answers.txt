@@ -1,0 +1,121 @@
+1. What do you use to perform basic logic functions in VHDL while creating concurrent code?
+a) Operators
+b) If statement
+c) PROCESS
+d) GENERATE
+a
+2. In the implementation of following function by using NAND keyword only, can be done in _____ operations.
+X = A'B + AB'
+a) 2
+b) 3
+c) 4
+d) 5
+c
+3. The maximum number of parameters in port map() function while implementing logic function using gates only, is equal to ____________
+a) Number of inputs
+b) Number of outputs
+c) Number of inputs + number of outputs
+d) Infinite
+c
+Join Sanfoundry@YouTube
+4. Which of the following is not representing a nibble?
+a) x<= “0101”
+b) x<= STD_LOGIC_VECTOR (0 TO 4)
+c) x<= STD_LOGIC_VECTOR(3 DOWNTO 0)
+d) x<= BIT_VECTOR (1 TO 4)
+b
+5. In designing logic functions in VHDL, we can use arithmetic operators.
+a) True
+b) False
+a
+6. A “Multiplication by 2” logic is to be designed by using the VHDL code, which of the following operator can be used to implement the same?
+a) SRL
+b) SRA
+c) SLA
+d) SLL
+d
+7. What kind of logic is represented by the given code?
+ARCHITECTURE my_func OF my_logic IS
+BEGIN
+y <= x SRL 2;
+END my_func;
+a) Divide by 2
+b) Divide by 4
+c) Multiply by 2
+d) Multiply by 4
+b
+8. What information is not provided by the given logic’s output?
+ARCHITECTURE my_func OF my_logic IS
+BEGIN
+y <= x SRL 2;
+END my_func;
+a) Result of the operation
+b) Operands used
+c) Remainder of the operation
+d) Everything about the operation will be determined
+c
+9. A user wants to implement a logic by using VHDL. In which he has inputs from two sensors which are smoke sensor and water level detector. If any input is high, he has to turn on the respective alarm. Which of the following is representing the correct code for the given logic?
+a)
+ARCHITECTURE alarm_control OF my_home IS
+BEGIN
+PROCESS(smoke_sensor, water_sensor)
+BEGIN
+IF(smoke_sensor = ‘1’) THEN fire_alarm = ‘1’;
+ELSE fire_alarm = ‘0’;
+END IF;
+IF(water_sensor = ‘1’) THEN water_alarm = ‘1’;
+ELSE water_alarm = ‘0’;
+END IF;
+END PROCESS;
+END alarm_control;
+b)
+ ARCHITECTURE alarm_control OF my_home IS
+BEGIN
+PROCESS(smoke_sensor, water_sensor)
+BEGIN
+IF(smoke_sensor = ‘1’) THEN fire_alarm = ‘1’;
+ELSE fire_alarm = ‘0’;
+END IF;
+IF(water_sensor = ‘1’) THEN water_alarm = ‘0’;
+ELSE water_alarm = ‘1’;
+END IF;
+END PROCESS;
+END alarm_control;
+c)
+ARCHITECTURE alarm_control OF my_home IS
+BEGIN
+PROCESS(smoke_sensor, water_sensor)
+BEGIN
+IF(smoke_sensor = ‘1’) THEN fire_alarm = ‘0’;
+ELSE fire_alarm = ‘1’;
+END IF;
+IF(water_sensor = ‘1’) THEN water_alarm = ‘1’;
+ELSE water_alarm = ‘0’;
+END IF;
+END PROCESS;
+END alarm_control;
+d)
+ARCHITECTURE alarm_control OF my_home IS
+BEGIN
+PROCESS(smoke_sensor, water_sensor)
+BEGIN
+IF(smoke_sensor = ‘0’) THEN fire_alarm = ‘1’;
+ELSE fire_alarm = ‘0’;
+END IF;
+IF(water_sensor = ‘0’) THEN water_alarm = ‘1’;
+ELSE water_alarm = ‘0’;
+END IF;
+END PROCESS;
+END alarm_control;
+a
+  
+10. Optimized implementation of Boolean functions reduces the cost of implementation.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice Tricky questions and answers on all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Implementing Logic Functions with VHDL – 1» Next - VHDL Questions and Answers – Implementing Combinational Circuits with VHDL – 1 

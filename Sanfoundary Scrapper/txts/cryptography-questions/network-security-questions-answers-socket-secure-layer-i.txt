@@ -1,0 +1,102 @@
+1. In the above figure from left to right, the correct order of the shaded levels are
+a) Network level, Application level, Transport level
+b) Application level, Network level, Transport level
+c) Transport level, Application level, Network level
+d) Network level, Transport level, Application level
+d
+2. In the above figure, which of the above shaded block is transparent to end users and applications?
+a) IP/IPSec
+b) SSL
+c) Kerberos
+d) S/MIME
+a
+3. In terms of Web Security Threats, “Impersonation of another user” is a Passive Attack.
+a) True
+b) False
+b
+4. Which one of the following is not a higher –layer SSL protocol?
+a) Alert Protocol
+b) Handshake Protocol
+c) Alarm Protocol
+d) Change Cipher Spec Protocol
+c
+5. Which one of the following is not a session state parameter?
+a) Master Secret
+b) Cipher Spec
+c) Peer Certificate
+d) Server Write Key
+d
+6. In the SSL Protocol, each upper layer message if fragmented into a maximum of __________ bytes.
+a) 216
+b) 232
+c) 214
+d) 212
+c
+7. The difference between HMAC algorithm and SSLv3 is that pad1 and pad2 are ________ in SSLv3 whereas ________ in HMAC.
+a) NANDed, XORed
+b) Concatenated, XORed
+c) XORed, NANDed
+d) XORed, Concatenated
+b
+8. The full form of SSL is
+a) Serial Session Layer
+b) Secure Socket Layer
+c) Session Secure Layer
+d) Series Socket Layer
+b
+9. After the encryption stage in SSL, the maximum length of each fragment is
+a) 214+1028
+b) 214+2048
+c) 216+1028
+d) 216+2048
+b
+10. Consider the following example –
+Size of Plaintext – 48 bytes.
+Size of MAC – 20 bytes.
+Block Length – 8 bytes.
+How many bytes of padding need to be added to the system?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+11. Which protocol is used to convey SSL related alerts to the peer entity?
+a) Alert Protocol
+b) Handshake Protocol
+c) Upper-Layer Protocol
+d) Change Cipher Spec Protocol
+a
+12. Which protocol consists of only 1 bit?
+a) Alert Protocol
+b) Handshake Protocol
+c) Upper-Layer Protocol
+d) Change Cipher Spec Protocol
+d
+13. Which protocol is used for the purpose of copying the pending state into the current state?
+a) Alert Protocol
+b) Handshake Protocol
+c) Upper-Layer Protocol
+d) Change Cipher Spec Protocol
+d
+14. Which of the following are possible sizes of MACs?
+i) 12 Bytes
+ii) 16 Bytes
+iii) 20 Bytes
+iv) 24 Bytes
+a) i and iii
+b) ii only
+c) ii and iii
+d) ii iii and iv
+c
+15. In the alert protocol the first byte takes the value 1 or 2 which corresponds to _________ and _________ respectively.
+a) Select, Alarm
+b) Alert, Alarm
+c) Warning, Alarm
+d) Warning, Fatal
+d
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Networking Questions and Answers – Designing Subnets – II» Next - Network Security Questions and Answers – Secure Socket Layer – II 

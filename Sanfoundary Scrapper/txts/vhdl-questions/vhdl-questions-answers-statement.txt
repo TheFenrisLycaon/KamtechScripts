@@ -1,0 +1,152 @@
+1. What kind of statement is the IF statement?
+a) Concurrent
+b) Sequential
+c) Assignment
+d) Selected assignment
+b
+2. Which of the following keyword is not associated with IF statement?
+a) ELSE
+b) THEN
+c) ELSIF
+d) WHEN
+d
+3. Which of the following represents the correct order for keywords?
+a) IF, THEN, ELSIF, THEN, ELSE
+b) IF, ELSE, THEN, ELSIF, THEN
+c) IF, ELSIF, THEN, ELSE, THEN
+d) IF, THEN, ELSE, THEN, ELSIF
+a
+4. What is the correct syntax for defining an IF statement?
+a)
+    IF (condition) THEN
+    statements;
+    ELSIF (condition) THEN
+    statements;
+    ….;
+    ELSE (condition) THEN
+    statements;
+    END IF;
+b)
+    IF (condition) THEN
+    statements;
+    ELSIF (condition) THEN
+    statements;
+    ….;
+    ELSE 
+    statements;
+    END IF;
+c)
+    IF (condition) THEN
+    statements;
+    ELSIF (condition) THEN
+    statements;
+    ….;
+    ELSE (condition)
+    statements;
+    END IF-ELSE;
+d)
+    IF (condition) THEN
+    statements;
+    ELSIF (condition) THEN
+    statements;
+    ….;
+    ELSE 
+    statements;
+    END IF-ELSE;
+b
+  
+5. If the condition of IF statement is an expression, then what should be the type of the result of the expression?
+a) Bit
+b) Std_logic
+c) Boolean
+d) Integer
+c
+6. In the following lines, what should be the value of signal y, if a and b both are at logic high?
+PROCESS (a, b)
+BEGIN
+IF( a XOR b &lt;=’1’)
+y &lt;= ‘1’;
+ELSIF (a AND b <= ‘0’)
+y &lt;= a;
+ELSE
+y &lt;= ‘0’;
+END IF;
+END PROCESS;
+a) a
+b) b
+c) 0
+d) 1
+c
+7. It is possible to use nested IF in VHDL.
+a) True
+b) False
+a
+8. Which of the following condition has topmost priority?
+a) IF
+b) ELSIF
+c) ELSE
+d) THEN
+a
+9. What logic is described in the following logic?
+PROCESS (a, b)
+IF (a = ‘1’ AND b = ‘0’ OR a= ’0’ AND b = ‘1’) THEN
+y &lt;= ‘1’;
+ELSIF (a = ‘1’ AND b= ‘1’) THEN
+y &lt;= ‘0’;
+ELSE
+ y &lt;= ‘0’;
+END IF
+a) EXOR
+b) EXNOR
+c) AND
+d) NOR
+a
+10. One IF statement can have multiple ___________
+a) IF
+b) ELSIF
+c) ELSE
+d) CASE
+b
+11. More than one sequential statement can exist between each statement part.
+a) True
+b) False
+a
+12. If a user gets an error at the time of simulation which is “ the IF statement is illegal” what could be the reason?
+a) Using IF statement in architecture body
+b) Using IF statement without ELSE
+c) Using multiple ELSE statements
+d) Using concurrent assignment in the IF
+a
+13. In a clocked process, IF statement is used to __________
+a) To run statements sequentially
+b) To use concurrent assignment within process
+c) To detect the clock signal
+d) To implement sequential circuit
+c
+14. What will be the output in the following code?
+ARCHITECTURE my_logic OF my_design IS
+BEGIN
+a &lt;= 1;
+b &lt;= 1;
+PROCESS (a, b)
+BEGIN
+IF (a AND b = 1) THEN
+output &lt;= a;
+ELSIF (a OR b = 1) THEN
+output &lt;= b;
+ELSE
+output &lt;= 0;
+END IF;
+END PROCESS;
+END my_logic;
+a) 0
+b) 1
+c) b
+d) a
+d
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Process Statement – 2» Next - VHDL Questions and Answers – Case Statement – 1 

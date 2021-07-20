@@ -1,0 +1,80 @@
+1. Which circuit can be used as a full wave rectifier?
+a) Absolute vale output circuit
+b) Positive clipper with two diodes
+c) Negative clipper with two diodes
+d) Peak clampers
+a
+2. For the circuit shown below find the output voltage
+a) Vo (+) = +10 v
+b) Vo (+) = +12v
+c) Vo (+) = +7v
+d) None of the mentioned
+b
+V1 = (12-0.7) /2 = 5.65 v	 (Vd1= voltage drop across diode=0.7)
+Similarly, the voltage at the negative terminal V2 = (Vo -Vd3 ) /2 = (Vo – 0.7) /2
+ Since Vid ≅ 0v , ∴ V1 = V2
+  Vo = (5.65 *2 ) + 0.7 = 12v. 
+3. Determine the output waveform for the circuit
+Where input = 2 Vp sine wave with time period 0.2ms.
+a
+Therefore, Vo (+) = Vo (-) = 2 Vp sine wave with 0.2 ms time period. So, the output wave form will be a full wave rectified output of 2v amplitude, 
+4. What is the alternate method to measure the values of non-sinusoidal waveform other than ac voltmeter?
+a) Clipper
+b) Clamper
+c) Peak detector
+d) Comparator
+c
+5. State the condition needed to be satisfied by peak detector for proper operation of circuit.
+a) CRd ≤ T/10 and CRL ≥ 10T
+b) CRd ≤ 10T and CRL ≥ T/10
+c) CRd ≥ T/10 and CRL ≤ 10T
+d) CRd ≥ 10T and CRL ≤ T/10
+a
+6. The resistor in the peak detector are used to
+a) To maintain proper operation
+b) Protect op-amp from damage
+c) To get shaped non-sinusoidal waveform
+d) None of the mentioned
+b
+7. How the recovery time of the op-amp is reduced?
+a) Diode is connected at the output of amplifier
+b) Load resistor
+c) Forward biased diode resistor
+d) Discharge capacitor
+a
+8. How to detect the negative peaks of input signals in the peak detector given below?
+a) Reversing D1 diode
+b) Reversing D1 and D2 diodes
+c) Reversing D2 diode
+d) Charging the positions of D1 and D2
+b
+9. In the sample and hold circuit, the period during which the voltage across capacitor is equal to input voltage
+a) Sample period
+b) Hold period
+c) Delay period
+d) Charging period
+a
+10. During which period the op-amps output of sample and hold circuits is processed?
+a) Delay period
+b) Sample and hold period
+c) Sample period
+d) Hold period
+d
+11. Which IC is mostly preferred for sample and hold circuit?
+a) µ771
+b) IC741
+c) LF398
+d) µ351
+c
+12. Sample and hold circuit are used in
+a) Analog to Digital modulation
+b) Digital to analog modulation
+c) Pulse position modulation
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Clippers and Clampers» Next - Linear Integrated Circuit Questions and Answers – 555 Timer as a Monostable Multivibrator 

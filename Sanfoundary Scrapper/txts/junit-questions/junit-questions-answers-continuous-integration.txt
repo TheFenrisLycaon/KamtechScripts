@@ -1,0 +1,66 @@
+1. _____________ checks if an attribute is blank or not.
+a) BaseIfAttribute
+b) IfBlankAttribute
+c) IfTrueAttribute
+d) IfSetAttribute
+b
+2. ______________ check if an attribute value is true or not.
+a) BaseIfAttribute
+b) IfBlankAttribute
+c) IfTrueAttribute
+d) IfSetAttribute
+c
+3. _____________ is an interface indicating that a reader may be chained to another one.
+a) TokenFilter.Filter
+b) BaseFilterReader
+c) BaseParamFilterReader
+d) ChainableReader
+d
+4. ______________ is the base class for core filter readers.
+a) TokenFilter.Filter
+b) BaseFilterReader
+c) BaseParamFilterReader
+d) ChainableReader
+b
+5. ______________ is a parameterized base class for core filter readers.
+a) TokenFilter.Filter
+b) BaseFilterReader
+c) BaseParamFilterReader
+d) ChainableReader
+c
+6. _______________ class is used for assembling the constants declared in a Java class in key1=value1(line separator)key2=value2 format.
+a) ClassConstants
+b) BaseFilterReader
+c) BaseParamFilterReader
+d) ChainableReader
+a
+7. ______________ converts text to local OS formatting conventions along with repairing the text damaged by file transfer programs.
+a) ClassConstants
+b) BaseFilterReader
+c) BaseParamFilterReader
+d) FixCrLfFilter
+d
+8. ________________ reads the first n lines of a stream.
+a) ClassConstants
+b) HeadFilter
+c) BaseParamFilterReader
+d) FixCrLfFilter
+b
+9. _______________ is a Sax2 based project reader.
+a) AntXMLContext
+b) DefaultExecutor
+c) ProjectHelperImpl
+d) ProjectHelper2
+d
+10. ______________ is a “Single-check” Target executor implementation.
+a) SingleCheckExecutor
+b) DefaultExecutor
+c) ProjectHelperImpl
+d) ProjectHelper2
+a
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Maven Downsides 

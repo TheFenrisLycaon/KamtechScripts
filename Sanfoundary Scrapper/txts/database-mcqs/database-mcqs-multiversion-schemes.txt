@@ -1,0 +1,67 @@
+1. The most recent version of standard SQL prescribed by the American National Standards Institute is
+a) SQL 2016
+b) SQL 2002
+c) SQL – 4
+d) SQL2
+a
+2. ANSI-standard SQL allows the use of special operators in conjunction with the WHERE clause.  A special operator used to check whether an attribute value is null is
+a) BETWEEN
+b) IS NULL
+c) LIKE
+d) IN
+b
+3. A lock that prevents the use of any tables in the database from one transaction while another transaction is being processed is called a
+a) Database-level lock
+b) Table-level lock
+c) Page-level lock
+d) Row-level lock
+a
+4. A condition that occurs when two transactions wait for each other to unlock data is known as a(n)
+a) Shared lock
+b) Exclusive lock
+c) Binary lock
+d) Deadlock
+d
+Join [email protected]
+5. _______ means that data used during the execution of a transaction cannot be used by a second transaction until the first one is completed.
+a) Serializability
+b) Atomicity
+c) Isolation
+d) Time stamping
+c
+6. A unit of storage that can store one or more records in a hash file organization is denoted as
+a) Buckets
+b) Disk pages
+c) Blocks
+d) Nodes
+a
+7. The file organization which allows us to read records that would satisfy the join condition by using one block read is
+a) Heap file organization
+b) Sequential file organization
+c) Clustering file organization
+d) Hash files organization
+c
+8. Which of the following is not true about B+ trees?
+a) B+ tree index takes the form of balanced tree
+b) Performance of B+ tree degrades as the file grows
+c) Look-up in B+ tree is straightforward and efficient
+d) Insertion and deletion in B+ tree is complicated but efficient
+b
+9. The extent of the database resource that is included with each lock is called the level of
+a) Impact
+b) Granularity
+c) Management
+d) DBMS control
+b
+10. DBMS periodically suspends all processing and synchronizes its files and journals through the use of
+a) Checkpoint facility
+b) Backup facility
+c) Recovery manager
+d) Database change log
+a
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Multiple Granularity» Next - Database Questions and Answers – Snapshot Isolation 

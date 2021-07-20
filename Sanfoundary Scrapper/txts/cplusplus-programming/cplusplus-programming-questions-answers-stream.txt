@@ -1,0 +1,94 @@
+This section on C++ questions and puzzles focuses on “Output Stream”. One shall practice these questions and puzzles to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These programming puzzles can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ questions and puzzles on “Output Stream” along with answers, explanations and/or solutions:
+1. How many groups of output of operation are there in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+2. Pick out the correct objects about the instantiation of output stream.
+a) cout
+b) cerr
+c) clog
+d) all of the mentioned
+d
+3. What is meant by ofstream in c++?
+a) Writes to a file
+b) Reads from a file
+c) Writes to a file &  Reads from a file
+d) delete a file
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main ()     {        char str[] = "Steve jobs";        int val = 65;        char ch = 'A';        cout.width (5);        cout << right;        cout << val << endl;        return 0;    }
+a) Steve jobs
+b) A
+c) 65
+d)      65
+d
+Output:
+$ g++ ous
+.cpp
+$ a.out
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;65
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main ()     {        int n;         n = 43;        cout << hex << n << endl;        return 0;    }
+a) 2c
+b) 2b
+c) 20
+d) 50
+b
+Output:
+$ g++ ous1.cpp
+$ a.out
+2b
+6. What is the output of this C++ program in the “test.txt” file?
+    #include <fstream>    using namespace std;    int main ()    {        long pos;        ofstream outfile;        outfile.open ("test.txt");        outfile.write ("This is an apple",16);        pos = outfile.tellp();        outfile.seekp (pos - 7);        outfile.write (" sam", 4);        outfile.close();        return 0;    }
+a) This is an apple
+b) apple
+c) sample
+d) This is a sample
+d
+Output:
+$ g++ ous2.cpp
+$ a.out
+This is a sample
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main ()    {        int n;        n = -77;        cout.width(4);         cout << internal << n << endl;        return 0;    }
+a) 77
+b) -77
+c) – 77
+d) None of the mentioned
+c
+Output:
+$ g++ ous3.cpp
+$ a.out
+- 77
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <locale>    using namespace std;    int main()    {        locale mylocale("");        cout.imbue( mylocale );        cout << (double) 3.14159 << endl;        return 0;    }
+a) 3.14
+b) 3.14159
+c) Error
+d) 3.69
+b
+Output:
+$ g++ ous4.cpp
+$ a.out
+3.14159
+9. How many types of output stream classes are there in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+10. What must be specified when we construct an object of class ostream?
+a) stream
+b) streambuf
+c) memory
+d) steamostream
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – C Standard Library» Next - C++ Programming Questions and Answers – Input Stream 

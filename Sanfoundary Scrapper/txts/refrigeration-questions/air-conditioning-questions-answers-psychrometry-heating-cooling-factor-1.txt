@@ -1,0 +1,79 @@
+1. What is the By-pass factor for heating coil, if td1 = temperature at entry, td2 = temperature at exit and td3 = coil temperature?
+a) td3 – td1 / td3 – td1
+b) td3 – td2 / td3 – td1
+c) td3 – td2 / td2 – td1
+d) td3 – td2 / td1 – td2
+b
+BPF = Temperature difference between coil and exit / Temperature difference between coil and entry
+= td3 – td2 / td3 – td1.
+2. What is the By-pass factor for cooling coil, if td1 = temperature at entry, td2 = temperature at exit and td3 = coil temperature?
+a) td3 – td1 / td3 – td1
+b) td3 – td2 / td3 – td1
+c) td3 – td2 / td2 – td1
+d) td2 – td3 / td1 – td3
+d
+BPF = Temperature difference between exit and coil / Temperature difference between entry and coil
+= td2 – td3 / td1 – td3.
+3. If the value of BPF for one row of a coil is y then what is the value of BPF for n similar rows?
+a) n / y
+b) n + y
+c) (y)n
+d) n x y
+c
+4. What is the value of sensible heat given out by the coil?
+a) U Ac tm
+b) U Ac
+c) U tm
+d) U Ac2 tm
+a
+So, Sensible heat = U Ac tm.
+5. What is the formula of logarithmic mean temperature in terms of By-pass factor?
+a) Tm = td2 – td1 / loge [1/BPF] 
+b) Tm = td2 – td1 / log10 [BPF] 
+c) Tm = td2 – td1 / loge [BPF] 
+d) Tm = td2 – td3 / loge [BPF] 
+c
+Tm = td2 – td1 / loge [td3 – td1 / td3 – td2] 
+As, BPF for the coil = [td3 – td1 / td3 – td2] 
+Tm = td2 – td1 / loge [BPF].
+Join Sanfoundry@YouTube
+6. What is the efficiency of the coil?
+a) 1 + BPF
+b) 1 / BPF
+c) BPF
+d) 1 – BPF
+d
+7. What is the contact factor for heating coil, if td1 = temperature at entry, t2 = temperature at exit and td3 = coil temperature?
+a) td3 – td1 / td3 – td1
+b) td2 – td1 / td3 – td1
+c) td3 – td2 / td2 – td1
+d) td3 – td2 / td1 – td2
+b
+ηH = 1 – BPF
+= 1 – [td3 – td2 / td3 – td1] 
+= td2 – td1 / td3 – td1.
+8. What is the contact factor for cooling coil, if td1 = temperature at entry, td2 = temperature at exit and td3 = coil temperature?
+a) td1 – td2 / td1 – td3
+b) td2 – td1 / td3 – td1
+c) td3 – td2 / td2 – td1
+d) td3 – td2 / td1 – td2
+a
+ηC = 1 – BPF
+= 1 – [td2 – td3 / td1 – td3] 
+= td1 – td2 / td1 – td3.
+9. A coil with low BPF has better performance.
+a) True
+b) False
+a
+10. The value of BPF for the heating and the cooling coil is different under the same temperature conditions.
+a) True
+b) False
+b
+BPF for cooling coil is, BPF = td2 – td3  / td1 – td3
+As the numerator and denominator are reversed in the cooling coil than the heating coil. So, the value we get for either of the coils is the same.
+Sanfoundry Global Education & Learning Series – Refrigeration & Air Conditioning.
+To practice all areas of Refrigeration & Air Conditioning, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Air-Conditioning Questions and Answers – Psychrometry – By-Pass Factor» Next - Air-Conditioning Questions and Answers – Psychrometry – Heating and Cooling Factor – 2 

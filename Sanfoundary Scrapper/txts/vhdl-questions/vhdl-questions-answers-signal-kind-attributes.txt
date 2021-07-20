@@ -1,0 +1,65 @@
+1. What is the basic use of signal kind attributes?
+a) To check any event on signals
+b) To check if a function is called
+c) To check if a signal is IN or OUT mode
+d) To check a clock signal
+a
+2. Which of the following returns the Boolean type always?
+a) ‘LAST_VALUE
+b) ‘LAST_EVENT
+c) ‘EVENT
+d) ‘STABLE
+c
+3. Signal kind attributes can’t have variables as their objects.
+a) True
+b) False
+a
+4. Refer to the statement given below, it is used for detecting _________
+IF (clk’EVENT and clk = ‘0’)
+a) Rising edge of the clock signal
+b) Falling edge of the clock signal
+c) Clock signal frequency
+d) Time period of clock signal
+b
+5. s’ACTIVE will return true if _________
+a) Any transition from 0 to 1 on signal s during the current delta
+b) Any transition from 1 to 0 on signal s during the current delta
+c) Any change has occurred on the signal s during last 2 delta’s
+d) Any change has occurred on the signal s during the current delta
+d
+6. Attribute s‘LAST_EVENT has a return value of ______ type.
+a) BOOLEAN
+b) TIME
+c) INTEGER
+d) Same as signal s type
+b
+7. What is the type of value returned by the s’DELAYED(time) attribute?
+a) TIME
+b) BOOLEAN
+c) INTEGER
+d) Same as signal s
+d
+8. Which of the following statement is correct to check the violation of hold time?
+a) IF(clk’DELAYED(hold_time)’EVENT) THEN
+b) IF(clk’DELAYED(hold_time) = ‘1’) THEN
+c) IF(clk’DELAYED(hold_time) = ‘0’) THEN
+d) IF(clk’DELAYED(hold_time) = ‘1’ AND clk’DELAYED(hold_time)’EVENT) THEN
+d
+9. The attribute s’TRANSACTION creates a signal of type ______
+a) BOOLEAN
+b) BIT
+c) INTEGER
+d) Same as signal s
+b
+10. What is the use of s’TRANSACTION attribute?
+a) Check the continuity
+b) Check the hold time
+c) Interrupt handling by using WAIT
+d) Create a square wave
+c
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Function Kind Attributes» Next - VHDL Questions and Answers – Type Kind and Range Kind Attributes 

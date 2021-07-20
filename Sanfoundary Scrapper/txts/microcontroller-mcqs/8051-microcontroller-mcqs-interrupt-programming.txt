@@ -1,0 +1,66 @@
+1. When an interrupt is enabled, then where does the pointer moves immediately after this interrupt has occurred?
+a) to the next instruction which is to be executed
+b) to the first instruction of ISR
+c) to a fixed location in memory called interrupt vector table
+d) to the end of the program
+c
+2. What are the contents of the IE register, when the interrupt of the memory location 0x00 is caused?
+a) 0xFFH
+b) 0x00H
+c) 0x10H
+d) 0xF0H
+b
+3. After RETI instruction is executed then the pointer will move to which location in the program?
+a) next interrupt of the interrupt vector table
+b) immediate next instruction where interrupt is occurred
+c) next instruction after the RETI in the memory
+d) none of the mentioned
+b
+4. Which pin of the external hardware is said to exhibit INT0 interrupt?
+a) pin no 10
+b) pin no 11
+c) pin no 12
+d) pin no 13
+c
+5. Which bit of the IE register is used to enable TxD/RxD interrupt?
+a) IE.D5
+b) IE.D2
+c) IE.D3
+d) IE.D4
+d
+6. Which of the following combination is the best to enable the external hardware interrupt 0 of the IE register (assuming initially all bits of the IE register are zero)?
+a) EX0=1
+b) EA=1
+c) any of the mentioned
+d) EX0=1 & EA=1
+d
+7. Why normally LJMP instructions are the topmost lines of the ISR?
+a) so as to jump to some other location where there is a wider space of memory available to write the codes
+b) so as to avoid overwriting of other interrupt instructions
+c) all of the mentioned
+d) none of the mentioned
+c
+8. Which register is used to make the interrupt level or an edge triggered pulse?
+a) TCON
+b) IE
+c) IPR
+d) SCON
+a
+9. What is the disadvantage of a level triggered pulse?
+a) a constant pulse is to be maintained for a greater span of time
+b) another interrupt may be generated if the low-level signal is not removed before the ISR is finished
+c) it is difficult to produce
+d) another interrupt may be caused if the signal is still low before the completion of the last instruction
+d
+10. What is the correct order of priority that is set after a controller gets reset?
+a) RI/TI > TF1 > TF0 > INT1 > INT0
+b) RI/TI < TF1 < TF0 < INT1 < INT0
+c) INT0 > TF0 > INT1 > TF1 > RI/TI
+d) INT0 < TF0 < INT1 < TF1 < RI/TI
+c
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - 8051 Microcontroller Questions and Answers – Serial Port Communication» Next - 8051 Microcontroller Questions and Answers – LCD Interfacing 

@@ -1,0 +1,67 @@
+1. _______________ is a specification for storing and retrieving files that exceed the BSON-document size limit of 16MB.
+a) DataFS
+b) GridFS
+c) ReadFS
+d) None of the mentioned
+b
+2. Point out the wrong statement.
+a) By default GridFS limits chunk size to 255k
+b) GridFS is useful only for storing files that exceed 16MB
+c) When you query a GridFS store for a file, the driver or client will reassemble the chunks as needed
+d) All of the mentioned
+b
+3. How many does collections GridFS use to store files?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+4. The default chunk size is changed from 256k to 255k in which version?
+a) 3.0
+b) 2.4.9
+c) 2.4.10
+d) None of the mentioned
+b
+5. Point out the wrong statement.
+a) Client libraries provide a convenient, injection free, process to build these objects
+b) MongoDB represents queries as BSON objects
+c) Field names in MongoDB’s query language have semantic meaning
+d) All of the mentioned
+d
+6. Which of the collection in GridFS stores the binary chunks?
+a) chunks
+b) files
+c) data
+d) log
+a
+7. ___________  is the _id is of the data type chosen for the original document in files collections.
+a) files._id
+b) file._id
+c) fileobj._id
+d) none of the mentioned
+a
+8. Which of the following checks and repairs errors and inconsistencies in data storage?
+a) repairDatabase
+b) repairedDatabase
+c) recoverDatabase
+d) all of the mentioned
+a
+9. The files_id field contains the _id of the chunk’s __________ document.
+a) parent
+b) child
+c) top
+d) none of the mentioned
+a
+10. Which of the following field allows efficient retrieval of chunks?
+a) n
+b) name
+c) object
+d) 2n
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB for interviews, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Data Modeling Concepts – 1» Next - MongoDB Questions and Answers – Data Model Examples and Patterns 

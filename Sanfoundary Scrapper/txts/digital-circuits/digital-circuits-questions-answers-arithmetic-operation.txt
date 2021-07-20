@@ -1,0 +1,199 @@
+1. What is the addition of the binary numbers 11011011010 and 010100101?
+a) 0111001000
+b) 1100110110
+c) 11101111111
+d) 10011010011
+c
+			0 + 0 = 0
+			0 + 1 = 1
+			1 + 0 = 1
+			1 + 1 = 0 ( Carry 1)
+       1
+ 
+   1 1 0 1 1 0 1 1 0 1 0
+ 
+ + 0 0 0 1 0 1 0 0 1 0 1
+  _______________________
+   1 1 1 0 1 1 1 1 1 1 1
+  _______________________
+2. Perform binary addition: 101101 + 011011 = ?
+a) 011010
+b) 1010100
+c) 101110
+d) 1001000
+d
+			0 + 0 = 0
+			0 + 1 = 1
+			1 + 0 = 1
+			1 + 1 = 0 ( Carry 1)
+ 1 1 1 1 1 1
+   1 0 1 1 0 1
+ + 0 1 1 0 1 1
+ _______________
+ 1 0 0 1 0 0 0
+ _______________
+Therefore, the addition of 101101 + 011011 = 1001000.
+3. Perform binary subtraction: 101111 – 010101 = ?
+a) 100100
+b) 010101
+c) 011010
+d) 011001
+c
+			0 – 0 = 0
+			0 – 1 = 1 ( Borrow 1)
+			1 – 0 = 1
+			1 – 1 = 0
+  1 0 1 1 1 1
+- 0 1 0 1 0 1
+ ____________
+  0 1 1 0 1 0
+ _____________
+Therefore, The subtraction of 101111 – 010101 = 011010.
+4. Binary subtraction of 100101 – 011110 is?
+a) 000111
+b) 111000
+c) 010101
+d) 101010
+a
+			0 – 0 = 0
+			0 – 1 = 1 ( Borrow 1)
+			1 – 0 = 1
+			1 – 1 = 0
+  1 0 0 1 0 1
+- 0 1 1 1 1 0
+  ___________
+  0 0 0 1 1 1
+  ___________
+Therefore, The subtraction of 100101 – 011110 = 000111.
+5. Perform multiplication of the binary numbers: 01001 × 01011 = ?
+a) 001100011
+b) 110011100
+c) 010100110
+d) 101010111
+a
+			0 * 0 = 0
+			0 * 1 = 0
+			1 * 0 = 0
+			1 * 1 = 1
+               0 1 0 0 1
+             x 0 1 0 1 1
+             ____________
+               0 1 0 0 1
+             0 1 0 0 1 0
+           0 0 0 0 0 0 0
+         0 1 0 0 1 0 0 0
+       0 0 0 0 0 0 0 0 0
+      ___________________
+       0 0 1 1 0 0 0 1 1
+      ___________________
+Therefore, 01001 × 01011 = 001100011.
+6. 100101 × 0110 = ?
+a) 1011001111
+b) 0100110011
+c) 101111110
+d) 0110100101
+c
+			0 * 0 = 0
+			0 * 1 = 0
+			1 * 0 = 0
+			1 * 1 = 1
+                      1 0 0 1 0 1
+                 x        0 1 1 0
+                       ___________ 
+                      0 0 0 0 0 0
+                    1 0 0 1 0 1 0
+                  1 0 0 1 0 1 0 0
+                0 0 0 0 0 0 0 0 0 
+               __________________
+                0 1 1 0 1 1 1 1 0
+              ___________________
+Therefore, 100101 x 0110 = 011011110.
+7. On multiplication of (10.10) and (01.01), we get ____________
+a) 101.0010
+b) 0010.101
+c) 011.0010
+d) 110.0011
+c
+			0 * 0 = 0
+			0 * 1 = 0
+			1 * 0 = 0
+			1 * 1 = 1
+           1 0.1 0
+      x    0 1.0 1
+         __________
+            1 0 1 0
+          0 0 0 0 0
+        1 0 1 0 0 0
+      0 0 0 0 0 0 0
+     _______________
+      0 1 1.0 0 1 0
+     _________________
+Therefore, 10.10 x 01.01 = 011.0010.
+8. Divide the binary numbers: 111101 ÷ 1001 and find the remainder.
+a) 0010
+b) 1010
+c) 1100
+d) 0111
+d
+1 0 0 1 ) 1 1 1 1 0 1 ( 1 1
+          1 0 0 1
+          __________
+          0 1 1 0 0
+            1 0 0 1
+          ___________
+            0 1 1 1
+Therefore, the remainder of 111101 ÷ 1001 = 0111.
+9. Divide the binary number (011010000) by (0101) and find the quotient.
+a) 100011
+b) 101001
+c) 110010
+d) 010001
+b
+0 1 0 1 ) 0 1 1 0 1 0 0 0 0 ( 0 1 0 1 1 1
+          0 0 0 0
+         _____________________
+          0 1 1 0 1 
+          0 0 1 0 1
+         ______________
+          0 1 0 0 0 0
+          0 0 0 0 0 0
+          ______________________
+              1 0 0 0 0
+	      0 0 1 0 1			
+           ____________________
+		0 1 0 1 1 0
+		0 0 0 1 0 1 
+ 	     ____________________
+		  1 0 0 0 1 0 
+		  0 0 0 1 0 1 
+	   ________________________
+	            1 1 1 0 1 0 
+	            0 0 0 1 0 1
+ 	    ________________________
+			1 0 1 0 1
+			0 0 1 0 1 
+ 	     ________________________
+		        1 0 0 0 0
+Therefore, the quotient of 011010000 ÷ 1001 = 101001.
+10. Binary subtraction of 101101 – 001011 = ?
+a) 100010
+b) 010110
+c) 110101
+d) 101100
+a
+			0 – 0 = 0
+			0 – 1 = 1 ( Borrow 1)
+			1 – 0 = 1
+			1 – 1 = 0
+  1 0 1 1 0 1
+- 0 0 1 0 1 1
+  ____________
+  1 0 0 0 1 0
+  ____________
+Therefore, the subtraction of 101101 – 001011 = 100010.
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – Number System – 2» Next - Digital Circuits Questions and Answers – 1’s, 2’s, 9’s & 10’s Complements – 1 

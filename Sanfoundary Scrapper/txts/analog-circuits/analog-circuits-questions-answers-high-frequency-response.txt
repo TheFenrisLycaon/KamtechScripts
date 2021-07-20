@@ -1,0 +1,79 @@
+1. We cannot use h-parameter model in high frequency analysis because ____________
+a) They all can be ignored for high frequencies
+b) Junction capacitances are not included in it
+c) Junction capacitances have to be included in it
+d) AC analysis is difficult for high frequency using it
+b
+2. Consider a CE circuit, where trans-conductance is 50mΩ-1, diffusion capacitance is 100 pF, transition capacitance is 3 pF. IB = 20μA. Given base emitter dynamic resistance, rbe = 1000 Ω, input  VI  is 20*sin(107t). What is the short circuit current gain?
+a) 30
+b) 35
+c) 40
+d) 100
+b
+IL = -gmVb’e
+Vb’e = Ib rb’e/(1+jωCrb’e)
+C = CD + CT = 103pF
+Vb’e = 20μ.1k/(1+j.107.103.10-12.1000)
+AI = IL/IB = 50m.1k/(1+j.107.103.10-12.1000)
+AI = 35 (approx).
+3. Given that transition capacitance is 5 pico F and diffusion capacitance is 80 pico F, and base emitter dynamic resistance is 1500 Ω, find the β cut-off frequency.
+a) 7.8 x 106 rad/s
+b) 8.0 x 106 rad/s
+c) 49.2 x 106 rad/s
+d) 22.7 x 106 rad/s
+a
+ ωβ = 1/C.rbe
+ωβ = 7.8 x 106.
+4. For given BJT, β=200. The applied input frequency is 20 Mhz and net internal capacitance is 100 pF. What is the CE short circuit current gain at β cut-off frequency?
+a) 200
+b) 100
+c) 141.42
+d) 440.2
+c
+At f = fβ, A = \(\frac{β}{\sqrt{2}}\) 
+Hence A = 141.42.
+Join Sanfoundry@YouTube
+5. Given that β=200, input frequency is f = 20Mhz and short circuit current gain is A = 100. What is the unity gain frequency?
+a) 2308 Mhz
+b) 2000 Mhz
+c) 2508 Mhz
+d) 3000 Mhz
+a
+1 + (20/f)2 = 4
+20/f = 1.732
+fβ = 11.54 Mhz
+Unity gain frequency = βfβ = 200 x 11.54Mhz = 2308 Mhz.
+6. Gain bandwidth frequency is GBP= 3000 Mhz. The cut-off frequency is f=10Mhz. What is the CE short circuit current gain at the β cutoff frequency?
+a) 212
+b) 220
+c) 300
+d) 200
+a
+βfβ = 3000Mhz
+β = 3000/10 = 300
+A = \(\frac{β}{\sqrt{2}}\) = 212.13.
+7. Which of the statement is incorrect?
+a) At unity gain frequency the CE short circuit current gain becomes 1
+b) Unity gain frequency is the same as Gain Bandwidth Product of BJT
+c) Gain of BJT decreases at higher frequencies due to junction capacitances
+d) β- cut-off frequency is one where the CE short circuit current gain becomes β/2
+d
+8. Given a MOSFET where gate to source capacitance is 300 pF and gate to drain capacitance is 500 pF. Calculate the gain bandwidth product if the transconductance is 30 mΩ-1.
+a) 5.98 Mhz
+b) 4.9 Mhz
+c) 6.5Mhz
+d) 5.22Mhz
+a
+Thus GBP is approximately 5.9 Mhz.
+9. In an RC coupled CE amplifier, when the input frequency increases, which of these are incorrect?
+a) Reactance CSH decreases
+b) Voltage gain increases
+c) Voltage gain decreases due to shunt capacitance
+d) An RC coupled amplifier behaves like a low pass filter
+b
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Low Frequency Response and Miller Effect Capacitance» Next - Analog Circuits Questions and Answers – Cascaded Amplifier 

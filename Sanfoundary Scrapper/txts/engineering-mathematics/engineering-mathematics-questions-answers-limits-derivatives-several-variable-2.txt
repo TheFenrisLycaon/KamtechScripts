@@ -1,0 +1,165 @@
+1. Two men on a surface want to meet each other. They have taken the point (0, 0) as meeting point. The surface is 3-D and its equation is f(x,y) = \(\frac{x^{\frac{-23}{4}}y^9}{x+(y)^{\frac{4}{3}}}\). Given that they both play this game infinite number of times with their starting point as (908, 908) and (90, 180)
+(choosing a different path every time they play the game). Will they always meet?
+a) They will not meet every time
+b) They will meet every time
+c) Insufficient information
+d) They meet with probability 1⁄2
+view answerAnswer: a
+Thus, put x = t : y = a(t)3⁄4
+\(=lt_{(x,y)\rightarrow(0,0)}=lt_{t\rightarrow 0}\frac{a^9.t^{\frac{27}{4}}.t^{\frac{-23}{4}}}{t+a^{\frac{4}{3}}.t^{\frac{1}{1}}}\) 
+\(=lt_{t\rightarrow 0}\frac{t}{t} \times \frac{a^9}{1+a^{\frac{4}{3}}}\) 
+\(=lt_{t\rightarrow 0} \frac{a^9}{1+a^{\frac{4}{3}}}\) 
+By putting different values of a we get different limits
+Thus, there are many paths that do not go to the same place.
+Hence, They will not meet every time is the right answer.
+2. Find \(lt_{(x,y,z)\rightarrow(0,0,0)}\frac{y^2.z^2}{x^3+x^2.(y)^{\frac{4}{3}}+x^2.(z)^{\frac{4}{3}}}\) 
+a) 1
+b) 0
+c) ∞
+d) Does Not Exist
+view answerAnswer: d
+\(lt_{(x,y,z)\rightarrow(0,0,0)}\frac{(a_1)^2.t^{\frac{3}{2}}.(a_2)^2.t^{\frac{3}{2}}}{t^3+t^2.t.(a_1)^{\frac{4}{3}}+t^2.t.(a_2)^{\frac{4}{3}}}\) 
+\(lt_{(x,y,z)\rightarrow(0,0,0)}\frac{t^3}{t^3}\times \frac{(a_1)^2.(a_2)^2}{1+(a_1)^{\frac{4}{3}}+(a_2)^{\frac{4}{3}}}\) 
+\(lt_{(x,y,z)\rightarrow(0,0,0)} \frac{(a_1)^2.(a_2)^2}{1+(a_1)^{\frac{4}{3}}+(a_2)^{\frac{4}{3}}}\) 
+By varying a1 : a2  one can get different limit values.
+3. Find \(lt_{(x,y,z)\rightarrow(0,0,0)}\frac{sin(x).sin(y)}{x.z}\) 
+a) ∞
+b) 1⁄3
+c) 1
+d) Does Not Exist
+view answerAnswer: d
+=\(lt_{t\rightarrow 0}\frac{sin(t).sin(at)}{t^2}\) 
+=\(lt_{t\rightarrow 0}\frac{sin(t)}{t}\times (a) \times lt_{t\rightarrow 0}\frac{sin(at)}{at}\) 
+= (1) * (a) * (1) = a
+4. Find \(lt_{(x,y,z)\rightarrow(2,2,4)}\frac{x^2+y^2-z^2+2xy}{x+y-z}\) 
+a) ∞
+b) 123
+c) 9098
+d) 8
+view answerAnswer: d
+\(lt_{(x,y,z)\rightarrow(0,0,0)}\frac{(x+y)^2-z^2}{(x+y)-z}\) 
+\(lt_{(x,y,z)\rightarrow(0,0,0)}\frac{(x+y+z).(x+y-z)}{(x+y-z)}\) 
+\(lt_{(x,y,z)\rightarrow(0,0,0)}(x+y+z)=2+2+4\) 
+=8
+5. Find \(lt_{(x,y,z,w)\rightarrow(0,0,0,0)}\frac{x^{-6}.y^2.(z.w)^3}{x+y^2+z-w}\) 
+a) 1990
+b) ∞
+c) Does Not Exist
+d) 0
+view answerAnswer: c
+\(lt_{(x,y,z,w)\rightarrow(0,0,0,0)}\frac{t^{-6}.t.(a_1)^2.t^6.(a_2)^3.(a_3)^3}{t+t.(a_1)^2+a_2.t-a_3.t}\) 
+\(lt_{(x,y,z,w)\rightarrow(0,0,0,0)}\frac{t}{t}\times \frac{(a_1)^2.(a_2)^3.(a_3)^3}{1+(a_1)^2+a_2-a_3}\) 
+\(lt_{(x,y,z,w)\rightarrow(0,0,0,0)} \frac{(a_1)^2.(a_2)^3.(a_3)^3}{1+(a_1)^2+a_2-a_3}\) 
+By changing the values of a1 : a2 : a3 we get different values of limit.
+Hence, Does Not Exist is the right answer.
+6. Find \(lt_{(x,y,z,w)\rightarrow(3,1,1,11)}\frac{x^4+y^2+z^2+2x^2y+2yz+2x^2z-(w)^2}{x^2+y+z-w}\) 
+a) 700
+b) 701
+c) 699
+d) 22
+view answerAnswer: d
+\(lt_{(x,y,z,w)\rightarrow(3,1,1,11)}\frac{(x^2+y+z)^2-(w)^2}{x^2+y+z-w}\) 
+\(lt_{(x,y,z,w)\rightarrow(3,1,1,11)}\frac{(x^2+y+z+w).(x^2+y+z-w)}{x^2+y+z-w}\) 
+\(lt_{(x,y,z,w)\rightarrow(3,1,1,11)}(x^2+y+z+w)\)=(32+1+1+11)
+=9+1+1+11=22
+7. Given that limit exists find \(lt_{(x,y,z)\rightarrow(-2,-2,-2)}\frac{sin((x+2)(y+5)(z+1))}{(x+2)(y+7)}\) 
+a) 1
+b) 3⁄5
+c) 1⁄2
+d) 0
+view answerAnswer: b
+Put x = t : y = t : z = t
+\(lt_{t\rightarrow -2}\frac{sin((t+2)(t+5)(t+1))}{(t+2)(t+7)}\) 
+\(lt_{t\rightarrow -2}\frac{sin((t+2)(t+5)(t+1))}{(t+2)(t+5)(t+1)}\times lt_{t\rightarrow -2}\frac{(t+5)(t+1)}{(t+7)}\) 
+\((1)\times \frac{(-2+5)(-2+1)}{(-2+7)}\) 
+=\(\frac{(3).(1)}{(5)}=\frac{3}{5}\) 
+8. Given that limit exist find \(lt_{(x,y,z)\rightarrow(-9,-9,-9)}\frac{tan((x+9)(y+11)(z+7))}{(x+9)(y+10)}\) 
+a) 2
+b) 1
+c) 4
+d) 3
+view answerAnswer: c
+x = y = z = t
+\(lt_{t\rightarrow -9}\frac{tan((t+9)(t+11)(t+7))}{(t+9)(t+10)}\) 
+\(lt_{t\rightarrow -9}\frac{tan((t+9)(t+11)(t+7))}{(t+9)(t+11)(t+7)}\times lt_{t\rightarrow -9}\frac{tan((t+11)(t+7))}{t+10}\) 
+\(=\frac{(-9+11)(-9+7)}{(-9+10)}=\frac{(2)(2)}{(1)}\) 
+=4
+9. Given that limit exists find \(lt_{(x,y,z)\rightarrow(-1,-1,-1)}\frac{tan((x-1)(y-2)(z-3))}{(x-1)(y-6)(z+7)}\) 
+a) 1
+b) 1⁄2
+c) 1⁄7
+d) 2⁄7
+view answerAnswer: d
+x=y=z=t
+\(lt_{t\rightarrow -1}\frac{tan((t-1)(t-2)(t-3))}{(t-1)(t-6)(t+7)}\) 
+\(lt_{t\rightarrow -1}\frac{tan((t-1)(t-2)(t-3))}{(t-1)(t-2)(t-3)}\times lt_{t\rightarrow -1}\frac{(t-2)(t-3)}{(t-6)(t+7)} \) 
+=\(\frac{(-1-2)(-1-3)}{(-1-6)(-1+7)}=\frac{(3)(4)}{(7)(6)}\) 
+=\(\frac{12}{42}=\frac{2}{7}\) 
+10. Given that limit exists find \(lt_{(x,y,z)\rightarrow(2,2,2)}\left (\frac{ln(1+\frac{xy-2x-y+z}{xz-2x-6z+12}+\frac{xz-5x-2z+10}{xy-7y-2x+14}}{(x-2)(y-2)(z-2)}\right )\) 
+a) ∞
+b) 1
+c) 0
+d) ln(4⁄5)
+view answerAnswer: a
+x = y = z = t
+\(lt_{t\rightarrow 2}\left (\frac{ln(1+\frac{xy-2x-y+z}{xz-2x-6z+12}+\frac{xz-5x-2z+10}{xy-7y-2x+14}}{(x-2)(y-2)(z-2)}\right )\) 
+\(=lt_{t\rightarrow 2}\left (\frac{ln(1+\frac{t}{(t-6)}+\frac{(t-5)}{(t-7)}}{(t-2)^3}\right )\) 
+\(=lt_{t\rightarrow 2}\left (\frac{ln(1+\frac{2}{(t-6)}+\frac{(2-5)}{(2-7)})}{(2-2)^3}\right )=\frac{ln(\frac{4}{5})}{0}\rightarrow\infty\) 
+11. Given that limit exists \(lt_{(x,y,z)\rightarrow(0,0,0)}\left (\frac{cos(\frac{\pi}{2}-x).tan(y).cot(\frac{\pi}{2}-z)}{sin(x).sin(y).sin(z)}\right )\) 
+a) 99
+b) 0
+c) 1
+d) 100
+view answerAnswer: c
+\(lt_{t\rightarrow 0}\left (\frac{cos(\frac{\pi}{2}-t).tan(y).cot(\frac{\pi}{2}-t)}{sin(x).sin(y).sin(z)}\right)\) 
+\(lt_{t\rightarrow 0}\frac{(sin(t))(tan^2(t))}{sin^3(t)}\) 
+\(=lt_{t\rightarrow 0}\frac{tan^2(t)}{sin(t)} = lt_{t\rightarrow 0}\frac{1}{cos^2(t)}\) 
+\(=\frac{1}{cos^2(0)}=\frac{1}{1}=1\)
+12. Two men on a 3-D surface want to meet each other. The surface is given by \(f(x,y)=\frac{x^{-6}.y^7}{x+y}\). They make their move horizontally or vertically with the X-Y plane as their reference. It was observed that one man was initially at (200, 400) and the other at (100, 100). Their meet point is decided as (0, 0). Given that they travel in straight lines, will they meet?
+a) They will meet
+b) They Will not meet
+c) They meet with probability 1⁄2
+d) Insufficient information
+view answerAnswer: b
+For the first line (first person)
+x = t : y = 2t
+\(=lt_{t\rightarrow 0}\frac{x^{-6}.2^7.t^7}{t+2t}=lt_{t\rightarrow 0}\frac{2^7t}{3t}\) 
+=\(\frac{2^7}{3}\) 
+For the second line (Second Person)
+x = t = y
+=\(lt_{t\rightarrow 0}\frac{t^{-6}.t^7}{t+t}=lt_{t\rightarrow 0}\frac{t}{2t}\) 
+=1/2
+The limits are different and they will not meet.
+13. Two men on a 3-D surface want to meet each other. The surface is given by \(f(x,y)=\frac{x^6.y^7}{x^{13}+y^{13}}\). They make their move horizontally or vertically with the X-Y plane as their reference. It was observed that one man was initially at (400, 1600) and the other at (897, 897). Their meet point is decided as (0, 0). Given that they travel in straight lines, will they meet?
+a) They will meet
+b) They will not meet
+c) They meet with probability 1⁄2
+d) Insufficient information
+view answerAnswer: b
+For the first line (first person)
+x = t : y = 4t
+=\(lt_{t\rightarrow 0}\frac{t^6.4^7.t^7}{t^{13}+4^{13}t^{13}}=lt_{t\rightarrow 0}\frac{4^7t}{t(1+4^{13})}\) 
+=\(\frac{4^7}{1+4^{13}}\) 
+For the second line (Second Person)
+ x = t = y
+=\(lt_{t\rightarrow 0}\frac{t^6.t^7}{t^{13}+t^{13}}=lt_{t\rightarrow 0}\frac{t^{13}}{2t^{13}}\) 
+= 1⁄2
+The limits are different and the will not meet.
+14. Observe the figure. It is given that the function has no limit as (x, y) → (0 ,0) along the paths given in the figure. Then which of the following could be f(x, y)
+a) \(f(x,y) = \frac{x^7.y^8}{(x+y)}\) 
+b) f(x,y) = x2y7
+c) \(f(x,y) = \frac{xy^2}{(x^2+y^2)}\) 
+d) \(f(x,y) = \frac{x^6.y^2}{(y^5+x^{10})}\) 
+view answerAnswer: d
+x = t : y = at2
+Substituting in Option \(f(x,y) = \frac{x^6.y^2}{(y^5+x^{10})}\) we get
+=\(lt_{t\rightarrow 0}\frac{t^6.a^2.t^4}{a^5.t^{10}+t^{10}}\) 
+\(lt_{t\rightarrow 0}\frac{t^{10}}{t^{10}}\times \frac{a^2}{a^5+1}\) 
+\(lt_{t\rightarrow 0} \frac{a^2}{a^5+1}\) 
+By varying a we get different limits
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Limits and Derivatives of Several Variables – 1» Next - Engineering Mathematics Questions and Answers – Limits and Derivatives of Several Variables – 3 

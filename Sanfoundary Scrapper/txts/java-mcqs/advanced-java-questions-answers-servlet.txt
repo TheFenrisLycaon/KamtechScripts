@@ -1,0 +1,75 @@
+1. How constructor can be used for a servlet?
+a) Initialization
+b) Constructor function
+c) Initialization and Constructor function
+d) Setup() method
+c
+Also, Servlet requires ServletConfig object for initialization which is created by container.
+2. Can servlet class declare constructor with ServletConfig object as an argument?
+a) True
+b) False
+b
+3. What is the difference between servlets and applets?
+i. Servlets execute on Server; Applets execute on browser
+ii. Servlets have no GUI; Applet has GUI
+iii. Servlets creates static web pages; Applets creates dynamic web pages
+iv. Servlets can handle only a single request; Applet can handle multiple requests
+a) i, ii, iii are correct
+b) i, ii are correct
+c) i, iii are correct
+d) i, ii, iii, iv are correct
+b
+4. Which of the following code is used to get an attribute in a HTTP Session object in servlets?
+a) session.getAttribute(String name)
+b) session.alterAttribute(String name)
+c) session.updateAttribute(String name)
+d) session.setAttribute(String name)
+a
+5. Which method is used to get three-letter abbreviation for locale’s country in servlets?
+a) Request.getISO3Country()
+b) Locale.getISO3Country()
+c) Response.getISO3Country()
+d) Local.retrieveISO3Country()
+a
+6. Which of the following code retrieves the body of the request as binary data?
+a) DataInputStream data = new InputStream()
+b) DataInputStream data = response.getInputStream()
+c) DataInputStream data = request.getInputStream()
+d) DataInputStream data = request.fetchInputStream()
+c
+7. When destroy() method of a filter is called?
+a) The destroy() method is called only once at the end of the life cycle of a filter
+b) The destroy() method is called after the filter has executed doFilter method
+c) The destroy() method is called only once at the begining of the life cycle of a filter
+d) The destroyer() method is called after the filter has executed
+a
+8. Which of the following is true about servlets?
+a) Servlets execute within the address space of web server
+b) Servlets are platform-independent because they are written in java
+c) Servlets can use the full functionality of the Java class libraries
+d) Servlets execute within the address space of web server, platform independent and uses the functionality of java class libraries
+d
+9. How is the dynamic interception of requests and responses to transform the information done?
+a) servlet container
+b) servlet config
+c) servlet context
+d) servlet filter
+d
+10. Which are the session tracking techniques?
+i. URL rewriting
+ii. Using session object
+iii.Using response object
+iv. Using hidden fields
+v. Using cookies
+vi. Using servlet object
+a) i, ii, iii, vi
+b) i, ii, iv, v
+c) i, vi, iii, v
+d) i, ii, iii, v
+b
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Advanced Java Questions & Answers – Client and Server» Next - Advanced Java Questions & Answers – Session Management 

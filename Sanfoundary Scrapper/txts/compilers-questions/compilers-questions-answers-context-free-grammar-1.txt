@@ -1,0 +1,77 @@
+1. Assume the statements S1 and S2 given as:
+S1: Given a context free grammar, there exists an algorithm for determining whether L (G) is infinite.
+S2: There exists an algorithm to determine whether two context free grammars generate the same language.
+Which of the following is true?
+a) S1 is correct and S2 is not correct
+b) Both S1 and S2 are correct
+c) Both S1 and S2 are not correct
+d) S1 is not correct and S2 is correct
+a
+2. If P & R are regular and also given that if PQ=R, then?
+a) Q has to be regular
+b) Q cannot be regular
+c) Q need not be regular
+d) Q has to be a CFL
+c
+3. Which of the following conversion is not possible (algorithmically)?
+a) Regular grammar to CFG
+b) NDFA to DFA
+c) NDPDA to DPDA
+d) NDTM to DTM
+c
+4. Consider the grammar given below E? E+E | E*E | E-E | E/E | E^E | (E) | id Assume that + and ^ have the same but least precedence, * and / have the next higher precedence but the same precedence and finally ^ has the highest precedence. Assume + and ^ associate to the left like * and / and that ^ associates to the right. Choose the correct for the ordered pairs (^,^), (-,-), (+,+), (*,*) in the operator precedence table constructed for the grammar.
+a) All <
+b) All >
+c) < >, =
+d) < > > >
+d
+5. Recursively enumerable languages are not closed under ______________
+a) Union
+b) Intersection
+c) Complementation
+d) Concatenation
+c
+The Kleene star L * of L
+the concatenation L * o P of L and P
+the union L U P
+the intersection L ∩ P.
+6. Grammar that produce more than one Parse tree for same sentence is ___________
+a) Ambiguous
+b) Unambiguous
+c) Complementation
+d) Concatenation Intersection
+a
+7. Automaton accepting the regular expression of any number of a’ s is ___________
+a) a*
+b) ab*
+c) (a/b)*
+d) a*b*c
+a
+8. Grammars that can be translated to DFAs is ___________
+a) Left linear grammar
+b) Right linear grammar
+c) Generic grammar
+d) All of the mentioned
+b
+9. Which of the following language accepted by a Push down Automata?
+a) Type0
+b) Type1
+c) Type2
+d) Type3
+c
+10. Given the following statements: (i) Recursive enumerable sets are closed under complementation. (ii) Recursive sets are closed under complements. Which is/are the correct statements?
+a) I only
+b) II only
+c) Both I and II
+d) Neither I nor II
+b
+The Kleene star L * of L
+The concatenation L * o P of L and P
+The union L U P
+The intersection L ∩ P. 
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – Syntax Analyser – 2» Next - Compilers Questions and Answers – Context Free Grammar – 2 

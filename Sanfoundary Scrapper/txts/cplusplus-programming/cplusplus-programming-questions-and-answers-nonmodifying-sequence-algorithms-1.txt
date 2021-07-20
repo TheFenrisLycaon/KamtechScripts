@@ -1,0 +1,100 @@
+This section on C++ interview questions and answers focuses on “Non-Modifying Sequence Algorithms”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Non-Modifying Sequence Algorithms” along with answers, explanations and/or solutions:
+1. How does a sequence of objects are accessed in c++?
+a) Iterators
+b) Pointers
+c) Both Iterators & Pointers
+d) Objects
+c
+2. How many parameters are present in mismatch method in non-sequence modifying algorithm?
+a) 1
+b) 2
+c) 3
+d) 3 or 4
+d
+3. What will happen in ‘all_of’ method if the range is empty?
+a) Return true
+b) Return false
+c) Return nothing
+d) Return error
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    #include <utility>    using namespace std;    bool mypredicate (int i, int j)    {        return (i == j);    }    int main ()     {        vector<int> myvector;        for (int i = 1; i < 6; i++) myvector.push_back (i * 10);        int myints[] = {10, 20, 30, 40, 1024};        pair<vector<int> :: iterator, int*> mypair;        mypair = mismatch (myvector.begin(), myvector.end(), myints);        cout  << *mypair.first<<'\n';        cout  << *mypair.second << '\n';        ++mypair.first; ++mypair.second;        return 0;    }
+a) 
+   40 
+   1024
+b) 
+   50
+   1024
+c) 
+   20 
+   1024
+d) 1024
+b
+Output:
+$ g++ non.cpp
+$ a.out
+50
+1024
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    bool IsOdd (int i)    {        return ((i % 2) == 1);    }    int main ()     {        vector<int> myvector;        myvector.push_back(10);        myvector.push_back(25);        myvector.push_back(40);        myvector.push_back(55);        vector<int> :: iterator it = find_if (myvector.begin(),         myvector.end(), IsOdd);        cout  << *it << '\n';        return 0;    }
+a) 10
+b) 25
+c) 40
+d) 55
+b
+Output:
+$ g++ non1.cpp
+$ a.out
+25
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    int main ()     {        vector<int> myvector;        for (int i = 1; i < 5; ++i)            myvector.push_back(i);        rotate(myvector.begin(), myvector.begin() + 3, myvector.end( ));        for (vector<int> :: iterator it = myvector.begin();             it != myvector.end(); ++it)        cout << ' ' << *it;        return 0;    }
+a) 1 2 3 4
+b) 4 3 2 1
+c) 3 4 2 1
+d) 4 1 2 3
+d
+Output:
+$ g++ non2.cpp
+$ a.out
+4 1 2 3
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    bool myfunction (int i, int j)     {        return (i==j);    }    int main ()     {        int myints[] = {10, 20, 20, 20, 30, 30, 20, 20, 10};        vector<int> myvector (myints, myints + 9);        vector<int> :: iterator it;        it = unique (myvector.begin(), myvector.end());                                        myvector.resize( distance(myvector.begin(), it) );        unique (myvector.begin(), myvector.end(), myfunction);        for (it = myvector.begin(); it != myvector.end(); ++it)            cout << ' ' << *it;        return 0;    }
+a) 10 20 30 20 10
+b) 10 20 30
+c) 30 20 10
+d) 40 20 30
+a
+Output:
+$ g++ non3.cpp
+$ a.out
+10 20 30 20 10
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    int main ()    {        int myints[] = {10, 20, 30, 30, 20, 10, 10, 20};        int mycount = count (myints, myints + 8, 10);        cout << mycount;        vector<int> myvector (myints, myints + 8);        mycount = count (myvector.begin(), myvector.end(), 20);        cout << mycount;        return 0;    }
+a) 33
+b) 44
+c) 22
+d) 55
+a
+Output:
+$ g++ non4.cpp
+$ a.out
+33
+9. To what kind of elements does non-modifying sequence algorithm can be applied?
+a) Range
+b) Vector
+c) List
+d) Methods
+a
+10. Pick out the incorrect method in non-modifying sequence algorithm?
+a) find-if
+b) none-of
+c) any-of
+d) like
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Function Objects» Next - C++ Programming Questions and Answers – Modifying Sequence Algorithms 

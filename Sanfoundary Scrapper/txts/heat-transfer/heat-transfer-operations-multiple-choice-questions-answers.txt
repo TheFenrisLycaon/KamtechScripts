@@ -1,0 +1,126 @@
+1. The Ergun equation is used to calculate the ___________
+a) Pressure drop in packed beds
+b) Reynolds number in packed columns
+c) Overall heat transfer coefficients
+d) Number of particles
+a
+2. In the Ergun equation, what do you understand by the term X?
+f = ΔP/L  X/ρ&vartheta;S2(∈3/(1-∈))
+a) Diameter of the tube
+b) Diameter of the pellets
+c) Effective diameter
+d) Equivalent diameter of the tube
+b
+3. If we have very small dp/di < 0.01, then we may use ____________
+a) Ergun Equation
+b) Kozeny Carman Equation
+c) Sieder Tate Equation
+d) Arrhenius Equation
+b
+4. What is the Reynolds number for the following setup?
+Density = 990 Kg/m3
+Superficial velocity = 10m/s
+DP = 3mm
+Porosity = 0.14
+Viscosity = 2.5×10-5 kg/ms
+a) 2.76×103
+b) 2×105
+c) 0.76×105
+d) 2.76×105
+d
+5. What is the friction factor for the given parameters for a non laminar packed bed setup?
+Density = 990 Kg/m3
+Superficial velocity = 10m/s
+DP = 3mm
+Porosity = 0.14
+Viscosity = 2.5×10-5kg/ms
+a) 1.751
+b) 1.740
+c) 1.752
+d) 1.749
+a
+Now the Friction Factor is f=150/Re +1.75 =  150/2.76×105+1.75 = 1.751.
+6. What is the pressure drop per unit length for the given parameters for a laminar packed bed setup?
+Sphericity = 0.6
+Superficial velocity = 10m/s
+DP = 3mm
+Porosity = 0.4
+Viscosity = 2.5×10-5kg/ms
+a) -15.625Pa/m
+b) -15.625KPa/m
+c) -1.875Pa/m
+d) -1.875KPa/m
+b
+7. If we have a tube of diameter 30mm and particles of diameter 2mm, the length of the tube is 10cm and the number of pellets is 100. Then what is the porosity?
+a) 0.45
+b) 0.95
+c) 0.99
+d) 0.65
+c
+8. If we have a tube of diameter 30mm and particles of diameter 3mm, the length of the tube is 10cm and the number of pellets is 100. The flow rate is 5cm3/s, then what is the superficial velocity?
+a) 0.5cm/s
+b) 0.45cm/s
+c) 0.7cm/s
+d) 0.8cm/s
+c
+9. What is the relation between superficial velocity and average fluid velocity in a packed bed?
+a) &vartheta;=φu
+b) &vartheta;=u/φ
+c) &vartheta;=φ0.14u
+d) &vartheta;=φ\(^\frac{\vartheta}{u}u\) 
+a
+10. In the Formula for porosity, what is the meaning of the term V?
+∅ = \(\frac{V}{V_T}\) 
+a) Volume of Void
+b) Volume of Pure Solid
+c) Total Volume
+d) Volume of the tube material
+a
+∅ = \(\frac{V}{V_T}\) 
+Where V is the void volume, which is the volume excluding particles.
+11. Which one of the following is the correct expression for Friction Factor in Packed Bed Columns?
+a) f = 150/Re
+b) f = 150/Re+1.75
+c) f = 180/Re+1.5
+d) f = 100/Re+0.0035
+b
+12. Calculate the pressure drop in the following setup.
+Density = 990 Kg/m3
+Superficial velocity = 10m/s
+DP = 3mm
+Porosity = 0.14
+Viscosity = 2.5×10-5 kg/ms
+Column length = 1m
+a) 7Pa
+b) 724×106Pa
+c) 7×106Pa
+d) 72atm
+b
+Now the Friction Factor is = 150/Re +1.75 =  150/2.76×105+1.75 = 1.751, hence the formula for pressure drop is, f = \(\frac{∆P}{L} \frac{Dp}{\rho\vartheta_s^2}(\frac{\in^3}{1-\in}) or
+ ∆P⁄L=[latex]\frac{f}{\frac{Dp}{\rho\vartheta_s^2}(\frac{\in^3}{1-\in})}\) = \(\frac{1.751}{\frac{0.003}{990×2*2}×\frac{0.14^3}{1-0.14}}\) = 724×106Pa.
+13. A fully packed bed with small particle size has _________ pressure drop than a bed with larger particle size.
+a) More
+b) Less
+c) Same
+d) Negligible
+a
+14. What is the term Ɵ in the Kozeny Carman equation for laminar flow in packed beds?
+\(\frac{∆P}{L} = \frac{-180μ}{S^2 D_P^2} (\frac{(1-∈)^2}{∈^3}) ϑ_S \) 
+a) Surface Area of pellets
+b) Sphericity of Pellets
+c) Void fraction
+d) Density
+b
+15. Which one of the following is correct expression for sphericity of a particle?
+Note: Vp = Volume of particle, Ap = Surface areas of the Particle.
+a) S =  \(\frac{6Vp}{Ap}\) 
+b) S =  \(\frac{\pi^{\frac{1}{3}}(6Vp)^\frac{2}{3}}{Ap}\) 
+c) S =  \(\frac{\pi^{\frac{1}{3}}(6Vp)^\frac{4}{3}}{Ap}\) 
+d) S =  \(\frac{(6Vp)^\frac{2}{3}}{Ap}\) 
+b
+Sanfoundry Global Education & Learning Series – Heat Transfer Operations.
+To practice all areas of Heat Transfer Operations, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Heat Transfer Operations Questions and Answers – Packed Beds – Mechanism of Heat Transfer» Next - Heat Transfer Operations Questions and Answers – Packed Beds – Bed Temperature Profiles 

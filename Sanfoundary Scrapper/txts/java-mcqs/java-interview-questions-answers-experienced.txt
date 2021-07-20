@@ -1,0 +1,62 @@
+1. Which of the following access specifiers can be used for an interface?
+a) Protected
+b) Private
+c) Public
+d) Public, protected, private
+a
+2. Which of the following is the correct way of implementing an interface A by class B?
+a) class B extends A{}
+b) class B implements A{}
+c) class B imports A{}
+d) None of the mentioned
+b
+3. All methods must be implemented of an interface.
+a) True
+b) False
+a
+4. What type of variable can be defined in an interface?
+a) public static
+b) private final
+c) public final
+d) static final
+d
+5. What does an interface contain?
+a) Method definition
+b) Method declaration
+c) Method declaration and definition
+d) Method name
+b
+6. What type of methods an interface contain by default?
+a) abstract
+b) static
+c) final
+d) private
+a
+7. What will happen if we provide concrete implementation of method in interface?
+a) The concrete class implementing that method need not provide implementation of that method
+b) Runtime exception is thrown
+c) Compilation failure
+d) Method not found exception is thrown
+c
+8. What happens when a constructor is defined for an interface?
+a) Compilation failure
+b) Runtime Exception
+c) The interface compiles successfully
+d) The implementing class will throw exception
+a
+9. What happens when we access the same variable defined in two interfaces implemented by the same class?
+a) Compilation failure
+b) Runtime Exception
+c) The JVM is not able to identify the correct variable
+d) The interfaceName.variableName needs to be defined
+d
+10. Can “abstract” keyword be used with constructor, Initialization Block, Instance Initialization and Static Initialization Block.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+To practice all areas of Java for Interviews, here is complete set on 1000+ Multiple Choice Questions and Answers on Java.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Interfaces – 1» Next - Java Questions & Answers – Core Java API Packages 

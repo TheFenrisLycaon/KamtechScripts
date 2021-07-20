@@ -1,0 +1,62 @@
+1. Which of the following header file defines one function longjmp(), and one variable type jmp_buf?
+a) stdarg.h
+b) locale.h
+c) setjmp.h
+d) stdlib.h
+c
+2. Which of the given options is an array type used for holding information?
+a) longjmp
+b) setjmp
+c) jmp_buf
+d) no such variable
+c
+3. Which macro saves the current environment into the variable environment for later use by the function longjmp().
+a) setjmp
+b) longjmp
+c) jmp
+d) set_jmp
+a
+4. If setjmp() macro returns directly from the macro invocation, it______
+a) returns zero
+b) returns non-zero
+c) produces error
+d) nothing can be said
+a
+5. A non-zero value is returned, if setjmp() returns from a longjmp() function call.
+a) false
+b) true
+b
+6. Select the correct declaration of setjmp().
+a) int setjmp(jmp_buf environment)
+b) int setjmp(long_jmp environment)
+c) int setjmp(jmp_buf )
+d) int setjmp(long_jmp)
+a
+7. How many times can the macro setjmp() return?
+a) one time
+b) two times
+c) three times
+d) many times
+b
+8. longjmp() function is the only function defined under the header file setjmp.h?
+a) true
+b) false
+a
+9. Which function restores the environment saved by the most recent invocation of the setjmp() macro in the same invocation of the program?
+a) jmp_buf
+b) longjmp
+c) jmpbuf
+d) long_jmp
+b
+10. Choose the right declaration of longjmp() function.
+a) void longjmp(jmp_buf environment, int value)
+b) void longjmp(setjmp environment, int value)
+c) void longjmp(int value, jmp_buf environment)
+d) void longjmp(int value, setjmp environment)
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Localization» Next - C Questions and Answers – Non-Local Jumps – 2 

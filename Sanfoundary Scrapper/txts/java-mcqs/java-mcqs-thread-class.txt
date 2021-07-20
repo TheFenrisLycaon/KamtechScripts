@@ -1,0 +1,68 @@
+1. Which of these method of Thread class is used to find out the priority given to a thread?
+a) get()
+b) ThreadPriority()
+c) getPriority()
+d) getThreadPriority()
+c
+2. Which of these method of Thread class is used to Suspend a thread for a period of time?
+a) sleep()
+b) terminate()
+c) suspend()
+d) stop()
+a
+3. Which function of pre defined class Thread is used to check weather current thread being checked is still running?
+a) isAlive()
+b) Join()
+c) isRunning()
+d) Alive()
+a
+4. What will be the output of the following Java code?
+    class multithreaded_programing    {        public static void main(String args[])        {            Thread t = Thread.currentThread();            t.setName("New Thread");            System.out.println(t);                }    }
+a) Thread[5,main] 
+b) Thread[New Thread,5] 
+c) Thread[main,5,main] 
+d) Thread[New Thread,5,main] 
+d
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+Thread[New Thread,5,main]
+5. What is the priority of the thread in output in the following Java program?
+    class multithreaded_programing    {        public static void main(String args[])        {            Thread t = Thread.currentThread();            t.setName("New Thread");            System.out.println(t.getName());                }    }
+a) main
+b) Thread
+c) New Thread
+d) Thread[New Thread,5,main] 
+c
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+New Thread
+6. What is the name of the thread in output in the following Java program?
+    class multithreaded_programing    {        public static void main(String args[])        {            Thread t = Thread.currentThread();            System.out.println(t.getPriority());                }    }
+a) 0
+b) 1
+c) 4
+d) 5
+d
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+5
+7. What is the name of the thread in output in the following Java program?
+    class multithreaded_programing    {        public static void main(String args[])        {            Thread t = Thread.currentThread();            System.out.println(t.isAlive());                }    }
+a) 0
+b) 1
+c) true
+d) false
+c
+Output:
+$ javac multithreaded_programing.java
+$ java multithreaded_programing
+true
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Implementing Runnable interface for Threads» Next - Java Questions & Answers – Multithreading Basics 

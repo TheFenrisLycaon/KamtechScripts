@@ -1,0 +1,79 @@
+1. Which of the following is not a data transfer instruction?
+a) floating point data transfer
+b) integer data transfer
+c) arithmetic instruction
+d) bcd data transfer
+c
+2. The instruction that performs real or integer multiplication of the specified operand with stack top is
+a) AMUL
+b) IMUL
+c) RMUL
+d) FMUL
+d
+3. When the instruction, FDIV is performed, the destination is
+a) memory
+b) stack top
+c) register
+d) stack bottom
+b
+4. When the instruction, FPREM, is performed, the data stored on to the stack top is
+a) dividend
+b) divisor
+c) quotient
+d) remainder
+d
+5. If ‘x’ is the value stored at the top of the stack, then the instruction F2XMI calculates the expression
+a) 2x
+b) 2x+1
+c) 2x-1
+d) log(2x)
+c
+6. The content of the stack is compared with zero to check whether the content is zero, using the instruction
+a) FCOM
+b) FIST
+c) FCOMP
+d) FXAM
+b
+7. The instruction that loads log 10 (to the base 2) to stack top is
+a) FLDPI
+b) FLDLG2
+c) FLD2T
+d) FLDLN2
+c
+8. The instructions that are used to program the numeric processor or to handle the internal housekeeping functions are
+a) transcendental operations
+b) comparison instructions
+c) constant operations
+d) coprocessor control instructions
+d
+9. When the instruction FINIT performs its function, then the TAG status is
+a) set
+b) empty
+c) reset
+d) zero
+b
+10. The instruction that enables the interrupt structure and response mechanism is
+a) FINIT
+b) FDISI
+c) FENI
+d) FLDCW
+c
+11. The instruction that is used to store the environment of the coprocessor to a destination memory location is
+a) FINCSTP
+b) FLDENV
+c) FFREE
+d) FSTENV
+d
+12. The instruction that is the NOP instruction of the coprocessor is
+a) CNOP
+b) FNOP
+c) SNOP
+d) PNOP
+b
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all tough interview questions on Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Numeric Processor 8087 -1» Next - Microprocessors Questions and Answers – I/O Processor 8089 

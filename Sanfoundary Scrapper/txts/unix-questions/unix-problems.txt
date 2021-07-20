@@ -1,0 +1,77 @@
+1. We can list the jobs queued using at command by using ____ option.
+a) -p
+b) -v
+c) -l
+d) -r
+c
+1        Thur  Jan 17  12:08:00 2018-01-20
+2. To remove a job from the queue, which option is used with at command?
+a) -r
+b) -l
+c) -e
+d) -t
+a
+$ at  -r  1        // removes job 1 from the queue.
+3. We cannot find out the name of the program scheduled using at command.
+a) True
+b) False
+a
+4. Which command permits to schedule jobs for later execution, as soon as the system load permits?
+a) at
+b) %
+c) batch
+d) cron
+c
+$ batch <  emp.sh
+Commands will be executed using usr/bin/bash
+Job 1016171818.a  at Sun Jan 15  16:07:00  2018
+This command doesn’t take any arguments but uses an internal algorithm to determine the execution time.
+5. Jobs scheduled using batch command goes to a special at queue.
+a) True
+b) False
+a
+6. Jobs scheduled using batch command can be removed using ___ option.
+a) -a
+b) -d
+c) -f
+d) -r
+d
+$ at  -r  1        // removes job 1 from the queue.
+7. What is a daemon?
+a) process whose parent has died
+b) process who has completed its execution but still has an entry in the process table
+c) process which is running infinitely
+d) process which runs automatically without any user interaction
+d
+8. What is cron?
+a) a simple process
+b) an orphan process
+c) a daemon
+d) a zombie process
+c
+9. The cron tab is a table having a list of commands that are scheduled to be run at regular intervals.
+a) True
+b) False
+a
+10. Which of the following command will remove the current crontab?
+a) crontab -p
+b) crontab -l
+c) crontab -e
+d) crontab -r
+d
+11. To find out how efficiently a program a used the system resources, which command is used?
+a) sys
+b) time
+c) crontab
+d) daemon
+b
+$ time sort -o  emp.txt  invoi.txt
+real    0m19.811s    // time elapsed from the invocation of command until its termination
+user    0m1.851s    // time spent in executing itself
+sys    0m9.761s    // time spent by the kernel in doing work on behalf of the user process
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix Problems, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix Questions and Answers  – Process Management – 1» Next - Unix Questions and Answers – Shell Variables – 1 

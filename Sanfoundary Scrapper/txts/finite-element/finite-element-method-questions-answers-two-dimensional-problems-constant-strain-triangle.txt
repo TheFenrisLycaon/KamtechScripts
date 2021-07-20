@@ -1,0 +1,97 @@
+1. Finite element method uses the concept of _____
+a) Nodes and elements
+b) Nodal displacement
+c) Shape functions
+d) Assembling
+c
+2. For constant strain elements the shape functions are ____
+a) Spherical
+b) Quadratical
+c) Polynomial
+d) Linear
+d
+3. Linear combination of these shape functions represents a ______
+a) Square surface
+b) Linear surface
+c) Plane surface
+d) Combinational surface
+c
+4. In particular, N1+N2+N3 represent a plane at a height of one at nodes ______
+a) One
+b) Two
+c) Three
+d) One, two and three
+d
+5. If N3 is dependent shape function, It is represented as ____
+a) N3=ξ
+b) N3=1-ξ
+c) N3=1-η
+d) N3=1-ξ-η
+d
+6. In two dimensional problems x-, y- co-ordinates are mapped onto ____
+a) x-, y- co-ordinates
+b) x-, ξ – co-ordinates
+c) η-, y- co-ordinates
+d) ξ-η-Co-ordinates
+d
+7. The shape functions are physically represented by _____
+a) Triangular co-ordinates
+b) ξ-,η-Co-ordinates
+c) Area co-ordinates
+d) Surface co-ordinates
+c
+8. A1 is the first area and N1 is its shape function then shape function N1= ___
+a) A1/A
+b) A-A1
+c) A1+A
+d) A1
+a
+	N1=A1/A .
+9. The equation u=Nq is a _____ representation.
+a) Nodal
+b) Isoparametric
+c) Uniparametric
+d) Co-ordinate
+b
+10. For plane stress or plane strain, the element stiffness matrix can be obtained by taking _____
+a) Shape functions, N
+b) Material property matrix, D
+c) Iso parametric representation, u
+d) Degrees of freedom, DoF
+b
+11. In a constant strain triangle, element body force is given as ____
+a) fe=[fx,fy,fx,fy,fx,fy]T
+b) fe=\(\frac{t_eA_e}{3}\) 
+c) fe=\(\frac{t_eA_e}{3}\)[fx,fy,fx,fy,fx,fy]T
+d) fe=\(\frac{t_eA_e}{3}\)[fx,fy]T
+c
+12. Traction force term represented as ___
+a) ∫uT Tl
+b) ∫uTT
+c) ∫uT
+d) uTTl
+a
+13. In the equation KQ=F, K is called as ____
+a) Stiffness matrix
+b) Modified stiffness matrix
+c) Singular stiffness matrix
+d) Uniform stiffness matrix
+b
+14. Principal stresses and their directions are calculated by using ____
+a) Galerkin approach
+b) Rayleigh method
+c) Potential energy method
+d) Mohr’s circle method
+d
+15. I the distribution of the change in temperature ΔT, the strain due to this change is ____
+a) Constant strain
+b) Stress
+c) Initial strain
+d) Uniform strain
+c
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Two Dimensional Problems – Finite Element Modelling» Next - Finite Element Method Questions and Answers – Two Dimensional Problem Modelling and Boundary Conditions 

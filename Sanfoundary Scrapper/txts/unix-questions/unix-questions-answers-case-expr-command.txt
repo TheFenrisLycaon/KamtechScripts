@@ -1,0 +1,119 @@
+1. ____ statement matches an expression for more than one alternative.
+a) for
+b) while
+c) elif
+d) case
+d
+case expression in
+   pattern1) commands1 ;;
+   pattern2) commands2 ;;
+   . . . . .
+esac
+ 
+2. Every pattern in case statement in terminated with a _____
+a) ;
+b) :
+c) ;;
+d) //
+c
+case expression in
+   pattern1) commands1 ;;
+   pattern2) commands2 ;;
+   . . . . .
+esac
+3. case statement should have a corresponding closing esac.
+a) True
+b) False
+a
+4. The ___ option in case statement matches any option not matched by the previous options.
+a) ^
+b) $
+c) *
+d) //
+c
+case “$choice” in
+   1)  ls  -l ;;
+   2)  ps -f ;;
+   3) who
+   *) echo “invalid option” 
+esac
+5. case can also be used for matching multiple patterns.
+a) True
+b) False
+a
+echo “do you wish to continue? (y/n) : ”
+read answer
+case  “$answer” in
+    y|Y) ;;            //NULL statement, no action to be performed 
+    n|N) exit ;;
+ 
+6. case can also use wildcards to pattern matching.
+a) True
+b) False
+a
+7. Which command is used for computation and string handling?
+a) expr
+b) case
+c) if
+d) read
+a
+•    Performs arithmetic operations on integers
+•    Manipulates strings
+8. expr can perform ____ arithmetic operations.
+a) 2
+b) 4
+c) 5
+d) 3
+c
+$ x=5  y=10
+$ expr $x + $y
+$ expr $x - $y
+$ expr $x /* $y        // asterisk has to escaped
+$ expr $y / $x
+$ expr $y % $x
+ 
+9. Which of the following is performed by expr string handling’s function?
+a) determine the length of string
+b) extract a substring
+c) locate the position of a character in a string
+d) determine the length of string, extract and locate the position of the string
+d
+10. The string to be worked upon is placed on the left of the colon when using expr string handling function.
+a) True
+b) False
+a
+11. Which symbol is used for finding the length of the string?
+a) .
+b) *
+c) .*
+d) .*.
+c
+$ expr “sanfoundry” :  ‘.*’
+10
+12. Which of the following pattern is used for extracting a substring using expr?
+a) /( )
+b) \(. .\)
+c) . .\)
+d) \\(
+b
+$ str= 2003
+$ expr “$str” :  ‘. .\(. .\)’
+03
+13. For locating the first position of a character in a string we can use expr command.
+a) True
+b) False
+a
+$ str=abdullah ; expr “$str”  :  ‘[^d]*d’
+3
+14. expr is a _____ command
+a) internal
+b) external
+c) shell
+d) derived
+b
+ Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Using test and [ ] to Evaluate Expressions – 2» Next - Unix  Questions and Answers – Shell Programming using Various Commands – 1 

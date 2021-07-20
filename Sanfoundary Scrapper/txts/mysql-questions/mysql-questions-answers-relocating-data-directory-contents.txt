@@ -1,0 +1,68 @@
+1. Symlink is an applicable relocation method for ______________
+a) entire data directory
+b) individual database tables
+c) server PID file
+d) log files
+b
+2. For which of these is the startup option best suited?
+a) entire data directory
+b) individual database tables
+c) server PID file
+d) individual database directories
+c
+3. Before relocation of database, the server should be stopped if running.
+a) True
+b) False
+a
+4. When relocating an individual table, the table to be relocated should be ______________
+a) MyISAM
+b) InnoDB
+c) TRANSACTION
+d) ENGINE
+a
+5. What is the special database that always exists after setting up MySQL on a computer?
+a) sampdb
+b) mysql
+c) information_schema
+d) readme_db
+c
+6. What is InnoDB in the following MySQL code?
+CREATE TABLE student (
+		name CHAR(30),
+		student_id INT,
+		PRIMARY KEY (student_id)
+	) ENGINE = InnoDB;
+a) database name
+b) table name
+c) reference engine
+d) storage engine
+d
+7. What is the table name in the following SQL code?
+INSERT INTO student VALUES('Kyle','M',NULL);
+a) student
+b) VALUES
+c) Kyle
+d) M
+a
+8. In which file are the statements entered in ‘mysql’ saved?
+a) .mysql_queries
+b) .queries
+c) .mysql_history
+d) .history
+c
+9. Mysql cannot be used to execute script files.
+a) True
+b) False
+b
+10. Which command is used to make a script file ‘run_me.sh’ executable?
+a) chmod +e run_me.sh
+b) chmod +a run_me.sh
+c) chmod +y run_me.sh
+d) chmod +x run_me.sh
+d
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Structure of the Data Directory» Next - MySQL Questions and Answers – Securing a New MySQL Installation 

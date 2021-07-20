@@ -1,0 +1,97 @@
+1. Neglecting Channel Length Modulation, what is the voltage gain from the gate to the drain of M1?
+a) gm * R1
+b) gm * 2R1
+c) gm * R1 || RO
+d) 3gm * R1
+a
+2. In the following C.S. stage shown below, what is the transconductance?
+a) \(\frac{1}{2}\)µnCox*(W/L)(V1-Vth)
+b) 3µnCox*(W/L)(V1-Vth)
+c) µnCox*(W/L)(V1-Vth)
+d) 2µnCox*(W/L)(V1-Vth)
+a
+3. In the following C.S. stage shown below, what is the input impedance (ideally) if channel length modulation is neglected?
+a) Infinite
+b) Very high
+c) Very low
+d) Cannot be determined
+a
+4. In the following C.S. stage shown below, what is the input impedance if λ>0?
+a) Infinite
+b) 0
+c) Very low
+d) ro
+a
+5. In the following C.S. stage shown below, what is the output impedance if λ>0?
+a) ro
+b) 0
+c) R1
+d) R1 || ro
+d
+Join [email protected]
+6. In the following C.S. stage shown below, what is the output impedance, if channel length modulation is neglected?
+a) 2ro
+b) 5
+c) R1
+d) 0
+c
+7. In the following C.S. stage shown below, what is the voltage gain from the gate to the drain of M1 if λ>0?
+a) gm * ro
+b) gm * 2R1
+c) gm * R1||ro
+d) gm * R1
+c
+8. If the output voltage is sensed at the collector, which of the following option perfectly describes the stage shown below?
+a) A degenerated C.S. stage
+b) A C.S. stage
+c) A shunted C.S. stage
+d) An open C.S. stage
+a
+9. What is the overall input resistance of the CS stage shown below?
+a) R3
+b) R3 || R1
+c) 2 * R3
+d) Infinite
+a
+10. If the output impedance of the current source is Ri, what is the output impedance of the CS stage shown below, if channel length modulation is neglected?
+a) (1 + gm * (R1 || R2)) * Ri + (R1 || R2)
+b) {R1 * (R2 + ro)} || Ri
+c) R1 || R2
+d) 0
+a
+11. If the transconductance of M1 is 5S, voltage gain for the following degenerated CS stage is _____
+a) 2.45
+b) 1.25
+c) 1.45
+d) 2.25
+b
+12. If both the MOSFET’s are identical, what is the voltage gain from V1 to node S?
+a) Vcc – 2R1  * µn Cox  * (W/L) * (V1-Vth)2
+b) Vcc   R1  * \(\frac{1}{2}\)µn Cox   (W/L) * (V1-Vth)2
+c) Vcc  – R1  * µn Cox   (W/L) * (V1-Vth)2
+d) Vcc  – 4R1  * \(\frac{1}{2}\)µn Cox * (W/L) * (V1-Vth)2
+c
+13. If both the MOSFET’s are identical and have channel length modulation, what is the output impedance at node S?
+a) R1 || ro1 || ro2
+b) R1 + (ro1 || ro2)
+c) R1 + (ro1 + ro2)
+d) R1 || (ro1 + ro2)
+a
+14. If the internal resistance of the current source is finite, what will happen to the voltage gain. for the following C.S. stage, if K is doubled?
+a) The voltage gain reduces by 1/2
+b) The voltage gain remains the same
+c) The voltage gain increases
+d) The voltage gain decreases
+b
+15. If Channel Length Modulation is present and gm is the transconductance of M1, what happens to the output resistance of for a fixed V2 in the following circuit?
+a) (1 + (gm * ro)) * Rs + ro
+b) (1 + (gm * ro)) * ro + Rs
+c) (ro + 2) * Rs
+d) (1 + (gm * ro)) * Rs
+a
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – MOSFET Amplifier with CD Configuration – 2» Next - Analog Circuits Questions and Answers – MOSFET Amplifier with CS Configuration – 2 

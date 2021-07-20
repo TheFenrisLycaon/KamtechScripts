@@ -1,0 +1,86 @@
+This section on C quiz focuses on “Pointer to Structures”. One shall practice these quizzes to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C quiz comes with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C quiz on “Pointer to Structures” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        int x;        char y;    };    int main()    {        struct p p1[] = {1, 92, 3, 94, 5, 96};        struct p *ptr1 = p1;        int x = (sizeof(p1) / 3);        if (x == sizeof(int) + sizeof(char))            printf("%d\n", ptr1->x);        else            printf("falsen");    }
+a) Compile time error
+b) 1
+c) Undefined behaviour
+d) false
+d
+2. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        int x;        char y;    };    int main()    {        struct p p1[] = {1, 92, 3, 94, 5, 96};        struct p *ptr1 = p1;        int x = (sizeof(p1) / sizeof(ptr1));        if (x == 1)            printf("%d\n", ptr1->x);        else            printf("false\n");    }
+a) Compile time error
+b) 1
+c) false
+d) Undefined behaviour
+c
+3. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        int x;        char y;    };    typedef struct p* q*;    int main()    {        struct p p1[] = {1, 92, 3, 94, 5, 96};        q ptr1 = p1;        printf("%d\n", ptr1->x);    }
+a) Compile time error
+b) 1
+c) Undefined behaviour
+d) Segmentation fault
+a
+4. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        int x;        char y;    };    void foo(struct p* );    int main()    {        typedef struct p* q;        struct p p1[] = {1, 92, 3, 94, 5, 96};        foo(p1);    }    void foo(struct p* p1)    {        q ptr1 = p1;        printf("%d\n", ptr1->x);    }
+a) Compile time error
+b) 1
+c) Segmentation fault
+d) Undefined behaviour
+a
+5. Which of the following is an incorrect syntax for pointer to structure?
+(Assuming struct temp{int b;}*my_struct;)
+a) *my_struct.b = 10;
+b) (*my_struct).b = 10;
+c) my_struct->b = 10;
+d) Both *my_struct.b = 10; and (*my_struct).b = 10;
+a
+6. Which of the following is an incorrect syntax to pass by reference a member of a structure in a function?
+(Assume: struct temp{int a;}s;)
+a) func(&s.a);
+b) func(&(s).a);
+c) func(&(s.a));
+d) none of the mentioned
+d
+7. Which of the following structure declaration doesn’t require pass-by-reference?
+a)
+   struct{int a;}s;
+   main(){}
+b)
+   struct temp{int a;};
+   main(){
+       struct temp s;
+   }
+c)
+   struct temp{int a;};
+   main(){}
+   struct temp s;
+d) none of the mentioned
+d
+8. Which option is not possible for the following function call?
+func(&s.a); //where s is a variable of type struct and a is the member of the struct.
+a) Compiler can access entire structure from the function
+b) Individual member’s address can be displayed in structure
+c) Individual member can be passed by reference in a function
+d) None of the mentioned
+a
+9. What will be the output of the following C code?
+    #include <stdio.h>    struct temp    {        int a;    } s;    void change(struct temp);    main()    {        s.a = 10;        change(s);        printf("%d\n", s.a);    }    void change(struct temp s)    {        s.a = 1;    }
+a) Output will be 1
+b) Output will be 10
+c) Output varies with machine
+d) Compile time error
+b
+10. What will be the output of the following C code?
+ #include <stdio.h>    struct p     {        int x;        int y;    };    int main()    {        struct p p1[] = {1, 92, 3, 94, 5, 96};        struct p *ptr1 = p1;        int x = (sizeof(p1) / 5);        if (x == 3)            printf("%d %d\n", ptr1->x, (ptr1 + x - 1)->x);        else            printf("false\n");    }
+a) Compile time error
+b) 1 5
+c) Undefined behaviour
+d) false
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Arrays of Structures – 2» Next - C Programming Questions and Answers – Pointer to Structures – 2 

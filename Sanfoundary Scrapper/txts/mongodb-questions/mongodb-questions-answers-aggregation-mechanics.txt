@@ -1,0 +1,68 @@
+1. Which of the following stages cannot appear multiple times in a pipeline?
+a) $regex
+b) $reg
+c) $match
+d) $out
+c
+2. Point out the correct statement.
+a) To access variables in expressions, use a string that prefixes the variable name with $$$
+b) Expressions can include field paths and system variables, literals, expression objects, and expression operators
+c) To specify a field path, use a string that prefixes with a dollar sign % the field name or the dotted field name
+d) All of the mentioned
+b
+3. Aggregation expressions use ______ path to access fields in the input documents.
+a) mpath
+b) dbpath
+c) lpath
+d) field
+d
+4. Which of the following statement is equivalent to “$$CURRENT.<field>”?
+a) “$%<field>”
+b) “%<field>”
+c) “$$<field>”
+d) “$<field>”
+d
+5. Point out the wrong statement.
+a) Literals can be of any type
+b) CURRENT cannot be rebound
+c) MongoDB parses string literals that start with a dollar sign $
+d) None of the mentioned
+b
+Join [email protected]
+6. ______ binds variables for use in the specified expression.
+a) $skip
+b) $let
+c) $bind
+d) None of the mentioned
+b
+7. ________ applies an expression to each item in an array and returns an array with the applied results.
+a) $map
+b) $geo
+c) $geoRear
+d) None of the mentioned
+a
+8. In the vars assignment block, ________ refers to the value of an externally defined variable low.
+a) “$$low”
+b) “$$lowin”
+c) “$$1”
+d) None of the mentioned
+a
+9. To avoid treating numeric or boolean literals as projection flags, use the _______ expression to wrap the numeric or boolean literals.
+a) $literal
+b) $bool
+c) $unwin
+d) None of the mentioned
+a
+10. MongoDB treats the literals as projection flags, valid only in the _______ stage.
+a) $project
+b) $gmap
+c) $match
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Aggregation Operations» Next - MongoDB Questions and Answers – Pipeline Optimization 

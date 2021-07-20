@@ -1,0 +1,55 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Toshiba and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Toshiba interviews on C Programming language. 
+Here is a listing of C interview questions on “Variable Length Argument” along with answers, explanations and/or solutions:
+1. The standard header _______ is used for variable list arguments (…) in C.
+a) <stdio.h >
+b) <stdlib.h>
+c) <math.h>
+d) <stdarg.h>
+d
+2. What is the purpose of va_end?
+a) Cleanup is necessary
+b) Must be called before the program returns
+c) Cleanup is necessary & Must be called before the program returns
+d) None of the mentioned
+c
+3. What will be the output of the following C code?
+    #include <stdio.h>    int f(char chr, ...);    int main()    {        char c = 97;        f(c);        return 0;    }    int f(char c, ...)    {        printf("%c\n", c);    }
+a) Compile time error
+b) Undefined behaviour
+c) 97
+d) a
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    #include <stdarg.h>    int f(...);    int main()    {        char c = 97;        f(c);        return 0;    }    int f(...)    {        va_list li;        char c = va_arg(li, char);        printf("%c\n", c);    }
+a) Compile time error
+b) Undefined behaviour
+c) 97
+d) a
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    #include <stdarg.h>    int f(char c, ...);    int main()    {        char c = 97, d = 98;        f(c, d);        return 0;    }    int f(char c, ...)    {        va_list li;        va_start(li, c);        char d = va_arg(li, char);        printf("%c\n", d);        va_end(li);    }
+a) Compile time error
+b) Undefined behaviour
+c) a
+d) b
+b
+6. What will be the output of the following C code?
+    #include <stdio.h>    #include <stdarg.h>    int f(char c, ...);    int main()    {        char c = 97, d = 98;        f(c, d);        return 0;    }    int f(char c, ...)    {        va_list li;        va_start(li, c);        char d = va_arg(li, int);        printf("%c\n", d);        va_end(li);    }
+a) Compile time error
+b) Undefined behaviour
+c) a
+d) b
+d
+7. What will be the output of the following C code?
+    #include <stdio.h>    #include <stdarg.h>    int f(int c, ...);    int main()    {        int c = 97;        float d = 98;        f(c, d);        return 0;    }    int f(int c, ...)    {        va_list li;        va_start(li, c);        float d = va_arg(li, float);        printf("%f\n", d);        va_end(li);    }
+a) Compile time error
+b) Undefined behaviour
+c) 97.000000
+d) 98.000000
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Variable Length Argument – 1» Next - C Programming Questions and Answers – Formatted Input – 1 

@@ -1,0 +1,94 @@
+1. In a power supply, the output voltage can vary due to multiple reasons. Which of these is not true if it is found that the output voltage is constant?
+a) The voltage stability factor is very high
+b) The output resistance is zero
+c) The temperature coefficient is zero
+d) The voltage stability factor is very small
+a
+VO = f(VS, IL,T)
+ΔVO = SV.ΔVS + ROΔIL + STΔT.
+2. Consider the op-amp circuit shown.
+The breakdown voltage of the Zener is 5V. β for the transistor is 100. R1=10kΩ, R2=90kΩ, R3=30kΩ, R4=50kΩ. Calculate the total output voltage.
+a) 20V
+b) 30V
+c) 5V
+d) 50V
+a
+VO = 20V.
+3. Consider the following circuit. Find the power dissipation of the transistor given that the diode breakdown voltage is 5V, R1=20kΩ, R2=100kΩ, R3=200kΩ, R4=10Ω. The source voltage VS=20V.
+a) 12.12W
+b) 9.375W
+c) 9.27W
+d) 10.575W
+b
+VCE = VC – VE = VS – VOUT = 20-5(1+R2/R3) = 20-5×3/2 = 20-7.5 = 12.5V
+IC ≈ IE = load current, since R2 and R3 are greater than the load, so most current flows through the load.
+IL = VOUT/10 = 0.75A
+P = 12.5 x 0.75 = 9.375W.
+4. In the Zener controlled series regulator shown below, find the current through the Zener diode.
+Given that the Zener diode breakdown voltage is 5V, the source voltage is 15V, the output voltage is 10V, R4 = 2kΩ, β=99, R1=2kΩ.
+a) 5.05 mA
+b) 4.95 mA
+c) 3.33 mA
+d) 0
+b
+IB = 10/100×2000 = 0.05 mA
+Current through R1 = IB + IZ = I1
+IZ = I1 -IB = 15-5/2k – 0.05 = 5 – 0.05 = 4.95mA.
+5. Consider the circuit shown and find the percentage increase in power dissipation of the transistor if the source voltage increases by 10%.
+Given that the breakdown voltage is 5V, R1=10kΩ, R2=100kΩ, R3=200kΩ, R4=10Ω. The source voltage VS=25V.
+a) 10%
+b) 20.22%
+c) 14.28%
+d) 15.66%
+c
+IC = 7.5/10 = 0.75A
+VOUT and IC do not change, only VCE changes.
+10% increase in VS means now VS = 110/100 * 25 = 27.5V
+VCE = 20V
+Power initially P1 = 17.5 x 0.75 = 13.125W
+Power finally P2 = 20 * 0.75 = 15W
+Power increase % = 15-13.125/13.125*100 = 14.28%.
+6. The following is a shunt regulator. Find maximum power dissipation of the Zener diode and transistor, given that the source voltage varies from 20-40V, the Zener breakdown voltage is 5V, the output voltage is 10V, the resistance R1=50Ω, R2=20kΩ, β=99, VBE=0.5V.
+a) PTransistor = 5.12 W, PZener = 0.051 W
+b) PTransistor = 0.41 W, PZener = 0.57 W
+c) PTransistor = 5.94 W, PZener = 0.057 W
+d) PTransistor = 6.22 W, PZener = 5.66 W
+c
+Current across R1 = VS-VO/R1
+For maximum power dissipation, supply is maximum
+I = 40-10/50 = 0.6A
+Current I = IZ + IC = IB + βIB = 100IB
+IB = 6mA
+IC = 0.594 A
+PTransistor = 10*0.594 = 5.94 W
+PZener = 10-0.5 * 6mA = 57mA = 0.057 W.
+7. What is not related to a transistorized series regulator?
+a) The output can be varied by using a variable resistor
+b) The output is independent of temperature
+c) The overload and short circuit protection is not required
+d) The circuit has negative feedback responsible for regulation
+c
+8. In a transistorized series regulator, how is the overload and short-circuit protection provided?
+a) By the use of a thermistor
+b) By using two additional diodes and a current sensing resistor to protect the series transistor
+c) By using a diode and an additional resistor to protect the transistor
+d) By using a diode along with a capacitor of a small capacitance value in series
+b
+9. What is the output of the IC 7924?
+a) 12V
+b) -12V
+c) 24V
+d) -24V
+d
+10. In the IC 7805, what is the minimum input voltage for proper functioning?
+a) 5V
+b) 6V
+c) 7V
+d) 8V
+c
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all objective questions on Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Voltage Regulators – 1 

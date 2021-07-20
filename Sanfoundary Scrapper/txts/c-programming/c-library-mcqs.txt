@@ -1,0 +1,80 @@
+1. The number of bytes contained in the multibyte character pointed to by a character is ___________
+a) getenv()
+b) bsearch()
+c) mblen()
+d) qsort()
+c
+If s is not a null pointer, the mblen() function is used to determine the number of bytes contained in the multibyte character pointed to by s.
+2. The pointer used in the mblen() function points to the _________
+a) first byte of multibyte character
+b) last byte of multibyte character
+c) middle byte of multibyte character
+d) no pointer is used in mblen function
+a
+3. What is the name of the function that is used to convert multibyte character to wide character?
+a) mblen()
+b) mbtowc()
+c) mbstowcs()
+d) wcstombs()
+b
+4. Which function converts the wide-character string to a multibyte string?
+a) wcstombs()
+b) mbstowcs()
+c) mbtowc()
+d) mblen()
+a
+5. The C library function _____________function converts the wide character to its multibyte representation.
+a) mblen()
+b) mbtowc()
+c) wcstombs()
+d) wctomb()
+d
+Join [email protected]
+6. The mbstowcs() function is used to return the number of array elements modified, not including a terminating zero code, if any.
+a) true
+b) false
+a
+7. What will the given C code do?
+#include <stdlib.h> 
+_Mbsave_Mbxlen={0};
+int (mblen)(const char *s ,size_t n)
+{
+return(_Mbtowc(NULL s,n,&_Mbxlen));
+}
+a) determine length of next multibyte code
+b) determine next multibyte code
+c) translate multibyte string to wide char string
+d) translate wide character to multibyte string
+a
+8. What is the purpose of the given C code?
+#include <stdlib.h> 
+_Mbsave _Mbxtowc = {0};  
+int (mbtowc) (wchar_t *pwc, const char *a, size_t n) 
+{
+return (-Mbtowc (pwc, s, n, &-Mbxtowc) ) ;
+}
+a) determine length of next multibyte code
+b) translates multibyte character to wide character
+c) translate multibyte string to wide char string
+d) translate wide character to multibyte string
+b
+The given function is used to convert a multibyte sequence to a wide character.
+9. What is “a” in the given C code?
+size_t wcstombs(char *s, const wchar_t *a, size_t n)
+a) “a” is wide character string to be converted
+b) “a” is pointer to an array of char elements
+c) “a” is pointer to the first byte of a multi-byte character
+d) “a” C multibyte character string to be interpreted
+a
+size_t wcstombs(char *s, const wchar_t *a, size_t n)
+10. mblen() function returns 0,if a null wide character was recognized. It returns -1 if an invalid multi-byte sequence was encountered.
+a) true
+b) false
+a
+If in the given code “a”  points to a NULL character then the function returns 0 or -1 is returned if they do not form a valid multibyte character.
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – General Utilities – 4» Next - C Questions and Answers – General Utilities – 6 

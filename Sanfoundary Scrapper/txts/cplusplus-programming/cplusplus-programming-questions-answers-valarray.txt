@@ -1,0 +1,189 @@
+1. What is Valarray in C++?
+a) Container for efficient operations on an array
+b) Container for efficient printing of the array
+c) Container for efficient value conversion of array
+d) Container for efficient type conversion of array
+a
+2. Which of the following is correct about Valarray?
+a) Supports element-wise mathematical operations
+b) Slower than a normal array
+c) Harder to use
+d) Can have only integer Valarrays
+a
+3. Which header file is required for using Valarray?
+a) <array>
+b) <Valarray>
+c) <stl>
+d) <algorithm>
+b
+4. What is the use of apply() function in Valarray?
+a) Returns new array after shifting elements by the given number
+b) Returns the summation of all elements of the Valarray
+c) Applies the manipulation provided to all the elements of the array
+d) Returns new array after circular shifting elements by the given number
+c
+5. What will be the output of the following C++ code?
+#include <iostream>
+#include <Valarray>
+using namespace std;
+int main()
+{
+	Valarray<int> varr = { 10, 2, 20, 1, 30 };
+	for (int &x: varr) cout << x << " ";
+	cout<<endl;
+	varr = varr.apply([](int x){return x+=5;});
+	for (int &x: varr) cout << x << " ";
+	return 0;
+}
+a) 
+10 2 20 1 30 
+15 7 25 6 35
+b) 
+10 2 20 1 30 
+10 7 25 6 35
+c) 
+10 2 20 1 30 
+15 7 20 1 35
+d) 15 7 25 6 35
+a
+6. What is the use of sum() function in Valarray?
+a) Applies the manipulation provided to all the elements of the array
+b) Returns the summation of all elements of Valarray
+c) Returns new array after shifting elements by the given number
+d) Returns new array after circular shifting elements by the given number
+b
+7. What will be the output of the following C++ code?
+#include <iostream>
+#include <valarray>
+using namespace std;
+int main()
+{
+	valarray<int> varr = { 10, 2, 20, 1, 30 };
+	cout<<"Sum of array: "<<varr.sum();
+	return 0;
+}
+a) Sum of array: 20
+b) Sum of array: 53
+c) Sum of array: 12
+d) Sum of array: 63
+d
+8. What is the function of shift()?
+a) Applies the manipulation provided to all the elements of the array
+b) Returns the summation of all elements of Valarray
+c) Returns new array after shifting elements by the given number
+d) Returns new array after circular shifting elements by the given number
+c
+9. Which of the following is correct about the shift?
+a) Returns new array after shifting elements by the given number
+b) Shifts the elements towards left if the argument supplied is positive
+c) Shifts the elements towards the right if the argument supplied is negative
+d) All of the mentioned
+d
+10. What will be the output of the following C++ code?
+#include <iostream>
+#include <Valarray>
+using namespace std;
+int main()
+{
+	Valarray<int> varr = { 1, 2, 3, 4, 5 };
+	for (int &x: varr) cout << x << " ";
+	cout<<endl;
+	varr = varr.shift(2);
+	for (int &x: varr) cout << x << " ";
+	return 0;
+}
+a) 
+1 2 3 4 5 
+3 4 5 0 0 
+b) 
+1 2 3 4 5 
+0 0 3 4 5
+c) 
+1 2 3 4 5 
+1 2 3 4 5
+d) 
+1 2 3 4 5 
+3 4 5 1 2
+a
+  
+11. What will be the output of the following C++ code?
+#include <iostream>
+#include <Valarray>
+using namespace std;
+int main()
+{
+	Valarray<int> varr = { 1, 2, 3, 4, 5 };
+	for (int &x: varr) cout << x << " ";
+	cout<<endl;
+	varr = varr.shift(-3);
+	for (int &x: varr) cout << x << " ";
+	return 0;
+}
+a) 
+1 2 3 4 5 
+1 2 0 0 0
+b) 
+1 2 3 4 5 
+0 0 0 1 2
+c) 
+1 2 3 4 5 
+3 4 5 1 2 
+d) 
+1 2 3 4 5 
+1 2 3 4 5
+b
+  
+12. Which of the following is correct about shift() and cshift()?
+
+1) shift() makes some values of Valarray equal to 0 after shifting by a non-zero number
+2) cshift() makes some values of Valarray equal to 0 after shifting by a non-zero number
+a) 2 only
+b) 1 only
+c) Both 1 and 2
+d) Neither 1 nor 2
+b
+13. What will be the output of the following C++ code?
+#include <iostream>
+#include <Valarray>
+using namespace std;
+int main()
+{
+	Valarray<int> varr = { 1, 2, 3, 4, 5 };
+	for (int &x: varr) cout << x << " ";
+	cout<<endl;
+	varr = varr.cshift(-3);
+	for (int &x: varr) cout << x << " ";
+	return 0;
+}
+a) 
+1 2 3 4 5 
+0 0 0 1 2
+b) 
+1 2 3 4 5 
+3 4 5 0 0 
+c) 
+1 2 3 4 5 
+3 4 5 1 2
+d) 
+1 2 3 4 5 
+0 0 0 0 0
+c
+  
+14. Which function is used to swap two Valarray?
+a) max()
+b) min()
+c) swap()
+d) change()
+c
+15. Which function is used to print the maximum element from Valarray?
+a) change()
+b) min()
+c) swap()
+d) max()
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Complex Library – 2» Next - C++ Programming Questions and Answers – Bitset – 1 

@@ -1,0 +1,97 @@
+1. Which of these method of class String is used to extract more than one character at a time a String object?
+a) getchars()
+b) GetChars()
+c) Getchars()
+d) getChars()
+d
+2. Which of these methods is an alternative to getChars() that stores the characters in an array of bytes?
+a) getBytes()
+b) GetByte()
+c) giveByte()
+d) Give Bytes()
+a
+3. In the following Java code, what can directly access and change the value of the variable name?
+ package test; class Target  {  public String name = "hello"; }
+a) any class
+b) only the Target class
+c) any class in the test package
+d) any class that extends Target
+c
+4. What will be the output of the following Java code?
+public class Boxer1 {    Integer i;    int x;   public Boxer1(int y)    {        x = i+y;        System.out.println(x);   }   public static void main(String[] args)    {       new Boxer1 (new Integer(4));   }}
+a) The value “4” is printed at the command line
+b) Compilation fails because of an error in line
+c) A NullPointerException occurs at runtime
+d) An IllegalStateException occurs at runtime
+d
+5. Which of these methods can be used to convert all characters in a String into a character array?
+a) charAt()
+b) both getChars() & charAt()
+c) both toCharArray() & getChars()
+d) all of the mentioned
+c
+6. What will be the output of the following Java code?
+    class output     {        public static void main(String args[])        {            String c = "Hello i love java";           int start = 2;           int end = 9;           char s[]=new char[end-start];           c.getChars(start,end,s,0);           System.out.println(s);        }    }
+a) Hello, i love java
+b) i love ja
+c) lo i lo
+d) llo i l
+d
+Output:
+$ javac output.java
+$ java output
+llo i l
+7. What will be the output of the following Java code?
+    class output     {        public static void main(String args[])        {            String a = "hello i love java";            System.out.println(a.indexOf('i')+" "+a.indexOf('o') +" "+a.lastIndexOf('i')+" "+a.lastIndexOf('o'));        }    }
+a) 6 4 6 9
+b) 5 4 5 9
+c) 7 8 8 9
+d) 4 3 6 9
+a
+the character pointed by c in the given array.
+Output:
+$ javac output.java
+$ java output
+6 4 6 9
+8. What will be the output of the following Java code?
+    class output     {        public static void main(String args[])        {            char c[]={'a', '1', 'b' ,' ' ,'A' , '0'};            for (int i = 0; i < 5; ++i)            {                   if(Character.isDigit(c[i]))                       System.out.println(c[i]+" is a digit");                   if(Character.isWhitespace(c[i]))                       System.out.println(c[i]+" is a Whitespace character");                   if(Character.isUpperCase(c[i]))                       System.out.println(c[i]+" is an Upper case Letter");                   if(Character.isLowerCase(c[i]))                       System.out.println(c[i]+" is a lower case Letter");               i=i+3;            }        }    }
+a) 
+
+    a is a lower case Letter
+      is White space character
+b) 
+
+    b is a lower case Letter
+      is White space character
+c) 
+
+    a is a lower case Letter
+    A is an upper case Letter
+d) 
+
+    a is a lower case Letter
+    0 is a digit
+c
+Output:
+$ javac output.java
+$ java output
+a is a lower case Letter
+A is an Upper Case Letter
+  
+9. What will be the output of the following Java code?
+    class output     {        public static void main(String args[])        {            char ch;            ch = "hello".charAt(1);            System.out.println(ch);        }   }
+a) h
+b) e
+c) l
+d) o
+b
+output:
+$ javac output.java
+$ java output 
+e
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – String Handling Basics» Next - Java Questions & Answers – String Comparison 

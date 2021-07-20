@@ -1,0 +1,101 @@
+1. What will be returned in the following C code?
+size- t strlen(const char *s)
+const char *sc;
+for(sc = s; *sc!= ' \ O ' ; ++sc)
+return(sc - s) ;
+a) number of characters equal in sc
+b) length of string s
+c) doesn’t return any value
+d) displays string s
+b
+2. The function strsp() is the complement of strcspn().
+a) true
+b) false
+a
+3. What will the following C code do?
+char * strrchr(const char *s, int c )
+char ch = c;
+char *sc;
+for(sc = NULL; ; ++s)
+if(*s == ch)
+SC = 9;
+i f (*s =='\O' )
+return (( char *) s);
+a) find last occurrence of c in char s[ ].
+b) find first occurrence of c in char s[ ].
+c) find the current location of c in char s[ ].
+d) There is error in the given code
+a
+4. This function offers the quickest way to determine whether two character sequences of the same known length match character for the character up to and including any null character in both.
+a) strcmp()
+b) memcmp()
+c) strncmp()
+d) no such function
+c
+5. What will be the output of the following C code?
+char str1[15];
+char str2[15];
+int mat;
+strcpy(str1, "abcdef");
+strcpy(str2, "ABCDEF");
+mat= strncmp(str1, str2, 4);
+if(mat< 0)
+printf("str1 is not greater than str2");
+else if(mat> 0)
+printf("str2 is is not greater than str1");
+else
+printf("both are equal");
+a) str1 is not greater than str2
+b) str2 is not greater than str1
+c) both are equal
+d) error in given code
+b
+6. What will be the output of the following C code?
+void *memset(void *c, int c, size-t n) 
+unsigned char ch = c;
+unsigned char *su;
+for (su = s; 0 < n; ++su, --n)
+<br>
+*su = ch;
+<br>
+a) store c throughout unsigned char s[n] 
+b) store c throughout signed char s[n] 
+c) find first occurrence of c in s[n] 
+d) find last occurrence of c in s[n] 
+a
+7. Use_______to determine the null-terminated message string that corresponds to the error code errcode.
+a) strerror()
+b) strstr()
+c) strxfrm()
+d) memset()
+a
+8. What will be the output of the following C code?
+const char str1[10]="Helloworld";
+const char str2[10] = "world";
+char *mat;
+mat = strstr(str1, str2);
+printf("The substring is:%s\n", mat);
+a) The substring is:world
+b) The substring is:Hello
+c) The substring is:Helloworld
+d) error in the code
+a
+9. void *memcpy(void *dest, const void *src, size_t n)  What does the following code do?
+a) copies n characters from src to dest
+b) copies n character from dest to src
+c) transform n character from dest to src
+d) transform n character from src to dest
+a
+10. What will the given C code do?
+int memcmp(const void *str1, const void *str2, size_t n)
+a) compares the first n bytes of str1 and str2
+b) copies the first n bytes of str1 to str2
+c) copies the first n bytes of str2 to str1
+d) invalid function
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – String Operations – 3» Next - C Questions and Answers – Character Handling – 1 

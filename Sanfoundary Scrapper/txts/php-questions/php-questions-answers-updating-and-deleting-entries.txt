@@ -1,0 +1,68 @@
+1. When you are building administrative links you’ll need to accept two arguments, which of the following are they?
+a) URL of previous entry and URL of the entry you are working with
+b) The current page and previous page
+c) URL of previous entry and previous page
+d) The current page and URL of the entry you are working with
+d
+function adminLinks($page, $url){  //Build admin links here}
+2. Once your application can generate administrative links, you need to load those links into _________
+a) php.ini
+b) index.ini
+c) index.php
+d) start.php
+View Ansewr Answer: c
+3. The URLs in the administrative links won’t mean anything to admin.php unless you modify _________
+a) .htaccess
+b) .adminaccess
+c) .htmlaccess
+d) .urlaccess
+View answer Answer: a
+4. The (|/) tells the server to match ___________
+a) nothing
+b) forward slash
+c) backward slash
+d) either nothing or a forward slash
+d
+5. ([\w-]+) will match ___________
+a) one word characters
+b) one or more word characters
+c) one or more word characters and/or hyphens
+d) one or more word characters and hyphens
+c
+6. You need to check whether ______ is set, to determine whether you’re editing an entry or creating a new one.
+a) $_GET[‘url’] 
+b) $_SET[‘url’] 
+c) $_GET[‘admin’] 
+d) $_SET[‘admin’] 
+a
+7. To identify entries marked for deletion, you check whether $_GET[‘page’] == ‘delete’ inside __________
+a) index.php
+b) index.ini
+c) admin.php
+d) .htaccess
+c
+8. To declare the function to confirm the deletion you need to add the code to __________
+a) inc.php
+b) functions.inc.php
+c) include.php
+d) functions.include.php
+b
+function confirmDelete($db, $url){    $e = retrieveEntries($db, '', $url);    return <<<FORM    <form action="/simple_blog/admin.php" method="post">    <fieldset>    <legend>Are You Sure?</legend>    <p>Are you sure you want to delete the entry "$e[title]"?</p>    <input type="submit" name="submit" value="Yes" />    <input type="submit" name="submit" value="No" />    <input type="hidden" name="action" value="delete" />    <input type="hidden" name="url" value="$url" />    </fieldset>    </form>    FORM;}
+9. Your confirmation form submits your choice, via the _______ method, to ________
+a) GET index.php
+b) GET admin.php
+c) POST index.php
+d) POST admin.php
+d
+10. When a user confirms that he wishes to delete an entry, that entry’s URL is passed to a function which removes the entry from the __________
+a) index.php
+b) function.inc.php
+c) database
+d) admin.php
+c
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Object Basics-2» Next - PHP Questions & Answers – Image Uploading Ability 

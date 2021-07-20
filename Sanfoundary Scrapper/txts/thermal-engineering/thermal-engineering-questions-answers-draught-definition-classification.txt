@@ -1,0 +1,166 @@
+1. What is draught?
+a) The condition of a dry boiler is called draught
+b) It’s a small pressure difference which causes the flow of gases
+c) It is a boiler mounting
+d) It is a boiler accessory
+b
+2. Draught is classified into _____
+a) Artificial and natural draught
+b) Induced and forced draught
+c) Steam jet and mechanical draught
+d) Chimney draught and boiler draught
+a
+3. Artificial draught is classified into steam jet and mechanical draught.
+a) True
+b) False
+a
+4. Natural draught is obtained using _____
+a) Economizer
+b) Induced fan
+c) Chimney
+d) Induced and forced fan
+c
+5. Which of the following is the correct formula for calculating the pressure difference causing the gas flow through the combustion chamber?
+a) (ρa – ρg)gH
+b) (ρa + ρg)gH
+c) (ρg – ρa)gH
+d) (ρg + ρa)gH
+a
+6. Calculate the draught in mm of water if the chimney height is 30 m, the temperatures of hot gases inside chimney and outside air are 330°C and 30°C respectively. Also, the furnace is supplied with 15 kg of air per kg of coal burnt.
+a) 14.67 mm of water
+b) 17.64 mm of water
+c) 16.22 mm of water
+d) 16.19 mm of water
+c
+H = 30 m, Tg = 330°C or 603 K, Ta = 30°C or 303 K, ma = 15 kg of air/kg of coal
+Draught in mm of water, hw = 353*H*\(\{\frac{1}{Ta}-\frac{1}{Tg}(\frac{ma +1}{ma})\} \) 
+Substituting the respective values
+hw = 353*30*\(\{\frac{1}{303}-\frac{1}{603}(\frac{16}{15})\} \) 
+hw = 16.22 mm of water
+7. A chimney is 25 m high. The temperature of hot gases inside chimney is 300°C and temperature of air outside chimney is 30°C. If 20 kg of air is supplied to the furnace per kg of coal find the equivalent column of hot gases that would produce the same draught pressure.
+a) 20.02 m
+b) 22.40 m
+c) 24.42 m
+d) 22.60 m
+a
+H = 25 m, Tg = 300°C or 573 K, Ta = 30°C or 303 K, ma = 20 kg of air/kg of coal
+Height of equivalent column of hot gases (burnt gases), H1 =H*\(\{(\frac{ma}{ma +1})\frac{Tg}{Ta}-1\} \) 
+Substituting the respective values
+H1 =25*\(\{(\frac{20}{21})\frac{573}{303}-1\} \) 
+H1 = 20.02 m
+8. Calculate how much air is used per kg of coal burnt, if the chimney height is 35 m which creates a draught of 20 mm of water. The temperature of hot gases inside the chimney is 330°C and temperature of air outside is 27°C.
+a) 29.52 kg of air per kg of coal
+b) 21.34 kg of air per kg of coal
+c) 22.45 kg of air per kg of coal
+d) 19.54 kg of air per kg of coal
+a
+H = 35 m, Tg = 330°C or 603 K, Ta = 27°C or 300 K, hw = 20 mm of water
+We know that,
+hw  = 353*H*\(\{\frac{1}{Ta}-\frac{1}{Tg}(\frac{ma +1}{ma})\}\) 
+After substituting the respective values
+20 = 353*35*\(\{\frac{1}{300}-(\frac{ma +1}{ma})\frac{1}{603}\}\) 
+Solving for ma we get
+ma = 29.52 kg of air per kg of coal
+9. A 28 m chimney is full of hot gases at temperature 300°C. The air supplied for complete combustion of 1 kg of coal is 18 kg. calculate draught in N/m2 if the temperature of outside air is 25°C.
+a) 140.32 N/m2
+b) 187.54 N/m2
+c) 150.32 N/m2
+d) 146.76 N/m2
+d
+H = 28 m, Tg = 300°C or 573 K, Ta = 25°C or 298 K, ma = 18 kg of air/kg of coal burnt
+draught (in N/m2) = 353*g*H*\(\{\frac{1}{Ta}-\frac{1}{Tg}(\frac{ma +1}{ma})\}\) 
+	substituting the respective values
+draught (in N/m2) = 353*9.81*28*\(\{\frac{1}{298}-\frac{1}{573}(\frac{19}{18})\}\) 
+draught = 146.76 N/m2
+10. A chimney 30 m high produces a draught of 16 mm of water. The temperature of hot gases inside the chimney is 300°C. Calculate the temperature of outside air if 20 kg of air is supplied for complete combustion of 1 kg of fuel.
+a) 30°C
+b) 27°C
+c) 25°C
+d) 20°C
+b
+H = 30 m, hw = 16 mm of water, Tg = 300°C or 570 K, ma = 20 kg of air/kg of fuel
+we know that,
+hw  = 353*H*\(\{\frac{1}{Ta}-\frac{1}{Tg}(\frac{ma +1}{ma})\}\) 
+Substituting the respective values, we get,
+16 = 353*30*\(\{\frac{1}{Ta}-\frac{1}{573}(\frac{21}{20})\}\) 
+Solving for Ta we get,
+Ta = 299.1 ≈ 300 K or 27°C
+11. Find the temperature of the hot gases inside the chimney if the draught produced by a 25 m high chimney is 15 mm of water. The temperature of the air outside is 25°C and 18 kg of air is supplied for complete combustion of 1 kg of fuel.
+a) 298°C
+b) 330°C
+c) 456°C
+d) 364°C
+d
+H = 25, Ta = 25°C or 298 K, ma = 18 kg of air/kg of fuel, draught = 15 mm of water
+We know that,
+hw = 353*H*\(\{\frac{1}{Ta}-\frac{1}{Tg}(\frac{ma +1}{ma})\}\) 
+Substituting the values
+15 = 353*25*\(\{\frac{1}{298}-\frac{1}{Tg}(\frac{19}{18})\}\) 
+Solving for Tg we get,
+Tg = 637.42 K ≈ 637 K or 364°C
+12. Find draught in terms of column of hot gases, if the temperature of hot gases inside the chimney is 350°C. The height of the chimney is 30 m. The temperature of outside air is 25°C. The air supplied for complete combustion of 1 kg of fuel is 20 kg.
+a) 29.73 m
+b) 32.46 m
+c) 45.32 m
+d) 30.25 m
+a
+H = 30 m, Tg = 350°C or 623 K, Ta = 25°C or 298 K, ma = 20 kg of air/kg of fuel
+We know that, draught in terms of column of hot gases is given by –
+H1 = H*\(\{(\frac{ma}{ma +1})\frac{Tg}{Ta}-1\} \) 
+Substituting the values	H1 = 30*\(\{(\frac{20}{21})\frac{623}{298}-1\} \) 
+Therefore, H1 = 29.73 m
+13. A 27 m high chimney produces a draught of 30 m in terms of Column of hot gases. The amount of air supplied for complete combustion of 1 kg of fuel is 20 kg. If the temperature of outside air is 27°C, determine the temperature of the hot gases inside the chimney.
+a) 456°C
+b) 392°C
+c) 423°C
+d) 398°C
+b
+H = 27 m, H1 = 30 m (column of hot gases), ma = 20 kg of air/kg of fuel, Ta = 27°C or 300 K
+we know that,
+H1 =H*\(\{(\frac{ma}{ma +1})\frac{Tg}{Ta}-1\} \) 
+Substituting the values, we get
+30 =27*\(\{(\frac{20}{21}\frac{Tg}{300}-1\} \) 
+Solving for Tg, we get
+Tg = 665 K or 392°C
+14. How much air is used per kg of coal burnt in a boiler having a chimney of height 32 m to create draught of 170 N/m2. The temperature of outside air is 25°C and hot gases inside chimney is 330°C.
+a) 10.16 kg of air per kg of coal burnt
+b) 12.00 kg of air per kg of coal burnt
+c) 14.32 kg of air per kg of coal burnt
+d) 19.25 kg of air per kg of coal burnt
+a
+H = 32 m, draught = 170 N/m2, Ta = 25°C or 298 K, Tg = 330°C or 603 K
+The following formula is used to calculate draught in N/m2 –
+draught (in N/m2) = 353*g*H*\(\{\frac{1}{Ta}-\frac{1}{Tg}(\frac{ma +1}{ma})\}\) 
+Substituting the respective values, we get
+170 = 353*9.81*32*\(\{\frac{1}{298}-\frac{1}{603}(\frac{ma +1}{ma})\}\) 
+Solving the above equation for ma, we get
+ma = 10.16 kg of air per kg of coal burnt
+15. Find out the temperature of outside air if a chimney 30 m high creates a draught of 25 m in terms of column if hot gases. The temperature of hot gases is 330°C. 18 kg of air is to be supplied for complete combustion of 1 kg of fuel.
+a) 38°C
+b) 28°C
+c) 25°C
+d) 32°C
+a
+H = 30 m, H1 = 25 m of hot gases, Tg = 330°C or 603 K, ma = 18 kg of air/kg of fuel
+we know that,
+H1 =H*\(\{\frac{ma}{ma +1}\frac{Tg}{Ta}-1\} \) 
+Substituting the values, we get
+25 =30*\(\{\frac{18}{19}\frac{603}{Ta}-1\} \) 
+Solving for Tg, we get
+Tg = 311.6 K ≈ 311 K or 38°C
+Symbols
+ρa – mass density of air
+ma  – mass of air supplied per kg of fuel
+ρg – mass density of hot gases
+hw – draught in terms of column of water
+H1 – draught in terms of column of hot gases
+Ta  – absolute temperature of atmosphere
+Tg – average absolute temperature of chimney gases
+g – gravitational acceleration
+H – chimney height
+Sanfoundry Global Education & Learning Series – Thermal Engineering
+To practice all areas of Thermal Engineering,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Thermal Engineering Questions and Answers – Boiler Accessories – 2» Next - Thermal Engineering Questions and Answers – Natural Draught 

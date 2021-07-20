@@ -1,0 +1,68 @@
+1. A CFG is ambiguous if
+a) It has more than one rightmost derivations
+b) It has more than one leftmost derivations
+c) No parse tree can be generated for the CFG
+d) None of the mentioned
+b
+2. Which of the following are always unambiguous?
+a) Deterministic Context free grammars
+b) Non-Deterministic Regular grammars
+c) Context sensitive grammar
+d) None of the mentioned
+a
+3. A CFG is not closed under
+a) Dot operation
+b) Union Operation
+c) Concatenation
+d) Iteration
+d
+4. Which of the following is an real-world programming language ambiguity?
+a) dangling else problem
+b) halting problem
+c) maze problem
+d) none of the mentioned
+a
+5. Which of the following is a parser for an ambiguous grammar?
+a) GLR parser
+b) Chart parser
+c) All of the mentioned
+d) None of the mentioned
+c
+Chart parser: aa type of parser for ambiguous grammar.
+6. A language that admits only ambiguous grammar:
+a) Inherent Ambiguous language
+b) Inherent Unambiguous language
+c) Context free language
+d) Context Sensitive language
+a
+7. Which of the following is an example of inherent ambiguous language?
+a) {an|n>1}
+b) {anbncmdm| n,m > 0}
+c) {0n1n|n>0}
+d) None of the mentioned
+b
+8. State true or false:
+Statement: R->R|T   T->ε is an ambiguous grammar
+a) true
+b) false
+a
+9. In context to ambiguity, the number of times the following programming statement can be interpreted as:
+Statement: if R then if T then P else V
+a) 2
+b) 3
+c) 4
+d) 1
+a
+if R then (if T then P else V) and if R then (if T then P) else V are the two ways in which the given if else statement can be parsed.
+10. CFGs can be parsed in polynomial time using__________
+a) LR parser
+b) CYK algorithm
+c) SLR parser
+d) None of the mentioned
+.
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Markup Languages» Next - Automata Theory Questions and Answers –  PDA-Acceptance by Final State 

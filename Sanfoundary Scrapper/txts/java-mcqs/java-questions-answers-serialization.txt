@@ -1,0 +1,62 @@
+1. How an object can become serializable?
+a) If a class implements java.io.Serializable class
+b) If a class or any superclass implements java.io.Serializable interface
+c) Any object is serializable
+d) No object is serializable
+b
+2. What is serialization?
+a) Turning object in memory into stream of bytes
+b) Turning stream of bytes into an object in memory
+c) Turning object in memory into stream of bits
+d) Turning stream of bits into an object in memory
+a
+3. What is deserialization?
+a) Turning object in memory into stream of bytes
+b) Turning stream of bytes into an object in memory
+c) Turning object in memory into stream of bits
+d) Turning stream of bits into an object in memory
+b
+4. How many methods Serializable has?
+a) 1
+b) 2
+c) 3
+d) 0
+d
+5. What type of members are not serialized?
+a) Private
+b) Protected
+c) Static
+d) Throwable
+c
+6. If member does not implement serialization, which exception would be thrown?
+a) RuntimeException
+b) SerializableException
+c) NotSerializableException
+d) UnSerializedException
+c
+7. Default Serialization process cannot be overridden.
+a) True
+b) False
+b
+8. Which of the following methods is used to avoid serialization of new class whose super class already implements Serialization?
+a) writeObject()
+b) readWriteObject()
+c) writeReadObject()
+d) unSerializaedObject()
+a
+9. Which of the following methods is not used while Serialization and DeSerialization?
+a) readObject()
+b) readExternal()
+c) readWriteObject()
+d) writeObject()
+c
+10. Serializaed object can be transferred via network.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Serialization – 1» Next - Java Questions & Answers – Serialization & Deserialization 

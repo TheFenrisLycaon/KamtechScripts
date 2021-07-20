@@ -1,0 +1,69 @@
+1. Which mode allows us to run program interactively while watching source code and variables during execution?
+a) safe mode
+b) debug mode
+c) successfully run mode
+d) exception mode
+b
+2. How can we move from one desired step to another step?
+a) breakpoints
+b) System.out.println
+c) logger.log
+d) logger.error
+a
+3. Which part stores the program arguments and startup parameters?
+a) debug configuration
+b) run configuration
+c) launch configuration
+d) project configuration
+c
+4. How to deep dive into the execution of a method from a method call?
+a) F3
+b) F5
+c) F7
+d) F8
+b
+5. Which key helps to step out of the caller of currently executed method?
+a) F3
+b) F5
+c) F7
+d) F8
+c
+6. Which view allows us to delete and deactivate breakpoints and watchpoints?
+a) breakpoint view
+b) variable view
+c) debug view
+d) logger view
+a
+7. What is debugging an application which runs on another java virtual machine on another machine?
+a) virtual debugging
+b) remote debugging
+c) machine debugging
+d) compiling debugging
+b
+java -Xdebug -Xnoagent \
+-Djava.compiler=NONE \
+-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005.
+8. What happens when the value of variable change?
+a) changed value pop on the screen
+b) variable changes are printed in logs
+c) dump of variable changes are printed on the screen on end of execution
+d) variable tab shows variables highlighted when values change
+d
+9. Which perspective is used to run a program in debug view?
+a) java perspective
+b) eclipse perspective
+c) debug perspective
+d) jdbc perspective
+c
+10. How does eclipse provide the capability for debugging browser actions?
+a) internal web browser
+b) chrome web browser
+c) firefox web browser
+d) internet explorer browser
+a
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Advanced Java Questions & Answers – Design Patterns» Next - Advanced Java Questions & Answers – Web application 

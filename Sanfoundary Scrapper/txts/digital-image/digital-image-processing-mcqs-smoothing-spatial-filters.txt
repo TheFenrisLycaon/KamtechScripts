@@ -1,0 +1,67 @@
+1. The output of a smoothing, linear spatial filtering is a ____________ of the pixels contained in the neighbourhood of the filter mask.
+a) Sum
+b) Product
+c) Average
+d) Dot Product
+c
+2. Averaging filters is also known as ____________ filter.
+a) Low pass
+b) High pass
+c) Band pass
+d) None of the Mentioned
+a
+3. What is the undesirable side effects of Averaging filters?
+a) No side effects
+b) Blurred image
+c) Blurred edges
+d) Loss of sharp transitions
+c
+4. A spatial averaging filter in which all coefficients are equal is called _______________.
+a) Square filter
+b) Neighbourhood
+c) Box filter
+d) Zero filter
+c
+5. Which term is used to indicate that pixels are multiplied by different coefficients?
+a) Weighted average
+b) Squared average
+c) Spatial average
+d) None of the Mentioned
+a
+Join Sanfoundry@YouTube
+6. The non linear spacial filters whose response is based on ordering of the pixels contained is called _____________.
+a) Box filter
+b) Square filter
+c) Gaussian filter
+d) Order-statistic filter
+d
+7. Impulse noise in Order-statistic filter is also called as _______________
+a) Median noise
+b) Bilinear noise
+c) Salt and pepper noise
+d) None of the Mentioned
+c
+8. Best example for a Order-statistic filter is ____________________
+a) Impulse filter
+b) Averaging filter
+c) Median filter
+d) None of the Mentioned
+c
+9. What does “eliminated” refer to in median filter?
+a) Force to average intensity of neighbours
+b) Force to median intensity of neighbours
+c) Eliminate median value of pixels
+d) None of the Mentioned
+b
+10. Which of the following is best suited for salt-and-pepper noise elimination?
+a) Average filter
+b) Box filter
+c) Max filter
+d) Median filter
+d
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Histogram Processing – 1» Next - Digital Image Processing Questions and Answers – Smoothing Linear Spatial Filters 

@@ -1,0 +1,66 @@
+1. Which of the following syntax is valid?
+a) SET SHOWPLAN_XML { ON | OFF }
+b) SET SHOWPLAN { ON | OFF }
+c) SET SHOW_XML { ON | OFF }
+d) None of the mentioned
+a
+2. Point out the correct statement.
+a) SET SHOWPLAN_TEXT causes Microsoft SQL Server to execute Transact-SQL statements
+b) The setting of SET SHOWPLAN_ALL is set at execute or run time and not at parse time
+c) The setting of SET SHOWPLAN_XML is set at execute or run time and not at parse time
+d) None of the mentioned
+c
+3. ___________ displays the profile information for a statement.
+a) SET STATISTICS
+b) SET STATS PROFILE
+c) SET STATISTICS PROFILE
+d) All of the mentioned
+c
+4. To produce execution plan output by using most Showplan Transact-SQL SET options, users must have _________
+a) SHOW SHOWPLAN
+b) SHOW PLAN
+c) SHOWPLAN
+d) None of the mentioned
+c
+5. Point out the wrong statement.
+a) SET SHOWPLAN_XML can be specified inside a stored procedure
+b) SET SHOWPLAN_XML returns information as a set of XML documents
+c) SET SHOWPLAN_XML is intended to return output as nvarchar(max) for applications such as the sqlcmd utility
+d) All of the mentioned
+a
+6. The document containing the XML schema for the XML output by SET STATISTICS XML is located at ______________
+a) \Microsoft SQL Server\100\Tools\Binn\schemas\sqlserver\2004\07\showplan\showplanxml. xml
+b) \Microsoft SQL Server\100\Tools\Binn\schemas\sqlserver\2004\07\showplan\showplanxml. xsl
+c) \Microsoft SQL Server\100\Tools\Binn\schemas\sqlserver\2004\07\showplan\showplanxml. xsd
+d) None of the mentioned
+c
+7. Which of the following is valid syntax for SET STATISTICS XML?
+a) SET STATISTICS XML { OFF }
+b) SET STATISTICS XML { ON | OFF }
+c) SET STATISTICS XML { ON }
+d) All of the mentioned
+d
+8. __________  returns detailed information about how the statements are executed.
+a) SET STATISTICS XML
+b) SET SHOWPLAN_TEXT
+c) SET STATISTICS PROFILE
+d) All of the mentioned
+b
+9. The way that a statement can be physically executed is called _____________
+a) query plan
+b) execution plan
+c) query execution plan
+d) all of the mentioned
+d
+10. SET SHOWPLAN_TEXT is intended to return readable output for ________ utility.
+a) osql
+b) tsql
+c) plsql
+d) pgsql
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Management Data Warehouse» Next - SQL Server Questions and Answers – Indexing Strategies – 1 

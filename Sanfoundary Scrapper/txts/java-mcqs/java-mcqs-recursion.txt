@@ -1,0 +1,91 @@
+1. What is Recursion in Java?
+a) Recursion is a class
+b) Recursion is a process of defining a method that calls other methods repeatedly
+c) Recursion is a process of defining a method that calls itself repeatedly
+d) Recursion is a process of defining a method that calls other methods which in turn call again this method
+b
+2. Which of these data types is used by operating system to manage the Recursion in Java?
+a) Array
+b) Stack
+c) Queue
+d) Tree
+b
+3. Which of these will happen if recursive method does not have a base case?
+a) An infinite loop occurs
+b) System stops the program after some time
+c) After 1000000 calls it will be automatically stopped
+d) None of the mentioned
+a
+4. Which of these is not a correct statement?
+a) A recursive method must have a base case
+b) Recursion always uses stack
+c) Recursive methods are faster that programmers written loop to call the function repeatedly using a stack
+d) Recursion is managed by Java Runtime environment
+d
+5. Which of these packages contains the exception Stack Overflow in Java?
+a) java.lang
+b) java.util
+c) java.io
+d) java.system
+a
+6. What will be the output of the following Java program?
+    class recursion     {        int func (int n)         {            int result;            result = func (n - 1);            return result;        }    }     class Output     {        public static void main(String args[])         {            recursion obj = new recursion() ;            System.out.print(obj.func(12));        }    }
+a) 0
+b) 1
+c) Compilation Error
+d) Runtime Error
+d
+Output:
+$ javac Output.javac
+$ java Output
+Exception in thread "main" java.lang.StackOverflowError
+7. What will be the output of the following Java program?
+    class recursion     {        int func (int n)         {            int result;            if (n == 1)                return 1;            result = func (n - 1);            return result;        }    }     class Output     {        public static void main(String args[])         {            recursion obj = new recursion() ;            System.out.print(obj.func(5));        }    }
+a) 0
+b) 1
+c) 120
+d) None of the mentioned
+b
+Output:
+$ javac Output.javac
+$ java Output
+1
+8. What will be the output of the following Java program?
+    class recursion     {        int fact(int n)         {            int result;            if (n == 1)                return 1;            result = fact(n - 1) * n;            return result;        }    }     class Output     {        public static void main(String args[])         {            recursion obj = new recursion() ;            System.out.print(obj.fact(5));        }    }
+a) 24
+b) 30
+c) 120
+d) 720
+c
+Output:
+$ javac Output.javac
+$ java Output
+120
+9. What will be the output of the following Java program?
+    class recursion     {        int fact(int n)         {            int result;            if (n == 1)                return 1;            result = fact(n - 1) * n;            return result;        }    }     class Output     {        public static void main(String args[])         {            recursion obj = new recursion() ;            System.out.print(obj.fact(1));        }    }
+a) 1
+b) 30
+c) 120
+d) Runtime Error
+a
+Output:
+$ javac Output.javac
+$ java Output
+1
+10. What will be the output of the following Java program?
+    class recursion     {        int fact(int n)         {            int result;            if (n == 1)                return 1;            result = fact(n - 1) * n;            return result;        }    }     class Output     {        public static void main(String args[])         {            recursion obj = new recursion() ;            System.out.print(obj.fact(6));        }    }
+a) 1
+b) 30
+c) 120
+d) 720
+d
+Output:
+$ javac Output.javac
+$ java Output
+720
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Command Line Arguments – 2» Next - Java Questions & Answers – Method overriding 

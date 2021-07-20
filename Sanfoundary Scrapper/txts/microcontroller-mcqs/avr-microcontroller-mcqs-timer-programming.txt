@@ -1,0 +1,66 @@
+1. In AVR, which of the following registers are not used for programming timers?
+a) TCNT
+b) TCON
+c) TIFR
+d) None of the mentioned
+b
+2. What is the use of the prescalar in the operation of the timer?
+a) for fast calculations
+b) for increasing the time delay given by the timer by decreasing its frequency of operation
+c) for removing the concept the reloading of count
+d) for easy counter operations
+b
+3. What modes are generally used in the operation of the timer0?
+a) Normal mode
+b) CTC mode
+c) PWM mode
+d) All of the mentioned
+d
+4. Timer 0 can act as a counter ____________
+a) if the CS02-CS00 are 110 or 111
+b) if the FOC0 bit is set to 110
+c) none of the mentioned
+d) all of the mentioned
+a
+5. Which of the timer can operate in the 16 bit condition?
+a) timer0
+b) timer1
+c) timer2
+d) all of the mentioned
+b
+6. Which of the following will generate the maximum time delay?
+a) f/2
+b) f/4
+c) f/16
+d) f/32
+d
+7. What is the difference in the operation of a normal and a CTC mode of a timer?
+a) in CTC mode PWM is used
+b) here serial timer is monitored
+c) in CTC mode, timer counts up until contents of TCNT register becomes equal to the contents of OCR
+d) none of the mentioned
+c
+8. We can count the pulses on the positive or the negative edge triggered pulse of the clock?
+a) true
+b) false
+c) can’t be determined
+d) depends on the circumstances
+a
+9. Which pin is used for the input clock of the counter0?
+a) PORTB.0
+b) PORTB.1
+c) PORTB.2
+d) PORTB.3
+a
+10. Which resource provides the clock pulse to AVR timers if CS02-00=6?
+a) internal clock of the AVR
+b) external clock of the AVR
+c) none of the mentioned
+d) all of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - AVR Microcontroller Questions and Answers – Arithmetic and Logic Instructions» Next - AVR Microcontroller Questions and Answers – Interrupt Programming 

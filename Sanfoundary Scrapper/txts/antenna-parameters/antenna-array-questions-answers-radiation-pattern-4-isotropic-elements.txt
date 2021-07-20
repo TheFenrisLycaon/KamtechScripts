@@ -1,0 +1,104 @@
+1. The array factor of 4- isotropic elements of broadside array is given by ____________
+a) \(\frac{sin(2kdcosθ)}{2kdcosθ} \) 
+b) \(\frac{sin(kdcosθ)}{2kdcosθ} \) 
+c) \(\frac{sin(2kdcosθ)}{kdcosθ} \) 
+d) \(\frac{cos(2kdcosθ)}{2kdcosθ} \) 
+a
+\(AF=\frac{sin(Nᴪ/2)}{N \frac{ᴪ}{2}}\) 
+And ᴪ=kdcosθ+β
+Since its given broad side array β=0,
+ᴪ=kdcosθ+β=kdcosθ
+\(\frac{Nᴪ}{2}=2kdcosθ\) 
+\(AF=\frac{sin(Nᴪ/2)}{N \frac{ᴪ}{2}}=\frac{sin(2kdcosθ)}{2kdcosθ} \) 
+2. A 4-isotropic element broadside array separated by a λ/2 distance has nulls occurring at ____________
+a) \(cos^{-1} (±\frac{n}{2}) \) 
+b) \(cos^{-1} (±\frac{4n}{2}) \) 
+c) \(sin^{-1} (±\frac{n}{2}) \) 
+d) \(sin^{-1} (±\frac{n}{4}) \) 
+a
+\(θ_n=cos^{-1}⁡(\frac{λ}{2πd} \left[-β±\frac{2πn}{N}\right])=cos^{-1}⁡(\frac{λ}{2πd} \left[±\frac{2πn}{N}\right])\) 
+⇨	\(θ_n=cos^{-1}⁡(\frac{λ}{2π(λ/2)}\left[±\frac{2πn}{N}\right])=cos^{-1} (±\frac{2n}{4})=cos^{-1} (±\frac{n}{2}) \) 
+3. A 4-isotropic element broadside array separated by a λ/4 distance has nulls occurring at ____________
+a) cos-1 (±n)
+b) \(cos^{-1} (±\frac{n}{2})\) 
+c) \(sin^{-1} (±\frac{n}{2})\) 
+d) sin-1 (±n)
+a
+\(θ_n=cos^{-1}⁡(\frac{λ}{2πd} \left[-β±\frac{2πn}{N}\right])=cos^{-1}⁡(\frac{λ}{2πd} \left[±\frac{2πn}{N}\right])\) 
+⇨	\(θ_n=cos^{-1}(⁡\frac{λ}{2π(λ/4)}\left[±\frac{2πn}{N}\right])=cos^{-1} (±\frac{4n}{4})=cos^{-1} (±n)  \left[n=1,2,3 \,and \,n≠N,2N…\right]\) 
+4. The array factor of 4- isotropic elements of broadside array separated by a λ/4 is given by ____________
+a) sinc(cosθ)
+b) cos(sinθ)
+c) sin(sinθ)
+d) sin(cosθ)
+a
+And ᴪ=kdcosθ+β
+Since its given broad side array β=0,
+ᴪ=kdcosθ+β=kdcosθ
+\(\frac{Nᴪ}{2}=2kdcosθ=2(\frac{2π}{λ})(\frac{λ}{4})cosθ=πcosθ \) 
+\(AF=\frac{sin(Nᴪ/2)}{N \frac{ᴪ}{2}}=\frac{sin(πcosθ)}{πcosθ}=sinc(cosθ).\)
+5. The array factor of 4- isotropic elements of broadside array separated by a λ/2 is given by ____________
+a) sinc(2cosθ)
+b) sin(2πcosθ)
+c) sinc(2πsinθ)
+d) sin(2sinθ)
+a
+And ᴪ=kdcosθ+β
+Since its given broad side array β=0,
+ᴪ=kdcosθ+β=kdcosθ
+\(\frac{Nᴪ}{2}=2kdcosθ=2(\frac{2π}{λ})(\frac{λ}{2})cosθ=2πcosθ \) 
+\(AF=\frac{sin(Nᴪ/2)}{N \frac{ᴪ}{2}}=\frac{sin(2πcosθ)}{2πcosθ}=sinc(2cosθ).\) 
+Join Sanfoundry@YouTube
+6. What is the direction of first null of broadside 4-element isotropic antenna having a separation of λ/2?
+a) 60°
+b) 30°
+c) 180°
+d) 0°
+a
+\(θ_n=cos^{-1}⁡(\frac{λ}{2πd} \left[-β±\frac{2πn}{N}\right])=cos^{-1}⁡(\frac{λ}{2πd} \left[±\frac{2πn}{N}\right])\) 
+⇨	\(θ_n=cos^{-1}⁡(\frac{λ}{2π(λ/2)} \left[±\frac{2πn}{N}\right])=cos^{-1} (±\frac{2n}{4})=cos^{-1}(±\frac{n}{2})  \) 
+⇨ \(n=1 (first \,null) cos^{-1} (±\frac{n}{2})=cos^{-1} (±\frac{1}{2})=60° or 120°. \) 
+7. What is the direction of first null of broadside 4-element isotropic antenna having a separation of λ/4?
+a) 0
+b) 60
+c) 30
+d) 120
+a
+\(θ_n=cos^{-1}⁡(\frac{λ}{2πd} \left[-β±\frac{2πn}{N}\right])=cos^{-1}⁡(\frac{λ}{2πd} \left[±\frac{2πn}{N}\right])\) 
+\(θ_n=cos^{-1}⁡(\frac{λ}{2π(λ/4)}\left[±\frac{2πn}{N}\right])=cos^{-1} (±\frac{4n}{4})=cos^{-1}(±n)=0\) 
+8. The necessary condition for maximum of the second side lobe of n element array is __________
+a) \( \frac{Nᴪ}{2}=±\frac{5π}{2}\) 
+b) \( \frac{Nᴪ}{2}=±\frac{3π}{2}\) 
+c) \( \frac{Nᴪ}{2}=±\frac{π}{2}\) 
+d) \( \frac{Nᴪ}{2}=±\frac{4π}{2}\) 
+a
+⇨	\(sin(\frac{Nᴪ}{2})=±1\) 
+⇨ \(\frac{Nᴪ}{2} =±\frac{2s+1}{2}π\) 
+⇨ \(\frac{Nᴪ}{2}=±\frac{5π}{2}\)  [s=2 for second minor lobe].
+9. The direction of the first minor lobe of 4 element isotropic broadside array separated by λ/2 is ___________
+a) 41.4°
+b) 30°
+c) 60°
+d) 90°
+a
+\(θ_s=cos^{-1} (\frac{λ}{2πd} \left[-β±\frac{(2s+1)}{N} π\right])\) 
+⇨ \(θ_s=cos^{-1} (\frac{λ}{2π(λ/2)} \left[±\frac{3}{4} π\right])\) (s=1 for 1st minor lobe)
+⇨ \(θ_s=cos^{-1} (±\frac{3}{4})=41.4°\) 
+10. A 4-isotropic element end-fire array separated by a λ/4 distance has first null occurring at ____________
+a) 60
+b) 30
+c) 90
+d) 150
+c
+Since its given broad side array \(β=±kd=±\frac{2πd}{λ}=±\frac{π}{2},\) 
+\(θ_n=cos^{-1}⁡(\frac{2}{π} \left[∓\frac{π}{2}±\frac{2πn}{4}\right])\) 
+=cos-1([∓1±n])
+First null at n=1; θn=cos-1⁡([1±1) (considering β=\(-\frac{π}{2}) \) 
+θn = cos-1⁡ (0) or cos-1⁡(2)
+θn = cos-1⁡ (1)=90.
+Sanfoundry Global Education & Learning Series – Antennas.
+To practice all areas of Antennas, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antenna Array Questions and Answers – Pattern Multiplications» Next - Antenna Array Questions and Answers – Radiation Pattern of 8-Isotropic Elements 

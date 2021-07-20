@@ -1,0 +1,173 @@
+1. Which of the following is correct about tuple_size?
+a) Returns the number of elements in a tuple
+b) Returns the maximum sized type element
+c) Returns the total number of bits used by the tuple
+d) Returns the sum of non-string values
+a
+2. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <tuple>
+using namespace std;
+int main()
+{
+	tuple <int, char, string> tp;
+	tp = make_tuple(4, '1', "Hello");
+	cout<<tuple_size<decltype(tp)>::value;
+	return 0;
+}
+a) 11
+b) 5
+c) 4
+d) 3
+d
+3. Which of the following is correct about swap()?
+a) Swaps first element of both tuples
+b) Swaps two tuples
+c) Swaps elements of a tuple alternatively
+d) Swaps last elements of two tuples
+b
+4. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <tuple>
+using namespace std;
+int main()
+{
+	tuple <int, char, string> tp1;
+	tuple <int, char, string> tp2;
+	tp1 = make_tuple(6, 'a', "Hello");
+	tp2 = make_tuple(9, 'z', "World");
+	cout<<"("<<get<0>(tp1)<<", "<<get<1>(tp1)<<", "<<get<2>(tp1)<<")"<<endl;
+	cout<<"("<<get<0>(tp2)<<", "<<get<1>(tp2)<<", "<<get<2>(tp2)<<")"<<endl;
+	tp1.swap(tp2);
+	cout<<"("<<get<0>(tp1)<<", "<<get<1>(tp1)<<", "<<get<2>(tp1)<<")"<<endl;
+	cout<<"("<<get<0>(tp2)<<", "<<get<1>(tp2)<<", "<<get<2>(tp2)<<")"<<endl;
+	return 0;
+}
+a) 
+(6, a, Hello)
+(9, z, World)
+(9, z, World)
+(6, a, Hello)
+b) 
+(6, a, Hello)
+(9, z, World)
+(6, a, Hello)
+(9, z, World)
+c) 
+(9, z, World)
+(6, a, Hello)
+(9, z, World)
+(6, a, Hello)
+d) 
+(6, a, Hello)
+(6, a, Hello)
+(9, z, World)
+(9, z, World)
+a
+  
+5. What is the use of tie() function?
+a) Used to replace elements
+b) Used to delete elements
+c) Used to unpack the values of a tuple
+d) Used to check whether two tuples are the same or not
+c
+6. How many variants of tie() function is there?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+7. Which word is used to stop the unpacking of a value in a tuple?
+a) stop
+b) ignore
+c) cancel
+d) remain
+b
+8. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <tuple>
+using namespace std;
+int main()
+{
+	tuple <int, char, string> tp1;
+	tp1 = make_tuple(6, 'a', "Hello");
+	int x;
+	char y;
+	string z;
+	tie(x,y,z) = tp1;
+	cout<<"x: "<<x<<"\ny: "<<y<<"\nz: "<<z<<endl;
+	return 0;
+}
+a) 
+Segmentation fault
+z: Hello
+b) 
+x: 6
+z: Hello
+y: a
+c) Error
+d) 
+x: 6
+y: a
+d
+  
+9. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <tuple>
+using namespace std;
+int main()
+{
+	tuple <int, char, string> tp1;
+	tp1 = make_tuple(6, 'a', "Hello");
+	int x;
+	string y;
+	tie(x,ignore,y) = tp1;
+	cout<<"x: "<<x<<"\ny: "<<y<<endl;
+	return 0;
+}
+a) 
+x: 6
+y: Hello
+b) 
+y: Hello
+x: 6
+c) Error
+d) Segmentation fault
+a
+10. What is the use of tuple_cat() function?
+a) Takes the union of two tuples
+b) Takes the intersection of two tuples
+c) Concatenates two tuples
+d) Removes elements of the second tuple from first
+c
+11. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <tuple>
+using namespace std;
+int main()
+{
+	tuple <int, string> tp1;
+	tuple <int, string> tp2;
+	tp1 = make_tuple(0, "Hello");
+	tp2 = make_tuple(1, "World");
+	auto tp3 = tuple_cat(tp1, tp2);
+	cout<<"("<<get<0>(tp3)<<", "<<get<1>(tp3)<<", "<<get<2>(tp3)<<", 
+        "<<get<3>(tp3)<<")"<<endl;
+	return 0;
+}
+a) (0, Hello, 1, World)
+b) ()
+c) (0, 1)
+d) (Hello, World)
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Tuples – 1» Next - C++ Programming Questions and Answers – Complex Library – 1 

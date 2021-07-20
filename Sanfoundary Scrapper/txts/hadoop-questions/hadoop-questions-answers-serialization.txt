@@ -1,0 +1,68 @@
+1. Apache _______ is a serialization framework that produces data in a compact binary format.
+a) Oozie
+b) Impala
+c) kafka
+d) Avro
+d
+2. Point out the correct statement.
+a) Apache Avro is a framework that allows you to serialize data in a format that has a schema built in
+b) The serialized data is in a compact binary format that doesn’t require proxy objects or code generation
+c) Including schemas with the Avro messages allows any application to deserialize the data
+d) All of the mentioned
+d
+3. Avro schemas describe the format of the message and are defined using ______________
+a) JSON
+b) XML
+c) JS
+d) All of the mentioned
+a
+4. The ____________ is an iterator which reads through the file and returns objects using the next() method.
+a) DatReader
+b) DatumReader
+c) DatumRead
+d) None of the mentioned
+b
+5. Point out the wrong statement.
+a) Java code is used to deserialize the contents of the file into objects
+b) Avro allows you to use complex data structures within Hadoop MapReduce jobs
+c) The m2e plugin automatically downloads the newly added JAR files and their dependencies
+d) None of the mentioned
+d
+6. The ____________ class extends and implements several Hadoop-supplied interfaces.
+a) AvroReducer
+b) Mapper
+c) AvroMapper
+d) None of the mentioned
+c
+Join Sanfoundry@YouTube
+7. ____________ class accepts the values that the ModelCountMapper object has collected.
+a) AvroReducer
+b) Mapper
+c) AvroMapper
+d) None of the mentioned
+a
+8. The ________ method in the ModelCountReducer class “reduces” the values the mapper collects into a derived value.
+a) count
+b) add
+c) reduce
+d) all of the mentioned
+c
+9. Which of the following works well with Avro?
+a) Lucene
+b) kafka
+c) MapReduce
+d) None of the mentioned
+c
+10. __________ tools is used to generate proxy objects in Java to easily work with the objects.
+a) Lucene
+b) kafka
+c) MapReduce
+d) Avro
+d
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Data Integrity» Next - Hadoop Questions and Answers – Avro – 1 

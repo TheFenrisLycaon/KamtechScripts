@@ -1,0 +1,88 @@
+1. What does DLL stand for ?
+a) Dynamic Link Library
+b) Dynamic Language Library
+c) Dynamic Load Library
+d) None of the Mentioned
+a
+2. POST-BLOCK trigger is also a ?
+a) Navigational Trigger
+b) Key Trigger
+c) Transaction Trigger
+d) All of the Mentioned
+a
+3. The system variable that records the select statement that SQL * FORMS most recently used to populate a block is __________
+a) SYSTEM.LAST_RECORD
+b) SYSTEM.CURSOR_RECORD
+c) SYSTEM.CURSOR_FIELD
+d) SYSTEM.LAST_QUERY
+d
+4. In Oracle, which of the following package procedure is UNRESTRICTED ?
+a) CALL_INPUT
+b) CLEAR_BLOCK
+c) EXECUTE_QUERY
+d) USER_EXIT
+d
+5. What is SQL * FORMS ?
+a) SQL * FORMS is a 4GL tool for developing and executing Oracle based interactive based application
+b) SQL * FORMS is a 3GL tool for connecting to a Database
+c) SQL * FORMS is a reporting tool
+d) None of the Mentioned
+a
+6. Which of the following statement is false ?
+a) Any procedure can raise a error and return an user message and error number
+b) Error number is ranging from 20000 to 20999 are reserved for user defined messages
+c) Oracle checks Uniqueness of User defined errors
+d) Raise_Application_error is used for raising an user defined error
+c
+7. What is the result of the following  ‘PAN’NULL’KAJ’?
+a) Error
+b) PAN KAJ
+c) PANKAJ
+d) NULL
+c
+8. Below is the EMP table
+EMPNO     ENAME     SALARY
+A29       PANKAJ    10000	
+A23       SAHIL     20000
+A48       ABHYUDAY   
+A83       KRISHNA   30000 
+Select count(SALARY) from EMP; will result in
+a) 1
+b) 0
+c) 3
+d) None of the Mentioned
+c
+9. 
+Declare 
+	fvar number :=null;
+	svar number :=5;
+   Begin 
+	goto <<>>
+		if fvar is null then 
+			<<>>
+		svar:=svar+5;
+		end-if;
+		End; 
+What will be the value of svar after execution?
+a) Error
+b) 10
+c) 5
+d) None of the Mentioned
+a
+10. Which of the following queries displays the sum of all employee salaries for those employees not making commission, for each job, including only those sums greater than 2500?
+a) select job, sum(Sal) from Emp where sum(Sal) > 2500 and comm is null;
+b) select job, sum(Sal) from Emp where comm is null group by job having sum(Sal) > 2500;
+c) select job, sum(Sal) from Emp where sum(Sal) > 2500 and comm is null group by job;
+d) select job, sum(Sal) from Emp group by job having sum(Sal) > 2500 and comm is not null;
+b
+	     FROM table_name
+	     WHERE column_name operator value
+	     GROUP BY column_name
+	     HAVING aggregate_function(column_name) operator value;
+	     So base on [select job, sum(Sal) from Emp where comm is null group by job having sum(Sal) > 2500;] this  will be the correct answer.
+Sanfoundry Global Education & Learning Series – Oracle Database.
+To practice all areas of Oracle Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Oracle Database Questions and Answers – Databases and Instances» Next - Oracle Database Questions and Answers – Storing and Guarding the Data 

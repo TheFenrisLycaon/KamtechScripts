@@ -1,0 +1,66 @@
+1. Which of the following condition in the where clause will return the login identification name of the user?
+a) UserName = SUSER_NAME()
+b) UserName = SUSER_SNAME()
+c) UserName = CURRENT_USER()
+d) UserName = USER()
+b
+2. Point out the correct statement.
+a) Implementing row level security based on security labels is possible in SQL Server 2008
+b) A security label is a marking that describes the securable content of an item
+c) Row-level permissions are used for applications that store information in a single table
+d) None of the mentioned
+c
+3. View that contains the list of all the security labels present in the database are __________
+a) vwVisibleLabels
+b) VisibleLabels
+c) vwVisibleLabel
+d) All of the mentioned
+a
+4. Which of the following retrieves a SecurityLabel instance describing the subject label of the current database user?
+a) fn_Dominates
+b) usp_GetUserLabel
+c) usp_GetCurrentUserLabel
+d) usp_GetSecLabelDetails
+c
+5. Point out the wrong statement.
+a) usp_EnableCellVisibility opens all the symmetric keys that are mapped to security labels
+b) usp_DisableCellVisibility opens all the symmetric keys that were previously opened
+c) On SQL Server 2012 you can use the Contained Database feature to create a user without a login
+d) No arguments are available for usp_EnableCellVisibility
+b
+6. What will the fn_Dominates return if A dominates B where A and B both are security label?
+a) 0
+b) 1
+c) NULL
+d) None of the mentioned
+b
+7. The major components of the Label Security Toolkit are _____________
+a) Documentation
+b) The Label Policy Designer application
+c) Examples showing the implementation of row- and cell-level security in different scenarios
+d) All of the mentioned
+d
+8. Return type of CertName field in vwVisibleLabels is __________
+a) XML
+b) INT
+c) NVARCHAR(256)
+d) VARCHAR(256)
+c
+9. Which of the following will not return user name of the current session?
+a) CUURENT_USER()
+b) USER_NAME()
+c) CUSER_NAME()
+d) None of the mentioned
+d
+10. Grant ________ permission on the stored procedures to database roles for implementing call level security.
+a) EXECUTE
+b) EXEC
+c) READ
+d) WRITE
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Data Cryptography» Next - SQL Server Questions and Answers – Data Audit 

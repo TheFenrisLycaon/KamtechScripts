@@ -1,0 +1,62 @@
+1. The server sets its default time zone by examining its environment.
+a) True
+b) False
+a
+2. The system variable ‘system_time_zone’ can be reset at runtime.
+a) True
+b) False
+b
+3. The variable which represents the default time zone of the MySQL server is _____________
+a) time_zone
+b) system_time_zone
+c) date_and_time
+d) system_time
+a
+4. The number of options that can be used to control LOCAL capability at runtime is _____________
+a) 0
+b) 1
+c) 2
+d) 3
+c
+5. If an error occurs during the transaction the troubleshoot is ____________
+a) delete
+b) rollback
+c) commit
+d) update
+b
+6. The ‘A’ in the ACID property of transactions is _______________
+a) Availability
+b) Accuracy
+c) Adjustability
+d) Atomicity
+d
+7. The ‘C’ in the ACID property of transactions is _______________
+a) Compound
+b) Concrete
+c) Collision
+d) Consistency
+d
+8. The datatype that means a variable length non binary string is __________
+a) VARCHAR
+b) BINARY
+c) VARBINARY
+d) BLOB
+a
+9. The date and time datatype that stores time value in ‘hh:mm:ss’ format is ___________
+a) DATE
+b) TIME
+c) DATETIME
+d) TIMESTAMP
+b
+10. The spatial datatype used to store a curve is _____________
+a) GEOMETRY
+b) POINT
+c) LINESTRING
+d) POLYGON
+c
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Enabling or Disabling LOCAL Capability for LOAD DATA» Next - MySQL Questions and Answers – Running Multiple Servers 

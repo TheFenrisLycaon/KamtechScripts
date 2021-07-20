@@ -1,0 +1,71 @@
+1. Variables declared using a structure is known as ___________________
+a) Variables
+b) Auto variables
+c) Structure variables
+d) Constant variables
+c
+{Dim | Private} structureVariableName As structureName
+2. You refer to the structure variable by its ____________
+a) Name
+b) Data type
+c) Dot operator
+d) Member name
+a
+3. You refer to the member variable by preceding its name with the name of the _________________________ in which it is defined.
+a) Variable
+b) Auto variable
+c) Structure variable
+d) Constant variable
+c
+4. Programmers use _________________ when they need to pass a group of related variables.
+a) Structure variable
+b) Variable
+c) Auto variable
+d) Constant variable
+a
+5. Programmers use ________________ when they need to store related items in an array, even though the members have different data type.
+a) Structure variable
+b) Variable
+c) Auto variable
+d) Constant variable
+a
+6. Which statement is used to create a user-defined data type?
+a) Declare
+b) Define
+c) Struct
+d) UserType
+c
+7. A structure variable named address contains a member variable named strStreet. Which of the following statements assigns the string “Maple” to the member variable?
+a) address&strStreet = “Maple”
+b) address.strStreet = “Maple”
+c) strStreet.address = “Maple”
+d) strStreet&address=”Maple”
+b
+8. An array is declared using the statement Dim inventory(4) As Product. Which of the following statements assigns the number 100 to the intQuantity member variable contained in the last array element?
+a) inventory.intQuantity(4) = 100
+b) inventory(4).Product.intQuantity = 100
+c) inventory(3).intQuantity = 100
+d) inventory(4).intQuantity=100
+c
+9. An application uses a structure named Employee. Which of the following statements declares a five-element array of Employee structure variables?
+a) Dim workers(4) As Employee
+b) Dim workers(5) As Employee
+c) Dim workers As Employee(4)
+d) Dim workers As Employee(5)
+b
+10. In most applications, the code to define a user-defined data type is entered in the form’s.
+a) Declarations section
+b) Definition section
+c) Load event procedure
+d) User-defined section
+a
+Structure ProductInfo
+Public strId As String
+Public intPrice As Integer
+End Structure
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Parallel & Two-dimensional Arrays» Next - Visual Basic Questions and Answers – Writing Data to a Sequential Access File 

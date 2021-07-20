@@ -1,0 +1,99 @@
+This section on C++ questions and puzzles focuses on “Numeric Limits”. One shall practice these questions and puzzles to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These programming puzzles can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ questions and puzzles on “Numeric Limits” along with answers, explanations and/or solutions:
+1. To which type does the numeric limits are suitable?
+a) Character types
+b) Mixed type
+c) Arithmetic types
+d) Relational types
+c
+2. Where does the member should be defined if it is used in the program?
+a) Namespace scope
+b) Character scope
+c) Namespace & Character scope
+d) Directional scope
+a
+3. What will the max function in the numeric limit will return for type float?
+a) Maximum finite value for a float type
+b) Maximum finite value
+c) Minimum finite value
+d) Minimum float value
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <limits>    using namespace std;    int main ()     {        cout << boolalpha;        cout << numeric_limits<int> :: has_infinity << '\n';        return 0;    }
+a) 53234
+b) false
+c) true
+d) 32564
+b
+Output:
+$ g++ num.cpp
+$ a.out
+false
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <limits>    using namespace std;    int main( )    {        cout << numeric_limits<short int> :: max() << endl;    }
+a) 53723
+b) 32423
+c) 32767
+d) 4668
+c
+Output:
+$ g++ num1.cpp
+$ a.out
+32767
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <limits>    using namespace std;    int main( )    {        cout << numeric_limits<float> :: is_exact;        cout << numeric_limits<double> :: is_exact;        cout << numeric_limits<long int> :: is_exact;        cout << numeric_limits<unsigned char> :: is_exact;    }
+a) 0010
+b) 0012
+c) 1100
+d) 0011
+d
+Output:
+$ g++ num2.cpp
+$ a.out
+0011
+7. What will be the output of the following C++ code?
+    #include <iostream>     #include <limits>    using namespace std;    int main( )    {        cout << numeric_limits<float> :: digits10 << endl;        cout << numeric_limits<double> :: digits10 << endl;        float f = 99999999;        cout.precision ( 10 );        cout << f << endl;    }
+a) 6
+b) 15
+c) 100000000
+d) 
+6 
+15
+100000000
+d
+Output:
+$ g++ num3.cpp
+$ a.out
+6 
+15
+100000000
+  
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <limits>    using namespace std;    int main( )    {        cout << numeric_limits<float> :: min_exponent << endl;    }
+a) 125
+b) -125
+c) 123
+d) 521
+b
+Output:
+$ g++ num4.cpp
+$ a.out
+-125
+9. Which header file is used for the numeric limits in C++?
+a) <iostream>
+b) <limits>
+c) <number>
+d) <digit>
+b
+10. Pick out the incorrect static function member in numeric limits.
+a) denorm_min
+b) digits
+c) infinity
+d) max_finite
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – C Input Output» Next - C++ Programming Questions and Answers – Standard Mathematical Functions 

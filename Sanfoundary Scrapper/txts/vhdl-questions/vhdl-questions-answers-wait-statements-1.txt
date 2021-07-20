@@ -1,0 +1,67 @@
+1. WAIT statement can’t appear under _______ directly.
+a) Architecture
+b) Process
+c) Procedure
+d) Subprogram
+a
+2. Which of the following can’t be used in a process when it has any WAIT statement?
+a) IF
+b) CASE
+c) LOOP
+d) Sensitivity list
+d
+3. How many forms of WAIT statement are there in VHDL?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+4. Which of the following is not the correct WAIT statement?
+a)  WAIT ON
+b) WAIT WHILE
+c) WAIT FOR
+d) WAIT UNTIL
+b
+5. WAIT UNTIL statements cause the process to wait ________
+a) When a signal changes value
+b) Until a condition is true
+c) For a specific time period
+d) When either a signal changes its value or a condition comes true
+b
+Join [email protected]
+6. What is the correct syntax for using a WAIT UNTIL statement?
+a) WAIT UNTIL boolean_condition_or_expression;
+b) WAIT UNTIL signal_name;
+c) WAIT UNTIL time_value_or_expression;
+d) WAIT UNTIL boolean_expression time_value;
+a
+7. What is the use of WAIT FOR statement?
+a) To stop execution when the condition is false
+b) To stop execution until a signal changes its value
+c) To stop execution for a specific time period
+d) To stop execution until the clock event occurs
+c
+8. How to define a WAIT FOR statement?
+a) WAIT FOR signal_name;
+b) WAIT FOR booelan_expression;
+c) WAIT FOR clock_event;
+d) WAIT FOR time_value;
+d
+9. Which of the following is the correct use of WAIT ON statement?
+a) To stop execution until a signal changes its value
+b) To stop execution when a signal changes its value
+c) To stop execution when a condition specified is true
+d) To stop execution when a condition specified is false
+a
+10. Which of the following is correct syntax for WAIT ON statement?
+a) WAIT ON signal_assignments;
+b) WAIT ON boolean_condition;
+c) WAIT ON signal_list;
+d) WAIT ON time_expression;
+c
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Assert Statement» Next - VHDL Questions and Answers – WAIT Statements – 2 

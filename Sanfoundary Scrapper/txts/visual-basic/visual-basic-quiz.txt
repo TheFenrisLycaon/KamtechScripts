@@ -1,0 +1,66 @@
+1. Which property is used to specify a combo box’s style?
+a) ComboBoxStyle
+b) DropDownStyle
+c) DropStyle
+d) Style
+b
+2. The items in a combo box belong to which collection?
+a) Items
+b) List
+c) ListBox
+d) Values
+a
+3. Which of the following selects the Cat item, which appears third in the cboAnimal control?
+a) cboAnimal.Selected = 2
+b) cboAnimal.Selected = “Cat”
+c) cboAnimal.Text = “Cat”
+d) cboAnimal.SelectedIndex=”Cat”
+c
+4. The item that appears in the text portion of a combo box is stored in which property?
+a) SelectedText
+b) SelectedValue
+c) Text
+d) TextItem
+c
+5. The _______________ event occurs when the user either types a value in the text portion of a combo box or selects a different item in the list portion.
+a) ChangedItem
+b) ChangedValue
+c) SelectedItemChanged
+d) TextChanged
+d
+6. A form’s _________________ event is triggered when you click the Close button on its title bar.
+a) Close
+b) CloseForm
+c) FormClose
+d) FormClosing
+d
+7. A form’s ____________ event is triggered when the computer processes the Me.Close() statement.
+a) Close
+b) Closing
+c) FormClose
+d) FormClosing
+d
+8. Which of the following statements prevents a form from being closed?
+a) e.Cancel = False
+b) e.Cancel = True
+c) e.Close = False
+d) sender.Close = False
+b
+9. Which of the following rounds the contents of the intNum variable to three decimal places?
+a) Math.Round(3, intNum)
+b) Math.Round(intNum, 3)
+c) Round.Math(intNum, 3)
+d) Round.Math(3, intNum)
+b
+10. A _______________ allows you to select from a list of choices.
+a) Combo Box
+b) Combo List
+c) Check Box
+d) Radio Button
+a
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic for Quizzes,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Function Procedures» Next - Visual Basic Questions and Answers – Working with String 

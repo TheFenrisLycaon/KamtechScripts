@@ -1,0 +1,64 @@
+1. Which of the following is used to compute the percent change over a given number of periods?
+a) pct_change
+b) percent_change
+c) per_change
+d) none of the mentioned
+a
+2. Point out the correct statement.
+a) Pandas represents timestamps in microsecond resolution
+b) Pandas is 100% thread safe
+c) For Series and DataFrame objects, var normalizes by N-1 to produce unbiased estimates
+d) All of the mentioned
+c
+3. Which of the following object has a method cov to compute covariance between series?
+a) Series
+b) DataFrame
+c) Panel
+d) None of the mentioned
+a
+4. Which of the following specifies the required minimum number of observations for each column pair in order to have a valid result?
+a) min_periods
+b) max_periods
+c) minimum_periods
+d) all of the mentioned
+a
+5. Point out the wrong statement.
+a) lxml is very fast
+b) lxml requires Cython to install correctly
+c) lxml does not make any guarantees about the results of it’s parse
+d) none of the mentioned
+c
+6. Which of the following is implemented on DataFrame to compute the correlation between like-labeled Series contained in different DataFrame objects?
+a) corrwith
+b) corwith
+c) corwit
+d) none of the mentioned
+a
+Join [email protected]
+7. rolling_count function gives the number of non-null observations.
+a) True
+b) False
+b
+8. Which of the following method produces a data ranking with ties being assigned the mean of the ranks for the group?
+a) rank
+b) dense_rank
+c) partition_rank
+d) none of the mentioned
+a
+9. Which of the following can potentially change the dtype of a series?
+a) reindex_like
+b) index_like
+c) itime_like
+d) none of the mentioned
+a
+10. cov and corr supports the optional min_periods keyword.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Data Science.
+Here’s the list of Best Reference Books in Data Science.
+To practice all areas of Data Science, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Science Questions and Answers – Plotting in Python» Next - Data Science Questions and Answers – Pandas Data Structure 

@@ -1,0 +1,56 @@
+This section on basic C questions focuses on “Scope of a Variable”. One shall practice these basic interview questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C interview questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of basic C questions on “Scope of a Variable” along with answers, explanations and/or solutions:
+1. What will be the sequence of allocation and deletion of variables in the following C code?
+    #include <stdio.h>    int main()    {        int a;        {            int b;        }    }
+a) a->b, a->b
+b) a->b, b->a
+c) b->a, a->b
+d) b->a, b->a
+b
+2. Array sizes are optional during array declaration by using ______ keyword.
+a) auto
+b) static
+c) extern
+d) register
+c
+3. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int x = 3;        {            x = 4;            printf("%d", x);        }    }
+a) 4
+b) 3
+c) 0
+d) Undefined
+a
+4. What will be the output of the following C code?
+    #include <stdio.h>    int x = 5;    void main()    {        int x = 3;        m();        printf("%d", x);    }    void m()    {        x = 8;        n();    }    void n()    {        printf("%d", x);    }
+a) 8 3
+b) 3 8
+c) 8 5
+d) 5 3
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    int x;    void main()    {        m();        printf("%d", x);    }    void m()    {        x = 4;    }
+a) 0
+b) 4
+c) Compile time error
+d) Undefined
+b
+6. What will be the output of the following C code?
+    #include <stdio.h>    static int x = 5;    void main()    {        int x = 9;        {            x = 4;        }        printf("%d", x);    }
+a) 9
+b) 5
+c) 4
+d) 0
+c
+7. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        {            int x = 8;        }        printf("%d", x);    }
+a) 8
+b) 0
+c) Undefined
+d) Compile time error
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Scope of a Variable – 1» Next - C Programming Questions and Answers – Static Variables – 1 

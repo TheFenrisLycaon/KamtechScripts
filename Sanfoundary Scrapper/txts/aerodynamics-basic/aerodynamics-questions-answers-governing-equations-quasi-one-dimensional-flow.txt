@@ -1,0 +1,114 @@
+1. Which of these parameters in quasi – one dimensional flow varies w.r.t. x as opposed to the one – dimensional flow?
+a) Cross – sectional area
+b) Pressure
+c) Density
+d) Temperature
+a
+2. What is the momentum equation for a quasi – one dimensional flow?
+a) p1A1 + ρ1u\(_1 ^2\)A1 + \(\int _{A_1} ^{A_2}\)pdA = p2A2 + ρ2u\(_2 ^2\)A2
+b) p1A1u1 + ρ1u\(_1 ^2\)A1 + \(\int _{A_1} ^{A_2}\)pdA = p2A2u2 + ρ2u\(_2 ^2\)A2
+c) p1A1 + ρ1u\(_1 ^2\)A1 = p2A2 + ρ2u\(_2 ^2\)A2
+d) p1A1u1 + ρ1u\(_1 ^2\)A1 = p2A2u2 + ρ2u\(_2 ^2\)A2
+a
+&Conint;s(ρV.dS)V = – &Conint;spdS
+In order to find the x – component of this the equation becomes:
+&Conint;s(ρV.dS)u = – &Conint;spdSx
+Where, pdSx is the x component of pressure
+u is the velocity
+On the control surfaces of the streamtube, V.dS = 0 because they are streamlines. At 1, A1, V,dS are in opposite direction thus they are negative. This results in the left side of the equation to be – ρ1u\(_1 ^2\)A1 + ρ2u\(_2 ^2\)A2.
+For the right side of the equation, it is – (-p1A1 + p2A2). Negative sign is because at A1, dS points to the left and is negative.
+For the upper and lower surfaces of the control volume, pressure integral becomes:
+ – \(\int _{A_1} ^{A_2}\) – pdA = \(\int _{A_1} ^{A_2}\)pdA
+Where the negative sign is because the dS points to the left.
+This results In the equation to be:
+ – ρ1u\(_1 ^2\)A1 + ρ2u\(_2 ^2\)A2 = – ( – p1A1 + p2A2 ) + \(\int _{A_1} ^{A_2}\)pdA
+On rearraging the terms we get:
+p1A1 + ρ1u\(_1 ^2\)A1 + \(\int _{A_1} ^{A_2}\)pdA = p2A2 + ρ2u\(_2 ^2\)A2
+3. Which is the Euler’s equation for the quasi – one dimensional flow?
+a) dp = \(\frac {ρ}{u}\)du
+b) dp = – \(\frac {u}{ρ}\)du
+c) dp = – ρudu
+d) dp = ρudu
+c
+Using the momentum equation:
+p1A1 + ρ1u\(_1 ^2\)A1 + \(\int _{A_1} ^{A_2}\)pdA = p2A2 + ρ2u\(_2 ^2\)A2
+We get,
+pA + ρu2A + pdA = (p + dp)(A + dA) + (ρ + dρ)(u + du)2(A + dA)
+pA + ρu2A + pdA = pA + pdA + Adp + dpdA + ρu2 + (ρdu2 + 2ρudu + dρu2 + dρdu2 + 2dρudu)(A + dA)
+Since the conditions at station 1 are: p,ρ,A and conditions at station 2 are (p + dp),(ρ + dρ),(A + dA).
+The product of differentials dPdA, dρ(du)2 (A + dA) are negligible thus are ignored.
+The resulting equation is:
+AdP + Adρu2 + ρu2 dA + 2ρuAdu = 0 ➔ eqn 1
+The continuity equation is given by:
+d(uρA) = 0
+Explanding this we get,
+ρudA + ρAdu + Audρ = 0
+Multiplying the above equation by u on both sides we get:
+ρu2 dA + ρuAdu + Au2 dρ = 0 ➔ eqn 2
+Subtracting eqn 2 from eqn 1, we get the differential equation for the quasi one – dimensional flow:
+dp = – ρudu
+4. What is the differential form of momentum equation for the quasi one – dimensional flow known as?
+a) Froude equation
+b) Euler’s equation
+c) Kelvin’s equation
+d) Bernoulli’s equation
+b
+dp = – ρudu
+This is known as Euler’s equation which is derived from the momentum equation.
+5. For which of these flows do we need a convergent duct to increase the velocity of the flow?
+a) Subsonic flow
+b) Supersonic flow
+c) Hypersonic flow
+d) Sonic flow
+a
+\(\frac {dA}{A}\) = (M2 – 1)\(\frac {du}{u}\) 
+According to this formula, for subsonic flows the value of M2 – 1 becomes negative since 0 < M < 1. Thus, with decreasing cross – sectional area, the velocity increases. Decreasing area is achieved by convergent duct.
+6. What happens to the velocity of the supersonic flow in the divergent duct?
+a) Decreases
+b) Increases
+c) Remains the same
+d) Changes periodically
+b
+7. State true or false. Divergent – convergent nozzles are used to achieve supersonic flow.
+a) True
+b) False
+b
+8. What is the differential form of energy equation for quasi one – dimensional flow?
+a) dh – u2du = 0
+b) dh – udu = 0
+c) dh + u2du = 0
+d) dh + udu = 0
+d
+h + \(\frac {u^2}{2}\) = constant
+On differentiating the above equation we arrive at the differential energy equation for the quasi one – dimensional flow:
+dh + udu = 0
+9. The area – Mach number relation yields how many solutions for a given Mach number?
+a) 2
+b) 4
+c) 6
+d) 0
+a
+10. In case of flow inside a nozzle, how should the exit pressure be in relation to the inlet pressure?
+a) Exit pressure = Inlet pressure
+b) Exit pressure > Inlet pressure
+c) Exit pressure < Inlet pressure
+d) There is no relation between the two pressures
+c
+11. Which of these conditions is not applicable for choked flow?
+a) The Mach number at the throat is zero
+b) Mass flow is constant
+c) Exit pressure is lower than inlet pressure
+d) Exit pressure is same as the inlet pressure
+d
+12. What is the relation between back pressure and exit pressure in case of subsonic flow at the nizzle’s exit?
+a) pB = pe
+b) pB > pe
+c) pB < pe
+d) pB = 2pe
+a
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Measurement of Velocity in a Compressible Flow» Next - Aerodynamics Questions and Answers – Compressible Flow through Diffusers 

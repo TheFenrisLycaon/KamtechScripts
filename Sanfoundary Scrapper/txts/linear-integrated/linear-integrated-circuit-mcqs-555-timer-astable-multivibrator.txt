@@ -1,0 +1,62 @@
+1. Free running frequency of Astable multivibrator?
+a) f=1.45/(RA+2RB)C
+b) f=1.45(RA+2RB)C
+c) f=1.45C/(RA+2RB)
+d) f=1.45 RA/( RA+RB)
+a
+Therefore, f = 1/T =1.45/(RA+2RB)C.
+2. Find the charging and discharging time of 0.5µF capacitor.
+a) Charging time=2ms; Discharging time=5ms
+b) Charging time=5ms; Discharging time=2ms
+c) Charging time=3ms; Discharging time=5ms
+d) Charging time=5ms; Discharging time=3ms
+b
+The time required to discharge the capacitor is tLow=0.69xRC =0.69x5kΩx0.5µF=2ms.
+3. Astable multivibrator operating at 150Hz has a discharge time of 2.5m. Find the duty cycle of the circuit.
+a) 50%
+b) 75%
+c) 95.99%
+d) 37.5%
+d
+∴ Duty cycle, D%=(tLow/T) x 100% = (2.5ms/6.67ms)x100% = 37.5%.
+4. Determine the frequency and duty cycle of a rectangular wave generator.
+a) Frequency=63.7kHz; Duty cycle=50%
+b) Frequency=53.7kHz; Duty cycle=55%
+c) Frequency=43.7kHz; Duty cycle=50%
+d) Frequency=60kHz; Duty cycle=55%
+b
+Where RA=100Ω+50Ω=150Ω,
+RB=100Ω+20Ω=120Ω.
+=>∴f=1.45/((150+120)x0.1µF) = 53703Hz = 53.7kHz.
+Duty cycle, D% = [RB/(RA+RB)] x 100% = 120Ω/(150Ω +120Ω) x 100% = 0.55×100% = 55%. 
+5. How to achieve 50% duty cycle in adjustable rectangular wave generator?                                      (Assume R1 –> Resistor connected between supply and discharge and R2 –> Resistor connected between discharge and trigger input.)
+a) R1 < R2
+b) R1 > R2
+c) R1 = R2
+d) R1 ≥ R2
+c
+6. How to obtain symmetrical waveform in Astable multivibrator?
+a) Use clocked RS flip-flop
+b) Use clocked JK flip-flop
+c) Use clocked D-flip-flop
+d) Use clocked T-flip-flop
+b
+7. Determine the output frequency of the circuit.
+a) 1450Hz
+b) 1333Hz
+c) 1871Hz
+d) 1700Hz
+c
+f=1.45/[(RA||RC)+2(RB)]xC = 1.45/[(2.3kΩ||2.3kΩ) + (2×3.3kΩ)] x 0.1µF = 1.45/{[(2.3×2.3)/(2.3+2.3)] + 6.6kΩ}x0.1µF = 1.45/(7.75×10-4) = 1870.9 ≅ 1871Hz. 
+8. How does a monostable multivibrator used as frequency divider?
+a) Using square wave generator
+b) Using triangular wave generator
+c) Using sawtooth wave generator
+d) Using sine wave generator
+a
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.                                                                                                        
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – 555 Timer as a Monostable Multivibrator» Next - Linear Integrated Circuit Questions and Answers – Basic Principles of Phase-Locked Loops 

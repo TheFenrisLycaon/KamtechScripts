@@ -1,0 +1,85 @@
+1. Which of the following is not a transcendental instruction?
+a) FSIN
+b) FCOS
+c) FMUL
+d) FPTAN
+c
+2. The transcendental instruction that supports computation of sine and cosine is
+a) FCOSSIN
+b) FSNE
+c) FSINFCOS
+d) FSINCOS
+d
+3. The instruction that computes tan(x) is
+a) FTAN
+b) FTNGNT
+c) FPTAN
+d) FXTAN
+c
+4. The instruction that computes arctan(x) is
+a) FTAN
+b) FACTN
+c) FARCTAN
+d) FPATAN
+d
+5. The instruction, F2XMI, is used to compute
+a) 2X
+b) 2X-1
+c) 2X+1
+d) 2X+2
+b
+6. The instruction, FYL2XP, supports to compute the expression
+a) Y*logX
+b) Y*log2X
+c) Y*log(2X+1)
+d) Y*log2(X+1)
+d
+7. The size of a general purpose floating point register of floating point unit is
+a) 4 bytes
+b) 40 bytes
+c) 8 bytes
+d) 80 bits
+d
+8. For floating point operations, the bits used by mantissa in a floating point register is
+a) 32
+b) 64
+c) 72
+d) 79
+b
+9. The multimedia applications mainly require the architecture of
+a) single instruction stream single data stream
+b) multiple instruction stream single data stream
+c) single instruction stream multiple data stream
+d) multiple instruction stream multiple data stream
+c
+10. The size of each MMX (Multimedia Extension) register is
+a) 32 bits
+b) 64 bits
+c) 128 bits
+d) 256 bits
+b
+11. After a sequence of MMX instructions is executed, the MMX registers should be cleared by an instruction,
+a) CLEAR
+b) RESET
+c) EMM
+d) EMMS
+d
+12. The number of pixels that can be manipulated in a single register by the CPU using MMX architecture is
+a) 4
+b) 6
+c) 8
+d) 10
+c
+13. After executing the floating point instructions, the floating point registers should be cleared by an instruction,
+a) CLEAR
+b) EFPR
+c) EMMF
+d) EMMS
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice tricky questions and answers on all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – System Architecture» Next - Microprocessors Questions and Answers – MMX Data Types, Wrap-around and Saturation Arithmetic, Multimedia Application Programming, Pentium III (P-III) CPU 

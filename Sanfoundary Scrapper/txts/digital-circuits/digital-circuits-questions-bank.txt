@@ -1,0 +1,86 @@
+1. Which circuit is generated from D flip-flop due to addition of an inverter by causing reduction in the number of inputs?
+a) Gated JK-latch
+b) Gated SR-latch
+c) Gated T-latch
+d) Gated D-latch
+d
+2. The characteristic of J-K flip-flop is similar to _____________
+a) S-R flip-flop
+b) D flip-flop
+c) T flip-flop
+d) Gated T flip-flop
+a
+3. A J-K flip-flop can be obtained from the clocked S-R flip-flop by augmenting ___________
+a) Two AND gates
+b) Two NAND gates
+c) Two NOT gates
+d) Two OR gates
+a
+4. How is a J-K flip-flop made to toggle?
+a) J = 0, K = 0
+b) J = 1, K = 0
+c) J = 0, K = 1
+d) J = 1, K = 1
+d
+5. The phenomenon of interpreting unwanted signals on J and K while Cp (clock pulse) is HIGH is called ___________
+a) Parity error checking
+b) Ones catching
+c) Digital discrimination
+d) Digital filtering
+b
+6. In J-K flip-flop, “no change” condition appears when ___________
+a) J = 1, K = 1
+b) J = 1, K = 0
+c) J = 0, K = 1
+d) J = 0, K = 0
+d
+7. A J-K flip-flop with J = 1 and K = 1 has a 20 kHz clock input. The Q output is ________
+a) Constantly LOW
+b) Constantly HIGH
+c) A 20 kHz square wave
+d) A 10 kHz square wave
+d
+8. What is the significance of the J and K terminals on the J-K flip-flop?
+a) There is no known significance in their designations
+b) The J represents “jump,” which is how the Q output reacts whenever the clock goes high and the J input is also HIGH
+c) The letters were chosen in honour of Jack Kilby, the inventory of the integrated circuit
+d) All of the other letters of the alphabet are already in use
+c
+9. On a J-K flip-flop, when is the flip-flop in a hold condition?
+a) J = 0, K = 0
+b) J = 1, K = 0
+c) J = 0, K = 1
+d) J = 1, K = 1
+a
+10. Two J-K flip-flops with their J-K inputs tied HIGH are cascaded to be used as counters. After four input clock pulses, the binary count is ________
+a) 00
+b) 11
+c) 01
+d) 10
+a
+11. Four J-K flip-flops are cascaded with their J-K inputs tied HIGH. If the input frequency (fin) to the first flip-flop is 32 kHz, the output frequency (fout) is ________
+a) 1 kHz
+b) 2 kHz
+c) 4 kHz
+d) 16 kHz
+b
+12. Determine the output frequency for a frequency division circuit that contains 12 flip-flops with an input clock frequency of 20.48 MHz.
+a) 10.24 kHz
+b) 5 kHz
+c) 30.24 kHz
+d) 15 kHz
+b
+Input Clock frequency =  20.48*106 = 20480000
+Output Clock frequency = 20480000/4096 = 5000 i.e., 5 kHz.
+13. How many flip-flops are in the 7475 IC?
+a) 2
+b) 1
+c) 4
+d) 8
+c
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice Digital Electronic Circuits question bank, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – Flip Flops – 2» Next - Digital Circuits Questions and Answers – D Flip Flop 

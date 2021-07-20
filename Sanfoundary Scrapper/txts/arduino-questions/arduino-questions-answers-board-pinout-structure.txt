@@ -1,0 +1,66 @@
+1. What is the use of the RESET button on the Arduino UNO?
+a) To restart the code present in the Arduino
+b) To restore a previous version of a code
+c) To erase the code present in the Arduino
+d) To erase the SRAM in Arduino Microcontroller
+a
+2. What is the use of the Vin pin present on some Arduino Boards?
+a) To provide a 5V output
+b) Is used for plugging in 3V supply
+c) To power the Arduino Board
+d) To ground the Arduino Board
+c
+3. What does the analogRead() function do physically when invoked in a code?
+a) It accepts a digital Input
+b) Reads the raw voltage value
+c) Activates the ADC Circuit to read voltage values
+d) Activates the DAC Circuit to read voltage values
+c
+4. What is the use for the 2 serial pins on the Arduino Diecimila?
+a) To send and receive GPIO digital signals
+b) To receive analog signals
+c) To send PWM signals
+d) To send and receive Serial TTL signals
+d
+5. The pins SS, SCK, MOSI and MISO on the Arduino belong to the ___ bus.
+a) I2C
+b) SPI
+c) GPIO
+d) Ethernet
+b
+6. What is the full form of the I2C Protocol?
+a) Inter-Integrated Circuit
+b) Intra-Integrated Circuit
+c) Integrated-Inter Circuit
+d) Infinite-Integrated Circuit
+a
+7. What is the function of the IOREF pin on the Arduino UNO?
+a) To provide a constant 12V DC supply
+b) To provide the voltage corresponding to the standard GPIO working voltage of the board
+c) To take input voltage and set it as a reference for all GPIO operations
+d) To provide ground
+b
+8. What is the function of the AREF pin in the Arduino UNO?
+a) It is used as a reference voltage for all analog voltage calculations in the board
+b) It is used as a reference voltage for all digital voltage calculations in the board
+c) It is used as a reference voltage for the power source on the board
+d) It is used as a reference voltage for the ground pins on the board
+a
+9. In the diagram given below, there are two sets given. These sets represent pin clusters on a typical Arduino UNO. Which set do the Digital IO pins on the Arduino UNO belong to?
+a) Set A
+b) Set B
+c) Set A and B
+d) Neither Set A nor B
+b
+10. What are the functions of the SDA and SCL pins of the Arduino UNO?
+a) They facilitate I2C communications
+b) They facilitate SPI Communications
+c) They facilitate USB Communications
+d) They facilitate Ethernet Communications
+a
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Board Hardware Specifications» Next - Arduino Questions and Answers – Uses for Different Arduino Boards 

@@ -1,0 +1,67 @@
+1. MSP430 uses vectored interrupts?
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+a
+2. Which of the following is true?
+a) interrupts are required to wake a CPU from sleep
+b) same vector address associated with multiple flags
+c) most interrupts are maskable
+d) all of the mentioned
+d
+3. After the interrupt has occurred, the stack is filled with ______________
+a) return address
+b) status register
+c) return address & status register
+d) none of the mentioned
+c
+4. What is the purpose of __interrupt() function?
+a) it is used to enable the interrupt
+b) it is used to disable the interrupt
+c) it denotes that the routine is an ISR
+d) all of the mentioned
+c
+5. What is the purpose of .intvec assembler directive?
+a) it creates an interrupt vector entry that points to an interrupt routine name
+b) one is used for storage, other for display
+c) one stores locally other stores globally
+d) the two are the same
+a
+Join [email protected]
+6. For enabling any interrupt, firstly _____________
+a) GIE=0
+b) GIE=1
+c) None of the mentioned
+d) GIE=0 & 1
+b
+7. Nonmaskable vectors are stored at different vector locations?
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+b
+8. Which of the following can generate a nonmaskable interrupt?
+a) access violation to flash memory, ACCVIFG
+b) timer_A interrupt
+c) compare / capture interrupt
+d) all of the mentioned
+a
+9. External RST/NMI pin is a nonmaskable interrupt?
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+a
+10. How many cycles are used by MSP430, when reti instruction is executed?
+a) 3
+b) 4
+c) 5
+d) depends on the conditions
+c
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MSP430 Microcontroller Questions and Answers – Functions and Subroutine» Next - MSP430 Microcontroller Questions and Answers – Low Power Modes 

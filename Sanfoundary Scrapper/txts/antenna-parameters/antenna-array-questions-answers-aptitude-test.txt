@@ -1,0 +1,100 @@
+1. The direction of nulls for broadside array of N –Isotropic sources is given by _____
+a) \(cos^{-1}⁡([±\frac{nλ}{Nd}])\) 
+b) \(cos^{-1}⁡([±\frac{2nλ}{Nd}])\) 
+c) \(cos^{-1}⁡([±\frac{2πnλ}{2Nd}])\) 
+d) \(cos^{-1}⁡([±\frac{nλ}{Nd}])\) 
+a
+Given it’s a broadside array so β=0
+\(θ_n=cos^{-1}⁡(\frac{λ}{2πd} [±\frac{2πn}{N}])= cos^{-1}⁡([±\frac{nλ}{Nd}]).\) 
+2. The direction of first null of the broadside array of N-Isotropic sources is _____
+a) \(cos^{-1}([±\frac{λ}{Nd}])\) 
+b) \(cos^{-1}⁡([±\frac{πλ}{Nd}])\) 
+c) \(cos^{-1}⁡([±\frac{2πλ}{Nd}])\) 
+d) \(cos^{-1}⁡([±\frac{λ}{2Nd}])\) 
+a
+Given it’s a broadside array so β=0 and n=1 for first null
+\(θ_n=cos^{-1}⁡(\frac{λ}{2πd} [±\frac{2πn}{N}])= cos^{-1}⁡([±\frac{nλ}{Nd}])=cos^{-1}⁡([±\frac{λ}{Nd}])\) 
+3. The direction of nulls for end-fire array of N –Isotropic sources separated by λ/4 is given by ____
+a) \(θ_n=cos^{-1}⁡([∓1±\frac{4n}{N}])\) 
+b) \(θ_n=sin^{-1}⁡([∓1±\frac{4n}{N}])\) 
+c) \(θ_n=cos^{-1}⁡([∓1±\frac{2n}{N}])\) 
+d) \(θ_n=cos^{-1}⁡([∓1±\frac{n}{N}])\) 
+a
+Since its given broad side array \(β=±kd=±\frac{2πd}{λ}=±\frac{π}{2},\) 
+\(θ_n=cos^{-1}⁡(\frac{2}{π} [∓\frac{π}{2}±\frac{2πn}{N}])\) 
+\(θ_n=cos^{-1}⁡([∓1±\frac{4n}{N}])\) 
+4. The necessary condition for the direction of maximum side lobe level of the N-element isotropic array is _______
+a) \(ᴪ=±\frac{2s+1}{N} π \) 
+b) \(ᴪ=±\frac{2s+2}{N} π\) 
+c) \(ᴪ=±\frac{2s}{N} π\) 
+d) \(ᴪ=±\frac{2(s+1)}{N} π\) 
+a
+⇨	\(sin(\frac{Nᴪ}{2})=±1\) 
+⇨ \(\frac{Nᴪ}{2}=±\frac{2s+1}{2} π \) 
+⇨ \(ᴪ=±\frac{2s+1}{N} π .\) 
+5. The necessary condition for the direction of maximum first side lobe level of the 8-element isotropic array is _______
+a) \(\frac{3}{8} π\) 
+b) \(\frac{3}{4} π\) 
+c) \(\frac{1}{8} π\) 
+d) \(\frac{5}{8} π\) 
+a
+⇨	\(sin(\frac{Nᴪ}{2})=±1\) 
+⇨ \(\frac{Nᴪ}{2}=±\frac{2s+1}{2} π \) 
+⇨ \(ᴪ=±\frac{2s+1}{N}π=\frac{2+1}{8} π=\frac{3}{8} π.\) 
+Join Sanfoundry@YouTube
+6. The necessary condition for the direction of maximum second side lobe level of the 4-element isotropic array is _______
+a) \(\frac{5}{4} π\) 
+b) \(\frac{3}{4} π\) 
+c) \(\frac{1}{8} π\) 
+d) \(\frac{5}{8} π\) 
+a
+⇨	\(sin(\frac{Nᴪ}{2})=±1\) 
+⇨ \(\frac{Nᴪ}{2}=±\frac{2s+1}{2} π \) 
+⇨ \(ᴪ=±\frac{2s+1}{N}π=\frac{2(2)+1}{4} π=\frac{5}{4} π.\) 
+7. The Half-power beam width of the N-element isotropic source array can be known when _____
+a) \(ᴪ=\frac{2.782}{N}\) 
+b) \(ᴪ=\frac{1.391}{N}\) 
+c) \(ᴪ=\frac{1.414}{N}\) 
+d) \(ᴪ=\frac{3}{N}\) 
+a
+⇨ \(\frac{Nᴪ}{2}=1.391\) 
+⇨	\(ᴪ=\frac{2.782}{N} \) 
+8. Which of the following is the necessary condition to avoid grating lobes in N-Isotropic element array?
+a) \(\frac{d}{λ}≤\frac{1}{1+|cosθ_m |} \) 
+b) \(\frac{d}{λ}≥\frac{1}{1+|cosθ_m |} \) 
+c) \(\frac{λ}{d}≤\frac{1}{1+|cosθ_m |} \) 
+d) \(\frac{λ}{d}=\frac{1}{1+|cosθ_m |} \) 
+a
+To avoid grating lobes, kd(cosθ-cosθm) ≤ 2π
+θm – Direction of maximum radiation
+⇨	\(\frac{2πd}{λ}  (cosθ-cosθ_m)≤2π\) 
+\(\frac{d}{λ}≤\frac{1}{cosθ-cosθ_m} \) 
+\(\frac{d}{λ}≤\frac{1}{1+|cosθ_m |} \) 
+9. Which of the following is the necessary condition to avoid grating lobes in N-Isotropic element broadside array?
+a) d < λ
+b) d > λ
+c) d=λ
+d) d < 2λ
+a
+To avoid grating lobes, kd(cosθ-cosθm)≤2π
+\(\frac{d}{λ}≤\frac{1}{1+|cosθ_m |} \) 
+For broadside to avoid grating lobes (θm=90)
+⇨ \(\frac{d}{λ}\) < 1
+⇨ d < λ
+10. Which of the following is the necessary condition to avoid grating lobes in N-Isotropic element end-fire array?
+a) d < λ/2
+b) d < λ
+c) d > λ/2
+d) d=λ
+a
+To avoid grating lobes, kd(cosθ-cosθm)≤2π
+\(\frac{d}{λ}≤\frac{1}{1+|cosθ_m|} \) 
+For broadside to avoid grating lobes (θm=0)
+⇨ \(\frac{d}{λ}\) < 1/2
+⇨	d < λ/2
+ Sanfoundry Global Education & Learning Series – Antennas. 
+To practice all areas of Antenna Array for Aptitude test,  here is complete set of 1000+ Multiple Choice Questions and Answers .
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antenna Array Questions and Answers – Broadside Array» Next - Antenna Array Questions and Answers – End Fire Array 

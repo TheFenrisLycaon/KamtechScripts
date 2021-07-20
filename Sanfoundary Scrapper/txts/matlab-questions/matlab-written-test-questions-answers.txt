@@ -1,0 +1,70 @@
+1. An L.T.I. system is stable if _______
+a) Poles lie on left half of s-plane
+b) The R.O.C. encompasses the imaginary axis
+c) The poles lie on the left half of s-plane and the R.O.C. encompasses the imaginary axis
+d) Cannot be determined
+d
+2. The final value of the following transfer function is ________
+F(s)= 2/s(s-824)
+a) Not calculable
+b) -1/412
+c) 0
+d) 1
+a
+3. The number of inverse lapalace transform of a function is equal to ________
+a) the number of poles
+b) the number of poles+1
+c) the number of poles-1
+d) cannot be determined
+b
+4. The laplace transform method used to solve a differential function is ____ than the classical way.
+a) Easier
+b) Harder
+c) Moderately difficult
+d) Relatively difficult
+a
+5. What is the output of the following code?
+laplace[t,t,2]
+a) 1/16
+b) Error
+c) 1/s^2
+d) Cannot be determined
+b
+6. The laplace transform of a cascaded system is defined if _______
+a) the individual systems have a common R.O.C.
+b) the individual systems doesn’t have a common R.O.C.
+c) the impulse response of each system is defined
+d) cannot be determined
+a
+7. The inverse laplace transform of a function in s-domain is the transfer function of the system.
+a) True
+b) False
+b
+8. The following output is defined for _______
+>>ilaplace(1/s)
+>> ans=
+        1
+a) t>0
+b) t>=0
+c) for all t
+d) t<0
+b
+9. The differential equation d2p/dt2=9t has a solution.
+a) 3/(2*t3)
+b) cannot be determined
+c) no solution
+d) ilaplace(9/s4)
+b
+10. What is the output of the following code?
+syms t; laplace(-t/t)
+a) The laplace transform of u(-t)
+b) The laplace transform of -u(t)
+c) The laplace transform of -u(-t)
+d) The laplace transform of -u(t)
+d
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all written questions on MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Laplace Transform – 1» Next - MATLAB Questions and Answers – Time Response of Control Systems – 1 

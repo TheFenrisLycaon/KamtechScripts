@@ -1,0 +1,101 @@
+1. The category of commands which uses both standard input and standard output are called ____
+a) directory oriented commands
+b) standard input commands
+c) filters
+d) standard output commands
+c
+Directory-oriented (mkdir,rmdir)
+Commands like ls, pwd that write to standard output
+Commands like lp that read from standard input
+Filters – commands which use both standard input and standard output (like bc)
+2. The contents of file001 are:
+    232
+    25*50
+What will be the contents of result.txt?
+bc  < file001 > result.txt
+a) undefined
+b) erroneous
+c) 429467296, 1250
+d) 1650
+c
+3. Which of the following files are known as special files in UNIX?
+a) sample.txt
+b) /dev/null
+c) /dev/tty
+d) /dev/null and /dev/tty
+d
+Join [email protected]
+4. The size of /dev/null is always zero.
+a) True
+b) False
+a
+5. Which symbol is used to redirect error messages to /dev/null?
+a) %
+b) $
+c) >
+d) <
+c
+$ cmp  file01  file02 >  /dev/null
+6. Which file is used for indicating terminals?
+a) /dev/tty
+b) /dev/null
+c) terminal file
+d) device file
+a
+$ who > /dev/tty
+Then, the list of users is sent to the terminal he is currently using — dev/pts/1. Similarly, user 2 can also issue the same command to see the output on his terminal, /dev/pts/2.
+/dev/tty can be accessed by multiple users without conflict. 
+7. Which symbol is used to connect different streams?
+a) |
+b) >
+c) <
+d) ~
+a
+$ who | wc -l        // count number of lines in the output of who command.
+8. We can use the > symbol along with pipe in a command.
+a) True
+b) False
+a
+$ ls  | wc  -l  > output.txt    
+// number of lines counted by wc command from the output of ls //are stored in a file named output.txt.
+9. What is the output of the following command?
+$ wc  -c  *.c
+a) total size of .c files
+b) size of each .c file
+c) undefined
+d) erroneous
+a
+10. In a pipeline, the command on the left of | must use standard output and one on the right must use standard input.
+a) True
+b) False
+a
+11. Which command saves one copy of character stream in a file and store the other to standard output?
+a) who
+b) ls
+c) tee
+d) wc
+c
+$ who  | tee  user.txt
+Above command will the save the output of who command in a file named user.txt as well as it will also display the output of who command on the terminal.
+12. tee is an internal command.
+a) True
+b) False
+b
+13. Which of the following is not true about tee command?
+a) it is a feature of the shell
+b) it is an external command
+c) tee command duplicates its input
+d) tee is an internal command
+a
+14. Apart from its use in redirection, /dev/tty can also be used as an argument to some commands.
+a) True
+b) False
+a
+$ who  |  tee  /dev/tty  | wc  -l            // same as who | wc  -l
+In the above command, tee saved the output of who in /dev/tty, thus effectively showing it on the screen and wc -l counted the number of lines from another stream.
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix Assessment Questions, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Redirection and Pipes – 1» Next - Unix  Questions and Answers – Command Substitution and Shell Variables 

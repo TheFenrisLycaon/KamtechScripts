@@ -1,0 +1,86 @@
+1. Why are generics used?
+a) Generics make code more fast
+b) Generics make code more optimised and readable
+c) Generics add stability to your code by making more of your bugs detectable at compile time
+d) Generics add stability to your code by making more of your bugs detectable at runtime
+c
+2. Which of these type parameters is used for a generic class to return and accept any type of object?
+a) K
+b) N
+c) T
+d) V
+c
+3. Which of these type parameters is used for a generic class to return and accept a number?
+a) K
+b) N
+c) T
+d) V
+b
+4. Which of these is an correct way of defining generic class?
+a) class name(T1, T2, …, Tn) { /* … */ }
+b) class name<T1, T2, …, Tn> { /* … */ }
+c) class name[T1, T2, …, Tn] { /* … */ }
+d) class name{T1, T2, …, Tn} { /* … */ }
+b
+5. Which of the following is an incorrect statement regarding the use of generics and parameterized types in Java?
+a) Generics provide type safety by shifting more type checking responsibilities to the compiler
+b) Generics and parameterized types eliminate the need for down casts when using Java Collections
+c) When designing your own collections class (say, a linked list), generics and parameterized types allow you to achieve type safety with just a single class definition as opposed to defining multiple classes
+d) All of the mentioned
+c
+6. Which of the following reference types cannot be generic?
+a) Anonymous inner class
+b) Interface
+c) Inner class
+d) All of the mentioned
+a
+7. What will be the output of the following Java program?
+    public class BoxDemo    {        public static <U> void addBox(U u, java.util.List<Box<U>> boxes)        {           Box<U> box = new Box<>();           box.set(u);           boxes.add(box);        }        public static <U> void outputBoxes(java.util.List<Box<U>> boxes)        {            int counter = 0;            for (Box<U> box: boxes)            {                U boxContents = box.get();                System.out.println("Box #" + counter + " contains [" + boxContents.toString() + "]");                counter++;            }        }        public static void main(String[] args)        {            java.util.ArrayList<Box<Integer>> listOfIntegerBoxes = new java.util.ArrayList<>();            BoxDemo.<Integer>addBox(Integer.valueOf(10), listOfIntegerBoxes);            BoxDemo.outputBoxes(listOfIntegerBoxes);        }    }
+a) 10
+b) Box #0 [10] 
+c) Box contains [10] 
+d) Box #0 contains [10] 
+d
+Output:
+$ javac Output.javac
+$ java Output
+Box #0 contains [10].
+8. What will be the output of the following Java program?
+    public class BoxDemo    {        public static <U> void addBox(U u,         java.util.List<Box<U>> boxes)        {           Box<U> box = new Box<>();           box.set(u);           boxes.add(box);        }        public static <U> void outputBoxes(java.util.List<Box<U>> boxes)         {            int counter = 0;            for (Box<U> box: boxes)             {                U boxContents = box.get();                System.out.println("[" + boxContents.toString() + "]");                counter++;            }        }        public static void main(String[] args)        {            java.util.ArrayList<Box<Integer>> listOfIntegerBoxes = new java.util.ArrayList<>();            BoxDemo.<Integer>addBox(Integer.valueOf(0), listOfIntegerBoxes);            BoxDemo.outputBoxes(listOfIntegerBoxes);        }    }
+a) 0
+b) 1
+c) [1] 
+d) [0] 
+d
+Output:
+$ javac Output.javac
+$ java Output
+[0]
+9. What will be the output of the following Java program?
+    import java.util.*;    public class genericstack <E>     {        Stack <E> stk = new Stack <E>();	public void push(E obj)        {            stk.push(obj);	}	public E pop()        {            E obj = stk.pop();	    return obj;	}    }    class Output    {        public static void main(String args[])        {            genericstack <String> gs = new genericstack<String>();            gs.push("Hello");            System.out.print(gs.pop() + " ");            genericstack <Integer> gs = new genericstack<Integer>();            gs.push(36);            System.out.println(gs.pop());        }    }
+a) Error
+b) Hello
+c) 36
+d) Hello 36
+d
+Output:
+$ javac Output.javac
+$ java Output
+Hello 36
+10. What will be the output of the following Java program?
+    public class BoxDemo     {        public static <U> void addBox(U u,         java.util.List<Box<U>> boxes)         {           Box<U> box = new Box<>();           box.set(u);           boxes.add(box);        }        public static <U> void outputBoxes(java.util.List<Box<U>> boxes)        {            int counter = 0;            for (Box<U> box: boxes)             {                U boxContents = box.get();                System.out.println("Box #" + counter + " contains [" + boxContents.toString() + "]");                counter++;            }        }                public static void main(String[] args)        {            java.util.ArrayList<Box<Integer>> listOfIntegerBoxes = new java.util.ArrayList<>();            BoxDemo.<Integer>addBox(Integer.valueOf(10), listOfIntegerBoxes);            BoxDemo.outputBoxes(listOfIntegerBoxes);        }    }
+a) 10
+b) Box #0 [10] 
+c) Box contains [10] 
+d) Box #0 contains [10] 
+d
+Output:
+$ javac Output.javac
+$ java Output
+Box #0 contains [10].
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Core Java API Packages» Next - Java Questions & Answers – JUnits 

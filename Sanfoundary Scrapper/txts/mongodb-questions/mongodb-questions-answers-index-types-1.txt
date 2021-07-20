@@ -1,0 +1,67 @@
+1. To support ________ based sharding, MongoDB provides a hashed index type.
+a) primary
+b) root
+c) hash
+d) all of the mentioned
+c
+2. Point out the correct statement.
+a) Whether the use of a compound index or the use of an index intersection is more efficient depends on the particular query and the system
+b) Certain restrictions apply to indexes, such as the length of the index keys or the number of indexes per collection
+c) For queries that specify compound query conditions, if one index can fulfill a part of a query condition, and another index can fulfill another part of the query condition, then MongoDB can use the intersection of the two indexes to fulfill the query
+d) None of the mentioned
+d
+3. ________ index type, which indexes the hash of the value of a field.
+a) Hashed
+b) Unique
+c) Multikey
+d) None of the mentioned
+a
+4. The _________ property for an index causes MongoDB to reject duplicate values for the indexed field.
+a) Hashed
+b) Unique
+c) Multikey
+d) None of the mentioned
+c
+5. Point out the wrong statement.
+a) TTL index is ideal for certain types of information like machine generated event data, logs, and session information that only need to persist in a database for a finite amount of time
+b) You cannot combine the sparse index option with the unique index option
+c) TTL indexes are special indexes that MongoDB can use to automatically remove documents from a collection after a certain amount of time
+d) None of the mentioned
+b
+6. The ______ property of an index ensures that the index only contain entries for documents that have the indexed field.
+a) Hashed
+b) Unique
+c) Sparse
+d) None of the mentioned
+c
+7. MongoDB can use the _________ of indexes to fulfill queries.
+a) union
+b) intersection
+c) projection
+d) none of the mentioned
+b
+8. Which of the following method is to verify whether MongoDB used index intersection?
+a) explain()
+b) analyze()
+c) intersect()
+d) none of the mentioned
+a
+9. An index prefix is a subset of a ______ index, consisting of one or more keys starting from the beginning of the index.
+a) Hashed
+b) Unique
+c) Sparse
+d) Compound
+d
+10. Index __________ does not eliminate the need for creating compound indexes.
+a) union
+b) addition
+c) intersection
+d) all of the mentioned
+c
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Indexes In MongoDB» Next - MongoDB Questions and Answers – Index Types – 2 

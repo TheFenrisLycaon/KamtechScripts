@@ -1,0 +1,97 @@
+1. A parallel plate capacitor has a capacitance of 10μF. If the linear dimensions of the plates are doubled and distance between them is also doubled, the new value of capacitance would be __________
+a) 10μF
+b) 20μF
+c) 5μF
+d) 40μF
+b
+C2 = ε0A2/x2, A2=4A1(as the linear dimensions are doubled, area increases by 4 times) and x2=2x1
+⇒ C2 = ε04A1/2x1 = 2∗10μF = 20μF 
+2. A parallel plate capacitor is changed and then the DC supply is disconnected. Now plate separation is allowed to decrease due to force of attraction between the two plates. As a consequence which of the following statements are correct?
+(i) charge on the plate increases
+(ii) charge on the plates remain constant 
+(iii) capacitance C increases
+(iv) capacitance C remains constant
+(v) potential difference increases
+(vi) potential difference decreases
+(vii) energy stored decreases
+(viii) energy stored increases
+a) (i), (iii), (vi)
+b) (ii), (iv), (viii)
+c) (ii), (iii), (vi), (vii)
+d) (ii), (iv), (v), (viii)
+c
+3. A parallel plate capacitor is charged and then the DC supply is disconnected. The plate separation is then increased. Between the plates which of the following statements are correct?
+(i) electric field intensity is unchanged
+(ii) flux density decreases
+(iii) potential difference decreases
+(iv) energy stored increases
+a) (i), (iv)
+b) (ii), (iv)
+c) (ii), (iii), (iv)
+d) (i), (iii), (iv)
+a
+Charge(q) on plate remains constant and q=Cv implies v increases.
+Energy stored, Wfld = 1/2q2/C(x), as C decreases, Wfld increases.
+Similarly as q=DA and q, A remains constant, D doesn’t change and as electric field intensity is given by, E=D/ε0, E also doesn’t change.
+4. The area of two parallel plates is doubled and the distance between these plates is also doubled. The capacitor voltage is kept constant. Under these conditions, force between the plates of this capacitor __________
+a) decreases
+b) increases
+c) reduce to half
+d) gets doubled
+c
+dC2/dx2 = -2ε0A1/4x12 = -ε0A1/2x12 ⇒ f&e2 = -1/2v12ε0A1/2x12 = -1/2(fe1)
+⇒ force reduces to half.
+5. A parallel plate capacitor has an electrode area of 1000 mm2, with a spacing of 0.1 mm between the electrodes. The dielectric between the plates is air with a permittivity of 8.85∗10-12 F/m. The charge on the capacitor is 100 v. The stored energy in the capacitor is ____________
+a) 44.3 J
+b) 444.3 nJ
+c) 88.6 nJ
+d) 44.3 nJ
+d
+C(x) = ε0A/x = 8.85∗10-12∗100∗(10-3)2/0.1∗10-3 = 8.85∗10-12 F
+Wfld = 1/2∗Cv = 1/2∗1002∗8.85∗10-12 = 44.3nJ 
+6. A parallel plate capacitor is connected to a DC source. Now the plates are allowed to move a small displacement under the influence of force of attraction between the two plates. As a result ____________
+(i) charge on the plates increases
+(ii) charge on plates remains constant
+(iii) energy stored increases
+(iv) energy stored remains constant
+(v) electric field intensity is unchanged
+(vi) flux density increases
+Which of the above statements are correct?
+a) (ii), (iv), (v)
+b) (ii), (iii), (vi)
+c) (i), (iii), (v)
+d) (i), (iii), (vi)
+d
+q=Cv, v constant⇒ as C increases, q also increases. We also know that q=DA and if q increaes, D increases.
+Finally, Wfld = 1/2 D2/ε0 and as D is increasing, Wfld increases.
+7. The force produced by electric field in a singly excited energy conversion device, using electric field as coupling medium can be obtained by ___________
+a) use of field energy function only
+b) use of coenergy function only
+c) use of field energy or coenergy function
+d) none of the mentioned
+c
+fe = -∂Wfld1(q,x)/∂x. 
+8. Charge and voltage associated with electric field are analogous, respectively to __________ and ___________ in magnetic field.
+a) flux linkages and current
+b) flux density and current
+c) flux linkages and voltage
+d) MMF and current
+a
+dWelec = ψi, for magnetic field
+dWelec = vidt=vdq, for electric field. 
+9. Two parallel plates, each of area A = 1m2 are separated by a distance g. The electric field intensity between the plates is 3∗106 v/m. What is the force between the two plates?
+a) 1/2π∗103 N
+b) 1/8π∗103 N
+c) 8π∗103 N
+d) 0 N
+b
+Wfld(q,x) = 1/2 q2/C = 1/2 q2(g-x)/Aε0
+fe = -∂Wfld(q,x)/∂x = 1/2q2x/Aε0
+We know, q = DA = ε0EA and ε0 = 10-9/36Π
+fe = 1/2 E2ε0A = 1/2∗(3∗106)2∗10-9/36Π∗1 = 1/8π∗103 N 
+Sanfoundry Global Education & Learning Series – Electrical Machines.
+To practice all areas of Electrical Machines, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Electrical Machines Questions and Answers – Elementary Synchronous Machines» Next - Electrical Machines Questions and Answers – Torque Production and Dynamic Equations 

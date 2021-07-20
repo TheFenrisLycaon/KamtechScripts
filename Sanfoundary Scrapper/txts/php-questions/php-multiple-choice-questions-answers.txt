@@ -1,0 +1,98 @@
+1. Which version of PHP introduced class type hints?
+a) PHP 4
+b) PHP 4.3
+c) PHP 5
+d) PHP 5.3
+c
+2. Inheritance is the means by which one or more classes can be derived from a/an ___________ class.
+a) base
+b) abstract
+c) null
+d) predefined
+a
+3. What will be the output of the following PHP code?
+<?phpclass MyClass{} class NotMyClass{}$a = new MyClass; var_dump($a instanceof MyClass);var_dump($a instanceof NotMyClass);?>
+a) 
+bool(true)
+bool(true)
+b) 
+bool(false)
+bool(false)
+c) 
+bool(true)
+bool(false)
+Join [email protected]
+d) 
+bool(false)
+bool(true)
+c
+  
+4. What will be the output of the following PHP code?
+<?phpclass ParentClass{} class MyClass extends ParentClass{} $a = new MyClass; var_dump($a instanceof MyClass);var_dump($a instanceof ParentClass);?>
+a) 
+bool(false)
+bool(false)
+b) 
+bool(true)
+bool(true)
+c) 
+bool(false)
+bool(true)
+d) 
+bool(true)
+bool(false)
+b
+  
+5. What will be the output of the following PHP code?
+<?phpclass MyClass{} $a = new MyClass;var_dump(!($a instanceof stdClass));?>
+a) bool(true)
+b) bool(false)
+c) error
+d) none of the mentioned
+a
+6. What will be the output of the following PHP code?
+<?phpinterface MyInterface{} class MyClass implements MyInterface{} $a = new MyClass; var_dump($a instanceof MyClass);var_dump($a instanceof MyInterface);?>
+a) 
+bool(false)
+bool(false)
+b) 
+bool(true)
+bool(true)
+c) 
+bool(false)
+bool(true)
+d) 
+bool(true)
+bool(false)
+b
+  
+7. What should be used to refer to a method in the context of a class rather than an object you use?
+a) ->
+b) __
+c) $
+d) ::
+d
+8. Prior to which version of PHP did constructors took the name of the enclosing class.
+a) PHP 4
+b) PHP 5
+c) PHP 5.3
+d) PHP 5.4
+b
+9. Which method or property can only be accessed from within the enclosing class? Even subclasses have no access.
+a) public
+b) friendly
+c) private
+d) protected
+c
+10. A mutator method is also called as ___________
+a) Setter
+b) Accessor
+c) Getter
+d) Destructor
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice  all areas of PHP, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Object Basics-1» Next - PHP Questions & Answers – Updating and Deleting Entries 

@@ -1,0 +1,66 @@
+1. What is the use of Library cache?
+a) Contains User information, such as user privileges
+b) Used to store shared SQL
+c) Log of changes made to the database
+d) All of the Mentioned
+b
+2. Which processes is an instance made of Oracle?
+a) Oracle background processes
+b) Memory processes
+c) Data processes
+d) All of the Mentioned
+a
+3. Which of the following segment is destroyed when the SQL statement is finished?
+a) Data Segment
+b) Object Segment
+c) Temporary Segment
+d) All of the Mentioned
+c
+4. What is the use of an index?
+a) Retrieve data more quickly and efficiently
+b) Related data requires much less I/O overhead if accessed simultaneously
+c) Simplify the user’s perception of data access
+d) All of the Mentioned
+a
+5. Which of the following components comprise an Oracle architecture?
+a) Database related background processes
+b) Tablespaces
+c) Datafiles
+d) All of the Mentioned
+d
+6. What is the use of extent in Oracle?
+a) Stores user data within the database
+b) Stores rollback information used when data must be rolled back
+c) Minimize the amount of wasted (empty) storage
+d) None of the Mentioned
+c
+7. Which area of PGA stores binding variables and run-time buffers information?
+a) SQL area
+b) Private SQL area
+c) Stack space
+d) Session area
+b
+8. The ____________ contains a set of tables and views that Oracle uses as a reference to the database.
+a) PGA
+b) Library cache
+c) Data dictionary
+d) SGA
+c
+9. In Oracle, which of below are types of segments?
+a) Permanent Segment
+b) Object Segment
+c) Data Segment
+d) All of the Mentioned
+c
+10. The redo log buffer and Shared pool are elements of?
+a) PGA
+b) Buffer cache
+c) PGA and Buffer cache
+d) SGA
+d
+Sanfoundry Global Education & Learning Series – Oracle Database.
+To practice all areas of Oracle Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+» Next - Oracle Database Questions and Answers – Databases and Instances 

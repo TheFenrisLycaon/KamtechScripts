@@ -1,0 +1,68 @@
+1. Which of the following is a primitive data type in Avro?
+a) null
+b) boolean
+c) float
+d) all of the mentioned
+d
+2. Point out the correct statement.
+a) Records use the type name “record” and support three attributes
+b) Enum are represented using JSON arrays
+c) Avro data is always serialized with its schema
+d) All of the mentioned
+a
+3. Avro supports ______ kinds of complex types.
+a) 3
+b) 4
+c) 6
+d) 7
+d
+4. ________ are encoded as a series of blocks.
+a) Arrays
+b) Enum
+c) Unions
+d) Maps
+a
+5. Point out the wrong statement.
+a) Record, enums and fixed are named types
+b) Unions may immediately contain other unions
+c) A namespace is a dot-separated sequence of such names
+d) All of the mentioned
+b
+6. ________ instances are encoded using the number of bytes declared in the schema.
+a) Fixed
+b) Enum
+c) Unions
+d) Maps
+a
+Join Sanfoundry@YouTube
+7. ________ permits data written by one system to be efficiently sorted by another system.
+a) Complex Data type
+b) Order
+c) Sort Order
+d) All of the mentioned
+c
+8. _____________ are used between blocks to permit efficient splitting of files for MapReduce processing.
+a) Codec
+b) Data Marker
+c) Synchronization markers
+d) All of the mentioned
+c
+9. The __________ codec uses Google’s Snappy compression library.
+a) null
+b) snappy
+c) deflate
+d) none of the mentioned
+b
+10. Avro messages are framed as a list of _________
+a) buffers
+b) frames
+c) rows
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all interview questions and answers on Avro, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Avro – 1» Next - Hadoop Questions and Answers – Mapreduce Development – 1 

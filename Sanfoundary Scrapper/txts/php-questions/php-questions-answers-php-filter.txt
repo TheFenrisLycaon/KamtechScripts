@@ -1,0 +1,75 @@
+1. Which of the following is/are an external data?
+
+i) Cookies
+ii) Input data from a form
+iii) Server Variables
+iv) Web services data
+a) Only ii)
+b) ii) and iii)
+c) Only iii)
+d) i), ii), iii) and iv)
+d
+2. How many types of filtering are present in PHP?
+a) 3
+b) 2
+c) 4
+d) None
+b
+3. Which one of the following filter is used to filter several variables with the same or different filters?
+a) filter_var_array()
+b) filter_var()
+c) filter_input
+d) filter_input_array
+a
+4. What will be the output of the following PHP code?
+    <?php    $num = "123";    if (!filter_var($num, FILTER_VALIDATE_INT))        echo("Integer is not valid");    else        echo("Integer is valid");    ?>
+a) No output is returned
+b) Integer is not valid
+c) Integer is valid
+d) Error
+c
+5. Which one of the following does not describe a validating filter?
+a) Are used to allow or disallow specific characters in a string
+b) Are used to validate user input
+c) Strict format rules
+d) Returns the expected type on success or FALSE on failure
+a
+6. What will be the output of the following PHP code?
+    <?php    $var=300;    $int_options = array("options"=>array ("min_range"=>0, "max_range"=>256));    if (!filter_var($var, FILTER_VALIDATE_INT, $int_options))        echo("Integer is not valid");    else        echo("Integer is valid");    ?>
+a) No output is returned
+b) Integer is not valid
+c) Integer is valid
+d) Error
+b
+7. If the input variable is a string like this “http://www.saåånfoøøundry.com/”, the $url variable after the sanitizing will look like?
+a) http://www.saåånfoøøundry.com/
+b) http://www.saaanfoooundry.com/
+c) http://www.saånfoøundry.com/
+d) https://www.sanfoundry.com/
+d
+8. Which one of the following filter checks if the variable of the specified type exists?
+a) filter_has_var
+b) filter_var
+c) filter_id
+d) filter_var_array
+a
+9. What will be the output of the following PHP code?
+    <?php    $value = 'car';    $result = filter_var($value, FILTER_VALIDATE_BOOLEAN, FILTER_NULL_ON_FAILURE);    ?>
+a) FALSE
+b) TRUE
+c) NULL
+d) ERROR
+c
+10. What will be the output of the following PHP code?
+    <?php    function convertSpace($string)    {        return str_replace("_", " ", $string);    }    $string = "Peter_is_a_great_guy!";    echo filter_var($string, FILTER_CALLBACK, array("options"=>"convertSpace"));    ?>
+a) Peter_is_a_great_guy!
+b) Peterisagreatguy!
+c) Peter is a great guy!
+d) Error
+c
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Exception Handling» Next - PHP Questions & Answers – Strings and Regular Expressions – 1 

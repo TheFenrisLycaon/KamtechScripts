@@ -1,0 +1,97 @@
+1. Two wire interface is also called as _________
+a) UART
+b) SPI
+c) I2C
+d) USART
+c
+2. I2c will address large number of slave devices.
+a) True
+b) False
+a
+3. SDA is having a ____________transition when the clock line SCL is high.
+a) high to low
+b) low to high
+c) low to low
+d) high to high
+a
+4. Inter Integrated Circuit is a _____________
+a) Single master, single slave
+b) Multi master, single slave
+c) Single master, multi slave
+d) Multi master, multi slave
+d
+5. Typical voltages used are ___________
+a) 5v
+b) 3.3v
+c) 5v or 3.3v
+d) 2.5v
+c
+6. What is the speed of I2C bus?
+a) 100 kbits/s
+b) 10 kbits/s
+c) 75 kbits/s
+d) 100 kbits/s and 10 kbits/s
+d
+7. Master transmits means _________
+a) Master node is sending data to a slave
+b) Master node is receiving data from slave
+c) Slave node is transmitting data to master
+d) Slave node is sending data to master
+a
+->	Master transmit – Master node is sending data to a slave
+->	Maser receive – Master node is receiving data from slave
+->	Slave transmit – lave node is transmitting data to master
+->	Slave receive – Slave node is sending data to master.
+8. Who sends the start bit?
+a) Master receive
+b) Master transmit
+c) Slave transmit
+d) Slave receive
+b
+9. Which is the I2C messaging example?
+a) 24c32 EPROM
+b) 24c32 EEPROM
+c) 24c33 EEPROM
+d) 24c33 EPROM
+b
+10. Are pull up registers required in I2C?
+a) True
+b) False
+a
+11. How many types of addressing structures are there in I2C?
+a) 4 types
+b) 3 types
+c) 2 types
+d) 5 types
+c
+–> 10-bit addressing mode.
+12. All operating modes work under ____________
+a) 11 kbit/s
+b) 100 kbit/s
+c) 15 kbit/s
+d) 150 kbit/s
+b
+13. Which mode is highly compatible and simply tightens?
+a) Fast mode
+b) High speed mode
+c) Ultra fast mode
+d) Both fast and high speed mode
+a
+14. What is the speed for fast mode?
+a) 100 kbit/s
+b) 400 kbit/s
+c) 150 kbit/s
+d) 200 kbit/s
+b
+15. What is the speed for fast mode?
+a) 100 kbit/s
+b) 3.4 Mbit/s
+c) 150 kbit/s
+d) 200 kbit/s
+b
+Sanfoundry Global Education & Learning Series – IOT.
+To practice all areas of IOT, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - IOT Questions and Answers – USART Protocol» Next - IOT Questions and Answers – SPI Protocol 

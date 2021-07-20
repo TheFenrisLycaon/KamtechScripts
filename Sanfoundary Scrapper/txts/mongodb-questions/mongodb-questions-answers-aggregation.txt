@@ -1,0 +1,67 @@
+1. ____________ are operations that process data records and return computed results.
+a) ReplicaAgg
+b) SumCalculation
+c) Aggregations
+d) None of the mentioned
+c
+2. Point out the wrong statement.
+a) Map-reduce cannot have a finalize stage to make final modifications to the result
+b) Map-reduce is less efficient and more complex than the aggregation pipeline
+c) Specifically, a user with the userAdmin role can grant itself any privilege in the database
+d) All of the mentioned
+a
+3. Running data aggregation on the ________ instance simplifies application code and limits resource requirements.
+a) document
+b) mongod
+c) mongos
+d) all of the mentioned
+b
+4. Documents enter a multi-stage __________ that transforms the documents into an aggregated result.
+a) pipeline
+b) pipelineView
+c) pipelineUser
+d) all of the mentioned
+a
+5. Point out the wrong statement.
+a) MongoDB also provides map-reduce operations to perform aggregation
+b) The pipeline provides efficient data aggregation using native operations within MongoDB
+c) Map-reduce can specify a query condition to select the input documents as well as sort and limit the results
+d) None of the mentioned
+d
+6. The most basic pipeline stages provide __________ that operate like queries.
+a) methods
+b) filters
+c) stored procedure
+d) none of the mentioned
+b
+7. Pipeline stages can use __________ for tasks such as calculating the average or concatenating a string.
+a) replicas
+b) operators
+c) roles
+d) all of the mentioned
+b
+8. Map-reduce uses custom __________ functions to perform the map and reduce operations.
+a) Java
+b) Javascript
+c) JSON
+d) None of the mentioned
+b
+9. Which of the following operation can be optionally used for map reduce?
+a) finally
+b) final
+c) static
+d) none of the mentioned
+a
+10. The aggregation pipeline can use ___________ to improve its performance during some of its stages.
+a) indexes
+b) OptmData
+c) functions
+d) all of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – User and Role Management» Next - MongoDB Questions and Answers – Aggregation Pipeline 

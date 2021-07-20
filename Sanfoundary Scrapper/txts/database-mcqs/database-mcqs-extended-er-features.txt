@@ -1,0 +1,66 @@
+1. The entity set person is classified as student and employee. This process is called _________
+a) Generalization
+b) Specialization
+c) Inheritance
+d) Constraint generalization
+b
+2. Which relationship is used to represent a specialization entity?
+a) ISA
+b) AIS
+c) ONIS
+d) WHOIS
+a
+3. The refinement from an initial entity set into successive levels of entity subgroupings represents a ________ design process in which distinctions are made explicit.
+a) Hierarchy
+b) Bottom-up
+c) Top-down
+d) Radical
+c
+4. There are similarities between the instructor entity set and the secretary entity set in the sense that they have several attributes that are conceptually the same across the two entity sets: namely, the identifier, name, and salary attributes. This process is called
+a) Commonality
+b) Specialization
+c) Generalization
+d) Similarity
+c
+5. If an entity set is a lower-level entity set in more than one ISA relationship, then the entity set has
+a) Hierarchy
+b) Multilevel inheritance
+c) Single inheritance
+d) Multiple inheritance
+d
+6. A _____________ constraint requires that an entity belong to no more than one lower-level entity set.
+a) Disjointness
+b) Uniqueness
+c) Special
+d) Relational
+a
+7. Consider the employee work-team example, and assume that certain employees participate in more than one work team. A given employee may therefore appear in more than one of the team entity sets that are lower level entity sets of employee. Thus, the generalization is _____________
+a) Overlapping
+b) Disjointness
+c) Uniqueness
+d) Relational
+a
+8. The completeness constraint may be one of the following: Total generalization or specialization, Partial generalization or specialization. Which is the default?
+a) Total
+b) Partial
+c) Should be specified
+d) Cannot be determined
+b
+9. Functional dependencies are a generalization of
+a) Key dependencies
+b) Relation dependencies
+c) Database dependencies
+d) None of the mentioned
+a
+10. Which of the following is another name for a weak entity?
+a) Child
+b) Owner
+c) Dominant
+d) All of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Entity-Relationship Design Issues» Next - Database Questions and Answers – Querying database part-1 DDL 

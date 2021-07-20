@@ -1,0 +1,72 @@
+1. Find which one is a sallen-key topology.
+a)  
+b)  
+c) 
+d)  
+a
+2. A first-order Butterworth low pass filter is an interconnection of ____________ and ___________
+a) Single low pass RC circuit, Voltage follower
+b) Low pass RC circuit, Band-pass RC circuit
+c) Low pass RC circuit, LC feedback
+d) Single low pass RC circuit, Power amplifier
+a
+3. Considering a second-order Butterworth LPF using an op-amp, where damping factor = 1.414 find the value of R3, given the following circuit. (R2=5kΩ)
+a) 6.71 kΩ
+b) 4.22 kΩ
+c) 2.93 kΩ
+d) 5 kΩ
+c
+For the above circuit, the gain is 1 + R3/R2 = 1.586
+R3/R2 = 0.586
+R3 = 2.93 kΩ.
+4. For the following circuit, R2=220kΩ, R1=10kΩ, find the maximum gain and the phase shift at the cutoff frequency.
+a) Maximum gain = 22, Phase shift = 45°
+b) Maximum gain = 23, Phase shift = 135°
+c) Maximum gain = 22, Phase shift = 225°
+d) Maximum gain = 23, Phase shift = 45°
+d
+Phase shift = tan-1(1) = 45°.
+5. Find the cutoff frequency for the following circuit. (R1=R2=20kΩ)
+a) 25 kHz
+b) 3987 rad/sec
+c) 2500 Hz
+d) 25000 rad/sec
+d
+ωC = 1000000/20×2 = 25000 rad/s.
+6. Given a second-order Butterworth HPF, find the maximum gain magnitude.
+a) 1.586 dB
+b) 4 dB
+c) 2.66 dB
+d) 1 dB
+b
+α is the damping factor = 1.414
+AMAX = 1.586
+In dB, the gain is 20 log(1.586) = 4dB.
+7. Consider the following circuits.
+If a band-pass filter is created by using the above two circuits in cascade, find the correct relation from the choices below.
+a) R4C2 >> R1C1
+b) R4C2 << R1C1
+c) R6R5 = R2C3
+d) R4C2 = R1C1
+a
+Thus, 1/2π R1C1 >> 1/2π R4C2
+Thus R4C2 >> R1C1.
+8. Which of these is incorrect for a band-stop filter?
+a) An adder is required when designing it using LPF and HPF
+b) LPF and HPF are connected in parallel
+c) The HPF cut-off frequency should be much higher than LPF cut-off frequency
+d) The LPF and HPF are connected in series
+d
+9. Which of these is wrong for an all-pass filter?
+a) It is used for phase equalization in a communication system
+b) It is used in landline communication
+c) Its phase shift is -2tan-1RC, between 0 to -180°
+d) It can be made using a single op-amp
+c
+However, its phase shift is -2tan-1(ωRC)
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all questions papers on Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Frequency Filters – 1» Next - Analog Circuits Questions and Answers – Op-Amp Characteristics 

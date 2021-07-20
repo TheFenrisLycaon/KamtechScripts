@@ -1,0 +1,62 @@
+1. Which library file contains various portability macros and definitions?
+a) my_global.h
+b) my_sys.h
+c) mysql.h
+d) my_local.h
+b
+2. Which header should be included first?
+a) my_global.h
+b) my_sys.h
+c) mysql.h
+d) my_local.h
+a
+3. mysql_init() returns a _____________
+a) integer
+b) float
+c) structure
+d) pointer to a structure
+d
+4. When linking to a static MySQL C client library, the client library and the client application must use the same compiler option.
+a) True
+b) False
+a
+5. Which of these can be used in place of MYSQL_SERVER_VERSION?
+a) LIBMYSQL_VERSION
+b) LIBMYSQL_VERSION_ID
+c) MYSQL_VERSION_ID
+d) MYSQL_ID
+a
+6. Which of the following can be used interchangeably with MYSQL_VERSION_ID?
+a) LIBMYSQL_VERSION
+b) LIBMYSQL_VERSION_ID
+c) MYSQL_VERSION_ID
+d) MYSQL_ID
+b
+7. Which option is supplied to ensure TCP/IP connection to local server?
+a) –localhost
+b) –host
+c) –hostlocal
+d) –connectlocal
+b
+8. Connections to remote servers always use TCP/IP.
+a) True
+b) False
+a
+9. The –protocol value ‘TCP’ runs on which operating systems?
+a) all
+b) unix only
+c) windows only
+d) none
+a
+10. The ‘SOCKET’ protocol is permitted on which operating systems?
+a) all
+b) unix only
+c) windows only
+d) none
+b
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Compiling and Linking Client Programs» Next - MySQL Questions and Answers – Handling Errors and Processing Command Options 

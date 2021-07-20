@@ -1,0 +1,150 @@
+1. A user defined data type, which is used to assign names to integral constants is called ____________
+a) Union
+b) Array
+c) Structure
+d) Enum
+d
+2. What will be the output of the following C code?
+#include<stdio.h>
+enum colour
+{
+    blue, red, yellow
+};
+main()
+{
+    enum colour c;
+    c=yellow;
+    printf("%d",c);
+}
+a) 1
+b) 2
+c) 0
+d) Error
+c
+3. Point out the error (if any) in the following C code?
+#include<stdio.h>
+enum hello
+{
+    a,b,c;
+};
+main()
+{
+    enum hello m;
+    printf("%d",m);
+}
+a) No error
+b) Error in the statement: a,b,c;
+c) Error in the statement: enum hello m;
+d) Error in the statement: printf(“%d”,m);
+b
+Join [email protected]
+4. String handling functions such as strcmp(), strcpy() etc can be used with enumerated types.
+a) True
+b) False
+b
+5.  What will be the output of the following C code?
+#include<stdio.h>
+enum hello
+{
+    a,b=99,c,d=-1
+};
+main()
+{
+    enum hello m;
+    printf("%d\n%d\n%d\n%d\n",a,b,c,d);
+}
+a) 
+    1
+    99
+    100
+    -1
+b) Error
+c) 
+    0
+    99
+    100
+    -1
+d) 
+    0
+    1
+    2
+    3
+c
+  
+6. Pick the incorrect statement with respect to enums.
+a) Two enum symbols cannot have the same value
+b) Only integer constants are allowed in enums
+c) It is not possible to change the value of enum symbols
+d) Enum variables are automatically assigned values if no value is specified
+a
+7. What will be the output of the following C code?
+#include<stdio.h>
+enum sanfoundry
+{
+    a=2,b=3.56
+};
+enum sanfoundry s;
+main()
+{
+    printf("%d%d",a,b);
+}
+a) 2	3
+b) 0	1
+c) 2	3.56
+d) Error
+d
+8. What will be the output of the following C code?
+#include<stdio.h>
+enum class
+{
+    a,b,c
+};
+enum class m;
+main()
+{
+    printf("%d",sizeof(m));
+}
+a) 3
+b) Same as the size of an integer
+c) 3 times the size of an integer
+d) Error
+b
+9. What will be the output of the following C code?
+#include<stdio.h>
+enum hi{a,b,c};
+enum hello{c,d,e};
+main()
+{
+    enum hi h;
+    h=b;
+    printf("%d",h);
+    return 0;
+}
+a) 2
+b) 1
+c) Error
+d) 0
+c
+10. What will be the output of the following C code?
+#include<stdio.h>
+enum sanfoundry
+{
+    a,b,c=5
+};
+enum sanfoundry s;
+main()
+{
+    c++;
+    printf("%d",c);
+}
+a) Error
+b) 5
+c) 6
+d) 2
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Sizeof  Keyword – 2» Next - C Questions and Answers – Enums – 2 

@@ -1,0 +1,67 @@
+1. Which of the following is true for Adapter pattern?
+a) An adapter or wrapper is a component that provides a new interface for an existing component
+b) An Adapter or Wrapper pattern is a broker pattern that provides a new interface for existing software so that it can be reused
+c) Adaptation for reuse is an old technique that has been used since the beginning of software development
+d) All of the mentioned
+d
+2. The Adapter patterns provide object-oriented adapters in which of theses varieties?
+a) One uses inheritance
+b) one uses delegation
+c) All of the mentioned
+d) None of the mentioned
+c
+3. A class (the adapter class) may be given a new interface by an adapter class in which of the two ways?
+a) The adapter may subclass the adapter. The adapter can inherit adapter operations with appropriate semantics and pragmatics, override those with inappropriate semantics or pragmatics, and add operations needed for the new interface. This is the Class Adapter pattern
+b) The adapter may hold a reference to the adapter and delegate must work to the adapter object. This approach is the Object Adapter pattern
+c) All of the mentioned
+d) None of the mentioned
+c
+4. A class (the adapter class) may be given a new interface by an adapter class in which of these ways?
+a) Class Adapter pattern
+b) Object Adapter pattern
+c) All of the mentioned
+d) None of the mentioned
+c
+Join [email protected]
+5. Which of these states about Object Adapter pattern?
+a) The adapter can inherit adapter operations with appropriate semantics and pragmatics, override those with inappropriate semantics or pragmatics, and add operations needed for the new interface
+b) The adapter may hold a reference to the adapter and delegate must work to the adapter object
+c) All of the mentioned
+d) None of the mentioned
+b
+6. Which of the following is true for proxy pattern?
+a) Has exactly the same interface as the real object
+b) Handles routine or illegitimate messages without accessing the real object
+c) Delegates messages that it cannot handle to the real object
+d) All of the mentioned
+d
+7. Which of the following is not followed by proxy pattern?
+a) virtual proxies
+b) remote proxies
+c) access proxies
+d) none of the mentioned
+d
+8. What are stand-ins for objects not yet created are called?
+a) virtual proxies
+b) remote proxies
+c) access proxies
+d) none of the mentioned
+a
+9. Which of the following is incorrect with respect to the proxy pattern?
+a) The Proxy pattern should be used whenever the services directly provided by some object need to be managed or mediated in some way without changing the object’s interface
+b) Virtual proxies can be used to delay the creation or loading of large and time-consuming objects to preserve space and ensure rapid responses to requests
+c) Remote proxies can hide the fact that an object is not locally present,handling the communication necessary to access the remote real object
+d) None of the mentioned
+d
+10. Which of the following is consequence for proxy pattern?
+a) The Proxy pattern makes it possible to defer expensive operations until they are necessary (virtual proxies)
+b) Provides an elegant way to treat remote objects as if they were local (remote proxies)
+c) Provides a mechanism for implementing supplier access restrictions (protection or access proxies)
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Software Architecture and Design.
+To practice all areas of Software Design for Interviews,  here is complete set of 1000+ Multiple Choice Questions and Answers on Software Design and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Software Design Questions and Answers – The Facade and Mediator Patterns» Next - Software Design Questions and Answers – The Generator Category, Factory Patterns and Singleton Patterns 

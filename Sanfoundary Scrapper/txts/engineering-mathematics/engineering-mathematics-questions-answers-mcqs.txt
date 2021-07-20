@@ -1,0 +1,118 @@
+1. What are Intermediate Forms?
+a) Forms(f(x)/g(x)) whose limits x tends to ‘a’ can give rational number directly
+b) Forms(f(x)/g(x)) whose limits x tends to ‘a’ can give finite number directly
+c) Forms(f(x)/g(x)) whose limits x tends to ‘a’ can not be infinite output or cannot be solved directly
+d) Forms(f(x)/g(x)) whose limits x tends to ‘a’ can gives finite output
+c
+\(\lim_{x\rightarrow a}\)= 0⁄0 = 0⁄∞ = ∞⁄0 = ∞⁄∞ are all intermediate forms.
+Special Rules are made to solve these forms. They cannot be solved directly.
+2. L’Hospital Rule states that
+a) If \(\lim_{x\rightarrow a}\frac{f(x)}{g(x)}\) is an indeterminate form than \(\lim_{x\rightarrow a}\frac{f(x)}{g(x)}=\lim_{x\rightarrow a}\frac{f'(x)}{g'(x)}\) if \(\lim_{x\rightarrow a} \frac{f'(x)}{g'(x)}\) has a finite value
+b) \(\lim_{x\rightarrow a}\frac{f(x)}{g(x)}\) always equals to \(\lim_{x\rightarrow a}\frac{f'(x)}{g'(x)}\) 
+c) \(\lim_{x\rightarrow a}\frac{f(x)}{g(x)}\) if an indeterminate form than cannot be solved
+d) \(\lim_{x\rightarrow a}\frac{f(x)}{g(x)}\) if an indeterminate form than it is equals to zero.
+a
+3. If f(x) = x2 – 3x + 2 and g(x) = x3 – x2 + x – 1 than find value of \(\lim_{x\rightarrow 1}\frac{f(x)}{g(x)}\)?
+a) 0.5
+b) 1
+c) -.5
+d) -1
+c
+\(\lim_{x\rightarrow 1}\frac{f(x)}{g(x)}=\lim_{x\rightarrow 1}\frac{x^2-3x+2}{x^3-x^2+x-1}\)=(1-3+2)/(1-1+1-1)=0/0
+Hence this gives indeterminent forms hence by L’Hospital Rule
+\(\lim_{x\rightarrow 1}\frac{f(x)}{g(x)}=\lim_{x\rightarrow 1}\frac{f'(x)}{g'(x)}=\lim_{x\rightarrow 1}\frac{2x-3}{3x^2-2x+1}=\frac{2-3}{3-2+1}=-\frac{1}{2}\) 
+Hence
+\(\lim_{x\rightarrow 1}\frac{f(x)}{g(x)}=-\frac{1}{2}\) 
+4. If f(x) = Tan(x)-1 and g(x) = Sin(x) – Cos(x) than find value of limx → π⁄4⁡ f(x)⁄g(x)
+a) -√2
+b) √(-2)
+c) √2
+d) √3
+c
+\(\lim_{x\rightarrow \pi/4}\frac{f(x)}{g(x)}=\lim_{x\rightarrow \pi/4}\frac{tan(x)-1}{sin(x)-cos(x)}=\frac{(1-1)}{\frac{1}{\sqrt{2}}-\frac{1}{\sqrt{2}}}=0/0\) 
+Hence this gives indeterminate forms hence by L’Hospital Rule
+\(\lim_{x\rightarrow \pi/4}\frac{f(x)}{g(x)}=\lim_{x\rightarrow \pi/4}\frac{f'(x)}{g'(x)}=\lim_{x\rightarrow \pi/4}\frac{sec^2}{cos(x)+sin(x)}=\sqrt{2}\) 
+Hence
+\(\lim_{x\rightarrow \pi/4}\frac{f(x)}{g(x)}=\sqrt{2}\)
+5. If f(x) = Tan(x) and g(x) = ex – 1 than find value of limx → 0⁡ f(x)⁄g(x)
+a) 1
+b) 0
+c) -1
+d) 2
+a
+\(\lim_{x\rightarrow 0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow 0}\frac{tan(x)}{e^x-1}=0/0\) (Indeterminate Form)
+By L’Hospital’s rule
+\(\lim_{x\rightarrow 0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow 0}\frac{f'(x)}{g'(x)}=\lim_{x\rightarrow 0}\frac{sec^2(x)}{e^x}\)=1
+Join Sanfoundry@YouTube
+6. Find the value of \(\lim_{x\rightarrow \infty}(1+\frac{1}{x})^x\) 
+a) e-1
+b) e
+c) e + 1
+d) 1
+b
+\(\lim_{x\rightarrow \infty}(1+\frac{1}{x})^x\)=1∞ (Indeterminate form)
+Hence
+Let t=1/x
+->y=\(\lim_{x\rightarrow\infty}(1+\frac{1}{x})^x=\lim_{t\rightarrow 0}(1+t)^{1/t}\) 
+Taking log on both side,
+ln(y) = \(\lim_{t\rightarrow 0} \frac{ln(1+t)}{t}\) = 0/0 (Indeterminate form)
+Applying L’Hospital Rule again
+ln(y) = \(\lim_{t\rightarrow 0} \frac{1}{1+t}\) = 1
+=> y = \(\lim_{x\rightarrow\infty}(1+\frac{1}{x})^x\) = e
+7. If f(x) = x3 + 3x2 + Sin(x) and g(x) = ex – 1 than find value of \(\lim_{x\rightarrow 0}f(x)^{\frac{1}{g(x)}}\) 
+a) e6e
+b) e(e/6)
+c) e6
+d) e(6/e)
+c
+y=\(lim_{x\rightarrow 0}f(x)^{(\frac{1}{g(x)})} = lim_{x\rightarrow 0}[x^3+3x^2+sin(x)]^{\frac{1}{e^x-1}}\) 
+Taking ln on both side
+ln(y)=\(lim_{x\rightarrow 0}\frac{ln(x^3+3x^2+sin(x))}{e^x-1}\)=ln(0)/0 (Indeterminate Form)
+By L’Hospital Rule
+\(lim_{x\rightarrow 0}\frac{3x^+6x+cos(x)}{e^x(x^3+3x^2+sin(x))}=1/0\) 
+Again using L’Hospital rule
+ln(y)=\(\lim_{x\rightarrow 0}\frac{6x+6+sin(x)}{e^x(x^3+3x^2+sin(x))+e^x(3x^2+6x+cos(x))}=6\) 
+y=e6
+8. If f(x) = Sin(x) and g(x) = x than find value of limx → 0⁡ f(x)⁄g(x)
+a) -1
+b) 0
+c) 1
+d) 2
+c
+By L’Hospital rule
+limx → 0⁡ cos(x)⁄1 = 1.
+9. If f(x) = sin(x)cos(x) and g(x) = x2 than find value of limx → 0⁡ f(x)⁄g(x)
+a) 2
+b) 0
+c) -1
+d) Cannot be found
+b
+\(\lim_{x\rightarrow 0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow 0}\frac{sin(x)cos(x)}{x^2}\) = 0/0
+Henece, by L’Hospital rule
+\(\lim_{x\rightarrow 0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow 0}\frac{cos(2x)}{2x}=\frac{1}{0}\) 
+Again by L’Hospital rule
+\(\lim_{x\rightarrow 0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow 0}\frac{sin(2x)}{1}=0\) 
+10. If f(x) = ex + xcos(x) and g(x) = Sin(x) than find value of limx → 0⁡ f(x)⁄g(x)
+a) 2
+b) 1
+c) 3
+d) 4
+a
+\(\lim_{x\rightarrow 0}\frac{f(x)}{g(x)}=\lim_{x\rightarrow 0}\frac{e^x+xcos(x)}{sin(x)}=\lim_{x\rightarrow 0}\frac{e^x}{sin(x)}+\lim_{x\rightarrow 0}\frac{xcos(x)}{sin(x)}\)=1/0+0/0, i.e both are indeterminate
+i.e., applying L’Hospital Rule
+\(\lim_{x\rightarrow 0}\frac{e^x}{sin(x)}=\lim_{x\rightarrow 0}\frac{e^x}{cos(x)}+\lim_{x\rightarrow 0}\frac{cos(x)-xsin(x)}{cos(x)}\)=1+1=2
+11. Find the value of \(\lim_{x\rightarrow 0}\frac{xsin(x-1)}{(x-1)e^x}\) is, where {x} is the fractional part of x.
+a) 2⁄e
+b) 1⁄e
+c) 0
+d) –1⁄e
+b
+\(\lim_{{x}\rightarrow 1^+}\frac{{x}sin(x-1)}{(x-1)e^x}\) 
+\(=\lim_{x\rightarrow 1^+}{x}\lim_{x\rightarrow 1^+}{\frac{sin(x-1)}{x-1}} \lim_{x\rightarrow 1^+}\frac{1}{e^x}=\lim_{x\rightarrow 1^+}{x}1.\frac{1}{e}=\frac{1}{e}\) 
+because, \(\lim_{x\rightarrow 1^+}{x}=1\).
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice MCQs on all areas of Engineering Mathematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Indeterminate Forms – 2» Next - Engineering Mathematics Questions and Answers – Indeterminate Forms – 4 

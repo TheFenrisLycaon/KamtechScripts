@@ -1,0 +1,63 @@
+1. Which of the following can be used to generate balanced cross–validation groupings from a set of data?
+a) createFolds
+b) createSample
+c) createResample
+d) none of the mentioned
+a
+2. Point out the wrong statement.
+a) Simple random sampling of time series is probably the best way to resample times series data.
+b) Three parameters are used for time series splitting
+c) Horizon parameter is the number of consecutive values in test set sample
+d) All of the mentioned
+a
+3. Which of the following function can be used to maximize the minimum dissimilarities?
+a) sumDiss
+b) minDiss
+c) avgDiss
+d) all of the mentioned
+d
+4. Which of the following function can create the indices for time series type of splitting?
+a) newTimeSlices
+b) createTimeSlices
+c) binTimeSlices
+d) none of the mentioned
+b
+5. Point out the correct statement.
+a) Asymptotics are used for inference usually
+b) Caret includes several functions to pre-process the predictor data
+c) The function dummyVars can be used to generate a complete set of dummy variables from one or more factors
+d) All of the mentioned
+d
+6. Which of the following can be used to create sub–samples using a maximum dissimilarity approach?
+a) minDissim
+b) maxDissim
+c) inmaxDissim
+d) all of the mentioned
+b
+7. caret does not use the proxy package.
+a) True
+b) False
+b
+8. Which of the following function can be used to create balanced splits of the data?
+a) newDataPartition
+b) createDataPartition
+c) renameDataPartition
+d) none of the mentioned
+b
+9. Which of the following package tools are present in caret?
+a) pre-processing
+b) feature selection
+c) model tuning
+d) all of the mentioned
+d
+10. caret stands for classification and regression training.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Data Science.
+Here’s the list of Best Reference Books in Data Science.
+To practice all areas of Data Science, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Science Questions and Answers – Binary and Count Outcomes» Next - Data Science Questions and Answers – caret – 2 

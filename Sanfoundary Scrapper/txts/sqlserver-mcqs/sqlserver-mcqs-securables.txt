@@ -1,0 +1,82 @@
+1. What is the syntax for HAS_PERMS_BY_NAME in SQL Server 2014?
+a)
+HAS_PERMS_NAME ( securable_class , permission  
+    [ , sub-securable ] [ , sub-securable_class ] )
+b)
+HAS_PERMS_BY_NAME ( securable , securable_class , permission  
+    [ , sub-securable ] [ , sub-securable_class ] )
+c)
+HAS_PERMS_BY_NAME ( securable , securable_class , permission  
+    [ , sub-securable ] [ , sub-securable_class ] )
+d)
+Join [email protected]
+HAS_PERMS( securable , securable_class , permission  
+    [ , sub-securable ] [ , sub-securable_class ] )
+c
+  
+2. Point out the correct statement.
+a) In versions of SQL Server through SQL Server 2014, sub-securables cannot use brackets in the form ‘[sub name]’. Use ‘sub name’ instead
+b) HAS_PERMS_BY_NAME returns NULL when the query fails
+c) In ADO.net, the sub-securable_class argument is valid only if the securable_class argument is set to OBJECT
+d) None of the mentioned
+a
+3. _________ returns a list of the permissions effectively granted to the principal on a securable.
+a) HAS_PERMS_BY_NAME
+b) sys.fn_my_permissions
+c) sys.fn_permissions
+d) All of the mentioned
+b
+4. What is the syntax for fn_my_permissions function in SQL Server 2014?
+a) fn_my_permissions ( securable , securable_class )
+b) fn_my_permissions ( securable , ‘securable_class’ )
+c) fn_my_permissions ( ‘securable’ , securable_class)
+d) fn_my_permissions ( ‘securable’ , ‘securable_class’ )
+b
+5. Point out the wrong statement.
+a) The entity that receives permission to a securable is called a principal
+b) The SCHEMA securable scope contains the USER securables
+c) A table is a securable
+d) None of the mentioned
+b
+6. The schema securable scope contains the following securable is __________
+a) Contract
+b) Asymmetric key
+c) Schema
+d) Object
+d
+7. Which of the following returns a row for each security principal in a SQL Server database?
+a) sys.database_role_members
+b) sys.sql_logins
+c) sys.database_principals
+d) none of the mentioned
+c
+8. Any SQL Server authentication login can see ________ login name.
+a) Own and sa
+b) sa
+c) Own
+d) None of the mentioned
+a
+9. To add or remove server role membership use ____________
+a) ALTER ROLE
+b) ALTER ANY LOGIN
+c) ALTER SERVER ROLE
+d) None of the mentioned
+c
+10. What is the role of WITH NAME in the following code?
+ALTER SERVER ROLE server_role_name 
+{
+    [ ADD MEMBER server_principal ]
+  | [ DROP MEMBER server_principal ]
+  | [ WITH NAME = new_server_role_name ]
+} [ ; ]
+a) Removes the specified server principal from the server role
+b) Adds the specified server principal to the server role
+c) Specifies the new name of the user-defined server role
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Authentication» Next - SQL Server Questions and Answers – Data Cryptography 

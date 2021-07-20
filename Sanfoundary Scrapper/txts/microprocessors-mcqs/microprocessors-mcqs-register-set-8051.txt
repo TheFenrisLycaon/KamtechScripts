@@ -1,0 +1,91 @@
+1. Which of the following is an 8-bit register?
+a) PSW(Program Status Word)
+b) TCON(Timer Control Register)
+c) Accumulator
+d) All of the mentioned
+d
+2. Which of the following register can be addressed as a byte?
+a) P1
+b) SCON
+c) TMOD
+d) TCON
+c
+3. Which of the following is bit-addressable register?
+a) SBUF
+b) PCON
+c) TMOD
+d) SCON
+d
+4. The higher and lower bytes of a 16-bit register DPTR are represented respectively as
+a) LDPTR and HDPTR
+b) DPTRL and DPTRH
+c) DPH and DPL
+d) HDP and LDP
+c
+5. The register that is used for accessing external data memory is
+a) DPH
+b) DPL
+c) DPTR
+d) NONE
+c
+6. Among the four groups of register banks, the number of groups that can be accessed at a time is
+a) 1
+b) 2
+c) 3
+d) all the four
+a
+7. The number of 8-bit registers that a register bank contain is
+a) 2
+b) 4
+c) 6
+d) 8
+d
+8. If RS1=1, RS0=0, then the register bank selected is
+a) register bank 0
+b) register bank 1
+c) register bank 2
+d) register bank 3
+c
+9. If RS1=1, RS0=1, then the register bank selected is
+a) register bank 0
+b) register bank 1
+c) register bank 2
+d) register bank 3
+d
+10. The PCON register consists of
+a) power mode bit
+b) power idle bit
+c) power ideal bit
+d) power down bit and idle bit
+d
+11. The on-chip oscillator is stopped in
+a) power mode
+b) power down mode
+c) idle mode
+d) ideal mode
+b
+12. In idle mode, the device that is disabled is
+a) serial port
+b) timer block
+c) clock to CPU
+d) all of the mentioned
+c
+13. The only way to terminate the power down mode is to
+a) CLEAR
+b) RESET
+c) HOLD
+d) HLT
+b
+14. The idle mode can be terminated by
+a) PRESET
+b) CLEAR
+c) Interrupt
+d) Interrupt or reset
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Architecture of 8051» Next - Microprocessors Questions and Answers – Interrupt and Stack of 8051 -1 

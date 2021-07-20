@@ -1,0 +1,99 @@
+1. What is meant by the term generics?
+a) parameterized types
+b) class
+c) structure
+d) interface
+a
+2. Are generics in C# are same as the generics in java and templates in C++?
+a) Yes
+b) No
+c) May be
+d) None of the mentioned
+b
+3. Choose the advantages of using generics?
+a) Generics facilitate type safety
+b) Generics facilitate improved performance and reduced code
+c) Generics promote the usage of parameterized types
+d) All of the mentioned
+d
+4. What does the following C# code block defines?
+ class Gen<T>  {        T ob;     }
+a) Generics class declaration
+b) Generic constructor declaration
+c) A simple class declaration
+d) All of the mentioned
+a
+5. What does the following C# code set defines?
+ public Gen(T o)  {      ob = o;  }
+a) Generics class Declaration
+b) Declaration of variable
+c) Generic constructor declaration
+d) All of the mentioned
+c
+6. Select the type argument of an open constructed type?
+a) Gen<int>
+b) Gen<T>
+c) Gen<>
+d) None of the mentioned
+c
+7. Which among the given classes is present in System.Collection.Generic.namespace?
+a) Stack
+b) Tree
+c) Sorted Array
+d) All of the mentioned
+a
+8. Which of these is a correct way of defining generic method?
+a) name(T1, T2, …, Tn) { /* … */ }
+b) public name { /* … */ }
+c) class name[T1, T2, …, Tn] { /* … */ }
+d) name{T1, T2, …, Tn} { /* … */ }
+b
+9. Which of these type parameters is used for generic methods to return and accept any type of object?
+a) K
+b) N
+c) T
+d) V
+c
+10. Choose the correct way to call subroutine fun() of the sample class?
+class a{    public void x(int p, double k)    {        Console.WriteLine("k : csharp!");    }}
+a)
+   delegate void del(int i);
+   x s = new x();
+   del d = new del(ref s.x);
+   d(8, 2.2f);
+b)
+   delegate void del(int p,  double k);
+   del d;
+   x s = new x();
+   d = new del(ref s.x);
+   d(8, 2.2f);
+c)
+   x s = new x();
+   delegate void d = new del(ref x);
+   d(8, 2.2f);
+d) all of the mentioned
+b
+11. What will be the output of the following C# code snippet?
+public class Generic<T>{    Stack<T> stk = new Stack<T>();    public void push(T obj)    {        stk.Push(obj);    }    public T pop()    {        T obj = stk.Pop();        return obj;    }}class Program{    static void Main(string[] args)    {        Generic<string> g = new Generic<string>();        g.push(40);        Console.WriteLine(g.pop());        Console.ReadLine();    }}
+a) 0
+b) Runtime Error
+c) 40
+d) Compile time Error
+c
+Output :
+40
+12. What will be the output of the following C# code snippet?
+public class Generic<T>{    Stack<T> stk = new Stack<T>();    public void push(T obj)    {        stk.Push(obj);    }    public T pop()    {        T obj = stk.Pop();        return obj;    }}class Program{    static void Main(string[] args)    {        Generic<int> g = new Generic<int>();        g.push("Csharp");        Console.WriteLine(g.pop());        Console.ReadLine();    }}
+a) Compile time error
+b) Csharp
+c) 0
+d) Run time error
+b
+Output :
+ Csharp
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Delegates in Detail» Next - C# Question & Answers – Generic Methods 

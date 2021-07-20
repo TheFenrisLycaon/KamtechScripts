@@ -1,0 +1,94 @@
+This section on C++ quiz focuses on “Buffering”. One shall practice these quizzes to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ quiz comes with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ quiz on “Buffering” along with answers, explanations and/or solutions:
+1. Which one is always faster in writing on C++?
+a) Writing to a file
+b) Writing to memory
+c) Reading from the network
+d) Deleting a file
+b
+2. How many tests are available in read and write operations?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+3. What will act as a intermediate between i/o operations and physical file?
+a) Memory
+b) Ram
+c) Stream buffer
+d) Storage
+c
+4. What will be the output of the following C++ code in text files?
+    #include <stdio.h>    int main ()    {        char buffer[BUFSIZ];        FILE *p1, *p2;        p1 = fopen ("myfile.txt", "w");        p2 = fopen ("myfile2.txt", "a");        setbuf ( p1 , buffer );        fputs ("Buffered stream", p1);        fflush (p1);        setbuf ( p2 , NULL );        fputs ("Unbuffered stream", p2);        fclose (p1);        fclose (p2);        return 0;    }
+a) Buffered stream
+b) Unbuffered stream
+c) Error
+d) Buffered & Unbuffered stream
+d
+Output:
+$ g++ buf.cpp
+$ a.out
+"Buffered stream" in myfile.txt
+"Unbuffered stream" in myfile2.txt
+5. What will be the output of the following C++ code?
+    #include <stdio.h>    int main ()    {        FILE * p;        long size;        p = fopen ("test.txt", "rb");        if (p == NULL)             perror ("Error opening file");        else        {            fseek (p, 0, SEEK_END);             size = ftell (p);            fclose (p);            printf (" %ld\n", size);        }        return 0;    }
+a) 10
+b) 20
+c) 5
+d) Depends upon the file
+d
+Output:
+$ g++ buf1.cpp
+$ a.out
+20
+6. What will be the output of the following C++ code?
+    #include <stdio.h>    int main ()    {        freopen ("myfile.txt", "w", stdout);        printf ("This sentence is redirected to a file");        fclose (stdout);        return 0;    }
+a) This sentence
+b) This sentence is redirected
+c) This sentence is redirected to a file
+d) This sentence to a file
+c
+Output:
+$ g++ buf2.cpp
+$ a.out
+This sentence is redirected to a file
+7. What will be the output of the following C++ code?
+    #include <stdio.h>    int main ()    {        int n;        FILE * p;        char buffer [5];        p = fopen ("myfile.txt", "w+");        for ( n = 'A' ; n <= 'D' ; n++)        fputc ( n, p);        rewind (p);        fread (buffer, 1, 5, p);        fclose (p);        buffer[3] = '\0';        puts (buffer);        return 0;    }
+a) ABCD
+b) ABC
+c) ABCDE
+d) ADCA
+b
+Output:
+$ g++ buf3.cpp
+$ a.out
+ABC
+8. What will be the output of the following C++ code in text file?
+    #include <stdio.h>    int main ()    {        FILE * p;        char buffer[] = { 'x' , 'y' , 'z' };        p = fopen ( "myfile.txt" , "wb" );        fwrite (buffer , 1 , sizeof(buffer) , p );        fclose (p);        return 0;    }
+a) xyz
+b) zyx
+c) yxz
+d) yyx
+a
+Output:
+$ g++ buf4.cpp
+$ a.out
+xyz
+9. By using which function does the buffer are automatically flushed?
+a) fopen
+b) copy
+c) compare
+d) fclose
+d
+10. How many parameters are available in the function setbuf?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – File Streams and String Streams» Next - C++ Programming Questions and Answers – Locale 

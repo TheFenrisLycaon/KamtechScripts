@@ -1,0 +1,119 @@
+1. Find the value of ∫∫xyex + y dxdy.
+a) yey (xex-ex)
+b) (yey-ey)(xex-ex)
+c) (yey-ey)xex
+d) (yey-ey)(xex+ex)
+b
+Add constant automatically
+∫∫xyex ey dxdy= ∫yey dy∫xex dx=(yey-ey)(xex-ex).
+2. Find the value of ∫∫ x⁄x2 + y2 dxdy.
+a) [ytan(-1) (y)- 1⁄2 ln⁡(1+y2)] 
+b) x [ytan(-1) (y)- 1⁄2 ln⁡(1+y2)] 
+c) y [xtan(-1) (x)- 1⁄2 ln⁡(1+x2)] 
+d) x [ytan(-1) (y)- 1⁄2 ln⁡(1+y2)] 
+d
+Given, \(\int\int \frac{x}{x^2+y^2} \,dxdy\) 
+\(\int x \int \frac{1}{x^2+y^2} \,dydx=\int x \frac{1}{x} tan^{-1}⁡(\frac{y}{x}) \,dy=\int tan^{-1}⁡(\frac{y}{x}) \,dy\) 
+\(\int tan^{-1}⁡(\frac{y}{x})\,dy = x\int tan^{-1}⁡(t)\,dt\) 
+Putting, x = tan(z),
+We get, dz = sec2⁡(z)dz,
+x∫ zsec2 (z)dz
+By integration by parts,
+x ∫ zsec2 (z)dz=x[ztan(z)-log⁡(sec⁡(z))]= x[ytan(-1) (y)- 1⁄2 ln⁡(1+y2)].
+3. Find the ∫∫x3 y3 sin⁡(x)sin⁡(y) dxdy.
+a) (x3 Cos(x) + 3x2 Sin(x) + 6xCos(x)-6Sin(x))(y3 Cos(y) + 3[y2 Sin(y) – 2[-yCos(y) + Sin(y)]])
+b) (-x3 Cos(x) – 3x2 Sin(x) – 6xCos(x)-6Sin(x))(-y3 Cos(y) + 3[y2 Sin(y) – 2[-yCos(y) + Sin(y)]])
+c) (-x3 Cos(x) + 3x2 Sin(x) + 6xCos(x)-6Sin(x))(-y3 Cos(y) + 3y2 Sin(y) + 6yCos(y) – 6Sin(y))
+d) (–x3 Cos(x) + 6xCos(x) – 6Sin(x))(-y3 Cos(y))
+c
+∫x3 Sin(x)dx = -x3 Cos(x) + 3∫x2 Cos(x)dx
+∫x2 Cos(x)dx = x2 Sin(x) – 2∫xSin(x)dx
+∫xSin(x)dx = -xCos(x) + ∫Cos(x)dx = -xCos(x) + Sin(x)
+=> ∫x3 Sin(x)dx = -x3 Cos(x) + 3[x2 Sin(x) – 2[-xCos(x) + Sin(x)]]
+=> ∫x3 Sin(x)dx = -x3 Cos(x) + 3x2 Sin(x) + 6xCos(x) – 6Sin(x)
+and, ∫y3 Sin(y)dy = -y3 Cos(x) + 3∫y2 Cos(y)dy
+∫y2 Cos(y)dy = y2 Sin(y) – 2∫ySin(y)dy
+∫ySin(y)dy = -yCos(y) + ∫Cos(y)dy = -yCos(y) + Sin(y)
+=> ∫y3 Sin(y)dy = -y3 Cos(y) + 3[y2 Sin(y) – 2[-yCos(y) + Sin(y)]]
+=> ∫y3 Sin(y)dy = -y3 Cos(y) + 3y2 Sin(y) + 6yCos(y) – 6Sin(y)
+Hence, ∫∫x3 y3 sin⁡(x) sin⁡(y) dxdy = (∫x3 Sin(x)dx)(∫y3 Sin(y)dy) = (-x3 Cos(x) + 3x2 Sin(x)+6xCos(x) – 6Sin(x))(-y3 Cos(y) + 3y2 Sin(y) + 6yCos(y) – 6Sin(y)).
+4. Find the integration of \(\int\int_0^{\sqrt{2ax-x^2}}x \,dxdx\).
+a) ax2⁄2 – x5⁄30
+b) ax2⁄2 – x3⁄6
+c) ax2⁄2
+d) ax4⁄8 – x3⁄6
+b
+Given, f(x)=\(\int\int_0^{\sqrt{2ax-x^2}}x \,dxdx = \int [\frac{x^2}{2}]_0^{\sqrt{2ax-x^2}} \,dxdx = \int \frac{2ax-x^2}{2} \,dx=\frac{ax^2}{2}-\frac{x^3}{6}\)
+5. Find the value of ∫∫xy7 Cos(x)Cos(y) dxdy.
+a) (7y6 Cos(y) + 42y5 Sin(y) + 210y4 Cos(y) + 840y3 Sin(y) + 2520y2 Cos(y) + 5040ySin(y) + 5040Cos(y))(7x6 Cos(x) + 42x5 Sin(x) + 210x4 Cos(x) + 840x3 Sin(x) + 2520x2 Cos(x) + 5040xSin(x) + 5040Cos(x))
+b) (y7 Sin(y) + 7y6 Cos(y) + 42y5 Sin(y) + 210y4 Cos(y) + 840y3 Sin(y) + 2520y2 Cos(y) + 5040ySin(y) + 5040Cos(y))(x7 Sin(x) + 7x6 Cos(x) + 42x5 Sin(x) + 210x4 Cos(x) + 840x3 Sin(x) + 2520x2 Cos(x) + 5040xSin(x) + 5040Cos(x))
+c) (y7 Sin(y) + 42y5 Sin(y) + 210y4 Cos(y) + 840y3 Sin(y) + 2520y2 Cos(y) + 5040ySin(y) + 5040Cos(y))(x7 Sin(x) + 7x6 Cos(x) + 42x5 Sin(x) + 210x4 Cos(x) + 840x3 Sin(x) + 2520x2 Cos(x) + 5040xSin(x) + 5040Cos(x))
+d) (y7 Sin(y) + 7y6 Cos(y) + 42y5 Sin(y) + 210y4 Cos(y) + 840y3 Sin(y) + 2520y2 Cos(y) + 5040ySin(y) + 5040Cos(y))(x7 Sin(x) + 7x6 Cos(x) + 42x5 Sin(x) + 210x4 Cos(x) + 840x3 Sin(x) + 2520x2 Cos(x) + 5040xSin(x) + 5040Cos(x))
+d
+By, f(x)=\(\int uvdx=\sum_{i=0}^n (-1)^i u_i v^{i+1}\),
+Let, u = x7 and v=Cos(x),
+∫x7 Cos(x) dx=x7 Sin(x)+7x6 Cos(x)+42x5 Sin(x)+210x4 Cos(x)+840x3 Sin(x)+2520x2 Cos(x)+5040xSin(x)+5040Cos(x)
+Similarly,
+∫y7 Cos(y) dy=y7 Sin(y)+7y6 Cos(y)+42y5 Sin(y)+210y4 Cos(y)+840y3 Sin(y)+2520y2 Cos(y)+5040ySin(y)+5040Cos(y)
+Now,
+∫∫xy7 Cos(x)Cos(y) dxdy=∫y7 Cos(y) dy∫x7 Cos(x) dx=(y7 Sin(y)+7y6 Cos(y)+42y5 Sin(y)+210y4 Cos(y)+840y3 Sin(y)+2520y2 Cos(y)+5040ySin(y)+5040Cos(y))(x7 Sin(x)+7x6 Cos(x)+42x5 Sin(x)+210x4 Cos(x)+840x3 Sin(x)+2520x2 Cos(x)+5040xSin(x)+5040Cos(x)).
+6. Find the integration of ∫∫0x x2 + y2 dxdy.
+a) x4⁄6
+b) y
+c) 2x3⁄3y
+d) 1
+c
+Given, \(f(x)=∫_0^x (x^2+y^2) \,dxdy = ∫ (\frac{x^3}{3}+\frac{x^3}{3})\,dxdy = \frac{2x^3}{3} y\).
+7. Find the value of \(\int\int_0^y \frac{2xy^5}{\sqrt{1+x^2 y^2-y^4}} dxdy\).
+a) \(2[\frac{y^4}{4}- \frac{2}{3} (1-y^4)^{\frac{3}{2}}]\) 
+b) \(2[\frac{y^4}{4}- (1-y^4)^{\frac{3}{2}}]\) 
+c) \(2[\frac{y^4}{4}-\frac{2}{3} (1-y^4)^{\frac{3}{2}}]\) 
+d) \(2[\frac{y^3}{3}-\frac{2}{3} (1-y^4)^{\frac{3}{2}}]\) 
+c
+Given, f(x)=\(\int\int_0^y \frac{2xy^5}{\sqrt{1+x^2 y^2-y^4}} dxdy\) 
+=\(\int\int_0^y \frac{1}{y} \frac{2xy^5}{\sqrt{(\frac{1-y^4}{y^2})+x^2}} dxdy=\int 2y^4 \left |(\frac{1-y^4}{y^2})+x^2\right |_0^y dy\) 
+\(=2\int [y^3-\sqrt{1-y^4}y^3]dy=2[\frac{y^4}{4}-\frac{2}{3} (1-y^4)^{3/2}]\) 
+8. Find the value of \(\int\int_0^{1-y} xy\sqrt{1-x-y} \,dxdy\).
+a) 16⁄946
+b) 8⁄945
+c) 16⁄936
+d) 16⁄945
+d
+Given, f(x)=\(\int_0^1 \int_0^{1-y} xy\sqrt{1-x-y} dxdy\) 
+putting,t=x/(1-y)=>x=t(1-y)=>dx=(1-y)dt
+\(\int_0^1 \int_0^1 t(1-y)y\sqrt{1-t(1-y)-y} (1-y)dtdy\) 
+=\(\int_0^1 \int_0^1 y(1-y)^{5/2} t(1-t)^{1/2} dtdy\) 
+=\(\int_0^1y(1-y)^{5/2} dy \int_0^1 t(1-t)^{1/2} dt\) 
+=\(\int_0^1 y^{2-1} (1-y)^{7/2-1} dy\int_0^1 t^{2-1} (1-t)^{3/2-1} dt=\beta(2,\frac{7}{2})\beta(2,\frac{3}{2})=\frac{16}{945}\)
+9. Find the area inside function (2x3 + 5 x2 – 4)⁄x2 from x = 1 to a.
+a) a2⁄2 + 5a – 4ln(a)
+b) a2⁄2 + 5a – 4ln(a) – 11⁄2
+c) a2⁄2 + 4ln(a) – 11⁄2
+d) a2⁄2 + 5a – 11⁄2
+b
+Given,
+\(f(x) = \frac{(2x^3+5x^2-4)}{x^2}\) 
+Integrating it we get, F(x) = x2⁄2 + 5x – 4ln(x)
+Hence, area under, x = 1 to a, is
+F(a) – F(1) = a2⁄2 + 5a – 4ln(a) – 1⁄2 – 5 = a2⁄2 + 5a – 4ln(a) – 11⁄2.
+10. Find the value of \(\int\int\frac{1}{16x^2+16x+10} \,dx\).
+a) \(\frac{1}{8} (x+\frac{1}{2})Sin^{-1} (x+\frac{1}{2})-\frac{1}{2} ln⁡(1+(x+\frac{1}{2})^2)\) 
+b) \(\frac{1}{8} (x+\frac{1}{2})tan^{-1} (x+\frac{1}{2})-\frac{1}{16} ln⁡(1+(x+\frac{1}{2})^2)\) 
+c) \((x+1/2) cos^{-1} (x+\frac{1}{2})-\frac{1}{16} ln⁡(1+(x+\frac{1}{2})^2)\) 
+d) \(\frac{1}{8} (x+\frac{1}{2}) sec^{-1} (x+\frac{1}{2})-\frac{1}{16} ln⁡(1+(x+\frac{1}{2})^2)\) 
+b
+Given,\(\int \frac{1}{16x^2+16x+10} dx=\frac{1}{2}\int \frac{1}{4x^2+4x+5} dx\) 
+=\(\int \frac{1}{8(x^2+x+5/4+1/4+1/4)} dx\) 
+=\(\int \frac{1}{8[(x+1/2)^2+1^2]}dx=\frac{1}{8} tan^{-1}⁡(x+1/2)\) 
+Hence, \(\frac{1}{8} \int tan^{-1}⁡(x+\frac{1}{2})dx\) 
+Now, Putting, x+1/2 = tan(y),
+We get, dx = sec2⁡(y)dy,
+=1/8 \(\int ysec^2 (y)dy\) 
+By integration by parts,
+ytan(y)-log⁡(sec⁡(y))=\(\frac{1}{8} (x+\frac{1}{2})tan^{-1} (x+\frac{1}{2})-\frac{1}{16} ln⁡(1+(x+\frac{1}{2})^2)\) 
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Improper Integrals – 2» Next - Engineering Mathematics Questions and Answers – Application of Double Integrals 

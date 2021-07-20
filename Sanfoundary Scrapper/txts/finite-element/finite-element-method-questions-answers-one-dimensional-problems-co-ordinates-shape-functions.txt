@@ -1,0 +1,92 @@
+1. Natural or intrinsic coordinate system is used to define ___________
+a) Co-ordinates
+b) Shape functions
+c) Displacement functions
+d) Both shape functions and co-ordinate functions
+b
+2. In q=[q1,q2]T  is defined as __________
+a) Element displacement vector
+b) Element vector
+c) Displacement vector
+d) Shape function vector
+a
+3. Shape function is just a ___________
+a) Displacement function
+b) Equation
+c) Interpolation function
+d) Matrix function
+c
+4. Isoparametric formula is ______________
+a) x=N1x1+N2x2
+b) x=N2x1+N1x2
+c) x=N1x1-N2x2
+d) x=N2x1-N1x2
+a
+ x=N1x1+N2x2
+Here both displacement u and co-ordinate x are interpolated within the element using shape functions N1 and N2. This is called isoparametric formulation in literature.
+5. B=\(\frac{1}{x_2-x_1}\)[-1 1]  is an ___________
+a) Strain matrix
+b) Element-strain displacement matrix
+c) Displacement matrix
+d) Elemental matrix
+b
+ Here B is element strain displacement matrix. Use of linear shape functions results in a constant B matrix. Hence, in a constant strain within the element. The stress from Hooke’s law is
+σ=EBq.
+Join Sanfoundry@YouTube
+6. Deformation at the end of elements are called _____________
+a) Load
+b) Displacement functions
+c) Co-ordinates
+d) Nodes
+d
+7. Write the shape function of the given element.
+	u= N1u1(e)+N2u2(e). Here N1 & N2 are
+a) N1=1-x/le&N2=x/le
+b) N1=x/le&N2=1-x/le
+c) N1=0 & N2=x
+d) N1=x & N2=0
+a
+
+1			             2 --- local variables
+I			             j --- global variables
+u1(e)	                             u2(e)
+x1=0			     x2=0
+Then matrix notation form is
+u=\(\begin{bmatrix} 1 & x \end{bmatrix}\begin{Bmatrix}c_1 \\ c_2 \end{Bmatrix}\) 
+u1(e)=c1+c2(0)=c1
+u2(e)= c1+c2(le)
+In matrix equation
+\(\begin{Bmatrix}u_1 \\ u_2 \end{Bmatrix} = \begin{bmatrix}
+1 & 0 \\ 1 & l_e \end{bmatrix} \begin{Bmatrix}c_1 \\ c_2 \end{Bmatrix}\) 
+By solving we get
+N1=1-x/le& N2=x/le.
+8. In shape functions, first derivatives must be _______ within an element.
+a) Infinite
+b) Finite
+c) Natural
+d) Integer
+b
+9. In shape functions, _________ must be continuous across the element boundary.
+a) Derivatives
+b) Nodes
+c) Displacement
+d) Shape function
+c
+10. Stresses due to rigid body motion are _______________
+a) Zero
+b) Considered
+c) Not considered
+d) Infinite
+c
+11. The expressions u=Nq; ε=Bq; σ=EBq relate ____________
+a) Displacement, Strain and Stress
+b) Strain and stress
+c) Strain and displacement
+d) Stress and displacement
+a
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – One Dimensional Problems – Finite Element Modelling» Next - Finite Element Method Questions and Answers – One Dimensional Problems – Potential Energy Approach 

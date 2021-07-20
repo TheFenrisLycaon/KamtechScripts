@@ -1,0 +1,58 @@
+1. The frequency transformation in the digital domain involves replacing the variable z-1 by a rational function g(z-1).
+a) True
+b) False
+a
+2. The mapping z-1 → g(z-1) must map inside the unit circle in the z-plane into __________
+a) Outside the unit circle
+b) On the unit circle
+c) Inside the unit circle
+d) None of the mentioned
+c
+3. The unit circle must be mapped outside the unit circle.
+a) True
+b) False
+b
+4. The mapping z-1 → g(z-1) must be __________
+a) Low pass
+b) High pass
+c) Band pass
+d) All-pass
+d
+Thus it implies that for r=1, e-jω = g(e-jω)=|g(ω)|.ej arg [ g(ω) ]
+It is clear that we must have |g(ω)|=1 for all ω. That is, the mapping is all-pass.
+5. What should be the value of |ak| to ensure that a stable filter is transformed into another stable filter?
+a) < 1
+b) =1
+c) > 1
+d) 0
+a
+6. Which of the following methods are inappropriate to design high pass and many band pass filters?
+a) Impulse invariance
+b) Mapping of derivatives
+c) Impulse invariance & Mapping of derivatives
+d) None of the mentioned
+c
+7. The impulse invariance method and mapping of derivatives are inappropriate to use in the designing of high pass and band pass filters due to aliasing problem.
+a) True
+b) False
+a
+8. We can employ the analog frequency transformation followed by conversion of the result into the digital domain by use of impulse invariance and mapping the derivatives.
+a) True
+b) False
+b
+9. It is better to perform the mapping from an analog low pass filter into a digital low pass filter by either of these mappings and then perform the frequency transformation in the digital domain.
+a) True
+b) False
+a
+10. In which of the following transformations, it doesn’t matter whether the frequency transformation is performed in the analog domain or in frequency domain?
+a) Impulse invariance
+b) Mapping of derivatives
+c) Bilinear transformation
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice basic questions on all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Frequency Transformations in the Analog Domain» Next - Digital Signal Processing Questions and Answers – Pade Approximation Method 

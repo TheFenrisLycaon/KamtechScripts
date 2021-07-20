@@ -1,0 +1,80 @@
+1. In which type of inertial navigation system are the gyro and accelerometer rigidly mounted to the body?
+a) Gimballed system
+b) Fixed system
+c) Strapdown system
+d) Void system
+c
+2. What the gyro act as in a strapdown system?
+a) Angular rate sensors
+b) Null sensors
+c) Angle indicators
+d) Orientation indicators
+a
+3. Which one of the following is not a purpose of strapdown calculations?
+a) Calculate vehicle’s attitude
+b) Transform accelerometer measurements into navigational coordinates
+c) Perform dead-reckoning computations
+d) Provide inputs to air data computer
+d
+4. Which of the following is a four element entity consisting of a scalar and a vector and is used to describe strapdown system rotation?
+a) Directional cosines
+b) Directional sines
+c) Quaternion
+d) Triternion
+c
+5. What does the quaternion integration algorithm use to control error?
+a) Linearization constraint
+b) Normalization constraint
+c) Differential constraint
+d) Integral constraints
+b
+6. What type of error occurs if the axis of rotation is moving in space?
+a) Linearization errors
+b) Control error
+c) Coning error
+d) Differential error
+c
+7. Pre-processing algorithms are also called as _________
+a) Coning algorithm
+b) Error control algorithm
+c) Differential algorithm
+d) Resolution algorithm
+a
+8. Why is the gyro and accelerometers shock mounted to the body?
+a) Impact protection
+b) Reduce drift error
+c) Prevent voltage surges
+d) Limit vibration errors
+d
+9.  Sculling errors occur when rotation and acceleration are combined.
+a) True
+b) False
+a
+10. Which of the following is false with respect to gimballed platform?
+a) Orients the accelerometers into a coordinate frame relative to Earth
+b) Euler angles are not easily readable from the gimbals
+c) Protect the instruments from large angular motion
+d) Protection from vibration, temperature and magnetic effects.
+b
+11. When does a gimbal lock occur on a three axis platform?
+a) Inner gimbal approaches 90°
+b) Inner gimbal approaches 0°
+c) Outer gimbal approaches 90°
+d) Middle gimbal approaches 90°
+d
+12. Which of the following factors affect the ability of a stable element to remain non-rotating relative to space?
+a)  Drift rate of the reference gyro
+b)  Accuracy of gyro torquer
+c)  Linear motion of the vehicle
+d)  Orthogonality of the components on the platform
+c
+13. In any order of gimbal, the innermost gimbal has unlimited freedom.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Avionics.
+To practice all areas of Avionics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Avionics Questions and Answers – Gyroscopes – 2» Next - Avionics Questions and Answers – Pressure Measurements 

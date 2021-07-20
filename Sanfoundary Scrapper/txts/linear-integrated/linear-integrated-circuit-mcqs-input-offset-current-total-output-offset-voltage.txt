@@ -1,0 +1,64 @@
+1. The maximum amount by which the two input bias current may differ is known as
+a) Input null current
+b) Average input bias current
+c) Input offset current
+d) None of the mentioned
+c
+2. A 741 type op-amp has a maximum input offset current of 200nA dc. What conclusion can be derived from this statement?
+{ IB1 – Input bias current at inverting input terminal and IB2 – Input bias current at non-inverting input terminal}
+a) IB1 may be larger than IB2 by 200nA
+b) IB2 may be larger than IB1 by 200nA
+c) Iio and IB2 may be equal to  200nA
+d) All of the mentioned
+d
+3.  The maximum magnitude of the output offset voltage is
+a) VOIio = RF*Iio
+b) VOIio = RF*( IB1+IB2)
+c) VOIio = RF*IB1
+d) VOIio = RF*( IB1-IB2)
+a
+4. Find the output offset voltage of an 741 op-amp; If the gain of the non-inverting amplifier is 8.5 and feedback resistor = 15kΩ? (IB=200nA for 741 op-amp)
+a) 1µv
+b) 4 µv
+c) 3 µv
+d) 2 µv
+c
+Gain, A=1+(RF/R1)
+=> R1 = RF/(A-1) = 15kΩ/(8.5-1) = 2kΩ.
+=> ROM =(R1* RF)/( R1+RF) = 1.76kΩ.
+The output offset voltage, VOIB1= VOIB= RF*IB
+=> VOIB1=  1.76kΩ*200nA*8.5 = 2.9×10-6 ≅ 3 µv.
+5. Find out the input offset current from the circuit
+a) Iio = |IBA*IBC|
+b) Iio = |IBA+ IBC|
+c) Iio = |IBA/ IBC|
+d) Iio = |IBA– IBC|
+d
+6. Determine the maximum output offset voltage caused by input offset current
+a) 5.4mv
+b) 7.3mv
+c) 6.9mv
+d) 8.1mv
+a
+=> Therefore, VOIio = RF*Iio = 27kΩ*200nA =5.4mv.
+7. Find the total output offset voltage of non-inverting op-amp?
+a) VooT = {[1+(RF/R1)]*Vio} + RF*Iio
+b) VooT = -[(RF/R1)*Vio] + RF*Iio
+c) VooT = -[(RF/R1)*Vio] + Iio
+d) None of the mentioned
+b
+8. Analyse the circuit and determine the value of total output offset voltage?
+The op-amp is the MC1536 with the following specifications:
+Vio = 7.5mv, Iio = 5nA, IB =250nA.
+a) 0.12v
+b) 1.4v
+c) 0.76v
+d) 8.5v
+c
+=> VooT = [1+(47kΩ/470Ω)]*7.5mv+(47kΩ*50nA) = 0.7598 ≅ 0.76v.
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Input Bias Current» Next - Linear Integrated Circuit Questions and Answers – Thermal Drift 

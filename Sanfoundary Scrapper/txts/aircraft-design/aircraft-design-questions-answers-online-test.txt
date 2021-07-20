@@ -1,0 +1,81 @@
+1. Low wing loading increases __________
+a) weight and cost of aircraft
+b) weight only
+c) lofting
+d) drafting
+a
+2. For estimated value of the thrust loading, we got three different values of wing loading. As a designer typically which wing loading should be considered?
+a) Lowest among all three
+b) Highest among all three
+c) Any value
+d) Always take average
+a
+3. What should be the aspect ratio (AR) of the prop aircraft if it is designed to work with maximum loiter wing loading of 32, CD0 = 0.06, dynamic pressure of 20 unit and Oswald efficiency as 0.6.
+a) 7.54
+b) 8.54
+c) 7.65
+d) 9.65
+a
+q = 20unit, Oswald efficiency e=0.6.
+Wing loading at maximum loiter is,
+W/S = q*\(\sqrt{3*ᴨ*AR*e*CD0}\) 
+32 = 20*\(\sqrt{3*ᴨ*AR*0.6*0.06}\) 
+1.6= \(\sqrt{3*ᴨ*AR*0.6*0.06}\) 
+Hence, by squaring the aspect ratio AR,
+AR = 7.54
+4. What should be the load factor if, lift coefficient is designed as 2.1 and aircraft is operating at dynamic pressure q as 20 Pa. Given W/s =12.
+a) 3.5
+b) 5.5
+c) 3.25
+d) 4.5
+a
+Now load factor n is given by, n = q*CL / (W/S) = 20*2.1/12 = 3.5.
+5. A designer is designing an aircraft which has climb gradient of 1.5 and has drag of 20N. If it weighs 220kg then, determine thrust to weight ratio?
+a) 0.097
+b) 0.87
+c) 20
+d) 220
+a
+Now thrust to weight ratio in terms of G is given by,
+T/W = (G+D)/W = (1.5+20)/220 = 0.097.
+6. If climb gradient is G, then which of the following is correct?
+a) T/W ≥ G + 2*\(\sqrt{\frac{CD0}{ᴨ*e*AR}}\) 
+b) T/W ≥ G + 4*\(\sqrt{\frac{CD0}{ᴨ*e*AR}}\) 
+c) T/W ≥ G – 2*\(\sqrt{\frac{CD0}{ᴨ*e*AR}}\) 
+d) T/W ≥ G – 4*\(\sqrt{\frac{CD0}{ᴨ*e*AR}}\) 
+a
+7. For jet aircraft, thrust loading is greater than the climb gradient.
+a) True
+b) False
+a
+8. After estimating thrust and wing loading, we can proceed to the initial sizing.
+a) True
+b) False
+a
+9. An aircraft is to be designed to have max lift coefficient as 2.8 and at q=10Pa. If maximum load factor n=5 then, what will be the stall speed?
+a) 1.80m/s
+b) 1.80mph
+c) 2.80mph
+d) 2.80m/s
+a
+Since density is not given we will take as sea level.
+Load factor n = q*CL/(W/S)
+(W/S)/CL = q/n = 10/5 = 2.
+Now, stall speed V is given by,
+V = \(\sqrt{2*(\frac{W}{S})/(\rho*CL)}\) 
+= \(\sqrt{2*2/1.225}\) = 1.80m/s.
+10. An aircraft has lift to drag ratio during cruise as 2.5 and load factor as 1.2. Which value of thrust loading should be selected?
+a) 0.48
+b) 0.58
+c) 0.38
+d) 0.28
+a
+Now, n at cruise is given by, n = (T/W)*(L/D).
+Hence, T/w is given as,
+T/W = n / (L/D) = 1.2/2.5 = 0.48.
+Sanfoundry Global Education & Learning Series – Aircraft Design.
+To practice all areas of Aircraft Design for online tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aircraft Design Questions and Answers – Wing Loading» Next - Aircraft Design Questions and Answers – Rubber-Engine Sizing 

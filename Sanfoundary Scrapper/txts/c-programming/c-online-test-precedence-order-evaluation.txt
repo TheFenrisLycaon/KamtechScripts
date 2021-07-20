@@ -1,0 +1,78 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for VMware and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear VMware interviews on C Programming language. 
+Here is a listing of online C test questions on “Precedence and Order of Evaluation” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 2, y = 2;        float f = y + x /= x / y;        printf("%d %f\n", x, f);        return 0;    }
+a) 2 4.000000
+b) Compile time error
+c) 2 3.500000
+d) Undefined behaviour
+b
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 1, y = 2;        if (x && y == 1)            printf("true\n");        else            printf("false\n");    }
+a) true
+b) false
+c) compile time error
+d) undefined behaviour
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 1, y = 2;        int z = x & y == 2;        printf("%d\n", z);    }
+a) 0
+b) 1
+c) Compile time error
+d) Undefined behaviour
+b
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 3, y = 2;        int z = x /= y %= 2;        printf("%d\n", z);    }
+a) 1
+b) Compile time error
+c) Floating point exception
+d) Segmentation fault
+c
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 3, y = 2;        int z = x << 1 > 5;        printf("%d\n", z);    }
+a) 1
+b) 0
+c) 3
+d) Compile time error
+a
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 3; //, y = 2;        const int *p = &x;        *p++;        printf("%d\n", *p);    }
+a) Increment of read-only location compile error
+b) 4
+c) Some garbage value
+d) Undefined behaviour
+c
+7. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 2, y = 2;        int z = x ^ y & 1;        printf("%d\n", z);    }
+a) 1
+b) 2
+c) 0
+d) 1 or 2
+b
+8. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 2, y = 0;        int z = x && y = 1;        printf("%d\n", z);    }
+a) 0
+b) 1
+c) Compile time error
+d) 2
+c
+9. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 0, y = 2;        if (!x && y)            printf("true\n");        else            printf("false\n");    }
+a) True
+b) False
+c) Compile time error
+d) Undefined behaviour
+a
+10. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 0, y = 2;        int z = ~x & y;        printf("%d\n", z);    }
+a) -1
+b) 2
+c) 0
+d) Compile time error
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Precedence and Order of Evaluation – 1» Next - C Programming Questions and Answers – Precedence and Order of Evaluation – 3 

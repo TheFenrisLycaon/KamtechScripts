@@ -1,0 +1,62 @@
+1. ________________ creates a mock builder allowing to create a partial mock for the given class or interface.
+a) createMockBuilder(Class<T> toMock)
+b) createMock(Class<T> toMock)
+c) createNiceControl()
+d) createNiceMock(Class<T> toMock)
+a
+2. The ____________ interface is used in the creation of partial mocks with EasyMock.
+a) IMockBuilder<T>
+b) IMocker<T>
+c) IBuilder<T>expect(T value)
+d) MockBuilder<T>
+a
+3. ____________ creates a control of the requested type.
+a) createControl()
+b) createControl(MockType type)
+c) createNiceControl()
+d) createNiceMock(Class<T> toMock)
+b
+4. _____________ returns the expectation setter for the last expected invocation in the current thread.
+a) createControl()
+b) createControl(MockType type)
+c) createNiceControl()
+d) expect(T value)
+d
+5. anyObject() expects any double argument.
+a) True
+b) False
+b
+6. _____________ expects a comparable argument greater than or equal the given value.
+a) anyObject()
+b) anyString()
+c) geq(Comparable<T> value)
+d) anyDouble()
+c
+7. By default, a mock is thread safe.
+a) True
+b) False
+a
+8. ______________ create a new capture instance that will keep only the last captured value.
+a) newCapture()
+b) makeThreadSafe()
+c) createNiceControl()
+d) createNiceMock(Class<T> toMock)
+a
+9. _____________ reports an argument matcher.
+a) newCapture()
+b) makeThreadSafe()
+c) reportMatcher(IArgumentMatcher matcher)
+d) createNiceMock(Class<T> toMock)
+c
+10. The _______________ interface decides whether an actual argument is accepted.
+a) IMockBuilder<T>
+b) IMocker<T>
+c) IBuilder<T>expect(T value)
+d) IArgumentMatcher
+d
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Ant» Next - JUnit Questions and Answers – Putting Ant to The Task 

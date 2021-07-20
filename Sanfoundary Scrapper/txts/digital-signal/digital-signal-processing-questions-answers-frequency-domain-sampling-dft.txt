@@ -1,0 +1,99 @@
+1. If x(n) is a finite duration sequence of length L, then the discrete Fourier transform X(k) of x(n) is given as ____________
+a) \(\sum_{n=0}^{N-1}x(n)e^{-j2πkn/N}\)(L<N)(k=0,1,2…N-1)
+b) \(\sum_{n=0}^{N-1}x(n)e^{j2πkn/N}\)(L<N)(k=0,1,2…N-1)
+c) \(\sum_{n=0}^{N-1}x(n)e^{j2πkn/N}\)(L>N)(k=0,1,2…N-1)
+d) \(\sum_{n=0}^{N-1}x(n)e^{-j2πkn/N}\)(L>N)(k=0,1,2…N-1)
+a
+X(ω)=\(\sum_{n=0}^{L-1} x(n)e^{-jωn}\) 
+If we sample X(ω) at equally spaced frequencies ω=2πk/N, k=0,1,2…N-1 where N>L, the resultant samples are
+X(k)=\(\sum_{n=0}^{N-1}x(n)e^{-j2πkn/N}\)
+2. If X(k) discrete Fourier transform of x(n), then the inverse discrete Fourier transform of X(k) is?
+a) \(\frac{1}{N} \sum_{k=0}^{N-1}X(k)e^{-j2πkn/N}\) 
+b) \(\sum_{k=0}^{N-1}X(k)e^{-j2πkn/N}\) 
+c) \(\sum_{k=0}^{N-1}X(k)e^{j2πkn/N}\) 
+d) \(\frac{1}{N} \sum_{k=0}^{N-1}X(k)e^{j2πkn/N}\) 
+d
+x(n)=\(\frac{1}{N} \sum_{k=0}^{N-1}X(k)e^{j2πkn/N}\)
+3. A finite duration sequence of length L is given as x(n)=1 for 0≤n≤L-1 = 0 otherwise, then what is the N point DFT of this sequence for N=L?
+a) X(k) = L for k=0, 1, 2….L-1
+b) 
+X(k) = L for k=0
+=0 for k=1,2....L-1
+c) 
+X(k) = L for k=0
+=1 for k=1,2....L-1
+d) None of the mentioned
+b
+X(ω)=\(\sum_{n=0}^{L-1} x(n)e^{-jωn}=\sum_{n=0}^{L-1}e^{-jωn}\) 
+The discrete Fourier transform is given as X(k)=\(\sum_{n=0}^{N-1}e^{-j2πkn/N}\) 
+If N=L, then X(k)= L for k=0
+=0 for k=1,2….L-1
+4. The Nth rot of unity WN is given as ______________
+a) ej2πN
+b) e-j2πN
+c) e-j2π/N
+d) ej2π/N
+c
+Thus we get Nth rot of unity WN=e-j2π/N
+5. Which of the following is true regarding the number of computations requires to compute an N-point DFT?
+a) N2 complex multiplications and N(N-1) complex additions
+b) N2 complex additions and N(N-1) complex multiplications
+c) N2 complex multiplications and N(N+1) complex additions
+d) N2 complex additions and N(N+1) complex multiplications
+a
+X(k)=\(\sum_{n=0}^{N-1}x(n)e^{-j2πkn/N}\) 
+From the formula given at every step of computing we are performing N complex multiplications and N-1 complex additions. So, in a total to perform N-point DFT we perform N2 complex multiplications and N(N-1) complex additions.
+6. Which of the following is true?
+a) WN*=\(\frac{1}{N} W_N^{-1}\) 
+b) WN-1=\(\frac{1}{N} W_N*\) 
+c) WN-1=WN*
+d) None of the mentioned
+b
+XN=WN.xN
+By pre-multiplying both sides by WN-1, we get
+xN=WN-1.XN
+But we know that the inverse DFT of XN is defined as
+xN=\(\frac{1}{N} W_N*X_N\) 
+Thus by comparing the above two equations we get
+WN-1 = \(\frac{1}{N} W_N*\) 
+7. What is the DFT of the four point sequence x(n)={0,1,2,3}?
+a) {6,-2+2j-2,-2-2j}
+b) {6,-2-2j,2,-2+2j}
+c) {6,-2+2j,-2,-2-2j}
+d) {6,-2-2j,-2,-2+2j}
+c
+WNk+N/2=-WNk
+The matrix W4 may be expressed as
+W4=\(\begin{bmatrix}W_4^0& W_4^0& W_4^0& W_4^1\\W_4^0& W_4^0& W_4^2& W_4^3\\W_4^0& W_4^2& W_4^0& W_4^3\\W_4^4& W_4^6& W_4^6& W_4^9\end{bmatrix}=\begin{bmatrix}W_4^0& W_4^0& W_4^0& W_4^1\\W_4^0& W_4^0& W_4^2& W_4^3\\W_4^0& W_4^2& W_4^0& W_4^3\\W_4^0& W_4^2& W_4^2& W_4^1\end{bmatrix}\)  
+=\(\begin{bmatrix}1&1&1&1\\1&-j&-1&j\\1&-1&1&-1\\1&j&-1&-j\end{bmatrix}\) 
+Then X4=W4.x4=\(\begin{bmatrix}6\\ -2+2j\\ -2\\-2-2j\end{bmatrix}\)
+8. If X(k) is the N point DFT of a sequence whose Fourier series coefficients is given by ck, then which of the following is true?
+a) X(k)=Nck
+b) X(k)=ck/N
+c) X(k)=N/ck
+d) None of the mentioned
+a
+ck=\(\frac{1}{N} \sum_{n=0}^{N-1}x(n)e^{-j2πkn/N}=\frac{1}{N}X(k)\) => X(k)= Nck
+9. What is the DFT of the four point sequence x(n)={0,1,2,3}?
+a) {6,-2+2j-2,-2-2j}
+b) {6,-2-2j,2,-2+2j}
+c) {6,-2-2j,-2,-2+2j}
+d) {6,-2+2j,-2,-2-2j}
+d
+We know that the 4-point DFT of the above given sequence is given by the expression
+X(k)=\(\sum_{n=0}^{N-1}x(n)e^{-j2πkn/N}\) 
+In this case N=4
+=>X(0)=6,X(1)=-2+2j,X(2)=-2,X(3)=-2-2j.
+10. If W4100=Wx200, then what is the value of x?
+a) 2
+b) 4
+c) 8
+d) 16
+c
+100/4=200/x=>x=8.
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Inverse Systems and Deconvolution» Next - Digital Signal Processing Questions and Answers – Properties of DFT 

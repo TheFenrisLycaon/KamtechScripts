@@ -1,0 +1,64 @@
+1. What is true about private constructor?
+a) Private constructor ensures only one instance of a class exist at any point of time
+b) Private constructor ensures multiple instances of a class exist at any point of time
+c) Private constructor eases the instantiation of a class
+d) Private constructor allows creating objects in other classes
+a
+2. What would be the behaviour if this() and super() used in a method?
+a) Runtime error
+b) Throws exception
+c) compile time error
+d) Runs successfully
+c
+3. What is false about constructor?
+a) Constructors cannot be synchronized in Java
+b) Java does not provide default copy constructor
+c) Constructor can have a return type
+d) “this” and “super” can be used in a constructor
+c
+4. What is true about Class.getInstance()?
+a) Class.getInstance calls the constructor
+b) Class.getInstance is same as new operator
+c) Class.getInstance needs to have matching constructor
+d) Class.getInstance creates object if class does not have any constructor
+d
+5. What is true about constructor?
+a) It can contain return type
+b) It can take any number of parameters
+c) It can have any non access modifiers
+d) Constructor cannot throw an exception
+b
+6. Abstract class cannot have a constructor.
+a) True
+b) False
+b
+7. What is true about protected constructor?
+a) Protected constructor can be called directly
+b) Protected constructor can only be called using super()
+c) Protected constructor can be used outside package
+d) protected constructor can be instantiated even if child is in a different package
+b
+8. What is not the use of “this” keyword in Java?
+a) Passing itself to another method
+b) Calling another constructor in constructor chaining
+c) Referring to the instance variable when local variable has the same name
+d) Passing itself to method of the same class
+d
+9. What would be the behaviour if one parameterized constructor is explicitly defined?
+a) Compilation error
+b) Compilation succeeds
+c) Runtime error
+d) Compilation succeeds but at the time of creating object using default constructor, it throws compilation error
+d
+10. What would be behaviour if the constructor has a return type?
+a) Compilation error
+b) Runtime error
+c) Compilation and runs successfully
+d) Only String return type is allowed
+a
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Constructors & Garbage Collection» Next - Java Questions & Answers – Heap and Garbage Collection 

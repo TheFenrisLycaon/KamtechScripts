@@ -1,0 +1,98 @@
+1. ___________ symbol is used to signify write back mode.
+a) #
+b) ^
+c) &
+d) !
+d
+2. The instructions which are used to load or store multiple operands are called as __________
+a) Banked instructions
+b) Lump transfer instructions
+c) Block transfer instructions
+d) DMA instructions
+c
+3. The Instruction, LDM R10!, {R0,R1,R6,R7}  ______
+a) Loads the contents of R10 into R1, R0, R6 and R7
+b) Creates a copy of the contents of R10 in the other registers except for the above mentioned ones
+c) Loads the contents of the registers R1, R0, R6 and R7 to R10
+d) Writes the contents of R10 into the above mentioned registers and clears R10
+a
+4. The instruction, MLA R0,R1,R2,R3  performs _________
+a) R0<-[R1]+[R2]+[R3] 
+b) R3<-[R0]+[R1]+[R2] 
+c) R0<-[R1]*[R2]+[R3] 
+d) R3<-[R0]*[R1]+[R2] 
+c
+5. The ability to shift or rotate in the same instruction along with other operation is performed with the help of _________
+a) Switching circuit
+b) Barrel switcher circuit
+c) Integrated Switching circuit
+d) Multiplexer circuit
+b
+6. _________ instruction is used to get the 1’s complement of the operand.
+a) COMP
+b) BIC
+c) ~CMP
+d) MVN
+d
+7. The offset used in the conditional branching is __________ bit.
+a) 24
+b) 32
+c) 16
+d) 8
+a
+8. The BEQ instructions is used ____________
+a) To check the equality condition between the operands and then branch
+b) To check if the Operand is greater than the condition value and then branch
+c) To check if the flag Z is set to 1 and then causes branch
+d) None of the mentioned
+c
+9. The condition to check whether the branch should happen or not is given by ____________
+a) The lower order 8 bits of the instruction
+b) The higher order 4 bits of the instruction
+c) The lower order 4 bits of the instruction
+d) The higher order 8 bits of the instruction
+b
+10. Which of the two instructions sets the condition flag upon execution?
+i) ADDS R0,R1,R2
+ii) ADD R0,R1,R2
+a) i
+b) ii
+c) Both i and ii
+d) Insufficient data
+a
+11. __________ directive is used to indicate the beginning of the program instruction or data.
+a) EQU
+b) START
+c) AREA
+d) SPACE
+c
+12. ___________ directive specifies the start of the execution.
+a) START
+b) ENTRY
+c) MAIN
+d) ORIGIN
+b
+13. ___________ directives are used to initialize operands.
+a) INT
+b) DATAWORD
+c) RESERVE
+d) DCD
+d
+14. ___________ directive is used to name the register used for execution of an instruction.
+a) ASSIGN
+b) RN
+c) NAME
+d) DECLARE
+b
+15. The pseudo instruction used to load an address into the register is _________
+a) LOAD
+b) ADR
+c) ASSIGN
+d) PSLOAD
+b
+Sanfoundry Global Education & Learning Series – Computer Organization and Architecture.
+To practice MCQs on all areas of Computer Organization, here is complete set on 1000+ Multiple Choice Questions and Answers on Computer Organization and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Organization Questions and Answers – ARM Architecture – 1» Next - Computer Organization Questions and Answers – Intel IA-32 Pentium Architecture-1 

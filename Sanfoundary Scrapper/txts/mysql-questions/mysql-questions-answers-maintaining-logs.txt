@@ -1,0 +1,65 @@
+1. The log that contains a record of server startups and shutdowns and the messages about exceptional conditions is ______________
+a) error log
+b) general query
+c) slow query log
+d) binary log
+a
+2. The log that identifies statements that may be in need of being rewritten for better performance is ______________
+a) error log
+b) general query
+c) slow query log
+d) binary log
+c
+3. The default value in seconds in the system variable ‘long_query_time’ is ______________
+a) 5
+b) 10
+c) 20
+d) 60
+b
+4. The logging option to enable binary log index file is ______________
+a) –log-bin-index
+b) –bin-log-index
+c) –index-log-bin
+d) –index-bin-log
+a
+5. Usage of aggregates in WHERE clause is not allowed.
+a) True
+b) False
+a
+Join [email protected]
+6. The operators that are used when a subquery returns multiple rows to be evaluated in comparison to the outer query are _____________
+a) IN and NOT IN
+b) EXISTS and NOT EXISTS
+c) OUTER JOIN and INNER JOIN
+d) LEFT JOIN and RIGHT JOIN
+a
+7. The ALL subquery performs operations on _____________
+a) row
+b) column
+c) table
+d) database
+b
+8. What is the kind of delete when deletion of an employee from the table also deletes that employee from another table?
+a) transparent
+b) concrete
+c) elaborate
+d) cascaded
+d
+9. The storage engine in MySQL that provides foreign key support is ___________
+a) TRANSACTION
+b) InnoDB
+c) MyISAM
+d) MEMORY
+b
+10. What is the property of InnoDB that enforces foreign key relationships stay intact?
+a) atomicity
+b) durability
+c) consistency
+d) referential integrity
+d
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Managing MySQL User Accounts» Next - MySQL Questions and Answers – Tuning the Server 

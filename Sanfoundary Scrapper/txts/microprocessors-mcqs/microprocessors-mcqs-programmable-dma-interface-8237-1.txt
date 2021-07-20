@@ -1,0 +1,67 @@
+1. The block of 8237 that decodes the various commands given to the 8237 by the CPU is
+a) timing and control block
+b) program command control block
+c) priority block
+d) none of the mentioned
+b
+2. The priority between the DMA channels requesting the services can be resolved by
+a) timing and control block
+b) program command control block
+c) priority block
+d) none of the mentioned
+c
+3. The register that holds the current memory address is
+a) current word register
+b) current address register
+c) base address register
+d) command register
+b
+4. The register that holds the data byte transfers to be carried out is
+a) current word register
+b) current address register
+c) base address register
+d) command register
+a
+5. When the count becomes zero in the current word register then
+a) Input signal is enabled
+b) Output signal is enabled
+c) EOP (end of process) is generated
+d) Start of process is generated
+c
+6. The current address register is programmed by the CPU as
+a) bit-wise
+b) byte-wise
+c) bit-wise and byte-wise
+d) none of the mentioned
+b
+7. Which of these register’s contents is used for auto-initialization (internally)?
+a) current word register
+b) current address register
+c) base address register
+d) command register
+c
+8. The register that maintains an original copy of the respective initial current address register and current word register is
+a) mode register
+b) base address register
+c) command register
+d) mask register
+b
+9. The register that can be automatically incremented or decremented, after each DMA transfer is
+a) mask register
+b) mode register
+c) command register
+d) current address register
+d
+10. Which of the following is a type of DMA transfer?
+a) memory read
+b) memory write
+c) verify transfer
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – DMA Transfers and Operations» Next - Microprocessors Questions and Answers – Programmable DMA Interface 8237 -2 

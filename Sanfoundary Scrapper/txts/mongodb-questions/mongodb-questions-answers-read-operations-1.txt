@@ -1,0 +1,68 @@
+1. The order of documents returned by a query is not defined unless you specify a ______
+a) sortfind()
+b) sortelse()
+c) sort()
+d) none of the mentioned
+c
+2. Point out the correct statement.
+a) Queries specify criteria, or conditions, that identify the documents that MongoDB returns to the clients
+b) Write operations, or queries, retrieve data stored in the database
+c) The selection limits the amount of data that MongoDB returns to the client over the network
+d) All of the mentioned
+a
+3. In aggregation pipeline, the _______ pipeline stage provides access to MongoDB queries.
+a) $catch
+b) $match
+c) $batch
+d) All of the mentioned
+b
+4. Which of the following method returns one document?
+a) findOne()
+b) findOne1()
+c) selectOne()
+d) all of the mentioned
+a
+5. Point out the wrong statement.
+a) sort() modifier sorts the results by age in ascending order
+b) Queries in MongoDB return all fields in all matching documents by default
+c) To scale the amount of data that MongoDB sends to applications, include a projection in the queries.
+d) None of the mentioned
+c
+6. Which of the following is the second argument to projection?
+a) findOne()
+b) findOne1()
+c) selectOne()
+d) find()
+d
+7. Which of the following query selects documents in the records collection that match the condition { “user_id”: { $lt: 42 } }?
+a) db.records.findOne( { “user_id”: { $lt: 42 } }, { “history”: 0 } )
+b) db.records.find( { “user_id”: { $lt: 42 } }, { “history”: 0 } )
+c) db.records.findOne( { “user_id”: { $lt: 42 } }, { “history”: 1 } )
+d) db.records.select( { “user_id”: { $lt: 42 } }, { “history”: 0 } )
+b
+8. Which of the following functionality is used for aggregation framework?
+a) $match
+b) $project
+c) $projectmatch
+d) All of the mentioned
+b
+9. To suppress the _id field from the result set, specify _________ in the projection document.
+a) _id: 1
+b) _id: 0
+c) _id: it
+d) None of the mentioned
+b
+10. Which of the following is not a projection operator?
+a) $slice
+b) $elemMatch
+c) $
+d) None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions
+and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – CRUD Concepts» Next - MongoDB Questions and Answers – Read Operations – 2 

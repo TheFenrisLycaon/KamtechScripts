@@ -1,0 +1,67 @@
+1. __________ provides the functionality of a messaging system.
+a) Oozie
+b) Kafka
+c) Lucene
+d) BigTop
+b
+2. Point out the correct statement.
+a) With Kafka, more users, whether using SQL queries or BI applications, can interact with more data
+b) A topic is a category or feed name to which messages are published
+c) For each topic, the Kafka cluster maintains a partitioned log
+d) None of the mentioned
+b
+3. Kafka maintains feeds of messages in categories called __________
+a) topics
+b) chunks
+c) domains
+d) messages
+a
+4. Kafka is run as a cluster comprised of one or more servers each of which is called __________
+a) cTakes
+b) broker
+c) test
+d) none of the mentioned
+b
+5. Point out the wrong statement.
+a) The Kafka cluster does not retain all published messages
+b) A single Kafka broker can handle hundreds of megabytes of reads and writes per second from thousands of clients
+c) Kafka is designed to allow a single cluster to serve as the central data backbone for a large organization
+d) Messages are persisted on disk and replicated within the cluster to prevent data loss
+a
+6. Communication between the clients and the servers is done with a simple, high-performance, language-agnostic _________ protocol.
+a) IP
+b) TCP
+c) SMTP
+d) ICMP
+b
+7. The only metadata retained on a per-consumer basis is the position of the consumer in the log, called __________
+a) offset
+b) partition
+c) chunks
+d) all of the mentioned
+a
+8. Each kafka partition has one server which acts as the _________
+a) leaders
+b) followers
+c) staters
+d) all of the mentioned
+a
+9. _________ has stronger ordering guarantees than a traditional messaging system.
+a) kafka
+b) Slider
+c) Suz
+d) None of the mentioned
+a
+10. Kafka only provides a _________ order over messages within a partition.
+a) partial
+b) total
+c) 30%
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all interview questions and answers on Kafka, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Kafka with Hadoop – 1» Next - Hadoop Questions and Answers – Hadoop Libraries – 1 

@@ -1,0 +1,238 @@
+1. What is an exception in C++ program?
+a) A problem that arises during the execution of a program
+b) A problem that arises during compilation
+c) Also known as the syntax error
+d) Also known as semantic error
+a
+2. By default, what a program does when it detects an exception?
+a) Continue running
+b) Results in the termination of the program
+c) Calls other functions of the program
+d) Removes the exception and tells the programmer about an exception
+b
+3. Why do we need to handle exceptions?
+a) To avoid unexpected behaviour of a program during run-time
+b) To let compiler remove all exceptions by itself
+c) To successfully compile the program
+d) To get correct output
+a
+4. How Exception handling is implemented in the C++ program?
+a) Using Exception keyword
+b) Using try-catch block
+c) Using Exception block
+d) Using Error handling schedules
+b
+5. What is the correct syntax of the try-catch block?
+a) 
+try
+{
+	// programable codes.....
+}
+catch(Exceptions)
+{
+	// Code for handling exceptions....
+}
+b) 
+try()
+{
+	// programable codes.....
+}
+catch(Exceptions)
+{
+	// Code for handling exceptions....
+}
+c) 
+try
+{
+	// programable codes.....
+}
+catch
+{
+	// Code for handling exceptions....
+}
+Join Sanfoundry@YouTube
+d) 
+try()
+{
+	// programable codes.....
+}
+catch
+{
+	// Code for handling exceptions....
+}
+a
+try{
+	// codes that needs to check for exceptions
+}
+catch(Exception E1){
+      // codes for handling exception.... 
+      // Exception E denotes the type of exception this block is handling.
+}
+catch(Exception E2){
+	// other exception that needs to be handled...
+}
+You can have any number of catch blocks catching different exceptions…..
+  
+6. Which part of the try-catch block is always fully executed?
+a) try part
+b) catch part
+c) finally part
+d) throw part
+c
+7. Which of the following is an exception in C++?
+a) Divide by zero
+b) Semicolon not written
+c) Variable not declared
+d) An expression is wrongly written
+a
+8. What is an error in C++?
+a) Violation of syntactic and semantic rules of a languages
+b) Missing of Semicolon
+c) Missing of double quotes
+d) Violation of program interface
+a
+9. What is the difference between error and exception?
+a) Both are the same
+b) Errors can be handled at the run-time but the exceptions cannot
+c) Exceptions can be handled at the run-time but the errors cannot
+d) Both can be handled during run-time
+c
+10. What are the different types of exceptions?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+11. Which keyword is used to throw an exception?
+a) try
+b) throw
+c) throws
+d) except
+b
+12. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+ 
+void func(int a, int b)
+{
+ 
+	if(b == 0){
+		throw "This value of b will make the product zero. " 
+                      "So please provide positive values.\n";
+	}
+	else{
+		cout<<"Product of "<<a<<" and  "<<b<<" is: "<<a*b<<endl;
+	}
+}
+ 
+int main()
+{
+	try{
+		func(5,0);
+	}
+	catch(const char* e){
+		cout<<e;
+	}
+}
+a) 0
+b) 5
+c) This value of b will make the product zero. So please provide positive values.
+d) Product of 5 and  0 is: 0
+c
+Output:
+
+$ ./a.out 
+This value of b will make the product zero. So please provide positive values.
+13. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+void func(int a, int b)
+{
+	if(b == 0){
+		throw "This value of b will make the product zero. " 
+                       "So please provide positive values.\n";
+	}
+	else{
+		cout<<"Product of "<<a<<" and  "<<b<<" is: "<<a*b<<endl;
+	}
+}
+ 
+int main()
+{
+	try{
+		func(5,0);
+	}
+	catch(char* e){
+		cout<<e;
+	}
+}
+a) 0
+b) Aborted (core dumped)
+c) This value of b will make the product zero. So please provide positive values.
+d) Product of 5 and  0 is: 0
+b
+Output:
+$ ./a.out 
+terminate called after throwing an instance of 'char const*'
+Aborted (core dumped)
+14. What is Re-throwing an exception means in C++?
+a) An exception that is thrown again as it is not handled by that catching block
+b) An exception that is caught twice
+c) An exception that is not handled in one caught hence thrown again
+d) All of the mentioned
+d
+15. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+void func(int a, int b)
+{
+	if(b < 1){
+		throw b;
+	}
+	else{
+		cout<<"Product of "<<a<<" and  "<<b<<" is: "<<a*b<<endl;
+	}
+}
+ 
+int main()
+{
+	try
+        {
+		try
+                {			
+		    func(5,-1);
+		}
+		catch(int b)
+                {
+			if(b==0)
+				throw "value of b is zero\n";
+			else
+				throw "value of b is less than zero\n";
+		}
+	}
+	catch(const char* e)
+        {
+		cout<<e;
+	}
+ 
+}
+a) value of b is zero
+b) value of b is less than zero
+c) Product of 5 and  -1 is: -5
+d) Aborted(core dumped)
+b
+Output:
+$ ./a.out 
+value of b is less than zero
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Exceptions and Efficiency» Next - C++ Programming Questions and Answers – Exception Handling – 2 

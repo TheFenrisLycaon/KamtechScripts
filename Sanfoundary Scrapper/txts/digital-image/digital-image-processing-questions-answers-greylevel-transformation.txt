@@ -1,0 +1,108 @@
+1. Using gray-level transformation, the basic function linearity deals with which of the following transformation?
+a)	log and inverse-log transformations
+b)	negative and identity transformations
+c)	nth and nth  root transformations
+d)	All of the mentioned
+b
+Linearity for negative and identity transformation
+Logarithmic for log and inverse-log transformation, and
+Power-law for nth and nth  root transformations.
+2. Using gray-level transformation, the basic function Logarithmic deals with which of the following transformation?
+a)	Log and inverse-log transformations
+b)	Negative and identity transformations
+c)	nth and nth  root transformations
+d)	All of the mentioned
+a
+Linearity for negative and identity transformation
+Logarithmic for log and inverse-log transformation, and
+Power-law for nth and nth  root transformations.
+3. Using gray-level transformation, the basic function power-law deals with which of the following transformation?
+a)	log and inverse-log transformations
+b)	negative and identity transformations
+c)	nth and nth  root transformations
+d)	all of the mentioned
+b
+Linearity for negative and identity transformation
+Logarithmic for log and inverse-log transformation, and
+Power-law for nth and nth  root transformations.
+4. If r be the gray-level of image before processing and s after processing then which expression defines the negative transformation, for the gray-level in the range [0, L-1]?
+a)	s = L – 1 – r
+b)	s = crᵞ, c and ᵞ are positive constants
+c)	s = c log (1 + r), c is a constant and r ≥ 0
+d)	none of the mentioned
+a
+5. If r be the gray-level of image before processing and s after processing then which expression helps to obtain the negative of an image for the gray-level in the range [0, L-1]?
+a)	s = L – 1 – r
+b)	s = crᵞ, c and ᵞ are positive constants
+c)	s = c log (1 + r), c is a constant and r ≥ 0
+d)	none of the mentioned
+c
+Join Sanfoundry@YouTube
+6. If r be the gray-level of image before processing and s after processing then which expression defines the power-law transformation, for the gray-level in the range [0, L-1]?
+a)	s = L – 1 – r
+b)	s = crᵞ, c and ᵞ are positive constants
+c)	s = c log (1 + r), c is a constant and r ≥ 0
+d)	none of the mentioned
+b
+7. Which of the following transformations is particularly well suited for enhancing an image with white and gray detail embedded in dark regions of the image, especially when there is more black area in the image.
+a)	Log transformations
+b)	Power-law transformations
+c)	Negative transformations
+d)	None of the mentioned
+c
+8. Which of the following transformations expands the value of dark pixels while the higher-level values are being compressed?
+a)	Log transformations
+b)	Inverse-log transformations
+c)	Negative transformations
+d)	None of the mentioned
+a
+The inverse-log is applied for the opposite.
+9. Although power-law transformations are considered more versatile than log transformations for compressing of gray-levels in an image, then, how is log transformations advantageous over power-law transformations?
+a)	The log transformation compresses the dynamic range of images
+b)	The log transformations reverses the intensity levels in the images
+c)	All of the mentioned
+d)	None of the mentioned
+a
+10. A typical Fourier Spectrum with spectrum value ranging from 0 to 106, which of the following transformation is better to apply.
+a)	Log transformations
+b)	Power-law transformations
+c)	Negative transformations
+d)	None of the mentioned
+a
+11. The power-law transformation is given as: s = crᵞ, c and ᵞ are positive constants, and r is the gray-level of image before processing and s after processing. Then, for what value of c and ᵞ does power-law transformation becomes identity transformation?
+a)	c = 1 and ᵞ < 1
+b)	c = 1 and ᵞ > 1
+c)	c = -1 and ᵞ = 0
+d)	c = ᵞ = 1
+d
+12. What is gamma correction?
+a)	A process to remove power-law transformation response phenomena
+b)	A process to remove log transformation response phenomena
+c)	A process to correct log transformation response phenomena
+d)	A process to correct power-law transformation response phenomena
+d
+13. Which of the following transformation is used cathode ray tube (CRT) devices?
+a)	Log transformations
+b)	Power-law transformations
+c)	Negative transformations
+d)	None of the mentioned
+b
+In such devices output appears darker than input. So, gamma correction is a must in this case.
+14. Log transformation is generally used in which of the following device(s)?
+a)	Cathode ray tube
+b)	Scanners and printers
+c)	All of the mentioned
+d)	None of the mentioned
+d
+15. The power-law transformation is given as: s = crᵞ, c and ᵞ are positive constants, and r is the gray-level of image before processing and s after processing. What happens if we increase the gamma value from 0.3 to 0.7?
+a)	The contrast increases and the detail increases
+b)	The contrast decreases and the detail decreases
+c)	The contrast increases and the detail decreases
+d)	The contrast decreases and the detail increases
+c
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Relationship between Pixels and Image Enhancement Basics» Next - Digital Image Processing Questions and Answers – Histogram Equalization and Processing 

@@ -1,0 +1,81 @@
+1. What is the syntax to solve simultaneous equations easily?
+a) solve[“equation-1”,”equation-2”];
+b) sol[“equation-1” “equation-2”];
+c) sol[‘equation-1’‘equation-2’];
+d) solve[‘equation-1’,‘equation-2’];
+d
+2. An employer has to minimize the number of lines in a program while writing the code for a purpose. If the purpose is to find the root of the following equation, which function is to be used?
+x2-4x+3=0
+a) polyval()
+b) solve[] 
+c) sol[] 
+d) roots([])
+d
+Output: roots([1 -4 3]
+	ans=1
+	    3
+3. What is the difference between sqrt(10) and sqrt(sym(10))?
+a) There is no difference
+b) sqrt(sym(10)) is incorrect
+c) There is no function as sqrt
+d) sqrt(10) returns exact value while sqrt(sym(10)) returns 10(1/2)
+d
+Thus it will return 10(1/2) as a symbolic expression and won’t divulge the exact root. This helps often to reduce an equation before increasing program complexity in MATLAB.
+4. The solve[] command can do which of the following things?
+a) Produce the exact solution
+b) Produce a symbolic solution
+c) Produces exact roots
+d) Produces complex roots
+b
+5. What should be the output for the following code?
+t=linspace(0,10);fzero(inline('t+t2'), 5);
+a) Nan
+b) -0.000000000000000000000000117191203927370461282452866337
+c) -1.1719e-25
+d) fzero is not a function
+a
+6. A student has to find the solution of an equation cos(x)=1/2. She has to write the program such that exact values are shown at output. Which of the following codes would help her?
+a) syms x;eqn = cos(x) == 1/2;vpa( solve(eqn,x))
+b) syms x;eqn = cos(x) == 1/2;solve(eqn,x)
+c) vpa(solve(‘cos(x)=1/2’))
+d) syms x;eqn = cos(x) = 1/2;vpa(solve(eqn,x))
+c
+Output: syms x;eqn = cos(x) == 1/2;vpa( solve(eqn,x))
+       ans = -1.0471975511965977461542144610932
+              1.0471975511965977461542144610932
+7. Find the error in the following code? 
+Predicted output: (b + (b2 - 4*a*c)(1/2))/(2*a)
+     (b - (b2 - 4*a*c)(1/2))/(2*a)
+Code: solve (b*x2 + c*x + a == 0)
+Present output: -(c + (c2 - 4*a*b)(1/2))/(2*b)
+ 		-(c - (c2 - 4*a*b)(1/2))/(2*b)
+a) Predicted output is same as present output after math magic
+b) solve(a*x2 + b*x + c == 0)
+c) vpa(solve(a*x2 – b*x + c == 0))
+d) solve(a*x2 – b*x + c == 0)
+d
+8. Which program can help to solve the following differential equation?
+dy/dx=b*y     y(0)=5;
+a) syms y(t) a;equn = diff(y,t)==b*y;cnd=y(0)==5;ySol(t)=dsolve(equn,cnd)
+b) syms y(t) a;eqn = diff(y,t) == a*y;ySol(t) = dsolve(eqn,(y(0)=5);
+c) syms y(t) a;eqn=diff(y,t)=a*y;cond=y(0)==5 sol(t)=dsolve(eqn,cond);
+d) sym y(t) a; eqn=diff(y,t)==a*y;cond=y(0)==5;sol(eqn,cond);
+a
+9. What happens if dsolve does not return any numerical solution?
+a) The equations have no solution
+b) The equations have a trivial solution
+c) The equations have infinite no. of solutions
+d) The equation has to be solve separately
+d
+10. If solve does not return any solution, what does it imply?
+a) The equation has no definite solution
+b) The equation has a solution for a specific interval
+c) The equation may be solvable but the function ‘solve’ cannot produce a solution
+d) There is no function ‘solve’
+c
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Variables and Assignments» Next - MATLAB Questions and Answers – Vectors and Matrices – 1 

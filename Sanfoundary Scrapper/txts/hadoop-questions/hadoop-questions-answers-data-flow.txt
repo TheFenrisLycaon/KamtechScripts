@@ -1,0 +1,67 @@
+1. ________ is a programming model designed for processing large volumes of data in parallel by dividing the work into a set of independent tasks.
+a) Hive
+b) MapReduce
+c) Pig
+d) Lucene
+b
+2. Point out the correct statement.
+a) Data locality means movement of the algorithm to the data instead of data to algorithm
+b) When the processing is done on the data algorithm is moved across the Action Nodes rather than data to the algorithm
+c) Moving Computation is expensive than Moving Data
+d) None of the mentioned
+a
+3. The daemons associated with the MapReduce phase are ________ and task-trackers.
+a) job-tracker
+b) map-tracker
+c) reduce-tracker
+d) all of the mentioned
+a
+4. The JobTracker pushes work out to available _______ nodes in the cluster, striving to keep the work as close to the data as possible.
+a) DataNodes
+b) TaskTracker
+c) ActionNodes
+d) All of the mentioned
+b
+5. Point out the wrong statement.
+a) The map function in Hadoop MapReduce have the following general form:map:(K1, V1) -> list(K2, V2)
+b) The reduce function in Hadoop MapReduce have the following general form: reduce: (K2, list(V2)) -> list(K3, V3)
+c) MapReduce has a complex model of data processing: inputs and outputs for the map and reduce functions are key-value pairs
+d) None of the mentioned
+c
+6. InputFormat class calls the ________ function and computes splits for each file and then sends them to the jobtracker.
+a) puts
+b) gets
+c) getSplits
+d) all of the mentioned
+c
+7.  On a tasktracker, the map task passes the split to the createRecordReader() method on InputFormat to obtain a _________ for that split.
+a) InputReader
+b) RecordReader
+c) OutputReader
+d) None of the mentioned
+b
+8. The default InputFormat is __________ which treats each value of input a new value and the associated key is byte offset.
+a) TextFormat
+b) TextInputFormat
+c) InputFormat
+d) All of the mentioned
+b
+9. __________ controls the partitioning of the keys of the intermediate map-outputs.
+a) Collector
+b) Partitioner
+c) InputFormat
+d) None of the mentioned
+b
+10. Output of the mapper is first written on the local disk for sorting and _________ process.
+a) shuffling
+b) secondary sorting
+c) forking
+d) reducing
+a
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Java Interface» Next - Hadoop Questions and Answers – Hadoop Archives 

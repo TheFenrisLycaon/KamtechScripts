@@ -1,0 +1,100 @@
+1. Which type of Ethernet framing is used for TCP/IP and DEC net?
+a) Ethernet 802.3
+b) Ethernet 802.2
+c) Ethernet II
+d) Ethernet SNAP
+c
+2. Consider a situation in which you are a system administrator on a NetWare network, you are running NetWare 4.11 and you cannot communicate with your router. What is the likely problem?
+a) NetWare 4.11 defaults to 802.2 encapsulation
+b) NetWare 4.11 defaults to 802.3 encapsulation
+c) Cisco routers only work with NetWare 3.11
+d) NetWare 3.11 defaults to 802.2 encapsulation
+a
+3. NetWare IPX addressing uses a network number and a node number. Which statement is not true?
+a) The network address is administratively assigned and can be up to 16 hexadecimal digits long
+b) The node address is always administratively assigned
+c) The node address is usually the MAC address
+d) If the MAC address is used as the node address, then IPX eliminates the use of ARP
+b
+4. Which NetWare protocol works on layer 3–network layer—of the OSI model?
+a) IPX
+b) NCP
+c) SPX
+d) NetBIOS
+a
+5. Which NetWare protocol provides link-state routing?
+a) NLSP
+b) RIP
+c) SAP
+d) NCP
+a
+Join Sanfoundry@YouTube
+6. As a system administrator, you want to debug IGRP but are worried that the “debug IP IGRP transaction” command will flood the console. What is the command that you should use?
+a) Debug IP IGRP event
+b) Debug IP IGRP-events
+c) Debug IP IGRP summary
+d) Debug IP IGRP events
+d
+7. What does the following series of commands “Router IGRP 71 network” accomplish?
+10.0.0.0 router IGRP 109 network 172.68.7.0
+a) It isolates networks 10.0.0.0 and 172.68.7.0
+b) It loads IGRP for networks 109 and 71
+c) It disables RIP
+d) It disables all routing protocols
+a
+8. The “IPX delay number” command will allow an administrator to change the default settings. What are the default settings?
+a) For LAN interfaces, one tick; for WAN interfaces, six ticks
+b) For LAN interfaces, six ticks; for WAN interfaces, one tick
+c) For LAN interfaces, zero ticks; for WAN interfaces, five ticks
+d) For LAN interfaces, five ticks; for WAN interfaces, zero Ticks
+a
+9. As a system administrator, you need to set up one Ethernet interface on the Cisco router to allow for both sap and Novell-ether encapsulations. Which set of commands will accomplish this?
+a) Interface Ethernet 0.1 IPX encapsulation Novell-ether IPX network 9e interface
+Ethernet 0.2 IPX network 6c
+b) Interface Ethernet 0 IPX encapsulation Novell-ether IPX network 9e interface
+Ethernet 0 IPX encapsulation sap IPX network 6c
+c) Interface Ethernet 0.1 IPX encapsulation Novell-ether interface Ethernet 0.2 IPX
+encapsulation sap
+d) Interface Ethernet 0.1ipx encapsulation Novell-ether IPX network 9e interface
+Ethernet 0.2 IPX encapsulation sap IPX network 6c
+d
+10. What does the “IPX maximum-paths 2” command accomplish?
+a) It enables load sharing on 2 paths if the paths are equal metric paths
+b) It sets up routing to go to network 2
+c) It is the default for Cisco IPX load sharing
+d) It enables load sharing on 2 paths if the paths are unequal metric paths
+a
+11. You want to enable both arpa and snap encapsulation on one router interface. How do you do this?
+a) The interface can handle multiple encapsulation types with no extra configuration
+b) Assign two network numbers, one for each encapsulation type
+c) Enable Novell-ether to run multiple encapsulation types
+d) Both arpa and snap are enabled by default so you don’t have to configure anything
+b
+12. By default, Cisco routers forward GNS SAPs to remote networks.
+a) False
+b) True
+a
+13. To prevent Service Advertisements (SAPs) from flooding a network, Cisco routers do not forward them. How are services advertised to other networks?
+a) Each router builds its own SAP table and forwards that every 60 seconds
+b) Each router assigns a service number and broadcasts that
+c) SAPs aren’t necessary with Cisco routers
+d) Cisco routers filter out all SAPs
+a
+14. Novell’s implementation of RIP updates routing tables every _________ seconds.
+a) 60
+b) 90
+c) 10
+d) 30
+a
+15. In Novell’s use of RIP, there are two metrics used to make routing decisions. Select the correct metrics.
+a) Ticks & Hops
+b) Hops & Loops
+c) Loops & Counts
+d) Counts & Ticks
+a
+Sanfoundry Global Education & Learning Series – Computer Networks.
+To practice all areas of Computer Networks, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Networks Questions & Answers – Designing Subnet Masks» Next - Computer Networks Questions & Answers – RIP v1 

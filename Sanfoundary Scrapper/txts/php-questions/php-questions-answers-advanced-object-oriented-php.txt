@@ -1,0 +1,82 @@
+1. Which of the following advanced OOP features is/are not supported by PHP?
+
+i) Method overloading
+ii) Multiple Inheritance
+iii) Namespaces
+iv) Object Cloning
+a) i)
+b) ii)
+c) i) and ii)
+d) iii) and iv)
+c
+2. Which version of PHP introduced the advanced concepts of OOP?
+a) PHP 4
+b) PHP 5
+c) PHP 5.3
+d) PHP 6
+b
+3. Which one of the following is the right way to clone an object?
+a) _clone(targetObject);
+b) destinationObject = clone targetObject;
+c) destinationObject = _clone(targetObject);
+d) destinationObject = clone(targetObject);
+View answerAnswer: b
+4. The class from which the child class inherits is called ________
+
+i) Child class
+ii) Parent class
+iii) Super class
+iv) Base class
+a) Only i)
+b) ii), iii) and iv)
+c) Only iii)
+d) ii) and iv)
+d
+5. Which of the following is/are true for an abstract class?
+i) Abstract classes in PHP are declared with the help of abstract keyword.
+ii) A class is declare abstract by using the keyword implements.
+iii) It is a class that really isn’t supposed to ever be instantiated but instead serves as a base class.
+iv) Attempting to instantiate an abstract class results in an error.
+a) Only i)
+b) Only iii)
+c) ii) and iv)
+d) ii), iii) and iv)
+a
+6. If one intends to create a model that will be assumed by a  number of closely related objects, which class must be used?
+a) Normal class
+b) Static class
+c) Abstract class
+d) Interface
+c
+7. If your object must inherit behavior from a number of sources you must use a/an
+a) Interface
+b) Object
+c) Abstract class
+d) Static class
+a
+8. Which method is used to tweak an object’s cloning behavior?
+a) clone()
+b) __clone()
+c) _clone
+d) object_clone()
+b
+9. Which feature allows us to call more than one method or function of the class in single instruction?
+a) Typecasting
+b) Method Including
+c) Method adding
+d) Method chaining
+d
+$a = new Order();
+$a->CreateOrder()->sendOrderEmail()->createShipment();
+10. Which magic method is used to implement overloading in PHP?
+a) __call
+b) __invoke
+c) __wakeup
+d) __unset
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Basics of Object-Oriented PHP- 2» Next - PHP Questions & Answers – Error Handling 

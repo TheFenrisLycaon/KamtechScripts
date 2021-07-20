@@ -1,0 +1,122 @@
+1. Which of the following is a stringizing operator?
+a) < >
+b) #
+c) %
+d) ##
+b
+2. What will be the output of the following C code?
+#define sanfoundry(s,n) #s #n
+main()
+{
+    printf(sanfoundry(hello,world));
+}
+a) sanfoundry(hello,world)
+b) sanfoundry
+c) hello,world
+d) helloworld
+d
+3. What will be the output of the following C code?
+#define display(text) printf(#text "@")
+main()
+{
+    display(hello.);
+    display(good morning!);
+}
+a) hello.@good morning!
+b) error
+c) hello.good morning!@
+d) hello.@good morning!@
+d
+Join Sanfoundry@YouTube
+4. What will be the output of the following C code?
+#define display(a) #a
+main()
+{
+    printf(display("56#7"));
+}
+a) Error
+b) “56#7”
+c) 56#7
+d) 567
+b
+5. What will be the output of the following C code?
+#define HELLO(a) #a
+main()
+{
+    printf(HELLO(good        morning)); 
+}
+a) good        morning
+b) goodmorning
+c) good morning
+d) error
+c
+In the resulting string, the consecutive blank spaces are replaced by a single blank space when we use the stringizing operator.
+6. What will be the output of the following C code?
+#include <stdio.h>
+#define sanfoundry(x)  #x
+int main()
+{
+    int marks=100;
+    printf("value of %s is = %d\n",sanfoundry(marks),marks);
+    return 0;
+}
+a) error
+b) value of marks=100
+c) value of=100
+d) 100
+b
+7. What will be the output of the following C code?
+#define hello(c) #c
+main()
+{
+    printf(hello(i,am));
+}
+a) i,am
+b) iam
+c) i am
+d) error
+d
+8. What will be the output of the following C code?
+#define hello(c,d) #c #d
+main()
+{
+    printf(hello(i,"am"));
+}
+a) iam
+b) i“am”
+c) am
+d) “am”
+b
+9. What will be the output of the following C code?
+#define F abc
+#define B def
+#define FB(arg) #arg
+#define FB1(arg) FB(arg)
+main()
+{
+    printf(FB(F B));
+    FB1(F B);
+}
+a) F B
+b) Error
+c) FB
+d) “FB”
+a
+10. What will be the output of the following C code?
+#define display(text) "$" #text
+main()
+{
+    printf(display(hello	   world));
+}
+a) hello world
+b) $helloworld
+c) $hello world
+d) error
+c
+The argument “hello  world” is passed to the macro text. The symbol “$” is present from before. In the resulting string, all the blank spaces are replaced by a single blank space. In addition to this, “$” is concatenated to the beginning of the resultant string.
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Pragma» Next - C Questions and Answers – Conditional Preprocessor Directives – 1 

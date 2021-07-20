@@ -1,0 +1,81 @@
+1. Which of the following is the highest priority usage among them?
+a) second transfer cycle of a processor extension data transfer
+b) third transfer cycle of a processor extension data transfer
+c) hold request
+d) second byte transfer of 2-byte transfer at an odd address
+d
+2. The highest priority usage than any other usage is
+a) transfer with LOCK (active low) signal
+b) hold request
+c) processor extension data transfer
+d) data transfer performed by EU (execution unit)
+a
+3. The lowest priority usage among the following is
+a) hold request
+b) processor extension data transfer
+c) prefetch operation to fetch and arrange next instruction bytes in queue
+d) data transfer performed by EU for instruction execution
+c
+1. transfer with LOCK (active low) signal
+2. second byte transfer of 2-byte transfer at an odd address
+3. second or third transfer cycle of a processor extension data transfer
+4. HOLD request
+5. processor extension data transfer
+6. data transfer performed by EU (execution unit)
+7. prefetch operation to fetch and arrange next instruction bytes in queue.
+4. As a response to the valid bus hold request, the bus is pushed into
+a) TH (hold) state
+b) Ts (status) state
+c) Tc (command) state
+d) Ti (idle) state
+a
+5. The bus arbiter relinquishes
+a) Address
+b) M/IO (active low)
+c) COD/INTA (active low)
+d) All of the mentioned
+d
+Join [email protected]
+6. A valid HOLD request is ascertained only after the completion of
+a) 34 clockcycles
+b) 24 clockcycles and 80286 is SET
+c) 34 clockcycles and 80286 is SET
+d) 34 clockcycles and 80286 is RESET
+d
+7. The master PIC 8259A decides which of its slave interrupt controllers is to return the vector address, as a response of
+a) first INTA (active low) pulse from 80286
+b) second INTA (active low) pulse from 80286
+c) third INTA (active low) pulse from 80286
+d) none of the mentioned
+a
+8. The slave (which is selected) sends the vector on data bus after the
+a) first INTA (active low) pulse from 80286
+b) second INTA (active low) pulse from 80286
+c) third INTA (active low) pulse from 80286
+d) none of the mentioned
+b
+9. The signal of 82C288, that enables the cascade address drivers, during INTA cycles is
+a) DEN
+b) DT/R (active low)
+c) MCE
+d) MB
+c
+10. The LOCK (active low) signal is activated during
+a) Ti of first INTA cycle
+b) Ts of first INTA cycle
+c) Th of second INTA cycle
+d) Ts of second INTA cycle
+b
+11. The number of idle states (Ti), that is allowed between two INTA cycles, to meet the 8259A speed and cascade address output delay is
+a) 1
+b) 2
+c) 3
+d) 4
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice  all areas of Microprocessors for tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – 80286 Minimum System Configuration,  Interfacing Memory and I/O Devices With 80286» Next - Microprocessors Questions and Answers – Instruction Set Features -1 

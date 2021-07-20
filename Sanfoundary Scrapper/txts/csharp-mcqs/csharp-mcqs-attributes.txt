@@ -1,0 +1,82 @@
+1. Which of the following cannot further inspect the attribute that is once applied?
+a) Linker
+b) ASP.NET Runtime
+c) Language compilers
+d) CLR
+a
+2. To apply an attribute to an Assembly, the correct way of implementation is?
+a) [AssemblyInfo: AssemblyDescription (“Csharp”)] 
+b) [assembly: AssemblyDescription(“Csharp”)] 
+c) [AssemblyDescription(“Csharp”)] 
+d) (Assembly:AssemblyDescription(“Csharp”)] 
+b
+3. The correct method to pass a parameter to an attribute is?
+a) By name
+b) By address
+c) By value
+d) By reference
+a
+4. Which among the following is the correct form of applying an attribute?
+a)
+  <Serializable()>class sample
+  {
+ 
+  }
+b)
+  (Serializable())class sample
+  {
+ 
+  }
+c)
+  [Serializable()] class sample
+  {
+ 
+  }
+d) None of the mentioned
+c
+  
+5. Which among the following cannot be a target for a custom attribute?
+a) Enum
+b) Event
+c) Interface
+d) Namespace
+d
+6. Select the correct statement about Attributes used in C#.NET?
+a) The CLR can change the behaviour of the code depending on attributes applied to it
+b) If a bugFixAttribute is to receive three parameters, then the BugFixAttribute class should implement a zero argument constructor
+c) To create a custom attribute we need to create a custom attribute structure and derive it from System.Attribute
+d) None of the mentioned
+a
+7. The correct way to apply the custom attribute called Employer which receives two arguments – name of the employee and employeeid is?
+a) Custom attribute can be applied to an assembly
+b) [assembly : Employer(“Ankit”,employeeid.one)] 
+c) 
+   [ Employer("Ankit",  employeeid.second)] class employee
+   {
+   }
+d) All of the mentioned
+d
+8. Which of the following is the correct statement about inspecting an attribute in C#.NET?
+a) An attribute can be inspected at link time
+b) An attribute can be inspected at design time
+c) An attribute can be inspected at run time
+d) None of the mentioned
+a
+9. Attributes could be applied to ___________
+a) Method
+b) Class
+c) Assembly
+d) All of the mentioned
+d
+10. The [Serializable()] attributes gets inspected at _________
+a) compile time
+b) run time
+c) design time
+d) linking time
+b
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C#Questions & Answers – Try & Catch in Detail» Next - C# Questions & Answers – Introduction of Console I/O Operations 

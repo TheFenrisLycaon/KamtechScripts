@@ -1,0 +1,95 @@
+1. What is a shell script?
+a) group of commands
+b) a file containing special symbols
+c) a file containing a series of commands
+d) group of functions
+c
+2. Shell scripts need to be saved with an extension .sh .
+a) True
+b) False
+b
+3. Shell scripts are executed in a separate child shell process.
+a) True
+b) False
+a
+4. The first line in any shell script begins with a _____
+a) &
+b) !
+c) $
+d) #
+d
+#!/bin/sh                   // first line defining the pathname
+# script.sh                // name of the script
+5. To run the script, we should make it executable first by using _____
+a) chmod +x
+b) chmod +r
+c) chmod +w
+d) chmod +rwx
+a
+Join [email protected]
+6. To spawn a child of our own choice for running the script, we can use ___ command.
+a) ps
+b) pr
+c) sh
+d) $$
+c
+7. Which command is used for making the scripts interactive?
+a) ip
+b) input
+c) read
+d) write
+c
+#!/bin/sh                
+# emp.sh
+echo ”enter your name”
+read Uname                  //read input from the user
+echo $Uname                // display input entered by the user
+ 
+8. read command is shell’s internal tool.
+a) True
+b) False
+a
+9. A single read statement can be used with one or more variables.
+a) True
+b) False
+a
+read FirstName  LastName 
+10. What are positional parameters?
+a) special variables for assigning arguments from the command line
+b) pattern matching parameters
+c) special variables for reading user input
+d) special variables and patterns
+a
+11. The first argument is read by the shell into the parameter ___
+a) 1$
+b) $3
+c) $$
+d) $1
+d
+12. The complete set of positional parameters is stored in ______ as a single string.
+a) $n
+b) $#
+c) $*
+d) $$
+c
+13. Which of the following is used for storing the number of positional parameters?
+a) $n
+b) $#
+c) $*
+d) $2
+b
+#!/bin/sh                
+# emp.sh
+echo “ The number of arguments specified are $#
+The arguments are $*”
+Now execute the script:
+$ emp.sh  director.lst            // director.lst is command line argument given to the script.
+The number of arguments specified is 1
+The arguments are director.lst
+ 
+Sanfoundry Global Education & Learning Series – Unix.
+To practice  all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – sed command – 2» Next - Unix  Questions and Answers – Logical Operators and Conditional Execution 

@@ -1,0 +1,86 @@
+1. The database administrator who authorizes all the new users, modifies the database and takes grants privilege is
+a) Super user
+b) Administrator
+c) Operator of operating system
+d) All of the mentioned
+d
+2. Which of the following is a basic form of grant statement?
+a)
+   GRANT 'privilege list'
+   ON 'relation name or view name'
+   TO 'user/role list';
+b)
+   GRANT 'privilege list'
+   ON 'user/role list'
+   TO 'relation name or view name';
+c)
+   GRANT 'privilege list'
+   TO 'user/role list'
+d)
+   GRANT 'privilege list'
+   ON 'relation name or view name'
+   ON 'user/role list';
+a
+  
+3. Which of the following is used to provide privilege to only a particular attribute?
+a) Grant select on employee to Amit
+b) Grant update(budget) on department to Raj
+c) Grant update(budget,salary,Rate) on department to Raj
+d) Grant delete to Amit
+b
+4. Which of the following statement is used to remove the privilege from the user Amir?
+a) Remove update on department from Amir
+b) Revoke update on employee from Amir
+c) Delete select on department from Raj
+d) Grant update on employee from Amir
+b
+5. Which of the following is used to provide delete authorization to instructor?
+a)
+   CREATE ROLE instructor ;
+   GRANT DELETE TO instructor;
+b)
+   CREATE ROLE instructor;
+   GRANT SELECT ON takes
+   TO instructor;
+c)
+   CREATE ROLE instructor;
+   GRANT DELETE ON takes
+   TO instructor;
+d) All of the mentioned
+c
+6. Which of the following is true regarding views?
+a) The user who creates a view cannot be given update authorization on a view without having update authorization on the relations used to define the view
+b) The user who creates a view cannot be given update authorization on a view without having update authorization on the relations used to define the view
+c) If a user creates a view on which no authorization can be granted, the system will allow the view creation request
+d) A user who creates a view receives all privileges on that view
+c
+7. If we wish to grant a privilege and to allow the recipient to pass the privilege on to other users, we append the __________ clause to the appropriate grant command.
+a) With grant
+b) Grant user
+c) Grant pass privelege
+d) With grant option
+d
+8. In authorization graph, if DBA provides authorization to u1 which inturn gives to u2 which of the following is correct?
+a) If DBA revokes authorization from u1 then u2 authorization is also revoked
+b) If u1 revokes authorization from u2 then u2 authorization is revoked
+c) If DBA & u1 revokes authorization from u1 then u2 authorization is also revoked
+d) If u2 revokes authorization then u1 authorization is revoked
+c
+9. Which of the following is used to avoid cascading of authorizations from the user?
+a) Granted by current role
+b) Revoke select on department from Amit, Satoshi restrict;
+c) Revoke grant option for select on department from Amit;
+d) Revoke select on department from Amit, Satoshi cascade;
+b
+10. The granting and revoking of roles by the user may cause some confusions when that user role is revoked. To overcome the above situation
+a) The privilege must be granted only by roles
+b) The privilege is granted by roles and users
+c) The user role cannot be removed once given
+d) By restricting the user access to the roles
+a
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – SQL Data Types and Schemas» Next - Database Questions and Answers – Access SQL From a Programming Language 

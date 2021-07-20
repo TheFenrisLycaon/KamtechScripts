@@ -1,0 +1,61 @@
+1. ____________ does not provide query execution information for the rejected plans.
+a) serverstats
+b) queryPlanner
+c) executionStats
+d) all of the mentioned
+c
+2. Which of the following provides information on the MongoDB instance?
+a) serverInfo
+b) queryPlanner
+c) executeStats
+d) none of the mentioned
+a
+3. _________ corresponds to the millis field returned by cursor.explain() in earlier versions of MongoDB.
+a) executionMillis
+b) executionTimeMillis
+c) timemillis
+d) all of the mentioned
+b
+4. For sharded collections, explain returns the __________ for each accessed shard.
+a) clientInfo
+b) serverInfo
+c) serverplan
+d) all of the mentioned
+b
+5. Point out the wrong statement.
+a) If MongoDB can use an index scan to obtain the requested sort order, the result will not include a SORT stage
+b) In previous versions of MongoDB, cursor.explain() returned the scanAndOrder field to specify whether MongoDB could use the index order to return sorted results
+c) If MongoDB uses indexes for a $and expression, the result will include the AND stage with an inputStages array that details the replicata sets
+d) None of the mentioned
+a
+6. If the query planner selects a collection scan, the explain result includes a _________ stage.
+a) COLLSCAN
+b) TABLESCAN
+c) ROWSCAN
+d) All of the mentioned
+a
+7. Which of the following parameter specifies the verbosity mode for the explain output?
+a) verbosity
+b) verbose
+c) queryPlanner
+d) none of the mentioned
+b
+8. In _____________ mode, MongoDB returns statistics describing the execution of the winning plan as well as statistics for the other candidate plans captured during plan selection.
+a) somePlansExecution
+b) allPlansExecution
+c) rejPlansExecution
+d) none of the mentioned
+b
+9. If the query planner selects a _________ the explain result includes an IXSCAN stage.
+a) Index
+b) Replica Set
+c) Document
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Optimization Strategies – 2» Next - MongoDB Questions and Answers – System Collections 

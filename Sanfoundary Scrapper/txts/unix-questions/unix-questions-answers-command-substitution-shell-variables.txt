@@ -1,0 +1,130 @@
+1. Shell enables one or more arguments to be obtained from the standard output of another command. This feature is called _________
+a) command substitution
+b) argument substitution
+c) shell substitution
+d) korn
+a
+Today’s date is Sat  Jan 05 17:25:41  IST 2002
+We can use the following command
+$ echo “Today’s date is `date`”        // date is an argument to echo command
+2. Which of the following meta-character is used in command substitution?
+a) `
+b) ‘
+c) “
+d) >
+a
+3.  Command substitution is enabled in single quotes also.
+a) True
+b) False
+b
+$ echo ‘today’s date is `date` ‘
+Output will be: today’s date is `date
+$ echo “today’s date is `date` “
+Output will be: today’s date is  Sat  Jan 05 17:25:41  IST 2017
+ 
+4. POSIX recommends the use of ____ instead of archaic `command ` for command substitution.
+a) |
+b) #
+c) %
+d) $
+d
+$ echo The date is $(date)
+Output: The date is  Sat  Jan 05 17:25:41  IST 2017
+ 
+5. Which of the following shell doesn’t support the command substitution using $ recommended by POSIX?
+a) Korn
+b) bash
+c) C
+d) bourne
+d
+6. Which symbol is used for assigning a value to variables?
+a) $
+b) &
+c) =
+d) @
+c
+$ count=10        // a variable named count is assigned a value of 10
+ 
+7.  Which symbol is used for evaluation of variables?
+a) $
+b) &
+c) =
+d) @
+a
+$ count=10
+$ echo $count        // output will be 10
+8. Which of the following is a correct initialization of variables to null strings?
+a) x=
+b) x=’ ‘
+c) x=” “
+d) x=, x=’ ‘, x=” “
+d
+9. A variable can be removed using _____
+a) unset
+b) readonly
+c) del
+d) bash
+a
+$ unset  x
+10. readonly command is used to protect a variable from reassignment.
+a) True
+b) False
+a
+$ readonly  x            // x can’t be reassigned now
+ 
+11. C shell uses which command for assigning values to variables?
+a) =
+b) set
+c) unset
+d) $
+b
+$ set count=1 
+Or 
+$ set count=1
+ 
+12. The variable assignment as x = 10 (whitespace on both sides of =) will work if we are not using C shell?
+a) True
+b) False
+b
+13. What will the result when we evaluate this statement?
+$ directory=’pwd’=`pwd`
+a) output of pwd command along with string pwd=
+b) undefined output
+c) erroneous
+d) directory variable will hold string pwd
+a
+pwd=/home/usr10/doc
+ 
+14. Which of the following is not a system defined variable?
+a) $PATH
+b) $HOME
+c) $SHELL
+d) $cd
+d
+15. Which of the following is an invalid variable?
+a) _user
+b) us01
+c) -txtfile
+d) txt123
+c
+Following are some valid variable names:
+User01        user_01    _user67
+Following are some invalid variable names:
+2_var        user!        -textfile
+16. Command substitution requires the command to use ________
+a) standard input
+b) standard output
+c) standard error
+d) all of the mentioned
+b
+17. The command is valid.
+$ ls  -lRa  $HOME  > home.ls
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Redirection and Pipes – 2» Next - Unix  Questions and Answers – Process Basics 

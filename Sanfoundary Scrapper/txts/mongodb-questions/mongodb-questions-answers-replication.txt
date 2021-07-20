@@ -1,0 +1,67 @@
+1. A _______ set is a group of mongod instances that host the same data set.
+a) copy
+b) sorted
+c) radii
+d) replica
+d
+2. Point out the wrong statement.
+a) Replication provides redundancy and increases data availability
+b) Replication allows you to recover from hardware failure and service interruptions
+c) With multiple copies of data on different database servers, replication protects a database from the loss of a single server
+d) None of the mentioned
+d
+3. All other instances, secondaries, apply operations from the _________ so that they have the same data set.
+a) center
+b) secondary
+c) primary
+d) none of the mentioned
+c
+4. A replica set can have only ________ primary.
+a) One
+b) Two
+c) Three
+d) All of the mentioned
+a
+5. Point out the wrong statement.
+a) In all cases, you can use replication to increase read capacity
+b) Clients have the ability to send read and write operations to different servers
+c) You can also maintain copies in different data centers to increase the locality and availability of data for distributed applications
+d) None of the mentioned
+a
+6. To support replication, the primary records all changes to its data sets in its _______
+a) oplog
+b) adlog
+c) log
+d) none of the mentioned
+a
+7. You may add an extra mongod instance to a replica set as an __________
+a) arbiter
+b) replicator
+c) additor
+d) all of the mentioned
+a
+8. An arbiter will always be an arbiter whereas a primary may step down and become a secondary and a _________ may become the primary during an election.
+a) center
+b) secondary
+c) primary
+d) none of the mentioned
+b
+9. When a primary does not communicate with the other members of the set for more than ____ seconds, the replica set will attempt to select another member to become the new primary.
+a) 10
+b) 20
+c) 30
+d) None of the mentioned
+a
+10. When a replica set has one and only one primary, reads from that primary provide ______ consistency.
+a) strict
+b) partial
+c) weak
+d) all of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Indexing Methods» Next - MongoDB Questions and Answers – Replica Set Members 

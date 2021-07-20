@@ -1,0 +1,67 @@
+1. To perform a delete on a single-table, how is the name of a column qualified?
+a) qualification not necessary
+b) column name
+c) table name
+d) database name
+a
+2. What is xyz in the following SQL statement?
+	DELETE FROM xyz WHERE abc = 5;
+a) column name
+b) table name
+c) row name
+d) database name
+b
+3. A multiple-table delete can apply any join.
+a) True
+b) False
+a
+Join [email protected]
+4. What is abc in the following SQL statement?
+	DELETE FROM xyz WHERE abc = 5;
+a) column name
+b) table name
+c) row name
+d) database name
+a
+5. What is x in the following MySQL statement?
+	DELETE FROM x USING x LEFT JOIN y ON x.col = y.col;
+a) column name
+b) table name
+c) server name
+d) database name
+b
+6. Qualifying the name of column with the table name is not necessary in single-table updates.
+a) True
+b) False
+a
+7. What is the value of val2 in the following MySQL statement?
+	UPDATE t SET val1 = val1 + 2, val2 = val1;
+a) previous val1
+b) updated val1
+c) unchanged
+d) val1 + 1
+b
+8. UPDATE statement is a DML statement. What does DML stand for?
+a) Data Manipulation Language
+b) Data Manipulation Level
+c) Data Markup Language
+d) Data Markup Level
+a
+9. Which keyword in the UPDATE statement is used to assign values to columns?
+a) ASSIGN
+b) SET
+c) MARK
+d) GET
+b
+10. Which keyword is used to delete all the rows from the table?
+a) TRUNCATE
+b) REMOVE
+c) DELETE ALL
+d) CLEAR
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Using Views» Next - MySQL Questions and Answers – Performing Transactions 

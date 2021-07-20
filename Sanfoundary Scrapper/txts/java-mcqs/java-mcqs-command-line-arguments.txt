@@ -1,0 +1,92 @@
+1. Which of this method is given parameter via command line arguments?
+a) main()
+b) recursive() method
+c) Any method
+d) System defined methods
+a
+2. Which of these data types is used to store command line arguments?
+a) Array
+b) Stack
+c) String
+d) Integer
+c
+3. How many arguments can be passed to main()?
+a) Infinite
+b) Only 1
+c) System Dependent
+d) None of the mentioned
+a
+4. Which of these is a correct statement about args in the following line of code?
+public static void main(String args[])
+a) args is a String
+b) args is a Character
+c) args is an array of String
+d) args in an array of Character
+c
+5. Can command line arguments be converted into int automatically if required?
+a) Yes
+b) No
+c) Compiler Dependent
+d) Only ASCII characters can be converted
+b
+6. What will be the output of the following Java program, Command line execution is done as – “java Output This is a command Line”?
+    class Output     {        public static void main(String args[])         {            System.out.print("args[0]");        }    }
+a) java
+b) Output
+c) This
+d) is
+c
+Output:
+$ javac Output.javac
+java Output This is a command Line
+This
+7. What will be the output of the following Java program, Command line exceution is done as – “java Output This is a command Line”?
+    class Output     {        public static void main(String args[])         {            System.out.print("args[3]");        }    }
+a) java
+b) is
+c) This
+d) command
+d
+Output:
+$ javac Output.javac
+java Output This is a command Line
+command
+8. What will be the output of the following Java program, Command line execution is done as – “java Output This is a command Line”?
+    class Output     {        public static void main(String args[])         {            System.out.print("args");        }    }
+a) This
+b) java Output This is a command Line
+c) This is a command Line
+d) Compilation Error
+c
+Output:
+$ javac Output.javac
+java Output This is a command Line
+This is a command Line
+9. What will be the output of the following Java program, Command line execution is done as – “java Output command Line 10 A b 4 N”?
+    class Output     {        public static void main(String args[])         {            System.out.print("(int)args[2] * 2");        }    }
+a) java
+b) 10
+c) 20
+d) b
+c
+Output:
+$ javac Output.javac
+java Output command Line 10 A b 4 N
+20
+10. What will be the output of the following Java program, Command line execution is done as – “java Output command Line 10 A b 4 N”?
+    class Output     {        public static void main(String args[])         {            System.out.print("args[6]");        }    }
+a) java
+b) 10
+c) b
+d) N
+d
+Output:
+$ javac Output.javac
+java Output command Line 10 A b 4 N
+N
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Methods Taking Parameters» Next - Java Questions & Answers – Command Line Arguments – 2 

@@ -1,0 +1,92 @@
+1. Which mode of operation has the worst “error propagation” among the following?
+a) OFB
+b) CFB
+c) CBC
+d) ECB
+d
+2. Which block mode limits the maximum throughput of the algorithm to the reciprocal of the time for one execution?
+a) OFB
+b) CTR
+c) CBC
+d) ECB
+b
+3. Which mode requires the implementation of only the encryption algorithm?
+a) ECB
+b) CBC
+c) CTR
+d) OFB
+c
+4. Which of the following modes of operation does not involve feedback?
+a) ECB
+b) CBC
+c) CTR
+d) OFB
+a
+5. Which of the following is a natural candidates for stream ciphers?
+a) OFB
+b) CFB
+c) CBC
+d) ECB
+a
+6. The XTS-AES mode was approved by NIST in
+a) 1999
+b) 2010
+c) 2006
+d) 2002
+b
+7. The XTS-AES mode is based on the concept of tweakable block cipher.
+a) True
+b) False
+a
+8. The purpose of a ‘tweak’ in XTS-AES mode is to
+a) secure the public key
+b) provide security
+c) provide variability
+d) all of the mentioned
+c
+9. A tweak is used in XTS-AES mode to provide a different output for the same input PT and same key.
+a) True
+b) False
+a
+10. XTS-AES mode of operation is a better version of
+a) OFB
+b) CFB
+c) CTR
+d) ECB
+d
+11. What is the size of the XTS-AES key?
+a) 1024 bits
+b) 64 bits
+c) 512 bits
+d) 128 bits
+c
+12. Which of the following represent the tweak?
+a) j
+b) i
+c) alpha
+d) alphaj
+b
+13. Which of the following is true for the tweak in XTS-AES mode?
+a) they are non-negative integers
+b) they are of size 128 bits
+c) they are assigned consecutively
+d) all of the mentioned
+d
+14. Which of the following is the correct encryption statement representation for the XTS-AES mode?
+a) E(K1,P) XOR T
+b) E(K2,T) XOR P
+c) E(K1,T XOR P) XOR P
+d) E(K1,P XOR T) XOR T
+d
+15. The last two blocks of the XTS-AES mode are  –
+a) padded as 10*
+b) encrypted/ decrypted using ciphertext-stealing
+c) padded as 10*1
+d) padded and then swapped after encryption/ decryption
+b
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography for Experienced, here is complete set of 1000+ Multiple Choice Questions and Answers
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Symmetric Ciphers Questions and Answers – DES Modes of Operation – I» Next - Symmetric Ciphers Questions and Answers – Principles of PRNG – I 

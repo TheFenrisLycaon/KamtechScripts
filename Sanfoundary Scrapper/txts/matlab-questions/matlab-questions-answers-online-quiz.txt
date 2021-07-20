@@ -1,0 +1,83 @@
+1. What is the output of the following code?
+t=[0:.1*pi:pi];plot(t,sin(t),’MarkerIndices’,1:rms(sin(t)):length(sin(t))
+a) Error
+b) A sinusoid
+c) A half wave sinusoid marked at interval of r.m.s. values
+d) A green colored sinusoid
+a
+2. The fill command cannot take more than ______ inputs.
+a) 1
+b) 3
+c) 2
+d) Many
+c
+3. What is the output of the following code?
+t=0:.000001:pi;x=sin(t);y=cos(t);fill(x,y)
+a) An ellipse
+b) Error
+c) A semi-circle
+d) A sinusoid
+b
+4. What is the output of the following code?
+w=[0:.1*pi:2*pi];plot(w,sin(w),’ ’)
+a) A sinusoid
+b) A blank graph
+c) Error in plot command
+d) A sinusoid with a phase difference
+a
+5. What does the set command do?
+a) The operation of the fill command
+b) The operation of changing intervals of axes
+c) The operation of the plot command
+d) The operation of the figure command
+b
+6. What is the nature of the 2nd vector input in the following command?
+set( X,vector_1, vector _2 );
+a) a m*n matrix where m=length( vector_1 )
+b) a m*n matrix where n=length( vector_1 )
+c) a m*n matrix where m>length( vector_1 )
+d) a m*n matrix where n>length( vector_1 )
+a
+7. A semi-log graph cannot be plotted in MATLAB.
+a) True
+b) False
+b
+8. What is the output of the following code?
+t=[-2:1:2];plot(t,t);ax=gca;ax.Xscale=’Logarithmic’;
+a) Error
+b) Syntactical error
+c) A semi-log graph of a ramp function
+d) A ramp function
+a
+9. What is the output of the following code?
+t=[-2:1:2];plot(t,exp(t));ax=gca;ax.Yscale=’Log’;
+a) Error
+b) An exponential graph
+c) A logarithmic function
+d) A ramp function
+d
+10. Using the set command for axes can be replaced by setting the ___ to a variable.
+a) gca
+b) gcf
+c) gco
+d) not possible
+a
+11. What is the output of the following code?
+plot([-3:1:3],[-3:1:3]);cla;
+a) Error
+b) A ramp function
+c) A graph of a ramp function with no axes
+d) A window having two axes
+d
+12. How many objects are created for 24 texts written in the graph?
+a) 22
+b) 24
+c) 21
+d) 2
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice  all areas of MATLAB for online Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Customizing and Manipulating Graphics – 1» Next - MATLAB Questions and Answers – Branching – 1 

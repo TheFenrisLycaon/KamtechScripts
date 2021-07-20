@@ -1,0 +1,77 @@
+1. In Broadside array the maximum radiation is directed with respected to the array axis at an angle____
+a) 90°
+b) 45°
+c) 0°
+d) 180°
+a
+2. What is the phase excitation difference for a broadside array?
+a) 0
+b) π/2
+c) π
+d) 3π/2
+a
+And φ=kdcosθ+β
+=> kdcosθ+β=0 For a broadside maximum radiation is normal to axis of array so θ=90
+=> β=0
+3. Which of the following statements is false regarding a broadside array?
+a) The maximum radiation is normal to the axis of the array
+b) Must have same amplitude excitation but different phase excitation among different elements
+c) The spacing between elements must not equal to the integral multiples of λ
+d) The phase excitation difference must be equal to zero
+b
+4. Which of the following cannot be the separation between elements in a broadside array to avoid grating lobes?
+a) 4λ/2
+b) λ/2
+c) 3λ/2
+d) 5λ/2
+a
+So when d=2λ grating lobes occurs which means maxima are found at other angles also. So this is not a desired spacing.
+5. Find the value θn at which null occurs for an 8-element broadside array with spacing d.
+a) \(cos^{-1}⁡\frac{λn}{Nd}\) 
+b) \(sin^{-1}⁡\frac{λn}{Nd}\) 
+c) \(cos^{-1}⁡\frac{2λn}{Nd}\) 
+d) \(sin^{-1}⁡\frac{2λn}{Nd}\) 
+a
+⇨	\(sin\frac{Nφ}{2} = 0   =>\frac{Nφ}{2}=±nπ \,and\, φ=kdcosθ+β=kdcosθ_n=\frac{2π}{λ} dcosθ_n\) 
+⇨ Null occurs at \(θ_n=cos^{-1}⁡\frac{λn}{Nd}\) 
+6. What would be the directivity of a linear broadside array in dB consisting 5 isotropic elements with element spacing λ/4?
+a) 9.37
+b) 3.97
+c) 6.53
+d) 3.79
+b
+D (dB) = 10log2.5=3.97 dB
+7. In a broadside array all the elements must have equal ______ excitation with similar amplitude excitations to get maximum radiation.
+a) Phase
+b) Frequency
+c) Voltage
+d) Current
+a
+8. The directivity of a linear broadside array with half wave length spacing is equal to _____
+a) Unity
+b) Zero
+c) Half of the number of elements present in array
+d) Number of elements present in array
+d
+Directivity \(D=\frac{2Nd}{λ} \) 
+⇨	\(D=\frac{2Nd}{λ}=\frac{2Nλ/2}{λ}=N\) 
+9. Which of the following is false regarding a linear broadside array with 2 elements and spacing λ?
+a) Directivity = 6.02 dB
+b) No grating lobes are present
+c) Nulls occur at \(cos^{-1}⁡\frac{1}{2} \) 
+d) The maxima occurs normal to the axis of array and also at other angles
+b
+Directivity \(D=\frac{2Nd}{λ}=4=6.02dB\) 
+⇨	Null occurs at \(θ_n=cos^{-1}⁡\frac{λn}{Nd}=cos^{-1}⁡\frac{1}{2} \) 
+10. What is the radiation pattern of a broadside array when array element axis coincides with the 0° line?
+a)  
+b)
+c)
+d)
+a
+Sanfoundry Global Education & Learning Series – Antennas.
+To practice all areas of Antennas, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antenna Array Questions and Answers – Radiation Pattern of 8-Isotropic Elements» Next - Antenna Array Questions and Answers – Array of N-Isotropic Sources 

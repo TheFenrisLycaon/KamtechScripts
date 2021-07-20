@@ -1,0 +1,82 @@
+1. An IP packet has arrived with the first 8 bits as 01000010. What is the version?
+a) 3
+b) 4
+c) 5
+d) 6
+b
+2. An IP packet has arrived with the first 8 bits as 01000010. What is the header length?
+a) 4
+b) 8
+c) 12
+d) 16
+b
+2 x 4 = 8.
+3. In an IP packet, the value of HLEN is 1000 in binary. How many bytes of options are being carried by this packet?
+a) 16
+b) 64
+c) 32
+d) 8
+c
+8 x 4 = 32 bytes.
+4. In an IP packet, the value of HLEN is 5_16 and the value of the total length field is 0028_16. How many bytes of data are being carried by this packet?
+a) 10
+b) 40
+c) 60
+d) 20
+d
+Total length = 0028_16 = 40 bytes.
+Data carried by the packet = (40 – 20) = 20 bytes.
+5. In an IP packet, the value of HLEN is 516 and the value of the total length field is 002816.What is the efficiency of this datagram?
+a) 80%
+b) 50%
+c) 66%
+d) 75%
+b
+Total length = 0028_16 = 40 bytes.
+Data carried by the packet = (40 – 20) = 20 bytes.
+Efficiency = payload length / total length = 20/40= 50%.
+6. An IP packet has arrived with the first few hexadecimal digits as shown below:
+45000028000100000102 . . .
+How many hops can this packet travel before being dropped?
+a) 2
+b) 5
+c) 3
+d) 1
+d
+7. An IP packet has arrived with the first few hexadecimal digits as shown below:
+45000028000100000102 . . .
+The data belong to what upper layer protocol?
+a) IGMP
+b) UDP
+c) OSPF
+d) TCP
+a
+Protocol field = 02 means IGMP.
+8. A packet has arrived in which the offset value is 100. What is the number of the first byte?
+a) 400
+b) 800
+c) 200
+d) 780
+b
+The number of the first byte is 100 x 8 = 800.
+The first byte number is 800.
+9. A packet has arrived in which the offset value is 100, the value of HLEN is 5 and the value of the total length field is 100. What is the number of the first byte?
+a) 800
+b) 880
+c) 400
+d) 780
+a
+First byte is 800.
+10. A packet has arrived in which the offset value is 100, the value of HLEN is 5 and the value of the total length field is 100. What is the number of the last byte
+a) 880
+b) 879
+c) 881
+d) 801
+b
+Last byte is therefore 879.
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Network Security for Experienced, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Networking Questions and Answers – Layers – III» Next - Networking Questions and Answers – IP Addressing 

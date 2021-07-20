@@ -1,0 +1,84 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Infosys and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Infosys interviews on C Programming language. 
+Here is a listing of C test questions on “If-then-else Statements” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 1;        if (x > 0)            printf("inside if\n");        else if (x > 0)            printf("inside elseif\n");    }
+a) inside if
+b) inside elseif
+c) 
+inside if
+inside elseif
+d) compile time error
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 0;        if (x++)            printf("true\n");        else if (x == 1)            printf("false\n");    }
+a) true
+b) false
+c) compile time error
+d) undefined behaviour
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 0;        if (x == 1)            if (x == 0)                printf("inside if\n");            else                printf("inside else if\n");        else            printf("inside else\n");    }
+a) inside if
+b) inside else if
+c) inside else
+d) compile time error
+c
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 0;        if (x == 0)            printf("true, ");        else if (x = 10)            printf("false, ");        printf("%d\n", x);    }
+a) false, 0
+b) true, 0
+c) true, 10
+d) compile time error
+b
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int x = 0;        if (x == 1)            if (x >= 0)                printf("true\n");            else                printf("false\n");    }
+a) true
+b) false
+c) Depends on the compiler
+d) No print statement
+d
+6. The C statement “”if (a == 1 || b == 2) {}”” can be re-written as ___________
+a)
+    if (a == 1)
+    if (b == 2){}
+b)
+    if (a == 1){}
+    if (b == 2){}
+c)
+    if (a == 1){}
+    else if (b == 2){}
+d) none of the mentioned
+d
+7. Which of the following is an invalid if-else statement?
+a) if (if (a == 1)){}
+b) if (func1 (a)){}
+c) if (a){}
+d) if ((char) a){}
+a
+8. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int a = 1;        if (a--)            printf("True");            if (a++)                printf("False");    }
+a) True
+b) False
+c) True False
+d) No Output
+a
+9. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int a = 1;        if (a)            printf("All is Well ");            printf("I am Well\n");        else            printf("I am not a River\n");    }
+a) Output will be All is Well I am Well
+b) Output will be I am Well I am not a River
+c) Output will be I am Well
+d) Compile time errors during compilation
+d
+10. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        if (printf("%d", printf(")))            printf("We are Happy");        else if (printf("1"))            printf("We are Sad");    }
+a) 0We are Happy
+b) 1We are Happy
+c) 1We are Sad
+d) compile time error
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – If-then-else Statements – 1» Next - C Programming Questions and Answers – Switch Statements – 1 

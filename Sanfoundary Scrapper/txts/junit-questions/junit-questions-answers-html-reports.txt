@@ -1,0 +1,65 @@
+1. The Executor implementations provided implement ____________ which is a more extensive interface.
+a) ExecutorService
+b) ThreadPoolExecutor
+c) ArrayDeque
+d) SerialExecutor
+a
+2. The __________ command executes the given command at some time in the future.
+a) Execution()
+b) execute(Runnable command)
+c) scheduleNext()
+d) poll()
+b
+3. The _____________ exception can be thrown by the execute(Runnable command) function.
+a) Arithmetic
+b) ArrayIndexOutOfBounds
+c) StringIndexOutOfBounds
+d) RejectedExecutionException
+d
+4. Other than RejectedExecutionException, the execute(Runnable command) function can also throw which exception?
+a) Arithmetic
+b) ArrayIndexOutOfBounds
+c) StringIndexOutOfBounds
+d) NullPointerException
+d
+Join [email protected]
+5. ______________ runs all commands that are currently pending.
+a) runUntilIdle
+b) runPendingCommands
+c) execute
+d) isIdle
+b
+6. ____________ runs executed commands until there are no commands pending execution.
+a) runUntilIdle
+b) runPendingCommands
+c) execute
+d) isIdle
+a
+7. ____________ returns whether this executor is idle.
+a) runUntilIdle
+b) runPendingCommands
+c) execute
+d) isIdle
+d
+8. ____________ runs time forwards by a given duration, executing any commands scheduled for execution during that time period.
+a) runUntilIdle
+b) runPendingCommands
+c) tick
+d) isIdle
+c
+9. When a call to tick returns, the executor will be idle.
+a) True
+b) False
+a
+10. ________________ blocks until all tasks have completed execution after a shutdown request, or the timeout occurs.
+a) awaitTermination
+b) runPendingCommands
+c) tick
+d) isIdle
+a
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Dependency Management with Ivy» Next - JUnit Questions and Answers – Batching Tests 

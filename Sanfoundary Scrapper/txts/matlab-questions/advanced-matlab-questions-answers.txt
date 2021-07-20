@@ -1,0 +1,68 @@
+1. Which of the following contains the memory for the virtual address space given to MATLAB?
+[p,q]=memory
+a) Error
+b) p
+c) There’s no virtual space for MATLAB
+d) q
+d
+2. The function handle given to the timeit command cannot be defined within the timeit function.
+a) True
+b) False
+b
+3. The timeit function returns the time in ms.
+a) True
+b) False
+a
+4. What is the output of the following code?
+syms x;
+timeit(@()sin(x))
+a) The time required to compute the value of a sin(x)
+b) Error due to sin(x)
+c) Syntactical Error
+d) Time required to initialize sin(x) as a vector of symbolic elements
+d
+5. What is the output of the following code?
+syms x;
+timeit(@sin(x))
+a) Syntactical Error
+b) Logical Error
+c) .0012
+d) .0016
+a
+6. Which of the following method increases the performance of operation?
+a) Preallocation
+b) Postallocation
+c) It’s not possible to increase performance
+d) Characterization
+a
+7. Is a==c?
+>>a=timeit(@()sin(x));
+>>b=cputime;
+>>sin(x);
+>>c=cputime-b;
+a) No
+b) Yes
+c) Almost
+d) Error
+a
+8. What is the output of the following code?
+a=timeit(()sin(x));
+a) Error
+b) .0012s
+c) 12ms
+d) .0016s
+a
+9. The amount of memory saved for swap files is more than the physical memory allotted for MATLAB.
+a) True
+b) False
+b
+10. The tick command starts a timer.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice advanced questions and answers on all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Performance and Memory – 1» Next - MATLAB Questions and Answers – System Commands – 1 

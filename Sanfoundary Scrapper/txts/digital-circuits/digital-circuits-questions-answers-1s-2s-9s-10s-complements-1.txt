@@ -1,0 +1,157 @@
+1. 1’s complement of 1011101 is ____________
+a) 0101110
+b) 1001101
+c) 0100010
+d) 1100101
+c
+Thus, 1’s complement of 1011101 = 0100010.
+2. 2’s complement of 11001011 is ____________
+a) 01010111
+b) 11010100
+c) 00110101
+d) 11100010
+c
+2’s complement of 11001011  = 00110100 + 1 = 00110101.
+3. On subtracting (01010)2 from (11110)2 using 1’s complement, we get ____________
+a) 01001
+b) 11010
+c) 10101
+d) 10100
+d
+-> 1’s complement of the subtrahend is determined and added to the minuend.
+-> If the result has a carry, then it is dropped and 1 is added to the last bit of the result.
+-> Else, if there is no carry, then 1’s complement of the result is found out and a ‘-’ sign preceeds the result.
+                                             1 1 1
+                      Minuend -              1 1 1 1 0
+ 1’s complement of subtrahend -              1 0 1 0 1 
+                                            ____________
+                  Carry over -     1         1 0 0 1 1
+                                                     1
+                                            _____________
+                                             1 0 1 0 0
+4. On subtracting (010110)2 from (1011001)2 using 2’s complement, we get ____________
+a) 0111001
+b) 1100101
+c) 0110110
+d) 1000011
+d
+->	2’s complement of the subtrahend is determined and added to the minuend.
+->	If the result has a carry, then it is dropped and the result is positive.
+->   Else, if there is no carry, then 2’s complement of the result is found out and a ‘-’ sign preceeds the result.
+      1’s complement of subtrahend -              1 1 0 1 0 0 1
+                                                _________________
+                                                  1 1 1
+                           Minuend -              1 0 1 1 0 0 1 
+      2’s complement of subtrahend -              1 1 0 1 0 1 0
+                                                 _________________
+ 
+                        Carry over -    1         1 0 0 0 0 1 1
+ 
+Answer: 1000011
+5. On subtracting (001100)2 from (101001)2 using 2’s complement, we get ____________
+a) 1101100
+b) 011101
+c) 11010101
+d) 11010111
+b
+->	2’s complement of the subtrahend is determined and added to the minuend.
+->	If the result has a carry, then it is dropped and the result is positive.
+->	Else, if there is no carry, then 2’s complement of the result is found out and a ‘-’ sign preceeds the result.
+      1’s complement of subtrahend -              1 1 0 0 1 1
+                                                _________________
+                           Minuend -              1 0 1 0 0 1
+      2’s complement of subtrahend -              1 1 0 1 0 0
+                                                _________________
+                        Carry over -    1         0 1 1 1 0 1 
+ 
+Answer: 011101
+6. On addition of 28 and 18 using 2’s complement, we get ____________
+a) 00101110
+b) 0101110
+c) 00101111
+d) 1001111
+b
+-> The binary equivalent of the two numbers are obtained and added using the rules of binary addition.
+Augend -        0   0 1 1 1 0 0  
+ 
+Addend -        0   0 1 0 0 1 0 
+               _________________
+		0   1 0 1 1 1 0 
+ 
+ 
+Answer: 0  1 0 1 1 1 0
+7. On addition of +38 and -20 using 2’s complement, we get ____________
+a) 11110001
+b) 100001110
+c) 010010
+d) 110101011
+c
+->	The 2’s complement of the addend is found out and added to the first number.
+->	The result is the 2’s complement of the sum obtained.
+                     Augend -           0 1 0 0 1 1 0  
+2’s Complement of Subtrahend:           1 1 0 1 1 0 0 
+                                      _________________
+                              1         0 0 1 0 0 1 0 
+ 
+Answer: 0 1 0 0 1 0
+8. On addition of -46 and +28 using 2’s complement, we get ____________
+a) -10010
+b) -00101
+c) 01011
+d) 0100101
+a
+Augend is 28 and Subtrahend is -46.
+                            Augend -           0 0 1 1 1 0 0   .....(a)
+      2’s Complement of Subtrahend:            1 0 1 0 0 1 0   .....(b)
+                                              _________________
+               Addiing (a) and (b):            1 1 0 1 1 1 0  
+Since, there is no carry, so answer will be negative 
+and 2's complement of the above result is determined.                 
+		                               0 0 1 0 0 0 1 
+		                           +               1
+                                             _________________
+		                               0 0 1 0 0 1 0                 
+ 
+ 
+Answer: - 1 0 0 1 0
+9. On addition of -33 and -40 using 2’s complement, we get ____________
+a) 1001110
+b) -110101
+c) 0110001
+d) -1001001
+d
+Augend is -40  and Subtrahend is -33.
+                            Augend -           1    0 1 0 0 0 0 1   .....(a)
+      2’s Complement of Subtrahend:            1    1 0 1 1 0 0 1   .....(b)
+                                              ______________________
+               Addiing (a) and (b):           1 0   1 0 0 1 0 0 0  
+Since, there is no carry, so answer will be negative 
+and 2's complement of the above result is determined. 
+		                               1 0 0 1 0 0 0
+		                           +               1
+                                             _________________
+		                               1 0 0 1 0 0 1    
+ Answer: -1001001
+10. On subtracting +28 from +29 using 2’s complement, we get ____________
+a) 11111010
+b) 111111001
+c) 100001
+d) 1
+d
+->	2’s complement of the subtrahend is determined and added to the minuend.
+->	If the result has a carry, then it is dropped and the result is positive.
+->	Else, if there is no carry, then 2’s complement of the result is found out and a ‘-’ sign preceeds the result.
+         1’s complement of subtrahend -        1 0 0 0 1 1
+ 			      Minuend -        0 1 1 1 0 1  
+         2’s complement of subtrahend -        1 0 0 1 0 0
+                                             ____________________
+ 
+                           Carry over -    1   0 0 0 0 0 1 
+ 
+Answer: 000001 = 1
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – Arithmetic Operation» Next - Digital Circuits Questions and Answers – 1’s, 2’s, 9’s & 10’s Complements – 2 

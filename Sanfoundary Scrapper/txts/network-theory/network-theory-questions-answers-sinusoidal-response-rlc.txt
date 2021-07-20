@@ -1,0 +1,71 @@
+1. The particular current obtained from the solution of i in the sinusoidal response of R-L-C circuit is?
+a) ip = V/√(R2+(1/ωC+ωL)2) cos⁡(ωt+θ+tan-1)⁡((1/ωC+ωL)/R))
+b) ip = V/√(R2+(1/ωC-ωL)2) cos⁡(ωt+θ+tan-1)⁡((1/ωC-ωL)/R))
+c) ip = V/√(R2+(1/ωC+ωL)2) cos⁡(ωt+θ+tan-1)⁡((1/ωC-ωL)/R))
+d) ip = V/√(R2+(1/ωC-ωL)2) cos⁡(ωt+θ+tan-1)⁡((1/ωC+ωL)/R))
+b
+2. In the sinusoidal response of R-L-C circuit, the complementary function of the solution of i is?
+a) ic = c1 e(K1+K2)t + c1 e(K1-K2)t
+b) ic = c1 e(K1-K2)t + c1 e(K1-K2)t
+c) ic = c1 e(K1+K2)t + c1 e(K2-K1)t
+d) ic = c1 e(K1+K2)t + c1 e(K1+K2)t
+a
+(D2+R/L D+1/LC)=0. The complementary function of the solution i is                                                           ic = c1 e(K1+K2)t + c1 e(K1-K2)t.
+3. The complete solution of the current in the sinusoidal response of R-L-C circuit is?
+a) i = c1 e(K1+K2)t + c1 e(K1-K2)t – V/√(R2+(1/ωC-ωL)2) cos⁡(ωt+θ+tan-1)⁡((1/ωC-ωL)/R))
+b) i = c1 e(K1+K2)t + c1 e(K1-K2)t  – V/√(R2+(1/ωC-ωL)2) cos⁡(ωt+θ-tan-1)⁡((1/ωC-ωL)/R))
+c) i = c1 e(K1+K2)t + c1 e(K1-K2)t + V/√(R2+(1/ωC-ωL)2) cos⁡(ωt+θ+tan-1)⁡((1/ωC-ωL)/R))
+d) i = c1 e(K1+K2)t + c1 e(K1-K2)t  + V/√(R2+(1/ωC-ωL)2) cos⁡(ωt+θ-tan-1)⁡((1/ωC-ωL)/R))
+c
+4. In the circuit shown below, the switch is closed at t = 0. Applied voltage is v (t) = 400cos (500t + π/4). Resistance R = 15Ω, inductance L = 0.2H and capacitance = 3 µF. Find the roots of the characteristic equation.
+a) -38.5±j1290
+b) 38.5±j1290
+c) 37.5±j1290
+d) -37.5±j1290
+d
+On differentiating the above equation and on solving, we get roots of the characteristic equation as -37.5±j1290.
+5. In the circuit shown below, the switch is closed at t = 0. Applied voltage is v (t) = 400cos (500t + π/4). Resistance R = 15Ω, inductance L = 0.2H and capacitance = 3 µF. Find the complementary current.
+a) ic = e-37.5t(c1cos1290t + c2sin1290t)
+b) ic = e-37.5t(c1cos1290t – c2sin1290t)
+c) ic = e37.5t(c1cos1290t – c2sin1290t)
+d) ic = e37.5t(c1cos1290t + c2sin1290t)
+a
+6. In the circuit shown below, the switch is closed at t = 0. Applied voltage is v (t) = 400cos (500t + π/4). Resistance R = 15Ω, inductance L = 0.2H and capacitance = 3 µF. Find the particular solution.
+a) ip = 0.6cos(500t + π/4 + 88.5⁰)
+b) ip = 0.6cos(500t + π/4 + 89.5⁰)
+c) ip = 0.7cos(500t + π/4 + 89.5⁰)
+d) ip = 0.7cos(500t + π/4 + 88.5⁰)
+d
+7. In the circuit shown below, the switch is closed at t = 0. Applied voltage is v (t) = 400cos (500t + π/4). Resistance R = 15Ω, inductance L = 0.2H and capacitance = 3 µF. Find the complete solution of current.
+a) i = e-37.5t(c1cos1290t + c2sin1290t) + 0.7cos(500t + π/4 + 88.5⁰)
+b) i = e-37.5t(c1cos1290t + c2sin1290t) + 0.7cos(500t – π/4 + 88.5⁰)
+c) i = e-37.5t(c1cos1290t + c2sin1290t) – 0.7cos(500t – π/4 + 88.5⁰)
+d) i = e-37.5t(c1cos1290t + c2sin1290t) – 0.7cos(500t + π/4 + 88.5⁰)
+a
+8. The value of the c1 in the following equation is?
+i = e-37.5t(c1cos1290t  + c2sin1290t) + 0.7cos(500t + π/4 + 88.5⁰).
+a) -0.5
+b) 0.5
+c) 0.6
+d) -0.6
+b
+9. The value of the c2 in the following equation is?
+i = e-37.5t(c1cos1290t  + c2sin1290t) + 0.7cos(500t + π/4 + 88.5⁰).
+a) 2.3
+b) -2.3
+c) 1.3
+d) -1.3
+c
+10. The complete solution of current obtained by substituting the values of c1 and c2 in the following equation is?
+i = e-37.5t(c1cos1290t  + c2sin1290t) + 0.7cos(500t + π/4 + 88.5⁰).
+a) i = e-37.5t(0.49cos1290t – 1.3sin1290t) + 0.7cos(500t + 133.5⁰)
+b) i = e-37.5t(0.49cos1290t – 1.3sin1290t) – 0.7cos(500t + 133.5⁰)
+c) i = e-37.5t(0.49cos1290t + 1.3sin1290t) – 0.7cos(500t + 133.5⁰)
+d) i = e-37.5t(0.49cos1290t + 1.3sin1290t) + 0.7cos(500t + 133.5⁰)
+d
+Sanfoundry Global Education & Learning Series – Network Theory.
+To practice all areas of Network Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Theory Questions and Answers –  Sinusoidal Response of an R-C Circuit» Next - Network Theory Questions and Answers – Definition of the Laplace Transform 

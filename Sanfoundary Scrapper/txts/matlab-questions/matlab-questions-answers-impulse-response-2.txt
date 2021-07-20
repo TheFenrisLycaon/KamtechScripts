@@ -1,0 +1,112 @@
+1. The impulse response does not take account of the transient response of the system.
+a) True
+b) False
+b
+2. The impulse response of a parabola _________
+a) will have 3 poles in the s-plane
+b) will have 2 poles in the s-plane
+c) will have 4 poles in the s-plane
+d) will have no poles in the s-plane
+a
+3. The impulse response of a sinusoid ________
+a) will have 2 poles in the s-plane
+b) will have 3 poles in the s-plane
+c) will have 1 pole frequency in the s-plane
+d) will have only 1 conjugate pole in the s-plane
+a
+4. The step response of the impulse response of a ramp function will be ________
+a) a parabolic function
+b) an exponential function
+c) a sinusoidal function
+d) a sinc function
+a
+5. In MATLAB, the impulse response of the step response of a system is ___ to the step response of the impulse response of the system.
+a) Equal
+b) Not Equal
+c) Greater
+d) Lesser
+a
+6. The impulse response of the transfer function 1 is ________
+a) an impulse function
+b) a step function
+c) a pulse function
+d) cannot be determined
+a
+7. What is the output of the following code?
+>>p=ilaplace(1);
+>>laplace(p)
+a) 1
+b) Impulse function
+c) Error
+d) Cannot be determined
+c
+8. What is the output of the following code?
+>>p=ilaplace(s/s);
+>>laplace(p)
+a) dirac(1,t)
+b) dirac[1,t] 
+c) dirac{1,t}
+d) Cannot be determined
+a
+9. What is the output of the following code?
+>>t=(0:17);
+>>o=dirac(t)==Inf;
+>>q=o*1;
+>>conv(q,t)
+a) t followed with 17 zeros
+b) t followed with 18 zeros
+c) 1
+d) Error
+a
+Output:
+10. The impulse response is the result of the transfer function of the system.
+a) True
+b) False
+b
+11. What is the output of the following code?
+>>t=(0:17);
+>> p=dirac(0)==Inf;
+>> q=p*1;
+>> conv(q,t)
+a) An impulse response of step for a time from 0:16
+b) An impulse response of unit ramp function for a time from 0:17
+c) An impulse response of ramp function for a time from 0:18
+d) Error in 3rd line
+b
+Output:
+12. What is the output of the following code?
+>> p=dirac(0)==Inf;
+>> t=(0:.001:17);
+>> q=p*1;
+>> conv(q,sin(2*pi*t));
+>> plot(t,ans)
+a) A sinusoid of a frequency 1Hz
+b) A sinusoid of a frequency of 17 Hz
+c) A sinusoid of a frequency of .001 Hz
+d) Error
+a
+Output: 
+13. What is the slope of the ramp function?
+a) 3
+b) 2
+c) 1
+d) 6
+a
+14. What is the output at the scope?
+a)  
+b) 
+c) 
+d) 
+a
+15. What does the following relate to?
+a) Step response implies integrating the transfer function
+b) Impulse response shows the delay in the above block diagram
+c) Nothing is observed
+d) The integration of impulse is a ramp function
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Impulse Response – 1» Next - MATLAB Questions and Answers – Operations on Signals – 1 

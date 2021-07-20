@@ -1,0 +1,78 @@
+1. Which of the following is same as the given DFA?
+a) (0+1)*001(0+1)*
+b) 1*001(0+1)*
+c) (01)*(0+0+1)(01)*
+d) None of the mentioned
+a
+2. Which of the following statements is not true?
+a) Every language defined by any of the automata is also defined by a regular expression
+b) Every language defined by a regular expression can be represented using a DFA
+c) Every language defined by a regular expression can be represented using NFA with e moves
+d) Regular expression is just another representation for any automata definition
+b
+3. The total number of states required to automate the given regular expression
+(00)*(11)*
+a) 3
+b) 4
+c) 5
+d) 6
+c
+4.  Which of the given regular expressions correspond to the automata shown?
+a) (110+1)*0
+b) (11+110)*1
+c) (110+11)*0
+d) (1+110)*1
+c
+5. Generate a regular expression for the following problem statement:
+Password Validation: String should be 8-15 characters long. String must contain a number, an Uppercase letter and a Lower case letter.
+a) ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,15}$
+b) ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{9,16}$
+c) ^(?=.[a-z])(?=.[A-Z])(?=.\d).{8,15}$
+d) None of the mentioned
+a
+               ^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-za-Z]).{8,15}$
+6. Generate a regular expression for the following problem statement:
+P(x): String of length 6 or less for å={0,1}*
+a) (1+0+e)6
+b) (10)6
+c) (1+0)(1+0)(1+0)(1+0)(1+0)(1+0)
+d) More than one of the mentioned is correct
+a
+7. The minimum number of states required in a DFA (along with a dumping state)  to check whether the 3rd bit is 1 or not for |n|>=3
+a) 3
+b) 4
+c) 5
+d) 1
+c
+8. Which of the regular expressions corresponds to the given problem statement:
+P(x): Express the identifiers in C Programming language
+l=letters
+d=digits
+a) (l+_)(d+_)*
+b) (l+d+_)*
+c) (l+_)(l+d+_)*
+d) (_+d)(l+d+_)*
+c
+a) The name of the identifier should not begin with a digit.
+b) It can only begin with a letter or a underscore.
+c) It can be of length 1 or more.
+9. Generate a regular expression for the given language:l
+L(x): {xÎ{0,1}*| x ends with 1 nd does not contain a substring 01}
+a) (0+01)*
+b) (0+01)*1
+c) (0+01)*(1+01)
+d) All of the mentioned
+c
+10. The minimum number of transitions to pass to reach the final state as per the following regular expression is:
+ {a,b}*{baaa}
+a) 4
+b) 5
+c) 6
+d) 3
+a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Building Regular Expressions» Next - Automata Theory Questions and Answers –  Conversion by Eliminating states 

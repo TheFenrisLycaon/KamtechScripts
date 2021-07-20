@@ -1,0 +1,67 @@
+1. MongoDB allows administrators to direct the balancing policy using ______ aware sharding.
+a) tag
+b) replica
+c) rack
+d) all of the mentioned
+c
+2. Point out the correct statement.
+a) Use sharded clusters if your data set approaches or exceeds the storage capacity of a single MongoDB instance
+b) Use sharded clusters if a single MongoDB instance can meet the demands of your write operations, and all other approaches have not reduced contention
+c) Use sharded clusters if the size of your system’s active working set will soon exceed the capacity of your system’s minimum RAM
+d) All of the mentioned
+a
+3. Tags are the primary mechanism to control the behavior of the _______ and the distribution of chunks in a cluster.
+a) Balancer
+b) Collector
+c) Compactor
+d) All of the mentioned
+a
+4. How many background process runs behind balanced cluster?
+a) 1
+b) 2
+c) 3
+d) All of the mentioned
+b
+5. Point out the wrong statement.
+a) To create splits, MongoDB does migrate any data or affect the shards
+b) The addition of new data or the addition of new servers can result in data distribution imbalances within the cluster
+c) The balancer can run from any of the query routers in a cluster
+d) All of the mentioned
+a
+6. _________ is a background process that keeps chunks from growing too large.
+a) Splitting
+b) Balancing
+c) Chunking
+d) All of the mentioned
+a
+7. The shards manage _______ migrations as a background operation between an origin shard and a destination shard.
+a) cluster
+b) shard
+c) chunk
+d) all of the mentioned
+c
+8. For most deployments, the default value of chunk is _____ megabytes is ideal.
+a) 16
+b) 32
+c) 64
+d) 72
+c
+9. The ______ instances are the routers for the cluster.
+a) mongod
+b) mongos
+c) collection
+d) all of the mentioned
+b
+10. A single sharded cluster must have exclusive use of its _______ servers.
+a) local
+b) global
+c) config
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Sharding Concepts» Next - MongoDB Questions and Answers – Sharded Cluster Behavior 

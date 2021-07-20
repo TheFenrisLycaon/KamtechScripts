@@ -1,0 +1,60 @@
+1. What is the general equation for elliptic curve systems?
+a) y3+b_1 xy+b_2 y=x33+a_1 x2+a_2 x+a_3
+b) y3+b_1 x+b_2 y=x2+a_1 x2+a_2 x+a_3
+c) y2+b_1 xy+b_2 y=x3+a_1 x2+a_2
+d) y2+b_1 xy+b_2 y=x3+a_1 x2+a_2 x+a_3
+d
+2. In Singular elliptic curve, the equation x^3+ax+b=0 does ____ roots.
+a) does not have three distinct
+b) has three distinct
+c) has three unique
+d) has three distinct unique
+a
+3. How many real and imaginary roots does the equation y2=x3-1 have
+a) 2 real, 1 imaginary
+b) all real
+c) all imaginary
+d) 2 imaginary, 1 real
+d
+4. How many real and imaginary roots does the equation y2=x3-4x have
+a) 2 real, 1 imaginary
+b) all real
+c) all imaginary
+d) 2 imaginary, 1 real
+b
+5. In the elliptic curve group defined by y2= x3- 17x + 16 over real numbers, what is P + Q if P = (0,-4) and Q = (1, 0)?
+a) (15, -56)
+b) (-23, -43)
+c) (69, 26)
+d) (12, -86)
+a
+Q=(x2, y2)= (1,0)
+From the Addition formulae:
+ λ= (0-(-4)) / (1-0) = 4
+x3= = 16 – 0 – 1 = 15  and
+y3= 4(0 – 15) –(-4) = -56
+Thus R=P + Q = (15, -56).
+6. In the elliptic curve group defined by y2= x3- 17x + 16 over real numbers, what is 2P if P = (4, 3.464)?
+a) (12.022, -39.362)
+b) (32.022, 42.249)
+c) (11.694, -43.723)
+d) (43.022, 39.362)
+a
+λ = (3*(4)2+ (-17)) / 2*(3.464) = 31 / 6.928 = 4.475
+x3=  (4.475)2- 2(4) = 20.022 – 8 = 12.022  and
+y3= -3.464 + 4.475(4 – 12.022) = – 3.464 – 35.898 = -39.362
+Thus 2P = (12.022, -39.362).
+7. “Elliptic curve cryptography follows the associative property.”
+a) True
+b) False
+a
+8. “In ECC, the inverse of point P =(x1, y1) is Q = (-x1, y1). “
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Asymmetric Ciphers Questions and Answers – Knapsack/ Merkle – Hellman/ RSA Cryptosystem – II» Next - Asymmetric Ciphers Questions and Answers – Elliptic Curve Arithmetic/Cryptography – II 

@@ -1,0 +1,63 @@
+1. Which program copies the databases from one server to another?
+a) mysqldbcopy
+b) mysqlcopydb
+c) mysqlflushdb
+d) mysqldbflush
+a
+2. To use ‘mysqldbcopy’ which privileges are required on the source server?
+a) CREATE
+b) INSERT
+c) UPDATE
+d) SELECT
+d
+3. The program that performs logical backups is _____________
+a) mysqlimport
+b) mysqldump
+c) myslqpit
+d) mysqllogic
+b
+4. In ‘mysqldump’ which option is used to make all tables in the destination databases to use a different storage engine?
+a) –next-storage-engine
+b) –new-storage-engine
+c) –clear-storage-engine
+d) –get-storage-engine
+b
+5. Which function returns reference to hash of row values?
+a) fetchrow_array()
+b) fetchrow_arrayref()
+c) fetch()
+d) fetchrow_hashref()
+d
+Join Sanfoundry@YouTube
+6. The function ‘fetchrow_hashref()’ returns reference to hash of row values keyed by ______________
+a) row name
+b) column name
+c) table name
+d) database name
+b
+7. Which function returns reference to array of row values?
+a) fetchrow_array()
+b) fetchrow_arrayref()
+c) fetch()
+d) fetchrow_hashref()
+b
+8. The MySQL server is poorly configurable.
+a) True
+b) False
+b
+9. Multiple MySQL servers can be easily run on the same machine.
+a) True
+b) False
+b
+10. Which is the log in which data changes received from a replication master server are written?
+a) error log
+b) general query log
+c) binary log
+d) relay log
+d
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice MCQs on all areas of MySQL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Making Database Backups» Next - MySQL Questions and Answers – Checking and Repairing Database Tables 

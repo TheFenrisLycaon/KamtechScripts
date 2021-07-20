@@ -1,0 +1,67 @@
+1. The files that reside in the current drive and directory of the hard disk is
+a) OBJ files
+b) EXE files
+c) SRC files
+d) DEST files
+b
+2. The master processor stores the result buffers on to the hard disk with the filename as
+a) .EXE file
+b) .OBJ file
+c) .EXE file with extension .RES
+d) .OBJ file with extension .RES
+c
+3. The 8288 bus controller chip derives the signals
+a) ALE
+b) DEN
+c) DT/R(active low)
+d) All of the mentioned
+d
+4. The EXE files should not exceed the size of
+a) 30 KB
+b) 50 KB
+c) 60 KB
+d) 40 KB
+c
+5. A part of memory that can be addressed by more than one processor for communication is known as
+a) memory module
+b) bus window
+c) ram
+d) memory management unit
+b
+6. When a subprocessor wants to communicate with the bus window, it informs the main processor to
+a) enable control buffer
+b) storage buffer
+c) disable tristate buffer
+d) translation look aside buffer
+c
+7. When the subprocessor completes its execution, then the status on the status lines shows
+a) hold status
+b) halt status
+c) high status
+d) low status
+b
+8. For MEMR(active low) and MEMWR(active low) operations the mode of isolation buffer should respectively be in
+a) receiver mode, receiver mode
+b) transmit mode, receiver mode
+c) receiver mode, transmit mode
+d) transmit mode, transmit mode
+c
+9. If the DIR pin of the isolation chip is high, then it enters into
+a) receiver mode
+b) virtual access mode
+c) transmit or receive mode
+d) transmit mode
+d
+10. The complete software system is divided into
+a) main program
+b) Interrupt routine IRT2 for first subprocessing the unit
+c) Interrupt routine IRT3 for first subprocessing the unit
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Tightly Coupled and Loosely Coupled Systems» Next - Microprocessors Questions and Answers – Salient Features of 80286 

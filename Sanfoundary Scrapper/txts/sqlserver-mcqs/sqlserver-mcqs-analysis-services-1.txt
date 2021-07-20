@@ -1,0 +1,66 @@
+1. The Analysis Services __________ role defines administrative access of Windows users and groups to an instance of Analysis Services.
+a) database
+b) server
+c) user
+d) none of the mentioned
+b
+2. Point out the correct statement.
+a) The permissions of a role may allow members to access and administer the database
+b) Server roles, roles defined by administrators to control access to objects and data for non-administrator user
+c) Database roles, roles defined by administrators to control access to objects and data for administrator user
+d) None of the mentioned
+a
+3. Which of the following role is created as a separate object in an Analysis Services database, and applies only to the database in which that role is created?
+a) Database
+b) Membership
+c) Client
+d) Server
+a
+4. _________ let you create external, user-defined functions using any common language runtime (CLR) language.
+a) Aggregate
+b) Assemblies
+c) Synonym
+d) All of the mentioned
+b
+5. Point out the wrong statement.
+a) The SSAS host-level policy is a combination of Analysis Services fixed policy for system assemblies and user-specified policy for user assemblies
+b) Security for assemblies is based on the .NET Framework security model, which is a code-access security model
+c) Calling a user-defined function in an assembly is performed just like calling an intrinsic function
+d) All of the mentioned
+a
+6. Which of the following permission setting provides internal computation permission?
+a) Unsafe
+b) ExternalAccess
+c) Safe
+d) All of the mentioned
+c
+7. If the __________ setting is used, the execution context corresponds to the Windows login user account IUSER_servername on the server.
+a) ImpersonateAnon
+b) Anonymous
+c) ImpersonateAnonymous
+d) None of the mentioned
+c
+8. Which of the following namespace discover set of assemblies?
+a) System.Reflection
+b) System.Refraction
+c) Sys.Reflection
+d) All of the mentioned
+a
+9. Security for stored procedures is set with the _________ property on a stored procedure.
+a) PermissionSet
+b) SetPermissionSet
+c) Permission
+d) None of the mentioned
+a
+10. If functions in one assembly call functions in a separate assembly, you must register both assemblies in ____________
+a) client
+b) server
+c) table
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Business Intelligence» Next - SQL Server Questions and Answers – Analysis Services – 2 

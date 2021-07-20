@@ -1,0 +1,79 @@
+1. Determine output voltage of analog multiplier provided with two input signal Vx and Vy.
+a) Vo = (Vx ×Vx) / Vy
+b) Vo = (Vx ×Vy / Vref
+c) Vo = (Vy ×Vy) / Vx
+d) Vo = (Vx ×Vy) / Vref2
+b
+=> Vo =Vx ×Vy / Vref. 
+2. Match the list-I with list-II
+ List-I 
+ List-II
+1. One quadrant multiplier 
+  i.  Input 1- Positive, Input 2- Either positive or negative 
+2.  Two quadrant multiplier  
+ii.  Input 1- Positive, Input 2 – Positive
+3. Four quadrant multiplier 
+  iii. Input 1- Either positive or negative, Input 2- Either positive or negative
+a) 1-ii, 2-i, 3-iii
+b) 1-ii, 2-ii, 3-ii
+c) 1-iii, 2-I, 3-ii
+d) 1-I, 2-iii, 3-i
+a
+3. What is the disadvantage of log-antilog multiplier?
+a) Provides four quadrant multiplication only
+b) Provides one quadrant multiplication only
+c) Provides two and four quadrant multiplication only
+d) Provides one, two and four quadrant multiplication only
+b
+4. An input of Vsinωt is applied to an ideal frequency doubler. Compute its output voltage?
+a) Vo = [(Vx×Vy) /Vref2] × [1-cos2ωt/2].
+b) Vo = [(Vx2×Vy2) /Vref] × [1-cos2ωt/2].
+c) Vo = [(Vx×Vy)2 /Vref] × [1-cos2ωt/2].
+d) Vo = [(Vx×Vy) /( Vref] × [1-cos2ωt/2].
+d
+∴ Vx = Vxsinωt and  Vy = Vysinωt
+=> Vo = (Vx×Vy × sin2ωt) / Vref = [(Vx×Vy) / Vref] × [1-cos2ωt/2]. 
+5. Find the output voltage for the squarer circuit given below, choose input frequency as 10kHz and Vref =10v
+a) Vo = 5.0-(5.0×cos4π×104t)
+b) Vo = 2.75-(2.75×cos4π×104t)
+c) Vo = 1.25-(1.25×cos4π×104t)
+d) None of the mentioned
+c
+=> Vi = 5sinωt = 5sin2π×104t
+Vo = [5×(sin2π×104t)2 ]/10 = 2.5×[1/2-(1/2cos2π ×2×104t)] = 1.25-(1.25×cos4π×104t). 
+6. Calculate the phase difference between two input signals applied to a multiplier, if the input signals are Vx= 2sinωt and  Vy= 4sin(ωt+θ). (Take Vref= 12v).
+a) θ = 1.019
+b) θ = 30.626
+c) θ = 13.87
+d) θ = 45.667
+a
+=> (Vo×2×Vref)/ (Vmx × Vmy) = cosθ
+=> cosθ = (10×2×12)/(2×4) = 30.
+=> θ = cos-130 =1.019. 
+7. Express the output voltage equation of divider circuit
+a) Vo= -(Vref/2)×(Vz/Vx)
+b) Vo= -(2×Vref)×(Vz/Vx)
+c) Vo= -(Vref)×(Vz/Vx)
+d) Vo= -Vref2×(Vz/Vx)
+c
+Where Vz –> dividend and Vx –> divisor. 
+8. Find the divider circuit configuration given below
+a
+9. Find the input current for the circuit given below.
+a) IZ = 0.5372mA
+b) IZ = 1.581mA
+c) IZ = 2.436mA
+d) IZ =9.347mA
+b
+10. Find the condition at which the output will not saturate?
+a) Vx > 10v ; Vy > 10v
+b) Vx < 10v ; Vy > 10v
+c) Vx < 10v ; Vy < 10v
+d) Vx > 10v ; Vy < 10v
+c
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Log and Antilog Amplifier» Next - Linear Integrated Circuit Questions and Answers – Multiplier and Divider – 2 

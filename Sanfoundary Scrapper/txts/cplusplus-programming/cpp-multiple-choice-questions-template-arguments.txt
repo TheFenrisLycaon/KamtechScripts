@@ -1,0 +1,103 @@
+This section on C++ MCQs (multiple choice questions) focuses on “Template Arguments to Specify Policy Usage”. One shall practice these MCQs to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our multiple choice questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C multiple choice questions on “Template Arguments to Specify Policy Usage” along with answers, explanations and/or solutions:
+1. What is meant by the template parameter?
+a) It can be used to pass a type as an argument
+b) It can be used to evaluate a type
+c) It can of no return type
+d) It can be used to delete a type
+a
+2. Which keyword can be used in template?
+a) class
+b) typename
+c) both class & typename
+d) function
+c
+template <class T> function declaration;
+template <typename T> function declaration;
+3. What is the validity of template parameters?
+a) inside that block only
+b) inside the class
+c) whole program
+d) inside the main class
+a
+4. What will be the output of the following C++ code?
+   #include <iostream>   using namespace std;   template <class T, int N>   class mysequence    {       T memblock [N];       public:       void setmember (int x, T value);       T getmember (int x);   };   template <class T, int N>   void mysequence<T,N> :: setmember (int x, T value)    {       memblock[x] = value;   }   template <class T, int N>   T mysequence<T,N> :: getmember (int x)    {       return memblock[x];   }   int main ()    {         mysequence <int, 5> myints;       mysequence <double, 5> myfloats;       myints.setmember (0, 100);       myfloats.setmember (3, 3.1416);       cout << myints.getmember(0) << '\n';       cout << myfloats.getmember(3) << '\n';       return 0;   }
+a) 100
+b) 3.1416
+c) 
+100
+3.1416
+d) 4.14
+c
+Output:
+$ g++ farg.cpp
+$ a.out
+100
+3.1416
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    template <class T>    T max (T& a, T& b)     {        return (a>b?a:b);    }    int main ()     {        int i = 5, j = 6, k;        long l = 10, m = 5, n;        k = max(i, j);        n = max(l, m);        cout << k << endl;        cout << n << endl;        return 0;    }
+a) 6
+b) 
+6
+10
+c) 
+5
+10
+d) 5
+b
+Output:
+$ g++ farg.cpp
+$ a.out
+6
+10
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    template <class type>    class Test    {        public:        Test()        {        };        ~Test()        {          };        type Funct1(type Var1)        {            return Var1;        }        type Funct2(type Var2)        {            return Var2;        }    };    int main()    {        Test<int> Var1;        Test<double> Var2;        cout << Var1.Funct1(200);        cout << Var2.Funct2(3.123);        return 0;    }
+a) 100
+b) 200
+c) 3.123
+d) 2003.123
+d
+Output:
+$ g++ farg3.cpp
+$ a.out
+2003.123
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    template <typename T, int count>    void loopIt(T x)    {        T val[count];        for(int ii = 0; ii < count; ii++)        {            val[ii] = x++;            cout <<  val[ii] << endl;        }    };    int main()    {        float xx = 2.1;        loopIt<float, 3>(xx);    }
+a) 2.1
+b) 3.1
+c) 
+   2.1
+   3.1
+   4.1
+d) 4.1
+c
+Output:
+$ g++ farg4.cpp
+$ a.out
+2.1
+3.1
+4.1
+8. Why we use :: template-template parameter?
+a) binding
+b) rebinding
+c) both binding & rebinding
+d) reusing
+c
+9. Which parameter is legal for non-type template?
+a) pointer to member
+b) object
+c) class
+d) baseclass
+a
+10. Which of the things does not require instantiation?
+a) functions
+b) non virtual member function
+c) member class
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Class Templates» Next - C++ Programming Questions and Answers – Specialization 

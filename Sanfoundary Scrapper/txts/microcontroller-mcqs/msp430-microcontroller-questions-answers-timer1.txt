@@ -1,0 +1,66 @@
+1. Which of the following is true about the FRFQx bits of the BTCTL register?
+a) these bits are used for clock input
+b) these bits are used for setting a particular frequency fLCD
+c) these bits start the timer
+d) these bits stop the timer
+b
+2. Timer1 is responsible for ________
+a) providing a clock to the LCD module
+b) cause an interrupt
+c) a pulse for the RTC
+d) all of the mentioned
+d
+3. For fACLK = 32 KHz, what would be the desirable range of fLCD?
+a) 2hz-256hz
+b) 12hz-512hz
+c) 128hz-1khz
+d) 1khz-10khz
+c
+4. Normally BTCNT1 only function is to provide a prescalar for the BNTCNT2?
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+a
+5. BTCNT2 provides 2 output signals?
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+b
+6. RTCSEC, RTCMIN, RTCDOW etc. are the bytes of a set of registers that are used to store
+a) seconds
+b) minutes
+c) days of a week
+d) all of the mentioned
+d
+7. The RTC module is configured in the calendar mode if __________
+a) RTCMODE bit is reset
+b) RTCMODE is set
+c) RTCRDY is reset
+d) RTCRDY is set
+b
+8. The RTC module makes use of the Basic Timer1 because of _________
+a) its bytes are controlled in the Basic Timer1 register
+b) it is started by timer1
+c) it is ended by basic timer1
+d) it needs a clock pulse of 1hz that is provided by basic timer1
+d
+9. IF RTCIE interrupt is generated then _________
+a) BTIFG flag is set
+b) RTCFG flag is set
+c) Both flags are set
+d) None of the flag is set
+c
+10. What does the RTCTEVx bits do?
+a) they cause an interrupt
+b) they end an interrupt
+c) they set the minute, hour, seconds daily at midnight or daily at noon
+d) all of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MSP430 Microcontroller Questions and Answers – Watchdog Timer» Next - MSP430 Microcontroller Questions and Answers – TIMER_A 

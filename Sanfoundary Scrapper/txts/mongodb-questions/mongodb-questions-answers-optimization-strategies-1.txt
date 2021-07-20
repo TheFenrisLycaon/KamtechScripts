@@ -1,0 +1,61 @@
+1. Which of the following setting defines what constitutes a “slow” operation?
+a) slowOpThresholdGs
+b) fastOpThresholdMs
+c) slowOpThresholdMs
+d) none of the mentioned
+c
+2. Point out the correct statement.
+a) MongoDB uses a locking system to ensure data set consistency
+b) If certain operations are long-running or a queue forms, performance will degrade as requests and operations wait for the lock
+c) Long queries can result from ineffective use of indexes
+d) All of the mentioned
+d
+3. ________ provide the number of times the lock acquisitions encountered deadlocks.
+a) locks.deadlock
+b) lock.deadlockCount
+c) locks.deadlockCount
+d) all of the mentioned
+c
+4. If __________ is high relative to uptime, the database has existed in a lock state for a significant amount of time.
+a) globalLock.halfTime
+b) globalLock.totalTime
+c) globalLock.downTime
+d) all of the mentioned
+b
+5. Point out the wrong statement.
+a) The storage.wiredTiger.indexConfig.prefixCompression setting does not affect all indexes created
+b) Database profiling can impact database performance
+c) The default storage.wiredTiger.engineConfig.cacheSizeGB setting assumes that there is a single mongod instance per node
+d) None of the mentioned
+a
+6. The __________ data structure value provides more granular information concerning the number of operations queued because of a lock.
+a) currentQueue
+b) curQueue
+c) currentQu
+d) none of the mentioned
+a
+7. serverStatus includes all fields by default, except _________
+a) rangeDeleter
+b) rangeDelete
+c) rangeDEL
+d) none of the mentioned
+b
+8. ______ field contains total number of current clients that connect to the database instance.
+a) available
+b) current
+c) always avail
+d) none of the mentioned
+b
+9. MongoDB’s _______ is a database profiling system that can help identify inefficient queries and operations.
+a) Reporter
+b) Executer
+c) Profiler
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Data from Collections» Next - MongoDB Questions and Answers – Optimization Strategies – 2 

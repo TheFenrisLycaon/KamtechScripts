@@ -1,0 +1,75 @@
+1. Which one of the following is used to define the structure of the relation, deleting relations and relating schemas?
+a) DML(Data Manipulation Langauge)
+b) DDL(Data Definition Langauge)
+c) Query
+d) Relational Schema
+b
+2. Which one of the following provides the ability to query information from the database and to insert tuples into, delete tuples from, and modify tuples in the database?
+a) DML(Data Manipulation Langauge)
+b) DDL(Data Definition Langauge)
+c) Query
+d) Relational Schema
+a
+3.
+CREATE TABLE employee (name VARCHAR, id INTEGER)
+What type of statement is this?
+a) DML
+b) DDL
+c) View
+d) Integrity constraint
+b
+Join Sanfoundry@YouTube
+4.
+SELECT * FROM employee
+What type of statement is this?
+a) DML
+b) DDL
+c) View
+d) Integrity constraint
+a
+5. The basic data type char(n) is a _____ length character string and varchar(n) is _____ length character.
+a) Fixed, equal
+b) Equal, variable
+c) Fixed, variable
+d) Variable, equal
+c
+6. An attribute A of datatype varchar(20) has the value “Avi”. The attribute B of datatype char(20) has value  ”Reed”. Here attribute A has  ____ spaces and attribute B has ____ spaces.
+a) 3, 20
+b) 20, 4
+c) 20, 20
+d) 3, 4
+a
+7. To remove a relation from an SQL database, we use the ______ command.
+a) Delete
+b) Purge
+c) Remove
+d) Drop table
+d
+8.
+DELETE FROM r;   //r - relation
+This command performs which of the following action?
+a) Remove relation
+b) Clear relation entries
+c) Delete fields
+d) Delete rows
+b
+9.
+INSERT INTO instructor VALUES (10211, ’Smith’, ’Biology’, 66000);
+What type of statement is this?
+a) Query
+b) DML
+c) Relational
+d) DDL
+b
+10. Updates that violate __________ are disallowed.
+a) Integrity constraints
+b) Transaction control
+c) Authorization
+d) DDL constraints
+a
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Relational Query Operations and Relational Operators» Next - Database Questions and Answers – SQL Queries 

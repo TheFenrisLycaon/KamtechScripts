@@ -1,0 +1,126 @@
+1. Which command is used for counting words, lines and characters in a file?
+a) diff
+b) count
+c) man
+d) wc
+d
+$ wc file01
+3   9   45  file01
+Above output indicates that file01 contains 3 lines, 9 words and 45 characters.  
+2. wc command cannot take multiple filenames as arguments.
+a) True
+b) False
+b
+$ wc  file01  file02  file03
+12    45      170    file01
+8     34      145    file02
+10    38      158    file03
+30    117     403    total
+3. Which option is used for counting the number of lines in a file only.
+a) -l
+b) -W
+c) -c
+d) -w
+a
+$ wc  -l  file01
+3        // number of lines in file01
+4. Which option is used for counting the number of words in a file only?
+a) -l
+b) -W
+c) -c
+d) -w
+d
+$ wc  -w  file01
+15        // number of words in file01
+5. Which option is used for counting the number of characters in a file only.
+a) -l
+b) -W
+c) -c
+d) -w
+c
+$ wc  -c  file01
+45        // number of characters in file01
+6.  wc command can also work on a data stream.
+a) True
+b) False
+a
+$ wc
+Sanfoundry Global
+Learning project
+Offer internships to students
+Ctrl-D
+3    8    65        // 3 lines, 8 words and 65 characters
+7. What does the following command do?
+     $ wc  sample.txt >  newfile
+a) reads word count from sample.txt
+b) reads word count from newfile
+c) reads word count from sample.txt and write it to newfile
+d) error is produced
+c
+$  wc  sample.txt >  newfile
+8. Which command is used for printing a file?
+a) lp
+b) pr
+c) pg
+d) more
+a
+$ lp  abd.txt
+Request id id prl-890 (1 file )
+lp command notifies the request-id i.e. a combination of printer name(rpl) and job number (890). 
+9. Which option is used with lp command if there are more than one printers in the system?
+a) -t
+b) -d
+c) -i
+d) -p
+b
+$ lp  -dlaser_001  abd.txt
+10. Which option is used for printing multiple copies of a file using lp command?
+a) -l
+b) -i
+c) -t
+d) -n
+d
+$ lp  -n5  abd.txt
+11. -t option prints the title on the first page.
+a) True
+b) False
+a
+$ lp  -t "UNIX and Shell programming"  abd.txt
+12. What does the following command do?
+  cancel prl-320
+a) cancel printing from printer ‘prl’
+b) cancel printing current job
+c) cancel printing job number 320 on printer name ‘prl’
+d) undefined behavior
+c
+13. Which command is used for knowing the file type?
+a) file
+b) type
+c) filetype
+d) type of file
+a
+$ file  file01
+file01:    Text file
+14. file command identifies the file type by examining the magic number of the file.
+a) True
+b) False
+a
+15. UNIX offers a pager named ____ which has replaced the original pager of UNIX called ____
+a) more, less
+b) less, more
+c) more, pg
+d) pg, more
+c
+$ more  abd.txt   // contents of the file named abd.txt will be displayed.
+16. Which of the following is not an internal command for more?
+a) q
+b) f
+c) b
+d) z
+d
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Comparing Files:comm, cmp and diff Command» Next - Unix  Questions and Answers – Compressing and Archiving Files – 1 

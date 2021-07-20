@@ -1,0 +1,87 @@
+1. Which among the following is NOT an exception?
+a) Stack Overflow
+b) Arithmetic Overflow or underflow
+c) Incorrect Arithmetic Expression
+d) All of the mentioned
+c
+2. Which among the following is considered as .NET Exception class?
+a) Exception
+b) StackUnderflow Exception
+c) File bound Exception
+d) All of the mentioned
+b
+3. Which of the following is the object oriented way to handle run time errors?
+a) Error codes
+b) HERRESULT
+c) OnError
+d) Exceptions
+d
+4. Select the statements which describe the correct usage of exception handling over conventional error handling approaches?
+a) As errors can be ignored but exceptions cannot be ignored
+b) Exception handling allows separation of program’s logic  from error handling logic making software more reliable and maintainable
+c) try – catch – finally structure allows guaranteed cleanup in event of errors under all circumstances
+d) All of the mentioned
+d
+5. Select the correct statement about an Exception?
+a) It occurs during loading of program
+b) It occurs during Just-In-Time compilation
+c) It occurs at run time
+d) All of the mentioned
+c
+6. Which of these keywords is not a part of exception handling?
+a) try
+b) finally
+c) thrown
+d) catch
+c
+7. Which of these keywords must be used to monitor exceptions?
+a) try
+b) finally
+c) throw
+d) catch
+a
+8. Which of these keywords is used to manually throw an exception?
+a) try
+b) finally
+c) throw
+d) catch
+c
+9. What will be the output of the following C# code?
+ class program {     static void main(string[] args)     {         int i = 5;         int v = 40;         int[] p = new int[4];         try         {             p[i] = v;         }         catch(IndexOutOfRangeException e)         {             Console.WriteLine("Index out of bounds");         }         Console.WriteLine("Remaining program");     } }
+a) value 40 will be assigned to a[5];
+b) 
+The output will be :
+Index out of bounds
+Remaining program
+c) 
+The output will be :
+Remaining program
+d) None of the mentioned
+b
+10. What will be the output of the following C# code?
+ static void Main(string[] args) {                 try      {         Console.WriteLine("csharp" + " " + 1/Convert.ToInt32(0));     }     catch(ArithmeticException e)      {         Console.WriteLine("Java");        	     }     Console.ReadLine(); }
+a) csharp
+b) java
+c) run time error
+d) csharp 0
+b
+11. Which of the following is the wrong statement about exception handling in C#.NET?
+a) finally clause is used to perform cleanup operations of closing network and database connections
+b) a program can contain multiple finally clauses
+c) the statement in final clause will get executed no matter whether an exception occurs or not
+d) all of the mentioned
+b
+12. What will be the output of the following C# code?
+  class Program  {      static void Main(string[] args)      {                      try           {              Console.WriteLine("csharp" + " " + 1/0);          }          finally          {              Console.WriteLine("Java");        	          }          Console.ReadLine();      }  }
+a) csharp 0
+b) Run time Exception generation
+c) Compile time error
+d) Java
+b
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all features of C# programming language, here is complete set on 1000+ Multiple Choice Questions and Answers on C#
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Properties and its Applications» Next - C# Questions & Answers – Implementation of Exception Handling 

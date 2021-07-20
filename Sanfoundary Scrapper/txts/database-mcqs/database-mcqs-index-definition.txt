@@ -1,0 +1,66 @@
+1. What is the purpose of the index in sql server?
+a) To enhance the query performance
+b) To provide an index to a record
+c) To perform fast searches
+d) All of the mentioned
+d
+2. How many types of indexes are there in sql server?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+3. How non clustered index point to the data?
+a) It never points to anything
+b) It points to a data row
+c) It is used for pointing data rows containing key values
+d) None of the mentioned
+c
+4. Which one is true about clustered index?
+a) Clustered index is not associated with table
+b) Clustered index is built by default on unique key columns
+c) Clustered index is not built on unique key columns
+d) None of the mentioned
+b
+5. What is true about indexes?
+a) Indexes enhance the performance even if the table is updated frequently
+b) It makes harder for sql server engines to work to work on index which have large keys
+c) It doesn’t make harder for sql server engines to work to work on index which have large keys
+d) None of the mentioned
+b
+6. Does index take space in the disk?
+a) It stores memory as and when required
+b) Yes, Indexes are stored on disk
+c) Indexes are never stored on disk
+d) Indexes take no space
+b
+7. What are composite indexes?
+a) Are those which are composed by database for its internal use
+b) A composite index is a combination of index on 2 or more columns
+c) Composite index can never be created
+d) None of the mentioned
+b
+8. If an index is _________________ the metadata and statistics continue to exists
+a) Disabling
+b) Dropping
+c) Altering
+d) Both Disabling and Dropping
+a
+9. In _______________ index instead of storing all the columns for a record together, each column is stored separately with all other rows in an index.
+a) Clustered
+b) Column store
+c) Non clustered
+d) Row store
+b
+10. A _________________ index is the one which satisfies all the columns requested in the query without performing further lookup into the clustered index.
+a) Clustered
+b) Non Clustered
+c) Covering
+d) B-Tree
+c
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions & Answers – Bitmap Indices» Next - Database Questions and Answers – Query Processing 

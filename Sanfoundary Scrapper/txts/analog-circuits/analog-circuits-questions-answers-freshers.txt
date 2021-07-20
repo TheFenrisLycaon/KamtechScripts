@@ -1,0 +1,113 @@
+1. Find the current I if both diodes are identical. Voltage V = 0.8V and let the reverse saturation current be 10-9A.
+a) 4.8mA
+b) 3.2mA
+c) 2.5mA
+d) 7mA
+a
+Equation for diode current
+                            where I0 = reverse saturation current
+			          η = ideality factor
+			          VT = thermal voltage
+			          V = applied voltage
+Since in this question ideality factor is not mentioned it can be taken as one. Take VT as 0.026 which is the standard value.
+Hence current through one diode is 10-9x(e0.4/0.026) = 4.8mA.
+2. Find voltage VOUT if the reverse saturation current of the diode is  1.1×10-8A, the cut-in voltage of diode is 0.6V and assume the temperature as 25oC.
+a) 0.235V
+b) 0.3148V
+c) 0.456V
+d) 0.126V
+b
+                            where I0 = reverse saturation current
+			          η = ideality factor
+			          VT = thermal voltage
+			          V = applied voltage
+Since in this question ideality factor is not mentioned it can be taken as one. Take VT as its standard value 0.026V.
+Voltage VD = ηVTln(I/IO + 1) = 1 x 0.0257ln (2 x 10-3/(1.1 x 10-9))+1) = 0.0257ln(1,818,182) = 0.3704 V.
+3. The current Ix in the circuit is 1mA then find the voltage across diode D1. The resistance R1 is 1KΩ. Assume the reverse saturation current is 10-9A. Voltage across resistor in this condition was 0.4V. Take VT of diode as 0.026V.
+a) 2.3mA
+b) 3.2mA
+c) 5.2mA
+d) 4.6mA
+c
+Current through diode
+where I0 = reverse saturation current
+			          η = ideality factor
+			          VT = thermal voltage
+			          V = applied voltage
+Since ideality factor is not given take it as one.
+Current through diode I = 10-9 x (e0.4/0.026) = 4.8mA
+Total current = 4.8mA+0.4mA = 5.2mA.
+4. Find the current Ix if the voltage across the diode is 0.5V. The reverse saturation current of diode 10-11A, the cut-in voltage of diode is 0.6V. Assume that the temperature at which diode operates is 25°C. The resistance R1=2KΩ.
+a) 3.97mA
+b) 4.51mA
+c) 2.45mA
+d) 3.05mA
+d
+Current through diode
+where I0 = reverse saturation current
+			          η = ideality factor
+			          VT = thermal voltage
+			          V = applied voltage
+Since ideality factor is not given take it as one.
+Current through diode I = 10-11 x (e0.5/0.0257) = 2.8mA
+Total current = 2.8mA + 0.25mA = 3.05mA.
+5. If the current I is 2mA then find the temperature at which diode operates. The cut-in voltage of diode is 0.6V. The reverse saturation current of diode is 10-9A. Resistance R is 1.3KΩ.
+a) 45.85°C
+b) 50.47°C
+c) 60.26°C
+d) 56.89°C
+a
+ where I0 = reverse saturation current
+			          η = ideality factor
+			          VT = thermal voltage
+			          V = applied voltage
+Since in this question ideality factor is not mentioned it can be taken as one.
+VD = 3-(2mAx1.3k) = 0.4V
+VT = T/11600
+Thus Temperature, T = 11600×0.0275 = 319 Kelvin = 45.85°C.
+6. If the temperature increases 10°C, the ratio of final reverse saturation current to initial reverse saturation current is _______
+a) 1
+b) 2
+c) 1.5
+d) 3
+b
+Io2 = 2(∆T/10)Io1 Where ∆T is temperature change
+Ratio will be 2(∆T/10) = 21 = 2.
+7. The reverse saturation current of a diode at 25°C is 1.5 x 10-9A. What will be the reverse current at temperature 30°C?
+a) 3 x 10-9A
+b) 2 x 10-9A
+c) 2.12 x 10-9A
+d) 1.5 x 10-9A
+c
+Io2 = 2(∆T/10)Io1 Where ∆T is temperature change
+Here ∆T = 5, Therefore, Io2 = 25/10 Io1 = 1.414 x 1.5 x 10-9A = 2.121 x 10-9A.
+8. How much times reverse saturation current will increase if temperature increases 15oC?
+a) 2.52
+b) 4.62
+c) 4.12
+d) 2.82
+d
+Io2 = 2(∆T/10)Io1
+Where ∆T is temperature change
+Ratio is 215/10 = 2.82.
+9. The input voltage V1 of the circuit the circuit is 2V and resistor has a resistance of 1KΩ. The cut-in voltage of the silicon diode is 0.7V and the reverse saturation current is 10-8A. The temperature at which diode operates is 30°C. The voltage across resistor when diode starts conducting is _________________
+a) 0.7V
+b) 1.3V
+c) 0.306V
+d) 1.7V
+b
+For silicon diode, cut-in voltage is 0.7V.
+Hence IR1 = 2-0.7 = 1.3V
+Drop across the resistor is 1.3V.
+10. If V1 is 5V and resistance R1 is 5KΩ and the cut-in voltage of the diode is 0.7V, what will be the voltage Vout across the diode? Take reverse saturation current as 10-8A and operating temperature as 25°C.
+a) 0V
+b) -4.5V
+c) -5V
+d) -3.2V
+c
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits for Freshers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Characteristic Equation of Diode-1» Next - Analog Circuits Questions and Answers – Resistance Level 

@@ -1,0 +1,87 @@
+1. Which of these class contains the methods used to write in a file?
+a) FileStream
+b) FileInputStream
+c) BUfferedOutputStream
+d) FileBufferStream
+b
+2. Which of these exception is thrown in cases when the file specified for writing is not found?
+a) IOException
+b) FileException
+c) FileNotFoundException
+d) FileInputException
+c
+3. Which of these methods are used to read in from file?
+a) get()
+b) read()
+c) scan()
+d) readFileInput()
+b
+4. Which of these values is returned by read() method is end of file (EOF) is encountered?
+a) 0
+b) 1
+c) -1
+d) Null
+c
+5. Which of these exception is thrown by close() and read() methods?
+a) IOException
+b) FileException
+c) FileNotFoundException
+d) FileInputOutputException
+a
+6. Which of these methods is used to write() into a file?
+a) put()
+b) putFile()
+c) write()
+d) writeFile()
+c
+7. What will be the output of the following Java program?
+    import java.io.*;    class filesinputoutput    {        public static void main(String args[])        {            InputStream obj = new FileInputStream("inputoutput.java");            System.out.print(obj.available());        }    }
+Note: inputoutput.java is stored in the disk.
+a) true
+b) false
+c) prints number of bytes in file
+d) prints number of characters in the file
+c
+Output:
+$ javac filesinputoutput.java
+$ java filesinputoutput
+1422
+(Output will be different in your case)
+8. What will be the output of the following Java program?
+    import java.io.*;    public class filesinputoutput    {    	public static void main(String[] args)        { 	   String obj  = "abc";           byte b[] = obj.getBytes();           ByteArrayInputStream obj1 = new ByteArrayInputStream(b);           for (int i = 0; i < 2; ++ i)           {               int c;               while((c = obj1.read()) != -1)               {            	   if(i == 0)                   {            	       System.out.print(Character.toUpperCase((char)c));                       obj2.write(1);             	   }               }               System.out.print(obj2);           }        }    }
+a) AaBaCa
+b) ABCaaa
+c) AaaBaaCaa
+d) AaBaaCaaa
+d
+Output:
+$ javac filesinputoutput.java
+$ java filesinputoutput
+AaBaaCaaa
+9. What will be the output of the following Java program?
+    import java.io.*;    class Chararrayinput    {        public static void main(String[] args)        {	    String obj  = "abcdef";            int length = obj.length();            char c[] = new char[length];            obj.getChars(0, length, c, 0);            CharArrayReader input1 = new CharArrayReader(c);            CharArrayReader input2 = new CharArrayReader(c, 0, 3);            int i;            try            {		while((i = input2.read()) != -1)                {                    System.out.print((char)i);                }       	    }             catch (IOException e)            {                e.printStackTrace();	    }	}    }
+a) abc
+b) abcd
+c) abcde
+d) abcdef
+a
+Output:
+$ javac Chararrayinput.java
+$ java Chararrayinput
+abc
+10. What will be the output of the following Java program?
+    import java.io.*;    class Chararrayinput    {        public static void main(String[] args)        {	    String obj  = "abcdefgh";            int length = obj.length();            char c[] = new char[length];            obj.getChars(0, length, c, 0);            CharArrayReader input1 = new CharArrayReader(c);            CharArrayReader input2 = new CharArrayReader(c, 1, 4);            int i;            int j;            try             {		while((i = input1.read()) == (j = input2.read()))                {                    System.out.print((char)i);                }       	    }             catch (IOException e)            {                e.printStackTrace();	    }	}    }
+a) abc
+b) abcd
+c) abcde
+d) none of the mentioned
+d
+Output:
+$ javac Chararrayinput.java
+$ java Chararrayinput
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Writing Console Output» Next - Java Questions & Answers – Applets Fundamentals 

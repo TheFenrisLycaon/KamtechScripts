@@ -1,0 +1,48 @@
+1. The program that copies the databases from one server to another is ____________
+a) mysqldbcopy
+b) mysqlcopydb
+c) mysqlflushdb
+d) mysqldbflush
+a
+2. Which privileges are required on the source server to use mysqldbcopy?
+a) CREATE
+b) INSERT
+c) UPDATE
+d) SELECT
+d
+3. Which option is used in mysqldump to make all tables in the destination databases to use a different storage engine?
+a) –next-storage-engine
+b) –new-storage-engine
+c) –clear-storage-engine
+d) –get-storage-engine
+b
+4. The function that returns reference to hash of row values is ____________
+a) fetchrow_array()
+b) fetchrow_arrayref()
+c) fetch()
+d) fetchrow_hashref()
+d
+5. The best datatype for a column that is expected to store values up to 2 million is _________
+a) SMALLINT
+b) TINYINT
+c) MEDIUMINT
+d) BIGINT
+d
+6. Which type stores the longest length of strings?
+a) CHAR
+b) VARCHAR
+c) TINYTEXT
+d) TEXT
+d
+7. The security context when a user creates a stored program that accesses sensitive data but forgets that other people who can invoke the object have the same access is __________
+a) bad
+b) good
+c) fare
+d) illegal
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Null: the Four Letter Word» Next - MySQL Questions and Answers – Secure Connections 

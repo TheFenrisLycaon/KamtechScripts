@@ -1,0 +1,110 @@
+1. What is the unit step response of the system described by the difference equation?
+y(n)=0.9y(n-1)-0.81y(n-2)+x(n) under the initial conditions y(-1)=y(-2)=0?
+a) [1.099+1.088(0.9)n.\(cos(\frac{\pi}{3} n+5.2^o)\)]u(n)
+b) [1.099+1.088(0.9)n.\(cos(\frac{\pi}{3} n-5.2^o)\)]u(n)
+c) [1.099+1.088(0.9)n.\(cos(\frac{\pi}{3} n-5.2^o)\)] 
+d) None of the mentioned
+b
+The system has two complex-conjugate poles at p1=0.9ejπ/3 and p2=0.9e -jπ/3
+The z-transform of the unit step sequence is
+X(z)=\(\frac{1}{1-z^{-1}}\) 
+Therefore,
+Yzs(z) = \(\frac{1}{(1-0.9e^{jπ/3} z^{-1})(1-0.9e{-jπ/3} z^{-1})(1-z^{-1})}\) 
+=\(\frac{0.542-j0.049}{(1-0.9e^{jπ/3} z^{-1})} + \frac{0.542-j0.049}{(1-0.9e^{jπ/3} z^{-1})} + \frac{1.099}{1-z^{-1}}\) 
+and hence the zero state response is yzs(n)= [1.099+1.088(0.9)n.\(cos(\frac{\pi}{3} n-5.2^o)\)]u(n)
+Since the initial conditions are zero in this case, we can conclude that y(n)=yzs(n).
+2. If all the poles of H(z) are outside the unit circle, then the system is said to be _____________
+a) Only causal
+b) Only BIBO stable
+c) BIBO stable and causal
+d) None of the mentioned
+d
+3. If pk, k=1,2,…N are the poles of the system and |pk| < 1 for all k, then the natural response of such a system is called as Transient response.
+a) True
+b) False
+a
+4. If all the poles have small magnitudes, then the rate of decay of signal is __________
+a) Slow
+b) Constant
+c) Rapid
+d) None of the mentioned
+c
+5. If one or more poles are located near the unit circle, then the rate of decay of signal is _________
+a) Slow
+b) Constant
+c) Rapid
+d) None of the mentioned
+a
+6. What is the transient response of the system described by the difference equation y(n)=0.5y(n-1)+x(n) when the input signal is x(n)= 10cos(πn/4)u(n) and the system is initially at rest?
+a) (0.5)nu(n)
+b) 0.5(6.3)nu(n)
+c) 6.3(0.5)n
+d) 6.3(0.5)nu(n)
+d
+H(z)=\(\frac{1}{1-0.5z^{-1}}\) 
+and therefore the system has a pole at z=0.5. The z-transform of the input signal is
+Y(z)=H(z)X(z)
+=\(\frac{10(1-(\frac{1}{\sqrt{2}}) z^{-1})}{(1-0.5z^{-1})(1-e^{jπ/4} z^{-1})(1-e^{-jπ}/4 z^{-1})}\)  
+=\(\frac{6.3}{1-0.5z^{-1}} + \frac{6.78e^{-j28.7}}{(1-e^{jπ/4} z^{-1})} + \frac{6.78e^{j28.7}}{(1-e^{-jπ/4} z^{-1})}\) 
+The natural or transient response is
+ynr(n)= 6.3(0.5)nu(n)
+7. What is the steady-state response of the system described by the difference equation y(n)=0.5y(n-1)+x(n) when the input signal is x(n)= 10cos(πn/4)u(n) and the system is initially at rest?
+a) 13.56cos(πn/4 -28.7o)
+b) 13.56cos(πn/4 +28.7o)u(n)
+c) 13.56cos(πn/4 -28.7o)u(n)
+d) None of the mentioned
+c
+H(z)=\(\frac{1}{1-0.5z^{-1}}\) 
+and therefore the system has a pole at z=0.5. The z-transform of the input signal is
+Y(z)=H(z)X(z)
+=\(\frac{10(1-(\frac{1}{\sqrt{2}}) z^{-1})}{(1-0.5z^{-1})(1-e^{jπ/4} z^{-1})(1-e^{-jπ}/4 z^{-1})}\)  
+=\(\frac{6.3}{1-0.5z^{-1}} + \frac{6.78e^{-j28.7}}{(1-e^{jπ/4} z^{-1})} + \frac{6.78e^{j28.7}}{(1-e^{-jπ/4} z^{-1})}\) 
+The forced state response  or steady-state response is
+yfr(n)=13.56cos(πn/4 -28.70)u(n)
+8. If the ROC of the system function is the exterior of a circle of radius r < ∞, including the point z = ∞, then the system is said to be ___________
+a) Stable
+b) Causal
+c) Anti causal
+d) None of the mentioned
+b
+9. A linear time invariant system is said to be BIBO stable if and only if the ROC of the system function _____________
+a) Includes unit circle
+b) Excludes unit circle
+c) Is an unit circle
+d) None of the mentioned
+a
+10. If all the poles of H(z) are inside the unit circle, then the system is said to be ____________
+a) Only causal
+b) Only BIBO stable
+c) BIBO stable and causal
+d) None of the mentioned
+c
+11. A linear time invariant system is characterized by the system function H(z)=\(\frac{1}{1-0.5z^{-1}}+\frac{2}{1-3z^{-1}}\). What is the h(n) if the system is stable?
+a) (0.5)nu(n)-2(3)nu(n)
+b) (0.5)nu(-n-1)-2(3)nu(-n-1)
+c) (0.5)nu(-n-1)-2(3)nu(n)
+d) (0.5)nu(n)-2(3)nu(-n-1)
+d
+Since the system is stable, its ROC must include unit circle and hence it is 0.5<|z|<3 . Consequently, h(n) is non causal and is given as
+h(n)= (0.5)nu(n)-2(3)nu(-n-1).
+12. A linear time invariant system is characterized by the system function H(z)=\(\frac{1}{1-0.5z^{-1}}+\frac{2}{1-3z^{-1}}\). What is the ROC of H(z) if the system is causal?
+a) |z|<3
+b) |z|>3
+c) |z|<0.5
+d) |z|>0.5
+b
+Since the system is causal, its ROC is |z|>0.5 and |z|>3. The common region is |z|>3. So, ROC of given H(z) is |z|>3.
+13. A linear time invariant system is characterized by the system function H(z)=\(\frac{1}{1-0.5z^{-1}}+\frac{2}{1-3z^{-1}}\). What is the h(n) if the system is anti causal?
+a) (0.5)nu(n)+2(3)nu(n)
+b) (0.5)nu(-n-1)-2(3)nu(-n-1)
+c) -[(0.5)n+2(3)n]u(-n-1)
+d) (0.5)nu(n)-2(3)nu(-n-1)
+c
+If the system is anti causal, then the ROC is |z|<0.5.Hence
+h(n)= -[(0.5)n+2(3)n]u(-n-1).
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – One Sided Z Transform» Next - Digital Signal Processing Questions and Answers – Frequency Analysis of Continuous Time Signal 

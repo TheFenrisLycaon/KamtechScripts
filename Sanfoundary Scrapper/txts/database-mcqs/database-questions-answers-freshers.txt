@@ -1,0 +1,142 @@
+This set of Database Questions & Answers focuses on “Querying database part-1 DML”
+The instructor relation
+ID
+Name
+Dept_name
+Salary
+10101
+Hayley
+Comp.Sci.
+65000
+12121
+Jackson
+Finance
+90000
+15151
+Nathan
+Music
+87000
+22222
+April
+Biology
+73000
+34345
+Crick
+Comp.Sci.
+100000
+The course relation
+Course_id
+Title
+Dept_name
+Credits
+CS-101
+Robotics
+Comp.Sci.
+5
+BIO-244
+Genetics
+Biology
+4
+PHY-333
+Physical Principles
+Physics
+3
+MUS-562
+Music Video Production
+Music
+2
+FIN-101
+Investment Banking
+Finance
+3
+Answer the questions based on the above relations
+1. Which of the following command is used to display the departments of the instructor relation?
+a) Select * from instructor where Dept_name = Finance;
+b) Select * from instructor ;
+c) Select dept_name from instructor;
+d) Select dept_name for instructor where Name=Jackson;
+c
+2. How can we select the elements which have common Dept_name in both the relation ?
+a) Select * from instructor i , course c where i.Dept_name=c.Dept_name;
+b) Select Dept name from instructor ,Course ;
+c) Select * from instructor i , course c ;
+d) Select Dept_name from instructor where Dept_name = NULL;
+a
+3. Select distinct Dept_name from instructor ;
+How many row(s) are displayed ?
+a) 4
+b) 3
+c) 5
+d) Error
+a
+4. Suppose the Authority want to include a new instructor for the title Neuroscience what command should be inserted ?
+a) Insert into instructor values(12111,Emma,NeuroScience,200000);
+b) Insert into course values(12111,Introduction,NeuroScience,2);
+c) 
+Insert into instructor values(12111,Emma,Biology,200000);
+   Insert into course values(BIO-112,Introduction to Neuro Science,NeuroScience,2);
+d) Insert into course values(12111,Emma,NeuroScience,200000);
+c
+5. If a person all the people in Music department gets fired which of the following has to be performed on the instructor relation ?
+a) Delete Dept_name=Music in instructor;
+b) Delete from instructor where Dept_name=Music;
+c) Remove Dept_name= Music
+d) All of the mentioned
+b
+6.
+SELECT DISTINCT T.name
+FROM instructor AS T, instructor AS S
+WHERE T.salary > S.salary AND S.dept name = ’Comp.Sci.’;
+What will be displayed as the value of name for the above query?
+a) Hayley
+b) Jackson
+c) Hayley and Crick
+d) Crick
+d
+7.
+SELECT Name
+FROM instructor
+WHERE salary > SOME (SELECT salary FROM instructor WHERE dept_name = 'Comp.Sci.');
+How many rows are selected ?
+a) 3
+b) 4
+c) 2
+d) 1
+d
+8. How will you select the Names whose first letter is E ?
+a)
+   SELECT Name
+   FROM instructor
+   WHERE Name LIKE ’A%;
+b)
+   SELECT Name
+   FROM course
+   WHERE Name LIKE ’A%;
+c)
+   SELECT Dept_name
+   FROM instructor
+   WHERE Name LIKE ’A%;
+d)
+   SELECT Name
+   FROM instructor
+   WHERE Dept_name LIKE ’A%;
+a
+  
+9. Which function is used to find the count of distinct departments?
+a) Dist
+b) Distinct
+c) Count
+d) Count,Dist
+a
+10. Which function is used to identify the title with Least scope?
+a) Min(Credits)
+b) Max(Credits)
+c) Min(title)
+d) Min(Salary)
+a
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database for Freshers, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Querying database part-1 DDL» Next - Database Questions and Answers – Atomic Domains 

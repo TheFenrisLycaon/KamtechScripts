@@ -1,0 +1,66 @@
+1. Which figure implements confidentiality and authentication?
+a
+ 
+2. Which figure implements confidentiality, authentication and signature?
+d
+3. The above figure implements authentication and signature only?
+a) True
+b) False
+a
+4. The above figure represents internal error control.
+a) True
+b) False
+b
+5. Another name for Message authentication codes is
+a) cryptographic codebreak
+b) cryptographic codesum
+c) cryptographic checksum
+d) cryptographic checkbreak
+c
+6. The following figure has authentication tied to the plaintext-
+a) True
+b) False
+b
+7. For a 150-bit message and a 10-bit MAC, how many values are the MAC value dependent on?
+a) 2140
+b) 2150
+c) 215
+d) 210
+a
+8. Confidentiality can only be provided if we perform message encryption before the MAC generation.
+a) True
+b) False
+b
+9. MACs are also called
+a) testword
+b) checkword
+c) testbits
+d) none of the mentioned
+d
+10. For a 100 bit key and a 32 bit tag, how many possible keys can be produced in the 3rd round?
+a) 24
+b) 232
+c) 216
+d) 264
+a
+Second round: 68 – 32 = 36.
+Third round: 36 – 32 = 4.
+Therefore 24 keys can be produced by the third round.
+11. MAC is a
+a) one-to-one mapping
+b) many-to-one mapping
+c) onto mapping
+d) none of the mentioned
+b
+12. For an n-bit tag and a k-bit key, the level of effort required for brute force attack on a MAC algorithm is
+a) 2k
+b) 2n
+c) min(2k,2n)
+d) 2k/2n
+c
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Integrity Algorithms Questions and Answers – Secure Hash Algorithms (SHA) – IV» Next - Data Integrity Algorithms Questions and Answers – HMAC, DAA and CMAC 

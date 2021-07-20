@@ -1,0 +1,66 @@
+1. Which of the following is not a limitation of user defined function?
+a) User-defined functions cannot call a stored procedure, but can call an extended stored procedure
+b) User-defined functions cannot make use of dynamic SQL or temp tables. Table variables are allowed
+c) SET statements are allowed in a user-defined function
+d) The FOR XML clause is not allowed
+c
+2. Point out the correct statement.
+a) User-defined functions cannot be used to perform actions that modify the database state
+b) User-defined functions cannot contain an OUTPUT INTO clause that has a table as its target
+c) User-defined functions can not return multiple result sets. Use a stored procedure if you need to return multiple result sets
+d) All of the mentioned
+d
+3. Which of the following statements cannot be included in the definition of a Transact-SQL user-defined function?
+a) GET CONVERSATION GROUP
+b) MOVE CONVERSATION
+c) RECEIVE
+d) All of the mentioned
+d
+4. CREATE FUNCTION requires __________ permission in the database.
+a) ALTER
+b) DROP
+c) DELETE
+d) All of the mentioned
+a
+5. Point out the wrong statement.
+a) If the function specifies a user-defined type, requires EXECUTE permission on the type
+b) If the function specifies a user-defined type, requires READ permission on the type
+c) If the function specifies a user-defined type, requires ALTER permission on the type
+d) None of the mentioned
+b
+6. Which of the following is the most visible benefit of user-defined function?
+a) Slow performance
+b) Bad optimized queries
+c) Faster performance
+d) All of the mentioned
+c
+7. UDFs in SQL Server is composed of _______ parts.
+a) 1
+b) 2
+c) 3
+d) 4
+b
+8. When to choose scalar function over inline table valued function?
+a) You want a single value as the result
+b) One or more row’s worth of data is expected
+c) You want multiple values as  result
+d) All of the mentioned
+a
+9. Which of the user defined function will be preferred for adding two numbers?
+a) Scalar
+b) Inline table valued
+c) Max()
+d) Min()
+a
+10. The ability to create a user-defined function (UDF) is a new feature added to ________________
+a) SQL Server 6.5
+b) SQL Server 7.0
+c) SQL Server 2000
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server for online test, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – User Defined Functions  – 1» Next - SQL Server Questions and Answers – DML Triggers 

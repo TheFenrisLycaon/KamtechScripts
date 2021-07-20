@@ -1,0 +1,73 @@
+1. The minimum number of frames to be allocated to a process is decided by the ____________
+a) the amount of available physical memory
+b) operating System
+c) instruction set architecture
+d) none of the mentioned
+c
+2. When a page fault occurs before an executing instruction is complete if ____________
+a) the instruction must be restarted
+b) the instruction must be ignored
+c) the instruction must be completed ignoring the page fault
+d) none of the mentioned
+a
+3. Consider a machine in which all memory reference instructions have only one memory address, for them we need at least _____ frame(s).
+a) one
+b) two
+c) three
+d) none of the mentioned
+b
+4. The maximum number of frames per process is defined by ____________
+a) the amount of available physical memory
+b) operating System
+c) instruction set architecture
+d) none of the mentioned
+a
+5. The algorithm in which we split m frames among n processes, to give everyone an equal share, m/n frames is known as ____________
+a) proportional allocation algorithm
+b) equal allocation algorithm
+c) split allocation algorithm
+d) none of the mentioned
+b
+6. The algorithm in which we allocate memory to each process according to its size is known as ____________
+a) proportional allocation algorithm
+b) equal allocation algorithm
+c) split allocation algorithm
+d) none of the mentioned
+a
+7. With either equal or proportional algorithm, a high priority process is treated ___________ a low priority process.
+a) greater than
+b) same as
+c) lesser than
+d) none of the mentioned
+b
+8. _________ replacement allows a process to select a replacement frame from the set of all frames, even if the frame is currently allocated to some other process.
+a) Local
+b) Universal
+c) Global
+d) Public
+c
+9. _________ replacement allows each process to only select from its own set of allocated frames.
+a) Local
+b) Universal
+c) Global
+d) Public
+a
+10. One problem with the global replacement algorithm is that ____________
+a) it is very expensive
+b) many frames can be allocated to a process
+c) only a few frames can be allocated to a process
+d) a process cannot control its own page – fault rate
+d
+11. ________ replacement generally results in greater system throughput.
+a) Local
+b) Global
+c) Universal
+d) Public
+b
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions & Answers – Virtual Memory – Page Replacement Algorithms – 2» Next - Operating System Questions & Answers – Virtual Memory – Thrashing 

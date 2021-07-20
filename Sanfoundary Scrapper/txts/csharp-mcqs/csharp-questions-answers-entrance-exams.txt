@@ -1,0 +1,108 @@
+1. The correct way to implement a read only property add, in a math class is?
+a)
+   class math   {       int ad;       public int add       {           get           {               return ad;           }       }    }
+b)
+   class math   {      public int add      {          get          {              return ad;              }      }  }
+c)
+   class math   {       int ad;       public int add       {           get           {               return ad;           }           set           {               ad = value;            }       }   }
+d) None of the mentioned
+a
+2. The correct way to implement a write only property add in a math class?
+a)
+   class math   {       public int add       {           set           {                add = value;            }        }    }
+b)
+   class math   {       int ad;       public int add       {           set           {               ad = value;           }       }   }
+c)
+  class math  {      int ad;      public int add      {          get          {              return ad;          }          set          {              ad = value;          }      }  }
+d) None of the mentioned
+b
+3. Select the correct statement about properties of read and write in C#.NET?
+a) A property can simultaneously be read or write only
+b) A property cannot be either read only or write only
+c) A write only property will only have get accessor
+d) A read only property will only have get accessor
+d
+4. What will be the output of the following C# code?
+ class number {     private int num1;     private int num2;     public int anumber     {         get         {             return num1;         }         set         {             num1 = value;         }     }     public int anumber1     {         get         {             return num2;         }         set         {             num2 = value;         }     } } class Program {     public static void Main(string[] args)     {         number p = new number();         p.anumber = 20;         number k = new number();         k.anumber1 = 40;          int m = p.anumber;         int t = k.anumber1;         int r = p.anumber + k.anumber1;         System.Console.WriteLine("number1 = " +m);         System.Console.WriteLine("number2 = " +t);         System.Console.WriteLine("sum = " +r);         System.Console.ReadLine();     } }
+a) 20
+b) 
+number1 = 30
+number2 = 40
+sum = 70
+c) 
+number1 = 20
+number2 = 40
+sum = 60
+d) Compile time error
+c
+Output :
+number1 = 20
+number2 = 40
+sum = 60
+5. What will be the output of the following C# code?
+  class number  {      private int num1 = 60;      private int num2 = 20;      public int anumber      {          get          {              return num1;          }          set          {              num1 = value;          }      }      public int anumber1      {          get          {              return num2;          }          set          {              num2 = value;          }      }  }  class Program  {      public static void Main(string[] args)      {          number p = new number();          number k = new number();          int m = p.anumber;          int t = k.anumber1;          int r = p.anumber * k.anumber1;          Console.WriteLine("sum = " + r);          Console.ReadLine();      }  }
+a) 0
+b) 120
+c) 1200
+d) Compile time error
+c
+Output :
+ 1200
+6. What will be the output of the following C# code?
+ class number {     int length = 50;     public int number1     {         get         {             return length;         }         set         {             length = value;         }     } } class Program {     public static void Main(string[] args)     {         number p = new number();         p.number1 = p.number1 + 40;         int k = p.number1 * 3 / 9;         Console.WriteLine(k);         Console.ReadLine();     } }
+a) 0
+b) 180
+c) 30
+d) Compile time error
+c
+Output :
+30
+7. What will be the output of the following C# code?
+  class number  {      int length = 60;      public int number1      {          get          {              return length;          }      }  }  class Program  {      public static void Main(string[] args)      {          number p = new number();          int l;          l = p.number1 + 40;          int k = l * 3 / 4;          Console.WriteLine(k);          Console.ReadLine();      }  }
+a) 30
+b) 75
+c) 80
+d) 0
+b
+Output :
+75
+8. What will be the output of the following C# code?
+  class student  {      int []scores = new int[5] {23, 42, 54, 11, 65};      public int this[int index]      {          get          {              if (index < 5)              return scores[index];              else              {                  Console.WriteLine("invalid index");                  return 0;              }          }          set          {              if (index < 5)              scores[index] = value;              else              Console.WriteLine("invalid index");          }      }  }  class Program  {      public static void Main(string[] args)      {          student s = new student();          Console.WriteLine(s[4] + 8);          Console.ReadLine();      }  }
+a) 73
+b) 37
+c) 0
+d) Run time error
+a
+Output :
+73
+ 
+9. The correct way to implement the property for which property reports the error “invalid index” if user attempts to cross bounds of the array for a student class with 5 integer arrays.
+a)
+ class student {     int []scores = new int[5] {23, 42, 54, 11, 65};     public int this[int index]     {         get         {             if (index < 5)             return scores[index];             else             {                 Console.WriteLine("invalid index");                 return 0;             }         }         set         {             if (index < 5)             scores[index] = value;             else             Console.WriteLine("invalid index");         }     } }
+b)
+ class student {     int []scores = new int[5] {23, 42, 54, 11, 65};     public int this[int index]     {         get         {             if (index < 5)             return scores[index];         }     } }
+c)
+ class student {     int []scores = new int[5]{23, 42, 54, 11, 65};     public int this[int index]     {         set         {             if (index < 5)             return scores[index];             else             {                 Console.WriteLine("invalid index");                 return 0;             }         }     } }
+d) None of the mentioned
+a
+10. What will be the output of the following C# code?
+ class student {     int []scores = new int[3] {13, 32, 24};     public int this[int index]     {         get         {             if (index < 3)             return scores[index];             else             {                 Console.WriteLine("invalid index");                 return 0;             }         }         private  set         {             if (index < 3)             scores[index] = value;             else             Console.WriteLine("invalid index");         }     } } class Program {     public static void Main(string[] args)     {         student s = new student();         int[] scores1 = new int[3] {8, 19, 40};         for (int i = 0; i < 3; i++)         {             if (scores1[i] > s[i])             {                 Console.WriteLine(" scores1 had greater value :" + scores1[i]);             }             else             {                 Console.WriteLine("scores had greater value :" + s[i]);             }         }         Console.ReadLine();     } }
+a) 0
+b) Compile time error
+c) Run time error
+d) 
+scores had greater value : 13
+scores had greater value : 32
+scores1 had greater value : 40
+d
+Output :
+        scores had greater value : 13
+         scores had greater value : 32
+        scores1 had greater value : 40
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all areas of C# for Entrance exams, here is complete set on 1000+ Multiple Choice Questions and Answers on C#
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Introduction of Properties» Next - C# Questions & Answers – Fundamentals of Exception Handling 

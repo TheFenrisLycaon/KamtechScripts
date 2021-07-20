@@ -1,0 +1,66 @@
+1. What are the components of a marker interface?
+a) Fields and methods
+b) No fields, only methods
+c) Fields, no methods
+d) No fields, No methods
+d
+2. Which of the following is not a marker interface?
+a) Serializable
+b) Cloneable
+c) Remote
+d) Reader
+d
+3. What is not the advantage of Reflection?
+a) Examine a class’s field and method at runtime
+b) Construct an object for a class at runtime
+c) Examine a class’s field at compile time
+d) Examine an object’s class at runtime
+c
+4. How private method can be called using reflection?
+a) getDeclaredFields
+b) getDeclaredMethods
+c) getMethods
+d) getFields
+b
+5. How private field can be called using reflection?
+a) getDeclaredFields
+b) getDeclaredMethods
+c) getMethods
+d) getFields
+a
+6. What is used to get class name in reflection?
+a) getClass().getName()
+b) getClass().getFields()
+c) getClass().getDeclaredFields()
+d) new getClass()
+a
+7. How method can be invoked on unknown object?
+a) obj.getClass().getDeclaredMethod()
+b) obj.getClass().getDeclaredField()
+c) obj.getClass().getMethod()
+d) obj.getClass().getObject()
+c
+8. How to get the class object of associated class using Reflection?
+a) Class.forName(“className”)
+b) Class.name(“className”)
+c) className.getClass()
+d) className.getClassName()
+a
+9. What does Class.forName(“myreflection.Foo”).getInstance() return?
+a) An array of Foo objects
+b) class object of Foo
+c) Calls the getInstance() method of Foo class
+d) Foo object
+d
+10. What does foo.getClass().getMethod(“doSomething”, null) return?
+a) doSomething method instance
+b) Method is returned and we can call the method as method.invoke(foo,null);
+c) Class object
+d) Exception is thrown
+b
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Advanced Java Questions & Answers – JSP Elements» Next - Advanced Java Questions & Answers – AutoCloseable, Closeable and Flushable Interfaces 

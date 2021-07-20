@@ -1,0 +1,68 @@
+1. How many parameters are there in Weibull distribution?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+2. Weibull distribution gives the failure rate proportional to the power of time.
+a) True
+b) False
+a
+3. In Weibull distribution, if the value of β equal us equal to one that indicates the failure rate is constant over time.
+a) True
+b) False
+a
+Explanation In Weibull distribution for β < 1 failure rate that decreases with time. β = 1 have a constant failure rate. β > 1 have a failure rate that increases with time.
+4. For β greater than 1 there is an inflection point for Weibull function at ___________
+a) (e1/β-1)/e1/β-1
+b) (e1/β-1)/e1/β
+c) (e1/β-1)/e1/β-2
+d) (e1/β-1)/e1/β-5
+b
+5. How can we increase the height of the graph of Weibull distribution?
+a) if η  is decreased while β and γ  are constant
+b) if η  is increased while β and γ  are constant
+c) if η  is constant while β and γ  are increased
+d) if η  is constant while β and γ  are decreased
+a
+6. What is the effect of the threshold parameter γ on the graph of Weibull distribution?
+a) graph shift to left or right
+b) graph shifts up or down
+c) height of the graph decreases
+d) height of the graph increases
+a
+7. What is the mean time to failure if time to failure of a gadget follows Weibull distribution with scale = 1000 hours and shape = 0.5?
+a) 2500 hours
+b) 1500 hours
+c) 3000 hours
+d) 2000 hours
+d
+Mean time to failure is given by
+1000 × Γ (1+1/0.5)
+1000 × 2 = 2000 hours.
+8. The mean time of failure is given by the equation __________
+a) E(X) = Γ(1/ 2β + 1)
+b) E(X) = Γ(1/ β + 1)
+c) E(X) = Γ(1/ β + 2)
+d) E(X) = Γ(2/ β + 1)
+b
+9. The time to failure of an electric bulb follows a Weibull distribution with scale = 2000 hours and shape = 0.5. What is the probability that the electric bulb will last more than 4000 hours? What is the mean time to failure?
+a) 25.3%
+b) 24.3%
+c) 26.3%
+d) 27.3%
+b
+The probability that the bulb will last no more than 3000 hours = WEIBULL (3000, 0.75, 1000, True) = 0.757
+Probability that the bulb will last more than 4000 hours = 1 – 0.757 = 24.3%.
+10. γ in Weibull distribution graph indicates _________
+a) earliest time of failure
+b) maximum time of failure
+c) shape of the graph
+d) scale of the graph
+a
+Sanfoundry Global Education & Learning Series – Probability and Statistics.
+To practice all areas of Probability and Statistics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Probability and Statistics Questions and Answers – Gamma Distribution» Next - Probability and Statistics Questions and Answers – Sampling Distribution – 1 

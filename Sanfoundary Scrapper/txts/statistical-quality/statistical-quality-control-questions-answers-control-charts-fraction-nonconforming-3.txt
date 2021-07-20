@@ -1,0 +1,106 @@
+1. For LCL for the p-chart to be higher than zero, what condition should the sample size fulfill?
+a) \(n>\left[\frac{(1-p) L^2}{p}\right] \) 
+b) \(n>\left[\frac{(1-p) L^2}{2p}\right] \) 
+c) \(n<\left[\frac{(1-p) L^2}{2p}\right] \) 
+d) \(n<\left[\frac{(1-p) L^2}{p}\right] \) 
+a
+\(n>\left[\frac{(1-p) L^2}{p}\right] \)
+2. For what value of sample size, will the p-chart will have a LCL value higher than 0 when p=0.05 and 3 sigma limits are used?
+a) n>121
+b) n>100
+c) n>125
+d) n>171
+d
+\(n>\frac{1-p}{p}*L^2 \) 
+For p=0.05 and L=3, we get, n>171.
+3. For narrower limits of control, which of this is true?
+a) Chart becomes insensitive to small shift
+b) Chart becomes more sensitive to small shift but gives false alarms
+c) Chart becomes more sensitive to small shift but gives accurate alarms
+d) Chart gives no alarms at all
+b
+4. If the probability of a unit being conforming or nonconforming, depends on the previous unit being conforming or nonconforming, can p-chart be applied on the process?
+a) Yes
+b) No
+c) This depends on the sample size
+d) This depends on the operator changes
+b
+5. The number nonconforming chart is also called ___________
+a) np-chart
+b) p-chart
+c) c-chart
+d) s-chart
+a
+Join Sanfoundry@YouTube
+6. The center line of the np-control chart represents the value equal to ____________
+a) p
+b) p
+c) np
+d) 1-np
+c
+7. If the p=0.2313 for a np chart, and the number of items in a sample are 50, what will be the center line value of the np chart?
+a) 10.34
+b) 11.56
+c) 10.11
+d) 13.21
+b
+CL=np
+Here, n=50 and p=0.2313, putting these values in the CL value, we get, CL=11.565.
+8. For a control chart data having the average sample fraction nonconforming= 0.2313 and the sample size=50, what will be the value of the UCL for the np control chart?
+a) 2.62
+b) 20.510
+c) 11.56
+d) 11.892
+b
+UCL=\(n\bar{p}+3\sqrt{n\bar{p} (1-\bar{p})}\) 
+Putting the values, we get, UCL=20.51.
+9. What is the expression to calculate the variable-width control limits for the p-chart?
+a) \(\bar{p} \pm \frac{1}{2} \sqrt{\bar{p}(1-\bar{p})/n_i}\) 
+b) \(\bar{p} \pm \sqrt{\bar{p}(1-\bar{p})/n_i}\) 
+c) \(\bar{p} \pm 3\sqrt{\bar{p}(1-\bar{p})/n_i}\) 
+d) \(\bar{p} \pm \sqrt{\bar{p}(1-\bar{p})/n_i}\) 
+c
+\(\bar{p} \pm 3\sqrt{\bar{p}(1-\bar{p})/n_i}\)
+10. For a process, there are 25 samples taken from its output of variable sample size. There are total 234 defects in all the samples combined. If the total of all the sample sizes is 2450, what will be the value of the UCL in the case of variable-width control limits of p-chart?
+a) \(0.096+3\sqrt{0.096*\frac{0.904}{n_i}}\) 
+b) \(0.087+3\sqrt{0.087*\frac{0.913}{n_i}}\) 
+c) \(0.096-3\sqrt{0.096*\frac{0.904}{n_i}}\) 
+d) \(0.087-3\sqrt{0.087*\frac{0.913}{n_i}}\) 
+a
+\(\bar{p} + 3\sqrt{\bar{p}(1-\bar{p})/n_i}\) 
+Here \(\bar{p} = \frac{234}{2450}\)=0.096. Putting this value in UCL formula, we get,
+\(0.096+3\sqrt{0.096*\frac{0.904}{n_i}}\)
+11. Which one of these is not a method to plot the variable sample size data on p-chart?
+a) Variable-width control limits
+b) Control limits based on average sample size
+c) Tolerance diagram
+d) Standardized Control Chart
+c
+12. In the case of average sample size based control limits, which of these states the correct expression for average sample size?
+a) \(\bar{n}=\frac{∑_{i=0}^m n_i}{m}\) 
+b) \(\bar{n}=\frac{∑_{i=1}^m n_i}{m}\) 
+c) \(\bar{n}=\frac{∑_{i=1}^m n_i}{m-1}\) 
+d) \(\bar{n}=\frac{∑_{i=1}^m n_i}{1-m}\) 
+b
+\(\bar{n}=\frac{∑_{i=1}^m n_i}{m}\)
+13. The approximate upper control limit calculated for control chart limits based on an average sample size, is expressed by _____
+a) UCL=\(\bar{p} + 0.5\sqrt{\bar{p}(1-\bar{p})/\bar{n}}\) 
+b) UCL=\(\bar{p} + \sqrt{\bar{p}(1-\bar{p})/\bar{n}}\) 
+c) UCL=\(\bar{p} – 3\sqrt{\bar{p}(1-\bar{p})/\bar{n}}\) 
+d) UCL=\(\bar{p} + 3\sqrt{\bar{p}(1-\bar{p})/\bar{n}}\) 
+d
+UCL=\(\bar{p} + 3\sqrt{\bar{p}(1-\bar{p})/\bar{n}}\)
+14. Even if 100% inspection is done, control chart can have a variable sample size.
+a) True
+b) False
+a
+15. The points plotting below the lower control limit of p-chart do not always represent the out-of-control process or an assignable cause.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Attribute Charts – Control Charts for Fraction Nonconforming – 2» Next - Statistical Quality Control Questions and Answers – Attribute Charts – Control Charts for Fraction Nonconforming – 4 

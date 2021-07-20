@@ -1,0 +1,101 @@
+1. Which mechanism among the following helps in identifying a type during the execution of a program?
+a) Reflection
+b) Runtime type ID
+c) Both Reflection & Runtime type ID
+d) None of the mentioned
+b
+2. Select the statement which are correct about RTTI(Runtime type identification)?
+a) It allows the type of an object to be determined during program execution
+b) It tells what type of object is being referred to by a base class reference determined by RTTI
+c) Helps in prevention of an invalid cast exception in advance
+d) All of the mentioned
+d
+3. Select the Keyword which supports the run time type identification?
+a) is, as
+b) as, typeof
+c) Both is, as & as, typeof
+d) Only is, as
+c
+4. What does the following C# code signify?
+expr is type
+a) Determines the type of an object
+b) a simple deceleration
+c) Both Determines the type of an object & a simple deceleration
+d) None of the mentioned
+a
+5. What will be the output of the following C# code snippet?
+class B { }class A : B { }class Program{    static void Main(string[] args)    {        A a = new A();        B b = new B();        if (a is A)         Console.WriteLine("a is an A");        if (b is A)        Console.WriteLine("b is an A because it is derived from A");        if (a is B)        Console.WriteLine("This won’t display -- a not derived from B");        Console.ReadLine();    }}
+a) 
+a is an A
+This won’t display -- a not derived from B
+b) 
+a is an A
+b is an A because it is derived from A
+c) 
+b is an A because it is derived from A
+This won’t display -- a not derived from B
+d) 
+"Both ""a is an A
+This won’t display — a not derived from B"" & ""a is an A
+b is an A because it is derived from A"""
+a
+Output:
+       a is an A
+        This won’t display -- a not derived from B
+  
+6. Which operator among the following supports the operation of conversion at runtime without generating the exceptions?
+a) is
+b) as
+c) typeof
+d) all of the mentioned
+b
+7. Which operator among the following is used to perform the operation of boxing, unboxing, reference and identity conversions?
+a) is
+b) as
+c) typeof
+d) all of the mentioned
+b
+     expr as type
+Here, expr is the expression being converted to type. If the conversion succeeds, then a reference to type is returned. Otherwise, a null reference is returned. The as operator can be used to perform only reference, boxing, unboxing, or identity conversions.
+8. What will be the output of the following C# code snippet?
+class A {}class B : A {}class CheckCast {    static void Main()     {        A a = new A();        B b = new B();        b = a as B;        b = null;        if(b==null)        Console.WriteLine("The cast in b = (B) a is NOT allowed.");        else        Console.WriteLine("The cast in b = (B) a is allowed");    }}
+a) Run time error
+b) The cast in b = (B) a is NOT allowed
+c) The cast in b = (B) a is allowed
+d) Compile time error
+b
+Output:
+The cast in b = (B) a is NOT allowed
+9. Which operator among the following supplies the information about the characteristics of a typeof?
+a) is
+b) as
+c) typeof
+d) none of the mentioned
+c
+10. What will be the output of the following C# code snippet?
+class UseTypeof {    static void Main()     {        Type t = typeof(StreamReader);        Console.WriteLine(t.FullName);        if(t.IsClass) Console.WriteLine("Is a class.");        if(t.IsAbstract) Console.WriteLine("Is abstract.");        else Console.WriteLine("Is concrete.");    }}
+a) 
+Is a class
+Is abstract
+b) Is abstract
+c) 
+System.IO.StreamReader
+Is a class
+Is concrete
+d) 
+Both Is a class
+Is abstract & System.IO.StreamReader
+Is a class
+Is concrete
+c
+Output:
+         System.IO.StreamReader
+         Is a class
+         Is concrete
+  
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Introduction of Array Class» Next - C# Questions & Answers – Introduction of Reflections 

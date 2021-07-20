@@ -1,0 +1,120 @@
+1. The simultaneous linear equations used in FEM for solution of static problems are KX=F, the methods available for solving these equations are divided into two types: direct and iterative.
+a) True
+b) False
+a
+2. For the following equations, what is the value of x2 using Gaussian elimination method?
+   x1-x2+3x3=10——– (i)
+   5x2-5x3=-5———— (ii)
+   -7x3=-28 —————- (iii)
+a) 1
+b) 2
+c) 3
+d) 4
+c
+    5*x2-5*4=-5
+     5*x2=15
+     x2=3
+3. For the following equations, what is the value of x1 using Gaussian elimination method?
+      x1-x2+3x3=10——– (i)
+            5x2-5x3=-5———— (ii)
+                 -7x3=-28—————- (iii)
+a) 1
+b) 2
+c) 3
+d) 4
+a
+      5*x2-5*4=-5
+             5*x2=15
+                     x2=3
+Using x3, x2 in 1st equation
+         x1-3+3*4=10
+        x1-3+12=10
+                       x1=1
+4. Which option is not correct about direct methods for solving system of linear equations?
+a) In the absence of errors it yields exact solution
+b) Errors arising from round off and truncation may give useless results
+c) Gaussian elimination method is an example
+d) Starts with an initial approximation
+d
+5. Which option is not correct about iterative methods for solving system of linear equations?
+a) Convergence yields a good approximate solution
+b) Insensitive to the growth of round-off errors
+c) Gaussian elimination method is an example
+d) Starts with an initial approximation
+c
+Join [email protected]
+6. In structural mechanics, which option is not correct about linear analysis?
+a) Displacements are infinitesimally small
+b) Material is linearly elastic
+c) Externally applied loads are a function of time
+d) Applied loads are not a function of time
+c
+7. A generalized Eigen value problem [K- ω2M]X=0 has a non-zero solution for X. What can be the value of determinant of the matrix [K- ω2M]?
+a) Any integer
+b) 0
+c) +1
+d) Positive integer
+b
+8. In FEM, the forced vibrations equation after Finite Element discretization of a structure can be expressed as which option?
+a) Mẍ+Kẋ=F
+b) Mẍ+Kẋ=0
+c) Mẍ+Kx=F
+d) Mẍ+Kx=0
+c
+9. The free vibrations equation after Finite Element discretization of a structure is expressed as Mẍ+Kx=0. Which option is not correct about the free vibration case?
+a) Displacements are harmonic
+b) x=Xeiωt where X is amplitude
+c) [K-ω2M]X=0
+d) KX=Mω2
+d
+10. The generalized Eigen value problem [K-ω2M]X=0 has a non-zero solution for X. What is the value of natural frequency, ω if K=\(\begin{pmatrix}1&1&1\\1&1&1\\1&1&1\end{pmatrix}\),
+M=\(\begin{pmatrix}9&9&9\\9&9&9\\9&9&9\end{pmatrix}\)?
+a) 3
+b) 1/9
+c) 9
+d) 1/3
+d
+ K=ω2M
+ \(\begin{pmatrix}1&1&1\\1&1&1\\1&1&1\end{pmatrix}\)=ω2*\(\begin{pmatrix}9&9&9\\9&9&9\\9&9&9\end{pmatrix}\)
+Equating corresponding elements, we get 9*ω2=1
+ω2=1/9
+Natural frequency, ω =1/3.
+11. Which option is not correct about free vibration analysis problem KX= λMX, where X represents the amplitude of displacement x?
+a) The displacements are harmonic
+b) X represent mode shapes or Eigen vectors
+c) λ represent Eigen value
+d) ω represents Eigen value
+d
+12. After Finite Element discretization of a structure, which option expresses the free vibrations equation?
+a) Mẍ+Kẋ=F
+b) Mẍ+Kẋ=0
+c) Mẍ+Kx=F
+d) Mẍ+Kx=0
+view answerAnswer: d
+13. For the eigenvalue problem of the form A(u) = λB(u), which option is not correct about the parameters used in the equation below?
+  \(-\frac{d^2x}{dx^2}=\lambda u\) 
+a) A=\(\frac{d^2x}{dx^2}\) 
+b) B=1
+c) B=0
+d) λ is called eigenvalue
+c
+14. The generalized Eigen value problem [K- λM]X=0 has a non-zero solution for X. What is the value of λ if K=\(\begin{pmatrix}1&1&1\\1&1&1\\1&1&1\end{pmatrix}\), M=\(\begin{pmatrix}4&4&4\\4&4&4\\4&4&4\end{pmatrix}\)?
+a) 1
+b) \(\frac{1}{2}\) 
+c) 4
+d) \(\frac{1}{4}\) 
+d
+\(\begin{pmatrix}1&1&1\\1&1&1\\1&1&1\end{pmatrix}\)=λ\(\begin{pmatrix}4&4&4\\4&4&4\\4&4&4\end{pmatrix}\) 
+Equating corresponding elements, we get 1=4*λ
+λ=\(\frac{1}{4}\).
+15. For the following eigenvalue equation to represent a heat transfer problem, a=kA and C=ρcA.
+ \(-\frac{d}{dx}(a\frac{dU}{dx})\)=λCU
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Single Variable Problems – Applications – 2» Next - Finite Element Method Questions and Answers – Eigen Value and Time Dependent Problems – 2 

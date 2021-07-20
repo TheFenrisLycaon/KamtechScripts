@@ -1,0 +1,94 @@
+1. If a periodic signal is decomposed into five sine waves with frequencies of 100, 300, 500, 700, and 900 Hz, what is its bandwidth?
+a) 2500 Hz
+b) 900 Hz
+c) 800 Hz
+d) can’t be determined with the information given
+c
+2. Assume we need to download text documents at the rate of 100 pages per second. What is the required bit rate of the channel?
+a) 1.846 Mbps
+b) 1.536 Mbps
+c) 2.4 Mbps
+d) None of the Mentioned
+b
+Each line has 80 char.
+Each char required 8 bits
+100 x 24 x 80 x 8 = 1,536,000=1536 Mbps.
+3. A digitized voice channel is made by digitizing a 4-kHz bandwidth analog voice signal. We need to sample the signal at twice the highest frequency (two samples per hertz). We assume that each sample requires 8 bits. What is the required bit rate?
+a) 64 kbps
+b) 32 kbps
+c) 128 kbps
+d) 16 kbps
+a
+4. What is the bit rate for high-definition TV (HDTV)?
+a) 1.4 Gbps
+b) 2 Gbps
+c) 1.5 Gbps
+d) 1.8 Gbps
+c
+The HDTV screen is normally a ratio of 16: 9 (in contrast to 4: 3 for regular TV)
+There are 1920 by 1080 pixels per screen, and
+Screen is renewed 30 times per second.
+24-bits represent one color pixel.
+Therefore Bit Rate = 1920 × 1080 × 30 × 24 = 1,492992,000 = 1.5 Gbps.
+5. A device is sending out data at the rate of 1000 bps. How long does it take to send a file of 100,000 characters?
+a) 200s
+b) 400s
+c) 600s
+d) 800s
+d
+6. A file contains 2 million bytes. How long does it take to download this file using a 56-Kbps channel?
+a) 1-2 mins
+b) 5-6 mins
+c) 2-4 mins
+d) 7-8 mins
+b
+With a 56-Kbps channel, it takes 16,000,000/56,000 = 289 s ≈ 5 minutes.
+7. We need to send 265 kbps over a noiseless channel with a bandwidth of 20 kHz. How many signal levels do we need?
+a) 1024
+b) 512
+c) 256
+d) 128
+d
+256000  = 2 × 20000 × log L = 6.625.
+L = 98.7 Levels.
+Since this result is not a power of 2, we need to either increase the number of levels or reduce the bit rate. If we have 128 levels, the bit rate is 280 kbps.
+8. Calculate the theoretical highest bit rate of a regular telephone line. The signal-to-noise ratio is usually 3162.
+a) 34.860 kbps
+b) 17.40 kbps
+c) 11.62 kbps
+d) none of the Mentioned
+a
+Logarithm here is in terms of base 2.
+9. Calculate the theoretical channel capacity. If SNR(dB) = 36 and the channel bandwidth is 2 MHz.
+a) 12 Mbps
+b) 24 Mbps
+c) 16 Mbps
+d) 32 Mbps
+b
+10. A channel has a 1-MHz bandwidth. The SNR for this channel is 63. What is the appropriate bit rate?
+a) 4 Mbps
+b) 6 Mbps
+c) 8 Mbps
+d) 12 Mbps
+b
+C = Blog_2(1 + SNR) = 10^6 log_2(1 + 63) = 6Mbps.
+11. A channel has a 1-MHz bandwidth. The SNR for this channel is 63. What is the appropriate signel level?
+a) 2
+b) 8
+c) 4
+d) 16
+c
+4Mbps = 2 x 1 MHz x logL.
+12. 
+What are the bits transmitted for the Unipolar system?
+a) 01101
+b) 11010
+c) 10110
+d) 01001
+c
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Network Security for freshers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Networking Questions and Answers – Network Hardware» Next - Networking Questions and Answers – Layers – II 

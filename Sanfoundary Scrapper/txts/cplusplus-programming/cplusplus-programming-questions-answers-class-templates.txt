@@ -1,0 +1,368 @@
+1. What is the syntax of class template?
+a) template <paramaters> class declaration
+b) Template <paramaters> class declaration
+c) temp <paramaters> class declaration
+d) Temp <paramaters> class declaration
+a
+2. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+template<class T>
+class A
+{
+   public:
+	A(){
+		cout<<"Created\n";
+	}
+	~A(){
+		cout<<"Destroyed\n";
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A a;
+	return 0;
+}
+a) 
+Created
+Destroyed
+b) 
+Destroyed
+Created
+c) Compile-time error
+d) Run-time error
+c
+3. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+template<class T>
+class A
+{
+    public:
+	A(){
+		cout<<"Created\n";
+	}
+	~A(){
+		cout<<"Destroyed\n";
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A <int>a;
+	return 0;
+}
+a) 
+Created
+Destroyed
+b) 
+Destroyed
+Created
+c) Compile-time error
+d) Run-time error
+a
+Output:
+$ ./a.out 
+Created
+Destroyed
+4. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+template<class T>
+class A
+{
+    public:
+	A(){
+		cout<<"Created\n";
+	}
+	~A(){
+		cout<<"Destroyed\n";
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A <int>a1;
+	A <char>a2;
+	A <float>a3;
+	return 0;
+}
+a) 
+Created
+Destroyed
+Created
+Destroyed
+Created
+Destroyed
+b) 
+Created
+Created
+Created
+Destroyed
+Destroyed
+Destroyed
+c) 
+Destroyed
+Created
+Destroyed
+Created
+Destroyed
+Created
+d) 
+Destroyed
+Destroyed
+Destroyed
+Created
+Created
+Created
+b
+  
+5. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+template<class T>
+class A
+{
+    public:
+	T func(T a, T b){
+		return a/b;
+	}	
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A <int>a1;
+	cout<<a1.func(3,2)<<endl;
+	cout<<a1.func(3.0,2.0)<<endl;
+	return 0;
+}
+a) 
+1
+1
+b) 
+1
+1.5
+c) 
+1.5
+1
+d) 
+1.5
+1.5
+a
+  
+6. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+template<class T>
+class A
+{
+    public:
+	T func(T a, T b){
+		return a/b;
+	}	
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A <float>a1;
+	cout<<a1.func(3,2)<<endl;
+	cout<<a1.func(3.0,2.0)<<endl;
+	return 0;
+}
+a) 
+1
+1
+b) 
+1
+1.5
+c) 
+1.5
+1
+d) 
+1.5
+1.5
+d
+  
+7. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+template<class T>
+class A
+{
+    public:
+	T func(T a, T b){
+		return a/b;
+	}	
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A <char>a1;
+	cout<<a1.func(65,1)<<endl;
+	cout<<a1.func(65.28,1.1)<<endl;
+	return 0;
+}
+a) 
+A
+A
+b) 
+65
+65
+c) 
+A
+65
+d) 
+65
+A
+a
+  
+8. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+template<class T>
+class A
+{
+	T a;
+    public:
+	A(){}
+	~A(){}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A <char>a1;
+	A <int>a2;
+	A <double>a3;
+	cout<<sizeof(a1)<<endl;
+	cout<<sizeof(a2)<<endl;
+	cout<<sizeof(a3)<<endl;
+	return 0;
+}
+a) 
+1
+4
+8
+b) 
+4
+1
+8
+c) 
+1
+1
+1
+d) 
+4
+4
+4
+a
+  
+9. How the template class is different from the normal class?
+a) Template class generate objects of classes based on the template type
+b) Template class saves system memory
+c) Template class helps in making genetic classes
+d) All of the mentioned
+d
+10. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+template<class T, class U = char>
+class A
+{
+	T a;
+	U b;
+    public:
+	A(T a_val, char b_val = '$'){
+		this->a = a_val;
+		this->b = b_val;
+	}
+	void print(){
+		cout<<a<<' '<<b<<endl;
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A <int, int> a1(5,10);
+	A <int> a2(5);
+	A <float> a3(10.0);
+	return 0;
+}
+a) 
+5 10
+5 $
+10 $
+b) nothing
+c) Error
+d) Segmentation fault
+b
+11. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+template<class T, class U = char>
+class A
+{
+	T a;
+	U b;
+    public:
+	A(T a_val, char b_val = '$'){
+		this->a = a_val;
+		this->b = b_val;
+	}
+	void print(){
+		cout<<a<<' '<<b<<endl;
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A <int, int> a1(5,10);
+	A <int> a2(5);
+	A <float> a3(10.0);
+	a1.print();
+	a2.print();
+	a3.print();
+	return 0;
+}
+a)
+5 10
+5 $
+10 $
+b) Nothing
+c) Error
+d) Segmentation fault
+a
+$ ./a.out 
+5 10
+5 $
+10 $
+12. How many template parameters are allowed in template classes?
+a) 1
+b) 2
+c) 3
+d) one or more
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Function Templates – 2» Next - C++ Programming Questions and Answers – Template Arguments to Specify Policy Usage 

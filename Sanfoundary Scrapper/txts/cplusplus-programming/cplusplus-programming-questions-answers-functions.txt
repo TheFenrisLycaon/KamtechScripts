@@ -1,0 +1,165 @@
+1. Which of the following is the default return value of functions in C++?
+a) int
+b) char
+c) float
+d) void
+a
+2. What happens to a function defined inside a class without any complex operations (like looping, a large number of lines, etc)?
+a) It becomes a virtual function of the class
+b) It becomes a default calling function of the class
+c) It becomes an inline function of the class
+d) The program gives an error
+c
+3. What is an inline function?
+a) A function that is expanded at each call during execution
+b) A function that is called during compile time
+c) A function that is not checked for syntax errors
+d) A function that is not checked for semantic analysis
+a
+4. An inline function is expanded during ______________
+a) compile-time
+b) run-time
+c) never expanded
+d) end of the program
+a
+5. In which of the following cases inline functions may not word?
+i) If the function has static variables.
+ii) If the function has global and register variables.
+iii) If the function contains loops
+iv) If the function is recursive
+a) i, iv
+b) iii, iv
+c) ii, iii, iv
+d) i, iii, iv
+d
+6. When we define the default values for a function?
+a) When a function is defined
+b) When a function is declared
+c) When the scope of the function is over
+d) When a function is called
+b
+7. Where should default parameters appear in a function prototype?
+a) To the rightmost side of the parameter list
+b) To the leftmost side of the parameter list
+c) Anywhere inside the parameter list
+d) Middle of the parameter list
+a
+8. If an argument from the parameter list of a function is defined constant then _______________
+a) It can be modified inside the function
+b) It cannot be modified inside the function
+c) Error occurs
+d) Segmentation fault
+b
+9. Which of the following feature is used in function overloading and function with default argument?
+a) Encapsulation
+b) Polymorphism
+c) Abstraction
+d) Modularity
+b
+10. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+ 
+int fun(int x = 0, int y = 0, int z)
+{  return (x + y + z); }
+ 
+int main()
+{
+   cout << fun(10);
+   return 0;
+}
+a) 10
+b) 0
+c) Error
+d) Segmentation fault
+c
+11. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+ 
+class Test
+{
+  protected:
+    int x;
+  public:
+    Test (int i):x(i) { }
+    void fun() const  { cout << "fun() const " << endl; }
+    void fun()        {  cout << "fun() " << endl;     }
+};
+ 
+int main()
+{
+    Test t1 (10);
+    const Test t2 (20);
+    t1.fun();
+    t2.fun();
+    return 0;
+}
+a) 
+fun() 
+fun() const
+b) 
+fun() const
+fun() 
+c) 
+fun() 
+fun() 
+d) 
+fun() const
+fun() const
+a
+  
+12. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std;
+ 
+int fun(int=0, int = 0);
+ 
+int main()
+{
+  cout << fun(5);
+  return 0;
+}
+int fun(int x, int y) { return (x+y); }
+a) -5
+b) 0
+c) 10
+d) 5
+d
+13. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std;
+void square (int *x, int *y)
+{
+	*x = (*x) * --(*y);
+}
+int main ( )
+{
+	int number = 30;
+	square(&number, &number);
+	cout << number;
+	return 0;
+}
+a) 870
+b) 30
+c) Error
+d) Segmentation fault
+a
+14. From which function the execution of a C++ program starts?
+a) start() function
+b) main() function
+c) new() function
+d) end() function
+b
+15. Which of the following is important in a function?
+a) Return type
+b) Function name
+c) Both return type and function name
+d) The return type, function name and parameter list
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Function Declarations» Next - C++ Programming Questions and Answers – Argument Passing 

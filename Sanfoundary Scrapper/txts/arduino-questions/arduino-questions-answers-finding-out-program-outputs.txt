@@ -1,0 +1,129 @@
+1. What is the output of the program given below if a voltage of 5V is supplied to the pin corresponding to the A0 pin on an Arduino UNO?
+void setup() {
+    Serial.begin(9600);
+    pinMode(A0, INPUT);
+}
+void loop() { 
+    int s = analogRead(A0);
+    Serial.println(s);
+}
+a) null
+b) Error
+c) 0
+d) 1024
+d
+2. What is the value of “val” in the following program if the pin 12 is given 5V 3 times?
+int val=0;
+void setup() {
+    Serial.begin(9600);
+    PinMode(13,INPUT);
+}
+void loop() {
+    int s = digitalRead(13);
+    if(s==1){
+        val=val+1;
+    }
+}
+a) null
+b) 113
+c) 3
+d) 2
+c
+3. What will the output for the code given below be, if executed on an Arduino UNO?
+void setup() {
+    Serial.begin(9600);
+    Serial.print(sizeof(int));
+}
+a) 3
+b) 1
+c) 2
+d) 8
+c
+4. What is the output of the following program?
+void setup() { 
+    String my_str = "This is the sentence"; 
+    Serial.begin(9600); 
+    my_str.replace("sentence", "Arduino sketch"); 
+    Serial.println(my_str);
+}
+void loop() { }
+a) “This is the sentence”
+b) “This is the ARDUINO SKETCH”
+c) “This is the Arduino Sketch”
+d) null
+c
+5. What will be the nature of the output of the program?
+long rn; 
+void setup() { 
+    Serial.begin(9600); 
+    randomSeed(analogRead(0)); 
+} 
+void loop() { 
+    randNumber = random(300); 
+    Serial.println(rn);
+    delay(1000);
+}
+a) Series of purely mathematical indeterministic random numbers
+b) Series of purely mathematical deterministic random numbers
+c) null
+d) Series of indeterministic random numbers based on noise
+d
+6. What is the output of the following line of code?
+void main() {  
+    printf("%lu\n", sizeof(char));
+}
+a) 21
+b) %fdf
+c) 1
+d) null
+c
+7. What will be the output of the following code given below?
+void main() {
+    int a = 0; 
+    double d = 10.21;
+    printf("%lu", sizeof(a + d));
+}
+void loop() {}
+a) 23
+b) null
+c) 8
+d) 10.21
+c
+8. What does the following code do?
+void main() {
+    int* ptr = (int*)malloc(100 * sizeof(int));
+}
+a) Static Memory Allocation
+b) Static Memory Clearance
+c) Dynamic Memory Allocation
+d) Dynamic Memory Clearance
+c
+9. What is the output of the code given below?
+void main() {
+    Serial.begin(); 
+    int x = 2; 
+    printf("%d\n", sizeof(x++)); 
+    printf("x = %d", x);
+}
+a) 2
+b) 4
+c) Runtime Error
+d) null
+a
+10. What will be the output of the following code given below?
+void main() { 
+    int a = 10; 
+    double d = 10.21;
+    printf("%lu", sizeof(a + d));
+}
+a) 8
+b) null
+c) 9
+d) 20.21
+a
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – The sizeof() Function» Next - Arduino Questions and Answers – IR Sensor 

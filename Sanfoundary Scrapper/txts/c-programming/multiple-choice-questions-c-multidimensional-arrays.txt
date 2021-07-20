@@ -1,0 +1,63 @@
+This section on C MCQs (multiple choice questions) focuses on “Multidimensional Arrays”. One shall practice these MCQs to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our multiple choice questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C multiple choice questions on “Multidimensional Arrays” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int a[2][3] = {1, 2, 3, 4, 5};        int i = 0, j = 0;        for (i = 0; i < 2; i++)        for (j = 0; j < 3; j++)        printf("%d", a[i][j]);    }
+a) 1 2 3 4 5 0
+b) 1 2 3 4 5 junk
+c) 1 2 3 4 5 5
+d) Run time error
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int a[2][3] = {1, 2, 3, , 4, 5};        int i = 0, j = 0;        for (i = 0; i < 2; i++)        for (j = 0; j < 3; j++)        printf("%d", a[i][j]);    }
+a) 1 2 3 junk 4 5
+b) Compile time error
+c) 1 2 3 0 4 5
+d) 1 2 3 3 4 5
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    void f(int a[][3])    {        a[0][1] = 3;        int i = 0, j = 0;        for (i = 0; i < 2; i++)        for (j = 0; j < 3; j++)        printf("%d", a[i][j]);    }    void main()    {        int a[2][3] = {0};        f(a);    }
+a) 0 3 0 0 0 0
+b) Junk 3 junk junk junk junk
+c) Compile time error
+d) All junk values
+a
+4. What will be the output of the following C code?
+    #include <stdio.h>    void f(int a[][])    {        a[0][1] = 3;        int i = 0, j = 0;        for (i = 0;i < 2; i++)        for (j = 0;j < 3; j++)        printf("%d", a[i][j]);    }    void main()    {        int a[2][3] = {0};        f(a);    }
+a) 0 3 0 0 0 0
+b) Junk 3 junk junk junk junk
+c) Compile time error
+d) All junk values
+c
+5. What will be the output of the following C code?
+    #include <stdio.h>    void f(int a[2][])    {        a[0][1] = 3;        int i = 0, j = 0;        for (i = 0;i < 2; i++)        for (j = 0;j < 3; j++)        printf("%d", a[i][j]);    }    void main()    {        int a[2][3] = {0};        f(a);    }
+a) 0 3 0 0 0 0
+b) Junk 3 junk junk junk junk
+c) Compile time error
+d) All junk values
+c
+6. Comment on the following C statement.
+int (*a)[7];
+a) An array “a” of pointers
+b) A pointer “a” to an array
+c) A ragged array
+d) None of the mentioned
+b
+7. Comment on the following 2 arrays with respect to P and Q.
+   int *a1[8];   int *(a2[8]);   P. Array of pointers   Q. Pointer to an array
+a) a1 is P, a2 is Q
+b) a1 is P, a2 is P
+c) a1 is Q, a2 is P
+d) a1 is Q, a2 is Q
+b
+8. Which of the following is not possible statically in C?
+a) Jagged Array
+b) Rectangular Array
+c) Cuboidal Array
+d) Multidimensional Array
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Pointers to Pointers – 2» Next - C Programming Questions and Answers – Multidimensional Arrays – 2 

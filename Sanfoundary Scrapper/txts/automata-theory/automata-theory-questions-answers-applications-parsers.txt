@@ -1,0 +1,65 @@
+1. To derive a string using the production rules of a given grammar, we use:
+a) Scanning
+b) Parsing
+c) Derivation
+d) All of the mentioned
+b
+2. Which of the following parser reaches the root symbol of the tree at last?
+a) Top down parser
+b) Bottom up parser
+c) TOP down and Bottom up parser
+d) None of the mentioned
+b
+3. Left corner parsing methof uses which of the following?
+a) Top down parser
+b) Bottom up parser
+c) TOP down and Bottom up parser
+d) None of the mentioned
+c
+4. Which of the following parser performs top down parsing?
+a) LALR parser
+b) LL parser
+c) Recursive Accent parser
+d) None of the mentioned
+b
+5. Which of the following is true for shift reduce parsers?
+a) Scans and parses the input in one forward pass over the text, without any backup.
+b) A shift command advances in the input stream by one symbol
+c) LALR parser
+d) All of the mentioned
+d
+6. State true or false:
+Statement: LALR parsers uses tables rather than mutually recursive functions.
+a) true
+b) false
+b
+7. LALR in LALR parser stands for:
+a) Left aligned left right parser
+b) Look ahead left to right parser
+c) Language Argument left to right parser
+d) None of the mentioned
+:
+8. Which of the following can be a LALR parser generator?
+a) YACC
+b) GNU Bison
+c) YACC and GNU Bison
+d) None of the mentioned
+c
+9. Which of the following parsers do not relate to Bottom up parsing?
+a) LL parser
+b) Recursive descent parser
+c) Earley parsers
+d) All of the mentioned
+d
+10. Which of the following is true for a predictive parser?
+a) Recursive Descent parser
+b) no backtracking
+c) Recursive Descent parser and no backtracking
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Inferences to Trees, Trees to Derivations» Next - Automata Theory Questions and Answers –  YACC  Parser Generator 

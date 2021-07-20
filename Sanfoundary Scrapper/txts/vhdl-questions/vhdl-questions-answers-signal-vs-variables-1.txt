@@ -1,0 +1,67 @@
+1. Which of the following is the correct use of the signal?
+a) To set a default value
+b) To pass value between circuits
+c) To declare a variable
+d) To represent local information
+b
+2. What is the use of a variable?
+a) To represent local value
+b) To represent default value
+c) To set default value
+d) To declare a subprogram
+a
+3. Use of constants is to _________
+a) Represent wires
+b) Represent local information
+c) Represent default value
+d) Pass value between entities
+c
+4. How to declare a constant in VHDL?
+a) CONSTANT name : type := value;
+b) CONSTANT name := value;
+c) CONSTANT name := type := value;
+d) CONSTANT name := type : value;
+a
+5. Which of the following is local to the block in which it is declared?
+a) Signal
+b) Integer
+c) Constant
+d) Variable
+d
+Join [email protected]
+6. A constant is declared in Architecture, it will be accessible in ________
+a) Whole code
+b) Within the same architecture
+c) In the entity associated and corresponding architecture
+d) In the process within the architecture
+b
+7. Which of the following can’t be declared in an architecture?
+a) Signal
+b) Constant
+c) Variable
+d) BIT_VECTOR
+c
+8. What is the scope of a constant declared in an entity?
+a) Local to the entity
+b) Global to the whole code
+c) Local to the port
+d) Global to the entity and all the architecture associated
+d
+9. A user wants a constant to be declared in such a way that it can be accessible by whole code, where should the user declare this constant?
+a) Package
+b) Entity
+c) Architecture
+d) Configuration
+a
+10. Which of the following is the default type of ports of an entity?
+a) Variables
+b) Constants
+c) Signals
+d) Functions
+c
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – WAIT Statements – 3» Next - VHDL Questions and Answers – Signal vs Variables – 2 

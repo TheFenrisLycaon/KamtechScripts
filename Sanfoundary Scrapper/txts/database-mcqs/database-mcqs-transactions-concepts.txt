@@ -1,0 +1,66 @@
+1. Consider money is transferred from (1)account-A to account-B and (2) account-B to account-A. Which of the following form a transaction?
+a) Only 1
+b) Only 2
+c) Both 1 and 2 individually
+d) Either 1 or 2
+c
+2. A transaction is delimited by statements (or function calls) of the form __________
+a) Begin transaction and end transaction
+b) Start transaction and stop transaction
+c) Get transaction and post transaction
+d) Read transaction and write transaction
+a
+3. Identify the characteristics of transactions
+a) Atomicity
+b) Durability
+c) Isolation
+d) All of the mentioned
+d
+4. Which of the following has “all-or-none” property?
+a) Atomicity
+b) Durability
+c) Isolation
+d) All of the mentioned
+a
+5. The database system must take special actions to ensure that transactions operate properly without interference from concurrently executing database statements. This property is referred to as
+a) Atomicity
+b) Durability
+c) Isolation
+d) All of the mentioned
+c
+6. The property of a transaction that persists all the crashes is
+a) Atomicity
+b) Durability
+c) Isolation
+d) All of the mentioned
+b
+7. __________ states that only valid data will be written to the database.
+a) Consistency
+b) Atomicity
+c) Durability
+d) Isolation
+a
+8. Transaction processing is associated with everything below except
+a) Producing detail summary or exception reports
+b) Recording a business activity
+c) Confirming an action or triggering a response
+d) Maintaining a data
+c
+9. The Oracle RDBMS uses the ____ statement to declare a new transaction start and its properties.
+a) BEGIN
+b) SET TRANSACTION
+c) BEGIN TRANSACTION
+d) COMMIT
+b
+10. ____ means that the data used during the execution of a transaction cannot be used by a second transaction until the first one is completed.
+a) Consistency
+b) Atomicity
+c) Durability
+d) Isolation
+d
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Advanced Query Optimization» Next - Database Questions & Answers – A Simple Transaction Model 

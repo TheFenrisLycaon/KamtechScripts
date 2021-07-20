@@ -1,0 +1,95 @@
+1. Which of these package is used for graphical user interface?
+a) java.applet
+b) java.awt
+c) java.awt.image
+d) java.io
+b
+2. Which of this package is used for analyzing code during run-time?
+a) java.applet
+b) java.awt
+c) java.io
+d) java.lang.reflect
+d
+3. Which of this package is used for handling security related issues in a program?
+a) java.security
+b) java.lang.security
+c) java.awt.image
+d) java.io.security
+a
+4. Which of these class allows us to get real time data about private and protected member of a class?
+a) java.io
+b) GetInformation
+c) ReflectPermission
+d) MembersPermission
+c
+5. Which of this package is used for invoking a method remotely?
+a) java.rmi
+b) java.awt
+c) java.util
+d) java.applet
+a
+6. What will be the output of the following Java program?
+    import java.lang.reflect.*;    class Additional_packages    {	          public static void main(String args[])         {	     try             {	         Class c = Class.forName("java.awt.Dimension");		 Constructor constructors[] = c.getConstructors();		 for (int i = 0; i < constructors.length; i++)		     System.out.println(constructors[i]);	     }	     catch (Exception e)             {                   System.out.print("Exception");             }        }    }
+a) Program prints all the constructors of ‘java.awt.Dimension’ package
+b) Program prints all the possible constructors of class ‘Class’
+c) Program prints “Exception”
+d) Runtime Error
+a
+Output:
+$ javac Additional_packages.java
+$ java Additional_packages
+public java.awt.Dimension(java.awt.Dimension)
+public java.awt.Dimension()
+public java.awt.Dimension(int,int)
+7. What will be the output of the following Java program?
+    import java.lang.reflect.*;    class Additional_packages    {	          public static void main(String args[])          {	     try             {	         Class c = Class.forName("java.awt.Dimension");		 Field fields[] = c.getFields();		 for (int i = 0; i < fields.length; i++)		     System.out.println(fields[i]);	     }	     catch (Exception e)             {                   System.out.print("Exception");             }        }    }
+a) Program prints all the constructors of ‘java.awt.Dimension’ package
+b) Program prints all the methods of ‘java.awt.Dimension’ package
+c) Program prints all the data members of ‘java.awt.Dimension’ package
+d) program prints all the methods and data member of ‘java.awt.Dimension’ package
+c
+Output:
+$ javac Additional_packages.java
+$ java Additional_packages
+public int java.awt.Dimension.width
+public int java.awt.Dimension.height
+8. What is the length of the application box made in the following Java program?
+    import java.awt.*;    import java.applet.*;    public class myapplet extends Applet    {        Graphic g;        g.drawString("A Simple Applet",20,20);        }
+a) 20
+b) Default value
+c) Compilation Error
+d) Runtime Error
+c
+9. What will be the output of the following Java program?
+    import java.lang.reflect.*;    class Additional_packages     {	          public static void main(String args[])          {	     try             {	         Class c = Class.forName("java.awt.Dimension");		 Method methods[] = c.getMethods();		 for (int i = 0; i < methods.length; i++)		     System.out.println(methods[i]);	     }	     catch (Exception e)             {                 System.out.print("Exception");             }        }    }
+a) Program prints all the constructors of ‘java.awt.Dimension’ package
+b) Program prints all the methods of ‘java.awt.Dimension’ package
+c) Program prints all the data members of ‘java.awt.Dimension’ package
+d) program prints all the methods and data member of ‘java.awt.Dimension’ package
+b
+Output:
+$ javac Additional_packages.java
+$ java Additional_packages
+public int java.awt.Dimension.hashCode()
+public boolean java.awt.Dimension.equals(java.lang.Object)
+public java.lang.String java.awt.Dimension.toString()
+public java.awt.Dimension java.awt.Dimension.getSize()
+public void java.awt.Dimension.setSize(double,double)
+public void java.awt.Dimension.setSize(int,int)
+public void java.awt.Dimension.setSize(java.awt.Dimension)
+public double java.awt.Dimension.getHeight()
+public double java.awt.Dimension.getWidth()
+public java.lang.Object java.awt.geom.Dimension2D.clone()
+public void java.awt.geom.Dimension2D.setSize(java.awt.geom.Dimension2D)
+public final native java.lang.Class java.lang.Object.getClass()
+public final native void java.lang.Object.notify()
+public final native void java.lang.Object.notifyAll()
+public final native void java.lang.Object.wait(long)
+public final void java.lang.Object.wait(long,int)
+public final void java.lang.Object.wait()
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Interfaces – 2» Next - Java Questions & Answers – Type Interface 

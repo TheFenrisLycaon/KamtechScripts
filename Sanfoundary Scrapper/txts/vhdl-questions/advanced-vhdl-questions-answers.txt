@@ -1,0 +1,125 @@
+1. Which of the following is not defined by the entity?
+a) Direction of any signal
+b) Names of signal
+c) Different ports
+d) Behavior of the signals
+d
+2. Which of the following can be the name of an entity?
+a) NAND
+b) Nand_gate
+c) Nand gate
+d) AND
+b
+3. Which of the following is correct syntax for entity declaration?
+a)
+ENTITY entity_name IS
+    PORT( signal_names : signal_modes;
+    signal_names : signal_modes);
+   END entity_name;
+b)
+ ENTITY entity_name
+    PORT( signal_names : signal_modes;
+    signal_names : signal_modes);
+   END ENTITY;
+c)
+ENTITY entity_name IS
+    PORT port_name
+    ( signal_names : signal_modes signal_type;
+    signal_names : signal_modes signal_type);
+   END entity_name;
+d)
+ENTITY entity_name
+    PORT port_name
+    (signal_names : signal_modes;
+    signal_names : signal_modes);
+   END ENTITY;
+a
+  
+4. Refer to the VHDL code given below, how many input-output pins are there in MUX entity?
+ENTITY mux IS
+Port ( a,b : IN STD_LOGIC;
+Y : OUT STD_LOGIC);
+END mux;
+a) 5
+b) 4
+c) 3
+d) 2
+c
+5. The entity name ‘xyz’ and ‘XYZ’ will be treated the same.
+a) True
+b) False
+a
+6. Which of the following mode of the signal is bidirectional?
+a) IN
+b) OUT
+c) INOUT
+d) BUFFER
+c
+7. In an assignment statement, OUT signal can be used only to the ___________
+a) Left of <= operator
+b) Right of <= operator
+c) Any side of <= operator
+d) Right of := operator
+a
+8. On which side of assignment operator, we can use the IN type signal?
+a) Left
+b) Right
+c) Both
+d) Can’t be used
+b
+9. What is the difference between OUT and BUFFER?
+a) BUFFER can’t be used inside the entity for reading the value and OUT can be
+b) BUFFER can only be read whereas OUT can only be assigned a value
+c) BUFFER can be read as well as assigned a value but OUT can only be assigned
+d) Both are same
+c
+10. GENERICs are not declared in the entity.
+a) True
+b) False
+b
+11. Which of the following is an entity declared for a full adder?
+a)
+ENTITY full_adder IS
+    PORT(a, b, c : IN BIT;
+    s, co : OUT BIT);
+   END full_adder;
+b)
+ENTITY full_adder IS
+    PORT (a ,b : IN BIT;
+    s, c : OUT BIT);
+    END full_adder;
+c)
+ENTITY full_adder
+    PORT(a, b, c : IN BIT;
+    s, co : OUT BIT);
+   END full_adder;
+d)
+ENTITY full_adder IS
+    PORT (a, b, c, s, co : BIT);
+    END full_adder;
+a
+  
+12. How to control the structure and timing of the entity can be changed?
+a) By using TIME variable in the entity
+b) By changing the entity declaration from time to time
+c) By using some special code
+d) By using GENERICS
+d
+13. Which of the following can have more than one driver?
+a) IN
+b) OUT
+c) INOUT
+d) BUFFER
+c
+14. Which of the following is the default mode for a port variable?
+a) IN
+b) OUT
+c) INOUT
+d) BUFFER
+a
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice advanced questions and answers on all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Common Terms used in VHDL» Next - VHDL Questions and Answers – Architecture 

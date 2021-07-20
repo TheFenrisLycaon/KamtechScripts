@@ -1,0 +1,81 @@
+1. _______variable type defined in the header stdlib.h is an integer type of the size of a wide character constant.
+a) size_t
+b) wchar_t
+c) div_t
+d) ldiv_t
+b
+This is an integer type of the size of a wide character constant defined under the header stdlib.h .
+2. Which of the following is the correct description of EXIT_FAILURE?
+a) This is the value for the exit function to return in case of failure
+b) This is the value for the exit function to terminate the program
+c) This is the value for the exit function to return in case of success
+d) This is the value for the exit function to return in case it is the maximum value
+a
+3. RAND_MAX macro is the maximum value returned by the rand function.
+a) true
+b) false
+a
+4. Which of the given function converts the string pointed to, by the argument str to a floating-point number?
+a) atof(const char *str)
+b) strtod(const char *str, char **endptr)
+c) atoi(const char *str)
+d) atol(const char *str)
+a
+5. The_______function converts the initial portion of the string pointed to by, to int representation.
+a) atof()
+b) atoi()
+c) strtod()
+d) atol()
+b
+6. atol(const char *str) Converts the string pointed to, by the argument str.
+a) to a long integer
+b) to a integer
+c) to a floating point number
+d) to a unsigned long integer
+a
+The atol() function converts the initial portion of the string pointed to by str to long int representation. Except for the behavior on error, it is equivalent to strtol (nptr, (char **)NULL, 10).
+7. What will be the output of the following C code?
+char str[20];
+str= "123546"; res= atof(str);
+printf("String value = %s, Float value = %f\n", str, res);
+a) String value = 123546, Float value = 123546.0
+b) String value = 123546 , Float value = 123546.000000
+c) String value = 123546 , Float value = 0.000000
+d) String value = 123546 , Float value = 123546.000
+b
+8. What will be the output of the following C code?
+char str[]; 
+strcpy(str, "Hello"); 
+res = atof(str);
+printf("String value = %s, Float value = %f\n", str, res);
+a) String value = Hello, Float value = 0.000000
+b) String value = Hello, Float value = 0
+c) String value = “Hello” , Float value = 0.000000
+d) String value = “Hello” , Float value = 0
+a
+9. What will be the output of the following C code?
+char str[20]; 
+strcpy(str, "123456"); 
+res = atoi(str);
+printf("%s  %d\n", str, res);
+a) 123456  0
+b) 123456  0.0
+c) 123456  123456
+d) 123456 123456.0
+c
+10. What will be the output of the following C code?
+char str[] ;  
+strcpy(str, "Hello"); 
+res = atoi(str);
+printf(" %s  %d\n", str, res);
+a) Hello  0.000000
+b) “Hello”  0.000000
+c) Hello   0
+d) “Hello” 0
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Mathematical functions – 3» Next - C Questions and Answers – General Utilities – 2 

@@ -1,0 +1,60 @@
+1. An attribute is a specification of an object that defines its property.
+a) True
+b) False
+a
+2. Which command is used to list the attributes of a file?
+a) cp
+b) list
+c) ls
+d) attr
+c
+3. Which one of the following is not an attribute displayed by ls command?
+a) file permissions
+b) file ownership
+c) links
+d) word count of file
+d
+4. What are links referred to as in file attributes?
+a) number of filenames of a single file that are maintained by the system
+b) number of duplicates of a single file
+c) number of copies of a single file
+d) number of files present in a directory
+a
+5. In how many categories are links divided?
+a) 1
+b) 2
+c) 4
+d) 0
+b
+Join [email protected]
+6. Hard linked files are provided with the same inode number as the original one.
+a) True
+b) False
+a
+7. Soft linked files are provided with different inode number as the original one.
+a) True
+b) False
+a
+8. Which option is used with ls command to list the directory attributes rather than its contents?
+a) -b
+b) -a
+c) -l
+d) -d
+d
+$ ls  -ld  dir01
+9. File attributes are of major concern as compared to directory attributes while performing operations on file system.
+a) True
+b) False
+b
+10. A file contains 1026 bytes. How many bytes of disk space will it consume if size of a disk block is 1024 bytes?
+a) 1026
+b) 1024
+c) 2048
+d) 4096
+c
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Compressing and Archiving Files – 2» Next - Unix  Questions and Answers – File Ownership and Permissions 

@@ -1,0 +1,112 @@
+This section on C++ questions and puzzles focuses on “Operator Functions”. One shall practice these questions and puzzles to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These programming puzzles can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ questions and puzzles on “Operator Functions” along with answers, explanations and/or solutions:
+1. Pick the other name of operator function.
+a) function overloading
+b) operator overloading
+c) member overloading
+d) object overloading
+b
+2. Which of the following operators can’t be overloaded?
+a) ::
+b) +
+c) –
+d) [] 
+a
+3. How to declare operator function?
+a) operator sign
+b) operator
+c) name of the operator
+d) name of the class
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class sample     {        public:        int x, y;        sample() {};        sample(int, int);        sample operator + (sample);    };    sample::sample (int a, int b)     {        x = a;        y = b;    }    sample sample::operator+ (sample param)     {        sample temp;        temp.x = x + param.x;        temp.y = y + param.y;        return (temp);    }    int main ()     {        sample a (4,1);        sample b (3,2);        sample c;        c = a + b;        cout << c.x << "," << c.y;        return 0;    }
+a) 5, 5
+b) 7, 3
+c) 3, 7
+d) 3, 5
+b
+Output:
+$ g++ oper.cpp
+$ a.out
+7, 3
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Box    {           double length;        double breadth;        double height;        public:        double getVolume(void)        {              return length * breadth * height;        }        void setLength( double len )        {               length = len;        }        void setBreadth( double bre )        {               breadth = bre;        }        void setHeight( double hei )        {               height = hei;        }        Box operator+(const Box& b)        {              Box box;            box.length = this->length + b.length;            box.breadth = this->breadth + b.breadth;            box.height = this->height + b.height;            return box;        }     };    int main( )    {          Box Box1;        Box Box2;        Box Box3;        double volume = 0.0;        Box1.setLength(6.0);        Box1.setBreadth(7.0);        Box1.setHeight(5.0);        Box2.setLength(12.0);        Box2.setBreadth(13.0);        Box2.setHeight(10.0);        volume = Box1.getVolume();        cout << "Volume of Box1 : " << volume <<endl;        volume = Box2.getVolume();        cout << "Volume of Box2 : " << volume <<endl;        Box3 = Box1 + Box2;        volume = Box3.getVolume();        cout << "Volume of Box3 : " << volume <<endl;        return 0;    }
+a) 
+   Volume of Box1 : 210
+   Volume of Box2 : 1560
+   Volume of Box3 : 5400
+b) 
+   Volume of Box1 : 200
+   Volume of Box2 : 1560
+   Volume of Box3 : 5400
+c) 
+   Volume of Box1 : 210
+   Volume of Box2 : 1550
+   Volume of Box3 : 5400
+d) 
+   Volume of Box1 : 200
+   Volume of Box2 : 1000
+   Volume of Box3 : 5260
+a
+Output:
+$ g++ oper1.cpp
+$ a.out
+Volume of Box1 : 210
+Volume of Box2 : 1560
+Volume of Box3 : 5400
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Integer     {        int i;        public:        Integer(int ii) : i(ii) {}        const Integer        operator+(const Integer& rv) const         {            cout << "operator+" << endl;            return Integer(i + rv.i);        }        Integer&        operator+=(const Integer& rv)         {            cout << "operator+=" << endl;            i += rv.i;            return *this;        }    };    int main()     {        int i = 1, j = 2, k = 3;        k += i + j;        Integer ii(1), jj(2), kk(3);        kk += ii + jj;    }
+a) 
+   operator+
+   operator+=
+b) 
+   operator+=
+   operator+
+c) 
+   operator+
+   operator+
+d) 
+   operator+
+   operator=
+a
+Output:
+$ g++ oper2.cpp
+$ a.out
+operator+
+operator+=
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class myclass    {        public:        int i;        myclass *operator->()        {return this;}    };    int main()    {        myclass ob;        ob->i = 10;         cout << ob.i << " " << ob->i;        return 0;    }
+a) 10 10
+b) 11 11
+c) error
+d) runtime error
+a
+Output:
+$ g++ char4.cpp
+$ a.out
+10 10
+8. Which of the following statements is NOT valid about operator overloading?
+a) Only existing operators can be overloaded
+b) The overloaded operator must have at least one operand of its class type
+c) The overloaded operators follow the syntax rules of the original operator
+d) None of the mentioned
+b
+9. Operator overloading is ___________
+a) making c++ operator works with objects
+b) giving new meaning to existing operator
+c) making the new operator
+d) adding operation to the existing operators
+d
+10. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    ostream & operator<<(ostream & i, int n)    {        return i;    }    int main()    {        cout << 5 << endl;        cin.get();        return 0;    }
+a) 5
+b) 6
+c) error
+d) runtime error
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Objects» Next - C++ Programming Questions and Answers – Operator Overloading – 1 

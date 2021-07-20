@@ -1,0 +1,59 @@
+1. How are input offset voltage of op-amp expressed
+a) Microvolts per week
+b) Nanovolts per week
+c) Megavolts per week
+d) Millivolts per week
+a
+2. Find the expression for output offset voltage?
+a) VooT = [RF/R1×Vio] + (RF×Io)
+b) VooT = [1+(RF/R1)]×(Vio) + (RF×Io)
+c) VooT = [1+(RF/R1)]/(Vio) + (RF×Io)
+d) VooT = [RF/R1]×(Vio) + (RF/Io)
+b
+ VooT = [1+(RF/R1)]×(Vio) + (RF×Io). 
+3. Why it is necessary to calibrate all op-amp in the system periodically?
+a) To maintain current drift of a system
+b) To maintain output offset voltage in op-amp
+c) To maintain accuracy and linearity of a system
+d) None of the mentioned
+c
+4. Determine the maximum possible change in output offset voltage after 3 month if the LH0041C op-amp is initially nulled and room temperature, voltage across terminal, +Vcc & -Vee remain constant.
+a) △VooT = 456.78mv
+b) △VooT = 3.452mv
+c) △VooT = 21.1mv
+d) None of the mentioned
+d
+△Vio/△t = 5µV/week and △Iio /△t = 2nA/week.
+Due to the time drift △t=12 weeks (3months). The maximum possible change in output offset voltage,
+△VooT = [[1+(RF/R1)]×(△Vio/△t)×△t]+[RF×(△Iio/△t) ×△t]= [(1+(250kΩ/1kΩ))×5µV×12] + [250kΩ×2µA×12] = 15.1mv+6mv
+=> △VooT = 21.1mv. 
+5. How to minimize the drift in input signal amplifier without affecting the performance of the circuit?
+a) All of the mentioned Choosing small value of external components
+b) Enhancing the input signal amplifier
+c) Reducing the gain of op-amp
+d) All of the mentioned
+a
+6. An amplifier has a supply voltage ±15v. Compute its peak to peak output swing
+a) 36v
+b) 30v
+c) 26v
+d) 49v
+c
+7. Find out the incorrect statement.
+a) Power consumption of op-amp decrease with increasing ambient temperature
+b) Output short circuit current of op-amp decreases with increasing temperature.
+c) Common mode voltage range of op-amp increases with increasing supply voltage value
+d) Power consumption of op-amp decreases with increasing supply voltage
+d
+8. Choose the temperature dependent parameter
+a) Common mode rejection ratio
+b) Voltage gain
+c) Output voltage swing
+d) Absolute maximum power dissipation
+d
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice  all areas of Linear Integrated Circuit for online tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Interpreting of Data Sheets – 1» Next - Linear Integrated Circuit Questions and Answers – Ideal Operational Amplifier 

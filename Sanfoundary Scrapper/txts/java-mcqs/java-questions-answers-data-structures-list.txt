@@ -1,0 +1,65 @@
+1. How can we remove an object from ArrayList?
+a) remove() method
+b) using Iterator
+c) remove() method and using Iterator
+d) delete() method
+c
+2. How to remove duplicates from List?
+a) HashSet<String> listToSet = new HashSet<String>(duplicateList);
+b) HashSet<String> listToSet = duplicateList.toSet();
+c) HashSet<String> listToSet = Collections.convertToSet(duplicateList);
+d) HashSet<String> listToSet = duplicateList.getSet();
+a
+3. How to sort elements of ArrayList?
+a) Collection.sort(listObj);
+b) Collections.sort(listObj);
+c) listObj.sort();
+d) Sorter.sortAsc(listObj);
+b
+4. When two threads access the same ArrayList object what is the outcome of the program?
+a) Both are able to access the object
+b) ConcurrentModificationException is thrown
+c) One thread is able to access the object and second thread gets Null Pointer exception
+d) One thread is able to access the object and second thread will wait till control is passed to the second one
+b
+5. How is Arrays.asList() different than the standard way of initialising List?
+a) Both are same
+b) Arrays.asList() throws compilation error
+c) Arrays.asList() returns a fixed length list and doesn’t allow to add or remove elements
+d) We cannot access the list returned using Arrays.asList()
+c
+6. What is the difference between length() and size() of ArrayList?
+a) length() and size() return the same value
+b) length() is not defined in ArrayList
+c) size() is not defined in ArrayList
+d) length() returns the capacity of ArrayList and size() returns the actual number of elements stored in the list
+d
+7. Which class provides thread safe implementation of List?
+a) ArrayList
+b) CopyOnWriteArrayList
+c) HashList
+d) List
+b
+8. Which of the below is not an implementation of List interface?
+a) RoleUnresolvedList
+b) Stack
+c) AttibuteList
+d) SessionList
+d
+9. What is the worst case complexity of accessing an element in ArrayList?
+a) O(n)
+b) O(1)
+c) O(nlogn)
+d) O(2)
+b
+10. When an array is passed to a method, will the content of the array undergo changes with the actions carried within the function?
+a) True
+b) False
+a
+public void setMyArray(String[] myArray){	if(myArray == null)        {		this.myArray = new String[0];		}         else         {		this.myArray = Arrays.copyOf(newArray, newArray.length);	} }
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Data Structures-HashMap» Next - Java Questions & Answers – Data Structures-Set 

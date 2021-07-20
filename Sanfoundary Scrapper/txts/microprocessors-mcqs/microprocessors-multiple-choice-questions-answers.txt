@@ -1,0 +1,67 @@
+1. The 32-bit control register, that is used to hold global machine status, independent of the executed task is
+a) CR0
+b) CR2
+c) CR3
+d) All of the mentioned
+d
+2. The descriptor table that the 80386 supports is
+a) GDT (Global descriptor table)
+b) IDT (Interrupt descriptor table)
+c) LDT (Local descriptor table)
+d) All of the mentioned
+d
+3. The registers that are together, known as system address registers are
+a) GDTR and IDTR
+b) IDTR and LDTR
+c) TR and GDTR
+d) LDTR and TR
+a
+4. Which of the following is a system segment register?
+a) GDTR
+b) LDTR
+c) IDTR
+d) None of the mentioned
+b
+5. The test register(s) that is provided by 80386 for page caching is
+a) test control registers
+b) page cache registers
+c) test control and test status registers
+d) test control and page cache registers
+c
+6. Among eight debug registers, DR0-DR7, the registers that are reserved by Intel are
+a) DR0, DR1, DR2
+b) DR4, DR5
+c) DR1, DR4
+d) DR5, DR6, DR7
+b
+7. The registers that are used to store four program controllable break point addresses are
+a) DR5-DR7
+b) DR0-DR1
+c) DR6-DR7
+d) DR0-DR3
+d
+8. The register DR6 hold
+a) break point status
+b) break point control information
+c) break point status and break point control information
+d) none of the mentioned
+a
+9. The flag bits that indicate the privilege level of current IO operations are
+a) Virtual mode flag bits
+b) IOPL flag bits
+c) Resume flag bits
+d) None of the mentioned
+b
+10. The registers that are not available for programmers are
+a) data and address registers
+b) instruction pointers
+c) segment descriptor registers
+d) flag registers
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice  all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Register Organisation of 80386 -1» Next - Microprocessors Questions and Answers – Addressing Modes of 80386, Data Types of 80386 

@@ -1,0 +1,144 @@
+1. Branch current and loop current relation is expressed in matrix form shown below, where Ij represents branch current and Ik represents loop current.
+[I1; I2; I3; I4; I5; I6; I7; I8] = [0 0 1 0; -1 -1 -1 0; 0 1 0 0; 1 0 0 0; 0 0 -1 -1; 1 1 0 -1; 1 0 0 0; 0 0 0 1] [I1; I2; I3; I4]
+The rank of the incidence matrix is?
+a) 4
+b) 5
+c) 6
+d) 8
+a
+Number of links l = 4
+Number of twigs t = b – l = 4
+Rank of matrix = n – 1 = t = 4.
+2. A capacitor, used for power factor correction in a single phase circuit decreases which of the following?
+a) Power factor
+b) Line current
+c) Both Line current and Power factor
+d) Neither Line current nor Power factor
+b
+3. D is the distance between the plates of a parallel plate capacitor. The dielectric constants are ∈1 and ∈2 respectively. The total capacitance is proportional to ____________
+a) \(\frac{∈_1 ∈_2}{∈_1+∈_2}\) 
+b) ∈1 – ∈2
+c) \(\frac{∈_1}{∈_2}\) 
+d) ∈1 ∈2
+a
+So, C = \(\frac{\Big[∈_0 ∈_1 \left(\frac{A}{0.5d}\right)\Big]\Big[∈_0 ∈_2 \left(\frac{A}{0.5d}\right)\Big]}{∈_0 ∈_1  \frac{A}{0.5d} + ∈_0 ∈_1  \frac{A}{0.5d}}\) 
+Hence, C is proportional to \(\frac{∈_1 ∈_2}{∈_1+∈_2}\).
+4. A two branch circuit has a coil of resistance R1, inductance L1 in one branch and capacitance C2 in the second branch. If R is increased, the dynamic resistance is going to ___________
+a) Increase
+b) Decrease
+c) Remains constant
+d) May increase or decrease
+b
+Dynamic resistance = \(\frac{L_1}{R_1 C_2}\) 
+So, if R1 is increased, keeping Inductance and Capacitance same, so The Dynamic resistance will decrease, as the denomination is increasing.
+5. A 1 μF capacitor is connected to 12 V batteries. The energy stored in the capacitor is _____________
+a) 12 x 10-6 J
+b) 24 x 10-6 J
+c) 60 x 10-6 J
+d) 72 x 10-6 J
+d
+Energy, E = 0.5 CV2
+= 0.5 X 1 X 10-6 X 144
+= 72 x 10-6 J.
+Join Sanfoundry@YouTube
+6. For the two circuits shown below, the relation between IA and IB is ________
+a) IB = IA + 6
+b) IB = IA + 2
+c) IB = 1.5IA
+d) IB = IA
+c
+ 
+7. For the circuit given below, the current I in the circuit is ________
+a) –j1 A
+b) J1 A
+c) Zero
+d) 20 A
+a
+IO = \(\frac{V}{X_{EQ}}\) 
+∴ I = \(\frac{X_C}{X_C+R}\) IO
+= \(\frac{1/sC}{\frac{1}{sC}+R} × \frac{V}{\frac{sL(1+sRC)+R}{(1+sRC)}}\) 
+= \(\frac{1}{1+sRC} × \frac{V}{\frac{sL(1+sRC)+R}{(1+sRC)}}\) 
+= \(\frac{V}{sL(1+sRC)+R}\) 
+= \(\frac{V}{j×10^3×20×10^{-3} (1+j×10^3×50×10^{-6}+1)}\) 
+= \(\frac{V}{20j(1+j50×10^{-3})+1}\) 
+= \(\frac{V}{20j-1+1} = \frac{20}{20j}\) = -j1 A.
+8. An AC source of RMS voltage 20 V with internal impedance ZS = (1+2j) Ω feeds a load of impedance ZL = (7+4j) Ω in the circuit given below. The reactive power is _________
+a) 8 VAR
+b) 16 VAR
+c) 28 VAR
+d) 32 VAR
+b
+= \(\frac{20}{\sqrt{8^2+6^2}} = \frac{∠0°}{∠arc tan⁡(\frac{3}{4})}\) 
+= \(\frac{20}{10}\) ∠-arc tan⁡(\(\frac{3}{4}\))
+= 2∠-arc tan⁡(\(\frac{3}{4}\))
+Power consumed by load = |I|2ZL
+= 4(7+4j)
+= 28 + j16
+∴ The reactive power = 16 VAR.
+9. In the circuit given below, RI = 1 MΩ, RO = 10 Ω, A = 106 and VI = 1μV. Then the output voltage, input impedance and output impedance respectively are _________
+a) 1 V, ∞ and 10 Ω
+b) 1 V, 0 and 10 Ω
+c) 1V, 0 and ∞
+d) 10 V, ∞ and 10 Ω
+a
+V1 = Z11 I1 + Z12 I2
+V2 = Z21 I1 + Z22 I2
+Here, I1 = 0
+Z11 = \(\frac{V_1}{I_1} = \frac{V_O}{0}\) = ∞
+Z22 = \(\frac{V_2}{I_2} = \frac{AV_I}{I_2}\) 
+Or, Z22 = \(\frac{1}{I_2}\) = RO = 10 Ω.
+10. If operator ‘a’ = 1 ∠120°. Then (1 – a) is equal to ____________
+a) \(\sqrt{3}\) 
+b) \(\sqrt{3}\)∠-30°
+c) \(\sqrt{3}\)∠30°
+d) \(\sqrt{3}\)∠60°
+b
+So, 1 – a = 1 – 1∠120°
+= 1 + 0.5 – j 0.866
+= 1.5 – j 0.866
+= 3∠-30°.
+11. For making a capacitor, the dielectric should have __________
+a) High relative permittivity
+b) Low relative permittivity
+c) Relative permittivity = 1
+d) Relative permittivity neither too high nor too low
+a
+Low relative permittivity will lead to low value of capacitance.
+High relative permittivity will lead to a higher value of capacitance.
+12. In the circuit shown below, the voltage V will be __________
+a) – 3V
+b) Zero
+c) 3 V
+d) 5 V
+a
+VAB – 2 × 1 + 5 = 0
+Or, VAB = -3 V.
+13. If A = 3 + j1, then A4 is equal to __________
+a) 3.16 ∠18.4°
+b) 100 ∠73.72°
+c) 100 ∠18.4°
+d) 3.16 ∠73.22°
+b
+So, 3 + j1 = 10∠18.43°
+Or, 3 + j1 = (10)4 ∠4 X 18.43°
+= 100∠73.72°.
+14. In the figures given below, Value of RA, RB and RC are 20 Ω, 10 Ω and 10 Ω respectively. The resistances R1, R2 and R3 in Ω are ________
+a) 2.5, 5 and 5
+b) 5, 2.5 and 5
+c) 5, 5 and 2.5
+d) 2.5, 5 and 2.5
+a
+R2 = \(\frac{R_A R_C}{R_A+R_B+R_C} = \frac{200}{40}\) = 5 Ω
+R3 = \(\frac{R_B R_A}{R_A+R_B+R_C} = \frac{200}{40}\) = 5 Ω.
+15. The resistance of a thermistor decreases with increases in  __________
+a) temperature
+b) circuit
+c) light control
+d) sensors
+b
+Sanfoundry Global Education & Learning Series – Network Theory.
+To practice all areas of Network Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Theory Questions and Answers – Synthesis of R-C Network by Cauer Method» Next - Network Theory Questions and Answers – Advanced Problems on Network Theory – 2 

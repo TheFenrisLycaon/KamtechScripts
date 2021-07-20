@@ -1,0 +1,66 @@
+1. JUnit runners are available in which package?
+a) org.junit.runners
+b) junitfiles.runners
+c) org.runners
+d) org.junit.files.runners
+a
+2. To start a test case as JUnit 3.8 test case which runner is required?
+a) org.junit.runners.Junit4
+b) org.junit.runners.Parameterized
+c) org.junit.internal.runners.Junit38ClassRunner
+d) org.junit.internal.runners.Junit4
+c
+3. What is a Façade in JUnit?
+a) It is a group of test cases
+b) It is a design pattern that provides a unified interface to a set of interfaces in a subsystem
+c) It is a collection of superclasses
+d) It is a group of mock objects
+b
+4. To create a custom test runner which class needs to be extended?
+a) CustomRunner
+b) TestRunner
+c) Runner
+d) UserRunner
+c
+5. What type of object is returned on completion of a test?
+a) org.junit.runner.Result
+b) org.junit.runner.Complete
+c) org.junit.runner.Outcome
+d) org.junit.runner.Object
+a
+6. To listen to events during a test, which class has to be extended?
+a) org.junit.runner.notification.RunListener
+b) org.junit.runner.Listener
+c) org.junit.runner.notification.Listener
+d) org.junit.runner.RunListener
+a
+7. When does the wasSuccessful() method of the Runner class return true?
+a) The test file compiled
+b) The test file ran
+c) Some of the test cases ran successfully
+d) All the test cases ran succesfully
+d
+8. To run the file TestClass.class from the command line, we have to type what?
+a) java TestClass
+b) javac TestClass
+c) java org.junit.runner.JUnitCore TestClass
+d) org.junit.runner.JUnitCore TestClass
+c
+9. What does the getRunCount() method of the Result return?
+a) String denoting the time of execution
+b) Integer denoting the time of execution
+c) int denoting the number of tests run
+d) int denoting the number of failed tests
+c
+10. What information does an object of the Failure class contain?
+a) Description of the failed test
+b) Description of the failed test and the exception thrown while running it
+c) Description of the fail() method
+d) Description of the exception thrown
+b
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Running Parameterized Tests» Next - JUnit Questions and Answers – Composing Tests with a Suite 

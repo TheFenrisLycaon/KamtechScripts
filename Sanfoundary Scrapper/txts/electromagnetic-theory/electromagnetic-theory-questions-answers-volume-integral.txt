@@ -1,0 +1,68 @@
+1.	The divergence theorem converts
+a)	Line to surface integral
+b)	Surface to volume integral
+c)	Volume to line integral
+d)	Surface to line integral
+b
+2.	The triple integral is used to compute volume. State True/False
+a)	True
+b)	False
+a
+3.	The volume integral is three dimensional. State True/False
+a)	True
+b)	False
+a
+4.	Find the charged enclosed by a sphere of charge density ρ and radius a.
+a)	ρ (4πa2)
+b)	ρ(4πa3/3)
+c)	ρ(2πa2)
+d)	ρ(2πa3/3)
+b
+Where, dv = r2 sin θ dr dθ dφ and on integrating with r = 0->a, φ = 0->2π and θ = 0->π, we get Q = ρ(4πa3/3).
+5.	Evaluate Gauss law for D = 5r2/4 i in spherical coordinates with r = 4m and θ = π/2 as volume integral.
+a)	600
+b)	588.9
+c)	577.8
+d)	599.7
+b
+The divergence of D given is, Div(D) = 5r and dv = r2 sin θ dr dθ dφ. On integrating, r = 0->4, φ = 0->2π and θ = 0->π/4, we get Q = 588.9.
+6.	Compute divergence theorem for D = 5r2/4 i in spherical coordinates between r = 1 and r = 2 in volume integral.
+a)	80 π
+b)	5 π
+c)	75 π
+d)	85 π
+c
+The divergence of D given is, Div(D) = 5r and dv = r2 sin θ dr dθ dφ. On integrating, r = 1->2, φ = 0->2π and θ = 0->π, we get Q = 75 π.
+7.	Compute the Gauss law for D = 10ρ3/4 i, in cylindrical coordinates with ρ = 4m, z = 0 and z = 5, hence find charge using volume integral.
+a)	6100 π
+b)	6200 π
+c)	6300 π
+d)	6400 π
+d
+The divergence of D given is, Div(D) = 10 ρ2 and dv = ρ dρ dφ dz. On integrating, ρ = 0->4, φ = 0->2π and z = 0->5, we get Q = 6400 π.
+8.	Using volume integral, which quantity can be calculated?
+a)	area of cube
+b)	area of cuboid
+c)	volume of cube
+d)	distance of vector
+c
+9.	Compute the charge enclosed by a cube of 2m each edge centered at the origin and with the edges parallel to the axes. Given D = 10y3/3 j.
+a)	20
+b)	70/3
+c)	80/3
+d)	30
+c
+∫∫∫Div (D) dv = ∫∫∫ 10y2 dx dy dz. On integrating, x = -1->1, y = -1->1 and z =  -1->1, we get Q = 80/3.
+10.	 Find the value of divergence theorem for the field D = 2xy i + x2 j for the rectangular parallelepiped given by x = 0 and 1, y = 0 and 2, z = 0 and 3.
+a)	10
+b)	12
+c)	14
+d)	16
+b
+∫∫∫Div (D) dv = ∫∫∫ 2y dx dy dz. On integrating, x = 0->1, y = 0->2 and z = 0->3, we get Q = 12.
+Sanfoundry Global Education & Learning Series – Electromagnetic Theory.
+To practice all areas of Electromagnetic Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Electromagnetic Theory Questions and Answers – Surface Integral» Next - Electromagnetic Theory Questions and Answers – Laplacian Operator 

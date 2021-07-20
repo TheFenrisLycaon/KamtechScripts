@@ -1,0 +1,79 @@
+1. The ________ can be turned off by the CPU before the execution of critical instruction sequences that must not be interrupted.
+a) nonmaskable interrupt
+b) blocked interrupt
+c) maskable interrupt
+d) none of the mentioned
+c
+2. The __________ is used by device controllers to request service.
+a) nonmaskable interrupt
+b) blocked interrupt
+c) maskable interrupt
+d) none of the mentioned
+c
+3. The interrupt vector contains ____________
+a) the interrupts
+b) the memory addresses of specialized interrupt handlers
+c) the identifiers of interrupts
+d) the device addresses
+b
+4. Division by zero, accessing a protected or non existent memory address, or attempting to execute a privileged instruction from user mode are all categorized as ________
+a) errors
+b) exceptions
+c) interrupt handlers
+d) all of the mentioned
+b
+5. For large data transfers, _________ is used.
+a) dma
+b) programmed I/O
+c) controller register
+d) none of the mentioned
+a
+6. A character stream device transfers ____________
+a) bytes one by one
+b) block of bytes as a unit
+c) with unpredictable response times
+d) none of the mentioned
+a
+7. A block device transfers ____________
+a) bytes one by one
+b) block of bytes as a unit
+c) with unpredictable response times
+d) none of the mentioned
+b
+8. What is a dedicated device?
+a) opposite to a sharable device
+b) same as a sharable device
+c) can be used concurrently by several processes
+d) none of the mentioned
+a
+9. A keyboard is an example of a device that is accessed through a __________ interface.
+a) block stream
+b) set of blocks
+c) character stream
+d) none of the mentioned
+c
+10. In polling ____________
+a) busy – wait cycles wait for I/O from device
+b) interrupt handler receives interrupts
+c) interrupt-request line is triggered by I/O device
+d) all of the mentioned
+a
+11. A non blocking system call _________________
+a) halts the execution of the application for an extended time
+b) does not halt the execution of the application
+c) does not block the interrupts
+d) none of the mentioned
+b
+12. An asynchronous call ____________
+a) returns immediately, without waiting for the I/O to complete
+b) does not return immediately and waits for the I/O to complete
+c) consumes a lot of time
+d) is too slow
+a
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice tricky questions on all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions & Answers – I/O System – Application I/O Interface – 1» Next - Operating System Questions & Answers – I/O System – Kernel I/O Subsystems 

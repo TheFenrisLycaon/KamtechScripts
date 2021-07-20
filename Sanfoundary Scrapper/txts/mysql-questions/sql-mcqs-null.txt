@@ -1,0 +1,79 @@
+1. What is the meaning of “NULL” in Mysql?
+a) Not applicable
+b) Value not yet known
+c) Value undefined
+d) All of the mentioned
+d
+2. Is the following statement is true/false?
+“An expression can be NULL,  but can never equal to NULL”
+a) True
+b) False
+a
+3. Is the following statement is true/false?
+“Two NULL values are equal to each other”
+a) True
+b) False
+b
+4. Which operator is used to check whether the expression is “NULL”?
+a) IS NULL
+b) NOT NULL
+c)  ON
+d) None of the mentioned
+a
+5. Which operator is used to check the expression is not “NULL”?
+a) IS NULL
+b) NOT NULL
+c) ON
+d) None of the mentioned
+b
+6. What will be the output of the following MySQL command?
+SELECT *
+FROM person
+WHERE emp_id IS NULL;
+a) Only those columns whose emp_id is NULL
+b) Only those columns whose emp_id is not NULL
+c) No output
+d) None of the mentioned
+a
+7. What will be the output of the following MySQL command?
+SELECT * 
+FROM person
+WHERE emp_id IS NULL;
+a) Only those columns whose emp_id is NULL
+b) Only those columns whose emp_id is not NULL
+c) No output
+d) None of the mentioned
+b
+8. What will be the output of the following MySQL command?
+SELECT *
+FROM person
+WHERE emp_id = NULL;
+a) Only those columns whose emp_id is NULL
+b) Only those columns whose emp_id is not NULL
+c) No output
+d) None of the mentioned
+c
+9. What will be the output of the following MySQL command?
+SELECT fname
+FROM person
+WHERE emp_id != 6;
+a) Only those names whose emp_id is not equal to 6
+b) Only those names whose emp_id is equal to 6
+c) No output
+d) None of the mentioned
+a
+10. What will be the output of the following MySQL command?
+SELECT fname
+FROM person
+WHERE emp_id != 6 OR emp_id IS  NULL;
+a) Only those names whose emp_id is not equal to 6 or emp_id with NULL values
+b) Only those names whose emp_id is not equal to 6
+c) Only those names whose emp_id is equal to 6
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Condition Types – 4» Next - MySQL Questions and Answers – Database Copies 

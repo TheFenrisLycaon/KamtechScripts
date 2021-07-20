@@ -1,0 +1,66 @@
+1. In query processing, the ___________ is the lowest-level operator to access data.
+a) Index Search
+b) Linear search
+c) File scan
+d) Access paths
+c
+2. In a ____________ the system scans each file block and tests all records to see whether they satisfy the selection condition.
+a) Index Search
+b) Linear search
+c) File scan
+d) Access paths
+b
+3. Index structures are referred to as __________ since they provide a path through which data can be located and accessed.
+a) Index Search
+b) Linear search
+c) File scan
+d) Access paths
+d
+4. Search algorithms that use an index are referred to as
+a) Index Search
+b) Linear search
+c) File scan
+d) Access paths
+a
+5. Which algorithm uses equality comparison on a key attribute with a primary index to retrieve a single record that satisfies the corresponding equality condition.
+a) A2
+b) A4
+c) A5
+d) A6
+a
+6. The strategy can retrieve a single record if the equality condition is on a key; multiple records may be retrieved if the indexing field is not a key is
+a) A2
+b) A4
+c) A5
+d) A6
+b
+7. The algorithm that uses a secondary ordered index to guide retrieval for comparison conditions involving <,≤,≥, or > is
+a) A2
+b) A4
+c) A5
+d) A6
+d
+8. The ___ algorithm scans each index for pointers to tuples that satisfy an individual condition.
+a) A2
+b) A4
+c) A9
+d) A6
+c
+9. If access paths are available on all the conditions of a disjunctive selection, each index is scanned for pointers to tuples that satisfy the individual condition. This is satisfied by
+a) A10
+b) A7
+c) A9
+d) A6
+a
+10. Conjunctive selection using one index. This is
+a) A10
+b) A7
+c) A9
+d) A6
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Query Processing» Next - Database Questions and Answers – Sorting 

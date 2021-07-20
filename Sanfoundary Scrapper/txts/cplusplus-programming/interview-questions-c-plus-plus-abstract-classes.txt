@@ -1,0 +1,90 @@
+This section on C++ interview questions and answers focuses on “Abstract Classes”. One shall practice these interview questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ interview questions on “Abstract Classes” along with answers, explanations and/or solutions:
+1. Which class is used to design the base class?
+a) abstract class
+b) derived class
+c) base class
+d) derived & base class
+a
+2. Which is used to create a pure virtual function?
+a) $
+b) =0
+c) &
+d) !
+b
+3. Which is also called as abstract class?
+a) virtual function
+b) pure virtual function
+c) derived class
+d) base class
+b
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class p     {        protected:        int width, height;        public:        void set_values (int a, int b)        {            width = a; height = b;         }        virtual int area (void) = 0;    };    class r: public p    {        public:        int area (void)        {             return (width * height);        }    };    class t: public p     {        public:        int area (void)        {            return (width * height / 2);         }    };    int main ()     {        r rect;        t trgl;        p * ppoly1 = &rect;        p * ppoly2 = &trgl;        ppoly1->set_values (4, 5);        ppoly2->set_values (4, 5);        cout << ppoly1 -> area() ;        cout << ppoly2 -> area();        return 0;    }
+a) 1020
+b) 20
+c) 10
+d) 2010
+d
+triangle by using abstract class.
+Output:
+$ g++ abs.cpp
+$ a.out
+2010
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class MyInterface     {        public:        virtual void Display() = 0;    };    class Class1 : public MyInterface     {        public:        void Display()         {            int  a = 5;            cout << a;        }    };    class Class2 : public MyInterface     {        public:        void Display()        {            cout <<" 5" << endl;        }    };    int main()    {        Class1 obj1;        obj1.Display();        Class2 obj2;        obj2.Display();        return 0;    }
+a) 5
+b) 10
+c) 5 5
+d) 15
+c
+by using abstract class.
+Output:
+$ g++ abs1.cpp
+$ a.out
+5 5
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class sample    {        public:        virtual void example() = 0;     };    class Ex1:public sample    {        public:        void example()        {            cout << "ubuntu";        }    };    class Ex2:public sample    {        public:        void example()        {            cout << " is awesome";        }    };    int main()    {        sample* arra[2];        Ex1 e1;        Ex2 e2;        arra[0]=&e1;        arra[1]=&e2;        arra[0]->example();        arra[1]->example();    }
+a) ubuntu
+b) is awesome
+c) ubuntu is awesome
+d) ubunt esome
+c
+Output:
+$ g++ abs3.cpp
+$ a.out
+ubuntu is awesome
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Base    {        public:        virtual void print() const = 0;    };    class DerivedOne : virtual public Base    {        public:        void print() const        {            cout << "1";        }    };    class DerivedTwo : virtual public Base    {        public:        void print() const        {            cout << "2";        }    };    class Multiple : public DerivedOne, DerivedTwo    {        public:        void print() const        {            DerivedTwo::print();        }    };    int main()    {        Multiple both;        DerivedOne one;        DerivedTwo two;        Base *array[ 3 ];        array[ 0 ] = &both;        array[ 1 ] = &one;        array[ 2 ] = &two;        for ( int i = 0; i < 3; i++ )        array[ i ] -> print();        return 0;    }
+a) 121
+b) 212
+c) 12
+d) 215
+b
+Output:
+$ g++ abs4.cpp
+$ a.out
+212
+8. What is meant by pure virtual function?
+a) Function which does not have definition of its own
+b) Function which does have definition of its own
+c) Function which does not have any return type
+d) Function which does not have any return type & own definition
+a
+9. Pick out the correct option.
+a) We cannot make an instance of an abstract base class
+b) We can make an instance of an abstract base class
+c) We can make an instance of an abstract super class
+d) We can make an instance of an abstract derived class
+a
+10. Where does the abstract class is used?
+a) base class only
+b) derived class
+c) both derived & base class
+d) virtual class
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Derived Classes» Next - C++ Programming Questions and Answers – Abstract Classes – 2 

@@ -1,0 +1,55 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Capgemini and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Capgemini interviews on C Programming language. 
+Here is a listing of basic C interview questions on “While Loops” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        char *str = "";        do        {            printf("hello");        } while (str);    }
+a) Nothing
+b) Run time error
+c) Varies
+d) Hello is printed infinite times
+d
+2. What will be the output of the following C code?
+#include <stdio.h>void main(){    int i = 0;    while (i < 10)    {        i++;        printf("hi\n");        while (i < 8)         {            i++;            printf("hello\n");        }    }}
+a) Hi is printed 8 times, hello 7 times and then hi 2 times
+b) Hi is printed 10 times, hello 7 times
+c) Hi is printed once, hello 7 times
+d) Hi is printed once, hello 7 times and then hi 2 times
+d
+3. What is an example of iteration in C?
+a) for
+b) while
+c) do-while
+d) all of the mentioned
+d
+4. How many times while loop condition is tested in the following C code snippets, if i is initialized to 0 in both the cases?
+while (i < n)         i++;    ————-    do         i++;    while (i <= n);
+a) n, n
+b) n, n+1
+c) n+1, n
+d) n+1, n+1
+d
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0;        while (i = 0)            printf("True\n");        printf("False\n");    }
+a) True (infinite time)
+b) True (1 time) False
+c) False
+d) Compiler dependent
+c
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0, j = 0;        while (i < 5, j < 10)        {            i++;            j++;        }        printf("%d, %d\n", i, j);    }
+a) 5, 5
+b) 5, 10
+c) 10, 10
+d) Syntax error
+c
+7. Which loop is most suitable to first perform the operation and then test the condition?
+a) for loop
+b) while loop
+c) do-while loop
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – While Loops – 1» Next - C Programming Questions and Answers – Break and Continue – 1 

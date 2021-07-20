@@ -1,0 +1,80 @@
+1. Which of the following language is used for procedural flow in SQL Server?
+a) Flow language
+b) Control language
+c) Control-of-flow language
+d) None of the mentioned
+c
+2. Point out the correct statement.
+a) Control-of-flow language permits statements to be connected, related to each other, and made interdependent using programming-like constructs
+b) Control-of-flow statements cannot span multiple batches, user-defined functions, or stored procedures
+c) Control-of-flow words are useful when you need to direct Transact-SQL to take some kind of action
+d) All of the mentioned
+d
+3. Which of the following is a control flow keyword?
+a) IF
+b) GO
+c) GOTO
+d) All of the mentioned
+c
+4. Which of the following code snippet is valid control flow statement?
+a)
+IF (@@Error  0)
+   ROLLBACK
+ELSE
+   COMMIT
+END
+b)
+IF (@@Error  0)
+   ROLLBACK
+c)
+IF (@@Error  0)
+   ROLLBACK
+ELSE
+   END
+d) All of the mentioned
+a
+5. Point out the wrong statement.
+a) GOTO can exist within conditional control-of-flow statements, statement blocks, or procedures
+b) GOTO permissions need not be granted to any user
+c) GOTO statements can be nested
+d) None of the mentioned
+b
+6. Which of the following two Transact-SQL statements are commonly used with WHILE?
+a) BREAK and CONTINUE
+b) BREAK and IF
+c) IF and ELSE
+d) All of the mentioned
+a
+7. Which of the following scenario makes use of BEGIN..END keyword redundant?
+a) when an IF statement controls the execution of multiple Transact-SQL statement
+b) when an IF statement controls the execution of only one Transact-SQL statement
+c) when an IF statement controls the execution of one or more Transact-SQL statement
+d) none of the mentioned
+b
+8. The BEGIN and END statements are used when ____________
+a) A WHILE loop needs to include a block of statements
+b) An element of a CASE expression needs to include a block of statements
+c) An IF or ELSE clause needs to include a block of statements
+d) All of the mentioned
+d
+9. Which of the following components constitutes use CASE expression?
+a) The primary key name to transform
+b) The BEGIN keyword
+c) The CASE keyword
+d) Where clause defining an alias for the CASE expression
+c
+10. The following code snippet uses the DELAY keyword to wait for ______ seconds.
+WAITFOR DELAY '00:00:02';
+SELECT BusinessEntityID FROM 
+AdventureWorks2008R2.HumanResources.Employee;
+a) 2
+b) 3
+c) 4
+d) 5
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Transact SQL» Next - SQL Server Questions and Answers – Variables 

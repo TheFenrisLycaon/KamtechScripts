@@ -1,0 +1,88 @@
+1. Which of the following can be operands of arithmetic operators?
+a) Numeric
+b) Boolean
+c) Characters
+d) Both Numeric & Characters
+d
+2. Modulus operator, %, can be applied to which of these?
+a) Integers
+b) Floating – point numbers
+c) Both Integers and floating – point numbers
+d) None of the mentioned
+c
+3. With x = 0, which of the following are legal lines of Java code for changing the value of x to 1?
+   1. x++;
+   2. x = x + 1;
+   3. x += 1;
+   4. x =+ 1;
+a) 1, 2 & 3
+b) 1 & 4
+c) 1, 2, 3 & 4
+d) 3 & 2
+c
+4. Decrement operator, −−, decreases the value of variable by what number?
+a) 1
+b) 2
+c) 3
+d) 4
+a
+5. Which of these statements are incorrect?
+a) Assignment operators are more efficiently implemented by Java run-time system than their equivalent long forms
+b) Assignment operators run faster than their equivalent long forms
+c) Assignment operators can be used only with numeric and character data type
+d) None of the mentioned
+d
+6. What will be the output of the following Java program?
+    class increment     {        public static void main(String args[])        {            double var1 = 1 + 5;             double var2 = var1 / 4;            int var3 = 1 + 5;            int var4 = var3 / 4;            System.out.print(var2 + " " + var4);         }     }
+a) 1 1
+b) 0 1
+c) 1.5 1
+d) 1.5 1.0
+c
+output:
+$ javac increment.java
+$ java increment
+1.5 1
+7. What will be the output of the following Java program?
+    class Modulus     {        public static void main(String args[])         {                 double a = 25.64;             int  b = 25;             a = a % 10;             b = b % 10;             System.out.println(a + " "  + b);        }     }
+a) 5.640000000000001 5
+b) 5.640000000000001 5.0
+c) 5 5
+d) 5 5.640000000000001
+a
+output:
+$ javac Modulus.java
+$ java Modulus
+5.640000000000001 5
+8. What will be the output of the following Java program?
+    class increment     {        public static void main(String args[])         {                     int g = 3;             System.out.print(++g * 8);        }     }
+a) 25
+b) 24
+c) 32
+d) 33
+c
+output:
+$ javac increment.java
+$ java increment
+32
+9. Can 8 byte long data type be automatically type cast to 4 byte float data type?
+a) True
+b) False
+a
+10. What will be the output of the following Java program?
+    class Output     {        public static void main(String args[])         {                 int a = 1;             int b = 2;             int c;             int d;             c = ++b;             d = a++;             c++;             b++;             ++a;             System.out.println(a + " " + b + " " + c);        }     }
+a) 3 2 4
+b) 3 2 3
+c) 2 3 4
+d) 3 4 4
+d
+output:
+$ javac Output.java
+$ java Output
+3 4 4
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Data Structures-Arrays» Next - Java Questions & Answers – Bitwise Operators 

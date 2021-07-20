@@ -1,0 +1,86 @@
+1. If the rate of a reaction is given as (-rA) = \(\frac{k_1+C_A^2}{k_2×C_A} \frac{mol}{m^3 min} \), then the units of k1 and k2 respectively are ____
+a) \(\frac{mol^2}{m^6} \) and min
+b) min and \(\frac{mol^2}{m^6} \) 
+c) mol and min
+d) m3 and mol
+a
+Equating the units of all known quantities on both sides, \(\frac{mol}{m^3 min} = \frac{mol^2}{m^6} × \frac{1}{k_2×(\frac{mol}{m^3})}. \)
+Hence, k2 has the unit of min.
+2. State true or false.
+For pure gaseous reactants, the best reactor suited for carrying out reaction is CSTR.
+a) True
+b) False
+a
+3. State true or false.
+For a first order reaction, the conversion of the reaction is a function of CA0.
+a) True
+b) False
+b
+CA = CA0(1 – XA)
+Differentiating on either sides, dCA = -CA0dXA
+-CA0 \(\frac{dXA}{dt} \) = kCA0(1 – XA)
+\(\frac{dXA}{(1 – XA)} \) = kdt
+-ln(1-XA) = kt
+Hence, conversion is not a function of CA0.
+4. For a first order reaction, if the rate constant is 1 min-1 and the reaction time is 2 min, then the ratio of final to initial concentration is ____
+a) 0.167
+b) 0.135
+c) 0.198
+d) 0.764
+b
+Integrating between initial and final concentrations,
+CA = CA0e-kt
+\(\frac{C_A}{C_{A0}} \) = e-2
+\(\frac{C_A}{C_{A0}} \) = 0.135.
+5. The residence time (in min) for the reactants at a flow rate of 5 \(\frac{litre}{min}\) inside a reactor of volume 10 litre is ____
+a) 5
+b) 1
+c) 10
+d) 2
+d
+6. A second order reaction occurs in a CSTR. Determine the ratio of volumes required for 45% conversion to 90% conversion, provided initial concentration, flow rate and other parameters are constant.
+a) 1.64
+b) 60.5
+c) 0.35
+d) 0.0165
+b
+XA1 = (1-XA1)2 V1
+\(\frac{0.45}{0.90} = \frac{(1-0.45)^2 V1}{(1-0.9)^2 V2} \) 
+\(\frac{V_1}{V_2} \) = 0.0165.
+7. The present CSTR is replaced by another CSTR of double the volume. A first order liquid phase reaction occurs in both the reactors. If the conversion achieved in the old reactor is 75%, what is the conversion achieved in the new reactor?
+a) 0.857
+b) 0.675
+c) 0.765
+d) 0.99
+a
+XA = 0.857.
+8. A liquid phase reaction occurring in a CSTR follows first order dynamics. The feed rate is 500m3/min. Initial concentration of the feed is 50mol/m3. If the reaction conversion is 50% and the reaction is carried out in a 0.5 m3 CSTR, what is the value of rate constant?
+a) 40
+b) 20
+c) 10
+d) 5
+b
+(-rA) = kCA0(1 – XA)
+500 × 0.5 = k × 50 × (1-0.5) × 0.5
+k = 20.
+9. For a first order liquid phase reaction occurring in a CSTR, the initial concentration is 10 \(\frac{mol}{m^3} \) and the final concentration is 5 \(\frac{mol}{m^3} \). If the residence time is 100 minutes, then the value of reaction rate is ____
+a) 0.75
+b) 0.33
+c) 0.4
+d) 0.05
+b
+t = \(\frac{C_{A0}- CA}{(-rA)} \) 
+rA = \(\frac{10-5}{100} \) = 0.05.
+10. A reaction of first order takes 10 minutes to achieve 50% conversion. The conversion achieved after 20 minutes is ____
+a) 0.5
+b) 0.75
+c) 0.87
+d) 0.9
+b
+XA = 0.75.
+Sanfoundry Global Education & Learning Series – Chemical Reaction Engineering.
+To practice all areas of Chemical Reaction Engineering,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Chemical Reaction Engineering Questions and Answers – Design Equations for Flow Reactors» Next - Chemical Reaction Engineering Questions and Answers – Applications of Design Equations for Continuous – Flow Reactors 

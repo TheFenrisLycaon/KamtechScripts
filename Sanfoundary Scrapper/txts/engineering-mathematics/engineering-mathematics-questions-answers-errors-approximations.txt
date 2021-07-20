@@ -1,0 +1,149 @@
+1. Error is the Uncertainty in measurement.
+a) True
+b) False
+a
+2. Relative error in x is?
+a) δx
+b) δx⁄x
+c) δx⁄x * 100
+d) 0
+b
+Option ‘δx⁄x’ is called relative error.
+Option ‘δx⁄x * 100’ is called Percentage error.
+3. Find the percentage change power in the circuit if error in value of resistor is 1% and that of voltage source is .99%.
+a) z should be homogeneous and of order n
+b) z should not be homogeneous but of order n
+c) z should be implicit
+d) z should be the function of x and y only
+a
+Taking log on both sides,
+log(P) = 2log(V) – log(r)
+Differentiating it ,
+δp⁄p = 2δV⁄V – δr⁄r
+Multiplying by 100 we get,
+%P = 2%V – %r = (2*.99) – 1 = 0.98%.
+4. Magnitude of error can be negative or positive.
+a) True
+b) False
+b
+5. Given the kinetic energy of body is T = 1⁄2 mv2. If the mass of body changes from 100 kg to 100 kg and 500 gm and velocity of a body changes from 1600 mt/sec to 1590 mt/sec. Then find the approximate change in T.
+a) 960000 J decrease in value
+b) 960000 J increase in value
+c) 450000 J decrease in value
+d) 450000 J increase in value
+a
+Now taking log and differentiating,
+δT = 0.5[v2 δm + 2mvδv] 
+Now, v = 1600 mt/sec, m = 100kg, δv = -10,         δm = 0.5
+Then,
+δT = -960000 J => decrese in value of T by 960000 J.
+6. The speed of a boat is given by, v = k(1⁄t – at), where k is the constant and l us the distance travel by boat in time t and a is the acceleration of water. If there is an change in ‘l’ from 2cm to 1cm in time 2sec to 1sec. If the acceleration of water changes from 0.95 mt/sec2 to 2 mt/sec2 find the motion of boat.
+a) -2
+b) 2
+c) 0.5
+d) -0.5
+a
+Differentiating it we get
+\(δv=k\left [\frac{(tδl-lδt)}{t^2} – aδt – tδa \right ]\) 
+Hence,
+\(\frac{δv}{v}=\frac{k\left [\frac{(tδl-lδt)}{t^2} – aδt – tδa \right ]}{v}\) 
+\(\frac{δv}{v}=\frac{\left [\frac{(tδl-lδt)}{t^2} – aδt – tδa \right ]}{(\frac{l}{t}-at)}\) 
+Put, l = 2cm, t = 2sec, a = 0.95 mt/sec2
+and  δl = 1cm, δt = 1 sec⁡and δa = -1.05 mt/sec2
+we get,
+δv⁄v = 2.
+7. The relative error in the volume of figure having hemispherical ends and a body of right circular cylinder is, if error in radius(r) is 0 and in height(h) is 1.
+a)  1/(h + 4⁄3 r)
+b)  1/(h + 2⁄3 r)
+c)  h/(h + 4⁄3 r)
+d)  r/(h + 4⁄3 r)
+a
+Now since error in radius is zero , it should be treated as constant, Hence,
+\(δV=\frac{πr^2 δh}{πr^2 (h+\frac{4}{3} r)}=\frac{1}{(h+\frac{4}{3} r)}\)
+8. If n resistors of unequal resistances are connected in parallel,and the percenrage error in all resistors are k then,total error in parallel combination is?
+a) \(x \frac{∂z}{∂x}+y \frac{∂z}{∂y}=\frac{x^2+y^2}{x+y} e^{\frac{x^2+y^2}{x+y}}\) 
+b) \(x \frac{∂z}{∂x}+y \frac{∂z}{∂y}=1-\frac{x^2+y^2}{x+y} e^{\frac{x^2+y^2}{x+y}}\) 
+c) \(x \frac{∂z}{∂x}+y \frac{∂z}{∂y}=1+\frac{x^2+y^2}{x+y} e^{\frac{x^2+y^2}{x+y}}\) 
+d) \(x \frac{∂z}{∂x}+y \frac{∂z}{∂y}=-\frac{x^2+y^2}{x+y} e^{\frac{x^2+y^2}{x+y}}\) 
+b
+Differentiating all,
+– 1⁄r2  dr = – 1⁄a2  da – 1⁄b2  db – ….- 1⁄n2  dn
+Now,
+1⁄r2  dr = + 1⁄a2  da + 1⁄b2  db + ….+ 1⁄n2  dn
+Multiplying by 100 and putting da = db = ……. = dn =k.
+9. The approximate value of function f(x + δx, y + δy) is?
+a) f + ∂f⁄∂x dx + ∂f⁄∂y dy
+b) ∂f⁄∂x dx + ∂f⁄∂y dy
+c) f – ∂f⁄∂x dx + ∂f⁄∂y dy
+d) ∂f⁄∂x dx – ∂f⁄∂y dy
+a
+10. At a distance of 120ft from the foot of a tower the elevation of its top is 60o. If the possible error in measuring the distance and elevation are 1 inch and 1 minute, find approximate error in calculated height.
+a) 0.342
+b) 0.284
+c) 0.154
+d) 0.986
+b
+h = x Tan(z)
+Taking log and then differentiate we get,
+∂h⁄h = ∂x⁄x + 1⁄Tan(z)  Sec2 (z)δz
+Now h = 120 tan(60o) = 120√3
+Putting, δx = 1⁄12 ft, δz = π⁄(60*180)
+Putting the values we get,
+δh = 0.284.
+11. Find the approximate value of (1.04)3.01.
+a) 1.14
+b) 1.13
+c) 1.11
+d) 1.12
+d
+Now,
+∂f⁄∂x = yx(y-1)  and ∂f⁄∂y = xy log⁡(x)
+Putting, x = 1, y = 3, δx = 0.04, δy = 0.01
+Now, df = δx ∂f⁄∂x + δy∂f⁄∂y = 0.12
+Hence, f(x + δx,y + δy) = (1.04)3.01 = 1.12.
+12. Find the approximate value of [0.982+2.012+1.942 ](1⁄2).
+a) 1.96
+b) 2.96
+c) 0.04
+d) -0.04
+b
+Hence, x = 1, y = 2, z = 2 so that, dx = -0.02, dy = 0.01, dz = -0.06
+From (1),
+∂f⁄∂x = x⁄f
+∂f⁄∂y = y⁄f
+∂f⁄∂z = z⁄f
+And df =  ∂f⁄∂x dx + ∂f⁄∂y dy + ∂f⁄∂z dz = ((xdx + ydy + zdz))/f = (-0.02 + 0.02 – 0.12)/3 = -0.04
+Hence,
+[0.982+2.012+1.942 ](1⁄2) = f(1, 2, 2) + df = 3-0.04 = 2.96.
+13. Find the approximate value of  log⁡(11.01-log⁡(10.1)), Given log(10) = 2.30 and and log(8.69) = 2.16, all the log are in base ‘e’.
+a) 2.1654
+b) 2.1632
+c) 2.1645
+d) 2.1623
+d
+Now by differentiating,
+\(\frac{∂f}{∂x}=\frac{1}{x-log⁡(y)}\) and \(\frac{∂f}{∂y}=\frac{1}{y(x-log⁡(y))}\) 
+Now, putting, x = 11, y = 10, δx=.01 and δy=.1
+We get,
+\(\frac{∂f}{∂x}∂f/∂x\)=1/8.69 and \(\frac{∂f}{∂y}∂f/∂y\)=1/86.9
+Hence, df = 0.0023
+Hence, f(x + δx, y + δy) = log⁡(11.01 – log⁡(10.1))= 2.16 + df = 2.1623.
+14. Find approximate value of e10.19.09, given e90 = 1.22 * 1039.
+a) 2.41 * 1039
+b) 2.42 * 1039
+c) 2.43 * 1039
+d) 2.44 * 1039
+b
+Now by differentiating,
+∂f⁄∂x = yexy and ∂f⁄∂y = xexy
+Now, putting, x = 10, y = 9, δx = .01 and δy = .09
+We get,
+∂f⁄∂x = 1.09* 1040 and ∂f⁄∂y = 1.22* 1040
+Hence, df = 1.27* 1039
+Hence, f(x + δx, y + δy) = e10.19.09 = 2.42 * 1039.
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Euler’s Theorem – 2» Next - Differential and Integral Calculus Questions and Answers – Jacobians 

@@ -1,0 +1,67 @@
+1. The __________ constant instructs the computer to advance the insertion point to the next line in control.
+a) ControlChars.NewLine
+b) ControlChars.NextLine
+c) ControlChars.Line
+d) ControlChars.blankLine
+a
+2. __________ can be used to advance the insertion point in a file or on the printer.
+a) Advance pointer
+b) Nextpoint pointer
+c) NextLine constant
+d) ControlChars.NewLine constant
+d
+3. Which of the following is called the line continuation character?
+a) *
+b) ^
+c) –
+d) _
+d
+4. ControlChars.NewLine constant is a __________ constant.
+a) Pure
+b) Invariable
+c) Character
+d) Intrinsic
+d
+5. What is wrong with the below statement?
+Msg.Text=”This is an example”&ControlChars.NewLine&“Example”.
+a) Used double quotes, should have used single quotes
+b) No errors
+c) There should be spaces before and after each &
+d) Should have ended with a ;
+c
+6. What is the specialty of the Default button?
+a) Always focused by default
+b) Always clears the form it is in
+c) Can  be selected by the Enter key even when not focused
+d) Can  be selected by the Shift key even when not focused
+d
+7. The Cancel Button’s procedure is accessed by __________ key.
+a) Esc
+b) Alt
+c) Ctrl
+d) Shift
+a
+8. How many default buttons can a form have?
+a) 1
+b) 2
+c) 3
+d) 4
+a
+9. How is a default button designated?
+a) Default keyword in the definition of the button
+b) Setting the setfocus property to on
+c) Keeping the button at the bottom of the form
+d) By connecting the AcceptButton property to it
+d
+10. What is the correct syntax to designate a default button?
+a) Form.default=button1
+b) Form.defaultButton=button1
+c) Form.AcceptButton=button1
+d) Form.focused=button1
+c
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Concatenating Strings, InputBox Function and toString Method» Next - Visual Basic Questions and Answers – Single-Alternative and Dual-Alternative Selection Structures 

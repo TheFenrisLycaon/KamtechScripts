@@ -1,0 +1,55 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C help anyone preparing for Microsoft and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Microsoft interviews on C Programming language.
+Here is a listing of C test questions on “Assignment Operators & Expressions” along with answers, explanations and/or solutions:
+1. What is the type of the following assignment expression if x is of type float and y is of type int?
+ y = x + y;
+a) int
+b) float
+c) there is no type for an assignment expression
+d) double
+a
+2. What will be the value of the following assignment expression?
+ (x = foo())!= 1 considering foo() returns 2
+a) 2
+b) True
+c) 1
+d) 0
+a
+3. Operation “a = a * b + a” can also be written as ___________
+a) a *= b + 1;
+b) (c = a * b)!=(a = c + a);
+c) a = (b + 1)* a;
+d) All of the mentioned
+d
+4. What will be the final value of c in the following C statement? (Initial value: c = 2)
+c <<= 1;
+a) c = 1;
+b) c = 2;
+c) c = 3;
+d) c = 4;
+d
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int a = 1, b = 2;        a += b -= a;        printf("%d %d", a, b);    }
+a) 1 1
+b) 1 2
+c) 2 1
+d) 2 2
+c
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int a = 4, n, i, result = 0;        scanf("%d", n);        for (i = 0;i < n; i++)        result += a;    }
+a) Addition of a and n
+b) Subtraction of a and n
+c) Multiplication of a and n
+d) Division of a and n
+c
+7. Which of the following is an invalid assignment operator?
+a) a %= 10;
+b) a /= 10;
+c) a |= 10;
+d) None of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Assignment Operators & Expressions – 1» Next - C Programming Questions and Answers – Conditional Expressions – 1 

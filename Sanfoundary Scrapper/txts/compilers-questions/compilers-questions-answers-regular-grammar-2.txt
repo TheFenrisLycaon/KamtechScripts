@@ -1,0 +1,46 @@
+1. Give a production grammar that specified language L = {ai b2i >= 1}.
+a) {S->aSbb,S->abb}
+b) {S->aSb, S->b}
+c) {S->aA,S->b,A->b}
+d) None of the mentioned
+a
+2. Let R1 and R2 be regular sets defined over alphabet ∑ then?
+a) R1 UNION R2 is regular
+b) R1 INTERSECTION R2 is regular
+c) ∑ INTERSECTION R2 IS NOT REGULAR
+d) R2* IS NOT REGULAR
+a
+3. Which of the following String can be obtained by the language L = {ai b2i / i >=1}?
+a) aaabbbbbb
+b) aabbb
+c) abbabbba
+d) aaaabbbabb
+a
+4. Give a production grammar for the language L = {x/x ∈ (a,b)*, the number of a’s in x is multiple of 3}.
+a) {S->bS, S->b,S->aA, S->bA, A->aB, B->bB, B->aS, S->a}
+b) {S->aS,S->bA,A->bB,B->bBa,B->bB}
+c) {S->aaS,S->bbA,A->bB,B->ba}
+d) None of the mentioned
+a
+S->bS S->B
+S->aA s->bA A->aB B->bB
+B->aS S->a. 
+Join Sanfoundry@YouTube
+5. The production Grammar is {S->aSbb, S->abb} is?
+a) type-3 grammar
+b) type-2 grammar
+c) type-1 grammar
+d) type-0 grammar
+b
+6. The regular expression denote a language comprising all possible strings of even length over the alphabet (0,1) is?
+a) 1 + 0(1+0)*
+b) (0+1)(1+0)*
+c) (1+0)
+d) (00+0111+10)*
+d
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – Regular Grammar – 1» Next - Compilers Questions and Answers – Right Left Linear Grammar – 1 

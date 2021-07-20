@@ -1,0 +1,118 @@
+1. What happens if the following program is executed in C and C++?
+#include<stdio.h> 
+int main() 
+{ 
+   foo();
+}  
+int foo() 
+{ 
+   printf("Hello"); 
+   return 0;  
+}
+a) Error in both C and C++
+b) Warning in both C and C++
+c) Error in C++ but Warning in C
+d) Error in C but Warning in C++
+c
+2. What happens if the following program is executed in C and C++?
+#include <stdio.h> 
+int main(void) 
+{ 
+	const int j = 20; 
+	int *ptr = &j;
+	printf("*ptr: %d\n", *ptr); 
+	return 0; 
+}
+a) Error in both C and C++
+b) Warning in both C and C++
+c) Error in C but Warning in C++
+d) Error in C++ but Warning in C
+d
+3. What happens if the following line is executed in C and C++?
+Join [email protected]
+int *p = malloc(10);
+a) Error in both C and C++
+b) Warning in both C and C++
+c) Error in C++ and successful execution in C
+d) Error in C and successful execution in C++
+c
+4. What happens if the following line is executed in C and C++?
+const int a;
+a) Error in both C and C++
+b) Warning in both C and C++
+c) Error in C and successful execution in C++
+d) Error in C++ and successful execution in C
+d
+5. What happens if the following program is executed in C and C++?
+#include <stdio.h> 
+int main(void) 
+{ 
+	int new = 5;
+	printf("%d", new); 
+}
+a) Error in both C and C++
+b) A successful run in both C and C++
+c) Error in C and successful execution in C++
+d) Error in C++ and successful execution in C
+d
+6. What happens if the following program is executed in C and C++?
+#include <stdio.h> 
+void main() 
+{ 
+	printf("Hello World"); 
+}
+a) Error in both C and C++
+b) Successful run in both C and C++
+c) Error in C and successful execution in C++
+d) Error in C++ and successful execution in C
+d
+7. What happens if the following program is executed in C and C++?
+#include <stdio.h> 
+void func(void)
+{
+	printf("Hello");
+}
+void main() 
+{ 
+	func();
+	func(2);
+}
+a) Error in both C and C++
+b) Outputs Hello twice in both C and C++
+c) Error in C and successful execution in C++
+d) Error in C++ and successful execution in C
+a
+8. What happens if the following program is executed in C and C++?
+#include <stdio.h> 
+void func()
+{
+	printf("Hello");
+}
+void main() 
+{ 
+	func();
+	func(2);
+}
+a) Error in both C and C++
+b) Outputs Hello twice in both C and C++
+c) Error in C and Outputs Hello twice in C++
+d) Error in C++ and Outputs Hello twice in C
+d
+9. Which of the following type is provided by C++ but not C?
+a) int
+b) bool
+c) float
+d) double
+b
+10. Which of the following feature is not provided by C?
+a) Pointers
+b) Structures
+c) References
+d) Functions
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – OOPs Concept – 4» Next - C++ Programming Questions and Answers – C++ Concepts – 1 

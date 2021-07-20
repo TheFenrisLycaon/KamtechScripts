@@ -1,0 +1,110 @@
+1. What will be the output of the following C code?
+#include<stdio.h>
+#include<limits.h>
+main()
+{
+    if(UCHAR_MAX<=SCHAR_MAX)
+        printf("hello");
+    else
+        printf("good");
+}
+a) error
+b) hello
+c) good
+d) hellogood
+c
+2. Which of the following macros is not defined?
+a) ULONG_MIN
+b) LONG_MIN
+c) ULONG_MAX
+d) LONG_MAX
+a
+3. Given that the value of SHRT_MAX is equal to 32767 and that of SHRT_MIN is equal to -32768, What will be the output of the following C code?
+#include<stdio.h>
+#include<limits.h>
+main()
+{
+    int d;
+    d=SHRT_MAX + SHRT_MIN+1;
+    printf("%d",d);
+}
+a) -1
+b) error
+c) 1
+d) 0
+d
+4. What will be the output of the following C code?
+#include<stdio.h>
+#include<limits.h>
+main()
+{
+    int d;
+    d=CHAR_MIN;
+    printf("%d",d);
+}
+a) 0
+b) -128
+c) error
+d) -1
+b
+5. _____________ defines the minimum value for a short integer.
+a) SHINT_MIN
+b) SHRT_MIN
+c) SINT_MIN
+d) SHORT_MIN
+b
+6. The macro definition of INT_MIN is ____________
+a) –INT_MAX – 1
+b) INT_MAX – 1
+c) –INT_MAX + 1
+d) INT_MAX + 1
+a
+7. What will be the output of the following C code?
+Maximum value of int  =  1000
+Maximum value of float = 5000
+Maximum value of short int = 327
+Minimum value of short int = -328
+#include<stdio.h>
+#include<limits.h>
+#include<float.h>
+main()
+{
+    short int d;
+    d=INT_MAX + FLT_MAX;
+    printf("%d",d);
+}
+a) error
+b) 6000
+c) 327
+d) -328
+c
+8. The macros defined under the header file limits.h are not defined under any other header file.
+a) False
+b) True
+b
+9. What will be the output of the following C code if the value of UCHAR_MAX is 127?
+#include<stdio.h>
+#include<limits.h>
+int main()
+{
+    int d;
+    d=CHAR_MAX;
+    printf("%c",d);
+}
+a) Error
+b) 127
+c) Alphabet corresponding to the value 127
+d) Junk value
+d
+10. The minimum value of CHAR_BIT is equal to  ________
+a) 2
+b) 4
+c) 8
+d) 16
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Implementation-Defined Limits – 1» Next - C Questions and Answers – Static vs Dynamic Memory Allocation 

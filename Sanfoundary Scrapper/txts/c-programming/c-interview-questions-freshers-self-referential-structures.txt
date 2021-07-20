@@ -1,0 +1,69 @@
+This section on C interview questions and answers focuses on “Self-Referential Structures”. One shall practice these interview questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C Interview questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C interview questions on “Self-Referential Structures” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    typedef struct p *q;    int main()    {        struct p        {            int x;            char y;            q ptr;        };        struct p p = {1, 2, &p};        printf("%d\n", p.ptr->x);        return 0;    }
+a) Compile time error
+b) 1
+c) Depends on the compiler
+d) None of the mentioned
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        typedef struct p *q;        struct p        {            int x;            char y;            q ptr;        };        struct p p = {1, 2, &p};        printf("%d\n", p.ptr->x);        return 0;    }
+a) Compile time error
+b) 1
+c) Depends on the compiler
+d) Depends on the standard
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    typedef struct p *q;    struct p    {        int x;        char y;        q ptr;    };    int main()    {        struct p p = {1, 2, &p};        printf("%d\n", p.ptr->ptr->x);        return 0;    }
+a) Compile time error
+b) Segmenation fault
+c) Undefined behaviour
+d) 1
+d
+4. The number of distinct nodes the following struct declaration can point to is _____________
+    struct node    {        struct node *left;        struct node *centre;        struct node *right;    };
+a) 1
+b) 2
+c) 3
+d) All of the mentioned
+d
+5. Which of the following is not possible regarding the structure variable?
+a) A structure variable pointing to itself
+b) A structure variable pointing to another structure variable of same type
+c) 2 different type of structure variable pointing at each other
+d) None of the mentioned
+d
+6. Which of the following technique is faster for travelling in binary trees?
+a) Iteration
+b) Recursion
+c) Both Iteration and Recursion
+d) Depends from compiler to compiler
+b
+7. Which of the following will stop the loop at the last node of a linked list in the following C code snippet?
+    struct node    {        struct node *next;    };
+a)
+    while (p != NULL)
+    {
+        p = p->next;
+    }
+b)
+    while (p->next != NULL)
+    {
+        p = p->next;
+    }
+c)
+    while (1)
+    {
+        p = p->next;
+        if (p == NULL)
+            break;
+    }
+d) All of the mentioned
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Self-Referential Structures – 1» Next - C Programming Questions and Answers – Table Lookup – 1 

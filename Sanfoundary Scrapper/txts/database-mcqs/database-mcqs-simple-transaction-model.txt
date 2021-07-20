@@ -1,0 +1,68 @@
+1. In SQL, which command is used to issue multiple CREATE TABLE, CREATE VIEW and GRANT statements in a single transaction?
+a) CREATE PACKAGE
+b) CREATE SCHEMA
+c) CREATE CLUSTER
+d) All of the mentioned
+b
+2. In SQL, the CREATE TABLESPACE is used
+a) To create a place in the database for storage of scheme objects, rollback segments, and naming the data files to comprise the tablespace
+b) To create a database trigger
+c) To add/rename data files, to change storage
+d) All of the mentioned
+a
+3. Which character function can be used to return a specified portion of a character string?
+a) INSTR
+b) SUBSTRING
+c) SUBSTR
+d) POS
+c
+4. Which of the following is TRUE for the System Variable $date$?
+a) Can be assigned to a global variable
+b) Can be assigned to any field only during design time
+c) Can be assigned to any variable or field during run time
+d) Can be assigned to a local variable
+b
+5. What are the different events in Triggers?
+a) Define, Create
+b) Drop, Comment
+c) Insert, Update, Delete
+d) Select, Commit
+c
+6. Which is the subset of SQL commands used to manipulate Oracle Database Structures, including tables?
+a) Data Definition Language
+b) Data Manipulation Language
+c) Data Described Language
+d) Data Retrieval Language
+a
+7. The SQL statement SELECT SUBSTR(‘123456789’, INSTR(‘abcabcabc’,’b’), 4) FROM EMP; prints
+a) 6789
+b) 2345
+c) 1234
+d) 456789
+b
+8. Which of the following SQL command can be used to modify existing data in a database table?
+a) MODIFY
+b) UPDATE
+c) CHANGE
+d) NEW
+b
+SET column1=value1,column2=value2,…
+WHERE some_column=some_value; .
+9. When SQL statements are embedded inside 3GL, we call such a program as
+a) Nested query
+b) Nested programming
+c) Distinct query
+d) Embedded SQL
+d
+10. _______________ provides option for entering SQL queries as execution time, rather than at the development stage.
+a) PL/SQL
+b) SQL*Plus
+c) SQL
+d) Dynamic SQL
+d
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Transaction Concept» Next - Database Questions and Answers – Storage Structure 

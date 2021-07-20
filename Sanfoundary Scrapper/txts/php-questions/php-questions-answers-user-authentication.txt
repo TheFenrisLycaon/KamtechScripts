@@ -1,0 +1,85 @@
+1. How many predefined variables does PHP use to authenticate a user?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+2. Which of the following variables does PHP use to authenticate a user?
+i) $_SERVER['PHP_AUTH_USER'].
+ii) $_SERVER['PHP_AUTH_USERS'].
+iii) $_SERVER['PHP_AUTH_PU'].
+iv) $_SERVER['PHP_AUTH_PW'].
+a) i) and ii)
+b) ii) and iv)
+c) i) and iv)
+d) ii) and iii)
+c
+3. Which of the following PHP function is commonly used when handling authentication via PHP?
+
+i) header()
+ii) footer()
+iii) inset()
+iv) isset()
+a) i) and iv)
+b) ii) and iv)
+c) ii) and iii)
+d) i) and iii)
+a
+4. Which function is used to verify whether a variable contains a value?
+a) header()
+b) footer()
+c) inset()
+d) isset()
+d
+5. Which of the following are types of PHP authentication implementation methodologies?
+
+i) Hard-coding a login  pair directly into the script
+ii) File-based authentication
+iii) Data-based authentication
+iv) PEAR'S HTTP authentication
+a) ii) and iii)
+b) i) and iv)
+c) i), ii), iii) and iv)
+d) Only iv)
+c
+6. In which authentication method does changing the username or password can be done only by entering the code and making the manual adjustment.
+a) Hard-coding a login  pair directly into the script
+b) File-based authentication
+c) Data-based authentication
+d) PEAR’S HTTP authentication
+a
+7. The authenticationFile.txt, the file which stores username and password should be stored ___ the server document root.
+a) Inside
+b) Outside
+c) Within
+d) None of the mentioned
+b
+8. Which function is used to split a string into a series of substrings, with each string boundary is determined by a specific separator?
+a) break()
+b) divide()
+c) explode()
+d) md5()
+c
+9. In which of the following situations does file-based authentication become inconvenient.
+
+i) small list
+ii) large number of user
+iii) users are being regularly added
+iv) static authentication
+a) i) and iv)
+b) i) and iii)
+c) ii) and iii)
+d) ii) and iv)
+c
+10. Which is the most powerful authentication method among the four?
+a) Hard-coding a login  pair directly into the script
+b) File-based authentication
+c) Data-based authentication
+d) PEAR’S HTTP authentication
+c
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – HTML Forms» Next - PHP Questions & Answers – Uploading Files with PHP 

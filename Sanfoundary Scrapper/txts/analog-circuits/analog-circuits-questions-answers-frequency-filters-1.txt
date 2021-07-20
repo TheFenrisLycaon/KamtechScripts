@@ -1,0 +1,79 @@
+1. Which is not a difference between active and passive filter?
+a) A passive filter does not use op-amp while an active filter uses an op-amp
+b) A passive filter can’t use an inductor while an active filter can
+c) A passive filter performs only filtering while an active filter amplifies too
+d) A passive filter is used at audio frequency and an active at radio frequency
+d
+2. In a low pass filter as below, find the cut-off frequency for the following circuit.
+Given that R1=20kΩ, R2=25kΩ, C1=10nF.
+a) 640 kHz
+b) 636 Hz
+c) 5.5 kHz
+d) 200 Hz
+b
+fC = 1000000/2π25×10 = 636 Hz.
+3. Given that the maximum gain of a low pass filter using op-amp is 5.5 and the resistor R1 = 10kΩ, find the value of R2.
+a) 220kΩ
+b) 55kΩ
+c) 50Ω
+d) -55kΩ
+b
+Thus gain = -ZF/Z = -R2/R1
+Amplitude = 5.5 = R2/R1 = R2/10k
+R2 = 55kΩ.
+4. When the input frequency is equal to the cutoff frequency, how much is the phase shift in the output?
+a) 180°
+b) -135°
+c) -45°
+d) 135°
+d
+Phase shift = 180-45 = 135°.
+5. For the circuit, calculate the phase shift.
+It is given that R1=20kΩ, C1=2nF, R2=22kΩ, and input signal is 2sin6π103t.
+a) 233.04°
+b) 230.32°
+c) 333.04°
+d) 129.67°
+a
+fc = 1/2πR1C1 = 1000000/2π20×2 = 3.978 kHz
+Phase shift = 180 + tan-13.987/3 = 233.04°.
+6. What is the frequency response of the filter shown below?
+Given R1C1=R2C2.
+a)  
+b)  
+c)  
+d)  
+b
+7. Given the following circuit, find the maximum gain.
+a) 1+R2/R1
+b) –R3/R2
+c) 1+R3/R2
+d) 1+ R1.R3/2
+c
+Thus maximum gain is A = 1+R3/R2.
+8. For a low pass filter of non-inverting type, the cutoff frequency is 2kHz and the input frequency is 4kHz. Find the phase shift in output.
+a) 117°
+b) -117°
+c) 243°
+d) -63°
+d
+9. A filter is provided of order 3, find the roll-off rate.
+a) 6 dB/decade
+b) 60 dB/octave
+c) 60 dB/decade
+d) 3 dB/decade
+c
+10. Consider the circuit below and find its cut-off frequency.
+R1=10kΩ, R2=20kΩ, R3=30kΩ, C1=2nF, C2=4nF, R4=15kΩ.
+a) 4.6 kHz
+b) 6.2 kHz
+c) 5.5 kHz
+d) 4.2 kHz
+a
+fC = 4.6 kHz.
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Operational Amplifiers» Next - Analog Circuits Questions and Answers – Frequency Filters – 2 

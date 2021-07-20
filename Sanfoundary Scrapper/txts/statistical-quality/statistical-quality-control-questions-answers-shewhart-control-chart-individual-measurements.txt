@@ -1,0 +1,102 @@
+1. The Shewhart control charts for sample size n=1 are called _________
+a) Single Sample control charts
+b) Stationary control charts
+c) Control charts for zero variance
+d) Control charts for individual measurements
+d
+2. In the case of automatic manufacturing, the sample size is ___________
+a) 1
+b) 2
+c) 4
+d) Greater than 5
+a
+3. In the case of individuals control charts, which of these is used?
+a) Relative range
+b) Process standard deviation
+c) Mean of the highest observations
+d) Moving range
+d
+4. MR (Moving Range) is defined as
+a) The difference of highest observation and the lowest observation
+b) The difference between any two successive observations
+c) The difference between the highest observation and mean of observations
+d) The difference between the lowest observation and mean of the observations
+b
+5. What is the correct expression for the UCL for an Individuals Control Chart?
+a) UCL=\(\bar{x}+\frac{3\overline{MR}}{d_2}\) 
+b) UCL=\(\bar{x}+\frac{2\overline{MR}}{d_2}\) 
+c) UCL=\(\bar{x}+\frac{3\overline{MR}}{d_3}\) 
+d) UCL=\(\bar{x}+\frac{\overline{MR}}{d_2}\) 
+a
+UCL=\(\bar{x}+\frac{3\overline{MR}}{d_2}\)
+ 
+6. The center line for any individuals control chart represents the value equal to __________
+a) The process mean
+b) The moving range
+c) The mean of moving ranges
+d) The process standard deviation
+a
+7. The value of ARL for any x bar control chart having 3-σ limits is __________
+a) 482
+b) 310
+c) 370
+d) 270
+c
+\(ARL=\frac{1}{p}=\frac{1}{0.0027}=370\)
+8. The average number of points that must be plotted before an out-of-control point is plotted on an Individuals control chart?
+a) ARL
+b) ATS
+c) MTBF
+d) Hazard rate
+a
+9. The ARL for any individuals control chart with the 1 sigma limits, and the β=0.972, is ____
+a) 2
+b) 6.3
+c) 43.96
+d) 13
+c
+ARL=\(\frac{1}{1-\beta}\) 
+Putting the values of β=0.9772, we get ARL=43.96.
+10. Which of this stands correct for the relation between the ARL for a shewhart control chart and the individual control chart ARL?
+a) ARLindividual control chart=1/ ARLshewhart control chart
+b) ARLindividual control chart= ARLshewhart control chart
+c) ARLindividual control chart≪ARLshewhart control chart
+d) ARLindividual control chart≫ ARLshewhart control chart
+c
+11. What is the correct expression for average moving range for any individuals control chart?
+a) \(\overline{MR} = \sum_{i=2}^m \frac{MR_i}{m-1}\) 
+b) \(\overline{MR} = \sum_{i=1}^m \frac{MR_i}{m}\) 
+c) \(\overline{MR} = \sum_{i=2}^{m-1} \frac{MR_i}{m-1}\) 
+d) \(\overline{MR} = \sum_{i=1}^m \frac{MR_i}{m-1}\) 
+a
+\(\overline{MR} = \sum_{i=2}^m \frac{MR_i}{m-1}\)
+12. The estimator of the process standard deviation for any individuals control chart is written as?
+a) \(\frac{\overline{MR}}{2}\) 
+b) \(\overline{MR}/0.8865\) 
+c) \(\overline{MR}/1.128\) 
+d) \(1.128\overline{MR}\) 
+c
+\(\widehat{σ_1}=\overline{MR}/d_2\) 
+For individuals control chart, n=2. For n=2, we have d2=1.128. So we get,
+\(\widehat{σ_1}=\overline{MR}/1.128\).
+13. The estimation of the process standard deviation for any individuals control chart is expressed as ____ in the terms of sample standard deviation.
+a) \(\widehat{σ_2}=\frac{s}{c_4}\) 
+b) \(\widehat{σ_2}=\frac{s}{c_1}\) 
+c) \(\widehat{σ_2}=\frac{s}{c_2}\) 
+d) \(\widehat{σ_2}=\frac{s}{c_3}\) 
+a
+14. Moving range can only be calculated by the two successive observations.
+a) True
+b) False
+b
+15. “\(\widehat{σ_3} = 1.047\overline{MR}\); where \(\overline{MR}\) is the median of the span-two moving ranges.”
+a) True
+b) False
+a
+\(\widehat{σ_3} = 1.047\overline{MR}\)
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Variable Charts – Control Charts for x̅ and S – 2» Next - Statistical Quality Control Questions and Answers – Attribute Charts – Control Charts for Fraction Nonconforming – 1 

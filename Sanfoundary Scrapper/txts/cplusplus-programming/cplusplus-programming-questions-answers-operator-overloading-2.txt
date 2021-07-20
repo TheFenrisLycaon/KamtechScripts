@@ -1,0 +1,370 @@
+1. What is a binary operator?
+a) Operator that performs its action on a single operand
+b) Operator that performs its action on two operand
+c) Operator that performs its action on three operand
+d) Operator that performs its action on any number of operands
+b
+2. Which is the correct example of a binary operator?
+a) ++
+b) —
+c) Dereferencing operator(*)
+d) +
+d
+3. Which is the correct example of a unary operator?
+a) &
+b) ==
+c) —
+d) /
+c
+4. Which is called ternary operator?
+a) ?:
+b) &&
+c) |||
+d) ===
+a
+5. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class complex
+{
+ 
+	int i;
+	int j;
+        public:
+	complex(int a, int b)
+        {
+		i = a;
+		j = b;
+	}
+ 
+	complex operator+(complex c)
+        {
+		complex temp;
+		temp.i = this->i + c.i;
+		temp.j = this->j + c.j;
+		return temp;
+	}
+ 
+	void show(){
+		cout<<"Complex Number: "<<i<<" + i"<<j<<endl;
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	complex c1(1,2);
+	complex c2(3,4);
+	complex c3 = c1 + c2;
+	c3.show();
+	return 0;
+}
+a) 4 + i6
+b) 2 + i2
+c) Error
+d) Segmentation fault
+c
+Join Sanfoundry@YouTube
+6. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class complex
+{
+	int i;
+	int j;
+        public:
+	complex(){}
+	complex(int a, int b)
+        {
+	        i = a;
+		j = b;
+	}
+ 
+	complex operator+(complex c)
+        {
+		complex temp;
+		temp.i = this->i + c.i;
+		temp.j = this->j + c.j;
+		return temp;
+	}
+ 
+	void show(){
+		cout<<"Complex Number: "<<i<<" + i"<<j<<endl;
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	complex c1(1,2);
+	complex c2(3,4);
+	complex c3 = c1 + c2;
+	c3.show();
+	return 0;
+}
+a) Complex Number: 4 + i6
+b) Complex Number: 2 + i2
+c) Error
+d) Segmentation fault
+a
+7. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class complex
+{
+	int i;
+	int j;
+      public:
+	complex(){}
+	complex(int a, int b)
+        {
+		i = a;
+		j = b;
+	}
+	complex operator+(complex c)
+        {
+		complex temp;
+		temp.i = this->i + c.i;
+		temp.j = this->j + c.j;
+		return temp;
+	}
+ 
+	void operator+(complex c)
+        {
+		complex temp;
+		temp.i = this->i + c.i;
+		temp.j = this->j + c.j;
+		temp.show_poss();
+	}
+ 
+	void show(){
+		cout<<"Complex Number: "<<i<<" + i"<<j<<endl;
+	}
+ 
+	void show_poss(){
+		cout<<"Your result after addition will be: "<<i<<" + i"<<j<<endl;
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	complex c1(1,2);
+	complex c2(3,4);
+	c1 + c2;
+	return 0;
+}
+a) Complex Number: 4 + i6
+b) Complex Number: 2 + i2
+c) Error
+d) Segmentation fault
+c
+8. Given the following C++ code. How would you define the < operator for Box class so that when boxes b1 and b2 are compared in if block the program gives correct result?
+#include <iostream>
+#include <string>
+using namespace std;
+class Box
+{
+	int capacity;
+     public:
+	Box(){}
+	Box(double capacity){
+		this->capacity = capacity;
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	Box b1(10);
+	Box b2 = Box(14);
+	if(b1 < b2){
+		cout<<"Box 2 has large capacity.";
+	}
+	else{
+		cout<<"Box 1 has large capacity.";
+	}
+	return 0;
+}
+a) 
+bool operatorcapacity < b.capacity ? true : false;
+}
+b) 
+bool operatorcapacity > b.capacity ? true : false;
+}
+c) 
+bool operator b2 ? true : false;
+}
+d) 
+bool operator
+a
+  
+9. Which is the correct statement about operator overloading?
+a) Only arithmetic operators can be overloaded
+b) Only non-arithmetic operators can be overloaded
+c) Precedence of operators are changed after overlaoding
+d) Associativity and precedence of operators does not change
+d
+10. Pick the incorrect statements out of the following.
+a) Operator overloading does not disturbs the precedence of operators
+b) Arity of operators can be changed using operator overloading
+c) No new operators can be created
+d) All of the mentioned
+b
+11. What will be the output of the following C++ code?
+	
+#include <iostream>
+#include <string>
+using namespace std;
+class Box
+{
+	int capacity;
+	Box(){}
+	Box(double capacity){
+		this->capacity = capacity;
+	}
+ 
+};
+ 
+int main(int argc, char const *argv[])
+{
+	Box b1(10);
+	Box b2 = Box(14);
+	return 0;
+}
+a) Error
+b) Segmentation fault
+c) 4
+d) No output
+a
+12. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class Box{
+	int capacity;
+	bool operator<(Box b){
+		return this->capacity < b.capacity ? true : false;
+	}
+public:
+	Box(){}
+	Box(double capacity){
+		this->capacity = capacity;
+	}
+ 
+};
+ 
+int main(int argc, char const *argv[])
+{
+	Box b1(10);
+	Box b2 = Box(14);
+	if(b1 < b2){
+		cout<<"Box 2 has large capacity.";
+	}
+	else{
+		cout<<"Box 1 has large capacity.";
+	}
+	return 0;
+}
+a) Error
+b) Segmentation fault
+c) Box 2 has large capacity
+d) No output
+a
+13. Which operator should be overloaded in the following code to make the program error free?
+#include <iostream>
+#include <string>
+using namespace std;
+class Box{
+	int capacity;
+public:
+	Box(){}
+	Box(double capacity){
+		this->capacity = capacity;
+	}
+};
+int main(int argc, char const *argv[])
+{
+	Box b1(10);
+	Box b2 = Box(14);
+	if(b1 == b2){
+		cout<<"Equal";
+	}
+	else{
+		cout<<"Not Equal";
+	}
+	return 0;
+}
+a) +
+b) ==
+c) =
+d) ()
+b
+14. Give the function prototype of the operator function which we need to define in this program so that the program has no errors.
+#include <iostream>
+#include <string>
+using namespace std;
+class Box{
+	int capacity;
+public:
+	Box(){}
+	Box(double capacity){
+		this->capacity = capacity;
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	Box b1(10);
+	Box b2 = Box(14);
+	if(b1 == b2){
+		cout<<"Equal";
+	}
+	else{
+		cout<<"Not Equal";
+	}
+	return 0;
+}
+a) bool operator==();
+b) bool operator==(Box b){}
+c) bool operator==(Box b);
+d) Box operator==();
+c
+15. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class Box{
+	int capacity;
+public:
+	Box(){}
+	Box(double capacity){
+		this->capacity = capacity;
+	}
+	bool operator<(Box b){
+		return b.capacity < this->capacity? true : false;
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	Box b1(10);
+	Box b2 = Box(14);
+	if(b1 < b2){
+		cout<<"B1's capacity is small";
+	}
+	else{
+		cout<<"B2's capacity is small";
+	}
+	return 0;
+}
+a) B1's capacity is small
+b) B2's capacity is small
+c) Error
+d) Segmentation fault
+b
+Sanfoundry Global Education & Learning Series - C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+    « Prev - C++ Programming Questions and Answers – Operator Overloading – 1» Next - C++ Programming Questions and Answers – Complex Number Type		

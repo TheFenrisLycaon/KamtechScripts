@@ -1,0 +1,94 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in TCS and other companies. Anyone looking for TCS placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of C problems on “Constants” along with answers, explanations and/or solutions:
+1. enum types are processed by _________
+a) Compiler
+b) Preprocessor
+c) Linker
+d) Assembler
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        printf("sanfoundry\rclass\n");        return 0;    }
+a) sanfoundryclass
+b) 
+
+   sanfoundry
+   class
+c) classundry
+d) sanfoundry
+c
+Output:
+$ cc pgm8.c
+$ a.out
+classundry
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        printf("sanfoundry\r\nclass\n");        return 0;    }
+a) sanfoundryclass
+b) 
+
+   sanfoundry
+   class
+c) classundry
+d) sanfoundry
+b
+Output:
+$ cc pgm9.c
+$ a.out
+sanfoundry
+class
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        const int p;        p = 4;        printf("p is %d", p);        return 0;    }
+a) p is 4
+b) Compile time error
+c) Run time error
+d) p is followed by a garbage value
+b
+Output:
+$ cc pgm10.c
+pgm10.c: In function ‘main’:
+pgm10.c:5: error: assignment of read-only variable ‘p’
+5. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int k = 4;        int *const p = &k;        int r = 3;        p = &r;        printf("%d", p);    }
+a) Address of k
+b) Address of r
+c) Compile time error
+d) Address of k + address of r
+c
+Output:
+$ cc pgm11.c
+pgm11.c: In function ‘main’:
+pgm11.c:7: error: assignment of read-only variable ‘p’
+pgm11.c:8: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘int * const’
+6. Which of the following statement is false?
+a) Constant variables need not be defined as they are declared and can be defined later
+b) Global constant variables are initialized to zero
+c) const keyword is used to define constant values
+d) You cannot reassign a value to a constant variable
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int const k = 5;        k++;        printf("k is %d", k);    }
+a) k is 6
+b) Error due to const succeeding int
+c) Error, because a constant variable can be changed only twice
+d) Error, because a constant variable cannot be changed
+d
+Output:
+$ cc pgm12.c
+pgm12.c: In function ‘main’:
+pgm12.c:5: error: increment of read-only variable ‘k’
+8. What will be the output of the following C code?
+    #include <stdio.h>    int const print()    {        printf("Sanfoundry.com");        return 0;    }    void main()    {        print();    }
+a) Error because function name cannot be preceded by const
+b) Sanfoundry.com
+c) Sanfoundry.com is printed infinite times
+d) Blank screen, no output
+b
+Output:
+$ cc pgm13.c
+$ a.out
+Sanfoundry.com
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Constants – 1» Next - C Programming Questions and Answers – Declarations – 1 

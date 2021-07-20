@@ -1,0 +1,66 @@
+1. Which of the following command makes the updates performed by the transaction permanent in the database?
+a) ROLLBACK
+b) COMMIT
+c) TRUNCATE
+d) DELETE
+b
+2. Which TCL command undo all the updates performed by the SQL in the transaction?
+a) ROLLBACK
+b) COMMIT
+c) TRUNCATE
+d) DELETE
+b
+3. SQL query to find all the cities whose humidity is 95.
+a) SELECT city WHERE humidity = 95
+b) SELECT city FROM weather WHERE humidity = 95
+c) SELECT humidity = 89 FROM weather
+d) SELECT city FROM weather
+b
+4. SQL query to find the temperature in increasing order of all cities.
+a) SELECT city FROM weather ORDER BY temperature
+b) SELECT city, temperature FROM weather
+c) SELECT city, temperature FROM weather ORDER BY temperature
+d) SELECT city, temperature FROM weather ORDER BY city
+d
+5. What is the meaning of LIKE ‘%0%0%’?
+a) Feature begins with two 0’s
+b) Feature ends with two 0’s
+c) Feature has more than two 0’s
+d) Feature has two 0’s in it, at any position
+d
+6. Find the names of these cities with temperature and condition whose condition is neither sunny nor cloudy.
+a) SELECT city, temperature, condition FROM weather WHERE condition NOT IN (‘sunny’, ‘cloudy’)
+b) SELECT city, temperature, condition FROM weather WHERE condition NOT BETWEEN (‘sunny’, ‘cloudy’)
+c) SELECT city, temperature, condition FROM weather WHERE condition IN (‘sunny’, ‘cloudy’)
+d) SELECT city, temperature, condition FROM weather WHERE condition BETWEEN (‘sunny’, ‘cloudy’);
+a
+7. Find the name of those cities with temperature and condition whose condition is either sunny or cloudy but temperature must be greater than 70.
+a) SELECT city, temperature, condition FROM weather WHERE condition = ‘sunny’ AND condition = ‘cloudy’ OR temperature > 70
+b) SELECT city, temperature, condition FROM weather WHERE condition = ‘sunny’ OR condition = ‘cloudy’ OR temperature > 70
+c) SELECT city, temperature, condition FROM weather WHERE condition = ‘sunny’ OR condition = ‘cloudy’ AND temperature > 70
+d) SELECT city, temperature, condition FROM weather WHERE condition = ‘sunny’ AND condition = ‘cloudy’ AND temperature > 70
+c
+8. Find all the tuples having a temperature greater than ‘Paris’.
+a) SELECT * FROM weather WHERE temperature > (SELECT temperature FROM weather WHERE city = ‘Paris’
+b) SELECT * FROM weather WHERE temperature > (SELECT * FROM weather WHERE city = ‘Paris’)
+c) SELECT * FROM weather WHERE temperature > (SELECT city FROM weather WHERE city = ‘Paris’)
+d) SELECT * FROM weather WHERE temperature > ‘Paris’ temperature
+a
+9. Find all the cities with temperature, condition and humidity whose humidity is in the range of 63 to 79.
+a) SELECT * FROM weather WHERE humidity IN (63 to 79)
+b) SELECT * FROM weather WHERE humidity NOT IN (63 AND 79)
+c) SELECT * FROM weather WHERE humidity BETWEEN 63 AND 79
+d) SELECT * FROM weather WHERE humidity NOT BETWEEN 63 AND 79
+c
+10. The command to remove rows from a table ‘CUSTOMER’ is __________________
+a) DROP FROM CUSTOMER
+b) UPDATE FROM CUSTOMER
+c) REMOVE FROM CUSTOMER
+d) DELETE FROM CUSTOMER WHERE
+d
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server for freshers attending interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Basic SQL – 2» Next - SQL Server Questions and Answers – Joins 

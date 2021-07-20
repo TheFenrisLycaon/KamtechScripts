@@ -1,0 +1,66 @@
+1. Which of the following scenario prefers failover cluster instance over stand alone instance in SQL Server?
+a) High Confidentiality
+b) High Availability
+c) High Integrity
+d) None of the mentioned
+b
+2. Point out the correct statement.
+a) The detailed component diagnostics makes it possible to configure a more flexible failover policy
+b) The diagnostic information is stored to database
+c) The detailed component diagnostics disables better troubleshooting of automatic failovers retroactively
+d) All of the mentioned
+a
+3. Benefits that SQL Server failover cluster instances provide ____________
+a) Protection at the instance level through redundancy
+b) Disaster recovery solution using a multi-subnet FCI
+c) Zero reconfiguration of applications and clients during failovers
+d) All of the mentioned
+d
+4. The resources owned by WSFC node include ___________
+a) Destination address
+b) SQL Server Browser
+c) One file share resource, if the FILESTREAM feature is installed
+d) None of the mentioned
+c
+5. Point out the wrong statement.
+a) The System Configuration Checker will verify the system state of your computer before Setup continues
+b) Microsoft Lync Server 2010 supports clustering for Microsoft SQL Server 2005 only
+c) The System Configuration Checker will run one more set of rules to validate your computer configuration with the SQL Server features you have specified
+d) None of the mentioned
+b
+6. Which of the following element is installed locally on each node of the FCI?
+a) WSFC Resource Group
+b) SQL Server Binaries
+c) Network Name
+d) Storage
+b
+7. Which of the following operation requires to run SQL Server Setup on the node?
+a) Add
+b) Remove
+c) Update
+d) All of the mentioned
+d
+8. A Windows Failover Cluster can support up to _______ nodes.
+a) 12
+b) 14
+c) 16
+d) 18
+c
+9. Which of the following is a Windows Failover Cluster quorum mode?
+a) Node Majority
+b) No Majority: Read Only
+c) File Read Majority
+d) None of the mentioned
+a
+10. An exciting new feature in SQL Server 2014 is the support for the deployment of a Failover Cluster Instance (FCI) with ___________
+a) Cluster Shared Volumes (CSV)
+b) In memory database
+c) Column oriented database
+d) All of the mentioned
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Database Mirroring» Next - SQL Server Questions and Answers – Authentication 

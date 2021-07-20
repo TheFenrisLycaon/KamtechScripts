@@ -1,0 +1,76 @@
+1. Which object Java application uses to create a new process?
+a) Process
+b) Builder
+c) ProcessBuilder
+d) CreateBuilder
+c
+2. Which of the following is true about Java system properties?
+a) Java system properties are accessible by any process
+b) Java system properties are accessible by processes they are added to
+c) Java system properties are retrieved by System.getenv()
+d) Java system properties are set by System.setenv()
+b
+3. Java system properties can be set at runtime.
+a) True
+b) False
+a
+4. Which system property stores installation directory of JRE?
+a) user.home
+b) java.class.path
+c) java.home
+d) user.dir
+c
+5. What does System.getProperty(“variable”) return?
+a) compilation error
+b) value stored in variable
+c) runtime error
+d) null
+d
+6. What is true about the setProperties method?
+a) setProperties method changes the set of Java Properties which are persistent
+b) Changing the system properties within an application will affect future invocations
+c) setProperties method changes the set of Java Properties which are not persistent
+d) setProperties writes the values directly into the file which stores all the properties
+c
+7. How to use environment properties in the class?
+a) @Environment
+b) @Variable
+c) @Property
+d) @Autowired
+d
+             @Autowired
+	     private Environment env;
+This is how environment variables are injected in the class where they can be used.
+8. How to assign values to variable using property?
+a) 
+@Value("${my.property}")
+private String prop;
+b) 
+@Property("${my.property}")
+private String prop; 
+c) 
+@Environment("${my.property}")
+private String prop;
+d) 
+@Env("${my.property}")
+private String prop;
+a
+  
+9. Which environment variable is used to set java path?
+a) JAVA
+b) JAVA_HOME
+c) CLASSPATH
+d) MAVEN_HOME
+b
+10. How to read a classpath file?
+a) InputStream in = this.getClass().getResource(“SomeTextFile.txt”);
+b) InputStream in = this.getClass().getResourceClasspath(“SomeTextFile.txt”);
+c) InputStream in = this.getClass().getResourceAsStream(“SomeTextFile.txt”);
+d) InputStream in = this.getClass().getResource(“classpath:/SomeTextFile.txt”);
+c
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.lang – ThreadGroup class & Runnable Interface» Next - Java Questions & Answers – Serialization – 1 

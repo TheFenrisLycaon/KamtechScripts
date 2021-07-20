@@ -1,0 +1,66 @@
+1. There are two groups of string functions defined in the header <string.h>. What are they?
+a) first group names beginning with str; second group names beginning  with mem
+b) first group names beginning with str; second group names beginning with is
+c) first group names beginning with string; second group names beginning with mem
+d) first group names beginning with str; second group names beginning with type
+a
+2. What is the use of function char *strchr(ch, c)?
+a) return pointer to first occurrence of ch in c or NULL if not present
+b) return pointer to first occurrence of c in ch or NULL if not present
+c) return pointer to first occurrence of ch in c or ignores if not present
+d) return pointer to first occurrence of cin ch or ignores if not present
+b
+3. Which code from the given option return pointer to last occurrence of c in ch or NULL if not present?
+a) char *strchr(ch, c)
+b) char *strrchr(ch, c)
+c) char *strncat(ch, c)
+d) char *strcat(ch, c)
+b
+4. Which among the given options compares atmost n characters of string ch to string s?
+a) int strncmp(ch, s, n)
+b) int strcmp(ch, s)
+c) int strncmp(s, ch, n)
+d) int strcmp(s, ch)
+a
+5. Which among the given options is the right explanation for the statement size_t strcspn(c, s)?
+a) return length of prefix of s consisting of characters not in c
+b) return length of prefix of s consisting of characters present in c
+c) return length of prefix of c consisting of characters not in s
+d) return length of prefix of c consisting of characters present in s
+c
+6. The mem functions are meant for _______
+a) returning a pointer to the token
+b) manipulating objects as character arrays
+c) returning a pointer for implemented-defined string
+d) returning a pointer to first occurrence of string in another string
+b
+7. What is the function of void *memset(s, c, n)?
+a) places character s into first n characters of c, return c
+b) places character c into first n characters of s, return s
+c) places character s into first n characters of c, return s
+d) places character c into first n character of s, return c
+b
+8. Functions whose names begin with “strn”
+a) manipulates sequences of arbitrary characters
+b) manipulates null-terminated sequences of characters
+c) manipulates sequence of non – null characters.
+d) returns a pointer to the token
+c
+9. Which of the following is the right syntax to copy n characters from the object pointed to by s2 into the object pointed to by s1?
+a) void *memcpy(void *s1,const void *s2,size_t n);
+b) void *memcpy(void  *s2, const void *s1, size_t n);
+c) void memcpy(void  *s1,const void *s2, size_t n);
+d) void memcpy(void *s2,const void *s1,size_t n);
+a
+10. What does the following function returns void *memmove(void *s1,const void s2, size_t n);?
+a) returns the value of s1
+b) returns the value of s2
+c) doesn’t return any value
+d) returns the value of s1 and s2
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Typedef» Next - C Questions and Answers – String Operations – 2 

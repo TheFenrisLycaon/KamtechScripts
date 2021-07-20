@@ -1,0 +1,78 @@
+1. What is voltage across the resistor R if VA = -3V and VB = -5V is _________ (Use constant voltage drop model assumption and take VD = 0.5V)
+a) 0V
+b) -3V
+c) -5V
+d) -4V
+a
+2. What is current I if voltage V = 5V, VB = 2V, R1 & R2 = 2K. (Use constant voltage drop model assumption and take VD = 0.5V)
+a) 1.25mA
+b) 1mA
+c) 2.75mA
+d) 1.75mA
+c
+Since Vin and VB are opposite net voltage is 3V. Voltage at R1 is 3V so current is 1.5mA. Voltage at R2 is 3-0.5 = 2.5V. So the current is 1.25mA. The net current is 2.75mA.
+3. Current I if V = 5V and -5V when VB = 2V, R1 = 2K, R2 = 4K respectively are __________ (Use constant voltage drop model assumption and take VD = 0.5V)
+a) 1.3mA, 0.23mA
+b) 2.875mA, 0mA
+c) 2mA, 0mA
+d) 1.423mA, 0 mA
+b
+When V=5V, diode is in forward bias and net total voltage becomes 4.5V across R1.
+Current through branch 1 will be 4.5V / 2K = 2.25mA.
+Current through branch 2 will be (4.5-2)/4K = 0.625mA.
+So net current is sum of these two. Therefore, net current is 2.875mA.
+When V = -5V, the diode is reverse biased and net current flowing is zero.
+4. The output voltage V if Vin = 3V, R = 5K, VB = 2V is ___________ (Use constant voltage drop model assumption and take VD = 0.5V)
+a) 0V
+b) 2V
+c) 1.5V
+d) 3.5V
+d
+Since Vin is reverse bias to the diode all voltage will appear across diode and no current flows. Thus, voltage across diode is Vin-VB = 1V. Net voltage V=3V.
+5. In the circuit below VB = 2V, Vin = 5V. The voltage V across resistor R is ________ (Use constant voltage drop model assumption and take VD = 0.5V)
+a) 0V
+b) 2.5V
+c) 1.5V
+d) 3V
+a
+Join Sanfoundry@YouTube
+6. In the circuit Vin = 4V, VB = 3V, R = 5K. The voltage across diode V is _________
+(Use constant voltage drop model assumption and take VD = 0.5V)
+a) 0V
+b) 0.5V
+c) 1V
+d) 1.5V
+c
+7. In the circuit below Vin = 4V, R = 2K and VB = 2V. In these conditions the voltage across diode V is _________ (Use constant voltage drop model assumption and take VD = 0.5V)
+a) 2.5
+b) 4.5
+c) 0.5
+d) 1.5
+c
+8. In the circuit shown in below I = 2mA, VB = 2V and R = 2K. The voltage V will be ________ (Use constant voltage drop model assumption and take VD = 0.5V)
+a) 0V
+b) 2.5V
+c) 6V
+d) 3.5V
+b
+Since current source forward bases the diode voltage drop across diode is VD. So net voltage output is VD+VB.
+9. In the circuit shown in below I = 2mA, VB = 2V and R = 2K. The voltage V will be ________ (Use constant voltage drop model assumption and take VD = 0.5V)
+a) 4V
+b) 3V
+c) 6V
+d) 5.5V
+c
+Since current source reverse biases diode, all current pass through resistor R. So voltage across resistor is 4V. Since voltage source cannot produce current due to lack of closed circuit total voltage at the output is 6V.
+10. For circuit shown below Vin = 3V, R1 = 6K, R2 = 2K. The voltage V will be ________ (Use constant voltage drop model assumption and take VD = 0.5V)
+a) 2V
+b) 3V
+c) 3.5V
+d) 2.5V
+d
+Since diode is forward biased and parallel to resistor R1 voltage drop across diode is VD. So net voltage equals to Vin – VD.
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits for Experienced people, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Constant Voltage Drop Model-1» Next - Analog Circuits Questions and Answers – Drift and Diffusion Current 

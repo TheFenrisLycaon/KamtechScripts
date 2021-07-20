@@ -1,0 +1,67 @@
+1. Apache Cassandra is a massively scalable open source _______ database.
+a) SQL
+b) NoSQL
+c) NewSQL
+d) All of the mentioned
+b
+2. Point out the correct statement.
+a) Cassandra delivers continuous availability, linear scalability, and operational simplicity across many commodity servers
+b) Cassandra has a “masterless” architecture, meaning all nodes are the same
+c) Cassandra also provides customizable replication, storing redundant copies of data across nodes that participate in a Cassandra ring
+d) All of the mentioned
+d
+3. Cassandra uses a protocol called _______ to discover location and state information.
+a) gossip
+b) intergos
+c) goss
+d) all of the mentioned
+a
+4. A __________ determines which data centers and racks nodes belong to it.
+a) Client requests
+b) Snitch
+c) Partitioner
+d) None of the mentioned
+b
+5. Point out the wrong statement.
+a) Cassandra supplies linear scalability, meaning that capacity may be easily added simply by adding new nodes online
+b) Cassandra 2.0 included major enhancements to CQL, security, and performance
+c) CQL for Cassandra 2.0.6 adds several important features including batching of conditional updates, static columns, and increased control over slicing of clustering columns
+d) None of the Mentioned
+d
+6. User accounts may be altered and dropped using the __________ Query Language.
+a) Hive
+b) Cassandra
+c) Sqoop
+d) None of the mentioned
+b
+7. Authorization capabilities for Cassandra use the familiar _________ security paradigm to manage object permissions.
+a) COMMIT
+b) GRANT
+c) ROLLBACK
+d) None of the mentioned
+b
+8. Client-to-node encryption protects data in flight from client machines to a database cluster using ___________
+a) SSL
+b) SSH
+c) SSN
+d) All of the mentioned
+a
+9. Using ___________ file means you don’t have to override the SSL_CERTFILE environmental variables every time.
+a) qlshrc
+b) cqshrc
+c) cqlshrc
+d) none of the mentioned
+c
+10. Internal authentication stores usernames and bcrypt-hashed passwords in the ____________ table.
+a) system_auth.creds
+b) system_auth.credentials
+c) system.credentials
+d) sys_auth.credentials
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Sqoop with Hadoop – 2» Next - Hadoop Questions and Answers – Cassandra with Hadoop – 1 

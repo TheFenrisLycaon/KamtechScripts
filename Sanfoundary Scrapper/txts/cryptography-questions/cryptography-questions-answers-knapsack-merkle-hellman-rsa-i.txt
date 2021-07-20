@@ -1,0 +1,108 @@
+1. Imagine you had a set of weights {62, 93, 26, 52, 166, 48, 91, and 141}. Find subset that sums to V = 302.
+a) {62, 48, 166, 52}
+b) {141, 26, 52, 48}
+c) {93, 26, 91, 48}
+d) {62, 26, 166, 48}
+d
+2. For the Knapsack: {1 6 8 15 24}, Find the cipher text value for the plain text 10011.
+a) 40
+b) 22
+c) 31
+d) 47
+a
+3. For the Knapsack: {1 6 8 15 24}, find the plain text code if the ciphertext is 38.
+a) 10010
+b) 01101
+c) 01001
+d) 01110
+b
+4. Set {1, 2, 3, 9, 10, and 24} is superincreasing.
+a) True
+b) False
+b
+5. A superincreasing knapsack problem is ____ to solve than a jumbled knapsack.
+a) Easier
+b) Tougher
+c) Shorter
+d) Lengthier
+a
+Join [email protected]
+6. Consider knapsack that weighs 23 that has been made from the weights of the superincreasing series {1, 2, 4, 9, 20, and 38}. Find the ‘n’.
+a) 011111
+b) 010011
+c) 010111
+d) 010010
+b
+		K=6,	V=23
+Starting from largest number:
+v5 > V	then				ϵ_5=0
+v4 < V	then V = V – v4 = 23 – 20 = 3	ϵ_4=1
+v3 > V	then				 ϵ_3=0
+v2> V	then 				ϵ_2=0
+v1 < V	then V = V – v1= 3 – 2 = 1	ϵ_1=1
+v0 =1	then V = V – v0= 1 – 1 = 0	 ϵ_0=1
+ 		n= ϵ_5 ϵ_4 ϵ_3 ϵ_2 ϵ_1 ϵ_0 = 010011.
+7. Another name for Merkle-Hellman Cryptosystem is
+a) RC4
+b) Knapsack
+c) Rijndael
+d) Diffie-Hellman
+b
+8. In Merkle-Hellman Cryptosystem, the hard knapsack becomes the private key and the easy knapsack becomes the public key.
+a) True
+b) False
+b
+9. In Merkle-Hellman Cryptosystem, the public key can be used to decrypt messages, but cannot be used to decrypt messages. The private key encrypts the messages.
+a) True
+b) False
+b
+10. The plaintext message consist of single letters with 5-bit numerical equivalents from (00000)2 to (11001)2. The secret deciphering key is the superincreasing 5-tuple (2, 3, 7, 15, 31), m = 61 and a = 17. Find the ciphertext for the message “WHY”.
+a) C= (148, 143, 50)
+b) C= (148, 143, 56)
+c) C= (143, 148, 92)
+d) C= (148, 132,92)
+a
+{wi} = { 17×2 mod 61, 17×3 mod 61, 17×7 mod 61, 17×15 mod 61, 17×31 mod 61}
+{wi} = {34, 51, 58, 11, and 39}
+PlainText  	 In binary   	 Ci
+W- 22		10110		148
+H – 7		00111		143
+Y – 24		11000		50
+So that the ciphertext sent will be C= (148, 143, 50).
+11. For p = 11 and q = 17 and choose e=7. Apply RSA algorithm where PT message=88 and thus find the CT.
+a) 23
+b) 64
+c) 11
+d) 54
+c
+                            C=Me mod n ;  C=887 mod 187 ; C = 11 mod 187.
+12. For p = 11 and q = 17 and choose e=7. Apply RSA algorithm where Cipher message=11 and thus find the plain text.
+a) 88
+b) 122
+c) 143
+d) 111
+a
+                            C=Me mod n ;  C=1123 mod 187 ; C = 88 mod 187.
+13. In an RSA system the public key of a given user is e = 31, n = 3599. What  is the private key of this user?
+a) 3031
+b) 2412
+c) 2432
+d) 1023
+a
+Then, using the extended Euclidean algorithm, we find that the multiplicative
+inverse of 31 modulo f(n) is 3031.
+14. Compute private key (d, p, q) given public key (e=23, n=233 ´ 241=56,153).
+a) 35212
+b) 12543
+c) 19367
+d) 32432
+c
+f(n) = (p – 1)(q – 1) = 55,680
+Using Extended Euclidean algorithm, we obtain
+d = 23–1 mod 55680 = 19,367.
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Asymmetric Ciphers Questions and Answers – Rabin/ Elgamal Algorithm» Next - Asymmetric Ciphers Questions and Answers – Knapsack/ Merkle – Hellman/ RSA Cryptosystem – II 

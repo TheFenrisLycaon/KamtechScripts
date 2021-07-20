@@ -1,0 +1,93 @@
+1. In the Finite Element Method, which expression is correct for a linear triangular element if S is the shape function, Ae is its area, and K is a constant?
+a) \(\frac{\partial S}{\partial x}=\frac{K}{A_e}\) 
+b) \(\frac{\partial S}{\partial y}=\frac{K}{A_e^2}\) 
+c) \(\frac{\partial S}{\partial x}\)=KAe
+d) \(\frac{\partial S}{\partial y}\)=KAe2
+a
+2. In Finite Element Analysis, what is the correct load vector for a linear triangular element with area Ae, thickness he and uniform body force vector f?
+a) \(\frac{A_e h_e}{4}\)f 
+b) \(\frac{A_e h_e}{3}\)f 
+c) \(\frac{h_e}{3A_e}\)f 
+d) \(\frac{h_e}{4A_e}\)f 
+b
+=\(\frac{A_e h_e}{4}\begin{bmatrix}f_{x0}^e\\f_{y0}^e\\f_{x0}^e\\f_{y0}^e\\f_{x0}^e\\f_{y0}^e\end{bmatrix}\). The internal load vector Q is computed only when the element falls on the boundary of the domain on which tractions are specified.
+3. In Finite Element Analysis, what is the correct load vector for the linear quadrilateral element with area Ae, thickness he and uniform body force vector f?
+a) \(\frac{A_e h_e}{4} \)f 
+b) \(\frac{A_e h_e}{3}\)f 
+c) \(\frac{h_e}{3A_e}\)f 
+d) \(\frac{h_e}{4A_e}\)f 
+a
+=\(\frac{A_e h_e}{4}\begin{bmatrix}f_{x0}^e\\f_{y0}^e\\f_{x0}^e\\f_{y0}^e\\f_{x0}^e\\f_{y0}^e\\f_{x0}^e\\f_{y0}^e\end{bmatrix}\). The internal load vector Q is computed only when the element falls on the boundary of the domain on which tractions are specified.
+4. In the Finite Element Method, the vector of internal forces is computed only when the element falls on the boundary of the domain on which tractions are absent.
+a) True
+b) False
+b
+5. Which option is not correct concerning the internal load vector in the finite element model of plane elasticity problems?
+a) It is computed at all the nodes interior of the element
+b) It is computed only when the element falls on the boundary of the domain on which tractions are known
+c) Its computation doesn’t involve evaluation of line integrals for any type of element
+d) It is evaluated in global coordinates but not in element coordinates
+b
+Join Sanfoundry@YouTube
+6. In transformations, what is the transformation matrix R in the relation F=RQ if the load vector in global coordinates is F and the load vector in element coordinates is Q?
+a) \(\begin{bmatrix}
+cos \alpha & sin \alpha & 0 & 0 & \\-sin \alpha & cos \alpha & 0 & 0 & \\0 & 0 & cos \alpha & sin \alpha & \\0 & 0 & -sin \alpha & cos \alpha & \\& & & & \ddots\end{bmatrix}\) 
+b) \(\begin{bmatrix}cos \alpha & -sin \alpha & 0 & 0 & \\
+sin \alpha & cos \alpha & 0 & 0 & \\0 & 0 & cos \alpha & -sin \alpha & \\0 & 0 & sin \alpha & cos \alpha & \\& & & & \ddots\end{bmatrix}\) 
+c) \(\begin{bmatrix}cos \alpha & sin \alpha & 0 & 0 & \\-sin \alpha & cos \alpha & 0 & 0 & \\0 & 0 & cos \alpha & -sin \alpha & \\0 & 0 & sin \alpha & cos \alpha & \\& & & & \ddots\end{bmatrix}\) 
+d)  \(\begin{bmatrix}cos \alpha & -sin \alpha & 0 & 0 & \\
+sin \alpha & cos \alpha & 0 & 0 & \\0 & 0 & cos \alpha & sin \alpha & \\0 & 0 & -sin \alpha & cos \alpha & \\& & & & \ddots\end{bmatrix}\) 
+a
+F=RTQ, where R is the transformation matrix R=\(\begin{bmatrix}cos \alpha & sin \alpha & 0 & 0 & \\-sin \alpha & cos \alpha & 0 & 0 & \\0 & 0 & cos \alpha & -sin \alpha & \\0 & 0 & sin \alpha & cos \alpha & \\& & & & \ddots\end{bmatrix}\) and α is the angle between the global x-axis and the traction vector T.
+7. What is the global load vector in Finite Element Analysis of the following structure if the local load vector is \(\begin{bmatrix}0\\0\\2\\0\\1\\0\end{bmatrix}\) and θ=0?
+a) \(\begin{bmatrix}0\\0\\0\\2\\0\\1\end{bmatrix}\) 
+b) \(\begin{bmatrix}0\\0\\2\\0\\0\\1\end{bmatrix}\) 
+c) \(\begin{bmatrix}0\\0\\2\\0\\1\\0\end{bmatrix}\) 
+d) \(\begin{bmatrix}0\\0\\0\\2\\1\\0\end{bmatrix}\) 
+a
+-sin \alpha & cos \alpha & 0 & 0 & \\0 & 0 & cos \alpha & sin \alpha & \\0 & 0 & -sin \alpha & cos \alpha & \\& & & & \ddots\end{bmatrix}\) and α is the angle between the global x-axis and the traction vector T.
+Here α=90-θ, given θ=0
+α=90-0
+=90.
+Cos90=0 and sin90=1.
+R=\(\begin{bmatrix}0&1&0&0&0&0\\-1&0&0&0&0&0\\0&0&0&1&0&0\\0&0&-1&0&0&0\\0&0&0&0&0&1\\-1&0&0&0-1&0\end{bmatrix}\) 
+ F=\(\begin{bmatrix}0&1&0&0&0&0\\ -1&0&0&0&0&0\\0&0&0&1&0&0\\0&0&-1&0&0&0\\0&0&0&0&0&1\\-1&0&0&0-1&0\end{bmatrix}^T\)x\(\begin{bmatrix}0\\0\\2\\0\\1\\0\end{bmatrix}\) 
+=\(\begin{bmatrix}0\\0\\0\\2\\0\\1\end{bmatrix}\).
+8. What is the expression for the traction term tn in the element load vector   Qe=&oint;┌cheψTtds of the following figure where L23 is the length of the line 2-3?
+a) tn=-T(-1+\(\frac{s}{L_{23}})\) 
+b) tn=T(-1+\(\frac{s}{L_{23}})\) 
+c) tn=-T(1+\(\frac{s}{L_{23}})\) 
+d) tn=T(1+\(\frac{s}{L_{23}})\) 
+b
+9. In Finite Element Analysis, what are the values of nodal forces in the following element if the line 2-4 is 160 in long?
+a) 1600 along both the DOF 3 and 7
+b) 800 and 0 along the DOF 3 and 4 respectively
+c) 0 and 800 along the DOF 7 and 8 respectively
+d) 0 and 800 along the DOF 3 and 4 respectively
+b
+Given p*h=10 and b=160 thus \(\frac{pbh}{2}\) 
+=\(\frac{10×160}{2}\) 
+=800.
+Thus, the forces along the DOF 3 and 4 are 800 and 0, respectively.
+10. In vibration and transient analysis of beams, if the linear acceleration scheme predicts the solution,then it is unstable for the first several time steps, but it eventually becomes stable.
+a) True
+b) False
+b
+11. In Finite Element Analysis, which option is correct for computation of load due to specified boundary stress?
+a) Can be computed using a local coordinate system and one-dimensional interpolation functions
+b) Can be computed using a local coordinate system but not one-dimensional interpolation functions
+c) Cannot be computed using a local coordinate system but one-dimensional interpolation functions can be used
+d) Neither a local coordinate system nor one-dimensional interpolation functions can be used
+a
+12. In the Finite Element Method, which element is known for the slowest convergence?
+a) Linear triangular element
+b) Quadratic triangular element
+c) Linear rectangular elements
+d) Quadratic rectangular elements
+a
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Plane Elasticity – Finite Element Model» Next - Finite Element Method Questions and Answers – Plane Elasticity – Assembly, Boundary and Initial Conditions 

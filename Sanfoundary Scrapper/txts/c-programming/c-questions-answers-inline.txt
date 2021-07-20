@@ -1,0 +1,161 @@
+1. Name the function whose definition can be substituted at a place where its function call is made _________
+a) friends function
+b) inline function
+c) volatile function
+d) external function
+b
+2. What will be the output of the following C code?
+#include <stdio.h>
+void inline func1(int a, int b) 
+{
+    printf ("a=%d and b=%d\n", a, b);
+}
+int inline func2(int x)
+{
+    return x*x;
+}
+int main()
+{
+    int tmp;
+    func1(1,4);
+    tmp = func2(6);
+    printf("square val=%d\n", tmp);
+    return 0;
+}
+a) 
+a=1 and b=4
+square val = 36
+b) a=4 and b=1
+c) error
+d) square val = 36
+a
+a=1 and b=4
+square val = 36
+.
+3. What will be the error (if any) in the following C code?
+Join Sanfoundry@YouTube
+#include <stdio.h>
+void inline func1(float b) 
+{
+    printf ("%lf\n",b*2);
+}
+int main() 
+{
+     inline func1(2.2);
+     return 0;
+}
+a) No error
+b) Error in statement: void inline func1(float b)
+c) Error in statement: printf(“%lf\n”,b*2);
+d) Error in statement: inline func1(2.2);
+d
+4. What will be the output of the following C code?
+#include <stdio.h>
+void inline f1(char b) 
+{
+    printf ("%d\n",b);
+}
+int main() 
+{
+    f1('a');
+    return 0;
+}
+a) a
+b) 65
+c) error
+d) 97
+d
+5. What will be the output of the following C code?
+#include <stdio.h>
+void inline func1(char b[10]) 
+{
+    printf ("%c\n",b[2]);
+}
+int main() 
+{
+     func1("sanfoundry");
+     return 0;
+}
+a) s
+b) n
+c) a
+d) error
+b
+6. The following C code results in an error. State whether this statement is true or false.
+#include <stdio.h>
+void f(double b) 
+{
+    printf ("%ld\n",b);
+}
+int main() 
+{
+     inline f(100.56);
+     return 0;
+}
+a) True
+b) False
+a
+7. What will be the output of the following C code?
+#include<stdio.h>
+static inline int max(int a, int b) 
+{
+  return a > b ? a : b;
+}
+main()
+{
+    int m;
+    m=max(-6,-5);
+    printf("%d",m);
+}
+a) -6
+b) -5
+c) Junk value
+d) Error
+b
+8. What will be the output of the following C code?
+#include<stdio.h>
+#define inline
+inline f(char a)
+    {
+        #ifdef inline
+        printf("%c",a);
+        #endif 
+    }
+main()
+{
+    f('a');
+}
+a) Error
+b) a
+c) No error but nothing will be printed as output
+d) 97
+b
+9. What will be the output of the following C code?
+#include<stdio.h>
+extern inline int min(int a, int b) 
+{
+  return a < b ? a : b;
+}
+main()
+{
+    int m;
+    m=min(3,-5);
+    printf("%d",m);
+}
+a) Error
+b) 3
+c) -5
+d) Junk value
+a
+10. To have GCC inline the given function regardless of the level of optimization, we must declare the function with the attribute _________________
+a) optimize_inline
+b) packed_inline
+c) always_inline
+d) level_inline
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Token Concatenation» Next - C Questions and Answers – Endianness 

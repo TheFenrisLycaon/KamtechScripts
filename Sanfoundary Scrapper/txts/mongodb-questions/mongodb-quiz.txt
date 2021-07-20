@@ -1,0 +1,61 @@
+1. With the _______ storage engine, MongoDB uses memory-mapped files to store data.
+a) MMAPv2
+b) MMAPv1
+c) WiredTiger
+d) All of the mentioned
+b
+2. Point out the correct statement.
+a) Spikes in the number of available connections can also be the result of application or driver errors
+b) For read-heavy applications, increase the size of your replica set and distribute read operations to secondary members
+c) For read-heavy applications, deploy sharding and add one or more shards to a sharded cluster to distribute load among mongod instances
+d) All of the mentioned
+b
+3. The memory usage statuses metrics of the _________ output can provide insight into MongoDB’s memory use.
+a) globalstats
+b) serverStatus
+c) locks.deadlockCount
+d) all of the mentioned
+b
+4. Point out the wrong statement.
+a) A single page fault completes slowly and is problematic
+b) Increasing the amount of RAM accessible to MongoDB may help reduce the frequency of page faults
+c) Page faults also can occur while accessing large data sets or scanning an entire collection
+d) None of the mentioned
+a
+5. You can inspect __________ to check the amount of mapped memory that mongod is using.
+a) mem.mapped
+b) memory.resident
+c) mem.resident
+d) all of the mentioned
+a
+6. MongoDB reports its triggered page faults as the total number of page faults in ________ second.
+a) 1
+b) 100
+c) 1000
+d) None of the mentioned
+a
+7. Which of the operator is used to access the query field of documents within system.profile?
+a) $select
+b) $retrieve
+c) $query
+d) None of the mentioned
+c
+8. ____________ returns information on the query plan for aggregate function.
+a) Reporter
+b) db.collection.explain()
+c) db.collection.explainplan()
+d) None of the mentioned
+b
+9. By default, db.collection.explain() runs in ___________ verbosity mode.
+a) VerbosityMode
+b) queryPlanner
+c) executeStats
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB for quizzes, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Optimization Strategies – 1» Next - MongoDB Questions and Answers – Optimization Strategies – 3 

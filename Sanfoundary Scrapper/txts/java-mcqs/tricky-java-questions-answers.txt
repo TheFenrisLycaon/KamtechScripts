@@ -1,0 +1,70 @@
+1. What is the type of variable ‘b’ and ‘d’ in the following Java snippet?
+int a[], b;
+int []c, d;
+a) ‘b’ and ‘d’ are int
+b) ‘b’ and ‘d’ are arrays of type int
+c) ‘b’ is int variable; ‘d’ is int array
+d) ‘d’ is int variable; ‘b’ is int array
+c
+2. Which of these is an incorrect array declaration?
+a) int arr[] = new int[5] ;
+b) int [] arr = new int[5] ;
+c) 
+int arr[];
+arr = new int[5];
+d) int arr[] = int [5] new;
+d
+3. What will be the output of the following Java code?
+int arr[] = new int [5];System.out.print(arr);
+a) 0
+b) value stored in arr[0].
+c) 00000
+d) Garbage value
+d
+4. What will be the output of the following Java code snippet?
+Object[] names = new String[3];names[0] = new Integer(0);
+a) ArrayIndexOutOfBoundsException
+b) ArrayStoreException
+c) Compilation Error
+d) Code runs successfully
+b
+5. Generics does not work with?
+a) Set
+b) List
+c) Tree
+d) Array
+d
+6. How to sort an array?
+a) Array.sort()
+b) Arrays.sort()
+c) Collection.sort()
+d) System.sort()
+b
+7. How to copy contents of array?
+a) System.arrayCopy()
+b) Array.copy()
+c) Arrays.copy()
+d) Collection.copy()
+a
+8. Can you make an array volatile?
+a) True
+b) False
+a
+9. Where is an array stored in memory?
+a) heap space
+b) stack space
+c) heap space and stack space
+d) first generation memory
+a
+10. An array elements are always stored in ________ memory locations.
+a) Sequential
+b) Random
+c) Sequential and Random
+d) Binary search
+a
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+To practice tricky questions and answers on all areas of Java, here is complete set on 1000+ Multiple Choice Questions and Answers on Java.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Arrays» Next - Java Questions & Answers – Arithmetic Operators 

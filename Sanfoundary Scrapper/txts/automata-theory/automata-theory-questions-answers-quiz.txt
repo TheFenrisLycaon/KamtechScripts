@@ -1,0 +1,94 @@
+1. Which of the following is correct?
+Statement 1: ε represents a single string in the set.
+Statement 2: Ф represents the language that consist of no string.
+a) Statement 1 and 2 both are correct
+b) Statement 1 is false but 2 is correct
+c) Statement 1 and 2 both are false
+d) There is no difference between both the statements, ε and Ф are different notation for same reason
+a
+2. The appropriate precedence order of operations over a Regular Language is
+a) Kleene, Union, Concatenate
+b) Kleene, Star, Union
+c) Kleene, Dot, Union
+d) Star, Union, Dot
+c
+3. Regular Expression R and the language it describes can be represented as:
+a) R, R(L)
+b) L(R), R(L)
+c) R, L(R)
+d) All of the mentioned
+c
+4. Let for ∑= {0,1} R= (∑∑∑) *, the language of R would be
+a) {w | w is a string of odd length}
+b) {w | w is a string of length multiple of 3}
+c) {w | w is a string of length 3}
+d) All of the mentioned
+b
+5. If ∑= {0,1}, then Ф* will result to:
+a) ε
+b) Ф
+c) ∑
+d) None of the mentioned
+a
+Join Sanfoundry@YouTube
+6. The given NFA represents which of the following NFA
+a) (ab U a) *
+b) (a*b* U a*)
+c) (ab U a*)
+d) (ab)* U a*
+a
+7. Which of the following represents a language which has no pair of consecutive 1’s if ∑= {0,1}?
+a) (0+10)*(1+ε)
+b) (0+10)*(1+ε)*
+c) (0+101)*(0+ε)
+d) (1+010)*(1+ε)
+a
+8. The finite automata accept the following languages:
+a) Context Free Languages
+b) Context Sensitive Languages
+c) Regular Languages
+d) All the mentioned
+c
+9. (a + b*c) most correctly represents:
+a) (a +b) *c
+b) (a)+((b)*.c)
+c) (a + (b*)).c
+d) a+ ((b*).c)
+d
+10.  Which of the following regular expressions represents the set of strings which do not contain a substring ‘rt’ if ∑= {r, t}
+a) (rt)*
+b) (tr)*
+c) (r*t*)
+d) (t*r*)
+d
+11. According to the precedence rules, x-y-z is equivalent to which of the following?
+a) (x-y)-z
+b) x-(y-z)
+c) Both (x-y)-z and x-(y-z)
+d) None of the mentioned
+a
+12. Dot operator in regular expression resembles which of the following?
+a) Expressions are juxtaposed
+b) Expressions are multiplied
+c) Cross operation
+d) None of the mentioned
+a
+13. Which among the following is not an associative operation?
+a) Union
+b) Concatenation
+c) Dot
+d) None of the mentioned
+d
+14.Which among the following is equivalent to the given regular expression?
+01*+1
+a) (01)*+1
+b) 0((1)*+1)
+c) (0(1)*)+1
+d) ((0*1)1*)*
+c
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory for Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Operators of Regular Expression» Next - Automata Theory Questions and Answers –  DFA to Regular Expressions 

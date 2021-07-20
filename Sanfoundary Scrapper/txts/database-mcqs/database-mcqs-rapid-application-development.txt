@@ -1,0 +1,69 @@
+1. Which schema object instructs Oracle to connect to a remotely access an object of a database?
+a) Sequence
+b) Remote link
+c) Database link
+d) Data link
+d
+2. DML changes are
+a) Insert
+b) Update
+c) Create
+d) Both Insert and Update
+d
+3. Which of the following object types below cannot be replicated?
+a) Data
+b) Trigger
+c) View
+d) Sequence
+d
+4. How to force a log switch?
+a) By using ALTER SYSTEM LOG
+b) By using ALTER SYSTEM SWITCH LOGFILE
+c) By using ALTER SYSTEM SWITCH LOGS
+d) By using ALTER SYS LOGFILES
+b
+5. In the following query, which expression is evaluated first?
+SELECT id_number, (quantity - 100 / 0.15 - 35 * 20) FROM inventory
+a) 100 / 0.15
+b) quantity – 100
+c) 35*20
+d) 0.15-35
+a
+6. The ORDER BY clause can only be used in
+a) SELECT queries
+b) INSERT queries
+c) GROUP BY queries
+d) HAVING queries
+a
+FROM table_name
+ORDER BY column_name,column_name ASC|DESC;.
+7. Which of the following rule below are categories of an index?
+a) Column and Functional
+b) Multiple Column and functional
+c) Column, Multiple Column and functional
+d) None of the mentioned
+a
+8. What is the purpose of SMON background process?
+a) Performs crash recovery when a failed instance starts up again
+b) Performs recovery when a user process fails
+c) Writes redo log entries to disk
+d) None of the mentioned
+a
+9. Which of the following queries are legal?
+a) SELECT deptno, count(deptno) FROM emp GROUP BY ename;
+b) SELECT deptno, count(deptno), job FROM emp GROUP BY deptno;
+c) SELECT deptno, avg(sal) FROM emp;
+d) SELECT deptno, avg(sal) FROM emp GROUP BY deptno;
+d
+10. Which of the following queries displays the sum of all employee salaries for those employees not making commission, for each job, including only those sums greater than 2500?
+a) select job, sum(sal) from emp where sum(sal) > 2500 and comm is null;
+b) select job, sum(sal) from emp where comm is null group by job having sum(sal) > 2500;
+c) select job, sum(sal) from emp where sum(sal) > 2500 and comm is null group by job;
+d) select job, sum(sal) from emp group by job having sum(sal) > 2500 and comm is not null;
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Application Architectures» Next - Database Questions and Answers – Application Performance 

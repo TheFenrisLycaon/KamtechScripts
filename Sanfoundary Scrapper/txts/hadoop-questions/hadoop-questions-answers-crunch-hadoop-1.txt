@@ -1,0 +1,67 @@
+1. The Apache Crunch Java library provides a framework for writing, testing, and running ___________ pipelines.
+a) MapReduce
+b) Pig
+c) Hive
+d) None of the mentioned
+a
+2. Point out the correct statement.
+a) Scrunch’s Java API is centered around three interfaces that represent distributed datasets
+b) All of the other data transformation operations supported by the Crunch APIs are implemented in terms of three primitives
+c) A number of common Aggregator<V> implementations are provided in the Aggregators class
+d) All of the mentioned
+c
+3. For Scala users, there is the __________ API, which is built on top of the Java APIs.
+a) Prunch
+b) Scrunch
+c) Hivench
+d) All of the mentioned
+b
+4. The Crunch APIs are modeled after _________  which is the library that Google uses for building data pipelines on top of their own implementation of MapReduce.
+a) FlagJava
+b) FlumeJava
+c) FlakeJava
+d) All of the mentioned
+b
+5. Point out the wrong statement.
+a) Crunch pipeline written by the development team sessionizes a set of user logs generates are then processed by a diverse collection of Pig scripts and Hive queries
+b) Crunch pipelines provide a thin veneer on top of MapReduce
+c) Developers have access to low-level MapReduce APIs
+d) None of the mentioned
+d
+6. Crunch was designed for developers who understand __________ and want to use MapReduce effectively.
+a) Java
+b) Python
+c) Scala
+d) Javascript
+a
+7. Hive, Pig, and Cascading all use a _________ data model.
+a) value centric
+b) columnar
+c) tuple-centric
+d) none of the mentioned
+c
+8. A __________ represents a distributed, immutable collection of elements of type T.
+a) PCollect<T>
+b) PCollection<T>
+c) PCol<T>
+d) All of the mentioned
+b
+9. ___________ executes the pipeline as a series of MapReduce jobs.
+a) SparkPipeline
+b) MRPipeline
+c) MemPipeline
+d) None of the mentioned
+b
+10. __________ represent the logical computations of your Crunch pipelines.
+a) DoFns
+b) DoFn
+c) ThreeFns
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Drill with Hadoop» Next - Hadoop Questions and Answers – Crunch with Hadoop – 2 

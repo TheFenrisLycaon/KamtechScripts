@@ -1,0 +1,100 @@
+1. Which of these is a reason, why the Cusum charts are better than the Shewhart control charts?
+a) Because they are having information about only one sample
+b) Because the quantity plotted on the Shewhart control charts is variable
+c) Because the quantity plotted on the Cusum chart contains information about more than one sample
+d) Because the quantity plotted on the Cusum control charts is containing information about a single sample
+c
+2. Which charts are particularly more effective for sample size one?
+a) p-charts
+b) c-charts
+c) X bar and s charts
+d) Cusum charts
+d
+3. Which charts are more effective for the chemical and process industries?
+a) p-charts
+b) c-charts
+c) X bar and s charts
+d) Cusum charts
+d
+4. The processes where discrete part manufacturing is done, which charts are better?
+a) p-charts
+b) c-charts
+c) Cusum charts
+d) X bar and R charts
+c
+5. Which of these control charts will have a better performance in the discrete part manufacturing assembly, where automatic measurement of each part is done?
+a) X bar charts
+b) Cusum charts
+c) u-charts
+d) c-charts
+b
+6. Cumulative control charts were first presented by ____________
+a) Shewhart
+b) ASQC
+c) ASQ
+d) Page
+d
+7. If the mean changes to a higher value, what will be the effect on the cumulative sum?
+a) Decrease
+b) Increase
+c) Can decrease or increase
+d) Can’t be predicted.
+b
+\(C_i=\sum_{j=1}^i (\bar{x}_i-μ)\) 
+That it will introduce a positive drift in the cumulative sum too.
+8. If the value of the cumulative sum shifts to a lower value what is likely to be the reason for it?
+a) The decrease in the value of the mean
+b) The increase in the value of the mean
+c) No change in the value of mean
+d) Decrement in the value of the standard deviation
+a
+9. How are the changes in the conditions of the process, known using the Cusum charts?
+a) By the change in Cusum value
+b) By the change in the sample standard deviation
+c) By plotting a s chart first
+d) By plotting an R chart first
+a
+10. A significant trend upwards in the process cumulative sum chart indicates ____________
+a) Shifting of mean in the positive direction
+b) Shifting of mean in the negative direction
+c) No shift in the process condition
+d) No shift in the mean
+a
+11. Which of these conditions don’t describe an assignable cause in the process?
+a) A positive shift in the Cusum value
+b) A negative shift in the Cusum value
+c) Random change in Cusum value
+d) Continuous upward drift of Cusum value after a continuous downward drift in the Cusum value
+c
+12. Which of these is another form of the cumulative sum value plotted on the cumulative sum chart?
+a) \(C_i=(x_i-μ)+\sum_{j=1}^{i-1} (x_j+μ)\) 
+b) \(C_i=(x_i-μ)+C_{i-1}\) 
+c) \(C_i=(x_i-μ)+\sum_{j=1}^{i-1} (x_j+2μ)\) 
+d) \(C_i=(x_i-μ)-C_{i-1}\) 
+b
+\(C_i=\sum_{j=1}^i (\bar{x}_j-μ_0) \) 
+This can be written as,
+\(C_i=(x_i-μ)+\sum_{j=1}^{i-1}(x_j-μ)=(x_i-μ)+C_{i-1}\)
+13. If the value of xi=9.29, and Ci-1=-2.56, what will be the value of the cumulative sum for this sample, if the value of μ0=10?
+a) -3.27
+b) -5.13
+c) 3.27
+d) 5.13
+a
+Ci=(xi-μ)+Ci-1
+Putting the values from the question, we get,
+Ci=-3.27 
+14. Upward or downward shifts in the Cusum value, directly indicate changes in process condition.
+a) True
+b) False
+a
+15. A change of process mean changes the value of Ci>Ci-1,  so we can say that the process mean has shifted upwards.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Time-Weighted – Cumulative Sum Control Chart – 1» Next - Statistical Quality Control Questions and Answers – Time-Weighted – Cumulative Sum Control Chart – 3 

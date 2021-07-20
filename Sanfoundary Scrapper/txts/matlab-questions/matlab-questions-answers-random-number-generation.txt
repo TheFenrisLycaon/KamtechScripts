@@ -1,0 +1,105 @@
+1. What is the output of the following code?
+T=rand + i*rand
+a) A complex number whose real and imaginary parts are whole numbers
+b) A complex number whose real and imaginary parts are fractions
+c) A complex number whose real and imaginary parts are in the interval (0,1)
+d) A complex number whose real and imaginary parts in the interval [0,1] 
+c
+2. What is the output of the following command?
+randi(10 5,3)
+a) Error
+b) A 5*3 matrix of random numbers
+c) A 5*3 matrix of random numbers in the interval [1,10] 
+d) A 583 matrix of random numbers evenly spaced in the interval [1,10] 
+a
+3. What is the output of the following code?
+rng(‘shuffle’)
+a) Control the random number generator
+b) Control the filter design process
+c) Control the IIR design process
+d) Control the FIR design process
+a
+4. The randn command generates random numbers by following a _________
+a) Normal distribution
+b) Normalized Normal Distribution
+c) Uniform Distribution
+d) Bernoulli’s Distribution
+b
+5. The output of the following code
+randn[(3,4)]
+a) Error
+b) A random set of numbers from the normalized normal distribution
+c) A random set of numbers from the range 3,4
+d) A random set of numbers from the normal distribution ranging from 3 to 4
+a
+6. What is the class of the variable r after the following code is run?
+r=rand(1,4,’double’)
+a) Array
+b) Single
+c) Double
+d) Integer
+a
+7. The linspace command generates pseudorandom numbers.
+a) True
+b) False
+b
+8. What is the error in the following command?
+randn[Inf]
+a) Error due to Inf
+b) Syntactical error
+c) Misspelled command
+d) No error
+b
+9. The range of numbers returned by the following code is:
+randperm(1,9)
+a) [1,9] 
+b) (1,9)
+c) [1,9)
+d) (1,9] 
+a
+10. What is the output of the following code?
+randi(10,1,9)
+a) 9 unique values with replacement in the interval [1,10)
+b) 9 values with replacement in the interval (1,10] 
+c) 9 unique values with replacement in the interval (1,10)
+d) 9 values with replacement in the interval [1,10] 
+d
+11. What is the output of the following code?
+rand(2,’signed’)
+a) A 2*2 matrix of signed data type
+b) A 2 element vector of signed data type
+c) A 2 element vector
+d) Error
+d
+12. What is the default return type of the rand command?
+a) Single
+b) Double
+c) Signed
+d) Unsigned
+b
+13. The rand command is provided by the __________
+a) Parallel Computing Toolbox
+b) Signal Processing Toolbox
+c) Symbolic Math Toolbox
+d) Does not exist
+a
+14. What is the output of the following code?
+makedist(‘normal’)
+a) Error
+b) A normal distribution
+c) A list of numbers selected randomly from the normal distribution
+d) A normalized normal distribution
+d
+15. What is the output of the following code?
+c=makedist(‘normal’);random(c)
+a) An array of random numbers selected from the normalized normal distribution
+b) Error due to makedist
+c) A random number from the normalized normal distribution
+d) Error due to random
+c
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Fourier Analysis and Filtering – 2» Next - MATLAB Questions and Answers – Sparse Matrices – 1 

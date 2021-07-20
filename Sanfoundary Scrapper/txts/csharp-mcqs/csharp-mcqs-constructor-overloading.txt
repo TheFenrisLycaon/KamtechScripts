@@ -1,0 +1,95 @@
+1. What will be the output of the following C# code?
+ class maths {     public int length;     public int breadth;     public maths(int x, int y)     {         length = x;         breadth = y;         Console.WriteLine(x + y);     }     public maths(double x, int y)     {         length = (int)x;         breadth = y;         Console.WriteLine(x * y);     } }class Program{    static void Main(string[] args)    {        maths m = new maths(20, 40);        maths k = new maths(12.0, 12);        Console.ReadLine();    }}
+a) 60, 24
+b) 60, 0
+c) 60, 144
+d) 60, 144.0
+c
+Output :
+        60
+        144
+2. What will be the output of the following C# code?
+ class maths {     public int length;     public int breadth;     public  maths(int x)     {         length = x + 1;     }     public maths(int x, int y)     {         length = x + 2;     } } class Program {     static void Main(string[] args)     {         maths m = new maths(6);         maths k = new maths(6, 2);         Console.WriteLine(m.length);         Console.WriteLine(k.length);         Console.ReadLine();     } }
+a) 8, 8
+b) 0, 2
+c) 8, 10
+d) 7, 8
+d
+3. What will be the output of the following C# code?
+ class maths {     public maths()     {         Console.WriteLine("constructor 1 :");     }     public maths(int x)     {         int p = 2;         int u;         u = p + x;         Console.WriteLine("constructor 2: " +u);     } } class Program {     static void Main(string[] args)     {         maths k = new maths(4);         maths t = new maths();         Console.ReadLine();     } }
+a) 
+constructor 1:
+constructor 2: 6
+b) 
+constructor 2: 6
+constructor 2: 6
+c) 
+constructor 2: 6
+constructor 1:
+d) none of the mentioned
+c
+Output:
+        constructor 2: 6
+        constructor 1:
+4. What will be the output of the following C# code?
+class maths{    int i;    public maths(int x)    {        i = x;        Console.WriteLine(" hello: ");    }}class maths1 : maths{    public  maths1(int x) :base(x)    {        Console.WriteLine("bye");    }}class Program{    static void Main(string[] args)    {        maths1 k = new maths1(12);        Console.ReadLine();    }}
+a) hello bye
+b) 12 hello
+c) bye 12
+d) Compile time error
+a
+5. What will be the output of the following C# code?
+ class maths {     int i;     public maths(int ii)     {         ii = 12;         int j = 12;         int r = ii * j;         Console.WriteLine(r);     } } class maths1 : maths {     public maths1(int u) :base(u)     {         u = 13;         int h = 13;         Console.WriteLine(u + h);     } } class maths2 : maths1 {     public maths2(int k) :base(k)     {         k = 24;         int o = 6 ;         Console.WriteLine(k /o);     } } class Program {     static void Main(string[] args)     {         maths2 t = new maths2(10);         Console.ReadLine();     } }
+a) 4, 26, 144
+b) 26, 4, 144
+c) 144, 26, 4
+d) 0, 0, 0
+c
+6. Which keyword is used to refer baseclass constructor to subclass constructor?
+a) This
+b) Static
+c) Base
+d) Extend
+c
+7. When we call a constructor method among different given constructors. We match the suitable constructor by matching the name of constructor first, then the number and then the type of parameters to decide which constructor is to be overloaded. The process is also known as?
+a) Method overriding
+b) Inheritance
+c) Polymorphism
+d) Encapsulation
+c
+8. Correct statement about constructor overloading in C# is?
+a) Overloaded constructors have the same name as the class
+b) Overloaded constructors cannot use optional arguments
+c) Overloaded constructors can have different  type of number of arguments as well as differ in number of arguments
+d) All of the mentioned
+c
+9. What will be the output of the following C# code?
+  class maths  {      static maths()      {          int s = 8;          Console.WriteLine(s);      }      public  maths(int f)      {          int h = 10;          Console.WriteLine(h);      }  }  class Program  {      static void Main(string[] args)      {          maths p = new maths(0);          Console.ReadLine();      }  }
+a) 10, 10
+b) 0, 10
+c) 8, 10
+d) 8, 8
+c
+Output:
+ 8, 10
+10. What will be the output of the following C# code?
+class maths{    int i;    public  maths(int ii)    {        ii = -25;        int g;        g = ii > 0 ? ii : ii * -1;        Console.WriteLine(g);    }}class maths1 :maths{    public  maths1(int ll) :base(ll)    {        ll = -1000;        Console.WriteLine((ll > 0 ? ll : ll * -1));    }}class Program{    static void Main(string[] args)    {        maths1 p = new maths1(6);        Console.ReadLine();    }}
+a) 
+-25
+-1000
+b) 
+-1000
+-25
+c) 
+25
+1000
+d) None of the mentioned
+c
+Output :
+ 25, 1000
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Method Overriding» Next - C# Questions & Answers – Abstract Class & Methods 

@@ -1,0 +1,58 @@
+This section on tricky C questions focuses on “Table Lookup”. One shall practice these tricky questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C programming questions on “Table Lookup” along with answers, explanations and/or solutions:
+1. Which function is responsible for searching in the table? (For #define IN 1, the name IN and replacement text 1 are stored in a “table”)
+a) findout(s);
+b) lookup(s);
+c) find(s);
+d) lookfor(s);
+b
+2. Which algorithm is used for searching in the table?
+a) List search
+b) Informed search
+c) Hash search
+d) Adversarial search
+c
+3. Which function is responsible for recording the name “s” and the replacement text “t” in a table?
+a) install(s, t);
+b) fix(s, t);
+c) setup(s, t);
+d) settle(s, t);
+a
+4. Which of the following statement is true?
+a) Install function uses lookup
+b) lookup function uses install
+c) Install and lookup function work independently
+d) None of the mentioned
+a
+5. What happens when install(s, t) finds that the name being installed is already present in the table?
+a) It doesn’t modify the name in the table
+b) It modifies the name with new definition
+c) It modifies off the new definition has higher priority
+d) It creates a new table and add the new definition in it
+b
+6. In what situation, install function returns NULL?
+a) When there is no memory for adding new name
+b) When the name to be defined is already present in the table
+c) Whenever a new name is added to the table
+d) All of the mentioned
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char a[];    };    void main()    {        struct student s;        printf("%d", sizeof(struct student));    }
+a) Compile time error
+b) 8
+c) 1
+d) Varies
+a
+8. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        struct p        {            char *name;            struct p *next;        };        struct p *ptrary[10];        struct p p, q;        p.name = "xyz";        p.next = NULL;        ptrary[0] = &p;        q.name = (char*)malloc(sizeof(char)*3);        strcpy(q.name, p.name);        q.next = &q;        ptrary[1] = &q;        printf("%s\n", ptrary[1]->next->next->name);    }
+a) Compile time error
+b) Depends on the compiler
+c) Undefined behaviour
+d) xyz
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Table Lookup – 1» Next - C Programming Questions and Answers – Typedefs – 1 

@@ -1,0 +1,68 @@
+1. The 80286 is available in the package as
+a) 68-pin PLCC (plastic leaded chip carrier)
+b) 68-pin LCC (lead less chip carrier)
+c) 68-pin PGA (pin grid array)
+d) all of the mentioned
+d
+2. The clock frequency applied at the CLK pin is internally divided by
+a) 2
+b) 4
+c) 8
+d) 1
+a
+3. The 8 address lines, A23-A16 of 80286 are zero during
+a) memory transfer
+b) address transfer
+c) memory to processor transfer
+d) I/O transfer
+d
+4. The signals S1 (active low), S2 (active low) are
+a) output signals
+b) indicate initiation of bus cycle
+c) define type of bus cycle with M/IO (active low)
+d) all of the mentioned
+d
+5. If M/IO (active low) signal is ‘0’ then it indicates
+a) I/O cycle
+b) Memory cycle
+c) I/O cycle or INTA cycle
+d) I/O cycle or HALT cycle
+c
+Join [email protected]
+6. The LOCK (active low) is activated automatically by hardware using
+a) XCHG signal
+b) Interrupt acknowledge
+c) Descriptor table access
+d) All of the mentioned
+d
+7. The pin that is used to insert wait states in a bus cycle is
+a) WAIT
+b) BHE (active low)
+c) READY (active low)
+d) WAIT(active low)
+c
+8. The minimum number of clock cycles required in an input pulse width of the RESET pin is
+a) 4
+b) 2
+c) 8
+d) 16
+d
+9. To filter the output, a 0.047microfarads, 12V capacitor is connected between the pins
+a) CAP and ground
+b) Output pin and ground
+c) CAP and Vcc
+d) NMI and ground
+a
+10. The signal that causes the 80286 to perform the processor extension interrupt while executing the WAIT and ESC instructions are
+a) BUSY (active low)
+b) PEACK (active low)
+c) PEREQ
+d) ERROR (active low)
+d
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Internal Architecture of 80286» Next - Microprocessors Questions and Answers – Real Addressing Mode 

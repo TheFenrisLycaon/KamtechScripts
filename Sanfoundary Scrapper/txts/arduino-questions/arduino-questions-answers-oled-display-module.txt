@@ -1,0 +1,67 @@
+1. What is the use of the Nokia 5110 GDM?
+a) To measure luminosity of something
+b) To display something
+c) To measure temperature
+d) To measure GPS Location
+b
+2. How many pins are present in the Nokia 5110 GDM have?
+a) 1
+b) 8
+c) 10
+d) 5
+b
+3. What kind of input does the DC pin accept?
+a) Analog
+b) Digital
+c) PCM
+d) TDM
+b
+4. What will happen if we supply a voltage of 25V to the Vcc of the Nokia 5110 GDM?
+a) Damage is caused
+b) Module will shut down
+c) Module will not respond for the time the voltage is applied
+d) Module will function normally
+a
+5. What will happen if we start using the Nokia 5110 GDM without resetting?
+a) Damage is caused
+b) Module will work fine
+c) Module will not respond indefinitely
+d) Module will overheat
+a
+6. What communication protocol does the Nokia 5110 GDM follow?
+a) SPI
+b) UART
+c) I2C
+d) API
+a
+7. What is the use of the X and Y Addresses of the RAM for Display Control?
+a) Rows and Columns
+b) Rows
+c) Columns
+d) Pixels
+a
+8. What is the use of the VLCD?
+a) Temperature Control
+b) Heat Generation
+c) Shutting down the LCD
+d) Starting up the LCD
+a
+9. What kind of images can the Nokia 5110 GDM display?
+a) Colored Image
+b) Grayscale Image
+c) Binary Image
+d) Inverted Image
+c
+10. What is the drawback of the code given below?
+#include <SPI.h>#include <Adafruit_GFX>#include <Adafruit_PCD8544.h>#include "images.h"Adafruit_PCD8544 display = Adafruit_PCD8544(13, 11, 8, 7, 9);void setup() {    display.begin();    display.setContrast(50);    display.clearDisplay();}void loop() {    display.clearDisplay();    display.drawBitmap(0, 0, Face, 84, 48, 1);    display.display();    delay(300);    display.clearDisplay();}
+a) Wrong header file name
+b) Wrong display coordinate
+c) Wrong target datatype
+d) Incorrect parenthesis
+a
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – OV7076 Camera Module» Next - Arduino Questions and Answers – Adafruit FONA 3G+GPS Breakout 

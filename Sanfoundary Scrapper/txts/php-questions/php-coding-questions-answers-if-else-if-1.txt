@@ -1,0 +1,83 @@
+1. What will be the output of the following PHP code?
+<?php$x;if ($x)    print "hi" ;else    print "how are u";?>
+a) how are u
+b) hi
+c) error
+d) no output
+a
+2. What will be the output of the following PHP code?
+<?php$x = 0;if ($x++)    print "hi";else    print "how are u";?>
+a) hi
+b) no output
+c) error
+d) how are u
+d
+3. What will be the output of the following PHP code?
+<?php$x;if ($x == 0)    print "hi" ;else    print "how are u";    print "hello"?>
+a) how are uhello
+b) hihello
+c) hi
+d) no output
+b
+4. What will be the output of the following PHP code?
+<?php$x = 0;if ($x == 1)    if ($x >= 0)        print "true";    else        print "false"; ?>
+a) true
+b) false
+c) error
+d) no output
+d
+5. What will be the output of the following PHP code?
+<?php$a = 1;if ($a--)    print "True";if ($a++)    print "False"; ?>
+a) true
+b) false
+c) error
+d) no output
+a
+6. What will be the output of the following PHP code?
+<?php$a = 1;if (echo $a)    print "True";else    print "False"; ?>
+a) true
+b) false
+c) error
+d) no output
+c
+7. What will be the output of the following PHP code?
+<?php$a = 1;if (print $a)    print "True";else    print "False"; ?>
+a) true
+b) false
+c) error
+d) no output
+a
+8. What will be the output of the following PHP code?
+<?php$a = 10;if (1)     print "all";else     print "some"else     print "none";?>
+a) all
+b) some
+c) error
+d) none
+c
+9. What will be the output of the following PHP code?
+<?php$a = 10;if (0)     print "all"; if  else      print "some"?>
+a) all
+b) some
+c) error
+d) no output
+c
+10. What will be the output of the following PHP code?
+<?php$a = "";if ($a)     print "all";if else     print "some";?>
+a) all
+b) some
+c) error
+d) no output
+b
+11. What will be the output of the following PHP code?
+<?php$a = "a";if ($a)     print "all";else     print "some";?>
+a) all
+b) some
+c) error
+d) no output
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Operators – 5» Next - PHP Coding Questions and Answers – If-Else-If-2 

@@ -1,0 +1,104 @@
+1. Which of the following wizard provides creation logins on the destination server?
+a) Copy Database
+b) Move Database
+c) Detach database
+d) Attach database
+a
+2. Point out the correct statement.
+a) After a database has been upgraded, it cannot be downgraded to a previous version
+b) The Copy Database Wizard is available in the Express edition
+c) The Copy Database Wizard cannot be used to copy  System databases
+d) None of the mentioned
+c
+3. How many ways are provided by SQL Server to copy a database?
+a) 2
+b) 3
+c) 4
+d) 5
+b
+4. Which is not the preferred way of copying a database?
+a) Using the Copy Database Wizard
+b) Restoring a database backup
+c) Using the Generate Scripts Wizard to publish databases
+d) None of the mentioned
+c
+5. Point out the wrong statement related to the use of Copy database wizard.
+a) Pick a source and destination server
+b) System stored procedures
+c) Schedule when to move or copy the databases
+d) None of the mentioned
+b
+Join [email protected]
+6. Which of the following returns a list of the database and log files?
+a) RESTORE FILELISTON
+b) RESTORE FILELIST
+c) RESTORE FILELISTONLY
+d) All of the mentioned
+c
+7. Which of the following transfer method makes the database unavailable to users during the transfer?
+a) Detach and attach method
+b) SQL Management Object method
+c) Restore method
+d) None of the mentioned
+a
+8. Which of the following stored procedure is used for detachment of database?
+a) sp_replicationdboption
+b) sp_replicationdb
+c) sp_replicationoption
+d) all of the mentioned
+a
+9. Which of the following code snippet will detach AdventureWorks2012 database?
+a)
+USE master;
+GO
+EXEC xp_detach_db @dbname = N'AdventureWorks2012';
+GO
+b)
+USE master;
+GO
+EXEC sp_detach @dbname = N'AdventureWorks2012';
+GO
+c)
+USE master;
+GO
+EXEC sp_detach_db @dbname = N'AdventureWorks2012';
+GO
+d)
+USE master;
+GO
+EXEC sp_det_db @dbname = N'AdventureWorks2012';
+GO
+c
+10. Which of the code is valid for attaching the database?
+a)
+USE master;
+GO
+CREATE DATABASE MyAdventureWorks 
+    ON (FILENAME = 'C:\MySQLServer\AdventureWorks2012_Data.mdf'),
+    (FILENAME = 'C:\MySQLServer\AdventureWorks2012_Log.ldf')
+    FOR ATTACH;
+GO
+b)
+USE master;
+GO
+CREATE DATABASE MyAdventureWorks 
+    ON (FILENAME = 'C:\MySQLServer\AdventureWorks2012_Data.mdf'),
+    (FILENAME = 'C:\MySQLServer\AdventureWorks2012_Log.ldf')
+    TO ATTACH;
+GO
+c)
+USE master;
+GO
+CREATE DATABASE MyAdventureWorks 
+    ON (FILENAME = 'C:\MySQLServer\AdventureWorks2012_Data.mdf'),
+    (FILENAME = 'C:\MySQLServer\AdventureWorks2012_Log.ldf')
+    FOR ATTACH_DB;
+GO
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – SQL Server Agent» Next - SQL Server Questions and Answers – Database Snapshots 

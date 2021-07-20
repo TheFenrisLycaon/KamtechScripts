@@ -1,0 +1,98 @@
+1. Which of the following statements are true?
+
+P: JFET is biased to operate it in active region
+Q: MOSFET is biased to operate it in saturation region
+a) Both P and Q are correct
+b) P is correct and Q is incorrect
+c) P is incorrect and Q is correct
+d) Both P and Q are incorrect
+c
+2. In the given situation for n-channel JFET, we get drain-to-source current is 5mA. What is the current when VGS = – 6V?
+a) 5 mA
+b) 0.5A
+c) 0.125 A
+d) 0.5A
+c
+When VGS = 0, IDSS = IDS = 5mA
+When VGS = -6V, IDS = 5mA(1 + 4)2
+IDS = 5 x 25 = 125 mA.
+3. Consider the following circuit. Given that VDD = 15V, VP = 2V, and IDS = 3mA, to bias the circuit properly, select the proper statement.
+a) RD < 6kΩ
+b) RD > 6kΩ
+c) RD > 4kΩ
+d) RD < 4kΩ
+a
+VDS = VDD – IDSRD
+To bias properly VDS > |VP| – |VGS|
+VDS > -3
+15 – 3mA*RD > -3
+-3mA*RD > -18
+RD < 6kΩ.
+4. Consider the circuit shown. VDS=3 V. If IDS=2mA, find VDD to bias circuit.
+a) -30V
+b) 30V
+c) 33V
+d) Any value of voltage less than 12 V
+c
+3 = VDD – 2(15)
+3 = VDD – 30
+VDD = 33 V.
+5. To bias a e-MOSFET ___________
+a) we can use either gate bias or a voltage divider bias circuit
+b) we can use either gate bias or a self bias circuit
+c) we can use either self bias or a voltage divider bias circuit
+d) we can use any type of bias circuit
+a
+6. Consider the following circuit. Process transconductance parameter = 0.50 mA/V2, W/L=1, Threshold voltage = 3V, VDD = 20V. Find the operating point of circuit.
+a) 20V, 25mA
+b) 13V, 22mA
+c) 12.72V, 23.61mA
+d) 20V, 23.61mA
+c
+VGS = 20 x 35/55 = 12.72 V
+IDS = 0.25 (9.72)2
+IDS = 23.61 mA.
+7. Given VDD = 25V, VP = -3V. When VGS = -3V, IDS = 10mA. Find the operating point of the circuit.
+a) -3.83V, 0.766mA
+b) -2.345V, 0.469mA
+c) 3.83V, 0.469mA
+d) 2.3V, 0.7mA
+b
+Also, in above circuit, VGS = -IDSRS = – IDSx5k
+Thus, IDS = IDSS(1-VGS/VP)2
+Solving we get, IDS = 0.766mA, 0.469mA
+Thus we get VGS = -3.83V, -2.345V
+However, VGS should lie between 0 and VP.
+8. Consider the following circuit. IDSS = 2mA, VDD = 30V. Find R, given that VP = – 2V.
+a) 10kΩ
+b) 4kΩ
+c) 2kΩ
+d) 5kΩ
+b
+IDS = (VDD – 15)/50k = 0.3mA
+VGS = VP[1 – \(\sqrt{\frac{I_{DS}}{D_{SS}}}\)] 
+VGS = -2 x (1 – \(\sqrt{.15}\)) = – 1.22V
+Thus, VGS + IDS x (R) = 0
+R = 1.22/0.3mA = 4kΩ.
+9. Which of the following statements are true?
+
+A: In a self bias circuit, the current IDS is not stable.
+B: Source capacitance, CS, parallel to RS, reduces stability.
+a) Both statements are correct and B is the correct reasoning
+b) Both statements are correct but B is not the correct reason for it
+c) Statement A is correct while statement B is wrong
+d) Both statements are incorrect
+d
+10. For a MOSFET, the pinch-off voltage is -3V. Gate to source voltage is 20V. W/L ratio is 5. Process transconductance parameter is 40μA/V2. Find drain to source current in saturation.
+a) 0.10 mA
+b) 0.05mA
+c) – 0.05mA
+d) – 50A
+c
+ISD = 20*5*(-20-3)2 = 52900μA = 0.05mA.
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Characteristics of JFET» Next - Analog Circuits Questions and Answers – JFET Amplifier 

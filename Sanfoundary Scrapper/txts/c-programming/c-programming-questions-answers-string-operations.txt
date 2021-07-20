@@ -1,0 +1,56 @@
+This section on C programming questions and answers focuses on “String Operations”. One shall practice these questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C programming questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of C programming questions on “String Operations” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        char *str = "hello, world";        char *str1 = "hello, world";        if (strcmp(str, str1))            printf("equal");        else            printf("unequal");    }
+a) equal
+b) unequal
+c) Compilation error
+d) Depends on the compiler
+b
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        char *str = "hello, world";        char str1[15] = "hello wo 9";        strcpy(str, str1);        printf("%s", str1);    }
+a) Compilation error
+b) Segmentation Fault
+c) hello, world
+d) hello, wo 9
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    #include <string.h>    int main()    {        char *str = "hello, world";        char str1[9];        strncpy(str1, str, 9);        printf("%s %d", str1, strlen(str1));    }
+a) hello, world 11
+b) hello, wor 9
+c) Undefined behaviour
+d) Compilation error
+c
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        char *str = "hello, world\n";        printf("%d", strlen(str));     }
+a) Compilation error
+b) Undefined behaviour
+c) 13
+d) 11
+c
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        char str[11] = "hello";        char *str1 = "world";        strcat(str, str1);        printf("%s %d", str, str[10]);    }
+a) helloworld 0
+b) helloworld anyvalue
+c) worldhello 0
+d) Segmentation fault/code crash
+a
+6. Strcat() function adds null character.
+a) Only if there is space
+b) Always
+c) Depends on the standard
+d) Depends on the compiler
+b
+7. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        char str[10] = "hello";        char *str1 = "world";        strncat(str, str1, 9);        printf("%s", str);    }
+a) helloworld
+b) Undefined behaviour
+c) helloworl
+d) hellowor
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Line Input & Output – 2» Next - C Programming Questions and Answers – String Operations – 2 

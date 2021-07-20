@@ -1,0 +1,123 @@
+1. The Z-Transform X(z) of a discrete time signal x(n) is defined as ____________
+a) \(\sum_{n=-\infty}^{\infty}x(n)z^n\) 
+b) \(\sum_{n=-\infty}^{\infty}x(n)z^{-n}\) 
+c) \(\sum_{n=0}^{\infty}x(n)z^n\) 
+d) None of the mentioned
+b
+2. What is the set of all values of z for which X(z) attains a finite value?
+a) Radius of convergence
+b) Radius of divergence
+c) Feasible solution
+d) None of the mentioned
+a
+3. What is the z-transform of the following finite duration signal?
+a) 2 + 4z + 5z2 + 7z3 + z4
+b) 2 + 4z + 5z2 + 7z3 + z5
+c) 2 + 4z-1 + 5z-2 + 7z-3 + z-5
+d) 2z2 + 4z + 5 +7z-1 + z-3
+d
+Substitute the values of n from -2 to 3 and the corresponding signal values in the above formula
+We get, X(z) = 2z2 + 4z + 5 + 7z-1 + z-3.
+4. What is the ROC of the signal x(n)=δ(n-k), k>0?
+a) z=0
+b) z=∞
+c) Entire z-plane, except at z=0
+d) Entire z-plane, except at z=∞
+c
+Given x(n)=δ(n-k)=1 at n=k
+=> X(z)=z-k
+From the above equation, X(z) is defined at all values of z except at z=0 for k>0.
+So ROC is defined as Entire z-plane, except at z=0.
+5. What is the z-transform of the signal x(n)=(0.5)nu(n)?
+a) \(\frac{1}{1-0.5z^{-1}};ROC |z|>0.5\) 
+b) \(\frac{1}{1-0.5z^{-1}};ROC |z|<0.5\) 
+c) \(\frac{1}{1+0.5z^{-1}};ROC |z|>0.5\) 
+d) \(\frac{1}{1+0.5z^{-1}};ROC |z|<0.5\) 
+a
+Given x(n)=(0.5)nu(n)=(0.5)n  for n≥0
+So, X(z)=\(\sum_{n=0}^{\infty} 0.5^n z^{-n}=\sum_{n=0}^{\infty} (0.5z^{-1})^n\) 
+This is an infinite GP whose sum is given as
+X(z)=\(\frac{1}{1-0.5z^{-1}}\) under the condition that |0.5z-1|<1
+=> X(z)=\(\frac{1}{1-0.5z^{-1}}\) and ROC is |z|>0.5.
+6. Which of the following series has an ROC as mentioned below?
+a) α-nu(n)
+b) αnu(n)
+c) α-nu(-n)
+d) αnu(n)
+b
+Let x(n)= αnu(n)
+The z-transform of the signal x(n) is given as
+X(z)=X(z)=\(\sum_{n=0}^{\infty} \alpha^n z^{-n} = \sum_{n=0}^{\infty}\alpha z^{-1}n\) 
+=> X(z)=\(\frac{1}{1-\alpha z^{-1}}\) and ROC is |z|>α which is as given in the question.
+7. What is the z-transform of the signal x(n) = -αnu(-n-1)?
+a) \(\frac{1}{1-\alpha z^{-1}}\);ROC |z|
+b) \(-\frac{1}{1+\alpha z^{-1}}\);ROC |z|
+c) \(-\frac{1}{1-\alpha z^{-1}}\);ROC |z|>|α| 
+d) \(-\frac{1}{1-\alpha z^{-1}}\);ROC |z|
+d
+=-αn for n≤-1
+From the definition of z-transform, we have
+X(z)=\(\sum_{n=-\infty}^{-1}(-α^n)z^{-n} = -\sum_{n=-\infty}^{-1}(\alpha^{-1} z)^{-n}=-\frac{1}{1-\alpha z^{-1}}\)  and |α-1z|<1 => |z|<|α|.
+8. What is the ROC of the z-transform of the signal x(n)= anu(n)+bnu(-n-1)?
+a) |a|<|z|<|b|
+b) |a|>|z|>|b|
+c) |a|>|z|<|b|
+d) |a|<|z|>|b|
+a
+ROC of z-transform of anu(n) is |z|>|a|.
+ROC of z-transform of bnu(-n-1) is |z|<|b|.
+By combining both the ROC’s we get the ROC of z-transform of the signal x(n) as |a|<|z|<|b|.
+9. What is the ROC of z-transform of finite duration anti-causal sequence?
+a) z=0
+b) z=∞
+c) Entire z-plane, except at z=0
+d) Entire z-plane, except at z=∞
+d
+10. What is the ROC of z-transform of an two sided infinite sequence?
+a) |z|>r1
+b) |z|<r1
+c) r2<|z|<r1
+d) None of the mentioned
+c
+From the above graph, we can state that the ROC of a two sided sequence will be of the form r2 < |z| < r1.
+11. The z-transform of a sequence x(n) which is given as X(z)=\(\sum_{n=-\infty}^{\infty}x(n)z^{-n}\) is known as _____________
+a) Uni-lateral Z-transform
+b) Bi-lateral Z-transform
+c) Tri-lateral Z-transform
+d) None of the mentioned
+b
+Since the z-transform of the signal given in the questions contains both the parts, it is called as Bi-lateral z-transform.
+12. What is the ROC of the system function H(z) if the discrete time LTI system is BIBO stable?
+a) Entire z-plane, except at z=0
+b) Entire z-plane, except at z=∞
+c) Contain unit circle
+d) None of the mentioned
+c
+\(\sum_{n=-\infty}^{\infty}|h(n)|<\infty\) 
+We know that, H(z)= \(\sum_{n=-\infty}^{\infty}h(n)z^{-n}\) 
+Let z=ejω so that |z|=|ejω|=1
+Then, |H(ejω)|=|H(ω)|=| \(\sum_{n=-\infty}^{\infty}\)h(n) e-jωn|≤\(\sum_{n=-\infty}^{\infty}\)|h(n) e-jωn|
+=\(\sum_{n=-\infty}^{\infty}\)|h(n)|<∞
+Hence, we see that if the system is stable, then H(z) converges for z=ejω. That is, for a stable discrete time LTI system, ROC of H(z) must contain the unit circle |z|=1.
+13. The ROC of z-transform of any signal cannot contain poles.
+a) True
+b) False
+a
+14. Is the discrete time LTI system with impulse response h(n)=an(n) (|a| < 1) BIBO stable?
+a) True
+b) False
+a
+The z-transform of h(n) is H(z)=\(\frac{z}{z-a}\), ROC is |z|>|a|
+If |a|<1, then the ROC contains the unit circle. So, the system is BIBO stable.
+15. What is the ROC of a causal infinite length sequence?
+a) |z|<r1
+b) |z|>r1
+c) r2<|z|<r1
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Signals, Systems and Signal Processing» Next - Digital Signal Processing Questions and Answers – Properties of Z Transform – 1 

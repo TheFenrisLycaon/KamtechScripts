@@ -1,0 +1,69 @@
+1. MySQL client runs on the machine containing the databases and servers connect to the client over a network.
+a) True
+b) False
+b
+2. The number of attributes in the following SQL table is ______________
+CREATE TABLE employee (
+		emp_name CHAR(30),
+		emp_id INT
+	);
+a) 30
+b) 1
+c) 2
+d) 3
+c
+3. Which of the following options tells mysql to ask for entering the password?
+a) -e
+b) -p
+c) -u
+d) -h
+b
+4. What is the host name in the following MySQL command?
+mysql -h cobra.snake.net -p -u sampadam
+a) cobra.snake
+b) cobra.snake.net
+c) sampadam
+d) cobra
+b
+5. What is ‘tamp’ in the following MySQL command?
+mysql -h xyz.host.try.net -p -u tamp
+a) user name
+b) password
+c) host name
+d) table name
+a
+6. The query ‘SELECT NOW()’ shows the current _____________
+a) table
+b) time only
+c) date only
+d) date and time
+d
+7. Suppose you want to select a database named ‘sampledb’ as the default database. Which of the following commands do you use?
+a) SELECT DATABASE()
+b) SELECT DATABASE sampledb
+c) USE DATABASE sampledb
+d) USE sampledb
+d
+8. What does ‘abc’ & ‘xyz’ specify in the following SQL statement?
+CREATE TABLE abc (xyz);
+a) table name and column specs
+b) column specs and table name
+c) table name and number of columns
+d) table name and number of rows
+a
+9. To see the table structure, which of the following SQL commands is issued?
+a) DESCRIBE tbl_name
+b) VIEW tbl_name
+c) SELECT TABLE tbl_name
+d) SELECT tbl_name
+a
+10. SHOW DATABASES lists the databases in the server to which you are connected.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – MySQL Setup – 1» Next - MySQL Questions and Answers – Interacting with MySQL 

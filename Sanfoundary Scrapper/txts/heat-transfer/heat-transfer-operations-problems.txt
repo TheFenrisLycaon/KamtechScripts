@@ -1,0 +1,104 @@
+1. For the given equation of heat transfer coefficient, which one of the following condition should hold true?
+ hVER=0.943 \([\frac{K^3 p^2 g h_{fg}}{\mu L(T_{sat} – T_L )}]^{0.25}\) 
+a) Re < 1800
+b) Re > 1800
+c) Re < 1000
+d) Re < 18000
+a
+2. If the Reynolds Number is more than 1800, then what is the equation for the heat transfer coefficient of the condenser?
+a) h=0.0077 Re0.4[K3ρ2g ⁄ μ2]1/3
+b) h=0.0077 Re0.4[K3ρ2g ⁄ μ2]1/4
+c) h=0.0077 Re0.4[K4ρ2g ⁄ μ2]1/3
+d) h=0.0077 Re0.4[K3ρ3g ⁄ μ2]1/3
+a
+ h=0.0077 Re0.4[K3 ρ2g ⁄ μ2]1/3
+3. When do we apply the Kirkbride equation for determination of heat transfer coefficient in a condenser?
+ h=0.0077 Re0.4[K3 ρ2g ⁄ μ2]1/3
+a) Re < 1800
+b) Re > 1800
+c) Re < 1000
+d) Re < 18000
+b
+ hHOR=0.943 \([\frac{K^3 p^2 g h_{fg}}{\mu L(T_{sat} – T_L )}]^{0.25}\) 
+And thus for answer when Re > 1800
+ h=0.0077 Re0.4[K3 ρ2g ⁄ μ2]1/3
+4. A 0.5m square plate is to be used to condense dry saturated steam at 0.08bar, if the wall surface is to be maintained at 18.5℃, calculate the film thickness at a distance of 25cm.
+Given Tsat= 41.5℃, density = 995kg/m3, hfg = 2402 KJ/m hr K , K = 2.22 KJ/mK, μ = 8.01x 10–4 Ns/m2
+a) 0.0364 m
+b) 0.024 m
+c) 0.0046 m
+d) 0.0056 m
+a
+ \(\delta = [\frac{4K(T_{sat}-T_L)\mu x}{\rho gh_{fg}}]^{1/4}\) 
+Here Tsat = 41.5℃, T = 18.5℃, density = 995kg/m3, hfg = 2.4 KJ/m2K, K = 2.22 KJ/mK, μ = 8.01x 10–4 N/m2s. Hence we get δ=0.0364
+δ=[(4×2.22×103 x (41.5-18.5)x8.01x 10-4 x 0.25)/995×9.8×2.4×103]1/4=0.036m.
+5. A 0.5m square plate is to be used to condense dry saturated steam at 0.08bar, if the wall surface is to be maintained at 18.5℃, calculate the Convective heat transfer coefficient h at a distance of 25cm.
+Given Tsat = 41.5℃, density = 995kg/m3, hfg = 2402 KJ/m2K, K = 2.22 KJ/mK, μ = 8.01 x 10–4 N/m2s
+a) 160×105 J/m2K
+b) 3.5×105  J/m2K
+c) 450×105  J/m2K
+d) 150×105  J/m2K
+b
+The equation for Film thickness is given by Nusselt theory of condensation as
+ \(\delta = [\frac{4K(T_{sat}-T_L)\mu x}{\rho gh_{fg}}]^{1/4}\) 
+δ=[4×2.22×103 x(41.5-18.5)x8.01 x 10-4 x0.25 ⁄ 995×9.8x2402x103]1/4=0.0064m
+Given Tsat = 41.5℃, density = 995kg/m3, hfg = 2402 KJ/m hr K, K = 2.22 KJ/mK, μ = 8.01x 10–4 Ns/m2 Hence we get δ=0.0064m.
+6. What is the value of havg of a condenser at a distance of 25cm if a 0.5m square plate is to be used to condense dry saturated steam at 0.08bar, if the wall surface is to be maintained at 18.5℃?
+Given Tsat= 41.5℃, density = 995kg/m3, hfg = 2402 KJ/m hr K, K = 2.22 KJ/mK, μ = 8.01x 10–4 Ns/m2
+a) 50×105 J/m2K
+b) 10×105 J/m2K
+c) 350×105 J/m2K
+d) 26 x105 J/m2K
+d
+hVER=0.943\([\frac{K^3 p^2 g h_{fg}}{\mu x(T_{sat} – T_L)}]^{0.25}\) 
+hVER=0.943\([\frac{(2.22×1000)^3 x 995^2 x 9.8x2402x1000}{8.01×0.25(41.5 – 18.5)}]^{0.25}\)=2572000=2572000
+Here Tsat = 41.5℃, T = 18.5℃, density = 995kg/m3, hfg = 2402 KJ/m2K, K = 2.22 KJ/mK, μ = 8.01 x 10–4 N/m2s. Hence we get δ=0.000148 and h = 200 x105 J/m2K.
+7. A 0.5m square plate is to be used to condense dry saturated steam at 0.08bar, if the wall surface is to be maintained at 18.5℃, calculate the mean flow velocity at a distance of 25cm.
+Given Tsat = 41.5℃, density = 995kg/m3, hfg = 2402 KJ/m hr K, K = 2.22 J/mK, μ = 8.01x 10–4 Ns/m2
+a) 0.09 m/s
+b) 0.9 m/s
+c) 0.6m/s
+d) 169.6m/s
+a
+ The equation for Film thickness is given by Nusselt theory of condensation as
+ \(\delta = [\frac{4K(T_{sat}-T_L)\mu x}{\rho gh_{fg}}]^{1/4}\) 
+δ=[4×2.22x(41.5-18.5)x8.01x 10-4 x0.25)⁄ 995×9.8x2402x103]1/4=0.000148m
+Given Tsat= 41.5℃, density = 995kg/m3, hfg = 2402 KJ/m hr K, K = 2.22 J/mK, μ= 8.01x 10 – 4 Ns/m2 Hence we get δ=1.48×10-4 m.
+8. A 0.5m square plate is to be used to condense dry saturated steam at 0.08bar, if the wall surface is to be maintained at 18.5℃, calculate the mean mass flow at a distance of 25cm.
+Given Tsat = 41.5℃, density = 995kg/m3, hfg = 2402 KJ/m hr K, K = 2.22 J/mK, μ = 8.01x 10–4 Ns/m2
+a) 0.135 Kg/hr
+b) 22.39 Kg/hr
+c) 0.135 kg/sec
+d) 22.39 kg/s
+d
+v = ρgδ2 / 3μ = (995x10x0.0001482)/(3×8.01×10-4)=0.09m/s.
+9. What is the expression for mean flow velocity of the film fluid in a vertical condenser?
+a) v = ρgδ / 3μ
+b) v = ρgδ2 / μ
+c) v = ρgδ2 / 3
+d) v = ρgδ2 / 3μ
+d
+10. What is the expression for total heat transferred in a condenser of length L and diameter D?
+a) havg A Δ Tsat-L
+b) havg A Δ TLMTD
+c) hX A ΔTsat-L
+d) hX A ΔTLMTD
+a
+11. What is the expression for total steam condensate rate?
+a) M = V / hfg
+b) M = hfg/V
+c) M = V / havg
+d) M = VϸA
+d
+12. What is the expression for Reynolds number for the falling film in a condsenser?
+a) Re= \(\frac{4\ddot{M}}{\rho u}\) 
+b) Re= \(\frac{4\ddot{M}}{\rho}\) 
+c) Re= \(\frac{4}{\rho u}\) 
+d) Re= \(\frac{\ddot{M}}{\rho u}\) 
+a
+Sanfoundry Global Education & Learning Series – Heat Transfer Operations.
+To practice all areas of Heat Transfer Operations Problems, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Heat Transfer Operations Questions and Answers – Condensers – Heat Transfer Coefficients – 1» Next - Heat Transfer Operations Questions and Answers – Direct Contact Condensers 

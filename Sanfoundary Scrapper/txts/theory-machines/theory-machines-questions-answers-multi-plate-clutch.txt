@@ -1,0 +1,146 @@
+1. In a multi plate clutch, the formula for T is given by ______
+a) n.µ.W.R
+b) n.µ.W.r1
+c) n.µ.W.r2
+d) n.µ.W.(r1+r2)
+a
+The formula is the same for torque in a single plate clutch. But for large amount of torque to be transmitted, multi plate clutch is used. Multi plate clutches are used in motor vehicles and machine tools.
+2. In a multi plate clutch, considering uniform pressure, T = nµWR. What is R equal to?
+a) 2(r13 + r23) / 3(r12 + r22)
+b) 2(r13 – r23) / 3(r12 – r22)
+c) (r1 – r2)/2
+d) (r1 + r2)/2
+b
+3. In a multi plate clutch, considering uniform wear, T = nµWR. What is R equal to?
+a) 2(r13 + r23) / 3(r12 + r22)
+b) 2(r13 – r23) / 3(r12 – r22)
+c) (r1 – r2)/2
+d) (r1 + r2)/2
+d
+4. In a multi plate clutch, T = 150 N-m, n = 4, µ = 0.3 and R = 0.1 m. Find the axial thrust.
+a) 18
+b) 1800
+c) 1250
+d) 200
+c
+150 = 4 x 0.3 x W x 0.1
+W = 1250 N
+Thus, the axial thrust = 1250 N.
+5. Maximum intensity of pressure for multi plate clutch is given by ____
+a) C/R
+b) C/R2
+c) C/r2
+d) C/r1
+c
+Thus, pmax = C/r2
+Similarly, pmin = C/r1.
+Join Sanfoundry@YouTube
+6.  For a single plate clutch, n = 2, whereas for a multi plate clutch, n can take any values ≥ 2. True or false?
+a) True
+b) False
+a
+7. In a multi plate clutch, number of discs on the driving shaft is given by n1. True or false?
+a) True
+b) False
+a
+8. In a multi plate clutch, number of pairs of contact surfaces (n) = ________
+a) n1 – n2 + 1
+b) n1 – n2 – 1
+c) n1 + n2 – 1
+d) n1 + n2 + 1
+c
+n is always a whole number.
+9. A multi-disc clutch has 6 discs on the driving shaft and 4 on the driven shaft. Find the number of pairs of contact surfaces.
+a) 3
+b) 10
+c) 9
+d) 11
+c
+Thus, T = n.µ.W.R = 9.µ.W.R
+10. Calculate the maximum and minimum intensity of pressure in multi plate clutch when the axial force is 5 kN assuming uniform wear. Inner radius = 20 mm and outer radius = 40 mm.
+a) 1.989 N/mm2, 0.994 N/mm2
+b) 0.994 N/mm2, 1.989 N/mm2
+c) 1.989 N/m2, 0.994 N/m2
+d) 0.994 N/m2, 1.989 N/m2
+a
+pmax x 20 = C
+Now, W = 2 π C (r1 – r2)
+5 x 103 = 2 π x pmax x 20 x (40-20)
+pmax= 1.989 N/mm2
+We know that, pmin x r1 = C
+pmin x 40 = C
+Now, W = 2 π C (r1 – r2)
+5 x 103 = 2 π x pmax x 40 x (40-20)
+pmax= 0.994 N/mm2.
+11. A multi-disc clutch has 3 discs on the driving shaft and 2 on the driven shaft. The outer radius is 120 mm and inside radius 60 mm. Considering uniform wear and µ = 0.3, find the Find the value of W for transmitting 25 kW at 1500r.p.m.
+a) 651 N/m2
+b) 651 N/mm2
+c) 0.0651 N/m2
+d) 0.0651 N/mm2
+d
+Power transmitted P = 25 × 103 = T.ω = T × 157.08
+T = 25 × 103/157.08 = 159.15 N-m
+n = n1 + n2 – 1 = 4
+Mean radius = R = (r1 + r2)/2 = 90 mm = 0.09 m
+159.15 = n.µ.W.R = 4 × 0.3 × W × 0.09 = 0.108 W
+W = 1473.65 N.
+12. A multi-disc clutch has 3 discs on the driving shaft and 2 on the driven shaft. The outer radius is 100 mm and inside radius 40 mm. Considering uniform wear and µ = 0.25, find the maximum axial intensity of pressure between the discs for transmitting 30 kW at 1000 r.p.m.
+a) 0.4071 N/m2
+b) 40.71 N/mm2
+c) 407.1 N/m2
+d) 0.4071 N/mm2
+d
+Power transmitted P = 30 × 103 = T.ω = T × 104.71
+T = 30 × 103/157.08 = 286.48 N-m
+n = n1 + n2 – 1 = 4
+Mean radius = R = (r1 + r2)/2 = 70 mm = 0.07 m
+286.48 = n.µ.W.R = 4 × 0.25 × W × 0.07
+W = 4092.55 N
+W = 4092.55 = 2 π C (r1 – r2) = 80 π C
+C = 16.283 = pmax x 40
+pmax= 0.4071 N/mm2.
+13. A single plate clutch, having n1 = 3 and n2 = 2, has outer and inner radii 200 mm and 175 mm respectively. The maximum intensity of pressure at any point is 0.05 N/mm2. If the µ is 0.4, determine the power transmitted by a clutch at a speed 1500 r.p.m.
+a) 32384 x 103W
+b) 64.768 W
+c) 64768 kW
+d) 64768 W
+d
+Since the intensity of pressure (p) is maximum at the inner radius (r2), considering uniform wear, pmaxx r2 = C    or   C = 0.05 × 175 = 8.75 N/mm
+Axial thrust, W = 2 π C (r1 – r2) = 2π × 8.75 (200 – 175) = 1374.44 N
+Mean radius = R = (r1 + r2)/2 = 187.5 mm = 0.1875 m.
+We know that torque transmitted,
+T = 4.µ.W.R = 4 × 0.4 × 1374.44 × 0.1875 = 412.32 N-m
+Thus, power transmitted,
+P = T.ω = 412.32 × 157.08 = 64768 W = 64.368 kW.
+14. A plate clutch has three discs on driving shaft and two discs on driven shaft. The outer radius of the contact surfaces is 100 mm and inner radius 50 mm. Assuming uniform pressure and µ = 0.3; find the total spring load pressing plates together to transmit 35 kW at 1600r.p.m.
+a) 2372.3 N
+b) 2260.7 N
+c) 2401.8 N
+d) 2131.4 N
+b
+We know that power transmitted (P), 35 × 103 = T.ω = T × 167.55
+T = 35 × 103/167.55 = 208.89 N-m
+Mean radius of the contact surface, for uniform pressure,R = 2(r13 – r23) / 3(r12 – r22) = 77.77 mm = 0.077 m
+208.89 = n.µ.W.R = 4 × 0.3 W × 0.077
+W = 2260.7 N.
+15. A multi plate clutch, having n1= 2 and n2 = 1, has outer and inner radii 1000 mm and 600 mm respectively. The maximum intensity of pressure at any point is 0.2 N/mm2. If the µ is 0.25, determine the speed of the clutch if the power generated = 31582.807 kW.
+a) 2500 r.p.m.
+b) 261.8 r.p.m.
+c) 2000 r.p.m.
+d) 209.44 r.p.m.
+a
+Since the intensity of pressure (p) is maximum at the inner radius (r2), considering uniform wear, pmaxx r2 = C    or   C = 0.2 × 600 = 120 N/mm
+Axial thrust, W = 2 π C (r1 – r2) = 2π × 120 (1000 – 600) = 301592 N
+Mean radius = R = (r1 + r2)/2 = 800 mm = 0.8 m.
+We know that torque transmitted,
+T = n.µ.W.R = 2 × 0.25 × 301592 × 0.8 = 120637 N-m
+Thus, power transmitted,
+P = T.ω
+ω = P/T = 261.8 rad/s
+N = ω x 60 / (2 π) = 2500 r.p.m.
+Sanfoundry Global Education & Learning Series – Theory of Machines.
+To practice all areas of Theory of Machines, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Theory of Machines Questions and Answers – Single Plate Clutch» Next - Theory of Machines Questions and Answers – Conical Clutch 

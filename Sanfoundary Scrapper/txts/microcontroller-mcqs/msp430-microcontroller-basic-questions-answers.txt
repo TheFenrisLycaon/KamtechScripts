@@ -1,0 +1,69 @@
+1. Which of the following registers are related to port P1?
+a) P1SEL
+b) P1DIR
+c) P1IES
+d) All of the mentioned
+d
+P1SEL → Port Select Port pins are often multiplexed with other peripheral module functions. P1SEL and P1SEL2 bit is used to select the pin function – I/O port or peripheral module function.
+P1DIR → Direction register selects the direction of the corresponding I/O pin.
+P1IES → Interrupt Edge Select.
+2. A pull-up or pull-down resistor ___________
+a) removes the full output drive on the output pin
+b) gives only a feeble current through the pull-up to resistor
+c) removes the full output drive on the output pin & gives only a feeble current through the pull-up to resistor
+d) none of the mentioned
+c
+3. P1.3 is the ___________
+a) input CCI1A to Timer_A
+b) is connected to the voltage reference VREF of SD16_A
+c) is output TA0 from Timer_A
+d) are digital inputs with pull-up resistors
+b
+4. What actually is SD16_A?
+a) it is an interrupt
+b) it is a timer
+c) it is an analog to Digital Converter
+d) it is a serial communication module
+c
+5. P1IE and P1IES are registers that are used to ___________
+a) control the Port1 digital i/o ports
+b) control the Port1 interrupts
+c) control the Port1 serial communication interfaces
+d) all of the mentioned
+b
+6. Unused pins must never be left unconnected in their default state as inputs.
+a) true
+b) false
+c) cant be said
+d) depends on the conditions
+a
+7. Which of the following is an effect of a Schmidt trigger?
+a) it turns slowly varying inputs, which might cause problems while they pass slowly through the undefined range of input voltages, into abrupt, clean logical transitions
+b) It eliminates the effect of noise on the input, provided that it is not large enough to span the gap between the upward and downward thresholds
+c) none of the mentioned
+d) all of the mentioned
+d
+8. To ensure that a negative fluctuation does not trigger an unwanted downward transition by pulling the input down through VIT−, we must choose
+a) minimum hysteresis
+b) maximum hysteresis
+c) all of the mentioned
+d) none of the mentioned
+a
+9. The SPDT switch can be used as a ___________
+a) detecting circuit
+b) debouncing circuit
+c) devaluing circuit
+d) degenerating circuit
+b
+10. Debouncing can be carried out at a hardware as well as the software end?
+a) yes
+b) no
+c) cant be said
+d) depends on the conditions
+a
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice basic questions and answers on all areas of Microcontroller, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MSP430 Microcontroller Questions and Answers – Low Power Modes» Next - MSP430 Microcontroller Questions and Answers – Timers 

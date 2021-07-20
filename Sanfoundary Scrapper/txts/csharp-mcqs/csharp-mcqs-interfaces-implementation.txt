@@ -1,0 +1,172 @@
+1. What will be the Correct statement in the following C# code?
+interface a1{    void f1();    int f2();}class a :a1{    void f1()    {    }    int a1.f2()    {    }}
+a) class a is an abstract class
+b) A method table would not be created for class a
+c) The definition of f1() in class a should be void a1.f1()
+d) None of the mentioned
+c
+2. Choose the wrong statement about ‘INTERFACE’ in C#.NET?
+a) An explicitly implemented member could be accessed from an instance  of the interface
+b) Interfaces are declared public automatically
+c) An interface could not contain signature of the indexer
+d) None of the mentioned
+c
+3. What will be the Correct statement in the following C# code?
+ interface a1 {     void f1();     void f2(); } class a :a1 {      private int i;     void a1.f1()     {     } }
+a) Class a could not have an instance data
+b) Class a is an abstract class
+c) Class a fully implements the interface a1
+d) None of the mentioned
+b
+4. What will be the Correct statement in the following C# code?
+ interface abc {     String FirstName     {         get;         set;     }    String LastName    {        get;        set;    }    void print();    void stock();    int fun();}
+a) Functions should be declared inside an interface
+b) It is workable code
+c) Properties cannot be declared inside an interface
+d) None of the mentioned
+b
+5. What will be the output of the following C# code?
+ interface calc {     void cal(int i); } public  class maths :calc  {     public int x;     public void cal(int i)      {         x = i * i;                 } } class Program {     public static void Main(string[] args)     {                     display arr = new display();         arr.x = 0;               arr.cal(2);         Console.WriteLine(arr.x);         Console.ReadLine();     } }
+a) 0
+b) 2
+c) 4
+d) None of the mentioned
+c
+Output :
+ 4
+6. What will be the output of the following C# code?
+ interface calc {     void cal(int i); } class displayA :calc  {     public int x;     public void cal(int i)      {         x = i * i;                 } } class displayB :calc {     public int x;     public void cal(int i)     {         x = i / i;     } } class Program {     public static void Main(string[] args)     {                     displayA arr1 = new displayA();         displayB arr2 = new displayB();         arr1.x = 0;         arr2.x = 0;         arr1.cal(2);         arr2.cal(2);         Console.WriteLine(arr1.x + " " + arr2.x);         Console.ReadLine();     } }
+a) 0 0
+b) 2 2
+c) 4 1
+d) 1 4
+c
+Output :
+ 4, 1
+7. What will be the output of the following C# code?
+interface i1{    void fun();}interface i2{    void fun();}public class maths :i1, i2{    void i1.fun()    {        Console.WriteLine("i1.fun");    }    void i2.fun()    {        Console.WriteLine("i2.fun");    }}class Program{    static void Main(string[] args)    {        Sample obj = new Sample();        i1 i = (i1) obj;        i.fun();        i2 ii = (i2) obj;        ii.fun();    }}
+a) i1.fun
+b) 
+i2.fun
+i1.fun
+c) 0
+d) 
+i1.fun
+i2.fun 
+d
+  
+8. What will be the correct way to implement the interface in the following C# code?
+  interface abc   {       string name       {           get;           set;       }   }
+a)
+   class emp :employee
+   {
+       private string str;
+       public string firstname;
+       {
+           get
+           {
+               return str;
+           }
+           set
+           {
+               str = value;
+           }
+       }
+   }
+b)
+  class emp :implements person
+  {
+      private string str;
+      public string firstname
+      {
+          get
+          {
+              return str;
+          }
+          set
+          {
+              str = value;
+          }
+      }
+  }
+c)
+ class emp: implements person
+ {
+     private string str;
+     public string person.firstname
+     {
+         get
+         {
+             return str;
+         }
+         set
+         {
+             str = value;
+         }
+     }
+ }
+d) None of the mentioned
+a
+9. What will be the output of the following C# code?
+ interface i1 {     void f1(); } interface i2 :i1 {     void f2(); } public class maths :i2 {     public void f2()     {         Console.WriteLine("fun2");     }     public void f1()     {         Console.WriteLine("fun1");     } } class Program {     static Void Main()     {         maths m = new maths();         m.f1();         m.f2();     } }
+a) fun2
+b) fun1
+c) 
+fun1
+fun2
+d) 
+fun2
+fun1
+c
+  
+10. In order to avoid ambiguity among an interface derived from two base interfaces with same method name(and signature), the right code among the following C# codes is?
+a)
+ interface i1 {     void m1(); } interface i2 {     void m1(); } interface i3 :i1, i2 { } class c3 :i3 {     void i1.m1()     {     }     void i1.m1()     {     } }
+b)
+ interface i1
+ {
+     void m1();
+ }
+     interface i2
+     {
+         void m1();
+     }
+     interface i3 :i1, i2
+     {
+     }
+     class c3 :i3
+     {
+         void i1.i2.m1()
+         {
+         }
+     }
+c)
+  interface i1
+  {
+      void m1();
+  }
+  interface i2
+  {
+      void m1();
+  }
+  interface i3 :i1, i2
+  {
+  }
+  class c3 :i3
+  {
+      void i1.m1()
+      {
+      }
+      void i2.m1()
+      {
+      }
+  }
+d) All of the mentioned
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all features of C# programming language, here is complete set on 1000+ Multiple Choice Questions and Answers on C#
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Interfaces Introduction» Next - C# Questions & Answers – Introduction of Overloaded Operators 

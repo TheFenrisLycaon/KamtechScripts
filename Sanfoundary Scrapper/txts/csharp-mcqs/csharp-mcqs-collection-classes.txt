@@ -1,0 +1,114 @@
+1. Which among the following is not the ordered collection class?
+a) BitArray
+b) Queue
+c) Stack
+d) None of the mentioned
+a
+2. Which among the following is not an interface declared in System.Collection namespace?
+a) IDictionaryComparer
+b) IEnumerable
+c) IEnumerator
+d) Icomparer
+a
+3. Which among the following is the correct way to find out the number of elements currently present in an ArrayListCollection called arr?
+a) arr.Capacity
+b) arr.Count
+c) arr.MaxIndex
+d) arr.UpperBound
+b
+4. Which statement is correct in the following C#.NET code snippet?
+Stack st = new Stack();st.Push("Csharp");st.Push(7.3);st.Push(8);st.Push('b');st.Push(true);
+a) Unsimilar elements like “Csharp”, 7.3, 8 cannot be stored in the same stack collection
+b) Boolean values can never be stored in Stack collection
+c) Perfectly workable code
+d) All of the mentioned
+c
+5. Which is the correct statement about an ArrayList collection that implements the IEnumerable interface?
+a) To access members of ArrayList from the inner class, it is necessary to pass ArrayList class reference to it
+b) The inner class of ArrayList can access ArrayList class members
+c) The ArrayList class consist of inner class that implements the IEnumerator interface
+d) All of the mentioned
+d
+6. Which among the following is the correct way to access all the elements of the Stack collection created using the C#.NET code snippet given below?
+Stack st = new Stack();st.Push(10);st.Push(20);st.Push(-5);st.Push(30);st.Push(6);
+a)
+   IEnumerable e;
+   e = st.GetEnumerator();
+   while (e.MoveNext())
+   Console.WriteLine(e.Current);
+b)
+   IEnumerator e;
+   e = st.GetEnumerator();
+   while(e.MoveNext())
+   Console.WriteLine(e.Current);
+c)
+   IEnumerable e;
+   e = st.GetEnumerable();
+   while(e.MoveNext())
+   Console.WriteLine(e.Current);
+d) None of the mentioned
+b
+7. The correct code to access all the elements of the queue collection created using the following C#.NET code snippets?
+Queue q = new Queue();q.Enqueue("Harsh");q.Enqueue('a');q.Enqueue(false);q.Enqueue(70);q.Enqueue(8.5);
+a)
+   IEnumerator e;
+   e = q.GetEnumerator();
+   while(e.MoveNext())
+   Console.WriteLine(e.Current);
+b)
+   IEnumerable e;
+   e = q.GetEnumerator();
+   while(e.MoveNext())
+c)
+   IEnumerable e
+   e = q.GetEnumerable();
+   while(e.MoveNext())
+   Console.WriteLine(e.Current);
+d) All of the mentioned
+a
+8. Which statements among the following are correct about the Collection Classes available in Framework Class Library?
+a) Elements of a collection cannot be transmitted over a network
+b) Elements stored in a collection can be modified only if all the elements are of similar types
+c) Elements stored in a Collection can be retrieved but cannot be modified
+d) Collection classes make use of efficient algorithms to manage the collection, hence improving the performance of the program
+d
+9. Among the given collections which one is I/O index based?
+a) ArrayList
+b) List
+c) Stack
+d) Queue
+a
+10. Which among the given statements are correct about the Stack collection?
+a) It can be used for evaluation of expressions
+b) It is used to maintain a FIFO list
+c) Top most element of the Stack collection can be accessed using the Peek()
+d) All of the mentioned
+d
+11. A HashTable t maintains a collection of names of states and capital city of each state. Which among the following finds out whether “New delhi” state is present in the collection or not?
+a)
+ t.HasValue("New delhi");
+b)
+t.ContainsKey("New delhi");
+c)
+t.HasKey("New delhi");
+d)
+t.ContainsValue("New delhi");
+b
+12. In which of the following collections is the I/O based on a key?
+a) BitArray
+b) SortedList
+c) Queue
+d) Stack
+b
+13. The wrong statements about a HashTable collection are?
+a) It is a keyed collection
+b) It is a ordered collection
+c) It’s not an indexed collection
+d) It implements a IDictionaryEnumerator interface in its inner class
+b
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Introduction of Reflections» Next - C# Question & Answers – Maths Class 

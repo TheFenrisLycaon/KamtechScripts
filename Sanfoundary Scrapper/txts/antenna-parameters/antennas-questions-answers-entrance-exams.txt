@@ -1,0 +1,89 @@
+1. Which of the following statement is true about the Chebyshev function Tm(x)?
+a) It is a continuously increasing function after x=1
+b) It is a continuously decreasing function after x=1
+c) It is a continuously increasing function after x=0
+d) It is a continuously decreasing function after x=0
+a
+T1(x) = x
+T2(x) = 2x2-1
+⇨	T3(x) = 4x3-3x
+This is the chebyshev polynomial and it increases continuously after x=1
+2. How many times the polynomial T5(x) crosses the x-axis between [-1, 1]?
+a) 5
+b) 4
+c) 2
+d) 6
+a
+M=5 therefore it crosses the axis 5 times between [-1, 1].
+3. Which of the following statements is true?
+a) The polynomials are unstable at interval [-1, 1] 
+b) The polynomials are marginally stable at interval [-1, 1] 
+c) The polynomial doesn’t oscillate at interval [-1, 1] 
+d) The polynomials crosses the axis m-1 times at [-1, 1] 
+b
+4. What is the possible level from the following for the minor lobe when the main beam level is at 50db and SLL at 10 db according to Chebyshev?
+a) 40dB
+b) 45dB
+c) 50dB
+d) 80dB
+a
+Possible level for the minor lobe is 50-10=40dB
+5. The condition for the existence of the main lobe according to the Chebyshev is _________
+a) |x| > 1
+b) |x| < 1
+c) |x| = 0
+d) 2|x| > 1
+a
+The condition for the existence of the minor lobe according to the Chebyshev is |x| < 1.
+6. The condition for the existence of the main lobe according to the Chebyshev is _________
+a) |x| > 1
+b) |x| < 1
+c) |x| = 0
+d) 2|x| > 1
+a
+The condition for the existence of the minor lobe according to the Chebyshev is |x| < 1.
+7. Which of the following statements regarding Chebyshev polynomial is true?
+a) The polynomial Tm(x) is symmetric for m = even
+b) The polynomial Tm(x) is symmetric for m = odd
+c) The polynomial Tm(x) is anti-symmetric for m = even
+d) The polynomial Tm(x) is symmetric for m = even and odd
+a
+For m=even, at x=0 it is 1. For m=odd, at x=0 it is 0.
+8. Which of the following properties of Chebyshev polynomial is false?
+a) The minor lobes have unequal amplitudes
+b) The polynomial Tm(x) is symmetric for m = even
+c) The polynomial Tm(x) crosses the x axis m times between -1 and 1
+d) Minor lobes exists for |x| < 1
+a
+Minor lobes exist for |x| < 1 and major lobes exist for |x| > 1.
+9. All the polynomials of the order m pass through the point ____________
+a) (1, 1)
+b) (0, 0)
+c) (0, 1)
+d) (-1, 0)
+a
+ = (1, 1).
+T0(x) = 1
+T1(x) = x
+T2(x) = 2x2-1
+T3(x) = 4x3-3x
+10. All the nulls occur at (-1, 1) in the Chebyshev polynomial.
+a) True
+b) False
+b
+(-1, 1) here is representing a point. So it is false.
+11. As the order of the polynomial increases, the slope becomes steeper.
+a) True
+b) False
+a
+T0(x) = 1 m=0
+T1(x) = x m=1
+T2(x) = 2x2-1 m=2
+T3(x) = 4x3-3x m=3
+As the order of the polynomial increases, the slope becomes steeper.
+Sanfoundry Global Education & Learning Series – Antennas.
+To practice all areas of Antennas for Entrance exams, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antennas Questions and Answers – Adaptive Array – Chebyshev Polynomials Fundamentals» Next - Antennas Questions and Answers – Adaptive Array – Dolph Pattern Method 

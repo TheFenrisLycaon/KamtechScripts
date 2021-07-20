@@ -1,0 +1,66 @@
+1. What compiler toolchain is used to compile the Arduino Sketches?
+a) AVR-G++/GCC
+b) Python
+c) PowerShell
+d) Perl
+a
+2. Where does the Arduino IDE search if it needs to find out the Name of a type of Arduino Board?
+a) build.txt
+b) boards.txt
+c) build.core
+d) Arduino.h
+b
+3. What is the use of the Arduino.h header file?
+a) It gives root access to the microcontroller’s file system
+b) It enables the programmer to access all of Arduino’s core functionality
+c) It allows other people to create libraries for the Arduino code
+d) It doesn’t have any use and can be omitted at any point of time in the code
+b
+4. How many architectures does the Arduino subfolder in the Hardware section contain?
+a) 2
+b) 3
+c) 4
+d) 9
+a
+5. How many configuration files are there which allows us to customize the architecture in an Arduino in order to add support for custom boards?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+6. After the compilation process, the file containing the assembly instructions for the microcontroller is stored in a file. What is the file type?
+a) .o
+b) .hex
+c) .cpp
+d) .hpp
+b
+7. Which of the following file format is generated once the C code is compiled?
+a) .c
+b) .h
+c) .ino
+d) .o
+d
+8. What is the .d file format’s use in C?
+a) For managing dependencies
+b) For the D programming language
+c) For storing the variables and memory locations
+d) For creating new errors in dependencies
+a
+9. Why does every compilation of a source code in Arduino check for previous compilations?
+a) To delete the previously generated “.o” files
+b) To use the previously generated “.o” files
+c) To relocate the previously generated “.o” files
+d) To copy the previously generated “.o” files
+b
+10. How to view each command that gets executed during the compilation process?
+a) Enable Verbose Output
+b) Disable Verbose Output
+c) Show Sketch Folder
+d) Open Serial Plotter
+a
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Preprocessing» Next - Arduino Questions and Answers – Uploading 

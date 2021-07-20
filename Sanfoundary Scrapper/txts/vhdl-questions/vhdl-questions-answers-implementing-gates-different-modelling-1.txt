@@ -1,0 +1,101 @@
+1. Which of the following is a basic building block of digital logic?
+a) Wires
+b) Nets
+c) Gates
+d) Flip-flops
+c
+2. Which of the following gate is a universal gate?
+a) AND
+b) NAND
+c) EXOR
+d) EXNOR
+b
+3. By how many modeling styles, the gates in VHDL can be implemented?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+4. Which of the following is not needed when modeling a simple gate?
+a) Library
+b) Entity
+c) Architecture
+d) Configuration
+d
+5. Which kind of modeling is used in the following description?
+ARCHITECTURE my_arch OF my_design IS
+BEGIN
+c<= a OR b;
+END my_arch;
+a) Behavioral
+b) Data flow
+c) Structural
+d) Behavioral and Dataflow
+b
+6. What is the type of modeling used in the code given below?
+ARCHITECTURE my_arch OF my_design IS
+BEGIN
+y <= ‘1’ WHEN a =’1’ AND b = ‘0’;
+       ‘0’ WHEN OTHERS;
+END my_arch;
+a) Behavioral
+b) Dataflow
+c) Structural
+d) Combinational
+a
+7. The architecture describes _______ gate implemented by _________ modeling.
+ARCHITECTURE my_arch OF my_design IS
+BEGIN
+y <= NOT(a OR b);
+END my_arch;
+a) Or, behavioral
+b) Not, Dataflow
+c) Nor, behavioral
+d) Nor, Dataflow
+d
+8. Which logic gate is described by the following model, also specify the type of modeling used?
+ARCHITECTURE my_arch OF my_design IS
+BEGIN
+WITH ab SELECT
+y <= 0 WHEN “11”
+        1 WHEN OTHERS
+END my_arch;
+a) NAND, Behavioral
+b) NOR, Behavioral
+c) NAND, Dataflow
+d) NOR, Dataflow
+a
+9. Which of the logic gate is described by the following model?
+ARCHITECTURE my_arch OF my_design IS
+BEGIN
+COMPONENT my_comp IS
+PORT( a, b : IN std_logic;
+             y     : OUT std_logic);
+END COMPONENT;
+L1 : my_comp PORTMAP( x, y, z);
+END my_arch;
+a) OR
+b) NOT
+c) AND
+d) Can’t be determined
+d
+10. The design below can’t be of ________ gate.
+ARCHITECTURE my_arch OF my_design IS
+BEGIN
+COMPONENT or_comp IS
+PORT( a, b : IN std_logic;
+             y     : OUT std_logic);
+END COMPONENT;
+L1 : or_comp PORTMAP( x, y, z);
+END my_arch;
+a) AND
+b) OR
+c) NOT
+d) NAND
+c
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Flattening and Factoring of Functions» Next - VHDL Questions and Answers – Implementing Gates with Different Modelling – 2 

@@ -1,0 +1,66 @@
+1. The log is a sequence of _________ recording all the update activities in the database.
+a) Log records
+b) Records
+c) Entries
+d) Redo
+a
+2. In the ___________ scheme, a transaction that wants to update the database first creates a complete copy of the database.
+a) Shadow copy
+b) Shadow Paging
+c) Update log records
+d) All of the mentioned
+a
+3. The ____________ scheme uses a page table containing pointers to all pages; the page table itself and all updated pages are copied to a new location.
+a) Shadow copy
+b) Shadow Paging
+c) Update log records
+d) All of the mentioned
+b
+4. The current copy of the database is identified by a pointer, called ____________ which is stored on disk.
+a) Db-pointer
+b) Update log
+c) Update log records
+d) All of the mentioned
+a
+5. If a transaction does not modify the database until it has committed, it is said to use the ___________ technique.
+a) Deferred-modification
+b) Late-modification
+c) Immediate-modification
+d) Undo
+a
+6. If database modifications occur while the transaction is still active, the transaction is said to use the ___________technique.
+a) Deferred-modification
+b) Late-modification
+c) Immediate-modification
+d) Undo
+c
+7. ____________ using a log record sets the data item specified in the log record to the old value.
+a) Deferred-modification
+b) Late-modification
+c) Immediate-modification
+d) Undo
+d
+8. In the __________ phase, the system replays updates of all transactions by scanning the log forward from the last checkpoint.
+a) Repeating
+b) Redo
+c) Replay
+d) Undo
+b
+9. The actions which are played in the order while recording it is called ______________ history.
+a) Repeating
+b) Redo
+c) Replay
+d) Undo
+a
+10. A special redo-only log record < Ti, Xj, V1> is written to the log, where V1 is the value being restored to data item Xj during the rollback. These log records are sometimes called
+a) Log records
+b) Records
+c) Compensation log records
+d) Compensation redo records
+c
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Failure Classification» Next - Database Questions and Answers – Buffer Management 

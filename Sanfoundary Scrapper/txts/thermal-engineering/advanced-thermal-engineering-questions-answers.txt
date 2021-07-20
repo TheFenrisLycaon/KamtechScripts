@@ -1,0 +1,139 @@
+1. What is Wilson line?
+a) It is an isothermal line, at which the condensation completes
+b) Saturation line of water is also called Wilson line
+c) It represents the limiting condition of undercooling at which the condensation begins
+d) It represents an Isobaric line, at which the condensation commences
+c
+2. Considering metastable expansion to be in effect, the flow of wet steam though a convergent-divergent nozzle shall result in a discharge slightly less than the calculated one.
+a) True
+b) False
+b
+3. The sudden expansion of dry saturated steam in the absence of dust, doesn’t lead to condensation until its density is about 8 times that of the saturated vapor of the same pressure.
+a) True
+b) False
+a
+4. Calculate the enthalpy drop steam enters a convergent-divergent nozzle at 11 bar and 250°C and leaves at 1 bar. The expansion is to be considered metastable.
+a) 427031.34 kJ/kg
+b) 55648.32 kJ/kg
+c) 323654.25 kJ/kg
+d) 158469.21 kJ/kg
+a
+	At 11 bar and 250°C, from steam tables
+	vg1 = 0.2108 m3/kg
+	Since the steam entering is in superheated state,
+		n = 1.3
+Enthalpy drop, hd = \(\frac{n}{n-1}\)(P1)(vg1){1-\((\frac{P_2}{P_1})^\frac{n-1}{n}\)}
+hd = \(\frac{1.3}{1.3-1}\)(11*105)(0.2108)\(\big\{1-(\frac{1}{11})^\frac{1.3-1}{1.3}\big\} \) 
+hd = 427031.34 kJ/kg.
+5. Which of the following the correct formula for calculating the exit velocity of steam through nozzle considering the expansion to be metastable.
+a) C2 = \(\sqrt{2*\frac{n+1}{n-1}(P_1)(v_{g1}){1-(\frac{P_2}{P_1})^\frac{n-1}{n}}} \) 
+b) C2 = \(\sqrt{2*\frac{n-1}{n+1}(P_1)(v_{g1}){1-(\frac{P_2}{P_1})^\frac{n+1}{n}}}
+\) 
+c) C2 = \(\sqrt{2*\frac{n}{n-1}(P_1)(v_{g1}){1-(\frac{P_2}{P_1})^\frac{n-1}{n}}}
+\) 
+d) C2 = \(\sqrt{2*\frac{n}{n-1}(P_1)(v_{g1}){1-(\frac{P_2}{P_1})^\frac{n-1}{n}}}
+\) 
+c
+ C2 = \(\sqrt{2*\frac{n}{n-1}(P_1)(v_{g1}){1-(\frac{P_2}{P_1})^\frac{n-1}{n}}}
+\) 
+6. Which of the following is the correct formula for calculating the supercooled temperature of steam, when steam metastable expansion of steam takes place inside a steam nozzle. (T2 – Supercooled temperature, T1 – Inlet temperature of steam)
+a) \(\frac{T_2}{T_1} = (\frac{P_2}{P_1})^\frac{n}{n-1} \) 
+b) \(\frac{T_2}{T_1} = (\frac{P_2}{P_1})^\frac{n+1}{n} \) 
+c) \(\frac{T_2}{T_1} = (\frac{P_1}{P_2})^\frac{n}{n-1} \) 
+d) \(\frac{T_2}{T_1} = (\frac{P_2}{P_1})^\frac{n}{n-1} \) 
+d
+\(\frac{T_2}{T_1} = (\frac{P_2}{P_1})^\frac{n}{n-1} \) 
+T2 is the supercooled temperature.
+7. Steam at 12 bar and 300°C enters a convergent-divergent steam nozzle and leaves at 3 bar. If the expansion of the steam is metastable, calculate the supercooled temperature.
+a) 165°C
+b) 143°C
+c) 154°C
+d) 120°C
+b
+	We know that,
+\(\frac{T_2}{T_1} = (\frac{P_2}{P_1})^\frac{n}{n-1} \) 
+Substituting the values, we get
+\(\frac{T_2}{573} = (\frac{3}{12})^\frac{1.3-1}{1.3} \) 
+Therefore, T2 = 416.19 K or 143.19°C ≈ 143°C.
+8. Steam at 20 bar and 300°C enters a convergent-divergent steam nozzle and is discharged at 3 bar. Considering the effects of supersaturation calculate the degree of undercooling.
+a) 36.65°C
+b) 45.54°C
+c) 23.32°C
+d) 62.87°C
+a
+At 3 bar, from steam tables
+Tsat = 133.5°C
+n=1.3
+Supercooled temperature, T2 = T1 \((\frac{P_2}{P_1})^\frac{n}{n-1}\) = 573\((\frac{3}{20})^\frac{1.3-1}{1.3}\) = 369.85 K or 96.85°C
+Degree of undercooling = Tsat – T2 = 133.5 – 96.85 = 36.65°C.
+9. Calculate the degree of supersaturation if steam at 10 bar 250°C is discharged at 2 bar by a convergent-divergent nozzle. Consider metastable steam expansion and negligible inlet velocity.
+a) 5.65
+b) 3.11
+c) 2.15
+d) 2.36
+b
+Index of expansion, n = 1.3
+Supercooled temperature, T2 = T1 \((\frac{P_2}{P_1})^\frac{n}{n-1}\) = 523\((\frac{2}{10})^\frac{1.3-1}{1.3}\) = 360.74 K or 87.74 °C
+Saturation pressure corresponding to 87.74°C, Psat = 0.64309 bar (using interpolation)
+Degree of supersaturation = \(\frac{P_2}{P_{sat}} = \frac{2}{0.64309}\) = 3.11.
+10. Steam at 15 bar pressure and 250°C enters a convergent-divergent steam nozzle and leaves at 4 bar. The mass flow rate is 5 kg/s. Calculate the exit area of the nozzle if the expansion is metastable.
+a) 0.00542187 m2
+b) 0.0029147 m2
+c) 0.036521 m2
+d) 0.003265 m2
+b
+At 15 bar and 250°C, from steam tables
+vg1 = 0.1520 m3/kg
+Exit velocity, C2 = \(\sqrt{2*\frac{n-1}{n+1}(P_1)(v_{g1}){1-(\frac{P_2}{P_1})^\frac{n+1}{n}}} \) 
+C2 = \(\sqrt{2*\frac{1.3}{1.3-1}(15*10^5)(0.1520)\big\{1-(\frac{4}{15})^\frac{1.3-1}{1.3}\big\}}\) 
+C2 = 720.74 m/s
+We know that,
+vg2 = \((\frac{P_1}{P_2})^\frac{1}{n}\)*vg1 = \((\frac{15}{4})\frac{1}{1.3}\)*0.1520 = 0.42015 m3/kg
+Mass flow rate, m = \(\frac{A_2*C_2}{v_{g2}} \) 
+5 = \(\frac{A2*720.74}{0.42015} \) 
+A2 = 0.0029147 m2
+11. What is the value of index of expansion for supersaturated steam. (Pvn=C, n is the index of expansion)
+a) 1.300
+b) 1.013
+c) 1.135
+d) 1.000
+a
+Therefore, supersaturated steam follows the following law –
+			Pv1.3 = Constant.
+12. Which of the following statement about metastable expansion of steam through a steam nozzle is FALSE?
+a) It increases the discharge through the nozzle
+b) Steam is undercooled to a temperature less than that corresponding to its pressure
+c) Density of steam is increased
+d) Exit velocity of the steam is increased
+d
+13. The point on the h-s diagram at which the condensation beings and normal conditions of thermal equilibrium are restored is said to be on _____
+a) wilson line
+b) saturation vapor curve
+c) constant dryness fraction line
+d) constant pressure line
+a
+14. Which of the following is NOT an effect of supersaturation in steam flowing through a convergent-divergent nozzle?
+a) Increase in specific volume of steam
+b) Increase in the entropy of steam
+c) Improvement in dryness fraction
+d) Increase in the enthalpy drop
+d
+15. Determine the exit pressure of steam if the steam enters a nozzle at 11 bar and 300°C. At the outlet it is observed that the specific volume of the steam is 0.86804 m3/kg. The expansion of steam is metastable.
+a) 4 bar
+b) 3 bar
+c) 2 bar
+d) 1 bar
+c
+	At 11 bar and 300°C, from steam tables
+		vg1 = 0.2339 m3/kg
+	we know that,
+P1vg1n = P2vg2n
+	Substituting the values
+		11(0.2339)1.3 = P2(0.86804)1.3
+	P2 = 2 bar.
+Sanfoundry Global Education & Learning Series – Thermal Engineering
+To practice advanced questions and answers on all areas of Thermal Engineering,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Thermal Engineering Questions and Answers – Nozzle Efficiency» Next - Thermal Engineering Questions and Answers – Relationship Between Area, Velocity and Pressure in Nozzle Flow 

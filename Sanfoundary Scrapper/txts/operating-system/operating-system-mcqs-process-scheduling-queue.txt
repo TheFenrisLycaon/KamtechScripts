@@ -1,0 +1,97 @@
+1. Which of the following do not belong to queues for processes?
+a) Job Queue
+b) PCB queue
+c) Device Queue
+d) Ready Queue
+b
+2. When the process issues an I/O request __________
+a) It is placed in an I/O queue
+b) It is placed in a waiting queue
+c) It is placed in the ready queue
+d) It is placed in the Job queue
+a
+3. What will happen when a process terminates?
+a) It is removed from all queues
+b) It is removed from all, but the job queue
+c) Its process control block is de-allocated
+d) Its process control block is never de-allocated
+a
+4. What is a long-term scheduler?
+a) It selects processes which have to be brought into the ready queue
+b) It selects processes which have to be executed next and allocates CPU
+c) It selects processes which heave to remove from memory by swapping
+d) None of the mentioned
+a
+5. If all processes I/O bound, the ready queue will almost always be ______ and the Short term Scheduler will have a ______ to do.
+a) full, little
+b) full, lot
+c) empty, little
+d) empty, lot
+c
+6. What is a medium-term scheduler?
+a) It selects which process has to be brought into the ready queue
+b) It selects which process has to be executed next and allocates CPU
+c) It selects which process to remove from memory by swapping
+d) None of the mentioned
+c
+7. What is a short-term scheduler?
+a) It selects which process has to be brought into the ready queue
+b) It selects which process has to be executed next and allocates CPU
+c) It selects which process to remove from memory by swapping
+d) None of the mentioned
+b
+8. The primary distinction between the short term scheduler and the long term scheduler is __________
+a) The length of their queues
+b) The type of processes they schedule
+c) The frequency of their execution
+d) None of the mentioned
+c
+9. The only state transition that is initiated by the user process itself is __________
+a) block
+b) wakeup
+c) dispatch
+d) none of the mentioned
+a
+10. In a time-sharing operating system, when the time slot given to a process is completed, the process goes from the running state to the __________
+a) Blocked state
+b) Ready state
+c) Suspended state
+d) Terminated state
+b
+11. In a multiprogramming environment __________
+a) the processor executes more than one process at a time
+b) the programs are developed by more than one person
+c) more than one process resides in the memory
+d) a single user can execute many programs at the same time
+c
+12. Suppose that a process is in “Blocked” state waiting for some I/O service. When the service is completed, it goes to the __________
+a) Running state
+b) Ready state
+c) Suspended state
+d) Terminated state
+b
+13. The context of a process in the PCB of a process does not contain __________
+a) the value of the CPU registers
+b) the process state
+c) memory-management information
+d) context switch time
+d
+14. Which of the following need not necessarily be saved on a context switch between processes?
+a) General purpose registers
+b) Translation lookaside buffer
+c) Program counter
+d) All of the mentioned
+b
+15. Which of the following does not interrupt a running process?
+a) A device
+b) Timer
+c) Scheduler process
+d) Power failure
+c
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions and Answers – Process Control Block» Next - Operating System Questions & Answers – Process Synchronization 

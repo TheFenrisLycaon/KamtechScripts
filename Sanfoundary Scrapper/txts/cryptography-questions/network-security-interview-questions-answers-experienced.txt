@@ -1,0 +1,78 @@
+1. Convert the following binary notation to dotted-decimal notation –
+10000000 00001011 00000011 00011111
+a) 128.11.5.32
+b) 128.11.3.31
+c) 127.11.3.32
+d) 127.12.5.31
+b
+2. Convert the following binary notation to hexadecimal notation –
+10000000 00001011 00000011 00011111
+a) 0x 80 0B 03 1E
+b) 0x 81 0B 04 1E
+c) 0x 80 0C 03 1F
+d) 0x 80 0B 03 1F
+d
+3. Convert the following binary notation to dotted-decimal notation –
+10000001 00001011 00001011 11101111
+a) 129.11.11.239
+b) 128.11.12.231
+c) 127.11.13.244
+d) 129.12.1.231
+a
+4. Convert the following dotted-decimal notation to binary notation – 111.56.45.78
+a) 01101111 00111000 00101101 01001110
+b) 11101111 00111000 00101101 10001110
+c) 10000000 00001011 00000011 00011111
+d) 10000001 00001011 00001011 11101111
+a
+5. What is the error (if any) in the following representation – 111.56.045.78?
+a) There should be no leading zeros
+b) We cannot have more than 4 bytes in an IPv4 address
+c) Each byte should be less than or equal to 255
+d) No error
+a
+Join Sanfoundry@YouTube
+6. What is the error (if any) in the following representation – 221.34.7.8.20?
+a) There should be no leading zeros
+b) Each byte should be less than or equal to 255
+c) We cannot have more than 4 bytes in an IPv4 address
+d) No error
+c
+7. What is the error (if any) in the following representation – 75.45.301.14?
+a) There should be no leading zeros
+b) We cannot have more than 4 bytes in an IPv4 address
+c) Each byte should be less than or equal to 255
+d) No error
+c
+8. What is the error (if any) in the following representation – 11100010.23.14.67?
+a) There should be no leading zeros
+b) We cannot have more than 4 bytes in an IPv4 address
+c) Each byte should be less than or equal to 255
+d) None of the mentioned
+d
+9. The following IPv4 addresses in hexadecimal notation is – 10000001 00001011 00001011 11101111-
+a) 0x810B0BEF
+b) 0x810D0AFF
+c) 0x810B0BFE
+d) 0x810C0CEF
+a
+10. Find the number of addresses in a range if the first address is 146.102.29.0 and last address is 146.102.32.255.
+a) 1028
+b) 1024
+c) 578
+d) 512
+b
+The result = 0.0.3.255
+Therefore, number of addresses = (3 X 256 + 255) + 1 = 1024.
+11. The first address in a range of addresses is 14.11.45.96. If the number of addresses in the range is 32, what is the last address?
+a) 14.11.44.64
+b) 14.11.44.128
+c) 14.12.44.128
+d) 14.11.45.127
+d
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Network Security for interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Networking Questions and Answers – IP Datagram Packet» Next - Networking Questions and Answers – Classful Addressing 

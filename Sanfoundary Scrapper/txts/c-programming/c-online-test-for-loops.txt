@@ -1,0 +1,57 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Accenture and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Accenture interviews on C Programming language. 
+Here is a listing of online C test questions on “For Loops” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        double k = 0;        for (k = 0.0; k < 3.0; k++);            printf("%lf", k);    }
+a) 2.000000
+b) 4.000000
+c) 3.000000
+d) Run time error
+c
+2. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int k;        for (k = -3; k < -5; k++)            printf("Hello");    }
+a) Hello
+b) Infinite hello
+c) Run time error
+d) Nothing
+d
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0;        for (; ; ;)            printf("In for loop\n");            printf("After loop\n");    }
+a) Compile time error
+b) Infinite loop
+c) After loop
+d) Undefined behaviour
+a
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0;        for (i++; i == 1; i = 2)            printf("In for loop ");            printf("After loop\n");    }
+a) In for loop after loop
+b) After loop
+c) Compile time error
+d) Undefined behaviour
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0;        for (foo(); i == 1; i = 2)            printf("In for loop\n");            printf("After loop\n");    }    int foo()    {        return 1;    }
+a) After loop
+b) In for loop after loop
+c) Compile time error
+d) Infinite loop
+a
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int *p = NULL;        for (foo(); p; p = 0)            printf("In for loop\n");            printf("After loop\n");    }
+a) In for loop after loop
+b) Compile time error
+c) Infinite loop
+d) Depends on the value of NULL
+b
+7. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        for (int i = 0;i < 1; i++)            printf("In for loop\n");    }
+a) Compile time error
+b) In for loop
+c) Depends on the standard compiler implements
+d) Depends on the compiler
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – For Loops – 1» Next - C Programming Questions and Answers – While Loops – 1 

@@ -1,0 +1,105 @@
+1. The EWMA charts are constructed by plotting _______________ versus the sample number i or the time.
+a) The sample observation, xi
+b) The sample variance, σ2
+c) The variance of variable zi i.e. \(\sigma_{z_i}^2\) 
+d) The variable zi
+d
+2. The UCL of the EWMA charts is given by ______________
+a) UCL=\(μ_0+Lσ\sqrt{[\frac{λ}{2-λ}\big\{1-(1-λ)^{2i}\big\}]}\) 
+b) UCL=\(μ_0-Lσ\sqrt{[\frac{λ}{2-λ}\big\{1-(1-λ)^{2i}\big\}]}\) 
+c) UCL=\(μ_0-Lσ\sqrt{[\frac{λ}{2-λ}\big\{1-(1+λ)^{2i}\big\}]}\) 
+d) UCL=\(μ_0+Lσ\sqrt{[\frac{λ}{2-λ}\big\{1-(1+λ)^{2i}\big\}]}\) 
+a
+UCL=\(μ_0+Lσ\sqrt{[\frac{λ}{2-λ}\big\{1-(1-λ)^{2i}\big\}]}\)
+3. What is the center line value of the EWMA charts?
+a) 0
+b) 1
+c) x
+d) μ0
+d
+CL=μ0
+4. What is the value of L=2.27 upper control limit for a EWMA chart which has value of λ=0.10 and the value of the standard deviation σ=1 and the value of μ0=10?
+a) 10.41
+b) 9.59
+c) 10.27
+d) 10.10
+c
+UCL=\(μ_0+Lσ\sqrt{[\frac{λ}{2-λ}\big\{1-(1-λ)^{2i}\big\}]}\) 
+Putting the values, we get UCL=10.27.
+5. What is the value of LCL of EWMA control charts?
+a) LCL=\(μ_0+Lσ\sqrt{[\frac{λ}{2-λ}\big\{1-(1-λ)^{2i}\big\}]}\) 
+b) LCL=\(μ_0-Lσ\sqrt{[\frac{λ}{2-λ}\big\{1-(1-λ)^{2i}\big\}]}\) 
+c) LCL=\(μ_0-Lσ\sqrt{[\frac{λ}{2-λ}\big\{1-(1+λ)^{2i}\big\}]}\) 
+d) LCL=\(μ_0+Lσ\sqrt{[\frac{λ}{2-λ}\big\{1-(1+λ)^{2i}\big\}]}\) 
+b
+LCL=\(μ_0-Lσ\sqrt{[\frac{λ}{2-λ}\big\{1-(1-λ)^{2i}\big\}]}\)
+Join [email protected]
+6. When the EWMA charts are in operation for quite a long period, what will be the value of the UCL of the chart?
+a) UCL=\(μ_0+Lσ\sqrt{\left\{\frac{λ}{2-λ}\right\}}\) 
+b) UCL=\(μ_0-3Lσ\sqrt{\left\{\frac{λ}{2-λ}\right\}}\) 
+c) UCL=\(μ_0+2Lσ\sqrt{\left\{\frac{λ}{2-λ}\right\}}\) 
+d) UCL=\(μ_0-Lσ\sqrt{\left\{\frac{λ}{2-λ}\right\}}\) 
+a
+UCL=\(μ_0+Lσ\sqrt{\left\{\frac{λ}{2-λ}\right\}}\)
+7. What will be the value of the UCL for a control chart, which has the value of λ=0.10, L=2.7, σ=1 and μ0=10? The value of i can be assumed quite large.
+a) UCL=10.67
+b) UCL=10.62
+c) UCL=9.38
+d) UCL=9.37
+b
+UCL=\(μ_0+Lσ\sqrt{\left\{\frac{λ}{2-λ}\right\}}\) 
+Putting the values, we get UCL=10.62.
+8. What is the LCL value when the value of i  becomes high in the EWMA charts?
+a) LCL=\(μ_0-6Lσ\sqrt{\left\{\frac{λ}{2-λ}\right\}}\) 
+b) LCL=\(μ_0+3Lσ\sqrt{\left\{\frac{λ}{2-λ}\right\}}\) 
+c) LCL=\(μ_0+Lσ\sqrt{\left\{\frac{λ}{2-λ}\right\}}\) 
+d) LCL=\(μ_0-Lσ\sqrt{\left\{\frac{λ}{2-λ}\right\}}\) 
+d
+LCL=\(μ_0-Lσ\sqrt{\left\{\frac{λ}{2-λ}\right\}}\)
+9. After some time, i  in the equation of LCL becomes high. What will be the value of λ when this occurs? You may use, LCL=9.38, the standard deviation= 1 and the target mean = 10.
+a) 0.1
+b) 2.8
+c) 3.0
+d) 6.0
+a
+LCL=\(μ_0-Lσ\sqrt{\left\{\frac{λ}{2-λ}\right\}}\) 
+Here, we consider the high value of i. When we put the given values, we get, λ=0.1.
+10. Which of the parameters are chosen wisely in the case of EWMA charts to get a desired ARL?
+a) Only L
+b) Only σ
+c) Both, L and λ
+d) Only λ
+c
+11. When the value of λ is small, and if the value of EWMA is on one side of the CL and the shift of mean occurs in the opposite direction, EWMA takes several periods to react to that shift. This is called _____
+a) Weight effect
+b) Stationary effect
+c) Inertia effect
+d) Tendency effect
+c
+12. How is the effectiveness of EWMA charts by inertia effect?
+a) Increase
+b) Decrease
+c) No change
+d) Can either decrease or increase
+b
+13. Which of these values of λ gives the weights given to current and previous observations matching as closely as possible the weights when these observations give by a Shewhart chart with the WE rules?
+a) 0.7
+b) 0.9
+c) 0.2
+d) 0.4
+d
+14. The control limits of EWMA charts do not depend on the sample number when the sample number becomes quite large.
+a) True
+b) False
+a
+Control limits of EWMA = \(μ_0±Lσ\sqrt{\frac{λ}{2-λ}}\) 
+15. ARL of the process, when EWMA is used, does not depend on σ.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Time-Weighted – EWMA Control Chart – 1» Next - Statistical Quality Control Questions and Answers – Time-Weighted – EWMA Control Chart – 3 

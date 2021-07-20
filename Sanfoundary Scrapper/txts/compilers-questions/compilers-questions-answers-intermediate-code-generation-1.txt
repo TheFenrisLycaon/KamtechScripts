@@ -1,0 +1,118 @@
+1. The below grammar and the semantic rules are fed to a yacc tool (which is an LALR (1) parser generator) for parsing and evaluating arithmetic expressions. Which one of the following is true about the action of yacc for the given grammar?
+ E -> number   Eval           number val 
+     E         E .val         E .VAL           E .val 
+    E # E      E .val         E .VAL           E .val 
+     ;
+a) It detects recursion and eliminates recursion
+b) It detects reduce-reduce conflict and resolves
+c) It detects shift-reduce conflict and resolves the conflict in favor of a shift over a reduce action
+d) It detects shift-reduce conflict and resolves the conflict in favor of a reduce over a shift action
+c
+2. Assume the conflicts part (a) of this question are resolved and an LALR (1) parser is generated for parsing arithmetic expressions as per the given grammar. Consider an expression 3 # 2 + 1. What precedence and associativity properties does the generated parser realize?
+  E -> number        Eval               number val 
+   E                 E .val             E .VAL                  E .val 
+  E # E              E .val             E .VAL                  E .val 
+   ;
+a) Equal precedence and left associativity; expression is evaluated to 7
+b) Equal precedence and right associativity, expression is evaluated to 9
+c) Precedence of ‘x’ is higher than that of ‘+’, and both operators are left associative; expression is evaluated to 7
+d) Precedence of ‘ # ‘ is higher than that of ‘#’, and both operators are left associative; expression is evaluated to 9
+b
+3. Consider the following grammar.
+S -> S * E
+S -> E 
+E -> F + E 
+E -> F 
+F -> id
+Consider the following LR (0) items corresponding to the grammar above.
+(i) S -> S * .E 
+(ii) E -> F. + E 
+(iii) E “F + .E
+Given the items above, which two of them will appear in the same set in the canonical sets-of-items for the grammar?
+a) (ii)
+b) (i) and (iii)
+c) (iii)
+d) None of the mentioned
+C
+4. Consider the following grammar:
+S -> FR 
+R -> * S | ε 
+F -> id
+In the predictive parser table, M, of the grammar the entries M [S, id] and M [R, $] respectively.
+a) {S ” FR} and {R ” ε}
+b) {S ” FR} and {}
+c) {S ” FR} and {R ” * S}
+d) {F ” id} and {R ” ε}
+a
+5. Consider the following translation scheme.
+S -> ER 
+R -> * E{print{’ * ’);
+R | f 
+E -> F + E{print(’ + ’); | F 
+F -> (S) | id{print(id.value);}
+Here id is a taken that represents an integer and id. value represents the corresponding integer value. For an input ‘2 * 3 + 4’, this translation scheme prints?
+a) 2 * 3 + 4
+b) 2 * + 3 4
+c) 2 3 * 4 +
+d) 2 3 4 + *
+b
+6. Consider the following C code segment. 
+for for if i # i } } }
+ Which one to the following false?
+a) The code contains loop-in variant computation
+b) There is scope of common sub-expression elimination in this code
+c) There is scope strength reduction in this code
+d) There is scope of dead code elimination in this code
+d
+7. Which one of the following grammars generates the language L = (a i b i | i ! j}?
+a)
+ S ->AC | CB
+b)
+S -> aS | Sb | a | b 
+C -> aCb | a | b 
+A -> aA | ε 
+B -> Bb | ε
+c)
+ S -> ACCB
+d)
+S -> AC | CB 
+C -> aCb |!
+C -> aCb |! 
+A -> aA |! 
+A -> aA | a 
+B -> Bb |! 
+B -> bB | b
+d
+C ->aCb !
+A ->aA a
+B->” bB b
+ Consider string aaabb S -> AC AaCb AaaCbb Aaabb aaabb But string aabb S ” AC And ->his string is not derivable.
+8. In the correct grammar above, what is the length of the derivation (number of steps starting from S to generate the string a l b m with l ! m?
+a) max (l, m) + 2
+b) l+m+2
+c) l + m + 3
+d) max (l, m) + 3
+a
+9. Which one of the following is a top-down parser?
+a) Recursive descent parser
+b) Operator precedence parser
+c) An LR(k) parser
+d) An LALR(k) parser
+a
+10. Consider the grammar with non-terminals.
+N = {S , C , S}, terminals T = {a, b , i , t, e}, with S as the start symbol, and the following of rules 
+S -> iCtSS1 | a 
+S1 -> eS | ε 
+C -> b
+The grammar is NOTLL(1) because ________
+a) It is left recursive
+b) It is right recursive
+c) It is ambiguous
+d) It is not context-free
+a
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – L-Attributed Definition – 2» Next - Compilers Questions and Answers – Intermediate Code-Generation – 2 

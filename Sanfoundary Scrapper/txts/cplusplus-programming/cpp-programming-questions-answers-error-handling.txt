@@ -1,0 +1,102 @@
+This section on C++ programming questions and answers focuses on “Error Handling”. One shall practice these questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ programming questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ programming questions on “Error Handling” along with answers, explanations and/or solutions:
+1. Which keyword is used to handle the expection?
+a) try
+b) throw
+c) catch
+d) handler
+c
+2. Which is used to throw a exception?
+a) throw
+b) try
+c) catch
+d) handler
+a
+eg: 
+
+if(divisor == 0)
+{
+    throw "Divide by zero error";
+}
+3. What is the use of the ‘finally’ keyword?
+a) It used to execute at the starting of the program
+b) It will be executed at the end of the program even if the exception arised
+c) It will be executed at the starting of the program even if the exception arised
+d) It will be executed at the middle of the program even if the exception arised
+b
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    double division(int a, int b)    {        if (b == 0)        {            throw "Division by zero condition!";        }        return (a / b);    }    int main ()    {        int x = 50;        int y = 0;        double z = 0;        try         {            z = division(x, y);            cout << z << endl;        }        catch (const char* msg)         {            cerr << msg << endl;        }        return 0;    }
+a) 50
+b) 0
+c) Division by zero condition!
+d) Error
+c
+Output:
+$ g++ excep.cpp
+$ a.out
+Division by zero condition!
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main ()     {        try        {            throw 20;        }        catch (int e)        {            cout << "An exception occurred " << e << endl;        }        return 0;    }
+a) 20
+b) An exception occurred
+c) Error
+d) An exception occurred 20
+d
+Output:
+$ g++ excep1.cpp
+$ a.out
+An exception occurred 20
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <exception>    using namespace std;    class myexception: public exception    {        virtual const char* what() const throw()        {            return "My exception";        }    } myex;    int main ()     {        try        {            throw myex;        }        catch (exception& e)        {            cout << e.what() << endl;        }        return 0;    }
+a) Exception
+b) Error
+c) My exception
+d) Runtime error
+c
+Output:
+$ g++ excep2.cpp
+$ a.out
+My exception
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <exception>    using namespace std;    int main ()     {        try        {            int* myarray = new int[1000];            cout << "allocated";        }        catch (exception& e)        {            cout << "Standard exception: " << e.what() << endl;        }        return 0;    }
+a) Allocated
+b) Standard exception
+c) Depends on the memory
+d) Error
+c
+Output:
+$ g++ excep3.cpp
+$ a.out
+allocated
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <exception>    using namespace std;    struct MyException : public exception    {        const char * what () const throw ()        {            return "C++ Exception";        }    };    int main()    {        try        {            throw MyException();        }        catch(MyException& e)        {            cout << "Exception caught" << std::endl;            cout << e.what() << std::endl;        }        catch(std::exception& e)        {        }        }
+a) C++ Exception
+b) Exception caught
+c) 
+   Exception caught
+   C++ Exception
+d) Error
+c
+Output:
+$ g++ excep4.cpp
+$ a.out
+C++ Exception
+Exception caught
+9. How do define the user-defined exceptions?
+a) inheriting and overriding exception class functionality
+b) overriding class functionality
+c) inheriting class functionality
+d) delting and adding class member
+a
+10. Which exception is thrown by dynamic_cast?
+a) bad_cast
+b) bad_typeid
+c) bad_exception
+d) bad_alloc
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Templates» Next - C++ Programming Questions and Answers – Grouping of Exceptions 

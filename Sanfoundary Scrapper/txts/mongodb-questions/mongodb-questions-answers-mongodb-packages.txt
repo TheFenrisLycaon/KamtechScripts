@@ -1,0 +1,67 @@
+1. ____________ does not dump the content of the local database.
+a) mongoshell
+b) mongodump
+c) mongolocaldump
+d) none of the mentioned
+b
+2. Point out the correct statement.
+a) The data format used by mongodump from version 2.2 or later is incompatible with earlier versions of mongod
+b) The replica role confers no additional access, in keeping with the policy of least privilege
+c) To backup a given database’s users, you must have the replace action on the admin database’s admin.system.users collection
+d) All of the mentioned
+a
+3. To backup all the databases in a cluster via mongodump, you should have the ___________ role.
+a) restore
+b) backup
+c) replication
+d) all of the mentioned
+b
+4. ___________ is a routing service for MongoDB shard configurations that processes queries from the application layer.
+a) mongod
+b) mongos
+c) mongocon
+d) none of the mentioned
+b
+5. Point out the wrong statement.
+a) To backup a given database, you must have read access on the database
+b) The backup role confers no additional access, in keeping with the policy of least privilege
+c) mongodumplocal overwrites output files if they exist in the backup data folder
+d) All of the mentioned
+c
+6. __________  sends all diagnostic logging information to a log file instead of to standard output or to the host’s syslog system.
+a) syspath
+b) syslog
+c) logpath
+d) syspathlog
+c
+7. ___________ is the primary daemon process for the MongoDB system.
+a) mongos
+b) mongod
+c) logpath
+d) syspathlog
+b
+8. __________ is a diagnostic tool for inspecting BSON files.
+a) jsondump
+b) bsondump
+c) bsondumpjson
+d) all of the mentioned
+b
+9. Which of the following is a utility to check disk I/O performance independently of MongoDB?
+a) mongoperf
+b) mongoio
+c) mongod
+d) none of the mentioned
+a
+10. ____________ utility makes it possible to manipulate files stored in your MongoDB instance in GridFS objects from the command line.
+a) mongoperf
+b) mongoio
+c) mongod
+d) mongofiles
+d
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – MongoDB Enterprise – 2» Next - MongoDB Questions and Answers – Getting Started with MongoDB – 1 

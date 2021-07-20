@@ -1,0 +1,105 @@
+1. Refer to the VHDL code given below, which of the following line has error?
+Line 1: SUBTYPE my_logic IS STD_LOGIC RANGE ‘0’ TO ‘1’;
+Line 2: SIGNAL a: BIT;
+Line 3: SIGNAL b: STD_LOGIC;
+Line 4: SIGNAL c: my_logic;
+Line 5: b<=a;
+Line 6: b<=c;
+a) Line 1
+b) Line 4
+c) Line 5
+d) Line 6
+c
+2. One can perform basic operations between different data types.
+a) True
+b) False
+b
+3. How to correctly assign the value of 2x+10 to y in the following VHDL code?
+Join [email protected]
+TYPE long IS INTEGER RANGE -1000 TO 1000;
+TYPE short IS INTEGER RANGE -10 TO 10;
+SIGNAL x : short;
+SIGNAL y : long;
+a) y <= 2*x + 10;
+b) long y <= long 2*x + 10;
+c) short y <= long (2*x + 10);
+d) y <= long (2*x + 10);
+d
+4. In the VHDL code given below, what will be the error at the time of compilation?
+TYPE my_int IS INTEGER RANGE -32 TO 32;
+TYPE other_int IS INTEGER RANGE 0 TO 100;
+SIGNAL x : my_int;
+SIGNAL y : other_int;
+y <= x + 2;
+…
+a) Type mismatch
+b) Syntax problem
+c) No declaration
+d) Can’t compile
+a
+5. Which of the following package of IEEE contains most of the data conversion functions?
+a) std_logic_1164
+b) std
+c) std_logic_arith
+d) std_logic
+c
+6. If we are using conv_integer(p) function, then which of the following cannot be the type of parameter ‘p’?
+a) STD_LOGIC VECTOR
+b) STD_ULOGIC
+c) INTEGER
+d) SIGNED
+a
+7. In the function conv_unsigned(p, b), what does p and b refers to?
+a) p is the data object to be converted and b is the base of that data object
+b) p is the data object to be converted amd b is the bits needed in converted variable
+c) p is the parameter to be converted and b is the bits of same parameter
+d) p is the type of data to be converted and b is the type of data into which p should be converted
+b
+8. Which of the following is the correct syntax to convert INTEGER ‘p’ into SIGNED number of ‘b’ bits?
+a) conv_integer_signed(p,b);
+b) conv_signed_integer(p,b);
+c) conv_signed(p,b);
+d) conv_signed_p(b);
+c
+9. The function conv_std_logic_vector(p,b) is used for_______
+a) Converting ‘p’ form STD_LOGIC_VECTOR to STD_LOGIC type
+b) Converting any data type ‘p’ into STD_LOGIC_VECTOR with ‘b’ bits
+c) Converting STD_LOGIC_VECTOR into ‘p’ type with ‘b’ bits
+d) Converting STD_LOGIC into STD_LOGIC_VECTOR
+b
+10. What will be the value of y after the execution of the following VHDL code?
+Library ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+…
+SIGNAL m : UNSIGNED (3 DOWNTO 0);
+SIGNAL n : UNSIGNED (3 DOWNTO 0);
+SIGNAL y : STD_LOGIC_VECTOR (7 DOWNTO 0);
+y <=CONV_STD_LOGIC_VECTOR ((m+n), 8);
+…
+a) 8- bit STD_LOGIC_VECTOR m+n
+b) 8- bit UNSIGNED m+n
+c) 4- bit STD_LOGIC m+n
+d) Error
+a
+11. Refer to the VHDL code given below, what will be the output?
+Library ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+…
+SIGNAL a : IN INTEGER;
+SIGNAL b : IN UNSIGNED (3 DOWNTO 0);
+SIGNAL y : OUT STD_LOGIC_VECTOR (7 DOWNTO 0);
+y <<=CONV_STD_LOGIC_VECTOR ((a+b), 8);
+…
+a) 8- bit STD_LOGIC_VECTOR a+b
+b) 8- bit UNSIGNED a+b
+c) 4- bit STD_LOGIC_VECTOR a+b
+d) Error
+d
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – User defined Data Types» Next - VHDL Questions and Answers – Operators – 1 

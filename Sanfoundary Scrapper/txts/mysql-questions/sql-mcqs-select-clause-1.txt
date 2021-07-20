@@ -1,0 +1,71 @@
+1. What is the meaning of “SELECT” clause in Mysql?
+a) Show me all Columns and rows
+b) Show me all columns
+c) Show me all rows
+d) None of the mentioned
+a
+2. Which of the following clause is evaluated in the last by database server?
+a) SELECT
+b) WHERE
+c) FROM
+d) None of the mentioned
+a
+3. What will be the output of the following SQL statement?
+SELECT *
+ FROM person;
+a) Show all rows and columns of table “person”
+b) Show all rows of table “person”
+c) Show all columns of table “person”
+d) None of the mentioned
+a
+Join Sanfoundry@YouTube
+4. What will be the output of of the following SQL statement?
+SELECT person_id, Fname, lname
+FROM person;
+a) Show only columns (person_id, Fname, lname) and rows related to these columns
+b) Show only columns (person_id, Fname, lname)
+c) Show all rows
+d) Show all columns except (person_id, Fname, lname)
+a
+5. Can “SELECT” clause be used without the clause “FROM”?
+a) YES
+b) NO
+c) DEPENDS
+d) None of the mentioned
+b
+6. Find the error in the following SQL statement?
+SELECT *;
+a) No Error
+b) No table mentioned
+c) Depends
+d) None of the mentioned
+b
+7. What will be the output of the following SQL statement?
+SELECT  * FROM person
+WHERE person_id=1;
+a) Show all columns but only those rows which belongs to person_id=1
+b) Show all columns and rows
+c) Shows only columns person_id
+d) None of the mentioned
+a
+8. What will be the output of the following SQL statement?
+SELECT person_id, fname, lname
+FROM person
+WHERE person_id=1;
+a) Show only columns(person_id, fname, lname) but only those rows which belongs to person_id=1
+b) Show all columns and rows
+c) Shows only columns person_id
+d) None of the mentioned
+a
+9. Which clause is mandatory with clause “SELECT” in Mysql?
+a) FROM
+b) WHERE
+c) Both FROM and WHERE
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Comment Syntax» Next - MySQL Questions and Answers – The select Clauses – 2 

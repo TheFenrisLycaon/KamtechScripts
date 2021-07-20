@@ -1,0 +1,133 @@
+1. In the circuit given below, C= C1 = C2. The gain of the multiple-feedback band-pass filter is ___________
+a) A0 = \(\frac{R_2}{R_1}\) 
+b) A0 = \(\frac{R_1}{R_2}\) 
+c) A0 = \(\frac{R_2}{2R_1}\) 
+d) A0 = \(\frac{R_1}{2R_2}\) 
+c
+∴ The total Resistance is equal to the Resistance input and Resistance output.
+Again, the total resistance gain = \(\frac{R_1 R_2}{R_1 + R_2}\) 
+Hence, the gain = A0 = \(\frac{R_2}{2R_1}\).
+2. Two network functions are given below.
+H1 = \(\frac{1}{s^2 + \sqrt{2}s+1}\), H2 = \(\frac{1}{s^3+2s^2+2s+1}\) 
+The frequency response indicates that the filter is ___________
+a) Low-pass
+b) Band-pass
+c) High-pass
+d) Band reject
+a
+Similarly, | H2 |2 = \(\frac{1}{1 + ω^6}\) 
+Therefore at ω = 0, 1 and ∞, we have | H |2 = 1, \(\frac{1}{2}\) and 0 respectively.
+Hence, the filter is a Low-pass filter.
+3. A particular band-pass function has a network function as H(s) = \(\frac{3s}{s^2+4s+3}\) then, its quality factor Q is ___________
+a) \(\frac{3}{4}\) 
+b) \(\frac{2}{\sqrt{3}}\) 
+c) \(\frac{\sqrt{3}}{2}\) 
+d) \(\frac{\sqrt{3}}{4}\) 
+d
+Then, quality factor is given as \(\frac{\sqrt{b}}{a}\) 
+Here, b = 3, a = 4
+∴ Q = \(\frac{\sqrt{3}}{4}\).
+4. In which of the filter circuits given below, will the bandwidth be equal to the critical frequency?
+a) Low-pass
+b) High-pass
+c) Band-pass
+d) Band-stop
+a
+Largest positive value – Smallest Positive Value
+Here, in case of the Low-pass filter only, the largest positive value will of course be the critical frequency, beyond which frequencies have to be blocked. Hence, the bandwidth in a Low-pass filter equals the critical frequency.
+5. In the circuit given below, the Roll-off of the filter is _______________
+a) 20 dB/decade
+b) 40 dB/decade
+c) 60 dB/decade
+d) 80 dB/decade
+a
+Also, the Roll-off of the filter is depends upon the order of the filter.
+For a first order it is 20dB/decade, for second order it is 40dB/decade, and so on.
+Therefore, the Roll-off of the filter = 20 dB/decade.
+Join Sanfoundry@YouTube
+6. The circuit given below, represents which filter?
+a) Low-pass
+b) High-pass
+c) Band-pass
+d) Band-stop
+b
+Therefore the circuit represents a High-pass Filter.
+7. A Low-pass filter circuit has a cut-off frequency of 1.23 kHz. The bandwidth of the filter is ______________
+a) 2.46 kHz
+b) 1.23 kHz
+c) 0.615 kHz
+d) 3.69 kHz
+b
+For a Low-pass filter therefore, Cut-off Frequency = Bandwidth of the filter
+∴ Bandwidth = 1.23 kHz.
+8. For the circuit given below, the Roll-off value of the filter is _____________
+a) 20 dB/decade
+b) 40 dB/decade
+c) 60 dB/decade
+d) 80 dB/decade
+d
+Therefore, the Roll-off of the filter = 20 dB/decade.
+Roll of first order low pass Butterworth filter is 20dB/decade.
+Now here two stages of second order Low-pass Butterworth filter are cascaded
+∴ Roll-off = 20*4 = 80 dB/decade.
+9. For providing a Roll-off greater than 20dB/decade/pole, filters with which characteristics are useful?
+a) Butterworth
+b) Chebyshev
+c) Bessel
+d) Butterworth & Bessel
+b
+For a Chebyshev filter, the Roll-off value greater than 20. This characteristic feature is useful when a rapid roll-off is required because it provides a Roll-off rate of more than 20.
+On the other hand, both Butterworth and Bessel have the Roll-off rate less than or equal to 20 dB/decade/pole.
+10. In a moving iron meter, the deflection torque is proportional to?
+a) Square of the current through the coil
+b) Current through the coil
+c) Sine of measurand
+d) The Square root of the measurand
+a
+Hence, the deflection torque is proportional to the square of the current through the coil.
+11. The filter which passes all frequencies above fc by attenuating significantly, all frequencies below fc is _______________
+a) Low-pass
+b) High-pass
+c) Band-pass
+d) Band-stop
+b
+12. The circuit given below represents which type of filter circuit?
+a) Low-pass Filter
+b) High-pass Filter
+c) Band-pass Filter
+d) Band-stop Filter
+c
+13. For the circuit given below, the cut-off frequency of the filter is ________________
+a) 3225.8 Hz
+b) 7226 Hz
+c) 3225.8 kHz
+d) 7226 kHz
+c
+Where, R1 = 4700 Ω, R2 = 4700 Ω, C1 = 0.047 × 10-6 F, C2 = 0.047×10-6 F
+∴ F = \(\frac{1}{2π×(4700×4700)×(C_1×C_2)}\) 
+= \(\frac{1}{2π×48796.81×10^{-12}}\) 
+= \(\frac{10^6}{2π×0.04879681}\) 
+= \(\frac{10^6}{0.30654156042}\) = 3225.8 kHz.
+14. The circuit given below represents which type of filter circuit?
+a) Low-pass Filter
+b) High-pass Filter
+c) Band-pass Filter
+d) Band-stop Filter
+b
+Here since R and C are in series and also R is not connected directly to the power source, hence the filter is a High-pass Filter.
+15. For the circuit given below, the cut-off frequency of the filter is ________________
+a) 5283 kHz
+b) 5283 Hz
+c) 2653.1 kHz
+d) 2653.1 Hz
+d
+Where, R = 1200 Ω, C1 = 0.05×10-6 F
+∴ F = \(\frac{1}{2π×1200×C}\) 
+= \(\frac{1}{2π×60×10^{-6}}\) 
+= \(\frac{10^6}{2π×60}\) = 2653.1 Hz.
+Sanfoundry Global Education & Learning Series – Network Theory.
+To practice all areas of Network Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Theory Questions and Answers – Shunt Equalizer» Next - Network Theory Questions and Answers – Advanced Problems on Filters – 2 

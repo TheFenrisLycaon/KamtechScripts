@@ -1,0 +1,62 @@
+1. Which key declares that an index in one table is related to that in another?
+a) primary
+b) secondary
+c) foreign
+d) cross
+c
+2. Foreign keys cannot handle deletes and updates.
+a) True
+b) False
+b
+3. Deletion of an employee from table also deletes that employee from another table. This kind of delete is called ____________
+a) transparent
+b) concrete
+c) elaborate
+d) cascaded
+d
+4. Which storage engine in MySQL provides foreign key support?
+a) TRANSACTION
+b) InnoDB
+c) MyISAM
+d) MEMORY
+b
+5. The property of InnoDB that enforces foreign key relationships stay intact is called _____________
+a) atomicity
+b) durability
+c) consistency
+d) referential integrity
+d
+6. Which clause names the parent table and the index columns in the table?
+a) REFERENCES
+b) ON DELETE
+c) CONSTRAINT
+d) FOREIGN KEY
+a
+7. If the storage engine InnoDB is not used, foreign key cannot be used.
+a) True
+b) False
+a
+8. Which clause is used to remove a foreign key constraint?
+a) REMOVE
+b) DELETE
+c) DROP
+d) EXCLUDE
+c
+9. Which keyword is used to specify the foreign key after the table is created?
+a) SETUP
+b) SET
+c) ALTER TABLE
+d) SPECIFY
+c
+10. Which clause in the SQL standard controls how NULL values in a composite foreign key are handled when comparing to a primary key.
+a) SET
+b) MATCH
+c) ON DELETE
+d) ON CASCADE
+b
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Performing Transactions» Next - MySQL Questions and Answers – Using Full Text Searches 

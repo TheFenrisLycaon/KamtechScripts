@@ -1,0 +1,52 @@
+1. User defined variables are session specific.
+a) True
+b) False
+a
+2. Hexadecimal values assigned to user variables are treated as _____________
+a) strings
+b) non binary strings
+c) binary strings
+d) integers
+c
+3. What is the type of Audit_log_events system variable?
+a) string
+b) integer
+c) float
+d) double
+b
+4. Multiple statement execution is disabled by default.
+a) True
+b) False
+a
+5. The option that enables multiple-statement execution is ____________
+a) CLIENT_MULTI_STATEMENTS
+b) CLIENT_STATEMENTS_MULTI
+c) MULTI_STATEMENTS_CLIENT
+d) MULTI_CLIENTS_STATEMENTS
+a
+6. What is preferred when stored procedures are not being used?
+	CLIENT_MULTI_STATEMENTS, mysql_set_server_option()
+a) CLIENT_MULTI_STATEMENTS
+b) mysql_set_server_option()
+c) any of the two
+d) neither of the two
+c
+7. The one that is more restrictive is __________
+	mysql_query(), mysql_real_query()
+a) mysql_query()
+b) mysql_real_query()
+c) same
+d) machine dependent
+a
+8. What does mysql_query() return on failure?
+a) 0
+b) 1
+c) -1
+d) a non-zero
+d
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Status Variables» Next - MySQL Questions and Answers – SQL Statement Syntax (Non-Compound Statements) 

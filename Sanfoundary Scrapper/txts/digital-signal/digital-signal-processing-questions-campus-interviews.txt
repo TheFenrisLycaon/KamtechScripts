@@ -1,0 +1,101 @@
+1. By impulse invariance method, the IIR filter will have a unit sample response h(n) that is the sampled version of the analog filter.
+a) True
+b) False
+a
+h(n)=h(nT); n=0,1,2…
+where T is the sampling interval.
+2. If a continuous time signal x(t) with spectrum X(F) is sampled at a rate Fs=1/T samples per second, the spectrum of the sampled signal is _____________
+a) Non periodic repetition
+b) Non periodic non-repetition
+c) Periodic repetition
+d) None of the mentioned
+c
+3. If a continuous time signal x(t) with spectrum X(F) is sampled at a rate Fs=1/T samples per second, then what is the scaled spectrum?
+a) X(F)
+b) Fs.X(F)
+c) X(F)/Fs
+d) None of the mentioned
+b
+4. When σ=0, then what is the condition on ‘r’?
+a) 0<r<1
+b) r=1
+c) r>1
+d) None of the mentioned
+b
+Now substitute s=σ+jΩ and z=r.ejω, that is represent ‘z’ in the polar form
+On equating both sides, we get
+r=eσT
+Thus when σ=0, the value of ‘r’ varies from r=1.
+5. What is the equation for normalized frequency?
+a) F/Fs
+b) F.Fs
+c) Fs/F
+d) None of the mentioned
+a
+f= F/Fs.
+Join Sanfoundry@YouTube
+6. Aliasing occurs if the sampling rate Fs is more than twice the highest frequency contained in X(F).
+a) True
+b) False
+b
+7. Which of the filters have a frequency response as shown in the figure below?
+a) Analog filter
+b) Digital filter without aliasing
+c) Digital filter with aliasing
+d) None of the mentioned
+c
+8. The frequency response given in the above question is for a low pass digital filter.
+a) True
+b) False
+a
+9. Sampling interval T is selected sufficiently large to completely avoid or at least minimize the effects of aliasing.
+a) True
+b) False
+b
+10. Which of the following filters cannot be designed using impulse invariance method?
+a) Low pass
+b) Band pass
+c) Low and band pass
+d) High pass
+d
+11. Which of the following is the correct relation between ω and Ω?
+a) Ω=ωT
+b) T=Ωω
+c) ω=ΩT
+d) None of the mentioned
+c
+Now substitute s=σ+jΩ and z=r.ejω, that is represent ‘z’ in the polar form
+On equating both sides, we get
+ω=ΩT.
+12. When σ<0, then what is the condition on ‘r’?
+a) 0<r<1
+b) r=1
+c) r>1
+d) None of the mentioned
+a
+Now substitute s=σ+jΩ and z=r.ejω, that is represent ‘z’ in the polar form
+On equating both sides, we get
+r=eσT
+Thus when σ<0, the value of ‘r’ varies from 0<r<1.
+13. When σ>0, then what is the condition on ‘r’?
+a) 0<r<1
+b) r=1
+c) r>1
+d) None of the mentioned
+c
+Now substitute s=σ+jΩ and z=r.ejω, that is represent ‘z’ in the polar form
+On equating both sides, we get
+r=eσT
+Thus when σ>0, the value of ‘r’ varies from r>1.
+14. What is the period of the scaled spectrum Fs.X(F)?
+a) 2Fs
+b) Fs/2
+c) 4Fs
+d) Fs
+d
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing for campus interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – IIR Filter Design by Approximation of Derivatives» Next - Digital Signal Processing Questions and Answers – Matched Z Transformation 

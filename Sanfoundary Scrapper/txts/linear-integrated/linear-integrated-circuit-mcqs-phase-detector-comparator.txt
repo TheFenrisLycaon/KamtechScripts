@@ -1,0 +1,65 @@
+1. Analog phase detector is often referred as
+a) Full wave detector
+b) Half wave detector
+c) Rectifier wave detector
+d) None of the mentioned
+b
+2. What happens when VCO output is 90o out of phase with respect to input signal?
+a) Perfect lock
+b) Attenuation
+c) Shift in phase of comparator
+d) Error signal is removed
+a
+3. Find the error voltage of phase comparator whose input signal is Vs= Vssin(2πfst) and the output signal Vo= Vosin(2πfot+φ).
+a) Ve=[k×(Vs/2)]×[cos(-φ)-cos(2πfot+φ)].
+b) Ve=[k×Vs×(Vo/2)]×[cos(-φ)-cos(2πfot+φ)].
+c) Ve=[k×Vs×(Vo/2)]×[cos(-φ)+cos(2πfot+φ)].
+d) Ve=[k×Vs×Vo]×[cos(-φ)-cos(2πfot+φ)].
+b
+Where k – phase comparator gain.= k×Vs×Vo/2[cos(-φ)-cos(2πfot+φ)]
+When at lock, fs =fo
+=> Ve = Ve={k×Vs× Vo/2}x[cos(-φ)-cos(2πfot+φ)]. 
+4. How to overcome the problem associated with switch type phase detective?
+a) Increase loop gain depending on input signal
+b) Phase shift is made linear
+c) Limit the amplifier of input signal
+d) All of the mentioned
+c
+5. If the average error voltage & the phase shift are given as 6.2v & π/4.Determine the phase angle to voltage transfer coefficient of full wave switching phase detector.
+a) -0.19
+b) -0.09
+c) -0.03
+d) -0.13
+d
+=>kφ = (φ-π/2)/ Ve (avg) =[π/4-π/2]/6.2 =[π-2π/4]/6.2 = -(π/4)/6.2 = -π/24.8
+=>kφ = -0.13. 
+6. When does a digital phase detector can be used, where fo->output frequency, fs->input frequency.
+a) Both fo & fs signals should be square wave
+b) fo should be square wave & fs can be any non-sinusoidal wave
+c) fs should be square wave & fo can be any non-sinusoidal wave
+d) Both fo & fs can be any non-sinusoidal wave
+a
+7. The maximum dc output voltage in digital phase detector occurs
+a) When the phase difference is π/2
+b) When the phase difference is π
+c) When the phase difference is 3π/4
+d) When the phase difference is 2π
+b
+8. Given the DC output voltage versus phase difference φ curve. Find the conversion gain values.
+a) 15.7V/rad
+b) 1.26V/rad
+c) 1.59V/rad
+d) 0.8V/rad
+c
+9. Which among the following has better capture tracking & locking characteristics?
+a) XOR phase detector
+b) Edge triggered phase detector
+c) Analog phase detector
+d) All of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Basic Principles of Phase-Locked Loops» Next - Linear Integrated Circuit Questions and Answers – Voltage Controlled Oscillator 

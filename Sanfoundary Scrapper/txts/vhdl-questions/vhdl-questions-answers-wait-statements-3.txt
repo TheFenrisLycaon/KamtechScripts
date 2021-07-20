@@ -1,0 +1,69 @@
+1. Which of the following is true about WAIT UNTIL statement?
+a) WAIT UNTIL statement is supported by synthesis tools
+b) WAIT UNTIL statement is not supported by synthesis tools
+c) WAIT UNTIL statement is supported in a clocked process only
+d) WAIT UNTIL statement is supported in a combinational process
+c
+2. Which of the following is true about WAIT ON statement?
+a) WAIT ON statement is supported by synthesis tools
+b) WAIT ON statement is not supported by synthesis tools
+c) WAIT ON statement is supported in a clocked process only
+d) WAIT ON statement is supported in a combinational process
+d
+3. In a procedure, __________ statement is not supported.
+a) WAIT UNTIL
+b) WAIT ON
+c) WAIT FOR
+d) WAIT FOR and unconditional WAIT
+d
+4. What kind of circuit is implemented by the following architecture?
+ARCHITECTURE my_arch OF my_design IS
+BEGIN
+PROCESS
+BEGIN
+WAIT ON clk;
+IF(clk = ‘1’) THEN
+y &lt;= x;
+END IF;
+END PROCESS;
+END my_arch;
+a) D flip flop
+b) Inverter
+c) OR gate
+d) Shift register
+a
+5. WAIT FOR statement is useful only for _________
+a) Synthesis
+b) Simulation
+c) Gate level implementation
+d) Optimization
+b
+6. A user wants to assign a signal after a wait of  20 ns. The process used has a sensitivity list. What is the possible way to achieve this?
+a) By using WAIT FOR statement
+b) By using AFTER clause
+c) By using a separate process
+d) By using WAIT ON statement
+c
+7. Since WAIT statement can’t be synthesized many times, how a clock event can be detected then?
+a) By using IF(clk = ‘1’)
+b) By using ‘EVENT keyword
+c) By using a CASE statement
+d) By using a LOOP
+b
+8. A wait statement can have label preceding it.
+a) True
+b) False
+a
+Label : WAIT {UNTIL | ON | FOR} {condition | signal | time_expression};
+9. Which of the following can be used to make the process wait indefinitely?
+a) WAIT FOR indefinite ns;
+b) WAIT UNTIL false;
+c) WAIT;
+d) WAIT UNTIL true;
+c
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice VHDL Question Bank, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – WAIT Statements – 2» Next - VHDL Questions and Answers – Signal vs Variables – 1 

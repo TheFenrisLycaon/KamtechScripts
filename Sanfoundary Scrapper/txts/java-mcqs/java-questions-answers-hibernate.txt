@@ -1,0 +1,65 @@
+1. Which of the following is not a core interface of Hibernate?
+a) Configuration
+b) Criteria
+c) SessionManagement
+d) Session
+c
+2. SessionFactory is a thread-safe object.
+a) True
+b) False
+a
+3. Which of the following methods returns proxy object?
+a) loadDatabase()
+b) getDatabase()
+c) load()
+d) get()
+c
+4. Which of the following methods hits database always?
+a) load()
+b) loadDatabase()
+c) getDatabase()
+d) get()
+d
+Join [email protected]
+5. Which of the following method is used inside session only?
+a) merge()
+b) update()
+c) end()
+d) kill()
+b
+6. Which of the following is not a state of object in Hibernate?
+a) Attached()
+b) Detached()
+c) Persistent()
+d) Transient()
+a
+7. Which of the following is not an inheritance mapping strategies?
+a) Table per hierarchy
+b) Table per concrete class
+c) Table per subclass
+d) Table per class
+d
+8. Which of the following is not an advantage of using Hibernate Query Language?
+a) Database independent
+b) Easy to write query
+c) No need to learn SQL
+d) Difficult to implement
+d
+9. In which file database table configuration is stored?
+a) .dbm
+b) .hbm
+c) .ora
+d) .sql
+b
+10. Which of the following is not an advantage of Hibernate Criteria API?
+a) Allows to use aggregate functions
+b) Cannot order the result set
+c) Allows to fetch only selected columns of result
+d) Can add conditions while fetching results
+b
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – File and Directory» Next - Java Questions & Answers – Liskov’s Principle 

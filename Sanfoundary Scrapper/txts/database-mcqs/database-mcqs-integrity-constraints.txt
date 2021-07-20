@@ -1,0 +1,79 @@
+1. To include integrity constraint in an existing relation use :
+a) Create table
+b) Modify table
+c) Alter table
+d) Drop table
+c
+2. Which of the following is not an integrity constraint?
+a) Not null
+b) Positive
+c) Unique
+d) Check ‘predicate’
+b
+3.
+CREATE TABLE Employee(Emp_id NUMERIC NOT NULL, Name VARCHAR(20) , dept_name VARCHAR(20), Salary NUMERIC UNIQUE(Emp_id,Name));
+INSERT INTO Employee VALUES(1002, Ross, CSE, 10000)
+INSERT INTO Employee VALUES(1006,Ted,Finance, );
+INSERT INTO Employee VALUES(1002,Rita,Sales,20000);
+What will be the result of the query?
+a) All statements executed
+b) Error in create statement
+c) Error in insert into Employee values(1006,Ted,Finance, );
+d) Error in insert into Employee values(1008,Ross,Sales,20000);
+d
+The unique specification says that no two tuples in the relation can be equal on all the listed attributes. 
+4.
+CREATE TABLE Manager(ID NUMERIC,Name VARCHAR(20),budget NUMERIC,Details VARCHAR(30));
+Inorder to ensure that the value of budget is non-negative which of the following should be used?
+a) Check(budget>0)
+b) Check(budget<0)
+c) Alter(budget>0)
+d) Alter(budget<0)
+a
+5. Foreign key is the one in which the ________ of one relation is referenced in another relation.
+a) Foreign key
+b) Primary key
+c) References
+d) Check constraint
+b
+6.
+CREATE TABLE course
+( . . .
+FOREIGN KEY (dept name) REFERENCES department
+. . . );
+Which of the following is used to delete the entries in the referenced table when the tuple is deleted in course table?
+a) Delete
+b) Delete cascade
+c) Set null
+d) All of the mentioned
+b
+7. Domain constraints, functional dependency and referential integrity are special forms of _________
+a) Foreign key
+b) Primary key
+c) Assertion
+d) Referential constraint
+c
+8. Which of the following is the right syntax for the assertion?
+a) Create assertion ‘assertion-name’ check ‘predicate’;
+b) Create assertion check ‘predicate’ ‘assertion-name’;
+c) Create assertions ‘predicates’;
+d) All of the mentioned
+a
+9. Data integrity constraints are used to:
+a) Control who is allowed access to the data
+b) Ensure that duplicate records are not entered into the table
+c) Improve the quality of data entered for a specific property (i.e., table column)
+d) Prevent users from changing the values stored in the table
+c
+10. Which of the following can be addressed by enforcing a referential integrity constraint?
+a) All phone numbers must include the area code
+b) Certain fields are required (such as the email address, or phone number) before the record is accepted
+c) Information on the customer must be known before anything can be sold to that customer
+d) When entering an order quantity, the user must input a number and not some text (i.e., 12 rather than ‘a dozen’)
+c
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Transactions» Next - Database Questions and Answers – SQL Data Types and Schemas 

@@ -1,0 +1,58 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Ericsson and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Ericsson interviews on C Programming language. 
+Here is a listing of tough C interview questions on “Initialization of Pointer Arrays” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        char *p[1] = {"hello"};        printf("%s", (p)[0]);        return 0;    }
+a) Compile time error
+b) Undefined behaviour
+c) hello
+d) None of the mentioned
+c
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        char **p = {"hello", "hi", "bye"};        printf("%s", (p)[0]);        return 0;    }
+a) Compile time error
+b) Undefined behaviour
+c) hello
+d) Address of hello
+b
+Join Sanfoundry@YouTube
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0, j = 1;        int *a[] = {&i, &j};        printf("%d", (*a)[0]);        return 0;    }
+a) Compile time error
+b) Undefined behaviour
+c) 0
+d) Some garbage value
+c
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0, j = 1;        int *a[] = {&i, &j};        printf("%d", *a[0]);        return 0;    }
+a) Compile time error
+b) Undefined behaviour
+c) 0
+d) Some garbage value
+c
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0, j = 1;        int *a[] = {&i, &j};        printf("%d", (*a)[1]);        return 0;    }
+a) Compile time error
+b) Undefined behaviour
+c) 1
+d) Some garbage value
+d
+6. Which of the following are generated from char pointer?
+a) char *string = “Hello.”;
+b) 
+char *string;
+scanf("%s", string);
+c) char string[] =  “Hello.”;
+d) char *string = “Hello.”; and char string[] =  “Hello.”;
+a
+7. Which of the following declaration are illegal?
+a) int a[][] = {{1, 2, 3}, {2, 3, 4, 5}};
+b) int *a[] = {{1, 2, 3}, {2, 3, 4, 5}};
+c) int a[4][4] = {{1, 2, 3}, {2, 3, 4, 5}};
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Initialization of Pointer Arrays – 1» Next - C Programming Questions and Answers – Pointers Vs. Multi-dimensional Arrays – 1 

@@ -1,0 +1,266 @@
+1. Which of the header file is used to implement algorithms provided by C++ STL?
+a) <algorithm>
+b) <header>
+c) <algos>
+d) <Algorithm>
+a
+2. What will be the output of the following C++ code?
+#include <vector> 
+#include <algorithm> 
+#include <iostream> 
+ 
+using namespace std;
+ 
+int main() 
+{ 
+	vector<int> v(10, 2); 
+	if (all_of(v.cbegin(), v.cend(), [](int i){ return i % 2 == 0; })) 
+	{ 
+		cout << "All numbers are even\n"; 
+	} 
+	else
+        {
+		cout << "All numbers are not even\n"; 
+	}
+	return 0;
+}
+a) All numbers are even
+b) All numbers are not even
+c) Error
+d) Segmentation fault
+a
+Output:
+$ ./a.out 
+All numbers are even
+3. How many types of sequence operations are provided by the C++ algorithm STL?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+4. Which of the following is a Modifying Sequence Operation?
+a) all_of()
+b) any_of()
+c) equal()
+d) swap()
+d
+5. Which of the following is a Non-modifying Sequence Operation?
+a) swap()
+b) transform()
+c) remove()
+d) search()
+d
+6. What is the use of random_shuffle() function of STL algorithm?
+a) To generate the random sequence in a range
+b) To generate a sequence in a given range and arrange them in random order
+c) To rearrange given sequence randomly
+d) To select any random number from the given sequence.
+c
+7. What will be the output of the following C++ code?
+#include <vector> 
+#include <algorithm> 
+#include <iostream> 
+ 
+using namespace std;
+ 
+int main() 
+{ 
+	vector<int> v; 
+	for(int i=0;i<10;i++)
+		v.push_back(i+1);
+	for(int i=0;i<10;i++)
+		cout<<v[i]<<" ";
+	cout<<endl;
+	random_shuffle(v.begin(), v.end());
+	for(int i=0;i<10;i++)
+		cout<<v[i]<<" ";
+	return 0;
+}
+a) 
+1 2 3 4 5 6 7 8 9 10 
+5 4 8 9 1 6 3 2 7 10
+b) 
+5 4 8 9 1 6 3 2 7 10
+1 2 3 4 5 6 7 8 9 10 
+c) 
+1 2 3 4 5 6 7 8 9 10 
+1 2 3 4 5 6 7 8 9 10 
+d) 
+5 4 8 9 1 6 3 2 7 10
+5 4 8 9 1 6 3 2 7 10
+a
+Output:
+$ ./a.out 
+1 2 3 4 5 6 7 8 9 10 
+5 4 8 9 1 6 3 2 7 10
+  
+8. What will be the output of the following C++ code?
+#include <iostream>  
+#include <algorithm> 
+#include <vector> 
+ 
+using namespace std;
+ 
+bool IsOdd (int i) 
+{ 
+	return (i%2)==1; 
+}
+ 
+int main () 
+{
+  vector<int> v;
+ 
+  for (int i=1; i<=10; ++i) 
+  	v.push_back(i);
+ 
+  vector<int>::iterator bound;
+  bound = partition (v.begin(), v.end(), IsOdd);
+ 
+  for (vector<int>::iterator it=v.begin(); it!=bound; ++it)
+    cout << ' ' << *it;
+  cout << '\n';
+ 
+  for (vector<int>::iterator it=bound; it!=v.end(); ++it)
+    cout << ' ' << *it;
+  cout << '\n';
+ 
+  return 0;
+}
+a) 
+1 9 3 7 5
+6 4 8 2 10
+b) 
+6 4 8 2 10
+1 9 3 7 5
+c) 
+6 4 8 2 10
+6 4 8 2 10
+d) 
+1 9 3 7 5
+1 9 3 7 5
+a
+Output:
+$ ./a.out 
+1 9 3 7 5
+6 4 8 2 10
+  
+9. What will be the output of the following C++ code?
+#include <iostream>  
+#include <algorithm> 
+#include <vector> 
+ 
+using namespace std;
+ 
+bool IsOdd (int i) 
+{ 	
+	return (i%2)==1; 
+}
+ 
+int main () 
+{
+  vector<int> v = {4,2,10,5,1,8};
+  for(int i=0;i<v.size();i++)
+  	cout<<v[i]<<" ";
+  cout<<endl;
+  sort(v.begin(), v.end());
+  for(int i=0;i<v.size();i++)
+  	cout<<v[i]<<" ";
+  return 0;
+}
+a) 
+4 2 10 5 1 8 
+1 2 4 5 8 10
+b) 
+1 2 4 5 8 10
+4 2 10 5 1 8 
+c) 
+4 2 10 5 1 8 
+4 2 10 5 1 8 
+d) 
+1 2 4 5 8 10
+1 2 4 5 8 10
+a
+Output: 
+$ ./a.out 
+4 2 10 5 1 8 
+1 2 4 5 8 10
+  
+10. What is the property of stable sort function provided by the STL algorithm?
+a) sorts the elements of a sequence in ascending order preserving the relative order of equivalent elements
+b) sorts the elements of a sequence in descending order preserving the relative order of equivalent elements
+c) arranges the sequence randomly preserving the relative order of equivalent elements
+d) same as sort function of STL algorithm
+a
+11. What is the property of partial sort function provided by the STL algorithm?
+a) sorts the elements before the middle element in ascending order and remaining elements are left without any specific order
+b) sorts the elements before the middle element in descending order and remaining elements are left without any specific order
+c) sorts the elements after the middle element in ascending order and remaining elements are left without any specific order
+d) sorts the elements after the middle element in descending order and remaining elements are left without any specific order
+a
+12. What will be the output of the following C++ code?
+#include <iostream>  
+#include <algorithm> 
+#include <vector> 
+ 
+using namespace std;
+ 
+int main () 
+{
+  vector<int> v = {4,2,10,5,1,8};
+  sort(v.begin(), v.end());
+  if (binary_search(v.begin(), v.end(), 4))
+    cout << "found.\n"; 
+  else 
+  	cout << "not found.\n";
+  return 0;
+}
+a) found.
+b) not found.
+c) Error
+d) Segmentation fault
+a
+Output:
+$ ./a.out 
+found!
+13. What will be the output of the following C++ code?
+#include <iostream>  
+#include <algorithm> 
+#include <vector> 
+ 
+using namespace std;
+ 
+int main () 
+{
+  vector<int> v = {4,2,10,5,1,8};
+  if (binary_search(v.begin(), v.end(), 4))
+    cout << "found.\n"; 
+  else 
+  	cout << "not found.\n";
+  return 0;
+}
+a) found.
+b) not found.
+c) Error
+d) Segmentation fault
+b
+Output:
+$ ./a.out
+not found.
+14. Which function can be used to find the sum of a vector container?
+a) findsum()
+b) accumulate()
+c) calcsum()
+d) checksum()
+b
+15. Which header file is required to use accumulate() function?
+a) <algorithm>
+b) <numeric>
+c) <vector>
+d) <iostream>
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Iterators» Next - C++ Programming Questions and Answers – Functors 

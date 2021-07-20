@@ -1,0 +1,68 @@
+1. Which of these is wildcard symbol?
+a) ?
+b) !
+c) %
+d) &
+a
+2. What is use of wildcards?
+a) It is used in cases when type being operated upon is not known
+b) It is used to make code more readable
+c) It is used to access members of super class
+d) It is used for type argument of generic method
+a
+3. Which of these keywords is used to upper bound a wildcard?
+a) stop
+b) bound
+c) extends
+d) implements
+c
+4. Which of these is an correct way making a list that is upper bounded by class Number?
+a) List<? extends Number>
+b) List<extends ? Number>
+c) List(? extends Number)
+d) List(? UpperBounds Number)
+a
+5. Which of the following keywords are used for lower bounding a wild card?
+a) extends
+b) super
+c) class
+d) lower
+b
+6. What will be the output of the following Java program?
+    import java.util.*;    class Output    {        public static double sumOfList(List<? extends Number> list)        {            double s = 0.0;            for (Number n : list)                s += n.doubleValue();            return s;        }        public static void main(String args[])        {            List<Integer> li = Arrays.asList(1, 2, 3);            System.out.println(sumOfList(li));        }    }
+a) 0
+b) 4
+c) 5.0
+d) 6.0
+d
+Output:
+$ javac Output.javac
+$ java Output
+6.0
+7. What will be the output of the following Java program?
+    import java.util.*;    class Output     {        public static double sumOfList(List<? extends Number> list)        {            double s = 0.0;            for (Number n : list)                s += n.doubleValue();            return s;        }        public static void main(String args[])         {           List<Double> ld = Arrays.asList(1.2, 2.3, 3.5);           System.out.println(sumOfList(ld));        }    }
+a) 5.0
+b) 7.0
+c) 8.0
+d) 6.0
+b
+Output:
+$ javac Output.javac
+$ java Output
+7.0
+8. What will be the output of the following Java program?
+    import java.util.*;    public class genericstack <E>    {        Stack <E> stk = new Stack <E>();	public void push(E obj)        {            stk.push(obj);	}	public E pop()         {            E obj = stk.pop();	    return obj;	}    }    class Output    {        public static void main(String args[])        {            genericstack <Integer> gs = new genericstack<Integer>();            gs.push(36);            System.out.println(gs.pop());        }    }
+a) H
+b) Hello
+c) Runtime Error
+d) Compilation Error
+d
+Output:
+$ javac Output.javac
+$ java Output
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Restrictions on Generics» Next - Advanced Java Questions & Answers – Java Beans 

@@ -1,0 +1,79 @@
+1. Find the equivalent delta circuit.
+a) 9.69 ohm, 35.71 ohm, 6.59 ohm
+b) 10.69 ohm, 35.71 ohm, 6.59 ohm
+c) 9.69 ohm, 34.71 ohm, 6.59 ohm
+d) 10.69 ohm, 35.71 ohm, 7.59 ohm
+a
+R1 = 4.53+6.66+4.53*6.66/1.23 = 35.71 ohm
+R2 = 4.53+1.23+4.53*1.23/6.66 = 6.59 ohm
+R3 = 1.23+6.66+1.23*6.66/4.53 = 9.69 ohm.
+2. Which, among the following is the correct expression for star-delta conversion?
+a) R1=Ra*Rb/(Ra+Rb+Rc), R2=Rb*Rc/(Ra+Rb+Rc), R3=Rc*Ra/(Ra+Rb+Rc)b)
+b) R1=Ra/(Ra+Rb+Rc), R2=Rb/(Ra+Rb+Rc), Rc=/(Ra+Rb+Rc)
+c) R1=Ra+Rb+Ra*Rb/Rc, R2=Rc+Rb+Rc*Rb/Ra, R3=Ra+Rc+Ra*Rc/Rb
+d) R1=Ra*Rb/Rc, R2=Rc*Rb/Ra, R3=Ra*Rc/Rb
+c
+3. Find the equivalent resistance between X and Y.
+a) 3.33 ohm
+b) 4.34 ohm
+c) 5.65 ohm
+d) 2.38 ohm
+d
+The 3 6ohm resistors are connected in parallel to the 10 ohm 5 ohm and 10ohm resistors respectively.
+This network can be further reduced to a network consisting of a 3.75ohm and 2.73ohm resistor connected in series whose resultant is intern connected in parallel to the 3.75 ohm resistor.
+4. Delta connection is also known as____________
+a) Y-connection
+b) Mesh connection
+c) Either Y-connection or mesh connection
+d) Neither Y-connection nor mesh connection
+b
+5. Ra is resistance at A, Rb is resistance at B, Rc is resistance at C in star connection. After transforming to delta, what is resistance between B and C?
+a) Rc+Rb+Rc*Rb/Ra
+b) Rc+Rb+Ra*Rb/Rc
+c) Ra+Rb+Ra*Rc/Rb
+d) Rc+Rb+Rc*Ra/Rb
+a
+Join Sanfoundry@YouTube
+6. Ra is resistance at A, Rb is resistance at B, Rc is resistance at C in star connection. After transforming to delta, what is resistance between A and C?
+a) Ra+Rb+Ra*Rb/Rc
+b) Ra+Rc+Ra*Rc/Rb
+c) Ra+Rb+Ra*Rc/Ra
+d) Ra+Rc+Ra*Rb/Rc
+b
+7. Ra is resistance at A, Rb is resistance at B, Rc is resistance at C in star connection. After transforming to delta, what is resistance between A and B?
+a) Rc+Rb+Ra*Rb/Rc
+b) Ra+Rb+Ra*Rc/Rb
+c) Ra+Rb+Ra*Rb/Rc
+d) Ra+Rc+Ra*Rc/Rb
+c
+8. If a 1ohm 2ohm and 32/3ohm resistor is connected in star, find the equivalent delta connection.
+a) 34 ohm, 18.67 ohm, 3.19 ohm
+b) 33 ohm, 18.67 ohm, 3.19 ohm
+c) 33 ohm, 19.67 ohm, 3.19 ohm
+d) 34 ohm, 19.67 ohm, 3.19 ohm
+a
+Using the formula for delta to star conversion:
+R1=1+2+1*2/(32/3)
+R2=1+32/3+1*(32/3)/2
+R3=2+32/3+2*(32/3)/1.
+9. If an 8/9ohm, 4/3ohm and 2/3ohm resistor is connected in star, find its delta equivalent.
+a) 4ohm, 3ohm, 2ohm
+b) 1ohm, 3ohm, 2ohm
+c) 4ohm, 1ohm, 2ohm
+d) 4ohm, 3ohm, 1ohm
+a
+R1=8/9+4/3+(8/9)*(4/3)/(2/3)
+R2=8/9+2/3+(8/9)*(2/3)/(4/3)
+R3=2/3+4/3+(2/3)*(4/3)/(8/9).
+10. Find the equivalent resistance between A and B.
+a) 32ohm
+b) 31ohm
+c) 30ohm
+d) 29ohm
+d
+Sanfoundry Global Education & Learning Series – Basic Electrical Engineering.
+To practice all areas of Basic Electrical Engineering, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Basic Electrical Engineering Questions and Answers – Delta Star Transformation» Next - Basic Electrical Engineering Questions and Answers – Maximum Power Transfer 

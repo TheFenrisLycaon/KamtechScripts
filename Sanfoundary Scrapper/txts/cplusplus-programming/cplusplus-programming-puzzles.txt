@@ -1,0 +1,241 @@
+1. The C++ code which causes abnormal termination/behaviour of a program should be written under _________ block.
+a) try
+b) catch
+c) finally
+d) throw
+a
+2. Exception handlers are declared with ____________ keyword.
+a) try
+b) catch
+c) throw
+d) finally
+b
+3. Which of the following statements are correct about Catch handler?
+i. It must be placed immediately after the try block 
+ii. It can have more than one parameters
+iii. There must be one and only one catch handler for every try block
+iv. There can be multiple catch handler for a try block 
+v. General catch handler can be kept anywhere after try block.
+a) i, iv, v
+b) i, ii, iii
+c) i, iv
+d) i, ii
+c
+4. In nested try-catch block, if the inner catch block gets executed, then______________
+a) Program stops immediately
+b) Outer catch block also executes
+c) Compiler jumps to the outer catch block and executes remaining statements of the main() function
+d) Compiler executes remaining statements of outer try-catch block and then the main() function
+d
+5. If inner catch block is unable to handle the exception thrown then__________
+a) The compiler looks for the outer try-catch block
+b) Program stops abnormally
+c) The compiler will check for appropriate catch handler of the outer try block
+d) The compiler will not check for appropriate catch handler of the outer try block
+c
+6. In nested try catch blocks, if both inner and outer catch blocks are unable to handle the exception thrown, then ______________
+a) Compiler executes only main()
+b) Compiler throws compile time errors about it
+c) Program will run without any interrupt
+d) Program will be termianted abnormally
+d
+7. Which function is invoked when an unhandled exception is thrown?
+a) stop()
+b) aborted()
+c) terminate()
+d) abandon()
+c
+8. How one can restrict a function to throw particular exceptions only?
+a) By defining multiple try-catch blocks inside a function
+b) By defining a generic function within a try-catch block
+c) By defining a function with throw clauses
+d) Not allowed in C++
+c
+9. Which function is invoked when we try to throw an exception that is not supported by a function?
+a) indeterminate()
+b) unutilized()
+c) unexpected()
+d) unpredicted()
+c
+10. Return type of uncaught_exception() is________________
+a) int
+b) bool
+c) char *
+d) double
+b
+11. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std;
+int main()
+{
+   int var = -12;
+   try {
+      cout<<"Inside try\n";
+      if (var < 0)
+      {
+        throw var;
+        cout<<"After throw\n";
+      }
+   }
+   catch (int var ) {
+      cout<<"Exception Caught\n";
+   }
+ 
+   cout<<"After catch\n";
+   return 0;
+}
+a) 
+Inside try
+Exception Caught
+After catch
+b) 
+Inside try
+After throw
+After catch
+c) 
+Inside try
+Exception Caught
+After throw
+d) 
+Inside try
+Exception Caught
+After throw 
+After catch
+a
+  
+11. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std;
+int main()
+{
+   int var = -12;
+   try {
+      cout<<"Inside try\n";
+      if (var < 0)
+      {
+        throw var;
+        cout<<"After throw\n";
+      }
+   }
+   catch (char var ) {
+      cout<<"Exception Caught\n";
+   }
+ 
+   cout<<"After catch\n";
+   return 0;
+}
+a) 
+Inside try
+Exception Caught
+After catch
+b) 
+Inside try
+After throw
+After catch
+c) Error
+d) Run-time error
+d
+12. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std;
+int main()
+{
+    try
+    {
+        try
+        {
+            throw 20;
+        }
+        catch (int n)
+        {
+            cout << "Inner Catch\n";
+        }
+    }
+    catch (int x)
+    {
+        cout << "Outer Catch\n";
+    }
+    return 0;
+}
+a) Inner Catch
+b) Outer Catch
+c) 
+Inner Catch
+Outer Catch
+d) Error
+a
+13. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std; 
+int main()
+{
+    try
+    {
+        try
+        {
+            throw 20;
+        }
+        catch (char n)
+        {
+            cout << "Inner Catch\n";
+        }
+    }
+    catch (int x)
+    {
+        cout << "Outer Catch\n";
+    }
+    return 0;
+}
+a) Inner Catch
+b) Outer Catch
+c) 
+Inner Catch
+Outer Catch
+d) Error
+b
+14. What will be the output of the following C++ code?
+#include <iostream>
+using namespace std; 
+int main()
+{
+    try
+    {
+        try
+        {
+            throw 20;
+        }
+        catch (int n)
+        {
+            cout << "Inner Catch\n";
+            throw;
+        }
+    }
+    catch (int x)
+    {
+        cout << "Outer Catch\n";
+    }
+    return 0;
+}
+a) Inner Catch
+b) Outer Catch
+c) 
+Inner Catch
+Outer Catch
+d) Error
+c
+15. Which of the following is true about exception handling in C++? 
+i) There is a standard exception class in C++ similar to Exception class in Java. 
+ii) All exceptions are unchecked in C++, i.e., the compiler does not checks if the exceptions are caught or not. 
+iii) In C++, a function can specify the list of exceptions that it can throw using comma separated list like following.
+void fun(int a, char b) throw (Exception1, Exception2, ..)
+a) i, iii
+b) i, ii, iii
+c) i, ii
+d) ii, iii
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Exception Handling – 2» Next - C++ Programming Questions and Answers – Error Handling Alternatives 

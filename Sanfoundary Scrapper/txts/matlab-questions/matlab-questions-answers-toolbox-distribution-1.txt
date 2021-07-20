@@ -1,0 +1,67 @@
+1. What is the extension of a newly created toolbox?
+a) .mltbx
+b) .mlx
+c) .tlx
+d) .tbx
+a
+2. What does the following function do?
+matlab.addons.toolbox.packageToolbox
+a) Converts a .prj file to a .mltbx file
+b) Converts a .mat file to a .mltbx file
+c) Converts a .mltbx file to a .prj file
+d) Converts a .mltbx file to a .prj file
+a
+3. What does the following function do?
+Join Sanfoundry@YouTube
+matlab.addons.toolbox.toolboxVersion
+a) Shows all versions of a toolbox
+b) Shows the current version of a toolbox
+c) Shows the previous versions of a toolbox
+d) Error
+b
+4. The input to the function “matlab.addons.toolbox.toolboxVersion” is given within ______
+a) Parentheses
+b) {}
+c) [] 
+d) The function doesn’t exist
+a
+5. What does this function do?
+matlab.addons.toolbox.installToolbox
+a) Install a .mlx file
+b) Install a .mtbx file
+c) Install a .mltbx file
+d) Install a .tbx file
+c
+6. License arguments for installing toolboxes are _______
+a) Ignored
+b) Shown
+c) Do not exist
+d) Depends on the system
+b
+7. What is the output of the following code?
+matlab.addons.toolbox.installToolbox(‘Lo.mltbx’)
+a) Installs the Lo class into the directory
+b) Uninstalls the Lo class from the directory
+c) Uninstalls the Lo toolbox from the directory, if already present
+d) Installs the Lo toolbox into the directory
+d
+8. What is the output of the following code?
+matlab.addons.toolbox.installToolbox[‘Lo.mltbx’]
+a) Error due to a directory
+b) Installs the Lo toolbox into the directory
+c) Logical Error
+d) Syntactical error
+d
+9. What is the output of the following code?
+matlab.addons.toolbox.installToolbox(Lo.mltbx,True)
+a) Error
+b) Ignores license file and installs the toolbox directly
+c) Prompts the license file and installs the toolbox
+d) Logical error
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Calling External Functions» Next - MATLAB Questions and Answers – Toolbox Distribution – 2 

@@ -1,0 +1,94 @@
+1. The transient response, yt(t), of a system becomes ____ as t tends to infinity.
+a) 0
+b) 1
+c) Infinity
+d) Undefined
+a
+2. The steady state value of a system is _____ it’s a transient response.
+a) dependent on
+b) independent of
+c) greater than
+d) not observable from
+a
+3. Delay time is the time required by a system to reach a quarter of its steady state value.
+a) True
+b) False
+b
+4. For non-unity feedback system, the error is calculated with respect to the reference signal.
+a) True
+b) False
+b
+5. What is the output of the following code?
+>>p=[0 1];
+>> q=[ 1 -1 0];
+>> step(p,q)
+a) An unstable response
+b) A stable response
+c) A marginally stable response
+d) A marginally unstable response
+a
+6. Which of the following command will reveal the damping ratio of the system?
+a) damp()
+b) damp[] 
+c) damping{}
+d) dr()
+a
+7. What is the output of the following code?
+>>p=[ 1 0 1];
+>> q=[  -1 1];
+>> step(p,q);
+a) An unstable step response
+b) A stable step response
+c) Error
+d) A marginally unstable response
+c
+8. What is the output of the following code?
+tf({1},{1 1})
+a) Error
+b) 1/s+1
+c) s+1/1
+d) 1/s
+a
+9. If the damping factor is zero, the unit-step response is
+a) Purely sinusoidal
+b) Ramp function
+c) Pulse function
+d) Impulse function
+a
+10. What is the output of the following code?
+impulse([1],[1 1])
+a) e-t*u(t)
+b) e-t*u(-t)
+c) e-t*u(t)
+d) e+t*u(t)
+a
+11. If the damping ratio is equal to 1, a second-order system is _________
+a) having maginary roots of the characteristic equation
+b) underdamped
+c) critically damped with unequal roots
+d) critically damped with equal roots
+d
+12. From the following graphs of the generalized transfer function 1/s+a, which plot shows a transfer function with a bigger value of a?
+a) Blue plot
+b) Red plot
+c) Yellow plot
+d) Purple plot
+d
+13. From the following graphs of the generalized transfer function 1/as2, which plot shows the transfer function for a higher a?
+a) Blue
+b) Red
+c) Yellow
+d) Purple
+d
+14. If the damping factor is less than the damping factor at critical damping, the time response of the system is ___________
+a) Underdamped
+b) Overdamped
+c) Marginally damped
+d) Unstable
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Laplace Transform – 2» Next - MATLAB Questions and Answers – Time Response of Control Systems – 2 

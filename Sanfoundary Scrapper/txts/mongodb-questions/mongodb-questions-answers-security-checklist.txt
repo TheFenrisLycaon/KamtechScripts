@@ -1,0 +1,62 @@
+1. Use __________ to encrypt communication between mongod and mongos components of a MongoDB client as well as between all applications and MongoDB.
+a) SSD
+b) TLS
+c) MEAN
+d) None of the mentioned
+b
+2. With ___________ enabled, MongoDB forces all clients to identify themselves before granting access to the server.
+a) access
+b) authentication
+c) authorization
+d) all of the mentioned
+b
+3. ___________ allows administrators to define and limit the resources and operations that a user can access.
+a) Access
+b) Authentication
+c) Authorization
+d) All of the mentioned
+c
+4. Point out the wrong statement.
+a) User principal names have the form: <userpwd>@<KERBEROS PRINCIPAL>
+b) For MongoDB, the <service> defaults to mongodb
+c) Every MongoDB mongod and mongos instance must have an associated service principal
+d) All of the mentioned
+b
+Join Sanfoundry@YouTube
+5. Use the __________ option to ensure that MongoDB listens for connections from applications on configured addresses.
+a) bind_ipadd
+b) bind_ip
+c) bind_service
+d) none of the mentioned
+b
+6. To generate pseudo-random data to use for a keyfile, issue the following __________ command.
+a) openhss
+b) openssd
+c) openssl
+d) all of the mentioned
+c
+7. _____________ is used to initiate relica member set.
+a) rs.rep()
+b) rs.init()
+c) rs.initiate()
+d) none of the mentioned
+c
+8. Which of the following is used to display the replica set configuration object?
+a) rs.config
+b) rs.conf
+c) rs.confrepl
+d) none of the mentioned
+b
+9. MongoDB supports the execution of JavaScript code for certain server-side operations like ____________
+a) where
+b) group
+c) mapreduce
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Kerberos Authentication» Next - MongoDB Questions and Answers – Access Control 

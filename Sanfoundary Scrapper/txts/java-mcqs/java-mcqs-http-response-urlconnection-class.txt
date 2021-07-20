@@ -1,0 +1,72 @@
+1. Which of these is a wrapper around everything associated with a reply from an http server?
+a) HTTP
+b) HttpResponse
+c) HttpRequest
+d) httpserver
+b
+2. Which of these transfer protocol must be used so that URL can be accessed by URLConnection class object?
+a) http
+b) https
+c) Any Protocol can be used
+d) None of the mentioned
+a
+3. Which of these methods is used to know when was the URL last modified?
+a) LastModified()
+b) getLastModified()
+c) GetLastModified()
+d) getlastModified()()
+b
+4. Which of these methods is used to know the type of content used in the URL?
+a) ContentType()
+b) contentType()
+c) getContentType()
+d) GetContentType()
+c
+5. Which of these data member of HttpResponse class is used to store the response from an http server?
+a) status
+b) address
+c) statusResponse
+d) statusCode
+d
+6. What will be the output of the following Java program?
+    import java.net.*;    class networking     {        public static void main(String[] args) throws Exception        {            URL obj = new URL("https://www.sanfoundry.com/javamcq");            URLConnection obj1 = obj.openConnection();            System.out.print(obj1.getContentType());        }    }
+Note: Host URL is written in html and simple text.
+a) html
+b) text
+c) html/text
+d) text/html
+d
+Output:
+$ javac networking.java
+$ java networking 
+text/html
+7. What will be the output of the following Java program?
+    import java.net.*;    class networking    {        public static void main(String[] args) throws Exception         {            URL obj = new URL("https://www.sanfoundry.com/javamcq");            URLConnection obj1 = obj.openConnection();            int len = obj1.getContentLength();            System.out.print(len);        }    }
+Note: Host URL is having length of content 127.
+a) 126
+b) 127
+c) Compilation Error
+d) Runtime Error
+b
+Output:
+$ javac networking.java
+$ java networking 
+127
+8. What will be the output of the following Java program?
+    import java.net.*;    class networking     {        public static void main(String[] args) throws Exception        {            URL obj = new URL("https://www.sanfoundry.com/javamcq");            URLConnection obj1 = obj.openConnection();            System.out.print(obj1.getLastModified);        }    }
+Note: Host URL was last modified on july 18 tuesday 2013 .
+a) july
+b) 18-6-2013
+c) Tue 18 Jun 2013
+d) Tue Jun 18 2013
+d
+Output:
+$ javac networking.java
+$ java networking 
+Tue Jun 18 2013
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – URL Class» Next - Java Questions & Answers – Networking – Datagrams 

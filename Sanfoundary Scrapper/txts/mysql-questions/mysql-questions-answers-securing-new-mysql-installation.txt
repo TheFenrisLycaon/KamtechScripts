@@ -1,0 +1,65 @@
+1. The superuser account of the grant tables in the mysql database is called ______________
+a) super
+b) prime
+c) root
+d) leaf
+c
+2. Which script initializes the data directory during installation?
+a) mysql_install_db
+b) mysql_install_dbm
+c) mysql_init_db
+d) mysql_init_dbm
+a
+3. Anonymous accounts have user name ______________
+a) root
+b) blank
+c) super
+d) prime
+b
+4. For REVOKE statements, the server automatically rereads the grant tables.
+a) True
+b) False
+a
+5. What does the default case sensitivity of database and table names depend on?
+a) SQL server
+b) Server SQL mode
+c) Operating system of machine
+d) Does not depend on anything
+c
+6. The case sensitive among these is ______________
+a) Stored function name
+b) Stored procedure name
+c) Trigger name
+d) Event name
+c
+7. The variable used to set table alias names as non case sensitive is ______________
+a) lower_case_table_names
+b) lower_case_all
+c) lower_case_alias
+d) lower_case_aliases
+a
+8. The clause that can be used to sort string values according to a specific collation is ______________
+a) SORT
+b) GROUP
+c) FILTER
+d) COLLATE
+d
+9. The statement used to find out which character sets are available is ______________
+a) SHOW CHARACTER SET
+b) SHOW COLLATION
+c) SHOW CHARACTER SETS
+d) SHOW COLLATIONS
+a
+10. The collations this statement lists are ______________
+SHOW COLLATION LIKE 'utf8%'
+a) names beginning with utf8
+b) names ending with utf8
+c) names containing utf8% anywhere
+d) names ending in utf8%
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Relocating Data Directory Contents» Next - MySQL Questions and Answers – Arranging for MySQL Server Startup and Shutdown 

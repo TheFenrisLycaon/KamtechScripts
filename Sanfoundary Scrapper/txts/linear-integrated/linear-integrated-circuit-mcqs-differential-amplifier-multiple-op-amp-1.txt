@@ -1,0 +1,75 @@
+1. Why differential amplifiers are preferred for instrumentation and industrial applications?
+a) Input resistance is low
+b) Produce amplified output
+c) Amplify individual input voltage
+d) Reject common mode voltage
+d
+2. Which of the following is a combination of inverting and non-inverting amplifier?
+a) Differential amplifier with one op-amp
+b) Differential amplifier with two op-amps
+c) Differential amplifier with three op-amps
+d) Differential amplifier with four op-amps
+a
+3. What will be the output voltage when Vx =0v?
+(Where Vx –> inverting input terminal of differential amplifier with one op-amp)
+a) Vo = -(1+R F/R1)*V1
+b) Vo   = -(1- R F/ R1)*V1
+c) Vo  = (1+ R F/ R1)*V1
+d) Vo = (R F/ R1)*V1
+c
+4. Compute the output voltage from the following circuit diagram?
+a) -17v
+b) -27v
+c) -39v
+d) -15v
+b
+Vo  = -(RF/R1)*VA  = -(15kΩ/1.5kΩ)*2.7v = -10*2.7 = -27v.
+5. Compute the output voltage if the input voltage is reduced to zero in differential amplifier with one op-amp?
+a) Inverted Voltage
+b) Same as the input voltage
+c) Amplified inverted voltage
+d) Cannot be determined
+d
+6. The difference between the input and output voltage are -1v and 17v. Calculate the closed loop voltage gain of differential amplifier with one op-amp?
+a) -51
+b) 34
+c) -17
+d) 14
+c
+=> AD = 17v/-1v = -17v.
+7. For the differential amplifier given below, determine the Vx and RF value. Assume that the circuit is initially nulled.
+a) Vx = -8v, RF  = 9.9kΩ
+b) Vx = 8v, RF = 9.9kΩ
+c) Vx = -8v, RF  = -9.9kΩ
+d) Vx = 8v, RF = -9.9kΩ
+d
+=> RF = -3*3.3kΩ = -9.9kΩ
+The net output is given is VO=-(RF /R1)*(Vx-Vy)
+=> Vx= Vy– Vo (-R1 /RF)
+=> Vx = 6+6(3.3kΩ/9.9kΩ) = 6+2 = 8v.
+8. The gain of differential amplifier with one op-amp is same as that of
+a) The inverting amplifier
+b) The non-inverting amplifier
+c) Both inverting and non-inverting amplifier
+d) None of the mentioned
+a
+9. Find the value of input resistance for differential amplifier with one op-amp. If R1 = R2=100Ω and RF  = R3  =5kΩ.
+a) RIFx = 110Ω; RIFy = 6.7kΩ
+b) RIFx = 100Ω; RIFy = 5.1kΩ
+c) RIFx = 150Ω; RIFy = 7.2kΩ
+d) RIFx = 190Ω; RIFy = 9.0kΩ
+b
+=> ∴ RIFx = 100Ω and
+=> RIFy =100+5kΩ =5.1kΩ.
+10. What is the net output voltage for differential amplifier with one op-amp
+a) Vo = -(RF /R1)*Vx
+b) Vo = -(RF /R1)*(Vx -Vy)
+c) Vo = (1+RF /R1)*(Vx -Vy)
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Voltage Shunt Feedback Amplifier» Next - Linear Integrated Circuit Questions and Answers – Differential Amplifiers with Multiple Op-Amp – 2 

@@ -1,0 +1,67 @@
+1. __________ abstract class has three main methods for loading data and for most use cases it would suffice to extend it.
+a) Load
+b) LoadFunc
+c) FuncLoad
+d) None of the mentioned
+b
+2. Point out the correct statement.
+a) LoadMeta has methods to convert byte arrays to specific types
+b) The Pig load/store API is aligned with Hadoop InputFormat class only
+c) LoadPush has methods to push operations from Pig runtime into loader implementations
+d) All of the mentioned
+c
+3. Which of the following has methods to deal with metadata?
+a) LoadPushDown
+b) LoadMetadata
+c) LoadCaster
+d) All of the mentioned
+b
+4. ____________ method will be called by Pig both in the front end and back end to pass a unique signature to the Loader.
+a) relativeToAbsolutePath()
+b) setUdfContextSignature()
+c) getCacheFiles()
+d) getShipFiles()
+b
+5. Point out the wrong statement.
+a) The load/store UDFs control how data goes into Pig and comes out of Pig.
+b) LoadCaster has methods to convert byte arrays to specific types.
+c) The meaning of getNext() has changed and is called by Pig runtime to get the last tuple in the data
+d) None of the mentioned
+c
+6. ___________ return a list of hdfs files to ship to distributed cache.
+a) relativeToAbsolutePath()
+b) setUdfContextSignature()
+c) getCacheFiles()
+d) getShipFiles()
+d
+7. The loader should use ______ method to communicate the load information to the underlying InputFormat.
+a) relativeToAbsolutePath()
+b) setUdfContextSignature()
+c) getCacheFiles()
+d) setLocation()
+d
+8. ____________ method enables the RecordReader associated with the InputFormat provided by the LoadFunc is passed to the LoadFunc.
+a) getNext()
+b) relativeToAbsolutePath()
+c) prepareToRead()
+d) all of the mentioned
+c
+9. __________  method tells LoadFunc which fields are required in the Pig script.
+a) pushProjection()
+b) relativeToAbsolutePath()
+c) prepareToRead()
+d) none of the mentioned
+a
+10. A loader implementation should implement __________  if casts (implicit or explicit) from DataByteArray fields to other types need to be supported.
+a) LoadPushDown
+b) LoadMetadata
+c) LoadCaster
+d) All of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all interview questions and answers on Hadoop Pig, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Pig Latin» Next - Hadoop Questions and Answers – Data Processing Operators in Pig 

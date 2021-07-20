@@ -1,0 +1,78 @@
+1. Which among the following are not the valid notations for package and component diagram?
+a) Notes
+b) Box
+c) Extension Mechanisms
+d) Packages
+b
+2. Which of the following statement is false?
+a) A note is a dog-eared box connected to any model element by a dashed line
+b) The main way to extend UML is by constraints, properties, etc
+c) A dependency relation holds between two entities D and I where change in I does not affect D
+d) All of the mentioned
+c
+3. Which of these depicts the true definition for the UML extensions?
+a) A constraint is a statement that must be true of the entities designated by one or more model elements
+b) A property is a characteristic of the entity designated by a model element
+c) A stereotype is a UML model element given more specific meaning
+d) All of the mentioned
+d
+4. Which of the following is incorrect in reference to dependency?
+a) Module D uses module I when a correct version of I must be present for D to work correctly
+b) Module D depends for compilation on module I
+c) Class I imports elements from package D
+d) None of the mentioned
+c
+5. What is a collection of model elements called?
+a) Box
+b) Dependency
+c) UML packages
+d) Package members
+d
+6. A package diagram consists of the following?
+a) Package symbols
+b) Groupings of Use cases, classes,  components
+c) Interface
+d) Package symbols, Groupings of Use cases, classes & components
+d
+7. What types of units does Component follow?
+a) Modular Unit
+b) Replaceable Unit
+c) Unit with well defined interface
+d) All of the mentioned
+d
+8. Components can be represented by which of the following?
+a) Component symbols
+b) Stereotypes
+c) Rectangular boxes
+d) Component symbols & Stereotypes
+d
+9. What does a component diagram consists of?
+a) Components,  their Relationship to the environment
+b) Packages and dependency
+c) Internal structure
+d) Internal structure, Components & their Relationship to the environment
+d
+10. Which of these is true with respect to interfaces?
+a) Interfaces in component diagram defines relationship between components and environment
+b) Interfaces realized by a class or a component are required interfaces
+c) Interface on which a class or component depends are called provided interfaces
+d) All of the mentioned
+a
+11. What is a delegation connector?
+a) A delegation connector ties a component interface to one or more internal classes or components
+b) Delegation connectors are solid arrows stereotyped <>
+c) A delegation connector may also extend from an internal class to an external interface
+d) All of the mentioned
+d
+12. Which of these are diagrammatic heuristics?
+a) Use notes, constraints, properties and stereotypes to add information to UML models
+b) Use Stereotypes to name dependencies
+c) Use packages to group elements in static models
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Software Architecture and Design.
+To practice all areas of Software Design and Architecture,  here is complete set of 1000+ Multiple Choice Questions and Answers on Software Design and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Software Design Questions and Answers – Specifying Software Architectures» Next - Software Design Questions and Answers – UML Deployment Diagrams 

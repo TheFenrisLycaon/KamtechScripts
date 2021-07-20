@@ -1,0 +1,82 @@
+1. A recorder is a device ________
+a) An indicating instrument which displays a time-varying signal
+b) Whose function is to record the value of the quantity as it is being measured
+c) Which records electrical and non-electrical quantities or relates two signals to each other as a function of time
+d) Which records the value of the quantity measured as well as the electrical and non-electrical quantities as a function of time
+d
+2. In a dual slop integrating type digital voltmeter, the firs integrating is carried out for 10 periods of the supply frequency of 50 Hz. If the reference voltage used is 2 V, the total conversion time for an input of 1 V is?
+a) 0.01 s
+b) 0.05 s
+c) 0.1 s
+d) 1 s
+c
+\((\frac{t_1}{t_2})\) Vin = Vref
+Where, t1 = first integration time = 10 × \(\frac{1}{50}\) = 0.25
+But Vin = 1 V and Vref = 2 V
+∴ t2 = \(\frac{V_in t_1}{V_{ref}}\) = 0.1 s.
+3. The source of emission of electrons in a circuit is ______________
+a) p-n junction diode
+b) a barium and strontium oxide coated cathode
+c) accelerating anode
+d) post-accelerating anode
+d
+4. A CRO can display _________
+a) AC signals
+b) DC signals
+c) Both AC and DC signals
+d) Time-invariant signals
+c
+5. X and Y plates of a CRO are connected to unequal voltages of equal frequency with phase shift of 90°. The Lissajous figure on the screen will be?
+a) Circle
+b) Straight line
+c) Ellipse
+d) Figure of eight
+c
+sin φ = \(\frac{y_1}{y_2} = \frac{X_1}{X_2}\) 
+Here, the voltages are unequal and frequencies are equal with a phase shift of 90°. Therefore the Lissajous figure on the screen will be an ellipse.
+6. To the Y input of a CRO, we feed a signal defined by 10sin100t, to the X-input, we feed signal 10cos100t. The gain for both X channel and Y channel is the same, the screen will show?
+a) Sinusoidal signal
+b) A straight line
+c) An ellipse
+d) A circle
+d
+sin φ = \(\frac{y_1}{y_2} = \frac{X_1}{X_2}\) 
+∴ Screen will show a circle.
+7. A CRO uses _________
+a) Electromagnetic focusing
+b) Electrostatic focusing
+c) Both Electrostatic and Electromagnetic focusing
+d) No focusing technique
+b
+8. A CRO probe has an impedance of 500 kΩ in parallel with a capacitance of 10 pF. The probe is used to measure the voltage between P and Q as shown in the figure. The measured voltage will be?
+a) 3.53 V
+b) 3.47 V
+c) 5.54 V
+d) 7.00 V
+b
+Applying KCL at node,
+\(\frac{V_a-10}{100} + \frac{V_a}{100} + \frac{V_a}{500} + \frac{V_a}{-j159}\) 
+∴ Va = 4.37∠-15.95°.
+9. The two inputs of a CRO are fed with two stationary periodic signals. The figure changes from ellipse to circle and back to ellipse with its major axis changing orientation slowly and repeatedly. The following inference can be made from this.
+a) The signals are not sinusoidal in nature
+b) The amplitudes of the signals are very close but not equal
+c) The signals are sinusoidal with their frequencies very close but not equal
+d) There is a constant but small phase difference between the signals
+d
+Y = A sin (ωt-∅t)
+Phase difference = ∅t
+For ellipse, A1 ≠ A2
+For circle, A1 = A2
+Hence, there is a constant but small difference between the signals.
+10. An oscilloscope indicates ___________
+a) The peak to peak value of the voltage
+b) DC value of the voltage
+c) Rms value
+d) Average value
+a
+Sanfoundry Global Education & Learning Series – Electrical Measurements.
+To practice all areas of Electrical Measurements, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Electrical Measurements Questions and Answers – Applications of CRO» Next - Electrical Measurements Questions and Answers – Objectives of Data Acquisition System 

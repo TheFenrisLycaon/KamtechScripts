@@ -1,0 +1,122 @@
+1. Which of the following commands let us perform a set of instructions repeatedly?
+a) for
+b) while
+c) until
+d) for, while, until
+d
+2. Which of the following keywords are used in while loop?
+a) do
+b) done
+c) then
+d) do and done
+d
+while  condition is true
+do
+   commands
+done
+ 
+3. until loop operates with a reverse logic as used in while loop.
+a) True
+b) False
+a
+4. Which one of the following is used for looping with a list?
+a) while
+b) until
+c) case
+d) for
+d
+for variable in list
+do
+    commands
+done
+5. Which of the following loop statements uses do and done keyword?
+a) for
+b) while
+c) case
+d)  for and while
+d
+Join Sanfoundry@YouTube
+6. Which command is used for changing filename extensions?
+a) chown
+b) rename
+c) basename
+d) rm
+c
+$ basename  file01.txt  txt
+file01            // txt stripped off
+ 
+7. Which command is used by the shell for manipulating positional parameters?
+a) set
+b) cut
+c) case
+d) paste
+a
+$ set 1345  5678
+$ _
+$ echo “\$1 is $1, \$2 is $2”
+$1 is 1345, $2 is 5678
+ 
+8. ____ statement is used for shifting arguments left.
+a) set
+b) shift
+c) cut
+d) paste
+b
+$ echo “$@”
+Wed Jan 8 09:48:44 IST 2017
+$ echo $1 $2 $3
+Wed Jan 8
+$ shift
+$ echo $1 $2 $3
+Jan 8 09:48:44        // parameters shifted
+ 
+9. Which one of the following is an internal command?
+a) cut
+b) expr
+c) set
+d) Is
+c
+10. Which symbol is used with the set command for command substitution?
+a) –
+b) —
+c) ??
+d) _
+b
+$ set -- `ls -lfile01`        //first - now taken care of
+11. The ____ allows us to read data from the same file containing the script.
+a) >>
+b) <<
+c) !!
+d) —
+b
+12. Any command using standard input can take the input from here document.
+a) True
+b) False
+a
+13. Which of the following command doesn’t accept a filename as an argument?
+a) cut
+b) ls
+c) paste
+d) mailx
+d
+14. We can use the here document with interactive programs also.
+a) True
+b) False
+a
+$ empone.sh <<END        //empone.sh is a script
+>manager
+>emp.lst            
+> END
+Hence by using the above commands, we can search for the pattern ‘manager’ in emp.lst .
+15.  ____ command is the appropriate way to interrupt a program.
+a) kill
+b) SIGKILL
+c) INT
+d) trap
+d
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Case and Expr Command» Next - Unix  Questions and Answers – Shell Programming using Various Commands – 2 

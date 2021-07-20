@@ -1,0 +1,96 @@
+This section on C++ programming questions and answers focuses on “Pointer to Void”. One shall practice these questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ programming questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ programming questions on “Pointer to Void” along with answers, explanations and/or solutions: 
+1. The void pointer can point to which type of objects?
+a) int
+b) float
+c) double
+d) all of the mentioned
+d
+2. When does the void pointer can be dereferenced?
+a) when it doesn’t point to any value
+b) when it cast to another type of object
+c) using delete keyword
+d) using shift keyword
+b
+3. The pointer can point to any variable that is not declared with which of these?
+a) const
+b) volatile
+c) both const & volatile
+d) static
+c
+4. A void pointer cannot point to which of these?
+a) methods in c++
+b) class member in c++
+c) methods & class member in c++
+d) none of the mentioned
+d
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int func(void *Ptr);    int main()    {        char *Str = "abcdefghij";        func(Str);        return 0;    }    int func(void *Ptr)    {        cout << Ptr;        return 0;    }
+a) abcdefghij
+b) address of string “abcdefghij”
+c) compile time error
+d) runtime error
+b
+Output:
+Join Sanfoundry@YouTube
+$ g++ b.cpp
+$ a.out
+0x8048714
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int *p;        void *vp;        if (vp == p);            cout << "equal";        return 0;    }
+a) equal
+b) no output
+c) compile error
+d) runtime error
+a
+Output:
+$ g++ poi4.cpp
+$ a.out
+equal
+ 
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int i;        char c;        void *data;        i = 2;        c = 'd';        data = &i;        cout << "the data points to the integer value" << data;        data = &c;        cout << "the data now points to the character" << data;        return 0;    }
+a) 2d
+b) two memory addresses
+c) 3d
+d) 4d
+b
+Output:
+$ g++ poi2.cpp
+$ a.out
+the data points to the integer value0xbfc81824 the data now points to the character0xbfc8182f
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int n = 5;        void *p = &n;        int *pi = static_cast<int*>(p);        cout << *pi << endl;        return 0;    }
+a) 5
+b) 6
+c) compile time error
+d) runtime error
+a
+Output:
+$ g++ poi1.cpp
+$ a.out
+5
+9. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int a = 5, c;        void *p = &a;        double b = 3.14;        p = &b;        c = a + b;        cout << c << '\n' << p;        return 0;    }
+a) 8, memory address
+b) 8.14
+c) memory address
+d) 12
+a
+Output:
+$ g++ poi.cpp
+$ a.out
+8
+0xbfef0378
+10. What we can’t do on a void pointer?
+a) pointer arithmetic
+b) pointer functions
+c) pointer objects
+d) pointer functions & objects
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – References – 3» Next - C++ Programming Questions and Answers – Structures 

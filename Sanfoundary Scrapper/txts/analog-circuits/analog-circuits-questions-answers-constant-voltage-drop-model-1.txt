@@ -1,0 +1,73 @@
+1. In constant voltage drop model diode in forward bias is considered as a ________________
+a) Resistor
+b) Perfect conductor
+c) Perfect insulator
+d) Capacitor
+b
+2. In constant voltage drop diode in reverse bias is considered as a ___________
+a) Resistor
+b) Perfect conductor
+c) Perfect insulator
+d) Capacitor
+c
+3. The current I through the circuit if we consider diode in constant voltage drop model is? (Take VD as 0.5V)
+a) 2mA
+b) 2.5mA
+c) 3.5mA
+d) 1mA
+b
+Since D1 is in forward biased there will be a voltage drop of 0.5V. So net voltage will be 2.5V and hence current is 2.5mA.
+4. The voltage across the diode Vout if Vin is -5V and resistance is 10K is? (Use constant voltage drop model of diode and take VD as 0.5V)
+a) -3V
+b) 0V
+c) -5V
+d) -2.5V
+c
+Since diode is reverse biased entire voltage will appear across diode.
+5. The voltage across the diode Vout if Vin is 5V and resistance is 10K is? (Use constant voltage drop model of diode and take VD as 0.5V)
+a) 5V
+b) 0.5V
+c) 2.5V
+d) 0V
+b
+Since diode is forward biased and potential is greater than VD voltage across diode is VD.
+6. The current I through the circuit I if voltage v is -3V is? (Use constant voltage drop model of diode and take VD as 0.5V)
+a) 10mA
+b) 1mA
+c) 3mA
+d) 0mA
+d
+7. If current source produces a current of 1mA and resistance R is 3K then voltage across the resistor is ____________ (Use constant voltage drop model of diode and take VD as 0.5V)
+a) 3V
+b) 0V
+c) 0.5V
+d) 0.3V
+c
+The diode is forward biased and drop across it is 0.5V. Maximum current flows through the diode and thus the voltage across diode is same as that across the resistor = 0.5V.
+8. If resistance R1 is 10K, V2 = 2V, V1 = 3V then the current I through the circuit will be ___________ (Use constant voltage drop model of diode and take VD as 0.5V)
+a) 0.3mA
+b) 0.6mA
+c) 0.7mA
+d) 0.1mA
+d
+Since both voltage is reverse bias to diode the diode will disappear from the circuit. Then effective voltage becomes 3-2 = 1V so current is 1/10K = 0.1mA.
+9. If resistance R1 is 10K, V2 = -2V, V1 = -3V then the current I through the circuit will be ___________ (Use constant voltage drop model of diode and take VD as 0.5V)
+a) 0.5mA
+b) 0.25mA
+c) 2mA
+d) 3mA
+b
+Since both voltage sources are forward biased the diode V2 and diode can be replaced by a single cell of VD. So net voltage in the circuit is 2.5V. So the current will be 0.25mA.
+10. What will be the voltage Vout if VA = 3V and VB = -5V? (Use constant voltage drop model of diode and take VD as 0.5V)
+a) 2.5
+b) 3.5
+c) -5.5
+d) -4.5
+a
+Since first diode is forward biased and second diode reverse bias, we can ignore the second diode. Drop across the first diode is 0.5V and hence net voltage at output is 3-0.5=2.5V.
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Piecewise Linear Model of Diode-2» Next - Analog Circuits Questions and Answers – Constant Voltage Drop Model-2 

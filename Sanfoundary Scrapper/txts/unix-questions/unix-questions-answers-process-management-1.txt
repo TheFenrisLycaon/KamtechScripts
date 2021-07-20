@@ -1,0 +1,113 @@
+1. What is a job?
+a) group of tasks
+b) group of commands
+c) group of processes
+d) group of signals
+c
+2. Which of the following command is used to suspend a job?
+a) ctrl-Z
+b) ctrl-Q
+c) bg
+d) $
+a
+3. Which command will push the current foreground job to the background?
+a) bg
+b) fg
+c) ctrl-Z
+d) kill
+a
+$ bg
+[1]     sort  abd.index  >  mash.index &   // this job has been sent to the background. [1] 
+// indicates job number 1.
+4. ____ command will bring the background jobs to the foreground.
+a) bg
+b) fg
+c) ctrl-Z
+d) kill
+b
+$ fg
+5. The command fg %1 will bring the first background job to the foreground.
+a) True
+b) False
+a
+Join [email protected]
+$ fg  %3            // brings the third job to foreground
+ 
+6. The command bg %2 is valid.
+a) True
+b) False
+a
+$ bg  %2
+7. What does the following command do?
+$ kill %2
+a) kills job number 2
+b) kills the second background job
+c) invalid command
+d) kill all foreground & background jobs
+b
+8. Which of the following is not a part of job control facilities?
+a) relate a job to the background
+b) bring it back to the foreground
+c) kill a job
+d) create a new job
+d
+•    Relate a job to the background (bg)
+•    bring it back to the foreground (fg)
+•    kill a job (kill)
+•    list the active jobs (jobs)
+•    suspend a foreground job (ctrl-Z) 
+9. POSIX shell provides job control facilities like bg or fg.
+a) True
+b) False
+b
+10. Which command is used to list the status of jobs?
+a) fg
+b) JOBS
+c) jobs
+d) fg
+c
+$ jobs
+[3] Running wc -l fitr?? > word_count  &
+[2]    Running    sort  abd.index  >  mash.index &
+11. We can schedule a job to run at a specified time of day using _______ command.
+a) batch
+b) at
+c) cron
+d) jobs
+b
+$ at  19:07
+at> file02.sh
+[Ctrl-D] 
+Commands will be executed using usr/bin/bash 
+Job 1016171818.a  at Sun Jan 15  19:07:00  2018
+In the above command the script file named file02.sh goes to the queue and it will be executed at the specified time.
+12. We can use the _____ symbol with at command to redirect our output to a specified file.
+a) >
+b) <
+c) >>
+d) %
+a
+$ at  19:07
+ file02.sh >  file02.txt        // output will be recorded in file02.txt
+13. Which of the following keyword is not supported by at command?
+a) now
+b) noon
+c) tomorrow
+d) evening
+d
+14. Which one of the following forms used with at command is invalid?
+a) at noon
+b) at now +2 years
+c) at  3:07 + 1 day
+d) at morning
+d
+at noon               // at 12:00 hours today
+at now + 2 years      // at current time after 2 years
+at  3:07 + 1 da       // at 3:07pm tomorrow
+at 15                 // 24 hrs format assumed
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Process Handling Commands – 2» Next - Unix Questions and Answers  – Process Management – 2 

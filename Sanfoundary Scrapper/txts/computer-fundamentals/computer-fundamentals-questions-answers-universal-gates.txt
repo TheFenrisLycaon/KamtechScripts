@@ -1,0 +1,81 @@
+1. A ____________ is a circuit with only one output but can have multiple inputs.
+a) Logic gate
+b) Truth table
+c) Binary circuit
+d) Boolean circuit
+a
+It can have multiple inputs but can have only one output.
+The different types of logic gates are AND, OR, NOT etc.
+2. There are 5 universal gates.
+a) True
+b) False
+b
+A NAND gate as well as the NOR gate can be used to implement any other Boolean expression thus it is called as a universal gate.
+3. The Output is LOW if any one of the inputs is HIGH in case of a _________ gate.
+a) NOR
+b) NAND
+c) OR
+d) AND
+b
+It gives a HIGH output only in one case when all the inputs given to it are LOW.
+4.  The following figure shows a ___________ gate.
+a) NOR
+b) NAND
+c) EXOR
+d) OR
+a
+The bubble signifies that it is a NOR gate.
+It is a type of universal gate and can be used to implement all the boolean expressions.
+5. The complement of the input given is obtained in case of:
+a) NOR
+b) AND+NOR
+c) NOT
+d) EX-OR
+c
+It gives an inverted output, thus gives the complement.
+Expression for NOT gate: Y=A’, where A is the input.
+6. How many AND gates are required to realize the following expression Y=AB+BC?
+a) 4
+b) 8
+c) 1
+d) 2
+d
+1 AND gate will be used to connect the inputs A and B whereas the other will be used to connect the inputs B and C.
+7. Number of outputs in a half adder _____________
+a) 1
+b) 2
+c) 3
+d) 0
+b
+One is called the sum and the other is carry.
+Half adder can be implemented using an EXOR gate and an AND gate.
+8. The ________ gate is an OR gate followed by a NOT gate.
+a) NAND
+b) EXOR
+c) NOR
+d) EXNOR
+c
+It therefore reverses the output obtained by an OR gate.
+It can be used to implement any Boolean expression.
+9. The expression of a NAND gate is_______
+a) A.B
+b) A’B+AB’
+c) (A.B)’
+d) (A+B)’
+c
+It therefore inverts the output of an AND gate.
+NAND gate is also a universal gate.
+10. Which of the following correctly describes the distributive law.
+a)( A+B)(C+D)=AB+CD
+b) (A+B).C=AC+BC
+c) (AB)(A+B)=AB
+d) (A.B)C=AC.AB
+b
+(A+B).C =AC+BC.
+Boolean Laws are used to implementing and simplifying Boolean expression.
+Sanfoundry Global Education & Learning Series – Computer Fundamentals.
+To practice all areas of Computer Fundamentals, here is complete set of 1000+ Multiple Choice Questions and Answers.  
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Fundamentals Questions and Answers – Logic Gates» Next - Computer Fundamentals Questions and Answers – CPU & Control Unit 

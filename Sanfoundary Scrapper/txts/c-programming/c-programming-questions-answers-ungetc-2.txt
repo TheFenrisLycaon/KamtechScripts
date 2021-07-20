@@ -1,0 +1,52 @@
+Sanfoundry’s 1000+ Interview Questions and Answers on C helps Freshers preparing for Campus Interviews. Freshers’s should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in campus interviews or fresher’s hiring programs.
+Here is a listing of online C test questions on “Ungetc Function” along with answers, explanations and/or solutions:
+1. Which of the following is the correct declaration for ungetc?
+a) int ungetc(int c, FILE fp);
+b) int ungetc(int *c, FILE fp);
+c) int ungetc(int c, FILE *fp);
+d) int ungetc(int *c, FILE *fp);
+c
+2. Which of the following cannot be used with ungetc()?
+a) scanf
+b) getc
+c) getchar
+d) printf
+d
+3. What does the ungetc function return for the following C expression?
+ungetc(c, fp);//where declarations are int c and FILE *fp
+a) It returns character c
+b) It returns EOF for an error
+c) Both returns character c and returns EOF for an error
+d) Either returns character c or returns EOF for an error
+d
+4. What will be the output of the following C statement?
+int ungetc(int c, FILE *fp)
+a) Either c or EOF for an error
+b) Nothing
+c) fp
+d) None of the mentioned
+a
+5. Only _____character of pushback is guaranteed per file when ungetc is used.
+a) Two
+b) One
+c) Many
+d) Zero
+b
+6. ungetc() may be used with ________
+a) scanf
+b) getc
+c) getchar
+d) all of the mentioned
+d
+7. What is the syntax of ungetc()?
+a) void ungetc(int c, FILE *fp)
+b) int ungetc(int c, FILE *fp)
+c) int ungetc(String c, FILE *fp)
+d) int getc(int c, FILE *fp)
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Ungetc – 1» Next - C Programming Questions and Answers – Storage Management – 1 

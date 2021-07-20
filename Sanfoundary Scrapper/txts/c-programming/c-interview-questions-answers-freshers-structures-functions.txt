@@ -1,0 +1,64 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Huawei and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Huawei interviews on C Programming language. 
+Here is a listing of C interview questions on “Structures and Functions” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    struct point    {        int x;        int y;    };    int main()    {        struct point p = {1};        struct point p1 = {1};        if(p == p1)            printf("equal\n");        else            printf("not equal\n");    }
+a) Compile time error
+b) equal
+c) depends on the standard
+d) not equal
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    struct point    {        int x;        int y;    };    struct notpoint    {        int x;        int y;    };    struct point foo();    int main()    {        struct point p = {1};        struct notpoint p1 = {2, 3};        p1 = foo();        printf("%d\n", p1.x);    }    struct point foo()    {        struct point temp = {1, 2};        return temp;    }
+a) Compile time error
+b) 1
+c) 2
+d) Undefined behaviour
+a
+3. What will be the output of the following C code?
+    #include <stdio.h>    struct point    {        int x;        int y;    };    struct notpoint    {        int x;        int y;    };    int main()    {        struct point p = {1};        struct notpoint p1 = p;        printf("%d\n", p1.x);    }
+a) Compile time error
+b) 1
+c) 0
+d) Undefined
+a
+4. What will be the output of the following C code?
+    #include <stdio.h>    struct point    {        int x;        int y;    };    struct notpoint    {        int x;        int y;    };    void foo(struct point);    int main()    {        struct notpoint p1 = {1, 2};        foo(p1);    }    void foo(struct point p)    {        printf("%d\n", p.x);    }
+a) Compile time error
+b) 1
+c) 0
+d) Undefined
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    struct point    {        int x;        int y;    };    void foo(struct point*);    int main()    {        struct point p1 = {1, 2};        foo(&p1);    }    void foo(struct point *p)    {        printf("%d\n", *p.x++);    }
+a) Compile time error
+b) Segmentation fault/code crash
+c) 2
+d) 1
+a
+6. What will be the output of the following C code?
+    #include <stdio.h>    struct point    {        int x;        int y;    };    void foo(struct point*);    int main()    {        struct point p1 = {1, 2};        foo(&p1);    }    void foo(struct point *p)    {        printf("%d\n", *p->x++);    }
+a) Compile time error
+b) 1
+c) Segmentation fault/code crash
+d) 2
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    struct student fun(void)    {        struct student        {            char *name;        };        struct student s;        s.name = "alan";        return s;    }    void main()    {        struct student m = fun();        printf("%s", m.name);    }
+a) Compile time error
+b) alan
+c) Nothing
+d) Varies
+a
+8. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *name;    };    struct student fun(void)    {        struct student s;        s.name = "alan";        return s;    }    void main()    {        struct student m = fun();        printf("%s", m.name);    }
+a) Nothing
+b) alan
+c) Run time error
+d) Varies
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Structures and Functions – 1» Next - C Programming Questions and Answers – Arrays of Structures – 1 

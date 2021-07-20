@@ -1,0 +1,67 @@
+1. _________ is a Cassandra feature that optimizes the cluster consistency process.
+a) Hinted handon
+b) Hinted handoff
+c) Tombstone
+d) Hinted tomb
+b
+2. Point out the correct statement.
+a) Cassandra does not immediately remove data marked for deletion from disk
+b) A deleted column can reappear if you do not run node repair routinely
+c) The deletion of marked data occurs during compaction
+d) All of the mentioned
+d
+3. Cassandra searches the __________ to determine the approximate location on disk of the index entry.
+a) partition record
+b) partition summary
+c) partition search
+d) all of the mentioned
+b
+4. You configure sample frequency by changing the ________ property in the table definition.
+a) index_time
+b) index_interval
+c) index_secs
+d) none of the mentioned
+b
+5. Point out the wrong statement.
+a) A hint indicates that a write needs to be replayed to one or more unavailable nodes
+b) When the cluster cannot meet the consistency level specified by the client, Cassandra does store a hint
+c) By default, hints are saved for three hours after a replica fails because if the replica is down longer than that, it is likely permanently dead
+d) All of the mentioned
+b
+6. The compression offset map grows to ____ GB per terabyte compressed.
+a) 1-3
+b) 10-16
+c) 20-22
+d) 0-1
+a
+7. The type of __________ strategy Cassandra performs on your data is configurable and can significantly affect read performance.
+a) compression
+b) collection
+c) compaction
+d) decompression
+c
+8. There are _________ types of read requests that a coordinator can send to a replica.
+a) two
+b) three
+c) four
+d) all of the mentioned
+b
+9. _________ can be configured per table for non-QUORUM consistency levels.
+a) Read repair
+b) Read damage
+c) Write repair
+d) None of the mentioned
+a
+10. If the table has been configured with the __________ property, the coordinator node for the read request will retry the request with another replica node.
+a) rapid_retry
+b) speculative_retry
+c) speculative_rapid
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all interview questions and answers on Cassandra, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Cassandra with Hadoop – 1» Next - Hadoop Questions and Answers – Hadoop Incubators – 1 

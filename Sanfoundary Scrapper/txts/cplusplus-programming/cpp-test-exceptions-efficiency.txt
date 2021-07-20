@@ -1,0 +1,94 @@
+This section on C++ test focuses on “Exceptions and Efficiency”. One shall practice these test questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ test questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ test questions on “Exceptions and Efficiency” along with answers, explanations and/or solutions:
+1. What will happen when we move to try block far away from catch block?
+a) Reduces the amount of code in cache
+b) Increases the amount of code in cache
+c) Don’t alter anything
+d) Increases the amount of code
+a
+2. What will happen if an exception that is thrown may cause a whole load of objects to go out of scope?
+a) Terminate the program
+b) Produce a runtime error
+c) It will be added to the overhead
+d) Compilation error
+c
+3. What operation can be performed by destructor?
+a) Abort the program
+b) Resource cleanup
+c) Exit from the current block
+d) Terminate the program
+b
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <exception>    using namespace std;    int main ()     {        try        {            double* i= new double[1000];            cout << "Memory allocated";        }        catch (exception& e)        {            cout << "Exception arised: " << e.what() << endl;        }        return 0;    }
+a) Memory allocated
+b) Exception arised
+c) Depends on the computer memory
+d) Memory allocatedException arised
+c
+Output:
+Join [email protected]
+$ g++ expef.cpp
+$ a.out
+Memory allocated
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void test(int x)    {        try        {            if (x > 0)                throw x;            else                throw 'x';        }        catch(char)        {            cout << "Catch a integer and that integer is:" << x;        }    }    int main()    {        cout << "Testing multiple catches\n:";        test(10);        test(0);    }
+a) Catch a integer and that integer is:10
+b) Error
+c) Runtime error
+d) Catch a integer and that integer is:25
+c
+arise a runtime error.
+Output:
+$ g++ expef.cpp
+$ a.out
+Testing multiple catches
+terminate called after throwing an instance of 'int'
+:Aborted
+6. What will be the output of the following C++ code?
+    #include <stdexcept>    #include <limits>    #include <iostream>    using namespace std;    void func(int c)    {        if (c < numeric_limits<char> :: max())            throw invalid_argument("MyFunc argument too large.");        else        {            cout<<"Executed";        }    }    int main()    {        try        {            func(256);        }        catch(invalid_argument& e)        {            cerr << e.what() << endl;            return -1;        }        return 0;    }
+a) Invalid arguments
+b) Executed
+c) Error
+d) Runtime error
+b
+Output:
+$ g++ expef.cpp
+$ a.out
+Executed
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    using namespace std;    int main ()    {        int num = 3;        string str_bad = "wrong number used";        try        {            if ( num == 1 )            {                       throw 5;            }            if ( num == 2 )            {                throw 1.1f;            }            if ( num != 1 || num != 2 )            {                    throw str_bad;            }        }        catch (int a)        {            cout << "Exception is: " << a << endl;        }        catch (float b)        {            cout << "Exception is: " << b << endl;        }        catch (...)        {            cout  << str_bad << endl;        }        return 0;    }
+a) Exception is 5
+b) Exception is 1.1f
+c) Wrong number used
+d) Exception is 1.6g
+c
+“wrong number used”.
+Output:
+$ g++ expef.cpp
+$ a.out
+wrong number used
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    double division(int a, int b)    {        if (b == 0)        {            throw "Division by zero condition!";        }        return (a / b);    }    int main ()    {        int x = 50;        int y = 0;        double z = 0;        try         {            z = division(x, y);            cout << z << endl;        }        catch (const msg)         {            cerr << msg << endl;        }        return 0;    }
+a) 50
+b) 0
+c) Division by zero condition
+d) Error
+d
+9. What is the main purpose of the constructor?
+a) Begin the execution of class
+b) Include the macros for the program
+c) Establish the class invariant
+d) Terminate the program
+c
+10. Why is it expensive to use objects for the exception?
+a) Exception object is created only if an error actually happens
+b) Because of execution time
+c) Memory space involved in creating an exception object
+d) Because of time and space
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Uncaught Exceptions» Next - C++ Programming Questions and Answers – Exception Handling – 1 

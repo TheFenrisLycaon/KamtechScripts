@@ -1,0 +1,81 @@
+1. Based on how binary information is entered or shifted out, shift registers are classified into _______ categories.
+a) 2
+b) 3
+c) 4
+d) 5
+c
+2. The full form of SIPO is ___________
+a) Serial-in Parallel-out
+b) Parallel-in Serial-out
+c) Serial-in Serial-out
+d) Serial-In Peripheral-Out
+a
+3. A shift register that will accept a parallel input or a bidirectional serial load and internal shift features is called as?
+a) Tristate
+b) End around
+c) Universal
+d) Conversion
+c
+4. How can parallel data be taken out of a shift register simultaneously?
+a) Use the Q output of the first FF
+b) Use the Q output of the last FF
+c) Tie all of the Q outputs together
+d) Use the Q output of each FF
+d
+5. What is meant by the parallel load of a shift register?
+a) All FFs are preset with data
+b) Each FF is loaded with data, one at a time
+c) Parallel shifting of data
+d) All FFs are set with data
+a
+6. The group of bits 11001 is serially shifted (right-most bit first) into a 5-bit parallel output shift register with an initial state 01110. After three clock pulses, the register contains ________
+a) 01110
+b) 00001
+c) 00101
+d) 00110
+c
+             01110->initial
+             10111->first clock pulse
+             01011->second
+             00101->third.
+7. Assume that a 4-bit serial in/serial out shift register is initially clear. We wish to store the nibble 1100. What will be the 4-bit pattern after the second clock pulse? (Right-most bit first)
+a) 1100
+b) 0011
+c) 0000
+d) 1111
+c
+Wait | Store
+1100 | 0000
+ 110 | 0000 1st clock
+  11 | 0000 2nd clock.
+8. A serial in/parallel out, 4-bit shift register initially contains all 1s. The data nibble 0111 is waiting to enter. After four clock pulses, the register contains ________
+a) 0000
+b) 1111
+c) 0111
+d) 1000
+c
+             Wait | Store
+             0111 | 0000
+	      011 | 1000 1st clk
+               01 | 1100 2nd clk
+                0 | 1110 3rd clk
+                X | 1111 4th clk.
+9. With a 200 kHz clock frequency, eight bits can be serially entered into a shift register in ________
+a) 4 μs
+b) 40 μs
+c) 400 μs
+d) 40 ms
+b
+In serial transmission, data enters one bit at a time. After 8 clock cycles only 8 bit will be loaded = 8 * 5 = 40 micro-sec.
+10. An 8-bit serial in/serial out shift register is used with a clock frequency of 2 MHz to achieve a time delay (td) of ________
+a) 16 us
+b) 8 us
+c) 4 us
+d) 2 us
+c
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – Registers» Next - Digital Circuits Questions and Answers – Universal Shift Registers 

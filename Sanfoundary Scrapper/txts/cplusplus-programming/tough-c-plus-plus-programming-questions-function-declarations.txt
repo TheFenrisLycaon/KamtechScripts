@@ -1,0 +1,69 @@
+This section on tough C++ programming questions focuses on “Function Declarations”. One shall practice these questions to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ programming questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of tough C++ programming questions on “Function Declarations” along with answers, explanations and/or solutions:
+1. Where does the execution of the program starts?
+a) user-defined function
+b) main function
+c) void function
+d) else function
+b
+2. What are mandatory parts in the function declaration?
+a) return type, function name
+b) return type, function name, parameters
+c) parameters, function name
+d) parameters, variables
+a
+3. which of the following is used to terminate the function declaration?
+a) :
+b) )
+c) ;
+d) ] 
+c
+4. How many can max number of arguments present in function in the c99 compiler?
+a) 99
+b) 90
+c) 102
+d) 127
+d
+5. Which is more effective while calling the functions?
+a) call by value
+b) call by reference
+c) call by pointer
+d) call by object
+b
+Join Sanfoundry@YouTube
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void mani()    void mani()    {        cout<<"hai";    }    int main()    {        mani();        return 0;    }
+a) hai
+b) haihai
+c) compile time error
+d) runtime error
+c
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void fun(int x, int y)    {        x = 20;        y = 10;    }    int main()    {        int x = 10;        fun(x, x);        cout << x;        return 0;    }
+a) 10
+b) 20
+c) compile time error
+d) 30
+a
+Output:
+$ g++ fun.cpp
+$ a.out
+10
+8. What is the scope of the variable declared in the user defined function?
+a) whole program
+b) only inside the {} block
+c) the main function
+d) header section
+b
+9. How many minimum number of functions should be present in a C++ program for its execution?
+a) 0
+b) 1
+c) 2
+d) 3
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Comments and Indentation» Next - C++ Programming Questions and Answers – Functions 

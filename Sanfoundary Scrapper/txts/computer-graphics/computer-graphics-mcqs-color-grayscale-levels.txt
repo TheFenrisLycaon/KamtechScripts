@@ -1,0 +1,67 @@
+This section of our 1000+ Computer Graphics multiple choice questions focuses on Color and Grayscale Levels.
+1. The color options are numerically coded with the following values.
+a) Ranging from 0 through the positive integer
+b) Ranging from 0 to 1
+c) Ranging from 0 to -0
+d) Only c
+a
+2. In color raster system, the number of color choices available depends on
+a) colors in frame buffer
+b) Amount of storage provided per pixel in frame buffer
+c) RGB color
+d) Neither a nor b
+b
+3. The color code “000” is for
+a) White
+b) Black
+c) Blue
+d) Green
+b
+4. Color information can be stored in
+a) Main memory
+b) Secondary memory
+c) Graphics card
+d) Frame buffer
+d
+5. Whenever a particular color code is specified in an application program, the corresponding binary value is placed in?
+a) Color look-up table
+b) Directly in frame buffer
+c) a or b
+d) Video lookup table
+b
+6. The range that specifies the gray or grayscale levels is
+a) The value range from -1 to 1
+b) The value range from 0 to -1
+c) The value range from 0 to 1
+d) Any one of the above
+c
+7. With 3 bits per pixel, we can accommodate 8 gray levels. If we use 8 bits per pixel then what is the value of gray levels?
+a) 18 gray levels
+b) 128 gray levels
+c) 256 gray levels
+d) No color
+c
+8. With the display intensity corresponding to a given color index ci calculated as
+a) Intensity=0.5[max(r, g, b)+ max(r, g, b)] 
+b) Intensity=0.5[min(r, g, b)+ min(r, g, b)] 
+c) Intensity=0.5[max(r, g, b)- max(r, g, b)] 
+d) Intensity=0.5[min(r, g, b)+ max(r, g, b)] 
+d
+9. A user can set color-table entries in a PHIGS application program with the function
+a) setColourRepresentation (ws, ci, colorptr)
+b) setColorRepresentation (ws, ci, colorptr)
+c) setColour (ws, ci, colorptr)
+d) setColourRepresentation ()
+a
+10. If any intensity input value near 0.33 would be stored as the binary value 1 in the frame buffer, then it displays
+a) Dark green color
+b) Light gray color
+c) Dark gray color
+d) White or black
+c
+Sanfoundry Global Education & Learning Series – Computer Graphics.
+To practice all areas of Computer Graphics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Graphics Questions & Answers – Curve Attributes» Next - Computer Graphics Questions & Answers – Area Fill Attributes 

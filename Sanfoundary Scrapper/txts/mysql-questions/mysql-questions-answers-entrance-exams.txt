@@ -1,0 +1,64 @@
+1. Which table lists the accounts and the databases for which the privileges are provided?
+a) user
+b) db
+c) tables_priv
+d) procs_priv
+b
+2. The table that lists the column level privileges is _____________
+a) columns_priv
+b) db
+c) tables_priv
+d) procs_priv
+a
+3. Which of these grant table scope columns is case insensitive?
+a) Host
+b) User
+c) Password
+d) Db
+a
+4. What causes a replication master server to delete all the binary log files even if they are still in use?
+a) RESET MASTER LOGS
+b) FLUSH TABLES
+c) RELOAD
+d) FLUSH LOGS
+a
+5. What does ‘abc’ || ‘xyz’, when PIPES_AS_CONCAT is enabled, result in?
+a) 0
+b) 1
+c) abcxyz
+d) xyzabc
+c
+6. What does the expression ‘2 BETWEEN 2 AND 5’ result in?
+a) True
+b) False
+c) -1
+d) 2
+a
+7. REGEXP does not take collation into account.
+a) True
+b) False
+a
+8. The line that is not used to turn on the event scheduler is _________________
+a) event_scheduler = ON
+b) eventscheduler = ON
+c) event_scheduler_ON
+d) events_scheduler_ON
+a
+9. The statement that is used to check the status of the event scheduler at runtime is _____________
+a) SHOW STATUS OF ‘event_scheduler’
+b) SHOW VARIABLES OF ‘event_scheduler’
+c) SHOW STATUS LIKE ‘event_scheduler’
+d) SHOW VARIABLES LIKE ‘event_scheduler’
+d
+10. The value of event_scheduler that enables checking status but not changing it at runtime is ______________
+a) ON
+b) OFF
+c) DISABLED
+d) ENABLED
+c
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL for Entrance exams, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Internal Security: Preventing Unauthorized Filesystem Access» Next - MySQL Questions and Answers – Setting Up Secure Connections 

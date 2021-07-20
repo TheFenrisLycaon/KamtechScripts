@@ -1,0 +1,181 @@
+1. A steam nozzle is a passage of varying cross section through which the kinetic energy of steam is converted into heat energy.
+a) True
+b) False
+b
+2. Which of the following statements about steam nozzles is FALSE?
+a) It converts the heat energy of the steam into kinetic energy
+b) It has a varying cross section
+c) The smallest section is called throat
+d) The pressure at the outlet is more than at the inlet
+d
+3. The smallest section of a steam nozzle is called _____
+a) maw
+b) neck
+c) throat
+d) muzzle
+c
+4. Which type of nozzle does the following picture represent?
+a) Convergent
+b) Divergent
+c) Convergent-Divergent
+d) Subsonic
+b
+5. The steam flow though nozzle is considered to be _____
+a) adiabatic
+b) isobaric
+c) isothermal
+d) isochoric
+a
+6. Steam at a temperature 200°C and pressure 4 bar enters a steam nozzles and is discharged at 1 bar pressure. Determine the exit velocity of steam if the inlet velocity is negligible.
+a) 500 m/s
+b) 720 m/s
+c) 580 m/s
+d) 750 m/s
+b
+From steam tables, At 4 bar and 200°C
+h1 = 2860.5 kJ/kg, s1 = 7.171 kJ/kg/K
+From steam tables, At 1 bar
+hf = 417.5 kJ/kg, hfg = 2257.9 kJ/kg
+sf = 1.3027 kJ/kg-K, sfg = 6.0657 kJ/kg-K
+Since, s1 = s2
+s1 = sf +x(sfg)
+7.171 = 1.3027 + x(6.0657)
+x = 0.967
+therefore, h2 = hf + x(hfg)
+h2 = 417.5 + 0.967(2257.9)
+h2 = 2601.92 kJ/kg
+Exit velocity, C2 = \(\sqrt{2*1000(h_1-h_2)}\) 
+C2 = \(\sqrt{2*1000(2860.5-2601.92)}\) 
+C2 = 719.14 m/s ≈ 720 m/s.
+7. Steam entering a nozzle at 15 bar and 350°C is discharged at 1 bar. If the inlet velocity of the steam is 50 m/s, determine the exit velocity.
+a) 785 m/s
+b) 365 m/s
+c) 565 m/s
+d) 475 m/s
+c
+Using Mollier chart,
+h1 = 3150 kJ/kg and h2 = 2992 kJ/kg
+	Exit velocity, C2 = \(\sqrt{2*1000(h_1-h_2)+C_1^2}\) 
+			 C2 = \(\sqrt{2*1000(3150-2992)+50^2}\) 
+			C2 = 564.36 m/s ≈ 565 m/s.
+8. Dry and saturated steam enters a nozzle at 11 bar and leaves at 2 bar. What minimum exit area should the nozzle have if the steam flow of 2 kg/s is to be maintained?
+a) 0.00365 m2
+b) 0.02156 m2
+c) 0.00312 m2
+d) 0.00228 m2
+d
+Using Mollier chart,
+h1 = 2780 kJ/kg, h2 = 2480 kJ/kg, vg2 = 0.885 m3
+We know that,
+C2 = \(\sqrt{2*1000(h_1-h_2)}\) 
+C2 = \(\sqrt{2*1000(2780-2480)}\) 
+C2  = 774.6 m/s
+Exit area, A2 = \(\frac{m*v_{g2}}{C_2} = \frac{2*0.885}{774.6}\) = 0.00228 m2
+9. Final velocity of steam passing thorough a nozzle is found out to be 586 m/s. The pressure of steam at inlet is 15 bar and is dry and saturated. The exit pressure is 2 bar. Determine the dryness fraction of the steam when it leaves the nozzle.
+a)  0.79
+b) 0.96
+c) 0.88
+d) 0.81
+b
+From Steam tables,
+At 15 bar:
+h1 = hg = 2789.9 kJ/kg
+At 2 bar:
+hf2 = 504.7 kJ/kg, hfg2 = 2201.6 kJ/kg
+We know that,
+C2 = 44.72\(\sqrt{(h_1-h_2)} \) 
+Substituting the values
+586 = 44.72\(\sqrt{(2789.9-h_2)} \) 
+Solving for ‘h2’, we get
+h2 = 2618.19 kJ/kg
+we know that
+h2 = hf2 + x(hfg2)
+2618.19 = 504.7 + x2(2201.6)
+Solving for x2, we get
+x2 = 0.96.
+10. Dry saturated steam enters a steam nozzle at 12 bar and 200°C and leaves at 2 bar. If the exit area is 0.00197 m2, determine the mass flow rate of steam.
+a) 1 kg/s
+b) 2 kg/s
+c) 3 kg/s
+d) 4 kg/s
+b
+From steam tables, at 12 bar and 200°C
+h1 = 2814.4 kJ/kg, s1 = 6.587 kJ/kg-K
+From steam tables, at 2 bar
+hf2 = 504.7 kJ/kg, hfg2 = 2201.6 kJ/kg
+sf2 = 1.530 kJ/kg-K, sfg2 = 5.597 kJ/kg-K
+vg2 = 0.8854 m3/kg
+We know that
+s1 = s2
+s1 = sf2 + x2(sfg2)
+6.587 = 1.530 + x2(5.597)
+x2 = 0.90
+h2 = hf2 + x2(hfg2)
+= 504.7 + 0.9(2201.6)
+= 2486.14 kJ/kg
+We know that,
+C2 = 44.72\(\sqrt{(h_2)}\) 
+Substituting the values
+C2 = 44.72\(\sqrt{(2814.4-2486.14)}\) 
+C2 = 810.23 m/s
+Mass flow rate, m = \(\frac{A_2*C_2}{xv_g}\) 
+ m = \(\frac{0.00197*810.23}{0.9*0.8854}\) 
+ m = 2 kg/s.
+11. Which of the following equations represent the correct critical pressure ratio?
+a) \(\frac{P_1}{P_2} = (\frac{2}{n+1})^\frac{n}{n-1} \) 
+b) \(\frac{P_2}{P_1} = (\frac{2}{n-1})^\frac{n}{n-1} \) 
+c) \(\frac{P_2}{P_1} = (\frac{2}{n+1})^\frac{n}{n-1} \) 
+d) \(\frac{P_2}{P_1} = (\frac{2}{n+1})^\frac{n}{n+1} \) 
+c
+\(\frac{Throat \, Pressure}{Inlet \, Pressure} = \frac{P_2}{P_1} = (\frac{2}{n+1})^\frac{n}{n-1} \) 
+12. Calculate the throat pressure if the dry and saturated steam enters a nozzle at 15 bar. Consider the discharge through the nozzle maximum.
+a) 8.66 bar
+b) 7.58 bar
+c) 5.65 bar
+d) 2.36 bar
+a
+n = 1.135  (Dry and saturated steam)
+According to the given condition,
+\(\frac{P_2}{P_1} = (\frac{2}{n+1})^\frac{n}{n-1} \) 
+\(\frac{P_2}{15} = (\frac{2}{1.135+1})^\frac{1.135}{1.135-1} \) 
+Therefore, P2 = 8.66 bar.
+13. Steam enters a nozzle at 14 bar and 200°C. Determine the discharge if the discharge through the nozzle is maximum. Take the area of throat as 0.002 m2.
+a) 3.95 kg/s
+b) 4.18 kg/s
+c) 2.36 kg/s
+d) 1.65 kg/s
+b
+n = 1.3                                (Supersaturated steam)
+From steam tables, at 14 bar and 200°C
+vg1 = 0.1429 m3/kg
+According to the given condition
+mmax = A\(\sqrt{n(\frac{P_1}{v_1})(\frac{2}{n+1})^\frac{n+1}{n-1}} \) 
+mmax = 0.002\(\sqrt{1.3{14*10^5}{0.1429})(\frac{2}{1.3+1})^\frac{1.3+1}{1.3-1}} \) 
+mmax = 4.18 kg/s.
+14. The maximum mass flow through a steam nozzle is independent of _____
+a) Initial pressure
+b) Initial density
+c) Final pressure
+d) Throat area
+c
+mmax = A\(\sqrt{n(\frac{P_1}{v_1})(\frac{2}{n+1})^\frac{n+1}{n-1}} \) 
+It can be observed from the above equation that the maximum mass flow depends in Initial conditions i.e. initial pressure and initial density (or initial specific volume), quality and throat area. It is independent of final pressure and quality (dryness fraction) of steam.
+15. Determine the velocity of steam at throat if the discharge through the nozzle is maximum. Steam enters the nozzle in dry and saturated state and at 11 bar.
+a) 455.45 m/s
+b) 625.32 m/s
+c) 545.87 m/s
+d) 325.65 m/s
+a
+	n = 1.135                          (Dry and saturated steam)
+	From steam tables, at 11 bar
+	vg1 = 0.17739 m3/kg
+	According to the given conditions
+C2 = \(\sqrt{2(\frac{n}{n+1})(P_1)(v_{g1})}\) 
+C2 = \(\sqrt{2(\frac{1.135}{1.135+1})(11*10^5)(0.17739)}\) 
+C2 = 455.45 m/s.
+Sanfoundry Global Education & Learning Series – Thermal Engineering
+To practice all areas of Thermal Engineering for Experienced people,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Thermal Engineering Questions and Answers – Steam Generators Performance – Boiler Efficiency» Next - Thermal Engineering Questions and Answers – Nozzle Efficiency 

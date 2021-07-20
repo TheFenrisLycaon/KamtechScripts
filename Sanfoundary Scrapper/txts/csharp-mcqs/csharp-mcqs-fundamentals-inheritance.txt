@@ -1,0 +1,98 @@
+1. Which procedure among the following should be used to implement a ‘Has a’  or a ‘Kind of’ relationship between two entities?
+a) Polymorphism
+b) Inheritance
+c) Templates
+d) All of the mentioned
+b
+2. The number of levels of inheritance are?
+a) 5
+b) 4
+c) 3
+d) 2
+b
+3.  What does the following C# code signify?
+ class a {    } class b : a {     variable declaration;     method declaration; }
+a) Declaration of a base class
+b) Declaration of a subclass
+c) Declaration of base class & subclass and how subclass inherits the base class
+d) None of the mentioned
+c
+Join Sanfoundry@YouTube
+4. In an inheritance chain through which of the following, the base class and its components are accessible to the derived class?
+a) Scope resolution operator(:)
+b) Class visibility modifiers (public,private etc.)
+c) Dot operator (.)
+d) All of the mentioned
+b
+5. Select the class visibility modifiers among the following:
+a) Private, protected, public, internal
+b) Private, protected, public, internal, protected internal
+c) Private, protected, public
+d) All of the mentioned
+b
+6. In Inheritance concept, which of the following members of base class are accessible to derived class members?
+a) static
+b) protected
+c) private
+d) shared
+b
+7. Wrong statement about inheritance in C# .NET?
+a) In inheritance chain, object construction begins from base class towards derived class
+b) Inheritance cannot extend base class functionality
+c) A derived class object contains all base class data
+d) All of the mentioned
+b
+8. A class member declared protected becomes member of subclass of which type?
+a) public member
+b) private member
+c) protected member
+d) static member
+d
+9. Which of the following functionality is facilitated by inheritance mechanism?
+a) Use the existing functionality of base class
+b) Override the existing functionality of base class
+c) Implements new functionality in derived class
+d) All of the mentioned
+d
+10. Which statements among following are correct?
+a) We can derive a class from a base class even if source code of base class not available
+b) Multiple inheritance is different from multiple levels of inheritance
+c) It is legal to make objects of one class as members of another class
+d) All of the mentioned
+d
+11. If base class consist of two private integers, one static integer and derived class consist of two static integers and one private integer. What would be the size of derived class object?
+a) size of object depends on sizes of its non static data members
+b) size of a derived class object is sum of sizes of non static data members of base class and derived class
+c) size of object is calculated using sizeof() method
+d) none of the mentioned
+a
+12. Which is the correct way to create an object of the given class abc?
+a) Declaring  existing  class as sealed
+b) Declaring  existing class as override
+c) Declaring existing class as overloads
+d) Declaring existing class as shadows
+a
+13. Given class sample is inherited by class sample 1. Which are the correct statements about construction of object of class sample?
+a) While creating the object firstly the constructor of class sample will be called followed by constructor of class sample 1
+b) The constructor of only sample class will be called
+c) While creating the object firstly constructor of class sample 1 will be called followed by constructor of class sample
+d) The order of calling constructors depend on whether constructors in class sample and sample 1 are private or public
+c
+14. Which form of inheritance is not supported directly by C# .NET?
+a) Multiple inheritance
+b) Multilevel inheritance
+c) Single inheritance
+d) Hierarchical inheritance
+a
+15. If no access modifier for a class is specified, then class accessibility is defined as?
+a) public
+b) protected
+c) private
+d) internal
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Enumerations» Next - C# Questions & Answers – Inheritance Implementation 

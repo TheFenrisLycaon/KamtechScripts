@@ -1,0 +1,143 @@
+1. limx → 1⁡ (x-1)Tan(πx⁄2) is?
+a) 0
+b) –1⁄π
+c) –2⁄π
+d) 2⁄π
+c
+\(\lim_{x\rightarrow 1}\frac{(x-1)sin(\frac{\pi x}{2})}{cos(\frac{\pi x}{2})}=\frac{0}{0}\) (Indeterminate)
+By L’Hospital rule
+\(\lim_{x\rightarrow 1}\frac{(x-1)cos(\frac{\pi x}{2})\frac{\pi}{2}+sin(\frac{\pi x}{2})}{\frac{\pi}{2}sin(\frac{x\pi}{2})}=-\frac{2}{\pi}\)
+2. Value of limit always be in the range of function.
+a) True
+b) False
+b
+3. Which of the following is a necessary Conditions of Sandwich rule?
+a) All function must have common domain
+b) All function must have common range
+c) All function must have common domain and range both
+d) Function must not have common domain and range
+a
+1. have Common Domain,
+2. and, satisfy f(x) ≤ g(x) ≤ h(x) ∀ x ∈ D
+Then if f(x) = h(x) = L
+=> g(x) = L.
+4. The value of limx → 0⁡⁡ [x]Cos(x), [x] denotes the greatest integer function _______
+a) lies between 0 and 1
+b) lies between -1 and 0
+c) lies between 0 and 2
+d) lies between -2 and 0
+b
+We know that,
+x-1 < [x] < x
+Multiplying by Cos(x), we get
+(x-1)Cos(x) < [x]Cos(x) < xCos(x)
+Taking limits, we get
+limx → 0 [(x-1)Cos(x)] < limx → 0 [x]Cos(x) < limx → 0[xCos(x)]
+=> -1 < limx → 0 [x]Cos(x) < 0.
+5. Value of limx → 0[(1+xex)/(1 – Cos(x))].
+a) e
+b) 1
+c) 2
+d) Can not be solved
+c
+=> By L’Hospital rule
+=> limx → 0[(1+xex) / (Sin(x))] = 1⁄0 (Again indeterminate)
+=> By L’ Hospital rule
+=> limx → 0[((2+x)ex)/ (Cos(x))] = 2.
+6. The value of \(\lim_{x\rightarrow 1}[x]cos(\frac{\pi(1-x)}{2})e^{1/(1-x)}\), [x] denotes the greatest integer function.
+a) 0
+b) 1
+c) ∞
+d) -∞
+a
+\(\lim_{x\rightarrow 1}[x]cos(\frac{\pi(1-x)}{2})e^{1/(1-x)}\) 
+We know that
+x-1 ≤ [x] ≤ x
+Multiplying by Remaining term of question
+\((x-1)e^{1/(1-x)}cos(\frac{\pi(1-x)}{2})≤e^{1/(1-x)}cos(\frac{\pi(1-x)}{2})≤[x]≤xe^{1/(1-x)}cos(\frac{\pi(1-x)}{2})\) 
+\(\lim_{x\rightarrow 1}(x-1)e^{1/(1-x)}cos(\frac{\pi(1-x)}{2})≤\lim_{x\rightarrow 1}e^{1/(1-x)}cos(\frac{\pi(1-x)}{2})[x]\) 
+\(≤\lim_{x\rightarrow 1}xe^{1/(1-x)}cos(\frac{\pi(1-x)}{2})\) 
+By rearranging the terms of e1/(1-x) to e-1/(1-x)
+\(\lim_{x\rightarrow 1}e^{-1/(x-1)}cos(\frac{\pi(1-x)}{2})x-1≤\lim_{x\rightarrow 1}e^{1/(1-x)}cos(\frac{\pi(1-x)}{2})[x]\) 
+\(≤\lim_{x\rightarrow 1}e^{-1/(x-1)}cos(\frac{\pi(1-x)}{2})x\) 
+\(0≤e^{-1/(x-1)}cos(\frac{\pi(1-x)}{2})[x]≤0\) 
+Hence by sandwich rule
+\(\lim_{x\rightarrow 1}e^{1/(1-x)}cos(\frac{\pi(1-x)}{2})[x]=0\) 
+7. Evaluate limx → 0(1+Tan(x))Cot(x)
+a) 1
+b) e
+c) ln(2)
+d) e2
+b
+limx → 0(1+Tan(x))Cot(x) = limtan(x) → 0 (1+Tan(x))1⁄Tan(x) = limt → 0 (1 + t)1⁄t = e.
+8. Evaluate limx → 1[(-xx + 1) / (xlog(x))].
+a) ee
+b) e
+c) -1
+d) e2
+c
+\(\lim{x\rightarrow 1}[(-x^x+1)/(xlog(x))]=(0/0)\) 
+By L’Hospital rule,
+\(-\lim_{x\rightarrow 1}[x^x(1+xlog(x))/(1+xlog(x))]=-\lim_{x\rightarrow 1}[x^x]=-1\) 
+9. Find domain of n for which limx → 0enxCot(nx), has non zero value.
+a) n ∈ (0,∞) ∩ (1,5)
+b) n ∈ (-∞,∞) ∩ (1,5)
+c) n ∈ (-∞,∞)
+d) n ∈ (-∞,∞) ~ 5
+c
+\(\lim_{x\rightarrow 1}\frac{e^{nx}cos(nx)}{sin(nx)}=(1/0)\) 
+By L’hospital Rule we get
+\(\Rightarrow \lim_{x\rightarrow 0}\frac{ne^{nx}(-sin(nx)+cos(nx))}{ncos(nx)}=n/n=1\) 
+Hence domain of n is n ∈ (-∞,∞).
+10. Value of \(\frac{dSin(x)Cos(x)}{dx}\) is
+a) Cos(2x)
+b) Sin(2x)
+c) Cos2(2x)
+d) Sin2(2x)
+a
+11. Evaluate \(\lim_{x\rightarrow\infty}(sin(\frac{1}{x})+cos(\frac{1}{x}))^x\) 
+a) 1
+b) e
+c) 0
+d) e2
+b
+\(\lim_{x\rightarrow\infty}(sin(\frac{1}{x})+cos(\frac{1}{x}))^x\) 
+Putting x=1/y,
+\(\Rightarrow \lim_{y\rightarrow 0}(sin(y)+cos(y))^{\frac{1}{y}}\) 
+\(\Rightarrow \lim_{y\rightarrow 0}((y-\frac{y^3}{3!}+\frac{y^5}{5!}-…)+(1-\frac{y^2}{2!}+\frac{y^4}{4!}-….))^{\frac{1}{y}}\) 
+Neglecting higher powers of y,(as y is limits to 0 which is very small hence higher power terms can be neglected)
+\(\Rightarrow\lim_{y\rightarrow 0}(1+y)^{\frac{1}{y}}\) 
+=>e
+12. If \(\lim_{x\rightarrow 0}\frac{(x(1+acos(x))-bsin(x))}{x^3}=1\), then find the value of a and b.
+a) 2.5, -1.5
+b) -2.5, -1.5
+c) -2.5, 1.5
+d) 2.5, 1.5
+b
+\(\lim_{x\rightarrow 0}\frac{(x(1+acos(x))-bsin(x))}{x^3}=1\) 
+Expanding terms of cos(x) and sin(x) and rearranging we get,
+\(\lim_{x\rightarrow 0}\frac{(1+a-b)x+(\frac{b}{6}-\frac{a}{2})x^3+(\frac{a}{24}-\frac{b}{120})x^5+….}{x^3}=1\) 
+Since, given limit is finite, hence coefficients of powers of x should be zero and x3 should be 1
+⇒ 1 + a – b=0
+⇒ b⁄6 – a⁄2 = 1
+⇒ Solving the above two equations we get, a = -2.5, b = -1.5.
+13. \(\lim_{x\rightarrow 0}\frac{ax^3+b sin(x)+c cos(x)}{x^5}=1\), then find the value of a, b and c.
+a) 1.37, -4.13, 4.13
+b) 1.37, 4.13, -4.13
+c) -1.37, 4.13, 4.13
+d) 1.37, 4.13, 4.13
+b
+\(\lim_{x\rightarrow 0}\frac{ax^3+b sin(x)+c cos(x)}{x^5}=1\) 
+Now expanding the terms of sin(x) and cos(x) and rearranging in powers of x,x3 and x5 and so on,we get
+=>\(\lim_{x\rightarrow 0}\frac{x(b+c)-x^3(\frac{b}{6}+\frac{c}{2}-a)+x^5(\frac{b}{120}+\frac{c}{24})+…}{x^5}\) 
+Now, coefficient of x and x3 should be zero and that of x5 should be 1, then
+⇒ B + c = 0
+⇒ b⁄6 + c⁄2 = a
+⇒ b⁄120 + c⁄24 = 1
+⇒ By solving these 3 equations, a = 1.37, b = 4.13, c = -4.13.
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics for online tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Limits and Derivatives of Several Variables – 2» Next - Engineering Mathematics Questions and Answers – Limits and Derivatives of Several Variables – 4 

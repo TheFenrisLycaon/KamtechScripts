@@ -1,0 +1,79 @@
+This section on C++ quiz focuses on “Classes”. One shall practice these quizzes to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ quiz comes with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ quiz on “Classes” along with answers, explanations and/or solutions: 
+1. What does a class in C++ holds?
+a) data
+b) functions
+c) both data & functions
+d) arrays
+c
+2. How many specifiers are present in access specifiers in class?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+3. Which is used to define the member of a class externally?
+a) :
+b) ::
+c) #
+d) !!$
+b
+4. Which other keywords are also used to declare the class other than class?
+a) struct
+b) union
+c) object
+d) both struct & union
+d
+5. What will be the output of the following C++ code?
+Join [email protected]
+    #include <iostream>    using namespace std;    class rect    {        int x, y;        public:        void val (int, int);        int area ()        {            return (x * y);        }    };    void rect::val (int a, int b)    {        x = a;        y = b;    }    int main ()    {        rect rect;        rect.val (3, 4);        cout << "rect area: " << rect.area();        return 0;    }
+a) rect area: 24
+b) rect area: 12
+c) compile error because rect is as used as class name and variable name in line #20
+d) rect area: 56
+b
+Output:
+$ g++ class.cpp
+$ a.out
+rect area: 12
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class CDummy    {        public:        int isitme (CDummy& param);    };    int CDummy::isitme (CDummy& param)    {        if (&param == this)            return true;        else            return false;    }    int main ()    {        CDummy a;        CDummy *b = &a;        if (b->isitme(a))         {            cout << "execute";        }        else        {            cout<<"not execute";        }        return 0;    }
+a) execute
+b) not execute
+c) error
+d) both execute & not execute
+a
+Output:
+$ g++ class1.cpp
+$ a.out
+execute
+7. Which of the following is a valid class declaration?
+a) class A { int x; };
+b) class B { }
+c) public class A { }
+d) object A { int x; };
+a
+8. The data members and functions of a class in C++ are by default ____________
+a) protected
+b) private
+c) public
+d) public & protected
+b
+9. Constructors are used to ____________
+a) initialize the objects
+b) construct the data members
+c) both initialize the objects & construct the data members
+d) delete the objects
+a
+10. When struct is used instead of the keyword class means, what will happen in the program?
+a) access is public by default
+b) access is private by default
+c) access is protected by default
+d) access is denied
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Header Files Usage» Next - C++ Programming Questions and Answers – Classes – 2 

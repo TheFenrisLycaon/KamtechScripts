@@ -1,0 +1,76 @@
+1. For which of these flows is methods of characteristics limited to?
+a) Inviscid flow
+b) Viscous flow
+c) One – dimensional flow
+d) Quasi – two – dimensional flow
+a
+2. Which of these methods is employed to find solution using method of characteristics?
+a) Taylor series
+b) Fourier series
+c) McLaurin series
+d) Laurent series
+a
+ui + 1,j = ui,j + \(\frac {∂P}{∂x_{i,j}}\) ∆x + \(\frac {∂^2 P}{∂x^{2}_{i,j}} \frac {∆x^{2}}{2} + \frac {∂^3 P}{∂x^{3}_{i,j}} \frac {∆x^{3}}{3}\) + ⋯.
+3. The numerical solution results in certain amount of truncation error.
+a) True
+b) False
+a
+4. What causes ‘round off’ error in numerical solution?
+a) Finite grid points
+b) Rounding number to a significant figure
+c) Solving nonlinear equation
+d) Incoherent boundary conditions
+b
+5. Which of these is the compatibility equation along C– characteristic line?
+a) du + \(\frac {dp}{ρa}\) = 0
+b) du – \(\frac {dp}{ρa}\) = 0
+c) \(\frac {dpu}{ρa}\) = 0
+d) \(\frac {du}{ρa}\) = 0
+b
+du – \(\frac {dp}{ρa}\) = 0
+The compatibility equation along C+ line is:
+du + \(\frac {dp}{ρa}\) = 0
+Join Sanfoundry@YouTube
+6. What is the slope of the right running wave characteristic equation?
+a) u + a
+b) u – a
+c) 2u
+d) 2a
+a
+7. The Riemann invariants are constant along the characteristic line.
+a) True
+b) False
+a
+J+ = u + ∫\(\frac {dp}{ρa}\) = const
+J– = u – ∫\(\frac {dp}{ρa}\) = const
+J+ and J– are hence constant along the characteristic lines.
+8. Which grid is used to find the flow field properties using finite difference solutions?
+a) Rectangular grid
+b) Non – rectangular grid
+c) Square grid
+d) Circular grid
+a
+9. What is the cause of truncation error in numerical solution?
+a) Neglecting higher order terms
+b) Rounding number to significant figure
+c) Solving nonlinear equation
+d) Incoherent boundary conditions
+a
+10. Method of characteristics is applicable for which of these flows?
+a) Inviscid, subsonic flow
+b) Steady, supersonic flow
+c) Unsteady, subsonic flow
+d) Unsteady supersonic flow
+b
+11. Where is the application of method of characteristics?
+a) Optimizing the wing
+b) Designing the compressor
+c) Designing contour of nozzle
+d) Optimizing the shape of the fuselage
+c
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Physical Aspects of Supersonic Flow over Cones» Next - Aerodynamics Questions and Answers – Two Dimensional Irrotational Flow 

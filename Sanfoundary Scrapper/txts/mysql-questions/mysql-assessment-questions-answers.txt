@@ -1,0 +1,58 @@
+1. What enables encrypted connections to be established?
+a) exec_stmt_ssl
+b) exec_ssl_stmt
+c) exec_stmnt_ssl
+d) exec_ssl_stmnt
+a
+2. The exec_stmt_ssl is written in _______________
+a) C++
+b) C
+c) Python
+d) Perl
+b
+3. On failure, ‘mysql_query()’ returns _______________
+a) 0
+b) 1
+c) -1
+d) a non-zero value
+d
+4. Input handling cannot be customized with MySQL.
+a) True
+b) False
+b
+5. By default, MySQL does not clip out of range numeric values to the nearest fit value.
+a) True
+b) False
+b
+Join Sanfoundry@YouTube
+6. Which mode prevents MySQL to perform full checking of date parts?
+a) PREVENT_DATE_CHECK
+b) STOP_DATES_CHECK
+c) ALLOW_DATES_INVALID
+d) ALLOW_INVALID_DATES
+d
+7. Which statement is used to determine the storage engine for individual tables?
+a) SHOW TABLE STATUS
+b) SHOW DEFAULT STATUS
+c) SHOW STATUS OF TABLE
+d) SHOW STATUS TABLE
+a
+8. Which table in the ‘INFORMATION_SCHEMA’ stores information about storage engines and server plugins?
+a) ENGINES, PLUGINS
+b) FILES, PLUGINS
+c) PLUGINS, STATISTICS
+d) ENGINES, FILES
+a
+9. How many of the following is (are) considered as a special character by ‘mysql_real_escape_string()’?
+null byte, single quote, backslash
+a) 3
+b) 1
+c) 2
+d) 0
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Assessment Questions, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Processing SQL Statements» Next - MySQL Questions and Answers – Using the Embedded Server Library 

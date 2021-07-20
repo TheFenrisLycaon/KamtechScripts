@@ -1,0 +1,442 @@
+1. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class Mammal
+{
+   public:
+	Mammal(){
+		cout<<"I'm a Mammal\n";
+	}
+	~Mammal(){}
+};
+ 
+class Human: public Mammal
+{
+   public:
+	Human(){
+		cout<<"I'm a Human\n";
+	}
+	~Human(){}
+};
+ 
+class Male: public Human
+{
+   public:
+	Male(){
+		cout<<"I'm a Male\n";
+	}
+	~Male(){}
+};
+ 
+class Female: public Human
+{
+   public:
+	Female(){
+		cout<<"I'm a Female\n";
+	}
+	~Female(){}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	Male M;
+	return 0;
+}
+a) 
+I'm a Mammal
+I'm a Human
+I'm a Male
+b) 
+I'm a Mammal
+I'm a Human
+I'm a Female
+c) 
+I'm a Human
+I'm a Male
+d) 
+I'm a Mammal
+I'm a Male
+a
+  
+2. What is the order of Constructors call when the object of derived class B is declared, provided class B is derived from class A?
+a) Constructor of A followed by B
+b) Constructor of B followed by A
+c) Constructor of A only
+d) Constructor of B only
+a
+3. What is the order of Destructors call when the object of derived class B is declared, provided class B is derived from class A?
+a) Destructor of A followed by B
+b) Destructor of B followed by A
+c) Destructor of A only
+d) Destructor of B only
+b
+4. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class Mammal
+{
+   public:
+	virtual void Define(){
+		cout<<"I'm a Mammal\n";
+	}
+};
+ 
+class Human: public Mammal
+{
+   public:
+	void Define(){
+		cout<<"I'm a Human\n";
+	}
+};
+ 
+class Male: public Human
+{
+   public:
+	void Define(){
+		cout<<"I'm a Male\n";
+	}
+};
+ 
+class Female: public Human
+{
+   public:
+	void Define(){
+		cout<<"I'm a Female\n";
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	Mammal *M;
+	Male m;
+	Female f;
+	*M = m;
+	M->Define();
+	return 0;
+}
+a) I’m a Male
+b) I’m a Mammal
+c) Error
+d) Segmentation Fault
+d
+5. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+ 
+class Mammal
+{
+   public:
+	virtual void Define(){
+		cout<<"I'm a Mammal\n";
+	}
+};
+ 
+class Human: public Mammal
+{
+   public:
+	void Define(){
+		cout<<"I'm a Human\n";
+	}
+};
+ 
+class Male: public Human
+{
+   public:
+	void Define(){
+		cout<<"I'm a Male\n";
+	}
+};
+ 
+class Female: public Human
+{
+   public:
+	void Define(){
+		cout<<"I'm a Female\n";
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	Mammal *M = new Mammal();
+	Male m;
+	Female f;
+	*M = m;
+	M->Define();
+	M = &m;
+	M->Define();
+	return 0;
+}
+a) 
+I'm a Male
+I'm a Male
+b) 
+I'm a Male
+I'm a Mammal
+c) 
+I'm a Mammal
+I'm a Male
+d) 
+I'm a Mammal
+I'm a Mammal
+c
+  
+6. Virtual functions in C++ tells the compiler to perform ______________________ on such functions.
+a) static binding
+b) late binding
+c) compile time binding
+d) no binding
+b
+7. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class Mammal
+{
+   public:
+	virtual void Define(){
+		cout<<"I'm a Mammal\n";
+	}
+};
+ 
+class Human: public Mammal
+{
+   private:
+	void Define(){
+		cout<<"I'm a Human\n";
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	Mammal *M = new Mammal();
+	Human H;
+	M = &H;
+	M->Define();
+	return 0;
+}
+a) Error
+b) Segmnetation fault
+c) I’m a Human
+d) Garbage Value
+c
+8. Which concept of OOPs is shown by Virtual Functions?
+a) Inheritance
+b) Encapsulation
+c) Polymorphism
+d) Abstraction
+c
+9. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+   public: 
+	virtual A(){
+		cout<<"A's Constructor\n";
+	}
+};
+ 
+class B: public A
+{
+   public:
+	A(){
+		cout<<"Present inside the class B\n";
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A a;
+	return 0;
+}
+a) A’s Constructor
+b) Present inside the class B
+c) Error
+d) Segmentation fault
+c
+10. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+   public: 
+	virtual static void show(){
+		cout<<"class A\n";
+	}
+};
+ 
+class B: public A
+{
+   public:
+	static void show(){
+		cout<<"class B\n";
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	A *a = new A();
+	B b;
+	a = &b;
+	a->show();
+	return 0;
+}
+a) class B
+b) Error
+c) Segmentation fault
+d) class A
+b
+11. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	int a;
+   public: 
+	A(){
+		a = 0;
+	}
+	static void show(){
+		a++;
+		cout<<a;
+	}
+};
+ 
+class B: public A
+{
+   public:
+ 
+};
+ 
+int main(int argc, char const *argv[])
+{
+	B b;
+	b.show();
+	return 0;
+}
+a) 1
+b) 0
+c) Segmentation fault
+d) Error
+d
+12. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	int a;
+   public: 
+	A(){
+		a = 0;
+	}
+	void show(){
+		a++;
+		cout<<"a: "<<a<<endl;
+	}
+};
+ 
+class B: public A
+{
+   public:
+};
+ 
+int main(int argc, char const *argv[])
+{
+	B b;
+	b.show();
+	return 0;
+}
+a) a: 1
+b) a: 0
+c) Error
+d) Segmentation fault
+a
+13. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	int a;
+   public: 
+	A(){
+		a = 0;
+	}
+	void show(){
+		a++;
+		cout<<"a: "<<a<<endl;
+	}
+};
+ 
+class B: private A
+{
+   public:
+ 
+};
+ 
+int main(int argc, char const *argv[])
+{
+	B b;
+	b.show();
+	return 0;
+}
+a) Error
+b) Segmentation fault
+c) a: 1
+d) a: 0
+a
+14. What happens if the following C++ program is compiled?
+#include <iostream>
+#include <string>
+using namespace std;
+class A
+{
+	int a;
+   public: 
+	A(){
+		a = 0;
+	}
+	void show(){
+		a++;
+		cout<<"a: "<<a<<endl;
+	}
+};
+ 
+class B: private A
+{
+   public:
+	void show(){
+		show();
+	}
+};
+ 
+int main(int argc, char const *argv[])
+{
+	B b;
+	b.show();
+	return 0;
+}
+a) Error because of the conflicts between two show() function in class B
+b) Program will compile successfully
+c) Error due to self call in show() function
+d) Error because show() function from class A is derived privately
+b
+15. Pick the correct statement.
+a) Virtual function can have different names in the base and derived class
+b) Virtual function cannot be applied in Multiple Inheritance classes
+c) Virtual function are different in definitions only
+d) Virtual function does early binding
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Inheritance – 1» Next - C++ Programming Questions and Answers – Access Control 

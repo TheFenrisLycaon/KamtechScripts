@@ -1,0 +1,414 @@
+1. Using Bisection method find the root of cos(x) – x * ex = 0 with a = 0 and b = 1.
+a) 0.617
+b) 0.527
+c) 0.517
+d) 0.717
+c
+No.
+a
+b
+c
+f(a)*f(c)
+1
+0
+1
+0.5
+0.053
+2
+0.5
+1
+0.75
+-0.046
+3
+0.5
+0.75
+0.625
+-0.357
+4
+0.5
+0.625
+0.562
+-7.52*10-3
+5
+0.5
+0.562
+0.531
+-2.168*10-3
+6
+0.5
+0.531
+0.516
+3.648*10-4
+7
+0.516
+0.531
+0.524
+-9.371*10-5
+8
+0.516
+0.524
+0.520
+-3.649*10-5
+9
+0.516
+0.520
+0.518
+-3.941*10-6
+10
+0.516
+0.516
+0.517
+1.229*10-5
+The difference between final values is less than 0.01 hence we stop the iterations. So one of the roots of cos(x) – x * exp(x) = 0 is approximately 0.517.
+2. Find the root of x4-x-10 = 0 approximately upto 5 iterations using Bisection Method. Let a = 1.5 and b = 2.
+a) 1.68
+b) 1.86
+c) 1.88
+d) 1.66
+b
+No.
+a
+b
+c
+f(a)*f(c)
+1
+1.5
+2
+1.75
+15.264(+ve)
+2
+1.75
+2
+1.875
+2.419(+ve)
+3
+1.75
+1.875
+1.812
+2.419(+ve)
+4
+1.812
+1.875
+1.844
+-0.303(-ve)
+5
+1.844
+1.875
+1.86
+-0.027(-ve)
+We stop iterations after 5 and thus obtain the approximated value of x. So one of the roots of x4-x-10 = 0 is approximately 1.86.
+3. If a function is real and continuous in the region from a to b and f(a) and f(b) have opposite signs then there is no real root between a and b.
+a) True
+b) False
+b
+4. A function is given by x – e-x = 0. Find the root between a = 0 and b = 1 by using Bisection method.
+a) 0.655
+b) 0.665
+c) 0.565
+d) 0.656
+c
+No.
+a
+b
+c
+f(a)*f(c)
+1
+0
+1
+0.5
+0.107
+2
+0.5
+1
+0.75
+-0.03
+3
+0.5
+0.75
+0.625
+-0.00956
+4
+0.5
+0.625
+0.562
+0.0007758
+5
+0.562
+0.625
+0.593
+-0.0003317
+6
+0.562
+0.593
+0.577
+-0.0001307
+7
+0.562
+0.577
+0.569
+-0.00002978
+8
+0.562
+0.569
+0.565
+0.00002078
+The difference between the final iterating values is less than 0.01. So one of the root of   x – e-x = 0 is approximately 0.565.
+5. A function f(x) is given as  e-x * (x2+5x+2) + 1 = 0. Let a = 0 and b = -1. Find the root between a and b using Bisection Method.
+a) -0.557
+b) -0.575
+c) -0.775
+d) -0.0577
+c
+No.
+a
+B
+c
+f(a)*f(c)
+1
+0
+-1
+-0.5
+1.763(+ve)
+2
+-0.5
+-1
+-0.75
+-0.89(-ve)
+3
+-0.5
+-0.75
+-0.625
+-0.219(-ve)
+4
+-0.5
+-0.625
+-0.562
+0.076(+ve)
+5
+-0.562
+-0.625
+-0.593
+-0.015(-ve)
+6
+-0.562
+-0.593
+-0.577
+1.733*10-3(+ve)
+The difference between the final iterating values is less than 0.01. So one of the roots of e-x * (x2-5x+2) + 1 = 0 is approximately -0.577.
+6. Use Bisection Method to find out the root of x – sinx – 0.5 = 0 between 1 and 2.
+a) 1.497
+b) 1.947
+c) 1.479
+d) 1.974
+a
+No.
+a
+b
+c
+f(a)*f(b)
+1
+1
+2
+1.5
+-8.554*10-4(-)
+2
+1
+1.5
+1.25
+0.068(+)
+3
+1.25
+1.5
+1.375
+0.021(+)
+4
+1.375
+1.5
+1.437
+5.679*10-3(+)
+5
+1.437
+1.5
+1.469
+1.42*10-3(+)
+6
+1.469
+1.5
+1.485
+3.042*10-4(+)
+7
+1.485
+1.5
+1.493
+5.023*10-5(+)
+8
+1.493
+1.5
+1.497
+2.947*10-6(+)
+Since the difference between b and c is less than 0.01 we stop the iterations. So one of the roots of x-sinx – 0.5 = 0 is approximately 1.497.
+7. Find the approximated value of x till 4 iterations for e-x = 3 log(x) using Bisection Method.
+a) 1.197
+b) 1.187
+c) 1.167
+d) 1.176
+b
+No.
+a
+b
+c
+f(a)*f(b)
+1
+0.5
+1.5
+1
+0.555(+ve)
+2
+1
+1.5
+1.25
+-1.555*10-3(-ve)
+3
+1
+1.25
+1.125
+0.063(+ve)
+4
+1.125
+1.25
+1.187
+0.014(+ve)
+Hence we stop the iterations after 4. Therefore the approximated value of x is 1.187.
+8. Find a root of   f (x) = 3x + sin(x) – ex = 0. Use 6 iterations to find the approximate value of x.
+a) 0.3605
+b) 0.3650
+c) 0.3615
+d) 0.3655
+a
+No.
+a
+b
+c
+f(a)*f(b)
+1
+0
+0.5
+0.25
+0.287(+ve)
+2
+0.25
+0.5
+0.393
+-0.015(-ve)
+3
+0.65
+0.393
+0.34
+9.69(+ve)
+4
+0.34
+0.393
+0.367
+-7.81(-ve)
+5
+0.34
+0.367
+0.354
+8.9(+ve)
+6
+0.354
+0.367
+0.3605
+-3.1(-ve)
+We have to find the value of x approximated to 6 iterations. So one of the roots of 3x + sin(x) – ex = 0 is approximately 0.3605.
+9. A function is defined as  f(x) = x2 – 3. Between the interval [1,2] find the root of the function by Bisection Method.
+a) 1.7334
+b) 1.7364
+c) 1.7354
+d) 1.7344
+d
+a
+b
+f(a)
+f(b)
+c = (a+b)/2
+f(c)
+Substitution
+new b-a
+1
+2
+-2
+1
+1.5
+-0.75
+a=c
+0.5
+1.5
+2
+-0.75
+1
+1.75
+0.062
+b=c
+0.25
+1.5
+1.75
+-0.75
+0.0625
+1.625
+-0.359
+a=c
+0.125
+1.625
+1.75
+-0.75
+0.0625
+1.6875
+-0.1523
+a=c
+0.0625
+1.625
+1.75
+-0.3594
+0.0625
+1.6875
+-0.1523
+a=c
+0.0625
+1.6875
+1.75
+-0.1523
+0.0625
+1.7188
+-0.0457
+a=c
+0.0313
+1.7188
+1.75
+-0.0457
+0.0625
+1.7344
+0.0081
+b=c
+0.0156
+1.7266
+1.7344
+-0.0457
+0.0081
+1.7266
+-0.0189
+a=c
+0.0078
+Thus, with the seventh iteration, we note that the final interval, [1.7266, 1.7344], has a width less than 0.01 and |f(1.7344)| < 0.01. Hence we chose b = 1.7344 to be our approximation of the root.
+10. The Bisection method is also known as ___________________
+a) Binary Chopping
+b) Quaternary Chopping
+c) Tri region Chopping
+d) Hex region Chopping
+a
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Methods, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+» Next - Numerical Analysis Questions and Answers – Bisection Method – 2 

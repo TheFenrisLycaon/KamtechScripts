@@ -1,0 +1,73 @@
+1. For the given circuit find the output voltage?
+a) -5.625v
+b) -3.50v
+c) -4.375v
+d) -3.125v
+d
+So, the output voltage Vo=-RF [(b3/2R) +(b2/4R) +(b1/8R)+(b0/16R)]
+From the circuit, b3=5v, b2=0v, b1=5v, bo=0v.
+Vo= -20kΩ[(5/2×20kΩ)+0+(5/8×20kΩ)+0]= -3.125v. 
+2. Which type of switches are not preferable for a simple weighted resistor DAC?
+a) Bipolar Transistor
+b) Voltage switches
+c) MOSFET
+d) All of the mentioned
+a
+3. The inverted R-2R ladder can also be operated in
+a) Inverted mode
+b) Current Mode
+c) Voltage mode
+d) Non inverted mode
+b
+4. Which of among the following circuit is considered to be linear?
+a) Weighted Resistor type DAC
+b) R-2R ladder type DAC
+c) Inverter R-2R ladder DAC
+d) All of the mentioned
+c
+5. Multiplying DAC uses
+a) Varying reference voltage
+b) Varying input voltage
+c) Constant reference voltage
+d) Constant input voltage
+a
+Join Sanfoundry@YouTube
+6. Calculate the value of LSB and MSB of a 12-bit DAC for 10v?
+a) LSB =7.8mv, MSB =5v
+b) LSB =9.3mv, MSB =5v
+c) LSB =14.3mv, MSB =5v
+d) LSB =2.4mv, MSB =5v
+d
+For 10v range, LSB =10v/4096=2.4mv and MSB = (1/2)×full scale =(1/2)×10v =5v. 
+7. A multiplying DAC is given a reference voltage VR = Vom cos2πft. Determine the output voltage?
+a) Vo(t) = Vom sin(2πft+180o)
+b) Vo(t) = Vom cos(2πft+180o)
+c) Vo(t) = Vom tan(2πft+180o)
+d) Vo(t) = Vom sec(2πft+180o)
+b
+8. Multiplying digital to analog converters are used in
+a)  All of the mentioned
+b)  Digitally programmable filter
+c)  Digitally programmable oscillator
+d)  Digitally controlled audio attenuator
+d
+9. A 10-bit D/A converter have an output range from 0-9v. Calculate the output voltage produced when the input binary number is 1110001010.
+a) ±7.96v
+b) -7.96v
+c) 7.96v
+d) None of the mentioned
+c
+=9v×(0.5+0.25+0+0.125+7.8125×10-3+1.95 ×10-3) =9v×0.8547 =7.96v. 
+10. The basic step of a 8-bit DAC is 12.4mv.If the binary input 00000000 represents 0v. Determine the output, if the input is 101101111?
+a) 1.36v
+b) 2.27v
+c) 5.45v
+d) None of the mentioned
+b
+=12.4mv × 183 = 2.27v. 
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice Advanced questions and answers on all areas of Linear Integrated Circuit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Basic DAC Techniques – 1» Next - Linear Integrated Circuit Questions and Answers – A to D Converter – 1 

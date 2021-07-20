@@ -1,0 +1,77 @@
+1. What will be the output of the following PHP code?
+<?php$x = 10;$y = 5;$z = 3;if ($x / $y / $z)    print "hi";else    print "hello";?>
+a) hi
+b) hello
+c) error
+d) no output
+a
+2. What will be the output of the following PHP code?
+<?phpif (!print "hi")    if (print "hello")print "hi";?>
+a) hi
+b) hihellohi
+c) hihi
+d) no output
+a
+3. What will be the output of the following PHP code?
+Join Sanfoundry@YouTube
+<?phpif (print "hi" - 1)    print "hello"?>
+a) hi
+b) hihello
+c) error
+d) no output
+c
+4. What will be the output of the following PHP code?
+<?php$x = 1;if ($x--)    print "hi"    $x--;else    print "hello"?>
+a) hi
+b) hello
+c) error
+d) no output
+c
+5. What will be the output of the following PHP code?
+<?php$a = 10;$b = 11;if ($a < ++$a || $b < ++$b)    print "hello";else    print "hi";?>
+a) hi
+b) hello
+c) error
+d) no output
+a
+6. What will be the output of the following PHP code?
+<?php$a = 2;if ($a-- - --$a - $a)    print "hello";else    print "hi";?>
+a) hi
+b) hello
+c) error
+d) no output
+b
+7. What will be the output of the following PHP code?
+<?php$a = 2;if ($a-- - --$a - $a)    print "hello";else    print "hi";?>
+a) hi
+b) hello
+c) error
+d) no output
+b
+8. What will be the output of the following PHP code?
+<?php$a = "hello";if ($a.length)    print $a.length;else    print "hi";?>
+a) hellolength
+b) 5
+c) hi
+d) error
+a
+9. What will be the output of the following PHP code?
+<?php$a = "hello";if (strlen($a))    print strlen($a);else    print "hi";?>
+a) hellolength
+b) 5
+c) hi
+d) error
+b
+10. What will be the output of the following PHP code?
+<?php$a = "1";$b = "0";if ((int)$a && $b)     print"hi";else     print "hello";?>
+a) hello
+b) no output
+c) hi
+d) error
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all Puzzles on PHP, here is complete set of 250+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – If-Else-If-2» Next - PHP Coding Questions and Answers – Switch 

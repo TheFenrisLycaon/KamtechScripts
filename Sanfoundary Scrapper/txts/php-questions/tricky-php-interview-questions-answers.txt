@@ -1,0 +1,76 @@
+1. What will be the output of the following PHP code?
+<?php$i = 0;while($i = 10){       print "hi";}print "hello";?>
+a) hello
+b) infinite loop
+c) hihello
+d) error
+b
+2. What will be the output of the following PHP code?
+<?php$i = "";while ($i = 10){       print "hi";}print "hello";?>
+a) hello
+b) infinite loop
+c) hihello
+d) error
+b
+3. What will be the output of the following PHP code?
+<?php$i = 5;while (--$i > 0){       $i++; print $i; print "hello";}?>
+a) 4hello4hello4hello4hello4hello…..infinite
+b) 5hello5hello5hello5hello5hello…..infinite
+c) no output
+d) error
+b
+4. What will be the output of the following PHP code?
+<?php$i = 5;while (--$i > 0 && ++$i){       print $i;}?>
+a) 5
+b) 555555555…infinitely
+c) 54321
+d) error
+b
+5. What will be the output of the following PHP code?
+<?php$i = 5;while (--$i > 0 || ++$i){       print $i;}?>
+a) 54321111111….infinitely
+b) 555555555…infinitely
+c) 54321
+d) 5
+a
+6. What will be the output of the following PHP code?
+<?php$i = 0;while(++$i || --$i){       print $i;}?>
+a) 1234567891011121314….infinitely
+b) 01234567891011121314…infinitely
+c) 1
+d) 0
+a
+7. What will be the output of the following PHP code?
+<?php$i = 0;while (++$i && --$i){       print $i;}?>
+a) 1234567891011121314….infinitely
+b) 01234567891011121314…infinitely
+c) no output
+d) error
+c
+8. What will be the output of the following PHP code?
+<?php$i = 0;while ((--$i > ++$i) - 1){       print $i;}?>
+a) 00000000000000000000….infinitely
+b) -1-1-1-1-1-1-1-1-1-1…infinitely
+c) no output
+d) error
+a
+9. What will be the output of the following PHP code?
+<?php$i = 2;while (++$i){       while ($i --> 0)        print $i;}?>
+a) 210
+b) 10
+c) no output
+d) infinite loop
+a
+10. What will be the output of the following PHP code?
+<?php$i = 2;while (++$i){       while (--$i > 0)        print $i;}?>
+a) 210
+b) 10
+c) no output
+d) infinite loop
+d
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all tricky interview questions on PHP, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – While Loops – 1» Next - PHP Coding Questions and Answers – For Loops – 1 

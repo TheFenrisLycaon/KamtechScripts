@@ -1,0 +1,71 @@
+1. The production of the form A->B , where A and B are non terminals is called
+a) Null production
+b) Unit production
+c) Greibach Normal Form
+d) Chomsky Normal Form
+b
+2. Halting states are of two types. They are:
+a) Accept and Reject
+b) Reject and Allow
+c) Start and Reject
+d) None of the mentioned
+a
+3. A push down automata can be represented as:
+PDA= ε-NFA +[stack]
+State true or false:
+a) true
+b) false
+a
+4. A pushdown automata can be defined as: (Q, ∑, G, q0, z0, A, d)
+What does the symbol z0 represents?
+a) an element of G
+b) initial stack symbol
+c) top stack alphabet
+d) all of the mentioned
+d
+5. Which of the following correctly recognize the symbol ‘|-‘ in context to PDA?
+a) Moves
+b) transition function
+c) or/not symbol
+d) none of the mentioned
+a
+6. Which among the following is true for the given statement?
+Statement :If there are strings R and T in a language L so that R is prefix of T and R is not equivalent to T.
+a) No DPDA can accept L by empty stack
+b) DPDA can accept L by an empty stack
+c) L is regular
+d) None of the mentioned
+a
+7. Which of the following can be accepted by a DPDA?
+a) The set of even length palindrome over {a,b}
+b) The set of odd length palindrome over {a,b}
+c) {xxc| where c stands for the complement,{0,1}}
+d) None of the mentioned
+d
+8. For a counter automaton, with the symbols A and Z0, the string on the stack is always in the form of __________
+a) A
+b) AnZ0, n>=0
+c) Z0An, n>=0
+d) None of the mentioned
+b
+9. State true or false:
+Statement: Counter Automaton can exist for the language L={0i1i|i>=0}
+a) true
+b) false
+a
+10. Let ∑={0,1}* and the grammar G be:
+S->ε
+S->SS
+S->0S1|1S0
+State which of the following is true for the given
+a) Language of all and only Balanced strings
+b) It contains equal number of 0’s and 1’s
+c) Ambiguous Grammar
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice basic questions and answers on all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  PDA-acceptance by Empty Stack» Next - Automata Theory Questions and Answers –  From PDA to Grammars 

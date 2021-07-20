@@ -1,0 +1,191 @@
+1. Which of the following CANNOT be the unit of ‘evaporative capacity’?
+a) kg of steam/h
+b) kg of steam/h/m2 of heating surface
+c) kg of steam/kg of air supplied
+d) kg of steam/kg of fuel fired
+c
+2. Which of the following is the correct formula for factor of evaporation?
+a) f = \(\frac{h-h_{f1}}{2257} \) 
+b) f = \(\frac{h_{f1}-h}{2257} \) 
+c) f = \(\frac{h-h_{f1}}{1257} \) 
+d) f = \(\frac{h_{f1}-h}{1257} \) 
+a
+Factor of evaporation is calculated by the following formula –
+f = \(\frac{h-h_{f1}}{2257} \)  
+3. Which of the correct formula for calculating equivalent evaporation?
+a) me=\(\frac{m_a (h-h_{f1})}{2257} \) 
+b) me=\(\frac{m_a (h-h_{f1})}{1257} \) 
+c) me=\(\frac{m_a (h_{f1}-h)}{2257} \) 
+d) me=\(\frac{(h-h_{f1})}{2257} \) 
+a
+It is calculated by the following formula
+ me=\(\frac{m_a (h-h_{f1})}{2257} \) 
+4. 64 kg of steam is produced at 14 bar pressure having a dryness fraction of 0.82. The feed water temperature in the boiler is 39°C. Determine equivalent evaporation if mass of coal consumed is 8 kg.
+a) 5.05 kg of steam/kg of fuel
+b) 7.05 kg of steam/kg of fuel
+c) 8.05 kg of steam/kg of fuel
+d) 10.25 kg of steam/kg of fuel
+c
+ms = 64 kg, P = 14 bar, T = 39°C, x = 0.82, mf = 8 kg
+We know that, 	ma = \(\frac{m_s}{m_f} \) 
+ma = \(\frac{64}{8} \) 
+ma = 8 kg steam/kg of coal
+From steam tables at 14 bar
+hf = 830.1 kJ/kg and hfg = 1957.7 kJ/kg
+h = hf + x(hfg) = 830.1 + 0.82(1957.7) = 2435.414 kJ/kg
+hf1 = 4.18(T – 0) = 4.18(39-0) = 163.02 kJ/kg
+Equivalent evaporation,  me=\(\frac{m_a(h-h_{f1})}{2257} \) 
+me = \(\frac{8(2435.414-163.02)}{2257} \) 
+me = 8.05 kg of steam/kg of fuel.
+5. What is the unit of equivalent evaporation?
+a) kg of steam/kg of fuel fired
+b) kg of steam/h/m2 of heating surface
+c) kg of steam/h
+d) kg of steam/kg of air supplied
+a
+6. A boiler generates 30 kg of steam at 11.5 bar in 1 hour with the consumption of 3 kg of coal. Feed water temperature is 40°C. Calculate equivalent evaporation if the steam is dry and saturated.
+a) 10.78 kg of steam/kg of fuel
+b) 11.58 kg of steam/kg of fuel
+c) 6.32 kg of steam/kg of fuel
+d) 5.65 kg of steam/kg of fuel
+b
+ms = 30 kg, P = 11.5 bar, mf = 3 kg, T = 40°C
+From steam tables, at 11.5 bar
+hg = 2781.3 kJ/kg
+h = hg = 2781.3 KJ/kg  ……………………………………………………………. (dry and saturated)
+hf1 = 4.18(T-0) = 4.18(40-1) = 167.2 kJ/kg
+We know that, 	ma = \(\frac{ms}{mf} \) 
+ma = \(\frac{30}{3} \) 
+ma = 10 kg steam/kg of coal
+Equivalent evaporation, me=\(\frac{m_a (h-h_f1)}{2257} \) 
+me = \(\frac{10(2781.3-167.2)}{2257} \) 
+me = 11.58 kg of steam/kg of fuel.
+7. A boiler produces 12 kg of steam per kg of coal burnt at a pressure of 11 bar. The steam generated is superheated to a temperature of 260°C. Determine the equivalent evaporation if the mean feed water temperature is 30°C.Take specific heat of superheated steam as 2.33 kJ/kg.
+a) 10 kg of steam/kg of fuel
+b) 12 kg of steam/kg of fuel
+c) 15 kg of steam/kg of fuel
+d) 17 kg of steam/kg of fuel
+c
+ma = 12 kg of steam/kg of fuel, P = 11 bar, Tsup = 260°C, T = 30°C, cp = 2.33 kJ/kg-K
+From steam tables at 11 bar
+Ts = 184.1°C
+hf = 781.1 kJ/kg and hfg = 1998.5 kJ/kg
+h = hf + hfg + cp(Tsup-Ts) = 781.1 + 1998.5 + 2.33(260-184.1) = 2956.45 kJ/kg
+hf1 = 4.18(T – 0) = 4.18(30-0) = 125.4 kJ/kg
+Equivalent evaporation, me=\(\frac{m_a (h-h_f1)}{2257} \) 
+me = \(\frac{12(2956.45-125.4)}{2257} \) 
+me = 15.05 kg of steam/kg of fuel
+me ≈ 15 kg of steam/kg of fuel.
+8. What is the latent heat of vaporization of water at 100°C and 1 atm pressure?
+a) 2546 kJ/kg
+b) 1254 kJ/kg
+c) 1564 kJ/kg
+d) 2257 kJ/kg
+d
+9. A boiler generates 600 kg of steam, consuming 40 kg of coal. Determine its evaporation capacity in kg of steam per hour if coal is fed to the furnace at the rate of 4 kg per hour.
+a) 60 kg of steam/hour
+b) 40 kg of steam/hour
+c) 50 kg of steam/hour
+d) 70 kg of steam/hour
+a
+	Mass of steam, ms = 600 kg
+	Mass of coal, mf = 40 kg
+	Coal feeding rate, R = 4 kg/hr
+		Evaporation capacity =(ms/mf) * R
+				         = (600/40) * 4
+				   me = 60 kg of steam/hour
+10. A boiler produces dry and saturated steam at 12 bar pressure. Calculate the factor of evaporation if the feed water temperature is 45°C.
+a) 0.95
+b) 1.15
+c) 1.10
+d) 0.85
+b
+P = 12 bar, T = 45°C
+From steam tables, at 12 bar pressure
+hf = 798.4 kJ/kg, hfg = 1984.3 kJ/kg
+h = hf + hfg = 798.4 + 1984.3 = 2782.7 kJ/kg
+hf1 = 4.18(T-0) = 4.18(45-0) = 188.1 kJ/kg
+Factor of evaporation, f=\(\frac{h-h_{f1}}{2257} \) 
+				 f=\(\frac{2782.7-188.1}{2257} \) 
+				 f=1.15.
+11. A boiler generates steam at 12.5 bar pressure. Temperature of the feed water is 35°C. Determine the factor of evaporation if the dryness fraction of the steam is 0.85.
+a) 1.32
+b) 0.85
+c) 1.56
+d) 1.04
+d
+P = 12.5 bar, T = 35°C, x = 0.85
+From steam tables, at 12.5 bar pressure
+hf = 806.7 kJ/kg, hfg = 1977.4 kJ/kg
+h = hf + x(hfg) = 806.7 +0.85(1977.4) = 2487.49 kJ/kg
+hf1 = 4.18(T-0) = 4.18(35-0) = 146.3 kJ/kg
+Factor of evaporation, f=\(\frac{h-h_{f1}}{2257} \) 
+			f=\(\frac{2487.49-146.3}{2257} \) 
+				 f=1.04.
+12. Steam generated by a boiler is superheated to a temperature of 230°C. The feed water temperature is 30°C. Calculate the factor of evaporation if the pressure of the steam generated is 14 bar. Specific heat of superheated steam is 2.34 kJ/kg-K
+a) 1.22
+b) 1.03
+c) 1.52
+d) 1.65
+a
+P = 14 bar, T = 30°C, Tsup = 230°C, cp = 2.34 kJ/kg-K
+From steam tables, at 14 bar pressure
+hf = 830.1 kJ/kg, hfg = 1957.7 kJ/kg, Tsat = °C
+h = hf + hfg + cp (Tsup – Tsat) = 830.1 + 1957.7 + 2.34(230 – 195) = 2869.7 kJ/kg
+hf1 = 4.18(T-0) = 4.18(30-0) = 125.4 kJ/kg
+Factor of evaporation, f=\(\frac{h-h_{f1}}{2257} \) 
+ f=\(\frac{2869.7-125.4}{2257} \) 
+f=1.22.
+13. A boiler generates dry and saturated steam at 10 bar pressure. The evaporative capacity of the boiler is 10 kg of steam per kg of fuel fired. The equivalent evaporation is 11.6 kg of steam per kg of fuel fired. Determine the temperature of feed water.
+a) 30°C
+b) 26°C
+c) 38°C
+d) 40°C
+c
+	P = 10 bar, ma = 10 kg of steam/kg of fuel, me = 11.6 kg of steam/kg of fuel
+	From steam tables, At 10 bar
+		hg = 2776.2 kJ/kg
+		h = hg = 2776.2 kJ/kg (Steam is dry and saturated)
+	We know that,
+				me = \(\frac{ma(h-hf1)}{2257} \) 
+	Substituting the values, we get
+				11.6 = \(\frac{10(2776.2-hf1)}{2257} \) 
+	Solving for hf1, we get
+				hf1 = 158.08 kJ/kg
+	but, hf1 = 4.18(T-0)
+		158.08 = 4.18(T-0)
+		T = 37.82°C ≈ 38°C
+14. The equivalent evaporation of a boiler is 11 kg of steam per kg of fuel fired. The evaporation capacity of the same boiler is 10 kg of steam per kg of fuel fired. Determine enthalpy of 1 kg of steam if the feed water temperature is 40°C.
+a) 2750 kJ/kg
+b) 2650 kJ/kg
+c) 2250 kJ/kg
+d) 2850 kJ/kg
+b
+	hf1 = 4.18(T-0) = 4.18(40-0) = 167.2 kJ/kg
+	We know that,
+				me = \(\frac{ma(h-hf1)}{2257} \) 
+	Substituting the values, we get
+				11 = \(\frac{10(h-167.2)}{2257} \) 
+	Solving for h, we get
+				h = 2649.9 kJ/kg ≈ 2650 kJ/kg.
+15. Determine the temperature of feed water of a boiler having factor of evaporation equal to 1.14. The enthalpy of 1 kg of steam is 2700 kJ/kg.
+a) 30°C
+b) 40°C
+c) 35°C
+d) 45°C
+a
+	We know that,
+			f=\(\frac{h-h_{f1}}{2257} \) 
+	Substituting the values, we get
+			1.14=\(\frac{2700-h_{f1}}{2257} \) 
+	Solving for hf1, we get
+			hf1 = 127.02 kJ/kg
+	But, hf1 = 4.18(T-0)
+		T = 127.02/4.18
+		T = 30.39°C ≈ 30°C.
+Sanfoundry Global Education & Learning Series – Thermal Engineering
+To practice basic questions and answers on all areas of Thermal Engineering,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Thermal Engineering Questions and Answers – Artificial Draught» Next - Thermal Engineering Questions and Answers – Steam Generators Performance – Boiler Efficiency 

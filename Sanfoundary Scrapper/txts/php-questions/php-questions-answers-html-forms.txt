@@ -1,0 +1,67 @@
+1. Which two predefined variables are used to retrieve information from forms?
+a) $GET & $SET
+b) $_GET & $_SET
+c) $__GET & $__SET
+d) GET & SET
+b
+2. The attack which involves the insertion of malicious code into a page frequented by other users is known as _______________
+a) basic sql injection
+b) advanced sql injection
+c) cross-site scripting
+d) scripting
+c
+3. When you use the $_GET variable to collect data, the data is visible to ___________
+a) none
+b) only you
+c) everyone
+d) selected few
+c
+4. When you use the $_POST variable to collect data, the data is visible to ___________
+a) none
+b) only you
+c) everyone
+d) selected few
+b
+5. Which variable is used to collect form data sent with both the GET and POST methods?
+a) $BOTH
+b) $_BOTH
+c) $REQUEST
+d) $_REQUEST
+d
+6. Which one of the following should not be used while sending passwords or other sensitive information?
+a) GET
+b) POST
+c) REQUEST
+d) NEXT
+a
+7. Which function is used to remove all HTML tags from a string passed to a form?
+a) remove_tags()
+b) strip_tags()
+c) tags_strip()
+d) tags_remove()
+b
+8. What will be the value of the variable $input in the following PHP code?
+    <?php    $input = "Swapna<td>Lawrence</td>you are really<i>pretty</i>!";    $input = strip_tags($input,"<i></i>");    echo $input;    ?>
+a) Swapna Lawrence you are really pretty!
+b) Swapna <td>Lawrence</td> you are really<i>pretty</i>!
+c) Swapna <td>Lawrence</td> you are really pretty!
+d) Swapna Lawrence you are really<i>pretty</i>!
+d
+9. To validate an email address, which flag is to be passed to the function filter_var()?
+a) FILTER_VALIDATE_EMAIL
+b) FILTER_VALIDATE_MAIL
+c) VALIDATE_EMAIL
+d) VALIDATE_MAIL
+a
+10. How many validation filters like FILTER_VALIDATE_EMAIL are currently available?
+a) 5
+b) 6
+c) 7
+d) 8
+c
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Working with Dates» Next - PHP Questions & Answers – User Authentication 

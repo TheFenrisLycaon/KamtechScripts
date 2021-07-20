@@ -1,0 +1,66 @@
+1. Which function was introduced to help automate the inclusion of class files?
+a) __load()
+b) __preload()
+c) __autoload()
+d) __inload()
+c
+2. How many times can you define _________ autoload in a process?
+a) once
+b) twice
+c) thrice
+d) as many times as needed
+a
+3. Which one of the following functions will you use to check that the class exists before you work with it?
+a) class_exist()
+b) class_exists()
+c) exist()
+d) exists_class()
+b
+4. Which one of the following will you use to check the class of an object?
+a) class()
+b) _class()
+c) class_check()
+d) get_class()
+d
+5. PHP 4 did not support instanceof. Instead, which function did it provide?
+a) is()
+b) get_class()
+c) is_a()
+d) is_the()
+c
+6. You use the get_class_methods() function to return the names of all the methods in the class. Which function will you use to print it on the screen?
+a) printf()
+b) print_ar
+c) print_r
+d) echo
+c
+7. If you call a method and it doesn’t exist it’ll cause a problem. To check the method which function will you use?
+a) _method()
+b) methodexists()
+c) is_callable()
+d) is_method()
+c
+8. What will be the output if a protected method is given as the argument to the function method_exist()?
+a) Method does not exist
+b) False
+c) Error
+d) True
+d
+9. Which one of the following function should I use to find the parent class of a class?
+a) get_parent_class()
+b) parent_class()
+c) class_parent()
+d) get_class_parent()
+a
+10. Which class accepts a class name or an object reference and returns an array of interface name?
+a) class_implements()
+b) is_subclass()
+c) is_subclass_of()
+d) class_interface()
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Object Tools-1» Next - PHP Questions & Answers – Object and Design-1 

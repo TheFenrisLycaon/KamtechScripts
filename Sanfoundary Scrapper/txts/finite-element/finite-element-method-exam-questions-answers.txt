@@ -1,0 +1,74 @@
+1. In Finite Element Method (FEM), which option is not correct with respect to discretization or mesh generation?
+a) Density of elements depends on the degree of accuracy desired
+b) Choice of element type may depend on the geometry of domain
+c) For better accuracy correct formulae has to be applied
+d) Some general rules govern mesh generation
+c
+2. In Finite Element Method (FEM), Mesh convergence is a measure of the number of _____ required in a model to ensure that the results of an analysis are not affected by changing the size of the _____
+a) elements, mesh
+b) nodes, mesh
+c) nodes, element
+d) degrees of freedom, element
+a
+3. In Finite Element Method (FEM), While domain discretization, at which of the following geometrical cases a node is not required?
+a) Change in cross-section area only
+b) Change in cross-section only
+c) Change in cross section area as well as change in cross-section
+d) No change
+d
+4. In Finite Element Method (FEM), In order to increase accuracy of a solution, while domain discretization, more than one node is to be placed at a point source.
+a) True
+b) False
+b
+5. For an inviscid flow of a fluid around a cylinder in an open channel as shown, the flow in the surroundings of the cylinder gets _____ and thus, the flow becomes ___
+a) accelerated, non-uniform
+b) decelerated, unsteady
+c) accelerated, unsteady
+d) compressed, non-uniform
+a
+6. For an inviscid flow of a fluid around the cylinder in an open channel as shown, the flow in the surroundings of the cylinder gets accelerated. At which points, A, B, C and D the mesh is created finer than the other points?
+a) Both A and B
+b) Either A or B
+c) Both C and D
+d) Only at D
+c
+7. In Finite Element Method (FEM), for discretization purpose in general, a refined mesh is employed in areas where changes in geometry, boundary conditions, loading, material properties or solution are present.
+a) True
+b) False
+a
+8. In Finite Element Method (FEM), for discretization purpose in general, which 2D element is an undesired one?
+a) An equilateral triangle of side 5 units
+b) A quadrilateral
+c) A rhombus of side 10 units
+d) A rectangle of dimensions 100×1
+d
+9. In Finite Element Method (FEM), for discretization purpose in general, which optionis not true for mesh refinement?
+a) Previous meshes should be contained in the refined mesh
+b) Any point in the body can be included within an arbitrarily small element at any stage of the mesh refinement
+c) The same order of approximation for the solution may be preserved through all stages of the refinement process
+d) Elements with very large aspect ratios are desired
+d
+10. In Finite Element Method (FEM), for discretization purpose in general, which of the following mesh cannot be a part of mesh refinement process?
+a) A
+b) B
+c) C
+d) D
+c
+11. To discretize a domain using rectangular elements, if the aspect ratio is to be limited to 10, which dimension (mm) of rectangular element gives finest mesh?
+a) 1×0.5
+b) 1.1×0.1
+c) 0.11×0.01
+d) 0.1×0.05
+d
+12. In Finite Element Method (FEM), choose the incorrect option regarding to the dimensions (mm) of elements in a finite element mesh?
+a) Elements with very large aspect ratios are avoided
+b) Elements with small angles are undesired
+c) The coefficient matrices in finite element equations depend on dimensions of elements
+d) Rectangular elements with high aspect ratio are preferred
+d
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all exam questions on Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Boundary Value Problems – 2» Next - Finite Element Method Questions and Answers – Single Variable Problems – Applications – 1 

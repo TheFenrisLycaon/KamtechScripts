@@ -1,0 +1,94 @@
+1. Which of these is not a discrete probability distribution?
+a) Hyper geometric Distribution
+b) Binomial Distribution
+c) Normal Distribution
+d) Poisson Distribution
+c
+2. The mean of hyper geometric probability distribution is expressed as _____
+a) μ=nD/N
+b) μ=np
+c) μ=r/p
+d) μ=nN/D
+a
+μ=nD/N.
+3. Probability function for hyper geometric probability distribution is _____
+a) \(p(x) = \frac{\left(D \atop x\right)\left(N-D \atop n-x\right)}{\left(N \atop n\right)} \) 
+b) \(p(x) = \frac{\left(D \atop x\right)\left(N-D \atop n-x\right)}{\left(n \atop N\right)} \) 
+c) \(p(x) = \frac{\left(x \atop D\right)\left(N-D \atop n-x\right)}{\left(N \atop n\right)} \) 
+d) \(p(x) = \frac{\left(D \atop x\right)\left(n-x \atop N-D\right)}{\left(N \atop n\right)} \) 
+a
+\(p(x) = \frac{\left(D \atop x\right)\left(N-D \atop n-x\right)}{\left(N \atop n\right)} \) 
+Where D is a number of interest, N is total no. of items in population, x is the no. of sample falling in the class of interest and n is no. of items in a sample. 
+4. For N=100, D=5, n=10, and x = 2; probability according to hypergeometric distribution will be _____
+a) 0.58375
+b) 0.92314
+c) 0.99336
+d) 0.99975
+c
+\(p(x) = \frac{\left(D \atop x\right)\left(N-D \atop n-x\right)}{\left(N \atop n\right)} \) 
+This gives P(X≤x)=0.99336 for the mentioned values.
+5. The independent trials which have either a “success” or a “failure” as an outcome, are called ____
+a) Normal trials
+b) Bernoulli trials
+c) Poisson’s trials
+d) Hyper geometric trials
+b
+Join [email protected]
+6. The binomial distribution is given by _____
+a) \(p(x) = \left(n \atop x\right) p^x (1-p)^{n-x}\) 
+b) \(p(x) = \left(x \atop n\right) p^{n-x} (1-p)^x\) 
+c) \(p(x) = \left(x \atop n\right) p^x (1-p)^{n-x}\) 
+d) \(p(x) = \left(n \atop x\right) p^{n-x} (1-p)^x\) 
+a
+\(p(x) = \left(n \atop x\right) p^x (1-p)^{n-x}\). 
+7. Let us take Bernoulli trial of tossing a coin. If there are 70 independent trials, and finding a head is a success, what will be the variance?
+a) 17.5
+b) 18.5
+c) 4.8
+d) 4.18
+a
+σ2=np(1-p)
+For tossing a coin and finding a head, p = 0.5, which gives variance = 17.5.
+8. Poisson distribution is given by ____
+a) \(p(x) = \frac{e^{-λ} λ^x}{x!}\) 
+b) \(p(x) = \frac{e^{-x} λ^x}{x}\) 
+c) \(p(x) = \frac{e^{-λ} λ^x}{x}\) 
+d) \(p(x) = \frac{e^{-λ} λ^x}{λ!}\) 
+a
+\(p(x) = \frac{e^{-λ} λ^x}{x!}\) 
+Where λ is a parameter and λ > 0.
+9. The mean of a Poisson distribution is _____
+a) Greater than λ
+b) Lesser than λ
+c) Equal to λ
+d) Having no relation with λ
+c
+10. For a company, which uses Poisson distributions to describe all the defects in its product, which has the parameter λ=4, what will be the probability of finding the selected product from a sample that will have 2 or less than 2 defects?
+a) 0.2381
+b) 0.2561
+c) 0.2104
+d) 0.3310
+a
+P{x≤2} = \(\sum_{x=2}^2 \frac{e^{-4} 4^x}{x!}\) = 0.018316 + 0.73263 + 0.146525 = 0.238104.
+11. For a experiment following binomial distribution, the mean is 54.3, and the number of independent trials is 121. What will be the probability of failure?
+a) 0.55123
+b) 0.51000
+c) 0.44877
+d) 0.45700
+a
+p=0.44876.
+So probability of failure = 1-p = 0.55123.
+12. A lot follows hyper geometric distribution for defects found in its items. It contains 100 items out of which, 5 are defective. If 10 items are selected without replacement in a random order, what is the probability of finding 0 defective items?
+a) 0.5837521
+b) 0.4162479
+c) 0.5708992
+d) 0.4522222
+a
+\(p(x) = \frac{\left(D \atop x\right)\left(N-D \atop n-x\right)}{\left(N \atop n\right)} \) 
+Putting values from the question, we get, p(x) = 0.5837521.
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Modeling Process Quality – Discrete Distributions – 1» Next - Statistical Quality Control Questions and Answers – Modeling Process Quality -Continuous Distributions – 1 

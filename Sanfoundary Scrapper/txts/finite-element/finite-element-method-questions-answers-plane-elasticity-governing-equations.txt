@@ -1,0 +1,89 @@
+1. In solid mechanics, what does linearized elasticity deal with?
+a) Small deformations in linear elastic solids
+b) Large deformations in linear elastic solids
+c) Large deformations in non-Hookean solids
+d) Small deformations in non-Hookean solids
+a
+2. For plane elasticity problems in three dimensions, which option is not responsible for making the solutions independent of one of the dimensions?
+a) Geometry
+b) Boundary conditions
+c) Externally applied loads
+d) Material
+d
+3. For a plane strain problem, which strain value is correct if the problem is characterized by the displacement field ux=ux(x,y), uy=uy(x,y) and uz=0?
+a) εxy=0
+b) εxz=0
+c) εyz≠0
+d) εxz≠0
+b
+ \(\epsilon_{xz}=\epsilon_{yz}=\epsilon_{zz}=0, \epsilon_{xx}=\frac{\partial u_x}{\partial x}, 2\epsilon_{xy}=\frac{\partial u_x}{\partial y}+\frac{\partial u_y}{\partial x}\) and \(\epsilon_{yy}=\frac{\partial u_y}{\partial y}\).
+4. Underplane strain condition, what is the value of εyy if the problem is characterized by the displacement field ux=2x+3y, uy=5y2, and uz=0?
+a) 10y
+b) 5y
+c) 3
+d) 0
+a
+\(\epsilon_{xz}=\epsilon_{yz}=\epsilon_{zz}=0, \epsilon_{xx}=\frac{\partial u_x}{\partial x}, 2\epsilon_{xy}=\frac{\partial u_x}{\partial y}+\frac{\partial u_y}{\partial x}\) and \(\epsilon_{yy}=\frac{\partial u_y}{\partial y}\) 
+Thus, \(\epsilon_{yy}=\frac{\partial 5y^2}{\partial y}\) 
+=5*\(\frac{\partial y^2}{\partial y}\) 
+=5*2y
+=10y.
+5.For a plane strain problem, the relation between stress and strain components for an orthotropic material is σ=Cε. Which option is the correct structure of the matrix C?
+a) \(\begin{pmatrix}\bar{c}_{11} & \bar{c}_{12} & 0 \\\bar{c}_{12} & \bar{c}_{22} & 0 \\0 & 0 & \bar{c}_{66} \end{pmatrix}\) 
+b) \(\begin{pmatrix}\bar{c}_{11} & 0 & \bar{c}_{13} \\\bar{c}_{12} & \bar{c}_{22} & 0 \\0 & 0 & \bar{c}_{66} \end{pmatrix}\) 
+c) \(\begin{pmatrix}\bar{c}_{11} & \bar{c}_{12} & 0 \\-\bar{c}_{12} & \bar{c}_{22} & 0 \\0 & 0 & \bar{c}_{66} \end{pmatrix}\) 
+d) \(\begin{pmatrix}\bar{c}_{11} & -\bar{c}_{12} & 0 \\\bar{c}_{12} & \bar{c}_{22} & 0 \\0 & 0 & \bar{c}_{66} \end{pmatrix}\) 
+a
+Join Sanfoundry@YouTube
+6. For an orthotropic material, if E and v represent Young’s modulus and the poisons ratio, respectively, then what is the value of v12 if E1=200 Gpa, E2=160 Gpa and v21=0.25?
+a) 0.3125
+b) 0.05
+c) 0.2125
+d) 0.3
+a
+v12=v21\(\frac{E_1}{E_2}\).
+v12=0.25*\(\frac{200}{160}\) 
+=0.25*1.25
+=0.3125.
+7. Under plane stress condition in the XYZ Cartesian system, which stress value is correct if a problem is characterized by the stress field σxx=σxx(x,y), σyy=σyy(x,y) and σzz=0?
+a) σxy=0
+b) σyx≠0
+c) σzx≠0
+d) σyz≠0
+b
+σxz=σyz=σzz=0, σxx(x,y), σxy=σxy(x,y) and σyy=σyy(x,y).
+Thus, σxx , σxy and σyy are non-zero stresses. Such a problem in three dimensions can be dealt with as a two-dimensional (plane) problem.
+8. For theplane stress problem in XYZ Cartesian system, σxx=σxx(x,y), σyy=σyy(x,y) and σzz=0, which option is correct regarding the associated strain field?
+a) εxx=0
+b) εyx=0
+c)  εzx=0
+d)  εyy=0
+c
+9. For any two cases of plane elasticity problems, if the constitutive equations are different, then their final equations of motion are also different.
+a) True
+b) False
+a
+10. In solid mechanics, which option is not a characteristic of a plane stress problem in the XYZ Cartesian system?
+a) One dimension is very small compared to the other two dimensions
+b) All external loads are coplanar
+c) Strain along any one direction is zero
+d) Stress along any one direction is zero
+c
+11. In solid mechanics, what is the correct vector form of the equations of motion for a plane elasticity problem?
+a) D*σ+f=ρü
+b) D*σ+f=ρu̇
+c) D2*σ+f=ρü
+d) D*σ+f=ρu
+a
+12. For plane elasticity problems, which type of boundary condition is represented by the equation tx≡σxxnx+σxyny, where tx is surface traction force and n is direction cosine?
+a) Essential boundary condition
+b) Natural boundary condition
+c) Both Essential and natural boundary conditions
+d) Dirichlet boundary condition
+b
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Modelling Considerations» Next - Finite Element Method Questions and Answers – Plane Elasticity – Weak Formulations 

@@ -1,0 +1,62 @@
+1. ____ exec is responsible for executing programs on a UNIX system.
+a) True
+b) False
+a
+2. Which of the following system call is used for duplicating file descriptor?
+a) dup
+b) decr
+c) exec
+d) execv
+a
+3. We can also duplicate the file descriptor using ___
+a) dup1
+b) dup2
+c) exevr
+d) exec
+b
+4. Which of the following system call is preferred over dup and dup2 for replicating file descriptor?
+a) dup3
+b) fcn
+c) fcntl
+d) exec
+c
+5. Which of the following system call is used for inter-process communication?
+a) fork
+b) pipe
+c) fcntl
+d) exec
+b
+6. We can use pipe with fork system call.
+a) True
+b) False
+a
+7. The action that a signal takes on receipt of a signal is called ____
+a) reposition
+b) disposition
+c) composition
+d) event
+b
+8. The sources from where the signals can be generated are:
+a) keyboard
+b) hardware
+c) a C program
+d) keyboard, hardware, a C program
+d
+9. There are _____ signals that are generated from the keyboard.
+a) 2
+b) 3
+c) 1
+d) 5
+b
+10. Which of the following signals are generated from the hardware?
+a) SIGFPE
+b) SIGILL
+c) SIGSEGV
+d) SIGPE, SIGILL, SIGSEGV
+d
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Process Control Basics» Next - Unix  Questions and Answers – Process Control System Calls – 2 

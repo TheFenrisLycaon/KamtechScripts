@@ -1,0 +1,66 @@
+1. A transaction may not always complete its execution successfully. Such a transaction is termed
+a) Aborted
+b) Terminated
+c) Closed
+d) All of the mentioned
+a
+2. If an transaction is performed in a database and committed, the changes are taken to the previous state of transaction by
+a) Flashback
+b) Rollback
+c) Both Flashback and Rollback
+d) Cannot be done
+d
+3. Each modification done in database transaction are first recorded into the
+a) Harddrive
+b) Log
+c) Disk
+d) Datamart
+b
+4. When the transaction finishes the final statement the transaction enters into
+a) Active state
+b) Committed state
+c) Partially committed state
+d) Abort state
+c
+5. The name of the transaction file shall be provided by the operator and the file that contains the edited transactions ready for execution shall be called
+a) Batch. Exe
+b) Trans. Exe
+c) Opt. Exe
+d) Edit.Exe
+c
+6. Which of the following is an atomic sequence of database actions?
+a) Transaction
+b) Concurrency
+c) Relations
+d) All of the mentioned
+a
+7. If the state of the database no longer reflects a real state of the world that the database is supposed to capture, then such a state is called
+a) Consistent state
+b) Parallel state
+c) Atomic state
+d) Inconsistent state
+d
+8. _______ means that data used during the execution of a transaction cannot be used by a second transaction until the first one is completed.
+a) Serializability
+b) Atomicity
+c) Isolation
+d) Time stamping
+c
+9. DBMS periodically suspends all processing and synchronizes its files and journals through the use of
+a) Checkpoint facility
+b) Backup facility
+c) Recovery manager
+d) Database change log
+a
+10. Which of the following is not a state in transaction?
+a) Active
+b) Terminated
+c) Aborted
+d) Partially committed
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Storage Structure» Next - Database Questions and Answers – Querying database part 3 

@@ -1,0 +1,78 @@
+1. What are Commands?
+a) specific instructions for performing a particular task
+b) part of the operating system
+c) part of the shell
+d) special instructions
+a
+2. In how many categories, commands of UNIX operating system classified?
+a) 1
+b) 2
+c) Many
+d) 0
+b
+3. Which command is used for extracting the details of the operating system?
+a) cd
+b) echo
+c) uname
+d) wc
+c
+4. The sequences of directories that a shell searches while looking for a command is specified in the PATH variable.
+a) True
+b) False
+a
+5. Options are also arguments but begin with a -.
+a) True
+b) False
+a
+6. Which of the following is not a valid option of uname?
+a) -a
+b) -s
+c) -v
+d) -z
+d
+7. How can we specify more than one command in the command line at the same time?
+a) using ;
+b) using >
+c) using ==
+d) not possible
+a
+8. Which command is used to display the documentation of commands in UNIX?
+a) help
+b) search
+c) whatis
+d) man
+d
+9. Which command is used for displaying date and calendar in UNIX?
+a) date and cal
+b) DATE and CAL
+c) date and calendar
+d) dt and cl
+a
+10. What is the output of who command?
+a) display information about users who are currently logged in.
+b) display file hierarchy
+c) display administrator information
+d) display processes
+a
+11. What are meta-characters?
+a) special characters having predefined meaning to the shell
+b) special symbols
+c) shell symbols
+d) command symbols
+a
+12. Which command is used for displaying date in the format dd/mm/yyyy ?
+a) date  +%m
+b) date +%h
+c) date  +”%d/%m/%Y”
+d) date +”%h %m”
+c
+$ date +%m         -display current month
+$ date +%h          -display the name of the month
+$ date +"%h %m"  -display both month and month name
+ 
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Introduction to UNIX» Next - Unix  Questions and Answers – General Purpose Commands – 1 

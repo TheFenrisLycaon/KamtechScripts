@@ -1,0 +1,80 @@
+1. A finite automaton accepts which type of language:
+a) Type 0
+b) Type 1
+c) Type 2
+d) Type 3
+d
+2. Which among the following are incorrect regular identities?
+a) εR=R
+b) ε*=ε
+c) Ф*=ε
+d) RФ=R
+d
+3. Simplify the following regular expression:
+ε+1*(011) *(1*(011) *) *
+a) (1+011) *
+b) (1*(011) *)
+c) (1+(011) *) *
+d) (1011) *
+a
+ε + RR*= ε + R*R= ε + R+= R*
+4. P, O, R be regular expression over ∑, P is not ε, then
+R=Q + RP has a unique solution:
+a) Q*P
+b) QP*
+c) Q*P*
+d) (P*O*) *
+b
+Let P and Q be regular expressions,
+R=Q+RP
+R=Q+(Q+RP) P
+R=Q+((Q+RP) +RP) +P=Q+QP+RPP+RPP=Q+QP+(Q+RP) PP+(Q+RP) PP=Q+QP+QPP+RPPP+QPP+RPPP,
+If we do this recursively, we get:
+R= QP*
+5. Arden’s theorem is true for:
+a) More than one initial states
+b) Null transitions
+c) Non-null transitions
+d) None of the mentioned
+c
+a) No null transitions in the transition diagrams
+b) True for only single initial state
+6. The difference between number of states with regular expression (a + b) and (a + b) * is:
+a) 1
+b) 2
+c) 3
+d) 0
+a
+7. In order to represent a regular expression, the first step to create the transition diagram is:
+a) Create the NFA using Null moves
+b)  Null moves are not acceptable, thus should not be used
+c) Predict the number of states to be used in order to construct the Regular expression
+d) None of the mentioned
+a
+a) Construct the NFA using null moves.
+b) Remove the null transitions and convert it into its equivalent DFA.
+8. (0+ε) (1+ε) represents
+a) {0, 1, 01, ε}
+b) {0, 1, ε}
+c) {0, 1, 01 ,11, 00, 10, ε}
+d) {0, 1}
+a
+9. The minimum number of states required to automate the following Regular Expression:
+(1) *(01+10) (1) *
+a) 4
+b) 3
+c) 2
+d) 5
+a
+10. Regular Expression denote precisely the ________ of Regular Language.
+a) Class
+b) Power Set
+c) Super Set
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Regular Expression-Introduction» Next - Automata Theory Questions and Answers –  Building Regular Expressions 

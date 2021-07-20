@@ -1,0 +1,84 @@
+1. Nodal analysis is mainly based on __________
+a) KCL
+b) KVL
+c) Wheatstone bridge principle
+d) Faraday’s electric laws
+a
+2. If there are n nodes, then how many node-voltage equations are required?
+a) n
+b) n+1
+c) n-1
+d) 1
+c
+3. Find VA and VB using Node-Voltage method in the given circuit.
+a) 2.5V, 3.6V
+b) 2.87V, 3.25V
+c) 2.65V, 3.47V
+d) 3.15V, 2.76V
+b
+	          Node B:  (VB-2)/2 + (VB-VA)/1 =1
+ By solving the above equations required voltages are obtained.
+4. A supernode is between _____________
+a) Essential node and reference node
+b) Two reference nodes
+c) Two essential nodes
+d) Essential node and neutral path
+c
+5. Find V3 in the circuit given below.
+a) 4.833V
+b) 2.616V
+c) -4.833V
+d) -2.616V
+a
+                       Node1: 166V1-100V2-66V3 =132
+                       Node3: -166V1+265V2+99V3 =0
+ On solving the required voltage is obtained.
+6. Find all the node voltages in the given circuit containing dependent sources.
+a) 10V, 20V, 30V, 40V
+b) 15V, 25V, 32V, 45V
+c) 10V, -20V, 30V, -40V
+d) -15V, 25V, -35V, 45V
+a
+    And ix = (VB-VA)/5. On solving remaining nodes and forming equations, the required voltage values at nodes are obtained. 
+7. What is the voltage at 2nd terminal in the given circuit?
+a) 132.57V
+b) 137.25V
+c) 173.25V
+d) 123.57V
+b
+8. If there are 5 nodes then the no of nodal equations are ___________
+a) 5
+b) 0
+c) 1
+d) 4
+d
+9. If there are (N-2+3) Node-Voltage equations then the number of nodes in the circuit are __________
+a) N+2
+b) N+1
+c) N
+d) N-1
+a
+10. The reference node is also known as __________
+a) Essential node
+b) Principle node
+c) Datum node
+d) Neutral node
+c
+11. If there are 9 nodes, then how many node-voltage equations are required?
+a) 9
+b) 10
+c) 8
+d) 1
+c
+12. There are 13 branches in a complicated network and nearly 8 nodes. How many equations are required to solve the circuit in node-voltage method?
+a) 7
+b) 13
+c) 5
+d) 6
+a
+Sanfoundry Global Education & Learning Series – Electric Circuits.
+To practice all areas of Electric Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Electric Circuits Questions and Answers – Measuring Resistance the Wheatstone Bridge and Delta-to-Wye (Pi-to-Tee) Equivalent Circuits» Next - Electric Circuits Questions and Answers – The Mesh-Current Method and Dependent Sources and Some Special Cases 

@@ -1,0 +1,74 @@
+1. What will be the output of the following PHP code?
+    <?php    $fruits = array ("mango", "apple", "pear", "peach");    $fruits = array_flip($fruits);    echo ($fruits[0]);    ?>
+a) mango
+b) error
+c) peach
+d) 0
+b
+2. Which of the functions is used to sort an array in descending order?
+a) sort()
+b) asort()
+c) rsort()
+d) dsort()
+c
+3. What will be the output of the following PHP code?
+    <?php    $fruits = array ("mango", "apple", "peach", "pear");    $fruits = asort ($fruits);    printr ($fruits);    ?>
+a) Array ( [1] => apple [0] => mango [2] => peach [3] => pear )
+b) Array ( [0] => apple [1] => mango [2] => peach [3] => pear )
+c) Error
+d) Array ( [1] => apple [0] => mango [3] => peach [2] => pear )
+c
+4. What will be the output of the following PHP code?
+    <?php    $arr = array ("picture1.JPG", "picture2.jpg",    "Picture10.jpg", "picture20.jpg");    sort($arr);    print_r($arr);    ?>
+a) Array ( [0] => picture1.JPG [1] => Picture10.jpg [2] => picture2.jpg [3] => picture20.jpg )
+b) Array ( [0] => picture1.JPG [1] => picture2.jpg [2] => Picture10.jpg [3] => picture20.jpg )
+c) Array ( [0] => Picture10.jpg [1] => picture1.JPG [2] => picture2.jpg [3] => picture20.jpg )
+d) Array ( [0] => Picture10.jpg [1] => picture1.JPG [2] => picture20.jpg [3] => picture2.jpg )
+c
+5. Which function should we use to sort the array in natural order?
+a) dsort()
+b) casesort()
+c) natcasesort()
+d) naturalsort()
+c
+6. What will be the output of the following PHP code?
+    <?php    $face = array ("A", "J", "Q", "K");    $number = array ("2","3","4", "5", "6", "7", "8", "9", "10");    $cards = array_merge ($face, $number);    print_r ($cards);    ?>
+a) Array ( [0] => A [1] => J [2] => Q [3] => K [4] => 2 [5] => 3 [6] => 4 [7] => 5 [8] => 6 [9] => 7 [10] => 8 [11] => 9 [12] => 10 )
+b) Array ( [0] => A [1] => 2 [2] => J [3] => 3 [4] => Q [5] => 4 [6] => K [7] => 5 [8] => 6 [9] => 7 [10] => 8 [11] => 9 [12] => 10 )
+c) Error
+d) Array ( [0] => 2 [1] => 3 [2] => 4 [3] => 5 [4] => 6 [5] => 7 [6] => 8 [7] => 9 [8] => 10 [9] => A [10] => J [11] => Q [12] => K )
+a
+7. What will be the output of the following PHP code?
+    <?php    $fruits = array ("apple", "mango", "peach", "pear",    "orange");    $subset = array_slice ($fruits, 2);    print_r ($subset);    ?>
+a) Array ( [0] => peach )
+b) Array ( [0] => apple [1] => mango [2] => peach )
+c) Array ( [0] => apple [1] => mango )
+d) Array ( [0] => peach [1] => pear [2] => orange )
+d
+8. What will be the output of the following PHP code?
+    <?php    $fruits = array ("apple", "mango", "peach", "pear",    "orange");    $subset = array_splice ($fruits, 2);    print_r ($fruits);    ?>
+a) Error
+b) Array ( [0] => apple [1] => mango [2] => peach )
+c) Array ( [0] => apple [1] => mango )
+d) Array ( [0] => pear [1] => orange )
+c
+9. What will be the output of the following PHP code?
+    <?php    $number = array ("4", "hello", 2);    echo (array_sum ($number));    ?>
+a) 4hello2
+b) 4
+c) 2
+d) 6
+d
+10. What will be the output of the following PHP code?
+    <?php    $array1 = array ("KA", "LA", "CA", "MA", "TA");    $array2 = array ("KA", "IA", "CA", "GA", "TA");    $inter = array_intersect ($array1, $array2);    print_r ($inter);    ?>
+a) Array ( [0] => KA [1] => LA [2] => CA [3] => MA [4] => TA [5] => IA [6] => GA )
+b) Array ( [0] => KA [2] => CA [4] => TA )
+c) Array ( [1] => IA [3] => GA )
+d) Array ( [1] => LA [3] => MA )
+b
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all areas of PHP for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Arrays – 4» Next - PHP Questions & Answers – Basics of Object-Oriented PHP- 1 

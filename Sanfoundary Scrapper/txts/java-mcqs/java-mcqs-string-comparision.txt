@@ -1,0 +1,91 @@
+1. Which of these method of class String is used to compare two String objects for their equality?
+a) equals()
+b) Equals()
+c) isequal()
+d) Isequal()
+a
+2. Which of these methods is used to compare a specific region inside a string with another specific region in another string?
+a) regionMatch()
+b) match()
+c) RegionMatches()
+d) regionMatches()
+d
+3. Which of these methods of class String is used to check whether a given object starts with a particular string literal?
+a) startsWith()
+b) endsWith()
+c) Starts()
+d) ends()
+a
+4. What is the value returned by function compareTo() if the invoking string is less than the string compared?
+a) zero
+b) value less than zero
+c) value greater than zero
+d) none of the mentioned
+b
+5. Which of these data type value is returned by equals() method of String class?
+a) char
+b) int
+c) boolean
+d) all of the mentioned
+c
+6. What will be the output of the following Java code?
+    class output     {        public static void main(String args[])        {            String c = "Hello i love java";           boolean var;           var = c.startsWith("hello");           System.out.println(var);        }    }
+a) true
+b) false
+c) 0
+d) 1
+b
+Output:
+$ javac output.java
+$ java output
+false
+7. What will be the output of the following Java code?
+    class output     {        public static void main(String args[])        {            String s1 = "Hello i love java";           String s2 = new String(s1);           System.out.println((s1 == s2) + " " + s1.equals(s2));        }    }
+a) true true
+b) false false
+c) true false
+d) false true
+d
+Output:
+$ javac output.java
+$ java output
+false true
+8. What will be the output of the following Java code?
+    class output     {        public static void main(String args[])        {            String s1 = "Hello";           String s2 = new String(s1);           String s3 = "HELLO";           System.out.println(s1.equals(s2) + " " + s2.equals(s3));        }    }
+a) true true
+b) false false
+c) true false
+d) false true
+c
+Output:
+$ javac output.java
+$ java output
+true false
+9. In the following Java code, which code fragment should be inserted at line 3 so that the output will be: “123abc 123abc”?
+ 1. StringBuilder sb1 = new StringBuilder("123");
+ 2. String s1 = "123";
+ 3.  // insert code here
+ 4. System.out.println(sb1 + " " + s1);
+a) sb1.append(“abc”); s1.append(“abc”);
+b) sb1.append(“abc”); s1.concat(“abc”);
+c) sb1.concat(“abc”); s1.append(“abc”);
+d) sb1.append(“abc”); s1 = s1.concat(“abc”);
+d
+append() is stringbuffer method and concat is String class method.
+10. What will be the output of the following Java code?
+    class output     {        public static void main(String args[])        {             String chars[] = {"a", "b", "c", "a", "c"};             for (int i = 0; i < chars.length; ++i)                 for (int j = i + 1; j < chars.length; ++j)                     if(chars[i].compareTo(chars[j]) == 0)                         System.out.print(chars[j]);         }   }
+a) ab
+b) bc
+c) ca
+d) ac
+d
+output:
+$ javac output.java
+$ java output  
+ac
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Character Extraction» Next - Java Questions & Answers – Searching & Modifying a String 

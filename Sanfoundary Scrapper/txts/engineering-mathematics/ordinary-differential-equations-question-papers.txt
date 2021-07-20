@@ -1,0 +1,120 @@
+1. β(m, n) = β(n, m). Is the statement true?
+a) True
+b) False
+a
+R.H.S. \( = \beta(n, m) = \frac{\Gamma(n).\Gamma(m)}{\Gamma(n+m)} = \frac{\Gamma(m).\Gamma(n)}{\Gamma(m+n)} = \) L.H.S. 
+Therefore, \(\beta(m, n) = \beta(n, m).\) 
+2. Which of the following function is not called the Euler’s integral of the first kind?
+a) \(\beta(m, n) = \int_0^1 x^{m-1} (1-x)^{n-1} dx (m>0, n>0) \) 
+b) \(\beta(m, n) = \int_0^{π/2} (sin⁡θ)^{2m-1}  (cos⁡θ)^{2n-1} dθ \) 
+c) \(\beta(m, n) = \int_0^∞ \frac{y^{n+1}}{(1+y)^{m+n}}  dy \) 
+d) \(\beta(m, n) = 2 \int_0^{π/2} (sinθ)^{2m-1}  (cos⁡θ)^{2n-1} dθ \) 
+b
+3. Which of the following is not the definition of Beta function?
+a) \(\beta(m, n) = 2\int_0^1 x^{m-1} (1-x)^{n-1} dx (m>0, n>0) \) 
+b) \(\beta(m, n) = 2\int_0^{π/2}(sin⁡θ)^{2m-1}  (cos⁡θ)^{2n-1} dθ \) 
+c) \(\beta(m, n) = \int_0^∞ \frac{y^{n+1}}{(1+y)^{m+n}}  dy \) 
+d) \(\beta(m, n) = \int_0^1 \frac{x^{m-1}+x^{n-1}}{(1+x)^{m+n}}  dx \) 
+a
+(or)
+\(= 2 \int_0^{π/2}(sin⁡θ)^{2m-1}  (cos⁡θ)^{2n-1} dθ \) 
+(or)
+\( = \int_0^∞ \frac{y^{n+1}}{\left(1+y\right)^{m+n}}  dy \;or \int_0^1 \frac{x^{m-1}+x^{n-1}}{\left(1+x\right)^{m+n}}  dx\).
+So the correct answer is \(2\int_0^1 x^{m-1} (1-x)^{n-1} dx (m>0, n>0) \) which is actually not the formula for Beta function.
+4. What is the value of \(\beta(m, \frac{1}{2}) \)?
+a) β(m, m)
+b) 22m-1 β(m, m)
+c) 22m+1 β(m, m)
+d) 22m β(m, m)
+b
+\(\beta(m, m) = 2 \int_0^{π/2}(sin⁡θ)^{2m-1}  (cos⁡θ)^{2m-1} dθ \) 
+\( = 2^{-2m+2} \int_0^{π/2}(2 sinθ cos⁡θ)^{2m-1} dθ \) 
+Substituting 2θ=φ,
+\( = 2^{-2m+1} \int_0^π sin⁡φdφ \) 
+\( = 2^{-2m+1}.2.\int_0^{π/2}sin⁡φdφ \) 
+\( = \frac{1}{2^{2m-1}}  \beta(m, \frac{1}{2}). \) 
+5. What is the value of β(3,2)?
+a) \(\frac{1}{14} \) 
+b) \(\frac{1}{16} \) 
+c) \(\frac{1}{12} \) 
+d) \(\frac{1}{10} \) 
+c
+\( = \frac{2!1!}{4!} = \frac{1}{12}.\) 
+6. What is the value of \(\beta(\frac{1}{4},\frac{3}{4})\)?
+a) \(\pi \) 
+b) \(\sqrt{2}\pi \) 
+c) \(\sqrt{2\pi} \) 
+d) \({2}\pi \) 
+b
+\( = \frac{\pi}{sin⁡ \frac{π}{4}}  = \sqrt{2}\pi. \) 
+7. What is the value of \(\int_0^{π/2}\sqrt{sin⁡θdθ} + \int_0^{π/2}\sqrt{cos⁡θ⁡dθ} \)?
+a) \(8\sqrt{\pi} \frac{\Gamma(\frac{3}{4})}{\Gamma(\frac{1}{4})} \) 
+b) \(4\sqrt{\pi} \frac{\Gamma(\frac{3}{4})}{\Gamma(\frac{1}{4})} \) 
+c) \(8\sqrt{\pi} \frac{\Gamma(\frac{1}{4})}{\Gamma(\frac{3}{4})} \) 
+d) \(4\sqrt{\pi} \frac{\Gamma(\frac{1}{4})}{\Gamma(\frac{3}{4})} \) 
+a
+\( = \beta(\frac{3}{4}, \frac{1}{2}) + \beta(\frac{3}{4}, \frac{1}{2}) \) 
+\( = 2 \beta(\frac{3}{4}, \frac{1}{2}) \) 
+\( = 2\frac{\Gamma(\frac{1}{2}).\Gamma(\frac{3}{4})}{\Gamma(\frac{1}{2}+\frac{3}{4})} \) 
+\(  = 2\sqrt{\pi} \frac{\Gamma(\frac{3}{4})}{\Gamma(\frac{1}{4})} . \frac{1}{(\frac{1}{4})} \) 
+\( = 8\sqrt{\pi} \frac{\Gamma(\frac{3}{4})}{\Gamma(\frac{1}{4})}. \) 
+8. What is the value of \(\int_0^∞ \frac{1}{(1+y)^5}  dy \)?
+a) 1⁄2
+b) 1⁄3
+c) 1⁄4
+d) 1⁄5
+c
+n=1 and m + n = 5 which implies m=4.
+\(\beta(4, 1) = \frac{\Gamma(4).\Gamma(1)}{\Gamma(4+1)} \) 
+\(\frac{3!0!}{4!} = \frac{1}{4} \). 
+9. What is the value of \(\int_0^1 \frac{dx}{\sqrt{1+x^4}}\)?
+a) \(\beta(\frac{1}{4}, \frac{1}{2}) \) 
+b) \(\frac{1}{4\sqrt{2}}\beta(\frac{1}{4},  \frac{1}{2}) \) 
+c) \(\frac{1}{3\sqrt{2}}\beta(\frac{1}{3},  \frac{1}{2}) \) 
+d) \(\frac{1}{4\sqrt{3}}\beta(\frac{1}{4},  \frac{1}{3}) \) 
+b
+Therefore θ varies from 0 to \(\frac{\pi}{4}.\) 
+\(\int_0^{π/4} \frac{(secθ)^2}{2 sec⁡θ \sqrt{tan⁡θ}} dθ \) 
+\(= \int_0^{π/4}\frac{dθ}{2\sqrt{sin⁡θ cos⁡θ}} \) 
+\(= \frac{1}{4\sqrt{2}} \beta(\frac{1}{4},  \frac{1}{2}).\) 
+10.  What is the value of \(\int_0^1\frac{(y^5+y^2)}{(1+y)^9}  dy \)?
+a) \(\frac{1}{158} \) 
+b) \(\frac{2}{167} \) 
+c) \(\frac{1}{146} \) 
+d) \(\frac{1}{168} \) 
+d
+\(\beta(6, 3) = \frac{\Gamma(6).\Gamma(3)}{\Gamma(6+3)} \) 
+\(= \frac{5!2!}{8!} = \frac{1}{168}. \) 
+11. Solve using the Beta function. \(\int_0^1 x^{-2} (1-x)^{-3} dx. \) 
+a) Can be solved using a Beta function with m = -1 and n = -2
+b) Can be solved using a Beta function with m = 1 and n = -2
+c) Can be solved using a Beta function with m = -1 and n = 2
+d) Can’t be solved using the Beta function
+d
+12. What is the value of \(\int_0^∞ (sech x)^5  dx \)?
+a) \(\frac{3\pi}{80} \) 
+b) \(\frac{3\pi}{240} \) 
+c) \(\frac{3\pi}{16} \) 
+d) \(\frac{\pi}{240} \) 
+c
+\(\displaystyle = \frac{8 \Gamma(\frac{5}{2})\Gamma(\frac{5}{2})}{\Gamma(5)} = \frac{(8*\frac{3}{2}*\frac{1}{2}*\sqrt{\pi}*\frac{3}{2}*\frac{1}{2}*\sqrt{\pi})}{24} = \frac{9π}{48}=\frac{3π}{16}. \) 
+13. What is the value of \(\beta(\frac{9}{2},3) \)?
+a) \(\frac{16}{1287} \) 
+b) \(\frac{16}{1278} \) 
+c) \(\frac{14}{1287} \) 
+d) \(\frac{16}{127} \) 
+a
+\( =  \frac{\Gamma(\frac{9}{2})2}{\frac{13}{2}*\frac{11}{2}*\frac{9}{2}*\Gamma(\frac{9}{2})}  = \frac{16}{1287}.\) 
+14. What is the value of \(\int_0^1 x^5 (1-x)^6 dx\)?
+a) \(\frac{1}{12*11*10*9*8*7} \) 
+b) \(\frac{1}{12*11*10*9*8} \) 
+c) \(\frac{1}{12*11*10*9*8*7*6} \) 
+d) \(\frac{1}{12*11*10*9*8*7*6*5} \) 
+c
+\(\beta(6,7)= \frac{\Gamma(6)\Gamma(7)}{\Gamma(13)} = \frac{1}{12*11*10*9*8*7*6}. \) 
+Sanfoundry Global Education & Learning Series – Ordinary Differential Equations.
+To practice all questions papers on Ordinary Differential Equations, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ordinary Differential Equations Questions and Answers – Special Functions – 1 (Gamma)» Next - Ordinary Differential Equations Questions and Answers – Special Functions – 4 (Legendre) 

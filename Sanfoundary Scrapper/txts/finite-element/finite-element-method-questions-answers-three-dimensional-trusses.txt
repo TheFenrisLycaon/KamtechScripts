@@ -1,0 +1,67 @@
+1. In a 3-D truss element nodal displacement vector in a local co-ordinate is q’= ___
+a) [q1‘] 
+b) [q2‘] 
+c) [q1‘,q2‘,q3‘]T 
+d) [q1‘,q2‘]T 
+d
+2. Transformation between local and global co-ordinates is _____
+a) q‘=Lq
+b) q‘=L
+c) q‘=L+q
+d) q‘=\(\frac{L}{q}\) 
+a
+3. For a 3D truss element, transformation matrix L between local and global co-ordinates is given by ___
+a) \( \begin{bmatrix}l &0&0 \\ 0&m&0\\0&0&n\end{bmatrix}\) 
+b) \( \begin{bmatrix}l &m&n \end{bmatrix}\) 
+c) \( \begin{bmatrix}l&0&n \\ 0&m&0 \end{bmatrix}\) 
+d) \( \begin{bmatrix}l&m&n&0&0&0\\ 0&0&0&l&m&n\end{bmatrix}\) 
+d
+4. The direct cosines l, m, n are of local _____
+a) z’- axes
+b) x’- axes
+c) y’- axes
+d) None of the above
+b
+5. The direction cosines l, m, n with respect to ____ x-, y-, z- axes respectively.
+a) Local
+b) Local and global
+c) Global
+d) Transformation
+c
+Join Sanfoundry@YouTube
+6. In 3D truss, formula for direct cosine l = _____
+a) x2-x1
+b) \(\frac{x_2}{l_e}\) 
+c) \(\frac{x_1}{l_e}\) 
+d) \(\frac{x_2-x_1}{l_e}\) 
+d
+7. The direct cosine m is given by formula ____
+a) \(\frac{x_2-x_1}{l_e}\) 
+b) \(\frac{y_2-y_1}{l_e}\) 
+c) \(\frac{x_1-y_1}{l_e}\) 
+d) \(\frac{x_2-y_2}{l_e}\) 
+b
+8. The direction cosine n is given by formula _____
+a) \(\frac{x_2-x_1}{l_e}\) 
+b) \(\frac{y_2-y_1}{l_e}\) 
+c) \(\frac{z_2-z_1}{l_e}\) 
+d) Undefined
+c
+9. In 3D truss element, the nodal displacement vector in global co-ordinates is  _____
+a) q‘= [q1,q2] 
+b) q‘= [q1,q2,q3] 
+c) q‘= [q1,q2,q3,q4,q5,q6] 
+d) Undefined
+c
+10. In a truss element, element temperature load is ___
+a) θe=EeAe
+b) θe=EeAeε0
+c) θe=EeAeε0\(\begin{Bmatrix}l \\ m \end{Bmatrix}\) 
+d) θe=EeAeε0\(\begin{Bmatrix}-l \\  -m \\l\\m\end{Bmatrix}\) 
+d
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Plane Trusses» Next - Finite Element Method Questions and Answers – Assembly of Global Stiffness Matrix for the Banded & Skyline Solutions 

@@ -1,0 +1,62 @@
+1. The header file assert.h of the C Standard Library defines ________ macro.
+a) stderr
+b) stdarg
+c) setjmp
+d) assert
+d
+2. What is the name of the macro that is referred by assert macro defined in assert .h?
+a) STDARG
+b) SETJMP
+c) NDEBUG
+d) STDERR
+c
+3.  If NDEBUG is defined as a macro name, at the point where <assert.h> is included, then assert macro is defined as #define assert(ignore) ((void)0).
+a) true
+b) false
+a
+4. The assert shall be implemented as a ______ not as an actual ________
+a) function, macro
+b) macro, function
+c) header, macro
+d) macro, header
+b
+5. The assert macro returns__________value.
+a) integer
+b) float
+c) double
+d) no
+d
+6. The macro void assert(int expression) allows the diagnostic information to be written in which of the following files?
+a) standard error file
+b) output file
+c) string file
+d) character file
+a
+7. Which is the correct declaration of macro assert?
+a) void assert(int expression);
+b) void assert(float expression);
+c) void assert(double expression);
+d) void assert( expression);
+a
+8. If the expression in void assert(int expression) is zero then a message is printed on stderr(standard error file).
+a) true
+b) false
+a
+9. void assert(int expression) when the expression is evaluated to true?
+a) assert returns integer value
+b) assert displays error message
+c) assert returns nothing
+d) assert displays pattern
+c
+10. Which function is called by macro assert to terminate the execution?
+a) exit()
+b) atexit()
+c) abort()
+d) no function called
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – General Utilities – 6» Next - C Questions and Answers – Diagnostics – 2 

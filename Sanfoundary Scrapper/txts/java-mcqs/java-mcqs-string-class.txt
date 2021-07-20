@@ -1,0 +1,91 @@
+1. String in Java is a?
+a) class
+b) object
+c) variable
+d) character array
+a
+2. Which of these method of String class is used to obtain character at specified index?
+a) char()
+b) Charat()
+c) charat()
+d) charAt()
+d
+3. Which of these keywords is used to refer to member of base class from a subclass?
+a) upper
+b) super
+c) this
+d) none of the mentioned
+b
+4. Which of these method of String class can be used to test to strings for equality?
+a) isequal()
+b) isequals()
+c) equal()
+d) equals()
+d
+5. Which of the following statements are incorrect?
+a) String is a class
+b) Strings in java are mutable
+c) Every string is an object of class String
+d) Java defines a peer class of String, called StringBuffer, which allows string to be altered
+b
+6. What will be the output of the following Java program?
+    class string_demo     {        public static void main(String args[])        {            String obj = "I" + "like" + "Java";               System.out.println(obj);             }   }
+a) I
+b) like
+c) Java
+d) IlikeJava
+d
+output:
+$ javac string_demo.java
+$ java string_demo
+IlikeJava
+7. What will be the output of the following Java program?
+    class string_class     {        public static void main(String args[])        {            String obj = "I LIKE JAVA";               System.out.println(obj.charAt(3));        }     }
+a) I
+b) L
+c) K
+d) E
+a
+output:
+$ javac string_class.java
+$ java string_class
+I
+8. What will be the output of the following Java program?
+    class string_class     {        public static void main(String args[])        {            String obj = "I LIKE JAVA";               System.out.println(obj.length());        }    }
+a) 9
+b) 10
+c) 11
+d) 12
+c
+output:
+$ javac string_class.java
+$ java string_class 
+11
+9. What will be the output of the following Java program?
+    class string_class     {        public static void main(String args[])        {            String obj = "hello";            String obj1 = "world";               String obj2 = obj;            obj2 = " world";            System.out.println(obj + " " + obj2);        }    }
+a) hello hello
+b) world world
+c) hello world
+d) world hello
+c
+output:
+$ javac string_class.java
+$ java string_class
+hello world
+10. What will be the output of the following Java program?
+    class string_class     {        public static void main(String args[])        {            String obj = "hello";            String obj1 = "world";               String obj2 = "hello";            System.out.println(obj.equals(obj1) + " " + obj.equals(obj2));        }    }
+a) false false
+b) true true
+c) true false
+d) false true
+d
+output:
+$ javac string_class.java
+$ java string_class
+false true
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Arrays Revisited & Keyword static» Next - Java Questions & Answers – Methods Taking Parameters 

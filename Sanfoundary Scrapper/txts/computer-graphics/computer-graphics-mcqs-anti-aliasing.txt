@@ -1,0 +1,97 @@
+This section of our 1000+ Computer Graphics multiple choice questions focuses on Anti Aliasing.
+1. The distortion of information due to low-frequency sampling is known as
+a) Sampling
+b) Aliasing
+c) Inquiry function
+d) Anti-aliasing
+b
+2. To avoid losing information from periodic objects we need
+a) Sampling frequency twice
+b) Nyquist sampling frequency
+c) Both a or b
+d) Neither a nor b
+c
+3. Nyquist sampling frequency formula is
+a) fs=2fmax
+b) fs=2fmin
+c) fs=fmax
+d) fs=fmin
+a
+4. The sampling of object characteristic at a high resolution and displaying the result at a lower resolution is called?
+a) Super-sampling
+b) Post-filtering
+c) Anti-aliasing
+d) a or b
+d
+5. Anti-aliasing by computing overlap areas is referred to as
+a) Area-sampling
+b) Super-sampling
+c) Pixel phasing
+d) Only b
+a
+6. Area-sampling is also known as
+a) Pre-filtering
+b) Pixel phasing
+c) Post-filtering
+d) Anti-aliasing
+a
+7. Raster objects can also be anti-aliased by shifting the display location of pixel areas is known as
+a) Super-sampling
+b) Pixel shaping
+c) Pixel phasing
+d) Any of these
+c
+8. If we want to use more intensity levels to anti-alias the line, then
+a) We increase the number of sampling positions
+b) We decrease the number of sampling positions
+c) We increase the number of pixels
+d) Only c
+a
+9. The procedure that increases the number of intensity levels for each pixel to total number of sub-pixels is
+a) Area-sampling
+b) Anti-aliasing
+c) Super-sampling procedure
+d) Only c
+d
+10. For a 45% line, the line path is________ on the polygon area.
+a) Horizontal
+b) Centered
+c) Vertical
+d) Any of these
+b
+11. An array of values specifying the relative importance of sub-pixel is referred as________ of sub-pixel weights.
+a) Sub-mask
+b) Mask
+c) Pixel phasing
+d) Pixel weighting
+c
+12. The technique that is  more accurate method for anti-aliasing lines is
+a) Filtering
+b) Area-sampling
+c) Super-sampling
+d) None
+a
+13. Super-sampling methods can be applied by
+a) Sub-dividing the total area
+b) Determining the number of sub-pixels inside the area
+c) Both a and b
+d) Only b
+c
+14. Another method for determining the percentage of pixel area within a boundary is
+a) Mid-print algorithm
+b) Mid-point algorithm
+c) Pixel intensity
+d) By using inquiry functions
+b
+15. What is the use of Coherence techniques along and between scan lines?
+a) To simplify the calculations
+b) To determine the area edges
+c) To find polygon region
+d) To correct interior area
+a
+Sanfoundry Global Education & Learning Series – Computer Graphics.
+To practice all areas of Computer Graphics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Graphics Questions & Answers – Sutherland-Hodgeman Polygon Clipping 

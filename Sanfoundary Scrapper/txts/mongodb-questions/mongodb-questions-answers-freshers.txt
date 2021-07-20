@@ -1,0 +1,67 @@
+1. When you query a collection, MongoDB returns a ________ object that contains the results of the query.
+a) row
+b) cursor
+c) colums
+d) none of the mentioned
+b
+2. Point out the correct statement.
+a) A database is a set of key-value pairs
+b) A MongoDB deployment hosts a number of databases
+c) A document holds a set of collections
+d) All of the mentioned
+b
+3. Which of the following method returns true if the cursor has documents?
+a) hasMethod()
+b) hasNext()
+c) hasDoc()
+d) all of the mentioned
+b
+4. ____________ method renders the document in a JSON-like format.
+a) displayjson
+b) print
+c) printjson
+d) printdoc
+c
+5. Point out the wrong statement.
+a) Documents have static schema in MongoDB
+b) Eventually-consistent reads can be distributed over replicated servers
+c) Indexes can include keys from embedded documents and arrays
+d) None of the mentioned
+a
+6. Which of the following method is called while accessing documents using the array index notation?
+a) cur.toArray()
+b) cursor.toArray()
+c) doc.toArray()
+d) all of the mentioned
+b
+7. The mongo shell and the drivers provide several cursor methods that call on the cursor returned by the _______ method to modify its behavior.
+a) cursor()
+b) find()
+c) findc()
+d) none of the mentioned
+b
+8. Which of the following method corresponds to Order by clause in SQL?
+a) sort()
+b) order()
+c) orderby()
+d) all of the mentioned
+a
+9. The __________ method limits the number of documents in the result set.
+a) limit()
+b) limitOf()
+c) limitBy()
+d) none of the mentioned
+a
+10. Which of the following line skips the first 5 documents in the bios collection and returns all remaining documents?
+a) db.bios.find().limit( 5 )
+b) db.bios.find().skip( 1 )
+c) db.bios.find().skip( 5 )
+d) db.bios.find().sort( 5 )
+c
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB for Freshers, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Getting Started with MongoDB – 1» Next - MongoDB Questions and Answers – Generate Test Data 

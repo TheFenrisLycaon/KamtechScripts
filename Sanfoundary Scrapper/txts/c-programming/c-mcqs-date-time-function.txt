@@ -1,0 +1,134 @@
+1. Which of the following library functions returns the time in UTC (Greenwich mean time) format?
+a) localtime()
+b) gettime()
+c) gmtime()
+d) settime()
+c
+2. What will be the output of the following C code? (By date we mean: date, month and year)
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+int main()
+{
+    time_t ct;
+    time(&ct);
+    printf("%s\n",ctime(&ct));
+}
+a) only current date
+b) only current date and current time
+c) current date, current time and the day of the week
+d) only current time
+c
+3. What will be the output of the following C code if the current system date is 6/22/2017?
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+int main()
+{
+    time_t ct;
+    time(&ct);
+    struct tm *mt=localtime(&ct);
+    printf("%d\n",mt-> tm_mon+2);
+}
+a) 8
+b) 7
+c) 5
+d) 6
+b
+4. What will be the output of the following C code if the current system date is 6/22/2017?
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+typedef struct tm tm;
+int main()
+{
+    time_t ct;
+    time(&ct);
+    tm *mt=localtime(&ct);
+    printf("%d\n",mt-> tm_year);
+}
+a) 17
+b) 2017
+c) error
+d) 117
+d
+5. What will be the output of the following C code if the current system date is 6/22/2017?
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+int main()
+{
+    time_t ct;
+    time(&ct);
+    struct tm *mt=localtime(&ct);
+    printf("%d\n",mt-> tm_date);
+}
+a) 22
+b) 6
+c) 22/6
+d) error
+d
+6. The purpose of the function ctime() is that ___________
+a) it returns a string representing the local time
+b) it returns a void string
+c) it returns a string representing the time in UTC format
+d) it returns a string representing the time stored in a structure
+a
+7. What will be the output of the following C code?
+#include<time.h>
+int main (void)
+{
+    float n = time(NULL);
+    printf("%.2f\n" , n);
+}
+a) time in seconds from 1 January, 1970
+b) time in minutes from 1 January, 1970
+c) time in seconds from 1 January, 1980
+d) time in minutes from 1 January, 1980
+a
+8. What will be the output of the following C code if the system date is 6/2/2017(Friday)?
+#include<stdio.h>
+#include<time.h>
+int main()
+{
+    struct tm *local, *gm;
+    time_t t;
+    t=time(NULL);
+    local=localtime(&t);
+    printf("%d",local->tm_wday);
+    return 0;
+}
+a) 6
+b) 5
+c) error
+d) 0
+b
+9. Which of the following functions returns a pointer to a string representing the date and time stored in a structure?
+a) ctime()
+b) time()
+c) asctime()
+d) localtime()
+c
+10. What will be the output of the following C code if it is executed on 2nd January, 2017 (system date)?
+#include<stdio.h>
+#include<time.h>
+int main()
+{
+    struct tm *local, *gm;
+    time_t t;
+    t=time(NULL);	
+    local=localtime(&t);
+    printf("%d",local->tm_yday);
+    return 0;
+}
+a) 0
+b) 1
+c) 2
+d) Error
+b
+ Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Standard Definition» Next - C Questions and Answers – Date and Time Function – 2 

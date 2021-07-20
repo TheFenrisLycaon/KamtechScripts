@@ -1,0 +1,102 @@
+1. Which of the following justifies the linearity property of z-transform?[x(n)↔X(z)].
+a) x(n)+y(n) ↔ X(z)Y(z)
+b) x(n)+y(n) ↔ X(z)+Y(z)
+c) x(n)y(n) ↔ X(z)+Y(z)
+d) x(n)y(n) ↔ X(z)Y(z)
+b
+2. What is the z-transform of the signal x(n)=[3(2n)-4(3n)]u(n)?
+a) \(\frac{3}{1-2z^{-1}}-\frac{4}{1-3z^{-1}}\) 
+b) \(\frac{3}{1-2z^{-1}}-\frac{4}{1+3z^{-1}}\) 
+c) \(\frac{3}{1-2z}-\frac{4}{1-3z}\) 
+d) None of the mentioned
+a
+and x(n)=x1(n)-x2(n)
+From the definition of z-transform X1(z)=\(\frac{3}{1-2z^{-1}}\) and X2(z)=\(\frac{4}{1-3z^{-1}}\) 
+So, from the linearity property of z-transform
+X(z)=X1(z)-X2(z)
+=> X(z)=\(\frac{3}{1-2z^{-1}}-\frac{4}{1-3z^{-1}}\).
+3. What is the z-transform of the signal x(n)=sin(jω0n)u(n)?
+a) \(\frac{z^{-1} sin\omega_0}{1+2z^{-1} cos\omega_0+z^{-2}}\) 
+b) \(\frac{z^{-1} sin\omega_0}{1-2z^{-1} cos\omega_0-z^{-2}}\) 
+c) \(\frac{z^{-1} cos\omega_0}{1-2z^{-1} cos\omega_0+z^{-2}}\) 
+d) \(\frac{z^{-1} sin\omega_0}{1-2z^{-1} cos\omega_0+z^{-2}}\) 
+d
+x(n) = sin(jω0n)u(n)=\(\frac{1}{2j}[e^{jω_0n} u(n)-e^{-jω_0n} u(n)]\) 
+Thus X(z)=\(\frac{1}{2j}[\frac{1}{1-e^{jω_0} z^{-1}}-\frac{1}{1-e^{-jω_0} z^{-1}}]\) 
+On simplification, we obtain
+=> \(\frac{z^{-1} sin\omega_0}{1-2z^{-1} cos\omega_0+z^{-2}}\).
+4. According to Time shifting property of z-transform, if X(z) is the z-transform of x(n) then what is the z-transform of x(n-k)?
+a) zkX(z)
+b) z-kX(z)
+c) X(z-k)
+d) X(z+k)
+b
+X(z)=\(\sum_{n=-\infty}^{\infty} x(n) z^{-n}\) 
+=>Z{x(n-k)}=\(X^1(z)=\sum_{n=-\infty}^{\infty} x(n-k) z^{-n}\) 
+Let n-k=l
+=> X1(z)=\(\sum_{l=-\infty}^{\infty} x(l) z^{-l-k}=z^{-k}.\sum_{l=-\infty}^{\infty} x(l) z^{-l}= z^{-k}X(z)\) 
+5. What is the z-transform of the signal defined as x(n)=u(n)-u(n-N)?
+a) \(\frac{1+z^N}{1+z^{-1}}\) 
+b) \(\frac{1-z^N}{1+z^{-1}}\) 
+c) \(\frac{1+z^{-N}}{1+z^{-1}}\) 
+d) \(\frac{1-z^{-N}}{1-z^{-1}}\) 
+d
+We know that \(Z{u(n)}=\frac{1}{1-z^{-1}}\) 
+And by the time shifting property, we have Z{x(n-k)}=z-k.Z{x(n)}
+=>Z{u(n-N)}=\(z^{-N}.\frac{1}{1-z^{-1}}\) 
+=>Z{u(n)-u(n-N)}=\(\frac{1-z^{-N}}{1-z^{-1}}\).
+6. If X(z) is the z-transform of the signal x(n) then what is the z-transform of anx(n)?
+a) X(az)
+b) X(az-1)
+c) X(a-1z)
+d) None of the mentioned
+c
+Z{anx(n)}=\(\sum_{n=-\infty}^{\infty}a^n x(n) z^{-n}=\sum_{n=-\infty}^{\infty}x(n)(a^{-1}z)^{-n}=X(a^{-1}z)\).
+7. If the ROC of X(z) is r1<|z|<r2, then what is the ROC of X(a-1z)?
+a) |a|r1<|z|<|a|r2
+b) |a|r1>|z|>|a|r2
+c) |a|r1<|z|>|a|r2
+d) |a|r1>|z|<|a|r2
+a
+Then ROC of X(a-1z) will be given by r1<|a-1z |<r2=|a|r1<|z|<|a|r2
+8. What is the z-transform of the signal x(n)=an(sinω0n)u(n)?
+a)\(\frac{az^{-1} sin\omega_0}{1+2 az^{-1} cos\omega_0+a^2 z^{-2}}\) 
+b)\(\frac{az^{-1} sin\omega_0}{1-2 az^{-1} cos\omega_0- a^2 z^{-2}}\) 
+c)\(\frac{(az)^{-1} cos\omega_0}{1-2 az^{-1} cos\omega_0+a^2 z^{-2}}\) 
+d)\(\frac{az^{-1} sin\omega_0}{1-2 az^{-1} cos\omega_0+a^2 z^{-2}}\) 
+d
+we know that by the linearity property of z-transform of sin(ω0n)u(n) is X(z)=\(\frac{z^{-1} sin\omega_0}{1-2z^{-1} cos\omega_0+z^{-2}}\) 
+Now by the scaling in the z-domain property, we have z-transform of an (sin(ω0n))u(n) as
+X(az)=\(\frac{az^{-1} sin\omega_0}{1-2az^{-1} cosω_0+a^2 z^{-2}}\) 
+9. If X(z) is the z-transform of the signal x(n), then what is the z-transform of the signal x(-n)?
+a) X(-z)
+b) X(z-1)
+c) X-1(z)
+d) None of the mentioned
+b
+Z{x(-n)}=\(\sum_{n=-\infty}^{\infty} x(-n) z^{-n}=\sum_{n=-\infty}^{\infty} x(-n) (z^{-1})^{-(-n)}=X(z^{-1})\)
+10. X(z) is the z-transform of the signal x(n), then what is the z-transform of the signal nx(n)?
+a) \(-z\frac{dX(z)}{dz}\) 
+b) \(z\frac{dX(z)}{dz}\) 
+c) \(-z^{-1}\frac{dX(z)}{dz}\) 
+d) \(z^{-1}\frac{dX(z)}{dz}\) 
+a
+From the definition of z-transform, we have
+X(z)=\(\sum_{n=-\infty}^{\infty} x(n) z^{-n}\) 
+On differentiating both sides, we have
+\(\frac{dX(z)}{dz}=\sum_{n=-\infty}^{\infty} (-n) x(n) z^{-n-1}=-z^{-1} \sum_{n=-\infty}^{\infty}nx(n) z^{-n}=-z^{-1}Z\{nx(n)\}\) 
+Therefore, we get \(-z\frac{dX(z)}{dz}\) = Z{nx(n)}.
+11. What is the z-transform of the signal x(n)=nanu(n)?
+a) \(\frac{(az)^{-1}}{(1-(az)^{-1})^2}\) 
+b) \(\frac{az^{-1}}{(1-(az)^{-1})^2}\) 
+c) \(\frac{az^{-1}}{(1-az^{-1})^2}\) 
+d) \(\frac{az^{-1}}{(1+az^{-1})^2}\) 
+c
+We know that Z{anu(n)}=\(\frac{1}{1-az^{-1}}\)=X(z) (say)
+Now the z-transform of nanu(n)=\(-z\frac{dX(z)}{dz} = \frac{az^{-1}}{(1-az^{-1})^2}\) 
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Z Transform» Next - Digital Signal Processing Questions and Answers – Properties of Z Transform – 2 

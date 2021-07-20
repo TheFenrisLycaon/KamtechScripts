@@ -1,0 +1,60 @@
+1. Which NDFA correctly represents the following RE?
+ a(bab)*∪a(ba)* 
+a) 
+b)  
+c) 
+d) None of the mentioned
+a
+2. Which is the correct NDFA for the following mentioned expression?  
+(ab)*∪(aba)*
+a) 
+b)  
+c) 
+d) None of the mentioned
+b
+3. NDFAs where introduced by ____________
+a) Michael O Rabin & Dana Scott
+b) Dan Brown
+c) Sun micro system Labs
+d) SAP Labs
+a
+4. The regular languages are not closed under ___________
+a) Concatenation
+b) Union
+c) Kleene star
+d) Complement
+d
+Union (cf. picture)
+Intersection
+Concatenation
+Negation
+Kleene closure.
+5. The Tuples for NDFA is ___________
+a) ∑, Q, q0, F, δ
+b) Q, q0, F, δ
+c) Θ, Q, q0, F,δ
+d) F, Q, Δ, q0, δ
+a
+a  set of states Q
+a set of input symbols Σ
+a transition function Δ : Q × Σ → P(Q).
+an initial state q0 ∈ Q
+a  final state F ⊆ Q.
+6. NFAs are ________ DFAs.
+a) Larger than
+b) More expressive than
+c) Less expressive than
+d) Equally expressive as
+a
+7. An NFA’s transition function returns ________
+a) A Boolean value
+b) A state
+c) A set of states
+d) An edge
+c
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – Finite Automata – 2» Next - Compilers Questions and Answers – Non-Deterministic Finite Automata – 2 

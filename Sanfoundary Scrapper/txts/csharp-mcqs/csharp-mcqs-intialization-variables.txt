@@ -1,0 +1,85 @@
+1. What will be the output of the following C# code?
+ static void Main(string[] args) {     int a = 5;     int b = 10;     int c;     Console.WriteLine(c = ++ a + b ++);     Console.WriteLine(b);     Console.ReadLine(); }
+a) 11, 10
+b) 16, 10
+c) 16, 11
+d) 15, 11
+c
+Output:
+16, 11
+2. Storage location used by computer memory to store data for usage by an application is?
+a) Pointers
+b) Constants
+c) Variable
+d) None of the mentioned
+c
+3. DIFFERENCE BETWEEN KEYWORDS ‘VAR’ AND ‘DYNAMIC’?
+a) ‘Var’ is introduced in C# (3.0) and ‘Dynamic’ is introduced in C# (4.0)
+b) ‘Var’ is a type of variable where declaration is done at compile time by compiler while ‘Dynamic’ declaration is achieved at runtime by compiler
+c) For ‘Var’ Error is caught at compile time and for ‘Dynamic’ Error is caught at runtime
+d) All of the mentioned
+d
+4. The following C# codes are?
+ 1. Myclass class;    Myclass class2 = null;
+ 2. int i;    int j = 0;
+a) True for (1);False for (2)
+b) True for (2);False for (1)
+c) Both (1) and (2) are equivalents
+d) Both (1) and (2) are not equivalents
+c
+5. What will be the output of the following C# code?
+  int a,b;  a = (b = 10) + 5;
+a) b = 10, a = 5
+b) b = 15, a = 5
+c) a = 15, b = 10
+d) a = 10, b = 10
+c
+6. What will be the output of the following C# code conversion?
+ static void Main(string[] args) {     char a = 'A';     string b = "a";     Console.WriteLine(Convert.ToInt32(a));     Console.WriteLine(Convert.ToInt32(Convert.Tochar(b)));     Console.ReadLine(); }
+a) 1, 97
+b) 65, 97
+c) 65, 97
+d) 97, 1
+c
+Output:
+65, 97
+7. What will be the output of the following C# code?
+static void Main(string[] args){    String name = "Dr.Gupta";    Console.WriteLine("Good Morning" + name);}
+a) Dr.Gupta
+b) Good Morning
+c) Good Morning Dr.Gupta
+d) Good Morning name
+c
+Output:
+ Good Morning Dr.Gupta.
+8. What will be the output of the following C# code?
+ static void Main(string[] args) {     int a = 5;     int b = 10;     int c;     Console.WriteLine(c = a-- - ++b);     Console.WriteLine(b);     Console.ReadLine(); }
+a) -7, 10
+b) -5, 11
+c) -6, 11
+d) 15, 11
+c
+Output:
+-6, 11
+9. What will be the output of the following C# code?
+ static void Main(string[] args) {     const int a = 5;     const int b = 6;     for (int i = 1; i <= 5; i++)     {         a = a * i;         b = b * i;     }     Console.WriteLine(a);     Console.WriteLine(b);     Console.ReadLine(); }
+a) 600, 720
+b) Compile time error
+c) 25, 30
+d) 5, 6
+b
+10. What will be the output of the following C# code?
+ static void Main(string[] args) {     string Name = "He is playing in a ground.";     char[] characters = Name.ToCharArray();     StringBuilder sb = new StringBuilder();     for (int i = Name.Length - 1; i >= 0; --i)     {         sb.Append(characters[i]);     }     Console.Write(sb.ToString());     Console.ReadLine();  }
+a) He is playing in a grou
+b) .ground  a in playing is He
+c) .dnuorg a ni gniyalp si eH
+d) He  playing a
+c
+Output:
+.dnuorg a ni gniyalp si eH
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Char Types and String Literals» Next - C# Questions & Answers – Scope and Lifetime of Variables 

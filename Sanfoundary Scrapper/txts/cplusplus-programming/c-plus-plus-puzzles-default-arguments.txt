@@ -1,0 +1,101 @@
+This section on C++ questions and puzzles focuses on “Default Arguments”. One shall practice these questions and puzzles to improve their C++ programming skills needed for various interviews (campus interviews, walk-in interviews, company interviews), placements, entrance exams and other competitive exams. These programming puzzles can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ questions come with the detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ questions and puzzles on “Default Arguments” along with answers, explanations and/or solutions: 
+1. If the user did not supply the value, what value will it take?
+a) default value
+b) rise an error
+c) both default value & rise an error
+d) error
+a
+2. Where can the default parameter be placed by the user?
+a) leftmost
+b) rightmost
+c) both leftmost & rightmost
+d) topmost
+b
+3. Which value will it take when both user and default values are given?
+a) user value
+b) default value
+c) custom value
+d) defined value
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void func(int a, bool flag = true)    {        if (flag == true )         {            cout << "Flag is true. a = " << a;        }        else         {            cout << "Flag is false. a = " << a;        }    }    int main()    {        func(200, false);        return 0;    }
+a) Flag is true. a = 200
+b) Flag is false. a = 100
+c) Flag is false. a = 200
+d) Flag is true. a = 100
+c
+Output:
+Join Sanfoundry@YouTube
+$ g++ def.cpp
+$ a.out
+Flag is false. a = 200
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <string>    using namespace std;    string askNumber(string prompt = "Please enter a number: ");    int main()    {        string number = askNumber();        cout << "Here is your number: " << number;        return 0;    }    string askNumber(string prompt)    {        string number;        cout << prompt;        cin >> number;        return number;    }
+a) 5
+b) 6
+c) the number you entered
+d) compile time error
+c
+Output:
+$ g++ def1.cpp
+$ a.out
+Please enter a number:
+5
+Here is your number:5
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void Values(int n1, int n2 = 10)    {        using namespace std;        cout << "1st value: " << n1;        cout << "2nd value: " << n2;    }    int main()    {        Values(1);        Values(3, 4);        return 0;    }
+a) 
+ 1st value: 1
+ 10
+ 3
+ 4
+b) 
+
+   1st value: 1
+   10
+   3
+   10
+c) compile time error
+d) runtime error
+a
+Output:
+$ g++ def2.cpp
+$ a.out
+1st value: 1
+2nd value: 10
+1st value: 3
+2nd value: 4
+7. What we can’t place followed by the non-default arguments?
+a) trailing arguments
+b) default arguments
+c) both trailing & default arguments
+d) leading arguments
+b
+eg. if func(int a=3, int b);
+so if we call func(5), here will 5 will be value of a or b, because 5 is first parameter so a should be 5  but as only one argument is given b should be 5. So to remove such ambiguity default parameters are kept at the end or rightmost side. 
+8. If we start our function call with default arguments means, what will be proceeding arguments?
+a) user argument
+b) empty arguments
+c) default arguments
+d) user & empty arguments
+c
+9. What is the default return type of a function?
+a) int
+b) void
+c) float
+d) char
+b
+10. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int func(int m = 10, int n)    {        int c;        c = m + n;        return c;    }    int main()    {        cout << func(5);        return 0;    }
+a) 15
+b) 10
+c) compile time error
+d) 30
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Overloaded Function Names» Next - C++ Programming Questions and Answers – Unspecified Number of Arguments 

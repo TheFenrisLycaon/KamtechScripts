@@ -1,0 +1,66 @@
+1. What is operation specification and what does it include?
+a) Specification of an operation’s responsibilities and interface can be collected in one place, in structured
+b) It includes Class or Module, Signatures, Descriptions
+c) It includes Behavior, Implementation
+d) All of the mentioned
+d
+2. What is Signature?
+a) The operation’s class (in object-oriented designs) or module (in non-object-oriented designs)
+b) The operation name, the names and types of its parameters,and its return type
+c) A sentence or two informally stating the operation’s responsibilities
+d) A detailed description of the algorithm and data structures used to implement this operation
+b
+3. What is procedural specification?
+a) A behavior description that does not use an algorithm
+b) An algorithmic behavior description
+c) All of the mentioned
+d) None of the mentioned
+b
+4. Declarative specifications are preferable for which of the following reasons?
+a) Declarative specifications are more abstract because they ignore implementation details, and consequently they are more concise than procedural specifications
+b) Declarative specifications focus on an operation’s interface, making it clearer how an operation interacts with its callers
+c) Procedural specifications may bias programmers toward the implementation used in the specification
+d) All of the mentioned
+d
+5. What is true with respect to operation contract?
+a) It is a binding agreement between two or more parties
+b) They usually state each party’s rights and obligations
+c) All of the mentioned
+d) None of the mentioned
+c
+6. What is precondition?
+a) It is an assertion that must be true at the initiation of an operation
+b) It is an assertion that must be true upon completion of an operation
+c) It is a statement that must be true at a designated point in a program
+d) None of the mentioned
+a
+7. Which of the following is incorrect?
+a) The postconditions express the caller’s obligations and the called operation’s rights
+b) The preconditions express the caller’s rights and the called operation’s obligations
+c) All of the mentioned
+d) None of the mentioned
+d
+8. What is Class Invariant?
+a) A class invariant is an assertion that must be true of any class instance between calls of its exported operations
+b) Class invariants must be established by class constructors
+c) Class invariants must be preserved by every exported operation in the class
+d) All of the mentioned
+d
+9. Which of the following are post condition heuristics?
+a) Specify restrictions on parameters
+b) Specify conditions that must have been established
+c) Specify empty preconditions as true or none
+d) None of the mentioned
+d
+10. Which of the following are class invariant heuristics?
+a) Specify restrictions on attributes
+b) Specify restrictions on parameters
+c) Specify relationships between the parameters and the results
+d) All of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Software Architecture and Design.
+To practice all areas of Software Design and Architecture,  here is complete set of 1000+ Multiple Choice Questions and Answers on Software Design and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Software Design Questions and Answers – Visibility, Accessibility and Information Hiding» Next - Software Design Questions and Answers – Algorithm and Data Structure Specification 

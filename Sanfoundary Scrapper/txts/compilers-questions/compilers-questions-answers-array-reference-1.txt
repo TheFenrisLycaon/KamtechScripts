@@ -1,0 +1,70 @@
+1. Which of the following correctly declares an array?
+a) Int array[ 10]
+b) int array
+c) array{10}
+d) array array[ 10]
+a
+2. What is the index number of the last element of an array with 29 elements?
+a) 29
+b) 28
+c) 0
+d) Programmer-Defined
+b
+3. Which of the following is a two-dimensional array?
+a) array array[20][20]
+b) int array[20][20]
+c) int array[20, 20]
+d) char array[20]
+b
+4. Which of the following correctly accesses the seventh element stored in tan?
+a) tan[6]
+b) tan[7]
+c) tan(7)
+d) tan
+a
+5. Which of the following gives the memory address of the first element in array tan?
+a) tan[0]
+b) tan
+c) &tan
+d) tan [1]
+b
+6. What will happen if in a C program you assign a value to an array element whose subscript exceeds the size of array?
+a) The compiler would report an error
+b) May stop working abruptly if data gets overwritten
+c) None of the mentioned
+d) The element will be set to 0
+b
+7. What does the following declaration mean?
+ int (*a)[10] a
+a) Pointer to an array
+b) None of the mentioned
+c) Array of 10 integers
+d) Pointer to an array & Array of 10 integers
+a
+8. What is the meaning of the following declaration?
+Int arr[20]
+a) Integer Array of size 20
+b) None of the mentioned
+c) Array of size 20
+d) Array of size 20 that can have higher integer address
+a
+9. What will be the size of below array elements?
+int a[20]
+a) 21
+b) 22
+c) 20
+d) 19
+c
+10. What is meaning of the following?
+Int *ptr[20]
+a) Interger array of size 20 pointing to an integer Pointer
+b) None of the mentioned
+c) Array of integer pointer of size 20
+d) All of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – Implementation of Increment and Decrement – 2» Next - Compilers Questions and Answers – Array Reference – 2 

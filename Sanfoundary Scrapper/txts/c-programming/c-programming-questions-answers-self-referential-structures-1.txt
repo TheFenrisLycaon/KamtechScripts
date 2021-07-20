@@ -1,0 +1,63 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for AMD and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear AMD interviews on C Programming language. 
+Here is a listing of C question bank on “Self Referential Structures” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *c;        struct student *point;    };    void main()    {        struct student s;        struct student m;        s.c = m.c = "hi";        m.point = &s;        (m.point)->c = "hey";        printf("%s\t%s\t", s.c, m.c);    }
+a) hey hi
+b) hi hey
+c) Run time error
+d) hey hey
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *c;        struct student *point;    };    void main()    {        struct student s;        struct student m;        m.point = s;        (m.point)->c = "hey";        printf("%s", s.c);    }
+a) Nothing
+b) Compile time error
+c) hey
+d) Varies
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *c;        struct student point;    };    void main()    {        struct student s;        s.c = "hello";        printf("%s", s.c);    }
+a) hello
+b) Nothing
+c) Varies
+d) Compile time error
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *c;        struct student *point;    };    void main()    {        struct student s;        printf("%d", sizeof(s));    }
+a) 5
+b) 9
+c) 8
+d) 16
+c
+5. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *c;        struct student *point;    };    void main()    {        struct student s;        struct student *m = &s;        printf("%d", sizeof(student));    }
+a) Compile time error
+b) 8
+c) 5
+d) 16
+a
+6. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        int x;        char y;        struct p *ptr;    };    int main()    {        struct p p = {1, 2, &p};        printf("%d\n", p.ptr->x);        return 0;    }
+a) Compile time error
+b) Undefined behaviour
+c) 1
+d) 2
+c
+7. What will be the output of the following C code?
+    #include <stdio.h>    typedef struct p *q;    struct p    {        int x;        char y;        q ptr;    };    int main()    {        struct p p = {1, 2, &p};        printf("%d\n", p.ptr->x);        return 0;    }
+a) Compile time error
+b) 1
+c) Undefined behaviour
+d) Address of p
+b
+8. Presence of loop in a linked list can be tested by ________
+a) Traveling the list, if NULL is encountered no loop exists
+b) Comparing the address of nodes by address of every other node
+c) Comparing the the value stored in a node by a value in every other node
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Pointer to Structures – 2» Next - C Programming Questions and Answers – Self-Referential Structures – 2 

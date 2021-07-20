@@ -1,0 +1,70 @@
+1. A _________ consists of a sequence of query and/or update statements.
+a) Transaction
+b) Commit
+c) Rollback
+d) Flashback
+a
+2. Which of the following makes the transaction permanent in the database?
+a) View
+b) Commit
+c) Rollback
+d) Flashback
+b
+3. In order to undo the work of transaction after last commit which one should be used?
+a) View
+b) Commit
+c) Rollback
+d) Flashback
+c
+4. Consider the following action:
+TRANSACTION.....
+Commit;
+ROLLBACK;
+What does Rollback do?
+a) Undoes the transactions before commit
+b) Clears all transactions
+c) Redoes the transactions before commit
+d) No action
+d
+5. In case of any shut down during transaction before commit which of the following statement is done automatically?
+a) View
+b) Commit
+c) Rollback
+d) Flashback
+c
+6. In order to maintain the consistency during transactions, database provides
+a) Commit
+b) Atomic
+c) Flashback
+d) Retain
+b
+7. Transaction processing is associated with everything below except
+a) Conforming an action or triggering a response
+b) Producing detail summary or exception report
+c) Recording a business activity
+d) Maintaining a data
+a
+8. A transaction completes its execution is said to be
+a) Committed
+b) Aborted
+c) Rolled back
+d) Failed
+a
+9. Which of the following is used to get back all the transactions back after rollback?
+a) Commit
+b) Rollback
+c) Flashback
+d) Redo
+c
+10. ______ will undo all statements up to commit?
+a) Transaction
+b) Flashback
+c) Rollback
+d) Abort
+c
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Views» Next - Database Questions and Answers – Integrity Constraints 

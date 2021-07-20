@@ -1,0 +1,67 @@
+1. The preferred way to clear the _________ flag from a chunk is to attempt to split the chunk.
+a) boolean
+b) jumbo
+c) change
+d) all of the mentioned
+b
+2. Point out the correct statement.
+a) In some instances, MongoDB cannot split the no-longer jumbo chunk, such as a chunk with a range of single shard key value
+b) To ensure that mongos instances update their cluster information cache, run flushConfig in the admin database
+c) In a sharded cluster, you cannot use tags to associate specific ranges of a shard key with a specific shard or subset of shards
+d) All of the mentioned
+a
+3. _________ is used to remove tags from a particular shard.
+a) sh.removeTag()
+b) sh.removeShard()
+c) sh.removeShardTag()
+d) all of the mentioned
+c
+4. ________ associates a shard with a tag or identifier.
+a) sh.collects()
+b) sh.addShardTag
+c) sh.results()
+d) all of the mentioned
+b
+5. Point out the wrong statement.
+a) You cannot overlap defined ranges, or tag the same range more than once
+b) The mongod provides a helper for removing a tag range
+c) The output from sh.status() lists tags associated with a shard, if any, for each shard
+d) None of the mentioned
+b
+6. To assign a tag to a range of shard keys use the _________ method when connected to a mongos instance.
+a) sh.addTagRange()
+b) sh.splitFind()
+c) sh.Range()
+d) all of the mentioned
+a
+7. Each document in the tags holds the ________ of the sharded collection and a minimum shard key value.
+a) tag
+b) chunk
+c) namespace
+d) size
+c
+8. Which of the following parameter represents minimum value of the shard key range to include in the tag?
+a) min
+b) max
+c) maximum
+d) minimum
+d
+9. Use ________ to ensure that the balancer migrates documents that exist within the specified range to a specific shard.
+a) sh.addShardTag()
+b) sh.addTag()
+c) sh.aShardTag()
+d) all of the mentioned
+a
+10. Which of the following parameter denotes name of the shard from which to remove a tag?
+a) shard
+b) tag
+c) chunk
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Sharded Cluster Maintenance» Next - MongoDB Questions and Answers – Sharded Cluster Data Management – 1 

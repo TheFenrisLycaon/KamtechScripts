@@ -1,0 +1,91 @@
+1. A ________ serves as the master and there is only one NameNode per cluster.
+a) Data Node
+b) NameNode
+c) Data block
+d) Replication
+b
+2. Point out the correct statement.
+a) DataNode is the slave/worker node and holds the user data in the form of Data Blocks
+b) Each incoming file is broken into 32 MB by default
+c) Data blocks are replicated across different nodes in the cluster to ensure a low degree of fault tolerance
+d) None of the mentioned
+a
+3. HDFS works in a  __________ fashion.
+a) master-worker
+b) master-slave
+c) worker/slave
+d) all of the mentioned
+a
+4. ________ NameNode is used when the Primary NameNode goes down.
+a) Rack
+b) Data
+c) Secondary
+d) None of the mentioned
+c
+5. Point out the wrong statement.
+a) Replication Factor can be configured at a cluster level (Default is set to 3) and also at a file level
+b) Block Report from each DataNode contains a list of all the blocks that are stored on that DataNode
+c) User data is stored on the local file system of DataNodes
+d) DataNode is aware of the files to which the blocks stored on it belong to
+d
+6. Which of the following scenario may not be a good fit for HDFS?
+a) HDFS is not suitable for scenarios requiring multiple/simultaneous writes to the same file
+b) HDFS is suitable for storing data related to applications requiring low latency data access
+c) HDFS is suitable for storing data related to applications requiring low latency data access
+d) None of the mentioned
+a
+7. The need for data replication can arise in various scenarios like ____________
+a) Replication Factor is changed
+b) DataNode goes down
+c) Data Blocks get corrupted
+d) All of the mentioned
+d
+8. ________ is the slave/worker node and holds the user data in the form of Data Blocks.
+a) DataNode
+b) NameNode
+c) Data block
+d) Replication
+a
+9. HDFS provides a command line interface called __________ used to interact with HDFS.
+a) “HDFS Shell”
+b) “FS Shell”
+c) “DFS Shell”
+d) None of the mentioned
+b
+10. HDFS is implemented in _____________ programming language.
+a) C++
+b) Java
+c) Scala
+d) None of the mentioned
+b
+11. For YARN, the ___________ Manager UI provides host and port information.
+a) Data Node
+b) NameNode
+c) Resource
+d) Replication
+c
+12. Point out the correct statement.
+a) The Hadoop framework publishes the job flow status to an internally running web server on the master nodes of the Hadoop cluster
+b) Each incoming file is broken into 32 MB by default
+c) Data blocks are replicated across different nodes in the cluster to ensure a low degree of fault tolerance
+d) None of the mentioned
+a
+13. For ________ the HBase Master UI provides information about the HBase Master uptime.
+a) HBase
+b) Oozie
+c) Kafka
+d) All of the mentioned
+a
+14. During start up, the ___________ loads the file system state from the fsimage and the edits log file.
+a) DataNode
+b) NameNode
+c) ActionNode
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop Filesystem – HDFS, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Hadoop Streaming» Next - Hadoop Questions and Answers – Java Interface 

@@ -1,0 +1,61 @@
+1. Which of the following is the first method proposed for design of FIR filters?
+a) Chebyshev approximation
+b) Frequency sampling method
+c) Windowing technique
+d) None of the mentioned
+c
+2. The lack of precise control of cutoff frequencies is a disadvantage of which of the following designs?
+a) Window design
+b) Chebyshev approximation
+c) Frequency sampling
+d) None of the mentioned
+a
+3. The values of cutoff frequencies in general depend on which of the following?
+a) Type of the window
+b) Length of the window
+c) Type & Length of the window
+d) None of the mentioned
+d
+4. In frequency sampling method, transition band is a multiple of which of the following?
+a) π/M
+b) 2π/M
+c) π/2M
+d) 2πM
+b
+5. The frequency sampling design method is attractive when the FIR filter is realized in the frequency domain by means of the DFT.
+a) True
+b) False
+a
+6. Which of the following values can a frequency response take in frequency sampling technique?
+a) Zero
+b) One
+c) Zero or One
+d) None of the mentioned
+c
+7. Which of the following technique is more preferable for design of linear phase FIR filter?
+a) Window design
+b) Chebyshev approximation
+c) Frequency sampling
+d) None of the mentioned
+b
+8. By optimal filter design, the maximum side lobe level is minimized.
+a) True
+b) False
+a
+9. Which of the following is the correct expression for transition band Δf?
+a) (ωp– ωs)/2π
+b) (ωp+ωs)/2π
+c) (ωp.ωs)/2π
+d) (ωs– ωp)/2π
+d
+Δf=(ωs-ωp)/2π.
+10. If the resulting δ exceeds the specified δ2, then the length can be increased until we obtain a side lobe level that meets the specification.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Design of Hilbert Transformers» Next - Digital Signal Processing Questions and Answers – Design of IIR Filters from Analog Filters 

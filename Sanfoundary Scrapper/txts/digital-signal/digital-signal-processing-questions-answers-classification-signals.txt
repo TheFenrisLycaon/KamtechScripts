@@ -1,0 +1,79 @@
+1. Which of the following is done to convert a continuous time signal into discrete time signal?
+a) Modulating
+b) Sampling
+c) Differentiating
+d) Integrating
+b
+2. The deflection voltage of an oscilloscope is a ‘deterministic’ signal.
+a) True
+b) False
+a
+3. The even part of a signal x(t) is?
+a) x(t)+x(-t)
+b) x(t)-x(-t)
+c) (1/2)*(x(t)+x(-t))
+d) (1/2)*(x(t)-x(-t))
+c
+=>x(-t)=xe(-t)-xo(-t)
+By adding the above two equations, we get
+xe(t)=(1/2)*(x(t)+x(-t)).
+4. Which of the following is the odd component of the signal x(t)=e(jt)?
+a) cost
+b) j*sint
+c) j*cost
+d) sint
+b
+Now, xo(t)=(1/2)*(x(t)-x(-t))
+=(1/2)*(e(jt) – e(-jt))
+=(1/2)*(cost+jsint-cost+jsint)
+=(1/2)*(2jsint)
+=j*sint.
+5. For a continuous time signal x(t) to be periodic with a period T, then x(t+mT) should be equal to ___________
+a) x(-t)
+b) x(mT)
+c) x(mt)
+d) x(t)
+d
+Join Sanfoundry@YouTube
+6. Let x1(t) and x2(t) be periodic signals with fundamental periods T1 and T2 respectively. Which of the following must be a rational number for x(t)=x1(t)+x2(t) to be periodic?
+a) T1+T2
+b) T1-T2
+c) T1/T2
+d) T1*T2
+c
+=>x(t+T)=x1(t+mT1)+x2(t+nT2)
+Thus, we must have
+mT1=nT2=T
+=>(T1/T2)=(k/m)= a rational number.
+7. Let x1(t) and x2(t) be periodic signals with fundamental periods T1 and T2 respectively.  Then the fundamental period of x(t)=x1(t)+x2(t) is?
+a) LCM of T1 and T2
+b) HCF of T1and T2
+c) Product of T1 and T2
+d) Ratio of T1 to T2
+a
+8. All energy signals will have an average power of ___________
+a) Infinite
+b) Zero
+c) Positive
+d) Cannot be calculated
+b
+9. x(t) or x(n) is defined to be an energy signal, if and only if the total energy content of the signal is a ___________
+a) Finite quantity
+b) Infinite
+c) Zero
+d) None of the mentioned
+a
+10. What is the period of cos2t+sin3t?
+a) pi
+b) 2*pi
+c) 3*pi
+d) 4*pi
+b
+Period of sin3t=(2*pi)/3
+LCM of pi and (2*pi)/3 is 2*pi.
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – A2D and D2A Converters» Next - Digital Signal Processing Questions and Answers – Signals, Systems and Signal Processing 

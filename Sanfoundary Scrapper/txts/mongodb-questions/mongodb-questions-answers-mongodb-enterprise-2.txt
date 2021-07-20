@@ -1,0 +1,67 @@
+1. To install the latest stable version of MongoDB on SUSE, issue ______________
+a) sudo zypper install mongodb-enterprise
+b) sudo zypper update mongodb-enterprise
+c) sudo zyp install mongodb-enterprise
+d) none of the mentioned
+a
+2. Point out the correct statement.
+a) MongoDB can be installed on SUSE which is a Linux flavour
+b) MongoDB Enterprise is available on select platforms and contains support for several features related to security and monitoring
+c) A commercial edition of MongoDB that includes additional features
+d) All of the mentioned
+d
+3. The MongoDB instance stores its _________ files in /var/lib/mongo by default.
+a) log
+b) data
+c) replica
+d) all of the mentioned
+b
+4. The MongoDB process listens on port _________ by default.
+a) 27017
+b) 27170
+c) 27107
+d) 26017
+a
+5. Point out the wrong statement.
+a) If you change the user that runs the MongoDB process, you must modify the access control rights
+b) The MongoDB instance stores its data files in /var/log/mongodb by default
+c) MongoDB uses memory mapped files for data management for efficiency
+d) None of the mentioned
+b
+6. Which of the following file is not a MongoDB configuration file?
+a) mongodb.conf
+b) mongod.conf
+c) mongodb.con
+d) none of the mentioned
+b
+7. User account running mongod has _______ permissions for the directory.
+a) write only
+b) read only
+c) read and write
+d) none of the mentioned
+c
+8. ___________ allows you to scale your cluster linearly by adding more machines.
+a) Vertical sharding
+b) Autosharding
+c) Horizontal sharding
+d) All of the mentioned
+b
+9. MongoDB is installed unattended on Windows from the command line using ____________
+a) msi.exe
+b) msiexec.exe
+c) exec.exe
+d) none of the mentioned
+b
+10. Sometimes mongod.exe is visible on public networks without running in _________ Mode with the auth setting.
+a) Permanent
+b) Secure
+c) Primary
+d) Protected
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – MongoDB Enterprise – 1» Next - MongoDB Questions and Answers – MongoDB Packages 

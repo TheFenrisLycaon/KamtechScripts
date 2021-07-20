@@ -1,0 +1,107 @@
+1. Find the inverse of the given Matrix, using Cayley Hamilton’s Theorem.
+A=\(\begin{bmatrix}1&2&3\\2&3&4\\3&4&5\end{bmatrix}\) 
+a) A-1=\(\frac{1}{16} \begin{bmatrix}2&-3&-1\\4&-2&-6\\-6&9&11\end{bmatrix}\) 
+b) A-1=\(\frac{1}{8} \begin{bmatrix}2&-3&-1\\4&-2&-3\\-6&9&11\end{bmatrix}\) 
+c) A-1=\(\frac{1}{16} \begin{bmatrix}2&-1&-1\\4&-2&-6\\-6&9&11\end{bmatrix}\) 
+d) A-1=\(\frac{1}{8} \begin{bmatrix}2&-3&-1\\4&-2&-6\\-6&9&11\end{bmatrix}\) 
+d
+A=\(\begin{bmatrix}1&2&3\\2&3&4\\3&4&5\end{bmatrix}\) 
+The characteristic polynomial is given by –
+α3-(Sum of diagonal elements) α2+(Sum of minor of diagonal element)α-|A|=0
+α3-7α2+11α-8=0
+The Cayley Hamilton’s Theorem states that every matrix satisfies its Characteristic Polynomial.
+Thus,
+A3-7A2+11A-8I=0
+To find A-1,  multiply both the sides of the equation by A-1
+A2 A A-1-7AA A-1+11A A-1-8I A-1=0
+We know that A A-1=I
+A2I-7AI+11I-8IA-1=0
+A2-7A+11-8 A-1=0
+A2-7A+11=8 A-1
+8A-1=\(\begin{bmatrix}19&18&13\\-3&1&1\\15&9&7\end{bmatrix}-7\begin{bmatrix}4&3&2\\-1&2&1\\3&0&1\end{bmatrix}+11\begin{bmatrix}1&0&0\\0&1&0\\0&0&1\end{bmatrix}\) 
+8A-1=\(\begin{bmatrix}19-28+11&18-21&13-14\\-3+7&1-14+11&1-7\\15-21&9&7-7+11\end{bmatrix}\) 
+8A-1=\(\begin{bmatrix}2&-3&-1\\4&-2&-6\\-6&9&11\end{bmatrix}\) 
+A-1=\(\frac{1}{8} \begin{bmatrix}2&-3&-1\\4&-2&-6\\-6&9&11\end{bmatrix}\).
+2. Find the value of A3  where A=\(\begin{bmatrix}-1&-1&2\\0&1&-1\\2&2&1\end{bmatrix}\).
+a) \(\begin{bmatrix}3&5&-1\\-2&-9&2\\-2&-4&-5\end{bmatrix}\) 
+b) \(\begin{bmatrix}3&5&-1\\1&-9&1\\-2&-4&-5\end{bmatrix}\) 
+c) \(\begin{bmatrix}3&5&-1\\-2&-9&1\\-2&-4&-5\end{bmatrix}\) 
+d) \(\begin{bmatrix}3&5&-1\\-1&-9&1\\-2&-4&-5\end{bmatrix}\) 
+c
+A=\(\begin{bmatrix}-1&-1&2\\0&1&-1\\2&2&1\end{bmatrix}\) 
+The characteristic polynomial is given by-
+α3-(Sum of diagonal elements) α2+(Sum of minor of diagonal element)α-|A|=0
+α3-α2+3α+5=0
+The Cayley Hamilton’s Theorem states that every matrix satisfies its Characteristic Polynomial.
+Join Sanfoundry@YouTube
+Thus,
+A3-A2+3A+5I=0
+A3=A2-3A-5I
+A3=\(\begin{bmatrix}5&2&5\\-2&-1&-2\\4&2&3\end{bmatrix}-3\begin{bmatrix}-1&-1&2\\0&1&-1\\2&2&1\end{bmatrix}-5\begin{bmatrix}1&0&0\\0&1&0\\0&0&1\end{bmatrix}\) 
+A3=\(\begin{bmatrix}5+3-5&2+3&5-6\\-2+0&-1-3-5&-2+3\\4-6&2-6&3-3-5\end{bmatrix}\) 
+A3=\(\begin{bmatrix}3&5&-1\\-2&-9&1\\-2&-4&-5\end{bmatrix}\).
+3. Find the value of A3+19A, A=\(\begin{bmatrix}2&-3&1\\2&0&-1\\1&4&5\end{bmatrix}\).
+a) \(\begin{bmatrix}42&-14&70\\21&+21&-21\\105&119&203\end{bmatrix}\) 
+b) \(\begin{bmatrix}42&-7&70\\21&-21&-21\\105&119&203\end{bmatrix}\) 
+c) \(\begin{bmatrix}42&-14&70\\21&-21&-21\\105&119&203\end{bmatrix}\) 
+d) \(\begin{bmatrix}42&-7&70\\21&+21&-21\\105&119&203\end{bmatrix}\) 
+c
+A=\(\begin{bmatrix}2&-3&1\\2&0&-1\\1&4&5\end{bmatrix}\) 
+The characteristic polynomial is given by –
+α3-(Sum of diagonal elements) α2+(Sum of minor of diagonal element)α-|A|=0
+α3-7α2+19α-49=0
+The Cayley Hamilton’s Theorem states that every matrix satisfies its Characteristic Polynomial.
+Thus,
+A3-7A2+19A-49I=0
+A3+19A=7A2+49I
+A3+19A=7\(\begin{bmatrix}-1&-2&10\\3&-10&-3\\15&17&22\end{bmatrix}+49\begin{bmatrix}1&0&0\\0&1&0\\0&0&1\end{bmatrix}\) 
+A3+19A=\(\begin{bmatrix}-7+49&-17&70\\21&-70+49&-21\\105&119&154+49\end{bmatrix}\) 
+A3+19A=\(\begin{bmatrix}42&-14&70\\21&-21&-21\\105&119&203\end{bmatrix}\).
+4.  Find the value of 2A3+4A2, where = \(\begin{bmatrix}5&0&-1\\1&2&-1\\-3&4&1\end{bmatrix}\).
+a) \(\begin{bmatrix}-200&0&-24\\24&-32&-24\\-72&96&-56\end{bmatrix}\) 
+b) \(\begin{bmatrix}-200&0&-24\\24&-32&-12\\-72&96&-56\end{bmatrix}\) 
+c) \(\begin{bmatrix}-200&0&-24\\12&-32&-24\\-72&96&-56\end{bmatrix}\) 
+d) \(\begin{bmatrix}-100&0&-12\\12&-16&-12\\-36&48&-28\end{bmatrix}\) 
+a
+A=\(\begin{bmatrix}5&0&-1\\1&2&-1\\-3&4&1\end{bmatrix}\) 
+The characteristic polynomial is given by-
+α3-(Sum of diagonal elements) α2+(Sum of minor of diagonal element)α-|A|=0
+α3+2α2-12α-40=0
+The Cayley Hamilton’s Theorem states that every matrix satisfies its Characteristic Polynomial.
+Thus,
+A3+2A2-12A+40I=0
+A3+2A2=12A-40I
+A3+2A2=\(12\begin{bmatrix}5&0&-1\\1&2&-1\\-3&4&1\end{bmatrix}-40\begin{bmatrix}1&0&0\\0&1&0\\0&0&1\end{bmatrix}\) 
+A3+2A2=\(\begin{bmatrix}-60-40&0&-12\\12&24-40&-12\\-36&48&12-40\end{bmatrix}\) 
+A3+2A2=\(\begin{bmatrix}-100&0&-12\\12&-16&-12\\-36&48&-28\end{bmatrix}\) 
+2A3+4A2=\(\begin{bmatrix}-200&0&-24\\24&-32&-24\\-72&96&-56\end{bmatrix}\).
+5. Find the value of A3-3A2-28A, A = \(\begin{bmatrix}-1&2&8\\-2&3&0\\-4&5&1\end{bmatrix}\).
+a) \(\begin{bmatrix}80&-126&-504\\126&-172&-63\\252&-316&-46\end{bmatrix}\) 
+b) \(\begin{bmatrix}80&-126&-504\\126&-172&-63\\252&-315&-46\end{bmatrix}\) 
+c) \(\begin{bmatrix}40&-126&-504\\126&-172&-63\\252&-315&-46\end{bmatrix}\) 
+d) \(\begin{bmatrix}40&-126&-504\\126&-172&-63\\252&-316&-46\end{bmatrix}\) 
+b
+A=\(\begin{bmatrix}-1&2&8\\-2&3&0\\-4&5&1\end{bmatrix}\) 
+The characteristic polynomial is given by-
+α3-(Sum of diagonal elements) α2+(Sum of minor of diagonal element)α-|A|=0
+α3-3α2+35α-17=0
+The Cayley Hamilton’s Theorem states that every matrix satisfies its Characteristic Polynomial.
+Thus,
+A3-3A2+35A-17I=0
+On performing long division (α3-3α2+35α-17)/(α2-7α)
+Q=α+4 and R=63α-17
+Using division properties,
+α3-3α2+35α-17=(α2-7α)×(α+4)+(63α-17)
+α3-3α2+35α-17=(α3-3α2-28α)+( 63α-17)
+0=(α3-3α2-28α)+(63α-17) ————— (From Characteristic Polynomial)
+(α3-3α2-28α) = -63α+17
+(A3-3A2-28A) = -63A+17I
+(A3-3A2-28A) = \(-63\begin{bmatrix}-1&2&8\\-2&3&0\\-4&5&1\end{bmatrix}+17\begin{bmatrix}1&0&0\\0&1&0\\0&0&1\end{bmatrix}\) 
+(A3-3A2-28A)=\(\begin{bmatrix}63+17&-126&-504\\126&17-189&-63\\252&-315&17-63\end{bmatrix}\) 
+(A3-3A2-28A)=\(\begin{bmatrix}80&-126&-504\\126&-172&-63\\252&-315&-46\end{bmatrix}\).
+Sanfoundry Global Education & Learning Series – Linear Algebra.
+To practice all areas of Linear Algebra, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Algebra Questions and Answers – Eigenvalues and Vectors of a Matrix» Next - Linear Algebra Questions and Answers – Diagonalization Powers of a Matrix 

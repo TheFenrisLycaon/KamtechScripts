@@ -1,0 +1,68 @@
+1. Boot loader consists of __________ number of components.
+a) 4 components
+b) 2 components
+c) 3 components
+d) 5 components
+c
+–>	Target MCU
+–>	Master programmer
+–>	Data source.
+2. All silicon labs SiMxxxxx MCUs with Flash memory are self-programmable.
+a) True
+b) False
+a
+3. If the device is programmed with a bootloader, the application image is loaded in _________ interface.
+a) UART
+b) USB
+c) SPI
+d) I2C
+b
+4. Application/s that provide to test the bootloader functionality.
+a) Blinky_Fast and B.inky-Medium
+b) Only Blinky_slow
+c) Only Blinky_Fast
+d) Blinky_Fast and Blinky_Slow
+d
+–>	Blinky_Fast
+–>	Blinky_Slow.
+5. _________ command should be performed to very that the firmware image is Blinky_fast.
+a) Query
+b) Reset
+c) Upload
+d) Download
+a
+6. Which switch should be pressed to perform all commands?
+a) Up switch
+b) Push
+c) Down switch
+d) Reset switch
+d
+7. DFU stands for Device Firmware Update.
+a) True
+b) False
+a
+8. When is DEVICE_Init called?
+a) Upload
+b) Reset
+c) Download
+d) Query
+b
+9. DEVICE_Init performs what?
+a) Disabling watchdog timer and disabling APB clock
+b) Enabling APB clock and enabling watchdog timer
+c) Disabling watchdog timer and enabling APB clock
+d) Disabling APB clock and enabling watchdog timer
+c
+–>	Disables the watchdog timer and enables the APB clock
+–>	Determines the amount of Flash and RAM in the device
+–>	Check all internal and external automatic trigger sources.
+10. DEVICE_Restore routine restores all the device registers modified by DEVICE_Init to their reset values.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – IOT.
+To practice all areas of IOT, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - IOT Questions and Answers – Analysing Sensor Data» Next - IOT Questions and Answers – Bootstrapping 

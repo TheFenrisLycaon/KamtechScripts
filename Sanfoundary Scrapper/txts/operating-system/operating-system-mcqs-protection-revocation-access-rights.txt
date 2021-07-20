@@ -1,0 +1,73 @@
+1. What are the incorrect methods of revocation of access rights?
+a) Immediate/Delayed
+b) Selective/General
+c) Partial/total
+d) Crucial
+d
+2. Why is it difficult to revoke capabilities?
+a) They are too many
+b) They are not defined precicely
+c) They are distributed throughout the system
+d) None of the mentioned
+c
+3. What is the reacquisition scheme to revoke capability?
+a) When a process capability is revoked then it won’t be able to reacquire it
+b) Pointers are maintained for each object which can be used to revoke
+c) Indirect pointing is done to revoke object’s capabilities
+d) Master key can be used compare and revoke.
+a
+4. What is false regarding Back-Pointers scheme to revoke capability?
+a) List of pointers is maintained with each object
+b) When revocation is required these pointers are followed
+c) This scheme is not adopted in MULTICS system
+d) These point to all capabilities associated with that object
+c
+5. What is true about Indirection to revoke capability?
+a) Capabilities point indirectly to the objects
+b) Each capability will not have a unique entry in global
+c) Table entries cannot be reused for other capabilities
+d) This system was adopted in MULTICS system
+a
+6. How can Keys be defined or replaced?
+a) create [keyname] [bits] 
+b) set-key
+c) Key
+d) MAKE [Key Name] 
+b
+7. What are the characteristics of the Hydra system?
+a) It consists of known access rights and interpreted by the system
+b) A user can of protection system can declare other rights
+c) Hydra system is not flexible
+d) Hydra doesn’t provide rights amplification
+a
+8. What are the characteristics of rights amplification in Hydra?
+a) This scheme allows a procedure to be certified as trustworthy
+b) Amplification of rights cannot be stated explicitly in declaration
+c) It includes kernel rights such as read
+d) All of the mentioned
+a
+9. What is the problem of mutually suspicious subsystem?
+a) Service program can steal users data
+b) Service program can malfunction and retain some rights of data provided by user
+c) Calling program can get access to restricted portion from service program
+d) Calling program gets unrestricted access
+b
+10. What are the characteristics of Cambridge CAP system as compared to Hydra system?
+a) It is simpler and less powerful than hydra system
+b) It is more powerful than hydra system
+c) It is powerful than hydra system
+d) It is not as secure as Hydra system
+a
+11. What are the two capabilities defined in CAP system?
+a) data & software capability
+b) address & data capability
+c) hardware & software capability
+d) software capability
+a
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions & Answers – Protection – Memory Protection» Next - Operating System Questions & Answers – Distributed Operating System 

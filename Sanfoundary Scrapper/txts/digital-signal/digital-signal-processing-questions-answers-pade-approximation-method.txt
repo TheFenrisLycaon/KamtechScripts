@@ -1,0 +1,80 @@
+1. Which of the following techniques of designing IIR filters do not involve the conversion of an analog filter into digital filter?
+a) Bilinear transformation
+b) Impulse invariance
+c) Approximation of derivatives
+d) None of the mentioned
+b
+2. Using which of the following methods, a digital IIR filter can be directly designed?
+a) Pade approximation
+b) Least square design in time domain
+c) Least square design in frequency domain
+d) All of the mentioned
+d
+3. What is the number of parameters that a filter consists of?
+a) M+N+1
+b) M+N
+c) M+N-1
+d) M+N-2
+a
+4. The minimization of ε involves the solution of a set of non-linear equations.
+a) True
+b) False
+a
+5. What should be the upper limit of the solution to match h(n) perfectly to the desired response hd(n)?
+a) L
+b) L+1
+c) L-1
+d) L+2
+c
+6. For how many values of the impulse response, a perfect match is present between h(n) and hd(n)?
+a) L
+b) M+N+1
+c) 2L-M-N-1
+d) All of the mentioned
+d
+7. The degree to which the design technique produces acceptable filter designs depends in part on the number of filter coefficients selected.
+a) True
+b) False
+a
+8. According to this method of designing, the filter should have which of the following in large number?
+a) Only poles
+b) Both poles and zeros
+c) Only zeros
+d) None of the mentioned
+b
+9. Which of the following conditions are in the favor of Pade approximation method?
+a) Desired system function is rational
+b) Prior knowledge of the number of poles and zeros
+c) Desired system function is rational & Prior knowledge of the number of poles and zeros
+d) None of the mentioned
+c
+10. Which of the following filters will have an impulse response as shown in the below figure?
+a) Butterworth filters
+b) Type-I chebyshev filter
+c) Type-II chebyshev filter
+d) None of the mentioned
+a
+11. For what number of zeros, the approximation is poor?
+a) 3
+b) 4
+c) 5
+d) 6
+a
+12. Which of the following pairs of M and N will give a perfect match?
+a) 3,6
+b) 3,4
+c) 3,5
+d) 4,5
+d
+13. Which of the following filters will have an impulse response as shown in the below figure?
+a) Butterworth filters
+b) Type-I chebyshev filter
+c) Type-II chebyshev filter
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Frequency Transformations in the Digital Domain» Next - Digital Signal Processing Questions and Answers – Least Squares Design Methods 

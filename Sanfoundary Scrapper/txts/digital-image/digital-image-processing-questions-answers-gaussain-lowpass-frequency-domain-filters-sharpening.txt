@@ -1,0 +1,95 @@
+1.	If the Gaussian filter is expressed as H(u, v) = e(-D2 (u,v)/2D 02),where D(u, v) is the distance from point(u, v), D0  is the distance defining cutoff frequency, then for what value of D(u, v) the filter is down to 0.607 of its maximum value?
+a)	D(u, v) = D0
+b)	D(u, v) = D02
+c)	D(u, v) = D03
+d)	D(u, v) = 0
+a
+2.	State the statement as true or false. “The GLPF did produce as much smoothing as the BLPF of order 2 for the same value of cutoff frequency”.
+a)	True
+b)	False
+b
+3.	In general, which of the following assures of no ringing in the output?
+a)	Gaussian Lowpass Filter
+b)	Ideal Lowpass Filter
+c)	Butterworth Lowpass Filter
+d)	All of the mentioned
+a
+4.	The lowpass filtering process can be applied in which of the following area(s)?
+a)	The field of machine perception, with application of character recognition
+b)	In field of printing and publishing industry
+c)	In field of processing satellite and aerial images
+d)	All of the mentioned
+d
+5.	The edges and other abrupt changes in gray-level of an image are associated with_________
+a)	High frequency components
+b)	Low frequency components
+c)	Edges with high frequency and other abrupt changes in gray-level with low frequency components
+d)	Edges with low frequency and other abrupt changes in gray-level with high frequency components
+a
+6.	A type of Image is called as VHRR image. What is the definition of VHRR image?
+a)	Very High Range Resolution image
+b)	Very High Resolution Range image
+c)	Very High Resolution Radiometer image
+d)	Very High Range Radiometer Image
+c
+7.	The Image sharpening in frequency domain can be achieved by which of the following method(s)?
+a)	Attenuating the high frequency components
+b)	Attenuating the low-frequency components
+c)	All of the mentioned
+d)	None of the mentioned
+b
+8.	The function of filters in Image sharpening in frequency domain is to perform reverse operation of which of the following Lowpass filter?
+a)	Gaussian Lowpass filter
+b)	Butterworth Lowpass filter
+c)	Ideal Lowpass filter
+d)	None of the Mentioned
+c
+The transfer function of Highpass filter is obtained by relation: Hhp(u, v) = 1 – Hlp(u, v), where Hlp(u, v) is transfer function of corresponding lowpass filter.
+9.	If D0 is the cutoff distance measured from origin of frequency rectangle and D(u, v) is the distance from point(u, v). Then what value does an Ideal Highpass filter will give if D(u, v) ≤ D0 andifD(u, v) >D0?
+a)	0 and 1 respectively
+b)	1 and 0 respectively
+c)	1 in both case
+d)	0 in both case
+a
+10.	What is the relation of the frequencies to a circle of radius D0, where D0 is the cutoff distance measured from origin of frequency rectangle, for an Ideal Highpass filter?
+a)	IHPF sets all frequencies inside circle to zero
+b)	IHPF allows all frequencies, without attenuating, outside the circle
+c)	All of the mentioned
+d)	None of the mentioned
+c
+11.	Which of the following is the transfer function of the Butterworth Highpass Filter, of order n, D0 is the cutoff distance measured from origin of frequency rectangle and D(u, v) is the distance from point(u, v)?
+a)	
+b)	
+c)	
+d)	none of the mentioned
+a
+12.	Which of the following is the transfer function of the Ideal Highpass Filter? Given D0 is the cutoff distance measured from origin of frequency rectangle and D(u, v) is the distance from point(u, v).
+a)	
+b)	
+c)	
+d)	none of the mentioned
+b
+13.	Which of the following is the transfer function of the Gaussian Highpass Filter? Given D0 is the cutoff distance measured from origin of frequency rectangle and D(u, v) is the distance from point(u, v).
+a)	
+b)	
+c)	
+d)	none of the mentioned
+c
+14.	For a given image having smaller objects, which of the following filter(s), having D0 as the cutoff distance measured from origin of frequency rectangle, would you prefer for a comparably smoother result?
+a)	IHLF with D0 15
+b)	BHPF with D0 15 and order 2
+c)	GHPF with D0 15 and order 2
+d)	All of the mentioned
+c
+15.	Which of the following statement(s) is true for the given fact that “Applying Highpass filters has an effect on the background of the output image”?
+a)	The average background intensity increases to near white
+b)	The average background intensity reduces to near black
+c)	The average background intensity changes to a value average of black and white
+d)	All of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Piecewise-Linear Transformation Functions» Next - Digital Image Processing Questions and Answers – Elements of Visual Perception 

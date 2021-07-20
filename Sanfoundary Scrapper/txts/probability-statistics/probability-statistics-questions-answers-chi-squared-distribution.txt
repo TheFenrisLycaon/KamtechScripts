@@ -1,0 +1,145 @@
+1. A dice is tossed 120 times with the following results
+No. turned up
+1
+2
+3
+4
+5
+6
+Frequency
+30
+25
+18
+10
+22
+15
+Test the hypothesis that the dice is unbiased (X2 = 11.7). Calculate the frequency observed for Chi Square distribution.
+a) Dice is unbiased, 11.3
+b) Dice is biased, 12.9
+c) Dice is unbiased, 10.9
+d) Dice is biased, 12.3
+b
+Step 2: Calculation of Expected frequency:
+Since the dice is unbiased P(r) = 1/6.
+r = 1, 2, 3, 4, 5, 6
+Expected frequency f(r) = N*r = 120* 1/6 = 20
+Step3: Calculation of X2
+X2 \(=∑\frac{[(fe-fo)]^2}{fe} \) 
+Hence X2 = 12.90 > 11.90.
+Thus dice is biased.
+2. Consider a set of 18 samples from a standard normal distribution. We square each sample and sum all the squares. The number of degrees of freedom for a Chi Square distribution will be?
+a) 17
+b) 18
+c) 19
+d) 20
+b
+Here total number of standard normal derivatives = 18.
+Hence the number of degrees of freedom for a Chi Square distribution = 18. 
+3. What is the mean of a Chi Square distribution with 6 degrees of freedom?
+a) 4
+b) 12
+c) 6
+d) 8
+c
+Degrees of freedom = 6.
+Hence mean = 6.
+4. Which Chi Square distribution looks the most like a normal distribution?
+a) A Chi Square distribution with 4 degrees of freedom
+b) A Chi Square distribution with 5 degrees of freedom
+c) A Chi Square distribution with 6 degrees of freedom
+d) A Chi Square distribution with 16 degrees of freedom
+d
+5. A bag contains 80 chocolates. This bag has 4 different colors of chocolates in it. If all four colors of chocolates were equally likely to be put in the bag, what would be the expected number of chocolates of each color?
+a) 12
+b) 11
+c) 20
+d) 9
+c
+N = 80, r = 1/4
+ So, the expected frequency = N*r = (1/4)*(80) = 20. 
+6. Suppose a person has 8 red, 5 green, 12 orange, and 15 blue balls. Test the null hypothesis that the colors of the balls occur with equal frequency. What is the Chi Square value you get?
+a) 5.6
+b) 5.68
+c) 5.86
+d) 5.8
+d
+Observed frequency f0= (8+5+12+15)/4 = 10
+X2 =\(∑\frac{[(fe-fo)]^2}{fe} \) 
+The sum of each (expected – observed)2/expected = (10-8)2/10 + (10-5)2/10 + (10-12)2/10 + (10-15)2/10 = 5.8.
+7. A faculty is interested in whether there is a relationship between gender and subject at his college. He tabulated some men and women on campus and asked them if their subject was Mathematics (M), Geography (G), and Science (S). What would be the expected frequency of women in Geography based on this table? 
+ 
+M
+G
+S
+Total
+Women
+10
+14
+10
+34
+Men
+11
+22
+14
+23
+Total
+21
+36
+24
+57
+a) 31.12
+b) 11.32
+c) 12.13
+d) 13.12
+d
+8. In a sample survey of public opinion answer to the question:
+1) Do you drink?
+2) Are you in favor of local option sale of Liquor
+Yes
+No
+Total
+Yes
+56
+31
+87
+No
+18
+6
+24
+Total
+74
+37
+111
+Infer or not the local option on the sale of liquor is dependent on individual drinker? Find the value of X2 for degrees of freedom at level of significance 3.841.
+a) 0.957
+b) 0.975
+c) 0.759
+d) 0.795
+a
+Step 2: Calculation of theoretical frequencies (Expected)
+Expected frequency of (1,1) cell
+fe11 = 87*74/111 = 58
+fe12 = 87*37/111 = 29
+fe21 = 24*74/111 = 16
+fe22 = 24*32/111 = 8
+Step 3: calculation of X2 distribution we know that
+X2 =\( ∑\frac{[(fe-fo)]^2}{fe} \) 
+X2 = 0.957 < 3.841.
+Hence the null hypothesis is accepted
+Thus the sale of liquor does not depend on the individual drinker.
+9. The Variance of Chi Squared distribution is given as k.
+a) True
+b) False
+b
+10. Which of these distributions is used for a testing hypothesis?
+a) Normal Distribution
+b) Chi-Squared Distribution
+c) Gamma Distribution
+d) Poisson Distribution
+b
+Sanfoundry Global Education & Learning Series – Probability and Statistics.
+To practice all areas of Probability and Statistics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Probability and Statistics Questions and Answers – Sampling Distribution of Proportions» Next - Probability and Statistics Questions and Answers – F-Distribution 

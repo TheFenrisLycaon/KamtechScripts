@@ -1,0 +1,72 @@
+1. Assume that an image f(x, y) is sampled so that the result has M rows and N columns. If the values of the coordinates at the origin are (x, y) = (0, 0), then the notation (0, 1) is used to signify :
+a)	Second sample along first row
+b)	First sample along second row
+c)	First sample along first row
+d)	Second sample along second row
+a
+2. The resulting image of sampling and quantization is considered a matrix of real numbers. By what name(s) the element of this matrix array is called __________
+a)	Image element or Picture element
+b)	Pixel or Pel
+c)	All of the mentioned
+d)	None of the mentioned
+c
+3. Let Z be the set of real integers and R the set of real numbers. The sampling process may be viewed as partitioning the x-y plane into a grid, with the central coordinates of each grid being from the Cartesian product Z2, that is a set of all ordered pairs (zi, zj), with zi and zj being integers from Z. Then, f(x, y) is said a digital image if:
+a)	(x, y) are integers from Z2 and f is a function that assigns a gray-level value (from Z) to each distinct pair of coordinates (x, y)
+b)	 (x, y) are integers from R2 and f is a function that assigns a gray-level value (from R) to each distinct pair of coordinates (x, y)
+c)	(x, y) are integers from R2 and f is a function that assigns a gray-level value (from Z) to each distinct pair of coordinates (x, y)
+d)	(x, y) are integers from Z2 and f is a function that assigns a gray-level value (from R) to each distinct pair of coordinates (x, y)
+d
+4. Let Z be the set of real integers and R the set of real numbers. The sampling process may be viewed as partitioning the x-y plane into a grid, with the central coordinates of each grid being from the Cartesian product Z2, that is a set of all ordered pairs (zi, zj), with zi and zj being integers from Z. Then, f(x, y) is a digital image if (x, y) are integers from Z2 and f is a function that assigns a gray-level value (that is, a real number from the set R) to each distinct coordinate pair (x, y). What happens to the digital image if the gray levels also are integers?
+a)	The Digital image then becomes a 2-D function whose coordinates and amplitude values are integers
+b)	The Digital image then becomes a 1-D function whose coordinates and amplitude values are integers
+c)	The gray level can never be integer
+d)	None of the mentioned
+a
+5. The digitization process i.e. the digital image has M rows and N columns, requires decisions about values for M, N, and for the number, L, of gray levels allowed for each pixel. The value M and N have to be:
+a)	M and N have to be positive integer
+b)	M and N have to be negative integer
+c)	M have to be negative and N have to be positive integer
+d)	M have to be positive and N have to be negative integer
+a
+6. The digitization process i.e. the digital image has M rows and N columns, requires decisions about values for M, N, and for the number, L, of max gray levels. There are no requirements on M and N, other than that M and N have to be positive integer. However, the number of gray levels typically is
+a)	An integer power of 2 i.e. L = 2k
+b)	A Real power of 2 i.e. L = 2k
+c)	Two times the integer value i.e. L = 2k
+d)	None of the mentioned
+a
+7. The digitization process i.e. the digital image has M rows and N columns, requires decisions about values for M, N, and for the number, L, of max gray levels is an integer power of 2 i.e. L = 2k, allowed for each pixel. If we assume that the discrete levels are equally spaced and that they are integers then they are in the interval __________ and Sometimes the range of values spanned by the gray scale is called the ________ of an image.
+a)	[0, L – 1] and static range respectively
+b)	[0, L / 2] and dynamic range respectively
+c)	[0, L / 2] and static range respectively
+d)	[0, L – 1] and dynamic range respectively
+d
+8. After digitization process a digital image with M rows and N columns have to be positive and for the number, L, max gray levels i.e. an integer power of 2 for each pixel. Then, the number b, of bits required to store a digitized image is:
+a)	b=M*N*k
+b)	b=M*N*L
+c)	b=M*L*k
+d)	b=L*N*k
+a
+9. An image whose gray-levels span a significant portion of gray scale have __________ dynamic range while an image with dull, washed out gray look have __________ dynamic range.
+a)	Low and High respectively
+b)	High and Low respectively
+c)	Both have High dynamic range, irrespective of gray levels span significance on gray scale
+d)	Both have Low dynamic range, irrespective of gray levels span significance on gray scale
+b
+10. Validate the statement “When in an Image an appreciable number of pixels exhibit high dynamic range, the image will have high contrast.”
+a)	True
+b)	False
+a
+11. In digital image of M rows and N columns and L discrete gray levels, calculate the bits required to store a digitized image for M=N=32 and L=16.
+a)	16384
+b)	4096
+c)	8192
+d)	512
+b
+For L=16, k=4.
+i.e. b=4096.
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Basics Of Image Sampling & Quantization» Next - Digital Image Processing Questions and Answers – Image Sampling and Quantization 

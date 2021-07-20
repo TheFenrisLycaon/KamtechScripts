@@ -1,0 +1,66 @@
+1. The biggest advantage of mock objects over in-container testing is that mocks don’t require a ________ container in order to execute tests.
+a) Running
+b) Closed
+c) Open
+d) Static
+a
+2. ___________ contains helper classes for ant properties.
+a) org.apache.tools.ant.property
+b) org.apache.tools.ant.types
+c) org.apache.tools.ant.util
+d) org.apache.tools.ant.taskdefs
+a
+3. ____________ is the interface to a class to get a property in apache ant.
+a) ParseNextProperty
+b) PropertyExpander
+c) GetProperty
+d) LocalProperties
+c
+4. ___________ is a thread local class containing local properties.
+a) ParseNextProperty
+b) PropertyExpander
+c) GetProperty
+d) LocalProperties
+d
+5. ___________ is the class to resolve properties in a map.
+a) LocalPropertyStack
+b) ResolvePropertyMap
+c) NullReturn
+d) ParseProperties
+b
+6. ___________ parses properties using a collection of expanders.
+a) LocalPropertyStack
+b) ResolvePropertyMap
+c) NullReturn
+d) ParseProperties
+d
+7. _________ is a class to represent a null and to stop the chain of lookups.
+a) LocalPropertyStack
+b) ResolvePropertyMap
+c) NullReturn
+d) ParseProperties
+c
+8. ________________ interface is used by ant attributes.
+a) EnableAttribute
+b) PropertyExpander
+c) GetProperty
+d) LocalProperties
+a
+9. _____________ class is used to indicate that the XML namespace (URI) can be used to look for namespace attributes.
+a) AttributeNamespace
+b) BaseIfAttribute
+c) IfBlankAttribute
+d) IfSetAttribute
+a
+10. ____________ is an abstract class for if/unless attributes.
+a) AttributeNamespace
+b) BaseIfAttribute
+c) IfBlankAttribute
+d) IfSetAttribute
+b
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice basic questions and answers on all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Maven Surefire» Next - JUnit Questions and Answers – Continuous Integration 

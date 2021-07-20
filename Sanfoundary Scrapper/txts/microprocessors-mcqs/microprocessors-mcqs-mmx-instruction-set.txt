@@ -1,0 +1,85 @@
+1. The additional instructions that are designed especially for performing multimedia tasks are known as
+a) additional MMX instructions
+b) multimedia MMX instructions
+c) enhanced MMX instructions
+d) none of the mentioned
+c
+2. The MMX instruction, EMMS consists of __________ on which it operates.
+a) source operand
+b) destination operand
+c) source and destination operand
+d) none of the mentioned
+d
+3. In all the MMX instructions, the destination operand resides in
+a) Memory
+b) RAM
+c) Either in an MMX register or in memory
+d) MMX register
+d
+4. For the MMX instructions, the prefix, P, is used to represent the mode of
+a) real addressing mode
+b) virtual mode
+c) packed mode
+d) programmable mode
+c
+5. For the MMX instructions, the suffix, S, is used to represent
+a) status
+b) saturation
+c) signed saturation
+d) unsigned saturation
+c
+6. The instruction that is used for quadword is
+a) PADD
+b) PCMPEQ
+c) PAND
+d) None of the mentioned
+d
+7. The instruction, PSUBB, performs subtraction in
+a) packed word
+b) packed byte
+c) packed double word
+d) unpacked word
+b
+8. The instruction, PCMPGT, is used to compare two data types and check
+a) equal to condition
+b) less than condition
+c) greater than condition
+d) equal to and greater than condition
+c
+9. The instruction that is not operated on quad word is
+a) MOV
+b) PSLL
+c) PSRA
+d) All of the mentioned
+c
+10. When the instruction, PMULLW, is performed, then the lower order 16-bits of the 32 bit products are stored in
+a) source operand
+b) destination operand
+c) no storage of lower order
+d) either source or destination
+b
+11. When the instruction, PMULHW, is performed, then the higher order 16-bits of the 32 bit products are stored in
+a) source operand
+b) destination operand
+c) no storage of lower order
+d) either source or destination
+b
+12. The instruction in which both multiplication and addition are performed is
+a) PAND
+b) PMULHW
+c) PADD
+d) PMADDWD
+d
+13. If the result of PCMPEQ, which is a comparison of two packed data types, is a success, then the mask generated is
+a) mask 0s
+b) mask 1s
+c) mask 2s
+d) mask 3s
+b
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – MMX Data Types, Wrap-around and Saturation Arithmetic, Multimedia Application Programming, Pentium III (P-III) CPU» Next - Microprocessors Questions and Answers – Pentium – Pro and Pentium-II -1 

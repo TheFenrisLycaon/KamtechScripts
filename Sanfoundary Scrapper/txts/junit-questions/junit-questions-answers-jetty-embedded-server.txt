@@ -1,0 +1,73 @@
+1. _________________ is an existing defect in the system which does not cause any failure.
+a) Latent defect
+b) Redundancy
+c) Failure
+d) Exit Cause
+a
+2. ________________ are set of documents, tools and other components that has to be developed and maintained in support of testing.
+a) Test Functions
+b) Test Deliverables
+d) Test Solutions
+c) Test Mechanisms
+b
+3. ______________ is a technique to identify whether a set of test data is useful by intentionally introducing various code changes (bugs).
+a) Unit Testing
+b) Stress Testing
+c) Load Testing
+d) Mutation Testing
+d
+4. Mutation testing is a form of ______________
+a) Black Box Testing
+b) Redundancy
+c) White Box Testing
+d) Loss Testing
+c
+5. Mutation score = _____________ / total number of mutants
+a) Number of mutants killed
+b) Number of mutants not killed
+c) Total number of mutants
+d) Total number of live mutants
+a
+5. For a mutant to be killed, the test must __________ the mutated statement.
+a) Overlook
+b) Ignore
+c) Limit
+d) Reach
+d
+6. Input data from the test must __________ the program state by causing different program states for the mutant and the original program.
+a) Reach
+b) Infect
+c) Kill
+d) Destroy
+b
+7. The incorrect program state must __________ to the program’s output and be checked by the test.
+a) Reach’
+b) Infect
+c) Propagate
+d) Limit
+c
+8. Mutation Testing follows the ____________ model.
+a) RIP
+b) KISS
+c) RUN
+d) GOD
+a
+9. The ____________ hypothesis states that most software faults are due to small syntactic errors.
+a) Coupling effect
+b) Competent programmer
+c)  Higher-order mutation
+d) Equivalent mutation
+b
+Answer: The competent programmer hypothesis is one of the basis of mutation testing.
+10. The ______________ asserts that simple faults can cascade to form other emergent faults.
+a) Coupling effect
+b) Competent programmer
+c) Higher-order mutation
+d) Equivalent mutation
+a
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Stubbing an HTTP Connection» Next - JUnit Questions and Answers – Stubbing a Web Server’s Resources 

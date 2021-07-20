@@ -1,0 +1,80 @@
+1. The context free languages are closed under:
+a) Intersection
+b) Complement
+c) Kleene
+d) None of the mentioned
+c
+2. Given Grammar G1:
+S->aSb
+S->e
+Grammar G2:
+R->cRd
+R->e
+If L(G)=L(G1) U L(G2), the number of productions the new starting variable would have:
+a) 2
+b) 3
+c) 4
+d) 1
+a
+T->S|R
+S->aSb
+S->e
+R->cRd
+R->e
+3. Context free languages are not closed under:
+a) Intersection
+b) Intersection with Regular Language
+c) Complement
+d) All of the mentioned
+d
+4. Which of the following is incorrect?
+There exists algorithms to decide if:
+a) String w is in CFL L
+b) CFL L is empty
+c) CFL L is infinite
+d) All of the mentioned
+d
+5. If the start symbol is one of those symbols which produce no terminal through any sequence, the CFL is said to be
+a) nullable
+b) empty
+c) eliminated
+d) none of the mentioned
+b
+6. Using the pumping constant n, If there is a string in the language of length between _____ and ____ then the language is infite else not.
+a) n, 2n-1
+b) 2n, n
+c) n+1, 3n+6
+d) 0, n+1
+a
+7. Which of the following is/are CFL not closed under?
+a) Reverse
+b) Homomorphism
+c) Inverse Homomorphism
+d) All of the mentioned
+d
+8. If L1 and L2 are context free languages, L1-L2 are context free:
+a) always
+b) sometimes
+c) never
+d) none of the mentioned
+c
+9. A___________ is context free grammar with atmost one non terminal in the right handside of the production.
+a) linear grammar
+b) linear bounded grammar
+c) regular grammar
+d) none of the mentioned
+a
+S → aSb
+S → ε
+10. There is a linear grammar that generates a context free grammar
+a) always
+b) never
+c) sometimes
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Pumping Lemma for Context Free Language» Next - Automata Theory Questions and Answers –  CFL- Other Normal Forms 

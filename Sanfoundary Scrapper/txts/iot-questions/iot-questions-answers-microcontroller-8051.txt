@@ -1,0 +1,101 @@
+1. What do you mean by micro in microcontroller?
+a) Distance between 2 IC’s
+b) Distance between 2 transistors
+c) Size of a controller
+d) Distance between 2 pins
+b
+2. What is the bit size of the 8051 microcontroller?
+a) 8-bit
+b) 4-bit
+c) 16-bit
+d) 32-bit
+a
+3. Name the architecture and the instruction set for microcontroller?
+a) Van- Neumann Architecture with CISC Instruction Set
+b) Harvard Architecture with CISC Instruction Set
+c) Van- Neumann Architecture with RISC Instruction Set
+d) Harvard Architecture with RISC Instruction Set
+b
+4. Number of I/O ports in the 8051 microcontroller?
+a) 3 ports
+b) 4 ports
+c) 5 ports
+d) 4 ports with last port having 5 pins
+b
+5. Is ROM is used for storing data storage?
+a) True
+b) False
+b
+6. SCON in serial port is used for which operation?
+a) Transferring data
+b) Receiving data
+c) Controlling
+d) Controlling and transferring
+c
+7. Program counter stores what?
+a) Address of before instruction
+b) Address of the next instruction
+c) Data of the before execution to be executed
+d) Data of the execution instruction
+b
+8. Auxiliary carry is set during which condition?
+a) When carry is generated from D3 to D4
+b) When carry is generated from D7
+c) When carry is generated from both D3 to D4 and D7
+d) When carry is generated at either D3 to D4 or D7
+a
+9. What is order of the assembly and running 8051 program?
+i) Myfile.asm
+ii) Myfile.lst
+iii) Myfile.obj
+iv) Myfile.hex
+a) i,ii,iii,iv
+b) ii,iii,I,iv
+c) iv,ii,I,iii
+d) iii,ii,I,iv
+a
+10. The use of Address Latch Enable is to multiplex address and data memory.
+a) True
+b) False
+a
+11. Which pin provides a reset option in 8051?
+a) Pin 1
+b) Pin 8
+c) Pin 11
+d) Pin 9
+d
+12. External Access is used to permit ____________
+a) Peripherals
+b) Power supply
+c) ALE
+d) Memory interfacing
+d
+13. What is the address range of SFRs?
+a) 80h to feh
+b) 00h to ffh
+c) 80h to ffh
+d) 70h to 80h
+c
+14. How many interrupts are there in micro controller?
+a) 3
+b) 6
+c) 4
+d) 5
+d
+Timer 0 overflow interrupt
+Timer 1 overflow interrupt
+External Interrupt 0
+External Interrupt 1
+Serial port events.
+15. Timer 0 is a ________ bit register.
+a) 32-bit
+b) 8-bit
+c) 16-bit
+d) 10-bit
+c
+Sanfoundry Global Education & Learning Series – IOT.
+To practice all areas of IOT, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - IOT Questions and Answers – LPC 2148 Pro Development Board» Next - IOT Questions and Answers – Microcontroller (8051- Pin, Registers, Timers) 

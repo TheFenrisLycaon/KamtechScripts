@@ -1,0 +1,69 @@
+1. Which of these keywords are used to implement synchronization?
+a) synchronize
+b) syn
+c) synch
+d) synchronized
+d
+2. Which keyword is used for using the synchronization features defined by the Monitor class?
+a) lock
+b) synchronized
+c) monitor
+d) locked
+a
+3. What is synchronization in reference to a thread?
+a) It’s a process of handling situations when two or more threads need access to a shared resource
+b) It’s a process by which many threads are able to access the same shared resource simultaneously
+c) It’s a process by which a method is able to access many different threads simultaneously
+d) It’s a method that allows too many threads to access any information they require
+a
+4. Which method is called when a thread is blocked from running temporarily?
+a) Pulse()
+b) PulseAll()
+c) Wait()
+d) Both Pulse() & Wait()
+c
+5. What kind of exception is being thrown if Wait(), Pulse() or PulseAll() is called from code that is not within synchronized code?
+a) System I/O Exception
+b) DivideByZero Exception
+c) SynchronizationLockException
+d) All of the mentioned
+c
+6. What is mutex?
+a) a mutually exclusive synchronization object
+b) can be acquired by more than one thread at a time
+c) helps in sharing of resource which can be used by one thread
+d) all of the mentioned
+a
+7. What is Semaphore?
+a) Grant more than one thread access to a shared resource at the same time
+b) Useful when a collection of resources is being synchronized
+c) Make use of a counter to control access to a shared resource
+d) All of the mentioned
+d
+8. Which method is used to abort thread prior to it’s normal execution?
+a) sleep()
+b) terminate()
+c) suspend()
+d) Abort()
+d
+ public void Abort()
+Abort() causes a ThreadAbortException to be thrown to the thread on which Abort() is called. This exception causes the thread to terminate.
+9. Which of these statements is incorrect?
+a) By multithreading CPU idle time is minimized, and we can take maximum use of it
+b) By multitasking CPU idle time is minimized, and we can take maximum use of it
+c) Two thread in Csharp can have same priority
+d) A thread can exist only in two states, running and blocked
+d
+10. What is multithreaded programming?
+a) It’s a process in which two different processes run simultaneously
+b) It’s a process in which two or more parts of same process run simultaneously
+c) It’s a process in which many different process are able to access same information
+d) It’s a process in which a single process can access information from many sources
+b
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all areas of C# for Interviews, here is complete set on 1000+ Multiple Choice Questions and Answers on C#.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Multithreaded Programming – 1» Next - C# Question & Answers – Iterators 

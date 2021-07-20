@@ -1,0 +1,92 @@
+This Section of our 1000+ Java MCQs focuses on Character and Boolean Datatypes of Java Programming Language.
+1. What is the numerical range of a char data type in Java?
+a) -128 to 127
+b) 0 to 256
+c) 0 to 32767
+d) 0 to 65535
+d
+2. Which of these coding types is used for data type characters in Java?
+a) ASCII
+b) ISO-LATIN-1
+c) UNICODE
+d) None of the mentioned
+c
+3. Which of these values can a boolean variable contain?
+a) True & False
+b) 0 & 1
+c) Any integer value
+d) true
+a
+4. Which of these occupy first  0 to 127 in Unicode character set used for characters in Java?
+a) ASCII
+b) ISO-LATIN-1
+c) None of the mentioned
+d) ASCII and ISO-LATIN1
+d
+5. Which one is a valid declaration of a boolean?
+a) boolean b1 = 1;
+b) boolean b2 = ‘false’;
+c) boolean b3 = false;
+d) boolean b4 = ‘true’
+c
+6. What will be the output of the following Java program?
+    class array_output {        public static void main(String args[])         {                char array_variable [] = new char[10];	    for (int i = 0; i < 10; ++i) {                array_variable[i] = 'i';                System.out.print(array_variable[i] + "" );                i++;            }        }     }
+a) i i i i i
+b) 0 1 2 3 4
+c) i j k l m
+d) None of the mentioned
+a
+output:
+$ javac array_output.java
+$ java array_output
+i i i i i
+7. What will be the output of the following Java program?
+    class mainclass {        public static void main(String args[])         {            char a = 'A';            a++;	    System.out.print((int)a);        }     }
+a) 66
+b) 67
+c) 65
+d) 64
+a
+output:
+$ javac mainclass.java
+$ java mainclass
+66
+8. What will be the output of the following Java program?
+    class mainclass {        public static void main(String args[])         {            boolean var1 = true;	    boolean var2 = false;	    if (var1)	        System.out.println(var1);	    else	        System.out.println(var2);       }     }
+a) 0
+b) 1
+c) true
+d) false
+c
+output:
+$ javac mainclass.java
+$ java mainclass
+true
+9. What will be the output of the following Java code?
+    class booloperators {        public static void main(String args[])         {            boolean var1 = true;	    boolean var2 = false;	    System.out.println((var1 & var2));        }     }
+a) 0
+b) 1
+c) true
+d) false
+d
+output:
+$ javac booloperators.java
+$ java booloperators
+false
+10. What will be the output of the following Java code?
+    class asciicodes {        public static void main(String args[])         {            char var1 = 'A';	    char var2 = 'a';	    System.out.println((int)var1 + " " + (int)var2);        }     }
+a) 162
+b) 65 97
+c) 67 95
+d) 66 98
+b
+output:
+$ javac asciicodes.java
+$ java asciicodes
+65 97
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Integer and Floating Data Types» Next - Java Questions & Answers – Data Type-Enums 

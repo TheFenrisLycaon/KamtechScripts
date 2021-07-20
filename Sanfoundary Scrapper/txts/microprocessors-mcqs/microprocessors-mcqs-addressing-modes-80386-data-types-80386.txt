@@ -1,0 +1,76 @@
+1. Which of the following is not a scale factor of addressing modes of 80386?
+a) 2
+b) 4
+c) 6
+d) 8
+c
+2. Contents of an index register are multiplied by a scale factor that may be added further to get the operand offset in
+a) base scaled indexed mode
+b) scaled indexed mode
+c) indexed mode
+d) none of the mentioned
+b
+3. Contents of an index register are multiplied by a scale factor and then added to base register to get the operand offset in
+a) base scaled indexed mode
+b) scaled indexed mode
+c) indexed mode
+d) none of the mentioned
+a
+4. In the based scaled indexed mode with displacement mode, the contents of an index register are multiplied by a scale factor and are added to
+a) base register
+b) displacement
+c) base register and displacement
+d) none of the mentioned
+c
+5. The following statement of ALP is an example of
+	MOV EBX, [EDX*4] [ECX].
+a) base scaled indexed mode
+b) scaled indexed mode
+c) indexed mode
+d) based scaled indexed mode with displacement mode
+a
+6. The following statement is an example of
+	MOV EBX, LIST [ESI*2].
+	MUL ECX, LIST [EBP*4].
+a) base scaled indexed mode
+b) scaled indexed mode
+c) indexed mode
+d) based scaled indexed mode with displacement mode
+b
+7. Bit field can be defined as a group of
+a) 8 bits
+b) 16 bits
+c) 32 bits
+d) 64 bits
+c
+8. The maximum length of the string in a bit string of contiguous bits is
+a) 2 MB
+b) 4 MB
+c) 2 GB
+d) 4 GB
+d
+9. The integer word is defined as
+a) signed 8-bit data
+b) unsigned 16-bit data
+c) signed 16-bit data
+d) signed 32-bit data
+c
+10. A 16-bit displacement that references a memory location using any of the addressing modes is
+a) Pointer
+b) Character
+c) BCD
+d) Offset
+d
+11. A decimal digit can be represented by
+a) unsigned integer
+b) signed integer
+c) unpacked BCD
+d) packed BCD
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Register Organisation of 80386 -2» Next - Microprocessors Questions and Answers – Real Address Mode of 80386, Protected Mode of 80386 

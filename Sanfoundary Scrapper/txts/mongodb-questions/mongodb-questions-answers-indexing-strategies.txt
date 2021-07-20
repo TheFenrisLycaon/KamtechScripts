@@ -1,0 +1,61 @@
+1. _________ operations that use an index often have better performance than those that do not use an index.
+a) Select
+b) Update
+c) Delete
+d) Sort
+d
+2. Point out the wrong statement.
+a) The query scans the index and the collection
+b) An index supports a query when the index contains all the fields scanned by the query
+c) Creating indexes that support queries results in greatly increased query performance
+d) None of the mentioned
+a
+3. A prefix of a _______ index is a subset that consists of one or more keys at the start of the index key pattern.
+a) unique
+b) primary
+c) compound
+d) none of the mentioned
+b
+4. Sort operations that do not use an index will abort when they use _______ megabytes of memory.
+a) 16
+b) 32
+c) 64
+d) All of the mentioned
+b
+5. Point out the correct statement.
+a) If you only ever query on a single key in a given collection, then you need to create just multikey index for that collection
+b) If you sometimes query on only one key and at other times query on that key combined with a second key, then creating a compound index is more efficient than creating a single-key index
+c) The choice between creating compound indexes that support your queries or relying on index intersection is independent of specifics of your system
+d) None of the mentioned
+b
+6. An index can support sort operations on a non-prefix subset of the index key pattern using _________ condition.
+a) predicate
+b) selection
+c) equality
+d) none of the mentioned
+c
+7. __________ method provides a wrapper around the totalIndexSize output of the collStats (i.e. db.collection.stats()) operation.
+a) db.collection.totalallIndexSize()
+b) db.collection.totalIndexSizeAll()
+c) db.collection.totalIndexSize()
+d) all of the mentioned
+c
+8. Indexes do not have to fit entirely into ______ in all cases.
+a) ROM
+b) RAM
+c) Secondary Storage
+d) None of the mentioned
+a
+9. ________ is the ability of a query to narrow results using the index.
+a) Causality
+b) Cardinality
+c) Selectivity
+d) All of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Text Search» Next - MongoDB Questions and Answers – Indexing Methods 

@@ -1,0 +1,70 @@
+1. For fluid flows, which expression does not characterize the slow flow of a viscous and incompressible fluid in a closed domain?
+a) v.∇v=0
+b) μ≠0
+c) =0
+d) =0
+d
+Slow (inertial effects are negligible): v.∇v=0.
+Viscous: μ≠0.
+Incompressible: =0.
+It is not a uniform flow; thus, ≠0.
+2. In mathematical modeling, for which option, a fluid flow can be approximated by a two-dimensional model?
+a) One of the dimensions is very small, and there is some flow along with it
+b) One of the dimensions is very long, and there is no flow along with it
+c) One of the dimensions is very long, and there is some flow along with it
+d) The velocity components in two directions vary along the third direction
+b
+3. For fluid flows obeying conservation of mass, what is the value of k if v=4x+ky denotes the velocity at any point in the flow?
+a) -4
+b) 4
+c) -2
+d) 2
+a
+Using the conservation of mass, we get  \(\frac{\partial (4x)}{\partial x}+\frac{\partial (ky)}{\partial y}\)=0
+4+k=0
+K=-4.
+4. The following equation represents the momentum equation for a fluid flow that is approximated by a two-dimensional model. What does k stand for?
+ ρ\(\frac{\partial v_x}{\partial t}-\frac{\partial}{\partial x}(2k\frac{\partial v_x}{\partial x})-\frac{\partial}{\partial y}[k(\frac{\partial v_x}{\partial y}+\frac{\partial v_y}{\partial x})]+\frac{\partial P}{\partial x}\)-fx=0
+a) Thermal conductivity
+b) Fluid viscosity
+c) Density
+d) Pressure
+b
+5. If a finite element model involves the natural and direct formulation of momentum and continuity equations, then it is known as the velocity-pressure formulation or mixed formulation.
+a) True
+b) False
+a
+6. In the formulation of the finite element model for fluids flows, which option is not correct about the penalty formulation?
+a) The continuity equation is an additional relation among the velocity components
+b) The constraint is satisfied in an approximate sense
+c) Uses the penalty function method
+d) Involves natural and direct formulation of momentum and continuity equations
+d
+7. Consider the unsteady flow of a viscous fluid squeezed between two horizontal parallel plates, as shown in the following figure. The flow is induced by the uniform motion of the plates toward each other. What are the boundary conditions at the boundary ‘b’ of the domain if vx, vyare the velocity components?
+a) vy≠0 and vx≠0
+b) vy=0 and vx≠0
+c) vy≠0 and vx=0
+d) vy=0 and vx=0
+b
+8. Consider the unsteady flow of a viscous fluid squeezed between two horizontal parallel plates, as shown in the following figure. The flow is induced by the uniform motion of the plates toward each other. What are the boundary conditions at the boundary ‘a’ of the domain if vx, vyare the velocity components?
+a) vy=-V0 and vx=0
+b) vy=-V0 and vx≠0
+c) vy=V0 and vx=0
+d) vy=V0 and vx≠0
+a
+9. Which statement is not true regarding the variables present in the viscous ﬂow problems?
+a) Velocity components are zero on ﬁxed walls
+b) Shear stress is zero along the line of symmetry
+c) Vertical velocity component vy and horizontal stress tx must be zero along the horizontal line of symmetry
+d) Shear stress is non zero along the line of symmetry
+d
+10. Considering the problem of (linear) bending of beams according to the Euler-Bernoulli beam theory, if the beam is in equilibrium, then solving the equations governing the equilibrium of the Euler-Bernoulli beam is equivalent to minimizing the total potential energy.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Plane Elasticity – Assembly, Boundary and Initial Conditions» Next - Finite Element Method Questions and Answers – Velocity – Pressure Finite Element Model 

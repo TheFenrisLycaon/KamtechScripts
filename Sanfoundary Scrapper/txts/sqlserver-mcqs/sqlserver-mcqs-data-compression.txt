@@ -1,0 +1,89 @@
+1. Which of the following compression type is supported by SQL Server 2014?
+a) Row
+b) Column
+c) Both row and column
+d) None of the mentioned
+c
+2. Point out the correct statement.
+a) The details of data compression are subject to change without notice in service packs or subsequent releases
+b) Compression is not available for system tables
+c) If you specify a list of partitions or a partition that is out of range, an error will be generated
+d) All of the mentioned
+d
+3. Use _________ data compression to compress columnstore data with archival compression.
+a) COLUMNSTOREARCHIVE
+b) COLUMNSTORE_ARCHIVE
+c) COLUMNSTORE
+d) All of the mentioned
+b
+4. To remove archival compression and restore the data to columnstore compression _____________
+a) Use ALTER TABLE
+b) Use ALTER COLUMN
+c) Use ALTER DATABASE
+d) All of the mentioned
+a
+5. Point out the wrong statement.
+a) You can enable or disable ROW or PAGE compression in online state only
+b) When you are compressing indexes, leaf-level pages can be compressed with both row and page compression
+c) Non–leaf-level pages do not receive page compression
+d) None of the mentioned
+a
+6. The data_compression and data_compression_desc columns include ___________
+a) COLUMNSTOREARCHIVE
+b) COLUMNSTORE_ARCH
+c) COLUMNSTORE
+d) None of the mentioned
+c
+7. Which of the following code is used to enable compression on a table?
+a)
+EXEC sp_estimate_compression_savings 'Production', 'TransactionHistory', NULL, NULL, 'ROW' ;
+ 
+ALTER TABLE Production.TransactionHistory REBUILD PARTITION = ALL
+WITH (DATA_COMPRESSION = ROW);
+b)
+EXEC sp_estimate_compression_savings 'Production', 'TransactionHistory', NULL, NULL, 'ROW' ;
+ 
+ALTER TABLE Production.TransactionHistory REBUILD PARTITION = ALL
+WITH (DATA_COMPRESSION = ROW);
+c)
+EXEC sp_estimate_compression_savings 'Production', 'TransactionHistory', NULL, NULL, 'ROW' ;
+ 
+ALTER TABLE Production.TransactionHistory BUILD PARTITION = ALL
+WITH (DATA_COMPRESSION = ROW);
+d)
+EXEC sp_estimate_compression 'Production', 'TransactionHistory', NULL, NULL, 'ROW' ;
+ 
+ALTER TABLE Production.TransactionHistory REBUILD PARTITION = ALL
+WITH (DATA_COMPRESSION = ROW);
+a
+8. What is the purpose of schema name in the following code syntax?
+sp_estimate_data_compression_savings 
+     [ @schema_name = ] 'schema_name'  
+   , [ @object_name = ] 'object_name' 
+   , [@index_id = ] index_id 
+   , [@partition_number = ] partition_number 
+   , [@data_compression = ] 'data_compression' 
+[;]
+a) Name of the table
+b) Name of the database schema
+c) Name of the indexed view
+d) All of the mentioned
+b
+9. sp_estimate_data_compression_savings requires ______ permission on the table.
+a) UPDATE
+b) SELECT
+c) DELETE
+d) None of the mentioned
+b
+10. Which of the following query estimates the size of the Production.WorkOrderRouting table if it is compressed by using ROW compression?
+a) EXEC sp_estimate_data_compression_savings ‘Production’, ‘WorkOrderRouting’, NULL, NULL, ‘ROW’ ;
+b) EXEC sp_estimate_data_compression_savings ‘Production’, ‘WorkOrderRouting’, NULL, 1, ‘ROW’ ;
+c) EXEC sp_estimate_data_compression_savings ‘Production’, ‘WorkOrderRouting’, 1, NULL, ‘ROW’ ;
+d) EXEC sp_estimate_data_compression_savings ‘Production’, ‘WorkOrderRouting’, NULL, NULL, ‘COLUMN’ ;
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Working With Transaction Log» Next - SQL Server Questions and Answers – Partitioning 

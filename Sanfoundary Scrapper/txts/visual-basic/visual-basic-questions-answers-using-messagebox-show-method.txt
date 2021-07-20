@@ -1,0 +1,70 @@
+1. An application communicates with the user through __________
+a) DialogBox
+b) AlertBox
+c) MessageBox
+d) AlertDialog
+c
+2. One can display a message box using the __________ method.
+a) MessageBox
+b) AlertBox.View
+c) MessageBox.show
+d) MessageBox.Show
+d
+3. Which is the caption part for the following Visual Basic command?
+MessageBox.Show("Delete this record?","Payroll",MessageBoxButtons.YesNo,
+MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button2).
+a) “Delete this record?”
+b) “Payroll”
+c) MessageBoxButtons.YesNo
+d) MessageBoxIcon.Exclamation
+b
+MessageBox.Show (text, caption, buttons, icon, [defaultButton])
+The caption is given as the second component in the syntax. In the above statement, the second component is the “payroll”, thus it is the caption.
+4. When referring to the method’s return value in code, one should use the __________ value rather than the integer.
+a) DoubleReturn
+b) BooleanResults
+c) charResult
+d) DialogResult
+d
+5. You use the __________ constant to include the Exclamation icon in a message box.
+a) MessageBox.exclamation
+b) MessageBox.Iconexclamation
+c) MessageBoxIcon.Exclamation
+d) MessageBoxWarning.Icon
+c
+6. The text box’s __________ event procedure prevents user from entering a specified character.
+a) KeyPress
+b) check
+c) checkchar
+d) checkinput
+a
+7. A control’s KeyPress event occurs every time __________
+a) The user selects the text area
+b) The user submits the information in the text area
+c) The user types a character in the text area
+d) The user taps the enter key
+c
+8. The procedure associated with the KeyPress event has __________ parameters.
+a) 2
+b) 3
+c) 4
+d) 1
+a
+9. ‘e’ parameter’s __________ property is used to determine the pressed key.
+a) Keypress
+b) KeyChar
+c) Keychar
+d) Key.Char
+b
+10. ‘e’ parameter’s __________ property is used to cancel the key if not accepted in the text area.
+a) Remove
+b) RemoveChar
+c) Handled
+d) handled
+c
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Adding a GroupBox to the Form and Using Financial.Pmt Method» Next - Visual Basic Questions and Answers – Interface Design – Adding a Radio Button & Check Box to the Form 

@@ -1,0 +1,77 @@
+1. Which of the following is called Bar-Hillel lemma?
+a) Pumping lemma for regular language
+b) Pumping lemma for context free languages
+c) Pumping lemma for context sensitive languages
+d) None of the mentioned
+b
+2. Which of the expressions correctly is an requirement of the pumping lemma for the context free languages?
+a) uvnwxny
+b) uvnwnxny
+c) uv2nwx2ny
+d) All of the mentioned
+b
+t=uvwxy
+|vx|>0
+|vwx|<=n
+For any m>=0, uvnwxny ∈ L
+3.Let L be a CFL. Then there is an integer n so that for any u that belong to language L satisfying
+|t|>=n, there are strings u, v, w, x, y and z satisfying
+t=uvwxy.
+Let p be the number of variables in CNF form of the context free grammar. The value of n in terms of p :
+a) 2p
+b) 2p
+c) 2p+1
+d) p2
+c
+4. Which of the following gives a positive result to the pumping lemma restrictions and requirements?
+a) {aibici|i>=0}
+b) {0i1i|i>=0}
+c) {ss|s∈{a,b}*}
+d) None of the mentioned
+b
+Join [email protected]
+5. Using pumping lemma, which of the following cannot be proved as ‘not a CFL’?
+a) {aibici|i>=0}
+b) {ss|s∈{a,b}*}
+c) The set legal C programs
+d) None of the mentioned
+d
+6. State true or false:
+Statement: We cannot use Ogden’s lemma when pumping lemma fails.
+a) true
+b) false
+b
+7. Which of the following cannot be filled in the blank below?
+Statement: There are CFLs L1 nad L2 so that ___________is not a CFL.
+a) L1∩L2
+b) L1′
+c) L1*
+d) None of the mentioned
+c
+a) Union
+b) Concatenation
+c) Kleene 
+8. The pumping lemma is often used to prove that a language is:
+a) Context free
+b) Not context free
+c) Regular
+d) None of the mentioned
+b
+9. What is the pumping length of string of length x?
+a) x+1
+b) x
+c) x-1
+d) x2
+a
+10. Which of the following does not obey pumping lemma for context free languages ?
+a) Finite languages
+b) Context free languages
+c) Unrestricted languages
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory for Campus Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Chomsky Normal Form» Next - Automata Theory Questions and Answers –  CFL- Closure Properties/Decision Properties 

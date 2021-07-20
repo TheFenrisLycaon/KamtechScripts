@@ -1,0 +1,67 @@
+1. ______ expressions ignores the duplicate entries in each input array and the order of the elements.
+a) set
+b) boolean
+c) aggregate
+d) none of the mentioned
+a
+2. Point out the correct statement.
+a) To avoid parsing ambiguity if the argument is a literal array, you must wrap the literal array in a $lits expression or keep the outer array that designates the argument list
+b) Expressions cannot include field paths and system variables, literals, expression objects, and expression operators
+c) Operator expressions are similar to functions that take arguments
+d) All of the mentioned
+c
+3. ________ returns true if the input sets have the same distinct elements.
+a) $setUnion
+b) $setDifference
+c) $setEquals
+d) None of the mentioned
+c
+4. Which of the following accepts any number of argument expression?
+a) $setIntersection
+b) $setDifference
+c) $setEquals
+d) None of the mentioned
+a
+5. Point out the wrong statement.
+a) Boolean expressions evaluate their argument expressions as booleans and return a boolean as the result
+b) In addition to the false boolean value, Boolean expression evaluates as false the following: null, 0, and undefined values
+c) Set expressions performs set operation on arrays, treating arrays as sets
+d) None of the mentioned
+d
+6. ________ returns a set with elements that appear in any of the input sets.
+a) $setIntersection
+b) $setDifference
+c) $setEquals
+d) $setUnion
+d
+7. Which of the following performs a relative complement of the second set relative to the first?
+a) $setIntersection
+b) $setDifference
+c) $setEquals
+d) $setUnion
+a
+8. $setIsSubset	returns _______ if all elements of the first set appear in the second set, including when the first set equals the second set.
+a) Null
+b) True
+c) False
+d) None of the mentioned
+c
+9. _______ accepts only single argument expression.
+a) $setIsSubset
+b) $bool
+c) $anyElementTrue
+d) None of the mentioned
+c
+10. $allElementsTrue returns true if no element of a set evaluates to ____________
+a) false
+b) true
+c) 0
+d) 1
+a
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Aggregation Mechanics» Next - MongoDB Questions and Answers – Pipeline Limits 

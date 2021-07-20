@@ -1,0 +1,90 @@
+1. Q meter operator is the principle of __________
+a) Series resonance
+b) Current resonance
+c) Self-inductance
+d) Eddy currents
+a
+From the above relation, we can say that it works on series resonance.
+2. In a Q Meter, the values of tuning capacitor are C3 and C4 for resonant frequencies f3 and 2f4 respectively. The value of distributed capacitance is?
+a) \(\frac{C_3-C_4}{2}\) 
+b) \(\frac{C_3-2C_4}{3}\) 
+c) \(\frac{C_3-4C_4}{3}\) 
+d) \(\frac{C_3-3C_4}{2}\) 
+c
+The main error in the measurement of Q is due to the distribution. To check for this, the Q value is measured at two frequencies f1 and 2f2. It should be same, if not then, \(\frac{C_3-4C_4}{3}\).
+3. A circuit tuned to a frequency of 1.5 MHz and having an effective capacitance of 150 pF. In this circuit, the current falls to 70.7 % of its resonant value. The frequency deviates from the resonant frequency by 5 kHz. Q factor is?
+a) 50
+b) 100
+c) 150
+d) 200
+c
+Here, f = 1.5 × 106 Hz
+f1 = (1.5 × 106 – 5 × 103)
+f2 = (1.5 × 106 + 5 × 103)
+So, f2 – f1 = 10 × 103 Hz
+Q = \(\frac{1.5 × 10^6}{10 × 10^3}\) = 150.
+4. A circuit tuned to a frequency of 1.5 MHz and having an effective capacitance of 150 pF. In this circuit, the current falls to 70.7 % of its resonant value. The deviates from the resonant frequency are 5 kHz. Effective resistance of the circuit is?
+a) 2 Ω
+b) 3 Ω
+c) 5.5 Ω
+d) 4.7 Ω
+d
+Here, f = 1.5 × 106 Hz
+f1 = (1.5 × 106 – 5 × 103)
+f2 = (1.5 × 106 + 5 × 103)
+So, f2 – f1 = 10 × 103 Hz
+R = \(\frac{10 × 10^3}{2π(1.5 × 10^6)^2 L}\) 
+R = 4.7 Ω.
+5. Q Meter is used to measure _________
+a) Q factor of an inductive coil
+b) Only the effective resistance
+c) Only bandwidth
+d) Q factor of an inductive coil, the effective resistance, and bandwidth
+d
+6. Q factor of a coil measured by the Q Meter is _________ the actual Q of the coil.
+a) Equal to
+b) Same but somewhat lesser than
+c) Same but somewhat higher than
+d) Not equal to
+b
+7. Consider a circuit consisting of two capacitors C1 and C2. Let R be the resistance and L be the inductance which are connected in series. Let Q1 and Q2 be the quality factor for the two capacitors. While measuring the Q value by the Series Connection method, the value of the Q factor is?
+a) Q = \(\frac{(C_1 – C_2 ) Q_1 Q_2}{Q_1 C_1 – Q_2 C_2}\) 
+b) Q = \( \frac{(C_2 – C_1 ) Q_1 Q_2}{Q_1 C_1 – Q_2 C_2}\) 
+c) Q = \( \frac{(C_1 – C_2 ) Q_1 Q_2}{Q_2 C_2 – Q_1 C_1}\) 
+d) Q = \( \frac{(C_2 – C_1 ) C_1 C_2}{Q_1 C_1 – Q_2 C_2}\) 
+a
+XS = \(\frac{C_1-C_2}{ωC_1 C_2 }\), RS = \(\frac{Q_1 C_1 – Q_2 C_2}{ωC_1 C_2 Q_1 Q_2}\) 
+QX = \(\frac{X_S}{R_S}  = \frac{(C_1- C_2) Q_1 Q_2}{Q_1 C_1-Q_2 C_2}\).
+8. Consider a circuit consisting of two capacitors C1 and C2. Let R be the resistance and L be the inductance which are connected in series. Let Q1 and Q2 be the quality factor for the two capacitors. While measuring the Q value by the Parallel Connection method, the value of the Q factor is?
+a) Q = \(\frac{(C_1 – C_2 ) Q_1 Q_2}{Q_1 C_1 – Q_2 C_2}\) 
+b) Q = \(\frac{(C_2 – C_1 ) Q_1 Q_2}{Q_1 C_1 – Q_2 C_2}\) 
+c) Q = \(\frac{(C_1 – C_2 ) Q_1 Q_2}{Q_2 C_2 – Q_1 C_1}\) 
+d) Q = \(\frac{(C_2 – C_1 ) C_1 C_2}{Q_1 C_1 – Q_2 C_2}\) 
+b
+Q = \(\frac{(C_2 – C_1 ) Q_1 Q_2}{Q_1 C_1 – Q_2 C_2}\).
+9. Consider the following statements regarding the sources of error in a Q Meter.
+i) If a coil with a resistance R is connected in the direct measurement mode and
+If the residual resistance of the Q Meter is 0.1 R, 
+Then the measured Q of the coil would be 1.1 times the actual Q.
+ii) If the inductance to be measured is less than 0.1 μH.
+The error due to the presence of residual inductance cannot be neglected.
+iii) The presence of a distributed capacitance modifies the effective Q of the coil.
+Which of the above statements are correct?
+a) i, ii and iii
+b) i and ii
+c) ii and iii
+d) i and iii
+c
+With Q Meter resistance considered, the measured or indicated Q is 1/1.11 times the actual Q. Thus, statement (i) is incorrect. Hence, statements (ii) and (iii) are correct. 
+10. The function of the Q- Meter is to _________
+a) Measure capacitance
+b) Measure inductance
+c) Measure quality factor of capacitor and inductor
+d) Measure form factor of capacitor and inductor
+c
+Sanfoundry Global Education & Learning Series – Electrical Measurements.
+To practice all areas of Electrical Measurements, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Electrical Measurements Questions and Answers – Qmeter» Next - Electrical Measurements Questions and Answers – Oscilloscope 

@@ -1,0 +1,66 @@
+1. Trigger is special type of __________ procedure.
+a) Stored
+b) Function
+c) View
+d) Table
+a
+2. Point out the correct statement.
+a) Triggers are database object
+b) Three types of triggers are present in SQL Server
+c) A DDL trigger is an action programmed to execute when a data manipulation language (DML) event occurs in the database server
+d) None of the mentioned
+a
+3. How many types of triggers are present in SQL Server?
+a) 4
+b) 5
+c) 8
+d) 9
+a
+4. How many types of DML triggers are present in SQL Server?
+a) 1
+b) 3
+c) 5
+d) None of the mentioned
+d
+5. Point out the wrong statement.
+a) We can have an INSTEAD OF insert/update/delete trigger on a table that successfully executed
+b) DML Triggers are used to evaluate data after data manipulation using DML statements
+c) INSTEAD OF triggers cause their source DML operation to skip
+d) AFTER triggers cause their source DML operation to skip
+d
+6. AFTER trigger in SQL Server can be applied to _________________
+a) Table
+b) Views
+c) Table and Views
+d) Function
+c
+7. DML triggers in SQL Server is applicable to _____________
+a) Insert
+b) Update
+c) Delete
+d) All of the mentioned
+d
+8. Triggers created with FOR or AFTER keywords is _____________
+a) AFTER
+b) INSTEAD OF
+c) CLR
+d) All of the mentioned
+a
+9. Which of the following is not a typical trigger action?
+a) Insert
+b) Select
+c) Delete
+d) All of the mentioned
+b
+10. Triggers can be enabled or disabled with the ________ statement.
+a) ALTER TABLE statement
+b) DROP TABLE statement
+c) DELETE TABLE statement
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – User Defined Functions – 2» Next - SQL Server Questions and Answers – DDL Triggers 

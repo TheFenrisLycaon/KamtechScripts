@@ -1,0 +1,60 @@
+1. The main memory is structured into modules each with its own address register called ______
+a) ABR
+b) TLB
+c) PC
+d) IR
+a
+2. When consecutive memory locations are accessed only one module is accessed at a time.
+a) True
+b) False
+a
+3. In memory interleaving, the lower order bits of the address is used to _____________
+a) Get the data
+b) Get the address of the module
+c) Get the address of the data within the module
+d) None of the mentioned
+b
+4. The number successful accesses to memory stated as a fraction is called as _____
+a) Hit rate
+b) Miss rate
+c) Success rate
+d) Access rate
+a
+5. The number failed attempts to access memory, stated in the form of a fraction is called as _________
+a) Hit rate
+b) Miss rate
+c) Failure rate
+d) Delay rate
+b
+6. In associative mapping during LRU, the counter of the new block is set to ‘0’ and all the others are incremented by one, when _____ occurs.
+a) Delay
+b) Miss
+c) Hit
+d) Delayed hit
+b
+7. In LRU, the referenced blocks counter is set to’0′ and that of the previous blocks are incremented by one and others remain same, in the case of ______
+a) Hit
+b) Miss
+c) Delay
+d) None of the mentioned
+a
+8. If hit rates are well below 0.9, then they’re called as speedy computers.
+a) True
+b) False
+b
+9. The extra time needed to bring the data into memory in case of a miss is called as __________
+a) Delay
+b) Propagation time
+c) Miss penalty
+d) None of the mentioned
+c
+10. The miss penalty can be reduced by improving the mechanisms for data transfer between the different levels of hierarchy.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Computer Organisation and Architecture.
+To practice all areas of Computer Organisation and Architecture, Here is a complete set of 1000+ Multiple Choice Questions and Answers on Computer Organisation and Architecture
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Organization Questions and Answers – Mapping Functions» Next - Computer Organization Questions and Answers –  Single BUS Organisation – 1 

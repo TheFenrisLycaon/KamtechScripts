@@ -1,0 +1,62 @@
+1. To check if the data directory contains insecure files or directories, the command executed is _____________
+a) ls -l
+b) ls -a
+c) ls -la
+d) ls -lu
+c
+2. What enables the read and execute access to all users outside of mysql group.
+a) drwxrwxr-x
+b) drwxrwxr-y
+c) drwyrwyr-x
+d) drwyrwyr-y
+a
+3. The server uses a Unix domain socket file for connections by clients to localhost.
+a) True
+b) False
+a
+4. Which program is used as a utility for MyISAM table maintenance?
+a) innochecksum
+b) myisam_ftdump
+c) myisamchk
+d) myisamlog
+c
+5. What does the AUTO_INCREMENT sequences normally begin at?
+a) 0
+b) 1
+c) -1
+d) 2
+b
+6. How can the value of recently generated sequence number be obtained?
+a) LAST_INSERT_ID()
+b) LATEST_INSERT_ID()
+c) INITIAL_INSERT_ID()
+d) INSERT_ID()
+a
+7. What does LAST_INSERT_ID() return when no AUTO_INCREMENT value has been generated during the current connection?
+a) -1
+b) 0
+c) 1
+d) 2
+b
+8. Triggers are not supported for _____________
+a) delete
+b) update
+c) insert
+d) views
+d
+9. Triggers and events are not invoked automatically by the server.
+a) True
+b) False
+b
+10. How is a stored procedure invoked?
+a) INVOKE
+b) SEE
+c) CALL
+d) RETURN
+c
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice  all areas of MySQL for online tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Updating MySQL» Next - MySQL Questions and Answers – External Security: Preventing Unauthorized Network Access 

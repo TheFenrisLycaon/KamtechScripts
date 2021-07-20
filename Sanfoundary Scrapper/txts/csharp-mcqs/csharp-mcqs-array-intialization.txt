@@ -1,0 +1,104 @@
+1. What will be the output of the following C# code?
+static void Main(string[] args){    int i, j;    int[, ] arr = new int[ 3, 3];    for (i = 0; i < 3; ++i)    {        for (j = 0; j < 3; ++j)        {            arr[i, j] = i * 2 + i * 2;            Console.WriteLine(arr[i, j]);        }        Console.ReadLine();    }}
+a) 0, 0, 0  4, 4, 4  8, 8, 8
+b) 4, 4, 4  8, 8, 8   12, 12, 12
+c) 8, 8, 8  12, 12, 12  16, 16, 16
+d) 0, 0, 0  1, 1, 1  2, 2, 2
+a
+             for i = 0, j = 0, 0, 0, i = 1, j = 2, 2, 2.
+Output:
+0, 0, 0 4, 4, 4 8, 8, 8
+2. What will be the output of the following C# code?
+ static void Main(string[] args) {     char A = 'K';     char B = Convert.ToChar(76);     A++;     B++;     Console.WriteLine(A+ "  " +B);     Console.ReadLine(); }
+a) M L
+b) U L
+c) L M
+d) A B
+c
+Output:
+L, M.
+3. Complete the following C# code with “foreach condition”.
+int[][]a = new int[2][];a[0] = new int[3]{3, 4, 2};a[1] = new int[2]{8, 5};foreach( int[]i in a){/* add for loop */console.write( j+ " ");console.writeline();}
+a) foreach (int j = 1;(j(<)(a(0).GetUpperBound)); (j++));
+b) foreach (int j = 1;(j(<)(a.GetUpperBound(0))); (j++));
+c) foreach (int j in a.Length);
+d) foreach (int j in i);
+d
+4. What will be the output of the following C# code?
+static void Main(string[] args){    double a = 345.09;    byte c = (byte) a;    Console.WriteLine(c);    Console.ReadLine();}
+a) 98
+b) 89
+c) 88
+d) 84
+b
+Output :
+89
+5. Which statement is correct about following c#.NET code?
+int[] a= {11, 3, 5, 9, 6};
+a) ‘a’ is a reference to the array created on stack
+b) ‘a’ is a reference to an object created on stack
+c) ‘a’ is a reference to an object of a class that compiler drives from ‘System.Array’ class
+d) None of the mentioned
+c
+6. What is the advantage of using 2D jagged array over 2D rectangular array?
+a) Easy initialization of elements
+b) Allows unlimited elements as well as rows which had ‘0’ or are empty in nature
+c) All of the mentioned
+d) None of the mentioned
+b
+7. Which statement is correct about following C# code?
+int[, ]a={{5, 4, 3},{9, 2, 6}};
+a)’a’ represents 1-D array of 5 integers
+b) a.GetUpperBound(0) gives 9
+c)’a’ represents rectangular array of 2 columns and 3 arrays
+d) a.GetUpperBound(0) gives 2
+c
+8. What will be the output of the following C# code?
+static void Main(string[] args){    Program p = new Program();    p.display(2, 3, 8);    int []a = { 2, 56, 78, 66 };    Console.WriteLine("example of array");    Console.WriteLine("elements added are");    p.display(a);    Console.ReadLine();}public void display(params int[] b){    foreach (int i in b)    {        Console.WriteLine("ARRAY IS HAVING:{0}", i);    }}
+a) Compile time error
+b) Run time error
+c) Code runs successfully but prints nothing
+d) Code runs successfully and prints given on console
+d
+Output:
+        ARRAY IS HAVING:2
+        ARRAY IS HAVING:3
+        ARRAY IS HAVING:8
+        elements added are:
+        ARRAY IS HAVING:2
+        ARRAY IS HAVING:56
+        ARRAY IS HAVING:78
+        ARRAY IS HAVING:66
+9. Which is the correct way of defining and initializing an array of 3 integers?
+a) int[] a={78, 54};
+b)
+   int[] a;
+   a = new int[3];
+   a[1] = 78;
+   a[2] = 9;
+   a[3] = 54;
+c)
+   int[] a;
+   a = new int{78, 9, 54};
+d)
+   int[] a;
+   a = new int[3]{78, 9, 54};
+d
+10. Choose selective differences between an array in c# and array in other programming languages.
+a) Declaring array in C# the square bracket([]) comes after the type but not after identifier
+b) It is necessary to declare size of an array with its type
+c) No difference between declaration of array in c# as well as in other programming languages
+d) All of the mentioned
+a
+ example :
+int[] IntegerArray;
+ii. The size of the array is not part of its type as it is in the C language. This allows to declare an array and assign any array of int objects to it, regardless of the array’s length.
+    int[] IntegerArray; 
+    IntegerArray = new int[10]; 
+    IntegerArray = new int[50];
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Destructors in Class» Next - C# Questions & Answers – Basic Operation on Strings 

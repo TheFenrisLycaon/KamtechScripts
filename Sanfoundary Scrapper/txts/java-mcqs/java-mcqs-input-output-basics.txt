@@ -1,0 +1,75 @@
+1. What does AWT stands for?
+a) All Window Tools
+b) All Writing Tools
+c) Abstract Window Toolkit
+d) Abstract Writing Toolkit
+c
+2. Which of these is used to perform all input & output operations in Java?
+a) streams
+b) Variables
+c) classes
+d) Methods
+a
+3. Which of these is a type of stream in Java?
+a) Integer stream
+b) Short stream
+c) Byte stream
+d) Long stream
+c
+4. Which of these classes are used by Byte streams for input and output operation?
+a) InputStream
+b) InputOutputStream
+c) Reader
+d) All of the mentioned
+a
+5. Which of these classes are used by character streams for input and output operations?
+a) InputStream
+b) Writer
+c) ReadStream
+d) InputOutputStream
+b
+6. Which of these class is used to read from byte array?
+a) InputStream
+b) BufferedInputStream
+c) ArrayInputStream
+d) ByteArrayInputStream
+d
+7. What will be the output of the following Java program if input given is ‘abcqfghqbcd’?
+    class Input_Output    {        public static void main(String args[]) throws IOException        {	             char c;            BufferedReader obj = new BufferedReader(new InputStreamReader(System.in));            do            {                c = (char) obj.read();	        System.out.print(c);            } while(c != 'q');        }    }
+a) abcqfgh
+b) abc
+c) abcq
+d) abcqfghq
+c
+Output:
+$ javac Input_Output.java
+$ java Input_Output
+abcq
+8. What will be the output of the following Java program if input given is “abc’def/’egh”?
+    class Input_Output    {        public static void main(String args[]) throws IOException        {	             char c;            BufferedReader obj = new BufferedReader(new InputStreamReader(System.in));            do             {                c = (char) obj.read();	        System.out.print(c);            } while(c!='\'');        }    }
+a) abc’
+b) abcdef/’
+c) abc’def/’egh
+d) abcqfghq
+a
+Output:
+$ javac Input_Output.java
+$ java Input_Output
+abc'
+9. What will be the output of the following Java program?
+    class output    {        public static void main(String args[])        {              StringBuffer c = new StringBuffer("Hello");             System.out.println(c.length());        }    }
+a) 4
+b) 5
+c) 6
+d) 7
+b
+Output:
+$ javac output.java
+$ java output
+5
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Creating Threads» Next - Java Questions & Answers – Reading Console Input 

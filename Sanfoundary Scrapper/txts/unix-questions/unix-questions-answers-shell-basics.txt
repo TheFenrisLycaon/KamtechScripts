@@ -1,0 +1,106 @@
+1. Shell provides us with an interface to the operating system.
+a) True
+b) False
+a
+2. On a UNIX system, there can be ____ shells running simultaneously.
+a) 1
+b) 2
+c) many
+d) 4
+c
+3. There can be multiple kernels on a single UNIX system.
+a) True
+b) False
+b
+4. The prompt issued by the shell is called ______
+a) prompt
+b) command translator
+c) command prompt
+d) command executor
+c
+5. In UNIX there are ___ major types of shells.
+a) 2
+b) 3
+c) 4
+d) many
+a
+•    Bourne shell
+•    C shell
+These two categories are further divided into subcategories.
+Bourne shell has the following subcategories:-
+•     Bourne shell (sh)
+•     Korn shell (ksh)
+•     Bourne Again shell (bash)
+•     POSIX shell (sh)
+C shell has the following subcategories:-
+•    C shell (csh)
+•    TENEX/TOPS C shell (tcsh)
+6. What is the default symbol for command prompt in Bourne shell?
+a) $
+b) %
+c) #
+d) @
+a
+7. What is the default symbol for command prompt in C shell?
+a) $
+b) %
+c) #
+d) @
+b
+8. Which one of the following command will display the name of the shell we are working on?
+a) echo shell
+b) echo $
+c) echo $SHELL
+d) echo $$
+c
+9. Which shell is the most common and best to use?
+a) Korn shell
+b) POSIX shell
+c) C shell
+d) Bash shell
+d
+10. Which command does not terminates unless we log out of the system?
+a) history
+b) shell
+c) echo
+d) login
+b
+11. In Shell’s interpretive cycle, the shell first scans for ____ in the entered command.
+a) characters
+b) priority
+c) meta-characters
+d) wildcards
+c
+12. Which of the following expression is a correct wildcard pattern if we want an expression in which the last character is not numeric?
+a) *[!0]              
+b) *[0-9]              
+c) [0-9]              
+d) *[!0-9]             
+d
+ *[!0]        // last characters should not be 0 in the expression
+ *[0-9]          // any expression where the last character is a numeric
+ [0-9]        // expression should only contains digits
+ *[!0-9]            // the last character should not be numeric in the expression
+13. The shell waits for the command to complete and normally can’t do any work while the command is executing.
+a) True
+b) False
+a
+14. Which of the following is/are true about Shell?
+a) Shell is a multi-faceted program
+b) Shell is a command interpreter
+c) Shell provides us with an environment to work in
+d) Shell is a multi-faceted, command interpreter and provides an environment to work in
+d
+15. To change the login shell in some system (like Linux) we can use ____ command.
+a) chshell
+b) chshl
+c) chsh
+d) ch
+c
+chsh  -s /bin/korn abd        //set user abd’s login shell to /bin/Korn
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – Commands for Searching, Replacing and Substituting in Vi Editor» Next - Unix  Questions and Answers – Pattern Matching, Escaping and Quoting – 1 

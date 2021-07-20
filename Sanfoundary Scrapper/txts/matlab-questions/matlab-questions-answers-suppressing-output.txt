@@ -1,0 +1,84 @@
+1. Graphs are not suppressed by the ‘;’.
+a) True
+b) False
+b
+2. What will be the output of the following code?
+close all;
+for x = 1.5 : .5 : 2;
+y=3; 
+x=y+3
+ clc
+end
+a) No value will be stored
+b) The result will be printed
+c) The result will be printed twice but no value will remain in the Workspace
+d) The loop will not run
+c
+Output:  x = 4.5
+         x = 5
+3. What will be the output of the following code?
+Join [email protected]
+for i = 1 :4: 5
+y=i+1
+clear i
+end
+a) y=5; i=2
+b) y=5, printed twice
+c) Loop will run once, y=2
+d) Infinite loop
+b
+Output:  y = 2
+         y = 6
+4. Clear will removes all graphs.
+a) True
+b) False
+b
+5. What will be the output of the following code?
+for i=1 : 3
+i=i-1
+end
+a) i will be printed thrice as 0,1,2 successively
+b) Infinite loop
+c) No output
+d) i=2
+a
+Output:	i = 0
+        i = 1
+        i = 2
+6. How can we close all graphs in MATLAB?
+a) Using the close command
+b) Using the clear all command
+c) Using the close all command
+d) Using the clear command
+b
+7. clc in a function will clear the function.
+a) True
+b) False
+b
+8. What will be the output of the following code?
+for i = 1 : 1
+p=i-1
+i=i+1;
+clc
+end
+a) i=2
+b) p will be printed
+c) Error
+d) Cannot be determined
+a
+9. ___________ will give a hint that the file is closed.
+a) Fopen
+b) Fclose
+c) Gclose
+d) clc
+b
+10. To delete one variable but not the entire workspace, we need to mention the variable name after the clear command.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Fine Tuning» Next - MATLAB Questions and Answers – Data Classes 

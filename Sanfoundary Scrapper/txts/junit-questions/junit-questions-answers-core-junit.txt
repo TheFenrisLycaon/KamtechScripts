@@ -1,0 +1,66 @@
+1. JUnit is used for what type of software testing for the Java language?
+a) Unit Testing
+b) Integration Testing
+c) Functional Testing
+d) System Testing
+a
+2. A JUnit Unit Test Case is compulsorily characterised by a/an known _______ and a/an expected _____
+a) output, input
+b) input, output
+c) variable, literal
+d) program, variable
+b
+3. To use JUnit in a project we need to add which JAR files on our test classpath?
+a) junit.jar
+b) hamcrest-core.jar
+c) junit.jar and hamcrest-core.jar
+d) java-junit.jar
+c
+4. What are fixtures in JUnit?
+a) Objects that specify when to run a test
+b) Fixed state of a set of objects used as a baseline for running tests
+c) Bundle of few test cases run together
+d) Date objects
+b
+5. JUnit test methods must compulsorily return what value?
+a) String
+b) int
+c) Object
+d) void
+d
+6. JUnit test files are written in files with which file extension?
+a) .junit
+b) .test
+c) .java
+d) .unit
+c
+7. What is the purpose of assertArrayEquals(“message”, A, B)?
+a) Checks that “message” is in both A and B
+b) Checks that “message” is in A but not B
+c) Checks that “message” is in B but not A
+d) Asserts the equality of the A and B arrays
+d
+8. Which annotation implies that a method is a JUnit test case?
+a) @junit
+b) @testcase
+c) @org.Test
+d) @org.junit.Test
+d
+9. What is a test runner?
+a) Used to execute the test file
+b) Defines the test file
+c) Used to write test cases
+d) Used to define annotations
+a
+10. Which methods cannot be tested by JUnit test class?
+a) public methods
+b) private methods
+c) protected methods
+d) methods with void return type
+b
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+» Next - JUnit Questions and Answers – Running Parameterized Tests 

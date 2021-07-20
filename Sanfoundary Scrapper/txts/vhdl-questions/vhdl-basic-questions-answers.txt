@@ -1,0 +1,103 @@
+1. What is the minimum number of NAND gates required to implement an EXOR gate?
+a) 2
+b) 3
+c) 4
+d) 5
+c
+2. Which of the following logic describes the EXOR gate?
+a) y <= ((not a) OR (not b)) AND ((not a) OR (not b));
+b) y <= ((not a) OR b) AND (a OR (not b))
+c) y <= ((not a) AND (not b)) OR ((not a) AND (not b));
+d) y <= ((not a) AND b) OR (a AND (not b));
+d
+3. What logic circuit is described by the following code?
+ARCHITECTURE gate OF my_gate IS
+BEGIN
+WITH ab SELECT
+y<= 0 WHEN “01” OR “10”;
+        1 WHEN OTHERS;
+END gate;
+a) NAND
+b) NOR
+c) EXOR
+d) EXNOR
+d
+4. Sometimes gates modeled with ________ modeling may behave differently.
+a) Dataflow
+b) Behavioral
+c) Structural
+d) Structural and Behavioral
+a
+5. The odd behavior of gates in dataflow modeling may be the result of ________
+a) Sequential statements
+b) Wrong logic definitions
+c) Concurrency
+d) Inappropriate assignments
+c
+6. Which of the following option represents a structural model for not gate?
+a)
+    Architecture not_gate OF my_func IS
+    BEGIN
+    x: IN STD_LOGIC;
+    y: OUT STD_LOGIC;
+    END not_gate;
+b)
+    Architecture not_gate OF my_func IS
+    BEGIN
+    x: IN STD_LOGIC;
+    y: OUT STD_LOGIC;
+    y<= NOT x;
+    END not_gate;
+c)
+   Architecture not_gate OF my_func IS
+    BEGIN
+   COMPONENT NOT IS
+   Port(  x: IN STD_LOGIC;
+   y: OUT STD_LOGIC);
+   END COMPONENT;
+    END not_gate;
+d)
+   Architecture not_gate OF my_func IS
+    BEGIN
+    COMPONENT not1 IS
+    PORT( x: IN STD_LOGIC;
+    y: OUT STD_LOGIC);
+    END COMPONENT;
+    END not_gate;
+d
+  
+7. In CPLD, there are many input switches arranged in a switch bank, if an AND gate is behaving oddly but could be the reason?
+a) Incorrect interconnections
+b) Concurrent execution of statements
+c) Mismatch of ports name and switches
+d) Wrong libraries included
+b
+8. For gates, which of the following modeling style will corresponds to shortest code?
+a) Behavioral
+b) Data flow
+c) Structural
+d) Both data flow and behavioral
+b
+9. Generally, structural modeling is used with another modeling style.
+a) True
+b) False
+a
+10. Which of the following doesn’t corresponds to NAND gate?
+a)
+y <= NOT( a AND b)
+b)
+y <= NOT a OR NOT b
+c)
+y <= NOT a AND NOT b
+d)
+   WITH ab SELECT
+    y <= 0 WHEN ”11”
+    1 WHEN OTHERS
+c
+  
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice basic questions and answers on all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Implementing Gates with Different Modelling – 1» Next - VHDL Questions and Answers – Implementing Sequential Circuits with VHDL 

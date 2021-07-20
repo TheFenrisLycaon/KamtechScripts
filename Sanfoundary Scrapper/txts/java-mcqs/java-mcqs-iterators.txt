@@ -1,0 +1,87 @@
+1. Which of these return type of hasNext() method of an iterator?
+a) Integer
+b) Double
+c) Boolean
+d) Collections Object
+c
+2. Which of these methods is used to obtain an iterator to the start of collection?
+a) start()
+b) begin()
+c) iteratorSet()
+d) iterator()
+d
+3. Which of these methods can be used to move to next element in a collection?
+a) next()
+b) move()
+c) shuffle()
+d) hasNext()
+a
+4. Which of these iterators can be used only with List?
+a) Setiterator
+b) ListIterator
+c) Literator
+d) None of the mentioned
+b
+5. Which of these is a method of ListIterator used to  obtain index of previous element?
+a) previous()
+b) previousIndex()
+c) back()
+d) goBack()
+b
+6. Which of these exceptions is thrown by remover() method?
+a) IOException
+b) SystemException
+c) ObjectNotFoundExeception
+d) IllegalStateException
+d
+7. What will be the output of the following Java program?
+    import java.util.*;    class Collection_iterators     {        public static void main(String args[])         {            ListIterator a = list.listIterator();                if(a.previousIndex()! = -1)                    while(a.hasNext())	                System.out.print(a.next() + " ");                else                   System.out.print("EMPTY");        }    }
+a) 0
+b) 1
+c) -1
+d) EMPTY
+d
+Output:
+$ javac Collection_iterators.java
+$ java Collection_iterators
+EMPTY
+8. What will be the output of the following Java program?
+    import java.util.*;    class Collection_iterators     {        public static void main(String args[])         {            LinkedList list = new LinkedList();            list.add(new Integer(2));            list.add(new Integer(8));            list.add(new Integer(5));            list.add(new Integer(1));            Iterator i = list.iterator();            Collections.reverse(list);	    while(i.hasNext())	        System.out.print(i.next() + " ");        }    }
+a) 2 8 5 1
+b) 1 5 8 2
+c) 2
+d) 2 1 8 5
+b
+Output:
+$ javac Collection_iterators.java
+$ java Collection_iterators
+1 5 8 2
+9. What will be the output of the following Java program?
+    import java.util.*;    class Collection_iterators     {        public static void main(String args[])         {            LinkedList list = new LinkedList();            list.add(new Integer(2));            list.add(new Integer(8));            list.add(new Integer(5));            list.add(new Integer(1));            Iterator i = list.iterator();            Collections.reverse(list);	    Collections.sort(list);            while(i.hasNext())	        System.out.print(i.next() + " ");        }    }
+a) 2 8 5 1
+b) 1 5 8 2
+c) 1 2 5 8
+d) 2 1 8 5
+c
+Output:
+$ javac Collection_iterators.java
+$ java Collection_iterators
+1 2 5 8
+10. What will be the output of the following Java program?
+    import java.util.*;    class Collection_iterators     {        public static void main(String args[])         {            LinkedList list = new LinkedList();            list.add(new Integer(2));            list.add(new Integer(8));            list.add(new Integer(5));            list.add(new Integer(1));            Iterator i = list.iterator();            Collections.reverse(list);	    Collections.shuffle(list);            i.next();            i.remove();            while(i.hasNext())	        System.out.print(i.next() + " ");        }    }
+a) 2 8 5
+b) 2 1 8
+c) 2 5 8
+d) 8 5 1
+b
+Output:
+$ javac Collection_iterators.java
+$ java Collection_iterators
+2 1 8
+(output will be different on your system)
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Collection Framework Overview» Next - Java Questions & Answers – Data Structures-Queue 

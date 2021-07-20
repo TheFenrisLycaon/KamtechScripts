@@ -1,0 +1,72 @@
+1. Which of the following represents Laplace transform of ramp signal?
+a) 1⁄S3
+b) 1⁄S2
+c) 1⁄S
+d) 1
+b
+Laplace transform can be found by:
+∫0∞r(t)e-stdt.
+2. What does this function represents?
+a) u (t)
+b) u (t-2)
+c) u (t+2)
+d) u (-t)
+b
+3. Laplace transform function f (t) is F(S), then how will you represent Laplace transform for differential of f (t)?
+a) S⁄F(S)
+b) F(S)
+c) S.F(S)
+d) F’(S)
+c
+4. How will you obtain a given function from unit step signals?
+f (t) = 1 for -1≤t≤1 
+0 otherwise
+a) u (t) – u (t+2)
+b) u (t+1) – u (t-1)
+c) u (t+1) + u(t-1)
+d) 2.u (t)
+b
+5. How will you represent given function?
+a) u (t)
+b) eat.u(t)
+c) e-at.u(t)
+d) eat.r(t)
+c
+6. Which of the following function is represented using a given condition?
+f (t) = 1 for t=0
+0 otherwise
+a) Step function
+b) Sine function
+c) Ramp function
+d) Impulse function
+d
+7. What is the result of the expression f(t)= u (t+2) – u (t-3)?
+a) f (t) = 1 for -2 ≤ t ≤ 3
+b) f (t) = 1 for 2 ≤ t ≤ 3
+c) f (t) = 1 for -2 ≤ t ≤ -1
+d) f (t) = 1 for -2 ≤ t ≤ 0
+a
+8. Transfer function of a system is given by 1/S. If system has a step input, what will be the output in time domain?(Function exist only for positive time value)
+a) Step signal
+b) Impulse signal
+c) Sinusoidal signal
+d) Ramp signal
+d
+9. Function f (t) has Laplace transform F(S). How will you represent Laplace transform of integral of f(t)?
+a) S.F(S)
+b) F(S)
+c) F(S2)
+d) F(S)⁄S
+d
+10. Which of the following represents Laplace transform of sinh(at)?
+a) a⁄(S2+a2)
+b) a⁄(S2-a2)
+c) S⁄(S2+a2)
+d) S⁄(S2-a2)
+b
+Sanfoundry Global Education & Learning Series – Instrumentation Transducers.
+To practice all areas of Instrumentation Transducers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Instrumentation Transducers Questions and Answers – Measurement of Errors» Next - Instrumentation Transducers Questions and Answers – Measurement of Current 

@@ -1,0 +1,63 @@
+1. Larger networks would prefer a full decentralization.
+a) True
+b) False
+b
+2. Which of these is not a type of session key?
+a) PIN-encrypting key
+b) File-encrypting key
+c) Session encrypting key
+d) Data encrypting key
+c
+3. Which session key is used for electronic funds transfer and point of sale applications?
+a) Data-encrypting key
+b) File-encrypting key
+c) PIN-encrypting key
+d) None of the mentioned
+c
+4. Sometimes a simple tag is introduced along with the session key. This tag has 8 bits. Which of the following options is wrong?
+a)  One bit indicates whether the key is a session key or a master key
+b) One bit indicates whether the key can be used for encryption
+c) Three bit indicates whether the key can be used for decryption
+d) Remaining bits are for future use
+c
+5. Hash Value = H = h(CV)
+Key Input = Km XOR H
+Ciphertext = E([Km XOR H],Ks)
+What is CV here?
+a) Cipher vector
+b) Current vector
+c) Control vector
+d) None of the mentioned
+c
+Join Sanfoundry@YouTube
+6. Which is the correct representation for session key recovery for the plain text?
+a) D ([Km XOR H], E([Km XOR H], Ks)
+b) D([Km XOR H],Ks)
+c) D ([Km XOR H], E([Km XOR H])
+d) None of the mentioned
+a
+7. Which of the following is required to find the session key?
+i) Control Vector
+ii) Master Key
+iii) Encrypted session Key
+a) i)
+b) i) and ii)
+c) i) and iii)
+d) i) ii) and iii)
+d
+8. “Meet in the middle attack” and “man in the middle attack” are the same.
+a) True
+b) False
+b
+9. “Meet in the middle attack” is an attack
+a) where the timing required for the attack via brute force is drastically reduced
+b) where the adversary uses 2 or more machines to decrypt thus trying to reduce the time
+c) where messages are intercepted and then either relayed or substituted with another message
+d) where cryptanalysis takes lesser time than the brute force decryption
+c
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography for aptitude tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Cryptography Questions and Answers – Symmetric Key Distribution – I» Next - Cryptography Questions and Answers – Public Keys and X.509 Certificates-I 

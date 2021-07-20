@@ -1,0 +1,67 @@
+1. Determine the full scale range for the input voltage if the resistance in series with meters are 1kΩ, 2kΩ, 47kΩ and full scale meter movement is 1mA in low voltage AC voltmeter?
+a) 1.0 to 7.48 Vrms
+b) 1.1 to 7.48 Vrms
+c) 1.2 to 7.48 Vrms
+d) 1.3 to 7.48 Vrms
+b
+ Vin(rms)|min = 1.1×R1/Io = (1.1×1kΩ)/1mA =1.1v.
+Vin(rms)|max =1.1×R1/ Io  =(1.1×6.8kΩ)/1mA = 7.48v.
+Thus, the full scale input voltage ranges from 1.1 to 7.48 Vrms.
+2. Determine the current through the diode, when the switch is in position 1, 2& 3. Assuming op-amps initially nulled.
+a) Io (LED) =4.01mA; Io (Zener) =4.01mA; Io (rectifier) =8.33mA
+b) Io (LED) =25mA; Io (Zener) =4.01mA; Io (rectifier) =4.01mA
+c) Io (LED) =16.67mA; Io (Zener) =16.66mA; Io (rectifier) =4.01mA
+d) Io (LED) =8.33mA; Io (Zener) =8.33mA; Io (rectifier) =8.33mA
+d
+3. A diode match finder circuit has input voltage of 2.6v and output voltage is 5.78v. Calculate the voltage drop across diode 1N4735
+a) 2.22v
+b) 8.38v
+c) 3.18v
+d) 15.02v
+c
+∴ the voltage drop across 1N4735,  VD =Vo – Vin = 5.78-2.6 =3.18v. 
+4. Find the voltage drop across the zener diode in the zener diode tester from the given specifications: IZk=1mA, VZ =6.2v, input voltage= 1.2v, output voltage =3.2v and resistance in series with meter  =150Ω.
+a) 6.2mA
+b) 8mA
+c) 21.33mA
+d) Cannot be determined
+a
+Since, Io > IZk the voltage across the zero will be approximately equal to 6.2v. As the current is larger than the knee current (IZk) of the zener, it blocks VZ volts. 
+5. Which among the following is preferred to display device in digital application?
+a) Matched zener diode
+b) Matched LEDs
+c) Matched rectifier diode
+d) All of the mentioned
+b
+6. The maximum current through the load in all application that uses voltage to current converter with floating is
+a) 100mA
+b) 75mA
+c) 25mA
+d) 50mA
+c
+7. For voltage to current converter with grounded load, establish a relation between the non-inverting input terminals and load current
+a) V1 = [Vin+Vo-(IL×R)] /2
+b) V1 = [Vin-Vo-(IL×R)] /2
+c) V1 = [Vin+Vo-IL+R] /2
+d) V1 = [Vin+Vo+(IL×R)] /2
+a
+8. Find the gain of the voltage to current converter with grounded load?
+a) 2
+b) 1
+c) ∞
+d) 0
+a
+∴ Gain = Vo/Vin = [1+(RF/R1)] = 1+R/R =1+1=2. 
+9. Find the output voltage and the load current for the circuit given below. Assume that the op-amp is initially nulled V1 =2.5v
+a) IL=0.42mA, Vo =10v
+b) IL=0.42mA, Vo =3.4v
+c) IL=0.42mA, Vo =6.1v
+d) IL=0.42mA, Vo =5v
+d
+vo =IL×R, can be obtained when Vo=2×V1 = 2×2.5 =5v. 
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice Tough questions and answers on all areas of Linear Integrated Circuit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Voltage to Current Converter with Floating and Grounded Load – 1» Next - Linear Integrated Circuit Questions and Answers – Current to Voltage Converter 

@@ -1,0 +1,66 @@
+1. What actually are the DB9, DB25 ports available in our computers?
+a) they are connectors used to transfer data either serially or parallelly
+b) they are the RS232 connectors used to connect two incompatible devices
+c) they are the TTL logic connector pins used for communication
+d) they are just data transfer pins used to transfer the data
+b
+2. What does RI handshaking signal refer to according to the RS232 logic?
+a) if this logic is high then a receive interrupt is generated
+b) this pin is high during transmission
+c) this pin is high during a reception in order to tell that the device is busy at this particular time
+d) none of the mentioned
+c
+3. What is the major difference between a MAX232 and a MAX233 device?
+a) one has one serial port other has two
+b) one has inbuilt UART other doesn’t have that
+c) one needs some additional circuitry to operate while the other doesn’t have that
+d) one is used just for transmission while the other is used for both transmission as well as reception
+c
+4. Which of the following is correct about the baud rate during serial transmission?
+a) it tells us about the speed at which the transmission is going to place
+b) it tells us about the number of bits transferred during a second
+c) none of the mentioned
+d) all of the mentioned
+d
+5. With fosc=8 MHz, what will the count that has to filled in the UBRR register to account for the 9600 baud rate?
+a) 67H
+b) CEH
+c) 33H
+d) 34H
+c
+6. The USART in AVR based microcontrollers operate at which of the following modes?
+a) double speed asynchronous mode
+b) master synchronous
+c) slave synchronous
+d) all of the mentioned
+d
+7. Which bit of the UCSRA is used for doubling the baud rate of the transmission?
+a) DOR
+b) PE
+c) U2X
+d) MPCM
+c
+8. What is the use of the PE and the FE bits of the UCSRA register?
+a) they are used for keeping a check at the speed of transmission and reception
+b) they are used for keeping a check at the data bits to be transferred
+c) they are used to keep the transmission error free
+d) they are used as extra redundant bits with no use
+c
+9. Which of the following bits are used for setting the data frame size?
+a) UCSZ0
+b) U2X
+c) DOR
+d) MPCM
+a
+10. Which of the following parameters should the transmitter and the receiver agree upon before starting a serial transmission?
+a) baud rate
+b) frame size
+c) stop bit
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Microcontroller.
+To practice all areas of Microcontroller for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - AVR Microcontroller Questions and Answers – Interrupt Programming» Next - AVR Microcontroller Questions and Answers – LCD  Interfacing 

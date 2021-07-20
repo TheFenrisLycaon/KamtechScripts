@@ -1,0 +1,120 @@
+1. In Fourier transform \(f(p) = \int_{-∞}^∞ e^{(ipx)} F(x)dx, e^{(ipx)} \) is said to be Kernel function.
+a) True
+b) False
+a
+2. Fourier Transform of \(e^{-|x|} \, is \) \( \frac{2}{1+p^2} \). Then what is the fourier transform of \( e^{-2|x|} \)?
+a) \(\frac{4}{(4+p^2)} \) 
+b) \(\frac{2}{(4+p^2)} \) 
+c) \(\frac{2}{(2+p^2)} \) 
+d) \(\frac{4}{(2+p^2)} \) 
+a
+\(F\{F(2x)\} = \frac{1}{2} f(\frac{p}{2}) \) 
+\( = \frac{1}{2} \frac{2}{(1+\frac{p^2}{4})} \) 
+\( = \frac{4}{(4+p^2 )}.\) 
+3. What is the fourier sine transform of e-ax?
+a) \(\frac{4}{(4+p^2)} \) 
+b) \(4 \frac{a}{(4a^2+p^2 )} \) 
+c) \(\frac{p}{(a^2+p^2)} \) 
+d) \(2 \frac{p}{(a^2+p^2)} \) 
+c
+\( = \frac{e^{-ax}}{(a^2+p^2 )} (-asin(px)-pcos(px)) \) from 0 to ∞
+\( = \frac{p}{(a^2+p^2)} \). 
+4. Find the fourier sine transform of \( \frac{x}{(a^2+x^2)}. \) 
+a) \(2πe^{-ap} \) 
+b) \(\frac{π}{2} e^{-ap} \) 
+c) \(\frac{2}{π} e^{-ap} \) 
+d) \(πe^{-ap} \) 
+b
+Substitute x=m and p=x.
+\(\frac{π}{2} e^{-am}= \int_0^∞ \frac{x}{x^2+a^2} sin(mx)dx \) 
+Therefore, fourier sine transform of \(\frac{x}{(a^2+x^2)} \, is \, \frac{π}{2} e^{-ap}.\) 
+5. Find the fourier transform of F(x) = 1, |x|<a0, otherwise.
+a) \(2sin \frac{(ap)}{p} \) 
+b) \(2asin \frac{(ap)}{p} \) 
+c) \(4sin \frac{(ap)}{p} \) 
+d) \(4asin \frac{(ap)}{p} \) 
+a
+\( = \frac{e^{ipx}}{ip} \) from -a to a
+\( = \frac{e^{iap}-e^{-iap}}{ip} \) 
+\( = 2sin \frac{(ap)}{p} \). 
+6. In Finite Fourier Cosine Transform, if the upper limit l = π, then its inverse is given by ________
+a) \(F(x) = \frac{2}{π} ∑_{p=1}^∞ fc (p)cos(px)+ \frac{1}{π} fc(0) \) 
+b) \(F(x) = \frac{2}{π} ∑_{p=1}^∞ fc (p)cos(px) \) 
+c) \(F(x) = \frac{2}{π} ∑_{p=1}^∞ fc (p)cos(\frac{px}{π}) \) 
+d) \(F(x) = \frac{2}{π} ∑_{p=0}^∞ fc (p)cos(px)+ \frac{1}{π} fc(0) \) 
+a
+7. Find the Fourier Cosine Transform of F(x) = 2x for 0<x<4.
+a) \(fc(p) = \frac{32}{(p^2 π^2)} (cos(pπ)-1)p \) not equal to 0 and if equal to 0 \( fc(p) = 16 \) 
+b) \(fc(p) = \frac{32}{(p^2 π^2)} (cos(pπ)-1)p \) not equal to 0 and if equal to 0 \( fc(p) = 32 \) 
+c) \(fc(p) = \frac{64}{(pπ^2)} (cos(pπ)-1)p \) not equal to 0 and if equal to 0 \( fc(p) = 16 \) 
+d) \(fc(p) = \frac{32}{(pπ^2)} (cos(pπ)-1)p \) not equal to 0 and if equal to 0 \( fc(p) = 64 \) 
+a
+\( = 2\bigg[\frac{4xsin(\frac{pπx}{4})}{pπ} + \frac{16cos(\frac{pπx}{4})}{p^2 π^2}\bigg] \) from 0 to 4
+\( = \frac{32}{(p^2 π^2)} (cos(pπ)-1) \) 
+When \(p=0, fc(p) = \int_0^4 2 xdx = 16. \) 
+8. If Fourier transform of \( e^{-|x|} = \frac{2}{1+p^2} \), then find the fourier transform of \(t^2 e^{-|x|}. \) 
+a) \(\frac{4}{1+p^2} \) 
+b) \(\frac{-2}{1+p^2} \) 
+c) \(\frac{2}{1+p^2} \) 
+d) \(\frac{-4}{1+p^2} \) 
+b
+\(F\{t^2 e^{-|x|}\} = (-i)^2  \frac{2}{1+p^2} = \frac{-2}{1+p^2} \). 
+9. If \(Fc\{e^{-ax}\} =  \frac{p}{a^2+p^2}\), find the \(Fs\{-a \, e^{-ax}\}.\) 
+a) \(4 \frac{p}{a^2+p^2} \) 
+b) \(\frac{-p^2}{a^2+p^2} \) 
+c) \(4 \frac{p^2}{a^2+p^2} \) 
+d) \(\frac{p}{a^2+p^2} \) 
+b
+\(Fs\{F’(x)\} = -pfc(p) \) 
+\( = \frac{-p^2}{a^2+p^2} \). 
+10. Find the fourier transform of \(\frac{∂^2 u}{∂x^2}\) . (u’(p,t) denotes the fourier transform of u(x,t)).
+a) (ip)2 u’(p,t)
+b) (-ip)2 u’(p,t)
+c) (-ip)2 u(p,t)
+d) (ip)2 u(p,t)
+a
+\( = e^{ipx}  \frac{∂u}{∂x} \) from (-infinity to infinity) \(– \int_{-∞}^∞ ip \, e^{ipx} u \) 
+\( = (ip)^2u’(p,t) \) 
+11. What is the fourier transform of e-a|x| * e-b|x|?
+a) \(\frac{4ab}{(a^2+p^2)(b^2+p^2)} \) 
+b) \(\frac{2ab}{(a^2+p^2)(b^2+p^2)} \) 
+c) \(\frac{4}{(a^2+p^2)(b^2+p^2)} \) 
+d) \(\frac{a^2 b^2}{(a^2+p^2)(b^2+p^2)} \) 
+a
+Fourier transform of \(e^{-b|x|} = \frac{2b}{b^2+p^2} \) 
+fourier transform of \(e^{-a|x|}* e^{-b|x|}= \frac{2a}{a^2+p^2}.\frac{2b}{b^2+p^2} \) 
+\( = \frac{4ab}{(a^2+p^2)(b^2+p^2)} \). 
+12. What is the Fourier transform of eax? (a>0)
+a) \(\frac{p}{a^2+p^2} \) 
+b) \(2 \frac{a}{a^2+p^2} \) 
+c) \(-2 \frac{a}{a^2+p^2} \) 
+d) cant’t be found
+d
+13. \(F(x) = x^{(\frac{-1}{2})} \)is self reciprocal under Fourier cosine transform.
+a) True
+b) False
+a
+Inverse fourier transform of \( p^{(\frac{-1}{2})} = constant * x^{(\frac{-1}{2})} \) 
+Hence the  function \(x^{(\frac{-1}{2})} \)is self reciprocal. 
+14. Find the fourier cosine transform of e-ax * e-ax.
+a) \(\frac{p^2}{a^2+p^2} \) 
+b) \(\frac{p^2}{(a^2+p^2)^2} \) 
+c) \(4 \frac{p^2}{(a^2+p^2)^2} \) 
+d) \(\frac{-p^2}{(a^2+p^2 )^2} \) 
+b
+Explanation = fourier cosine transform of \(e^{-ax} = \frac{p}{a^2+p^2}\) 
+fourier cosine transform of \(e^{-ax}* e^{-ax} = \frac{p}{a^2+p^2} . \frac{p}{a^2+p^2} \) 
+\( = \frac{p^2}{(a^2+p^2 )^2} \). 
+15. Find the fourier sine transform of F(x) = -x when x<c and (π – x) when x>c and 0≤c≤π.
+a) \(\frac{π}{c} cos(pc) \) 
+b) \(\frac{π}{p} cos(pc) \) 
+c) \(\frac{π}{c} cos(pπ) \) 
+d) \(p \frac{π}{c} cos(pc) \) 
+b
+\( = \frac{π}{p} cos(pc). \) 
+Sanfoundry Global Education & Learning Series – Fourier Analysis.
+To practice all areas of Fourier Analysis, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Partial Differential Equations Questions and Answers – Derivation and Solution of Two-dimensional Wave Equation» Next - Fourier Analysis Questions and Answers – Linear Difference Equations and Z – Transforms 

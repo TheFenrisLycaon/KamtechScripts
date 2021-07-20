@@ -1,0 +1,62 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Qlogic and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Qlogic interviews on C Programming language. 
+Here is a listing of advanced C questions on “Formatted Output” along with answers, explanations and/or solutions:
+1. What is the meaning of the following C statement?
+ printf(“%10s”, state); 
+a) 10 spaces before the string state is printed
+b) Print empty spaces if the string state is less than 10 characters
+c) Print the last 10 characters of the string
+d) None of the mentioned
+b
+2. What are the Properties of the first argument of a printf() functions?
+a) It is defined by a user
+b) It keeps the record of the types of arguments that will follow
+c) There may no be first argument
+d) None of the mentioned
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 10, j = 2;        printf("%d\n", printf("%d %d ", i, j));    }
+a) Compile time error
+b) 10 2 4
+c) 10 2 2
+d) 10 2 5
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 10, j = 3;        printf("%d %d %d", i, j);    }
+a) Compile time error
+b) 10 3
+c) 10 3 some garbage value
+d) Undefined behaviour
+c
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 10, j = 3, k = 3;        printf("%d %d ", i, j, k);    }
+a) Compile time error
+b) 10 3 3
+c) 10 3
+d) 10 3 somegarbage value
+c
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        char *s = "myworld";        int i = 9;        printf("%*s", i, s);    }
+a) myworld
+b) myworld(note: spaces to the left of myworld)
+c) myworld (note:followed by two spaces after myworld)
+d) Undefined
+b
+7. What will be the output of the following C code?
+    #include <stdio.h>    int main(int argc, char **argv)    {        char *s = "myworld";        int i = 3;        printf("%10.*s", i, s);    }
+a) myw(note:7 spaces before myw)
+b) myworld(note:2 spaces before myworld)
+c) myworld (note:2 spaces after myworld)
+d) myw(note:6 spaces after myworld)
+a
+8. What is the difference between %e and %g?
+a) %e output formatting depends on the argument and %g always formats in the format [-]m.dddddd or [-]m.dddddE[+|-]xx where no.of ds are optional
+b) %e always formats in the format [-]m.dddddd or [-]m.dddddE[+|-]xx where no.of ds are optional and output formatting depends on the argument
+c) No differences
+d) Depends on the standard
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Formatted Output – 1» Next - C Programming Questions and Answers – Variable Length Argument – 1 

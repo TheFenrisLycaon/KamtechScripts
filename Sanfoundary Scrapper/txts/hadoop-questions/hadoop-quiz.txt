@@ -1,0 +1,67 @@
+1. Hive specific commands can be run from Beeline, when the Hive _______ driver is used.
+a) ODBC
+b) JDBC
+c) ODBC-JDBC
+d) All of the Mentioned
+b
+2. Point out the correct statement.
+a) –helpusage display a usage message
+b) The JDBC connection URL format has the prefix jdbc:hive:
+c) Starting with Hive 0.14, there are improved SV output formats
+d) None of the mentioned
+c
+3. _________ reduce the amount of informational messages displayed (true) or not (false).
+a) –silent=[true/false] 
+b) –autosave=[true/false] 
+c) –force=[true/false] 
+d) All of the mentioned
+a
+4. Which of the following is used to set transaction isolation level?
+a) –incremental=[true/false] 
+b) –isolation=LEVEL
+c) –force=[true/false] 
+d) –truncateTable=[true/false] 
+b
+5. Point out the wrong statement.
+a) HiveServer2 has a new JDBC driver
+b) CSV and TSV output formats are maintained for forward compatibility
+c) HiveServer2 supports both embedded and remote access to HiveServer2
+d) None of the mentioned
+b
+6. The ________ allows users to read or write Avro data as Hive tables.
+a) AvroSerde
+b) HiveSerde
+c) SqlSerde
+d) None of the mentioned
+a
+7. Starting in Hive _______ the Avro schema can be inferred from the Hive table schema.
+a) 0.14
+b) 0.12
+c) 0.13
+d) 0.11
+a
+8. The AvroSerde has been built and tested against Hive 0.9.1 and later, and uses Avro _______ as of Hive 0.13 and 0.14.
+a) 1.7.4
+b) 1.7.2
+c) 1.7.3
+d) None of the mentioned
+d
+9. Which of the following data type is supported by Hive?
+a) map
+b) record
+c) string
+d) enum
+d
+10. Which of the following data type is converted to Array prior to Hive 0.12.0?
+a) map
+b) long
+c) float
+d) bytes
+d
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop for quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – HiveQL – 1» Next - Hadoop Questions and Answers – Querying Data with HiveQL – 1 

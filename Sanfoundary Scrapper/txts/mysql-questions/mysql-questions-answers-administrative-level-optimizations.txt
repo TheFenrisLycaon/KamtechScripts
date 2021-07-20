@@ -1,0 +1,63 @@
+1. Accessing data from which of these is faster?
+memory, disk
+a) memory
+b) disk
+c) same speed
+d) machine dependent
+a
+2. Which system variable controls the size of the table cache?
+a) table_cache
+b) cache_table
+c) open_cache
+d) cache_open
+a
+3. Which status indicator assesses how effective the table cache is?
+a) Open_tables
+b) Opened_tables
+c) Close_tables
+d) Closed_tables
+b
+4. In MySQL, the default size of the key buffer in MB is _________________
+a) 4
+b) 8
+c) 16
+d) 32
+b
+5. The system variable to maintain InnoDB log buffer size is _________________
+a) innodb_log_buffer_size
+b) innodb_buffer_log_size
+c) buffer_log_innodb_size
+d) log_buffer_innodb_size
+a
+6. All queries can be cached.
+a) True
+b) False
+b
+7. To determine whether query cache is supported by the server the variable is _________________
+a) have_query_cache
+b) have_cache_query
+c) query_cache_have
+d) cache_query_have
+a
+8. Which mode tells not to cache query results?
+a) 0
+b) 1
+c) 2
+d) 3
+a
+9. Which mode tells cache queries that begin with SELECT SQL_CACHE?
+a) 0
+b) 1
+c) 2
+d) 3
+c
+10. Installing more memory into the machine enables to configure larger values for cache server.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Scheduling and Locking Issues» Next - MySQL Questions and Answers – When Good Statements Go Bad 

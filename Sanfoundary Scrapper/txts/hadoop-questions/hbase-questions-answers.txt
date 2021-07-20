@@ -1,0 +1,67 @@
+1. The minimum number of row versions to keep is configured per column family via _____________
+a) HBaseDecriptor
+b) HTabDescriptor
+c) HColumnDescriptor
+d) All of the mentioned
+c
+2. Point out the correct statement.
+a) The default for max versions is 1
+b) It is recommended setting the number of max versions to an exceedingly high level
+c) HBase does overwrite row values
+d) All of the mentioned
+a
+3. HBase supports a ____________ interface via Put and Result.
+a) “bytes-in/bytes-out”
+b) “bytes-in”
+c) “bytes-out”
+d) none of the mentioned
+a
+4. One supported data type that deserves special mention are ____________
+a) money
+b) counters
+c) smallint
+d) tinyint
+b
+5. Point out the wrong statement.
+a) Where time-ranges are very wide (e.g., year-long report) and where the data is voluminous, summary tables are a common approach
+b) Coprocessors act like RDBMS triggers
+c) HBase does not currently support ‘constraints’ in traditional (SQL) database parlance
+d) None of the mentioned
+c
+6. The _________ suffers from the monotonically increasing rowkey problem.
+a) rowkey
+b) columnkey
+c) counterkey
+d) all of the mentioned
+a
+7. __________ does re-write data and pack rows into columns for certain time-periods.
+a) OpenTS
+b) OpenTSDB
+c) OpenTSD
+d) OpenDB
+b
+8. Which command is used to disable all the tables matching the given regex?
+a) remove all
+b) drop all
+c) disable_all
+d) all of the mentioned
+c
+9. __________ command disables drops and recreates a table.
+a) drop
+b) truncate
+c) delete
+d) none of the mentioned
+b
+10. Correct and valid syntax for count command is ____________
+a) count ‘<row number>’
+b) count ‘<table name>’
+c) count ‘<column name>’
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hbase, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Introduction to HBase» Next - Hadoop Questions and Answers – Metrics in Hbase 

@@ -1,0 +1,79 @@
+1. First order partial differential equations arise in the calculus of variations.
+a) True
+b) False
+a
+2. The symbol used for partial derivatives, ∂, was first used in mathematics by Marquis de Condorcet.
+a) True
+b) False
+a
+3. What is the order of the equation, \(xy^3(\frac{∂y}{∂x})^2+yx^2+\frac{∂y}{∂x}=0\)?
+a) Third Order
+b) Second Order
+c) First Order
+d) Zero Order
+c
+4. In the equation, y= x2+c,c is known as the parameter and x and y are known as the main variables.
+a) True
+b) False
+a
+5. Which of the following is one of the criterions for linearity of an equation?
+a) The dependent variable and its derivatives should be of second order
+b) The dependent variable and its derivatives should not be of same order
+c) Each coefficient does not depend on the independent variable
+d) Each coefficient depends only on the independent variable
+d
+The dependent variable y and its derivatives are of first degree.
+	Each coefficient depends only on the independent variable
+6. Which of the following is a type of Iterative method of solving non-linear equations?
+a) Graphical method
+b) Interpolation method
+c) Trial and Error methods
+d) Direct Analytical methods
+b
+7. Which of the following is an example for first order linear partial differential equation?
+a) Lagrange’s Partial Differential Equation
+b) Clairaut’s Partial Differential Equation
+c) One-dimensional Wave Equation
+d) One-dimensional Heat Equation
+a
+8. What is the nature of Lagrange’s linear partial differential equation?
+a) First-order, Third-degree
+b) Second-order, First-degree
+c) First-order, Second-degree
+d) First-order, First-degree
+d
+9. Find the general solution of the linear partial differential equation, yzp+zxq=xy.
+a) φ(x2-y2 – z2 )=0
+b) φ(x2-y2, y2-z2 )=0
+c) φ(x2-y2, y2-x2 )=0
+d) φ(x2-z2, z2-x2 )=0
+b
+Here, the subsidiary equations are, \(\frac{dx}{yz}=\frac{dy}{zx}=\frac{dz}{xy} \) 
+From the first two and last two terms, we get, respectively,
+\(\frac{dx}{yz}=\frac{dy}{zx’}\)       or       xdx-ydy=0,          and
+\(\frac{dx}{zx}=\frac{dy}{xy’}\)      or       ydx-zdy=0,
+Integrating these we get two solutions
+x2-y2=a ,                        y2-z2=b
+Hence, the general solution of the given equation is,
+φ(x2-y2, y2-z2 )=0.
+10. The equation 2\(\frac{dy}{dx} – xy = y^{-2},\) is an example for Bernoulli’s equation.
+a) False
+b) True
+b
+\(\frac{dy}{dx} + P(x). y = Q(x). y^a,\) is known as Bernoulli’s equation.
+11. A particular solution for an equation is derived by eliminating arbitrary constants.
+a) True
+b) False
+b
+12. A partial differential equation is one in which a dependent variable (say ‘y’) depends on one or more independent variables (say ’x’, ’t’ etc.)
+a) False
+b) True
+b
+A partial differential equation is one in which a dependent variable depends on one or more independent variables.
+Example: \(F(x,t,y,\frac{∂y}{∂x},\frac{∂y}{∂t},……)= 0 \) 
+Sanfoundry Global Education   &   Learning Series – Fourier Analysis and Partial Differential Equations.
+To practice all areas of Fourier Analysis and Partial Differential Equations, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Partial Differential Equations Questions and Answers – First Order PDE» Next - Partial Differential Equations Questions and Answers – First Order Non-Linear PDE 

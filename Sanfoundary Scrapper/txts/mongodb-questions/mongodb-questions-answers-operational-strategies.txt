@@ -1,0 +1,67 @@
+1. On Linux the ______ manager can create a snapshot.
+a) LVM
+b) SVM
+c) MMS
+d) All of the mentioned
+a
+2. Point out the correct statement.
+a) The mechanics of snapshots depend on the underlying storage system
+b) To get a consistent snapshot of a sharded system, you must disable the balancer
+c) If your storage system does not support snapshots, you can copy the files directly using cp, rsync, or a similar tool
+d) All of the mentioned
+d
+3. When connected to a MongoDB instance, mongodump can adversely affect ______ performance.
+a) mdump
+b) mongodump
+c) mongod
+d) all of the mentioned
+c
+4. To mitigate the impact of mongodump on the performance of the replica set, use mongodump to capture backups from a _________ member of a replica set.
+a) primary
+b) secondary
+c) snaphot
+d) none of the mentioned
+b
+5. Point out the wrong statement.
+a) If you shut down a secondary to capture data with mongodump ensure that the operation can complete before its oplog becomes too stale to continue replicating
+b) MongoDB Cloud Manager continually backs up MongoDB replica sets
+c) Sharded cluster snapshots are easy to achieve with other MongoDB backup methods
+d) None of the mentioned
+c
+6. ________ an on-premise solution, has similar functionality to the cloud version.
+a) Opscore Manager
+b) Ops Manager
+c) Mongod
+d) None of the mentioned
+b
+7. Ops Manager provides Ops Manager ________ and Ops Manager Backup, which helps users optimize clusters and mitigate operational risk.
+a) Performance
+b) Administration
+c) Monitoring
+d) None of the mentioned
+c
+8. Ops Manager _________ provides an interface for configuring MongoDB nodes and clusters and for upgrading your MongoDB deployment.
+a) Automation
+b) Performance
+c) Monitoring
+d) None of the mentioned
+a
+9. Ops Manager ______ provides scheduled snapshots and point-in-time recovery of your MongoDB replica sets and sharded clusters.
+a) Automation
+b) Performance
+c) Monitoring
+d) Backup
+d
+10. Sharded clusters snapshots temporarily stop the balancer via ______________
+a) Mongod
+b) MMS
+c) MonitorMMS
+d) mongos
+d
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – MongoDB Administration» Next - MongoDB Questions and Answers – MongoDB Backup 

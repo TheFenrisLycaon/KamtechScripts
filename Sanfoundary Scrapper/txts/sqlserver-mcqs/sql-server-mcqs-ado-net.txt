@@ -1,0 +1,82 @@
+1. To use the .NET Framework Data Provider for SQL Server, an application must reference the _____________ namespace.
+a) System.Data.Client
+b) System.Data.SqlClient
+c) System.Data.Sql
+d) None of the mentioned
+b
+2. Point out the correct statement.
+a) Using the System.Data.SqlClient, you can fill a memory-resident DataSet that you can use to query and update the database
+b) System.Data.SqlClient includes a tabular data stream (TDS) parser to communicate directly with SQL Server
+c) SqlBulkCopyColumnMapping lets you efficiently bulk load a SQL Server table with data from another source
+d) None of the mentioned
+b
+3. Valid Code for Creating a SqlConnection Object would be ____________
+a)
+SqlConnection conn = NEW SqlConnection(
+   "Data Source=(local);Initial Catalog=Northwind;Integrated Security=SSPI");
+b)
+Join Sanfoundry@YouTube
+SqlConnect conn = NEW SqlConnection(
+   "Data Source=(local);Initial Catalog=Northwind;Integrated Security=SSPI");
+c)
+SqlConnection conn = NEW SqlConnect(
+   "Data Source=(local);Initial Catalog=Northwind;Integrated Security=SSPI");
+d) All of the mentioned
+a
+4. Code snippet for having a named instance of SQL Server would be ___________
+a) “Server=localhost\sqlexpress”
+b) “Server=local\sqlexpress”
+c) “Server=host\sqlexpress”
+d) “Ser=localhost\sqlexpress”
+a
+5. Point out the wrong statement.
+a) The goal of dotConnect for SQL Server is to enable developers to maintain database applications
+b) dotConnect for SQL Server combines connected and disconnected data access models in single SqlDataTable component
+c) dotConnect for SQL Server supports new ADO.NET features and technologies as soon as they are released
+d) None of the mentioned
+a
+6. Which of the following is enumeration for ADO.net with SQL Server?
+a) SqlInfo
+b) SqlBulkCopyOptions
+c) SqlNotification
+d) All of the mentioned
+b
+7. Syntax for closing and opening the connection in ADO.net is _______________
+a) sqlConn.Open() and sqlConn.close()
+b) sqlConn.open() and sqlConn.Close()
+c) sqlConn.Open() and sqlConn.Close()
+d) none of the mentioned
+c
+8. Which of the following gives trusted Connection from a CE device?
+a)
+connetionString="Data Source=ServerName; 
+Initial Catalog=DatabaseName;Integrated Security=SSPI;
+User ID=myDomain\UserName;Password=Password;
+b)
+connetionString="Data Source=ServerName; 
+Integrated Security=SSPI;User ID=myDomain\UserName;P
+assword=Password;
+c)
+connetionString="Data Source=ServerName; 
+Initial Catalog=DatabaseName;User ID=myDomain\UserName;
+Password=Password;
+d) All of the mentioned
+a
+9. The main features of dotConnect for SQL Server includes ___________
+a) Extra data binding capabilities
+b) Ability of monitoring query execution
+c) Supports the latest versions of SQL Server
+d) All of the mentioned
+d
+10. __________object is used to fill a DataSet/DataTable with query results in ADO.net.
+a) DataReader
+b) Dataset
+c) DataAdapter
+d) DataTables
+c
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Distributed Queries» Next - SQL Server Questions and Answers – LINQ – 1 

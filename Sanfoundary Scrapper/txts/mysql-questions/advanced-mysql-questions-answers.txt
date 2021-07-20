@@ -1,0 +1,64 @@
+1. How many of the following use NULL to indicate failure?
+mysql_init(), mysql_real_connect()
+a) 0
+b) 1
+c) 2
+d) 3
+c
+2. How many of the following does not return a value?
+	mysql_close(), mysql_init, mysql_real_connect
+a) 0
+b) 1
+c) 2
+d) 3
+b
+3. Which of these returns a string containing an error message?
+a) mysql_error()
+b) mysql_errno()
+c) mysql_sqlstate()
+d) mysql_close()
+a
+4. Which of the following returns a MySQL-specific numeric code?
+a) mysql_error()
+b) mysql_errno()
+c) mysql_sqlstate()
+d) mysql_close()
+b
+5. Which of the following returns an SQLSTATE code?
+a) mysql_error()
+b) mysql_errno()
+c) mysql_sqlstate()
+d) mysql_close()
+c
+6. The argument to the function mysql_error() is _______________
+a) integer
+b) float
+c) structure
+d) pointer
+d
+7. What does mysql_real_connect() return if it fails?
+a) integer
+b) float
+c) structure
+d) NULL
+d
+8. The function load_defaults() reads the option files.
+a) True
+b) False
+a
+9. The –protocol value ‘TCP’ runs on which operating systems?
+a) unix only
+b) windows only
+c) all
+d) none
+c
+10. All API calls return a value.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice advanced questions and answers on all areas of MySQL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Connecting to the Server» Next - MySQL Questions and Answers – Processing SQL Statements 

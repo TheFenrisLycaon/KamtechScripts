@@ -1,0 +1,99 @@
+1. How many ways are there to represent the Cusum on the Cusum charts?
+a) 3
+b) 4
+c) 2
+d) 5
+c
+2. Which of these is a name of any way to represent the Cusum charts?
+a) Logarithmic
+b) Algorithmic
+c) Exponential
+d) Normal
+b
+3. The tabular Cusums are made to monitor the ____________ of the process.
+a) Variance
+b) Mean
+c) Standard deviation
+d) Capability
+b
+4. Which of these is not one of the assumptions made for the construction of Tabular Cusum charts for the individual measurements?
+a) The selected variable varies according to a lognormal distribution
+b) The selected variable varies according to a normal distribution
+c) The selected variable varies according to a binomial distribution
+d) The selected variable varies according to an exponential distribution
+b
+5. Which of these is not an assumption made for the construction of the tabular Cusum charts?
+a) The selected variable varies on a normal distribution
+b) The mean of the normal distribution is available
+c) The estimate or the exact value of the standard deviation of the variable
+d) The assumptions are very inconsistent with phase II application of SPC
+d
+Join [email protected]
+6. If the process standard deviation increases, how will the cusum chart for monitoring process variability indicate the out-of-control state?
+a) The value of Si+ will increase
+b) The value of Si+ will decrease
+c) The value of Si– will decrease with decrease in the value of Si+
+d) The value of Si– will increase
+a
+7. Which of these is an indication of out-of-control process with low standard deviation?
+a) Increase in the value of Si+
+b) Decrease in the value of Si+ with increase in the value of Si–
+c) Increase in the value of Si–
+d) Decrease in the value of Si– with decrease in the value of Si–
+c
+8. Who was the first person to recommend plotting the cusum charts for mean and standard deviation on same graph?
+a) Hawkins
+b) Roberts
+c) Atkinson
+d) Crowder
+a
+9. If the deployment of the cusum is extended to the case of averages of the rational subgroups where sample size n>1, what will be done?
+a) The value of xi be replaced by xi
+b) The value of xi be replaced by xi
+c) The value of Ci+ be replaced by value of Ci–
+d) The value of Ci– be replaced by the value of Ci+
+a
+10. A cusum for normal variance is having the value of upper cusum equal to __________
+a) \(C_i^+=max⁡(0,C_{i-1}^+ + S^2 – k)\) 
+b) \(C_i^+=max⁡(0,C_{i-1}^+ + S^2 + k)\) 
+c) \(C_i^+=max⁡(0,C_{i-1}^+ – σ^2 + k)\) 
+d) \(C_i^+=max⁡(0,C_{i-1}^+ + σ^2 + k)\) 
+b
+\(C_i^+=max⁡(0,C_{i-1}^+ + S^2 + k)\)
+11. A cusum for a normal variance has the value of lower cusum equal to ___________
+a) \(C_i^+=min⁡(0,C_{i-1}^- + S^2 + k)\) 
+b) \(C_i^-=max⁡(0,C_{i-1}^- + S^2 + k)\) 
+c) \(C_i^+=max⁡(0,C_{i-1}^- + S^2 + k)\) 
+d) \(C_i^-=min⁡(0,C_{i-1}^- + S^2 + k)\) 
+d
+\(C_i^-=min⁡(0,C_{i-1}^- + S^2 + k)\)
+12. If the value of C–i-1+S2+k is lesser than (-1), what will be the value of Ci– equal to?
+a) Lesser than -1
+b) Higher than 1
+c) Lower than 0
+d) 0
+d
+\(C_i^+=min⁡(0,C_{i-1}^- + S^2 + k)\) 
+Also the cusum values, whether it is the upper cusum, or lower cusum, are either zero or positive. So even if the value of C–i-1+S2+k is lesser than (-1), the value of Ci– will be zero.
+13. The V-mask procedure was proposed by ___________
+a) Crowder
+b) Roberts
+c) Brinson
+d) Barnard
+d
+14. Only the value of lower cusum can be negative.
+a) True
+b) False
+b
+\(C_i^-=max(0,C_{i-1}^- + S^2 + k)\) 
+So we get to know that the value of the lower cusum is always greater than or equal to zero.
+15. Tabular Cusums can be constructed for both, individual measurements, and the averages of the rational subgroups.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice advanced questions and answers on all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Time-Weighted – Cumulative Sum Control Chart – 2» Next - Statistical Quality Control Questions and Answers – Time-Weighted – Cumulative Sum Control Chart – 4 

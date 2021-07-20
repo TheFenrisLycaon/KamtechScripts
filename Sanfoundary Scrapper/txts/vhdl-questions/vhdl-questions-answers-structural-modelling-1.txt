@@ -1,0 +1,85 @@
+1. Which of the following is defined in structural modeling?
+a) The structure of circuit
+b) Behavior of circuit on different inputs
+c) Data flow from input to output
+d) Functional structure
+a
+2. Which of the following is not a way of partitioning a design?
+a) Component
+b) Block statement
+c) Processes
+d) Generics
+c
+3. What is the basic unit of structural modeling?
+a) Process
+b) Component declaration
+c) Component instantiation
+d) Block
+c
+4. Which of the following is similar to the entity declaration in structural modeling?
+a) Component instantiation
+b) Component declaration
+c) Port map
+d) Generic map
+b
+5. What do you mean by component instantiation?
+a) To use the component
+b) To describe external interface of the component
+c) To declare the gate level components
+d) To remove any component from the design
+a
+6. The structural model is similar to___________
+a) Boolean relations of the circuit
+b) Schematic block diagram of the circuit
+c) Timing relations of the circuit
+d) Components of the circuit
+b
+7. Which of the following is correct syntax for component declaration?
+a)
+     COMPONENT component_name IS
+     PORT ( port_mode : type port_name;
+     port_mode : type port_name;
+     ….);
+     END component_name;
+b)
+     COMPONENT component_name IS
+     PORT ( port_mode : type port_name;
+     port_mode : type port_name;
+     ….);
+     END COMPONENT;
+c)
+     COMPONENT component_name IS
+     PORT ( port_name : mode type;
+     port_name : mode type;
+      ….);
+      END component_name;
+d)
+     COMPONENT component_name IS
+     PORT ( port_name : mode type;
+     port_name : mode type;
+      ….);
+      END COMPONENT;
+d
+  
+8. Which of the following is the correct syntax for component instantiation?
+a) instantiate : component_name PORT MAP (port_list);
+b) label : instantiate COMPONENT PORT MAP (port_list);
+c) label : component_name PORT MAP (port_list);
+d) label : instantiate component_name PORT MAP (port_list)
+c
+9. It is possible to use a component twice which was declared only once.
+a) True
+b) False
+a
+10. Which of the following must be known to describe a structural model in VHDL?
+a) Number of inputs and outputs
+b) Components and their connections
+c) Relation between inputs and outputs
+d) Value of output for different input combinations
+b
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Block Statement» Next - VHDL Questions and Answers – Structural Modeling – 2 

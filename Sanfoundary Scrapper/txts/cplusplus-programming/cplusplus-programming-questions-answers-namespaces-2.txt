@@ -1,0 +1,337 @@
+1. Pick the incorrect statement for namespaces in C++.
+a) Namespace declarations are always global scope
+b) Keyword namespace is used at the starting of a namespace definition
+c) Namespace has access specifiers like private or public
+d) Namespace definitions can be nested
+c
+2. Which operator is used for accessing a member of namespace?
+a) :
+b) ::
+c) ->
+d) .
+b
+namespace A{
+	int var;
+}
+A::var = 5;
+3. Which is the correct syntax of declaring a namespace?
+a)
+namespace A{
+	int i
+}
+b)
+
+namespace B{
+	int i;
+};
+c) 
+namespace C{
+	int i;
+}
+d) 
+Namespace D{
+	int i
+}
+c
+  
+4. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+namespace A{
+ 
+	int var = 10;
+}
+namespace B{
+	int cout = 5;
+}
+int main()
+{
+	using namespace B;
+	cout<<A::var;
+}
+a) 10
+b) 5
+c) Error
+d) 105
+c
+5. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+namespace A{
+ 
+	int var = 10;
+}
+namespace B{
+	int var = 5;
+}
+int main()
+{
+	using namespace B;
+	cout<<var;
+}
+a) 5
+b) 10
+c) Error
+d) Wrong use of namespace
+a
+6. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+namespace A{
+ 
+	int var = 10;
+}
+namespace B{
+	int var = 5;
+}
+int main()
+{
+	int var = 20;
+	using namespace B;
+	cout<<var;
+}
+a) 5
+b) 10
+c) 20
+d) Error
+c
+7. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+namespace 
+{
+	int var = 10;
+}
+int main()
+{
+	cout<<var;
+}
+a) 10
+b) Error
+c) Some garbage value
+d) Nothing but program runs perfectly
+a
+8. What is the correct syntax of defining a namespace?
+a) namespace name{}
+b) Namespace name{};
+c) namespace name{};
+d) typedef namespace name{} NAME
+a
+-Starts with keyword namespace
+-Followed by identifier
+-All members inside the braces{}
+-No semicolon at the end
+namespace identifier{}.
+9. How to print the value of the i variable inside namespace B?
+namespace A{
+	int var = 10;
+	namespace B{
+		int i = 15;
+	}
+}
+a) cout<<A::i;
+b) cout<<B::i;
+c) cout<<A::B::i;
+d) cout<<i;
+c
+10. What will be the output of following C++ code?
+#include <iostream>
+#include <string>
+using namespace std;
+namespace My_old_school_and_college_friends_number
+{
+	long int f1 = 9999999999;
+	long int f2 = 1111111111;
+}
+namespace contacts = My_old_school_and_college_friends_number;
+int main(){
+ 
+	cout<<contacts::f1;
+}
+a) 9999999999
+b) 1111111111
+c) error
+d) segmentation fault
+a
+11. What will be the output of the following C++ code?
+Content of header file h1.h
+------------------------------------------------
+h1.h
+#include <iostream>
+using namespace std;
+namespace A{
+	int func(int a){
+		cout<<"using namespace A";
+		return 2*a;
+	}
+}
+------------------------------------------------
+ 
+Content of header file h2.h
+------------------------------------------------
+ 
+h2.h
+#include <iostream>
+using namespace std;
+namespace B{
+	float func(float a){
+		cout<<"using namespace B";
+		return 2*a;
+	}
+}
+------------------------------------------------
+ 
+Content of program.cpp
+------------------------------------------------
+ 
+#include <iostream>
+#include <string>
+#include "h1.h"
+#include "h2.h"
+using namespace std;
+using namespace A;
+using namespace B;
+int main(int argc, char const *argv[])
+{
+	/* code */
+	int a = 10;
+	float b = 10.0;
+	cout<<func(a)<<endl;
+	cout<<func(b);
+	return 0;
+}
+-----------------------------------------------
+a) 
+using namespace A10
+using namespace B10
+b) 
+using namespace A20
+using namespace B20
+c) Error due to clash of func()
+d) This is not allwed in C++
+b
+12. What will be the output of the following C++ code?
+Content of header file h1.h
+------------------------------------------------
+h1.h
+#include <iostream>
+using namespace std;
+namespace A{
+	int func(int a){
+		cout<<"using namespace A";
+		return 2*a;
+	}
+}
+------------------------------------------------
+ 
+Content of header file h2.h
+------------------------------------------------
+ 
+h2.h
+#include <iostream>
+using namespace std;
+namespace B{
+	float func(float a){
+		cout<<"using namespace B";
+		return 2*a;
+	}
+}
+------------------------------------------------
+ 
+Content of program.cpp
+------------------------------------------------
+#include <iostream>
+#include <string>
+#include "h1.h"
+#include "h2.h"
+using namespace std;
+using namespace A;
+using namespace B;
+int main(int argc, char const *argv[])
+{
+	/* code */
+	int a = 10;
+	float b = 10.0;
+	cout<<A::func(a)<<endl;
+	cout<<A::func(b);
+	return 0;
+}
+------------------------------------------------
+a)
+using namespace A20
+using namespace B20
+b)
+using namespace A20
+using namespace A20
+c)
+using namespace A10
+using namespace A10
+d)
+using namespace A10
+using namespace B10
+b
+  
+13. What changes you can do in the header files to avoid the redefinition that compiler will give when both the header files are included in the same program keeping the declaration of both the functions same?
+Content of h1.h
+------------------------------------------------
+h1.h
+#include <iostream>
+using namespace std;
+int func(int a){
+	cout<<"Multiplied by 2";
+	return 2*a;
+}
+------------------------------------------------
+ 
+Content of h2.h
+------------------------------------------------
+h2.h
+#include <iostream>
+using namespace std;
+int func(int a){
+	cout<<"divided by 2";
+	return a/2;
+}
+------------------------------------------------
+a) Cannot be handled because C++ does not allow this
+b) Declare both the function inside different namespaces
+c) Include one header files where they are needed so that no clashes occur
+d) Make the header files name same
+b
+Modified Header files  :
+h1.h
+Content of h1.h
+------------------------------------------------
+#include <iostream>
+using namespace std;
+namespace A{
+	int func(int a){
+		cout<<"Multiplied by 2";
+		return 2*a;
+	}
+}
+------------------------------------------------
+ 
+Content of h2.h
+------------------------------------------------
+ 
+#include <iostream>
+using namespace std;
+namespace B{
+	float func(float a){
+		cout<<"divided by 2";
+		return a/2;
+	}
+}
+------------------------------------------------
+Now one can use multiplication func as A::func(int); and dividion function as B::func(int).
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Namespaces – 1» Next - C++ Programming Questions and Answers – Exceptions 

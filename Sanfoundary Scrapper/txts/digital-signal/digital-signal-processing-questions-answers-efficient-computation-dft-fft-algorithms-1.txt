@@ -1,0 +1,96 @@
+1. Which of the following is true regarding the number of computations required to compute an N-point DFT?
+a) N2 complex multiplications and N(N-1) complex additions
+b) N2 complex additions and N(N-1) complex multiplications
+c) N2 complex multiplications and N(N+1) complex additions
+d) N2 complex additions and N(N+1) complex multiplications
+a
+X(k)=\(\sum_{n=0}^{N-1} x(n)e^{-j2πkn/N}\) 
+From the formula given at every step of computing we are performing N complex multiplications and N-1 complex additions. So, in a total to perform N-point DFT we perform N2 complex multiplications and N(N-1) complex additions.
+2. Which of the following is true regarding the number of computations required to compute DFT at any one value of ‘k’?
+a) 4N-2 real multiplications and 4N real additions
+b) 4N real multiplications and 4N-4 real additions
+c) 4N-2 real multiplications and 4N+2 real additions
+d) 4N real multiplications and 4N-2 real additions
+d
+X(k)=\(\sum_{n=0}^{N-1} x(n)e^{-j2πkn/N}\) 
+From the formula given at every step of computing we are performing N complex multiplications and N-1 complex additions. So, it requires 4N real multiplications and 4N-2 real additions for any value of ‘k’ to compute DFT of the sequence.
+3. WNk+N/2=?
+a) WNk
+b) -WNk
+c) WN-k
+d) None of the mentioned
+b
+4. What is the real part of the N point DFT XR(k) of a complex valued sequence x(n)?
+a) \(\sum_{n=0}^{N-1} [x_R (n) cos⁡\frac{2πkn}{N} – x_I (n) sin⁡\frac{2πkn}{N}]\) 
+b) \(\sum_{n=0}^{N-1} [x_R (n) sin⁡\frac{2πkn}{N} + x_I (n) cos⁡\frac{2πkn}{N}]\) 
+c) \(\sum_{n=0}^{N-1} [x_R (n) cos⁡\frac{2πkn}{N} + x_I (n) sin⁡\frac{2πkn}{N}]\) 
+d) None of the mentioned
+c
+XR(k)=\(\sum_{n=0}^{N-1} [x_R (n) cos⁡\frac{2πkn}{N} + x_I (n) sin⁡\frac{2πkn}{N}]\)
+5. The computation of XR(k) for a complex valued x(n) of N points requires _____________
+a) 2N2 evaluations of trigonometric functions
+b) 4N2 real multiplications
+c) 4N(N-1) real additions
+d) All of the mentioned
+d
+XR(k)=\(\sum_{n=0}^{N-1} [x_R (n) cos⁡\frac{2πkn}{N} + x_I (n) sin⁡\frac{2πkn}{N}]\) 
+So, from the equation we can tell that the computation of XR(k) requires 2N2 evaluations of trigonometric functions, 4N2 real multiplications and 4N(N-1) real additions.
+6. Divide-and-conquer approach is based on the decomposition of an N-point DFT into successively smaller DFTs. This basic approach leads to FFT algorithms.
+a) True
+b) False
+a
+7. If the arrangement is of the form in which the first row consists of the first M elements of x(n), the second row consists of the next M elements of x(n), and so on, then which of the following mapping represents the above arrangement?
+a) n=l+mL
+b) n=Ml+m
+c) n=ML+l
+d) none of the mentioned
+b
+8. If N=LM, then what is the value of WNmqL?
+a) WMmq
+b) WLmq
+c) WNmq
+d) None of the mentioned
+a
+9. How many complex multiplications are performed in computing the N-point DFT of a sequence using divide-and-conquer method if N=LM?
+a) N(L+M+2)
+b) N(L+M-2)
+c) N(L+M-1)
+d) N(L+M+1)
+d
+X(p,q)=\(\sum_{l=0}^{L-1}\{W_N^{lq}[\sum_{m=0}^{M-1}x(l,m) W_M^{mq}]\} W_L^{lp}\) 
+The first step involves L DFTs, each of M points. Hence this step requires LM2 complex multiplications, second require LM and finally third requires ML2. So, Total complex multiplications = N(L+M+1).
+10. How many complex additions are performed in computing the N-point DFT of a sequence using divide-and-conquer method if N=LM?
+a) N(L+M+2)
+b) N(L+M-2)
+c) N(L+M-1)
+d) N(L+M+1)
+b
+X(p,q)=\(\sum_{l=0}^{L-1}\{W_N^{lq}[\sum_{m=0}^{M-1}x(l,m) W_M^{mq}]\} W_L^{lp}\) 
+The first step involves L DFTs, each of M points. Hence this step requires LM(M-1) complex additions, second step do not require any additions and finally third step requires ML(L-1) complex additions. So, Total number of complex additions=N(L+M-2).
+11. Which is the correct order of the following steps to be done in one of the algorithm of divide and conquer method?
+i) Store the signal column wise
+ii) Compute the M-point DFT of each row
+iii) Multiply the resulting array by the phase factors WNlq.
+iv) Compute the L-point DFT of each column.
+v) Read the result array row wise.
+a) i-ii-iv-iii-v
+b) i-iii-ii-iv-v
+c) i-ii-iii-iv-v
+d) i-iv-iii-ii-v
+c
+12. If we store the signal row wise then the result must be read column wise.
+a) True
+b) False
+a
+13. If we store the signal row wise and compute the L point DFT at each column, the resulting array must be multiplied by which of the following factors?
+a) WNlq
+b) WNpq
+c) WNlq
+d) WNpm
+d
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Frequency Analysis of Signals Using DFT» Next - Digital Signal Processing Questions and Answers – Efficient Computation of DFT FFT Algorithms – 2 

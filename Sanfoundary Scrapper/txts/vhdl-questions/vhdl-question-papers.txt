@@ -1,0 +1,147 @@
+1. Generate statement is a _______ statement.
+a) Concurrent
+b) Sequential
+c) Concurrent as well as sequential
+d) Process
+a
+2. There are _______ types of GENERATE statement in VHDL.
+a) 2
+b) 3
+c) 4
+d) 5
+a
+3. A generate statement is generally associated with ________ modeling.
+a) Behavioral
+b) Data flow
+c) Structural
+d) Behavioral and data flow
+c
+4. What is the correct syntax for FOR generate statement?
+a)
+label : FOR parameter IN range GENERATE
+      begin
+      declarations;
+      concurrent statement
+      END GENERATE label;
+b)
+label : FOR parameter IN range GENERATE
+      declarations;
+      begin
+      concurrent statement
+      END GENERATE label;
+c)
+label : FOR parameter IN range GENERATE
+      declarations;
+      begin
+      sequential statement
+      END GENERATE label;
+d)
+label : FOR parameter IN range GENERATE
+      declarations;
+      begin
+      sequential statement
+      END label GENERATE;
+b
+  
+5. Using a label is compulsory with a GENERATE statement.
+a) True
+b) False
+a
+6. Which of the following is a correct statement for IF generate statement?
+a)
+     IF condition GENERATE
+     begin
+     declarations;
+     concurrent_statements;
+     END GENERATE label;
+b)
+     label : IF condition GENERATE
+     declarations;
+     begin
+     sequential_statements;
+     END GENERATE label;
+c)
+     IF condition GENERATE
+     declarations;
+     begin
+     sequential_stataements;
+     END GENERATE label;
+d)
+     label : IF condition GENERATE
+     declarations;
+     begin
+     concurrent_statements;
+     END GENERATE label;
+d
+  
+7. FOR generate creates ____________ objects.
+a) Dissimilar
+b) Unique
+c) Different
+d) Similar
+d
+8. What is realized in the code given below?
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+ENTITY my_logic IS
+GENERIC n : INTEGER := 8;
+PORT (sig1 : bit_vector(n-1 DOWNTO 0);
+             Sig2 : bit_vector(n-1 DOWNTO 0));
+END my_logic;
+ARCHITECTURE test OF my_logic IS
+COMPONENT or2
+   PORT(a0, a1 : IN BIT;
+                z         : OUT BIT);
+END COMPONENT or
+BEGIN
+ORARRAY : FOR i IN (n-1) DOWNTO 0 GENERATE
+                   or_gate : or2
+PORT MAP ( a0 => sig1(i),
+                       A1 => sig2(i),
+                         z => y(i));
+END GENERATE ORARRAY;
+END test;
+a) 7- Bit parallel adder ignoring the carry
+b) 7- Bit parallel adder including the carry
+c) 8- Bit parallel adder ignoring the carry
+d) 8- bit parallel adder including the carry
+c
+9. Which of the following is legal?
+a)
+     label : FOR n IN 7 DOWNTO 0 GENERATE
+     concurrent_statement; 
+      END GENERATE;
+b)
+     label : FOR n IN 7 DOWNTO 0 GENERATE
+     declarations;     
+      concurrent_statement; 
+      END GENERATE;
+c)
+    label : FOR n IN 7 DOWNTO 0 GENERATE
+     begin
+     declarations; 
+     concurrent_statement; 
+      END GENERATE;
+d)
+    label : FOR n IN 7 DOWNTO 0 GENERATE
+    begin 
+    concurrent_statement; 
+     END GENERATE label;
+a
+  
+10. Generate statements can’t be nested.
+a) True
+b) False
+b
+11. Which of the following is not possible to use inside the FOR generate statement?
+a) IF
+b) IN
+c) EXIT
+d) PORT MAP
+c
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all questions papers on VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Aliases and Qualified Expressions» Next - VHDL Questions and Answers – All Keywords in VHDL – 1 

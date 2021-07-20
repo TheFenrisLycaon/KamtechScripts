@@ -1,0 +1,86 @@
+1. Which of these object stores association between keys and values?
+a) Hash table
+b) Map
+c) Array
+d) String
+b
+2. Which of these classes provide implementation of map interface?
+a) ArrayList
+b) HashMap
+c) LinkedList
+d) DynamicList
+b
+3. Which of these method is used to remove all keys/values pair from the invoking map?
+a) delete()
+b) remove()
+c) clear()
+d) removeAll()
+b
+4. Which of these method Map class is used to obtain an element in the map having specified key?
+a) search()
+b) get()
+c) set()
+d) look()
+b
+5. Which of these methods can be used to obtain set of all keys in a map?
+a) getAll()
+b) getKeys()
+c) keyall()
+d) keySet()
+d
+6. Which of these method is used add an element and corresponding key to a map?
+a) put()
+b) set()
+c) redo()
+d) add()
+a
+7. What will be the output of the following Java program?
+    import java.util.*;    class Maps     {        public static void main(String args[])         {            HashMap obj = new HashMap();            obj.put("A", new Integer(1));            obj.put("B", new Integer(2));            obj.put("C", new Integer(3));            System.out.println(obj);        }    }
+a) {A 1, B 1, C 1}
+b) {A, B, C}
+c) {A-1, B-1, C-1}
+d) {A=1, B=2, C=3}
+d
+Output:
+$ javac Maps.java
+$ java Maps 
+{A=1, B=2, C=3}
+8. What will be the output of the following Java program?
+    import java.util.*;    class Maps     {        public static void main(String args[])         {            HashMap obj = new HashMap();            obj.put("A", new Integer(1));            obj.put("B", new Integer(2));            obj.put("C", new Integer(3));            System.out.println(obj.keySet());        }    }
+a) [A, B, C] 
+b) {A, B, C}
+c) {1, 2, 3}
+d) [1, 2, 3] 
+a
+Output:
+$ javac Maps.java
+$ java Maps 
+[A, B, C].
+9. What will be the output of the following Java program?
+    import java.util.*;    class Maps     {        public static void main(String args[])         {            HashMap obj = new HashMap();            obj.put("A", new Integer(1));            obj.put("B", new Integer(2));            obj.put("C", new Integer(3));            System.out.println(obj.get("B"));        }    }
+a) 1
+b) 2
+c) 3
+d) null
+b
+Output:
+$ javac Maps.java
+$ java Maps 
+2
+10. What will be the output of the following Java program?
+    import java.util.*;    class Maps     {        public static void main(String args[])         {            TreeMap obj = new TreeMap();            obj.put("A", new Integer(1));            obj.put("B", new Integer(2));            obj.put("C", new Integer(3));            System.out.println(obj.entrySet());        }    }
+a) [A, B, C] 
+b) [1, 2, 3] 
+c) {A=1, B=2, C=3}
+d) [A=1, B=2, C=3] 
+d
+Output:
+$ javac Maps.java
+$ java Maps 
+[A=1, B=2, C=3].
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.util – LinkedList, HashSet & TreeSet Class» Next - Java Questions & Answers – Java.util – Vectors & Stack 

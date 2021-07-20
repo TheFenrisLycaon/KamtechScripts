@@ -1,0 +1,112 @@
+1. What do you mean by scale factor in terms of rubber engine?
+a) ratio of thrust required by rubber engine to the actual thrust from selected existing engine
+b) Lift to drag ratio
+c) Thrust coefficient to drag coefficient
+d) Thrust required to thrust available
+a
+2. Which of the following is correct?
+a) Length L = Lactual*(SF) 0.4
+b) Length L = Lactual / (SF) 0.4
+c) Length L = Lactual*(SF) 2
+d) Length L = 2*Lactual
+a
+3. A Turbofan engine is to be scale in order to have our desired engine characteristics. If length of the existing engine selected is 2.5 unit and required scale factor is 0.8 then, evaluate approximate length of our engine.
+a) 2.28 unit
+b) 5.6 unit
+c) 10 unit
+d) 15 unit
+a
+Approximate length is given by,
+Length L = Lactual*(SF) 0.4
+Length L = 2.5*(0.8) 0.4 = 2.28 unit.
+4. Diameter of rubber engine is 94 inch and required scale factor is 0.7 then, what will be the actual diameter of selected engine?
+a) 112.35 in
+b) 150 in
+c) 200 in
+d) 50 in
+a
+Now, actual diameter is given by,
+Actual diameter D = d / (SF)0.5 = 94 / (2.7)0.5 = 112.35in.
+5. Evaluate required scale factor if ratio of weight of the rubber engine and the actual selected engine is 0.8.
+a) 0.8164
+b) 0.012
+c) 6.2
+d) 1
+a
+Now, weight of the rubber engine is given by, w = W * SF1.1
+Hence, SF1.1 = w/W = 0.8
+1.1*ln (SF) = ln0.8 = -0.223
+Hence, ln (SF) = -0.223/1.1 = -0.2028
+Hence, SF = e-0.2028 = 0.8164.
+Join [email protected]
+6. Subsonic non after burning engine needs to be design based on following data. Take off trust is 15000 N and bypass ratio is 1.2. Find the weight of this engine. Consider first order statistical jet engine model.
+a) 3123 unit
+b) 325 unit
+c) 445.5 unit
+d) 560.59 unit
+a
+Now, weight is given by, W = 0.084 * (T1.1)* e (-0.045*BPR).
+W = 0.084 * (150001.1) * e (-0.045*1.2) = 0.084*39237.4147*0.9474 = 3123 unit.
+7. Based on first order statistical jet engine model, we have been given a task to design a subsonic non afterburning engine which is operating at maximum Mach number of 0.7. Evaluate the approximate length required to build this engine. Given thrust at takeoff is 9600 unit.
+a) 81 unit
+b) 10 unit
+c) 20 unit
+d) 22 unit
+a
+Length L = 2.22*T0.4*M0.2 = 2.22*96000.4*0.70.2 = 2.22*39.165*0.9311 = 80.95 ∼ 81 unit.
+8. Engine which can be estimated through statistical jet engine model has bypass ratio of 1.2 and maximum thrust at takeoff is 8000 Newton then what should be the design diameter for this engine. Consider a subsonic non after burning engine.
+a) 36.87 unit
+b) 6.19 unit
+c) 7.2 unit
+d) 58.93 unit
+a
+Diameter d is given by, d = 0.393 * (T0.5) * e (0.04 * BPR) = 0.393 * (8000)0.5 * e (0.04 * 1.2)
+= 0.393*89.442*1.049 = 36.87 unit.
+9. If bypass ratio of subsonic non afterburning engine is 1.5 then, what will be the value of maximum thrust specific fuel consumption.
+a) 0.556
+b) 0.12
+c) 0.0789
+d) 0.092
+a
+Maximum thrust SFC = 0.67*e(-0.12*BPR) = 0.67* e(-0.12*1.5) = 0.556.
+10. Subsonic non afterburning engine has takeoff thrust of 8000 Newton and is operating with BPR of 1.2 then, what will be the approximate value of thrust at cruise.
+a) 2001.5 unit
+b) 1001.5 unit
+c) 500 unit
+d) 100 unit
+a
+Now, thrust at cruise T = 0.60 * T10.9 * e (0.02*BPR) = 0.60 * (8000)0.9 * e (0.02*1.2) = 0.60*3256.724*1.024 = 2001.49 = 2001.5 unit.
+11. Inlet location will not affect engine performance.
+a) True
+b) False
+a
+12. Which of the following is an advantage of nose inlet?
+a) Clean airflow
+b) Unclean airflow
+c) Very long internal duct
+d) Swirled flow always
+a
+13. Chin inlet sufferers from _____________
+a) foreign object ingestion problem
+b) shorter duct length
+c) duct length is shorter than the nose inlet
+d) typically good at high AOA
+a
+14. Following diagram represents _____________
+a) inlet applicability
+b) outlet geometry
+c) exhaust section
+d) empennage
+a
+15. Large cowl lip radius will produce ____________
+a) shock separated flow outside of the inlet
+b) shock attached flow
+c) high lifting tendency always
+d)expansion fan
+a
+Sanfoundry Global Education & Learning Series – Aircraft Design.
+To practice all areas of Aircraft Design, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aircraft Design Questions and Answers – Propulsion Selection» Next - Aircraft Design Questions and Answers – Propulsion – Jet-Engine Integration-2 

@@ -1,0 +1,101 @@
+1. Butterworth and Low pass filters use _________
+a) IIR and FIR Design
+b) FIR and IIR Design
+c) FIR Design
+d) IIR Design
+a
+2. The result of the following code is
+p=dtft([1,2,3],3)
+a) Returns a 3-point D.T.F.T.
+b) Returns a N-point D.T.F.T.
+c) Returns a 3-point D.F.T.
+d) Error
+d
+3. The above command will give
+A=fft((1,2,3),2)
+a) D,F,T after taking a truncated input
+b) Yield a 2-point D.F.T.
+c) Uses the Butterfly algorithm
+d) Error
+d
+4. The fir1 command can be used to find _____________
+a) High Pass Filters using IIR method
+b) Low Pass Filters FIR method
+c) Filters using Window Method
+d) FIR filters using Window Method
+d
+5. The multiplication of two signal in time domain signifies _______
+a) Convolution in time domain
+b) Convolution in frequency (jw)  domain
+c) Multiplication in frequency (jw) domain
+d) Nothing
+c
+6. The window function is used to __________
+a) multiply it with the incoming signal
+b) add it with the incoming signal
+c) subtract it from the incoming signal
+d) divide the incoming signal
+a
+7. The output of the following codes are
+i fft([1,2],2,2)
+ii. fft([1,2],2)
+a) same
+b) different
+c) I will give error
+d) ii wil give error
+a
+8. The butter() command takes in ________
+a) Stopband attenuation
+b) Order of the filter
+c) Ripple frequency
+d) Nothing
+b
+9. The blackmann(N) command returns a ___________
+a) N-point periodic blackmann window
+b) N+1-point periodic blackmann window
+c) N+1-point periodic blackmann window
+d) N-point symmetric blackmann window
+d
+10. The result of the following command is
+hamming[32]
+a) Error
+b) A 32 point symmetric Hamming Window
+c) A 33 point periodic Hamming Window
+d) A 33 point Hamming Window
+a
+11. fft2 returns _________
+a) a 2-d matrix
+b) a 2-d D.F.T
+c) a vector
+d) No such command
+a
+12. What is the function of the unwarp command?
+a) Generate smoother phase plots
+b) Generate smoother gain plots
+c) Generate smoother root locus
+d) No such command
+a
+13. The default tolerance of the unwarp() function is ________
+a) pi
+b) 2*pi
+c) pi/2
+d) 0
+a
+14. The hamming command returns a ___________
+a) matrix
+b) row vector
+c) column vector
+d) no such command
+c
+15. What is the value of N while creating a 27 point Hamming window?
+a) 28
+b) 26
+c) 14
+d) 13
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Default Variables» Next - MATLAB Questions and Answers – Fourier Analysis and Filtering – 2 

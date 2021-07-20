@@ -1,0 +1,71 @@
+Sanfoundry’s 1000+ MCQs on C helps anyone preparing for placement in Citrix and other companies. Anyone looking for Citrix placement papers should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in placements.
+Here is a listing of C programming questions on “Pointer to Structures” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *c;    };    void main()    {        struct student m;        struct student *s = &m;        s->c = "hello";        printf("%s", s->c);    }
+a) hello
+b) Run time error
+c) Nothing
+d) Depends on compiler
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *c;    };    void main()    {        struct student *s;        s->c = "hello";        printf("%s", s->c);    }
+a) hello
+b) Segmentation fault
+c) Run time error
+d) Nothing
+b
+3. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *c;    };    void main()    {        struct student m;        struct student *s = &m;        s->c = "hello";        printf("%s", m.c);    }
+a) Run time error
+b) Nothing
+c) hello
+d) Varies
+c
+4. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *c;    };    void main()    {        struct student m;        struct student *s = &m;        (*s).c = "hello";        printf("%s", m.c);    }
+a) Run time error
+b) Nothing
+c) Varies
+d) hello
+d
+5. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char *c;    };    void main()    {        struct student n;        struct student *s = &n;        (*s).c = "hello";        printf("%p\n%p\n", s, &n);    }
+a) Different address
+b) Run time error
+c) Nothing
+d) Same address
+d
+6. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        int x[2];    };    struct q    {        int *x;    };    int main()    {        struct p p1 = {1, 2};        struct q *ptr1;        ptr1->x = (struct q*)&p1.x;        printf("%d\n", ptr1->x[1]);    }
+a) Compile time error
+b) Segmentation fault/code crash
+c) 2
+d) 1
+b
+7. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        int x[2];    };    struct q    {        int *x;    };    int main()    {        struct p p1 = {1, 2};        struct q *ptr1 = (struct q*)&p1;        ptr1->x = (struct q*)&p1.x;        printf("%d\n", ptr1->x[0]);    }
+a) Compile time error
+b) Undefined behaviour
+c) Segmentation fault/code crash
+d) 1
+b
+8. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        int x;        int y;    };    int main()    {        struct p p1[] = {1, 2, 3, 4, 5, 6};        struct p *ptr1 = p1;        printf("%d %d\n", ptr1->x, (ptr1 + 2)->x);    }
+a) 1 5
+b) 1 3
+c) Compile time error
+d) 1 4
+a
+9. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        int x;        char y;    };    int main()    {        struct p p1[] = {1, 92, 3, 94, 5, 96};        struct p *ptr1 = p1;        int x = (sizeof(p1) / sizeof(struct p));        printf("%d %d\n", ptr1->x, (ptr1 + x - 1)->x);    }
+a) Compile time error
+b) Undefined behaviour
+c) 1 3
+d) 1 5
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Pointer to Structures – 1» Next - C Programming Questions and Answers – Self-Referential Structures – 1 

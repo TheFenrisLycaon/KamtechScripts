@@ -1,0 +1,72 @@
+1. What is the image that we have been using to boot Intel Galileo Gen 2 board?
+a) Local agent
+b) IoTkit
+c) Device Id
+d) SSH Terminal
+a
+2. The agent running as a _________ on a device.
+a) SSH Terminal
+b) Yocto Linux
+c) Daemon
+d) Local agent
+c
+3. _________ command line utility allows us to perform specific interactions with Intel IoT Analytics.
+a) Iotkit-admin
+b) SSH Terminal
+c) Local agent
+d) Daemon
+a
+4. We will not use command line utility to perform _________
+a) proper communication with Intel IoT analytics
+b) Obtain device id
+c) Activate device
+d) Send observations
+d
+–>	Test the proper communication with Intel IoT Analytics
+–>	Obtain the device Id
+–>	Activate a device
+–>	Register three time series components for the device
+–>	Send test observations.
+5. To check whether the command line utility can establish proper communication the command is _________
+a) iotkit-admin test
+b) iotkit – admin test
+c) admin-iotkit test
+d) admin – iotkit test
+a
+Iotkit-admin test.
+6. Build: 0.14.5 defines what?
+a) Ip Address
+b) Medium
+c) Address
+d) Version
+d
+7. Command line to obtain the device Id?
+a) iotkit-admin device-id
+b) iotkit-admin deviceid
+c) Iotkit – admin device-id
+d) Iotkit – admin device – id
+a
+Iotkit-admin device-id.
+8. Default, device Id is equal to _________
+a) IP Address
+b) MAC Address
+c) ISP
+d) UI
+b
+2016-04.05T02:23:170Z – info: Device ID: 98-4F-EE-01-75-72.
+9. Command to change the device Id?
+a) iotkit-admin set-device-id new-device-id
+b) iotkit – admin set – device – id new – device – id
+c) iotkit-admin setdevice-id newdevice-id
+d) iotkit-admin set-device-id new-device-id
+d
+10. Do new device ID should be a globally unique identifier.
+a) False
+b) True
+b
+Sanfoundry Global Education & Learning Series – IOT.
+To practice all areas of IOT for Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - IOT Questions and Answers – Understanding the Intel IoT Analytics Structure» Next - IOT Questions and Answers – Collecting Sensor Data 

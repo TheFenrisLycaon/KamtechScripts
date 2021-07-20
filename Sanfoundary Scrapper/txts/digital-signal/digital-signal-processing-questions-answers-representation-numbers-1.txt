@@ -1,0 +1,74 @@
+1. If (101.01)2=(x)10, then what is the value of x?
+a) 505.05
+b) 10.101
+c) 101.01
+d) 5.25
+d
+=>x=5.25.
+2. If X is a real number with ‘r’ as the radix, A is the number of integer digits and B is the number of fraction digits, then X=\(\sum_{i=-A}^B b_i r^{-i}\).
+a) True
+b) False
+a
+3. The binary point between the digits b0 and b1 exist physically in the computer.
+a) True
+b) False
+b
+4. What is the resolution to cover a range of numbers xmax-xmin with ‘b’ number of bits?
+a) (xmax+xmin)/(2b-1)
+b) (xmax+xmin)/(2b+1)
+c) (xmax-xmin)/(2b-1)
+d) (xmax-xmin)/(2b+1)
+c
+Δ=(xmax-xmin)/(m-1)
+where m=2b is the number of levels and ‘b’ is the number of bits.
+5. What are the mantissa and exponent required respectively to represent ‘5’ in binary floating point representation?
+a) 011,0.110000
+b) 0.110000,011
+c) 011,0.101000
+d) 0.101000,011
+d
+5=0.625*8=0.625*23
+The above number can be represented in binary float point representation as 0.101000*2011
+Thus Mantissa=0.101000, Exponent=011.
+6. If the two numbers are to be multiplied, the mantissa are multiplied and the exponents are added.
+a) True
+b) False
+a
+If we multiply both X and Y, we get X.Y=(M.N).2E+F
+Thus if we multiply two numbers, the mantissa are multiplied and the exponents are added.
+Join Sanfoundry@YouTube
+7. What is the smallest floating point number that can be represented using a 32-bit word?
+a) 3*10-38
+b) 2*10-38
+c) 0.2*10-38
+d) 0.3*10-38
+d
+Thus, the smallest floating point number that can be represented using the 32 bit number is
+(1/2)*2-127=0.3*10-38
+Thus, the smallest floating point number that can be represented using the 32 bit number is
+(1-2-23)*2127=1.7*1038.
+8. If 0<E<255, then which of the following statement is true about X?
+a) Fractional number
+b) Infinity
+c) Mixed number
+d) Zero
+c
+From the above equation we can interpret that,
+If 0<E<255, then X=(-1)s.2E-127(1.M)=>X is a mixed number.
+9. For a twos complement representation, the truncation error is ____________
+a) Always positive
+b) Always negative
+c) Zero
+d) None of the mentioned
+b
+-(2-b-2-bm) ≤ Et ≤ 0.
+10. Due to non-uniform resolution, the corresponding error in a floating point representation is proportional to the number being quantized.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – State-Space System Analysis and Structures» Next - Digital Signal Processing Questions and Answers – Representation of Numbers – 2 

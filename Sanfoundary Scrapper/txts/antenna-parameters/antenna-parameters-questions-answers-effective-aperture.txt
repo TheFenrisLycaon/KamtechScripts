@@ -1,0 +1,63 @@
+1. Effective aperture is the ability of antenna to extract energy from the electromagnetic wave.
+a) True
+b) False
+a
+2. Which of the following best describes the condition for Maximum effective aperture?
+a) Load impedance must be equal to the antenna impedance
+b) Load impedance must be equal complex conjugate to the antenna impedance
+c) Receiver power should be minimum
+d) Transmitter power should be minimum
+b
+3. What is the effective aperture of Hertzian dipole antenna operating at frequency 100 MHz?
+a) 1.07m2
+b) 0.17m2
+c) 1.7m2
+d) 1.2m2
+a
+Gain of Hertzian dipole is 1.5
+\(\lambda=\frac{c}{f}=\frac{3×10^8}{100×10^6}=3m\) 
+\(A_e=1.5 \frac{\lambda^2}{4\pi} =1.5\frac{3^2}{4\pi} =1.07m^2\) 
+4. If physical aperture of antenna is 0.02m2 and aperture efficiency is 0.5, then what is the value of effective aperture?
+a) 0.0004m2
+b) 0.001m2
+c) 0.01m2
+d) 25m2
+c
+5. Expression for aperture efficiency in terms of physical aperture Ae and effective aperture Aem is ____
+a) \(\frac{A_e}{A_{em}}\) 
+b) \(\frac{A_{em}}{A_e}\) 
+c) \(\frac{A_e+A_{em}}{A_e-A_{em}}\) 
+d) \(\frac{A_e-A_{em}}{A_e+A_{em}}\) 
+b
+6. What is the effective aperture of a Half-wave dipole operating at 100MHz?
+a) 1.07m2
+b) 1.17m2
+c) 1.27m2
+d) 1.77m2
+b
+The effective aperture of half-wave dipole is \(A_e=1.64\frac{\lambda^2}{4\pi}\) 
+\(\lambda=\frac{c}{f}=\frac{3×10^8}{100×10^6}=3m\) 
+\(A_e=1.64 \frac{\lambda^2}{4\pi} = 1.64 \frac{3^2}{4\pi}\)=1.17m2.
+7. What is the relation between effective length and Effective aperture of antenna?
+a) \(A_e = \frac{dL^2\eta}{4R_{rad}}\) 
+b) \(A_e = \frac{dL^2}{4\eta R_{rad}}\) 
+c) \(A_e = \frac{dL^2 R_{rad}}{4\eta}\) 
+d) \(A_e = \frac{dL^2 \eta ^2}{4R_{rad}}\) 
+a
+The received power is maximum when load equal to complex conjugate of network resistance.
+⇨ \(I_{total}=\frac{V_{oc}}{2R_{rad}}\) 
+⇨ \(P_{Rmax}=I_{rms}^2 R_{rad}= (\frac{I_{total}}{\sqrt 2})^2 R_{rad}=\frac{V_{oc}^2}{8R_{rad}}=\frac{\mid E_\theta\mid^2 dL^2}{8R_{rad}} and P_{avg}=\frac{\mid E_\theta\mid^2}{2\eta} \) 
+\(A_e=\frac{P_{Rmax}}{P_{avg}}=\frac{dL^2\eta}{4R_{rad}}\)
+8. The physical aperture of an isotropic radiator is _______
+a) \(\frac{4\pi \eta}{\lambda^2}\) 
+b) \(\frac{4\pi}{\lambda^2 \eta}\) 
+c) \(\frac{\lambda^2}{4\pi \eta}\) 
+d) \(\frac{\lambda^2\eta}{4\pi}\) 
+c
+Then physical aperture =\(\frac{Effective\, aperture}{Aperture\, efficiency}=\frac{\lambda^2}{4\pi \eta}\)
+Sanfoundry Global Education & Learning Series – Antennas.
+To practice all areas of Antennas, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antenna Parameters Questions and Answers – Directivity» Next - Antenna Parameters Questions and Answers – Radiation Resistance 

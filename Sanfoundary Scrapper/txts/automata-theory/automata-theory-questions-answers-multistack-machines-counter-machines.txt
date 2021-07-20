@@ -1,0 +1,69 @@
+1. Can a single tape turing machine be simulated using deterministic 2-stack turing machine?
+a) Yes
+b) No
+c) Cannot be said
+d) none of the mentioned
+a
+2. A ___________ is a multi tape turing machine whose input tape is read only.
+a) Counter Machine
+b) Multi-stack
+c) Alternating Turing machine
+d) None of the mentioned
+a
+3. Instantaneous description of a counter machine can be described using:
+a) the input tape contents
+b) position of the input head
+c) distance of storage heads from symbol Z
+d) all of the mentioned
+d
+4. Which of the following parameters cannot be used to restrict a turing machine?
+a) tape alphabets
+b) number of tapes
+c) number of states
+d) none of these
+d
+5. Linear Bounded Automaton is a:
+a) Finite Automaton
+b) Turing Machine
+c) Push down Automaton
+d) None of the mentioned
+b
+6. State true or false:
+Statement: Using a two track tape, we can use a semi infinite tape to simulate an infinte tape.
+a) true
+b) false
+e
+7. Which of the following is true with reference to semi-infinite tape using a two track tape?
+a) Can simulate a two way tape
+b) Upper track represents the head-right cells
+c) Lower track represents the head-left cells
+d) All of the mentioned
+d
+8. Which among the following options are correct?
+Statement 1: TMs can accept languages that are not  accepted by any PDA with one stack.
+Statement 2: But PDA with two stacks can accept any  language that a TM can accept.
+a) Statement 1 and 2, both are correct
+b) Statement 1 is correct but Statement 2 is false
+c) Statement 2 is correct while Statement 1 is false
+d) Statement 1 and 2, both are false
+a
+9. A two-way infinite tape turing machine is ________ superior than the basic model of the turing machine in terms of power.
+a) more
+b) less
+c) no way
+d) none of the mentioned
+c
+10. For a basic turing machine, there exists an equivalent :
+a) 2-counter machine
+b) 3-counter machine
+c) 4-counter machine
+d) All of the mentioned
+d
+We can prove them using Deterministic two stack turing machine.
+Counter machine:
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Non Deterministic Turing Machines» Next - Automata Theory Questions and Answers –  Simulation of Turing Machine 

@@ -1,0 +1,95 @@
+This section on C++ MCQs (multiple choice questions) focuses on “Exceptions That Are Not Errors”. One shall practice these MCQs to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our multiple choice questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C multiple choice questions on “Exceptions That Are Not Errors” along with answers, explanations and/or solutions:
+1. Which is used to handle the exceptions in c++?
+a) catch handler
+b) handler
+c) exception handler
+d) throw
+c
+2. Which type of program is recommended to include in try block?
+a) static memory allocation
+b) dynamic memory allocation
+c) const reference
+d) pointer
+b
+3. Which statement is used to catch all types of exceptions?
+a) catch()
+b) catch(Test t)
+c) catch(…)
+d) catch(Test)
+c
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int x = -1;        try         {            if (x < 0)            {                throw x;            }            else            {                cout<<x;            }        }        catch (int x )        {            cout << "Exception occurred: Thrown value is " << x << endl;        }        return 0;    }
+a) -1
+b) 0
+c) Exception occurred: Thrown value is -1
+d) Error
+c
+Output:
+$ g++ etae.cpp
+$ a.out
+Exception occurred: Thrown value is -1
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <typeinfo>    using namespace std;    class Polymorphic {virtual void Member(){}};    int main ()     {        try        {            Polymorphic * pb = 0;            typeid(*pb);           }        catch (exception& e)        {            cerr << "exception caught: " << e.what() << endl;        }        return 0;    }
+a) exception caught: std::bad_typeid
+b) exception caught: std::bad_alloc
+c) exception caught: std::bad_cast
+d) exception caught: std::bad_id
+a
+Output:
+$ g++ etae.cpp
+$ a.out
+exception caught: std::bad_typeid
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <exception>    using namespace std;    void myunexpected ()     {        cout << "unexpected handler called\n";        throw;    }    void myfunction () throw (int,bad_exception)     {        throw 'x';    }    int main (void)    {        set_unexpected (myunexpected);        try         {            myfunction();        }            catch (int)         {             cout << "caught int\n";         }        catch (bad_exception be)         {             cout << "caught bad_exception\n";         }        catch (...)         {             cout << "caught other exception \n";         }        return 0;    }
+a) unexpected handler called
+b) caught bad_exception
+c) caught other exception
+d) both unexpected handler called & caught bad_exception
+d
+Output:
+$ g++ etae.cpp
+$ a.out
+unexpected handler called
+caught bad_exception
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;     int main()    {        int x = -1;        char *ptr;        ptr = new char[256];        try         {            if (x < 0)            {                throw x;            }            if (ptr == NULL)            {                throw " ptr is NULL ";            }        }        catch (...)         {            cout << "Exception occurred: exiting "<< endl;        }        return 0;    }
+a) -1
+b) ptr is NULL
+c) exception occured: exiting
+d) 1
+c
+Output:
+$ g++ etea.cpp
+$ a.out
+Exception occured: exiting
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <exception>    using namespace std;    void myunexpected ()    {        cout << "unexpected called\n";        throw 0;    }    void myfunction () throw (int)     {        throw 'x';    }    int main ()     {        set_unexpected (myunexpected);        try         {            myfunction();        }        catch (int)         {            cout << "caught int\n";        }        catch (...)          {             cout << "caught other exception\n";         }        return 0;    }
+a) caught other exception
+b) caught int
+c) unexpected called
+d) both caught int & unexpected called
+d
+Output:
+$ g++ etea.cpp
+$ a.out
+unexpected called
+caught int
+9. How to handle error in the destructor?
+a) throwing
+b) terminate
+c) both throwing & terminate
+d) try
+b
+10. What kind of exceptions are available in c++?
+a) handled
+b) unhandled
+c) static
+d) dynamic
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Resource Management» Next - C++ Programming Questions and Answers – Exception Specifications 

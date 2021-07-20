@@ -1,0 +1,68 @@
+1. In terms of Sampling and Quantization, Zooming and Shrinking may be viewed as ___________
+a)	Oversampling for both
+b)	Oversampling and Undersampling respectively
+c)	Undersampling and Oversampling respectively
+d)	Undersampling for both
+b
+Undersampling decreases the number of samples in the image, i.e. like Shrinking.
+2. The two steps: one is the creation of new pixel locations, and other is the assignment of gray levels to those new locations are involved in ____________
+a)	Shrinking
+b)	Zooming
+c)	All of the mentioned
+d)	None of the mentioned
+b
+Creation of new Pixels: One of the easiest ways to visualize zooming is laying an imaginary 750*750 grid over the original image and so there would be less spacing by one pixel in the grid because we are fitting it over a smaller image.
+Assignment of gray levels to new locations: In order to perform gray-level assignment for any point in the overlay, we assign its gray level to the new pixel in the grid its closest pixel in the original image.
+When the above steps are done with all points in the overlay grid, we expand it to the original specified size to obtain the zoomed image.
+3. While Zooming, In order to perform gray-level assignment for any point in the overlay, we assign its gray level to the new pixel in the grid its closest pixel in the original image. What’s this method of gray-level assignment called?
+a)	Neighbor Duplication
+b)	Duplication
+c)	Nearest neighbor Interpolation
+d)	None of the mentioned
+c
+4. A special case of nearest neighbor Interpolation that just duplicates the pixels the number of times to achieve the desired size, is known as ___________
+a)	Bilinear Interpolation
+b)	Contouring
+c)	Ridging
+d)	Pixel Replication
+d
+For example, doubling the size of an image is achieved duplicating each column and hence image size gets doubled in the horizontal direction. Then, we duplicate each row of the enlarged image to double the size in the vertical direction. Similarly, enlarging the image by any integer number of times (triple, quadruple, and so on) is possible.
+5. Nearest neighbor Interpolation has an undesirable feature, that is _________
+a)	Aliasing effect
+b)	False contouring effect
+c)	Ridging effect
+d)	Checkerboard effect
+d
+6. What does the bilinear Interpolation do for gray-level assignment?
+a)	Assign gray level to the new pixel using its right neighbor
+b)	Assign gray level to the new pixel using its left neighbor
+c)	Assign gray level to the new pixel using its four nearest neighbors
+d)	Assign gray level to the new pixel using its eight nearest neighbors
+c
+For bilinear interpolation, the assigned gray level is given by
+	v(x’, y’) = ax’ + by’ + cx’y’ + d
+Here, a, b, c and d are determined from the four equations in four unknowns that can be written using the four nearest neighbors of point (x’, y’).
+7. Row-column deletion method of Image Shrinking is an equivalent process to which method of Zooming?
+a)	Bilinear Interpolation
+b)	Contouring
+c)	Pixel Replication
+d)	There is no such equivalent process
+c
+In case of one-half we delete every other row and column.
+8. Image Shrinking has an undesirable feature, that is ____________
+a)	Aliasing effect
+b)	False contouring effect
+c)	Ridging effect
+d)	Checkerboard effect
+a
+9. State for the validation of the statement:
+“In general-purpose for a digital image of zooming and shrinking, where Bilinear Interpolation generally is the method of choice over nearest neighbor Interpolation”.
+a)	True
+b)	False
+a
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Spatial and Gray-Level Resolution and Aliasing» Next - Digital Image Processing Questions and Answers – Relationship between Pixels and Image Enhancement Basics 

@@ -1,0 +1,124 @@
+1. What is the value of τ in the expression of Cpm process capability ratio?
+a) \(τ=\sqrt{[E\big\{x-T)^2]}\) 
+b) \(τ=\sqrt{E[{x+T}^2]}\) 
+c) \(τ=\sqrt{E[(x-T)^2]}\) 
+d) \(τ=\sqrt{E[(x+T)^2]}\) 
+a
+\(τ=\sqrt{[E\big\{x-T)^2]}\)
+2. Which of these is equal to the squared value of τ?
+a) σ2-(μ+T)2
+b) σ2+(μ-T)2
+c) σ2-(μ-T)2
+d) σ2+(μ+T)2
+b
+τ2=E[(x-T)2]=E[(x-μ)2 ]+(μ-T)2=σ2+(μ-T)2.
+3. Which of these is having same value as Cpm?
+a) \(\frac{USL-LSL}{6\sqrt{σ^2-(μ-T)^2}}\) 
+b) \(\frac{USL+LSL}{6\sqrt{σ^2-(μ-T)^2}}\) 
+c) \(\frac{USL-LSL}{6\sqrt{σ^2+(μ-T)^2}}\) 
+d) \(\frac{USL+LSL}{6\sqrt{σ^2+(μ-T)^2}}\) 
+c
+τ2=σ2+(μ-T)2
+We may write,
+ Cpm = \(\frac{USL-LSL}{6\sqrt{σ^2+(μ-T)^2}}\)
+4. What is value of ξ in the expression for Cpm Process Capability Ratio?
+a) \(\frac{μ+T}{3σ}\) 
+b) \(\frac{μ-T}{6σ}\) 
+c) \(\frac{μ+T}{σ}\) 
+d) \(\frac{μ-T}{σ}\) 
+d
+ξ = \(\frac{μ-T}{σ}\)
+5. If standard values are not given, the value of Cpm is estimated by expression _____
+a) \(\widehat{C_{pm}}=\frac{C_p}{\sqrt{1+V^2}}\) 
+b) \(\widehat{C_{pm}}=\frac{C_p}{\sqrt{1-V}}\) 
+c) \(\widehat{C_{pm}}=\frac{C_p}{\sqrt{1+V}}\) 
+d) \(\widehat{C_{pm}}=\frac{C_p}{\sqrt{1-V^2}}\) 
+a
+\(\widehat{C_{pm}}=\frac{C_p}{\sqrt{1+V^2}}\)
+6. What is the value of V in the expression of the estimate of Cpm Process Capability Ratio?
+a) \(\frac{\bar{x}-T}{s}\) 
+b) \(\frac{\bar{x}+T}{s}\) 
+c) \(\frac{\bar{x}-T}{s^2}\) 
+d) \(\frac{\bar{x}-T}{σ}\) 
+a
+V = \(\frac{\bar{x}-T}{s}\)
+7. What is the value of Cpm when the value |μ-T|→∞ ?
+a) 1
+b) 0
+c) ∞
+d) -∞
+b
+ Cpm = \(\frac{USL-LSL}{6\sqrt{σ^2+(μ-T)^2}}\)
+8. What is the value of Cpm  when the value μ=T?
+a) Cpm=1
+b) Cpm=0
+c) Cpm=Cp
+d) Cpm<Cp
+c
+ Cpm = \(\frac{USL-LSL}{6\sqrt{σ^2+(μ-T)^2}}\) 
+When, μ=T we get Cpm=Cp. 
+9. What is the value of Cpkm  process capability ratio?
+a) \(C_{pkm}=\frac{C_{pk}}{\sqrt{1-ξ}}\) 
+b) \(C_{pkm}=\frac{C_{pk}}{\sqrt{1+ξ^2}}\) 
+c) \(C_{pkm}=\frac{C_{pk}}{\sqrt{1+ξ}}\) 
+d) \(C_{pkm}=\frac{C_{pk}}{\sqrt{1-ξ^2}}\) 
+b
+\(C_{pkm}=\frac{C_{pk}}{\sqrt{1+ξ^2}}\)
+10. What is the value of ξ in the expression for Cpkm  PCR?
+a) \(\frac{μ-T}{6σ}\) 
+b) \(\frac{μ-T}{σ}\) 
+c) \(\frac{μ+2T}{3σ}\) 
+d) \(\frac{μ+T}{6σ}\) 
+b
+ξ = \(\frac{μ-T}{σ}\)
+11. Cpkm is also called _________ generation process capability ratio.
+a) Third
+b) Fourth
+c) Second
+d) First
+a
+12. Cp is called the _________ generation PCR.
+a) First
+b) Second
+c) Third
+d) Fourth
+a
+13. Which of these is one of the first generation process capability ratios?
+a) Cpk
+b) Cpm
+c) Cpc 
+d) Cpu
+d
+14. Cpm is the second generation process capability ratio.
+a) True
+b) False
+a
+15. Confidence intervals are not needed for \(\widehat{C_{pkm}}\).
+a) True
+b) False
+b
+16. What does usage of s instead of R/d2 in the confidence intervals indicate?
+a) s=1
+b) Process must be in control
+c) Process may be in the out-of-control state
+d) d2<1
+b
+17. Pp is a ___
+a) Process capability ratio
+b) Process stability ratio
+c) Process prediction index
+d) Process performance index
+d
+18. What is the value of process performance index estimate (Pp)?
+a) \(\frac{USL-LSL}{4s}\) 
+b) \(\frac{USL+LSL}{4s}\) 
+c) \(\frac{USL-LSL}{6σ}\) 
+d) \(\frac{USL-LSL}{6s}\) 
+d
+Pp = \(\frac{USL-LSL}{6s}\)
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control Problems, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Process Capability Ratios – 4» Next - Statistical Quality Control Questions and Answers – Process Capability Analysis Using Control Charts 

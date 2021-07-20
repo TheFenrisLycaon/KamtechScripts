@@ -1,0 +1,88 @@
+1. Wrapping data and its related functionality into a single entity is known as _____________
+a) Abstraction
+b) Encapsulation
+c) Polymorphism
+d) Modularity
+b
+2. How structures and classes in C++ differ?
+a) In Structures, members are public by default whereas, in Classes, they are private by default
+b) In Structures, members are private by default whereas, in Classes, they are public by default
+c) Structures by default hide every member whereas classes do not
+d) Structures cannot have private members whereas classes can have
+a
+3. What does polymorphism in OOPs mean?
+a) Concept of allowing overiding of functions
+b) Concept of hiding data
+c) Concept of keeping things in differnt modules/files
+d) Concept of wrapping things into a single unit
+a
+4. Which concept allows you to reuse the written code?
+a) Encapsulation
+b) Abstraction
+c) Inheritance
+d) Polymorphism
+c
+5. Which of the following explains Polymorphism?
+a)
+int func(int, int);
+float func1(float, float);
+b)
+int func(int);
+int func(int);
+c)
+int func(float);
+float func(int, int, char);
+d)
+ int func();
+int new_func();
+c
+  
+6. Which of the following shows multiple inheritances?
+a) A->B->C
+b) A->B; A->C
+c) A,B->C
+d) B->A
+c
+7. How access specifiers in Class helps in Abstraction?
+a) They does not helps in any way
+b) They allows us to show only required things to outer world
+c) They help in keeping things together
+d) Abstraction concept is not used in classes
+b
+8. C++ is ______________
+a) procedural programming language
+b) object oriented programming language
+c) functional programming language
+d) both procedural and object oriented programming language
+d
+9. What does modularity mean?
+a) Hiding part of program
+b) Subdividing program into small independent parts
+c) Overriding parts of program
+d) Wrapping things into single unit
+b
+10. Which of the following feature of OOPs is not used in the following C++ code?
+class A
+{
+    int i;
+    public:
+    void print(){cout<<"hello"<<i;}
+}
+ 
+class B: public A
+{
+    int j;
+    public:
+    void assign(int a){j = a;}
+}
+a) Abstraction
+b) Encapsulation
+c) Inheritance
+d) Polymorphism
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Basics» Next - C++ Programming Questions and Answers – OOPs Concept – 2 

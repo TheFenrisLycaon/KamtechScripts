@@ -1,0 +1,83 @@
+1. What is the region of convergence of Secant Method?
+a) 1.5
+b) 1.26
+c) 1.62
+d) 1.66
+c
+2. Secant Method is also called as?
+a) 2-point method
+b) 3-point method
+c) 4-point method
+d) 5-point method
+a
+3. Secant method converges faster than Bisection method.
+a) True
+b) False
+a
+4. The iterative formula for a secant method is given as _________
+a) x(n+1)=\(\frac{x(n-1)f[x(n)]-x(n)f[x(n-1)]}{[f[x(n)]-f[x(n-1)]]}\) 
+b) x(n+1)=\(\frac{x(n)f[x(n)]-x(n)f[x(n-1)]}{[f[x(n)]-f[x(n-1)]]} \) 
+c) x(n+1)=\(\frac{x(n-1)f[x(n)]-x(n-1)f[x(n-1)]}{[f[x(n)]-f[x(n-1)]]} \) 
+d) x(n+1)=\(\frac{x(n)f[x(n)]-x(n-1)f[x(n-1)]}{[f[x(n)]-f[x(n-1)]]} \) 
+a
+x(n+1)=\(\frac{x(n-1)f[x(n)]-x(n)f[x(n-1)]}{[f[x(n)]-f[x(n-1)]]} \) 
+Since there are 2 points considered in the Secant Method, it is also called 2-point method.
+5. Secant Method is slower than Newton Raphson Method.
+a) True
+b) False
+b
+Join Sanfoundry@YouTube
+6. The number of iterations in Secant Method are less as compared to Newton Raphson.
+a) True
+b) False
+a
+7. A quadratic equation x2-4x+4=0 is defined with an initial guess of 3 and 2.5. Find the approximated value of root using Secant Method.
+a) 1.33
+b) 2.33
+c) 3.33
+d) 4.33
+b
+x(n+1)=\(\frac{x(n-1)f[x(n)]-x(n)f[x(n-1)]}{[f[x(n)]-f[x(n-1)]]} \) 
+For n=1
+x(2)=\(\frac{x(0)f[x(1)]-x(1)f[x(0)]}{[f[x(1)]-f[x(0)]]} \) 
+x(0)=3 and x(1)=2.5, f(x0)=1 and f(x1)=0.25
+Hence x2=2.33.
+8. A quadratic equation x2-4x+4=0 is defined with an initial guess of 2 and 2.5. Find the approximated value of root using Secant Method.
+a) 1
+b) 2
+c) 3
+d) 4
+b
+x(n+1)=\(\frac{x(n-1)f[x(n)]-x(n)f[x(n-1)]}{[f[x(n)]-f[x(n-1)]]} \) 
+For n=1
+x(2)=\(\frac{x(0)f[x(1)]-x(1)f[x(0)]}{[f[x(1)]-f[x(0)]]} \) 
+x(0)=2 and x(1)=2.5, f(x0)=0 and f(x1)=0.25
+Hence x2=2. Hence for x2=2  f(x) converges to exact root.
+9. A quadratic equation x2-4x+4=0 is defined with an initial guess of 10 and 20. Find the approximated value of x2 using Secant Method.
+a) 7.538
+b) 7.853
+c) 7.358
+d) 7.835
+a
+x(n+1)=\(\frac{x(n-1)f[x(n)]-x(n)f[x(n-1)]}{[f[x(n)]-f[x(n-1)]]} \) 
+For n=1
+x(2)=\(\frac{x(0)f[x(1)]-x(1)f[x(0)]}{[f[x(1)]-f[x(0)]]} \) 
+x(0)=10 and x(1)=20, f(x0)=0 and f(x1)=0.25
+Hence x2 = 7.538.
+10. A quadratic equation x4-x-8=0 is defined with an initial guess of 1 and 2. Find the approximated value of x2 using Secant Method.
+a) 7.538
+b) 7.853
+c) 7.358
+d) 1.571
+d
+x(n+1)=\(\frac{x(n-1)f[x(n)]-x(n)f[x(n-1)]}{[f[x(n)]-f[x(n-1)]]} \) 
+For n=1
+x(2)=\(\frac{x(0)f[x(1)]-x(1)f[x(0)]}{[f[x(1)]-f[x(0)]]} \) 
+x(0)=1 and x(1)=2, f(x0)=-8 and f(x1)=6
+Hence x2= 1.571. 
+Sanfoundry Global Education & Learning Series – Numerical Methods.
+To practice all areas of Numerical Methods, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Numerical Analysis Questions and Answers – Regula Falsi Method» Next - Numerical Analysis Questions and Answers – Newton Raphson Method – 1 

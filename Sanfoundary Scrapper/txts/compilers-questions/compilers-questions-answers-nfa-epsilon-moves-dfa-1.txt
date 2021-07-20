@@ -1,0 +1,67 @@
+1. Examine the following DFA: If input is 011100101, which edge is NOT traversed?
+a) A B
+b) C
+c) C D
+d) D A
+c
+2. If string s is accepted by this DFA, which of these strings cannot be suffix of s?
+a) 111001
+b) 111111
+c) 111000
+d) 101010
+a
+3. Find the pair of regular expressions that are equivalent.
+a) (0+1)* and (0*+1*)*
+b) (0+1)* and (0+1*)*
+c) (0+10)* and (0*+10)*
+d) All of the mentioned
+d
+4. Which of the following strings is NOT in the Kleene star of the language {011, 10, 110}?
+a) 01
+b) 10
+c) 110
+d) 10011101
+d
+5. Which grammar is not regular?
+a) 0^n
+b) 0^n 1^n n
+c) 0^m 0^n n
+d) 0^n 0^n n
+a
+Join [email protected]
+6. If is a language, and is a symbol, then, the quotient of and, is the set of strings such that is in: is in. Suppose is regular, which of the following statements is true?
+a) L/a is always a regular language
+b) L/a is not a regular language
+c) All of the mentioned
+d) None of the mentioned
+a
+7. Here is a context-free grammar G: S → AB A → 0A1 | 2 B → 1B | 3A which of the following strings are in L (G)?
+a) 021300211
+b) 022111300211
+c) None of the mentioned
+d) 021300211 & 022111300211
+d
+8. The parse tree below represents a rightmost derivation according to the grammar S → AB, A → aS|a, B → bA. Which of the following are right-sentential forms corresponding to this derivation?
+a) aAbAba
+b) aababa
+c) aABba
+d) aSba
+b
+9. The grammar G: S → SS | a | b is ambiguous. Check all and only the strings that have exactly two leftmost derivations in G.
+a) bbb
+b) ab
+c) All of the mentioned
+d) None of the mentioned
+c
+10. For the following grammar: S → A | B | 2 A → C0 | D B → C1 | E C → D | E | 3 D → E0 | S E → D1 | S Identify all the unit pairs.
+a) D,C
+b) A,B
+c) B,C
+d) A,C
+a
+Sanfoundry Global Education & Learning Series – Compilers.
+To practice all areas of Compilers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Compilers Questions and Answers – The NFA with epsilon – Moves – 2» Next - Compilers Questions and Answers – The NFA with epsilon-moves to the DFA-2 

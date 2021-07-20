@@ -1,0 +1,76 @@
+1. What will be the output of the following PHP code?
+<?php$a = "1";switch ($a){case 1:    print "hi";case 2:    print "hello";default:    print "hi1";}?>
+a) hihellohi1
+b) hi
+c) hihi1
+d) hi1
+a
+2. What will be the output of the following PHP code?
+<?php$a = "2";switch ($a){case 1:    print "hi";case 2:    print "hello";    break;default:    print "hi1";}?>
+a) hihellohi1
+b) hello
+c) hihi1
+d) hi1
+b
+3. What will be the output of the following PHP code?
+<?php$a = "1";switch($a){case 1:    break;    print "hi";case 2:    print "hello";    break;default:    print "hi1";}?>
+a) hihellohi1
+b) no output
+c) hihi1
+d) hi1
+b
+4. What will be the output of the following PHP code?
+<?php$a = "1";$a = 1;$b = 1;switch($a){case $a * $b:     print "hi";    break;case $a / $b:    print "hello";    break;default:    print "hi1";}?>
+a) hihellohi1
+b) hi
+c) hihello
+d) hi1
+b
+5. What will be the output of the following PHP code?
+<?php$a = 97;switch($a){case "a":    print "hi";    break;case 97:    print "hello";    break;default:    print "hi1";}?>
+a) hihellohi1
+b) hi
+c) hihello
+d) hello
+d
+6. What will be the output of the following PHP code?
+<?php$b = 1;switch($b){case 1.0:    print "hi";    break;case 1:    print "hello";    break;default:    print "hi1";}?>
+a) hihellohi1
+b) hi
+c) hihello
+d) hello
+a
+7. What will be the output of the following PHP code?
+<?phpconst $b = 1;switch($b){case 1:    print "hi";    break;case 1:    print "hello";    break;default:    print "hi1";}?>
+a) error
+b) hi
+c) hihello
+d) hello
+a
+8. What will be the output of the following PHP code?
+<?php$b = 1;switch(print $b){case 2:    print "hello";    break;case 1:    print "hi";    break;default:    print "hi1";}?>
+a) 1hello
+b) 1hi
+c) 1hi1
+d) error
+b
+9. What will be the output of the following PHP code?
+<?phpswitch($b){case 2:    print "hello";    break;case 1:    print "hi";    break;}?>
+a) hello
+b) hi
+c) no output
+d) error
+c
+10. What will be the output of the following PHP code?
+<?phpswitch($b){case 2:    print "hello";    break;case b:    print "hi";    break;}?>
+a) hello
+b) hi
+c) no output
+d) error
+c
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all areas of PHP for Campus Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – If-Else-If – 3» Next - PHP Coding Questions and Answers – While Loops – 1 

@@ -1,0 +1,73 @@
+1. What is the order of variables in Enum?
+a) Ascending order
+b) Descending order
+c) Random order
+d) Depends on the order() method
+a
+2. Can we create an instance of Enum outside of Enum itself?
+a) True
+b) False
+b
+3. What will be the output of the following Java code?
+    enum Season     {        WINTER, SPRING, SUMMER, FALL    };    System.out.println(Season.WINTER.ordinal());
+a) 0
+b) 1
+c) 2
+d) 3
+a
+4. If we try to add Enum constants to a TreeSet, what sorting order will it use?
+a) Sorted in the order of declaration of Enums
+b) Sorted in alphabetical order of Enums
+c) Sorted based on order() method
+d) Sorted in descending order of names of Enums
+a
+5. What will be the output of the following Java code snippet?
+class A{ } enum Enums extends A{    ABC, BCD, CDE, DEF;}
+a) Runtime Error
+b) Compilation Error
+c) It runs successfully
+d) EnumNotDefined Exception
+b
+6. What will be the output of the following Java code snippet?
+ enum Levels {    private TOP,     public MEDIUM,     protected BOTTOM;}
+a) Runtime Error
+b) EnumNotDefined Exception
+c) It runs successfully
+d) Compilation Error
+d
+7. What will be the output of the following Java code snippet?
+enum Enums{    A, B, C;     private Enums()    {        System.out.println(10);    }} public class MainClass{    public static void main(String[] args)    {        Enum en = Enums.B;    }}
+a) 
+
+   10
+   10
+   10
+b) Compilation Error
+c) 
+
+   10
+   10
+d) Runtime Exception
+a
+8. Which method returns the elements of Enum class?
+a) getEnums()
+b) getEnumConstants()
+c) getEnumList()
+d) getEnum()
+b
+9. Which class does all the Enums extend?
+a) Object
+b) Enums
+c) Enum
+d) EnumClass
+c
+10. Are enums are type-safe?
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Character and Boolean Data Types» Next - Java Questions & Answers – Data Type-BigDecimal 

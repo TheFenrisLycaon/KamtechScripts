@@ -1,0 +1,100 @@
+1. The following frequency characteristic is for which of the following filter?
+a) Type-2 Chebyshev filter
+b) Type-1 Chebyshev filter
+c) Butterworth filter
+d) Bessel filter
+a
+2. Which of the following is the backward design equation for a low pass-to-high pass transformation?
+a) ΩS=\(\frac{Ω_S}{Ω_u}\) 
+b) ΩS=\(\frac{Ω_u}{Ω’_S}\) 
+c) Ω’S=\(\frac{Ω_S}{Ω_u}\) 
+d) ΩS=\(\frac{Ω’_S}{Ω_u}\) 
+b
+ΩS=\(\frac{Ω_u}{Ω’_S}\) .
+3. Which of the following filter has a phase spectrum as shown in figure?
+a) Chebyshev filter
+b) Butterworth filter
+c) Bessel filter
+d) Elliptical filter
+d
+4. What is the pass band edge frequency of an analog low pass normalized filter?
+a) 0 rad/sec
+b) 0.5 rad/sec
+c) 1 rad/sec
+d) 1.5 rad/sec
+c
+5. Which of the following is a low pass-to-high pass transformation?
+a) s → s / Ωu
+b) s → Ωu / s
+c) s → Ωu.s
+d) none of the mentioned
+b
+s → Ωu / s.
+6. Which of the following is the backward design equation for a low pass-to-low pass transformation?
+a) ΩS=\(\frac{Ω_S}{Ω_u}\) 
+b) ΩS=\(\frac{Ω_u}{Ω’_S}\) 
+c) Ω’S=\(\frac{Ω_S}{Ω_u}\) 
+d) ΩS=\(\frac{Ω’_S}{Ω_u}\) 
+d
+ΩS=\(\frac{Ω’_S}{Ω_u}\) .
+7. If H(s) is the transfer function of a analog low pass normalized filter and Ωu is the desired pass band edge frequency of new low pass filter, then which of the following transformation has to be performed?
+a) s → s / Ωu
+b) s → s.Ωu
+c) s → Ωu/s
+d) None of the mentioned
+a
+8. Which of the following is a low pass-to-band pass transformation?
+a) s→\(\frac{s^2+Ω_u Ω_l}{s(Ω_u+Ω_l)}\) 
+b) s→\(\frac{s^2-Ω_u Ω_l}{s(Ω_u-Ω_l)}\) 
+c) s→\(\frac{s^2+Ω_u Ω_l}{s(Ω_u-Ω_l)}\) 
+d) s→\(\frac{s^2-Ω_u Ω_l}{s(Ω_u+Ω_l)}\) 
+c
+s→\(\frac{s^2+Ω_u Ω_l}{s(Ω_u-Ω_l)}\)
+9. Which of the following filter has a phase spectrum as shown in figure?
+a) Chebyshev filter
+b) Butterworth filter
+c) Bessel filter
+d) Elliptical filter
+a
+10. If A=\(\frac{-Ω_1^2+Ω_u Ω_l}{Ω_1 (Ω_u-Ω_l)}\) and B=\(\frac{Ω_2^2-Ω_u Ω_l}{Ω_2 (Ω_u-Ω_l)}\), then which of the following is the backward design equation for a low pass-to-band pass transformation?
+a) ΩS=|B|
+b) ΩS=|A|
+c) ΩS=Max{|A|,|B|}
+d) ΩS=Min{|A|,|B|}
+d
+ΩS=Min{|A|,|B|}
+where, A=\(\frac{-Ω_1^2+Ω_u Ω_l}{Ω_1 (Ω_u-Ω_l)}\) and B=\(\frac{Ω_2^2-Ω_u Ω_l}{Ω_2 (Ω_u-Ω_l)}\).
+11. If A=\(\frac{Ω_1 (Ω_u-Ω_l)}{-Ω_1^2+Ω_u Ω_l}\) and B=\(\frac{Ω_2 (Ω_u-Ω_l)}{-Ω_2^2+Ω_u Ω_l}\), then which of the following is the backward design equation for a low pass-to-band stop transformation?
+a) ΩS=Max{|A|,|B|}
+b) ΩS=Min{|A|,|B|}
+c) ΩS=|B|
+d) ΩS=|A|
+b
+ΩS= Min{|A|,|B|}
+where, =\(\frac{Ω_1 (Ω_u-Ω_l)}{-Ω_1^2+Ω_u Ω_l}\) and B=\(\frac{Ω_2 (Ω_u-Ω_l)}{-Ω_2^2+Ω_u Ω_l}\).
+12. Which of the following is a low pass-to-high pass transformation?
+a) s→ s / Ωu
+b) s→ Ωu / s
+c) s→  Ωu.s
+d) none of the mentioned
+b
+s→ Ωu / s
+13. The following frequency characteristic is for which of the following filter?
+a) Type-2 Chebyshev filter
+b) Type-1 Chebyshev filter
+c) Butterworth filter
+d) Bessel filter
+c
+14. Which of the following is a low pass-to-band stop transformation?
+a) s→\(\frac{s(Ω_u-Ω_l)}{s^2+Ω_u Ω_l}\) 
+b) s→\(\frac{s(Ω_u+Ω_l)}{s^2+Ω_u Ω_l}\) 
+c) s→\(\frac{s(Ω_u-Ω_l)}{s^2-Ω_u Ω_l}\) 
+d) None of the mentioned
+c
+s→\(\frac{s(Ω_u-Ω_l)}{s^2-Ω_u Ω_l}\)
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice problems on all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Characteristics of Commonly Used Analog Filters» Next - Digital Signal Processing Questions and Answers – Frequency Transformations in the Digital Domain 

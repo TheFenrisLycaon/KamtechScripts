@@ -1,0 +1,66 @@
+1. Which one of the following is the very first task executed by a session enabled page?
+a) Delete the previous session
+b) Start a new session
+c) Check whether a valid session exists
+d) Handle the session
+c
+2. How many ways can a session data be stored?
+a) 3
+b) 4
+c) 5
+d) 6
+b
+3. Which directive determines how the session information will be stored?
+a) save_data
+b) session.save
+c) session.save_data
+d) session.save_handler
+d
+4. Which one of the following is the default PHP session name?
+a) PHPSESSID
+b) PHPSESID
+c) PHPSESSIONID
+d) PHPIDSESS
+a
+5. If session.use_cookie is set to 0, this results in use of _____________
+a) Session
+b) Cookie
+c) URL rewriting
+d) Nothing happens
+c
+6. If the directive session.cookie_lifetime is set to 3600, the cookie will live until ____________
+a) 3600 sec
+b) 3600 min
+c) 3600 hrs
+d) the browser is restarted
+a
+7. Neglecting to set which of the following cookie will result in the cookie’s domain being set to the host name of the server which generated it.
+a) session.domain
+b) session.path
+c) session.cookie_path
+d) session.cookie_domain
+d
+8. What is the default number of seconds that cached session pages are made available before the new pages are created?
+a) 360
+b) 180
+c) 3600
+d) 1800
+b
+9. What is the default time(in seconds) for which session data is considered valid?
+a) 1800
+b) 3600
+c) 1440
+d) 1540
+c
+10. Which one of the following function is used to start a session?
+a) start_session()
+b) session_start()
+c) session_begin()
+d) begin_session()
+b
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all questions on PHP Programming, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Networking with PHP» Next - PHP Questions & Answers – Session Handling-2 

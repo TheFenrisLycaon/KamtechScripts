@@ -1,0 +1,90 @@
+1. What will be the output of the following C# code snippet?
+class UnsafeCode{    struct MyStruct    {        public int a;        public int b;        public int Sum()        {            return a * b;        }   }   unsafe static void Main()   {       MyStruct o = new MyStruct();       MyStruct* p;        p = &o;       p->a = 10;        p->b = 20;        Console.WriteLine("Value is " + p->Sum());       Console.ReadLine();   }}
+a) Compile time error
+b) Run time error
+c) 200
+d) 30
+c
+Output : 200
+2. What will be the output of the following C# code snippet?
+class UnsafeCode{    struct MyStruct    {        public int a;        public int b;        public int Sum()        {            return a / b;        }   }   unsafe static void Main()   {       MyStruct o = new MyStruct();       MyStruct* p;        p = &o;       p->a = 60;        p->b = 15;        int c = 30;       Console.WriteLine("Value is : " + p->Sum()*c);       Console.ReadLine();   }}
+a) Compile time error
+b) 120
+c) Run time error
+d) 4
+b
+Output :
+120
+3. What will be the output of the following C# code snippet?
+Join [email protected]
+class UnsafeCode{    unsafe static void Main()    {        int[] nums = new int[10];        fixed (int* p = &nums[0], p2 = nums)        {            if (p == p2)            Console.WriteLine("p and p2 point to same address.");            Console.ReadLine();        }    }}
+a) Run time error
+b) Compile time error
+c) p and p2 point to the same address
+d) Only p2
+c
+Output:
+p and p2 point to same address
+4. What will be the output of the following C# code snippet?
+class UnsafeCode{    static void Main()    {        int? count = null;        int? result = null;        int incr = 10;        result = count + incr;        if (result.HasValue)            Console.WriteLine("result has this value: " + result.Value);        else            Console.WriteLine("result has no value");        Console.ReadLine();    }}
+a) Run time error
+b) 0
+c) Result has no value
+d) Compile time error
+c
+Output:
+result has no value
+5. What will be the output of the following C# code snippet?
+class UnsafeCode{    static void Main()    {        int count = 100;        int? result = null;        int incr = 10;        result = count + incr;        if (result.HasValue)            Console.WriteLine("result has this value: " + result.Value);        else            Console.WriteLine("result has no value");        Console.ReadLine();    }}
+a) Run time error
+b) 110
+c) Result has no value
+d) Compile time error
+b
+Output: result has this value :
+110
+6. Choose the statement which defines the Nullable type Correctly:
+a) A special version of a value type that is represented by a structure
+b) A nullable type can also store the value null
+c) Nullable types are objects of System.Nullable, where T must be a non nullable value type
+d) All of the mentioned
+d
+7. What does the following code depicts?
+   i. System.Nullable count;
+   ii. bool? done;
+a) Code i declares the objects of nullable of type Nullable<T> defined in the System namespace
+b) Code ii declares a nullable type in much shorter and in more commonly used way using ‘?’
+c) Both Code i declares the objects of nullable of type Nullable<T> defined in the System namespace & Code ii declares a nullable type in much shorter and in more commonly used way using ‘?’
+d) None of the mentioned
+c
+8. Which operator is commonly used to find the size of the type of C#?
+a) size()
+b) sizeof(type)
+c) both size() & sizeof(type)
+d) none of the mentioned
+b
+9. What will be the output of the following C# code snippet?
+ unsafe struct FixedBankRecord {     public fixed byte Name[80];      public double Balance;     public long ID; } class UnsafeCode {     unsafe static void Main()     {         Console.WriteLine("Size of FixedBankRecord is " + sizeof(FixedBankRecord));         Console.ReadLine();     } }
+a) Run time error
+b) 80
+c) 96
+d) Compile time error
+c
+Output :
+96
+10. What will be the output of the following C# code snippet?
+class UnsafeCode{    unsafe static void Main()    {        int* ptrs = stackalloc int[3];        ptrs[0] = 1;        ptrs[1] = 2;        ptrs[2] = 3;        for (int i = 2; i >=0; i--)        Console.WriteLine(ptrs[i]);        Console.ReadLine();    }}
+a) 3 2 1
+b) 1 2 3
+c) None of the mentioned
+d) Run time error
+a
+Output :
+3 2 1
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all areas of C# for Freshers, here is complete set on 1000+ Multiple Choice Questions and Answers on C#.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Pointers Operation – 1» Next - C# Questions & Answers – Accessor controls of class 

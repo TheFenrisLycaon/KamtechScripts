@@ -1,0 +1,103 @@
+1. Which of the following is not a notion of Context free grammars?
+a) Recursive Inference
+b) Derivations
+c) Sentential forms
+d) All of the mentioned
+d
+a) Recursive Inferences
+b) Derivations
+c) Sentential form
+d) Parse trees
+2. State true or false:
+Statement: The recursive inference procedure determines that string w is in the language of the variable A, A being the starting variable.
+a) true
+b) false
+a
+3. Which of the following is/are the suitable approaches for inferencing?
+a) Recursive Inference
+b) Derivations
+c) Both Recursive Inference and Derivations
+d) None of the mentioned
+c
+1. Recursive inference, using productions from body to head
+2. Derivations, using productions from head to body
+4. If w belongs to L(G), for some CFG, then w has a parse tree, which defines the syntactic structure of w. w could be:
+a) program
+b) SQL-query
+c) XML document
+d) All of the mentioned
+d
+5. Is the following statement correct?
+Statement: Recursive inference and derivation are equivalent.
+a) Yes
+b) No
+a
+6. A->aA| a| b
+The number of steps to form aab:
+a) 2
+b) 3
+c) 4
+d) 5
+b
+7. An expression is mentioned as follows. Figure out number of incorrect notations or symbols, such that a change in those could make the expression correct.
+L(G)={w in T*|S→*w}
+a) 0 Errors
+b) 1 Error
+c) 2 Error
+d) Invalid Expression
+a
+8. The language accepted by Push down Automaton:
+a) Recursive Language
+b) Context free language
+c) Linearly Bounded language
+d) All of the mentioned
+b
+9. Which among the following is the correct option for the given grammar?
+G->X111|G1,X->X0|00
+a) {0a1b|a=2,b=3}
+b) {0a1b|a=1,b=5}
+c) {0a1b|a=b}
+d) More than one of the mentioned is correct
+a
+10. Which of the following the given language belongs to?
+L={ambmcm| m>=1}
+a) Context free language
+b) Regular language
+c) Both (a) and (b)
+d) None of the mentioned
+d
+11. Choose the correct option:
+Statement: There exists two inference approaches:
+a) Recursive Inference
+b) Derivation
+a) true
+b) partially true
+c) false
+d) none of the mentioned
+a
+12. Choose the correct option:
+Statement 1: Recursive Inference, using productions from head to body.
+Statement 2: Derivations, using productions from body to head.
+a) Statement 1 is true and Statement 2 is true
+b) Statement 1 and Statement 2, both are false
+c) Statement 1 is true and Statement 2 is false
+d) Statement 2 is true and Statement 1 is true
+b
+13. Which of the following statements are correct for a concept called inherent ambiguity in CFL?
+a) Every CFG for L is ambiguous
+b) Every CFG for L is unambiguous
+c) Every CFG is also regular
+d) None of the mentioned
+a
+14. Which of the theorem defines the existence of Parikhs theorem?
+a) Parikh’s theorem
+b) Jacobi theorem
+c) AF+BG theorem
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory Problems, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Context Free Grammar-Derivations and Definitions» Next - Automata Theory Questions and Answers –  Sentential Forms 

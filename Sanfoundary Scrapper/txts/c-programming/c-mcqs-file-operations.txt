@@ -1,0 +1,64 @@
+1. Which one of the following is correct syntax for opening  a file.
+a) FILE *fopen(const *filename, const char *mode)
+b) FILE *fopen(const *filename)
+c) FILE *open(const *filename, const char *mode)
+d) FILE open(const*filename)
+a
+2. What is the function of the mode ‘ w+’?
+a) create text file for writing, discard previous contents if any
+b) create text file for update, discard previous contents if any
+c) create text file for writing, do not  discard previous contents if any
+d) create text file for update, do not discard previous contents if any
+b
+3. If the mode includes b after the initial letter, what does it indicates?
+a) text file
+b) big text file
+c) binary file
+d) blueprint text
+c
+4. fflush(NULL)  flushes all ____________
+a) input streams
+b) output streams
+c) previous contents
+d) appended text
+b
+5. _____removes the named file, so that a subsequent attempt to open it will fail.
+a) remove(const *filename)
+b) remove(filename)
+c) remove()
+d) fclose(filename)
+a
+6. What is the function of FILE *tmpfile(void)?
+a) creates a temporary file of mode “wb+”
+b) creates a temporary file of mode “wb”
+c) creates a temporary file of mode ” w”
+d) creates a temporary file of mode “w+”
+a
+7. What does tmpfile() returns when it could not create the file?
+a) stream and NULL
+b) only stream
+c) only NULL
+d) does not return anything
+a
+8. Choose the right statement for fscanf() and  scanf()
+a) fscanf() can read from standard input whereas scanf() specifies a stream from which to read
+b) fscanf() can specifies a stream from which to read whereas scanf() can read only from standard input
+c) fscanf() and scanf() has no difference in their functions
+d) fscanf() and scanf() can read from specified stream
+b
+9. EOF is an integer type defined in stdio. hand has a value ____________
+a) 1
+b) 0
+c) NULL
+d) – 1
+d
+10. fwrite() can be used only with files that are opened in binary mode.
+a) true
+b) false
+a
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – scanf – 2» Next - C Questions and Answers – File Operations – 2 

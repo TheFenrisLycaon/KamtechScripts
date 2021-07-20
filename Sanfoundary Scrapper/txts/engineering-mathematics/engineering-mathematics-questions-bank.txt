@@ -1,0 +1,151 @@
+1. In euler theorem  x ∂z⁄∂x + y ∂z⁄∂y = nz, here ‘n’ indicates?
+a) order of z
+b) degree of z
+c) neither order nor degree
+d) constant of z
+a
+2. If z = xn f(y⁄x) then?
+a) y ∂z⁄∂x + x ∂z⁄∂y = nz
+b) 1/y  ∂z⁄∂x + 1/x  ∂z⁄∂y = nz
+c) x ∂z⁄∂x + y ∂z⁄∂y = nz
+d) 1/x  ∂z⁄∂x + 1/y  ∂z⁄∂y = nz
+c
+x ∂z⁄∂x + y ∂z⁄∂y = nz.
+3. Necessary condition of euler’s theorem is?
+a) z should be homogeneous and of order n
+b) z should not be homogeneous but of order n
+c) z should be implicit
+d) z should be the function of x and y only
+a
+Answer ‘z should be homogeneous and of order n’ is correct as statement of euler’s theorem is “if z is an homogeneous function of x and y of order ‘n’ then  x ∂z⁄∂x + y ∂z⁄∂y = nz”
+Answer ‘z should not be homogeneous but of order n’ is incorrect as z should be homogeneous.
+Answer ‘z should be implicit’ is incorrect as z should not be implicit.
+Answer ‘z should be the function of x and y only’ is incorrect as z should be the homogeneous function of x and y not non-homogeneous functions.
+4. If \(z=e^{\frac{x^2+y^2}{x+y}}\) then, \(x \frac{∂z}{∂x} + y \frac{∂z}{∂y}\) is?
+a) 0
+b) zln(z)
+c) z2 ln⁡(z)
+d) z
+b
+Given \(z=e^{\frac{x^2+y^2}{x+y}}\),let u=ln⁡(z)=\(\frac{x^2+y^2}{x+y}=\frac{x(1+(\frac{y}{x})^2)}{(1+\frac{y}{x})}\) = x f(y/x)
+Hence u is homogeneous of order 1,
+Hence,
+\(x \frac{∂u}{∂x}+y \frac{∂u}{∂y}\)=u
+Putting, u = ln(z)  we get,
+\(x \frac{∂z}{∂x}+y \frac{∂z}{∂y}\) = zln(z)
+5. If \(z=sin^{-1}\frac{x^3+y^3+z^3}{x+y+z}\) then, \(x\frac{∂z}{∂x}+y\frac{∂z}{∂y}\).
+a) 2 tan(z)
+b) 2 cot(z)
+c) tan(z)
+d) cot(z)
+a
+Given \(z=sin^{-1}⁡\frac{x^3+y^3+z^3}{x+y+z}\), put u=sin⁡(z)=\(\frac{x^3+y^3+z^3}{x+y+z}=x^2 f(\frac{y}{x},\frac{z}{x})\) 
+Hence, \(x \frac{∂u}{∂x}+y \frac{∂u}{∂y}=2u\) 
+Putting u = sin(z), we get
+\(x \frac{∂u}{∂x}+y \frac{∂u}{∂y}=\frac{2Sin(z)}{Cos(z)}=2Tan(z)\)
+6. Value of \(x \frac{∂u}{∂x}+y \frac{∂u}{∂y}\) if \(u=\frac{Sin^{-1} (\frac{y}{x})(\sqrt{x}+\sqrt{y})}{x^3+y^3}\) is?
+a) -2.5 u
+b) -1.5 u
+c) 0
+d) -0.5 u
+a
+u=\(x^{\frac{-5}{2}} \frac{Sin^{-1} (\frac{y}{x})(1+\sqrt{\frac{y}{x}})}{1+(\frac{y}{x})^3}=x^n f(\frac{y}{x})\), by euler’s theorem,
+\(x \frac{∂u}{∂x}+y \frac{∂u}{∂y} = -\frac{5}{2} u\)
+7. If f1(x,y) and f2(x,y) are homogeneous and of order ‘n’then the function f3(x,y) = f1(x,y) + f2(x,y) satisfies euler’s theorem.
+a) True
+b) False
+a
+\(x \frac{∂f_1}{∂x}+y \frac{∂f_1}{∂y} = nf_1 (x,y)\) 
+\(x \frac{∂f_2}{∂x}+y \frac{∂f_2}{∂y} = nf_2 (x,y)\) 
+Hence adding these two equations,
+We get
+\(x \frac{∂f_1+f_2}{∂x}+y \frac{∂f_1+f_2}{∂y} = nf_2 (x,y)+nf_1 (x,y)\) 
+\(x \frac{∂f_3}{∂x}+y \frac{∂f_3}{∂y} = nf_3 (x,y)\) 
+Hence f3 satisfies euler’s theorem.
+8. If \(z=ln⁡(\frac{x^2+y^2}{x+y})-e^{\frac{x^2+y^2}{x+y}}\) then find \(x \frac{∂z}{∂x}+y \frac{∂z}{∂y}\).
+a) \(x \frac{∂z}{∂x}+y \frac{∂z}{∂y}=\frac{x^2+y^2}{x+y} e^{\frac{x^2+y^2}{x+y}}\) 
+b) \(x \frac{∂z}{∂x}+y \frac{∂z}{∂y}=1-\frac{x^2+y^2}{x+y} e^{\frac{x^2+y^2}{x+y}}\) 
+c) \(x \frac{∂z}{∂x}+y \frac{∂z}{∂y}=1+\frac{x^2+y^2}{x+y} e^{\frac{x^2+y^2}{x+y}}\) 
+d) \(x \frac{∂z}{∂x}+y \frac{∂z}{∂y}=-\frac{x^2+y^2}{x+y} e^{\frac{x^2+y^2}{x+y}}\) 
+b
+Given \(z=ln⁡(\frac{x^2+y^2}{x+y})-e^\frac{x^2+y^2}{x+y}\) 
+Let, \(u = ln⁡(\frac{x^2+y^2}{x+y})\) and \(v=e^(\frac{x^2+y^2}{x+y})\) hence z=u-v
+Now, let \(u’ = e^u = \frac{x^2+y^2}{x+y}=xf(\frac{y}{x})\) hence u’ satisfies euler’s theorem,
+Hence,
+\(x \frac{∂u’}{∂x}+y \frac{∂u’}{∂y}=u’\) 
+Hence, by putting u’=eu, we get
+\(x \frac{∂u}{∂x}+y \frac{∂u}{∂y}=\frac{e^u}{e^u} = 1\), ……(1)
+Now, let v’ = ln(v)= \(\frac{x^2+y^2}{x+y}=xf(\frac{y}{x})\) hence v’ satisfies euler’s theorem,
+Hence,
+\(x \frac{∂v’}{∂x}+y \frac{∂v’}{∂y}=v’\) 
+Hence, by putting v’=ln(v),we get
+\(x \frac{∂v}{∂x}+y \frac{∂v}{∂y}=vln(v)\), …… (2)
+By subtracting eq(1) and eq(2), we get
+\(x \frac{∂z}{∂x}-y \frac{∂z}{∂y}=1-\frac{x^2+y^2}{x+y} e^{\frac{x^2+y^2}{x+y}}\)
+9. If  z = Sin-1 (x⁄y) + Tan-1 (y⁄x) then x ∂z⁄∂x + y ∂z⁄∂y is?
+a) 0
+b) y
+c) 1 + x⁄y Sin-1 (x⁄y)
+d) 1 + y⁄x Tan-1 (y⁄x)
+a
+Let, u = Sin-1 (x⁄y) and v = Tan-1 (y⁄x) hence z = u + v
+Now, let u’ = Sin(u) = x⁄y = f(x⁄y) hence u’ satisfies euler’s theorem,
+Hence,
+\(x \frac{∂u’}{∂x}+y \frac{∂u’}{∂y}=0\) 
+Hence, by putting u’=eu, we get
+\(x \frac{∂u}{∂x}+y \frac{∂u}{∂y}=0/e^u = 0\) ,……(1)
+Now, let v’= Tan(v)=y/x=f(y/x) hence v’ satisfies euler’s theorem,
+Hence,
+\(x \frac{∂v’}{∂x}+y \frac{∂v’}{∂y}=0\) 
+Hence, by putting v’=ln(v), we get
+\(x \frac{∂v}{∂x}+y \frac{∂v}{∂y}=0 \),……(2)
+By adding eq(1) and eq(2), we get
+\(x \frac{∂z}{∂x}+y \frac{∂z}{∂y}=1+\frac{x^2+y^2}{x+y} e^{\frac{x^2+y^2}{x+y}}\)
+10. If f(x,y)is a function satisfying euler’ s theorem then?
+a) \(x^2 \frac{∂^2 f}{∂x^2}+2xy \frac{∂^2 f}{∂x∂y}+y^2 \frac{∂^2 f}{∂y^2}=n(n-1)f\) 
+b) \(\frac{1}{x}^2 \frac{∂^2 f}{∂x^2}+2/xy \frac{∂^2 f}{∂x∂y}+\frac{1}{y}^2 \frac{∂^2 f}{∂y^2}=n(n-1)f\) 
+c) \(x^2 \frac{∂^2 f}{∂x^2}+2xy \frac{∂^2 f}{∂x∂y}+y^2 \frac{∂^2 f}{∂y^2}=nf\) 
+d) \(y^2 \frac{∂^2 f}{∂x^2}+2xy \frac{∂^2 f}{∂x∂y}+x^2 \frac{∂^2 f}{∂y^2}=n(n-1)f\) 
+a
+\(x \frac{∂z}{∂x}+y \frac{∂z}{∂y}=nz\) 
+Differentiating it w.r.t x and y respectively we get,
+\(x \frac{∂^2 u}{∂x^2}+\frac{∂u}{∂x}+y \frac{∂^2 u}{∂x∂y}=n \frac{∂u}{∂x}\),
+and
+\(x \frac{∂^2 u}{∂y}∂x+\frac{∂u}{∂y}+y \frac{∂^2 u}{∂y^2}=n \frac{∂u}{∂y}\) 
+Multiplying with x and y respectively,
+\(x^2  \frac{∂^2 u}{∂x^2}+x \frac{∂u}{∂x}+xy \frac{∂^2 u}{∂x∂y}=nx \frac{∂u}{∂x}\),
+and
+\(xy \frac{∂^2 u}{∂y}∂x+y \frac{∂u}{∂y}+y^2 \frac{∂^2 u}{∂y^2}=ny \frac{∂u}{∂y}\) 
+Adding above equations we get
+\(x^2 \frac{∂^2 u}{∂x^2}+y^2 \frac{∂^2 u}{∂y}+2xy \frac{∂^2 u}{∂x∂y}=n(n-1)u\)
+11. If \(u = Tan^{-1} (\frac{x^3+y^3}{x+y})\) then, \(x^2 \frac{∂^2 u}{∂x^2}+y^2 \frac{∂^2 u}{∂y}+2xy \frac{∂^2 u}{∂x∂y}\) is?
+a) Sin(4u) – Cos(2u)
+b) Sin(4u) – Sin(2u)
+c) Cos(4u) – Sin(2u)
+d) Cos(4u) – Cos(2u)
+b
+Let, v = Tan(u) = x2 f(y/x)
+By euler’s theorem,
+g(u) = \(x \frac{∂u}{∂x}+y \frac{∂u}{∂y} = 2\frac{Tan(u)}{Sec^2 (u)} = Sin(2u)\) 
+Hence,
+\(x^2 \frac{∂^2 u}{∂x^2}+y^2 \frac{∂^2 u}{∂y}+2xy \frac{∂^2 u}{∂x∂y} = g(u)[g’(u)-1]\) 
+\(x^2 \frac{∂^2 u}{∂x^2}+y^2 \frac{∂^2 u}{∂y}+2xy \frac{∂^2 u}{∂x∂y}\) = Sin(2u)[2Cos(2u)-1] = Sin(4u)-Sin(2u)
+12. If \(u = e^{\frac{(x^2+y^2)}{x+y}}\) Then, \(x^2 \frac{∂^2 u}{∂x^2}+y^2 \frac{∂^2 u}{∂y}+2xy \frac{∂^2 u}{∂x∂y}\)=?
+a) u ln⁡(u)
+b) u ln⁡(u)2
+c) u [1+ln⁡(u)] 
+d) 0
+b
+Hence by applying euler theorem,
+\(x \frac{∂v}{∂x}+y \frac{∂v}{∂y}=v\) 
+Hence,
+g(u) = \(x \frac{∂u}{∂x}+y \frac{∂u}{∂y}=u ln⁡(u)\) 
+Hence,
+\(x^2 \frac{∂^2 u}{∂x^2}+y^2 \frac{∂^2 u}{∂y}+2xy \frac{∂^2 u}{∂x∂y}\) = g(u)[g’(u)-1] 
+\(x^2  \frac{∂^2 u}{∂x^2}+y^2 \frac{∂^2 u}{∂y}+2xy \frac{∂^2 u}{∂x∂y}\) = u ln(u)[1+ln⁡(u)-1] = u ln⁡(u)2
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice Engineering Mathematics Question Bank, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Euler’s Theorem – 1» Next - Engineering Mathematics Questions and Answers – Errors and Approximations 

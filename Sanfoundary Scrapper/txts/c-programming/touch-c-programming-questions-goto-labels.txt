@@ -1,0 +1,72 @@
+This section on tough C programming questions focuses on “Goto & Labels”. One shall practice these questions to improve their C programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C Programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C programming questions come with detailed explanation of the answers which helps in better understanding of C concepts.
+Here is a listing of tough C programming questions on “Goto & Labels” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        printf("%d ", 1);        goto l1;        printf("%d ", 2);        l1:goto l2;        printf("%d ", 3);        l2:printf("%d ", 4);   }
+a) 1 4
+b) Compilation error
+c) 1 2 4
+d) 1 3 4
+a
+2. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        printf("%d ", 1);        l1:l2:        printf("%d ", 2);        printf("%d\n", 3);    }
+a) Compilation error
+b) 1 2 3
+c) 1 2
+d) 1 3
+b
+3. What will be the output of the following C code?
+Join Sanfoundry@YouTube
+    #include <stdio.h>    int main()    {        printf("%d ", 1);        goto l1;        printf("%d ", 2);    }    void foo()    {        l1 : printf("3 ", 3);    }
+a) 1 2 3
+b) 1 3
+c) 1 3 2
+d) Compilation error
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0, j = 0;        while (i < 2)        {            l1 : i++;            while (j < 3)            {                printf("Loop\n");                goto l1;            }        }    }
+a) Loop Loop
+b) Compilation error
+c) Loop Loop Loop Loop
+d) Infinite Loop
+d
+5. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0, j = 0;        while (l1: i < 2)        {            i++;            while (j < 3)            {                printf("loop\n");                goto l1;            }        }    }
+a) loop loop
+b) Compilation error
+c) loop loop loop loop
+d) Infinite loop
+b
+6. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        int i = 0, j = 0;        l1: while (i < 2)        {            i++;            while (j < 3)            {                printf("loop\n");                goto l1;            }        }    }
+a) loop loop
+b) compilation error
+c) oop loop loop loop
+d) infinite loop
+a
+7. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int i = 0;        if (i == 0)        {            goto label;        }        label: printf("Hello");    }
+a) Nothing
+b) Error
+c) Infinite Hello
+d) Hello
+d
+8. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int i = 0, k;        if (i == 0)            goto label;            for (k = 0;k < 3; k++)            {                printf("hi\n");                label: k = printf("%03d", i);            }    }
+a) 0
+b) hi hi hi 0 0 0
+c) 0 hi hi hi 0 0 0
+d) 0 0 0
+a
+9. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int i = 0, k;        label: printf("%d", i);        if (i == 0)            goto label;    }
+a) 0
+b) Infinite 0
+c) Nothing
+d) Error
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Break and Continue – 2» Next - C Programming Questions and Answers – Goto & Labels – 2 

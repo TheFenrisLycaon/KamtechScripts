@@ -1,0 +1,153 @@
+1. What will be the output of the following C# code?
+ static void Main(string[] args) {     int a = 4;     int b = 5;     int c = 6;     int d = 8;     if (((a * b / c) + d) >= ((b * c + d ) / a))     {         Console.WriteLine("Line 1 - a is greater to b");         Console.WriteLine((a * b / c) + d);     }     else     {         Console.WriteLine("Line 1 - a is not greater to b");         Console.WriteLine((b * c + d )/ a);     } }
+a) 
+"Line 1 - a is  greater to b"
+11
+b) 
+"Line 1 - a is not greater to b"
+9
+c) Both are equal
+d) None of the mentioned
+a
+for expression :
+ ((a * b / c) + d)
+Step 1: (a*b/c) (Evaluating as 4*5/6 = 3)
+Step 2: ( (a*b/c) + d ) (Evaluating (3 + 8 = 11))
+Result: 11
+for expression : (b * c + d )/ a
+Step 1: (b*c + d) (Evaluating as 5*6 +8 = 38)
+Step 2:   (b*c + d) / a (Evaluating as 38 / 4 = 9)
+Result: 9
+The relational operator “>=” between both expressions check for largest figure and hence consecutively executes the if condition.
+Output:
+         Line 1 - a is greater to b.
+         11
+2. Check the following C# code whether the given relation operator works according to the if condition or not.
+ static void Main(string[] args) {     int a = 10;     int b = 5;     int c = 12;      int e = 8;     int d;     d = Convert.ToInt32((a * (c - b) / e + (b + c)) <= (e * (c + a) / (b + c) + a));     Console.WriteLine(d);     if (d == 1)     {         Console.WriteLine("C# is great language!");         Console.WriteLine((a * (c - b) / e + (b + c)));     }     else     {         Console.WriteLine("harsh is not great language!");         Console.WriteLine((e * (c + a) / (b + c) + a));     } }
+a) 
+0
+C# is great!
+20
+b) 
+0
+C# is not great!
+25
+c) 
+0
+C# is great!
+25
+d) 
+0
+C# is not great!
+20
+d
+Output :
+        0.
+        C# is not great!.
+        20.
+  
+3. Which of the following is/are not Relational operators in C#.NET?
+a) >=
+b) <>=
+c) Not
+d) <=
+b
+4. What will be the output of the following C# code?
+    int n = 2;    int p = 4;    int q = 5;    int w = 3;    if ( !((p * q) /n <= (q * w) + n/p ))    {        Console.WriteLine( ++p + w++ + " " + ++n);        Console.WriteLine("b");    }    else    {        Console.WriteLine(--p + q-- + " " + --n);        Console.WriteLine("a");    }
+a) 
+6 2
+b
+b) 
+8 1
+a
+c) 
+6 1
+a
+d) 
+8 1
+b
+b
+  –p = 3
+    q–= 5
+  –p + q– = 8 where now value of ‘q’is 4.
+  –n = 2 – 1 =1.
+ So, values after evaluations are 8 1.
+                                  a.
+Output :
+         8 1
+         a
+  
+5. What will be the output of the following C# code?
+    m = 5;
+    int y;
+    1. y = m++;
+    2. y = ++m;
+a) y = 5, m = 6 ; y = 5, m = 5
+b) y = 6, m = 6; y = 7, m = 6
+c) y = 5, m = 6; y = 7, m = 7
+d) y = 5, m = 6; y = 7, m = 8
+c
+              step 1 :  m = 5, y = m++ i.e y =5, m =6.
+              step 2 :  y = ++m, Since m = 6. So, m = 7 on ++m and hence y = 7.
+Output : y = 5, m = 6; y =7, m = 7.
+6. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int a = 3, b = 5, c = 1;      int z = ++b;      int y = ++c;      b = Convert.ToInt32((Convert.ToBoolean(z)) && (Convert.ToBoolean(y))        || Convert.ToBoolean(Convert.ToInt32(!(++a == b))));      a = Convert.ToInt32(Convert.ToBoolean(c) || Convert.ToBoolean(a--));      Console.WriteLine(++a);      Console.WriteLine(++b);      Console.WriteLine(c);  }
+a) 2, 2, 1
+b) 2, 3, 2
+c) 2, 2, 2
+d) 2, 0, 9
+c
+              y = 2 as ++c.
+              6 &&  2 = 1
+              (++a == b) which is false as 4!=6. Now, !(false) = true  i.e 1.
+              So, 1 || 1 = 1. So, b = 1.
+              Similarly, c = 2  and a = 4. Now, 2 || 4 = 1.
+              So, a = 1.
+              Hence ++a = 2, ++b = 2, c = 2.
+Output :
+2, 2, 2
+7. What will be the output of the following C# code?
+ static void Main(string[] args) {     int a = 4, b = 5, c = 7, u = 9;     int h;     h = (Convert.ToInt32(u < b)) + (a + b--) + 2;     Console.WriteLine(h);     Console.WriteLine(b);     Console.WriteLine(u < b); }
+a) 12, 5, 0
+b) 11, 4, False
+c) 11, 5, 0
+d) 12, 4, False
+b
+             Step 2: (a + b--) evaluated as 4 + 5 = 9 + 2 = 11.
+             Step 3: u &lt; b evaluated as 'False' without being converted to '0'.
+Output: 11
+         4
+         False.
+8. What will be the output of the following C# code?
+ static void Main(string[] args) {     int m = 10, n = 5, p = 20;     bool b1 =  m * p / n <= p * n / m ;     int l = p - 2 * m;     bool b2 = l == 0;     int z = Convert.ToInt32(b2);     int k = Convert.ToInt32(b1);     Console.WriteLine(k);     Console.WriteLine(z); }
+a) 0 0
+b) 1 0
+c) 0 1
+d) 1 1
+c
+Output :
+0 1.
+9. What will be the output of the following C# code?
+ class method1 {     public int fun(int m)     {         return( m++ % 10);     } } class Program {     static void Main(string[] args)     {         int a = 23, b = 0, c;         method1 z = new method1();         c = z.fun (++b * --a % 2);         int d = (z.fun (c-- + --a));         Console.WriteLine(c);         Console.WriteLine(a++);         Console.WriteLine(d);         Console.ReadLine();     } }
+a) -1, 22, 0
+b) -1, 21, 1
+c)  0, 22, 1
+d)  0, 22, 0
+b
+Output:
+-1 21 1
+10. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int a = 8, b = 6, c = 10;      int d = a * c * 2 / Convert.ToInt32(Math.Pow ((c - b), 2));      if (d == (c = Convert.ToInt32(Math.Sqrt (a * a + b * b))) && c == 10)      {          Console.WriteLine("figure is hypotenuse");      }      else      {         Console.WriteLine("figure is square");      }  }
+a) Figure is square
+b) Figure is hypotenuse
+c) False
+d) None of the mentioned
+a
+Output :
+Figure is square
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Arithmetic Operators» Next - C# Questions & Answers – Bitwise and Conditional Operators 

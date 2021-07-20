@@ -1,0 +1,92 @@
+1. After what instant in time will the signal output become zero?
+p=conv([ones(1,100)],[ones(1,50),zeros(1,50)]);
+a) 150
+b) 149
+c) 151
+d) Error
+b
+2. For a causal L.T.I. system, the impulse response is 0 for _________
+a) t<0
+b) t=0
+c) t>0
+d) Always
+a
+3. The convolution of a discrete signal with itself is _________
+a) Squaring the signal
+b) Doubling the signal
+c) Adding two signals
+d) is not possible
+a
+4. The convolution of a function with an impulse function delayed to an instant 3 in time results in ____________
+a) An advance in the function by 3 units in time
+b) The function itself
+c) A delay in the function by 3 units in time
+d) Cannot be determined
+c
+∫∞-∞ f(k).δ(t-m-k)dk=f(t-m). 
+5. What is the output of the following code?
+a=con([1 2],[1 2]);
+b=cconv([1 2],[1 2]);
+a) a=b
+b) a<b
+c) a>b
+d) a!=b
+a
+6. A continuous signal can be represented as the product of an impulse function and the signal itself.
+a) True
+b) False
+a
+7. What is the output of the following code?
+cconv([1 2],[0 1 0])
+a) [0 1 2 0] 
+b) [1 2 0 0] 
+c) [1 2 0 0] 
+d) [0 0 1 2] 
+a
+8. What is the Scope value if the signal generator has a frequency of 2 Hz only?
+a) An attenuated signal of same frequency
+b) The entire signal at the same frequency
+c) The entire signal at reduced frequency
+d) An attenuated signal at reduced frequency
+a
+9. What is the output of the following code?
+P=tf([1 2],[3 4]);
+Q=tf([1 2],[3 4]);
+Z=P.Q;
+a) Z is the response of the system whose pole is at s=-4/3
+b) Z is the response of the system whose pole is at s=4/3
+c) Z is the response of the system whose poles are at s=-4/3 & s=+4/3
+d) Z is the response of the system whose zeros are at s=-4/3
+a
+10. What is the inverse laplace transform of Z from the following?
+P=tf([1],[1 0 0]);
+Q=tf([1],[1 0]);
+Z=P.Q;
+a) t2
+b) t2/2
+c) t3
+d) Error
+b
+11. What is the output of the following code?
+P=tf([1 2],[3 4]);
+Q=tf([1 2],[3 4]);
+Z=P.Q;
+ilpalace(Z)
+a) Error
+b) t
+c) t2
+d) Cannot be determined
+a
+12. What is the output of the following code?
+conv[1 2]
+a) Error in input
+b) Error in [] 
+c) 2
+d) 0
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Convolution – 1» Next - MATLAB Questions and Answers – Z Transform – 1 

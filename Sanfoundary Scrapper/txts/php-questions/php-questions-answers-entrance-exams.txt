@@ -1,0 +1,83 @@
+1. What will be the output of the following PHP code?
+<?phpecho 5 * 9 / 3 + 9;?>
+a) 24
+b) 3.7
+c) 3.85
+d) 0
+a
+2. What will be the output of the following PHP code?
+<?phpecho 5 * 9 / 3 + 9?>
+a) 24
+b) 3.7
+c) 3.85
+d) 0
+a
+3. What will be the output of the following PHP code?
+<?php$i = 0;$j = 0;if ($i && ($j = $i + 10)) {    echo "true";}echo $j;?>
+a) 10
+b) 0
+c) true0
+d) true10
+b
+4. What will be the output of the following PHP code?
+<?php$i = 10;$j = 0;if ($i || ($j = $i + 10)) {    echo "true";}echo $j;?>
+a) 20
+b) true0
+c) 0
+d) true20
+b
+5. What will be the output of the following PHP code?
+<?php$i = 1;if ($i++ && ($i == 1))    printf("Yes\n$i");else    printf("No\n$i");?>
+a) No 2
+b) Yes 1
+c) Yes 2
+d) No 1
+a
+6. What will be the output of the following PHP code?
+<?php$a = 1; $b = 3;$d = $a++ + ++$b;echo $d;?>
+a) 5
+b) 4
+c) 3
+d) error
+a
+7. What will be the output of the following PHP code?
+<?php$a = 1; $b = 1; $d = 1;print ++$a + ++$a+$a++; print $a++ + ++$b; print ++$d + $d++ + $a++;?>
+a) 869
+b) 742
+c) 368
+d) error
+a
+8. What will be the output of the following PHP code?
+<?php$a = 10; $b = 10;if ($a = 5)    $b--;print $a;print $b--;?>
+a) 58
+b) 59
+c) 109
+d) 108
+b
+9. What will be the output of the following PHP code?
+<?php$i = 0;$x = $i++; $y = ++$i;print $x; print $y; ?>
+a) 02
+b) 12
+c) 01
+d) 21
+a
+10. What will be the output of the following PHP code?
+<?php $a = 5; $b = -7; $c =0;  $d = ++$a && ++$b || ++$c; print $d; print $a;?>
+a) 16
+b) 06
+c) 15
+d) 05
+a
+11. What will be the output of the following PHP code?
+<?php$b = 1; $c = 4; $a = 5; $d = $b + $c == $a;print $d;?>
+a) 5
+b) 0
+c) 10
+d) 1
+d
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all areas of PHP for Entrance exams, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Operators – 2» Next - PHP Coding Questions and Answers – Operators – 4 

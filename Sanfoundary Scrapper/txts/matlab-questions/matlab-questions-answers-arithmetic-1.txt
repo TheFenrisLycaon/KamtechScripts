@@ -1,0 +1,157 @@
+1. What would be the output of the following code (in editor window)?
+A = [0 1; 1 0]	;	B=2	;	C = A + B
+a) 
+
+   1	2
+   4	5
+b) 
+
+    2	3
+    3	2
+c) 
+
+    3	2
+    3	2
+d) 
+
+    3	2
+    2	3
+b
+C = plus(A,B) is an alternate way to execute A + B, but is rarely used. It enables operator overloading for classes.
+  
+2. What would be the output of the following code (in editor window)?
+Join Sanfoundry@YouTube
+A = [1 0 2]	;	b = [3 0 7]	;	c=a.*b;
+a) [2 0 21] 
+b) [3 0 14] 
+c) [14 0 3] 
+d) [7 0 3] 
+b
+3. What would be the output of the following code (in editor window)?
+a=1:5	;	c=a.^2
+a) [1	25] 
+b) [1	2	3	4	5] 
+c) [25	16	9	4	1] 
+d) [1	4	9	16	25] 
+d
+[12	22	32	42	52] = [1	4	9	16	25].
+4. What would be the output of the following code (in editor window)?
+A = [1	1	0	0]
+B = [1	;2	;3	;4]
+C=A*B
+a) 0
+b) [1	0	0	0] 
+c) 3
+d) [1	2	0	0] 
+c
+Multiply B times A.
+5. What would be the output of the following code (in editor window)?
+A = [1	2;	3	4]
+C = A^2
+a) [7   10;   15   22] 
+b) [1    4;    9   16] 
+c) [16   9;    4    1] 
+d) [22  15;   10    7] 
+a
+A2 = [1	2;	3	4] *[1   	2;	3	4]
+[7	10;	15	22].
+6. What would be the output of the following code (in editor window)?
+A=1:5;
+B=cumprod(A)
+a) b=[1		2	6	24	120] 
+b) b=[1		2	3	4	5] 
+c) b=[5		4	3	2	1] 
+d) b=[120	24	6	2	1] 
+a
+7. Create an array of logical values.
+A = [true false true; true true false]
+A = 1     0     1
+    1     1     0
+B = cumprod(A,2)
+Find the cumulative product of the rows of A.
+a) 
+
+      B = 1     0     0
+          0     1     0
+b) 
+
+      B = 1     0     0
+          1     1     0
+c) 
+
+      B = 1     0     0
+          1     1     1
+d) 
+
+      B = 1     1     0
+          1     1     0
+b
+
+      B = 1     0     0
+          1     1     0
+The output is double.
+class(B)
+ans = double.
+  
+8. Find the cumulative sum of the columns of A.
+  A =1     4     7
+     2     5     8
+     3     6     9
+B = cumsum(A)
+a) 
+
+B = 1     4     7
+    3     8    15
+    6    15    24
+b) 
+
+B = 1     4     7
+    4     9    15
+    4    15    24
+c) 
+
+B = 1     4     7
+    3     9    15
+    6    15    29
+d) 
+
+B = 1     4     7
+    3     9    15
+    6    15    24
+d
+  
+9. Create a 4-by-2-by-3 array of ones and compute the sum along the third dimension.
+A = ones(4,2,3);
+S = sum(A,3)
+a) 
+
+S = 3     3
+    3     3
+    3     3
+    3     3
+b)
+
+S = 3     4
+    3     4
+    3     4
+    3     4
+c) 
+
+S = 2     3
+    2     3
+    2     3
+    2     3
+d) 
+
+S = 7     3
+    5     3
+    6     3
+    3     3
+a
+  
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Input and Output» Next - MATLAB Questions and Answers – Arithmetic – 2 

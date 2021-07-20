@@ -1,0 +1,72 @@
+1. For a 4-bit parallel adder, if the carry-in is connected to a logical HIGH, the result is ___________
+a) The same as if the carry-in is tied LOW since the least significant carry-in is ignored
+b) That carry-out will always be HIGH
+c) A one will be added to the final result
+d) The carry-out is ignored
+c
+2. Fast-look-ahead carry circuits found in most 4-bit full-adder circuits which ___________
+a) Determine sign and magnitude
+b) Reduce propagation delay
+c) Add a 1 to complemented inputs
+d) Increase ripple delay
+b
+3. One way to make a four-bit adder to perform subtraction is by ___________
+a) Inverting the output
+b) Inverting the carry-in
+c) Inverting the B inputs
+d) Grounding the B inputs
+c
+4. What distinguishes the look-ahead-carry adder?
+a) It is slower than the ripple-carry adder
+b) It is easier to implement logically than a full adder
+c) It is faster than a ripple-carry adder
+d) It requires advance knowledge of the final answer
+c
+5. Carry lookahead logic uses the concepts of ___________
+a) Inverting the inputs
+b) Complementing the outputs
+c) Generating and propagating carries
+d) Ripple factor
+c
+6. What is one disadvantage of the ripple-carry adder?
+a) The interconnections are more complex
+b) More stages are required to a full adder
+c) It is slow due to propagation time
+d) All of the Mentioned
+c
+7. The carry propagation delay in 4-bit full-adder circuits ___________
+a) Is cumulative for each stage and limits the speed at which arithmetic operations are performed
+b) Is normally not a consideration because the delays are usually in the nanosecond range
+c) Decreases in direct ratio to the total number of full-adder stages
+d) Increases in direct ratio to the total number of full-adder stages but is not a factor in limiting the speed of arithmetic operations
+a
+8. What is Manchester carry chain?
+a) Is a chain of controlled inverter
+b) Variation of a carry-lookahead adder
+c) Variation of a full-adder
+d) Variation of a ripple carry adder
+b
+9. The main disadvantage of Manchester carry chain is ___________
+a) Ripple factor
+b) Propagation delay
+c) Capacitive load
+d) Both propagation delay and capacitive load
+d
+10. The summing outputs of a half or full-adder are designated by which Greek symbol?
+a) Omega
+b) Theta
+c) Lambda
+d) Sigma
+d
+11. Why is a fast-look-ahead carry circuit used in the 7483 4-bit full-adder?
+a) To decrease the cost
+b) To make it smaller
+c) To slow down the circuit
+d) To speed up the circuit
+d
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Electronic Circuits for various tests, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – 4-Bit Parallel Adder/Subtractor – 1» Next - Digital Circuits Questions and Answers – Fast Adder & Serial Adder – 1 

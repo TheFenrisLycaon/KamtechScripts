@@ -1,0 +1,67 @@
+1. Rectification is determining ____________
+a) Length of a line
+b) Length of a curve
+c) Area of an object
+d) Perimeter of an object
+b
+2. Which one of the following is an infinite curve?
+a) Hyperbola
+b) Koch curve
+c) Gaussian curve
+d) Parabola
+b
+3. The expression for arc length in rectangular form is_________________
+a) \(ds = \int_a^b xy \sqrt{1 + (\frac{dy}{dx})^2} \) 
+b) \(ds = \int_a^b \sqrt{1 – (\frac{dy}{dx})^2} \,dx \) 
+c) \(ds = \int_a^b \sqrt{(\frac{dy}{dx})^2} \,dx \) 
+d) \(ds = \int_a^b \sqrt{1 – (\frac{dy}{dx})^2} \,dx \) 
+d
+4. The expression for arc length in parametric form is_________________
+a) \(ds = \int_a^b xy \sqrt{(\frac{dx}{dt})^2 + (\frac{dy}{dt})^2} \,ds \) 
+b) \(ds = \int_a^b \sqrt{(\frac{dx}{dt})^2 + (\frac{dy}{dt})^2} \,dt \) 
+c) \(ds = \int_a^b \sqrt{(\frac{dx}{dt})^2 + (\frac{dy}{dt})^2} \,dx \) 
+d) \(ds = \int_a^b \sqrt{(\frac{dx}{dt})^2 + (\frac{dy}{dt})^2} \) 
+b
+5. The expression for arc length in polar form is_________________
+a) \(ds = \int_a^b \sqrt{r^2 + (\frac{dr}{dθ})^2} \) 
+b) \(ds = \int_a^b \sqrt{r^2 + (\frac{dr}{dθ})^2} \,dθ \) 
+c) \(ds = \int_a^b \sqrt{(\frac{dr}{dθ})^2} \,dθ \) 
+d) \(ds = \int_a^b \sqrt{r^2 + (\frac{dr}{dθ})^2} \,dr \) 
+b
+6. Closed form solutions are absent for ellipses.
+a) True
+b) False
+a
+7. What is the length of a circular curve when θ is in degrees and ‘r’ is the radius?
+a) s = rθ
+b) s = r
+c) \(s = \frac{πrθ}{180} \) 
+d) s = πr
+c
+8. The length of curve r = eθ, θ value ranges between 0 to π is________
+a) \(\sqrt{2} \) 
+b) \(\sqrt{2} \,(e^2π – 1) \) 
+c) \(\sqrt{2} \,(e^2π + 1) \) 
+d) \(\sqrt{2} \,(e^2π) \) 
+b
+\(= \int_0^{2π} \sqrt{(e^θ)^2 + (e^θ)^2)} \,dθ \) 
+\(= \int_0^{2π} e^θ \sqrt{2} \,dθ \) 
+\(= (e^θ \sqrt{2}) |_0^{2π} \) 
+\(= \sqrt{2} (e^{2π}-1). \)
+9. The arc length of y = cosh⁡x where x varies from 0 to 1 is ____________
+a) \(\frac{e}{2} – \frac{1}{2e} \) 
+b) \(\frac{e}{2} – \frac{1}{2e} + \frac{1}{2e} \) 
+c) \(\frac{e}{2} – \frac{1}{2e} \) 
+d) 2e
+a
+Arc length = \(\int_a^b \sqrt{1 + (\frac{dy}{dx})^2} \,dx\) 
+= \(\int_0^1 \sqrt{1 + (sinh⁡x)^2)} \,dx\) 
+= \(\int_0^1 cosh⁡x \,dx \) 
+= \(\Big[sinh ⁡x\Big]_0^1\) 
+= \(\frac{e}{2} – \frac{1}{2e} \).
+Sanfoundry Global Education & Learning Series – Differential and Integral Calculus.
+To practice all areas of Differential and Integral Calculus for Freshers, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Differential and Integral Calculus Questions and Answers – Quadrature» Next - Integral Calculus Questions and Answers – Rectification in Polar and Parametric Forms 

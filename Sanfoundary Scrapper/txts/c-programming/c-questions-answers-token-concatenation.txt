@@ -1,0 +1,143 @@
+1. Which of the following operators is used to concatenate two strings without space?
+a) #
+b) < >
+c) **
+d) ##
+d
+2. What will be the output of the following C code?
+#include <stdio.h>
+#define p( n ) printf( "t" #n " = %d", t##n )
+int t3=10;
+int main()
+{
+   p(3);
+}
+a) t=10
+b) t3=10
+c) t10=3
+d) t=3
+b
+3. What will be the output of the following C code?
+#include <stdio.h>
+#define p( n,m ) printf( "%d", m##n )
+int main()
+{
+   p(3,4);
+}
+a) Error
+b) Junk value
+c) 34
+d) 43
+d
+4. What will be the output of the following C code?
+#include <stdio.h>
+#define p( n,m ) printf( "%d", m##n )
+#define q(a,b) printf("%d",a##b)
+main()
+{
+   p(3,4);
+   q(5,5);
+}
+a) 4356
+b) 3456
+c) 4365
+d) 3465
+a
+5. The following C code results in an error.
+#include <stdio.h>
+#define world( n ) printf( "t^^" #n" = %c", t##n )
+int t3=1;
+int main()
+{
+   world(3);
+}
+a) True
+b) False
+b
+6. What will be the output of the following C code?
+#include <stdio.h>
+#define display( n ) printf( "a" #n " = %d", a##n )
+int main()
+{
+   display(3);
+}
+a) a3
+b) 31
+c) a 3
+d) error
+d
+7. What will be the output of the following C code?
+#include <stdio.h>
+#define hello( n ) a##n
+int a3;
+int main()
+{
+    int x;
+    x=hello(3);
+    if(x!=0)
+        printf("hi");
+    else
+        printf("good");
+}
+a) error
+b) a3
+c) good
+d) hi
+c
+8. What will be the output of the following C code?
+#include <stdio.h>
+#define hello( n ) printf( "a" #n "= %d", a##n )
+int a3=3;
+int main()
+{
+    #ifdef a3
+       hello(3);
+   #else
+       printf("sorry");
+   #endif
+}
+a) a3=3
+b) error
+c) a=3
+d) sorry
+d
+9. What will be the output of the following C code?
+#include <stdio.h>
+#define p( n ) printf( "t*" #n " = %s", t##n )
+char tsan[]="tsan";
+int main()
+{
+    int x;
+    x=p(san);
+}
+a) error
+b) tsan=tsan
+c) t*san=t*san
+d) t*san=tsan
+d
+10. What will be the output of the following C code?
+#include <stdio.h>
+#define p( n ) printf( "t%\n" #n " = %d", t##n )
+int t3=10;
+int main()
+{
+    int x;
+    x=p(3);
+}
+a) 
+   t
+   3=10
+b) t3=10
+c) t%3=10
+d)  
+    t
+    %3=10
+a
+       3=10
+  
+ Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Conditional Preprocessor Directives – 2» Next - C Questions and Answers – Inline 

@@ -1,0 +1,100 @@
+1.	If h(rk) = nk, rk the kth gray level and nk total pixels with gray level rk, is a histogram in gray level range [0, L – 1]. Then how can we normalize a histogram?
+a)	If each value of histogram is added by total number of pixels in image, say n, p(rk)=nk+n
+b)  If each value of histogram is subtracted by total number of pixels in image, say n, p(rk)=nk-n
+c)	If each value of histogram is multiplied by total number of pixels in image, say n, p(rk)=nk * n
+d)	If each value of histogram is divided by total number of pixels in image, say n, p(rk)=nk / n
+d
+2.	What is the sum of all components of a normalized histogram?
+a)	1
+b)	-1
+c)	0
+d)	None of the mentioned
+a
+Where, n is total number of pixels in image, rk the kth gray level and nk total pixels with gray level rk.
+Here, p(rk) gives the probability of occurrence of rk.
+3.	A low contrast image will have what kind of histogram when, the histogram, h(rk) = nk, rk the kth gray level and nk total pixels with gray level rk, is plotted nk versus rk?
+a)	The histogram that are concentrated on the dark side of gray scale
+b)	The histogram whose component are biased toward high side of gray scale
+c)	The histogram that is narrow and centered toward the middle of gray scale
+d)	The histogram that covers wide range of gray scale and the distribution of pixel is approximately uniform
+c
+A dark image will have the histogram that are concentrated on the dark side of gray scale.
+A bright image will have the histogram whose component are biased toward high side of gray scale.
+A high contrast image will have the histogram that covers wide range of gray scale and the distribution of pixel is approximately uniform.
+4.	A bright image will have what kind of histogram, when the histogram, h(rk) = nk, rk the kth gray level and nk total pixels with gray level rk, is plotted nk versus rk?
+a)	The histogram that are concentrated on the dark side of gray scale
+b)	The histogram whose component are biased toward high side of gray scale
+c)	The histogram that is narrow and centered toward the middle of gray scale
+d)	The histogram that covers wide range of gray scale and the distribution of pixel is approximately uniform
+b
+A dark image will have the histogram that are concentrated on the dark side of gray scale.
+A bright image will have the histogram whose component are biased toward high side of gray scale.
+A high contrast image will have the histogram that covers wide range of gray scale and the distribution of pixel is approximately uniform.
+5.	A high contrast image and a dark image will have what kind of histogram respectively, when the histogram, h(rk) = nk, rk the kth gray level and nk total pixels with gray level rk, is plotted nk versus rk?
+	The histogram that are concentrated on the dark side of gray scale.
+	The histogram whose component are biased toward high side of gray scale.
+	The histogram that is narrow and centered toward the middle of gray scale.
+	The histogram that covers wide range of gray scale and the distribution of pixel is approximately uniform.
+a)	I) And II) respectively
+b)	III) And II) respectively
+c)	II) And IV) respectively
+d)	IV) And I) respectively
+d
+A dark image will have the histogram that are concentrated on the dark side of gray scale.
+A bright image will have the histogram whose component are biased toward high side of gray scale.
+A high contrast image will have the histogram that covers wide range of gray scale and the distribution of pixel is approximately uniform.
+6.	The transformation s = T(r) producing a gray level s for each pixel value r of input image. Then, if the T(r) is single valued in interval 0 ≤ r ≤ 1, what does it signifies?
+a)	It guarantees the existence of inverse transformation
+b)	It is needed to restrict producing of some inverted gray levels in output
+c)	It guarantees that the output gray level and the input gray level will be in same range
+d)	All of the mentioned
+a
+7.	The transformation s = T(r) producing a gray level s for each pixel value r of input image. Then, if the T(r) is monotonically increasing in interval 0 ≤ r ≤ 1, what does it signifies?
+a)	It guarantees the existence of inverse transformation
+b)	It is needed to restrict producing of some inverted gray levels in output
+c)	It guarantees that the output gray level and the input gray level will be in same range
+d)	All of the mentioned
+b
+8.	The transformation s = T(r) producing a gray level s for each pixel value r of input image. Then, if the T(r) is satisfying 0 ≤ T(r) ≤ 1 in interval 0 ≤ r ≤ 1, what does it signifies?
+a)	It guarantees the existence of inverse transformation
+b)	It is needed to restrict producing of some inverted gray levels in output
+c)	It guarantees that the output gray level and the input gray level will be in same range
+d)	All of the mentioned
+c
+9.	What is the full form for PDF, a fundamental descriptor of random variables i.e. gray values in an image?
+a)	Pixel distribution function
+b)	Portable document format
+c)	Pel deriving function
+d)	Probability density function
+d
+10.	What is the full form of CDF?
+a)	Cumulative density function
+b)	Contour derived function
+c)	Cumulative distribution function
+d)	None of the mentioned
+c
+11.	For the transformation T(r) = [∫0r pr(w) dw], r is gray value of input image, pr(r) is PDF of random variable r and w is a dummy variable. If, the PDF are always positive and that the function under integral gives the area under the function, the transformation is said to be __________
+a)	Single valued
+b)	Monotonically increasing
+c)	All of the mentioned
+d)	None of the mentioned
+c
+12.	The transformation T (rk) = ∑k(j=0) nj /n, k = 0, 1, 2, …, L-1, where L is max gray value possible and r-k is the kth gray level, is called _______
+a)	Histogram linearization
+b)	Histogram equalization
+c)	All of the mentioned
+d)	None of the mentioned
+c
+13.	If the histogram of same images, with different contrast, are different, then what is the relation between the histogram equalized images?
+a)	They look visually very different from one another
+b)	They look visually very similar to one another
+c)	They look visually different from one another just like the input images
+d)	None of the mentioned
+b
+The histogram equalization increases the contrast and make the gray-level difference of output image visually indistinguishable.
+Sanfoundry Global Education & Learning Series – Digital Image Processing.
+To practice all areas of Digital Image Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Image Processing Questions and Answers – Basic Grey Level Transformation» Next - Digital Image Processing Questions and Answers – Histogram Specification and Use of Histogram Statistics for Image Enhancement 

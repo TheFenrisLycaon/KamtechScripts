@@ -1,0 +1,67 @@
+1. Avro schemas are defined with _____
+a) JSON
+b) XML
+c) JAVA
+d) All of the mentioned
+a
+2. Point out the correct statement.
+a) Avro provides functionality similar to systems such as Thrift
+b) When Avro is used in RPC, the client and server exchange data in the connection handshake
+c) Apache Avro, Avro, Apache, and the Avro and Apache logos are trademarks of The Java Foundation
+d) None of the mentioned
+a
+3. __________ facilitates construction of generic data-processing systems and languages.
+a) Untagged data
+b) Dynamic typing
+c) No manually-assigned field IDs
+d) All of the mentioned
+b
+4. With ______ we can store data and read it easily with various programming languages.
+a) Thrift
+b) Protocol Buffers
+c) Avro
+d) None of the mentioned
+c
+5. Point out the wrong statement.
+a) Apache Avro™ is a data serialization system
+b) Avro provides simple integration with dynamic languages
+c) Avro provides rich data structures
+d) All of the mentioned
+d
+6. ________ are a way of encoding structured data in an efficient yet extensible format.
+a) Thrift
+b) Protocol Buffers
+c) Avro
+d) None of the mentioned
+b
+7. Thrift resolves possible conflicts through _________ of the field.
+a) Name
+b) Static number
+c) UID
+d) None of the mentioned
+b
+8. Avro is said to be the future _______ layer of Hadoop.
+a) RMC
+b) RPC
+c) RDC
+d) All of the mentioned
+b
+9. When using reflection to automatically build our schemas without code generation, we need to configure Avro using?
+a) AvroJob.Reflect(jConf);
+b) AvroJob.setReflect(jConf);
+c) Job.setReflect(jConf);
+d) None of the mentioned
+c
+10. We can declare the schema of our data either in a ______ file.
+a) JSON
+b) XML
+c) SQL
+d) R
+c
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Serialization» Next - Hadoop Questions and Answers – Avro – 2 

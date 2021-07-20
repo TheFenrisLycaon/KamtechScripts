@@ -1,0 +1,64 @@
+1. Which of these is also known as a virtual table?
+a) SCHEMA
+b) DATABASE
+c) JOIN
+d) VIEW
+d
+2. A View can be used to select a subset of the table columns.
+a) True
+b) False
+a
+3. What is xyz in the following MySQL statement?
+CREATE VIEW xyz AS SELECT a, b FROM t;
+a) table
+b) column
+c) view
+d) database
+c
+4. What is abc in the following MySQL statement?
+CREATE VIEW xyz (abc) AS SELECT a FROM t;
+a) row name
+b) column name
+c) view
+d) database
+b
+5. A view can refer to multiple tables via __________
+a) UNION
+b) JOIN
+c) GROUP
+d) SELECT
+b
+6. Views are not updatable.
+a) True
+b) False
+b
+7. A view can be deleted using the command __________
+a) REMOVE
+b) DELETE
+c) CLEAR
+d) DROP
+d
+8. What cannot be done on a view?
+a) display
+b) filter
+c) index
+d) drop
+c
+9. What can be used to check for views that have been invalidated by DROP or ALTER operations?
+a) CREATE TABLE
+b) VERIFY TABLE
+c) DETAILS TABLE
+d) CHECK TABLE
+d
+10. Which of the following does not support a materialized view?
+a) MySQL
+b) Oracle
+c) PostgreSQL
+d) SybaseSQL
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Performing Multiple – Table Retrievals with Union» Next - MySQL Questions and Answers – Multiple – Table Deletes and Updates 

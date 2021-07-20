@@ -1,0 +1,61 @@
+1. A machine in Network file system (NFS) can be ________
+a) client
+b) server
+c) both client and server
+d) neither client nor server
+c
+2. A _________ directory is mounted over a directory of a _______ file system.
+a) local, remote
+b) remote, local
+c) local, local
+d) none of the mentioned
+d
+3. The _________ becomes the name of the root of the newly mounted directory.
+a) root of the previous directory
+b) local directory
+c) remote directory itself
+d) none of the mentioned
+b
+4. ___________ mounts, is when a file system can be mounted over another file system, that is remotely mounted, not local.
+a) recursive
+b) cascading
+c) trivial
+d) none of the mentioned
+b
+5. The mount mechanism ________ a transitive property.
+a) exhibits
+b) does not exhibit
+c) may exhibit
+d) none of the mentioned
+b
+6. A mount operation includes the _____________
+a) name of the network
+b) name of the remote directory to be mounted
+c) name of the server machine storing it
+d) all of the mentioned
+b
+7. The mount request is mapped to the corresponding __________ and is forwarded to the mount server running on the specific server machine.
+a) IPC
+b) System
+c) CPU
+d) RPC
+b
+8. The server maintains a/an ________ that specifies local file systems that it exports for mounting, along with names of machines that are permitted to mount them.
+a) export list
+b) import list
+c) sending list
+d) receiving list
+a
+9. In UNIX, the file handle consists of a __________ and __________
+a) file-system identifier & an inode number
+b) an inode number & FAT
+c) a FAT & an inode number
+d) a file pointer & FAT
+a
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions & Answers – File System Implementation – Recovery» Next - Operating System Questions & Answers – File System Implementation – Network File System – 2 

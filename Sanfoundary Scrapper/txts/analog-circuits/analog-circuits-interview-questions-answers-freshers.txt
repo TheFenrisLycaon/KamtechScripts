@@ -1,0 +1,84 @@
+1. Find the voltage across the resistor R if VA = -3V and VB = -5V. Use ideal diode model assumption.
+a) 0V
+b) -3V
+c) -5V
+d) -4V
+a
+Since both the diodes are in reverse bias mode, current through the diode is zero and we can consider the diode as an open circuit. So there is no voltage drop across resistor R.
+2. Find current I if voltage V = 5V, VB = 2V, R1 & R2 = 2K. Use ideal diode model assumption.
+a) 1.5mA
+b) 1.375mA
+c) 2mA
+d) 3mA
+d
+The diode is forward biased and can be considered as a short circuit.
+ So voltage across R1 is V-VB.
+ That is 3V. Therefore, current through R1 = 3V/2k = 1.5mA.
+Current through R2 = 3/2K = 1.5mA.
+Therefore, total current I = 1.5+1.5 = 3mA.
+3. Find current I if V = 5V and -5V when VB = 2V, R1 = 2KΩ, R2 = 4KΩ and the diode is ideal.
+a) 0A and 1.3mA
+b) 1.231mA and 0.33mA
+c) 3.25mA and 0A
+d) 1.58mA and 0A
+c
+When V=5V, the diode is forward biased and can be considered as a short circuit.
+Current through resistor R1 = V/2k = 2.5mA.
+Current through resistor R2 = (V – VB)/4k = 0.75mA.
+So total current is  3.25mA.
+At V = -5V, diode is reverse bias So the current is zero.
+4. The output voltage V if Vin = 3V, R=5KΩ, VB = 2V in a ideal diode is __________
+a) 1V
+b) 4V
+c) 3V
+d) 2V
+c
+The diode above is reverse biased and ideally can be considered as an open circuit. So output is the voltage Vin = 3V.
+5. In the circuit below VB = 2V, Vin = 5V. The voltage V across resistor R in ideal diode is __________
+a) 5V
+b) 2V
+c) 3V
+d) 0V
+d
+Since the diode is in reverse bias, no current flows through it and thus through the resistor too. Thus voltage across resistor is zero.
+6. In the circuit Vin = 4V, VB = 3V, R = 5K. The voltage across diode V is __________
+a) 1V
+b) 4V
+c) 3V
+d) 7V
+a
+Since Vin reverse biases the diode and VB forward biases the diode So total voltage across diode is Vin-VB.
+7. In the circuit below Vin = 4V, R = 2K and VB = 2V. In these conditions the voltage across ideal diode V is __________
+a) -4V
+b) -2V
+c) 2V
+d) 0V
+d
+Since net voltage Vin – VB = 2V forward biases the diode, it can be considered as a short circuit and the voltage across diode is zero.
+8. In the circuit shown in below I = 2mA, VB = 2V and R = 2K. The voltage V will be _________
+a) 2V
+b) -2V
+c) -4V
+d) 1V
+b
+Assuming diode to be forward biased, KCL can’t be applied correctly at the node. Hence diode is reverse biased. The diode can be considered as an open circuit and the current flows through resistor R only. Hence voltage V = -2V.
+9. In the circuit shown in below I = 2mA, VB = 2V and R = 2K. The voltage V will be ____________
+a) 2V
+b) 3V
+c) 6V
+d) 5V
+a
+Consider that diode is reverse biased. But, that does not satisfy KCL at the node. No incoming current is present. Hence diode is forward biased and short-circuited. Hence the output voltage = V = VB = 2V.
+10. For circuit shown below Vin = 3V, R1 = 6K, R2 = 2K. The voltage V will be ________
+a) 3V
+b) 0.75V
+c) 1V
+d) 1.134V
+a
+Since diode is forward biased entire voltage will appear across R2.
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits for Interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Ideal Diode Model-1» Next - Analog Circuits Questions and Answers – Piecewise Linear Model of Diode – 1 

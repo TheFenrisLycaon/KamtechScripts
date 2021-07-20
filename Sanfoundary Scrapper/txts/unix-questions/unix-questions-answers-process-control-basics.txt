@@ -1,0 +1,96 @@
+1. UNIX supports preemptive multitasking.
+a) True
+b) False
+a
+2. The collection of memory locations that the process can access is called _______
+a) process table
+b) process space
+c) virtual address space
+d) virtual space
+c
+3. The virtual address space consists of ____ segments.
+a) 4
+b) 5
+c) 3
+d) 2
+b
+•    Text segment
+•    Data segment
+•    Stack
+•    Heap
+•    Command line arguments and environment variables. 
+4. The segment representing the constants, globals and static variables is called:
+a) text segment
+b) data segment
+c) stack
+d) heap
+b
+5. The stack stores the _______
+a) arguments and local variables
+b) address to return to
+c) global variables
+d) arguments and local variables and address to return
+d
+6. The attributes of every process are stored in ____
+a) data table
+b) inode table
+c) process table
+d) heap
+c
+7. The entire process life cycle is built around ___ system calls.
+a) 3
+b) 4
+c) 2
+d) 5
+b
+8. Which of the following system call is used for replicating a process?
+a) fork
+b) exec
+c) wait
+d) _exit
+a
+9. Which of the following functions is used for handling environment variables of a process?
+a) getenv
+b) setenv
+c) letenv
+d) getenv and setenv
+d
+10. A process can be terminated using the exit or _exit system call.
+a) True
+b) False
+a
+11. Both exit and _exit system call share an identical syntax.
+a) True
+b) False
+a
+void _exit (int status;)
+void exit (int status);
+ 
+12. The parent process picks up the exit status of a child using ___ system call.
+a) wait
+b) waitp
+c) exec
+d) kill
+a
+13. Which of the following system call is more powerful (in waiting mechanism) than wait system call?
+a) waitp
+b) waitpid
+c) kill
+d) run
+b
+14. If the child dies first but the entry of that child in the process table is still present, then that process is called ____
+a) orphan
+b) zombie
+c) termin
+d) daemon
+b
+15. Every process belongs to a process group.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix  Questions and Answers – File Handling System Calls – 2» Next - Unix  Questions and Answers – Process Control System Calls – 1 

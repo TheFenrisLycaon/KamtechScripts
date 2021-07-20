@@ -1,0 +1,112 @@
+1. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        string[] strs = {"alpha", "beta", "gamma"};        var chrs = from str in strs                   let chrArray = str.ToCharArray()                   from ch in chrArray                   orderby ch                   select ch;        Console.WriteLine("The individual characters in sorted order:");        foreach (char c in chrs)         Console.Write(c + " ");        Console.WriteLine();        Console.ReadLine();    }}
+a) a a l h a b g m m a p e t a
+b) a a a a a b e g h l m m p t
+c) a g h l m m p t a a a a b e
+d) Run time error
+b
+Output:
+ a a a a a b e g h l m m p t
+2. What will be the output of the following C# code snippet?
+ class Program {     static void Main(string[] args)     {         int[] nums = { 1, -2, 3, 0, -4, 5 };         var posNums = nums.Where(n => n > 0).Select(r => r*2).                       OrderByDescending(r=>r);         Console.Write("The positive values in nums: ");         foreach(int i in posNums)          Console.Write(i + " ");         Console.WriteLine();         Console.ReadLine();     } }
+a) code run successfully prints nothing
+b) run time error
+c) code run successfully prints multiple of 2
+d) compile time error
+c
+Output:
+ 10 6 2
+3. What will be the output of the following C# code snippet?
+ class Program {     static void Main(string[] args)     {         int[] nums = {3, 1, 2, 5, 4};         var ltAvg = from n in nums                     let x = nums.Average()                     where n < x                     select n;         Console.WriteLine("The average is " + nums.Average());         Console.ReadLine();     } }
+a) Run time error
+b) 3
+c) 5
+d) Compile time error
+b
+Output:
+3
+4. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        Expression<Func<int, int, bool>>        IsFactorExp = (n, d) => (d != 0) ? (n % d) == 0 : false;        Func<int, int, bool> IsFactor = IsFactorExp.Compile();        if (IsFactor(10, 5))        Console.WriteLine("5 is a factor of 10.");        if (!IsFactor(343, 7))        Console.WriteLine("7 is not a factor of 10.");        Console.ReadLine();    }}
+a) Compile time error
+b) Run time error
+c) 
+5 is a factor of 10
+7 is not a factor of 10
+d) 5 is a factor of 10
+d
+Expression<Func<int, int, bool>>
+IsFactorExp = (n, d) => (d != 0) ? (n % d) == 0 : false;
+Second, this constructs a representation of a lambda expression in memory.
+Output:
+5 is a factor of 10
+5. Choose the namespace in which Expression trees are encapsulated?
+a) System.Linq
+b) System.Linq.Expressions
+c) System.Text
+d) System.Collections.Generic
+b
+6. In the following C# code, which query will work according to the set of code?
+class Program{    static void Main(string[] args)    {        int[] nums = { 1, -2, 3, 0, -4, 5 };        int len = /*_________________ */        Console.WriteLine("The number of positive values in nums: " + len);        Console.ReadLine();    }}
+a) 
+from n in nums where n > 0
+select n
+b) 
+from n in nums where n > 0
+select n.Count()
+c) 
+(from n in nums where n > 0
+select n).Count();
+d) Both “from n in nums where n > 0 select n.Count()” & “(from n in nums where n > 0 select n).Count();”
+c
+Output:
+            int len = (from n in nums where n > 0
+                    select n).Count();
+7. In the following C# code, what does the output represent?
+class Program{    static void Main(string[] args)    {        int[] nums = { 1, -2, 3, 0, -4, 5 };        var posNums = from n in nums                      where n > 0                      select n;        int len = posNums.Count();        Console.WriteLine(len);        Console.ReadLine();    }}
+a) Execution of code with nothing being printed
+b) Execution of code with printing all numbers
+c) Execution of code with counting total numbers greater than zero
+d) Run time error
+c
+Output:
+ 3
+8. What will be the output of the following C# code snippet?
+ class Program {     static void Main(string[] args)     {         int[] nums = { 1, -2, 3, 0, -4, 5 };         var posNums = nums.Where(n => n < 10).Select(r => r%3);         Console.Write("The values in nums: ");         foreach (int i in posNums) Console.Write(i + " ");         Console.WriteLine();         Console.ReadLine();     } }
+a) Compile time error
+b) Run time error
+c) 1 -2 0 0 -1 2
+d) 2 -1 0 0 -2 1
+c
+Output:
+ 1 -2 0 0 -1 2
+9. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        string[] strs = { ".com", ".net", "facebook.com", "google.net",                          "test", "netflix.net", "hsNameD.com" };        var netAddrs = from addr in strs                       where addr.Length > 4 && addr.EndsWith(".net",                       StringComparison.Ordinal)                       select addr;        foreach (var str in netAddrs) Console.WriteLine(str);        Console.ReadLine();    }}
+a) Compile time error
+b) Run time error
+c) 
+   facebook.com
+   netflix.net
+   google.net
+d) 
+   google.net
+   netflix.net
+d
+Output:
+        google.net
+        netflix.net
+  
+10. What will be the output of the following C# code snippet?
+class Program    {        static void Main(string[] args)        {             int[] nums = { 1, -2, -3, 5 };            var posNums = from n in nums                          orderby n descending                          select n*4 / 2;            Console.Write("The values in nums: ");            foreach (int i in posNums) Console.Write(i + " ");            Console.WriteLine();            Console.ReadLine();        }    }
+a) 10 2 -4 -6
+b) 5 1 -2 -3
+c) 1 5 -2 -3
+d) Run time error
+a
+Output:
+ 10 2 -4 -6
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Fundamental of LINQ» Next - C# Questions & Answers – Introduction of Array Class 

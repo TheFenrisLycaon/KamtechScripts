@@ -1,0 +1,67 @@
+1. HBase is a distributed ________ database built on top of the Hadoop file system.
+a) Column-oriented
+b) Row-oriented
+c) Tuple-oriented
+d) None of the mentioned
+a
+2. Point out the correct statement.
+a) HDFS provides low latency access to single rows from billions of records (Random access)
+b) HBase sits on top of the Hadoop File System and provides read and write access
+c) HBase is a distributed file system suitable for storing large files
+d) None of the mentioned
+b
+3. HBase is ________ defines only column families.
+a) Row Oriented
+b) Schema-less
+c) Fixed Schema
+d) All of the mentioned
+b
+4. Apache HBase is a non-relational database modeled after Google’s _________
+a) BigTop
+b) Bigtable
+c) Scanner
+d) FoundationDB
+b
+5. Point out the wrong statement.
+a) HBase provides only sequential access to data
+b) HBase provides high latency batch processing
+c) HBase internally provides serialized access
+d) All of the mentioned
+c
+6. The _________ Server assigns regions to the region servers and takes the help of Apache ZooKeeper for this task.
+a) Region
+b) Master
+c) Zookeeper
+d) All of the mentioned
+b
+7. Which of the following command provides information about the user?
+a) status
+b) version
+c) whoami
+d) user
+c
+8. Which of the following command does not operate on tables?
+a) enabled
+b) disabled
+c) drop
+d) all of the mentioned
+b
+9. _________ command fetches the contents of a row or a cell.
+a) select
+b) get
+c) put
+d) none of the mentioned
+b
+10. HBaseAdmin and ____________ are the two important classes in this package that provide DDL functionalities.
+a) HTableDescriptor
+b) HDescriptor
+c) HTable
+d) HTabDescriptor
+a
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Querying Data with HiveQL – 2» Next - Hadoop Questions and Answers – Schema Design in HBase 

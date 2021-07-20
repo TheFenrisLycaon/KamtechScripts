@@ -1,0 +1,67 @@
+1. Which process can be affected by other processes executing in the system?
+a) cooperating process
+b) child process
+c) parent process
+d) init process
+a
+2. When several processes access the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place is called ________
+a) dynamic condition
+b) race condition
+c) essential condition
+d) critical condition
+b
+3. If a process is executing in its critical section, then no other processes can be executing in their critical section. What is this condition called?
+a) mutual exclusion
+b) critical exclusion
+c) synchronous exclusion
+d) asynchronous exclusion
+a
+4. Which one of the following is a synchronization tool?
+a) thread
+b) pipe
+c) semaphore
+d) socket
+c
+5. A semaphore is a shared integer variable __________
+a) that can not drop below zero
+b) that can not be more than zero
+c) that can not drop below one
+d) that can not be more than one
+a
+6. Mutual exclusion can be provided by the __________
+a) mutex locks
+b) binary semaphores
+c) both mutex locks and binary semaphores
+d) none of the mentioned
+c
+7. When high priority task is indirectly preempted by medium priority task effectively inverting the relative priority of the two tasks, the scenario is called __________
+a) priority inversion
+b) priority removal
+c) priority exchange
+d) priority modification
+a
+8. Process synchronization can be done on __________
+a) hardware level
+b) software level
+c) both hardware and software level
+d) none of the mentioned
+c
+9. A monitor is a module that encapsulates __________
+a) shared data structures
+b) procedures that operate on shared data structure
+c) synchronization between concurrent procedure invocation
+d) all of the mentioned
+d
+10. To enable a process to wait within the monitor __________
+a) a condition variable must be declared as condition
+b) condition variables must be used as boolean objects
+c) semaphore must be used
+d) all of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Operating System.
+Here’s the list of Best Reference Books in Operating System.
+To practice all areas of Operating System, here is complete set on 1000+ Multiple Choice Questions and Answers on Operating System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Operating System Questions and Answers – Process Scheduling Queues» Next - Operating System Questions and Answers – Process Creation 

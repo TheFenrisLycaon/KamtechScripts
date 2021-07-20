@@ -1,0 +1,68 @@
+1. BigDecimal is comprised of a ________ with an integer ‘scale’ field.
+a) BigInt
+b) BigInteger
+c) MediumInt
+d) SmallInt
+b
+2. Point out the correct statement.
+a) BooleanSerializer is used to parse string representations of boolean values into boolean scalar types
+b) BlobRef is a wrapper that holds a BLOB either directly
+c) BooleanParse is used to parse string representations of boolean values into boolean scalar types
+d) All of the mentioned
+b
+3. ClobRef is a wrapper that holds a CLOB either directly or a reference to a file that holds the ______ data.
+a) CLOB
+b) BLOB
+c) MLOB
+d) All of the mentioned
+a
+4. __________ encapsulates a set of delimiters used to encode a record.
+a) LargeObjectLoader
+b) FieldMapProcessor
+c) DelimiterSet
+d) LobSerializer
+c
+5. Point out the wrong statement.
+a) Abstract base class that holds a reference to a Blob or a Clob
+b) ACCESSORTYPE is the type used to access this data in a streaming fashion
+c) CONTAINERTYPE is the type used to hold this data (e.g., BytesWritable)
+d) None of the mentioned
+d
+6. _________ supports null values for all types.
+a) SmallObjectLoader
+b) FieldMapProcessor
+c) DelimiterSet
+d) JdbcWritableBridge
+d
+Join Sanfoundry@YouTube
+7. Which of the following is a singleton instance class?
+a) LargeObjectLoader
+b) FieldMapProcessor
+c) DelimiterSet
+d) LobSerializer
+a
+8. Which of the following class is used for general processing of error?
+a) LargeObjectLoader
+b) ProcessingException
+c) DelimiterSet
+d) LobSerializer
+b
+9. Records are terminated by a __________ character.
+a) RECORD_DELIMITER
+b) FIELD_DELIMITER
+c) FIELD_LIMITER
+d) None of the mentioned
+a
+10.The fields parsed by ____________ are backed by an internal buffer.
+a) LargeObjectLoader
+b) ProcessingException
+c) RecordParser
+d) None of the Mentioned
+c
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – The ZooKeeper Service – 2» Next - Hadoop Questions and Answers – Sqoop with Hadoop – 1 

@@ -1,0 +1,119 @@
+1. What is the saddle point?
+a) Point where function has maximum value
+b) Point where function has minimum value
+c) Point where function has zero value
+d) Point where function neither have maximum value nor minimum value
+d
+2. Stationary point is a point where, function f(x,y) have?
+a) ∂f⁄∂x = 0
+b) ∂f⁄∂y = 0
+c) ∂f⁄∂x = 0 & ∂f⁄∂y = 0
+d) ∂f⁄∂x < 0 and ∂f⁄∂y > 0
+c
+3. For function f(x,y) to have minimum value at (a,b) value is?
+a) rt – s2>0 and r<0
+b) rt – s2>0 and r>0
+c) rt – s2<0 and r<0
+d) rt – s2>0 and r>0
+b
+rt – s2>0 and r>0
+where, r = ∂2f⁄∂x2, t=∂2f⁄∂y2, s=∂2f⁄∂x∂y, at (x,y) => (a,b).
+4. For function f(x,y) to have maximum value at (a,b) is?
+a) rt – s2>0 and r<0
+b) rt – s2>0 and r>0
+c) rt – s2<0 and r<0
+d) rt – s2>0 and r>0
+a
+rt – s2>0 and r<0
+where, r = ∂2f⁄∂x2, t=∂2f⁄∂y2, s=(∂2f⁄∂x∂y, at (x,y) => (a,b).
+5. For function f(x,y) to have no extremum value at (a,b) is?
+a) rt – s2>0
+b) rt – s2<0
+c) rt – s2 = 0
+d) rt – s2 ≠ 0
+b
+rt – s2 < 0 where, r = ∂2f⁄∂x2, t=∂2f⁄∂y2, s=∂2f⁄∂x∂y, at (x,y) => (a,b).
+6. Discuss minimum value of f(x,y)=x2 + y2 + 6x + 12.
+a) 3
+b) 3
+c) -9
+d) 9
+b
+Now, ∂f⁄∂x = 2x + 6 and ∂f⁄∂y = 2
+Putting, ∂f⁄∂x and ∂f⁄∂y = 0 we get,
+(x,y) = (-3,0)
+Now, r= ∂2f⁄∂x2 = 2>0 and t= ∂2f⁄∂y2 = 2 and s= ∂2f⁄∂x∂y = 0
+hence, rt – s2 = 4>0 and r>0
+hence. f(x,y) has minimum value at (-3,0), which is f(x,y) = 12 + 9 – 18 = 3.
+7. Discuss maximum or minimum value of f(x,y) = y2 + 4xy + 3x2 + x3.
+a) minimum at (0,0)
+b) maximum at (0,0)
+c) minimum at (2/3, -4/3)
+d) maximum at (2/3, -4/3)
+c
+Now,∂f⁄∂x = 4y + 6x + 3x2 and ∂f⁄∂y = 2y + 4x
+Putting,∂f⁄∂x and ∂f⁄∂y = 0,and solving two equations,we get,
+(x,y) = (0,0) or (2/3, -4/3)
+Now,at (0,0) r= ∂2f⁄∂x2=6+6x=6>0 and t= ∂2f⁄∂y2 =2>0 and s= ∂2f⁄∂x∂y=4
+hence, rt – s2 = 12 – 16<0,hence it has no extremum at this point.
+Now at (2⁄3,-4⁄3) r=∂2f⁄∂x2= 6 + 6x = 10>0 and t= ∂2f⁄∂y2 =2>0 and s= ∂2f⁄∂x∂y=4
+hence, rt – s2 = 20 – 16 > 0 and r>0, hence it has minimum at this point.(2⁄3, –4⁄3).
+8. Find the minimum value of xy+a3 (1⁄x + 1⁄y).
+a) 3a2
+b) a2
+c) a
+d) 1
+a
+Given,f(x,y) = \(xy+a^3(\frac{1}{x}+\frac{1}{y})\) 
+Now, \(\frac{∂f}{∂x}=y-\frac{a^3}{x^2}\) and \(\frac{∂f}{∂y}=x-\frac{a^3}{y^2}\) 
+Putting, \(\frac{∂f}{∂x}\) and \(\frac{∂f}{∂y}\)=0,and solving two equations,we get,
+(x,y)=(a,a) or (-a,a)
+Now, at (a,a) r = \(\frac{∂^2 f}{∂x^2}=\frac{2a^3}{x^3}\)=2>0 and \(t=\frac{∂^2 f}{∂y^2}=\frac{2a^3}{y^3}\)=2>0 and \(s=\frac{∂^2 f}{∂x∂y}\)=1
+hence, rt-s2=3>0 and r>0,hence it has minimum value at (a,a).
+Now, at (-a,a) r=\(\frac{∂^2 f}{∂x^2}=\frac{2a^3}{x^3}\)=-2<0 and \(t=\frac{∂^2 f}{∂y^2}=\frac{2a^3}{y^3}\)=2>0 and s=\(\frac{∂^2 f}{∂x∂y}\)=1
+hence, rt-s2=-5<0,hence it has no extremum at this point.
+Hence maximum value is, f(a,a)=a2+a3 \((\frac{1}{a}+\frac{1}{a})=a^2+2a^2=3a^2\)
+9. Divide 120 into three parts so that the sum of their products taken two at a time is maximum. If x, y, z are two parts, find value of x, y and z.
+a) x=40, y=40, z=40
+b) x=38, y=50, z=32
+c) x=50, y=40, z=30
+d) x=80, y=30, z=50
+b
+f = xy + yz + zx
+f = xy + y(120-x-y) + x(120-x-y) = 120x + 120y – xy – x2 – y2
+Hence, ∂f⁄∂x = 120 – y – 2x and ∂f⁄∂y = 120 – x – 2y
+putting ∂f⁄∂x and ∂f⁄∂y equals to 0 we get, (x, y)=>(40, 40)
+Now at (40,40), r=∂2f⁄∂x2 = -2 < 0, s = ∂2f⁄∂x∂y = -1, and t = ∂2f⁄∂y2 = -2
+hence, rt – s2 = 5 > 0
+since, r<0 and rt – s2 > 0 f(x,y) has maixum value at (40,40),
+Hence, maximum value of f(40,40) = 120 – 40 – 40 = 40,
+Hence, x = y = z = 40.
+10. Find the maximum value of Sin(A)Sin(B)Sin(C) if A, B, C are the angles of triangle.
+a) 3√3⁄8
+b) 3√4⁄8
+c) –3√3⁄8
+d) π⁄8
+a
+Since A, B, C are the angle of triangle, hence, C = 180 – (A+B),
+hence, f(x,y) = Sin(x)Sin(y)Sin(x+y), where A = x and B = y
+Hence, ∂f⁄∂x = Cos(x)Sin(y)Sin(x+y) + Sin(x)Sin(y)Cos(x+y) = Sin(y)Sin(y+2x)
+and, ∂f⁄∂y = Sin(x)Cos(y)Sin(x+y) + Sin(x)Sin(y)Cos(x+y) = Sin(x)Sin(x+2y)
+Hence, putting ∂f⁄∂x and ∂f⁄∂y = 0, we get (x,y)=(60,60), (120,120)
+Hence, at (x,y) = (60,60)we get,r = -√3, s = -√3/2, t = -√3, hence, rt-s2= 9⁄4∂x>0 
+hence, r<0 andrt-s2>0 hence, f(x,y) or f(A,B) have maximum value at (60,60)
+Hence, at (x,y)=(120,120)we get,r=√3,s=√3/2,t=√3,hence,rt-s2 = 9⁄4∂x>0
+And this value is 3√3⁄8
+hence, r>0 and rt-s2 >0 hence, f(x,y) or f(A,B) have minimum value at (60,60)
+and this value is –3√3⁄8.
+11. The drawback of Lagrange’s Method of Maxima and minima is?
+a) Maxima or Minima is not fixed
+b) Nature of stationary point is can not be known
+c) Accuracy is not good
+d) Nature of stationary point is known but can not give maxima or minima
+b
+Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Maxima and Minima of Two Variables – 2» Next - Engineering Mathematics Questions and Answers – Lagrange Method of Multiplier to Find Maxima or Minima 

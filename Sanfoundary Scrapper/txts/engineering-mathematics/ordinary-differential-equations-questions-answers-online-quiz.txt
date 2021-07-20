@@ -1,0 +1,137 @@
+1. Find the L(sin3 t).
+a) \(\frac{3}{4(s^2+1)}-\frac{1}{4(s^2+9)}\) 
+b) \(\frac{3}{4(s^2+1)}-\frac{3}{4(s^2+9)}\) 
+c) \(\frac{3}{4(s^2+1)}-\frac{9}{4(s^2+9)}\) 
+d) \(\frac{3}{4(s^2-1)}-\frac{3}{4(s^2+9)}\) 
+b
+= L(sin3 t)
+= \(L \left (\frac{3 sint}{4}\right )-L \left (\frac{1}{4} sin⁡(3t)\right )\) 
+= \(\frac{3}{4(s^2+1)}-\frac{3}{4(s^2+9)}\).
+2. Find the \(L(e^{2t} (1+t)^2)\).
+a) \(\frac{1}{s-2}+\frac{2}{(s-2)^3} + \frac{2}{(s-2)^2}\) 
+b) \(\frac{⁡3}{s-2}+\frac{2}{(s-2)^3} + \frac{2}{(s-2)^2}\) 
+c) \(\frac{1}{s-2}+\frac{2}{(s+2)^3} + \frac{2}{(s-2)^2}\) 
+d) \(\frac{1}{s-2}+\frac{2}{(s-2)^3} \) 
+a
+\(L((1+t)^2 )=L(1+t^2+2t)\) 
+\(=\frac{1}{s}+\frac{2}{s^3}+\frac{2}{s^2} \) 
+\(L(e^{2t} (1+t)^2)=\frac{1}{s-2}+\frac{2}{s-2^3} + \frac{2}{(s-2)^2}\).——————–By the first shifting property
+3. Find the Laplace Transform of g(t) which has value (t-1)3 for t>1 and 0 for t<1.
+a) \(e^{-2as}×\frac{6}{s^4}\) 
+b) \(e^{-as}×\frac{24}{s^5}\) 
+c) \(e^{-as}×\frac{6}{s^4}\) 
+d) \(e^{-as}×\frac{24}{s^4}\) 
+c
+We use the second shifting property.
+Let f(t)=t3
+\(L(f(t))=\frac{6}{s^4}\) 
+By the second shifting,
+\(L(g(t))=e^{-as}×\frac{6}{s^4}\) .
+4. Find the L(t e-2t sinh⁡(4t)).
+a) \(\frac{8s+16}{(s^2+2s-12)^2}\) 
+b) \(\frac{2s+16}{(s^2+2s-12)^2}\) 
+c) \(\frac{8s+16}{(s^2+21s-12)^2}\) 
+d) \(\frac{8s+16}{(s^2+s-12)^2}\) 
+a
+L(t e-2t sinh⁡(4t))
+L(sinh⁡(4t))=\(\frac{4}{s^2-16}\) 
+By effect of multiplication of t
+L(t×sinh⁡(4t))=\((-1) \frac{d}{ds} \frac{4}{s^2-16}\) 
+L(t×sinh⁡(4t))=\(\frac{8s}{(s^2-16)^2}\) 
+By First shifting property
+L(t e-2t sinh⁡(4t))=\(\frac{8(s+2)}{((s+2)^2-16)^2} = \frac{8s+16}{(s^2+2s-12)^2}\).
+5. Find the L(t+sin(2t)).
+a) \(\frac{1}{s}+\frac{2}{(s^2+4)}\) 
+b) \(\frac{1}{s}+\frac{3}{(s^2+4)}\) 
+c) \(\frac{1}{s}+\frac{2}{(s^2+2)}\) 
+d) \(\frac{2}{s}+\frac{2}{(s^2+4)}\) 
+a
+L(t+sin⁡(2t))
+=\(\frac{1}{s}+\frac{2}{(s^2+4)}\).
+Join Sanfoundry@YouTube
+6. The L(te-3t cos⁡(2t)cos⁡(3t)) is given by  \(k\left [\frac{25-(s+3)^2}{((s+3)^2+25)^2} + \frac{(1-(s+3)^2)}{((s+3)^2+1)^2}\right ]\). Find the value of k.
+a) 0
+b) 1
+c) \(\frac{1}{2}\) 
+d) \(\frac{-1}{2}\) 
+d
+L(e-3t cos⁡(2t)cos⁡(3t))
+L(cos⁡(2t) cos⁡(3t))
+=\(\frac{1}{2} L(cos⁡(5t)+cos⁡(t))\) 
+=\(\frac{1}{2} \left (\frac{s}{(s^2+25)}\right )+\frac{1}{2} \left (\frac{s}{(s^2+1)}\right )\) 
+By effect of multiplication by t
+L(t×cos⁡(2t) cos⁡(3t))=\((-1)×\frac{1}{2}×\frac{d}{ds} \frac{1}{2} \left (\frac{s}{(s^2+25)}\right )+\frac{1}{2} \left (\frac{s}{(s^2+1)}\right )\) 
+=\(\frac{-1}{2} \left [\frac{25-s^2}{(s^2+25)^2} + \frac{(1-s^2)}{(s^2+1)^2}\right]\) 
+By the effect of first shifting,
+L(te-3t cos⁡(2t)cos⁡(3t))=\(\frac{-1}{2} \left [\frac{25-(s+3)^2}{((s+3)^2+25)^2} + \frac{1-(s+3)^2}{((s+3)^2+1)^2}\right ]\) 
+k=\(\frac{-1}{2}\).
+7. Find the \(L\left (\frac{sinh⁡(at)}{t}\right )\).
+a) \(\frac{1}{2} log⁡ \left (\frac{s×a}{s-a}\right )\) 
+b) \(\frac{1}{2} log⁡ \left (\frac{s-a}{s+a}\right )\) 
+c) \(\frac{1}{2} log⁡ \left (\frac{s+a}{s-a}\right )\) 
+d) \(\frac{1}{3} log⁡ \left (\frac{s+a}{s-a}\right )\) 
+c
+L(sinh⁡(at))=\(\frac{a}{s^2-a^2}\) 
+By effect of division by t,
+\(L\left (\frac{sinh⁡(at)}{t}\right )=\int_{s}^{\infty}\frac{a}{s^2-a^2} ds\) 
+=\(a×\frac{1}{2a}×log⁡ \left (\frac{s-a}{s+a}\right ) \) in limits s to ∞
+=\(\frac{1}{2} log⁡(0)-\frac{1}{2} log⁡ \left (\frac{s-a}{s+a}\right )\) 
+=\(\frac{1}{2} log⁡ \left (\frac{s+a}{s-a}\right )\).
+8. Find the \(L\left (\frac{d}{dt}(\frac{sin⁡t}{t})\right)\).
+a) s×cot-1 s-1
+b) s×tan-1 s-1
+c) s×cot⁡(s)-1
+d) s×tan⁡(s)-1
+a
+L(sint)=\(\frac{1}{s^2+1}\) 
+By effect of division by t,
+\(L(\frac{sin⁡t}{t})=\int_{s}^{\infty}\frac{1}{s^2+1} ds\) 
+=\(\frac{\pi}{2}-tan^{-1}s\) 
+=cot-1s
+By effect of derivative of Laplace Transform,
+\(L\left (\frac{d}{dt}\left (\frac{sin⁡t}{t}\right )\right )=s×cot^{-1}s-1\).
+9. Find the \(L(\int_{0}^{t}sin⁡(u) cos⁡(2u)du)\).
+a) \(\frac{1}{2s} \left [\frac{3}{s^2+9}-\frac{1}{s^2+1}\right ]\) 
+b) \(\frac{1}{2s} \left [\frac{9}{s^2+9}-\frac{1}{s^2+1}\right ]\) 
+c) \(\frac{1}{2s} \left [\frac{3}{s^2+9}+\frac{1}{s^2+1}\right ]\) 
+d) \(\frac{1}{s} \left [\frac{3}{s^2+9}-\frac{1}{s^2+1}\right ]\) 
+a
+L(sin⁡(t) cos⁡(2t))=\(\frac{1}{2} L(sin⁡(3t)-sin⁡(t))\) 
+=\(\frac{1}{2} \left [\frac{3}{s^2+9}-\frac{1}{s^2+1}\right ]\) 
+By Laplace Transformation of an integral,
+\(L(\int_{0}^{t}sin⁡(u) cos⁡(2u)du)=\frac{1}{2s} \left [\frac{3}{s^2+9}-\frac{1}{s^2+1}\right ]\) 
+10. Which of the following is not a term present in the Laplace Transform of e2t sin4 t.
+a) \(\frac{3}{8s}\) 
+b) \(\frac{3}{8(s-2)}\) 
+c) \(\frac{s}{8((s-2)^2+16)}\) 
+d) \(\frac{s}{2((s-2)^2+4)}\) 
+a
+sin4 t=\(\frac{1+cos^2(2t)-2cos⁡(2t)}{4}\) 
+L(sin4 t)=\(L\left (\frac{1+cos^2 (2t)-2 cos⁡(2t)}{4}\right )\) 
+=\(\frac{3}{8s}-\frac{s}{2(s^2+4)}+\frac{s}{8(s^2+16)}\) 
+By First Shifting Property
+L(e2t sin4 t)=\(\frac{3}{8(s-2)}-\frac{s}{2((s-2)^2+4)}+\frac{s}{8((s-2)^2+16)}\) 
+11. If \((erf⁡(\sqrt{t}))=\frac{1}{s\sqrt{s}}\), then what is \(L(erf⁡(2\sqrt{t}))\)?
+a) \(\frac{2}{\sqrt{s}}\) 
+b) \(\frac{1}{s\sqrt{s}}\) 
+c) \(\frac{2}{s\sqrt{s}}\) 
+d) \(\frac{4}{s\sqrt{s}}\) 
+c
+By using scaling property of Laplace Transform,
+\(L(erf⁡(2\sqrt{t}))=\frac{1}{4}×\frac{1}{\frac{s}{4}×\sqrt{\frac{s}{4}}}\) 
+=\(\frac{2}{s\sqrt{s}}\).
+12. Find the value of L(32t).
+a) \(\frac{1}{s-2 log⁡(3)}\) 
+b) \(\frac{1}{s+2 log⁡(3)}\) 
+c) \(\frac{1}{s-3 log⁡(2)}\) 
+d) \(\frac{1}{s+3 log⁡(2)}\) 
+a
+The formula is,
+L(cat)=\(\frac{1}{s-a log(c)}\) 
+L(32t)=\(\frac{1}{s-2 log⁡(3)}\).
+Sanfoundry Global Education & Learning Series – Ordinary Differential Equations.
+To practice  all areas of Ordinary Differential Equations for online Quizzes, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ordinary Differential Equations Questions and Answers – Solution of DE With Constant Coefficients using the Laplace Transform» Next - Linear Algebra Questions and Answers – Types and Properties of Matrices 

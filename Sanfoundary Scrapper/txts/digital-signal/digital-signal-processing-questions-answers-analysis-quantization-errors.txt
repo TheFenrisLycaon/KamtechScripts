@@ -1,0 +1,84 @@
+1. If the input analog signal is within the range of the quantizer, the quantization error eq (n) is bounded in magnitude i.e., |eq (n)| < Δ/2 and the resulting error is called?
+a) Granular noise
+b) Overload noise
+c) Particulate noise
+d) Heavy noise
+a
+i.e., |eq (n)| < Δ/2 and the resulting error is called Granular noise.
+2. If the input analog signal falls outside the range of the quantizer (clipping), eq (n) becomes unbounded and results in _____________
+a) Granular noise
+b) Overload noise
+c) Particulate noise
+d) Heavy noise
+b
+3. In the mathematical model for the quantization error eq (n), to carry out the analysis, what are the assumptions made about the statistical properties of eq (n)?
+i. The error eq (n) is uniformly distributed over the range — Δ/2 < eq (n) < Δ/2.
+ii. The error sequence is a stationary white noise sequence. In other words, the error eq (m) and the error eq (n) for m≠n are uncorrelated.
+iii. The error sequence {eq (n)} is uncorrelated with the signal sequence x(n).
+iv. The signal sequence x(n) is zero mean and stationary.
+a) i, ii & iii
+b) i, ii, iii, iv
+c) i, iii
+d) ii, iii, iv
+b
+i. The error eq (n) is uniformly distributed over the range — Δ/2 < eq (n) < Δ/2.
+ii. The error sequence is a stationary white noise sequence. In other words, the error eq (m)and the error eq (n) for m≠n are uncorrelated.
+iii. The error sequence {eq (n)} is uncorrelated with the signal sequence x(n).
+iv. The signal sequence x(n) is zero mean and stationary.
+4. What is the abbreviation of SQNR?
+a) Signal-to-Quantization Net Ratio
+b) Signal-to-Quantization Noise Ratio
+c) Signal-to-Quantization Noise Region
+d) Signal-to-Quantization Net Region
+b
+5. What is the scale used for the measurement of SQNR?
+a) DB
+b) db
+c) dB
+d) All of the mentioned
+c
+6. What is the expression for SQNR which can be expressed in a logarithmic scale?
+a) 10 \(log_{10}⁡\frac{P_x}{P_n}\) 
+b) 10 \(log_{10}⁡\frac{P_n}{P_x}\) 
+c) 10 \(log_2⁡\frac{P_x}{P_n}\) 
+d) 2 \(log_2⁡\frac{P_x}{P_n}\) 
+a
+SQNR = 10 \(log_{10}⁡\frac{P_x}{P_n}\).
+7. In the equation SQNR = 10 \(log_{10}⁡\frac{P_x}{P_n}\). what are the terms Px and Pn are called ___ respectively.
+a) Power of the Quantization noise and Signal power
+b) Signal power and power of the quantization noise
+c) None of the mentioned
+d) All of the mentioned
+b
+8. In the equation SQNR = 10 ⁡\(log_{10}\frac{P_x}{P_n}\), what are the expressions of Px and Pn?
+a) \(P_x=\sigma^2=E[x^2 (n)] \,and\, P_n=\sigma_e^2=E[e_q^2 (n)]\) 
+b) \(P_x=\sigma^2=E[x^2 (n)] \,and\, P_n=\sigma_e^2=E[e_q^3 (n)]\) 
+c) \(P_x=\sigma^2=E[x^3 (n)] \,and\, P_n=\sigma_e^2=E[e_q^2 (n)]\) 
+d) None of the mentioned
+a
+9. If the quantization error is uniformly distributed in the range (-Δ/2, Δ/2), the mean value of the error is zero then the variance Pn is?
+a) \(P_n=\sigma_e^2=\Delta^2/12\) 
+b) \(P_n=\sigma_e^2=\Delta^2/6\) 
+c) \(P_n=\sigma_e^2=\Delta^2/4\) 
+d) \(P_n=\sigma_e^2=\Delta^2/2\) 
+a
+10. By combining \(\Delta=\frac{R}{2^{b+1}}\) with \(P_n=\sigma_e^2=\Delta^2/12\) and substituting the result into SQNR = 10 \(log_{10}⁡ \frac{P_x}{P_n}\), what is the final expression for SQNR = ?
+a) 6.02b + 16.81 + \(20log_{10}\frac{R}{σ_x}\) 
+b) 6.02b + 16.81 – \(20log_{10}⁡ \frac{R}{σ_x}\) 
+c) 6.02b – 16.81 – \(20log_{10}⁡ \frac{R}{σ_x}\) 
+d) 6.02b – 16.81 – \(20log_{10}⁡ \frac{R}{σ_x}\) 
+b
+= 6.02b + 16.81 – ⁡\(20 log_{10}\frac{R}{σ_x}\)dB.
+11. In the equation SQNR = 6.02b + 16.81 – \(20log_{10} ⁡\frac{R}{σ_x}\), for R = 6σx the equation becomes?
+a) SQNR = 6.02b-1.25 dB
+b) SQNR = 6.87b-1.55 dB
+c) SQNR = 6.02b+1.25 dB
+d) SQNR = 6.87b+1.25 dB
+c
+SQNR = 6.02b+1.25 dB.
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Discrete-Time Processing of Continuous Time Signals» Next - Digital Signal Processing Questions and Answers – IIR Filter Design by the Bilinear Transformation 

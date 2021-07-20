@@ -1,0 +1,84 @@
+1. ___________ feature will be removed in a future version of Microsoft SQL Server.
+a) Log shipping
+b) Database snapshots
+c) Database mirroring
+d) None of the mentioned
+c
+2. Point out the correct statement.
+a) Database mirroring is a solution for lowering the availability of a SQL Server database
+b) Log shipping is a solution for increasing the availability of a SQL Server database
+c) Mirroring is implemented on a per-database basis
+d) All of the mentioned
+c
+3. Which of the following benefit is provided by database mirroring?
+a) Increases data protection
+b) Improves the availability of the production database
+c) Increases availability of a database
+d) All of the mentioned
+d
+4. Database mirroring operates in how many modes?
+a) 2
+b) 3
+c) 4
+d) 5
+b
+5. Point out the wrong statement.
+a) Mirror database is the copy of the database that is typically fully synchronized with the principal database
+b) Redo queue is received transaction log records that are waiting on the disk of a mirror server
+c) Database mirroring provides less redundancy of the data
+d) All of the mentioned
+c
+6. Which of the following modes writes the data on the principal and mirror databases synchronously?
+a) High safety with automatic cluster
+b) High safety
+c) High safety with automatic failover
+d) High performance
+a
+7. The high performance mode is only available in the __________ edition of SQL Server.
+a) Enterprise
+b) Express
+c) Compact
+d) None of the mentioned
+a
+8. Which of the following script will backup the database requires for database mirroring?
+a)
+USE master
+GO
+Backup DATABASE DB1 TO disk ='C:\Backups\DB1.Bak' WITH initialize
+GO
+Backup log DB1 TO disk ='C:\Backups\DB1.trn' WITH initialize
+GO
+b)
+USE master
+GO
+Backup DATABASE DB1 TO disk ='C:\Backups\DB1.Bak' WITH init
+GO
+Backup log DB1 TO disk ='C:\Backups\DB1.trn' WITH init
+GO
+c)
+USE master
+GO
+Back DATABASE DB1 TO disk ='C:\Backups\DB1.Bak' WITH init
+GO
+Back log DB1 TO disk ='C:\Backups\DB1.trn' WITH init
+GO
+d) All of the mentioned
+b
+9. Which of the following is an upgrade step to database mirroring?
+a) Switch to high performance (sync)
+b) Perform a rolling upgrade
+c) Switch back to high performance (sync)
+d) None of the mentioned
+b
+10. Which of the following pair of technology is supported in SQL Server?
+a) Mirroring and Replication
+b) Mirroring and Clustering
+c) Mirroring and Log Shipping
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Log Shipping» Next - SQL Server Questions and Answers – Clustering 

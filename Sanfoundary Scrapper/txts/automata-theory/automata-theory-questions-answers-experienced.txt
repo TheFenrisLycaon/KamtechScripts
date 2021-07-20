@@ -1,0 +1,97 @@
+1. The decision problem is the function from string to ______________
+a) char
+b) int
+c) boolean
+d) none of the mentioned
+c
+2. A language L is said to be ____________ if there is a turing machine M such that L(M)=L and M halts at every point.
+a) Turing acceptable
+b) decidable
+c) undecidable
+d) none of the mentioned
+b
+3.  Which aong the following are undecidable theories?
+a) The first order theory of boolean algebra
+b) The first order theory of Euclidean geomentry
+c) The first order theory of hyperbolic geometry
+d) The first order theory of the natural number with addition, multiplication, and equality
+d
+4. Rec-DFA = { | M is a DFA and M recognizes input w}.
+Fill in the blank:
+Rec-DFA is ___________
+a) Undecidable
+b) Decidable
+c) Non finite
+d) None of the mentioned
+b
+5. Which among the following are semi decidable?
+a) Empty-DFA
+b) Rec-NFA
+c) Infinite-DFA
+d) All of the mentioned
+d
+6. The language accepted by a turing machine is called ____________
+a) Recursive Ennumerable
+b) Recursive
+c) Both (a) and (b)
+d) None of the mentioned
+c
+7. Decidable can be taken as a synonym to:
+a) recursive
+b) non recursive
+c) recognizable
+d) none of the mentioned
+a
+8. The problems which have no algorithm, regardless of whether or not they are accepted by a turing machine that fails to halts on some input are referred as:
+a) Decidable
+b) Undecidable
+c) Computable
+d) None of the mentioned
+b
+a) Those that have an algorithm
+b) Intractable problems: Those that are only solved by a turing machine that may run forever on inputs they do not accept.
+9. An algorithm is called efficient if it runs in ____________ time on a serial computer.
+a) polynomial
+b) non polynomial
+c) logarithmic
+d) none of the mentioned
+a
+O(n), O(nlogn), O(n3log2n)
+Runtimes of inefficient algorithms
+O(2n), O(n!)
+10.  A problem is called __________ if its has an efficient algorithm for itself.
+a) tractable
+b) intractable
+c) computational
+d) none of the mentioned
+a
+11. A formal language is recursive if :
+a) a total turing machine exists
+b) a turing machine that halts for every input
+c) turing machine rejects if the input does not belong to the language
+d) all of the mentioned
+d
+12. Recursive languages are also known as:
+a) decidable
+b) undecidable
+c) sometimes decidable
+d) none of the mentioned
+a
+13. The class of recursive language is known as:
+a) R
+b) RC
+c) RL
+d) All of the mentioned
+a
+14. Which of the following was not a part of Chomsky hierarchy ?
+a) Context sensitive grammar
+b) Unrestricted grammar
+c) Recursive grammar
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory for Experienced people, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  The Diagonalization Languages» Next - Automata Theory Questions and Answers –  Rice’s Theorem, Properties and PCP 

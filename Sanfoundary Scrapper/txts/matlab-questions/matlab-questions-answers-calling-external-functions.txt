@@ -1,0 +1,105 @@
+1. What is the function of the mexext command?
+a) Reveals the version of the MEX file
+b) Reveals the package in which the MEX file is stored
+c) Returns the extension of the MEX file for the system
+d) Error
+c
+2. What is the output of the following code?
+Mexext(‘all’)
+a) Error
+b) Returns a structure of arrays of MEX extensions
+c) Returns an array of structures of MEX extensions
+d) Returns the system version of MEX file
+a
+3. What is the output of the following code snippet?
+computer
+a) Shows the system version
+b) Shows the MATLAB version
+c) Shows the previous MATLAB versions in the current system
+d) Error
+a
+4. What is the output of the following code?
+loadlibrary()
+a) Load a C library
+b) Load a C function
+c) Load a C header file
+d) Load a C file
+a
+5. The callib command implements the function from a _________
+a) library loaded by the loadlibrary() command
+b) .h file loaded by the loadlibrary() command
+c) c-file loaded by the loadlibrary() command
+d) function loaded by the loadlibrary() command
+a
+6. What is the working of the following command?
+libfunctions()
+a) Returns the pre-loaded libraries
+b) Returns the libraries in a pre-loaded library
+c) Returns the header-files in a pre-loaded C library
+d) Returns the functions in a pre-loaded library
+d
+7. What is the working of the following command?
+libfunctions(libname,'-full')
+a) Returns the functions of a shared library
+b) Returns the functions of a shared library and it’s signatures
+c) Returns the signatures of the functions of a shared library
+d) Error
+b
+8. What is the working of the following command?
+libfunctionsview
+a) Displays the signatures of the function in an image window
+b) Displays the signature of the functions in a graphical window
+c) Displays the signature of the functions in the workspace window
+d) Displays the signature of the function in a separate window
+d
+9. The libfunctionsview command shows the signature of the functions present in the ___________
+a) pre-loaded library
+b) any library
+c) Java library
+d) Not present
+a
+10. What is the working of the following command?
+libisloaded()
+a) Checks the version of the loaded library
+b) Checks whether a library is working in the system
+c) Checks whether a library is loaded in the system
+d) Checks whether a library is present in the system
+c
+11. Which of the following command unloads a library from the system?
+a) unldlibrary()
+b) unloadlibrary()
+c) unloadlibrary{}
+d) unldlibrary[] 
+b
+12. The isjava command returns?
+a) 1 if the input is a java file
+b) 1 if the input is not a java object
+c) 1 if the input is a java object
+d) 0 if the input is a java object
+c
+13. The input to the isjava command is given within _________
+a) ()
+b) [] 
+c) {}
+d) Doesn’t exist
+a
+14.  The isobject(A) returns a 1 if the _________
+a) A is a MATLAB class
+b) A is a JAVA class
+c) A is a C file
+d) A is not a MATLAB class
+a
+15. Python files cannot be used in MATLAB.
+a) True
+b) False
+b
+16. Python commands can be run in MATLAB without Python in the system.
+a) True
+b) False
+b
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Simulation – 2» Next - MATLAB Questions and Answers – Toolbox Distribution – 1 

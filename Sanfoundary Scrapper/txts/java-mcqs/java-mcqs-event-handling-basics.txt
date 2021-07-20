@@ -1,0 +1,66 @@
+1. Which of these packages contains all the classes and methods required for even handling in Java?
+a) java.applet
+b) java.awt
+c) java.event
+d) java.awt.event
+d
+2. What is an event in delegation event model used by Java programming language?
+a) An event is an object that describes a state change in a source
+b) An event is an object that describes a state change in processing
+c) An event is an object that describes any change by the user and system
+d) An event is a class used for defining object, to create events
+a
+3. Which of these methods are used to register a keyboard event listener?
+a) KeyListener()
+b) addKistener()
+c) addKeyListener()
+d) eventKeyboardListener()
+c
+4. Which of these methods are used to register a mouse motion listener?
+a) addMouse()
+b) addMouseListener()
+c) addMouseMotionListner()
+d) eventMouseMotionListener()
+c
+5. What is a listener in context to event handling?
+a) A listener is a variable that is notified when an event occurs
+b) A listener is a object that is notified when an event occurs
+c) A listener is a method that is notified when an event occurs
+d) None of the mentioned
+b
+6. Event class is defined in which of these libraries?
+a) java.io
+b) java.lang
+c) java.net
+d) java.util
+d
+7. Which of these methods can be used to determine the type of event?
+a) getID()
+b) getSource()
+c) getEvent()
+d) getEventObject()
+a
+8. Which of these class is super class of all the events?
+a) EventObject
+b) EventClass
+c) ActionEvent
+d) ItemEvent
+a
+9. Which of these events will be notified if scroll bar is manipulated?
+a) ActionEvent
+b) ComponentEvent
+c) AdjustmentEvent
+d) WindowEvent
+c
+10. Which of these events will be generated if we close an applet’s window?
+a) ActionEvent
+b) ComponentEvent
+c) AdjustmentEvent
+d) WindowEvent
+d
+Sanfoundry Global Education & Learning Series  Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Regular Expression» Next - Java Questions & Answers – ActionEvent & AdjustmentEvent Class 

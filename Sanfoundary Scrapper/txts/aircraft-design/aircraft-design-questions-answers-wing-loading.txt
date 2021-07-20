@@ -1,0 +1,121 @@
+1. Wing loading is ratio of ___________
+a) weight of the aircraft and the reference area of wing
+b) reference area of wing and power of engine
+c) lift to drag
+d) aerodynamic force thrust to drag
+a
+2. Wing loading will affect _____________
+a) only stall speed
+b) only ground roll
+c) stall speed, climbing, ground roll etc
+d) only climb
+c
+3. Design lift coefficient is determined by wing loading.
+a) True
+b) False
+a
+4. Low wing loading will provide ___________
+a) more space for fuel storage in wing
+b) more space of fuel storage in cabin
+c) less fuel storage
+d) less lift
+a
+5. As a designer I want to reduce the empty weight of my aircraft. Therefore I will ______
+a) increase wing loading
+b) decrease wing loading
+c) wing loading has no effect
+d) will reduce by exactly half
+a
+6. An aircraft is flying with wing loading of 50 and maximum CL as 2.4. If density is 1.225 then, find the stall speed of the aircraft.
+a) 5.832m/s
+b) 5.823
+c) 5.632m/s
+d) 5.632
+a
+Now, stall speed of aircraft is given by,
+Vstall = \(\sqrt{2*(\frac{W}{S})(\rho*CL)} = \sqrt{2*(50)/(1.225*2.4)} = \sqrt{34.01}\) = 5.832m/s.
+7. A civil A/C has maximum lift coefficient of 3. If wing loading is 120 then, find approach speed of the aircraft. Consider sea-level density.
+a) 10.5m/s
+b) 10.50km/s
+c) 12
+d) 120
+a
+Approach speed of civil aircraft is given by,
+Va = 1.3*Vstall
+Where, Vstall = \(\sqrt{2*(\frac{W}{S})/(ρ*CL)}
+= \sqrt{2*(120)/(1.225*3)}\) = 8.08m/s
+Now, Va = 1.3*Vstall = 1.3*8.08 = 10.5m/s.
+8. Determine wing loading for civil aircraft if lift-off speed is 80m/s and maximum lift coefficient is 2.8.
+a) 9071.07
+b) 9111
+c) 911
+d) 91
+a
+Lift off speed V1 = 80m/s, maximum lift coefficient CL=2.8.
+Wing loading is given by,
+W/S = 0.5*ρ*V2*CL
+Where, V = V1/1.1 = 80/1.1=72.72m/s
+Hence, wing loading is given by,
+W/S = 0.5*ρ*V2*CL
+W/S = 0.5*1.225*72.722*2.8 = 9071.07.
+9. Which of the following is correct for a jet aircraft take-off parameter (TOP)?
+a) TOP = \(\frac{W/S}{σCL \frac{T}{W}}\) 
+b) TOP = \(\frac{1}{σCL \frac{T}{W}}\) 
+c) TOP = \(\frac{2}{σCL \frac{T}{W}}\) 
+d) TOP = \(\frac{W}{σCL \frac{T}{W}}\) 
+a
+For jet, TOP = \(\frac{W/S}{σCL \frac{T}{W}}\).
+10. Following graph represents __________
+a) take-off distance estimation
+b) take-off velocity
+c) wing loading
+d) power loading
+a
+11. An aircraft has catapult end speed of 30m/s and wind over deck as 20m/s. If maximum CL is 2.6 and density is 1.22 then, find catapult wing loading.
+a) 3276.859
+b) 327
+c) 32
+d) 2
+a
+Catapult end speed Ve = 30m/s, wind over deck Vwod = 20m/s
+Now, catapult wing loading is given by,
+W/S = 0.5*ρ*(Ve+Vwod)2*CL
+W/S = 0.5*1.22*(30+20)2*2.6
+W/s = 3276.859.
+12. For prop aircraft at maximum range what will be the wing loading. Given CD0=0.02, aspect ratio as 8, e=0.6 and q=39.20Pa.
+a) 21.5
+b) 12.5
+c) 1.05
+d) 25
+a
+For maximum range wing loading is given by,
+W/S = \(q*\sqrt{\pi eARCD0} = 39.2*\sqrt{\pi*0.6*8*0.02}\) = 21.5.
+13. Which of the following is correct for maximum jet range?
+a) W/S = \(q*\sqrt{\pi eARCD0/3}\) 
+b) W/S = \(q*\sqrt{\pi eAR}\) 
+c) W/S = \(q*\sqrt{\pi eARCD0}\) 
+d) W/S = q
+a
+14. Jet aircraft with CD=0.01+0.02CL2 is performing loiter. Find wing loading for maximum loiter if, AR=8.5, e=0.7 and dynamic pressure is 25Pa.
+a) 10.80
+b) 11.80
+c) 12.80
+d) 13.08
+a
+From CD = 0.01+0.2CL2, CD0 = 0.01.
+Wing loading for maximum loiter is given by,
+W/S = \(q*\sqrt{\pi eARCD0}\) = W/S = 25*\(\sqrt{\pi*0.7*8.5*0.01}\) = 10.80.
+15. A prop driven A/C has BHP/W as 0.08. If density ratio is 0.2 and take off lift coefficient is 3 then find take-off parameter for the aircraft. Given wing loading W/s = 35.
+a) 700
+b) 800
+c) 900
+d) 500
+a
+BHP/E = 0.08, density ratio σ = 0.2, CL at take-off = 3.
+Take-off parameter TOP = \(\frac{W/S}{σCL BHP/W}\) = 35 / (0.2*3*0.08) = 700.
+Sanfoundry Global Education & Learning Series – Aircraft Design.
+To practice all areas of Aircraft Design, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aircraft Design Questions and Answers – Thrust Weight Ratio-2» Next - Aircraft Design Questions and Answers – Selection of Thrust-Weight and Wing Loading 

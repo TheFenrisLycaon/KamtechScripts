@@ -1,0 +1,78 @@
+1. Which of these doesn’t refer to a series-shunt feedback?
+a) Voltage in and Voltage out
+b) Current in and Voltage out
+c) Voltage Controlled Voltage Source
+d) Series voltage feedback
+b
+2. In the following diagram, shaded portions are named A and B.
+What are A and B?
+a) A = Current sampling network, B = Voltage sampling network
+b) A = Current mixing network, B = Voltage sampling network
+c) A = Shunt mixing network, B = Current sampling network
+d) A = Voltage mixing network, B = Current sampling network
+c
+3. Given that a feedback network is shunt-series, and output load is 10kΩ, what is the output voltage across it given that transfer gain is 10, source current is 20mA and feedback current is 10mA?
+a) 1V
+b) 2V
+c) 10V
+d) 20V
+c
+IF = βIL
+IL = IF/β = 10/10 = 1mA
+VL = ILRL = 10V.
+4. Consider the circuit shown.
+What is the type of sampling observed?
+a) Shunt-Series feedback
+b) Series-Series feedback
+c) Shunt-Shunt feedback
+d) Series-Shunt feedback
+d
+5. Consider a voltage series feedback network, where amplifier gain = 100, feedback factor = 5. For the basic amplifier, input voltage = 4V, input current=2mA. Find the input resistance of the network.
+a) 1.002kΩ
+b) 1002kΩ
+c) 2kΩ
+d) 2000kΩ
+b
+RIF = RI(1+A.β) = 2k(1+500) = 1002kΩ.
+6. In which network is the unit of the feedback factor Ω?
+a) Shunt-shunt feedback
+b) Shunt-series feedback
+c) Series-series feedback
+d) Series-shunt feedback
+c
+Β = VF/IL in Ohms.
+7. A circuit can have more than one type of feedback.
+a) True
+b) False
+a
+8. Consider given circuit.
+What is the feedback configuration?
+a) Current series feedback
+b) Current shunt feedback
+c) Voltage series feedback
+d) Voltage shunt feedback
+a
+9. Consider the circuit shown below.
+Consider A: Current-shunt feedback
+B: Current-series feedback
+C: Voltage-shunt feedback
+D: Voltage-series feedback
+Which of the above are present?
+a) A and B
+b) A only
+c) B only
+d) A and D
+a
+10. In a feedback network, input voltage is 14V, feedback voltage is 6V and source voltage is 20V. β is in ohms. What is its configuration?
+a) Shunt-Shunt feedback
+b) Shunt-Series feedback
+c) Series-Series feedback
+d) Series-Shunt feedback
+c
+VI = VS – VF, which is voltage mixing. Also, β is in ohms that is voltage/current. Since output of feedback is voltage and input is current, the output has current sampling. Thus, configuration is a series-series feedback/current – series feedback.
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Cascade and Darlington Amplifier» Next - Analog Circuits Questions and Answers – Effects of Feedback 

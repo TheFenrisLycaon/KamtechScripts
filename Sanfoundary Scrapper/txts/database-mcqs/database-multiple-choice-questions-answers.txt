@@ -1,0 +1,78 @@
+1. Which of the following is used to access the database server at the time of executing the program and get the data from the server accordingly?
+a) Embedded SQL
+b) Dynamic SQL
+c) SQL declarations
+d) SQL data analysis
+b
+2. Which of the following header must be included in java program to establish database connectivity using JDBC ?
+a) Import java.sql.*;
+b) Import java.sql.odbc.jdbc.*;
+c) Import java.jdbc.*;
+d) Import java.sql.jdbc.*;
+a
+3. DriverManager.getConnection(_______ , ______ , ______)
+What are the two parameters that are included?
+a) URL or machine name where server runs, Password, User ID
+b) URL or machine name where server runs, User ID,  Password
+c) User ID, Password, URL or machine name where server runs
+d) Password, URL or machine name where server runs, User ID
+b
+4. Which of the following invokes functions in sql?
+a) Prepared Statements
+b) Connection statement
+c) Callable statements
+d) All of the mentioned
+c
+5. Which of the following function is used to find the column count of the particular resultset?
+a) getMetaData()
+b) Metadata()
+c) getColumn()
+d) get Count()
+a
+has a method, getMetaData(), that returns a ResultSetMetaData object that contains metadata about the result set. ResultSetMetaData, in turn, has methods to find metadata information, such as the number of columns in the result, the name of a specified column, or the type of a specified column.
+6. Which of the following is a following statement is a prepared statements?
+a) Insert into department values(?,?,?)
+b) Insert into department values(x,x,x)
+c) SQLSetConnectOption(conn, SQL AUTOCOMMIT, 0)
+d) SQLTransact(conn, SQL ROLLBACK)
+a
+7. Which of the following is used as the embedded SQL in COBOL?
+a) EXEC SQL <embedded SQL statement >;
+b) EXEC SQL <embedded SQL statement >   END-EXEC
+c) EXEC SQL <embedded SQL statement >
+d) EXEC SQL <embedded SQL statement > END EXEC;
+b
+8. Which of the following is used to distinguish the variables in SQL from the host language variables?
+a) .
+b) –
+c) :
+d) ,
+b
+EXEC SQL
+DECLARE c cursor FOR
+SELECT ID, name
+FROM student
+WHERE tot cred > :credit amount;
+.
+9. The update statement can be executed in host language using
+a) EXEC SQL update c;
+b) EXEC SQL update c into :si, :sn;
+c)
+   EXEC SQL
+   UPDATE instructor
+   SET salary = salary + 100
+   WHERE CURRENT OF c;
+d) EXEC SQL update END-SQL
+c
+10. Which of the following is used to access large objects from a database ?
+a) setBlob()
+b) getBlob()
+c) getClob()
+d) all of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice  all areas of Database, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Authorizations» Next - Database Questions and Answers – Functions and Procedures 

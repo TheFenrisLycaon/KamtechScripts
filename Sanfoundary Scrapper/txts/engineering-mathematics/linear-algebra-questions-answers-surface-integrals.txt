@@ -1,0 +1,125 @@
+1. Evaluate  ∫xy dxdy over the positive quadrant of the circle x2+y2=a2.
+a) \(\frac{a^4}{8} \) 
+b) \(\frac{a^4}{4} \) 
+c) \(\frac{a^2}{8} \) 
+d) \(\frac{a^2}{4} \) 
+a
+\(y: 0 \rightarrow a \) 
+\(x: o \rightarrow \sqrt{a^2-x^2} \) 
+Therefore the integral is 
+\(\displaystyle\int_0^a \int_0^{\sqrt{a^2-x^2}}xydxdy \) 
+\( = \int_0^a \frac{yx^2}{2} dy \) (from 0 to \(\sqrt{a^2-x^2}) \) 
+\( = \frac{1}{2} \int_0^a y(a^2-y^2)  dy= \frac{a^4}{8}. \) 
+2. Evaluate ∫∫xy dxdy over the region bounded by x axis, ordinate x=2a and the curve x2=4ay.
+a) \(\frac{a^4}{3} \) 
+b) \(\frac{a^4}{6} \) 
+c) \(\frac{a^3}{3} \) 
+d) \(\frac{a^2}{6} \) 
+a
+Therefore,
+\(x:0 \rightarrow 2a \) 
+\(y: 0 \rightarrow \frac{x^2}{4a} \) 
+\(\int_0^2 a \int_0^{\frac{x^2}{4}}a xydxdy \) 
+\(= \int_0^2 a  \frac{xy^2}{2} dx \) (from 0 to \( \frac{x^2}{4a}) \) 
+\( = \frac{1}{2} \int_0^{2a} \frac{x^5}{(16a^2 )} dx \) 
+\( = \frac{a^4}{3}. \) 
+3. Evaluate ∫∫x2+y2 dxdy in the positive quadrant for which x+y<=1.
+a) \(\frac{1}{2} \) 
+b) \(\frac{1}{3} \) 
+c) \(\frac{1}{6} \) 
+d) \(\frac{1}{12} \) 
+c
+x: 0 to 1
+y:0 to 1-x
+\(\int_0^1 \int_0^{1-x} x^2+y^2 dxdy \) 
+\(= \int_0^1 x^2 y+ \frac{y^3}{3} dx \) (from 0 to 1-x)
+\(= \int_0^1 x^2 (1-x)+ \frac{(1-x)^3}{3} dx \) 
+\(= \frac{1}{6}. \) 
+4. Evaluate \(\int_0^∞ \int_0^{π/2} e^{-r^{2}} rdθdr \).
+a) \( \pi \) 
+b) \( \frac{\pi}{2} \) 
+c) \( \frac{\pi}{4} \) 
+d) \( \frac{\pi}{8} \) 
+c
+Substitute r2 as t
+\(\int_0^∞ \int_0^{π/2} e^{-t} dθ \frac{dt}{2} \) 
+\(= \frac{1}{2} \int_0^{π/2}Γ(1)dθ \) 
+\(= \frac{\pi}{4}. \) 
+5. Evaluate  ∫∫rsinθdrdθ over the cardiod r = a(1+cosθ) above the initial line.
+a) \(4 \frac{a^2}{3} \) 
+b) \( \frac{a^2}{3} \) 
+c) \(8 \frac{a^2}{3} \) 
+d) \(4 \frac{a^2}{6} \) 
+a
+r: 0 to a(1+cosθ)
+\(\int_0^π \int_0^{a(1+cosθ)} rsinθdrdθ \) 
+\(= \int_0^π \frac{r^2}{2} sinθdθ \) (from 0 to a(1+cosθ))
+\(= \int_0^π \frac{a^2}{2} (1+cosθ)^2 dθ \) 
+\(= 4 \frac{a^2}{3}. \) 
+6. Evaluate \(\int_0^∞ \int_0^∞ e^{-(x^2+y^2 )} dxdy \) by changing into polar coordinates.
+a) \( \pi \) 
+b) \( \frac{\pi}{2} \) 
+c) \( \frac{\pi}{4} \) 
+d) \( \frac{\pi}{8} \) 
+c
+\(= \int_0^{π/2} \int_0^∞ e^{-(r^2 )} drdθ \) 
+Substitute \(r^2\) as t
+\(= \frac{1}{2} \int_0^{π/2} \int_0^∞ e^{-t} dtdθ \) 
+\( = \frac{1}{2} \int_0^{π/2}Γ(1)dθ \) 
+\( = \frac{\pi}{4}. \) 
+7.  Evaluate the following integral by transforming into polar coordinates.
+\(\displaystyle\int_0^a \int_0^\sqrt{a^2-x^2} y\sqrt{x^2-y^2} dxdy \) 
+a) \( \frac{a^4}{2} \) 
+b) \( \frac{a^4}{3} \) 
+c) \( \frac{a^4}{4} \) 
+d) \( \frac{a^4}{5} \) 
+c
+Therfore θ : 0 to  Π/2
+and r : 0 to a
+\(\int_0^a \int_0^{π/2} rsinθrrdrdθ \) 
+\(= [\int_0^a r^3  dr][\int_0^{π/2}sinθdθ] \) 
+\(= \frac{a^4}{4} \). 
+8. Evaluate \(\int_0^∞ \int_x^∞ \frac{e^{-y}}{y} dydx \) by changing the order of integration.
+a) 0
+b) 1
+c) 2
+d) 1/2
+b
+x: 0 to infinity
+Now changing the orrder of integration:
+y=x
+y tends to infinity
+y: 0 to infinity
+x: 0 to y
+\(\int_0^∞ \int_0^y \frac{e^{-y}}{y} dydx \) 
+\( = \int_0^∞ \frac{e^{-y}}{y} ydy \) 
+= -(0-1)
+= 1. 
+9. Calculate the area enclosed by parabolas x2 = y and y2 = x.
+a) \( \frac{1}{2} \) 
+b) \( \frac{1}{3} \) 
+c) \( \frac{1}{4} \) 
+d) \( \frac{1}{6} \) 
+b
+\(y: x^2 \, to \, x^{1/2} \) 
+\(\int_0^1 \int_{x^2}^{\sqrt{x}}dydx \) 
+\(= \int_0^1 \sqrt{x}-x^2 dx \) 
+\(= \frac{2}{3} – \frac{1}{3} \) 
+\(= \frac{1}{3}. \) 
+10. What is the area of a cardiod y = a(1+cosθ).
+a) \(\frac{3πa^2}{2} \) 
+b) \(3πa^2 \) 
+c) \(\frac{3πa^2}{4} \) 
+d) \(\frac{3πa^2}{8} \) 
+a
+r : 0 to a(1+cosθ)
+\(\frac{Area}{2} = \int_0^π \int_0^{a(1+cosθ)}rdrdθ \) 
+\(= \frac{3πa^2}{4} \) 
+Total area = \( 2* \frac{3πa^2}{4} \) 
+\(\frac{3πa^2}{2} \). 
+Sanfoundry Global Education & Learning Series – Linear Algebra.
+To practice all areas of Linear Algebra, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Algebra Questions and Answers – Conversion from Cartesian, Cylindrical and Spherical Coordinates» Next - Linear Algebra Questions and Answers – Volume Integrals 

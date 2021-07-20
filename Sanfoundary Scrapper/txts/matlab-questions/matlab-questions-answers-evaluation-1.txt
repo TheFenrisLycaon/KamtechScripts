@@ -1,0 +1,76 @@
+1. What is the output of the following code?
+[q]=eval(sprintf('23 '))
+a) q=23
+b) Logical Error
+c) Symbolic error
+d) No output
+a
+2. What is the output of the following code?
+[q,r]=eval(‘sprintf('23 45')’)
+a) Unexpected MATLAB expression
+b) q=23,r=45
+c) 
+   q = 23
+   r = 45
+d) Error due to eval
+a
+3. What is the output of the following code?
+p=eval(cos(0));
+a) p=1
+b) 
+    p=
+      1
+c) Syntactical error
+d) The eval command does not exist
+c
+4. What is the output of the following code?
+evalc(‘cos(0)’)
+a) No such command
+b) Error
+c) 1
+d) ‘ ans=1 ’
+d
+5. What is the size of p from the following code?
+P=evalc(‘ ’)
+a) 2 bytes
+b) 0 bytes
+c) Error
+d) 6 bytes
+a
+6. The for keyword can be used to evaluate expressions using eval().
+a) True
+b) False
+b
+7. The evalc function is different from the eval command ________
+a) no difference
+b) from precision of output
+c) from nature of output
+d) from display of output
+d
+8. What is common to evalc and the eval commands, apart from the output?
+a) The error message is displayed separately
+b) The outputs are of different accuracy
+c) There is nothing common
+d) evalc does not exist
+a
+9. What is the output of the following code?
+P=eval(‘ ’)
+a) P= ‘ ’
+b) P will be an empty character array
+c) Error
+d) No such function
+c
+10. What is the output of the following code?
+feval(“sum”,1234,1)
+a) Syntactical error
+b) Logical Error
+c) 1235
+d) ‘1234’
+c
+Output: 1235
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – User Input and Screen Output – 2» Next - MATLAB Questions and Answers – Evaluation – 2 

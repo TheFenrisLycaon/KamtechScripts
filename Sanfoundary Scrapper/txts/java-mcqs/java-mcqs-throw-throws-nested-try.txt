@@ -1,0 +1,64 @@
+1. Which of these keywords is used to generate an exception explicitly?
+a) try
+b) finally
+c) throw
+d) catch
+c
+2. Which of these class is related to all the exceptions that are explicitly thrown?
+a) Error
+b) Exception
+c) Throwable
+d) Throw
+c
+3. Which of these operator is used to generate an instance of an exception than can be thrown by using throw?
+a) new
+b) malloc
+c) alloc
+d) thrown
+a
+4. Which of these keywords is used to by the calling function to guard against the exception that is thrown by called function?
+a) try
+b) throw
+c) throws
+d) catch
+c
+5. What will be the output of the following Java code?
+Join [email protected]
+    class exception_handling     {        public static void main(String args[])         {            try             {                int a = args.length;                int b = 10 / a;                System.out.print(a);                try                 {                    if (a == 1)                        a = a / a - a;                    if (a == 2)                     {                        int []c = {1};                        c[8] = 9;                    }                }                catch (ArrayIndexOutOfBoundException e)                 {                    System.out.println("TypeA");                }                catch (ArithmeticException e)                 {                    System.out.println("TypeB");                }            }        }    }
+a) TypeA
+b) TypeB
+c) Compile Time Error
+d) 0TypeB
+c
+6. What will be the output of the following Java code?
+    class exception_handling     {        public static void main(String args[])         {            try             {                System.out.print("A");                throw new NullPointerException ("Hello");            }            catch(ArithmeticException e)             {                System.out.print("B");        	            }        }    }
+a) A
+b) B
+c) Hello
+d) Runtime Exception
+d
+Output:
+$ javac exception_handling.java
+$ java exception_handling
+Exception in thread "main" java.lang.NullPointerException: Hello
+	at exception_handling.main
+7. What will be the output of the following Java code?
+public class San  {      public static void main(String[] args)     {        try         {             return;         }         finally         {            System.out.println( "Finally" );         }     } }
+a) Finally
+b) Compilation fails
+c) The code runs with no output
+d) An exception is thrown at runtime
+a
+8. What will be the output of the following Java code?
+public class San {    public static void main(String args[])    {        try         {            System.out.print("Hello world ");        }        finally         {            System.out.println("Finally executing ");        }    }}
+a) The program will not compile because no exceptions are specified
+b) The program will not compile because no catch clauses are specified
+c) Hello world
+d) Hello world Finally executing
+d
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Exceptions Types» Next - Java Questions & Answers – Finally & Built in Exceptions 

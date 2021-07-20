@@ -1,0 +1,67 @@
+1. _____________ express the number of entities to which another entity can be associated via a relationship set.
+a) Mapping Cardinality
+b) Relational Cardinality
+c) Participation Constraints
+d) None of the mentioned
+a
+2. An entity in A is associated with at most one entity in B, and an entity in B is associated with at most one entity in A.This is called as
+a) One-to-many
+b) One-to-one
+c) Many-to-many
+d) Many-to-one
+b
+3. An entity in A is associated with at most one entity in B. An entity in B, however, can be associated with any number (zero or more) of entities in A.
+a) One-to-many
+b) One-to-one
+c) Many-to-many
+d) Many-to-one
+d
+4. Data integrity constraints are used to:
+a) Control who is allowed access to the data
+b) Ensure that duplicate records are not entered into the table
+c) Improve the quality of data entered for a specific property
+d) Prevent users from changing the values stored in the table
+c
+Join Sanfoundry@YouTube
+5. Establishing limits on allowable property values, and specifying a set of acceptable, predefined options that can be assigned to a property are examples of:
+a) Attributes
+b) Data integrity constraints
+c) Method constraints
+d) Referential integrity constraints
+b
+6. Which of the following can be addressed by enforcing a referential integrity constraint?
+a) All phone numbers must include the area code
+b) Certain fields are required (such as the email address, or phone number) before the record is accepted
+c) Information on the customer must be known before anything can be sold to that customer
+d) Then entering an order quantity, the user must input a number and not some text (i.e., 12 rather than ‘a dozen’)
+c
+7. ______ is a special type of integrity constraint that relates two relations & maintains consistency across the relations.
+a) Entity Integrity Constraints
+b) Referential Integrity Constraints
+c) Domain Integrity Constraints
+d) Domain Constraints
+b
+8. Which one of the following uniquely identifies the elements in the relation?
+a) Secondary Key
+b) Primary key
+c) Foreign key
+d) Composite key
+b
+9. Drop Table cannot be used to drop a table referenced by a _________ constraint.
+a) Local Key
+b) Primary Key
+c) Composite Key
+d) Foreign Key
+d
+10. ____________ is preferred method for enforcing data integrity
+a) Constraints
+b) Stored Procedure
+c) Triggers
+d) Cursors
+a
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – The Entity-Relationship Model» Next - Database Questions and Answers – Entity-Relationship Diagrams 

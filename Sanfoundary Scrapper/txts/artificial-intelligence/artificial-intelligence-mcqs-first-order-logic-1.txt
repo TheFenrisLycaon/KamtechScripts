@@ -1,0 +1,55 @@
+1. There exist only two types of quantifiers, Universal Quantification and Existential Quantification.
+a) True
+b) False
+a
+2. Translate the following statement into FOL.
+“For every a, if a is a philosopher, then a is a scholar”
+a) ∀ a philosopher(a) scholar(a)
+b) ∃ a philosopher(a) scholar(a)
+c) All of the mentioned
+d) None of the mentioned
+a
+3. A _________ is used to demonstrate, on a purely syntactic basis, that one formula is a logical consequence of another formula.
+a) Deductive Systems
+b) Inductive Systems
+c) Reasoning with Knowledge Based Systems
+d) Search Based Systems
+a
+4. The statement comprising the limitations of FOL is/are ____________
+a) Expressiveness
+b) Formalizing Natural Languages
+c) Many-sorted Logic
+d) All of the mentioned
+d
+Formalizing Natural Languages : First-order logic is able to formalize many simple quantifier constructions in natural language, such as “every person who lives in Perth lives in Australia”. But there are many more complicated features of natural language that cannot be expressed in (single-sorted) first-order logic.
+Many-sorted Logic: Ordinary first-order interpretations have a single domain of discourse over which all quantifiers range. Many-sorted first-order logic allows variables to have different sorts, which have different domains.
+5. A common convention is:
+• is evaluated first
+• and are evaluated next
+• Quantifiers are evaluated next
+• is evaluated last.
+a) True
+b) False
+a
+6. A Term is either an individual constant (a 0-ary function), or a variable, or an n-ary function applied to n terms: F(t1 t2 ..tn).
+a) True
+b) False
+a
+7. First Order Logic is also known as ___________
+a) First Order Predicate Calculus
+b) Quantification Theory
+c) Lower Order Calculus
+d) All of the mentioned
+d
+8. The adjective “first-order” distinguishes first-order logic from ___________ in which there are predicates having predicates or functions as arguments, or in which one or both of predicate quantifiers or function quantifiers are permitted.
+a) Representational Verification
+b) Representational Adequacy
+c) Higher Order Logic
+d) Inferential Efficiency
+c
+Sanfoundry Global Education & Learning Series –  Artificial Intelligence.
+To practice all areas of Artificial Intelligence, here is complete set of 1000+ Multiple Choice Questions and Answers on Artificial Intelligence.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Artificial Intelligence Questions & Answers – Alpha Beta Pruning» Next - Artificial Intelligence Questions & Answers – Propositional Logic 

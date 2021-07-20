@@ -1,0 +1,91 @@
+1. The normalized array factor of a two element array antenna is given by ___________
+a) \(AF_n=cos⁡(\frac{kdcosθ+β}{2})\) 
+b) \(AF_n=2cos(\frac{kdcosθ+β}{2})\) 
+c) \(AF_n=cos⁡(\frac{kdcosθ}{2}+β)\) 
+d) \(AF_n=cos⁡(\frac{kdsinθ+β}{2})\) 
+a
+The normalized array factor is given by \(AF_n=\frac{AF}{2}=cos⁡(\frac{kdcosθ+β}{2}).\) 
+2. Which of the following is a function of position of antennas in array and the weights?
+a) Array Factor
+b) Field pattern
+c) Total array field
+d) Beamwidth
+a
+3. Find the normalized Array factor when two antenna elements are separated by a distance of λ/4 and phase difference is 0 and θ=0?
+a) \(cos⁡(\frac{π}{4})\) 
+b) \(cos⁡(\frac{π}{2})\) 
+c) \(cos⁡(\frac{3π}{4})\) 
+d) \(cos⁡(\frac{3π}{2})\) 
+a
+⇨	\(AF_n=cos⁡(\frac{kdcosθ+β}{2})=cos⁡(\frac{(\frac{2π}{λ})(λ/4)cosθ+0}{2})=cos⁡(\frac{π}{4})\) 
+4. Which of the following pattern represents the array factor of a two element array separated by a distance of λ/4 and phase difference is 0?
+a) 
+b) 
+c) 
+d) 
+a
+⇨	AFn=0
+⇨ \(cos⁡(\frac{kdcosθ+β}{2})=0\) 
+⇨ ⁡\(\frac{(\frac{2π}{λ})(λ/4)cosθ+0}{2})=\frac{π}{2}\) 
+⇨	cosθ=2
+ No Nulls will occur for the given pattern. So the pattern is represented as
+5. Which of the following is true for uniform linear array elements, to obtain the total field?
+a) The single element field is multiplied by the array factor
+b) The single element field is multiplied by the normalized array factor
+c) The single element field is multiplied by the beamwidth
+d) The single element field is multiplied by the directivity
+a
+6. Multiplying the normalized field with the normalized array factor gives ___________
+a) pattern multiplication
+b) array factor
+c) beamwidth
+d) null
+a
+7. Find the angle at which nulls occur for the two element array antenna with separation λ/4 and phase difference is π/2?
+a) 0
+b) π/2
+c) π/4
+d) π
+a
+⇨	AFn=0
+⇨ \(cos(\frac{kdcosθ+β}{2})=0\) 
+⇨ ⁡\(\frac{(\frac{2π}{λ})(λ/4)cosθ+\frac{π}{2}}{2}=\frac{π}{2}\) 
+⇨	Cosθ=1
+⇨ θ=0
+So Nulls occur at 0°.
+8. Find the angle at which nulls occur for the two element array antenna with separation λ/4 and phase difference is -π/2?
+a) 0
+b) π/2
+c) π/4
+d) π
+d
+⇨	AFn=0
+⇨ \(cos⁡(\frac{kdcosθ+β}{2})=0\) 
+⇨	\(\frac{(\frac{2π}{λ})(\frac{λ}{4})cosθ-\frac{π}{2}}{2}=±\frac{π}{2}\) 
+⇨	Cosθ=-1
+⇨	θ=180 or π
+So Nulls occur at 180°.
+9. Find the angle at which nulls occur for the two element array antenna with separation λ/4 and phase difference is 0?
+a) Doesn’t exist
+b) 0
+c) π/2
+d) π/4
+a
+⇨	AFn=0
+⇨ \(cos⁡(\frac{kdcosθ+β}{2})=0\) 
+⇨	\(\frac{(\frac{2π}{λ})(λ/4)cosθ+0}{2}=\frac{π}{2}\) 
+⇨ cosθ=2
+ No Nulls will occur for the given pattern.
+10. For N- element linear uniform array, the normalized array factor is represented as ______________
+a) \(\frac{sin(Nᴪ/2)}{Nᴪ/2}\) 
+b) \(\frac{cos(Nᴪ/2)}{Nᴪ/2}\) 
+c) \(N\frac{sin(ᴪ/2)}{ᴪ/2}\) 
+d) \(N\frac{cos(Nᴪ/2)}{Nᴪ/2}\) 
+a
+Normalized array factor is given by \(\frac{sin(Nᴪ/2)}{Nᴪ/2}\)
+Sanfoundry Global Education & Learning Series – Antennas.
+To practice all areas of Antennas, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antenna Array Questions and Answers – N-element Linear Array» Next - Antenna Array Questions and Answers – Pattern Multiplications 

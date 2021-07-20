@@ -1,0 +1,67 @@
+1. Which function is used to erase all session variables stored in the current session?
+a) session_destroy()
+b) session_change()
+c) session_remove()
+d) session_unset()
+d
+2. What will the function session_id() return is no parameter is passed?
+a) Current Session Identification Number
+b) Previous Session Identification Number
+c) Last Session Identification Number
+d) Error
+a
+3. Which one of the following statements should you use to set the session username to Nachi?
+a) $SESSION[‘username’] = “Nachi”;
+b) $_SESSION[‘username’] = “Nachi”;
+c) session_start(“nachi”);
+d) $SESSION_START[“username”] = “Nachi”;
+b
+4. What will be the output of the following PHP code? (Say your previous session username was nachi.)
+    unset($_SESSION['username']);    printf("Username now set to: %s", $_SESSION['username']);
+a) Username now set to: nachi
+b) Username now set to: System
+c) Username now set to:
+d) Error
+c
+5. An attacker somehow obtains an unsuspecting user’s SID and then using it to impersonate the user in order to gain potentially sensitive information. This attack is known as __________
+a) session-fixation
+b) session-fixing
+c) session-hijack
+d) session-copy
+a
+6. Which parameter determines whether the old session file will also be deleted when the session ID is regenerated?
+a) delete_old_file
+b) delete_old_session
+c) delete_old_session_file
+d) delete_session_file
+b
+7. Which function effectively deletes all sessions that have expired?
+a) session_delete()
+b) session_destroy()
+c) session_garbage_collect()
+d) SessionHandler::gc
+d
+8. Which function is used to transform PHP’s session-handler behavior into that defined by your custom handler?
+a) session_set_save()
+b) session_set_save_handler()
+c) Session_handler()
+d) session_save_handler()
+b
+9. The session_start() function must appear _________
+a) after the html tag
+b) after the body tag
+c) before the body tag
+d) before the html tag
+d
+10. What is the return type of session_set_save_handler() function?
+a) boolean
+b) integer
+c) float
+d) character
+a
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice  all areas of PHP for tests, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Questions & Answers – Session Handling-1» Next - PHP Questions & Answers – Website Security using PHP 

@@ -1,0 +1,40 @@
+1. Find the laplace transform of f(t), where
+f(t) = 1 for 0 < t < a
+-1 for a < t < 2a
+a) \(\frac{1}{s} coth⁡(\frac{as}{2})\) 
+b) \(\frac{1}{s} sinh⁡(\frac{as}{2})\) 
+c) \(\frac{1}{s} e^{-as}\) 
+d) \(\frac{1}{s} tanh⁡(\frac{as}{2})\) 
+d
+f(t) is a periodic function having a period 2a
+The formula for Laplace Transform is given by:
+\(L(f(t))=\frac{1}{1-e^{-2as}} \int_{0}^{2a}e^{-st} f(t)dt\) 
+\(L(f(t))=\frac{1}{1-e^{-2as}} \int_{0}^{a}e^{-st} (1)dt + \frac{1}{1-e^{-2as}} \int_{a}^{2a}e^{-st}(-1)dt\) 
+=\(\begin{bmatrix}\frac{1}{1-e^(-2as)}×\frac{e^{-as}}{-s} – \frac{1}{1-e^{-2as}} × \frac{-1}{s}\end{bmatrix} – \begin{bmatrix}\frac{1}{1-e^{-2as}} × \frac{e^{-2as}}{-s} – \frac{1}{1-e^{-2as}} × \frac{e^{-as}}{-s}\end{bmatrix}\) 
+= \(\frac{1}{1-e^{-2as}}×\frac{1}{s}×(1-e^{-as})^2\) 
+= \(\frac{1}{s}(\frac{1+e^{-as}}{1-e^{-as}})\) 
+Dividing both numerator and denominator by \(e^{\frac{-as}{2}}\) 
+= \(\frac{1}{s} tanh⁡(\frac{as}{2})\) 
+Thus, the correct answer is \(\frac{1}{s} tanh⁡(\frac{as}{2})\).
+2. Find the laplace transform of f(t), where f(t) = |sin(pt)| and t>0.
+a) \(\frac{p}{s^2+p^2}×cosh⁡(\frac{s\pi}{2p})\) 
+b) \(\frac{p}{s^2+p^2}×sinh⁡(\frac{s\pi}{2p})\) 
+c) \(\frac{p}{s^2+p^2}×coth⁡⁡(\frac{s\pi}{2p})\) 
+d) \(\frac{p}{s^2+p^2}×tanh⁡⁡(\frac{s\pi}{2p})\) 
+c
+Period of sin(t)=2π
+Period of sin⁡(pt)=\(\frac{2\pi}{p}\) 
+Period of |sin⁡(pt)|=\(\frac{\pi}{p}\) 
+\(L(f(t))=\frac{1}{1-e^{\frac{-\pi}{ps}}} \int_{0}^{\frac{\pi}{p}}e^{-st} f(t)dt\) 
+Since |sin⁡(pt)| is positive in all quadrants
+\(L(f(t))=\frac{1}{1-e^{\frac{-\pi}{ps}}} \int_{0}^{\frac{\pi}{p}}e^{-st} sin⁡(pt)dt\) 
+=\(\frac{1}{1-e^{\frac{-\pi}{ps}}}\begin{bmatrix}\frac{e^{\frac{-sπ}{p}}}{s^2+p^2}×p\end{bmatrix}-\begin{bmatrix}\frac{1}{s^2+p^2}×(-p)\end{bmatrix}\) 
+=\(\frac{1}{1-e^{\frac{-\pi}{ps}}}×\frac{p}{s^2+p^2}×(1+e^{\frac{-π}{ps}})\) 
+=\(\frac{p}{s^2+p^2}×coth⁡(\frac{s\pi}{2p})\), (Multiplying and dividing by \(e^{\frac{-sπ}{2p}}\))
+Thus, the answer is \(\frac{p}{s^2+p^2}×coth⁡⁡(\frac{s\pi}{2p})\).
+Sanfoundry Global Education & Learning Series – Ordinary Differential Equations.
+To practice all areas of Ordinary Differential Equations, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Laplace Transform by Properties – 3» Next - Ordinary Differential Equations Questions and Answers – General Properties of Inverse Laplace Transform 

@@ -1,0 +1,105 @@
+This section on C++ test focuses on “Grouping of Exceptions”. One shall practice these test questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ test questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ test questions on “Grouping of Exceptions” along with answers, explanations and/or solutions:
+1. How many types of exception handling are there in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+2. How many runtime error messages associated with exception?
+a) 2
+b) 4
+c) 5
+d) infinite
+b
+3. Which block should be placed after try block?
+a) catch
+b) throw
+c) either catch or throw
+d) handler
+a
+try{
+    // do something
+}
+catch{
+   // catch respective error.
+}
+finally{
+   // do something after trying or catching error i.e. run this block in both cases.
+}
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        double a = 10, b = 5, res;        char Operator = '/';        try         {            if (b == 0)                throw "Division by zero not allowed";            res = a / b;            cout << a << " / " << b << " = " << res;        }        catch(const char* Str)        {            cout << "\n Bad Operator: " << Str;        }        return 0;    }
+a) 10
+b) 2
+c) Bad Operator
+d) 10 / 5 = 2
+d
+Output:
+$ g++ gex.cpp
+$ a.out
+10 / 5 =2
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        try        {            throw 1;        }        catch (int a)        {            cout << "exception number:  " << a << endl;            return 0;        }        cout << "No exception " << endl;        return 0;    }
+a) No exception
+b) exception number
+c) exception number: 1
+d) exception number: 5
+c
+Output:
+$ g++ gex1.cpp
+$ a.out
+exception number: 1
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int a = 10, b = 20, c = 30;        float  d;        try        {            if ((a - b) != 0)            {                d = c / (a - b);                cout << d;            }            else            {                throw(a - b);            }        }        catch (int i)        {            cout<<"Answer is infinite "<<i;        }    }
+a) 10
+b) -3
+c) 15
+d) 17
+b
+Output:
+$ g++ gex2.cpp
+$ a.out
+-3
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void test(int x)    {        try        {            if (x > 0)                throw x;            else                throw 'x';        }        catch(int x)        {            cout<<"integer:"<<x;        }        catch(char x)        {            cout << "character:" << x;        }    }    int main()    {        test(10);        test(0);    }
+a) integer:10character:x
+b) integer:10
+c) character:x
+d) character:10
+a
+Output:
+$ g++ gex3.cpp
+$ a.out
+integer:10character:x
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void PrintSequence(int StopNum)    {        int Num;        Num = 1;        while (true)        {            if (Num >= StopNum)                throw Num;            cout << Num << endl;            Num++;        }    }    int main(void)    {        try        {            PrintSequence(2);        }        catch(int ExNum)        {            cout << "exception: " << ExNum << endl;        }        return 0;    }
+a) 1
+b) exception: 2
+c) 
+   1
+   exception: 2
+d) exception: 4
+c
+Output:
+$ g++ gex4.cpp
+$ a.out
+1
+exception: 2
+9. Pick out the correct answer.
+a) Exceptions are not suitable for critical points in code
+b) Exception are suitable for critical points in code
+c) Exceptions are used when postconditions of a function cannot be satisfied
+d) Throw block should be placed after try block
+a
+10. When exceptions are used?
+a) To preserve the program
+b) Exceptions are used when postconditions of a function cannot be satisfied
+c) Exceptions are used when postconditions of a function can be satisfied
+d) Exceptions are used when preconditions of a function cannot be satisfied
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Error Handling» Next - C++ Programming Questions and Answers – Catching Exceptions 

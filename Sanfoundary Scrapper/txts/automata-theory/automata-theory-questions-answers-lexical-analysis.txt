@@ -1,0 +1,107 @@
+1. Lexemes can be referred to as:
+a) elements of lexicography
+b) sequence of alphanumeric characters in a token
+c) lexical errors
+d) none of the mentioned
+b
+2. If the lexical analyser finds a lexeme with the same name as that of a reserved word,it _________
+a) overwrites the word
+b) overwrites the functionality
+c) generates an error
+d) something else
+c
+3. The methodology to show an error when the analyzer faces a keyword over an user’s input is based on:
+a) rule priority
+b) longest match rule
+c) keyword-out rule
+d) none of mentioned
+a
+4. State true or false:
+Statement:  A lexical analyzer reads the source code line by line.
+a) True
+b) False
+b
+5.Which among the following statement is correct?
+Statement 1: When the analyzer scans ‘int’ and ‘intvalue’, it is not able to decide whether the int leads to a keyword or an identifier.
+Statement 2: Longest Match Rule
+Join Sanfoundry@YouTube
+a) Statement 1 is assertion, Statement 2 is the reason
+b) Statement 1 is assertion, Statement 2 is the solution
+c) There is no such Statement 2
+d) This is not a function of Lexical Analyzer
+b
+6. The output of the lexical and syntax analyzer can stated as:
+a) parse stream, parse tree
+b) token tree, parse tree
+c) token stream, parse tree
+d) all of the mentioned
+c
+7. Which among the following is not a tool to construct lexical analyzer from a regular expression?
+a) lex
+b) flex
+c) jflex
+d) none of the mentioned
+d
+8. A program that performs lexical analysis is termed as:
+a) scanner
+b) lexer
+c) tokenizer
+d) all of the mentioned
+d
+9. Lexers and parsers are not found in which of the following?
+a) compiler front end processing
+b) prettyprinters
+c) linters
+d) none of the mentioned
+d
+10. Which phase of compiler includes Lexical Analysis?
+a) 1
+b) 2
+c) 3
+d) Its primary function, not in any phase
+a
+11. Which of the following characters are ignored while lexical analysis?
+a) .
+b) =
+c) #
+d) WhiteSpace
+d
+12. ____________ is used for grouping up of characters into token.
+a) Lexical Analyzer
+b) oolex
+c) jflex
+d) All of the mentioned
+d
+13. The action of parsing the source code into proper syntactic classes is known as:
+a) Parsing
+b) Interpretation analysis
+c) Lexicography
+d) Lexical Analysis
+d
+14. Which of the following is the task of lexical analysis?
+a) To build the uniform symbol table
+b) To initialize the variables
+c) To organize the variables in a lexical order
+d) None of the mentioned
+a
+a) Building a uniform symbol table
+b) Parsing the source code into tokens
+c) Building a literal and identifier table
+15. The scanner outputs:
+a) Stream of tokens
+b) Image file
+c) Intermediate code
+d) Machine code
+a
+16. The phase of compilation which involves type checking is:
+a) Parsing
+b) Scanning
+c) Syntax directed translation
+d) Semantic Analyzer
+c
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Regular Expression in UNIX» Next - Automata Theory Questions and Answers –  Finding Patterns in Text,Algebric Laws and Derivatives 

@@ -1,0 +1,106 @@
+1.  In the given diagram, identify the maximum value of addendum radius of the larger gear or the wheel to avoid interference.
+a) AD
+b) BE
+c) BC
+d) BA
+E
+2. The maximum radius of addendum to avoid interference is given by the formula ____________
+a) ((R cosφ)2 + (R sinφ + r sinφ)2)0.5
+b) ((R cosφ)2 + (R sinφ – r sinφ)2)0.5
+c) ((R cosφ)2 – (R sinφ + r sinφ)2)0.5
+d) ((R cosφ)2 – (R sinφ – r sinφ)2)0.5
+a
+We know that the maximum value of addendum radius is equal to BE. From the given diagram it is evident that BE = ((BF)2 + (FP + PE)2)0.5 = ((R cosφ)2 + (R sinφ + r sinφ)2)0.5. If the actual value of the addendum radius is less than the maximum value of the addendum radius, then interference does not occur.
+3. What is the formula for calculating the minimum number of teeth on the wheel ?
+a) T = 2aw/((1+(1/G)((1/G)+2)sin2φ)0.5 – 1)
+b) T = aw/((1+(1/G)((1/G)+2)sin2φ)0.5 – 1)
+c) T = 2aw/((1+(1/G)((1/G)+2)sin2φ)0.5
+d) T = 2aw/((1+(1/G)((1/G)+2)sin2φ)0.5 + 1)
+a
+This implies that the minimum teeth must always be greater than the value obtained using this formula.
+In the limit, T = (2aw/(1+(1/G)((1/G)+2)sin2φ)0.5 – 1). The minimum number of teeth on the pinion is given by t = T/G.
+4. What is the maximum value of the addendum of the pinion?
+a) mt((1+G(G+2)sin2 φ)0.5+1)/2
+b) mt((1-G(G+2)sin2 φ)0.5-1)/2
+c) mt((1-G(G+2)sin2 φ)0.5+1)/2
+d) mt((1+G(G+2)sin2 φ)0.5-1)/2
+d
+5. If the maximum addendum radius of the wheel is given as 260 mm and the actual value of the addendum radius is found out to be 255 mm, the interference will occur. True or false?
+a) True
+b) False
+b
+6. Two involute gears have a pressure angle of 20°. The gear ratio is given to be 3. The module is 5 mm and the value of addendum is equal to 1 module. Determine the minimum number of teeth on each wheel to avoid interference, if the pinion rotates at 100 rpm.
+a) T = 51, t= 17
+b) T = 45, t =15
+c) T = 60, t =20
+d) T = 54, t = 18
+b
+Now, T = (2aw/(1+(1/G)((1/G)+2)sin2φ)0.5 – 1) is the minimum number of teeth on the larger gear.
+T = ((2×1)/(1+(1/3)((1/3)+2)sin2(20))0.5 – 1) =  44.94 ~ 45.
+Therefore, T = 45 and t = 45/3 = 15.
+7. Find the maximum value of addendum radius of the larger gear if the pressure angle between two teeth is equal to 25°. T = 50 and t = 25. The gears have a module of 8 mm and the addendum is equal to one module.
+a) 211. 202 mm
+b) 231. 202 mm
+c) 221. 202 mm
+d) 201. 202 mm
+c
+R = mT/2 = 200 and r = mt/2 = 100
+Ra = 200 + 8 = 208 mm.
+ Ra max = ((R cosφ)2 + (R sinφ + r sinφ)2)0.5 = 221. 202 mm.
+8. The number of teeth on a pinion is equal to 20 and the gear ratio is 3. The pressure angle is equal to 15°. If the module is equal to 6 mm, find the path of contact when interference is just avoided.
+a) 62.116 mm
+b) 73.324 mm
+c) 42.831 mm
+d) 51.483 mm
+a
+r = mt/2 = 60 mm and R = mT/2 = 180 mm
+Path of contact when interference is just avoided = maximum path of approach + maximum path of recess = r sinφ + R sinφ = 60 sin15° + 180 sin15° = 62.116 mm.
+9. Find the maximum value of addendum radius of the pinion if the pinion has 25 teeth, the larger gear has 100 teeth and the pressure angle is equal to 20°. Take the value of module as 6 mm.
+a) 78.943 mm
+b) 71.345 mm
+c) 78.431 mm
+d) 74.459 mm
+b
+r = mt/2 = 75 mm
+a p max = r((1+G(G+2)sin2 φ)0.5-1) = 71.345 mm.
+10. Find the maximum value of addendum radius of the larger gear if the pinion has 17 teeth, the larger gear has 51 teeth and the pressure angle is equal to 15°. Take the value of module as 8 mm.
+a) 9.092 mm
+b) 8.923 mm
+c) 5.247 mm
+d) 4.389 mm
+c
+R = mT/2 = 204 mm
+aw max = R((1+(1/G)((1/G)+2)sin2φ)0.5 – 1) = 5.247 mm.
+11. Two 25° involute spur gears have a module of 7 mm. The addendum is equal to one module. If the larger gear has 60 teeth and the pinion has 30 teeth, they will interfere with each other. True or false?
+a) True
+b) False
+b
+r = mt/2 = 105 mm and R = mT/2 = 210 mm
+Ra = R + a = 210 + 7 = 217 mm
+Ra max = ((R cosφ)2 + (R sinφ + r sinφ)2)0.5 = 232.26 mm
+As the value of Ra obtained is less than the value of the maximum addendum radius, the interference does not occur. Hence, the given statement is false.
+12. Two 20° involute spur gears have a module of 12 mm. The addendum is equal to 1.5 module. If the larger gear has 40 teeth and the pinion has 20 teeth, find the pressure angle at which interference can be avoided.
+a) 20.66°
+b) 21.96°
+c) 22.23°
+d) 21.24°
+a
+r = mt/2 = 120 mm and R = mT/2 = 240 mm
+Ra = R + a = 240 + 18 = 258 mm
+Ra max = ((R cosφ)2 + (R sinφ + r sinφ)2)0.5 = 256.95mm
+As the calculated value of the addendum radius exceeds the maximum value of the addendum radius, interference occurs.
+The new value of φ can be calculated by taking R¬a max equal to Ra.
+258 =  ((240 cosφ)2 + (240 sinφ + 120 sinφ)2)0.5
+66564 = (240 cosφ)2 + (240 sinφ + 120 sinφ)2
+66564 = 57600 cos2φ +129600 (1-cos2 φ)
+66564 = 129600 – 72000 cos2 φ
+cos2 φ = 0.8755
+cos φ = 0.935
+φ = 20.66°
+If the pressure angle is increased to 20.66°, the interference can be avoided.
+Sanfoundry Global Education & Learning Series – Theory of Machines.
+To practice all areas of Theory of Machines, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Theory of Machines Questions and Answers – Arc of Contact and Contact Ratio» Next - Theory of Machines Questions and Answers – Helical Gears 

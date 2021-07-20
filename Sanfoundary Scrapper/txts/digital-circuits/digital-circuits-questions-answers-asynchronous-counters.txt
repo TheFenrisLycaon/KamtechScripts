@@ -1,0 +1,99 @@
+1. How many natural states will there be in a 4-bit ripple counter?
+a) 4
+b) 8
+c) 16
+d) 32
+c
+Therefore, in a 4-bit counter, the total number of states = 24 = 16 states.
+2. A ripple counter’s speed is limited by the propagation delay of _____________
+a) Each flip-flop
+b) All flip-flops and gates
+c) The flip-flops only with gates
+d) Only circuit gates
+a
+3. One of the major drawbacks to the use of asynchronous counters is that ____________
+a) Low-frequency applications are limited because of internal propagation delays
+b) High-frequency applications are limited because of internal propagation delays
+c) Asynchronous counters do not have major drawbacks and are suitable for use in high- and low-frequency counting applications
+d) Asynchronous counters do not have propagation delays, which limits their use in high-frequency applications
+b
+4. Internal propagation delay of asynchronous counter is removed by ____________
+a) Ripple counter
+b) Ring counter
+c) Modulus counter
+d) Synchronous counter
+d
+5. What happens to the parallel output word in an asynchronous binary down counter whenever a clock pulse occurs?
+a) The output increases by 1
+b) The output decreases by 1
+c) The output word increases by 2
+d) The output word decreases by 2
+b
+6. How many flip-flops are required to construct a decade counter?
+a) 4
+b) 8
+c) 5
+d) 10
+a
+7. The terminal count of a typical modulus-10 binary counter is ____________
+a) 0000
+b) 1010
+c) 1001
+d) 1111
+c
+8. How many different states does a 3-bit asynchronous counter have?
+a) 2
+b) 4
+c) 8
+d) 16
+c
+Therefore, in a 3-bit counter, the total number of states = 23 = 8 states.
+9. A 5-bit asynchronous binary counter is made up of five flip-flops, each with a 12 ns propagation delay. The total propagation delay (tp(total)) is ____________
+a) 12 ms
+b) 24 ns
+c) 48 ns
+d) 60 ns
+d
+10. An asynchronous 4-bit binary down counter changes from count 2 to count 3. How many transitional states are required?
+a) 1
+b) 2
+c) 8
+d) 15
+d
+11. A 4-bit ripple counter consists of flip-flops, which each have a propagation delay from clock to Q output of 15 ns. For the counter to recycle from 1111 to 0000, it takes a total of ____________
+a) 15 ns
+b) 30 ns
+c) 45 ns
+d) 60 ns
+d
+12. Three cascaded decade counters will divide the input frequency by ____________
+a) 10
+b) 20
+c) 100
+d) 1000
+d
+13. A ripple counter’s speed is limited by the propagation delay of ____________
+a) Each flip-flop
+b) All flip-flops and gates
+c) The flip-flops only with gates
+d) Only circuit gates
+a
+14. A 4-bit counter has a maximum modulus of ____________
+a) 3
+b) 6
+c) 8
+d) 16
+d
+Therefore, in a 4-bit counter, the total number of states = 24 = 16 states.
+15. A principle regarding most display decoders is that when the correct input is present, the related output will switch ____________
+a) HIGH
+b) To high impedance
+c) To an open
+d) LOW
+d
+Sanfoundry Global Education & Learning Series – Digital Circuits.
+To practice all areas of Digital Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Circuits Questions and Answers – Counters» Next - Digital Circuits Questions and Answers – Counter ICs 

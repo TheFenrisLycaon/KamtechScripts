@@ -1,0 +1,95 @@
+This section on C++ questions and puzzles focuses on “Checked Iterators”. One shall practice these questions and puzzles to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These programming puzzles can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ questions and puzzles on “Checked Iterators” along with answers, explanations and/or solutions:
+1. What is the use of checked iterators?
+a) Overwrite the bounds of your container
+b) Not allow you to overwrite the bounds of your container
+c) It will check the list value
+d) Overwrite the bounds of your iterators
+b
+2. What will happen if the iterator is unchecked?
+a) Arising of compiler warnings
+b) Unchecked behavior on program
+c) Nothing will execute
+d) Arising of compiler warnings & Unchecked behavior on program
+d
+3. How many adaptors support the checked iterators?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+4. What will be the output of the following C++ code?
+    #include <vector>    #include <iostream>    #include <typeinfo>    #include <stdexcept>    using namespace std;    int main()    {        vector<int> vec;        vec.push_back(10);        int i = vec[100];        try {            i = vec[0];            cout << i << endl;        }        catch (exception &e)        {            cout << "Caught: " << e.what( ) << endl;            cout << "Type: " << typeid( e ).name( ) << endl;        }        catch (...)         {            cout << "Unknown exception: " << endl;        }        return 0;    }
+a) 10
+b) 100
+c) Exception
+d) Error
+a
+Output:
+$ g++ chei.cpp
+$ a.out
+10
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <map>    using namespace std;    int main ()    {        try {            map<char, int> mymap;            map<char, int> :: iterator it;            mymap['a'] = 50;            mymap['b'] = 100;            mymap['c'] = 150;            mymap['d'] = 200;            it = mymap.find('b');            mymap.erase (it);            mymap.erase (mymap.find('d'));            cout << mymap.find('a') -> second << '\n';        }        catch (...)         {            cout << "Unknown exception: " << endl;        }        return 0;    }
+a) 50
+b) 100
+c) 150
+d) Exception
+a
+Output:
+$ g++ chei1.cpp
+$ a.out
+50
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <iterator>    using namespace std;    int main ()    {        try {            double value1, value2;            istream_iterator<double> eos;                   istream_iterator<double> iit (cin);               if (iit != eos)                 value1 = *iit;            iit++;            if (iit != eos)                 value2 = *iit;            cout << (value1 * value2) << endl;        }        catch (...) {            cout << "Unknown exception: " << endl;        }        return 0;   }
+a) 10
+b) 45
+c) It will print the multiplied value of the input
+d) Exception
+c
+Output:
+$ g++ chei2.cpp
+$ a.out
+3
+4
+12
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <iterator>    #include <vector>    using namespace std;    int main ()     {        vector<int> myvector;        for (int i = 1; i < 4; ++i)             myvector.push_back(i*10);        ostream_iterator<int> out_it (cout,", ");        copy ( myvector.begin(), myvector.end(), out_it );        return 0;    }
+a) 10, 20, 30
+b) 10, 20
+c) 10, 20, 30,
+d) 30, 15, 10
+c
+Output:
+$ g++ chei3.cpp
+$ a.out
+10, 20, 30,
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <iterator>    #include <vector>    using namespace std;    int main ()     {        vector<int> myvector;        for (int i = 0; i < 10; i++)             myvector.push_back(i);        typedef vector<int> :: iterator iter_int;        reverse_iterator<iter_int> rev_iterator;        rev_iterator = myvector.rend() - 4;        cout << *rev_iterator << endl;        return 0;    }
+a) 2
+b) 3
+c) 4
+d) 5
+b
+Output:
+$ g++ chei4.cpp
+$ a.out
+3
+9. What does the checked iterator allow you to find?
+a) Warnings
+b) Compile time error
+c) Run time error
+d) Warnings & Run time error
+c
+10. What kind of errors do checked iterators detect?
+a) Uninitialized iterators
+b) Initialized iterators
+c) Range access
+d) Both Uninitialized iterators and range access
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Iterators and Sequences» Next - C++ Programming Questions and Answers – Allocators 

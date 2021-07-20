@@ -1,0 +1,115 @@
+1. Arrays can be used to store multiple values in one single variable.
+a) True
+b) False
+a
+2. What will be output of the given code?
+my_array = [1, 2, 3, 4]
+print my_array
+a) [1, 2, 3, 4].
+b) 1234
+c) Error
+d) None of the mentioned
+a
+Output:
+[1, 2, 3, 4]
+3. Each element in an array has an index and the starting index is index 1.
+a) True
+b) False
+b
+4. What will be the output of the following?
+Join Sanfoundry@YouTube
+array = [100, 200, 300, 400, 500]
+print array[4]
+a) 400
+b) 500
+c) Nil
+d) None of the mentioned
+b
+Output:
+500
+5. What will be the output of the following?
+array = [100, 200, 300, 400, 500]
+print array[5]
+a) 400
+b) 500
+c) Nil
+d) None of the mentioned
+c
+Output:
+Nil
+6. What will be the output of the following?
+array = [100, 200, 300, 400, 500]
+print "array[5]"
+a) array[5].
+b) 500
+c) Nil
+d) None of the mentioned
+a
+Output:
+array[5]
+7. What will be the output of the following?
+array1 = [100, 200, 300, 400, 500]
+array2 = [1,2,3,4,5]
+if array1 == array2
+print "They are equal"
+else 
+    print "Not equal"
+end
+a) They are equal
+b) Not equal
+c) Nil
+d) None of the mentioned
+b
+Output:
+Not equal
+8. What will be the output of the following?
+array1 = [0,0,0]
+array2 = [0,0,0]
+if array1 == array2
+print "They are equal"
+else 
+    print "Not equal"
+end
+a) They are equal
+b) Not equal
+c) Nil
+d) None of the mentioned
+a
+Output:
+They are equal
+9. What will be the output of the following?
+array1 = [1,2,3]
+array2 = [0,0,0]
+if array1 >= array2
+print "Greater or equal"
+else 
+    print "Not equal"
+end
+a) Greater or equal
+b) Not equal
+c) Error
+d) None of the mentioned
+c
+Output:
+undefined method `>=' for [1, 2, 3]:Array
+10. What will be the output of the following?
+array1 = [1,2,3]
+array2 = [0,0,0]
+if array1 == array2
+print "Equal"
+else 
+    print "Not equal"
+end
+a) Equal
+b) Not equal
+c) Error
+d) None of the mentioned
+a
+Output:
+Equal
+Sanfoundry Global Education & Learning Series – Ruby Programming.
+To practice all areas of Ruby Programming, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Ruby Programming Questions and Answers – For Loop» Next - Ruby Programming Questions and Answers – Arrays of Non-Numbers 

@@ -1,0 +1,66 @@
+1. The remote backup site is sometimes also called the
+a) Primary Site
+b) Secondary Site
+c) Tertiary Site
+d) None of the mentioned
+b
+2. Remote backup system must be _________ with the primary site.
+a) Synchronised
+b) Separated
+c) Connected
+d) Detached but related
+a
+3. The backup is taken by
+a) Erasing all previous records
+b) Entering the new records
+c) Sending all log records from primary site to the remote backup site
+d) Sending selected records from primary site to the remote backup site
+c
+4. When the __________ the backup site takes over processing and becomes the primary.
+a) Secondary fails
+b) Backup recovers
+c) Primary fails
+d) None of the mentioned
+c
+5. The simplest way of transferring control is for the old primary to receive __________ from the old backup site.
+a) Undo logs
+b) Redo Logs
+c) Primary Logs
+d) All of the mentioned
+c
+6. The time to process the remote backup can be reduced by
+a) Flags
+b) Breakpoints
+c) Redo points
+d) Checkpoints
+d
+7. A _______________ configuration can make takeover by the backup site almost instantaneous.
+a) Hot-spare
+b) Remote
+c) Direct
+d) Spare
+d
+8. A transaction commits as soon as its commit log record is written to stable storage at the primary site. This is
+a) One Safe
+b) Two Safe
+c) Two-very Safe
+d) Very Safe
+a
+9. A transaction commits as soon as its commit log record is written to stable storage at the primary and the backup site. This is
+a) One Safe
+b) Two Safe
+c) Two-very Safe
+d) Very Safe
+c
+10. If only the primary is active, the transaction is allowed to commit as soon as its commit log record is written to stable storage at the primary site. This is
+a) One Safe
+b) Two Safe
+c) Two-very Safe
+d) Very Safe
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Lock Release and Undo Operations 

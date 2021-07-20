@@ -1,0 +1,69 @@
+1. Is there any difference between exit-controlled loop structure and entry-controlled loop structure?
+a) Yes
+b) No
+a
+2. What is the output of the code given below?
+void setup() {    Serial.begin(9600);}void loop() {    int i, j, n=3, temp;    int a[3]={2, 1, 3};    for(i=0;i<n-1;i++) {        for(j=0;j<n-1-I;j++) {            if(a[j]>a[j+1]) {                temp=a[j];                a[j]=a[j+1];                a[j+1]=temp;            }        }    }    for(i=0;i<n;i++) {        Serial.print(a[i]);        Serial.print(“ ”);    }}
+a) 1 2 3
+b) 3 2 1
+c) 1 3 2
+d) 2 1 3
+a
+3. What is the purpose of the following code?
+void setup() {    Serial.begin(9600);}void loop() {    int a[4]={1,2,3,4};    int search_item=2;    int i;    for(i=0;i<4;i++) {        if(a[i]==search_item) {            Serial.print(“Found!”);        }    }}
+a) Search
+b) Sort
+c) Delete
+d) Append
+a
+4. What is the output of the following code?
+void setup() {    Serial.begin(9600);}void loop() {    int n,c,d,position,swap;    int array[4]={1,2,4,3};    n=4;    for(c=0;c<n;c++) {        position=c;        for(d=c+1;d<n;d++) {            if(array[position]>array[d]) {                position=d;	    }	}        if(position!=c) {            swap=array[c];            array[c]=array[position];            array[position]=swap;        }    }    for(c=0;c<n;c++) {        Serial.print(array[c]);        Serial.print(“ ”);    }}
+a) 1 2 4 3
+b) 1 3 2 4
+c) 3 1 2 4
+d) 1 2 3 4
+d
+5. What are the three components of a for-loop?
+a) initialization, conditional, increment/decrement
+b) conditional, memory allocation, memory deletion
+c) reset, increment, conditional
+d) reset, increment/decrement, memory allocation
+a
+6. How many times will the following loop run if the input to the code is a constant 5V signal?
+int pin1=10;void setup() {    Serial.begin(9600);    pinMode(pin1,INPUT);}void loop() {    for(int i=0;i<10;i--) {        if(digitalRead(pin1)==1) {            Serial.println(“HELLO”);        }    }}
+a) 1
+b) 2
+c) infinitely
+d) 5
+c
+7. Which one of the control structures is similar to the if-else statement?
+a) Switch-case
+b) For loop
+c) While loop
+d) Continue
+a
+8. What is the output of the code given below if there is a constant 5V supply to pin 10?
+void setup() {    Serial.begin(9600);}void loop() {    int x=0;    do {        x=analogRead(10);        Serial.println(x);    }while(x!=1023);  }
+a) 1023
+b) 1024
+c) null
+d) 1029
+a
+9. Is there a difference between iteration and recursion?
+a) Yes
+b) No
+c) Yes, but only in some programming languages
+d) Yes, but it depends on the version of programming language used
+a
+10. Can an infinite loop be dangerous to embedded systems due to memory leak?
+a) Yes
+b) Yes, but only if it is used within a limited scope
+c) No
+d) Yes, but only for some Arduino Boards
+a
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – Control Structures» Next - Arduino Questions and Answers – Time Functions 

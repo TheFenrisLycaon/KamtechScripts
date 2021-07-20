@@ -1,0 +1,67 @@
+1. If the logical processors want to execute complex IA-32 instructions simultaneously then the number of microcode instruction pointers required is
+a) 1
+b) 2
+c) 3
+d) 4
+b
+2. Which of the following is a type of branch prediction?
+a) static prediction
+b) dynamic prediction
+c) static and dynamic prediction
+d) none
+c
+3. The prediction that is based on a statistical assumption that the majority of backward branches occur in repetitive loops is
+a) static prediction
+b) dynamic prediction
+c) branch prediction
+d) none
+a
+4. The advantage of static prediction is
+a) simple and fast
+b) does not require table lookups or calculations
+c) performs without much degradation
+d) all of the mentioned
+d
+5. The dynamic branch prediction algorithms use
+a) Branch History Table (BHT)
+b) Branch Target Buffer (BTB)
+c) Branch History Table and Branch Target Buffer
+d) None
+c
+6. The unit that preserves the history of each conditional branch is
+a) Branch Target Buffer (BTB)
+b) Branch History Table (BHT)
+c) Static prediction
+d) Dynamic prediction
+b
+7. The BHT keeps a record that indicates the likelihood of the branches grouped as
+a) strongly taken
+b) taken
+c) not taken
+d) all of the mentioned
+d
+8. Each logical processor has
+a) one 64-byte streaming buffer
+b) one 32-byte streaming buffer
+c) two 64-byte streaming buffers
+d) two 32-byte streaming buffers
+c
+9. If there is a trace cache miss, then the instruction bytes are required to be fetched from the
+a) instruction decoder
+b) Level2 cache
+c) execution module
+d) none of the mentioned
+b
+10. The Instruction Translation Lookaside Buffer(ITLB) is present in
+a) trace cache
+b) instruction decoder
+c) logical processors
+d) all of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors for Entrance exams, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Features of Pentium 4, Netburst Microarchitecture For Pentium4 -1» Next - Microprocessors Questions and Answers – Rapid Execution Module, Memory Subsystem,  Hyperthreading Technology 

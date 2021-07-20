@@ -1,0 +1,129 @@
+1. Selection structures that can select from many alternatives are known as __________
+a) Selection structures
+b) Multiple-alternative selection structures
+c) Multiway selection structures
+d) Multipath selection structures
+b
+2. What will be contained in Msg if grade entered by user is ‘d’?
+If grade==”A”
+    Msg =”Excellent”
+ElseIf grade==”B”
+    Msg=”Very Good”
+ElseIf  grade==”C”
+    Msg=”Good”
+ElseIf grade==”D”
+    Msg=”Fair”
+Else
+    Msg=”Fail”
+EndIf
+a) Fair
+b) Fail
+c) Good
+d) Excellent
+b
+3. What will be contained in Msg if grade entered by user is ‘d’?
+grade=grade.Text.ToUpper
+If grade==”A”
+  Msg =”Excellent”
+ElseIf grade==”B”
+  Msg=”Very Good”
+ElseIf  grade==”C”
+  Msg=”Good”
+ElseIf grade==”D”
+  Msg=”Fair”
+Else
+  Msg=”Fail”
+EndIf
+a) Fair
+b) Fail
+c) Good
+d) Excellent
+a
+4. Which is an easier alternative of multiple-alternative selection structure?
+a) Single-alternative selection structure
+b) Multipath selection structure
+c) Select case Statement
+d) Multiway-alternative selection structure
+c
+5. The select case statement ends with __________
+a) Select End clause
+b) End Select clause
+c) End clause
+d) Select clause
+b
+Select Case SelectorExpression
+Case Expnumber
+   Instruction to the first case
+Case Expnumber
+   Instruction to the second case
+Case Expnumber
+   Instruction to the third case
+Case Else
+   Instruction when the SelectorExpression does not match
+End Select
+6. Which of the following Case clauses is invalid in a Select Case statement whose selectorExpression is an Integer variable named intCode?
+a) Case Is>7
+b) Case 3,5
+c) Case 1 to 4
+d) Case “A”
+d
+7. __________ must be the last clause in the Select Case statement.
+a) Case Else
+b) Case expnumber
+c) Case seletorExpression
+d) Case default
+a
+8. What will be in text, if Intid contains 2?
+Select Case Intid
+Case 1
+  Text=”Jannet”
+Case 2 to 4
+  Text=”Mark”
+Case 5, 7
+  Text=”Jerry”
+Case Else
+  Text=”Sue”
+End Select
+a) Jannet
+b) Mark
+c) Jerry
+d) Sue
+b
+9. What will be in text, if Intid contains 3?
+Select Case Intid
+Case 1
+  Text=”Jannet”
+Case 2 to 4
+  Text=”Mark”
+Case 5, 7
+  Text=”Jerry”
+Case Else
+  Text=”Sue”
+End Select
+a) Jannet
+b) Mark
+c) Jerry
+d) Sue
+b
+10. What will be in text, if Intid contains 6?
+Select Case Intid
+Case 1
+  Text=”Jannet”
+Case 2 to 4
+  Text=”Mark”
+Case 5, 7
+  Text=”Jerry”
+Case Else
+  Text=”Sue”
+End Select
+a) Jannet
+b) Mark
+c) Jerry
+d) Sue
+d
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Nested Selection Structures» Next - Visual Basic Questions and Answers – Adding a GroupBox to the Form and Using Financial.Pmt Method 

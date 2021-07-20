@@ -1,0 +1,97 @@
+1. A pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps. What is the requirement to make this frame collision-free?
+a) 2msec
+b) 4msec
+c) 2sec
+d) 4sec
+a
+Tfr = 200 bits/200 kbps or 1 ms
+Vulnerable time = 2x Tfr = 2 × 1 ms = 2 ms.
+2. A pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps. What is the throughput if the system (all stations together) produces 1000 frames per second?
+a) 150 frames
+b) 80 frames
+c) 135 frames
+d) 96 frames
+c
+Tfr= 200/200 kbps or 1 ms.
+If the system creates 1000 frames per second, or 1 frame
+per millisecond, then G = 1
+S = G × e−2G = 0.135 (13.5 percent)
+This means that,
+Throughput =1000 × 0.135 = 135 frames.
+3. A pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps. What is the throughput if the system (all stations together) produces 500 frames per second?
+a) 146 frames
+b) 92 frames
+c) 38 frames
+d) 156 frames
+b
+Then G = 1/2.
+S = G × e−2G  = 0.184 (18.4 percent)
+This means that
+Throughput = 500 × 0.184 = 92
+Only 92 frames out of 500 will probably survive
+This is the maximum throughput case, percentage-wise.
+4. A pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps. What is the throughput if the system (all stations together) produces 250 frames per second?
+a) 38 frames
+b) 48 frames
+c) 96 frames
+d) 126 frames
+a
+S = G  × e−2G = 0.152 (15.2 percent).
+This means that
+Throughput = 250 × 0.152 = 38.
+Only 38 frames out of 250 will probably survive.
+5. A slotted ALOHA network transmits 200-bit frames using a shared channel with a 200-kbps bandwidth. Find the throughput if the system (all stations together) produces 1000 frames per second.
+a) 92 frames
+b) 368 frames
+c) 276 frames
+d) 151 frames
+b
+Throughput = 1000 ×   0.0368 = 368 frames.
+6. A slotted ALOHA network transmits 200-bit frames using a shared channel with a 200-kbps bandwidth. Find the throughput if the system (all stations together) produces 500 frames per second.
+a) 92 frames
+b) 368 frames
+c) 276 frames
+d) 151 frames
+d
+Throughput is 500 × 0.0303 = 151.
+7. A network using CSMA/CD has a bandwidth of 10 Mbps. If the maximum propagation time (including the delays in the devices and ignoring the time needed to send a jamming signal, as we see later) is 25.6 μs, what is the minimum size of the frame?
+a) 128 bytes
+b) 32 bytes
+c) 16 bytes
+d) 64 bytes
+d
+The minimum size of the frame is 10 Mbps × 51.2 μs = 512 bits or 64 bytes. This is actually the minimum size of the frame for Standard Ethernet.
+8. In collision free protocol channel efficiency is given by-
+a) d/(d + log2(N))
+b) d*(d + log2(N))
+c) log2(N)
+d) (d + log2(N))
+a
+9. 
+Find the distance from source A to destination D using Dijkstra algorithm.
+a) 10
+b) 11
+c) 12
+d) 14
+a
+The shortest path form A to D is ABEFHD and distance is 10.
+10. 
+Find the distance from source A to destination D using Dijkstra algorithm.
+a) A-B-C-J-D-K
+b) A-B-C-G-H-D-K
+c) A-E-D-K
+d) A-E-G-H-D-K
+a
+Shortest path is : A-E-G-H-D-K and the distance is 5 units.
+11. After performing bit stuffing on the following stream : 01101111111111111110010, the output is-
+a) 01101111101111101111100010
+b) 01101111111111111110010111
+c) 10010000000000000000001101
+d) 01101111111111111111110010
+a
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice tricky questions on all areas of Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Networking Questions and Answers – Layers – II» Next - Networking Questions and Answers – IP Datagram Packet 

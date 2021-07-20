@@ -1,0 +1,133 @@
+1. Which reference modifier is used to define reference variable?
+a) &
+b) ref
+c) #
+d) $
+b
+2. What will be the output of the following C# code?
+   static void Main(string[] args)   {       int a = 5;       fun1 (ref a);       Console.WriteLine(a);       Console.ReadLine();    }    static void fun1(ref int a)    {        a = a * a;    }
+a) 5
+b) 0
+c) 20
+d) 25
+d
+Output:
+25
+3. What will be the output of the following C# code?
+ static void Main(string[] args) {     int[] arr = new int[] {1, 2, 3, 4, 5};     fun1(ref arr);     Console.ReadLine();  } static void fun1(ref int[] array) {     for (int i = 0; i < array.Length; i++)     {         array[i] = array[i] + 5;         Console.WriteLine(array[i] + " ");     } }
+a) 6 7 8 9 10
+b) 15 17 8 8 20
+c) 15 17 8 29 20
+d) Syntax error while passing reference of array variable
+a
+              a[0] = 1 + 5 = 6.
+              a[1] = 2 + 5 = 7.
+              .
+              .
+              a[4] = 5 + 5 = 10.
+ Output :
+Join [email protected]
+ 15 17 8 29 20
+ 
+4. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int a = 10 , b = 20;      Console.WriteLine("Result before swap is: "+ a +" "+b);      swap(ref a, ref b);      Console.ReadLine();  }  static void swap(ref int i, ref int j)  {      int t;      t = i;      i = j;      j = t;      Console.WriteLine("Result after swap is:"+ i +" "+j);  }
+a) 
+Result before swap is: 20 10
+Result after swap is: 20 10
+b) 
+Result before swap is: 10 20
+Result after swap is:20 10
+c) 
+Result before swap is: 10 20
+Result after swap is:10 20
+d) 
+Result before swap is: 20 10
+Result after swap is:10 20
+b
+Output:
+       Result before swap is: 10 20.
+       Result after swap is:20 10.
+  
+5. What will be the output of the following C# code?
+ static void Main(string[] args) {     int []a = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};     func(ref a);     Console.ReadLine(); } static void func(ref int[] x) {     Console.WriteLine(" numbers are:");     for (int i = 0; i < x.Length; i++)     {         if (x[i] % 2 == 0)         {             x[i] = x[i] + 1;             Console.WriteLine(x[i]);         }     } }
+a) numbers are : 2 4 6 8 10
+b) numbers are : 3 5 7 9 11
+c) numbers are : 2 3 4 5 6
+d) none of the mentioned
+b
+              i.e for x[1] = 2%2 == 0.So, x[1] = 2 + 1 = 3.
+                      x[3] = 4%2 == 0.So, x[3] = 4 + 1 = 5 and so on.
+Output :
+ 3 5 7 9 11
+6. Select the wrong statement about ‘ref’ keyword in C#?
+a) References can be called recursively
+b) The ‘ref’ keyword causes arguments to be passed by reference
+c) When ‘ref’ are used, any changes made to parameters in method will be reflected in variable when control is passed back to calling method
+d) All of the mentioned
+a
+7. Select correct differences between ‘=’ and ‘==’ in C#.
+a) 
+'==' operator is used to assign values from one variable to another variable
+'='  operator is used to compare value between two variables
+b) 
+'=' operator is used to assign values from one variable to another variable
+'==' operator is used to compare value between two variables
+c) No difference between both operators
+d) None of the mentioned
+b
+8. What will be the output of the following C# code?
+  static void Main(string[] args)  {      int X = 0;      if (Convert.ToBoolean(X = 0))      Console.WriteLine("It is zero");      else       Console.WriteLine("It is not zero");      Console.ReadLine();  }
+a) It is zero
+b) It is not zero
+c) Infinite loop
+d) None of the mentioned
+b
+9. What will be the output of the following C# code?
+    static void Main(string[] args)    {       int X = 6,Y = 2;       X  *= X / Y;       Console.WriteLine(X);       Console.ReadLine();    }
+a) 12
+b) 6
+c) 18
+d) Compile time error
+c
+                  X=x*(X/Y).
+Output:
+18
+10. What will be the output of the following C# code?
+    static void Main(string[] args)    {        int x = 4 ,b = 2;        x -= b/= x * b;        Console.WriteLine(x + " " + b);        Console.ReadLine();    }
+a) 4 2
+b) 0 4
+c) 4 0
+d) 2 2
+c
+Output:
+ 4 0
+11. What will be the output of the following C# expression?
+ int  a+= (float) b/= (long)c.
+a) float
+b) int
+c) long
+d) none of the mentioned
+b
+12. What will be the output of the following C# code?
+   static void Main(string[] args)   {       int x = 8;       int b = 16;       int C = 64;       x /= b /= C;       Console.WriteLine(x + " " + b+ " " +C);       Console.ReadLine();   }
+a) 8 2 32
+b) 32 4 8
+c) 32 2 8
+d) Compile time error
+d
+13. What will be the output of the following C# code?
+   static void Main(string[] args)   {       int x = 8;       int b = 16;       int C = 64;       x /= b /= C;       Console.WriteLine(x + " " + b+ " " +C);       Console.ReadLine();   }
+a) 8 2 32
+b) 32 4 8
+c) 32 2 8
+d) Compile time error
+c
+Output:
+32 2 8
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+Here’s the list of Best Reference Books in C# Programming Language.
+To practice all areas of C# for Quizzes, here is complete set on 1000+ Multiple Choice Questions and Answers on C#. 
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Fundamentals of Class» Next - C# Questions & Answers – Methods in Class 

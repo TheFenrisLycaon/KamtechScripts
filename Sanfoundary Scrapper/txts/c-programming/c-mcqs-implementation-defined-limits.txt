@@ -1,0 +1,85 @@
+1. The maximum value of a signed char is not the same as the maximum value of an unsigned char.
+a) True
+b) False
+a
+2. What will be the output of the following C code?
+#include <stdio.h>
+#include <limits.h>
+int main() 
+{
+    printf("The minimum value of LONG = %lf\n", LONG_MIN);
+    return 0;
+}
+a) -2147483648 (The minimum value of LONG)
+b) 0.000000
+c) 0
+d) error
+b
+3. The macro __________ defines the number of bits in a byte, which is equal to _______
+a) CHAR_BIT, 4
+b) CHAR_BYTE, 8
+c) CHAR_BIT, 8
+d) CHAR_BYTE, 4
+c
+Join Sanfou[email protected]
+4. What will be the output of the following C code?
+#include<stdio.h>
+#include<limits.h>
+main()
+{
+    printf("%f",FLT_MIN);
+}
+a) Minimum negative value of float
+b) Maximum positive value of float
+c) Error
+d) Minimum positive value of float
+c
+5. The macro MB_LEN_MAX is used to find _________
+a) Maximum number of bytes in a multi-byte character
+b) Whether the given function is valid or not
+c) The maximum time taken for the execution of a particular function
+d) Maximum number of bits in a multi-byte character
+a
+6. The value of CHAR_MAX will be equal to SCHAR_MAX when _________
+a) char represents positive value
+b) char represents value equal to 0
+c) char represents negative value
+d) char represents an exponential value
+c
+7. What will be the output of the following C code, given that the maximum value of signed char is 127 and that of unsigned char is 255.
+#include<stdio.h>
+#include<limits.h>
+#define SCHAR_MAX
+main()
+{
+    printf("%d",SCHAR_MAX+1);
+}
+a) 256
+b) Error
+c) 1
+d) 128
+c
+8. The macro which is used to find the maximum value of an unsigned integer is _________
+a) UNINT_MAX
+b) UNSINT_MAX
+c) UINT_MAX
+d) UNIT_MAX
+c
+9. To find the maximum value of an object of type unsigned long long int, we use the macro _________
+a) ULINT_MAX
+b) ULLINT_MAX
+c) ULONG_MAX
+d) ULLONG_MAX
+d
+10. Which of the following macros is defined under the header limits.h?
+a) FLT_ROUNDS
+b) USHRT_MAX
+c) DBL_MAX
+d) DECIMAL_DIG
+b
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Questions and Answers – Date and Time Function – 3» Next - C Questions and Answers – Implementation-Defined Limits – 2 

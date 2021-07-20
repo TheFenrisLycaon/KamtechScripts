@@ -1,0 +1,91 @@
+1. Which of these class object can be used to form a dynamic array?
+a) ArrayList
+b) Map
+c) Vector
+d) ArrayList & Vector
+d
+2. Which of these are legacy classes?
+a) Stack
+b) Hashtable
+c) Vector
+d) All of the mentioned
+d
+3. Which of these is the interface of legacy?
+a) Map
+b) Enumeration
+c) HashMap
+d) Hashtable
+b
+4. What is the name of a data member of class Vector which is used to store a number of elements in the vector?
+a) length
+b) elements
+c) elementCount
+d) capacity
+c
+5. Which of these methods is used to add elements in vector at specific location?
+a) add()
+b) set()
+c) AddElement()
+d) addElement()
+d
+6. What will be the output of the following Java code?
+    import java.util.*;    class vector     {        public static void main(String args[])         {            Vector obj = new Vector(4,2);            obj.addElement(new Integer(3));            obj.addElement(new Integer(2));            obj.addElement(new Integer(5));            System.out.println(obj.elementAt(1));        }    }
+a) 0
+b) 3
+c) 2
+d) 5
+c
+Output:
+$ javac vector.java
+$ java vector
+2
+7. What will be the output of the following Java code?
+    import java.util.*;    class vector     {        public static void main(String args[])         {            Vector obj = new Vector(4,2);            obj.addElement(new Integer(3));            obj.addElement(new Integer(2));            obj.addElement(new Integer(5));            System.out.println(obj.capacity());        }    }
+a) 2
+b) 3
+c) 4
+d) 6
+c
+Output:
+$ javac vector.java
+$ java vector
+4
+8. What will be the output of the following Java code?
+    import java.util.*;    class vector     {        public static void main(String args[])         {            Vector obj = new Vector(4,2);            obj.addElement(new Integer(3));            obj.addElement(new Integer(2));            obj.addElement(new Integer(6));            obj.insertElementAt(new Integer(8), 2);            System.out.println(obj);        }    }
+a) [3, 2, 6] 
+b) [3, 2, 8] 
+c) [3, 2, 6, 8] 
+d) [3, 2, 8, 6] 
+d
+Output:
+$ javac vector.java
+$ java vector
+[3, 2, 8, 6].
+9. What will be the output of the following Java code?
+    import java.util.*;    class vector     {        public static void main(String args[])         {            Vector obj = new Vector(4,2);            obj.addElement(new Integer(3));            obj.addElement(new Integer(2));            obj.addElement(new Integer(5));            obj.removeAll(obj);            System.out.println(obj.isEmpty());        }    }
+a) 0
+b) 1
+c) true
+d) false
+c
+Output:
+$ javac vector.java
+$ java vector
+true
+10. What will be the output of the following Java code?
+    import java.util.*;    class stack     {        public static void main(String args[])         {            Stack obj = new Stack();            obj.push(new Integer(3));            obj.push(new Integer(2));            obj.pop();            obj.push(new Integer(5));     	    System.out.println(obj);        }    }
+a) [3, 5] 
+b) [3, 2] 
+c) [3, 2, 5] 
+d) [3, 5, 2] 
+a
+Output:
+$ javac stack.java
+$ java stack
+[3, 5].
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Java.util – Maps» Next - Java Questions & Answers – Java.util – Dictionary, Hashtable & Properties 

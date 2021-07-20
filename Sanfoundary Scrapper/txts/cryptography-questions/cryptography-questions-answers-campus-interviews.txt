@@ -1,0 +1,68 @@
+1. Mix Row functions operate on the 8 × 8 matrix (A) to form the new matrix. The operation can be considered to be B = AC. The matrix C is formed by
+a) each successive even row having left shifts
+b) each successive row having a left shifts
+c) each successive odd row having right shifts
+d) each successive row having a right shifts
+d
+2. Which of the following hexadecimal values are not present in the matrix C of the Mix Rows function?
+a) 01
+b) 09
+c) 05
+d) 03
+d
+3. There’s no known successful attacks made against Whirlpool.
+a) True
+b) False
+a
+4. Which hash algorithm is the most hardware intensive among the following?
+a) SHA-1
+b) SHA-2
+c) MD-5
+d) Whirlpool
+d
+5. Which algorithm has the most execution latency?
+a) SHA-1
+b) SHA-2
+c) MD-5
+d) Whirlpool
+b
+6. Which among the following has not been broken yet( still collision free)?
+a) MD-5
+b) SHA-1
+c) DES
+d) SHA-2
+d
+7. Before the first round of the Whirlpool algorithm, which is the operation that takes place?
+a) Addition of Key
+b) Substitution of Bytes
+c) Mixing of Rows
+d) Shifting of Columns
+a
+8. How many rounds does the Whirlpool algorithm undergo?
+a) 12
+b) 14
+c) 10
+d) 16
+c
+9. Each round uses a different key in the algorithm.
+a) True
+b) False
+a
+10. What is the size of the key in the algorithm?
+a) 256 bits
+b) 512 bits
+c) 128 bits
+d) 1024 bits
+b
+11. How many add round key functions are present in the Whirlpool algorithm?
+a) 16
+b) 18
+c) 11
+d) 10
+c
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography for campus interviews, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Data Integrity Algorithms Questions and Answers – Whirlpool Algorithm – II» Next - Cryptography Questions and Answers – Symmetric Key Distribution – I 

@@ -1,0 +1,67 @@
+1. In order to read any file in HDFS, instance of __________ is required.
+a) filesystem
+b) datastream
+c) outstream
+d) inputstream
+a
+2. Point out the correct statement.
+a) The framework groups Reducer inputs by keys
+b) The shuffle and sort phases occur simultaneously i.e. while outputs are being fetched they are merged
+c) Since JobConf.setOutputKeyComparatorClass(Class) can be used to control how intermediate keys are grouped, these can be used in conjunction to simulate secondary sort on values
+d) All of the mentioned
+d
+3. ______________ is method to copy byte from input stream to any other stream in Hadoop.
+a) IOUtils
+b) Utils
+c) IUtils
+d) All of the mentioned
+a
+4. _____________ is used to read data from bytes buffers.
+a) write()
+b) read()
+c) readwrite()
+d) all of the mentioned
+a
+5. Point out the wrong statement.
+a) The framework calls reduce method for each <key, (list of values)> pair in the grouped inputs
+b) The output of the Reducer is re-sorted
+c) reduce method reduces values for a given key
+d) None of the mentioned
+b
+6. Interface  ____________ reduces a set of intermediate values which share a key to a smaller set of values.
+a) Mapper
+b) Reducer
+c) Writable
+d) Readable
+b
+7. Reducer is input the grouped output of a ____________
+a) Mapper
+b) Reducer
+c) Writable
+d) Readable
+a
+8. The output of the reduce task is typically written to the FileSystem via ____________
+a) OutputCollector
+b) InputCollector
+c) OutputCollect
+d) All of the mentioned
+a
+9. Applications can use the _________ provided to report progress or just indicate that they are alive.
+a) Collector
+b) Reporter
+c) Dashboard
+d) None of the mentioned
+b
+10. Which of the following parameter is to collect keys and combined values?
+a) key
+b) values
+c) reporter
+d) output
+d
+Sanfoundry Global Education & Learning Series – Hadoop.
+Here’s the list of Best Reference Books in Hadoop.
+To practice all areas of Hadoop, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Hadoop Questions and Answers – Introduction to HDFS» Next - Hadoop Questions and Answers – Data Flow 

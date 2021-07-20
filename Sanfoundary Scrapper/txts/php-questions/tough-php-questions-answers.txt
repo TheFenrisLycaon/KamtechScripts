@@ -1,0 +1,89 @@
+1. What will be the output of the following PHP code?
+<?php $age = array("Harry" => "21", "Ron" => "23","Malfoy" => "21"); array_pop($age); print_r(array_change_key_case($age, CASE_UPPER));?>
+a) Array ( [Harry] => 21 [Ron] => 23 [Malfoy] => 21 )
+b) Array ( [HARRY] => 21 [RON] => 23 [MALFOY] => 21 )
+c) Array ( [HARRY] => 21 [RON] => 23 )
+d) Array ( [Harry] => 21 [Ron] => 23 )
+c
+2. What will be the output of the following PHP code?
+<?php$a1 = array("a" => "red", "b" => "green", "c" => "blue", "d" => "yellow");$result = array_flip($a1);print_r($result);?>
+a) Array ( [red] => red [green] => green [blue] => blue [yellow] => yellow )
+b) Array ( [a] => a [b] => b [c] => c [d] => d )
+c) Array ( [red] => a [green] => b [blue] => c [yellow] => d )
+d) Array ( [a] => red [b] => green [c] => blue [d] => yellow )
+c
+3. What will be the output of the following PHP code?
+<?php$a1 = array("a" => "red", "b" => "green", "c" => "blue", "d" => "yellow");$a2 = array("e" => "red","f" => "green", "g" => "blue");$result = array_intersect($a1, $a2);print_r($result);?>
+a) Array ( [a] => red [b] => green [c] => blue )
+b) Array ( [a] => red [b] => green [c] => blue [d] => yellow )
+c) Array ( [e] => red [f] => green [g] => blue )
+d) Array ( [a] => red [b] => green [c] => blue [d] => yellow [e] => red [f] => green [g] => blue )
+a
+4. What will be the output of the following PHP code?
+<?php$a = array(12, 5, 2);echo(array_product($a));?>
+a) 024
+b) 120
+c) 010
+d) 060
+b
+5. What will be the output of the following PHP code?
+<?php$a = array("a" => "Jaguar", "b" => "Land Rover", "c" => "Audi", "d" => "Maseratti");echo array_search("Audi", $a);?>
+a) a
+b) b
+c) c
+d) d
+c
+6. What will be the output of the following PHP code?
+<?php$city_west = array("NYC", "London");$city_east = array("Mumbai", "Beijing");print_r(array_replace($city_west, $city_east));?>
+a) Array ( [1] => Mumbai [0] => Beijing )
+b) Array ( [0] => NYC [1] => London )
+c) Array ( [1] => NYC [0] => London )
+d) Array ( [0] => Mumbai [1] => Beijing )
+d
+7. What will be the output of the following PHP code?
+<?php$people = array("Peter", "Susan", "Edmund", "Lucy");echo pos($people);?>
+a) Lucy
+b) Peter
+c) Susan
+d) Edmund
+b
+8. What will be the output of the following PHP code?
+<?php$number = range(0, 5);print_r ($number);?>
+a) Array ( [0] => 0 [1] => 1 [2] => 2 [3] => 3 [4] => 4 [5] => 5 )
+b) Array ( [0] => 0 [1] => 0 [2] => 0 [3] => 0 [4] => 0 [5] => 0 )
+c) Array ( [0] => 5 [1] => 5 [2] => 5 [3] => 5 [4] => 5 [5] => 5 )
+d) Array ( [0] => 0 [5] => 5 )
+a
+9. What will be the output of the following PHP code?
+<?php$array = array("red", "green");array_push($array, "blue", "yellow");print_r($array);?>
+a) Array ( [0] => red [1] => green [2] => blue [3] => yellow )
+b) Array ( [0] => blue [1] => yellow [2] => red [3] => green )
+c) Array ( [0] => red [1] => green )
+d) Array ( [0] => blue [1] => yellow )
+a
+10. What will be the output of the following PHP code?
+<?php$age = array("Harry" => "21", "Ron" => "19", "Malfoy" => "23");ksort($age);foreach($age as $x => $x_value){    echo "Key=" . $x . ", Value=" . $x_value;    echo "<br>";}?>
+a)
+  Key = Harry, Value = 21
+  Key = Ron, Value = 21
+  Key = Malfoy, Value = 23
+b)
+  Key = Harry, Value = 21
+  Key = Ron, Value = 19
+  Key = Malfoy, Value = 23
+c)
+  Key = Harry, Value = 21
+  Key = Malfoy, Value = 23
+  Key = Ron, Value = 19
+d)
+  Key = Ron, Value = 19
+  Key = Harry, Value = 21
+  Key = Malfoy, Value = 23
+c
+  
+Sanfoundry Global Education & Learning Series – PHP Programming.
+To practice all tough questions on PHP, here is complete set of 1000+ Multiple Choice Questions and Answers on PHP.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - PHP Coding Questions and Answers – Arrays – 2» Next - PHP Coding Questions and Answers – Arrays – 4 

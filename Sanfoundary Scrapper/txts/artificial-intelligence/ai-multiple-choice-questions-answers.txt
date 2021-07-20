@@ -1,0 +1,66 @@
+1. Why is the XOR problem exceptionally interesting to neural network researchers?
+a) Because it can be expressed in a way that allows you to use a neural network
+b) Because it is complex binary operation that cannot be solved using neural networks
+c) Because it can be solved by a single layer perceptron
+d) Because it  is the simplest linearly inseparable problem that exists.
+d
+2. What is back propagation?
+a) It is another name given to the curvy function in the perceptron
+b) It is the transmission of error back through the network to adjust the inputs
+c) It is the transmission of error back through the network to allow weights to be adjusted so that the network can learn
+d) None of the mentioned
+c
+3. Why are linearly separable problems of interest of neural network researchers?
+a) Because they are the only class of problem that network can solve successfully
+b) Because they are the only class of problem that Perceptron can solve successfully
+c) Because they are the only mathematical functions that are continue
+d) Because they are the only mathematical functions you can draw
+b
+4. Which of the following is not the promise of artificial neural network?
+a) It can explain result
+b) It can survive the failure of some nodes
+c) It has inherent parallelism
+d) It can handle noise
+a
+5. Neural Networks are complex ______________ with many parameters.
+a) Linear Functions
+b) Nonlinear Functions
+c) Discrete Functions
+d) Exponential Functions
+a
+6. A perceptron adds up all the weighted inputs it receives, and if it exceeds a certain value, it outputs a 1, otherwise it just outputs a 0.
+a) True
+b) False
+c) Sometimes – it can also output intermediate values as well
+d) Can’t say
+a
+7. What is the name of the function in the following statement “A perceptron adds up all the weighted inputs it receives, and if it exceeds a certain value, it outputs a 1, otherwise it just outputs a 0”?
+a) Step function
+b) Heaviside function
+c) Logistic function
+d) Perceptron function
+b
+8. Having multiple perceptrons can actually solve the XOR problem satisfactorily: this is because each perceptron can partition off a linear part of the space itself, and they can then combine their results.
+a) True – this works always, and these multiple perceptrons learn to classify even complex problems
+b) False – perceptrons are mathematically incapable of solving linearly inseparable functions, no matter what you do
+c) True – perceptrons can do this but are unable to learn to do it – they have to be explicitly hand-coded
+d) False – just having a single perceptron is enough
+c
+9. The network that involves backward links from output to the input and hidden layers is called _________
+a) Self organizing maps
+b) Perceptrons
+c) Recurrent neural network
+d) Multi layered perceptron
+c
+10. Which of the following is an application of NN (Neural Network)?
+a) Sales forecasting
+b) Data validation
+c) Risk management
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Artificial Intelligence. 
+To practice all areas of AI, here is complete set of 1000+ Multiple Choice Questions and Answers on Artificial Intelligence.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Artificial Intelligence Questions and Answers – Neural Networks – 1» Next - Artificial Intelligence Questions and Answers – Decision Trees 

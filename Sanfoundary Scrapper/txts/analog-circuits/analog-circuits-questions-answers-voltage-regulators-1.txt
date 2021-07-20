@@ -1,0 +1,84 @@
+1. What is IC 723?
+a) A voltage regulator
+b) A full-wave rectifier
+c) A half-wave rectifier
+d) A clipper
+a
+2. Consider the circuit shown below where the breakdown voltage of the diode is 5V. Source voltage varies between 6V to 12V.
+Find the maximum current through the R2, given that R1=2kΩ and R2=5kΩ.
+a) 3.5 mA
+b) 1 mA
+c) 1.4mA
+d) 0.2 mA
+c
+Thus here I is maximum when VS is maximum.
+I = 12-5/5000 = 1.4 mA.
+3. For a Zener diode shunt regulator, the source current is IS, the Zener diode current is IZ and the load current is IL. The source voltage is VS, Zener voltage is VZ and load voltage is VL. The load resistance is RL. What is the correct option for the safe operation of the diode?
+a) IS = IZ + IL
+b) IS =< IZmax + IL
+c) IS =< IZmin + IL
+d) VL = VZ
+b
+For safe operation of the diode, IS =< IZmax + IL.
+4. What is line regulation?
+a) The process of keeping Zener diode voltage constant inspite of changes in AC supply
+b) The process of keeping load voltage constant irrespective of the fluctuation in AC supply or the line voltage
+c) The process of keeping load voltage constant irrespective of fluctuation in load current
+d) The process of keeping Zener current constant irrespective of fluctuation in AC supply
+b
+Join Sanfoundry@YouTube
+5. What is load regulation?
+a) The process of keeping the load voltage constant irrespective of any change in AC supply
+b) The process of keeping the load voltage constant irrespective of variations in load current
+c) The process of keeping load voltage constant irrespective of variations in source current
+d) The process of keeping load current constant irrespective of variations in AC supply
+b
+6. Find the power rating of the diode in the given circuit. The breakdown voltage of the diode is 5V.
+a) 200 mW
+b) 125 mW
+c) 250 mW
+d) 300 mW
+c
+The power rating of the diode is the maximum power it can dissipate which occurs when the load is disconnected because then the whole current flows into the diode.
+Hence maximum power rating is P = VZxIZ = 5×50 = 250 mW.
+7. The following circuit is provided.
+Given that V1 varies from 20V to 50V, the diode breakdown voltage is 5V, the knee current is 1mA and the current is 9 mA across R1, find the maximum value of R2.
+a) 4500Ω
+b) 1500Ω
+c) 2000Ω
+d) 5000Ω
+b
+IS >= 10mA
+V1-5/R2 >= 10mA
+R2 =< V1-5/10-2
+Thus R2 =< 1500Ω when V1 = 20V
+And R2 =< 4500Ω when V1 = 50V
+Hence R2 =< 1500Ω.
+8. In the figure below, the voltage V1 ranges from 15 to 35V. The load current is 20mA. The diode knee current is 2 mA, the breakdown voltage is 5V and power rating is 200 mW.
+Calculate the range of R2 for the circuit to behave properly as a regulator.
+a) 400Ω =< R2 =< 500Ω
+b) 450Ω =< R2 =< 500Ω
+c) 454Ω =< R2 =< 500Ω
+d) 454Ω =< R2 =< 600Ω
+c
+IS >= 22mA
+IZmax = 200mW/5 = 40 mA.
+V1 is minimum, IS >= IZmin + IL
+V1-5/R2 >= 22mA
+R2 <= 454 Ω
+IS =< IZmax + IL when VS is maximum
+V1-5/R2 =< 60mA
+R2 >= 500 Ω
+Hence 454Ω =< R2 =< 500Ω.
+9. Which of these is a not drawback of Zener diode shunt regulator?
+a) The output voltage is fixed
+b) The output voltage can vary with temperature
+c) Variation in load current needs to be minimal
+d) It is difficult to design
+d
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Electronic Circuits Questions and Answers – BJT DC biasing – Fixed Bias and Emitter Bias» Next - Analog Circuits Questions and Answers – Voltage Regulators – 2 

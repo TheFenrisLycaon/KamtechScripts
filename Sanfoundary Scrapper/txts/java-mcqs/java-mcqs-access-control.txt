@@ -1,0 +1,75 @@
+1. Which of these access specifiers must be used for main() method?
+a) private
+b) public
+c) protected
+d) none of the mentioned
+b
+2. Which of these is used to access a member of class before object of that class is created?
+a) public
+b) private
+c) static
+d) protected
+c
+3. Which of these is used as a default for a member of a class if no access specifier is used for it?
+a) private
+b) public
+c) public, within its own package
+d) protected
+a
+4. What is the process by which we can control what parts of a program can access the members of a class?
+a) Polymorphism
+b) Abstraction
+c) Encapsulation
+d) Recursion
+c
+5. Which of the following statements are incorrect?
+a) public members of class can be accessed by any code in the program
+b) private members of class can only be accessed by other members of the class
+c) private members of class can be inherited by a subclass, and become protected members in subclass
+d) protected members of a class can be inherited by a subclass, and become private members of the subclass
+c
+6. What will be the output of the following Java code?
+    class access    {        public int x; 	private int y;        void cal(int a, int b)        {            x =  a + 1;            y =  b;        }            }        public class access_specifier     {        public static void main(String args[])        {            access obj = new access();               obj.cal(2, 3);            System.out.println(obj.x + " " + obj.y);             }   }
+a) 3 3
+b) 2 3
+c) Runtime Error
+d) Compilation Error
+c
+output:
+$ javac access_specifier.java
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	The field access.y is not visible
+7. What will be the output of the following Java code?
+    class access    {        public int x; 	private int y;        void cal(int a, int b)        {            x =  a + 1;            y =  b;        }           void print()         {            System.out.println(" " + y);             }     }       public class access_specifier     {        public static void main(String args[])        {            access obj = new access();               obj.cal(2, 3);            System.out.println(obj.x);            obj.print();             }   }
+a) 2 3
+b) 3 3
+c) Runtime Error
+d) Compilation Error
+b
+output:
+$ javac access_specifier.java
+$ java access_specifier 
+3 3
+8. What will be the output of the following Java code?
+    class static_out     {        static int x; 	static int y;        void add(int a, int b)        {            x = a + b;            y = x + b;        }    }        public class static_use     {        public static void main(String args[])        {            static_out obj1 = new static_out();            static_out obj2 = new static_out();               int a = 2;            obj1.add(a, a + 1);            obj2.add(5, a);            System.out.println(obj1.x + " " + obj2.y);             }   }
+a) 7 7.4
+b) 6 6.4
+c) 7 9
+d) 9 7
+c
+output:
+$ javac static_use.java
+$ java static_use
+7 9
+9. Which of these access specifier must be used for class so that it can be inherited by another subclass?
+a) public
+b) private
+c) protected
+d) none of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Overloading Methods & Argument Passing» Next - Java Questions & Answers – Access Control – 2 

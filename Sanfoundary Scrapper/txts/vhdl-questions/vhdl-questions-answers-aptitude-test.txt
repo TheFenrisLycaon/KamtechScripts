@@ -1,0 +1,95 @@
+1. Which of the following is not similar in both functions as well as procedures?
+a) One can’t declare signals in functions as well as procedures
+b) One can’t declare components in functions and procedures
+c) In both, the WAIT statement is not synthesizable
+d) Both can be declared inside a package
+a
+2. The mode and class of the following parameters are respectively ________
+my_procedure( SIGNAL a : IN INTEGER; b : OUT INTEGER; c : BIT);
+a) IN, SIGNAL; OUT, SIGNAL; IN, CONSTANT
+b) IN, SIGNAL; OUT, CONSTANT; IN, VARIABLE
+c) IN, SIGNAL; OUT, VARIABLE; IN, CONSTANT
+d) IN, SIGNAL; OUT, CONSTANT; OUT, CONSTANT
+c
+3. Which of the following is true about both functions and procedures?
+a) WAIT statement can’t be used
+b) When declared in a package, both require package body
+c) SIGNALs can’t be declared
+d) RETURN is used in both
+b
+4. A user is encountering some error with his design, among which of the following the debugging must be easy?
+a) In a code containing no functions or procedures
+b) In a code containing functions but no procedures
+c) In a code containing procedures but no functions
+d) In a code containing both functions as well as procedures
+b
+5. A procedure is called concurrently. It will execute when ________
+a) Any of its parameters change
+b) Any of its OUT parameters change
+c) Any of its IN parameters change
+d) Any of its IN or INOUT parameter change
+d
+6. In which of the following cases, the procedure can’t contain WAIT statement?
+a) When called from inside a process
+b) When called from inside a process with a sensitivity list
+c) When called from architecture
+d) When called from a LOOP statement
+b
+7. A procedure can have a label in front of it.
+a) True
+b) False
+a
+8. In which of the following case, the code will not be synthesizable?
+a) Code containing a WAIT statement inside a process
+b) Code containing a WAIT statement inside a procedure
+c) Code containing a RETURN statement inside a function
+d) Code containing a CASE statement inside a function
+b
+9. Which of the following may be specified by the code given?
+TYPE op_code is ( ADD, SUB, MUL, DIV, LT, LE, EQ );
+PROCEDURE first_unit ( A, B : in integer; op : in op_code;
+Z : out integer; ZCOMP : out boolean ) is
+BEGIN
+CASE op IS
+WHEN ADD =&gt; Z := A + B;
+WHEN SUB =&gt; Z := A - B;
+WHEN MUL =&gt; Z := A * B;
+WHEN DIV =&gt; Z := A / B;
+WHEN LT =&gt; ZCOMP := A < B;
+WHEN LE =&gt; ZCOMP := A <= B;
+WHEN EQ =&gt; ZCOMP := A = B;
+WHEN others =&gt; Z := Z;
+END case;
+END first_unit;
+a) CPU
+b) CU
+c) ALU
+d) Memory
+c
+10. How many types of the output are returned by the code given?
+TYPE op_code is ( ADD, SUB, MUL, DIV, LT, LE, EQ );
+PROCEDURE first_unit ( A, B : in integer; op : in op_code;
+Z : out integer; ZCOMP : out boolean ) is
+BEGIN
+CASE op IS
+WHEN ADD =&gt; Z := A + B;
+WHEN SUB =&gt; Z := A - B;
+WHEN MUL =&gt; Z := A * B;
+WHEN DIV =&gt; Z := A / B;
+WHEN LT =&gt; ZCOMP := A < B;
+WHEN LE =&gt; ZCOMP := A <= B;
+WHEN EQ =&gt; ZCOMP := A = B;
+WHEN others =&gt; Z := Z;
+END case;
+END first_unit;
+a) 0
+b) 1
+c) 2
+d) 3
+c
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL for Aptitude test, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Procedures – 1» Next - VHDL Questions and Answers – Attributes 

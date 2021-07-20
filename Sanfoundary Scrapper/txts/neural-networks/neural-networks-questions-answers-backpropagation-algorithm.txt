@@ -1,0 +1,62 @@
+1. What is the objective of backpropagation algorithm?
+a) to develop learning algorithm for multilayer feedforward neural network
+b) to develop learning algorithm for single layer feedforward neural network
+c) to develop learning algorithm for multilayer feedforward neural network, so that network can be trained to capture the mapping implicitly
+d) none of the mentioned
+c
+2. The backpropagation law is also known as generalized delta rule, is it true?
+a) yes
+b) no
+a
+3. What is true regarding backpropagation rule?
+a) it is also called generalized delta rule
+b) error in output is propagated backwards only to determine weight updates
+c) there is no feedback of signal at nay stage
+d) all of the mentioned
+d
+4. There is feedback in final stage of backpropagation algorithm?
+a) yes
+b) no
+b
+5. What is true regarding backpropagation rule?
+a) it is a feedback neural network
+b) actual output is determined by computing the outputs of units for each hidden layer
+c) hidden layers output is not all important, they are only meant for supporting input and output layers
+d) none of the mentioned
+b
+6. What is meant by generalized in statement “backpropagation is a generalized delta rule” ?
+a) because delta rule can be extended to hidden layer units
+b) because delta is applied to only input and output layers, thus making it more simple and generalized
+c) it has no significance
+d) none of the mentioned
+a
+7. What are general limitations of back propagation rule?
+a) local minima problem
+b) slow convergence
+c) scaling
+d) all of the mentioned
+d
+8. What are the general tasks that are performed with backpropagation algorithm?
+a) pattern mapping
+b) function approximation
+c) prediction
+d) all of the mentioned
+d
+9. Does backpropagaion learning is based on gradient descent along error surface?
+a) yes
+b) no
+c) cannot be said
+d) it depends on gradient descent but not error surface
+a
+10. How can learning process be stopped in backpropagation rule?
+a) there is convergence involved
+b) no heuristic criteria exist
+c) on basis of average gradient value
+d) none of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Neural Networks.
+To practice all areas of Neural Networks, here is complete set on 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Neural Network Questions and Answers – Pattern Recognition» Next - Neural Network Questions and Answers – Analysis of Pattern Storage 

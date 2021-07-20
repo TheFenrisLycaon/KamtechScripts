@@ -1,0 +1,73 @@
+1. What is the use of “VIEW” in Mysql?
+a) To hide columns from the users
+b) To hide the complexity of the database
+c) To simplify complexity of database design
+d) All of the mentioned
+d
+2. Is there any error in the following MySQL statement?
+SELECT e.emp_id, e.fname,e.lname,d.name
+FROM employee e INNER JOIN department d
+ON e.dept_id=e.dept_id;
+a) NO
+b) YES
+c) DEPEND
+d) None of the mentioned
+a
+3. Is there any error in the following MySQL statement?
+Join Sanfoundry@YouTube
+SELECT e.emp_id, e.fname,e.lname,d.name
+FROM employee AS e INNER JOIN department AS d
+ON e.dept_id=e.dept_id;
+a) NO
+b) YES
+c) DEPEND
+d) None of the mentioned
+a
+4. What will be the output of the following MySQL statement “true AND Null”?
+a) True
+b) Null
+c) Depend
+d) None of the mentioned
+b
+5. What will be the output of the following MySQL statement “false AND Null”?
+a) False
+b) Null
+c) Depend
+d) None of the mentioned
+b
+6. What will be the output of the following MySQL statement “Null AND Null”?
+a) True
+b) Null
+c) False
+d) None of the mentioned
+b
+7. What will be the output of the following MySQL statement “true OR Null”?
+a) True
+b) Null
+c) False
+d) None of the mentioned
+a
+8. What will be the output of the following MySQL statement “false OR Null”?
+a) True
+b) Null
+c) False
+d) None of the mentioned
+b
+9. What will be the output of the following MySQL statement “Null OR Null”?
+a) True
+b) Null
+c) False
+d) None of the mentioned
+b
+10. What will be the output of the following MySQL statement “NOT (Null)”?
+a) True
+b) Null
+c) False
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – The from Clauses – 1» Next - MySQL Questions and Answers – The Where Clauses 

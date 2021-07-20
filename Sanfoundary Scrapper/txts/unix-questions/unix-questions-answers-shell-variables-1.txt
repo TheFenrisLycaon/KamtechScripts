@@ -1,0 +1,108 @@
+1. The UNIX shell is both _______ and _______ language.
+a) interactive, responsive
+b) interpreter, executing
+c) scripting, interpreter
+d) high level, low level
+c
+2. Which of the following function(s) are performed by an interactive shell?
+a) job control
+b) history
+c) aliases
+d) job control, history, aliases
+d
+3. Every feature used in an interactive shell can also be used by a shell script.
+a) True
+b) False
+b
+4. Which one of the following is arguably the best shell to use?
+a) Bash
+b) Korn
+c) C
+d) Bourne
+a
+5. Which one of the following command is used to create a child shell?
+a) fork
+b) wait
+c) sh
+d) env
+c
+6. Shell variables are of ____ types.
+a) 1
+b) 3
+c) 2
+d) 4
+c
+7. Suppose ABD_DIR is a local variable. Then it will be accessible to the child process.
+a) True
+b) False
+b
+$ ABD_DIR=/home/users/abd/doc       // local variable in parent process
+$echo ABD_DIR
+home/users/abd/doc
+$ sh                              // create a child shell
+$echo ABD_DIR
+_                                // variable not available in child shell
+8. ____ command is used to display the environment variables only.
+a) set
+b) env
+c) sh
+d) var
+b
+$ env
+HOME=/home/abd
+LOGNAME=abd
+MAIL=/var/mail/kumar
+SHELL=/usr/bin/bash
+TERM=xterm
+9. ____ command displays all the variables available in the current shell.
+a) env
+b) set
+c) var
+d) sh
+b
+10. Environment variable names can be defined only in uppercase.
+a) True
+b) False
+b
+11. Environment variables control the behavior of the system.
+a) True
+b) False
+a
+12. The shell has ____ prompts.
+a) 1
+b) 4
+c) many
+d) 2
+d
+13. Which one of the following command will change our primary prompt from $ to C>?
+a) PS1=”C> “
+b) PS2=”C>”
+c) PS1=”>C”
+d) PS2=”<C”
+a
+$ PS1=”C>”
+C&gt;        // new prompt
+14. Which environment variable is used to display our username?
+a) PATH
+b) MAIL
+c) LOGNAME
+d) HOME
+c
+$ echo $LOGNAME    
+Abd                // username
+15. Which one of the following is not an environment variable?
+a) HOME
+b) PATH
+c) USER
+d) env
+d
+VARIABLES    SIGNIFICANCE
+HOME-         home directory, the directory where a user is placed on logging in
+USER-         login name of user
+PATH-         list of directories searched by shell to locate the command
+Sanfoundry Global Education & Learning Series – Unix.
+To practice all areas of Unix, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Unix Questions and Answers  – Process Management – 2» Next - Unix Questions and Answers – Shell Variables – 2 

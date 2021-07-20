@@ -1,0 +1,96 @@
+1. What is the output of relational operators?
+a) Integer
+b) Boolean
+c) Characters
+d) Double
+b
+2. Which of these is returned by “greater than”, “less than” and “equal to”  operators?
+a) Integers
+b) Floating – point numbers
+c) Boolean
+d) None of the mentioned
+c
+3. Which of the following operators can operate on a boolean variable?
+   1. &&
+   2. ==
+   3. ?:
+   4. +=
+a) 3 & 2
+b) 1 & 4
+c) 1, 2 & 4
+d) 1, 2 & 3
+d
+4. Which of these operators can skip evaluating right hand operand?
+a) !
+b) |
+c) &
+d) &&
+d
+5. Which of these statements is correct?
+a) true and false are numeric values 1 and 0
+b) true and false are numeric values 0 and 1
+c) true is any non zero value and false is 0
+d) true and false are non numeric values
+d
+Join Sanfoundry@YouTube
+6. What will be the output of the following Java code?
+    class Relational_operator     {        public static void main(String args[])        {            int var1 = 5;             int var2 = 6;            System.out.print(var1 > var2);        }     }
+a) 1
+b) 0
+c) true
+d) false
+d
+output:
+$ javac Relational_operator.java
+$ java Relational_operator
+false
+7. What will be the output of the following Java code?
+    class bool_operator     {        public static void main(String args[])         {                 boolean a = true;             boolean b = !true;             boolean c = a | b; 	     boolean d = a & b;             boolean e = d ? b : c;             System.out.println(d + " " + e);        }     }
+a) false false
+b) true ture
+c) true false
+d) false true
+d
+output:
+$ javac bool_operator.java
+$ java bool_operator
+false true
+8. What will be the output of the following Java code?
+    class ternary_operator     {        public static void main(String args[])         {                     int x = 3;             int y = ~ x;             int z;             z = x > y ? x : y;             System.out.print(z);        }     }
+a) 0
+b) 1
+c) 3
+d) -4
+c
+output:
+$ javac ternary_operator.java
+$ java ternary_operator
+3
+9. What will be the output of the following Java code?
+    class Output     {        public static void main(String args[])         {                 int x , y = 1;             x = 10;             if (x != 10 && x / 0 == 0)                 System.out.println(y);             else                 System.out.println(++y);        }     }
+a) 1
+b) 2
+c) Runtime error owing to division by zero in if condition
+d) Unpredictable behavior of program
+b
+output:
+$ javac Output.java
+$ java Output
+2
+10. What will be the output of the following Java code?
+    class Output     {        public static void main(String args[])         {                 boolean a = true;             boolean b = false;             boolean c = a ^ b;             System.out.println(!c);        }     }
+a) 0
+b) 1
+c) false
+d) true
+c
+output:
+$ javac Output.java
+$ java Output
+false
+Sanfoundry Global Education & Learning Series – Java Programming Language.
+Java Practice ResourcesJava Mock Tests & Certification Test | 1000 Java MCQs | 1000 Java Programs | 1000 Java Algorithms | Best Java Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Java Questions & Answers – Bitwise Operators» Next - Java Questions & Answers – Assignment Operators and Operator Precedence 

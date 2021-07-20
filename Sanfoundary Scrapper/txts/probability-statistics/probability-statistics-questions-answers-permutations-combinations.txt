@@ -1,0 +1,92 @@
+1. If 16Pr-1 : 15Pr-1 = 16 : 7 then find r.
+a) 10
+b) 12
+c) 7
+d) 8
+a
+Hence \(^{16}P_{r-1} : \, ^{15}P_{r-1} = 16 : 7 \) 
+\([\frac{16!}{16-(r-1)!}] ÷ [\frac{15!}{15-(r-1)}] = 16 ÷ 7 \) 
+16 ÷ (17 – r) = 16 ÷ 7
+17 – r = 7
+Hence r = 10. 
+2. In a colony, there are 55 members. Every member posts a greeting card to all the members. How many greeting cards were posted by them?
+a) 990
+b) 890
+c) 2970
+d) 1980
+c
+54 + 54 + 54 …
+54 (55times) = 54 x 55 = 2970. 
+3. Find the number of ways of arranging the letters of the words DANGER, so that no vowel occupies odd place.
+a) 36
+b) 48
+c) 144
+d) 96
+c
+4. Find the sum of all four digit numbers that can be formed by the digits 1, 3, 5, 7, 9 without repetition.
+a) 666700
+b) 666600
+c) 678860
+d) 665500
+b
+Sum of r digit number= n-1Pr-1
+(Sum of all n digits)×(1111… r times)
+N is the number of non zero digits.
+Here n=5, r=4
+The sum of 4 digit numbers
+4P3 (1+3+5+7+9)(1111)=666600. 
+5. If nPr = 3024 and nCr = 126 then find n and r.
+a) 9, 4
+b) 10, 3
+c) 12, 4
+d) 11, 4
+a
+\(^nP_r = \frac{n!}{(n-r)!} \) 
+\(^nC_r = \frac{n!}{(n-r)!×r!} \) 
+Hence \( [\frac{n!}{(n-r)!}]÷[\frac{n!}{(n-r)!×r!}] \) = 24
+24 = r!
+Hence r = 4
+Now nP4 = 3024
+\(\frac{n!}{(n-4)!} = 3024 \) 
+n(n-1)(n-2)(n-3) = 9.8.7.6
+n = 9. 
+6. Find the number of rectangles and squares in an 8 by 8 chess board respectively.
+a) 296, 204
+b) 1092, 204
+c) 204, 1092
+d) 204, 1296
+b
+Number of squares on chess board = 12+22…..82 = 204
+Only rectangles = 1296-204 = 1092. 
+7. There are 20 points in a plane, how many triangles can be formed by these points if 5 are colinear?
+a) 1130
+b) 550
+c) 1129
+d) 1140
+a
+Number of colinear points m = 5.
+Number of triangles from by joining n points of which m are colinear = nC3 – mC3
+Therefore the number of triangles = 20C3 – 5C3 = 1140-10 = 1130. 
+8. In how many ways can we select 6 people out of 10, of which a particular person is not included?
+a) 10C3
+b) 9C5
+c) 9C6
+d) 9C4
+c
+9. Number of circular permutations of different things taken all at a time is n!.
+a) True
+b) False
+b
+10. Is the given statement true or false?
+nCr= nCn-r
+a) True
+b) False
+a
+As \(^nC_r = \frac{n!}{(n-r)!×r!} \) 
+\(^nC_{n-r} = \frac{n!}{r!×(n-r)!} = ^nC_r. \)
+Sanfoundry Global Education & Learning Series – Probability and Statistics.
+To practice all areas of Probability and Statistics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Probability and Statistics Questions and Answers – Baye’s Theorem» Next - Probability and Statistics Questions and Answers – Random Variables 

@@ -1,0 +1,67 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Citrix and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Citrix interviews on C Programming language. 
+Here is a listing of C interview questions on “Pointers and Function Arguments”:
+1. Which of the following can never be sent by call-by-value?
+a) Variable
+b) Array
+c) Structures
+d) Both Array and Structures
+b
+2. Which type of variables can have the same name in a different function?
+a) Global variables
+b) Static variables
+c) Function arguments
+d) Both static variables and Function arguments
+d
+3. Arguments that take input by user before running a program are called?
+a) Main function arguments
+b) Main arguments
+c) Command-Line arguments
+d) Parameterized arguments
+c
+4. What is the maximum number of arguments that can be passed in a single function?
+a) 127
+b) 253
+c) 361
+d) No limits in number of arguments
+b
+5. What will be the output of the following C code?
+    #include <stdio.h>    void m(int *p, int *q)    {        int temp = *p; *p = *q; *q = temp;    }    void main()    {        int a = 6, b = 5;        m(&a, &b);        printf("%d %d\n", a, b);    }
+a) 5 6
+b) 6 5
+c) 5 5
+d) 6 6
+a
+6. What will be the output of the following C code?
+    #include <stdio.h>    void m(int *p)    {        int i = 0;        for(i = 0;i < 5; i++)        printf("%d\t", p[i]);    }    void main()    {        int a[5] = {6, 5, 3};        m(&a);    }
+a) 0 0 0 0 0
+b) 6 5 3 0 0
+c) Run time error
+d) 6 5 3 junk junk
+b
+7. What will be the output of the following C code?
+    #include <stdio.h>    void m(int p, int q)    {        int temp = p;        p = q;        q = temp;    }    void main()    {        int a = 6, b = 5;        m(a, b);        printf("%d %d\n", a, b);    }
+a) 5 6
+b) 5 5
+c) 6 5
+d) 6 6
+c
+8. What will be the output of the following C code?
+    #include <stdio.h>    void m(int p, int q)    {        printf("%d %d\n", p, q);    }    void main()    {        int a = 6, b = 5;        m(a);    }
+a) 6
+b) 6 5
+c) 6 junk value
+d) Compile time error
+d
+9. What will be the output of the following C code?
+    #include <stdio.h>    void m(int p)    {        printf("%d\n", p);    }    void main()    {        int a = 6, b = 5;        m(a, b);        printf("%d %d\n", a, b);    }
+a) 6
+b) 6 5
+c) 6 junk value
+d) Compile time error
+d
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Pointers and Function Arguments – 1» Next - C Programming Questions and Answers – Pointers and Arrays – 1 

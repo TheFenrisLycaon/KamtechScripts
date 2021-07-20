@@ -1,0 +1,66 @@
+1. The private work space dedicated to a subroutine is called as ________
+a) System heap
+b) Reserve
+c) Stack frame
+d) Allocation
+c
+2. If the subroutine exceeds the private space allocated to it then the values are pushed onto _________
+a) Stack
+b) System heap
+c) Reserve Space
+d) Stack frame
+a
+3. ______ pointer is used to point to parameters passed or local parameters of the subroutine.
+a) Stack pointer
+b) Frame pointer
+c) Parameter register
+d) Log register
+b
+4. The reserved memory or private space of the subroutine gets deallocated when _______
+a) The stop instruction is executed by the routine
+b) The pointer reaches the end of the space
+c) When the routine’s return statement is executed
+d) None of the mentioned
+c
+5. The private space gets allocated to each subroutine when _________
+a) The first statement of the routine is executed
+b) When the context switch takes place
+c) When the routine gets called
+d) When the Allocate instruction is executed
+c
+6. _____ the most suitable data structure used to store the return addresses in the case of nested subroutines.
+a) Heap
+b) Stack
+c) Queue
+d) List
+b
+7. In the case of nested subroutines, the stack top is always _________
+a) The saved contents of the called sub routine
+b) The saved contents of the calling sub routine
+c) The return addresses of the called sub routine
+d) None of the mentioned
+a
+8. The stack frame for each subroutine is present in ______
+a) Main memory
+b) System Heap
+c) Processor Stack
+d) None of the mentioned
+c
+9. The data structure suitable for scheduling processes is _______
+a) List
+b) Heap
+c) Queue
+d) Stack
+c
+10. The sub-routine service procedure is similar to that of the interrupt service routine in ________
+a) Method of context switch
+b) Returning
+c) Process execution
+d) Method of context switch & Process execution
+d
+Sanfoundry Global Education & Learning Series – Computer Organization and Architecture.
+To practice all areas of Computer Organization for Entrance exams, here is complete set on 1000+ Multiple Choice Questions and Answers on Computer Organization and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Organization Questions and Answers – Subroutines and Nesting» Next - Computer Organization Questions and Answers – Accessing I/O Devices 

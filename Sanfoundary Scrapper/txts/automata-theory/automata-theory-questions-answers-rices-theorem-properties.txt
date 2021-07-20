@@ -1,0 +1,66 @@
+1. According to the rice’s theorem, If P is a non trivial property, Lp is :
+a) infinite
+b) decidable
+c) undecidable
+d) none of the mentioned
+c
+2. Fill in the blank with reference to Rice’s theorem.
+For any non-trivial property of __________ no general or effective method can decide whether an algorithm computes it with that property.
+a) partial functions
+b) piecewise functions
+c) both (a) and (b)
+d) none of the mentioned
+a
+3. Which of the following is incorrect according to rice theorem?
+Let S be a set of language hat is non trivial:
+a) there exists a TM that recognizes the language in S
+b) there exists a TM that recognizes the language not in S
+c) both (a) and (b)
+d) none of the mentioned
+c
+4. Which of the following set of computable functions are decidable?
+a) The class of computable functions that are constant, and its complement
+b) The class of indices for computable functions that are total
+c) The class of indices for recursively enumerable sets that are cofinite
+d) All of the mentioned
+d
+5. Which of the following statements are undecidable?
+For a given Turing Machine M,
+a)  does M halt on an empty input tape
+b) does M halt for anly inputs at all?
+c) is L(M) regular? Context free? Turing decidable?
+d) all of the mentioned
+d
+6. Post Correspondence problem is
+a) decidable decision problem
+b) undecidable decision problem
+c) not a decision problem
+d) none of the mentioned
+b
+7. State true or false:
+Statement: The difference between PCP and MPCP is that in MPCP, a solution is required to start with the first string on each list.
+a) true
+b) false
+a
+8. PCP stands for?
+a) Post Correspondence Problem
+b) Post Corresponding Problem
+c) Pre Correspondence problem
+d) None of the mentioned
+a
+9. Can a Modified PCP problem be reduced to PCP?
+a) yes
+b) no
+a
+10. Consider three decision problem A, B, C. A is decidable and B is not. Which of the following is a correct option?
+a) C is undecidable if C is reducible to B
+b) C is undecidable if B is reducible to C
+c) C is decidable if A is reducible to C
+d) C is decidable if C is reducible to B’s complement.
+b
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  The Universal Language-Undecidability» Next - Automata Theory Questions and Answers –  Problem Solvable in Polynomial Time 

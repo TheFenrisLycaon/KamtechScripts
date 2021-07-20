@@ -1,0 +1,138 @@
+1. Which statements are correct regarding indexes?
+a) When a table is dropped, the corresponding indexes are automatically dropped
+b) For each DML operation performed, the corresponding indexes are automatically updated
+c) A non-deferrable PRIMARY KEY or UNIQUE KEY constraint in a table automatically creates a unique index
+d) All of the mentioned
+d
+2. You executed the following SQL statements in the given order:
+CREATE TABLE orders
+(order_id NUMBER(3) PRIMARY KEY,
+order_date DATE,
+customer_idnumber(3));
+ 
+INSERT INTO orders VALUES (100,'10-mar-2007,,222);
+ 
+ALTER TABLE orders MODIFY order_date NOT NULL;
+ 
+UPDATE orders SET customer_id=333;
+ 
+DELETE FROM order;
+The DELETE statement results in the following error:
+ERROR at line 1: table or view does not exist
+What would be the outcome?
+a) All the statements before the DELETE statement would be rolled back
+b) All the statements before the DELETE statement would be implicitly committed within the session
+c) All the statements up to the ALTER TABLE statement would be committed and the outcome of UPDATE statement would be rolled back
+d) All the statements up to the ALTER TABLE statement would be committed and the outcome of the UPDATE statement is retained uncommitted within the session
+d
+3. Evaluate the following statements:
+CREATE TABLE digits
+(id NUMBER(2),
+description VARCHAR2(15));
+INSERT INTO digits VALUES (1,'ONE);
+UPDATE digits SET description ='TWO'WHERE id=1;
+INSERT INTO digits VALUES (2 ,'TWO');
+COMMIT;
+DELETE FROM digits;
+SELECT description FROM digits
+VERSIONS BETWEEN TIMESTAMP MINVALUE AND MAXVALUE;
+What would be the outcome of the above query?
+a) It would not display any values
+b) It would display the value TWO once
+c) It would display the value TWO twice
+d) It would display the values ONE, TWO, and TWO
+c
+4. A non-correlated subquery can be defined as________
+a) A set of sequential queries, all of which must always return a single value
+b) A set of sequential queries, all of which must return values from the same table
+c) A SELECT statement that can be embedded in a clause of another SELECT statement only
+d) A set of one or more sequential queries in which generally the result of the inner query is used as the search value in the outer query
+d
+5. Which statement is true regarding synonyms?
+a) Synonyms can be created for tables but not views
+b) Synonyms are used to reference only those tables that are owned by another user
+c) A public synonym and a private synonym can exist with the same name for the same table
+d) The DROP SYNONYM statement removes the synonym, and the status of the table on which the synonym has been created becomes invalid
+c
+6.  SCOTT is a user in the database.
+Evaluate the commands issued BY the DBA:
+1 - CREATE ROLE mgr;
+2 - GRANT CREATE TABLE, SELECT
+ON oe. orders TO mgr;
+3 - GRANT mgr, CREATE TABLE TO SCOTT;
+Which statement is true regarding the execution of the above commands?
+a) Statement 1 would not execute because the WITH GRANT option is missing
+b) Statement 1 would not execute because the IDENTIFIED BY  clause is missing
+c) Statement 3 would not execute because role and system privileges cannot be granted together in a single GRANT statement
+d) Statement 2 would not execute because system privileges and object privileges cannot be granted together in a single GRANT command
+d
+7. OE and SCOTT are the users in the database. The ORDERS table is owned by OE. Evaluate the statements issued by the DBA in the following sequence:
+CREATE ROLE r1;
+GRANT SELECT, INSERT ON oe. orders TO r1;
+GRANT r1 TO scott;
+GRANT SELECT ON oe. orders TO scott;
+REVOKE SELECT ON oe.orders FROM scott;
+What would be the outcome after executing the statements?
+a) SCOTT would be able to query the OE.ORDERS table
+b) SCOTT would not be able to query the OE.ORDERS table
+c) The REVOKE statement would remove the SELECT privilege from SCOTT as well as from the role R1
+d) The REVOKE statement would give an error because the SELECT privilege has been granted to the role R1
+a
+8. Given below are the SQL statements executed in a user session:
+CREATE TABLE product
+(pcode NUMBER(2),
+pnameVARCHAR2(10));
+INSERT INTO product VALUES(1, 'pen');
+INSERT INTO product VALUES (2,'penci');
+SAVEPOINT a;
+UPDATE product SET pcode = 10 WHERE pcode = 1;
+SAVEPOINT b;
+DELETE FROM product WHERE pcode = 2;
+COMMIT;
+DELETE FROM product WHERE pcode=10;
+ROLLBACK TO SAVEPOINT a;
+Which statement describes the consequences?
+a) No SQL statement would be rolled back
+b) Both the DELETE statements would be rolled back
+c) Only the second DELETE statement would be rolled back
+d) Both the DELETE statements and the UPDATE statement would be rolled back
+d
+9. Evaluate the following command:
+CREATE TABLE employees (employee_id NUMBER(2) PRIMARY KEY, last_name VARCHAR2(25) NOT
+NULL, department_id NUMBER(2), job_id VARCHAR2(8), salary NUMBER(10,2));
+You issue the following command TO CREATE a VIEW that displays the IDs AND LAST names OF the sales staff IN the organization:
+CREATE OR REPLACE VIEW sales_staff_vu AS SELECT employee_id, last_name job_id FROM employees
+WHERE job_id LIKE 'SA_%' WITH CHECK OPTION;
+Which statements are true regarding the above view?
+a) It allows you to insert details of all new staff into the EMPLOYEES table
+b) It allows you to delete the details of the existing sales staff from the EMPLOYEES table
+c) It allows you to update the job ids of the existing sales staff to any other job id in the EMPLOYEES table
+d) It allows you to insert the IDs, last
+d
+CREATE VIEW view_name AS
+SELECT column_name(s)
+FROM TABLE_NAME
+WHERE condition.
+10. EMPDET is an external table containing the columns EMPNO and ENAME. Which command would work in relation to the EMPDET table?
+a)
+UPDATE empdet
+SET ename = 'Amit'
+WHERE empno = 1234;
+b)
+DELETE FROM empdet
+WHERE ename LIKE 'J%';
+c)
+CREATE VIEW empvu
+AS
+SELECT* FROM empdept;
+d)
+CREATE INDEX empdet_idx
+ON empdet(empno);
+c
+  
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Snapshot Isolation» Next - Database Questions and Answers – Concurrency in Index Structures 

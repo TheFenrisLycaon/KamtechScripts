@@ -1,0 +1,75 @@
+1. In FEM, which method is not used to construct the weak forms and associated finite element model of the plane elasticity equations?
+a) Principle of virtual displacements
+b) The principle of minimum total potential energy
+c) Weak form of governing differential equations
+d) Hamiltonian principle
+d
+2. In constructing the weak forms of plane elasticity problems, which option is not related to the principle of virtual displacements?
+a) Displacements to strains
+b) Strains to stresses
+c) The equations of motion
+d) Body forces
+d
+3. What is the correct form of the principle of virtual displacements applied to plane finite elastic element If Ve is the volume of element and se is its surface?
+a) 0=\(\int_{V_e}\)(σijδεij+ρüiδui)dV-\(\int_{V_e}\)fiδuidV-∮se\(\hat{t_i}\)δuids
+b) 0=\(\int_{V_e}\)(σijδεij+ρu̇iδui)dV-\(\int_{V_e}\)fiδuidV-∮se \(\hat{t_i}\)δuids
+c) 0=\(\int_{V_e}\)(σijδεij+ρüiδui)dV+\(\int_{V_e}\)fiδuidV-∮se \(\hat{t_i}\)δuids
+d) 0=\(\int_{V_e}\)(σijδεij+ρu̇iδui)dV\(\int_{V_e}\)fiδuidV+∮se \(\hat{t_i}\)δuids
+a
+4. In the weak formulation of the plane elasticity equations, even though the methods, the principle of virtual displacements and the three-step weak formulation, give, mathematically different finite element models, they are the same in their algebraic forms.
+a) True
+b) False
+b
+5. In the weak form of the principle of virtual displacements, 0=\(\int_{V_e}\)(σijδεij+ρüiδui)dV-\(\int_{V_e}\)fiδuidV-∮set̂iδuids , applied to plane finite elastic element,which term corresponds to virtual strain energy stored in the body?
+a) \(\int_{V_e}\)(σijδεij)dV
+b) ∮set̂ iδuids
+c) \(\int_{V_e}\)(ρü iδui)dV
+d) \(\int_{V_e}\)fiδuidV
+a
+6. In the weak form of the principle of virtual displacements applied to a plane elastic finite element, what does the term \(\int_{V_e}\)(ρü iδui)dV correspond to?
+a) Virtual strain energy
+b) Kinetic energy
+c) Virtual work done by the body force
+d) Virtual work done by the surface traction
+b
+7. Under plane elasticity, which force is responsible for doing the virtual work \(\int_{V_e}\)fiδuidV in the weak form of the principle of virtual displacements?
+a) Body force
+b) Concentrated loads
+c) Surface traction force
+d) Pressure force
+a
+8. For a plane elasticity problem, which term in the weak form of the principle of virtual displacements is affected by a change in the applied surface traction forces?
+a) \(\int_{V_e}\)(σijδεij)dV
+b) ∮set̂ iδuids
+c) \(\int_{V_e}\)(ρü iδui)dV
+d) \(\int_{V_e}\)fiδuidV
+b
+9. If U,V denotes the components of the displacement vector, then which option is the correct primary nodal degrees of freedom present in the following figure of a plane elasticity problem?
+a) U1=V1=0
+b) U2≠0, V2=0
+c) U2=0, V2≠0
+d) U1=V1≠0
+a
+10. If Fx, Fy denotes the components of the force vector, then which option is the correct secondary degrees of freedom present in the following figure of a plane elasticity problem?
+a) \(F_6^x=F_6^y\)≠0
+b) \(F_7^x=F_7^y\)≠0
+c) \(F_6^x\ne F_6^y\)=0
+d) \(F_7^x\ne F_7^y\)=0
+d
+ \(F_7^x\)≠0.
+11. For plane elasticity problems, which option represents the essential boundary conditions among the governing equations?
+a) Displacements, ux and uy  at the boundary
+b) Surface traction at the boundary
+c) The displacements (ux and uy) and surface traction at the boundary
+d) Stresses in the element
+a
+12. If the equation ∫Ωche\((\frac{\partial w_1}{\partial x}\sigma_{xx}+\frac{\partial w_1}{\partial y}\)σxy-w1fx+ρw1\(\ddot{u_x})\)dxdy-&oint;Γchew1(σxxnx+σxyny)ds=0 represents the weak form of plane elasticity equations, then the weight functions w1 and w2 are the first variations of ux and uy, respectively.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Plane Elasticity – Governing Equations» Next - Finite Element Method Questions and Answers – Plane Elasticity – Finite Element Model 

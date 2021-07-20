@@ -1,0 +1,83 @@
+1. Which among the following is smallest for n=50
+a) 2n2
+b) n2+3n+7
+c) n3
+d) 2n
+b
+2n2=5000
+n2+3n+7=2567
+n3=125000
+2n=1.13*1015
+2. The space complexity of a turing machine is undefined if:
+a) It is a multitape turing machine
+b) If no string of length n causes T to use infinite number of tape squares
+c) If some input of length n causes T to loop forever
+d) None of the mentioned
+c
+3. In order to reduce the run time of a turing machine:
+a) we can reduce the number of tapes
+b) we can increase the number of tapes
+c) use infinite tapes
+d) none of the mentioned
+.
+4. Which of the following are basic complexity classes for a function f:N->N?
+a) Ntime(f)
+b) Nspace(f)
+c) Space(f)
+d) All of the mentioned
+d
+5. A function f is called __________ if there exists a TM T so that for any n and any input string of length n, T halts in exactly f(n) moves.
+a) Step function
+b) Step counting function
+c) Inplace functions
+d) None of the mentioned
+b
+6. Let f: N->N be a step counting function. Then for some constant C, Time(f) is a proper subset of Time(_______)
+a) O(nf)
+b) O(n+f)
+c) O(n2f2)
+d) None of the mentioned
+c
+7. Which among the following is false?
+If f=O(h) and g=O(k) for f,g,h,k:N->N, then
+a) f+g = O(h+k)
+b) fg = O(hk)
+c) fg=O(hk)
+d) None of the mentioned
+c
+8. Which of the following is not correct for ZPP?
+a) zero error probabalistic polynomial time
+b) it runs in non-polynomial time
+c) it returns an answer yes, no or do not know
+d) none of the mentioned
+b
+9. ZPP is based on ________
+a) Probabalistic turing machine
+b) Alternative turing machine
+c) Quantum turing machine
+d) None of the mentioned
+a
+10. ZPP is exactly equal to the ____________of the classes RP and co-RP.
+a) Union
+b) Intersection
+c) Concatenation
+d) Difference
+b
+11. Suppose we have a las vegas algorithm C to prove ZPP is contained in RP and co-RP. Run C for double its expected running time.
+By Markov’s inequality, the chance that it will answer  before we stop is:
+a) 1/2
+b) 1/4
+c) 1/3
+d) none of the mentioned
+a
+12. State true or false:
+Statement:  ZPP is closed under complement function.
+a) true
+b) false
+a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Randomized Algorithm» Next - Automata Theory Questions and Answers –  Applications of NFA 

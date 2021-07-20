@@ -1,0 +1,113 @@
+This section on C++ quiz focuses on “Function Call”. One shall practice these quizzes to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ quiz comes with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ quiz on “Function Call” along with answers, explanations and/or solutions:
+1. What is the use of function call operator?
+a) overloading the methods
+b) overloading the objects
+c) overloading the parameters
+d) overloading the string
+b
+2. Pick out the correct statement.
+a) virtual functions does not give the ability to write a templated function
+b) virtual functions does not give the ability to rewrite a templated function
+c) virtual functions does give the ability to write a templated function
+d) virtual functions does not give the ability to rewrite a simple function
+a
+3. What will happen when the function call operator is overloaded?
+a) It will not modify the functions
+b) It will modify the functions
+c) It will modify the object
+d) It will modify the operator to be interpreted
+d
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Distance    {        private:        int feet;        int inches;        public:        Distance()        {            feet = 0;            inches = 0;        }        Distance(int f, int i)         {            feet = f;            inches = i;        }        Distance operator()(int a, int b, int c)        {            Distance D;            D.feet = a + c + 10;            D.inches = b + c + 100 ;            return D;        }        void displayDistance()        {            cout  << feet <<  inches << endl;        }    };    int main()    {        Distance D1(11, 10), D2;        cout << "First Distance : ";        D1.displayDistance();        D2 = D1(10, 10, 10);        cout << "Second Distance :";        D2.displayDistance();        return 0;    }
+a) 
+   First Distance : 1110
+   Second Distance :30120
+b) 
+   First Distance : 110
+   Second Distance :3020
+Join [email protected]
+c) 
+   First Distance : 1115
+   Second Distance :30125
+d) pre>   First Distance : 100
+   Second Distance :30120
+a
+Output:
+$ g++ call.cpp
+$ a.out
+First Distance : 1110
+Second Distance :30120
+  
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    void duplicate (int& a, int& b, int& c)    {        a *= 2;        b *= 2;        c *= 2;    }    int main ()    {        int x = 1, y = 3, z = 7;        duplicate (x, y, z);        cout << x << y << z;        return 0;    }
+a) 1468
+b) 2812
+c) 2614
+d) 2713
+c
+Output:
+$ g++ call1.cpp
+$ a.out
+2614
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class three_d     {        int x, y, z;        public:        three_d() { x = y = z = 0; }        three_d(int i, int j, int k) { x = i; y = j; z = k; }        three_d operator()(three_d obj);        three_d operator()(int a, int b, int c);        friend ostream &operator<<(ostream &strm, three_d op);    };    three_d three_d::operator()(three_d obj)    {        three_d temp;        temp.x = (x + obj.x) / 2;        temp.y = (y + obj.y) / 2;        temp.z = (z + obj.z) / 2;        return temp;    }    three_d three_d::operator()(int a, int b, int c)    {        three_d temp;        temp.x = x + a;        temp.y = y + b;        temp.z = z + c;        return temp;    }        ostream &operator<<(ostream &strm, three_d op) {        strm << op.x << ", " << op.y << ", " << op.z << endl;        return strm;    }    int main()    {        three_d objA(1, 2, 3), objB(10, 10, 10), objC;        objC = objA(objB(100, 200, 300));        cout << objC;        return 0;    }
+a) 55, 106, 156
+b) 55, 106
+c) 55, 106, 159
+d) 55, 106, 158
+a
+Output:
+$ g++ call2.cpp
+$ a.out
+55, 106, 156
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Complex    {        private:        float real;        float imag;        public:        Complex():real(0), imag(0){}        Complex operator ()(float re, float im)        {            real += re;            imag += im;            return *this;        }        Complex operator() (float re)        {            real += re;            return *this;        }        void display()        {            cout << "(" << real << "," << imag << ")" << endl;        }    };    int main()    {        Complex c1, c2;        c2 = c1(3.2, 5.3);        c1(6.5, 2.7);        c2(1.9);        cout << "c2=";c1.display();        cout << "c2=";c2.display();        return 0;    }
+a) 
+   c2=(9.7,8)
+   c2=(5.1,5.3)
+b) 
+   c2=(9,8)
+   c2=(5,5)
+c) 
+   c2=(4.7,8)
+   c2=(2.1,5.3)
+d) 
+   c2=(5.7,8)
+   c2=(5.1,5.6)
+a
+Output:
+$ g++ call3.cpp
+$ a.out
+c2=(9.7,8)
+c2=(5.1,5.3)
+  
+8. In which form does the function call operator can be overloaded?
+a) static member function
+b) non-static member function
+c) dynamis_cast
+d) static_cast
+b
+9. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int operate (int a, int b)    {        return (a * b);    }    float operate (float a, float b)    {        return (a / b);    }    int main ()    {        int x = 5, y = 2;        float n = 5.0, m = 2.0;        cout << operate (x, y);        cout << operate (n, m);        return 0;    }
+a) 119
+b) 102.5
+c) 123.4
+d) 128.4
+b
+Output:
+$ g++ call3.cpp
+$ a.out
+102.5
+10. What is the use of functor?
+a) It makes the object “callable” like a function
+b) It makes the class “callable” like a function
+c) It makes the attribute “callable” like a function
+d) It makes the argument “callable” like a function
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Subscripting» Next - C++ Programming Questions and Answers – Dereferencing 

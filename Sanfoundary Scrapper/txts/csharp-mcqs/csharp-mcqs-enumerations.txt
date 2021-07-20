@@ -1,0 +1,84 @@
+1. Choose the correct statements about enum used in C#.NET?
+a) An enum variable cannot have a private access modifier
+b) An enum variable can be defined inside a class or a namespace
+c) An enum variable cannot have a protected access modifier
+d) An enum variable cannot have a public access modifier
+c
+2. Which among the following cannot be used as a datatype for an enum in C#.NET?
+a) short
+b) double
+c) int
+d) all of the mentioned
+b
+3. What will be the output of the following C# code?
+enum days:int{    sunday = -3,    monday,    tuesday}Console.WriteLine((int)days.sunday);Console.WriteLine((int)days.monday);Console.WriteLine((int)days.tuesday);
+a) -3 0 1
+b) 0 1 2
+c) -3 -2 -1
+d) sunday monday tuesday
+c
+4. What will be the correct statement of the following C# code?
+enum color:byte{    yellow = 500,    green = 1000,    pink = 1300}
+a) byte value cannot be assigned to enum elements
+b) enum elements should always take successive values
+c) enum must always be of int type
+d) When the valid range of byte exceeds, the compiler will report an error
+d
+5. Wrong statement about enum used in C#.NET is?
+a) An enum can be declared inside a class
+b) An object cannot be assigned to an enum variable
+c) An enum can be declared outside a class
+d) An enum can have Single and Double values
+d
+6. What will be the output of the following C# code?
+  enum per {     a,      b,      c,      d,  } per.a = 10; Console.writeline(per.b);
+a) 11
+b) 1
+c) 2
+d) compile time error
+d
+7. What will be the output of the following C# code?
+enum color:int{    red,    green,    blue = 5,    cyan,    pink = 10,    brown}console.writeline((int)color.green);console.writeline((int)color.brown);
+a) 2 10
+b) 2 11
+c) 1 11
+d) 1 5
+c
+Output:
+ 1 11
+8. What will be the output of the following C# code?
+enum letters{    a,    b,    c} letters l;l = letters.a;Console.writeline(l);
+a) -1
+b) 0
+c) a
+d) letters.a
+c
+Output:
+a
+9. What will be the output of the following C# code?
+ enum colors {     red,     black,     pink } colors s = colors.black; type t; t = c.GetType(); string[] str; str = Enum.GetNames(t); Console.WriteLine(str[0]);
+a) 0
+b) black
+c) red
+d) 1
+c
+Output:
+ red
+10. Choose the correct statement about enum used in C#.NET?
+a) By default the first enumerator has a value equal to the number of elements present in the list
+b) Values of the enum elements cannot be populated from database
+c) The value of each successive enumerator is decreased by 1
+d) An enumerator has a white space in its name
+b
+11. Which among the following differentiates enum in C#.NET from enum in C language?
+a) C is strictly a typed language, C#.NET also is a strictly typed language
+b) In C, language variables of enum types can be used interchangeably with integers using type casts while enum variables cannot be used as a normal integers in C#.NET
+c) None of the mentioned
+d) All of the mentioned
+b
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Structures» Next - C# Questions & Answers – Fundamentals of Inheritance 

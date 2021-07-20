@@ -1,0 +1,255 @@
+1. What are Templates in C++?
+a) A feature that allows the programmer to write generic programs
+b) A feature that allows the programmer to write specific codes for a problem
+c) A feature that allows the programmer to make program modular
+d) A feature that does not add any power to the language
+a
+2. In how many ways templates concept can be used?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+3. What is the difference between normal function and template function?
+a) The normal function works with any data types whereas template function works with specific types only
+b) Template function works with any data types whereas normal function works with specific types only
+c) Unlike a normal function, the template function accepts a single parameter
+d) Unlike the template function, the normal function accepts more than one parameters
+b
+4. Templates simulate which of the following feature?
+a) Polymorphism
+b) Abstraction
+c) Encapsulation
+d) Inheritance
+a
+5. Which keyword is used for the template?
+a) Template
+b) template
+c) Temp
+d) temp
+b
+6. What is the correct syntax of defining function template/template functions?
+a) template <class T> void(T a){cout<<a;}
+b) Template <class T> void(T a){cout<<a;}
+c) template <T> void(T a){cout<<a;}
+d) Template <T> void(T a){cout<<a;}
+a
+7. What does this template function indicates?
+==================
+template<class T>
+void func(T a)
+{
+	cout<<a;
+}
+==================
+a) A function taking a single generic parameter and returning a generic type
+b) A function taking a single generic parameter and returning nothing
+c) A function taking single int parameter and returning a generic type
+d) A function taking a single generic parameter and returning a specific non-void type
+b
+8. What does this template function indicates?
+==================
+template<class T>
+T func(T a)
+{
+	cout<<a;
+}
+==================
+a) A function taking a single generic parameter and returning a generic type
+b) A function taking a single generic parameter and returning nothing
+c) A function taking single int parameter and returning a generic type
+d) A function taking a single generic parameter and returning a specific non-void type
+a
+9. What does this template function indicates?
+==================
+template<class T, class U>
+U func(T a, U b)
+{
+	cout<<a<<"\t"<<b;
+}
+==================
+a) A function taking a single generic parameter and returning a generic type which may be different from argument type
+b) A function taking a single generic parameter and returning a generic type which must be different from argument type
+c) A function taking a single generic parameter and returning a generic type which must have the same type as argument type
+d) A function taking a single generic parameter and returning a specific non-void type
+a
+10. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+template<class T>
+T func(T a)
+{
+	cout<<a;
+	return a;
+}
+ 
+template<class U>
+void func(U a)
+{
+	cout<<a;
+}
+ 
+int main(int argc, char const *argv[])
+{
+	int a = 5;
+	int b = func(a);
+	return 0;
+}
+a) 5
+b) 55
+c) Error
+d) Segmentation fault
+c
+11. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+template<class T>
+T func(T a)
+{
+	cout<<a;
+	return a;
+}
+ 
+int func(int a)
+{
+	cout<<a;
+}
+ 
+int main(int argc, char const *argv[])
+{
+	int a = 5;
+	int b = func(a);
+	float c = func(5.5);
+	return 0;
+}
+a) 5
+b) 55.5
+c) Error
+d) Segmentation fault
+b
+12. What will be the output of the following C++ code?
+#include <iostream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+template<class T>
+T func(T a)
+{
+	return a;
+}
+ 
+template<class T, class U>
+T func(U a)
+{
+	return (T)a;
+}
+ 
+int main(int argc, char const *argv[])
+{
+	int a = 5;
+	int b = func(a);
+	int c = func(5.5);
+	cout<<b<<c<<endl;
+	return 0;
+}
+a) 5
+b) 55
+c) Error
+d) Segmentation fault
+b
+13. Write a template function which takes two numbers, can be integers/real, and an operator as a character ‘+’/’-‘ or as boolean values true/false(representing ‘+’/’-‘ respectively) and returns the results accordingly.
+a)
+template<class T, class U>
+T func(T a, T b, U c)
+{
+ 
+	if(c == '+' || c){
+		return a+b;
+	}
+	else if(c == '-' || !c){
+		return a-b;
+	}
+}
+b)
+template<class T>
+T func(T a, T b, T c)
+{
+	if(c == '+' || c){
+		return a+b;
+	}
+	else if(c == '-' || !c){
+		return a-b;
+	}
+}
+c)
+template<class T, class U>
+U func(T a, T b, U c)
+{
+	if(c == '+' || !c){
+		return a+b;
+	}
+	else if(c == '-' || c){
+		return a-b;
+	}
+}
+d)
+template<class T, class U>
+U func(T a, T b, U c)
+{
+	if(c == '+' || c){
+		return a+b;
+	}
+	else if(c == '-' || !c){
+		return a-b;
+	}
+}
+a
+  
+14. What type can be used to replace templates from this function?
+template<class T, class U>
+T func(T a, T b, U c)
+{
+	if(c == '+' || c){
+		return a+b;
+	}
+	else if(c == '-' || !c){
+		return a-b;
+	}
+}
+a) replace templates T, U with auto keyword
+b) replace templates T, U with generic keyword
+c) replace templates T, U with temp keyword
+d) replace templates T, U with GEN_TEMP keyword
+a
+========================================
+auto func(auto a, auto b, auto c)
+{
+	if(c == '+' || c){
+		return a+b;
+	}
+	else if(c == '-' || !c){
+		return a-b;
+	}
+}
+========================================
+15. What is the syntax of an explicit call for a template? Assume the given template function.
+template<class T, class U>
+void func(T a, U b)
+{
+	cout<<a<<"\t"<<b<<endl;
+}
+a) func<int,char>(3,’a’);
+b) func(3,’a’)<int,char>;
+c) <int,char>func(3,’a’);
+d) func(<int>3,<char>’a’);
+a
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Function Templates – 1» Next - C++ Programming Questions and Answers – Class Templates 

@@ -1,0 +1,102 @@
+1. Open loop configuration is not preferred in op-amps because
+a) First break frequency is too large
+b) First break frequency is very small
+c) Second break frequency is too large
+d) All of the mentioned
+b
+2. Calculate the value of open loop frequency response curve at any point beyond break frequency in 741C op-amp?
+a) 1000000Hz
+b) 1000Hz
+d) 10000000Hz
+d) 100000Hz
+a
+3.
+ Frequency response of µA709C for various closed loop gain is shown. Choose the curve that has wider bandwidth and high gain?
+a) Curve 4
+b) Curve 3
+c) Curve 2
+d) Curve 1
+d
+4. When does a system said to be stable?
+a) Output reaches a minimum value at finite time
+b) Output reaches a maximum value at any time
+c) Output reaches a fixed value at finite time
+d) Output reaches a fixed value at any time
+c
+5. Why unstable systems are considered to be impractical?
+a) None of the mentioned
+b) Output decreases with time
+c) Output reaches fixed value
+d) Output increases with time
+d
+6. How is the criterion for the system determined?
+a) Graphical method
+b) Theoretical method
+c) Analytical method
+d) All of the mentioned
+d
+7. A standard block diagram of closed loop system composes of
+a) Two blocks
+b) Single block
+c) Three blocks
+d) None of the mentioned
+a
+(i) Forward block and
+ (ii) Feedback block. 
+8. “Transfer function” in control system refers to
+a) Feedback block
+b) Content of each block
+c) Forward block
+d) Input and output blocks
+b
+9. Which method is considered to be a graphical method in testing the system?
+a) Bode plot
+b) Routh-Hurwitz criteria
+c) Circuit testing
+d) None of the mentioned
+a
+10. Measure taken to increase the bandwidth of an op-amp.
+a) Increase the frequency for the configuration
+b) Reduce the gain of the configuration
+c) Closed loop configuration is used
+d) Open loop configuration is used
+c
+11. Name the block connected in the feedback path
+a) Feedback block
+b) Forward block
+c) Output block
+d) Summation of feedback, forward and output block
+a
+12. When the magnitude of (AoL )×( ß ) = 0dB, state the condition at which system become stable?
+a) Phase angle is > -180o
+b) Phase angle is < -180o
+c) Phase angle is > +180o
+d) Phase angle is < +180o
+a
+At lower frequency the contribution of AoL is zero. So, AoL×ß >0 and obviously AF < AoL and system is stable. 
+13. Mention the phase condition that leads to sustained oscillation
+a) ∠-Aß =0
+b) All of the mentioned
+c) ∠-Aß = multiple of 2π
+d) ∠Aß = odd multiple of π
+b
+=> Loop gain, AoL×ß =1
+Since AoL*ß  is a complex quantity , the magnitude is |AoL×ß |=1 and the phase condition are ∠-Aß=0 (or multiple of 2π) or ∠Aß= π (or odd multiple of π). 
+14. Determine the state of the system
+a) Stable system
+b) Unstable system
+c) Casual system
+d) Bounded system
+b
+15. Find out the system stability when a system has three RC poles pairs
+a) Attain stability at low frequency
+b) Attain stability at high frequency
+c) Attain instability at high frequency
+d) Attain instability at low frequency
+c
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Open-Loop Voltage Gain as a Function of Frequency – 2» Next - Linear Integrated Circuit Questions and Answers – Slew Rate – 1 

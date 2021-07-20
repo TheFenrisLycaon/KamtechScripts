@@ -1,0 +1,54 @@
+1. During finite element formulation of beam each node has _______ degrees of freedom.
+a) three
+b) two
+c) one
+d) six
+b
+2. Beams are horizontal members used for supporting transverse loading.
+a) True
+b) False
+a
+3. The total number of degrees of freedom in a beam with four nodes is ______
+a) four
+b) eight
+c) sixteen
+d) thirty two
+b
+Number of nodes in beam element=4
+Total number of degrees of freedom=2*4=8
+4. The displacements in beam elements are interpolated using _______
+a) shape elements
+b) shape functions
+c) shape parameters
+d) shape factors
+b
+5. The shape functions for interpolation on beam elements are defined on the range of ________
+a) 0 to +1
+b) -1 to 0
+c) 0 to +2
+d) -1 to +1
+d
+6. In beam elements the cross section of the element is assumed.
+a) True
+b) False
+a
+7. Which of the following statements is correct?
+a) Stiffness coefficient value for numerical solution is less than the value of exact solution
+b) Stiffness coefficient value for numerical solution is greater than the value of exact solution
+c) Stiffness coefficient value for numerical solutions is equal to the value of exact solution
+d) Stiffness coefficient value for numerical solutions is twice the value of exact solution
+b
+8. The element stiffness matrix (k) for beam element is given by which of the following expressions?
+a)\(\frac{EI}{l^3}\begin{bmatrix}12&6l&-12&6l\\6l&4l^2&-6l&2l^2\\-12&-6l&12&-6l\\6l&2l^2&-6l&4l^2\end{bmatrix}\) 
+b) \(\frac{EI}{l^2}\begin{bmatrix}12&-6l&-12&6l\\-6l&4l^2&6l&2l^2\\-12&6l&12&6l\\6l&2l^2&6l&4l^2\end{bmatrix}\) 
+c)\(\frac{EI}{l^3}\begin{bmatrix}12&-6l&-12&6l\\-6l&4l^2&6l&2l^2\\-12&6l&12&6l\\6l&2l^2&6l&4l^2\end{bmatrix}\) 
+d)\(\frac{EI}{l^2}\begin{bmatrix}12&6l&-12&6l\\6l&4l^2&-6l&2l^2\\-12&-6l&12&-6l\\6l&2l^2&-6l&4l^2\end{bmatrix}\) 
+a
+k=\(\frac{EI}{l^3}\begin{bmatrix}12&6l&-12&6l\\6l&4l^2&-6l&2l^2\\-12&-6l&12&-6l\\6l&2l^2&-6l&4l^2\end{bmatrix}\) 
+Here l is length of beam element, and E is the modulus of elasticity, and I moment of inertia of the beam element. The stiffness matrix of the beam element affects the displacement of the nodes and their interpolation in the beam element. The beam element stiffness matrix is a symmetric matrix.
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Conjugate Gradient Implementation of Quadrilateral Element» Next - Finite Element Method Questions and Answers – Beams and Frames – Load Vector 

@@ -1,0 +1,67 @@
+1. Which of the reasons will force you to use XML data model in SQL Server?
+a) Your data is sparse or you do not know the structure of the data
+b) Your data represents containment hierarchy
+c) Order is inherent in your data
+d) All of the Mentioned
+d
+2. Which of the following is not a XML storage option?
+a) Native storage as XML data type
+b) Mapping between XML and relational storage
+c) Small object storage
+d) None of the Mentioned
+c
+3. The choice of XML technology, native XML versus XML view, generally depends upon the following factors?
+a) Storage options
+b) Query capabilities
+c) Indexing
+d) All of the Mentioned
+d
+4. In which of the following scenario, using XML native storage would be inappropriate?
+a) Fixed schema
+b) You want to query and modify your XML data
+c) You want to index the XML data for faster query processing
+d) Your application needs system catalog views to administer your XML data and XML schema
+a
+5. XML View Technology is useful in the following situations?
+a) Your application needs system catalog views to administer your XML data and XML schema
+b) Indexing Capabilities
+c) You want to bulk load XML data and decompose them into the underlying tables by using the XML view
+d) None of the Mentioned
+c
+Join Sanfoundry@YouTube
+6. What is the hybrid model in SQL Server?
+a) Combination of relational and XML data type columns
+b) Combination of relational and non relational data type columns
+c) Using XML with views
+d) Using XML with triggers
+a
+7. Reasons to use native XML features in SQL Server instead of managing your XML data in the file system would be:
+a) You need language support for query and data modification for cross-domain applications
+b) You want the server to guarantee that the data is well formed and also optionally validate your data according to XML schema
+c) You want indexing of XML data for efficient query processing and good scalability, and the use of a first-rate query optimizer
+d) All of the mentioned
+d
+8. Which of the following part of the XML data stored in an XML column is very important for locking?
+a) Granularity
+b) Degree of Structure
+c) Hierarchy
+d) None of the mentioned
+a
+9. XML datatype was introduced in which of the following versions of SQL Server?
+a) SQL Server 2000
+b) SQL Server 2005
+c) SQL Server 2008
+d) SQL Server 2012
+b
+10. Which of the following feature of SQL Server was used before XML technology for semi structured data?
+a) Stored Procedure
+b) Dynamic management views
+c) In memory database
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – SQL Server.
+To practice all areas of SQL Server, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - SQL Server Questions and Answers – Hierarchies» Next - SQL Server Questions and Answers – Working With XML Data – 2 

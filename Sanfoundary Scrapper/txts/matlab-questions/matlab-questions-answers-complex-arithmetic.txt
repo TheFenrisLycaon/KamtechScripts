@@ -1,0 +1,70 @@
+1. Which command is used to find the argument of a complex number?
+a) atan2()
+b) args()
+c) abs()
+d) cannot be determined
+a
+2. What is the class of the complex number?
+a) double
+b) symbolic
+c) character
+d) array
+b
+3. What is the argument of -1-i in MATLAB?
+a) -3*pi/4
+b) pi/4
+c) 5*pi/4
+d) -7*pi/4
+a
+4. What will be the output of the following code?
+atan2(-1,1)
+a) Error
+b) -pi/4
+c) -.7854
+d) 0
+c
+5. The modulus of z, z conjugate and -z are not equal in MATLAB.
+a) True
+b) False
+b
+6. What will be the output of the following code?
+z=2+3i/(i99)
+a) z conjugate
+b) -z
+c) -3+(2*i)
+d) -1
+d
+2+3i/(i99)=2-3=-1. If we had given 2+3i within brackets, the value would have been -3+(2*i). The answer won’t be -z or z conjugate.
+7. What is the output of the following code?
+t=-i:.01*i:i; p=exp(2*t);plot(t,p)
+a) a sinusoidal signal
+b) an exponential signal
+c) a discrete sinusoidal
+d) no plot
+d
+8. What is the command used to check the real part of a complex number in MATLAB?
+a) abs()
+b) realc()
+c) real()
+d) cannot be checked
+c
+9. Which of the following command can be is used for complex arithmetic?
+a) abs()
+b) atan()
+c) realc()
+d) imagc()
+a
+10. What will be the output of the following code?
+abs(i)
+a) 1
+b) -1
+c) Error
+d) i
+a
+Output: 1
+Sanfoundry Global Education & Learning Series – MATLAB.
+To practice all areas of MATLAB, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MATLAB Questions and Answers – Functions and Expressions» Next - MATLAB Questions and Answers – Linear Systems 

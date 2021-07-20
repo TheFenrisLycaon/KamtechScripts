@@ -1,0 +1,71 @@
+1. Given Language: {x | it is divisible by 3}
+The total number of final states to be assumed in order to pass the number constituting {0, 1} is
+a) 0
+b) 1
+c) 2
+d) 3
+c
+2. A binary string is divisible by 4 if and only if it ends with:
+a) 100
+b) 1000
+c) 1100
+d) 0011
+a
+3. Let L be a language whose FA consist of 5 acceptance states and 11 non final states. It further consists of a dumping state. Predict the number of acceptance states in Lc.
+a) 16
+b) 11
+c) 5
+d) 6
+a
+4. If L1 and L2 are regular languages, which among the following is an exception?
+a) L1 U L2
+b) L1 – L2
+c) L1 ∩ L2
+d) All of the mentioned
+d
+If L1, L2 are 2- regular languages, then L1 U L2, L1 ∩ L2, L1C, L1 – L2 are regular language.
+5. Predict the analogous operation for the given language:
+A: {[p, q] | p ϵ A1, q does not belong to A2}
+a) A1-A2
+b) A2-A1
+c) A1.A2
+d) A1+A2
+a
+6. Which among the following NFA’s is correct corresponding to the given Language?
+L= {xϵ {0, 1} | 3rd bit from right is 0}
+a) 
+b) 
+c) 
+d) None of the mentioned
+a
+7. Statement 1: NFA computes the string along parallel paths.
+Statement 2: An input can be accepted at more than one place in an NFA.
+Which among the following options are most appropriate?
+a) Statement 1 is true while 2 is not
+b) Statement 1 is false while is not
+c) Statement 1 and 2, both are true
+d) Statement 1 and 2, both are false
+c
+8. Which of the following options is correct for the given statement?
+Statement: If K is the number of states in NFA, the DFA simulating the same language would have states less than 2k.
+a) True
+b) False
+a
+9. Let N (Q, ∑, δ, q0, A) be the NFA recognizing a language L. Then for a DFA (Q’, ∑, δ’, q0’, A’), which among the following is true?
+a) Q’ = P(Q)
+b) Δ’ = δ’ (R, a) = {q ϵ Q | q ϵ δ (r, a), for some r ϵ R}
+c) Q’={q0}
+d) All of the mentioned
+d
+10. There exists an initial state, 17 transition states, 7 final states and one dumping state, Predict the maximum number of states in its equivalent DFA?
+a) 226
+b) 224
+c) 225
+d) 223
+a
+Sanfoundry Global Education & Learning Series – Automata Theory.
+To practice all areas of Automata Theory, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Automata Theory Questions and Answers –  Equivalence of NFA and DFA» Next - Automata Theory Questions and Answers –  Finite Automata with Epsilon Transition 

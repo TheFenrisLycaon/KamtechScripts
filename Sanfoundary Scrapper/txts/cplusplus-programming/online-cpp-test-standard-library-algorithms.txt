@@ -1,0 +1,95 @@
+This section on online C++ test focuses on “Standard Library Algorithms”. One shall practice these test questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our online C++ test questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of online C++ test questions on “Standard Library Algorithms” along with answers, explanations and/or solutions:
+1. What is the header file used for declaring the standard library algorithms?
+a) container
+b) algorithm
+c) library
+d) iterator
+b
+2. Pick out the correct method in the c++ standard library algorithm.
+a) mismatch
+b) maximum
+c) minimum
+d) maxmatch
+a
+3. What is the use of make_heap in the heap operation?
+a) Rearrange a heap
+b) Deform a heap
+c) Form a heap
+d) Delete a heap
+c
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    int main ()    {        int first[] = {5, 10, 15, 20, 25};        int second[] = {50, 40, 30, 20, 10};        vector<int> v(10);              vector<int> :: iterator it;        sort (first, first + 5);           sort (second, second + 5);         it = set_union (first, first + 5, second, second + 5, v.begin());        cout << int(it - v.begin());        return 0;    }
+a) 6
+b) 7
+c) 8
+d) 9
+c
+Output:
+$ g++ sla.cpp
+$ a.out
+8
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    int main ()     {        vector<int> myvector (4);        fill (myvector.begin(), myvector.begin() + 2, 3);        fill (myvector.begin() + 1, myvector.end() - 1, 4);        for (vector<int> :: iterator it = myvector.begin(); it != myvector.end(); ++it)            cout << ' ' << *it;        return 0;    }
+a) 3 4
+b) 3 4 4
+c) 3 4 & 3 4 4
+d) 3 4 4 0
+d
+Output:
+$ g++ sla1.cpp
+$ a.out
+3 4 4 0
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    int main ()     {        vector<int> myvector;        for (int i = 1; i < 6; ++i)             myvector.push_back(i);        reverse(myvector.begin(), myvector.end());        for (vector<int> :: iterator it = myvector.begin(); it != myvector.end(); ++it)            cout << ' ' << *it;        return 0;    }
+a) 1 2 3 4 5
+b) 5 4 3 2 1
+c) 0 1 2 3 4
+d) 5 4 1 2 3
+b
+Output:
+$ g++ sla2.cpp
+$ a.out
+5 4 3 2 1
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <algorithm>    #include <vector>    using namespace std;    int main ()     {        int myints[] = {10, 20, 30, 30, 20, 10, 10, 20};        int mycount = count (myints, myints + 8, 10);        cout << "10 appears " << mycount << " times.\n";        vector<int> myvector (myints, myints+8);        mycount = count (myvector.begin(), myvector.end(), 20);        cout << "20 appears " << mycount  << " times.\n";        return 0;    }
+a) 3 3
+b) 3 1
+c) 8
+d) 9
+a
+Output:
+$ g++ sla3.cpp
+$ a.out
+10 appears 3 times
+20 appears 3 times
+8. What will be the output of the following C++ code?
+    #include <iostream>     #include <algorithm>    using namespace std;    int main ()     {        int myints[] = {10, 20, 30, 30, 20, 10, 10, 20};          int* pbegin = myints;                              int* pend = myints + sizeof(myints) / sizeof(int);        pend = remove (pbegin, pend, 20);              for (int* p = pbegin; p != pend; ++p)            cout << ' ' << *p;        return 0;    }
+a) 10, 20, 30, 30, 20, 10, 10, 20
+b) 10, 30, 30, 10, 10
+c) 10, 20, 20, 10, 10, 10, 20
+d) 10, 20, 20, 10, 30, 10, 15
+b
+printing the remaining.
+Output:
+$ g++ sla4.cpp
+$ a.out
+10, 30, 30, 10, 10
+9. What is the type of the first item in the heap?
+a) Bigger than others
+b) Lower than others
+c) Mean value of the heap
+d) Equal to others
+a
+10. Pick out the correct library in the following choices.
+a) Search
+b) Generate
+c) Numeric
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – More Containers» Next - C++ Programming Questions and Answers – Sequences and Containers 

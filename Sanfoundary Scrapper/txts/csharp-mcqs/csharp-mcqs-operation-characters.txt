@@ -1,0 +1,87 @@
+1. Which of these methods of the class String is used to obtain length of String object?
+a) get()
+b) Sizeof()
+c) lengthof()
+d) length()
+d
+2. Which of these methods is an alternative to getChars() that stores the characters in an array of bytes?
+a) getBytes()
+b) GetByte()
+c) giveByte()
+d) Give Bytes()
+a
+3. Which of these methods can be used to convert all characters in a String into a character array?
+a) CharAt()
+b) getChars()
+c) TocharArray()
+d) All of the mentioned
+c
+4. What will be the output of the following C# code snippet?
+ static void main(String args[]) {     char chars[] = {'x', 'y', 'z'};     String s = new String(chars);     Console.WriteLine(s); }
+a) x
+b) xy
+c) z
+d) xyz
+d
+Output :
+Join [email protected]
+xyz
+5. Choose the effective stringBuilder method which helps in producing output for the following C# code?
+ static void Main(string[] args) {     StringBuilder s = new StringBuilder("object");     s./*______*/("Oriented Language");     Console.WriteLine(s);     Console.ReadLine(); }Output : objectOriented Language
+a) Insert()
+b) Add()
+c) Append()
+d) Join()
+c
+              static void Main(string[] args)
+              {
+               StringBuilder s = new StringBuilder("object");
+               s.Append("Oriented Language");
+               Console.WriteLine(s);
+               Console.ReadLine();
+               }
+Output : objectOriented Language
+6. What will be the output of the following C# code?
+  static void Main(string[] args)  {      string s = " i love you";      Console.WriteLine(s.IndexOf('l') + "  " + s.lastIndexOf('o') + "  " + s.IndexOf('e'));      Console.ReadLine();  }
+a) 3 5 7
+b) 4 5 6
+c) 3 9 6
+d) 2 4 6
+c
+Output :
+ 3, 9, 6
+7. Which of these methods of class String is used to extract all the characters from a String object?
+a) CHARAT()
+b) Remove()
+c) charAt()
+d) Replace()
+b
+8. What will be the output of the following C# code snippet?
+ static void Main(string[] args) {     string c = "hello";     string  c1 = c.Remove(1);     Console.WriteLine(c1);     Console.ReadLine(); }
+a) ello
+b) h
+c) hell
+d) none of the mentioned
+b
+Output :
+h
+9. How is a string typically processed?
+a) On a character by character basis
+b) On a string by string basis
+c) Both On a character by character basis & On a string by string basis
+d) None of the mentioned
+a
+10. How to print \\ on the screen?
+a) Console.WriteLine(“\\”);
+b) Console.WriteLine(“\\\”);
+c) Console.WriteLine(“\\\\”);
+d) Console.WriteLine(“\\\\\\”);
+c
+Output :
+ \\
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Searching and Modifying Strings» Next - C# Questions & Answers – Public & Private Access Modifier 

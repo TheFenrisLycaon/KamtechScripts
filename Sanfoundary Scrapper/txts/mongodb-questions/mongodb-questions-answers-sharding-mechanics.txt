@@ -1,0 +1,68 @@
+1. The _________ process is responsible for redistributing the chunks of a sharded collection evenly among the shards for every sharded collection.
+a) Balancer
+b) Sharder
+c) Replicator
+d) All of the mentioned
+a
+2. Point out the correct statement.
+a) Splitting is the process MongoDB uses to distribute data of a sharded collection evenly across a sharded cluster
+b) Any mongos instance in the cluster can start a balancing round
+c) When a shard has too many of a sharded collection’s chunks compared to other shards, MongoDB splits balances the chunks across the shards
+d) All of the mentioned
+b
+3. Use _______ migration to distribute data during bulk inserts.
+a) automatic
+b) manual
+c) temporary
+d) all of the mentioned
+b
+4. The balancer process sends the _______ command to the source shard.
+a) moveChunkShard
+b) migChunk
+c) moveChunk
+d) all of the mentioned
+c
+5. Point out the wrong statement.
+a) When fully synchronized, the destination shard connects to the config database and updates the cluster metadata with the new location for the chunk
+b) The destination shard builds any indexes required by the source that do not exist on the destination
+c) The destination shard begins requesting documents in the chunk and starts receiving copies of the data
+d) None of the mentioned
+d
+6. The source shard is responsible for incoming ______ operations for the chunk.
+a) read
+b) write
+c) read-write
+d) all of the mentioned
+b
+Join [email protected]
+7. ________ can alter the behavior so that the delete phase of the current migration blocks the start of the next chunk migration.
+a) _waitForUpdate
+b) _waitForDelete
+c) _waitForInsert
+d) All of the mentioned
+b
+8. The default value _________ becomes true for all chunk migrations.
+a) secThrottle
+b) secondaryThrottle
+c) primaryThrottle
+d) all of the mentioned
+b
+9. You can set the _________ option on the balancer configuration to set different write concern semantics.
+a) writeConcern
+b) updateConcern
+c) readConcern
+d) all of the mentioned
+a
+10. With __________ enabled, the source shard archives the documents in the migrated chunks in a directory named after the collection namespace.
+a) sharding.archiveChunks
+b) sharding.archiveMovedChunks
+c) shard.archiveMovedChunks
+d) none of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – Sharded Cluster Behavior» Next - MongoDB Questions and Answers – Cluster Deployment 

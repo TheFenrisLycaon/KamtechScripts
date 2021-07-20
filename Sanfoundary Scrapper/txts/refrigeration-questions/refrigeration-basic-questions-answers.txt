@@ -1,0 +1,132 @@
+1. Why is multi-stage or compound VCR with water intercooler, liquid sub-cooler, and flash intercooler used?
+a) To improve C.O.P.
+b) To decrease refrigeration effect
+c) To increase work
+d) To increase leakage loss
+a
+2. What is the purpose of using intercooler?
+a) To increase the cost of the compressor
+b) To cool the superheated refrigerant
+c) To re-heat superheated refrigerant
+d) To reduce the volumetric efficiency
+b
+3. What is the purpose of using liquid sub-cooler?
+a) To increase the cost of the compressor
+b) To reduce the volumetric efficiency
+c) To re-heat superheated refrigerant
+d) To increase the refrigeration effect
+d
+4. What is the purpose of using a flash intercooler?
+a) To increase pressure
+b) To decrease pressure
+c) To separate vapor and liquid refrigerant and de-superheat
+d) To evaporate refrigerant partially
+c
+5. What does process 1-2 and 4-5 represent?
+a) Evaporation
+b) Compression
+c) Condensation
+d) Expansion
+b
+6. What does process 2-3 represent?
+a) Evaporation
+b) Compression
+c) Intercooling
+d) Condensation
+c
+7. What do PC, PE, and PF represent?
+a) Evaporator, expansion and flash chamber pressure
+b) Compression, expansion and flash chamber pressure
+c) Condenser, evaporator and flash chamber pressure
+d) Intercooling pressure
+c
+8. What does process 3-4 represent?
+a) Separation of refrigerant and de-superheating
+b) Compression
+c) Mixing of refrigerants
+d) Condensation
+a
+9. What does process 6-7 represent?
+a) Evaporation
+b) Compression
+c) Mixing of refrigerant coming from the flash chamber
+d) Sub-cooling
+d
+10. What do process 7-8 and 9-10 represent?
+a) Expansion
+b) Compression
+c) Mixing of refrigerant coming from the flash chamber
+d) Sub-cooling
+a
+11. What does process 8-9 and 8-4 represent?
+a) Expansion
+b) Separating the vapor and liquid form of refrigerant
+c) Compression
+d) Sub-cooling
+b
+12. What is the ratio of m2 / m1 for the following arrangement?
+If, m1 = Mass of refrigerant passing through the evaporator
+m2 = Mass of refrigerant passing through condenser
+a) (h1 – hf6) / (h2 – h1) – (h4 – h3)
+b) (h1 – hf6) / (h2 – h1) + (h4 – h3)
+c) (h8 – hf10) / (h9 – hf10)
+d) (h3 – hf9) / (h4 – h8)
+d
+Heat taken by the flash chamber = Heat given by the flash chamber
+m2 h8 + m1 h3 = m1 hf9 + m2 h4
+m1 (h3 – hf9) = m2 (h4 – h8)
+m2 / m1 = (h3 – hf9) / (h4 – h8).
+13. What is the value of work done for the following arrangement?
+If, m1 = Mass of refrigerant passing through the evaporator
+m2 = Mass of refrigerant passing through the condenser
+a) m1 (h2 – h1) + m2 (h4 – h3)
+b) (h1 – hf10) / (h4 – h9)
+c) (h8 – hf10) / (h9 – hf10)
+d) m1 (h2 – h1) + m2 (h5 – h4)
+d
+Work = Work done by low-pressure compressor + Work done by high-pressure compressor
+= mass of refrigerant flowing through the low-pressure compressor x enthalpy change + mass of refrigerant flowing through the high-pressure compressor x enthalpy change
+Work done by the low-pressure compressor = m1 (h2 – h1)
+Work done by the high-pressure compressor = m2 (h5 – h4)
+Total work = m1 (h2 – h1) + m2 (h5 – h4).
+14. What is the value of work done for the following arrangement?
+If, m1 = Mass of refrigerant passing through the evaporator
+m2 = Mass of refrigerant passing through condenser
+a) m1 (h1 – hf9) / m1 (h2 – h1) + m2 (h5 – h4)
+b) m3 (h1 – hf10) / m2 (h4 – h9)
+c) m2 (h8 – hf10) / m1 (h9 – hf10)
+d) m1 (h1 – h11) / m1 (h2 – h1) + m2 (h5 – h4)
+a
+Hence, by taking the help of above diagrams,
+R.E. = Heat absorbed in the evaporator
+= mass flowing through the evaporator x enthalpy change
+= m1 (h1 – h10) as, hf9 = h10
+Work = Work done by low-pressure compressor + Work done by high-pressure compressor
+= mass of refrigerant flowing through the low-pressure compressor x enthalpy change + mass of refrigerant flowing through the high-pressure compressor x enthalpy change
+Total Work = m1 (h2 – h1) + m2 (h5 – h4)
+Hence, C.O.P. = m1 (h1 – hf9) / Total work
+= m1 (h1 – hf9) / m1 (h2 – h1) + m2 (h5 – h4).
+15. What is the value of Refrigeration effect if m1 = 4 kg/min, and enthalpies for the point 1, 2, 4, 5, 9 are 1350, 1550, 1480, 1620, and 280 kJ/kg. If the refrigeration effect is 4280 kJ/min and work done is 15 kW, then what is the value of C.O.P.?
+a) 4.85
+b) 5.50
+c) 4.75
+d) 6.00
+c
+h1 = 1350 kJ/kg
+hf9 = h10 = 280 kJ/kg
+h2 = 1550 kJ/kg
+h4 = 1480 kJ/kg
+h5 = 1620 kJ/kg
+As, enthalpies of all points is given but it is a redundant data cause direct values of refrigeration effect and work is given, hence C.O.P. can be found easily.
+Refrigeration effect = m1 (h1 – h11)
+= 4280 kJ/min
+Work = 15 kW = 900 kJ/min
+C.O.P. = Refrigeration effect / Work
+= 4280 / 900
+= 4.75.
+Sanfoundry Global Education & Learning Series – Refrigeration & Air Conditioning.
+To practice basic questions and answers on all areas of Refrigeration, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Refrigeration Questions and Answers – Two/Multi Stage Compression with Water Intercooling, Liquid Subcooling and Flash Chamber – 2» Next - Refrigeration Questions and Answers – Compound VCR System – Cascade Systems – 1 

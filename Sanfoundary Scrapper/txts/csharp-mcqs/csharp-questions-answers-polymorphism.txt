@@ -1,0 +1,91 @@
+1. The capability of an object in Csharp to take number of different forms and hence display behaviour as according is known as ___________
+a) Encapsulation
+b) Polymorphism
+c) Abstraction
+d) None of the mentioned
+b
+2. What will be the output of the following C# code?
+ public class sample {     public static int x = 100;     public static int y = 150;  } public class newspaper :sample {     new public static int x = 1000;     static void Main(string[] args)     {         console.writeline(sample.x + "  " + sample.y + "  " + x);     } }
+a)  100 150 1000
+b)  1000 150 1000
+c)  100 150 1000
+d)  100 150 100
+c
+              sample.y = 150
+              variable within scope of main() is x = 1000
+Output :
+ 100  150  1000
+3. Which of the following keyword is used to change data and behavior of a base class by replacing a member of the base class with a new derived member?
+a) Overloads
+b) Overrides
+c) new
+d) base
+c
+4. Correct way to overload +operator?
+a) public sample operator + (sample a, sample b)
+b) public abstract operator + (sample a,sample b)
+c) public static sample operator + (sample a, sample b)
+d) all of the mentioned
+d
+Join Sanfoundry@YouTube
+5. What will be the Correct statement of the following C# code?
+ public class maths {     public int x;     public virtual void a()     {      }  } public class subject : maths {     new public void a()     {      }  }
+a) The subject class version of a() method gets called using sample class reference which holds subject class object
+b) subject class hides a() method of base class
+c) The code replaces the subject class version of a() with its math class version
+d) None of the mentioned
+d
+6. Select the sequence of execution of function f1(), f2() & f3() in C# .NET CODE?
+ class base {     public void f1() {}     public virtual void f2() {}     public virtual  void f3() {} } class derived :base {     new public void f1() {}     public override void f2() {}     public new void f3() {} }  class Program {     static void Main(string[] args)     {         baseclass b = new derived();         b.f1 ();         b.f2 ();         b.f3 ();     } }
+a) 
+   f1() of derived class get executed
+   f2() of derived class get executed
+   f3() of base class get executed
+b) 
+   f1() of base class get executed
+   f2() of derived class get executed
+   f3() of base class get executed
+c) 
+   f1() of base class get executed
+   f2() of derived class get executed
+   f3() of derived class get executed
+d) 
+   f1() of derived class get executed
+   f2() of base class get executed
+   f3() of base class get executed
+b
+  
+7. Which of the following statements is correct?
+a) Each derived class does not have its own version of a virtual method
+b) If a derived class does not have its own version of virtual method then one in base class is used
+c) By default methods are virtual
+d) All of the mentioned
+c
+8. Correct code to be added for overloaded operator – for the following C# code?
+ class csharp {     int x, y, z;     public csharp()     {      }     public csharp(int a ,int b ,int c)     {         x = a;         y = b;         z = c;     }     Add correct set of code here    public void display()    {        console.writeline(x + "  " + y + "  " + z);    }    class program    {        static void Main(String[] args)        {            csharp s1 = new csharp(5 ,6 ,8);            csharp s3 = new csharp();            s3 = - s1;            s3.display();        }    }}
+a)
+    public static csharp operator -(csharp s1)    {        csharp t = new csharp();        t.x = s1.x;        t.y = s1.y;        t.z = -s1.z;        return t;    }
+b)
+    public static csharp operator -(csharp s1)    {        csharp t = new csharp();        t.x = s1.x;        t.y = s1.y;        t.z = s1.z;        return t;    }
+c)
+    public static csharp operator -(csharp s1)    {        csharp t = new csharp();        t.x = -s1.x;        t.y = -s1.y;        t.z = -s1.z;        return t;    }
+d)  None of the mentioned
+c
+9. Selecting appropriate method out of number of overloaded methods by matching arguments in terms of number, type and order and binding that selected method to object at compile time is called?
+a) Static binding
+b) Static Linking
+c) Compile time polymorphism
+d) All of the mentioned
+d
+10. Wrong statement about run time polymorphism is?
+a) The overridden base method should be virtual, abstract or override
+b) An abstract method is implicitly a virtual method
+c) An abstract inherited property cannot be overridden in a derived class
+d) Both override method and virtual method must have same access level modifier
+c
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Questions & Answers – Use of Variable Number of Arguments» Next - C# Questions & Answers – Structures 

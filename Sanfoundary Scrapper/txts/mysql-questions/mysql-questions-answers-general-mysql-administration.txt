@@ -1,0 +1,66 @@
+1. The MySQL server is highly configurable.
+a) True
+b) False
+a
+2. Multiple MySQL servers cannot be run on the same machine.
+a) True
+b) False
+a
+3. The log in which data changes received from a replication master server are written are ______________
+a) error log
+b) general query log
+c) binary log
+d) relay log
+d
+4. Which of these is the metadata log?
+a) error log
+b) ddl log
+c) binary log
+d) relay log
+b
+5. The max_binlog_cache_size system variable has default size ______________
+a) 1 GB
+b) 2 GB
+c) 4 GB
+d) 8 GB
+c
+Join Sanfoundry@YouTube
+6. What has a higher priority?
+writes, reads
+a) writes
+b) reads
+c) same priority
+d) machine dependent
+a
+7. The default scheduling property of MySQL is implemented by how many of these?
+MyISAM, MERGE, MEMORY
+a) 0
+b) 1
+c) 2
+d) 3
+d
+8. Which of these is faster when accessing data?
+memory, disk
+a) memory
+b) disk
+c) same speed
+d) machine dependent
+a
+9. The system variable controls the size of the table cache _________________
+a) table_cache
+b) cache_table
+c) open_cache
+d) cache_open
+a
+10. Which of these exports table definitions and contents?
+a) mysqldump
+b) mysqladmin
+c) mysqlimport
+d) mysqlexport
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – MySQL Components» Next - MySQL Questions and Answers – Access Control and Security 

@@ -1,0 +1,66 @@
+1. Which feature converts row data to a column for better analytical view?
+a) Views
+b) Join
+c) Pivot
+d) Trigger
+c
+2. Which of the following statements is/are not true for SQL profiler?
+a) Enables you to monitor events
+b) Check if rows are being inserted properly
+c) Check the performance of a stored procedure
+d) None of the mentioned
+c
+3. Which global variables can be used to determine if a transaction is still open?
+a) @@NESTLEVEL
+b) @@FETCH_STATUS
+c) @@TRANCOUNT
+d) @@CONNECTIONS
+c
+4. Which statement is used to define a cursor?
+a) OPEN
+b) FETCH
+c) DECLARE CURSOR
+d) @@FETCH_STATUS
+c
+5. What is the default “SORT” order for a SQL?
+a) Ascending
+b) Descending
+c) As specified by the user
+d) None of the mentioned
+a
+6. Capabilities of RAISERROR
+a) It can be logged in the error log
+b) It can print a message to the application
+c) It can assign an error number, state and severity
+d) All of the mentioned
+d
+7. How inserting data through stored procedure do reduces network traffic and increase database performance?
+a) Stored procedure can accept parameter
+b) Permission check is not required
+c) The execution plan is stored in the cache after it was executed the first time
+d) None of the mentioned
+c
+8. Stored procedures are safe from SQL injection attacks
+a) True
+b) False
+c) Depends on the result
+d) Always safe
+a
+9. Which of the following connection type supports application role permissions and password encryption?
+a) OLE DB
+b) DBLib
+c) ODBC
+d) OLE DB and ODBC
+d
+10. Cursor that reflects the changes made to the database table even after the result set is returned
+a) Static
+b) Dynamic
+c) FORWARD_ONLY
+d) Keyset
+b
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database for Campus Interviews, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Transformation of Relational Expressions» Next - Database Questions and Answers – Materialized Views 

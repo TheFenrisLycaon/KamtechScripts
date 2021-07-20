@@ -1,0 +1,68 @@
+1. For InnoDB tables in mysqldump an online backup that takes no locks on tables can be performed by ______________
+a) –multiple-transaction
+b) –single-transaction
+c) –double-transaction
+d) –no-transaction
+b
+2. To reload a delimited text data file use ______________
+a) mysqldump
+b) mysqld
+c) mysqlimport
+d) mysqlnaive
+c
+3. Replication enables data from one MySQL database server to be copied to one or more MySQL database servers.
+a) True
+b) False
+a
+4. SBR replication is ______________
+a) Statement based
+b) Row based
+c) Column based
+d) Table based
+a
+5. The library file that contains various portability macros and definitions is ______________
+a) my_global.h
+b) my_sys.h
+c) mysql.h
+d) my_local.h
+b
+Join Sanfoundry@YouTube
+6. The header that should be included first is ______________
+a) my_global.h
+b) my_sys.h
+c) mysql.h
+d) my_local.h
+a
+7. Which of the following use ‘NULL’ to indicate failure?
+mysql_init(), mysql_real_connect()
+a) 0
+b) 1
+c) 2
+d) 3
+c
+8. Which of the following does not return a value?
+mysql_close(), mysql_init, mysql_real_connect
+a) 0
+b) 1
+c) 2
+d) 3
+b
+9. What is the general statement-issuing routine?
+a) mysql_real_query()
+b) mysql_query_real()
+c) mysql_image_query()
+d) mysql_query_image()
+a
+10. The most restrictive among the following is ______________
+mysql_query(), mysql_real_query()
+a) mysql_query()
+b) mysql_real_query()
+c) same
+d) machine dependent
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice tricky questions and answers on all areas of MySQL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Access Control and Security» Next - MySQL Questions and Answers – Location of the Data Directory 

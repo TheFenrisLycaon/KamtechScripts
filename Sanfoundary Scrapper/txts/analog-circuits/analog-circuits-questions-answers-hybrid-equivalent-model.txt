@@ -1,0 +1,81 @@
+1. Which of the following statement is incorrect?
+a) Output of CE amplifier is out of phase with respect to its input
+b) CC amplifier is a voltage buffer
+c) CB amplifier is a voltage buffer
+d) CE amplifier is used as an audio (low frequency) amplifier
+c
+2. Consider the following circuit. __________ provides DC isolation.  _____________ prevents a decrease in voltage gain. _____________ is used to control the bandwidth.
+a) C3, C1, C4
+b) C4, C1, C2
+c) C2, C3, C2
+d) C4, C3, C2
+b
+3. Given hfe = 60, hie=1000Ω, hoe = 20μ Ω–, hre = 2 * 10-4. Find the current gain of the BJT, correct up to two decimal points.
+a) – 58.44
+b) -59.21
+c) – 60.10
+d) – 60.00
+a
+RL’ = 1.33kΩ.
+Thus AI = – 60/(1 + 0.0266) = -58.4453.
+4. Consider the circuit. Given hfe = 50, hie = 1200Ω. Find voltage gain.
+a) – 278
+b) -277.9
+c) – 300
+d) – 280
+a
+RL’ = 20k||10k = 6.67kΩ
+AV = -50 * 6.67k/1.2k = -277.9 ≅ – 278.
+5. Given that IB = 5mA and hfe = 55, find load current.
+a) 28mA
+b) 280mA
+c) 2.5A
+d) 2A
+b
+IL = IB (1+hfe)
+IL = 5mA(56) = 280 mA.
+6. Consider the following circuit, where source current = 10mA, hfe = 50, hie = 1100Ω, then for the transistor circuit, find output resistance RO and input resistance RI.
+a) RO = 0, RI = 21Ω
+b) RO = ∞, RI = 0Ω
+c) RO = ∞, RI = 21Ω
+d) RO = 10, RI = 21Ω
+c
+Input resistance = hie/(1 + hfe) = 1100/51 ≅ 21Ω.
+7. For the given circuit, input resistance RI = 20Ω, hfe = 50. Output resistance = ∞. Find the new values of input and output resistance, if a base resistance of 2kΩ is added to the circuit.
+a) RI = 20Ω, RO = ∞
+b) RI = 20Ω, RO = 2kΩ
+c) RI = 59Ω, RO = ∞
+d) RI = 59Ω, RO = 2kΩ
+c
+hie =1020 Ω
+Hence, after adding base resistance, RI’= (hie+RB)/(1+hfe) = (1020+2000)/51 ≅ 59Ω
+There is no change in output resistance or current gain due to an extra base resistance. RO’ = ∞.
+8. Consider its input resistance to be R1. Now, the bypass capacitor is attached, so that the new input resistance is R2. Given that hie = 1000Ω and hfe = 50, find R1-R2.
+a) 112.2Ω
+b) 0Ω
+c) 110Ω
+d) 200Ω
+a
+R1 = 1000 + 51*2.2 = 1000 + 112.2 = 1112.2Ω
+With a bypass capacitor attached, input resistance, R2 = hie = 1000Ω
+Thus R1 – R2 = 112.2Ω.
+9. Given that for a transistor, hie = 1100Ω, hfe = 50, hre = 2*10-4 and hoe = 2μΩ-1. Find CB h-parameters.
+a) hfb = 1, hib = 22, hob = 3μΩ-1, hrb = -1.5×10-4
+b) hfb = -0.98, hib = -21.56, hob = 0.03μΩ-1, hrb = 1.5×10-4
+c) hfb = -0.98, hib = 21.56, hob = 0.03μΩ-1, hrb = -1.5×10-4
+d) hfb = 1, hib = -21.56, hob = 0.03μΩ-1, hrb = -2×10-4
+c
+hib = hie/(1+hfe) = 21.56Ω
+hob = hoe/(1+hfe) = 0.03 μΩ-1
+hrb = (hiehoe/1+hfe) – hre = -1.5×10-4.
+10. If source resistance in an amplifier circuit is zero, then voltage gain (output to input voltage ratio) and source voltage gain (output to source voltage ratio) are the same.
+a) True
+b) False
+a
+AVS = AVRI’/(RS+RI’), where AV is voltage gain with respect to transistor input. However when RS=0 then AVS = AV.
+Sanfoundry Global Education & Learning Series – Analog Circuits.
+To practice all areas of Analog Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Analog Circuits Questions and Answers – Characteristics of Amplifier» Next - Analog Circuits Questions and Answers – Collector Feedback Configuration 

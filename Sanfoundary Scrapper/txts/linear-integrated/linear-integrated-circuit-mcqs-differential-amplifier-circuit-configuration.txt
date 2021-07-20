@@ -1,0 +1,116 @@
+1. A Differential Amplifier should have collector resistor’s value (RC1 & RC2) as
+a) 5kΩ, 5kΩ
+b) 5Ω, 10kΩ
+c) 5Ω, 5kΩ
+d) 5kΩ, 10kΩ
+a
+2. A Differential Amplifier amplifies
+a) Input signal with higher voltage
+b) Input voltage with smaller voltage
+c) Sum of the  input voltage
+d) None of the Mentioned
+d
+3. The value of emitter resistance in Emitter Biased circuit are RE1=25kΩ & RE2=16kΩ. Find RE
+a) 9.756kΩ
+b) 41kΩ
+c) 9.723kΩ
+d) 10kΩ
+a
+⇒ RE = RE1 II RE2 = (RE1× RE2)/(RE1+RE2) = (25kΩ×16kΩ)/(25kΩ+16kΩ) = 9.7561kΩ.
+4. If output is measured between two collectors of transistors, then the Differential amplifier with two input signal is said to be configured as
+a) Dual Input Balanced Output
+b) Dual Input Unbalanced Output
+c) Single Input Balanced Output
+d) Dual Input Unbalanced Output
+a
+5.  A differential amplifier is capable of amplifying
+a) DC input signal only
+b) AC input signal only
+c) AC & DC input signal
+d) None of the Mentioned
+c
+Join Sanfoundry@YouTube
+6. In ideal Differential Amplifier, if same signal is given to both inputs, then output will be
+a) Same as input
+b) Double the input
+c) Not equal to zero
+d) Zero
+d
+⇒ Vout = Vin1-Vin2.
+7. Find the Single Input Unbalance Output configuration in following circuit diagrams :
+a) 
+b)  
+c) 
+d) 
+c
+8. An emitter bias Dual Input Balanced Output differential amplifier has VCC=20v, β=100, VBE=0.7v, RE=1.3kΩ. Find IE
+a) 7.42mA
+b) 9.8mA
+c) 10mA
+d) 8.6mA
+a
+⇒ IE = (VEE-VBE)/(2RE)  = (20v-07v)/(2×1.3kΩ) = 7.42mA.
+9. Find IC, given VCE=0.77v, VCC=10v, VBE=0.37v and RC=2.4kΩ in Dual Input Balanced Output differential amplifier
+a) 0.4mA
+b) 0.4A
+c) 4mA
+d) 4A
+c
+VCE= VCC+ VBE-RC IC
+⇒IC = (VCC-VCE+VBE)/RC  = (10v-0.77v+0.37v)/2.4kΩ  = 4mA
+10. Find the correct match
+Configuration
+Voltage gain and Input resistance
+1. Single Input Unbalanced Output
+i. Ad =  Rc/re  , Ri1 Ri2 = 2βacRE
+2. Dual Input Balanced Output
+ii. Ad= Rc/2re , Ri1 Ri2 = 2βacRE
+3. Single Input Balanced Output
+iii. Ad= Rc/re , Ri = 2βacRE
+4. Dual Input Unbalanced Output	
+iv. Ad =  Rc/2re , Ri = 2βacRE
+a) 1-i , 2-iii, 3-iv, 4-ii
+b) 1-iv, 2-ii, 3-iii, 4-i
+c) 1-ii, 2-iv, 3-i , 4-iii
+d) 1-iii, 2-i, 3-ii, 4-iv
+d
+11. Obtain the collector voltage, for collector resistor (RC) =5.6kΩ, IE=1.664mA and VCC=10v for single input unbalanced output differential amplifier
+a) 0.987v
+b) 0.682v
+c) 0.555v
+d) None of the mentioned
+b
+VC= VCC – RC×IC
+⇒ VC= 10v – 5.6kΩ×1.664mA (∵ IC ≅ IE )
+⇒ VC= 0.682v.
+12. For the circuit shown below, determine the Output voltage (Assume β=5, differential input resistance=12 kΩ)
+a) 4.33v
+b) 2.33v
+c) 3.33v
+d) 1.33v
+c
+ Differential input resistance = 2 βre,
+⇒ 12kΩ = 2×5×Re
+⇒ Re = 1.2 kΩ
+Output voltage Vo = RC/2Re(Vin1-Vin2)
+⇒ Vo =  10kΩ/(2 ×1.2kΩ) × (1.3v-0.5v)
+⇒ Vo = 3.33v. 
+13. In a Single Input Balanced Output Differential amplifier, given VCC=15v, RE = 3.9kΩ, VCE=2.4 v and re=250Ω. Determine Voltage gain
+a) 26
+b) 56
+c) 38
+d) 61
+a
+⇒ IE = (VEE-VBE)/2RE
+      =(15v-0.7v)/(2×3.9kom)=  1.83mA  (∵VCC=VEE)
+From the equation, VCE = VCC +VBE-RC×IC
+⇒ RC = (14.3v – 2.4v)/1.83mA = 6.5kΩ
+The voltage gain, Vo
+⇒ Vo = RC/re
+      = 6.5kΩ/250Ω = 26(no units).
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+» Next - Linear Integrated Circuit Questions and Answers – Operational Amplifier Internal Circuit – 1 

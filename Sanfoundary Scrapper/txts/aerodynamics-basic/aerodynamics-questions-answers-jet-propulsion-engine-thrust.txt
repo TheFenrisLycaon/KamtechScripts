@@ -1,0 +1,70 @@
+1. What forces are exerted on the body by a fluid flow?
+a) Pressure force
+b) Shear stress
+c) Pressure and shear stress
+d) Lift force
+c
+2. Thrust produced by engine is due to the shear stress distribution from the fluid.
+a) True
+b) False
+b
+3. What is the formula for net thrust of the engine?
+a) F = -&Conint;pdS
+b) F = &Conint;pdS
+c) F = -&Conint;\(\frac {dS}{p}\) 
+d) F = -&Conint;p2 dS
+a
+F = -&Conint;pdS
+Where, p is the pressure distribution
+dS is the outer surface over which it is integrated and thus vector points away from the surface
+The negative sign is present because thrust acts in the opposite direction of the acceleration.
+4. What is the static thrust for an engine as derived from the integral momentum equation?
+a) T = \(\dot {m}\)ue + Ae(pe – p0)
+b) T = \(\dot {m}\)Ae(pe – p0)
+c) T = Ae(pe – p0)
+d) T = \(\dot {m}\)Ae
+a
+∑Fx = T + Ae(p0 – pe)
+Fx = \(\dot {m}\)ue
+Thus, solving the equations we get,
+T + Ae(p0 – pe) = \(\dot {m}\)ue
+On rearranging the terms we get,
+T = \(\dot {m}\)ue + Ae(pe – p0)
+5. What is the thrust of an engine if the inlet and exhaust mass flow rate are 150 kg/s and 190 kg/s respectively with the pressure difference between the exhaust and ambient air is 1.85 × 104? The exhaust area is 2m2, the ambient and exhaust velocities are 280 m/s and 400 m/s.
+a) 50 kN
+b) 62 kN
+c) 71 kN
+d) 84 kN
+c
+Ve = 400 m/s.
+The thrust equation is given by:
+T = \(\dot {m}\)eVe – \(\dot {m}\)iV∞ + Ae(pe – p∞)
+Substituting the values, we get
+T = 190 × 400 – 150 × 280 + 2(1.85 × 104)
+T = 76,000 – 42,000 + 37,000 = 71 kN
+6. The integral form of the conservative equation is used for computing thrust of an engine.
+a) True
+b) False
+a
+7. Integral form of momentum equation cannot replace the need for theoretical and experimental measurements.
+a) True
+b) False
+b
+8. What happens to the integral ∫dS when the area of exhaust is less than the area of inlet?
+a) Positive
+b) Negative
+c) Zero
+d) Infinity
+b
+9. What causes thrust of an engine?
+a) Change in momentum
+b) Difference in lift distribution
+c) Difference in drag distribution
+d) Mass flow entering the engine
+a
+Sanfoundry Global Education & Learning Series – Aerodynamics.
+To practice all areas of Aerodynamics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Aerodynamics Questions and Answers – Turbulence Modelling» Next - Aerodynamics Questions and Answers – Governing Equations 

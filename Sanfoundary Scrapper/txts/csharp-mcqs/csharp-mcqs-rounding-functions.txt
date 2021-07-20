@@ -1,0 +1,78 @@
+1. Which among the given classes provides types of rounding functions?
+a) Math
+b) Process
+c) System
+d) Object
+a
+2. Which of these methods is a rounding function of Math class?
+a) Max()
+b) Min()
+c) Abs()
+d) Round()
+d
+3. Which of these classes contains only floating point functions?
+a) Math
+b) Process
+c) System
+d) Object
+a
+4. Which of these method returns a smallest whole number greater than or equal to variable X?
+a) double Ciel(double X)
+b) double Floor(double X)
+c) double Max(double X)
+d) double Min(double X)
+a
+5. Which of these methods return a largest whole number less than or equal to variable X?
+a) double Ciel(double X)
+b) double Floor(double X)
+c) double Max(double X)
+d) double Min(double X)
+b
+6. Which of the following functions return absolute value of a variable?
+a) Abs()
+b) Absolute()
+c) absolutevariable()
+d) None of the mentioned
+a
+7. What will be the output of the following C# code snippet?
+ public class A {     public int x;     public int y;     public void display()      {         Console.WriteLine(x + " " + y);     } } class Program {     static void Main(string[] args)     {         A obj1 = new A();         A obj2 = new A();         obj1.x = 1;         obj1.y = 2;         obj2 = obj1;         obj1.display();         obj2.display();     } }
+a) 1 2 0 0
+b) 1 2 1 2
+c) 0 0 0 0
+d) Run time exception
+b
+Output:
+ 1 2 1 2
+8. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        double x = 3.14;          int y = (int) Math.Abs(x);        Console.WriteLine(y);    }}
+a) 0
+b) 3
+c) 3.0
+d) 3.1
+b
+Output:
+  3
+9. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        double x = 3.14;          int y = (int) Math.Ceiling(x);        Console.WriteLine(y);    }}
+a) 0
+b) 3
+c) 3.0
+d) 4
+d
+Output:
+ 4
+10. What will be the output of the following C# code snippet?
+class Program{    static void Main(string[] args)    {        double x = 3.14;          int y = (int) Math.Floor(x);        Console.WriteLine(y);    }}
+a) 0
+b) 3
+c) 3.0
+d) 4
+b
+Output:
+ 3
+Sanfoundry Global Education & Learning Series – C# Programming Language.
+C# Practice ResourcesC# Mock Tests & Certification Test | 1000 C# MCQs | 1000 C# Programs | Best C# Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C# Question & Answers – Maths Class» Next - C# Questions & Answers – Multithreaded Programming – 1 

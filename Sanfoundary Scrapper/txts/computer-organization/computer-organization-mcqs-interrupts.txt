@@ -1,0 +1,106 @@
+1. The interrupt-request line is a part of the ___________
+a) Data line
+b) Control line
+c) Address line
+d) None of the mentioned
+b
+2. The return address from the interrupt-service routine is stored on the ___________
+a) System heap
+b) Processor register
+c) Processor stack
+d) Memory
+c
+3. The signal sent to the device from the processor to the device after receiving an interrupt is ___________
+a) Interrupt-acknowledge
+b) Return signal
+c) Service signal
+d) Permission signal
+a
+4. When the process is returned after an interrupt service ______ should be loaded again.
+i) Register contents
+ii) Condition codes
+iii) Stack contents
+iv) Return addresses
+a) i, iv
+b) ii, iii and iv
+c) iii, iv
+d) i, ii
+d
+5. The time between the receiver of an interrupt and its service is ______
+a) Interrupt delay
+b) Interrupt latency
+c) Cycle time
+d) Switching time
+b
+6. Interrupts form an important part of _____ systems.
+a) Batch processing
+b) Multitasking
+c) Real-time processing
+d) Multi-user
+c
+7. A single Interrupt line can be used to service n different devices.
+a) True
+b) False
+a
+8. ______ type circuits are generally used for interrupt service lines.
+i) open-collector
+ii) open-drain
+iii) XOR
+iv) XNOR
+a) i, ii
+b) ii
+c) ii, iii
+d) ii, iv
+a
+9. The resistor which is attached to the service line is called _____
+a) Push-down resistor
+b) Pull-up resistor
+c) Break down resistor
+d) Line resistor
+b
+10. An interrupt that can be temporarily ignored is ___________
+a) Vectored interrupt
+b) Non-maskable interrupt
+c) Maskable interrupt
+d) High priority interrupt
+c
+11. The 8085 microprocessor responds to the presence of an interrupt ___________
+a) As soon as the trap pin becomes ‘LOW’
+b) By checking the trap pin for ‘high’ status at the end of each instruction fetch
+c) By checking the trap pin for ‘high’ status at the end of execution of each instruction
+d) By checking the trap pin for ‘high’ status at regular intervals
+c
+12. CPU as two modes privileged and non-privileged. In order to change the mode from privileged to non-privileged.
+a) A hardware interrupt is needed
+b) A software interrupt is needed
+c) Either hardware or software interrupt is needed
+d) A non-privileged instruction (which does not generate an interrupt)is needed
+b
+13. Which interrupt is unmaskable?
+a) RST 5.5
+b) RST 7.5
+c) TRAP
+d) Both RST 5.5 and 7.5
+c
+14. From amongst the following given scenarios determine the right one to justify interrupt mode of data transfer.
+i) Bulk transfer of several kilo-byte
+ii) Moderately large data transfer of more than 1kb
+iii) Short events like mouse action
+iv) Keyboard inputs
+a) i and ii
+b) ii
+c) i, ii and iv
+d) iv
+d
+15. How can the processor ignore other interrupts when it is servicing one ___________
+a) By turning off the interrupt request line
+b) By disabling the devices from sending the interrupts
+c) BY using edge-triggered request lines
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Computer Organization and Architecture.
+To practice all areas of Computer Organization and Architecture, here is complete set on 1000+ Multiple Choice Questions and Answers on Computer Organization and Architecture.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Computer Organization Questions and Answers – Accessing I/O Devices» Next - Computer Organization Questions and Answers – Interrupts – 2 

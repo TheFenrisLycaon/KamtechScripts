@@ -1,0 +1,58 @@
+1. When does the op-amp said to operate in common-mode configuration?
+a) When the input voltage are equal
+b) When input voltage is equal to the output voltage
+c) When same voltage is applied to both input terminal of an op-amp
+d) When different voltage is applied to both input and terminal of an op-amp
+c
+2. Common mode voltage gain of an op-amp is generally
+a) >1
+b) =1
+c) <1
+d) None of the mentioned
+c
+3. Find the op-amp common mode configuration
+b
+4. Calculate the common-mode voltage gain for the circuit
+a) 30*10-3
+b) 17*10-3
+c) 51*10-3
+d) 2.4*10-3
+d
+5. Define the common-mode rejection ratio (CMRR) of op-amp?
+a) CMRR=AD/ACM
+b) CMRR=ACM/ AD
+c) CMRR=VOCM/ACM
+d) CMRR=AD*ACM
+a
+6. Determine the common mode output voltage .Given CMRR=65db
+a) 2.81mV
+b) 281.17mV
+c) 28.11mV
+d) 0.281mV
+b
+WKT, CMRR =( AD* VCM)/ VOCM= 20logCMRR = 65db = 10(65/20) = 1778.28
+=> Common mode output voltage, VOCM= ( AD* VCM)/CMRR  = (10*5mV)/1778.28= 281.17mV.
+7. Find the correct equation for common-mode rejection ratio
+a) CMRR = 20log(AD/ ACM)
+b) CMRR = 20log(Vio/ VCM)
+c) CMRR = (AD* VCM)/ VOCM
+d) All of the mentioned
+d
+8. When an op-amp exhibits poor common mode rejection?
+a) Small common mode output voltage
+b) Large common mode output voltage
+c) Negligible common mode output voltage
+d) None of the mentioned
+b
+9.  Higher value of common mode rejection ratio can be reached
+a) By reducing the common mode voltage
+b) By decreasing the differential gain
+c) By reducing the common mode input voltage
+d) All of the mentioned
+d
+Sanfoundry Global Education & Learning Series – Linear Integrated Circuits.
+To practice all areas of Linear Integrated Circuits, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Linear Integrated Circuit Questions and Answers – Noise» Next - Linear Integrated Circuit Questions and Answers – Frequency Response and Compensating Networks 

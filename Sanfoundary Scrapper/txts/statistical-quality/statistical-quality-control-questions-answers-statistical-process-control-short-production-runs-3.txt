@@ -1,0 +1,101 @@
+1. What is the statistic used to plot on control chart for a standardized p-chart for short production runs?
+a) \(Z_i=\frac{\hat{p}_i+\bar{p}}{\frac{\sqrt{\bar{p}(1+\bar{p})}}{n}}\) 
+b) \(Z_i=\frac{\hat{p}_i-\bar{p}}{\frac{\sqrt{\bar{p}(1-\bar{p})}}{n}}\) 
+c) \(Z_i=\frac{\hat{p}_i-\bar{p}}{\frac{\sqrt{\bar{p}(1+\bar{p})}}{n}}\) 
+d) \(Z_i=\frac{\hat{p}_i+\bar{p}}{\frac{\sqrt{\bar{p}(1-\bar{p})}}{n}}\) 
+b
+\(Z_i=\frac{\hat{p}_i-\bar{p}}{\frac{\sqrt{\bar{p}(1-\bar{p})}}{n}}\)
+2. What is the value of standard deviation for the standardized p-chart for short production runs?
+a) \(\sqrt{\frac{\bar{p}(1-\bar{p})}{n}}\) 
+b) \(\sqrt{\frac{\bar{p}(1+\bar{p})}{n}}\) 
+c) \(\sqrt{\frac{\bar{p}(\bar{p}-1)}{n}}\) 
+d) \(\sqrt{\frac{\bar{p}(1-\bar{p})}{2n}}\) 
+a
+\(\sqrt{\frac{\bar{p}(1-\bar{p})}{n}}\)
+3. What is the standard deviation value for the standardized c chart used for the short production runs?
+a) \(\sqrt{c}\) 
+b) \(\sqrt{\bar{c}}\) 
+c) \(\bar{c}\) 
+d) \(\hat{c}\) 
+b
+\(\sqrt{\bar{c}}\)
+4. What is the value of the statistic to be plotted on the standardized c-chart which is designed to run in the short production?
+a) \(Z_i=\frac{c_i+2\bar{c}}{\sqrt{\bar{c}}}\) 
+b) \(Z_i=\frac{c_i-2\bar{c}}{\sqrt{\bar{c}}}\) 
+c) \(Z_i=\frac{c_i-\bar{c}}{\sqrt{\bar{c}}}\) 
+d) \(Z_i=\frac{c_i+\bar{c}}{\sqrt{\bar{c}}}\) 
+b
+\(Z_i=\frac{c_i-2\bar{c}}{\sqrt{\bar{c}}}\)
+5. What is the value of the target value for the number nonconforming chart?
+a) np
+b) 2p
+c) 3p
+d) 2np
+a
+6. The attribute ui when plotted on standardized control chart for short production runs, the statistic plotted on the chart has the value equal to __________
+a) \(Z_i=\frac{u_i-\bar{u}}{\sqrt{\frac{\bar{u}}{n}}}\) 
+b) \(Z_i=\frac{u_i+2\bar{u}}{\sqrt{\frac{\bar{u}}{n}}}\) 
+c) \(Z_i=\frac{u_i+\bar{u}}{\sqrt{\frac{\bar{u}}{n}}}\) 
+d) \(Z_i=\frac{u_i-2\bar{u}}{\sqrt{\frac{\bar{u}}{n}}}\) 
+a
+\(Z_i=\frac{u_i-\bar{u}}{\sqrt{\frac{\bar{u}}{n}}}\)
+7. What is the standard deviation of the number of nonconformities per unit, when the standardized u-chart is used for monitoring the process?
+a) \(\sqrt{\frac{\bar{u}}{2n}}\) 
+b) \(\sqrt{\frac{\bar{u}}{n}}\) 
+c) \(\frac{\sqrt{u}}{n}\) 
+d) \(\sqrt{\bar{u}}\) 
+b
+standard deviation=\(\sqrt{\frac{\bar{u}}{n}}\)
+8. What is the value of the statistic plotted on the standardized np-chart?
+a) \(z_i=\frac{n\hat{p}_i+n\bar{p}}{\sqrt{n\bar{p}(1+\bar{p})}}\) 
+b) \(z_i=\frac{n\hat{p}_i-n\bar{p}}{\sqrt{n\bar{p}(1+\bar{p})}}\) 
+c) \(z_i=\frac{n\hat{p}_i+n\bar{p}}{\sqrt{n\bar{p}(1-\bar{p})}}\) 
+d) \(z_i=\frac{n\hat{p}_i-n\bar{p}}{\sqrt{n\bar{p}(1-\bar{p})}}\) 
+d
+\(z_i=\frac{n\hat{p}_i-n\bar{p}}{\sqrt{n\bar{p}(1-\bar{p})}}\)
+9. The upper limit of the standardized c-chart for short production runs is ________
+a) 1
+b) 2
+c) -3
+d) +3
+d
+10. The LCL of the standardized p-chart is ________
+a) -2
+b) +3
+c) -1
+d) -3
+d
+11. The center line of the np-chart is at _______
+a) -2
+b) +2
+c) 0
+d) 3
+c
+12. Which of these correctly shows the correct values for standardized u-chart in the order of CL, UCL and LCL?
+a) 0, 3 and -3
+b) 3, 0 and -3
+c) 0, -3 and 3
+d) -3, 0 and 3
+a
+13. Which of these does not have the LCL and UCL at ∓3?
+a) Standardized u-chart
+b) Standardized R-chart
+c) Standardized c-chart
+d) Standardized p-chart
+b
+14. The values of control limits for the standardized c-chart are different from the control limits of the standardized p-chart.
+a) True
+b) False
+b
+15. The control limits for the p-chart and the standardized p-chart are different.
+a) True
+b) False
+a
+\(p \pm 3\sqrt{\frac{p(1-p)}{n}}\) 
+Here p is the fraction nonconforming value. Whereas, the standardized p-chart has its control limits at ±3 values. 
+Sanfoundry Global Education & Learning Series – Statistical Quality Control.
+To practice all areas of Statistical Quality Control, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Statistical Quality Control Questions and Answers – Control Charting Techniques – Statistical Process Control for Short Production Runs – 2» Next - Statistical Quality Control Questions and Answers – Control Charting Techniques – Statistical Process Control for Short Production Runs – 4 

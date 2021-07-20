@@ -1,0 +1,49 @@
+1. _________ is a binary serialization format used to store documents and make remote procedure calls in MongoDB.
+a) BSON
+b) GridFS
+c) JSON
+d) None of the mentioned
+a
+2. Point out the correct statement.
+a) ObjectIds are small, likely unique, fast to generate, and ordered
+b) ObjectIds are large, likely unique, and ordered
+c) ObjectIds values consists of 18-byte
+d) All of the mentioned
+a
+3. Which of the following data type is depreciated?
+a) Double
+b) String
+c) Object
+d) Undefined
+d
+4. Each data type has a corresponding number that can be used with the _______ operator to query documents by BSON type.
+a) $type
+b) $server
+c) $agent
+d) None of the mentioned
+a
+5. Point out the wrong statement.
+a) BSON Date is a 32-bit integer that represents the number of milliseconds
+b) The BSON timestamp type is for internal MongoDB use
+c) If you need to query the database for exact, mathematically valid matches, use Ambiguity Precision
+d) None of the mentioned
+a
+6. There is _________ byte counter in BSON, starting with a random value.
+a) 2
+b) 3
+c) 4
+d) None of the mentioned
+b
+7. In the mongo shell, you can access the creation time of the ObjectId, using the ______ method.
+a) getTime()
+b) getTimestamp()
+c) Timestamp()
+d) None of the mentioned
+b
+Sanfoundry Global Education & Learning Series – MongoDB.
+Here’s the list of Best Reference Books in MongoDB.
+To practice all areas of MongoDB, Here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MongoDB Questions and Answers – GridFS» Next - MongoDB Questions and Answers – ObjectId 

@@ -1,0 +1,54 @@
+1. Which of the following elements are used for structural and fatigue analysis?
+a) Triangular Elements
+b) Quadrilateral Elements
+c) Shell type Elements
+d) Pentagonal Elements
+b
+2. In conjugate gradient implementation of quadrilateral elements the stiffness of each element is stored in three dimensional arrays.
+a) True
+b) False
+a
+3. The total number of dofs in quadrilateral element is ______
+a) thirty six
+b) eighteen
+c) twenty four
+d) forty two
+c
+Number of nodes in quadrilateral element=4
+Total number of dofs=6*4=24
+4. Which of the following statement is false?
+a) Linear quad element is more accurate than linear tria element
+b) Linear tria element is more accurate than linear quad element
+c) Parabolic elements are better than linear elements
+d) Parabolic quad element has eight codes
+b
+5. Which of the following statements about warp angle is not true?
+a) It is a not applicable for tria elements
+b) It is an angle formed between two normal of planes formed by splitting quad element along diagonal
+c) Its value should be less than 10°
+d) It is the minimum angle between the planes of diagonally split quad element
+d
+6. Acceptable included angle for quad elements lies between 45° and 135°.
+a) True
+b) False
+a
+7. Which of the following is the correct expression for calculating skew of quadrilateral element?
+a) Skew=90°+minimum angle formed by joining opposite mid sides of quad element
+b) Skew=90°-minimum angle formed by joining opposite mid sides of quad element
+c) Skew=90°*minimum angle formed by joining opposite mid sides of quad element
+d) Skew=90°/minimum angle formed by joining opposite mid sides of quad element
+b
+8. Which of the following is the correct expression for calculating skew of quadrilateral element?
+a) Stretch=Lmin*(20.5/dmax)
+b) Stretch=Lmin+(20.5/dmax)
+c) Stretch=Lmin-(20.5/dmax)
+d) Stretch=Lmin *(20.5+dmax)
+a
+Stretch=Lmin*(20.5/dmax)
+Here Lmin is length of minimum side of quad element, and dmax is the length of maximum diagonal of quad element. Ideally its value should be 1, but values greater than 0.2 are acceptable.
+Sanfoundry Global Education & Learning Series – Finite Element Method.
+To practice all areas of Finite Element Method for Interviews,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Finite Element Method Questions and Answers – Four Node Quadrilateral for Axis Symmetric Problems» Next - Finite Element Method Questions and Answers – Beams and Frames – Finite Element Formulation 

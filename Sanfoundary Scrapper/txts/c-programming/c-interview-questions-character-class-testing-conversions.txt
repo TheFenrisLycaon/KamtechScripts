@@ -1,0 +1,55 @@
+Sanfoundry’s 1000+ Technical Questions and Answers on C helps people preparing for Job Interviews. One should practice these 1000+ questions continuously for 2-3 months, thereby ensuring a top position in Technical rounds in C Programming language. 
+Here is a listing of C interview questions on “Character Class Testing & Conversions” along with answers, explanations and/or solutions:
+1. Which is true about isaplpha(c), where c is an int that can be represented as an unsigned?
+char or EOF.isalpha(c) returns
+a) Non-zero if c is alphabetic
+b) 0 if c is not alphabetic
+c) Both Non-zero if c is alphabetic & 0 if c is not alphabetic
+d) None of the mentioned
+c
+2. Which is true about isupper(c), where c is an int that can be represented as an unsigned?
+char or EOF.isupper(c) returns
+a) Non-zero if c is upper case
+b) 0 if c is not upper case
+c) Nothing
+d) Both Non-zero if c is upper case & 0 if c is not upper case
+d
+3. Which is true about isalnum(c), where c is an int that can be represented as an unsigned?
+ char or EOF.isalnum(c) returns
+a) Non-zero if isalpha(c) or isdigit(c)
+b) 0 if not isalpha(c) or not isdigit(c)
+c) Both Non-zero if isalpha(c) or isdigit(c) & 0 if not isalpha(c) or not isdigit(c)
+d) None of the mentioned
+c
+4. What will be the output of the following C code?
+    #include <stdio.h>    #include <ctype.h>    int main()    {        char c = 't';        printf("%d\n", isspace(c));    }
+a) Non-zero number
+b) Nothing
+c) Error
+d) t
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    #include <ctype.h>    int main()    {        char c = 't';        printf("is :%c\n", tolower('A'));    }
+a) A
+b) a
+c) Non-zero number
+d) Zero
+b
+6. Which types of input are accepted in toupper(c)?
+a) char
+b) char *
+c) float
+d) Both char and char *
+a
+7. What is the difference in the ASCII value of capital and non-capital of the same letter is?
+a) 1
+b) 16
+c) 32
+d) Depends with compiler
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Character Class Testing & Conversions – 1» Next - C Programming Questions and Answers – Ungetc – 1 

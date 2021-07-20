@@ -1,0 +1,66 @@
+1. The number of hardware interrupts that the processor 8085 consists of is
+a) 1
+b) 3
+c) 5
+d) 7
+c
+2. The register that stores all the interrupt requests in it in order to serve them one by one on a priority basis is
+a) Interrupt Request Register
+b) In-Service Register
+c) Priority resolver
+d) Interrupt Mask Register
+a
+3. The register that stores the bits required to mask the interrupt inputs is
+a) In-service register
+b) Priority resolver
+c) Interrupt Mask register
+d) None
+c
+4. The interrupt control logic
+a) manages interrupts
+b) manages interrupt acknowledge signals
+c) accepts interrupt acknowledge signal
+d) all of the mentioned
+d
+5. In a cascaded mode, the number of vectored interrupts provided by 8259A is
+a) 4
+b) 8
+c) 16
+d) 64
+d
+6. When the PS(active low)/EN(active low) pin of 8259A used in buffered mode, then it can be used as a
+a) input to designate chip is master or slave
+b) buffer enable
+c) buffer disable
+d) none
+b
+7. Once the ICW1 is loaded, then the initialization procedure involves
+a) edge sense circuit is reset
+b) IMR is cleared
+c) slave mode address is set to 7
+d) all of the mentioned
+d
+i) edge sense circuit is reset.
+ii) IMR is cleared.
+iii) IR7 input is assigned the lowest priority.
+iv) slave mode address is set to 7
+v) special mask mode is cleared and the status read is set to IRR.
+8. When non-specific EOI command is issued to 8259A it will automatically
+a) set the ISR
+b) reset the ISR
+c) set the INTR
+d) reset the INTR
+b
+9. In the application where all the interrupting devices are of equal priority, the mode used is
+a) Automatic rotation
+b) Automatic EOI mode
+c) Specific rotation
+d) EOI
+a
+Sanfoundry Global Education & Learning Series – Microprocessors.
+Here’s the list of Best Reference Books in Microprocessors.
+To practice all areas of Microprocessors, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Microprocessors Questions and Answers – Programmable Interval Timer 8254» Next - Microprocessors Questions and Answers – the Keyboard/Display Controller 8279 

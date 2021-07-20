@@ -1,0 +1,63 @@
+1. Bulk loading is less efficient than single row loading.
+a) True
+b) False
+b
+2. Loading is faster when a table has no indexes than when it is indexed.
+a) True
+b) False
+a
+3. Which is more efficient?
+LOAD DATA, INSERT
+a) LOAD DATA
+b) INSERT
+c) Same
+d) Indeterminate
+a
+4. Without LOCAL, LOAD DATA is _________________
+a) more efficient
+b) less efficient
+c) same speed
+d) arbitrary
+a
+5. Which option turns on the –extended-insert?
+a) –opt
+b) –opti
+c) –op
+d) –optimize
+a
+6. Which table option for MyISAM tables reduces index flushing?
+a) DELAY_KEY_WRITE
+b) DELAY_WRITE_KEY
+c) KEY_WRITE_DELAY
+d) WRITE_KEY_DELAY
+a
+7. Which option repairs MyISAM tables automatically after they open?
+a) –myisam-recover=FORCE
+b) –myisam-recover=STOP
+c) –recover-myisam=FORCE
+d) –recover-myisam=STOP
+a
+8. The option which delays index flushing for slave server is _________________
+a) –delay-write-key=ALL
+b) –delay-key-write=ALL
+c) –key-write-delay=NONE
+d) –key-delay-write=NONE
+b
+9. TO enable the compressed client/server protocol the option is _________________
+a) –enable
+b) –compress
+c) –reduce
+d) –restrict
+b
+10. To reactivate indexes the command used is _________________
+a) DISABLE KEYS
+b) DISABLE INDEXES
+c) ENABLE KEYS
+d) ENABLE INDEXES
+c
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Choosing Data Types for Efficient Queries» Next - MySQL Questions and Answers – Scheduling and Locking Issues 

@@ -1,0 +1,126 @@
+1. For the function f(x) = x2 – 2x + 1. We have Rolles point at x = 1. The coordinate axes are then rotated by 45 degrees in anticlockwise sense. What is the position of new Rolles point with respect to the transformed coordinate axes?
+a) 3⁄2
+b) 1⁄2
+c) 5⁄2
+d) 1
+view answerAnswer: a
+Hence differentiating the function and equating to tan(45).
+We have
+f'(x) = tan(45) = 2x – 2
+2x – 2 = 1
+x = 3⁄2.
+2. For the function f(x) = x3 + x + 1. We do not have any Rolles point. The coordinate axes are transformed by rotating them by 60 degrees in anti-clockwise sense. The new Rolles point is?
+a) \(\frac{\sqrt{3}}{2}\) 
+b) The function can never have a Rolles point
+c) \(3^{\frac{1}{2}}\) 
+d) \(\sqrt{\frac{\sqrt{3}-1}{3}}\) 
+view answerAnswer: d
+where we have f'(x) = tan(60)
+We have
+f'(x) = 3x2 + 1 = tan(60)
+3x2 = √3 – 1
+x=\(\sqrt{\frac{\sqrt{3}-1}{3}}\)
+3. What is the minimum angle by which the coordinate axes have to be rotated in anticlockwise sense (in Degrees), such that the function f(x) = 3x3 + 5x + 1016 has at least one Rolles point
+a) π⁄180 tan-1(5)
+b) tan-1(5)
+c) 180⁄π tan-1(5)
+d) -tan-1(5)
+view answerAnswer: c
+the point in the domain of the original function where we have f'(x) = tan(α)
+Let the angle to be rotated be α
+We have
+f'(x) = 9x2 + 5 = tan(α)
+9x2 = tan(α) – 5
+For the given function to have a Lagrange point we must have the right hand side be greater than zero, so
+tan(α) – 5 > 0
+tan(α) > 5
+α > tan-1(5)
+In degrees we must have,
+αdeg > 180⁄π tan-1(5).
+4. For a third degree monic polynomial, it is seen that the sum of roots are zero. What is the relation between the minimum angle to be rotated to have a Rolles point (α in Radians) and the cyclic sum of the roots taken two at a time c
+a) α = π⁄180 * tan-1(c)
+b) Can never have a Rolles point
+c) α = 180⁄π tan-1(c)
+d) α = tan-1(c)
+view answerAnswer: d
+y = x3 + (0) * x2 + c * x + d
+Now the question asks us to relate α and c
+Where c is indeed the cyclic sum of two roots taken at a time by Vietas formulae
+As usual, Rolles point in the rotated domain equals the Lagrange point in the existing domain. Hence, we must have
+y ‘ = tan(α)
+3x2 + c = tan(α)
+To find the minimum angle, we have to find the minimum value of α
+ such that the equation formed above has real roots when solved for x.
+So, we can write
+tan(α) – c > 0
+tan(α) > c
+α > tan-1(c)
+Thus, the minimum required angle is
+α = tan-1(c).
+5. For the infinitely defined discontinuous function
+\(\begin{cases}x+sin(2x)& :x\in [0,\pi] \\ x+sin(4x)& :x\in (\pi,2\pi] \\ x+sin(6x)& :x\in (2\pi,3\pi] \\.\\.\\x+sin(2nx)& :x\in [(n-1)\pi,n\pi)\\.\\.\end{cases}\) 
+How many points c∈[0,16x] exist, such that f'(c) = 1
+a) 256
+b) 512
+c) 16
+d) 0
+view answerAnswer: a
+We need to check points on graph where slope remains the same (45 degrees)
+In every interval of the form [(n – 1)π, nπ] we must have 2n – 1 points
+Because sine curve there has frequency 2n and the graph is going to meet the graph y = x at 2n points.
+Hence, in the interval [0, 16π] we have
+= 1 + 3 + 5…….(16terms)
+=(16)2 = 256.
+6. Let g(x) be periodic and non-constant, with period τ. Also we have g(nτ) = 0 : n ∈ N. The function f(x) is defined as
+f(x)=\(\begin{cases}2x+g(2x)& :x\in [0,\tau] \\ 2x+g(4x)& :x\in (\tau,2\tau] \\2x+g(6x)& :x\in (2\tau,3\tau]\\.\\.\\2x+g(2nx)& :x\in [(n-1)\tau,n\tau)\\.\\.
+\end{cases}\) 
+How many points c ∈ [0, 18τ] exist such that f'(c) = tan-1(2)
+a) 325
+b) 323
+c) 324
+d) 162
+view answerAnswer: c
+We need to check points on the graph such that the slope remains the same ( tan-1(2) radians)
+In every interval of the form [(n – 1)τ, nτ] we must have 2n points on the graph because the frequency of periodic function in that interval is 2n and we have g(nτ) = 0
+And we have 2n – 1
+Lagrange points in the interval  [(n – 1)τ, nτ] 
+The total number of such points in the interval [0, 18τ] is given by
+ = 1 + 3 + 5…….(18 terms)
+ = (18)2 = 324.
+7. Let f(x)=\(x-\frac{x^3}{3^2.2!}+\frac{x^5}{5^2.4!}-\frac{x^7}{7^2.6!}+…\infty\). Find a point nearest to c such that f'(c) = 1
+a) 1
+b) 0
+c) 2.3445 * 10-9
+d) 458328.33 * 10-3
+view answerAnswer: d
+f'(x)=1-\(\frac{x^2}{3!}+\frac{x^4}{5!}-\frac{x^6}{7!}+…\infty\) 
+Multiplying and dividing by x We have the well known series expansion of \(\frac{sin(x)}{x}\)  
+We get
+f'(x)=\(\frac{1}{x}\times (x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+…\infty)\) 
+f'(x)=\(\frac{sin(x)}{x}\) 
+Equating this to 1 We have
+ \(\frac{sin(x)}{x}\) = 1
+We know the well known limit   \(lim_{x \rightarrow 0} \frac{sin(x)}{x}\) = 1
+Thus we have to choose a point nearer to 0 as our answer which is,
+458328.33 * 10-3.
+8. A function f(x) with n roots should have n – 1 unique Lagrange points.
+a) True
+b) False
+view answerAnswer: b
+9. Let f(x)=\(\frac{x^{100}}{100}+\frac{x^{101}}{101}+…\infty\). Find a point c ∈ (- ∞, ∞) such that f'(c) = 0
+a) 1
+b) 2
+c) 0
+d) -1
+view answerAnswer: c
+Using geometric series we have
+f'(x)=\(\frac{x^{99}}{1-x}\) 
+Equating to 0 we have
+x99 = 0
+Observe that x = 0 satisfies the equation. Neglect other roots as they are complex roots.
+ Sanfoundry Global Education & Learning Series – Engineering Mathematics.
+To practice all areas of Engineering Mathematics, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Engineering Mathematics Questions and Answers – Rolle’s Theorem – 2» Next - Engineering Mathematics Questions and Answers – Lagrange’s Mean Value Theorem – 2 

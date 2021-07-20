@@ -1,0 +1,73 @@
+1. Which of the following is only a predefined type kind attribute?
+a) ‘TYPE
+b) ‘BASE
+c) ‘RANGE
+d) ‘RIGHT
+b
+2. T’BASE attribute can be used with another attribute only.
+a) True
+b) False
+a
+3. What will x’BASE and y’BASE return in the code given below?
+TYPE color IS (red, blue, green, yellow, brown)
+SUBTYPE color_gun IS color RANGE red TO green
+VARIABLE x : color;
+VARIABLE y : color_gun;
+a) color, color_gun
+b) color_gun, color
+c) color, color
+d) red, color
+c
+4. What will be the value of a in the statements given below?
+TYPE color IS (red, green, blue, yellow, brown, black);
+VARIABLE a : color;
+a := color’BASE’RIGHT;
+…
+a) red
+b) color
+c) green
+d) black
+d
+5. How many predefined attributes are there which are range kind attributes?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+6. The object of a range kind attribute can be __________
+a) Any signal, variable or constant
+b) An array
+c) A constrained array
+d) An unconstrained array
+c
+7. Which of the following is the most appropriate use of range kind attributes?
+a) In implementing CASE
+b) In implementing LOOP
+c) In implementing IF
+d) In implementing ASSERT
+b
+8. What will be the value of array16’RANGE and array16’REVERSE_RANGE, if the array16 is an object defined as below?
+TYPE array16 IS ARRAY(15 DOWNTO 0) OF BIT
+a) 15 DOWNTO 0, 0 TO 15
+b) 0 TO 15, 15 DOWNTO 0
+c) 0 TO 15, 0 TO 15
+d) 15 DOWNTO 0, 15 DOWNTO 0
+a
+9. Which of the following is a new predefined attribute in VHDL 93?
+a) T’BASE
+b) T’RANGE
+c) T’EVENT
+d) T’ASCENDING
+d
+10. Which of the following attribute is not synthesizable?
+a) ‘RANGE
+b) ‘EVENT
+c) ‘BASE
+d) ‘REVERSE_RANGE
+c
+Sanfoundry Global Education & Learning Series – VHDL.
+To practice all areas of VHDL, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - VHDL Questions and Answers – Signal Kind Attributes» Next - VHDL Questions and Answers – Configurations 

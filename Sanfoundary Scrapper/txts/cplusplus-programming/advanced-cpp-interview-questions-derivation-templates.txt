@@ -1,0 +1,98 @@
+This section on advanced C++ interview questions focuses on “Derivation and Templates”. One shall practice these advanced C++ questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our advanced C++ questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of advanced C++ interview questions on “Derivation and Templates” along with answers, explanations and/or solutions:
+1. Which is dependant on template parameter?
+a) base class
+b) abstract class
+c) method
+d) static class
+a
+2. Which value is placed in the base class?
+a) derived values
+b) default type values
+c) both default type & derived values
+d) null value
+b
+3. How many bits of memory needed for internal representation of class?
+a) 1
+b) 2
+c) 4
+d) no memory needed
+d
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class class0     {        public:        virtual ~class0(){}        protected:        char p;        public:        char getChar();    };    class class1 : public class0     {        public:        void printChar();    };    void class1::printChar()    {        cout  << "True" << endl;    }    int main()     {        class1 c;        c.printChar();        return 1;    }
+a) True
+b) error
+c) no output
+d) runtime error
+a
+$ g++ dert.cpp
+$ a.out
+True
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;     template<typename T>class clsTemplate    {        public:        T value;        clsTemplate(T i)        {            this->value = i;        }    void test()    {        cout << value << endl;    }    };    class clsChild : public clsTemplate<char>    {        public:        clsChild(): clsTemplate<char>( 0 )        {        }        clsChild(char c): clsTemplate<char>( c )        {            }    void test2()    {        test();    }    };    int main()    {        clsTemplate <int> a( 42 );        clsChild b( 'A' );        a.test();        b.test();        return 0;    }
+a) 42
+b) A
+c) 
+42
+A
+d) 
+A
+42
+c
+Output:
+$ g++ dert.cpp
+$ a.out
+42
+A
+  
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    template <class T>    class A    {        public:        A(int a): x(a) {}        protected:        int x;    };    template <class T>    class B: public A<char>    {        public:        B(): A<char>::A(100)         {            cout << x * 2 << endl;        }    };    int main()    {        B<char> test;        return 0;    }
+a) 100
+b) 200
+c) error
+d) runtime error
+b
+Output:
+$ g++ dert2.cpp
+$ a.out
+200
+7. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    template <class type>    class Test    {        public:        Test();        ~Test();        type Data(type);    };    template <class type>    type Test<type>::Data(type Var0)    {        return Var0;    }    template <class type>    Test<type>::Test()    {    }    template <class type>    Test<type>::~Test()    {    }    int main(void)    {        Test<char> Var3;        cout << Var3.Data('K') << endl;        return 0;    }
+a) k
+b) l
+c) error
+d) runtime error
+a
+Output:
+$ g++ dert3.cpp
+$ a.out
+k
+8. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    class Base    {        public:        Base ( )        {            cout << "1" << endl;        }        ~Base ( )        {            cout << "2" << endl;        }    };    class Derived : public Base    {        public:        Derived  ( )        {            cout << "3" << endl;        }        ~Derived ( )        {            cout << "4" << endl;        }        };     int main( )    {        Derived x;    }
+a) 1234
+b) 4321
+c) 1423
+d) 1342
+d
+Output:
+$ g++ dert4.cpp
+$ a.out
+1342
+9. How many kinds of entities are directly parameterized in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+10. How many kinds of parameters are there in C++?
+a) 1
+b) 2
+c) 3
+d) 5
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Specialization» Next - C++ Programming Questions and Answers – Standard Template Library 

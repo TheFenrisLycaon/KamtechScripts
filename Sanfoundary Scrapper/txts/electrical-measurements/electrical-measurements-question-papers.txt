@@ -1,0 +1,98 @@
+1. Ra and Rd are the opposite arms of a Wheatstone bridge as are Rc and Rb. The source voltage is applied across Ra and Rc. Then when the bridge is balanced which one of the following is true?
+a) Ra = Rc Rd/Rb
+b) Ra = Rb Rc/Rd
+c) Ra = Rb Rd/Rc
+d) Ra = Rb + Rc + Rd
+b
+∴ VA – Ia Ra = VA – Ib Rb
+Or, \( \frac{I_a}{I_b}  =  \frac{R_b}{R_a}\) 
+Similarly,  \( \frac{I_a}{I_b}  =  \frac{R_d}{R_c}\) 
+∴ Ra = \( \frac{R_b R_c}{R_d}\). 
+2. A setup is used to measure resistance R. The ammeter and voltmeter resistance are 0.01 Ω and 2000 Ω respectively. Their readings are 2 A and 180 V respectively, giving a measured resistance of 90 Ω. The percentage error in the measurement is?
+a) 2.25 %
+b) 2.35 %
+c) 4.5 %
+d) 4.71 %
+d
+Current through R, IR = 2 – 9/100 = 1.91 A
+Since, 1.91 R = 180
+∴ R = 94.24
+∴ Percentage error = \(\frac{94.24-90}{90}\) × 100 = 4.71 %.
+3. A 35 V DC supply is connected across a resistance in series with an unknown resistance R. a voltmeter having a resistance of 1.2 kΩ is connected across 600 Ω resistance and reads 5 V. The value of the known resistance is 600 Ω. The value of resistance R will be?
+a) 120 Ω
+b) 400 Ω
+c) 1.8 kΩ
+d) 2.4 kΩ
+d
+Current in the circuit, I = \(\displaystyle\frac{5}{\frac{600 ×1200}{600+1200}} = \frac{5}{400}\) A
+∴ R = \(\frac{30 × 400}{5}\) = 2.4 kΩ.
+4. A  DC ammeter is rated for 15 A, 250 V. The meter constant is 14.4 A-s/rev. The meter constant at rated voltage may be expressed as __________
+a) 3750 rev/kW-h
+b) 3600 rev/kW-h
+c) 1000 rev/kW-h
+d) 960 rev/kW-h
+c
+\(\frac{14.1}{3600}\) A-h/rev = \(\frac{14.4 × 250}{3600}\) 
+So, w = 1 W-h/rev
+Hence, 1 rev/W-h = 1000 rev/kW-h.
+5. A DC ammeter has a resistance of 0.1 Ω and its current range is 0-100 A. If the range is to be extended to 0-500 A, the meter requires which of the following shunt resistance?
+a) 0.010 Ω
+b) 0.011 Ω
+c) 0.025 Ω
+d) 1.0 Ω
+c
+Where, m is the multiplication factor = 500/100 = 5
+∴ Rsh = 0.1/4 = 0.025 Ω.
+Join Sanfoundry@YouTube
+6. A 100 μA ammeter has an internal resistance of 100 Ω. The range is to be extended to 500 μA. The shunt required is of resistance __________
+a) 20.0 Ω
+b) 22.22 Ω
+c) 25.0 Ω
+d) 50.0 Ω
+c
+Ish = I – Im or, \(\frac{I}{I_m} – 1 = \frac{R_m}{R_{sh}}\) 
+Now, m = \(\frac{I}{I_m}\) 
+Or, m – 1 = \(\frac{R_m}{R_{sh}}\) 
+∴ Rsh = 25 Ω.
+7. Resistance is measured by the voltmeter-ammeter method employing DC excitation and a voltmeter is connected directly across the unknown resistance. If the voltmeter and ammeter readings are subject to maximum possible errors of ±2.4 % and ±1% respectively, then the magnitude of the maximum possible percentage error in the value of resistance deduced from the measurement is?
+a) 1.4 %
+b) 1.7 %
+c) 2.4 %
+d) 3.4 %
+d
+Voltmeter error ∆V = ± 2.4%
+We know that \(\frac{∆R}{R} = \frac{∆V}{V} + \frac{∆I}{I}\) 
+∴ Maximum percentage error = 2.4% + 1% = 3.4%.
+8. A galvanometer with a full-scale current of 10 mA has a resistance of 1000 Ω. The multiplying power of a 100 Ω shunt with this galvanometer is?
+a) 110
+b) 100
+c) 11
+d) 10
+c
+Now, \(\frac{I_1}{I_2} = \frac{100}{1000} \) 
+∴ \(\frac{I_1}{100} = \frac{I_2}{1000} = \frac{I}{1000} \) 
+∴ \(\frac{I}{I_1}\) = 11.
+9. A slide wire potentiometer has 10 wires of 2 m each. With the help of a standard voltage source of 1.045 V, it is standardized by keeping the jockey at 104.5 cm. If the resistance of potentiometer wires is 2000 Ω, then the value of working current is?
+a) 1 mA
+b) 10 mA
+c) 0.1 mA
+d) 0.5 mA
+b
+Total resistance of slide wire = 2000 Ω
+∴ Resistance per cm = 1 Ω
+Resistance of 104.5 cm = 104.5 Ω
+So, the current = \(\frac{1.045}{104.5}\) = 10 mA.
+10. The simultaneous applications of signals x (t) and y (t) to the horizontal and vertical plates respectively, of an oscilloscope, produce a vertical figure of 8 displays. If P and Q are constants and x(t) = P sin (4t + 30), then y(t) is equal to _________
+a) Q sin (4t -30)
+b) Q sin (2t +15)
+c) Q sin (8t +60)
+d) Q sin (4t +30)
+b
+Here, x-peak = 1 and y-peak = 2
+∴ y(t) = Q sin (2t + 15).
+Sanfoundry Global Education & Learning Series – Electrical Measurements.
+To practice all questions papers on Electrical Measurements, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Electrical Measurements Questions and Answers – Advanced Problems on Error Analysis in Electrical Instruments» Next - Electrical Measurements Questions and Answers – Introduction to AC Bridges 

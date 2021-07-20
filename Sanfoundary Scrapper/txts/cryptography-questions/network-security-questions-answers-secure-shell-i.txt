@@ -1,0 +1,94 @@
+1. Which of the following is not a secure shell protocol?
+a) Transport Layer Protocol
+b) Secure Layer Protocol
+c) Connection Protocol
+d) User Authentication Protocol
+b
+2.Which is the lowest level in the SSH protocol stack?
+a) SSH Transport Layer Protocol
+b) TCP
+c) IP
+d) SSH User Authentication Protocol
+c
+3. How many trust models does the RFC 4251 dictate?
+a) 2
+b) 3
+c) 4
+d) 5
+a
+4. Which is the correct order of the SSH Transport Layer Protocol Packet Exchanges?
+a) Algorithm Negotiation; End of key exchange; Service request; Identification string exchange
+b) Identification string exchange; Algorithm Negotiation; End of key exchange; Service request
+c) Identification string exchange; End of key exchange; Service request; Algorithm Negotiation
+d) Algorithm Negotiation; Identification string exchange; End of key exchange; Service request
+b
+5. The correct order of operations in the SSH Transport Layer Protocol Packet Formation is –
+a) Compression; Encryption; Padding and Addition of seq bits
+b) Compression; Padding and Addition of seq bits; Encryption
+c) Encryption; Padding and Addition of seq bits; Compression
+d) Padding and Addition of seq bits; Encryption; Compression
+b
+6. Size of the sequence number is-
+a) 32 bits
+b) 48 bits
+c) 56 bits
+d) 64 bits
+a
+7. Which one of the following does not undergo the encryption procedure?
+a) pdl
+b) pktl
+c) seq#
+d) padding
+c
+8. What is the recommended cryptographic algorithm for the Secure Shell Transport Layer?
+a) twofish 128
+b) aes 192
+c) aes 128
+d) blowfish
+c
+9. What is the recommended modes of operation for encryption and decryption in the Secure Shell Transport Layer?
+a) ECB
+b) OFB
+c) CBC
+d) CFB
+c
+10. What is the recommended MAC algorithm for the SSH Transport Layer?
+a) HMAC – MD5
+b) HMAC – MD5 – 96
+c) HMAC SHA1 – 96
+d) HMAC SHA1
+c
+11. The session Identifier remains constant throughout the SSH connection.
+a) True
+b) False
+a
+12. In the Key generation procedure, the Initialization Vector from the server to client is represented as:
+a) HASH(K||H||”C”||session_id)
+b) HASH(K||H||”B”||session_id)
+c) HASH(K||H||”F”||session_id)
+d) HASH(K||H||”D”||session_id)
+b
+13. Which port forwarding technique intercepts application-level traffic and redirects it from an insecure TCP connections to secure SSH tunnels?
+a) Remote Forwarding
+b) Local Forwarding
+c) Stable Forwarding
+d) None of the mentioned
+b
+14. The protocol ‘POP’ stands for-
+a) Personal Office Protocol
+b) Post Office Protocol
+c) Privacy Overall Protocol
+d) Privacy Over Protocol
+b
+15.In which port forwarding technique does the client act on the server’s behalf?
+a) Remote Forwarding
+b) Local Forwarding
+c) Stable Forwarding
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – Cryptography and Network Security.
+To practice all areas of Cryptography and Network Security, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Network Security Questions and Answers – Transport Layer Security and HTTPS» Next - Network Security Questions and Answers – Secure Shell(SSH) – II 

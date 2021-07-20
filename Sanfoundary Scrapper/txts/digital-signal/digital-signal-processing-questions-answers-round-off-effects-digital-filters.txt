@@ -1,0 +1,84 @@
+1. The quantization inherent in the finite precision arithmetic operations render the system linear.
+a) True
+b) False
+b
+2. In recursive systems, which of the following is caused because of the nonlinearities due to the finite-precision arithmetic operations?
+a) Periodic oscillations in the input
+b) Non-Periodic oscillations in the input
+c) Non-Periodic oscillations in the output
+d) Periodic oscillations in the output
+d
+3. The oscillations in the output of the recursive system are called as ‘limit cycles’.
+a) True
+b) False
+a
+4. Limit cycles in the recursive are directly attributable to which of the following?
+a) Round-off errors in multiplication
+b) Overflow errors in addition
+c) Both of the mentioned
+d) None of the mentioned
+c
+5. What is the range of values called as to which the amplitudes of the output during a limit cycle ae confined to?
+a) Stop band
+b) Pass band
+c) Live band
+d) Dead band
+d
+6. Zero input limit cycles occur from non-zero initial conditions with the input x(n)=0.
+a) True
+b) False
+a
+7. Which of the following is true when the response of the single pole filter is in the limit cycle?
+a) Actual non-linear system acts as an equivalent non-linear system
+b) Actual non-linear system acts as an equivalent linear system
+c) Actual linear system acts as an equivalent non-linear system
+d) Actual linear system acts as an equivalent linear system
+b
+8. Which of the following expressions define the dead band for a single-pole filter?
+a) |v(n-1)| ≥ \(\frac{(1/2).2^{-b}}{1+|a|}\) 
+b) |v(n-1)| ≥ \(\frac{(1/2).2^{-b}}{1-|a|}\) 
+c) |v(n-1)| ≤ \(\frac{(1/2).2^{-b}}{1-|a|}\) 
+d) None of the mentioned
+c
+|Qr[av(n-1)]-av(n-1)| ≤ \((\frac{1}{2}).2^{-b}\) 
+Where ‘b’ is the number of bits (exclusive of sign) used in the representation of the pole ‘a’ and v(n). Consequently, we get
+|v(n-1)|-|av(n-1)| ≤ \((\frac{1}{2}).2^{-b}\) 
+and hence
+|v(n-1)| ≤ \(\frac{(\frac{1}{2}).2^{-b}}{1-|a|}\) .
+9. What is the dead band of a single pole filter with a pole at 1/2 and represented by 4 bits?
+a) (-1/2,1/2)
+b) (-1/4,1/4)
+c) (-1/8,1/8)
+d) (-1/16,1/16)
+d
+|v(n-1)| ≤ \(\frac{(\frac{1}{2}).2^{-b}}{1-|a|}\) 
+Given |a|=1/2 and b=4 => |v(n-1)| ≤ 1/16=> The dead band is (-1/16,1/16).
+10. The limit cycle mode with zero input, which occurs as a result of rounding the multiplications, corresponds to an equivalent second order system with poles at z=±1.
+a) True
+b) False
+a
+11. What is the necessary and sufficient condition for a second order filter that no zero-input overflow limit cycles occur?
+a) |a1|+|a2|=1
+b) |a1|+|a2|>1
+c) |a1|+|a2|<1
+d) None of the mentioned
+c
+which is extremely restrictive and hence an unreasonable constraint to impose on any second order section.
+12. An effective remedy for curing the problem of overflow oscillations is to modify the adder characteristic.
+a) True
+b) False
+a
+13. What is the dead band of a single pole filter with a pole at 3/4 and represented by 4 bits?
+a) (-1/2,1/2)
+b) (-1/8,1/8)
+c) (-1/4,1/4)
+d) (-1/16,1/16)
+b
+|v(n-1)| ≤ \(\frac{(\frac{1}{2}).2^{-b}}{1-|a|}\) 
+Given |a|=3/4 and b=4 => |v(n-1)| ≤ 1/8=> The dead band is (-1/8,1/8).
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Quantization of Filter Coefficients» Next - Digital Signal Processing Questions and Answers – General Considerations for Design of Digital Filters 

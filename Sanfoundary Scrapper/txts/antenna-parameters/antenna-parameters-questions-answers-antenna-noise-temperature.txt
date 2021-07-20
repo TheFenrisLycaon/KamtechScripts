@@ -1,0 +1,90 @@
+1. Relation between brightness temperature TB and physical body temperatureTp is ____
+a) TB=\((1-\mid\Gamma_s \mid^2) T_p\) 
+b) TB=\(T_p/(1-\mid\Gamma_s \mid^2)\) 
+c) TB=\((1-\mid\Gamma_s \mid)T_p\) 
+d) TB=\((1-\mid\Gamma_s \mid)^2 T_p\) 
+a
+Here Γs  is the reflection coefficient for a given polarization and emissivity =\(1-\mid\Gamma_s \mid^2.\)
+2. If the reflection co-efficient is ½ then emissivity is ___
+a) 3/4
+b) 1/4
+c) 1/2
+d) 3/2
+a
+3. Overall receiver noise temperature expression if T1, T2… are amplifier 1, 2, and so on noise Temperature and G1, G2, and so on are their gain respectively is_____
+a) T = \(T_1+\frac{T_2}{G_1}+\frac{T_3}{G_1 G_2}+⋯ \) 
+b) T = T1+T2 (1-G1)+T3(1-G1G2)+⋯
+c) T = \(T_1+\frac{T_2}{(1-G_1)}+\frac{T_3}{(1-G_1 G_2)}+⋯\) 
+d) T = T1+T2 (G1)+T3(G1G2)+⋯
+a
+System Temperature is one of the important factors to determine the antenna sensitivity and SNR.
+4. Total noise power of the system is P=_____
+a) k(TA+TR)B
+b) k(TA+TR)/B
+c) k(TR)B
+d) kB/Tsys
+a
+⇨	Total noise power of the system is P= k(TA+TR)B
+⇨	K is Boltzmann’s constant and B is the bandwidth
+5.  What is the relation between noise temperature introduced by beam TB and the antenna temperature TA when the solid angle obtained by the noise source is greater than antenna solid angle?
+a) TA= TB
+b) TA > TB
+c) TA < TB
+d) TA « TB
+a
+TA= TB (If Lossless antenna).
+For radio astronomy, ΩB<ΩA and TA≠ TB; ΔTA=\(\frac{\Omega_B}{\Omega_A}T_B\)
+6. Which expression suits best when the solid angle obtained by the noise source is less than antenna solid angle?
+a) PA ΩA=PB ΩB  and ΔTA=\(\frac{\Omega_B}{\Omega_A} T_B\) 
+b) PA ΩB=PB ΩA and ΔTA=\(\frac{\Omega_B}{\Omega_A} T_B\) 
+c) ΔTA=\(\frac{\Omega_A}{\Omega_B} T_B\) and PA ΩB=PB ΩA
+d) ΔTA=\(\frac{\Omega_A}{\Omega_B} T_B\) and PA ΩA=PB ΩB
+a
+TA= TB (If Lossless antenna).
+For radio astronomy, ΩB<ΩA and TA≠ TB; ΔTA=\(\frac{\Omega_B}{\Omega_A} T_B\) and PA ΩA=PB ΩB
+7. Expression for noise figure F related to the effective noise temperature Te is ____
+a) \(F=1+\frac{T_e}{T_o}\) 
+b) \(F=1+\frac{T_0}{T_e}\) 
+c) \(F=1-\frac{T_e}{T_o}\) 
+d) \(F=1-\frac{T_0}{T_e}\) 
+a
+ \(F=1+\frac{T_e}{T_o}, T_o\) is the room temperature.
+8. Effective noise temperature Te in terms of noise figure is ____
+a) Te=To (F-1)
+b) Te=To/(F-1)
+c) Te=To/(F+1)
+d) Te=To (F+1)
+a
+⇨	F-1=\(\frac{T_e}{T_o}\) 
+⇨	Te=To (F-1)
+9. Which of the following statement is false?
+a) Noise power of antenna depends on the antenna temperature as well as the noise due to the receiver surroundings
+b) Noise figure value lies between 0 and 1
+c) Any object with physical temperature greater than 0K radiates energy
+d) Noise power per unit bandwidth is kTA  W/Hz
+b
+And object with physical temperature greater than 0K radiates energy. So \(\frac{T_e}{T_o}\) > 0 and F > 1
+Noise power per unit bandwidth of antenna is kTA  W/Hz while noise power of antenna is kTAB W
+10. Find the effective noise temperature if noise figure is 3 at room temperature (290K)?
+a) 290K
+b) 580K
+c) 289K
+d) 195K
+b
+Noise figure F=1+\(\frac{T_e}{T_o}\) 
+	Te=To(F-1)=290(3-1)=580K.
+11. What should be the noise figure value at which the effective noise temperature equals to room temperature?
+a) 2
+b) 1
+c) 0
+d) 1/T_(o )
+a
+Te=To(F-1)
+	F-1=1
+	F=2.
+Sanfoundry Global Education & Learning Series – Antennas.
+To practice all areas of Antennas, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Antenna Parameters Questions and Answers – Friis Transmission Equation» Next - Antenna Parameters Questions and Answers – Power Radiation from Half Wave Dipole 

@@ -1,0 +1,84 @@
+This section on C++ MCQs (multiple choice questions) focuses on “User Defined Types”. One shall practice these MCQs to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our multiple choice questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C multiple choice questions on “User Defined Types” along with answers, explanations and/or solutions: 
+1. Which keyword is used to define the user defined data types?
+a) def
+b) union
+c) typedef
+d) type
+c
+eg:
+typedef int INT;
+INT a;
+here INT is used defined data type. 
+2. Identify the correct statement.
+a) typedef does not create different types. It only creates synonyms of existing types
+b) typedef create different types
+c) typedef create own types
+d) typedef will not creates synonyms of existing types
+a
+3. What does the data type defined by union will do?
+a) It allow one different portion of memory to be accessed as same data types
+b) It allow one same portion of memory to be accessed as same data types
+c) It allow one different portion of memory to be accessed as different data types
+d) It allow one same portion of memory to be accessed as different data types
+d
+4. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        typedef int num;        num a = 10, b = 15;        num c = a + b + a - b;        cout << c;        return 0;    }
+a) 20
+b) 15
+c) 30
+d) 25
+a
+Output:
+$ g++ user.cpp
+$ a.out
+20
+5. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        int i;        enum month         {            JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,DEC        };        for (i = JAN; i <= DEC; i++)            cout << i;        return 0;    }
+a) 012345678910
+b) 0123456789
+c) 01234567891011
+d) 01234567891011122
+a
+Output:
+$ g++ user1.cpp
+$ a.out
+012345678910
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        typedef int num;        typedef char let;        let w = "steve";        num a = 10, b = 15;        num c = a + w;        cout << c;        return 0;    }
+a) 10steve
+b) steve10
+c) compile time error
+d) compile but not run
+c
+7. What is the syntax of user-defined data types?
+a) typedef ExistingDataType NameByUser
+b) typedef NameByUser ExistingDataType
+c) def NameByUser ExistingDataType
+d) def NameByUser ExistingData
+a
+typedef int INT; (typedef existing-datatype New-name;). 
+8. How many types of user-defined data type are in c++?
+a) 1
+b) 2
+c) 3
+d) 4
+c
+9. What is the scope of typedef defined data types?
+a) inside that block only
+b) whole program
+c) outside the program
+d) main function
+b
+10. How many types of models are available to create the user-defined data type?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Classes – 2» Next - C++ Programming Questions and Answers – Objects 

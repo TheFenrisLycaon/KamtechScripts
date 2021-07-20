@@ -1,0 +1,66 @@
+1. ____________ translates ExpectationErrors into AssertionErrors that several test frameworks, including JUnit 4 and TestNG, use to report errors.
+a) AssertionErrorTranslator
+b) CamelCaseNamingScheme
+c) CurrentStateMatcher
+d) IdentityExpectationErrorTranslator
+a
+2. _________ is a naming scheme wherein the implicit name for a mock object is the mocked type’s name with the first character represented in lower case.
+a) AssertionErrorTranslator
+b) CamelCaseNamingScheme
+c) CurrentStateMatcher
+d) IdentityExpectationErrorTranslator
+b
+3. __________ is an ExpectationErrorTranslator that doesn’t do any translation.
+a) AssertionErrorTranslator
+b) CamelCaseNamingScheme
+c) CurrentStateMatcher
+d) IdentityExpectationErrorTranslator
+d
+4. __________ is an Imposteriser that uses the Proxy class of the Java Reflection API.
+a) AssertionErrorTranslator
+b) CamelCaseNamingScheme
+c) JavaReflectionImposteriser
+d) IdentityExpectationErrorTranslator
+c
+5. ___________ is a naming scheme in which the implicit name for a mock object is the last word of the mocked type’s name in lower case.
+a) AssertionErrorTranslator
+b) CamelCaseNamingScheme
+c) JavaReflectionImposteriser
+d) LastWordNamingScheme
+d
+6. __________ is a naming scheme in which the implicit name for a mock object is the mocked type’s name prepend with “mock”.
+a) RetroNamingScheme
+b) CamelCaseNamingScheme
+c) JavaReflectionImposteriser
+d) LastWordNamingScheme
+a
+7. __________ function translates the given ExpectationError into an error type compatible with another testing framework.
+a) change()
+b) translate()
+c) compatible()
+d) mock()
+b
+8. ___________ interface defines a sequence of expectations.
+a) Sequence
+b) States
+c) Expectations
+d) Mockery
+a
+9. __________ is an interface which defines a state machine that is used to constrain the order of invocations.
+a) Sequence
+b) States
+c) Expectations
+d) Mockery
+b
+10. ____________ class represents the context, or neighborhood, of the object(s) under test.
+a) Sequence
+b) States
+c) Expectations
+d) Mockery
+d
+Sanfoundry Global Education & Learning Series – JUnit.
+To practice all areas of Junit, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - JUnit Questions and Answers – Setting Up a Maven Project» Next - JUnit Questions and Answers – Maven Surefire 

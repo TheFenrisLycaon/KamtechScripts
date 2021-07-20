@@ -1,0 +1,62 @@
+1. What is the ideal reconstruction formula or ideal interpolation formula for x(t) = _________
+a) \(\sum_{-\infty}^\infty x(nT) \frac{sin⁡(π/T) (t-nT)}{(π/T)(t-nT)}\) 
+b) \(\sum_{-\infty}^\infty x(nT) \frac{sin⁡(π/T) (t+nT)}{π/T)(t+nT}\) 
+c) \(\sum_{-\infty}^\infty x(nT) \frac{sin⁡(2π/T) (t-nT)}{2π/T)(t-nT}\) 
+d) \(\sum_{-\infty}^\infty x(nT) \frac{sin⁡(4π/T) (t-nT)}{(4π/T)(t-nT)}\) 
+a
+2. What is the new ideal interpolation formula described after few problems with previous one?
+a) g(t)=\(\frac{sin⁡(2πt/T)}{(πt/T)}\) 
+b) g(t)=\(\frac{sin⁡(πt/T)}{(πt/T)}\) 
+c) g(t)=\(\frac{sin⁡(6 πt/T)}{(πt/T)}\) 
+d) g(t)=\(\frac{sin⁡(3 πt/T)}{(πt/T)}\) 
+b
+3. What is the frequency response of the analog filter corresponding to the ideal interpolator?
+a) H(F)=\(\begin{cases}T, |F|≤ \frac{1}{2T} = F_s/2\\0,|F| > \frac{1}{4T}\end{cases}\) 
+b) H(F)=\(\begin{cases}T, |F|≥ \frac{1}{2T} = F_s/2\\0,|F| > \frac{1}{4T}\end{cases}\) 
+c) H(F)=\(\begin{cases}T, |F|≤ \frac{1}{2T} = F_s/2\\0,|F| > \frac{1}{2T}\end{cases}\) 
+d) H(F)=\(\begin{cases}T, |F|≤ \frac{1}{4T} = F_s/2\\0,|F| > \frac{1}{4T}\end{cases}\) 
+c
+H(F)=\(\begin{cases}T, |F|≤ \frac{1}{2T} = F_s/2\\0,|F| > \frac{1}{2T}\end{cases}\), H(F) is the Fourier transform of the interpolation function g(t). 
+4. The reconstruction of the signal from its samples as a linear filtering process in which a discrete-time sequence of short pulses (ideally impulses) with amplitudes equal to the signal samples, excites an analog filter.
+a) True
+b) False
+a
+5. The ideal reconstruction filter is an ideal low pass filter and its impulse response extends for all time.
+a) True
+b) False
+a
+6. D/A conversion is usually performed by combining a D/A converter with a sample-and-hold (S/H ) and followed by a low pass (smoothing) filter.
+a) True
+b) False
+a
+7. The time required for the output of the D/A converter to reach and remain within a given fraction of the final value, after application of the input code word is called?
+a) Converting time
+b) Setting time
+c) Both Converting & Setting time
+d) None of the mentioned
+b
+8. In D/A converter, the application of the input code word results in a high-amplitude transient, called?
+a) Glitch
+b) Deglitch
+c) Glitter
+d) None of the mentioned
+a
+9. In a D/A converter, the usual way to solve the glitch is to use deglitcher. How is the Deglitcher designed?
+a) By using a low pass filter
+b) By using a S/H circuit
+c) By using a low pass filter & S/H circuit
+d) None of the mentioned
+b
+10. What is the impulse response of an S/H, when viewed as a linear filter?
+a) h(t)=\(\begin{cases}1,0≤t≤T\\0,otherwise\end{cases}\) 
+b) h(t)=\(\begin{cases}1,0≥t≥T\\0,otherwise\end{cases}\) 
+c) h(t)=\(\begin{cases}1,0<t≤T\\0,otherwise\end{cases}\) 
+d) None of the mentioned
+a
+h(t)=\(\begin{cases}1,0≤t≤T\\0,otherwise\end{cases}\)
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Quantization and Coding 

@@ -1,0 +1,68 @@
+1. __________ is used to add a GroupBox to the interface.
+a) GroupBox tool
+b) Group tool
+c) Properties Window
+d) View Window
+a
+2. __________ is used to separate related controls from other controls in the form.
+a) GroupBox
+b) GroupBox tool
+c) View Window
+d) Groups
+a
+3. When you delete a groupbox the controls inside it are __________
+a) Retained
+b) Given to another groupbox
+c) Data loss occurs
+d) Deleted
+d
+4. Use __________ for the optional label entered in the groupbox’s text property.
+a) Word capitalization
+b) Sentence capitalization
+c) Mixed capitalization
+d) Row capitalization
+b
+5. The __________ method creates a periodic payment on either a loan or an investment.
+a) Financial
+b) Pmt
+c) Financial.Pmt
+d) Calculate
+c
+6. What will be the output of the following Visual Basic expression?
+Financial.Pmt (0.05, 3, 9000)
+a) -3304.88
+b) -3408.48
+c) -3034.88
+d) -3043.88
+a
+7. What will be the output of the following Visual Basic expression?
+-Financial.Pmt (0.06/12, 5*12, 12000)
+a) 200
+b) 231.99
+c) 345
+d) 324.99
+b
+8. The number that appears after the period in the __________ value indicates the order in which the controls were added to the groupbox.
+a) Tab index
+b) Tab order
+c) Groupbox tool
+d) Tab value
+a
+9. The TabIndex value of a group box is 5. If the txtName control was the first control added to the group box, its TabIndex value will be __________
+a) 1
+b) 5.0
+c) 5.1
+d) 1.5
+b
+10. Which of the following calculates the quarterly payment on a loan of $6000 for 3 years at 9% interest? Payments should be expressed as a negative number.
+a) Financial.Pmt (0.09/4, 3*12, 6000)
+b) Financial.Pmt (0.09/4, 3*4, 6000)
+c) Financial.Pmt(0.09/12, 3*12, 6000)
+d) Financial.Pmt( 0.09/12, 3*4, 6000)
+b
+Sanfoundry Global Education & Learning Series – Visual Basic.
+To practice all areas of Visual Basic for Experienced people,  here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Visual Basic Questions and Answers – Multiple Alternative Selection Structures» Next - Visual Basic Questions and Answers – Using the MessageBox.Show Method 

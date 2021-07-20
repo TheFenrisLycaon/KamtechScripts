@@ -1,0 +1,81 @@
+1. What is the meaning of the data returned by the sizeof() function?
+a) Length
+b) Location
+c) Pointer
+d) Memory
+a
+2. When the sizeof() function is invoked on an array. What information does it return?
+a) Number of elements in the array
+b) The largest element in the array
+c) The total sum of the ASCII values of the elements in the array
+d) The largest ASCII value of any element in the array
+a
+3. What will the output for the code given below be, if executed on an Arduino UNO?
+void setup() {
+    Serial.begin(9600);
+    Serial.print(sizeof(int));
+}
+a) 3
+b) 1
+c) 2
+d) 8
+c
+4. What function will we use to find out the number of elements in an array?
+a) sizeof()
+b) size()
+c) sf()
+d) sizeOf()
+a
+5. What notation should we use for denoting the breadth of an array?
+a) sizeof(a[0])
+b) sizeof(a)
+c) sizeof(a[])
+d) sizeof(a.0)
+a
+6. What is the output of the following line of code?
+printf("%lu\n", sizeof(char));
+a) 21
+b) %fdf
+c) 1
+d) null
+c
+7.  What will be the output of the following code given below?
+int a = 0; 
+double d = 10.21;
+printf("%lu", sizeof(a + d));
+a) 23
+b) null
+c) 8
+d) 10.21
+c
+8. What does the following code do?
+int* ptr = (int*)malloc(100 * sizeof(int));
+a) Static Memory Allocation
+b) Static Memory Clearance
+c) Dynamic Memory Allocation
+d) Dynamic Memory Clearance
+c
+9. What is the output of the code given below?
+int x = 3; 
+printf("%d\n", sizeof(x++)); 
+printf("x = %d", x);
+a) 3
+b) 4
+c) Runtime Error
+d) null
+a
+10. What will be the output of the following code given below?
+int a = 10; 
+double d = 10.21;
+printf("%lu", sizeof(a + d));
+a) 8
+b) null
+c) 9
+d) 20.21
+a
+Sanfoundry Global Education   &   Learning Series – Arduino.
+To practice all areas of Arduino, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Arduino Questions and Answers – PROGMEM Utility» Next - Arduino Questions and Answers – Finding Out Program Outputs 

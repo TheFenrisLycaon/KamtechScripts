@@ -1,0 +1,100 @@
+This section on C++ programming questions and answers focuses on “Function Objects”. One shall practice these questions to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These questions can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ programming interview questions come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ language programming questions on “Function Objects” along with answers, explanations and/or solutions:
+1. What does the function objects implement?
+a) operator
+b) operator()
+c) operand
+d) operand<>
+b
+2. What are the two advantage of function objects than the function call?
+a) It contains a state
+b) It is a type
+c) It contains a state & It is a type
+d) It contains a prototype
+c
+3. Which header is need to be used with function objects?
+a) <function>
+b) <functional>
+c) <funct>
+d) <functionstream>
+b
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <functional>    #include <algorithm>    using namespace std;    int main ()    {        int first[] = {10, 40, 90};        int second[] = {1, 2, 3};        int results[5];        transform ( first, first + 5, second, results, divides<int>());        for (int i = 0; i < 3; i++)            cout << results[i] << " ";        return 0;    }
+a) 10 20
+b) 20 30
+c) 10 20 30
+d) 20 40
+c
+Output:
+$ g++ funo.cpp
+$ a.out
+10 20 30
+5. What will be the output of the following C++ code?
+Join [email protected]
+    #include <iostream>     #include <functional>    #include <algorithm>    using namespace std;    int main ()     {        int numbers[] = {3, -4, -5};        transform ( numbers, numbers + 3, numbers, negate<int>() );        for (int i = 0; i < 3; i++)            cout << numbers[i] << " ";    }
+a) -3
+b) 3 4 5
+c) 3 -4 5
+d) -3 4 5
+d
+Output:
+$ g++ funo1.cpp
+$ a.out
+-3 4 5
+6. What will be the output of the following C++ code?
+    #include <iostream>    #include <functional>    #include <vector>    #include <algorithm>    #include <string>    using namespace std;    int main ()     {        vector <string*> numbers;        numbers.push_back ( new string ("one") );        numbers.push_back ( new string ("two") );        numbers.push_back ( new string ("three") );        vector <int> lengths ( numbers.size() );        transform (numbers.begin(), numbers.end(), lengths.begin(),         mem_fun(&string :: length));        for (int i = 0; i < 3; i++)         {            cout << lengths[i];        }        return 0;    }
+a) 335
+b) 225
+c) 334
+d) 224
+a
+Output:
+$ g++ funo2.cpp
+$ a.out
+335
+7. What will be the output of the following C++ code?
+    #include <iostream>    #include <functional>    #include <algorithm>    using namespace std;    int main ()     {        int numbers[] = {1, 2, 3};        int remainders[5];        transform ( numbers, numbers + 5, remainders,         bind2nd(modulus<int>(), 2) );        for (int i = 0; i < 5; i++)            cout << (remainders[i] == 1 ? "odd" : "even") << "\n";        return 0;    }
+a) 
+odd
+even
+b) even
+c) 
+odd 
+odd
+d) 
+odd
+even
+odd
+odd
+even
+d
+  
+8. What will be the output of the following C++ code?
+    #include <iostream>    #include <functional>    #include <algorithm>    using namespace std;    int main ()    {        int numbers[] = {10, -20, -30, 40, -50};        int cx;        cx = count_if ( numbers, numbers + 5, bind2nd(less<int>(), 0) );        cout << cx;        return 0;    }
+a) 1
+b) 2
+c) 3
+d) 4
+c
+Output:
+$ g++ funo3.cpp
+$ a.out
+3
+9. Which are instances of a class with member function operator() when it is defined?
+a) function objects
+b) member
+c) methods
+d) iterators
+a
+10. How many parameters does a operator() in a function object shoud take?
+a) 1
+b) 2
+c) 3
+d) 4
+b
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Sequences and Containers» Next - C++ Programming Questions and Answers – Non Modifying Sequence Algorithms 

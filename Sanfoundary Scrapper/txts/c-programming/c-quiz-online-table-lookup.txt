@@ -1,0 +1,64 @@
+Sanfoundry’s 1000+ Interview Questions & Answers on C helps anyone preparing for Brocade and other companies C interviews. One should practice these 1000+ interview questions and answers continuously for 2-3 months to clear Brocade interviews on C Programming language. 
+Here is a listing of online C quiz on “Table Lookup” along with answers, explanations and/or solutions:
+1. What will be the output of the following C code?
+    #include <stdio.h>    struct student    {        char a[5];    };    void main()    {        struct student s[] = {"hi", "hey"};        printf("%c", s[0].a[1]);    }
+a) h
+b) i
+c) e
+d) y
+b
+2. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        char *a[3] = {"hello", "this"};        printf("%s", a[1]);    }
+a) hello
+b) Varies
+c) this
+d) Compile time error
+c
+3. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        int lookup[100] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};        printf("%d", lookup[3]);    }
+a) 2
+b) 4
+c) Compile time error
+d) 3
+d
+4. What will be the output of the following C code?
+    #include <stdio.h>    void main()    {        char *a[3][3] = {{"hey", "hi", "hello"}, {"his", "her", "hell"}        , {"hellos", "hi's", "hmm"}};        printf("%s", a[1][1]);    }
+a) her
+b) hi
+c) Compile time error
+d) hi’s
+a
+5. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        char *name;        struct p *next;    };    struct p *ptrary[10];    int main()    {        struct p p;        p->name = "xyz";        p->next = NULL;        ptrary[0] = &p;        printf("%s\n", p->name);        return 0;    }
+a) Compile time error
+b) Segmentation fault/code crash
+c) xyz
+d) Undefined behaviour
+a
+6. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        char *name;        struct p *next;    };    struct p *ptrary[10];    int main()    {        struct p p;        p.name = "xyz";        p.next = NULL;        ptrary[0] = &p;        printf("%s\n", ptrary[0]->name);        return 0;    }
+a) Compile time error
+b) Segmentation fault
+c) Undefined behaviour
+d) xyz
+d
+7. What will be the output of the following C code?
+    #include <stdio.h>    struct p    {        char *name;        struct p *next;    };    struct p *ptrary[10];    int main()    {        struct p p, q;        p.name = "xyz";        p.next = NULL;        ptrary[0] = &p;        strcpy(q.name, p.name);        ptrary[1] = &q;        printf("%s\n", ptrary[1]->name);        return 0;    }
+a) Compile time error
+b) Segmentation fault/code crash
+c) Depends on the compiler
+d) xyz
+b
+8. What will be the output of the following C code?
+    #include <stdio.h>    int main()    {        struct p        {            char *name;            struct p *next;        };        struct p p, q;        p.name = "xyz";        p.next = NULL;        ptrary[0] = &p;        strcpy(q.name, p.name);        ptrary[1] = &q;        printf("%s\n", ptrary[1]->name);        return 0;    }
+a) Compile time error
+b) Depends on the compiler
+c) Undefined behaviour
+d) xyz
+c
+Sanfoundry Global Education & Learning Series – C Programming Language.
+C Practice ResourcesC Mock Tests & Certification Test | 1000 C MCQs | 1000 C Programs | 1000 C Algorithms | Best C Books | C Internship
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C Programming Questions and Answers – Self-Referential Structures – 2» Next - C Programming Questions and Answers – Table Lookup – 2 

@@ -1,0 +1,66 @@
+1. ARIES uses a ___________ to identify log records, and stores it in database pages.
+a) Log sequence number
+b) Log number
+c) Lock number
+d) Sequence
+b
+2. ARIES supports ___________ operations, which are physical in that the affected page is physically identified, but can be logical within the page.
+a) Physiological redo
+b) Physiological undo
+c) Logical redo
+d) Logical undo
+a
+3. ______________ is used to minimize unnecessary redos during recovery.
+a) Dirty page table
+b) Page table
+c) Dirty redo
+d) All of the mentioned
+a
+4. __________ scheme that records only information about dirty pages and associated information and does not even require of writing dirty pages to disk.
+a) Fuzzy logic
+b) Checkpoints
+c) Fuzzy-checkpoint
+d) Logical checkpoint
+c
+5. Whenever an update operation occurs on a page, the operation stores the LSN of its log record in the _______ field of the page.
+a) LSN
+b) ReadLSN
+c) PageLSN
+d) RedoLSN
+c
+6. There are special redo-only log records generated during transaction rollback, called _________ in ARIES.
+a) Compensation log records
+b) Read log records
+c) Page log records
+d) Redo log records
+a
+7. The __________________ contains a list of pages that have been updated in the database buffer.
+a) Dirty page table
+b) Page table
+c) Dirty redo
+d) All of the mentioned
+a
+8. ___________ determines which transactions to undo, which pages were dirty at the time of the crash, and the LSN from which the redo pass should start.
+a) Analysis pass
+b) Redo pass
+c) Undo pass
+d) None of the mentioned
+a
+9. __________ starts from a position determined during analysis, and performs a redo, repeating history, to bring the database to a state it was in before the crash.
+a) Analysis pass
+b) Redo pass
+c) Undo pass
+d) None of the mentioned
+b
+10. ______________ rolls back all transactions that were incomplete at the time of crash.
+a) Analysis pass
+b) Redo pass
+c) Undo pass
+d) None of the mentioned
+c
+Sanfoundry Global Education & Learning Series – Database Management System.
+To practice all areas of Database Management System, here is complete set on 1000+ Multiple Choice Questions and Answers on Database Management System.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Database Questions and Answers – Failure with Nonvolatile Storage» Next - Database Questions and Answers – Lock Release and Undo Operations 

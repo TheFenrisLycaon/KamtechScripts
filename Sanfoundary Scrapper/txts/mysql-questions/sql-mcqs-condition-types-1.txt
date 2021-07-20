@@ -1,0 +1,81 @@
+1. Select odd one out?
+a) Equality Conditions
+b) Inequality Conditions
+c) Range condition
+d) Between
+d
+2. The following MySQL query belongs to which condition types?
+SELECT fname
+FROM person
+WHERE title=’TELLER’;
+a) Equality condition
+b) Inequality condition
+c) Range condition
+d) All of the mentioned
+a
+3. The following MySQL statement belongs to which condition types?
+SELECT fname
+FROM person
+WHERE fed_id=’111-11-111’;
+a) Equality condition
+b) Inequality condition
+c) Range condition
+d) All of the mentioned
+a
+4. The following MySQL statement belongs to which condition types?
+SELECT fname
+FROM person
+WHERE dept_id= (SELECT dept_id FROM department WHERE names=’s’);
+a) Equality condition
+b) Inequality condition
+c) Range condition
+d) All of the mentioned
+a
+5. Is the following MySQL statement belongs to the “Equality condition”?
+SELECT product_type.name, product.name
+FROM product_type INNER JOIN Product
+ON product_type.dept=Product.dept
+WHERE product_type.name=’customers_accounts’;
+a) Yes
+b) No
+c) Depends
+d) None of the mentioned
+a
+6. What is the meaning of “Equality Conditions”?
+a) Equal to
+b) Not equal to
+c) Both Equal to and Not equal to
+d) None of the mentioned
+a
+7. What is the meaning of “Inequality Condition”?
+a) Not equal to
+b) Equal to
+c) Both Not equal to and Equal to
+d) None of the mentioned
+a
+8. Does the following MySQL statement belong to the “Inequality condition”?
+SELECT product_type.name, product.name
+FROM product_type INNER JOIN Product
+ON product_type.dept=Product.dept
+WHERE product_type.name<>’customers_accounts’;
+a) Yes
+b) No
+c) Depends
+d) None of the mentioned
+a
+9. Does the following MySQL statement belong to the “Inequality condition”?
+SELECT product_type.name, product.name
+FROM product_type INNER JOIN Product
+ON product_type.dept=Product.dept
+WHERE product_type.name! =’customers_accounts’;
+a) Yes
+b) No
+c) Depends
+d) None of the mentioned
+a
+Sanfoundry Global Education & Learning Series – MySQL Database.
+To practice all areas of MySQL Database, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - MySQL Questions and Answers – Conditional Evaluation» Next - MySQL Questions and Answers – Condition Types – 2 

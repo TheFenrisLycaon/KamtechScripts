@@ -1,0 +1,95 @@
+This section on C++ problems focuses on “Standard Exceptions”. One shall practice these problems to improve their C++ programming skills needed for various interviews (campus interviews, walkin interviews, company interviews), placements, entrance exams and other competitive exams. These problems can be attempted by anyone focusing on learning C++ programming language. They can be a beginner, fresher, engineering graduate or an experienced IT professional. Our C++ problems come with detailed explanation of the answers which helps in better understanding of C++ concepts.
+Here is a listing of C++ problems on “Standard Exceptions” along with answers, explanations and/or solutions:
+1. Which header file is used to declare the standard exception?
+a) #include<exception>
+b) #include<except>
+c) #include<error>
+d) #include<exce>
+a
+2. Where are standard exception classes grouped?
+a) namespace std
+b) error
+c) catch
+d) final
+a
+3. How many types of standard exception are there in c++?
+a) 9
+b) 5
+c) 6
+d) 7
+a
+4. What will be the output of the following C++ code?
+    #include <iostream>    #include <exception>    using namespace std;    class myexc: public exception    {        virtual const char* what() const throw()        {            return "My exception";        }    } myex;    int main ()     {        try        {            throw myex;        }        catch (exception& e)        {            cout << e.what() << endl;        }        return 0;    }
+a) My
+b) My exception
+c) No exception
+d) exception
+b
+also as a standard exception.
+Output:
+$ g++ std.cpp
+$ a.out
+My exception
+5. What will be the output of the following C++ code?
+    #include <iostream>    #include <exception>    using namespace std;    int main ()     {        try        {            int* myarray= new int[1000];            cout << "Allocated";        }        catch (exception& e)        {            cout << "Standard exception: " << e.what() << endl;        }        return 0;    }
+a) Allocated
+b) Standard exception:
+c) bad_alloc
+d) Depends on memory
+d
+Output:
+$ g++ std1.cpp
+$ a.out
+Allocated
+6. What will be the output of the following C++ code?
+    #include <iostream>    using namespace std;    int main()    {        char* ptr;        unsigned long int a = (size_t(0) / 3);        cout << a << endl;        try        {            ptr = new char[size_t(0) / 3];            delete[ ] ptr;        }        catch(bad_alloc &thebadallocation)        {            cout << thebadallocation.what() << endl;        };        return 0;    }
+a) 0
+b) 2
+c) bad_alloc
+d) depends on compiler
+a
+Output:
+$ g++ std2.cpp
+$ a.out
+0
+7. What will be the output of the following C++ code?
+    #include <typeinfo>    #include <iostream>    using namespace std;    class shape    {        public:        virtual void myvirtualfunc() const {}    };    class mytriangle: public shape    {        public:        virtual void myvirtualfunc() const        {           };    };    int main()    {        shape shape_instance;        shape &ref_shape = shape_instance;        try         {            mytriangle &ref_mytriangle = dynamic_cast<mytriangle&>(ref_shape);        }        catch (bad_cast)         {            cout << "Caught: bad_cast exception\n";        }        return 0;    }
+a) Caught standard exception
+b) No exception arises
+c) Caught: bad_cast exception
+d) Caught: cast
+c
+So it is arising an exception.
+Output:
+$ g++ std3.cpp
+$ a.out
+Caught: bad_cast exception
+8. What will be the output of the following C++ code?
+    #include <typeinfo>    #include <iostream>    using namespace std;    class Test    {        public:        Test();        virtual ~Test();    };    int main()    {        Test *ptrvar = NULL;        try         {            cout << typeid(*ptrvar).name() << endl;        }        catch (bad_typeid)         {            cout << "The object is null" << endl;        }        return 0;    }
+a) No exception arises
+b) The object is null
+c) Error
+d) The object is
+b
+Output:
+$ g++ std4.cpp
+$ a.out
+The object is null
+9. Which of the following is best to include under try block?
+a) static values
+b) const values
+c) dynamic allocations
+d) default values
+c
+10. What are the predefined exceptions in c++?
+a) Memory allocation errors
+b) I/O errors
+c) Both Memory allocation errors & I/O errors
+d) static errors
+c
+Sanfoundry Global Education & Learning Series – C++ Programming Language.
+C++ Practice ResourcesC++ Mock Tests & Certification Test | 1000 C++ MCQs | 1000 C++ Algorithms | Best C++ Books
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - C++ Programming Questions and Answers – Error Handling Alternatives» Next - C++ Programming Questions and Answers – Class Hierarchies Introduction 

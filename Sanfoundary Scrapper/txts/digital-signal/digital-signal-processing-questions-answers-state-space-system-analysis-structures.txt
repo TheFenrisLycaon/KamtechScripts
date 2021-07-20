@@ -1,0 +1,60 @@
+1. The state space or the internal description of the system still involves a relationship between the input and output signals, what are the additional set of variables it also involves?
+a) System variables
+b) Location variables
+c) State variables
+d) None of the mentioned
+c
+2. State variables provide information about all the internal signals in the system.
+a) True
+b) False
+a
+3. Which of the following gives the complete definition of the state of a system at time n0?
+a) Amount of information at n0 determines output signal for n≥n0
+b) Input signal x(n) for n≥n0 determines output signal for n≥n0
+c) Input signal x(n) for n≥0 determines output signal for n≥n0
+d) Amount of information at n0+input signal x(n) for n≥n0 determines output signal for n≥n0
+d
+4. From the definition of state of a system, the system consists of only one component called memory less component.
+a) True
+b) False
+b
+5. If we interchange the rows and columns of the matrix F, then the system is called as ______________
+a) Identity system
+b) Diagonal system
+c) Transposed system
+d) None of the mentioned
+c
+6. A single input-single output system and its transpose have identical impulse responses and hence the same input-output relationship.
+a) True
+b) False
+a
+7. A closed form solution of the state space equations is easily obtained when the system matrix F is?
+a) Transpose
+b) Symmetric
+c) Identity
+d) Diagonal
+d
+8. What is the condition to call a number λ is an Eigen value of F and a nonzero vector U is the associated Eigen vector?
+a) (F+λI)U=0
+b) (F-λI)U=0
+c) F-λI=0
+d) None of the mentioned
+b
+FU=λU
+Thus, we obtain (F-λI)U=0.
+9. The determinant |F-λI|=0 yields the characteristic polynomial of the matrix F.
+a) True
+b) False
+a
+The above equation has a nonzero solution U if the matrix F-λI is singular, which is the case if the determinant of (F-λI) is zero. That is, |F-λI|=0.
+This determinant yields the characteristic polynomial of the matrix F.
+10. The parallel form realization is also known as normal form representation.
+a) True
+b) False
+a
+Sanfoundry Global Education & Learning Series – Digital Signal Processing.
+To practice all areas of Digital Signal Processing, here is complete set of 1000+ Multiple Choice Questions and Answers.
+Participate in the Sanfoundry Certification contest to get free Certificate of Merit. Join our social networks below and stay updated with latest contests, videos, internships and jobs!
+Telegram | Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+Youtube | LinkedIn | Instagram | Facebook | Twitter | Pinterest
+« Prev - Digital Signal Processing Questions and Answers – Structures for IIR Systems» Next - Digital Signal Processing Questions and Answers – Representation of Numbers – 1 
